@@ -1,0 +1,19 @@
+---
+layout: 
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+  {% for page in site.pages %}
+    {% if page.title %}
+      <page>
+        <title>{{ page.title | remove: '&' | xml_escape }}</title>
+        <link>{{ page.url | prepend: site.baseurl }}</link>
+        <description>{{ page.description | xml_escape }}</description>
+        <keywords>{{ page.keywords | xml_escape }}</keywords>
+        <exclude>{% if page.search_exclude %}true{% else %}false{% endif %}</exclude>
+      </page>
+    {% endif %}
+  {% endfor %}
+</pages>
+

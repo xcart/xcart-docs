@@ -1,0 +1,16 @@
+---
+title: X-Cart 5 Developer Documentation
+description: X-Cart 5 Developer Documentation
+
+# Paths
+pages: _pages/devs_en
+
+# Urls
+url: http://devs.x-cart.com
+
+# Search
+search:
+  preferred: devs.x-cart.com
+
+# Site settings
+lang_default: en

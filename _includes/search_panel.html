@@ -1,0 +1,15 @@
+<div class="search-panel">
+    <form class="ui form search-form">
+        <div class="ui fluid action input">
+            <input class="search-input" type="text" name="q" value="">
+            <button class="ui primary button" type="submit">
+                <i class="icon search"></i>
+                {{ site.data.labels['Search'][page.lang] }}
+            </button>
+        </div>
+    </form>
+</div>
+<div class="search-results reloading" id="search-results">
+    <div class="ui active inverted dimmer"><div class="ui text loader">{{ site.data.labels['Please wait...'][page.lang] }}</div></div>
+    <p class="search-query"></p>
+</div>

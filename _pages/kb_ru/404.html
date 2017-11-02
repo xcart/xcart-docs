@@ -1,0 +1,20 @@
+---
+layout: base
+lang: ru
+permalink: /ru/404.html
+large_header: false
+---
+
+<div class="not-found-page">
+  <div class="ui center aligned container">
+    <div class="image">
+      <img class="ui small centered rounded image" src="{{ '/images/octopus_2.png' | prepend: site.baseurl }}">
+    </div>
+    <div class="ui sizer text">
+      <div class="ui huge header">{{ site.data.labels['Sorry, this page was not found'][page.lang] }}</div>
+      <div class="ui medium header">
+        {{ site.data.labels['If something is missing please let us know what you were looking for'][page.lang] }}
+      </div>
+    </div>
+  </div>
+</div>

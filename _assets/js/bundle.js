@@ -1,0 +1,12 @@
+//= require vendor/underscore-min.js
+//= require vendor/moment.js
+//= require vendor/clipboard.js
+//= require vendor/object_hash.js
+//= require vendor/semantic.js
+//= require cse.wrapper.js
+//= require search.js
+//= require language.js
+//= require sidebar.js
+//= require lightbox.js
+//= require copypaste.js
+//= require tabs.js

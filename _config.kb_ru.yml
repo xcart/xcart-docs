@@ -1,0 +1,16 @@
+---
+title: X-Cart 5. База знаний
+description: X-Cart 5. База знаний
+
+# Paths
+pages: _pages/kb_ru
+
+# Urls
+url: http://kb.x-cart.ru
+
+# Search
+search:
+  preferred: kb.x-cart.ru
+
+# Site settings
+lang_default: ru

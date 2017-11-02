@@ -1,0 +1,69 @@
+'X-Cart Developer Documentation':
+    en: 'X-Cart Developer Documentation'
+    ru: 'Документация для разработчиков X-Cart'
+
+'X-Cart Knowledge Base':
+    en: 'X-Cart Knowledge Base'
+    ru: 'База знаний X-Cart'
+
+'devs_tagline':
+    en: 'Essential resources for X-Cart 5 developers'
+    ru: 'Ценные ресурсы для разработчиков X-Cart 5'
+
+'kb_tagline':
+    en: 'Everything you need to know to manage your X-Cart 5 store'
+    ru: 'Все, что нужно знать, чтобы грамотно управлять магазином X-Cart 5'
+
+'Sorry, this page was not found':
+    en: 'Sorry, this page was not found'
+    ru: 'Страница не найдена'
+
+'If something is missing please let us know what you were looking for':
+    en: 'If something is missing please let us know what you were looking for'
+    ru: 'Если вы не нашли что-то, что было здесь ранее, дайте нам знать'
+
+'Updated':
+    en: 'Updated'
+    ru: 'Обновлено'
+
+'Search':
+    en: 'Search'
+    ru: 'Искать'
+
+'Please wait...':
+    en: 'Please wait...'
+    ru: 'Пожалуйста, подождите...'
+
+'Navigation':
+    en: 'Also in section'
+    ru: 'Также в секции'
+
+'Home':
+    en: 'Home'
+    ru: 'Главная'
+
+'Menu':
+    en: 'Menu'
+    ru: 'Меню'
+
+'Get started':
+    en: 'Get started'
+    ru: 'C чего начать?'
+
+'Developers blog':
+    en: "Developers' blog"
+    ru: "Блог разработчиков"
+
+'This article applies to the specific versions of X-Cart':
+    en: 'This article applies to the specific versions of software:'
+    ru: 'Данная статья применима к следующим версиям:'
+
+# Links
+
+'developers_blog_link':
+    en: '/what_is_new/'
+    ru: '/what_is_new/'
+
+'getting_started_link':
+    en: '/getting_started/'
+    ru: '/getting_started/'

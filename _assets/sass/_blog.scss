@@ -1,0 +1,48 @@
+#blogposts-heading {
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+}
+
+#blogposts {
+    .blogpost {
+        font-size: 1rem;
+
+        .header {
+            font-weight: 300;
+        }
+
+        .avatar.image, .article-meta {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .article-meta {
+            font-size: 0.75rem;
+            line-height: 1.4em;
+
+            .author {
+                font-size: 1.1em;
+            }
+            .date {
+                color: rgba(0,0,0,0.4);
+            }
+        }
+
+        .meta {
+            margin: 1rem 0;
+        }
+
+        .extra {
+            margin-top: 1rem;
+        }
+    }
+    .blogpost + .blogpost {
+        margin-top: 4rem;
+    }
+}
+
+article.blog {
+    .post-content {
+        font-size: 1rem;
+    }
+}

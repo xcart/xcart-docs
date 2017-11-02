@@ -1,0 +1,49 @@
+<header id="banner" class="banner ui vertical inverted segment {% if page.large_header %}banner-large{% endif %}">
+
+  <div class="banner-menu ui large secondary inverted menu">
+    <div class="ui container">
+      <a class="header item" href="{{ baseurl_link }}">
+        <img src="{{ '/images/logo_white.svg' | prepend: site.baseurl }}">
+      </a>
+
+      <div class="right menu">
+        <!-- Top categories -->
+        {% for item in site.pages %}
+          {% if item.title and item.categories contains 'top' and item.lang == page.lang %}
+            <a class="item" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+          {% endif %}
+        {% endfor %}
+
+        <!-- Search panel -->
+        <form class="ui item" action="{{ '/search.html' | prepend: baseurl_link }}">
+          <div class="ui category search site-search">
+            <div class="ui transparent inverted icon input">
+              <input class="prompt" type="text" placeholder="Search..." name="q">
+              <i class="search icon"></i>
+            </div>
+            <div class="results"></div>
+          </div>
+        </form>
+
+        <!-- Language selector -->
+        <!-- TODO: Insert lang selector here -->
+      </div>
+    </div>
+  </div>
+  {% if page.large_header %}
+    <div class="banner-welcome ui center aligned container">
+      <h1 class="ui inverted header">
+        <div class="headline">{{ site.data.labels['X-Cart Developer Documentation'][page.lang] }}</div>
+        <div class="tagline">{{ site.data.labels['devs_tagline'][page.lang] }}</div>
+      </h1>
+      <div class="ui hidden divider"></div>
+      <a href="{{ site.data.labels['getting_started_link'][page.lang] | prepend: baseurl_link }}" class="ui huge inverted basic button">
+          {{ site.data.labels['Get started'][page.lang] }}
+      </a>
+      <a href="{{ site.data.labels['developers_blog_link'][page.lang] | prepend: baseurl_link }}" class="ui huge inverted basic button">
+          {{ site.data.labels['Developers blog'][page.lang] }}
+      </a>
+    </div>
+  {% endif %}
+
+</header>

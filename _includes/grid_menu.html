@@ -1,0 +1,37 @@
+<div class="ui vertical navigation segment">
+  <div class="ui stackable grid container">
+    {% assign home_pages = site.pages | sort: 'order' %}
+    {% for item in home_pages %}
+      {% if item.title and item.categories contains 'home' and item.lang == page.lang %}
+          <div class="sixteen wide mobile eight wide tablet third wide computer column">
+              <div class="navigation-item">
+                <a href="{{ item.url | prepend: site.baseurl }}">
+                  <h2 class="ui header">
+                    <i class="{{ item.icon }} icon"></i>
+                    <div class="content">
+                      {{ item.title }}
+                    </div>
+                  </h2>
+                  <p>{{ item.description }}</p>
+                </a>
+            </div>
+          </div>
+      {% endif %}
+    {% endfor %}
+
+    <!-- link to developer docs -->
+    <div class="sixteen wide mobile eight wide tablet third wide computer column">
+      <div class="navigation-item">
+        <a href="http://kb.x-cart.com">
+          <h2 class="ui header">
+            <i class="book icon"></i>
+            <div class="content">
+              Go to knowledge base
+            </div>
+          </h2>
+          <p>Learn more about X-Cart - PHP e-Commerce shopping cart, how to setup and configure it</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

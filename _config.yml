@@ -1,0 +1,67 @@
+---
+timezone: UTC
+email: daemos@x-cart.com
+
+# Paths
+articles_path: ''
+index_path: links.xml
+exclude: 
+  - start.sh
+  - build.sh
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Urls
+baseurl: ''
+
+encoding: utf-8
+repository: xcart/xcart-docs
+ga_code: UA-56346543-1
+google_verification: 
+
+# Build options
+safe: false
+markdown: kramdown
+incremental: false
+lsi: true
+kramdown:
+  input: GFM
+  gfm_quirks: paragraph_end
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-assets
+
+# Assets
+assets:
+  autowrite: true
+  prefix: "/assets"
+  digest: true
+  sources:
+    - _assets/css
+    - _assets/sass
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
+    - _assets/img
+    - _assets/js
+  features:
+    liquid: false
+    integrity: false
+
+# Search
+cse:
+  host: kbsearch.x-cart.com
+  path: search
+
+# Site settings
+sort_default: order
+sorts:
+  changelog: updated_at
+lang_default: en

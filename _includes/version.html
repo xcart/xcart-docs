@@ -1,0 +1,6 @@
+{% if page.version %}
+<div class="ui yellow segment">
+  <i class="warning sign icon"></i>
+  {{ site.data.labels['This article applies to the specific versions of X-Cart'][page.lang] }} <b>{{ page.version }}</b>
+</div>
+{% endif %}

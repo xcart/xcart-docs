@@ -1,0 +1,179 @@
+ {
+    "freeShip": false,
+    "freightFixedFee": 0,
+    "isCustomerAttachmentsAvailable": false,
+    "isCustomerAttachmentsRequired": false,
+    "participateSale": false,
+    "discountType": "sale_price",
+    "salePriceValue": 0,
+    "pinCodesEnabled": false,
+    "autoPinCodes": false,
+    "marketPrice": 0,
+    "ogMeta": "",
+    "useCustomOG": false,
+    "product_id": 1,
+    "price": 19.99,
+    "sku": "10001",
+    "enabled": true,
+    "weight": 0.32,
+    "useSeparateBox": false,
+    "boxWidth": 0,
+    "boxLength": 0,
+    "boxHeight": 0,
+    "itemsPerBox": 1,
+    "free_shipping": false,
+    "taxable": true,
+    "javascript": "",
+    "arrivalDate": 1424506256,
+    "date": 1437466241,
+    "updateDate": 1437466242,
+    "needProcess": false,
+    "attrSepTab": true,
+    "metaDescType": "A",
+    "upsellingProducts": [],
+    "upsellingParentProducts": [],
+    "reviews": [],
+    "variants": [],
+    "variantsAttributes": [],
+    "vendor": null,
+    "tabs": [],
+    "views_stats": [],
+    "purchase_stats": [],
+    "pinCodes": [],
+    "attachments": [],
+    "featuredProducts": [],
+    "categoryProducts": [
+      {
+        "id": 1,
+        "orderby": 0
+      }
+    ],
+    "order_items": [
+      {
+        "xpcFakeItem": false,
+        "item_id": 10,
+        "name": "Planet Express Babydoll",
+        "sku": "10001",
+        "price": 19.99,
+        "itemNetPrice": 19.99,
+        "discountedSubtotal": 17.979,
+        "amount": 1,
+        "total": 19.99,
+        "subtotal": 19.99
+      }
+    ],
+    "images": [
+      {
+        "orderby": -10,
+        "alt": "Planet Express Babydoll",
+        "s3icons": [],
+        "width": 500,
+        "height": 494,
+        "hash": null,
+        "needProcess": true,
+        "id": 1,
+        "path": "demo_p4003.jpeg",
+        "fileName": "",
+        "mime": "image\/jpeg",
+        "storageType": "r",
+        "size": 29749,
+        "date": 1280310731
+      }
+    ],
+    "inventory": {
+      "inventoryId": 1,
+      "enabled": true,
+      "amount": 50,
+      "lowLimitEnabled": true,
+      "lowLimitAmount": 10
+    },
+    "productClass": {
+      "id": 1,
+      "position": 0
+    },
+    "taxClass": null,
+    "attributes": [],
+    "attributeValueC": [],
+    "attributeValueT": [],
+    "attributeValueS": [
+      {
+        "priceModifier": 0,
+        "priceModifierType": "a",
+        "weightModifier": 0,
+        "weightModifierType": "a",
+        "defaultValue": false,
+        "id": 1
+      },
+      {
+        "priceModifier": 0,
+        "priceModifierType": "a",
+        "weightModifier": 0,
+        "weightModifierType": "a",
+        "defaultValue": false,
+        "id": 2
+      },
+      {
+        "priceModifier": 0,
+        "priceModifierType": "a",
+        "weightModifier": 0,
+        "weightModifierType": "a",
+        "defaultValue": false,
+        "id": 3
+      },
+      {
+        "priceModifier": 0,
+        "priceModifierType": "a",
+        "weightModifier": 0,
+        "weightModifierType": "a",
+        "defaultValue": false,
+        "id": 4
+      },
+      {
+        "priceModifier": 0,
+        "priceModifierType": "a",
+        "weightModifier": 0,
+        "weightModifierType": "a",
+        "defaultValue": false,
+        "id": 244
+      }
+    ],
+    "quickData": [
+      {
+        "id": 13,
+        "price": 19.99
+      },
+      {
+        "id": 14,
+        "price": 19.99
+      }
+    ],
+    "memberships": [],
+    "cleanURLs": [
+      {
+        "id": 1,
+        "cleanURL": "planet-express-babydoll.html"
+      }
+    ],
+    "translations": [
+      {
+        "name": "Planet Express Babydoll",
+        "description": "",
+        "briefDescription": "",
+        "metaTags": "",
+        "metaDesc": "",
+        "metaTitle": "",
+        "label_id": 1,
+        "code": "en"
+      },
+      {
+        "name": "\u0424\u0443\u0442\u0431\u043e\u043b\u043a\u0430 \"Planet Express Babydoll\"",
+        "description": "",
+        "briefDescription": "",
+        "metaTags": "",
+        "metaDesc": "",
+        "metaTitle": "",
+        "label_id": 46,
+        "code": "ru"
+      }
+    ]
+  }

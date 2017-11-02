@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+<div class="ui stackable grid">
+	{% include sidebar.html %}
+
+	<article class="content sixteen wide phone eleven wide computer column">
+    {% include breadcrumbs.html %}
+
+    <h1 class="post-title">{{ page.title }}</h1>
+  	{% include messages.html %}
+
+	  <div class="post-content">
+	    {{ content }}
+	  </div>
+    
+	</article>
+</div>

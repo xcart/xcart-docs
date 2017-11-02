@@ -1,0 +1,16 @@
+---
+title: X-Cart 5. Документация для разработчиков 
+description: X-Cart 5. Документация для разработчиков
+
+# Paths
+pages: _pages/devs_ru
+
+# Urls
+url: http://devs.x-cart.ru
+
+# Search
+search:
+  preferred: devs.x-cart.ru
+
+# Site settings
+lang_default: ru
