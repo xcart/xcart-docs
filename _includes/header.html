@@ -8,11 +8,7 @@
 
       <div class="right menu">
         <!-- Top categories -->
-        {% for item in site.pages %}
-          {% if item.title and item.categories contains 'top' and item.lang == page.lang %}
-            <a class="item" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-          {% endif %}
-        {% endfor %}
+        {% top_menu %}
 
         <!-- Search panel -->
         <form class="ui item" action="{{ '/search.html' | prepend: baseurl_link }}">

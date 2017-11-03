@@ -9,10 +9,31 @@
 require 'mini_cache'
 
 module Jekyll
-  module NavigationPlugin     
+  module NavigationPlugin  
+    class TopMenuTag < Liquid::Tag
+      def cache
+        @@cache ||= MiniCache::Store.new
+      end
 
-    class BreadcrumbsTag < Liquid::Tag
+      def render(context)
+        @site = context.registers[:site]
+        @config = context.registers[:site].config
+        @page = context.environments.first["page"]
 
+        self.cache.get_or_set('top_menu') do
+          @menu_items = @site.pages.sort { |a, b| a <=> b }
+          items = @menu_items.map { |item| render_item(item) }
+
+          items.join
+        end
+      end
+
+      def render_item(item)
+        url = @site.baseurl + item['url']
+        markup = <<-HTML
+        <a class="item" href="#{url}">#{item['title']}</a>
+        HTML
+      end
     end
 
     class MenuTag < Liquid::Tag  
@@ -26,7 +47,6 @@ module Jekyll
       end
 
       def render(context)
-
         @site = context.registers[:site]
         @config = context.registers[:site].config
         @page = context.environments.first["page"]
@@ -103,3 +123,4 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('navigation_menu', Jekyll::NavigationPlugin::MenuTag)
+Liquid::Template.register_tag('top_menu', Jekyll::NavigationPlugin::TopMenuTag)
