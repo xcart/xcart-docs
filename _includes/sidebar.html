@@ -3,10 +3,7 @@
     {{ site.data.labels['Navigation'][page.lang] }}
     <i class="icon plus"></i>
   </a>
-  {% assign articles_part = site.articles_path | append: '/' %}
-  {% assign baseurl = page.url | remove_first: '/' | remove_first: articles_part | remove: 'index.html' | split: '/' | first %}
-  {% assign baseurl = baseurl | prepend: articles_part %}
-
-  {% navigation_menu baseurl %}
+  
+  {% navigation_menu %}
 </aside>
 <div class="spacer one wide column computer only"></div>

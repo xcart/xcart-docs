@@ -6,42 +6,50 @@
 # Author: Eugene Dementjev
 # Version: 0.3.5
 
+require 'mini_cache'
+
 module Jekyll
-  module NavigationPlugin
+  module NavigationPlugin     
+
     class BreadcrumbsTag < Liquid::Tag
 
     end
 
-    class MenuTag < Liquid::Tag
-      def initialize(tag_name, baseurl, tokens)
+    class MenuTag < Liquid::Tag  
+      def cache
+        @@cache ||= MiniCache::Store.new
+      end
+
+      def initialize(tag_name, args, tokens)
         super
-        @baseurl = baseurl
+        @starting_level = 1
       end
 
       def render(context)
+
         @site = context.registers[:site]
         @config = context.registers[:site].config
         @page = context.environments.first["page"]
-        baseurl = context[@baseurl.strip]
+        baseurl = context['navigation_baseurl']
 
-        @menu_items = @site.pages
-        # @menu_items = @site.pages.select { |item| item.data.fetch('lang', '') == @page.fetch('lang', @config['lang_default']) }
-        @menu_items = @menu_items.sort { |a, b| a <=> b }
-        level = render_level(2, baseurl)
+        self.cache.get_or_set("menu-#{baseurl}") do
+          @menu_items = @site.pages.sort { |a, b| a <=> b }
+          level = render_level(@starting_level, baseurl)
 
-        return level[:markup]
+          level[:markup]
+        end
       end
 
       def render_level(level, parent, force_active_class = false)
-        menu_id = level == 2 ? 'id="navigation-menu"' : ''
-        css_class = level == 2 ? 'ui sticky large vertical secondary navigation accordion pointing' : 'content'
+        menu_id = level == @starting_level ? 'id="navigation-menu"' : ''
+        css_class = level == @starting_level ? 'ui sticky large vertical secondary navigation accordion pointing' : 'content'
 
         items = @menu_items.map { |item| render_item(item, level, parent) }
 
         items_text = items.map { |item| item[:markup] }.join
         is_active = items.map { |item| item[:active] }.any?
 
-        active_class = level > 2 && (is_active || force_active_class) ? 'active' : ''
+        active_class = level > @starting_level && (is_active || force_active_class) ? 'active' : ''
 
         if items_text.strip.length > 0 then
           markup = <<-HTML

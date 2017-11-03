@@ -1,9 +1,13 @@
 Jekyll::Hooks.register [:pages, :posts], :pre_render do |page, payload|
-  if payload['site']['articles_path'] then    
-    payload['baseurl_link'] = payload['site']['baseurl'] + '/' + payload['site']['articles_path']
-  else
+  articles_path = payload['site']['articles_path']
+  
+  if articles_path.to_s.empty? then    
     payload['baseurl_link'] = payload['site']['baseurl']
+  else
+    payload['baseurl_link'] = payload['site']['baseurl'] + '/' + articles_path
   end
+
+  payload['navigation_baseurl'] = payload['page']['url'].sub('/' + articles_path, '').split('/').first
   payload
 end
 

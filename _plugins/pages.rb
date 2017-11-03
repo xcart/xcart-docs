@@ -1,5 +1,7 @@
 module Jekyll
   class PagesDirGenerator < Generator
+    safe true
+    priority :highest
     def generate(site)
       pages_dir = site.config['pages'] || './_pages'
       all_raw_paths = Dir["#{pages_dir}/**/*"]

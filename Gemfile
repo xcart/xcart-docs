@@ -6,6 +6,7 @@ source "https://rubygems.org"
 gem 'jekyll'
 gem 'xml-simple'
 gem 'github-pages'
+gem 'mini_cache'
 gem "jekyll-assets", {
   group: :jekyll_plugins
 }

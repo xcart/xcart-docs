@@ -186,6 +186,7 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
     mercenary (0.3.6)
+    mini_cache (1.1.0)
     mini_portile2 (2.3.0)
     minima (2.1.1)
       jekyll (~> 3.3)
@@ -233,6 +234,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-assets
+  mini_cache
   xml-simple
 
 BUNDLED WITH

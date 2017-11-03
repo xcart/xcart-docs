@@ -14,3 +14,5 @@ search:
 
 # Site settings
 lang_default: en
+paginate_count: 5
+paginate_path: "/what_is_new/page:num/"
