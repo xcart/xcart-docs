@@ -29,9 +29,10 @@ jobs:
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
       - run: mkdir -p workspace/build-targets
+      
       - run: ./get_targets.sh workspace/build-targets
 
-      - run: echo "$(ls -la)"
+      - run: echo "$(ls -la workspace/build-targets)"
 
       - run: |
           if [ -f ~/repo/workspace/build-targets/devs_en ]; then
