@@ -44,7 +44,7 @@ jobs:
             - build-targets/kb_en
             - build-targets/kb_ru
 
-  build_devs_en:
+  build:
     <<: *defaults
     steps:
       - attach_workspace:
@@ -53,48 +53,22 @@ jobs:
 
       - run: |
           if [ -f ~/repo/workspace/build-targets/devs_en ]; then
-            echo "It worked!";
-          else
-            echo "Nope!"; exit 1
+            ./build devs_en
           fi
-  build_devs_ru:
-    <<: *defaults
-    steps:
-      - attach_workspace:
-          # Must be absolute path or relative path from working_directory
-          at: ~/repo/workspace
 
       - run: |
           if [ -f ~/repo/workspace/build-targets/devs_ru ]; then
-            echo "It worked!";
-          else
-            echo "Nope!"; exit 1
+            ./build devs_ru
           fi
-  build_kb_en:
-    <<: *defaults
-    steps:
-      - attach_workspace:
-          # Must be absolute path or relative path from working_directory
-          at: ~/repo/workspace
 
       - run: |
           if [ -f ~/repo/workspace/build-targets/kb_en ]; then
-            echo "It worked!";
-          else
-            echo "Nope!"; exit 1
+            ./build kb_en
           fi
-  build_kb_ru:
-    <<: *defaults
-    steps:
-      - attach_workspace:
-          # Must be absolute path or relative path from working_directory
-          at: ~/repo/workspace
 
       - run: |
           if [ -f ~/repo/workspace/build-targets/kb_ru ]; then
-            echo "It worked!";
-          else
-            echo "Nope!"; exit 1
+            ./build kb_ru
           fi
 
 workflows:
@@ -103,19 +77,7 @@ workflows:
   docs:
     jobs:
       - prepare
-      - build_devs_en:
-          requires:
-            - prepare
-      - build_devs_ru:
-          requires:
-            - prepare
-      - build_kb_en:
-          requires:
-            - prepare
-      - build_kb_ru:
-          requires:
-            - prepare
-      - build_all:
+      - build:
           requires:
             - prepare
             
