@@ -2,15 +2,12 @@
 #
 # Check https://circleci.com/docs/2.0/language-ruby/ for more details
 #
-defaults: &defaults
-  working_directory: ~/repo
-  docker:
-    - image: circleci/ruby:2.4.1-node-browsers
-
 version: 2
 jobs:
   prepare:
-    <<: *defaults
+    working_directory: ~/repo
+    docker:
+      - image: circleci/ruby:2.4.1-node-browsers
     steps:
       - checkout
 
