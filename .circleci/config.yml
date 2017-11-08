@@ -53,22 +53,22 @@ jobs:
 
       - run: |
           if [ -f ~/repo/workspace/build-targets/devs_en ]; then
-            ./build devs_en
+            ./build.sh devs_en
           fi
 
       - run: |
           if [ -f ~/repo/workspace/build-targets/devs_ru ]; then
-            ./build devs_ru
+            ./build.sh devs_ru
           fi
 
       - run: |
           if [ -f ~/repo/workspace/build-targets/kb_en ]; then
-            ./build kb_en
+            ./build.sh kb_en
           fi
 
       - run: |
           if [ -f ~/repo/workspace/build-targets/kb_ru ]; then
-            ./build kb_ru
+            ./build.sh kb_ru
           fi
 
 workflows:
