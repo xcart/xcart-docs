@@ -39,10 +39,7 @@ jobs:
           root: workspace
           # Must be relative path from root
           paths:
-            - build-targets/devs_en
-            - build-targets/devs_ru
-            - build-targets/kb_en
-            - build-targets/kb_ru
+            - build-targets
 
   build:
     <<: *defaults
