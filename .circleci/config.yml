@@ -2,20 +2,15 @@
 #
 # Check https://circleci.com/docs/2.0/language-ruby/ for more details
 #
+defaults: &defaults
+  working_directory: /tmp
+  docker:
+    - image: circleci/ruby:2.4.1-node-browsers
+
 version: 2
 jobs:
-  build:
-    docker:
-      # specify the version you desire here
-       - image: circleci/ruby:2.4.1-node-browsers
-      
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/postgres:9.4
-
-    working_directory: ~/repo
-
+  prepare:
+    <<: *defaults
     steps:
       - checkout
 
@@ -36,26 +31,91 @@ jobs:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
-      - run: git diff --name-only _pages/devs_en >> $DEVS_EN_CHANGED
-      - run: git diff --name-only _pages/devs_ru >> $DEVS_RU_CHANGED
-      - run: git diff --name-only _pages/kb_en >> $KB_EN_CHANGED
-      - run: git diff --name-only _pages/kb_ru >> $KB_RU_CHANGED
+      - run: mkdir -p workspace
+      - run: ./get_targets.sh workspace/build-targets
 
-      - run:
-          name: check-environment
-          command: |
-              echo $DEVS_EN_CHANGED
-              echo $DEVS_RU_CHANGED
-              echo $KB_EN_CHANGED
-              echo $KB_RU_CHANGED
-        
-      # Database setup
-      # - run: 
-      #     command: ./build.sh 
+      - persist_to_workspace:
+          # Must be an absolute path, or relative path from working_directory
+          root: workspace
+          # Must be relative path from root
+          paths:
+            - build-targets/devs_en
+            - build-targets/devs_ru
+            - build-targets/kb_en
+            - build-targets/kb_ru
+            
+  build_devs_en:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          # Must be absolute path or relative path from working_directory
+          at: /tmp/workspace
 
-      # collect reports
-      # - store_test_results:
-      #     path: /tmp/test-results
-      # - store_artifacts:
-      #     path: /tmp/test-results
-      #     destination: test-results
+      - run: |
+          if [ -f /tmp/workspace/build-targets/devs_en ]; then
+            echo "It worked!";
+          else
+            echo "Nope!"; exit 1
+          fi
+  build_devs_ru:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          # Must be absolute path or relative path from working_directory
+          at: /tmp/workspace
+
+      - run: |
+          if [ -f /tmp/workspace/build-targets/devs_ru ]; then
+            echo "It worked!";
+          else
+            echo "Nope!"; exit 1
+          fi
+  build_kb_en:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          # Must be absolute path or relative path from working_directory
+          at: /tmp/workspace
+
+      - run: |
+          if [ -f /tmp/workspace/build-targets/kb_en ]; then
+            echo "It worked!";
+          else
+            echo "Nope!"; exit 1
+          fi
+  build_kb_ru:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          # Must be absolute path or relative path from working_directory
+          at: /tmp/workspace
+
+      - run: |
+          if [ -f /tmp/workspace/build-targets/kb_ru ]; then
+            echo "It worked!";
+          else
+            echo "Nope!"; exit 1
+          fi
+
+workflows:
+  version: 2
+
+  docs:
+    jobs:
+      - prepare
+      - build_devs_en:
+          requires:
+            - prepare
+      - build_devs_ru:
+          requires:
+            - prepare
+      - build_kb_en:
+          requires:
+            - prepare
+      - build_kb_ru:
+          requires:
+            - prepare
+      - build_all:
+          requires:
+            - prepare
+            
