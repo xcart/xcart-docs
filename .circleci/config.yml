@@ -10,6 +10,7 @@ jobs:
       - image: circleci/ruby:2.4.1-node-browsers
     environment:
           JEKYLL_DESTINATION: _site
+          CI_WORKSPACE: _workspace
     steps:
       - checkout
 
@@ -30,42 +31,42 @@ jobs:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
-      - run: mkdir -p workspace/build-targets
-      - run: mkdir -p workspace/artifacts
+      - run: mkdir -p _workspace/build-targets
+      - run: mkdir -p _workspace/artifacts
 
-      - run: ./get_targets.sh workspace/build-targets
+      - run: ./get_targets.sh _workspace/build-targets
 
       - run: 
           name: Building devs en (if needed)
           command: |
-            if [ -f ~/repo/workspace/build-targets/devs_en ]; then
+            if [ -f ~/repo/_workspace/build-targets/devs_en ]; then
               ./build.sh devs_en
-              tar -czf workspace/artifacts/devs_en.tar.gz _site/devs_en
+              tar -czf _workspace/artifacts/devs_en.tar.gz _site/devs_en
             fi
 
       - run: 
           name: Building devs ru (if needed)
           command: |
-            if [ -f ~/repo/workspace/build-targets/devs_ru ]; then
+            if [ -f ~/repo/_workspace/build-targets/devs_ru ]; then
               ./build.sh devs_ru
-              tar -czf workspace/artifacts/devs_ru.tar.gz _site/devs_ru
+              tar -czf _workspace/artifacts/devs_ru.tar.gz _site/devs_ru
             fi
 
       - run: 
           name: Building kb en (if needed)
           command: |
-            if [ -f ~/repo/workspace/build-targets/kb_en ]; then
+            if [ -f ~/repo/_workspace/build-targets/kb_en ]; then
               ./build.sh kb_en
-              tar -czf workspace/artifacts/kb_en.tar.gz _site/kb_en
+              tar -czf _workspace/artifacts/kb_en.tar.gz _site/kb_en
             fi
 
       - run: 
           name: Building kb ru (if needed)
           command: |
-            if [ -f ~/repo/workspace/build-targets/kb_ru ]; then
+            if [ -f ~/repo/_workspace/build-targets/kb_ru ]; then
               ./build.sh kb_ru
-              tar -czf workspace/artifacts/kb_ru.tar.gz _site/kb_ru
+              tar -czf _workspace/artifacts/kb_ru.tar.gz _site/kb_ru
             fi
 
       - store_artifacts:
-          path: workspace/artifacts
+          path: _workspace/artifacts
