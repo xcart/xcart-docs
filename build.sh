@@ -6,4 +6,4 @@ if [ -z "$1" ]
     exit 1
 fi
 export JEKYLL_ENV=production
-bundle exec jekyll build --config "_config.yml,_config.$1.yml"
+bundle exec jekyll build --trace --config "_config.yml,_config.$1.yml"
