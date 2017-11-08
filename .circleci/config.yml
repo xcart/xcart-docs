@@ -34,20 +34,6 @@ jobs:
       - run: mkdir -p workspace/build-targets
       - run: ./get_targets.sh workspace/build-targets
 
-      - persist_to_workspace:
-          # Must be an absolute path, or relative path from working_directory
-          root: workspace
-          # Must be relative path from root
-          paths:
-            - build-targets
-
-  build:
-    <<: *defaults
-    steps:
-      - attach_workspace:
-          # Must be absolute path or relative path from working_directory
-          at: ~/repo/workspace
-
       - run: |
           if [ -f ~/repo/workspace/build-targets/devs_en ]; then
             ./build.sh devs_en
@@ -67,14 +53,3 @@ jobs:
           if [ -f ~/repo/workspace/build-targets/kb_ru ]; then
             ./build.sh kb_ru
           fi
-
-workflows:
-  version: 2
-
-  docs:
-    jobs:
-      - prepare
-      - build:
-          requires:
-            - prepare
-            
