@@ -31,6 +31,7 @@ jobs:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
+      - run: rm -rf _workspace _site
       - run: mkdir -p _workspace/build-targets
       - run: mkdir -p _workspace/artifacts
 

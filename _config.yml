@@ -8,6 +8,7 @@ index_path: links.xml
 exclude: 
   - start.sh
   - build.sh
+  - get_targets.sh
   - README.md
   - Gemfile
   - Gemfile.lock
