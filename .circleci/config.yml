@@ -61,3 +61,6 @@ jobs:
             echo "Building kb ru"
             ./build.sh kb_ru
           fi
+
+      - store_artifacts:
+          path: ~/repo/workspace
