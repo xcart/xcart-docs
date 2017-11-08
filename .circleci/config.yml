@@ -3,7 +3,7 @@
 # Check https://circleci.com/docs/2.0/language-ruby/ for more details
 #
 defaults: &defaults
-  working_directory: /tmp
+  working_directory: ~/repo
   docker:
     - image: circleci/ruby:2.4.1-node-browsers
 
@@ -43,16 +43,16 @@ jobs:
             - build-targets/devs_ru
             - build-targets/kb_en
             - build-targets/kb_ru
-            
+
   build_devs_en:
     <<: *defaults
     steps:
       - attach_workspace:
           # Must be absolute path or relative path from working_directory
-          at: /tmp/workspace
+          at: ~/repo/workspace
 
       - run: |
-          if [ -f /tmp/workspace/build-targets/devs_en ]; then
+          if [ -f ~/repo/workspace/build-targets/devs_en ]; then
             echo "It worked!";
           else
             echo "Nope!"; exit 1
@@ -62,10 +62,10 @@ jobs:
     steps:
       - attach_workspace:
           # Must be absolute path or relative path from working_directory
-          at: /tmp/workspace
+          at: ~/repo/workspace
 
       - run: |
-          if [ -f /tmp/workspace/build-targets/devs_ru ]; then
+          if [ -f ~/repo/workspace/build-targets/devs_ru ]; then
             echo "It worked!";
           else
             echo "Nope!"; exit 1
@@ -75,10 +75,10 @@ jobs:
     steps:
       - attach_workspace:
           # Must be absolute path or relative path from working_directory
-          at: /tmp/workspace
+          at: ~/repo/workspace
 
       - run: |
-          if [ -f /tmp/workspace/build-targets/kb_en ]; then
+          if [ -f ~/repo/workspace/build-targets/kb_en ]; then
             echo "It worked!";
           else
             echo "Nope!"; exit 1
@@ -88,10 +88,10 @@ jobs:
     steps:
       - attach_workspace:
           # Must be absolute path or relative path from working_directory
-          at: /tmp/workspace
+          at: ~/repo/workspace
 
       - run: |
-          if [ -f /tmp/workspace/build-targets/kb_ru ]; then
+          if [ -f ~/repo/workspace/build-targets/kb_ru ]; then
             echo "It worked!";
           else
             echo "Nope!"; exit 1
