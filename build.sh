@@ -8,4 +8,5 @@ fi
 export JEKYLL_ENV=production
 DEST="$JEKYLL_DESTINATION/$1"
 mkdir -p $DEST
+chmod -R 777 $DEST
 bundle exec jekyll build --trace --destination $DEST --config "_config.yml,_config.$1.yml"
