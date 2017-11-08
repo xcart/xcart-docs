@@ -80,11 +80,15 @@ module Jekyll
 
         site.data['links'] = index
 
-        File.open(path, 'w+') do |h|
-          h.write XmlSimple.xml_out(index, {'NoAttr' => true, "RootName" => "refs", "XmlDeclaration" => true})
+        begin
+          File.open(path, 'w+') do |h|
+            h.write XmlSimple.xml_out(index, {'NoAttr' => true, "RootName" => "refs", "XmlDeclaration" => true})
+          end
+        rescue Errno::ENOENT => e
+          puts e
         end
 
-        # Keep the sitemap.xml file from being cleaned by Jekyll
+        # Keep the links.xml file from being cleaned by Jekyll
         site.static_files << Jekyll::ReferencePlugin::ReferenceIndex.new(site, site.dest, "/", site.config['index_path'])
       end
     end
