@@ -31,22 +31,28 @@ jobs:
       - run: mkdir -p workspace/build-targets
       - run: ./get_targets.sh workspace/build-targets
 
+      - run: echo "$(ls -la)"
+
       - run: |
           if [ -f ~/repo/workspace/build-targets/devs_en ]; then
+            echo "Building devs en"
             ./build.sh devs_en
           fi
 
       - run: |
           if [ -f ~/repo/workspace/build-targets/devs_ru ]; then
+            echo "Building devs ru"
             ./build.sh devs_ru
           fi
 
       - run: |
           if [ -f ~/repo/workspace/build-targets/kb_en ]; then
+            echo "Building kb en"
             ./build.sh kb_en
           fi
 
       - run: |
           if [ -f ~/repo/workspace/build-targets/kb_ru ]; then
+            echo "Building kb ru"
             ./build.sh kb_ru
           fi
