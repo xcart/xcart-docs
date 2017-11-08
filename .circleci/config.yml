@@ -8,6 +8,8 @@ jobs:
     working_directory: ~/repo
     docker:
       - image: circleci/ruby:2.4.1-node-browsers
+    environment:
+          JEKYLL_DESTINATION: ~/repo/workspace
     steps:
       - checkout
 
@@ -29,7 +31,7 @@ jobs:
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
       - run: mkdir -p workspace/build-targets
-      
+
       - run: ./get_targets.sh workspace/build-targets
 
       - run: echo "$(ls -la workspace/build-targets)"

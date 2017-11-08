@@ -6,4 +6,6 @@ if [ -z "$1" ]
     exit 1
 fi
 export JEKYLL_ENV=development
-bundle exec jekyll serve --trace --config "_config.yml,_config.$1.yml,_config.dev.yml"
+DEST="$JEKYLL_DESTINATION/$1"
+mkdir -p $DEST
+bundle exec jekyll serve --trace --destination $DEST --config "_config.yml,_config.$1.yml,_config.dev.yml"
