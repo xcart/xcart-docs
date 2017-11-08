@@ -32,6 +32,8 @@ jobs:
 
       - run: mkdir -p workspace/build-targets
 
+      - run: chmod -R 777 workspace
+
       - run: ./get_targets.sh workspace/build-targets
 
       - run: echo "$(ls -la workspace/build-targets)"
