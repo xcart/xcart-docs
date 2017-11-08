@@ -1,0 +1,61 @@
+# Ruby CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-ruby/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+       - image: circleci/ruby:2.4.1-node-browsers
+      
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/postgres:9.4
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "Gemfile.lock" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      - run:
+          name: install dependencies
+          command: |
+            bundle install --jobs=4 --retry=3 --path vendor/bundle
+
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+
+      - run: git diff --name-only _pages/devs_en >> $DEVS_EN_CHANGED
+      - run: git diff --name-only _pages/devs_ru >> $DEVS_RU_CHANGED
+      - run: git diff --name-only _pages/kb_en >> $KB_EN_CHANGED
+      - run: git diff --name-only _pages/kb_ru >> $KB_RU_CHANGED
+
+      - run:
+          name: check-environment
+          command: |
+              echo $DEVS_EN_CHANGED
+              echo $DEVS_RU_CHANGED
+              echo $KB_EN_CHANGED
+              echo $KB_RU_CHANGED
+        
+      # Database setup
+      # - run: 
+      #     command: ./build.sh 
+
+      # collect reports
+      # - store_test_results:
+      #     path: /tmp/test-results
+      # - store_artifacts:
+      #     path: /tmp/test-results
+      #     destination: test-results
