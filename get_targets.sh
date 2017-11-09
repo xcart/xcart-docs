@@ -10,7 +10,6 @@ REVISION="$2"
 if [ -z "$2" ]
   then
     REVISION="HEAD^"
-    exit 1
 fi
 
 shopt -s extglob
