@@ -1,5 +1,5 @@
 {% if page.updated_at && page.hide_date !== true %}
-  <h5 class="ui header" id="page-update-date">
+  <p class="ui header" id="page-update-date">
     page last edited on {{ page.updated_at | date_to_long_string }}
-  </h5>
+  </p>
 {% endif %}

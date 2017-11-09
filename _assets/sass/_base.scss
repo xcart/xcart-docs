@@ -49,6 +49,10 @@ figcaption {
     font-size: $small-font-size;
 }
 
+a:hover, .ui.breadcrumb a:hover {
+    color: $link-hover;
+}
+
 /**
  * Lists
  */
@@ -162,7 +166,7 @@ aside.sidebar {
                 }
 
                 .link:hover, .opener:hover {
-                    color: #43BEEC;
+                    color: $link-hover;
                 }
 
                 .opener {
