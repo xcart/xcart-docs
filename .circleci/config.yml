@@ -38,6 +38,8 @@ jobs:
 
       - run: ./get_targets.sh _workspace/build-targets
 
+      - run: sudo apt install rsync
+
       - run: 
           name: Building devs en (if needed)
           command: |
