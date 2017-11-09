@@ -13,5 +13,5 @@ if [ -z "$JEKYLL_DESTINATION" ]
     exit 1
 fi
 mkdir -p $DEST
-chmod -R 777 $DEST
+chmod -R 755 $DEST
 bundle exec jekyll build --trace --destination $DEST --config "_config.yml,_config.$1.yml"
