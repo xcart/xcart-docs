@@ -54,6 +54,22 @@
     en: "Developers' blog"
     ru: "Блог разработчиков"
 
+'Go to knowledge base':
+    en: "Go to knowledge base"
+    ru: "База знаний"
+
+'Go to developer docs':
+    en: "Go to developer docs"
+    ru: "Документация для разработчиков"
+
+'knowledge_base_desc':
+    en: "Learn more about X-Cart - PHP e-Commerce shopping cart, how to setup and configure it."
+    ru: "Подробные инструкции по X-Cart - системе электронной коммерции на PHP."
+
+'developer_docs_desc':
+    en: "Start developing for X-Cart without any hassle. Discover changelogs and tutorials, various guides and design patterns."
+    ru: "Получите все, что необходимо для разработчика X-Cart. Последние чейнджлоги, полезные обучающие статьи и принципы архитектуры и дизайна."
+
 'This article applies to the specific versions of X-Cart':
     en: 'This article applies to the specific versions of software:'
     ru: 'Данная статья применима к следующим версиям:'

@@ -22,15 +22,28 @@
     <!-- link to developer docs -->
     <div class="sixteen wide mobile eight wide tablet third wide computer column">
       <div class="navigation-item">
-        <a href="http://kb.x-cart.com">
+
+        {% if site.type == 'devs' %}
+        <a href="https://kb.x-cart.com">
           <h2 class="ui header">
             <i class="book icon"></i>
             <div class="content">
-              Go to knowledge base
+              {{ site.data.labels['Go to knowledge base'][page.lang] }}
             </div>
           </h2>
-          <p>Learn more about X-Cart - PHP e-Commerce shopping cart, how to setup and configure it</p>
+          <p>{{ site.data.labels['knowledge_base_desc'][page.lang] }}</p>
         </a>
+        {% else %}
+        <a href="https://devs.x-cart.com">
+          <h2 class="ui header">
+            <i class="book icon"></i>
+            <div class="content">
+              {{ site.data.labels['Go to developer docs'][page.lang] }}
+            </div>
+          </h2>
+          <p>{{ site.data.labels['developer_docs_desc'][page.lang] }}</p>
+        </a>
+        {% endif %}
       </div>
     </div>
   </div>

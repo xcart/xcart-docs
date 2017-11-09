@@ -21,7 +21,9 @@ module Jekyll
         @page = context.environments.first["page"]
 
         self.cache.get_or_set('top_menu') do
-          @menu_items = @site.pages.sort { |a, b| a <=> b }
+          @menu_items = @site.pages
+            .select { |item| item.data.fetch('categories', []).include? 'top' }
+            .sort { |a, b| a <=> b }
           items = @menu_items.map { |item| render_item(item) }
 
           items.join

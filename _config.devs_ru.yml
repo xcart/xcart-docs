@@ -1,6 +1,7 @@
 ---
 title: X-Cart 5. Документация для разработчиков 
 description: X-Cart 5. Документация для разработчиков
+type: devs
 
 # Paths
 pages: _pages/devs_ru
