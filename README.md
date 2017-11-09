@@ -1,4 +1,6 @@
-# X-Cart 5 Knowledge Base and Developer Documentation
+# X-Cart 5 Knowledge Base and Developer Documentation 
+
+[![CircleCI](https://circleci.com/gh/xcart/xcart-docs.svg?style=svg)](https://circleci.com/gh/xcart/xcart-docs)
 
 This is the combined repo of all X-Cart 5 documentation sites.
 Available sites are:

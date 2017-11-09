@@ -7,6 +7,11 @@ if [ -z "$1" ]
 fi
 export JEKYLL_ENV=development
 DEST="$JEKYLL_DESTINATION/$1"
+if [ -z "$JEKYLL_DESTINATION" ]
+  then
+    DEST="_site/$1"
+    exit 1
+fi
 mkdir -p $DEST
 chmod -R 777 $DEST
 bundle exec jekyll serve --trace --destination $DEST --config "_config.yml,_config.$1.yml,_config.dev.yml"

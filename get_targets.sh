@@ -1,6 +1,19 @@
 #!/bin/bash
+#
+if [ -z "$1" ]
+  then
+    echo "Usage: $0 <TARGET_FOLDER> <FROM_REVISION>"
+    exit 1
+fi
+
+REVISION="$2"
+if [ -z "$2" ]
+  then
+    REVISION="HEAD^"
+    exit 1
+fi
+
 shopt -s extglob
-REVISION="HEAD^"
 DEVS_EN_DIFF="$(git diff $REVISION HEAD --name-only _pages/devs_en)"
 DEVS_RU_DIFF="$(git diff $REVISION HEAD --name-only _pages/devs_ru)"
 KB_EN_DIFF="$(git diff $REVISION HEAD --name-only _pages/kb_en)"

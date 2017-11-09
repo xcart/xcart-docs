@@ -11,6 +11,7 @@ jobs:
     environment:
           JEKYLL_DESTINATION: _site
           CI_WORKSPACE: _workspace
+          SSH_STRING: user@remote.host
     steps:
       - checkout
 
@@ -42,6 +43,7 @@ jobs:
           command: |
             if [ -f ~/repo/_workspace/build-targets/devs_en ]; then
               ./build.sh devs_en
+              rsync -zvh -e ssh _site/devs_en "$REMOTE_STRING:/site/devs_en" || true
               tar -czf _workspace/artifacts/devs_en.tar.gz _site/devs_en
             fi
 
@@ -50,6 +52,7 @@ jobs:
           command: |
             if [ -f ~/repo/_workspace/build-targets/devs_ru ]; then
               ./build.sh devs_ru
+              rsync -zvh -e ssh _site/devs_ru "$REMOTE_STRING:/site/devs_ru" || true
               tar -czf _workspace/artifacts/devs_ru.tar.gz _site/devs_ru
             fi
 
@@ -58,6 +61,7 @@ jobs:
           command: |
             if [ -f ~/repo/_workspace/build-targets/kb_en ]; then
               ./build.sh kb_en
+              rsync -zvh -e ssh _site/kb_en "$REMOTE_STRING:/site/kb_en" || true
               tar -czf _workspace/artifacts/kb_en.tar.gz _site/kb_en
             fi
 
@@ -66,6 +70,7 @@ jobs:
           command: |
             if [ -f ~/repo/_workspace/build-targets/kb_ru ]; then
               ./build.sh kb_ru
+              rsync -zvh -e ssh _site/kb_ru "$REMOTE_STRING:/site/kb_ru" || true
               tar -czf _workspace/artifacts/kb_ru.tar.gz _site/kb_ru
             fi
 
