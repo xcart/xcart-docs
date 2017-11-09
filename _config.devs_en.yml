@@ -4,7 +4,7 @@ description: X-Cart 5 Developer Documentation
 type: devs
 
 # Paths
-pages: _pages/devs_en
+pages_path: _pages/devs_en
 
 # Urls
 url: http://devs.x-cart.com

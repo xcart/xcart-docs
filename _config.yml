@@ -19,6 +19,8 @@ exclude:
 
 # Urls
 baseurl: ''
+gh_url: https://github.com/xcart/xcart-docs
+prose_url: https://xcart.github.io/prose/#xcart/xcart-docs
 
 encoding: utf-8
 repository: xcart/xcart-docs

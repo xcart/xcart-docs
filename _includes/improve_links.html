@@ -1,0 +1,10 @@
+<br />
+<hr />
+<h3>{{ site.data.labels['Help make this document better'][page.lang] }}</h2>
+<p>{{ site.data.labels['This guide, as well as the rest of our docs, are open-source and available on'][page.lang] }} <a href="{{ site.gh_url }}">GitHub</a>.
+</p>
+<ul>
+<!--     <li><a href="{{ site.gh_url }}/blob/master/{{ site.pages_path }}/{{ page.path }}" target="_blank">{{ site.data.labels['Suggest an edit to this page'][page.lang] }}</a></li> -->
+    <li><a href="{{ site.prose_url }}/edit/master/{{ site.pages_path }}/{{ page.path }}" target="_blank">{{ site.data.labels['Edit this page via visual editor'][page.lang] }}</a></li>
+    <li><a href="{{ site.gh_url }}/issues/new?body=This%20issue%20is%20about%20<{{site.url}}{{ page.url }}>%20(source%20file%3A%20<{{ site.gh_url }}/blob/master/{{ site.pages_path }}/{{ page.path }}>)" target="_blank">{{ site.data.labels['Open an issue about this page'][page.lang] }}</a></li>
+</ul>

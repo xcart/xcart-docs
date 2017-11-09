@@ -7,8 +7,10 @@ prose:
     - /_includes
     - /_layouts
     - /_plugins
-    - /_sass
+    - /_assets
     - /_site
+    - /_data
+    - .circleci
     - attachments
     - assets
     - css

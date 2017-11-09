@@ -4,7 +4,7 @@ description: X-Cart 5. Документация для разработчико�
 type: devs
 
 # Paths
-pages: _pages/devs_ru
+pages_path: _pages/devs_ru
 
 # Urls
 url: http://devs.x-cart.ru

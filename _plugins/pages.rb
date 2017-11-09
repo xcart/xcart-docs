@@ -3,7 +3,7 @@ module Jekyll
     safe true
     priority :highest
     def generate(site)
-      pages_dir = site.config['pages'] || './_pages'
+      pages_dir = site.config['pages_path'] || './_pages'
       all_raw_paths = Dir["#{pages_dir}/**/*"]
       all_raw_paths.each do |f|
 

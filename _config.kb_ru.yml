@@ -4,7 +4,7 @@ description: X-Cart 5. База знаний
 type: kb
 
 # Paths
-pages: _pages/kb_ru
+pages_path: _pages/kb_ru
 
 # Urls
 url: http://kb.x-cart.ru

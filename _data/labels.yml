@@ -74,6 +74,26 @@
     en: 'This article applies to the specific versions of software:'
     ru: 'Данная статья применима к следующим версиям:'
 
+'Help make this document better':
+    en: 'Help make this document better'
+    ru: 'Помогите улучшить эту статью'
+
+'Suggest an edit to this page':
+    en: 'Suggest an edit to this page'
+    ru: 'Предложите, как дополнить эту статью'
+
+'Open an issue about this page':
+    en: 'Open an issue about this page'
+    ru: 'Предложите, как дополнить эту статью'
+
+'Edit this page via visual editor':
+    en: 'Edit this page via visual editor'
+    ru: 'Отредактируйте статью через визуальный редактор'
+
+'This guide, as well as the rest of our docs, are open-source and available on':
+    en: 'This guide, as well as the rest of our docs, are open-source and available on'
+    ru: 'Исходный код этой и других страниц документации открыт и доступен на'
+
 # Links
 
 'developers_blog_link':
