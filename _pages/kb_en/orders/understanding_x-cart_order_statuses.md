@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-12 10:35 +0400'
+updated_at: '2017-11-08 13:31 +0400'
 identifier: ref_DkbTi1qJ
 title: Understanding X-Cart order statuses
 categories:
@@ -13,7 +13,7 @@ order: 100
 
 ## System order statuses
 
-Every order in your X-Cart store has a payment status and a shipping status. These two statuses provide information as to the current state of the order in the {% link "order processing workflow" ref_DkbTi1qJ %}. 
+Every order in your X-Cart store has a payment status and a fulfilment status. These two statuses provide information as to the current state of the order in the {% link "order processing workflow" ref_DkbTi1qJ %}. 
 
 By default, X-Cart uses the following order statuses:
 
@@ -25,12 +25,12 @@ By default, X-Cart uses the following order statuses:
 | PP | Partially paid | The order has been partially paid (or there has been a partial refund). |
 | A | Authorized | This status can only be set by a payment processor (cannot be set manually). It indicates that an authorization has been placed on the buyer's card to ensure the buyer has sufficient credit or balance to pay for the purchase. The bank has put a hold on the requested amount, but the money has not been transferred to the merchant yet.The merchant has yet to place a charge to capture it. |
 | D | Declined | This status can only be set by a payment processor (cannot be set manually). It indicates that an attempt to authorize or charge the buyer's card has failed and the order has been cancelled. |
-| C | Cancelled | The order has been cancelled by the merchant. |
-| R | Refunded | The money for the purchase has been refunded in full. This status can be set automatically by payment processors whose X-Cart integration supports refunds, or it can be set manually by administrator. |
+| C | Cancelled | The order has been cancelled by the merchant. Typically, an order has to be in the Authorized or Awaiting payment state before it becomes Cancelled. |
+| R | Refunded | The money for the purchase has been refunded in full. This status can be set automatically by payment processors whose X-Cart integration supports refunds, or it can be set manually by administrator. Typically, an order has to be in the Paid state before it becomes Refunded. |
 
 The statuses Awaiting payment, Paid and Authorized cause the inventory levels of the ordered items to be decreased according to the quantities ordered. The statuses Refunded, Cancelled and Declined cause the items to be restocked. The status Partially Paid does not affect the inventory.
 
-**Shipping statuses**
+**Fulfilment statuses**
 
 {:.ui.compact.celled.small.padded.table}
 | N | New | The initial status assigned by default to any new order once it has been created. |
@@ -53,6 +53,9 @@ For orders paid using offline payment methods, the order processing workflow is 
 
 *   A new order is created with the status Awaiting payment.
 *   As the order progresses through the various stages of the order processing and fulfillment process, the store administrator manually updates the order status. The current status of the order can be changed manually to any other status at any time. Typically, after the order payment has been received, the status Awaiting payment will be changed to Paid; if the order is cancelled - to Cancelled. After a refund, the status Paid will have to be changed to Refunded. The status Partially Paid is possible in case of a partial payment for the order or a partial refund.
+
+We strongly recommend using the Refunded status (not Cancelled) when updating the order status from Paid, and Cancelled (not Refunded) when updating the order status from Authorized or Awaiting payment.
+
 
 For orders paid using online payment processors, the regular order processing workflow looks as follows:
 

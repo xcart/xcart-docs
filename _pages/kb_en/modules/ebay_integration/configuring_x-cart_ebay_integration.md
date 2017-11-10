@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-10-15 17:00 +0400'
+updated_at: '2017-10-30 12:57 +0400'
 identifier: ref_SCbAqGqX
 title: Configuring X-Cart eBay Integration
 categories:
@@ -130,7 +130,9 @@ To set the default eBay categories:
 
 ## Configuring the General settings
 
-Before you start exporting products to eBay, you need to adjust the General settings for the respective eBay configuration.
+Before you start exporting products to eBay, you need to adjust the General settings for the respective eBay configuration. 
+
+Please note that despite the name "*General* settings" these settings do not apply to all your eBay configurations. Each eBay configuration has its own set of "General settings" that should be adjusted specifically for that configuration.
 
 To adjust the General settings:
 
@@ -138,10 +140,11 @@ To adjust the General settings:
     ![xc5_ebay_categories_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_categories_next.png)
 
     If you have already configured the General Settings for your eBay configuration previously, you can simply click the **General Settings** tab:
-    ![xc5_ebay_general_settings.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_general_settings.png)
+    ![xc5_ebay_general_settings_tab.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_tab.png)
 
 2.  Adjust the settings in the **Product options** section:
-    ![]({{site.baseurl}}/attachments/9306381/9438492.png)
+    ![xc5_ebay_general_settings_prod_options.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_prod_options.png)
+
     The settings in this section will apply to all the products in your X-Cart store for which similar settings have not been set [at the level of categories or individual products](#configuring-ebay-options-for-products-and-categories).
 
     *   **Listing duration**: Select a duration for your store's eBay listings. Ebay help on listing duration is available [here](http://pages.ebay.com/help/sell/duration.html).
@@ -165,7 +168,7 @@ To adjust the General settings:
     *   **Product code type**: Specify the type of global product code (EAN / USBN / UPC) to be used for the export of products to eBay. If no code is specified for a product, "Does not apply" will be sent to eBay.
     
 3.  Adjust the settings in the **System options** section:
-    ![]({{site.baseurl}}/attachments/9306381/9438493.png)
+    ![xc5_ebay_general_settings_sys_options.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_sys_options.png)
 
     *   **Show eBay warning messages in admin area**: When exporting products to eBay or importing orders from eBay, you may get eBay warnings. Unlike errors, warnings are conditions that are not fatal to the addon operation, but they alert you to some minor problems that you may want to fix. Any warnings your store gets from eBay are written to log files in your X-Cart store. If, in addition to that, you also wish to have eBay warning messages displayed in your store's Admin area, enable this option. 
     
@@ -184,43 +187,49 @@ To adjust the General settings:
     *   **Allow update eBay order status**: This option is disabled by default. 
     
 4.  Click **Save** to save your changes.
+    ![xc5_ebay_general_settings_save.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_save.png)
 
-    ![]({{site.baseurl}}/attachments/9306381/9438494.png)
     You should see a success message like the following:
-    ![]({{site.baseurl}}/attachments/9306381/9438495.png)
+    ![xc5_ebay_general_settings_success.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_success.png)
 
-That is all;you have completed the basic configuration of your eBay Integration and can now start selling on eBay. However, if you require a more nuanced approach to publishing your products on eBay (for example, if you need to map your products to eBay categories more accurately than simply by setting one common default category for all your products), we recommend you take a couple more steps to complete your store's eBay related configuration. For more info, see the sections on configuring [eBay options for categories and products](#configuring-ebay-options-for-products-and-categories).
+That is all; you have completed the basic configuration of your eBay Integration and can now start selling on eBay. However, if you require a more nuanced approach to publishing your products on eBay (for example, if you need to map your products to eBay categories more accurately than simply by setting one common default category for all your products), we recommend you take a couple more steps to complete your store's eBay related configuration. For more info, see the sections on configuring [eBay options for categories and products](#configuring-ebay-options-for-products-and-categories).
 
 ## Configuring eBay options for products and categories
 
-The sections **Categories** and **General Settings** of the eBay Configuration page allow you to set the most basic rules for how your product information should be exported to eBay. This includes which eBay category your products should be exported to, whether a price modifier should be used to increase or decrease the product price on eBay, and so on.
+The sections **Categories** and **General Settings** of the eBay Configuration page allow you to set the most basic rules for how your product information should be exported to the eBay site for which the eBay configuration has been created. This includes which eBay category your products should be exported to, whether a price modifier should be used to increase or decrease the product price on eBay, and so on.
 
-By default, these rules will apply to all your products. However, if you want different products in your store to be treated differently (for example, if you want to publish different products in different eBay categories, or use a price modifier just for a couple of products), you will need to fine-tune your eBay export by adding more rules at the level of specific products and/or categories.
+By default, these rules will apply to all the products that are exported to the said eBay site. However, if you want different products in your store to be treated differently (for example, if you want to publish different products in different eBay categories, or use a price modifier just for a couple of products), you will need to fine-tune your eBay export by adding more rules at the level of specific products and/or categories.
 
 The rules in question can be set by configuring the eBay options for these products/categories. The eBay options set at the level of a specific product will apply to that product only. The eBay options set at the level of a category will apply to the products in that category and the products in all the subcategories of that category.
 
  To set eBay options for a category: 
 
 1.  In the Manage categories section of your X-Cart store's Admin area (**Catalog** > **Categories**), find the category for which you need to set eBay options and click on its name to go to the category details page:
-    ![]({{site.baseurl}}/attachments/9306381/9439148.png)
+    ![xc5_ebay_manage_categories_page.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_manage_categories_page.png)
+
 2.  On the category details page, select the **eBay category options** tab:
-    ![]({{site.baseurl}}/attachments/9306381/9439149.png)
+    ![xc5_ebay_ebay_category_opts.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_ebay_category_opts.png)
+
     The eBay category options page opens:
-    ![]({{site.baseurl}}/attachments/9306381/9439150.png)
+    ![xc5_ebay_ebay_category_opts_page.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_ebay_category_opts_page.png)
 
 3.  Adjust the eBay options for the selected category:
-    *   **Allow export to eBay**: Specify whether the products from this category and the subcategories of this category should be exported to eBay. If you do not intend to sell products from this category and its subcategories on eBay, you can forbid the export of this category to eBay by deactivating this option.
+    3.1 Use the **eBay Site** field to select the eBay site to which the eBay options below should apply.
+    3.2 Set the eBay options below (Your settings will apply to all the products that will be exported from the current category to the eBay site selected above):
+    *   **Allow export to eBay**: Specify whether the products from this category and the subcategories of this category should be exported to the selected eBay site. If you do not intend to sell any products from this category and its subcategories on the eBay site specified above, you can forbid the export of this category to eBay by deactivating this option.
     *   **Main eBay Category**: Set the main eBay category for the products from the selected X-Cart category and the subcategories of this category.
     *   **Additional eBay Category**: Set the additional eBay category for the products from the selected X-Cart category and the subcategories of this category.
-    *   **Product price modifier**: If the price of the products in the selected X-Cart category and its subcategories needs to be different from the price of these products on eBay, set a price modifier.
+    *   **Product price modifier**: If the price of the products on eBay needs to be different from the price in the X-Cart store, set a price modifier.
 4.  Once you are done configuring the eBay options for the selected category, click **Save options** to save your changes.
-    ![]({{site.baseurl}}/attachments/9306381/9439151.png)
+    ![xc5_ebay_ebay_category_opts_save.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_ebay_category_opts_save.png)
+
     The eBay options for the category will be saved.
 
 To set eBay options for a product:
 
 1.  In your X-Cart store's Admin area, find the product for which you need to set eBay options. For example, you can find it via the Products section (**Catalog** > **Products**). Click on the product name to access the details of the product that has been found:
     ![]({{site.baseurl}}/attachments/9306381/9439152.png)
+    
 2.  On the product details page that opens, select the **eBay product options **tab:
     ![]({{site.baseurl}}/attachments/9306381/9439153.png)
     The eBay product options section of the product details opens:
@@ -243,4 +252,3 @@ _Related pages:_
 *   {% link "X-Cart eBay Integration system requirements and installation" ref_RgzAH0hf %}
 *   {% link "Exporting products to eBay" ref_40Al0Nky %}
 *   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
-

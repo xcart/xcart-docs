@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-29 13:17 +0400'
+updated_at: '2017-11-08 13:37 +0400'
 identifier: ref_o506IWMl
 title: Order status mapping
 categories:
@@ -25,7 +25,7 @@ Here's how you can do it:
     This expands a section with two drop-down boxes:
     ![]({{site.baseurl}}/attachments/8224919/8355916.png)
 
-3.  Use this section to specify a pair of matching statuses. For example, if you want order info to be sent to ShippingEasy when an order gets the payment status "Paid" in X-Cart, and you want this order to be marked as "Awaiting shipment" in ShippingEasy, you should select "Paid" from the drop-down box in the **X-Cart **payment **status** column and "Awaiting shipment" from the drop-down box in the **ShippingEasy status** column:
+3.  Use this section to specify a pair of matching statuses. For example, if you want order info to be sent to ShippingEasy when an order gets the payment status "Paid" in X-Cart, and you want this order to be marked as "Awaiting shipment" in ShippingEasy, you should select "Paid" from the drop-down box in the **X-Cart payment status** column and "Awaiting shipment" from the drop-down box in the **ShippingEasy status** column:
     ![]({{site.baseurl}}/attachments/8224919/8355917.png)
 
 4.  Click **Save changes**:

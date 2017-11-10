@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-30 13:57 +0400'
+updated_at: '2017-11-01 12:40 +0400'
 identifier: ref_XEdis9sU
 title: Типы атрибутов продуктов по области применения
 order: 20
@@ -21,7 +21,7 @@ published: true
 
 _Дополнительная информация:_
 
-*   {% link "Managing product classes" ref_EVqNSaZy %}
+*   {% link "Работа с классами продуктов" ref_oNqyWK0N %}
 *   {% link "Managing product-specific attributes" ref_d4ktum3z %}
 *   {% link "Managing product class attributes" ref_kEKoAxJB %}
 *   {% link "Managing global attributes" ref_HzMkgc0q %}

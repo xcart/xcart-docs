@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-27 23:48 +0400'
+updated_at: '2017-10-31 13:41 +0400'
 identifier: ref_DckDPR4v
 title: Настройка окружения для X-Cart 5
 order: 10
@@ -10,7 +10,7 @@ categories:
   - home
 icon: server
 ---
-В этом разделе вы найдете статьи по настройке серверного окрежения для X-Cart:
+В этом разделе вы найдете статьи по настройке серверного окружения для X-Cart:
 
 *   {% link "Speeding up your store" ref_WqHzxAmJ %};
 *   {% link "Настройка временного лимита на сервере" ref_DGK9HJBw %};

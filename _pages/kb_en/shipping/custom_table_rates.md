@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 13:06 +0400'
+updated_at: '2017-11-08 14:08 +0400'
 identifier: ref_3TG6AuN0
 title: Custom table rates
 categories:
@@ -53,31 +53,39 @@ To configure a shipping method with custom table based rates, follow the steps b
     If necessary, you will be able to add more table rows for more rates. In the end, be sure to save your changes.
 
     For example, let's configure a custom rates table that will allow us to offer our customers:
+    
     *   $7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb, 
     *   free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb,
-        and
     *   $10 flat rate shipping for orders weighing over 10 lb.
 
-        Our first rate needs to be "$7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb". To get this rate, we need to configure our first table row as follows:
+    Our first rate needs to be "$7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb". To get this rate, we need to configure our first table row as follows:
+    
     ![]({{site.baseurl}}/attachments/9306242/9437473.png)
+    
     *   Subtotal range: $0.00 - $49.99 
     *   Weight range: 0 - 10 lb 
     *   flat rate: $7
+    
     Once we're done with the first rate, let's add two more table rows for the rates "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb" and "$10 flat rate shipping for orders weighing over 10 lb" . To add a new blank row, we'll use the [+] button:
+    
     ![]({{site.baseurl}}/attachments/9306242/9437474.png)
+    
     We'll configure these two rows we have added like so:
+    
     ![]({{site.baseurl}}/attachments/9306242/9437475.png)
+    
     "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb":
     *   Subtotal range: $50 - $  ∞
     *   Weight range: 0 - 10 lb
     *   flat rate: $0
 
-        "$10 flat rate shipping for orders weighing over 10 lb":
+    "$10 flat rate shipping for orders weighing over 10 lb":
+        
     *   Subtotal range: $0 - $  ∞
     *   Weight range: 10 lb - ∞ 
     *   flat rate: $10
 
-        We are now ready to save our table.
+    We are now ready to save our table.
 
 6.  Once you're satisfied with your rates table configuration, save your changes. The new shipping method will be added.
 
@@ -86,4 +94,3 @@ To configure a shipping method with custom table based rates, follow the steps b
 8.  Make sure that all the products that will be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
 
 That is all. Now the shipping rates for orders shipped using this method will be calculated based on the custom rates table you have created.
-
