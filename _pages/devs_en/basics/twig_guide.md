@@ -1,16 +1,16 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2017-11-10 10:06 +0400'
 title: Custom features with Twig template engine
 identifier: ref_twigguide
-updated_at: 2016-08-31 00:00
-layout: article_with_sidebar
-lang: en
 version: X-Cart 5.3.0 and later
 order: 55
 categories:
-- Developer docs
-- Demo module
+  - Developer docs
+  - Demo module
+published: true
 ---
-
 ## Introduction
 
 This article is a guide to custom extensions and features of the [Twig](http://twig.sensiolabs.org) template engine used in X-Cart 5.3 and later versions. The complete documentation to Twig basic features is available at [http://twig.sensiolabs.org/documentation/](http://twig.sensiolabs.org/documentation/).
@@ -32,7 +32,7 @@ This article is a guide to custom extensions and features of the [Twig](http://t
 
 X-Cart 5.3 will use Twig templates instead of the dated {% link 'Flexy templates' ref_VcuME8xW %}. Twig is a modern, secure and extremely flexible templating engine. 
 
-To make the transition smooth for our developer community, we provide a tooling to automate this process. In order to convert your custom .tpl files to .twig install the [flexy-to-twig](https://www.npmjs.com/package/flexy-to-twig) npm package and run ```flexy-to-twig template.tpl > template.twig```. More detailed instructions are provided at the flexy-to-twig npm package page.
+To make the transition smooth for our developer community, we provide a tooling to automate this process. In order to convert your custom .tpl files to .twig install the [flexy-to-twig](https://www.npmjs.com/package/flexy-to-twig) npm package and run `flexy-to-twig template.tpl > template.twig`. More detailed instructions are provided at the flexy-to-twig npm package page.
 
 Alternatively, you can use our [online converter](http://xcart.github.io/flexy-to-twig/) if you have just a couple of templates or just want to play around with it.
 
