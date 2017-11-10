@@ -16,13 +16,21 @@ prose:
     - css
     - images
     - js
-    - _config.yml
     - feed.xml
     - pages.xml
+    - build.sh
+    - start.sh
+    - get_targets.sh
     - .gitignore
     - .gitmodules
     - _prose.yml
     - _links.yml
+    - _config.yml
+    - _config.devs_en.yml
+    - _config.devs_ru.yml
+    - _config.kb_en.yml
+    - _config.kb_ru.yml
+    - _config.dev.yml
     - .nojekyll
     - Gemfile
     - Gemfile.lock
