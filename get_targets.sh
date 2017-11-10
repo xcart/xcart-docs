@@ -17,7 +17,7 @@ DEVS_EN_DIFF="$(git diff $REVISION HEAD --name-only _pages/devs_en)"
 DEVS_RU_DIFF="$(git diff $REVISION HEAD --name-only _pages/devs_ru)"
 KB_EN_DIFF="$(git diff $REVISION HEAD --name-only _pages/kb_en)"
 KB_RU_DIFF="$(git diff $REVISION HEAD --name-only _pages/kb_ru)"
-MAIN_DIFF="$(git diff $REVISION HEAD --name-only !(_pages))"
+MAIN_DIFF="$(git diff $REVISION HEAD --name-only !(_pages|attachments))"
 
 if [ ! -z "$MAIN_DIFF" ]
   then
