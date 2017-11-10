@@ -1,4 +1,4 @@
-// Version 0.6
+// Version 0.7
 ;(function() {
 
   function Search() {
@@ -63,7 +63,7 @@
   }
 
   Search.prototype.getCategoryByItem = function (item) {
-    var registry = (item.displayLink === 'kb.x-cart.com') ? this.kbSections : this.devsSections;
+    var registry = (item.displayLink.indexOf('kb') == 0) ? this.kbSections : this.devsSections;
 
     var regex = /\/\/.+?\/(.+?)\/(.+?)\//;
     var matches = item.link.match(regex);
@@ -90,7 +90,8 @@
   Search.prototype.runAutocompleteQuery = function (query) {
     var params = {
       q: query,
-      num: 10
+      num: 10,
+      lang: '{{ site.lang_default }}'
     };
     return this.sendRequest(params).then(_.bind(this.onAutocompleteSuccess, this), _.bind(this.onAutocompleteFail, this));
   }
@@ -112,20 +113,20 @@
       var kb_category = {
         name: 'Knowledge base',
         results: pages.filter(function(item) {
-          return item.site == 'kb.x-cart.com'
+          return item.site.indexOf('kb') == 0;
         })
       };
       
       var devs_category = {
         name: 'Developer docs',
         results: pages.filter(function(item) {
-          return item.site == 'devs.x-cart.com'
+          return item.site.indexOf('devs') == 0;
         })
       };
 
       var preferredSite = '{{ site.search.preferred }}';
 
-      if (preferredSite == 'kb.x-cart.com') {
+      if (preferredSite.indexOf('kb') == 0) {
         var categories = {
           category1: kb_category,
           category2: devs_category
@@ -157,6 +158,7 @@
     var params = {
       q: this.query.q,
       num: this.PAGE_LENGTH,
+      lang: '{{ site.lang_default }}'
     };
 
     if (this.query.page && this.query.page > 0) {

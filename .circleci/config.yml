@@ -13,6 +13,7 @@ jobs:
           CI_WORKSPACE: _workspace
           SSH_STRING: ssh -o StrictHostKeyChecking=no -p1002
           SSH_HOST: kbsync@kb5.x-cart.com
+          SSH_HOST_RU: kbsync@x-cart.ru
     steps:
       - checkout
 
@@ -47,7 +48,6 @@ jobs:
             if [ -f ~/repo/_workspace/build-targets/devs_en ]; then
               ./build.sh devs_en
               rsync -azvh -e "$SSH_STRING" --delete --size-only _site/devs_en/ "$SSH_HOST:/www/kbsync/devs_en"
-              tar -czf _workspace/artifacts/devs_en.tar.gz _site/devs_en
             fi
 
       - run: 
@@ -55,8 +55,7 @@ jobs:
           command: |
             if [ -f ~/repo/_workspace/build-targets/devs_ru ]; then
               ./build.sh devs_ru
-              rsync -azvh -e "$SSH_STRING" --delete --size-only _site/devs_ru/ "$SSH_HOST:/www/kbsync/devs_ru"
-              tar -czf _workspace/artifacts/devs_ru.tar.gz _site/devs_ru
+              rsync -azvh -e "$SSH_STRING" --delete --size-only _site/devs_ru/ "$SSH_HOST_RU:/www/kbsync/devs_ru"
             fi
 
       - run: 
@@ -65,7 +64,6 @@ jobs:
             if [ -f ~/repo/_workspace/build-targets/kb_en ]; then
               ./build.sh kb_en
               rsync -azvh -e "$SSH_STRING" --delete --size-only _site/kb_en/ "$SSH_HOST:/www/kbsync/kb_en"
-              tar -czf _workspace/artifacts/kb_en.tar.gz _site/kb_en
             fi
 
       - run: 
@@ -73,9 +71,5 @@ jobs:
           command: |
             if [ -f ~/repo/_workspace/build-targets/kb_ru ]; then
               ./build.sh kb_ru
-              rsync -azvh -e "$SSH_STRING" --delete --size-only _site/kb_ru/ "$SSH_HOST:/www/kbsync/kb_ru"
-              tar -czf _workspace/artifacts/kb_ru.tar.gz _site/kb_ru
+              rsync -azvh -e "$SSH_STRING" --delete --size-only _site/kb_ru/ "$SSH_HOST_RU:/www/kbsync/kb_ru"
             fi
-
-      - store_artifacts:
-          path: _workspace/artifacts
