@@ -67,15 +67,15 @@ published: false
 Если пользователь запросил доступ в какую-то группу, в колонке **Уровень доступа** у него появится соответствующая пометка:
     ![13.jpg]({{site.baseurl}}/attachments/ref_MOcZboHi/13.jpg)
 
-If you see a user with a pending membership level, you may want to check the user's profile and approve the membership request: 
+Если в списке вы видите пользователя с пометкой о запросе, вы можете посмотреть его учетную запись и подтвердить или отклонить запрос на членство: 
 
-   1.  In the Users table, click on the name of the user to access their profile information.
+   1.  Нажмите на имя покупателя в списке, чтобы открыть страницу с информацией об учетной записи.
     
-   2.  Go to see the user's Account details and scroll down the page to the Membership field.
+   2.  На открывшейся вкладке **Учетная запись** найдите настройку **Группы пользователей**.
     
-   3.  From the drop-down list in the Membership field, select the membership level requested by the user.
+   3.  В меню выберите группу, которую запросил покупатель.
         ![xc5_membership_approve_pending.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_approve_pending.png)
-        (The membership level being requested by the user is shown as 'Pending membership'. The user's current membership level, if any, is shown in the Membership field; the option _Ignore membership_ in the Membership field means that the user currently does not have a membership level assigned.)
+        Группа, в которую хочет вступить покупатель, показана в пункте **Запрошена группа**. Если покупатель уже входит в какую-то группу, она будет указана в поле **Группы покупателей**. Если в меню **Группы покупателей** стоит _Игнорировать группу_, значит, на данный момент, покупатель не принадлежит ни к одной из групп. 
    
-   4.  Click **Update** to save the changes.
+   4.  Сделайте изменения в учетной записи и нажмите **Обновить**.
 
