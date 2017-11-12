@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-12 23:26 +0400'
+updated_at: '2017-11-12 23:33 +0400'
 identifier: ref_ZBKZ38v7
 title: Настройка налога с продаж
 order: 20
@@ -39,7 +39,7 @@ published: true
 
     Дополнительная информация:
 
-    *   {% link "Adding user membership levels" ref_9ITFspcC %}
+    *   {% link "Группы пользователей" ref_MOcZboHi %}
     
 Настройка налога с продаж:
 
@@ -113,8 +113,8 @@ published: true
 _Дополнительная информация:_
 
 *   {% link "Настройка классов налогов" ref_CqF1z2kG %}
-*   {% link "Как присвоить класс налога продукту" ref_CqF1z2kG#section-2 %}
+*   {% link "Как присвоить класс налога продукту" ref_CqF1z2kG#как-присвоить-класс-налога-продукту %}
 *   {% link "Настройка зон доставки" ref_fVgOaXam %}
-*   {% link "Adding user membership levels" ref_9ITFspcC %}
+*   {% link "Группы пользователей" ref_MOcZboHi %}
 *   {% link "Setting up VAT / GST (for the UK, EU, Australia, etc)" ref_Rzp45QlN %}
 *   {% link "Setting up Canadian taxes" ref_hxmof6xX %}
