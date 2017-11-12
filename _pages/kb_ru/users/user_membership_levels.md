@@ -61,11 +61,11 @@ published: false
 
 Когда покупатель создает или обновляет учетную запись, администратор подтверждает или отклоняет его вступление в выбранную группу.
 
-To find out whether any users in the store have signed up for memberships, use the 'Search for users' feature. In the **Users** > **Users** section, use the _Pending memberships_ filter (Be sure to select the checkbox with the name of one or more pending memberships):
-    ![xc5_membership_search_pending.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_search_pending.png)
+Чтобы узнать, вступили ли какие-то пользователи в группы, воспользуйтесь поиском. На странице **Пользователи /Список пользователей** установите фильтр _Группа на рассмотрении_ и выберите одну или несколько групп в списке:
+    ![12.jpg]({{site.baseurl}}/attachments/ref_MOcZboHi/12.jpg)
     
-In the list of users, users with a pending membership are marked as "requested for _membership level name_" (where instead of _membership level name_ you see the actual name of the membership level).
-    ![xc5_membership_requested4.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_requested4.png)
+Если пользователь запросил доступ в какую-то группу, в колонке **Уровень доступа** у него появится соответствующая пометка:
+    ![13.jpg]({{site.baseurl}}/attachments/ref_MOcZboHi/13.jpg)
 
 If you see a user with a pending membership level, you may want to check the user's profile and approve the membership request: 
 
