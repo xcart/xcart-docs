@@ -58,7 +58,7 @@ published: false
 
 ## Обновление цен продуктов с опциями, настроенными с помощью модификаторов цены
 
-Now let us consider another case - when you use {% link "multi-value attributes" ref_bTfJ9bTS#multi-value-attributes-product-options %} for some of your products, and set the price on the specific product options by adjusting the base product price with {% link "price modifiers" ref_bTfJ9bTS#price-and-weight-modifiers %}. Let us imagine that you have a product SKU 10001 "Planet Express Babydoll", which is a t-shirt. The t-shirt is available in the sizes S-M-L-XL. The base price of the product is set at $9.99, and this price applies to the sizing options S, M and L, whereas the price on the XL option equals "base price + $2":
+Рассмотрим случай, когда для продукта настроены {% link "многозначные атрибуты" ref_bTfJ9bTS#multi-value-attributes-product-options %}, и цена некоторых опций продукта устанавливается из цены основного продукта с применением {% link "модификатора цены" ref_bTfJ9bTS#price-and-weight-modifiers %}.  Возьмем продукт 12033 “Форменные Поло Звездный Путь”, это футболка. Доступно несколько размеров футболки: S, M, L и XL. Основная цена продукта RUB 500, эта же цена распространяется на размерные опции S, M и L, а для размера XL цена повышена на RUB 50,00:
 
 ![]({{site.baseurl}}/attachments/9306814/9439216.png)
 
