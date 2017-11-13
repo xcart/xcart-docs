@@ -9,8 +9,6 @@ categories:
 published: true
 order: 100
 ---
-
-
 ## Introduction
 
 This video explains the use of attributes and product filters in X-Cart 5.1.
