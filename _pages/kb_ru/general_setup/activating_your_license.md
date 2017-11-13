@@ -18,31 +18,29 @@ published: false
 
 ## Активация Базовой лицензии X-Cart
 
-This section explains how to activate a Free X-Cart 5 license to turn your X-Cart trial installation into a real X-Cart 5 Free edition store.
+Данный раздел рассказывает, как активировать Базовую (бесплатную) лицензию X-Cart, чтобы переделать тестовую установку X-Cart  в действующий онлайн магазин.
 
-A {% link "video instruction on X-Cart 5 Free license activation" ref_X5ZLmSJV %}  is available in the Webinars and video tutorials section of the X-Cart 5 Knowledge Base.
+В панели управления пробного магазина нажмите ссылку **Активировать бесплатную лицензию**. Данную ссылку можно найти несколькими путями:  
 
-To start the activation process for a Free X-Cart 5 license, you will need to click on the **Activate free license** in the Admin area of your X-Cart 5 trial installation. For your convenience, this link can be accessed using any of the methods below:  
-
-   *   _Method 1:_
-       In the popup box with the X-Cart trial expiration notice (you can see it every time you sign in to the Admin area), click on the "I have a license key" link:
+   *   _Способ 1:_
+       При каждом входе в панель управления пробного магазина вы видите всплывающее уведомление об истечении срока тестирования X-Cart. Нажмите на _У меня ест лицензия_ в этом окне:
        ![xc5_licenses_ihavealicensekey_link.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_ihavealicensekey_link.png)
-       This will expand the popup box further down, an the link you require will be displayed at its bottom:
+       Окно будет развернуто, в нижней части окна вы найдете нужную ссылку:
        ![xc5_licenses_activate_free_license_link.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_license_link.png)
 
-   *   _Method 2:_ In the Admin area site header, click the **Activate key** button:
+   *   _Способ 2:_ В верхнем меню в панели управления магазина нажмите на ссылку **Активировать лицензию**:
        ![xc5_licenses_activate_key_button_in_header.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_key_button_in_header.png)
-       This will cause the License key registration popup to box to appear, where you will find the **Activate free license** link you require:
+       Откроется окно, в котором вы найдете ссылку **Активировать бесплатную лицензию**:
        ![xc5_licenses_license_key_registration.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_license_key_registration.png)
 
-   *    _Method 3:_ In the Installed Modules section, click the **Activate license key** button:
+   *    _Способ 3:_ Нажмите **Активировать лицензию** на странице Мои модули:
         ![xc5_licenses_activate_license_key_in_installed_modules.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules.png)
-        This will cause the following box to appear, where you will find the **activate your X-Cart license** link:
+        Откроется окно со ссылкой для активации лицензии:
         ![xc5_licenses_activate_license_key_in_installed_modules1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules1.png)
-        Click on this link. The box will be expanded to display more options. Choose to activate a free license:
+        Нажмите на ссылку, появятся дополнительные опции. Выберите опцию **Активировать бесплатную лицензию**:
         ![xc5_licenses_activate_free_on_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_on_first.png)
 
-   *   _Method 4:_ In the Modules Marketplace, click the **Activate license key** button:
+   *   _Способ 4:_ Нажмите **Активировать лицензию** на странице Маркетплейс:
         ![xc5_licenses_activate_license_key_in_marketplace.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace.png)
         This will cause the following box to appear, where you will find the **activate your X-Cart license** link:
         ![xc5_licenses_activate_license_key_in_marketplace1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace1.png)
