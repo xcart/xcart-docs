@@ -95,22 +95,22 @@ published: false
         
 После покупки лицензии X-Cart Business, Multivendor или Ultimate по электронной почте вы получаете письмо, содержащее 16-значный код для активации лицензии. 
 
-The key is also stored in your personal HelpDesk account in the section **My Licenses**:
+Лицензионный ключ, также, записан в разделе **My Licenses** в HelpDesk:
        ![]({{site.baseurl}}/attachments/8225232/8356149.png)
 
-Be sure to have this key at the ready when you are going to activate your license.
+Держите этот ключ под рукой, когда соберетесь активировать лицензию.
 
-If you lost the email message with your license key and experience problems logging in to your HelpDesk account, please contact X-Cart's Customer Service at **[support@x-cart.com](mailto:support@x-cart.com)**.
+Если вы потеряли письмо с ключом и не можете попасть в учетную запись в HelpDesk, обратитесь за помощью в группу поддержки X-Cart **[support@x-cart.com](mailto:support@x-cart.com)**.
 
-To activate your license, log in to the Admin area of your X-Cart 5 installation and submit your license key via the form for license activation (In X-Cart trial version, the form is available via all the same methods used to access the **Purchase a premium license key** button described above. If you have activated an X-Cart license previously, the license activation form is available only via the **Activate license key** button in the Installed Modules section or the **Activate license key** button in the Modules Marketplace). 
+Чтобы активировать лицензию, в панели управления магазина введите лицензионный ключ в специальную форму активации магазина. В пробной версии X-Cart эту форму можно найти так же, как и в случае покупки лицензии, описанном выше. Если до этого вы уже активировали лицензию, форма активации доступна только на страницах **Мои модули** и **Маркетплейс**. 
       ![xc5_licenses_activate_premium.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_premium.png)
 
-The license activation process will begin. As soon as it completed, a success message will be displayed at the top of the screen:
+Как только активация лицензии завершится, сверху на странице появится системное подтверждение:
       ![]({{site.baseurl}}/attachments/8225232/8716605.png)
 
-That is all; your license has been activated. Now, if you look at your Admin area header, you should be able to see the license type you have activated:
+Теперь в верхнем меню указан тип активированной лицензии:
       ![]({{site.baseurl}}/attachments/8225232/8716606.png)
 
-(The screenshot above demonstrates the result of activating a Business license; for Multivendor license this would be "Multivendor", and for Ultimate license this would be "Ultimate").
+(Скриншот выше показывает регистрацию Business лицензии. Для лицензий Multivendor и Ultimate запись будет соответственно Multivendor и Ultimate).
 
-## Activating an X-Cart 5 module license
+## Активация модуля для X-Cart 5
