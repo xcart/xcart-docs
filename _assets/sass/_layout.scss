@@ -260,10 +260,16 @@
 
 #breadcrumb-block {
   padding-bottom: 0;
+  padding-top: 0;
 
-  .ui.breadcrumb > a.section {
-    line-height: 2em;
+  .ui.breadcrumb > .section {
+    padding-top: 1rem;
   }
+
+  .ui.breadcrumb > *:nth-last-child(-n+2) {
+    display: none;
+  }
+
 }
 
 article {

@@ -7,11 +7,6 @@
 
             {% for crumb in breadcrumbs %}
 
-              <!-- Skip if root -->
-              {% if crumb.url == "/" %}
-                {% continue %}
-              {% endif %}
-
               <!-- Get breadcrumb title -->
               {% assign caption = crumb.title %}
 

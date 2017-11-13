@@ -69,9 +69,13 @@ module Jekyll
         items = @menu_items.map { |item| render_item(item, level, parent) }
 
         items_text = items.map { |item| item[:markup] }.join
-        is_active = items.map { |item| item[:active] }.any?
+        # active class calculation moved to js due to aggressive caching
+        # is_active = items.map { |item| item[:active] }.any?
+        is_active = false
 
-        active_class = level > @starting_level && (is_active || force_active_class) ? 'active' : ''
+        # active class calculation moved to js due to aggressive caching
+        # active_class = level > @starting_level && (is_active || force_active_class) ? 'active' : ''
+        active_class = '' 
 
         if items_text.strip.length > 0 then
           markup = <<-HTML
@@ -92,15 +96,19 @@ module Jekyll
         itembase = parts.slice(0, level).join('/')
 
         if item.data.fetch('show_in_sidebar', true) and item.data.fetch('title', '') and itembase == parent and parts.length > level and parts.length <= level + 1
-          # Menu item is active
-          is_active = item['identifier'] == @page['identifier']
+      
+          # active class calculation moved to js due to aggressive caching
+          # is_active = item['identifier'] == @page['identifier']
+          is_active = false
           active_class = is_active ? 'active' : ''
 
           next_level = render_level(level + 1, parts.join('/'), is_active)
           next_opener = (next_level[:markup].length > 0) ? '<a class="opener"><i class="dropdown icon"></i></a>' : ''
           has_sub = (next_level[:markup].length > 0 ? 'has-sub' : '')
 
-          active_title_class = next_level[:active] || (is_active && next_level[:markup].length > 0) ? 'active' : ''
+          # active class calculation moved to js due to aggressive caching
+          # active_title_class = next_level[:active] || (is_active && next_level[:markup].length > 0) ? 'active' : ''
+          active_title_class = ''
 
           url = @site.baseurl + item['url']
           markup = <<-HTML
