@@ -42,11 +42,11 @@ published: false
 
    *   _Способ 4:_ Нажмите **Активировать лицензию** на странице Маркетплейс:
         ![xc5_licenses_activate_license_key_in_marketplace.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace.png)
-        This will cause the following box to appear, where you will find the **activate your X-Cart license** link:
+        Откроется окно со ссылкой для активации лицензии:
         ![xc5_licenses_activate_license_key_in_marketplace1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace1.png)
-         Click on this link. The box will be expanded to display more options. Choose to activate a free license:
+         Нажмите на ссылку, появятся дополнительные опции. Выберите опцию **Активировать бесплатную лицензию**:
         ![xc5_licenses_activate_free_on_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_on_first.png)
 
 
-Once the **Activate free license** button has been clicked, the popup box will be closed, and you will see a page with a warning about the consequences of free license activation:
+Как только вы нажмете на ссылку активации, окно закроется, и откроется страница с информацией о последствиях активации бесплатной лицензии.:
          ![xc5_licenses_modules_tobe_removed.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_modules_tobe_removed.png)
