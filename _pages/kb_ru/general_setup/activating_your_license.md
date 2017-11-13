@@ -114,3 +114,40 @@ published: false
 (Скриншот выше показывает регистрацию Business лицензии. Для лицензий Multivendor и Ultimate запись будет соответственно Multivendor и Ultimate).
 
 ## Активация модуля для X-Cart 5
+
+This section covers the topic of license activation for commercial (paid, non-free) modules for X-Cart 5.
+
+A {% link "video instruction on X-Cart 5 module license activation" ref_hU6Rb4tw %} is available in the Webinars and video tutorials section of the X-Cart 5 Knowledge Base.
+
+When you purchase an X-Cart 5 module license, you need to activate it. Within minutes of the purchase you get an email message with the subject '**Your **"**Module_name**"** addon key**', where Module_name is the actual name of the module. You should use this key to activate your module license. As soon as the license has been activated, the module will be automatically installed in your store.
+
+To activate a module license, do the following:
+
+1.  Log in to the Admin area of your X-Cart 5 installation and go to the Modules Marketplace (Select** Modules** in the main menu, then click the View more addons in the Marketplace link).
+
+2.  Access the license activation form by clicking either the **Activate license key** button above the module list or the **Activate key **link next to the name of the module for which you are activating a license:
+    ![]({{site.baseurl}}/attachments/8225232/8716608.png)
+    The form for license activation looks as follows:
+    ![]({{site.baseurl}}/attachments/8225232/8716609.png)
+    If you are using the trial version, you will be requested to activate your X-Cart 5 license before you can activate the module license:
+    ![]({{site.baseurl}}/attachments/8225232/8716598.png)
+3.  Enter your license key into the appropriate field and click **Activate**:
+    ![]({{site.baseurl}}/attachments/8225232/8716610.png)
+    If the submitted license key is found valid, X-Cart will immediately start downloading and installing the module:
+
+![]({{site.baseurl}}/attachments/8225232/8356157.png)
+
+The process is likely to take a few minutes. Take care not to close the page before the process has been fully completed.
+
+![]({{site.baseurl}}/attachments/8225232/8356158.png)
+
+Once the module installation has been completed, a confirmation message will be displayed at the top of the screen.
+
+That is all. Your module license has been activated, and the module has been installed. 
+
+_Related pages:_
+
+*   Video: {% link "X-Cart 5 Free License Activation" ref_X5ZLmSJV %}
+*   Video: {% link "X-Cart 5 Business License Activation" ref_UUrbypsh %}
+*   Video: {% link "X-Cart 5 Module License Activation" ref_hU6Rb4tw %}
+*   {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}
