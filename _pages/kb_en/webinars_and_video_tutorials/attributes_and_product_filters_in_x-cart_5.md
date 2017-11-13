@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-30 21:05 +0400'
+updated_at: '2017-11-13 13:51 +0400'
 identifier: ref_tkXafgoK
 title: Attributes and product filters in X-Cart 5
 categories:
