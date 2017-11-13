@@ -1,0 +1,4 @@
+---
+---
+Host: {{ site.url }}
+Sitemap: {{ "sitemap.xml" | absolute_url }}

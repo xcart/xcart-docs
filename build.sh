@@ -10,7 +10,6 @@ DEST="$JEKYLL_DESTINATION/$1"
 if [ -z "$JEKYLL_DESTINATION" ]
   then
     DEST="_site/$1"
-    exit 1
 fi
 mkdir -p $DEST
 chmod -R 755 $DEST
