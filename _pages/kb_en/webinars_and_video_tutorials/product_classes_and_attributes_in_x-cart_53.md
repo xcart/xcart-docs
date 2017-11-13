@@ -5,7 +5,7 @@ updated_at: '2017-11-13 13:46 +0400'
 identifier: ref_TFScbVdf
 title: Product Classes and Attributes in X-Cart 5.3
 order: 100
-published: false
+published: true
 ---
 ## Introduction
 
