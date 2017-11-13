@@ -49,6 +49,10 @@
 'Get started':
     en: 'Get started'
     ru: 'C чего начать?'
+    
+'How to install':
+    en: 'How to install'
+    ru: 'Как установить?'
 
 'Developers blog':
     en: "Developers' blog"
@@ -103,3 +107,11 @@
 'getting_started_link':
     en: '/getting_started/'
     ru: '/getting_started/'
+
+'installation_guide_link':
+    en: '/general_setup/installation_guide.html'
+    ru: '/general_setup/installation_guide.html'
+
+'general_setup_link':
+    en: '/general_setup/'
+    ru: '/general_setup/'
