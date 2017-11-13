@@ -14,7 +14,7 @@
         <form class="ui item" action="{{ '/search.html' | prepend: baseurl_link }}">
           <div class="ui category search site-search">
             <div class="ui transparent inverted icon input">
-              <input class="prompt" type="text" placeholder="Search..." name="q">
+              <input class="prompt" type="text" placeholder="{{ site.data.labels['Search'][page.lang] }}..." name="q">
               <i class="search icon"></i>
             </div>
             <div class="results"></div>
@@ -28,6 +28,7 @@
   </div>
   {% if page.large_header %}
     <div class="banner-welcome ui center aligned container">
+      {% if site.type == 'devs' %}
       <h1 class="ui inverted header">
         <div class="headline">{{ site.data.labels['X-Cart Developer Documentation'][page.lang] }}</div>
         <div class="tagline">{{ site.data.labels['devs_tagline'][page.lang] }}</div>
@@ -39,6 +40,19 @@
       <a href="{{ site.data.labels['developers_blog_link'][page.lang] | prepend: baseurl_link }}" class="ui huge inverted basic button">
           {{ site.data.labels['Developers blog'][page.lang] }}
       </a>
+      {% else %}
+      <h1 class="ui inverted header">
+        <div class="headline">{{ site.data.labels['X-Cart Knowledge Base'][page.lang] }}</div>
+        <div class="tagline">{{ site.data.labels['kb_tagline'][page.lang] }}</div>
+      </h1>
+      <div class="ui hidden divider"></div>
+      <a href="{{ site.data.labels['general_setup_link'][page.lang] | prepend: baseurl_lang }}" class="ui huge inverted basic button">
+          {{ site.data.labels['Get started'][page.lang] }}
+      </a>
+      <a href="{{ site.data.labels['installation_guide_link'][page.lang] | prepend: baseurl_lang }}" class="ui huge inverted basic button">
+          {{ site.data.labels['How to install'][page.lang] }}
+      </a>
+      {% endif %}
     </div>
   {% endif %}
 

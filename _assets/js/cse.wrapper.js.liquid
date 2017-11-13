@@ -98,7 +98,8 @@
 
   Search.prototype.onAutocompleteSuccess = function (response) {
     var self = this;
-    var pages = response.items.reduce(function(memo, item) {
+    var results = response.items || [];
+    var pages = results.reduce(function(memo, item) {
       memo.push({
         title: _.unescape(item.htmlTitle),
         url: item.link,
@@ -171,7 +172,8 @@
   Search.prototype.onSuccess = function (response) {
     try {
       var self = this;
-      var pages = response.items.reduce(function(memo, item) {
+      var results = response.items || [];
+      var pages = results.reduce(function(memo, item) {
         memo.push({
           title: _.unescape(item.htmlTitle),
           url: item.link,
