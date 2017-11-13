@@ -125,16 +125,16 @@ XL - RUB 500. 
 
 ![]({{site.baseurl}}/attachments/9306814/9633884.png)
 
-We are going to achieve the same result without editing the Wholesale pricing section directly. Let's do it:
+То же самое можно сделать, не редактируя отповые цены продукта:
 
-1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
+1.  Экспортируйте продукты в разделе **Экспорт в CSV** на странице **Каталог / Экспорт**:
     ![]({{site.baseurl}}/attachments/9306814/9439225.png)
-2.  Download the resulting export file and import it into our favorite spreadsheet editor. 
-3.  Edit the file removing the columns whose contents will not need to be updated. As you can find out from the section {% link "CSV import: Products" ref_WmJBfwxA %} of this manual, the columns required for the import of products with wholesale prices are **sku** and **name** (required for products) + **wholesalePrices** and **variantWholesalePrices** (the fields added by the module Wholesale). So, keep those columns in your file. It may also be a good idea to keep the columns **price** and **stockLevel** - just so you have information about the product's base price and quantity in stock close at hand. The rest of the columns can be safely removed. Now if you look at the line of SKU 10001, you should see something like the following:
+2.  Скачайте файл экспорта и загрузите его в редактор таблиц. 
+3.  Удалите столбцы, данные в которых не требуют изменения. Как сказано в статье {% link "CSV import: Products" ref_WmJBfwxA %}, обязательные столбцы для импорта продуктов с оптовыми ценами - это **sku** и **name** (для продукта), а также, **wholesalePrices** и **variantWholesalePrices** (столбцы, добавленные модулем **Оптовые цены**). Не удаляйте эти столбцы. Также, не стоит удалять столбцы **price** и **stockLevel**, что видеть базовые цены продуктов и размер запасов. Все остальные столбцы можно удалить. Теперь строка продукта 12030 выглядит так:
     ![]({{site.baseurl}}/attachments/9306814/9633886.png)
-4.  Now add the wholesale price tiers you require. In our example, SKU 10001 "Planet Express Babydoll" is a simple product without variants, which means we need to add our wholesale prices in the **wholesalePrices** column. The format to write out wholesale price tiers in your file is as follows:
+4.  Задайте диапазоны оптовых цен. В нашем примере 12030 “Женская Футболка Сэлфи Человека Паука” - это простой продукт без вариантов. Значит, оптовые цены должны быть внесены в столбец **wholesalePrices**. Диапазон оптовых цен вносится в файл в таком формате:
     **N1**(**Membership1**)=**Price1**&&**N2**(**Membership2**)=**Price2**,
-    where: 
+    где: 
     *   **N** is the minimum number of product units starting from which the price is available, 
     *   **Membership **is the name of the membership level to which the price is available (may be omitted to provide a price for non-members),
     *   **Price** is the price corresponding to the specified number of product units and membership,
