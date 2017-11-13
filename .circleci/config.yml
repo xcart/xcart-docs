@@ -7,7 +7,7 @@ jobs:
   build:
     working_directory: ~/repo
     docker:
-      - image: circleci/ruby:2.4.1-node-browsers
+      - image: xcart/ruby:2.4.1-jekyll
     environment:
           JEKYLL_DESTINATION: _site
           CI_WORKSPACE: _workspace
@@ -39,8 +39,6 @@ jobs:
       - run: mkdir -p _workspace/artifacts
 
       - run: ./get_targets.sh _workspace/build-targets
-
-      - run: sudo apt-get install rsync
 
       - run: 
           name: Building devs en (if needed)
