@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-10-17 15:11 +0400'
+updated_at: '2017-11-13 13:55 +0400'
 identifier: ref_STELArig
 title: Webinars and video tutorials
 categories:
@@ -30,6 +30,7 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 *   {% link "Adding a new product (video)" ref_6sRB7rnW %}
 *   {% link "Setting up sale and wholesale pricing in X-Cart 5" ref_g2dhS8uC %}
 *   {% link "Import and Export of Categories: Tutorial by Mike White" ref_VXdfNsVw %}
+*   {% link "Product Classes and Attributes in X-Cart 5.3" ref_TFScbVdf %}
 *   {% link "Attributes and product filters in X-Cart 5" ref_tkXafgoK %}
 *   {% link "Product variants in X-Cart 5" ref_PCmycghn %}
 
