@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-09 16:10 +0400'
+updated_at: '2017-11-13 16:50 +0400'
 identifier: ref_AwaMbiEf
 title: Импорт данных
 order: 10
@@ -31,5 +31,5 @@ CSV файл для импорта можно создать двумя спос
 _Дополнительная информация:_
 
 *   {% link "Формат CSV файла для разных видов данных" ref_IbLL2XAb %}
-*   {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}
+*   {% link "Обновление свойств продуктов (цен, количества в наличии и т.д.) путем импорта" ref_RTng7mcS %}
 *   {% link "Интеграция с Doba (сервисом прямых поставок)" ref_P9FGe7v8 %}
