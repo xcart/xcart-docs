@@ -50,10 +50,12 @@ published: false
 3.  В созданном файле много столбцов, и те из них, которые не требуют обновления, лучше удалить. Будьте внимательны, чтобы не удалить столбцы, данные в которых следует обновить. Чтобы узнать, какие столбцы должны присутствовать в файле, обратитесь к статье {% link "CSV import: Products" ref_WmJBfwxA %}. В таблице, показывающей формат данных для импорта продуктов, можно увидеть только два обязательных поля (они отмечены звездочкой): **sku** и **name**. Эти два столбца нужно обязательно оставить в файле. Цена, требующая обновления, находится в столбце **price**, а количество продукта - в столбце **stockLevel**. Эти столбцы тоже следует оставить в файле. В общем, можно удалить все столбцы, кроме **price**, **name**, **sku** и **stockLevel**. После удаления лишних столбцов файл будет выглядеть так:
     ![]({{site.baseurl}}/attachments/9306814/9439208.png)
     (На скриншоте видно, что название столбца с именами продуктов - name_ru. Это потому, что вся информация в файле на русском языке.  Если информация о продуктах на другом языке, в названиях столбцов будут другие языковый коды).
-4.  On the lines of the SKUs for which you need to update the price and the stock quantity, edit the contents of the **price** and **stockLevel** fields as you require. 
+4.  В строках артикулов, для которых нужно изменить цены и количество запасов, впишите актуальные значения в столбцах **price** и **stockLevel**. 
     ![]({{site.baseurl}}/attachments/9306814/9439209.png)
-5.  Save the file and re-import it into your store via the "Import by CSV" section in your store's back end  (**Catalog** > **Import**). 
+5.  Сохраните файл и импортируйте его в магазин в разделе **Импортировать в CSV** на странице **Каталог / Импорт**. 
 
-After the import process is completed, you should be able to see the updated product information in the details of the respective products.
+Когда импорт завершится, проверьте продукты в магазине, их данные должны быть уже обновлены.
 
-## Updating the price of products with options configured using price modifiers
+## Обновление цен продуктов с опциями, настроенными с помощью модификаторов цены
+
+
