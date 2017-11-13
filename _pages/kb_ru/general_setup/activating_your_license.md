@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-11-13 11:12 +0400'
 identifier: ref_eqZRcCns
-title: Активация лицензии
+title: Активация лицензии X-Cart 5
 order: 30
 published: false
 ---
