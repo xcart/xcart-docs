@@ -140,18 +140,18 @@ XL - RUB 500. 
     *   **Price** - это цена, соответствующая указанному количеству продуктов и группе,
     *   **&&** - это разделитель, отделяющий один диапазон цен от другого.
 
-        According to the said format, we need to add the pricing information for SKU 10001 "Planet Express Babydoll" as follows: "5=8.99&&10(Wholesaler)=7.50&&10(VIP)=6.50"
+        В соответствии с форматом, цена для продукта 12030 “Женская Футболка Сэлфи Человека Паука” задается так: “5=400&&10(Оптовый покупатель)=350&&10(VIP)=300”
     ![]({{site.baseurl}}/attachments/9306814/9633887.png)
 
-5.  Save the file and re-import it into your store via the "Import by CSV" section in your store's back end (**Catalog** > **Import**).
+5.  Сохраните файл и импортируйте его в магазин через раздел **Импортировать в CSV** на странице **Каталог / Импорт**.
 
-After the import process is completed, you should be able to see the wholesale prices you have imported in the Wholesale pricing section of the product details.
+По завершении импорта в разделе Оптовые цены появятся новые оптовые цены.
 
-For products with variants, the process of adding wholesale prices is similar, only you need to add the wholesale pricing information via the **variantWholesalePrices** column. Below you can see an example of a file that will add wholesale pricing for the variants of SKU 10000 (variantSKUs 100001, 100002, 100003 and 100004):
+Для продуктов с вариантами оптовые цены задаются так же, но в другом столбце - **variantWholesalePrices**. Ниже показано, как задать отповые цены для вариантов продукта 12033 (артикулы 12034, 12035, 12036 и 12037):
 
 ![]({{site.baseurl}}/attachments/9306814/9633888.png)
 
-_Related pages:_
+_Дополнительная информация:_
 
 *   {% link "How to import data" ref_glDc6kA1 %}
 *   {% link "CSV format by X-Cart data type" ref_iy9cOdWS %}
