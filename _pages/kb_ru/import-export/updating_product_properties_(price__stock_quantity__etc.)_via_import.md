@@ -125,5 +125,36 @@ XL - RUB 500. 
 
 ![]({{site.baseurl}}/attachments/9306814/9633884.png)
 
+We are going to achieve the same result without editing the Wholesale pricing section directly. Let's do it:
+
+1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
+    ![]({{site.baseurl}}/attachments/9306814/9439225.png)
+2.  Download the resulting export file and import it into our favorite spreadsheet editor. 
+3.  Edit the file removing the columns whose contents will not need to be updated. As you can find out from the section {% link "CSV import: Products" ref_WmJBfwxA %} of this manual, the columns required for the import of products with wholesale prices are **sku** and **name** (required for products) + **wholesalePrices** and **variantWholesalePrices** (the fields added by the module Wholesale). So, keep those columns in your file. It may also be a good idea to keep the columns **price** and **stockLevel** - just so you have information about the product's base price and quantity in stock close at hand. The rest of the columns can be safely removed. Now if you look at the line of SKU 10001, you should see something like the following:
+    ![]({{site.baseurl}}/attachments/9306814/9633886.png)
+4.  Now add the wholesale price tiers you require. In our example, SKU 10001 "Planet Express Babydoll" is a simple product without variants, which means we need to add our wholesale prices in the **wholesalePrices** column. The format to write out wholesale price tiers in your file is as follows:
+    **N1**(**Membership1**)=**Price1**&&**N2**(**Membership2**)=**Price2**,
+    where: 
+    *   **N** is the minimum number of product units starting from which the price is available, 
+    *   **Membership **is the name of the membership level to which the price is available (may be omitted to provide a price for non-members),
+    *   **Price** is the price corresponding to the specified number of product units and membership,
+    *   **&&** is a delimiter used to separate the pricing tiers from one another.
+
+        According to the said format, we need to add the pricing information for SKU 10001 "Planet Express Babydoll" as follows: "5=8.99&&10(Wholesaler)=7.50&&10(VIP)=6.50"
+    ![]({{site.baseurl}}/attachments/9306814/9633887.png)
+
+5.  Save the file and re-import it into your store via the "Import by CSV" section in your store's back end (**Catalog** > **Import**).
+
+After the import process is completed, you should be able to see the wholesale prices you have imported in the Wholesale pricing section of the product details.
+
+For products with variants, the process of adding wholesale prices is similar, only you need to add the wholesale pricing information via the **variantWholesalePrices** column. Below you can see an example of a file that will add wholesale pricing for the variants of SKU 10000 (variantSKUs 100001, 100002, 100003 and 100004):
+
+![]({{site.baseurl}}/attachments/9306814/9633888.png)
+
+_Related pages:_
+
+*   {% link "How to import data" ref_glDc6kA1 %}
+*   {% link "CSV format by X-Cart data type" ref_iy9cOdWS %}
+*   {% link "Integration with Doba (drop shipping services)" ref_HOfdxO3E %}
 
 
