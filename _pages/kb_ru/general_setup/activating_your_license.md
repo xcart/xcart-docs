@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-13 11:12 +0400'
+updated_at: '2017-11-13 12:17 +0400'
 identifier: ref_eqZRcCns
 title: Активация лицензии X-Cart 5
 order: 30
@@ -9,12 +9,12 @@ published: true
 ---
 Файл, который доступен для скачивания на сайте [www.x-cart.com](http://www.x-cart.com/), - это установочный пакет 30-дневной пробной версии X-Cart Business. Пробная версия предназначена только для ознакомления с X-Cart. Использование установки X-Cart для других целей возможно только при наличии активированной лицензии (Базовой, Business, Multivendor или Ultimate). Базовую лицензию можно активировать в панели управления магазина. Другие виды лицензий являются платными. При покупке лицензии вы получаете ключ для активации лицензии. Инструкции по активации лицензии на магазин:
 
-*   [Активация Базовой лицензии X-Cart](#activate-a-free-x-cart-5-license)
-*   [Активация платной лицензии X-Cart (Business, Multivendor или Ultimate))](#activating-a-premium-x-cart-5license-business--multivendor--ultimate)
+*   [Активация Базовой лицензии X-Cart](#активация-базовой-лицензии-x-cart)
+*   [Активация платной лицензии X-Cart (Business, Multivendor или Ultimate))](#активация-платной-лицензии-x-cart-business-multivendor-или-ultimate)
 
 Платные модули для X-Cart 5 также имеют лицензии и требуют активации. Инструкции по активации лицензии на модуль:
 
-*   [Активация модуля для X-Cart 5](#activating-an-x-cart-5-module-license)
+*   [Активация модуля для X-Cart 5](#активация-модуля-для-x-cart-5)
 
 ## Активация Базовой лицензии X-Cart
 
