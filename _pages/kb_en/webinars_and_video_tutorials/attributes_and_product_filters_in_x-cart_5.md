@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-13 13:51 +0400'
+updated_at: '2017-11-13 13:59 +0400'
 identifier: ref_tkXafgoK
 title: Attributes and product filters in X-Cart 5
 categories:
@@ -13,7 +13,7 @@ order: 100
 
 ## Introduction
 
-This video explains the use of attributes and product filters in X-Cart 5.
+This video explains the use of attributes and product filters in X-Cart 5.1.
 
 ## Video
 **Published on Jan 6, 2015**
