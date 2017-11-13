@@ -135,10 +135,10 @@ XL - RUB 500. 
 4.  Задайте диапазоны оптовых цен. В нашем примере 12030 “Женская Футболка Сэлфи Человека Паука” - это простой продукт без вариантов. Значит, оптовые цены должны быть внесены в столбец **wholesalePrices**. Диапазон оптовых цен вносится в файл в таком формате:
     **N1**(**Membership1**)=**Price1**&&**N2**(**Membership2**)=**Price2**,
     где: 
-    *   **N** is the minimum number of product units starting from which the price is available, 
-    *   **Membership **is the name of the membership level to which the price is available (may be omitted to provide a price for non-members),
-    *   **Price** is the price corresponding to the specified number of product units and membership,
-    *   **&&** is a delimiter used to separate the pricing tiers from one another.
+    *   **N** - это минимальное количество продукта для заказа, с которого начинает действовать оптовая цена, 
+    *   **Membership ** - это название группы покупателей, для которой действует оптовая цена (если ничего не указано, цена будет доступна покупателям, не входящим ни в какую группу),
+    *   **Price** - это цена, соответствующая указанному количеству продуктов и группе,
+    *   **&&** - это разделитель, отделяющий один диапазон цен от другого.
 
         According to the said format, we need to add the pricing information for SKU 10001 "Planet Express Babydoll" as follows: "5=8.99&&10(Wholesaler)=7.50&&10(VIP)=6.50"
     ![]({{site.baseurl}}/attachments/9306814/9633887.png)
