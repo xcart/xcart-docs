@@ -153,8 +153,8 @@ XL - RUB 500. 
 
 _Дополнительная информация:_
 
-*   {% link "How to import data" ref_glDc6kA1 %}
-*   {% link "CSV format by X-Cart data type" ref_iy9cOdWS %}
-*   {% link "Integration with Doba (drop shipping services)" ref_HOfdxO3E %}
+*   {% link "Импорт данных" ref_AwaMbiEf %}
+*   {% link "Формат CSV файла для разных видов данных" ref_IbLL2XAb %}
+*   {% link "Интеграция с Doba (сервисом прямых поставок)" ref_P9FGe7v8 %}
 
 
