@@ -62,30 +62,32 @@ published: false
 
 ![]({{site.baseurl}}/attachments/9306814/9439216.png)
 
-For example, you need to change the price of this product so that the available sizing options have the following prices:
+Например, необходимо изменить цену товара так, чтобы задать разные цены для разных размеров:
 
-S - $7.99,
+S - RUB 400,
 
-M - $8.99,
+M - RUB 450,
 
-L - $9.99,
+L - RUB 500,
 
-XL - $9.99. 
+XL - RUB 500. 
 
-This can be easily achieved using the export-import feature. To achieve the prices we require, we'll simply adjust the price modifiers:
+Это можно легко сделать с помощью экспорта и импорта. Чтобы задать такие цены, достаточно поменять модификаторы цены:
 
-1.  In the "Export in CSV" section of your store's back end (**Catalog** > **Export**), choose to export Product attribute values:
+1.  В разделе **Экспорт в CSV** на странице **Каталог / Экспорт** выберите **Значения атрибутов продуктов**:
     ![]({{site.baseurl}}/attachments/9306814/9439230.png)
-2.  Download the resulting export file and import it into our favorite spreadsheet editor. 
-3.  Edit the file removing the columns whose contents will not need to be updated. Care not to remove the required columns. According to the section {% link "CSV import: Product attribute values" ref_Z7XdREZl %} of this manual, the required columns for the import of product attribute values are **productSKU**, **type**, **name**, and **value**. Keep those columns - and the column **priceModifier** (You will need it to update the price modifiers). Now if you look at the lines pertaining to SKU 10001, you should see something like the following:
+2.  Скачайте файл экспорта и загрузите его в редактор таблиц. 
+3.  Удалите столбцы, данные в которых не требуют изменения. Будьте внимательны и не удалите нужные столбцы. Как сказано в статье {% link "CSV import: Product attribute values" ref_Z7XdREZl %}, обязательные столбцы для импорта значений атрибутов продуктов - это **productSKU**, **type**, **name** и **value**. Не удаляйте эти столбцы. Также, для обновления модификаторов цен вам понадобится столбец **priceModifier**. Теперь, если посмотреть на строки, относящиеся к артикулу 12033, можно увидеть следующее:
     ![]({{site.baseurl}}/attachments/9306814/9439231.png)
-4.  Adjust the values in the **priceModifier** column:
-    *   Add the price modifier "-2" for the sizing option S ($9.99 - 2 = $7.99)
-    *   Add the price modifier "-1" for the sizing option M ($9.99 - 1 = $8.99).
-    *   Make sure the price modifier value for the sizing option L is NULL (= $9.99).
-    *   Remove the price modifier "+2" for the sizing option XL so the price modifier value for XL is also NULL (= $9.99).![]({{site.baseurl}}/attachments/9306814/9439232.png)
-5.  Save the file and re-import it into your store via the "Import by CSV" section in your store's back end  (**Catalog** > **Import**). 
+4.  Внесите значения в столбец **priceModifier**:
+    *   Добавьте модификатор цены “-100” для размерной опции S (RUB 500 - 100 = RUB 400)
+    *   Добавьте модификатор цены “-50” для размерной опции M (RUB 500 - 50 = RUB 450)
+    *   Значение модификатора цены для размерной опции L должно быть нулевым (= RUB 500)
+    *   Удалите модификатор цены “+10” для размерной опции XL, чтобы значение модификатора цены для XL тоже было нулевым (= RUB 500).![]({{site.baseurl}}/attachments/9306814/9439232.png)
+5.  Сохраните файл и импортируйте его в магазин в разделе **Экспорт в CSV** на странице **Каталог / Импорт**. 
 
-After the import process is completed, you should be able to see the updated prices.
+Когда импорт завершится, вы увидите обновленные цены продуктов в магазине.
 
-## Updating the price and quantity of product variants
+## Обновление цен и количества вариантов продуктов
+
+
