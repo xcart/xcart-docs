@@ -31,7 +31,7 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 *   {% link "Setting up sale and wholesale pricing in X-Cart 5" ref_g2dhS8uC %}
 *   {% link "Import and Export of Categories: Tutorial by Mike White" ref_VXdfNsVw %}
 *   {% link "Product Classes and Attributes in X-Cart 5.3" ref_TFScbVdf %}
-*   {% link "Attributes and product filters in X-Cart 5" ref_tkXafgoK %}
+*   {% link "Attributes and product filters in X-Cart 5.1" ref_tkXafgoK %}
 *   {% link "Product variants in X-Cart 5" ref_PCmycghn %}
 
 ## Store setup
