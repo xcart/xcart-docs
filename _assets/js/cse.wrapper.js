@@ -17,8 +17,8 @@
   }
 
   Search.prototype.connection = {
-    host: '{{ site.cse.host }}',
-    path: '{{ site.cse.path }}',
+    host: window.xcartJekyll.search.host,
+    path: window.xcartJekyll.search.path,
     port: (window.location.protocol === 'https:' ? 7443 : 7000),
     protocol: (window.location.protocol === 'https:' ? 'https' : 'http'),
   }
@@ -91,7 +91,7 @@
     var params = {
       q: query,
       num: 10,
-      lang: '{{ site.lang_default }}'
+      lang: window.xcartJekyll.search.lang
     };
     return this.sendRequest(params).then(_.bind(this.onAutocompleteSuccess, this), _.bind(this.onAutocompleteFail, this));
   }
@@ -125,7 +125,7 @@
         })
       };
 
-      var preferredSite = '{{ site.search.preferred }}';
+      var preferredSite = window.xcartJekyll.search.preferred;
 
       if (preferredSite.indexOf('kb') == 0) {
         var categories = {
@@ -159,7 +159,7 @@
     var params = {
       q: this.query.q,
       num: this.PAGE_LENGTH,
-      lang: '{{ site.lang_default }}'
+      lang: window.xcartJekyll.search.lang
     };
 
     if (this.query.page && this.query.page > 0) {
