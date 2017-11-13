@@ -49,7 +49,7 @@
 'Get started':
     en: 'Get started'
     ru: 'C чего начать?'
-    
+
 'How to install':
     en: 'How to install'
     ru: 'Как установить?'
@@ -99,6 +99,14 @@
     ru: 'Исходный код этой и других страниц документации открыт и доступен на'
 
 # Links
+
+'kb_index_link':
+    en: 'https://kb.x-cart.com'
+    ru: 'https://kb.x-cart.ru'
+
+'devs_index_link':
+    en: 'https://devs.x-cart.com'
+    ru: 'https://devs.x-cart.ru'
 
 'developers_blog_link':
     en: '/what_is_new/'

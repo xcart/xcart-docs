@@ -24,7 +24,7 @@
       <div class="navigation-item">
 
         {% if site.type == 'devs' %}
-        <a href="https://kb.x-cart.com">
+        <a href="{{ site.data.labels['kb_index_link'][page.lang] }}">
           <h2 class="ui header">
             <i class="book icon"></i>
             <div class="content">
@@ -34,7 +34,7 @@
           <p>{{ site.data.labels['knowledge_base_desc'][page.lang] }}</p>
         </a>
         {% else %}
-        <a href="https://devs.x-cart.com">
+        <a href="{{ site.data.labels['devs_index_link'][page.lang] }}">
           <h2 class="ui header">
             <i class="book icon"></i>
             <div class="content">
