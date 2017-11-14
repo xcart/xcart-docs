@@ -96,7 +96,7 @@ published: false
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerVatNumberBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Регистрационный номер плательщика НДС в адресе оплаты. Должен быть установлен модуль VAT.</td>
+      <td colspan="1" class="confluenceTd"></td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
@@ -150,7 +150,7 @@ published: false
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerVatNumberShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Регистрационный номер плательщика НДС в адресе доставки. Должен быть установлен модуль VAT.</td>
+      <td colspan="1" class="confluenceTd"></td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
@@ -159,42 +159,42 @@ published: false
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemName*</strong></td>
       <td colspan="1" class="confluenceTd">Название покупаемого продукта.</td>
-      <td colspan="1" class="confluenceTd">Текст,<br>Multirow</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Несколько рядов</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemSKU*</strong></td>
       <td colspan="1" class="confluenceTd">Артикул покупаемого продукта.</td>
-      <td colspan="1" class="confluenceTd">Текст,<br>Multirow,<br>Max. length: 32</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Несколько рядов,<br>Максимум 32 знака</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">itemAttributes</td>
       <td colspan="1" class="confluenceTd">Атрибуты покупаемого продукта.</td>
-      <td colspan="1" class="confluenceTd">Multiple,<br>Multirow</td>
+      <td colspan="1" class="confluenceTd">Несколько значений,<br>Несколько рядов</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemPrice*</strong></td>
       <td colspan="1" class="confluenceTd">Розничная цена продукта.</td>
-      <td colspan="1" class="confluenceTd">Float,<br>Multirow</td>
+      <td colspan="1" class="confluenceTd">Плавающая величина,<br>Несколько рядов</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemQuantity*</strong></td>
       <td colspan="1" class="confluenceTd">Количество продукта в заказе.</td>
-      <td colspan="1" class="confluenceTd">Integer,<br>Multirow</td>
+      <td colspan="1" class="confluenceTd">Целое чсло,<br>Несколько рядов</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemSubtotal*</strong></td>
-      <td colspan="1" class="confluenceTd">Order item subtotal value (without order item surcharges).</td>
-      <td colspan="1" class="confluenceTd">Float,<br>Multirow</td>
+      <td colspan="1" class="confluenceTd">Промежуточная стоимость продукта (без учета наценок).</td>
+      <td colspan="1" class="confluenceTd">Плавающая величина,<br>Несколько рядов</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemTotal*</strong></td>
-      <td colspan="1" class="confluenceTd">Order item total value.</td>
-      <td colspan="1" class="confluenceTd">Float,<br>Multirow</td>
+      <td colspan="1" class="confluenceTd">Полная стоимость продукта.</td>
+      <td colspan="1" class="confluenceTd">Плавающая величина,<br>Несколько рядов</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>subtotal*</strong></td>
       <td colspan="1" class="confluenceTd">Order subtotal (without order surcharges).</td>
-      <td colspan="1" class="confluenceTd">Float</td>
+      <td colspan="1" class="confluenceTd">Плавающая величина</td>
     </tr>
     <tr>
       <td colspan="3" class="confluenceTd">Order surcharges. Each surcharge field consists of UPPERCASED surcharge code and (surcharge) suffix. The following two fields are the examples of the general order surchages and may or may not be present in your X-Cart installation
