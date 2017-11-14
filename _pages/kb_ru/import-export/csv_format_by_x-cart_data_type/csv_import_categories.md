@@ -57,12 +57,12 @@ published: false
     <tr>
       <td class="confluenceTd">image</td>
       <td colspan="1" class="confluenceTd">
-        <p>For any image that needs to be imported, you need to specify the image location. This can be one of the following:</p>
+        <p>ля каждого изображения, которое нужно импортировать, должно быть указано его расположение:</p>
         <ul>
-          <li>Image URL (can be local to the X-Cart server)</li>
-          <li>Path to the image on the server relative to the <code>&lt;XCART-DIRECTORY&gt;</code> folder; for example, <code>images/category/image1.png</code></li>
+          <li> URL (может быть  на одном сервере с X-Cart)</li>
+          <li>Путь к изображению на сервере относительно директории <code>&lt;XCART-DIRECTORY&gt;</code> ; например, <code>images/category/image1.png</code></li>
         </ul>
-        <p>Note that import of images takes considerably less time if the images to be imported are stored locally on the server. It doesn't matter if image path is specified as URL or filepath — X-Cart will try to detect if the URL is local to the server. So, if you need to import a considerable number of images from URLs, you can speed up the process quite a bit simply by saving those images locally on the server inside <code>&lt;XCART-DIRECTORY&gt;/images</code> folder.</p>
+        <p>Обратите внимание, что импорт изображений проходит значительно быстрее, если изображения хранятся на том же сервере, где установлен X-Cart. Не важно, указано ли расположения файла как URL или как путь, X-Cart попытается определить, находится ли изображение  на одном с ним сервере. Если вам нужно импортировать большое количество изображений по URL,  вы ускорите процесс, сохранив изображения на одном сервере с магазином в директории <code>&lt;XCART-DIRECTORY&gt;/images</code>.</p>
       </td>
       <td class="confluenceTd">String</td>
     </tr>
