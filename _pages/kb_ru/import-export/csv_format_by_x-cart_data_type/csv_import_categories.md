@@ -5,7 +5,7 @@ updated_at: '2017-11-14 11:02 +0400'
 identifier: ref_un5K5sCZ
 title: 'Импорт CSV: Категории'
 order: 40
-published: false
+published: true
 ---
 В таблице ниже представлены поля и их значения для импорта категорий.
 
