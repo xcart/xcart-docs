@@ -96,7 +96,7 @@ published: false
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerVatNumberBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">регистрационный номер плательщика НДС в адресе оплаты. Должен быть установлен модуль VAT.</td>
+      <td colspan="1" class="confluenceTd">Регистрационный номер плательщика НДС в адресе оплаты. Должен быть установлен модуль VAT.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
@@ -150,36 +150,35 @@ published: false
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerVatNumberShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer VAT number in the shipping address. Requires the VAT module to be installed.</td>
+      <td colspan="1" class="confluenceTd">Регистрационный номер плательщика НДС в адресе доставки. Должен быть установлен модуль VAT.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd">Order item fields. Each field is a Multirow field and each row represents one specific product.
-      </td>
+      <td colspan="3" class="confluenceTd">Поля покупаемых продуктов. Каждое поле содержит несколько рядов, и каждый ряд представляет отдельный продукт.</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemName*</strong></td>
-      <td colspan="1" class="confluenceTd">Order item name.</td>
+      <td colspan="1" class="confluenceTd">Название покупаемого продукта.</td>
       <td colspan="1" class="confluenceTd">Текст,<br>Multirow</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemSKU*</strong></td>
-      <td colspan="1" class="confluenceTd">Order item SKU.</td>
+      <td colspan="1" class="confluenceTd">Артикул покупаемого продукта.</td>
       <td colspan="1" class="confluenceTd">Текст,<br>Multirow,<br>Max. length: 32</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">itemAttributes</td>
-      <td colspan="1" class="confluenceTd">Order item product attributes.</td>
+      <td colspan="1" class="confluenceTd">Атрибуты покупаемого продукта.</td>
       <td colspan="1" class="confluenceTd">Multiple,<br>Multirow</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemPrice*</strong></td>
-      <td colspan="1" class="confluenceTd">Order item selling price.</td>
+      <td colspan="1" class="confluenceTd">Розничная цена продукта.</td>
       <td colspan="1" class="confluenceTd">Float,<br>Multirow</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemQuantity*</strong></td>
-      <td colspan="1" class="confluenceTd">Order item name.</td>
+      <td colspan="1" class="confluenceTd">Количество продукта в заказе.</td>
       <td colspan="1" class="confluenceTd">Integer,<br>Multirow</td>
     </tr>
     <tr>
