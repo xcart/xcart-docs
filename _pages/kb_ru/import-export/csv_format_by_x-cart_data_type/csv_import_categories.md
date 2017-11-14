@@ -127,23 +127,23 @@ published: false
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>GoSocial</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Поля, добавленные модулем<strong>GoSocial</strong> </em>
       </td>
     </tr>
     <tr>
       <td class="confluenceTd"><span><span>useCustomOpenGraphMeta</span></span>
       </td>
-      <td class="confluenceTd">Defines whether use custom Open Graph meta tags for this product or use default ones</td>
-      <td class="confluenceTd">Yes/No</td>
+      <td class="confluenceTd">Определяет, какие мета тэги использовать для продукта - пользовательские Open Graph мета тэги или стандартные мета тэги</td>
+      <td class="confluenceTd">Да/Нет</td>
     </tr>
     <tr>
       <td class="confluenceTd"><span>openGraphMeta</span>
       </td>
-      <td class="confluenceTd">If <strong><span>useCustomOpenGraphMeta</span></strong> is <strong>Yes</strong>, then defines custom Open Graph meta tags</td>
+      <td class="confluenceTd">Если в поле <strong><span>useCustomOpenGraphMeta</span></strong> стоит <strong>Yes</strong>, значит, в этом поле указаны Open Graph мета тэги</td>
       <td class="confluenceTd">
-        <p>String,
-          <br>HTML allowed,
-          <br>Scripting allowed&nbsp;</p>
+        <p>Текст,
+          <br>Допустим HTML,
+          <br>Допустимо выполнение скриптов&nbsp;</p>
       </td>
     </tr>
     <tr>
