@@ -42,50 +42,50 @@ published: false
           <li>D - пользователь неактивен.</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">Перечисление</td>
+      <td colspan="1" class="confluenceTd">Значение перечислимого типа</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">added</td>
-      <td colspan="1" class="confluenceTd">Service field containing the date of registration</td>
-      <td colspan="1" class="confluenceTd">Date</td>
+      <td colspan="1" class="confluenceTd">Сервисное поле, показывающее дату регистрации</td>
+      <td colspan="1" class="confluenceTd">Дата</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">firstLogin</td>
-      <td colspan="1" class="confluenceTd">Service field containing the date of first successful login</td>
-      <td colspan="1" class="confluenceTd">Date</td>
+      <td colspan="1" class="confluenceTd">Сервисное поле, показывающее дату первой успешной авторизации</td>
+      <td colspan="1" class="confluenceTd">Дата</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">lastLogin</td>
-      <td colspan="1" class="confluenceTd">Service field containing the date of last successful login</td>
-      <td colspan="1" class="confluenceTd">Date</td>
+      <td colspan="1" class="confluenceTd">Сервисное поле, показывающее дату последней успешной авторизации</td>
+      <td colspan="1" class="confluenceTd">Дата</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">referer</td>
-      <td colspan="1" class="confluenceTd">Referer link</td>
+      <td colspan="1" class="confluenceTd">Реферальная ссылка</td>
       <td colspan="1" class="confluenceTd">&nbsp;</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">language</td>
-      <td colspan="1" class="confluenceTd">Two-symbol code of the language (e.g. <strong>en</strong>)</td>
+      <td colspan="1" class="confluenceTd">Двузначный код языка (например, <strong>ru</strong>)</td>
       <td colspan="1" class="confluenceTd">
-        <p>String,
-          <br>Max. length: 2&nbsp;</p>
+        <p>Текст,
+          <br>Максимум 2 знака&nbsp;</p>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">membership</td>
-      <td colspan="1" class="confluenceTd">Membership of the user</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Членство покупателя в магазине</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">password</td>
-      <td colspan="1" class="confluenceTd">Password. Will be encrypted and stored as a hash.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Пароль. Зашифровывается и сохраняется как хэш.</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">forceChangePassword</td>
-      <td colspan="1" class="confluenceTd">Should be Yes if user is required to change his password on next logon and No otherwise.</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
+      <td colspan="1" class="confluenceTd">Поставьте Yes, если пользователю необходимо сменить пароль при следующем входе. Если пароль менять не требуется - поставьте No.</td>
+      <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>
     <tr>
       <td class="confluenceTd">addressField</td>
