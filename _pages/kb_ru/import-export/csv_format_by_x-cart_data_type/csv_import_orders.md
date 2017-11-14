@@ -45,59 +45,59 @@ published: false
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerAddressSame</td>
-      <td colspan="1" class="confluenceTd">Use "Yes" if the customer billing and shipping addresses are the same; otherwise use "No".</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
+      <td colspan="1" class="confluenceTd">Поставьте Yes, если адреса оплаты и доставки покупателя совпадают. Если не совпадают - поставьте No.</td>
+      <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerFirstnameBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer first name in the billing address.<br> </td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Имя покупателя в адресе оплаты.<br> </td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerLastnameBillingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer last name in the billing address</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerStreetBillingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer street in the billing address</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCityBillingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer city in the billing address</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCountryCodeBillingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer country code (ISO 3166-1 alpha-2 format (2 characters)) in the billing address</td>
-      <td colspan="1" class="confluenceTd">String,<br>Max. length: 2</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 2</td>
     </tr>
 
     <tr>
       <td colspan="1" class="confluenceTd">customerStateIdBillingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer state name if X-Cart has a defined state for the customer. Otherwise, use customerCustomStateBillingAddressField.<br>Example: Oklahoma</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCustomStateBillingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer state name in the case X-Cart does not have a defined state for the country</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerZipcodeBillingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer zipcode in the billing address.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerPhoneBillingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer phone number in the billing address.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerVatNumberBillingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer VAT number in the billing address. Requires the VAT module to be installed.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="3" class="confluenceTd">Customer shipping address fields. The following address fields might or might not be present in your X-Cart installation depending on your address fields configuration.
@@ -106,53 +106,53 @@ published: false
     <tr>
       <td colspan="1" class="confluenceTd">customerFirstnameShippingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer first name in the shipping address.<br> </td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerLastnameShippingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer last name in the shipping address</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerStreetShippingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer street in the shipping address</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCityShippingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer city in the shipping address</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCountryCodeShippingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer country code (ISO 3166-1 alpha-2 format (2 characters)) in the shipping address</td>
-      <td colspan="1" class="confluenceTd">String,<br>Max. length: 2</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 2</td>
     </tr>
 
     <tr>
       <td colspan="1" class="confluenceTd">customerStateIdShippingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer state name if X-Cart has a defined state for the customer. Otherwise, use customerCustomStateShippingAddressField.<br>Example: Oklahoma</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCustomStateShippingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer state name in the case X-Cart does not have a defined state for the country</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerZipcodeShippingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer zipcode in the shipping address.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerPhoneShippingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer phone number in the shipping address.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerVatNumberShippingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer VAT number in the shipping address. Requires the VAT module to be installed.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="3" class="confluenceTd">Order item fields. Each field is a Multirow field and each row represents one specific product.
@@ -161,12 +161,12 @@ published: false
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemName*</strong></td>
       <td colspan="1" class="confluenceTd">Order item name.</td>
-      <td colspan="1" class="confluenceTd">String,<br>Multirow</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Multirow</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemSKU*</strong></td>
       <td colspan="1" class="confluenceTd">Order item SKU.</td>
-      <td colspan="1" class="confluenceTd">String,<br>Multirow,<br>Max. length: 32</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Multirow,<br>Max. length: 32</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">itemAttributes</td>
@@ -220,17 +220,17 @@ published: false
     <tr>
       <td colspan="1" class="confluenceTd"><strong>currency*</strong></td>
       <td colspan="1" class="confluenceTd">Code of the order currency. Example: USD.</td>
-      <td colspan="1" class="confluenceTd">String,<br>Max. length: 3</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 3</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">shippingMethod</td>
       <td colspan="1" class="confluenceTd">Order shipping method name.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">trackingNumber</td>
       <td colspan="1" class="confluenceTd">Order tracking number.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="3" class="confluenceTd">Order payment transactions. The following fields prefixed by 'paymentTransaction' are Multirow, and each row represents a single payment transaction. An order should have at least one payment transaction.
@@ -239,7 +239,7 @@ published: false
     <tr>
       <td colspan="1" class="confluenceTd"><strong>paymentTransactionMethod*</strong></td>
       <td colspan="1" class="confluenceTd">Order payment transaction method internal name.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>paymentTransactionStatus*</strong></td>
@@ -255,7 +255,7 @@ published: false
           <li>'V' (Void)</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">String,<br>Max. length: 1</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 1</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>paymentTransactionValue*</strong></td>
@@ -265,7 +265,7 @@ published: false
     <tr>
       <td colspan="1" class="confluenceTd">paymentTransactionNote</td>
       <td colspan="1" class="confluenceTd">Order payment transaction processor note. Generally contains errors from the payment processing.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>paymentTransactionType*</strong></td>
@@ -285,22 +285,22 @@ published: false
           <li>'refundMulti' (Refund payment. Can be repeated)</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>paymentTransactionId*</strong></td>
       <td colspan="1" class="confluenceTd">Order payment transaction public id.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>    
     <tr>
       <td colspan="1" class="confluenceTd">paymentTransactionCurrency</td>
       <td colspan="1" class="confluenceTd">Order payment transaction currency. Can be omitted; order currency will be used instead.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>    
     <tr>
       <td colspan="1" class="confluenceTd">date</td>
       <td colspan="1" class="confluenceTd">Order creation date. Example: Tue, 12 Jan 2016 13:18:22 +0000</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>    
     <tr>
       <td colspan="1" class="confluenceTd">recent</td>
@@ -321,7 +321,7 @@ published: false
           <li>'R' (Refunded)</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">String,<br>Max. length: 3</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 3</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>shippingStatus*</strong></td>
@@ -337,17 +337,17 @@ published: false
           <li>'R' (Returned)</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">String,<br>Max. length: 3</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 3</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">notes</td>
       <td colspan="1" class="confluenceTd">Order customer notes.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">adminNotes</td>
       <td colspan="1" class="confluenceTd">Order administrator notes.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="3" class="confluenceTd">Order history details. The following fields prefixed by 'detail' are Multirow, and each row represents a single history item.
@@ -356,17 +356,17 @@ published: false
     <tr>
       <td colspan="1" class="confluenceTd">detailCode</td>
       <td colspan="1" class="confluenceTd">Order history item code</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">detailLabel</td>
       <td colspan="1" class="confluenceTd">Order history item human-readable label</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">detailValue</td>
       <td colspan="1" class="confluenceTd">Order history item text.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Multivendor addon</strong></em>
@@ -376,7 +376,7 @@ published: false
       <td colspan="1" class="confluenceTd"><strong>vendor*</strong>
       </td>
       <td colspan="1" class="confluenceTd">Order vendor email.</td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>parent*</strong>
@@ -397,12 +397,12 @@ published: false
     <tr>
       <td colspan="1" class="confluenceTd">paymentStatusLabel</td>
       <td colspan="1" class="confluenceTd">Human-readable translation of the payment status</td>
-      <td colspan="1" class="confluenceTd">String,<br>Multilingual</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Multilingual</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">shippingStatusLabel</td>
       <td colspan="1" class="confluenceTd">Human-readable translation of the shipping status</td>
-      <td colspan="1" class="confluenceTd">String,<br>Multilingual</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Multilingual</td>
     </tr>
   </tbody>
 </table>
