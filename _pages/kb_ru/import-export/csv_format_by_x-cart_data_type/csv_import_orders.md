@@ -386,27 +386,27 @@ published: false
       <td colspan="1" class="confluenceTd">Целое число,<br>Несколько значений</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Custom Order Statuses addon</strong></em>
+      <td colspan="3" class="confluenceTd"><em> Поля, добавленные модулем <strong>Custom Order Statuses</strong></em>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">paymentStatusLabel</td>
-      <td colspan="1" class="confluenceTd">Human-readable translation of the payment status</td>
-      <td colspan="1" class="confluenceTd">Текст,<br>Multilingual</td>
+      <td colspan="1" class="confluenceTd">Удобочитаемая запись статуса оплаты</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Мультиязычный</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">shippingStatusLabel</td>
-      <td colspan="1" class="confluenceTd">Human-readable translation of the shipping status</td>
-      <td colspan="1" class="confluenceTd">Текст,<br>Multilingual</td>
+      <td colspan="1" class="confluenceTd">Удобочитаемая  запись статуса доставки</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Мультиязычный</td>
     </tr>
   </tbody>
 </table>
 
-<sub>* Required field.</sub>
+<sub>* Обязательное поле</sub>
 
-<sub markdown="1">** See CSV field attributes for more info.</sub>
+<sub markdown="1">** Дополнительная информация CSV field attributes</sub>
 
-**Tips**:
+**Рекомендации**:
 
-*   If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields into your CSV file for import. Simply remove the respective column(s) from the file.
+*   Если вы собираетесь импортировать данные в X-Cart и не хотите обновлять определенные поля во время импорта, эти поля не нужно вносить в CSV файл импорта. Просто удалите соответствующие столбцы из файла.
 
