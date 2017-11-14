@@ -251,22 +251,22 @@ published: false
           <li>'V' (Аннулирован)</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 1</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Максимум 1 знак</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>paymentTransactionValue*</strong></td>
-      <td colspan="1" class="confluenceTd">Order payment transaction value.</td>
+      <td colspan="1" class="confluenceTd">Сумма транзакции.</td>
       <td colspan="1" class="confluenceTd">Float</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">paymentTransactionNote</td>
-      <td colspan="1" class="confluenceTd">Order payment transaction processor note. Generally contains errors from the payment processing.</td>
+      <td colspan="1" class="confluenceTd">Комментарии платежной системы к транзакции по заказу. Обычно, это сообщения об ошибках при оплате.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>paymentTransactionType*</strong></td>
-      <td colspan="1" class="confluenceTd">Order payment transaction type.<br>
-        Possible values are:
+      <td colspan="1" class="confluenceTd">Тип транзакции.<br>
+        Возможные значения:
         <ul>
           <li>'auth' (Only authorize)</li>
           <li>'sale' (Authorize and capture)</li>
