@@ -275,10 +275,10 @@ published: false
           <li>'captureMulti' (Частичное удержание средств. Возможно повторение)</li>
           <li>'void' (Платеж аннулирован)</li>
           <li>'voidPart' (Частичная отмена платежа с последующим завершением транзакции)</li>
-          <li>'voidMulti' (Cancel payment part. Can be repeated)</li>
-          <li>'refund' (Refund payment)</li>
-          <li>'refundPart' (Refund payment part. Transaction is closed afterwards)</li>
-          <li>'refundMulti' (Refund payment. Can be repeated)</li>
+          <li>'voidMulti' (Частичная отмена платежа. Возможно повторение)</li>
+          <li>'refund' (Возврат средств)</li>
+          <li>'refundPart' (Частичный возврат средств с последующим завершением транзакции)</li>
+          <li>'refundMulti' (Возврат средств. Возможно повторение)</li>
         </ul>
       </td>
       <td colspan="1" class="confluenceTd">Текст</td>
