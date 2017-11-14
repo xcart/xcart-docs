@@ -147,7 +147,7 @@ published: false
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Product Filter</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Поля, добавленные модулем <strong>Product Filter</strong></em>
       </td>
     </tr>
     <tr>
@@ -163,19 +163,19 @@ published: false
   </tbody>
 </table>
 
-<sub>* Required field.</sub>
+<sub>* Обязательное поле.</sub>
 
-<sub markdown="1">** See CSV field attributes for more info.</sub>
+<sub markdown="1">** Дополнительная информация: CSV field attributes.</sub>
 
-**Tips**:
+**Рекомендации**:
 
-*   If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields into your CSV file for import. Simply remove the respective column(s) from the file.
+*   Если вы собираетесь импортировать данные в X-Cart и не хотите обновлять определенные поля во время импорта, эти поля не нужно вносить в CSV файл импорта. Просто удалите соответствующие столбцы из файла.
 
-*   If necessary, import can be used to clear previously set field values from non-numeric fields. To clear a field value via import, in your CSV file to be imported specify the value of the field as "NULL". After the import process is completed, the fields in which the value "NULL" has been imported will be cleared. 
+*   С помощью импорта можно удалить нечисловые данные из ранее заполненных полей. Для этого в CSV файле импорта впишите NULL в полях, которые нужно очистить. По завершении импорта эти поля будут пустыми. 
 
-    This feature is supported by the following fields pertaining to categories:
+    Данная функциональность работает для следующих полей, относящихся к категориям:
 
     *   memberships;
     *   image;
     *   banner;
-    *   productClasses (processed by the module Product Filter).
+    *   productClasses (модуль Product Filter).
