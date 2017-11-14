@@ -96,7 +96,7 @@ published: false
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerVatNumberBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">НДС номер покупателя в адресе оплаты. Должен быть установлен модуль VAT.</td>
+      <td colspan="1" class="confluenceTd">регистрационный номер плательщика НДС в адресе оплаты. Должен быть установлен модуль VAT.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
