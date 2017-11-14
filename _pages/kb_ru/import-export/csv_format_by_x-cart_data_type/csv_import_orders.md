@@ -317,20 +317,20 @@ published: false
           <li>'R' (Возврат средств)</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 3</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Максимум 3 знака</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>shippingStatus*</strong></td>
-      <td colspan="1" class="confluenceTd">Order shipping status. <br>
-        Possible values are:
+      <td colspan="1" class="confluenceTd">Статус доставки. <br>
+        Возможные значения:
         <ul>
-          <li>'N' (New order)</li>
-          <li>'P' (Processing)</li>
-          <li>'S' (Shipped)</li>
-          <li>'D' (Delivered)</li>
-          <li>'WND' (Will not deliver)</li>
-          <li>'WFA' (Waiting for approve)</li>
-          <li>'R' (Returned)</li>
+          <li>'N' (Новый заказ)</li>
+          <li>'P' (В обработке)</li>
+          <li>'S' (Отправлен)</li>
+          <li>'D' (Доставлен)</li>
+          <li>'WND' (Нет доставки)</li>
+          <li>'WFA' (Ожидает подтверждения)</li>
+          <li>'R' (Возврат)</li>
         </ul>
       </td>
       <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 3</td>
