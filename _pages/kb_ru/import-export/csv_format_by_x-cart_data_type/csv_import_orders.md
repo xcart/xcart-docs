@@ -8,40 +8,40 @@ order: 60
 published: false
 ---
 {% note info %}
-Orders import feature is the part of the free [Orders Import addon](https://market.x-cart.com/addons/orders-import.html). It is not included in the X-Cart core
+Функциональность импорта заказов является частью функциональности бесплатного модуля [Orders Import](https://market.x-cart.com/addons/orders-import.html). Она не входит в ядро X-Cart.
 {% endnote %}
 
-Below is a list of supported fields and their respective value types for category import.
+В таблице ниже представлены поля, которые можно импортировать, и их содержание.
 
 <table class="ui celled padded compact small table">
   <thead>
     <tr>
-      <th class="confluenceTh">Field in CSV file</th>
-      <th colspan="1" class="confluenceTh">What this field describes</th>
-      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Value type' ref_2LwMTTTW %}</th>
+      <th class="confluenceTh">Поле в CSV файле</th>
+      <th colspan="1" class="confluenceTh">Что описывает это поле</th>
+      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Тип значения' ref_2LwMTTTW %}</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields supported by <strong>Orders Import addon</strong></em>
+      <td colspan="3" class="confluenceTd"><em> Поля, поддерживаемые модулем <strong>Orders Import</strong></em>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>orderNumber*</strong>
       </td>
-      <td colspan="1" class="confluenceTd">Order number. Serves as an identifier.</td>
+      <td colspan="1" class="confluenceTd">Номер заказа.Служит идентификатором покупки.</td>
       <td colspan="1" class="confluenceTd">
-        <p>Integer</p>
+        <p>Целое число</p>
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd">Customer billing address fields. The following address fields might or might not be present in your X-Cart installation depending on your address fields configuration.
+      <td colspan="3" class="confluenceTd">Поля адреса оплаты покупателя. Следующие поля могут быть представлены или не представлены в вашем магазине в зависимости от конфигурации записи адресов.
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerAnonymous</td>
-      <td colspan="1" class="confluenceTd">If Yes, the customer is an anonymous person.</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
+      <td colspan="1" class="confluenceTd">Если значение Yes, покупатель - незарегистрированный (анонимный) пользователь.</td>
+      <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerAddressSame</td>
