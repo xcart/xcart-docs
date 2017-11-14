@@ -5,7 +5,7 @@ updated_at: '2017-11-14 15:19 +0400'
 identifier: ref_BhDJ3y0W
 title: 'Импорт CSV: Заказы'
 order: 60
-published: false
+published: true
 ---
 {% note info %}
 Функциональность импорта заказов является частью функциональности бесплатного модуля [Orders Import](https://market.x-cart.com/addons/orders-import.html). Она не входит в ядро X-Cart.
