@@ -193,64 +193,62 @@ published: false
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>subtotal*</strong></td>
-      <td colspan="1" class="confluenceTd">Order subtotal (without order surcharges).</td>
+      <td colspan="1" class="confluenceTd">Промежуточная сумма заказа (без учета наценок).</td>
       <td colspan="1" class="confluenceTd">Плавающая величина</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd">Order surcharges. Each surcharge field consists of UPPERCASED surcharge code and (surcharge) suffix. The following two fields are the examples of the general order surchages and may or may not be present in your X-Cart installation
-      </td>
+      <td colspan="3" class="confluenceTd">Наценки на заказы. В каждом поле наценки указан код наценки (большими буквами) и суффикс наценки. Пример наценки на заказ можно увидеть в двух следующих поля. В зависимости от конфигурации вашего магазина, такие же поля могут быть представлены или нет.</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">DISCOUNT (surcharge)</td>
-      <td colspan="1" class="confluenceTd">Order discount surcharge in an absoulte value. Example: -3. This example value stands for a $3.00 USD discount, if the order currency is USD.</td>
-      <td colspan="1" class="confluenceTd">Float</td>
+      <td colspan="1" class="confluenceTd">Абсолютная величина скидки на заказ. Пример: -100. Это означает, что на заказ действует скидка RUB100, если валюта заказа - RUB.</td>
+      <td colspan="1" class="confluenceTd">Плавающая величина</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">SHIPPING (surcharge)</td>
-      <td colspan="1" class="confluenceTd">Order shipping surcharge. Example: 3.02.</td>
-      <td colspan="1" class="confluenceTd">Float</td>
+      <td colspan="1" class="confluenceTd">Наценка на доставку. Пример: 150.</td>
+      <td colspan="1" class="confluenceTd">Плавающая величина</td>
     </tr>    
     <tr>
       <td colspan="1" class="confluenceTd"><strong>total*</strong></td>
-      <td colspan="1" class="confluenceTd">Order total with surcharges included.</td>
-      <td colspan="1" class="confluenceTd">Float</td>
+      <td colspan="1" class="confluenceTd">Полная сумма заказа со всеми доплатами.</td>
+      <td colspan="1" class="confluenceTd">Плавающая величина</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>currency*</strong></td>
-      <td colspan="1" class="confluenceTd">Code of the order currency. Example: USD.</td>
-      <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 3</td>
+      <td colspan="1" class="confluenceTd">Код валюты заказа. Пример: RUB.</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Максимум 3 знака</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">shippingMethod</td>
-      <td colspan="1" class="confluenceTd">Order shipping method name.</td>
+      <td colspan="1" class="confluenceTd">Название способа доставки заказа.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">trackingNumber</td>
-      <td colspan="1" class="confluenceTd">Order tracking number.</td>
+      <td colspan="1" class="confluenceTd">Номер отслеживания заказа.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd">Order payment transactions. The following fields prefixed by 'paymentTransaction' are Multirow, and each row represents a single payment transaction. An order should have at least one payment transaction.
-      </td>
+      <td colspan="3" class="confluenceTd">Платежные транзакции по заказу. Следующие поля с префиксом paymentTransaction содержат несколько рядов, и каждый ряд содержит одну транзакцию.</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>paymentTransactionMethod*</strong></td>
-      <td colspan="1" class="confluenceTd">Order payment transaction method internal name.</td>
+      <td colspan="1" class="confluenceTd">Внутреннее название способа оплаты заказа.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>paymentTransactionStatus*</strong></td>
-      <td colspan="1" class="confluenceTd">Order payment transaction status.<br>
-        Possible values are:
+      <td colspan="1" class="confluenceTd">Статус транзакции.<br>
+        Возможные значения:
         <ul>
-          <li>'I' (Initialized)</li>
-          <li>'P' (In Progress)</li>
-          <li>'S' (Success)</li>
-          <li>'W' (Pending)</li>
-          <li>'F' (Failed)</li>
-          <li>'C' (Canceled)</li>
-          <li>'V' (Void)</li>
+          <li>'I' (Начата оплата)</li>
+          <li>'P' (В обработке)</li>
+          <li>'S' (Успешная оплата)</li>
+          <li>'W' (Незавершённый платеж)</li>
+          <li>'F' (Оплата не прошла)</li>
+          <li>'C' (Отмена)</li>
+          <li>'V' (Аннулирован)</li>
         </ul>
       </td>
       <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 1</td>
