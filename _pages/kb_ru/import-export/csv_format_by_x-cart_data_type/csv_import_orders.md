@@ -100,53 +100,52 @@ published: false
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd">Customer shipping address fields. The following address fields might or might not be present in your X-Cart installation depending on your address fields configuration.
-      </td>
+      <td colspan="3" class="confluenceTd">Поля адрес доставки покупателя.  Следующие поля могут быть представлены или не представлены в вашем магазине в зависимости от конфигурации записи адресов.</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerFirstnameShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer first name in the shipping address.<br> </td>
+      <td colspan="1" class="confluenceTd">Имя покупателя в адресе доставки.<br> </td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerLastnameShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer last name in the shipping address</td>
+      <td colspan="1" class="confluenceTd">Фамилия покупателя в адресе доставки</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerStreetShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer street in the shipping address</td>
+      <td colspan="1" class="confluenceTd">Улица в адресе доставки</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCityShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer city in the shipping address</td>
+      <td colspan="1" class="confluenceTd">Город в адресе доставки</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCountryCodeShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer country code (ISO 3166-1 alpha-2 format (2 characters)) in the shipping address</td>
+      <td colspan="1" class="confluenceTd">Код страны (в формате ISO 3166-1 alpha-2 (два знака)) в адресе доставки</td>
       <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 2</td>
     </tr>
 
     <tr>
       <td colspan="1" class="confluenceTd">customerStateIdShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer state name if X-Cart has a defined state for the customer. Otherwise, use customerCustomStateShippingAddressField.<br>Example: Oklahoma</td>
+      <td colspan="1" class="confluenceTd">Название области, если в конфигурации магазина указана такая область. Если не указана, заполните поле customerCustomStateShippingAddressField. <br>Пример: Иркутская Область</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCustomStateShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer state name in the case X-Cart does not have a defined state for the country</td>
+      <td colspan="1" class="confluenceTd">Название области, если в конфигурации магазина не указана область из адреса покупателя. </td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerZipcodeShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer zipcode in the shipping address.</td>
+      <td colspan="1" class="confluenceTd">Индекс в адресе доставки.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerPhoneShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer phone number in the shipping address.</td>
+      <td colspan="1" class="confluenceTd">Номер телефона в адресе доставки.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
