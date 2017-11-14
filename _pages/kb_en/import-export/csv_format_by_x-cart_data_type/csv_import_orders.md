@@ -53,7 +53,7 @@ Below is a list of supported fields and their respective value types for categor
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerFirstnameBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer first name in the billing address.<br>This and </td>
+      <td colspan="1" class="confluenceTd">Customer first name in the billing address.<br> </td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
