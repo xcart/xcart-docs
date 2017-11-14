@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-11-14 13:20 +0400'
 identifier: ref_1dudPSA4
-title: 'CSV импорт: Покупатели'
+title: 'Импорт CSV: Покупатели'
 order: 50
 published: true
 ---
