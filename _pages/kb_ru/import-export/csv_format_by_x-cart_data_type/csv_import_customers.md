@@ -5,7 +5,7 @@ updated_at: '2017-11-14 13:20 +0400'
 identifier: ref_1dudPSA4
 title: 'CSV импорт: Покупатели'
 order: 50
-published: false
+published: true
 ---
 В таблице представлены поля и их содержание для импорта покупателей:
 
@@ -90,8 +90,8 @@ published: false
     <tr>
       <td class="confluenceTd">addressField</td>
       <td class="confluenceTd">
-        <p>Very special service field. Has a row on each address and a column on each address part, such as zipcode. Column name is combined from part name and 'addressField' word.</p>
-        <p>Example:</p>
+        <p>Особенное сервисное поле. Поле содержит по ряду на каждый адрес и по колонке на каждую часть адреса. Название колонки составляется из названия части адреса и записи addressField. </p>
+        <p>Пример:</p>
         <div class="table-wrap">
           <table class="confluenceTable">
             <tbody>
@@ -102,32 +102,32 @@ published: false
               </tr>
               <tr>
                 <td colspan="1" class="confluenceTd">greg.bowes@gmail.com</td>
-                <td class="confluenceTd">Edmond</td>
-                <td class="confluenceTd">US</td>
+                <td class="confluenceTd">Санкт-Петербург</td>
+                <td class="confluenceTd">РФ</td>
               </tr>
               <tr>
                 <td colspan="1" class="confluenceTd">&nbsp;</td>
-                <td class="confluenceTd">Richmond Hill</td>
-                <td class="confluenceTd">CA</td>
+                <td class="confluenceTd">Москва</td>
+                <td class="confluenceTd">РФ</td>
               </tr>
             </tbody>
           </table>
         </div>
       </td>
       <td class="confluenceTd">
-        <p>Multicolumn,
-          <br>Multirow</p>
+        <p>Колонки,
+          <br>Столбцы</p>
       </td>
     </tr>
   </tbody>
 </table>
 </div>
 
-<sub>* Required field.</sub>
+<sub>* Обязательное поле.</sub>
 
-<sub markdown="1">** See {% link "CSV field attributes" ref_2LwMTTTW %} for more info.</sub>
+<sub markdown="1">** Дополнительная информация {% link "CSV field attributes" ref_2LwMTTTW %}</sub>
 
-**Tips**: 
+**Рекомендации**: 
 
-*   If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields into your CSV file for import. Simply remove the respective column(s) from the file.
+*   Если вы собираетесь импортировать данные в X-Cart и не хотите обновлять определенные поля во время импорта, эти поля не нужно вносить в CSV файл импорта. Просто удалите соответствующие столбцы из файла.
 
