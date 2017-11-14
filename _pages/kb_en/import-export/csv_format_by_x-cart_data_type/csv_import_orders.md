@@ -207,7 +207,7 @@ Below is a list of supported fields and their respective value types for categor
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">DISCOUNT (surcharge)</td>
-      <td colspan="1" class="confluenceTd">Order discount surcharge in absoulte value. Example: -3. This example value stands for $3.00 USD discount, if the order currency in USD.</td>
+      <td colspan="1" class="confluenceTd">Order discount surcharge in an absoulte value. Example: -3. This example value stands for a $3.00 USD discount, if the order currency is USD.</td>
       <td colspan="1" class="confluenceTd">Float</td>
     </tr>
     <tr>
@@ -236,7 +236,7 @@ Below is a list of supported fields and their respective value types for categor
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd">Order payment transactions. The following fields, prefixed by 'paymentTransaction', are Multirow and each row represents a single payment transaction. Order should have at least one payment transaction.
+      <td colspan="3" class="confluenceTd">Order payment transactions. The following fields prefixed by 'paymentTransaction' are Multirow, and each row represents a single payment transaction. An order should have at least one payment transaction.
       </td>
     </tr>
     <tr>
@@ -297,7 +297,7 @@ Below is a list of supported fields and their respective value types for categor
     </tr>    
     <tr>
       <td colspan="1" class="confluenceTd">paymentTransactionCurrency</td>
-      <td colspan="1" class="confluenceTd">Order payment transaction currency. Can be omitted, order currency will be used instead.</td>
+      <td colspan="1" class="confluenceTd">Order payment transaction currency. Can be omitted; order currency will be used instead.</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>    
     <tr>
@@ -307,7 +307,7 @@ Below is a list of supported fields and their respective value types for categor
     </tr>    
     <tr>
       <td colspan="1" class="confluenceTd">recent</td>
-      <td colspan="1" class="confluenceTd">Specify Yes if the order has been processed by the admin, No otherwise.</td>
+      <td colspan="1" class="confluenceTd">Use "Yes" if the order has been processed by the admin, otherwise use "No".</td>
       <td colspan="1" class="confluenceTd">Yes/No</td>
     </tr>    
     <tr>
@@ -353,7 +353,7 @@ Below is a list of supported fields and their respective value types for categor
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd">Order history details. The following fields, prefixed by 'detail', are Multirow and each row represents a single history item.
+      <td colspan="3" class="confluenceTd">Order history details. The following fields prefixed by 'detail' are Multirow, and each row represents a single history item.
       </td>
     </tr>
     <tr>
@@ -372,7 +372,7 @@ Below is a list of supported fields and their respective value types for categor
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Multivendor addon</strong></em>
+      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Multivendor addon</strong></em>
       </td>
     </tr>
     <tr>
@@ -394,7 +394,7 @@ Below is a list of supported fields and their respective value types for categor
       <td colspan="1" class="confluenceTd">Integer,<br>Multiple</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Custom Order Statuses addon</strong></em>
+      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Custom Order Statuses addon</strong></em>
       </td>
     </tr>
     <tr>
