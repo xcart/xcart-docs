@@ -1,46 +1,46 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-13 10:46 +0400'
+updated_at: '2017-11-14 11:02 +0400'
 identifier: ref_un5K5sCZ
 title: 'Импорт CSV: Категории'
 order: 40
 published: false
 ---
-Below is a list of supported fields and their respective value types for category import.
+В таблице ниже представлены поля и их значения для импорта категорий.
 
 <table class="ui celled padded compact small table">
   <thead>
     <tr>
-      <th class="confluenceTh">Field in CSV file</th>
-      <th colspan="1" class="confluenceTh">What this field describes</th>
-      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Value type' ref_2LwMTTTW %}</th>
+      <th class="confluenceTh">Поле в CSV файле</th>
+      <th colspan="1" class="confluenceTh">Что описывает поле</th>
+      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Значение поля' ref_2LwMTTTW %}</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields supported by <strong>X-Cart core</strong></em>
+      <td colspan="3" class="confluenceTd"><em> Поля <strong>в ядре X-Cart</strong></em>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>path*</strong>
       </td>
-      <td colspan="1" class="confluenceTd">Path to category. Serves as identifier.
-        <br>Example: Toys &gt;&gt;&gt; Science Toys&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Путь к категории. Служит идентификатором.
+        <br>Пример: Игрушки &gt;&gt;&gt; Умные игрушки&nbsp;</td>
       <td colspan="1" class="confluenceTd">
-        <p>String,
-          <br>Max. length: 32</p>
+        <p>Текстовая строка,
+          <br>максимум 32 знака</p>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">enabled</td>
-      <td colspan="1" class="confluenceTd">Is the category enabled?</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
+      <td colspan="1" class="confluenceTd">Категория активирована?</td>
+      <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">showTitle</td>
-      <td colspan="1" class="confluenceTd">Option to show category title</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
+      <td colspan="1" class="confluenceTd">Опция показывать или не показывает название категории</td>
+      <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">position</td>
@@ -179,4 +179,3 @@ Below is a list of supported fields and their respective value types for categor
     *   image;
     *   banner;
     *   productClasses (processed by the module Product Filter).
-
