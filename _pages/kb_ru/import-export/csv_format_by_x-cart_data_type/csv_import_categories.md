@@ -127,7 +127,7 @@ published: true
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Поля, добавленные модулем<strong>GoSocial</strong> </em>
+      <td colspan="3" class="confluenceTd"><em>Поля, добавленные модулем <strong>GoSocial</strong> </em>
       </td>
     </tr>
     <tr>
