@@ -28,7 +28,7 @@ published: false
       <td colspan="1" class="confluenceTd">Путь к категории. Служит идентификатором.
         <br>Пример: Игрушки &gt;&gt;&gt; Умные игрушки&nbsp;</td>
       <td colspan="1" class="confluenceTd">
-        <p>Текстовая строка,
+        <p>Текст,
           <br>максимум 32 знака</p>
       </td>
     </tr>
@@ -51,7 +51,7 @@ published: false
       <td colspan="1" class="confluenceTd">memberships</td>
       <td colspan="1" class="confluenceTd">Группы покупателей, члены которых видят категорию в магазине. Не заполняйте, если категорию должны видеть все покупатели.</span>
       </td>
-      <td colspan="1" class="confluenceTd">Текстовая строка,
+      <td colspan="1" class="confluenceTd">Текст,
         <br>Несколько значений&nbsp;</td>
     </tr>
     <tr>
@@ -64,15 +64,15 @@ published: false
         </ul>
         <p>Обратите внимание, что импорт изображений проходит значительно быстрее, если изображения хранятся на том же сервере, где установлен X-Cart. Не важно, указано ли расположения файла как URL или как путь, X-Cart попытается определить, находится ли изображение  на одном с ним сервере. Если вам нужно импортировать большое количество изображений по URL,  вы ускорите процесс, сохранив изображения на одном сервере с магазином в директории <code>&lt;XCART-DIRECTORY&gt;/images</code>.</p>
       </td>
-      <td class="confluenceTd">String</td>
+      <td class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td class="confluenceTd">cleanURL</td>
       <td class="confluenceTd">
-        <p>SEO friendly URL of the category page.</p>
-        <p>Example: toys</p>
+        <p>SEO-оптимизированные ссылки на категории.</p>
+        <p>Пример: Игрушки</p>
       </td>
-      <td class="confluenceTd">String</td>
+      <td class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td class="confluenceTd"><strong>*name</strong>
