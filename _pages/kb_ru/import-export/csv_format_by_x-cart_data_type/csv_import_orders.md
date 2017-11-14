@@ -55,48 +55,48 @@ published: false
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerLastnameBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer last name in the billing address</td>
+      <td colspan="1" class="confluenceTd">Фамилия покупателя в адресе оплаты</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerStreetBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer street in the billing address</td>
+      <td colspan="1" class="confluenceTd">Улица в адресе оплаты</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCityBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer city in the billing address</td>
+      <td colspan="1" class="confluenceTd">Город в адресе оплаты</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCountryCodeBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer country code (ISO 3166-1 alpha-2 format (2 characters)) in the billing address</td>
-      <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 2</td>
+      <td colspan="1" class="confluenceTd">Код страны (в формате ISO 3166-1 alpha-2 (два знака)) в адресе оплаты</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Максимум 2 знака</td>
     </tr>
 
     <tr>
       <td colspan="1" class="confluenceTd">customerStateIdBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer state name if X-Cart has a defined state for the customer. Otherwise, use customerCustomStateBillingAddressField.<br>Example: Oklahoma</td>
+      <td colspan="1" class="confluenceTd">Название области, если в конфигурации магазина указана такая область. Если не указана, заполните поле customerCustomStateBillingAddressField. <br> Пример: Иркутская Область.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCustomStateBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer state name in the case X-Cart does not have a defined state for the country</td>
+      <td colspan="1" class="confluenceTd">Название области, если в конфигурации магазина не указана область из адреса покупателя. </td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerZipcodeBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer zipcode in the billing address.</td>
+      <td colspan="1" class="confluenceTd">Индекс в адресе оплаты.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerPhoneBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer phone number in the billing address.</td>
+      <td colspan="1" class="confluenceTd">Номер телефона покупателя в адресе оплаты.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerVatNumberBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer VAT number in the billing address. Requires the VAT module to be installed.</td>
+      <td colspan="1" class="confluenceTd">НДС номер покупателя в адресе оплаты. Должен быть установлен модуль VAT.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
