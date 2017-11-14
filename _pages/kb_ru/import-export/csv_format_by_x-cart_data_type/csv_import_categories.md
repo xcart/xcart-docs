@@ -114,16 +114,16 @@ published: false
             <br>*т.е. если язык магазина <em>русский</em> мета описание будет взято из поля <strong>metaDesc_ru</strong>.</li>
         </ul>
       </td>
-      <td class="confluenceTd">String,
-        <br>Max. length: 1&nbsp;</td>
+      <td class="confluenceTd">Текст,
+        <br>Максимум 1 знак&nbsp;</td>
     </tr>
     <tr>
       <td class="confluenceTd">metaTitle</td>
-      <td class="confluenceTd"><span>Defines the content of &lt;meta name="title" content="%value%"&gt; meta tag</span>
+      <td class="confluenceTd"><span>Определяет содержимое мета тэга &lt;meta name="title" content="%value%"&gt;</span>
       </td>
-      <td class="confluenceTd">String<span>,</span>
-        <br><span>Multilingual,</span>
-        <br><span>Max. length: 255&nbsp;</span>
+      <td class="confluenceTd">Текст<span>,</span>
+        <br><span>Мультиязычный,</span>
+        <br><span>Максимум 255 знаков&nbsp;</span>
       </td>
     </tr>
     <tr>
