@@ -77,26 +77,26 @@ published: false
     <tr>
       <td class="confluenceTd"><strong>*name</strong>
       </td>
-      <td class="confluenceTd">Category name.</td>
-      <td class="confluenceTd">String,
-        <br>Multilingual&nbsp;</td>
+      <td class="confluenceTd">Название категории.</td>
+      <td class="confluenceTd">Текст,
+        <br>Мультиязычный&nbsp;</td>
     </tr>
     <tr>
       <td class="confluenceTd">description</td>
-      <td colspan="1" class="confluenceTd">Full description of the category.</td>
+      <td colspan="1" class="confluenceTd">Полное описание категории.</td>
       <td colspan="1" class="confluenceTd">
-        <p>String,
-          <br>Multilingual,
-          <br>HTML allowed&nbsp;</p>
+        <p>Текст,
+          <br>Мультиязычный,
+          <br>допустим HTML&nbsp;</p>
       </td>
     </tr>
     <tr>
       <td class="confluenceTd">metaTags</td>
-      <td class="confluenceTd"><span>Defines the content of &lt;meta name="keywords" content="%value%"&gt; meta tag</span>
+      <td class="confluenceTd"><span>Определяет содержимое мета тэга &lt;meta name="keywords" content="%value%"&gt; </span>
       </td>
-      <td class="confluenceTd">String,
-        <br>Multilingual,
-        <br>Max. length: 255&nbsp;</td>
+      <td class="confluenceTd">Текст,
+        <br>Мультиязычный,
+        <br>Максимум 255 знаков&nbsp;</td>
     </tr>
     <tr>
       <td class="confluenceTd">metaDesc</td>
