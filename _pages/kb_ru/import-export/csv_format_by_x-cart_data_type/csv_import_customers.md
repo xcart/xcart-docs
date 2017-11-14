@@ -7,29 +7,29 @@ title: 'CSV импорт: Покупатели'
 order: 50
 published: false
 ---
-Below is a list of supported fields and their respective value types for the import of customers:
+В таблице представлены поля и их содержание для импорта покупателей:
 
 <div class="responsive-table">
 <table class="ui celled padded compact small table">
   <thead>
     <tr>
-      <th class="confluenceTh">Field in CSV file</th>
-      <th colspan="1" class="confluenceTh">What this field describes</th>
-      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Value type' ref_2LwMTTTW %}</th>
+      <th class="confluenceTh">Поле в CSV файле</th>
+      <th colspan="1" class="confluenceTh">Что описывает поле</th>
+      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Значение поля' ref_2LwMTTTW %}</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields supported by <strong>X-Cart core</strong></em>
+      <td colspan="3" class="confluenceTd"><em> Поля <strong>в ядре X-Cart</strong></em>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>login*</strong>
       </td>
-      <td colspan="1" class="confluenceTd">Unique identifier of the user. Email is used as login.</td>
+      <td colspan="1" class="confluenceTd">Уникальный идентификатор пользователя. В качестве логина используется адрес электронной почты.</td>
       <td colspan="1" class="confluenceTd">
-        <p>String,
-          <br>Max. length: 128</p>
+        <p>Текст,
+          <br>Максимум 128 знаков</p>
       </td>
     </tr>
     <tr>
