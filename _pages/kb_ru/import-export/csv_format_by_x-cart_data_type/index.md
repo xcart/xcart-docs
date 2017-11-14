@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-13 16:51 +0400'
+updated_at: '2017-11-14 11:41 +0400'
 identifier: ref_IbLL2XAb
 title: Формат CSV файла для разных видов данных
 order: 20
@@ -12,7 +12,7 @@ published: true
 *   {% link "Продукты" ref_WmJBfwxA %};
 *   {% link "Классы и атрибуты" ref_qTbDu6Ov %};
 *   {% link "Значения атрибутов продуктов" ref_Z7XdREZl %};
-*   {% link "Категории" ref_ekmg5iLG %};
+*   {% link "Категории" ref_un5K5sCZ %};
 *   {% link "Покупатели" ref_JobVfzZg %};
 *   {% link "Заказы" ref_import_orders_csv %} (посредством модуля **Импорт заказов**);
 *   Отзывы (посредством модуля **Отзывы**)
