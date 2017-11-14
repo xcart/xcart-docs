@@ -84,7 +84,7 @@ Below is a list of supported fields and their respective value types for categor
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCustomStateBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer state name in case the X-Cart doesn't have defined state for the country</td>
+      <td colspan="1" class="confluenceTd">Customer state name in the case X-Cart does not have a defined state for the country</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
