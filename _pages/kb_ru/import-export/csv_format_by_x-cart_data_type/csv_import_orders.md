@@ -125,7 +125,7 @@ published: true
     <tr>
       <td colspan="1" class="confluenceTd">customerCountryCodeShippingAddressField</td>
       <td colspan="1" class="confluenceTd">Код страны (в формате ISO 3166-1 alpha-2 (два знака)) в адресе доставки</td>
-      <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 2</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Максимум 2 знака</td>
     </tr>
 
     <tr>
@@ -256,7 +256,7 @@ published: true
     <tr>
       <td colspan="1" class="confluenceTd"><strong>paymentTransactionValue*</strong></td>
       <td colspan="1" class="confluenceTd">Сумма транзакции.</td>
-      <td colspan="1" class="confluenceTd">Float</td>
+      <td colspan="1" class="confluenceTd">Плавающая величина</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">paymentTransactionNote</td>
