@@ -79,7 +79,7 @@ Below is a list of supported fields and their respective value types for categor
 
     <tr>
       <td colspan="1" class="confluenceTd">customerStateIdBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer state name if the X-Cart has the defined state for the customer. Otherwise, use customerCustomStateBillingAddressField.<br>Example: Oklahoma</td>
+      <td colspan="1" class="confluenceTd">Customer state name if X-Cart has a defined state for the customer. Otherwise, use customerCustomStateBillingAddressField.<br>Example: Oklahoma</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
@@ -134,7 +134,7 @@ Below is a list of supported fields and their respective value types for categor
 
     <tr>
       <td colspan="1" class="confluenceTd">customerStateIdShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer state name if the X-Cart has a defined state for the customer. Otherwise, use customerCustomStateShippingAddressField.<br>Example: Oklahoma</td>
+      <td colspan="1" class="confluenceTd">Customer state name if X-Cart has a defined state for the customer. Otherwise, use customerCustomStateShippingAddressField.<br>Example: Oklahoma</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
