@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-04-26 10:00 +0400'
+updated_at: '2017-11-14 14:41 +0400'
 identifier: ref_import_orders_csv
 title: 'CSV import: Orders'
 categories:
@@ -32,7 +32,7 @@ Below is a list of supported fields and their respective value types for categor
     <tr>
       <td colspan="1" class="confluenceTd"><strong>orderNumber*</strong>
       </td>
-      <td colspan="1" class="confluenceTd">Order number. Serves as identifier.</td>
+      <td colspan="1" class="confluenceTd">Order number. Serves as an identifier.</td>
       <td colspan="1" class="confluenceTd">
         <p>Integer</p>
       </td>
@@ -43,12 +43,12 @@ Below is a list of supported fields and their respective value types for categor
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerAnonymous</td>
-      <td colspan="1" class="confluenceTd">If Yes, customer is anonymous person.</td>
+      <td colspan="1" class="confluenceTd">If Yes, the customer is an anonymous person.</td>
       <td colspan="1" class="confluenceTd">Yes/No</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerAddressSame</td>
-      <td colspan="1" class="confluenceTd">Specify Yes if the customer billing and shipping addresses are the same, No otherwise</td>
+      <td colspan="1" class="confluenceTd">Use "Yes" if the customer billing and shipping addresses are the same; otherwise use "No".</td>
       <td colspan="1" class="confluenceTd">Yes/No</td>
     </tr>
     <tr>
@@ -108,53 +108,53 @@ Below is a list of supported fields and their respective value types for categor
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerFirstnameShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer first name in the billing address.<br>This and the following address fields might or might not be present in your X-Cart installation depending on your address fields configuration.</td>
+      <td colspan="1" class="confluenceTd">Customer first name in the shipping address.<br>This and the following address fields might or might not be present in your X-Cart installation depending on your address fields configuration.</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerLastnameShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer last name in the billing address</td>
+      <td colspan="1" class="confluenceTd">Customer last name in the shipping address</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerStreetShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer street in the billing address</td>
+      <td colspan="1" class="confluenceTd">Customer street in the shipping address</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCityShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer city in the billing address</td>
+      <td colspan="1" class="confluenceTd">Customer city in the shipping address</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCountryCodeShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer country code (ISO 3166-1 alpha-2 format (2 characters)) in the billing address</td>
+      <td colspan="1" class="confluenceTd">Customer country code (ISO 3166-1 alpha-2 format (2 characters)) in the shipping address</td>
       <td colspan="1" class="confluenceTd">String,<br>Max. length: 2</td>
     </tr>
 
     <tr>
       <td colspan="1" class="confluenceTd">customerStateIdShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer state name if the X-Cart has the defined state for the customer. Otherwise, use customerCustomStateShippingAddressField.<br>Example: Oklahoma</td>
+      <td colspan="1" class="confluenceTd">Customer state name if the X-Cart has a defined state for the customer. Otherwise, use customerCustomStateShippingAddressField.<br>Example: Oklahoma</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerCustomStateShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer state name in case the X-Cart doesn't have defined state for the country</td>
+      <td colspan="1" class="confluenceTd">Customer state name in the case X-Cart does not have a defined state for the country</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerZipcodeShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer zipcode in the billing address.</td>
+      <td colspan="1" class="confluenceTd">Customer zipcode in the shipping address.</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerPhoneShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer phone number in the billing address.</td>
+      <td colspan="1" class="confluenceTd">Customer phone number in the shipping address.</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerVatNumberShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer VAT number in the billing address. Requires the VAT module to be installed.</td>
+      <td colspan="1" class="confluenceTd">Customer VAT number in the shipping address. Requires the VAT module to be installed.</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
