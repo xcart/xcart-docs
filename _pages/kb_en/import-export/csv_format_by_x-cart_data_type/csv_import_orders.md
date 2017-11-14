@@ -53,7 +53,7 @@ Below is a list of supported fields and their respective value types for categor
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerFirstnameBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer first name in the billing address.<br>This and the following address fields might or might not be present in your X-Cart installation depending on your address fields configuration. </td>
+      <td colspan="1" class="confluenceTd">Customer first name in the billing address.<br> </td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
@@ -108,7 +108,7 @@ Below is a list of supported fields and their respective value types for categor
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerFirstnameShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer first name in the shipping address.<br>This and the following address fields might or might not be present in your X-Cart installation depending on your address fields configuration.</td>
+      <td colspan="1" class="confluenceTd">Customer first name in the shipping address.<br> </td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
