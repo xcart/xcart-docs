@@ -44,15 +44,15 @@ published: false
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">position</td>
-      <td colspan="1" class="confluenceTd">Internal value of the category order. May not be negative. A smaller number means a higher position in the order.</td>
-      <td colspan="1" class="confluenceTd">Integer</td>
+      <td colspan="1" class="confluenceTd">Внутренне обозначение расположения категории. Значение не может быть отрицательным. Меньшее число означает более высокую позицию в заказе.</td>
+      <td colspan="1" class="confluenceTd">Целое число</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">memberships</td>
-      <td colspan="1" class="confluenceTd">Membership types, which members can see the category. <span style="color: rgb(0,0,0);">Do not set it if you want to make the category visible to all customers. Otherwise, it will be visible to the users assigned to specified membership only.</span>
+      <td colspan="1" class="confluenceTd">Группы покупателей, члены которых видят категорию в магазине. Не заполняйте, если категорию должны видеть все покупатели.</span>
       </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multiple&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Текстовая строка,
+        <br>Несколько значений&nbsp;</td>
     </tr>
     <tr>
       <td class="confluenceTd">image</td>
