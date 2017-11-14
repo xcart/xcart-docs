@@ -100,18 +100,18 @@ published: false
     </tr>
     <tr>
       <td class="confluenceTd">metaDesc</td>
-      <td class="confluenceTd">Defines the content of &lt;meta name="description" content="%value%"&gt; meta tag</td>
-      <td class="confluenceTd">String,
-        <br>Multilingual&nbsp;</td>
+      <td class="confluenceTd">Определяет содержимое мета тэга &lt;meta name="description" content="%value%"&gt;</td>
+      <td class="confluenceTd">Текст,
+        <br>Мультиязычный&nbsp;</td>
     </tr>
     <tr>
       <td class="confluenceTd">metaDescType</td>
       <td class="confluenceTd">
-        <p>Defines meta description content type. Can be either <strong>A </strong>or <strong>C</strong>, where:</p>
+        <p>Определяет тип содержимого мета описания. Может быть <strong>A </strong> или <strong>C</strong>, где:</p>
         <ul>
-          <li><strong>A</strong> stands for automatic mode when meta description will be generated from category description;</li>
-          <li>C stands for custom mode when meta desciption will be taken from <strong>metaDesc_* </strong>field in appropriate translation*;
-            <br>*this means that if the store is in <em>English</em> language, meta description will be taken from <strong>metaDesc_en</strong> field.</li>
+          <li><strong>A</strong> означает автоматический режим, когда мета описание автоматически создается из описания категории;</li>
+          <li>C означает специфический режим, когда мета описание берется из поля <strong>metaDesc_* </strong>соответствующей языковой версии магазина*;
+            <br>*т.е. если язык магазина <em>русский</em> мета описание будет взято из поля <strong>metaDesc_ru</strong>.</li>
         </ul>
       </td>
       <td class="confluenceTd">String,
