@@ -36,13 +36,13 @@ published: false
       <td colspan="1" class="confluenceTd"><strong>status*</strong>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>User status. Possible values are:</p>
+        <p>Статус пользователя. Возможные значения:</p>
         <ul>
-          <li>E - user is enabled;</li>
-          <li>D - user is disabled.</li>
+          <li>E - пользователь активен;</li>
+          <li>D - пользователь неактивен.</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">Enum</td>
+      <td colspan="1" class="confluenceTd">Перечисление</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">added</td>
