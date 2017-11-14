@@ -285,36 +285,36 @@ published: false
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>paymentTransactionId*</strong></td>
-      <td colspan="1" class="confluenceTd">Order payment transaction public id.</td>
+      <td colspan="1" class="confluenceTd">Идентификатор транзакции по оплате заказа.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>    
     <tr>
       <td colspan="1" class="confluenceTd">paymentTransactionCurrency</td>
-      <td colspan="1" class="confluenceTd">Order payment transaction currency. Can be omitted; order currency will be used instead.</td>
+      <td colspan="1" class="confluenceTd">Валюта транзакции. Можно не указывать, в этом случае будет применена валюта заказа.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>    
     <tr>
       <td colspan="1" class="confluenceTd">date</td>
-      <td colspan="1" class="confluenceTd">Order creation date. Example: Tue, 12 Jan 2016 13:18:22 +0000</td>
+      <td colspan="1" class="confluenceTd">Дата оформления заказа. Пример: Вторник, 12 января, 2017, 12:11:15 +0000</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>    
     <tr>
       <td colspan="1" class="confluenceTd">recent</td>
-      <td colspan="1" class="confluenceTd">Use "Yes" if the order has been processed by the admin, otherwise use "No".</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
+      <td colspan="1" class="confluenceTd">Напишите Yes, если заказ был обработан администратором. Если нет - укажите No.</td>
+      <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>    
     <tr>
       <td colspan="1" class="confluenceTd"><strong>paymentStatus*</strong></td>
-      <td colspan="1" class="confluenceTd">Order payment status. <br>
-        Possible values are:
+      <td colspan="1" class="confluenceTd">Статус платежа. <br>
+        Возможные значения:
         <ul>
-          <li>'A' (Authorized)</li>
-          <li>'P' (Paid)</li>
-          <li>'PP' (Partially paid)</li>
-          <li>'D' (Declined)</li>
-          <li>'C' (Cancelled)</li>
-          <li>'Q' (Queued)</li>
-          <li>'R' (Refunded)</li>
+          <li>'A' (Авторизован)</li>
+          <li>'P' (Оплачен)</li>
+          <li>'PP' (Частично оплачен)</li>
+          <li>'D' (Отклонен)</li>
+          <li>'C' (Отменен)</li>
+          <li>'Q' (В очереди на обработку)</li>
+          <li>'R' (Возврат средств)</li>
         </ul>
       </td>
       <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 3</td>
