@@ -268,13 +268,13 @@ published: false
       <td colspan="1" class="confluenceTd">Тип транзакции.<br>
         Возможные значения:
         <ul>
-          <li>'auth' (Only authorize)</li>
-          <li>'sale' (Authorize and capture)</li>
-          <li>'capture' (Capture payment)</li>
-          <li>'capturePart' (Capture payment part. Transaction is closed afterwards)</li>
-          <li>'captureMulti' (Capture payment part. Can be repeated)</li>
-          <li>'void' (Cancel payment)</li>
-          <li>'voidPart' (Cancel payment part. Transaction is closed afterwards)</li>
+          <li>'auth' (Только авторизация)</li>
+          <li>'sale' (Авторизация и удержание)</li>
+          <li>'capture' (Удержание средств)</li>
+          <li>'capturePart' (Частичное удержание средств с последующим завершением транзакции)</li>
+          <li>'captureMulti' (Частичное удержание средств. Возможно повторение)</li>
+          <li>'void' (Платеж аннулирован)</li>
+          <li>'voidPart' (Частичная отмена платежа с последующим завершением транзакции)</li>
           <li>'voidMulti' (Cancel payment part. Can be repeated)</li>
           <li>'refund' (Refund payment)</li>
           <li>'refundPart' (Refund payment part. Transaction is closed afterwards)</li>
