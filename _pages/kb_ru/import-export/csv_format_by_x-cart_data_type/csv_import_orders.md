@@ -333,58 +333,57 @@ published: false
           <li>'R' (Возврат)</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">Текст,<br>Max. length: 3</td>
+      <td colspan="1" class="confluenceTd">Текст,<br>Максимум 3 знака</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">notes</td>
-      <td colspan="1" class="confluenceTd">Order customer notes.</td>
+      <td colspan="1" class="confluenceTd">Комментарии покупателя к заказу.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">adminNotes</td>
-      <td colspan="1" class="confluenceTd">Order administrator notes.</td>
+      <td colspan="1" class="confluenceTd">Комментарии администратора к заказу.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd">Order history details. The following fields prefixed by 'detail' are Multirow, and each row represents a single history item.
-      </td>
+      <td colspan="3" class="confluenceTd">История заказа. Следующие поля с префиксом detail содержат несколько рядов, и в каждом ряду описан один факт из истории заказа.</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">detailCode</td>
-      <td colspan="1" class="confluenceTd">Order history item code</td>
+      <td colspan="1" class="confluenceTd">Код записи из истории заказа</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">detailLabel</td>
-      <td colspan="1" class="confluenceTd">Order history item human-readable label</td>
+      <td colspan="1" class="confluenceTd">Удобочитаемая метка записи из истории заказа</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">detailValue</td>
-      <td colspan="1" class="confluenceTd">Order history item text.</td>
+      <td colspan="1" class="confluenceTd">Текст записи из истории заказа</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Multivendor addon</strong></em>
+      <td colspan="3" class="confluenceTd"><em> Поля, добавленные модулем <strong>Multivendor</strong></em>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>vendor*</strong>
       </td>
-      <td colspan="1" class="confluenceTd">Order vendor email.</td>
+      <td colspan="1" class="confluenceTd">Адрес электронной почты продавца.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>parent*</strong>
       </td>
-      <td colspan="1" class="confluenceTd">Parent order ID.</td>
-      <td colspan="1" class="confluenceTd">Integer</td>
+      <td colspan="1" class="confluenceTd">Номер родительского заказа.</td>
+      <td colspan="1" class="confluenceTd">Целое число</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>children*</strong>
       </td>
-      <td colspan="1" class="confluenceTd">Child order numbers. Can be multiple.</td>
-      <td colspan="1" class="confluenceTd">Integer,<br>Multiple</td>
+      <td colspan="1" class="confluenceTd">Номера дочерних заказов. Возможны несколько значений.</td>
+      <td colspan="1" class="confluenceTd">Целое число,<br>Несколько значений</td>
     </tr>
     <tr>
       <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Custom Order Statuses addon</strong></em>
