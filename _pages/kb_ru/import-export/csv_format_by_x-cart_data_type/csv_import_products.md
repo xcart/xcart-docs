@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-15 16:29 +0400'
+updated_at: '2017-11-15 16:58 +0400'
 identifier: ref_inLgAwMe
 title: 'Импорт CSV: Продукты'
 order: 10
@@ -560,7 +560,7 @@ CSV файл с продуктами должен сдержать как мин
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Поля, добавленные модулем <strong>Upselling Product</strong</em>
+      <td colspan="3" class="confluenceTd"><em>Поля, добавленные модулем <strong>Upselling Product</strong></em>
       </td>
     </tr>
     <tr>
