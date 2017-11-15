@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-15 13:09 +0400'
+updated_at: '2017-11-15 13:11 +0400'
 identifier: ref_un5K5sCZ
 title: 'Импорт CSV: Категории'
 order: 40
@@ -139,7 +139,7 @@ published: true
     <tr>
       <td class="confluenceTd"><span>openGraphMeta</span>
       </td>
-      <td class="confluenceTd">Если в поле <strong><span>useCustomOpenGraphMeta</span></strong> стоит <strong>Yes</strong>, значит, в этом поле указаны Open Graph мета тэги</td>
+      <td class="confluenceTd">Если в поле <strong><span>useCustomOpenGraphMeta</span></strong> стоит <strong>Yes</strong>, значит, в этом поле указываются Open Graph мета тэги</td>
       <td class="confluenceTd">
         <p>Текст,
           <br>Допустим HTML,
