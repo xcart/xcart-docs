@@ -39,6 +39,8 @@ published: false
 
 ![xc5_fecommerce_fb_products_create_catalog4.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_fb_products_create_catalog4.png)
 
+![xc5_fecommerce_fb_products_add_product_feed.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_fb_products_add_product_feed.png)
+
 
 
 
