@@ -14,7 +14,7 @@ published: true
     <tr>
       <th class="confluenceTh">Поле в CSV файле</th>
       <th colspan="1" class="confluenceTh">Что описывает поле</th>
-      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Тип значение' ref_2LwMTTTW %}</th>
+      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Тип значения' ref_2LwMTTTW %}</th>
     </tr>
   </thead>
   <tbody>
