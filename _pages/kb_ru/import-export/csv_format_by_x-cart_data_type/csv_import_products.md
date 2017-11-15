@@ -530,66 +530,66 @@ CSV файл с продуктами должен сдержать как мин
     <tr>
       <td colspan="1" class="confluenceTd">mnfVendor</td>
       <td colspan="1" class="confluenceTd">Производитель продукта</td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Max. length: 64&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Максимум 64 знака&nbsp;</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">
         <p>variantupcIsbn</p>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>Product variant UPC/ISBN code.
+        <p>Универсальный товарный код / Международный стандартный книжный номер варианта продукта.
         </p>
-        <p>&nbsp;<strong>Product Variants</strong> module must be enabled.</p>
+        <p>&nbsp;<strong>Модуль Product Variants</strong> должен быть включен.</p>
       </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Max. length: 32,<br>Multirow&nbsp;
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Максимум 32 знака<br>Несколько строк&nbsp;
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">variantmnfVendor
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>Manufacturer of the product variant.
+        <p>Производитель варианта продукта.
         </p>
-        <p><strong>Product Variants</strong> module must be enabled.
+        <p><strong>Модуль Product Variants</strong> должен быть включен.
         </p>
       </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Max. length: 64,<br>Multirow&nbsp;
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Максимум 64 знака<br>Несколько строк&nbsp;
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Upselling Product</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Поля, добавленные модулем <strong>Upselling Product</strong</em>
       </td>
     </tr>
     <tr>
       <td class="confluenceTd">relatedProducts</td>
       <td class="confluenceTd">
-        <p>SKUs of related products. You can specify several products separating them with '&amp;&amp;' symbols.</p>
-        <p>Examples:</p>
+        <p>Артикулы сопутствующих продуктов. Можно указать несколько артикулов с разделителем '&amp;&amp;'.</p>
+        <p>Пример:</p>
         <ul>
-          <li>SKU1 (1 product)</li>
-          <li>SKU1&amp;&amp;SKU2 (2 products)</li>
+          <li>Артикул 1 (1 продукт)</li>
+          <li>Артикул 1&amp;&amp;Артикул 2 (2 продукта)</li>
         </ul>
       </td>
-      <td class="confluenceTd">String,
-        <br>Multiple&nbsp;</td>
+      <td class="confluenceTd">Текст,
+        <br>Несколько значений&nbsp;</td>
     </tr>
   </tbody>
 </table>
 
-<sub>* Required field.</sub>
+<sub>* Обязательное поле</sub>
 
-<sub markdown="1">** See {% link "CSV field attributes" ref_2LwMTTTW %} for more info.</sub>
+<sub markdown="1">** Дополнительная информация {% link "CSV field attributes" ref_2LwMTTTW %}.</sub>
 
-### Tips:
+### Рекомендации:
 
-*   If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields into your CSV file for import. Simply remove the respective column(s) from the file.
+*   Если вы собираетесь импортировать данные в X-Cart и не хотите обновлять определенные поля во время импорта, эти поля не нужно вносить в CSV файл импорта. Просто удалите соответствующие столбцы из файла..
 
-*   If necessary, import can be used to clear previously set field values from non-numeric fields. To clear a field value via import, in your CSV file to be imported specify the value of the field as "NULL". After the import process is completed, the fields in which the value "NULL" has been imported will be cleared.
+*   С помощью импорта можно удалить нечисловые данные из ранее заполненных полей. Для этого в CSV файле импорта впишите NULL в полях, которые нужно очистить. По завершении импорта эти поля будут пустыми..
 
-    This feature is supported by the following product fields:
+    Эта функциональность работает для следующих полей продуктов::
     
     - memberships;
     - categories;
