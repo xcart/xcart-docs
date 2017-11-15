@@ -157,38 +157,38 @@ CSV файл с продуктами должен сдержать как мин
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">inventoryTrackingEnabled</td>
-      <td colspan="1" class="confluenceTd">Whether inventory (stock) tracking is enabled.</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
+      <td colspan="1" class="confluenceTd">Отслеживание запасов включено или отключено.</td>
+      <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">stockLevel</td>
-      <td colspan="1" class="confluenceTd">Current stock level.</td>
-      <td colspan="1" class="confluenceTd">Integer</td>
+      <td colspan="1" class="confluenceTd">Текущий размер запаса.</td>
+      <td colspan="1" class="confluenceTd">Целое число</td>
     </tr>
     <tr>
       <td class="confluenceTd">lowLimitLevel</td>
-      <td class="confluenceTd">When stock of the product reaches this amount, admin will get a notification about low limit of these goods.</td>
-      <td class="confluenceTd">Integer (e.g. 10)</td>
+      <td class="confluenceTd">Когда размер запаса продукта достигнет этого количества, администратор магазина получит уведомление об уменьшении количества продукта.</td>
+      <td class="confluenceTd">Целое число(например, 10)</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">lowLimitEnabled</td>
-      <td colspan="1" class="confluenceTd">Whether low stock notification is enabled</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
+      <td colspan="1" class="confluenceTd">Уведомление об уменьшении запаса продуктов включено или отключено</td>
+      <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>
     <tr>
       <td class="confluenceTd">categories</td>
       <td colspan="1" class="confluenceTd">
-        <p>Defines what categories this product belongs to. Nested categories are separated by &gt;&gt;&gt; construction.</p>
-        <p>It allows to specify multiple categories. They are separated by &amp;&amp; construction.</p>
-        <p>Examples:</p>
+        <p>Определяет, а какие категории входит продукт. Категории разделяются символами &gt;&gt;&gt; .</p>
+        <p>Можно указать несколько категорий, разделив их символами &amp;&amp; .</p>
+        <p>Примеры:</p>
         <ul>
-          <li>Toys (product is assigned to root category Toys)</li>
-          <li>Toys&gt;&gt;&gt;Cube Goodies (product is assigned to the second level category Toys/Cube Goodies)</li>
-          <li>Toys&amp;&amp;Toys&gt;&gt;&gt;Cube Goodies (products is assigned to two categories: Toys and Toys/Cube Goodies)</li>
+          <li>Игрушки (продукт входит в корневую категорию Игрушки)</li>
+          <li>Игрушки&gt;&gt;&gt;Умные игрушки (продукт входит в категорию второго уровня Игрушки/Умные игрушки)</li>
+          <li>Игрушки&amp;&amp;Игрушки&gt;&gt;&gt;Умные игрушки (продукт входит в две категории: Игрушки и Игрушки/Умные игрушки)</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multiple&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Несколько значений&nbsp;</td>
     </tr>
     <tr>
       <td class="confluenceTd">cleanURL</td>
