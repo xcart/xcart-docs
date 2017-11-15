@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-14 11:02 +0400'
+updated_at: '2017-11-15 12:05 +0400'
 identifier: ref_un5K5sCZ
 title: 'Импорт CSV: Категории'
 order: 40
@@ -14,7 +14,7 @@ published: true
     <tr>
       <th class="confluenceTh">Поле в CSV файле</th>
       <th colspan="1" class="confluenceTh">Что описывает поле</th>
-      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Значение поля' ref_2LwMTTTW %}</th>
+      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Тип значения' ref_2LwMTTTW %}</th>
     </tr>
   </thead>
   <tbody>
