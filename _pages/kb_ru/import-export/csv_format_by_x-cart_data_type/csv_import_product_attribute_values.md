@@ -7,14 +7,14 @@ title: 'Импорт CSV: Значения атрибутов продуктов
 order: 30
 published: false
 ---
-Below is a list of supported fields and their respective value types for the import of product attribute values:
+В таблице представлены поля и их содержание для импорта значений атрибутов продуктов:
 
 <table class="ui celled padded compact small table">
   <thead>
     <tr>
-      <th class="confluenceTh">Field in CSV file</th>
-      <th colspan="1" class="confluenceTh">What this field describes</th>
-      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Value type' ref_2LwMTTTW %}</th>
+      <th class="confluenceTh">Поле в CSV файле</th>
+      <th colspan="1" class="confluenceTh">Что описывает поле</th>
+      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Тип значения' ref_2LwMTTTW %}</th>
     </tr>
   </thead>
   <tbody>
