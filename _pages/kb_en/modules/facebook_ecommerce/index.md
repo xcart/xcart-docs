@@ -23,6 +23,8 @@ published: false
 
 ![xc5_fecommerce_fb_business.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_fb_business.png)
 
+![xc5_fecommerce_fb_business create advert.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_fb_business_create_advert.png)
+
 
 
 
