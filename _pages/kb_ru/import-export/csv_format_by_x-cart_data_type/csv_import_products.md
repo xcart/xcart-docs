@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-15 14:30 +0400'
+updated_at: '2017-11-15 16:29 +0400'
 identifier: ref_inLgAwMe
 title: 'Импорт CSV: Продукты'
 order: 10
@@ -600,7 +600,7 @@ CSV файл с продуктами должен сдержать как мин
     
 ## Обновление вариантов продуктов
 
-Чтобы сослаться на определенный вариант продукта, нужно указать значения всех его атрибутов. Столбец со значениями атрибутов имеет следующий формат: `<Attribute name> (поле:<class or global>)`. Пример:
+Чтобы сослаться на определенный вариант продукта, нужно указать значения всех его атрибутов. Столбец со значениями атрибутов имеет следующий формат: `<Attribute name> (field:<class or global>)`. Пример:
 
 ![Product variant attributes]({{site.baseurl}}/attachments/ref_WmJBfwxA/product_variant.png)
 
