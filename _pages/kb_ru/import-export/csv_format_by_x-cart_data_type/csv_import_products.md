@@ -128,32 +128,32 @@ CSV файл с продуктами должен сдержать как мин
     <tr>
       <td class="confluenceTd">imagesAlt</td>
       <td colspan="1" class="confluenceTd">
-        <p>Text for alt property of images. This text will be shown when an image is not loaded for some reason.</p>
-        <p>If many images are assigned to the product, many alt texts can be imported as well. These alt texts must be separated by '&amp;&amp;' construction.</p>
-        <p>Examples:</p>
+        <p>Альтернативный текст для изображения, устанавливаемый атрибутом alt. Этот текст будет отображаться, если изображение не загрузилось.</p>
+        <p>Если у продукта несколько изображений, можно импортировать несколько альтернативных текстов. Эти тексты должны быть разделены символами '&amp;&amp;'.</p>
+        <p>Примеры:</p>
         <ul>
-          <li>Alt text for first image (1 alt text)</li>
-          <li>Alt text for first image&amp;&amp;Alt text for second image (2 alt texts)</li>
+          <li>Альтернативный текст для первого изображения (1 alt текст)</li>
+          <li>Альтернативный текст для первого изображения&amp;&amp;(2 alt текста)</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multiple,
-        <br>Max. length: 255&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Несколько значений,
+        <br>Максимум 255 знака&nbsp;</td>
     </tr>
     <tr>
       <td class="confluenceTd">arrivalDate</td>
-      <td colspan="1" class="confluenceTd">Date when the product will be available for sale.</td>
-      <td colspan="1" class="confluenceTd">Date (e.g. 1 Jan 2013)</td>
+      <td colspan="1" class="confluenceTd">Дата, когда продукт появится на распродаже.</td>
+      <td colspan="1" class="confluenceTd">Дата (пример: 1 января 2018)</td>
     </tr>
     <tr>
       <td class="confluenceTd">date</td>
-      <td colspan="1" class="confluenceTd">Date when the product is created in X-Cart admin area.</td>
-      <td colspan="1" class="confluenceTd">Date (e.g. 1 Jan 2013)</td>
+      <td colspan="1" class="confluenceTd">Дата создания продукта в панели управления магазина.</td>
+      <td colspan="1" class="confluenceTd">Дата (пример: 1 января 2018)</td>
     </tr>
     <tr>
       <td class="confluenceTd">updateDate</td>
-      <td colspan="1" class="confluenceTd">Date when the product was updated last time.</td>
-      <td colspan="1" class="confluenceTd">Date (e.g. 1 Jan 2013)</td>
+      <td colspan="1" class="confluenceTd">Дата последнего обновления продукта.</td>
+      <td colspan="1" class="confluenceTd">Дата (пример: 1 января 2018)</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">inventoryTrackingEnabled</td>
