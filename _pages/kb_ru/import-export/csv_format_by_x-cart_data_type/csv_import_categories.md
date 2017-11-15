@@ -1,11 +1,5 @@
 ---
-lang: ru
-layout: article_with_sidebar
-updated_at: '2017-11-14 11:02 +0400'
-identifier: ref_un5K5sCZ
-title: 'Импорт CSV: Категории'
-order: 40
-published: true
+identifier: ref_feb3ZaA2
 ---
 В таблице ниже представлены поля и их значения для импорта категорий.
 
@@ -57,7 +51,7 @@ published: true
     <tr>
       <td class="confluenceTd">image</td>
       <td colspan="1" class="confluenceTd">
-        <p>ля каждого изображения, которое нужно импортировать, должно быть указано его расположение:</p>
+        <p>Для каждого изображения, которое нужно импортировать, должно быть указано его расположение:</p>
         <ul>
           <li> URL (может быть  на одном сервере с X-Cart)</li>
           <li>Путь к изображению на сервере относительно директории <code>&lt;XCART-DIRECTORY&gt;</code> ; например, <code>images/category/image1.png</code></li>
