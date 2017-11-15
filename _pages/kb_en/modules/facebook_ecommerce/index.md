@@ -17,11 +17,10 @@ published: false
 
 ![xc5_fecommerce_generate_prod_feed.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_generate_prod_feed.png)
 
-![xc5_fecommerce_url_generated.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_url_generated.png)
+![xc5_fecommerce_url_generation_process.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_url_generation_process.png)
 
 ![xc5_fecommerce_url_generated0.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_url_generated0.png)
 
-![xc5_fecommerce_url_generation_process.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_url_generation_process.png)
 
 
 
