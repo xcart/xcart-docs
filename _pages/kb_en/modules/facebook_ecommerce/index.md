@@ -21,6 +21,7 @@ published: false
 
 ![xc5_fecommerce_url_generated.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_url_generated.png)
 
+![xc5_fecommerce_fb_business.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_fb_business.png)
 
 
 
