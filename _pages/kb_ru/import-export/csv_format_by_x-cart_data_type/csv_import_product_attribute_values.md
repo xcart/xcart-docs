@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-15 11:46 +0400'
+updated_at: '2017-11-15 15:26 +0400'
 identifier: ref_gc6c4yTb
 title: 'Импорт CSV: Значения атрибутов продуктов'
 order: 30
@@ -86,7 +86,7 @@ published: true
       <td colspan="1" class="confluenceTd">attributePosition
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>Позиция атрибута в сортировке. Если у атрибута несколько значений, т.е. несколько рядов, значит, используется первое найденное значение.</p>
+        <p>Позиция атрибута в сортировке. Если у атрибута несколько значений, т.е. несколько строк, значит, используется первое найденное значение.</p>
       </td>
       <td colspan="1" class="confluenceTd">Целое число</td>
     </tr>
