@@ -5,95 +5,95 @@ updated_at: '2017-11-15 11:15 +0400'
 identifier: ref_2tRcco06
 title: 'Импорт CSV:Классы и атрибуты '
 order: 20
-published: false
+published: true
 ---
-Below is a list of supported fields and their respective value types for the import of product classes and attributes.
+В таблице представлены поля и их содержание для импорт классов и атрибутов продуктов.
 
 <table class="ui celled padded compact small table">
   <thead>
     <tr>
-      <th class="confluenceTh">Field in CSV file</th>
-      <th colspan="1" class="confluenceTh">What this field describes</th>
-      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Value type' ref_2LwMTTTW %}</th>
+      <th class="confluenceTh">Поле в CSV файле</th>
+      <th colspan="1" class="confluenceTh">Что описывает поле</th>
+      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Тип значение' ref_2LwMTTTW %}</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields supported by <strong>X-Cart core</strong></em>
+      <td colspan="3" class="confluenceTd"><em> Поля <strong>в ядре X-Cart</strong></em>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">position</td>
-      <td colspan="1" class="confluenceTd">Internal value of the attribute order. Should not be negative. Lower number means higher place in order.</td>
+      <td colspan="1" class="confluenceTd">Внутреннее обозначение расположения атрибута. Значение не может быть отрицательным. Меньшее число означает боле высокую позицию в заказе.</td>
       <td colspan="1" class="confluenceTd">
-        <p>Integer</p>
+        <p>Целое число</p>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">product</td>
       <td colspan="1" class="confluenceTd">
-        <p>SKU of the product, if it is a product attribute. Leave blank for global.</p>
+        <p>Артикул продукта, если это специальный атрибут продукта. Если это глобальный атрибут, не заполняйте поле.</p>
       </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Max. length: 32&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Максимум 32 знака&nbsp;</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>name*</strong>
       </td>
-      <td colspan="1" class="confluenceTd">Text representation of the attribute. Serves as a part of unique identifier.</td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multilingual,
-        <br>Max. length: 255</td>
+      <td colspan="1" class="confluenceTd">Текстовое представление атрибута. Служит частью уникального идентификатора.</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Мультиязычный,
+        <br>Максимум 255 знаков</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">class</td>
-      <td colspan="1" class="confluenceTd">Attribute class. Serves as a part of unique identifier.</td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multilingual,
-        <br>Max. length: 255</td>
+      <td colspan="1" class="confluenceTd">Класс атрибута. Служит частью уникального идентификатора.</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Мультиязычный,
+        <br>Максимум 255 знаков</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">group</td>
-      <td colspan="1" class="confluenceTd">Attribute group. Can be blank. Serves as a part of unique identifier.</td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multilingual,
-        <br>Max. length: 255&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Группа атрибута. Можно не заполнять. Служит частью уникального идентификатора.</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Мультиязычный,
+        <br>Максимум 255 знаков&nbsp;</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">options</td>
       <td colspan="1" class="confluenceTd">
-        <p>List of possible attribute options. Options are separated with<strong> '&amp;&amp;' </strong>symbol.</p>
-        <p>Example: S&amp;&amp;M&amp;&amp;L&amp;&amp;XL&amp;&amp;XXL&amp;&amp;XXXL</p>
+        <p>Список возможных опций атрибута. Опции разделяются символом <strong> '&amp;&amp;' </strong>.</p>
+        <p>Пример: S&amp;&amp;M&amp;&amp;L&amp;&amp;XL&amp;&amp;XXL&amp;&amp;XXXL</p>
       </td>
-      <td colspan="1" class="confluenceTd">String
-        <br>Multiple,
-        <br>Multilingual,
-        <br>Max. length: 255</td>
+      <td colspan="1" class="confluenceTd">Текст
+        <br>Несколько значений,
+        <br>Мультиязычный,
+        <br>Максимум 255 знаков</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>type*</strong>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>Type of the attribute. Possible values are:</p>
+        <p>Тип атрибута. Возможные значения:</p>
         <ul>
-          <li>T - Text</li>
-          <li>S - Select</li>
-          <li>C - Yes/No</li>
+          <li>T - текст</li>
+          <li>S - выбор</li>
+          <li>C - Да/Нет</li>
         </ul>
         <p>&nbsp;</p>
       </td>
-      <td colspan="1" class="confluenceTd">Enum</td>
+      <td colspan="1" class="confluenceTd">Значение перечислимого типа</td>
     </tr>
   </tbody>
 </table>
 
-<sub>* Required field.</sub>
+<sub>* Обязательное поле</sub>
 
-<sub markdown="1">** See {% link "CSV field attributes" ref_2LwMTTTW %} for more info.</sub>
+<sub markdown="1">** Дополнительная информация {% link "CSV field attributes" ref_2LwMTTTW %}</sub>
 
-**Tips**:
+**Рекомендации**:
 
-*   If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields into your CSV file for import. Simply remove the respective column(s) from the file.
+*   Если вы собираетесь импортировать данные в X-Cart и не хотите обновлять определенные поля во время импорта, эти поля не нужно вносить в CSV файл импорта. Просто удалите соответствующие столбцы из файла.
 
-*   If necessary, import can be used to clear previously set field values from non-numeric fields. To clear a field value via import, in your CSV file to be imported specify the value of the field as "NULL". After the import process is completed, the fields in which the value "NULL" has been imported will be cleared. This feature is supported by the attribute options field.
+*   С помощью импорта можно удалить нечисловые данные из ранее заполненных полей. Для этого в CSV файле импорта впишите NULL в полях, которые нужно очистить. По завершении импорта эти поля будут пустыми. Данная функциональность работает для поля attribute options.
 
