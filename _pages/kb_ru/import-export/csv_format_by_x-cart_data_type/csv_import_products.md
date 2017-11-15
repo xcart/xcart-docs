@@ -255,78 +255,78 @@ CSV файл с продуктами должен сдержать как мин
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">metaTitle</td>
-      <td colspan="1" class="confluenceTd">Defines the content of &lt;meta name="title" content="%value%"&gt; meta tag
+      <td colspan="1" class="confluenceTd">Определяет содержание мета тэга &lt;meta name="title" content="%value%"&gt; 
       </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multilingual,
-        <br>Max. length: 255&nbsp;
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Мультиязычный,
+        <br>Максимум 255 знаков&nbsp;
       </td>
     </tr>
     <tr>
       <td class="confluenceTd">productClass</td>
       <td class="confluenceTd">
-        <p>Defines attribute class for a product. See also:</p>
+        <p>Определяет класс атрибута продукта. Дополнительная информация:</p>
         <ul>
           <li><a href="/display/XDD/Product+classes+and+attributes">Product classes and attributes</a>
           </li>
         </ul>
       </td>
-      <td class="confluenceTd">String</td>
+      <td class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td class="confluenceTd">taxClass</td>
-      <td class="confluenceTd">Defines tax class for a product</td>
-      <td class="confluenceTd">String</td>
+      <td class="confluenceTd">Определяет класс налога для продукта</td>
+      <td class="confluenceTd">Текст</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Go Social</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Поля, добавленные модулем <strong>Go Social</strong> </em>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">useCustomOpenGraphMeta
       </td>
-      <td colspan="1" class="confluenceTd">Defines whether use custom Open Graph meta tags for this product or use default ones</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
+      <td colspan="1" class="confluenceTd">Определяет, какие мета тэги использовать для продукта - пользовательские Open Graph мета тэги или стандартные мета тэги</td>
+      <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">openGraphMeta
       </td>
-      <td colspan="1" class="confluenceTd">If <strong>useCustomOpenGraphMeta</strong> is <strong>Yes</strong>, then defines custom Open Graph meta tags</td>
+      <td colspan="1" class="confluenceTd">Если в поле <strong>useCustomOpenGraphMeta</strong> стоит <strong>Yes</strong>, значит, в этом поле указываются Open Graph мета тэги</td>
       <td colspan="1" class="confluenceTd">
-        <p>String,
-          <br>HTML allowed,
-          <br>Scripting allowed&nbsp;</p>
+        <p>Текст,
+          <br>Допустим HTML,
+          <br>Допустимо выполнение скриптов&nbsp;</p>
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>File attachments</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Поля, добавленные модулем <strong>File attachments</strong> </em>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">attachments</td>
       <td colspan="1" class="confluenceTd">
-        <p>Defines what files are attached to this product.</p>
-        <p>For any file that needs to be imported, you need to specify the file location. This can be one of the following:</p>
+        <p>Определяет, какие файлы прилагаются к продукту.</p>
+        <p>Для каждого файла, который требуется импортировать, необходимо указать расположение. Это может быть:</p>
         <ul>
-          <li>File URL</li>
-          <li>Path to the file on the server.</li>
+          <li>URL файла</li>
+          <li> путь к файлу на сервере.</li>
         </ul>  
-        <p>If using the latter option (local filepath), the attachment files for import need to be placed in one of the following locations:</p>
+        <p>Во втором случае (путь к файлу на сервере), файлы должны находиться:</p>
         <ul>
-          <li>The folder &lt;XCART-DIRECTORY&gt;/files/attachments, or its subfolders. The path in the CSV file in this case must be specified relatively to &lt;XCART-DIRECTORY&gt;; for example, files/attachments/user-manual.pdf or files/attachments/test/user-manual.pdf</li>
-          <li>The folder &lt;XCART-DIRECTORY&gt;/var/import, or its subfolders. The path in the CSV file in this case must be specified relatively to &lt;XCART-DIRECTORY&gt;; for example, var/import/user-manual.pdf or var/import/test/user-manual.pdf. Note that files placed in the folder &lt;XCART-DIRECTORY&gt;/var/import will be copied as a result of import to the folder &lt;XCART-DIRECTORY&gt;/files/attachments/[product_id].</li>
+          <li>В директории &lt;XCART-DIRECTORY&gt;/files/attachments или ее поддиректориях. В этом случае, путь в CSV файле должен быть указан относительно директории &lt;XCART-DIRECTORY&gt;; например, files/attachments/user-manual.pdf или files/attachments/test/user-manual.pdf</li>
+          <li>В директории &lt;XCART-DIRECTORY&gt;/var/import или ее поддиректориях. В этом случае, путь в CSV файле должен быть указан относительно директории &lt;XCART-DIRECTORY&gt;; например, var/import/user-manual.pdf или var/import/test/user-manual.pdf. Обратите внимание, что в результате импорта файлы из директории &lt;XCART-DIRECTORY&gt;/var/import будут скопированы в директорию &lt;XCART-DIRECTORY&gt;/files/attachments/[product_id].</li>
         </ul>
-        <p>Multiple files can be attached, and they must be separated by the &amp;&amp; construction.</p>
-        <p>Examples:</p>
+        <p>Можно импортировать несколько изображений, они должны быть разделены символами &amp;&amp; .</p>
+        <p>Примеры:</p>
         <ul>
-          <li>path/to/my/files/user-manual.pdf (1 file)</li>
-          <li>path/to/my/files/user-manual.pdf&amp;&amp;path/to/my/files/spec.pdf (2 files)</li>
+          <li>path/to/my/files/user-manual.pdf (1 файл)</li>
+          <li>path/to/my/files/user-manual.pdf&amp;&amp;path/to/my/files/spec.pdf (2 файла)</li>
         </ul>
-        <p>Note that import of attachments takes considerably less time if the files to be imported are stored locally on the server with their location specified as a relative path rather than if they are stored somewhere else with their location specified as a URL. If you need to import a considerable number of attachment files from URLs, it may be possible to speed up the process quite a bit simply by saving those files locally on the server and changing the location of those files in the import CSV file from URL to relative paths.</p>
+        <p>Обратите внимание, что импорт приложенных файлов проходит быстрее, если файлы находятся на одном сервере с X-Cart и их расположение указано как относительный путь, чем если файлы находятся где-то еще и их расположение указано как URL. Если необходимо импортировать множество файлов по URL, можно значительно ускорить процесс, сохранив файлы на сервере, где находится магазин, и заменив в CSV файле расположение файлов с URL на относительнй путь.</p>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>String,
-          <br>Multiple&nbsp;</p>
+        <p>Текст,
+          <br>Несколько значений&nbsp;</p>
       </td>
     </tr>
     <tr>
