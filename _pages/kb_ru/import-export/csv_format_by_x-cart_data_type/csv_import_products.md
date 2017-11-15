@@ -5,7 +5,7 @@ updated_at: '2017-11-15 16:29 +0400'
 identifier: ref_inLgAwMe
 title: 'Импорт CSV: Продукты'
 order: 10
-published: true
+published: false
 ---
 ## Содержание
 
