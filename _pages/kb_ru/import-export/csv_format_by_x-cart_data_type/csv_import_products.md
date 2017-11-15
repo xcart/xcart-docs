@@ -193,62 +193,61 @@ CSV файл с продуктами должен сдержать как мин
     <tr>
       <td class="confluenceTd">cleanURL</td>
       <td colspan="1" class="confluenceTd">
-        <p>SEO friendly URL of the product page.</p>
-        <p>Example: apple.html</p>
+        <p>SEO-оптимизированная ссылка на страницу продукта.</p>
+        <p>Пример: ewok-ladies-hooded-tank-top.html</p>
       </td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
       <td class="confluenceTd">useSeparateBox</td>
-      <td colspan="1" class="confluenceTd">Whether you use separate box for this item when you ship it</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
+      <td colspan="1" class="confluenceTd">Отправка в отдельной коробке требуется или не требуется</td>
+      <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>
     <tr>
       <td class="confluenceTd">boxWidth</td>
-      <td colspan="1" class="confluenceTd">If <strong>useSeparateBox </strong>option is <strong>Yes</strong>, this field defines the width of the custom box for this product</td>
-      <td colspan="1" class="confluenceTd">Float (e.g. 1.00)</td>
+      <td colspan="1" class="confluenceTd">Если значение <strong>useSeparateBox </strong> -  <strong>Yes</strong>, в этом поле указывается ширина коробки для этого продукта</td>
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой (пример: 1,00)</td>
     </tr>
     <tr>
       <td class="confluenceTd">boxLength</td>
-      <td colspan="1" class="confluenceTd">If <strong>useSeparateBox </strong>option is <strong>Yes</strong>, this field defines the length of the custom box for this product
+      <td colspan="1" class="confluenceTd">Если значение <strong>useSeparateBox </strong> - <strong>Yes</strong>,  в этом поле указывается длина коробки для этого продукта
       </td>
-      <td colspan="1" class="confluenceTd">Float (e.g. 1.00)
-      </td>
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой (пример: 1,00)</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">boxHeight</td>
-      <td colspan="1" class="confluenceTd">If <strong>useSeparateBox </strong>option is <strong>Yes</strong>, this field defines the height of the custom box for this product
+      <td colspan="1" class="confluenceTd">Если значение <strong>useSeparateBox </strong> - <strong>Yes</strong>, в этом поле указывается высота коробки для этого продукта
       </td>
-      <td colspan="1" class="confluenceTd">Float (e.g. 1.00)
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой (пример: 1,00)
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">itemsPerBox</td>
-      <td colspan="1" class="confluenceTd">If <strong>useSeparateBox </strong>option is <strong>Yes, </strong>this field defines what quantity of the product can be shipped in this box.</td>
-      <td colspan="1" class="confluenceTd">Integer (e.g. 3)</td>
+      <td colspan="1" class="confluenceTd">Если значение <strong>useSeparateBox </strong> - <strong>Yes, </strong>в этом поле указывается, какое количество продукта может быть отправлено в одной коробке.</td>
+      <td colspan="1" class="confluenceTd">Целое число (например, 3)</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">metaTags</td>
-      <td colspan="1" class="confluenceTd">Defines the content of &lt;meta name="keywords" content="%value%"&gt; meta tag
+      <td colspan="1" class="confluenceTd">Определяет содержание мета тэга &lt;meta name="keywords" content="%value%"&gt;
       </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multilingual,
-        <br>Max. length: 255&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Мультиязычный,
+        <br>Максимум 255 знаков&nbsp;</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">metaDesc</td>
-      <td colspan="1" class="confluenceTd">Defines the content of &lt;meta name="description" content="%value%"&gt; meta tag</td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multilingual&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Определяет содержание мета тэга &lt;meta name="description" content="%value%"&gt; </td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Мультиязычный&nbsp;</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">metaDescType</td>
       <td colspan="1" class="confluenceTd">
-        <p>Defines meta description content type. Can be either <strong>A </strong>or <strong>C</strong>, where:</p>
+        <p>Определяет тип содержимого мета описания. Может быть <strong>A </strong> или <strong>C</strong>, где:</p>
         <ul>
-          <li><strong>A</strong> stands for automatic mode when meta description will be generated from product description;</li>
-          <li>C stands for custom mode when meta desciption will be taken from <strong>metaDesc_* </strong>field in appropriate translation*;
-            <br>*this means that if the store is in <em>English</em> language, meta description will be taken from <strong>metaDesc_en</strong> field.</li>
+          <li><strong>A</strong>означает автоматический режим, когда мета описание автоматически создается из описания продукта;</li>
+          <li>C означает специфический режим, когда мета описание берется из поля <strong>metaDesc_* </strong> соответствующей языковой версии магазина*;
+            <br>*если язык магазина <em>русский</em> мета описание будет взято из поля <strong>metaDesc_ru</strong>.</li>
         </ul>
       </td>
       <td colspan="1" class="confluenceTd">String,
