@@ -7,33 +7,33 @@ title: 'Импорт CSV: Продукты'
 order: 10
 published: false
 ---
-## Table of Contents
+## Содержание
 
-- [File format](#file-format)
-- [Fields reference](#file-format)
-	* [Tips](#tips)
-- [Updating product variants](#updating-product-variants)
+- [Формат файла](#file-format)
+- [Описание полей файла](#file-format)
+	* [Рекомендации](#tips)
+- [Обновление вариантов продуктов](#updating-product-variants)
 
-## File format
+## Формат файла
 
-A product CSV file for import must have the name **products-xxxxxx.csv**, where the part **-xxxxxx** can be anything you want, or can be even omitted.
+CSV файл импорт продуктов должен иметь определенное название - **products-xxxxxx.csv**. Часть **-xxxxxx.csv** может быть любой, или ее можно совсем убрать.
 
-Examples of correct product CSV file names:
+Примеры верных названий CSV файлов импорта продуктов:
 
 *   products.csv;
 *   products-13-01-01.csv;
 *   products-from-my-provider.csv
 
-A product CSV file must contain at least two fields:
+CSV файл с продуктами должен сдержать как минимум два поля:
 
-1.  **sku** - unique identifier of the product;
-2.  **name** - product name.
+1.  **sku** - уникальный идентификатор продукта;
+2.  **name** - название продукта.
 
-Example of the simplest product CSV file:
+Пример простейшего CSV файла импорта продуктов:
 
 ![Simplest products.csv file]({{site.baseurl}}/attachments/7503877/7602177.png "Simplest products.csv file")
 
-## Fields reference
+## Описание полей файла
 
 There are many more fields which you can include into your product CSV file. Below we provided a list of supported fields and value types accepted by X-Cart via these fields:
 
