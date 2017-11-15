@@ -374,17 +374,17 @@ CSV файл с продуктами должен сдержать как мин
       <td colspan="1" class="confluenceTd">attachmentsPrivate
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>Defines what attachments are private and available after order is paid (e-goods) and what attachments are available right from the product page (modules <strong>Product Attachments</strong> and <strong>E-Goods</strong> must be enabled)
+        <p>Определяет, какие файлы доступны для скачивания только после оплаты заказа (для скачиваемых продуктов), и какие файлы доступны для скачивания прямо на странице продукта (модули <strong>Product Attachments</strong> и <strong>E-Goods</strong> должны быть включены)
         </p>
-        <p>In case of many attachments, you can mark some of them as private and some as publicly available. Multiple values must be separated by &amp;&amp; construction.</p>
-        <p>Example:</p>
+        <p>Если импортируется несколько файлов, одни из них можно пометить как недоступные, а другие - как доступные для скачивания. Записи должны быть разделены символами &amp;&amp;.</p>
+        <p>Пример:</p>
         <ul>
-          <li>Yes (the product has one attachment and it is private)</li>
-          <li>Yes&amp;&amp;No (the product has two attachments, the first is private and the second is public)</li>
+          <li>Yes (у продукта один файл и он доступен только после оплаты)</li>
+          <li>Yes&amp;&amp;No (у продукта два файла, первый доступен для скачивания только после оплаты, второй - в открытом доступе)</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">Yes/No,
-        <br>Multiple&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Да/Нет,
+        <br>Несколько значений&nbsp;</td>
     </tr>
     <tr>
       <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Market Price</strong> module</em>
