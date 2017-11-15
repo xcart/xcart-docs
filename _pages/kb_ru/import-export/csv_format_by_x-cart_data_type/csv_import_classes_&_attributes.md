@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-11-15 11:15 +0400'
 identifier: ref_2tRcco06
-title: 'Импорт CSV:Классы и атрибуты '
+title: 'Импорт CSV: Классы и атрибуты '
 order: 20
 published: true
 ---
