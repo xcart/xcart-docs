@@ -35,95 +35,95 @@ CSV файл с продуктами должен сдержать как мин
 
 ## Описание полей файла
 
-There are many more fields which you can include into your product CSV file. Below we provided a list of supported fields and value types accepted by X-Cart via these fields:
+В CSV файл с продуктами можно включить множество полей:
 
 <table class="ui compact padded celled small table">
   <tbody>
     <tr>
-      <th class="confluenceTh">Field in CSV file</th>
-      <th colspan="1" class="confluenceTh">What this field describes</th>
-      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Value type**' ref_2LwMTTTW %}</th>
+      <th class="confluenceTh">Поле в CSV файле</th>
+      <th colspan="1" class="confluenceTh">Что описывает поле</th>
+      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Тип значения**' ref_2LwMTTTW %}</th>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields supported by <strong>X-Cart core</strong></em>
+      <td colspan="3" class="confluenceTd"><em>Поля <strong>в ядре X-Cart</strong></em>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>sku*</strong></td>
-      <td colspan="1" class="confluenceTd">Unique identifier of the product.</td>
+      <td colspan="1" class="confluenceTd">Уникальный идентификатор продукта.</td>
       <td colspan="1" class="confluenceTd">
-        <p>String,
-          <br>Max. length: 32</p>
+        <p>Текст,
+          <br>Максимум 32 знака</p>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>name*</strong>
       </td>
-      <td colspan="1" class="confluenceTd">Product name.</td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multilingual&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Название продукта.</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Мультиязычный&nbsp;</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">price</td>
-      <td colspan="1" class="confluenceTd">Default product price.</td>
-      <td colspan="1" class="confluenceTd">Float (e.g. 1.00)</td>
+      <td colspan="1" class="confluenceTd">Обычная цена продукта.</td>
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой (пример: 1,00)</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">memberships</td>
       <td colspan="1" class="confluenceTd">
-        <p>Membership types, which members can see the product. Do not set it if you want to make the product visible to all customers. Otherwise it will be visible to the users assigned to specified membership only.
+        <p>Группы покупателей, которым доступен продукт. Не заполняйте это поле, если продукт должен быть доступен всем покупателям.
         </p>
       </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multiple&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Несколько значений&nbsp;</td>
     </tr>
     <tr>
       <td class="confluenceTd">description
       </td>
-      <td colspan="1" class="confluenceTd">Full description of the product.</td>
+      <td colspan="1" class="confluenceTd">Полное описание продукта.</td>
       <td colspan="1" class="confluenceTd">
-        <p>String,
-          <br>Multilingual,
-          <br>HTML allowed&nbsp;</p>
+        <p>Текст,
+          <br>Мультиязычный,
+          <br>Допустим HTML&nbsp;</p>
       </td>
     </tr>
     <tr>
       <td class="confluenceTd">briefDescription
       </td>
-      <td colspan="1" class="confluenceTd">Brief description of the product that is shown on the catalog pages.</td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multilingual,<br>HTML allowed&nbsp;
+      <td colspan="1" class="confluenceTd">Краткое описание продукта, которое отображается на страницах каталога.</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Мультиязычный,<br>Допустим HTML&nbsp;
       </td>
     </tr>
     <tr>
       <td class="confluenceTd">enabled</td>
-      <td colspan="1" class="confluenceTd">Whether product is enabled.</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
+      <td colspan="1" class="confluenceTd">Активирован продукт или нет.</td>
+      <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>
     <tr>
       <td class="confluenceTd">weight</td>
-      <td colspan="1" class="confluenceTd">Product weight.</td>
-      <td colspan="1" class="confluenceTd">Float (e.g. 8.00)</td>
+      <td colspan="1" class="confluenceTd">Вес продукта.</td>
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой (пример: 8,00)</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">shippable</td>
-      <td colspan="1" class="confluenceTd">Whether product can be shipped</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
+      <td colspan="1" class="confluenceTd">Доставляется продукт или нет.</td>
+      <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>
     <tr>
       <td class="confluenceTd">images</td>
       <td colspan="1" class="confluenceTd">
-        <p>For any image that needs to be imported, you need to specify the image location. This can be one of the following:</p>
+        <p>Для каждого изображения, которое нужно импортировать, должно быть указано его расположение. Это может быть:</p>
         <ul>
-          <li>Image URL (can be local to the X-Cart server)</li>
-          <li>Path to the image on the server relative to the <code>&lt;XCART-DIRECTORY&gt;</code> folder; for example, <code>images/product/image1.png</code></li>
+          <li>URL (может быть  на одном сервере с X-Cart)</li>
+          <li>путь к изображению на сервере относительно директории <code>&lt;XCART-DIRECTORY&gt;</code>; например, <code>images/product/image1.png</code></li>
         </ul>
-        <p>Note that import of images takes considerably less time if the images to be imported are stored locally on the server. It doesn't matter if image path is specified as URL or filepath — X-Cart will try to detect if the URL is local to the server. So, if you need to import a considerable number of images from URLs, you can speed up the process quite a bit simply by saving those images locally on the server inside <code>&lt;XCART-DIRECTORY&gt;/images</code> folder.</p>
+        <p>Обратите внимание, что импорт изображений проходит значительно быстрее, если изображения хранятся на том же сервере, где установлен X-Cart. Не важно, указано ли расположения файла как URL или как путь, X-Cart попытается определить, находится ли изображение  на одном с ним сервере. Если вам нужно импортировать большое количество изображений по URL,  вы ускорите процесс, сохранив изображения на одном сервере с магазином в директории <code>&lt;XCART-DIRECTORY&gt;/images</code>.</p>
         <br/>
-        <p>Also, it is possible to specify more than one images for import by separating the image paths with the '&amp;&amp;' symbols; for example, images/product/image1.png&amp;&amp;images/product/images2.png.</p>
+        <p>Также, можно выбрать несколько изображений для импорта, разделив пути к файлам символами '&amp;&amp;'; например, images/product/image1.png&amp;&amp;images/product/images2.png.</p>
       </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multiple&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Несколько значений&nbsp;</td>
     </tr>
     <tr>
       <td class="confluenceTd">imagesAlt</td>
