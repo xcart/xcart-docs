@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-14 16:34 +0400'
+updated_at: '2017-11-15 11:42 +0400'
 identifier: ref_IbLL2XAb
 title: Формат CSV файла для разных видов данных
 order: 20
@@ -10,7 +10,7 @@ published: true
 С помощью CSV файла в X-Cart можно импортировать несколько видов информации:
 
 *   {% link "Продукты" ref_WmJBfwxA %};
-*   {% link "Классы и атрибуты" ref_qTbDu6Ov %};
+*   {% link "Классы и атрибуты" ref_2tRcco06 %};
 *   {% link "Значения атрибутов продуктов" ref_Z7XdREZl %};
 *   {% link "Категории" ref_un5K5sCZ %};
 *   {% link "Покупатели" ref_1dudPSA4 %};
