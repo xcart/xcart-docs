@@ -250,8 +250,8 @@ CSV файл с продуктами должен сдержать как мин
             <br>*если язык магазина <em>русский</em> мета описание будет взято из поля <strong>metaDesc_ru</strong>.</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Max. length: 1&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Максимум 1 знак&nbsp;</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">metaTitle</td>
