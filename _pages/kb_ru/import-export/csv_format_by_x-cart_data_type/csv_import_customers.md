@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-14 13:20 +0400'
+updated_at: '2017-11-15 12:05 +0400'
 identifier: ref_1dudPSA4
 title: 'Импорт CSV: Покупатели'
 order: 50
@@ -15,7 +15,7 @@ published: true
     <tr>
       <th class="confluenceTh">Поле в CSV файле</th>
       <th colspan="1" class="confluenceTh">Что описывает поле</th>
-      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Значение поля' ref_2LwMTTTW %}</th>
+      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Тип значения' ref_2LwMTTTW %}</th>
     </tr>
   </thead>
   <tbody>
@@ -130,4 +130,3 @@ published: true
 **Рекомендации**: 
 
 *   Если вы собираетесь импортировать данные в X-Cart и не хотите обновлять определенные поля во время импорта, эти поля не нужно вносить в CSV файл импорта. Просто удалите соответствующие столбцы из файла.
-
