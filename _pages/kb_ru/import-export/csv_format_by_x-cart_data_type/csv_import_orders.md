@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-14 15:19 +0400'
+updated_at: '2017-11-15 12:17 +0400'
 identifier: ref_BhDJ3y0W
 title: 'Импорт CSV: Заказы'
 order: 60
@@ -174,7 +174,7 @@ published: true
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemPrice*</strong></td>
       <td colspan="1" class="confluenceTd">Розничная цена продукта.</td>
-      <td colspan="1" class="confluenceTd">Плавающая величина,<br>Несколько рядов</td>
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой,<br>Несколько рядов</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemQuantity*</strong></td>
@@ -184,17 +184,17 @@ published: true
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemSubtotal*</strong></td>
       <td colspan="1" class="confluenceTd">Промежуточная стоимость продукта (без учета наценок).</td>
-      <td colspan="1" class="confluenceTd">Плавающая величина,<br>Несколько рядов</td>
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой,<br>Несколько рядов</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemTotal*</strong></td>
       <td colspan="1" class="confluenceTd">Полная стоимость продукта.</td>
-      <td colspan="1" class="confluenceTd">Плавающая величина,<br>Несколько рядов</td>
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой,<br>Несколько рядов</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>subtotal*</strong></td>
       <td colspan="1" class="confluenceTd">Промежуточная сумма заказа (без учета наценок).</td>
-      <td colspan="1" class="confluenceTd">Плавающая величина</td>
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой</td>
     </tr>
     <tr>
       <td colspan="3" class="confluenceTd">Наценки на заказы. В каждом поле наценки указан код наценки (большими буквами) и суффикс наценки. Пример наценки на заказ можно увидеть в двух следующих поля. В зависимости от конфигурации вашего магазина, такие же поля могут быть представлены или нет.</td>
@@ -202,17 +202,17 @@ published: true
     <tr>
       <td colspan="1" class="confluenceTd">DISCOUNT (surcharge)</td>
       <td colspan="1" class="confluenceTd">Абсолютная величина скидки на заказ. Пример: -100. Это означает, что на заказ действует скидка RUB100, если валюта заказа - RUB.</td>
-      <td colspan="1" class="confluenceTd">Плавающая величина</td>
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">SHIPPING (surcharge)</td>
       <td colspan="1" class="confluenceTd">Наценка на доставку. Пример: 150.</td>
-      <td colspan="1" class="confluenceTd">Плавающая величина</td>
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой</td>
     </tr>    
     <tr>
       <td colspan="1" class="confluenceTd"><strong>total*</strong></td>
       <td colspan="1" class="confluenceTd">Полная сумма заказа со всеми доплатами.</td>
-      <td colspan="1" class="confluenceTd">Плавающая величина</td>
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>currency*</strong></td>
@@ -256,7 +256,7 @@ published: true
     <tr>
       <td colspan="1" class="confluenceTd"><strong>paymentTransactionValue*</strong></td>
       <td colspan="1" class="confluenceTd">Сумма транзакции.</td>
-      <td colspan="1" class="confluenceTd">Плавающая величина</td>
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">paymentTransactionNote</td>
@@ -409,4 +409,3 @@ published: true
 **Рекомендации**:
 
 *   Если вы собираетесь импортировать данные в X-Cart и не хотите обновлять определенные поля во время импорта, эти поля не нужно вносить в CSV файл импорта. Просто удалите соответствующие столбцы из файла.
-
