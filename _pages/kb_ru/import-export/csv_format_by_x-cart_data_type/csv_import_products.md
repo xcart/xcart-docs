@@ -332,20 +332,20 @@ CSV файл с продуктами должен сдержать как мин
     <tr>
       <td colspan="1" class="confluenceTd">attachmentsTitle</td>
       <td colspan="1" class="confluenceTd">
-        <p>Defines the titles of attachment files.</p>
-        <p>This field supports titles for many attachments and they must be separated by &amp;&amp; construction.</p>
-        <p>Examples:</p>
+        <p>Определяет заголовки приложенных файлов.</p>
+        <p>Можно указать названия множества файлов, они должны быть разделены символами &amp;&amp;.</p>
+        <p>Пример:</p>
         <ul>
-          <li>User manual (title of 1 attachment)</li>
-          <li>User manual&amp;&amp;Tech spec (title of 2 attachments)
+          <li>Руководство пользователя (название 1 файла)</li>
+          <li>Руководство пользователя&amp;&amp;Техническая документация (названия 2 файлов)
           </li>
         </ul>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>String,
-          <br>Multiple,
-          <br>Multilingual,
-          <br>Max. length: 128&nbsp;</p>
+        <p>Текст,
+          <br>Несколько значений,
+          <br>Мультиязычный,
+          <br>Максимум 128 знаков&nbsp;</p>
       </td>
     </tr>
     <tr>
@@ -353,21 +353,21 @@ CSV файл с продуктами должен сдержать как мин
         <p>attachmentsDescription</p>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>Defines the description of attachments file.</p>
-        <p>This field supports descriptions for many attachments and they must be separated by &amp;&amp; construction.
+        <p>Определяет описание приложенных файлов.</p>
+        <p>Можно указать описания множества файлов, они должны быть разделены символами &amp;&amp;.
         </p>
-        <p>Examples:</p>
+        <p>Пример:</p>
         <ul>
-          <li>This is a user manual for the product (description for 1 attachment)</li>
-          <li>This is a user manual for the product&amp;&amp;This is a tech spec for the product (description for 2 attachments)</li>
+          <li>Это руководство пользователя по продукту (описание 1 файла)</li>
+          <li>Это руководство пользователя по продукту&amp;&amp;Это техническая документация по продукту (описания 2 файлов)</li>
         </ul>
       </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multiple,
-        <br>Multilingual&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Несколько значений,
+        <br>Мультиязычный&nbsp;</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>E-Goods</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Поля, добавленные модулем <strong>E-Goods</strong> </em>
       </td>
     </tr>
     <tr>
