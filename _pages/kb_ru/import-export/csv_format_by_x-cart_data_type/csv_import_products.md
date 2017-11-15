@@ -438,98 +438,98 @@ CSV файл с продуктами должен сдержать как мин
       <td colspan="1" class="confluenceTd">variantSKU</td>
       <td colspan="1" class="confluenceTd">Артикул варианта продукта (если не указан, берется артикул продукта)
       </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Max. length: 32,
-        <br>Multirow&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Максимум 32 знака,
+        <br>Несколько строк&nbsp;</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">variantPrice</td>
-      <td colspan="1" class="confluenceTd">Product variant price (if empty, takes price from parent product)</td>
-      <td colspan="1" class="confluenceTd">Float,
-        <br>Multirow&nbsp;
+      <td colspan="1" class="confluenceTd">Цена варианта продукта (если не указана, берется цена продукта)</td>
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой,
+        <br>Несколько строк&nbsp;
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">variantQuantity</td>
-      <td colspan="1" class="confluenceTd">Product variant quantity (if empty, takes quantity from parent product)
+      <td colspan="1" class="confluenceTd">Количество варианта продукта (если не указано, берется количество продукта)
       </td>
-      <td colspan="1" class="confluenceTd">Integer,
-        <br>Multirow&nbsp;
+      <td colspan="1" class="confluenceTd">Целое число,
+        <br>Несколько строк&nbsp;
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">variantWeight</td>
-      <td colspan="1" class="confluenceTd">Product variant weight (if empty, takes weight from parent product)
+      <td colspan="1" class="confluenceTd">Вес варианта продукта (если не указан, берется вес продукта)
       </td>
-      <td colspan="1" class="confluenceTd">Float,
-        <br>Multirow&nbsp;
+      <td colspan="1" class="confluenceTd">Число с плавающей запятой,
+        <br>Несколько строк&nbsp;
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">variantImage</td>
-      <td colspan="1" class="confluenceTd">Product variant image location</td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multirow&nbsp;
+      <td colspan="1" class="confluenceTd">Расположение изображения варианта продукта</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Несколько строк&nbsp;
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">variantImageAlt</td>
-      <td colspan="1" class="confluenceTd">Product variant image alt text</td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Max. length: 32,
-        <br>Multirow&nbsp;
+      <td colspan="1" class="confluenceTd">Альтернативный текст для изображения варианта продукта</td>
+      <td colspan="1" class="confluenceTd">Текст,
+        <br>Максимум 32 знака,
+        <br>Несколько строк&nbsp;
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Wholesale</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Поля, добавленные модулем  <strong>Wholesale</strong> </em>
       </td>
     </tr>
     <tr>
       <td class="confluenceTd">wholesalePrices</td>
       <td class="confluenceTd">
-        <p>Defines wholesale prices for the product.</p>
-        <p>Examples:</p>
+        <p>Определяет оптовые цены на продукт.</p>
+        <p>Примеры:</p>
         <ol>
-          <li>You want to set up price tiers as follows:
-            <br>If a customer buys from 1 to 5 items, each item will cost $50
-            <br>If they buy from 6 items, then the price will be $45<br><br>Then you would need to specify this system as follows in the CSV file:<br><strong>1-5=50.00&amp;&amp;6=45.00</strong>&nbsp;
+          <li>Необходимо задать диапазон цен:
+            <br>При покупке 1-5 единиц, цена за единицу - RUB 300
+            <br>При покупке 6 и более единиц, цена за единицу - RUB 250<br><br>В CSV файле эти условия должны быть записаны таким образом:<br><strong>1-5=300&amp;&amp;6=250</strong>&nbsp;
             <br><br>
           </li>
-          <li>You want to set up price tiers as follows:<br>If a customer buys from 1 to 5 items, each item will cost $50
-            <br>If they buy from 6 items, then the price will be $45<br>If a customer with Wholesaler membership buys from 3 items, then the price will be $40&nbsp;<br><br>Then you would need to specify this system as follows in the CSV file:
-            <br>&nbsp;<strong>1-5=50.00&amp;&amp;6=45.00&amp;&amp;3(Wholesaler)=40.00</strong>
+          <li>Необходимо задать диапазон цен:<br>При покупке 1-5 единиц, цена за единицу - RUB 300
+            <br>При покупке 6 и более единиц, цена за единицу - RUB 250<br>При покупке 3 и более единиц оптовым покупателем, цена за единицу - RUB 200&nbsp;<br><br>В CSV файле эти условия должны быть записаны таким образом:
+            <br>&nbsp;<strong>1-5=300&amp;&amp;6=250&amp;&amp;3(оптовый покупатель)=200</strong>
             
             
           </li>
         </ol>
       </td>
-      <td class="confluenceTd">String,
-        <br>Multiple&nbsp;</td>
+      <td class="confluenceTd">Текст,
+        <br>Несколько значений&nbsp;</td>
     </tr>
     <tr>
       <td class="confluenceTd">variantWholesalePrices</td>
       <td class="confluenceTd">
-        <p>Defines wholesale prices for the product variant.
+        <p>Определяет оптовые цены на варианты продуктов.
         </p>
-        <p><strong>Product Variants</strong> module must be enabled.</p>
+        <p><strong>Модуль Product Variants</strong> должен быть включен.</p>
       </td>
-      <td class="confluenceTd">String,
-        <br>Multiple,
-        <br>Multirow&nbsp;</td>
+      <td class="confluenceTd">Текст,
+        <br>Несколько значений,
+        <br>Несколько строк&nbsp;</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>System Fields</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Поля, добавленные модулем <strong>System Fields</strong></em>
       </td>
     </tr>
     <tr>
       <td class="confluenceTd">upcIsbn</td>
-      <td class="confluenceTd">UPC/ISBN code</td>
-      <td class="confluenceTd">String,
-        <br>Max. length: 32&nbsp;</td>
+      <td class="confluenceTd">Универсальный товарный код / Международный стандартный книжный номер</td>
+      <td class="confluenceTd">Текст,
+        <br>Максимум 32 знака&nbsp;</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">mnfVendor</td>
-      <td colspan="1" class="confluenceTd">Manufacturer of the product</td>
+      <td colspan="1" class="confluenceTd">Производитель продукта</td>
       <td colspan="1" class="confluenceTd">String,
         <br>Max. length: 64&nbsp;</td>
     </tr>
