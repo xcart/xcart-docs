@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-16 16:36 +0400'
+updated_at: '2017-11-16 21:42 +0400'
 identifier: ref_EtW6xbAl
 title: Создание цифровых продуктов
 order: 90
@@ -22,6 +22,6 @@ published: true
     ![5.jpg]({{site.baseurl}}/attachments/ref_EtW6xbAl/5.jpg)
 
 5.  Нажмите на переключатель слева от названия файла. Статус **Платный** означает, что файл будет доступен для скачивания только после покупки продукта, **Бесплатный** - в свободном доступе. Установите статус **Платный** и нажмите **Сохранить**.
-    ![6.jpg]({{site.baseurl}}/attachments/ref_EtW6xbAl/6.jpg)
+    ![61.jpg]({{site.baseurl}}/attachments/ref_EtW6xbAl/61.jpg)
     Файл будет доступен покупателям после оплаты заказа.
     ![]({{site.baseurl}}/attachments/6389800/6586454.png)
