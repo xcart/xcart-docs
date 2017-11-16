@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-16 13:22 +0400'
+updated_at: '2017-11-16 14:42 +0400'
 identifier: ref_inLgAwMe
 title: 'Импорт CSV: Продукты'
 order: 10
@@ -42,7 +42,7 @@ CSV файл с продуктами должен сдержать как мин
     <tr>
       <th class="confluenceTh">Поле в CSV файле</th>
       <th colspan="1" class="confluenceTh">Что описывает поле</th>
-      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Тип значения**' ref_2LwMTTTW %}</th>
+      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Тип значения**' ref_lKATu9rT %}</th>
     </tr>
     <tr>
       <td colspan="3" class="confluenceTd"><em>Поля <strong>в ядре X-Cart</strong></em>
@@ -581,7 +581,7 @@ CSV файл с продуктами должен сдержать как мин
 
 <sub>* Обязательное поле</sub>
 
-<sub markdown="1">** Дополнительная информация {% link "CSV field attributes" ref_2LwMTTTW %}.</sub>
+<sub markdown="1">** Дополнительная информация {% link "Атрибуты полей CSV файла" ref_lKATu9rT %}.</sub>
 
 ### Рекомендации:
 
