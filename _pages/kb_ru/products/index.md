@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-27 23:56 +0400'
+updated_at: '2017-11-16 16:27 +0400'
 identifier: ref_TgqWAeT7
 title: Продукты
 order: 40
@@ -20,5 +20,5 @@ _In this section:_
 *   {% link "Enabling the «Coming soon» block" ref_hQnN8cAT %}
 *   {% link "Enabling the Bestsellers block" ref_p1CIVmy6 %}
 *   {% link "Enabling product comparison" ref_xWLlmcLL %}
-*   {% link "Adding digital goods" ref_lxNH6TFr %}
+*   {% link "Создание цифровых продуктов" ref_EtW6xbAl %}
 *   {% link "Setting up wholesale prices and minimum purchase quantites for different membership levels" ref_ttZa4qgu %}
