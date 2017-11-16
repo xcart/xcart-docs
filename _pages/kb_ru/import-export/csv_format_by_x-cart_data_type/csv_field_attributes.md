@@ -37,7 +37,7 @@ published: true
           <br><strong>Дата</strong> указывается в <strong>php формате</strong> <code>strtotime()</code>.</p>
       </td>
       <td class="confluenceTd">
-        <p>Какой-то текст <span style="color: rgb(153,153,153);">(Текст)</span>
+        <p>Текст <span style="color: rgb(153,153,153);">(Текст)</span>
           <br>100 <span style="color: rgb(153,153,153);">(Целое число)</span>
           <br>0,39 <span style="color: rgb(153,153,153);">(Число с плавающей запятой)<br><span style="color: rgb(0,0,0);">1 января 2013</span> (Дата)
           <br>
