@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-09 14:58 +0400'
+updated_at: '2017-11-16 21:55 +0400'
 identifier: ref_UbbrzsCH
 title: Доставка нематериальных продуктов
 order: 70
@@ -13,4 +13,4 @@ published: true
 
 _Дополнительная информация:_
 
-*   {% link "Adding digital goods" ref_lxNH6TFr %}
+*   {% link "Создание нематериальных продуктов" ref_EtW6xbAl %}
