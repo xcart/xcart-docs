@@ -267,7 +267,7 @@ CSV файл с продуктами должен сдержать как мин
       <td class="confluenceTd">
         <p>Определяет класс атрибута продукта. Дополнительная информация:</p>
         <ul>
-          <li markdown="1">{% link "Импорт CSV: Классы и атрибуты" ref_2tRcco06 %}</li>
+          <li markdown="span">{% link "Импорт CSV: Классы и атрибуты" ref_2tRcco06 %}</li>
         </ul>
       </td>
       <td class="confluenceTd">Текст</td>
