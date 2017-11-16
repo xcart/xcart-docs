@@ -13,7 +13,7 @@ published: true
 *   {% link "Импорт CSV: Классы и атрибуты" ref_2tRcco06 %}
 *   {% link "Импорт CSV: Значения атрибутов продуктов" ref_gc6c4yTb %}
 *   {% link "Импорт CSV: Категории" ref_un5K5sCZ %}
-*   {% link "Импорт CSV: Покупатели" м %}
+*   {% link "Импорт CSV: Покупатели" ref_1dudPSA4 %}
 
 <table class="ui celled padded compact small table">
   <thead>
