@@ -37,63 +37,63 @@ published: false
           <br><strong>Дата</strong> указывается в <strong>php формате</strong> <code>strtotime()</code>.</p>
       </td>
       <td class="confluenceTd">
-        <p>Some text <span style="color: rgb(153,153,153);">(String)</span>
-          <br>100 <span style="color: rgb(153,153,153);">(Integer)</span>
-          <br>0.39 <span style="color: rgb(153,153,153);">(Float)<br><span style="color: rgb(0,0,0);">1 Jan 2013</span> (Date)
+        <p>Какой-то текст <span style="color: rgb(153,153,153);">(Текст)</span>
+          <br>100 <span style="color: rgb(153,153,153);">(Целое число)</span>
+          <br>0,39 <span style="color: rgb(153,153,153);">(Число с плавающей запятой)<br><span style="color: rgb(0,0,0);">1 января 2013</span> (Дата)
           <br>
-          </span><span style="color: rgb(153,153,153);"><span style="color: rgb(0,0,0);">Yes</span> (Yes/No)&nbsp;</span>
+          </span><span style="color: rgb(153,153,153);"><span style="color: rgb(0,0,0);">Yes</span> (Да/Нет)&nbsp;</span>
         </p>
       </td>
     </tr>
     <tr>
-      <td class="confluenceTd">Max. length</td>
-      <td class="confluenceTd">The field has a limit on the number of characters that can be entered into it.</td>
-      <td class="confluenceTd">Max. length: 32
-        <br><span style="color: rgb(153,153,153);">(This means that the field can be 32 chars long max)</span>
+      <td class="confluenceTd">Максимальная длина поля</td>
+      <td class="confluenceTd">Существует ограничение по количеству знаков в поле.</td>
+      <td class="confluenceTd">Максимум 32 знака
+        <br><span style="color: rgb(153,153,153);">(т.е. поле может содержать не более 32 символов)</span>
       </td>
     </tr>
     <tr>
-      <td class="confluenceTd">Multilingual</td>
-      <td class="confluenceTd">The field contains language labels. Fields with this attribute are language-specific, and their names are formed according to the format <code>&lt;field&gt;_&lt;language&gt;</code> (for example, <strong>name_en</strong>). A single CSV file may contain multiple columns with the same field name but different languages (for example. <strong>name_en</strong>, <strong>name_ru</strong>, <strong>name_de</strong>).</td>
-      <td class="confluenceTd">n/a</td>
+      <td class="confluenceTd">Мультиязычность</td>
+      <td class="confluenceTd">В поле указаны языковые метки. Поля с этим атрибутом уникальны для разных языков, и их названия составляются в формате <code>&lt;поле&gt;_&lt;язык&gt;</code> (например, <strong>name_ru</strong>). В одном CSV файле может быть несколько полей с одним и тем же названием, но на разнных языках (например, <strong>name_en</strong>, <strong>name_ru</strong>, <strong>name_de</strong>).</td>
+      <td class="confluenceTd"></td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd">HTML allowed</td>
-      <td colspan="1" class="confluenceTd">The field may contain HTML tags for layouting. Most typically, there is a WYSIWYG editor in the Admin back end for this field.</td>
-      <td colspan="1" class="confluenceTd">&lt;h5&gt;It's HTML TEXT!&lt;/h5&gt;</td>
+      <td colspan="1" class="confluenceTd">Допускается HTML</td>
+      <td colspan="1" class="confluenceTd">Поле может содержать html теги, необходимые для разметки. Обычно, в панели управления магазина есть редактор WYSIWYG для работы с этим полем.</td>
+      <td colspan="1" class="confluenceTd">&lt;h5&gt;Это HTML текст!!&lt;/h5&gt;</td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd">Scripting allowed&nbsp;</td>
-      <td colspan="1" class="confluenceTd">The field may contain anything, even &lt;script&gt; tags.</td>
-      <td colspan="1" class="confluenceTd">n/a</td>
+      <td colspan="1" class="confluenceTd">Допускается выполнение скриптов&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Поле может содержать тэги &lt;script&gt;.</td>
+      <td colspan="1" class="confluenceTd"></td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd">Multiple</td>
-      <td colspan="1" class="confluenceTd">This attribute shows that the field can have multiple values. You must separate each value with<strong> '&amp;&amp;' </strong>symbol.</td>
-      <td colspan="1" class="confluenceTd">Wholesaler&amp;&amp;Clubmember</td>
+      <td colspan="1" class="confluenceTd">Множество значений</td>
+      <td colspan="1" class="confluenceTd">Атрибут показывает, что в поле возможны несколько значений. Значения должны быть отделены друг от друга разделителем <strong> '&amp;&amp;' </strong>.</td>
+      <td colspan="1" class="confluenceTd">Оптовый покупатель&amp;&amp;Член клуба</td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd">Multirow</td>
-      <td colspan="1" class="confluenceTd">The field may contain multiple rows of values. Each multirow value must be vertically adjacent.</td>
+      <td colspan="1" class="confluenceTd">Множество строк</td>
+      <td colspan="1" class="confluenceTd">В поле возможны несколько строк со значениями. Каждое многострочное значение выравнивается вертикально.</td>
       <td colspan="1" class="confluenceTd">
         <div class="table-wrap">
           <table class="confluenceTable">
             <tbody>
               <tr>
-                <td class="confluenceTd">SKU1</td>
-                <td class="confluenceTd">Variant1</td>
+                <td class="confluenceTd">Артикул1</td>
+                <td class="confluenceTd">Вариант1</td>
               </tr>
               <tr>
                 <td class="confluenceTd">&nbsp;</td>
-                <td class="confluenceTd">Variant2</td>
+                <td class="confluenceTd">Вариант2</td>
               </tr>
               <tr>
                 <td class="confluenceTd">&nbsp;</td>
-                <td class="confluenceTd">Variant3</td>
+                <td class="confluenceTd">Вариант3</td>
               </tr>
               <tr>
-                <td colspan="1" class="confluenceTd">SKU2</td>
-                <td colspan="1" class="confluenceTd">Variant1</td>
+                <td colspan="1" class="confluenceTd">Артикул2</td>
+                <td colspan="1" class="confluenceTd">Вариант1</td>
               </tr>
             </tbody>
           </table>
