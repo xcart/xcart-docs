@@ -267,7 +267,7 @@ CSV файл с продуктами должен сдержать как мин
       <td class="confluenceTd">
         <p>Определяет класс атрибута продукта. Дополнительная информация:</p>
         <ul>
-          <li><a href="/display/XDD/Product+classes+and+attributes">Product classes and attributes</a>
+          <li><a href="/display/XDD/Классы+и+атрибуты">Классы и атрибуты</a>
           </li>
         </ul>
       </td>
