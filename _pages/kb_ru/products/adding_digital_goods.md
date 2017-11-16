@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-11-16 21:42 +0400'
 identifier: ref_EtW6xbAl
-title: Создание цифровых продуктов
+title: Создание нематериальных продуктов
 order: 90
 published: true
 ---
