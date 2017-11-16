@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-16 14:42 +0400'
+updated_at: '2017-11-16 15:05 +0400'
 identifier: ref_inLgAwMe
 title: 'Импорт CSV: Продукты'
 order: 10
@@ -267,8 +267,7 @@ CSV файл с продуктами должен сдержать как мин
       <td class="confluenceTd">
         <p>Определяет класс атрибута продукта. Дополнительная информация:</p>
         <ul>
-          <li><a href="/display/XDD/Классы+и+атрибуты">Классы и атрибуты</a>
-          </li>
+          <li markdown="1">{% link "Импорт CSV: Классы и атрибуты" ref_2tRcco06 %}</li>
         </ul>
       </td>
       <td class="confluenceTd">Текст</td>
