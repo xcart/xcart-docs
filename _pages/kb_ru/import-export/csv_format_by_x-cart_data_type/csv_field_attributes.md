@@ -7,34 +7,34 @@ title: Атрибуты полей CSV файла
 order: 70
 published: false
 ---
-Below is an explanation of some attributes that we use to describe specific fields in an import CSV file from the viewpoint of value type that can be imported through them. Use this information to read the CSV format tables in the following sections:
+Данная таблица представляет атрибуты, используемые для описания полей CSV файла импорта с точки зрения типа импортируемых значений. Эта информация будет полезна при прочтении следующих разделов:
 
-*   {% link "CSV import: Products" ref_WmJBfwxA %}
-*   {% link "CSV import: Classes & Attributes" ref_qTbDu6Ov %}
-*   {% link "CSV import: Product attribute values" ref_Z7XdREZl %}
-*   {% link "CSV import: Categories" ref_ekmg5iLG %}
-*   {% link "CSV import: Customers" ref_JobVfzZg %}
+*   {% link "Импорт CSV: Продукты" ref_inLgAwMe %}
+*   {% link "Импорт CSV: Классы и атрибуты" ref_2tRcco06 %}
+*   {% link "Импорт CSV: Значения атрибутов продуктов" ref_gc6c4yTb %}
+*   {% link "Импорт CSV: Категории" ref_un5K5sCZ %}
+*   {% link "Импорт CSV: Покупатели" м %}
 
 <table class="ui celled padded compact small table">
   <thead>
     <tr class="sortableHeader">
       <th class="confluenceTh sortableHeader" data-column="0">
-        <div class="tablesorter-header-inner">Field attribute</div>
+        <div class="tablesorter-header-inner">Атрибут поля</div>
       </th>
       <th class="confluenceTh sortableHeader" data-column="1">
-        <div class="tablesorter-header-inner">Description</div>
+        <div class="tablesorter-header-inner">Описание</div>
       </th>
       <th class="confluenceTh sortableHeader" data-column="2">
-        <div class="tablesorter-header-inner">Example</div>
+        <div class="tablesorter-header-inner">Пример</div>
       </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="confluenceTd">Value format</td>
+      <td class="confluenceTd">Формат значения</td>
       <td class="confluenceTd">
-        <p>The format you need to follow when setting a value for the field. The most common formats are <strong>String, Integer, Float, Yes/No (Boolean), Enum </strong>and <strong>Date</strong>.
-          <br><strong>Date</strong> is specified in <strong>php</strong> <code>strtotime()</code> format.</p>
+        <p>Формат, в котором задается значение поля. К типовым форматам относятся <strong>Текст, Целое число, Число с плавающей запятой, Да/Нет (логическое значение), Значение перечислимого типа </strong>и <strong>Датта</strong>.
+          <br><strong>Дата</strong> указывается в <strong>php формате</strong> <code>strtotime()</code>.</p>
       </td>
       <td class="confluenceTd">
         <p>Some text <span style="color: rgb(153,153,153);">(String)</span>
