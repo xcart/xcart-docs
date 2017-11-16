@@ -1,14 +1,5 @@
 ---
-lang: ru
-layout: article_with_sidebar
-updated_at: '2017-11-16 16:27 +0400'
-identifier: ref_TgqWAeT7
-title: Продукты
-order: 40
-published: true
-icon: cube
-categories:
-  - home
+identifier: ref_C02NSwZG
 ---
 _In this section:_
 
