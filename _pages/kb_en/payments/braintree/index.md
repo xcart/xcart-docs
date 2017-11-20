@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-11-20 15:10 +0400'
 identifier: ref_3U96LOWn
 title: Braintree
-order: 100
+order: 400
 published: true
 ---
 An X-Cart store can be integrated with [Braintree, A PayPal Service](https://www.braintreepayments.com/). Currently, there are two Braintree integration modules available in the X-Cart Marketplace:
