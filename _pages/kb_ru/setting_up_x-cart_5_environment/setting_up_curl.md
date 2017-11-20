@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-20 11:28 +0400'
+updated_at: '2017-11-20 13:02 +0400'
 identifier: ref_7acvbbTA
 title: Настройка cURL
 order: 30
@@ -15,8 +15,8 @@ published: true
 
 ## Содержание
 
-*   [cURL не работает на сервере](#curl----)
-*   [cURL не работает на локальном компьютере](#curl-----)
+*   [cURL не работает на сервере](#curl-не-работает-на-сервере)
+*   [cURL не работает на локальном компьютере](#curl-не-работает-на-локальном-компьютере)
     *   [Windows + XAMPP](#windows--xampp)
     *   [Ubuntu/Debian + Apache](#ubuntudebian--apache)
     
