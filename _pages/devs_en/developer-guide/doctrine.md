@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-10-30 15:07 +0400'
+updated_at: '2017-11-20 14:24 +0400'
 identifier: ref_uAv5ETfx
 title: ''
 order: 100
@@ -52,4 +52,25 @@ If you want to pull a model that does not exist in the core, but it is defined i
 
 ```php
 $product = \XLite\Core\Database::getRepo('XLite\Module\XC\ProductVariants\Model\ProductVariant')->find($productVariantId);
+```
+
+## Pulling a collection of objects
+
+If we want to pull all products we would call:
+
+```php
+$products = \XLite\Core\Database::getRepo('XLite\Model\Product')->findAll();
+foreach ($products as $product) {
+    echo $product->getName();
+}
+```
+
+The same result can be achieved like this:
+
+```php
+$products = \XLite\Core\Database::getRepo('XLite\Model\Product')->createQueryBuilder()->getResult();
+
+foreach ($products as $product) {
+    echo $product->getName();
+}
 ```
