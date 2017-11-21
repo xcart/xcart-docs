@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-21 11:41 +0400'
+updated_at: '2017-11-21 11:47 +0400'
 identifier: ref_DckDPR4v
 title: Настройка окружения для X-Cart 5
 order: 10
@@ -14,6 +14,5 @@ icon: server
 
 *   {% link "Настройка временного лимита на сервере" ref_DGK9HJBw %};
 *   {% link "Настройка безопасности сервера" ref_qbhWb6Bn %};
-*   Настройка серера для работы с Маркетплейсом X-Cart: 
+*   Настройка сервера для работы с Маркетплейсом X-Cart: 
     *   {% link "Настройка cURL" ref_7acvbbTA %};
-    
