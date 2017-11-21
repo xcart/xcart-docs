@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-21 13:09 +0400'
+updated_at: '2017-11-21 13:20 +0400'
 identifier: ref_7IDJJdrM
 title: Настройка семантических ссылок
 order: 20
@@ -60,7 +60,7 @@ LoadModule rewrite_module modules/mod_rewrite.so
 
 ## Настройка nginx
 
-Строки ниже должны быть внесены в [секцию server {}](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) файла конфигурации nginx (`nginx.conf`):
+Строки ниже должны быть внесены в [секцию server {}](http://nginx.org/ru/docs/http/ngx_http_core_module.html#server) файла конфигурации nginx (`nginx.conf`):
 
 ```php
 ## Example nginx configuration (X-Cart 5.3.2+)
