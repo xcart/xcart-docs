@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-20 12:56 +0400'
+updated_at: '2017-11-21 13:35 +0400'
 identifier: ref_oNqyWK0N
 title: Работа с классами продуктов
 order: 10
@@ -96,8 +96,4 @@ published: true
     ![15.jpg]({{site.baseurl}}/attachments/ref_oNqyWK0N/15.jpg)
     Класс продуктов удален из списка.
 
-_Дополнительная информация:_
 
-*   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
-*   {% link "Managing product class attributes" ref_kEKoAxJB %}
