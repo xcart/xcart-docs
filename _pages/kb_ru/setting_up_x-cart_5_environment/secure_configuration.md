@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-20 10:23 +0400'
+updated_at: '2017-11-21 11:57 +0400'
 identifier: ref_qbhWb6Bn
 title: Настройка безопасности сервера
 order: 70
@@ -23,7 +23,7 @@ published: true
 
 ## Специфические настройки, связанные с Nginx
 
-Необходимо закрыть веб-доступ к некоторым директориям посредством следующих директив из секции [server {}](http://nginx.org/en/docs/http/ngx_http_core_module.html#server "Настройка безопасности сервера").
+Необходимо закрыть веб-доступ к некоторым директориям посредством следующих директив из секции [server {}](http://nginx.org/ru/docs/http/ngx_http_core_module.html#server "Настройка безопасности сервера").
 
 ```
 location ^~ /classes {
