@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-19 17:36 +0400'
+updated_at: '2017-11-21 11:51 +0400'
 identifier: ref_DGK9HJBw
 title: Настройка временного лимита на сервере
 order: 20
@@ -29,7 +29,7 @@ published: true
 
 Установите значение 300 для параметра **request_terminate_timeout** в файле **php-fpm.conf** и перезапустите веб-сервер.
 
-В этой [статье](http://www.php.net/manual/en/install.fpm.configuration.php "Настройка временного лимита на сервере") вы найдете информацию о **php-fpm**.
+В этой [статье](http://www.php.net/manual/ru/install.fpm.configuration.php "Настройка временного лимита на сервере") вы найдете информацию о **php-fpm**.
 
 ## Nginx в качестве прокси
 
