@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-01 13:21 +0400'
+updated_at: '2017-11-21 13:27 +0400'
 identifier: ref_pXBwGdtu
 title: Классы и атрибуты продуктов
 order: 50
@@ -32,20 +32,7 @@ icon: table
 
 *   {% link "Типы атрибутов продуктов по области применения" ref_XEdis9sU %}
 
-Дополнительная информация о разных типах атрибутов:
-
-*   {% link "Managing product-specific attributes" ref_d4ktum3z %}
-*   {% link "Managing product class attributes" ref_kEKoAxJB %}
-*   {% link "Managing global attributes" ref_HzMkgc0q %}
-
 Дополнительная информация о значениях атрибутов:
 
 *   {% link "Работа со значениями атрибутов" ref_SuWz9rmN %}
 
-Дополнительная информация о группировании глобальных атрибутов и атрибутов классов::
-
-*   {% link "Managing attribute groups" ref_otIvC7NR %}
-
-Дополнительная информация о вариантах продуктов:
-
-*   {% link "Product variants" ref_0uApuQfx %}
