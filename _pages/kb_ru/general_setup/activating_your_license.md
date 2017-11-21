@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-13 12:17 +0400'
+updated_at: '2017-11-21 12:19 +0400'
 identifier: ref_eqZRcCns
 title: Активация лицензии X-Cart 5
 order: 30
@@ -23,7 +23,7 @@ published: true
 В панели управления пробного магазина нажмите ссылку **Активировать бесплатную лицензию**. Данную ссылку можно найти несколькими путями:  
 
    *   _Способ 1:_
-       При каждом входе в панель управления пробного магазина вы видите всплывающее уведомление об истечении срока тестирования X-Cart. Нажмите на _У меня ест лицензия_ в этом окне:
+       При каждом входе в панель управления пробного магазина вы видите всплывающее уведомление об истечении срока тестирования X-Cart. Нажмите на _У меня есть лицензия_ в этом окне:
        ![xc5_licenses_ihavealicensekey_link.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_ihavealicensekey_link.png)
        Окно будет развернуто, в нижней части окна вы найдете нужную ссылку:
        ![xc5_licenses_activate_free_license_link.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_license_link.png)
