@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-21 13:20 +0400'
+updated_at: '2017-11-21 16:10 +0400'
 identifier: ref_7IDJJdrM
 title: Настройка семантических ссылок
 order: 20
@@ -56,7 +56,7 @@ LoadModule rewrite_module modules/mod_rewrite.so
 
 ## Настройка IIS
 
-Для настройки IIS потребуется [импорт правил Apache](http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules). Следуйте инструкциям в [статье](http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules) для импортирования правил из файла `<X-Cart>/.htaccess`.
+Для настройки IIS потребуется [импорт правил Apache](http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules). Следуйте инструкциям в [статье](http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules) для импортирования правил из файла `<X-Cart>/.htaccess`. 
 
 ## Настройка nginx
 
