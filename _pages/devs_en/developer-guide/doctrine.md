@@ -128,6 +128,10 @@ $products = \XLite\Core\Database::getRepo('XLite\Model\Product')
     ->getResult();
 ```
 
-## Join
+### Join
+
+### Group By
+
+### Order By
 
 
