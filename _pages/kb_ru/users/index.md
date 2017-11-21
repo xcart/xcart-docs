@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-13 00:55 +0400'
+updated_at: '2017-11-21 14:11 +0400'
 identifier: ref_urAKbG4G
 title: Пользователи
 order: 120
@@ -10,7 +10,5 @@ categories:
   - home
 icon: user
 ---
-*   {% link "User types and user accounts" ref_PWr4CNvW %}
-*   {% link "User roles" ref_38HKdc1f %}
 *   {% link "Группы покупателей" ref_MOcZboHi %}
-*   {% link "User profile fields" ref_gg1fQDgB %}
+
