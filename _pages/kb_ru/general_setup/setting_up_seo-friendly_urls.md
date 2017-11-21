@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-21 12:03 +0400'
+updated_at: '2017-11-21 12:39 +0400'
 identifier: ref_7IDJJdrM
 title: Настройка семантических ссылок
 order: 20
