@@ -60,7 +60,7 @@ LoadModule rewrite_module modules/mod_rewrite.so
 
 ## Настройка nginx
 
-Строки ниже должны быть внесены в [секцию server {}](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) файла конфигурации nginx (`nginx.conf`):
+Строки ниже должны быть внесены в [секцию server {}](http://nginx.org/ru/docs/http/ngx_http_core_module.html#server) файла конфигурации nginx (`nginx.conf`):
 
 ```php
 ## Example nginx configuration (X-Cart 5.3.2+)
