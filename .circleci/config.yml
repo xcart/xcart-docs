@@ -45,7 +45,7 @@ jobs:
           command: |
             if [ -f ~/repo/_workspace/build-targets/devs_en ]; then
               ./build.sh devs_en
-              rsync -azi -e "$SSH_STRING" --delete _site/devs_en/ "$SSH_HOST:/www/kbsync/devs_en"
+              rsync -azivc -e "$SSH_STRING" --delete _site/devs_en/ "$SSH_HOST:/www/kbsync/devs_en"
             fi
 
       - run: 
