@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-11-09 14:47 +0400'
 identifier: ref_glvKFUGT
 title: Доставка
-description: Как настроить способы доставки: автоматически, вручную, бесплатную доставку или самовывоз
+description: 'Как настроить способы доставки: автоматически, вручную, бесплатную доставку или самовывоз'
 order: 90
 published: true
 categories:
