@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-30 21:13 +0400'
+updated_at: '2017-11-23 10:29 +0400'
 identifier: ref_VXdfNsVw
 title: 'Import and Export of Categories: Tutorial by Mike White'
 categories:
@@ -17,7 +17,7 @@ This is an X-Сart 5 tutorial by Mike White aka totaltec from [http://babymonke
 
 ## Video
 **Published on Aug 13, 2014**
-<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="http://www.youtube.com/embed/QdW5mCELn4A" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/QdW5mCELn4A" frameborder="0"></iframe>
 
 
 _Related pages:_
