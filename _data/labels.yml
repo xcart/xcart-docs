@@ -75,8 +75,8 @@
     ru: "Подробные инструкции по X-Cart - системе электронной коммерции на PHP."
 
 'knowledge_base_desc_reverse':
-    en: "Подробные инструкции про настройку X-Cart на русском языке."
-    ru: "Learn more about X-Cart and how to setup and configure it."
+    en: "Подробные инструкции про настройку X-Cart на русском языке. Russian version."
+    ru: "Learn more about X-Cart and how to setup and configure it. Документация на английском."
 
 'developer_docs_desc':
     en: "Start developing for X-Cart without any hassle. Discover changelogs and tutorials, various guides and design patterns."
