@@ -47,7 +47,7 @@ Let us have a look at what exactly `handleRequest()` method does. See its implem
 Its implementation: 
 
 ```php
-public functio[n handleRequest()
+public function handleRequest()
 {
     if (!$this->checkAccess()) {
         $this->markAsAccessDenied();
