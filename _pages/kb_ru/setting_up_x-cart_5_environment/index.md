@@ -3,8 +3,8 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-11-21 11:47 +0400'
 identifier: ref_DckDPR4v
-title: Настройка окружения для X-Cart
-description: Узнайте, как настроить сервер для работы с X-Cart 5
+title: Настройка окружения
+description: Узнайте, как настроить сервер для работы с X-Cart
 order: 10
 published: true
 categories:

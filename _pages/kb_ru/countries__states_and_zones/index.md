@@ -3,7 +3,8 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-10-27 17:32 +0400'
 identifier: ref_TgN5TTMn
-title: 'Страны, штаты/области и зоны доставки'
+title: Страны, области и зоны
+description: Географические настройки для доставки в регионы и для подсчёта налогов в свободных экономических зонах
 order: 70
 published: true
 icon: flag

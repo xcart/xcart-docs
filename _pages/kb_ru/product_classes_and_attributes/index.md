@@ -4,6 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-11-21 13:27 +0400'
 identifier: ref_pXBwGdtu
 title: Классы и атрибуты продуктов
+description: Лёгкое управление ассортиментом товаров
 order: 50
 published: true
 categories:

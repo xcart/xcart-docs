@@ -4,6 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-11-21 13:48 +0400'
 identifier: ref_XPMqWHCC
 title: Налоги
+description: Настройте налоговые правила для корректного учета
 order: 60
 published: true
 icon: calculator

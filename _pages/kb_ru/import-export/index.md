@@ -4,6 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-11-21 14:04 +0400'
 identifier: ref_94dTTrT5
 title: Импорт - Экспорт
+description: Пакетные обновления данных каталога, покупателей, заказов
 order: 100
 published: true
 icon: exchange

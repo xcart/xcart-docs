@@ -4,6 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-11-21 13:16 +0400'
 identifier: ref_TgqWAeT7
 title: Продукты
+description: Заполнение каталога продуктами, настройка промо-акций
 order: 40
 published: true
 icon: cube
