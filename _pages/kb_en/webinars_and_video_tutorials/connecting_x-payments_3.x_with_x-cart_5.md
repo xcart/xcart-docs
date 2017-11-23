@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-30 21:10 +0400'
+updated_at: '2017-11-23 08:37 +0400'
 identifier: ref_ZM8ZDeD9
 title: Connecting X-Payments 3.x with X-Cart 5
 order: 100
