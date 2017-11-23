@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-10-05 12:32 +0400'
+updated_at: '2017-11-23 10:24 +0400'
 identifier: ref_KpqQsVGf
 title: Basic Design Changes in X Cart 5.3
 order: 100
@@ -21,4 +21,4 @@ X-Cart 5.3 provides many tools to adjust your store design to match your corpora
 
 ## Video
 **Published on Oct 04, 2017**
-<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/kRdWw3QCp7c" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/kRdWw3QCp7c" frameborder="0"></iframe>
