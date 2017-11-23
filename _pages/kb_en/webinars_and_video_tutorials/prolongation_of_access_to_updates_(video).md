@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-30 21:17 +0400'
+updated_at: '2017-11-23 10:32 +0400'
 identifier: ref_pIvO4FGU
 title: Prolongation of access to updates (video)
 categories:
@@ -39,7 +39,7 @@ You can resolve the problem by following the instructions from the video below.
 
 ## Video
 **Published on Nov 16, 2015**
-<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/PMnBEjybA7U" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/PMnBEjybA7U" frameborder="0"></iframe>
 
 
 _Related pages:_
