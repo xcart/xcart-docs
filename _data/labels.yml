@@ -62,6 +62,10 @@
     en: "Go to knowledge base"
     ru: "База знаний"
 
+'Go to knowledge base reverse':
+    en: "База знаний"
+    ru: "Go to knowledge base"
+
 'Go to developer docs':
     en: "Go to developer docs"
     ru: "Документация для разработчиков"
