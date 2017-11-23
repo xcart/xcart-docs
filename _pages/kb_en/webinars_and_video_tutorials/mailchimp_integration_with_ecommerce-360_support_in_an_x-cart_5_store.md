@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-30 21:15 +0400'
+updated_at: '2017-11-23 10:30 +0400'
 identifier: ref_XO8v2bJX
 title: MailChimp Integration with Ecommerce-360 support in an X-Cart 5 Store
 categories:
@@ -19,7 +19,7 @@ Check out the module setup process and all the cool features of MailChimp Integr
 
 ## Video
 **Published on May 27, 2015**
-<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/NfCz86Iy3dY" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/NfCz86Iy3dY" frameborder="0"></iframe>
 
 
 _Related pages:_
