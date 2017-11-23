@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-30 21:01 +0400'
+updated_at: '2017-11-23 10:23 +0400'
 identifier: ref_dycXnOI1
 title: 'Adding a New Page in X Cart 5: Tutorial by Mike White'
 categories:
@@ -17,7 +17,7 @@ Just a quick tutorial on creating a custom page in X-Cart 5 and linking to it wi
 
 ## Video
 
-<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="http://www.youtube.com/embed/JCY_OcxhA9k" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/JCY_OcxhA9k" frameborder="0"></iframe>
 
 _Related pages:_
 
