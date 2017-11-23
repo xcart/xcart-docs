@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-30 21:26 +0400'
+updated_at: '2017-11-23 10:36 +0400'
 identifier: ref_7hG6Mxrq
 title: X-Cart 5 Advanced Order Management in action
 categories:
@@ -17,7 +17,7 @@ This video demonstrates how to edit an order using the AOM feature of X-Cart 5.
 
 ## Video
 **Published on Sep 24, 2014**
-<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/pX75WRiK4pQ" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/pX75WRiK4pQ" frameborder="0"></iframe>
 
 
 _Related pages:_
