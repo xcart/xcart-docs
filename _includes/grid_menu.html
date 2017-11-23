@@ -46,5 +46,23 @@
         {% endif %}
       </div>
     </div>
+
+    {% if site.type != 'devs' %}
+    <!-- reverse link -->
+    <div class="sixteen wide mobile eight wide tablet third wide computer column">
+      <div class="navigation-item">
+        <a href="{{ site.data.labels['kb_index_link_reverse'][page.lang] }}">
+          <h2 class="ui header">
+            <i class="globe icon"></i>
+            <div class="content">
+              {{ site.data.labels['Go to knowledge base reverse'][page.lang] }}
+            </div>
+          </h2>
+          <p>{{ site.data.labels['knowledge_base_desc_reverse'][page.lang] }}</p>
+        </a>
+      </div>
+    </div>
+    {% endif %}
+
   </div>
 </div>

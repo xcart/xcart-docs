@@ -70,6 +70,10 @@
     en: "Learn more about X-Cart - PHP e-Commerce shopping cart, how to setup and configure it."
     ru: "Подробные инструкции по X-Cart - системе электронной коммерции на PHP."
 
+'knowledge_base_desc_reverse':
+    en: "Подробные инструкции про настройку X-Cart на русском языке."
+    ru: "Learn more about X-Cart and how to setup and configure it."
+
 'developer_docs_desc':
     en: "Start developing for X-Cart without any hassle. Discover changelogs and tutorials, various guides and design patterns."
     ru: "Получите все, что необходимо для разработчика X-Cart. Последние чейнджлоги, полезные обучающие статьи и принципы архитектуры и дизайна."
@@ -103,6 +107,10 @@
 'kb_index_link':
     en: 'https://kb.x-cart.com'
     ru: 'https://kb.x-cart.ru'
+
+'kb_index_link_reverse':
+    en: 'https://kb.x-cart.ru'
+    ru: 'https://kb.x-cart.com'
 
 'devs_index_link':
     en: 'https://devs.x-cart.com'
