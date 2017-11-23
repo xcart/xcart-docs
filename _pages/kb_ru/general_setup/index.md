@@ -4,8 +4,10 @@ layout: article_with_sidebar
 updated_at: '2017-11-13 12:14 +0400'
 identifier: ref_p5Vc7aP4
 title: Общие настройки магазина X-Cart
+description: Инструкции, описывающие процесс установки и настройки X-Cart 5
 order: 20
 published: true
+icon: configure
 categories:
   - home
 ---
