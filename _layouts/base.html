@@ -14,7 +14,12 @@
       </div>
     </div>
 
-    {% include footer.html %}
+    {% if page.lang == 'en' %}
+      {% include footer.html %}
+    {% else %}
+      {% include footer_ru.html %}
+    {% endif %}
+
     {% include scripts.html %}
   </body>
 

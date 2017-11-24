@@ -235,3 +235,16 @@
 a.phone.semi-mimic:active, a.phone.semi-mimic:focus, a.phone.semi-mimic:visited, a.phone.semi-mimic:hover {
     text-decoration: underline !important;
 }
+.footer__row {
+  margin: 15px;
+}
+.footer__row .footer__list .footer__link {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer__list li.phone {
+  color: #fff;
+}
+.margin__top_34 {
+  margin-top: 34px;
+}
