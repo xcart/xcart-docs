@@ -6,7 +6,7 @@ identifier: ref_nPhzIbb7
 title: Подключение магазина к сервису ROBOKASSA
 redirect_from:
   - >-
-    /ru/документация_на_русском/robokassa/подключение_магазина_к_сервису_robokassa.html
+    /документация_на_русском/robokassa/подключение_магазина_к_сервису_robokassa.html
 categories:
   - Документация на русском
 published: true

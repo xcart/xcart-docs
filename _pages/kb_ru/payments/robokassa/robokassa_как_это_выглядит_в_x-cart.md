@@ -6,7 +6,7 @@ identifier: ref_Tc5uipce
 title: 'ROBOKASSA: Как это выглядит в X-Cart'
 redirect_from:
   - >-
-    /ru/документация_на_русском/robokassa/robokassa_как_это_выглядит_в_x-cart.html
+    /документация_на_русском/robokassa/robokassa_как_это_выглядит_в_x-cart.html
 categories:
   - Документация на русском
 published: true

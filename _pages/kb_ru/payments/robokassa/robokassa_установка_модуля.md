@@ -5,7 +5,7 @@ updated_at: '2017-10-23 11:41 +0400'
 identifier: ref_esm15xpd
 title: 'ROBOKASSA: Установка модуля'
 redirect_from:
-  - /ru/документация_на_русском/robokassa/robokassa_установка_модуля.html
+  - /документация_на_русском/robokassa/robokassa_установка_модуля.html
 categories:
   - Документация на русском
 published: true

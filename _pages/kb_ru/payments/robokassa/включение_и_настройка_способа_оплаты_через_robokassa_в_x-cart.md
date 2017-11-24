@@ -6,7 +6,7 @@ identifier: ref_MGJHxoN6
 title: Включение и настройка способа оплаты через ROBOKASSA в X-Cart
 redirect_from:
   - >-
-    /ru/документация_на_русском/robokassa/включение_и_настройка_способа_оплаты_через_robokassa_в_x-cart.html
+    /документация_на_русском/robokassa/включение_и_настройка_способа_оплаты_через_robokassa_в_x-cart.html
 categories:
   - Документация на русском
 published: true
