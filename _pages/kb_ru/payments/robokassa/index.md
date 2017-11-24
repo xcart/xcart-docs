@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 11:41 +0400'
+updated_at: '2017-11-24 14:04 +0400'
 identifier: ref_VhQHtKBi
 title: ROBOKASSA
 icon: payment
@@ -9,9 +9,9 @@ description: >-
   Организуйте прием платежей прямо у себя на сайте с помощью популярного
   агрегатора платежей ROBOKASSA
 order: 40
-redirect_from:
-  - /ru/документация_на_русском/robokassa/
 published: true
+redirect_from:
+  - /документация_на_русском/robokassa/
 ---
 
 
