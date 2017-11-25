@@ -1,12 +1,15 @@
 ---
-title: 'Removing the Primary Menu In X-Cart 5 (with the help of WebmasterKit): Tutorial
-  by Mike White'
-identifier: ref_w2nBnONL
-updated_at: 2014-04-14 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2017-11-25 22:56 +0400'
+title: >-
+  Removing the Primary Menu In X-Cart 5 (with the help of WebmasterKit):
+  Tutorial by Mike White
+identifier: ref_w2nBnONL
 categories:
-- Webinars and video tutorials
+  - Webinars and video tutorials
+published: true
+order: 100
 ---
 
 ## Introduction
@@ -15,4 +18,4 @@ This is an X-Сart 5 tutorial by Mike White aka totaltec from [http://babymonke
 
 ## Video
 
-<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="http://www.youtube.com/embed/byLG9q13pxk" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/byLG9q13pxk" frameborder="0"></iframe>
