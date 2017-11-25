@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-13 13:42 +0400'
+updated_at: '2017-11-25 22:37 +0400'
 identifier: ref_T90ZcEpP
 title: Product classes and attributes
 categories:
@@ -55,4 +55,4 @@ For information on managing product variants, see:
 
 ## Video tutorial
 
-<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/WjvaZ9ExGmE" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/WjvaZ9ExGmE" frameborder="0"></iframe>
