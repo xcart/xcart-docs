@@ -1,11 +1,13 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2017-11-25 23:00 +0400'
 title: Webinar 3 - 21 Aug 2014 - Payment gateway creation
 identifier: ref_BDJ1ZHIU
-updated_at: 2014-10-30 00:00
-layout: article_with_sidebar
-lang: en
 categories:
-- Webinars and video tutorials
+  - Webinars and video tutorials
+published: true
+order: 100
 ---
 
 ## Introduction
@@ -48,7 +50,7 @@ Dwolla has already changed their API, so this integration no longer works, altho
 
 ## Video
 
-<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/6qIBrsq1FAg" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/6qIBrsq1FAg" frameborder="0"></iframe>
 
 ## Before getting started
 
