@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-21 13:55 +0400'
+updated_at: '2017-11-24 14:19 +0400'
 identifier: ref_uAv5ETfx
 title: ''
 order: 100
@@ -114,7 +114,7 @@ $products = \XLite\Core\Database::getRepo('XLite\Model\Product')
     ->getResult();
 ```
 
-The order in which you specify helper functions (`andWhere()` and `setParameter()`) does not matter. This is the same query:
+The order in which you specify helper functions (`andWhere()` and `setParameter()`) does not matter. This is the same query as above:
 
 ```php
 $products = \XLite\Core\Database::getRepo('XLite\Model\Product')
@@ -128,10 +128,131 @@ $products = \XLite\Core\Database::getRepo('XLite\Model\Product')
     ->getResult();
 ```
 
+### Select
+
+When we create query builder as in examples above and call `getResult()`, query builder will return objects as a result. However, we can explicitly specify what fields to fetch.
+
+```php
+$products = \XLite\Core\Database::getRepo('XLite\Model\Product')
+    ->createQueryBuilder('p')
+    ->select('p.product_id AS id')
+    ->getResult();
+
+
+foreach ($products as $product) {
+    var_dump($product);
+    // it displays a list of product IDs
+}
+
+$products = \XLite\Core\Database::getRepo('XLite\Model\Product')
+    ->createQueryBuilder('p')
+    ->addSelect('p.product_id AS id')
+    ->getResult();
+
+
+foreach ($products as $product) {
+    var_dump($product);
+    // result will be an array where 
+    // 1st element is \XLite\Model\Product object 
+    // and 2nd element is product ID
+}
+```
+
+As you can see from example above, there are two ways to specify what particular properties to fetch:
+1. `select()` method specifies what fields to fetch and all fields to fetch that have been defined earlier will not be fetched;
+2. `addSelect()` method specifies which fields to fecth and put them alongside other properties that were going to be fetched.
+
+
 ### Join
+
+If you want to request data from other object related to the model you have already created query builder for, then you can join this model. It is similar to joining a table in SQL, but since Doctrine operates objects (not tables) we are going to join another model.
+
+1. `innerJoin()` method is used to perform INNER JOIN SQL operation. However, we recommend using X-Cart's wrapper `linkInner()` instead, because it makes sure that the same model is not joined twice in the same query builder. If that happenned, it would fire a fatal error.
+2. `leftJoin()` method is used to perform LEFT JOIN SQL operation. We recommend using `linkLeft()` wrapper instead for the same reason.
+
+Let us have a look at some examples:
+
+```php
+$products = \XLite\Core\Database::getRepo('XLite\Model\Product')
+    ->createQueryBuilder('p')
+    ->select('p.product_id AS id')
+    ->linkInner('p.images', 'i')
+    ->addSelect('i.path AS path')
+    ->andWhere('p.product_id > :product_id')
+    ->andWhere('p.product_id < (:product_id + 4)')
+    ->setParameter('product_id', 29)
+    ->getResult();
+    
+foreach ($products as $product) {
+    var_dump($product);
+}
+```
+
+This request pulls product ID and product images assigned to this product. Since all products in X-Cart demo has images, it will pull images for products with ID 30, 31 and 32. If you go to product with ID 32, remove all its images and then run this request, only images for products with ID 30 and 31 will be fetched. However, if we run this request (we use `linkLeft()` instead of `linkInner()`):
+
+```php
+$products = \XLite\Core\Database::getRepo('XLite\Model\Product')
+    ->createQueryBuilder('p')
+    ->select('p.product_id AS id')
+    ->linkLeft('p.images', 'i')
+    ->addSelect('i.path AS path')
+    ->andWhere('p.product_id > :product_id')
+    ->andWhere('p.product_id < (:product_id + 4)')
+    ->setParameter('product_id', 29)
+    ->getResult();
+    
+    foreach ($products as $product) {
+        var_dump($product);
+	}    
+```
+
+there will be lines for product with ID 32, but they will have `null` in 'path' element.
 
 ### Group By
 
+Query builder allows grouping results (the same as `GROUP BY` operator in SQL). This example breaks down sales by product:
+
+```php
+$return = \XLite\Core\Database::getRepo('\XLite\Model\OrderItem')->createQueryBuilder('oi')
+    ->select(
+        'IDENTITY(oi.object) AS id',
+        'SUM(oi.amount) AS amount', 
+        'SUM(oi.total) AS sales', 
+        'oi.name AS name'
+    )
+    ->linkInner('oi.order', 'o')
+    ->groupBy('oi.object')
+    ->orderBy('sales', 'DESC')
+    ->getResult();
+
+var_dump($return);
+```
+
+We pull info from `\XLite\Model\OrderItem` repository, because each record in this repository is an actual product sold.
+
+Here are a few moments we have not seen before:
+1. We use `IDENTITY()` operator of Doctrine's in `select()` method. It returns an ID of a given object. The reason to use `IDENTITY()` operator instead of explicitly calling `oi.object.product_id` is that we may not know which field contains ID of an entity for a particular model. That is why calling `IDENTITY()` is more general way of getting entity's ID.
+2. We use `SUM()` operator to aggregate values the same as we would do in SQL. [Learn more about Aggregate Fields in Doctrine docs](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/cookbook/aggregate-fields.html).
+
 ### Order By
 
+Query builder also allows sorting the result (the same as `ORDER BY` in SQL). This example will sort the result of sales breakdown mentioned above from highest sales to lowest.
 
+```php
+$return = \XLite\Core\Database::getRepo('\XLite\Model\OrderItem')->createQueryBuilder('oi')
+    ->select(
+        'IDENTITY(oi.object) AS id',
+        'SUM(oi.amount) AS amount', 
+        'SUM(oi.total) AS sales', 
+        'oi.name AS name'
+    )
+    ->linkInner('oi.order', 'o')
+    ->andWhere('o INSTANCE OF \XLite\Model\Order')
+    ->groupBy('oi.object')
+    ->orderBy('sales', 'DESC')
+    ->getResult();
+
+var_dump($return);
+```
+
+We only added `orderBy('sales', 'DESC')` to the query builder and it sorted the results in descending order. If we wanted to go from lowest sales to highest, we would use `orderBy('sales', 'ASC')`. `orderBy()` method allows not only aliases ('sales' as we are using), but also property names, e.g. `oi.item_id`.
