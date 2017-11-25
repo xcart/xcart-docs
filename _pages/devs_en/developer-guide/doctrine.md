@@ -7,9 +7,23 @@ title: ''
 order: 100
 published: false
 ---
+## Introduction
+
 X-Cart uses ORM [Doctrine 2 framework](http://www.doctrine-project.org/) to work with database. ORM stands for ['Object-relational mapping'](https://en.wikipedia.org/wiki/Object-relational_mapping) and its main purpose is to abstract from how objects are stored in the database and focus on business logic. 
 
 Using Doctrine means that we do not write plain SQL queries and this tutorial illustrates main approaches of working with database.
+
+## Tables of Contents
+- [Introduction](#introduction)
+- [Tables of Contents](#tables-of-contents)
+- [Pulling objects by ID](#pulling-objects-by-id)
+- [Pulling a collection of objects](#pulling-a-collection-of-objects)
+- [Query builder](#query-builder)
+	- [Select](#select)
+    - [Join](#join)
+    - [Group By](#group-by)
+    - [Order By](#order-by)
+
 
 ## Pulling objects by ID
 
