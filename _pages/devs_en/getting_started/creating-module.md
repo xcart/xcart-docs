@@ -13,15 +13,6 @@ This chapter describes the process of creating module for X-Cart 5.
 
 {% toc Table of Contents %}
 
-## Table of Contents
-
-*   [Introduction](#introduction)
-*   [Table of Contents](#table-of-contents)
-*   [Choosing identifiers](#choosing-identifiers)
-*   [Manual module creation](#manual-module-creation)
-*   [Module creation via SDK](#module-creation-via-sdk)
-*   [Packing up your module](#packing-up-your-module)
-
 ## Choosing identifiers
 
 Before you get started, you need to choose two identifiers:
