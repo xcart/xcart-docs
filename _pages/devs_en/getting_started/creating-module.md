@@ -16,7 +16,6 @@ This chapter describes the process of creating module for X-Cart 5.
 ## Choosing identifiers
 
 Before you get started, you need to choose two identifiers:
-
 *   developer ID 
 *   module ID
 
