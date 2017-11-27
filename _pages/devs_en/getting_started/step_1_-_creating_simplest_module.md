@@ -1,12 +1,13 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2017-11-28 00:01 +0400'
 title: Step 1 - creating simplest module
 identifier: ref_G2mlgckf
-updated_at: 2015-12-25 00:00
-layout: article_with_sidebar
-lang: en
 order: 100
 categories:
-- Developer docs
+  - Developer docs
+published: false
 ---
 
 ## Introduction
