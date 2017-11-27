@@ -167,45 +167,42 @@ The process is as follows:
 
 **Способ 2:**
 
-1.  In your store's Admin area, find the product for which you want to edit a "product class"-level attribute (This can be any product that has this attribute: you will be able to extend the changes to the other products of the same product class), open its details and click on the** Attributes** tab.
-2.  On the **Attributes** tab, click Global.
-3.  On the page that opens, locate the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "`<Product class name>` attributes").
-4.  Find the attribute you want to edit and make any changes you require:
+1.  В панели управления магазина найдите продукт, для которого нужно изменить классовый атрибут. Это может быть любой продукт с таким атрибутом, т.к., редактируя один продукт, можно применить изменения к другим продуктам этого же класса. Откройте страницу продукта и перейдите на вкладку **Атрибуты**.
+2.  Откройте раздел **Глобальные атрибуты**.
+3.  Найдите раздел атрибутов класса продуктов. В названии раздела указано название класса.
+4.  Найдите атрибут, который нужно изменить:
 
-    *   To edit the attribute name, hover your cursor over it (the **Attribute name** field will become visible), click inside the **Attribute name** field and edit the attribute name as you require. 
-    *   To edit the attribute values, edit the **Attribute value** field(s).
+    *   Чтобы изменить название атрибута, наведите на него курсор и нажмите внутри поля. 
+    *   Измените значения атрибута.
 
-5.  Specify whether you want to apply the changes globally or locally:
+5.  Укажите область применения изменения:
 
-    *   Apply value changes globally => Changes of attribute values will apply for all the products with the corresponding class.
-    *   Apply value changes locally => Changes of attribute values will affect only this product. Changes of attribute names and of the attributes list (for example, changes of the order of attributes in the list, or removal of attributes) will affect all the products of the corresponding class.
-6.  Click **Save changes**.
+    *   Для всех продуктов класса.
+    *   Только для редактируемого продукта. Изменение названий атрибутов и списка атрибутов (например, порядка следования атрибутов в списке или удаление атрибута из списка) отразится на всех продуктах класса. 
+6.  Нажмите **Сохранить**.
 
-## Deleting product class attributes
+## Удаление атрибутов классов продуктов
 
-Sometimes you may need to delete an attribute created at the level of a product class. You can do so using one of the following methods:
+Как удалить атрибут, созданный для определенного продукта:
 
-**Method 1:**
+**Способ 1:**
 
-1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  In the list of product classes, locate the name of the product class for which you need to delete an attribute and click on the Edit attributes (N) link opposite it.
-    This opens a page where you will be able to manage attributes for this product class.
-3.  In the list of product class attributes, locate the attribute you need to delete and click on the **Trash **icon opposite its name. The attribute will be marked for deletion.
-4.  Click **Save changes**.
-    The attribute will be deleted from the list of attributes for this product class and will be removed from the details of all the products that belong to this product class.
+1.  В панели управления магазина откройте страницу **Каталог / Классы и атрибуты**.
+2.  В списке классов продуктов найдите класс, атрибут которого нужно удалить,  и нажмите **Редактировать атрибуты** справа от названия класса.
+3.  В списке атрибутов класса найдите атрибут, который необходимо удалить и нажмите на значок корзины справа от его названия.
+4.  Нажмите **Сохранить**. Атрибут будет удален из списка атрибутов класса продуктов и из характеристик всех продуктов, входящих в этот класс.
 
-**Method 2:**
+**Способ 2:**
 
-1.  In your store's Admin area, find any product that has the "product class"-level attribute you want to delete, open its details and click on the** Attributes** tab.
-2.  On the **Attributes** tab, click Global.
-3.  On the page that opens, locate the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "`<Product class name>` attributes").
-4.  Find the attribute you want to delete and click on the **Trash** icon opposite its name. The attribute will be marked for deletion.
-5.  It does not matter whether the option "Apply value changes globally" is selected or not: deleting a "product class"-level attribute here will be applied globally in any case (The attribute will be deleted from the list of attributes for this product class and will be removed from the details of all the products that belong to this product class).
+1.  В панели управления магазина найдите продукт, у которого есть атрибут, который нужно удалить. Откройте страницу продукта и перейдите на вкладку **Атрибуты**.
+2.  Нажмите **Глобальные атрибуты**.
+3.  Найдите атрибут класса, который необходимо удалить, и нажмите на значок корзины справа от него.
+4. Статус опции **Применить изменения значений атрибутов для всех товаров** не имеет значения, т.к. удаление атрибута класса продуктов применяется ко всему классу. Атрибут будет удален из списка атрибутов класса продуктов и из характеристик всех продуктов, входящих в этот класс.
 
-6.  Click **Save changes**.
+5.  Нажмите **Сохранить**.
 
-_Related pages:_
+_Дополнительная информация:_
 
-*   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Managing product classes" ref_EVqNSaZy %}
-*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
+*   {% link "Классы и атрибуты продуктов" ref_T90ZcEpP %}
+*   {% link "Работа с классами продуктов" ref_EVqNSaZy %}
+*   {% link "Типы атрибутов продуктов по области применения" ref_uaJk8ete %}
