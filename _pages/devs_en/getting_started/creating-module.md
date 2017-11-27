@@ -5,11 +5,13 @@ updated_at: '2017-11-27 15:21 +0400'
 identifier: ref_TBDhOF2h
 title: Creating module
 order: 100
-published: false
+published: true
 ---
 ## Introduction
 
 This chapter describes the process of creating module for X-Cart 5.
+
+{% toc Table of Contents%}
 
 ## Table of Contents
 
