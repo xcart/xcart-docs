@@ -19,7 +19,7 @@ Before you get started, you need to choose two identifiers:
 *   developer ID 
 *   module ID
 
-Your **developer ID** will tell other programmers that the module is written by you. For instance, all X-Cart modules have developer IDs **CDev** or **XC**.
+Your **developer ID** will tell other programmers that the module is written by you. It is like your name as a developer in X-Cart repository of modules. For instance, all X-Cart modules have developer IDs **CDev** or **XC**.
 
 **Module ID** is basically the name of your module in the system, e.g. **AustraliaPost** or **ProductFilter**.
 
