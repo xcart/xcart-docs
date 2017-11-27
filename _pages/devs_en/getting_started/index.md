@@ -1,24 +1,26 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2017-11-27 15:01 +0400'
 title: Getting started
 identifier: ref_c4ZdVsX4
-updated_at: 2015-02-22 00:00
-layout: article_with_sidebar
-lang: en
 categories:
-- home
+  - home
 order: 1
 icon: rocket
-description: Start developing for X-Cart without any hassle. Speed up your work process
+description: >-
+  Start developing for X-Cart without any hassle. Speed up your work process
   with X-Cart SDK
+published: true
 ---
+Welcome to X-Cart 5 developer documentation. 
 
-This section teaches developers how to work with X-Cart 5.
+General idea of X-Cart customization is that each change can be done as a separate module. Since module files are separate from the core, upgrade of X-Cart can be performed simply by replacing files. The same way, module can be upgarded just by replacing its own files.
 
-You start with basic guides about X-Cart development process:
+To achieve such flexibility there are certain approaches to X-Cart customization and we are going to go through them in this section.
 
-1.  {% link "Creating an empty module" ref_G2mlgckf %};
-2.  {% link "Changing design" ref_E88KCMDD %};
-3.  {% link "Changing logic" ref_AF6bmvL6 %};
-4.  {% link "Working with settings" ref_qFCH64Dt %}.
-
-Also, there is an article about {% link "X-Cart SDK" ref_HvrXVNvJ %} that eases and speeds up the development process.
+1. [How to create simple module in X-Cart](https://devs.x-cart.com/getting_started/creating-module.html).
+2. [Structure of the software](https://devs.x-cart.com/getting_started/x-cart-structure.html).
+3. [How to apply design changes](https://devs.x-cart.com/getting_started/how-to-apply-design-changes.html).
+4. [How to apply changes to X-Cart business logic](https://devs.x-cart.com/getting_started/applying-logic-changes.html).
+5. [Working with database](https://devs.x-cart.com/getting_started/working-with-database.html).
