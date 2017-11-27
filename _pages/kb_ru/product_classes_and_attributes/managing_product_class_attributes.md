@@ -54,39 +54,38 @@ The process is as follows:
 
 **Способ 2:**
 
-When using this method, you edit the details of a specific product belonging to the product class "Plates" and add "product class"-level attributes via the **Attributes** tab of its details page. 
+Данный способ подразумевает редактирование определенного продукта, входящего в класс Мягкие игрушки, и создание атрибута на уровне класса продуктов в разделе **Атрибуты** этого продукта. 
 
-The process is as follows:
 
-1.  In your store's Admin area, find the product for which you want to add a new attribute, open its details and click on the** Attributes** tab:
+1.  В панели управления магазина найдите продукт, для которого нужно создать новый атрибут, и откройте вкладку **Атрибуты**:
     ![]({{site.baseurl}}/attachments/7504855/8719266.png)
-    This will open a page where you can manage attributes for this product. 
-2.  Click on the Global link at the top of the page to access the subsection where you can add and assign global and "product class"-level attributes to this product:
+    Откроется страница редактирования атрибутов этого продукта. 
+2.  Откройте раздел **Глобальные атрибуты**, здесь можно создать глобальные атрибуты и атрибуты уровня класса продуктов:
     ![]({{site.baseurl}}/attachments/7504855/8719267.png)
-3.  On the page that opens, make sure that the product has been assigned an appropriate product class:
+3.  На странице **Глобальные атрибуты** указан класс, к которому принадлежит продукт:
     ![]({{site.baseurl}}/attachments/7504855/8719268.png)
-    (If the product does not have a product class assigned, or needs to be assigned a different product class, take a moment to {% link "assign an appropriate product class to it" ref_EVqNSaZy#assigning-product-classes %}).
-4.  Add attributes via the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "`<Product class name>` attributes"; in our example, this will be "Plates attributes"):
+    Если класс не задан, или продукт должен входить в другой класс, {% link "выберите нужный класс" ref_EVqNSaZy#assigning-product-classes %}) в меню и нажмите **Сохранить**.
+4.  Когда указан класс, на странице появляется раздел редактирования атрибутов класса продуктов. В названии раздела указано название класса продуктов. В нашем примере - _Атрибуты Мягкие игрушки_:
     ![]({{site.baseurl}}/attachments/7504855/8719269.png)
 
-    1.  Create a new empty entry in the attributes list (This is where you will specify your attribute name and value(s)): click the "down arrow" part of the **Add attribute** button and select the type of attribute value you require (_Plain field_, _Textarea_ or _Yes/No_) from the drop-down button menu. 
+    1.  С помощью меню **Добавить атрибут** создайте новый атрибут нужного типа, укажите его название и значения. 
         ![]({{site.baseurl}}/attachments/7504855/8719270.png)
-        (For an explanation of the different attribute value field types, see {% link "Managing attribute values" ref_bTfJ9bTS %}). 
-        As we are going to add the attribute  "Print color.......Orange", we should select the attribute value type "_Plain field_". "_Plain field_" is the default value, so we don't even need to use the drop-down menu: simply clicking **Add attribute** will create the empty fields we require:
+        (Дополнительная информация: {% link "Работа со значениями атрибутов" ref_bTfJ9bTS %}). 
+        Для создания атрибута _Материал - Искусственный мех_ следует выбрать тип _предзаполненное поле_. _Предзаполненное поле_ - это тип атрибута по умолчанию, поэтому можно не выбирать это значение из списка, а просто нажать на кнопку **Добавить атрибут**:
         ![]({{site.baseurl}}/attachments/7504855/8719271.png)
-    2.  Use the **Attribute name** and **Attribute option** fields to specify, respectively, the attribute name and value(s):
+    2.  Задайте название и значения атрибута:
         ![]({{site.baseurl}}/attachments/7504855/8719273.png)
-    3.  Choose whether you want to apply the changes you made locally or globally:
+    3.  Укажите область применения значений атрибута:
 
-        *   Apply value changes globally => Changes of attribute values will apply for all the products with the corresponding class.
-        *   Apply value changes locally => Changes of attribute values will affect only this product. Changes of attribute names and of the attribute list (for example, changes of the order of attributes in the list or removal of attributes) will affect all the products of the corresponding class.
-        For example, choosing to apply globally the attribute value "Orange" that we added for the attribute "Print color" (see the snapshot below) will result in that all the products that currently belong to the product class "Plates" will have the attribute "Print color..........Orange" in their Specification. 
+        *   Для всех продуктов класса
+        *   Только для редактируемого продукта. Изменение названий атрибутов и списка атрибутов (например, порядка следования атрибутов в списке или удаление атрибута из списка) отразится на всех продуктах класса. Например, если активировать опцию **Применить изменения значений атрибутов для всех товаров** для значения атрибута _Искусственный мех_,  то в разделе **Характеристики** всех продуктов, входящих в класс _Мягкие игрушки_, появится атрибут _Материал - Искусственный мех_.
+        
         ![]({{site.baseurl}}/attachments/7504855/8719274.png)
-        Note that when you apply attribute values globally, they are applied only to products that have the same product class assigned at the time you save the changes. Any products to which the product class in question will be assigned at a later time will _not_ get these values automatically.
-    4.  Click the **Save changes** button at the bottom of the screen:
+        Включение опции **Применить изменения значений атрибутов для всех товаров** влияет на продукты, которые входят в класс продуктов на момент сохранения изменений. Данные изменения значений атрибутов не применяются к продуктам, которые вносятся в класс позже.  
+    4.  Нажмите **Сохранить**:
         ![]({{site.baseurl}}/attachments/7504855/8719275.png)
-        The attribute will be added:
+        Атрибут создан:
         ![]({{site.baseurl}}/attachments/7504855/8719276.png)
-        Now if you view the product on the storefront,  the Specification tab on its details page will show the attribute "Print color..........Orange". If at step 4c you chose to apply the attribute value "Orange" globally, all the products of the product class "Plates" will show the same attribute as well. If you kept the option "Apply value changes locally", the attribute value "Orange" will be applied only for the product you edited (However, you will be able to find "Orange" in the list of attribute values for the attribute "Print color" and apply it to other products of the product class "Plates" manually).
+        На странице продукта в магазине в разделе **Характеристики** появилась запись _Материал - Искусственный мех_. Если на шаге 4 была включена опция **Применить изменения значений атрибутов для всех товаров**, такая же запись появилась у всех остальных продуктов класса _Мягкие игрушки_.  Если опция не была включена, атрибут появился только у редактируемого продукта. Но значение атрибута _Искусственный мех_ доступно в списке значений атрибута _Материал_ и может быть установлено для других продуктов вручную.
 
-## Viewing the list of attributes configured for a product class
+## Просмотр атрибутов класса продуктов
