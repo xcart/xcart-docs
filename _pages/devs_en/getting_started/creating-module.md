@@ -11,7 +11,7 @@ published: true
 
 This chapter describes the process of creating module for X-Cart 5.
 
-{% toc Table of Contents%}
+{% toc Table of Contents %}
 
 ## Table of Contents
 
