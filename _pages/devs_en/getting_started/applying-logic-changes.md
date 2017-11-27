@@ -1,8 +1,8 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-27 16:54 +0400'
-title: ''
+updated_at: '2017-11-27 16:58 +0400'
+title: Applying changes to business logic
 published: true
 identifier: ref_I9L2KZJN
 order: 100
