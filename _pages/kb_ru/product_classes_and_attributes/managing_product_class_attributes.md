@@ -149,3 +149,63 @@ The process is as follows:
     Атрибуты присвоены продукту и отображаются на странице продукта в магазине.
 
 ## Редактирование атрибутов классов продуктов
+
+Как изменить название или свойства атрибута, созданного для определенного продукта:
+
+**Способ 1:**
+
+1.  В панели управления магазина откройте страницу **Каталог / Классы и атрибуты**.
+2.  В списке классов продуктов найдите класс, к которому относится атрибут, требующий изменения. Нажмите **Редактировать атрибуты** справа от названия класса:
+    ![]({{site.baseurl}}/attachments/7504855/8719257.png)
+    Откроется страница редактирования атрибутов класса продуктов:
+    ![]({{site.baseurl}}/attachments/7504855/8719278.png)
+3.  В списке атрибутов класса найдите атрибут, который нужно изменить, и наведите на него курсор, справа появится кнопка **Изменить**:
+    ![]({{site.baseurl}}/attachments/7504855/8719279.png)
+4.  Чтобы изменить только название атрибута, нажмите внутри поля с названием и впишите новое название. Чтобы изменить значения атрибута (или название и значения), нажмите **Изменить**. Откроется окно **Изменить значения атрибута**.
+5.  Некоторые или все значения атрибута, созданного для класса продуктов, могут автоматически применяться к всем продуктам, которые будут включены в этот класс в будущем. Для этого поставьте галочки справа от названий значений атрибутов (галочки зеленого цвета, когда включены).
+6.  Нажмите **Сохранить**.
+
+**Способ 2:**
+
+1.  In your store's Admin area, find the product for which you want to edit a "product class"-level attribute (This can be any product that has this attribute: you will be able to extend the changes to the other products of the same product class), open its details and click on the** Attributes** tab.
+2.  On the **Attributes** tab, click Global.
+3.  On the page that opens, locate the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "`<Product class name>` attributes").
+4.  Find the attribute you want to edit and make any changes you require:
+
+    *   To edit the attribute name, hover your cursor over it (the **Attribute name** field will become visible), click inside the **Attribute name** field and edit the attribute name as you require. 
+    *   To edit the attribute values, edit the **Attribute value** field(s).
+
+5.  Specify whether you want to apply the changes globally or locally:
+
+    *   Apply value changes globally => Changes of attribute values will apply for all the products with the corresponding class.
+    *   Apply value changes locally => Changes of attribute values will affect only this product. Changes of attribute names and of the attributes list (for example, changes of the order of attributes in the list, or removal of attributes) will affect all the products of the corresponding class.
+6.  Click **Save changes**.
+
+## Deleting product class attributes
+
+Sometimes you may need to delete an attribute created at the level of a product class. You can do so using one of the following methods:
+
+**Method 1:**
+
+1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
+2.  In the list of product classes, locate the name of the product class for which you need to delete an attribute and click on the Edit attributes (N) link opposite it.
+    This opens a page where you will be able to manage attributes for this product class.
+3.  In the list of product class attributes, locate the attribute you need to delete and click on the **Trash **icon opposite its name. The attribute will be marked for deletion.
+4.  Click **Save changes**.
+    The attribute will be deleted from the list of attributes for this product class and will be removed from the details of all the products that belong to this product class.
+
+**Method 2:**
+
+1.  In your store's Admin area, find any product that has the "product class"-level attribute you want to delete, open its details and click on the** Attributes** tab.
+2.  On the **Attributes** tab, click Global.
+3.  On the page that opens, locate the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "`<Product class name>` attributes").
+4.  Find the attribute you want to delete and click on the **Trash** icon opposite its name. The attribute will be marked for deletion.
+5.  It does not matter whether the option "Apply value changes globally" is selected or not: deleting a "product class"-level attribute here will be applied globally in any case (The attribute will be deleted from the list of attributes for this product class and will be removed from the details of all the products that belong to this product class).
+
+6.  Click **Save changes**.
+
+_Related pages:_
+
+*   {% link "Product classes and attributes" ref_T90ZcEpP %}
+*   {% link "Managing product classes" ref_EVqNSaZy %}
+*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
