@@ -1,14 +1,15 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2017-11-28 00:01 +0400'
 title: Step 4 - working with settings
 identifier: ref_qFCH64Dt
-updated_at: 2015-01-05 00:00
-layout: article_with_sidebar
-lang: en
 order: 400
 categories:
-- Developer docs
-- Demo module
-- Outdated
+  - Developer docs
+  - Demo module
+  - Outdated
+published: false
 ---
 
 ## Introduction
