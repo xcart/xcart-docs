@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-11-27 23:00 +0400'
 identifier: ref_fU9Us5VE
-title: ''
+title: X-Cart file structure
 order: 100
 published: true
 ---
