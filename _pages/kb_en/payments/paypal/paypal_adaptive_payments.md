@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 12:36 +0400'
+updated_at: '2017-11-27 12:49 +0400'
 identifier: ref_FdXWLwVN
 title: PayPal Adaptive Payments
 version: X-Cart 5.2.7 and later
@@ -103,24 +103,3 @@ _Related pages:_
 
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
 
-## Attachments:
-
-* [xc5_multi_add_adaptive_payments_paypal.png]({{site.baseurl}}/attachments/8751079/8719794.png) (image/png)
-* [xc5_multi_add_payment_method.png]({{site.baseurl}}/attachments/8751079/8719795.png) (image/png)
-* [xc5_multi_paypal_adaptive_payments_install.png]({{site.baseurl}}/attachments/8751079/8719796.png) (image/png)
-* [xc5_multi_paypal_adaptive_payments_settings.png]({{site.baseurl}}/attachments/8751079/8719797.png) (image/png)
-* [xc5_multi_paypal_module.png]({{site.baseurl}}/attachments/8751079/9437185.png) (image/png)
-* [xc5_multi_paypal_module.png]({{site.baseurl}}/attachments/8751079/8719798.png) (image/png)
-* [xc5_multi_paypal_adaptive_payments_enabled.png]({{site.baseurl}}/attachments/8751079/9437186.png) (image/png)
-* [xc5_multi_paypal_adaptive_payments_sorting_description.png]({{site.baseurl}}/attachments/8751079/9437187.png) (image/png)
-* [xc5_multi_paypal_method_checkout.png]({{site.baseurl}}/attachments/8751079/9437188.png) (image/png)
-* [xc5_multi_paypal_method_order_info.png]({{site.baseurl}}/attachments/8751079/9437189.png) (image/png)
-* [xc5_multi_paypal_adaptive_payments_method_admin.png]({{site.baseurl}}/attachments/8751079/9437190.png) (image/png)
-* [xc5_multi_transactions_history.png]({{site.baseurl}}/attachments/8751079/9437191.png) (image/png)
-* [xc5_multi_transactions_history0.png]({{site.baseurl}}/attachments/8751079/9437192.png) (image/png)
-* [xc5_multi_order00009.png]({{site.baseurl}}/attachments/8751079/9437196.png) (image/png)
-* [xc5_multi_settings.png]({{site.baseurl}}/attachments/8751079/9437194.png) (image/png)
-* [xc5_multi_order00009_1.png]({{site.baseurl}}/attachments/8751079/9437195.png) (image/png)
-* [xc5_multi_order00009.png]({{site.baseurl}}/attachments/8751079/9437193.png) (image/png)
-* [xc5_multi_transactions_history1.png]({{site.baseurl}}/attachments/8751079/9437198.png) (image/png)
-* [xc5_multi_transactions_history1.png]({{site.baseurl}}/attachments/8751079/9437197.png) (image/png)

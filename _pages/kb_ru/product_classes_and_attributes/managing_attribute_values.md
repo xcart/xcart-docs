@@ -1,10 +1,10 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-21 13:46 +0400'
+updated_at: '2017-11-27 11:47 +0400'
 identifier: ref_SuWz9rmN
 title: Работа со значениями атрибутов
-order: 30
+order: 60
 published: true
 ---
 Данная статья рассматривает следующие вопросы::
