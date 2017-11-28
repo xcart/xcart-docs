@@ -136,3 +136,67 @@ published: false
     Атрибут и его выбранное значение присвоены продукту и доступны в магазине.
 
 ## Просмотр глобальных атрибутов продукта
+
+If a product has any global attributes assigned, you can view their list in the "Global attributes" section of the product's details (**Attributes** tab** >** **Global **subsection):
+
+![]({{site.baseurl}}/attachments/7504857/8719308.png)
+
+## Editing global attributes
+
+Sometimes you may need to change the name and/or values of a global attribute. You can do so using one of the following methods:
+
+**Method 1:**
+
+1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
+2.  Click on the Edit attributes (N) link opposite the **Global attributes** title:
+    ![]({{site.baseurl}}/attachments/7504857/8719313.png)
+    This opens a page where you will be able to manage your store's global attributes.
+3.  In the list of global attributes, locate the attribute you need to edit and hover your cursor over its name. The **Attribute name** field will become visible and an **Edit** button will be displayed next to it:
+    ![]({{site.baseurl}}/attachments/7504857/8719315.png)
+4.  If you just need to change the attribute name, click inside the **Attribute name** field and edit the attribute name as you require. If you need to change the attribute values (or both the attribute name and values), click the **Edit** button; this will open a popup titled **Edit attribute values** where you will be able make the necessary changes.
+5.  If you want some or all of the attribute value(s) to be applied automatically to all the products that will be created in your store in future, be sure to "enable" the Check mark icon(s) opposite the names of these attribute values (the Check mark icons should turn green).
+6.  Once you're done editing, click **Save changes**.
+
+**Method 2:**
+
+1.  In your store's Admin area, find the product for which you want to edit a global attribute (This can be any product that has this attribute: you will be able to extend the changes to the other products in your store), open its details and click on the** Attributes** tab.
+2.  On the **Attributes** tab, click Global.
+3.  On the page that opens, locate the **Global attributes** page section.
+4.  Find the attribute you want to edit and make any changes you require:
+
+    *   To edit the attribute name, hover your cursor over it (the **Attribute name** field will become visible), click inside the **Attribute name** field and edit the attribute name as you require. 
+    *   To edit the attribute values, edit the **Attribute value** field(s).
+
+5.  Specify whether you want to apply the changes globally or locally:
+
+    *   Apply value changes globally => Changes of attribute values will apply for all the products in your store.
+    *   Apply value changes locally => Changes of attribute values will affect only this product. Changes of attribute names and of the attribute list (for example, changes of the order of attributes in the list, or removal of attributes) will affect all the products in your store.
+6.  Click **Save changes**.
+
+## Deleting global attributes
+
+Sometimes you may need to delete a global attribute. You can do so using one of the following methods:
+
+**Method 1:**
+
+1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
+2.  Click on the Edit attributes (N) link opposite the **Global attributes** title.
+    This opens a page where you will be able to manage your store's global attributes.
+3.  In the list of global attributes, locate the attribute you need to delete and click on the **Trash **icon opposite its name. The attribute will be marked for deletion.
+4.  Click **Save changes**.
+    The attribute will be deleted from the list of your store's global attributes and will be removed from the details of all products.
+
+**Method 2:**
+
+1.  In your store's Admin area, find any product that has the global attribute you want to delete, open its details and click on the** Attributes** tab.
+2.  On the **Attributes** tab, click Global.
+3.  On the page that opens, scroll down to the **Global attributes** section.
+4.  Find the attribute you want to delete and click on the **Trash** icon opposite its name. The attribute will be marked for deletion.
+5.  It does not matter whether the option "Apply value changes globally" is selected or not: deleting a global attribute here will be applied globally in any case (The attribute will be deleted from the list of your store's global attributes and will be removed from the details of all products).
+6.  Click **Save changes**.
+
+_Related pages:_
+
+*   {% link "Product classes and attributes" ref_T90ZcEpP %}
+*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
+
