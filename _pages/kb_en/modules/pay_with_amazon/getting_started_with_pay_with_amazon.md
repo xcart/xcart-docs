@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-28 17:53 +0400'
+updated_at: '2017-11-28 20:07 +0400'
 identifier: ref_hU2VNqiL
 title: Getting started with Amazon Pay
 categories:
@@ -15,7 +15,14 @@ This guide assumes that the Amazon Pay addon has been {% link "installed and en
 
 To start using Amazon Pay:
 
-1.  Register your Amazon Pay account. Amazon Pay is a new solution and is separate from the Checkout by Amazon (CBA) solution. The new Amazon Pay solution is packed with enhanced features. To benefit from it, you’ll need to register for a new Amazon Pay account. Sign up for FREE [here](https://sellercentral.amazon.com/hz/me/sp/signup?solutionProviderOptions=mws-acc%3B&marketplaceId=AGWSWK15IEJJ7&solutionProviderToken=AAAAAQAAAAEAAAAQfpVQU5xLh2akayccfpDvHQAAAHBxwuqxsJNuB0RIC7O5G8WhzHOcCVrQdj2jj2lI0XFV7ANl7TAgQVke%2BEj%2Fp4yOoi7YI2r0BGAwgwx5tnxTD2K1K25xgDeKuwXrD79YFecvGLGlAAN%2FpYwMOuoL%2BiyD1926Yc27EmAFLxYJfWlnYwmS&solutionProviderId=A1PQFSSKP8TT2U) if your business in based in US, or [here](https://payments.amazon.co.uk/preregistration/lpa?LD=SPUKAP_EX_XCart16) if your business is based in UK, Germany, Luxembourg, the Netherlands, Sweden, Portugal, Hungary or Denmark.
+1.  Register your Amazon Pay account. The Amazon Pay solution is packed with enhanced features. To benefit from it, you’ll need to register for a new Amazon Pay account. 
+
+    Sign up for FREE:
+    * [here](https://sellercentral.amazon.com/hz/me/sp/signup?solutionProviderOptions=mws-acc%3B&marketplaceId=AGWSWK15IEJJ7&solutionProviderToken=AAAAAQAAAAEAAAAQfpVQU5xLh2akayccfpDvHQAAAHBxwuqxsJNuB0RIC7O5G8WhzHOcCVrQdj2jj2lI0XFV7ANl7TAgQVke%2BEj%2Fp4yOoi7YI2r0BGAwgwx5tnxTD2K1K25xgDeKuwXrD79YFecvGLGlAAN%2FpYwMOuoL%2BiyD1926Yc27EmAFLxYJfWlnYwmS&solutionProviderId=A1PQFSSKP8TT2U) if your business in based in US;
+    
+    * [here](https://payments.amazon.co.uk/preregistration/lpa?LD=SPUKAP_EX_XCart16) if your business is based in the UK;
+    
+    * [here](https://payments.amazon.co.uk/preregistration/lpa?LD=SPUDEAP_EX_XCart16) Germany.
 
 2.  Log in to Amazon's Seller Central at [https://sellercentral.amazon.com](https://sellercentral.amazon.com/ "https://sellercentral.amazon.com") to complete a few extra steps. If you’ve registered for multiple Amazon services, you’ll see a dropdown at the top of the page that lets you move between the different services.
     ![]({{site.baseurl}}/attachments/7504636/7602352.png)
