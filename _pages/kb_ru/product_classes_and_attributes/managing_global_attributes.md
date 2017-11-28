@@ -64,27 +64,27 @@ published: false
     В секции **Глобальные атрибуты** создайте новые атрибуты, которые будут действовать на уровне всего магазина:
     ![]({{site.baseurl}}/attachments/7504857/8719305.png)
 
-3.  Use the **Global attributes** section to add information about the new attribute:
-    1.  Create a new empty entry in the attributes list (This is where you will specify your attribute name and value(s)): click the "down arrow" part of the **Add attribute** button and select the type of attribute value you require (_Plain field_, _Textarea_ or _Yes/No_) from the drop-down button menu. 
+3.  Укажите данные новых атрибутов:
+    1.  В меню **Добавить атрибут** выберите тип нового атрибута (предзаполненное поле, текстовое поле , да/нет). В списке атрибутов появится новая пустая строка, в которой необходимо указать название нового атрибута и его значения. 
         ![]({{site.baseurl}}/attachments/7504857/8719306.png)
-        (For an explanation of the different attribute value field types, see {% link "Managing attribute values" ref_bTfJ9bTS %}). 
-        As we are going to add the attribute  "Color" with values like "Orange", "Blue", etc., we should select the attribute value type "_Plain field_". "_Plain field_" is the default value, so we don't even need to use the drop-down menu: simply clicking **Add attribute** will create the empty fields we require:
+        (Дополнительная информация о типах значений атрибутов: {% link "Работа со значениями атрибутов" ref_SuWz9rmN %}). 
+        Для примера, мы создадим атрибут _Цвет_ со значениями _Серый, Белый_ и т.д., поэтому нам нужен тип атрибута _Предзаполненное поле_. Тип атрибута _Предзаполненное поле_ - это значение по умолчанию, поэтому можно просто нажать на кнопку **Добавить атрибут** и не выбирать значение из меню:
         ![]({{site.baseurl}}/attachments/7504857/8719307.png)
 
-    2.  Use the **Attribute name** and **Attribute option** fields to specify, respectively, the attribute name and value(s):
+    2.  Укажите название и значения атрибута:
         ![]({{site.baseurl}}/attachments/7504857/8719308.png)
 
-    3.  Choose whether you want to apply the changes you made locally or globally:
+    3.  Укажите область применения атрибута:
 
-        *   Apply value changes globally => Changes of attribute values will apply for all the products in your store.
-        *   Apply value changes locally => Changes of attribute values will affect only this product. Changes of attribute names and of the attribute list (for example, changes of the order of attributes in the list, or removal of attributes) will affect all the products in your store.For example, choosing to apply globally the attribute value "Orange" that we added for the attribute "Color" (see the snapshot below) will result in that all the products in your store will have the attribute "Color..........Orange" in their Specification. 
+        *   Для всех продуктов в каталоге.
+        *   Только для редактируемого продукта. Изменение названия атрибута и списка атрибутов (например, изменение позиции атрибута в списке или удаление атрибута из списка) затрагивает все продукты в магазине. Например, если значение _Серый_ атрибута _Цвет_ применено глобально, в описание всех продуктов в магазине появится атрибут _Цвет - Серый_. 
         ![]({{site.baseurl}}/attachments/7504857/8719309.png)
-        Note that when you apply attribute values globally, they are applied only to products that exist in the store's catalog at the time you save the changes. Any products that will be created at a later time will _not_ get these values automatically.
-    4.  Click the **Save changes** button at the bottom of the screen:
+        Обратите внимание, глобальное применение атрибута распространяется только на продукты, существующие в магазине на момент совершения данных изменений. Атрибут не будет автоматически присвоен продуктам, которые будут созданы в каталоге в будущем.
+    4.  Нажмите **Сохранить**:
         ![]({{site.baseurl}}/attachments/7504857/8719310.png)
 
-        The attribute will be added:
+        Атрибут создан:
         ![]({{site.baseurl}}/attachments/7504857/8719311.png)
-        Now if you view the product on the storefront,  the Specification tab on its details page will show the attribute "Color..........Orange". If at step 4c you chose to apply the attribute value "Orange" globally, all the products in your store will show the same attribute as well. If you kept the option "Apply value changes locally", the attribute value "Orange" will be applied only for the product you edited (However, you will be able to find "Orange" in the list of attribute values for the attribute "Color" and apply it to other products in your store manually).
+        В разделе **Характеристики** продукта в магазине появился атрибут _Цвет - Серый_. Если на шаге 4 это значение атрибута было применено глобально, то у всех продуктов появилась такая же запись. Если значение атрибута не было применено глобально, запись появилась только у редактируемого продукта. Но для других продуктов это значение атрибута всегда можно задать вручную.
 
-## Viewing your store's list of global attributes
+## Просмотр глобальных атрибутов магазина
