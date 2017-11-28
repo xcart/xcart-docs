@@ -1,7 +1,7 @@
 prose:
   # siteurl: 'https://kb5.x-cart.com/'
   # baseurl: '/xc5-docs'
-  reference: 'https://devs.x-cart.ru/links.xml'
+  reference: 'https://kb.x-cart.com/links.xml'
   media: 'attachments'
   ignore:
     - /_includes
@@ -53,7 +53,7 @@ prose:
       - name: "lang"
         field:
           element: "hidden"
-          value: "ru"
+          value: "en"
       - name: "title"
         field:
           element: "text"
@@ -111,3 +111,13 @@ prose:
           label: "Redirects from"
           placeholder: "/some_page.html"
           alterable: true
+    _pages/devs_ru:
+      - name: "lang"
+        field:
+          element: "hidden"
+          value: "ru"
+    _pages/kb_ru:
+      - name: "lang"
+        field:
+          element: "hidden"
+          value: "ru"
