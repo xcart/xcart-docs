@@ -102,6 +102,6 @@ published: false
 
 _Дополнительная информация:_
 
-*   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
+*   {% link "Классы и атрибуты продуктов" ref_pXBwGdtu %}
+*   {% link "Типы атрибутов продуктов по области применения" ref_XEdis9sU %}
 
