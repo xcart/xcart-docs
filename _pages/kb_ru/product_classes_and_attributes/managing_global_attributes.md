@@ -137,66 +137,65 @@ published: false
 
 ## Просмотр глобальных атрибутов продукта
 
-If a product has any global attributes assigned, you can view their list in the "Global attributes" section of the product's details (**Attributes** tab** >** **Global **subsection):
+Глобальные атрибуты продукта можно увидеть на странице продукта, на вкладке **Атрибуты**, в разделе **Глобальные атрибуты**:
 
 ![]({{site.baseurl}}/attachments/7504857/8719308.png)
 
-## Editing global attributes
+## Редактирование глобальных атрибутов
 
-Sometimes you may need to change the name and/or values of a global attribute. You can do so using one of the following methods:
+Как изменить название и свойства глобального атрибута:
 
-**Method 1:**
+**Способ 1:**
 
-1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  Click on the Edit attributes (N) link opposite the **Global attributes** title:
+1.  В панели управления магазина откройте страницу **Каталог / Классы и атрибуты**.
+2.  Нажмите **Редактировать атрибуты** справа от заголовка **Глобальные атрибуты**:
     ![]({{site.baseurl}}/attachments/7504857/8719313.png)
-    This opens a page where you will be able to manage your store's global attributes.
-3.  In the list of global attributes, locate the attribute you need to edit and hover your cursor over its name. The **Attribute name** field will become visible and an **Edit** button will be displayed next to it:
+    Откроется страница редактирования глобальных атрибутов магазина.
+3.  В списке атрибутов найдите тот, который необходимо изменить и наведите на него курсор. Справа появится кнопка **Изменить**:
     ![]({{site.baseurl}}/attachments/7504857/8719315.png)
-4.  If you just need to change the attribute name, click inside the **Attribute name** field and edit the attribute name as you require. If you need to change the attribute values (or both the attribute name and values), click the **Edit** button; this will open a popup titled **Edit attribute values** where you will be able make the necessary changes.
-5.  If you want some or all of the attribute value(s) to be applied automatically to all the products that will be created in your store in future, be sure to "enable" the Check mark icon(s) opposite the names of these attribute values (the Check mark icons should turn green).
-6.  Once you're done editing, click **Save changes**.
+4.  Если нужно изменить только название атрибута, нажмите внутри поля с названием и впишите новое. Если нужно изменить значения атрибута (или название и значения), нажмите **Изменить**, откроется окно, в котором можно редактировать всю информацию об атрибуте.
+5.  Некоторые или все значения атрибута могут автоматически присваиваться всем продуктам, которые будут созданы в каталоге в будущем. Для этого справа от значений атрибута нужно поставить галочки.
+6.  Нажмите **Сохранить**.
 
-**Method 2:**
+**Способ 2:**
 
-1.  In your store's Admin area, find the product for which you want to edit a global attribute (This can be any product that has this attribute: you will be able to extend the changes to the other products in your store), open its details and click on the** Attributes** tab.
-2.  On the **Attributes** tab, click Global.
-3.  On the page that opens, locate the **Global attributes** page section.
-4.  Find the attribute you want to edit and make any changes you require:
+1.  В панели управления магазина найдите продукт, для которого нужно редактировать глобальный атрибут, и перейдите на вкладку **Атрибуты**. Это может быть любой продукт с таким атрибутом, т.к. изменения для одного продукта можно автоматически применить ко всем остальным продуктам с таким же атрибутом.
+2.  На странице **Атрибуты** перейдите в **Глобальные атрибуты**.
+3.  На открывшейся странице найдите секцию **Глобальные атрибуты**.
+4.  Найдите атрибут, который нужно изменить:
 
-    *   To edit the attribute name, hover your cursor over it (the **Attribute name** field will become visible), click inside the **Attribute name** field and edit the attribute name as you require. 
-    *   To edit the attribute values, edit the **Attribute value** field(s).
+    *   Наведите курсор на атрибут, нажмте на название и редактируйте поле. 
+    *   Измените значения атрибута в полях значений.
 
-5.  Specify whether you want to apply the changes globally or locally:
+5.  Включите или отключите опцию **Применить изменения значений атрибутов для всех товаров**:
 
-    *   Apply value changes globally => Changes of attribute values will apply for all the products in your store.
-    *   Apply value changes locally => Changes of attribute values will affect only this product. Changes of attribute names and of the attribute list (for example, changes of the order of attributes in the list, or removal of attributes) will affect all the products in your store.
-6.  Click **Save changes**.
+    *   Опция включена => Изменеяются все продукты в магазине.
+    *   Опция выключена => Изменяется только редактируемый продукт. Изменение названия атрибута и списка атрибутов (например, изменение позиции атрибута в списке или удаление атрибута из списка) затрагивает все продукты в магазине.
+6.  Нажмите **Сохранить**.
 
-## Deleting global attributes
+## Удаление глобальных атрибутов
 
-Sometimes you may need to delete a global attribute. You can do so using one of the following methods:
 
-**Method 1:**
+**Способ 1:**
 
-1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  Click on the Edit attributes (N) link opposite the **Global attributes** title.
-    This opens a page where you will be able to manage your store's global attributes.
-3.  In the list of global attributes, locate the attribute you need to delete and click on the **Trash **icon opposite its name. The attribute will be marked for deletion.
-4.  Click **Save changes**.
-    The attribute will be deleted from the list of your store's global attributes and will be removed from the details of all products.
+1.  В панели управления магазина откройте страницу **Каталог / Классы и атрибуты**.
+2.  Нажмите **Редактировать атрибуты** справа от заголовка **Глобальные атрибуты**.
+Откроется страница редактирования глобальных атрпибутов магазина.
+3.  В списке атрибутов найдите тот, который необходимо удалить, и нажмите на значок корзины справа от него.
+4.  Нажмите **Сохранить**. Атрибут удален из списка глобальных атрибутов магазина и из описаний продуктов в магазине.
 
-**Method 2:**
+**Способ 2:**
 
-1.  In your store's Admin area, find any product that has the global attribute you want to delete, open its details and click on the** Attributes** tab.
-2.  On the **Attributes** tab, click Global.
-3.  On the page that opens, scroll down to the **Global attributes** section.
-4.  Find the attribute you want to delete and click on the **Trash** icon opposite its name. The attribute will be marked for deletion.
-5.  It does not matter whether the option "Apply value changes globally" is selected or not: deleting a global attribute here will be applied globally in any case (The attribute will be deleted from the list of your store's global attributes and will be removed from the details of all products).
-6.  Click **Save changes**.
+1.  В панели управления магазина найдите любой продукт с глобальным атрибутом, которй нужно удалить.
+2.  На странице **Атрибуты** этого продукта перейдите в **Глобальные атрибуты**.
+3.  На открывшейся странице найдите секцию **Глобальные атрибуты**.
+4.  В списке найдите атрибут, ктотрый нужно удалить, и нажмите на значок корзины справа от него.
+5.  При этом, статус опции **Применить изменения значений атрибутов для всех товаров**
+ не имеет значения, т.к. удаление глобального атрибута затрагивает все продукты в магазине. Глобальный атрибут будет удален из списка глоальных атрибутов и из описаний всех продуктов.
+6.  Нажмите **Сохранить**.
 
-_Related pages:_
+_Дополнительная информация:_
 
-*   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
+*   {% link "Классы и атрибуты продуктов" ref_pXBwGdtu %}
+*   {% link "Типы атрибутов продуктов по области применения" ref_XEdis9sU %}
 
