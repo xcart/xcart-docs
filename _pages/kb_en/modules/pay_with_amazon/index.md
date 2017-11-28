@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 17:44 +0400'
+updated_at: '2017-11-28 17:06 +0400'
 identifier: ref_mri0tPhM
 title: Pay with Amazon
 categories:
@@ -11,13 +11,12 @@ order: 200
 ---
 
 
-X-Cart's Pay with Amazon module provides an integration with Amazon Payments, a payment service that enables buyers to pay on your online store using the payment and shipping information already stored in their existing Amazon accounts. All the interaction of buyers with Amazon Payments takes place in embedded widgets, so that the buyers can complete the checkout process without ever leaving your website.
+X-Cart's Amazon Pay module provides an integration with Amazon Pay, a payment service that enables buyers to pay on your online store using the payment and shipping information already stored in their existing Amazon accounts. All the interaction of buyers with Amazon Pay takes place in embedded widgets so that the buyers can complete the checkout process without ever leaving your website.
 
 _In this section:_
 
-*   {% link "Pay with Amazon module system requirements and installation" ref_iCibZ9wD %}
-*   {% link "Getting started with Pay with Amazon" ref_hU2VNqiL %}
-*   {% link "Configuring the Pay with Amazon module" ref_0UssH5KP %}
-*   {% link "Pay with Amazon customer experience" ref_MQB8GDLT %}
-*   {% link "Pay with Amazon admin experience" ref_meqXfPIt %}
-
+*   {% link "Amazon Pay module system requirements and installation" ref_iCibZ9wD %}
+*   {% link "Getting started with Amazon Pay" ref_hU2VNqiL %}
+*   {% link "Configuring the Amazon Pay module" ref_0UssH5KP %}
+*   {% link "Amazon Pay customer experience" ref_MQB8GDLT %}
+*   {% link "Amazon Pay admin experience" ref_meqXfPIt %}
