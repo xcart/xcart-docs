@@ -7,58 +7,56 @@ title: Работа с группами атрибутов
 order: 70
 published: false
 ---
-If you have many different global or product class attributes, you can make them more manageable by dividing them into groups. Names of attribute groups will appear as headings in the list of attributes both on the storefront:
+Для работы с большим количеством глобальных атрибутов и атрибутов классов продуктов удобно разделить все атрибуты на группы. Названия групп атрибутов будут служить заголовками списков атрибутов как в магазине:
 
 ![]({{site.baseurl}}/attachments/7504788/7602420.png)
 
-and in the Admin area:
+так и в панели управления магазина:
 
 ![]({{site.baseurl}}/attachments/7504788/7602470.png)
 
-This page provides information on the following actions with attribute groups:
+Данная статья рассматривает следующие вопросы:
 
-*   [Adding attribute groups](#adding-attribute-groups);
-*   [Assigning attributes to an attribute group](#assigning-attributes-to-an-attribute-group);
-*   [Editing attribute groups](#editing-attribute-groups);
-*   [Deleting attribute groups](#deleting-attribute-groups).
+*   [Создание групп атрибутов](#adding-attribute-groups);
+*   [Включение атрибутов в группы](#assigning-attributes-to-an-attribute-group);
+*   [Редактирование групп атрибутов](#editing-attribute-groups);
+*   [Удаление групп атрибутов](#deleting-attribute-groups).
 
-## Adding attribute groups
+## Создание групп атрибутов
 
-To add a new attribute group:
+1.  В панели управления магазина откройте страницу **Каталог / Классы и атрибуты**.
 
-1.  In your store's Admin area, go to the **Classes & attributes** section (**Catalog > Classes & attributes**).
-
-2.  Depending on whether you will be creating the new group for gobal attributes or for the attributes of a specific product class, click on the Edit attributes (N) link either opposite the _Global attributes_ title or opposite the name of the product class:
+2.  В зависимости от того, группу каких атрибутов вы создаете, нажмите **Редактировать атрибуты** в строке _Глобальные атрибуты_ или в строке определенного класса продуктов:
     ![]({{site.baseurl}}/attachments/7504788/8719346.png)
-    This will open a page where you can manage attributes and attribute groups:
+    Откроется страница редактирования атрибутов и групп атрибутов:
     ![]({{site.baseurl}}/attachments/7504788/8719347.png)
     
-3.  Click the **Manage groups** button. 
+3.  Нажмите **Управление группами атрибутов**. 
     ![]({{site.baseurl}}/attachments/7504788/8719348.png)
-    A popup titled **Manage attribute groups** will appear: 
+    Откроется окно **Управление группами атрибутов**: 
     ![]({{site.baseurl}}/attachments/7504788/8719349.png)
     
-4.  Click the **New group** button. A new blank field will be displayed:
+4.  Нажмите **Новая группа**, появится новая пустая строка:
     ![]({{site.baseurl}}/attachments/7504788/8719350.png)
 
-5.  Use this field to enter a name for the group you would like to add. For example:
+5.  В новом поле напишите название группы атрибутов:
     ![]({{site.baseurl}}/attachments/7504788/8719351.png)
     
-6.  Click **Save changes**. The group will be added:
+6.  Нажмите **Сохранить**:
     ![]({{site.baseurl}}/attachments/7504788/8719352.png)
 
-After a new attribute group has been added, it does not yet have any attributes in it. To add attributes to the group, follow the guidelines in the section [Assigning attributes to an attribute group](#assigning-attributes-to-an-attribute-group).
+Создана группа атрибутов, но в нее пока не входит ни один атрибут. 
 
-## Assigning attributes to an attribute group
+## Включение атрибутов в группы
 
-After creating an attribute group, you need to populate it with attributes. Attributes can be added to an attribute group when creating or editing attributes in the **Classes & attributes** section (**Catalog > Classes & attributes**):
+Когда группа создана, нужно заполнить ее атрибутами. Это можно сделать на странице **Каталог / Классы и атрибуты** во время создания или редактирования атрибута:
 
-*   While creating a new attribute, you can select the group in which it should be created:
+*   Группу для атрибута можно выбрать во время создания нового атрибута:
     ![]({{site.baseurl}}/attachments/7504788/8719353.png)
-*   While editing an existing attribute, you can assign it to one of the existing attribute groups:
+*   Атрибут можно включить в одну из групп во время редактирования атрибута:
     ![]({{site.baseurl}}/attachments/7504788/8719354.png)
 
-## Editing attribute groups
+## Редактирование групп атрибутов
 
 It is possible to rename any existing attribute group and change the order in which attribute groups appear on the page.
 
