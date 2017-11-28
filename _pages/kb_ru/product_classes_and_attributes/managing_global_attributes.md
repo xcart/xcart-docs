@@ -89,51 +89,50 @@ published: false
 
 ## Просмотр глобальных атрибутов магазина
 
-To view your store's global attributes:
 
-1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  Click on the Edit attributes (N) link opposite the **Global attributes** title:
+1.  В панели управления магазина откройте странницу **Каталог / Классы и атрибуты**.
+2.  Нажмите **Редактировать атрибуты** справа от заголовка **Глобальные атрибуты**:
     ![]({{site.baseurl}}/attachments/7504857/8719313.png)
-    This opens a page with your store's global attributes list:
+    Откроется страница, содержащая список глобальных атрибутов всех продуктов магазина:
     ![]({{site.baseurl}}/attachments/7504857/8719314.png)
 
-In the list of global attributes, for each attribute you can see the attribute name and the field type that was used to add the attribute's values. 
+Для каждого атрибута в списке указано его название и тип значения. 
 
-To view the values for a specific attribute:
+Как посмотреть значения атрибута:
 
-1.  Hover your cursor over the line with the attribute's name. This will display an **Edit** button opposite the attribute's name:
+1.  Наведите курсор на название атрибута. Справа появится кнопка **Изменить**:
     ![]({{site.baseurl}}/attachments/7504857/8719315.png)
-2.  Click the **Edit** button. This will display the attribute's details, including the list of its values:
+2.  Нажмите **Изменить**. Откроется окно с информацией об атрибуте и его значениях:
     ![]({{site.baseurl}}/attachments/7504857/8719316.png) 
 
-## Assigning global attributes to products
+## Присвоение глобального атрибута продукту
 
-After adding global attributes via the Classes & attributes section (**Catalog > Classes & attributes**), you need to assign these attributes to specific products.
+Когда глобальные атрибуты уже созданы (на странице **Каталог / Классы и атрибуты**), они должны быть присвоены продуктам.
 
-In the following example, we will assign the global attribute "Color.....Orange" to the product named "12 oz. Plastic Cup, 100 count":
+В качестве примера, глобальный атрибут _Цвет - Розовый_ будет присвоен продукту _Блютусный Динамик Чашка Энергии_:
 
-1.  In your store's Admin area, find the product to which you need to assign a global attribute, open its details and click on the** Attributes** tab:
+1.  В панели управления магазина найдите продукт, для которого нужно создать глобальный атрибут, и перейдите на вкладку **Атрибуты**:
     ![]({{site.baseurl}}/attachments/7504857/8719303.png)
-    This will open a page where you can manage attributes for this product. 
-2.  Click on the __Global__ link at the top of the page to access the subsection where you can add and assign global and "product class"-level attributes to this product:
+    Откроется страница редактирования атрибутов продукта. 
+2.  Перейдите в раздел **Глобальные атрибуты**, здесь для данного продукта можно задать глобальные атрибуты, а также, атрибуты класса продуктов:
     ![]({{site.baseurl}}/attachments/7504857/8719304.png)
 
-3.  On the page that opens, scroll down to the **Global attributes** section and look at the list of attributes displayed in it:
+3.  В секции Глобальные атрибуты перечислены все глобальные атрибуты магазина. Если у какого-то атрибута не указано значение, значит, он еще не применен ни к какому продукту и не доступен в магазине:
     ![]({{site.baseurl}}/attachments/7504857/8719319.png)
-    Here you can see the full list of your store's global attributes. The attributes for which the **Attribute option** field is empty are not yet assigned to the product and are not shown on the storefront. 
-4.  For the attribute that needs to be assigned:
-    *   click inside the **Attribute option **field and type in the value you require, or:
-    *   click on the down arrow button at the right of the **Attribute option **field and select a previously configured attribute value from the drop-down list: 
+     
+4.  Как присвоить атрибут продукту:
+    *   впишите значение атрибута вручную:
+    *   или нажмите на кнопку меню поля значения атрибута и выберите одно из готовых значений: 
         ![]({{site.baseurl}}/attachments/7504857/8719320.png)
-        We have selected the value "Orange". In the screenshot below you can see it displayed in the **Attribute option** field:
+        В качестве примера, мы установили значение Розовый атрибута Цвет:
         ![]({{site.baseurl}}/attachments/7504857/8719308.png)
-        If you have more global attributes that need to be assigned to the product, repeat this for each of them.
+        Таким же образом можно присвоить несколько атрибутов одному продукту.
 
-5.  Choose whether you want to apply the selected attribute value(s) to this product only (select "Apply value changes locally") or to extend it/them to all the products of the same product class (select "Apply value changes globally").
+5.  Включите или отключи те опцию **Применить изменения значений атрибутов для всех товаров**, чтобы применить изменение ко всем продуктам магазина или только к редактируемому.
     ![]({{site.baseurl}}/attachments/7504857/8719309.png)
 
-6.  Click **Save changes**.
+6.  Нажмите **Сохранить**.
     ![]({{site.baseurl}}/attachments/7504857/8719310.png)
-    The attribute(s) and their selected value(s) will be assigned to the product, after which you will be able to see them on the storefront.
+    Атрибут и его выбранное значение присвоены продукту и доступны в магазине.
 
-## Viewing a product's global attributes
+## Просмотр глобальных атрибутов продукта
