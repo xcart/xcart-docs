@@ -53,16 +53,15 @@ published: false
 
 **Способ 2:**
 
-When using this method, you edit the details of some product and add global attributes via the **Attributes** tab of its details page. 
+Данный способ предусматривает редактирование продукта и создание глобальных атрибутов в разделе **Атрибуты** этого продукта. 
 
-The process is as follows:
 
-1.  In your store's Admin area, open the deails of any product that needs to be assigned a new global attribute and click on the** Attributes** tab:
+1.  В панели управления магазина откройте страницу любого продукта, для которого нужен новый атрибут, и перейдите на вкладку **Атрибуты**:
     ![]({{site.baseurl}}/attachments/7504857/8719303.png)
-    This will open a page where you can manage attributes for this product. 
-2.  Click on the __Global__ link at the top of the page to access the subsection where you can add and assign global and "product class"-level attributes to this product:
+    Откроется страница редактирования атрибутов этого продукта. 
+2.  Пройдите по ссылке **Глобальные атрибуты**. Это раздел, где вы можете создать глобальные атрибуты и атрибуты класса продуктов для данного продукта:
     ![]({{site.baseurl}}/attachments/7504857/8719304.png)
-    On the page that opens there will be the **Global attributes** section where you will add new attributes on the global level:
+    В секции **Глобальные атрибуты** создайте новые атрибуты, которые будут действовать на уровне всего магазина:
     ![]({{site.baseurl}}/attachments/7504857/8719305.png)
 
 3.  Use the **Global attributes** section to add information about the new attribute:
