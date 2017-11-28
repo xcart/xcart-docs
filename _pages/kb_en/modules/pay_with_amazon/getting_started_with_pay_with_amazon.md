@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-28 17:41 +0400'
+updated_at: '2017-11-28 17:53 +0400'
 identifier: ref_hU2VNqiL
 title: Getting started with Amazon Pay
 categories:
@@ -15,7 +15,7 @@ This guide assumes that the Amazon Pay addon has been {% link "installed and en
 
 To start using Amazon Pay:
 
-1.  Register your Amazon Payments account. Amazon Pay is a new solution and is separate from the Checkout by Amazon (CBA) solution. The new Amazon Pay solution is packed with enhanced features. To benefit from it, you’ll need to register for a new Amazon Payments account. Sign up for FREE [here](https://sellercentral.amazon.com/hz/me/sp/signup?solutionProviderOptions=mws-acc%3B&marketplaceId=AGWSWK15IEJJ7&solutionProviderToken=AAAAAQAAAAEAAAAQfpVQU5xLh2akayccfpDvHQAAAHBxwuqxsJNuB0RIC7O5G8WhzHOcCVrQdj2jj2lI0XFV7ANl7TAgQVke%2BEj%2Fp4yOoi7YI2r0BGAwgwx5tnxTD2K1K25xgDeKuwXrD79YFecvGLGlAAN%2FpYwMOuoL%2BiyD1926Yc27EmAFLxYJfWlnYwmS&solutionProviderId=A1PQFSSKP8TT2U) if your business in based in US, or [here](https://payments.amazon.co.uk/preregistration/lpa?LD=SPUKAP_EX_XCart16) if your business is based in UK, Germany, Luxembourg, the Netherlands, Sweden, Portugal, Hungary or Denmark.
+1.  Register your Amazon Pay account. Amazon Pay is a new solution and is separate from the Checkout by Amazon (CBA) solution. The new Amazon Pay solution is packed with enhanced features. To benefit from it, you’ll need to register for a new Amazon Pay account. Sign up for FREE [here](https://sellercentral.amazon.com/hz/me/sp/signup?solutionProviderOptions=mws-acc%3B&marketplaceId=AGWSWK15IEJJ7&solutionProviderToken=AAAAAQAAAAEAAAAQfpVQU5xLh2akayccfpDvHQAAAHBxwuqxsJNuB0RIC7O5G8WhzHOcCVrQdj2jj2lI0XFV7ANl7TAgQVke%2BEj%2Fp4yOoi7YI2r0BGAwgwx5tnxTD2K1K25xgDeKuwXrD79YFecvGLGlAAN%2FpYwMOuoL%2BiyD1926Yc27EmAFLxYJfWlnYwmS&solutionProviderId=A1PQFSSKP8TT2U) if your business in based in US, or [here](https://payments.amazon.co.uk/preregistration/lpa?LD=SPUKAP_EX_XCart16) if your business is based in UK, Germany, Luxembourg, the Netherlands, Sweden, Portugal, Hungary or Denmark.
 
 2.  Log in to Amazon's Seller Central at [https://sellercentral.amazon.com](https://sellercentral.amazon.com/ "https://sellercentral.amazon.com") to complete a few extra steps. If you’ve registered for multiple Amazon services, you’ll see a dropdown at the top of the page that lets you move between the different services.
     ![]({{site.baseurl}}/attachments/7504636/7602352.png)
@@ -59,7 +59,7 @@ To start using Amazon Pay:
 7.  In Seller Central, configure your instant notification settings (IPN):
     Under "Settings" -> "Integration Settings", enter your **Merchant URL**. The Sandbox and Production accounts each have separate values for this setting, so you must switch the view using the drop-down box at the top of the screen to set both. The URL you'll need to enter is `httрs://<YOUR_XCART_STORE>/cart.php?target=amazon_checkout&isipn=Y` (HTTPS is required when you configure your IPN URL for the production account. HTTP is only allowed for testing since no private customer data is passed in test mode). 
 
-8.  If you wish to use your own graphics (company logo) in the pop-up window where buyers will sign in to Amazon Payments, upload the image in Seller Central (This is called "Pop-up Window Banner" under "Settings" -> "Integration Settings"). Banner images must be 520 pixels wide by 50 pixels tall, and they must have no animation. Image files should be in .jpg or .gif format.
+8.  If you wish to use your own graphics (company logo) in the pop-up window where buyers will sign in to Amazon Pay, upload the image in Seller Central (This is called "Pop-up Window Banner" under "Settings" -> "Integration Settings"). Banner images must be 520 pixels wide by 50 pixels tall, and they must have no animation. Image files should be in .jpg or .gif format.
 
 9.  Test your setup in Sandbox mode. You can use the test account you set up earlier. We recommend trying out both your customer-facing checkout flow as well as order management to get a feel for how orders are processed.
 
