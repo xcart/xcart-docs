@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 17:53 +0400'
+updated_at: '2017-11-28 17:18 +0400'
 identifier: ref_0UssH5KP
 title: Configuring the Pay with Amazon module
 categories:
@@ -11,13 +11,13 @@ order: 130
 ---
 
 
-After the module has been {% link "installed and enabled" ref_iCibZ9wD %}, it needs to be configured.
+After the addon has been {% link "installed and enabled" ref_iCibZ9wD %}, it needs to be configured.
 
-To configure the module:
+To configure the addon:
 
-1.  In the Installed Modules section of your X-Cart store’s Admin area (**Extensions** >** Installed modules**), locate the entry for the Pay with Amazon module and click the **Settings **link below it:
+1.  In the Installed Addons section of your X-Cart store’s Admin area (**My addons**), locate the entry for the Amazon Pay addon and click the **Settings **link below it:
     ![]({{site.baseurl}}/attachments/7504637/7602403.png)
-    The "Pay with Amazon" module settings page opens:
+    The Amazon Pay settings page opens:
     ![]({{site.baseurl}}/attachments/7504637/7602404.png)
 
 2.  Adjust the settings on the page:
@@ -34,5 +34,4 @@ To configure the module:
 
 _Related pages:_
 
-*   {% link "Getting started with Pay with Amazon" ref_hU2VNqiL %}
-
+*   {% link "Getting started with Amazon Pay" ref_hU2VNqiL %}
