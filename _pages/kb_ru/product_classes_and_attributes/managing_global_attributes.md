@@ -5,7 +5,7 @@ updated_at: '2017-11-28 12:52 +0400'
 identifier: ref_o3s6sQgq
 title: Работа с глобальными атрибутами
 order: 50
-published: false
+published: true
 ---
 Данная статья рассматривает следующие вопросы:
 
