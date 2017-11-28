@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 17:50 +0400'
+updated_at: '2017-11-28 17:18 +0400'
 identifier: ref_iCibZ9wD
-title: Pay with Amazon module system requirements and installation
+title: Amazon Pay module system requirements and installation
 categories:
   - User manual
 published: true
