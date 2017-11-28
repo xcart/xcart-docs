@@ -35,7 +35,7 @@ prose:
     - Gemfile
     - Gemfile.lock
   metadata:
-    _pages:
+    _pages/kb_en:
       - name: "identifier"
         field:
           element: "text"
@@ -111,13 +111,234 @@ prose:
           label: "Redirects from"
           placeholder: "/some_page.html"
           alterable: true
-    _pages/devs_ru:
+
+    _pages/devs_en:
+      - name: "identifier"
+        field:
+          element: "text"
+          label: "Page identifier"
+          help: "Generate unique id for this page to be used as reference for link tag (Base64 preferred)"
+          value: ""
+      - name: "updated_at"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "article_with_sidebar"
       - name: "lang"
         field:
           element: "hidden"
-          value: "ru"
+          value: "en"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Description"
+          value: ""
+      - name: "version"
+        field:
+          element: "text"
+          label: "Suitable X-Cart version"
+          help: "Enter a message to distinct this page as valid only for some X-Cart versions. Update accordingly to the changes in the software."
+          placeholder: "X-Cart 5.2.1 - 5.2.15"
+          value: ""
+      - name: "icon"
+        field:
+          element: "text"
+          label: "Icon name"
+          help: "Icon name for this page (used in index menu). Refer to the Semantic-UI iconset."
+          value: ""
+      - name: "order"
+        field:
+          element: "number"
+          label: "Page position"
+          help: "Enables sorting if set to any non-negative number. Lower values mean higher position in sort order. Default value is 100"
+          value: "100"
+      - name: "keywords"
+        field:
+          element: "multiselect"
+          label: "Add keywords"
+          placeholder: "e.g. 'для начинающих', 'x-cart 5.3', ..."
+          alterable: true
+          options:
+            - name: "x-cart 5.2"
+              value: "x-cart 5.2"
+            - name: "x-cart 5.3"
+              value: "x-cart 5.3"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add categories"
+          placeholder: "Choose categories"
+          alterable: true
+          options:
+            - name: "Index page"
+              value: "home"
+            - name: "Top panel"
+              value: "top"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirects from"
+          placeholder: "/some_page.html"
+          alterable: true
+
     _pages/kb_ru:
+      - name: "identifier"
+        field:
+          element: "text"
+          label: "Page identifier"
+          help: "Generate unique id for this page to be used as reference for link tag (Base64 preferred)"
+          value: ""
+      - name: "updated_at"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "article_with_sidebar"
       - name: "lang"
         field:
           element: "hidden"
           value: "ru"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Description"
+          value: ""
+      - name: "version"
+        field:
+          element: "text"
+          label: "Suitable X-Cart version"
+          help: "Enter a message to distinct this page as valid only for some X-Cart versions. Update accordingly to the changes in the software."
+          placeholder: "X-Cart 5.2.1 - 5.2.15"
+          value: ""
+      - name: "icon"
+        field:
+          element: "text"
+          label: "Icon name"
+          help: "Icon name for this page (used in index menu). Refer to the Semantic-UI iconset."
+          value: ""
+      - name: "order"
+        field:
+          element: "number"
+          label: "Page position"
+          help: "Enables sorting if set to any non-negative number. Lower values mean higher position in sort order. Default value is 100"
+          value: "100"
+      - name: "keywords"
+        field:
+          element: "multiselect"
+          label: "Add keywords"
+          placeholder: "e.g. 'для начинающих', 'x-cart 5.3', ..."
+          alterable: true
+          options:
+            - name: "x-cart 5.2"
+              value: "x-cart 5.2"
+            - name: "x-cart 5.3"
+              value: "x-cart 5.3"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add categories"
+          placeholder: "Choose categories"
+          alterable: true
+          options:
+            - name: "Index page"
+              value: "home"
+            - name: "Top panel"
+              value: "top"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirects from"
+          placeholder: "/some_page.html"
+          alterable: true
+
+    _pages/devs_ru:
+      - name: "identifier"
+        field:
+          element: "text"
+          label: "Page identifier"
+          help: "Generate unique id for this page to be used as reference for link tag (Base64 preferred)"
+          value: ""
+      - name: "updated_at"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "article_with_sidebar"
+      - name: "lang"
+        field:
+          element: "hidden"
+          value: "ru"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Description"
+          value: ""
+      - name: "version"
+        field:
+          element: "text"
+          label: "Suitable X-Cart version"
+          help: "Enter a message to distinct this page as valid only for some X-Cart versions. Update accordingly to the changes in the software."
+          placeholder: "X-Cart 5.2.1 - 5.2.15"
+          value: ""
+      - name: "icon"
+        field:
+          element: "text"
+          label: "Icon name"
+          help: "Icon name for this page (used in index menu). Refer to the Semantic-UI iconset."
+          value: ""
+      - name: "order"
+        field:
+          element: "number"
+          label: "Page position"
+          help: "Enables sorting if set to any non-negative number. Lower values mean higher position in sort order. Default value is 100"
+          value: "100"
+      - name: "keywords"
+        field:
+          element: "multiselect"
+          label: "Add keywords"
+          placeholder: "e.g. 'для начинающих', 'x-cart 5.3', ..."
+          alterable: true
+          options:
+            - name: "x-cart 5.2"
+              value: "x-cart 5.2"
+            - name: "x-cart 5.3"
+              value: "x-cart 5.3"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add categories"
+          placeholder: "Choose categories"
+          alterable: true
+          options:
+            - name: "Index page"
+              value: "home"
+            - name: "Top panel"
+              value: "top"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirects from"
+          placeholder: "/some_page.html"
+          alterable: true
