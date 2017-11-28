@@ -58,51 +58,49 @@ published: false
 
 ## Редактирование групп атрибутов
 
-It is possible to rename any existing attribute group and change the order in which attribute groups appear on the page.
+Группу атрибутов можно переименовать, а также, можно изменить порядок следования атрибутов в группе.
 
-Here's how this can be done:
 
-1.  In your store's Admin area, go to the **Classes & attributes** section (**Catalog > Classes & attributes**).
+1.  В панели управления магазина откройте страницу **Каталог / Классы и атрибуты**.
 
-2.  Go to the appropriate list of attributes and attribute groups by clicking on the Edit attributes (N) link. For example, if we want to edit a group of global attributes, we should use the link opposite the _Global attributes_ title:
+2.  Откройте страницу редактирования атрибутов. Нажмите **Редактировать атрибуты** в строке _Глобальные атрибуты_ или в строке определенного класса продуктов:
     ![]({{site.baseurl}}/attachments/7504788/8719356.png)
     
-3.  On the page that opens, click the **Manage groups** button:
+3.  Нажмите **Управление группами атрибутов**:
     ![]({{site.baseurl}}/attachments/7504788/8719357.png)
-    A popup titled **Manage attribute groups** will appear.
+    Откроется окно **Управление группами атрибутов**.
     ![]({{site.baseurl}}/attachments/7504788/8719355.png)
 
-4.  Use the controls of the **Manage attribute groups** popup for editing:
+4.  Сделайте необходимые изменения:
 
-    *   To rename a group, click on its name. The group name field will become editable:
+    *   Нажмите на название группы атрибутов, чтобы изменить ее название:
         ![]({{site.baseurl}}/attachments/7504788/8719358.png)
-        Make the changes you require and click **Save changes**. The name of the attribute group will be updated.
-    *   To change the order of attribute groups on the list, simply drag and drop the items to their new positions. To drag an item, place your mouse cursor over the four-headed arrow to the left of its name (the cursor will change to a four headed arrow), hold down the mouse button and drag the item to a new position in the list.
+        Нажмите **Сохранить**.
+    *   Чтобы изменить порядок следования атрибутов в списке, нажмите на четырёхстороннюю стрелку слева от атрибута и переместите атрибут на новую позицию.
         ![]({{site.baseurl}}/attachments/7504788/8719360.png)
-        After rearranging the attribute groups as you require, be sure to click **Save changes**. The changes will be applied.
+        Нажмите **Сохранить**.
 
-## Deleting attribute groups
+## Удаление групп атрибутов
 
-When you no longer need a certain attribute group, you can delete it. Note that deleting a group does not delete the attributes that were assigned to it: after a group has been deleted, the attributes from the group will appear among other attributes having no associated groups.
+Если группа атрибутов стала не нужна, ее можно удалить. При удалении группы, входящие в нее атрибуты не удаляются. Эти атрибуты сохранятся в магазине, но не будут входить ни в какую группу атрибутов.
 
-To delete an attribute group:
+Как удалить группу атрибутов:
 
-1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
+1.  В панели управления магазина откройте страницу **Каталог / Классы и атрибуты**.
 
-2.  Go to the appropriate list of attributes and attribute groups by clicking on the Edit attributes (N) link. For example, if we want to delete a group of global attributes, we should use the link opposite the _Global attributes_ title:
+2.  Откройте страницу редактирования атрибутов. Нажмите **Редактировать атрибуты** в строке _Глобальные атрибуты_ или в строке определенного класса продуктов:
     ![]({{site.baseurl}}/attachments/7504788/8719356.png)
     
-3.  On the page that opens, click the **Manage groups** button:
+3.  Нажмите **Управление группами атрибутов**:
     ![]({{site.baseurl}}/attachments/7504788/8719357.png)
-    A popup titled **Manage attribute groups** will appear.
+    Откроется окно Управление группами атрибутов.
     
-4.  In the **Manage attribute groups** popup, locate the group that needs to be deleted and click on the Trash icon opposite its name:
+4.  Найдите группу, которую нужно удалить, и нажмите на значок корзины справа от ее названия:
     ![]({{site.baseurl}}/attachments/7504788/8719359.png)
-    The group will be marked for deletion.
-    
-5.  Click **Save changes**. The group will be deleted. Any attributes assigned to this group will become unassigned.
+        
+5.  Нажмите **Сохранить**
 
-_Related pages:_
+_Дополнительная информация:_
 
 *   {% link "Product classes and attributes" ref_T90ZcEpP %}
 *   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
