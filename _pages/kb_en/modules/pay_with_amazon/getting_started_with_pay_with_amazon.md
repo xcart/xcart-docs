@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 17:45 +0400'
+updated_at: '2017-11-28 17:41 +0400'
 identifier: ref_hU2VNqiL
-title: Getting started with Pay with Amazon
+title: Getting started with Amazon Pay
 categories:
   - User manual
 published: true
@@ -11,11 +11,11 @@ order: 120
 ---
 
 
-This guide assumes that the Pay with Amazon module has been {% link "installed and enabled" ref_iCibZ9wD %} in your store.
+This guide assumes that the Amazon Pay addon has been {% link "installed and enabled" ref_iCibZ9wD %} in your store.
 
-To start using Pay with Amazon:
+To start using Amazon Pay:
 
-1.  Register your Amazon Payments account. Pay with Amazon is a new solution and is separate from the Checkout by Amazon (CBA) solution. The new Pay with Amazon solution is packed with enhanced features. To benefit from it, you’ll need to register for a new Amazon Payments account. Sign up for FREE [here](https://sellercentral.amazon.com/hz/me/sp/signup?solutionProviderOptions=mws-acc%3B&marketplaceId=AGWSWK15IEJJ7&solutionProviderToken=AAAAAQAAAAEAAAAQfpVQU5xLh2akayccfpDvHQAAAHBxwuqxsJNuB0RIC7O5G8WhzHOcCVrQdj2jj2lI0XFV7ANl7TAgQVke%2BEj%2Fp4yOoi7YI2r0BGAwgwx5tnxTD2K1K25xgDeKuwXrD79YFecvGLGlAAN%2FpYwMOuoL%2BiyD1926Yc27EmAFLxYJfWlnYwmS&solutionProviderId=A1PQFSSKP8TT2U) if your business in based in US, or [here](https://payments.amazon.co.uk/preregistration/lpa?LD=SPUKAP_EX_XCart16) if your business is based in UK, Germany, Luxembourg, the Netherlands, Sweden, Portugal, Hungary or Denmark.
+1.  Register your Amazon Payments account. Amazon Pay is a new solution and is separate from the Checkout by Amazon (CBA) solution. The new Amazon Pay solution is packed with enhanced features. To benefit from it, you’ll need to register for a new Amazon Payments account. Sign up for FREE [here](https://sellercentral.amazon.com/hz/me/sp/signup?solutionProviderOptions=mws-acc%3B&marketplaceId=AGWSWK15IEJJ7&solutionProviderToken=AAAAAQAAAAEAAAAQfpVQU5xLh2akayccfpDvHQAAAHBxwuqxsJNuB0RIC7O5G8WhzHOcCVrQdj2jj2lI0XFV7ANl7TAgQVke%2BEj%2Fp4yOoi7YI2r0BGAwgwx5tnxTD2K1K25xgDeKuwXrD79YFecvGLGlAAN%2FpYwMOuoL%2BiyD1926Yc27EmAFLxYJfWlnYwmS&solutionProviderId=A1PQFSSKP8TT2U) if your business in based in US, or [here](https://payments.amazon.co.uk/preregistration/lpa?LD=SPUKAP_EX_XCart16) if your business is based in UK, Germany, Luxembourg, the Netherlands, Sweden, Portugal, Hungary or Denmark.
 
 2.  Log in to Amazon's Seller Central at [https://sellercentral.amazon.com](https://sellercentral.amazon.com/ "https://sellercentral.amazon.com") to complete a few extra steps. If you’ve registered for multiple Amazon services, you’ll see a dropdown at the top of the page that lets you move between the different services.
     ![]({{site.baseurl}}/attachments/7504636/7602352.png)
@@ -52,9 +52,9 @@ To start using Pay with Amazon:
 
         *   Go back to Seller Central ([http://sellercentral.amazon.com](http://sellercentral.amazon.com/)) to the "MWS Access Key" page to see the keys you'll need to enter in X-Cart.
 
-6.  In a new browser tab or window, log in to the Admin interface of your X-Cart store. Copy the account keys from Seller Central and paste them into X-Cart on the Pay with Amazon module settings page. Specify the rest of the settings (Operation mode, Currency, Capture mode) as required and save the configuration. We recommend setting the Operation mode to "Test" first, so you can create some orders in Sandbox mode and see how it works. For more info on the module configuration settings, see:
+6.  In a new browser tab or window, log in to the Admin interface of your X-Cart store. Copy the account keys from Seller Central and paste them into X-Cart on the Amazon Pay addon settings page. Specify the rest of the settings (Operation mode, Currency, Capture mode) as required and save the configuration. We recommend setting the Operation mode to "Test" first, so you can create some orders in Sandbox mode and see how it works. For more info on the module configuration settings, see:
 
-    *   {% link "Configuring the Pay with Amazon module" ref_0UssH5KP %}
+    *   {% link "Configuring the Amazon Pay addon" ref_0UssH5KP %}
 
 7.  In Seller Central, configure your instant notification settings (IPN):
     Under "Settings" -> "Integration Settings", enter your **Merchant URL**. The Sandbox and Production accounts each have separate values for this setting, so you must switch the view using the drop-down box at the top of the screen to set both. The URL you'll need to enter is `httрs://<YOUR_XCART_STORE>/cart.php?target=amazon_checkout&isipn=Y` (HTTPS is required when you configure your IPN URL for the production account. HTTP is only allowed for testing since no private customer data is passed in test mode). 
@@ -63,14 +63,14 @@ To start using Pay with Amazon:
 
 9.  Test your setup in Sandbox mode. You can use the test account you set up earlier. We recommend trying out both your customer-facing checkout flow as well as order management to get a feel for how orders are processed.
 
-10.  Once you’re ready to go live with your Pay with Amazon module, configure the module to production mode by setting its Operation mode to "Live", and you should be ready to go.
+10.  Once you’re ready to go live with your Amazon Pay addon, switch the addon to production mode by setting its Operation mode to "Live", and you should be ready to go.
 
 11.  Order Management
     You manage orders entirely within X-Cart’s order management interface, as you would with a standard credit card payment gateway. There's no need to process the orders via Amazon's Seller Central website as with Checkout by Amazon.
 
 _Related pages:_
 
-*   {% link "Pay with Amazon module system requirements and installation" ref_iCibZ9wD %}
-*   {% link "Configuring the Pay with Amazon module" ref_0UssH5KP %}
-*   {% link "Pay with Amazon customer experience" ref_MQB8GDLT %}
-*   {% link "Pay with Amazon admin experience" ref_meqXfPIt %}
+*   {% link "Amazon Pay addon system requirements and installation" ref_iCibZ9wD %}
+*   {% link "Configuring the Amazon Pay addon" ref_0UssH5KP %}
+*   {% link "Amazon Pay customer experience" ref_MQB8GDLT %}
+*   {% link "Amazon Pay admin experience" ref_meqXfPIt %}
