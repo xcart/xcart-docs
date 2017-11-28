@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-28 17:18 +0400'
 identifier: ref_0UssH5KP
-title: Configuring the Pay with Amazon module
+title: Configuring the Amazon Pay module
 categories:
   - User manual
 published: true
