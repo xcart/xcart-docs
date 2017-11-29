@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-21 13:35 +0400'
+updated_at: '2017-11-29 15:21 +0400'
 identifier: ref_oNqyWK0N
 title: Работа с классами продуктов
 order: 10
@@ -95,5 +95,9 @@ published: true
 3.  Нажмите **Сохранить**
     ![15.jpg]({{site.baseurl}}/attachments/ref_oNqyWK0N/15.jpg)
     Класс продуктов удален из списка.
+    
+    _Дополнительная информация:_
 
-
+*   {% link "Классы и атрибуты продуктов" ref_pXBwGdtu %}
+*   {% link "Типы атрибутов продуктов по области применения" ref_XEdis9sU %}
+*   {% link "Работа с атрибутами классов продуктов" ref_79cWvxmm %}
