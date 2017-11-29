@@ -54,68 +54,68 @@ published: false
 *   Желтая + С воздушным шариком,
 *   Фиолетовая + С воздушным шариком (недоступная комбинация).
 
-If we configure the above option combinations as product variants for the product  "Kitty Print Melamine Plate, 12 inch", our buyers will still be able to select the color and pattern of the kitty print as product options, but this time we won't need to worry about them selecting an unavailable option combination: first, you will be able to remove the variant "Orange + Dotted" as unavailable from the beginning; second, if any of the other variants goes out of stock, the store will automatically disable the respective option combination so that buyers will not be able to select it. 
+Если мы настроим такие сочетания опций в виде вариантов продукта Мышь, покупатели смогут выбрать цвет и украшение, но не смогут выбрать несуществующее сочетание этих опций. Сочетание _Фиолетовая + С воздушным шариком_ можно изначально удалить как несуществующее. А если любой другой вариант продукта будет раскуплен, он отключится автоматически, и данное сочетание опций не будет представлено в магазине. 
 
 ![]({{site.baseurl}}/attachments/7504786/7602670.png)
 
-## Managing product variants
+## Работа с вариантами продуктов
 
-To use product variants in your store, you will need to install the module **Product variants** by X-Cart team. For installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+Для создания вариантов продуктов необходимо установит модуль Варианты продуктов, разработанный командой X-Cart.  Как установить модуль описано в статье {% link "Установка модулей из Маркетплейса" ref_gpeZtm28 %}.
 
-As a result, you should have the module **Product variants** listed in your store's Installed modules section (**Extensions > Installed modules**). Make sure it is enabled:
+После установки модуль **Варианты продуктов** появится в списке установленных модулей на странице **Мои модули**. Модуль должен быть включен:
 
 ![]({{site.baseurl}}/attachments/7504786/8719378.png)
 
-To configure product variants for a product:
+Как создать варианты продукта:
 
-1.  In your store's Admin area, go to the details of the product for which you want to add product variants:
+1.  В панели управления магазина откройте страницу продукта, варианты которого нужно создать:
     ![]({{site.baseurl}}/attachments/7504786/8719362.png)
-2.  Check the contents of the **SKU** and **Price** fields on the **Product info** tab and of the **Quantity in stock** field on the **Inventory tracking** tab. These fields do not have to be completed, especially if you are going to set these values differently for each of the specific product variants you will create (You will have an opportunity to do it later on). However, if you are planning that some of these values will be the same for more than one product variant, you can specify them here, and they will be used as default values for any product variants that do not have their own variant-specific SKU, Price or Quantity in stock values defined.
+2.  Проверьте поля **Артикул** и **Цена** на странице общей информации о продукте? и поле **Остаток** на вкладке **Контроль остатков**. Эти поля должны быть пустыми, особенно, если у каждого варианта продукта будeт своb артикул, цена и остаток. Эти поля можно заполнить позже. Но, если у некоторых вариантов артикул, цена и остаток будут совпадать, соответствующие поля можно заполнить для основного продукта. Эти значения будут устанавливаться по умолчанию для вариантов, для которых не заданы уникальные артикул, цена и остаток.
 
-3.  Click on the **Attributes** tab to access the section where you will be able to edit the product's attributes: 
+3.  На странице продукта перейдите на вкладку **Атрибуты**: 
     ![]({{site.baseurl}}/attachments/7504786/8719363.png)
-4.  On the page that opens, add the {% link "multi-value product attributes" ref_bTfJ9bTS#multi-value-attributes-product-options %} whose values will be combined to create specific product variants. For the sake of example, we added two attributes - "Kitty print color" and "Kitty print pattern" - with their respective values "Blue", "Mint", "Orange", "Dotted" and "Plain":
+4.  Создайте {% link "многозначные атрибуты" ref_SuWz9rmN#многозначные-атрибуты-опции-продукта %}. Сочетания различных значений будут составлять варианты продукта. Например, мы создали два атрибута со значениями: _Цвет  - Голубой, Фиолетовый, Розовый_; и _Украшение - С шариком, Без шарика_:
     ![]({{site.baseurl}}/attachments/7504786/8719364.png)
-    (We configured our attribute values using the _Plain field_ option; to emphasize the presence or absence of some property or feature, use the _Yes/No_ field type).
-    Do not worry about setting any price modifiers - you will not need them as prices will be set individually for each product variant.
+    (Тип значений атрибутов продукта Мышь - _предзаполненное поле_. Чтобы сделать акцент на наличии или отсутствии какого-то свойства, лучше использовать тип значения атрибута _Да/Нет_).
+    Модификаторы цены можно не настраивать, т.к. цена будет задана для каждого варианта отдельно.
 
-5.  Click on the **Variants** tab to access the section where you will be able to manage the product's variants:
+5.  Перейдите на вкладку **Варианты**:
     ![]({{site.baseurl}}/attachments/7504786/8719365.png)
 
-6.  On the page that opens, you will see the list of all multi-value attributes - and their respective values - that have been configured for the product.
+6.  На этой странице вы найдете все многозначные атрибуты со значениями, которые были созданы для этого продукта.
     ![]({{site.baseurl}}/attachments/7504786/8719367.png) 
-    Specify the attributes whose values will be used to form product variants by selecting the check boxes to the left of the attribute names. For our example, we selected both the "Kitty print color" and "Kitty print pattern" attributes:
+    Галочками слева выделите атрибуты, из значений которых будут сформированы варианты. В нашем примере это _Цвет_ и _Украшение_:
 
     ![]({{site.baseurl}}/attachments/7504786/8719368.png)
 
-7.  Choose how you want to create variants: manually or automatially. For manual setup of product variants, click **Add variants manually**. To let X-Cart generate product variants for you automatically, click Create all possible variants (N) (The number in brackets shows the number of product variants that X-Cart will create).
-    We recommend using the manual method if you need to create just a couple of variants. If you need to create a larger number of variants, it will be easier to use the automated generation method; in this case, your X-Cart store will create all possible combinations of the product options, and you will need to disable any combinations that you do not stock.
-8.  If you have chosen to let X-Cart to generate variants for you, the next page will look similar to the following:
+7.  Варианты продуктов можно создать вручную, для этого нажмите **Создать варианты по одному**. Также, варианты могут быть созданы автоматически, для этого нажмите **Создать все возможные варианты**. В этом случае, в скобках указано количество вариантов, которые создаст X-Cart.
+    Если необходимо меньшее количество вариантов, лучше создавать варианты вручную. Если же необходимо много вариантов, удобнее создать их автоматически. X-Cart создаст все возможнные комбинации опций продукта, и можно будет просто отключить ненужные.
+8.  Так выглядит страница с вариантами, созданными автоматически:
     ![]({{site.baseurl}}/attachments/7504786/8719369.png)
-    Here you can see a list of six product variants that X-Cart was able to create by combining the options for the "Kitty print color" and "Kitty print pattern" attributes. Each line is a separate product variant for which we can set its own price, SKU and quantity in stock.
+    X-Cart сделал все возможные комбинации опций _Цвет_ и _Украшение_. Каждый вариант расположен на отдельной строке, и для него можно задать свои артикул, цену и количество в наличии.
 
-    If some of the product variants that were generated automatically do not exist in real life, remove them using one of the following methods:
+    Если какие-то из вариантов на самом деле не существуют в виде продукта, их можно удалить двумя способами:
 
-    *   Click the **Trash** icon next to the product variant that needs to be removed and click **Save changes**:
+    *   Нажмите на значок корзины справа от варианта, который нужно удалить, и нажмите **Сохранить**:
         ![]({{site.baseurl}}/attachments/7504786/8719370.png)
-    *   Select the variants that need to be removed, choose the _Delete selected_ action from from the **More actions for selected** menu, then confirm the action:
-        ![]({{site.baseurl}}/attachments/7504786/8719371.png)You can upload an image for each of  the variants. To set the prices, SKUs and quantities, simply specify them in the respective fields. You only need to specify values that do not equal the default ones. 
-    To specify the default variant, select the radio button for this variant in the second column.
+    *   Выделите варианты галочками слева и нажмите **Удалить**:
+        ![]({{site.baseurl}}/attachments/7504786/8719371.png)У каждого варианта может быт свое изображение. Артикулы, цены и количество можно задать на этой же странице. Но важно, чтобы эти значений отличались от стандартных значений основного продукта. 
+    Чтобы присвоить варианту все значения по умолчанию, следует отметить кнопку во второй колонке слева.
     ![]({{site.baseurl}}/attachments/7504786/8719374.png)
-    Be sure to save your changes by clicking **Save changes**.
+    Сохраните изменения.
 
-9.  If you have chosen to create product variants manually, the next page will look similar to the following:
+9.  Так выглядит страница, на которой варианты создаются вручную:
     ![]({{site.baseurl}}/attachments/7504786/8719375.png)
-    Here you can add variants one by one using the **Add variant** button. Click **Add variant**. A section for configuring your first product variant will be expanded below:
+    Нажмите **Добавить вариант**, появится новая пустая строка с полями варианта:
     ![]({{site.baseurl}}/attachments/7504786/8719376.png)
-    Adjust all the fields in this section as you require and click **Save changes**:
+    Заполните поля и нажмите **Сохранить**:
     ![]({{site.baseurl}}/attachments/7504786/8719377.png)
-    The variant will be added. Add the rest of the variants you require using the same method.
+    Вариант продукта создан. Другие варианты этого продукта можно создать таким же образом.
 
-Note that you can use the Create all possible variants (N) link at any time to generate the missing product variants. Don't worry, this will not ruin the variants you have already configured.
+На этой же странице в любой момент можно воспользоваться кнопкой Создать все возможные варианты, чтобы остальные варианты были созданы автоматически. При этом варианты, созданные вручную, сохраняются.
 
-_Related pages:_
+_Дополнительная информация:_
 
-*   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Managing attribute values" ref_bTfJ9bTS %}
+*   {% link "Классы и атрибуты продуктов" ref_pXBwGdtu %}
+*   {% link "Работа со значениями атрибутов" ref_SuWz9rmN %}
 
