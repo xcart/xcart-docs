@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-29 14:26 +0400'
+updated_at: '2017-11-29 14:55 +0400'
 identifier: ref_pXBwGdtu
 title: Классы и атрибуты продуктов
 description: Лёгкое управление ассортиментом товаров
@@ -49,4 +49,4 @@ icon: table
 
 Дополнительная информация о вариантах продуктов:
 
-{% link "Варианты продуктов" ref_1fbgU1JE %}
+*   {% link "Варианты продуктов" ref_1fbgU1JE %}
