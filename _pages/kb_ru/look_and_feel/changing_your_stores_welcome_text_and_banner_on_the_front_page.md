@@ -1,9 +1,9 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-30 15:43 +0400'
+updated_at: '2017-11-30 16:30 +0400'
 identifier: ref_akieAE07
-title: Приветственное соощбение и баннер  на главной странице магазина
+title: Приветственное сообщение и баннер  на главной странице магазина
 order: 20
 published: true
 ---
