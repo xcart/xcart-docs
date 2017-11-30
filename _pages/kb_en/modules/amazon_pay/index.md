@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-30 17:18 +0400'
+updated_at: '2017-11-30 17:23 +0400'
 identifier: ref_mri0tPhM
-title: Pay with Amazon
+title: Amazon Pay
 categories:
   - User manual
 published: true
