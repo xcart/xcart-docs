@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-30 17:20 +0400'
+updated_at: '2017-11-30 18:28 +0400'
 identifier: ref_0UssH5KP
-title: Configuring the Amazon Pay module
+title: Configuring the Amazon Pay addon
 categories:
   - User manual
 published: true
