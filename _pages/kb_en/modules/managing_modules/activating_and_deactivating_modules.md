@@ -1,12 +1,13 @@
 ---
-identifier: ref_uEnDBBA7
-updated_at: 2015-03-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Activating and deactivating modules'
+layout: article_with_sidebar
+updated_at: '2017-12-01 01:29 +0400'
+identifier: ref_uEnDBBA7
+title: Activating and deactivating addons
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
