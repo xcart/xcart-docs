@@ -7,45 +7,43 @@ title: Приветственное соощбение и баннер  на г�
 order: 20
 published: false
 ---
-By default, the Front page of your X-Cart store contains a dummy Welcome message and a dummy banner. Depending on your store's skin and layout, the placement of the banner and welcome message may be somewhat different. For example, here's what it looks like in X-Cart's Standard skin:
+На главной странице магазина X-Cart расположен пример приветственного текста и макет баннера. В зависимости от выбранного шаблона дизайна и разметки страниц магазина приветственный текст и баннер могут располагаться по-разному. Пример: расположение приветственного текста и баннера на главной странице X-Cart  со стандартным дизайном:
 
 ![xc5_banner_welcome_text.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_text.png)
 
-## Changing the default Welcome message
+## Изменение стандартного приветственного сообщения
 
-One of the first things you will want to do while setting up your new X-Cart store is to remove or change the default Welcome message. 
+Одна из первых задач в начале работы с магазином X-Cart - заменить стандартный текст на уникальный для магазина. 
 
-To change the default Welcome message, follow these steps:
+Как заменить текст приветственного сообщения:
 
-1.  In your store's Admin area, go to the Front page section (**Catalog > Front page** menu). Make sure you are viewing the **Front page** tab.
+1. В панели управления магазина откройте раздел редактирования главной страницы магазина (**Содержание** / **Главная страница**, вкладка **Главная страница**).
     ![xc5_banner_welcome_front_page_tab.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_front_page_tab.png)
 
-2.  Scroll down to the the Description field and edit the text "Welcome to X-Cart Demo Store!".
+2.  Найдите поле **Описание** и замените текст.
     ![xc5_banner_welcome_edit_text.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_edit_text.png)
-    If you do not want to use a Welcome text, simply remove the text used by default leaving the Description field blank.
+    Если на главной странице вашего магазина не должно быть приветственного сообщения, оставьте поле **Описание** пустым.
 
-3.  Click **Update** to save the changes.
+3.  Нажмите **Обновить**, чтобы сохранить изменения.
     ![xc5_banner_welcome_welcometext_update.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_welcometext_update.png)
 
-The Welcome text on the Customer area front page will be updated.
+Теперь на главной странице магазина отображается новый текст.
 
-## Changing the default Front page banner
+## Изменение стандартного баннера на главной странице магазина
 
-You will want to change the default banner image shown on the Customer area Front page. 
+Стандартный баннер можно заменить на другой или удалить. 
 
-You can replace the existing dummy banner with your own one, or you can disable the banner altogether. 
+За баннер отвечают настройки в разделе **Содержание / Главная страница**.
 
-The banner is controlled by the settings in the Front page section (**Catalog > Front page** menu) of your store's Admin area.
+Отключение баннера:
 
-To disable the banner:
-
-1.   Make sure you are viewing the **Banner rotation** tab.
+1.   На странице **Содержание / Главная страница** перейдите на вкладку **Ротация баннера**.
      ![xc5_banner_welcome_banner_rotation.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_banner_rotation.png)
 
-2.   Switch the **Enabled** switch to "Off".
+2.   Переключите опцию **Включено** на **ВЫКЛ**.
      ![xc5_banner_welcome_banner_disabled.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_banner_disabled.png)
 
-3.  Click **Submit** to save the changes.
+3.  Нажмите **Сохранить**.
     ![xc5_banner_welcome_banner_update.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_banner_update.png)
 
 To change the banner contents:
