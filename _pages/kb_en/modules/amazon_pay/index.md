@@ -7,7 +7,7 @@ title: Amazon Pay
 categories:
   - User manual
 published: true
-order: 200
+order: 100
 ---
 
 
