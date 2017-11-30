@@ -11,50 +11,33 @@ order: 100
 ---
 
 
-## Activating modules
+## Activating addons
 
-Sometimes the module you want to use is installed, but not active. To be able to use such a module, you need to activate it. 
+Sometimes the addon you want to use is installed, but not active. To be able to use such an addon, you need to activate it. 
 
-To activate an installed module:
+To activate an installed addon:
 
-1.  In your store's Admin area, click **Modules** to go to the **Installed Modules** section:
+1.  In your store's Admin area, click **My addons** to go to the **Installed Addons** section:
     ![]({{site.baseurl}}/attachments/7503971/8716504.png)
-2.  In this section, find the module that needs to be activated (for example, **Add to Cart Popup**):
+2.  In this section, find the addon that needs to be activated (for example, **Add to Cart Popup**):
     ![]({{site.baseurl}}/attachments/7503971/8716505.png)
 3.  Select the **Enabled **checkbox below its name:
     ![]({{site.baseurl}}/attachments/7503971/8716506.png)
-4.  Click the **Save changes** button at the bottom of the screen. This starts the activation process which may take a while to complete. After it is finished, the module will be activated in your store and ready to use:
+4.  Click the **Save changes** button at the bottom of the screen. This starts the activation process which may take a while to complete. After it is finished, the addon will be activated in your store and ready to use:
     ![]({{site.baseurl}}/attachments/7503971/8716507.png)
 
-## Deactivating modules
+## Deactivating addons
 
-It is possible to temporarily disable (deactivate) an installed module.
+It is possible to temporarily disable (deactivate) an installed addon.
 
-Note
+Note: Deactivation stops the addon from operation, but it does not remove the settings you made to the addon configuration nor clear any data that was generated or collected during the period that the addon was in operation. If you wish to completely remove all the data related to using a certain addon, you need to uninstall it.
 
-Icon
+To deactivate an installed addon:
 
-Deactivation stops the module from operation, but it does not remove the settings you made to the module configuration nor clear any data that was generated or collected during the period that the module was in operation. If you wish to completely remove all the data related to using a certain module, you need to uninstall it.
-
-To deactivate an installed module:
-
-1.  In the **Installed Modules** section of your store's Admin area, find the module that needs to be deactivated.
-2.  Unselect the **Enabled **checkbox below the module name.
-3.  Click **Save changes**. This starts the module deactivation process. After it is finished, the module will be disabled.
+1.  In the **Installed Addons** section of your store's Admin area, find the addon that needs to be deactivated.
+2.  Unselect the **Enabled **checkbox below the addon name.
+3.  Click **Save changes**. This starts the addon deactivation process. After it is finished, the addon will be disabled.
 
 _Related pages:_
 
-*   {% link "Managing modules" ref_gTOegEua %}
-
-## Attachments:
-
-* [extensions_installed_modules.png]({{site.baseurl}}/attachments/7503971/7602202.png) (image/png)
-* [module_disabled.png]({{site.baseurl}}/attachments/7503971/7602203.png) (image/png)
-* [module_selected.png]({{site.baseurl}}/attachments/7503971/7602204.png) (image/png)
-* [module_enabled.png]({{site.baseurl}}/attachments/7503971/7602205.png) (image/png)
-* [modules_menu.png]({{site.baseurl}}/attachments/7503971/8716504.png) (image/png)
-* [module_2_activate.png]({{site.baseurl}}/attachments/7503971/8716505.png) (image/png)
-* [module_enable_checkbox.png]({{site.baseurl}}/attachments/7503971/8716508.png) (image/png)
-* [module_enable_save.png]({{site.baseurl}}/attachments/7503971/8716509.png) (image/png)
-* [module_enable_checkbox.png]({{site.baseurl}}/attachments/7503971/8716506.png) (image/png)
-* [module_enable_save.png]({{site.baseurl}}/attachments/7503971/8716507.png) (image/png)
+*   {% link "Managing addons" ref_gTOegEua %}
