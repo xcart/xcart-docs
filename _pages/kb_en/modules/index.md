@@ -12,10 +12,9 @@ description: Discover the world of different building blocks for your shop
 published: true
 ---
 
-
 _In this section:_
 
-*   {% link "Managing modules" ref_gTOegEua %}
+*   {% link "Managing addons" ref_gTOegEua %}
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
 *   {% link "Amazon Pay" ref_mri0tPhM %} (former "Pay with Amazon")
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
