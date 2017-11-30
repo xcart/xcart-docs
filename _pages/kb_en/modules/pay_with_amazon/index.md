@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-30 17:45 +0400'
+updated_at: '2017-11-30 17:55 +0400'
 identifier: ref_UkLno8vo
-title: ''
+title: Pay with Amazon
 order: 100
 published: true
 ---
