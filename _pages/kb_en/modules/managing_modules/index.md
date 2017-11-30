@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-01 00:24 +0400'
 identifier: ref_gTOegEua
-title: Managing modules
+title: Managing addons
 categories:
   - User manual
 published: true
