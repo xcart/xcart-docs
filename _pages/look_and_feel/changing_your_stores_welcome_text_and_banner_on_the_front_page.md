@@ -46,27 +46,27 @@ published: false
 3.  Нажмите **Сохранить**.
     ![xc5_banner_welcome_banner_update.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_banner_update.png)
 
-To change the banner contents:
+Изменение содержания баннера:
 
-1.  Make sure you are viewing the **Banner rotation** tab.
+1.  На странице **Содержание / Главная страница** перейдите на вкладку **Ротация баннера**.
     ![xc5_banner_welcome_banner_rotation.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_banner_rotation.png)
 
-2.  Use the **Enabled** switch to specify whether the banner should be displayed (If you prefer not to show the banner just yet, set this switch to "Off". You will be able to publish the banner later on by setting the switch back to "On" and updating the banner settings).
+2.  Посредством опции **Включен**о баннер можно включить или отключить. Если вы хотите отключить баннер на время его редактирования, поставьте значение **ВЫКЛ**. Вы сможете включить баннер (опция **Включено ВКЛ**), когда он будет готов.
 
-3.  Set the **Banner inverval (in seconds)**. This setting is intended for a rotating banner - in which more than one images (banner frames) will be switched periodically. The setting specifies the frequency with which individual banner frames should be switched. If you create your banner using just one image, it will not rotate, so this setting will be ignored.
+3.  Установите интервал ротации баннера в секундах в поле **Время показа одного слайда (в секундах)**. Данная настройка работает для ротационного баннера, на котором периодически переключается несколько изображений. Настройка определяет частоту переключения с одного изображения на другое. Если баннер состоит только из одного изображения, переключение не происходит, и данная настройка не нужна.
 
-4.  Upload the image(s) for your banner. To create a simple static banner, you will need to upload just one image. To create a rotating banner, you will need to upload multiple images. For each image you can add a target link: when a store visitor clicks on the banner image, they will be redirected to the page you specify using this link (For example, this could be a link to the details page of a specific product or a specific product category).
+4.   Загрузите изображения для баннера. Для создания простого статичного баннера достаточно загрузить одно изображение. Для создания ротационного баннера, необходимо несколько изображений. Для каждого изображения можно задать целевую ссылку. Если покупатель нажмет на изображение в баннере, он перейдет на страницу, ссылка на которую указана для этого изображения. Например, это может быть ссылка на страницу определенного продукта или категории.
 
-    *   As your banner already contains some image frames by default, you will need to either replace these images with your own ones, or to disable the respective frames so they will not be displayed.
+    *   Т.к. баннер уже содержит несколько стандартных изображений, их следует заменить на новые или удалить.
         ![xc5_banner_welcome_disable_delete_banner.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_disable_delete_banner.png)
 
-    *   If you need more image frames than your banner already has, use the button **Add banner** to add more image frames. Clicking the button adds a new blank line to the table presenting the banner content; you can use it to add your image and image link.
+    *   Чтобы увеличить количество изображений баннера, нажмите **Добавить баннер**. В списке появится новое пустое поле, загрузите новое изображение и укажите для него целевую ссылку.
         ![xc5_banner_welcome_add_banner.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_add_banner.png)
 
-    *   You can rearrange the order in which your image frames are displayed by the banner by dragging and dropping the images within the banner content table.
+    *   Порядок следования изображений можно изменить, переместив изображения в списке.
         ![xc5_banner_welcome_reorder_images.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_reorder_images.png)
     
-5.  Click **Update** to save the changes.
+5.  Нажмите **Сохранить**.
 
-    The banner will be updated.
+   
 
