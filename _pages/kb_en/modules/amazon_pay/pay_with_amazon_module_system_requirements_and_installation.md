@@ -11,8 +11,6 @@ order: 110
 redirect_from:
   - >-
     /pay_with_amazon/pay_with_amazon_module_system_requirements_and_installation.html
-  - >-
-    /modules/pay_with_amazon/pay_with_amazon_module_system_requirements_and_installation.html
 ---
 
 
