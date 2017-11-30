@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-30 18:30 +0400'
 identifier: ref_MQB8GDLT
-title: Pay with Amazon customer experience
+title: Amazon Pay customer experience
 categories:
   - User manual
 published: true
