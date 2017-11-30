@@ -1,15 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-30 17:23 +0400'
+updated_at: '2017-11-30 17:54 +0400'
 identifier: ref_mri0tPhM
 title: Amazon Pay
 categories:
   - User manual
 published: true
 order: 200
-redirect_from:
-  - /pay_with_amazon/index.html
 ---
 
 
