@@ -9,7 +9,7 @@ published: false
 ---
 На главной странице магазина X-Cart расположен пример приветственного текста и макет баннера. В зависимости от выбранного шаблона дизайна и разметки страниц магазина приветственный текст и баннер могут располагаться по-разному. Пример: расположение приветственного текста и баннера на главной странице X-Cart  со стандартным дизайном:
 
-![xc5_banner_welcome_text.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_text.png)
+![1.jpg]({{site.baseurl}}/attachments/ref_akieAE07/1.jpg)
 
 ## Изменение стандартного приветственного сообщения
 
@@ -18,14 +18,15 @@ published: false
 Как заменить текст приветственного сообщения:
 
 1. В панели управления магазина откройте раздел редактирования главной страницы магазина (**Содержание** / **Главная страница**, вкладка **Главная страница**).
-    ![xc5_banner_welcome_front_page_tab.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_front_page_tab.png)
+    ![2.jpg]({{site.baseurl}}/attachments/ref_akieAE07/2.jpg)
 
 2.  Найдите поле **Описание** и замените текст.
-    ![xc5_banner_welcome_edit_text.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_edit_text.png)
+    ![3.jpg]({{site.baseurl}}/attachments/ref_akieAE07/3.jpg)
+
     Если на главной странице вашего магазина не должно быть приветственного сообщения, оставьте поле **Описание** пустым.
 
 3.  Нажмите **Обновить**, чтобы сохранить изменения.
-    ![xc5_banner_welcome_welcometext_update.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_welcometext_update.png)
+    ![4.jpg]({{site.baseurl}}/attachments/ref_akieAE07/4.jpg)
 
 Теперь на главной странице магазина отображается новый текст.
 
@@ -38,18 +39,18 @@ published: false
 Отключение баннера:
 
 1.   На странице **Содержание / Главная страница** перейдите на вкладку **Ротация баннера**.
-     ![xc5_banner_welcome_banner_rotation.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_banner_rotation.png)
+     ![5.jpg]({{site.baseurl}}/attachments/ref_akieAE07/5.jpg)
 
 2.   Переключите опцию **Включено** на **ВЫКЛ**.
-     ![xc5_banner_welcome_banner_disabled.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_banner_disabled.png)
+     ![6.jpg]({{site.baseurl}}/attachments/ref_akieAE07/6.jpg)
 
 3.  Нажмите **Сохранить**.
-    ![xc5_banner_welcome_banner_update.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_banner_update.png)
+    ![7.jpg]({{site.baseurl}}/attachments/ref_akieAE07/7.jpg)
 
 Изменение содержания баннера:
 
 1.  На странице **Содержание / Главная страница** перейдите на вкладку **Ротация баннера**.
-    ![xc5_banner_welcome_banner_rotation.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_banner_rotation.png)
+    ![8.jpg]({{site.baseurl}}/attachments/ref_akieAE07/8.jpg)
 
 2.  Посредством опции **Включен**о баннер можно включить или отключить. Если вы хотите отключить баннер на время его редактирования, поставьте значение **ВЫКЛ**. Вы сможете включить баннер (опция **Включено ВКЛ**), когда он будет готов.
 
@@ -58,13 +59,13 @@ published: false
 4.   Загрузите изображения для баннера. Для создания простого статичного баннера достаточно загрузить одно изображение. Для создания ротационного баннера, необходимо несколько изображений. Для каждого изображения можно задать целевую ссылку. Если покупатель нажмет на изображение в баннере, он перейдет на страницу, ссылка на которую указана для этого изображения. Например, это может быть ссылка на страницу определенного продукта или категории.
 
     *   Т.к. баннер уже содержит несколько стандартных изображений, их следует заменить на новые или удалить.
-        ![xc5_banner_welcome_disable_delete_banner.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_disable_delete_banner.png)
+        ![9.jpg]({{site.baseurl}}/attachments/ref_akieAE07/9.jpg)
 
     *   Чтобы увеличить количество изображений баннера, нажмите **Добавить баннер**. В списке появится новое пустое поле, загрузите новое изображение и укажите для него целевую ссылку.
-        ![xc5_banner_welcome_add_banner.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_add_banner.png)
+        ![10.jpg]({{site.baseurl}}/attachments/ref_akieAE07/10.jpg)
 
     *   Порядок следования изображений можно изменить, переместив изображения в списке.
-        ![xc5_banner_welcome_reorder_images.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_reorder_images.png)
+        ![11.jpg]({{site.baseurl}}/attachments/ref_akieAE07/11.jpg)
     
 5.  Нажмите **Сохранить**.
 
