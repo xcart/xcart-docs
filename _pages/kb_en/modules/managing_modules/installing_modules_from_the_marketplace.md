@@ -50,25 +50,6 @@ To install an addon from the X-Cart Marketplace:
 
 _Related pages:_
 
-*   {% link "Managing modules" ref_gTOegEua %}
+*   {% link "Managing addons" ref_gTOegEua %}
 *   Video: {% link "X-Cart 5 Module License Activation" ref_hU6Rb4tw %}
 
-## Attachments:
-
-* [extensions_marketplace.png]({{site.baseurl}}/attachments/7503967/7602192.png) (image/png)
-* [marketplace_whats_new.png]({{site.baseurl}}/attachments/7503967/7602193.png) (image/png)
-* [marketplace_sort_search.png]({{site.baseurl}}/attachments/7503967/7602194.png) (image/png)
-* [coupons_install.png]({{site.baseurl}}/attachments/7503967/7602230.png) (image/png)
-* [install_multiple.png]({{site.baseurl}}/attachments/7503967/7602196.png) (image/png)
-* [activate_key_b.png]({{site.baseurl}}/attachments/7503967/7602197.png) (image/png)
-* [activate_key.png]({{site.baseurl}}/attachments/7503967/7602198.png) (image/png)
-* [coupons_install.png]({{site.baseurl}}/attachments/7503967/7602195.png) (image/png)
-* [recently_installed.png]({{site.baseurl}}/attachments/7503967/8716503.png) (image/png)
-* [modules_menu.png]({{site.baseurl}}/attachments/7503967/8716497.png) (image/png)
-* [modules_menu.png]({{site.baseurl}}/attachments/7503967/8716496.png) (image/png)
-* [marketplace_link.png]({{site.baseurl}}/attachments/7503967/8716498.png) (image/png)
-* [modules_marketplace.png]({{site.baseurl}}/attachments/7503967/8716499.png) (image/png)
-* [marketplace_filters.png]({{site.baseurl}}/attachments/7503967/8716500.png) (image/png)
-* [install_module.png]({{site.baseurl}}/attachments/7503967/8716501.png) (image/png)
-* [purchase_module.png]({{site.baseurl}}/attachments/7503967/8716502.png) (image/png)
-* [recently_installed.png]({{site.baseurl}}/attachments/7503967/7602231.png) (image/png)
