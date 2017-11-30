@@ -9,8 +9,6 @@ categories:
 published: true
 order: 100
 ---
-
-
 ## Activating addons
 
 Sometimes the addon you want to use is installed, but not active. To be able to use such an addon, you need to activate it. 
