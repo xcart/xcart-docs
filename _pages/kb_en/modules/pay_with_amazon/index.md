@@ -7,4 +7,4 @@ title: ''
 order: 100
 published: true
 ---
-The addon Pay with Amazon has been updated and renamed to Amazon Pay.
+The addon Pay with Amazon has been updated and renamed to Amazon Pay. See the section on {% link "Amazon Pay" ref_mri0tPhM %}
