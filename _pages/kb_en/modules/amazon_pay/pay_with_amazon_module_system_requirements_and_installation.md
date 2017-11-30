@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-30 17:27 +0400'
+updated_at: '2017-11-30 18:10 +0400'
 identifier: ref_iCibZ9wD
 title: Amazon Pay module system requirements and installation
 categories:
@@ -11,6 +11,8 @@ order: 110
 redirect_from:
   - >-
     /pay_with_amazon/pay_with_amazon_module_system_requirements_and_installation.html
+  - >-
+    /modules/pay_with_amazon/pay_with_amazon_module_system_requirements_and_installation.html
 ---
 
 
