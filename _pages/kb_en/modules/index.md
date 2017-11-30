@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-31 14:22 +0400'
+updated_at: '2017-11-30 18:21 +0400'
 identifier: ref_mCs9Q9Uy
 title: Modules
 categories:
@@ -17,6 +17,7 @@ _In this section:_
 
 *   {% link "Managing modules" ref_gTOegEua %}
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
+*   {% link "Amazon Pay" ref_mri0tPhM %} (former "Pay with Amazon")
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
 *   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
 *   {% link "Blog system in X-Cart 5" ref_T5FrnC4x %}
@@ -30,7 +31,6 @@ _In this section:_
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
-*   {% link "Pay with Amazon" ref_mri0tPhM %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
 *   {% link "POS system for X-Cart" ref_BMTUgGt4 %}
 *   {% link "Product Feeds" ref_0gfIXwxH %}
