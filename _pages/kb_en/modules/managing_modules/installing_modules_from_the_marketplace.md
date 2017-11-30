@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:30 +0400'
+updated_at: '2017-12-01 01:53 +0400'
 identifier: ref_Vn1mMUw9
 title: Installing modules from the Marketplace
 categories:
@@ -9,19 +9,22 @@ categories:
 published: true
 order: 110
 ---
-
-
-To install a module from X-Cart Marketplace:
+To install an addon from the X-Cart Marketplace:
 
 1.  Log in to your store's Admin area and go to the** Modules Marketplace** section.
-    Click **Modules**:
-    ![]({{site.baseurl}}/attachments/7503967/8716496.png)
-    Then click on the View more addons in the Marketplace link to go to the **Modules Marketplace** section:
-    ![]({{site.baseurl}}/attachments/7503967/8716498.png)
+
+    Click **My addons** in the Admin menu:
+    ![xc5_modules_my_addons_link.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_my_addons_link.png)
+    
+    Then click on the "View more addons in Marketplace" link to go to the **Addons Marketplace** section:
+    ![xc5_modules_goto_addons_mktplce.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_goto_addons_mktplce.png)
+
     Your store will connect to X-Cart Marketplace to obtain the list of modules available there. You should see a page like the following:
-    ![]({{site.baseurl}}/attachments/7503967/8716499.png)
+    ![xc5_modules_addons_mktplce.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_addons_mktplce.png)
+
 2.  In the list of modules, locate the module you require (The filters at the top of the module list can help you do it faster):
     ![]({{site.baseurl}}/attachments/7503967/8716500.png)
+    
     Any modules that are already installed in your store will be marked "**Installed**" in the Marketplace. Other modules will have either the **Install** or **Purchase** button next to their name. The modules with the **Install** button are the ones that can be installed for free. The modules with the **Purchase** button are commercial modules that require purchasing a license. 
 3.  Depending on whether your chosen module is free or commercial, use one of the following methods:
 
