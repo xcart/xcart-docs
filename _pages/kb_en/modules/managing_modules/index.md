@@ -10,8 +10,7 @@ published: true
 order: 90
 ---
 
-
-The functionality of your X-Cart 5 based store can be extended by installing additional modules (add-ons). 
+The functionality of your X-Cart 5 based store can be extended by installing additional modules: add-ons. 
 
 After installing X-Cart 5 you will find that your store already has some installed addons. You can view their list in the Installed Addons section (available via the **My addons** menu item in the Admin menu). You can enable/disable specific addons according to your needs. See {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
 
