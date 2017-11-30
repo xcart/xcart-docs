@@ -19,10 +19,10 @@ To install an addon from the X-Cart Marketplace:
     Then click on the "View more addons in Marketplace" link to go to the **Addons Marketplace** section:
     ![xc5_modules_goto_addons_mktplce.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_goto_addons_mktplce.png)
 
-    Your store will connect to X-Cart Marketplace to obtain the list of modules available there. You should see a page like the following:
+    Your store will connect to the X-Cart Marketplace to obtain the list of addons available there. You should see a page like the following:
     ![xc5_modules_addons_mktplce.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_addons_mktplce.png)
 
-2.  In the list of modules, locate the module you require (The filters at the top of the module list can help you do it faster):
+2.  In the list of addons, locate the addon you require (The filters at the top of the addon list can help you do it faster):
     ![]({{site.baseurl}}/attachments/7503967/8716500.png)
     
     Any modules that are already installed in your store will be marked "**Installed**" in the Marketplace. Other modules will have either the **Install** or **Purchase** button next to their name. The modules with the **Install** button are the ones that can be installed for free. The modules with the **Purchase** button are commercial modules that require purchasing a license. 
