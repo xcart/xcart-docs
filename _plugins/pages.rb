@@ -3,6 +3,7 @@ module Jekyll
     safe true
     priority :highest
     def generate(site)
+      pages = []
       pages_dir = site.config['pages_path'] || './_pages'
       all_raw_paths = Dir["#{pages_dir}/**/*"]
       all_raw_paths.each do |f|
@@ -12,7 +13,7 @@ module Jekyll
           clean_filepath = f.gsub(/^#{pages_dir}\//, '')
           clean_dir = extract_directory(clean_filepath)
 
-          site.pages << PagesDirPage.new(site,
+          pages << PagesDirPage.new(site,
                                          site.source,
                                          clean_dir,
                                          filename,
@@ -20,6 +21,8 @@ module Jekyll
 
         end
       end
+
+      site.pages.concat(pages.select { |page| site.publisher.publish?(page) })
     end
 
     def extract_directory(filepath)
