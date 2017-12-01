@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-27 15:01 +0400'
+updated_at: '2017-12-01 16:38 +0400'
 title: Getting started
 identifier: ref_c4ZdVsX4
 categories:
@@ -13,7 +13,7 @@ description: >-
   with X-Cart SDK
 published: true
 ---
-Welcome to X-Cart 5 developer documentation. 
+Welcome to X-Cart 5 developer documentation.
 
 General idea of X-Cart customization is that each change can be done as a separate module. Since module files are separate from the core, upgrade of X-Cart can be performed simply by replacing files. The same way, module can be upgarded just by replacing its own files.
 
