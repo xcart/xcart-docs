@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-30 18:29 +0400'
+updated_at: '2017-12-04 12:20 +0400'
 identifier: ref_hU2VNqiL
 title: Getting started with Amazon Pay
 categories:
@@ -9,7 +9,7 @@ categories:
 published: true
 order: 120
 redirect_from:
-  - /pay_with_amazon/getting_started_with_pay_with_amazon.html
+  - /modules/pay_with_amazon/getting_started_with_pay_with_amazon.html
 ---
 
 
