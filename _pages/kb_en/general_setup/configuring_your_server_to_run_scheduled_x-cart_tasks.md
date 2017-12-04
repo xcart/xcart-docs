@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-27 11:00 +0400'
+updated_at: '2017-12-04 12:25 +0400'
 identifier: ref_lLqNzAaq
 title: Сonfiguring your server to run scheduled X-Cart tasks
 categories:
@@ -9,8 +9,9 @@ categories:
 published: true
 order: 200
 redirect_from:
-  - /%D1%81onfiguring_your_server_to_run_scheduled_x-cart_tasks.html
-  - /сonfiguring_your_server_to_run_scheduled_x-cart_tasks.html
+  - >-
+    /general_setup/%D1%81onfiguring_your_server_to_run_scheduled_x-cart_tasks.html
+  - /general_setup/сonfiguring_your_server_to_run_scheduled_x-cart_tasks.html
 ---
 
 
