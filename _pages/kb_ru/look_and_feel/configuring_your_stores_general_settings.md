@@ -7,96 +7,92 @@ title: Общие настройки магазина
 order: 40
 published: false
 ---
-The most general settings that determine your store's appearance and behavior can be found in the **Store setup > Cart & checkout** section, on the **General** tab:
+Общие настройки оформления и работы магазина реактируются на странице **Настройка магазина / Корзина & Оплата** на вкладке **Основные настройки:
 
-![]({{site.baseurl}}/attachments/7505478/8716538.png)
+![1.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/1.jpg)
 
-Below you can find some of the settings explained.
+## Описание настроек
 
-## Customer Zone settings
+## Параметры  зоны покупателей
 
-*   **Display check number for eCheck payment method**: This setting is used for stores using the Check payment method. It defines whether the payment information form provided to the customer who has chosen to pay by check should include a field for check number, or not.
+*   **Формат списка подкатегорий**: данная настройка определяет, как подкатегории отображаются на странице категории. Один из вариантов - _Иконки_, когда вместе с названиями подкатегорий отображается небольшая картинка:
+    ![2.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/2.jpg)
+    Второй вариант - _Список_, когда отображаются только названия подкатегорий:
+    ![3.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/3.jpg)
+    Настройка формата списка не влияет на корневые категории. За отображение корневых категорий отвечает опция **Формат списка категорий верхнего уровня** на странице **Содержание / Главная страница**.
 
-*   **Subcategory listings format**: This setting defines how subcategories should be displayed on category pages. 
-    Setting the subcategory listings format to "_Icons_" allows you to have icons displayed for your subcategories:
-    ![]({{site.baseurl}}/attachments/7505478/7602697.png)
-    Setting the format to "_List_" produces a simple list of subcategory names, without icons:
-    ![]({{site.baseurl}}/attachments/7505478/7602698.png)
-    Note that this setting does not apply to root (top level) categories. The appearance of root categories on the store's Front page can be adjusted with the setting 'Root category listings format' in the **Catalog > Front page** section.
+*   **Режим сортировки продуктов в категории по умолчанию**: настройка отвечает за порядок следования продуктов в категории.
+    Возможны следующие варианты:
 
-*   **Default order to sort products within a category**: This setting allows you to control the default display order for products within a category. 
-    The following options are available:
-
-    *   _Recommended_ - The product sort order defined by the store owner via the category settings:
-        ![]({{site.baseurl}}/attachments/7505478/8716548.png)
+    *   _Рекомендовано_ -  Порядок следования продуктов, определенный администратором магазина в настройках категорий:
+        ![4.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/4.jpg)
  
-    *   _By Price - cheapest first_ - The low to high price sort order (Products with the lowest price are displayed first).
+    *   _По возрастанию цены_ - От меньшей цены к большей (в начале идут продукты с меньшими ценами).
      
-    *   _By Price - cheapest last_ - The high to low price sort order (Products with the highest price are displayed first).
+    *   _По убыванию цены_ - От большей цены к меньшей (в начале идут продукты с большими ценами).
 
-    *   _By Name - A-Z_ - The sort order in which products are sorted by their names, A to Z direction.
+    *   _По названию, А-Я_ - Сортировка по названиям в алфавитном порядке от А до Я.
     
-    *   _By Name - Z-A_ - The sort order in which products are sorted by their names, Z to A direction.
+    *   _По названию, Я-А_ - Сортировка по названиям в обратном алфавитном порядке от Я до А.
 
-*   **Default order to sort products within a search result**: This setting allows you to control the default display order for products that may be displayed in a list of search results after someone searches for a product in the Customer area. 
+*   **Режим сортировки продуктов в результатах поиска по умолчанию**: Настройка позволяет установить порядок следования продуктов в результатах поиска в магазине. 
 
-*   **Default display mode for products list**: This setting allows you to set the default display mode for products on the storefront:
+*   **Режим отображения списка продуктов по умолчанию**: Настройка определяет способ отображения продуктов в магазине:
     
-    *   _Grid_:
-        ![]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_grid_view.png)
+    *   _Сетка_:
+        ![5.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/5.jpg)
     
-    *   _List_:
-        ![xc5_general_settings_list_view.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_list_view.png)
+    *   _Список_:
+        ![6.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/6.jpg)
 
-    *   _Table_:
-        ![xc5_general_settings_table_view.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_table_view.png)
+    *   _Таблица_:
+        ![7.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/7.jpg)
 
 
-*   **Products per category listing page**: This setting allows you to limit the number of products displayed on a category page. For example, if we set this to "2", only two products will be displayed per page. For the rest of the product list pagination will be provided:
-    ![]({{site.baseurl}}/attachments/7505478/7602705.png)
+*   **Количество товаров на странице категории**:  Данная настройка определяет количество продуктов на странице категории. Например, если установить значение 2, на странице категории будет только два продукта, все остальные продукты будут располагаться на других страницах:
+    ![8.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/8.jpg)
 
-*   **Minimum allowed order subtotal**: This setting allows you to set the minimum order amount a shopper must reach before being allowed to check out.
-    ![]({{site.baseurl}}/attachments/7505478/7602713.png)
+*   **Минимально возможная сумма заказ**:  С помощью этой настройки можно установить минимальную сумму заказа, при которой покупатель может начать оформление заказа.
+    ![9.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/9.jpg)
 
-*   **Maximum allowed order subtotal**: This setting allows you to set the maximum order amount. A shopper will be allowed to check out only if their order subtotal amount is less than this value.
-    ![]({{site.baseurl}}/attachments/7505478/7602714.png)
+*   **Максимально возможная сумма заказа**: С помощью этой настройки можно установить максимальную сумму заказа. Покупатель сможет приступить к оформлению заказа, только если сумма заказа меньше установленной суммы.
+    ![10.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/10.jpg)
     
-*   **Maximum order quantity (per product)** (used to be "Default purchase limit" in earlier X-Cart 5 versions): This setting allows you to limit the number of product units that a buyer can order at a time. If a buyer attempts to add to cart more product units than specified here, only the allowed quantity will be added; the buyer will be notified of the quantity adjustment with an appropriate message (For example, "Sorry, there's a limit of 1 per order for the product `<Product name>`. 1 unit(s) already in cart.")
+*   **Ограничение по количеству товара при заказе (на одну позицию)** Настройка позволяет ограничить количество единиц одного продукта в заказе. Если покупатель добавит в корзину больше единиц продукта, чем установлено данной настройкой, только допустимое количество окажется в корзине. Покупатель получит уведомление об изменении количества продукта (например, Продукт <Название продукта> может быть куплен только в количестве 1. 1 единица данного продукта уже в корзине).
 
-*   **Force customer to choose product options before adding a product to cart**: This setting affects the add to cart behavior of products with modifier options and products with product variants. When the option "Force customer to choose product options before adding a product to cart" is disabled, a shopper can drag and drop such products to cart without having to select any product options manually; the products are added to cart with default options:
-    ![]({{site.baseurl}}/attachments/7505478/7602715.png)
-    When this option is enabled, the "Drag and drop me to the cart" hint is not displayed for products with modifiers/variants, and the drag-and-drop to cart feature for such products is disabled. Instead, a shopper hovering their mouse over a product with modifiers/variants will see a note "Choose the product options first":
-    ![]({{site.baseurl}}/attachments/7505478/7602716.png)
-    The shopper will need to click on the product to access its details and make a selection of product options with which they want to add the product to cart.
+*   **Требовать от покупателя выбрать опции товара, прежде чем положить товар в корзину**: Настройка затрагивает добавление в корзину продуктов с опциями-модификаторами и продуктов с вариантами. Если эта опция _отключена_, покупатель может перетащить продукт в корзину, не выбирая опции вручную, продукт добавляется в корзину со стандартными опциями:
+    ![11.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/11.jpg)
+    Если опция _включена_, у продуктов с вариантами и опциями отключается возможность перетаскивания в корзину. Наведя курсор на такой продукт, покупатель увидит надпись **Выбрать опции**:
+    
+    Покупатель должен нажать на продукт и на странице информации о продукте выбрать опции, с которыми хочет приобрести продукт.
 
-*   **Redirect customer to the cart page after a product is added to cart**: When this option is enabled, after adding a product to cart a shopper is redirected to the cart page where they can see the item they just added. When the option is disabled, the shopper remains on the same page. Please note that this setting is not compatible with X-Cart's Add to Cart module: when the module Add to Cart popup is enabled, adding a product to cart results in a popup being displayed.
+*   **Перенаправлять клиента в корзину, после добавления в нее товара**: если эта опция _включена_, как только покупатель добавляет продукт в корзину, открывается страница корзины. Если опция _отключена_, покупатель остается на той же странице. Данная настройка не работает вместе с модулем **Add to Cart**. Если этот модуль включен, после добавления продукта в корзину открывается всплывающее окно.
 
-*   **Display "Add to cart" buttons for products in grid view**: This setting defines whether "Add to cart" buttons should be displayed for products in grid view, or not. The snapshot below demonstrates products in grid view with "Add to cart" buttons enabled: 
-    ![]({{site.baseurl}}/attachments/7505478/7602709.png)
-    Note that this setting affects only grid view (does not affect list view and table view; in list view and table view "Add to cart" buttons are displayed at all times - regardless of the value of this setting).
+*   **Показывать кнопку _Купить_ при отображении списка продуктов в режиме _Сетка_**: Настройка определяет, есть ли у продуктов кнопка **Купить** в режиме отображения продуктов _Сетка_. На скриншоте ниже показаны продукты с кнопкой **Купить**: 
+    ![13.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/13.jpg)
+    Включить или отключить кнопку **Купить** можно только в режиме _Сетка_, настройка не влияет на режимы _Список_ и _Таблица_. В режимах _Список_ и _Таблица_ кнопка **Купить** присутствует всегда, независимо от данной настройки.
 
-*   **Ask anonymous users to create an account or sign in before checkout**: When this option is enabled, a shopper who was not signed in when they clicked the Checkout button is provided with a page where they can sign in to their account or create a new account:
-    ![]({{site.baseurl}}/attachments/7505478/7602723.png)
-    When this option is disabled, such a page is not provided, and the shopper goes straight to the store's checkout page. 
-    Regardless of whether this option is enabled or disabled, on the checkout page, the shopper will still be able to sign in if they choose to do so: 
-    ![]({{site.baseurl}}/attachments/7505478/7602724.png)
-    And even if the "Sign in" link at the top of the page goes unnoticed, an existing user will be recognized by the system based on their email address and prompted to sign in:
-    ![]({{site.baseurl}}/attachments/7505478/7602725.png)
+*   **Предлагать анонимным пользователям войти под учетной записью до перехода на страницу оплаты**:  Если эта опция _включена_ и неавторизованный покупатель нажимает кнопку **Оформить заказ**, открывается страница, на которой покупателю предлагается зарегистрироваться или войти со своей учетной записью:
+    ![14.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/14.jpg)
+    Если эта опция _отключена_, страница авторизации/регистрации не открывается, и покупатель переходит на страницу оплаты заказа. Независимо от этой настройки, на странице оплаты заказа покупатель сможет авторизоваться. 
+    
+    ![15.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/15.jpg)
+    Даже если покупатель не нажмет на кнопку **Вход/Регистрация**, система распознает зарегистрированного пользователя по email и попросит его авторизоваться:
+    ![16.jpg]({{site.baseurl}}/attachments/ref_zvB4T4Td/16.jpg)
 
-*   **Terms and conditions relative URL**: You can create a static page for Terms and conditions using Simple CMS module and specify its relative url here. if field is empty (for example, Simple CMS is not installed, but you still need T&c), then lang var from ?target=terms (Terms and conditions text) is used (text will be displayed in a popup for Terms and conditions on checkout).  (Core, Simple CMS module not necessary)
+*   **Относительный URL страницы _Правила работы_**: Для размещения информации о правилах работы магазина можно создать статическую страницу с помощью модуля **Simple CMS** и в этом поле указать относительный путь к странице. Если поле не заполнено (например, если модуль **Simple CMS** не установлен, но страница о правилах работы все же необходима), то используется языковая переменная из текста **Правила работы** (?target=terms). Этот текст появляется во всплывающем окне **Правила работы магазина** на странице оплаты заказа. Модуль **Simple CMS** для этого не нужен. 
 
-*   **Next order #**: This field allows you to increase the order number starting from which orders in your store will be numbered. For example, if your store has just went into production and does not yet have many orders, your first customers may be scared off by the order numbers they get. For new customers, a business with order numbers like #1 or #2 may not seem trustworthy enough. To generate more trust, you can set this field, for example, to 103 (In practice, this value can be set to any number - the only requirement is that this number must be greater than the number of the latest order in your database). Your next order will then be #103, and after that you will get the order numbers #104, #105, etc.
+*   **Следующий номер заказа**:  данная настройка позволяет указать число, с которого будет начинаться нумерация заказов в магазине. Например, если магазин только начал работать и заказов еще не было, первых покупателей могут смутить номера их заказов. Номер заказа №1 или №2 не внушает доверия. В этом поле можно указать любое число, главное, чтобы оно было выше, чем номер последнего заказа в магазине, например, 103.  В этом случае, номера следующих заказов будут №103, №104, №105 и т.д.
 
-*   **Cart TTL (days)**: When a new visitor comes to an X-Cart based store for the first time, a "cart" is created for them in the store's database. Since a lot of visitors will leave the store without creating an account, it's no use storing their carts forever (For visitors who become registered customers, the "cart" is stored for the lifetime of the respective user account). The setting "Cart TTL (days)" allows you to limit the time period for which anonymous shopping carts (carts of visitors who do not have an account) should be stored in the database. Anonymous carts older than the number of days specified here will be considered old (expired) and will be scheduled for deletion by the internal cron service (See the setting below).
+*   **Срок жизни корзин (в днях)**:  Когда в магазин приходит новый посетитель, в базе для него создается корзина. Т.к. многие посетители покинут магазин, не зарегистрировавшись, нет необходимости сохранять их корзины. Корзины зарегистрированных пользователей сохраняется навсегда и привязываются к учетным записям. Данная настройка определяет, сколько дней корзина незарегистрированного посетителя магазина хранится в базе. Корзины, которым больше дней, чем указано здесь, будут считаться старыми, и внутренний крон сервис запланирует их удаление.
 
-*   **Enable internal cron service**: This setting allows you to enable/disable the use of your store's internal cron service. This service schedules the run of certain maintenance tasks required to keep your store running smoothly and problem-free (like removing the expired shopping carts of visitors who do not have an account with your store or performing other tasks implemented via X-Cart modules) at the periodicity of once per 100 user sessions (i.e. every time after your store gets 100 unique visitors). Your store's internal cron service is not related to {% link "console.php" ref_lLqNzAaq %} and does not require any external setup of the crontab on your system. If using the internal cron service causes performance problems for your store, we recommend disabling this option and using an external cron setup to run console.php. 
+*   **Включить планировщик**: Данная настройка включает и отключает внутренний крон сервис. Этот сервис планирует выполнение задач обслуживания, необходимых для поддержания бесперебойной работы магазина (например, удаление старых корзин незарегистрированных пользователей или выполнение других задач с участием модулей). Задачи обслуживания выполняются через каждые 100 пользовательских сессий, т.е. каждый раз, когда в магазине набирается 100 новый посетителей. Внутренний крон сервис не связан с _console.php_ и не требует внешней настройки файла расписания. Если внутренний крон сервис вызывает проблемы с работой магазина, рекомендуется отключить данную настройку и использовать внешний планировщик и _console.php_. 
 
-*   **Allow customers to sign up for membership**: This setting can be enabled to add a membership signup box on the customer profile details page. If a customer wishes to join some membership group, they will be able to use that box to specify the membership group they wish to join. After the customer's profile details with the specified membership are saved, a membership signup request will be submitted to the store administrator in the form of an email notification. The administrator can then choose whether to approve or decline it.
+*   **Разрешить покупателям запрашивать членство в одной из существующих групп покупателей**: Данная настройка активирует поле выбора членства на странице учетной записи покупателя. В этом поле покупатель может указать группу пользователей магазина, в которую он хотел бы вступить. Выбрав группу, покупатель сохраняет изменения в учетной записи, и запрос автоматически передается администратору магазина в виде email уведомления. Администратор магазина может одобрить или отклонить запрос на вступление в ту или иную группу пользователей.
 
-## Administrator Zone settings
+## Параметры зоны администратора
 
-*   **Products per page**: This setting allows you to specify the maximum number of products that can be displayed on a search results page in the store's back end.
-*   **Users per page**:  This setting allows you to specify the maximum number of users that can be displayed on a search results page in the store's back end.
-*   **Orders per page**:  This setting allows you to specify the maximum number of orders that can be displayed on a search results page in the store's back end.
-*   **The number of orders in the recent order list**: This setting allows you to specify the maximum number of orders that can be displayed in the "Recent orders" list in the store's back end.
-*   **Number of days to store the last login data**: This setting defines the lifespan of a "recent_login" cookie that is set by the store on a customer's computer when they log in. While being stored, the cookie allows the customer to return to the store without having to re-enter their user authentication details (username and password).
+*   **Количество товаров в списке**: настройка определяет количество продуктов на странице результатов поиска в зоне администратора.
+*   **Пользователей на страницу**: настройка определяет количество пользователей на странице результатов поиска в зоне администратора.
+*   **Количество заказов на страницу**: настройка определяет количество пзаказов на странице результатов поиска в зоне администратора.
+*   **Хранить данные о последнем входе (дни)**: настройка устанавливает срок жизни файла cookie _recent_login_, который устанавливается магазином на компьютере покупателя при входе в учетную запись. Пока этот файл действует, покупатель может входить в магазин под своей учетной записью, не вводя логин и пароль.
