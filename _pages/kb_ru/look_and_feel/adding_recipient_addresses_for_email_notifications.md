@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-12-04 17:33 +0400'
 identifier: ref_bSnAl0Ss
-title: Адреса получателей уведомление по электронной почте
+title: Адреса получателей уведомлений по электронной почте
 order: 50
 published: false
 ---
