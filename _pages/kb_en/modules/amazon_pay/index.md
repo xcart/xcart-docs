@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-30 18:01 +0400'
+updated_at: '2017-12-04 12:19 +0400'
 identifier: ref_mri0tPhM
 title: Amazon Pay
 categories:
