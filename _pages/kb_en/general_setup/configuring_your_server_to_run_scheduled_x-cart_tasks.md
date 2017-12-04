@@ -11,7 +11,6 @@ order: 200
 redirect_from:
   - >-
     /general_setup/%D1%81onfiguring_your_server_to_run_scheduled_x-cart_tasks.html
-  - /general_setup/сonfiguring_your_server_to_run_scheduled_x-cart_tasks.html
 ---
 
 
