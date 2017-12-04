@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-30 18:29 +0400'
+updated_at: '2017-12-04 12:21 +0400'
 identifier: ref_0UssH5KP
 title: Configuring the Amazon Pay addon
 categories:
@@ -9,7 +9,7 @@ categories:
 published: true
 order: 130
 redirect_from:
-  - /pay_with_amazon/configuring_the_pay_with_amazon_module.html
+  - /modules/pay_with_amazon/configuring_the_pay_with_amazon_module.html
 ---
 
 
