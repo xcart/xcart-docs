@@ -9,7 +9,7 @@ categories:
 published: true
 order: 180
 redirect_from:
-  - /en/look_and_feel/adding_new_items_to_your_store%27s_menus.html
+  - /look_and_feel/adding_new_items_to_your_store%27s_menus.html
 ---
 
 

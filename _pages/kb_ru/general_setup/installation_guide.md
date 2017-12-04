@@ -7,7 +7,7 @@ title: Руководство по установке X-Cart
 order: 10
 published: true
 redirect_from:
-  - /ru/документация_на_русском/установка_x-cart_5.html
+  - /документация_на_русском/установка_x-cart_5.html
 description: Получите советы по выбору и настройке сервера и установке X-Cart 5
 icon: download
 ---

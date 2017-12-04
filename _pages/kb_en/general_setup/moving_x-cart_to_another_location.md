@@ -7,7 +7,7 @@ title: Moving X-Cart to another location
 order: 310
 published: true
 redirect_from:
-  - /en/general_setup/changing_the_domain_name.html
+  - /general_setup/changing_the_domain_name.html
 ---
 ## Introduction
 

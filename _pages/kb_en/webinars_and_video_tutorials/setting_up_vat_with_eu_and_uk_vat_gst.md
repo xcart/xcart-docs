@@ -9,7 +9,7 @@ categories:
   - User manual
 published: true
 redirect_from:
-  - /en/webinars_and_video_tutorials/configuring_vat_in_x-cart_5.html
+  - /webinars_and_video_tutorials/configuring_vat_in_x-cart_5.html
 ---
 
 ## Introduction
