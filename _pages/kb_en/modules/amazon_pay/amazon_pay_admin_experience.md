@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-30 18:29 +0400'
+updated_at: '2017-12-04 12:23 +0400'
 identifier: ref_meqXfPIt
 title: Amazon Pay admin experience
 categories:
@@ -9,7 +9,7 @@ categories:
 published: true
 order: 150
 redirect_from:
-  - /pay_with_amazon/pay_with_amazon_admin_experience.html
+  - /modules/pay_with_amazon/pay_with_amazon_admin_experience.html
 ---
 
 
