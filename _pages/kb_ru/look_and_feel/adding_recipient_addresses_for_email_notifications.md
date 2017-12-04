@@ -5,71 +5,69 @@ updated_at: '2017-12-04 17:33 +0400'
 identifier: ref_bSnAl0Ss
 title: Уведомлений по электронной почте для сотрудников магазина
 order: 50
-published: false
+published: true
 ---
-Your store can detect various types of events and notify users about these events by email. For example, your store sends email notifications when someone creates a user profile at your store, when this profile is modifed, when a new order is created, then every time the order status is changed, and so on. Some notifications are sent to the store's personnel (like the site administrator, sales department, customer service, etc.), others - to the store's customer users (namely, the user who created the order, the user whose profile is modified and so on). 
+Магазин оповещает пользователей о различных событиях по электронной почте. Например, магазин высылает email уведомления, когда пользователь регистрируется или редактирует учетную запись, когда размещен новый заказ, когда меняется статус этого заказа и т.д. Одни уведомления направляются персоналу магазина (администратору, в отдел продаж, в службу поддержки), другие - покупателям (т.е. пользователям, которые размещают заказ, редактируют свою учетную запись и т.д.). 
 
-In this article we will focus on the email notifications intended for the store's personnel only.
+По умолчанию, все уведомления для сотрудников магазина направляются на email адрес администратора, указанный при установке магазина. Если в магазине несколько сотрудников или необходимо направлять разные уведомления на определенные адреса, можно создать несколько адресов для получения уведомлений. Это можно сделать в разделе **Контакты** на странице **Настройка магазина / Информация о магазине**:
 
-By default, all notifications in your store - except for the ones sent to customers - are sent to the administrator email address that was specified during X-Cart installation. If your store's personnel consists of more than just one person, or you just want to use different email addresses for different types of notifications, you can add more recepient addresses for email notifictions. This can be done via the _Contacts_ section of the Contact information page in your store's back end (**Store setup > Contact information**):
+![01.jpg]({{site.baseurl}}/attachments/ref_bSnAl0Ss/01.jpg)
 
-![]({{site.baseurl}}/attachments/7505260/7602606.png)
+Можно указать максимум 4 email адреса для получения уведомлений:
 
-All in all, you can have up to four different email addresses for your store's notifications:
+*   **Адрес администратора магазина**:
 
-*   **Site administrator e-mail**:
+Этот адрес используется как адрес отправителя в следующих уведомлениях:
 
-This email is used as the 'from' address for the following email messages:
+- сообщение о создании, изменении и удалении учетной записи пользователя (отправляется покупателю и в отдел по работе с клиентами);
 
-- notifications about the creation, modification or deletion of user profiles (sent to the Customer relations department and the user);
+- сообщение о неудачной попытке входа администратора (отправляется администратору магазина);
 
-- notifications about failed administrator login attempts (sent to the site administrator);
+- сообщение о создании, изменении  обработке заказа (отправляется покупателю и в Отдел продаж);
 
-- notifications about the creation, modification and processing of orders (sent to the Sales department and the customer);
+- сообщение об отправке заказа (отправляется покупателю);
 
-- notifications about the shipping of orders (sent to the customer);
+- сообщение о незавершенном или отмененном заказе (оправляется в Отдел продаж);
 
-- notifications about failed and canceled orders (sent to the Sales department);
+- сообщении о генерации ключа доступа для безопасного режима (содержит ссылки для полного и частичного восстановления).
 
-- notification about the generation of the store's safe mode access key (the message with your Hard and Soft reset links).
+Этот адрес используется как адрес получателя в следующих уведомлениях:
 
-This email is used as the 'to' address for the following email messages:
+- сообщении о генерации ключа доступа для безопасного режима (содержит ссылки для полного и частичного восстановления);
 
-- notification about the generation of the store's safe mode access key (the message with your Hard and Soft reset links);
+- сообщение о неудачной попытке входа администратора;
 
-- notifications about failed administrator login attempts 
+- сообщение о предельном снижении запаса продукта ;
 
-- notification about a product's stock level reaching the low limit ("Low limit warning");
+- сообщение о завершении экспорта данных (может отправляться, если экспорт занимает много времени).
 
-- notification about the completion of a data export process (may be sent in cases when data export takes a long time).
+*   **Адрес отдела по работе с клиентами**: 
 
-*   **Customer relations e-mail**: 
+Этот адрес используется как адрес отправителя в следующих уведомлениях:
 
-This email is used as the 'from' address for the following email messages:
+- сообщение, содержащее ссылку для восстановления пароля (отправляется, покупателям, запросившим восстановление пароля).
 
-- message with the password reset link (sent to users who have requested a password reset for their account).
+Этот адрес используется как адрес получателя в следующих уведомлениях:
 
-This email is used as the 'to' address for the following email messages:
+- сообщение о создании, изменении и удалении учетной записи пользователя .
 
-- notifications about the creation, modification or deletion of user profiles.
+*   **Адрес отдела продаж**:
 
-*   **Sales department e-mail**:
+Этот адрес используется как адрес отправителя в следующих уведомлениях:
 
-This email is used as the 'from' address for the following email messages:
+- сообщение о предельном снижении запаса продукта (отправляется администратору магазина);
 
-- notification about a product's stock level reaching the low limit (sent to the site admin);
+- сообщение о формировании заказа (отправляется покупателю);
 
-- notifications about the creation of orders (sent to the customer);
+- сообщения о незавершенных и отмененных заказах (отправляются покупателям).
 
-- notifications about failed and canceled orders (sent to the customer).
+Этот адрес используется как адрес получателя в следующих уведомлениях:
 
-This email is used as the 'to' address for the following email messages:
+- сообщения о формировании, изменении и обработке заказов;
 
-- notifications about the creation, modification and processing of orders;
+- сообщения о незавершенных и отмененных заказах .
 
-- notifications about failed and canceled orders.
+*   **Адрес службы поддержки**: 
 
-*   **HelpDesk/Support service e-mail**: 
-
-This email is used as the 'to' address for messages sent by store visitors via the Contact us form. It is also used in the message "No payment methods available. Please contact the `<a href=\"mailto:{{email}}\">store administrator</a>`.", which is displayed to customers when there aren't any payment methods available to them at checkout. Note that a separate recipient email address for the Contact us form may be configured on the module settings page for the Contact Us module.
+Этот адрес используется как адрес получателя в сообщениях, отправляемых посетителями магазина через форму обратной связи. Также, этот адрес используется в сообщении _Нет доступных способов оплаты. Пожалуйста, `<a href=\"mailto:{{email}}\">обратитесь к администратору</a>`_, которое покупатели видят на странице оплаты заказа в случае если нет подходящих способов оплаты. Можно задать отдельный адрес для формы обратной связи на странице настройки модуля **Contact Us**.
 
