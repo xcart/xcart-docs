@@ -1,3 +1,5 @@
+require "jekyll-redirect-from"
+
 module Jekyll
   class PagesDirGenerator < Generator
     safe true
@@ -54,3 +56,5 @@ module Jekyll
     end
   end
 end
+
+JekyllRedirectFrom::CLASSES = JekyllRedirectFrom::CLASSES.dup + [Jekyll::PagesDirPage]
