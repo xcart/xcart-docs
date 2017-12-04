@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-30 18:31 +0400'
+updated_at: '2017-12-04 12:20 +0400'
 identifier: ref_iCibZ9wD
 title: Amazon Pay addon system requirements and installation
 categories:
@@ -10,7 +10,7 @@ published: true
 order: 110
 redirect_from:
   - >-
-    /pay_with_amazon/pay_with_amazon_module_system_requirements_and_installation.html
+    /modules/pay_with_amazon/pay_with_amazon_module_system_requirements_and_installation.html
 ---
 
 
