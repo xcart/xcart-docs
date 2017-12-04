@@ -1,11 +1,13 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-27 15:21 +0400'
+updated_at: '2017-12-04 17:49 +0400'
 identifier: ref_TBDhOF2h
 title: Creating module
 order: 100
 published: true
+redirect_from:
+  - /getting_started/step_1_-_creating_simplest_module.html
 ---
 ## Introduction
 
