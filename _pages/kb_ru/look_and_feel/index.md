@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-12-04 13:58 +0400'
+updated_at: '2017-12-04 17:21 +0400'
 identifier: ref_y7rcXQsr
 title: Внешний вид магазина
 description: >-
@@ -16,3 +16,4 @@ categories:
 *   {% link "Логотип и пиктограмма магазина" ref_rbCbfRkR %}
 *   {% link "Приветственное сообщение и баннер на главной странице магазина" ref_akieAE07 %}
 *   {% link "Информация о компании" ref_dsAHxl1X %}
+*   {% link "Общие настройки магазина" ref_zvB4T4Td %}
