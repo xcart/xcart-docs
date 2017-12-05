@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-21 12:19 +0400'
+updated_at: '2017-12-05 11:33 +0400'
 identifier: ref_eqZRcCns
 title: Активация лицензии X-Cart 5
 order: 30
@@ -48,7 +48,7 @@ published: true
         ![xc5_licenses_activate_free_on_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_on_first.png)
 
 
-Как только вы нажмете на ссылку активации, окно закроется, и откроется страница с информацией о последствиях активации бесплатной лицензии.:
+Как только вы нажмете на ссылку активации, окно закроется, и откроется страница с информацией о результатах активации бесплатной лицензии:
          ![xc5_licenses_modules_tobe_removed.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_modules_tobe_removed.png)
          
 Т.к. пакет Business, на основе которого предоставляется 30-дневный пробный X-Cart, включает намного больше модулей, чем Базовый пакет, активация бесплатной лицензии приведет к удалению многих модулей. На этой странице вы видите модули, которые будут удалены.
