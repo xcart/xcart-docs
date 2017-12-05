@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-12-05 10:56 +0400'
+updated_at: '2017-12-05 11:17 +0400'
 identifier: ref_T6yRxWp5
 title: Создание новых страниц в магазине
 order: 60
@@ -28,10 +28,3 @@ published: true
     Новая страница появилась в списке в разделе **Страницы (Содержание / Страницы)**: 
     ![5.jpg]({{site.baseurl}}/attachments/ref_T6yRxWp5/5.jpg)
     Чтобы разместить ссылку на новую страницу в нижней части страницы или главном меню, откройте раздел **Меню (Содержание / Меню )** и создайте новый элемент в нужном меню со ссылкой на новую страницу.
-
-_Дополнительная информация:_
-
-*   {% link "Changing the Terms and conditions page" ref_r5b4EKhF %}
-*   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
-
-
