@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-12-01 01:53 +0400'
+updated_at: '2017-12-07 16:15 +0400'
 identifier: ref_Vn1mMUw9
 title: Installing addons from the Marketplace
 categories:
@@ -23,9 +23,9 @@ To install an addon from the X-Cart Marketplace:
     ![xc5_modules_addons_mktplce.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_addons_mktplce.png)
 
 2.  In the list of addons, locate the addon you require (The filters at the top of the addon list can help you do it faster):
-    ![]({{site.baseurl}}/attachments/7503967/8716500.png)
-    
-    Any modules that are already installed in your store will be marked "**Installed**" in the Marketplace. Other modules will have either the **Install** or **Purchase** button next to their name. The modules with the **Install** button are the ones that can be installed for free. The modules with the **Purchase** button are commercial modules that require purchasing a license. 
+    ![xc5_modules_mktplce_filtering.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_mktplce_filtering.png)
+     
+    Any addons that are already installed in your store will be marked "**Installed**" in the Marketplace. Other modules will have either the **Install** or **Purchase** button next to their name. The addons with the **Install** button are the ones that can be installed for free. The modules with the **Purchase** button are commercial modules that require purchasing a license. 
 3.  Depending on whether your chosen module is free or commercial, use one of the following methods:
 
     _Free modules_: 
@@ -52,4 +52,3 @@ _Related pages:_
 
 *   {% link "Managing addons" ref_gTOegEua %}
 *   Video: {% link "X-Cart 5 Module License Activation" ref_hU6Rb4tw %}
-
