@@ -28,27 +28,22 @@ To install an addon from the X-Cart Marketplace:
     Any addons that are already installed in your store will be marked "**Installed**" in the Marketplace. Other addons will have either the **Install** or **Purchase** button next to their name. The addons with the **Install** button are the ones that can be installed for free. The addons with the **Purchase** button are commercial modules that require purchasing a license. 
     ![xc5_modules_purchase_install_installed.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_purchase_install_installed.png)
     
-3.  Depending on whether your chosen module is free or commercial, use one of the following methods:
+3.  Depending on whether your chosen addon is free or commercial, use one of the following methods:
 
     _Free modules_: 
-    Select the module for installation by clicking Install below to the module name (It is possible to select more than one module on the page):
-    ![]({{site.baseurl}}/attachments/7503967/8716501.png)
-    Click the **Install modules** button at the bottom of the screen. This starts the installation process. 
+    Select the addon for installation by clicking **Install** below to the addon name (It is possible to select more than one module on the page).
+    Click the **Install addons** button at the bottom of the screen. This starts the installation process. 
 
     _Commercial modules_: 
-    Click the** Purchase** button next to the module name to purchase the module license. 
+    Click the** Purchase** button next to the addon name to purchase the addon license. 
+    After the license has been paid for, you will get an email message with your license key. The subject of this message is '**Your** "**Addon name**" **addon key**'. (The part "Addon name" should be replaced with the actual name of the addon). 
+    Use this key to {% link "activate your addon license" ref_qwhmJtqW#Activatingyourlicense-ModuleLicense %}. As soon as the license has been activated, the addon will be automatically installed at your store.
 
-    ![]({{site.baseurl}}/attachments/7503967/8716502.png)
+4.  Once the addon is installed, you will be redirected to the **Recently istalled addons **page where a success message will be displayed at the top of the screen. You will find the newly installed addon listed on the page.
 
-    After the license has been paid for, the marketplace portal will send you an email message with your license key (The subject of this message is '**Your** "**Module_name**" **addon key**', where Module_name is replaced by the actual name of the module). 
-    Use this key to {% link "activate your module license" ref_qwhmJtqW#Activatingyourlicense-ModuleLicense %}. As soon as the license has been activated, the module will be automatically installed at your store.
+    Now if you choose to view the list of your store's installed addons, the addon you have installed will be on the list. 
 
-4.  Once the module is installed, you will be redirected to the **Recently istalled modules **page where a success message will be displayed at the top of the screen. You will find the newly installed module listed on the page:
-    ![]({{site.baseurl}}/attachments/7503967/7602231.png)
-
-    Now if you choose to view the list of your store's installed modules, the module you have installed will be on the list. 
-
-    Note that after the module has been installed, it is already in the _Enabled_ (active) state. You can temporarily disable the module using the module deactivation instructions from the article {% link "Activating and deactivating modules" ref_uEnDBBA7 %}.
+    Note that after the addon has been installed, it is already in the _Enabled_ (active) state. You can temporarily disable the addon using the addon deactivation instructions from the article {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
 
 _Related pages:_
 
