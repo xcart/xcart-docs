@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-12-05 11:33 +0400'
+updated_at: '2017-12-08 14:40 +0400'
 identifier: ref_eqZRcCns
 title: Активация лицензии X-Cart 5
 order: 30
@@ -24,51 +24,53 @@ published: true
 
    *   _Способ 1:_
        При каждом входе в панель управления пробного магазина вы видите всплывающее уведомление об истечении срока тестирования X-Cart. Нажмите на _У меня есть лицензия_ в этом окне:
-       ![xc5_licenses_ihavealicensekey_link.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_ihavealicensekey_link.png)
+       ![1.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/1.jpg)
        Окно будет развернуто, в нижней части окна вы найдете нужную ссылку:
-       ![xc5_licenses_activate_free_license_link.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_license_link.png)
+       ![2.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/2.jpg)
 
    *   _Способ 2:_ В верхнем меню в панели управления магазина нажмите на ссылку **Активировать лицензию**:
-       ![xc5_licenses_activate_key_button_in_header.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_key_button_in_header.png)
+       ![3.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/3.jpg)
        Откроется окно, в котором вы найдете ссылку **Активировать бесплатную лицензию**:
-       ![xc5_licenses_license_key_registration.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_license_key_registration.png)
+       ![4.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/4.jpg)
 
    *    _Способ 3:_ Нажмите **Активировать лицензию** на странице Мои модули:
-        ![xc5_licenses_activate_license_key_in_installed_modules.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules.png)
+        ![5.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/5.jpg)
         Откроется окно со ссылкой для активации лицензии:
-        ![xc5_licenses_activate_license_key_in_installed_modules1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules1.png)
+        ![6.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/6.jpg)
+
         Нажмите на ссылку, появятся дополнительные опции. Выберите опцию **Активировать бесплатную лицензию**:
-        ![xc5_licenses_activate_free_on_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_on_first.png)
+        ![7.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/7.jpg)
 
    *   _Способ 4:_ Нажмите **Активировать лицензию** на странице Маркетплейс:
-        ![xc5_licenses_activate_license_key_in_marketplace.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace.png)
+        ![8.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/8.jpg)
+
         Откроется окно со ссылкой для активации лицензии:
-        ![xc5_licenses_activate_license_key_in_marketplace1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace1.png)
+        ![9.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/9.jpg)
+
          Нажмите на ссылку, появятся дополнительные опции. Выберите опцию **Активировать бесплатную лицензию**:
-        ![xc5_licenses_activate_free_on_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_on_first.png)
+        ![10.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/10.jpg)
 
 
-Как только вы нажмете на ссылку активации, окно закроется, и откроется страница с информацией о результатах активации бесплатной лицензии:
-         ![xc5_licenses_modules_tobe_removed.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_modules_tobe_removed.png)
+Как только вы нажмете на ссылку активации, окно закроется, и откроется страница с информацией об активации бесплатной лицензии:
+         ![11.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/11.jpg)
          
 Т.к. пакет Business, на основе которого предоставляется 30-дневный пробный X-Cart, включает намного больше модулей, чем Базовый пакет, активация бесплатной лицензии приведет к удалению многих модулей. На этой странице вы видите модули, которые будут удалены.
 
 На этом шаге требуется подтверждение, что бесплатная лицензия (Базовый пакет) может быть активирована, а модули удалены. Если какие-то из модулей понадобятся после активации Базового пакета, будет необходимо обменять лицензию X-Cart на платную.
 
 В нижней части страницы введите адрес электронной почты, которую вы хотите привязать к Базовому магазину X-Cart:
-          ![xc5_licenses_license_email.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_license_email.png)
+          ![12.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/12.jpg)
 
 Нажмите **Активировать**. Начнется процесс активации, он может занять несколько минут:
-          ![]({{site.baseurl}}/attachments/8225232/8356127.png)
+          ![13.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/13.jpg)
     
 Пожалуйста, не закрывайте страницу до полного завершения активации лицензии.
 
 По завершении активации сверху на странице появится системное подтверждение:
-          ![xc5_licenses_activation_successful.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activation_successful.png)
+          ![14.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/14.jpg)
 
 Теперь в верхнем меню в панели управления магазина указан тип лицензии и версия магазина:
-          ![xc5_licenses_free_version.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_free_version.png)
-
+          ![15.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/15.jpg)
 
 ## Активация платной лицензии X-Cart (Business, Multivendor или Ultimate)
 
@@ -76,22 +78,24 @@ published: true
 Данный раздел описывает активацию лицензии для X-Cart Business, Multivendor и Ultimate.
 
 Если вы еще не купили лицензию, ее можно приобрести прямо через панель управления магазина. Самое простое - пройти по ссылке **Купить лицензию** в окне, которое вы видите каждый раз при входе в пробный магазин:        
-          ![xc5_licenses_purchase_premium_license_key.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_purchase_premium_license_key.png)
+          ![16.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/16.jpg)
 
 Другие способы приобрести лицензию X-Cart:
 
    *   _Способ 1:_ Нажмите **Активировать лицензию** на верхнем меню в панели управления магазина:
-       ![xc5_licenses_activate_key_button_in_header.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_key_button_in_header.png)
+       ![17.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/17.jpg)
     
    *   _Способ 2:_ Нажмите на ссылку **Активировать лицензию** на странице Мои модули:
-       ![xc5_licenses_activate_license_key_in_installed_modules.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules.png) 
+       ![18.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/18.jpg)
+
         затем, нажмите на ссылку **Активировать лицензию**:
-        ![xc5_licenses_activate_license_key_in_installed_modules1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules1.png)
+        ![19.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/19.jpg)
            
    *   _Способ 3:_ Нажмите **Активировать лицензию** на странице Маркетплейс:
-       ![xc5_licenses_activate_license_key_in_marketplace.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace.png)      
+       ![20.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/20.jpg)
+      
        затем, нажмите на ссылку **Активировать лицензию**:
-       ![xc5_licenses_activate_license_key_in_marketplace1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace1.png)
+       ![21.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/21.jpg)
         
 После покупки лицензии X-Cart Business, Multivendor или Ultimate по электронной почте вы получаете письмо, содержащее 16-значный код для активации лицензии. 
 
@@ -103,13 +107,13 @@ published: true
 Если вы потеряли письмо с ключом и не можете попасть в учетную запись в HelpDesk, обратитесь за помощью в группу поддержки X-Cart **[support@x-cart.com](mailto:support@x-cart.com)**.
 
 Чтобы активировать лицензию, в панели управления магазина введите лицензионный ключ в специальную форму активации магазина. В пробной версии X-Cart эту форму можно найти так же, как и в случае покупки лицензии, описанном выше. Если до этого вы уже активировали лицензию, форма активации доступна только на страницах **Мои модули** и **Маркетплейс**. 
-      ![xc5_licenses_activate_premium.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_premium.png)
+      ![22.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/22.jpg)
 
 Как только активация лицензии завершится, сверху на странице появится системное подтверждение:
-      ![]({{site.baseurl}}/attachments/8225232/8716605.png)
+      ![23.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/23.jpg)
 
 Теперь в верхнем меню указан тип активированной лицензии:
-      ![]({{site.baseurl}}/attachments/8225232/8716606.png)
+      ![24.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/24.jpg)
 
 (Скриншот выше показывает регистрацию Business лицензии. Для лицензий Multivendor и Ultimate запись будет соответственно Multivendor и Ultimate).
 
@@ -117,27 +121,28 @@ published: true
 
 Данный раздел рассказывает, как активировать платный модуль для X-Cart5.
 
-Купленный модуль требует активации. Сразу после покупки модуля по электронной почте вы получаете сообщение с ключом активации модуля. Активация лицензии модуля автоматически устанавливает модуль в магазине. .
+Купленный модуль требует активации. Сразу после покупки модуля по электронной почте вы получаете сообщение с ключом активации модуля. Активация лицензии модуля автоматически устанавливает модуль в магазине.
 
 1.  В панели управления магазина откройте страницу **Маркетплейс**  (**Мои модули / Установить из Маркетплейса**).
 
 2.  Нажмите кнопку **Активировать лицензию** сверху на странице или ссылку **Активировать ключ** рядом с модулем, который требует активации:
-    ![]({{site.baseurl}}/attachments/8225232/8716608.png)
+    ![m1.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/m1.jpg)
     Так выглядит форма активации лицензии:
-    ![]({{site.baseurl}}/attachments/8225232/8716609.png)
+    ![m2.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/m2.jpg)
     Если у вас пробный магазин X-Cart, сначала необходимо активировать лицензию на магазин, а потом уже на модуль:
-    ![]({{site.baseurl}}/attachments/8225232/8716598.png)
+    ![25.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/25.jpg)
 3.  Укажите лицензионный ключ и нажмите **Активировать**:
-    ![]({{site.baseurl}}/attachments/8225232/8716610.png)
+    ![26.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/26.jpg)
     Если ключ введен корректно, X-Cart сразу же скачает и установит модуль:
-
-![]({{site.baseurl}}/attachments/8225232/8356157.png)
+    ![27.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/27.jpg)
 
 Процесс занимает несколько минут. Не закрывайте страницу, пока активация лицензии не завершится.
 
-![]({{site.baseurl}}/attachments/8225232/8356158.png)
+![28.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/28.jpg)
 
 По завершении установки модуля сверху на странице появится подтверждение.
+
+![29.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/29.jpg)
 
 Лицензия на модуль активирована, и модуль установлен. 
 
