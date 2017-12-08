@@ -100,7 +100,7 @@ published: true
 После покупки лицензии X-Cart Business, Multivendor или Ultimate по электронной почте вы получаете письмо, содержащее 16-значный код для активации лицензии. 
 
 Лицензионный ключ, также, записан в разделе **My Licenses** в HelpDesk:
-       ![]({{site.baseurl}}/attachments/8225232/8356149.png)
+       ![8356149.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/8356149.jpg)
 
 Держите этот ключ под рукой, когда соберетесь активировать лицензию.
 
