@@ -10,10 +10,9 @@ categories:
 published: true
 order: 100
 ---
-
 ## Introduction
 
-This article shows how to access data of current user in X-Cart. For instance, you are logged in as **John Doe**, how can X-Cart know your name? This article will show you how to pull this info.
+This article shows how to access data of current user in X-Cart. For instance, you are logged in as John Doe, how can X-Cart know your name? This article will show you how to pull this info.
 
 For the sake of example, we will create a new page that will be accessible by `cart.php?target=profile_demo` URL and it will display message 'This is guest account', if customer is a guest or it will display customer's name and email, if customer is logged in.
 
@@ -45,11 +44,7 @@ Once it is done, we go to the `<X-Cart>/classes/XLite/Module/XCExample/ProfileD
 $profile = \XLite\Core\Auth::getInstance()->getProfile();
 ```
 
-Now it is time to edit this page's template.
-
-### X-Cart 5.3 and later
-
-We create the `<X-Cart>/skins/customer/modules/Tony/ProfileDemo/page/profile_demo/body.twig` and define its content as follows: 
+Now it is time to edit this page's template. We create the `<X-Cart>/skins/customer/modules/XCExample/ProfileDemo/page/profile_demo/body.twig` and define its content as follows: 
 
 ```twig
 {% if this.isAnonymous() %}
