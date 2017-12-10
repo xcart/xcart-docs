@@ -46,7 +46,7 @@ $profile = \XLite\Core\Auth::getInstance()->getProfile();
 
 Now it is time to edit this page's template. We create the `<X-Cart>/skins/customer/modules/XCExample/ProfileDemo/page/profile_demo/body.twig` and define its content as follows: 
 
-```
+```html
 {% if this.isAnonymous() %}
     This is a guest account.
 {% else %}
