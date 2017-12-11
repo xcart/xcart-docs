@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-12-11 16:47 +0400'
+updated_at: '2017-12-11 16:51 +0400'
 title: Current user profile data
 identifier: ref_xJBqLBws
 categories:
@@ -47,13 +47,11 @@ $profile = \XLite\Core\Auth::getInstance()->getProfile();
 Now it is time to edit this page's template. We create the `<X-Cart>/skins/customer/modules/XCExample/ProfileDemo/page/profile_demo/body.twig` and define its content as follows: 
 
 ```twig
-{% raw %}
-{% if this.isAnonymous() %}
+{% raw %}{% if this.isAnonymous() %}
 	This is a guest account.
 {% else %}
   	This user is <strong>{{ this.getProfile().getName() }}</strong>({{ this.getProfile().getLogin() }})
-{% endif %}
-{% endraw %}
+{% endraw %}{% endif %}
 ```
 
 We use `getProfile()` method to access data of current's user profile. This method exists in every controller, so we did not have to define it ourselves.
