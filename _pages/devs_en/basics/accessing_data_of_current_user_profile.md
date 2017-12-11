@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-12-11 16:19 +0400'
+updated_at: '2017-12-11 16:27 +0400'
 title: Current user profile data
 identifier: ref_xJBqLBws
 categories:
@@ -30,12 +30,12 @@ Before we get started, we [https://devs.x-cart.com/getting_started/creating-modu
 Once it is done, we go to the `<X-Cart>/classes/XLite/Module/XCExample/ProfileDemo/Controller/Customer/ProfileDemo.php` file and add the following method there:
 
 ```php
-	public function isAnonymous()
-	{
-		$profile = \XLite\Core\Auth::getInstance()->getProfile();
+public function isAnonymous()
+{
+    $profile = \XLite\Core\Auth::getInstance()->getProfile();
 
-		return !is_null($profile) ? $profile->getAnonymous() : true;
-	}
+    return !is_null($profile) ? $profile->getAnonymous() : true;
+}
 ```
 
 ``isAnonymous()`` method will be used in the template of our page in order to determine whether the current user is logged in. The implementation of this method shows how you can access data of the current profile in the PHP code. You simply call this construction: 
@@ -46,15 +46,15 @@ $profile = \XLite\Core\Auth::getInstance()->getProfile();
 
 Now it is time to edit this page's template. We create the `<X-Cart>/skins/customer/modules/XCExample/ProfileDemo/page/profile_demo/body.twig` and define its content as follows: 
 
-```php
+```twig
 {% if this.isAnonymous() %}
-    This is a guest account.
+This is a guest account.
 {% else %}
-    This user is <strong>{{ this.getProfile().getName() }}</strong> ({{ this.getProfile().getLogin() }})
+This user is<strong> {{ this.getProfile().getName() }} </strong>({{ this.getProfile().getLogin() }})
 {% endif %}
 ```
 
-We use ``getProfile()`` method to access data of current's user profile. This method exists in every controller, so we did not have to define it ourselves.
+We use `getProfile()` method to access data of current's user profile. This method exists in every controller, so we did not have to define it ourselves.
 
 After we save the template, we are done with this mod. Now we need to re-deploy the store and check the results in customer area by opening `cart.php?target=profile_demo` URL. It will return the following result:
 
