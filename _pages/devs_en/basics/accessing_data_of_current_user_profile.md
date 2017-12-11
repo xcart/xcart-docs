@@ -51,7 +51,7 @@ Now it is time to edit this page's template. We create the `<X-Cart>/skins/custo
 	This is a guest account.
 {% else %}
   	This user is <strong>{{ this.getProfile().getName() }}</strong>({{ this.getProfile().getLogin() }})
-{% endraw %}{% endif %}
+{% endif %}{% endraw %}
 ```
 
 We use `getProfile()` method to access data of current's user profile. This method exists in every controller, so we did not have to define it ourselves.
