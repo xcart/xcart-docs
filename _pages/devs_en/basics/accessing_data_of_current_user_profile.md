@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-12-10 19:02 +0400'
+updated_at: '2017-12-11 16:19 +0400'
 title: Current user profile data
 identifier: ref_xJBqLBws
 categories:
@@ -46,7 +46,7 @@ $profile = \XLite\Core\Auth::getInstance()->getProfile();
 
 Now it is time to edit this page's template. We create the `<X-Cart>/skins/customer/modules/XCExample/ProfileDemo/page/profile_demo/body.twig` and define its content as follows: 
 
-```html
+```php
 {% if this.isAnonymous() %}
     This is a guest account.
 {% else %}
