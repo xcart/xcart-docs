@@ -50,7 +50,13 @@ Now it is time to edit this page's template. We create the `<X-Cart>/skins/custo
 {% if this.isAnonymous() %}
 This is a guest account.
 {% else %}
-This user is<strong> {{ this.getProfile().getName() }} </strong>({{ this.getProfile().getLogin() }})
+<span>
+  This user is 
+  <strong>
+  {{ this.getProfile().getName() }}
+  </strong>
+  ({{ this.getProfile().getLogin() }})
+</span>
 {% endif %}
 ```
 
