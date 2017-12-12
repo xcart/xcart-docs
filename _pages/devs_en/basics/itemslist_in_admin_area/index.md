@@ -306,7 +306,9 @@ Note: if you need more info about `search()` method implementation, please have 
 Finally, we need to display our ItemsList widget on the page, so we go to the `<X-Cart>/skins/admin/en/modules/XCExample/ItemsListAdminDemo/page/items_list_demo/body.twig` template and define its content as follows: 
 
 ```php
+{% raw %}
 {{ widget('\\XLite\\Module\\XCExample\\ItemsListAdminDemo\\View\\ItemsList\\ItemsListDemo') }}
+{% endraw %}
 ```
 
 That is it. Now we need to re-deploy the store and you will see our ItemsList on the `admin.php?target=items_list_demo` page.
