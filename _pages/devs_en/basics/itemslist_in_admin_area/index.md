@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-12-10 19:59 +0400'
+updated_at: '2017-12-13 16:55 +0400'
 title: ItemsList in admin area
 identifier: ref_zsGkqC41
 order: 65
@@ -299,9 +299,7 @@ abstract class Product extends \XLite\Model\Repo\Product implements \XLite\Base\
 }
 ```
 
-{% note info %}
-Note: if you need more info about `search()` method implementation, please have a look here: {% link "search() method" ref_ehDn4NIi %}.
-{% endnote %}
+If you need more info about `search()` method implementation, please refer to documentation here: {% link "search() method" ref_ehDn4NIi %}.
 
 Finally, we need to display our ItemsList widget on the page, so we go to the `<X-Cart>/skins/admin/en/modules/XCExample/ItemsListAdminDemo/page/items_list_demo/body.twig` template and define its content as follows: 
 
