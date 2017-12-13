@@ -24,7 +24,16 @@
 // Add anchors on DOMContentLoaded
 document.addEventListener("DOMContentLoaded", function(event) {
   if (document.querySelector('#was-it-helpful')) {
-    new WasItHelpful('#was-it-helpful');
+    new WasItHelpful('#was-it-helpful', {
+        onSubmit: function (data) {
+            $.post('https://hooks.zapier.com/hooks/catch/2380022/sjdct2/', {
+                'subject': '{{ page.title }}',
+                'url': '{{ page.url }}',
+                'helpful': data.helpful ? '1' : '0',
+                'message': data.message
+            })
+        }
+    });
   }
   anchors.options.placement = "left";
   anchors.add();
