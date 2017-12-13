@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         onSubmit: function (data) {
             $.post('https://hooks.zapier.com/hooks/catch/2380022/sjdct2/', {
                 'subject': '{{ page.title }}',
-                'url': '{{ page.url }}',
+                'url': '{{ page.url | replace: "/index.html","/" | absolute_url }}',
                 'helpful': data.helpful ? '1' : '0',
                 'message': data.message
             })
