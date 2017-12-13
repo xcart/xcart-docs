@@ -2,6 +2,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js" integrity="sha256-SjtzTX6p1YSwQj+lEn8OF+GXU5kprUs7gQ86ZeDS7jY=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fluidbox/2.0.3/js/jquery.fluidbox.min.js"></script>
+<script type="text/javascript" src="//unpkg.com/was-it-helpful@1.0.1/dist/build.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
 <script type="text/javascript">
 (function($){
@@ -22,6 +23,9 @@
 <script type="text/javascript">
 // Add anchors on DOMContentLoaded
 document.addEventListener("DOMContentLoaded", function(event) {
+  if (document.querySelector('#was-it-helpful')) {
+    new WasItHelpful('#was-it-helpful');
+  }
   anchors.options.placement = "left";
   anchors.add();
 });
