@@ -106,6 +106,32 @@
     en: 'This guide, as well as the rest of our docs, are open-source and available on'
     ru: 'Исходный код этой и других страниц документации открыт и доступен на'
 
+# Was it helpful
+
+'Was this article helpful?':
+    en: 'Was this article helpful?'
+    ru: 'Была ли эта статья полезна?'
+
+'Yes':
+    en: 'Yes'
+    ru: 'Да'
+
+'No':
+    en: 'No'
+    ru: 'Нет'
+
+'Sorry about that! How can we improve it?':
+    en: 'Sorry about that! How can we improve it?'
+    ru: 'Нам очень жаль! Подскажите, как стоит ее улучшить?'
+
+'Send feedback':
+    en: 'Send feedback'
+    ru: 'Послать отзыв'
+
+'Thanks!':
+    en: 'Thanks!'
+    ru: 'Спасибо!'
+
 # Links
 
 'kb_index_link':

@@ -25,6 +25,14 @@
 document.addEventListener("DOMContentLoaded", function(event) {
   if (document.querySelector('#was-it-helpful')) {
     new WasItHelpful('#was-it-helpful', {
+        labels: {
+            "question_text": "{{ site.data.labels['Was this article helpful?'][page.lang] }}",
+            "answer_yes": "{{ site.data.labels['Yes'][page.lang] }}",
+            "answer_no": "{{ site.data.labels['No'][page.lang] }}",
+            "sorry_text": "{{ site.data.labels['Sorry about that! How can we improve it?'][page.lang] }}",
+            "submit_btn": "{{ site.data.labels['Send feedback'][page.lang] }}",
+            "thank_you": "{{ site.data.labels['Thanks!'][page.lang] }}"
+        },
         onSubmit: function (data) {
             $.post('https://hooks.zapier.com/hooks/catch/2380022/sjdct2/', {
                 'subject': '{{ page.title }}',
