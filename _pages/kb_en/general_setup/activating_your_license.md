@@ -126,13 +126,13 @@ This section covers the topic of license activation for commercial (paid, non-fr
 
 A {% link "video instruction on X-Cart 5 addon license activation" ref_hU6Rb4tw %} is available in the Webinars and video tutorials section of the X-Cart 5 Knowledge Base.
 
-When you purchase an X-Cart 5 addon license, you need to activate it. Within minutes of the purchase you get an email message with the subject '**Your **"**Addon_name**"** addon key**', where Addon_name is the actual name of the addon. You should use this key to activate your module license. As soon as the license has been activated, the module will be automatically installed in your store.
+When you purchase an X-Cart 5 addon license, you need to activate it. Within minutes of the purchase you get an email message with the subject '**Your **"**Addon_name**"** addon key**', where Addon_name is the actual name of the addon. You should use this key to activate your addon license. As soon as the license has been activated, the addon will be automatically installed in your store.
 
 To activate an addon license, do the following:
 
 1.  Log in to the Admin area of your X-Cart 5 installation and go to the Addons Marketplace (Select** My addons** in the main menu, then click the "View more addons in Marketplace" link).
 
-2.  Access the license activation form by clicking either the **Activate license key** button above the addon list or the **Activate key **link next to the name of the module for which you are activating a license:
+2.  Access the license activation form by clicking either the **Activate license key** button above the addon list or the **Activate key **link next to the name of the addon for which you are activating a license:
     ![]({{site.baseurl}}/attachments/8225232/8716608.png)
     The form for license activation looks as follows:
     ![]({{site.baseurl}}/attachments/8225232/8716609.png)
