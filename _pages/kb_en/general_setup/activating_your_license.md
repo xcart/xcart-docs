@@ -114,9 +114,9 @@ To activate your license, log in to the Admin area of your X-Cart 5 installat
 The license activation process will begin. As soon as it completed, a success message will be displayed at the top of the screen.
 
 That is all; your license has been activated. Now, if you look at your Admin area header, you should be able to see the license type you have activated:
-      ![]({{site.baseurl}}/attachments/8225232/8716606.png)
+      ![xc5_licenses_ultimate.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_ultimate.png)
 
-(The screenshot above demonstrates the result of activating a Business license; for Multivendor license this would be "Multivendor", and for Ultimate license this would be "Ultimate").
+(The screenshot above demonstrates the result of activating an Ultimate license; for Multivendor license this would be "Multivendor", and for Business license this would be "Business").
 
 ## Activating an X-Cart 5 addon license
 
