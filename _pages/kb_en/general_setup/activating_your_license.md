@@ -69,8 +69,7 @@ The license activation process will begin:
     
 The license activation process may take a few minutes. Take care not to close the page before the process has been fully completed.
 
-Once the license activation has been completed, you should see a confirmation message at the top of the screen:
-          ![xc5_licenses_activation_successful.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activation_successful.png)
+Once the license activation has been completed, you should see a confirmation message at the top of the screen.
 
 Now your Admin area header should be showing the license type you have activated:
           ![xc5_licenses_free_version.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_free_version.png)
@@ -110,10 +109,9 @@ Be sure to have this key at the ready when you are going to activate your licens
 If you lost the email message with your license key and experience problems logging in to your HelpDesk account, please contact X-Cart's Customer Service at **[support@x-cart.com](mailto:support@x-cart.com)**.
 
 To activate your license, log in to the Admin area of your X-Cart 5 installation and submit your license key via the form for license activation (In X-Cart trial version, the form is available via all the same methods used to access the **Purchase a premium license key** button described above. If you have activated an X-Cart license previously, the license activation form is available only via the **Activate license key** button in the Installed Addons section or the **Activate license key** button in the Addons Marketplace). 
-      ![xc5_licenses_activate_premium.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_premium.png)
+      ![xc5_licenses_enter_premium.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_enter_premium.png)
 
-The license activation process will begin. As soon as it completed, a success message will be displayed at the top of the screen:
-      ![]({{site.baseurl}}/attachments/8225232/8716605.png)
+The license activation process will begin. As soon as it completed, a success message will be displayed at the top of the screen.
 
 That is all; your license has been activated. Now, if you look at your Admin area header, you should be able to see the license type you have activated:
       ![]({{site.baseurl}}/attachments/8225232/8716606.png)
