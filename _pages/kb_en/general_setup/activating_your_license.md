@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-12-14 16:07 +0400'
+updated_at: '2017-12-14 17:40 +0400'
 identifier: ref_qwhmJtqW
 title: Activating your license
 categories:
@@ -29,14 +29,16 @@ To start the activation process for a Free X-Cart 5 license, you will need to cl
 
    *   _Method 1:_
        In the popup box with the X-Cart trial expiration notice (you can see it every time you sign in to the Admin area), click on the "I have a license key" link:
-       ![xc5_licenses_ihavealicensekey_link.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_ihavealicensekey_link.png)
-       This will expand the popup box further down, an the link you require will be displayed at its bottom:
-       ![xc5_licenses_activate_free_license_link.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_license_link.png)
+       ![xc5_licenses_ihave.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_ihave.png)
 
-   *   _Method 2:_ In the Admin area site header, click the **Activate key** button:
-       ![xc5_licenses_activate_key_button_in_header.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_key_button_in_header.png)
+       This will expand the popup box further down, an the link you require will be displayed at its bottom:
+       ![xc5_licenses_activate_free.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free.png)
+
+   *   _Method 2:_ In the Admin area site header, click the **Activate license key** button:
+       ![xc5_licenses_activate_button_inheader.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_button_inheader.png)
+
        This will cause the License key registration popup to box to appear, where you will find the **Activate free license** link you require:
-       ![xc5_licenses_license_key_registration.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_license_key_registration.png)
+       ![xc5_licenses_license_key_reg.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_license_key_reg.png)
 
    *    _Method 3:_ In the Installed Addons section, click the **Activate license key** button:
         ![xc5_licenses_activate_license_key_in_installed_modules.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules.png)
