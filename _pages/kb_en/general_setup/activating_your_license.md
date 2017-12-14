@@ -70,10 +70,10 @@ The license activation process will begin:
 The license activation process may take a few minutes. Take care not to close the page before the process has been fully completed.
 
 Once the license activation has been completed, you should see a confirmation message at the top of the screen.
+          ![xc5_licenses_free_activation_success.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_free_activation_success.png)
 
 Now your Admin area header should be showing the license type you have activated:
-          ![xc5_licenses_free_version.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_free_version.png)
-
+          ![xc5_licenses_free.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_free.png)
 
 ## Activating a Premium X-Cart 5 license (Business / Multivendor / Ultimate)
 
