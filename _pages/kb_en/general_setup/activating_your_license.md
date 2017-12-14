@@ -41,19 +41,18 @@ To start the activation process for a Free X-Cart 5 license, you will need to cl
        ![xc5_licenses_license_key_reg.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_license_key_reg.png)
 
    *    _Method 3:_ In the Installed Addons section, click the **Activate license key** button:
-        ![xc5_licenses_activate_license_key_in_installed_modules.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules.png)
+        ![xc5_licenses_activate_button_ininstalledaddons.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_button_ininstalledaddons.png)
         This will cause the following box to appear, where you will find the **activate your X-Cart license** link:
-        ![xc5_licenses_activate_license_key_in_installed_modules1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules1.png)
+        ![xc5_licenses_activate_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_first.png)
         Click on this link. The box will be expanded to display more options. Choose to activate a free license:
-        ![xc5_licenses_activate_free_on_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_on_first.png)
+        ![xc5_licenses_activate_first_opts.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_first_opts.png)
 
    *   _Method 4:_ In the Addons Marketplace, click the **Activate license key** button:
-        ![xc5_licenses_activate_license_key_in_marketplace.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace.png)
+        ![xc5_licenses_activate_button_inmktplce.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_button_inmktplce.png)
         This will cause the following box to appear, where you will find the **activate your X-Cart license** link:
-        ![xc5_licenses_activate_license_key_in_marketplace1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace1.png)
+        ![xc5_licenses_activate_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_first.png)
          Click on this link. The box will be expanded to display more options. Choose to activate a free license:
-        ![xc5_licenses_activate_free_on_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_on_first.png)
-
+        ![xc5_licenses_activate_first_opts.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_first_opts.png)
 
 Once the **Activate free license** button has been clicked, the popup box will be closed, and you will see a page with a warning about the consequences of free license activation:
          ![xc5_licenses_modules_tobe_removed.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_modules_tobe_removed.png)
