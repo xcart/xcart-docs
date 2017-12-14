@@ -55,9 +55,9 @@ To start the activation process for a Free X-Cart 5 license, you will need to cl
         ![xc5_licenses_activate_first_opts.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_first_opts.png)
 
 Once the **Activate free license** button has been clicked, the popup box will be closed, and you will see a page with a warning about the consequences of free license activation:
-         ![xc5_licenses_modules_tobe_removed.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_modules_tobe_removed.png)
+         ![xc5_licenses_free_license_consequences.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_free_license_consequences.png)
 
-Since the X-Cart 5 Business package on which the trial version is based includes more addons than the X-Cart 5 Free edition, activation of the Free license will cause some of the modules on your X-Cart installation to be removed. So basically what you see on this page is a list of modules that will be removed from your X-Cart installation.
+Since the X-Cart 5 Business package on which the trial version is based includes more addons than the X-Cart 5 Free edition, activation of the Free license will cause some of the addons on your X-Cart installation to be removed. So basically what you see on this page is a list of addons that will be removed from your X-Cart installation.
 
 Review the "to be removed" list and confirm your intention to continue with the activation of the Free license. If at a later time you need any of the addons that were removed as a result of the activation of the Free license, you will be able to upgrade your license to Premium and install the addons from the Premium package.
 
