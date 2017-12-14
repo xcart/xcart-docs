@@ -61,10 +61,10 @@ Since the X-Cart 5 Business package on which the trial version is based includes
 
 Review the "to be removed" list and confirm your intention to continue with the activation of the Free license. If at a later time you need any of the addons that were removed as a result of the activation of the Free license, you will be able to upgrade your license to Premium and install the addons from the Premium package.
 
-Scroll down to the bottom of the page and enter the email address to which you want X-Cart to register your Free license:
-          ![xc5_licenses_license_email.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_license_email.png)
+Scroll down to the bottom of the page and enter the email address to which you want X-Cart to register your Free license. Then click **Activate**.
+          ![xc5_licenses_email.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_email.png)
 
-Then click **Activate**. The license activation process will begin:
+The license activation process will begin:
           ![]({{site.baseurl}}/attachments/8225232/8356127.png)
     
 The license activation process may take a few minutes. Take care not to close the page before the process has been fully completed.
