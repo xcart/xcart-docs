@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-12-14 15:54 +0400'
+updated_at: '2017-12-14 20:02 +0400'
 identifier: ref_Vn1mMUw9
 title: Installing addons from the Marketplace
 categories:
@@ -37,7 +37,7 @@ To install an addon from the X-Cart Marketplace:
     _Commercial modules_: 
     Click the** Purchase** button next to the addon name to purchase the addon license. 
     After the license has been paid for, you will get an email message with your license key. The subject of this message is '**Your** "**Addon name**" **addon key**'. (The part "Addon name" should be replaced with the actual name of the addon). 
-    Use this key to {% link "activate your addon license" ref_qwhmJtqW#Activatingyourlicense-ModuleLicense %}. As soon as the license has been activated, the addon will be automatically installed at your store.
+    Use this key to {% link "activate your addon license" ref_qwhmJtqW##activating-an-x-cart-5-addon-license %}. As soon as the license has been activated, the addon will be automatically installed at your store.
 
 4.  Once the addon is installed, you will be redirected to the **Recently istalled addons **page where a success message will be displayed at the top of the screen. You will find the newly installed addon listed on the page.
 
