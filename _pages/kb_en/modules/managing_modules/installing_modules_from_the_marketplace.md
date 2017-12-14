@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-12-07 16:15 +0400'
+updated_at: '2017-12-14 15:54 +0400'
 identifier: ref_Vn1mMUw9
 title: Installing addons from the Marketplace
 categories:
@@ -11,7 +11,7 @@ order: 110
 ---
 To install an addon from the X-Cart Marketplace:
 
-1.  Log in to your store's Admin area and go to the** Modules Marketplace** section.
+1.  Log in to your store's Admin area and go to the **Addons Marketplace** section.
 
     Click **My addons** in the Admin menu:
     ![xc5_modules_my_addons_link.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_my_addons_link.png)
