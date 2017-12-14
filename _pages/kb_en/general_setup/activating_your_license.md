@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-06-10 23:08 +0400'
+updated_at: '2017-12-14 16:07 +0400'
 identifier: ref_qwhmJtqW
 title: Activating your license
 categories:
@@ -15,9 +15,9 @@ The X-Cart 5 package available for download from the [www.x-cart.com](http://ww
 *   [Activating a Free X-Cart 5 license](#activate-a-free-x-cart-5-license)
 *   [Activating a Premium X-Cart 5 license (Business / Multivendor / Ultimate)](#activating-a-premium-x-cart-5license-business--multivendor--ultimate)
 
-Commercial (non-free) modules for X-Cart 5 are also provided with licenses that require activation. If you purchased a module license and need to activate it, use the following instructions:
+Commercial (non-free) addons for X-Cart 5 are also provided with licenses that require activation. If you purchased a addon license and need to activate it, use the following instructions:
 
-*   [Activating an X-Cart 5 module license](#activating-an-x-cart-5-module-license)
+*   [Activating an X-Cart 5 addon license](#activating-an-x-cart-5-addon-license)
 
 ## Activate a Free X-Cart 5 license
 
@@ -38,14 +38,14 @@ To start the activation process for a Free X-Cart 5 license, you will need to cl
        This will cause the License key registration popup to box to appear, where you will find the **Activate free license** link you require:
        ![xc5_licenses_license_key_registration.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_license_key_registration.png)
 
-   *    _Method 3:_ In the Installed Modules section, click the **Activate license key** button:
+   *    _Method 3:_ In the Installed Addons section, click the **Activate license key** button:
         ![xc5_licenses_activate_license_key_in_installed_modules.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules.png)
         This will cause the following box to appear, where you will find the **activate your X-Cart license** link:
         ![xc5_licenses_activate_license_key_in_installed_modules1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules1.png)
         Click on this link. The box will be expanded to display more options. Choose to activate a free license:
         ![xc5_licenses_activate_free_on_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_on_first.png)
 
-   *   _Method 4:_ In the Modules Marketplace, click the **Activate license key** button:
+   *   _Method 4:_ In the Addons Marketplace, click the **Activate license key** button:
         ![xc5_licenses_activate_license_key_in_marketplace.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace.png)
         This will cause the following box to appear, where you will find the **activate your X-Cart license** link:
         ![xc5_licenses_activate_license_key_in_marketplace1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace1.png)
@@ -56,9 +56,9 @@ To start the activation process for a Free X-Cart 5 license, you will need to cl
 Once the **Activate free license** button has been clicked, the popup box will be closed, and you will see a page with a warning about the consequences of free license activation:
          ![xc5_licenses_modules_tobe_removed.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_modules_tobe_removed.png)
 
-Since the X-Cart 5 Business package on which the trial version is based includes more modules than the X-Cart 5 Free edition, activation of the Free license will cause some of the modules on your X-Cart installation to be removed. So basically what you see on this page is a list of modules that will be removed from your X-Cart installation.
+Since the X-Cart 5 Business package on which the trial version is based includes more addons than the X-Cart 5 Free edition, activation of the Free license will cause some of the modules on your X-Cart installation to be removed. So basically what you see on this page is a list of modules that will be removed from your X-Cart installation.
 
-Review the "to be removed" list and confirm your intention to continue with the activation of the Free license. If at a later time you need any of the modules that were removed as a result of the activation of the Free license, you will be able to upgrade your license to Premium and install the addons from the Premium package.
+Review the "to be removed" list and confirm your intention to continue with the activation of the Free license. If at a later time you need any of the addons that were removed as a result of the activation of the Free license, you will be able to upgrade your license to Premium and install the addons from the Premium package.
 
 Scroll down to the bottom of the page and enter the email address to which you want X-Cart to register your Free license:
           ![xc5_licenses_license_email.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_license_email.png)
@@ -89,12 +89,12 @@ Other methods to access the **Purchase a premium license key** button are:
    *   _Method 1:_ Click the **Activate key** button in the Admin area site header:
        ![xc5_licenses_activate_key_button_in_header.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_key_button_in_header.png)
     
-   *   _Method 2:_ Click the **Activate license key** button in the Installed Modules section:
+   *   _Method 2:_ Click the **Activate license key** button in the Installed Addons section:
        ![xc5_licenses_activate_license_key_in_installed_modules.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules.png) 
         and then to click the **activate your X-Cart license** link:
         ![xc5_licenses_activate_license_key_in_installed_modules1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules1.png)
            
-   *   _Method 3:_ Click the **Activate license key** button in the Modules Marketplace:
+   *   _Method 3:_ Click the **Activate license key** button in the Addons Marketplace:
        ![xc5_licenses_activate_license_key_in_marketplace.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace.png)      
        and then to click the **activate your X-Cart license** link:
        ![xc5_licenses_activate_license_key_in_marketplace1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace1.png)
@@ -108,7 +108,7 @@ Be sure to have this key at the ready when you are going to activate your licens
 
 If you lost the email message with your license key and experience problems logging in to your HelpDesk account, please contact X-Cart's Customer Service at **[support@x-cart.com](mailto:support@x-cart.com)**.
 
-To activate your license, log in to the Admin area of your X-Cart 5 installation and submit your license key via the form for license activation (In X-Cart trial version, the form is available via all the same methods used to access the **Purchase a premium license key** button described above. If you have activated an X-Cart license previously, the license activation form is available only via the **Activate license key** button in the Installed Modules section or the **Activate license key** button in the Modules Marketplace). 
+To activate your license, log in to the Admin area of your X-Cart 5 installation and submit your license key via the form for license activation (In X-Cart trial version, the form is available via all the same methods used to access the **Purchase a premium license key** button described above. If you have activated an X-Cart license previously, the license activation form is available only via the **Activate license key** button in the Installed Modules section or the **Activate license key** button in the Addons Marketplace). 
       ![xc5_licenses_activate_premium.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_premium.png)
 
 The license activation process will begin. As soon as it completed, a success message will be displayed at the top of the screen:
@@ -119,27 +119,27 @@ That is all; your license has been activated. Now, if you look at your Admin ar
 
 (The screenshot above demonstrates the result of activating a Business license; for Multivendor license this would be "Multivendor", and for Ultimate license this would be "Ultimate").
 
-## Activating an X-Cart 5 module license
+## Activating an X-Cart 5 addon license
 
-This section covers the topic of license activation for commercial (paid, non-free) modules for X-Cart 5.
+This section covers the topic of license activation for commercial (paid, non-free) addons for X-Cart 5.
 
-A {% link "video instruction on X-Cart 5 module license activation" ref_hU6Rb4tw %} is available in the Webinars and video tutorials section of the X-Cart 5 Knowledge Base.
+A {% link "video instruction on X-Cart 5 addon license activation" ref_hU6Rb4tw %} is available in the Webinars and video tutorials section of the X-Cart 5 Knowledge Base.
 
-When you purchase an X-Cart 5 module license, you need to activate it. Within minutes of the purchase you get an email message with the subject '**Your **"**Module_name**"** addon key**', where Module_name is the actual name of the module. You should use this key to activate your module license. As soon as the license has been activated, the module will be automatically installed in your store.
+When you purchase an X-Cart 5 addon license, you need to activate it. Within minutes of the purchase you get an email message with the subject '**Your **"**Addon_name**"** addon key**', where Module_name is the actual name of the module. You should use this key to activate your module license. As soon as the license has been activated, the module will be automatically installed in your store.
 
-To activate a module license, do the following:
+To activate an addon license, do the following:
 
-1.  Log in to the Admin area of your X-Cart 5 installation and go to the Modules Marketplace (Select** Modules** in the main menu, then click the View more addons in the Marketplace link).
+1.  Log in to the Admin area of your X-Cart 5 installation and go to the Addons Marketplace (Select** My addons** in the main menu, then click the "View more addons in Marketplace" link).
 
-2.  Access the license activation form by clicking either the **Activate license key** button above the module list or the **Activate key **link next to the name of the module for which you are activating a license:
+2.  Access the license activation form by clicking either the **Activate license key** button above the addon list or the **Activate key **link next to the name of the module for which you are activating a license:
     ![]({{site.baseurl}}/attachments/8225232/8716608.png)
     The form for license activation looks as follows:
     ![]({{site.baseurl}}/attachments/8225232/8716609.png)
-    If you are using the trial version, you will be requested to activate your X-Cart 5 license before you can activate the module license:
+    If you are using the trial version, you will be requested to activate your X-Cart 5 license before you can activate the addon license:
     ![]({{site.baseurl}}/attachments/8225232/8716598.png)
 3.  Enter your license key into the appropriate field and click **Activate**:
     ![]({{site.baseurl}}/attachments/8225232/8716610.png)
-    If the submitted license key is found valid, X-Cart will immediately start downloading and installing the module:
+    If the submitted license key is found valid, X-Cart will immediately start downloading and installing the addon:
 
 ![]({{site.baseurl}}/attachments/8225232/8356157.png)
 
@@ -147,13 +147,13 @@ The process is likely to take a few minutes. Take care not to close the page be
 
 ![]({{site.baseurl}}/attachments/8225232/8356158.png)
 
-Once the module installation has been completed, a confirmation message will be displayed at the top of the screen.
+Once the addon installation has been completed, a confirmation message will be displayed at the top of the screen.
 
-That is all. Your module license has been activated, and the module has been installed. 
+That is all. Your addon license has been activated, and the addon has been installed. 
 
 _Related pages:_
 
 *   Video: {% link "X-Cart 5 Free License Activation" ref_X5ZLmSJV %}
 *   Video: {% link "X-Cart 5 Business License Activation" ref_UUrbypsh %}
 *   Video: {% link "X-Cart 5 Module License Activation" ref_hU6Rb4tw %}
-*   {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}
+*   {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}
