@@ -39,6 +39,7 @@ All in all, you can have up to four different email addresses for your store's n
        * notification about a product's stock level reaching the low limit ("Low limit warning");
        * notification about the completion of a data export process (may be sent in cases when data export takes a long time).
 
+
 *   **Customer relations e-mail**: 
    
     This email is used as the 'from' address for the following email messages:
@@ -48,6 +49,7 @@ All in all, you can have up to four different email addresses for your store's n
     This email is also used as the 'to' address for the following email messages:
     
        * notifications about the creation, modification or deletion of user profiles.
+
 
 *   **Sales department e-mail**:
    
@@ -61,6 +63,7 @@ All in all, you can have up to four different email addresses for your store's n
     
        * notifications about the creation, modification and processing of orders;
        * notifications about failed and canceled orders.
+
 
 *   **HelpDesk/Support service e-mail**: 
    
