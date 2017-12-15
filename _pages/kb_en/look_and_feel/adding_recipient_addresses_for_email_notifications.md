@@ -24,6 +24,7 @@ All in all, you can have up to four different email addresses for your store's n
 *   **Site administrator e-mail**:
    
     This email is used as the 'from' address for the following email messages:
+    
        * notifications about the creation, modification or deletion of user profiles (sent to the Customer relations department and the user);
        * notifications about failed administrator login attempts (sent to the site administrator);
        * notifications about the creation, modification and processing of orders (sent to the Sales department and the customer);
@@ -32,6 +33,7 @@ All in all, you can have up to four different email addresses for your store's n
        * notification about the generation of the store's safe mode access key (the message with your Hard and Soft reset links).
        
     This email is also used as the 'to' address for the following email messages:
+    
        * notification about the generation of the store's safe mode access key (the message with your Hard and Soft reset links);
        * notifications about failed administrator login attempts 
        * notification about a product's stock level reaching the low limit ("Low limit warning");
@@ -40,19 +42,23 @@ All in all, you can have up to four different email addresses for your store's n
 *   **Customer relations e-mail**: 
    
     This email is used as the 'from' address for the following email messages:
+    
        * message with the password reset link (sent to users who have requested a password reset for their account).
 
     This email is also used as the 'to' address for the following email messages:
+    
        * notifications about the creation, modification or deletion of user profiles.
 
 *   **Sales department e-mail**:
    
     This email is used as the 'from' address for the following email messages:
+    
        * notification about a product's stock level reaching the low limit (sent to the site admin);
        * notifications about the creation of orders (sent to the customer);
        * notifications about failed and canceled orders (sent to the customer).
 
     This email is also used as the 'to' address for the following email messages:
+    
        * notifications about the creation, modification and processing of orders;
        * notifications about failed and canceled orders.
 
