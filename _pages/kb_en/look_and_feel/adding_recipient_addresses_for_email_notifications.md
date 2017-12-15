@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 09:37 +0400'
+updated_at: '2017-12-15 12:12 +0400'
 identifier: ref_wKcxbiUf
 title: Adding recipient addresses for email notifications
 categories:
@@ -22,59 +22,36 @@ By default, all notifications in your store - except for the ones sent to custom
 All in all, you can have up to four different email addresses for your store's notifications:
 
 *   **Site administrator e-mail**:
+    This email is used as the 'from' address for the following email messages:
+        * notifications about the creation, modification or deletion of user profiles (sent to the Customer relations department and the user);
+        * notifications about failed administrator login attempts (sent to the site administrator);
+        * notifications about the creation, modification and processing of orders (sent to the Sales department and the customer);
+        * notifications about the shipping of orders (sent to the customer);
+ notifications about failed and canceled orders (sent to the Sales department);
+        * notification about the generation of the store's safe mode access key (the message with your Hard and Soft reset links).
 
-This email is used as the 'from' address for the following email messages:
-
-- notifications about the creation, modification or deletion of user profiles (sent to the Customer relations department and the user);
-
-- notifications about failed administrator login attempts (sent to the site administrator);
-
-- notifications about the creation, modification and processing of orders (sent to the Sales department and the customer);
-
-- notifications about the shipping of orders (sent to the customer);
-
-- notifications about failed and canceled orders (sent to the Sales department);
-
-- notification about the generation of the store's safe mode access key (the message with your Hard and Soft reset links).
-
-This email is used as the 'to' address for the following email messages:
-
-- notification about the generation of the store's safe mode access key (the message with your Hard and Soft reset links);
-
-- notifications about failed administrator login attempts 
-
-- notification about a product's stock level reaching the low limit ("Low limit warning");
-
-- notification about the completion of a data export process (may be sent in cases when data export takes a long time).
+     This email is also used as the 'to' address for the following email messages:
+        * notification about the generation of the store's safe mode access key (the message with your Hard and Soft reset links);
+        * notifications about failed administrator login attempts 
+        * notification about a product's stock level reaching the low limit ("Low limit warning");
+        * notification about the completion of a data export process (may be sent in cases when data export takes a long time).
 
 *   **Customer relations e-mail**: 
+    This email is used as the 'from' address for the following email messages:
+        * message with the password reset link (sent to users who have requested a password reset for their account).
 
-This email is used as the 'from' address for the following email messages:
-
-- message with the password reset link (sent to users who have requested a password reset for their account).
-
-This email is used as the 'to' address for the following email messages:
-
-- notifications about the creation, modification or deletion of user profiles.
+    This email is also used as the 'to' address for the following email messages:
+        * notifications about the creation, modification or deletion of user profiles.
 
 *   **Sales department e-mail**:
+    This email is used as the 'from' address for the following email messages:
+        * notification about a product's stock level reaching the low limit (sent to the site admin);
+        * notifications about the creation of orders (sent to the customer);
+        * notifications about failed and canceled orders (sent to the customer).
 
-This email is used as the 'from' address for the following email messages:
-
-- notification about a product's stock level reaching the low limit (sent to the site admin);
-
-- notifications about the creation of orders (sent to the customer);
-
-- notifications about failed and canceled orders (sent to the customer).
-
-This email is used as the 'to' address for the following email messages:
-
-- notifications about the creation, modification and processing of orders;
-
-- notifications about failed and canceled orders.
+    This email is also used as the 'to' address for the following email messages:
+        * notifications about the creation, modification and processing of orders;
+        * notifications about failed and canceled orders.
 
 *   **HelpDesk/Support service e-mail**: 
-
-This email is used as the 'to' address for messages sent by store visitors via the Contact us form. It is also used in the message "No payment methods available. Please contact the `<a href=\"mailto:{{email}}\">store administrator</a>`.", which is displayed to customers when there aren't any payment methods available to them at checkout. Note that a separate recipient email address for the Contact us form may be configured on the module settings page for the Contact Us module.
-
-
+    This email is used as the 'to' address for messages sent by store visitors via the Contact us form. It is also used in the message "No payment methods available. Please contact the `<a href=\"mailto:{{email}}\">store administrator</a>`.", which is displayed to customers when there aren't any payment methods available to them at checkout. Note that a separate recipient email address for the Contact us form may be configured on the module settings page for the Contact Us module.
