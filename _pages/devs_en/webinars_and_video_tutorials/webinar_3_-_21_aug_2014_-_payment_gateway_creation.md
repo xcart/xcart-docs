@@ -223,7 +223,7 @@ Another portion of code is a routine of handling errors:
 
 *   `\XLite\Core\OrderHistory::getInstance()->registerTransaction()` is a way to put error into Order History log in admin area
 
-*   `$``transaction->setDataCell()` is a way to show error message to the customer at the checkout
+*   `$transaction->setDataCell()` is a way to show error message to the customer at the checkout
 
 Typical Success return query from Dwolla:
 

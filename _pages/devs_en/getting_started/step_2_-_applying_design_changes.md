@@ -132,7 +132,7 @@ As a real life example, let us find what template is responsible for display of 
     ![]({{site.baseurl}}/attachments/8224787/8355860.png)
 4.  Go to your home page and hover your pointer over the **My account** area. The top path is a path where the template responsible for display of this area is located.![]({{site.baseurl}}/attachments/8224787/8355861.png)
 
-5.  `skins/``default/en/layout/header.bar.links.logged.account.tpl` is the template we were looking for. Its content is below: 
+5.  `skins/default/en/layout/header.bar.links.logged.account.tpl` is the template we were looking for. Its content is below: 
 
     ```php
     {* vim: set ts=2 sw=2 sts=2 et: *}
@@ -177,7 +177,7 @@ First you need to know what views list contains the certain template/widget. The
 
     but you need to pass name of the class as **child** parameter.
 
-In case of our task – hiding **My account** link from home page –  view list of the `skins/``default/en/layout/header.bar.links.logged.account.tpl` template is `layout.header.bar.links.logged`.
+In case of our task – hiding **My account** link from home page –  view list of the `skins/default/en/layout/header.bar.links.logged.account.tpl` template is `layout.header.bar.links.logged`.
 
 In order to remove the template from its view list, you must specify the `runBuildCacheHandler()` method in the `Main.php` file of your module like this:
 

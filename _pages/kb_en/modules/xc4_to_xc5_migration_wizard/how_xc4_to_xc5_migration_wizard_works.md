@@ -193,7 +193,7 @@ Exising IDs from X-Cart 4 are not saved in X-Cart 5 after the migration. However
 
 The step for removing duplicate images in the process of data migration has been added to rid the store of redundant image data. At this step, the module checks whether any product variants are using the same image as the main product, and if a duplicate image is found, the image of the main product is removed. Whether any two images are the same is determined based on the image hash.
 
-The following settings are available via the file ``[xcart_dir]/etc/config.local.php`` in your X-Cart 5 installation:
+The following settings are available via the file `[xcart_dir]/etc/config.local.php` in your X-Cart 5 installation:
 
 *   **migration_chunk_length** - number of records to be processed during one iteration; 
 
@@ -207,7 +207,7 @@ The following settings are available via the file ``[xcart_dir]/etc/config.local
 
 *   **enable_copy_ext_images** - enables copying of external images to XC5 location.
  
-Note: If the file ``[xcart_dir]/etc/config.local.php`` is not present in your X-Cart 5 store, to use any of the above-named settings, you will need to create the file following the example below. Uncomment the settings that you want to set.
+Note: If the file `[xcart_dir]/etc/config.local.php` is not present in your X-Cart 5 store, to use any of the above-named settings, you will need to create the file following the example below. Uncomment the settings that you want to set.
 
 PHP Code:
 

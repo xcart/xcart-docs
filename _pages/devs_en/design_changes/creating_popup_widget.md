@@ -126,7 +126,7 @@ This script describes JavaScript controller for our button and we aren't doing m
 
 ### Defining popup widget
 
-Another viewer class that we should create is the popup widget. This class will define the content of our popup window. Please note that you can use potentially any viewer class as popup widget, but for instance we will create it from scratch. Our viewer class will be a mini-overview of a current cart, similar to **Minicart** core widget, done by writing the following code in <`X-Cart>/skins/default/en``/classes/XLite/Module/Tony/PopupDemo/View/DemoWidget.php` file:
+Another viewer class that we should create is the popup widget. This class will define the content of our popup window. Please note that you can use potentially any viewer class as popup widget, but for instance we will create it from scratch. Our viewer class will be a mini-overview of a current cart, similar to **Minicart** core widget, done by writing the following code in <`X-Cart>/skins/default/en/classes/XLite/Module/Tony/PopupDemo/View/DemoWidget.php` file:
 
 ```php
 <?php
@@ -186,11 +186,11 @@ Let's get quick overview of methods, featuring this viewer class (more about thi
 
 *   function `getAllowedTargets()` defines available targets allowed for this widget;
 
-*   function `getDefaultTemplate`() ``defines what template is responsible for display of our custom code;
+*   function `getDefaultTemplate()` defines what template is responsible for display of our custom code;
 
 *   functions `getCartQuantity(), getDisplaySubtotal(), getCurrency()` are used to get different parameters of the shopping cart to show it on the page;
 *   function `hasItems()` is used to check if cart has any items;
-*   function `getItemsList() `retrieves first five items from the cart.
+*   function `getItemsList()` retrieves first five items from the cart.
 
  Now we need to create a template defined in the `getDefaultTemplate()` method. We are creating `<X-Cart>/skins/default/en/modules/Tony/PopupDemo/page/tony_custom/demo_widget.tpl `template with the following content: 
 

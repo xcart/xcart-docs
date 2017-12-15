@@ -17,9 +17,9 @@ To use the Google Tag Manager solution with X-Cart, you need to set up a tag con
 
 2.  Activate Webmaster mode.
 
-3.  Copy the ``<script>`` portion of the JavaScript snippet provided in your Google Tag Manager account and paste it into the file <xcart_dir>/skins/theme_tweaker/customer/header/body.twig using Webmaster mode.
+3.  Copy the `<script>` portion of the JavaScript snippet provided in your Google Tag Manager account and paste it into the file <xcart_dir>/skins/theme_tweaker/customer/header/body.twig using Webmaster mode.
 
-4.  Similarly, copy the ``<noscript>`` portion of the Google Tag Manager snippet and paste it using Webmaster mode into the file <xcart_dir>/skins/theme_tweaker/customer/body.twig.
+4.  Similarly, copy the `<noscript>` portion of the Google Tag Manager snippet and paste it using Webmaster mode into the file <xcart_dir>/skins/theme_tweaker/customer/body.twig.
 
 5.  Apply the changes you have made in Webmaster mode.
 
