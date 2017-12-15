@@ -29,8 +29,8 @@ All in all, you can have up to four different email addresses for your store's n
        * notifications about the creation, modification and processing of orders (sent to the Sales department and the customer);
        * notifications about the shipping of orders (sent to the customer);
  notifications about failed and canceled orders (sent to the Sales department);
-       * notification about the generation of the store's safe mode access key (the message with your Hard and Soft reset links).<br /><br />
-
+       * notification about the generation of the store's safe mode access key (the message with your Hard and Soft reset links).
+       
     This email is also used as the 'to' address for the following email messages:
        * notification about the generation of the store's safe mode access key (the message with your Hard and Soft reset links);
        * notifications about failed administrator login attempts 
