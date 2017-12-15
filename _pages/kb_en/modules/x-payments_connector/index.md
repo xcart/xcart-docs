@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:11 +0400'
+updated_at: '2017-12-15 12:00 +0400'
 identifier: ref_NaZh0d1b
 title: X-Payments connector
 categories:
@@ -11,7 +11,7 @@ order: 380
 ---
 
 
-The **X-Payments connector** module for X-Cart 5 is a means to connect your X-Cart 5 based online store to [X-Payments](http://www.x-payments.com/help1/Main_Page) for PCI compliant credit card processing. 
+The **X-Payments connector** module for X-Cart 5 is a means to connect your X-Cart 5 based online store to [X-Payments](https://www.x-payments.com/help/Main_Page) for PCI compliant credit card processing. 
 
 _In this section:_
 
