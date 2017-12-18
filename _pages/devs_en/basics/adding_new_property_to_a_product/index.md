@@ -4,12 +4,10 @@ layout: article_with_sidebar
 updated_at: '2017-12-13 16:59 +0400'
 title: Adding new property to a product
 identifier: ref_2bJSTtR3
-version: X-Cart 5.2.16 and earlier
 order: 80
 categories:
   - Developer docs
   - Demo module
-  - Outdated
 published: true
 redirect_from:
   - /basics/adding_new_property_to_a_product/in-5.3.x.html
