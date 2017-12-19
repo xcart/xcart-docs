@@ -1,5 +1,5 @@
 ---
-lang: ru
+lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-04 17:49 +0400'
 identifier: ref_TBDhOF2h

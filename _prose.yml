@@ -1,6 +1,4 @@
 prose:
-  # siteurl: 'https://kb5.x-cart.com/'
-  # baseurl: '/xc5-docs'
   reference: 'https://kb.x-cart.com/links.xml'
   media: 'attachments'
   ignore:

@@ -188,11 +188,11 @@ Let's get quick overview of methods, featuring this viewer class (more about thi
 
 *   function `getDefaultTemplate()` defines what template is responsible for display of our custom code;
 
-*   functions `getCartQuantity(), getDisplaySubtotal(), getCurrency()` are used to get different parameters of the shopping cart to show it on the page;
+*   functions `getCartQuantity()`, `getDisplaySubtotal()`, `getCurrency()` are used to get different parameters of the shopping cart to show it on the page;
 *   function `hasItems()` is used to check if cart has any items;
 *   function `getItemsList()` retrieves first five items from the cart.
 
- Now we need to create a template defined in the `getDefaultTemplate()` method. We are creating `<X-Cart>/skins/default/en/modules/Tony/PopupDemo/page/tony_custom/demo_widget.tpl `template with the following content: 
+ Now we need to create a template defined in the `getDefaultTemplate()` method. We are creating `<X-Cart>/skins/default/en/modules/Tony/PopupDemo/page/tony_custom/demo_widget.tpl` template with the following content: 
 
 ```php
 {* vim: set ts=2 sw=2 sts=2 et: *}
