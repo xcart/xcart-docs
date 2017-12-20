@@ -2,7 +2,7 @@
 lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-19 15:32 +0400'
-title: Order item property (saved after checkout)
+title: Order item property (value saved after checkout)
 identifier: ref_Rtu42BwL
 order: 10
 categories:
