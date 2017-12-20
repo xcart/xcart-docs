@@ -1,112 +1,155 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2017-12-19 15:32 +0400'
 title: Persisting product property in order item
 identifier: ref_Rtu42BwL
-updated_at: 2016-08-15 00:00
-layout: article_with_sidebar
-lang: en
 order: 10
 version: X-Cart 5.2.16 and earlier
 categories:
-- Developer docs
-- Demo module
-- Outdated
+  - Developer docs
+  - Demo module
+  - Outdated
+published: true
 ---
-
 ## Introduction
 
-This article is a continuation of an article about {% link "adding a new property to a product" ref_2bJSTtR3 %} and then displaying this property's value on the invoice page. The problem with that mod is that if we change the property's value for some product, then invoices of orders that contain this product will change its value as well. In some cases, it is OK, but sometimes it is not (e.g. price property).
+This article is an addition to the article about {% link "adding new property to a product" ref_2bJSTtR3 %}. 
 
-This article will explain how to save the product property's value when you place an order and even if you change this property's value later on, old invoices would still use saved value.
+Imagine the situation that we want to add a property to a product and then display its value on the order details page. We can do that using the mod from the previous article. But if we change the property's value after some products already purchased, then all old orders will show new value. Instead we want to save the current value of our property in the order item and then show that saved value on the order page.
 
-This article assumes that you are already familiar with the task described in the {% link "Adding new property to a product" ref_2bJSTtR3 %} guide.
+This article will illustrate how to approach this task.
 
-## Table of Contents
+{% toc Table of Contents %}
 
-*   [Introduction](#introduction)
-*   [Table of Contents](#table-of-contents)
-*   [Implementation](#implementation)
-*   [Module pack](#module-pack)
+## Recreating original mod
 
-## Implementation
+We start by creating a module similar to one from {% link "the first article" ref_2bJSTtR3 %}. Essentially, you can use the module from the previous article and jump to **step 5** in the instruction below, where we define a template. The code of the template will be different.
 
-We start with creating a module similar to one from the first article.
-
-1.  We create an empty module with developer ID **Tony** and module ID **ProductOrderPropertyDemo**.
-2.  We decorate the `\XLite\Model\Product` class and create the `<X-Cart>/classes/XLite/Module/Tony/ProductOrderPropertyDemo/Model/Product.php` file with the following content: 
+1.  We create an empty module with developer ID **XCExample** and module ID **PersistentProductPropertyDemo**.
+2.  We decorate the `\XLite\Model\Product` class and create the `classes/XLite/Module/XCExample/PersistentProductPropertyDemo/Model/Product.php` file with the following content: 
 
     ```php
-    <?php
-    // vim: set ts=4 sw=4 sts=4 et:
-
-    namespace XLite\Module\Tony\ProductOrderPropertyDemo\Model;
-
-    /**
-     * The "product" model class
-     */
-    abstract class Product extends \XLite\Model\Product implements \XLite\Base\IDecorator
-    {
-        /**
-         * @Column (type="string", length=32)
-         */
-        protected $testField;
-    }
+	<?php
+ 
+	namespace XLite\Module\XCExample\PersistentProductPropertyDemo\Model;
+ 
+	abstract class Product extends \XLite\Model\Product implements \XLite\Base\IDecorator
+	{
+    	/**
+	     * @Column (type="string")
+    	 */
+	    protected $myMessage;
+ 
+    	public function getMyMessage()
+	    {
+    	    return $this->myMessage;
+	    }
+ 
+    	public function setMyMessage($value)
+	    {
+    	    $this->myMessage = $value;
+        	return $this;
+	    }
+	}
     ```
 
     This code will add new field to a product class. The same as in the previous guide.
 
-3.  We decorate the `\XLite\View\Model\Product` class and create the `<X-Cart>/classes/XLite/Module/Tony/ProductOrderPropertyDemo/View/Model/Product.php` file with the following content: 
+3.  We decorate the `\XLite\View\FormModel\Product\Info` class and create the `classes/XLite/Module/XCExample/ProductPropertyDemo/View/FormModel/Product/Info.php` file with the following content: 
 
     ```php
-    <?php
-    // vim: set ts=4 sw=4 sts=4 et:
-
-    namespace XLite\Module\Tony\ProductOrderPropertyDemo\View\Model;
-
-    /**
-     * Product view model
-     */
-    abstract class Product extends \XLite\View\Model\Product implements \XLite\Base\IDecorator
-    {
-        public function __construct(array $params = array(), array $sections = array())
-        {
-            parent::__construct($params, $sections);
-
-            $this->schemaDefault += array (
-                'testField' => array(
-                    self::SCHEMA_CLASS    => 'XLite\View\FormField\Input\Text',
-                    self::SCHEMA_LABEL    => 'Test field',
-                    self::SCHEMA_REQUIRED => false,
-                    ),
-                );
-        }
-    }
+	<?php
+	// vim: set ts=4 sw=4 sts=4 et:
+ 
+	namespace XLite\Module\XCExample\PersistentProductPropertyDemo\View\FormModel\Product;
+ 
+	/**
+	 * Product form model
+	 */
+	abstract class Info extends \XLite\View\FormModel\Product\Info implements \XLite\Base\IDecorator
+	{
+    	protected function defineFields()
+	    {
+    	    $schema = parent::defineFields();
+ 
+        	$schema['default']['myMessage'] = [
+            	'label'     => static::t('My message'),
+	            'position'  => 900,
+    	    ];
+ 
+        	return $schema;
+	    }
+ 
+	}
     ```
 
-    This code will create a new field on product details page in admin area, where you can specify a value of this property for a product. The same as in the previous guide.
+    This code will create a new field on product details page in admin area, where you can specify a value of the property for a product. The same as in the previous guide.
 
-4.  We create the `<X-Cart>/skins/default/en/modules/Tony/ProductOrderPropertyDemo/item.test-field.tpl` template that will be responsible for displaying this property on the invoice page. It will have the following content: 
+4.  We decorate `\XLite\Model\DTO\Product\Info` product DTO object and create the `classes/XLite/Module/XCExample/ProductPropertyDemo/Model/DTO/Product/Info.php` file with the following content: 
 
-    ```twig
-    {**
-     * @ListChild (list="invoice.item.name", weight="20")
-     *}
-    <li class="test-field">
-      <span class="name">{t(#Test field#)}:</span>
-      <span class="test-field-value">{item.getTestField()}</span>
-    </li>
+    ```php
+	<?php
+	// vim: set ts=4 sw=4 sts=4 et:
+ 
+	namespace XLite\Module\XCExample\PersistentProductPropertyDemo\Model\DTO\Product;
+ 
+	/**
+	 * Abstract widget
+	 */
+	abstract class Info extends \XLite\Model\DTO\Product\Info implements \XLite\Base\IDecorator
+	{
+    	protected function init($object)
+	    {
+    	    parent::init($object);
+ 
+        	$this->default->myMessage = $object->getMyMessage();
+	    }
+ 
+    	/**
+	     * @param \XLite\Model\Product $object
+    	 * @param array|null           $rawData
+	     *
+    	 * @return mixed
+	     */
+    	public function populateTo($object, $rawData = null)
+	    {
+    	    parent::populateTo($object, $rawData);
+ 
+        	$object->setMyMessage((string) $this->default->myMessage);
+	    }
+	}    
     ```
+    
+    This class will allow product details page to save changed values for 'My message' field.
+    
+5. Now we need to display the value of 'My message' field on order details page in customer area. For that we create the `skins/customer/modules/XCExample/PersistentProductPropertyDemo/product/my_message.twig` with the following content:
+	```twig
+	{##
+	 # @ListChild (list="invoice.item.name", weight="100")
+	 #}
+ 
+	{% if this.item.getProduct().getMyMessage() %}
+	<li><strong>My message: {{ this.item.getProduct().getMyMessage() }}</strong></li>
+	{% endif %}
+    ```
+    
+To check the results, go to any product details page in admin area and define its 'My message' as 'Hello world!'. Then, go purchase this product alongside other product with empty 'My message'. You will see the following result on thank you page:
+![thank-you-page.png]({{site.baseurl}}/attachments/ref_Rtu42BwL/thank-you-page.png)
 
-    It is very similar to the template from the previous guide, but there is a key difference: we call the **testField** property as `{item.getTestField()}` instead of `{item.product.getTestField()}`. In other words, now we call this property from the `\XLite\Model\OrderItem` object, not from the `\XLite\Model\Product` one. The difference is that properties of `\XLite\Model\OrderItem` object are saved when you place an order and then they are not changed, even if you change the product's properties in admin area.
+If you change 'My message' in admin area, the order details page will show new 'My message', because we did not save its value at the moment of placing an order. The construction `this.item.getProduct().getMyMessage()` pulls the value right from the product object, so our task is to save 'My message' in order item and then adjust this construction to something like `this.item.getMyMessage()` so we would pull saved value.
 
-Now it is time to add this `$testField` property and its `getTestField()` accessor method to the `\XLite\Model\OrderItem` class and our mod will be ready.
+## Changing order item class
 
-We {% link "decorate" ref_AF6bmvL6 %} the `\XLite\Model\OrderItem` class and create the `<X-Cart>/classes/XLite/Module/Tony/ProductOrderPropertyDemo/Model/OrderItem.php` file with the following content: 
+Order item objects are defined by `\XLite\Model\OrderItem` class and we want to add new property `$myMessage` to it.
+
+We {% link "decorate" ref_AF6bmvL6 %} the `\XLite\Model\OrderItem` class and create the `classes/XLite/Module/XCExample/PersistentProductPropertyDemo/Model/OrderItem.php` file with the following content: 
 
 ```php
 <?php
 // vim: set ts=4 sw=4 sts=4 et:
 
-namespace XLite\Module\Tony\ProductOrderPropertyDemo\Model;
+namespace XLite\Module\XCExample\PersistentProductPropertyDemo\Model;
 
 /**
  * Something customer can put into his cart
@@ -114,116 +157,114 @@ namespace XLite\Module\Tony\ProductOrderPropertyDemo\Model;
 abstract class OrderItem extends \XLite\Model\OrderItem implements \XLite\Base\IDecorator
 {
     /**
-     * @Column (type="string", length=32)
+     * @Column (type="string")
      */
-    protected $testField;
+    protected $myMessage;
 
-    public function getTestField()
+    public function getMyMessage()
     {
-        return $this->isOrderOpen() ? $this->getProduct()->getTestField() : $this->testField;
+        return $this->isOrderOpen() ? $this->getProduct()->getMyMessage() : $this->myMessage;
     }
+
+    public function setMyMessage($value)
+    {
+        $this->myMessage = $value;
+    }    
 
     public function renew()
     {
         $result = parent::renew();
 
         if ($result) {
-            $this->setTestField($this->getProduct()->getTestField());
+            $this->setTestField($this->getProduct()->getMyMessage());
         }
 
         return $result;
     }
 
-    protected function getDeletedProduct()
-    {
-        $dumpProduct = parent::getDeletedProduct();
-        $dumpProduct->testField = $this->getTestField();
-
-		return $dumpProduct;
-    }
-
     protected function saveItemState(\XLite\Model\Base\IOrderItem $item)
     {
         parent::saveItemState($item);
-        $this->setTestField($item->getTestField());
+
+        $this->myMessage = $item->getMyMessage();
     }
 
     protected function resetItemState()
     {
         parent::resetItemState();
-        $this->testField = '';
+        
+        $this->myMessage = '';
     }
-}
 
+    protected function getDeletedProduct()
+    {
+        $dumpProduct = parent::getDeletedProduct();
+        $dumpProduct->setMyMessage($this->getMyMessage());
+
+        return $dumpProduct;
+    }
+
+}
 ```
 
 Let us have a look at key points of this class implementation:
 
-1.  We create the `$testField` property with the same parameters as we did in the `\XLite\Model\Product` class: 
+1. We create the `$myMessage` property with the same parameters as we did in the `\XLite\Model\Product` class: 
 
     ```php
         /**
-         * @Column (type="string", length=32)
+         * @Column (type="string")
          */
-        protected $testField;
+        protected $myMessage;
     ```
 
-2.  `getTestField()` method returns this property from the product object if an order has not been placed yet: 
+2. `getMyMessage()` method returns the property from the product object if an order has not been placed yet: 
 
     ```php
-    $this->getProduct()->getTestField()
+    $this->getProduct()->getMyMessage()
     ```
 
-    otherwise the value is returned as a `\XLite\Model\OrderItem` class' property: 
+    If the order is already placed, the value is returned as a `\XLite\Model\OrderItem` class' property: 
 
     ```php
-    $this->testField
+    $this->myMessage
     ```
+    
+    `setMyMessage()` method is a simple setter method.
 
-    because at this point `xc_order_items` table already contains info about this field.
+3.  `renew()` method is used when we want to pull info about product into order item, so we pull 'My message' from product's object.
 
-3.  These three methods: 
+	`saveItemState()` method is used when we want to populate an order item based on another one's data. In this case, we pull info from the order item provided.
+    
+    `resetItemState()` method is used when we want to clear info inside order item object. In this case, we just define 'My message' as empty string.
 
-    ```php
-        public function renew()
-        {
-            $result = parent::renew();
+	`getDeletedProduct()` method is called when we have to use a product that has been already deleted. In this case, we build fake `\XLite\Model\Product` object based on the values saved in the `\XLite\Model\OrderItem` object and define 'My message' as a value saved in DB.
 
-            if ($result) {
-                $this->setTestField($this->getProduct()->getTestField());
-            }
+## Adjusting template
 
-            return $result;
-        }
+Having these changes applied, let us place another order with the product we defined 'My message' for. After we place an order, it will look as follows:
+![thank-you-page-2.png]({{site.baseurl}}/attachments/ref_Rtu42BwL/thank-you-page-2.png)
 
-        protected function saveItemState(\XLite\Model\Base\IOrderItem $item)
-        {
-            parent::saveItemState($item);
-            $this->setTestField($item->getTestField());
-        }
+This looks the same as before. If we change the 'My message' in admin area, thank you page will show new value. But the key difference is that we saved 'My message' field in order item and now we can call for it in the template. 
 
-        protected function resetItemState()
-        {
-            parent::resetItemState();
-            $this->testField = '';
-        }
-    ```
+Define content of `skins/customer/modules/XCExample/PersistentProductPropertyDemo/product/my_message.twig` as follows:
 
-    are implemented as follows, because they are called when `\XLite\Model\OrderItem` object has not yet taken property values from an `\XLite\Model\Product` object. That is why we define `$this->testField` property explicitly here.
+```twig
+{##
+ # @ListChild (list="invoice.item.name", weight="100")
+ #}
+ 
+{% if this.item.getMyMessage() %}
+<li><strong>My message: {{ this.item.getMyMessage() }}</strong></li>
+{% endif %}
+```
 
-4.  `getDeletedProduct()` method is called when we have to use a product that has been already deleted. In this case, we build this fake `\XLite\Model\Product` object based on the values saved in the `\XLite\Model\OrderItem` one.
+Essentially, we are replacing `this.item.getProduct().getMyMessage()` construction with the `this.item.getMyMessage()` one and it means that we are now using `getMyMessage()` of order item object, not product's. This way we will display saved value.
 
-This mod is ready. Now we need to re-deploy the store and check the results.
-
-As a first step we go to an admin area and define the **Test Field** property for some product:
-![]({{site.baseurl}}/attachments/8225458/8356212.png)
-
-then go to your storefront, add this product to cart, proceed to checkout and place an order. You will see the following picture there:![]({{site.baseurl}}/attachments/8225458/8356213.png)
-
-If you go to your admin area, change the **Test Field** property for this product again and then reload the **Thank you** page, you will still see old value.
-
-_Note: this mod does not display this property on invoice page in admin area and in email notifications. To get the idea of how to enhance this mod and show the value in admin area, please check the {% link "Adding product images to order notifications" ref_Qn8aa4z4 %}__ guide._
+{% note %}
+This mod does not display the property on invoice page in admin area and in email notifications. To get the idea of how to enhance this mod and show the value in admin area, please check the {% link "Adding product images to order notifications guide" ref_Qn8aa4z4 %} guide.
+{% endnote %}
 
 ## Module pack
 
-You can download this module from here: [https://dl.dropboxusercontent.com/u/23858825/Tony-ProductOrderPropertyDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-ProductOrderPropertyDemo-v5_1_0.tar)
+You can download the demo module from here: <https://www.dropbox.com/s/5bnng72s6r3lfn5/XCExample-PersistentProductPropertyDemo-v5_3_0.tar>
