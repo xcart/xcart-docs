@@ -2,14 +2,12 @@
 lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-19 15:32 +0400'
-title: Persisting product property in order item
+title: Order item property (saved after checkout)
 identifier: ref_Rtu42BwL
 order: 10
-version: X-Cart 5.2.16 and earlier
 categories:
   - Developer docs
   - Demo module
-  - Outdated
 published: true
 ---
 ## Introduction
