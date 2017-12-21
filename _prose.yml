@@ -1,5 +1,4 @@
 prose:
-  reference: 'https://kb.x-cart.com/links.xml'
   media: 'attachments'
   ignore:
     - /_includes
@@ -32,6 +31,11 @@ prose:
     - .nojekyll
     - Gemfile
     - Gemfile.lock
+  references: 
+    _pages/kb_en: 'https://kb.x-cart.com/links.xml'
+    _pages/kb_ru: 'https://kb.x-cart.ru/links.xml'
+    _pages/devs_en: 'https://devs.x-cart.com/links.xml'
+    _pages/devs_ru: 'https://devs.x-cart.ru/links.xml'
   metadata:
     _pages/kb_en:
       - name: "identifier"
