@@ -38,7 +38,7 @@ We start by creating a module similar to one from {% link "the first article" re
 	abstract class Product extends \XLite\Model\Product implements \XLite\Base\IDecorator
 	{
     	/**
-	     * @Column (type="string")
+	     * @Column (type="string", nullable=true)
     	 */
 	    protected $myMessage;
  
