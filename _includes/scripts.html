@@ -34,11 +34,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
             "thank_you": "{{ site.data.labels['Thanks!'][page.lang] }}"
         },
         onSubmit: function (data) {
+            var date = new Date();
             $.post('https://hooks.zapier.com/hooks/catch/2380022/sjdct2/', {
                 'subject': '{{ page.title }}',
                 'url': '{{ page.url | replace: "/index.html","/" | absolute_url }}',
                 'helpful': data.helpful ? '1' : '0',
-                'message': data.message
+                'message': data.message,
+                'submitted_at': date.toString()
             })
         }
     });
