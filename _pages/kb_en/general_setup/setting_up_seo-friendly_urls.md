@@ -150,6 +150,8 @@ use_canonical_urls_only = On
 category_clean_urls_format = "domain/parent/goalcategory/"
 ```
 
+It is recommended to complete the tweaking of Clean URLs before your store website is indexed by search engines because if you try to tweak the URLs after your website has been indexed it may be problematic to set up the 301 redirect routing correctly. 
+
 ## Clean URL aliases
 
 You can also set custom Clean URLs for static targets like `target=bestsellers` or `target=contact_us` (only in the Customer area). To do so, use the [clean_urls_aliases] section and add key-value pairs to set SEO-friendly URLs:
