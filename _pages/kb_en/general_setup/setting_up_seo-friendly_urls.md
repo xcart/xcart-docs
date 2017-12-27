@@ -13,7 +13,7 @@ order: 280
 
 ## Introduction
 
-This article aims to help merchants set up X-Cart to use SEO-friendly URLs for product and categories, instead of default ones with GET parameters (e.g. `cart.php?target=category&category_id=2`)
+This article aims to help merchants to set up X-Cart to use SEO-friendly URLs for products and categories instead of the default ones with GET parameters (like `cart.php?target=category&category_id=2`).
 
 ## Table of Contents
 
@@ -29,23 +29,27 @@ This article aims to help merchants set up X-Cart to use SEO-friendly URLs for p
 
 ## General setup
 
-Log in to your store's Admin area and go to the **Store setup** > **SEO settings** section. Click the **Enable clean URL** switcher to enable SEO-friendly URLs.
+Log in to your store's Admin area and go to the **Store setup** > **SEO settings** section. 
+![xc5_seo_store_setup_seo_settings.png]({{site.baseurl}}/attachments/ref_nJxrzFEZ/xc5_seo_store_setup_seo_settings.png)
+
+Click the **Enable clean URL** switch to enable SEO-friendly URLs.
+![xc5_seo_clean_url_switch.png]({{site.baseurl}}/attachments/ref_nJxrzFEZ/xc5_seo_clean_url_switch.png)
 
 {% note warning %}
-If you are using X-Cart 5.3.1 and earlier, go to the **System Settings** > **Environment** section there and look for the **Enable clean URL** button on the half-way through to the bottom.
+If you are using X-Cart 5.3.1 or earlier, go to the **System Settings** > **Environment** section and look for the **Enable clean URL** button half-way through to the page bottom.
 {% endnote %}
 
 ![]({{site.baseurl}}/attachments/7505785/cleanurl_setting.png)
 
-Generally, from now on your store will start using seo-friendly URLs, and after a couple of seconds you will see the **Clean URLs are enabled** message:
+From now on your store should start using seo-friendly URLs, and after a couple of seconds you should see a message saying **Clean URLs are enabled**:
 
 ![]({{site.baseurl}}/attachments/7505785/9437499.png)
 
-If your server environment is not compatible with handling redirects properly and thus not be able to work with SEO-friendly URLs right now, you will see the following message: 
+If your server environment is not compatible with handling redirects properly and thus is not able to work with SEO-friendly URLs right now, you will see the following message: 
 
 ![]({{site.baseurl}}/attachments/7505785/9437500.png)
 
-It means, you need to set up your server before you can use SEO-friendly URLs. This setting up may differ depending on your server software. This article describes how you can set up [Apache](#setting-up-apache), [IIS](#setting-up-iis) or [nginx](#setting-up-nginx).
+It means that you need to set up your server before you can use SEO-friendly URLs. A different setup may be required depending on your server software. This article describes how you can set up [Apache](#setting-up-apache), [IIS](#setting-up-iis) or [nginx](#setting-up-nginx).
 
 ## Setting up Apache
 
