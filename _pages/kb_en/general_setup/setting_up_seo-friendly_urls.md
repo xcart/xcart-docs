@@ -69,11 +69,11 @@ If using X-Cart versions 5.3.1 and earlier, enabling [mod_rewrite](http://httpd.
 
 ## Setting up IIS
 
-Use the [Import of Apache rules](http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules) feature in order to set up your IIS. Follow the process described in the [http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules](http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules) article and import rules from your `<X-Cart>/.htaccess` file.
+To set up your IIS, use the [Import of Apache rules](http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules) feature. Follow the guidelines provided in the article [http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules](http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules) and import the rules from your `<X-Cart>/.htaccess` file.
 
 ## Setting up nginx
 
-You should put the following lines into the [server {} section](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) in your nginx configuration file (nginx.conf):
+To set up nginx, you will need to add a few lines (as provided below) into the [server {} section](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) of your nginx configuration file (nginx.conf):
 
 ### Configuration for X-Cart 5.3.1 and earlier
 
