@@ -49,7 +49,9 @@ It means that you need to set up your server before you can use SEO-friendly URL
 
 ## Setting up Apache
 
-You need to enable Apache's module [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) and it will enable the **Enable clean URLs** button in the **Environment** section described above. Typically, you should edit the **httpd.conf** file of your Apache and replace there the following line:
+You need to enable Apache's module [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html).
+
+Typically, you should edit the **httpd.conf** file of your Apache and replace the following line in it:
 
 ```php
 #LoadModule rewrite_module modules/mod_rewrite.so
@@ -61,7 +63,9 @@ with the next one:
 LoadModule rewrite_module modules/mod_rewrite.so
 ```
 
-After that, restart your Apache server and check the results.
+After replacing the line as shown above, restart your Apache server and check the results.
+
+If using X-Cart versions 5.3.1 and earlier, enabling [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) will enable the **Enable clean URLs** button in the **Environment** section mentioned above. 
 
 ## Setting up IIS
 
