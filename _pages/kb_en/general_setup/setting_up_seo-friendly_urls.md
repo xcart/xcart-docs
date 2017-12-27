@@ -45,7 +45,7 @@ From now on your store should start using seo-friendly URLs, and after a couple 
 
 If your server environment is not compatible with handling redirects properly and thus is not able to work with SEO-friendly URLs right now, you will see the following message: 
 
-![]({{site.baseurl}}/attachments/7505785/9437500.png)
+![xc5_seo_check_4_clean_urls.png]({{site.baseurl}}/attachments/ref_nJxrzFEZ/xc5_seo_check_4_clean_urls.png)
 
 It means that you need to set up your server before you can use SEO-friendly URLs. A different setup may be required depending on your server software. This article describes how you can set up [Apache](#setting-up-apache), [IIS](#setting-up-iis) or [nginx](#setting-up-nginx).
 
