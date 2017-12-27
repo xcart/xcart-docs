@@ -39,9 +39,7 @@ Click the **Enable clean URL** switch to enable SEO-friendly URLs.
 If you are using X-Cart 5.3.1 or earlier, go to the **System Settings** > **Environment** section and look for the **Enable clean URL** button half-way through to the page bottom.
 {% endnote %}
 
-From now on your store should start using seo-friendly URLs, and after a couple of seconds you should see a message saying **Clean URLs are enabled**:
-
-![]({{site.baseurl}}/attachments/7505785/9437499.png)
+From now on your store should start using seo-friendly URLs, and after a couple of seconds you should see a success message at the top of the page saying **Clean URLs are enabled**.
 
 If your server environment is not compatible with handling redirects properly and thus is not able to work with SEO-friendly URLs right now, you will see the following message: 
 
