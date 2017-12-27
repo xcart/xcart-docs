@@ -73,7 +73,7 @@ Use the [Import of Apache rules](http://www.iis.net/learn/extensions/url-rewrite
 
 ## Setting up nginx
 
-You should put the following lines into the [server {} section](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) into your nginx configuration file (nginx.conf):
+You should put the following lines into the [server {} section](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) in your nginx configuration file (nginx.conf):
 
 ### Configuration for X-Cart 5.3.1 and earlier
 
@@ -91,7 +91,7 @@ location / {
 
 ### Configuration for X-Cart 5.3.2 and later
 
-Starting from X-Cart 5.3.2, configuration has to be changed to accept dots(.) in url path.
+Starting from X-Cart 5.3.2, configuration has to be changed to accept dots(.) in the url path.
 
 ```php
 ## Example nginx configuration (X-Cart 5.3.2+)
@@ -113,7 +113,7 @@ location ~ \.php$ {
 }
 ```
 
-You should obviously set location to corresponding directory in case your X-Cart installation is placed in subdirectory of your web-root.
+You should set the location to the corresponding directory if your X-Cart installation is placed in a subdirectory of your web root.
 
 ## Tweaking CleanURLs
 
