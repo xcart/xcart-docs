@@ -117,7 +117,7 @@ You should set the location to the corresponding directory if your X-Cart instal
 
 ## Tweaking CleanURLs
 
-You can configure SEO-friendly URLs behaviour via `XCART_DIRECTORY/etc/config.php` file. Config values are placed under `[clean_urls] section. Here is the list with all available settings and their default values:
+You can configure the SEO-friendly URLs behaviour via the file `XCART_DIRECTORY/etc/config.php`. The config values you require can be found in the `[clean_urls]` section. Here is the list of all the available settings and their default values:
 
 ```
 [clean_urls]
@@ -152,7 +152,7 @@ category_clean_urls_format = "domain/parent/goalcategory/"
 
 ## Clean URL aliases
 
-You can also set custom Clean URLs for such static targets like `target=bestsellers` or `target=contact_us` (only in customer area). Define the [clean_urls_aliases] section and add key-value pairs to set SEO-friendly URLs:
+You can also set custom Clean URLs for static targets like `target=bestsellers` or `target=contact_us` (only in the Customer area). To do so, use the [clean_urls_aliases] section and add key-value pairs to set SEO-friendly URLs:
 
 ```
 [clean_urls_aliases]
@@ -167,7 +167,7 @@ contact_us = "contact_us"
 
 ## Troubleshooting
 
-Steps listed below usually fix the problem that SEO-friendly URLs cannot be enabled or are not working:
+The steps below usually help to fix the problem of SEO-friendly URLs not working:
 
 1.  Make sure that the following line in your `.htaccess` file reflects an actual path to your store: 
 
