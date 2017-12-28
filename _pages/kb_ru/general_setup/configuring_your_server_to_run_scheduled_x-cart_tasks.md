@@ -2,7 +2,7 @@
 lang: ru
 layout: article_with_sidebar
 updated_at: '2017-12-28 13:35 +0400'
-title: ''
+title: Настройка сервера для выполнения запланированных задач X-Cart
 order: 70
 published: true
 identifier: Настройка сервера для выполнения запланированных задач X-Cart
