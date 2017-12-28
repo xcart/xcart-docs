@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-12-28 23:04 +0400'
 title: Недоступность зоны администратора магазина после включения HTTPS
-order: 100
+order: 90
 published: true
 identifier: ref_https23
 ---
