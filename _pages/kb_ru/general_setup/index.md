@@ -19,3 +19,4 @@ categories:
 * {% link "Обновление X-Cart 5" ref_sn9tuAyV %}
 * {% link "Перенос X-Cart на другое местоположение" ref_yVLJrToe %}
 * {% link "Настройка сервера для выполнения запланированных задач X-Cart" ref_cronjob28 %}
+* {% link "Настройка очереди фоновых задач" ref_queue %}
