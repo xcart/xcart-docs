@@ -3,30 +3,30 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-12-28 13:35 +0400'
 title: ''
-order: 100
-published: false
+order: 70
+published: true
+identifier: Настройка сервера для выполнения запланированных задач X-Cart
 ---
-Some X-Cart's features require periodic execution of the script **console.php** located in the X-Cart root. Running this script is used to trigger the execution of miscellaneous service and maintenance tasks, including, but not limited to:
+Некоторые функции X-Cart требуют периодического запуска скрипта **console.php**, который находится в корневой директории магазина. Скрипт запускает служебные задачи технического обслуживания:
 
-*   the periodic execution of event tasks (i.e. tasks that are launched on event; examples of such tasks are exporting and importing of data from/into X-Cart);
-*   the sending of abandoned cart reminder email messages for the Abandoned Cart Reminder module;
-*   the automated re-generation of the sitemap and the XML sitemap; etc.
+*   периодические событийные задачи, например, импорт и экспорт данных из или в X-Cart;
+*   отправка сообщения об оставленной корзине с выбранными продуктами  при включенном модуле Abandoned Cart Reminder;
+*   автоматическое пересоздание карты сайта, XML карты сайта и т.д.
 
-Automated periodic execution of the script console.php can be implemented through the use of a scheduling service that allows users to schedule jobs (commands or shell scripts) at defined times or regular intervals. Such a service is provided by most operating systems. 
+Скрипт **console.php** периодически запускается специальным сервисом, который назначает технические работы (команды или сценарии оболочки) на определенное время или через промежутки времени. Такой сервис предоставляется практически всеми операционными системами. 
 
-For example, on Unix-like systems, you can set up a cron job for running console.php by manually editing the crontab file in your home directory or by using the web interface for managing cron jobs provided by your hosting provider. The command that you should configure your server to run in the background at regular intervals is:
+Например, в системе _Unix_ скрипт **console.php** запускается планировщиком, который можно вручную настроить редактированием файла _crontab_ в главной директории или через веб-интерфейс в панели управления хостинга. Настройте периодическое фоновое выполнение следующей команды:
 
 ```
 php console.php --target=cron
 ```
 
-where "console.php" must be replaced with the full path to the console.php script in your X-Cart installation. On a Windows server, a similar setup can be implemented using the Windows Task Scheduler. 
+где вместо console.php укажите полный путь к скрипту в вашей установке X-Cart. В системе _Windows_ такие же настройки осуществляет планировщик _Windows Task Scheduler_. 
 
-**Q: How often should console.php be run?**
+**Q: Как часто необходим запуск console.php?**
 
-**A:** The frequency of once per 5-10 minutes should be enough for most tasks.
+**A:** Для большинства задач достаточно запускать скрипт раз в 5-10 минут.
 
-**Q: Is it possible to use one of the free cron services available online to run console.php?**
+**Q: Можно ли для запуска console.php использовать один из бесплатных планировщиков, предлагаемых в Интернете?**
 
-**A:** No. For security reasons, the script console.php can only be run in the console user interface (not in the browser).
-
+**A:** Нет, в целях безопасности скрипт console.php должен запускаться только из консоли, но не в браузере.
