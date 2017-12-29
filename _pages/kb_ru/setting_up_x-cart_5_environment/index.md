@@ -17,5 +17,6 @@ icon: server
 *   {% link "Настройка безопасности сервера" ref_qbhWb6Bn %}
 *   Настройка сервера для работы с Маркетплейсом X-Cart: 
     *   {% link "Настройка cURL" ref_7acvbbTA %}
+    *   {% link "Настройка .phar" ref_phar %}
 *   {% link "Оптимизация сервера для скачивания больших файлов" ref_attachments00 %}
 *   {% link "Создание самоподписанного SSL сертификата" ref_selfsignedssl %}
