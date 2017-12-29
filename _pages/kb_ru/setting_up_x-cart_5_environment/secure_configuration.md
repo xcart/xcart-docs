@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-11-21 11:57 +0400'
 identifier: ref_qbhWb6Bn
 title: Настройка безопасности сервера
-order: 70
+order: 20
 published: true
 ---
 Данная статься дает советы по защите сервера.
