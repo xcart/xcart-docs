@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-12-29 17:04 +0400'
 title: Настройка .phar
 order: 60
-published: false
+published: true
 identifier: ref_phar
 ---
 Модуль **.phar** используется для создания архивов в PHP.  Этот модуль входит по умолчанию в версию PHP 5.3, но хостинг может отключать его.
