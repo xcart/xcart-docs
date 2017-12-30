@@ -1,12 +1,14 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2015-03-18 00:00'
 title: Adding new sort option to ItemsList
 identifier: ref_Dwd0HwPQ
-updated_at: 2015-03-18 00:00
-layout: article_with_sidebar
-lang: en
 categories:
-- Developer docs
-- Demo module
+  - Developer docs
+  - Demo module
+published: true
+order: 100
 ---
 
 ## Introduction
@@ -28,14 +30,14 @@ Similar option already exists in [Product Advisor](http://market.x-cart.com/addo
 
 ## Implementation
 
-We start with {% link "creating a module" ref_G2mlgckf %} with developer ID **Tony** and module ID **SortingByDate**. In this module we are going to {% link "decorate" ref_AF6bmvL6 %} the `\XLite\View\ItemsList\Product\Customer\ACustomer` class, so we create the
-`<X-Cart>/classes/XLite/Module/Tony/SortingByDate/View/ItemsList/Product/Customer/ACustomer.php` file with the following content: 
+We start with {% link "creating a module" ref_G2mlgckf %} with developer ID **XCExample** and module ID **SortingByDate**. In this module we are going to {% link "decorate" ref_AF6bmvL6 %} the `\XLite\View\ItemsList\Product\Customer\ACustomer` class, so we create the
+`classes/XLite/Module/XCExample/SortingByDate/View/ItemsList/Product/Customer/ACustomer.php` file with the following content: 
 
 ```php
 <?php
 // vim: set ts=4 sw=4 sts=4 et:
 
-namespace XLite\Module\Tony\SortingByDate\View\ItemsList\Product\Customer;
+namespace XLite\Module\XCExample\SortingByDate\View\ItemsList\Product\Customer;
 
 /**
  * ACustomer
@@ -53,24 +55,24 @@ public function __construct(array $params = array())
     parent::__construct($params);
 
     $this->sortByModes = array(
-        'p.arrivalDate' => 'Sort by date',
+        'p.arrivalDate' => 'Date',
     ) + $this->sortByModes;
 }
 ```
 
-As you can see, we call parent's constructor and then adding one more record to the `$this->sortByModes` array: 
+As you can see, we call parent's constructor and then add one more record to the `$this->sortByModes` array: 
 
 ```php
 $this->sortByModes = array(
-    'p.arrivalDate' => 'Sort by date',
+    'p.arrivalDate' => 'Date',
 ) + $this->sortByModes;
 ```
 
 *   This new record's key is a field that will be used by {% link "queryBuilder" ref_FJyeE9lP %} object for sorting results. In our case we are going to sort by date and key is `p.arrivalDate`.
-*   The value of new record is a name of sorting option, which will be displayed to a customer. In our case it is **Sort by date**.
+*   The value of new record is a name of sorting option, which will be displayed to a customer. In our case it is **Date**.
 
-That is it. Now we can re-deploy the store and check the results in store-front. It will look as follows:![]({{site.baseurl}}/attachments/8749095/8716415.png)
+That is it. Now we can re-deploy the store and check the results in store-front. It will look as follows: ![sort-by-date.png]({{site.baseurl}}/attachments/ref_Dwd0HwPQ/sort-by-date.png)
 
 ## Module pack
 
-You can download this module example from here: [https://dl.dropboxusercontent.com/u/23858825/Tony-SortingByDate-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-SortingByDate-v5_1_0.tar)
+You can download this module example from here: <https://www.dropbox.com/s/0jzw1occl5qurm2/XCExample-SortingByDate-v5_3_0.tar>
