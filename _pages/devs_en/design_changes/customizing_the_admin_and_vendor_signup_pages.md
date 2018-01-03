@@ -1,14 +1,5 @@
 ---
-title: Customizing the Admin and Vendor Signup pages
-lang: en
-layout: article_with_sidebar
-updated_at: 2017-07-10 12:55 +0400
-identifier: ref_f4ohXara
-version: 'X-Cart 5.2.x and X-Cart 5.3.x '
-categories:
-- Developer docs
-- Outdated
-order: 100
+identifier: ref_1DdkhUlN
 ---
 
 It is possible to customize the Admin and Vendor Signup pages in your X-Cart store. See instructions for:
@@ -72,6 +63,18 @@ If you need to change the page title, the footer links "Official Website", "Find
         original template: `skins/admin/header/parts/title.twig`
 
         custom template: `skins/custom_skin/admin/header/parts/title.twig`
+
+*   for the "X-Cart shopping cart software" top text:
+
+        original template: `skins/admin/top_links/version_notes/parts/base.twig`
+
+        custom template: `skins/custom_skin/admin/top_links/version_notes/parts/base.twig`
+
+*   for the X-Cart logo at the top:
+
+        original template: `skins/admin/main_center/page_container_parts/header_parts/logo.twig`
+
+        custom template: `skins/custom_skin/admin/main_center/page_container_parts/header_parts/logo.twig`
 
 Then you can customize the code of the custom templates as you wish.
 
