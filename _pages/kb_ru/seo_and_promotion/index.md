@@ -2,7 +2,7 @@
 lang: ru
 layout: article_with_sidebar
 updated_at: '2018-01-04 14:11 +0400'
-title: Поисковая оптимизация магазина и специальные предложения
+title: SEO и специальные предложения
 order: 150
 published: true
 identifier: ref_coupons
