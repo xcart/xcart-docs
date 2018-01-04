@@ -12,4 +12,4 @@ description: >-
 categories:
   - home
 ---
-*   {% link "Setting up discount coupons" ref_SGI1FqdC %}
+*   {% link "Настройка скидочных купонов" ref_coupons %}
