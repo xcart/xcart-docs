@@ -1,14 +1,16 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2015-03-12 00:00'
 title: Basic guide to theme creation
 identifier: ref_bC2TThPi
-updated_at: 2015-03-12 00:00
-layout: article_with_sidebar
-lang: en
 version: X-Cart 5.2.16 and earlier
 categories:
-- Developer docs
-- Demo module
-- Outdated
+  - Developer docs
+  - Demo module
+  - Outdated
+published: true
+order: 100
 ---
 
 ## Introduction
@@ -31,8 +33,8 @@ Also, you might want to read about advanced {% link 'skin module definition' ref
 
 If we want to make our module to be a skin and dramatically change the X-Cart appearance, there is a special way how to do it:
 
-1.  {% link "Create an empty module" ref_G2mlgckf %}. In this article, I will be using module with developer ID as **Tony** and module ID as **SkinDemo**.
-2.  Add the following method into your `Main.php` file 
+1. {% link "Create an empty module" ref_G2mlgckf %}. In this article, I will be using module with developer ID as **Tony** and module ID as **SkinDemo**.
+2. Add the following method into your `Main.php` file 
 
     ```php
         public static function getSkins()
@@ -89,7 +91,7 @@ Let us assume a task that you want to get rid of exclamation marks from notifica
 
     in other words, we just remove the exclamation mark from the notification. The same way create three other overriding templates.
 
-5.  If {% link "developer mode is enabled" ref_G2mlgckf#packing-up-your-module %} in your store, effect will take place immediately after you save the templates, without having to re-deploy the store.
+5. If {% link "developer mode is enabled" ref_TBDhOF2h#packing-up-your-module %} in your store, effect will take place immediately after you save the templates, without having to re-deploy the store.
 6.  Surely, you can apply more complex modifications to your store layout using the same approach.
 
 ## Attachments:
