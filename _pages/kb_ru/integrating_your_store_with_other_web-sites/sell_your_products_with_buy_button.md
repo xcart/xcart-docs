@@ -6,8 +6,6 @@ title: Установка кнопки Купить на сайте
 order: 10
 published: false
 identifier: ref_buybutton
-categories:
-  - home
 ---
 The Buy Button module lets you easily add ecommerce to your blog, website, or email campaign using Buy Buttons that connect with a X-Cart store. You can use Buy Buttons to sell your products on WordPress, Tilda, and Wix, on your own website, or wherever you've already built an audience online. Product cards with the Buy Buttons always show the actual product name and price, even if you modify them on your storefront.
 
