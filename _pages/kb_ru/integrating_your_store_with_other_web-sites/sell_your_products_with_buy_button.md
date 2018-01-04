@@ -71,25 +71,24 @@ identifier: ref_buybutton
 
 #### Как вставить кнопку в главное меню сайта на Wordpress
 
-To add embed code to a menu on the homepage:
 
-1.	From your WordPress dashboard, find __Appearance__, and open __Customize__ page to enable the theme editor, and then click __Widgets__:
+1.	В меню найдите **Внешний вид / Настроить** и выберите **Виджеты**:
 
 	![wordpress_menu_1.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_1.png)
     
-2.	Click the name of the area where you want to add the Buy Button or custom cart code:
+2.	Нажмите на название раздела, где должна появиться кнопка Купить:
 
     ![wordpress_menu_2.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_2.png)
     
-3.	Open an existing **Text** widget, or click **Add a Widget**, and then click **Text**:
+3.	Выберите существующий виджет **Текст** или нажмите **Добавить**, затем нажмите **Текст**:
 
 	![wordpress_menu_3.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_3.png)	
     
-4.	Paste the embed code into the **Content** text field within the **Text** widget and save the changes:
+4.	Вставьте код в поле редактирования содержания виджета **Текст** и сохраните изменения:
 
 	![wordpress_menu_4.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_4.png)
 
-5.  Buy button is now visible as a widget:
+5.  Появился виджет Кнопка Купить:
 
 	![wordpress_menu_5.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_5.png)
 
