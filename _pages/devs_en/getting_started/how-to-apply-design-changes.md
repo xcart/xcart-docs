@@ -8,7 +8,7 @@ order: 200
 categories:
   - Developer docs
   - Demo module
-published: false
+published: true
 redirect_from:
   - /getting_started/step_2_-_applying_design_changes.html
 ---
