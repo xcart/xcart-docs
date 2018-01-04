@@ -80,7 +80,7 @@ identifier: ref_buybutton
 
     ![wordpress_menu_2.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_2.png)
     
-3.	Выберите существующий виджет **Текст** или нажмите **Добавить**, затем нажмите **Текст**:
+3.	Выберите существующий виджет **HTML-код* или нажмите **Добавить**, затем нажмите **HTML-код**:
 
 	![wordpress_menu_3.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_3.png)	
     
