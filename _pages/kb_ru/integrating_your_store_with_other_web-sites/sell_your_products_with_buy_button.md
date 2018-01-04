@@ -35,42 +35,41 @@ identifier: ref_buybutton
 
 ## Как вставить код кнопки в код сайта
 
-After you create a Buy Button in your X-Cart admin, you're ready to add it to your own website or blog. The process of adding embed code to your website's source HTML is a bit different depending on how and where you want your Buy Buttons and cart to appear, on your website platform.
+Вставляя код кнопку Купить в html сайта важно учитывать, где и как кнопка и корзина должны располагаться.
 
-In general, any website or platform, which allows to paste plain HTML code with script tags, can embed Buy Button card. Look for **HTML code** widget or **Code** text editor mode. Here are some tutorials for the most popular platforms:
+Вставить кнопку легко, если сайт или платформа позволяет добавлять простой html код с тэгами script. Воспользуйтесь встроенными html редактором или текстовым редактором кода.
 
-### Adding Buy Button to Wordpress blog
+### Как разместить кнопку Купить в блоге на платформе Wordpress
 
-You can add embed code to individual posts and to the menu on the homepage of your WordPress blog.
+Местоположение кнопки может быть различным - в определенной статье или в меню на главной странице.
 
-You can also use embedded collections with custom themes to create an entire ecommerce site in WordPress.
+Воспользовавшись встроенными коллекциями и шаблонами дизайна, можно создать и настоящий онлайн магазин на базе Wordpress.
 
 {% note info %}
-Embedded Buy Buttons are compatible with the **WordPress.org platform** — but **not** with WordPress.com, because it strips custom script tags embeds. This documentation describes WordPress 4.2.2. Your version might be different.
+Встроенные кнопки Купить работают на платформе **WordPress.org**, но **не работают** на **WordPress.com**, где фрагменты встроенного кода вырезаются. Информация в этой статье актуальна для WordPress 4.2.2, версия вашего сайта может отличаться.
 {% endnote %}
 
-#### Add embed code to a post
+#### Как поместить копку в сообщение на Wordpress
 
-To add embed code to an individual post:
 
-1.	In your X-Cart admin, create a Buy Button and copy its embed code from the **Embed Code** dialog (or click **Copy embed code to clipboard**):
+1.	В зоне администратора магазина создайте кнопку Купить и скопируйте ее код:
 
 	![embed_code.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/embed_code.png)
 
-2.	Click **Add New** to create a new post, or click the name of an existing post that you want to display a Buy Button.
+2.	В Wordpress нажмите **Добавить / Запись** или нажмите на название готового сообщения.
 
 	![wordpress_start.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_start.png)
 
-3.  From the **Add New Post** or **Edit Post** page, change the text editor from Visual to Text mode and paste the embed code into the editor's main text field in the place where you want the Buy Button or collection to appear:
+3.  На странице создания или редактирования записи перейдите в текстовый редактор и поместите код там, где должна отображаться кнопка:
 	
 	![wordpress_publish.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_publish.png)
     
-5.	When you're done, click **Save Draft**, **Preview**, or **Publish**. After publish is done, Buy button can be visible in the post.
+4.	Сохраните запись, посмотрите, что получилось, и опубликуйте. Кнопка появилась в сообщении.
 
 	![wordpress_finish.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_finish.png)
 
 
-#### Add embed code to a menu
+#### Как вставить кнопку в главное меню сайта на Wordpress
 
 To add embed code to a menu on the homepage:
 
