@@ -92,20 +92,20 @@ identifier: ref_buybutton
 
 	![wordpress_menu_5.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_5.png)
 
-### Adding Buy Button to Wix
+### Как добавить кнопку Купить на Wix
 
-After you've created a Buy Button in your X-Cart admin, you can add it to your Wix website using the Wix Website Editor.
+Когда кнопка уже создана в X-Cart, с помощью встроенного конструктора Wix ее можно разместить на сайте.
 
-If you want to display more than one product on your Wix website, simply copy-paste several embed codes one after another. They will be displayed on the same line, as long as there is enough horizontal space.
+Чтобы разместить на сайте несколько продуктов, код следует вставить несколько раз, один продукт за другим. Продукты будут расположены горизонтально в одну линию.
 
-1.	Start by creating a Buy Button and then copy its embed code.
+1.	Создайте кнопку в X-Cart и скопируйте ее код.
 
-2.	From your Wix account, find the site you want to edit in the **My Sites** section, and then click **Edit Site**.
+2.	В Wix в раделе **Мои сайты** найдите сайт, где будет добавлена кнопка, и нажмите **Редактировать**.
 
-3.	In the Wix Website Editor, click the **+** button, and then click **More**:
+3.	В конструкторе Wix нажмите **+** **Добавить / Еще**:
     
-4.	Click **HTML Code** to add an HTML code widget to the page:
+4.	Выберите **HTML-код**:
 
-5.	Click **Enter Code**. On the **HTML Settings** dialog, paste the embed code for your Buy Button in the **Add your code here** field and then click **Update**:
+5.	Нажмите **Вставить код**, в поле редактирования внесите код кнопки и нажмите **Обновит**ь:
     
-6.	Resize the HTML code widget to fit its contents, and move to make sure the product card appears in the right place. When you're done, click **Save**.
+6.	Измените размер виджета и перенестие в нужное место на сайте, где должна располагаться карточка продукта. Нажмите **Сохранить**.
