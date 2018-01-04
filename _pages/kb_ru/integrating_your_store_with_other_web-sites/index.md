@@ -10,4 +10,4 @@ identifier: ref_sites
 categories:
   - home
 ---
-*   {% link "Установка кнопки Купить на сайте" ref_lG8NdRzr %}
+*   {% link "Установка кнопки Купить на сайте" ref_buybutton %}
