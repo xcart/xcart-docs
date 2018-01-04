@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-04 10:22 +0400'
 title: Настройка openSSL
 order: 80
-published: false
+published: true
 identifier: ref_openssl
 ---
 
