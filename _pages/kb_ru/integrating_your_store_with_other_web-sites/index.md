@@ -6,5 +6,6 @@ title: Интеграция магазина с сайтами
 order: 140
 published: true
 icon: plug
+identifier: ref_sites
 ---
 *   {% link "Установка кнопки Купить на сайте" ref_lG8NdRzr %}
