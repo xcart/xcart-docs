@@ -9,48 +9,38 @@ identifier: ref_openssl
 ---
 
 
-## Introduction
+[openSSL](http://www.php.net/manual/en/book.openssl.php) - это расширение в PHP, которое зашифровывает секретные данные для предотвращения доступа к ним злоумышленников. Если openSSL не настроен, магазин не сможет подключиться к маркетплейсу для установки модулей.
 
-[openSSL](http://www.php.net/manual/en/book.openssl.php) is PHP encryption extension and its purpose to encrypt sensitive data, so malicious users would not be able to access it. If openSSL is not configured properly, your store will not be able to communicate with marketplace and install modules out of there.
+Если openSSL не настроен на сервере, обратитесь в техподдержку хостинга и попросите [установить и активировать](http://www.php.net/manual/en/openssl.installation.php) приложение.
 
-If your web-server does not have openSSL configured properly, contact your hosting team and ask them to [compile PHP with openSSL enabled](http://www.php.net/manual/en/openssl.installation.php).
+Если openSSL не работает на локальном сервере, воспользуйтесь решением, соответствующим используемой операционной системе.
 
-If you face this problem on your local machine, check tips below. Solution will depend on your operation system and type of web-server.
-
-## Table of contents
-
-*   [Introduction](#introduction)
-*   [Table of contents](#table-of-contents)
-*   [Configuring openSSL](#configuring-openssl)
-    *   [Windows + XAMPP](#windows-+-xampp)
-
-## Configuring openSSL
+## Как настройить openSSL
 
 ### Windows + XAMPP
 
-1.  Edit the **C:\Program Files\xampp\apache\conf\httpd.conf **file and replace there the following piece of code:
+1.  В файле **C:\Program Files\xampp\apache\conf\httpd.conf **file замените следующий код:
 
     ```php
     #LoadModule ssl_module modules/mod_ssl.so
     ```
 
-    with the next one:
+    на такой:
 
     ```php
     LoadModule ssl_module modules/mod_ssl.so
     ```
 
-2.  Edit the **C:\Program Files\xampp\php\php.ini** file and replace there the following piece of code:
+2.  В файле **C:\Program Files\xampp\php\php.ini** замените этот код:
 
     ```php
     ;extension=php_openssl.dll
     ```
 
-    with the next one:
+    на новый:
 
     ```php
     extension=php_openssl.dll
     ```
 
-3.  Restart Apache.
-
+3.  Перезапустите Apache.
