@@ -19,7 +19,7 @@ General idea of X-Cart customization is that each change can be done as a separa
 
 To achieve such flexibility there are certain approaches to X-Cart customization and we are going to go through them in this section.
 
-1. [How to create simple module in X-Cart](https://devs.x-cart.com/getting_started/creating-module.html).
+1. {% link "How to create simple module in X-Cart" ref_TBDhOF2h %}.
 2. [Structure of the software](https://devs.x-cart.com/getting_started/x-cart-structure.html).
 3. [How to apply design changes](https://devs.x-cart.com/getting_started/how-to-apply-design-changes.html).
 4. [How to apply changes to X-Cart business logic](https://devs.x-cart.com/getting_started/applying-logic-changes.html).
