@@ -7,5 +7,7 @@ order: 140
 published: true
 icon: plug
 identifier: ref_sites
+categories:
+  - home
 ---
 *   {% link "Установка кнопки Купить на сайте" ref_lG8NdRzr %}
