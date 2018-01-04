@@ -7,35 +7,33 @@ order: 10
 published: false
 identifier: ref_buybutton
 ---
-The Buy Button module lets you easily add ecommerce to your blog, website, or email campaign using Buy Buttons that connect with a X-Cart store. You can use Buy Buttons to sell your products on WordPress, Tilda, and Wix, on your own website, or wherever you've already built an audience online. Product cards with the Buy Buttons always show the actual product name and price, even if you modify them on your storefront.
+С помощью модуля Buy Button вы можете представить продукты из своего магазина в блоге, на сайте или в email рассылке. Модуль устанавливает кнопку Купить, которая связывает сторонний ресурс с магазином. Кнопка Купить работает на WordPress, Tilda,  Wix и других сайтах, имеющих постоянную аудиторию. На карточках продуктов всегда отображаются актуальные название и цена, даже если эта информация изменяется в магазине.
 
-After you've installed the Buy Button module in your X-Cart admin, you can create a new Buy Button for a product. This generates either a snippet of embed code for you to embed in the source HTML of your webpage, or a URL for you to add to your email campaign. After you embed it, the code displays a Buy Button.
+Кнопку Купить для продукта можно создать в интерфейсе администратора. Для размещения кнопки на сайте вы получаете фрагмент кода, который вставляется в html код сайта, а для email рассылок - ссылку.
 
-## Creating Buy Button
+## Как создать кнопку Купить
 
-To create a Buy Button:
+1.	В интерфейсе администратора магазина откройте страницу **Каналы продаж / Кнопка купить**.
 
-1.	From your X-Cart admin menu, open **Promotions** section and click **Buy Button**.
+2.	Выберите, что нужно сделать - создать карточку продукта для сайта или ссылку на продукт для почтовой рассылки. Нажмите **Выбрать продукт** в соответствующем разделе:
 
-2.	On the Buy Button page, choose either **Generate product card** or **Embed product to email** and click the corresponding **Select product** button:
+3.	Выберите продукт из списка или найдите с помощью поиска:
 
-3.	From the **Choose a product to create Buy button** dialog, select a product from your catalog or use the search to find a specific product:
+4.	На странице настройки кнопки Купить выберите опции продукта и действие при нажатии кнопки:
 
-4.	From the **Configure Buy Button** page, you can customize the product's attributes and the button's click action:
+5.	Если продукт представлен в нескольких вариантах (цвет, размер), одну из комбинаций атрибутов можно связать c кнопкой Купить. При этом не учитывается количество данного варианта в наличии.
 
-5.	If your product has multiple variants (like size or color), then you can select a specific attributes combination to associate with the Buy Button. Please note that the variant stock status is not taken into consideration.
+6.	Когда покупатель нажмет на кнопку Купить, возможны два варианта:
 
-6.	In the Action on click section, use the drop-down menu to select what will happen when a customer clicks the buy button:
-
-	-	Add to cart redirects the customer to the X-Cart store cart page and adds the product to the cart.
+	-	Купить - откроется страница корзины в X-Cart, и продукт будет уже в корзине.
     
-	-	Show product details redirects the customer to the product page.
+	-	Показать страницу продукта - откроется страница с информацией о продукте в магазине.
     
-7.	When you're done, click **Generate code** or **Get the link** button. From the opened dialog, copy the embed code or the product link, or click **Copy** button:
+7.	Нажмите **Сгенерировать код** или **Получить ссылку**. Скопируйте полученный код или ссылку или нажмите кнопку **Копировать**:
 
-8.	The embed code is ready for pasting!
+8.	Теперь код или ссылку можно разместить на сайте или в email рассылке.
 
-## Embedding code
+## Как вставить код кнопки в код сайта
 
 After you create a Buy Button in your X-Cart admin, you're ready to add it to your own website or blog. The process of adding embed code to your website's source HTML is a bit different depending on how and where you want your Buy Buttons and cart to appear, on your website platform.
 
