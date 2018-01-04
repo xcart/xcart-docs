@@ -78,17 +78,17 @@ identifier: ref_buybutton
 
   ![11.jpg]({{site.baseurl}}/attachments/ref_buybutton/11.jpg)
      
-3.	Выберите существующий виджет **HTML-код* или нажмите **Добавить**, затем нажмите **HTML-код**:
+3.	Выберите существующий виджет **HTML-код** или нажмите **Добавить**, затем нажмите **HTML-код**:
 
 	![12.jpg]({{site.baseurl}}/attachments/ref_buybutton/12.jpg)
    
-4.	Вставьте код в поле редактирования содержания виджета **Текст** и сохраните изменения:
+4.	Вставьте код в поле редактирования содержания виджета **HTML-код** и сохраните изменения:
 
-	![13.jpg]({{site.baseurl}}/attachments/ref_buybutton/13.jpg)
+	![13.1.jpg]({{site.baseurl}}/attachments/ref_buybutton/13.1.jpg)
 
 5.  Появился виджет Кнопка Купить:
 
-	![14.jpg]({{site.baseurl}}/attachments/ref_buybutton/14.jpg)
+	![14.1.jpg]({{site.baseurl}}/attachments/ref_buybutton/14.1.jpg)
 
 
 ### Как добавить кнопку Купить на Wix
