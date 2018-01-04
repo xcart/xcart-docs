@@ -9,5 +9,6 @@ icon: plug
 identifier: ref_sites
 categories:
   - home
+description: Объедините магазин с другими сайтами
 ---
 *   {% link "Установка кнопки Купить на сайте" ref_buybutton %}
