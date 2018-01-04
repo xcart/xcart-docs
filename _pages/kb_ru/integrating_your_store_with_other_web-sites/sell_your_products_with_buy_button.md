@@ -74,23 +74,24 @@ identifier: ref_buybutton
 
 1.	В меню найдите **Внешний вид / Настроить** и выберите **Виджеты**:
 
-	![wordpress_menu_1.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_1.png)
+	![9.jpg]({{site.baseurl}}/attachments/ref_buybutton/9.jpg)
     
 2.	Нажмите на название раздела, где должна появиться кнопка Купить:
 
-    ![wordpress_menu_2.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_2.png)
+    ![10.jpg]({{site.baseurl}}/attachments/ref_buybutton/10.jpg)
     
 3.	Выберите существующий виджет **HTML-код* или нажмите **Добавить**, затем нажмите **HTML-код**:
 
-	![wordpress_menu_3.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_3.png)	
+	![11.jpg]({{site.baseurl}}/attachments/ref_buybutton/11.jpg)
+
     
 4.	Вставьте код в поле редактирования содержания виджета **Текст** и сохраните изменения:
 
-	![wordpress_menu_4.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_4.png)
+	![12.jpg]({{site.baseurl}}/attachments/ref_buybutton/12.jpg)
 
 5.  Появился виджет Кнопка Купить:
 
-	![wordpress_menu_5.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_5.png)
+	![13.jpg]({{site.baseurl}}/attachments/ref_buybutton/13.jpg)
 
 ### Как добавить кнопку Купить на Wix
 
