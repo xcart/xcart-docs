@@ -13,4 +13,4 @@ description: >-
   modules.
 published: true
 ---
-This section contains guides about making modules from older version compatible with new ones.
+This section contains guides about updating modules and making them compatible with new X-Cart versions.
