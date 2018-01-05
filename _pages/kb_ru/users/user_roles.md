@@ -7,58 +7,58 @@ order: 20
 published: false
 identifier: ref_roles
 ---
-X-Cart roles enable you to configure different levels of access to the store's back end for different administrator users. A role is a set of permissions providing access to certain features and areas of the back end. This feature may be useful if you have staff who you want to give the permissions to do some of the store management jobs but not others.
+Если в магазине несколько администраторов, роли определяют для них разный уровень доступа в панель управления магазина. Роль - это набор прав, дающих доступ к тем или иным функциям и разделам в интерфейсе администратора. Роли помогают распределять обязанности между сотрудниками или группами сотрудников магазина.
 
-Roles are made available in X-Cart via the module **User permissions**. This module comes for free with X-Cart Business, Multivendor and Ultimate editions.
+Настройка ролей возможна после установки и активации модуля **User Permissions**, который входит в пакеты X-Cart Business, Multivendor и Ultimate.
     ![xc5_roles_user_permissions_module.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_user_permissions_module.png)
 
-Typically, if you are using X-Cart Business, Multivendor or Ultimate, this module is already enabled, and your X-Cart store already has some roles configured - you can view them in the Roles section of the Admin area (**Users** > **Roles**).
+В магазинах на базе X-Cart Business, Multivendor и Ultimate модуль активирован по умолчанию, и настроено несколько ролей. Список ролей доступен на странице **Пользователи / Роли**.
     ![xc5_roles_table.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_table.png)
 
-_Administrator_ is the role providing Root access to the store's back end, which means that an administrator with this role has full access to all the features (no restrictions at all).
+Роль _Администратор_ имеет полный неограниченный доступ в панель управления магазина.
 
-Other roles provide limited access to just some of the features. This may be described by the following permissions:
+Остальные роли предоставляют ограниченный доступ к определенным разделам посредством прав:
 
-    * Manage catalog – enables users having the role to edit the shop inventory;
-    * Manage users – gives users permissions to edit user profiles;
-    * Manage orders – enabled users to view orders and perform actions on them.
+    * Управление каталогом - право работать с запасом продуктов;
+    * Управление пользователями - право редактировать учетные записи пользователей;
+    * Управление заказами - право просматривать и изменять заказы.
 
-This list may be further extended by custom modules or other X-Cart add-ons from the Module Marketplace. For example, the module Simple CMS adds two more permissions to the list:
+Список прав увеличивается с установкой модулей. Например, модуль **Simple CMS** добавляет два права:
 
-    * Manage custom pages – enables users to create and edit custom website pages;
-    * Manage menus – enables users to edit the primary menu and footer links.
+    * Управление созданными страницами - право редактировать созданные дополнительные страницы;
+    * Управление меню - право редактировать главное меню и меню в нижней части страницы.
 
-If your store already has some configured user roles, and you need to find out the specific access permissions for each role, click on the role names in the Roles table. For example, if we click on the role name _Coupons management_, we will see a page like the following:
+Чтобы узнать, какими правами обладает та или иная роль, нажмите на ее название. Например, проверим _Управление контентом_:
     ![xc5_roles_coupons_management.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_coupons_management.png)
 
-As you can see from the screenshot above, the role _Coupons management_ provides its user with an only permission - to manage coupons. It means that an administrator with this role will be able to log in to the store's back end, but all they will see there will be the following:
+У роли _Управление контентом_ два права - управление страницами и меню. Это значит, что администратор видит только разделы редактирования страниц и меню в панели управления магазина:
     ![xc5_roles_only_coupons.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_only_coupons.png)
 
-They will be able to view and use the Coupons page within the Promotions section (create coupons, view and edit existing coupons, delete coupons), but that is basically all they will be able to do there.
+Администратор может работать со страницей  Скидки / Купоны (создавать, просматривать, редактировать и удалять купоны).
     ![xc5_roles_only_coupons1.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_only_coupons1.png)
 
-Roles are totally configurable, and you can edit the existing roles or create more roles in addition to those already configured in your store. You can also delete the roles you do not need.
+Роли можно удалять, настраивать в соответствии с требованиями работы магазина и создавать новые.
 
-To add a new role:
-1.  Click the **New role** button.
+Как создать новую роль:
+1.  Нажмите **Новая роль**.
     ![xc5_roles_new_role.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_new_role.png)
 
-2.  In the form that opens, specify the details of the role you want to create:
+2.  На открывшейся странице укажите данные новой роли:
     ![xc5_roles_new_role1.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_new_role1.png)
 
-     *   Name: The name to identify the role.
-     *   Enabled: Whether the role is active. When a role is inactive (disabled), users with this role can log in to the store's back end, but they cannot access any of the features/areas which their role entitles them to access.
-     *   Permissions: The set of permissions the user with this role should have. Simply start typing a keyword for the permission you require, and the field will show a drop-down list with permissions from which you will be able to select.
+     *   Название: Название роли.
+     *   Включено: включение и отключение роли. Если роль отключена, пользователи с этой ролью могут войти в интерфейс администратора, но не видят разделов, в которым дает доступ их роль.
+     *   Права: набор возможностей для пользователя с этой ролью. Начните печатать, появится список прав, соответствующих введенному ключевому слову, из которого вы можете выбрать нужные.
 
-3.  Click **Create**.
+3.  Нажмите **Создать**.
 
-To edit a role, click on its name in the Roles table, then edit the role details and click **Update** to save the changes. 
+Для редактирования роли нажмите на ее название в списке, измените данные и нажмите **Обновить**. 
 
-To delete a role, click on the Trash icon opposite the role name at the far right and save the changes.
+Для удаления роли нажмите на значок корзины справа от названия и нажмите **Сохранить**.
 
-It is possible to deactivate a role to disable the permissions granted by this role to the users who hold it. To do so, click on the green On/Off icon before the role name and save the changes:
+Чтобы отключить роль и права, которые она дает, нажмите на зеленый переключатель слева от названия и нажмите **Сохранить**:
     ![xc5_roles_disable.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_disable.png)
     
-To assign a role to a user, you need to specify it in the user's account:
+Чтобы присвоить роль пользователю, измените профиль пользователя:
     ![xc5_roles_assign_role.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_assign_role.png)
-Note that a user may have more than one role assigned to them.
+Один пользователь может обладать несколькими ролями .
