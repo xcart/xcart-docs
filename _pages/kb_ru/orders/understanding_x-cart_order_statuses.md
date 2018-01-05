@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-05 12:19 +0400'
 title: Статусы заказов в X-Cart
 order: 10
-published: false
+published: true
 identifier: ref_orderstatus
 ---
 ## Системные статусы заказов
