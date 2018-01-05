@@ -105,4 +105,4 @@ identifier: ref_statuses
 
 _Дополнительная информация:_
 
-*   {% link "Статусы заказов в X-Cart" ref_DkbTi1qJ %}
+*   {% link "Статусы заказов в X-Cart" ref_orderstatus %}
