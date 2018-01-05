@@ -9,7 +9,7 @@ identifier: ref_statuses
 ---
 Для работы со статусами заказов используется модуль **Custom Order Statuses**.
 
-![]({{site.baseurl}}/attachments/8750763/8719499.png)
+![1.jpg]({{site.baseurl}}/attachments/ref_statuses/1.jpg)
 
 Модуль позволяет:
 
@@ -22,11 +22,11 @@ identifier: ref_statuses
 
 После установки и активации модуля **Custom Order Statuses** полный список статусов заказов находится в разделе **Заказы / Статусы ордера**:
 
-![xc5_cos_order_statuses_section.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_order_statuses_section.png)
+![2.jpg]({{site.baseurl}}/attachments/ref_statuses/2.jpg)
 
 Статусы оплаты и доставки представлены отдельно, на разных вкладках:
 
-![xc5_cos_order_statuses_tabs.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_order_statuses_tabs.png)
+![3.jpg]({{site.baseurl}}/attachments/ref_statuses/3.jpg)
 
 О каждом статусе доступна следующая информация:
 
@@ -35,27 +35,27 @@ identifier: ref_statuses
 
 Если в правом конце строки статуса стоит вопросительный знак, это _системный статус заказа_.
 
-![xc5_cos_system_order_statuses.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_system_order_statuses.png)
+![4.jpg]({{site.baseurl}}/attachments/ref_statuses/4.jpg)
 
 Системные статусы доступны сразу  после установки магазина. Их нельзя удалять, но можно переименовывать. Если навести курсор на вопросительный знак, вы увидите буквенное обозначение статуса в коде X-Cart:
 
-![xc5_cos_status_code.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_status_code.png)
+![5.jpg]({{site.baseurl}}/attachments/ref_statuses/5.jpg)
 
 (Эта информация будет полезна разработчикам X-Cart).
 
 Если в правом конце строки статуса стоит значок корзины, это _созданный администратором статус заказа_.
 
-![xc5_cos_custom_order_status_trash_icon.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_custom_order_status_trash_icon.png)
+![6.jpg]({{site.baseurl}}/attachments/ref_statuses/6.jpg)
 
 Такие статусы можно переименовывать и удалять.
 
 Порядок статусов заказов в списке определяет порядок следования статусов в выпадающем меню, из которого администратор выбирает статус оплаты и статус доставки для заказа.
 
-![]({{site.baseurl}}/attachments/8750763/8719497.png)
+![7.jpg]({{site.baseurl}}/attachments/ref_statuses/7.jpg)
 
 Порядок статусов в списке можно изменить, перетащив статус на другую позицию с помощью четырёхсторонней стрелки.
 
-![xc5_cos_order_status_sort.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_order_status_sort.png)
+![8.jpg]({{site.baseurl}}/attachments/ref_statuses/8.jpg)
 
 ## Создание новых статусов заказов
 
@@ -65,19 +65,19 @@ identifier: ref_statuses
 
 1.  В панели управления магазина откройте страницу **Заказы / Статусы заказов**. 
 2.  По умолчанию открывается вкладка со _статусами оплаты_. Чтобы добавить _статус доставки_, перейдите на соответствующую вкладку. 
-    ![xc5_cos_fulfilment_statuses_tab.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_fulfilment_statuses_tab.png)
+    ![9.jpg]({{site.baseurl}}/attachments/ref_statuses/9.jpg)
 3.  Нажмите кнопку **Добавить статус**:
-    ![xc5_cos_add_new_status.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_add_new_status.png)
+    ![10.jpg]({{site.baseurl}}/attachments/ref_statuses/10.jpg)
     В списке статусов появится новое пустое поле:
-    ![xc5_cos_add_new_status1.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_add_new_status1.png)
+    ![11.jpg]({{site.baseurl}}/attachments/ref_statuses/11.jpg)
 
 4.  В поле напишите название нового статуса.
 
 5.  Нажмите **Сохранить**. 
-    ![xc5_cos_add_new_status2.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_add_new_status2.png)
+    ![12.jpg]({{site.baseurl}}/attachments/ref_statuses/12.jpg)
 
     В списке появится новый статус заказа:
-    ![xc5_cos_add_new_status3.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_add_new_status3.png)
+    ![13.jpg]({{site.baseurl}}/attachments/ref_statuses/13.jpg)
 
 
 ## Как переименовать статус заказа
