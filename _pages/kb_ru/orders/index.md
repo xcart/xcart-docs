@@ -12,4 +12,4 @@ categories:
   - home
 ---
 *   {% link "Статусы заказов в X-Cart" ref_orderstatus %}
-*   {% link "Управление статусами заказов" ref_7FIU2sxJ %}
+*   {% link "Управление статусами заказов" ref_statuses %}
