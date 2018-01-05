@@ -30,7 +30,7 @@ Using Doctrine means that we do not write plain SQL queries and this tutorial il
 Imagine we had an application working with MySQL database directly. If we wanted to pull product info, we would do something like this:
 
 ```php
-stmt = $db->prepare('SELECT * FROM products WHERE product_id = :id');
+$stmt = $db->prepare('SELECT * FROM products WHERE product_id = :id');
 $stmt->bindValue(':id', 40);
 $stmt->execute();
 $product = $stmt->fetchAll(PDO::FETCH_ASSOC);
