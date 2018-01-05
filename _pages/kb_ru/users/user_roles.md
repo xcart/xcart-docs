@@ -4,16 +4,16 @@ layout: article_with_sidebar
 updated_at: '2018-01-05 14:38 +0400'
 title: Роли пользователей магазина
 order: 20
-published: false
+published: true
 identifier: ref_roles
 ---
 Если в магазине несколько администраторов, роли определяют для них разный уровень доступа в панель управления магазина. Роль - это набор прав, дающих доступ к тем или иным функциям и разделам в интерфейсе администратора. Роли помогают распределять обязанности между сотрудниками или группами сотрудников магазина.
 
 Настройка ролей возможна после установки и активации модуля **User Permissions**, который входит в пакеты X-Cart Business, Multivendor и Ultimate.
-    ![xc5_roles_user_permissions_module.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_user_permissions_module.png)
+    ![1.jpg]({{site.baseurl}}/attachments/ref_roles/1.jpg)
 
 В магазинах на базе X-Cart Business, Multivendor и Ultimate модуль активирован по умолчанию, и настроено несколько ролей. Список ролей доступен на странице **Пользователи / Роли**.
-    ![xc5_roles_table.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_table.png)
+    ![2.jpg]({{site.baseurl}}/attachments/ref_roles/2.jpg)
 
 Роль _Администратор_ имеет полный неограниченный доступ в панель управления магазина.
 
@@ -29,22 +29,22 @@ identifier: ref_roles
     * Управление меню - право редактировать главное меню и меню в нижней части страницы.
 
 Чтобы узнать, какими правами обладает та или иная роль, нажмите на ее название. Например, проверим _Управление контентом_:
-    ![xc5_roles_coupons_management.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_coupons_management.png)
+    ![3.jpg]({{site.baseurl}}/attachments/ref_roles/3.jpg)
 
 У роли _Управление контентом_ два права - управление страницами и меню. Это значит, что администратор видит только разделы редактирования страниц и меню в панели управления магазина:
-    ![xc5_roles_only_coupons.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_only_coupons.png)
+    ![4.jpg]({{site.baseurl}}/attachments/ref_roles/4.jpg)
 
 Администратор может работать со страницей  Скидки / Купоны (создавать, просматривать, редактировать и удалять купоны).
-    ![xc5_roles_only_coupons1.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_only_coupons1.png)
+    ![5.jpg]({{site.baseurl}}/attachments/ref_roles/5.jpg)
 
 Роли можно удалять, настраивать в соответствии с требованиями работы магазина и создавать новые.
 
 Как создать новую роль:
 1.  Нажмите **Новая роль**.
-    ![xc5_roles_new_role.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_new_role.png)
+    ![6.jpg]({{site.baseurl}}/attachments/ref_roles/6.jpg)
 
 2.  На открывшейся странице укажите данные новой роли:
-    ![xc5_roles_new_role1.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_new_role1.png)
+    ![7.jpg]({{site.baseurl}}/attachments/ref_roles/7.jpg)
 
      *   Название: Название роли.
      *   Включено: включение и отключение роли. Если роль отключена, пользователи с этой ролью могут войти в интерфейс администратора, но не видят разделов, в которым дает доступ их роль.
@@ -57,8 +57,9 @@ identifier: ref_roles
 Для удаления роли нажмите на значок корзины справа от названия и нажмите **Сохранить**.
 
 Чтобы отключить роль и права, которые она дает, нажмите на зеленый переключатель слева от названия и нажмите **Сохранить**:
-    ![xc5_roles_disable.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_disable.png)
+    ![8.jpg]({{site.baseurl}}/attachments/ref_roles/8.jpg)
     
 Чтобы присвоить роль пользователю, измените профиль пользователя:
-    ![xc5_roles_assign_role.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_assign_role.png)
+    ![9.jpg]({{site.baseurl}}/attachments/ref_roles/9.jpg)
+
 Один пользователь может обладать несколькими ролями .
