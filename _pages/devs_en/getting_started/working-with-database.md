@@ -56,13 +56,13 @@ $product = \XLite\Core\Database::getRepo('XLite\Model\Product')->find(40);
 
 This `$product` object already contains all linked info such as categories it is assigned to, its attribute objects and so on.
 
-The same way you can pull any other model from the database. If you want to pull category object (defined in \XLite\Model\Category class), then it your code would be:
+The same way you can pull any other model from the database. If you want to pull category object (defined in `\XLite\Model\Category` class), then your code would be:
 
 ```php
 $product = \XLite\Core\Database::getRepo('XLite\Model\Category')->find($categoryId);
 ```
 
-If you want to pull a model that does not exist in the core, but it is defined in the module, e.g. product variant model defined in \XLite\Module\XC\ProductVariants\Model\ProductVariant class, then you would do:
+If you want to pull a model that does not exist in the core, but it is defined in the module, e.g. product variant model defined in `\XLite\Module\XC\ProductVariants\Model\ProductVariant` class, then you would do:
 
 ```php
 $product = \XLite\Core\Database::getRepo('XLite\Module\XC\ProductVariants\Model\ProductVariant')->find($productVariantId);
@@ -90,14 +90,16 @@ foreach ($products as $product) {
 ```
 
 The difference between these two approaches is as follows:
-1. `findAll()` method is standard method of Doctrine's repositories that simply returns all objects of that repository;
-2. `createQueryBuilder()` method indicates that we are going to build our own query to pull subset of objects. The details of this query are going to be specified after we create a query builder object (we will talk about it later), but since we do not want to specify any special conditions we simply return the result by calling `getResult()`.
+1. `findAll()` method is standard method of Doctrine's repositories that simply returns all objects stored in that repository;
+2. `createQueryBuilder()` method indicates that we are going to build our own query to pull subset of objects. The details of this query are going to be specified after we create a query builder object (we will talk about it later), but since we do not want to specify any special conditions we simply return the result by calling `getResult()`. In short words, we intend to pull a subset of objects in the repository, but since we do not specify any limitations, all objects are returned.
 
 ## Query builder
 
-NOTE: the comprehensive guide to query builder can be found in [official Doctrine docs](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/query-builder.html). The aim of this section is to give you quick grasp of how it works.
-
 If we want to use more complex queries, we are going to use query builder object. This object allows us to use SQL constructions, but in object-oriented way.
+
+{% note info %}
+The comprehensive guide to query builder can be found in [official Doctrine docs](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/query-builder.html). The aim of this section is to give you quick grasp of how it works.
+{% endnote %}
 
 If you want to use a condition, we are going to use `andWhere()` method. This is an example of pulling all products which cost less than $50:
 
