@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-05 12:56 +0400'
 title: Изменение статусов заказов в X-Cart
 order: 20
-published: false
+published: true
 identifier: ref_statuses
 ---
 Для работы со статусами заказов используется модуль **Custom Order Statuses**.
