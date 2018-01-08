@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-08 11:48 +0400'
 title: Установка модуля Social Login
 order: 10
-published: false
+published: true
 identifier: ref_slinstallation
 ---
 Модуль **Social Login** включен в пакет _X-Cart Business_. 
