@@ -81,5 +81,5 @@ identifier: ref_fblogin
 
 _Дополнительная информация:_
 
-*   {% link "Social Login" ref_IapN8lJ8 %}
-*   {% link "Setting up Google Login for your store" ref_LMCQeIrv %}
+*   {% link "Авторизация через соцсети" ref_sociallogin %}
+*   {% link "Настройка авторизации через Google+" ref_glogin %}
