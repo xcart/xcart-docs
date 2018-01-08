@@ -28,7 +28,7 @@ published: false
 
 Настройка продолжается на странице модуля **E-goods** в магазине. В разделе **Amazon Signed URLs** включите ссылки и введите ключи из учетной записи **Amazon**:
 
-![amazons3_4.png]({{site.baseurl}}/attachments/ref_ZszpDfxQ/amazons3_4.png)
+![1.jpg]({{site.baseurl}}/attachments/1.jpg)
 
 Значение **S3 Bucket** найдите в поле **S3** в аккаунте на **Amazon**.
 
