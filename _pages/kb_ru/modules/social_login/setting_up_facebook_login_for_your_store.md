@@ -9,8 +9,8 @@ identifier: ref_fblogin
 ---
 Чтобы в магазине появилась кнопка **Войти через Facebook**, понадобится:
 
-1.  Настроенное [приложение Facebook](#creating-a-facebook-app). 
-2.  _Идентификатор приложения_ и _Секрет приложения_ для [настройки модуля Social Login](#configuring-the-social-login-module-facebook) в X-Cart.
+1.  Настроенное [приложение Facebook](#как-создать-приложение-в-facebook). 
+2.  _Идентификатор приложения_ и _Секрет приложения_ для [настройки модуля Social Login](#настройка-модуля-social-login-и-facebook) в X-Cart.
 
 ## Как создать приложение в Facebook
 
