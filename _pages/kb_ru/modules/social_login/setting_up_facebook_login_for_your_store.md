@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-08 11:55 +0400'
 title: Настройка авторизации через Facebook
 order: 20
-published: false
+published: true
 identifier: ref_fblogin
 ---
 Чтобы в магазине появилась кнопка **Войти через Facebook**, понадобится:
