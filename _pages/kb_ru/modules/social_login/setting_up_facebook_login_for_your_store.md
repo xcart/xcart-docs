@@ -19,9 +19,10 @@ To create an App for Facebook login:
 1.  Авторизуйтесь в [Facebook для разработчиков](https://developers.facebook.com/apps).
 
 2.  Нажмите **Создать приложение**:
-    ![]({{site.baseurl}}/attachments/7504575/9439746.png)
+    ![1.jpg]({{site.baseurl}}/attachments/ref_fblogin/1.jpg)
+
     Откроется окно **Создайте новый ID приложения**.
-    ![facebook_1.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_1.png)
+    ![2.jpg]({{site.baseurl}}/attachments/ref_fblogin/2.jpg)
     
 3.	В поле **Отображаемое название** укажите название приложения. Его увидят пользователи, поэтому рекомендуется включить в него название магазина. 
 	В поле **Эл. адрес для связи** напишите адрес электронной почты, который вы будете использовать для переписки касательно приложения. Нажмите **Создайте ID приложения**.
