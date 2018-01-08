@@ -2,7 +2,7 @@
 lang: ru
 layout: article_with_sidebar
 updated_at: '2018-01-08 11:38 +0400'
-title: Social Login
+title: Авторизация через соцсети
 order: 30
 published: false
 identifier: ref_sociallogin
