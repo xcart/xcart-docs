@@ -15,11 +15,11 @@ identifier: ref_sociallogin
 
 В меню **Вход** появляются кнопки **Войти через Facebook** и **Войти через Google+**:
 
-![]({{site.baseurl}}/attachments/7504573/7602324.png)
+![1.jpg]({{site.baseurl}}/attachments/ref_sociallogin/1.jpg)
 
 и на странице **Регистрация**:
 
-![]({{site.baseurl}}/attachments/7504573/7602325.png)
+![2.jpg]({{site.baseurl}}/attachments/ref_sociallogin/2.jpg)
 
 При входе в магазин через соцсети впервые, покупатель дает согласие на предоставление администратору магазина доступа к основной информации и адресу электронной почты в учетных записях в **Facebook** и **Google+**. Это разовое действие, далее покупатель входит в магазин в один клик.
 
