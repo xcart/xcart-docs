@@ -40,39 +40,44 @@ identifier: ref_fblogin
     ![7.jpg]({{site.baseurl}}/attachments/ref_fblogin/7.jpg)
         
 8.  Последующие шаги можно пропустить, т.к. они настраиваются модулем **Social Login**.
-	![facebook_5.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_5.png)
+	![8.jpg]({{site.baseurl}}/attachments/ref_fblogin/8.jpg)
 
 9.	На странице **Настройки** заполните поля **URL-адрес политики конфиденциальности** и **URL-адрес Пользовательского соглашения** (это ссылки на соответствующие страницы в магазине), и выберите категорию приложения **Бизнес и Страницы**. Нажмите **Сохранить изменения**:
-    ![facebook_dashboard.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_dashboard.png)
+    ![10.jpg]({{site.baseurl}}/attachments/ref_fblogin/10.jpg)
      
 10.  Пока приложение находится на стадии разработки, оно не действует на сайте. Перейдите на страницу **Проверка приложения** и сделайте приложение доступным для всех:
-    ![development.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/development.png)
+    ![11.jpg]({{site.baseurl}}/attachments/ref_fblogin/11.jpg)
     
     Подтвердите действие:
-    ![popup.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/popup.png)
+    ![12.jpg]({{site.baseurl}}/attachments/ref_fblogin/12.jpg)
 
     Приложение опубликовано:
-    ![public.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/public.png)
+    ![13.jpg]({{site.baseurl}}/attachments/ref_fblogin/13.jpg)
 
     Настройка приложения завершена.
 
 ## Настройка модуля Social Login и Facebook
 
-Откройте панель управления X-Cart в новой вкладке или новом окне браузера, чтобы легко переключаться между магазином и Facebook.
+Откройте панель управления X-Cart в новой вкладке или новом окне браузера, чтобы легко переключаться между магазином и **Facebook**.
 
 1.  На странице **Мои модули** найдите модуль **Social login**:
-    ![]({{site.baseurl}}/attachments/7504575/9439791.png)
+    ![14.jpg]({{site.baseurl}}/attachments/ref_fblogin/14.jpg)
     
     Откройте настройки модуля:
-    ![sociallogin.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/sociallogin.png)
+    ![15.jpg]({{site.baseurl}}/attachments/ref_fblogin/15.jpg)
     
-2.  Заполните поля **Facebook App ID/API Key** (Идентификатор приложения) и **Facebook App Secret** (Секрет приложения). Для этого скопируйте **Идентификатор приложения** и **Секрет приложения** со страницы **Панель** в Facebook. Для просмотра секрета нажмите **Показать**, введите свой пароль для Facebook и нажмите **Отправить**. 
+2. Скопируйте **Идентификатор приложения** и **Секрет приложения** со страницы **Панель** в **Facebook**. Для просмотра секрета нажмите **Показать**, введите свой пароль для **Facebook** и нажмите **Отправить**
+     ![9.jpg]({{site.baseurl}}/attachments/ref_fblogin/9.jpg)
 
-	Включите или отключите опцию **Request user location**. Для чего она нужна: модуль **Social login** запрашивает информацию о местонахождении пользователя, на получение которой требуется подтверждение от Facebook. Если пользователь указал свое местонахождение в профиле в Facebook и X-Cart получил эту информацию, при авторизации покупателя в магазине его адрес подставляется автоматически.
+Заполните поля **Facebook App ID/API Key** (Идентификатор приложения) и **Facebook App Secret** (Секрет приложения)
+     ![16.jpg]({{site.baseurl}}/attachments/ref_fblogin/16.jpg)
+   
+Включите или отключите опцию **Request user location**. Для чего она нужна: модуль **Social login** запрашивает информацию о местонахождении пользователя, на получение которой требуется подтверждение от **Facebook**. Если пользователь указал свое местонахождение в профиле в Facebook и X-Cart получил эту информацию, при авторизации покупателя в магазине его адрес подставляется автоматически.
 
-3.  Когда все данные Facebook внесены, нажмите **Сохранить**.
+3.  Когда все данные **Facebook** внесены, нажмите **Сохранить**.
 
     Теперь на странице входа в магазин покупатели увидят кнопку **Войти через Facebook**.
+     ![17.jpg]({{site.baseurl}}/attachments/ref_fblogin/17.jpg)
 
 _Дополнительная информация:_
 
