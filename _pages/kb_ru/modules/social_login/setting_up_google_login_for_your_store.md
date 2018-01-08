@@ -9,8 +9,8 @@ identifier: ref_glogin
 ---
 Чтобы в магазине появилась кнопка **Вход через Google**, понадобится:
 
-1.  _Идентификатор OAuth2_ для сайта (See [Creating OAuth2 client ID](#creating-oauth2-client-id)).
-2.  _Идентификатор клиента OAuth_ и _Секрет клиента_ для настройки модуля **Social Login** в магазине (See [Configuring the Social Login module: Google](#configuring-the-social-login-module-google))
+1.   [Идентификатор OAuth2 для сайта](#creating-oauth2-client-id).
+2.  _Идентификатор клиента OAuth_ и _Секрет клиента_ для [настройки модуля **Social Login**](#configuring-the-social-login-module-google)   в магазине.
 
 ## Как получить Идентификатор OAuth2  
 
