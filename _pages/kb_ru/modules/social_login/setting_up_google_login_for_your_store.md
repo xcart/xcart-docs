@@ -17,7 +17,7 @@ identifier: ref_glogin
 1.  Откройте панель управления в [Google для разработчиков](https://console.developers.google.com):
 	![1.jpg]({{site.baseurl}}/attachments/ref_glogin/1.jpg)
 
-2.  IНажмите **Создать проект**:
+2.  Нажмите **Создать проект**:
 	![2.jpg]({{site.baseurl}}/attachments/ref_glogin/2.jpg)
     ![3.jpg]({{site.baseurl}}/attachments/ref_glogin/3.jpg)
 
