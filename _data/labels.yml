@@ -1,6 +1,6 @@
 'X-Cart Developer Documentation':
     en: 'X-Cart Developer Documentation'
-    ru: 'Документация для разработчиков X-Cart'
+    ru: 'Документация для разработчиков X-Cart (EN)'
 
 'X-Cart Knowledge Base':
     en: 'X-Cart Knowledge Base'
@@ -80,7 +80,7 @@
 
 'developer_docs_desc':
     en: "Start developing for X-Cart without any hassle. Discover changelogs and tutorials, various guides and design patterns."
-    ru: "Получите все, что необходимо для разработчика X-Cart. Последние чейнджлоги, полезные обучающие статьи и принципы архитектуры и дизайна."
+    ru: "Всё, что необходимо разработчикам. Принципы архитектуры и дизайна, описание X-Cart API, обучающие статьи и видео, готовые примеры модификаций."
 
 'This article applies to the specific versions of X-Cart':
     en: 'This article applies to the specific versions of software:'
@@ -144,7 +144,7 @@
 
 'devs_index_link':
     en: 'https://devs.x-cart.com'
-    ru: 'https://devs.x-cart.ru'
+    ru: 'https://devs.x-cart.com'
 
 'developers_blog_link':
     en: '/what_is_new/'
