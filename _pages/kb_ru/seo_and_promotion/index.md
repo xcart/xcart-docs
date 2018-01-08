@@ -4,6 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-04 14:11 +0400'
 title: SEO и специальные предложения
 order: 150
+icon: search
 published: true
 identifier: ref_seo
 description: >-
