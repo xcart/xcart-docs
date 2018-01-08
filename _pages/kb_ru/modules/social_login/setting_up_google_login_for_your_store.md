@@ -76,5 +76,5 @@ identifier: ref_glogin
     
 _Дополнительная информация:_
 
-*   {% link "Social Login" ref_IapN8lJ8 %}
-*   {% link "Setting up Facebook Login for your store" ref_vpEKPoyM %}
+*   {% link "Авторизация через соцсети" ref_sociallogin %}
+*   {% link "Настройка авторизации через Facebook" ref_fblogin %}
