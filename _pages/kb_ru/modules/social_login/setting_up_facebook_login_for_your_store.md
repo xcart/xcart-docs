@@ -14,30 +14,30 @@ identifier: ref_fblogin
 
 ## Как создать приложение в Facebook
 
-To create an App for Facebook login:
-
 1.  Авторизуйтесь в [Facebook для разработчиков](https://developers.facebook.com/apps).
 
 2.  Нажмите **Создать приложение**:
-    ![1.jpg]({{site.baseurl}}/attachments/ref_fblogin/1.jpg)
+    ![2.jpg]({{site.baseurl}}/attachments/ref_fblogin/2.jpg)
 
     Откроется окно **Создайте новый ID приложения**.
-    ![2.jpg]({{site.baseurl}}/attachments/ref_fblogin/2.jpg)
+    ![3.jpg]({{site.baseurl}}/attachments/ref_fblogin/3.jpg)
     
 3.	В поле **Отображаемое название** укажите название приложения. Его увидят пользователи, поэтому рекомендуется включить в него название магазина. 
 	В поле **Эл. адрес для связи** напишите адрес электронной почты, который вы будете использовать для переписки касательно приложения. Нажмите **Создайте ID приложения**.
     
-4.  Откроется новое окно **Проверка безопасности**. Введите код с картинки и нажмите **Отправить**.    
+4.  Откроется новое окно **Проверка безопасности**. Введите код с картинки и нажмите **Отправить**. 
+    ![4.jpg]({{site.baseurl}}/attachments/ref_fblogin/4.jpg)
+
 5.  Откроется страница выбора нового продукта. Наведите курсор на **Вход через Facebook** и нажмите **Настроить**:
-	![facebook_2.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_2.png)   
+	![5.jpg]({{site.baseurl}}/attachments/ref_fblogin/5.jpg)
     
 6.  Выберите платформу:
-	![facebook_3.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_3.png)
+	![6.jpg]({{site.baseurl}}/attachments/ref_fblogin/6.jpg)
     
     Запускается мастер настройки нового приложения.
 
 7.  На первом шаге настройки укажите веб-адрес сайта, нажмите **Save** и **Продолжить**:
-    ![facebook_4.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_4.png)
+    ![7.jpg]({{site.baseurl}}/attachments/ref_fblogin/7.jpg)
         
 8.  Последующие шаги можно пропустить, т.к. они настраиваются модулем **Social Login**.
 	![facebook_5.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_5.png)
