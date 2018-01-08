@@ -12,3 +12,4 @@ categories:
 icon: puzzle
 ---
 *   {% link "Работа с модулями" ref_UOFzIxp9 %}
+*   {% link "Цифровые товары" ref_egoods %}
