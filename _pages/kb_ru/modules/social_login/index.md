@@ -25,6 +25,6 @@ identifier: ref_sociallogin
 
 _Настройка:_
 
-*   {% link "Установка модуля Social Login" ref_0QnPKc94 %}
-*   {% link "Настройка авторизации через Facebook " ref_vpEKPoyM %}
-*   {% link "Настройка авторизации через Google+" ref_LMCQeIrv %}
+*   {% link "Установка модуля Social Login" ref_slinstallation %}
+*   {% link "Настройка авторизации через Facebook" ref_fblogin %}
+*   {% link "Настройка авторизации через Google+" ref_glogin %}
