@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-08 13:27 +0400'
 title: Настройка авторизации через Google+
 order: 30
-published: false
+published: true
 identifier: ref_glogin
 ---
 Чтобы в магазине появилась кнопка **Вход через Google**, понадобится:
