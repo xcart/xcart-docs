@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-08 10:52 +0400'
 title: ''
 order: 100
-published: false
+published: true
 ---
 Установите модуль **E-goods**, чтобы продавать цифровые товары онлайн.
 
