@@ -14,5 +14,5 @@ identifier: ref_slinstallation
 _Дополнительная информация:_
 
 *   {% link "Установка модулей из маркетплейса" ref_gpeZtm28 %}
-*   {% link "Настройка авторизации через Facebook " ref_vpEKPoyM %}
-*   {% link "Настройка авторизации через Google+" ref_LMCQeIrv %}
+*   {% link "Настройка авторизации через Facebook" ref_fblogin %}
+*   {% link "Настройка авторизации через Google+" ref_glogin %}
