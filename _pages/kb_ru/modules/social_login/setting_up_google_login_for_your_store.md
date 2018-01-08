@@ -15,33 +15,32 @@ identifier: ref_glogin
 ## Как получить Идентификатор OAuth2  
 
 1.  Откройте панель управления в [Google для разработчиков](https://console.developers.google.com):
-	![dashboard.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/dashboard.png)
+	![1.jpg]({{site.baseurl}}/attachments/ref_glogin/1.jpg)
 
 2.  IНажмите **Создать проект**:
-	![dashboard_create.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/dashboard_create.png)
+	![2.jpg]({{site.baseurl}}/attachments/ref_glogin/2.jpg)
+    ![3.jpg]({{site.baseurl}}/attachments/ref_glogin/3.jpg)
 
 3.  На открывшейся странице введите название проекта и идентификатор. Идентификатор задается автоматически, но можно и придумать свой. Это уникальное обозначение проекта, которое используется только в консоли разработчика. Идентификатор нельзя изменить, поэтому выберите подходящее значение, которое сохранится для проекта навсегда.
-
+    ![4.jpg]({{site.baseurl}}/attachments/ref_glogin/4.jpg)
+    
     Мы создаем проект **X-Cart Login** (название может быть только на английском языке) и сохраняем стандартный идентификатор:
-   	![app_name.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/app_name.png)
+   	![5.jpg]({{site.baseurl}}/attachments/ref_glogin/5.jpg)
 
     Нажмите **Создать**. 
     
-4.  Перейдите в пункт меню **Учетные данные**:
-    ![credentials.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/credentials.png)
-    
+4.  Перейдите в пункт меню **Учетные данные**.
+        
 5.	Перейдите на вкладку **Окно запроса доступа OAuth** и заполните форму информированного согласия, чтобы получить **Идентификатор клиента OAuth** и **Секрет клиента**:
-	![consent.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/consent.png)
+	![6.jpg]({{site.baseurl}}/attachments/ref_glogin/6.jpg)
     
-6.	Когда покупатель авторизуется в магазине через **Google** впервые, ему предлагается заполнить эту форму, чтобы дать магазину доступ к своим данным в **Google**. В поле **Название продукта, которое видят пользователи** напишите название своего магазина. Заполните остальные поля и нажмите **Сохранить**:
-	![filled_consent.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/filled_consent.png)
-
+6.	Когда покупатель авторизуется в магазине через **Google** впервые, ему предлагается заполнить эту форму, чтобы дать магазину доступ к своим данным в **Google**. В поле **Название продукта, которое видят пользователи** напишите название своего магазина. Заполните остальные поля и нажмите **Сохранить**.
+	
 7.  Страница перезагрузится и откроется раздел **Учетные данные**. Нажмите **Создать учетные данные** и в меню выберите **Идентификатор клиента OAuth**:
-    ![dropdown.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/dropdown.png)
+    ![7.1.jpg]({{site.baseurl}}/attachments/ref_glogin/7.1.jpg)
 
-    Откроется страница **Создать идентификатор клиента**:
-    ![type.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/type.png)
-    
+    Откроется страница **Создать идентификатор клиента**.
+        
 8.  На странице **Создать идентификатор клиента**:
 
     1) Отметьте пункт **Веб-приложение**.
@@ -49,27 +48,31 @@ identifier: ref_glogin
     3) В поле **Разрешенные URI перенаправления** укажите ссылку перенаправления магазина, ее вы найдете на странице настроек модуля **Social login** в X-Cart.
     4) Нажмите **Создать**.
     
-    ![filled_type.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/filled_type.png)
+    ![8.jpg]({{site.baseurl}}/attachments/ref_glogin/8.jpg)
 
-    Вы получите **Идентификатор клиента OAuth** и **Секрет клиента**.
+    Вы получите **Идентификатор клиента OAuth** и **Секрет клиента**:
+    ![9.jpg]({{site.baseurl}}/attachments/ref_glogin/9.jpg)
     
 9.	**Идентификатор клиента OAuth** и **Секрет клиента** понадобятся для настройки модуля **Social Login** в магазине:
-	![secret.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/secret.png)
-
+	
 ## На стройка Social Login и Google
 
-1.  Откройте панель администратора X-Cart  в отдельном окне или вкладке, чтобы легко переключаться между магазином и **Google**:
-	![credentials2.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/credentials2.png)
-
-2.  На странице **Мои модули** найдите **Social login** и откройте его настройки.
-
+1.  Откройте панель администратора X-Cart  в отдельном окне или вкладке, чтобы легко переключаться между магазином и **Google**.
+	
+2.  На странице **Мои модули** найдите **Social login** и откройте его настройки:
+    ![10.jpg]({{site.baseurl}}/attachments/ref_glogin/10.jpg)
+     
 3.  На странице **Учетные записи** в [Google](https://console.developers.google.com/) найдите **Идентификатор клиента OAuth** и **Секрет клиента**. Нажмите на значок карандаш, откроется страница, где можно скопировать идентификатор и секрет:
-    ![modules.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/modules.png)
+    ![12.jpg]({{site.baseurl}}/attachments/ref_glogin/12.jpg)
+    ![13.jpg]({{site.baseurl}}/attachments/ref_glogin/13.jpg)
 
-4.  Перейдите в раздел настройки **Google** и введите **Google Client ID** (Идентификатор клиента) и **Google Client secret** (Секрет клиента):
-    ![module_settings.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/module_settings.png)
+4.  Перейдите в раздел настройки **Google**:
+    ![11.jpg]({{site.baseurl}}/attachments/ref_glogin/11.jpg)
+    Введите **Google Client ID** (Идентификатор клиента) и **Google Client secret** (Секрет клиента)
+    ![14.jpg]({{site.baseurl}}/attachments/ref_glogin/14.jpg)
 
-5.  Нажмите **Сохранить**. На странице входа в магазин появилсь кнопка **Войти через Google**.
+5.  Нажмите **Сохранить**. На странице входа в магазин появилсь кнопка **Войти через Google**
+    ![15.jpg]({{site.baseurl}}/attachments/ref_glogin/15.jpg)
     
 _Дополнительная информация:_
 
