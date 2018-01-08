@@ -7,12 +7,12 @@ order: 10
 published: false
 identifier: ref_slinstallation
 ---
-The module Social Login is included in X-Cart 5 Business edition. 
+Модуль **Social Login** включен в пакет _X-Cart Business_. 
 
- To install and enable the module on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+Установите и активируйте модуль по инструкциям в разделе {% link "Установка модулей из маркетплейса" ref_gpeZtm28 %}.
 
-_Related pages:_
+_Дополнительная информация:_
 
-*   {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}
-*   {% link "Setting up Facebook Login for your store" ref_vpEKPoyM %}
-*   {% link "Setting up Google Login for your store" ref_LMCQeIrv %}
+*   {% link "Установка модулей из маркетплейса" ref_gpeZtm28 %}
+*   {% link "Настройка авторизации через Facebook " ref_vpEKPoyM %}
+*   {% link "Настройка авторизации через Google+" ref_LMCQeIrv %}
