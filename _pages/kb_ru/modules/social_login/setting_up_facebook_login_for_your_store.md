@@ -7,83 +7,73 @@ order: 20
 published: false
 identifier: ref_fblogin
 ---
-To add the "Login with Facebook" feature to your X-Cart store site, complete the following steps:
+Чтобы в магазине появилась кнопка **Войти через Facebook**, понадобится:
 
-1.  Create and configure a new App on Facebook (See [Creating a Facebook App](#creating-a-facebook-app)).
-2.  Obtain your Facebook App ID and App Secret and enter them on the "Social Login" module settings page in your X-Cart store's Admin area (See [Configuring the Social Login module: Facebook](#configuring-the-social-login-module-facebook))
+1.  Настроенное [приложение Facebook](#creating-a-facebook-app) 
+2.  _Идентификатор приложения_ и _Секрет приложения_ для настройки модуля **Social Login** в X-Cart [Configuring the Social Login module: Facebook](#configuring-the-social-login-module-facebook)
 
-## Creating a Facebook App
+## Как создать приложение в Facebook
 
 To create an App for Facebook login:
 
-1.  Go to the [Apps page](https://developers.facebook.com/apps) of the developers section of Facebook and sign in with your Facebook username and password.
+1.  Авторизуйтесь в [Facebook для разработчиков](https://developers.facebook.com/apps).
 
-2.  Click on the button **+ Add a new app**:
+2.  Нажмите **Создать приложение**:
     ![]({{site.baseurl}}/attachments/7504575/9439746.png)
-    A popup titled "Create a New App ID" will be displayed.
+    Откроется окно **Создайте новый ID приложения**.
     ![facebook_1.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_1.png)
     
-3.	Enter a name for your App into the **Display Name** field (this will be the user-facing name of your App; using your store name is recommended). 
-	In the **Contact Email** field, provide a valid email address (will be used for important communication about your app). Select the category "**Apps for Pages**". Click **Create App ID**.
+3.	В поле **Отображаемое название** укажите название приложения. Его увидят пользователи, поэтому рекомендуется включить в него название магазина. 
+	В поле **Эл. адрес для связи** напишите адрес электронной почты, который вы будете использовать для переписки касательно приложения. Нажмите **Создайте ID приложения**.
     
-3.  On the App Products screen select **Get started** in front of **Facebook Login** product:
+4.  Откроется новое окно **Проверка безопасности**. Введите код с картинки и нажмите **Отправить**.    
+5.  Откроется страница выбора нового продукта. Наведите курсор на **Вход через Facebook** и нажмите **Настроить**:
 	![facebook_2.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_2.png)   
     
-4.  Choose the _Website_ platform:
+6.  Выберите платформу:
 	![facebook_3.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_3.png)
     
-    This will start a wizard that will help you to complete your app configuration.
+    Запускается мастер настройки нового приложения.
 
-4.  On the first step of the wizard enter your site URL and click **Save** and **Continue**:
+7.  На первом шаге настройки укажите веб-адрес сайта, нажмите **Save** и **Продолжить**:
     ![facebook_4.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_4.png)
         
-5.  The next steps are already integrated in the Social Login module, you can skip them.
+8.  Последующие шаги можно пропустить, т.к. они настраиваются модулем **Social Login**.
 	![facebook_5.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_5.png)
 
-6.	Scroll to the page top and use the **Dashboard** button to see the app details:
+9.	На странице **Настройки** заполните поля **URL-адрес политики конфиденциальности** и **URL-адрес Пользовательского соглашения** (это ссылки на соответствующие страницы в магазине), и выберите категорию приложения **Бизнес и Страницы**. Нажмите **Сохранить изменения**:
     ![facebook_dashboard.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_dashboard.png)
-    
-    Copy-paste your App ID and App Secret to use later in the configuration of the Social Login module.
-    
-6.  As your app is now in **development** mode, to go live with your app, you need to switch the mode to **live**. To do so, click the **App Review** tab and use the switch in the section titled `Make <your app name> public?` to make your app available to the general public:
+     
+10.  Пока приложение находится на стадии разработки, оно не действует на сайте. Перейдите на страницу **Проверка приложения** и сделайте приложение доступным для всех:
     ![development.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/development.png)
     
-    In the opened popup, select the **Apps for Pages** category and click **Confirm**:
+    Подтвердите действие:
     ![popup.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/popup.png)
 
-    Your app is now published:
+    Приложение опубликовано:
     ![public.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/public.png)
 
-    That is all. Your Facebook App has been configured.
+    Настройка приложения завершена.
 
-## Configuring the Social Login module: Facebook
+## Настройка модуля Social Login и Facebook
 
-Once you have created and configured your Facebook App, you will need to obtain two pieces of information: your Facebook App ID and App Secret. These will need to be entered in X-Cart so the module can connect to the App you created on Facebook and generate the Facebook login widget code correctly.
+Откройте панель управления X-Cart в новой вкладке или новом окне браузера, чтобы легко переключаться между магазином и Facebook.
 
-The Facebook App ID and App Secret can be found on the **Dashboard** page for your App (You will need to click the **Show** button and enter your password to reveal the App Secret):
-
-![facebook_dashboard.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_dashboard.png)
-
-We recommend opening your X-Cart Admin interface in a separate browser tab or window so you can copy and paste the App ID and App Secret values from Facebook to X-Cart.
-
-To configure the module:
-
-1.  In the Installed Modules section of your X-Cart store’s Admin area, locate the entry for the Social Login module and click the **Settings **link below it:
+1.  На странице **Мои модули** найдите модуль **Social login**:
     ![]({{site.baseurl}}/attachments/7504575/9439791.png)
     
-    This opens the "Social Login" module settings page:
+    Откройте настройки модуля:
     ![sociallogin.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/sociallogin.png)
     
-2.  On the "Social Login" module settings page, complete the **Facebook App ID/API Key** and **Facebook App Secret** fields with the Facebook App ID and App Secret values you obtained on Facebook. 
+2.  Заполните поля **Facebook App ID/API Key** (Идентификатор приложения) и **Facebook App Secret** (Секрет приложения). Для этого скопируйте **Идентификатор приложения** и **Секрет приложения** со страницы **Панель** в Facebook. Для просмотра секрета нажмите **Показать**, введите свой пароль для Facebook и нажмите **Отправить**. 
 
-	The "Social Login" module can also requests user location information, which requires additional approval from Facebook. This allows X-Cart to fill the address automatically upon user login (in case user has specified his location on the Facebook). You can disable this feature by using the **Request user location** checkbox.
+	Включите или отключите опцию **Request user location**. Для чего она нужна: модуль **Social login** запрашивает информацию о местонахождении пользователя, на получение которой требуется подтверждение от Facebook. Если пользователь указал свое местонахождение в профиле в Facebook и X-Cart получил эту информацию, при авторизации покупателя в магазине его адрес подставляется автоматически.
 
-3.  After you've configured the Facebook section, click the **Submit** button near the bottom of the page to save the changes.
+3.  Когда все данные Facebook внесены, нажмите **Сохранить**.
 
-    The "Login with Facebook" feature should now be enabled.
+    Теперь на странице входа в магазин покупатели увидят кнопку **Войти через Facebook**.
 
-_Related pages:_
+_Дополнительная информация:_
 
 *   {% link "Social Login" ref_IapN8lJ8 %}
 *   {% link "Setting up Google Login for your store" ref_LMCQeIrv %}
-
