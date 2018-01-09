@@ -14,3 +14,4 @@ icon: payment
 *   {% link "Прием платежей в X-Cart" ref_guGkzxGn %}
 *   {% link "Яндекс.Касса" ref_baAbXfEo %}
 *   {% link "ROBOKASSA" ref_VhQHtKBi %}
+*   {% link "PayPal" ref_paypal %}
