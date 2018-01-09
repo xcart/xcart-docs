@@ -57,8 +57,8 @@ identifier: ref_ppstandard
 
     5.  Измените режим опции **Auto Return for Website Payments** на **On**.
     
-    6.  The Return URL field is intended for the full path of the URL to which to redirect buyers when their payment is complete. Complete this field with the URL of any page in your store; for example, [https://demostore.x-cart.com/?target=payment_return](https://demostore.x-cart.com/?target=payment_return) (Just as a placeholder - the URL specified in this field will anyways be overridden by the URL passed by the X-Cart store for specific transactions).
+    6.  В поле **Return URL** указывается полная ссылка на страницу, куда будут возвращаться покупатели после оплаты. Укажите в этом поле адрес любой страницы магазина, например, [https://demostore.x-cart.com/?target=payment_return](https://demostore.x-cart.com/?target=payment_return). Это временный заполнитель поля, т.к. значение этого поля всегда будет замещаться ссылкой определенной транзакции из X-Cart. 
     
-    7.  Scroll to the bottom of the page, and click Save.
+    7.  Нажмите **Сохранить**.
    
-    Note: The Auto return option is poorly compatible with the option for making PayPal account optional at checkout for new users: if both these options are turned on, a new user will not be automatically redirected back to your website after completing payment, but will just be provided with the option to return. Be prepared that some customers may not choose to return, so the order in X-Cart will not be created. To avoid this situation, consider [turning PayPal account optional off](https://developer.paypal.com/docs/classic/admin/checkout-settings/#making-paypal-account-optional-at-checkout "turning PayPal account optional off").
+    При включенном автовозврате нельзя сделать PayPal опциональным способом оплаты для новых покупателей. Если обе эти опции включены, после совершения платежа на сайте PayPal новому покупателю будет предложено вернуться в магазин, но возврат не произойдет автоматически. Покупатель может не захотеть возвращаться в магазин, поэтому заказ не появится в X-Cart. Чтобы избежать такой ситуации, [не делайте PayPal опциональным способом оплаты](https://developer.paypal.com/docs/classic/admin/checkout-settings/#making-paypal-account-optional-at-checkout "turning PayPal account optional off").
