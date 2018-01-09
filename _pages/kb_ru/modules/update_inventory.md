@@ -7,9 +7,9 @@ order: 40
 published: false
 identifier: ref_inventory
 ---
-Starting with X-Cart version 5.2.13, X-Cart has a full-featured import mode for the updating of existing items, which allows you to update your product information (including the stock quantity, price and other product properties) using the standard X-Cart's "Import" feature - without the need to use the module "Update inventory". For more info, see {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}.
+Начиная с версии 5.2.13, X-Cart позволяет изменять информацию о продуктах (остаток в наличии, цены и другие параметры) с помощью стандартной функциональности импорта данных и без использования модуля **Update inventory**. Дополнительная информация: {% link "Обновление свойств продуктов (цен, количества в наличии и т.д.) путем импорта" ref_RTng7mcS %}. 
 
-The **Update inventory** module by X-Cart team provides a quick and easy way to update product quantities by importing a simple [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file. This module works for both regular products and {% link "product variants" ref_0uApuQfx %}.
+Модуль **Update inventory**, созданный командой X-Cart, работает с продуктами и {% link "их вариантами" ref_1fbgU1JE %}. С его помощью можно обновить количество продуктов путем импорта простого [CSV](https://ru.wikipedia.org/wiki/CSV) файла. 
 
  ![]({{site.baseurl}}/attachments/9306477/9438200.png)
 
