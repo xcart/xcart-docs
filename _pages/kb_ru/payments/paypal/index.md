@@ -10,7 +10,7 @@ categories:
   - home
 ---
 Установите модуль **PayPal**, чтобы принимать платежи через PayPal в магазине X-Cart. Модуль разработан командой X-Cart. 
-    ![xc5_paypal_module.png]({{site.baseurl}}/attachments/ref_g8OosGK4/xc5_paypal_module.png)
+    ![3.jpg]({{site.baseurl}}/attachments/ref_paypal/3.jpg)
 
 Модуль **PayPal** активирует следующие способы оплаты:
 
