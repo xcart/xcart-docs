@@ -15,7 +15,6 @@ categories:
 Модуль **PayPal** активирует следующие способы оплаты:
 
 *   {% link "PayPal Express Checkout" ref_vHffMFLk %}
-*   PayPal Credit
 *   {% link "PayPal Payments Standard" ref_DT2EX6fz %}
 *   {% link "PayPal Payflow Link" ref_mTCkpViN %}
 
