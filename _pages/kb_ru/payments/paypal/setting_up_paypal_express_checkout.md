@@ -2,7 +2,7 @@
 lang: ru
 layout: article_with_sidebar
 updated_at: '2018-01-09 13:07 +0400'
-title: Настройка Paypal Express Checkout
+title: 'Настройка Экспресс-платежей через Paypal '
 order: 10
 published: true
 identifier: ref_ppexprs
