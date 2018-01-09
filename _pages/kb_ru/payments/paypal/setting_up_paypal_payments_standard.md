@@ -7,13 +7,13 @@ order: 20
 published: false
 identifier: ref_ppstandard
 ---
-To enable PayPal Payments Standard as a payment method in your X-Cart store:
+Настройка Стандартных PayPal платежей через веб-сайтв X-Cart:
 
-1.  If you haven't yet done so, [sign up](https://www.paypal.com/webapps/mpp/referral/paypal-payments-standard?partner_id=XCART5_Cart "Sign up for PayPal Payments Standard") for PayPal Payments Standard. Note that to complete the signup process for PayPal Payments Standard you will need a verified PayPal Business account. This means that you will need to either create a new Business account or to log in to your existing account and upgrade it to Business.
+1.  Зарегистрируйтесь в сервисе [Paypal Payments Standard](https://www.paypal.com/ru/webapps/mpp/standard "Стандартные платежи через веб-сайт"). Для этого потребуется подтвержденная корпоративная учетная запись PayPal. Зарегистрируйте новую корпоративную учётную запись PayPal или повысьте категорию существующего счета до корпоративного. 
 
-2.  In X-Cart, add PayPal Payments Standard to the list of your store's active payment methods and configure it.
+2.  В X-Cart активируйте и настройте способ оплаты **PayPal Payments Standard**.
 
-    1.  In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
+    1.  В панели управления магазина откройте страницу **Настройка магазина / Прием платежей** и в разделе **Онлайн методы** нажмите **Добавить способ оплаты**:
     ![xc5_pp_add_payment_method.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_add_payment_method.png)
 
     2.  In the popup box that appears, find the method **PayPal Payments Standard** and select to **Add** this method:
@@ -63,4 +63,3 @@ To enable PayPal Payments Standard as a payment method in your X-Cart store:
     7.  Scroll to the bottom of the page, and click Save.
    
     Note: The Auto return option is poorly compatible with the option for making PayPal account optional at checkout for new users: if both these options are turned on, a new user will not be automatically redirected back to your website after completing payment, but will just be provided with the option to return. Be prepared that some customers may not choose to return, so the order in X-Cart will not be created. To avoid this situation, consider [turning PayPal account optional off](https://developer.paypal.com/docs/classic/admin/checkout-settings/#making-paypal-account-optional-at-checkout "turning PayPal account optional off").
-
