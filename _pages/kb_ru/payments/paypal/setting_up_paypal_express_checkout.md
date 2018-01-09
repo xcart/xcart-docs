@@ -9,9 +9,8 @@ identifier: ref_ppexprs
 ---
 ## Настройка PayPal Express Checkout в X-Cart
 
-*   [Настройка PayPal Express Checkout по электронной почте](#setting-up-express-checkout-with-email)
-*   [Активация Secure Token](#enabling-the-secure-token-setting)
-*   [Создание уникальной страницы оплаты PayPal](#creating-your-custom-paypal-payment-page)
+*   [Настройка PayPal Express Checkout по электронной почте](#настройка-paypal-express-checkout-в-x-cart)
+*   [Создание уникальной страницы оплаты PayPal](#создание-собственной-страницы-оплаты-paypal)
 
 ## Настройка PayPal Express Checkout по электронной почте
 
