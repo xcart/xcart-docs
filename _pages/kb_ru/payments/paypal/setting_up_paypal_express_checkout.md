@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-09 13:07 +0400'
 title: Настройка Paypal Express Checkout
 order: 10
-published: false
+published: true
 identifier: ref_ppexprs
 ---
 ## Настройка PayPal Express Checkout в X-Cart
@@ -15,9 +15,12 @@ identifier: ref_ppexprs
 
 ## Настройка PayPal Express Checkout по электронной почте
 
-Простой способ настройки **Экспресс платежа PayPal** требует только ввести адрес электронной почты в настройках способа оплаты в X-Cart. Откройте страницу **Способы оплаты**, найдите **PayPal Express Checkout** в списке **Онлайн методы** и нажмите **Конфигурировать**. Введите свой email в поле **Адрес электронной почты для получения платежей PayPal**:
+Простой способ настройки **Экспресс платежа PayPal** требует только ввести адрес электронной почты в настройках способа оплаты в X-Cart. Откройте страницу **Приём платежей**, найдите **PayPal Express Checkout** в списке **Онлайн методы** и нажмите **Конфигурировать**:
+![1.jpg]({{site.baseurl}}/attachments/ref_ppexprs/1.jpg)
 
-![]({{site.baseurl}}/attachments/7505722/7602853.png)
+Введите свой email в поле **Адрес электронной почты для получения платежей PayPal**:
+
+![2.jpg]({{site.baseurl}}/attachments/ref_ppexprs/2.jpg)
 
 *   Если у вас уже есть учетная запись в PayPal, укажите адрес, который вы использовали при регистрации.
 *   Если у вас еще нет учетной записи в PayPal, введите адрес, с которым зарегистрируетесь в PayPl позже.
