@@ -14,7 +14,7 @@ identifier: ref_paypal
 
 *   {% link "Экспресс-платежи" ref_ppexprs %}
 *   PayPal Credit
-*   {% link "Стандартные платежи через веб-сайт" ref_DT2EX6fz %}
+*   {% link "Стандартные платежи через веб-сайт" ref_ppstandard %}
 *   {% link "PayPal Payments Advanced" ref_sO5X6iBT %}
 *   PayPal Payments Pro (PayPal API)
 *   PayPal Payments Pro (Payflow API)
@@ -25,5 +25,5 @@ identifier: ref_paypal
 _Настройка оплаты через PayPal:_
 
 *   {% link "Настройка Экспресс-платежей" ref_ppexprs %}
-*   {% link "Настройка Стандартных платежей через веб-сайт" ref_DT2EX6fz %}
+*   {% link "Настройка Стандартных платежей через веб-сайт" ref_ppstandard %}
 *   {% link "Настройка PayPal IPN URL" ref_ppipnurl %}
