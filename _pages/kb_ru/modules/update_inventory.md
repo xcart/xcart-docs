@@ -13,19 +13,19 @@ identifier: ref_inventory
 
  ![]({{site.baseurl}}/attachments/9306477/9438200.png)
 
- The required CSV file format for importing product quantity information is as follows:
+ Формат CSV файла импорта для обновления количества продуктов:
 
 ![]({{site.baseurl}}/attachments/9306477/9438201.png)
 
-As you can see, the CSV file has just two fields:
+В файле всего два поля:
 
 {:.ui.compact.celled.small.padded.table}
-| Field in CSV file | What this field describes | Value type |
-| **sku** | Unique identifier of the product or variant | String, Max. length: 32 |
-| **qty** | Stock level, unsigned positive number if the change is absolute and signed if the change is relative | Integer |
+| Поле в CSV файле | Значение поля | Тип значения |
+| **sku** | Уникальный идентификатор продукта или варианта | Текст, максимум 32 знака |
+| **qty** | Размер запаса: беззнаковое положительное число - если изменение абсолютное, число со знаком -  если изменение относительное | Целое число |
 
 {% note info %}
-(X-Cart 5.3.3+) When using **qty** field, you can also specify changes based on the current stock. Relative change is marked with the sign character, e.g. `+5` (stock increase by 5 items) or `-10` (stock decrease by 10 items). 
+В версиях X-Cart 5.3.3 и выше поле **qty** поддерживает запись на основе текущего запаса. Относительное изменение указывается со знаком: _+5_ (запас увеличен на 5 единиц продукта) или _-10_ (запас уменьшен на 10 единиц)
 {% endnote %}
 
 In a store with the module Update inventory installed and enabled, the CSV file for updating product quantities can be imported via the Update quantity section (**Catalog** > **Update quantity**):
