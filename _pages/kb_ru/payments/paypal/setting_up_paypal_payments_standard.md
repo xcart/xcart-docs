@@ -47,15 +47,15 @@ identifier: ref_ppstandard
     
     По умолчанию автовозврат отключен, активируйте его:
 
-    1.  Log in to your PayPal business account at paypal.com.
+    1.  Войдите в корпоративную учетную запись PayPal.
 
-    2. From the Profile menu, click Profile and settings.
+    2.  В меню **Profile** нажмите **Profile and settings**.
 
-    3.  From the left menu, click My selling tools.
+    3.  В меню слева нажмите **My selling tools**.
 
-    4.  In the Selling online section, click Update next to Website preferences. The Website Payment Preferences page is displayed.
+    4.  В разделе **Selling online** нажмите **Update** рядом с **Website preferences**.  Откроется страница **Website Payment Preferences**.
 
-    5.  Under Auto Return for Website Payments, click On to enable Auto return.
+    5.  Измените режим опции **Auto Return for Website Payments** на **On**.
     
     6.  The Return URL field is intended for the full path of the URL to which to redirect buyers when their payment is complete. Complete this field with the URL of any page in your store; for example, [https://demostore.x-cart.com/?target=payment_return](https://demostore.x-cart.com/?target=payment_return) (Just as a placeholder - the URL specified in this field will anyways be overridden by the URL passed by the X-Cart store for specific transactions).
     
