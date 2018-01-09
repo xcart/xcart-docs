@@ -21,4 +21,4 @@ _Настройка оплаты через PayPal:_
 *   {% link "Настройка Paypal Express Checkout" ref_vHffMFLk %}
 *   {% link "Настройка Paypal Payments Standard" ref_DT2EX6fz %}
 *   {% link "Настройка Paypal Payflow Link" ref_mTCkpViN %}
-*   {% link "Настройка PayPal IPN URL" ref_2rlawgsT %}
+*   {% link "Настройка PayPal IPN URL" ref_ppipnurl %}
