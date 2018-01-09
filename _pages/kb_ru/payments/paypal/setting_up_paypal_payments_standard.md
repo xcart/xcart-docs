@@ -43,9 +43,9 @@ identifier: ref_ppstandard
 
 4.  В настройках учетной записи PayPal активируйте {% link "мгновенные уведомления о платежах" ref_ppipnurl %}, чтобы получать в X-Cart сообщения о событиях, связанных с транзакциями в PayPal. Дополнительная информация.
 
-5.  Enable Auto return in your PayPal account profile. With Auto return for PayPal payments, buyers will not have to click a button to return to your website upon payment completion on the PayPal end, but will be redirected back to the invoice page in your store automatically. This is not only convenient for your customers, but is essential for correct X-Cart operation: when a buyer pays for their purchase with PayPal Payments Standard, your store will only be able to correctly create an order if the buyer returns to the store site from PayPal; if the buyer chooses not to click the button to return to your site, your store will never get the order. That means you have to enable Auto return to ensure that you get _all_ the orders paid via PayPal Payments Standard.
+5.  В настройках учетной записи PayPal активируйте автовозврат, чтобы после оплаты на сайте PayPal покупатели не нажимали кнопку **Вернуться в магазин**, а автоматически возвращались на страницу счета на оплату в магазине. Это удобно для покупателей и необходимо для правильной обработки платежей в X-Cart -  когда заказ оплачен через **Стандартные PayPal платежи через веб-сайт**, магазин может корректно создать заказ, только если покупатель возвращается в магазин из PayPal. Если покупатель не нажмет кнопку **Вернуться в магазин**, X-Cart не получит информацию о заказе. Поэтому важно включить автовозврат покупателя из PayPal в магазин.
     
-    Auto return is turned off by default. To turn on Auto return:
+    По умолчанию автовозврат отключен, активируйте его:
 
     1.  Log in to your PayPal business account at paypal.com.
 
