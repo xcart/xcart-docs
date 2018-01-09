@@ -10,6 +10,7 @@ identifier: ref_ppexprs
 ## Настройка PayPal Express Checkout в X-Cart
 
 *   [Настройка PayPal Express Checkout по электронной почте](#настройка-paypal-express-checkout-в-x-cart)
+*   [Активация Secure Token](#настройка-paypal-express-checkout-в-x-cart)
 *   [Создание уникальной страницы оплаты PayPal](#создание-собственной-страницы-оплаты-paypal)
 
 ## Настройка PayPal Express Checkout по электронной почте
@@ -23,6 +24,23 @@ identifier: ref_ppexprs
 
 *   Если у вас уже есть учетная запись в PayPal, укажите адрес, который вы использовали при регистрации.
 *   Если у вас еще нет учетной записи в PayPal, введите адрес, с которым зарегистрируетесь в PayPl позже.
+
+## Активация Secure Token
+
+Secure Token позволяет видеть в X-Cart платежи, подтвержденные на стороне PayPal. Вам понадобится учетная запись в **Paypal Advanced Payments** или **Paypal Payflow Pro**.
+
+1.  Войдите в свою учетную запись [PayPal Manager account](https://manager.paypal.com/);
+
+2.  Нажмите **Service Settings**;
+
+3.  В разделе **Hosted Checkout Pages** нажмите **Set Up**;
+
+4.  Установите значение **Enable Secure Token** - **Yes**;
+
+5.  Нажмите **Save Changes**;
+
+6.  Введите учетные данные API в настройках способа оплаты в X-Cart: 
+![3.jpg]({{site.baseurl}}/attachments/ref_ppexprs/3.jpg)
 
 ## Создание собственной страницы оплаты PayPal
 
