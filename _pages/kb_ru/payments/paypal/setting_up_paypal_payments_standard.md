@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-09 14:54 +0400'
 title: Стандартные платежи через веб-сайт
 order: 20
-published: false
+published: true
 identifier: ref_ppstandard
 ---
 Настройка Стандартных PayPal платежей через веб-сайт в X-Cart:
