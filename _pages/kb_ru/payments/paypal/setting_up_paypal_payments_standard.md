@@ -7,7 +7,7 @@ order: 20
 published: false
 identifier: ref_ppstandard
 ---
-Настройка Стандартных PayPal платежей через веб-сайтв X-Cart:
+Настройка Стандартных PayPal платежей через веб-сайт в X-Cart:
 
 1.  Зарегистрируйтесь в сервисе [Paypal Payments Standard](https://www.paypal.com/ru/webapps/mpp/standard "Стандартные платежи через веб-сайт"). Для этого потребуется подтвержденная корпоративная учетная запись PayPal. Зарегистрируйте новую корпоративную учётную запись PayPal или повысьте категорию существующего счета до корпоративного. 
 
@@ -16,33 +16,32 @@ identifier: ref_ppstandard
     1.  В панели управления магазина откройте страницу **Настройка магазина / Прием платежей** и в разделе **Онлайн методы** нажмите **Добавить способ оплаты**:
     ![xc5_pp_add_payment_method.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_add_payment_method.png)
 
-    2.  In the popup box that appears, find the method **PayPal Payments Standard** and select to **Add** this method:
+    2.  В открывшемся окне найдите **PayPal Payments Standard** и нажмите **Добавить**:
 ![xc5_pp_standard_add.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_add.png)
     
-    3.  Once the method has been added, you will be redirected to the settings page for PayPal Payments Standard. Сonfigure PayPal Payments Standard settings:
+    3.  Откроется страница настройки **PayPal Payments Standard**:
 ![xc5_pp_standard_settings.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_settings.png)
 
-        'Your account settings' section:
+         Раздел 'Настройки аккаунта':
 
-         *   **PayPal ID / Email**: Enter the email address associated with your PayPal account.
+         *   **Идентификатор/email для PayPal**: Укажите адрес электронной почты, зарегистрированный в PayPal.
 
-        'Additional settings' section:
+        Раздел 'Дополнительные настройки':
 
-         *   **Purchase description**: Enter a generic description of a typical purchase at your store. This description is intended for the PayPal payment page; the purpose of this description is to let the customer know what exactly they are paying for. Note that in most cases, when redirected to PayPal to pay for their purchase, your customers will see the actual product names (and thus will know what they are paying for). The generic description is needed only for backup: your customers will see it only if the actual list of items being purchased may not be displayed by PayPal for some reason. This may happen, for example, if the order total amount in X-Cart does not exactly match the order total amount on the PayPal end (This is typically caused by the rounding of decimals: in X-Cart, we round long decimals to the fourth digit after the decimal point, whereas decimal values passed on to PayPal need to be rounded to the second digit after the decimal point; when the totals in X-Cart and in PayPal do not match, PayPal cannot display the actual product names and prices, so that's when the generic description is used).
+         *   **Описание покупки**: Общее описание типичной покупки в вашем магазине. Описание появится на странице оплаты в PayPal и нужно для того, чтобы покупатели понимали, что они оплачивают покупку в вашем магазине. Но обычно, переходя на PayPal, покупатели видят названия оплачиваемых продуктов. Общее описание необходимо для подстраховки, если по какой-то причине PayPal не показывает описание покупки. Такое возможно, если сумма заказа в X-Cart не совпадает с суммой заказа в PayPal из-за округления десятичных долей. X-Cart округляет до четвертой цифры после запятой, а PayPal - до второй.
 
-         *   **Test/Live mode**: Set the operating mode for PayPal Payments Standard ('Live' should be selected for live stores, 'Test' - for testing). Note that for testing purposes you will need to use test PayPal accounts in place of all the live accounts used while processing a live transaction; i.e. you will need at least one test seller account and one test buyer account. Test accounts for PayPal Payments Standard can be set up in the [PayPal Sandbox](https://developer.paypal.com/docs/classic/lifecycle/ug_sandbox/ "Setting up Paypal Payments Standard") - a self-contained testing environment for PayPal applications. The Sandbox mirrors the features found on the PayPal production servers and allows you to run test checkouts without any money changing hands or accounts being debited.
+         *   **Режим работы интеграции статус PayPal Payments Standard**:  **Режим эксплуатации** - для работающих магазинов, **Режим тестирования** - для тестовых. Для тестирования транзакций вам понадобятся тестовые учетные записи PayPal продавца и покупателя. Тестовые учетные записи **PayPal Payments Standard** можно завести через [PayPal Sandbox](https://developer.paypal.com/docs/classic/lifecycle/ug_sandbox/ "Setting up Paypal Payments Standard")  - автономную тестовую среду для приложений PayPal. [PayPal Sandbox](https://developer.paypal.com/docs/classic/lifecycle/ug_sandbox/ "Setting up Paypal Payments Standard") обладает всеми качествами рабочих серверов PayPal и позволяет производить тестовые платежи без фактического списание средств со счетов.
 
-         *   **Order id prefix**: Specify your trading name or any other prefix that will help you to identify a payment transaction as originating from this store. This field is required if using the same PayPal account for more than one online stores.
+         *   **Префикс идентификатора заказа**: Название компании или другой префикс, по которому вы сможете определить, что транзакция относится к вашему магазину. Это поле необходимо заполнить, если для разных магазинов используется один и тот же счет PayPal.
 
-    4.   Click **Save changes**:
+    4.   Нажмите **Сохранить**:
          ![xc5_pp_standard_settings_save.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_settings_save.png)
 
-         The method settings will be saved.
-         
-    5.   Make sure the method is active:
+                  
+    5.   Проверка работы способа оплаты:
          ![xc5_pp_standard_activate.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_activate.png)
 
-4.  Enable Instant Payment Notification (IPN) in your PayPal account settings. This will enable PayPal to notify your X-Сart store of events related to PayPal transactions. For instructions, see {% link "Setting up PayPal IPN URL" ref_2rlawgsT %}.
+4.  В настройках учетной записи PayPal активируйте {% link "мгновенные уведомления о платежах" ref_ppipnurl %}, чтобы получать в X-Cart сообщения о событиях, связанных с транзакциями в PayPal. Дополнительная информация.
 
 5.  Enable Auto return in your PayPal account profile. With Auto return for PayPal payments, buyers will not have to click a button to return to your website upon payment completion on the PayPal end, but will be redirected back to the invoice page in your store automatically. This is not only convenient for your customers, but is essential for correct X-Cart operation: when a buyer pays for their purchase with PayPal Payments Standard, your store will only be able to correctly create an order if the buyer returns to the store site from PayPal; if the buyer chooses not to click the button to return to your site, your store will never get the order. That means you have to enable Auto return to ensure that you get _all_ the orders paid via PayPal Payments Standard.
     
