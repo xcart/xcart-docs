@@ -25,21 +25,21 @@ identifier: ref_inventory
 | **qty** | Размер запаса: беззнаковое положительное число - если изменение абсолютное, число со знаком -  если изменение относительное | Целое число |
 
 {% note info %}
-В версиях X-Cart 5.3.3 и выше поле **qty** поддерживает запись на основе текущего запаса. Относительное изменение указывается со знаком: _+5_ (запас увеличен на 5 единиц продукта) или _-10_ (запас уменьшен на 10 единиц)
+В версиях X-Cart 5.3.3 и выше поле **qty** поддерживает запись на основе текущего запаса. Относительное изменение указывается со знаком: _+5_ (запас увеличен на 5 единиц продукта) или _-10_ (запас уменьшен на 10 единиц).
 {% endnote %}
 
-In a store with the module Update inventory installed and enabled, the CSV file for updating product quantities can be imported via the Update quantity section (**Catalog** > **Update quantity**):
+Готовый файл импортируется в разделе **Каталог / Обновление количества**, который появляется в магазине с установкой модуля **Update inventory**:
 
 ![]({{site.baseurl}}/attachments/9306477/9438202.png)
 
-When importing a CSV file to update product quantities, the following rules apply:
+Обратите внимание на несколько правил импорта CSV файла для изменения количества продуктов:
 
-*   If a SKU from the CSV file cannot be matched to the SKU of any existing product or (when using the module Product Variants) product variant  in the store's database, the error is logged, and the respective line in the CSV file is skipped.
-*   Product quantities have to be positive numbers. If a product quantity in the qty field is specified in a wrong format, the error is logged, and the respective line in the CSV file is skipped.
-*   Any errors generated in the process of importing the CSV file with SKUs and quantities are displayed after the import process has been completed.
+*   Если артикул продукта в CSV файле не соответствует никакому артикулу продукта или варианта в базе магазина, создается запись об ошибке, и строка CSV файла пропускается.
+*   Количество продуктов - всегда положительное число. Если в поле **qty** найдена запись в неверном формате, создается запись об ошибке, и строка пропускается.
+*   После завершения импорта файла с артикулами и количеством продуктов выдаётся список ошибок.
 
-_Related pages:_
+_Дополнительная информация:_
 
-*   {% link "Import-Export" ref_TANvG2De %}
-*   {% link "Product variants" ref_0uApuQfx %}
-*   {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}
+*   {% link "Импорт - Экспорт" ref_94dTTrT5 %}
+*   {% link "Варианты продуктов" ref_1fbgU1JE %}
+*   {% link "Обновление свойств продуктов (цен, количества в наличии и т.д.) путем импорта" ref_RTng7mcS %}
