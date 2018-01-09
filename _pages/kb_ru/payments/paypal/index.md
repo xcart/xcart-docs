@@ -6,8 +6,6 @@ title: PayPal
 order: 10
 published: true
 identifier: ref_paypal
-categories:
-  - home
 ---
 Установите модуль **PayPal**, чтобы принимать платежи через PayPal в магазине X-Cart. Модуль разработан командой X-Cart. 
     ![3.jpg]({{site.baseurl}}/attachments/ref_paypal/3.jpg)
