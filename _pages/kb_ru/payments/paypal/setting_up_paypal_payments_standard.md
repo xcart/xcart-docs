@@ -14,13 +14,13 @@ identifier: ref_ppstandard
 2.  В X-Cart активируйте и настройте способ оплаты **PayPal Payments Standard**.
 
     1.  В панели управления магазина откройте страницу **Настройка магазина / Прием платежей** и в разделе **Онлайн методы** нажмите **Добавить способ оплаты**:
-    ![xc5_pp_add_payment_method.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_add_payment_method.png)
+    ![1.jpg]({{site.baseurl}}/attachments/ref_ppstandard/1.jpg)
 
     2.  В открывшемся окне найдите **PayPal Payments Standard** и нажмите **Добавить**:
-![xc5_pp_standard_add.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_add.png)
+![2.jpg]({{site.baseurl}}/attachments/ref_ppstandard/2.jpg)
     
     3.  Откроется страница настройки **PayPal Payments Standard**:
-![xc5_pp_standard_settings.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_settings.png)
+![3.jpg]({{site.baseurl}}/attachments/ref_ppstandard/3.jpg)
 
          Раздел 'Настройки аккаунта':
 
@@ -35,11 +35,11 @@ identifier: ref_ppstandard
          *   **Префикс идентификатора заказа**: Название компании или другой префикс, по которому вы сможете определить, что транзакция относится к вашему магазину. Это поле необходимо заполнить, если для разных магазинов используется один и тот же счет PayPal.
 
     4.   Нажмите **Сохранить**:
-         ![xc5_pp_standard_settings_save.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_settings_save.png)
+         ![4.jpg]({{site.baseurl}}/attachments/ref_ppstandard/4.jpg)
 
                   
     5.   Проверка работы способа оплаты:
-         ![xc5_pp_standard_activate.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_activate.png)
+         ![5.jpg]({{site.baseurl}}/attachments/ref_ppstandard/5.jpg)
 
 4.  В настройках учетной записи PayPal активируйте {% link "мгновенные уведомления о платежах" ref_ppipnurl %}, чтобы получать в X-Cart сообщения о событиях, связанных с транзакциями в PayPal. Дополнительная информация.
 
