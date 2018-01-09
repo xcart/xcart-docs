@@ -12,13 +12,13 @@ identifier: ref_paypal
 
 Модуль **PayPal** активирует следующие способы оплаты:
 
-*   {% link "PayPal Express Checkout" ref_vHffMFLk %}
+*   {% link "PayPal Express Checkout" ref_ppexprs %}
 *   {% link "PayPal Payments Standard" ref_DT2EX6fz %}
 *   {% link "PayPal Payflow Link" ref_mTCkpViN %}
 
 _Настройка оплаты через PayPal:_
 
-*   {% link "Настройка Paypal Express Checkout" ref_vHffMFLk %}
+*   {% link "Настройка Paypal Express Checkout" ref_ppexprs %}
 *   {% link "Настройка Paypal Payments Standard" ref_DT2EX6fz %}
 *   {% link "Настройка Paypal Payflow Link" ref_mTCkpViN %}
 *   {% link "Настройка PayPal IPN URL" ref_ppipnurl %}
