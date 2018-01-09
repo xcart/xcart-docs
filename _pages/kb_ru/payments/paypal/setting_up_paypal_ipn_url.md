@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-01-09 11:48 +0400'
 title: Настройка PayPal IPN URL
-order: 40
+order: 30
 published: true
 identifier: ref_ppipnurl
 ---
