@@ -12,9 +12,15 @@ identifier: ref_paypal
 
 Модуль **PayPal** активирует следующие способы оплаты:
 
-*   {% link "PayPal Express Checkout" ref_ppexprs %}
+*   {% link "PayPal Express Checkout" ref_vHffMFLk %}
+*   PayPal Credit
 *   {% link "PayPal Payments Standard" ref_DT2EX6fz %}
+*   {% link "PayPal Payments Advanced" ref_sO5X6iBT %}
+*   PayPal Payments Pro (PayPal API)
+*   PayPal Payments Pro (Payflow API)
 *   {% link "PayPal Payflow Link" ref_mTCkpViN %}
+*   PayPal Partner Hosted with PCI Compliance
+*   {% link "PayPal Adaptive payments" ref_FdXWLwVN %}
 
 _Настройка оплаты через PayPal:_
 
