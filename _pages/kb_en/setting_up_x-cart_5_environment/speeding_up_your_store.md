@@ -113,6 +113,6 @@ On October 25th, 2016, X-Cart held a [Speed & Security Webinar](https://blog.x-c
 
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/_HmXkKFxrK8" frameborder="0"></iframe>
 
-More info on this webinar recording is available in our [blog](https://blog.x-cart.com/x-cart-security-speed-webinar-recording-php-7-dirty-cow.html "Speeding up your store").
+More info on this webinar recording is available in our [blog](https://www.x-cart.com/blog/x-cart-security-speed-webinar-recording-php-7-dirty-cow.html "Speeding up your store").
 
 The webinar presentation PDF slides are available [here](https://drive.google.com/file/d/0B03Fq7Pl50_OX0ZaNVVzMUl2bzQ/view "Speeding up your store").
