@@ -55,5 +55,5 @@ identifier: ref_t&c
 
 _Дополнительная информация:_
 
-*   {% link "Adding pages to your store" ref_Ptf5vaPn %}
+*   {% link "Создание новых страниц в магазине" ref_T6yRxWp5 %}
 *   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
