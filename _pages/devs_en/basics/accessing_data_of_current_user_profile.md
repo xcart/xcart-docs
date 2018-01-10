@@ -1,14 +1,5 @@
 ---
-lang: en
-layout: article_with_sidebar
-updated_at: '2017-12-15 15:13 +0400'
-title: Current user profile data
-identifier: ref_xJBqLBws
-categories:
-  - Developer docs
-  - Demo module
-published: true
-order: 100
+identifier: ref_6P0eBKxW
 ---
 ## Introduction
 
@@ -22,6 +13,7 @@ For the sake of example, we will create a new page that will be accessible by `c
 *   [Table of Contents](#table-of-contents)
 *   [Implementation](#implementation)
 *   [Module pack](#module-pack)
+* Bam
 
 ## Implementation
 
