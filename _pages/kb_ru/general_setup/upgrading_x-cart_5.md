@@ -113,7 +113,7 @@ published: true
 
 Для просмотра доступных обновлений нажмите на ссылку **Доступны обновления**, откроется страница **Обновления для вашей версии**:
 
-![2.jpg]({{site.baseurl}}/attachments/ref_sn9tuAyV/2.jpg)
+![200.jpg]({{site.baseurl}}/attachments/ref_sn9tuAyV/200.jpg)
 
 Вкладки на странице:: 
 
