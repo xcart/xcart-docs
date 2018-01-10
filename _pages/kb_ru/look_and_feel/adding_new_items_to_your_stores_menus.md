@@ -7,22 +7,29 @@ order: 80
 published: false
 identifier: ref_newmenuitem
 ---
-If needed, you can add links to certain pages to the Primary or Footer menus on the storefront. The Primary menu can be found in the top part of each page:![]({{site.baseurl}}/attachments/6389788/6586399.png)
-the Footer menu - in the bottom part of each page of the storefront:![](attachments/6389788/6586400.png) Before you get started with this task, make sure that you have the **Simple CMS** module installed and enabled. If not, {% link "install and activate it" ref_Vn1mMUw9 %}.![]({{site.baseurl}}/attachments/6389788/7602615.png)To add a new item to one of your store's menus:
+В основном и нижнем меню магазина можно разместить ссылки на определенные страницы. Основное меню располагается в верхней части каждой страницы магазина:
+![]({{site.baseurl}}/attachments/6389788/6586399.png)
 
-1.  In your store's Admin area, go to the Menus page (**Content > Menus**). Decide on the menu to which you will add your new item and choose the respective tab - **Primary menu** or **Footer menu**:
+Нижнее меню находится в нижней части каждой страницы магазина:
+![]({{site.baseurl}}/attachments/6389788/6586399.png)
+
+Для создания пунктов меню необходимо {% link "install and activate it" ref_Vn1mMUw9 %}.![]({{site.baseurl}}/attachments/6389788/7602615.png) установить и включить модуль Simple CMS:![](attachments/6389788/6586400.png)
+
+Создание пунктов меню:
+
+1.  В панели управления магазина откройте страницу Содержание / Меню. Перейдите на вкладку главного или нижнего меню, в зависимости от того, какое меню будете редактировать:
     ![]({{site.baseurl}}/attachments/6389788/8716559.png)
-    For example, we decided to add a new menu item to the Primary menu and chose the **Primary menu** tab.
-2.  Click the **New item** button.
+    Например, создадим новый пункт в главном меню, для этого откроем вкладку Primary menu.
+2.  Нажмите Новый элемент.
     ![]({{site.baseurl}}/attachments/6389788/8716560.png)
-    A new empty entry will be added to the list. This is where you will create your page link.
-3.  Provide information about the page link that you want to add to the menu:
-    *   **Item name**: This is how your menu item will appear to users.
-    *   **Link**: This is the address of the page to which the menu item will take the user who clicks on it. Note that if you want to specify a link to an external resource, you must use the http:// prefix. For example, to add a link to google.com, you will need to enter the link as [http://google.com/](http://google.com/).
-4.  Click** Save changes**.
+    Появится новая пустая строка, где следует указать детали нового пункта меню.
+3.  Укажите информацию о новой ссылке в меню:
+    *   **Название**: Название пункта меню, которое будут видеть посетители магазина.
+    *   **Ссылка**:  Веб-адрес страницы, на которую будет вести новый пункт меню. Если ссылка ведет на внешний ресурс, важно указать адрес с префиксом  http://. Например, чтобы добавить ссылку на google.com, адрес ссылки нужно записать в таком виде - [http://google.com/](http://google.com/). 
+4.  Нажмите Сохранить.
     ![]({{site.baseurl}}/attachments/6389788/6586405.png)
 
-The menu item will be added. You should now be able to see it on the storefront:
+Новый пункт меню создан и отображается в основном меню в магазине:
 
 ![]({{site.baseurl}}/attachments/6389788/6586407.png)
 
