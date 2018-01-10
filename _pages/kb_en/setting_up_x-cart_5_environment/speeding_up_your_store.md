@@ -109,10 +109,8 @@ Alternatively, you can adjust these settings in the MySQL configuration file. A 
 Though X-Cart has [Symfony mbstring polyfill](https://github.com/symfony/polyfill), it works slower than with the native extension (especially if the "Send PDF versions of the invoices in the attachment" option is enabled). [Installing native mbstring extension](http://php.net/manual/en/mbstring.installation.php) can greatly speed up your store during certain operations.
 
 ## More tips and tricks for performance optimization
-On October 25th, 2016, X-Cart held a [Speed & Security Webinar](https://blog.x-cart.com/webinar-x-cart-security-and-performance-optimization.html "Speeding up your store") where Alex Dyachkov, head of X-Cart's Tech support and Hosting Departments, provided some valuable tips on speeding up your web store and handling securitiy. Below we have provided a recording of this webinar:
+On October 25th, 2016, X-Cart held a Speed & Security Webinar where Alex Dyachkov, head of X-Cart's Tech support and Hosting Departments, provided some valuable tips on speeding up your web store and handling securitiy. 
 
-<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/_HmXkKFxrK8" frameborder="0"></iframe>
-
-More info on this webinar recording is available in our [blog](https://www.x-cart.com/blog/x-cart-security-speed-webinar-recording-php-7-dirty-cow.html "Speeding up your store").
+A recording of the webinar is available in our [blog](https://www.x-cart.com/blog/x-cart-security-speed-webinar-recording-php-7-dirty-cow.html "Speeding up your store").
 
 The webinar presentation PDF slides are available [here](https://drive.google.com/file/d/0B03Fq7Pl50_OX0ZaNVVzMUl2bzQ/view "Speeding up your store").
