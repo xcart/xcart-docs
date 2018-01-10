@@ -13,7 +13,7 @@ identifier: ref_newmenuitem
 Нижнее меню находится в нижней части каждой страницы магазина:
 ![2.jpg]({{site.baseurl}}/attachments/ref_newmenuitem/2.jpg)
 
-Для создания пунктов меню необходимо {% link "установить и включить" ref_Vn1mMUw9 %} модуль **Simple CMS**:
+Для создания пунктов меню необходимо {% link "установить и включить" ref_gpeZtm28%} модуль **Simple CMS**:
 ![3.jpg]({{site.baseurl}}/attachments/ref_newmenuitem/3.jpg)
 
 ## Создание пунктов меню:
