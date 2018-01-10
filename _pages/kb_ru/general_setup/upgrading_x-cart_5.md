@@ -163,7 +163,7 @@ published: true
        В этом случае, нужно, по крайней мере, активировать бесплатную лицензию или купить и активировать платную. После активации лицензии на странице обновления появится кнопка **"Продолжить"**.
     
    6.  Как только вы нажмете **"Продолжить"**, будут скачаны обновления ядра и модулей:   
-       ![5_downl.png]({{site.baseurl}}/attachments/ref_9raTXZPN/5_downl.png)
+       ![6.jpg]({{site.baseurl}}/attachments/ref_sn9tuAyV/6.jpg)
        
        Скачанные обновления будут распакованы:
        ![6_unpacking.png]({{site.baseurl}}/attachments/ref_9raTXZPN/6_unpacking.png)
