@@ -1,3 +1,6 @@
+---
+identifier: ref_07Jp9Wjo
+---
 # X-Cart 5 Knowledge Base and Developer Documentation 
 
 [![CircleCI](https://circleci.com/gh/xcart/xcart-docs.svg?style=svg)](https://circleci.com/gh/xcart/xcart-docs)
@@ -14,6 +17,7 @@ Available sites are:
 
 - Ruby 2.3+
 - Jekyll 3.6+
+- Boom
 
 ## Usage 
 
