@@ -21,3 +21,4 @@ categories:
 *   {% link "Создание новых страниц в магазине" ref_T6yRxWp5 %}
 *   {% link "Страница Правила работы магазина" ref_t&c %}
 *   {% link "Создание новых пунктов меню" ref_newmenuitem %}
+*   {% link "Изменение размера логотипа темы Crisp White" ref_crispwlogo %}
