@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-11 13:00 +0400'
 title: Изменение размера логотипа темы Crisp White
 order: 90
-published: false
+published: true
 identifier: ref_crispwlogo
 ---
 Размер логотипа изменяется в CSS коде.
