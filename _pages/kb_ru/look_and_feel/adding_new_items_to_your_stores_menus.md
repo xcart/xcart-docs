@@ -38,4 +38,3 @@ _Дополнительная информация:_
 
 *   {% link "Создание новых страниц в магазине" ref_T6yRxWp5 %}
 *   {% link "Страница Правила работы магазина" ref_t&c %}
-*   {% link "Advanced menu management with Extended Simple CMS" ref_aWT2i7z1 %}
