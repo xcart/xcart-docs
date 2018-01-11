@@ -7,11 +7,11 @@ order: 100
 published: false
 identifier: ref_maintenance
 ---
-When your store is in the process of rebuilding its cache, upgrading the core or installing new modules, it is not operational, and your customers see the maintenance page instead:
+Когда в магазине происходит перестраивание кеша, обновление ядра или установка модулей, магазин недоступен, и покупатели видят страницу, сообщающую о временных технических работах в магазине:
 
 ![]({{site.baseurl}}/attachments/8750554/8719382.png)
 
-If you want to provide additional information to help your customers contact you during the rebuild process, you should change the file **`<X-Cart folder>/public/maintenance.html`**. For instance, we will show how to add a phone number below the existing text. The mentioned file has the following HTML tags with text:
+Измените страницу, например, добавив контактную информацию, чтобы покупатели могли связаться с администратором, пока магазин недоступен. Текст редактируется в файле `<X-Cart folder>/public/maintenance.html`. Для примера, разместим номер телефона под текстом. Файл `<X-Cart folder>/public/maintenance.html`содержит HTML тэги с текстом:
 
 **public/maintenance.html**
 
@@ -23,13 +23,13 @@ If you want to provide additional information to help your customers contact you
     <div class="title">The site is temporarily closed for maintenance</div>
     <div class="text">@MSG@</div>
 
-	<!-- that's where you can an additional info -->
+	<!-- добавьте новую информацию здесь -->
 
   </div>
 </body>
 ```
 
-We will add the line "`<div class="text">If you have any questions, contact us: 8-800-555-0100</div>`" to show our phone number:
+Добавим строку "`<div class="text">Если у вас возникли вопросы, позвоните нам: 8-800-555-0100</div>`":
 
 **changed maintenance.html**
 
@@ -41,13 +41,12 @@ We will add the line "`<div class="text">If you have any questions, contact us: 
     <div class="title">The site is temporarily closed for maintenance</div>
     <div class="text">@MSG@</div>
 
-	<div class="text">If you have any questions, contact us: 8-800-555-0100</div>
+	<div class="text">Если у вас возникли вопросы, позвоните нам: 8-800-555-0100</div>
 
   </div>
 </body>
 ```
 
-Likewise, you can add links to your social accounts and images, or any other info you find necessary. After saving this file, the store's maintenance page will look like this:
+Таким же образом разместите на странице ссылки на странички в социальных сетях, изображения или другую полезную информацию. Сохраните изменения в файле, страница изменилась:
 
 ![]({{site.baseurl}}/attachments/8750554/8719383.png)
-
