@@ -17,7 +17,7 @@ identifier: ref_translation
 *   Голландский (Dutch)
 *   Британский английский (British English)
 
-Если необходимого перевода нет в Маркетплейсе, обратитесь к команде X-Cart "developers@x-cart.com" mailto:developers@x-cart.com %}. Мы расскажем, как создать модуль перевода.
+Если необходимого перевода нет в Маркетплейсе, обратитесь к команде X-Cart {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. Мы расскажем, как создать модуль перевода.
 
 Как установить модуль перевода из Маркетплейса:
 
