@@ -7,68 +7,67 @@ order: 140
 published: false
 identifier: ref_translation
 ---
-Once you download X-Cart from [www.x-cart.com](http://www.x-cart.com/) and install it on your server, you get a store builder with the user interface displayed in the English language. 
+[Скачав](https://www.x-cart.ru/download.html "Перевод интерфейса магазина на другие языки") и установив X-Cart, вы получаете магазин на русском языке. 
 
-However, you can turn your X-Cart into a truly multi-language solution by installing language translation addons. For example, there are some language translations that you can download from X-Cart Marketplace, including:
+Представьте магазин на разных языках, установив модули перевода из Маркетплейса:
 
-*   Russian
-*   French
-*   German
-*   Dutch
-*   British English
+*   Русский (Russian)
+*   Французский (French)
+*   Немецкий (German)
+*   Голландский (Dutch)
+*   Британский английский (British English)
 
-If you want to translate X-Cart into a language for which no translation is available in the X-Cart Marketplace, contact us at {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. We will explain how this can be done and how you can get money out of it.
+Если необходимого перевода нет в Маркетплейсе, обратитесь к команде X-Cart ("developers@x-cart.com" mailto:developers@x-cart.com %}). Мы расскажем, как создать модуль перевода.
 
-To install a language translation module from the X-Cart Marketplace:
+Как установить модуль перевода из Маркетплейса:
 
-1.  In your store's Admin area, select **My addons**, then click __View more addons in Marketplace__ to go to the X-Cart Marketplace.
+1.  В зоне администратора магазина откройте страницу **Мои модули** и пройдите по ссылке **Установить из Маркетплейса**.
     ![xc5_translations_goto_marketplace.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_goto_marketplace.png)
 
-2.  Locate the translation you require. For example, enter "translation" in the search field to find all translation addons in the Marketplace:
+2.  Найдите нужный язык. Если в поле поиска ввести слово _translation_, найдутся все доступные переводы:
     ![xc5_translations_search4translations.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_search4translations.png)
 
-3.  Install and activate the translations you require like you do with any other addons from the Marketplace. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+3.  {% link "Установите и активируйте" ref_gpeZtm28 %} выбранные модули. Для примера установим немецкий перевод. 
     ![xc5_translations_install_german.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_install_german.png)
 
-As a result, the translation addons you have installed should be added to the Installed Addons section in your store's Admin area:
+Установленный перевод появится на странице **Мои модули**:
     ![xc5_translations_aktiviert.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_aktiviert.png)
 
-Once you have more than one languages installed and enabled, language selectors will be provided both in the Admin and Customer areas of your X-Cart store.
+После установки языковых модулей в интерфейсах администратора и покупателей появятся переключатели языка.
 
-Admin area:
+В панели управления магазина:
 
    ![xc5_translations_lng_selector_admin.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_lng_selector_admin.png)
 
-Customer area:
+В магазине:
 
    ![xc5_translations_lng_selector_customer.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_lng_selector_customer.png)
 
-Try switching the language in either of the areas, and you should see at least some of the words and phrases on the page you are viewing translated to the selected language. For example, here's what the Modules page in the Admin area looks like after switching the language of the interface in Admin to German (Note the language code "DE" in the language selector):
+Попробуйте переключить язык, интерфейс магазина поменяется на выбранную языковую версию. Например, так выглядит зона администратора на немецком языке (знак _DE_ в переключателе):
 
    ![xc5_translations_installed_addons_german.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_installed_addons_german.png)
 
-You may notice that some texts and labels do not get translated when you switch the language selector. For example, in the screenshot above you can still see the module descriptions and the link "View more addons in Marketplace" displayed in the English language - instead of German. Well, things like this happen pretty often. In fact, module descriptions are fetched from the Marketplace,so the translation module has no power over their translation. As to the "View more addons in Marketplace" link, the respective label simply does not have a value for the German language. If we compare our installed translations in the Languages section (**Store setup** > **Translations**), we will see that the English translation has many more labels than the German translation:
+Можно заметить, что при переключении на немецкий язык, не весь текст изменяется. Например, на странице **Мои модули** описания модулей остаются на английском языке, а текст ссылки _View more addons in Marketplace_ - на русском. Так и должно быть, т.к. описания модулей берутся из маркетплейса, и модуль перевода в магазине просто не имеет доступа к этим текстам. Что касается ссылки _View more addons in Marketplace_, она не переведена, т.к. в модуле немецкого языка отсутствует языковая метка с этим текстом. Если сравнить установленные языки на странице **Настройка магазина / Переводы**, можно увидеть, что у русского языка намного больше языковых меток, чем у  немецкого:
 
    ![xc5_translations_num_of_labels.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_num_of_labels.png)
 
-So it's only natural that a lot of things will not be translated automatically. Luckily, you can fix any text label lacking a translation in any of the installed languages by editing it manually. For example, to add a German translation for the link "View more addons in Marketplace", do the following:
+Вполне нормально, что интерфейс магазина не полностью меняется на другой язык после установки модуля перевода. Но это можно легко изменить, редактируя языковые версии магазина вручную. Например, переведём текст ссылки _View more addons in Marketplace_ на немецкий язык:
 
-1.  In the Languages section (**Store setup** > **Translations**) of the Admin area, select the **Edit labels** tab.
+1.  На странице **Настройка магазина / Переводы** откройте вкладку **Языковые метки**.
 
-2.  Search for the label "View more addons in Marketplace":
+2.  Сделайте поиск по тексту _View more addons in Marketplace_:
     ![xc5_translations_search_view_more_addons.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_search_view_more_addons.png)
 
-    Now that we have found the label, we can see all the languages in which the label does not have a translation - the codes for these languages are greyed out (see the "DE" language code displayed in pale grey):
+    Языковая метка найдена, и мы видим, в каком из языковых модулей отсутствует ее перевод, код этого языка серого цвета. В нашем примере код _DE_ серого цвета, т.к. текст ссылки _View more addons in Marketplace_ не переведен на немецкий:
     ![xc5_translations_de_label_missing.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_de_label_missing.png)
     
-3.  Use the Global edit feature to add the translation you require. Be sure to save your changes.
+3.  Нажмите на значок земного шара справа, в открывшемся окне вы можете редактировать все языковые версии текста. Сделайте перевод на немецкий язык и нажмите **Сохранить**.
     ![xc5_translations_add_de_label.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_add_de_label.png)
 
-    (More dtailed instructions for editing text labels and their translations can be found in the {% link "Editing text labels" ref_IyGxQ1DN#editing-text-labels %} section of this manual.)
+    (Подробная информация о языковых метках и переводах представлена в статье {% link "Editing text labels" ref_IyGxQ1DN#editing-text-labels %}).
 
-That is all. After switching the language in your store's Admin area to "DE" you should be able to see the link text translated.
+Теперь при переключении языка на немецкий текст ссылки также будет на немецком.
 
-_Related pages:_
+_Дополнительная информация:_
 
 *   {% link "Switching the language in Admin area" ref_x5oSN86B %}
-
