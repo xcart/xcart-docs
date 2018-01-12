@@ -26,3 +26,4 @@ categories:
 *   {% link "Загрузка изображений на сервер" ref_imgupload %}
 *   {% link "Включение и отключение уведомлений о размещении заказа" ref_orderemail %}
 *   {% link "Режим каталога" ref_catalog %}
+*   {% link "Перевод интерфейса магазина на другие языки" ref_translationg %}
