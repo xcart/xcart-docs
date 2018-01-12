@@ -55,12 +55,19 @@ The contact the administrator link in the error will redirect a visitor to the '
 
 ## Memberships and Taxes
 
-Using memberships you can make purchases at a lower tax rate or even tax-free for your VIP customers and attact them with lower expences this way. 
+Using memberships you can boost sales by offering low tax rates or even tax-free orders for your VIP customers and attact them with lower expences this way. 
 
-To set special taxes for memberships go to the 'Store SetUp: Taxes' section of your cart admin area, make sure the 'Use the same tax rates for all user membership levels' option is disabled, create a new tax rate or edit an existing one pointing the required membership (Figure 6). Don't forget the _**Save Changes**_ when done. 
+To set special taxes for memberships go to the 'Store SetUp: Taxes' section of your cart admin area, make sure the 'Use the same tax rates for all user membership levels' option is disabled, create a new tax rate or edit an existing one pointing the required membership (Figure 6). Don't forget to _**Save Changes**_ when done. 
 
 ![Figure 6]({{site.baseurl}}/attachments/tax.png)
 
 ## Membership Discounts
 
-This is a feature in-demand in deed. Using memberships you can  
+This is a feature in-demand in deed. Using memberships you can vary a discount level between different groups of customers, provide coupons of limited edition valid only for a particular membership, extend special offers.
+
+Membership discounts can be set up in the 'Discounts: Volume Discounts' section. The process is rather straightforward - press the 'Add discount' button, define the subtotal the discount will be applied to in the '$' marked field, define the discount value in % or $ and choose the appropriate membership. You can repeat the process as many times as you need and then press Save Changes
+
+{% note info %} If a non-member uses a membership coupon at checkout a cart will display an error "Sorry, the coupon you entered is not valid for your membership level. Contact the administrator"{% endnote %}
+
+
+
