@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-01-12 11:11 +0400'
 title: Включение и отключение уведомлений о размещении заказа
-order: 100
+order: 120
 published: true
 identifier: ref_orderemail
 ---
