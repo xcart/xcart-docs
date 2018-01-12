@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-01-12 12:07 +0400'
 title: Режим каталога
-order: 120
+order: 130
 published: true
 identifier: ref_catalog
 ---
@@ -13,4 +13,3 @@ identifier: ref_catalog
 Когда модуль включён, процесс оплаты в магазине перестает работать, и посетители магазина не могут размещать заказы.
 
 ![1.jpg]({{site.baseurl}}/attachments/ref_catalog/1.jpg)
-
