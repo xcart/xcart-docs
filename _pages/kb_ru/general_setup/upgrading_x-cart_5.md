@@ -5,7 +5,7 @@ updated_at: '2017-10-25 15:52 +0400'
 identifier: ref_sn9tuAyV
 title: Обновление X-Cart 5
 order: 60
-published: true
+published: false
 ---
 ## Введение
 
