@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-01-11 15:35 +0400'
 title: Загрузка изображений на сервер
-order: 90
+order: 110
 published: true
 identifier: ref_imgupload
 ---
