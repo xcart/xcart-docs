@@ -65,7 +65,11 @@ To set special taxes for memberships go to the 'Store SetUp: Taxes' section of y
 
 This is a feature in-demand in deed. Using memberships you can vary a discount level between different groups of customers, provide coupons of limited edition valid only for a particular membership, extend special offers.
 
-Membership discounts can be set up in the 'Discounts: Volume Discounts' section. The process is rather straightforward - press the 'Add discount' button, define the subtotal the discount will be applied to in the '$' marked field, define the discount value in % or $ and choose the appropriate membership. You can repeat the process as many times as you need and then press Save Changes
+Membership discounts can be set up in the 'Discounts: Volume Discounts' section. The process is rather straightforward - press the 'Add discount' button, define the subtotal the discount will be applied to in the '$' marked field, define the discount value in % or $ and choose the appropriate membership. You can repeat the process as many times as you need and then press _**Save Changes**_
+
+{% note info %} To allow customers use several types of discount at a time use % to set the value {% endnote %}
+
+
 
 {% note info %} If a non-member uses a membership coupon at checkout a cart will display an error "Sorry, the coupon you entered is not valid for your membership level. Contact the administrator"{% endnote %}
 
