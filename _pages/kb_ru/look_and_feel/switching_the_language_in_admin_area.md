@@ -7,10 +7,10 @@ order: 150
 published: false
 identifier: ref_adminlanguage
 ---
-If you have more than one languages installed and enabled in your X-Cart store, you can switch your store's Admin language using the language selector in the header of your store's Admin panel:![]({{site.baseurl}}/attachments/6389822/8716777.png)
+Если магазин доступен на нескольких языках, в верхнем меню вы найдёте переключатель языка:![]({{site.baseurl}}/attachments/6389822/8716777.png)
 
-If you do not see the language selector in the Admin panel header, then you probably do not have any languages enabled in your store other than the default language. Go to the Installed Modules section and see if you have any language translations installed. Make sure the translations you require are enabled. If the necessary translation is missing in the Installed Modules section, go to X-Cart Marketplace and try to find and install the translation module you require from there.
+Если в верхнем меню нет переключателя языка, значит, в магазине не активированы дополнительные языки. На странице **Мои модулm** поищите установленные модули перевода. Если такие модули найдены, активируйте нужные из них. Если переводы не установлены, найдите модули в Маркетплейсе, установите и активируйте их.
 
-_Related pages:_
+_Дополнительная информация:_
 
-*   {% link "Translating your store's user interface to other languages" ref_NH3w8sSS %}
+*   {% link "Перевод интерфейса магазина на другие языки" ref_translation %}
