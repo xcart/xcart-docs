@@ -100,7 +100,7 @@ Choose the offer you'll set up first and press _**Create**_. You'll see a form t
 
 ## Memberships for Payments Methods
 
-With the [Memberships for payment methods] (https://market.x-cart.com/addons/memberships-for-payment-methods.html "Promote Sales with User Memberships") module you'll be able to give extra payment options to the certain groups of customers in your store, e.g. enable PayPal Express Checkout for the wholesale buyers only. 
+With the [Memberships for payment methods] (https://market.x-cart.com/addons/memberships-for-payment-methods.html) module you'll be able to give extra payment options to the certain groups of customers in your store, e.g. enable PayPal Express Checkout for the wholesale buyers only. 
 
 To enable the feature, please install the 'Memberships for payment methods' module first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed a special 'Memberships' field will appear under each payment method in the 'Store SetUp: Payment Methods' section of the cart admin area (Figure 11).
 
@@ -114,7 +114,7 @@ You'll need to define an applicable membership in this field and the payment wil
 
 ## Paid Memberships
 
-The standard membership feature can be extended with a [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html) module that will enable an ability to sell paid memberships as regular products. This module is usefull if you have an extremely favorable options for members worth paying for, e.g. closed sales, vip prices, etc.
+The standard membership feature can be extended with a [Paid Memberships] (https://market.x-cart.com/addons/paid-memberships.html) module that will enable an ability to sell paid memberships as regular products. This module is usefull if you have an extremely favorable options for members worth paying for, e.g. closed sales, vip prices, etc.
 
 To enable the feaure make sure the module is installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed you'll be able to create memberships as products and sell them to your customers. For this purpose go to the 'Catalog: Products' section of the cart admin area and click the 'Add Product' button (Figure 12).
 
