@@ -22,7 +22,7 @@ Let's consider each option in detail.
 
 In [Setting up wholesale prices and minimum purchase quantites for different membership levels](https://kb.x-cart.com/products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html) you've learned how to give special prices to the customers who buy bulk items. Setting memberships on a certain product, groups of products or even categories works a bit different. Using this function you can grant access to the items to the particular members of your site only and hide such items from the rest of the customers. The hidden products and categories are still indexed by Google, so this won't affect the ranks.
 
-To hide a category and grant access to it to the certain store members only you should go the the 'Categories' section in the cart admin area, choose and open the category you need, and set the required membership(s) in the 'Memberships' field (Figure 1). Please don't forget to press the 'Update' button to save the changes.
+To hide a category and grant access to it to the certain store members only you should go the the 'Catalog: Categories' section in the cart admin area, choose and open the category you need, and set the required membership(s) in the 'Memberships' field (Figure 1). Please don't forget to press the 'Update' button to save the changes.
 
 {% note info %}
 Hold _**Shift**_ if you want to choose more than one membership at a time  
@@ -31,7 +31,7 @@ Hold _**Shift**_ if you want to choose more than one membership at a time
 ![Figure 1]({{site.baseurl}}/attachments/X Cart online store builder    Your company name    Manage category  Apparel.png)
 
 
-Once completed you should also do the same to the products from this category. For this purpose please open the 'Products' section in the admin area, choose the category you worked with previously in the 'Any Category' drop-down and click _**Search**_. (Figire 2)
+Once completed you should also do the same to the products from this category. For this purpose please open the 'Catalog: Products' section in the admin area, choose the category you worked with previously in the 'Any Category' drop-down and click _**Search**_. (Figire 2)
 
 ![Figure 2]({{site.baseurl}}/attachments/Products.png)
 
@@ -100,7 +100,18 @@ Choose the offer you'll set up first and press _**Create**_. You'll see a form t
 
 ## Memberships for Payments Methods
 
-[Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html "Promote Sales with User Memberships")
+With the [Memberships for payment methods] (https://market.x-cart.com/addons/memberships-for-payment-methods.html "Promote Sales with User Memberships") module you'll be able to give extra payment options to the certain groupd of customers in your store, e.g. enable PayPal Express Checkout for the wholesale buyers only. On checkout, a customer will see only the payment methods available for his membership.
+
+To enable the feature, please install the 'Memberships for payment methods' module first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed a special 'Memberships' filed will appear beneath each payment method in the 'Store SetUp: Payment Methods' section of the cart admin area (Figure 11).
+
+![Fig 11]({{site.baseurl}}/attachments/payment.png)
+
+You'll need to define the applicable membership in this field and the payment will become available for the customers with the specified membership only (Figure 12).
+
+
+![Fig 12]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 16.16.45.png)
+
+{% note info %} For detailed guidance on the module set-up please refer to  Memberships for Payments Methods(_pages/kb_en/modules/memberships_for_payments_methods.md) {% endnote %}
 
 ## Paid Memberships
 
