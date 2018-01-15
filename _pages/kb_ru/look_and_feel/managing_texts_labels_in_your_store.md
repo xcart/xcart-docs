@@ -7,74 +7,68 @@ order: 160
 published: false
 identifier: ref_textlabels
 ---
-Different people may prefer different words for the same meaning. For example, that part of an online store where a user stores the items they picked before paying for them - is it a "shopping cart", a "shopping basket" or a "shopping bag"? In X-Cart, we prefer to call it a "shopping cart", but we understand that some people will want to use a different name. So we made it possible to change almost any word or phrase in your X-Cart store's user interface.
+Разные элементы магазина можно назвать по-разному. X-Cart позволяет изменить почти любое слово в интерфейсе магазина.
 
-Just a few words on how it works. In X-Cart 5 text pieces like names of sections of the user interface, various notes, comments and error messages are all stored as text labels. A text label has a name by which it can be referenced from the template or program code and one or more "translations". A translation is a value of the label defined for a specific language. When a text piece needs to be displayed on a page, X-Cart selects the respective text label from the database and determines which of its translations needs to be displayed - according to the language that is currently selected for viewing the page. If, for some reason, the value of the label for the selected language is missing, the label value for the default language is displayed. If the label value for the default language is missing as well, the label name is displayed.
+Названия страниц и разделов магазина, надписи и сообщения об ошибках хранятся в X-Cart в виде языковых меток. У каждой языковой метки есть название, по которому ее можно идентифицировать в теме или коде, и одно или несколько значений на разных языках. Значение языковой переменной - это текст, который отображается в магазине. Чтобы отобразить определенный текст на странице магазина, X-Cart находит соответствующую языковую метку в базе и выбирает вариант текста в соответствии с языком, выбранным для просмотра страницы. Если языковая метка еще не переведена на выбранный язык, будет отображаться значение на языке, установленном в магазине как язык по умолчанию. Если у языковой метки нет значения и на языке по умолчанию, будет отображаться название метки.
 
-So, when you need to edit an existing text piece from your store's user interface, you need to identify the text label that stores this text piece as a value, and then edit this value. If your store uses multiple languages, you may also need to check if a similar change needs to be made for the values of this label in the other languages. For more info on how to edit a label value, see [Editing text labels](#editing-text-labels).
+Если вы хотите изменить какой-то текст в интерфейсе магазина, найдите и редактируйте языковую метку, содержащую этот текст. Если магазин доступен на разных языках, измените метки всех языков. Инструкции по редактированию языковых меток: [Редактирование языковых меток](#editing-text-labels).
 
-Also, if you need your store to display some text piece for which currenty no text label exists, you can add a new text label for this text piece directly from your store's Admin area. For more info, see [Adding new text labels](#adding-new-text-labels).
+Чтобы добавить новый текст, создайте для него новую языковую метку. Инструкции: [Создание языковых меток](#adding-new-text-labels).
 
-## Editing text labels
+## Редактирование языковых меток
 
-Let us show how to edit text labels in X-Cart. For example, we want to change the wording of the phrase "Your shopping cart" shown in the snapshot below so it says "Your shopping bag":
+Для примера, изменим текст _Товаров в Вашей корзине_:
     ![xc5_translations_your_shopping_cart_customer.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_your_shopping_cart_customer.png)
   
-Let's do it:
-
-1.  In your store's Admin area, go to the **Translations** section (**Store setup > Translations**):
+1.  В панели управления магазина откройте страницу **Настройка магазина / Переводым**:
     ![xc5_translations_section.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_section.png)
 
-2.  Switch to the **Edit labels** tab:
+2.  Перейдите на вкладку **Языковые метки**:
     ![xc5_translations_edit_labels_tab.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_edit_labels_tab.png)
 
-3.  If your store uses more than one language, select the language for which the text label needs to be edited. In our example, we will edit the phrase "Your shopping cart" for the English language. On the following snapshot, the English language is already selected:
+3.  Выберите язык, метки которого будут изменены:
     ![xc5_translations_english_selected.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_english_selected.png)
 
-    **Note**: If you need to edit the same phrase in more than one languages, just select any one of them.
+    Если одну и ту же метку необходимо изменить в нескольких языках, выберите любой из языков.
 
-    Use search to find the phrase you want to edit. Note that this search is case-sensitive. We need to find the phrase "Your shopping cart", so we simply paste it into the search box and click **Search**:
+    В поле поиска введите текст, который будет изменен. При поиске имеет значение регистр букв:
     ![xc5_translations_search_cart_label.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_search_cart_label.png)
     
-    The list of search results (if any) will be provided below:
+    Ниже на странице появится результат поиска:
     ![xc5_translations_found_labels.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_found_labels.png)
 
-    If you get no search results, it means that either you are searching in a wrong language or the label does not exist. If necessary, you can add the missing label by following the instructions in the [Adding new text labels](#adding-new-text-labels) section.
+    Если языковая метка не найдена, вы искали не в том языке, или метки не существует. Языковую метку можно добавить, как описано в разделе [Создание языковых меток](#adding-new-text-labels).
 
-4.  Review the search results to find the phrase you need to edit. If none of the phrases in the results list exactly match the phrase you searched for, do not worry: the items in the list of search results are text labels, and what you see in the list are their names. Their values are concealed from view and have yet to be revealed. To view the value of any text label, hover your cursor over the respective entry in the list of search results; an _Edit_ link will be revealed:
+4.  Если языковые метки найдены, но в списке нет нужной фразы, ищите по содержанию меток. То, что вы видите в списке, это названия меток. Нажмите на название метки или на ссылку **Изменить**, чтобы увидеть текст метки:
     ![xc5_edit_text_lable.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_edit_text_lable.png)
 
-    Click on the Edit link; this will expand a section where you will be able to view/edit the value of the selected text label:
+    Откроется окно редактирования текста:
     ![xc5_translations_edit_label_section.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_edit_label_section.png)
 
-5.  Edit the text label value as you require. In our example, we will need to edit the last two labels in the search results list (the first one is used for the case when the cart contains a single item, the second one - when the cart contains multiple items). So we replace the word "cart" with the word "bag" in both the text label values:
+5.  В нашем примере найдено две языковые метки - на случай, когда в корзину добавлен один продукт, и на случай, когда в корзине несколько продуктов. Изменим текст обеих языковых меток:
     ![xc5_translations_cart2bag.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_cart2bag.png)
 
-    Note that if you need to edit the same phrase in more than one languages, you can use a special section that will help you to edit all the translations of the phrase simultaneously. To access this section, click on the Global edit icon:
+    Текст можно изменить в нескольких языковых версиях магазина одновременно, нажав на значок  справа:
     ![xc5_translations_global_edit_icon.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_global_edit_icon.png)
 
-    The section where you can edit text labels for multiple languages looks as follows:
+    Откроется окно, в котором текст языковой метки можно редактировать сразу на нескольких языках:
     ![xc5_translations_global_edit.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_global_edit.png)
 
-6.  After making the changes you require, click **Save changes**.
-    The text labels will be updated. 
-
-Now you can check the results in the store's front end. In our case, we should be able to see the phrase "Your shopping bag" instead of "Your shopping cart":
+6.  Изменив текст, нажмите **Сохранить**.
+    
+Теперь новый текст можно увидеть в магазине:
     ![xc5_translations_bag_customer.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_bag_customer.png)
 
-## Adding new text labels
+## Создание языковых меток
 
-To add a new text label:
-
-1.  In your store's Admin area, go to the **Translations** section (**Store setup > Translations**).
-2.  Switch to the **Edit labels** tab.
-3.  Click the **Add new label** button:
+1.  В панели управления магазина откройте страницу **Настройка магазина / Переводы**.
+2.  Перейдите на вкладку **Языковые метки**.
+3.  Нажмите **Добавить метку**:
     ![xc5_add_new_label.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_add_new_label.png)
 
-     A window titled **Create label** pops up:
+     Откроется окно редактирования языковой метки:
     ![]({{site.baseurl}}/attachments/6389836/8719096.png)
     
-4.  Use the form in the **Create label** popup window to enter the new label information (a label name and any translations of the label you require).
+4.  Укажите название и текст метки на разных языках.
 
-5.  Click the **Save changes** button. The new label will be created.
-
+5.  Нажмите **Сохранить**.
