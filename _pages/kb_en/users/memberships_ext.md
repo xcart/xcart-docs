@@ -59,19 +59,52 @@ Using memberships you can boost sales by offering low tax rates or even tax-free
 
 To set special taxes for memberships go to the 'Store SetUp: Taxes' section of your cart admin area, make sure the 'Use the same tax rates for all user membership levels' option is disabled, create a new tax rate or edit an existing one pointing the required membership (Figure 6). Don't forget to _**Save Changes**_ when done. 
 
-![Figure 6]({{site.baseurl}}/attachments/tax.png)
+![Fig 6]({{site.baseurl}}/attachments/tax.png))
+
+
+{% note info %} The detailed description of the tax configuration process you can find in {% link "Setting up sales tax" ref_aJPK4DHN %}.{% endnote %}
 
 ## Membership Discounts
 
-This is a feature in-demand in deed. Using memberships you can vary a discount level between different groups of customers, provide coupons of limited edition valid only for a particular membership, extend special offers.
+This is a feature in-demand in deed. Using memberships you can vary a discount level between different groups of customers, provide coupons of limited edition valid only for a particular membership, extend membership sales with special offers.
 
-Membership discounts can be set up in the 'Discounts: Volume Discounts' section. The process is rather straightforward - press the 'Add discount' button, define the subtotal the discount will be applied to in the '$' marked field, define the discount value in % or $ and choose the appropriate membership. You can repeat the process as many times as you need and then press _**Save Changes**_
+**Membership discounts** can be set up in the 'Discounts: Volume Discounts' section of the admin back-end as described in {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %}. The process is rather straightforward - press the 'Add discount' button, define a subtotal the discount will be applied to in the '$' marked field, define the discount value in % or $ and choose the appropriate membership (Figure 7). You can repeat the process as many times as you need and then press _**Save Changes**_
 
 {% note info %} To allow customers use several types of discount at a time use % to set the value {% endnote %}
 
+![Figure 7]({{site.baseurl}}/attachments/Screen Shot 2018-01-12 at 21.27.47.png)
 
+
+**Membership coupons** can be defined in the 'Discounts: Coupons' section of the admin back-end as described in {% link "Setting up discount coupons" ref_SGI1FqdC %}. When creating a membership discount the main point is to set the applicable membership(s) in the 'Membership' area (Figure 8) and save the changes. You can edit the coupon later on by clicking the coupon name and enable/disable it using the On/Off button.
+
+![Fig 8]({{site.baseurl}}/attachments/coupons.png)
 
 {% note info %} If a non-member uses a membership coupon at checkout a cart will display an error "Sorry, the coupon you entered is not valid for your membership level. Contact the administrator"{% endnote %}
 
+**Special Offers** for memberships can be set up using the [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Promote Sales with User Memberships") and [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Promote Sales with User Memberships") modules. Using these modules you'll be able to grant your membership users and not only them with such offers like:
+- buy N items from specified categories to get a discount on M of them (the cheapest ones);
+- spend a particular amount in specified categories to get a discount on M of the items bought from these categories (the cheapest ones).
+
+{% note info %} Set the discount to 100%, and customers will get the items for free. {% endnote %}
+
+To configure the offers you'll need to have the modules installed first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed the features will become available in the 'Discounts: Special Offers' section of your admin back-end (Figure 9).
+
+![Fig 9]({{site.baseurl}}/attachments/so.png)
+
+Choose the offer you'll set up first and press _**Create**_. You'll see a form that you'll need to feel in to create an offer that will meet the conditions you specify, e.g. dates, rewards, exclusions, etc. As for memberships you'll need to specify them in the 'Conditions' section in the 'Eligible membership levels' field (Figure 10).
+
+![Fig 10]({{site.baseurl}}/attachments/conditions.png)
+
+{% note info %} For detailed guidance on the offers set-up please refer to  {% endnote %}
+
+
+
+## Memberships for Payments Methods
+
+[Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html "Promote Sales with User Memberships")
+
+## Paid Memberships
+
+The standard membership feature can be extended with a paid [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html "Promote Sales with User Memberships")module that will enable the ability to sell paid memberships as regular products.
 
 
