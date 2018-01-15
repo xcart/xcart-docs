@@ -28,3 +28,4 @@ categories:
 *   {% link "Режим каталога" ref_catalog %}
 *   {% link "Перевод интерфейса магазина на другие языки" ref_translation %}
 *   {% link "Изменение языка интерфейса администратора" ref_adminlanguage %}
+*   {% link "Редактирование текста  на страницах магазина" ref_textlabels %}
