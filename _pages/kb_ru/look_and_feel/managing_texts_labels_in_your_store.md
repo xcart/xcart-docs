@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-15 12:04 +0400'
 title: Редактирование текста  на страницах магазина
 order: 160
-published: false
+published: true
 identifier: ref_textlabels
 ---
 Разные элементы магазина можно назвать по-разному. X-Cart позволяет изменить почти любое слово в интерфейсе магазина.
