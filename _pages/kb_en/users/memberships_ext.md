@@ -100,19 +100,41 @@ Choose the offer you'll set up first and press _**Create**_. You'll see a form t
 
 ## Memberships for Payments Methods
 
-With the [Memberships for payment methods] (https://market.x-cart.com/addons/memberships-for-payment-methods.html "Promote Sales with User Memberships") module you'll be able to give extra payment options to the certain groupd of customers in your store, e.g. enable PayPal Express Checkout for the wholesale buyers only. On checkout, a customer will see only the payment methods available for his membership.
+With the [Memberships for payment methods] (https://market.x-cart.com/addons/memberships-for-payment-methods.html "Promote Sales with User Memberships") module you'll be able to give extra payment options to the certain groups of customers in your store, e.g. enable PayPal Express Checkout for the wholesale buyers only. 
 
-To enable the feature, please install the 'Memberships for payment methods' module first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed a special 'Memberships' filed will appear beneath each payment method in the 'Store SetUp: Payment Methods' section of the cart admin area (Figure 11).
+To enable the feature, please install the 'Memberships for payment methods' module first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed a special 'Memberships' field will appear under each payment method in the 'Store SetUp: Payment Methods' section of the cart admin area (Figure 11).
 
 ![Fig 11]({{site.baseurl}}/attachments/payment.png)
 
-You'll need to define the applicable membership in this field and the payment will become available for the customers with the specified membership only (Figure 12).
+You'll need to define an applicable membership in this field and the payment will become available for the customers with the specified membership only (Figure 12). On checkout, a customer will see only the payment methods available for his membership.
 
 
 ![Fig 12]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 16.16.45.png)
 
-{% note info %} For detailed guidance on the module set-up please refer to  Memberships for Payments Methods(_pages/kb_en/modules/memberships_for_payments_methods.md) {% endnote %}
 
 ## Paid Memberships
 
-The standard membership feature can be extended with a paid [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html "Promote Sales with User Memberships")module that will enable the ability to sell paid memberships as regular products.
+The standard membership feature can be extended with a [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html) module that will enable an ability to sell paid memberships as regular products. This module is usefull if you have an extremely favorable options for members worth paying for, e.g. closed sales, vip prices, etc.
+
+To enable the feaure make sure the module is installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed you'll be able to create memberships as products and sell them to your customers. For this purpose go to the 'Catalog: Products' section of the cart admin area and click the 'Add Product' button (Figure 12).
+
+![Fig 12]({{site.baseurl}}/attachments/add_product.png)
+
+You'll be forwarded to a page to create a new product where it will be necessary to fill in the fields, e.g. name, SKU, description, etc just like any regular product in your store. To make a product a paid membership you should enable the 'Membership to assign to product purchaser' field (Figure 13) and choose a _**Membership Duration**_ (Figure 14).
+
+![Fig 13]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.27.png)
+![Fig 14]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.51.png)
+
+If necessary you can set a special price for memberships in the 'Prices & Inventory' section if applicable (Figure 15). This way existing members can level up at a special cost.
+
+![Fig 15]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.37.44.png)
+
+
+Once created a membership will become available for sale for customers (Figure 16).
+
+![Fig 16]({{site.baseurl}}/attachments/product.png)
+
+
+{% note info %} If anonymous checkout is enabled, and a customer, buying a premium membership access, prefers to checkout without an account creation, the membership will not be assigned automatically till the account is created. The admin will be notified about such an order with a warning, indicating the "action required". {% endnote %}
+
+After the order gets a 'Paid' status a customer gets a paid membership automatically and therefore gets access to all membership privileges.
