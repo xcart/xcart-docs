@@ -95,8 +95,7 @@ Choose the offer you'll set up first and press _**Create**_. You'll see a form t
 
 ![Fig 10]({{site.baseurl}}/attachments/conditions.png)
 
-{% note info %} For detailed guidance on the offers set-up please refer to  {% endnote %}
-
+{% note info %} For detailed guidance on the offers set-up please refer to Special Offers (_pages/kb_en/modules/special_offers.md) {% endnote %}
 
 
 ## Memberships for Payments Methods
@@ -106,5 +105,3 @@ Choose the offer you'll set up first and press _**Create**_. You'll see a form t
 ## Paid Memberships
 
 The standard membership feature can be extended with a paid [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html "Promote Sales with User Memberships")module that will enable the ability to sell paid memberships as regular products.
-
-
