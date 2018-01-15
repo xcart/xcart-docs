@@ -70,4 +70,4 @@ identifier: ref_translation
 
 _Дополнительная информация:_
 
-*   {% link "Switching the language in Admin area" ref_x5oSN86B %}
+*   {% link "Изменение языка интерфейса администратора" ref_adminlanguage %}
