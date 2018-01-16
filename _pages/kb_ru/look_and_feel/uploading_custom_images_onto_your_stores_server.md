@@ -25,4 +25,4 @@ identifier: ref_imgupload
 _Дополнительная информация:_
 
 *   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
-*   {% link "Changing your store's Welcome text and banner on the Front page" ref_Id69E4GT %}
+*   {% link "Приветственное сообщение и баннер  на главной странице магазина" ref_akieAE07 %}
