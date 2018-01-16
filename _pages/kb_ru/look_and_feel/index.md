@@ -30,3 +30,4 @@ categories:
 *   {% link "Изменение языка интерфейса администратора" ref_adminlanguage %}
 *   {% link "Редактирование текста  на страницах магазина" ref_textlabels %}
 *   {% link "Создание контактной формы в магазине" ref_contactus %}
+*   {% link "Локализация сайта" ref_lclztn %}
