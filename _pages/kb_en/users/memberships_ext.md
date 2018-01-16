@@ -63,7 +63,8 @@ To set special taxes for memberships go to the 'Store SetUp: Taxes' section of y
 ![Fig 6]({{site.baseurl}}/attachments/tax.png)
 
 
-{% note info %} The detailed description of the tax configuration process you can find in {% link "Setting up sales tax" ref_aJPK4DHN %}
+{% note info %} 
+The detailed description of the tax configuration process you can find in {% link "Setting up sales tax" ref_aJPK4DHN %}.
 {% endnote %}
 
 ## Membership Discounts
@@ -72,7 +73,9 @@ This is a feature in-demand in deed. Using memberships you can vary a discount l
 
 **Membership discounts** can be set up in the 'Discounts: Volume Discounts' section of the admin back-end as described in {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %}. The process is rather straightforward - press the 'Add discount' button, define a subtotal the discount will be applied to in the '$' marked field, define the discount value in % or $ and choose the appropriate membership (Figure 7). You can repeat the process as many times as you need and then press _**Save Changes**_
 
-{% note info %} To allow customers use several types of discount at a time use % to set the value {% endnote %}
+{% note info %} 
+To allow customers use several types of discount at a time use % to set the value 
+{% endnote %}
 
 ![Figure 7]({{site.baseurl}}/attachments/Screen Shot 2018-01-12 at 21.27.47.png)
 
@@ -81,13 +84,17 @@ This is a feature in-demand in deed. Using memberships you can vary a discount l
 
 ![Fig 8]({{site.baseurl}}/attachments/coupons.png)
 
-{% note info %} If a non-member uses a membership coupon at checkout a cart will display an error "Sorry, the coupon you entered is not valid for your membership level. Contact the administrator"{% endnote %}
+{% note info %} 
+If a non-member uses a membership coupon at checkout a cart will display an error "Sorry, the coupon you entered is not valid for your membership level. Contact the administrator"
+{% endnote %}
 
 **Special Offers** for memberships can be set up using the [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Promote Sales with User Memberships") and [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Promote Sales with User Memberships") modules. Using these modules you'll be able to grant your membership users and not only them with such offers like:
 - buy N items from specified categories to get a discount on M of them (the cheapest ones);
 - spend a particular amount in specified categories to get a discount on M of the items bought from these categories (the cheapest ones).
 
-{% note info %} Set the discount to 100%, and customers will get the items for free. {% endnote %}
+{% note info %} 
+Set the discount to 100%, and customers will get the items for free. 
+{% endnote %}
 
 To configure the offers you'll need to have the modules installed first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed the features will become available in the 'Discounts: Special Offers' section of your admin back-end (Figure 9).
 
@@ -97,7 +104,9 @@ Choose the offer you'll set up first and press _**Create**_. You'll see a form t
 
 ![Fig 10]({{site.baseurl}}/attachments/conditions.png)
 
-{% note info %} For detailed guidance on the offers set-up please refer to Special Offers (_pages/kb_en/modules/special_offers.md) {% endnote %}
+{% note info %} 
+For detailed guidance on the offers set-up please refer to Special Offers (_pages/kb_en/modules/special_offers.md)
+{% endnote %}
 
 
 ## Memberships for Payments Methods
@@ -137,6 +146,8 @@ Once created a membership will become available for sale for customers (Figure 1
 ![Fig 16]({{site.baseurl}}/attachments/product.png)
 
 
-{% note info %} If anonymous checkout is enabled, and a customer, buying a premium membership access, prefers to checkout without an account creation, the membership will not be assigned automatically till the account is created. The admin will be notified about such an order with a warning, indicating the "action required". {% endnote %}
+{% note info %} 
+If anonymous checkout is enabled, and a customer, buying a premium membership access, prefers to checkout without an account creation, the membership will not be assigned automatically till the account is created. The admin will be notified about such an order with a warning, indicating the "action required". 
+{% endnote %}
 
 After the order gets a 'Paid' status a customer gets a paid membership automatically and therefore gets access to all membership privileges.
