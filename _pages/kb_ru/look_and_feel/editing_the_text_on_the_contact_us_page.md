@@ -9,26 +9,25 @@ identifier: ref_contactustxt
 ---
 Cтандартный текст _Чтобы связаться с нами, пожалуйста, заполните форму ниже_ страницы обратной связи можно заменить на уникальный.
 
-![]({{site.baseurl}}/attachments/7505762/8716737.png)
+![1.jpg]({{site.baseurl}}/attachments/ref_contactustxt/1.jpg)
 
 
 1.  В панели управления магазина откройте страницу **Настройка магазина / Переводы**.
-    ![]({{site.baseurl}}/attachments/7505762/8716728.png)
+    ![2.jpg]({{site.baseurl}}/attachments/ref_contactustxt/2.jpg)
 2.  В списке языков найдите **Русский** и нажмите на название. 
-    ![]({{site.baseurl}}/attachments/7505762/8716729.png)
+    ![3.jpg]({{site.baseurl}}/attachments/ref_contactustxt/3.jpg)
     Откроется страница редактирования языковых переменных русского языка.
 3.  В поле поиска введите текст, который хотите изменить - _Чтобы связаться с нами, пожалуйста, заполните форму ниже_ -  и найдете языковую переменную, содержащую этот текст.
-    ![]({{site.baseurl}}/attachments/7505762/8716730.png)
+    ![4.jpg]({{site.baseurl}}/attachments/ref_contactustxt/4.jpg)
     X-Cart сделает поиск по языковым меткам русского языка, найденная языковая метка появится под полем поиска.
 4.  Наведите курсор на название метки, появится ссылка **Изменить**.
-    ![]({{site.baseurl}}/attachments/7505762/8716733.png)
+    ![5.jpg]({{site.baseurl}}/attachments/ref_contactustxt/5.jpg)
 5.  Нажмите на строку метки, откроется окно редактирования текста.
-    ![]({{site.baseurl}}/attachments/7505762/8716734.png)
-
+    ![6.jpg]({{site.baseurl}}/attachments/ref_contactustxt/6.jpg)
 6.  Поменяйте текст и нажмите **Сохранить**:
-    ![]({{site.baseurl}}/attachments/7505762/8716735.png)
+    ![7.jpg]({{site.baseurl}}/attachments/ref_contactustxt/7.jpg)
 7.  Контактная форма изменилась в магазине.
-    ![]({{site.baseurl}}/attachments/7505762/8716736.png)
+    
 
 _Дополнительная информация:_
 
