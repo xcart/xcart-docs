@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-16 12:39 +0400'
 title: Редактирование текста на странице обратной связи
 order: 210
-published: false
+published: true
 identifier: ref_contactustxt
 ---
 Cтандартный текст _Чтобы связаться с нами, пожалуйста, заполните форму ниже_ страницы обратной связи можно заменить на уникальный.
