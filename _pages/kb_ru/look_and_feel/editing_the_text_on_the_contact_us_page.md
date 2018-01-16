@@ -7,30 +7,29 @@ order: 210
 published: false
 identifier: ref_contactustxt
 ---
-Many merchants want to change their **Contact Us** page so it would display some particular text instead of "To contact us please use the form below" which is displayed by default.
+Cтандартный текст _Чтобы связаться с нами, пожалуйста, заполните форму ниже_ страницы обратной связи можно заменить на уникальный.
 
 ![]({{site.baseurl}}/attachments/7505762/8716737.png)
 
-This article describes how this can be done.
 
-1.  In your store's Admin area, go to the Translations section (**Store setup > Translations**).
+1.  В панели управления магазина откройте страницу **Настройка магазина / Переводы**.
     ![]({{site.baseurl}}/attachments/7505762/8716728.png)
-2.  In the list of your store's languages, locate **English** (or the name of your store's default language) and click on it. 
+2.  В списке языков найдите **Русский** и нажмите на название. 
     ![]({{site.baseurl}}/attachments/7505762/8716729.png)
-    This opens the Edit labels page allowing you to access the text labels of the language you have selected.
-3.  Use the label filter to find the text label responsible for displaying the text you want to change: copy and paste the phrase "To contact us please use the form below" into the **Enter search pattern** field and click **Search**.
+    Откроется страница редактирования языковых переменных русского языка.
+3.  В поле поиска введите текст, который хотите изменить - _Чтобы связаться с нами, пожалуйста, заполните форму ниже_ -  и найдете языковую переменную, содержащую этот текст.
     ![]({{site.baseurl}}/attachments/7505762/8716730.png)
-    X-Cart will do a search through the labels of the selected language. Once the label has been found, you should be able to see it in the label list below.
-4.  Hover your cursor over the label name. This reveals the **Edit** link.
+    X-Cart сделает поиск по языковым меткам русского языка, найденная языковая метка появится под полем поиска.
+4.  Наведите курсор на название метки, появится ссылка **Изменить**.
     ![]({{site.baseurl}}/attachments/7505762/8716733.png)
-5.  Click anywhere on the line with the label name and the **Edit** link. This expands a text area containing the current label value.
+5.  Нажмите на строку метки, откроется окно редактирования текста.
     ![]({{site.baseurl}}/attachments/7505762/8716734.png)
 
-6.  Edit the label value as you require and click **Save changes**:
+6.  Поменяйте текст и нажмите **Сохранить**:
     ![]({{site.baseurl}}/attachments/7505762/8716735.png)
-7.  Check the results on the storefront.
+7.  Контактная форма изменилась в магазине.
     ![]({{site.baseurl}}/attachments/7505762/8716736.png)
 
-_Related pages:_
+_Дополнительная информация:_
 
-*   {% link "Enabling the Contact Us form" ref_hfZXkxzT %}
+*   {% link "Создание контактной формы в магазине" ref_contactus %}
