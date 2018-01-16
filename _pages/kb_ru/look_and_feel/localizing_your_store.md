@@ -7,19 +7,29 @@ order: 200
 published: false
 identifier: ref_lclztn
 ---
-1.  Go to the Localization section of your store's Admin area (**Store****setup** > **Localization**).
+1.  В панели управления магазина откройте страницу **Настройка магазина / Локализация**.
     ![]({{site.baseurl}}/attachments/6389828/8716749.png)
-2.  Use the settings in this section to define the localization parameters for your country:
-    *   Weight unit
-    *   Weight symbol
-    *   Hide trailing zeros in fractional part
-    *   Weight format
-    *   Dimensional unit
-    *   Dimensional symbol
-    *   Date format
-    *   Time format
-    *   Time zone
-    *   CSV column delimiter
-    *   Import/export charset
-3.  Once you are done, click **Submit** at the bottom of the page to save the changes.
+2.  Задайте параметры магазина, соответствующие реалиям и стандартам страны, в которой работает магазин:
 
+### Раздел Единицы и форматы
+    *   Единица измерения веса
+    *   Символ для единицы измерения веса
+    *   Скрыть нули в дробной части
+    *   Формат отображения веса
+    *   Единица для измерения длины
+    *   Символ для единицы измерения длины
+    *   Формат даты
+    *   Первый день недели
+    *   Формат времени
+    *   Часовой пояс
+    *   CSV разделитель
+    *   Кодировка для импорта/экспорта
+    
+### Раздел Валюта  
+    *   Скрыть нули в дробной части
+    *   Валюта магазина
+    *   Формат
+    *   Префикс
+    *   Суффикс
+    
+3.  Сделав все необходимые изменения, нажмите **Сохранить**.
