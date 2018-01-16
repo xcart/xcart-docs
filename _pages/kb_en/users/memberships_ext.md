@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-11 14:22 +0400'
 title: Promote Sales with User Memberships
 order: 100
-published: false
+published: true
 description: memberships and products/categories/discounts/taxes/etc.
 ---
 
