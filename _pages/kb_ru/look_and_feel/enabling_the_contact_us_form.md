@@ -7,36 +7,36 @@ order: 190
 published: false
 identifier: ref_contactus
 ---
-Your store can have a "Contact us" form that your customers will be able to use to contact the store's personnel (for example, the store's administrator or customer service department):
+Покупатели обращаются за помощью к администратору магазина или в отдел по работе с клиентами через страницу обратной связи:
 
 ![]({{site.baseurl}}/attachments/6389780/7602634.png)
 
-The form is enabled by a free module called **Contact us**. You can check whether this module is installed and enabled in the Installed Modules section of your store's Admin area:
+Бесплатный модуль** Contact us** активирует на сайте контактную форму. Проверьте, числится ли **Contact us** в списке установленных модулей на странице **Мои модули**:
 
 ![]({{site.baseurl}}/attachments/6389780/8716626.png)
 
-If the module is not installed, you can install it from X-Cart's Marketplace (See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}). 
+Если нет, {% link "установите" ref_gpeZtm28 %} модуль из Маркетплейса и активируйте.
 
-The module's settings page allows you to control the settings related to the "Contact us" form:
+Настройки модуля отвечают за работу формы обратной связи:
 
 ![]({{site.baseurl}}/attachments/6389780/7602635.png)
 
-*   **Enable form**: Select this check box to allow your store's users to access the form. When enabled, the "Contact us" form is available via the link "/?target=contact_us"; for example, if your store's address is http://www.example.com/, your customers can access the form at http://www.example.com/?target=contact_us. When the form is disabled, users attempting to access the form get the "Access denied" page.
-*   **Email address of the message recipient**: Use this field to specify the email address to which messages submitted via the "Contact us" form should be sent. If this field is left empty, the site administrator email will be used.
+*   **Включить форму**: настройка активирует контактную форму на сайте, она будет доступна по ссылке _/?target=contact_us_. Например, если адрес магазина _http://www.magazin.ru/_, покупатели найдут страничку обратной связи по адресу  _http://www.magazin.ru/?target=contact_us_. Если форма обратной связи отключена, покупатели увидят ошибку _К сожалению, у вас нет прав доступа к этой странице. Пожалуйста, свяжитесь с администратором_.
+*   **Электронный адрес получателя**: адрес, на который будут приходить сообщения, отправленные покупателями через форму обратной связи. Если в этом поле не указан никакой адрес, сообщения будут направляться на адрес администратора магазина.
 
-The "Contact us" form can be protected by reCAPTCHA. reCAPTCHA is a free Web service that helps prevent automated abuse of your site. In this case, it prevents automated submission of the "Contact us" form by using a [CAPTCHA](http://www.google.com/recaptcha#captcha) to ensure that only humans can submit it. 
+Функция _reCAPTCHA_ помогает обезопасить страницу обратной связи. _reCAPTCHA_ - это бесплатный веб-сервис, предотвращающий использование контактной формы автоматическими ботами. Т.к. при отправке сообщения требуется ввести [код с картинки](http://www.google.com/recaptcha#captcha), только человек может использовать контактную форму. 
 
-To use reCAPTCHA, you will need to configure your reCAPTCHA **Public key** and **Private key** settings. To sign up for reCAPTCHA and obtain the necessary keys, go to [https://www.google.com/recaptcha/admin/create](https://www.google.com/recaptcha/admin/create).
+Защита _reCAPTCHA_ требует настройки публичного и приватного ключей. [Зарегистрируйтесь в сервисе и получите ключи](https://www.google.com/recaptcha/admin/create).
 
-If your store uses the **Simple CMS** module by X-Cart team, the link to the "Contact us" form appears in your store's Primary menu: 
+Если в магазине работает модуль **Simple CMS**, ссылка на страницу обратной связи находится в главном меню: 
 
 ![]({{site.baseurl}}/attachments/6389780/7602632.png)
 
-You can control the accessibility of the "Contact us" form link via the Primary site menu using the Menus page (**Content > Menus**) in the Admin area:
+Ссылку можно удалить из главного меню на странице **Содержание / Меню**:
 
 ![]({{site.baseurl}}/attachments/6389780/8716627.png)
 
-_Related pages:_
+_Дополнительная информация:_
 
-*   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
+*   {% link "Создание новых пунктов меню" ref_newmenuitem %}
 
