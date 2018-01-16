@@ -7,13 +7,13 @@ order: 180
 published: false
 identifier: ref_poweredby
 ---
-1.  Make sure the module **Theme Tweaker** is installed and enabled at your store. If not, {% link "install and activate it" ref_0fGEpvrh %}.
+1.  Для редактирования надписи понадобится модуль **Theme Tweaker**. {% link "Установите и активируйте" ref_gpeZtm28 %} модуль.
     ![]({{site.baseurl}}/attachments/6389847/8716763.png)
-2.  Click **Look & Feel** in the main menu to go to the Layout section and select the** Custom CSS **tab there.
+2.  Откройте страницу **Интерфейс / Пользовательские CSS и JS**.
     ![]({{site.baseurl}}/attachments/6389847/8716764.png)
-3.  Enable the **Use custom css** option.
+3.  Включите опцию **Использовать свой CSS**.
 
-4.  Insert the following CSS code into the field below:
+4.  В поле редактирования кода вставьте следующий код:
 
     ```php
     .powered-by .powered-by-label {
@@ -21,10 +21,10 @@ identifier: ref_poweredby
     }
     ```
 
-5.  Click **Save**.
+5.  Нажмите **Сохранить**.
     ![]({{site.baseurl}}/attachments/6389847/8716775.png)
 
-6.  Check the results in the front end.
+6.  Проверьте результат в магазине.
 
 7.  If you need to remove the "Powered by" notice on the Mobile Mode, just go to **Mobile custom CSS** section, enable **Use mobile custom css** check-box, add the below code to the corresponding field,and click **Save**:
 
