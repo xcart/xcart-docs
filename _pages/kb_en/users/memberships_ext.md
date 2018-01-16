@@ -7,7 +7,7 @@ order: 100
 published: false
 description: memberships and products/categories/discounts/taxes/etc.
 ---
-# **Use Memberships to Promote Sales**
+{% toc Table of Contents %}
 
 So how can you benefit from using memberships? Memberships are commonly used for:
 - deviding customers in groups (wholesale, retail, etc.) as described in {% link "User membership levels" ref_RXsgxNSm %}
