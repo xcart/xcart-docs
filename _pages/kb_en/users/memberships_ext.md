@@ -63,7 +63,7 @@ To set special taxes for memberships go to the 'Store SetUp: Taxes' section of y
 ![Fig 6]({{site.baseurl}}/attachments/tax.png)
 
 
-{% note info %} The detailed description of the tax configuration process you can find in {% link "Setting up sales tax" ref_aJPK4DHN %}{% endnote %}
+{% note info %} The detailed description of the tax configuration process you can find in {% link "Setting up sales tax" ref_aJPK4DHN %}
 
 ## Membership Discounts
 
