@@ -24,7 +24,8 @@ identifier: ref_lclztn
     *   Часовой пояс
     *   CSV разделитель
     *   Кодировка для импорта/экспорта
-    ![6.jpg]({{site.baseurl}}/attachments/ref_lclztn/6.jpg)
+    
+   ![6.jpg]({{site.baseurl}}/attachments/ref_lclztn/6.jpg)
 
 ### Раздел Валюта  
     *   Скрыть нули в дробной части
@@ -32,6 +33,7 @@ identifier: ref_lclztn
     *   Формат
     *   Префикс
     *   Суффикс
-    ![7.jpg]({{site.baseurl}}/attachments/ref_lclztn/7.jpg)
-
+    
+   ![7.jpg]({{site.baseurl}}/attachments/ref_lclztn/7.jpg)     
+  
 3.  Сделав все необходимые изменения, нажмите **Сохранить**.
