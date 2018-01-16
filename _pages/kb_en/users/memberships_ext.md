@@ -7,16 +7,17 @@ order: 100
 published: false
 description: memberships and products/categories/discounts/taxes/etc.
 ---
-{% toc Table of Contents %}
+
 
 So how can you benefit from using memberships? Memberships are commonly used for:
 - deviding customers in groups (wholesale, retail, etc.) as described in {% link "User membership levels" ref_RXsgxNSm %}
-- giving customers tax-exempt status
+- granting a group of customers with a tax-exempt status
 - creating discounts for certain memberships
 
 You can also provide special payment options for certain groups of customers or even sell memberships to the customers for gaining access to better prices. Hence you can not only promote sales with memberships but also earn on them.
 
 Let's consider each option in detail.
+{% toc Table of Contents %}
 
 ## Memberships for Products and Categories
 
@@ -43,6 +44,7 @@ You'll be redirected to a new page to edit product options in bulk. Choose the '
 
 ![Figure 4]({{site.baseurl}}/attachments/membership.png)
 
+Doing this we closed a category and all products in it from the unregistered viewers and allowed the registered customers with a particular membership, e.g. Wholesaler, see the category and buy products from it.
 
 If a non-member tries to open a membership category page using a direct category link the cart will show a `page not found` error. If the same with a direct product link, the cart will show the `access denied` error with a possibiity to contact the store admin and ask for membership. (Figure 5)
 
