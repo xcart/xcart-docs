@@ -16,8 +16,7 @@ So how can you benefit from using memberships? Memberships are commonly used for
 
 You can also provide special payment options for certain groups of customers or even sell memberships to the customers for gaining access to better prices. Hence you can not only promote sales with memberships but also earn on them.
 
-Let's consider each option in detail.
-{% toc Table of Contents %}
+{% toc Let's consider each option in detail. %}
 
 ## Memberships for Products and Categories
 
@@ -61,10 +60,10 @@ Using memberships you can boost sales by offering low tax rates or even tax-free
 
 To set special taxes for memberships go to the 'Store SetUp: Taxes' section of your cart admin area, make sure the 'Use the same tax rates for all user membership levels' option is disabled, create a new tax rate or edit an existing one pointing the required membership (Figure 6). Don't forget to _**Save Changes**_ when done. 
 
-![Fig 6]({{site.baseurl}}/attachments/tax.png))
+![Fig 6]({{site.baseurl}}/attachments/tax.png)
 
 
-{% note info %} The detailed description of the tax configuration process you can find in {% link "Setting up sales tax" ref_aJPK4DHN %}.{% endnote %}
+{% note info %} The detailed description of the tax configuration process you can find in {% link "Setting up sales tax" ref_aJPK4DHN %}{% endnote %}
 
 ## Membership Discounts
 
