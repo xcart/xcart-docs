@@ -35,5 +35,5 @@ identifier: ref_lclztn
     *   Суффикс
     
    ![7.jpg]({{site.baseurl}}/attachments/ref_lclztn/7.jpg)     
-  
+ 
 3.  Сделав все необходимые изменения, нажмите **Сохранить**.
