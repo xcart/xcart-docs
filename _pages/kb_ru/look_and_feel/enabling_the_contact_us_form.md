@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-16 11:24 +0400'
 title: Создание контактной формы в магазине
 order: 190
-published: false
+published: true
 identifier: ref_contactus
 ---
 Покупатели обращаются за помощью к администратору магазина или в отдел по работе с клиентами через страницу обратной связи:
