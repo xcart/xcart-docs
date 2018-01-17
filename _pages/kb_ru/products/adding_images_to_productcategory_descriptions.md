@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-17 14:30 +0400'
 title: Изображения в описаниях продуктов и категорий
 order: 30
-published: false
+published: true
 identifier: ref_img
 ---
 Дополните описания продуктов и категорий картинками.
