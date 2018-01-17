@@ -7,20 +7,20 @@ order: 30
 published: false
 identifier: ref_img
 ---
-You can easily add images to category/product descriptions.To add an image to the description of a category or a product, follow the steps below:
+Дополните описания продуктов и категорий картинками.
 
-1.  In your store's back end, open the details of the product or category to which you want to add an image. 
-2.  On the WYSIWYG editor panel at the top of the Description field, click the **Insert/edit image** button.
+1.  В интерфейсе администратора откройте продут или категорию, для которой хотите загрузить изображение. 
+2.  В панели редактора в поле **Описание** нажмите значок **Вставить изображение**.
     ![]({{site.baseurl}}/attachments/6389867/8717805.png)
-    A popup window will be displayed allowing you to specify the source of the image that needs to be inserted into the description:
+    Откроется окно для выбора источника загрузки картинки:
     ![]({{site.baseurl}}/attachments/6389867/8717806.png)
-3.  Specify the image URL. You can use an absolute URL to reference an image on another website or a relative URL to reference an image uploaded onto your store's server as described in the article {% link "Uploading custom images onto your store's server" ref_zyQIOcia %}. For the sake of example, we'll use the URL of an image that we previously uploaded onto the store server. Here's where we have copied it from:
-    ![]({{site.baseurl}}/attachments/6389867/8717799.png)
-    And here's where it needs to go in the Edit image popup:
+    * Загрузить изображение - кликните внутри окошка и выберите файл с компьютера. Изображение будет загружено, и появится панель для его редактирования:       ![]({{site.baseurl}}/attachments/6389867/8717806.png)
+    * По ссылке - укажите абсолютный путь к изображению на другом сайте или относительный путь к  изображению на сервере магазина, как описано в статье {% link "Загрузка изображений на сервер" ref_imgupload %} Для примера укажем ссылку на картинку, уже загруженную на сервер, где установлен магазин. Скопируем ссылку: ![]({{site.baseurl}}/attachments/6389867/8717799.png)
+      Вставьте ссылку в окно загрузки изображения:
     ![]({{site.baseurl}}/attachments/6389867/8717807.png)
-4.  Click OK (or similar button) to insert the image into the description. The image will be inserted into the description:
+      Нажмите Вставить:
     ![]({{site.baseurl}}/attachments/6389867/8717808.png)
 
-5.  Click the **Update** button at the bottom of the page to save the details of the product or category you have been editing. The changes will be saved. 
+3.  Когда картинка готова, внизу страницы нажмите **Обновить**. 
 
-Now if you find the category or product you have edited in the Customer front end, you should be able to see the image you have added as part of the description.
+Теперь продукт/категория отображается  в магазине с картинкой.
