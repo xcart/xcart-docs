@@ -26,6 +26,11 @@ Also, in the 'General Options' section you can enable or disable the offer.
 It's also possible to enable/disable an offer directly on the listing page (Figure 3) via a special 'Enable/Disable' button. When the offer is enabled the button is green, when disabled - grey.
 
 ![Fig 3]({{site.baseurl}}/attachments/enable.png)
+
+When enabled the offer becomes available to the customers on the home page in the 'Special Offers' section as well as on the matching category pages and on the Special Offers page.
+
+![homepage.png]({{site.baseurl}}/attachments/homepage.png)
+
 {% endnote %}
 
 After _**General Options**_ comes the 'Dates' section (Figure 4).
@@ -57,7 +62,7 @@ The sections that come next are _**Reward**_ and _**Exclusions**_. (Figure 6) He
 
 ![Fig 6]({{site.baseurl}}/attachments/reward.png)
 
-The profit is counted in a number of products a customer will get at a discount. The discount can be set in percent (%) and fixed sum (%). If you set the discount to 100% the customer will get the item(s) for free.
+The profit is counted in a number of products a customer will get at a discount. In our sample it is 1 product. The discount can be set in percent (%) and fixed sum (%). If you set the discount to 100% the customer will get the item(s) for free. The discount is set to 50% in the sample.
 
 {% note info %}
 To allow customers use several types of discount at a time use % to set the value
@@ -66,7 +71,16 @@ To allow customers use several types of discount at a time use % to set the valu
 Exclusions can be set only on the special offers created with the [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers: Spend X Get Y") and [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Spend X Get Y") modules. To set an exclusion mark the offer(s) that will prevent this offer from being applied.
 
 {% note info %}
-If you have e.g. Offer A and Offer B and define Offer B as an exclusion for Offer A, Offer A and Offer B will not be applied to the same products in an order. This means that the cart will first check the order to meet the Offer A conditions and apply the discounts specified in Offer A if the conditions are met. Then the cart will check the same order to meet the Offer B conditions excluding the products that were counted for Offer A. If the Offer B conditions are met the Offer B discounts will be applied to the order as well but to the different items from the order. If no exclusions are set discounts from both Offer A and Offer B can be applied to one and the same product from the order. 
+If you have e.g. Offer A and Offer B and define Offer B as an exclusion for Offer A, Offer A and Offer B will not be applied to the same products in an order. This means that the cart will first check the order to meet the Offer A conditions and apply the discounts set in Offer A if the conditions are met. Then the cart will check the same order to meet the Offer B conditions excluding the products that were counted for Offer A. If the Offer B conditions are met the Offer B discounts will be applied to the order as well but to the different items from the order. If no exclusions are set discounts of both Offer A and Offer B can be applied to one and the same product from the order. 
 
 Offers are applied in order of appearance on the offers listing page (Figure 3).
 {% endnote %}
+
+Next comes the 'Description & Promotions' section (Figure 7). This section defines how your customers will see the offer in the store.
+
+![Fig 7]({{site.baseurl}}/attachments/descr.png)
+
+You'll need to define the offer's title (or how you'll announce the offer to the customers), the offer's description, image and short description. The last 3 are optional. Also, this section has a predefined image and short description locations (Figure 8). If you want to exclude any of the locations turn them off.
+
+![Fig 8]({{site.baseurl}}/attachments/display.png)
+
