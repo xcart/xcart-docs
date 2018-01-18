@@ -40,7 +40,22 @@ When the dates are defined you can proceed to _**Conditions**_, the section that
 
 To set a particular category or categories the offer will be applied to the admin will need to choose them from the list of all categories and subcategories available in the store. If the offer is store-wide no selection is required.
 
-{% note info %} Hold Shift to choose more than one category. Subcategories are marked with '---' in the list
+{% note info %} 
+Hold Shift to choose more than one category and/or subcategory. Subcategories are marked with '---' in the list
 ![subcategories.png]({{site.baseurl}}/attachments/subcategories.png)
 {% endnote %}
+
+If no selection is done the offer will be store-wide and will be applied to all SKUs available including products on sale, products with volume discounts, etc. If a particular category is chosen the offer will count only the SKUs from the root of this category. To include SKUs from subcategories, please choose them along with the main category as well.
+
+If it's necessary to limit the offer for particular groups of customers the cart admin can choose them in the 'Eligible membership levels' field of the 'Conditions' section. 
+
+{% note info %}
+Let's say it's necessary to exclude the SKUs with volume discounts from the offer. If such products are joined under one category (Category A), it will be necessary to choose all other categories from the list in the 'From these categories' field except for Category A.  If the SKUs with volume discounts are not joined in particular category but are rather available for customers with a particular membership (Wholesaler) it will be necessary to choose _No membership_ in the 'Eligible membership levels' field. (If there are other memberships in the cart in addition to Wholesaler, it will be necessary to choose _No membership_ and all the memberships the offer is eligible for).
+{% endnote %}
+
+The sections that come next are _**Reward**_ and _**Exclusions**_. (Figure 6) Here you'll set a profit that a customer will get with the offer and exclude any possible offers that may interfere with the current one. 
+
+![Fig 6]({{site.baseurl}}/attachments/reward.png)
+
+The profit is counted in a number of products a customer will get a discount at. A discount can be 
 
