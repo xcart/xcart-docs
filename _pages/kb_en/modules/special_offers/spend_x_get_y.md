@@ -37,9 +37,9 @@ After _**General Options**_ comes the 'Dates' section (Figure 4).
 
 ![Fig 4]({{site.baseurl}}/attachments/dates.png)
 
-In this section tha cart admin can define the dates the offer will start and end at. If the dates are not defined the offer will be open-ended. 
+In this section the cart admin can define the dates the offer will start and end at. If the dates are not defined the offer will be open-ended. 
 
-When the dates are defined you can proceed to _**Conditions**_, the section that is literary a heart of the offer as here a cart admin defines a subtotal the offer will be applied to (it is  $100 in the sample), the category(s) and the membership(s) (Figure 5).
+When the dates are defined you can proceed to _**Conditions**_, the section that is literary a heart of the offer as here the cart admin defines a subtotal the offer will be applied to (it is  $100 in the sample), the category(s) and the membership(s) (Figure 5).
 
 ![Fig 5]({{site.baseurl}}/attachments/conditions.png)
 
@@ -83,4 +83,12 @@ Next comes the 'Description & Promotions' section (Figure 7). This section defin
 You'll need to define the offer's title (or how you'll announce the offer to the customers), the offer's description, image and short description. The last 3 are optional. Also, this section has a predefined image and short description locations (Figure 8). If you want to exclude any of the locations turn them off.
 
 ![Fig 8]({{site.baseurl}}/attachments/display.png)
+
+The offer title, image and short description (if defined) are displayed on the home page (Fig 9)
+
+![Fig 9]({{site.baseurl}}/attachments/home.png)
+
+The full offer description is displayed on the Special Offers page (Figure 10), that can be opened by clicking the offer title on the home page.
+
+![Fig 10]({{site.baseurl}}/attachments/description.png)
 
