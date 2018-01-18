@@ -24,5 +24,5 @@ identifier: ref_imgupload
 
 _Дополнительная информация:_
 
-*   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
+*   {% link "Изображения в описаниях продуктов и категорий" ref_img %}
 *   {% link "Приветственное сообщение и баннер  на главной странице магазина" ref_akieAE07 %}
