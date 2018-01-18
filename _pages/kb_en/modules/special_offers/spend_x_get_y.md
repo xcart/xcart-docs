@@ -20,7 +20,7 @@ First comes the 'General Options' section (Figure 2) where you can define the ad
 
 ![Fig 2]({{site.baseurl}}/attachments/general.png)
 
-Also, in the 'Geneal Options' section you can enable or disable the offer. 
+Also, in the 'General Options' section you can enable or disable the offer. 
 
 {% note info %}
 It's also possible to enable/disable an offer directly on the listing page (Figure 3) via a special 'Enable/Disable' button. When the offer is enabled the button is green, when disabled - grey.
@@ -53,9 +53,20 @@ If it's necessary to limit the offer for particular groups of customers the cart
 Let's say it's necessary to exclude the SKUs with volume discounts from the offer. If such products are joined under one category (Category A), it will be necessary to choose all other categories from the list in the 'From these categories' field except for Category A.  If the SKUs with volume discounts are not joined in particular category but are rather available for customers with a particular membership (Wholesaler) it will be necessary to choose _No membership_ in the 'Eligible membership levels' field. (If there are other memberships in the cart in addition to Wholesaler, it will be necessary to choose _No membership_ and all the memberships the offer is eligible for).
 {% endnote %}
 
-The sections that come next are _**Reward**_ and _**Exclusions**_. (Figure 6) Here you'll set a profit that a customer will get with the offer and exclude any possible offers that may interfere with the current one. 
+The sections that come next are _**Reward**_ and _**Exclusions**_. (Figure 6) Here you'll define a profit that a customer will get with the offer and exclude any possible offers that may interfere with the current one. 
 
 ![Fig 6]({{site.baseurl}}/attachments/reward.png)
 
-The profit is counted in a number of products a customer will get a discount at. A discount can be 
+The profit is counted in a number of products a customer will get at a discount. The discount can be set in percent (%) and fixed sum (%). If you set the discount to 100% the customer will get the item(s) for free.
 
+{% note info %}
+To allow customers use several types of discount at a time use % to set the value
+{% endnote %}
+
+Exclusions can be set only on the special offers created with the [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers: Spend X Get Y") and [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Spend X Get Y") modules. To set an exclusion mark the offer(s) that will prevent this offer from being applied.
+
+{% note info %}
+If you have e.g. Offer A and Offer B and define Offer B as an exclusion for Offer A, Offer A and Offer B will not be applied to the same products in an order. This means that the cart will first check the order to meet the Offer A conditions and apply the discounts specified in Offer A if the conditions are met. Then the cart will check the same order to meet the Offer B conditions excluding the products that were counted for Offer A. If the Offer B conditions are met the Offer B discounts will be applied to the order as well but to the different items from the order. If no exclusions are set discounts from both Offer A and Offer B can be applied to one and the same product from the order. 
+
+Offers are applied in order of appearance on the offers listing page (Figure 3).
+{% endnote %}
