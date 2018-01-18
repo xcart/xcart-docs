@@ -16,7 +16,7 @@ So how can you benefit from using memberships? Memberships are commonly used for
 
 You can also provide special payment options for certain groups of customers or even sell memberships to the customers for gaining access to better prices. Hence you can not only promote sales with memberships but also earn on them.
 
-{% toc Let's consider each option in detail. %}
+{% toc Let's review each option in detail. %}
 
 ## Memberships for Products and Categories
 
