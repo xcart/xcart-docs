@@ -86,6 +86,10 @@ You'll need to define the offer's title (or how you'll announce the offer to the
 
 The offer title, image and short description (if defined) are displayed on the home page (Fig 9) when the offer is enabled. They also are displayed at any matching category page.
 
+{% note info %}
+As a source for an image you can use either .jpg, .png, .gif or .bmp files from your computer or an image URL from the web. The image will be resized to 160x230 pixels when displayed on the customers front-end. Please keep this in mind when setting the image for an offer.
+{% endnote %}
+
 ![Fig 9]({{site.baseurl}}/attachments/home.png)
 
 The full offer description is displayed on the Special Offers page (Figure 10), that can be opened by clicking the offer title on the home page and on the category page.
