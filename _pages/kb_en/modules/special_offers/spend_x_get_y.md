@@ -16,7 +16,7 @@ Once installed the module functionality will become available in the 'Discounts:
 
 Let's consider the sample to understand how the Spend X Get Y offer works. 
 
-First comes the 'General Options' section (Figure 2) where you can define the administrative name, i.e. the name of the offer how the cart admin sees it in the list of offers (https://www.yourstore.com/admin.php?target=special_offers). The offer type 'Spend X Get M of items discounted/free' is preset as it was defined when an offer was created (refer to _**Create**_ on Figure 1).
+First comes the **'General Options'** section (Figure 2) where you can define the administrative name, i.e. the name of the offer how the cart admin sees it in the list of offers (https://www.yourstore.com/admin.php?target=special_offers). The offer type 'Spend X Get M of items discounted/free' is preset as it was defined when an offer was created (refer to _**Create**_ on Figure 1).
 
 ![Fig 2]({{site.baseurl}}/attachments/general.png)
 
@@ -33,15 +33,15 @@ When enabled the offer becomes available to the customers on the home page in th
 
 {% endnote %}
 
-After _**General Options**_ comes the 'Dates' section (Figure 4).
+After **General Options** comes the 'Dates' section (Figure 4).
 
 ![Fig 4]({{site.baseurl}}/attachments/dates.png)
 
 In this section the cart admin can define the dates the offer will start and end at. If the dates are not defined the offer will be open-ended. 
 
-When the dates are defined you can proceed to _**Conditions**_, the section that is literary a heart of the offer as here the cart admin defines a subtotal the offer will be applied to (it is  $100 in the sample), the category(s) and the membership(s) (Figure 5).
+When the dates are defined you can proceed to **Conditions and Reward**, the sections that are literary a heart of the offer as here the cart admin defines a subtotal the offer will be applied to (it is  $100 in the sample), the category(s) and the membership(s) and a reward a customer will get (Figure 5).
 
-![Fig 5]({{site.baseurl}}/attachments/conditions.png)
+![Fig 5]({{site.baseurl}}/attachments/conditions-reward.png)
 
 To set a particular category or categories the offer will be applied to the admin will need to choose them from the list of all categories and subcategories available in the store. If the offer is store-wide no selection is required.
 
@@ -58,15 +58,15 @@ If it's necessary to limit the offer for particular groups of customers the cart
 Let's say it's necessary to exclude the SKUs with volume discounts from the offer. If such products are joined under one category (Category A), it will be necessary to choose all other categories from the list in the 'From these categories' field except for Category A.  If the SKUs with volume discounts are not joined under a particular category but are rather available for customers with a particular membership (Wholesaler) it will be necessary to choose _No membership_ in the 'Eligible membership levels' field. (If there are other memberships in the cart in addition to Wholesaler, it will be necessary to choose _No membership_ and all the memberships the offer is eligible for).
 {% endnote %}
 
-The sections that come next are _**Reward**_ and _**Exclusions**_. (Figure 6) Here you'll define a profit that a customer will get with the offer and exclude any possible offers that may interfere with the current one. 
-
-![Fig 6]({{site.baseurl}}/attachments/reward.png)
-
 The profit is counted in a number of products a customer will get at a discount. In our sample it is 1 product. The discount can be set in percent (%) and fixed sum (%). If you set the discount to 100% the customer will get the item(s) for free. The discount is set to 50% in the sample.
 
 {% note info %}
 To allow customers use several types of discount at a time use % to set the value
 {% endnote %}
+
+The section that comes next is **Exclusions** (Figure 6). Here you'll exclude any possible offers that may interfere with the current one. 
+
+![Fig 6]({{site.baseurl}}/attachments/exclusions.png)
 
 Exclusions can be set only on the special offers created with the [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers: Spend X Get Y") and [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Spend X Get Y") modules. To set an exclusion, mark the offer(s) that will prevent the current offer from being applied.
 
@@ -76,7 +76,7 @@ If you have e.g. Offer A and Offer B and define Offer B as an exclusion for Offe
 Offers are applied in order of appearance on the offers listing page (Figure 3).
 {% endnote %}
 
-Next comes the 'Description & Promotions' section (Figure 7). This section defines how your customers will see the offer in the store.
+Next comes the **'Description & Promotions'** section (Figure 7). This section defines how your customers will see the offer in the store.
 
 ![Fig 7]({{site.baseurl}}/attachments/descr.png)
 
