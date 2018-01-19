@@ -12,4 +12,6 @@ X-Cart has 2 modules to offer you:
 * Special Offers: Spend X Get Y [https://market.x-cart.com/addons/spend-x-get-y.html](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers")
 * Special Offers: Byu X Get Y [https://market.x-cart.com/addons/buy-x-get-y.html](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers")
 
-They differ in logic but both are aimed at increasing your sales. 
+They differ in logic but both are aimed at increasing your sales. Let's check what the modules can do for your store:
+- Buy X Get Y
+- Spend X Get Y
