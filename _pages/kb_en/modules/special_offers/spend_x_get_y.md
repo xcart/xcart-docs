@@ -99,3 +99,16 @@ The full offer description is displayed on the Special Offers page (Figure 10), 
 Now that you know how the **Spend X Get Y offer** works you can try it on your own and create an offer in your store following the steps described above. To proceed you'll need to choose the offer type on the listing page and click _**Create**_ (presuming the Spend X Get Y module {% link "is installed and enabled" ref_fTUahl4n %}). When all required fields of the offer are filled in don't forget to click _**Update**_ and enable the offer for your customers. 
 
 ![create.png]({{site.baseurl}}/attachments/create.png)
+
+Once created you'll need to enable the Special Offers panel in the 'Hot Deals' section on the home page (Figure 11). For this purpose go to the 'Content: Menus' section in the cart admin area and choose the hot deals available.
+
+![fig 11]({{site.baseurl}}/attachments/menus.png)![menus.png]({{site.baseurl}}/attachments/menus.png)
+
+Enable the special offers panel as shown on Figure 12
+
+![fig 12]({{site.baseurl}}/attachments/enable_so.png)
+
+and special offers will be added to _Home page: Hot Deals_
+
+![so_home.png]({{site.baseurl}}/attachments/so_home.png)
+
