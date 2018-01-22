@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-17 14:53 +0400'
 title: 'Special Offers: Spend X Get Y'
 order: 100
-published: false
+published: true
 ---
 The 'Spend X Get Y' module works with a cart subtotal and gives a customer a discount if a certain subtotal is met. Unlike regular discounts or sales the module encourages customers to spend from a certain sum to win a price. The Spend X Get Y offer is especially good when you need to force sales regardless of particular SKUs. 
 
@@ -99,4 +99,3 @@ The full offer description is displayed on the Special Offers page (Figure 10), 
 Now that you know how the **Spend X Get Y offer** works you can try it on your own and create an offer in your store following the steps described above. To proceed you'll need to choose the offer type on the listing page and click _**Create**_ (presuming the Spend X Get Y module {% link "is installed and enabled" ref_fTUahl4n %}). When all required fields of the offer are filled in don't forget to click _**Update**_ and enable the offer for your customers. 
 
 ![create.png]({{site.baseurl}}/attachments/create.png)
-
