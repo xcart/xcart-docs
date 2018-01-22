@@ -1,8 +1,8 @@
 ---
-identifier: ref_memberships_ext
 lang: en
 layout: article_with_sidebar
 updated_at: '2018-01-11 14:22 +0400'
+identifier: ref_memberships_ext
 title: Promote Sales with User Memberships
 order: 100
 published: true
@@ -106,7 +106,7 @@ Choose the offer you'll set up first and press _**Create**_. You'll see a form t
 ![Fig 10]({{site.baseurl}}/attachments/conditions.png)
 
 {% note info %} 
-For detailed guidance on the offers set-up please refer to Special Offers (_pages/kb_en/modules/special_offers.md)
+For detailed guidance on the offers set-up please refer to {% link "Special Offers" ref_special_offers %}
 {% endnote %}
 
 
