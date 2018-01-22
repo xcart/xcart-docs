@@ -109,7 +109,7 @@ Now that you know how the **Buy X Get Y offer** works you can try it on your own
 
 Once created you'll need to enable the Special Offers panel in the 'Hot Deals' section on the home page (Figure 11). For this purpose go to the 'Content: Menus' section in the cart admin area and choose the hot deals available.
 
-![fig 11]({{site.baseurl}}/attachments/menus.png)![menus.png]({{site.baseurl}}/attachments/menus.png)
+![fig 11]({{site.baseurl}}/attachments/menus.png)!
 
 Enable the special offers panel as shown on Figure 12
 
