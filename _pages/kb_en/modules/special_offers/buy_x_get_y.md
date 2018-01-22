@@ -6,6 +6,8 @@ title: 'Special Offer: Buy X Get Y'
 order: 100
 published: true
 ---
+## Buy X Get Y
+
 The 'Buy X Get Y' module works with the products added to cart and gives a customer a discount if certain items are bought. Unlike regular discounts or sales the module encourages customers to buy from a certain category/subcategory to win a price. The Buy X Get Y offer is especially good when you need to force sales of particular SKUs in your store. 
 
 The module is included into the Ultimate software package. If you run Business, you can buy the [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Buy X Get Y") module and install it as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. 
