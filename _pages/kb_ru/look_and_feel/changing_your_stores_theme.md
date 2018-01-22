@@ -7,8 +7,9 @@ order: 170
 published: false
 identifier: ref_theme
 ---
-1.  В панели управления магазина откройте страницу **Мои модули**. Установите и активируйте модуль **Color Schemes**:
-    ![]({{site.baseurl}}/attachments/6389826/8716561.png)
+1.  В панели управления магазина откройте страницу **Мои модули** и установите модуль **Color Schemes**:
+    ![1.jpg]({{site.baseurl}}/attachments/ref_theme/1.jpg)
+ **Color Schemes** добавляет три новые темы: _Fashion, Noblesse_  и _Digital_. 
 
-2. Затем перейдите в раздел **Интерфейс / Разметка страницы** и выберите одну из доступных тем:
-    ![]({{site.baseurl}}/attachments/6389826/8716611.png)
+2. Перейдите в раздел **Интерфейс / Разметка страницы** и выберите одну из доступных тем:
+    ![2.jpg]({{site.baseurl}}/attachments/ref_theme/2.jpg)
