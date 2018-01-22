@@ -154,14 +154,23 @@ Below is a list of supported fields and their respective value types for categor
       </td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd">productClasses</td>
-      <td colspan="1" class="confluenceTd">&nbsp;</td>
-      <td colspan="1" class="confluenceTd">&nbsp;</td>
+      <td class="confluenceTd">productClasses</td>
+      <td class="confluenceTd">Defines the content of useClasses of Product Filters</td>
+      <td class="confluenceTd">String,
+        <br>Max length: 1&nbsp;</td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd">useClasses</td>
-      <td colspan="1" class="confluenceTd">&nbsp;</td>
-      <td colspan="1" class="confluenceTd">&nbsp;</td>
+      <td class="confluenceTd">useClasses</td>
+      <td class="confluenceTd">
+        <p>Defines Classes for product filter. Can be either <strong>N </strong>A or <strong>D</strong>, where:</p>
+        <ul>
+          <li><strong>N</strong> stands for Do not show the filter;</li>
+          <li><strong>A</strong> stands for All classes from this category; </li>
+          <li><strong>D</strong> stands for choose classes (custom mode); </li>
+        </ul>
+      </td>
+      <td class="confluenceTd">String,
+        <br>Max. length: 1&nbsp;</td>
     </tr>
   </tbody>
 </table>
