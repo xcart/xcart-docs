@@ -43,7 +43,7 @@ prose:
           element: "text"
           label: "Page identifier"
           help: "Generate unique id for this page to be used as reference for link tag (Base64 preferred)"
-          value: ""
+          value: UNIQUE_IDENTIFIER
       - name: "updated_at"
         field:
           element: "hidden"
@@ -120,7 +120,7 @@ prose:
           element: "text"
           label: "Page identifier"
           help: "Generate unique id for this page to be used as reference for link tag (Base64 preferred)"
-          value: ""
+          value: UNIQUE_IDENTIFIER
       - name: "updated_at"
         field:
           element: "hidden"
@@ -197,7 +197,7 @@ prose:
           element: "text"
           label: "Page identifier"
           help: "Generate unique id for this page to be used as reference for link tag (Base64 preferred)"
-          value: ""
+          value: UNIQUE_IDENTIFIER
       - name: "updated_at"
         field:
           element: "hidden"
@@ -274,7 +274,7 @@ prose:
           element: "text"
           label: "Page identifier"
           help: "Generate unique id for this page to be used as reference for link tag (Base64 preferred)"
-          value: ""
+          value: UNIQUE_IDENTIFIER
       - name: "updated_at"
         field:
           element: "hidden"
