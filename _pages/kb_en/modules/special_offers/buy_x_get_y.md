@@ -1,4 +1,5 @@
 ---
+identifier: ref_buy_x_get_y
 lang: en
 layout: article_with_sidebar
 updated_at: '2018-01-19 15:16 +0400'

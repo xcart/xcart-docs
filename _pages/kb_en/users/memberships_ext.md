@@ -1,4 +1,5 @@
 ---
+identifier: ref_memberships_ext
 lang: en
 layout: article_with_sidebar
 updated_at: '2018-01-11 14:22 +0400'
