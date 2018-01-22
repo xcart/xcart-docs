@@ -37,6 +37,7 @@ _In this section:_
 *   {% link "ShippingEasy" ref_HTml5LyW %}
 *   {% link "Shopgate - Mobile Commerce" ref_tHlhZwW1 %}
 *   {% link "Social Login" ref_IapN8lJ8 %}
+*   {% link "Special Offers" ref_special_offers %}
 *   {% link "Update inventory" ref_uSIvmuTh %}
 *   {% link "U.S.P.S." ref_whrpZnV3 %}
 *   {% link "XC4 to XC5 Migration wizard" ref_enOvcLbO %}
