@@ -53,21 +53,24 @@ Hold Shift to choose more than one category and/or subcategory. Subcategories ar
 
 If no selection is done the offer will be store-wide and will be applied to all SKUs available including products on sale, products with volume discounts, etc. If a particular category is chosen the offer will count only the SKUs from the root of this category. To include SKUs from subcategories as well, please choose them along with the main category.
 
-If it's necessary to limit the offer for particular groups of customers the cart admin can choose them in the 'Eligible membership levels' field of the 'Conditions' section. 
+{% note info %} 
+In 'Sample: Get 1 of every 3 items with 50% discount' the offer will check if an order has 3 items from a defined subcategory and will give a customer a 50% discount on the cheapest.
 
-{% note info %}
-
+In 'Sample: Get every second item for free' the offer will check if an order has 2 items from a defined category and will give a customer a 100% discount on the cheapest.
 {% endnote %}
 
-The profit is counted in a number of products a customer will get at a discount. The discount can be set in percent (%) and fixed sum (%). If you set the discount to 100% the customer will get the item(s) for free.
+If it's necessary to limit the offer for particular groups of customers the cart admin can choose them in the 'Eligible membership levels' field of the 'Conditions' section. 
+
+The profit is counted in a number of products a customer will get at a discount. The discount can be set in percent (%) and fixed sum (%). If you set the discount to 100% the customer will get the item(s) for free as in _Sample: Get every second item for free_.
 
 {% note info %}
 To allow customers use several types of discount at a time use % to set the value
 {% endnote %}
 
-The section that comes next is **Exclusions**. (Figure 6) Here you'll exclude any possible offers that may interfere with the current one. 
+The section that comes next is **Exclusions** (Figure 6). Here you'll exclude any possible offers that may interfere with the current one. 
 
-![Fig 6]({{site.baseurl}}/attachments/exclusions.png)
+![fig 6]({{site.baseurl}}/attachments/buy_exclusions.png)
+
 
 Exclusions can be set only on the special offers created with the [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers: Spend X Get Y") and [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Spend X Get Y") modules. To set an exclusion, mark the offer(s) that will prevent the current offer from being applied.
 
@@ -77,9 +80,10 @@ If you have e.g. Offer A and Offer B and define Offer B as an exclusion for Offe
 Offers are applied in order of appearance on the offers listing page (Figure 3).
 {% endnote %}
 
-Next comes the 'Description & Promotions' section (Figure 7). This section defines how your customers will see the offer in the store.
+Next comes the **'Description & Promotions'** section (Figure 7). This section defines how your customers will see the offer in the store.
 
-![Fig 7]({{site.baseurl}}/attachments/descr.png)
+![fig 7]({{site.baseurl}}/attachments/buy_description.png)
+
 
 You'll need to define the offer's title (or how you'll announce the offer to the customers), the offer's description, image and short description. The last 3 are optional. Also, this section has a predefined image and short description locations (Figure 8). If you want to exclude any of the locations turn them off.
 
@@ -87,10 +91,18 @@ You'll need to define the offer's title (or how you'll announce the offer to the
 
 The offer title, image and short description (if defined) are displayed on the home page (Fig 9) when the offer is enabled. They also are displayed at any matching category page.
 
+{% note info %}
+As a source for an image you can use either .jpg, .png, .gif or .bmp files from your computer or an image URL from the web. The image will be resized to 160x230 pixels when displayed on the customers front-end. Please keep this in mind when setting the image for an offer.
+{% endnote %}
+
 ![Fig 9]({{site.baseurl}}/attachments/home.png)
 
 The full offer description is displayed on the Special Offers page (Figure 10), that can be opened by clicking the offer title on the home page and on the category page.
 
-![Fig 10]({{site.baseurl}}/attachments/description.png)
+![fig 10]({{site.baseurl}}/attachments/buy_sopage.png)
 
-Now that you know how the **Spend X Get Y offer** works you can try it on your own and create an offer in your store following the steps described above.
+
+Now that you know how the **Buy X Get Y offer** works you can try it on your own and create an offer in your store following the steps described above. To proceed you'll need to choose the offer type on the listing page and click _**Create**_ (presuming the Buy X Get Y module {% link "is installed and enabled" ref_fTUahl4n %}). When all required fields of the offer are filled in don't forget to click _**Update**_ and enable the offer for your customers. 
+
+![create]({{site.baseurl}}/attachments/buy_create.png)
+
