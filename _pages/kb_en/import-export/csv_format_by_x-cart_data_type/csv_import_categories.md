@@ -162,7 +162,7 @@ Below is a list of supported fields and their respective value types for categor
     <tr>
       <td class="confluenceTd">useClasses</td>
       <td class="confluenceTd">
-        <p>Defines Classes for product filter. Can be either <strong>N </strong>A or <strong>D</strong>, where:</p>
+        <p>Defines Classes for product filter. Can be either <strong>N</strong>, <strong>A </strong> or <strong>D</strong>, where:</p>
         <ul>
           <li><strong>N</strong> stands for Do not show the filter;</li>
           <li><strong>A</strong> stands for All classes from this category; </li>
