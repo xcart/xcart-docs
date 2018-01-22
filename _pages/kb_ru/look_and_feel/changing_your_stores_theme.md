@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-16 10:46 +0400'
 title: Изменение темы магазина
 order: 170
-published: false
+published: true
 identifier: ref_theme
 ---
 1.  В панели управления магазина откройте страницу **Мои модули** и установите модуль **Color Schemes**:
