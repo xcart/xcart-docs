@@ -1,14 +1,12 @@
 ---
-identifier: ref_spend_x_get_y
 lang: en
 layout: article_with_sidebar
 updated_at: '2018-01-17 14:53 +0400'
+identifier: ref_spend_x_get_y
 title: 'Special Offers: Spend X Get Y'
 order: 100
 published: true
 ---
-## Spend X Get Y
-
 The 'Spend X Get Y' module works with a cart subtotal and gives a customer a discount if a certain subtotal is met. Unlike regular discounts or sales the module encourages customers to spend from a certain sum to win a price. The Spend X Get Y offer is especially good when you need to force sales regardless of particular SKUs. 
 
 The module is included into the Ultimate software package. If you run Business, you can buy the [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers: Spend X Get Y") module and install it as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. 
@@ -114,4 +112,3 @@ Enable the special offers panel as shown on Figure 12
 and special offers will be added to _Home page: Hot Deals_
 
 ![so_home.png]({{site.baseurl}}/attachments/so_home.png)
-
