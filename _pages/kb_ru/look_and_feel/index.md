@@ -32,4 +32,4 @@ categories:
 *   {% link "Создание контактной формы в магазине" ref_contactus %}
 *   {% link "Удаление надписи Разработано X-Cart" ref_poweredby %}
 *   {% link "Локализация сайта" ref_lclztn %}
-*   {% link "Изменение темы магазина" ref_theme %}
+*   {% link "Изменение дизайна магазина" ref_theme %}
