@@ -1,8 +1,8 @@
 ---
-identifier: ref_special_offers
 lang: en
 layout: article_with_sidebar
 updated_at: '2018-01-16 15:47 +0400'
+identifier: ref_special_offers
 title: Special Offers
 order: 100
 published: true
@@ -14,5 +14,5 @@ X-Cart has 2 modules to offer you:
 * Special Offers: Byu X Get Y [https://market.x-cart.com/addons/buy-x-get-y.html](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers")
 
 They differ in logic but both are aimed at increasing your sales. Let's check what the modules can do for your store:
-- Buy X Get Y
-- Spend X Get Y
+- {% link "Special Offer: Buy X Get Y" ref_buy_x_get_y %}
+- {% link "Special Offers: Spend X Get Y" ref_spend_x_get_y %}
