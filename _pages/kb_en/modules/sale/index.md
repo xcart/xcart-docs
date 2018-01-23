@@ -8,8 +8,6 @@ order: 100
 published: false
 description: sale
 ---
-_In this section:_
+It's not a secret that discounts is a good way to generate sales. But customers would scarcely notice a discount available if it's not promoted what the Sales module is specifically aimed at. 
 
-* Sale Module: admin interface
-* Sale Module: customer experience
-
+Refer to the {% link "Setting up sale and wholesale pricing in X-Cart 5" ref_g2dhS8uC %} video tutorial to learn how to install and set up the module.
