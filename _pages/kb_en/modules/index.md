@@ -33,6 +33,7 @@ _In this section:_
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
 *   {% link "POS system for X-Cart" ref_BMTUgGt4 %}
 *   {% link "Product Feeds" ref_0gfIXwxH %}
+*   {% link "Sale Module" ref_7tBJ8Yqo %}
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 *   {% link "ShippingEasy" ref_HTml5LyW %}
 *   {% link "Shopgate - Mobile Commerce" ref_tHlhZwW1 %}
