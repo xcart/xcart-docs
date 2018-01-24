@@ -45,6 +45,7 @@ To use carrier-calculated shipping rates, configure shipping as outlined below:
     We have instructions for some popular shipping modules:
     *   {% link "Canada Post" ref_XsHLxUwv %}
     *   {% link "U.S.P.S." ref_whrpZnV3 %}
+    *   {% link "UPS" ref_0uCGd6Bs %}
 
 5.  If necessary, configure a surcharge that will be added on top of carrier calculated shipping rates to accommodate additional expenses. For details, see the article on {% link "Handling fee" ref_nFJTxPMR %}.
 
@@ -57,5 +58,3 @@ To use carrier-calculated shipping rates, configure shipping as outlined below:
     *   have a non-zero product weight specified.
 
 That is all. Now you should be able to get shipping rates for your products.
-
-
