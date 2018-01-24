@@ -5,7 +5,7 @@ updated_at: '2018-01-24 20:09 +0400'
 identifier: ref_0uCGd6Bs
 title: UPS
 order: 100
-published: false
+published: true
 description: UPS shipping set-up
 ---
 The [UPS module](https://market.x-cart.com/addons/ups.html "UPS") for X-Cart 5 allows you to use online shipping rate calculation via [UPS service](https://www.ups.com/us/en/global.page "UPS").
@@ -95,4 +95,3 @@ This is an option that is helpful, but do not affect shipping rates calculation:
 This option enables logging of requests to the UPS server and responses from it. The logs are saved to **UPS.log** files in the `<X-Cart>/var/log/` folder.
 
 Don't forget to save the changes when the USPS shipping configuration is complete.
-
