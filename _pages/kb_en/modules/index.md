@@ -40,6 +40,7 @@ _In this section:_
 *   {% link "Social Login" ref_IapN8lJ8 %}
 *   {% link "Special Offers" ref_special_offers %}
 *   {% link "Update inventory" ref_uSIvmuTh %}
+*   {% link "UPS" ref_0uCGd6Bs %}
 *   {% link "U.S.P.S." ref_whrpZnV3 %}
 *   {% link "XC4 to XC5 Migration wizard" ref_enOvcLbO %}
 *   {% link "X-Cart 5 to WordPress Integration" ref_rJ8hCpkQ %}
