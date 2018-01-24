@@ -21,6 +21,6 @@ To achieve such flexibility there are certain approaches to X-Cart customization
 
 1. {% link "How to create simple module in X-Cart" ref_G2mlgckf %}
 2. [Structure of the software](https://devs.x-cart.com/getting_started/x-cart-structure.html).
-3. {% link "How to apply design changes" ref_fCqWygpc %}.
-4. {% link "How to apply changes to X-Cart business logic" ref_I9L2KZJN %}.
+3. {% link "How to apply design changes" ref_E88KCMDD %}.
+4. {% link "How to apply changes to X-Cart business logic" ref_AF6bmvL6 %}.
 5. [Working with database](https://devs.x-cart.com/getting_started/working-with-database.html).
