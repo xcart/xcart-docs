@@ -14,16 +14,14 @@ This article assumes that the UPS module has already been {% link "installed an
 
 To start using the module, you need to configure it. The module configuration settings can be accessed using one of the following methods:
 
-*   In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), click the **Add shipping method** button:
+1. In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), click the **Add shipping method** button:
 ![shipping.png]({{site.baseurl}}/attachments/ref_whrpZnV3/shipping.png)
 
 and then choose the UPS shipping method in a pop-up:
 ![ups-method.png]({{site.baseurl}}/attachments/ref_0uCGd6Bs/ups-method.png)
 
-
-    OR
     
-*   In the Installed Addons section of your X-Cart store’s Admin area (**My addons** > **Installed addons**), locate the entry for UPS module and click the **Settings** link below it:
+2. In the Installed Addons section of your X-Cart store’s Admin area (**My addons** > **Installed addons**), locate the entry for UPS module and click the **Settings** link below it:
 ![settings.png]({{site.baseurl}}/attachments/ref_0uCGd6Bs/settings.png)
 
 
