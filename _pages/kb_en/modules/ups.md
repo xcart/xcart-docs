@@ -22,7 +22,8 @@ and then choose the UPS shipping method in a pop-up:
 
 
     OR
-*   In the Installed Addons section of your X-Cart store’s Admin area (**My addons** >** Installed addons**), locate the entry for UPS module and click the **Settings** link below it:
+    
+*   In the Installed Addons section of your X-Cart store’s Admin area (**My addons** > **Installed addons**), locate the entry for UPS module and click the **Settings** link below it:
 ![settings.png]({{site.baseurl}}/attachments/ref_0uCGd6Bs/settings.png)
 
 
