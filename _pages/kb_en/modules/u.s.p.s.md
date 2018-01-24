@@ -17,14 +17,13 @@ This article assumes that the U.S.P.S module has already been {% link "installe
 
 To start using the module, you need to configure it. The module configuration settings can be accessed using one of the following methods:
 
-*   In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), click the **Add shipping method** button:
+1. In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), click the **Add shipping method** button:
 ![shipping.png]({{site.baseurl}}/attachments/ref_whrpZnV3/shipping.png)
 
 and then choose the U.S.P.S shipping method in a pop-up:
 ![pop-up.png]({{site.baseurl}}/attachments/ref_whrpZnV3/pop-up.png)
 
-    OR
-*   In the Installed Addons section of your X-Cart store’s Admin area (**My addons** >** Installed addons**), locate the entry for U.S.P.S. module and click the **Settings** link below it:
+2. In the Installed Addons section of your X-Cart store’s Admin area (**My addons** > **Installed addons**), locate the entry for U.S.P.S. module and click the **Settings** link below it:
 ![modules.png]({{site.baseurl}}/attachments/ref_whrpZnV3/modules.png)
 
 
