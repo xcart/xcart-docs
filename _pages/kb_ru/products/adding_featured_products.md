@@ -9,39 +9,40 @@ published: false
 ---
 Установите и активируйте модуль **Featured products**, разработанный командой X-Cart, чтобы рекомендовать продукты посетителям магазина. Рекомендованные продукты отображаются на главной странице магазина или на странице категории, в которую они входят:
 
-![]({{site.baseurl}}/attachments/6389852/8717632.png)
+![1.jpg]({{site.baseurl}}/attachments/ref_0GmOySU6/1.jpg)
 
 Настройки модуля определяют стиль отображения рекомендованных продуктов:
 
-![]({{site.baseurl}}/attachments/6389852/8717748.png)
+![2.jpg]({{site.baseurl}}/attachments/ref_0GmOySU6/2.jpg)
 
 Возможные стили:
 
 *   Сетка:
-    ![]({{site.baseurl}}/attachments/6389852/8717749.png)
+    ![3.jpg]({{site.baseurl}}/attachments/ref_0GmOySU6/3.jpg)
 
 *   Список:
-    ![]({{site.baseurl}}/attachments/6389852/8717750.png)
+    ![4.jpg]({{site.baseurl}}/attachments/ref_0GmOySU6/4.jpg)
 
 *   Таблица:
-    ![]({{site.baseurl}}/attachments/6389852/8717751.png)
+    ![5.jpg]({{site.baseurl}}/attachments/ref_0GmOySU6/5.jpg)
 
 Как добавить продукт в список рекомендованных:
 
 1.  Сначала решите, где показывать рекомендованные продукты - на главной странице или на странице категории. 
     Если на главной странице магазина - откройте раздел **Содержание / Главная страница** и перейдите на вкладку **Рекомендуемые товары**:
-    ![]({{site.baseurl}}/attachments/6389852/8717633.png)
+    ![6.jpg]({{site.baseurl}}/attachments/ref_0GmOySU6/6.jpg)
     Если на странице категории продукта - откройте раздел **Каталог / Категории** и найдите соответствующую категорию:
-    ![]({{site.baseurl}}/attachments/6389852/8717634.png)
+    ![7.jpg]({{site.baseurl}}/attachments/ref_0GmOySU6/7.jpg)
     На странице категории перейдите на вкладку **Рекомендуемые товары**:
-    ![]({{site.baseurl}}/attachments/6389852/8717635.png)
+    ![8.jpg]({{site.baseurl}}/attachments/ref_0GmOySU6/8.jpg)
 
 2.  На странице **Рекомендуемые товары** нажмите кнопку **Добавить рекомендуемые товары**.
-    ![]({{site.baseurl}}/attachments/6389852/8717636.png)
+    ![9.jpg]({{site.baseurl}}/attachments/ref_0GmOySU6/9.jpg)
     В открывшемся окне выберите продукты, которые хотите рекомендовать покупателям. 
 3.  Выбрав продукты, нажмите **Добавить**:
-    ![]({{site.baseurl}}/attachments/6389852/8717637.png)
+    ![11.jpg]({{site.baseurl}}/attachments/ref_0GmOySU6/11.jpg)
     Выбранные продукты будут добавлены в список рекомендуемых:
-    ![]({{site.baseurl}}/attachments/6389852/8717638.png)
+    ![10.jpg]({{site.baseurl}}/attachments/ref_0GmOySU6/10.jpg)
+
     Теперь покупатели увидят рекомендуемые продукты в магазине.
 
