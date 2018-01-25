@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-24 15:26 +0400'
 identifier: ref_6JFXM2Ni
 title: Раздел Недавно просмотренные
-order: 60
+order: 50
 published: true
 ---
 Модуль **Product Advisor** активирует в магазине раздел **Просмотренные**, чтобы покупатели могли легко вернуться к просмотренным продуктам.
