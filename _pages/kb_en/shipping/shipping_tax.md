@@ -35,4 +35,4 @@ If you have {% link "Tax Classes" ref_pAWOdG8N %} defined, the shipping tax set 
 ![tax-class.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/tax-class.png)
 
 
-So you'll also need to define a tax class applicable to the shipping tax you are setting. 
+So you'll also need to define a tax class applicable to the shipping tax you are setting.
