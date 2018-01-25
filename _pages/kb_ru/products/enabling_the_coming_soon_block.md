@@ -7,33 +7,26 @@ title: Скоро в продаже
 order: 70
 published: false
 ---
-The "Coming soon" feature in X-Cart 5 is available through the use of **Product Advisor** module by X-Cart team. With this feature your store can showcase products with an arrival date in the future:
+Расскажите покупателям о продуктах, которые скоро появятся в магазине, и сообщите дату их поступления. Модуль **Product Advisor**, разработанный командой X-Cart, добавляет ссылку **Скоро в продаже** в главное меню магазина.
 
-*   in a separate block titled "Coming soon";
-*   on a separate page (`http://<your-domain>/<x-cart-5-directory>/?target=coming_soon`) available by default through the "Coming soon" item in your store's Primary menu.
+Если продукт уже создан в магазине, и указана дата его поступления в будущем, продукт будет помечен надписью **Скоро в продаже** во всех списках продуктов в магазине.
 
-In addition to that, products with an arrival date in the future can be marked with "Coming soon" labels in all product lists in the Customer front end.
+Свойства раздела Скоро в продаже определяются настройками модуля **Product Advisor**:
 
-To use the "Coming soon" feature, make sure that the module **Product Advisor** is installed and enabled at your store:
+![]({{site.baseurl}}/attachments/6389778/8717811.png)
 
-![]({{site.baseurl}}/attachments/6389778/8717811.png)To configure how the products that are about to appear in your store's catalog should be displayed to your store's visitors, you will need to adjust some module settings:
-
-1.  Click the **Settings** link near the "Product Advisor" module icon in the list of your store's installed modules to go to the module's settings page.
-2.  On the "Product Advisor" module settings page, adjust the settings in the **"Coming soon" block settings** section:
+1.  В списке установленных модулей найдите **Product Advisor** и нажмите **Настройки**.
+2.  На странице настроек **Product Advisor** перейдите в раздел **Параметры блока "Скоро в продаже"**:
     ![]({{site.baseurl}}/attachments/6389776/8717923.png)
-    The settings are as follows:
-    *   **Enable "Coming soon" feature in catalog**: Enable this option to enable the "Coming soon" feature.
-    *   **Mark upcoming products in catalog**: Enable this option to mark all the products that are about to appear in your store with the "Coming soon" label. The "Coming soon"  labels on products will appear in all product lists except for the "Coming soon" lists. 
+    Установите настройки:
+    *   **Включить блок "Скоро в продаже"**: Поставьте галочку, чтобы в магазине появился раздел **Скоро в продаже**.
+    *   **Отмечать ожидаемые товары**: Отметка **Скоро в продаже** появится у продуктов только в каталоге или у продуктов на страницах категорий и продуктов. Отметка появится во всех списках продуктов, кроме списка **Скоро в продаже**. 
         ![]({{site.baseurl}}/attachments/6389776/8717926.png)
 
-    *   **Show arrival date on product details pages**: This setting defines whether the arrival date for products that are "coming soon" should be displayed on the product details pages of the respective products. Enable the option to show the arrival date; disable to hide the arrival date.
+    *   **Показывать дату поступления в продажу на странице товара**: Активируйте опцию, чтобы дата поступления продукта отображалась на странице информации о продукте.
         ![]({{site.baseurl}}/attachments/6389776/8717927.png)
-    *   **Show "coming soon" products only from category being viewed by customer**: This setting defines whether you want to show "coming soon" products from the entire store or just from the category the customer is currently viewing. Drupal block settings can override this option (when the DrupalConnector module is enabled).
-    *   **Display "Coming soon" block on sidebar (otherwise in center area)**: This setting defines the location of the "Coming soon" block. Enable if you want the "Coming soon" block to appear in the sidebar:
-        ![]({{site.baseurl}}/attachments/6389776/8717924.png)
-        Disable if you want this block to be displayed in the central area of your store site:
-        ![]({{site.baseurl}}/attachments/6389776/8717925.png)
-        Drupal block settings can override this option (when the DrupalConnector module is enabled).
-    *   **Maximum number of products to display in "Coming soon" block**: Specify the maximum number of products to be shown in the "Coming soon" block. Specify a non-zero value; otherwise, 3 products will be displayed by default. If the number of "coming soon" products is more than the number specified by this setting, any products above the specified number will be available for viewing via the "All upcoming products" link. Drupal block settings can override this option (when the DrupalConnector module is enabled).
+    *   **Показывать в блоке "Скоро в продаже" только товары из категории, просматриваемой в данный момент**: Опция определяет, какие продукты покупатель видит в разделе **Скоро в продаже**, - из всего магазина или только из категории, которую просматривает в данный момент.
+    
+    *   **Максимальное число товаров в блоке "Скоро в продаже"**: Укажите, сколько продуктов может отображаться в разделе **Скоро в продаже**. Значение должно быть больше нуля. По умолчанию в этом разделе 3 продукта.
 
-3.  Once you are done configuring the settings, click the **Submit **button at the bottom of the page to save the changes.
+3.  Завершив настройку, нажмите **Сохранить**.
