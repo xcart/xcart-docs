@@ -5,7 +5,7 @@ updated_at: '2018-01-25 10:02 +0400'
 identifier: ref_3TCD1IeK
 title: Сравнение продуктов
 order: 60
-published: false
+published: true
 ---
 Если в магазине активирован модуль **Product comparison**, покупатели получают возможность сравнивать продукты перед покупкой:
 
