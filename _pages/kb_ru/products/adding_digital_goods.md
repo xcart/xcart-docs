@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-11-16 21:42 +0400'
 identifier: ref_EtW6xbAl
 title: Создание нематериальных продуктов
-order: 90
+order: 20
 published: true
 ---
 В X-Cart 5 есть возможность создавать и продавать цифровые продукты. Для этого необходимы модули **File Attachments** и **E-goods** разработанные командой X-Cart:![1.jpg]({{site.baseurl}}/attachments/ref_EtW6xbAl/1.jpg)
@@ -25,4 +25,3 @@ published: true
     ![61.jpg]({{site.baseurl}}/attachments/ref_EtW6xbAl/61.jpg)
     Файл будет доступен покупателям после оплаты заказа.
     ![7.jpg]({{site.baseurl}}/attachments/ref_EtW6xbAl/7.jpg)
-
