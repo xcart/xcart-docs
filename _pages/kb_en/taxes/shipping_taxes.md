@@ -5,7 +5,7 @@ updated_at: '2018-01-25 15:00 +0400'
 identifier: ref_7vViyKfY
 title: Setting up shipping taxes
 order: 100
-published: false
+published: true
 ---
 _Refer to the articles:_
 
