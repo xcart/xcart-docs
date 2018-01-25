@@ -17,3 +17,4 @@ categories:
 *   {% link "Создание рекомендуемых продуктов" ref_0GmOySU6 %}
 *   {% link "Раздел Недавно просмотренные" ref_6JFXM2Ni %}
 *   {% link "Сравнение продуктов" ref_3TCD1IeK %}
+*   {% link "Скоро в продаже" ref_1FjXXi4W %}
