@@ -19,3 +19,4 @@ _In this section:_
 *   {% link "Setting up sales tax" ref_aJPK4DHN %}
 *   {% link "Setting up VAT / GST (for the UK, EU, Australia, etc)" ref_Rzp45QlN %}
 *   {% link "Setting up Canadian taxes" ref_hxmof6xX %}
+*   {% link "Setting up shipping taxes" ref_7vViyKfY %}
