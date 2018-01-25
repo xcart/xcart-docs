@@ -22,3 +22,4 @@ _In this section:_
 *   {% link "Shipping freight" ref_kioKBJIM %}
 *   {% link "Handling fee" ref_nFJTxPMR %}
 *   {% link "Shipping setup for downloadable products" ref_z5KmbFAu %}
+*   {% link "Shipping Tax" ref_4nZM0iOX %}
