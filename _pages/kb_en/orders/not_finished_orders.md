@@ -5,7 +5,7 @@ updated_at: '2018-01-26 13:35 +0400'
 identifier: ref_5TMbPwNQ
 title: Not Finished Orders
 order: 100
-published: true
+published: false
 description: not finished orders module
 ---
 Sometimes it can be that a customer proceeds to paying an order but doesn't complete it due to many reasons (a customer changes his mind, something distracts a customer from the payment, a computer crash, etc.) and a merchant wants to see such not finished purchases to track them. For the cases of the kind you can use the **Not Finished Orders module** in X-Cart. This module is free and can be {% link "enabled" ref_0fGEpvrh %} in the _**My Addons**_ section of the cart admin back-end.
