@@ -30,6 +30,7 @@ _In this section:_
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
+*   {% link "Not Finished Orders" ref_5TMbPwNQ %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
 *   {% link "POS system for X-Cart" ref_BMTUgGt4 %}
 *   {% link "Product Feeds" ref_0gfIXwxH %}
