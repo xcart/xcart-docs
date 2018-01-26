@@ -21,4 +21,5 @@ _In this section:_
 *   {% link "Submitting your shop to search engines" ref_OqJ2oZTE %}
 *   {% link "Setting up discount coupons" ref_SGI1FqdC %}
 *   {% link "Setting up volume discounts for products" ref_xEadpu9F %}
+*   {% link "Promote Sales with User Memberships" ref_memberships_ext %}
 *   {% link "Connecting to Kissmetrics" ref_C3AVd3Zp %}
