@@ -16,5 +16,6 @@ published: true
 _In this section:_
 
 *   {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}
+*   {% link "X-Cart Payment Transaction Statuses" ref_7pBlny0J %}
 *   {% link "Managing X-Cart order statuses (X-Cart 5.2.7 and later)" ref_7FIU2sxJ %}
 *   {% link "Adding new shipping/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}
