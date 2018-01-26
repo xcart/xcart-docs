@@ -39,7 +39,7 @@ The statuses Awaiting payment, Paid and Authorized cause the inventory levels 
 | D | Delivered | The buyer has received the package. |
 | WND | Will not deliver | The order will not be shipped to the buyer for some reason. |
 | R | Returned | The buyer is returning the ordered items; the items have been sent back to the merchant. |
-| NF | Not Finished | (Enabled by the module Not Finished Orders). After the buyer's attempt to pay for the order, the payment system has returned the "cancelled" or "failed" callback, so the order payment status has been set to "Declined". |
+| NF | Not Finished | (Enabled by the module {% link "Not Finished Orders" ref_5TMbPwNQ %}). After the buyer's attempt to pay for the order, the payment system has returned the "cancelled" or "failed" callback, so the order payment status has been set to "Declined". |
 
 {% note info %}
 What you see in the first columns of the above tables is letter codes by which X-Cart's system order statuses are represented in the software code; these codes are used only internally.
