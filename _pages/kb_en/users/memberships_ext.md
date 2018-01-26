@@ -128,7 +128,7 @@ You'll need to define an applicable membership in this field and the payment wil
 
 The standard membership feature can be extended with a [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html) module that will enable an ability to sell paid memberships as regular products. This module is usefull if you have an extremely favorable options for members worth paying for, e.g. closed sales, vip prices, etc.
 
-To enable the feaure make sure the module is installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed you'll be able to create memberships as products and sell them to your customers. For this purpose go to the 'Catalog: Products' section of the cart admin area and click the 'Add Product' button (Figure 12).
+To enable the feaure make sure the module is installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed you'll be able to create memberships as products and sell them to your customers. For this purpose go to the '**Catalog** > **Products**' section of the cart admin area and click the 'Add Product' button (Figure 12).
 
 ![Fig 12]({{site.baseurl}}/attachments/add_product.png)
 
@@ -152,3 +152,7 @@ If anonymous checkout is enabled, and a customer, buying a premium membership ac
 {% endnote %}
 
 After the order gets a 'Paid' status a customer gets a paid membership automatically and therefore gets access to all membership privileges.
+
+When the membership expires the customer will get an e-mail notification, that will be sent automatically. E-mail notifications for the **Paid Membership** module can be managed in the **Store setup** > **Email notifications** section of the admin area.
+
+![notifications.png]({{site.baseurl}}/attachments/ref_memberships_ext/notifications.png)
