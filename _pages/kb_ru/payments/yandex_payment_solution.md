@@ -34,7 +34,7 @@ Yandex.Money - это сервис, позволяющий принимать п
 
 В X-Cart Marketplace модуль может быть найден по названию "Yandex Payment Solution".
 
-Инструкция по установке модуля из X-Cart Marketplace доступна здесь: {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+Инструкция по установке модуля из X-Cart Marketplace доступна здесь: {% link "Установка модулей из маркетплейса" ref_gpeZtm28 %}.
 
 После установки модуль будет активирован автоматически.
 
