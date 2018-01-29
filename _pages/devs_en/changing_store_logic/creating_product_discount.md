@@ -1,14 +1,16 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2015-01-20 00:00'
 title: Creating product discount
 identifier: ref_SMsZrhAi
-updated_at: 2015-01-20 00:00
-layout: article_with_sidebar
-lang: en
 version: X-Cart 5.2.16 and earlier
 categories:
-- Developer docs
-- Demo module
-- Outdated
+  - Developer docs
+  - Demo module
+  - Outdated
+published: true
+order: 100
 ---
 
 ## Introduction
@@ -263,7 +265,7 @@ Finally, since we decorated the most basic product ItemsList class `\XLite\View
 
 ## Module example
 
-You can download this module pack from here: [https://dl.dropboxusercontent.com/u/23858825/Tony-ProductDiscountDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-ProductDiscountDemo-v5_1_0.tar)
+You can download this module pack from here: <https://www.dropbox.com/s/1fdy27xvyznfglb/Tony-ProductDiscountDemo-v5_1_0.tar>
 
 ## Attachments:
 
