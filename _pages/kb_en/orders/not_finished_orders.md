@@ -12,6 +12,10 @@ When a buyer completes a payment process with a payment gateway and clicks _**Pa
 
 For the cases of the kind you can use the **Not Finished Orders module** in X-Cart. This module is included in the Business edition and higher and can be {% link "enabled" ref_0fGEpvrh %} in the _**My Addons**_ section of the cart admin back-end.
 
+{% note info %}
+The Not Finished Orders module works with the orders created with online payment processors. For the offline payment methods an order is created at the moment a buyer clicks the **Place order** button and an order gets an "Awaiting payment" status by default. 
+{% endnote %}
+
 To set up the module use the _Settings_ link.
 
 ![payment-transactions.png]({{site.baseurl}}/attachments/ref_5TMbPwNQ/payment-transactions.png)
