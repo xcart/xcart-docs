@@ -5,7 +5,7 @@ updated_at: '2018-01-30 10:57 +0400'
 identifier: ref_6OU4G1wB
 title: Лидеры продаж
 order: 90
-published: false
+published: true
 ---
 Установите и активируйте модуль **Bestsellers**, чтобы привлечь внимание покупателей к самым популярным продуктам мгазина:
 ![3.jpg]({{site.baseurl}}/attachments/ref_6OU4G1wB/3.jpg)
@@ -31,7 +31,3 @@ published: false
 
 **Лидеры продаж** располагаются в боковой панели только при разметке страницы с двумя или тремя колонками:
 ![5.jpg]({{site.baseurl}}/attachments/ref_6OU4G1wB/5.jpg)
-
-
-
-
