@@ -8,7 +8,7 @@ order: 100
 published: true
 description: not finished orders module
 ---
-When a buyer completes a payment process with a payment gateway and clicks _**Pay**_  the cart in X-Cart front-end is cleared and an order for the buyer is created in the admin back-end being an exact copy of the cart at the moment of payment.  Sometimes it can be that a customer proceeds to paying an order but doesn't complete it due to many reasons (a customer changes his mind, something distracts a customer from the payment, a computer crash, etc.) and a merchant wants to see such not finished purchases to track them. 
+When a buyer completes a payment process with a payment gateway and clicks _**Pay**_  the cart in X-Cart front-end is cleared and an order for the buyer is created in the admin back-end being an exact copy of the cart at the moment of payment.  Sometimes it can be that a customer proceeds to paying an order but doesn't complete it due to many reasons (a customer changes his mind, something distracts a customer from the payment, a computer crash, etc.) and a merchant wants to see such not finished purchases to track them.  
 
 For the cases of the kind you can use the **Not Finished Orders module** in X-Cart. This module is included in the Business edition and higher and can be {% link "enabled" ref_0fGEpvrh %} in the _**My Addons**_ section of the cart admin back-end.
 
