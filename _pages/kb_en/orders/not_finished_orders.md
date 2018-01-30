@@ -8,7 +8,9 @@ order: 100
 published: true
 description: not finished orders module
 ---
-Sometimes it can be that a customer proceeds to paying an order but doesn't complete it due to many reasons (a customer changes his mind, something distracts a customer from the payment, a computer crash, etc.) and a merchant wants to see such not finished purchases to track them. For the cases of the kind you can use the **Not Finished Orders module** in X-Cart. This module is free and can be {% link "enabled" ref_0fGEpvrh %} in the _**My Addons**_ section of the cart admin back-end.
+When a buyer completes a payment process with a payment gateway and clicks _**Pay**_  the cart in X-Cart front-end is nulled and an order for the buyer is created in the admin back-end being an exact copy of the cart at the moment of payment.  Sometimes it can be that a customer proceeds to paying an order but doesn't complete it due to many reasons (a customer changes his mind, something distracts a customer from the payment, a computer crash, etc.) and a merchant wants to see such not finished purchases to track them. 
+
+For the cases of the kind you can use the **Not Finished Orders module** in X-Cart. This module is included in the Business edition and higher and can be {% link "enabled" ref_0fGEpvrh %} in the _**My Addons**_ section of the cart admin back-end.
 
 To set up the module use the _Settings_ link.
 
@@ -18,9 +20,15 @@ The settings of the module are as follows:
 
 * _Not finished order will be created_  - in this drop-down the admin can choose the conditions that if met will result in a not finished order creation.
 * _Clear cart if administrator changes order_ - YES/NO
-* _Limit lifetime of not finished order_ - If enabled, the cart admin will be able to define the the time to use the order for future attempts in days. 
 
-Once enabled and set up, the cart admin will see not finished orders in the Orders section of the admin back-end.
+{% note info %}
+If this option is set to 'YES' a buyer's cart of a not finished order will be cleared as soon as the cart admin changes the order details, e.g. a payment status of a not finished order from "Status is not defined" to "Awaiting payment". By default the cart content is cleared only when an order is paid.  
+{% endnote %}
+
+
+* _Limit lifetime of not finished order_ - If enabled, the cart admin will be able to define the the time to use the cart at its current state for future attempts in days. 
+
+Once enabled and set up, the cart admin will see the not finished orders in the **Orders** section of the admin back-end.
 
 ![order.png]({{site.baseurl}}/attachments/ref_5TMbPwNQ/order.png)
 
