@@ -20,3 +20,4 @@ categories:
 *   {% link "Скоро в продаже" ref_1FjXXi4W %}
 *   {% link "Новые поступления" ref_0YIVUwEW %}
 *   {% link "Лидеры продаж" ref_6OU4G1wB %}
+*   {% link "Оптовые цены и минимальный объём покупки" ref_3BQKP6eU %}
