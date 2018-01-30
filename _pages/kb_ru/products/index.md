@@ -19,3 +19,4 @@ categories:
 *   {% link "Сравнение продуктов" ref_3TCD1IeK %}
 *   {% link "Скоро в продаже" ref_1FjXXi4W %}
 *   {% link "Новые поступления" ref_0YIVUwEW %}
+*   {% link "Лидеры продаж" ref_6OU4G1wB %}
