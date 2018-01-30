@@ -7,7 +7,7 @@ title: X-Cart Payment Transaction Statuses
 order: 100
 published: true
 ---
-Every order in your X-Cart store has a payment transaction status that provides information as to the current state of the payment in the order processing workflow. 
+Every order in your X-Cart store has a payment transaction status that provides information as to the current state of the payment in the cart processing workflow. 
 
 {% note info %}
 A payment transaction is not a bank transaction in its actual meaning. A payment transaction is created at a moment a customer intends to place an order using both offline and online payment methods. The difference is in the order. For offline payments an order is created when the _Place Order_ button is clicked, transaction getting a "Pending" status automatically. For online payments in case of a successfull payment X-Cart admin area registers an order with a "Success" payment transaction status. In case of a failed payment an order is not created, but a transaction is registered with a "Failed" status. A cart is not frozen at a time of the failed payment and a customer can update it further. If you want a cart to be frozen at the time of a failed transaction, please, use the {% link "Not Finished Orders" ref_5TMbPwNQ %} module.
