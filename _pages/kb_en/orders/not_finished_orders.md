@@ -26,7 +26,7 @@ The settings of the module are as follows:
 * _Clear cart if administrator changes order_ - YES/NO
 
 {% note info %}
-If this option is set to 'YES' a buyer's cart of a not finished order will be cleared as soon as the cart admin changes the order details, e.g. a payment status of a not finished order from "Status is not defined" to "Awaiting payment". By default the cart content is cleared only when an order is paid.  
+If this option is set to 'YES' a buyer's cart of a not finished order will be cleared as soon as the cart admin changes the order details, e.g. a payment status of a not finished order from "Status is not defined" to "Awaiting payment". By default the cart content is cleared only when an order is placed.  
 {% endnote %}
 
 
