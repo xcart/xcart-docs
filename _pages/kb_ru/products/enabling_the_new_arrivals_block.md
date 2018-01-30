@@ -5,7 +5,7 @@ updated_at: '2018-01-29 13:18 +0400'
 identifier: ref_0YIVUwEW
 title: Новые поступления
 order: 80
-published: false
+published: true
 ---
 Секция Новые поступления включается модулем **Product Advisor**, разработанным командой X-Cart. Покупатели видят новые продукты:
 
