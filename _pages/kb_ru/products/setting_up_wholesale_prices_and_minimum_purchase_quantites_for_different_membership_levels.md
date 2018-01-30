@@ -7,81 +7,77 @@ title: Оптовые цены и минимальный объём покупк
 order: 100
 published: false
 ---
-Wholesale prices and minimum purchase quantities for products can be configured in X-Cart 5 using the module **Wholesale**:
+Используйте модуль **Wholesale**, чтобы установить оптовые цены и минимальное количество продуктов в заказе:
 
 ![]({{site.baseurl}}/attachments/6389808/8719226.png)
 
-Wholesale prices are a way to offer multiple levels of pricing for the same product depending on the membership level of the buyer and the quantity of product units ordered.
+Один и тот же продукт предлагается по разным ценам в зависимости от группы, в которую входит покупатель, и от количества продукта в заказе.
 
-A minimum purchase quantity is a minimum number of product units that can be purchased by a customer at a time. If a customer's cart contains a lesser quantity of product units than is specified by the minimum purchase limit, checkout for the cart is not allowed.
+Установите минимальное количество единиц одного продукта, которое покупатель должен купить. Если количество единиц продукта в заказе меньше минимального, оформление покупки невозможно.
 
-## Setting up wholesale prices
+## Настройка оптовых цен
 
-To configure wholesale prices:
-
-1.  In your store's Admin area, find the product for which you want to set or modify wholesale prices and open its details.
-2.  Switch to the **Wholesale pricing** tab of the product details page. 
+1.  В интерфейсе администратора откройте страницу продукта, для которого хотите задать или изменить оптовые цены.
+2.  Перейдите на вкладку **Оптовые цены**. 
     ![]({{site.baseurl}}/attachments/6389808/8719228.png)
 
-3.  Add the wholesale pricing tiers you require. For each new tier complete the following steps:
-    1.  Click the **New tier** button:
+3.  Создайте диапазон цен:
+    1.  Нажмите **Новый диапазон**:
         ![]({{site.baseurl}}/attachments/6389808/8719229.png)
-        This adds a new blank line to the wholesale pricing table:
+        Появится новая строка для редактирования:
         ![]({{site.baseurl}}/attachments/6389808/8719230.png)
-
-    2.  On the line that has appeared, provide information about the new wholesale pricing tier:
+    2. В поле **Диапазон количества** укажите количество продукта, с которого начинает действовать оптовая цена
+    3.  В следующем поле укажите цену или долю цены в процентах, которая действует для указанного количества продукта:
         ![]({{site.baseurl}}/attachments/6389808/8719231.png)
-    3.  Click **Save changes**. 
-        The new tier will be added to the table:
+    4.  Выберите группу пользователей, для которой действует специальная цена. 
+       
         ![]({{site.baseurl}}/attachments/6389808/8719232.png)
+    5. Нажмите **Сохранить**. В списке появиля новый диапазон цен:
+    
+Рассмотрим пример:
 
-Now let's take a closer look at how you configure specific pricing tiers. Consider the following example:
+Установим цены на продукт для всех покупателей:
 
-We have a product that we want to sell, and we want to define pricing tiers for it so that customers without a membership would be able to purchase the product at the following prices:
+*   *   1-9 единиц- 2000 RUB
+    *   10-99 единиц -1500 RUB
+    *   100 и более единиц -1000 RUB
 
-*   *   1-9 units - $50
-    *   10-99 units - $45
-    *   100+ units - $40
+Чем больше количество продукта в заказе, тем ниже цена за единицу.
 
-(As you can see, the more units of the product is purchased, the lower the price).
+Для группы оптовых покупателей будут действовать специальные цены:
 
-We also have a privileged ‘Wholesaler’ membership level to which we want to give even lower prices:
+*   *   1-1000 единиц - 1000 RUB
+    *   1001 и более единиц - 500 RUB
 
-*   *   1-1000 units - $45
-    *   1001+ units - $35
+Как настроить такие цены:
 
-How do we configure pricing tiers?
 
-In this case, we need to create and set up pricing tiers as follows:
+*   *   Диапазон количества: от 1
+        Цена: 3000 RUB
+        Группа: Все покупатели
+    *   Диапазон количества: от 10
+        Цена: 2500 RUB
+        Группа: Все покупатели
+    *   Диапазон количества: от 100
+        Цена: 2000 RUB
+        Группа: Все покупатели
+    *   Диапазон количества: от 1
+        Цена: 1500 RUB
+        Группа: Оптовые покупатели
+    *   Диапазон количества: от 1000
+        Цена: 1000 RUB
+        Группа: Оптовые покупатели
 
-*   *   Quantity range: from 1
-        Price: $50
-        Membership: All customers
-    *   Quantity range: from 10
-        Price: $45
-        Membership: All customers
-    *   Quantity range: from 100
-        Price: $40
-        Membership: All customers
-    *   Quantity range: from 1
-        Price: $45
-        Membership: Wholesaler
-    *   Quantity range: from 1000
-        Price: $35
-        Membership: Wholesaler
+## Настройка минимального количества продукта для групп покупателей
 
-## Setting up minimum purchase quantities per membership level
+Минимальное количество продукта для заказа настраивается в разделе **Контроль остатков** на странице продукта:
 
-If you want to set minimum product purchase quantities for specific membership levels in your store, you can do so via the Inventory tracking section of the chosen product's details:
-
-1.  Select the **Inventory tracking** tab.
+1.  Найдите продукт и перейдите на вкладку **Контроль остатков**
     ![]({{site.baseurl}}/attachments/6389808/8719233.png)
 
-2.  On the page that opens, use the **Minimum purchase quantity** section to specify a minimum purchase quantity for every membership level and for "all customers" (users without a membership):
+2. На вкладке **Контроль остатков** перейдите к разделу **Минимальное количество для покупки** и укажите минимальное количество продукта для каждой группы покупателей:
     ![]({{site.baseurl}}/attachments/6389808/8719234.png)
 
-3.  Click **Update** to save the changes.
+3.  Нажмите **Сохранить**.
 
-_Related pages:_
 
-*   {% link "Setting up sale and wholesale pricing in X-Cart 5" ref_g2dhS8uC %} (video)
