@@ -7,10 +7,19 @@ title: Новые поступления
 order: 80
 published: false
 ---
-The "New arrivals" feature in X-Cart 5 is available through the use of **Product Advisor** module by X-Cart team.  With this feature your store can showcase newly added products:
+Секция Новые поступления включается модулем **Product Advisor**, разработанным командой X-Cart. Покупатели видят новые продукты:
 
-*   in a separate block titled "New arrivals";
-*   on a separate page (`http://<your-domain>/<x-cart-5-directory>/?target=new_arrivals`) available by default through the "New arrivals" item in your store's Primary menu.
+*   В специальной секции **Новые поступления**;
+*   На отдельной странице, которая открывается по ссылке **Новинки** в главном меню.
+
+Расположение раздела **Новые поступления** изменяется с помощью визуального редактора.
+![01.jpg]({{site.baseurl}}/attachments/ref_0YIVUwEW/01.jpg)
+
+Выберите **Режим разметки**, активируйте **перемещение блоков** и перенесите секцию новинок на новую позицию на главной странице магазина или в боковую панель.
+![02.jpg]({{site.baseurl}}/attachments/ref_0YIVUwEW/02.jpg)
+
+Чтобы разместить новинки в боковой панели активируйте шаблон дизайна с двумя или тремя колонками.
+![03.jpg]({{site.baseurl}}/attachments/ref_0YIVUwEW/03.jpg)
 
 In addition to that, newly added products can be marked with "New!" labels in all product lists in the Customer front end.
 
@@ -52,4 +61,3 @@ To use the "New arrivals"  feature, make sure that the module **Product Adviso
     {% endnote %}
 
 3.  Once you are done configuring the settings, click the **Submit **button at the bottom of the page to save the changes.
-
