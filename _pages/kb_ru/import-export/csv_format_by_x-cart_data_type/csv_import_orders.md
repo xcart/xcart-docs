@@ -154,41 +154,41 @@ published: true
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd">Поля покупаемых продуктов. Каждое поле содержит несколько строк, и каждая строка представляет отдельный продукт.</td>
+      <td colspan="3" class="confluenceTd">Поля покупаемых товаров. Каждое поле содержит несколько строк, и каждая строка представляет отдельный товар.</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemName*</strong></td>
-      <td colspan="1" class="confluenceTd">Название покупаемого продукта.</td>
+      <td colspan="1" class="confluenceTd">Название покупаемого товара.</td>
       <td colspan="1" class="confluenceTd">Текст,<br>несколько строк</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemSKU*</strong></td>
-      <td colspan="1" class="confluenceTd">Артикул покупаемого продукта.</td>
+      <td colspan="1" class="confluenceTd">Артикул покупаемого товара.</td>
       <td colspan="1" class="confluenceTd">Текст,<br>несколько строк,<br>Максимум 32 знака</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">itemAttributes</td>
-      <td colspan="1" class="confluenceTd">Атрибуты покупаемого продукта.</td>
+      <td colspan="1" class="confluenceTd">Атрибуты покупаемого товара.</td>
       <td colspan="1" class="confluenceTd">Несколько значений,<br>несколько строк</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemPrice*</strong></td>
-      <td colspan="1" class="confluenceTd">Розничная цена продукта.</td>
+      <td colspan="1" class="confluenceTd">Розничная цена товара.</td>
       <td colspan="1" class="confluenceTd">Число с плавающей запятой,<br>несколько строк</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemQuantity*</strong></td>
-      <td colspan="1" class="confluenceTd">Количество продукта в заказе.</td>
+      <td colspan="1" class="confluenceTd">Количество товара в заказе.</td>
       <td colspan="1" class="confluenceTd">Целое чсло,<br>несколько строк</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemSubtotal*</strong></td>
-      <td colspan="1" class="confluenceTd">Промежуточная стоимость продукта (без учета наценок).</td>
+      <td colspan="1" class="confluenceTd">Промежуточная стоимость товара (без учета наценок).</td>
       <td colspan="1" class="confluenceTd">Число с плавающей запятой,<br>несколько строк</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemTotal*</strong></td>
-      <td colspan="1" class="confluenceTd">Полная стоимость продукта.</td>
+      <td colspan="1" class="confluenceTd">Полная стоимость товара.</td>
       <td colspan="1" class="confluenceTd">Число с плавающей запятой,<br>несколько строк</td>
     </tr>
     <tr>

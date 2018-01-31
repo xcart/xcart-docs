@@ -3,11 +3,11 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-11-16 14:42 +0400'
 identifier: ref_gc6c4yTb
-title: 'Импорт CSV: Значения атрибутов продуктов'
+title: 'Импорт CSV: Значения атрибутов товаров'
 order: 30
 published: true
 ---
-В таблице представлены поля и их содержание для импорта значений атрибутов продуктов:
+В таблице представлены поля и их содержание для импорта значений атрибутов товаров:
 
 <table class="ui celled padded compact small table">
   <thead>
@@ -25,7 +25,7 @@ published: true
     <tr>
       <td colspan="1" class="confluenceTd"><strong>productSKU*</strong>
       </td>
-      <td colspan="1" class="confluenceTd">Артикул продукта, к которому относится это значение атрибута. Служит частью уникального идентификатора.</td>
+      <td colspan="1" class="confluenceTd">Артикул товара, к которому относится это значение атрибута. Служит частью уникального идентификатора.</td>
       <td colspan="1" class="confluenceTd">
         <p>Текст,
           <br>Максимум 32 знака&nbsp;</p>
@@ -70,7 +70,7 @@ published: true
     <tr>
       <td colspan="1" class="confluenceTd">owner</td>
       <td colspan="1" class="confluenceTd">
-        <p>Yes, если значение атрибута относится к продукту, а не классу или глобальному атрибуту. Иначе - No.</p>
+        <p>Yes, если значение атрибута относится к товару, а не классу или глобальному атрибуту. Иначе - No.</p>
       </td>
       <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>
@@ -100,17 +100,17 @@ published: true
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">priceModifer</td>
-      <td colspan="1" class="confluenceTd">Модификатор цены продукта. Записывается со знаком + или -. Пример: +1,5</td>
+      <td colspan="1" class="confluenceTd">Модификатор цены товара. Записывается со знаком + или -. Пример: +1,5</td>
       <td colspan="1" class="confluenceTd">Число с плавающей запятой. Со знаком</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">weightModifier</td>
-      <td colspan="1" class="confluenceTd">Модификатор веса продукта. Записывается со знаком + или -. Пример: +1,5</td>
+      <td colspan="1" class="confluenceTd">Модификатор веса товара. Записывается со знаком + или -. Пример: +1,5</td>
       <td colspan="1" class="confluenceTd">Число с плавающей запятой. Со знаком</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">editable</td>
-      <td colspan="1" class="confluenceTd">Применяется, только для типа Текст. Означает, что покупатель может редактировать это значение на странице продукта.</td>
+      <td colspan="1" class="confluenceTd">Применяется, только для типа Текст. Означает, что покупатель может редактировать это значение на странице товара.</td>
       <td colspan="1" class="confluenceTd">Текст</td>
     </tr>
   </tbody>
