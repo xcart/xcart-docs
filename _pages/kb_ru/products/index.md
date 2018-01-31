@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-11-21 13:16 +0400'
 identifier: ref_TgqWAeT7
-title: товары
+title: Товары
 description: 'Заполнение каталога товарами, настройка промо-акций'
 order: 40
 published: true
