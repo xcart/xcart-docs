@@ -23,6 +23,10 @@ To start using the module "Value Added Tax / Goods and Services Tax", ensure tha
 
 This article explains how to set up and enable VAT / GST calculation using the module "Value Added Tax / Goods and Services Tax" for X-Cart 5. 
 
+*  {% link "Configuring VAT / GST" ref_Rzp45QlN#configuring-vat--gst %}
+*  {% link "Setting up your VAT / GST tax rates" ref_Rzp45QlN#setting-up-your-vat--gst-tax-rates %}
+*  {% link "Enabling/Disabling VAT / GST calculation" ref_Rzp45QlN#enablingdisabling-vat--gst-calculation %}
+
 A video tutorial is also available:
 
 *   {% link "Video: Setting up VAT with the module "EU and UK VAT / GST" ref_wcorpZyz %}
