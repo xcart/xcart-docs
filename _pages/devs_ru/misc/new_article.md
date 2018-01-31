@@ -7,6 +7,6 @@ title: ''
 order: 100
 published: false
 ---
-## A New Post
+## A New Postwavra
 awrvawrv
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** bu arvarwvtton for formatting help.
