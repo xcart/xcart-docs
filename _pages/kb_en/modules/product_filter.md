@@ -20,11 +20,11 @@ The module settings are as follows:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_6e82A7rL/settings.png)
 
-* _Enable "In stock only" filter_ - if enabled the filter will show only the products that are in stock at the moment of search
+* _Enable "In stock only" filter_ - if enabled the 'In stock' option will be added to the filter 
 
 * _Enable "Price range" filter_ - if enabled the filter will allow choosing the search price range
 
-* _Enable "Attributes" filter_ - if enabled the filter will display the choice of attributes available for a categoty or for a particular product class
+* _Enable "Attributes" filter_ - if enabled the filter will display the choice of attributes available for the products 
 
 {% note info %}
 To be able to use the "Attributes" filter you should have attributes set up in your cart. For more info on the attributes configuration please refer to {% link "Product classes and attributes" ref_T90ZcEpP %}. 
