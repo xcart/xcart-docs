@@ -25,12 +25,12 @@ This article explains how to set up Paypal Express Checkout in X-Cart.
 
 ## Setting up Express Checkout with email
 
-The basic setup of Paypal Express Checkout requires you to specify your email only. You should input it into the field shown below:
+The basic setup of Paypal Express Checkout requires you to specify your email only:
 
-![]({{site.baseurl}}/attachments/7505722/7602853.png)
+![xc5_pp_express_email.png]({{site.baseurl}}/attachments/ref_vHffMFLk/xc5_pp_express_email.png)
 
-*   If you already have a Paypal account, then you should input the email you created your Paypal account with.
-*   If you do not yet have a Paypal account, then you can input the email you are going to create your Paypal account with and create the account itself later on.
+*   If you already have a Paypal account, then you should specify the email you created your Paypal account with.
+*   If you do not yet have a Paypal account, then you can specify the email you are going to create your Paypal account with and create the account itself later on.
 
 ## Enabling the Secure Token setting
 
