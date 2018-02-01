@@ -47,7 +47,7 @@ Click **Update** to save the changes.
 
 ## Adding a subcategory
 
-To add a subcategory you should do almost all the same as to add a category, as a subcategory is a category in fact but of a lower level. So go to the Subcategories tab on the category details page, click the New Category button and follow the procedure described above. 
+To add a subcategory you should do almost all the same as to add a category, as a subcategory is a category in fact but of a lower level. So go to the Subcategories tab on the category details page, click the New Category button and follow the procedure described [above](https://kb.x-cart.com/products/categories.html#adding-a-new-category "Product Categories"). 
 
 ![subcategory.png]({{site.baseurl}}/attachments/ref_6rpDdput/subcategory.png)
 
@@ -82,14 +82,14 @@ Also the '{_category_name_}' shortcut value will lead to the category page.
 
 Make sure the category menus are enabled and go in a proper order. Turn all unnecessary menus off to make the menu bar more attractive.
 
-   2. Add a submenu if necessary
+    2. Add a submenu if necessary
 
 ![submenu.png]({{site.baseurl}}/attachments/ref_6rpDdput/submenu.png)
 
-   3. Change the home page and default page layout on the _Layout_ page (**Look & feel** > **Layout**)in the store back-end.
+    3. Change the home page and default page layout on the _Layout_ page (**Look & feel** > **Layout**)in the store back-end.
 
 ![layout.png]({{site.baseurl}}/attachments/ref_6rpDdput/layout.png)
 
-   4. Check your new site layout.
+     4. Check your new site layout.
 
 ![home_1.png]({{site.baseurl}}/attachments/ref_6rpDdput/home_1.png)
