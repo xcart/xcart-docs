@@ -33,7 +33,9 @@ The structure of these two templates are the same, but they are put into two dif
 
 `order/invoice/body.twig` template is very basic and it just displays the content of `invoice.base` view list. This view list includes the `order/invoice/parts/items/items.twig` template that defines the entire product table and other templates inside the `order/invoice/parts` folder.
 
-{% note %}The structure of templates in this view list can be seen via [Template editor](https://devs.x-cart.com/getting_started/how-to-apply-design-changes.html#seeing-structure-of-specific-page "Adding product images to order notifications").{% endnote %}
+{% note info %}
+The structure of templates in this view list can be seen via [Template editor](https://devs.x-cart.com/getting_started/how-to-apply-design-changes.html#seeing-structure-of-specific-page "Adding product images to order notifications").
+{% endnote %}
 
 Here is a code of the `order/invoice/parts/items/items.twig` template: 
 
