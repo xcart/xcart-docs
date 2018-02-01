@@ -71,25 +71,25 @@ It's possible to change the categories block location using the [webmaster mode]
 
 To do so you should:
 
-    1. Add your categories as menus on the Menus page (**Content** > **Menus**) in the store back-end as described in {% link "Adding new items to your store&amp;#39;s menus" ref_BDykFBbw %}.
+1. Add your categories as menus on the Menus page (**Content** > **Menus**) in the store back-end as described in {% link "Adding new items to your store&amp;#39;s menus" ref_BDykFBbw %}.
 
-![menus.png]({{site.baseurl}}/attachments/ref_6rpDdput/menus.png)
+   ![menus.png]({{site.baseurl}}/attachments/ref_6rpDdput/menus.png)
 
-{% note info %}
-If you want to add a link to a page within your store (e.g. the category page), you can specify it as ?target=category&category_id=4 (relative path) or as http://www.your_store_url.com/cart.php?target=category&category_id=4 (absolute path).
-Also the '{_category_name_}' shortcut value will lead to the category page.
-{% endnote %}
+   {% note info %}
+   If you want to add a link to a page within your store (e.g. the category page), you can specify it as ?target=category&category_id=4 (relative path) or as http://www.your_store_url.com/cart.php?target=category&category_id=4 (absolute path).
+   Also the '{_category_name_}' shortcut value will lead to the category page.
+   {% endnote %}
 
-Make sure the category menus are enabled and go in a proper order. Turn all unnecessary menus off to make the menu bar more attractive.
+   Make sure the category menus are enabled and go in a proper order. Turn all unnecessary menus off to make the menu bar more attractive.
 
-    2. Add a submenu if necessary
+2. Add a submenu if necessary
 
-![submenu.png]({{site.baseurl}}/attachments/ref_6rpDdput/submenu.png)
+   ![submenu.png]({{site.baseurl}}/attachments/ref_6rpDdput/submenu.png)
 
-    3. Change the home page and default page layout on the _Layout_ page (**Look & feel** > **Layout**)in the store back-end.
+3. Change the home page and default page layout on the _Layout_ page (**Look & feel** > **Layout**)in the store back-end.
 
-![layout.png]({{site.baseurl}}/attachments/ref_6rpDdput/layout.png)
+   ![layout.png]({{site.baseurl}}/attachments/ref_6rpDdput/layout.png)
 
-     4. Check your new site layout.
+4. Check your new site layout.
 
-![home_1.png]({{site.baseurl}}/attachments/ref_6rpDdput/home_1.png)
+   ![home_1.png]({{site.baseurl}}/attachments/ref_6rpDdput/home_1.png)
