@@ -218,6 +218,7 @@ VAT rate for [zone without VAT] = 0%
 VAT rate for [zone that must use VAT] = 20%
 VAT rate for [zone without VAT] = 0%
 
+
 _Related pages:_
 
 *   {% link "Setting up tax classes" ref_pAWOdG8N %}
