@@ -1,19 +1,21 @@
 ---
-identifier: ref_uymkBt6a
-updated_at: 2015-12-21 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Products'
+layout: article_with_sidebar
+updated_at: '2015-12-21 00:00'
+identifier: ref_uymkBt6a
+title: Products
 categories:
   - home
 order: 30
 icon: cube
 description: Fill your catalog with detailed product pages and various promotional blocks
+published: true
 ---
 
 
 _In this section:_
 
+*   {% link "Product Categories" ref_6rpDdput %}
 *   {% link "Adding products" ref_fhzzxDTy %}
 *   {% link "Adding featured products" ref_4iFdpTdv %}
 *   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
