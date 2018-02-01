@@ -1,12 +1,13 @@
 ---
 title: Adding product images to order notifications
 identifier: ref_Qn8aa4z4
-updated_at: 2015-01-21 00:00
+updated_at: '2015-01-21 00:00'
 layout: article_with_sidebar
 lang: en
 categories:
-- Developer docs
-- Demo module
+  - Developer docs
+  - Demo module
+published: true
 ---
 
 ## Introduction
@@ -17,39 +18,39 @@ This guide explains how you can add product images to order notifications. It al
 
 *   [Introduction](#introduction)
 *   [Table of Contents](#table-of-contents)
-*   [How it is going to work](#how-it-is-going-to-work)
+*   [Structure of invoice page](#structure-of-invoice-page)
 *   [Implementation](#implementation)
 *   [Module pack](#module-pack)
 
-## How it is going to work
+## Structure of invoice page
 
-Before we get started we have to understand what templates {% link "render an invoice page" ref_E88KCMDD %}. The responsible {% link "viewer class" ref_6dMJsZ63 %} for invoice display is `\XLite\View\Invoice` ({% link "more info about classnames in X-Cart" ref_FAgFbEx9 %}) and as we can see in its code, it starts rendering the invoice from the `order/invoice/body.tpl` template (see `getDefaultTemplate()` method of the class) depending on the area:
+Before we get started we have to understand what templates {% link "render an invoice page" ref_E88KCMDD %}. The responsible {% link "viewer class" ref_6dMJsZ63 %} for invoice display is `\XLite\View\Invoice` ({% link "more info about classnames in X-Cart" ref_FAgFbEx9 %}) and as we can see in its code, it starts rendering the invoice from the `order/invoice/body.twig` template (see `getDefaultTemplate()` method of the class). Depending on the area, this template can be different:
 
-*   **Customer area**: if you are on the **Thank you** page after successful checkout, then the invoice will be displayed by the `<X-Cart>/skins/<u>default</u>/en/**order/invoice/body.tpl**` template;
-*   **Admin area**: if you are viewing an invoice in **Invoice** section of the order details page, then the invoice will be displayed by the `<X-Cart>/skins/<u>admin</u>/en/**order/invoice/body.tpl**` template;
-*   **Mail**: the invoice sent via email is defined by the `<X-Cart>/skins/<u>mail</u>/en/**order/invoice/body.tpl**` template.
+*   **Customer area**: if you are on the **Thank you** page after successful checkout, then the invoice will be displayed by the skins/_customer_/**order/invoice/body.twig** template;
+*   **Admin area and Email notificaitons**: if you are viewing an invoice in **Invoice** section of the order details page or invoice is sent by email, then this page will be displayed by the skins/_common_/**order/invoice/body.twig** template.
 
-The structure of these three templates are the same, but they are put into three different directories, because an invoice must be displayed in three different interfaces: **admin**, **customer** and **mail**. 
+The structure of these two templates are the same, but they are put into two different directories in order to allow quick ability to alter only version used in customer store-front. 
 
-`order/invoice/body.tpl` template is very basic and it just displays content of `invoice.base` view list. This view list includes the `order/invoice/parts/items/items.tpl` template that defines the entire product table.
+`order/invoice/body.twig` template is very basic and it just displays the content of `invoice.base` view list. This view list includes the `order/invoice/parts/items/items.twig` template that defines the entire product table and other templates inside the `order/invoice/parts` folder.
 
-_Note: the structure of templates in this view list can be seen via Webmaster Kit module._
+{% note %}The structure of templates in this view list can be seen via [Template editor](https://devs.x-cart.com/getting_started/how-to-apply-design-changes.html#seeing-structure-of-specific-page "Adding product images to order notifications").{% endnote %}
 
-Here is a code of the `order/invoice/parts/items/items.tpl` template: 
+Here is a code of the `order/invoice/parts/items/items.twig` template: 
 
-```php
-{* vim: set ts=2 sw=2 sts=2 et: *}
-
-{**
- * @ListChild (list="invoice.base", weight="30")
- *}
-
+```twig
+{##
+ # Invoice items
+ #
+ # @ListChild (list="invoice.base", weight="50")
+ #}
 <table cellspacing="0" class="items">
-  <tr><list name="invoice.items.head" /></tr>
-  {foreach:order.getItems(),index,item}
-  <tr><list name="invoice.item" item="{item}" /></tr>
-  {end:}
-  <tr FOREACH="getViewList(#invoice.items#),w">{w.display()}</tr>
+  <tr>{{ widget_list('invoice.items.head') }}</tr>
+  {% for index, item in this.getOrderItems() %}
+  <tr>{{ widget_list('invoice.item', item=item) }}</tr>
+  {% endfor %}
+  {% for w in this.getViewList('invoice.items') %}
+    <tr>{{ w.display() }}</tr>
+  {% endfor %}
 </table>
 ```
 
@@ -57,90 +58,98 @@ If we want to add a new element into header of this table, then we must put our 
 
 ## Implementation
 
-We start with creating an empty module with module ID **Tony** and developer ID **InvoiceChangeDemo**.
+We start with {% link "Creating module" ref_G2mlgckf %} with module ID **XCExample** and developer ID **InvoiceChangeDemo**.
 
-As a first step, we are going to add product images to invoices in admin area. This way we will understand the approach and then we will be able to easily re-apply changes to other X-Cart view interfaces: customer and mail.
+We create the `skins/common/modules/XCExample/InvoiceChangeDemo/invoice/parts/` folder with two files in it.
 
-We create the `<X-Cart>/skins/admin/en/modules/Tony/InvoiceChangeDemo/invoice-parts` folder with two files in it.
+1. `head.twig` template with the following content: 
 
-1.  `head.tpl` template with the following content: 
+    ```twig
+	{##
+	 # @ListChild (list="invoice.items.head", weight="5")
+	 #}
 
-    ```php
-    {* vim: set ts=2 sw=2 sts=2 et: *}
-
-    {**
-     * @ListChild (list="invoice.items.head", weight="5")
-     *}
-    <th class="item">Image</th>
+	<th class="item">Image</th>
     ```
 
-    This code inserts an **Image** cell into product table on invoice page and since its weight is **5**, this cell will be displayed at beginning of the header row.
+    This code inserts an **Image** cell into header of product table and since its weight is **5**, this cell will be displayed at beginning of the header row.
 
-2.  `image.tpl` template with the following content: 
+2. `image.twig` template with the following content: 
 
-    ```php
-    {* vim: set ts=2 sw=2 sts=2 et: *}
+    ```twig
+	{##
+	 # @ListChild (list="invoice.item", weight="5")
+	 #}
 
-    {**
-     * @ListChild (list="invoice.item", weight="5")
-     *}
-
-    <td class="item"><widget class="\XLite\View\Image" image="{item.getImage()}" maxWidth="80" maxHeight="80" /></td>
+	<td class="item">
+	{{ widget('XLite\\View\\Image', image=item.getImage(), maxWidth=80, maxHeight=80 }}
+	</td>
     ```
 
-    This code inserts an image wrapped into `<td></td>` element. This image is inserted via `\XLite\View\Image` widget as this widget performs {% link "on-fly resizing routine" ref_5XhuExQ3 %} according to `maxWidth` and `maxHeight` params. Again, since we insert this template with weight as **5**, it will be displayed at beginning of table's row.
+	This code inserts an image wrapped into `<td></td>` element. This image is inserted via `\XLite\View\Image` widget as this widget performs {% link "on-fly resizing routine" ref_5XhuExQ3 %} according to `maxWidth` and `maxHeight` params. Again, since we insert this template with weight **5**, it will be displayed at beginning of table's row.
 
-Now we can re-deploy the store and check preliminary results in admin area. A new **Invoice** section should look as follows: ![]({{site.baseurl}}/attachments/8225446/8356205.png)
+If we re-deploy the store (in order to allow X-Cart assign templates into view list) and place a test order, the Thank You page will look as follows:
+![]({{site.baseurl}}/attachments/8225446/8356205.png)
 
-but your product tables in customer area and in mail notifications are still old.
+The invoice section of order page in admin area will look the same, but email notifications will not display product images, at least in GMail. X-Cart has built-in mechanism of attaching images to emails, but to run it, an image must be specified with relative URL (e.g. `images/product/my-image.png`), not with full URL (e.g. `http://example.com/xcart/images/product/my-image.png`).
 
-In order to apply this change to invoices in customer area, just copy the content of the `<X-Cart>/skins/admin/en/modules/Tony/InvoiceChangeDemo/` folder to 
-`<X-Cart>/skins/default/en/modules/Tony/InvoiceChangeDemo/` directory. Templates in it will be picked up by view lists automatically.
+So, we are going to define special versions of `head.twig` and `image.twig` templates for email notifications. 
 
-In order to apply this change to invoices sent via email, create a `<X-Cart>/skins/mail/en/modules/Tony/InvoiceChangeDemo/invoice-parts/` directory with two files in it:
+First step is just to copy folder `skins/common/modules/Tony/InvoiceChangeDemo/` to `skins/mail/common/modules/Tony/InvoiceChangeDemo/` one. Then we define content of `skins/mail/common/modules/Tony/InvoiceChangeDemo/invoice/parts/head.twig` as follows:
 
-1.  `head.tpl` template with the following content: 
+```twig
+{##
+ # @ListChild (list="invoice.items.head", weight="5")
+ #}
 
-    ```php
-    {* vim: set ts=2 sw=2 sts=2 et: *}
+<th style="border-width:1px;border-collapse: collapse;border-spacing: 0px;border-style: solid;border-color: #c4c4c4;text-align: left;background: #f9f9f9 none;font-weight: normal;padding: 12px 22px;white-space: nowrap;color: #000000;font-size: 16px;">Image-mail</th>
+```
 
-    {**
-     * @ListChild (list="invoice.items.head", weight="5")
-     *}
+We define inline CSS styles in order to allow GMail to accept them.
 
-    <th style="border-width:1px;border-collapse: collapse;border-spacing: 0px;border-style: solid;border-color: #c4c4c4;text-align: left;background: #f9f9f9 none;font-weight: normal;padding: 12px 22px;white-space: nowrap;color: #000000;font-size: 16px;">Image</th>
-    ```
+We also define content of `skins/mail/common/modules/Tony/InvoiceChangeDemo/invoice/parts/image.twig` template as follows:
 
-    The idea behind this template is the same as `head.tpl` template explained above, but we apply inline styles, because **GMail** does not support external CSS files.
+```twig
+{##
+ # @ListChild (list="invoice.item", weight="5")
+ #}
 
-2.  `image.tpl` template with the following content: 
+<td style="text-align: center;vertical-align: top;border-width:1px;border-collapse: collapse;border-spacing: 0px;border-style: solid;border-color: #c4c4c4;padding: 10px 20px;vertical-align: top;">
+<img src="{{ this.item.getImage().getRelativePath() }}" width="80" height="80" />
+</td>
+```
 
-    ```php
-    {* vim: set ts=2 sw=2 sts=2 et: *}
+We define inline CSS styles here as well, but we also pull image's path by using `getRelativePath()` method which does not exist in default X-Cart. We have to define this method ourselves. For that we {% link "decorate" ref_AF6bmvL6 %} `\XLite\Model\Image\Product\Image` class.
 
-    {**
-     * @ListChild (list="invoice.item", weight="5")
-     *}
+Create the `XLite\Module\XCExample\InvoiceChangeDemo\Model\Image\Product\Image` class with the following content:
 
-    <td style="text-align: center;vertical-align: top;border-width:1px;border-collapse: collapse;border-spacing: 0px;border-style: solid;border-color: #c4c4c4;padding: 10px 20px;vertical-align: top;"><img src="{item.getImageURL()}" width="80" height="80" /></td>
-    ```
+```php
+<?php
+// vim: set ts=4 sw=4 sts=4 et:
 
-    The idea is the same, but we also apply inline CSS styles and the code for image display is a bit different: 
+namespace XLite\Module\XCExample\InvoiceChangeDemo\Model\Image\Product;
 
-    ```php
-    <img src="{item.getImageURL()}" width="80" height="80" />
-    ```
+/**
+ * Product image
+ */
+abstract class Image extends \XLite\Model\Image\Product\Image implements \XLite\Base\IDecorator
+{
+	public function getRelativePath()
+	{
+		return  LC_IMAGES_URL . '/' . $this->getRepository()->getStorageName() . '/' . 
+				rawurlencode($this->getPath());
+	}
+}
+```
 
-    We have to specify full image URL here, because otherwise the mailer installed on your server will not be able to pick up an image during email sending.
-
-The mod is ready now. You need to re-deploy the store and check the results in customer area:
+The module is ready now. You need to re-deploy the store and check the results in customer area:
 ![]({{site.baseurl}}/attachments/8225446/8356206.png)
 
 and in your mailbox.
 
 ## Module pack
 
-You can download this module example from here: [https://dl.dropboxusercontent.com/u/23858825/Tony-InvoiceChangeDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-InvoiceChangeDemo-v5_1_0.tar)
+You can download this module example from here: <https://www.dropbox.com/s/xp0pyjj0mspujs1/XCExample-InvoiceChangeDemo-v5_3_0.tar>
 
 ## Attachments:
 
