@@ -26,6 +26,7 @@ This article explains how to set up and enable VAT / GST calculation using the m
 *  {% link "Configuring VAT / GST" ref_Rzp45QlN#configuring-vat--gst %}
 *  {% link "Setting up your VAT / GST tax rates" ref_Rzp45QlN#setting-up-your-vat--gst-tax-rates %}
 *  {% link "Enabling/Disabling VAT / GST calculation" ref_Rzp45QlN#enablingdisabling-vat--gst-calculation %}
+*  {% link "Some examples of VAT setup" ref_Rzp45QlN#some-examples-of-vat-setup %}
 
 A video tutorial is also available:
 
@@ -130,10 +131,10 @@ When VAT / GST calculation is enabled, the button shows as **Tax enabled**, and 
 
 Let us consider a few typical cases of tax setup that can be implemented using the module VAT / GST:
 
-I. Set VAT-inclusive prices for the country where you do business
-II. Set prices and VAT for different countries in Europe (VAT included)
-III. Set prices without VAT and configure taxes in such a way that VAT would be applied for specific zones
-IV. Set up prices and VAT in such a way that the prices in the Admin area would not include VAT, the prices in the Customer area would be shown without VAT (with the "excluding VAT" label shown next to them), but VAT would be added at checkout.
+*  {% link "I. Set VAT-inclusive prices for the country where you do business" ref_Rzp45QlN#i-set-vat-inclusive-prices-for-the-country-where-you-do-business %}
+*  {% link "II. Set prices and VAT for different countries in Europe (VAT included)" ref_Rzp45QlN#ii-set-prices-and-vat-for-different-countries-in-europe-vat-included %}
+*  {% link "III. Set prices without VAT and configure taxes in such a way that VAT would be applied for specific zones" ref_Rzp45QlN#iii-set-prices-without-vat-and-configure-taxes-in-such-a-way-that-vat-would-be-applied-for-specific-zones %}
+*  {% link "IV. Set up prices and VAT in such a way that the prices in the Admin area would not include VAT, the prices in the Customer area would be shown without VAT (with the "excluding VAT" label shown next to them), but VAT would be added at checkout." ref_Rzp45QlN#iv-set-up-prices-and-vat-in-such-a-way-that-the-prices-in-the-admin-area-would-not-include-vat-the-prices-in-the-customer-area-would-be-shown-without-vat-with-the-excluding-vat-label-shown-next-to-them-but-vat-would-be-added-at-checkout %}
 
 
 ### I. Set VAT-inclusive prices for the country where you do business
@@ -148,13 +149,13 @@ To set up VAT-inclusive prices for sales in Germany, follow these steps:
  
 3. Go to Store setup > Taxes and set up VAT adjusting the tax settings as follows:
 
-* *The VAT / GST inclusive prices as defined in the product details are intended for*: Specify the zone you created for Germany. This is to say that the product prices entered in the store back end are true for Germany.
+   * *The VAT / GST inclusive prices as defined in the product details are intended for*: Specify the zone you created for Germany. This is to say that the product prices entered in the store back end are true for Germany.
+   
+   * Enable the option *Display prices in catalog including VAT / GST*.
+   
+   * Adjust the setting *Display 'inc/ex VAT' labels next to prices* according to your needs. If you want the label "including VAT" to be displayed, select "On all catalog pages" or "On product details pages only". If you do not want to use the label, set this to "Never" (In this case you will have to inform your customers that the prices on your site are VAT-inclusive in some other way).
 
-* Enable the option *Display prices in catalog including VAT / GST*.
-
-* Adjust the setting *Display 'inc/ex VAT' labels next to prices* according to your needs. If you want the label "including VAT" to be displayed, select "On all catalog pages" or "On product details pages only". If you do not want to use the label, set this to "Never" (In this case you will have to inform your customers that the prices on your site are VAT-inclusive in some other way).
-
-5. Set the VAT rate for Germany to 19%
+4. Set the VAT rate for Germany to 19%
 
 ### II. Set prices and VAT for different countries in Europe (VAT included)
 
@@ -166,11 +167,11 @@ For example, your business is based in Germany, and you sell products to buyers 
  
 3. Go to Store setup > Taxes and set up VAT adjusting the tax settings as follows:
 
-* *The VAT / GST inclusive prices as defined in the product details are intended for*: Specify the zone you created for Germany. This is to say that the product prices entered in the store back end are true for Germany.
+   * *The VAT / GST inclusive prices as defined in the product details are intended for*: Specify the zone you created for Germany. This is to say that the product prices entered in the store back end are true for Germany.
 
-* Enable the option *Display prices in catalog including VAT / GST*.
+   * Enable the option *Display prices in catalog including VAT / GST*.
 
-* Adjust the setting *Display 'inc/ex VAT' labels next to prices* according to your needs.
+   * Adjust the setting *Display 'inc/ex VAT' labels next to prices* according to your needs.
 
 4. Configure the VAT rates you require for each of the zones. For example, VAT rate for Germany = 19%, VAT rate for Spain = 21%, etc. (Please note that the VAT rates specified here are used for example only; be sure to always get the correct rates for all the countries with which you do business from authorized institutions.)
 Russia is not part of EU, which means you must not charge European VAT on sales to Russia. To enable Russian buyers to see the correct product prices not including VAT, set the VAT rate for Russia as 0%.
@@ -189,11 +190,11 @@ In this case, we want to be able to set product prices without VAT, but still wa
  
 3. Go to Store setup > Taxes and set up VAT adjusting the tax settings as follows:
 
-* *The VAT / GST inclusive prices as defined in the product details are intended for*: Specify the zone you created for the country or countries with no VAT.
+   * *The VAT / GST inclusive prices as defined in the product details are intended for*: Specify the zone you created for the country or countries with no VAT.
 
-* Enable the option *Display prices in catalog including VAT / GST*.
+   * Enable the option *Display prices in catalog including VAT / GST*.
 
-* Adjust the setting *Display 'inc/ex VAT' labels next to prices* according to your needs. If you want the label "including VAT" to be displayed, select "On all catalog pages" or "On product details pages only". If you do not want to use the label, set this to "Never" (In this case you will have to inform your customers that the prices on your site are VAT-inclusive in some other way).
+   * Adjust the setting *Display 'inc/ex VAT' labels next to prices* according to your needs. If you want the label "including VAT" to be displayed, select "On all catalog pages" or "On product details pages only". If you do not want to use the label, set this to "Never" (In this case you will have to inform your customers that the prices on your site are VAT-inclusive in some other way).
 
 4. Configure the VAT rates you require for each of the zones. For example:
 VAT rate for [zone that must use VAT] = 20%
@@ -207,11 +208,11 @@ VAT rate for [zone without VAT] = 0%
  
 3. Go to Store setup > Taxes and set up VAT adjusting the tax settings as follows:
 
-* *The VAT / GST inclusive prices as defined in the product details are intended for*: Specify the zone you created for the country or countries with no VAT.
+   * *The VAT / GST inclusive prices as defined in the product details are intended for*: Specify the zone you created for the country or countries with no VAT.
 
-* Disable the option *Display prices in catalog including VAT / GST*.
+   * Disable the option *Display prices in catalog including VAT / GST*.
 
-* Set *Display 'inc/ex VAT' labels next to prices* to ether "On all catalog pages" or "On product details pages only". (Remember, we want the "excluding VAT" label).
+   * Set *Display 'inc/ex VAT' labels next to prices* to ether "On all catalog pages" or "On product details pages only". (Remember, we want the "excluding VAT" label).
 
 4. Configure the VAT rates you require for each of the zones. For example:
 VAT rate for [zone that must use VAT] = 20%
