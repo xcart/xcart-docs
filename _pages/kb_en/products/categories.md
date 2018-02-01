@@ -9,7 +9,7 @@ published: true
 ---
 It's not a secret that to improve customer experience and to make the site navigation easier it's better to organize products into categories. This section provides information on how to add categories to your store manually. Please note that you can also add categories via {% link "import" ref_VXdfNsVw %}. 
 
-{% toc content %}
+{% toc In this article: %}
 
 ## Adding a new category
 
