@@ -7,13 +7,13 @@ title: Незавершённые заказы
 order: 30
 published: false
 ---
-When a buyer completes a payment process with a payment gateway and clicks _**Place Order**_  his cart in X-Cart front-end is cleared and the admin back-end registers an order for this buyer being an exact copy of the cart at the moment of payment.  Sometimes it can be that a buyer proceeds to paying a cart but doesn't complete it due to many reasons (a customer changes his mind, something distracts a customer from the payment, a computer crash, etc.). In this case the cart admin back-end doesn't register an order and if a merchant wants to have such not finished purchases registered it's necessary to use the **Not Finished Orders module** in X-Cart. This module is included in the Business edition and higher and can be {% link "enabled" ref_0fGEpvrh %} in the _**My Addons**_ section of the cart admin back-end.
+Когда покупатель завершает оплату покупки, его корзина в магазине обнуляется, и в интерфейсе администратора создаётся заказ. В заказ входят все товары, которые находились в корзине покупателя в момент оплаты покупки. Но если покупатель положил товары в корзину, перешёл к оплате, но не совершил платёж, в интерфейсе администратора не формируется заказ. С помощью модуля **Not Finished Orders** администратор магазина получает возможность видеть незавершённые заказы. Модуль **Not Finished Ordrs** входит в _X-Cart Business, X-Cart Multivendor_ и  _X-Cart Ultimate_, и {% link "включается" ref_IEo2gFuZ %} на странице **Мои модули**.
 
 {% note info %}
-The **Not Finished Orders** module works with the orders created with online payment processors. For the offline payment methods an order is created at the moment a buyer clicks the **Place order** button in the X-Cart front-end and an order gets an "Awaiting payment" status by default. 
+Модуль **Not Finished Orders** работает только с заказами, оплачиваемыми онлайн через платёжные системы. В случае оффлайн способов оплаты, заказ создаётся в тот момент, когда покупатель нажимает кнопку **Разместить заказ**. В интерфейсе администратора появляется заказ в статусе **Ожидается оплата**. 
 {% endnote %}
 
-To set up the **Not Finished Orders** module use the _Settings_ link.
+Найдите **Not Finished Orders** в списке установленных модулей на странице **Мои модули** и нажмите **Настройки**.
 
 ![payment-transactions.png]({{site.baseurl}}/attachments/ref_5TMbPwNQ/payment-transactions.png)
 
