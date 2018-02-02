@@ -13,3 +13,4 @@ categories:
 ---
 *   {% link "Статусы заказов в X-Cart" ref_orderstatus %}
 *   {% link "Управление статусами заказов" ref_statuses %}
+*   {% link "Незавершённые заказы" ref_6K7lCFaI %}
