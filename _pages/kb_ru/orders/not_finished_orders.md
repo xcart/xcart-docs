@@ -24,16 +24,16 @@ published: false
 * _Очищать корзину при изменении заказа администратором_ -  Корзина покупателя обнуляется или сохраняет выбранные товары после изменения статуса заказа администратором.
 
 {% note info %}
-If this option is set to 'YES' a buyer's cart of a not finished order will be cleared as soon as the cart admin changes the order details, e.g. a payment status of a not finished order from "Status is not defined" to "Awaiting payment". By default the cart content is cleared only when an order is placed.  
+По умолчанию, корзина обнуляется только после оформления заказа. Если данная опция активирована (значение **Да**), товары будут удалены из корзины, как только администратор изменит данные о незавершённом заказе, например, поменяет статус с **Не определён** на **Ожидается оплата**.  
 {% endnote %}
 
-* _Limit lifetime of not finished order_ - If enabled, the cart admin will be able to define the the time to use the cart at its current state for future attempts in days. 
+* _Ограничить срок действия незавершенного заказа_ - Промежуток времени, в течение которого корзина покупателя сохраняет выбранные товары, и заказ может быть завершён. После активации опции появляется новое поле **Срок действия незавершенного заказа (в днях)**, и администратор устанавливает срок в днях. 
 
-Once enabled and set up, the cart admin will see the not finished orders in the **Orders** section of the admin back-end.
+После активации и настройки модуля, в разделе **Заказы** будут появляться незавершённые покупки.
 
 ![order.png]({{site.baseurl}}/attachments/ref_5TMbPwNQ/order.png)
 
-A not finished order won't have an order number and the payment status will be "Status is not defined". The order will get an orderID only when and if the cart admin changes the fulfilment status and payment status of the order.
+У незавершённых заказов нет номеров, а статус оплаты всегда не определён. Заказ приобретает идентификатор, только когда администратор изменяет статус доставки и статус оплаты заказа.
 
-The **Not Finished Orders** module is good for manual tracking of the purchases. If you want to automate the procedure use the {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %} module. It works with any abandoned cart regardless of the payment method.
+Модуль **Not Finished Orders** удобен для отслеживания заказов вручную. Если вы предпочитаете автоматизировать процесс, воспользуйтесь модулем {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}. Этот модуль работает со всеми незавершённым покупками независимо от способа оплаты.
 
