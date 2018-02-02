@@ -93,3 +93,7 @@ To do so you should:
 4. Check your new site layout.
 
    ![home_1.png]({{site.baseurl}}/attachments/ref_6rpDdput/home_1.png)
+   
+{% note info%}
+It's also possble to move the categories list to the horizontal bar using the [Horizontal Flyout Categories Menu](https://market.x-cart.com/addons/horizontal-flyout-categories-menu.html "Product Categories") module. It's easier in set-up.
+{% endnote %}
