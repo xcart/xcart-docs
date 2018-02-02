@@ -86,7 +86,7 @@ To do so you should:
 
    ![submenu.png]({{site.baseurl}}/attachments/ref_6rpDdput/submenu.png)
 
-3. Change the home page and default page layout on the _Layout_ page (**Look & feel** > **Layout**)in the store back-end.
+3. Change the home page and default page layout on the _Layout_ page (**Look & feel** > **Layout**) in the store back-end.
 
    ![layout.png]({{site.baseurl}}/attachments/ref_6rpDdput/layout.png)
 
