@@ -17,11 +17,11 @@ published: false
 
 ![payment-transactions.png]({{site.baseurl}}/attachments/ref_5TMbPwNQ/payment-transactions.png)
 
-The settings of the module are as follows:
+Настройте модуль:
 
-* _Not finished order will be created_  - in this drop-down the admin can choose the conditions that if met will result in a not finished order creation.
+* _Создавать незавершенный заказ_  - Администратор выбирает, при каких условиях создаётся незавершённый заказ.
 
-* _Clear cart if administrator changes order_ - YES/NO
+* _Очищать корзину при изменении заказа администратором_ -  Корзина покупателя обнуляется или сохраняет выбранные товары после изменения статуса заказа администратором.
 
 {% note info %}
 If this option is set to 'YES' a buyer's cart of a not finished order will be cleared as soon as the cart admin changes the order details, e.g. a payment status of a not finished order from "Status is not defined" to "Awaiting payment". By default the cart content is cleared only when an order is placed.  
