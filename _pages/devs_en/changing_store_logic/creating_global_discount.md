@@ -1,16 +1,15 @@
 ---
-title: Creating global discount
 lang: en
 layout: article_with_sidebar
-updated_at: 2017-03-13 13:33 +0400
+updated_at: '2017-03-13 13:33 +0400'
+title: Creating global discount
 identifier: ref_mFAMapCB
 categories:
-- Developer docs
-- Demo module
-- Outdated
+  - Developer docs
+  - Demo module
 order: 100
+published: true
 ---
-
 ## Introduction
 
 This article teaches X-Cart developers how they can create discounts via custom module. For the sake of example, we will show how to create a straight-forward **10% discount** to order subtotal.
@@ -25,20 +24,21 @@ This article teaches X-Cart developers how they can create discounts via custom 
 
 ## Video tutorial
 
+Video showing the process of creating the module for X-Cart 5.1.x:
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 600px" src="https://www.youtube.com/embed/OmskLxiaweM" frameborder="0"></iframe>
 
 ## Implementation
 
-As a first step, {% link "create an empty module" ref_G2mlgckf %}. We are creating the module with developer ID **Tony** and module ID **DiscountDemo**.
+We start with {% link "creating an empty module" ref_G2mlgckf %}. We create the module with developer ID **XCExample** and module ID **DiscountDemo**.
 
-You can create a discount in X-Cart by extending the `\XLite\Logic\Order\Modifier\Discount` class. The `\XLite\Logic\Order\Modifier` type of classes define different types of order surcharges, e.g. shipping, taxes, discounts, etc. We use one that is typical discount: `\XLite\Logic\Order\Modifier\Discount`.
+You can create a discount in X-Cart by extending the `\XLite\Logic\Order\Modifier\Discount` class. The `\XLite\Logic\Order\Modifier` type of class defines different types of order surcharges, e.g. shipping, taxes, discounts, etc. We use one that is typical discount: `\XLite\Logic\Order\Modifier\Discount`.
 
-We create the `<X-Cart>/classes/XLite/Module/Tony/DiscountDemo/Logic/Order/Modifier/Discount.php` file with the following content: 
+We create `classes/XLite/Module/XCExample/DiscountDemo/Logic/Order/Modifier/Discount.php` file with the following content: 
 
 ```php
 <?php
 
-namespace XLite\Module\Tony\DiscountDemo\Logic\Order\Modifier;
+namespace XLite\Module\XCExample\DiscountDemo\Logic\Order\Modifier;
 
 class Discount extends \XLite\Logic\Order\Modifier\Discount
 {
@@ -74,11 +74,11 @@ Let us have a closer look at this class' code.
 2.  `calculate()` method is the most important part of this class. It defines the routine of calculating discount and applying it to the order object. This method will be called in the `calculate()` method of the `\XLite\Model\Order` object in this `foreach()`: 
 
     ```php
-            foreach ($this->getModifiers() as $modifier) {
-                if ($modifier->canApply()) {
-                    $modifier->calculate();
-                }
+        foreach ($this->getModifiers() as $modifier) {
+            if ($modifier->canApply()) {
+                $modifier->calculate();
             }
+        }
     ```
 
 3.  _Note: our mod does not use it, but you can define `canApply()` method in your class in order to define whether this modifier must be applied or not._
@@ -104,11 +104,11 @@ Let us have a closer look at this class' code.
 
 That is it with discount class.
 
-Now we need to register this order modifier in X-Cart and for that purpose we create the `<X-Cart>/classes/XLite/Module/Tony/DiscountDemo/install.yaml` file with the following content: 
+Now we need to register this order modifier in X-Cart and for that purpose we create the `classes/XLite/Module/XCExample/DiscountDemo/install.yaml` file with the following content: 
 
 ```php
 XLite\Model\Order\Modifier:
-  - { class: '\XLite\Module\Tony\DiscountDemo\Logic\Order\Modifier\Discount', weight: 100 }
+  - { class: '\XLite\Module\XCExample\DiscountDemo\Logic\Order\Modifier\Discount', weight: 100 }
 ```
 
 This way we tell X-Cart that our class described above must be registered as order modifier with **weight 100**. The higher the weight, the later this order modifier will be run in `foreach()` of bullet-point 3.
@@ -119,7 +119,7 @@ Once our **install.yaml** file is ready, we need to {% link "push it to the data
 
 ## Module pack
 
-You can download this module's example from here: [https://dl.dropboxusercontent.com/u/23858825/Tony-DiscountDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-DiscountDemo-v5_1_0.tar)
+You can download this module's pack from here: <https://www.dropbox.com/s/y71rdbevguh93yx/XCExample-DiscountDemo-v5_3_0.tar>
 
 ## Attachments:
 
