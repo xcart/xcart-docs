@@ -71,7 +71,7 @@ It's possible to change the categories block location using the [webmaster mode]
 
 To do so you should:
 
-1. Add your categories as menus on the Menus page (**Content** > **Menus**) in the store back-end as described in {% link "Adding new items to your store&amp;#39;s menus" ref_BDykFBbw %}.
+1. Add your categories as menus on the Menus page (**Content** > **Menus**) in the store back-end as described in {% link "Adding new items to your store's menus" ref_BDykFBbw %}.
 
    ![menus.png]({{site.baseurl}}/attachments/ref_6rpDdput/menus.png)
 
