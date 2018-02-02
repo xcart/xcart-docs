@@ -37,9 +37,8 @@ For instance, we have some plates with kitty print that we want to sell at our s
 
 
 Second, we also have plates with blue and mint kitties that come in a dotted pattern:
-
-![]({{site.baseurl}}/attachments/7504786/7602416.png)
-![]({{site.baseurl}}/attachments/7504786/7602618.png)
+{:.ui.compact.celled.small.padded.table}
+|![]({{site.baseurl}}/attachments/7504786/7602416.png)|![]({{site.baseurl}}/attachments/7504786/7602618.png)|
 
 Note that we do not have plates with an orange dotted kitty:
 
