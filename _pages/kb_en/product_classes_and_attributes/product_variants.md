@@ -32,9 +32,9 @@ Let us use a simple example to show what product variants are and why you may ne
 
 For instance, we have some plates with kitty print that we want to sell at our store. The plates are exactly the same, but the kitty print comes in different colors and patterns. First, we have plates with blue, mint and orange kitties in solid color:
 
-![]({{site.baseurl}}/attachments/7504786/7602414.png)
-![]({{site.baseurl}}/attachments/7504786/7602617.png)
-![]({{site.baseurl}}/attachments/7504786/7602417.png)
+{:.ui.compact.celled.small.padded.table}
+| ![]({{site.baseurl}}/attachments/7504786/7602414.png) | ![]({{site.baseurl}}/attachments/7504786/7602617.png) |![]({{site.baseurl}}/attachments/7504786/7602417.png)|
+
 
 Second, we also have plates with blue and mint kitties that come in a dotted pattern:
 
