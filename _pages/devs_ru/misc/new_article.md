@@ -15,7 +15,7 @@ Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the 
 
 <table>
   <tr>
-    <td>![1.jpg]({{site.baseurl}}/attachments/1.jpg)</td>
-    <td>![1.jpg]({{site.baseurl}}/attachments/1.jpg)</td>
+    <td markdown="span">![1.jpg]({{site.baseurl}}/attachments/1.jpg)</td>
+    <td markdown="span">![1.jpg]({{site.baseurl}}/attachments/1.jpg)</td>
   </tr>
 </table>
