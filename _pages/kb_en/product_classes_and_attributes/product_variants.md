@@ -37,12 +37,13 @@ For instance, we have some plates with kitty print that we want to sell at our s
 
 
 Second, we also have plates with blue and mint kitties that come in a dotted pattern:
+
 {:.ui.compact.celled.small.padded.table}
-|![]({{site.baseurl}}/attachments/7504786/7602416.png)|![]({{site.baseurl}}/attachments/7504786/7602618.png)|
+|![]({{site.baseurl}}/attachments/7504786/7602416.png)|![]({{site.baseurl}}/attachments/7504786/7602618.png)|![]({{site.baseurl}}/attachments/7504786/7602628.png)|
 
-Note that we do not have plates with an orange dotted kitty:
-
-![]({{site.baseurl}}/attachments/7504786/7602628.png)
+{% note info%}
+We do not have plates with an orange dotted kitty.
+{% endnote %}
 
 We want the plates of each type to be sold separately, and we need to add them to our store's catalog in such a way that customers should be able to choose the color and pattern of the kitty on the plate. We want to set the price of solid color kitty plates at $12 per unit, and the price of dotted kitty plates at $12.50 per unit. 
 
