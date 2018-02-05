@@ -15,9 +15,9 @@ published: true
 
 В качестве примера, возьмем товар _Игрушка Мышь_. _Мышь_ представлена в нескольких цветах с украшением и без. Есть голубая, фиолетовая и желтая _Мышь_:
 
-![111.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/111.jpg)
-![22.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/22.jpg)
-![33.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/33.jpg)
+![111.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/111.jpg){:class="img-responsive"}
+![22.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/22.jpg){:class="img-responsive"}
+![33.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/33.jpg){:class="img-responsive"}
 
 Также, есть голубая _Мышь_ с воздушным шариком и желтая _Мышь_ с воздушным шариком:
 
