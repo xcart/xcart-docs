@@ -5,31 +5,30 @@ updated_at: '2018-02-05 09:25 +0400'
 identifier: ref_3dUIvN13
 title: Статусы платёжных операций в X-Cart
 order: 40
-published: false
+published: true
 ---
-Every order in your X-Cart store has a payment transaction status that provides information as to the current state of the payment in the cart processing workflow. 
+Каждому заказу в магазине присваивается статус платёжной операции для отслеживания стадии обработки заказа. 
 
 {% note info %}
-A payment transaction is not a bank transaction in its actual meaning. A payment transaction is created at a moment a customer intends to place an order using both offline and online payment methods. The difference is in the order. For offline payments an order is created when the _Place Order_ button is clicked, transaction getting a "Pending" status automatically. For online payments in case of a successfull payment X-Cart admin area registers an order with a "Success" payment transaction status. In case of a failed payment an order is not created, but a transaction is registered with a "Failed" status. A cart is not frozen at the moment of a failed payment and a customer can update it further. If you want a cart to be frozen at the moment of a failed transaction, please, use the {% link "Not Finished Orders" ref_5TMbPwNQ %} module.
+Платёжная операция - это не банковская операция в общем смысле. Платёжная операция создаётся, когда клиент начинает оплату заказа онлайн или офлайн способом. Разница заключается в заказе. При офлайн оплате заказ создаётся, когда покупатель нажимает кнопку **Разместить заказ**, при этом платёжная операция автоматически получает статус **Ожидает модерации**. При успешной онлайн оплате в магазине создаётся заказ со статусом платёжной операции **Успешная**. Если оплата не прошла, заказ не создаётся, но регистрируется платёжная операция в статусе **Не прошла**. В момент неудачного платежа корзина покупателя не блокируется, и покупатель может добавить или удалить товары. Чтобы корзина покупателя блокировалась, необходим модуль {% link "Not Finished Orders" ref_6K7lCFaI %}.
 {% endnote %}
 
-By default, X-Cart uses the following payment transaction statuses:
+Информация о платёжных операциях доступна администратору магазина на странице **Заказы / Платёжные операции**.
+![1.jpg]({{site.baseurl}}/attachments/ref_3dUIvN13/1.jpg)
+
+На этой странице возможен поиск заказов по статусу платёжной операции.
+
+X-Cart использует следующие статусы платёжных операций:
 
 {:.ui.compact.celled.small.padded.table}
-| In progress | The cart payment has been initiated by a customer (a customer clicked the 'Place Order' button and started submitting cc data info).|
-| Success | The order is successfully paid. Money has been transferred. |
-| Pending | The order payment is under consideration. (Used by default for offline payment methods) |
-| Failed | An attempt to authorize or charge the customer’s card has failed. Failure is generally due to technical or temporary reasons.|
-| Canceled | The order is canceled by a merchant. The payment refunded to a customer in full. |
-| Void | A credit card purchase that a merchant cancels after it has been authorized but before it has been settled. A void transaction does not appear on the customer’s credit card statement, though it might appear in a list of pending transactions when the customer checks their account online. |
+| В процессе | Покупатель приступил к оплате - нажал кнопку **Разместить заказ** и начал вводить данные кредитной карты.|
+| Успешна | Заказ успешно оплачен и денежные средства переведены. |
+| Ожидает модерации | Оплата заказа на рассмотрении. Статус по умолчанию присваивается заказам, для которых выбрана офлайн оплата. |
+| Не прошла | По техническим причинам или из-за временных неполадок не произошла авторизация платежа или списание средств с карты.|
+| Отменена | Заказ отменён продавцом. Оплата полностью возвращена покупателю. |
+| Пустая | Оплата кредитной картой отменена продавцом после авторизации, но до завершения обработки платежа. Пустая транзакция не появляется в выписке по карте клиента, но может появиться в списке ожидающих обработки операций в банковском личном кабинете. |
 
 {% note info %}
-Each failed transaction has a 'Details' note that clarifies the cause of the failure.
+У незавершённых транзакций появляется иконка **Подробнее**, которая объясняет причину сбоя оплаты.
 {% endnote %}
-
-A cart admin can find the info on the payment transaction statuces in the _**'Payment transaction'**_ section of the admin back-end (**Orders** > **Payment transactions**).
-
-![payment-transactions.png]({{site.baseurl}}/attachments/ref_7pBlny0J/payment-transactions.png)
-
-If necessary a cart admin can search orders based on a particular payment transaction status.
 
