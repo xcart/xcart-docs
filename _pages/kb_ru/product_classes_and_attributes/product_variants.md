@@ -14,6 +14,7 @@ published: true
 Рассмотрим варианты товаров на примере.
 
 В качестве примера, возьмем товар _Игрушка Мышь_. _Мышь_ представлена в нескольких цветах с украшением и без. Есть голубая, фиолетовая и желтая _Мышь_:
+
 <div class="ui stackable three column grid">
     <div class="column" markdown="span">
         ![111.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/111.jpg)
@@ -27,6 +28,7 @@ published: true
 </div>
 
 Также, есть голубая _Мышь_ с воздушным шариком и желтая _Мышь_ с воздушным шариком, но нет фиолетовой _Мыши_ с воздушным шариком:
+
 <div class="ui stackable three column grid">    
     <div class="column" markdown="span">
         ![44.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/44.jpg)
@@ -129,4 +131,3 @@ _Дополнительная информация:_
 
 *   {% link "Классы и атрибуты товаров" ref_pXBwGdtu %}
 *   {% link "Работа со значениями атрибутов" ref_SuWz9rmN %}
-
