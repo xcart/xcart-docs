@@ -15,16 +15,28 @@ published: true
 
 В качестве примера, возьмем товар _Игрушка Мышь_. _Мышь_ представлена в нескольких цветах с украшением и без. Есть голубая, фиолетовая и желтая _Мышь_:
 <div class="ui stackable three column grid">
-    <div class="column">![111.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/111.jpg)</div>
-    <div class="column">![22.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/22.jpg)</div>
-    <div class="column">![33.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/33.jpg)</div>
+    <div class="column" markdown="span">
+        ![111.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/111.jpg)
+    </div>
+    <div class="column" markdown="span">
+        ![22.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/22.jpg)
+    </div>
+    <div class="column" markdown="span">
+        ![33.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/33.jpg)
+    </div>
 </div>
 
 Также, есть голубая _Мышь_ с воздушным шариком и желтая _Мышь_ с воздушным шариком, но нет фиолетовой _Мыши_ с воздушным шариком:
 <div class="ui stackable three column grid">    
-    <div class="column">![44.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/44.jpg)</div>
-    <div class="column">![55.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/55.jpg)</div>
-    <div class="column">![66.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/66.jpg)</div>
+    <div class="column" markdown="span">
+        ![44.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/44.jpg)
+    </div>
+    <div class="column" markdown="span">
+        ![55.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/55.jpg)
+    </div>
+    <div class="column" markdown="span">
+        ![66.jpg]({{site.baseurl}}/attachments/ref_1fbgU1JE/66.jpg)
+    </div>
 </div>
 
 _Мышь_ каждого вида должна продаваться отдельно и должна быть добавлена в каталог таким образом, чтобы покупатель мог выбрать цвет и наличие украшения. Цена _Мыши_ без воздушного шарика должна быть RUB 300, а с воздушным шариком - RUB 500. 
