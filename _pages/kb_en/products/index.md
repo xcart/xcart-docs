@@ -25,4 +25,6 @@ _In this section:_
 *   {% link "Enabling the Bestsellers block" ref_p1CIVmy6 %}
 *   {% link "Enabling product comparison" ref_xWLlmcLL %}
 *   {% link "Adding digital goods" ref_lxNH6TFr %}
+*   {% link "Product variants" ref_0uApuQfx %}
 *   {% link "Setting up wholesale prices and minimum purchase quantites for different membership levels" ref_ttZa4qgu %}
+
