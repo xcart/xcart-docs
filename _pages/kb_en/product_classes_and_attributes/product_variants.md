@@ -76,9 +76,13 @@ If we configure the above option combinations as product variants for the produ
 
 To use product variants in your store, you will need to install the module **Product variants** by X-Cart team. For installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
-As a result, you should have the module **Product variants** listed in your store's Installed modules section (**Extensions > Installed modules**). Make sure it is enabled:
+As a result, you should have the module **Product variants** listed in your store's Enabled modules section (**Addons** > **Enabled modules**). Make sure it is enabled:
 
 ![]({{site.baseurl}}/attachments/7504786/8719378.png)
+
+{% note info %}
+Please do mind that product variant will override the [price and weight modifiers](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#price-and-weight-modifiers "Product variants") if they are set up. So you can't have both used at the same time.
+{% endnote %}
 
 To configure product variants for a product:
 
