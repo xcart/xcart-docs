@@ -25,15 +25,21 @@ The module settings are as follows:
 {:.ui.compact.celled.small.padded.table} 
 
 | Which global attribute field is the product brand? | Here you can choose brands from the global attributes available. If you have no global attributes, please, {% link "configure" ref_HzMkgc0q %} them first. |
-| Order brands on the Brands page by | Choose between "Brand names", "Admin-defined order" and "Number of products". If "Admin-defined order" is enabled |
+| Order brands on the Brands page by | Choose between "Brand names", "Admin-defined order" and "Number of products". |
 | Enable pagination on the Brands page | Should be enabled only if you have a great deal of brands in the store. |
 | Default number of brands per page | The number of brands to be displayed on the Brands page in the store front-end. |
 | Show the Brands block on the home page | If enabled the Brands block will be displayed o nthe home page. |
-| Order brands in the Brands block by | Choose between "Brand names", "Admin-defined order" and "Number of products". If "Admin-defined order" is enabled |
+| Order brands in the Brands block by | Choose between "Brand names", "Admin-defined order" and "Number of products". |
 | Number of items in the Brands block |Set the number of brands to be displayed in the Brands block in the store front-end. |
 
 Don't forget to **Submit** changes when done.
 
-When the module is enabled and configured, brands are collected throught the store automatically based on the global attribute you specified and presented in the _Brands_ section (**Catalog** > **Brands**) in the admin back-end. Here the cart admin can change the order of apprearance of the brands the way he needs. By default, the brands are ordered alphabetically. 
+When the module is enabled and configured, existing brands are collected throught the store automatically based on the global attribute you specified and displayed in the _Brands_ section (**Catalog** > **Brands**) in the admin back-end. 
+
+![brands.png]({{site.baseurl}}/attachments/ref_2LetICls/brands.png)
+
+Here the cart admin can change the order of apprearance of the brands the way he needs. By default, the brands are ordered alphabetically. Also, it's possible to edit the existing brands and add new ones if required.
+
+
 
 
