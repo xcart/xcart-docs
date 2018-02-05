@@ -15,14 +15,14 @@ identifier: ref_paypal
 *   {% link "Экспресс-платежи" ref_ppexprs %}
 *   PayPal Credit
 *   {% link "Стандартные платежи через веб-сайт" ref_ppstandard %}
-*   {% link "PayPal Payments Advanced" ref_sO5X6iBT %}
+*   PayPal Payments Advanced
 *   PayPal Payments Pro (PayPal API)
 *   PayPal Payments Pro (Payflow API)
-*   {% link "PayPal Payflow Link" ref_mTCkpViN %}
+*   PayPal Payflow Link
 *   PayPal Partner Hosted with PCI Compliance
-*   {% link "PayPal Adaptive payments" ref_FdXWLwVN %}
+*   PayPal Adaptive payments
 
-_Настройка оплаты через PayPal:_
+_Настройка способов оплаты через PayPal, доступных в России:_
 
 *   {% link "Настройка Экспресс-платежей" ref_ppexprs %}
 *   {% link "Настройка Стандартных платежей через веб-сайт" ref_ppstandard %}
