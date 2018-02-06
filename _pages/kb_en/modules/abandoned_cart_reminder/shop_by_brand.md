@@ -10,11 +10,11 @@ description: shop by brand
 ---
 [Shop by Brand](https://market.x-cart.com/addons/shop-by-brand.html "Shop by Brand Module") module is included in X-Cart Ultimate edition (paid for X-Cart Business). The module is aimed at promoting branded goods.
 
-With this module finding products of specific brands/manufacturers become much easier to customers. Especially to first-time visitors who don't know what exactly they are looking for.
+With this module finding products of specific brands/manufacturers becomes much easier to customers. Especially to first-time visitors who don't know what exactly they are looking for.
 
 To install the module  please follow the steps described in {% link "Installing and activating addons" ref_0fGEpvrh %}.
 
-Once installed, find the module in the list of installed module on the Addons page in the admin back-end, open the module settings page and configure the module according to your business needs.
+Once installed, find the module in the list of installed modules on the Addons page in the admin back-end, open the module settings page and configure the module according to your business needs.
 
 ![addon.png]({{site.baseurl}}/attachments/ref_2LetICls/addon.png)
 
