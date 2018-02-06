@@ -5,7 +5,7 @@ updated_at: '2018-02-05 13:14 +0400'
 identifier: ref_2LetICls
 title: Shop by Brand Module
 order: 100
-published: false
+published: true
 description: shop by brand
 ---
 [Shop by Brand](https://market.x-cart.com/addons/shop-by-brand.html "Shop by Brand Module") module is included in X-Cart Ultimate edition (paid for X-Cart Business). The module is aimed at promoting branded goods.
