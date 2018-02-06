@@ -38,6 +38,7 @@ _In this section:_
 *   {% link "Sale Module" ref_7tBJ8Yqo %}
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 *   {% link "ShippingEasy" ref_HTml5LyW %}
+*   {% link "Shop by Brand Module" ref_2LetICls %}
 *   {% link "Shopgate - Mobile Commerce" ref_tHlhZwW1 %}
 *   {% link "Social Login" ref_IapN8lJ8 %}
 *   {% link "Special Offers" ref_special_offers %}
