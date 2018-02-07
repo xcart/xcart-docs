@@ -1,0 +1,27 @@
+.style-changelog {
+    em {
+        font-style: normal;
+        color: #9b9b9b;
+    }
+
+    ul {
+        margin-left: -1.25em;
+        li {
+            p:first-child {
+                font-size: 0.85em;
+                margin-bottom: 0;
+
+                a {
+                    color: #9b9b9b;
+                    &:hover, &:focus {
+                        color: #43BEEC;
+                    }
+                }
+            }
+        }
+
+        li + li {
+            margin-top: 1rem;
+        }
+    }
+}
