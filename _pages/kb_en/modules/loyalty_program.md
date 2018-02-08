@@ -30,7 +30,7 @@ The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATIO
 </div>
  
 
- 1. The EARN settings are as follows:
+EARN settings:
   * **Rewards multiplier** : Number of points awarded to the shopper per dollar spent on your store. It can take either whole or decimal numbers.
   * **Give points for the shipping cost** : On/Off
   * **Give points for taxes** : On/Off
@@ -47,12 +47,12 @@ The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATIO
   
   {% endnote %}
   
- 2. The REDEEM settings are as follows:
+REDEEM settings:
   * **Redeem rate** : What discount the shopper will get for a single reward point spent on checkout.
   * **Max. reward discount** : The maximum discount that a shopper can get for an order by redeeming his reward points. Can be either a fixed sum, or a percent value.
   * **Apply discount on the** : Whether the discount should apply on the grand total, or the subtotal.
   
- 3. The INFORMATION settings are as follows:
+INFORMATION settings:
   * **Loyalty Program Details page** : What page to use as the Loyalty Program Details page. (You can choose between 'Built-in page template' and custom templates available in your store).  
   {% note info %}  
   To {% link "create a custom template" ref_Ptf5vaPn %} for your Loyalty Program details page use the **Content** > **Pages** > **New Page** section in the admin back-end. 
