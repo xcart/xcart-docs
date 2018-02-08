@@ -70,6 +70,18 @@ The Loyalty Program can be managed in the **Discounts** > **Loyalty Program** se
 
 There you can check reports on the reward points redeemed in your store and see a number of unused points for all customers, see a sum of total discount given to your customers for the redeemed points and a number of customers with unused reward points. 
 
-Also you can see the current Loyalty Program settings and change them if required. 
+Also you can check the current Loyalty Program settings and change them if required. 
+
+To manage the Loylty Program representation in the store front-end enable the corresponding menu in the **Content** > **Menus** section of the admin back-end and **save** the changes.
+
+![menu.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/menu.png)
+
+The menu itself is added automatically after the Loylty Program module is installed.
+
+## Customer experience
+
+When the Loyalty Program module is enabled the store visitors and registered customers will see reward points they will get for buying a product.
+
+![home.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/home.png)
 
 
