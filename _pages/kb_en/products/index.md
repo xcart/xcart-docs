@@ -19,6 +19,7 @@ _In this section:_
 *   {% link "Adding products" ref_fhzzxDTy %}
 *   {% link "Adding featured products" ref_4iFdpTdv %}
 *   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
+*   {% link "How to add video to a product or category description." ref_7zAsoYst %}
 *   {% link "Enabling the «New arrivals» block" ref_2A50nkO9 %}
 *   {% link "Enabling the «Recently viewed» block" ref_9aKsqqeK %}
 *   {% link "Enabling the «Coming soon» block" ref_hQnN8cAT %}
@@ -27,4 +28,3 @@ _In this section:_
 *   {% link "Adding digital goods" ref_lxNH6TFr %}
 *   {% link "Product variants" ref_0uApuQfx %}
 *   {% link "Setting up wholesale prices and minimum purchase quantites for different membership levels" ref_ttZa4qgu %}
-
