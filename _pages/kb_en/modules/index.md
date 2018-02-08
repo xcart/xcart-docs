@@ -28,6 +28,7 @@ _In this section:_
 *   {% link "E-goods" ref_ZszpDfxQ %}
 *   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
+*   {% link "Loyalty Program" ref_1Odyn6mT %}
 *   {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
 *   {% link "Not Finished Orders" ref_5TMbPwNQ %}
