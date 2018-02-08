@@ -3,8 +3,8 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-01-31 09:26 +0400'
 identifier: ref_7BOWDkxC
-title: ''
+title: 'test article'
 order: 100
-published: false
+published: true
 ---
-test 2
+test 1
