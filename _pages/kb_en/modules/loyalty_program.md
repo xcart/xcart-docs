@@ -23,10 +23,10 @@ To install the Loyalty Program module please follow the steps described in {% li
 The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATION. 
 
  <div class="ui stackable three column grid">
-<div class="column" markdown="span">![settings-earn.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-earn.png)
-</div>
+   <div class="column" markdown="span">![settings-earn.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-earn.png)
+  </div>
   <div class="column" markdown="span">![settings-redeem.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-redeem.png)
-</div>
+  </div>
 </div>
  
 1. The EARN settings are as follows:
@@ -42,12 +42,10 @@ The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATIO
   You can also set per-product rewards that will override the _Rewards multiplier_ settings for a particular product. This can be done on a {% link "product details page" ref_fhzzxDTy %} in the 'Automatic reward points' field (_Price & Inventory_). If set to 'NO' you'll be able to define the number of points a customer will get for buying this product. 
   ![product.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/product.png)
   {% endnote %}
-
 2. The REDEEM settings are as follows:
   * **Redeem rate** : What discount the shopper will get for a single reward point spent on checkout.
   * **Max. reward discount** : The maximum discount that a shopper can get for an order by redeeming his reward points. Can be either a fixed sum, or a percent value.
   * **Apply discount on the** : Whether the discount should apply on the grand total, or the subtotal.
-  
 3. The INFORMATION settings are as follows:
   * **Loyalty Program Details page** : What page to use as the Loyalty Program Details page. (You can choose between 'Built-in page template' and custom templates available in your store).  
   {% note info %}  
