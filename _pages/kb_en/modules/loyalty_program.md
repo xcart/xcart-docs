@@ -22,9 +22,12 @@ To install the Loyalty Program module please follow the steps described in {% li
 
 The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATION. 
 
- {:.ui.compact.celled.small.padded.table} 
- 
- |![settings-earn.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-earn.png)|![settings-redeem.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-redeem.png)|
+ <div class="ui stackable three column grid">
+<div class="column" markdown="span">![settings-earn.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-earn.png)
+</div>
+  <div class="column" markdown="span">![settings-redeem.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-redeem.png)
+</div>
+</div>
  
 1. The EARN settings are as follows:
   * **Rewards multiplier** : Number of points awarded to the shopper per dollar spent on your store. It can take either whole or decimal numbers.
