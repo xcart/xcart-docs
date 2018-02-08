@@ -24,8 +24,7 @@ The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATIO
 
  {:.ui.compact.celled.small.padded.table} 
  
- |![settings-earn.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-earn.png) |![settings-redeem.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-redeem.png) |
-<div class="ui stackable three column grid">
+ |![settings-earn.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-earn.png)|![settings-redeem.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-redeem.png)|
  
 
 1. The EARN settings are as follows:
