@@ -34,13 +34,10 @@ The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATIO
   * **Sign-up reward** : Number of points awarded to the shopper for creating a shop account.
   * **Reward for rating a product** : Number of points awarded to the shopper for rating a product.
   * **Reward for reviewing a product** : Number of points awarded to the shopper for reviewing a product.
-  * **Minimum product rating eligible for the reward** : Rewards for reviewing/rating a product won't be given for rates less than this number.
-  
+  * **Minimum product rating eligible for the reward** : Rewards for reviewing/rating a product won't be given for rates less than this number.  
   {% note info %}
-
   You can also set per-product rewards that will override the _Rewards multiplier_ settings for a particular product. This can be done on a {% link "product details page" ref_fhzzxDTy %} in the 'Automatic reward points' field (_Price & Inventory_). If set to 'NO' you'll be able to define the number of points a customer will get for buying this product. 
-![product.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/product.png)
-
+  ![product.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/product.png)
   {% endnote %}
 
 2. The REDEEM settings are as follows:
@@ -49,13 +46,10 @@ The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATIO
   * **Apply discount on the** : Whether the discount should apply on the grand total, or the subtotal.
   
 3. The INFORMATION settings are as follows:
-  * **Loyalty Program Details page** : What page to use as the Loyalty Program Details page. (You can choose between 'Built-in page template' and custom templates available in your store).
-  
-  {% note info %}
-  
+  * **Loyalty Program Details page** : What page to use as the Loyalty Program Details page. (You can choose between 'Built-in page template' and custom templates available in your store).  
+  {% note info %}  
   To {% link "create a custom template" ref_Ptf5vaPn %} for your Loyalty Program details page use the **Content** > **Pages** > **New Page** section in the admin back-end. 
   ![custom.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/custom.png)
-
   {% endnote %}
 
 ## Managing Loyalty Program 
@@ -109,5 +103,3 @@ Reward points will be converted into a respective discount according to the Loya
 A store admin can check and adjust the reward points balance of a customer with a comment for the adjustment (if required) on the user account details page in the _Reward Points_ tab (**Users** -> **User list**).
 
 ![user.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/user.png)
-
- 
