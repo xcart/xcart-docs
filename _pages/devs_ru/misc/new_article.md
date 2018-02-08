@@ -7,4 +7,4 @@ title: 'test article'
 order: 100
 published: true
 ---
-test 1
+test 2
