@@ -29,7 +29,6 @@ The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATIO
   </div>
 </div>
  
-
 EARN settings:
   * **Rewards multiplier** : Number of points awarded to the shopper per dollar spent on your store. It can take either whole or decimal numbers.
   * **Give points for the shipping cost** : On/Off
