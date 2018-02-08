@@ -25,7 +25,6 @@ The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATIO
 <div class="ui stackable three column grid">
   <div class="column" markdown="span">![settings-earn.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-earn.png)
 </div>
-  <div class="column" markdown="span"></div>
   <div class="column" markdown="span">![settings-redeem.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-redeem.png)
 </div>
 </div>
@@ -110,7 +109,7 @@ To use the available reward points a customer will need to click the **Redeem** 
 
 Reward points will be converted into a respective discount according to the Loyalty Program settings and will be withdrawn from the customer's account after the order is paid. 
 
-A store admin can check and adjust the reward points balance of a customer with a comment for the adjustment (if required) on the account details page in the _Reward Points_ tab (**Users** -> **User list**).
+A store admin can check and adjust the reward points balance of a customer with a comment for the adjustment (if required) on the user account details page in the _Reward Points_ tab (**Users** -> **User list**).
 
 ![user.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/user.png)
 
