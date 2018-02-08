@@ -5,7 +5,7 @@ updated_at: '2018-02-07 12:35 +0400'
 identifier: ref_1Odyn6mT
 title: Loyalty Program
 order: 100
-published: false
+published: true
 description: The Loyalty Program Module.
 ---
 Do you want to stimulate guest customers to register, or encourage product reviews and ratings, or even reward customers for purchases? Use the [Loyalty Program](https://market.x-cart.com/addons/loyalty-program.html "Loyalty Program") module to achieve your goals. The module will help you to increase customer loyalty and turn your visitors into returning customers as well as to reward your customers with points for actions.
@@ -42,7 +42,7 @@ The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATIO
   
   {% note info %}
 
-  You can also set per-product rewards that will override the _Rewards multiplier_ settings for a particular product. This can be done on a product details page in the 'Automatic reward points' field (_Price & Inventory_). If set to 'NO' you'll be able to define the number of points a customer will get for buying this product. 
+  You can also set per-product rewards that will override the _Rewards multiplier_ settings for a particular product. This can be done on a {% link "product details page" ref_fhzzxDTy %} in the 'Automatic reward points' field (_Price & Inventory_). If set to 'NO' you'll be able to define the number of points a customer will get for buying this product. 
 ![product.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/product.png)
 
   {% endnote %}
@@ -72,16 +72,46 @@ There you can check reports on the reward points redeemed in your store and see 
 
 Also you can check the current Loyalty Program settings and change them if required. 
 
-To manage the Loylty Program representation in the store front-end enable the corresponding menu in the **Content** > **Menus** section of the admin back-end and **save** the changes.
+To manage the Loyalty Program representation in the store front-end enable the corresponding menu in the **Content** > **Menus** section of the admin back-end and **save** the changes.
 
 ![menu.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/menu.png)
 
-The menu itself is added automatically after the Loylty Program module is installed.
+The menu itself is added automatically after the Loyalty Program module is installed.
 
 ## Customer experience
 
-When the Loyalty Program module is enabled the store visitors and registered customers will see reward points they will get for buying a product.
+When the Loyalty Program module is enabled, the store visitors and registered customers will see reward points they will get for buying a product.
 
 ![home.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/home.png)
 
+Also, they will see a Loyalty Program menu (if enabled) where they can get information on the Loyalty Program policy.
 
+![details.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/details.png)
+
+At checkout the registered customers will see a sum of reward points they will earn with an order. Store visitors will be promted to register an account for the reward points to be added to the order.
+
+![checkout.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/checkout.png)
+
+Customers can also earn reward points by rating products or writing {% link "product reviews" ref_XBriIS6B %}  if it's enabled in the Loyalty Program settings. 
+
+{% note info %}
+Reward Points for product ratings and reviews can be promoted either on the Loyalty Program page or with the help of the [Pop-Up Anywhere](https://market.x-cart.com/addons/popup-anywhere.html "Loyalty Program") module.
+{% endnote %}
+
+Reward points are credited to a customer's account when an order gets a 'Paid' {% link "status" ref_DkbTi1qJ %}. After that the customer can see available reward points on the **Account Details** page in the **Reward Points** tab. 
+
+![user-front-end.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/user-front-end.png)
+
+The customer can also check the transaction history of reward points on this page.
+
+To use the available reward points a customer will need to click the **Redeem** button at checkout. 
+
+![checkout-redeem.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/checkout-redeem.png)
+
+Reward points will be converted into a respective discount according to the Loyalty Program settings and will be withdrawn from the customer's account after the order is paid. 
+
+A store admin can check and adjust the reward points balance of a customer with a comment for the adjustment (if required) on the account details page in the _Reward Points_ tab (**Users** -> **User list**).
+
+![user.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/user.png)
+
+ 
