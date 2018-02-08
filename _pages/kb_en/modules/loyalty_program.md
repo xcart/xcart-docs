@@ -26,7 +26,6 @@ The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATIO
  
  |![settings-earn.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-earn.png)|![settings-redeem.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-redeem.png)|
  
-
 1. The EARN settings are as follows:
   * **Rewards multiplier** : Number of points awarded to the shopper per dollar spent on your store. It can take either whole or decimal numbers.
   * **Give points for the shipping cost** : On/Off
@@ -95,7 +94,7 @@ Customers can also earn reward points by rating products or writing {% link "pro
 Reward Points for product ratings and reviews can be promoted either on the Loyalty Program page or with the help of the [Pop-Up Anywhere](https://market.x-cart.com/addons/popup-anywhere.html "Loyalty Program") module.
 {% endnote %}
 
-Reward points are credited to a customer's account when an order gets a 'Paid' {% link "status" ref_DkbTi1qJ %}. After that the customer can see available reward points on the **Account Details** page in the **Reward Points** tab. 
+Reward points are credited to a customer's account when an order gets a 'Paid' {% link "status" ref_DkbTi1qJ %}. After that the customer can see available reward points on the **Account Details** page in the **Reward Points** tab. If the order is cancelled or refunded the related reward points are withdrawn from the customer's account.
 
 ![user-front-end.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/user-front-end.png)
 
