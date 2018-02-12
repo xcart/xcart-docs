@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-02-09 13:26 +0400'
 identifier: ref_5MQvg8Mm
-title: How to translate the product catalog into another language
+title: How to translate product catalog into another language
 order: 100
 published: true
 description: How to translate product catalog into another language
@@ -24,7 +24,7 @@ Before translating a product catalog make sure the respective {% link "translati
 
 2. Catalog Translation
   
-   Let's say we need to translate our catalog from English to German. For this purpose we'll open the exported .csv file in any spreadsheet editor (MS Excel, LibreOffice Calc, etc.), find the cells to be translated (e.g. name_en, description_en, etc.), add a German equivalent for the cells with translation (e.g. 'name_de', 'description_de', etc.) and then fill in the 'de' cells with the German translation. So as a result we'll get a file content similar to an image below:
+   Let's say we need to translate our catalog from English to German. For this purpose we'll open the exported .csv file in any spreadsheet editor (MS Excel, LibreOffice Calc, etc.), find the cells to be translated (e.g. name_en, description_en, etc.), add a German equivalent for the cells with translation (e.g. 'name_de', 'description_de', etc.) and then fill in the 'de' cells with the German translation. So, as a result, we'll get a file content similar to an image below:
 
    ![translation.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/translation.png)
 
