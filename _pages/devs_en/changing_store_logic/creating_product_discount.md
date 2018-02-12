@@ -4,21 +4,18 @@ layout: article_with_sidebar
 updated_at: '2015-01-20 00:00'
 title: Creating product discount
 identifier: ref_SMsZrhAi
-version: X-Cart 5.2.16 and earlier
 categories:
   - Developer docs
   - Demo module
-  - Outdated
 published: true
 order: 100
 ---
-
 ## Introduction
 
-Previously we have learned how to create a {% link "global discount" ref_mFAMapCB %} and this article explains how you can create an individual product discount. For the sake of example, we will create a module that will apply a 10% discount to each product that starts with A letter and this discount will be displayed near each such product as
+Previously we have learned how to create a {% link "global discount" ref_mFAMapCB %} and this article explains how you can create an individual product discount. For the sake of example, we will create a module that will apply a 10% discount to each product that starts with A letter and this discount will be displayed near every such product as
 
 *   a **10% off** label on product lists;
-*   an **old price** label with crossed old price near product price.
+*   an **old price** label with crossed old price on product details page.
 
 ## Table of Contents
 
@@ -33,18 +30,23 @@ The main difference between this module and {% link "one that described global d
 
 *   the database will still contain record about it having $10 price;
 *   product object will return price as $9, however;
-*   this $9 price will be used during cart calculation, but reduced price will be shown with special **old price** label and the customers will understand that it has been reduced.
+*   this $9 price will be used during cart calculation, but reduced price will be shown with special **old price** label and the customers will understand that it is reduced.
 
-Such an approach is quite convenient, because you can enable such module for a sale period, it will automatically apply needed discounts and once the sale is over, you just disable the module. No import/export for updating prices will be needed.
+Such an approach is quite convenient, because you can enable such module for a sale period, it will automatically apply needed discounts and once the sale is over, you just disable the module. No export/import for updating prices is needed.
 
-We start with {% link "creating an empty module" ref_G2mlgckf %} with developer ID **Tony** and module ID **ProductDiscountDemo**. Now we need to {% link "decorate" ref_AF6bmvL6 %} product {% link "model" ref_wmExvPDD %} class `\XLite\Model\Product`, so we create the
-`<X-Cart>/classes/XLite/Module/Tony/ProductDiscountDemo/Model/Product.php` file with the following content: 
+We start with {% link "creating an empty module" ref_G2mlgckf %} with developer ID **XCExample** and module ID **ProductDiscount**. Now we need to {% link "decorate" ref_AF6bmvL6 %} product {% link "model" ref_wmExvPDD %} class `\XLite\Model\Product`, so we create the
+`classes/XLite/Module/XCExample/ProductDiscount/Model/Product.php` file with the following content: 
 
 ```php
 <?php
 // vim: set ts=4 sw=4 sts=4 et:
 
-namespace XLite\Module\Tony\ProductDiscountDemo\Model;
+/**
+ * Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+ * See https://www.x-cart.com/license-agreement.html for license details.
+ */
+
+namespace XLite\Module\XCExample\ProductDiscount\Model;
 
 /**
  * The "product" model class
@@ -82,9 +84,9 @@ abstract class Product extends \XLite\Model\Product implements \XLite\Base\IDeco
 }
 ```
 
-Let us have a close look at this enhancement of product model:
+Let us have a close look at this change of product model:
 
-1.  First of all we implement a condition when the discount must be applied: 
+1.  First of all, we implement a condition when the discount must be applied: 
 
     ```php
         public function isMyDiscount() 
@@ -136,31 +138,37 @@ Let us have a close look at this enhancement of product model:
         }
     ```
 
-Now the discount will be applied to products that start with A and we need to add display changes:
+Now the discount will be applied to products that start with A and we need to label these products in customer area:
 
-*   display **10% off** label near such products on product lists;
-*   display **Old price** label near such product prices.
+*   display **10% off** label near those products on product lists;
+*   display **Old price** label near price on the product details page.
 
-In order to display **10% off** label on product lists, we have to decorate the `\XLite\View\ItemsList\Product\Customer\ACustomer` {% link "ItemsList class" ref_MRidEzuz %}. We create the
-`<X-Cart>/classes/XLite/Module/Tony/ProductDiscountDemo/View/ItemsList/Product/Customer/ACustomer.php` file with the following content: 
+In order to display **10% off** label on product lists, we have to decorate the `\XLite\View\Product\ListItem` {% link "ItemsList class" ref_MRidEzuz %}. We create the
+`classes/XLite/Module/XCExample/ProductDiscount/View/Product/ListItem.php` file with the following content: 
 
 ```php
 <?php
 // vim: set ts=4 sw=4 sts=4 et:
 
-namespace XLite\Module\Tony\ProductDiscountDemo\View\ItemsList\Product\Customer;
+/**
+ * Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+ * See https://www.x-cart.com/license-agreement.html for license details.
+ */
+
+namespace XLite\Module\XCExample\ProductDiscount\View\Product;
 
 /**
  * ACustomer
  */
-abstract class ACustomer extends \XLite\View\ItemsList\Product\Customer\ACustomer implements \XLite\Base\IDecorator
+abstract class ListItem extends \XLite\View\Product\ListItem implements \XLite\Base\IDecorator
 {
-    protected function getLabels(\XLite\Model\Product $product)
+    protected function getLabels()
     {
-        $labels = parent::getLabels($product);
+        $labels = parent::getLabels();
+        $product = $this->getProduct();
 
         if ($product->isMyDiscount()) {
-            $labels += array('my-discount' => '10% off');
+            $labels += array('my-discount' => static::t('10% off'));
         }
 
         return $labels;
@@ -168,43 +176,53 @@ abstract class ACustomer extends \XLite\View\ItemsList\Product\Customer\ACustome
 }
 ```
 
-As you can see, we need to only change the `getLabels()` method in this class and add our record to its returning array: 
+As you can see, we need to only change the `getLabels()` method in this class and add our record into the array returned:
 
 ```php
-$labels += array('my-discount' => '10% off');
+$labels += array('my-discount' => static::t('10% off'));
 ```
 
 Key of this array – **my-discount** – defines a CSS class that will be assigned to this label, value of this array – **10% off** – defines a text that will be displayed by this label.
 
-This method `getLabels()` will be run on each product displayed by the ItemsList widget – as you can see a `$product` object is passed to this method as an argument – that is why we can freely use product model's methods in this `getLabels()` method, e.g.: 
+This method `getLabels()` will be run for each product displayed by the ItemsList widget – we can access product object by calling `$this->product` – that is why we can freely use product model's methods in this `getLabels()` method, e.g.: 
 
 ```php
 $product->isMyDiscount()
 ```
 
-Now, let us add **Old price** label near price display of discounted products. We simply create the `<X-Cart>/skins/default/en/modules/Tony/ProductDiscountDemo/old-price.tpl` template with the following content: 
+Now, let us add **Old price** label near price on product details page. We simply create the `skins/customer/modules/XCExample/ProductDiscount/old-price.twig` template with the following content: 
 
 ```php
-{**
- * @ListChild (list="product.plain_price", weight="100")
- *}
-<li IF="{isMyDiscount()}" class="old-price">Old price: <span class="price old-price">{formatPrice(getOldPrice(),null,1):h}</span></li>
+{##
+ # @ListChild (list="product.plain_price", weight="100")
+ #}
+
+{% if this.isMyDiscount() %}
+  <li class="old-price">Old price: <span class="price old-price">{{ this.formatPrice(this.getPriceBeforeMyDiscount(), this.null, 1)|raw }}</span></li>
+{% endif %}
 ```
 
-and it will be assigned to the `product.plain_price` {% link "view list" ref_E88KCMDD %}, so it will be displayed below main product price in store-front. Since we use two methods – `isMyDiscount()` and `getOldPrice()` – that do not exist in the default implementation of the `\XLite\View\Price` {% link "viewer class" ref_6dMJsZ63 %}– this viewer class manages the display of `product.plain_price` view list –, we have to create such methods by decorating `\XLite\View\Price` viewer. We create the `<X-Cart>/classes/XLite/Module/Tony/ProductDiscountDemo/View/Price.php` file with the following content: 
+and it will be assigned to the `product.plain_price` {% link "view list" ref_E88KCMDD %}, so 'Old price' section will be displayed below main product price. 
+
+Since we use methods `isMyDiscount()` and `getPriceBeforeMyDiscount()` that do not exist in the default implementation of the `\XLite\View\Price` {% link "viewer class" ref_6dMJsZ63 %} – this viewer class manages the display of `product.plain_price` view list – we have to create such methods by decorating `\XLite\View\Price` viewer. We create the `classes/XLite/Module/XCExample/ProductDiscount/View/Price.php` file with the following content: 
 
 ```php
 <?php
 // vim: set ts=4 sw=4 sts=4 et:
 
-namespace XLite\Module\Tony\ProductDiscountDemo\View;
+/**
+ * Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+ * See https://www.x-cart.com/license-agreement.html for license details.
+ */
+
+namespace XLite\Module\XCExample\ProductDiscount\View;
 
 /**
  * Product price
  */
 abstract class Price extends \XLite\View\Price implements \XLite\Base\IDecorator
 {
-    protected function getOldPrice()
+    protected function getPriceBeforeMyDiscount()
     {
         return $this->getProduct()->getPriceBeforeMyProductDiscount();
     }
@@ -218,13 +236,18 @@ abstract class Price extends \XLite\View\Price implements \XLite\Base\IDecorator
 
 This implementation is just proxying product methods – `isMyDiscount()` and `getPriceBeforeMyProductDiscount()` – from our enhanced version of `\XLite\Model\Product` class.
 
-Finally, we need to apply several CSS styles in order to make our **Old price** label look smooth. We {% link "add CSS file" ref_p0CRZmMS %} by creating the `<X-Cart>/classes/XLite/Module/Tony/ProductDiscountDemo/View/AView.php` file with the following content: 
+Finally, we need to apply several CSS styles in order to make our **Old price** label look nice. We {% link "add CSS file" ref_p0CRZmMS %} by creating the `classes/XLite/Module/XCExample/ProductDiscount/View/AView.php` file with the following content: 
 
 ```php
 <?php
 // vim: set ts=4 sw=4 sts=4 et:
 
-namespace XLite\Module\Tony\ProductDiscountDemo\View;
+/**
+ * Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+ * See https://www.x-cart.com/license-agreement.html for license details.
+ */
+
+namespace XLite\Module\XCExample\ProductDiscount\View;
 
 /**
  * Abstract widget
@@ -234,15 +257,15 @@ abstract class AView extends \XLite\View\AView implements \XLite\Base\IDecorator
     protected function getThemeFiles($adminZone = null)
     {
         $list = parent::getThemeFiles($adminZone);
-
-        $list[static::RESOURCE_CSS][] = 'modules/Tony/ProductDiscountDemo/css/style.css';
+ 
+        $list[static::RESOURCE_CSS][] = 'modules/XCExample/ProductDiscount/css/style.css';
 
         return $list;
     }
 }
 ```
 
-and then creating the actual `<X-Cart>/skins/default/en/modules/Tony/ProductDiscountDemo/css/style.css` CSS file with the following content: 
+and then creating the actual `skins/customer/modules/XCExample/ProductDiscount/css/style.css` CSS file with the following content: 
 
 ```php
 ul.product-price li.old-price {
@@ -254,21 +277,13 @@ ul.product-price li.old-price span.old-price {
 }
 ```
 
-That is it. Now we need to re-deploy the store and check the results in store-front.
+Now the module is ready. Product lists display 10% off label
+![product-list.png]({{site.baseurl}}/attachments/ref_SMsZrhAi/product-list.png)
 
-Your product list will have discount labels and old price crossed:
-![]({{site.baseurl}}/attachments/8225422/8356196.png)
+while product details pages have 'Old price' section:
+![old-price-crossed.png]({{site.baseurl}}/attachments/ref_SMsZrhAi/old-price-crossed.png)
 
-Your product details page will also have old price crossed, because product price is displayed by the same `\XLite\View\Price` widget:![]({{site.baseurl}}/attachments/8225422/8356197.png)
-
-Finally, since we decorated the most basic product ItemsList class `\XLite\View\ItemsList\Product\Customer\ACustomer`, absolutely all product lists in customer area are having **10% off** labels, even those ones that are produced by other modules, e.g. **Customers who bought this product also bought **product list by **Product Advisor** module: ![]({{site.baseurl}}/attachments/8225422/8356198.png)
 
 ## Module example
 
-You can download this module pack from here: <https://www.dropbox.com/s/1fdy27xvyznfglb/Tony-ProductDiscountDemo-v5_1_0.tar>
-
-## Attachments:
-
-* [discount-items-list.png]({{site.baseurl}}/attachments/8225422/8356196.png) (image/png)
-* [product-details-page-discount.png]({{site.baseurl}}/attachments/8225422/8356197.png) (image/png)
-* [customers-who-bought-discount.png]({{site.baseurl}}/attachments/8225422/8356198.png) (image/png)
+You can download this module pack from here: <https://www.dropbox.com/s/dk4z7vhr6sp87cp/XCExample-ProductDiscount-v5_3_0.tar>
