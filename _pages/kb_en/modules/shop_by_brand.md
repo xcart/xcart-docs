@@ -28,7 +28,7 @@ The module settings are as follows:
 | Order brands on the Brands page by | Choose between "Brand names", "Admin-defined order" and "Number of products". |
 | Enable pagination on the Brands page | Should be enabled only if you have a great deal of brands in the store. |
 | Default number of brands per page | The number of brands to be displayed on the Brands page on the store front-end. |
-| Show the Brands block on the home page | If enabled the Brands block will be displayed o nthe home page. |
+| Show the Brands block on the home page | If enabled the Brands block will be displayed on the home page. |
 | Order brands in the Brands block by | Choose between "Brand names", "Admin-defined order" and "Number of products". |
 | Number of items in the Brands block |Set the number of brands to be displayed in the Brands block on the store front-end. |
 
@@ -38,14 +38,14 @@ When the module is enabled and configured, existing brands are collected through
 
 ![brands.png]({{site.baseurl}}/attachments/ref_2LetICls/brands.png)
 
-Here the cart admin can change the order of apprearance of the brands the way he needs. By default, the brands are sorted alphabetically. Also, it's possible to edit the existing brands and add new ones if required. 
+Here the cart admin can change the order of appearance of the brands the way he needs. By default, the brands are sorted alphabetically. Also, it's possible to edit the existing brands and add new ones if required. 
 
-To create a new brand click the **New brand** button, to edit an exisitng brand click the brand name in the list. The procedure is similar, in both cases you'll need to feel in the fields with the info and save the changes.
+To create a new brand click the **New brand** button, to edit an existing brand click the brand name in the list. The procedure is similar, in both cases you'll need to feel in the fields with the info and save the changes.
 
 You can specify the following info for your brands, the only required filed being the brand name:
 * **Brand name**: Use this field to specify or edit the brand name here.
 * **Brand logo** : Use this field to upload a brand logo here (you can do it either via a URL or directly from your computer).
-* **Description** : A brand description that will be displayed on the brands page.
+* **Description** : A brand description that will be displayed on the brand's page.
 * **Meta keywords** : The keywords to be used in the keywords META tag on the category page (for SEO purposes).
 * **Meta description** : The description to be used in the description META tag on the category page (for SEO purposes).
 * **Clean URL** : The product page Clean URL (for SEO purposes).
