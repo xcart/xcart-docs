@@ -7,6 +7,7 @@ title: Translation and Locaization
 order: 100
 published: false
 description: X-Cart translation into another languages and localization
+icon: Translate
 ---
 _In this section:_
 
