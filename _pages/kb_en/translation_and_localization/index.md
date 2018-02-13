@@ -8,6 +8,8 @@ order: 500
 published: true
 description: X-Cart translation into another languages and localization
 icon: Translate
+categories:
+  - home
 ---
 _In this section:_
 
