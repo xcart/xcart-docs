@@ -8,6 +8,8 @@ categories:
   - User manual
 published: true
 order: 230
+redirect_from:
+  - 'https://kb.x-cart.com/look_and_feel/localizing_your_store.html'
 ---
 
 
@@ -26,4 +28,3 @@ order: 230
     *   CSV column delimiter
     *   Import/export charset
 3.  Once you are done, click **Submit** at the bottom of the page to save the changes.
-
