@@ -27,10 +27,7 @@ _In this section:_
 *   {% link "Enabling the Contact Us form" ref_hfZXkxzT %}
 *   {% link "Editing the text on the Contact Us page" ref_CsqC5DNX %}
 *   {% link "Managing texts labels in your store" ref_IyGxQ1DN %}
-*   {% link "Localizing your store" ref_cc4sCpa5 %}
 *   {% link "Removing the «Powered by» notice" ref_o5oJ0AFO %}
-*   {% link "Switching the language in Admin area" ref_x5oSN86B %}
-*   {% link "Translating your store's user interface to other languages" ref_NH3w8sSS %}
 *   {% link "Enabling Catalog mode (no «Add to cart» buttons)" ref_CvAsFxq8 %}
 *   {% link "Getting compliant with the EU Cookie Law" ref_IOt4rapT %}
 *   {% link "Enabling/Disabling Order created email notifications" ref_SwKMRaJp %}
