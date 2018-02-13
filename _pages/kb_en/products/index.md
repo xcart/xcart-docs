@@ -28,4 +28,7 @@ _In this section:_
 *   {% link "Adding digital goods" ref_lxNH6TFr %}
 *   {% link "Product variants" ref_0uApuQfx %}
 *   {% link "Setting up wholesale prices and minimum purchase quantites for different membership levels" ref_ttZa4qgu %}
+
+
+_Related pages:_
 *   {% link "How to translate the product catalog into another language" ref_5MQvg8Mm %}
