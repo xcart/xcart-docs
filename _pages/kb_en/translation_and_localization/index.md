@@ -23,11 +23,10 @@ However, you can turn your X-Cart into a truly multi-language solution by instal
 
 If you want to translate X-Cart into a language for which no translation is available in the X-Cart Marketplace, contact us at {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. We will explain how this can be done and how you can get money out of it.
 
-Translating your store to another language is a complex task that includes:  
+Below are some guides on how to translate your store into another language:  
+*  {% link "Installing language packages" ref_NH3w8sSS %}
 *  {% link "Switching the language in Admin area" ref_x5oSN86B %}
-*  {% link "How to translate product catalog into another language" ref_5MQvg8Mm %}
-
-
+*  {% link "Translating product catalog into another language" ref_5MQvg8Mm %}
 
 
 _Also in this section:_
