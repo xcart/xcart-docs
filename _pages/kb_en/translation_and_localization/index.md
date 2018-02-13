@@ -26,6 +26,7 @@ If you want to translate X-Cart into a language for which no translation is avai
 Below are some guides on how to translate your store into another language:  
 *  {% link "Installing language packages" ref_NH3w8sSS %}
 *  {% link "Switching the language in Admin area" ref_x5oSN86B %}
+*  {% link "Translating labels" ref_2CQ8HuY4 %}
 *  {% link "Translating product catalog into another language" ref_5MQvg8Mm %}
 
 
