@@ -5,7 +5,7 @@ updated_at: '2018-02-13 16:10 +0400'
 identifier: ref_2CQ8HuY4
 title: Translating labels
 order: 100
-published: false
+published: true
 ---
 You may notice that some texts and labels do not get translated when you switch the language selector. For example, in the screenshot above you can still see the module descriptions and the link "View more addons in Marketplace" displayed in the English language - instead of German. Well, things like this happen pretty often. In fact, module descriptions are fetched from the Marketplace,so the translation module has no power over their translation. As to the "View more addons in Marketplace" link, the respective label simply does not have a value for the German language. If we compare our installed translations in the Languages section (**Store setup** > **Translations**), we will see that the English translation has many more labels than the German translation:
 
