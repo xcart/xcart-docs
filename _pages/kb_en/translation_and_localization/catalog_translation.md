@@ -6,7 +6,7 @@ identifier: ref_5MQvg8Mm
 title: Translating product catalog into another language
 order: 100
 published: true
-description: How to translate product catalog into another language
+description: translating product catalog into another language
 redirect_from:
   - 'https://kb.x-cart.com/products/catalog_translation.html'
 ---
