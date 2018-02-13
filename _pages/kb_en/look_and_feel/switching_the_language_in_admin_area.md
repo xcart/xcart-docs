@@ -8,6 +8,9 @@ categories:
   - User manual
 published: true
 order: 250
+redirect_from:
+  - >-
+    https://kb.x-cart.com/look_and_feel/switching_the_language_in_admin_area.html
 ---
 
 
@@ -18,4 +21,3 @@ If you do not see the language selector in the Admin panel header, then you prob
 _Related pages:_
 
 *   {% link "Translating your store's user interface to other languages" ref_NH3w8sSS %}
-
