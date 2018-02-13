@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-02-13 14:18 +0400'
 identifier: ref_1frAlu26
 title: Translation and Locaization
-order: 500
+order: 300
 published: true
 description: X-Cart translation into another languages and localization
 icon: Translate
