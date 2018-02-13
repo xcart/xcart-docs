@@ -12,19 +12,6 @@ redirect_from:
   - >-
     https://kb.x-cart.com/look_and_feel/translating_your_stores_user_interface_to_other_languages.html
 ---
-
-Once you download X-Cart from [www.x-cart.com](http://www.x-cart.com/) and install it on your server, you get a store builder with the user interface displayed in the English language. 
-
-However, you can turn your X-Cart into a truly multi-language solution by installing language translation addons. For example, there are some language translations that you can download from X-Cart Marketplace, including:
-
-*   Russian
-*   French
-*   German
-*   Dutch
-*   British English
-
-If you want to translate X-Cart into a language for which no translation is available in the X-Cart Marketplace, contact us at {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. We will explain how this can be done and how you can get money out of it.
-
 To install a language translation module from the X-Cart Marketplace:
 
 1.  In your store's Admin area, select **My addons**, then click __View more addons in Marketplace__ to go to the X-Cart Marketplace.
