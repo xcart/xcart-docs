@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-10-18 17:20 +0400'
 identifier: ref_NH3w8sSS
-title: 'Translating your store&#39;s user interface to other languages'
+title: How to install language packages
 categories:
   - User manual
 published: true
