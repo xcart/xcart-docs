@@ -16,13 +16,17 @@ In a multi-vendor X-Cart 5 based store, new vendors are added using one of the f
 
 A prospective vendor registers a vendor profile using a special page; the store administrator is notified of the new vendor registration and can review the registered user profile in the store's Admin area. After reviewing the vendor profile the administrator can either approve the registration or reject it.
 
-The page for vendor profile registration can be found at the following URL: 
-`http://_<your-domain>_/_<x-cart-5-directory>_/admin.php?target=register_vendor`
-(Make sure you replace the `http://<your-domain>/<x-cart-5-directory>` portion with the actual address of your X-Cart 5 store).
+In X-Cart versions 5.3.3 and later, the page for vendor profile registration can be found at the following URL: 
+`http://_<your-domain>_/_<x-cart-5-directory>_/cart.php?target=register_vendor`
+
+(Be sure to replace the part `http://<your-domain>/<x-cart-5-directory>` with the actual address of your X-Cart 5 store).
 
 This page looks as follows:
 
-**![]({{site.baseurl}}/attachments/8749143/8716877.png)**
+![xc5_vendor_registration_form.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_vendor_registration_form.png)
+
+In X-Cart versions prior to 5.3.3, the page for vendor profile registration can be found here:
+`http://_<your-domain>_/_<x-cart-5-directory>_/admin.php?target=register_vendor`
 
 To register a vendor profile, a prospective vendor must provide a valid email address and a password (with confirmation) and click **Create**.
 
