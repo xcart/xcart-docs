@@ -27,14 +27,19 @@ For the sake of example, we will create a new page that will be accessible by `c
 
 Before we get started, we [https://devs.x-cart.com/getting_started/creating-module.html](https://devs.x-cart.com/getting_started/creating-module.html "Current user profile data") with developer ID **XCExample** and module ID **ProfileDemo**. Also, we {% link "create a new page" ref_0VgqyxB8#creating-page-in-customer-area %} that will be accessible by `cart.php?target=profile_demo` URL.
 
-Once it is done, we go to the `<X-Cart>/classes/XLite/Module/XCExample/ProfileDemo/Controller/Customer/ProfileDemo.php` file and add the following method there:
+Once it is done, we go to the `classes/XLite/Module/XCExample/ProfileDemo/Controller/Customer/ProfileDemo.php` file and add the following methods there:
 
 ```php
 public function isAnonymous()
 {
     $profile = \XLite\Core\Auth::getInstance()->getProfile();
 
-    return !is_null($profile) ? $profile->getAnonymous() : true;
+    return $profile ? $profile->getAnonymous() : true;
+}
+
+public function getProfile()
+{
+	return \XLite\Core\Auth::getInstance()->getProfile();
 }
 ```
 
@@ -44,7 +49,9 @@ public function isAnonymous()
 $profile = \XLite\Core\Auth::getInstance()->getProfile();
 ```
 
-Now it is time to edit this page's template. We create the `<X-Cart>/skins/customer/modules/XCExample/ProfileDemo/page/profile_demo/body.twig` and define its content as follows: 
+`getProfile()` method allows us to access current user's profile model.
+
+Now it is time to edit this page's template. We create the `skins/customer/modules/XCExample/ProfileDemo/page/profile_demo/body.twig` and define its content as follows: 
 
 ```twig
 {% if this.isAnonymous() %}
@@ -62,4 +69,4 @@ After we save the template, we are done with this mod. Now we need to re-deploy 
 
 ## Module pack
 
-You can download this module from here: [https://www.dropbox.com/s/8auckv7fav3a7hz/XCExample-ProfileDemo-v5_3_0.tar](https://www.dropbox.com/s/8auckv7fav3a7hz/XCExample-ProfileDemo-v5_3_0.tar?dl=0)
+You can download this module from here: <https://www.dropbox.com/s/8auckv7fav3a7hz/XCExample-ProfileDemo-v5_3_0.tar?dl=0>
