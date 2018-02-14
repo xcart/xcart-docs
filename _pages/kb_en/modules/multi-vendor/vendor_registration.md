@@ -43,7 +43,7 @@ The vendor registration form includes the following fields:
 
 The company name, description and company address submitted via the vendor registration form will be used to pre-configure the vendor's profile settings and, if required, the vendor's ship-from address.  
 
-Once the form has been submitted, the store administrator will be notified of the new vendor registration and will find the registered vendor profile listed in the Users section of the Admin area:
+Once the form has been submitted, the store administrator will be able to see the registered vendor profile listed in the Users section of the Admin area:
 
 ![]({{site.baseurl}}/attachments/8749143/8716878.png)
 
@@ -55,6 +55,7 @@ The page with the prospective vendor's profile details provides the **Approve ve
 
 Once the vendor profile has been approved by the store administrator, they can log in to their personal area of the store's back end and start selling. 
 
+If necessary, email notifications can be used for such events as the creation, approval or rejection of a new vendor account.
 
 ## Method 2
  
