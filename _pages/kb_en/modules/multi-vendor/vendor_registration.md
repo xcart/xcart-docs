@@ -14,9 +14,12 @@ In a multi-vendor X-Cart 5 based store, new vendors are added using one of the f
 
 ## Method 1
 
-A prospective vendor registers a vendor profile using a special page; the store administrator is notified of the new vendor registration and can review the registered user profile in the store's Admin area. After reviewing the vendor profile the administrator can either approve the registration or reject it.
+A prospective vendor registers a vendor profile using the Become a seller page in the Customer area. The store administrator is notified of the new vendor registration and can review the registered user profile in the store's Admin area. After reviewing the vendor profile the administrator can either approve the registration or reject it.
 
-In X-Cart versions 5.3.3.0 and later, the page for vendor profile registration can be found at the following URL: 
+In X-Cart versions 5.3.3.0 and later, the Become a seller page can be accessed by clicking the **Become a seller** item in the Primary site menu:
+![xc5_mv_become_seller.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_become_seller.png)
+
+or via the URL: 
 `http://_<your-domain>_/_<x-cart-5-directory>_/cart.php?target=register_vendor`
 
 (Be sure to replace the part `http://<your-domain>/<x-cart-5-directory>` with the actual address of your X-Cart 5 store).
