@@ -69,4 +69,4 @@ After we save the template, we are done with this mod. Now we need to re-deploy 
 
 ## Module pack
 
-You can download this module from here: <https://www.dropbox.com/s/8auckv7fav3a7hz/XCExample-ProfileDemo-v5_3_0.tar?dl=0>
+You can download this module from here: <https://www.dropbox.com/s/8auckv7fav3a7hz/XCExample-ProfileDemo-v5_3_0.tar>
