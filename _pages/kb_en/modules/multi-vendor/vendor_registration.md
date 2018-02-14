@@ -53,7 +53,7 @@ The administrator will be able to view the profile details of the prospective ve
 
 The administrator will have to approve or reject the prospective vendor registration using the buttons **Approve vendor** / **Decline vendor**:
 
-![xc5_mv_approve_decline1.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_approve_decline1.png)
+![xc5_mv_approve_decline.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_approve_decline.png)
 
 Once the vendor profile has been approved by the store administrator, they can log in to their personal area of the store's back end and start selling. 
 
