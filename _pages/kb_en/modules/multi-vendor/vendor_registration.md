@@ -53,7 +53,8 @@ The page with the prospective vendor's profile details provides the **Approve ve
 
 ![]({{site.baseurl}}/attachments/8749143/8716879.png)
 
-Once the vendor profile has been approved by the store administrator, the vendor is notified by email. Now they can log in to their personal area of the store's back end and start selling. 
+Once the vendor profile has been approved by the store administrator, they can log in to their personal area of the store's back end and start selling. 
+
 
 ## Method 2
  
