@@ -49,11 +49,11 @@ Once the form has been submitted, a new (unapproved) vendor user will be created
 The store administrator will be able to see the registered vendor profile listed in the Users section of the Admin area:
 ![xc5_mv_unapproved_vendor_list.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_unapproved_vendor_list.png)
 
-The administrator can view the profile details of the prospective vendor by clicking on the respective entry in the store's user list.
+The administrator will be able to view the profile details of the prospective vendor by clicking on the respective entry in the store's user list.
 
-The page with the prospective vendor's profile details provides the **Approve vendor** and **Decline** **vendor** buttons allowing the store administrator to approve or reject the vendor registration:
+The administrator will have to approve or reject the prospective vendor registration using the buttons **Approve vendor** / **Decline vendor**:
 
-![]({{site.baseurl}}/attachments/8749143/8716879.png)
+![xc5_mv_approve_decline1.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_approve_decline1.png)
 
 Once the vendor profile has been approved by the store administrator, they can log in to their personal area of the store's back end and start selling. 
 
