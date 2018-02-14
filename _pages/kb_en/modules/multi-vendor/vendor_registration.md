@@ -43,9 +43,11 @@ The vendor registration form includes the following fields:
 
 The company name, description and company address submitted via the vendor registration form will be used to pre-configure the vendor's profile settings and, if required, the vendor's ship-from address.  
 
-Once the form has been submitted, the store administrator will be able to see the registered vendor profile listed in the Users section of the Admin area:
+Once the form has been submitted, a new (unapproved) vendor user will be created in the store and a Thank you page will be displayed:
+![xc5_mv_thankyou_page.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_thankyou_page.png)
 
-![]({{site.baseurl}}/attachments/8749143/8716878.png)
+The store administrator will be able to see the registered vendor profile listed in the Users section of the Admin area:
+![xc5_mv_unapproved_vendor_list.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_unapproved_vendor_list.png)
 
 The administrator can view the profile details of the prospective vendor by clicking on the respective entry in the store's user list.
 
