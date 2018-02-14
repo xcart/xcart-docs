@@ -27,6 +27,7 @@ Below are some guides on how to translate your store into another language:
 *  {% link "Installing language packages" ref_NH3w8sSS %}
 *  {% link "Switching the language in Admin area" ref_x5oSN86B %}
 *  {% link "Translating labels" ref_2CQ8HuY4 %}
+*  {% link "Translating news, menus and static pages" ref_7I70QnHa %}
 *  {% link "Translating product catalog into another language" ref_5MQvg8Mm %}
 
 
