@@ -25,7 +25,7 @@ published: true
 
  и в нижнем меню сайта
 
-![3.jpg]({{site.baseurl}}/attachments/ref_2V0wZ5qu/3.jpg)
+![0.jpg]({{site.baseurl}}/attachments/ref_2V0wZ5qu/0.jpg)
 
 Товар, выставленный на распродажу, отмечен ярлыком с размером скидки в процентах. Цена указана уже с учётом скидки. 
 
