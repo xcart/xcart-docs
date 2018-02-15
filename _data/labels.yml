@@ -4,7 +4,7 @@
 
 'X-Cart Knowledge Base':
     en: 'X-Cart Knowledge Base'
-    ru: 'База знаний X-Cart'
+    ru: 'Инструкции пользователя X-Cart'
 
 'devs_tagline':
     en: 'Essential resources for X-Cart 5 developers'
@@ -12,7 +12,7 @@
 
 'kb_tagline':
     en: 'Everything you need to know to manage your X-Cart 5 store'
-    ru: 'Все, что нужно знать, чтобы грамотно управлять магазином X-Cart 5'
+    ru: 'Все, что нужно знать, чтобы грамотно управлять магазином на X-Cart'
 
 'Sorry, this page was not found':
     en: 'Sorry, this page was not found'
@@ -60,10 +60,10 @@
 
 'Go to knowledge base':
     en: "Go to knowledge base"
-    ru: "База знаний"
+    ru: "Инструкции пользователя"
 
 'Go to knowledge base reverse':
-    en: "База знаний"
+    en: "Инструкции пользователя"
     ru: "Go to knowledge base"
 
 'Go to developer docs':
