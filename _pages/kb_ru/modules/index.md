@@ -15,3 +15,4 @@ icon: puzzle
 *   {% link "Цифровые товары" ref_egoods %}
 *   {% link "Авторизация через соцсети" ref_sociallogin %}
 *   {% link "Поддержание актуальных данных о количестве товаров" ref_inventory %}
+*   {% link "Запуск распродажи" ref_2V0wZ5qu %}
