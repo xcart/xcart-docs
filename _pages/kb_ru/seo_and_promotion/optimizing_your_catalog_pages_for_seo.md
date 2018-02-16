@@ -21,15 +21,15 @@ published: false
 
 Активируйте создание простых ссылок в разделе **Настройка магазина / SEO настройки** и настройте семантические ссылки для товаров в разделе **Маркетинг** на странице товара:
 
-   ![xc5_seo_product_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_clean_url.png)
+   ![1.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/1.jpg)
 
 для категорий (на странице информации о категории):
 
-   ![xc5_seo_category_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_clean_url.png)
+   ![2.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/2.jpg)
 
 и для информационных страниц (в разделе **Содержание / Страницы**):
 
-   ![xc5_seo_page_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_page_clean_url.png)
+   ![3.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/3.jpg)
 
 X-Cart создаёт семантическую ссылку автоматически при включённой опции **Автоматическая генерация ЧПУ**. Отключите опцию, чтобы редактировать существующую или задать простую ссылку вручную.
 
@@ -48,30 +48,30 @@ X-Cart создаёт семантическую ссылку автоматич
 
 На странице **Настройка магазина / SEO настройки** укажите заголовок сайта по умолчанию и заголовок домашней страницы:
 
-   ![xc5_seo_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_title.png)
+   ![4.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/4.jpg)
 
 Для редактирования основного заголовка сайта нажмите **Изменить** рядом с полем **Заголовок сайта по умолчанию**. Откроется страница редактирования языков с меткой _default-site-title_, которая отвечает за название сайта:
 
-   ![xc5_seo_default_site_title_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_site_title_label.png)
+   ![5.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/5.jpg)
 
 Для редактирования заголовка домашней страницы нажмите **Изменить** в секции **Заголовок и мета-данные главной страницы**. Откроется раздел редактирования главной страницы **Содержание / Главная страница**:
 
-   ![xc5_seo_home_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_home_page_title.png)
+   ![6.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/6.jpg)
 
 Секция **Формат заголовка страницы** на странице **Настройка магазина / SEO настройки** отвечает за формат составных заголовков страниц:
 
-   ![xc5_seo_page_title_format.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_page_title_format.png)
+   ![7.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/7.jpg)
 
 На страницах товаров, категорий и на информационных страницах задайте объектную часть заголовка:
 
    *  в поле **Заголовок страницы товара** на странице товара:
-   ![xc5_seo_product_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_page_title.png)
+   ![8.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/8.jpg)
 
    *  в  поле **Заголовок страницы категории** на странице категории:
-   ![xc5_seo_category_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_page_title.png)
+   ![9.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/9.jpg)
 
    * в поле **Заголовок страницы** на странице информационного раздела:
-   ![xc5_seo_content_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_content_page_title.png)
+   ![10.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/10.jpg)
 
 Мета-описание даёт краткий обзор содержания страницы. Пример:
 
@@ -88,30 +88,30 @@ X-Cart создаёт семантическую ссылку автоматич
 X-Cart задаёт мета тэги _описание_ и _ключевые слова_ для каждой страницы.
 
 На странице **Настройка магазина / SEO настройки** укажите описание и ключевые слова сайта и главной страницы сайта:
-   ![xc5_seo_meta_seo_settings.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_meta_seo_settings.png)
+   ![11.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/11.jpg)
 
 Для редактирования описания сайта нажмите **Изменить** рядом с полем **Описание сайта (meta description) по умолчанию**. Откроется страница редактирования языковых меток, нажмите _default-meta-description_ и измените текст:
    
-   ![xc5_seo_default_meta_description_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_meta_description_label.png)
+   ![12.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/12.jpg)
 
 To edit the default site meta keywords, click on the [Edit] link for the respective field. This will get you to the Edit labels section where you will be able to edit the language label _default-meta-keywords_ in which the default site meta keywords are stored:
    
-   ![xc5_seo_default_meta_keywords_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_meta_keywords_label.png)
+   ![13.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/13.jpg)
 
 Для редактирования ключевых слов нажмите **Изменить** рядом с полем **Ключевые слова сайта (meta keywords) по умолчанию** и измените текст языковой метки _default-meta-keywords_:
 
-   ![xc5_seo_home_page_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_home_page_meta.png)
+   ![14.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/14.jpg)
 
 Для редактирования описания и ключевых слов домашней страницы перейдите в раздел **Содержание / Главная страница** по ссылке **Изменить** в секции **Заголовок и мета-данные главной страницы**. Задайте описание и ключевые слова для товаров, категорий и информационных страниц:
 
    *  на странице товара:
-   ![xc5_seo_product_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_meta.png)
+   ![15.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/15.jpg)
 
    *  на странице категории:
-   ![xc5_seo_category_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_meta.png)
+   ![16.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/16.jpg)
 
    * на странице информационного раздела:
-   ![xc5_seo_content_page_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_content_page_meta.png)
+   ![17.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/17.jpg)
 
 ## Файл robots.txt 
 
