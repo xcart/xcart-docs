@@ -7,32 +7,27 @@ title: Поисковая оптимизация каталога
 order: 20
 published: false
 ---
-When working on the SEO optimization of your X-Cart store, the following things may require your attention:
+Поисковая оптимизация включает настройку простых ссылок, заголовков и мета-элементов, файла robots.txt и XML каты сайта.
 
-   *   [Clean URLs](#clean-urls)
-   *   [Title and Meta elements](#title-and-meta-elements)
-   *   [robots.txt](#robotstxt)
-   *   [XML sitemap](#xml-sitemap)
+## Простые ссылки
 
-## Clean URLs
+Страницы X-Cart генерируются динамически. Адрес каждой страницы также генерируется динамически на основе запроса к базе магазина: http://магазин.ру/cart.php?target=product&product_id=44
 
-The pages of your X-Cart based store are generated dynamically, and the URL of each page is also formed dynamically based on a query to the store's database. For example, a typical product page URL looks like the following: `http://www.example.com/xcart/cart.php?target=product&product_id=31`.
+Динамические ссылки, содержащие строки запросов, представляют сложность для поисковой оптимизации, т.к. препятствуют индексации страниц поисковыми системами. Посетителям сайтов сложно читать и запоминать такие ссылки.
 
-Dynamic URLs containing query strings pose a problem for SEO, because they stop many search engines from indexing the pages in which they are used. They are also difficult to read and remember for your store's human visitors.
+В отличие от динамических, простые ссылки легко индексируются поисковиками и удобны для восприятия. При использовании простых ссылок вместо оригинальных динамических адрес страницы выглядит так: http://магазин.ру/ru/kot.html Администратор сам устанавливает текст простых ссылок.
 
-To solve the problems posed by dynamic URLs, we recommend using the so-called "clean" URLs feature. Clean URLs are SEO-friendly and human-readable URLs that are used instead of the original dynamic ones. With clean URLs enabled, the above cited page URL could look like `http://www.example.com/xcart/cup-of-mojo-bluetooth-speaker.html` or  `http://www.example.com/xcart/cup-of-mojo-speaker.html` (You have full control of what the URL says to your customers.)
+Подробнее о создании простых ссылок рассказано в разделе {% link "Настройка семантических ссылок" ref_7IDJJdrM  %}.
 
-Information on setting up the clean URLs feature in X-Cart 5 is available in the section {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %} of this manual.
-
-In your store, clean URLs can be defined for products (see the Marketing section of the product information page when adding a new product or editing an existing one):
+Настройте семантические ссылки для товаров (в разделе **Маркетинг** на странице товара):
 
    ![xc5_seo_product_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_clean_url.png)
 
-categories:
+для категорий (на странице информации о категории):
 
    ![xc5_seo_category_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_clean_url.png)
 
-and content pages in the Pages section (**Content** > **Pages**):
+и для информационных страниц (в разделе **Содержание / Страницы**):
 
    ![xc5_seo_page_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_page_clean_url.png)
 
