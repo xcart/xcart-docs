@@ -23,11 +23,11 @@ published: false
 
    ![1.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/1.jpg)
 
-для категорий (на странице информации о категории):
+для категорий на странице информации о категории:
 
    ![2.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/2.jpg)
 
-и для информационных страниц (в разделе **Содержание / Страницы**):
+и для информационных страниц в разделе **Содержание / Страницы**:
 
    ![3.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/3.jpg)
 
