@@ -113,10 +113,11 @@ To edit the default site meta keywords, click on the [Edit] link for the respect
    * на странице информационного раздела:
    ![xc5_seo_content_page_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_content_page_meta.png)
 
-## robots.txt 
-Another thing to consider when dealing with the SEO optimization of your X-Cart store is the file robots.txt.
+## Файл robots.txt 
 
-The file robots.txt is used to give instructions about the site to web robots, and its primary function is to block web robots from accessing the pages of your site that do not need to be indexed by search engines. Your X-Cart store comes bundled with a robots.txt file that should be good for any store installed in the root (top-level directory) of your domain. If, however, your X-Cart store is installed in a subdirectory off the domain root, you will need to take a few additional steps to ensure that the robots.txt file for your store actually works (see further below for instructions). 
+Файл _robots.txt_ также предназначен для поисковой оптимизации.
+
+_Rrobots.txt_ - текстовый файл с инструкциями для поисковых роботов. Функция файла - не допускать поисковых роботов к страницам, которые нельзя индексировать. Файл действует, когда магазин установлен в корневой директории домена. Если магазин установлен в другой директории, потребуются изменения для работы файла. 
 
 Simply put, when a robot looks for the file robots.txt, it strips the path component from the URL (everything from the first single slash), and puts "robots.txt" in its place. For example, on `www.example.com`, the robots will expect to find the robots.txt file at `www.example.com/robots.txt`. If your store's address is `www.example.com`, your store's robots.txt file can be found exactly at that location, which means it can be accessed by web robots ok, and nothing needs to be done. However, if your X-Cart store is installed, for example, at `www.example.com/shop`, the location of the file robots.txt is `www.example.com/shop/robots.txt`. That is not ok and needs to be fixed. 
 
