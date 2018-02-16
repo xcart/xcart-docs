@@ -50,11 +50,11 @@ X-Cart создаёт семантическую ссылку автоматич
 
    ![xc5_seo_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_title.png)
 
-To edit the default site title, click on the [Edit] link for the respective field. This will get you to the Edit labels section where you will be able to edit the  language label _default-site-title_ in which the default site title is stored:
+Для редактирования основного заголовка сайта нажмите **Изменить** рядом с полем **Заголовок сайта по умолчанию**. Откроется страница редактирования языков с меткой `<default-site-title>`, которая отвечает за название сайта:
 
    ![xc5_seo_default_site_title_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_site_title_label.png)
 
-To edit the title for the Home page, click on the [Edit] link at the bottom of the Home page title and meta section. You will be redirected to the Front page settings page (**Content** > **Front page**), which is the place where you can adjust the Home page title:
+Для редактирования заголовка домашней страницы нажмите **Изменить** в секции **Заголовок и мета-данные главной страницы**. Откроется раздел редактирования главной страницы **Содержание / Главная страница**:
 
    ![xc5_seo_home_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_home_page_title.png)
 
