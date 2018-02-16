@@ -19,7 +19,7 @@ published: false
 
 Подробнее о создании простых ссылок рассказано в разделе {% link "Настройка семантических ссылок" ref_7IDJJdrM  %}.
 
-Активируйте создание простых ссылок в разделе **Настройка магазина / SEO настройки** и настройте семантические ссылки для товаров (в разделе **Маркетинг** на странице товара):
+Активируйте создание простых ссылок в разделе **Настройка магазина / SEO настройки** и настройте семантические ссылки для товаров в разделе **Маркетинг** на странице товара:
 
    ![xc5_seo_product_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_clean_url.png)
 
@@ -34,19 +34,19 @@ published: false
 X-Cart создаёт семантическую ссылку автоматически при включённой опции **Автоматическая генерация ЧПУ**. Отключите опцию, чтобы редактировать существующую или задать простую ссылку вручную.
 
 ## Заголовки и мета-элементы
-The HEAD section of every page in your store contains elements providing metadata about the page. Some of these elements (page title, meta description and meta keywords) may have a significant impact on how the page is ranked by search engines and how it is described in search engine results pages. In X-Cart, you have substantial control over the meta elements and can use them for SEO optimization.
+Верхняя часть страницы содержит элементы, сообщающие мета-данные страницы. Элементы заголовок страницы, мета-описание и мета ключевые слова влияют на вес страницы в поисковых системах и её описание в результатах поискового запроса. Администратор магазина X-Cart задаёт мета-данные, что способствует поисковой оптимизации.
 
-The title element contained in the `<title>` tag defines the page title, for example:
+Содержимое тэга `<title>` определяет заголовок страницы:
 
-`<title>*Your company name* / Catalog</title>`
+`<title>*Название магазина* / Каталог</title>`
 
-This element appears in the browser title bar when the page is opened in a web browser; when the page is bookmarked, the title element is also used to describe the page in the bookmarks list.
+Элемент отображается в строке заголовка браузера, когда страница открывается в браузере. Если страница добавлена в закладки, элемент заголовка используется как название страницы в списке закладок.
 
-The title element is important for search engines. The text contained in the title tag of a page is one of the most important factors that determine how the page is ranked. In addition to that, in all major search engines, the text of the title element is displayed as the title of the page in the search results.
+Содержимое тэга заголовка определяет степень важности страницы в поисковых системах и отображается как заголовок страницы в результатах поиска.
 
-X-Cart provides some controls allowing the store administrator to adjust the title element.
+Администратор магазина устанавливает заголовок на своё усмотрение.
 
-First, on the SEO settings page (**Store setup** > **SEO settings**), you can access the sections to set the default site title and the title for the site's home page:
+На странице **Настройка магазина / SEO настройки** укажите заголовок сайта по умолчанию и заголовок домашней страницы:
 
    ![xc5_seo_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_title.png)
 
