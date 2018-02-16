@@ -58,7 +58,7 @@ X-Cart создаёт семантическую ссылку автоматич
 
    ![xc5_seo_home_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_home_page_title.png)
 
-In the Page title format section of the SEO settings page there is also a set of controls that enable you to set the format of complex page titles:
+Секция **Формат заголовка страницы** на странице **Настройка магазина / SEO настройки** отвечает за формат составных заголовков страниц:
 
    ![xc5_seo_page_title_format.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_page_title_format.png)
 
