@@ -5,7 +5,7 @@ updated_at: '2018-02-16 12:58 +0300'
 identifier: ref_0EHqE8sY
 title: Поисковая оптимизация каталога
 order: 20
-published: false
+published: true
 ---
 Поисковая оптимизация включает настройку простых ссылок, заголовков и мета-элементов, файла robots.txt и XML каты сайта.
 
