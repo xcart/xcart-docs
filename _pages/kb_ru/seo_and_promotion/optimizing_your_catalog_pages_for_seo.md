@@ -62,15 +62,15 @@ X-Cart создаёт семантическую ссылку автоматич
 
    ![xc5_seo_page_title_format.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_page_title_format.png)
 
-On the pages of products and categories, as well as on the content pages in the Pages section (**Content** > **Pages**), you can find the fields to set the page title (or rather the object name part of the page title):
+На страницах товаров, категорий и на информационных страницах задайте объектную часть заголовка:
 
-   *  the Product page title field on the product page:
+   *  в поле **Заголовок страницы товара** на странице товара:
    ![xc5_seo_product_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_page_title.png)
 
-   *  the Category page title field on the category page:
+   *  в  поле **Заголовок страницы категории** на странице категории:
    ![xc5_seo_category_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_page_title.png)
 
-   * the Content page title field on a content page:
+   * в поле **Заголовок страницы** на странице информационного раздела:
    ![xc5_seo_content_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_content_page_title.png)
 
 The meta description tag provides a brief summary of a page's content; for example:
