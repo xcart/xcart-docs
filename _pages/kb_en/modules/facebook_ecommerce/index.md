@@ -3,10 +3,14 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-16 01:48 +0400'
 identifier: ref_LA0TBHEA
-title: ''
+title: Facebook eCommerce Module
 order: 100
 published: false
 ---
+
+
+
+
 ![xc5_fecommerce_module_in_mktplce.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_module_in_mktplce.png)
 
 ![xc5_fecommerce_settings_link.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_settings_link.png)
@@ -40,9 +44,3 @@ published: false
 ![xc5_fecommerce_fb_products_create_catalog4.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_fb_products_create_catalog4.png)
 
 ![xc5_fecommerce_fb_products_add_product_feed.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_fb_products_add_product_feed.png)
-
-
-
-
-
-
