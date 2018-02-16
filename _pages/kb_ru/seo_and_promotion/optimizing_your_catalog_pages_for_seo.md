@@ -125,8 +125,8 @@ _Rrobots.txt_ - текстовый файл с инструкциями для �
 
 ## XML карта сайта
 
-Another thing that should be checked upon when SEO-optimizing your X-Cart store is XML sitemap. XML sitemap is one or more xml files whose purpose is exactly the opposite of robots.txt: your store's XML sitemap informs search engines about the URLs on your store website that are available for crawling. To enable search engines to crawl your website better, we strongly recommend submitting your store's XML sitemap to search engines via the inclusion of the XML sitemap URL into robots.txt or manual submission of the URL directly to your chosen search engine. For more info on the use of XML sitemap, see the section {% link "Submitting your shop to search engines" ref_OqJ2oZTE %} of this manual.
+XML карта сайта - один или несколько xml файлов, где отражены ссылки на страницы сайта, которые подлежат индексации поисковыми системами. Чтобы поисковики быстрее определяли карту сайта, разместите ссылку на неё в файле _robots.txt_ или напрямую в инструментах поисковой системы. Дополнительная информация о XML карте сайта: Submitting your shop to search engines.
 
-_See also:_
+_Дополнительная информация (статья в блоге на английском языке):_
 
 *   [SEO for beginners. Part 1: First Steps in Making Your Store Visible to Search Engines](http://blog.x-cart.com/seo-for-beginners-first-steps-in-making-your-store-visible-to-search-engines.html)
