@@ -33,7 +33,7 @@ published: false
 
 X-Cart создаёт семантическую ссылку автоматически при включённой опции **Автоматическая генерация ЧПУ**. Отключите опцию, чтобы редактировать существующую или задать простую ссылку вручную.
 
-## Title and Meta elements
+## Заголовки и мета-элементы
 The HEAD section of every page in your store contains elements providing metadata about the page. Some of these elements (page title, meta description and meta keywords) may have a significant impact on how the page is ranked by search engines and how it is described in search engine results pages. In X-Cart, you have substantial control over the meta elements and can use them for SEO optimization.
 
 The title element contained in the `<title>` tag defines the page title, for example:
