@@ -50,7 +50,7 @@ X-Cart создаёт семантическую ссылку автоматич
 
    ![xc5_seo_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_title.png)
 
-Для редактирования основного заголовка сайта нажмите **Изменить** рядом с полем **Заголовок сайта по умолчанию**. Откроется страница редактирования языков с меткой `<default-site-title>`, которая отвечает за название сайта:
+Для редактирования основного заголовка сайта нажмите **Изменить** рядом с полем **Заголовок сайта по умолчанию**. Откроется страница редактирования языков с меткой _default-site-title_, которая отвечает за название сайта:
 
    ![xc5_seo_default_site_title_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_site_title_label.png)
 
@@ -73,25 +73,24 @@ X-Cart создаёт семантическую ссылку автоматич
    * в поле **Заголовок страницы** на странице информационного раздела:
    ![xc5_seo_content_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_content_page_title.png)
 
-The meta description tag provides a brief summary of a page's content; for example:
+Мета-описание даёт краткий обзор содержания страницы. Пример:
 
-`<meta name="description" content="Welcome to X-Cart Demo Store!It illustrates operation and features of X-Cart - all-in-one eCommerce solution for swift and easy launch of a professional online store. Orders placed here cannot be fulfilled as all the sample products listed in this store are for demonstration and testing purposes only.">`
+`<meta name="description" content="Вы открыли дэмо-версию магазина X-Cart, которая демонстрирует возможности полнофункиональной системы X-Cart, предназначенной для лёгкого и быстрого запуска онлайн магазина. Размещённые в магазине заказы не обрабатываются, т.к. магазин предназначен только для ознакомления.">`
 
-The description is the text that goes between the quotation marks after the "content=" portion of the tag.
-This tag comes in handy for SEO because it allows you to influence the description of your store's pages in the web crawlers that support this tag. Different crawlers use this tag differently, but you should expect that if the meta description of your page is deemed relevant by a web crawler, at least a portion of it will be displayed as the description of the page in the search results. If this description is enticing enough, you may get more targeted traffic to your site.
+Описание - текст в кавычках и после части тэга _content=_. Тэг описания важен для поисковой оптимизации, т.к. позволяет редактировать описание сайта в поисковых роботах, которые поддерживают этот тэг. Роботы по-разному используют тэг описания, но если мета-описание страницы признано роботом относящимся к поисковому запросу, хотя бы его часть будет выдана в результатах поиска в качестве описания страницы. Чем информативнее описание, тем выше целевой траффик сайта.
 
-The meta keywords tag is another meta tag that has some significance for SEO. It allows you to provide relevant keywords for your pages; for example:
+Метатэг _keywords_ (ключевые слова) также предназначен для поисковых систем и позволяет указывать ключевые слова, относящиеся к сайту:
 
-`<meta name="keywords" content="shop, shopping cart, web store, gift certificates, wish list, top sellers" />`
+`<meta name="keywords" content="магазин, корзина, интернет магазин, подарочный сертификат, список желаний, лидеры продаж" />`
 
-Today, very few search engines rely on this tag for information about a page. However, you can still try to use this tag to reinforce the terms you think a page is important for.
+Многие поисковики пропускают данный параметр, но лучше указать ключевые слова.
 
-In X-Cart, a meta description and keywords tags can be defined for every page of the store site.
+X-Cart задаёт мета тэги _описание_ и _ключевые слова_ для каждой страницы.
 
-On the SEO settings page (**Store setup** > **SEO settings**), you can access the sections for setting the default site meta description and keywords, as well as the meta description and keywords for the site's home page:
+На странице **Настройка магазина / SEO настройки** укажите описание и ключевые слова сайта и главной страницы сайта:
    ![xc5_seo_meta_seo_settings.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_meta_seo_settings.png)
 
-To edit the default site meta description, click on the [Edit] link for the respective field. This will get you to the Edit labels section where you will be able to edit the language label _default-meta-description_ in which the default meta description is stored:
+Для редактирования описания сайта нажмите **Изменить** рядом с полем **Описание сайта (meta description) по умолчанию**. Откроется страница редактирования языковых меток, нажмите _default-meta-description_ и измените текст:
    
    ![xc5_seo_default_meta_description_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_meta_description_label.png)
 
