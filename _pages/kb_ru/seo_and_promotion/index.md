@@ -14,3 +14,4 @@ categories:
   - home
 ---
 *   {% link "Настройка скидочных купонов" ref_coupons %}
+*   {% link "Поисковая оптимизация каталога" ref_0EHqE8sY %}
