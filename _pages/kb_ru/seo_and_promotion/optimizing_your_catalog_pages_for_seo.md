@@ -98,19 +98,19 @@ To edit the default site meta keywords, click on the [Edit] link for the respect
    
    ![xc5_seo_default_meta_keywords_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_meta_keywords_label.png)
 
-To edit the meta description and keywords for the Home page, click on the [Edit] link at the bottom of the Home page title and meta section. You will be redirected to the Front page settings page (**Content** > **Front page**), which is the place where you can adjust the Home page meta description and keywords:
+Для редактирования ключевых слов нажмите **Изменить** рядом с полем **Ключевые слова сайта (meta keywords) по умолчанию** и измените текст языковой метки _default-meta-keywords_:
 
    ![xc5_seo_home_page_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_home_page_meta.png)
 
-On the pages of products and categories, as well as on the content pages in the Pages section (**Content** > **Pages**), you can find the fields to set the meta description and meta keywords for the respective pages:
+Для редактирования описания и ключевых слов домашней страницы перейдите в раздел **Содержание / Главная страница** по ссылке **Изменить** в секции **Заголовок и мета-данные главной страницы**. Задайте описание и ключевые слова для товаров, категорий и информационных страниц:
 
-   *  on the product page:
+   *  на странице товара:
    ![xc5_seo_product_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_meta.png)
 
-   *  on the category page:
+   *  на странице категории:
    ![xc5_seo_category_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_meta.png)
 
-   * on the content page:
+   * на странице информационного раздела:
    ![xc5_seo_content_page_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_content_page_meta.png)
 
 ## robots.txt 
