@@ -94,15 +94,15 @@ X-Cart задаёт мета тэги _описание_ и _ключевые с
    
    ![12.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/12.jpg)
 
-To edit the default site meta keywords, click on the [Edit] link for the respective field. This will get you to the Edit labels section where you will be able to edit the language label _default-meta-keywords_ in which the default site meta keywords are stored:
+Для редактирования ключевых слов нажмите **Изменить** рядом с полем **Ключевые слова сайта (meta keywords) по умолчанию** и измените текст языковой метки _default-meta-keywords_::
    
    ![13.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/13.jpg)
 
-Для редактирования ключевых слов нажмите **Изменить** рядом с полем **Ключевые слова сайта (meta keywords) по умолчанию** и измените текст языковой метки _default-meta-keywords_:
+Для редактирования описания и ключевых слов домашней страницы перейдите в раздел **Содержание / Главная страница** по ссылке **Изменить** в секции **Заголовок и мета-данные главной страницы**:
 
    ![14.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/14.jpg)
 
-Для редактирования описания и ключевых слов домашней страницы перейдите в раздел **Содержание / Главная страница** по ссылке **Изменить** в секции **Заголовок и мета-данные главной страницы**. Задайте описание и ключевые слова для товаров, категорий и информационных страниц:
+ Задайте описание и ключевые слова для товаров, категорий и информационных страниц:
 
    *  на странице товара:
    ![15.jpg]({{site.baseurl}}/attachments/ref_0EHqE8sY/15.jpg)
