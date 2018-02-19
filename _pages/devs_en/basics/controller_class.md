@@ -1,15 +1,15 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2015-01-13 00:00'
 title: Controllers
 identifier: ref_hkVaxgds
-updated_at: 2015-01-13 00:00
-layout: article_with_sidebar
-lang: en
 order: 10
 categories:
-- Developer docs
-- Demo module
+  - Developer docs
+  - Demo module
+published: true
 ---
-
 ## Introduction
 
 **Controller** is a class that is responsible for request handling in X-Cart. This article aims to give a basic understanding of how controllers work in X-Cart and how you can use them.
@@ -25,18 +25,18 @@ categories:
 
 ## Understanding of Controller classes
 
-When X-Cart receives a request to one of its end-points – `cart.php` or `admin.ph`p – it starts looking for an appropriate Controller class based on **target** parameter in the request. If target is not specified, it is assumed as **main**.
+When X-Cart receives a request to one of its end-points – `cart.php` or `admin.php` – it starts looking for an appropriate Controller class based on **target** parameter in the request. If target is not specified, it is assumed as **main**.
 
 When X-Cart identifies controller class name based on the target parameter passed, it **upperscases** the first letter of each word separated by underscores and then remove underscores.
 
 *   If **target=main**, then controller class name will be **Main**;
 *   If **target=featured_products**, then controller name will become **FeaturedProducts** and so on.
 
-If you make a request to `admin.php`, script X-Cart identifies a controller class name and after that looks for it in the `<X-Cart>/classes/XLite/Controller/Admin/` folder and then in the
-`<X-Cart>/classes/XLite/Module/<DEV-ID>/<MODULE-ID>/Controller/Admin/` folders of each module.
+If you make a request to `admin.php`, script X-Cart identifies a controller class name and after that looks for it in the `classes/XLite/Controller/Admin/` folder and then in 
+`classes/XLite/Module/<DEV-ID>/<MODULE-ID>/Controller/Admin/` folder of each module.
 
-If you make a request to `cart.php`, X-Cart identifies a controller class name and then looks for it in the `<X-Cart>/classes/XLite/Controller/Customer/` folder and then in the
-`<X-Cart>/classes/XLite/Module/<DEV-ID>/<MODULE-ID>/Controller/Customer/` folders of each module as well.
+If you make a request to `cart.php`, X-Cart identifies a controller class name and then looks for it in the `classes/XLite/Controller/Customer/` folder and then in
+`classes/XLite/Module/<DEV-ID>/<MODULE-ID>/Controller/Customer/` folders of each module as well.
 
 When, controller class is found, X-Cart calls its `handleRequest()` method – see an implementation of the `processRequest()` method in the `\XLite` class ({% link "more about classnames in X-Cart" ref_FAgFbEx9 %}).
 
