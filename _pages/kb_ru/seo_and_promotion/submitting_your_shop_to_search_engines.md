@@ -15,7 +15,7 @@ published: false
 
 ![xc5_xml_sitemap_module.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_module.png)
 
-## Создание xml карты сайта
+## Создание XML карты сайта
 
 Активируйте модуль и нажмите **Настройки** или откройте раздел **Настройка магазина / SEO настройки / Карта сайта XML**. Вы попадёте в раздел **Карта сайта XML**.
 
@@ -33,15 +33,15 @@ published: false
 
 ![]({{site.baseurl}}/attachments/6389770/8719785.png)
 
-## Submitting your XML sitemap to search engines
+## Передача XML карты сайта поисковым системам
 
-You can find your XML sitemap URL at the top of the XML sitemap section in your store's Admin area (**Store setup** > **XML sitemap**):
+Найдите ссылку на xml карту сайта на странице настройки модуля **XML sitemap** в разделе **Настройка магазина / SEO настройки**:
 
 ![]({{site.baseurl}}/attachments/6389770/8719786.png)
 
-This URL specifies the location of your store's XML sitemap index. The index lists all the available XML files for your store (There can be more than one XML files due to restrictions on the size of individual XML files and the number of URLs in each XML file). 
+Ссылка показывает нахождение индекса xml карты сайта. Индекс содержит все существующие xml файлы сайта. XML файлов может быть несколько из-за ограничений на размер файла и количество ссылок на файл. 
 
-You can submit your store's XML sitemap to search engines using one of the following methods:
+Как сделать карту сайта доступной поисковым системам:
 
 *   Manually submit the XML sitemap URL directly to your chosen search engine via the interface provided by the search engine (For example, if submitting to Google, this would be via the Search Console Sitemaps tool, as is recommended by https://support.google.com/webmasters/answer/183668?hl=en). Manual direct submission of an XML sitemap to the search engine is a very reliable method and the one strongly recommended.
     Note that we have a redirect configured in .htaccess that allows to use the link shop.com/sitemap.xml instead of shop.com/cart.php?target=sitemap ("shop.com" should be replaced with the actual web address of your store). If using the direct manual submission method, you can use any one of these links - provided that you are using Apache, and clean URLs are working correctly for your store. If you are using a different type of web server, or clean URLs are not configured or not working for your store for some reason, please only use the XML sitemap URL provided at the top of the XML sitemap section (shop.com/cart.php?target=sitemap).
