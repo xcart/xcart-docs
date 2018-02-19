@@ -43,17 +43,17 @@ published: false
 
 Как сделать карту сайта доступной поисковым системам:
 
-*   Manually submit the XML sitemap URL directly to your chosen search engine via the interface provided by the search engine (For example, if submitting to Google, this would be via the Search Console Sitemaps tool, as is recommended by https://support.google.com/webmasters/answer/183668?hl=en). Manual direct submission of an XML sitemap to the search engine is a very reliable method and the one strongly recommended.
-    Note that we have a redirect configured in .htaccess that allows to use the link shop.com/sitemap.xml instead of shop.com/cart.php?target=sitemap ("shop.com" should be replaced with the actual web address of your store). If using the direct manual submission method, you can use any one of these links - provided that you are using Apache, and clean URLs are working correctly for your store. If you are using a different type of web server, or clean URLs are not configured or not working for your store for some reason, please only use the XML sitemap URL provided at the top of the XML sitemap section (shop.com/cart.php?target=sitemap).
+*   Укажите ссылку на xml карту сайта вручную в интерфейсе поисковой системы. Чтобы сделать файл карты сайта доступным _Google_, отправьте его в _Google_ с помощью инструмента [Search Console](https://support.google.com/webmasters/answer/183668?hl=ru "Магазин в поисковых системах"). Передача файла карты сайта врчную - надёжный и рекомендованный способ.
+    Обратите внимание, что в файле `.htaccess` настроена переадресация, поэтому наряду с www.магазин.ру/cart.php?target=sitemap действует и укороченная ссылка www.магазин.ру/sitemap.xml. Любую из этих ссылок можно передать поисковой системе, при условии, что вы используете Apache и для сайта настроены семантические ссылки.
     
-*   Add the link to your XML sitemap to the file robots.txt in your store site root. If you look at the contents of robots.txt, you will find that it contains an example of how to add an XML sitemap URL (This example is commented out):
+*   В файле `robots.txt` добавьте строку со ссылкой на xml карту сайта. В файле `robots.txt` вы найдёте пример создания такой строки:
 
 ```
 # Sitemap example
 # Sitemap: http://example.com/sitemap.xml
 ```
    
-   To add your XML sitemap URL to robots.txt, you simply need to uncomment the line with the URL and replace the example URL with your actual XML sitemap URL from your store's XML sitemap section (**Store setup** > **XML sitemap**).
+   Раскомментируйте строку и вместj примера ссылки вставьте ссылку на xml карту магазина со страницы **Настройка магазина / SEO настройки / Карта сайта XML**.
 
 *   Submit an automated ping-request to the search engine server (now supported only for Google and Bing). To use this method, you need to go to your store's XML sitemap section (**Store setup** > **XML sitemap**), select the checkbox(es) for the search engines to which you want to submit your XML sitemap (Google, or Bing, or both) and click the **Submit** button at the bottom of the page. 
 
