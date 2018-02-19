@@ -13,13 +13,17 @@ published: false
 
 Установите модуль по инструкциям в главе {% link "Установка модулей из Маркетплейса" ref_gpeZtm28 %}.
 
-![xc5_xml_sitemap_module.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_module.png)
+![1.jpg]({{site.baseurl}}/attachments/ref_68MWoBM6/1.jpg)
 
 ## Создание XML карты сайта
 
-Активируйте модуль и нажмите **Настройки** или откройте раздел **Настройка магазина / SEO настройки / Карта сайта XML**. Вы попадёте в раздел **Карта сайта XML**.
+Активируйте модуль и нажмите **Настройки** 
 
-![]({{site.baseurl}}/attachments/6389770/8719453.png)
+![2.jpg]({{site.baseurl}}/attachments/ref_68MWoBM6/2.jpg)
+
+или откройте раздел **Настройка магазина / SEO настройки / Карта сайта XML**. Вы попадёте в раздел **Карта сайта XML**.
+
+![3.jpg]({{site.baseurl}}/attachments/ref_68MWoBM6/3.jpg)
 
 Задайте параметры составления xml карты сайта:
 
@@ -31,13 +35,13 @@ published: false
 
 Кнопка **Создать XML-карту сайта** в верхней части страницы настроек модуля перестраивает xml карту, если вы изменили настройки.
 
-![]({{site.baseurl}}/attachments/6389770/8719785.png)
+![4.jpg]({{site.baseurl}}/attachments/ref_68MWoBM6/4.jpg)
 
 ## Передача XML карты сайта поисковым системам
 
 Найдите ссылку на xml карту сайта на странице настройки модуля **XML sitemap** в разделе **Настройка магазина / SEO настройки**:
 
-![]({{site.baseurl}}/attachments/6389770/8719786.png)
+![5.jpg]({{site.baseurl}}/attachments/ref_68MWoBM6/5.jpg)
 
 Ссылка показывает нахождение индекса xml карты сайта. Индекс содержит все существующие xml файлы сайта. XML файлов может быть несколько из-за ограничений на размер файла и количество ссылок на файл. 
 
@@ -57,7 +61,7 @@ published: false
 
 *   Отправьте поисковой системе запрос на автоматическое подключение (для _Google_  и _Bing / Yahoo_). Выберите поисковую систему (_Google_ и/или _Bing / Yahoo_) на странице настроек xml карты **Настройка магазина / SEO настройки / Карта сайта XML** и нажмите **Сохранить**. 
 
-![xc5_xml_sitemap_checkboxes.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_checkboxes.png)
+![6.jpg]({{site.baseurl}}/attachments/ref_68MWoBM6/6.jpg)
    
    Get-запрос (на получение атрибутов данных для обмена) будет отправлен на следующие адреса:
    
