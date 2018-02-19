@@ -60,7 +60,7 @@ Even though `<X-Cart>/skins/customer/body.twig` does not have a direct call for 
 
 This is straight-forward: once X-Cart finds such line, it would display a content of external template in this spot.
 
-`<X-Cart>/skinscustomer/body.tpl` template also calls for view list:
+`<X-Cart>/skins/customer/body.tpl` template also calls for view list:
 `{{ widget_list('body') }}`
 
 X-Cart allows to assign templates and widget classes into sets or - as we call them - 'view lists'. Essentially it is just a collection of widgets and templates. X-Cart also allows to display all these templates and widgets in one place by calling this view list. 
