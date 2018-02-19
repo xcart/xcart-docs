@@ -55,16 +55,16 @@ published: false
    
    Раскомментируйте строку и вместj примера ссылки вставьте ссылку на xml карту магазина со страницы **Настройка магазина / SEO настройки / Карта сайта XML**.
 
-*   Submit an automated ping-request to the search engine server (now supported only for Google and Bing). To use this method, you need to go to your store's XML sitemap section (**Store setup** > **XML sitemap**), select the checkbox(es) for the search engines to which you want to submit your XML sitemap (Google, or Bing, or both) and click the **Submit** button at the bottom of the page. 
+*   Отправьте поисковой системе запрос на автоматическое подключение (для _Google_  и _Bing / Yahoo_). Выберите поисковую систему (_Google_ и/или _Bing / Yahoo_) на странице настроек xml карты **Настройка магазина / SEO настройки / Карта сайта XML** и нажмите **Сохранить**. 
 
 ![xc5_xml_sitemap_checkboxes.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_checkboxes.png)
    
-   This sends get-requests to the following URLs:
+   Get-запрос (на получение атрибутов данных для обмена) будет отправлен на следующие адреса:
    
     *   http://google.com/webmasters/tools/ping?sitemap=%url%
     *   http://www.bing.com/webmaster/ping.aspx?siteMap=%url%
 
-For more info on sitemaps, see [http://www.sitemaps.org](http://www.sitemaps.org).
+На [сайте о картах сайта](http://www.sitemaps.org "Магазин в поисковых системах") вы найдёте дополнительную информацию. 
 
-# Automated re-generation of XML sitemap
-Your store's generated XML sitemap will be re-generated automatically every 24 hours if you have properly configured your server to periodically run X-Cart's script for periodic tasks **console.php** (for example, by cron). For more info on that, see {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
+# Автоматическая перестройка XML карты сайта
+Карта сайта автоматически перестраивается каждые 24 часа, если на сервере вы настроили периодический запуск скрипта `console.php`. Информация о периодических задачах: {% link "Настройка сервера для выполнения запланированных задач X-Cart" ref_cronjob28 %}.
