@@ -7,17 +7,17 @@ title: Магазин в поисковых системах
 order: 30
 published: false
 ---
-The module **XML Sitemap** for X-Cart 5 serves SEO purposes. It generates an XML sitemap that can help popular search engines to crawl your store website better. You can submit the XML sitemap generated using the module to the search engines of your choice. The module also provides automated submission of the generated XML sitemap to Google and Bing.
+Для поисковой оптимизации магазина воспользуйтесь модулем **XML Sitemap**. Модуль создаёт xml карту сайта, по которой поисковые системы индексируют страницы сайта. Вы можете передать карту сайта выбранным поисковикам вручную. Поисковым системам _Google_ и _Bing / Yahoo_ модуль показывает  нахождение файла карты сайта автоматически.
 
-## Installing the XML Sitemap module
+## Установка модуля XML Sitemap
 
-The module can be installed from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+Установите модуль по инструкциям в главе {% link "Установка модулей из Маркетплейса" ref_gpeZtm28 %}.
 
 ![xc5_xml_sitemap_module.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_module.png)
 
-## Configuring your XML sitemap
+## Создание xml карты сайта
 
-Once the module XML Sitemap has been installed, you will be able to access the XML sitemap section (**Store setup** > **XML sitemap**) in your store's Admin area.
+Активируйте модуль и нажмите **Настройки** или откройте раздел **Настройка магазина / SEO настройки / Карта сайта XML**. Вы попадёте в раздел **Карта сайта XML**.
 
 ![]({{site.baseurl}}/attachments/6389770/8719453.png)
 
