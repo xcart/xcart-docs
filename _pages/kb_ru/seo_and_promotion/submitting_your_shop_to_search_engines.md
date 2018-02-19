@@ -21,15 +21,15 @@ published: false
 
 ![]({{site.baseurl}}/attachments/6389770/8719453.png)
 
-In the XML sitemap section, you can adjust the settings based on which the XML sitemap for your store will be generated:
+Задайте параметры составления xml карты сайта:
 
-*   The subsection titled "**Mark the search engines you want to inform of the structure of your site using the site map**" allows you to specify the search engines to which the information from your site's XML sitemap should be made available.
-*   The settings "**Frequency of content renewal for X page**" allow you to specify how frequently specific types of pages on your store site are likely to change. The frequency of content renewal value provides general information to search engines and may not correlate exactly to how often they crawl the page. 
-*   The settings "**Priority for X page**" allow you to set the priority for specific types of pages on your store site — relative to other types of pages on your site. Valid values range from 0.0 to 1.0\. The priority value does not affect how your pages are compared to pages on other sites—it only lets the search engines know which pages you deem most important for the crawlers. The default priority value for all page types is 0.5. Search engines may use the priority information when selecting between URLs on the same site, so you can use this setting to increase the likelihood that your most important pages are present in a search index. Note that assigning a high priority to all of the page types on your site is not likely to help you. Since the priority is relative, it is only used to select between URLs on your site.
+*   **Отметьте поисковые системы, которые вы хотели бы оповестить о структуре вашего сайта с помощью карты сайта**: выберите поисковые системы, которые получат доступ к xml карте сайта.
+*   Опция **Частота обновления содержимого страницы** для различных страниц сайта: укажите, как часто обновляются страницы сайта. 
+*   Опция **Приоритет для страницы** для различных страниц сайта: Укажите приоритетность одних страниц сайта по отношению к другим. Значение изменяется от 0 до 1. Приоритетность указывает поисковыми системам, какие страницы сайта индексировать первыми. Значение приоритетности по умолчанию -  0,5 для всех страниц. Поисковые системы обращаются к параметру приоритетности при выборе между страницами одного сайта. С помщью этого параметра администратор определяет, какая из страниц сайта будет появляться в результатах поиска. Важно, что высокая приоритетность всех страниц не обеспечит индексирование всех из них, т.к. параметр используется только при выборе одной из страниц.
 
-Clicking the **Submit** button saves the changes you have made to the XML sitemap settings and - if the checkboxes for Google and/or Bing have been marked - submits an automated ping-request to the selected search engine(s) to submit the XML sitemap. 
+Нажмите **Сохранить**. Если в настройках отмечены галочки _Google_  и/или  _Bing / Yahoo_, выбранная поисковая система автоматически получает запрос на сохранение xml карты сайта. 
 
-The button **Generate XML-Sitemap** at the top of the page allows you to re-generate your store's XML sitemap after changing the settings.
+Кнопка **Создать XML-карту сайта** в верхней части страницы настроек модуля перестраивает xml карту, если вы изменили настройки.
 
 ![]({{site.baseurl}}/attachments/6389770/8719785.png)
 
