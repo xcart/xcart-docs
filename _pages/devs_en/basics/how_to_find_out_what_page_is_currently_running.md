@@ -135,7 +135,9 @@ Now, it is time to create a template defined in the `getDefaultTemplate()` metho
 
 We call our `getOurText()` method that analyzes current controller class and defines a message for a customer.
 
-_Note: we could have also checked the current page by analyzing **target** parameter of `{% link "\XLite\Core\Request" ref_hkVaxgds %}` object.
+{% note info %} 
+We could have also checked the current page by analyzing **target** parameter of `{% link "\XLite\Core\Request" ref_hkVaxgds %}` object.
+{% endnote %}
 
 
 Now, we need to re-deploy the store and check the results in customer store-front. You should see messages similar to:![]({{site.baseurl}}/attachments/524292/8356147.png)
