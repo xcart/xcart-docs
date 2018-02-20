@@ -26,6 +26,7 @@ _In this section:_
 *   {% link "eCC Desktop: Quickbooks integration" ref_0HbWTUok %}
 *   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
 *   {% link "E-goods" ref_ZszpDfxQ %}
+*   {% link "Facebook eCommerce Module" ref_LA0TBHEA %}
 *   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "Loyalty Program" ref_1Odyn6mT %}
