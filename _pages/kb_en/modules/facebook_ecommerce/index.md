@@ -11,7 +11,9 @@ published: true
 Social feeds are a good point to attract new visitors and boost sales, Facebook Marketing being one of the most popular and efficient. If you already have a Facebook account start using a free [X-Cart Facebook eCommerce](https://market.x-cart.com/addons/facebook-e-commerce.html "Facebook eCommerce Module") module right away to upload your products to Facebook Catalog and to create personalized ads that will allow reaching the right audience in the right place at the right time. 
 
 {% note info %}
-If you don't have a Facebook account as yet, don't lose time and create it now at https://www.facebook.com/business.
+
+If you don't have a Facebook account as yet, don't lose time and create it now at https://www.facebook.com/business
+
 {% endnote %}
 
 Facebook eCommerce module uploads your products to Facebook Catalog automatically and syncs the product data always keeping the catalog up-to-date. Let's check what you need to do to make use of it.
@@ -34,7 +36,9 @@ Facebook eCommerce module uploads your products to Facebook Catalog automaticall
   * Facebook Pixel ID : Here you need to place your Facebook Pixel ID 
   
   {% note info %}
+  
   If you don't have a Facebook Pixel ID yet, you can generate it as described at https://www.facebook.com/business/help/952192354843755.
+  
   {% endnote %}
 
   When defined, click the **Generate Product Feed** button to get a link that you should use to upload the product feed to your Facebook Catalog
