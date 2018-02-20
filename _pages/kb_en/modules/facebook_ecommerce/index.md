@@ -26,7 +26,9 @@ Install the module as described in {% link "Installing addons from the Marketpla
   
   ![xc5_fecommerce_module_in_mktplce.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_module_in_mktplce.png)
   
-Once installed the module will become available in the **Sales Channels** > **Facebook E-Commerce** section of the store admin area. Also, each product will gain an _Add to Facebook product feed_ setting in the Marketing section on the product details page that is enabled by default. All products with the enabled _Add to Facebook product feed_ setting will be automatically added to the product feed and uploaded to your Facebook Catalog.
+Once installed the module will become available in the **Sales Channels** > **Facebook E-Commerce** section of the store admin area. 
+
+Also, each product will gain an _Add to Facebook product feed_ setting in the Marketing section on the product details page that is enabled by default. All products with the enabled _Add to Facebook product feed_ setting will be automatically added to the product feed and uploaded to your Facebook Catalog.
 
 ### **Configure the module** 
 
