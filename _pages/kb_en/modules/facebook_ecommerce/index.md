@@ -37,7 +37,7 @@ Facebook eCommerce module uploads your products to Facebook Catalog automaticall
   * Facebook Pixel ID : Here you need to place your Facebook Pixel ID 
   
   {% note info %}
-  If you don't have a Facebook Pixel ID yet, you can generate it as described at [https://www.facebook.com/business/help/952192354843755](https://www.facebook.com/business/help/952192354843755 "Facebook eCommerce Module").
+  If you don't have a Facebook Pixel ID yet, you can generate it as described at [https://www.facebook.com/business/help/952192354843755](https://www.facebook.com/business/help/952192354843755 "Facebook eCommerce Module"). Facebook Pixel will allow tracking such events like _View Content/Search/Add to Cart/Initiate Checkout/Purchase_ and you can get stats on these event to work with sales funel, ads conversion and so on.
   {% endnote %}
   
   When defined, click the **Generate Product Feed** button to get a link that you should use to upload the product feed to your Facebook Catalog
@@ -48,6 +48,10 @@ Facebook eCommerce module uploads your products to Facebook Catalog automaticall
   ![xc5_fecommerce_url_generated.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_url_generated.png)
   
   When completed copy a _Product Feed URL_ that has been generated and paste it when creating a new catalog at https://www.facebook.com/products/catalogs/new.
+  
+  {% note info %}
+  The _Frequency of Product Feed renewal_ setting itself will not make renewals automatical. You'll need to set up console.php as described in https://kb.x-cart.com/general_setup/configuring_your_server_to_run_scheduled_x-cart_tasks.html
+  {% endnote %}
   
 3. Upload Product Feed to Facebook.
   
