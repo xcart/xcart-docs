@@ -16,7 +16,9 @@ If you don't have a Facebook account as yet, don't lose time and create it now a
 
 {% endnote %}
 
-Facebook eCommerce module uploads your products to Facebook Catalog automatically and syncs the product data always keeping the catalog up-to-date. Let's check what you need to do to make use of it.
+Facebook eCommerce module uploads your products to Facebook Catalog automatically and syncs the product data always keeping the catalog up-to-date. 
+
+{% toc Let's check what you need to do to make use of it. %}
 
 ### Install the Facebook eCommerce module 
 
