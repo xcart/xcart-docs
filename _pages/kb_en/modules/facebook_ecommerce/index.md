@@ -58,7 +58,7 @@ Once installed the module will become available in the **Sales Channels** > **Fa
   When completed copy a _Product Feed URL_ that has been generated and paste it when creating a new catalog at https://www.facebook.com/products/catalogs/new.
   
   {% note info %}
-  The _Frequency of Product Feed renewal_ setting itself will not make renewals automatical. You'll need to set up console.php as described in https://kb.x-cart.com/general_setup/configuring_your_server_to_run_scheduled_x-cart_tasks.html
+  The _Frequency of Product Feed renewal_ setting itself will not make renewals automatical. You'll need to set up console.php as described in {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
   {% endnote %}
   
 ### **Upload Product Feed to Facebook**
