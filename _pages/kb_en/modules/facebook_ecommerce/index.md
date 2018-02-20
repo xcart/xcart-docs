@@ -43,7 +43,9 @@ Once installed the module will become available in the **Sales Channels** > **Fa
   * Facebook Pixel ID : Here you need to place your Facebook Pixel ID 
   
   {% note info %}
-  If you don't have a Facebook Pixel ID yet, you can generate it as described at [https://www.facebook.com/business/help/952192354843755](https://www.facebook.com/business/help/952192354843755 "Facebook eCommerce Module"). Facebook Pixel will allow tracking such events like _View Content/Search/Add to Cart/Initiate Checkout/Purchase_ and you can get stats on these event to work with sales funel, ads conversion and so on.
+  If you don't have a Facebook Pixel ID yet, you can generate it as described at [https://www.facebook.com/business/help/952192354843755](https://www.facebook.com/business/help/952192354843755 "Facebook eCommerce Module"). 
+  
+  Facebook Pixel will allow tracking such events like _View Content/Search/Add to Cart/Initiate Checkout/Purchase_ and you can get stats on these event to work with sales funel, ads conversion and so on.
   {% endnote %}
   
   When defined, click the **Generate Product Feed** button to get a link that you should use to upload the product feed to your Facebook Catalog
