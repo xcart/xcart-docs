@@ -18,13 +18,17 @@ If you don't have a Facebook account as yet, don't lose time and create it now a
 
 Facebook eCommerce module uploads your products to Facebook Catalog automatically and syncs the product data always keeping the catalog up-to-date. Let's check what you need to do to make use of it.
 
-1. Install the Facebook eCommerce module as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}
+### Install the Facebook eCommerce module 
+
+Install the module as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}
   
   ![xc5_fecommerce_module_in_mktplce.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_module_in_mktplce.png)
   
-  Once installed the module will become available in the **Sales Channels** > **Facebook E-Commerce** section of the store admin area. Also, each product will gain an _Add to Facebook product feed_ setting in the Marketing section on the product details page that is enabled by default. All products with the enabled _Add to Facebook product feed_ setting will be automatically added to the product feed and uploaded to your Facebook Catalog.
+Once installed the module will become available in the **Sales Channels** > **Facebook E-Commerce** section of the store admin area. Also, each product will gain an _Add to Facebook product feed_ setting in the Marketing section on the product details page that is enabled by default. All products with the enabled _Add to Facebook product feed_ setting will be automatically added to the product feed and uploaded to your Facebook Catalog.
 
-2. Configure the module on the **Sales Channels** > **Facebook E-Commerce** section of the store admin area
+### Configure the module 
+
+  You can configure the Facebook e-Commerce module in the **Sales Channels** > **Facebook E-Commerce** section of the store admin area
   
   ![xc5_fecommerce_settings.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_settings.png)
   
@@ -53,7 +57,7 @@ Facebook eCommerce module uploads your products to Facebook Catalog automaticall
   The _Frequency of Product Feed renewal_ setting itself will not make renewals automatical. You'll need to set up console.php as described in https://kb.x-cart.com/general_setup/configuring_your_server_to_run_scheduled_x-cart_tasks.html
   {% endnote %}
   
-3. Upload Product Feed to Facebook.
+### Upload Product Feed to Facebook.
   
   To upload your product feed to Facebook go to [Catalog Manager](https://www.facebook.com/business/help/1659534074121655 "Facebook eCommerce Module") of your [Facebook Business account](https://business.facebook.com/overview/ "Facebook eCommerce Module") at https://www.facebook.com/products/
   
