@@ -54,10 +54,9 @@ Also, each product will gain an _Add to Facebook product feed_ setting in the Ma
   
   ![xc5_fecommerce_generate_prod_feed_w_id.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_generate_prod_feed_w_id.png)
   
-  It will take some time to generate a Product Feed URL depending on the overall store inventory.
-  ![xc5_fecommerce_url_generated.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_url_generated.png)
+  It will take some time to generate a Product Feed URL depending on the overall store inventory. When completed copy a _Product Feed URL_ that has been generated and paste it when creating a new catalog at https://www.facebook.com/products/catalogs/new.
   
-  When completed copy a _Product Feed URL_ that has been generated and paste it when creating a new catalog at https://www.facebook.com/products/catalogs/new.
+  ![xc5_fecommerce_url_generated.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_url_generated.png)
   
   {% note info %}
   The _Frequency of Product Feed renewal_ setting itself will not make renewals automatical. You'll need to set up console.php as described in {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
