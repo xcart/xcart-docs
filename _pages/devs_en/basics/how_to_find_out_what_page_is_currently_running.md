@@ -136,7 +136,7 @@ Now, it is time to create a template defined in the `getDefaultTemplate()` metho
 We call our `getOurText()` method that analyzes current controller class and defines a message for a customer.
 
 {% note info %} 
-We could have also checked the current page by analyzing **target** parameter of `{% link "\XLite\Core\Request" ref_hkVaxgds %}` object.
+We could have also checked the current page by analyzing **target** parameter of {% link "\XLite\Core\Request" ref_hkVaxgds %} object.
 {% endnote %}
 
 
