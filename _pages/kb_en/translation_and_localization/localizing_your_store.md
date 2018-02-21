@@ -12,6 +12,11 @@ redirect_from:
   - 'https://kb.x-cart.com/look_and_feel/localizing_your_store.html'
 ---
 
+This section will help you to set up your webstore based on your country localization parameters.
+
+{% note info %}
+If you want the prices to be displayed in the currency of your customers location use the {% link "Multicurrency Module" ref_2tPJubPU %}
+{% endnote %}
 
 1.  Go to the Localization section of your store's Admin area (**Store****setup** > **Localization**).
     ![]({{site.baseurl}}/attachments/6389828/8716749.png)
