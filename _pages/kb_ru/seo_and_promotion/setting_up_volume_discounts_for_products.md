@@ -7,41 +7,41 @@ title: Оптовые скидки
 order: 40
 published: false
 ---
-X-Cart 5 allows you to configure volume discounts. A volume discount may be expressed as a fixed amount or a percentage off the order subtotal amount. Unlike {% link "coupon discounts" ref_SGI1FqdC %}, volume discounts do not require your customers to enter any kind of secret code: a volume discount is applied automatically to any order that meets certain requirements. You define what these requirements should be. For example, you may create a discount that will be applied to orders with a subtotal amount equal to or greater than a certain amount, or will be applied to orders placed by users of a specific membership level.
+Скидка за объём предоставляется как фиксированная сумма или процент от стоимости заказа. Чтобы получить оптовую скидку, покупатель не вводит никакой {% link "код" ref_coupons %}. Если заказ отвечает требованиям оптовой программы, скидка применяется автоматически. Условия оптовой программы устанавливает администратор магазина: скидка зависит от суммы заказа и группы покупателя.
 
-When a volume discount is applied, the cart and checkout pages will show the discount amount on a separate line:
+Если к заказу применима оптовая скидка, она отражена отдельной строкой в корзине и на странице оплаты заказа:
 
 ![]({{site.baseurl}}/attachments/6389792/8719445.png)
 
-For purchases with a subtotal amount below the level needed to get a discount, a message like the following will be displayed:
+Если сумма заказа не достигает суммы, которая даёт скидку за объём, покупатель видит предупреждение:
 
 ![]({{site.baseurl}}/attachments/6389792/8719446.png)
 
-The volume discounts feature in X-Cart 5 is enabled by the module **Volume Discounts**:
+Чтобы настроить оптовые скидки, установите модуль **Volume Discounts**:
 
 ![]({{site.baseurl}}/attachments/6389792/8719438.png)
 
-To use the volume discounts feature, make sure the module is installed and enabled at your store. If the module is not installed, you can install it from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+Модуль Volume Discounts входит в _X-Cart Business, X-Cart Multivendor_ и _X-Cart Ultimate_. Найдите и активируйте Volume Discounts в разделе Мои модули. 
 
-To configure volume discounts:
+Если вы используете бесплатную версию X-Cart, модуль Volume Discounts недоступен. Приобретите лицензию на _X-Cart Business, X-Cart Multivendor_ или _X-Cart Ultimate_, чтобы получить модуль.
 
-1.  In your store's Admin area, go to the Volume discounts section (**Promotions** > **Volume discounts**).
+Как настроить оптовые скидки:
+
+1.  Откройте страницу **Скидки / Оптовые скидки**.
     ![]({{site.baseurl}}/attachments/6389792/8719439.png)
-2.  Click the **Add discount** button.
+2.  Нажмите **Создать скидку**.
     ![]({{site.baseurl}}/attachments/6389792/8719440.png)
-    A section for adding a new discount will be displayed:
+    Откроется форма создания скидки:
     ![]({{site.baseurl}}/attachments/6389792/8719441.png)
-3.  Specify the parameters of your discount in the fields of the section that has appeared. 
-    For example, we want to create a discount to let **all our customers** (regardless of their membership level) to get a **10% discount** on orders wth a total amount **equal to or** **greater than $100**. In this case we need to configure the discount parameters as follows:
+3.  Заполните поля в зависимости от условий предоставления скидки. В качестве примера для покупателей всех групп создадим скидку _10 %_на заказы _3000 RUB_ и выше:
     ![]({{site.baseurl}}/attachments/6389792/8719442.png)
-4.  Once you are done, click the **Save changes **button.
+4.  Нажмите **Сохранить**.
     ![]({{site.baseurl}}/attachments/6389792/8719443.png)
 
-The discount will be added:
+Появится новая скидка:
 
 ![]({{site.baseurl}}/attachments/6389792/8719450.png)
 
-If necessary, you can add more than one discounts for the different subtotal ranges and membership levels. For example, with a setup like in the following screenshot all our customers will get a 10% discount off orders with a subtotal amount of $100 or more, and a 20% discount off orders with a subtotal amount of $200 or more; customers of the membership level "Wholesaler" will get 30% off any order of $200 or more.
+Создавайте скидки для разных сумм заказа и  групп покупателей. При настройках ниже все покупатели получат скидку _10 %_ на заказы от _3000 RUB_ и _20%_ на заказы  от _5000 RUB_, а оптовые покупатели получат скидку 30% на заказы от _5000 RUB_.
 
 ![]({{site.baseurl}}/attachments/6389792/8719452.png)
-
