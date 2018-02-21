@@ -40,12 +40,11 @@ published: false
     ![44.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/44.jpg)
 
 4.  Нажмите **Сохранить**.
-    ![55.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/55.jpg)
-
+    
 Появится новая скидка:
 
-![66.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/66.jpg)
+![55.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/55.jpg)
 
 Создавайте скидки для разных сумм заказа и  групп покупателей. При настройках ниже все покупатели получат скидку _10 %_ на заказы от _3000 RUB_ и _20%_ на заказы  от _5000 RUB_, а оптовые покупатели получат скидку 30% на заказы от _5000 RUB_.
 
-![]({{site.baseurl}}/attachments/6389792/8719452.png)
+![66.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/66.jpg)
