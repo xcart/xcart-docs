@@ -31,6 +31,7 @@ _In this section:_
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "Loyalty Program" ref_1Odyn6mT %}
 *   {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
+*   {% link "Multicurrency Module" ref_2tPJubPU %}
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
 *   {% link "Not Finished Orders" ref_5TMbPwNQ %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
