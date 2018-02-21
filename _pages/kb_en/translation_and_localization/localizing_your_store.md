@@ -15,10 +15,10 @@ redirect_from:
 This section will help you to set up your webstore based on your country localization parameters.
 
 {% note info %}
-If you want the prices to be displayed in the currency of your customers location use the {% link "Multicurrency Module" ref_2tPJubPU %}
+If you want the prices currency to be displayed depending on a customer's location use the {% link "Multicurrency Module" ref_2tPJubPU %}
 {% endnote %}
 
-1.  Go to the Localization section of your store's Admin area (**Store****setup** > **Localization**).
+1.  Go to the Localization section of your store's Admin area (**Store setup** > **Localization**).
     ![]({{site.baseurl}}/attachments/6389828/8716749.png)
 2.  Use the settings in this section to define the localization parameters for your country:
     *   Weight unit
