@@ -11,15 +11,15 @@ published: false
 
 Если к заказу применима оптовая скидка, она отражена отдельной строкой в корзине и на странице оплаты заказа:
 
-![]({{site.baseurl}}/attachments/6389792/8719445.png)
+![9.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/9.jpg)
 
 Если сумма заказа не достигает суммы, которая даёт скидку за объём, покупатель видит предупреждение:
 
-![]({{site.baseurl}}/attachments/6389792/8719446.png)
+![8.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/8.jpg)
 
 Чтобы настроить оптовые скидки, установите модуль **Volume Discounts**:
 
-![]({{site.baseurl}}/attachments/6389792/8719438.png)
+![1.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/1.jpg)
 
 Модуль Volume Discounts входит в _X-Cart Business, X-Cart Multivendor_ и _X-Cart Ultimate_. Найдите и активируйте Volume Discounts в разделе Мои модули. 
 
@@ -28,19 +28,23 @@ published: false
 Как настроить оптовые скидки:
 
 1.  Откройте страницу **Скидки / Оптовые скидки**.
-    ![]({{site.baseurl}}/attachments/6389792/8719439.png)
+    ![2.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/2.jpg)
+
 2.  Нажмите **Создать скидку**.
-    ![]({{site.baseurl}}/attachments/6389792/8719440.png)
+    ![3.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/3.jpg)
+
     Откроется форма создания скидки:
-    ![]({{site.baseurl}}/attachments/6389792/8719441.png)
+    ![4.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/4.jpg)
+
 3.  Заполните поля в зависимости от условий предоставления скидки. В качестве примера для покупателей всех групп создадим скидку _10 %_ на заказы _3000 RUB_ и выше:
-    ![]({{site.baseurl}}/attachments/6389792/8719442.png)
+    ![5.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/5.jpg)
+
 4.  Нажмите **Сохранить**.
-    ![]({{site.baseurl}}/attachments/6389792/8719443.png)
+    ![6.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/6.jpg)
 
 Появится новая скидка:
 
-![]({{site.baseurl}}/attachments/6389792/8719450.png)
+![7.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/7.jpg)
 
 Создавайте скидки для разных сумм заказа и  групп покупателей. При настройках ниже все покупатели получат скидку _10 %_ на заказы от _3000 RUB_ и _20%_ на заказы  от _5000 RUB_, а оптовые покупатели получат скидку 30% на заказы от _5000 RUB_.
 
