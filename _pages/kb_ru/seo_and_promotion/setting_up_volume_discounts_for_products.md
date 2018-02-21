@@ -31,20 +31,20 @@ published: false
     ![2.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/2.jpg)
 
 2.  Нажмите **Создать скидку**.
-    ![3.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/3.jpg)
+    ![22.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/22.jpg)
 
     Откроется форма создания скидки:
-    ![4.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/4.jpg)
+    ![00.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/00.jpg)
 
 3.  Заполните поля в зависимости от условий предоставления скидки. В качестве примера для покупателей всех групп создадим скидку _10 %_ на заказы _3000 RUB_ и выше:
-    ![5.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/5.jpg)
+    ![44.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/44.jpg)
 
 4.  Нажмите **Сохранить**.
-    ![6.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/6.jpg)
+    ![55.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/55.jpg)
 
 Появится новая скидка:
 
-![7.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/7.jpg)
+![66.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/66.jpg)
 
 Создавайте скидки для разных сумм заказа и  групп покупателей. При настройках ниже все покупатели получат скидку _10 %_ на заказы от _3000 RUB_ и _20%_ на заказы  от _5000 RUB_, а оптовые покупатели получат скидку 30% на заказы от _5000 RUB_.
 
