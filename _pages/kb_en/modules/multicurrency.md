@@ -26,13 +26,13 @@ Please, refer to the **Currencies** tab to configure the module settings that ar
 * **Update online rates every** : Set a periodicity of the rates revision
 * **Add currency** (button and drop-down): Choose a currency you want to add in a drop-down and click the 'Add currency' button
 
-Each currency comes with a pre-set list of countries it's applicable to. If you want you can add/remove countries to/from the list by clicking the country field. Each country can be assigned to one currency only.
+Each currency comes with a pre-set list of countries it's applicable to. If you want you can add/remove countries to/from the list by clicking the 'Countries' field. Each country can be assigned to one currency only.
 
 {% note info %}
 If you change the default store currency don't forget to update the rates using the 'Update Rates' button for the prices to be displayed correctly.
 {% endnote %}
 
-When installed and configured the module in action in the store front-end will look as follows:
+When installed and configured the module in action will look as follows in the store front-end:
 
 ![customer.png]({{site.baseurl}}/attachments/ref_2tPJubPU/customer.png)
 
