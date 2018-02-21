@@ -37,3 +37,7 @@ When installed and configured the module in action will look as follows in the s
 ![customer.png]({{site.baseurl}}/attachments/ref_2tPJubPU/customer.png)
 
 A customer will see the currency and the language of the country his IP belongs to. A language switch will be available only if {% link "translations" ref_1frAlu26 %} are enabled in the store. If there are no particular currency and translation defined for the customers location the store content will be displayed in the default currency and language.
+
+{% note warning %}
+The Multicurrency module affects only the prices representation, not the orders processing. All orders will be processed in the default store currency only.
+{% endnote %}
