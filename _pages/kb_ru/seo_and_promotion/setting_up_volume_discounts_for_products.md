@@ -21,9 +21,9 @@ published: true
 
 ![1.jpg]({{site.baseurl}}/attachments/ref_0yZU8I9T/1.jpg)
 
-Модуль Volume Discounts входит в _X-Cart Business, X-Cart Multivendor_ и _X-Cart Ultimate_. Найдите и активируйте Volume Discounts в разделе Мои модули. 
+Модуль **Volume Discounts** входит в _X-Cart Business, X-Cart Multivendor_ и _X-Cart Ultimate_. Найдите и активируйте Volume Discounts в разделе Мои модули. 
 
-Если вы используете бесплатную версию X-Cart, модуль Volume Discounts недоступен. Приобретите лицензию на _X-Cart Business, X-Cart Multivendor_ или _X-Cart Ultimate_, чтобы получить модуль.
+Если вы используете бесплатную версию X-Cart, модуль **Volume Discounts** недоступен. Приобретите лицензию на _X-Cart Business, X-Cart Multivendor_ или _X-Cart Ultimate_, чтобы получить модуль.
 
 Как настроить оптовые скидки:
 
