@@ -5,7 +5,7 @@ updated_at: '2018-02-21 14:33 +0400'
 identifier: ref_2tPJubPU
 title: Multicurrency Module
 order: 100
-published: false
+published: true
 ---
 If you sale worldwide it makes sense to use the [Multicurrency](https://market.x-cart.com/addons/multicurrency-for-xcart5.html "Multicurrency Module") module to make purchases easier for your international customers. The module will switch the store currency and language based on the customers location defined by the GeoIP data.
 
@@ -37,4 +37,3 @@ When installed and configured the module in action in the store front-end will l
 ![customer.png]({{site.baseurl}}/attachments/ref_2tPJubPU/customer.png)
 
 A customer will see the currency and the language of the country his IP belongs to. A language switch will be available only if {% link "translations" ref_1frAlu26 %} are enabled in the store. If there are no particular currency and translation defined for the customers location the store content will be displayed in the default currency and language.
-
