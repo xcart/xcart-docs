@@ -7,15 +7,20 @@ title: Multicurrency Module
 order: 100
 published: true
 ---
-If you sale worldwide it makes sense to use the [Multicurrency](https://market.x-cart.com/addons/multicurrency-for-xcart5.html "Multicurrency Module") module to make purchases easier for your international customers. The module will switch the store currency and language based on the customers location defined by the GeoIP data.
+If you sale worldwide it makes sense to use the [Multicurrency](https://market.x-cart.com/addons/multicurrency-for-xcart5.html "Multicurrency Module") module to make purchases easier for your international customers.
 
 {% note info %}
-The Multicurrency module uses a GeoIP database that allows to define a customer's location accurate to a country. If you need to improve the accuracy you can use custom paid GeoIP databases.
+The Multicurrency module works in bunble with the [Geolocation module](https://market.x-cart.com/addons/geolocation.html "Multicurrency Module") that uses a free "GeoLite2 Country" database by MaxMind.  So, please, check that the Geolocation module is enabled. The "GeoLite2 Country" database allows to define a customer's location accurate to a country. If you need to improve the accuracy you can upload other databases on the Geolocation module settings page.
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![geolocation.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation.png)</div>
+  <div class="column" markdown="span">![geolocation-settings.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation-settings.png)</div>
+</div>
 {% endnote %}
 
-To enable the module please follow instructions from {% link "Installing and activating addons" ref_0fGEpvrh %}.
+To enable the Multicurrency module please follow instructions from {% link "Installing and activating addons" ref_0fGEpvrh %}.
 
-Once installed the module will become available in the **Store setup** -> **Localization** section of your store admin area.
+Once installed the Multicurrency module will become available in the **Store setup** -> **Localization** section of your store admin area.
 
 ![currencies.png]({{site.baseurl}}/attachments/ref_2tPJubPU/currencies.png)
 
@@ -39,5 +44,5 @@ When installed and configured the module in action will look as follows in the s
 A customer will see the currency and the language of the country his IP belongs to. A language switch will be available only if {% link "translations" ref_1frAlu26 %} are enabled in the store. If there are no particular currency and translation defined for the customers location the store content will be displayed in the default currency and language.
 
 {% note warning %}
-The Multicurrency module affects only the prices representation, not the orders processing. All orders will be processed in the default store currency only.
+The currency that will be used for orders processing will depend on the payment gateway you are using. Some payments allow orders processing only in the default store currency. Others allow to accept payments in more than one currency. Please, check with your payment processing company for details.
 {% endnote %}
