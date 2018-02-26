@@ -11,11 +11,11 @@ order: 260
 ---
 
 
-Enabling the HTTPS protocol for X-Cart when HTTPS in not properly configured on your server breaks access to X-Cart's Admin interface. To avoid this unpleasant situation, please ensure that HTTPS has been set up correctly on your server prior to enabling HTTPS support in X-Cart Admin. 
+Enabling HTTPS protocol for X-Cart when HTTPS in not properly configured on your server breaks access to X-Cart's Admin interface. To avoid this unpleasant situation, please ensure that HTTPS has been set up correctly on your server prior to enabling HTTPS support in X-Cart Admin. 
 
- Although X-Cart does have an "HTTPS status check" feature that can help you detect some common problems, like SSL certificate missing or invalid, there is not a 100% accurate method that we could use to tell whether the secure protocol is or is not working for your specific server configuration. For this reason we ask you to use your own discretion decidingwhether HTTPS support may be enabled in X-Cart. Before clicking the button, you should know what you are doing, or else it may mess up your site.
+Although X-Cart does have an "HTTPS status check" feature, that can help you to detect some common problems like SSL certificate missing or invalid, there is no 100% accurate method that we could use to tell whether a secure protocol is or is not working for your specific server configuration. For this reason, please, think twice when deciding whether HTTPS support may be enabled in X-Cart. Before clicking the button, you should know what you are doing, or else it may mess up your site.
 
-If this warning is too late, and your X-Cart Admin area is already inaccessible as a result of enabling HTTPS support on a wrong configuration, let's try and fix the problem. The most evident solution would be to fix the problem with HTTPS on your server. As soon as HTTPS is working, you should be able to access your store's Admin area again.
+If this warning is too late, and your X-Cart Admin area is already inaccessible as a result of HTTPS support being enabled on a wrong configuration, let's try and fix the problem. The most evident solution would be to fix the problem with HTTPS on your server. As soon as HTTPS is working, you should be able to access your store's Admin area again.
 
 If, however, HTTPS may not be enabled properly at this time, you can restore access to X-Cart Admin by completing the following steps:
 
