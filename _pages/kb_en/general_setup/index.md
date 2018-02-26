@@ -27,6 +27,7 @@ _In this section:_
 *   {% link "Inaccessible Admin area after enabling HTTPS" ref_q171FiKp %}
 *   {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %}
 *   {% link "Changing the admin panel URL (X-Cart 5.2.7+)" ref_Ta5fHl8u %}
+*   {% link "How to password protect access to your X-Cart" ref_68xr4sCx %}
 *   {% link "Moving X-Cart to another location" ref_6oFmUXC7 %}
 *   {% link "Upgrading X-Cart 5" ref_pQQ1CLe1 %}
 *   {% link "Migration from Litecommerce 3 to X-Cart 5" ref_icEFLRUp %}
