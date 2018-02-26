@@ -9,20 +9,13 @@ published: true
 redirect_from:
   - /general_setup/changing_the_domain_name.html
 ---
-## Introduction
+Just imagine that you have your X-Cart installed at `http://<HOST>/xcart/` but you want it be available at `http://<HOST>/xcart5/` OR you need to transfer your X-Cart store from one server to another, i.e. you need to change HOST.
 
-Imagine the situation that you have your X-Cart installed at `http://<HOST>/xcart/` but you want it be available at `http://<HOST>/xcart5/`.
+This guide will help you to complete both of the tasks.
 
-This guide will help you to complete this task.
+{% toc %}
 
-## Table of Contents
-
-*   [Introduction](#introduction)
-*   [Table of Contents](#table-of-contents)
-*   [File transfer and configuration](#file-transfer-and-configuration)
-*   [Transfering the database](#transfering-the-database)
-
-## File transfer and configuration
+## Files transfer and configuration
 
 1.  Make a backup of your files and database. You do need this step in case something goes wrong. Do not neglect this step because it can cost you hours of work contacting your hosting provider and asking them to recover your store from backup.
 
@@ -76,7 +69,7 @@ This guide will help you to complete this task.
 
 7.  Remove the `<X-Cart>/var/datacache/` folder.
 
-## Transfering the database
+## Database transfer and configuration
 
 After moving all the files, you may want to transfer the data as well. You can achieve this by using the default RDBMS utilites, e.g. [MySql source](https://dev.mysql.com/doc/mysql-backup-excerpt/5.7/en/reloading-sql-format-dumps.html).
 
@@ -93,3 +86,4 @@ Also, you can upload the database dump from one X-Cart installation to another. 
     ```
     shared_secret_key = "57c81e28ca9e12.95513295"
     ```
+
