@@ -24,6 +24,7 @@ This article explains main approaches of how to change look of X-Cart.
 - [Theming](#theming)
 - [Registering template in view list](#registering-template-in-view-list)
 - [Registering viewer class in view list](#registering-viewer-class-in-view-list)
+- [Module pack](#module-pack)
 
 ## How X-Cart renders pages
 
@@ -161,7 +162,7 @@ Notice that weight is 99, which means that our label 'My logo' will be placed be
 Since X-Cart needs to register this template in a view list, we have to rebuild a cache in order to see the changes. After that we will see a result like this:
 ![my-logo-template.png]({{site.baseurl}}/attachments/ref_fCqWygpc/my-logo-template.png)
 
-What if we want to remove default X-Cart logo from the page? In this case, we need to unassign `skins/customer/layout/header/header.logo.twig` template from the 'layout.header' view list. For that, edit Main.php file of your module and add the following method there:
+What if we want to remove default X-Cart logo from the page? In this case, we need to unassign `skins/customer/layout/header/header.logo.twig` template from the 'layout.header' view list. For that, edit `Main.php` file of your module and add the following method there:
 
 ```php
     protected static function moveTemplatesInLists()
@@ -179,6 +180,29 @@ What if we want to remove default X-Cart logo from the page? In this case, we ne
 ```
 
 Again, since X-Cart has to rebuild view lists, the changes will be seen only after cache rebuild.
+
+If we wanted to unassign multiple templates from multiple view lists, we would create a method like this:
+
+```php
+    protected static function moveTemplatesInLists()
+    {
+        $templates = [
+            'layout/header/header.logo.twig' => [
+                static::TO_DELETE  => [
+                    ['layout.header', \XLite\Model\ViewList::INTERFACE_CUSTOMER],
+                ],
+            ],
+            'other/template.twig' => [
+            	static::TO_DELETE => [
+                	['one.view.list', \XLite\Model\ViewList::INTERFACE_CUSTOMER],
+                	['another.view.list', \XLite\Model\ViewList::INTERFACE_ADMIN],
+                ],                
+            ],
+        ];
+
+        return $templates;
+    } 
+```
 
 As you can see, we approached the same result here as with theming method, but we did not have to create a new theme. But what if we wanted to put some dynamic info into our template, not just plain HTML code. For instance, print current time (for some unknown reason) next to our label.
 
@@ -231,5 +255,47 @@ As you can see, we call `getTime()` method there, because this is our source of 
 Now we need to rebuild the cache in order to register this class into view list and then we will see a result like this:
 ![my-logo-with-time.png]({{site.baseurl}}/attachments/ref_fCqWygpc/my-logo-with-time.png)
 
+If we wanted to remove this class from the view list we would create the following method in our `Main.php` file:
+
+```php
+    protected static function moveClassesInLists()
+    {
+        $classes = [
+            'XLite\Module\XCExample\DesignChangesDemo\View\HeaderLogo' => [
+                static::TO_DELETE => [
+                    ['layout.header', 'customer'],
+                ],
+            ],
+        ];
+
+        return $classes;
+    }
+```
+
+If we wanted to remove multiple classes from different view lists, we would create a method like this:
+```php
+    protected static function moveClassesInLists()
+    {
+        $classes = [
+            'XLite\Module\XCExample\DesignChangesDemo\View\HeaderLogo' => [
+                static::TO_DELETE => [
+                    ['layout.header', 'customer'],
+                ],
+            ],
+            'XLite\View\Other\Viewer\Class' => [
+            	static::TO_DELETE => [
+                	['first.view.list', 'admin'],
+                    ['another.view.list', 'customer'],
+                ],                
+            ],
+        ];
+
+        return $classes;
+    }
+```
+
+The module pack below has the `moveClassesInLists()` method commented out, in order to allow you see the effect of adding your own viewer class.
+
+## Module pack
 Pack of the module can be downloaded from here:
 [https://www.dropbox.com/s/91q36dsuqb5di19/XCExample-DesignChangesDemo-v5_3_0.tar](https://www.dropbox.com/s/91q36dsuqb5di19/XCExample-DesignChangesDemo-v5_3_0.tar?dl=0)
