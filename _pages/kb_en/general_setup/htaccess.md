@@ -5,7 +5,7 @@ updated_at: '2018-02-26 13:56 +0400'
 identifier: ref_68xr4sCx
 title: How to password protect access to your X-Cart
 order: 100
-published: false
+published: true
 ---
 Sometimes it may be necessary to close/limit access to your website or the cart admin area for security or developing issues. This can be done using [htaccess password protection](http://www.htaccesstools.com/articles/password-protection/ "How to password protect access to your X-Cart").
 
@@ -40,6 +40,3 @@ AuthUserFile /path/to/.htpasswd
 Require valid-user
 </Files>
 ```
-
-
-
