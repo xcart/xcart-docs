@@ -255,7 +255,7 @@ As you can see, we call `getTime()` method there, because this is our source of 
 Now we need to rebuild the cache in order to register this class into view list and then we will see a result like this:
 ![my-logo-with-time.png]({{site.baseurl}}/attachments/ref_fCqWygpc/my-logo-with-time.png)
 
-If we wanted to remove this class from the view list we would create the following method in our `Main.php` file:
+If we wanted to remove this class from the view list, we would create the following method in our `Main.php` file:
 
 ```php
     protected static function moveClassesInLists()
