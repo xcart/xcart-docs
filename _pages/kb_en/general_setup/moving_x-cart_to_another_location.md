@@ -11,7 +11,7 @@ redirect_from:
 ---
 Just imagine that you have your X-Cart installed at `http://<HOST>/xcart/` but you want it be available at `http://<HOST>/xcart5/` OR you need to transfer your X-Cart store from one server to another, i.e. you need to change HOST.
 
-This guide will help you to complete both of the tasks.
+Both of the tasks will consist of the 2 main steps that are described below.
 
 {% toc %}
 
@@ -86,4 +86,3 @@ Also, you can upload the database dump from one X-Cart installation to another. 
     ```
     shared_secret_key = "57c81e28ca9e12.95513295"
     ```
-
