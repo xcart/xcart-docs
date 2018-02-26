@@ -8,7 +8,7 @@ order: 100
 published: true
 description: How to password protect access to your X-Cart
 ---
-Sometimes it may be necessary to close/limit access to your website or the cart admin area for security or developing issues. This can be done using [htaccess password protection](http://www.htaccesstools.com/articles/password-protection/ "How to password protect access to your X-Cart").
+Sometimes it may be necessary to close/limit access to your website or the cart admin area for security or development issues. This can be done using [htaccess password protection](http://www.htaccesstools.com/articles/password-protection/).
 
 If you read the article you should know that the main point here is to create 2 files called .htaccess and .htpasswd in the directory you want to password protect, where a .htaccess file actually closes access to a directory with a form where you need to submit login/password to be authorized and the .htpasswd file contains the very login/password info you need to submit to be authorized.  
 
