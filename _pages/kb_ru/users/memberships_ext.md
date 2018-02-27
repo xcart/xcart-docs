@@ -7,10 +7,8 @@ title: Преимущества групп пользователей
 order: 30
 published: false
 ---
-So how can you benefit from using memberships? Memberships are commonly used for:
-- deviding customers in groups (wholesale, retail, etc.) as described in {% link "User membership levels" ref_RXsgxNSm %}
-- granting a group of customers with a tax-exempt status
-- creating discounts for certain memberships
+
+ 
 
 You can also provide special payment options for certain groups of customers or even sell memberships to the customers for gaining access to better prices. Hence you can not only promote sales with memberships but also earn on them.
 
