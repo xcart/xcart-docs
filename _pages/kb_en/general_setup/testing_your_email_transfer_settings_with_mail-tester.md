@@ -43,6 +43,25 @@ To test your email transfer configuration:
 
 You should then see the Spam Score test results. Here is an example page:
 <img>
-The highest score would be 10/10. The lower your spam score, the more likely your emails will be flagged as spam.
 
+The highest score would be 10/10. The lower your score, the more likely your emails will be flagged as spam.
 
+If your score is above 7 or 8, you will probably be fine. To make sure, simply ask your store users if they get your emails. 
+
+By clicking on the [+] buttons you can get detailed information about each parameter of your test results.
+If your results say "You're properly authenticated", and you see a check mark on the green background for this item, it is a good sign. If you do not see one, it means that serious work to adjust the configuration of your mail sending system is required. 
+
+Common issues resulting in bad scores include the following:
+You are blacklisted. 
+SPF record is not set up.
+DKIM is not set up.
+Your email some bad keywords according to SpamAssassin.
+
+Another important item is "SpamAssasin likes you / SpamAssasin thinks you can improve". This parameter points out problems with the email content (The form or content of your message make SpamAssasin think it is spam).
+Попадание в черные списки не является фатальным признаком - среди этих списков очень много недобросовестных, которые занимаются откровенным вымогательством или блокировкой всего и вся по единичным инцидентам.
+Наличие нерабочих (битых) ссылок в письме повышает похожесть сообщения на СПАМ - поэтому их надо выявлять и исправлять.
+Также заслуживают внимания советы по улучшению сообщен
+
+If Mail Tester doesn't receive your newsletter preview, it will remain stuck on the page below:
+<img>
+If you see this page, it means your current sending method is not working. 
