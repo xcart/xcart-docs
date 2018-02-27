@@ -7,12 +7,15 @@ title: Преимущества групп пользователей
 order: 30
 published: false
 ---
+Администратор магазина создаёт группы пользователей и предоставляет членам этих групп особые условия обслуживания:
+- безналоговый статус,
+- скидки,
+- специальные предложения,
+- уникальные способы оплаты.
 
- 
+Покупатель вступает в группу бесплатно или за взнос в зависимости от настроек, установленных администратором. Предлагая особые условия обслуживания за взнос, администратор обеспечивает выгоду и покупателю и себе.
 
-You can also provide special payment options for certain groups of customers or even sell memberships to the customers for gaining access to better prices. Hence you can not only promote sales with memberships but also earn on them.
-
-{% toc Let's review each option in detail. %}
+{% toc Рассмотрим преимущества вступления в группы %}
 
 ## Memberships for Products and Categories
 
