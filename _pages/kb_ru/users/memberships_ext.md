@@ -17,7 +17,7 @@ published: false
 
 {% toc Рассмотрим преимущества вступления в группы %}
 
-## Memberships for Products and Categories
+## Группы покупателей, товары и категории
 
 In [Setting up wholesale prices and minimum purchase quantites for different membership levels](https://kb.x-cart.com/products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html) you've learned how to give special prices to the customers who buy bulk items. Setting memberships on a certain product, groups of products or even categories works a bit different. Using this function you can grant access to the items to the particular members of your site only and hide such items from the rest of the customers. The hidden products and categories are still indexed by Google, so this won't affect the ranks.
 
