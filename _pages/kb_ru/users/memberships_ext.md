@@ -43,6 +43,13 @@ published: false
 
 ![Figure 4]({{site.baseurl}}/attachments/membership.png)
 
+### Настройка товара
+
+Откройте страницу **Каталог / Товары** и выберите товар.
+
+На странице настройки товара в разделе **Цены и наличие на складе** установите значение поля Группы пользователей и нажмите Сохранить
+
+
 Doing this we closed a category and all products in it from the unregistered viewers and allowed the registered customers with a particular membership, e.g. Wholesaler, see the category and buy products from it.
 
 If a non-member tries to open a membership category page using a direct category link the cart will show a `page not found` error. If the same with a direct product link, the cart will show the `access denied` error with a possibiity to contact the store admin and ask for membership. (Figure 5)
