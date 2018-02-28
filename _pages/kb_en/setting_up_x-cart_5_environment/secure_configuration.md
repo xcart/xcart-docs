@@ -5,7 +5,7 @@ updated_at: '2017-09-22 11:44 +0400'
 identifier: ref_secureconfig
 title: Secure configuration of the server
 published: true
-order: 150
+order: 400
 ---
 
 This guide offers some tips on how to configure your X-Cart server to be more secure. 
