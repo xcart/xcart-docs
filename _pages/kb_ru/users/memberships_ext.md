@@ -31,16 +31,15 @@ published: false
 
 ![Figure 1]({{site.baseurl}}/attachments/X Cart online store builder    Your company name    Manage category  Apparel.png)
 
-
-Once completed you should also do the same to the products from this category. For this purpose please open the 'Catalog: Products' section in the admin area, choose the category you worked with previously in the 'Any Category' drop-down and click _**Search**_. (Figire 2)
+Далее установите ту же группу пользователей для товаров категории. Откройте **Каталог / Товары**, в строке поиска выберите категорию и нажмите **Поиск**.
 
 ![Figure 2]({{site.baseurl}}/attachments/Products.png)
 
-The cart will show you a full list of all products from the chosen caterory as a result. You should scroll the page down, press the 'Bulk Edit' drop-down and choose the 'Price and Membership' option (Figure 3)
+В результатах поиска появится список товаров выбранной категории. Внизу страницы нажмите **Редактировать все / Цена и доступность для групп**.
 
 ![Figure 3]({{site.baseurl}}/attachments/bulk edit.png)
 
-You'll be redirected to a new page to edit product options in bulk. Choose the 'Membersips' option and click to specify the membership(s) you need. Press _**Save Changes**_. (Figure 4)
+Откроется страница массового редактирования товаров. Установите значение поля **Группы пользователей** и нажмите **Сохранить**.
 
 ![Figure 4]({{site.baseurl}}/attachments/membership.png)
 
