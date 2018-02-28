@@ -126,12 +126,11 @@ published: false
 
 ![Fig 12]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 16.16.45.png)
 
+## Платное членство
 
-## Paid Memberships
+Модуль [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html) позволяет продавать членство в магазине как обычные товары. Это полезно, когда для ограниченного круга покупателей в магазине предоставляются особенные скидки и акции.
 
-The standard membership feature can be extended with a [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html) module that will enable an ability to sell paid memberships as regular products. This module is usefull if you have an extremely favorable options for members worth paying for, e.g. closed sales, vip prices, etc.
-
-To enable the feaure make sure the module is installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed you'll be able to create memberships as products and sell them to your customers. For this purpose go to the '**Catalog** > **Products**' section of the cart admin area and click the 'Add Product' button (Figure 12).
+[Установите модуль](https://kb.x-cart.ru/modules/managing_modules/installing_modules_from_the_marketplace.html "Преимущества групп пользователей") **Paid Memberships**. На странице создания нового товара **Каталог / Товары / Добавить товар** появятся новые поля.
 
 ![Fig 12]({{site.baseurl}}/attachments/add_product.png)
 
