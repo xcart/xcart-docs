@@ -47,12 +47,11 @@ published: false
 
 Откройте страницу **Каталог / Товары** и выберите товар.
 
-На странице настройки товара в разделе **Цены и наличие на складе** установите значение поля Группы пользователей и нажмите Сохранить
+На странице настройки товара в разделе **Цены и наличие на складе** установите значение поля **Группы пользователей** и нажмите **Сохранить**.
 
+Установленные настройки означают, что выбранную категорию / товар могут приобрести только зарегистрированные покупатели, входящие в определённую группу пользователей. Категорию /товар не видят остальные зарегистрированные покупатели и незарегистрированные посетители магазина.
 
-Doing this we closed a category and all products in it from the unregistered viewers and allowed the registered customers with a particular membership, e.g. Wholesaler, see the category and buy products from it.
-
-If a non-member tries to open a membership category page using a direct category link the cart will show a `page not found` error. If the same with a direct product link, the cart will show the `access denied` error with a possibiity to contact the store admin and ask for membership. (Figure 5)
+Если покупатель, не входящий ни в какую группу пользователей, пройдёт по прямой ссылке категории, появится ошибка Страница не найдена. Если по ссылке на продукт - откроется страница с ошибкой доступа и предложением связаться с администратором магазина.
 
 ![Figure 5]({{site.baseurl}}/attachments/access.png)
 
