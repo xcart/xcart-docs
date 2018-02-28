@@ -77,7 +77,7 @@ published: false
 
 Представителям разных групп пользователей администратор предоставляет разные скидки, специальные скидочные купоны и акции.
 
-Настройте скидки для групп пользователей в разделе **Скидки / Оптовые скидки**. Нажмите **Создать скидку**, укажите сумму-базу для расчёта скидки, размер скидки в процентах или рублях и группу пользователей, для которой действует скидка. Создайте одну или несколько скидок и нажмите **Сохранить**. Подробнее в статье {% link "Оптовые скидки" ref_0yZU8I9T %}
+Настройте **скидки** для групп пользователей в разделе **Скидки / Оптовые скидки**. Нажмите **Создать скидку**, укажите сумму-базу для расчёта скидки, размер скидки в процентах или рублях и группу пользователей, для которой действует скидка. Создайте одну или несколько скидок и нажмите **Сохранить**. Подробнее в статье {% link "Оптовые скидки" ref_0yZU8I9T %}
 
 {% note info %} 
 Чтобы покупатели могли воспользоваться несколькими скидками сразу, настройте скидки в процентах. 
@@ -85,20 +85,20 @@ published: false
 
 ![Figure 7]({{site.baseurl}}/attachments/Screen Shot 2018-01-12 at 21.27.47.png)
 
-Настройте купоны для групп пользователей на странице **Скидки / Купоны**. Нажмите **Создать купон**, установите настройки и укажите группу пользователей, для которой будет действовать купон. Готовый купон можно редактировать, отключать и включать при необходимости. Подробнее в статье {% link "Настройка скидочных купонов" ref_coupons %}.
+Настройте **купоны** для групп пользователей на странице **Скидки / Купоны**. Нажмите **Создать купон**, установите настройки и укажите группу пользователей, для которой будет действовать купон. Готовый купон можно редактировать, отключать и включать при необходимости. Подробнее в статье {% link "Настройка скидочных купонов" ref_coupons %}.
 
 ![Fig 8]({{site.baseurl}}/attachments/coupons.png)
 
 {% note info %} 
-If a non-member uses a membership coupon at checkout a cart will display an error "Sorry, the coupon you entered is not valid for your membership level. Contact the administrator"
+Если покупатель, не входящий ни в какую группу пользователей, применит купон, появится ошибка _Извините, введенный вами купон не может быть использован для вашего уровня доступа. Свяжитесь с администратором_
 {% endnote %}
 
-**Special Offers** for memberships can be set up using the [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Promote Sales with User Memberships") and [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Promote Sales with User Memberships") modules. Using these modules you'll be able to grant your membership users and not only them with such offers like:
-- buy N items from specified categories to get a discount on M of them (the cheapest ones);
-- spend a particular amount in specified categories to get a discount on M of the items bought from these categories (the cheapest ones).
+Настройте **специальные предложения** с помощью модулей [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Promote Sales with User Memberships") и [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Promote Sales with User Memberships"):
+- купите Х товаров из указанной категории и получите скидку на Y из них (по наиболее низкой цене);
+- купите на сумму Х в указанных категориях и получите скидку на Y выбранных товаров (по наиболее низкой цене).
 
 {% note info %} 
-Set the discount to 100%, and customers will get the items for free. 
+Если настроить размер скидки 100%, покупатели получат товар бесплатно. 
 {% endnote %}
 
 To configure the offers you'll need to have the modules installed first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed the features will become available in the 'Discounts: Special Offers' section of your admin back-end (Figure 9).
