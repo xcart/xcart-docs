@@ -7,7 +7,7 @@ title: Setting up .phar
 categories:
   - Developer docs
 published: true
-order: 200
+order: 900
 ---
 
 
