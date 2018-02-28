@@ -7,7 +7,7 @@ title: Setting up cURL
 categories:
   - Developer docs
 published: true
-order: 140
+order: 600
 ---
 
 
@@ -68,4 +68,4 @@ In this case, the solution will be different depending on the type of your web-s
 
 2.  Restart Apache.
 
-### 
+###
