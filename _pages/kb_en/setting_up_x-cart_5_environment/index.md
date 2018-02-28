@@ -20,6 +20,7 @@ This section contains guides on how to set up your X-Cart environment properly:
 *   {% link "HTTP to HTTPS redirect configuration" ref_httpredirect %};
 *   {% link "Secure configuration of the server" ref_secureconfig %};
 *   {% link "Configuring your X-Cart server for better large file download performance" ref_yCxquUhl %};
+*   {% link "Choosing the data cache driver" ref_J70IfNxL %};
 *   Guides for how to set up your server environment for proper communication with the marketplace: 
     *   {% link "Setting up cURL" ref_sshnMtN7 %};
     *   {% link "Setting up openSSL" ref_GuFOdboA %};
