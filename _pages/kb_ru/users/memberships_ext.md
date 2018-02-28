@@ -101,7 +101,7 @@ published: false
 Если настроить размер скидки 100%, покупатели получат товар бесплатно. 
 {% endnote %}
 
-To configure the offers you'll need to have the modules installed first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed the features will become available in the 'Discounts: Special Offers' section of your admin back-end (Figure 9).
+[Установите и активируйте модули](https://kb.x-cart.ru/modules/managing_modules/installing_modules_from_the_marketplace.html "Преимущества групп пользователей"), чтобы настройки появились в разделе **Скидки / Акции**.
 
 ![Fig 9]({{site.baseurl}}/attachments/so.png)
 
