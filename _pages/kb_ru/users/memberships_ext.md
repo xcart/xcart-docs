@@ -57,7 +57,7 @@ published: false
 
 
 {% note info %}
-The contact the administrator link in the error will redirect a visitor to the 'Contact Us' page (https://www.yourstore.com/cart.php?target=contact_us) where s/he can ask for a membership. A cart admin can give membership to a registered customer only (Access Level - Customer), but not to an anonimous visitor. So to become a member a customer should register an account with your store first.
+Ссылка свяжитесь с администратором переведёт покупателя на страницу обратной связи, где покупатель может запросить доступ к товару. Администратор присваивает членство только зарегистрированным покупателям. Поэтому, чтобы стать членом группы покупателей, посетитель сайта должен зарегистрироваться в магазине.
 {% endnote %}
 
 ## Memberships and Taxes
