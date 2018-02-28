@@ -19,12 +19,14 @@ published: false
 
 ## Группы покупателей, товары и категории
 
-In [Setting up wholesale prices and minimum purchase quantites for different membership levels](https://kb.x-cart.com/products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html) you've learned how to give special prices to the customers who buy bulk items. Setting memberships on a certain product, groups of products or even categories works a bit different. Using this function you can grant access to the items to the particular members of your site only and hide such items from the rest of the customers. The hidden products and categories are still indexed by Google, so this won't affect the ranks.
+Группа покупателей на выбор администратора получает доступ к определённому товару, ряду товаров или категории. Остальные посетители магазина не видят эти товары в каталоге. Скрытые товары и категории индексируются поисковиками, поэтому поисковая позиция сайта не снижается.
 
-To hide a category and grant access to it to the certain store members only you should go the the 'Catalog: Categories' section in the cart admin area, choose and open the category you need, and set the required membership(s) in the 'Memberships' field (Figure 1). Please don't forget to press the 'Update' button to save the changes.
+### Настройка категории
+
+Откройте раздел **Каталог / Категории**, выберите категорию и в поле **Группы пользователей** укажите покупателей, которым будет доступна категория. Нажмите**Обновить**.
 
 {% note info %}
-Hold _**Shift**_ if you want to choose more than one membership at a time  
+Чтобы выбрать несколько групп пользователей, удерживайте кнопку _**Shift**_.  
 {% endnote %}
 
 ![Figure 1]({{site.baseurl}}/attachments/X Cart online store builder    Your company name    Manage category  Apparel.png)
