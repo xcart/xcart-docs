@@ -6,6 +6,8 @@ identifier: ref_1QrpKuD3
 title: Testing your email transfer settings with mail-tester.com
 order: 100
 published: true
+redirect_from:
+  - /general_setup/testing_your_email_transfer_settings_with_mail-tester.html
 ---
 A great deal of communication with your X-Cart store users will happen via email. This includes automatic email notifications, email marketing messages like abandoned cart reminders and - sometimes - newsletters. If you take communication with your customers seriously, you will invest some time and effort in the design and content of your emails. However, after all that work, there's still a chance your emails will find a way to the spam folder of your customer email boxes. This article discusses why this may happen and what you can do to improve the situation from your end.
 
