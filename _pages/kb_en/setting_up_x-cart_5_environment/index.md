@@ -25,3 +25,4 @@ This section contains guides on how to set up your X-Cart environment properly:
     *   {% link "Setting up openSSL" ref_GuFOdboA %};
     *   {% link "Creating a self-signed SSL certificate" ref_u3gKq6NF %};
     *   {% link "Setting up .phar" ref_TCoIXzX2 %}.
+*   {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %}.    
