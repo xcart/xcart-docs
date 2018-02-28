@@ -61,6 +61,6 @@ Common issues resulting in bad scores include the following:
 If you get a bad Mail Tester score, share your testing results with your hosting provider staff or network administrator. They should know what to do. 
 
 If Mail Tester does not receive your email, it will remain stuck on the page below:
-
+      ![mail_tester_3.png]({{site.baseurl}}/attachments/ref_1QrpKuD3/mail_tester_3.png)
 
 If you see this page, it means your current sending method is not working. Again, in this case you should request help from your hosting provider or network administrator.
