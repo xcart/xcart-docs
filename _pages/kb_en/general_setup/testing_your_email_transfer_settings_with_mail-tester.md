@@ -32,7 +32,7 @@ The easiest way to identify problems with your email transfer configuration is t
 To test your email transfer configuration:
 
    1. Visit https://www.mail-tester.com/ and copy the email address provided on that page to clipboard.
-   <img>
+      ![mail_tester_1.png]({{site.baseurl}}/attachments/ref_1QrpKuD3/mail_tester_1.png)
    
    2. Go to the Admin area of your X-Cart store and do one of the following:
 
@@ -43,7 +43,7 @@ To test your email transfer configuration:
    3. Go back to https://www.mail-tester.com/ and press the button "Then check your score". Allow a few seconds for Mail Tester to check the inbox and calculate your score. 
 
 You should then see your Spam Score test results. Here is an example page:
-<img>
+      ![mail_tester_2.jpg]({{site.baseurl}}/attachments/ref_1QrpKuD3/mail_tester_2.jpg)
 
 The highest score would be 10/10. The lower your score, the more likely your emails will be flagged as spam.
 
@@ -61,5 +61,6 @@ Common issues resulting in bad scores include the following:
 If you get a bad Mail Tester score, share your testing results with your hosting provider staff or network administrator. They should know what to do. 
 
 If Mail Tester does not receive your email, it will remain stuck on the page below:
-<img>
+
+
 If you see this page, it means your current sending method is not working. Again, in this case you should request help from your hosting provider or network administrator.
