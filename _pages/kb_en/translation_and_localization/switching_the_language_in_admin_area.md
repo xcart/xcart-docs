@@ -9,8 +9,7 @@ categories:
 published: true
 order: 250
 redirect_from:
-  - >-
-    https://kb.x-cart.com/look_and_feel/switching_the_language_in_admin_area.html
+  - /look_and_feel/switching_the_language_in_admin_area.html
 ---
 
 

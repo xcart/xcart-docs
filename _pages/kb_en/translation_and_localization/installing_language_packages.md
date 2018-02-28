@@ -9,8 +9,7 @@ categories:
 published: true
 order: 260
 redirect_from:
-  - >-
-    https://kb.x-cart.com/look_and_feel/translating_your_stores_user_interface_to_other_languages.html
+  - /look_and_feel/translating_your_stores_user_interface_to_other_languages.html
 ---
 To install a language translation module from the X-Cart Marketplace:
 

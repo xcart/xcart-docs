@@ -9,7 +9,7 @@ categories:
 published: true
 order: 230
 redirect_from:
-  - 'https://kb.x-cart.com/look_and_feel/localizing_your_store.html'
+  - /look_and_feel/localizing_your_store.html
 ---
 
 This section will help you to set up your webstore based on your country localization parameters.
