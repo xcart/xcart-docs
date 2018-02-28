@@ -5,7 +5,7 @@ updated_at: '2017-01-12 17:21 +0400'
 identifier: ref_httpredirect
 title: HTTP to HTTPS redirect configuration
 published: true
-order: 150
+order: 300
 ---
 
 If you have a secure certificate (SSL) on your website, you can automatically redirect visitors to the secured (HTTPS) version of your website to make sure their information is protected.
