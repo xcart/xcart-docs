@@ -134,27 +134,27 @@ published: false
 
 ![Fig 12]({{site.baseurl}}/attachments/add_product.png)
 
-You'll be forwarded to a page to create a new product where it will be necessary to fill in the fields, e.g. name, SKU, description, etc just like any regular product in your store. To make a product a paid membership you should enable the 'Membership to assign to product purchaser' field (Figure 13) and choose a _**Membership Duration**_ (Figure 14).
+Заполните все поля. Установите значения полей **Членство, назначаемое на покупателя в случае покупки продукта** и **Срок действия членства (Membership duration)**, чтобы создать новый товар-членство в магазине.
 
 ![Fig 13]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.27.png)
 ![Fig 14]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.51.png)
 
-If necessary you can set a special price for memberships in the 'Prices & Inventory' section if applicable (Figure 15). This way existing members can level up at a special cost.
+Укажите цену в разделе **Цены и наличие на складе**. Существующие зарегистрированные пользователи смогут вступить в новую группу за указанную плату.
 
 ![Fig 15]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.37.44.png)
 
 
-Once created a membership will become available for sale for customers (Figure 16).
+Новый товар будет доступен покупателям в магазине.
 
 ![Fig 16]({{site.baseurl}}/attachments/product.png)
 
 
 {% note info %} 
-If anonymous checkout is enabled, and a customer, buying a premium membership access, prefers to checkout without an account creation, the membership will not be assigned automatically till the account is created. The admin will be notified about such an order with a warning, indicating the "action required". 
+Если в магазине возможна покупка без регистрации и покупатель предпочитает произвести плату без создания учетной записи, приобретённое членство будет присвоено покупателю только после создания учётной записи. Администратор получит уведомление о таком заказе. 
 {% endnote %}
 
-After the order gets a 'Paid' status a customer gets a paid membership automatically and therefore gets access to all membership privileges.
+Новый (приобретённый) статус будет автоматически присвоен покупателю, когда администратор изменит статус заказа на **Оплачен**.
 
-When the membership expires the customer will get an e-mail notification, that will be sent automatically. E-mail notifications for the **Paid Membership** module can be managed in the **Store setup** > **Email notifications** section of the admin area.
+Когда истечёт срок действия членства, покупатель получит уведомление по электронной почте. Настройте автоматические уведомления для модуля **Paid Memberships** на странице **Настройка магазина / Уведомления по электронной почте**.
 
 ![notifications.png]({{site.baseurl}}/attachments/ref_memberships_ext/notifications.png)
