@@ -8,7 +8,7 @@ order: 100
 published: true
 description: translating product catalog into another language
 redirect_from:
-  - 'https://kb.x-cart.com/products/catalog_translation.html'
+  - /products/catalog_translation.html
 ---
 X-Cart keeps the store {% link "text content in labels" ref_IyGxQ1DN %} as you may know, and the catalog content is not an exception. So to translate your store catalog into another language it's necessary to add text labels and their values in another language for the respective labels in English, e.g. category and product names, descriptions, etc. The easiest way to do this is to export the existing categories and products list into a .csv file, edit this file and then import it back to the store. 
 
