@@ -89,11 +89,13 @@ published: false
 
 Настройте **купоны** для групп пользователей на странице **Скидки / Купоны**. Нажмите **Создать купон**, установите настройки и укажите группу пользователей, для которой будет действовать купон. Готовый купон можно редактировать, отключать и включать при необходимости. Подробнее в статье {% link "Настройка скидочных купонов" ref_coupons %}.
 
-![9.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/9.jpg)
+![10.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/10.jpg)
 
 {% note info %} 
 Если покупатель, не входящий ни в какую группу пользователей, применит купон, появится ошибка _Извините, введенный вами купон не может быть использован для вашего уровня доступа. Свяжитесь с администратором_
 {% endnote %}
+
+![22.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/22.jpg)
 
 Настройте **специальные предложения** с помощью модулей [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Promote Sales with User Memberships") и [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Promote Sales with User Memberships"):
 - купите Х товаров из указанной категории и получите скидку на Y из них (по наиболее низкой цене);
@@ -103,13 +105,18 @@ published: false
 Если настроить размер скидки 100%, покупатели получат товар бесплатно. 
 {% endnote %}
 
-[Установите и активируйте модули](https://kb.x-cart.ru/modules/managing_modules/installing_modules_from_the_marketplace.html "Преимущества групп пользователей"), чтобы настройки появились в разделе **Скидки / Акции**.
+[Установите и активируйте модули](https://kb.x-cart.ru/modules/managing_modules/installing_modules_from_the_marketplace.html "Преимущества групп пользователей"):
 
-![Fig 9]({{site.baseurl}}/attachments/so.png)
+![11.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/11.jpg)
+
+Новые настройки появятся в разделе **Скидки / Акции**:
+
+![12.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/12.jpg)
 
 Выберите вид специального предложения и нажмите **Создать**. Заполните все поля и укажите группы пользователей, на которые распространяется акция.
 
-![Fig 10]({{site.baseurl}}/attachments/conditions.png)
+![13.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/13.jpg)
+
 
 {% note info %} 
 Информация о специальных предложениях: {% link "Special Offers" ref_special_offers %}
