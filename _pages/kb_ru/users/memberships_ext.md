@@ -61,18 +61,18 @@ published: false
 {% endnote %}
 
 ## Memberships and Taxes
-Using memberships you can boost sales by offering low tax rates or even tax-free orders for your VIP customers and attact them with lower expences this way. 
+Для повышения продаж администратор снижает налоговую ставку или совсем отменяет налоги для ограниченного круга покупателей (группа VIP). 
 
-To set special taxes for memberships go to the 'Store SetUp: Taxes' section of your cart admin area, make sure the 'Use the same tax rates for all user membership levels' option is disabled, create a new tax rate or edit an existing one pointing the required membership (Figure 6). Don't forget to _**Save Changes**_ when done. 
+Откройте раздел **Настройка магазина / Налоги**, отключите опцию **Использовать одни и те же ставки налога для всех групп покупателей**, создайте новую или измените существующую налоговую ставку и укажите группу пользователей, для которой будет действовать налог. Нажмите **Сохранить**. 
 
 ![Fig 6]({{site.baseurl}}/attachments/tax.png)
 
 
 {% note info %} 
-The detailed description of the tax configuration process you can find in {% link "Setting up sales tax" ref_aJPK4DHN %}.
+Информация о налогах:  {% link "Настройка налога с продаж" ref_ZBKZ38v7 %}.
 {% endnote %}
 
-## Membership Discounts
+## Группы покупателей и скидки
 
 This is a feature in-demand in deed. Using memberships you can vary a discount level between different groups of customers, provide coupons of limited edition valid only for a particular membership, extend membership sales with special offers.
 
