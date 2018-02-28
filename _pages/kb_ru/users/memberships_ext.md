@@ -127,36 +127,39 @@ published: false
 
 Модуль [Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html) активирует дополнительные способы оплаты для избранных покупателей, например, PayPal Express Checkout только для оптовых покупателей. 
 
-[Установите модуль](https://kb.x-cart.ru/modules/managing_modules/installing_modules_from_the_marketplace.html "Преимущества групп пользователей") **Memberships for payment methods**. На странице **Настройка магазина / Приём платежей** у каждого способа оплаты появится поле **Группы пользователей**.
+[Установите модуль](https://kb.x-cart.ru/modules/managing_modules/installing_modules_from_the_marketplace.html "Преимущества групп пользователей") **Memberships for payment methods**.
 
-![Fig 11]({{site.baseurl}}/attachments/payment.png)
+![14.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/14.jpg)
+
+На странице **Настройка магазина / Приём платежей** у каждого способа оплаты появится поле **Группы пользователей**.
+
+![15.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/15.jpg)
 
 Выберите способ оплаты и укажите для него группу пользователей. На странице оплаты заказа покупатели увидят только способы оплаты, настроенные для их группы.
 
-![Fig 12]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 16.16.45.png)
+![16.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/16.jpg)
 
 ## Платное членство
 
 Модуль [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html) позволяет продавать членство в магазине как обычные товары. Это полезно, когда для ограниченного круга покупателей в магазине предоставляются особенные скидки и акции.
 
-[Установите модуль](https://kb.x-cart.ru/modules/managing_modules/installing_modules_from_the_marketplace.html "Преимущества групп пользователей") **Paid Memberships**. На странице создания нового товара **Каталог / Товары / Добавить товар** появятся новые поля.
+[Установите модуль](https://kb.x-cart.ru/modules/managing_modules/installing_modules_from_the_marketplace.html "Преимущества групп пользователей") **Paid Memberships**. 
 
-![Fig 12]({{site.baseurl}}/attachments/add_product.png)
+![17.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/17.jpg)
+
+На странице создания нового товара **Каталог / Товары / Добавить товар** появятся новые поля.
+
+![18.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/18.jpg)
 
 Заполните все поля. Установите значения полей **Членство, назначаемое на покупателя в случае покупки продукта** и **Срок действия членства (Membership duration)**, чтобы создать новый товар-членство в магазине.
 
-![Fig 13]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.27.png)
-![Fig 14]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.51.png)
+![19.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/19.jpg)
 
 Укажите цену в разделе **Цены и наличие на складе**. Существующие зарегистрированные пользователи смогут вступить в новую группу за указанную плату.
 
-![Fig 15]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.37.44.png)
-
+![20.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/20.jpg)
 
 Новый товар будет доступен покупателям в магазине.
-
-![Fig 16]({{site.baseurl}}/attachments/product.png)
-
 
 {% note info %} 
 Если в магазине возможна покупка без регистрации и покупатель предпочитает произвести плату без создания учетной записи, приобретённое членство будет присвоено покупателю только после создания учётной записи. Администратор получит уведомление о таком заказе. 
@@ -166,4 +169,5 @@ published: false
 
 Когда истечёт срок действия членства, покупатель получит уведомление по электронной почте. Настройте автоматические уведомления для модуля **Paid Memberships** на странице **Настройка магазина / Уведомления по электронной почте**.
 
-![notifications.png]({{site.baseurl}}/attachments/ref_memberships_ext/notifications.png)
+![21.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/21.jpg)
+
