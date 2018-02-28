@@ -80,13 +80,12 @@ published: false
 Настройте скидки для групп пользователей в разделе **Скидки / Оптовые скидки**. Нажмите **Создать скидку**, укажите сумму-базу для расчёта скидки, размер скидки в процентах или рублях и группу пользователей, для которой действует скидка. Создайте одну или несколько скидок и нажмите **Сохранить**. Подробнее в статье {% link "Оптовые скидки" ref_0yZU8I9T %}
 
 {% note info %} 
-To allow customers use several types of discount at a time use % to set the value 
+Чтобы покупатели могли воспользоваться несколькими скидками сразу, настройте скидки в процентах. 
 {% endnote %}
 
 ![Figure 7]({{site.baseurl}}/attachments/Screen Shot 2018-01-12 at 21.27.47.png)
 
-
-**Membership coupons** can be defined in the 'Discounts: Coupons' section of the admin back-end as described in {% link "Setting up discount coupons" ref_SGI1FqdC %}. When creating a membership discount the main point is to set the applicable membership(s) in the 'Membership' area (Figure 8) and save the changes. You can edit the coupon later on by clicking the coupon name and enable/disable it using the On/Off button.
+Настройте купоны для групп пользователей на странице **Скидки / Купоны**. Нажмите **Создать купон**, установите настройки и укажите группу пользователей, для которой будет действовать купон. Готовый купон можно редактировать, отключать и включать при необходимости. Подробнее в статье {% link "Настройка скидочных купонов" ref_coupons %}.
 
 ![Fig 8]({{site.baseurl}}/attachments/coupons.png)
 
