@@ -105,25 +105,24 @@ published: false
 
 ![Fig 9]({{site.baseurl}}/attachments/so.png)
 
-Choose the offer you'll set up first and press _**Create**_. You'll see a form that you'll need to feel in to create an offer that will meet the conditions you specify, e.g. dates, rewards, exclusions, etc. As for memberships you'll need to specify them in the 'Conditions' section in the 'Eligible membership levels' field (Figure 10).
+Выберите вид специального предложения и нажмите **Создать**. Заполните все поля и укажите группы пользователей, на которые распространяется акция.
 
 ![Fig 10]({{site.baseurl}}/attachments/conditions.png)
 
 {% note info %} 
-For detailed guidance on the offers set-up please refer to {% link "Special Offers" ref_special_offers %}
+Информация о специальных предложениях: {% link "Special Offers" ref_special_offers %}
 {% endnote %}
 
 
-## Memberships for Payments Methods
+## Группы покупателей и способы оплаты
 
-With the [Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html) module you'll be able to give extra payment options to the certain groups of customers in your store, e.g. enable PayPal Express Checkout for the wholesale buyers only. 
+Модуль [Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html) активирует дополнительные способы оплаты для избранных покупателей, например, PayPal Express Checkout только для оптовых покупателей. 
 
-To enable the feature, please install the 'Memberships for payment methods' module first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed a special 'Memberships' field will appear under each payment method in the 'Store SetUp: Payment Methods' section of the cart admin area (Figure 11).
+[Установите модуль](https://kb.x-cart.ru/modules/managing_modules/installing_modules_from_the_marketplace.html "Преимущества групп пользователей") **Memberships for payment methods**. На странице **Настройка магазина / Приём платежей** у каждого способа оплаты появится поле **Группы пользователей**.
 
 ![Fig 11]({{site.baseurl}}/attachments/payment.png)
 
-You'll need to define an applicable membership in this field and the payment will become available for the customers with the specified membership only (Figure 12). On checkout, a customer will see only the payment methods available for his membership.
-
+Выберите способ оплаты и укажите для него группу пользователей. На странице оплаты заказа покупатели увидят только способы оплаты, настроенные для их группы.
 
 ![Fig 12]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 16.16.45.png)
 
