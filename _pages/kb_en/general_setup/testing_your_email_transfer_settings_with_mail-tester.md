@@ -7,7 +7,7 @@ title: Testing your email transfer settings with mail-tester.com
 order: 100
 published: false
 ---
-A great deal of communication with your X-Cart store users will happen via email. This includes email notifications, newsletters and email marketing messages like abandoned cart reminders. If you take communication with your customers seriously, you will invest some time and effort in the design and content of your emails. However, after all that work, there's still a chance of your emails getting classified as spam and sent straight to the spam folder of your customer email boxes. This article discusses why this may happen and what you can do to improve the situation from your end.
+A great deal of communication with your X-Cart store users will happen via email. This includes email notifications, email marketing messages like abandoned cart reminders and - sometimes - newsletters. If you take communication with your customers seriously, you will invest some time and effort in the design and content of your emails. However, after all that work, there's still a chance of your emails getting classified as spam and sent straight to the spam folder of your customer email boxes. This article discusses why this may happen and what you can do to improve the situation from your end.
 
 According to recent research, up to 80-90% of all email on the Internet is spam. Be it unsolicited promotional business materials, virus spam, illegal money transfer scam or phishing scam to obtain sensitive information, spam is bad: it causes financial harm, interferes with day-to-day work and makes it more difficult for people to find legitimate emails that they may have received.
 
