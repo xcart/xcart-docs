@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-08-02 11:49 +0400'
 identifier: ref_J70IfNxL
 title: Choosing the data cache driver
-order: 100
+order: 550
 published: true
 categories:
   - Environment configuration
