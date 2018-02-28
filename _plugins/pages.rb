@@ -58,3 +58,14 @@ module Jekyll
 end
 
 JekyllRedirectFrom::CLASSES = JekyllRedirectFrom::CLASSES.dup + [Jekyll::PagesDirPage]
+
+module JekyllRedirectFrom
+  class RedirectPage
+    alias_method :old_read_yaml, :read_yaml
+
+    def read_yaml(*args)
+      old_read_yaml(*args)
+      self.data['show_in_sidebar'] = false
+    end
+  end
+end
