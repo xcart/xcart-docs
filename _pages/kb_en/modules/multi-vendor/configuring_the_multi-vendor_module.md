@@ -64,6 +64,8 @@ To configure the module:
     
     *   **Enable email notification for payout requests**: This setting toggles the "Vendor request for payment" email notification. (If this setting is active, the store owner gets an email notification when a vendor submits a payout request. If it is disabled, no email notification is sent; a payment request simply appears as a "Request for payout" record in the transactions section.)
     
+    *   **Payout request e-mail**: If you have chosen to enable email notifications for payout requests (the setting above), be sure to use this field to specify an email address to which the notifications need to be sent. If no email address is specified here, no notification will be sent.
+    
     *   **Vendor access to global attributes**: Specify whether your vendors should be allowed to add their own attribute values if they decide to use attributes added at product class and global levels by the store admin and/or other vendors.
         The available options here are "Use existing values only" and "Use existing and add new values".
 
