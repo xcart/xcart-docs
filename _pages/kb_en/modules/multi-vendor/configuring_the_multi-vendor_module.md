@@ -54,9 +54,11 @@ To configure the module:
       </tbody>
     </table>
 
-    *   **Order DST based commission rate** and **Order shipping cost based commission rate**: If you wish to charge your vendors a commission on every sale of their products through your store, use these fields to specify your commission rates. The "Order DST based commission rate" setting allows you to set a commission rate as a percentage of the order discounted subtotal (DST), the "Order shipping cost based commission rate" setting - as a percentage of the order shipping cost. As of X-Cart version 5.2.9, the rates specified here are applied to the sales of all the vendors in the store - there is no way to set different commission rates for different vendors. 
+    *   **Do not show customers’ contact information to vendors**: This setting toggles vendor access to customer contact information.
+    
+    *   **Order DST based commission rate** and **Order shipping cost based commission rate**: If you wish to charge your vendors a commission on every sale of their products through your store, use these fields to specify your commission rates. The "Order DST based commission rate" setting allows you to set a commission rate as a percentage of the order discounted subtotal (DST), the "Order shipping cost based commission rate" setting - as a percentage of the order shipping cost. The rates specified here will be applied by default to the sales of any vendors for which no vendor-specific commission rates have been set. 
         The commission will be charged automatically when a buyer pays for an order containing products supplied by a vendor. You will be able to see the commission you earned on any vendor order in the Orders list section.
-        Please note that the setting  "Order shipping cost based commission rate" applies only to the "Vendors as separate shops" multivendor mode (In the "Warehouse" mode, no shipping cost based commission is calculated, since the products of all the vendors are considered to be shipped from the same warehouse).
+        Please note that the setting  "Order shipping cost based commission rate" applies only to the "Vendors as separate shops" multivendor mode (In the "Warehouse" mode, no shipping cost based commission is calculated, since the products of all the vendors are shipped from the same warehouse).
 
     *   **Vendor access to global attributes**: Specify whether your vendors should be allowed to add their own attribute values if they decide to use attributes added at product class and global levels by the store admin and/or other vendors.
         The available options here are "Use existing values only" and "Use existing and add new values".
