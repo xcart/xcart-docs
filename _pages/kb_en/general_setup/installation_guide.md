@@ -16,29 +16,7 @@ order: 0
 
 This guide describes the process of installing X-Cart 5 on your server.
 
-## Table of Contents
-
-*   [Introduction](#introduction)
-*   [Table of Contents](#table-of-contents)
-*   [Server requirements](#server-requirements)
-    *   [Hardware requirements](#hardware-requirements)
-*   [Browser compatibility](#browser-compatibility)
-*   [Installation process](#installation-process)
-    *   [Upload X-Cart 5 onto your server](#upload-x-cart-5-onto-your-server)
-    *   [Create an empty database](#create-an-empty-database)
-    *   [Run the installation wizard and follow the steps](#run-the-installation-wizard-and-follow-the-steps)
-        *   [Step 1\. License agreement](#step-1-license-agreement)
-        *   [Step 2\. Creating administrator account](#step-2-creating-administrator-account)
-        *   [Step 3\. Environment check](#step-3-environment-check)
-        *   [Step 4\. Configuring X-Cart 5](#step-4-configuring-x-cart-5)
-        *   [Steps 5 and 6\. Some magic](#steps-5-and-6-some-magic)
-        *   [Step 7\. Installation completed](#step-7-installation-completed)
-*   [Possible installation problems](#possible-installation-problems)
-    *   [1\. Problems with connection to database](#problems-with-connection-to-database)
-    *   [2. Permission checking failed](#permissionchecking-failed)
-    *   [3. Disabled functions](#disabled-functions)
-    *   [4\. Disabled PHP extensions](#disabled-php-extensions)
-    *   [5\. HTTPS bouncer is not installed](#https-bouncer-is-not-installed)
+{% toc Table of Contents %}
 
 ## Server requirements
 
