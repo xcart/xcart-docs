@@ -29,19 +29,19 @@ published: false
 Чтобы выбрать несколько групп пользователей, удерживайте кнопку _**Shift**_.  
 {% endnote %}
 
-![Figure 1]({{site.baseurl}}/attachments/X Cart online store builder    Your company name    Manage category  Apparel.png)
+![1.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/1.jpg)
 
 Далее установите ту же группу пользователей для товаров категории. Откройте **Каталог / Товары**, в строке поиска выберите категорию и нажмите **Поиск**.
 
-![Figure 2]({{site.baseurl}}/attachments/Products.png)
+![2.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/2.jpg)
 
 В результатах поиска появится список товаров выбранной категории. Внизу страницы нажмите **Редактировать все / Цена и доступность для групп**.
 
-![Figure 3]({{site.baseurl}}/attachments/bulk edit.png)
+![3.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/3.jpg)
 
 Откроется страница массового редактирования товаров. Установите значение поля **Группы пользователей** и нажмите **Сохранить**.
 
-![Figure 4]({{site.baseurl}}/attachments/membership.png)
+![4.jpg]({{site.baseurl}}/attachments/ref_1rWm5c94/4.jpg)
 
 ### Настройка товара
 
