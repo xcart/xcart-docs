@@ -60,6 +60,10 @@ To configure the module:
         The commission will be charged automatically when a buyer pays for an order containing products supplied by a vendor. You will be able to see the commission you earned on any vendor order in the Orders list section.
         Please note that the setting  "Order shipping cost based commission rate" applies only to the "Vendors as separate shops" multivendor mode (In the "Warehouse" mode, no shipping cost based commission is calculated, since the products of all the vendors are shipped from the same warehouse).
 
+    *   **Minimal vendor balance to request a payout**: Use this field to set a minimum amount of money that a vendor must have on their account balance to be able to request a payout of their earnings.
+    
+    *   **Enable email notification for payout requests**: This setting toggles the "Vendor request for payment" email notification. (If this setting is active, the store owner gets an email notification when a vendor submits a payout request. If it is disabled, no email notification is sent; a payment request simply appears as a "Request for payout" record in the transactions section.)
+    
     *   **Vendor access to global attributes**: Specify whether your vendors should be allowed to add their own attribute values if they decide to use attributes added at product class and global levels by the store admin and/or other vendors.
         The available options here are "Use existing values only" and "Use existing and add new values".
 
