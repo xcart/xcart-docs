@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-02-14 14:35 +0400'
 identifier: ref_1QrpKuD3
 title: Testing your email transfer settings with mail-tester.com
-order: 100
+order: 1000
 published: true
 redirect_from:
   - /general_setup/testing_your_email_transfer_settings_with_mail-tester.html
