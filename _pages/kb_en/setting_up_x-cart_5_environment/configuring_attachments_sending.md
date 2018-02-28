@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-08-15 15:26 +0400'
 identifier: ref_yCxquUhl
 title: Configuring your X-Cart server for better large file download performance
-order: 100
+order: 500
 published: true
 version: X-Cart 5.3.3.2
 ---
