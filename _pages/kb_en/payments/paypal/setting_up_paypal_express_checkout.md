@@ -43,19 +43,19 @@ Your choice of an API solution will determine the type of API credentials that y
 
 For PayPal API, you will need the following set of credentials: 
     
-    *  Partner name (should always be "PayPal"),
-    *  API access username,
-    *  API access password,
-    *  API signature or API certificate (The *Use PayPal authentication method* box allows you to choose, which one you want to use).
+   *  Partner name (should always be "PayPal"),
+   *  API access username,
+   *  API access password,
+   *  API signature or API certificate (The *Use PayPal authentication method* box allows you to choose, which one you want to use).
 
 The above named credentials can be retrieved in your PayPal account profile.
 
 For Payflow API, you will need the following set of credentials: 
 
-    *  Partner name,
-    *  Merchant login,
-    *  User,
-    *  Password.
+   *  Partner name,
+   *  Merchant login,
+   *  User,
+   *  Password.
 
 These are the same credentials that are used as your manager.paypal.com login information.
     
