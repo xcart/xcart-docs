@@ -70,14 +70,14 @@ published: false
 
 
 {% note info %} 
-Информация о налогах:  {% link "Настройка налога с продаж" ref_ZBKZ38v7 %}.
+Информация о налогах: {% link "Настройка налога с продаж" ref_ZBKZ38v7 %}.
 {% endnote %}
 
 ## Группы покупателей и скидки
 
-This is a feature in-demand in deed. Using memberships you can vary a discount level between different groups of customers, provide coupons of limited edition valid only for a particular membership, extend membership sales with special offers.
+Представителям разных групп пользователей администратор предоставляет разные скидки, специальные скидочные купоны и акции.
 
-**Membership discounts** can be set up in the 'Discounts: Volume Discounts' section of the admin back-end as described in {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %}. The process is rather straightforward - press the 'Add discount' button, define a subtotal the discount will be applied to in the '$' marked field, define the discount value in % or $ and choose the appropriate membership (Figure 7). You can repeat the process as many times as you need and then press _**Save Changes**_
+Настройте скидки для групп пользователей в разделе **Скидки / Оптовые скидки**. Нажмите **Создать скидку**, укажите сумму-базу для расчёта скидки, размер скидки в процентах или рублях и группу пользователей, для которой действует скидка. Создайте одну или несколько скидок и нажмите **Сохранить**. Подробнее в статье {% link "Оптовые скидки" ref_0yZU8I9T %}
 
 {% note info %} 
 To allow customers use several types of discount at a time use % to set the value 
