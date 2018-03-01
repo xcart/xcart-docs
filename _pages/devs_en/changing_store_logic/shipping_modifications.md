@@ -20,7 +20,7 @@ This article describes the process of creating a simple shipping method. In our 
 
 We start off by {% link "creating an empty module" ref_G2mlgckf %} with the developer ID **XCExample** and the module ID **ShippingDemo**.
 
-### Shipping processor classs
+### Shipping processor class
 
 We create a main file of our shipping processor as `classes/XLite/Module/XCExample/ShippingDemo/Model/Shipping/Processor/MyProcessor.php`: 
 
@@ -190,7 +190,7 @@ as well as in 'Store setup > Shipping' section in admin area:
 ![store-setup-shipping.png]({{site.baseurl}}/attachments/ref_TVWpzWfL/store-setup-shipping.png)
 
 {% note Note %}
-Icon of shippin carrier in admin area is defined by the `skins/admin/modules/XCExample/ShippingDemo/method_icon.jpg` image. If you create similar `method_icon.jpg` file in your module, it will be picked up automatically.
+Icon of shipping carrier in admin area is defined by the `skins/admin/modules/XCExample/ShippingDemo/method_icon.jpg` image. If you create similar `method_icon.jpg` file in your module, it will be picked up automatically.
 {% endnote %}
 
 Shipping method that will be shown to customers is created by this piece of YAML file:
