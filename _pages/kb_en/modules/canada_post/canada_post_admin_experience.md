@@ -17,7 +17,7 @@ This includes the following topics:
 
 *   [Contract and non-contract shipping](#contract-and-non-contract-shipping);
 *   [Creating shipments](#creating-shipments);
-*   [Obtaining shipping labels](#obtaining-shipping labels);
+*   [Obtaining shipping labels](#obtaining-shipping-labels);
 *   [Transmitting shipments](#transmitting-shipments);
 *   [Voiding shipments](#voiding-shipments);
 *   [Obtaining manifests](#obtaining-manifests);
