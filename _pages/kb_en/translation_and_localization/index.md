@@ -6,7 +6,7 @@ identifier: ref_1frAlu26
 title: Translation and Localization
 order: 170
 published: true
-description: X-Cart translation into another languages and localization
+description: Learn how to localize your store and make it multilingual
 icon: translate
 categories:
   - home
