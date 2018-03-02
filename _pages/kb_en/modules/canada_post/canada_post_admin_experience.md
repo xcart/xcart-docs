@@ -15,14 +15,7 @@ This page provides information on the user experience in the Admin area of an X-
 
 This includes the following topics:
 
-*   [Contract and non-contract shipping](#contract-and-non-contract-shipping);
-*   [Creating shipments](#creating-shipments);
-*   [Obtaining shipping labels](#obtaining-shipping labels);
-*   [Transmitting shipments](#transmitting-shipments);
-*   [Voiding shipments](#voiding-shipments);
-*   [Obtaining manifests](#obtaining-manifests);
-*   [Tracking shipments](#tracking-shipments);
-*   [Handling returns](#handling-returns).
+{% toc %}
 
 ## Contract and non-contract shipping
 
