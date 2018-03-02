@@ -36,4 +36,10 @@ published: false
 
 ## Настройка модуля
 
+После установки модуля перейдите по ссылке **Настройки** 
 
+![1.jpg]({{site.baseurl}}/attachments/ref_1yLiVv5G/1.jpg)
+
+или откройте страницу З**аказы / Бухгалтерия / 1C Integration / Настройки**.
+
+![2.jpg]({{site.baseurl}}/attachments/ref_1yLiVv5G/2.jpg)
