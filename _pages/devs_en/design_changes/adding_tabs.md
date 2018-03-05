@@ -1,17 +1,19 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2015-01-21 00:00'
 title: Adding tabs
 identifier: ref_DsCbLpqy
-updated_at: 2015-01-21 00:00
-layout: article_with_sidebar
-lang: en
 categories:
-- Developer docs
-- Demo module
+  - Developer docs
+  - Demo module
+published: true
+order: 100
 ---
 
 ## Introduction
 
-This article describes how you can tabs on a page in admin area. For instance, each order page has two tabs: **General info** and **Invoice**: 
+This article describes how you can add tabs on a page in admin area. For instance, each order page has two tabs: **General info** and **Invoice**: 
 
 ![]({{site.baseurl}}/attachments/8225436/8356201.png)
 
