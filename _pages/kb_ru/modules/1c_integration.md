@@ -154,7 +154,6 @@ padding:2px;
 th 
 {
 height:28px;
-background-color:#f892dc;
 color:white;
 border-color:black;
 }
