@@ -143,6 +143,48 @@ published: false
 
 В нашем примере мы выбрали следующие условия выгрузки:
 
+<html>
+<head>
+<style type='text/css'>
+table, th, td
+{
+border-style:solid;
+border-width:1px;
+border-collapse:collapse;
+padding:2px;
+}
+th 
+{
+height:28px;
+background-color:#f892dc;
+color:white;
+border-color:black;
+}
+.ts1 {background-color:#ffeffb;}
+</style>
+</head>
+<body>
+<h4> В нашем примере мы выбрали следующие условия выгрузки:: </h4>
+<table>
+<tr>
+<td>Остаток на складе </td>
+<td>Больше </td>
+<td>0,001</td>
+<tr class='ts1'>
+<td>Цена за единицу </td>
+<td>Больше </td>
+<td>0,01</td>
+</tr>
+<tr>
+<td>Соглашение</td>
+<td>Равно</td>
+<td>Интернет-магазин (розница)</td>
+</tr>
+</table>
+</body>
+</html>
+
+
 
 ![for_1c_manual_12.png]({{site.baseurl}}/attachments/ref_1yLiVv5G/for_1c_manual_12.png)
 
