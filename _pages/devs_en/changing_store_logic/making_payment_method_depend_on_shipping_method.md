@@ -1,12 +1,14 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2015-01-06 00:00'
 title: Making payment method depend on shipping method
 identifier: ref_Z6mwXUDg
-updated_at: 2015-01-06 00:00
-layout: article_with_sidebar
-lang: en
 categories:
-- Developer docs
-- Demo module
+  - Developer docs
+  - Demo module
+published: true
+order: 100
 ---
 
 ## Introduction
@@ -120,7 +122,7 @@ As you can see, the **Credit Card** payment method is hidden now.
 
 ## Module pack
 
-You can download this module example from here: [https://dl.dropboxusercontent.com/u/23858825/Tony-PaymentShippingDependencyDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-PaymentShippingDependencyDemo-v5_1_0.tar)
+You can download this module example from here: <https://www.dropbox.com/s/rdn26m879msv6ir/Tony-PaymentShippingDependencyDemo-v5_1_0.tar>
 
 ## Attachments:
 
