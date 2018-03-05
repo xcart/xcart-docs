@@ -188,4 +188,7 @@ published: false
 
 Нажмите **Записать и закрыть**. Повторите те же действия для создания второго дополнительного реквизита **Номер заказа**.
 
-![]({{site.baseurl}}/attachments/ref_1yLiVv5G/for_1c_manual_16.png)
+![for_1c_manual_16.png]({{site.baseurl}}/attachments/ref_1yLiVv5G/for_1c_manual_16.png)
+
+
+ 
