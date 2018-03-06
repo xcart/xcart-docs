@@ -5,7 +5,7 @@ updated_at: '2018-03-06 13:30 +0400'
 identifier: ref_2L6W3YMS
 title: Theme Tweaker and Webmaster Mode
 order: 100
-published: false
+published: true
 description: Learn how to use Webmaster mode to apply changes to the default store layout
 ---
 Sometimes it's necessary to change a default page layout to make your store unique or to adapt the default layout to meet your business requirements. You can do this easily using a built-in [Theme Tweaker](https://market.x-cart.com/addons/theme-tweaker.html "Using Theme Tweaker for Layout Changes") module that allows adding your own CSS styles and JavaScript codes to the existing X-Cart ones, adding custom images or even editing text labels and rearranging info blocks on the page. 
