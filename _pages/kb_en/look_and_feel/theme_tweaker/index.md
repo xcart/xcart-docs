@@ -14,7 +14,7 @@ Please make sure the module is {% link "installed and enabled" ref_0fGEpvrh %} b
 
 ![view-storefront.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/view-storefront.png)
 
-The storefront will be opened in a new tab. Find the 'Gear' icon and click on it to start editing pages in the Webmaster mode.
+The storefront will be opened in a new tab. Find the 'Gear' icon in the buttom left corner and click on it to start editing pages in the Webmaster mode.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![gear-icon.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/gear-icon.png)</div>
