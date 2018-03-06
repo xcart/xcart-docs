@@ -69,7 +69,7 @@ Now you can check the results in the store's front end. In our case, we should b
     
 ## Editing text labels via Webmaster mode
 
-To enable Webmaster mode you should be logged in as an admin in the store customer front-end. When logged in as an admin you'll see a 'Gear' icon in the buttom left corner.
+To enable Webmaster mode you should be logged in as an admin in the store customer front-end. When logged in as an admin you'll see a 'Gear' icon in the bottom left corner.
 
 ![webmaster.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/webmaster.png)
 
