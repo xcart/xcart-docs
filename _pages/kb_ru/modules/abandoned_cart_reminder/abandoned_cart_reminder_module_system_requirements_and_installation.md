@@ -18,16 +18,12 @@ published: false
 
 ## Установка
 
-В **X-Cart Всё включено** модуль уже установлен и требует активации. 
+В **X-Cart Всё включено** модуль уже установлен и требует {% link "активации" ref_uEnDBBA7 %}. 
 
-Для X-Cart Базовый, Бизнес и Мультивендор модуль необходимо приобрести в маркетплейсе, установить и активировать. 
-
-To install and enable the module on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
-
-As a result, you should have the module Abandoned Cart Reminder installed in the Modules section of your store:
+Для **X-Cart Базовый**, **Бизнес** и **Мультивендор** модуль необходимо {% link "приобрести в маркетплейсе, установить и активировать" ref_Vn1mMUw9 %}.
 
 ![]({{site.baseurl}}/attachments/7503940/8718920.png)
 
-_Related pages:_
+_Дополнительная информация:_
 
 *   {% link "Getting started with Abandoned Cart Reminder" ref_0XDhscNU %}
