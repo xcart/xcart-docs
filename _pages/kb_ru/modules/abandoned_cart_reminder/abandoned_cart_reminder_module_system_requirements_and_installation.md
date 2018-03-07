@@ -16,9 +16,11 @@ published: false
 *   Модуль **Купоны** (**Сoupons**), если вы хотите включить скидочные купоны в письма о незавершённых покупках;
 *   Сервер с настроенным {% link "скриптом выполнения запланированных задач _console.php_" ref_cronjob28 %}, необходимый для автоматической отправки напоминаний об оставленных корзинах.
 
-## Installation
+## Установка
 
-The module Abandoned Cart Reminder can be obtained via X-Cart’s Marketplace. 
+В **X-Cart Всё включено** модуль уже установлен и требует активации. 
+
+Для X-Cart Базовый, Бизнес и Мультивендор модуль необходимо приобрести в маркетплейсе, установить и активировать. 
 
 To install and enable the module on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
