@@ -7,24 +7,26 @@ title: How to Use Template Editor
 order: 100
 published: false
 ---
-Sometimes it's necessary to change a default page layout to make your store unique or to adapt the default layout to meet your business requirements. You can do this easily using a built-in [Theme Tweaker](https://market.x-cart.com/addons/theme-tweaker.html "Using Theme Tweaker for Layout Changes") module that allows adding your own CSS styles and JavaScript codes to the existing X-Cart ones, adding custom images or even editing text labels and rearranging info blocks on the page. 
+**Template Editor** is the first tool of the [Webmaster Mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "How to Use Template Editor"). When enabled it will look as follows:
 
-Please make sure the module is {% link "installed and enabled" ref_0fGEpvrh %} before proceeding. When enabled, you can apply changes to the existing store layout directly in the storefront using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Using Theme Tweaker for Layout Changes"). For this purpose log in as an admin and open the storefront using the "View storefront" button on any page of your store admin area. 
+![template_editor.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/template_editor.png)
 
-![view-storefront.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/view-storefront.png)
+**Template editor** is aimed at editing the code of the template files (.twig and .html). Use it when you need to change the template (layout) elements (not text description or css code).
 
-The storefront will be opened in a new tab. Find the 'Gear' icon and click on it to start editing pages in the Webmaster mode.
+Let's consider some cases of changing the Invoice page as a sample of the **Template Editor** facilities. This can be useful if you want to make the invoice look different for a customer and an admin.
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![gear-icon.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/gear-icon.png)</div>
-  <div class="column" markdown="span">![modes.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/modes.png)</div>
-</div>
-
-Let's review each mode in details:
-1. Template Editor
-2. Custom CSS
-3. Layout Editor
-4. [Labels Editor](https://kb.x-cart.com/look_and_feel/managing_texts_labels_in_your_store.html#editing-text-labels-via-webmaster-mode "Using Theme Tweaker for Layout Changes")
-5. Descriptions Editor
+First of all, you'll need to place an order as an admin and stop on the invoice page. 
  
- 
+![invoice_page.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice_page.png)
+
+Here you'll need to enable the **Webmaster mode** by clicking the 'Gear' icon in the bottom left corner, choose the **Template Editor** tool and turn ON the _Pick templates from page_ option. You'll see a main list of templates used on this page.
+
+Pick a page element with a mouse (it will be highlighted) and see the temlate file that corresponds with this element. It will be the 'Shipping Address' info block in our case.
+
+![highlighted_element.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/highlighted_element.png)
+
+The address fields that you see in the 'Shipping address' block are defined in the **Store setup** -> **Cart & Checkout** section in the admin back-end. 
+
+![address-fields.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/address-fields.png)
+
+Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block second. To do this we'll need to find the .twig file that corresponds with the 'Billing address' 
