@@ -8,13 +8,13 @@ order: 70
 published: false
 ---
 
-## System requirements
+## Системные требования 
 
-Following are the system requirements for Abandoned Cart Reminder module:
+Для работы модуля понадобятся:
 
-*   X-Cart 5;
-*   Coupons module for X-Cart 5 installed and enabled (_Required if you want to send discount coupons with abandoned cart reminder e-mails_);
-*   Server configured to run {% link "X-Cart’s script for scheduled tasks console.php" ref_lLqNzAaq %} automatically on a schedule (_Required if you want the module to send abandoned cart reminder e-mails automatically_).
+*   магазин на базе X-Cart 5;
+*   Модуль **Купоны** (**Сoupons**), если вы хотите включить скидочные купоны в письма о незавершённых покупках;
+*   Сервер с настроенным {% link "скриптом выполнения запланированных задач _console.php_" ref_cronjob28 %}, необходимый для автоматической отправки напоминаний об оставленных корзинах.
 
 ## Installation
 
@@ -29,4 +29,3 @@ As a result, you should have the module Abandoned Cart Reminder installed in the
 _Related pages:_
 
 *   {% link "Getting started with Abandoned Cart Reminder" ref_0XDhscNU %}
-
