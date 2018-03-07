@@ -1,17 +1,19 @@
 ---
-title: REST API documentation
 lang: en
 layout: article_with_sidebar
-updated_at: 2017-10-10 10:50 +0400
+updated_at: '2017-10-10 10:50 +0400'
+title: REST API documentation
 identifier: ref_RSR29iWL
 order: 100
 redirect_to:
-- "/rest-api/"
+  - /rest-api/
 icon: plug
 categories:
-- home
-description: If you want to exchange data with X-Cart through an external script,
-  REST API is the way to go.
+  - home
+description: >-
+  If you want to exchange data with X-Cart through an external script, REST API
+  is the way to go.
+published: true
 ---
 
 ## Introduction
@@ -21,6 +23,8 @@ If you want to exchange data with X-Cart through an external script, [REST API]
 {% note warning %}
 Please note that X-Cart models and their API change over time, so some example requests might not be compatible with your X-Cart store. This guide is based on **X-Cart 5.3.1 API**.
 {% endnote %}
+
+{% toc Table of Contents %}
 
 ## Table of Contents
 
@@ -525,9 +529,9 @@ Example 2: building _path for \XLite\Model\Payment\Transaction model:
 
 *   Excluding \XLite\Model\ prefix: **\XLite\Model\Payment\Transaction **becomes** Payment\Transaction**
 *   Lowercasing the rest: **Payment\Transaction **becomes **payment\transaction**
-*   Replacing back-slashes with dashes: **payment\transaction **becomes** payment-transaction**
+*   Replacing back-slashes with dashes: **payment\transaction** becomes **payment-transaction**
 
-Result: **\XLite\Model\Payment\Transaction **is converted to** payment-transaction**
+Result: **\XLite\Model\Payment\Transaction** is converted to **payment-transaction**
 
 ### Building _path for module models
 
