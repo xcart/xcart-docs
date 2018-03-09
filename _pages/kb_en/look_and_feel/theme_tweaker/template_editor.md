@@ -13,7 +13,7 @@ published: false
 
 **Template editor** is aimed at editing the code of the template files (.twig and .html). Use it when you need to change the template (layout) elements (not text description or css code).
 
-Let's consider some cases of changing the Invoice page as a sample of the **Template Editor** facilities. This can be useful if you want to make the invoice look different for a customer and an admin.
+Let's consider some cases of changing the Invoice page as a sample of the **Template Editor** facilities. You can use the tips from this article to make an invoice look different for a customer and an admin.
 
 First of all, you'll need to place an order as an admin and stop on the invoice page. 
  
@@ -29,4 +29,6 @@ The address fields that you see in the 'Shipping address' block are defined in t
 
 ![address-fields.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/address-fields.png)
 
-Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block second. To do this we'll need to find the .twig file that corresponds with the 'Billing address' 
+Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block next to it. To do this we'll need to find the .twig file that corresponds with the 'Billing address'. For this purpose click on the 'Billing Address' block (it will be highlighted) and the Template Editor will show the .twig file that corresponds with this area.
+
+![billing.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/billing.png)
