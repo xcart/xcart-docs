@@ -26,11 +26,11 @@ We are always at your disposal!
 
   We'll take an Invoice page as an example. You can use the tips from this article to make an invoice look different for a customer and an admin.
    
-  1. The first way to change an invoice is to edit the invoice page after an order is placed. To do this, you'll need to place an order as an admin and stop on the invoice page. 
+  1. The first way to change an invoice is to edit the invoice page after an order is placed. 
+  
+     To do this, you'll need to place an order as an admin and stop on the invoice page. Here you'll need to enable the **Webmaster mode** by clicking the 'Gear' icon in the bottom left corner. Choose the **Template Editor** tool and turn ON the _Pick templates from page_ option. You'll see a main list of templates used on this page.
      
      ![invoice_page.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice_page.png)
-     
-     Here you'll need to enable the **Webmaster mode** by clicking the 'Gear' icon in the bottom left corner. Choose the **Template Editor** tool and turn ON the _Pick templates from page_ option. You'll see a main list of templates used on this page.
      
      Pick a page element with a mouse (the element will be highlighted) and see the .twig file that corresponds with this element. It will be the 'Shipping Address' info block in our case and the template that corresponds with it is _common/order/invoice/parts/bottom.address.shipping.twig_.
      
@@ -56,7 +56,7 @@ We are always at your disposal!
      <table cellspacing="0" class="addresses{% if this.order.isPaymentSectionVisible() %} B{% endif %}{% if this.order.isShippingSectionVisible() %} S{% endif %}">
      ```
      
-     Then you should switch the _<if>_ units that go next the same way
+     Then you should switch the <_if_> units that go next the same way
      
      (1)
      ```
@@ -92,7 +92,7 @@ We are always at your disposal!
      
      If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to it's default look.
      
-  2. Second, we can change the invoice in the e-mail notification that a customer and an admin gets after an order is placed.
+  2. The second way to change an invoice is to edit the e-mail notification that a customer and an admin gets after an order is placed.
      
      For this purpose go to the **Store setup** -> **Email notifications** section of your admin back-end.
      
@@ -106,12 +106,13 @@ We are always at your disposal!
       
      ![scheme.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/scheme.png)
      
-     Click on it and a ramdon invoice will be opened in a new tab. Click on the section in the    invoice that you want to edit to see the .twig file that corresponds with this section. We'll remove the **Shipping method** section from the invoice in our sample.
+     Click on it and a ramdon invoice will be opened in a new tab. Click on the section in the    invoice that you want to edit to see the .twig file that corresponds with this section. 
+     _We'll remove the **Shipping method** section from the invoice in our sample._
      
      ![invoice.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice.png)
      
      Click on the highlighted .twig file to open and edit it the way you need. 
-     In our case it's the common/order/invoice/parts/bottom.methods.shipping.twig file and we'll delete the highlighted code from it to remove the **Shipping method** section from the invoice e-mail notification.
+     _In our case it's the common/order/invoice/parts/bottom.methods.shipping.twig file and we'll delete the highlighted code from it to remove the **Shipping method** section from the invoice e-mail notification._
      
      ![invoice_changes.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice_changes.png)
      
