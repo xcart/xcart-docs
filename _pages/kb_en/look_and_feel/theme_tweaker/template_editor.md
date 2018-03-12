@@ -130,7 +130,7 @@ Find the code that is responsible for a country flag representation and copy it.
 <img src="{{ this.currentLanguage.flagURL }}" alt="" />
 ```
 
-After that switch the store skin to Crisp and White in the **Look and Feel**-> **Layout** section of the admin area. Open the store-front and log in as an admin there. Click on the 'Gear' ikon in the bottom left corner to enable the **Webmaster mode** -> **Template editor** tool. 
+After that switch the store skin to Crisp and White in the **Look and Feel**-> **Layout** section of the admin area. Open the store-front and log in as an admin there. Click on the 'Gear' iсon in the bottom left corner to enable the **Webmaster mode** -> **Template editor** tool. 
 
 Click on the 'Language selector' to see the .twig file you need to edit (_crisp_white/customer/layout/header/locale/country.twig_) and paste the code in this template so that it looks as in the figure below:
 
