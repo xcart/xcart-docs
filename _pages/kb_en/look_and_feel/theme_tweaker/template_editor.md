@@ -38,23 +38,23 @@ The address fields that you see in the 'Shipping address' block are defined in t
 
 ![address-fields.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/address-fields.png)
 
-Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block next to it. To do this we'll need to find the _common/order/invoice/parts/bottom.address.shipping.twig_ template and go one level up to the template that embeds both of the shipping and billing address elements. This is the _common/order/invoice/parts/bottom.twig_ template.
+Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block next to it. To do this we'll need to find the _common/order/invoice/parts/bottom.address.shipping.twig_ template and go one level up to the template that embeds both the shipping and billing address elements. This is the _common/order/invoice/parts/bottom.twig_ template.
 
 ![code-switch.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/code-switch.png)
 
-To switch the 'Shipping address' and 'Billing address' blocks you'll need to find the line
+To switch the 'Shipping address' and 'Billing address' blocks you'll need to find the following line in the _common/order/invoice/parts/bottom.twig_ template
 
 ```
 <table cellspacing="0" class="addresses{% if this.order.isShippingSectionVisible() %} S{% endif %}{% if this.order.isPaymentSectionVisible() %} B{% endif %}">
 ```
 
-and change the order of the code units to (1) {% if this.order.isPaymentSectionVisible() %} B{% endif %} -> (2) {% if this.order.isShippingSectionVisible() %} S{% endif %} so that the line becomes
+and change the order of the code units to (1) {% if this.order.isPaymentSectionVisible() %} B{% endif %} <-> (2) {% if this.order.isShippingSectionVisible() %} S{% endif %} so that the line becomes
 
 ```
 <table cellspacing="0" class="addresses{% if this.order.isPaymentSectionVisible() %} B{% endif %}{% if this.order.isShippingSectionVisible() %} S{% endif %}">
 ```
 
-Then you should switch the <if> units that go next
+Then you should switch the _<if>_ units that go next the same way
 
 (1)
 ```
