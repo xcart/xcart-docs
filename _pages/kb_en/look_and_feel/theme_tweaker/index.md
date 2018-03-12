@@ -26,7 +26,7 @@ The storefront will be opened in a new tab. Find the 'Gear' icon in the buttom l
 </div>
 
 The **Webmaster mode** provides five convenient tools that you can use to apply changes to the different parts of your site. Let's review each tool in details:
-1. Template Editor
+1. {% link "Template Editor" ref_1gdpZJ44 %}
 2. Custom CSS
 3. Layout Editor
 4. [Labels Editor](https://kb.x-cart.com/look_and_feel/managing_texts_labels_in_your_store.html#editing-text-labels-via-webmaster-mode "Using Theme Tweaker for Layout Changes")
