@@ -40,7 +40,7 @@ To configure the module:
             <ul>
               <li>When a customer's cart contains items from more than one vendor, a single order is formed.</li>
               <li>Processing of the order is done by admin. Vendors cannot edit the order.</li>
-              <li>The order is delivered as a single shipment from a single warehouse location. The cost of shipping is calculated for delivery from the <em>Company address</em> as specified by the store admin.</span></li>
+              <li>The order is delivered as a single shipment from a single warehouse location. The cost of shipping is calculated for delivery from the <em>Company address</em> as specified by the store admin.</li>
             </ul>
           </td>
           <td class="confluenceTd" >
