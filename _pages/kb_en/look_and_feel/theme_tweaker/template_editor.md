@@ -28,35 +28,35 @@ We are always at your disposal!
    
   1. First of all, you'll need to place an order as an admin and stop on the invoice page. 
    
-    ![invoice_page.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice_page.png)
+   ![invoice_page.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice_page.png)
    
-    Here you'll need to enable the **Webmaster mode** by clicking the 'Gear' icon in the bottom left corner. Choose the **Template Editor** tool and turn ON the _Pick templates from page_ option. You'll see a main list of templates used on this page.
-
-     Pick a page element with a mouse (the element will be highlighted) and see the .twig file that corresponds with this element. It will be the 'Shipping Address' info block in our case and the template that corresponds with it is _common/order/invoice/parts/bottom.address.shipping.twig_.
+   Here you'll need to enable the **Webmaster mode** by clicking the 'Gear' icon in the bottom left corner. Choose the **Template Editor** tool and turn ON the _Pick templates from page_ option. You'll see a main list of templates used on this page.
+    
+   Pick a page element with a mouse (the element will be highlighted) and see the .twig file that corresponds with this element. It will be the 'Shipping Address' info block in our case and the template that corresponds with it is _common/order/invoice/parts/bottom.address.shipping.twig_.
+   
+   ![highlighted_element.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/highlighted_element.png)
+   
+   The address fields that you see in the 'Shipping address' block are defined in the **Store setup** -> **Cart & Checkout** section in the admin back-end. So if you want to shange them, do it there.
      
-     ![highlighted_element.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/highlighted_element.png)
+   ![address-fields.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/address-fields.png)
+   
+   Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block next to it. To do this we'll need to find the _common/order/invoice/parts/bottom.address.shipping.twig_ template and go one level up to the template that embeds both the shipping and billing address elements. This is the _common/order/invoice/parts/bottom.twig_ template.
      
-     The address fields that you see in the 'Shipping address' block are defined in the **Store setup** -> **Cart & Checkout** section in the admin back-end. So if you want to shange them, do it there.
-       
-     ![address-fields.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/address-fields.png)
-       
-     Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block next to it. To do this we'll need to find the _common/order/invoice/parts/bottom.address.shipping.twig_ template and go one level up to the template that embeds both the shipping and billing address elements. This is the _common/order/invoice/parts/bottom.twig_ template.
-        
-    ![code-switch.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/code-switch.png)
-       
-    To switch the 'Shipping address' and 'Billing address' blocks you'll need to find the following line in the _common/order/invoice/parts/bottom.twig_ template
+   ![code-switch.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/code-switch.png)
+      
+   To switch the 'Shipping address' and 'Billing address' blocks you'll need to find the following line in the _common/order/invoice/parts/bottom.twig_ template
         
     ```
     <table cellspacing="0" class="addresses{% if this.order.isShippingSectionVisible() %} S{% endif %}{% if this.order.isPaymentSectionVisible() %} B{% endif %}">
     ```
-        
-    and change the order of the code units to (1) {% if this.order.isPaymentSectionVisible() %} B{% endif %} <-> (2) {% if this.order.isShippingSectionVisible() %} S{% endif %} so that the line becomes
+      
+   and change the order of the code units to (1) {% if this.order.isPaymentSectionVisible() %} B{% endif %} <-> (2) {% if this.order.isShippingSectionVisible() %} S{% endif %} so that the line becomes
        
     ```
     <table cellspacing="0" class="addresses{% if this.order.isPaymentSectionVisible() %} B{% endif %}{% if this.order.isShippingSectionVisible() %} S{% endif %}">
     ```
     
-    Then you should switch the _<if>_ units that go next the same way
+   Then you should switch the _<if>_ units that go next the same way
     
     (1)
     ```
@@ -68,9 +68,9 @@ We are always at your disposal!
         </td>
       {% endif %}
     ```
-    
-    (2)
-    
+   
+   (2)
+   
     ```
     {% if this.order.isPaymentSectionVisible() %}
         <td class="address payment{% if this.order.isShippingSectionVisible() %} payment-wrapping{% endif %}">
@@ -80,44 +80,44 @@ We are always at your disposal!
         </td>
       {% endif %}
     ```
-    Place the (2) unit first and 'Save' changes.
-    
-    As a result the invoice page will look as follows:
-    
-    ![changed.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/changed.png)
-    
-    The changed template will be automatically renamed from _common/order/invoice/parts/bottom.twig_ to _theme_tweaker/customer/order/invoice/parts/bottom.twig_ and will be listed in the **Look an feel** -> **Edited templates** section of the admin back-end.
-    
-    ![edited_templates.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/edited_templates.png)
-    
-    If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to it's default look.
+   Place the (2) unit first and 'Save' changes.
+   
+   As a result the invoice page will look as follows:
+   
+   ![changed.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/changed.png)
+   
+   The changed template will be automatically renamed from _common/order/invoice/parts/bottom.twig_ to _theme_tweaker/customer/order/invoice/parts/bottom.twig_ and will be listed in the **Look an feel** -> **Edited templates** section of the admin back-end.
+   
+   ![edited_templates.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/edited_templates.png)
+   
+   If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to it's default look.
 
   2. Second, we can change the invoice in the e-mail notification that a customer and an admin gets after an order is placed.
 
-     For this purpose go to the **Store setup** -> **Email notifications** section of your admin back-end.
+   For this purpose go to the **Store setup** -> **Email notifications** section of your admin back-end.
      
-     ![notifications.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/notifications.png)
+   ![notifications.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/notifications.png)
      
-     Find e.g. the 'Order Created' notification there (the one that corresponds with the e-mail that both a customer and an admin receive after a new order is placed).
+   Find e.g. the 'Order Created' notification there (the one that corresponds with the e-mail that both a customer and an admin receive after a new order is placed).
      
-     ![order_created.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/order_created.png)
+   ![order_created.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/order_created.png)
      
-     Scroll down the page and find the 'Edit via Webmaster mode' button in the **Scheme** section. 
+   Scroll down the page and find the 'Edit via Webmaster mode' button in the **Scheme** section. 
      
-     ![scheme.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/scheme.png)
-     
-    Click on it and a ramdon invoice will be opened in a new tab. Click on the section in the    invoice that you want to edit to see the .twig file that corresponds with this section. We'll remove the **Shipping method** section from the invoice in our sample.
-    
-    ![invoice.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice.png)
-    
-    Click on the highlighted .twig file to open and edit it the way you need. 
-    In our case it's the common/order/invoice/parts/bottom.methods.shipping.twig file and we'll delete the highlighted code from it to remove the **Shipping method** section from the invoice e-mail notification.
-    
-    ![invoice_changes.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice_changes.png)
-    
-    Once the changes are applied the invoice page looks as follows:
-    
-    ![deleted.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/deleted.png)
+   ![scheme.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/scheme.png)
+   
+   Click on it and a ramdon invoice will be opened in a new tab. Click on the section in the    invoice that you want to edit to see the .twig file that corresponds with this section. We'll remove the **Shipping method** section from the invoice in our sample.
+   
+   ![invoice.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice.png)
+   
+   Click on the highlighted .twig file to open and edit it the way you need. 
+   In our case it's the common/order/invoice/parts/bottom.methods.shipping.twig file and we'll delete the highlighted code from it to remove the **Shipping method** section from the invoice e-mail notification.
+   
+   ![invoice_changes.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice_changes.png)
+   
+   Once the changes are applied the invoice page looks as follows:
+   
+   ![deleted.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/deleted.png)
     
 ### How to add a new element?
 
