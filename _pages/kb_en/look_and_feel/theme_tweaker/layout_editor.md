@@ -5,7 +5,7 @@ updated_at: '2018-03-13 11:35 +0400'
 identifier: ref_1xoeCJwy
 title: How to Use Layout Editor
 order: 100
-published: false
+published: true
 ---
 Layout Editor is a third tool of the Webmaster mode that is aimed at rearranging the info blocks on a page. You can drag-n-drop the info blocks using this tool to change the position.
 
