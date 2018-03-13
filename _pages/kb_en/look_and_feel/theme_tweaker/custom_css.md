@@ -63,4 +63,4 @@ It's also possible to add javascrips to your site. For this purpose use the **Cu
 
 ![custom_JS.png]({{site.baseurl}}/attachments/ref_10vugyja/custom_JS.png)
 
-Custom javascripts are stored in one file and are added to the <HEAD> tag after all style files applied.
+Javascripts are stored in one file and both custom CSS and JS are added to the <HEAD> tag after all style files applied.
