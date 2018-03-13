@@ -51,7 +51,7 @@ published: false
 
         Поля **Заголовок e-mail письма (без купона)** и **Текст e-mail напоминания (без купона)** обязательны и должны быть заполнены, даже если в напоминании будет купон на скидку. Если скидка активирована, заполните поля **Заголовок e-mail письма (без купона)** и **Текст e-mail напоминания (без купона)** так же, как **Заголовок e-mail письма (с купоном)** и **Текст e-mail напоминания (с купоном)**.
 
-        When editing the subject and the body of the template, you can use the following tokens:
+        В заголовке и теме письма уместны следующие ярлыки:
 
         *   [COMPANY_NAME] - Name of your company from the store's settings;
 
