@@ -16,7 +16,7 @@ published: false
 
 ## Создание напоминаний
 
-Before you can start sending abandoned cart reminders to owners of abandoned carts, you need to set up the reminders that will be sent. It is possible to set up multiple reminders and to specify a sending method (automatic or manual) for each of them. If Coupons module is installed in your store, you can also specify whether sending a reminder should create a discount coupon for the customer, or not. 
+Если модуль обнаружил оставленную корзину с товарами, сообщите посетителю магазина, что выбранные им товары сохранены и заказ может быть завершён в любой момент. Настройте несколько писем-напоминаний с разными способами отправки (вручную или автоматически) и включите в письма купоны на скидку, если в магазине работает модуль Купоны. . 
 
 To create an abandoned cart reminder:
 
