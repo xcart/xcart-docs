@@ -18,17 +18,17 @@ published: false
 
 Если модуль обнаружил оставленную корзину с товарами, сообщите посетителю магазина, что выбранные им товары сохранены и заказ может быть завершён. Настройте несколько писем-напоминаний с отправкой вручную или автоматически и включите в письма купоны на скидку, если в магазине работает модуль **Купоны**. 
 
-To create an abandoned cart reminder:
+Как создать письмо-напоминание:
 
-1.  In your store's Admin area, go to the Email notifications page (**Store setup **>**Email notifications**) and click the **Cart reminders** tab. 
+1.  В зоне администратора откройте страницу **Настройка магазина / Уведомления по электронной почте** и нажмите **Шаблоны напоминаний о корзинах**: 
     ![]({{site.baseurl}}/attachments/7503950/8718924.png)
 
-2.  On the Abandonded cart reminders panel, click **New reminder**:
+2.  Нажмите **Новое напоминание**:
     ![]({{site.baseurl}}/attachments/7503950/8718923.png)
-    This opens the New cart reminder form which you can use to add a new reminder:
+    Откроется страница создания нового напоминания:
     ![]({{site.baseurl}}/attachments/7503950/8718927.png)
 
-3.  Complete the form fields to provide the details of the new reminder:
+3.  Заполните поля деталями нового шаблона письма:
 
     *   **Name**: Enter a name by which you will identify the reminder in the store's Admin area (This name will not be visible to customers).
         **Send automatically**: Select this check box if you want the reminder to be sent automatically. Leave unselected if you are going to send the reminder manually. 
