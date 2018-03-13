@@ -5,7 +5,7 @@ updated_at: '2018-03-12 15:45 +0400'
 identifier: ref_10vugyja
 title: How to Use Custom CSS
 order: 100
-published: false
+published: true
 ---
 A second tool of the Webmaster mode is **Custom CSS**. This tool is aimed at changing the design elements of the skin and adding a custom CSS code to the existing X-Cart pages so that a modified code is aggregated with the other software files automatically. Using **Custom CSS** you can change the skin colors, fonts, background, etc. The changes are applied storewide and are recorded in the **Look and Feel** > **Custom CSS $ JS** section of your store admin back-end. You can use this section to change your store skin with a custom css.
 
@@ -63,4 +63,4 @@ It's also possible to add javascrips to your site. For this purpose use the **Cu
 
 ![custom_JS.png]({{site.baseurl}}/attachments/ref_10vugyja/custom_JS.png)
 
-Custom javascripts are stored in one file and are added to the <HEAD> tag after all style files applied. 
+Custom javascripts are stored in one file and are added to the <HEAD> tag after all style files applied.
