@@ -32,7 +32,7 @@ We are always at your disposal!
      
      ![highlighted_element.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/highlighted_element.png)
      
-     The address fields that you see in the 'Shipping address' block are defined in the **Store setup** -> **Cart & Checkout** section in the admin back-end. So if you want to shange them, do it there.
+     The address fields that you see in the 'Shipping address' block are defined in the **Store setup** -> **Cart & Checkout** section in the admin back-end. So if you want to сhange them, do it there.
      
      ![address-fields.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/address-fields.png)
      
