@@ -40,8 +40,9 @@ published: false
 
     *   **Пауза перед автоматической отправкой (в часах)**: промежуток времени, по истечении которого отправляется напоминание. Автоматическая отправка происходит при срабатывании скрипта _console.php_. Перед каждым новым запуском скрипт выбирает уведомления, для которых настало время отправки, и рассылает сообщения о тех корзинах, которые пребывали в статусе оставленных в течение или дольше времени, указанного в этой настройке.
 
-    *   **Размер скидки по купону**: If you want a discount coupon to be automatically created for each of the abandoned cart owners to whom this reminder will be sent, specify the coupon discount amount. This can be set to a fixed amount (example: "5") or a percentage off (example: "5%"). If you do not want the reminder to create coupons, leave this field empty, or set this value to "0".
-    *   **Coupon expire**** in (days)**: Specify the number of days in which coupons created by the reminder will expire (This setting will apply only if the reminder is configured to be sent with a coupon).
+    *   **Размер скидки по купону**: если указан размер скидки, для получателей уведомления будет автоматически создан и включён в письмо купон на скидку. Задайте фиксированную сумму скидки или процент от стоимости заказа. Если оставить значение поля без изменений (0), купон не будет создан.
+    
+    *   **Срок действия купона (в днях)**: это поле появляется, когда заполнено поле Р**азмер скидки по купону**. Количество дней, в течение которых действует купон, отправленный покупателям в напоминании о заказе.
 
 4.  (_Same form - continued_) Configure the template that will be used for the reminder email messages: enter the subject line and the message body.
     *   The fields** E-mail subject (no coupon) **and **E-mail body (no coupon)** are intended for reminder emails that will not create coupons.
