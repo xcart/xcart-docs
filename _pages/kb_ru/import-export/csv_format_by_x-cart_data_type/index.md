@@ -9,7 +9,7 @@ published: true
 ---
 С помощью CSV файла в X-Cart можно импортировать несколько видов информации:
 
-*   {% link "товары" ref_inLgAwMe %};
+*   {% link "Товары" ref_inLgAwMe %};
 *   {% link "Классы и атрибуты" ref_2tRcco06 %};
 *   {% link "Значения атрибутов товаров" ref_gc6c4yTb %};
 *   {% link "Категории" ref_un5K5sCZ %};
