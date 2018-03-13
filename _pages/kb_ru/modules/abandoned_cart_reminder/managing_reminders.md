@@ -44,12 +44,12 @@ published: false
     
     *   **Срок действия купона (в днях)**: это поле появляется, когда заполнено поле Р**азмер скидки по купону**. Количество дней, в течение которых действует купон, отправленный покупателям в напоминании о заказе.
 
-4.  (_Same form - continued_) Configure the template that will be used for the reminder email messages: enter the subject line and the message body.
-    *   The fields** E-mail subject (no coupon) **and **E-mail body (no coupon)** are intended for reminder emails that will not create coupons.
+4.  Для напоминаний со скидкой и без используются отдельные шаблоны сообщения.
+    *   Заполните поля **Заголовок e-mail письма (без купона)** и **Текст e-mail напоминания (без купона)** для напоминаний, не содержащих купон на скидку.
 
-    *   The fields **E-mail subject (with coupon)** and **E-mail body (with coupon) **are intended for reminder emails that will be sent with a coupon.
+    *   Заполните поля **Заголовок e-mail письма (с купоном)** и **Текст e-mail напоминания (с купоном)** для напоминаний, предлагающих скидку.
 
-        The fields **E-mail subject (no coupon) **and **E-mail body (no coupon)** are required and need to be completed anyway - even if you are setting up a reminder that will create coupons. Just complete them with the same values as the **E-mail subject (with coupon)** and **E-mail body (with coupon)** fields.
+        Поля **Заголовок e-mail письма (без купона)** и **Текст e-mail напоминания (без купона)** обязательны и должны быть заполнены, даже если в напоминании будет купон на скидку. Если скидка активирована, заполните поля **Заголовок e-mail письма (без купона)** и **Текст e-mail напоминания (без купона)** так же, как **Заголовок e-mail письма (с купоном)** и **Текст e-mail напоминания (с купоном)**.
 
         When editing the subject and the body of the template, you can use the following tokens:
 
