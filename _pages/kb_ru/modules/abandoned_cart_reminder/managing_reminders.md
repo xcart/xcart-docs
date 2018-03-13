@@ -30,16 +30,17 @@ published: false
 
 3.  Заполните поля деталями нового шаблона письма:
 
-    *   **Name**: Enter a name by which you will identify the reminder in the store's Admin area (This name will not be visible to customers).
-        **Send automatically**: Select this check box if you want the reminder to be sent automatically. Leave unselected if you are going to send the reminder manually. 
+    *   **Название шаблона**: название шаблона сообщения в зоне администратора, его не видят покупатели. 
+        
+    *   **Отправлять автоматически**: поставьте галочку, чтобы сообщение отправлялось покупателю автоматически, или не ставьте, чтобы отправлять напоминания вручную. 
 
-        For reminders configured to be sent_ automatically_, the sending of reminder emails will be handled using X-Cart's script for scheduled tasks, console.php (Your server needs to be configured to periodically run this script. See {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}).  For reminders configured to be sent _manually_, the sending of reminder emails will need to be handled by you or another admin user with permissions to execute the task. For instructions on how to send reminders manually, see {% link "Sending reminders" ref_hkTTIuTr#sending-reminders %}.
+        Скрипт запланированных задач _console.php_ рассылает сообщения _автоматически_ (при соответствующей настройке сервера {% link "Sending reminders" ref_hkTTIuTr#sending-reminders %}Сonfiguring your server to run scheduled X-Cart tasks). _Администратор_ магазина или другой пользователь с правами на выполнение таких действий отправляет напоминания _вручную_. Дополнительная информация об отправке сообщений вручную: Sending reminders{% link "Sending reminders" ref_hkTTIuTr#sending-reminders %}.
 
-        The choice of automatic vs. manual sending method for any individual reminder should be made based on the intended audience of the message: for messages intended for all the customers who happened to abandon their shopping cart, choose the automatic sending method; for messages that you wish to be sent only to some of the customers, choose the manual sending method. 
+        Выбор способа отправки зависит от целевой аудитории. Для массовой рассылки установите автоматическую отправку. Для оповещения избранных покупателей - отправку вручную. 
 
-    *   **Send**** automatically in (hours)**: Specify the minimum number of hours that X-Cart should wait before sending this reminder to the owner of an abandoned cart (This setting will apply only if the automatic sending method is used). Once a reminder is configured to be sent automatically, you can expect it to be sent after the next time the script console.php is run. At each run of this script, a check will be conducted to determine whether it is already time to send the reminder for any of the abandoned carts present in the system; then, the reminder will be sent for all the carts that have been in the abandoned state for a period of time equal to or longer than the period specified by the "Send automatically in (hours)" setting.
+    *   **Пауза перед автоматической отправкой (в часах)**: промежуток времени, по истечении которого отправляется напоминание. Автоматическая отправка происходит при срабатывании скрипта _console.php_. Перед каждым новым запуском скрипт выбирает уведомления, для которых настало время отправки, и рассылает сообщения о тех корзинах, которые пребывали в статусе оставленных в течение или дольше времени, указанного в этой настройке.
 
-    *   **New coupon amount**: If you want a discount coupon to be automatically created for each of the abandoned cart owners to whom this reminder will be sent, specify the coupon discount amount. This can be set to a fixed amount (example: "5") or a percentage off (example: "5%"). If you do not want the reminder to create coupons, leave this field empty, or set this value to "0".
+    *   **Размер скидки по купону**: If you want a discount coupon to be automatically created for each of the abandoned cart owners to whom this reminder will be sent, specify the coupon discount amount. This can be set to a fixed amount (example: "5") or a percentage off (example: "5%"). If you do not want the reminder to create coupons, leave this field empty, or set this value to "0".
     *   **Coupon expire**** in (days)**: Specify the number of days in which coupons created by the reminder will expire (This setting will apply only if the reminder is configured to be sent with a coupon).
 
 4.  (_Same form - continued_) Configure the template that will be used for the reminder email messages: enter the subject line and the message body.
