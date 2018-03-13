@@ -7,14 +7,14 @@ title: Напоминания об оставленных корзинах
 order: 110
 published: false
 ---
-This page provides information on the following actions with abandoned cart reminders:
+О чём эта статья:
 
-*   [Creating reminders](#creating-reminders);
-*   [Viewing the reminders list](#viewing-the-reminders-list);
-*   [Editing reminders](#editing-reminders) (changing the sending method, the name, the coupon amount, the email template, etc for individual reminders);
-*   [Deleting reminders](#deleting-reminders).
+*   [Создание напоминаний](#Создание-напоминаний);
+*   [Просмотр напоминаний](#Просмотр-напоминаний);
+*   [Редактирование напоминаний](#Редактирование-напоминаний)(изменение способа отправки, названия, скидки, шаблона письма);
+*   [Удаление напоминаний](#Удаление-напоминаний).
 
-## Creating reminders
+## Создание напоминаний
 
 Before you can start sending abandoned cart reminders to owners of abandoned carts, you need to set up the reminders that will be sent. It is possible to set up multiple reminders and to specify a sending method (automatic or manual) for each of them. If Coupons module is installed in your store, you can also specify whether sending a reminder should create a discount coupon for the customer, or not. 
 
@@ -121,4 +121,3 @@ To delete a reminder:
 2.  Click **Save changes**. The reminder will be removed.
 
 _Related pages:_
-
