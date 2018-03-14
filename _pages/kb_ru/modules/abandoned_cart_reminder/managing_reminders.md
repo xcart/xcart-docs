@@ -69,9 +69,9 @@ published: false
 
         Напоминание с названием **Default e-mail reminder**  - тестовое напоминание, пример использования ярлыков.
 
-5.  Click **Create** to save the changes. The new reminder will be created and added to the [abandoned cart reminders list](#viewing-the-reminders-list).
+5.  Нажмите **Создать**. Новое напоминание появится на странице в [списке](#просмотр-напоминаний) Уведомления по электронной почте / Шаблоны напоминаний о корзинах.
 
-## Viewing the reminders list
+## Просмотр напоминаний
 
 You can view the list of abandoned cart reminders that have been set up for your store.
 
