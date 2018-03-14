@@ -16,7 +16,7 @@ description: >-
   Online Marketplace solution: Enable multiple vendors to sell their products
   through a single storefront
 ---
-X-Cart's **Multivendor** edition is an Online Marketplace solution that enables multiple sellers (we call them "vendors") to sell their products and manage their orders through a single marketplace.
+X-Cart's **Multivendor** edition is an Online Marketplace solution that enables multiple sellers ("vendors") to sell their products and manage their orders through a single marketplace.
 
 _In this section:_
 
