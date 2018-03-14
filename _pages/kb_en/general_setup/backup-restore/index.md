@@ -14,6 +14,6 @@ When you create a backup copy of a store you need to carry out a number of typic
 When you restore the store from a backup copy, it is supposed that you use the same tools and facilities to carry out inverse operations: restoring the store files from the archive and restoring the database content from the MySQL dump. In case you are restoring the store to a different location, in addition to this you will need to adjust some configuration settings.
 
 For detailed instructions on how to handle store backups and carry out specific tasks, please refer to the following articles:
-1. Prerequisites
+1. {% link "Prerequisites" ref_4X9iIR6L %}
 2. Backup
 3. Restore
