@@ -53,21 +53,21 @@ published: false
 
         В заголовке и теме письма уместны следующие ярлыки:
 
-        *   [COMPANY_NAME] - Name of your company from the store's settings;
+        *   [COMPANY_NAME] - Название магазина, как указано в настройках;
 
-        *   [NAME] - Full name of the customer (This will be empty for customers who have not specified their names);
+        *   [NAME] - Полное имя покупателя (не заполняется, если посетитель сайта не указал имя);
 
-        *   [CART_ITEMS] - Information on the items in the customer's cart;
+        *   [CART_ITEMS] - Товары в корзине;
 
-        *   [RECOVERY_LINK] - URL to recover the cart;
+        *   [RECOVERY_LINK] - Ссылка для возврата в корзину;
 
-        *   [COUPON_CODE] - Code of the coupon created by the reminder;
+        *   [COUPON_CODE] - Код купона на скидку, созданного модулем;
 
-        *   [COUPON_AMOUNT] - Coupon discount;
+        *   [COUPON_AMOUNT] - Размер скидки по купону;
 
-        *   [COUPON_EXPIRES] - Coupon expiration date.
+        *   [COUPON_EXPIRES] - Срок истечения купона.
 
-        A sample reminder template making use of the above tokens can be found in the _Default e-mail reminder_ in your store's reminders list.
+        Напоминание с названием **Default e-mail reminder**  - тестовое напоминание, пример использования ярлыков.
 
 5.  Click **Create** to save the changes. The new reminder will be created and added to the [abandoned cart reminders list](#viewing-the-reminders-list).
 
