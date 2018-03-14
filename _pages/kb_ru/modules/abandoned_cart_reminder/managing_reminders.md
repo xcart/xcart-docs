@@ -86,36 +86,30 @@ published: false
 
 ## Редактирование напоминаний
 
-You can edit any abandoned cart reminders that have been created in your store, including both the email message template and such parameters as the sending method, the coupon amount, etc.
+При необходимости напоминания можно редактировать:
 
-To edit a reminder:
-
-1.  In the [abandoned cart reminders list](#viewing-the-reminders-list), click on the name of the reminder that needs to be edited. This opens the page where you can review and edit the reminder details:
+1.  В [списке](#просмотри-напоминаний) напоминаний на странице на странице **Настройка магазина / Уведомления по электронной почте / Шаблоны напоминаний о корзинах** нажмите на название напоминания, которое требует изменений. Откроется страница информации о напоминании:
     ![]({{site.baseurl}}/attachments/7503950/8718932.png)
 
-2.  Edit the parameters of the reminder and/or make changes to the email template.
-3.  Click **Update** to save the changes. The reminder will be updated.
+2.  Измените настройки, заголовок и текст напоминания.
+3.  Нажмите **Обновить**.
 
-The sending method for a reminder can also be changed directly on the Abandoned cart reminders list page. To change the sending method:
+Способ отправки напоминания можно изменить прямо в списке всех напоминаний на странице **Настройка магазина / Уведомления по электронной почте / Шаблоны напоминаний о корзинах**:
 
-1.  Use the Clock control  in the first column of the table opposite the reminder name to activate or deactivate the automatic sending of the reminder emails:
-    ![]({{site.baseurl}}/attachments/7503950/8718929.png) (green icon) = the reminder must be sent automatically;
-    ![]({{site.baseurl}}/attachments/7503950/8718931.png) (gray icon) = the reminder must be sent manually.
-2.  Click the **Save changes** button at the bottom of the list to save the changes. The sending method will be updated.
+1.  Нажмите на значок часов слева от названия напоминания, который включает и отключает автоматическую отправку. _Зелёный_ цвет означает автоматическую отправку, _серый_ - вручную:
+    ![]({{site.baseurl}}/attachments/7503950/8718929.png) 
+2.  Измените способ отправки и нажмите **Сохранить**.
 
-It is also possible to quickly edit the numeric parameters of individual reminders straight from the Abandoned cart reminders list page. When you hover your cursor over a specific line in the Abandoned cart reminders list, the numeric fields in that line that can be edited directly on this page become highlighted. To start editing, simply click on the field you want to edit. This opens the field for editing:
+На этой же странице можно быстро изменить численные параметры напоминаний. Наведите курсор на напоминание. Поля, подлежащие редактированию, будут подсвечены. Нажмите на параметр и измените значение:
 
 ![]({{site.baseurl}}/attachments/7503950/8718935.png)
 
-Make the required change and click outside the field to close it. You can also use the Tab key to close the current field and open the next one for editing. When you're done editing, be sure to save the changes using the **Save changes** button at the bottom of the list.
+Нажмите за пределами редактируемого поля, чтобы сохранить изменение. Затем нажмите **Сохранить** внизу страницы, чтобы применить изменения.
 
-## Deleting reminders
+## Удаление напоминаний
 
-You can delete the abandoned cart reminders you no longer need.
+Напоминания, которые уже не используются, можно удалить:
 
-To delete a reminder:
+1.  В списке всех напоминаний на странице **Настройка магазина / Уведомления по электронной почте / Шаблоны напоминаний о корзинах** выберите напоминание и отметьте его для удаления, нажав на значок корзины справа ![]({{site.baseurl}}/attachments/7503950/7602228.png) 
+2.  Нажмите **Сохранить** внизу страницы.
 
-1.  In the [abandoned cart reminders list](#viewing-the-reminders-list), locate the reminder you wish to delete and select it for removal by clicking on the respective Trash icon ![]({{site.baseurl}}/attachments/7503950/7602228.png) at the right. 
-2.  Click **Save changes**. The reminder will be removed.
-
-_Related pages:_
