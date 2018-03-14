@@ -45,6 +45,7 @@ To back up the database using terminal access to the server:
 
 The abbreviations in the command mean:
 
+{:.ui.compact.celled.small.padded.table}
 |db_host | The DNS name or the IP-address of your MySQL server.|
 |username | The username for your MySQL user account.|
 |password | The password for your MySQL user account.|
