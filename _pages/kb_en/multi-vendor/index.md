@@ -16,9 +16,7 @@ description: >-
   Online Marketplace solution: Enable multiple vendors to sell their products
   through a single storefront
 ---
-
-
-The **Multi-vendor** module by X-Cart team allows you to turn your store into an online mall where multiple vendors can sell their own products and manage their orders through a single marketplace.
+X-Cart's **Multivendor** edition is an Online Marketplace solution that enables multiple sellers (we call them "vendors") to sell their products and manage their orders through a single marketplace.
 
 _In this section:_
 
