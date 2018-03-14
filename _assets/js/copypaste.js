@@ -1,7 +1,7 @@
 (function($){
   $(document).ready(function(){
     $('article div.highlighter-rouge').each(function(){
-        var clipboardBtn = $('<button class="ui icon button clipboard-button"><i class="copy icon"></i></button>');
+        var clipboardBtn = $('<button class="ui icon button clipboard-button"><i class="copy outline icon"></i></button>');
         clipboardBtn.attr('data-clipboard-text', $(this).text());
         $(this).append(clipboardBtn);
     });

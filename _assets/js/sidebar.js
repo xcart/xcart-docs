@@ -53,8 +53,8 @@
     });
 
     $('.content-opener[data-collapse]').click(function() {
-      $('.icon', this).toggleClass('plus');
-      $('.icon', this).toggleClass('minus');
+      $('.icon', this).toggleClass('chevron right');
+      $('.icon', this).toggleClass('chevron down');
       $('#navigation-menu').animate({'opacity': 'toggle', 'height': 'toggle'}, 'fast');
     })
 

@@ -44,20 +44,21 @@ We are always at your disposal!
      
      To switch the 'Shipping address' and 'Billing address' blocks you'll need to find the following line in the _common/order/invoice/parts/bottom.twig_ template
      
-     ```
+     ```twig
      <table cellspacing="0" class="addresses{% if this.order.isShippingSectionVisible() %} S{% endif %}{% if this.order.isPaymentSectionVisible() %} B{% endif %}">
      ```
      
-     and change the order of the code units to (1) {% if this.order.isPaymentSectionVisible() %} B{% endif %} <-> (2) {% if this.order.isShippingSectionVisible() %} S{% endif %} so that the line becomes
+     and change the order of the code units to (1) `{% if this.order.isPaymentSectionVisible() %} B{% endif %}` <-> (2) `{% if this.order.isShippingSectionVisible() %} S{% endif %}` so that the line becomes
      
-     ```
+     ```twig
      <table cellspacing="0" class="addresses{% if this.order.isPaymentSectionVisible() %} B{% endif %}{% if this.order.isShippingSectionVisible() %} S{% endif %}">
      ```
      
      Then you should switch the <_if_> units that go next the same way
-     
+
      (1)
-     ```
+     
+     ```twig
      {% if this.order.isShippingSectionVisible() %}
               <td class="address shipping">
                 <div class="wrapper{% if not this.order.trackingNumbers.isEmpty() %} tracking-info-section-included{% endif %}">
@@ -69,7 +70,7 @@ We are always at your disposal!
      
      (2)
      
-     ```
+     ```twig
      {% if this.order.isPaymentSectionVisible() %}
               <td class="address payment{% if this.order.isShippingSectionVisible() %} payment-wrapping{% endif %}">
                 <div class="wrapper">
@@ -78,6 +79,7 @@ We are always at your disposal!
               </td>
             {% endif %}
      ```
+
      Place the (2) unit first and 'Save' changes.
      
      As a result the invoice page will look as follows:
