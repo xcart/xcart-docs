@@ -21,7 +21,7 @@ X-Cart's **Multivendor** edition is an Online Marketplace solution that enables 
 _In this section:_
 
 *   {% link "Multivendor-specific addons" ref_MRQEvicQ %}
-*   {% link "Configuring the Multi-vendor module" ref_nFq48dhr %}
+*   {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}
 *   {% link "Vendor registration" ref_SkW62BgH %}
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
 *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
