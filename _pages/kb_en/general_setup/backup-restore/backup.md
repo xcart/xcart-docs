@@ -19,14 +19,10 @@ Hence there can be cases that you have to back up the database manually so that 
 
 To back up the database through the X-Cart Admin area:
 
-1. Log in to the Admin area.
-
-2. Open the 'Database Backup' tab in the **System tools** -> **Database** section.
-
-![backup.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup.png)
-
-
-3. In the 'Database backup' tab choose the option that suits you better and click on it. 
+ 1. Log in to the Admin area.
+ 2. Open the 'Database Backup' tab in the **System tools** -> **Database** section.
+ ![backup.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup.png)
+ 3. In the 'Database backup' tab choose the option that suits you better and click on it. 
 
 {% note info %}
 If you do not have access to your server/hosting account through FTP, SSH or other suitable facility, do not select the check box and save the SQL file directly to your local computer.
