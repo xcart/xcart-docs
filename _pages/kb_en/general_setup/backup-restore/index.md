@@ -5,7 +5,7 @@ updated_at: '2018-03-14 14:26 +0400'
 identifier: ref_5cU1i33e
 title: How to Back Up and Restore the Site
 order: 100
-published: false
+published: true
 ---
 Backup generally refers to making a copy of a store, which can then be restored fast and easily, if need be. Backups can be perfromed either manually as described in this article below or in one click by using a special [Backup Master](https://market.x-cart.com/addons/backup-master.html "How to Back Up and Restore the Site") module. Regular data backups will help you prevent serious data loss and corruption that can follow a disaster or mishandling of your store. The rule here is to create a full backup copy of the store at a regular basis and before carrying out any tasks that may interfere with the software code and behavior, including software and hardware upgrades, custom programming, adjusting the store design, etc. At that, you should not rely on your hosting provider only, who is likely to include regular data backups into their hosting plan. In case of emergency, data cannot always be restored immediately while any possible delay can seriously affect your business. Another typical example of when you may need to back up your store is {% link "moving/copying the store to another host or directory" ref_6oFmUXC7 %}. In such a situation, if a backup is available, you will be able to deploy a fully functioning copy of the store in a new location quickly.
 
