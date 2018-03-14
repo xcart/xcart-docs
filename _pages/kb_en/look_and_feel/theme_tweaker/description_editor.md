@@ -5,7 +5,7 @@ updated_at: '2018-03-14 12:00 +0400'
 identifier: ref_0KCLczz4
 title: How to Edit Text Descriptions
 order: 100
-published: false
+published: true
 ---
 **Description Editor** is the fith tool of the **Webmaster mode** that will help you to change product and categories descriptions on the fly. 
 
@@ -19,4 +19,3 @@ The system will highlight the area where you can add text changes. These are the
   <div class="column" markdown="span">![short_descr.png]({{site.baseurl}}/attachments/ref_0KCLczz4/short_descr.png)</div>
   <div class="column" markdown="span">![full-descr.png]({{site.baseurl}}/attachments/ref_0KCLczz4/full-descr.png)</div>
 </div>
-
