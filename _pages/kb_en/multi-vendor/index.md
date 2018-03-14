@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-10-16 21:42 +0400'
 identifier: ref_cvwmAuRi
-title: Multi-vendor
+title: Multivendor
 categories:
   - home
   - User manual
