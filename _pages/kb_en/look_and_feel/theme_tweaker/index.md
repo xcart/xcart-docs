@@ -30,4 +30,4 @@ The **Webmaster mode** provides five convenient tools that you can use to apply 
 2. {% link "Custom CSS" ref_10vugyja %}
 3. {% link "Layout Editor" ref_1xoeCJwy %}
 4. [Labels Editor](https://kb.x-cart.com/look_and_feel/managing_texts_labels_in_your_store.html#editing-text-labels-via-webmaster-mode "Using Theme Tweaker for Layout Changes")
-5. Descriptions Editor
+5. {% link "Description Editor" ref_0KCLczz4 %}
