@@ -15,5 +15,5 @@ When you restore the store from a backup copy, it is supposed that you use the s
 
 For detailed instructions on how to handle store backups and carry out specific tasks, please refer to the following articles:
 1. {% link "Prerequisites" ref_4X9iIR6L %}
-2. Backup
+2. {% link "Store and Database Backup" ref_1kRBEegE %}
 3. Restore
