@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-05 16:13 +0400'
 identifier: ref_1gdpZJ44
 title: How to Use Template Editor
-order: 100
+order: 110
 published: true
 ---
 **Template Editor** is the first tool of the [Webmaster Mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "How to Use Template Editor") that is aimed at editing the code of the template files (.twig and .html). Use it when you need to change the template (layout) elements (not a text description or a css code). 
@@ -32,9 +32,11 @@ We are always at your disposal!
      
      ![highlighted_element.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/highlighted_element.png)
      
+     {% note info %}
      The address fields that you see in the 'Shipping address' block are defined in the **Store setup** -> **Cart & Checkout** section in the admin back-end. So if you want to сhange them, do it there.
      
      ![address-fields.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/address-fields.png)
+     {% endnote %}
      
      Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block next to it. To do this we'll need to find the _common/order/invoice/parts/bottom.address.shipping.twig_ template and go one level up to the template that embeds both the shipping and billing address elements. This is the _common/order/invoice/parts/bottom.twig_ template.
      
