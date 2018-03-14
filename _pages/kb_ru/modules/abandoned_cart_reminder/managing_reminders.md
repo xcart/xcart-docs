@@ -69,26 +69,22 @@ published: false
 
         Напоминание с названием **Default e-mail reminder**  - тестовое напоминание, пример использования ярлыков.
 
-5.  Нажмите **Создать**. Новое напоминание появится на странице в [списке](#просмотр-напоминаний) Уведомления по электронной почте / Шаблоны напоминаний о корзинах.
+5.  Нажмите **Создать**. Новое напоминание появится на странице в [списке](#просмотр-напоминаний) **Уведомления по электронной почте / Шаблоны напоминаний о корзинах**.
 
 ## Просмотр напоминаний
 
-You can view the list of abandoned cart reminders that have been set up for your store.
-
-To view the list of abandoned cart reminders:
-
-*   In your store's Admin area, go to the Email notifications page (**Store setup **>**Email notifications**) and click the **Cart reminders** tab. This opens the Abandoned cart reminders panel where you can see the list of cart reminders in the form of a table:
+Полный список настроенных напоминаний доступен на странице **Настройка магазина / Уведомления по электронной почте / Шаблоны напоминаний о корзинах**:
     ![]({{site.baseurl}}/attachments/7503950/8718928.png)
 
-For each reminder on the list the following information is provided:
+Информация о напоминаниях:
 
-*   Clock icon in the first column, green or gray: This reflects your choice of sending method for the reminder. Reminders selected to be sent automatically have a green icon -![](attachments/7503950/8718929.png), reminders that are to be sent manually - a gray icon,![]({{site.baseurl}}/attachments/7503950/8718931.png).
-*   **Name**: The name of the reminder. This name allows you to identify the reminder in the store's Admin area; your customers never see it.
-*   **Delay**** (hours)**: The minimum number of hours that X-Cart will wait before sending this reminder for an abandoned cart - if the reminder is configured to be sent automatically.
-*   **Coupon discount**: The discount amount that will be offered to the customer. "0" or empty value means that sending the reminder will not create coupons.
-*   **Expire**** (days)**: The number of days in which coupons created by the reminder will expire.
+*   Значок часов слева от названия напоминания серого или зелёного цвета. _Зелёный_ цвет означает автоматическую отправку, _серый_ - вручную ![](attachments/7503950/8718929.png)
+*   **Имя**: Название напоминания, которое видит и использует в работе только администратор, а покупатели не видят.
+*   **Задержка (часы)**: минимальный промежуток времени, по истечении которого происходит автоматическая отправка напоминаний.
+*   **Скидка по купону**: размер скидки по купону, приложенному к письму об оставленной корзине. Значение **0** в этой колонке означает, что напоминание не содержит купон на скидку.
+*   **Срок (дни)**: количество дней до истечения срока действия купона.
 
-## Editing reminders
+## Редактирование напоминаний
 
 You can edit any abandoned cart reminders that have been created in your store, including both the email message template and such parameters as the sending method, the coupon amount, etc.
 
