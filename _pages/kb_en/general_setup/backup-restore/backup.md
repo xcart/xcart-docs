@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-14 15:40 +0400'
 identifier: ref_1kRBEegE
 title: Store and Database Backup
-order: 100
+order: 120
 published: true
 ---
 With X-Cart the store administrator can back up the store database in a few easy steps directly from the Admin area. 
