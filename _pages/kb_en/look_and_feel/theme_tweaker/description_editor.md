@@ -19,3 +19,7 @@ The system will highlight the area where you can add text changes. These are the
   <div class="column" markdown="span">![short_descr.png]({{site.baseurl}}/attachments/ref_0KCLczz4/short_descr.png)</div>
   <div class="column" markdown="span">![full-descr.png]({{site.baseurl}}/attachments/ref_0KCLczz4/full-descr.png)</div>
 </div>
+
+If you need to edit a text description on any {% link "other language installed" ref_1frAlu26 %} in your store just switch the store front-end to the target language and translate the description. Don't forget to save changes when complete.
+
+![descr_de.png]({{site.baseurl}}/attachments/ref_0KCLczz4/descr_de.png)
