@@ -12,6 +12,9 @@ order: 190
 icon: handshake
 redirect_from:
   - /modules/multi-vendor/index.html
+description: >-
+  Online Marketplace solution: Enable multiple vendors to sell their products
+  through a single storefront
 ---
 
 
