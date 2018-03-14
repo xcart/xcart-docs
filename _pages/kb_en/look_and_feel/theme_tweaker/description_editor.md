@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-14 12:00 +0400'
 identifier: ref_0KCLczz4
 title: How to Edit Text Descriptions
-order: 100
+order: 150
 published: true
 ---
 **Description Editor** is the fith tool of the **Webmaster mode** that will help you to change product and categories descriptions on the fly. 
