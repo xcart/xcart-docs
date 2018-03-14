@@ -5,7 +5,7 @@ updated_at: '2018-03-14 14:54 +0400'
 identifier: ref_4X9iIR6L
 title: Store BackUp Prerequisites
 order: 100
-published: false
+published: true
 ---
 Before you start making a back up copy of your store, make sure of the following:
 
@@ -33,4 +33,3 @@ Before you start making a back up copy of your store, make sure of the following
   </div>
    
    3. From here on, all your store visitors will be automatically redirected to a special page saying that the store is temporarily inaccessible and can be visited later. To open the store back, log in to the Admin area and turn ON the 'View Storefront' option.
-
