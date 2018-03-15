@@ -94,3 +94,33 @@ To back up files with the TAR archive manager:
 ```
 
 After you have run the command, TAR will pack all the files in the X-Cart root directory to the file store_backup.tgz and compress it with the ZIP data compression algorithm. The file will be saved to the directory that is parent to the X-Cart root directory. For example, if the X-Cart root directory is u/user/public_html/xcart, the file store_backup.tgz will be saved to directory u/user/public_html.
+
+## Backup Master Module
+
+To make the process of creating a full store backup more convenient and straighforward you can use a special [Backup Master](https://market.x-cart.com/addons/backup-master.html "Files and Database Backup") module that facilitates both a database and a full store files backup in one click. 
+
+To install the module go to the Addons section of the Admin area and follow the procedure described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once installed open the module settings page to configure the method of a backup.
+
+![backup-module.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup-module.png)
+
+You can choose between the following methods:
+* ZipArchive class biult into PHP
+* Linux Shell commands
+* Linux Shell commands (without compression)
+
+{% note info %}
+Using Linux Shell commands is much faster, so it is the recommended option for Linux servers.
+ZipArchive class may fail when working with large backup files, but it is the only option available on Windows servers, unfortunately.
+{% endnote %}
+
+A predefined backup method is Linux Shell commands. If you change it, don't forget to **Submit** the changes. 
+
+To make a full store backup using the Backup Master module go to the **System tool** -> **Backup** section and click a **'Create backup'** button.
+
+<div class="ui stackable three column grid">
+  <div class="column" markdown="span">![backup-1.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup-1.png)</div>
+  <div class="column" markdown="span">![backup2.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup2.png)</div>
+  <div class="column" markdown="span">![backup-3.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup-3.png)</div>
+</div>
+
+The module will create a full cart backup and will list it in a history of backups where you can see a path to the backup file to use it further, the file size and date of creation. To delete a backup click the _Trash_ icon next to it. 
