@@ -47,35 +47,12 @@ Once the form has been submitted, a new (unapproved) vendor user will be created
 The store administrator will be able to see the registered vendor profile listed in the Users section of the Admin area:
 ![xc5_mv_unapproved_vendor_list1.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_unapproved_vendor_list1.png)
 
-The administrator will be able to view the profile details of the prospective vendor by clicking on the respective entry in the store's user list.
-
-The administrator will have to approve or reject the prospective vendor registration using the buttons **Approve vendor** / **Decline vendor**:
-
-![xc5_mv_approve_decline.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_approve_decline.png)
+The administrator will be able to view the profile details of the prospective vendor and will have to approve or reject their application. Depending on the store's notification settings, email notifications may be sent in connection with the creation, approval or rejection of a new vendor account.
 
 Once the vendor profile has been approved by the store administrator, they can log in to their personal area of the store's back end and start selling. 
-
-If necessary, email notifications can be used for such events as the creation, approval or rejection of a new vendor account.
-
-## Method 2
- 
-A new vendor profile is created by the store administrator via the store's Admin area.
-To create a new vendor profile, the administrator does one of the following: 
-
-*   creates a new user profile with the access level "Vendor":
-    ![]({{site.baseurl}}/attachments/8749143/8719604.png)
-*   creates a new user profile with the access level "Admin" and the role "Vendor":
-    ![]({{site.baseurl}}/attachments/8749143/8716890.png)
-
-With this method, the new vendor user gets created right away:
-    ![xc5_multi-vendor_profile_created.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_multi-vendor_profile_created.png)
-
-They can log in and start selling immediately after the creation of their profile.
-
 
 
 _Related pages:_
 
 *   {% link "Vendor login and first steps" ref_SZycMdTx %}
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-*   [Customizing the Admin and Vendor Signup pages](http://devs.x-cart.com/en/design_changes/customizing_the_admin_and_vendor_signup_pages.html)
