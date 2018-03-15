@@ -59,41 +59,16 @@ This article lists the multi-vendor related features and functions of the store 
 
      In the "_Vendors as separate shops_" mode, the administrator has the same capabilities as in the "_Warehouse_" mode, but, typically, only acts as a supervisor - whereas the processing of orders and making changes to the information of specific orders is carried out by the vendors.
 
-12.  The store administrator uses the Statistics section (**Orders** > **Statistics**) to view the store's sales statistics, which includes information on the store's overall sales as well as information on the sales by specific vendors. By default, the **Order statistics** tab provides information about all the orders in the store. Order statistics for a specific vendor can be viewed by entering the vendor's company name or email address into the filter at the top of the order statistics table:
-     ![xc5_multi-vendor_order_statistics.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_order_statistics.png)
-    
-     The **Best sellers** tab provides a list of the store's best selling products. Similarly to order statistics, bestsellers can be filtered by vendor:
-     ![xc5_multi-vendor_order_bestsellers.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_order_bestsellers.png)
-    
-13.  The store administrator can use the Vendor statistics section (**Orders** > **Vendor statistics**) to view statistics for specific vendors, including the information about each vendor's all time earnings on sales via the store, the amount paid out to them and the amount remaining to be paid out: 
-     ![xc5_multi-vendor_statistics.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_statistics.png)
-    
-     For each vendor, the following information is provided:
-     
-     *   Vendor: Vendor to whom the statistics pertains.
-     *   Transaction history: The link to view all the transactions for the vendor in the Transactions history.
-     *   Vendor earnings: How much money has been earned by the vendor on sales via the store.
-     *   Paid to Vendor: What part of the vendor's earnings has been paid out to them by the storefront operator. 
-     *   Liability: The amount that remains to be paid to the vendor by the storefront operator.
+12.  The store administrator has access to vendor statistics including:
 
-14.  The store administrator can use the Transactions history section (**Orders** > **Transactions history**) to view and manage information about vendor related transactions. The records of "Order paid" transactions that appear automatically in this section allow the administrator to be informed of the sums that are earned by the vendors on specific sales. This information allows the administrator to know what sums need to be paid out to the vendors. To keep track of payouts to the vendors, the administrator can manually create transactions stating what amount was paid out (To create a transaction, the administrator uses the **Create transaction** button above the transaction list). With PayPal Adaptive Payments, the transactions reflecting payouts to vendors are created automatically.
-     ![xc5_multi-vendor_transactions.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_transactions.png)
-    
-     To find specific transactions in the Transactions history, the store administrator can filter the transaction list by specifying a date range, a vendor profile and/or a portion of transaction description.
-    
-     They can see the following information about each transaction:
-    
-     *   Vendor: Vendor to whom the transaction pertains.
-     *   Created by: Origin of the transaction. "Auto" = transaction was created automatically; administrator email address = transaction was created manually by the administrator (See the **Create transaction** button above the transaction list). Transactions marked with PayPal logo are transactions via the "PayPal Adaptive Payments" method.
-     *   Date: Date when the transaction took place.
-     *   Order: Order to which the transaction pertains.
-     *   Description: Short description of the transaction. For example:
-        "Order paid" = "Some products owned by the vendor were purchased. The vendor has earned money, but the storefront operator has not yet paid it out to them"; 
-        "PayPal Adaptive: Commission paid" = "The money earned by the vendor has been transferred via PayPal Adaptive Payments to the vendor's PayPal account. The commission due to the storefront operator on this sale (minus PayPal commission) has been paid to the storefront operator"
-     *   Vendor earnings: How much money the vendor has earned on this sale.
-     *   Paid to vendor: How much money has been paid out to the vendor.
+     *   Order statistics, 
+     *   Best sellers,
+     *   Vendor statistics,
+     *   Transactions history.
 
-15. The store administrator decides what Multi-vendor email notifications should be used in the store.
+     See the article {% link "Viewing vendor statistics" ref_4mvK1AKz %} for more information.
+
+13. The store administrator decides what Multi-vendor email notifications should be used in the store.
 
 
 _Related pages:_
