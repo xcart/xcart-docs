@@ -12,7 +12,7 @@ redirect_from:
   - >-
     /modules/multi-vendor/multi-vendor_module_system_requirements_and_installation.html
 ---
-X-Cart Multivendor edition is X-Cart Business extended with a bunch of Multivendor-specific addons. These addons modify a regular X-Cart Business store transforming it into a marketplace that can be used simultaneously by multiple sellers. 
+X-Cart **Multivendor** edition is X-Cart Business extended with a bunch of Multivendor-specific addons. These addons modify a regular X-Cart Business store transforming it into a marketplace that can be used simultaneously by multiple sellers. 
 
 The most important addon of this bunch is **Multi-vendor**. Is is the core of the Multivendor package; you won't be able to run a Multivendor marketplace without it. This addon introduces a new type of X-Cart users - "vendors", an interface for vendor registration and approval, an option for the store administrator to choose one of two store operation modes (Warehouse/Vendors as separate shops), a dedicated area of the store back end where vendors can manage their product catalog and get access to orders, payment transactions and statistics, and so on.
   ![mv_module_inst.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mv_module_inst.png)
