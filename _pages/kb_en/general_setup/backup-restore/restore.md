@@ -5,7 +5,7 @@ updated_at: '2018-03-14 17:04 +0400'
 identifier: ref_080K3Qe7
 title: How to Restore a Site from Backup
 order: 130
-published: false
+published: true
 ---
 Generally speaking, restoring a store from a backup copy is an inverse procedure to creating the backup copy. When restoring the store, you are expected to use the same tools that you used to create the backup copy. Similar to creating the backup, restoring does not cause any serious difficulties, but it yet requires the standard sequence of operations: restore the store files and then restore the database. One of the major rules to be observed is to restore data from the backup to a newly created directory within the WWW part of your hosting account. You must keep with this rule no matter whether you simply copy/move the store to a new location or replace an existing installation with the backup copy. After you have restored your store from the backup, you may need to adjust some configuration settings, including the values of the variables in the main configuration file config.php, paths to images, file permissions, etc.
 
