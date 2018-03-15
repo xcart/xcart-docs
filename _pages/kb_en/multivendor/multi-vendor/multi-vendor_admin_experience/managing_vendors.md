@@ -40,7 +40,12 @@ The new vendor can log in and start selling immediately after the creation of th
 ## Editing vendor profiles
 
 If a vendor of yours requests changing some of their profile information (for example, if your vendor sells their business and the change of the business owner needs to be reflected in the vendor profile details), you can edit the respective vendor profile via the Users section of your store's Admin area.
+![xc5_multi-vendor_admin_access2vendorprofile.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_admin_access2vendorprofile.png)
+
+For details on the management of vendor profile information, see {% link "Managing vendor profile information" ref_b7PTQMgf %}
 
 ## Removing vendors
 
-If you need to discontinue access of one of your vendors to the marketplace, you can remove their user profile via the Users section of your store's Admin area.
+If you need to discontinue access of one of your vendors to the marketplace, you can remove their user profile via the Users section of your store's Admin area.'
+![xc5_multi-vendor_removal.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_removal.png)
+
