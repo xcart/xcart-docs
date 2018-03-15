@@ -163,10 +163,11 @@ Remove the SQL dump and the archive from the WWW directory of your server or hos
 A good practice here is to keep the backup on a local computer or in a directory on a remote server that cannot be accessed through the Web. For example, if the root directory of your hosting account is /u/user/ and the web directory is /u/user/public_html/, you must move the SQL dump and the store archive from the directory /u/user/public_html/ to somewhere in the directory /u/user/.
 
 ## Troubleshooting
+{:.ui.compact.celled.small.padded.table} 
+|Problem |	Possible cause |	Solution |
+| The system says you do not have enough privileges to write to the file. |	User who has run the PHP script is not allowed to write files to the directory. | Set writable permissions to the directory where you are trying to save the SQL dump to, and repeat the task. |
+| The system says you do not have enough free disk space to complete the operation. |	File system does not have enough free disk space. |	Since some data has been saved to the file before the error message, first remove the file with the backup. Then either make available more free space and repeat the task, or choose to save the file to another location. |
+| Task was terminated and the system says you will be redirected to the previous page. |	The memory that was allocated to the script has exhausted. |	Increase the amount of memory allocated to the script by increasing the default value of the $memory_limit variable in the php.ini file. If you do not have access to the php.ini file, ask your hosting team to help you.
 
-Problem	Possible cause	Solution
-The system says you do not have enough privileges to write to the file	User who has run the PHP script is not allowed to write files to the directory.	Set writable permissions to the directory where you are trying to save the SQL dump to, and repeat the task.
-The system says you do not have enough free disk space to complete the operation.	File system does not have enough free disk space.	Since some data has been saved to the file before the error message, first remove the file with the backup. Then either make available more free space and repeat the task, or choose to save the file to another location.
-Task was terminated and the system says you will be redirected to the previous page.	The memory that was allocated to the script has exhausted	Increase the amount of memory allocated to the script by increasing the default value of the $memory_limit variable in the php.ini file. If you do not have access to the php.ini file, ask your hosting team to help you.
-Important: It may be necessary to increase the allocated memory several times, because it is impossible to predict how much memory you really need.
+Important: It may be necessary to increase the allocated memory several times, because it is impossible to predict how much memory you really need. |
 
