@@ -16,3 +16,15 @@ To view the Order statistics for a specific vendor, the store administrator need
 ## Viewing vendor bestsellers   
 The store administrator can use the **Best sellers** tab of the Statistics section (**Orders** > **Statistics**) to view the statistics on the store's best selling products. Similarly to Order statistics, the Best sellers statistics can be filtered by vendor:
 ![xc5_multi-vendor_order_bestsellers.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_order_bestsellers.png)
+
+## Viewing vendor financial statistics
+The store administrator can use the Vendor statistics section (**Orders** > **Vendor statistics**) to view the financial statistics for specific vendors, including the information about each vendor's all time earnings on sales via the store, the amount paid out to them and the amount remaining to be paid out: 
+![xc5_multi-vendor_statistics.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_statistics.png)
+    
+For each vendor, the following information is provided:
+     
+    *   Vendor: Vendor to whom the statistics pertains.
+    *   Transaction history: The link to view all the transactions for the vendor in the Transactions history.
+    *   Vendor earnings: How much money has been earned by the vendor on sales via the store.
+    *   Paid to Vendor: What part of the vendor's earnings has been paid out to them by the storefront operator. 
+    *   Liability: The amount that remains to be paid to the vendor by the storefront operator.
