@@ -19,7 +19,7 @@ To decide whether the new vendor application should be approved, the administrat
 After reviewing the user profile of the prospective vendor, the administrator needs to approve or reject the application using the buttons **Approve vendor** / **Decline vendor**. 
 ![xc5_mv_approve_decline.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_approve_decline.png)
 
-If needed, before approving a vendor profile, the administrator may want to re-adjust the new vendor's access information (for example, to change the user's access permissions by giving them additional roles, to give the user a non-default membership level, or to re-adjust the account settings so the user will be requested to change their password on next login). This, of course, may also be done after the new vendor approval.
+If needed, before approving a vendor profile, the administrator may want to re-adjust the new vendor's access information (for example, to change the user's access permissions by giving them additional roles, to give the user a non-default membership level, or to re-adjust the account settings so the user will be requested to change their password on next login). This, of course, may also be done *after* the new vendor approval.
 
 ## Adding new vendors via the Admin area
 
