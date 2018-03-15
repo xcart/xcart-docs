@@ -26,11 +26,11 @@ published: false
 Список представлен в виде таблицы, в которой по каждой корзине доступна следующая информация:
 
 *   **Email**: The email address of the abandoned cart owner.
-*   **Products**: Information about the products contained in the abandoned cart (product names, quantities, selected options).
-*   **Subtotal**: Subtotal amount of the abandoned order.
-*   **Coupons**: (_This column is displayed only when Abandoned Cart Reminder is used in conjunction with the Coupons module_) The coupon codes that were generated for the abandoned cart.
-*   **Date**: Since when the cart has been in the abandoned state.
-*   **Notified**: Whether any abandoned cart reminder emails have been sent to the cart owner and how many times (+ the date when a reminder email was last sent for the cart).
+*   **Товары **: Information about the products contained in the abandoned cart (product names, quantities, selected options).
+*   **Сумма**: Subtotal amount of the abandoned order.
+*   **Купоны**: (_This column is displayed only when Abandoned Cart Reminder is used in conjunction with the Coupons module_) The coupon codes that were generated for the abandoned cart.
+*   **Дата**: Since when the cart has been in the abandoned state.
+*   **Отправлено**: Whether any abandoned cart reminder emails have been sent to the cart owner and how many times (+ the date when a reminder email was last sent for the cart).
 
 ## Sending reminders 
 
@@ -38,13 +38,13 @@ If a reminder needs to be sent not to all, but just some of the abandoned carts 
 
 To send a reminder email to owners of specific carts:
 
-1.  In the [Viewing/filtering the abandoned carts list](#viewingfiltering-the-abandoned-carts-list), locate the carts for which you wish to send the reminder message and select them by selecting the respective check boxes in the first column. The **Remind selected** **customers** button below the list becomes active:
+1.  In the [Viewing/filtering the abandoned carts list](#viewingfiltering-the-abandoned-carts-list), locate the carts for which you wish to send the reminder message and select them by selecting the respective check boxes in the first column. The **Напомнить покпателям** button below the list becomes active:
     ![]({{site.baseurl}}/attachments/7503954/8719194.png)
 
-2.  Click **Remind selected** **customers**. A popup titled **Choose reminder** appears: 
+2.  Click **Remind selected** **customers**. A popup titled **Выберите шаблон напоминания** appears: 
     ![]({{site.baseurl}}/attachments/7503954/8719195.png)
 
-3.  In the popup, use the **Reminder** drop-down box to select the reminder message you wish to send and click **Send reminder**. The reminder message will be sent to the owners of all selected carts.
+3.  In the popup, use the **Шаблон** drop-down box to select the reminder message you wish to send and click **Отправить напоминание**. The reminder message will be sent to the owners of all selected carts.
 
 ## Deleting abandoned carts
 
