@@ -44,7 +44,7 @@ This article lists the multi-vendor related features and functions of the store 
 
 7.  The store administrator can view, edit and delete coupons and volume discounts created by vendors (However, the administrator cannot tell, which discount or coupon is owned by which vendor). The administrator can create coupons and discounts, but the coupons and discounts created by them are not visible to vendors and can be applied only to the products owned by the administrator.
 
-8.  The store administrator determines the store's multivendor mode ("_Warehouse_" or "_Vendors as separate shops_"); see the article {% link "Configuring the Multi-vendor module" ref_nFq48dhr %} for more information.
+8.  The store administrator chooses the store's multivendor mode ("_Warehouse_" or "_Vendors as separate shops_"); see the article {% link "Configuring the Multi-vendor module" ref_nFq48dhr %} for more information.
 
     *   In the "_Warehouse_" mode, the administrator sets the address that will be used as the ship-from address for all the vendors (The address can be added via the Company address section in the store's {% link "Contact information" ref_HcSs9eFL %}). The administrator also configures the shipping methods that will be used to ship orders from that address. 
     *   In the "_Vendors as separate shops_" mode, there is no common ship-from address: each vendor ships orders from their own business location, which means a separate ship-from address for every vendor. Also, every vendor configures their own shipping methods (The administrator does not have anything to do with that). 
