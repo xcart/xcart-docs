@@ -32,12 +32,12 @@ For each vendor, the following information is provided:
    *   Liability: The amount that remains to be paid to the vendor by the storefront operator.
 
 ## Viewing vendor transaction history
-The store administrator can use the Transactions history section (**Orders** > **Transactions history**) to view and manage information about vendor related transactions. The records of "Order paid" transactions that appear automatically in this section allow the administrator to be informed of the sums that are earned by the vendors on specific sales. This information allows the administrator to know what sums need to be paid out to the vendors. To keep track of payouts to the vendors, the administrator can manually create transactions stating what amount was paid out (To create a transaction, the administrator uses the **Create transaction** button above the transaction list). With PayPal Adaptive Payments, the transactions reflecting payouts to vendors are created automatically.
+The store administrator can use the Transactions history section (**Orders** > **Transactions history**) to view information about vendor transactions. The transactions reflect the movement of the money earned on the sales of vendor products between the accounts of the store owner/storefront operator and the vendor.
+
+The records of "Order paid" transactions that appear automatically in this section allow the administrator to be informed of the sums that are earned by the vendors on specific sales. This information allows the administrator to know what sums need to be paid out to the vendors. To keep track of payouts to the vendors, the administrator can manually create transactions stating what amount was paid out (To create a transaction, the administrator uses the **Create transaction** button above the transaction list). With PayPal Adaptive Payments, the transactions reflecting payouts to vendors are created automatically.
      ![xc5_multi-vendor_transactions.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_transactions.png)
     
-     To find specific transactions in the Transactions history, the store administrator can filter the transaction list by specifying a date range, a vendor profile and/or a portion of transaction description.
-    
-     They can see the following information about each transaction:
+The store administrator can see the following information about each transaction:
     
      *   Vendor: Vendor to whom the transaction pertains.
      *   Created by: Origin of the transaction. "Auto" = transaction was created automatically; administrator email address = transaction was created manually by the administrator (See the **Create transaction** button above the transaction list). Transactions marked with PayPal logo are transactions via the "PayPal Adaptive Payments" method.
@@ -49,3 +49,5 @@ The store administrator can use the Transactions history section (**Orders** >�
      *   Vendor earnings: How much money the vendor has earned on this sale.
      *   Paid to vendor: How much money has been paid out to the vendor.
 
+To find specific transactions in the Transactions history, the store administrator can filter the transaction list by specifying a date range, a vendor profile and/or a portion of transaction description.
+    
