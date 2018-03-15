@@ -18,20 +18,14 @@ The instructions below generally describe how to restore X-Cart files from a bac
 2. Go to the directory that contains all your Internet projects (usually referred to as the WWW directory), and create a new directory where you will deploy the store from the backup.
   
   On a UNIX-based server, you can create a new directory using the following shell command.
-  
      ```
      > mkdir xcart
      ```
-  
   On a Windows-based server, you can create a new directory using the graphic user interface (GUI).
-  
-  As a result, you should get an empty directory that is accessible through the Internet.
-    
+  As a result, you should get an empty directory that is accessible through the Internet. 
 3. Go to the directory that you have just created and upload the X-Cart files (or the archive with X-Cart files) onto the directory using FTP, SCP, your control panel or other suitable facility.
-4. If you have the X-Cart files in an archive, extract them using the available utilities.
-    
-  On a Unix-based server, you can extract files from the archive using the following shell command.
-    
+4. If you have the X-Cart files in an archive, extract them using the available utilities. 
+  On a Unix-based server, you can extract files from the archive using the following shell command. 
      ```
       > tar -xfv <archive_name>
      ```
@@ -44,14 +38,10 @@ The instructions below generally describe how to restore X-Cart files from a bac
      > tar –xjvf <archive_name> # If the archive has file extension *.tbz.
      ```
   On a Windows-based server, you can extract the archive with one of the available file archive managers for Windows, including WinRAR, WinZIP, PKZip or 7Zip.
-  
-5. Check the X-Cart directory. It must contain the standard X-Cart file structure. If it only contains one directory with the X-Cart files, move its content to the current directory.
-  
+5. Check the X-Cart directory. It must contain the standard X-Cart file structure. If it only contains one directory with the X-Cart files, move its content to the current directory. 
 6. If necessary, edit the main X-Cart configuration file <X-Cart>/etc/config.php:
-  
   * Locate the file /etc/config.php and open it for editing in your favorite plain text editor.
   * Set correct values for the following variables:
-  
     ```
     [database_details]
     hostspec = "localhost"
@@ -63,32 +53,25 @@ The instructions below generally describe how to restore X-Cart files from a bac
     table_prefix = "xc_"
     ```
   and
-  
     ```
     [host_details]
     http_host = "<HOST>"
     https_host = "<HOST>"
     web_dir = "/xcart"
     ```
-    
 7. Create a new database for the store using a database management system (DBMS) that you usually use to manage your MySQL databases.
-  
-  On a Unix-based server, you can create the a database using the following shell command.
-  
+  On a Unix-based server, you can create the a database using the following shell command:
      ```
      > mysql -h<sql_host> -u<sql_user> -p -e"create database <sql_db>;"
      ```
   If you connect to the database server through a non-typical port or socket, use the following command.
-  
      ```
      > mysql -P<sql_port> -h<sql_host> -u<sql_user> -p -e"create database <sql_db>;"
      ```
   OR
-  
      ```
      > mysql -S<sql_socket> -h<sql_host> -u<sql_user> -p -e"create database <sql_db>;"
      ```
-  
   The system will ask you to to enter your password for the MySQL account. After the password is accepted, the system will create a new empty database for your store.
   {% note  info%}
   The name/address of the MySQL server, the name of the MySQL database, the username and the password for the MySQL account must be the same as the values of the respective variables in the X-Cart configuration file /etc/config.php.
