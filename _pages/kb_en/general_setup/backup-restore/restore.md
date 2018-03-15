@@ -62,15 +62,7 @@ The instructions below generally describe how to restore X-Cart files from a bac
 7. Create a new database for the store using a database management system (DBMS) that you usually use to manage your MySQL databases.
   On a Unix-based server, you can create the a database using the following shell command:
      ```
-     > mysql -h<sql_host> -u<sql_user> -p -e"create database <sql_db>;"
-     ```
-  If you connect to the database server through a non-typical port or socket, use the following command.
-     ```
-     > mysql -P<sql_port> -h<sql_host> -u<sql_user> -p -e"create database <sql_db>;"
-     ```
-  OR
-     ```
-     > mysql -S<sql_socket> -h<sql_host> -u<sql_user> -p -e"create database <sql_db>;"
+     mysqladmin -u USER -pPASSWORD create NEWDATABASE
      ```
   The system will ask you to to enter your password for the MySQL account. After the password is accepted, the system will create a new empty database for your store.
   {% note  info%}
@@ -107,30 +99,16 @@ To restore the database through the X-Cart Admin area:
     * Click the 'Upload and Restore' button.
     Wait until the system displays a message saying that the database has been restored successfully.
 
-   {% note info %}
-   This method has a file size limitation of 2M.
-   {% endnote %}
-
 ### Restoring the database using terminal access
 
 To restore the database using terminal access to the server:
 
 1. Log in to your server or your hosting account.
 
-2. Run the following shell command.
-     
+2. Run the following shell command.   
    ```
-   > mysql -h<sql_host> -u<sql_user> -p <sql_db> < <store_backup.sql>
+   mysql -u USER -pPASSWORD DATABASE < /path/to/dump.sql
    ```
-  If you connect to the database server through a non-typical port or socket, the command should be
-   ```
-   mysql -P<sql_port> -h<sql_host> -u<sql_user> -p <sql_db> < <store_backup.sql>
-   ```
-   OR   
-   ```
-   mysql -S<sql_socket> -h<sql_host> -u<sql_user> -p <sql_db> < <store_backup.sql>
-   ```
-   
    The system will ask you to to enter your password for the MySQL account. After the password has been accepted, the system will populate the database with the data from the SQL dump.
    
    {% note info %}
@@ -152,4 +130,3 @@ A good practice here is to keep the backup on a local computer or in a directory
 | The system says you do not have enough privileges to write to the file. |	User who has run the PHP script is not allowed to write files to the directory. | Set writable permissions to the directory where you are trying to save the SQL dump to, and repeat the task. |
 | The system says you do not have enough free disk space to complete the operation. |	File system does not have enough free disk space. |	Since some data has been saved to the file before the error message, first remove the file with the backup. Then either make available more free space and repeat the task, or choose to save the file to another location. |
 | Task was terminated and the system says you will be redirected to the previous page. |	The memory that was allocated to the script has exhausted. |	Increase the amount of memory allocated to the script by increasing the default value of the $memory_limit variable in the php.ini file. If you do not have access to the php.ini file, ask your hosting team to help you. **NOTE:** It may be necessary to increase the allocated memory several times, because it is impossible to predict how much memory you really need. |
-
