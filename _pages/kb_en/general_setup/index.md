@@ -35,6 +35,5 @@ Other
 *   {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
 *   {% link "What to do if your store says «We are deploying new changes» and you cannot access it" ref_3zSHgdQk %}
 *   {% link "Inaccessible Admin area after enabling HTTPS" ref_q171FiKp %}
-*   {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %}
 *   {% link "How to password protect access to your X-Cart" ref_68xr4sCx %}
 
