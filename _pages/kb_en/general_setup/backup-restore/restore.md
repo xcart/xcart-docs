@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-14 17:04 +0400'
 identifier: ref_080K3Qe7
-title: How to Restore a Site from Backup
+title: Files and Database Restoration
 order: 130
 published: true
 ---
