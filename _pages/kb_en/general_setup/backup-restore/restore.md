@@ -91,6 +91,7 @@ To restore the database through the X-Cart Admin area:
   ![restore.png]({{site.baseurl}}/attachments/ref_080K3Qe7/restore.png)
 
 3. Restore the database from the SQL dump using the instructions below.
+   
    If the SQL dump was saved using the Create SQL file option, i.e. was saved as a file on the web server ('var/backup/sqldump.sql.php'):
     * Click the 'Restore from server' button.
     * Wait until the system displays a message saying that the database has been restored successfully.
@@ -142,7 +143,9 @@ Remove the SQL dump and the archive from the WWW directory of your server or hos
 A good practice here is to keep the backup on a local computer or in a directory on a remote server that cannot be accessed through the Web. For example, if the root directory of your hosting account is /u/user/ and the web directory is /u/user/public_html/, you must move the SQL dump and the store archive from the directory /u/user/public_html/ to somewhere in the directory /u/user/.
 
 ## Troubleshooting
+
 {:.ui.compact.celled.small.padded.table} 
+
 |Problem |	Possible cause |	Solution |
 | The system says you do not have enough privileges to write to the file. |	User who has run the PHP script is not allowed to write files to the directory. | Set writable permissions to the directory where you are trying to save the SQL dump to, and repeat the task. |
 | The system says you do not have enough free disk space to complete the operation. |	File system does not have enough free disk space. |	Since some data has been saved to the file before the error message, first remove the file with the backup. Then either make available more free space and repeat the task, or choose to save the file to another location. |
