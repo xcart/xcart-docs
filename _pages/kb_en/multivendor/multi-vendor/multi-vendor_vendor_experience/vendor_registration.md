@@ -7,7 +7,7 @@ title: Vendor registration
 categories:
   - User manual
 published: true
-order: 100
+order: 50
 redirect_from:
   - /modules/multi-vendor/vendor_registration.html
 ---
