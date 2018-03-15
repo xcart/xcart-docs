@@ -44,10 +44,7 @@ The company name, description and company address submitted via the vendor regis
 Once the form has been submitted, a new (unapproved) vendor user will be created in the store and a Thank you page will be displayed:
 ![xc5_mv_thankyou_page.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_thankyou_page.png)
 
-The store administrator will be able to see the registered vendor profile listed in the Users section of the Admin area:
-![xc5_mv_unapproved_vendor_list1.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_unapproved_vendor_list1.png)
-
-The administrator will be able to view the profile details of the prospective vendor and will have to approve or reject their application. Depending on the store's notification settings, email notifications may be sent in connection with the creation, approval or rejection of a new vendor account.
+The store administrator will be able to see the registered vendor profile in the store's Admin area. The administrator will be able to view the profile details of the prospective vendor and will have to approve or reject their application. Depending on the store's notification settings, email notifications may be sent in connection with the creation, approval or rejection of a new vendor account.
 
 Once the vendor profile has been approved by the store administrator, they can log in to their personal area of the store's back end and start selling. 
 
