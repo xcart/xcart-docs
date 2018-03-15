@@ -25,7 +25,7 @@ If needed, before approving a vendor profile, the administrator may want to re-a
 
 The store administrator can create user profiles for vendor users via the Users section of the store's Admin area.
 
-To create a new vendor profile, the administrator does one of the following: 
+To create a new vendor profile, the administrator needs to do one of the following: 
 
 *   creates a new user profile with the access level "Vendor":
     ![]({{site.baseurl}}/attachments/8749143/8719604.png)
@@ -39,13 +39,16 @@ The new vendor can log in and start selling immediately after the creation of th
 
 ## Editing vendor profiles
 
-If a vendor of yours requests changing some of their profile information (for example, if your vendor sells their business and the change of the business owner needs to be reflected in the vendor profile details), you can edit the respective vendor profile via the Users section of your store's Admin area.
+If a vendor requests a change of their profile information (for example, if the vendor is selling their business, and the change of the business owner needs to be reflected in the vendor profile details), the store administrator can edit the respective vendor profile via the Users section of the store's Admin area.
 ![xc5_multi-vendor_admin_access2vendorprofile.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_admin_access2vendorprofile.png)
 
 For details on the management of vendor profile information, see {% link "Managing vendor profile information" ref_b7PTQMgf %}
 
+## Exporting vendor profile information
+If the information from the profiles of some or all of the store's vendors needs to be used outside the X-Cart store (for example, if the store owner wants to have this information in a spreadsheet editor or wishes to use it in some kind of other external application), the store administrator should consider exporting vendor profile information from the X-Cart store to a CSV file:
+![xc5_multi-vendor_export.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_export.png)
+
 ## Removing vendors
 
-If you need to discontinue access of one of your vendors to the marketplace, you can remove their user profile via the Users section of your store's Admin area.'
+If the access of any existing vendor to the marketplace needs to be discontinued, the store administrator can remove their user profile via the Users section of the store's Admin area:
 ![xc5_multi-vendor_removal.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_removal.png)
-
