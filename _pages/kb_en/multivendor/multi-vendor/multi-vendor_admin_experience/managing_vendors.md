@@ -29,7 +29,7 @@ To create a new vendor profile, the administrator does one of the following: 
 
 *   creates a new user profile with the access level "Vendor":
     ![]({{site.baseurl}}/attachments/8749143/8719604.png)
-*   creates a new user profile with the access level "Admin" and the role "Vendor":
+*   creates a new user profile with the access level "Admin" and the role "Vendor" (or other vendor-related role, if such a role has been configured by the administrator):
     ![]({{site.baseurl}}/attachments/8749143/8716890.png)
 
 With this method, a new vendor user is created right away:
