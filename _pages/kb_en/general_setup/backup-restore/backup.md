@@ -42,7 +42,7 @@ To back up the database using terminal access to the server:
 
 
 ```
-> mysqldump -h<db_host> -u<username> -p<password> -r<backup_filename> <db_name>
+mysqldump -h<db_host> -u<username> -p<password> -r<backup_filename> <db_name>
 ```
 
 The abbreviations in the command mean:
@@ -76,7 +76,7 @@ Alternatively, if it is not possible to pack the X-Cart files into an archive di
 In UNIX-based systems, TAR is known to be one of the most reliable and trustworthy utilities for creating and manipulating file archives. It is now commonly used in tandem with external compression utilities like GZIP, BZIP2 or LZMA, which enables you not only to create an archive, but also compress the data in the archive. As a result, with TAR you can create a lightweight archive of your store and then restore it using the same utility. To find out whether TAR is installed on your server, run the following shell command.
 
 ```
-> tar --version
+tar --version
 ```
 
 If TAR is installed on your server, the system will display a message with the version of the utility; otherwise you will see an error message. In case of the latter, please contact your hosting team for help.
@@ -90,7 +90,7 @@ To back up files with the TAR archive manager:
 3. In the X-Cart root directory run the following shell command.
 
 ```
-> tar -czvf ../store_backup.tgz *
+tar -czvf ../store_backup.tgz *
 ```
 
 After you have run the command, TAR will pack all the files in the X-Cart root directory to the file store_backup.tgz and compress it with the ZIP data compression algorithm. The file will be saved to the directory that is parent to the X-Cart root directory. For example, if the X-Cart root directory is u/user/public_html/xcart, the file store_backup.tgz will be saved to directory u/user/public_html.
@@ -123,4 +123,4 @@ To make a full store backup using the Backup Master module go to the **System to
   <div class="column" markdown="span">![backup-3.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup-3.png)</div>
 </div>
 
-The module will create a full cart backup and will list it in a history of backups where you can see a path to the backup file to use it further, the file size and date of creation. To delete a backup click the _Trash_ icon next to it. 
+The module will create a full cart backup and will list it in a history of backups where you can see a path to the backup file to use it further, the file size and date of creation. To delete a backup click the _Trash_ icon next to it.
