@@ -59,7 +59,7 @@ This article lists the multi-vendor related features and functions of the store 
 
      In the "_Vendors as separate shops_" mode, the administrator has the same capabilities as in the "_Warehouse_" mode, but, typically, only acts as a supervisor - whereas the processing of orders and making changes to the information of specific orders is carried out by the vendors.
 
-12.  The store administrator has access to vendor statistics including:
+12.  The store administrator can view vendor statistics including:
 
      *   Order statistics, 
      *   Best sellers,
