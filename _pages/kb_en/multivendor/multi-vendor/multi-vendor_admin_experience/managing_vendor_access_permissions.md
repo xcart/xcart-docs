@@ -5,7 +5,7 @@ updated_at: '2018-03-15 11:30 +0400'
 identifier: ref_0GOeWpB2
 title: Managing vendor access permissions
 order: 200
-published: false
+published: true
 ---
 The store administrator manages the access permissons for the store users using Roles (**Users** > **Roles**). The Multi-vendor addon introduces a new user role: "Vendor". To be able to access the dedicated vendor area of the X-Cart store's back end and operate as a vendor, a user needs to have this role. By default, the access permissions for this role include the following:
     *   Manage vendor's catalog;
