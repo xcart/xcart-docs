@@ -46,7 +46,7 @@ Once the form has been submitted, a new (unapproved) vendor user will be created
 
 The store administrator will be able to see the registered vendor profile in the store's Admin area. The administrator will be able to view the profile details of the prospective vendor and will have to approve or reject their application. 
 
-Depending on the store's notification settings, email notifications may be sent in connection with the creation, approval or rejection of a new vendor account. Typically, a vendor is notified about the approval (or rejection) of their application by email.
+Depending on the store's notification settings, email notifications may be sent in connection with the creation of a new vendor profile, as well as the approval or rejection of the vendor's application. Typically, a vendor is notified about the approval (or rejection) of their application by email.
 
 Once the vendor profile has been approved by the store administrator, they can log in to their personal area of the store's back end and start selling. 
 
