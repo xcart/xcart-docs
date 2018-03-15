@@ -26,12 +26,6 @@ This article lists the multi-vendor related features and functions of the store 
     See the article {% link "Managing vendors" ref_6OTbIwfd %} for details.
 
 4.  The store administrator can view and manage any products in the store, including the products created by vendor users.
-
-    When viewing the store's product list in the Admin area, the administrator can find out which product is owned by which vendor based on the information in the "Vendor" column. For each product created by a vendor, this column shows the email address of the vendor user who is the owner of the product.
-    ![]({{site.baseurl}}/attachments/8749416/8717004.png)
-    
-    The name and email of the vendor are also visible to the store administrator on the details pages of vendor products in the Admin area:
-    ![]({{site.baseurl}}/attachments/8749416/8717003.png)
     
 5.  The store administrator creates and manages the categories in which vendor users place their products (**Catalog** > **Categories**). (Unless given the permission to manage the entire store's product catalog, vendor users do not have access to category management). 
 
