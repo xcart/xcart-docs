@@ -34,19 +34,21 @@ For each vendor, the following information is provided:
 ## Viewing vendor transaction history
 The store administrator can use the Transactions history section (**Orders** > **Transactions history**) to view information about vendor transactions. The transactions reflect the movement of the money earned on the sales of vendor products between the accounts of the store owner/storefront operator and the vendor.
 
-The records of "Order paid" transactions that appear automatically in this section allow the administrator to be informed of the sums that are earned by the vendors on specific sales. This information allows the administrator to know what sums need to be paid out to the vendors. To keep track of payouts to the vendors, the administrator can manually create transactions stating what amount was paid out (To create a transaction, the administrator uses the **Create transaction** button above the transaction list). With PayPal Adaptive Payments, the transactions reflecting payouts to vendors are created automatically.
-     ![xc5_multi-vendor_transactions.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_transactions.png)
+When an order containing one or more products of some vendor is paid for by a customer, an "Order paid" transaction is created automatically in the Transactions history section. This type of transactions means that a customer has paid for some vendor products, but the money has not yet been received by the vendor. The thing is, in a multivendor X-Cart store all the money paid by a customer purchasing a vendor's product goes first to the account of the store owner/storefront operator. Then the money due to the vendor (which is the same amount as was paid by the customer - less the commission the vendor must pay on this sale to the store owner/storefront operator) needs to be transferred from the account of the store owner/storefront operator to the account of the vendor whose product was sold. The transfer of the money from the store owner/storefront operator to the vendor may happen automatically (that is, if the customer who purchased the products was using PayPal Adaptive Payments as the payment method) or manually by the store owner/storefront operator. In the former case (using PayPal Adaptive Payments), the transaction reflecting the transfer of the money from the store owner/storefront operator to the vendor is created automatically; that is reflected by the status "Auto". In the latter case (with manual transfer of the money), the transaction needs to be created manually by the administrator; the transaction in this case is marked with the email address of the administrator who created it.
+
+By reviewing the existing transactions the store administrator representing the store owner/storefront operator can find out the money sums that have been earned by the vendors and learn whether they have already been transferred to the vendor or the administrator needs to do a payout. 
+![xc5_multi-vendor_transactions.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_transactions.png)
     
 The store administrator can see the following information about each transaction:
     
-     *   Vendor: Vendor to whom the transaction pertains.
-     *   Created by: Origin of the transaction. "Auto" = transaction was created automatically; administrator email address = transaction was created manually by the administrator (See the **Create transaction** button above the transaction list). Transactions marked with PayPal logo are transactions via the "PayPal Adaptive Payments" method.
-     *   Date: Date when the transaction took place.
-     *   Order: Order to which the transaction pertains.
-     *   Description: Short description of the transaction. For example:
+   *   Vendor: Vendor to whom the transaction pertains.
+   *   Created by: Origin of the transaction. "Auto" = transaction was created automatically; administrator email address = transaction was created manually by the administrator (See the **Create transaction** button above the transaction list). Transactions marked with PayPal logo are transactions via the "PayPal Adaptive Payments" method.
+   *   Date: Date when the transaction took place.
+   *   Order: Order to which the transaction pertains.
+   *   Description: Short description of the transaction. For example:
         "Order paid" = "Some products owned by the vendor were purchased. The vendor has earned money, but the storefront operator has not yet paid it out to them"; 
         "PayPal Adaptive: Commission paid" = "The money earned by the vendor has been transferred via PayPal Adaptive Payments to the vendor's PayPal account. The commission due to the storefront operator on this sale (minus PayPal commission) has been paid to the storefront operator"
-     *   Vendor earnings: How much money the vendor has earned on this sale.
-     *   Paid to vendor: How much money has been paid out to the vendor.
+   *   Vendor earnings: How much money the vendor has earned on this sale.
+   *   Paid to vendor: How much money has been paid out to the vendor.
 
 To find specific transactions in the Transactions history, the store administrator can filter the transaction list by specifying a date range, a vendor profile and/or a portion of transaction description.
