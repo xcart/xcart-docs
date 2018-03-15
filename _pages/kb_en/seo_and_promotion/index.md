@@ -17,6 +17,7 @@ published: true
 
 _In this section:_
 
+*   {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %}
 *   {% link "Optimizing your catalog pages for SEO" ref_OBh3V1k1 %}
 *   {% link "Submitting your shop to search engines" ref_OqJ2oZTE %}
 *   {% link "Setting up discount coupons" ref_SGI1FqdC %}
