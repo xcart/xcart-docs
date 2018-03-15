@@ -19,7 +19,7 @@ The instructions below generally describe how to restore X-Cart files from a bac
 2. Go to the directory that contains all your Internet projects (usually referred to as the WWW directory), and create a new directory where you will deploy the store from the backup.
   On a UNIX-based server, you can create a new directory using the following shell command.
      ```
-     > mkdir xcart
+     mkdir xcart
      ```
   On a Windows-based server, you can create a new directory using the graphic user interface (GUI).
   As a result, you should get an empty directory that is accessible through the Internet. 
@@ -27,15 +27,15 @@ The instructions below generally describe how to restore X-Cart files from a bac
 4. If you have the X-Cart files in an archive, extract them using the available utilities. 
   On a Unix-based server, you can extract files from the archive using the following shell command. 
      ```
-      > tar -xfv <archive_name>
+     tar -xfv <archive_name>
      ```
   OR
      ```
-     > tar –xzvf <archive_name> # If the archive has file extension *.tar.gz, *.gz or *.zip
+     tar –xzvf <archive_name> # If the archive has file extension *.tar.gz, *.gz or *.zip
      ```
   OR
      ```
-     > tar –xjvf <archive_name> # If the archive has file extension *.tbz.
+     tar –xjvf <archive_name> # If the archive has file extension *.tbz.
      ```
   On a Windows-based server, you can extract the archive with one of the available file archive managers for Windows, including WinRAR, WinZIP, PKZip or 7Zip.
 5. Check the X-Cart directory. It must contain the standard X-Cart file structure. If it only contains one directory with the X-Cart files, move its content to the current directory. 
