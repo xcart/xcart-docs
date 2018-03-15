@@ -15,13 +15,15 @@ redirect_from:
 
 This article lists the multi-vendor related features and functions of the store administrator in an X-Cart store using the Multi-vendor module by X-Cart team. In this article by "store administrator" we mean a user with the access level "Administrator" and the role "Administrator".
 
-1.  The store administrator controls the Multi-vendor module settings. See the article {% link "Configuring the Multi-vendor module" ref_nFq48dhr %} for details.
+1.  The store administrator controls the Multi-vendor module settings. This includes choosing the store's multivendor operation mode and adjusting the onboarding welcome message for new vendors. See the article {% link "Configuring the Multi-vendor module" ref_nFq48dhr %} for details.
 
 2.  The store administrator manages vendor access permissons. See the article {% link "Managing vendor access permissions" ref_0GOeWpB2 %} for details.
     
 3.  The store administrator can add new vendor users by approving vendor registration applications of prospective vendors or by creating new vendor user profiles via the Users section of the store's Admin area.
     
     The store administrator can manage the existing vendor users, including the removal of vendor users, export of vendor information and access to all the information associated with specific vendor profiles.
+    
+    See the article {% link "Managing vendors" ref_6OTbIwfd %} for details.
 
 4.  The store administrator can view and manage any products in the store, including the products created by vendor users.
 
@@ -97,7 +99,10 @@ This article lists the multi-vendor related features and functions of the store 
      *   Vendor earnings: How much money the vendor has earned on this sale.
      *   Paid to vendor: How much money has been paid out to the vendor.
 
-Related pages:
+15. The store administrator decides what Multi-vendor email notifications should be used in the store.
+
+
+_Related pages:_
 
 *   {% link "Configuring the Multi-vendor module" ref_nFq48dhr %}
 *   {% link "Vendor registration" ref_SkW62BgH %}
