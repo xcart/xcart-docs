@@ -15,6 +15,8 @@ In case any 3rd party or custom add-ons data is stored elsewhere but not in the 
 
 Hence there can be cases that you have to back up the database manually so that the dump includes all possible store data. For this purpose you can use any adequate facility, including different client implementations of the SSH protocol like OpenSSH or PuTTY, Telnet, phpMyAdmin, MySQL console, control panel of your hosting account, Remote Desktop client and other. 
 
+{% toc %}
+
 ## Backing up the database through X-Cart Admin area
 
 To back up the database through the X-Cart Admin area:
