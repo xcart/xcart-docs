@@ -5,7 +5,7 @@ updated_at: '2018-03-15 20:25 +0400'
 identifier: ref_4mvK1AKz
 title: Viewing vendor statistics
 order: 400
-published: false
+published: true
 ---
 ## Viewing vendor order statistics
 The store administrator can use the Statistics section (**Orders** > **Statistics**) to view the store's sales statistics. By default, the **Order statistics** tab in this section shows the store's overall sales statistics based on all the orders in the store. If needed, the store administrator can use the same tab to access the statistics on the sales of specific vendors.
@@ -50,4 +50,3 @@ The store administrator can see the following information about each transaction
      *   Paid to vendor: How much money has been paid out to the vendor.
 
 To find specific transactions in the Transactions history, the store administrator can filter the transaction list by specifying a date range, a vendor profile and/or a portion of transaction description.
-    
