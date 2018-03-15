@@ -17,9 +17,9 @@ This article lists the multi-vendor related features and functions of the store 
 
 1.  The store administrator controls the Multi-vendor module settings. See the article {% link "Configuring the Multi-vendor module" ref_nFq48dhr %} for details.
 
-2.  The store administrator manages vendor access permissons.
+2.  The store administrator manages vendor access permissons. See the article {% link "Managing vendor access permissions" ref_0GOeWpB2 %} for details.
     
-3.  The store administrator can add new vendor users by approving vendor registration requests of prospective vendors or by creating new administrator users with "Vendor" role via the Users section.
+3.  The store administrator can add new vendor users by approving vendor registration applications of prospective vendors or by creating new vendor user profiles via the Users section of the store's Admin area.
     
     The store administrator can manage the existing vendor users, including the removal of vendor users, export of vendor information and access to all the information associated with specific vendor profiles.
 
