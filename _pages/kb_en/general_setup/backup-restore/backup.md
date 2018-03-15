@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-14 15:40 +0400'
 identifier: ref_1kRBEegE
-title: Store and Database Backup
+title: Files and Database Backup
 order: 120
 published: true
 ---
