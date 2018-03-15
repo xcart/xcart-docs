@@ -14,9 +14,7 @@ The instructions below generally describe how to restore X-Cart files from a bac
 ## Restoring X-Cart files from a back-up:
 
 1. Log in to your server or your hosting account.
-  
 2. Go to the directory that contains all your Internet projects (usually referred to as the WWW directory), and create a new directory where you will deploy the store from the backup.
-  
   On a UNIX-based server, you can create a new directory using the following shell command.
      ```
      > mkdir xcart
