@@ -7,7 +7,7 @@ title: Setting up seo-friendly URLs
 categories:
   - User manual
 published: true
-order: 280
+order: 100
 ---
 
 
