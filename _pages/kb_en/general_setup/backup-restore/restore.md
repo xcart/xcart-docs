@@ -91,7 +91,7 @@ To restore the database through the X-Cart Admin area:
   ![restore.png]({{site.baseurl}}/attachments/ref_080K3Qe7/restore.png)
 
 3. Restore the database from the SQL dump using the instructions below.
-   (PREFERRED WAY) If the SQL dump was saved using the Create SQL file option, i.e. was saved as a file on the web server ('var/backup/sqldump.sql.php'):
+   If the SQL dump was saved using the Create SQL file option, i.e. was saved as a file on the web server ('var/backup/sqldump.sql.php'):
     * Click the 'Restore from server' button.
     * Wait until the system displays a message saying that the database has been restored successfully.
     {% note info %}
