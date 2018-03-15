@@ -7,6 +7,14 @@ title: Managing vendors
 order: 200
 published: true
 ---
+## Approving/rejecting vendor applications
+
+A user who wants to become a new vendor on the marketplace can submit an application via the Become a seller page in the Customer area. When this happens, the store administrator is notified of the new vendor registration via a bell notification and an email notification sent to their inbox. The administrator needs to review this application and either approve or reject it.
+
+To do so, the administrator needs to find the profile of the user who has applied to become a vendor in the Users section of the store's Admin area (They will have a regular user profile in the store's user list). After reviewing the user profile of the prospective vendor, the administrator needs to approve or reject the application using the buttons **Approve vendor** / **Decline vendor**:
+
+![xc5_mv_approve_decline.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_approve_decline.png)
+
 ## Adding new vendors via the Admin area
 
 The store administrator can create user profiles for vendor users via the Users section of the store's Admin area.
