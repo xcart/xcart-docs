@@ -23,8 +23,8 @@ The store administrator can use the Vendor statistics section (**Orders** > **
     
 For each vendor, the following information is provided:
      
-    *   Vendor: Vendor to whom the statistics pertains.
-    *   Transaction history: The link to view all the transactions for the vendor in the Transactions history.
-    *   Vendor earnings: How much money has been earned by the vendor on sales via the store.
-    *   Paid to Vendor: What part of the vendor's earnings has been paid out to them by the storefront operator. 
-    *   Liability: The amount that remains to be paid to the vendor by the storefront operator.
+   *   Vendor: Vendor to whom the statistics pertains.
+   *   Transaction history: The link to view all the transactions for the vendor in the Transactions history.
+   *   Vendor earnings: How much money has been earned by the vendor on sales via the store.
+   *   Paid to Vendor: What part of the vendor's earnings has been paid out to them by the storefront operator. 
+   *   Liability: The amount that remains to be paid to the vendor by the storefront operator.
