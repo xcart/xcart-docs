@@ -7,7 +7,7 @@ title: Multivendor configuraton
 categories:
   - User manual
 published: true
-order: 100
+order: 200
 redirect_from:
   - >-
     /modules/multi-vendor/multi-vendor_module_system_requirements_and_installation.html
