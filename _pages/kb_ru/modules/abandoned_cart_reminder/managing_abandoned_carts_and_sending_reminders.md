@@ -7,27 +7,23 @@ title: Управление оставленными корзинами и от�
 order: 120
 published: false
 ---
-This page provides information on the following actions with abandoned carts:
+*   [Просмотр списка оставленных корзин](#Просмотр-списка-оставленных-корзин);
+*   [Рассылка напоминаний](#Рассылка-напоминаний);
+*   [Удаление оставленных корзин](#Удаление-оставленных-корзин).
 
-*   [Viewing/filtering the abandoned carts list](#viewingfiltering-the-abandoned-carts-list);
-*   [Sending reminders](#sending-reminders);
-*   [Deleting abandoned carts](#deleting-abandoned-carts).
+## Просмотр списка оставленных корзин
 
-## Viewing/filtering the abandoned carts list
+Корзина попадает в список оставленных, если посетитель сайта добавляет товары в корзину, но не размещает заказ и покидает страницу.
 
-When a cart becomes abandoned, it is added to your store's abandoned carts list.
-
-To view the abandoned carts list:
-
-*   In your store's Admin area, go to the Abandoned carts page (**Orders** > **Abandoned carts**). If your store has any abandoned carts, you will see them listed here. 
+*   В панели администратора магазина откройте страницу **Заказы / Брошенные корзины**. Если посетитель магазина оставил товары в корзине и покинул сайт, вы увидите корзину в списке на этой странице. 
 
 ![]({{site.baseurl}}/attachments/7503954/8719192.png)
 
-The Abandoned carts page allows you to filter the list by an e-mail substring and/or a date range:
+Записи списка можно отфильтровать по адресу электронной почте покупателя и/или дате создания корзины:
 
 ![]({{site.baseurl}}/attachments/7503954/8719193.png)
 
-The list of abandoned carts is presented in the form of a table. For each cart on the list, the following information is provided:
+Список представлен в виде таблицы, в которой по каждой корзине доступна следующая информация:
 
 *   **Email**: The email address of the abandoned cart owner.
 *   **Products**: Information about the products contained in the abandoned cart (product names, quantities, selected options).
