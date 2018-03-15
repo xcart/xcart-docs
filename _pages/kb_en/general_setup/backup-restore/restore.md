@@ -11,7 +11,9 @@ Generally speaking, restoring a store from a backup copy is an inverse procedure
 
 The instructions below generally describe how to restore X-Cart files from a backup copy. Examples and notes are provided for UNIX- and Windows-based servers. Many of the listed operations can be carried out through your server/hosting control panel (if any).
 
-## Restoring X-Cart files from a back-up:
+{% toc %}
+
+## Restoring X-Cart files from a back-up
 
 1. Log in to your server or your hosting account.
 2. Go to the directory that contains all your Internet projects (usually referred to as the WWW directory), and create a new directory where you will deploy the store from the backup.
