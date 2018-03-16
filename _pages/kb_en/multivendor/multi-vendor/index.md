@@ -35,6 +35,6 @@ _In this section:_
 
 _Related pages:_
 
-*   {% link "Multivendor configuration" ref_MRQEvicQ %}
+*   {% link "Multivendor components" ref_MRQEvicQ %}
 *   {% link "Multi-vendor module (videos)" ref_5C7PSWVy %}
 *   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}
