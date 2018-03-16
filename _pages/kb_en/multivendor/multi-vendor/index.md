@@ -7,7 +7,7 @@ title: Multi-Vendor
 categories:
   - User manual
 published: true
-order: 190
+order: 100
 ---
 The **Multi-vendor** addon for X-Cart 5 is the core addon of X-Cart Multivendor edition. 
 
