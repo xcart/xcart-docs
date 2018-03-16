@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-16 10:47 +0400'
 identifier: ref_4ahg5FLK
 title: Multivendor
-order: 100
+order: 190
 published: false
 description: >-
   Online Marketplace solution: Enable multiple vendors to sell their products
