@@ -7,7 +7,7 @@ title: Multivendor components
 categories:
   - User manual
 published: true
-order: 200
+order: 100
 redirect_from:
   - >-
     /modules/multi-vendor/multi-vendor_module_system_requirements_and_installation.html
