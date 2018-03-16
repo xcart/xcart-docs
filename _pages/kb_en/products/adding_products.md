@@ -16,7 +16,7 @@ This section provides information on how to add products to your store manually.
 
 This video captures the process of adding a new product in X-Cart 5.3.x. 
 
-<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/watch?v=yJAaZIXOWLo&list=PLp_POFxCr_oEu-ampdy1wWLv3-x94XHv1&index=4" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/yJAaZIXOWLo" frameborder="0"></iframe>
 
 ## Adding a new product
 
