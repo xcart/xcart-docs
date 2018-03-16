@@ -9,7 +9,7 @@ categories:
 published: true
 order: 100
 ---
-The **Multi-vendor** addon for X-Cart 5 is the core addon of X-Cart Multivendor edition. 
+The **Multi-vendor** addon for X-Cart 5 is the core of X-Cart Multivendor edition: it modifies a regular single seller X-Cart store transforming it into a marketplace that can be used simultaneously by multiple sellers.
 
 _In this section:_
 
