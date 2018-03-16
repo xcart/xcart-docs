@@ -14,7 +14,7 @@ This section provides information on how to add products to your store manually.
 
 ## Video guide
 
-This video captures the process of adding a new product in X-Cart 5.1.9. Please note that starting with X-Cart version 5.2.1 the user interface of X-Cart Admin area has been changed quite a bit from 5.1.9 shown in the video; other than that the process of creating a new product in X-Cart 5 remains essentially the same.
+This video captures the process of adding a new product in X-Cart 5.3.x. 
 
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/watch?v=yJAaZIXOWLo&list=PLp_POFxCr_oEu-ampdy1wWLv3-x94XHv1&index=4" frameborder="0"></iframe>
 
