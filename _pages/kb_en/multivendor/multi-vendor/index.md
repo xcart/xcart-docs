@@ -16,18 +16,16 @@ description: >-
   Online Marketplace solution: Enable multiple vendors to sell their products
   through a single storefront
 ---
-X-Cart's **Multivendor** edition is an Online Marketplace solution that enables multiple sellers ("vendors") to sell their products and manage their orders through a single marketplace.
+The **Multi-vendor** addon for X-Cart 5 is the core addon of X-Cart Multivendor edition. 
 
 _In this section:_
 
-*   {% link "Multivendor-specific addons" ref_MRQEvicQ %}
-*   {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}
-*   {% link "Vendor registration" ref_SkW62BgH %}
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
 *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
 *   {% link "Multi-vendor: Customer experience" ref_fxTL6F2z %}
 
 _Related pages:_
 
+*   {% link "Multivendor configuration" ref_MRQEvicQ %}
 *   {% link "Multi-vendor module (videos)" ref_5C7PSWVy %}
 *   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}
