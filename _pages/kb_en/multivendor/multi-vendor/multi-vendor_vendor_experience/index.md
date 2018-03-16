@@ -15,7 +15,7 @@ redirect_from:
 
 _In this section:_
 
-*   {% link "Vendor registrations" ref_SkW62BgH %}
+*   {% link "Vendor registration" ref_SkW62BgH %}
 *   {% link "Vendor login and first steps" ref_SZycMdTx %}
 *   {% link "Managing vendor profile information" ref_b7PTQMgf %}
 *   {% link "Specifying vendor ship-from address" ref_TWPnoz7h %}
