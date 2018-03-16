@@ -3,18 +3,11 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-10-16 21:42 +0400'
 identifier: ref_cvwmAuRi
-title: Multivendor
+title: Multi-Vendor
 categories:
-  - home
   - User manual
 published: true
 order: 190
-icon: handshake
-redirect_from:
-  - /modules/multi-vendor/index.html
-description: >-
-  Online Marketplace solution: Enable multiple vendors to sell their products
-  through a single storefront
 ---
 The **Multi-vendor** addon for X-Cart 5 is the core addon of X-Cart Multivendor edition. 
 
