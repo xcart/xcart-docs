@@ -5,7 +5,7 @@ updated_at: '2018-03-16 10:47 +0400'
 identifier: ref_4ahg5FLK
 title: Multivendor
 order: 190
-published: false
+published: true
 description: >-
   Online Marketplace solution: Enable multiple vendors to sell their products
   through a single storefront
@@ -22,5 +22,3 @@ _In this section:_
 
 *   {% link "Multivendor configuration" ref_MRQEvicQ %}
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
-
-
