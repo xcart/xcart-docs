@@ -25,41 +25,39 @@ published: false
 
 Список представлен в виде таблицы, в которой по каждой корзине доступна следующая информация:
 
-*   **Email**: The email address of the abandoned cart owner.
-*   **Товары **: Information about the products contained in the abandoned cart (product names, quantities, selected options).
-*   **Сумма**: Subtotal amount of the abandoned order.
-*   **Купоны**: (_This column is displayed only when Abandoned Cart Reminder is used in conjunction with the Coupons module_) The coupon codes that were generated for the abandoned cart.
-*   **Дата**: Since when the cart has been in the abandoned state.
-*   **Отправлено**: Whether any abandoned cart reminder emails have been sent to the cart owner and how many times (+ the date when a reminder email was last sent for the cart).
+*   **Email**: Адрес электронной почты посетителя магазина, оставившего товары в корзине.
+*   **Товары **: Товары в корзине (название, количество, выбранные опции).
+*   **Сумма**: Стоимость товаров в корзине.
+*   **Купоны**: Код купона на скидку, созданного для корзины. Эта колонка отображается, только если в магазине работает модуль **Купоны**.
+*   **Дата**: Дата, с которой корзина считается оставленной.
+*   **Отправлено**: Сколько и какого числа в последний раз отправлено напоминаний покупателю.
 
-## Sending reminders 
+## Рассылка напоминаний 
 
-If a reminder needs to be sent not to all, but just some of the abandoned carts on your store's abandoned carts list, you must send it manually.
+Чтобы отправить напоминания не по всем, а только по некоторым корзинам, сделайте рассылку вручную.
 
-To send a reminder email to owners of specific carts:
+Как отправить напоминания избранным покупателям:
 
-1.  In the [Viewing/filtering the abandoned carts list](#viewingfiltering-the-abandoned-carts-list), locate the carts for which you wish to send the reminder message and select them by selecting the respective check boxes in the first column. The **Напомнить покпателям** button below the list becomes active:
+1.  В списке найдите корзины, по которым хотите отправить напоминания, и отметьте их в первой колонке:
     ![]({{site.baseurl}}/attachments/7503954/8719194.png)
 
-2.  Click **Remind selected** **customers**. A popup titled **Выберите шаблон напоминания** appears: 
+2.  Внизу страницы нажмите кнопку **Напомнить покупателям,** откроется окно **Выберите шаблон напоминания**: 
     ![]({{site.baseurl}}/attachments/7503954/8719195.png)
 
-3.  In the popup, use the **Шаблон** drop-down box to select the reminder message you wish to send and click **Отправить напоминание**. The reminder message will be sent to the owners of all selected carts.
+3.  В выпадающем меню **Шаблон** выберите сообщение для отправки и нажмите **Отправить напоминание**.
 
-## Deleting abandoned carts
+## Удаление оставленных корзин
 
-When you no longer need an abandoned cart to be stored, you can delete it.
+Если вы не планируете обрабатывать оставленные корзины, удалите их. 
 
-To deleted an abandoned cart:
-
-1.  In the [Viewing/filtering the abandoned carts list](#viewingfiltering-the-abandoned-carts-list), find the abandoned cart you wish to delete and select it by selecting the respective check box in the first column.
-2.  Click the **More actions for selected** link below the list and select **Clear selected carts**. 
+1.  В списке выберите корзины для удаления и отметьте их в первой колонке.
+2.  Внизу страницы нажмите кнопку **Clear selected carts**. 
 
     ![]({{site.baseurl}}/attachments/7503954/8719196.png)
 
-    The cart will be deleted.
+    Выбранные корзины будут удалены из списка.
 
-_Related pages:_
+_Выбранные корзины будут удалены из списка:_
 
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
 *   {% link "Managing reminders" ref_i8rSfTrg %}
