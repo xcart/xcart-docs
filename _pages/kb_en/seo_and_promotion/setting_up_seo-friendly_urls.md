@@ -8,6 +8,8 @@ categories:
   - User manual
 published: true
 order: 100
+redirect_from:
+  - /general_setup/setting_up_seo-friendly_urls.html
 ---
 
 
