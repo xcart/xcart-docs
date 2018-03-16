@@ -7,7 +7,7 @@ title: 'Multi-vendor: Vendor experience'
 categories:
   - User manual
 published: true
-order: 100
+order: 200
 redirect_from:
   - /modules/multi-vendor/multi-vendor_vendor_experience/index.html
 ---
