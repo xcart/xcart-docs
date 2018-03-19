@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-03-06 15:38 +0300'
 identifier: ref_4pmEuIKR
-title: 'Незавершённые покупки '
+title: Незавершённые покупки (Abandoned cart reminder)
 order: 60
 published: true
 ---
