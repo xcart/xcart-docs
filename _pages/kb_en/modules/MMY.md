@@ -7,7 +7,7 @@ title: Make/Model/Year Module
 order: 100
 published: true
 ---
-The [Make/Model/Year module](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year Module") allows to set up 4 levels to filter the inventory, to remember the filters for the non-registered visitors and to remember the vehicle for the registered customers. Though the module is mainly aimed at the sellers of auto parts or/and moto parts, it can also be used by any seller who differentiates the products by levels like computers, copiers, smartphones, etc. 
+The [Make/Model/Year module](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year Module") allows to set up up to 4 levels of filter for inventory, as well as to remember the filters for the non-registered visitors and to remember the vehicle for the registered customers. Though the module is mainly aimed at the sellers of auto parts or/and moto parts, it can also be used by any seller who differentiates the products by levels like computers, copiers, smartphones, etc. 
 
 To install the module follow the steps described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once the module is installed and enabled, go to the module settings page to configure it.
 
@@ -26,9 +26,17 @@ The module configuration settings are as follows:
 | **Use separate tab for the fitment on the product page** | If enabled the information on all the vehicles the part can be used for will be displayed in a separate _Fitment_ tab on the product details page in the storefront. If disabled the info will be displayed in the main _Description_ tab. | 
 | **Level X sorting** | Choose the order of the search results representation for the level. |
 
-When the **Make/Model/Year** module settings are configured you can proceed with configuring the filter levels and populating the module with the products. 
+{% note info %}
+With the **Use separate tab for the fitment on the product page** option enabled each product will gain a separate **Fitment** tab that will be displayed onthe product details page both in the admin back-end and customer frontend.
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![fitment-admin.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-admin.png)</div>
+  <div class="column" markdown="span">![fitment-frontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-frontend.png)</div>
+</div>
+{% endnote %}
 
-To configure the filters go to the **Catalog** -> **Make/Model/Year/Engine** page of the admin back-end and start adding the filters of level 1 (**Makes**).
+When the **Make/Model/Year** module settings are configured you can proceed with setting up the filter levels and populating the module with products. 
+
+To configure the filters go to the **Catalog** -> **Make/Model/Year/Engine** page of the admin back-end and start adding the filters of Level 1 (**Makes**).
 
 ![make.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/make.png)
 
@@ -73,8 +81,9 @@ If the **Level page** is not configured for a sublevel, the module will display 
 
 ![customer_filters.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/customer_filters.png)
 
-The **Make/Model/Year** filters show up on all pages in your online store. A customer selects a make of car (vehicle brand), a model, a year and an engine using convenient modern selectors and gets a list of parts for the vehicle with set characteristics.
+The **Make/Model/Year** filters show up on all pages in your online store. A customer selects a make of a product, a model, a year and an engine using convenient modern selectors and gets a list of products with the set characteristics.
 
 ![filters-fontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/filters-fontend.png)
 
 Registered customers can save their vehicles in the account with the **'Remember my vehicle'** checkbox. Next time they come to your store, they will see the parts for their vehicles right away without the need to use filters.
+
