@@ -5,7 +5,7 @@ updated_at: '2018-03-07 08:12 +0300'
 identifier: ref_17GXlKju
 title: Системные требования и установка модуля Abandoned Cart Reminder
 order: 70
-published: false
+published: true
 ---
 
 ## Системные требования 
@@ -25,9 +25,11 @@ published: false
 Для **X-Cart Базовый**, **Бизнес** и **Мультивендор** модуль необходимо {% link "приобрести в маркетплейсе, установить и активировать" ref_Vn1mMUw9 %}.
 
 Найдите модуль в Маркетплейсе:
+
 ![2.png]({{site.baseurl}}/attachments/ref_17GXlKju/2.png)
 
 Установите модуль:
+
 ![3.png]({{site.baseurl}}/attachments/ref_17GXlKju/3.png)
 
 
