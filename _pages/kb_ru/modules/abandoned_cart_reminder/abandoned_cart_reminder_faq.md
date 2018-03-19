@@ -21,13 +21,12 @@ published: false
 
 _Дополнительная информация:_
 
-*   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
-*   {% link "Abandoned Cart Reminder module system requirements and installation" ref_mT2evKUN %}
-*   {% link "How Abandoned Cart Reminder works" ref_BiSy9eBE %}
-*   {% link "Getting started with Abandoned Cart Reminder" ref_0XDhscNU %}
+*   {% link "Abandoned Cart Reminder" ref_4pmEuIKR %}
+*   {% link "Системные требования и установка модуля Abandoned Cart Reminder" ref_17GXlKju %}
+*   {% link "Как работает модуль Abandoned Cart Reminder" ref_4hjfMrxW %}
+*   {% link "Начало работы с модулем Abandoned Cart Reminder" ref_5adYOQ4L %}
 *   {% link "Abandoned Cart Reminder module system requirements and installation" ref_mT2evKUN %}
-*   {% link "Configuring the Abandoned Cart Reminder module" ref_Gz0xMggZ %}
-*   {% link "Managing reminders" ref_i8rSfTrg %}
-*   {% link "Managing abandoned carts and sending reminders" ref_hkTTIuTr %}
+*   {% link "Настройка модуля  Abandoned Cart Reminder" ref_40fPAEAI %}
+*   {% link "Напоминания об оставленных корзинах" ref_052L9Bhe %}
+*   {% link "Управление оставленными корзинами и отправкой напоминаний" ref_4WG6xIIo %}
 *   {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}
-
