@@ -200,7 +200,7 @@ There are many more fields which you can include into your product CSV file. Bel
         <p>Defines the order of the products representation within a category</p>
         <p>Specify a product position in the xx&&yy&&zz format</p>
       </td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">Integer (xx/yy/zz)</td>
     </tr>
     <tr>
       <td class="confluenceTd">cleanURL</td>
