@@ -20,9 +20,9 @@ The module configuration settings are as follows:
 {:.ui.compact.celled.small.padded.table}
 
 | **Number of levels to be used in the filter (2,3,4)** | Here you can choose from 2 to 4 filter levels that you'll set up for your products. |
-| **Name of level X**| The default filter names are preset to Make/Model/Year/Engine, but you can set any filter name instead that you like better. |
-| **Maximum banner width** |Set the width of a banner that will be displayed on the Level Info page. The preset value is 500. |
-| **Maximum banner hight** |Set the width of a banner that will be displayed on the Level Info page. The preset value is 200. |
+| **Name of level X**| The default filter names are preset to Make/Model/Year/Engine, but you can set any filter name you like better instead. |
+| **Maximum banner width** | Set the width of a banner that will be displayed on the _Level Info_ page. The preset value is 500. |
+| **Maximum banner hight** | Set the width of a banner that will be displayed on the _Level Info_ page. The preset value is 200. |
 | **Use separate tab for the fitment on the product page** | If enabled the information on all the vehicles the part can be used for will be displayed in a separate _Fitment_ tab on the product details page in the storefront. If disabled the info will be displayed in the main _Description_ tab. | 
 | **Level X sorting** | Choose the order of the search results representation for the level. |
 
@@ -54,9 +54,28 @@ When the levels are configured, you can add products on the very last step by cl
   ![csv.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/csv.png)
   
   {% note info %}
-  The fields' names in the .csv file should correspond with the level manes you set on the Make/Model/Year settings page. 
-  You can upload products to the module even without configuring the module levels beforehand. The levels and their values will be added to the Catalog -> Make/Model/Year/Engine section automatically from the .csv file you imported. 
+  The fields' names in the .csv file should correspond with the level names you set on the **Make/Model/Year Module** settings page. 
+  You can upload products to the module even without configuring the module levels beforehand. The levels and their values will be added to the **Catalog** -> **Make/Model/Year/Engine** section automatically from the .csv file you imported. 
   {% endnote %}
   
+Starting from Level 2 (**Model**), each sublevel has a special **Level info** page, that if configured will be displayed in the storefront depending on the selected filters. It’s especially useful if you want to provide your customers with additional information on Make, Model or particular vehicle when they select it. Due to flexible settings, you can set the same page, for example, for all models and years or a separate page for each model (and even year). Using a simple interface you can set the page Title, Image and Description. 
 
+![level_info.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/level_info.png)
+
+When a customer clicks to filter the parts, he will be redirected to the corresponding landing page (**Level info** page) with its own name, image and information. This page will also contain the list of spare parts for the vehicle specified by the customer. 
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![landing_admin.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/landing_admin.png)</div>
+  <div class="column" markdown="span">![landing-customer.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/landing-customer.png)</div>
+</div>
+
+If the **Level page** is not configured for a sublevel, the module will display the search results depending on the filters set by a customer.
+
+![customer_filters.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/customer_filters.png)
+
+The **Make/Model/Year** filters show up on all pages in your online store. A customer selects a make of car (vehicle brand), a model, a year and an engine using convenient modern selectors and gets a list of parts for the vehicle with set characteristics.
+
+![filters-fontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/filters-fontend.png)
+
+Registered customers can save their vehicles in the account with the **'Remember my vehicle'** checkbox. Next time they come to your store, they will see the parts for their vehicles right away without the need to use filters.
   
