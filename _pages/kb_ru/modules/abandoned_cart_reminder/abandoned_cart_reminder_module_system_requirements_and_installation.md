@@ -20,10 +20,14 @@ published: false
 
 В **X-Cart Всё включено** модуль уже установлен и требует {% link "активации" ref_uEnDBBA7 %}. 
 
+![1.png]({{site.baseurl}}/attachments/ref_17GXlKju/1.png)
+
 Для **X-Cart Базовый**, **Бизнес** и **Мультивендор** модуль необходимо {% link "приобрести в маркетплейсе, установить и активировать" ref_Vn1mMUw9 %}.
 
-![]({{site.baseurl}}/attachments/7503940/8718920.png)
+Установка:
+![2.png]({{site.baseurl}}/attachments/ref_17GXlKju/2.png)
 
-_Дополнительная информация:_
+Активация:
+![3.png]({{site.baseurl}}/attachments/ref_17GXlKju/3.png)
 
-*   {% link "Getting started with Abandoned Cart Reminder" ref_0XDhscNU %}
+
