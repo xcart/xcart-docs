@@ -194,6 +194,14 @@ There are many more fields which you can include into your product CSV file. Bel
       <td colspan="1" class="confluenceTd">String,
         <br>Multiple&nbsp;</td>
     </tr>
+      <tr>
+      <td class="confluenceTd">inCategoriesPosition</td>
+      <td colspan="1" class="confluenceTd">
+        <p>Defines the order of the products representation within a category</p>
+        <p>Specify a product position in the xx&&yy&&zz format</p>
+      </td>
+      <td colspan="1" class="confluenceTd">String</td>
+    </tr>
     <tr>
       <td class="confluenceTd">cleanURL</td>
       <td colspan="1" class="confluenceTd">
