@@ -24,10 +24,10 @@ published: false
 
 Для **X-Cart Базовый**, **Бизнес** и **Мультивендор** модуль необходимо {% link "приобрести в маркетплейсе, установить и активировать" ref_Vn1mMUw9 %}.
 
-Установка:
+Найдите модуль в Маркетплейсе:
 ![2.png]({{site.baseurl}}/attachments/ref_17GXlKju/2.png)
 
-Активация:
+Установите модуль:
 ![3.png]({{site.baseurl}}/attachments/ref_17GXlKju/3.png)
 
 
