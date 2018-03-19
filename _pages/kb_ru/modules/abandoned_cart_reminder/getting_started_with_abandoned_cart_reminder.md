@@ -7,9 +7,9 @@ title: Начало работы с модулем Abandoned Cart Reminder
 order: 140
 published: false
 ---
-1.  Убедитесь, что окружение оотвечает системым требования модуля и установите модуль (See Abandoned Cart Reminder module system requirements and installation).
+1.  Убедитесь, что окружение отвечает системным требования модуля и установите модуль (Подробнее в статье {% link "Системные требования и установка модуля Abandoned Cart Reminder" ref_17GXlKju %}).
 
-2.  Настройте модуль: установите промежуток времени, после которого корзина с неоплаченными товарами считается покинутой.
+2.  Настройте модуль: установите промежуток времени, после которого корзина с неоплаченными товарами считается покинутой (Подробнее в статье {% link "Настройка модуля  Abandoned Cart Reminder" ref_40fPAEAI %}).
 
 Модуль готов к работе.
 
@@ -23,14 +23,4 @@ published: false
 
 Статья рассказывает, как сделать рассылку напоминаний покупателям, оставившим корзины.
 
-_Дополнительная информация:_
 
-*   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
-*   {% link "Abandoned Cart Reminder module system requirements and installation" ref_mT2evKUN %}
-*   {% link "How Abandoned Cart Reminder works" ref_BiSy9eBE %}
-*   {% link "Abandoned Cart Reminder module system requirements and installation" ref_mT2evKUN %}
-*   {% link "Configuring the Abandoned Cart Reminder module" ref_Gz0xMggZ %}
-*   {% link "Managing reminders" ref_i8rSfTrg %}
-*   {% link "Managing abandoned carts and sending reminders" ref_hkTTIuTr %}
-*   {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}
-*   {% link "Abandoned Cart Reminder FAQ" ref_P3v5Wzvf %}
