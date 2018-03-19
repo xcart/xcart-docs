@@ -5,7 +5,7 @@ updated_at: '2018-03-09 08:14 +0300'
 identifier: ref_40fPAEAI
 title: Настройка модуля  Abandoned Cart Reminder
 order: 90
-published: false
+published: true
 ---
 Когда модуль установлен, перейдите к настройке:
 
