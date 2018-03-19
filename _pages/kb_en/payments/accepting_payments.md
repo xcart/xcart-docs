@@ -4,7 +4,6 @@ layout: article_with_sidebar
 updated_at: '2017-06-27 15:48 +0400'
 identifier: ref_Jq6Bsdrt
 title: Accepting payments
-version: X-Cart 5.2.14 and later
 categories:
   - User manual
 published: true
@@ -13,7 +12,8 @@ order: 200
 
 To accept payments from buyers, you need to enable one or more payment methods for your store. Payment methods are managed via the **Payment methods** section (**Store setup > Payment methods**):
 
-![]({{site.baseurl}}/attachments/6389794/7602367.png)
+![store_setup_payment_settings.png]({{site.baseurl}}/attachments/ref_Jq6Bsdrt/store_setup_payment_settings.png)
+
 
 In this section, you can:
 
@@ -30,24 +30,21 @@ X-Cart supports two types of payment methods:
 1.  _Offline_ payment methods (methods that allow customers to check out without submitting payment information). For example, Phone Ordering, Check, Money Order, Wire Transfer, COD etc.
 2.  _Online_ payment methods (methods that allow customers to enter their payment information online, so you automatically receive the payment via the respective payment system). For example, Paypal, Authorize.Net, 2Checkout, Skrill, etc.
 
-On the **Payment settings** page, offline payment methods can be found in the section **Offline methods** (Scroll down the **Payment settings** page to be able to see it): 
+On the **Payment settings** page, online payment methods can be found in the **Online methods** section. Offline payment methods can be found in the section **Offline methods** (You may need to scroll down the **Payment settings** page to be able to see it):
 
-![]({{site.baseurl}}/attachments/6389794/7602370.png)
-
-Online payment methods can be found in the **Online methods** section:
-
-![]({{site.baseurl}}/attachments/6389794/xc5_paymentmethods_online_methods.png)
+![xc5_paymentmethods_online_offline.png]({{site.baseurl}}/attachments/ref_Jq6Bsdrt/xc5_paymentmethods_online_offline.png)
 
 The INACTIVE/ACTIVE switch displayed for every item on the list of payment methods can be used to control the availability of the method to customers:
 
-![]({{site.baseurl}}/attachments/6389794/7602383.png)
+![xc5_paymentmethods_inactive_active.png]({{site.baseurl}}/attachments/ref_Jq6Bsdrt/xc5_paymentmethods_inactive_active.png)
 
 ACTIVE (green icon) = the method is available on the storefront;
 INACTIVE (gray icon) = the method is not available (not visible to customers).
 
 The **Configure** button below each payment method name allows you to access the payment method settings:
 
-![]({{site.baseurl}}/attachments/6389794/7602384.png)
+![xc5_paymentmethods_configure_button.png]({{site.baseurl}}/attachments/ref_Jq6Bsdrt/xc5_paymentmethods_configure_button.png)
+
 
 ## Adding payment methods
 
