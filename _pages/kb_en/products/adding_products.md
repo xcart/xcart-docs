@@ -51,6 +51,10 @@ When creating a new product, you can specify the following product details:
 *   **Free shipping**: Whether the product should be shipped free of charge.
 *   **Ship in a separate box**: Whether the product needs to be shipped separately from other products. If it is shippable in a separate box, you can define the box dimensions and how many products can be put in this box;
 *   **Available for sale**: Whether the product should be displayed on the storefront. Uncheck this option to temporarily remove the product from the storefront (Store visitors will not be able to see it).
+  {% note info%}
+  If you disable the **Available for sale** option a product will become inactive and a customer will see a 404 "Page not found" error for this product page in the storefront. If you don't want to sell a product any longer but want a product page be still accessible in the storefront, set the product's stock to zero and add "Not available for sale" to the product name, rather than making it inactive. Make sure the _How to show out of stock products_ option is set to "Show in all the sections" in the **Store setup** -> **Cart & checkout** section of the admin area. 
+  If necessary you can set redirects on the pages of the disabled products using .htacces or [Redirects Module](https://market.x-cart.com/addons/redirects-by-Nova-Horizons.html "Adding products").
+  {% endnote %}
 *   **Arrival date**: This field allows you to record the date since when the product is available in your store. On its own, the information entered in this field serves purely informational purposes, but may be employed by X-Cart modules (For example, a module that allows you to add a new product to your catalog in advance and let it be published on the storefront automatically when its arrival date is reached).
 *   **Product page title**: The title to be used in the title bar of this product details page (for SEO purposes). 
 *   **Brief** **description**: A short product description that will be displayed on product list pages.
