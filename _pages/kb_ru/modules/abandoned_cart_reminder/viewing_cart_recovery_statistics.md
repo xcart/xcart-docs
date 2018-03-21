@@ -15,5 +15,12 @@ published: true
 2.  Установите даты и нажмите **Поиск**.
 3.  В секции **Данные за выбранный период** отобразится список заказов за выбранный промежуток времени:
     ![6.jpg]({{site.baseurl}}/attachments/ref_4DzJLOUj/6.jpg)
-
-
+    
+    _Дополнительная информация:_
+*   {% link "Системные требования и установка модуля **Abandoned cart reminder**" ref_17GXlKju %}
+*   {% link "Как работает модуль Abandoned Cart Reminder" ref_4hjfMrxW %}
+*   {% link "Начало работы с модулем Abandoned Cart Reminder" ref_5adYOQ4L %}
+*   {% link "Настройка модуля  Abandoned Cart Reminder" ref_40fPAEAI %}
+*   {% link "Напоминания об оставленных корзинах" ref_052L9Bhe %}
+*   {% link "Управление оставленными корзинами и отправкой напоминаний" ref_4WG6xIIo %}
+*   {% link "Вопросы и ответы" ref_5eE8huM2 %}
