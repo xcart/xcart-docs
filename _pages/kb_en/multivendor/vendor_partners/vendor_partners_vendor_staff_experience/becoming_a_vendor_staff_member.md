@@ -7,4 +7,7 @@ title: Becoming a vendor staff member
 order: 100
 published: false
 ---
-## 
+##
+![mvp_following_reg_link.png]({{site.baseurl}}/attachments/ref_06GsE5l1/mvp_following_reg_link.png)
+
+![mvp_following_reg_link1.png]({{site.baseurl}}/attachments/ref_06GsE5l1/mvp_following_reg_link1.png)
