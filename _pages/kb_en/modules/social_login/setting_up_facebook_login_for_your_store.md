@@ -63,13 +63,13 @@ To create an App for Facebook login:
 10.  As your app is now in **development** mode, to go live with your app, you need to switch the mode to **live**. To do so, switch ON the selector near to the **Status: In Development** to make your app available to the general public:
     ![off.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/off.png)
     
-    In the opened popup, select a **Category** in a drop-down and click **Confirm**:
+   In the opened popup, select a **Category** in a drop-down and click **Confirm**:
     ![public.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/public.png)
 
-    Your app is now published:
+   Your app is now published:
     ![live.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/live.png)
 
-    That is all. Your Facebook App has been configured.
+That is all. Your Facebook App has been configured.
 
 ## Configuring the Social Login module: Facebook
 
