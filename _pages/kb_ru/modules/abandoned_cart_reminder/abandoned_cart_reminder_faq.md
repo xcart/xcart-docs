@@ -18,3 +18,12 @@ published: true
 **В: Я использую модуль User permissions. Какие права нужны пользователю, чтобы работать с модулем Abandoned Cart Reminder?**
 
 **О:** Права на управление заказами.
+
+_Дополнительная информация:_
+*   {% link "Системные требования и установка модуля **Abandoned cart reminder**" ref_17GXlKju %}
+*   {% link "Как работает модуль Abandoned Cart Reminder" ref_4hjfMrxW %}
+*   {% link "Начало работы с модулем Abandoned Cart Reminder" ref_5adYOQ4L %}
+*   {% link "Настройка модуля  Abandoned Cart Reminder" ref_40fPAEAI %}
+*   {% link "Напоминания об оставленных корзинах" ref_052L9Bhe %}
+*   {% link "Управление оставленными корзинами и отправкой напоминаний" ref_4WG6xIIo %}
+*   {% link "Статистика по завершению покупок" ref_4DzJLOUj %}
