@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-02-05 13:14 +0400'
 identifier: ref_2LetICls
 title: Shop by Brand Module
-order: 100
+order: 245
 published: true
 description: shop by brand
 ---
