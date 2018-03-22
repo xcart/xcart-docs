@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-24 20:09 +0400'
 identifier: ref_0uCGd6Bs
 title: UPS
-order: 100
+order: 310
 published: true
 description: UPS shipping set-up
 ---
