@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-02-07 12:35 +0400'
 identifier: ref_1Odyn6mT
 title: Loyalty Program
-order: 100
+order: 182
 published: true
 description: The Loyalty Program Module.
 ---
