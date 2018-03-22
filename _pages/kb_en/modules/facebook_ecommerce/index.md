@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-11-16 01:48 +0400'
 identifier: ref_LA0TBHEA
 title: Facebook eCommerce Module
-order: 100
+order: 167
 published: true
 ---
 
@@ -79,8 +79,3 @@ Also, each product will gain an _Add to Facebook product feed_ setting in the Ma
   ![Products.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/Products.png)
   
 That's it! You can start advertising your products through Facebook.
-  
-
-  
- 
-
