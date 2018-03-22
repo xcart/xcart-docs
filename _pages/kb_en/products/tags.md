@@ -5,7 +5,7 @@ updated_at: '2018-03-22 15:04 +0400'
 identifier: ref_6nFoxYf1
 title: Product Tags
 order: 100
-published: false
+published: true
 ---
 [Product Tags](https://market.x-cart.com/addons/product-tags.html "Product Tags") is a built-in X-Cart 5 module that can be used to narrow down search results either within the {% link "Product Filter Module" ref_6e82A7rL %} or independently of it and hence can improve the oveall customer experience. 
 
@@ -53,4 +53,4 @@ In the store frontend click on a tag in the **Tags** section (if it's enabled) t
 
 ![front-end.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/front-end.png)
 
-If tags are not shown as a separate section in the admin area, they will be included into the {% link "Product Filter's " ref_6e82A7rL %} block and you can use them there. The **Product Filter's** section will display only the tags that are relevant for the category a customer is viewing. 
+If tags are not shown as a separate section in the admin area, they will be included into the {% link "Product Filter's " ref_6e82A7rL %} block and you can use them there. The **Product Filter's** section will display only the tags that are relevant for the category a customer is viewing.
