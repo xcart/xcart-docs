@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-02-21 14:33 +0400'
 identifier: ref_2tPJubPU
 title: Multicurrency Module
-order: 100
+order: 189
 published: true
 ---
 If you sale worldwide it makes sense to use the [Multicurrency](https://market.x-cart.com/addons/multicurrency-for-xcart5.html "Multicurrency Module") module to make purchases easier for your international customers.
