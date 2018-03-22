@@ -25,13 +25,13 @@ To add a tag click on the **'New tag'** button and **Save changes**.
 
 Once a tag is created you can assign it to the products. One product can have an unlimited number of tags assigned to it. To assign a tag to a product go to the **Catalog** -> **Products** section, choose products from the search list either one by one or with a checkbox for bulk editing.
 
-1. If you assign tags per product click on the product name, find the **Tags** field in the 'Info' tab of the products details page and choose tags from the list for the product there. 
+* If you assign tags per product click on the product name, find the **Tags** field in the 'Info' tab of the products details page and choose tags from the list for the product there. 
   
   ![tags-field.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/tags-field.png)
   
   Click **'Update product'** to save the changes.
   
-2. If you want to assign a tag to more than one product at a time use the **Bulk Editing** option. 
+* If you want to assign a tag to more than one product at a time use the **Bulk Editing** option. 
   
   ![bulk-edit.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/bulk-edit.png)
   
