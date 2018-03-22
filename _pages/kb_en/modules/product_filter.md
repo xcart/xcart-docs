@@ -33,7 +33,7 @@ For the "Attributes" filter to be displayed you should have attributes set up in
 * _Enable "Tags" filter_ - if enabled the filter will show the tags available for search
 
 {% note info %}
-For the "Tags" filter to be displayed you should have tags set up in your store. 
+For the "Tags" filter to be displayed you should have {% link "tags set up" ref_6nFoxYf1 %} in your store. 
 {% endnote %}
 
 * _Show only available attributes and tags for products in category_ - if enabled X-Cart generates data cache that is used to display in the filter only the attribute values and tags that are actually used for the products in the category being viewed. 
