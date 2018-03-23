@@ -47,29 +47,16 @@ order: 160
 **Для этих типов покупателей**: выберите группу покупателей, если спецпредложение распространяется не на всех посетителей магазина, а на конкретную группу покупателей.
 **Количество предметов по скидке**: количество товаров, которое покупатель получит со скидкой.
 **Скидка**: численный размер скидки   
-**Вид скидки**: в процентах или в рублях. Если установить скидку _100 %_, покупатель получит товар бесплатно.
+**Вид скидки**: в процентах или в рублях. Если установить скидку _100 %_, покупатель получит товар бесплатно. Если установить скидку _в процентах_, покупатели смогут воспользоваться одновременно несколькими типами скидок.
 
-
-{% note info %}
-Let's say it's necessary to exclude the SKUs with volume discounts from the offer. If such products are joined under one category (Category A), it will be necessary to choose all other categories from the list in the 'From these categories' field except for Category A.  If the SKUs with volume discounts are not joined under a particular category but are rather available for customers with a particular membership (Wholesaler) it will be necessary to choose _No membership_ in the 'Eligible membership levels' field. (If there are other memberships in the cart in addition to Wholesaler, it will be necessary to choose _No membership_ and all the memberships the offer is eligible for).
-{% endnote %}
-
-The profit is counted in a number of products a customer will get at a discount. In our sample it is 1 product. The discount can be set in percent (%) and fixed sum (%). If you set the discount to 100% the customer will get the item(s) for free. The discount is set to 50% in the sample.
-
-{% note info %}
-To allow customers use several types of discount at a time use % to set the value
-{% endnote %}
-
-The section that comes next is **Exclusions** (Figure 6). Here you'll exclude any possible offers that may interfere with the current one. 
+В секции **Исключения** выберите специальные предложения, которые не совмещаются с текущим.
 
 ![Fig 6]({{site.baseurl}}/attachments/exclusions.png)
 
-Exclusions can be set only on the special offers created with the [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers: Spend X Get Y") and [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Spend X Get Y") modules. To set an exclusion, mark the offer(s) that will prevent the current offer from being applied.
+В исключения можно внести только специальные предложения, созданные с помощью модулей **Special Offers: Spend X Get Y** и **Special Offers: Buy X Get Y**. Пометьте спецпредложение в списке и текущее спецпредложение станет несовместимо с выбранным.
 
 {% note info %}
-If you have e.g. Offer A and Offer B and define Offer B as an exclusion for Offer A, Offer A and Offer B will not be applied to the same products in an order. This means that the cart will first check the order to meet the Offer A conditions and apply the discounts set for Offer A if the conditions are met. Then the cart will check the same order to meet the Offer B conditions excluding the products that were counted for Offer A. If the Offer B conditions are met the Offer B discounts will be applied to the order as well but to the different items from the order. If no exclusions are set discounts of both Offer A and Offer B can be applied to one and the same product from the order. 
-
-Offers are applied in order of appearance on the offers listing page (Figure 3).
+Например, в магазине действуют _Акция 1_ и _Акция 2_, и _Акция 2_ установлена как исключение для _Акции 1_. Акции не действую на один и тот же товар в заказе. Заказ проходит проверку на соответстие _Акции 1_, и если условия соблюдены, применяется скидка. Затем заказ проходит проверку на соответствие _Акции 2_, но товары со скидкой по _Акции 1_ в этой проверке не участвуют. Скидка по _Акции 2_ будет применена к товарам заказа, которые отвечают условиям _Акции 2_ и не участвуют в _Акции 1_. Если исключения не установлены, возможны обе скидки на один и тот же товар.
 {% endnote %}
 
 Next comes the **'Description & Promotions'** section (Figure 7). This section defines how your customers will see the offer in the store.
