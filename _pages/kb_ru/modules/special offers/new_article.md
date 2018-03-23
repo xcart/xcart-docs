@@ -40,16 +40,15 @@ order: 160
 
 ![Fig 5]({{site.baseurl}}/attachments/conditions-reward.png)
 
-To set a particular category or categories the offer will be applied to the admin will need to choose them from the list of all categories and subcategories available in the store. If the offer is store-wide no selection is required.
+**Subtotal (amount to spend)**: сумма заказа, при которой действует специальное предложение.
+**Из этих категорий**: категории и подкатегории, товары их которых должны быть в корзине покупателя, чтобы сработало спецпредложение. Если выбрана категория, в спецпредложении будут участвовать товары из корневой категории. Чтобы включить в спецпредложение и товары подкатегорий этой категории, отметьте и подкатегории в списке.
+Для выбора нескольких категорий/подкатегорий нажмите и удерживайте _Shift_.
+Если не выбрана ни одна категория и подкатегория, все товары магазина участвуют в спецпредложении, включая товары на _распродаже_ и товары _с оптовыми скидками_.
+**Для этих типов покупателей**: выберите группу покупателей, если спецпредложение распространяется не на всех посетителей магазина, а на конкретную группу покупателей.
+**Количество предметов по скидке**: количество товаров, которое покупатель получит со скидкой.
+**Скидка**: численный размер скидки   
+**Вид скидки**: в процентах или в рублях. Если установить скидку _100 %_, покупатель получит товар бесплатно.
 
-{% note info %} 
-Hold Shift to choose more than one category and/or subcategory. Subcategories are marked with '---' in the list
-![subcategories.png]({{site.baseurl}}/attachments/subcategories.png)
-{% endnote %}
-
-If no selection is done the offer will be store-wide and will be applied to all SKUs available including products on sale, products with volume discounts, etc. If a particular category is chosen the offer will count only the SKUs from the root of this category. To include SKUs from subcategories as well, please choose them along with the main category.
-
-If it's necessary to limit the offer for particular groups of customers the cart admin can choose them in the 'Eligible membership levels' field of the 'Conditions' section. 
 
 {% note info %}
 Let's say it's necessary to exclude the SKUs with volume discounts from the offer. If such products are joined under one category (Category A), it will be necessary to choose all other categories from the list in the 'From these categories' field except for Category A.  If the SKUs with volume discounts are not joined under a particular category but are rather available for customers with a particular membership (Wholesaler) it will be necessary to choose _No membership_ in the 'Eligible membership levels' field. (If there are other memberships in the cart in addition to Wholesaler, it will be necessary to choose _No membership_ and all the memberships the offer is eligible for).
