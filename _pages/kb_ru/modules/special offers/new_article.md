@@ -19,32 +19,24 @@ order: 160
 
 На странице **Скидки / Акции** вы найдёте пример настройки специального предложения: **Sample: Spend $100 and get 50% off the cheapest** (**Пример: Потрать 7000 и получи скидку 50 % на товар наименьшей стоимости**). Рассмотрим работу модуля на этом примере.
 
-Let's consider the sample to understand how the Spend X Get Y offer works. 
-
-First comes the **'General Options'** section (Figure 2) where you can define the administrative name, i.e. the name of the offer how the cart admin sees it in the list of offers (https://www.yourstore.com/admin.php?target=special_offers). The offer type 'Spend X Get M of items discounted/free' is preset as it was defined when an offer was created (refer to _**Create**_ on Figure 1).
+В секции **Общие настройки** указаны тип и рабочее название специального предложения. Тип задаётся на шаге создания специального предложения. Название видит только администратор магазина в списке спецпредложений на странице **Скидки / Акции**.
 
 ![Fig 2]({{site.baseurl}}/attachments/general.png)
 
-Also, in the 'General Options' section you can enable or disable the offer. 
+Также, в этой секции спецпредложение можно включить и отключить. 
 
-{% note info %}
-It's also possible to enable/disable an offer directly on the listing page (Figure 3) via a special 'Enable/Disable' button. When the offer is enabled the button is green, when disabled - grey. Make sure you save the changes after enabling/disabling an offer.
 
-![Fig 3]({{site.baseurl}}/attachments/enable.png)
 
 When enabled the offer becomes available to the customers on the home page in the 'Special Offers' section as well as on the matching category pages and on the Special Offers page.
 
 ![homepage.png]({{site.baseurl}}/attachments/homepage.png)
 
-{% endnote %}
 
-After **General Options** comes the 'Dates' section (Figure 4).
+В секции **Даты** администратор устанавливает сроки действия специального предложения с точностью до часа. Даты и время указываются соответственно в полях **Дата начала**, **Час начала**, **Дата завершения** и **Час завершения**. Если даты не указаны, спецпредложение будет бессрочным.
 
 ![Fig 4]({{site.baseurl}}/attachments/dates.png)
 
-In this section the cart admin can define the dates the offer will start and end at. If the dates are not defined the offer will be open-ended. 
-
-When the dates are defined you can proceed to **Conditions and Reward**, the sections that are literary a heart of the offer as here the cart admin defines a subtotal the offer will be applied to (it is  $100 in the sample), the category(s) and the membership(s) and a reward a customer will get (Figure 5).
+Секции **Условия применения** и **Вознаграждение** содержат основные настройки спецпредложения:
 
 ![Fig 5]({{site.baseurl}}/attachments/conditions-reward.png)
 
