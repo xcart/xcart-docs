@@ -42,5 +42,8 @@ Every email notification has a predefined header, greeting and signature (same f
 
 ![header.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/header.png)
 
+The greeting format is the same for both admin and customer notifications, while the text of the header and signature can be different. 
+
+Don't forget to **save changes** when done. 
 
 
