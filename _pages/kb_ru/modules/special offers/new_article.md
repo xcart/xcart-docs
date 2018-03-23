@@ -29,10 +29,6 @@ order: 160
 
 Также, в этой секции спецпредложение можно включить и отключить. 
 
-
-
-When enabled the offer becomes available to the customers on the home page in the 'Special Offers' section as well as on the matching category pages and on the Special Offers page.
-
 ![homepage.png]({{site.baseurl}}/attachments/homepage.png)
 
 
