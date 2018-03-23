@@ -59,23 +59,23 @@ order: 160
 Например, в магазине действуют _Акция 1_ и _Акция 2_, и _Акция 2_ установлена как исключение для _Акции 1_. Акции не действую на один и тот же товар в заказе. Заказ проходит проверку на соответстие _Акции 1_, и если условия соблюдены, применяется скидка. Затем заказ проходит проверку на соответствие _Акции 2_, но товары со скидкой по _Акции 1_ в этой проверке не участвуют. Скидка по _Акции 2_ будет применена к товарам заказа, которые отвечают условиям _Акции 2_ и не участвуют в _Акции 1_. Если исключения не установлены, возможны обе скидки на один и тот же товар.
 {% endnote %}
 
-Next comes the **'Description & Promotions'** section (Figure 7). This section defines how your customers will see the offer in the store.
+Проверка заказа на соответствие и применение скидок осуществляется в порядке расположения специальных предложений на странице **Скидки / Акции**.
+
+Секция **Описание и отображение** отвечает за представление специального предложения покупателям в магазине.
 
 ![Fig 7]({{site.baseurl}}/attachments/descr.png)
 
-You'll need to define the offer's title (or how you'll announce the offer to the customers), the offer's description, image and short description. The last 3 are optional. Also, this section has a predefined image and short description locations (Figure 8). If you want to exclude any of the locations turn them off.
+Придумайте **название**, **полное и краткое описания** специального предложения, и загрузите **изображение**. По умолчанию выбрано **расположение** картинки и краткого описания - на главной странице, на страницах подходящих категорий и на отдельной странице. Отключите ненужные опции.
 
 ![Fig 8]({{site.baseurl}}/attachments/display.png)
 
-The offer title, image and short description (if defined) are displayed on the home page (Fig 9) when the offer is enabled. They also are displayed at any matching category page.
-
-{% note info %}
-As a source for an image you can use either .jpg, .png, .gif or .bmp files from your computer or an image URL from the web. The image will be resized to 160x230 pixels when displayed on the customers front-end. Please keep this in mind when setting the image for an offer.
-{% endnote %}
+**Изображение** можно загрузить с компьютера или по ссылке. Размер картинки изменяется на _160x230_ пикселей в магазине, учтите это при выборе изображения. 
 
 ![Fig 9]({{site.baseurl}}/attachments/home.png)
 
-The full offer description is displayed on the Special Offers page (Figure 10), that can be opened by clicking the offer title on the home page and on the category page.
+**Изображение** и **краткое описание** в виде ссылки отображаются в разделе **Акции** на главной странице, на странице категорий, участвующих в акции, и на странице при переходе по ссылке **Специальные предложения** в меню **Акции**.
+
+Название и полное описание спецпредложения отображаются на странице специального предложения при переходе по ссылке под изображением.
 
 ![Fig 10]({{site.baseurl}}/attachments/description.png)
 
