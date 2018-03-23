@@ -7,7 +7,7 @@ identifier: ref_29HNUw2w
 title: 'Специальные предложения: Потрать Х Получи Y'
 order: 160
 ---
-The 'Spend X Get Y' module works with a cart subtotal and gives a customer a discount if a certain subtotal is met. Unlike regular discounts or sales the module encourages customers to spend from a certain sum to win a price. The Spend X Get Y offer is especially good when you need to force sales regardless of particular SKUs. 
+Модуль **[Специальные предложения: Потрать Х Получи Y](https://market.x-cart.com/addons/spend-x-get-y.html "Специальные предложения: Потрать Х Получи Y")** проверяет стоимость товаров в корзине покупателя и предлагает покупателю скидку, если стоимость корзины достигает установленной администратортом магазина суммы. В отличие от распродажи или скидки, специальное предложение побуждает покупателя потратить конкретную сумму, чтобы получить выгоду. Такой вид спецпредложений удобен, если необходим рост продаж и не требуется повысить объём продаж отдельных товаров. 
 
 The module is included into the Ultimate software package. If you run Business, you can buy the [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers: Spend X Get Y") module and install it as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. 
 
