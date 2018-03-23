@@ -11,9 +11,13 @@ order: 160
 
 Модуль входит в _X-Cart Всё включено_ и требует только {% link "активации" ref_IEo2gFuZ %}. Если вы используете _X-Cart Базовый_ или _X-Cart Бизнес_, {% link "приобретите модуль в маркетплейсе, установите и активируйте" ref_gpeZtm28 %}. 
 
-Once installed the module functionality will become available in the 'Discounts: Special Offers' section of the cart admin area (Figure 1). Along with the module itself you'll see a 'Sample: Spend $100 and get 50% off the cheapest' that illustrates the basic configuration principles.
+После установки модуля в разделе **Скидки** появится пункт **Акции**.
 
 ![Fig 1]({{site.baseurl}}/attachments/spendxgety.png)
+
+На странице **Скидки / Акции** находится список всех специальных предложений, настроенных в магазине. Здесь вы можете включить или отключить одно или несколько специальных предложений. _Зелёный_ значок означает, что акция _действует_, _серый_ - _отключена_. Измените статус акций и нажмите **Сохранить**.
+
+На странице **Скидки / Акции** вы найдёте пример настройки специального предложения: **Sample: Spend $100 and get 50% off the cheapest** (**Пример: Потрать 7000 и получи скидку 50 % на товар наименьшей стоимости**). Рассмотрим работу модуля на этом примере.
 
 Let's consider the sample to understand how the Spend X Get Y offer works. 
 
