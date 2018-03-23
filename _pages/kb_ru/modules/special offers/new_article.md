@@ -9,7 +9,7 @@ order: 160
 ---
 Модуль **[Специальные предложения: Потрать Х Получи Y](https://market.x-cart.com/addons/spend-x-get-y.html "Специальные предложения: Потрать Х Получи Y")** проверяет стоимость товаров в корзине покупателя и предлагает покупателю скидку, если стоимость корзины достигает установленной администратортом магазина суммы. В отличие от распродажи или скидки, специальное предложение побуждает покупателя потратить конкретную сумму, чтобы получить выгоду. Такой вид спецпредложений удобен, если необходим рост продаж и не требуется повысить объём продаж отдельных товаров. 
 
-The module is included into the Ultimate software package. If you run Business, you can buy the [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers: Spend X Get Y") module and install it as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. 
+Модуль входит в _X-Cart Всё включено_ и требует только настройки. Если вы используете X-Cart Базовый или X-Cart Бизнес пакет, приобретите модуль в маркетплейсе, установите и активируйтеThe module is included into the Ultimate software package. If you run Business, you can buy the [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers: Spend X Get Y") module and install it as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. 
 
 Once installed the module functionality will become available in the 'Discounts: Special Offers' section of the cart admin area (Figure 1). Along with the module itself you'll see a 'Sample: Spend $100 and get 50% off the cheapest' that illustrates the basic configuration principles.
 
