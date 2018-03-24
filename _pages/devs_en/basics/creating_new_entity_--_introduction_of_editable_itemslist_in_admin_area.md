@@ -11,7 +11,6 @@ keywords:
 categories:
   - Developer docs
   - Demo module
-version: X-Cart 5.1.x - 5.2.x
 published: true
 ---
 ## Introduction
@@ -200,7 +199,7 @@ class QuickMessage extends \XLite\Model\Repo\ARepo
 
 After creating **Model** and **Repository** classes, we are done with creating entity classes.
 
-## Creating interface for creating and editing Quick Messages in admin area
+## Creating interface for editing Quick Messages in admin area
 
 Now it is time to add a form where you can create, edit and delete quick messages and display this form on `target=quick_messages` page. 
 
