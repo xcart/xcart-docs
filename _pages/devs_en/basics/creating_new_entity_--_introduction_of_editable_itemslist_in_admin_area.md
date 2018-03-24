@@ -358,7 +358,7 @@ Now let us add this ItemsList to the `admin.php?target=quick_messages` page. We 
 
 We just call for our ItemsList widget here.
 
-### Checking intermittent results
+## Checking intermittent results
 
 Now we are done with the admin part of this mod and we can create quick messages in admin area. Go to `admin.php?target=quick_messages` page and you should see the following result:
 ![no-quick-messages.png]({{site.baseurl}}/attachments/ref_hBpBE0vS/no-quick-messages.png)
@@ -368,7 +368,7 @@ Of course, we do not have any quick messages yet, but if you click **Create** bu
 
 Once you add some quick messages, do not forget to save results by clicking **Save changes** button.
 
-### Showing quick messages in customer area
+## Showing quick messages in customer area
 
 We will show three latest quick messages in {% link "sidebar box" ref_Z0IrS8PW %} in the left-hand side menu in storefront.
 
@@ -434,7 +434,7 @@ Finally, we have to create the folder that was mentioned in our viewer class - 
 
 This code can be read as follows. If there are quick messages – `{% if this.getMessages() %}` – then we create `<ul>` element and walk through each element returned by `getMessages()` method - `{% for message in this.getMessages() %}` – displaying text of each quick message inside `<li>` element – `<li>{{ message.body }}</li>`.
 
-### Checking the final results
+## Checking the final results
 
 We are done with this mod and we have to re-deploy the store one more time. If you have any active quick messages in admin area, you will see the following result in the storefront:
 ![quick-messages-in-storefront.png]({{site.baseurl}}/attachments/ref_hBpBE0vS/quick-messages-in-storefront.png)
