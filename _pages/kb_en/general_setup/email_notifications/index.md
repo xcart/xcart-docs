@@ -8,7 +8,7 @@ order: 100
 published: true
 ---
 
-When the staff email addresses are {% link "configured" ref_wKcxbiUf %} you can proceed with the email notifications set-up itself. You can find a full list of e-mail notifications available in your store in the **Store setup** -> **Email notifications** section of the admin area.  
+A full list of e-mail notifications available in your store is available in the **Store setup** -> **Email notifications** section of the admin area.  
 
 ![settings.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/settings.png)
 
@@ -22,12 +22,13 @@ Email notifications that are added by modules installed to the store have the mo
 
 ![module.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/module.png)
 
-{% link "Adding recipient addresses for email notifications" ref_wKcxbiUf %}
-{% link "How to edit a text of an email notification?" ref_1qTqS245 %}
-{% link "How to edit header, greeting &amp; signature?" ref_2W845gkS %}
-{% link "How to add PDF invoices to email notifications?" ref_08i5p47o %}
-{% link "How to configure the email transfer settings?" ref_5PirMonD %}
-{% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %}
+
+*  {% link "Adding recipient addresses for email notifications" ref_wKcxbiUf %}
+*  {% link "How to edit a text of an email notification?" ref_1qTqS245 %}
+*  {% link "How to edit header, greeting &amp; signature?" ref_2W845gkS %}
+*  {% link "How to add PDF invoices to email notifications?" ref_08i5p47o %}
+*  {% link "How to configure the email transfer settings?" ref_5PirMonD %}
+*  {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %}
 
 
 
