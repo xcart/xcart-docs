@@ -5,7 +5,7 @@ updated_at: '2018-03-26 19:07 +0400'
 identifier: ref_5PirMonD
 title: How to configure the email transfer settings?
 order: 100
-published: false
+published: true
 ---
 Email transfer configuration is the most important part of the notifications maintenance as whether your emails will be delivered and read by the end users (your customers) will completely depend on it.
 
