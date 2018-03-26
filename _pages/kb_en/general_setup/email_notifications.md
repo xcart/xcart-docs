@@ -11,7 +11,9 @@ When the staff email addresses are {% link "configured" ref_wKcxbiUf %} you can 
 
 ![settings.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/settings.png)
 
-Here you can enable/disable and edit notifications. Admin notifications are marked with an ON/OFF trigger in the Administrator column. Customer notifications are marked with an ON/OFF trigger in the Customer column, respectively. Some of the notifications are sent both to the store staff and customers, others only to the store staff or customers. Each email notification is titled and has a mention that describes a purpose of the notification. 
+Here you can enable/disable and edit notifications. 
+
+Admin notifications are marked with an ON/OFF trigger in the 'Administrator' column. Customer notifications are marked with an ON/OFF trigger in the 'Customer' column, respectively. Some of the notifications are sent both to the store staff and customers, others only to the store staff or customers. Each email notification is titled and has a mention that describes a purpose of the notification. 
 
 ![notification_types.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/notification_types.png)
 
@@ -29,14 +31,14 @@ Each notification consists of the following parts:
 
 * ![scheme.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/scheme.png)
   Here you can enable/disable the header, greeting and signature of the notification and edit the notification text. 
-  Also you can find the name of a notification body template that you can refer to if you need to customize the notification structure. The body template may include other templates to generate the email notification. To customize it, you'll need to copy appropriate templates to the "skins/theme_tweaker/mail/" (or "skins/custom_skin/mail/" if you use CustomSkin module) directory within the same folder structure and then change the notification to your needs.
+  Also you can find the name of a notification body template that you can refer to if you need to customize the notification structure. The body template may include other templates to generate the email notification. To customize it, you'll need to copy appropriate templates to the "skins/theme_tweaker/mail/" (or "skins/custom_skin/mail/" if you use CustomSkin module) directory within the same folder structure and then change the notification to meet your needs.
   Some notifications can be edited via the {% link "Webmaster mode" ref_1xoeCJwy %}. Such notifications has a special **'Edit via Webmaster mode'** button under the **Body**.
   ![webmaster.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/webmaster.png)
 
 * ![system-settings.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/system-settings.png)
   Here you can edit the notification title and description if necessary.
   
-When the template editing is complete either **Save changes** or **Send test email** and **Preview template** to see the changes before saving them. 
+When the notification editing is complete either **Save changes** or **Send test email** and **Preview template** to see the changes before saving them. 
 
 Every email notification has a predefined header, greeting and signature (same for all notifications) that can be edited in the **Header, greeting & signature** tab of the **Store setup** -> **Email notifications** page. 
 
@@ -46,4 +48,16 @@ The greeting format is the same for both admin and customer notifications, while
 
 Don't forget to **save changes** when done. 
 
+If necessary you can add a PDF version of invoices to the e-mail notifications using the **Attachments** tab of the **Store setup** -> **Email notifications** page. 
 
+![attachments.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/attachments.png)
+
+PDF invoices will be added as an attachment to all order related notifications.
+
+{% note info %}
+You can extend the default PDF invoices feature with a paid [PDF Invoice](https://market.x-cart.com/addons/PDF-Invoice.html "eMail Notifications: Set Up and Maintenance") module that is more flexible and powerful.
+{% endnote %}
+
+If you want to send email notificatoins via an email server, different from the one your store is installed at, you can configure it in the **SMTP** tab of the **Store setup** -> **Email notifications** page.
+
+![smtp.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/smtp.png)
