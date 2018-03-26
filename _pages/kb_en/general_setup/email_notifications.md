@@ -7,7 +7,8 @@ title: 'eMail Notifications: Set Up and Maintenance'
 order: 100
 published: true
 ---
-When the staff email addresses are {% link "configured" ref_wKcxbiUf %} you can proceed with the email notifications set-up itself. You can find a full list of e-mail notifications available in your store in the **Store setup** -> **Email notifications** section of the admin area. 
+
+When the staff email addresses are {% link "configured" ref_wKcxbiUf %} you can proceed with the email notifications set-up itself. You can find a full list of e-mail notifications available in your store in the **Store setup** -> **Email notifications** section of the admin area.  
 
 ![settings.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/settings.png)
 
@@ -99,4 +100,4 @@ To test email notifications via STMP use the **'Test email configuration'** sect
 
 Also, please refer to the {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %} article, that can be helpful.
 
-Besides SMTP you can use [Mandrill](https://market.x-cart.com/addons/mandrill-transactional-emails-integration.html "eMail Notifications: Set Up and Maintenance") as a default mailer for all the transactional emails. 
+Besides SMTP you can use [Mandrill](https://market.x-cart.com/addons/mandrill-transactional-emails-integration.html "eMail Notifications: Set Up and Maintenance") as a default mailer for all the transactional emails.
