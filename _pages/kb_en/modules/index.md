@@ -37,6 +37,7 @@ _In this section:_
 *   {% link "Not Finished Orders" ref_5TMbPwNQ %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
 *   {% link "POS system for X-Cart" ref_BMTUgGt4 %}
+*   {% link "Product Advisor" ref_72asis58 %}
 *   {% link "Product Feeds" ref_0gfIXwxH %}
 *   {% link "Product Filter Module" ref_6e82A7rL %}
 *   {% link "Sale Module" ref_7tBJ8Yqo %}
