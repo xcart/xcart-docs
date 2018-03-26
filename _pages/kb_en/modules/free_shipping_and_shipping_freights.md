@@ -5,7 +5,7 @@ updated_at: '2018-03-26 16:45 +0400'
 identifier: ref_4Bfeegp9
 title: Free Shipping and Shipping freights
 order: 175
-published: false
+published: true
 ---
 _In this section:_
 
