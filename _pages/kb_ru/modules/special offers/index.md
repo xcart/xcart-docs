@@ -14,5 +14,5 @@ published: true
 * **Специальные предложения: Купи Х Получи Y** (**[Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers "Специальные предложения")**)
 
 Модули различаются логикой действия, но оба направлены на повышение продаж:
-- {% link "Special Offers: Buy X Get Y" ref_buy_x_get_y %}
-- {% link "Special Offers: Spend X Get Y" ref_spend_x_get_y %}
+- {% link "Special Offers: Buy X Get Y" ref_21IY03JF %}
+- {% link "Special Offers: Spend X Get Y" ref_29HNUw2w %}
