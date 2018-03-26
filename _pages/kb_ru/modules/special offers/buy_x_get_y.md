@@ -7,9 +7,9 @@ title: 'Специальные предложения: Купи X Получи Y
 order: 170
 published: false
 ---
-The 'Buy X Get Y' module works with the products added to cart and gives a customer a discount if certain items are bought. The module encourages customers to buy from a certain category/subcategory to win a price. The Buy X Get Y offer is especially good when you need to force sales of particular SKUs in your store. 
+Модуль **[Специальные предложения: Купи Х Получи Y](https://market.x-cart.com/addons/buy-x-get-y.html "Специальные предложения: Купи Х Получи Y")** работает с товарами в корзине покупателя. Скидка предоставляется при покупке товаров из выбранных администратором категорий и подкатегорий. Такой вид спецпредложения полезен, когда требуется повысить продажи конкретных товаров. 
 
-The module is included into the Ultimate software package. If you run Business, you can buy the [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Buy X Get Y") module and install it as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. 
+Модуль входит в пакет _X-Cart Всё включено_ и требует только {% link "активации" ref_IEo2gFuZ %}. Если магазин работает на базе _X-Cart Базовый_ или _X-Cart Бизнес_, {% link "приобретите модуль в маркетплейсе, установите и активируйте" ref_gpeZtm28 %}. 
 
 Once installed the module functionality will become available in the 'Discounts: Special Offers' section of the cart admin area (Figure 1). Along with the module itself you'll see 2 samples 'Sample: Get 1 of every 3 items with 50% discount' and 'Sample: Get every second item for free' that illustrate the basic configuration principles.
 
@@ -118,4 +118,3 @@ Enable the special offers panel as shown on Figure 12
 and special offers will be added to _Home page: Hot Deals_
 
 ![so_home.png]({{site.baseurl}}/attachments/so_home.png)
-
