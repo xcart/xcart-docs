@@ -31,7 +31,9 @@ Each notification consists of the following parts:
 
 * ![scheme.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/scheme.png)
   Here you can enable/disable the header, greeting and signature of the notification and edit the notification text. 
-  Also you can find the name of a notification body template that you can refer to if you need to customize the notification structure. The body template may include other templates to generate the email notification. To customize it, you'll need to copy appropriate templates to the "skins/theme_tweaker/mail/" (or "skins/custom_skin/mail/" if you use CustomSkin module) directory within the same folder structure and then change the notification to meet your needs.
+  
+  Also, you can find the name of a notification body template that you can refer to if you need to customize the notification structure. The body template may include other templates to generate the email notification. To customize it, you'll need to copy appropriate templates to the "skins/theme_tweaker/mail/" (or "skins/custom_skin/mail/" if you use CustomSkin module) directory within the same folder structure and then change the notification to meet your needs.
+  
   Some notifications can be edited via the {% link "Webmaster mode" ref_1xoeCJwy %}. Such notifications has a special **'Edit via Webmaster mode'** button under the **Body**.
   ![webmaster.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/webmaster.png)
 
@@ -44,7 +46,34 @@ Every email notification has a predefined header, greeting and signature (same f
 
 ![header.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/header.png)
 
-The greeting format is the same for both admin and customer notifications, while the text of the header and signature can be different. 
+The greeting format is the same for both admin and customer notifications, while the format of the header and signature can be different. 
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![customer.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/customer.png)</div>
+  <div class="column" markdown="span">![admin.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/admin.png)</div>
+</div> 
+
+Notification headers and signatures can be set using the following variables:
+
+```
+%logo%	
+%company_name%
+%company_link%	
+%company_website%	
+%company_address%	
+%company_country%	
+%company_state%
+%company_fax%	
+%company_city%	
+%company_zipcode%	
+%company_phone%	
+%recipient_name%
+%conversation_link%	
+%order_number%	
+%order_link%	
+%order_messages_link%	
+%message%
+```
 
 Don't forget to **save changes** when done. 
 
@@ -58,6 +87,14 @@ PDF invoices will be added as an attachment to all order related notifications.
 You can extend the default PDF invoices feature with a paid [PDF Invoice](https://market.x-cart.com/addons/PDF-Invoice.html "eMail Notifications: Set Up and Maintenance") module that is more flexible and powerful.
 {% endnote %}
 
-If you want to send email notificatoins via an email server, different from the one your store is installed at, you can configure it in the **SMTP** tab of the **Store setup** -> **Email notifications** page.
+If you want to send email notifications via an email server, different from the one your store is installed at, you can configure it in the **SMTP** tab of the **Store setup** -> **Email notifications** page.
 
 ![smtp.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/smtp.png)
+
+To enable the feature set the **'Use SMTP server'** option **ON**. Then specify the **SMTP server** that should be used for the email notificatons. If necessary {% link "configure" ref_raLBcOm3 %} the background job processing on your server to send emails asynchronously, that will improve the website performance. Specify your username and password for the SMTP server and set the 'Use authentication' and 'Secure connection' options. When everything is done, **submit** the changes. 
+
+To test email notifications via STMP use the **'Test email configuration'** section in the bottom on the page.
+
+![test.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/test.png)
+
+Also, please refer to the {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %} article, that can be helpful.
