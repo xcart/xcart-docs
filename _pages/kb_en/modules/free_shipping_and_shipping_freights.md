@@ -11,3 +11,7 @@ _In this section:_
 
    * {% link "Free shipping on specific products" ref_IU9J0uuT %}
    * {% link "Shipping freight" ref_kioKBJIM %}
+
+_Related pages:_
+   
+   * {% link "Addons" ref_mCs9Q9Uy %}
