@@ -5,7 +5,7 @@ updated_at: '2018-03-23 14:28 +0400'
 identifier: ref_5QLrLCu7
 title: 'eMail Notifications: Set Up and Maintenance'
 order: 100
-published: false
+published: true
 ---
 When the staff email addresses are {% link "configured" ref_wKcxbiUf %} you can proceed with the email notifications set-up itself. You can find a full list of e-mail notifications available in your store in the **Store setup** -> **Email notifications** section of the admin area. 
 
