@@ -8,7 +8,9 @@ order: 100
 published: true
 ---
 
-A full list of e-mail notifications available in your store is available in the **Store setup** -> **Email notifications** section of the admin area.  
+Your store can detect various types of events and notify users about these events by email. For example, your store sends email notifications when someone creates a user profile at your store, when this profile is modifed, when a new order is created, then every time the order status is changed, and so on. Some notifications are sent to the store staff (like the site administrator, sales department, customer service, etc.), others - to the store’s customers (namely, the users who created an order, the users whose profile is modified and so on). 
+
+A full list of e-mail notifications available in your store you can see in the **Store setup** -> **Email notifications** section of the admin area.  
 
 ![settings.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/settings.png)
 
