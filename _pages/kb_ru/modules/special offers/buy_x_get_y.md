@@ -13,12 +13,9 @@ published: false
 
 После установки модуля вы можете настроить специальные предложения в разделе **Скидки / Акции**.
 
-Once installed the module functionality will become available in the 'Discounts: Special Offers' section of the cart admin area (Figure 1). Along with the module itself you'll see 2 samples 'Sample: Get 1 of every 3 items with 50% discount' and 'Sample: Get every second item for free' that illustrate the basic configuration principles.
+На странице **Скидки / Акции** находится список всех специальных предложений, настроенных в магазине. Здесь вы можете включить или отключить одно или несколько специальных предложений. _Зелёный_ значок означает, что акция _действует_, _серый_ - _отключена_. Измените статус акций и нажмите **Сохранить**.
 
-![Fig 1]({{site.baseurl}}/attachments/buy_listing.png)
-
-
-Let's consider the samples to understand how the **Buy X Get Y offer** works. 
+В разделе **Скидки / Акции** уже созданы два спецпредложения в качестве примера: **Пример: Купи три и получи один за полцены** и **Пример: Выбери два и заплати за один**. Рассмотрим работу модуля на примере Купи два и получи третий за полцены
 
 First comes the **'General Options'** section (Figure 2) where you can define the administrative name, i.e. the name of the offer how the cart admin sees it in the list of offers (https://www.yourstore.com/admin.php?target=special_offers). The offer type 'Buy X Get M of them discounted/free' is preset as it was defined when an offer was created (refer to _**Create**_ on Figure 1).
 
