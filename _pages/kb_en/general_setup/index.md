@@ -32,8 +32,8 @@ Backup, Restore, Relocate
 
 Other
 *   {% link "Сonfiguring the storefront options" ref_wGaTsp7Z %}
+*   {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}
 *   {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
 *   {% link "What to do if your store says «We are deploying new changes» and you cannot access it" ref_3zSHgdQk %}
 *   {% link "Inaccessible Admin area after enabling HTTPS" ref_q171FiKp %}
 *   {% link "How to password protect access to your X-Cart" ref_68xr4sCx %}
-
