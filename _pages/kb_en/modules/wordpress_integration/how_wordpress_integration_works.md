@@ -9,7 +9,9 @@ categories:
 published: true
 order: 100
 ---
-
+{% note warning %} 
+The module **X-Cart 5 to WordPress Integration** support has been discontinued. As an alternative, we recommend the module **[Blog System in X-Cart 5](https://market.x-cart.com/addons/blog-system-in-xcart-5.html "X-Cart 5 to WordPress Integration")**. 
+{% endnote %}
 
 The X-Cart 5 to WordPress Integration module for X-Cart allows you to build ecommerce blocks with the products and categories from your X-Cart based store into your WordPress blog website.
 
@@ -61,5 +63,3 @@ _Related pages:_
 *   {% link "Configuring the X-Cart Intergration plugin in WordPress" ref_wacvoZl5 %}
 *   {% link "Adding products and categories to your WordPress blog" ref_TmUz8Bkv %}
 *   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_wuyfRXZI %}
-
-
