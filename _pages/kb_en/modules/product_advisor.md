@@ -5,9 +5,9 @@ updated_at: '2018-03-26 16:17 +0400'
 identifier: ref_72asis58
 title: Product Advisor
 order: 100
-published: false
+published: true
 ---
-In this section:
+_In this section:_
    
    * {% link "Enabling the &quot;Coming soon&quot; block" ref_hQnN8cAT %}
    * {% link "Enabling the &quot;New arrivals&quot; block" ref_2A50nkO9 %}
