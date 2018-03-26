@@ -9,7 +9,7 @@ published: true
 ---
 Every email notification has a predefined header, greeting and signature (same for all notifications) that can be edited in the **Header, greeting & signature** tab of the **Store setup** -> **Email notifications** page. 
 
-![header.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/header.png)
+![header.png]({{site.baseurl}}/attachments/ref_2W845gkS/header.png)
 
 The greeting format is the same for both admin and customer notifications, while the format of the header and signature can be different. 
 
