@@ -9,7 +9,7 @@ published: true
 ---
 If necessary you can add a PDF version of invoices to the e-mail notifications using the **Attachments** tab of the **Store setup** -> **Email notifications** page. 
 
-![attachments.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/attachments.png)
+![attachments.png]({{site.baseurl}}/attachments/ref_08i5p47o/attachments.png)
 
 PDF invoices will be added as an attachment to all order related notifications.
 
