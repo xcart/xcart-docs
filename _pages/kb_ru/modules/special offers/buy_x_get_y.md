@@ -11,6 +11,8 @@ published: false
 
 Модуль входит в пакет _X-Cart Всё включено_ и требует только {% link "активации" ref_IEo2gFuZ %}. Если магазин работает на базе _X-Cart Базовый_ или _X-Cart Бизнес_, {% link "приобретите модуль в маркетплейсе, установите и активируйте" ref_gpeZtm28 %}. 
 
+После установки модуля вы можете настроить специальные предложения в разделе **Скидки / Акции**.
+
 Once installed the module functionality will become available in the 'Discounts: Special Offers' section of the cart admin area (Figure 1). Along with the module itself you'll see 2 samples 'Sample: Get 1 of every 3 items with 50% discount' and 'Sample: Get every second item for free' that illustrate the basic configuration principles.
 
 ![Fig 1]({{site.baseurl}}/attachments/buy_listing.png)
