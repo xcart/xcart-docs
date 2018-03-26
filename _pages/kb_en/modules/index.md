@@ -28,6 +28,7 @@ _In this section:_
 *   {% link "E-goods" ref_ZszpDfxQ %}
 *   {% link "Facebook eCommerce Module" ref_LA0TBHEA %}
 *   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
+*   {% link "Free Shipping and Shipping freights" ref_4Bfeegp9 %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "Loyalty Program" ref_1Odyn6mT %}
 *   {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
