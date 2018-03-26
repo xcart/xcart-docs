@@ -2,7 +2,7 @@
 lang: ru
 layout: article_with_sidebar
 updated_at: '2018-03-23 15:18 +0200'
-published: false
+published: true
 identifier: ref_29HNUw2w
 title: 'Специальные предложения: Потрать Х Получи Y'
 order: 160
