@@ -91,10 +91,12 @@ If you want to send email notifications via an email server, different from the 
 
 ![smtp.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/smtp.png)
 
-To enable the feature set the **'Use SMTP server'** option **ON**. Then specify the **SMTP server** that should be used for the email notificatons. If necessary {% link "configure" ref_raLBcOm3 %} the background job processing on your server to send emails asynchronously, that will improve the website performance. Specify your username and password for the SMTP server and set the 'Use authentication' and 'Secure connection' options. When everything is done, **submit** the changes. 
+To enable the feature set the **'Use SMTP server'** option **ON**. Then specify the **SMTP server** that should be used for the email notificatons. If necessary {% link "configure" ref_raLBcOm3 %} the background job processing on your server to send emails asynchronously, that will improve the website performance. Specify your username and password for the SMTP server and set the **'Use authentication'** and '**Secure connection'** options. When everything is done, **submit** the changes. 
 
 To test email notifications via STMP use the **'Test email configuration'** section in the bottom on the page.
 
 ![test.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/test.png)
 
 Also, please refer to the {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %} article, that can be helpful.
+
+Besides SMTP you can use [Mandrill](https://market.x-cart.com/addons/mandrill-transactional-emails-integration.html "eMail Notifications: Set Up and Maintenance") as a default mailer for all the transactional emails. 
