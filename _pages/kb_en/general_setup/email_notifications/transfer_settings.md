@@ -19,7 +19,6 @@ Use the **'Which email to use for the FROM field'** drop-down to choose the emai
 | Email from the Contact information section |If you choose this option the default FROM email(s) for your store will be the one(s) that are specified for {% link "Contacts" ref_wKcxbiUf %}|
 | Sender email as identified by the server |If you choose this option the default FROM email will be the one defined by your mail server|
 | Email address specified below | If you shoose this option you can define any FROM email address you like better |
-
 **Submit** the changes after the email is set. 
 
 Once a FROM email is defined you need to test it using the **'Test email configuration'** section in the bottom on the page.
@@ -30,7 +29,7 @@ To learn how to test your email transfer settings please refer to the article - 
 
 If you want to send email notifications via an email server, different from the one your store is installed at, enable the **'Use SMTP server'** option. Once enabled you'll see the fields that you can fill in to configure the option.
 
-![smtp.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/smtp.png)
+![smtp.png]({{site.baseurl}}/attachments/ref_5PirMonD/smtp.png)
 
 You'll need to specify the **SMTP server** that should be used for the email notificatons. If necessary {% link "configure" ref_raLBcOm3 %} the background job processing on your server to send emails asynchronously, that will improve the website performance. Then define your **username** and **password** for the SMTP server and set the **'Use authentication'** and '**Secure connection'** options. When everything is done, **submit** the changes. 
 
