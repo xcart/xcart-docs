@@ -15,28 +15,19 @@ published: false
 
 На странице **Скидки / Акции** находится список всех специальных предложений, настроенных в магазине. Здесь вы можете включить или отключить одно или несколько специальных предложений. _Зелёный_ значок означает, что акция _действует_, _серый_ - _отключена_. Измените статус акций и нажмите **Сохранить**.
 
-В разделе **Скидки / Акции** уже созданы два спецпредложения в качестве примера: **Sample: Get 1 of every 3 items with 50% discount** (**Пример: Купи три и получи один за полцены**) и **Sample: Get every second item for free** (**Пример: Выбери два и заплати за один**). Рассмотрим работу модуля на примере Купи два и получи третий за полцены
+В разделе **Скидки / Акции** уже созданы два спецпредложения в качестве примера: **Sample: Get 1 of every 3 items with 50% discount** (**Пример: Купи три и получи один за полцены**) и **Sample: Get every second item for free** (**Пример: Выбери два и заплати за один**). 
 
-First comes the **'General Options'** section (Figure 2) where you can define the administrative name, i.e. the name of the offer how the cart admin sees it in the list of offers (https://www.yourstore.com/admin.php?target=special_offers). The offer type 'Buy X Get M of them discounted/free' is preset as it was defined when an offer was created (refer to _**Create**_ on Figure 1).
+Чтобы создать специальное предложение, на странице **Скидки / Акции** выберите тип акции **Купи N предметов и получи M из них со скидкой/бесплатно** и нажмите **Создать**.
 
-![Fig 2]({{site.baseurl}}/attachments/buy-general.png)
+Откроется страница настроек спецпредложения.
 
-Also, in the 'General Options' section you can enable or disable the offer. 
+## Общие настройки
+В секции **Общие настройки** указан тип спецпредложения. Тип устанавливается на первом шаге создания спецпредложения. Задайте административное название специального предложения, т.е название, которое будет видеть администратор магазина в списке всех акций.
 
-{% note info %}
-It's also possible to enable/disable an offer directly on the listing page (Figure 3) via a special 'Enable/Disable' button. When the offer is enabled the button is green, when disabled - grey. Make sure you save the changes after enabling/disabling an offer.
+Также, в этой секции спецпредложение можно включить и отключить.
 
-![Fig 3]({{site.baseurl}}/attachments/enable.png)
-
-When enabled the offer becomes available to the customers on the home page in the 'Special Offers' section as well as on the matching category pages and on the Special Offers page.
-
-![homepage.png]({{site.baseurl}}/attachments/homepage.png)
-
-{% endnote %}
-
-After **General Options** comes the **'Dates'** section (Figure 4).
-
-![Fig 4]({{site.baseurl}}/attachments/dates.png)
+## Даты
+В секции **Даты** администратор устанавливает сроки действия специального предложения с точностью до часа. Даты и время указываются соответственно в полях **Дата начала**, **Час начала**, **Дата завершения** и **Час завершения**. Если даты не указаны, спецпредложение будет бессрочным.
 
 In this section the cart admin can define the dates the offer will start and end at. If the dates are not defined the offer will be open-ended. 
 
