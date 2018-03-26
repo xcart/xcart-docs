@@ -17,3 +17,4 @@ icon: puzzle
 *   {% link "Поддержание актуальных данных о количестве товаров" ref_inventory %}
 *   {% link "Запуск распродажи" ref_2V0wZ5qu %}
 *   {% link "Незавершённые покупки (Abandoned cart reminder)" ref_4pmEuIKR %}
+*   {% link "Специальные предложения (Special Offers)" ref_1H0OI3IC %}
