@@ -16,11 +16,11 @@ CloudFlare stops attack in excess of 100 Gbps multiple times a week (some in exc
 We'll be speaking about:
 
 - Definition - What is a DDoS and why do you need to protect against them
--Background on how a web requests works - DNS and HTTP
--What are the different types of DDoS - Volumetric, DNS, Application Level
--Why is it so easy for attackers to launch DDoS attacks?
--How Does CloudFlare Stop DDoS Attacks
--Protecting Your E-commerce Site from Attack
+- Background on how a web requests works - DNS and HTTP
+- What are the different types of DDoS - Volumetric, DNS, Application Level
+- Why is it so easy for attackers to launch DDoS attacks?
+- How Does CloudFlare Stop DDoS Attacks
+- Protecting Your E-commerce Site from Attack
 
 ## Video
 **Published on Apr 9, 2015**
