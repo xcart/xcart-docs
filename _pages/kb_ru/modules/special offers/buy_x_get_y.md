@@ -15,7 +15,7 @@ published: false
 
 На странице **Скидки / Акции** находится список всех специальных предложений, настроенных в магазине. Здесь вы можете включить или отключить одно или несколько специальных предложений. _Зелёный_ значок означает, что акция _действует_, _серый_ - _отключена_. Измените статус акций и нажмите **Сохранить**.
 
-В разделе **Скидки / Акции** уже созданы два спецпредложения в качестве примера: **Пример: Купи три и получи один за полцены** и **Пример: Выбери два и заплати за один**. Рассмотрим работу модуля на примере Купи два и получи третий за полцены
+В разделе **Скидки / Акции** уже созданы два спецпредложения в качестве примера: **Sample: Get 1 of every 3 items with 50% discount** (**Пример: Купи три и получи один за полцены**) и **Sample: Get every second item for free** (**Пример: Выбери два и заплати за один**). Рассмотрим работу модуля на примере Купи два и получи третий за полцены
 
 First comes the **'General Options'** section (Figure 2) where you can define the administrative name, i.e. the name of the offer how the cart admin sees it in the list of offers (https://www.yourstore.com/admin.php?target=special_offers). The offer type 'Buy X Get M of them discounted/free' is preset as it was defined when an offer was created (refer to _**Create**_ on Figure 1).
 
