@@ -11,8 +11,8 @@ In a multivendor X-Cart store with the addon **Multiple profiles for vendors** i
 
 Read on to find out how a vendor can:
 
-   * create a new vendor staff profile;
-   * invite a new vendor staff member to log in.
+   * Create a new vendor staff profile;
+   * Invite a new vendor staff member to log in.
    
 ## Creating new vendor staff profiles
 To create a new vendor staff profile, a vendor needs to use the Vendor staff members tab of their account info (**My account** > **Staff members**):
@@ -45,5 +45,3 @@ The vendor can use the "Re-send" link to send the invitation once again. This ma
 The invitation that is sent to new vendor staff members contains a link they should use to log in to the store and complete their registration. Once a new vendor staff member has used that link and logged in, the invitation status will be updated to "Accepted":
 ![mvp_invitation_accepted.png]({{site.baseurl}}/attachments/ref_6X7UpEq6/mvp_invitation_accepted.png)
 The vendor will be able to see the date and time of the invitation acceptance.
-
-
