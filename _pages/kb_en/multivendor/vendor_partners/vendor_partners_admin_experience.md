@@ -21,5 +21,5 @@ Note that being the primary feature of the addon the role "Vendor staff" may not
 ![mvp_vendor_staff_role_permissions.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_vendor_staff_role_permissions.png)
 
 ## Finding vendor staff users
-Any users with this role in the store's user list are vendor staff members:
+Any users on the store's user list whose access level is specified as "Vendor staff" are vendor staff members:
 ![mvp_staffmembers_in_admin.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_staffmembers_in_admin.png)
