@@ -25,7 +25,7 @@ If necessary, the vendor can add more than one staff members at once: every clic
 
 After adding the staff email address(es) they require and setting the access level(s), the vendor needs to click the **Save changes** button. This will create the new vendor staff profile(s).
 
-Once a user profile for a new vendor staff member has been created, the vendor needs to {% link "send them an invitation" ref_0wN2KuZB %} so they can log in to the vendor area and begin their work.
+Once a user profile for a new vendor staff member has been created, the vendor needs to {% link "send them an invitation" ref_0wN2KuZB %} so they can log in to the vendor area, confirm their staff status and begin their work.
 
 _Related pages:_
    
