@@ -20,6 +20,6 @@ This role corresponds to a set of access permissions that enable a user to acces
 Note that being the primary feature of the addon the role "Vendor staff" may not be removed. If necessary, however, the store administrator can rename it:
 ![mvp_vendor_staff_role_permissions.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_vendor_staff_role_permissions.png)
 
-## Finding vendor staff users
-Any users on the store's user list whose access level is specified as "Vendor staff" are vendor staff members:
+## Identifying vendor staff users
+The store administrator can tell whether a user is a vendor staff member by their access level:
 ![mvp_staffmembers_in_admin.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_staffmembers_in_admin.png)
