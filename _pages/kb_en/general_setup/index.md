@@ -30,10 +30,14 @@ Backup, Restore, Relocate
 *   {% link "Changing the admin panel URL (X-Cart 5.2.7+)" ref_Ta5fHl8u %}
 *   {% link "Restoring your store with the Snapshots feature" ref_h7Oh5T8T %}
 
-Other
-*   {% link "Сonfiguring the storefront options" ref_wGaTsp7Z %}
+Store Configuration and Maintenance
+*   {% link "Configuring your store's General settings" ref_qAZlJxZm %}
+*   {% link "Specifying your company's identity and contact information" ref_HcSs9eFL %}
 *   {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}
+*   {% link "Enabling Catalog mode (no "Add to cart" buttons)" ref_CvAsFxq8 %}
+*   {% link "Сonfiguring the storefront options" ref_wGaTsp7Z %}
 *   {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
 *   {% link "What to do if your store says «We are deploying new changes» and you cannot access it" ref_3zSHgdQk %}
 *   {% link "Inaccessible Admin area after enabling HTTPS" ref_q171FiKp %}
 *   {% link "How to password protect access to your X-Cart" ref_68xr4sCx %}
+*   {% link "Getting compliant with the EU Cookie Law" ref_IOt4rapT %}
