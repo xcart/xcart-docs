@@ -23,5 +23,11 @@ Before saving the new user profile, the vendor also needs to set the desired acc
 If necessary, the vendor can add more than one staff members at once: every click of the **Add staff member** button creates an additional blank line for a new vendor staff member profile:
 ![mvp_staffmembers_add_new2.png]({{site.baseurl}}/attachments/ref_6X7UpEq6/mvp_staffmembers_add_new2.png)
 
-After adding all the staff email addresses they require and setting the access levels, the vendor needs to click the **Save changes** button. This will create the new vendor staff profile(s).
+After adding the staff email address(es) they require and setting the access level(s), the vendor needs to click the **Save changes** button. This will create the new vendor staff profile(s).
 
+Once a user profile for a new vendor staff member has been created, the vendor needs to {% link "send them an invitation" ref_0wN2KuZB %} so they can log in to the vendor area and begin their work.
+
+_Related pages:_
+   
+   * {% link "Multiple profiles for vendors: Vendor experience" ref_6X7UpEq6 %}
+   * {% link "Multiple profiles for vendors: Inviting new vendor staff members to log in" ref_0wN2KuZB %}
