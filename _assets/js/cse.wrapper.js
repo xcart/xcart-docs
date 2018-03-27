@@ -59,6 +59,8 @@
     "orders": { en:"Orders"},
     "taxes": { en:"Taxes"},
     "users": { en:"Users"},
+    "translation_and_localization": { en:"Translation and localization"},
+    "multivendor": { en:"Multivendor"},
     "import-export": { en:"Import-Export"}
   }
 
@@ -175,12 +177,12 @@
       var results = response.items || [];
       var pages = results.reduce(function(memo, item) {
         memo.push({
-          title: _.unescape(item.htmlTitle),
+          title: item.htmlTitle,
           url: item.link,
           parent: self.getCategoryByItem(item),
           index: item.displayLink,
           date: "",
-          highlight: _.unescape(item.htmlSnippet)
+          highlight: item.htmlSnippet
         });
         return memo;
       }, []);
@@ -215,36 +217,38 @@
 
   Search.prototype.renderResult = function (pages) {
     if (pages.length == 0) {
-      this.elements.resultsContainer.append("<p class='search-no-results'>Oops, no results were found</p>");
+      
+    this.elements.resultsContainer.html("<p class='search-no-results'>Oops, no results were found</p>");
     } else {
-      var str = "<section class='ui very relaxed items search-results-list'>";
-      for (var i = 0; i < pages.length; i++) {
-        var page = pages[i];
-        str += this.renderRow(page);
-      }
-      str += "</section>";
-      this.elements.resultsContainer.append(str);
+      var rows = _.map(pages, this.renderRow).join('');
+      var markup = _.template("<section class='ui very relaxed items search-results-list'><%= rows %></section>");
+      this.elements.resultsContainer.html(markup({rows: rows}));
     }
   }
 
   Search.prototype.renderRow = function(page) {
     var date = moment(page.date);
-    var index = page.index === 'kb.x-cart.com' ? 'Knowledge base' : 'Developer docs';
-    var date_string = date.isValid() ? '<div class="extra">' + date.format('D MMMM Y') + '</div>' : '';
-    var meta = page.parent ? '<div class="meta">' + index + ' / ' + page.parent + '</div>' : '';
-    return '<div class="item search-result-item">' +
+    var index = ;
+    var formattedDate = date.isValid() ? date.format('D MMMM Y') : null;
+    var markup = _.template(
+    '<div class="item search-result-item">' +
       '<div class="content">' +
-        '<a class="header" href="' + page.url + '">' + page.title + '</a>' +
-        meta +
-        '<div class="description">' + page.highlight + '</div>' +
-        date_string +
+        '<a class="header" href="<%= page.url %>"><%= page.title %></a>' +
+        '<% if (page.parent) { %><div class="meta"><%= index %>/<%= page.parent %></div><% } %>' +
+        '<div class="description"><%= page.highlight %></div>' +
+        '<% if (formattedDate) { %><div class="extra"><%= formattedDate %></div><% } %>' +
       '</div>' +
-    '</div>';
+    '</div>');
+
+    return markup({
+      page: page,
+      index: page.index === 'kb.x-cart.com' ? 'Knowledge base' : 'Developer docs',
+      date: formattedDate
+    });
   }
 
   Search.prototype.renderError = function () {
-    this.elements.resultsContainer.empty();
-    this.elements.resultsContainer.append("Search system error.");
+    this.elements.resultsContainer.html("<p class='search-no-results'>Search system error</p>");
   }  
 
   Search.prototype.startAnimation = function() {
