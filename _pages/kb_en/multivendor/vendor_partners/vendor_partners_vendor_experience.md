@@ -9,7 +9,7 @@ published: false
 ---
 In a multivendor X-Cart store with the addon **Multiple profiles for vendors** installed and enabled, vendors can invite other people (staff members, business partners, etc.) to help them work on their products and orders in their own vendor area. To enable the access of other people to their vendor area, a vendor needs to create vendor staff profiles for such users and to invite them to join their operating area as vendor staff members.  
 
-See how a vendor can:
+Read on to find out how a vendor can:
 
    * create a new vendor staff profile;
    * invite a new vendor staff member to log in.
