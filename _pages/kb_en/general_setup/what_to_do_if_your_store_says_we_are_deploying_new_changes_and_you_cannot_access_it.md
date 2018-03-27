@@ -9,7 +9,7 @@ categories:
 published: true
 order: 220
 description: >-
-  What to do if your store says "We are deploying new changes" and you cannot
+  What to do if your store says We are deploying new changes and you cannot
   access it
 ---
 
