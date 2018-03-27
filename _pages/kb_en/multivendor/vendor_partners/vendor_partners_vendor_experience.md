@@ -35,7 +35,8 @@ Once an invitation has been sent, the "Send" link changes to "Re-send":
 
 The vendor can use the "Re-send" link to send the invitation once again. This may be helpful if the original invitation is not received, lost or deleted by the recipient.
 
-The invitation that is sent to new vendor staff members contains a link they should use to log in to the store and complete their registration. Once a new vendor staff member has used that link and logged it, the invitation status will be updated to "Accepted":
+The invitation that is sent to new vendor staff members contains a link they should use to log in to the store and complete their registration. Once a new vendor staff member has used that link and logged in, the invitation status will be updated to "Accepted":
 ![mvp_invitation_accepted.png]({{site.baseurl}}/attachments/ref_6X7UpEq6/mvp_invitation_accepted.png)
+The vendor will be able to see the date and time of the invitation acceptance.
 
 
