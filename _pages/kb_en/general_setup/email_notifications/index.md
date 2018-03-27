@@ -12,7 +12,7 @@ Your store can detect various types of events and notify users about these event
 
 A full list of e-mail notifications available in your store you can see in the **Store setup** -> **Email notifications** section of the admin area.  
 
-![settings.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/settings.png)
+![settings.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/settings.png?t=1522141442)
 
 Here you can enable/disable and edit notifications. 
 
