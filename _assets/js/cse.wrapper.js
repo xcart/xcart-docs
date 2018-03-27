@@ -235,7 +235,7 @@
         '<a class="header" href="<%= page.url %>"><%= page.title %></a>' +
         '<% if (page.parent) { %><div class="meta"><%= index %>/<%= page.parent %></div><% } %>' +
         '<div class="description"><%= page.highlight %></div>' +
-        '<% if (formattedDate) { %><div class="extra"><%= formattedDate %></div><% } %>' +
+        '<% if (date) { %><div class="extra"><%= date %></div><% } %>' +
       '</div>' +
     '</div>');
 
