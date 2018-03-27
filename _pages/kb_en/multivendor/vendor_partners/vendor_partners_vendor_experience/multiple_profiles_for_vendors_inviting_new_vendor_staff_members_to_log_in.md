@@ -18,3 +18,9 @@ The vendor can use the "Re-send" link to send the invitation once again. This ma
 The invitation that is sent to new vendor staff members contains a link they should use to log in to the store and complete their registration. Once a new vendor staff member has used that link and logged in, the invitation status will be updated to "Accepted":
 ![mvp_invitation_accepted.png]({{site.baseurl}}/attachments/ref_6X7UpEq6/mvp_invitation_accepted.png)
 The vendor will be able to see the date and time of the invitation acceptance.
+
+_Related pages:_
+   
+   * {% link "Multiple profiles for vendors: Vendor experience" ref_6X7UpEq6 %}
+   * {% link "Multiple profiles for vendors: Creating new vendor staff profiles" ref_61myPZQD %}
+   
