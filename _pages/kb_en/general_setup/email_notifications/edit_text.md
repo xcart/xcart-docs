@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-26 19:02 +0400'
 identifier: ref_1qTqS245
 title: How to edit a text of an email notification?
-order: 100
+order: 110
 published: true
 ---
 To edit a text of a notification click on the notification title. You'll see a page of the kind:
