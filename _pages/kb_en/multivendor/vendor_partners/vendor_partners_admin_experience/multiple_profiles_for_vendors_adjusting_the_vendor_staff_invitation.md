@@ -7,3 +7,5 @@ title: 'Multiple profiles for vendors: Adjusting the vendor staff invitation'
 order: 100
 published: false
 ---
+
+![mvp_vendor_staff_invitation.png]({{site.baseurl}}/attachments/ref_1dzvWFFB/mvp_vendor_staff_invitation.png)
