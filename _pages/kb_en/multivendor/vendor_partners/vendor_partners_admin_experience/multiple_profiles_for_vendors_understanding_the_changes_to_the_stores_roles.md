@@ -14,3 +14,8 @@ This role corresponds to a set of access permissions that enable a user to acces
 
 Note that being the primary feature of the addon the role "Vendor staff" may not be removed. If necessary, however, the store administrator can rename it:
 ![mvp_vendor_staff_role_permissions.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_vendor_staff_role_permissions.png)
+
+_Related pages:_
+   
+   * {% link "Multiple profiles for vendors: Admin experience" ref_7EtCK0bR %}
+
