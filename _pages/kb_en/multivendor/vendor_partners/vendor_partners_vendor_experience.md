@@ -22,7 +22,7 @@ The vendor needs to use that field to enter the email address of the person who 
 
 Before saving the new user profile, the vendor also needs to set the desired access level for it by adjusting the Full access switch.
 
-If necessary, more than one staff members can be added at once: every click of the **Add staff member** button will provide an additional blank line for a new vendor staff member profile:
+If necessary, more than one staff members can be added at once: every click of the **Add staff member** button creates an additional blank line for a new vendor staff member profile:
 ![mvp_staffmembers_add_new2.png]({{site.baseurl}}/attachments/ref_6X7UpEq6/mvp_staffmembers_add_new2.png)
 
-After adding the email addresses of their vendor staff profiles they require and , the vendor 
+After adding all the staff email addresses they requie and setting the access levels, the vendor needs to click the **Save changes** button. 
