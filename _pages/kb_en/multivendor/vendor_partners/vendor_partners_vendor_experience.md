@@ -9,6 +9,12 @@ published: false
 ---
 In a multivendor X-Cart store with the addon **Multiple profiles for vendors** installed and enabled, vendors can invite other people (staff members, business partners, etc.) to help them work on their products and orders in their own vendor area. To enable the access of other people to their vendor area, a vendor needs to create vendor staff profiles for such users and to invite them to join their operating area as vendor staff members.  
 
+See how a vendor can:
+
+   * create a new vendor staff profile;
+   * invite a new vendor staff member to log in.
+   
+## Creating new vendor staff profiles
 To create a new vendor staff profile, a vendor needs to use the Vendor staff members tab of their account info (**My account** > **Staff members**):
 ![mvp_myaccount_staffmembers.png]({{site.baseurl}}/attachments/ref_6X7UpEq6/mvp_myaccount_staffmembers.png)
 
@@ -27,6 +33,7 @@ If necessary, more than one staff members can be added at once: every click of t
 
 After adding all the staff email addresses they require and setting the access levels, the vendor needs to click the **Save changes** button. This will create the new vendor staff profile(s).
 
+## Inviting new vendor staff members to log in
 Once a new vendor staff profile has been created, the vendor needs to send an invitation to the staff member so they can log in to their profile and begin their work. To send an invitation, the vendor uses the "Send" link provided on the line of the respective vendor staff profile:
 ![mvp_invitation_send_link.png]({{site.baseurl}}/attachments/ref_6X7UpEq6/mvp_invitation_send_link.png)
 
