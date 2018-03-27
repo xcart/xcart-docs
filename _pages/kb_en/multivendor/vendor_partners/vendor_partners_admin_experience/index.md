@@ -10,7 +10,7 @@ published: false
 In a multivendor X-Cart store, the store administrator performs the following functions in connection with the activation and use of the addon **Multiple profiles for vendors**:
    
    * Activates the addon "Multiple profiles for vendors".
-        See {% link "Activating the addon Multiple profiles for vendors" ref_5gAf2h1i %}
+        See {% link "Activating the Multiple profiles for vendors addon" ref_5gAf2h1i %}
         
    * Gets access to the new user role "Vendor staff" and can rename it, if necessary. 
         See {% link "Multiple profiles for vendors: Understanding the changes to the store's roles" ref_2ds6Cj75 %}
