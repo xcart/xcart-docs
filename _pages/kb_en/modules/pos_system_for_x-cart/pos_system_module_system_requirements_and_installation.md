@@ -15,14 +15,13 @@ order: 120
 
 Beginning with version 5.2.6, the module allows you to connect to printers using the following connection methods:
 
-*   [QZ Print](https://code.google.com/archive/p/jzebra/) Java applet (According to information on the qz Customer Portal, support for the Legacy Applet Version (QZ Print) will be discontinued on January 1st, 2017);
 *   [QZ Tray 2.x](https://qz.io/download/);
 *   [PrintNode](https://app.printnode.com/account/download).
 
 The requirements depend on the connection method you require:
 
-*   For printing with the QZ Print Java applet, the module requires Java 5 or higher to be installed on your machine. For help installing Java on your platform, see the Java tutorial ([https://code.google.com/p/jzebra/wiki/TutorialJavaInstall](https://code.google.com/p/jzebra/wiki/TutorialJavaInstall)). Also, see [https://java.com/en/download/help/enable_browser.xml](https://java.com/en/download/help/enable_browser.xml) for help on enabling Java in your web browser. For more info on QZ Print, see {% link "Getting started with QZ Print Java applet" ref_1e1MaOuk %}.
-*   For printing with QZ Tray 2.x, it is recommended to purchase QZ premium support at [http://buy.qz.io/](http://buy.qz.io/).  For more info, see {% link "Getting started with QZ Tray 2.x" ref_lh4nFlzm %}.
+*  For printing with QZ Tray 2.x, it is recommended to purchase QZ premium support at [http://buy.qz.io/](http://buy.qz.io/).  Most printers are supported, but it's going to depend on the printing technique. The product performs best with a series of raw printers that receive a proprietary markdown language such as ESCPOS, EPL, ZPL, DPL, FGL, etc. QZ Tray also supports standard desktop printing (e.g. inkjet, laserjet, 2d printing drivers).
+For more info, see {% link "Getting started with QZ Tray 2.x" ref_lh4nFlzm %}.
 *   For printing with PrintNode, you need to register an account with PrintNode at [https://app.printnode.com/account/register](https://app.printnode.com/account/register). For more info, see {% link "Getting started with PrintNode" ref_L2vV8Twt %}.
 
 ## Hardware requirements
@@ -39,11 +38,11 @@ We guarantee that X-Cart's POS system module is compatible with the following ha
 
 *   [Citizen CT-S310II-U-BK Receipt Printer](http://www.barcodesinc.com/citizen/part-ct-s310ii-u-bk.htm)
 
-*   [Zebra 282P-201110-000 Barcode Printer](http://www.barcodesinc.com/zebra/part-282p-201110-000.htm)
+*   [Zebra	ZD41022-D01M00EZ Barcode Printer](https://www.barcodesinc.com/zebra/part-zd41022-d01m00ez.htm)
 
-*   [Zebra 10010038 Barcode Label](http://www.barcodesinc.com/zebra/part-10010038.htm)
+*   [Zebra 10010038 Barcode Label](https://www.barcodesinc.com/zebra/part-10010038.htm)
 
-*   [BCIRPT3.125-STD Receipt Paper](http://www.barcodesinc.com/bci/part-rpt3.125-std.htm)
+*   [BCI RPT3.125-STD-ECO Receipt Paper](https://www.barcodesinc.com/bci/part-rpt3.125-std-eco.htm)
 
 It's possible that other models can be used, but the ones listed above were tested and proved to be fully compatible. 
 
@@ -58,4 +57,3 @@ The general module installation instructions are available here: {% link "Insta
 _Related pages:_
 
 *   {% link "Getting started with POS system for X-Cart" ref_uuhJRDAr %}
-
