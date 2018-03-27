@@ -33,5 +33,7 @@ Once a new vendor staff profile has been created, the vendor needs to send an in
 Once an invitation has been sent, the "Send" link changes to "Re-send": 
 ![mvp_invitation_sent.png]({{site.baseurl}}/attachments/ref_6X7UpEq6/mvp_invitation_sent.png)
 
-The vendor can use the "Re-send" link to send the invitation once again. This may be helpful if the original invitation is lost or deleted by the recipient.
+The vendor can use the "Re-send" link to send the invitation once again. This may be helpful if the original invitation is not received, lost or deleted by the recipient.
+
+
 
