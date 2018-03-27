@@ -7,10 +7,10 @@ title: 'Multiple profiles for vendors: Creating new vendor staff profiles'
 order: 100
 published: false
 ---
-To create a new vendor staff profile, a vendor needs to use the Vendor staff members tab of their account info (**My account** > **Staff members**):
+To create a new vendor staff profile, a vendor needs to be logged in to their personal Vendor area. The creation of a new vendor staff account can be initiated from the Vendor staff members section (**My account** > **Staff members**):
 ![mvp_myaccount_staffmembers.png]({{site.baseurl}}/attachments/ref_6X7UpEq6/mvp_myaccount_staffmembers.png)
 
-On that tab, they need to click the **Add staff member** button:
+In that section, the vendor needs to click the **Add staff member** button:
 ![mvp_staffmembers_add_new.png]({{site.baseurl}}/attachments/ref_6X7UpEq6/mvp_staffmembers_add_new.png)
 
 A new blank Email field will be provided on the screen:
