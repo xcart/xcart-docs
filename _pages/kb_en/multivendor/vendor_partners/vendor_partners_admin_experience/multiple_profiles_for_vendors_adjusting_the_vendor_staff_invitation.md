@@ -9,3 +9,9 @@ published: false
 ---
 
 ![mvp_vendor_staff_invitation.png]({{site.baseurl}}/attachments/ref_1dzvWFFB/mvp_vendor_staff_invitation.png)
+
+
+
+_Related pages:_
+   
+   * {% link "Multiple profiles for vendors: Admin experience" ref_7EtCK0bR %}
