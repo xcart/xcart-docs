@@ -11,7 +11,7 @@ published: false
 The administrator of a multivendor X-Cart store can activate the addon **Multiple profiles for vendors** via the **My addons** section of the X-Cart store Admin area. 
 ![mvp_module.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_module.png)
 
-## Understanding the changes to your store's roles
+## Understanding the changes to the store's roles
 After the activation of the addon **Multiple profiles for vendors**, the administrator will find a new role added to the list of user roles in the Roles section of the store's Admin area (**Users** > **Roles**) - the role "Vendor staff":
 ![mvp_vendor_staff_role.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_vendor_staff_role.png)
 
