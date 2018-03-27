@@ -24,7 +24,7 @@ Design
 *   {% link "Changing the text of the maintenance page" ref_GX9sbLzF %}
 *   {% link "Theme Tweaker and Webmaster Mode" ref_2L6W3YMS %}
 
-Pages and elements
+Pages and elements 
 *   {% link "Adding pages to your store" ref_Ptf5vaPn %}
 *   {% link "Changing the Terms and conditions page" ref_r5b4EKhF %}
 *   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
