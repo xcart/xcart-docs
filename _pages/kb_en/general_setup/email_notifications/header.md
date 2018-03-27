@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-26 19:04 +0400'
 identifier: ref_2W845gkS
 title: 'How to edit header, greeting & signature?'
-order: 100
+order: 120
 published: true
 ---
 Every email notification has a predefined header, greeting and signature (same for all notifications) that can be edited in the **Header, greeting & signature** tab of the **Store setup** -> **Email notifications** page. 
