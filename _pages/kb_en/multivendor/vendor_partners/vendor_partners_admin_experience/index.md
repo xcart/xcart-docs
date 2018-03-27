@@ -13,11 +13,13 @@ The store administrator can activate the addon **Multiple profiles for vendors**
 After the activation of the addon, the administrator will find a new role added to the list of user roles in the Roles section (**Users** > **Roles**) - the role "Vendor staff":
 ![mvp_vendor_staff_role.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_vendor_staff_role.png)
 
-This role is in fact an Administrator with access to a very limited range of resources in the X-Cart store back end. This role has to be assigned to users to make them staff members with an appropriate set of access permissions (The exact scope of access permissions that a staff member gets is defined by the vendor who invites them to join in the use of their account: it may be either a full or a limited access level). 
+This role corresponds to a set of access permissions that enable a user to access the working area of a specific vendor and perform operations in that area on behalf of the vendor. The exact scope of access permissions that a user with this role gets (full or limited) is defined by the vendor. 
+
+Any users with this role in the store's user list are vendor staff members:
+![mvp_staffmembers_in_admin.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_staffmembers_in_admin.png)
 
 Note that being the primary feature of the addon the role "Vendor staff" may not be removed. If necessary, however, the store administrator can rename it:
 ![mvp_vendor_staff_role_permissions.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_vendor_staff_role_permissions.png)
 
 
-![mvp_staffmembers_in_admin.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_staffmembers_in_admin.png)
 
