@@ -9,3 +9,8 @@ published: false
 ---
 The store administrator can tell whether a user is a vendor staff member by their access level:
 ![mvp_staffmembers_in_admin.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_staffmembers_in_admin.png)
+
+
+_Related pages:_
+   
+   * {% link "Multiple profiles for vendors: Admin experience" ref_7EtCK0bR %}
