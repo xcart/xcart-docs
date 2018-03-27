@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-27 19:46 +0400'
 identifier: ref_1dzvWFFB
 title: 'Multiple profiles for vendors: Adjusting the vendor staff invitation'
-order: 100
+order: 400
 published: false
 ---
 The store administrator can adjust the email message by which new vendor staff members are informed about the creation of their profile and invited to log in for the first time. This email message can be found in the Email notifications section of the store's Admin area (**Store setup** > **Email notifications**); it is called "Vendor staff invitation": 
