@@ -25,7 +25,7 @@ and on the customer registration page:
 
 ![]({{site.baseurl}}/attachments/7504573/7602325.png)
 
-When a user clicks on any of the above for the first time, he will need to grant an application a permission to access his basic Facebook or Google account info and email address. Once this has been done, the user will be able to sign in with a single click.
+When a user clicks on any of the above for the first time, he will need to grant your store a permission to access his basic Facebook or Google account info and email address. Once this has been done, the user will be able to sign in with a single click.
 
 If both Google and Facebook accounts are assigned to one and the same email your store will create one customer account for both of them also assigned to this very email address. Regardless of whether a buyer uses his Google or Facebook account to sigh in next time he'll get the X-Cart store account data for that very email.
 
