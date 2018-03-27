@@ -228,7 +228,6 @@
 
   Search.prototype.renderRow = function(page) {
     var date = moment(page.date);
-    var index = ;
     var formattedDate = date.isValid() ? date.format('D MMMM Y') : null;
     var markup = _.template(
     '<div class="item search-result-item">' +
