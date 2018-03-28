@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-26 19:07 +0400'
 identifier: ref_5PirMonD
-title: How to configure the email transfer settings?
+title: Configuring email transfer settings
 order: 140
 published: true
 ---
