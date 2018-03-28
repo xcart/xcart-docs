@@ -19,4 +19,4 @@ In a multivendor X-Cart store, the store administrator performs the following fu
         See {% link "Multiple profiles for vendors: Identifying vendor staff users" ref_386bKin8 %}
         
    * Can adjust the email message that is used to invite new vendor staff members to log in to their accounts.
-        See {% link "Multiple profiles for vendors: Adjusting the vendor staff invitation" ref_1dzvWFFB %}
+        See {% link "Multiple profiles for vendors: Adjusting the vendor staff invitation message" ref_1dzvWFFB %}
