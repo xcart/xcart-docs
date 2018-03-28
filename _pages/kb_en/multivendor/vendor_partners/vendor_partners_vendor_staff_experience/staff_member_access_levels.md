@@ -17,7 +17,7 @@ Here is the user interface view of a vendor staff member with full access:
 
 ![mvp_julia_view2.png]({{site.baseurl}}/attachments/ref_2RWVrO1D/mvp_julia_view2.png)
 
-And here is the view of a vendor staff member with limited access:
+And here is the user interface view of a vendor staff member with limited access:
 
 ![mvp_max_view1.png]({{site.baseurl}}/attachments/ref_2RWVrO1D/mvp_max_view1.png)
 
