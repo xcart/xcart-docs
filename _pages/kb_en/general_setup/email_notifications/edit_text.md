@@ -7,7 +7,7 @@ title: How to edit a text of an email notification?
 order: 110
 published: true
 ---
-To edit a text of a notification click on the notification title. You'll see a page of the kind:
+To edit the text of a notification, click on the notification title. You'll see a page of the kind:
 
 ![edit.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/edit.png)
 
