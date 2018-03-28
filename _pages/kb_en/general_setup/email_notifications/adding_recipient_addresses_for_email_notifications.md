@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-15 12:12 +0400'
 identifier: ref_wKcxbiUf
-title: How to add recipient addresses for email notifications?
+title: Adding recipient addresses for email notifications
 categories:
   - User manual
 published: true
