@@ -25,9 +25,9 @@ Email notifications that are added by modules installed to the store have the mo
 ![module.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/module.png)
 
 
-*  {% link "How to add recipient addresses for email notifications?" ref_wKcxbiUf %}
-*  {% link "How to edit a text of an email notification?" ref_1qTqS245 %}
-*  {% link "How to edit header, greeting &amp; signature?" ref_2W845gkS %}
-*  {% link "How to add PDF invoices to email notifications?" ref_08i5p47o %}
-*  {% link "How to configure the email transfer settings?" ref_5PirMonD %}
+*  {% link "Adding recipient addresses for email notifications" ref_wKcxbiUf %}
+*  {% link "Editing a text of an email notification" ref_1qTqS245 %}
+*  {% link "Editing header, greeting &amp; signature" ref_2W845gkS %}
+*  {% link "Adding PDF invoices to email notifications" ref_08i5p47o %}
+*  {% link "Configuring email transfer settings" ref_5PirMonD %}
 *  {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %}
