@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-02-08 14:32 +0400'
 identifier: ref_7zAsoYst
 title: How to add video to a product or category description
-order: 100
+order: 165
 published: true
 description: How to add video to a product or category description
 ---
