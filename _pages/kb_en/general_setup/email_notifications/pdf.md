@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-26 19:18 +0400'
 identifier: ref_08i5p47o
-title: How to add PDF invoices to email notifications?
+title: Adding PDF invoices to email notifications
 order: 130
 published: true
 ---
