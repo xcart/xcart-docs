@@ -28,6 +28,7 @@ _In this section:_
 *   {% link "Adding digital goods" ref_lxNH6TFr %}
 *   {% link "Product variants" ref_0uApuQfx %}
 *   {% link "Product Tags" ref_6nFoxYf1 %}
+*   {% link "Products Bulk Edit" ref_1kSYmXQn %}
 *   {% link "Setting up wholesale prices and minimum purchase quantites for different membership levels" ref_ttZa4qgu %}
 
 
