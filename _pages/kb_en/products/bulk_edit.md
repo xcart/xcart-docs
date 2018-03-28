@@ -3,8 +3,8 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-28 13:20 +0400'
 identifier: ref_1kSYmXQn
-title: Products Bulk Editing
-order: 100
+title: Products Bulk Edit
+order: 185
 published: false
 ---
 It's not a secret that making similar changes in multiple products is a monotonous and time-consuming process. And it adds value to the general workflow when an admin can change multiple products at the same time. In X-Cart you can do this using the **'Bulk edit all'** tool on the product listing page in the store admin area (**Catalog** -> **Products**).
