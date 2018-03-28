@@ -14,3 +14,8 @@ published: false
 ![mvp_max_view1.png]({{site.baseurl}}/attachments/ref_2RWVrO1D/mvp_max_view1.png)
 
 ![mvp_max_view2.png]({{site.baseurl}}/attachments/ref_2RWVrO1D/mvp_max_view2.png)
+
+
+_Related pages:_
+   
+   * {% link "Multiple profiles for vendors: Vendor staff experience" ref_6cuZfAKJ %}
