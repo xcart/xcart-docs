@@ -18,7 +18,7 @@ A new blank Email field will be provided on the screen:
 
 The vendor needs to use that field to enter the email address of the person who needs to be given vendor staff access. This needs to be a valid email address as it will be used to send an invitation to the user with a link for access to the vendor area; the user will have to use that link to complete the setup of their profile as a staff member.
 
-Before saving the new user profile, the vendor also needs to set the desired access level for the user by adjusting the Full access switch for their profile. Vendor staff users with Full access will have exactly the same access permissions as the vendor themselves; they will be able to see and edit any data in the vendor account including vendor details, staff and financial info. Vendor staff without Full access will be able to access the products, shipping settings, orders and commissons of the vendor, but they will not have access to vendor details, staff and financial info.
+Before saving the new user profile, the vendor also needs to set the desired access level for the user by adjusting the Full access switch for their profile. For more info on vendor staff access levels, see the section {% link "Multiple profiles for vendors: Staff member access levels" ref_2RWVrO1D %} of this manual.
 
 If necessary, the vendor can add more than one staff members at once: every click of the **Add staff member** button creates an additional blank line for a new vendor staff member profile:
 ![mvp_staffmembers_add_new2.png]({{site.baseurl}}/attachments/ref_6X7UpEq6/mvp_staffmembers_add_new2.png)
