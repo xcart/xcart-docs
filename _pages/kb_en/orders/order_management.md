@@ -7,4 +7,7 @@ title: Managing Orders in X-Cart
 order: 100
 published: false
 ---
-All orders in X-Cart are recorderd in the Orders -> Order List section.
+All orders in X-Cart are recorded in the **Orders** -> **Order List** section where a cart admin can
+
+![listing.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/listing.png)
+
