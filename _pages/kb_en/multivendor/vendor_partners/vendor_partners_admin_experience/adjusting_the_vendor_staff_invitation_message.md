@@ -18,3 +18,4 @@ Note that the vendor staff invitation notification may not be disabled as long a
 _Related pages:_
    
    * {% link "Multiple profiles for vendors: Admin experience" ref_7EtCK0bR %}
+   * {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}
