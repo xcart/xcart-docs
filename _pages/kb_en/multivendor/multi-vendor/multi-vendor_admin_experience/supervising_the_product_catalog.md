@@ -8,7 +8,7 @@ order: 300
 published: false
 ---
 
-## Determining ownership of a product
+## Determining the ownership of a product
 
 When viewing the store's product list in the Admin area, the administrator can find out which product is owned by which vendor based on the information in the "Vendor" column. For each product created by a vendor, this column shows the email address of the vendor user who is the owner of the product.
 ![xc5_mv_product_owners.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_product_owners.png)
