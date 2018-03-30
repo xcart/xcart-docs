@@ -7,3 +7,8 @@ title: Managing Multi-vendor email notifications
 order: 250
 published: false
 ---
+
+_Related pages:_
+   
+   * {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
+   * {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}
