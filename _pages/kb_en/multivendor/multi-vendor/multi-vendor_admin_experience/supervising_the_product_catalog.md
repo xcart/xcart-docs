@@ -5,7 +5,7 @@ updated_at: '2018-03-15 18:17 +0400'
 identifier: ref_0dPCIV3f
 title: Supervising the product catalog
 order: 300
-published: false
+published: true
 ---
 ## Creating catalog categories
 By default, vendor users in a multivendor X-Cart store do not have the permissions to create or manage the store's product categories. It means that the categories to which the vendors will add their products must be created by store administrator. The vendors will add their products to the existing categories; if the need arises for a new category, the vendors will have to contact the store administrator to request the change. The store administrator can create and manage categories via the Manage categories section of the store's Admin area (**Catalog** > **Categories**). 
