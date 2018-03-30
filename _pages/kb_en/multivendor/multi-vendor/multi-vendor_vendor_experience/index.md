@@ -11,8 +11,6 @@ order: 200
 redirect_from:
   - /modules/multi-vendor/multi-vendor_vendor_experience/index.html
 ---
-
-
 _In this section:_
 
 *   {% link "Vendor registration" ref_SkW62BgH %}
