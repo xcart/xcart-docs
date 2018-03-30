@@ -37,12 +37,12 @@ Finding the owner of a product is easy:
 ![xc5_mv_product_owner.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_product_owner.png)
     
     
-## Finding the products of a certain vendor
-Sort
+## Sorting the products by vendor
+The store administrator supervising the product catalog can sort the products in the product list (**Catalog** > **Products**) by vendor. To do so, they need to click on the Vendor header of the product list table:
 ![xc5_mv_sort_by_vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_sort_by_vendor.png)
-![xc5_mv_product_owners1.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_product_owners1.png)
 
-Search
+## Finding the products of a certain vendor
+The store administrator supervising the product catalog can easily find the products of a specific vendor. To do so, they need to do a product search in the store's Admin area specifying the vendor in the search form. Once the initial characters of the vendor's company name or email address are entered into the Vendor field, a drop-down selector with matching vendors will be provided:
 ![xc5_mv_search_by_vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_search_by_vendor.png)
 
 
