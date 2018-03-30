@@ -27,16 +27,8 @@ This article lists the multi-vendor related features and functions of the store 
 
 4.  The store administrator can view and manage any products in the store, including the products created by vendor users.
     
-5.  The store administrator creates and manages the categories in which vendor users place their products (**Catalog** > **Categories**). (Unless given the permission to manage the entire store's product catalog, vendor users do not have access to category management). 
-
-6.  The store administrator has capabilities for the management of product classes and attributes. 
-    They can:
-
-    *   create product classes for vendors to use or let vendors create their own product classes;
-    *   edit and delete product classes created by vendors;
-    *   create attributes and attribute values for vendors to use (including attributes at the level of specific products, product classes and the global level);
-    *   edit and delete attributes and attribute values created by vendors;
-    *   determine whether vendors should be able to add their own values for global attributes and attributes created by admin or other vendors at the level of product classes, or whether they should just be able to use the existing values (See the setting "Vendor access to global attributes" on the {% link "«Multi-vendor» addon settings page" ref_MRQEvicQ %}). When displayed to the administrator, product classes and attributes created by vendors are marked with the name and email of the vendor who owns them ("Vendor: Vendor name [(vendor_email@example.com)](http://localhost/x-cart-5.2.8-en/admin.php?target=profile&profile_id=11)"), so the administrator can easily tell which product class or attribute is owned by whom.  
+5.  The store administrator exercises the function of supervising the product catalog.
+      See the article {% link "Supervising the product catalog" ref_0dPCIV3f %} for more information.
 
 7.  The store administrator can view, edit and delete coupons and volume discounts created by vendors (However, the administrator cannot tell, which discount or coupon is owned by which vendor). The administrator can create coupons and discounts, but the coupons and discounts created by them are not visible to vendors and can be applied only to the products owned by the administrator.
 
