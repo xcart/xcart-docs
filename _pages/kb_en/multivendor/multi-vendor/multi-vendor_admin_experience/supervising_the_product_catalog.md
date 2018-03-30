@@ -7,7 +7,7 @@ title: Supervising the product catalog
 order: 300
 published: true
 ---
-The store administrator exercises the function of supervising the product catalog through which the vendors market their products. In connection with this function, the administrator can:
+In a multivendor X-Cart store, the store administrator exercises the function of supervising the product catalog through which the vendors market their products. In connection with this function, the administrator can:
 
    * [Create catalog categories](#creating-catalog-categories);
    * [Control the use of product classes and attributes by vendors](#working-on-product-classes-and-attributes);
