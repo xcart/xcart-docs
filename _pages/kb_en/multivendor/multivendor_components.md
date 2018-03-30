@@ -33,5 +33,6 @@ For general module installation instructions, see {% link "Installing modules f
 
 
 _Related pages:_
-
-*   {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}
+   
+   * {% link "Multivendor" ref_4ahg5FLK %}
+   * {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}
