@@ -7,6 +7,10 @@ title: Managing Multi-vendor email notifications
 order: 250
 published: false
 ---
+The addon **Multi-vendor** enables its own set of email notifications in X-Cart. The store administrator should check and adjust these notifications in the Email notifications section. 
+
+For more info on X-Cart store notifications, see {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}.
+
 
 _Related pages:_
    
