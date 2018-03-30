@@ -21,6 +21,6 @@ X-Cart's **Multivendor** edition is an Online Marketplace solution that enables 
 _In this section:_
 
 *   {% link "Multivendor components" ref_MRQEvicQ %}
-    *   {% link "Multi-vendor" ref_cvwmAuRi %}
+    *   {% link "Multi-vendor" ref_cvwmAuRi %} (Core component)
     *   Trusted/Non-trusted vendors (Article under construction)
     *   Order messages (Article under construction)
