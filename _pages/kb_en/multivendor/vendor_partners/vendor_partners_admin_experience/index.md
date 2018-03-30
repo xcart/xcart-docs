@@ -13,7 +13,7 @@ The addon enables a new user role - "Vendor staff" - which can be given to the s
 
 The vendors themselves decide on whom they want to invite to the store as vendor staff members. The store administrator does not have to worry about sending the invitations or approving the new staff users: these tasks are performed by the vendors. The administrator, however, can rename the role "Vendor staff" (the same way as any other role in the store) and can manage the profiles of vendor staff users like any other user profile in the store.
 
-The invitation email message used to invite new vendor staff members to the store is a regular X-Cart notification. After activating the addon, the store administrator should check and adjust this message as necessary via the Email notifications section.
+The invitation email message used to invite new vendor staff members to the store is a regular X-Cart notification. After activating the addon, the store administrator should check and adjust this message via the Email notifications section.
 
 Read on to find out how a store administrator can:
 
