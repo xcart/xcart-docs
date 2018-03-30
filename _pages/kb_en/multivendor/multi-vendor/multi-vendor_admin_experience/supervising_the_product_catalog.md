@@ -9,11 +9,11 @@ published: true
 ---
 The store administrator exercises the function of supervising the product catalog through which the vendors market their products. In connection with this function, the administrator can:
 
-   * Create catalog categories;
-   * Add/edit/delete product classes and attributes;
-   * Determine the owner of any product in the catalog;
-   * Sort the products by vendor in Product list view;
-   * Find the products of a specific vendor.
+   * [Create catalog categories](#creating-catalog-categories);
+   * [Control the use of product classes and attributes by vendors](#working-on-product-classes-and-attributes);
+   * [Determine the owner of any product in the catalog](determining-the-owner-a-product);
+   * [Sort the products by vendor in Product list view](sorting-the-products-by-vendor);
+   * [Find the products of a specific vendor](finding-the-products-of-a-certain-vendor).
 
 ## Creating catalog categories
 By default, vendor users in a multivendor X-Cart store do not have the permissions to create or manage the store's product categories. It means that the categories to which the vendors will add their products must be created by store administrator. The vendors will add their products to the existing categories; if the need arises for a new category, the vendors will have to contact the store administrator to request the change. The store administrator can create and manage categories via the Manage categories section of the store's Admin area (**Catalog** > **Categories**). 
@@ -51,5 +51,3 @@ The store administrator supervising the product catalog can sort the products in
 ## Finding the products of a certain vendor
 The store administrator supervising the product catalog can easily find the products of a specific vendor. To do so, they need to do a product search in the store's Admin area specifying the vendor in the search form. Once the initial characters of the vendor's company name or email address are entered into the Vendor field, a drop-down selector with matching vendors will be provided:
 ![xc5_mv_search_by_vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_search_by_vendor.png)
-
-
