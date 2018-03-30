@@ -7,6 +7,14 @@ title: Supervising the product catalog
 order: 300
 published: true
 ---
+The store administrator exercises the function of supervising the product catalog through which the vendors market their products. In connection with this function, the administrator can:
+
+   * Create catalog categories;
+   * Add/edit/delete product classes and attributes;
+   * Determine the owner of any product in the catalog;
+   * Sort the products by vendor in Product list view;
+   * Find the products of a specific vendor.
+
 ## Creating catalog categories
 By default, vendor users in a multivendor X-Cart store do not have the permissions to create or manage the store's product categories. It means that the categories to which the vendors will add their products must be created by store administrator. The vendors will add their products to the existing categories; if the need arises for a new category, the vendors will have to contact the store administrator to request the change. The store administrator can create and manage categories via the Manage categories section of the store's Admin area (**Catalog** > **Categories**). 
 Note that if necessary the store's primary administrator may choose to delegate the function of supervising the product catalog categories to any other administrator user (including vendor); to do so, they just need to give them an additional role for category management with the permission to manage the product catalog:
