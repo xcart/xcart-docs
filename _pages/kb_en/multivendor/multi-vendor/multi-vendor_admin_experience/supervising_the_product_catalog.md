@@ -13,14 +13,14 @@ Note that if necessary the store's primary administrator may choose to delegate 
 ![xc5_mv_category_management.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_category_management.png)
 
 
-## Product classes and attributes
-The store administrator has capabilities for the management of product classes and attributes. 
-    They can:
+## Working with product classes and attributes
+The store administrator supervises the use of {% link "product classes and attributes" ref_T90ZcEpP %}. 
 
-    *   create product classes for vendors to use or let vendors create their own product classes;
-    *   edit and delete product classes created by vendors;
-    *   create attributes and attribute values for vendors to use (including attributes at the level of specific products, product classes and the global level);
+    * Product classes and attributes are a complex topic in X-Cart that requires time to understand. So the store administrator may need to help new vendors with the initial setup of product classes, attributes and attribute values. The store administrator can themselves create any product classes, attributes and attribute values that the vendors may require (including any attributes at the global level, the level of product classes and the level of specific products).
+    
+    *   vendors create their own product classes edit and delete product classes created by vendors;
     *   edit and delete attributes and attribute values created by vendors;
+    
     *   determine whether vendors should be able to add their own values for global attributes and attributes created by admin or other vendors at the level of product classes, or whether they should just be able to use the existing values (See the setting "Vendor access to global attributes" on the {% link "«Multi-vendor» addon settings page" ref_MRQEvicQ %}). When displayed to the administrator, product classes and attributes created by vendors are marked with the name and email of the vendor who owns them ("Vendor: Vendor name [(vendor_email@example.com)](http://localhost/x-cart-5.2.8-en/admin.php?target=profile&profile_id=11)"), so the administrator can easily tell which product class or attribute is owned by whom.  
     
 ## Determining the ownership of a product
