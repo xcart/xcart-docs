@@ -42,19 +42,22 @@ For advanced order management open the order details page by clicking on the ord
   <div class="column" markdown="span">![general-2.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/general-2.png)</div>
 </div>
 
-Advanced order management allows the store admin to change the following order details:
-* **Customer e-mail address** : Email will be changed for this order only
+Advanced order management allows a store admin to change the following order details:
+* **Customer e-mail address** : Info will be changed for this order only
 * **Staff note** : Notes can be added in the field for comments
-* **Payment method** : 
-* **Shipping method** : 
-* **Billing address** : 
-* **Shipping address** : 
-* **Fulfillment status** :
-* **Payment status** :
-* **Tracking number** : To add a tracking number click on the 'Add tracking number' button. An order can have up to 
+* **Payment method** : For [offline payment methods](https://kb.x-cart.com/payments/accepting_payments.html#offline-payment-methods "Managing Orders in X-Cart") only
+* **Shipping method** : For any shipping method
+* **Billing address** : Info will be changed for this order only
+* **Shipping address** : Info will be changed for this order only
+* **Fulfillment status** : 
+* **Payment status** : 
+* **Tracking number** : To add a tracking number click on the 'Add tracking number' button. A tracking number can have up to 32 symbols.
 * **Order items** : An admin can change the price and quantity of the ordered products and add new products to the order
 * **Discount** : An admin can add a discount coupon by clicking the Add coupon link or a cash discount
 * **Shipping cost** :
 * **Gift wrapping** : If the Gift wrapping option is turned ON admin will be able to specify the gift wrapping cost
 
+All order changes are recorded in the order history that can be checked on top of the page. Click the **View order history** link to display the info. 
+
+![order-history.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/order-history.png)
 
