@@ -13,7 +13,7 @@ Note that if necessary the store's primary administrator may choose to delegate 
 ![xc5_mv_category_management.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_category_management.png)
 
 
-## Working with product classes and attributes
+## Working on product classes and attributes
 The store administrator supervises the use of {% link "product classes and attributes" ref_T90ZcEpP %} by the vendors: 
 
    * Product classes and attributes are a complex topic in X-Cart that requires time to understand. So the store administrator may need to help new vendors with the initial setup of product classes, attributes and attribute values. The store administrator can themselves create any product classes, attributes and attribute values that the vendors may require (including any attributes at the global level, the level of product classes and the level of specific products) via the Classes & attributes section (**Catalog** > **Classes & attributes**) of the store's Admin area.
