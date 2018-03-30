@@ -7,7 +7,7 @@ title: Managing Multi-vendor email notifications
 order: 250
 published: false
 ---
-The addon **Multi-vendor** enables its own set of email notifications in X-Cart. The store administrator should check and adjust these notifications in the Email notifications section (**Store setup** > **Email notifications**). 
+The addon **Multi-vendor** enables its own set of email notifications in X-Cart. The store administrator should check and adjust these notifications in the Email notifications section (**Store setup** > **Email notifications**). More infornation on the management of X-Cart store notifications is available in the section {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}.
 
 The notifications pertaining to **Multi-vendor** include the following:
 
@@ -44,8 +44,6 @@ _Payment request related notifications:_
    
    * **Vendor request has been processed**: This message notifies the vendor who has submitted a payout request as to whether their payout request has been approved or declined by the administrator.
 
-
-For more info on X-Cart store notifications, see {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}.
 
 
 _Related pages:_
