@@ -17,6 +17,7 @@ _In this section:_
     *   {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}
     *   {% link "Managing vendor access permissions" ref_0GOeWpB2 %}
     *   {% link "Managing vendors" ref_6OTbIwfd %}
+    *   {% link "Supervising the product catalog" ref_0dPCIV3f %}
     *   {% link "Viewing vendor statistics" ref_4mvK1AKz %}
 
 *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
