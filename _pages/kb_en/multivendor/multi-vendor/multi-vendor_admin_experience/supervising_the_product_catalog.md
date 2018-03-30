@@ -14,7 +14,7 @@ Note that if necessary the store's primary administrator may choose to delegate 
 
 
 ## Working with product classes and attributes
-The store administrator supervises the use of {% link "product classes and attributes" ref_T90ZcEpP %}. 
+The store administrator supervises the use of {% link "product classes and attributes" ref_T90ZcEpP %} by the vendors: 
 
    * Product classes and attributes are a complex topic in X-Cart that requires time to understand. So the store administrator may need to help new vendors with the initial setup of product classes, attributes and attribute values. The store administrator can themselves create any product classes, attributes and attribute values that the vendors may require (including any attributes at the global level, the level of product classes and the level of specific products) via the Classes & attributes section (**Catalog** > **Classes & attributes**) of the store's Admin area.
     
@@ -23,13 +23,17 @@ The store administrator supervises the use of {% link "product classes and attri
    * The store administrator can specify whether vendor users should be able to add their own values for global attributes and attributes created by the administrator or by the other vendors at the level of product classes, or whether they should just be able to use the existing values. To do so, they need to adjust the setting "Vendor access to global attributes" on the {% link "«Multi-vendor» addon settings page" ref_MRQEvicQ %}). 
 
     
-## Determining the ownership of a product
+## Determining the owner a product
 
-When viewing the store's product list in the Admin area, the administrator can find out which product is owned by which vendor based on the information in the "Vendor" column. For each product created by a vendor, this column shows the email address of the vendor user who is the owner of the product.
+When the same product catalog holds the products of more than one seller, the store administrator who exercises the function of supervising the catalog may require to be able to find the seller (vendor) who added a certain product (and thus is its owner). 
+
+Finding the owner of a product is easy:
+
+   * When viewing the store's product list in the Admin area, the administrator can see the owner of each product in the "Vendor" column:
 ![xc5_mv_product_owners.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_product_owners.png)
+(This column shows the email address of the vendor who owns the product.)
 
-
-The name and email of the vendor are also visible to the store administrator on the details pages of vendor products in the Admin area:
+   * When viewing the details pages of a vendor product in the Admin area, the administrator can see the name and email of the vendor who owns the product:
 ![xc5_mv_product_owner.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_product_owner.png)
     
     
