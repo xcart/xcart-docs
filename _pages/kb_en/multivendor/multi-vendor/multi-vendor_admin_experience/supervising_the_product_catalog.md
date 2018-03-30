@@ -24,7 +24,6 @@ The store administrator supervises the use of {% link "product classes and attri
 
     
 ## Determining the owner a product
-
 When the same product catalog holds the products of more than one seller, the store administrator who exercises the function of supervising the catalog may require to be able to find the seller (vendor) who added a certain product (and thus is its owner). 
 
 Finding the owner of a product is easy:
