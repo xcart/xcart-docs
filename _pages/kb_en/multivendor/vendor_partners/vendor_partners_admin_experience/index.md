@@ -7,7 +7,7 @@ title: 'Multiple profiles for vendors: Admin experience'
 order: 100
 published: false
 ---
-If the vendors of a multivendor store require help of other people in their own vendor area (for example, if they want a staff member or a business partner of theirs to be able to log in to the store and add/update the products or work on the orders), the store administrator may choose to activate the addon **Multiple profiles for vendors**. 
+If the vendors of a multivendor store require help of other people in their own vendor area (for example, if they want a staff member or a business partner of theirs to be able to log in to the store and add/update their products or work on the orders), the store administrator may choose to activate the addon **Multiple profiles for vendors**. 
 
 The addon enables a new user role - "Vendor staff" - which can be given to the staff or business partners of exiting vendors so they can access the products and orders of the vendor.
 
