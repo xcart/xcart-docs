@@ -11,7 +11,7 @@ All orders in X-Cart are recorded in the **Orders** -> **Order List** section wh
 
 ![listing.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/listing.png)
 
-The orders listing page has an advanced search panel where an admin can choose orders to work with according to several paramethers. The chosen filters can then be saved and will be displayed as a preset filter on top of the page.
+The orders listing page has an advanced search panel where an admin can choose orders to work with according to several paramethers. The chosen filters can then be saved and will be displayed as preset filters on top of the page.
 
 ![advanced-search.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/advanced-search.png)
 
@@ -25,7 +25,7 @@ Also it's possble to export orders into CSV directly on the orders listing page.
 
 ![bulk-edit.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/bulk-edit.png)
 
-The order listing page allows to see the following order details:
+The order listing page allows to track the following order details:
 * **Order number** : Orders are numbered sequentially, starting from the value defined for the _Next order #:_ field in {% link "General settings" ref_qAZlJxZm %}
 * **Date** : Date and time of the order
 * **Customer** : Name and email (by clicking on the customer name you;ll be redirected to the {% link "user profile" ref_gg1fQDgB %}page)
@@ -57,7 +57,16 @@ Advanced order management allows a store admin to change the following order det
 * **Shipping cost** :
 * **Gift wrapping** : If the Gift wrapping option is turned ON admin will be able to specify the gift wrapping cost
 
+If changes are applied to the order items and associated costs, the admin should first click the **'Recalculate totals'** button and **save changes** after that. If no changes to the costs are applied, the admin can **save changes** right away. With the **Notify customer** checkbox enabled a customer will get notifications on all the changes allied to the order. 
+
 All order changes are recorded in the order history that can be checked on top of the page. Click the **View order history** link to display the info. 
 
 ![order-history.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/order-history.png)
 
+Any changes made to the order will automatically result in the order invoice alteration, that can be checked in the **Invoice** tab of the order details page.
+
+![invoice.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/invoice.png)
+
+The **Messages** tab can be used if it's necessary to send notes about the order to a customer. 
+
+![messages.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/messages.png)
