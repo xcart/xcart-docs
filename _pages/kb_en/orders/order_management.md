@@ -21,14 +21,14 @@ Chosen orders can be bulk-edited using a panel on the bottom of the page. The op
 * **Change fulfillment status for selected** : New / Processing / Shipped / Delivered / Will not deliver / Returned
 * **Delete selected**
 
-Also it's possble to export orders into CSV directly on the orders listing page.
+Also it's possble to export orders into CSV directly on the orders listing page. Use the **'Export all: CSV'** button for the purpose
 
 ![bulk-edit.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/bulk-edit.png)
 
 The order listing page allows to track the following order details:
 * **Order number** : Orders are numbered sequentially, starting from the value defined for the _Next order #:_ field in {% link "General settings" ref_qAZlJxZm %}
 * **Date** : Date and time of the order
-* **Customer** : Name and email (by clicking on the customer name you;ll be redirected to the {% link "user profile" ref_gg1fQDgB %}page)
+* **Customer** : Name and email (by clicking on the customer name you;ll be redirected to the {% link "user profile" ref_gg1fQDgB %} page)
 * **Payment status** : Awaiting payment / Partially paid / Paid / Cancelled / Refunded
 * **Fulfillment status** : New / Processing / Shipped / Delivered / Will not deliver / Returned
 * **Amount** : Order total and amount of items ordered.
@@ -49,15 +49,15 @@ Advanced order management allows a store admin to change the following order det
 * **Shipping method** : For any shipping method
 * **Billing address** : Info will be changed for this order only
 * **Shipping address** : Info will be changed for this order only
-* **Fulfillment status** : 
-* **Payment status** : 
-* **Tracking number** : To add a tracking number click on the 'Add tracking number' button. A tracking number can have up to 32 symbols.
+* **Fulfillment status** : Choose one of the available values
+* **Payment status** : Choose one of the available values
+* **Tracking number** : To add a tracking number click on the **'Add tracking number'** button. A tracking number can have up to 32 symbols.
 * **Order items** : An admin can change the price and quantity of the ordered products and add new products to the order
-* **Discount** : An admin can add a discount coupon by clicking the Add coupon link or a cash discount
-* **Shipping cost** :
+* **Discount** : An admin can add a discount coupon by clicking the _Add coupon_ link or a cash discount
+* **Shipping cost** : Change the shipping cost applied to the order
 * **Gift wrapping** : If the Gift wrapping option is turned ON admin will be able to specify the gift wrapping cost
 
-If changes are applied to the order items and associated costs, the admin should first click the **'Recalculate totals'** button and **save changes** after that. If no changes to the costs are applied, the admin can **save changes** right away. With the **Notify customer** checkbox enabled a customer will get notifications on all the changes allied to the order. 
+If changes are applied to the order items and associated costs, the admin should first click the **'Recalculate totals'** button and **save changes** after that. If no changes to the costs are applied, the admin can **save changes** right away. With the **Notify customer** checkbox enabled a customer will get notifications on all the changes apllied to the order. 
 
 All order changes are recorded in the order history that can be checked on top of the page. Click the **View order history** link to display the info. 
 
