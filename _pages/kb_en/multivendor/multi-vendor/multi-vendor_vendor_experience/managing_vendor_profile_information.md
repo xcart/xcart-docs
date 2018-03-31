@@ -6,7 +6,7 @@ identifier: ref_b7PTQMgf
 title: Managing vendor profile information
 categories:
   - User manual
-published: false
+published: true
 order: 110
 redirect_from:
   - >-
