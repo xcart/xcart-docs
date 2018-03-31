@@ -39,9 +39,8 @@ A vendor should provide general information about their business in the **Compa
    * **Description**: Vendor description for the vendor profile page.
     
 ## Company address
-A vendor should specify their company address The address that will be used to calculate the cost of shipping from the vendor's warehouse to the buyer in the "Vendors as separate shops" multivendor mode should be specified in the Company address section (**My account** > **Company address**).  
+A vendor should specify their company address. The vendor company address may be specified during vendor registration or entered directly in the Company address section of the Vendor area (**My account** > **Company address**). In the "Vendors as separate shops" multivendor mode, this address is used to calculate the cost of shipping from the vendor's warehouse to the buyer.  
      ![xc5_mv_my_account_vendor_company_address.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_my_account_vendor_company_address.png)
-
 
 ## Financial info
 The **Financial info** section is where the vendor can specify an account that they wish to use to accept money from the sales through the multivendor marketplace. 
