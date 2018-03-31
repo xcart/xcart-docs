@@ -12,7 +12,7 @@ redirect_from:
   - /modules/multi-vendor/vendor_registration.html
 ---
 
-A person who wants to become a vendor in a multivendor X-Cart 5 based store can contact the store owner/administrator directly asking them to set up a vendor profile for them, or they can apply for a vendor account via the Become a seller page in the Customer area (The store administrator will review the application and will be able to either approve or reject it.)
+A person who wants to become a vendor in a multivendor X-Cart 5 based store can contact the store owner/storefront operator/administrator directly asking them to set up a vendor profile for them, or they can apply for a vendor account via the Become a seller page in the Customer area (The store administrator will review the application and will be able to either approve or reject it.)
 
 In X-Cart versions 5.3.3.0 and later, the Become a seller page can be accessed by clicking the **Become a seller** item in the Primary site menu:
 ![xc5_mv_become_seller.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_become_seller.png)
