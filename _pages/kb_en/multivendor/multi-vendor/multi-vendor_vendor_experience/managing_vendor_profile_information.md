@@ -19,7 +19,8 @@ A vendor user can access the general information about their account and manage 
      ![xc5_mv_my_profile.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_my_profile.png)
 
    * By clicking **My account** and selecting **Account details**:
-     
+     ![xc5_mv_my_account_account_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_my_account_account_details.png)
+
 
 ## Address book
 A vendor can specify their name and address(es) in the **Address book** section:
