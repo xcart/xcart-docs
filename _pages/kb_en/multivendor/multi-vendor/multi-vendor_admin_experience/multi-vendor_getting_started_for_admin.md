@@ -11,11 +11,11 @@ This article provides an overview of the steps which the administrator of an X-C
 
 By "administrator" we mean the store owner or an agent acting on behalf of the store and represented by an X-Cart store user with the access level "Administrator" and the role "Administrator".
 
-## Step 1: Activate the Multi-vendor addon  
-
+## Step 1: Ensure that the addon Multi-vendor is active
+A regular single-seller X-Cart store is transformed into a multivendor marketplace by the addon **Multi-vendor**. The store administrator must ensure that this addon is active. More info on the management of addons in X-Cart is available in the section {% link "Managing addons" ref_gTOegEua %}.
 
 ## Step 2: Choose the multivendor mode and adjust the addon settings
-The store administrator chooses the store's multivendor mode ("_Warehouse_" or "_Vendors as separate shops_"); see the article {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %} for more information.
+A multivendor X-Cart store can be set to operate in mode ("_Warehouse_" or "_Vendors as separate shops_"); see the article {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %} for more information.
 
     *   In the "_Warehouse_" mode, the administrator sets the address that will be used as the ship-from address for all the vendors (The address can be added via the Company address section in the store's {% link "Contact information" ref_HcSs9eFL %}). The administrator also configures the shipping methods that will be used to ship orders from that address. 
     *   In the "_Vendors as separate shops_" mode, there is no common ship-from address: each vendor ships orders from their own business location, which means a separate ship-from address for every vendor. Also, every vendor configures their own shipping methods (The administrator does not have anything to do with that). 
