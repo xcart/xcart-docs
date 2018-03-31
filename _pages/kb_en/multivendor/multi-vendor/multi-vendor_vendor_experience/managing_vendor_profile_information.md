@@ -29,17 +29,14 @@ A vendor can specify their name and address(es) in the Address book section (*
 Note that this section is intended for the personal address(es) of the seller. The address that will be used to calculate the cost of shipping from the seller's warehouse to the buyer in the "Vendors as separate shops" multivendor mode should be specified in the Company address section (**My account** > **Company address**). 
 
 ## Company details
-The **Company details** section is where vendor can provide general information about their business. 
+A vendor should provide general information about their business in the **Company details** section:
      ![xc5_mv_my_account_vendor_company_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_my_account_vendor_company_details.png)
 
-
-The following information can be provided:
-
-*   *   **Company name**: Name by which store visitors will identify the vendor. 
-    *   **CleanURL**: Human readable and SEO friendly web address for the vendor profile page in the Customer area.
-    *   **Image**: Vendor image.
-    *   **Location**: Vendor location.
-    *   **Description**: Vendor description for the vendor profile page.
+   * **Company name**: Name by which store visitors will identify the vendor. 
+   * **CleanURL**: Human readable and SEO friendly web address for the vendor profile page in the Customer area.
+   * **Image**: Vendor image.
+   * **Location**: Vendor location.
+   * **Description**: Vendor description for the vendor profile page.
     
 ## Company address
 <img>    
