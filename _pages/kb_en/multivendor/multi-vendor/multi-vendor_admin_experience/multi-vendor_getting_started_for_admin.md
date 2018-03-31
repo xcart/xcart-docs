@@ -16,10 +16,42 @@ A regular single-seller X-Cart store is transformed into a multivendor marketpla
 More info on the management of addons in X-Cart is available in the section {% link "Managing addons" ref_gTOegEua %}.
 
 ## Step 2: Choose the multivendor mode and adjust the addon settings
-The first thing the store administrator needs to do when they start configuring a new multivendor X-Cart store is decide on the store operation mode (sometimes called _multivendor mode_). Two modes are supported:
-"_Warehouse_" and "_Vendors as separate shops_").
+Before anyone starts selling products through the store, the store administrator needs to configure it. Besides all the configuration article {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %} for more information.
 
-ee the article {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %} for more information.
+Probably the first thing the store administrator needs to do when they start configuring a new multivendor X-Cart store is decide on the store operation mode (sometimes called _multivendor mode_). Two modes are supported:
+"_Warehouse_" and "_Vendors as separate shops_"). 
+
+   <table class="ui compact celled small padded table">
+      <thead>
+        <tr class="sortableHeader">
+          <th class="confluenceTh sortableHeader" data-column="0">
+            <div class="tablesorter-header-inner">Warehouse</div>
+          </th>
+          <th class="confluenceTh sortableHeader" data-column="1">
+            <div class="tablesorter-header-inner">Vendors as separate shops</div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="confluenceTd">
+            <ul>
+              <li>When a customer's cart contains items from more than one vendor, a single order is formed.</li>
+              <li>Processing of the order is done by the store administrator. The vendors cannot edit the order.</li>
+              <li>The order is delivered as a single shipment from a single warehouse location. The cost of shipping is calculated for delivery from the <em>Company address</em> as specified by the store administrator.</li>
+            </ul>
+          </td>
+          <td class="confluenceTd" >
+            <ul>
+              <li>When a customer's cart contains items from more than one vendor, a separate order is formed for every vendor.</li>
+              <li>The vndors can fully edit their orders.</li>
+              <li>Every order is delivered from the warehouse of the respective vendor. The cost of shipping is calculated for delivery from the address specified by the vendor.</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
 
     *   In the "_Warehouse_" mode, the administrator sets the address that will be used as the ship-from address for all the vendors (The address can be added via the Company address section in the store's {% link "Contact information" ref_HcSs9eFL %}). The administrator also configures the shipping methods that will be used to ship orders from that address. 
     *   In the "_Vendors as separate shops_" mode, there is no common ship-from address: each vendor ships orders from their own business location, which means a separate ship-from address for every vendor. Also, every vendor configures their own shipping methods (The administrator does not have anything to do with that). 
