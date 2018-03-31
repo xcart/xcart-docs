@@ -9,7 +9,7 @@ published: false
 ---
 This article provides an overview of the steps which the administrator of an X-Cart store needs to take to launch a multivendor X-Cart-based marketplace.
 
-In this manual, by "administrator" we mean the store owner or an agent acting on behalf of the store and represented by an X-Cart store user with the access level "Administrator" and the role "Administrator".
+In this manual, by "administrator" we mean the store owner/storefront operator or an agent acting on their behalf and represented by an X-Cart store user with the access level "Administrator" and the role "Administrator".
 
 ## Step 1: Ensure that the addon Multi-vendor is active
 A regular single-seller X-Cart store is transformed into a multivendor marketplace by the addon **Multi-vendor**. The store administrator must ensure that this addon is active. 
