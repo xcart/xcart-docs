@@ -16,10 +16,9 @@ A regular single-seller X-Cart store is transformed into a multivendor marketpla
 More info on the management of addons in X-Cart is available in the section {% link "Managing addons" ref_gTOegEua %}.
 
 ## Step 2: Choose the multivendor mode and adjust the addon settings
-Before anyone starts selling products through the store, the store administrator needs to configure it. Besides all the configuration article {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %} for more information.
+Before anyone can sell products through the online marketplace based on X-Cart Multivendor, the store administrator needs to configure it. Besides all the configuration needed for a regular single-seller X-Cart store, a multivendor X-Cart store needs some additional configuration through the Multi-vendor addon settings page. Information on how to adjust the Multi-vendor addon settings is available in the article {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}.
 
-Probably the first thing the store administrator needs to do when they start configuring a new multivendor X-Cart store is decide on the store operation mode (sometimes called _multivendor mode_). Two modes are supported:
-"_Warehouse_" and "_Vendors as separate shops_"). 
+Probably the most important decision the store administrator needs to make early on in the process of configuring a new multivendor X-Cart store is which store operation mode (sometimes called _multivendor mode_) they want to use. Two modes are supported: "_Warehouse_" and "_Vendors as separate shops_"). 
 
    <table class="ui compact celled small padded table">
       <thead>
