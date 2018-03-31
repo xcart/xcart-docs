@@ -6,29 +6,29 @@ identifier: ref_b7PTQMgf
 title: Managing vendor profile information
 categories:
   - User manual
-published: true
+published: false
 order: 110
 redirect_from:
   - >-
     /modules/multi-vendor/multi-vendor_vendor_experience/managing_vendor_profile_information.html
 ---
+## Account details
+A vendor user can access the general information about their account and manage such information as their account email address and password via the **Account details** section. This section can be accessed using one of the following methods:
 
+   * By clicking on the user icon in the header of the store's back end and selecting **My profile**:
+     ![xc5_mv_my_profile.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_my_profile.png)
 
-Vendor can access their user profile by clicking on the user icon in the header of the store's back end and selecting the **Profile settings** item from the menu:
+   * By clicking **My account** and selecting **Account details**:
+     
 
-![]({{site.baseurl}}/attachments/8749390/8719613.png)
+## Address book
+A vendor can specify their name and address(es) in the **Address book** section:
+     <img>
 
-The **Account details** section of the profile settings allows vendor to view general information about their account and manage such information as their account email address and password: 
+Note that this section is intended for the personal address(es) of the seller. The address that will be used to calculate the cost of shipping of goods from the seller's warehouse to the buyer in the "Vendors as separate shops" multivendor mode should be specified in the **Company address** section (**My account** > **Company address**). 
 
-![]({{site.baseurl}}/attachments/8749390/8719614.png)
-
-The **Address book** section can be used by vendor to enter and store their name and addresses:
-
-![]({{site.baseurl}}/attachments/8749390/8719615.png)
-
-Note that this section is intended for the personal address(es) of the seller. The address that will be used to calculate the cost of shipping of goods from the seller's warehouse to the buyer in the "Vendors as separate shops" multivendor mode can be entered using the Store address section (**Store setup** > **Store address**). 
-
-The **Vendor details **section is where vendor can provide general information about their business. 
+## Company details
+The **Company details** section is where vendor can provide general information about their business. 
 
 ![]({{site.baseurl}}/attachments/8749390/8719616.png)
 
@@ -39,8 +39,12 @@ The following information can be provided:
     *   **Image**: Vendor image.
     *   **Location**: Vendor location.
     *   **Description**: Vendor description for the vendor profile page.
+    
+## Company address
+<img>    
 
-The** Financial info** section is where vendor can specify an account that they wish to use to accept money from sales through this store. 
+## Financial info
+The **Financial info** section is where the vendor can specify an account that they wish to use to accept money from the sales through the multivendor marketplace. 
 
 ![]({{site.baseurl}}/attachments/8749390/8719617.png)
 
