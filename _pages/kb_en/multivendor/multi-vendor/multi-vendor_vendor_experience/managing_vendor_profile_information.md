@@ -13,7 +13,7 @@ redirect_from:
     /modules/multi-vendor/multi-vendor_vendor_experience/managing_vendor_profile_information.html
 ---
 ## Account details
-A vendor user can access the general information about their account and manage such information as their account email address and password via the **Account details** section. This section can be accessed using one of the following methods:
+A vendor user can access the general information about their account and manage such information as their account email address and password via the Account details section. This section can be accessed using one of the following methods:
 
    * By clicking on the user icon in the header of the store's back end and selecting **My profile**:
      ![xc5_mv_my_profile.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_my_profile.png)
@@ -23,15 +23,15 @@ A vendor user can access the general information about their account and manage 
 
 
 ## Address book
-A vendor can specify their name and address(es) in the **Address book** section:
-     <img>
+A vendor can specify their name and address(es) in the Address book section (**My account**>**Account details*, **Address book** tab):
+     ![xc5_mv_vendor_address_book.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_address_book.png)
 
-Note that this section is intended for the personal address(es) of the seller. The address that will be used to calculate the cost of shipping of goods from the seller's warehouse to the buyer in the "Vendors as separate shops" multivendor mode should be specified in the **Company address** section (**My account** > **Company address**). 
+Note that this section is intended for the personal address(es) of the seller. The address that will be used to calculate the cost of shipping from the seller's warehouse to the buyer in the "Vendors as separate shops" multivendor mode should be specified in the Company address section (**My account** > **Company address**). 
 
 ## Company details
 The **Company details** section is where vendor can provide general information about their business. 
+     ![xc5_mv_my_account_vendor_company_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_my_account_vendor_company_details.png)
 
-![]({{site.baseurl}}/attachments/8749390/8719616.png)
 
 The following information can be provided:
 
