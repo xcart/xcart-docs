@@ -63,7 +63,7 @@ Another important task that should be completed by the store administrator is to
 The store administrator must ensure that all the users of the multivendor store/marketplace - including vendors - have the access permissions required to do their work. The administrator manages the access permissons using {% link "Roles" ref_38HKdc1f %} (**Users** > **Roles**). The addon Multi-vendor introduces the role "Vendor". The administrator can edit this role (rename the role / adjust the set of permissions given by the role), create other vendor related roles and specify which role should be assigned by default to new vendor users. See the article {% link "Managing vendor access permissions" ref_0GOeWpB2 %} for details.
     
 ## Step 4: Check and adjust Multi-vendor email notifications
-The store administrator decides what Multi-vendor email notifications should be used in the store.
+The store administrator must check the section Email notifications (**Store setup** > **Email notifications**) and adjust the Multi-vendor email notifications for use in the store. For more info, see {% link "Managing Multi-vendor email notifications" ref_7DW1NMak %}.
 
 ## Step 5: Get some sellers to join your marketplace as vendors
 The store administrator can add new vendor users by approving vendor registration applications of prospective vendors or by creating new vendor user profiles via the Users section of the store's Admin area.
