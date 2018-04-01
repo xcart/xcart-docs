@@ -60,7 +60,7 @@ If the mode "_Vendors as separate shops_" is chosen, there will be no common shi
 Another important task that should be completed by the store administrator is to adjust the onboarding welcome message for new vendors. The vendor onboarding message will be displayed on the Vendor area dashboard; it can be used to share important information with the vendors or to provide on overview of the steps a new vendor is required to complete before they can start selling. The vendor onboarding message can be configured using the **Vendor onboarding welcome message** field on the Multi-vendor addon settings page.
 
 ## Step 3: Check and adjust the roles
-The store administrator manages vendor access permissons. See the article {% link "Managing vendor access permissions" ref_0GOeWpB2 %} for details.
+The store administrator must ensure that all the users of the store/marketplace - including vendors - have the access permissions required to do their work. The administrator manages the access permissons using {% link "Roles" ref_38HKdc1f %} (**Users** > **Roles**). The addon Multi-vendor introduces the role "Vendor". The administrator can edit this role (rename the role / adjust the set of permissions given by the role), or they can create other vendor related roles and specify which role should be assigned by default to new vendor users. See the article {% link "Managing vendor access permissions" ref_0GOeWpB2 %} for details.
     
 ## Step 4: Check and adjust Multi-vendor email notifications
 The store administrator decides what Multi-vendor email notifications should be used in the store.
