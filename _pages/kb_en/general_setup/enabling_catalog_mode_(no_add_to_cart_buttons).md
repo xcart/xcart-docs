@@ -9,8 +9,7 @@ categories:
 published: true
 order: 260
 redirect_from:
-  - >-
-    https://kb.x-cart.com/look_and_feel/enabling_catalog_mode_(no_add_to_cart_buttons).html
+  - /look_and_feel/enabling_catalog_mode_(no_add_to_cart_buttons).html
 ---
 
 
