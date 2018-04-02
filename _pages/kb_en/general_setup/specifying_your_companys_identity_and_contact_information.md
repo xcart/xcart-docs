@@ -10,7 +10,7 @@ published: true
 order: 120
 redirect_from:
   - >-
-    https://kb.x-cart.com/look_and_feel/specifying_your_companys_identity_and_contact_information.html
+    /look_and_feel/specifying_your_companys_identity_and_contact_information.html
 ---
 
 
