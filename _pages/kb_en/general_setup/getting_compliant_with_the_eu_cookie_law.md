@@ -9,8 +9,7 @@ categories:
 published: true
 order: 270
 redirect_from:
-  - >-
-    https://kb.x-cart.com/look_and_feel/getting_compliant_with_the_eu_cookie_law.html
+  - /look_and_feel/getting_compliant_with_the_eu_cookie_law.html
 ---
 
 
