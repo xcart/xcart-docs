@@ -103,6 +103,10 @@ You can choose between:
     * _On Category and Product Details Page_ : The same as _On Category Listing_ plus nessecity to select product options on the product details page:
     ![options-3.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/options-3.png)
     
+    
+    {% note info %}
+    If you want to disable drag-n-drop option for products completely install the [Disable drag'n'drop add to cart](https://market.x-cart.com/addons/disable-drag-n-drop.html "Configuring your store&#39;s General settings") module and activate it. More info on modules installation you can find in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+    {% endnote %}
 
 *   **Redirect customer to the cart page after a product is added to cart**: When this option is enabled, after adding a product to cart a shopper is redirected to the cart page where they can see the item they just added. When the option is disabled, the shopper remains on the same page. Please note that this setting is not compatible with X-Cart's Add to Cart module: when the module Add to Cart popup is enabled, adding a product to cart results in a popup being displayed.
 
