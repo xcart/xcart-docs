@@ -101,7 +101,7 @@ In the "_Warehouse_" mode, the administrator performs the following functions:
 In the "_Vendors as separate shops_" mode, the administrator has the same capabilities as in the "_Warehouse_" mode, but, typically, only acts as a supervisor - whereas the processing of orders and making changes to the information of specific orders is carried out by the vendors.
 
 ## Step 14: Get information on how your vendors' business is going 
-The store administrator can view vendor statistics including:
+It is always a good idea to check from time to time how the business of individual vendors on the marketplace is going. The store administrator has access to vendor statistics including:
 
    *   Order statistics, 
    *   Best sellers,
