@@ -9,8 +9,7 @@ categories:
 published: true
 order: 140
 redirect_from:
-  - >-
-    https://kb.x-cart.com/look_and_feel/configuring_your_stores_general_settings.html
+  - /look_and_feel/configuring_your_stores_general_settings.html
 ---
 
 Most of general settings that determine your store's appearance and behavior can be found in the **Store setup > Cart & checkout** section, in the **General** tab:
