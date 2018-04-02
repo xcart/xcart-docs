@@ -66,7 +66,7 @@ The store administrator must ensure that all the users of the multivendor store/
 The store administrator must check the section Email notifications (**Store setup** > **Email notifications**) and adjust the notifications specific to Multi-vendor. For more info, see {% link "Managing Multi-vendor email notifications" ref_7DW1NMak %}.
 
 ## Step 5: Get some sellers to join your marketplace as vendors
-The store administrator can add new vendor users by approving vendor registration applications of prospective vendors or by creating new vendor user profiles via the Users section of the store's Admin area.
+Once the store has been configured to work as a multivendor marketplace, it is time to invite the sellers. the store administrator can add new vendor users by approving vendor registration applications of prospective vendors or by creating new vendor user profiles via the Users section of the store's Admin area.
 
 ## Step 6: Supervise the users
 The store administrator can manage the existing vendor users, including the removal of vendor users, export of vendor information and access to all the information associated with specific vendor profiles. See {% link "Managing vendors" ref_6OTbIwfd %} for details.
