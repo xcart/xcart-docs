@@ -35,7 +35,7 @@ X-Cart хранит информацию о заказах в разделе **�
 
 Статусы оплаты и доставки можно изменить прямо на странице списка заказов. Выберите статус из выпадающего меню и нажмите **Сохранить**. 
 
-For advanced order management open the order details page by clicking on the order number (e.g. #00020).
+Для редактирования заказа нажмите на его номер.
 
 <div class="ui stackable three column grid">
   <div class="column" markdown="span">![general-1.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/general-1.png)</div>
