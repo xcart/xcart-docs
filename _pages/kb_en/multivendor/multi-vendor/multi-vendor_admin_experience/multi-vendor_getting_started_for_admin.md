@@ -15,10 +15,8 @@ In this manual, by "administrator" we mean the store owner/storefront operator o
 A regular single-seller X-Cart store is transformed into a multivendor marketplace by the addon **Multi-vendor**. The store administrator must ensure that this addon is active. 
 More info on the management of addons in X-Cart is available in the section {% link "Managing addons" ref_gTOegEua %}.
 
-## Step 2: Choose the multivendor mode, adjust the vendor onboarding message and check the other addon settings
-Before anyone can sell products through an online marketplace based on X-Cart Multivendor, the store administrator needs to configure it. Besides all the configuration needed for a regular single-seller X-Cart store, a multivendor X-Cart store needs some additional configuration through the Multi-vendor addon settings page. Information on how to adjust the Multi-vendor addon settings is available in the article {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}.
-
-Probably the most important decision the store administrator needs to make early on while configuring a new multivendor X-Cart store is which store operation mode (also known as _Multivendor mode_) they want to use. Two modes are supported: "_Warehouse_" and "_Vendors as separate shops_"). 
+## Step 2: Choose the multivendor mode
+Before anyone can sell products through an online marketplace based on X-Cart Multivendor, the store administrator needs to configure it. Besides all the configuration needed for a regular single-seller X-Cart store, a multivendor X-Cart store needs some additional configuration through the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}. The first and most important setting that the store administrator needs to adjust on this page is **Multivendor mode** . In this setting, the store administrator needs to specify which store operation mode they want to use. Two modes are supported: "_Warehouse_" and "_Vendors as separate shops_"). 
 
    <table class="ui compact celled small padded table">
       <thead>
@@ -51,13 +49,17 @@ Probably the most important decision the store administrator needs to make early
       </tbody>
     </table>
 
-The mode can be set using the **Multivendor mode** setting on the Multi-vendor addon settings page.
-
 If the mode "_Warehouse_" is chosen, the store administrator will have to use the Company address section in the store's {% link "Contact information" ref_HcSs9eFL %}) to specify the location of the warehouse from which the products will be shipped to the buyers. This address is needed for shipping and tax calculation and will be used as the ship-from address for all the vendors selling through the marketplace. The administrator will also have to configure the shipping methods that will be used to ship orders from that address. 
 
 If the mode "_Vendors as separate shops_" is chosen, there will be no common ship-from address: each vendor  will ship their orders from their own business location, which means a separate ship-from address for every vendor. Also, every vendor will have to configure their own shipping methods. The store administrator will need to ensure that every vedor is properly instructed as to what address and shipping settings they need to configure in their Vendor area to ensure that shipping and tax calculation is done properly for their orders. 
 
+## Step 3: Adjust the vendor onboarding message
 Another important task that should be completed by the store administrator is to adjust the onboarding welcome message for new vendors. The vendor onboarding message will be displayed on the Vendor area dashboard; it can be used to share important information with the vendors or to provide on overview of the steps a new vendor is required to complete before they can start selling. The vendor onboarding message can be configured using the **Vendor onboarding welcome message** field on the Multi-vendor addon settings page.
+
+## Step: Check the other addon settings
+early on while configuring a new multivendor X-Cart store
+Information on how to adjust the Multi-vendor addon settings is available in the article {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}.
+
 
 ## Step 3: Check and adjust the roles
 The store administrator must ensure that all the users of the multivendor store/marketplace - including vendors - have the access permissions required to do their work. The administrator manages the access permissons using {% link "Roles" ref_38HKdc1f %} (**Users** > **Roles**). The addon Multi-vendor introduces the role "Vendor". The administrator can edit this role (rename the role / adjust the set of permissions given by the role), create other vendor related roles and specify which role should be assigned by default to new vendor users. See the article {% link "Managing vendor access permissions" ref_0GOeWpB2 %} for details.
