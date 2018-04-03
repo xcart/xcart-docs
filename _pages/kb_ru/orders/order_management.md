@@ -5,7 +5,7 @@ updated_at: '2018-04-03 13:47 +0300'
 identifier: ref_4DhBdE0F
 title: Управление заказами
 order: 50
-published: false
+published: true
 ---
 X-Cart хранит информацию о заказах в разделе **Заказы / Список заказов**.
 
