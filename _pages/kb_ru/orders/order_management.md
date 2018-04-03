@@ -7,16 +7,16 @@ title: Управление заказами
 order: 50
 published: false
 ---
-All orders in X-Cart are recorded in the **Orders** -> **Order List** section where a cart admin can manage them.
+X-Cart хранит информацию о заказах в разделе **Заказы / Список заказов**.
 
 ![listing.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/listing.png)
 
-The orders listing page has an advanced search panel where an admin can choose orders to work with according to several paramethers. The chosen filters can then be saved and will be displayed as preset filters on top of the page.
+Воспользуйтесь фильтрами, чтобы найти заказы по интересующим параметрам. X-Cart сохраняет однажды установленные фильтры как шаблон для поиска.
 
 ![advanced-search.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/advanced-search.png)
 
-Chosen orders can be bulk-edited using a panel on the bottom of the page. The options for bulk edit are:
-* **Print selected**: Print invoice OR Print packing slip
+Найденные заказы можно редактировать по одному или все вместе с помощью панели внизу списка:
+* **Распечатать выбранное**: нажмите на значок и выберите документ для печати - _Распечатать счёт_ иил _Распечатать упаковочный лист_.
 * **Change payment status for selected** : Awaiting payment / Partially paid / Paid / Cancelled / Refunded
 * **Change fulfillment status for selected** : New / Processing / Shipped / Delivered / Will not deliver / Returned
 * **Delete selected**
