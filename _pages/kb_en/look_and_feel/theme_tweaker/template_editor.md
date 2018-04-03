@@ -106,7 +106,7 @@ We are always at your disposal!
       
      ![scheme.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/scheme.png)
      
-     Click on it and a ramdon invoice will be opened in a new tab. Click on the section in the    invoice that you want to edit to see the .twig file that corresponds with this section. 
+     Click on it and a random invoice will be opened in a new tab. Click on the section in the    invoice that you want to edit to see the .twig file that corresponds with this section. 
      _We'll remove the **Shipping method** section from the invoice in our sample._
      
      ![invoice.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice.png)
