@@ -42,9 +42,9 @@ X-Cart хранит информацию о заказах в разделе **�
   <div class="column" markdown="span">![general-2.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/general-2.png)</div>
 </div>
 
-Advanced order management allows a store admin to change the following order details:
-* **Customer e-mail address** : Info will be changed for this order only
-* **Staff note** : Notes can be added in the field for comments
+На странице заказа администратор может _распечатать_ _упаковочный лист_ и _счёт_, а также изменить следующую информацию:
+* **Адрес электронной почты** : адрес изменяется только для редактируемого заказа. Чтобы изменить профиль покупателя, нажмите на имя.
+* **Комментарий для персонала** : Notes can be added in the field for comments
 * **Payment method** : For [offline payment methods](https://kb.x-cart.com/payments/accepting_payments.html#offline-payment-methods "Managing Orders in X-Cart") only
 * **Shipping method** : For any shipping method
 * **Billing address** : Info will be changed for this order only
