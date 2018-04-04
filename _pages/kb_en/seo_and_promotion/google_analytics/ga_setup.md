@@ -30,10 +30,10 @@ The module configuration settings are as follows:
    How to create a new Web Property ID:
    1. Register at https://www.google.com/analytics using your Google account.
    2. Follow the steps to create a new account and get a tracking ID
-   <div class="ui stackable three column grid">
-     <div class="column" markdown="span">![new-1.png({{site.baseurl}}/attachments/ref_7aqHV7fa/new-1.png)</div>
-     <div class="column" markdown="span">![new-2.png({{site.baseurl}}/attachments/ref_7aqHV7fa/new-2.png)</div>
-    </div>
+      <div class="ui stackable three column grid">
+       <div class="column" markdown="span">![new-1.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/new-1.png)</div>
+       <div class="column" markdown="span">![new-2.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/new-2.png)</div>
+      </div>
     3. Accept Google Analytics Terms of Service Agreement
     4. Your Web Property ID is in the Property -> Tracking info -> Tracking code section
     
