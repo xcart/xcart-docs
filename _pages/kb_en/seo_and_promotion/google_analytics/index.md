@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-04-03 13:17 +0400'
 identifier: ref_6NqAify2
 title: Google Analytics
-order: 100
+order: 700
 published: true
 ---
 In order for your store to thrive and succeed in the eCommerce industry, you need to be able to make informed decisions: quick enough that you won’t be left out to dry, and sound enough that you can still afford to stay ahead of your competition. Decisions should be based on different statistics gathered through your store and it's rather difficult to trace all this info manually. Hence you'll need an instrument that will do this for you. 
