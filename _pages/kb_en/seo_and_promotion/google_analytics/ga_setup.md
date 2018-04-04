@@ -5,7 +5,7 @@ updated_at: '2018-04-03 13:24 +0400'
 identifier: ref_7aqHV7fa
 title: Installing and Configuring  Google Analytics Module
 order: 100
-published: false
+published: true
 ---
 First of all you'll need to enable the Google Analytics module as described in the {% link "Managing addons" ref_gTOegEua %} guide.
 
@@ -44,7 +44,3 @@ The module configuration settings are as follows:
 * **Enable eCommerce Google Analytics** : ON/OFF
 * **Register purchase only on Paid status change** : 
 * **Debug mode** : Enable to check all actions submitted to Google Analytics in JS console.
-
-
-
-
