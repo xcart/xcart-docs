@@ -24,3 +24,4 @@ _In this section:_
 *   {% link "Setting up volume discounts for products" ref_xEadpu9F %}
 *   {% link "Promote Sales with User Memberships" ref_memberships_ext %}
 *   {% link "Connecting to Kissmetrics" ref_C3AVd3Zp %}
+*   {% link "Google Analytics" ref_6NqAify2 %}
