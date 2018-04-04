@@ -43,6 +43,6 @@ The module configuration settings are as follows:
 * **Google Analytics code version** : A preset value is [Universal Analytics](https://support.google.com/analytics/answer/3450662?hl=en "Installing and Configuring  Google Analytics Module"). Also, it's possible to set the value to Traditional.
 * **Enable eCommerce Google Analytics** : ON/OFF
 * **Register purchase only on Paid status change** : 
-* **Debug mode** : Enable to check all actions submitted to Google Analytics in JS console.
+* **Debug mode** : Enable to check all actions submitted to Google Analytics in a browser JS console.
 
 **Submit** changes when the module configuration is complete. Google Analytics will collect staistics based on the settings you specified.
