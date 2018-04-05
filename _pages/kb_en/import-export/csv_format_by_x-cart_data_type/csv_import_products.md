@@ -637,6 +637,32 @@ There are many more fields which you can include into your product CSV file. Bel
         <br>Multiple&nbsp;</td>
     </tr>
     <tr>
+      <tr>
+      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Free Shipping and Shipping freights</strong> module</em>
+      </td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">shipForFree</td>
+      <td class="confluenceTd">
+        <p>Enables/disables the 'Free shipping' option for a product</p>
+      </td>
+      <td class="confluenceTd">Yes/No</td>
+    </tr>
+  <tr>
+      <td class="confluenceTd">freeShipping</td>
+      <td class="confluenceTd">
+        <p>Enables/disables the 'Exclude from shipping cost calculation' option for a product</p>
+      </td>
+      <td class="confluenceTd">Yes/No</td>
+    </tr>
+  <tr>
+      <td class="confluenceTd">freightFixedFee</td>
+      <td class="confluenceTd">
+        <p>Defines a fixed shipping fee for a product</p>
+      </td>
+      <td class="confluenceTd">Float (e.g. 1.00)</td>
+    </tr>
+    <tr>
   </tbody>
 </table>
 
