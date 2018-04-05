@@ -56,15 +56,27 @@ When the levels are configured, you can add products on the very last step by cl
   
   ![select_products.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/select_products.png)
   
+  
 * If the products are not uploaded to the store as yet, you can import them with a .csv file using the guides from {% link "CSV import: Products" ref_WmJBfwxA %}.
   The fields that should be added to a .csv file to populate the module with products should be as follows:
   
   ![csv.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/csv.png)
   
+  
+  The fields' names in the .csv file should correspond with the level names you set on the **Make/Model/Year Module** settings page.
+  
   {% note info %}
-  The fields' names in the .csv file should correspond with the level names you set on the **Make/Model/Year Module** settings page. 
-  You can upload products to the module even without configuring the module levels beforehand. The levels and their values will be added to the **Catalog** -> **Make/Model/Year/Engine** section automatically from the .csv file you imported. 
+  
+  If the value **ALL** is specified for a field, the SKU will be added to all existing level values (works for predefined levels only). 
+  
+  e.g. 
+  make/model/year : all/A5/2012
+  
+  In this case new items will be added to all existing Make levels (<make1>/A5/2012, … <makeNN>/A5/2012). You can even import values as make/model/year: all,all,all and the SKU will be added to all existing Make/Model/Year levels. 
+  
   {% endnote %}
+  
+  You can upload products to the module even without configuring the module levels beforehand. The levels and their values will be added to the **Catalog** -> **Make/Model/Year/Engine** section automatically from the .csv file you imported. 
   
 Starting from Level 2 (**Model**), each sublevel has a special **Level info** page, that if configured will be displayed in the storefront depending on the selected filters. It’s especially useful if you want to provide your customers with additional information on Make, Model or particular vehicle when they select it. Due to flexible settings, you can set the same page, for example, for all models and years or a separate page for each model (and even year). Using a simple interface you can set the page Title, Image and Description. 
 
