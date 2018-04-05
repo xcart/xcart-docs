@@ -638,7 +638,6 @@ There are many more fields which you can include into your product CSV file. Bel
         <br>Multiple&nbsp;</td>
     </tr>
     <tr>
-      <tr>
       <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Free Shipping and Shipping freights</strong> module</em>
       </td>
     </tr>
