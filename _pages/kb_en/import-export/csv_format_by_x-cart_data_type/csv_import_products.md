@@ -666,6 +666,7 @@ There are many more fields which you can include into your product CSV file. Bel
   </tbody>
 </table>
 
+
 <sub>* Required field.</sub>
 
 <sub markdown="1">** See {% link "CSV field attributes" ref_2LwMTTTW %} for more info.</sub>
