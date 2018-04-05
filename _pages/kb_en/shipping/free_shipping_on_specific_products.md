@@ -43,7 +43,7 @@ You have 3 items:
 
 You have 2 rates:
   * Standard Shipping: flat rate $5
-  * Express shipping: flat rate $10
+  * Express Shipping: flat rate $10
 
 Example 1.
 
