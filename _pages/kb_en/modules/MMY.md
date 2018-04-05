@@ -72,7 +72,7 @@ When the levels are configured, you can add products on the very last step by cl
   e.g. 
   make/model/year : all/A5/2012
   
-  In this case new items will be added to all existing Make levels (<make1>/A5/2012, … <makeNN>/A5/2012). You can even import values as make/model/year: all,all,all and the SKU will be added to all existing Make/Model/Year levels. 
+  In this case new items will be added to all existing Make levels (make1/A5/2012, … makeNN/A5/2012). You can even import values as make/model/year: all,all,all and the SKU will be added to all existing Make/Model/Year levels. 
   
   {% endnote %}
   
