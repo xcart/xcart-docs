@@ -511,8 +511,6 @@ There are many more fields which you can include into your product CSV file. Bel
           <li>You want to set up price tiers as follows:<br>If a customer buys from 1 to 5 items, each item will cost $50
             <br>If they buy from 6 items, then the price will be $45<br>If a customer with Wholesaler membership buys from 3 items, then the price will be $40&nbsp;<br><br>Then you would need to specify this system as follows in the CSV file:
             <br>&nbsp;<strong>1-5=50.00&amp;&amp;6=45.00&amp;&amp;3(Wholesaler)=40.00</strong>
-            
-            
           </li>
         </ol>
       </td>
@@ -588,6 +586,36 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
       <td class="confluenceTd">String,
         <br>Multiple&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Make/Model/Year</strong> module</em>
+      </td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">make</td>
+      <td class="confluenceTd">
+        <p>Make of the product.</p>
+        <p>If <strong>ALL</strong> is specified as the field value the SKU will be added to all existing level values from MAKE_1 to MAKE_NN </p>
+      </td>
+      <td class="confluenceTd">String</td>
+      <td class="confluenceTd">model</td>
+      <td class="confluenceTd">
+        <p>Model of the product.</p>
+        <p>If <strong>ALL</strong> is specified as the field value the SKU will be added to all existing level values from MODEL_1 to MODEL_NN </p>
+      </td>
+      <td class="confluenceTd">String</td>
+      <td class="confluenceTd">year</td>
+      <td class="confluenceTd">
+        <p>Year of the product.</p>
+        <p>If <strong>ALL</strong> is specified as the field value the SKU will be added to all existing level values from YEAR_1 to YEAR_NN </p>
+      </td>
+      <td class="confluenceTd">String</td>
+      <td class="confluenceTd">engine</td>
+      <td class="confluenceTd">
+        <p>Engine of the product.</p>
+        <p>If <strong>ALL</strong> is specified as the field value the SKU will be added to all existing level values from ENGINE_1 to ENGINE_NN </p>
+      </td>
+      <td class="confluenceTd">String</td>
     </tr>
   </tbody>
 </table>
