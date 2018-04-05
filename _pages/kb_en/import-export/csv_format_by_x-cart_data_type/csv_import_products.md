@@ -592,7 +592,7 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
     </tr>
     <tr>
-      <td class="confluenceTd">make</td>
+      <td class="confluenceTd">make***</td>
       <td class="confluenceTd">
         <p>Make of the product.</p>
         <p>If <strong>ALL</strong> is specified as the field value the SKU will be added to all existing level values from MAKE_1 to MAKE_NN </p>
@@ -600,7 +600,7 @@ There are many more fields which you can include into your product CSV file. Bel
       <td class="confluenceTd">String</td>
     </tr>
   <tr>
-      <td class="confluenceTd">model</td>
+      <td class="confluenceTd">model***</td>
       <td class="confluenceTd">
         <p>Model of the product.</p>
         <p>If <strong>ALL</strong> is specified as the field value the SKU will be added to all existing level values from MODEL_1 to MODEL_NN </p>
@@ -608,7 +608,7 @@ There are many more fields which you can include into your product CSV file. Bel
       <td class="confluenceTd">String</td>
     </tr>
   <tr>
-      <td class="confluenceTd">year</td>
+      <td class="confluenceTd">year***</td>
       <td class="confluenceTd">
         <p>Year of the product.</p>
         <p>If <strong>ALL</strong> is specified as the field value the SKU will be added to all existing level values from YEAR_1 to YEAR_NN </p>
@@ -616,7 +616,7 @@ There are many more fields which you can include into your product CSV file. Bel
       <td class="confluenceTd">String</td>
     </tr>
   <tr>
-      <td class="confluenceTd">engine</td>
+      <td class="confluenceTd">engine***</td>
       <td class="confluenceTd">
         <p>Engine of the product.</p>
         <p>If <strong>ALL</strong> is specified as the field value the SKU will be added to all existing level values from ENGINE_1 to ENGINE_NN </p>
@@ -629,6 +629,8 @@ There are many more fields which you can include into your product CSV file. Bel
 <sub>* Required field.</sub>
 
 <sub markdown="1">** See {% link "CSV field attributes" ref_2LwMTTTW %} for more info.</sub>
+
+<sub markdown="1">*** The field name should correspond with the level name defined in the Make/Model/Year module settings. See {% link "Make/Model/Year Module" ref_0Esu2RNW %} for more info.</sub>
 
 ### Tips:
 
