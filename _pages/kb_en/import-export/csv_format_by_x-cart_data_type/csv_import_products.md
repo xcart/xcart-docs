@@ -588,7 +588,8 @@ There are many more fields which you can include into your product CSV file. Bel
         <br>Multiple&nbsp;</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Make/Model/Year</strong> module</em>
+      <td colspan="3" class="confluenceTd">
+        <em>Fields added by <strong>Make/Model/Year</strong> module</em>
       </td>
     </tr>
     <tr>
@@ -599,7 +600,7 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
       <td class="confluenceTd">String</td>
     </tr>
-  <tr>
+  	<tr>
       <td class="confluenceTd">model***</td>
       <td class="confluenceTd">
         <p>Model of the product.</p>
@@ -607,7 +608,7 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
       <td class="confluenceTd">String</td>
     </tr>
-  <tr>
+  	<tr>
       <td class="confluenceTd">year***</td>
       <td class="confluenceTd">
         <p>Year of the product.</p>
@@ -615,7 +616,7 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
       <td class="confluenceTd">String</td>
     </tr>
-  <tr>
+  	<tr>
       <td class="confluenceTd">engine***</td>
       <td class="confluenceTd">
         <p>Engine of the product.</p>
@@ -623,7 +624,7 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
       <td class="confluenceTd">String</td>
     </tr>
-  <tr>
+  	<tr>
       <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Product Tags</strong> module</em>
       </td>
     </tr>
@@ -631,7 +632,7 @@ There are many more fields which you can include into your product CSV file. Bel
       <td class="confluenceTd">tag</td>
       <td class="confluenceTd">
         <p>Product tags values</p>
-        <p>Multiple values must be separated by && construction.</p>
+        <p>Multiple values must be separated by &amp;&amp; construction.</p>
       </td>
       <td class="confluenceTd">String,
         <br>Multiple&nbsp;</td>
