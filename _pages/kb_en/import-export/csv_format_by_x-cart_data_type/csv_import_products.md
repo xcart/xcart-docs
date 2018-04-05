@@ -598,18 +598,24 @@ There are many more fields which you can include into your product CSV file. Bel
         <p>If <strong>ALL</strong> is specified as the field value the SKU will be added to all existing level values from MAKE_1 to MAKE_NN </p>
       </td>
       <td class="confluenceTd">String</td>
+    </tr>
+  <tr>
       <td class="confluenceTd">model</td>
       <td class="confluenceTd">
         <p>Model of the product.</p>
         <p>If <strong>ALL</strong> is specified as the field value the SKU will be added to all existing level values from MODEL_1 to MODEL_NN </p>
       </td>
       <td class="confluenceTd">String</td>
+    </tr>
+  <tr>
       <td class="confluenceTd">year</td>
       <td class="confluenceTd">
         <p>Year of the product.</p>
         <p>If <strong>ALL</strong> is specified as the field value the SKU will be added to all existing level values from YEAR_1 to YEAR_NN </p>
       </td>
       <td class="confluenceTd">String</td>
+    </tr>
+  <tr>
       <td class="confluenceTd">engine</td>
       <td class="confluenceTd">
         <p>Engine of the product.</p>
