@@ -11,10 +11,9 @@ In order for your store to thrive and succeed in the eCommerce industry, you nee
 
 X-Cart Is integrated with Google Analytics through the [Google Analytics](https://market.x-cart.com/addons/google-analytics.html "Google Analytics") module that is free and available in all X-Cart editions (Business, Multivendor and Ultimate). The module enables you to collect statistics on your eCommerce website and analyze the store traffic and marketing effectiveness. The gathered insights will help you to make the right improvements in your online store as it may have a lot of holes that are draining your bank account. If you don't spend time on analytics of the kind, the time will come that your eCommerce ship will sink drastically.
 
-Analytics is a vital component of your responsibility as an eCommerce store merchant. Tracking eCommerce transactions in Google Analytics allows you to see the value of traffic by geography, keyword, referral, campaign, and many other dimensions. You can see eCommerce performance metrics on the Ecommerce tab of many reports. In addition, the Ecommerce reports provide information on product and sales performance, number of transactions, and time to purchase.
+Analytics is a vital component of your responsibility as an eCommerce store merchant. Tracking eCommerce transactions in Google Analytics allows you to measure user interactions across the user's entire online shopping experience including: product impressions, product clicks, viewing product details, adding a product to a shopping cart, initiating the checkout process, transactions, and refunds. In addition, the Ecommerce reports provide information the value of traffic by geography, keyword, referral, campaign, and many other dimensions. You can see eCommerce performance metrics on the Ecommerce tab of many reports. 
 
 With Google Analytics, you are more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites.
 
 1. {% link "Installing and Configuring  Google Analytics Module" ref_7aqHV7fa %}
 2. eCommerce Tracking with Google Analytics
-
