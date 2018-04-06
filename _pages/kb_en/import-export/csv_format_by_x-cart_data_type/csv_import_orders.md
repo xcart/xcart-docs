@@ -76,7 +76,6 @@ Below is a list of supported fields and their respective value types for categor
       <td colspan="1" class="confluenceTd">Customer country code (ISO 3166-1 alpha-2 format (2 characters)) in the billing address</td>
       <td colspan="1" class="confluenceTd">String,<br>Max. length: 2</td>
     </tr>
-
     <tr>
       <td colspan="1" class="confluenceTd">customerStateIdBillingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer state name if X-Cart has a defined state for the customer. Otherwise, use customerCustomStateBillingAddressField.<br>Example: Oklahoma</td>
@@ -132,7 +131,7 @@ Below is a list of supported fields and their respective value types for categor
       <td colspan="1" class="confluenceTd">String,<br>Max. length: 2</td>
     </tr>
 
-    <tr>
+   <tr>
       <td colspan="1" class="confluenceTd">customerStateIdShippingAddressField</td>
       <td colspan="1" class="confluenceTd">Customer state name if X-Cart has a defined state for the customer. Otherwise, use customerCustomStateShippingAddressField.<br>Example: Oklahoma</td>
       <td colspan="1" class="confluenceTd">String</td>
@@ -407,12 +406,28 @@ Below is a list of supported fields and their respective value types for categor
       <td colspan="1" class="confluenceTd">Human-readable translation of the shipping status</td>
       <td colspan="1" class="confluenceTd">String,<br>Multilingual</td>
     </tr>
+    <tr>
+      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Loyalty Program</strong> addon</em>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">REWARDPOINTS (surcharge)***</td>
+      <td colspan="1" class="confluenceTd">Order TOTAL discount surcharge in an absoulte value added by the Loyalty Programm module settings. Example: -3. This example value stands for a $3.00 USD discount, if the order currency is USD. </td>
+      <td colspan="1" class="confluenceTd">Float</td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">REWARDPOINTSSUB (surcharge)***</td>
+      <td colspan="1" class="confluenceTd">Order SUBTOTAL discount surcharge in an absoulte value added by the Loyalty Programm module settings. Example: -3. This example value stands for a $3.00 USD discount, if the order currency is USD.</td>
+      <td colspan="1" class="confluenceTd">Float</td>
+    </tr>
   </tbody>
 </table>
 
 <sub>* Required field.</sub>
 
 <sub markdown="1">** See CSV field attributes for more info.</sub>
+
+<sub markdown="1">*** Depending on the {% link "Loyalty Program" ref_1Odyn6mT %} module settings the values can be defined either for REWARDPOINTS (surcharge) or for REWARDPOINTSSUB (surcharge). Not for both of them at the same time.
 
 **Tips**:
 
