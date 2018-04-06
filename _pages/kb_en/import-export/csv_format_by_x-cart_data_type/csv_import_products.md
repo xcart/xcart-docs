@@ -648,24 +648,22 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
       <td class="confluenceTd">Yes/No</td>
     </tr>
-  <tr>
+  	<tr>
       <td class="confluenceTd">freeShipping</td>
       <td class="confluenceTd">
         <p>Enables/disables the 'Exclude from shipping cost calculation' option for a product</p>
       </td>
       <td class="confluenceTd">Yes/No</td>
     </tr>
-  <tr>
+  	<tr>
       <td class="confluenceTd">freightFixedFee</td>
       <td class="confluenceTd">
         <p>Defines a fixed shipping fee for a product</p>
       </td>
       <td class="confluenceTd">Float (e.g. 1.00)</td>
     </tr>
-    <tr>
   </tbody>
 </table>
-
 
 <sub>* Required field.</sub>
 
