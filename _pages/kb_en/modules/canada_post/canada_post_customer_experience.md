@@ -31,11 +31,11 @@ The shipping cost estimation for Canada Post methods is provided based on rates
 ## Deliver to Post Office
 
 Customers who choose the _Xpresspost™_ or _Expedited Parcel_™ shipping method at checkout can select a delivery option called _Deliver to Post Office_. 
-![](attachments/7505658/7602816.png)
+![]({{site.baseurl}}/attachments/7505658/7602816.png)
 
 The _Deliver to Post Office_ option allows your customers the choice to have purchases delivered directly to the Post Office of their choice—such as one near their home, office or cottage.When a customer selects this option at checkout, a listing of post offices near the shipping address provided by the customer for this order is displayed. The customer can then specify the post office at which they prefer to collect their purchase:
 
-![](attachments/7505658/7602815.png)
+![]({{site.baseurl}}/attachments/7505658/7602815.png)
 
 (The number of nearby post offices that should be displayed to a customer for the _Deliver to Post Office_ option can be limited via the Canada Post settings page in the store's Admin area). The address of the post office selected by the customer is included into the order invoice:
 ![]({{site.baseurl}}/attachments/7505658/7602818.png)
@@ -43,7 +43,7 @@ The _Deliver to Post Office_ option allows your customers the choice to have pur
 ## Tracking
 
 The module seamlessly integrates Canada Post tracking (self-check and notifications) into your online store so your customers don't have to go to a third-party website to check delivery status and tracking.Firstly, for each shipment sent from your store via Canada Post there will be a Tracking pin link that the customer will be able to access via the respective Order details page in their account:
-![](attachments/7505658/7602819.png)
+![]({{site.baseurl}}/attachments/7505658/7602819.png)
 
 By clicking on this link the customer will be able to track their order starting from the moment order information is received by Canada Post to the moment the shipment is delivered, and see any delivery exceptions as they occur: 
 ![]({{site.baseurl}}/attachments/7505658/7602811.png)
@@ -52,7 +52,7 @@ The same link allows the customer to access and view delivery confirmation files
 
 ## Returns
 
-The module supports returns for orders shipped by Canada Post. Each order that was shipped to customer using a Canada Post shipping method has a **Return products** button on its details page:![](attachments/7505658/7602824.png)After a customer clicks this button, a form pops up allowing the customer to select the items that need to be returned and to place some note for the store admin:
+The module supports returns for orders shipped by Canada Post. Each order that was shipped to customer using a Canada Post shipping method has a **Return products** button on its details page:![]({{site.baseurl}}/attachments/7505658/7602824.png)After a customer clicks this button, a form pops up allowing the customer to select the items that need to be returned and to place some note for the store admin:
 ![]({{site.baseurl}}/attachments/7505658/7602825.png)
 
 After completing the form, the customer submits the return request by clicking the **Create return** button. After the request has been submitted, it needs to be reviewed and authorized or declined by the merchant. If the return is authorized, an appropriate email notification is sent to the customer with the PDF image of the authorized return label attached to it. If the return is declined, the customer is also notified by email, but this time no return label is sent to them; the notification message may contain a note providing a reason for the request being declined.
