@@ -7,6 +7,4 @@ title: Ecommerce dashboards
 order: 100
 published: false
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Ecommerce reports are incredibly powerful, but they don’t give you all the data you need at a glance. For that, you need a custom dashboard.
