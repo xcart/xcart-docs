@@ -9,13 +9,12 @@ published: false
 ---
 First of all it's necessary to specify that Ecommerce tracking stands for collecting and analyzing only purchase and transaction data. Besides that you can analyze your customer traffic, adds strategy, email marketing, etc. Ecommerce reports allow you to analyze purchase activity on your site. You can see product and transaction information, average order value, ecommerce conversion rate, time to purchase, and other purchase related data.
 
-When you open a Google Analytics dashboard for the first time you'll see a screen like this
+When you open a Google Analytics home for the first time you'll see a screen like this
 
 ![Analytics.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/Analytics.png)
 
-The default Google Analytics reports that you'll see on the homepage will likely be 
-* User Traffic
-  This graph shows changes in traffic on a daily basis. The default view shows the total number of sessions. 
+The default Google Analytics reports that you'll see on the homepage are most likely to be 
+* User Traffic 
 * How do you acquire users?
 * How are your active users trending over time?
 * How well do you retain users?
@@ -26,12 +25,18 @@ The default Google Analytics reports that you'll see on the homepage will likely
 * How are you performing against goals?
 * What are your top selling products?
 
+These reports will give you an insight into how your business is doing, who your customers are, where they’re coming from, and what they are buying.
 
-Use the Dashboard section to create custom dashboards for you or your team.
-The Shortcuts section gives you quick access to frequently used reports.
-Intelligence Events gives you alerts to significant changes in your site’s traffic or other statistics.
-The Real Time dashboard shows you traffic and engagement figures on a live, real time basis.
-Use the Audience section to drill down on data related to your audience’s location, browser, platform, demographics, and interests. You can also do cohort analysis and visualize your audience’s flow through your site.
-The Acquisition section shows you how you acquired your customers, whether through search, social, referrals, advertising, or direct visits from typing your site’s URL into the browser bar.
-Use the Behavior tab to understand how visitors interact with your site. Besides measuring site speed and content popularity on a per-page basis, you can also conduct A/B testing here to identify the best possible page layout for maximum engagement.
-The Conversions section is useful for tracking conversion rates for your stated goals. There is also a separate tab for e-commerce tracking which enables you to check sales and product performance.
+All reports are joined into groups that are listed in the left column to your convenience.  
+1. Real-time section shows you traffic and engagement figures on a live, real time basis.
+2. Audience section covers data related to your audience’s location, browser, platform, demographics, and interests. You can also do cohort analysis and visualize your audience’s flow through your site.
+3. Acquisition section shows you how  and where did you get your customers (search, social, referrals, advertising, or direct visits).
+4. Behavior section contains reports on the visitors' interaction with your site. You can learn what pages are most popular with your customers, get stats on the site events,etc.
+5. Conversions section is useful for tracking conversion rates for your stated goals. The Conversions -> E-commerce tab is where X-Cart GA integration module is submitting your store data for tracking.
+
+
+
+Besides reports there is also a Customization section where you can 
+
+
+
