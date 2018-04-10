@@ -18,4 +18,4 @@ Analytics is a vital component of your responsibility as an ecommerce store merc
 With Google Analytics, you are more prepared to write better-targeted ads, strengthen your marketing initiatives and create higher converting websites.
 
 1. {% link "Installing and Configuring  Google Analytics Module" ref_7aqHV7fa %}
-2. Ecommerce Tracking with Google Analytics
+2. {% link "Ecommerce Tracking with Google Analytics" ref_3B4yRZ99 %}
