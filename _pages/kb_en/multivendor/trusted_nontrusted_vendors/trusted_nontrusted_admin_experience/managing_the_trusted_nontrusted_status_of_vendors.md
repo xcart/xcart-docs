@@ -11,5 +11,6 @@ The store administrator can mark vendors as trusted or non-trusted. Any products
 
 Before a vendor is given the status of "trusted" by the store administrator, their status is "untrusted". To mark a vendor as trusted, the store administrator must review their profile and set the required "trusted" status via the **Trusted vendor** field in the Company details section of the vendor profile:
 ![tnt_vendor_status1.png]({{site.baseurl}}/attachments/ref_2ETaFqTV/tnt_vendor_status1.png)
+The status of a vendor can be reset to "untrusted" at any time should the store administrator require to do so.
 
 
