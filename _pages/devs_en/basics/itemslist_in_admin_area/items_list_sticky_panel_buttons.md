@@ -9,7 +9,7 @@ published: true
 ---
 ## Introduction
 
-This article explains how to create buttons on sticky panel in {% link "editable ItemsLists" ref_hBpBE0vS %}. These buttons are like these:
+This article explains how to create buttons on sticky panel in {% link "editable ItemsLists" ref_hBpBE0vS %}. These buttons look as follows:
 
 ![sticky-panel-buttons.png]({{site.baseurl}}/attachments/ref_vHI163Zu/sticky-panel-buttons.png)
 
@@ -17,11 +17,11 @@ This article explains how to create buttons on sticky panel in {% link "editable
 
 ## Creating editable ItemsList
 
-This part is about creating a module, a page and ItemsList widget on this page. Essentially, we just create the same module as explained in the article about {% link "editable ItemsLists" ref_hBpBE0vS %} as an environment for illustrating how to create sticky panel's buttons.
+This part is about creating a module, a page and ItemsList widget on the page. Essentially, we just create the same module as explained in the article about {% link "editable ItemsLists" ref_hBpBE0vS %} as an environment for illustrating how to create sticky panel's buttons.
 
 ### Creating module and page
 
-So, we create a module with developer ID **XCExample** and module ID **ItemsListStickyPanel**. In this module, we create page **admin.php?target=sticky_panel_demo**, so we create:
+We start with creating a module with developer ID **XCExample** and module ID **ItemsListStickyPanel**. In this module, we create page **admin.php?target=sticky_panel_demo**, so we create:
 - empty controller class `\XLite\Module\XCExample\ItemsListStickyPanel\Controller\Admin\StickyPanelDemo`
 
 ```php
@@ -167,14 +167,6 @@ class StickyPanelDemoEntity extends \XLite\View\ItemsList\Model\Table
         );
     }
 
-    public function getCSSFiles()
-    {
-        return array_merge(
-            parent::getCSSFiles(),
-            ['modules/XCExample/ItemsListStickyPanel/css/style.css']
-        );
-    }
-
     protected function defineRepositoryName()
     {
         return 'XLite\Module\XCExample\ItemsListStickyPanel\Model\StickyPanelDemoEntity';
@@ -269,7 +261,7 @@ There are three types of buttons in sticky panel:
 - additional buttons that separated by 'or' label from main button;
 - other buttons.
 
-![sticky-panel-buttons.png]({{site.baseurl}}/attachments/ref_vHI163Zu/sticky-panel-buttons.png)
+![types-of-sticky-panel-buttons.png]({{site.baseurl}}/attachments/ref_vHI163Zu/types-of-sticky-panel-buttons.png)
 
 All buttons are .btn elements from Bootstrap:
 <https://getbootstrap.com/docs/3.3/components/#btn-groups>
@@ -419,7 +411,7 @@ or we can pass these parameters from inside `defineButtons()` method like this:
 
 As you can see, `getWidget()` method takes first paramater is an array of parameters for a widget passed as a second parameter.
 
-Another important moment here is that we specify `always-enabled` CSS style for this button. It is needed in order to activate the button even before the form itself is changed. If we do not specify this class, the button will not be active until we change some record in the ItemsList.
+Another important moment here is that we specify `always-enabled` CSS style for this button. It is needed in order to activate the button, even if the form itself is not changed. If we do not specify this CSS class, the button will not be active until we change some record in the ItemsList.
 
 When you click the button, it will submit a request to `admin.php?target=sticky_panel_demo` page with `action=demo_one`. Of course, you can add your own handler for such action in the controller (`doActionDemoOne()` method) that would process this request as you need.
 
@@ -437,7 +429,7 @@ We add the `\XLite\Module\XCExample\ItemsListStickyPanel\Controller\Admin\Sticky
     }
 ```
 
-By dumping request object `\XLite\Core\Request::getInstance()`, we can find out all the data in this request. Data of existing form can be accessed as `\XLite\Core\Request::getInstance()->data`, while new entities can be accessed as `\XLite\Core\Request::getInstance()->new`.
+By dumping request object `\XLite\Core\Request::getInstance()`, we can find out all the data in this request. Data of existing form can be accessed as `\XLite\Core\Request::getInstance()->data`, while new entities can be accessed as `\XLite\Core\Request::getInstance()->new`, etc.
 
 ## Creating dropdown button
 
@@ -523,7 +515,9 @@ After that let us add this button to our sticky panel. For that we define `\XLit
     }
 ```
 
-We see here a button from the previous paragraph (`$list['mybutton']`) and dropdown one (`$list['dropdown']`). It has already known 'label' and 'style' parameters. Having `more-action` CSS style is needed in order to allow proper rendering of dropdown button. 'useCaretButton' parameter as `false` is needed in order to render the caret icon inside the button. 'dropDirection' parameter defines how the dropdown list will be expanded: upside or downside. In our case it will expand to the bottom.
+We see here a button from the previous paragraph (`$list['mybutton']`) and dropdown one (`$list['dropdown']`). It has already known 'label' and 'style' parameters. 
+- Having `more-action` CSS style is needed in order to allow proper rendering of dropdown button. - 'useCaretButton' parameter as `false` is needed in order to render the caret icon inside the button. 
+- 'dropDirection' parameter defines how the dropdown list will be expanded: upside or downside. In our case it will expand to the bottom.
 
 Once you refresh the page, you will see this button in sticky panel as follows:
 ![dropdown-demo-button.png]({{site.baseurl}}/attachments/ref_vHI163Zu/dropdown-demo-button.png)
@@ -532,6 +526,7 @@ Once you refresh the page, you will see this button in sticky panel as follows:
 ## Creating additional buttons
 These are buttons separated by 'or' label from main button:
 ![additional-buttons.png]({{site.baseurl}}/attachments/ref_vHI163Zu/additional-buttons.png)
+
 
 Let us create the same dropdown button from the above paragraph as additional button. However, this button will not be visible unless we select some records.
 
