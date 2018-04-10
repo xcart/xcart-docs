@@ -41,8 +41,8 @@ The module configuration settings are as follows:
 
 * **What are you tracking** : Choose between _single domain_ / _one domain with multiple subdomains_ / _multiple top level domains_ depending on your preferences. 
 * **Google Analytics code version** : A preset value is [Universal Analytics](https://support.google.com/analytics/answer/3450662?hl=en "Installing and Configuring  Google Analytics Module"). Also, it's possible to set the value to Traditional.
-* **Enable eCommerce Google Analytics** : Enable/Disable submitting data to eCommerce Google Analytics
-* **Register purchase only on Paid status change** : When enabled, X-Cart submits info to Google Analytics when an order status is changed to 'Paid'. When disabled, X-Cart submits info to Google Analytics on new orders with any possible order statuses.
+* **Enable eCommerce Google Analytics** : Enable/Disable submitting ecommerce data to Google Analytics
+* **Register purchase only on Paid status change** : When enabled, order data is sent to Google Analytics when an order becomes ‘Paid’. When disabled, X-Cart sends order when an invoice page shows up to a customer regardless of the order status.
 * **Debug mode** : Enable to check all actions submitted to Google Analytics in a browser JS console.
 
 **Submit** changes when the module configuration is complete. Google Analytics will collect staistics based on the settings you specified.
