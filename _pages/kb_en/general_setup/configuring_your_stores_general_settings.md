@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-27 19:38 +0400'
 identifier: ref_qAZlJxZm
-title: Configuring your store's General settings
+title: Configuring your store General settings
 categories:
   - User manual
 published: true
