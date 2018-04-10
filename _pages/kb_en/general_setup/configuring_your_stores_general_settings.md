@@ -21,14 +21,16 @@ Below you can find some of the settings explained.
 ## Checkout type
 
 You can choose between:
+
 * **One Page Checkout**
   ![onepage-checkout.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/onepage-checkout.png)
 
 * **Fast Lane Checkout**
+
   <div class="ui stackable three column grid">
-  <div class="column" markdown="span">![fastlane-1.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/fastlane-1.png)</div>
-  <div class="column" markdown="span">![fastlane-2.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/fastlane-2.png)</div>
-</div>
+    <div class="column" markdown="span">![fastlane-1.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/fastlane-1.png)</div>
+    <div class="column" markdown="span">![fastlane-2.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/fastlane-2.png)</div>
+  </div>
 
 ## Customer Zone settings
 
