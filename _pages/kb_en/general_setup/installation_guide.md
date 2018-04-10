@@ -163,13 +163,13 @@ A video guide for installing X-Cart is available:
     for zip archive: 
 
     ```php
-    unzip x-cart-5.3.4.5-en.zip
+    unzip x-cart-5.3.4.6-en.zip
     ```
 
     for tgz archive: 
 
     ```php
-    tar -xzpf x-cart-5.3.4.5-en.tgz
+    tar -xzpf x-cart-5.3.4.6-en.tgz
     ```
 
     (Be sure to replace the file name with the actual name of the archive you have downloaded).
