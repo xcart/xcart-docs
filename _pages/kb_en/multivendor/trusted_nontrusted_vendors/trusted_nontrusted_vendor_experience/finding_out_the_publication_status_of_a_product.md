@@ -13,3 +13,4 @@ The following statuses are supported:
 
    * Product is unapproved
    * Product is sent for approval
+   * Product is declined
