@@ -9,7 +9,7 @@ published: false
 ---
 In a multivendor X-Cart store where the storefront operator/store administrator has enabled moderation for the content of new vendor-created product pages using the addon **Trusted/Non-trusted vendors**, vendors who have not been given the status of a "Trusted vendor" have to submit all the new products they create for approval by the store administrator. The store administrator reviews each new product and either approves or declines the publication of the product in the product catalog. The vendor who has submitted a product for approval can track the product's publication status (sent for approval, approved, declined). They can also search/filter their products by the publication status. 
 
-Find out how a non-trusted vendor can:
+Find out how a vendor without the "Trusted vendor" status can:
 
    * Submit their new products for approval by the storefron operator/store administrator.   
      See {% link "Getting new products approved for publishing" ref_4NXPSgua %}
