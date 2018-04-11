@@ -18,4 +18,4 @@ Find out how a vendor without the "Trusted vendor" status can:
      See {% link "Finding out the publication status of a product" ref_34yMnzpr %}
    
    * Find products by their publication status.
-     See {% link "Finding products by their publication status" ref_7zAxJLQG %}
+     See {% link "Finding products by their publication status" ref_3ge43cA0 %}
