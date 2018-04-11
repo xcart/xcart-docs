@@ -11,7 +11,9 @@ If the owner/administrator of a multivendor X-Cart store wishes to be able to re
 
 In a multivendor X-Cart store/online marketplace with the addon **Trusted/Non-trusted vendors** installed and active, the store administrator will be able to give individual vendors a trusted/non-trusted status. Trusted vendors will be able to add new products to the product catalog without moderation; non-trusted vendors will have to submit new products for approval by the store administrator before these products get published. 
 
-The store administrator will be notified of new products submitted for approval and will be able to either approve or decline the publication of the respective product pages. They will also be able to add a comment for the vendor regarding their decision.
+The store administrator will be notified of new products submitted for approval and will be able to either approve or decline the publication of the respective product pages. They will also be able to add a comment for the vendor regarding their decision. 
+
+The vendor will be notified of the administrator's decision by an email notification. If the administrator has chosen to provide a comment, the comment will be included in the email notification message.
 
 Find out how a store administrator can:
 
@@ -21,5 +23,8 @@ Find out how a store administrator can:
    * Give individual vendors a trusted/non-trusted status to specify who can add new products to the catalog without moderation, and who must submit new products for approval by the store administrator before they get published.
      See {% link "Managing the trusted/non-trusted status of vendors" ref_2ETaFqTV %}
    
-   * Approve or decline the publishing of new products created by non-trusted vendors.
+   * Approve or decline the publication of new products created by non-trusted vendors.
      See {% link "Reviewing the products of non-trusted vendors" ref_5G96zfLj %}
+     
+   * Adjust the email notifications sent to vendors after their product is approved or declined.  
+     See {% link "Managing email notifications for the Trusted/Non-trusted vendors addon" ref_2x7CPLIC %}
