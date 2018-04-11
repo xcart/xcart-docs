@@ -86,22 +86,22 @@ published: false
 *   **Максимально возможная сумма заказа**: Оплата заказа возможна, только если сумма заказа не превышает установленного значения.
     ![]({{site.baseurl}}/attachments/7505478/7602714.png)
     
-*   **Maximum order quantity (per product)** (used to be "Default purchase limit" in earlier X-Cart 5 versions): This setting allows you to limit the number of product units that a buyer can order at a time. If a buyer attempts to add to cart more product units than specified here, only the allowed quantity will be added; the buyer will be notified of the quantity adjustment with an appropriate message (For example, "Sorry, there's a limit of 1 per order for the product `<Product name>`. 1 unit(s) already in cart.")
+*   **Ограничение по количеству товара при заказе (на одну позицию)**: Настройка устанавливает количество единиц товара, которое покупатель может приобрести в одном заказе. Если покупатель положит в корзину больше единиц товара, в корзине окажется только допустимое количество. Покупатель получит уведомление об изменении состава корзины.
 
-*   **Force customer to choose product options before adding a product to cart**: This setting affects the add to cart behavior of products with modifier options and products with product variants. 
+*   **Требовать от покупателя выбрать опции товара, прежде чем положить товар в корзину**: Настройка актуальна для товаров с опциями и вариантами: 
     
-    *  _NO_ : A shopper can drag and drop products to cart without having to select any product options manually; the products are added to cart with default options:
+    *  _Нет_ : Покупатель может перетащить товар в корзину. Варианты и опции товара будут выбраны по умолчанию:
     ![options-1.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/options-1.png)
     
-    * _On Category Listing_ : A shopper hovering their mouse over a product with modifiers/variants will see a note "Choose the product options first". The shopper will need to click on the product to access its details and make a selection of product options with which they want to add the product to cart. (A product will have default options predefined):
+    * _На списке продуктов_ : Если покупатель выберет из списка товар с вариантами и опциями и нажмёт **Купить**, откроется окно быстрого просмотра товара, чтобы покупатель выбрал варианты/опции:
     ![options-2.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/options-2.png)
     
-    * _On Category and Product Details Page_ : The same as _On Category Listing_ plus nessecity to select product options on the product details page:
+    * _На списке продуктов и странице продукта_ : Если покупатель выберет из списка товар с вариантами и опциями и нажмёт **Купить**, откроется окно быстрого просмотра товара, чтобы покупатель выбрал варианты/опции. Если покупатель нажмёт **Купить** на странице товара, будет подсвечено поле вариантов/опций и появится сообщение _Пожалуйста, выберите элемент в этом списке_:
     ![options-3.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/options-3.png)
     
     
     {% note info %}
-    If you want to disable drag-n-drop option for products completely install the [Disable drag'n'drop add to cart](https://market.x-cart.com/addons/disable-drag-n-drop.html "Configuring your store&#39;s General settings") module and activate it. More info on modules installation you can find in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+    Чтобы отключить перетаскивание товаров в корзину, установите модуль [Disable drag'n'drop add to cart](https://market.x-cart.com/addons/disable-drag-n-drop.html "Configuring your store&#39;s General settings").
     {% endnote %}
 
 *   **Redirect customer to the cart page after a product is added to cart**: When this option is enabled, after adding a product to cart a shopper is redirected to the cart page where they can see the item they just added. When the option is disabled, the shopper remains on the same page. Please note that this setting is not compatible with X-Cart's Add to Cart module: when the module Add to Cart popup is enabled, adding a product to cart results in a popup being displayed.
