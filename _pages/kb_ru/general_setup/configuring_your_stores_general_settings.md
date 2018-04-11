@@ -54,8 +54,13 @@ published: false
     *   _По названию, А-Я_ - Товары сортируются по названию в алфавитном порядке.
     
     *   _По названию, Я-А _ - Товары сортируются по названию в порядке обратном алфавитному.
-
-*   **Default order to sort products within a search result**: This setting allows you to control the default display order for products that may be displayed in a list of search results after someone searches for a product in the Customer area. 
+    
+    *   _По рейтингу_ - В начале списка товары с самыми высокими оценками покупателей.
+    
+    *   _По продажам_ - В начале списка товары, которые покупают чаще.
+    
+   
+*   **Режим сортировки продуктов в результатах поиска по умолчанию**: Если в магазине работает модуль **Cloud Search**, он отвечает за результаты поиска и сортирует товары по соответствию запросу. Если **Cloud Search** отключён, результаты поиска сортируются аналогично категориям, один из режимов сортировки установлен по умолчанию (_Мы рекомендуем, По новизне, По возрастанию цены, По убыванию цены, По названию, А-Я, По названию, Я-А , По рейтингу, По продажам_). 
 
 *   **Default display mode for products list**: This setting allows you to set the default display mode for products on the storefront:
     
