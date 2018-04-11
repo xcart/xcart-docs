@@ -7,3 +7,8 @@ title: 'Trusted/Non-trusted vendors: Vendor experience'
 order: 100
 published: false
 ---
+Find out how a vendor can:
+
+   * Submit their new products for approval by the storefron operator/store administrator.   
+     See {% link "Getting new products approved for publishing" ref_4NXPSgua %}
+   
