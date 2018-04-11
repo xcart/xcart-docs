@@ -19,12 +19,14 @@ To approve or decline the publication of a product, the store administrator need
 If the administrator chooses to approve the publication of the product, a popup titled "Approve and add comment" will be displayed:
 ![tnt_approve_add_comment.png]({{site.baseurl}}/attachments/ref_5G96zfLj/tnt_approve_add_comment.png)
 
-To approve the publication of the product, the store administrator will need to click the **Approve product** button. Leaving a comment for the vendor is optional:
+To approve the publication of the product, the store administrator will need to click the **Approve product** button. Leaving a comment for the vendor is optional. 
 
-Decline and add comment popup 
+If the administrator chooses to decline the publication of the product, a popup titled "Decline and add comment" will be displayed:
 ![tnt_decline_add_comment.png]({{site.baseurl}}/attachments/ref_5G96zfLj/tnt_decline_add_comment.png)
 
-Add a comment (optional) and click **Decline product**:
-![tnt_decline_add_comment1.png]({{site.baseurl}}/attachments/ref_5G96zfLj/tnt_decline_add_comment1.png)
+To decline the publication of the product, the store administrator will need to click the **Decline product** button. Leaving a comment for the vendor is optional. 
+
+Approving or declining the publication of a product triggers an email notification to the vendor to notify them of the product status change. If the administrator has chosen to leave a comment, the comment is sent to the vendor along with the email notification.
+
 
 
