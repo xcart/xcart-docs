@@ -11,4 +11,6 @@ Find out how a vendor can:
 
    * Submit their new products for approval by the storefron operator/store administrator.   
      See {% link "Getting new products approved for publishing" ref_4NXPSgua %}
+     
+   * Find out the publication status of their products.  
    
