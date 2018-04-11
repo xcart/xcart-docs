@@ -104,7 +104,7 @@ published: false
     Чтобы отключить перетаскивание товаров в корзину, установите модуль [Disable drag'n'drop add to cart](https://market.x-cart.com/addons/disable-drag-n-drop.html "Configuring your store&#39;s General settings").
     {% endnote %}
 
-*   **Redirect customer to the cart page after a product is added to cart**: When this option is enabled, after adding a product to cart a shopper is redirected to the cart page where they can see the item they just added. When the option is disabled, the shopper remains on the same page. Please note that this setting is not compatible with X-Cart's Add to Cart module: when the module Add to Cart popup is enabled, adding a product to cart results in a popup being displayed.
+*   **Перенаправлять клиента в корзину, после добавления в нее товара**: When this option is enabled, after adding a product to cart a shopper is redirected to the cart page where they can see the item they just added. When the option is disabled, the shopper remains on the same page. Please note that this setting is not compatible with X-Cart's Add to Cart module: when the module Add to Cart popup is enabled, adding a product to cart results in a popup being displayed.
 
 *   **Display "Add to cart" buttons for products in grid view**: This setting defines whether "Add to cart" buttons should be displayed for products in grid view, or not. The snapshot below demonstrates products in grid view with "Add to cart" buttons enabled: 
     ![]({{site.baseurl}}/attachments/7505478/7602709.png)
