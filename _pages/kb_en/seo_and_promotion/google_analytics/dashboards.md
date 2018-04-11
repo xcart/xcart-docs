@@ -21,7 +21,7 @@ To evaluate the cost-effectiveness of an online store, you need to track the fol
 * revenue per traffic source
 * e-commerce conversion rate per traffic source
 
-Based on a custom sales sumary report of a kind you can get all the information on what is happening with the shop on a daily basis in a couple of minutes. All the data are collected on a single page.
+Based on a custom sumary report of a kind you can get all the information on what is happening with the shop on a daily basis in a couple of minutes. All the data are collected on a single page.
 
 To set up a report for your online store log in to Google Analytics, go to **Customization** -> **Dashboards** and hit the red **'Create'** button. 
 
@@ -42,9 +42,7 @@ You'll see a screen of the kind
 
 Each dashboard has space for 12 different widgets. Each widget displays a specific data set of your choosing.
 
-So let's create a widget for the total revenue parameter. 
-
-First, name a widget and choose the widget type - standard or real-time. Standard widgets reflect data for the selected time interval while real-time widgets show live data. Both standard an real-time widgets are categorized into types:
+To create a widget name it and choose the widget type - standard or real-time. Standard widgets reflect data for the selected time interval while real-time widgets show live data. Both standard an real-time widgets are categorized into types:
 
 * metric / counter
 * timeline
@@ -55,9 +53,9 @@ First, name a widget and choose the widget type - standard or real-time. Standar
 
 If you choose a table type do mind that the maximum number of rows is ten, and the maximum number of columns is three. If there are more rows in the table, it displays the first ten rows, sorted by the first metric.
 
-Then choose a metric for the widget in the drop-down. It will be **Revenue** for in our sample. If necessary you can add _filter_ to the metric. Once you hit **'Save'** this widget will be added to your dashboard.
+Then choose a metric for the widget in the drop-down. If necessary you can add _filter_ to the metric. Once you hit **'Save'** this widget will be added to your dashboard.
 
-The rest of the widgets are created in a like manner. You'll get a screen of the kind when all the widgets are created. If you want to edit the widgets, just click on them.
+You'll get a screen of the kind when all the widgets are created. If you want to edit the widgets, just click on them.
 
 ![sales-dashboard.png]({{site.baseurl}}/attachments/ref_38zRtgUZ/sales-dashboard.png)
 
