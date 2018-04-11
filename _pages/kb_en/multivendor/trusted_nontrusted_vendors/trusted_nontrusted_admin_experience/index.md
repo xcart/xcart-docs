@@ -26,5 +26,8 @@ Find out how a store administrator can:
    * Approve or decline the publication of new products created by non-trusted vendors.
      See {% link "Reviewing the products of non-trusted vendors" ref_5G96zfLj %}
      
+   * Find vendor products by their publication status.
+     See {% link "Finding products by their publication status" ref_3ge43cA0 %}
+       
    * Adjust the email notifications sent to vendors after their product is approved or declined.  
      See {% link "Managing email notifications for the Trusted/Non-trusted vendors addon" ref_2x7CPLIC %}
