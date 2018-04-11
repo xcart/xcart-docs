@@ -13,3 +13,5 @@ Find out how a vendor can:
      See {% link "Getting new products approved for publishing" ref_4NXPSgua %}
      
    * Find out the publication status of their products.
+   
+   * Find products by publication status.
