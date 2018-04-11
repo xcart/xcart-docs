@@ -26,7 +26,7 @@ If the administrator chooses to decline the publication of the product, a popup 
 
 To decline the publication of the product, the store administrator will need to click the **Decline product** button. Leaving a comment for the vendor is optional. 
 
-Approving or declining the publication of a product triggers an email notification to the vendor to notify them of the product status change. If the administrator has chosen to leave a comment, the comment is sent to the vendor along with the email notification.
+Approving or declining the publication of a product triggers an {% link "email notification" ref_2x7CPLIC %} to the vendor to notify them of the product status change. If the administrator has chosen to leave a comment, the comment is sent to the vendor along with the email notification.
 
 
 
