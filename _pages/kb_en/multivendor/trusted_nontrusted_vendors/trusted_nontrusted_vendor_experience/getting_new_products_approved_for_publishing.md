@@ -21,3 +21,4 @@ The vendor then has to wait for the store administrator to review the new produc
 or "Product is declined":
 ![tnt_product_declined_in_vendor.png]({{site.baseurl}}/attachments/ref_4NXPSgua/tnt_product_declined_in_vendor.png)
 
+If a product gets declined, the vendor needs to fix the product details specified by the store administrator and re-submit the product for approval after updating the product details.
