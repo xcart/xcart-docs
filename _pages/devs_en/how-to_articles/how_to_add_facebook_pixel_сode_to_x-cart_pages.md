@@ -8,6 +8,8 @@ categories:
   - How-To Articles
 published: true
 order: 100
+redirect_from:
+  - /how-to_articles/how_to_add_facebook_pixel_%D1%81ode_to_x-cart_pages.html
 ---
 
 This article describes how to add Facebook Pixel code to X-Cart pages. 
