@@ -30,14 +30,14 @@ published: false
     
 *   **Показывать номер чека для метода оплаты eCheck**: Эта настройка предназначена для магазинов, в которых возможна оплата чеком. Настройка включает и отключает поле с номером чека на странице платёжных данных при оплате чеком.
 
-*   **Subcategory listings format**: This setting defines how subcategories should be displayed on category pages. 
-    Setting the subcategory listings format to "_Icons_" allows you to have icons displayed for your subcategories:
+*   **Формат списка подкатегорий**: Настройка определяет, как подкатегории выглядят на странице категории: 
+     - Иконки с названиями подкатегорий
     ![]({{site.baseurl}}/attachments/7505478/7602697.png)
-    Setting the format to "_List_" produces a simple list of subcategory names, without icons:
+     - Список названий подкатегорий без иконок
     ![]({{site.baseurl}}/attachments/7505478/7602698.png)
     
     {% note info %}
-    This setting does not apply to root (top level) categories. The appearance of root categories on the store's Front page can be adjusted with the setting _'Root category listings format'_ in the **Content > Front page** section.
+    Настройка не влияет на корневые категории, внешний вид которых устанавливается в разделе **Содержание / Главная страница**.
     {% endnote %}
 
 *   **Default order to sort products within a category**: This setting allows you to control the default display order for products within a category. 
