@@ -80,10 +80,10 @@ published: false
 *  **Maximum products per category listing page**: This setting allows you to set the max number of products displayed on a category page. For example, if we set this to "10", max 10 products will be displayed per page. For the rest of the product list pagination will be provided:
     ![max_value.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/max_value.png)
 
-*   **Minimum allowed order subtotal**: This setting allows you to set the minimum order amount a shopper must reach before being allowed to check out.
+*   **Минимально возможная сумма заказа**: Оплата заказа возможна, только когда сумма заказа достигает установленного значения.
     ![]({{site.baseurl}}/attachments/7505478/7602713.png)
 
-*   **Maximum allowed order subtotal**: This setting allows you to set the maximum order amount. A shopper will be allowed to check out only if their order subtotal amount is less than this value.
+*   **Максимально возможная сумма заказа**: Оплата заказа возможна, только если сумма заказа не превышает установленного значения.
     ![]({{site.baseurl}}/attachments/7505478/7602714.png)
     
 *   **Maximum order quantity (per product)** (used to be "Default purchase limit" in earlier X-Cart 5 versions): This setting allows you to limit the number of product units that a buyer can order at a time. If a buyer attempts to add to cart more product units than specified here, only the allowed quantity will be added; the buyer will be notified of the quantity adjustment with an appropriate message (For example, "Sorry, there's a limit of 1 per order for the product `<Product name>`. 1 unit(s) already in cart.")
