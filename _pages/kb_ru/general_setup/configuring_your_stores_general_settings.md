@@ -62,15 +62,15 @@ published: false
    
 *   **Режим сортировки продуктов в результатах поиска по умолчанию**: Если в магазине работает модуль **Cloud Search**, он отвечает за результаты поиска и сортирует товары по соответствию запросу. Если **Cloud Search** отключён, результаты поиска сортируются аналогично категориям, один из режимов сортировки установлен по умолчанию (_Мы рекомендуем, По новизне, По возрастанию цены, По убыванию цены, По названию, А-Я, По названию, Я-А , По рейтингу, По продажам_). 
 
-*   **Default display mode for products list**: This setting allows you to set the default display mode for products on the storefront:
+*   **Режим отображения списка продуктов по умолчанию**: Настройка определяет предустановленный режим отображения списка товаров. Покупатель может изменить режим вручную:
     
-    *   _Grid_:
+    *   _Сетка_:
         ![]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_grid_view.png)
     
-    *   _List_:
+    *   _Список_:
         ![xc5_general_settings_list_view.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_list_view.png)
 
-    *   _Table_:
+    *   _Таблица_:
         ![xc5_general_settings_table_view.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_table_view.png)
 
 
