@@ -15,4 +15,5 @@ Once a new product is created by a non-trusted vendor, the vendor sees a panel i
 Once this happens, the status of the product is updated to "Product is sent for approval":
 ![tnt_product_sent_4_approval.png]({{site.baseurl}}/attachments/ref_4NXPSgua/tnt_product_sent_4_approval.png)
 
-The vendor then has to wait for the store administrator to review the new product. 
+The vendor then has to wait for the store administrator to review the new product and to either approve or decline its publication.
+
