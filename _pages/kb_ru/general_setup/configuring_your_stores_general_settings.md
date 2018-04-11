@@ -104,13 +104,13 @@ published: false
     Чтобы отключить перетаскивание товаров в корзину, установите модуль [Disable drag'n'drop add to cart](https://market.x-cart.com/addons/disable-drag-n-drop.html "Configuring your store&#39;s General settings").
     {% endnote %}
 
-*   **Перенаправлять клиента в корзину, после добавления в нее товара**: When this option is enabled, after adding a product to cart a shopper is redirected to the cart page where they can see the item they just added. When the option is disabled, the shopper remains on the same page. Please note that this setting is not compatible with X-Cart's Add to Cart module: when the module Add to Cart popup is enabled, adding a product to cart results in a popup being displayed.
+*   **Перенаправлять клиента в корзину, после добавления в нее товара**: Если опция включена, покупатель добавляет товар в корзину и открывается страница корзины. Если опция отключена, покупатель добавляет товар в корзину и остаётся на этой же странице. Настройка не работает, если в магазине активирован модуль **Add to cart** -  в этом случае покупатель добавляет товар в корзину и открывается диалоговое окно, показывающее положенные в корзину и рекомендуемые товары.
 
-*   **Display "Add to cart" buttons for products in grid view**: This setting defines whether "Add to cart" buttons should be displayed for products in grid view, or not. The snapshot below demonstrates products in grid view with "Add to cart" buttons enabled: 
+*   **Показывать кнопку _Добавить в корзину_ при отображении списка продуктов в режиме _Сетка_**: Если опция включена, товар можно добавить в корзину из списка. Если опция отключена, товар можно добавить в корзину только со страницы быстрого просмотра или страницы товара: 
     ![]({{site.baseurl}}/attachments/7505478/7602709.png)
-    Note that this setting affects only grid view (does not affect list view and table view; in list view and table view "Add to cart" buttons are displayed at all times - regardless of the value of this setting).
+    Настройка затрагивает только режим просмотра товаров **Сетка**. В режимах **Список** и **Таблица** кнопка **Купить** отображается независимо от состояния этой настройки.
 
-*   **Ask anonymous users to create an account or sign in before checkout**: When this option is enabled, a shopper who was not signed in when they clicked the Checkout button is provided with a page where they can sign in to their account or create a new account:
+*   **Предлагать анонимным пользователям войти под учетной записью до перехода на страницу оплаты**: When this option is enabled, a shopper who was not signed in when they clicked the Checkout button is provided with a page where they can sign in to their account or create a new account:
     ![]({{site.baseurl}}/attachments/7505478/7602723.png)
     When this option is disabled, such a page is not provided, and the shopper goes straight to the store's checkout page. 
     Regardless of whether this option is enabled or disabled, on the checkout page, the shopper will still be able to sign in if they choose to do so: 
