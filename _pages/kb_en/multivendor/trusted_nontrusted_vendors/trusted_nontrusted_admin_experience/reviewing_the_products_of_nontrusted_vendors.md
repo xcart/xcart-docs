@@ -16,7 +16,10 @@ The store administrator can use the "Unapproved products N" link in the bell not
 To approve or decline the publication of a product, the store administrator needs to open the product for viewing/editing; then they need to use the Approve or the Decline button according to what action they require.
 ![tnt_approve_decline.png]({{site.baseurl}}/attachments/ref_5G96zfLj/tnt_approve_decline.png)
 
-If the administrator chooses to approve the publication of the product
+If the administrator chooses to approve the publication of the product, a popup titled "Approve and add comment" will be displayed:
+![tnt_approve_add_comment.png]({{site.baseurl}}/attachments/ref_5G96zfLj/tnt_approve_add_comment.png)
+
+To approve the publication of the product, the store administrator will need to click the **Approve product** button. Leaving a comment for the vendor is optional:
 
 Decline and add comment popup 
 ![tnt_decline_add_comment.png]({{site.baseurl}}/attachments/ref_5G96zfLj/tnt_decline_add_comment.png)
