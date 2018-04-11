@@ -40,19 +40,20 @@ published: false
     Настройка не влияет на корневые категории, внешний вид которых устанавливается в разделе **Содержание / Главная страница**.
     {% endnote %}
 
-*   **Default order to sort products within a category**: This setting allows you to control the default display order for products within a category. 
-    The following options are available:
+*   **Режим сортировки продуктов в категории по умолчанию**: Настройка определяет предустановленный режим отображения товаров на странице категории. Покупатель может изменить режим сортировки  вручную:
 
-    *   _Recommended_ - The product sort order defined by the store owner via the category settings:
+    *   _Мы рекомендуем_ - Товары отображаются в порядке, установленном в настройках категории:
         ![products-order.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/products-order.png)
+        
+    *   _По новизне_ - Товары сортируются по дате поступления, в начале списка - новые.    
  
-    *   _By Price - cheapest first_ - The low to high price sort order (Products with the lowest price are displayed first).
+    *   _По возрастанию цены_ - В начале списка товары с низкой ценой.
      
-    *   _By Price - cheapest last_ - The high to low price sort order (Products with the highest price are displayed first).
+    *   _По убыванию цены_ - В начале списка товары с высокой ценой.
 
-    *   _By Name - A-Z_ - The sort order in which products are sorted by their names, A to Z direction.
+    *   _По названию, А-Я_ - Товары сортируются по названию в алфавитном порядке.
     
-    *   _By Name - Z-A_ - The sort order in which products are sorted by their names, Z to A direction.
+    *   _По названию, Я-А _ - Товары сортируются по названию в порядке обратном алфавитному.
 
 *   **Default order to sort products within a search result**: This setting allows you to control the default display order for products that may be displayed in a list of search results after someone searches for a product in the Customer area. 
 
