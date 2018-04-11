@@ -13,7 +13,7 @@ Find out how a vendor can:
      See {% link "Getting new products approved for publishing" ref_4NXPSgua %}
      
    * Find out the publication status of a product.
-     See {% link "Finding out the publication status of a product"  %}
+     See {% link "Finding out the publication status of a product" ref_34yMnzpr %}
    
    * Find products by their publication status.
-     See {% link "Finding products by their publication status"  %}
+     See {% link "Finding products by their publication status" ref_7zAxJLQG %}
