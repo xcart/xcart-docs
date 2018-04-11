@@ -4,10 +4,8 @@ layout: article_with_sidebar
 updated_at: '2016-05-05 00:00'
 title: How to add Facebook Pixel Сode to X-Cart pages
 identifier: ref_dENrdWxT
-version: X-Cart 5.2.16 and earlier
 categories:
   - How-To Articles
-  - Outdated
 published: true
 order: 100
 ---
