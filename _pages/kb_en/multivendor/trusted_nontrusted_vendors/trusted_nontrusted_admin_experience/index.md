@@ -7,8 +7,13 @@ title: 'Trusted/Non-trusted vendors: Admin experience'
 order: 100
 published: false
 ---
-_In this section:_
+Find out how a store administrator can:
+
+   * Activate the addon "Trusted/Non-trusted vendors" to enable the moderation of new products added by individual vendors.   
+     See {% link "Activating the Trusted/Non-trusted vendors addon" ref_6jpz9PXe %}
    
-   * {% link "Activating the Trusted/Non-trusted vendors addon" ref_6jpz9PXe %}
-   * {% link "Managing the trusted/non-trusted status of vendors" ref_2ETaFqTV %}
-   * {% link "Reviewing the products of non-trusted vendors" ref_5G96zfLj %}
+   * Give individual vendors a trusted/non-trusted status to specify who can add new products to the catalog without moderation, and who must submit new products for approval by the store administrator before they get published.
+     See {% link "Managing the trusted/non-trusted status of vendors" ref_2ETaFqTV %}
+   
+   * Approve or decline the publishing of new products created by non-trusted vendors.
+     See {% link "Reviewing the products of non-trusted vendors" ref_5G96zfLj %}
