@@ -7,33 +7,28 @@ title: Общие настройки магазина
 order: 110
 published: false
 ---
-Most of general settings that determine your store's appearance and behavior can be found in the **Store setup > Cart & checkout** section, in the **General** tab:
+Настройки, определяющие работу и внешний вид магазина, находятся в разделе **Настройка магазина / Корзина & Оплата** на вкладке **Общие**:
 
-![general_settings.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/general_settings.png)
+## Тип страницы оплаты: 
 
-Below you can find some of the settings explained.
-
-## Checkout type
-
-You can choose between:
-* **One Page Checkout**
+* **Одностраничный**
   ![onepage-checkout.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/onepage-checkout.png)
 
-* **Fast Lane Checkout**
+* **Пошаговый**
   <div class="ui stackable three column grid">
   <div class="column" markdown="span">![fastlane-1.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/fastlane-1.png)</div>
   <div class="column" markdown="span">![fastlane-2.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/fastlane-2.png)</div>
 </div>
 
-## Customer Zone settings
+## Параметры публичной части магазина
 
-*   **How to show out of stock products** : This setting allows you to set whether or not to display the out-of-stock products in the customer storefront. You can choose between the following options:
+*   **Как отображать продукты которых нет в наличии**: Если товар закончился, его можно не показывать в каталоге магазина:
     
-    * _Show in all the sections_  
-    * _Show only in categories and search listings_ 
-    * _Hide and make them available only via a direct link_ 
+    * _Отображать во всех секциях_  
+    * _Отображать только на странице категории и результатов поиска_ 
+    * _Скрывать и сделать их доступными только по прямой ссылке_ 
     
-*   **Display check number for eCheck payment method**: This setting is used for stores using the Check payment method. It defines whether the payment information form provided to the customer who has chosen to pay by check should include a field for check number, or not.
+*   **Показывать номер чека для метода оплаты eCheck**: Эта настройка предназначена для магазинов, в которых возможна оплата чеком. Настройка включает и отключает поле с номером чека на странице платёжных данных при оплате чеком.
 
 *   **Subcategory listings format**: This setting defines how subcategories should be displayed on category pages. 
     Setting the subcategory listings format to "_Icons_" allows you to have icons displayed for your subcategories:
