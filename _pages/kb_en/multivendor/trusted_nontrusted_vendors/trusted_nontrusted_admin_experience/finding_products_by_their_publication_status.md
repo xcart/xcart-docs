@@ -7,3 +7,4 @@ title: Finding products by their publication status
 order: 100
 published: false
 ---
+The store administrator can find vendor products by their publication status.
