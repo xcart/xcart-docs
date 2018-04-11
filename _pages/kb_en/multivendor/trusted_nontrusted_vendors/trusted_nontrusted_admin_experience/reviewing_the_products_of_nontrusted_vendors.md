@@ -13,4 +13,6 @@ j;lk
 the Decline and add comment popup 
 ![tnt_decline_add_comment.png]({{site.baseurl}}/attachments/ref_5G96zfLj/tnt_decline_add_comment.png)
 
-click **Decline product**
+Add a comment (optional) and click **Decline product**:
+![tnt_decline_add_comment1.png]({{site.baseurl}}/attachments/ref_5G96zfLj/tnt_decline_add_comment1.png)
+
