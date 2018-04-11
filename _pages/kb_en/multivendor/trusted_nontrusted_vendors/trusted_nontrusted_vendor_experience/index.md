@@ -7,7 +7,9 @@ title: 'Trusted/Non-trusted vendors: Vendor experience'
 order: 100
 published: false
 ---
-Find out how a vendor can:
+In a multivendor X-Cart store where the storefront operator/store administrator has enabled moderation for the content of new vendor-created product pages using the addon **Trusted/Non-trusted vendors**, vendors with the status "Non-trusted vendor" have to submit all the new products they create for approval by the store administrator.
+
+Find out how a non-trusted vendor can:
 
    * Submit their new products for approval by the storefron operator/store administrator.   
      See {% link "Getting new products approved for publishing" ref_4NXPSgua %}
