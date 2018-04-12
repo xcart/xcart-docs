@@ -1,35 +1,45 @@
 ---
-title: Editable form model
 lang: en
 layout: article_with_sidebar
-updated_at: 2016-07-26 15:55 +0400
+updated_at: '2016-07-26 15:55 +0400'
+title: Editable form model
 order: 10
 version: X-Cart 5.3.0 and later
 identifier: ref_8MoO0Ob
-description: During module creation developers sometimes create complex entities that
-  require a separate page for editing of its properties. This article will explain
-  a new way to create a page where you can edit certain fields of a model.
+description: >-
+  During module creation developers sometimes create complex entities that
+  require a separate page for editing of its properties. This article will
+  explain a new way to create a page where you can edit certain fields of a
+  model.
 categories:
-- Demo module
+  - Demo module
+published: true
 ---
-
-This article describes new way to create form to edit model entity. Original article with old implementation: {% link "Model editing page" ref_LanG54L9 %}
+This article describes new way to create form to edit model entity. Original article with old approach: {% link "Model editing page" ref_LanG54L9 %}
 
 ## Implementation
 
-We start with creating a simple module with developer ID **XCExample** and module ID **ModelEditing**. Then, we create a page target=example_product_edit in admin area. For that we create:
+We start with creating a simple module with developer ID **XCExample** and module ID **ModelEditing**. Then, we create a page `target=example_product_edit` in admin area. For that we create:
 
-*   an empty controller class `\XLite\Module\XCExample\ModelEditing\Controller\Admin\ExampleProductEdit`;
-*   page widget class `\XLite\Module\XCExample\ModelEditing\View\Page\Admin\ProductEdit` with the following content: 
+* empty controller class `\XLite\Module\XCExample\ModelEditing\Controller\Admin\ExampleProductEdit`:
+
+	```php
+	<?php
+
+	namespace XLite\Module\XCExample\ModelEditing\Controller\Admin;
+
+	/**
+	 * Product edit controller
+	 */
+	class ExampleProductEdit extends \XLite\Controller\Admin\AAdmin
+	{}
+	```
+    
+* page widget class `\XLite\Module\XCExample\ModelEditing\View\Page\Admin\ProductEdit` with the following content: 
 
     ```php
     <?php
     // vim: set ts=4 sw=4 sts=4 et:
-
-    /**
-     * Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
-     * See https://www.x-cart.com/license-agreement.html for license details.
-     */
 
     namespace XLite\Module\XCExample\ModelEditing\View\Page\Admin;
 
@@ -62,18 +72,13 @@ We start with creating a simple module with developer ID **XCExample** and modul
     }
     ```
 
-*   an empty page template `<X-Cart>/skins/admin/modules/XCExample/ModelEditing/page/product_edit/body.twig`.
+* an empty page template `skins/admin/modules/XCExample/ModelEditing/page/product_edit/body.twig`.
 
-Now we start creating a widget for model editing. For that we create the `<X-Cart>classes/XLite/Module/XCExample/ModelEditing/View/FormModel/ExampleProductEdit.php` file with the following code:
+Now we start creating a widget for model editing. For that we create the `classes/XLite/Module/XCExample/ModelEditing/View/FormModel/ExampleProductEdit.php` file with the following code:
 
 ```php
 <?php
 // vim: set ts=4 sw=4 sts=4 et:
-
-/**
- + Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
- + See https://www.x-cart.com/license-agreement.html for license details.
- */
 
 namespace XLite\Module\XCExample\ModelEditing\View\FormModel;
 
@@ -181,15 +186,15 @@ class ExampleProductEdit extends \XLite\View\FormModel\AFormModel
 ```
 
 Let us have a closer look at this implementation:
-1.  Our class extends an abstract implementation model editing widget (`\XLite\View\FormModel\AFormModel`):
+1. Our class extends an abstract implementation model editing widget (`\XLite\View\FormModel\AFormModel`):
 
     ```php
     class ExampleProductEdit extends \XLite\View\FormModel\AFormModel
     {...}
     ```
 
-2.  Next we implement methods to configure form action: (`getTarget`, `getAction`, `getActionParams`). This needs to submit form to appropriate controller and action with correct parameters.
-3.  After that, we define what fields will be displayed in this widget by implementing method `defineFields()`:
+2. We implement methods to configure form action: (`getTarget`, `getAction`, `getActionParams`). They are needed to submit form to right controller ('example_product_edit') with right action ('update') alongside right parameters (if 'product_id' is provided, then 'product_id' will be in our request);
+3.  After that, we define what fields will be displayed in this widget by implementing `defineFields()` method:
 
     ```php
     /**
@@ -264,7 +269,9 @@ Let us have a closer look at this implementation:
     }
     ```
 
-The form must contain at least one section (`self::SECTION_DEFAULT` section is defined by default) so in this method we return an array: **key** is a **name** of the section and **value** is the array of section fields. Each **key** of section fields is the name of the field. In our case, they are **sku**, **name**, **price** and **full_description**. The value of array's elements is an array of parameters that define each field.
+The form must contain at least one section (`self::SECTION_DEFAULT` section is defined by default). `defineFields()` method returns an array, where **key** is a **name** of the section and **value** is the array of section fields. If you want to have several sections in your form, refer to {% link "Form sections" ref_Za60J20N %} article to achieve that.
+
+Each **key** of section fields is the name of the field. In our case, they are **sku**, **name**, **price** and **full_description**. The value of array's elements is an array of parameters that define each field.
 
 Field's parameters must match parameters of the field's type. For example, if you have **sku** field in example above, you cannot define a parameter **pattern** for it as we did for **price** one, because **sku**'s type will not know what to do with it and it will result in error. Exception are **type** и **position** parameters, which applicable to all fields
 
