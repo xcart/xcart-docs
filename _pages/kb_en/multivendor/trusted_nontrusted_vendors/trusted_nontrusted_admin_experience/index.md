@@ -5,7 +5,7 @@ updated_at: '2018-04-10 20:56 +0400'
 identifier: ref_21Q6x8t3
 title: 'Trusted/Non-trusted vendors: Admin experience'
 order: 100
-published: false
+published: true
 ---
 If the owner/administrator of a multivendor X-Cart store wishes to be able to review the content of new product pages created by vendors before such pages get published,on the storefront, they can enable the addon **Trusted/Non-trusted vendors**.
 
