@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-04-06 15:48 +0400'
 identifier: ref_3B4yRZ99
 title: Ecommerce Tracking with Google Analytics
-order: 100
+order: 200
 published: true
 ---
 First of all it's necessary to specify that Ecommerce tracking stands for collecting and analyzing only purchase and transaction data. Ecommerce reports allow you to analyze purchase activity on your site. You can see product and transaction information, average order value, ecommerce conversion rate, time to purchase, and other purchase related data. Besides that Google Analytics allows to analyze customer traffic, adds strategy, email marketing, etc.
@@ -76,4 +76,3 @@ Moreover, you can configure scheduled email reports to your inbox based in the g
   ![scheduled-emails.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/scheduled-emails.png)
 
 Using advanced options, you can also limit the time during which you’ll get the reports — from one to 12 months.
-     
