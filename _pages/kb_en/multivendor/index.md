@@ -22,5 +22,5 @@ _In this section:_
 
 *   {% link "Multivendor components" ref_MRQEvicQ %}
     *   {% link "Multi-vendor" ref_cvwmAuRi %} (Core component)
-    *   Trusted/Non-trusted vendors (Article under construction)
+    *   {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}
     *   Order messages (Article under construction)
