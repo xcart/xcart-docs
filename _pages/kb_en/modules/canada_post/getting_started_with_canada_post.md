@@ -28,18 +28,18 @@ To start shipping with Canada Post:
     If you are already registered with Canada Post, the shipping settings will be automatically imported in X-Cart after you click 'Register'. Alternatively, you can click 'Configure manually' and set up the module yourself.
     {% endnote %}
     
-3.  Once you have completed the registration process or signed in, X-Cart will be able to automatically obtain your merchant API key (username and password) needed to connect to Canada Post. You will be returned to your X-Cart store's Admin area, and your merchant API key will be retrieved through the API, tested and stored for future use in the store. 
-    You will notice that the look of the Canada Post settings page in your store's Admin area has changed: now this page provides some configuration settings for the Canada Post module. Some of the settings have already been configured for you automatically, and the others still need to be configured:
-    ![settings.png]({{site.baseurl}}/attachments/ref_zfNLsPus/settings.png)
-
-4.  Configure the Canada Post module by adjusting the settings on the Canada Post settings page. See the section {% link "Configuring the Canada Post module" ref_XsHLxUwv %} for more information.
-5.  While still in the **Store setup** -> **Shipping** section of your store's Admin area, select the Canada Post method in the _Settings_ tab:
+3.  Once you have completed the registration process or signed in, X-Cart will be able to automatically obtain your merchant API key (username and password) needed to connect to Canada Post. You will be returned to your X-Cart store's Admin area, and your merchant API key will be retrieved through the API, tested and stored for future use in the store. Most of the settings will have already been configured for you automatically. However, you may still need to define some parcel characteristics (use 'Configire manually' button on the module settings page for the purpose).
+    {% note info %}
+    If you prefer to configure the Canada Post module manually refer to the guides from {% link "Configuring the Canada Post module" ref_XsHLxUwv %}.
+    {% endnote %}
+    
+4.  While still in the **Store setup** -> **Shipping** section of your store's Admin area, select the Canada Post method in the _Settings_ tab:
     ![shipping-canada-post.png]({{site.baseurl}}/attachments/ref_zfNLsPus/shipping-canada-post.png)
     This opens a list of supported Canada Post shipping methods:
     ![canada-shippings.png]({{site.baseurl}}/attachments/ref_zfNLsPus/canada-shippings.png)
     
     Look through the list of methods and ensure that the methods you wish to use are enabled. Disable any methods that you do not need. Be sure to save your changes by clicking **Save changes**.
-6.  Make sure your company's address has been configured on the Contact information page (**Store setup > Contact information**). This address will be used as your store's "Ship from" address when calculating shipping rates. 
+5.  Make sure your company's address has been configured on the Contact information page (**Store setup > Contact information**). This address will be used as your store's "Ship from" address when calculating shipping rates. 
     {% note info %}
     This needs to be a Canadian address, as shipping rates can be calculated only for orders shipping from Canadian locations. 
     {% endnote %}
