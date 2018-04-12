@@ -19,3 +19,4 @@ With Google Analytics, you are more prepared to write better-targeted ads, stren
 
 1. {% link "Installing and Configuring  Google Analytics Module" ref_7aqHV7fa %}
 2. {% link "Ecommerce Tracking with Google Analytics" ref_3B4yRZ99 %}
+3. {% link "Ecommerce dashboards" ref_38zRtgUZ %}
