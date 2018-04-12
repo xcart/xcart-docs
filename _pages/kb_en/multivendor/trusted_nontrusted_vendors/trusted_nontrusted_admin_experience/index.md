@@ -17,17 +17,12 @@ The vendor will be notified of the administrator's decision by an email notifica
 
 Find out how a store administrator can:
 
-   * Activate the addon "Trusted/Non-trusted vendors" to enable the moderation of new products added by individual vendors.   
-     See {% link "Activating the Trusted/Non-trusted vendors addon" ref_6jpz9PXe %}
+   * Activate the addon "Trusted/Non-trusted vendors" to enable the moderation of new products added by individual vendors. See {% link "Activating the Trusted/Non-trusted vendors addon" ref_6jpz9PXe %}
    
-   * Give individual vendors a trusted/non-trusted status to specify who can add new products to the catalog without moderation, and who must submit new products for approval by the store administrator before they get published.
-     See {% link "Managing the trusted/non-trusted status of vendors" ref_2ETaFqTV %}
+   * Give individual vendors a trusted/non-trusted status to specify who can add new products to the catalog without moderation, and who must submit new products for approval by the store administrator before they get published. See {% link "Managing the trusted/non-trusted status of vendors" ref_2ETaFqTV %}
    
-   * Approve or decline the publication of new products created by non-trusted vendors.
-     See {% link "Reviewing the products of non-trusted vendors" ref_5G96zfLj %}
+   * Approve or decline the publication of new products created by non-trusted vendors. See {% link "Reviewing the products of non-trusted vendors" ref_5G96zfLj %}
      
-   * Find vendor products by their publication status.
-     See {% link "Finding products by their publication status" ref_3ge43cA0 %}
+   * Find vendor products by their publication status. See {% link "Finding products by their publication status" ref_3ge43cA0 %}
        
-   * Adjust the email notifications sent to vendors after their product is approved or declined.  
-     See {% link "Managing email notifications for the Trusted/Non-trusted vendors addon" ref_2x7CPLIC %}
+   * Adjust the email notifications sent to vendors after their product is approved or declined. See {% link "Managing email notifications for the Trusted/Non-trusted vendors addon" ref_2x7CPLIC %}
