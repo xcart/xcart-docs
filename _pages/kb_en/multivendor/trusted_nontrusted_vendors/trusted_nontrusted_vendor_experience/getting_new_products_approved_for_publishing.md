@@ -5,7 +5,7 @@ updated_at: '2018-04-11 13:17 +0400'
 identifier: ref_4NXPSgua
 title: Getting new products approved for publishing
 order: 100
-published: false
+published: true
 ---
 In a multivendor X-Cart store with the addon **Trusted/Non-trusted vendors** installed and active, trusted vendors can add their products without an approval from the storefront operator/store administrator. Non-trusted vendors, however, have to submit new products for approval by the store administrator before the products get published on the storefront. Note that any products created by non-trusted vendors may not be enabled using X-Cart's standard On/Off controls before an approval is obtained (The On/Off controls for such products are disabled).
 ![tnt_cannot_enable_unapproved.png]({{site.baseurl}}/attachments/ref_4NXPSgua/tnt_cannot_enable_unapproved.png)
@@ -26,6 +26,4 @@ If a product gets declined, the vendor will need to fix the product details as r
 
 Note that on the page of a product that has been declined by the store administrator the **Send for approval** button is re-activated as soon as the vendor updates the product details in any way (Not necessarily in the way recommended by the store administrator; X-Cart does not have a method to check that).
 
-Also note that after a product has been given the status "Product is approved", it remains approved - even if the vendor edits its details. 
-
-
+Also note that after a product has been given the status "Product is approved", it remains approved - even if the vendor edits its details.
