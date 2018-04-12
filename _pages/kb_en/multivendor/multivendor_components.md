@@ -34,5 +34,6 @@ For general addon installation instructions, see {% link "Installing addons fro
 
 _Related pages:_
    
-   * {% link "Multivendor" ref_4ahg5FLK %}
-   * {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}
+   * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
+   * {% link "Multi-vendor" ref_cvwmAuRi %} (X-Cart addon)
+   * {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %} (X-Cart addon)
