@@ -61,6 +61,8 @@ The store administrator should also check and adjust the Privacy and access sett
 Before allowing new sellers to register as vendors, the store administrator should specify which role needs to be assigned to new vendor users by default; this can be done using the setting **Role to assign to new vendor users** on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}.
 Another important task that should be completed by the store administrator before new vendor users start to log in to the Vendor area is to adjust the onboarding welcome message for new vendors. The vendor onboarding message will be displayed on the Vendor area dashboard; this message can be used by the administrator to provide an overview of the steps a new vendor is required to complete before they can start selling or to share any other kind of important information with the vendors. The vendor onboarding message can be configured using the **Vendor onboarding welcome message** field on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}.
 
+Manage vendor application form
+
 ## Step: Check the other addon settings
 early on while configuring a new multivendor X-Cart store
 Information on how to adjust the Multi-vendor addon settings is available in the article {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}.
