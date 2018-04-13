@@ -7,7 +7,7 @@ title: Multi-vendor getting started for admin
 order: 100
 published: false
 ---
-This article provides an overview of the steps which the administrator of an X-Cart store needs to take to launch a multivendor X-Cart-based marketplace.
+This article provides an overview of the steps which the administrator of an X-Cart store needs to take to launch and manage a multivendor X-Cart-based marketplace.
 
 In this manual, by "administrator" we mean the store owner/storefront operator or an agent acting on their behalf and represented by an X-Cart store user with the access level "Administrator" and the role "Administrator".
 
@@ -112,6 +112,7 @@ It is always a good idea to check from time to time how the business of individu
 See {% link "Viewing vendor statistics" ref_4mvK1AKz %} for more information.
 
 ## Step 15: Pay the vendors
+See {% link "Performing and registering vendor payout transactions" ref_3uy1YgfD %} for more information.
 
 ## Step 16: Consider activating other Multivendor-related addons
 The functionality of a multivendor X-Cart store can be extended by other addons. See {% link "Multivendor components" ref_MRQEvicQ %} for an overview of the addons typically used with Multi-vendor.
