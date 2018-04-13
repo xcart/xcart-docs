@@ -74,10 +74,10 @@ published: false
         ![xc5_general_settings_table_view.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_table_view.png)
 
 
-*   **Products per category listing page**: This setting allows you to limit the number of products displayed on a category page. For example, if we set this to "2", only two products will be displayed per page. For the rest of the product list pagination will be provided:
+*   **Количество товаров на странице категории**: Настройка определяет количество товаров на странице поиска товаров и на странице категории. Если количество товаров больше, чем значение этого поля, будет включено разбиение на страницы, на каждой странице будет количество товаров, указанное в этом поле:
     ![]({{site.baseurl}}/attachments/7505478/7602705.png)
     
-*  **Maximum products per category listing page**: This setting allows you to set the max number of products displayed on a category page. For example, if we set this to "10", max 10 products will be displayed per page. For the rest of the product list pagination will be provided:
+*  **Максимальное количество товаров на странице категории**: Настройка устанавливает максимальное количество товаров на странице поиска товаров и на странице категории. Если количество товаров больше, чем значение этого поля, будет включено разбиение на страницы, на каждой странице будет количество товаров, указанное в этом поле:
     ![max_value.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/max_value.png)
 
 *   **Минимально возможная сумма заказа**: Оплата заказа возможна, только когда сумма заказа достигает установленного значения.
