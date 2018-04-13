@@ -117,7 +117,7 @@ published: false
     Если зарегистрированный покупатель не воспользуется ссылкой **Войти**, система распознает его по адресу электронной почты и предложит авторизоваться:
     ![]({{site.baseurl}}/attachments/7505478/7602725.png)
 
-*   **Terms and conditions relative URL**: You can create a static page for Terms and conditions using Simple CMS module and specify its relative url here. if field is empty (for example, Simple CMS is not installed, but you still need T&c), then lang var from ?target=terms (Terms and conditions text) is used (text will be displayed in a popup for Terms and conditions on checkout).  (Core, Simple CMS module not necessary)
+*   **Относительный URL для страницы _Правила работы_**: Создайте статическую страницу **Условия использования** с помощью модуля **Simple CMS** и укажите здесь относительный путь к этой странице. Если модуль **Simle CMS** не установлен или отключён, в этом поле укажите ссылку _cart.php?target=terms_ и внесите текст условий работы  магазина в содержимое языковой переменной _Terms and conditions text_. Текст будет отображаться в диалоговом окне на странице оформления заказа.
 
 *   **Следующий номер заказа**: Установите значение, с которого будет начинаться нумерация заказов в магазине. Значение поля должно быть больше номера последнего заказа. Эта настройка полезна, если магазин начал работать недавно и заказов ещё мало, т.к. номера заказов №1 или №2 могут вызвать недоверие у покупателей. Например, если значение поля 103, следующий заказ получит номер 103, а последующие заказы будут №104, №105 и т.д.
 
