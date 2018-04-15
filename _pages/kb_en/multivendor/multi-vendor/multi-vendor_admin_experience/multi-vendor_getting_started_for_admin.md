@@ -121,7 +121,7 @@ It is always a good idea to check from time to time how the business of individu
 
 See {% link "Viewing vendor statistics" ref_4mvK1AKz %} for more information.
 
-## Pay the vendors
+## Pay the vendors and track the flow of money to and from the vendors
 See {% link "Managing vendor transactions" ref_3uy1YgfD %} for more information.
 
 
