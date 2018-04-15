@@ -83,6 +83,8 @@ To configure the module:
     
     *   **Allow vendors to approve, reject and edit product ratings and reviews**: Enable this to allow vendors to handle product ratings and reviews for their products.
     
+    *   **Allow vendors to reply to product ratings and reviews**: Enable this to allow vendors to reply to ratings and reviews for their products.
+    
     *   **Role to assign to new vendor users**: Specify the role you want to be assigned to new vendor users after the creation of their profile/approval of their vendor application by admin. (Note: Besides the default "Vendor" role that is present in your store from the moment you install and activate the Multi-vendor module, you can set up more roles for users that will be acting as vendors in your store. The setting "Role to assign to new vendor users" allows you to specify the role that should be assigned to users with access level "Vendor" when such users are created.)
 
     *   **Base vendor rating on**: Specify whether vendor rating should be based on detailed categorized rating or product rating.
