@@ -85,21 +85,21 @@ We need to make sure that the vendor who provided to us the product "Test produ
 
 In the Transactions history section we see two transactions pertaining to Order #00009:
 
-*   (Auto PayPal) PayPal Adaptive: Commission paid -- Vendor earnings: $18.00;
+*   (Auto) Order paid -- Vendor earnings: $18.00;
 
 and
 
-*   (Auto) Order paid -- Paid to vendor: $18.00
+*   (Auto PayPal) PayPal Adaptive: Commission paid -- Paid to vendor: $18.00
+
 
 ![]({{site.baseurl}}/attachments/8751079/9437197.png)
 
-The first transaction - "(Auto PayPal) PayPal Adaptive: Commission paid -- Vendor earnings: $18.00" - means that one or more products owned by a vendor were purchased, and we [the store administrator] now owe money to the vendor. The amount $18.00 is the result of subtracting the 10% Order DST based commission ($2) from the vendor's share of the order discounted subtotal ($20).
+The first transaction - "(Auto) Order paid -- Vendor earnings: $18.00" - means that one or more products owned by a vendor were purchased, and we [the store administrator] now owe money to the vendor. The amount $18.00 is the result of subtracting the 10% Order DST based commission ($2) from the vendor's share of the order discounted subtotal ($20).
 
- The second transaction - "(Auto) Order paid -- Paid to vendor: $18.00" - means that the amount of $18 was automatically transferred to the PayPal account of the vendor, leaving us - the store administrator - with a little less than $2 earnings from this sale in our PayPal account. We say "a little less than $2" because in reality it is going to be two dollars minus the commission PayPal has charged us for their service (As you might remember, it is the administrator who pays the PayPal fees - no fees are imposed on the vendors).
+ The second transaction - "(Auto PayPal) PayPal Adaptive: Commission paid -- Paid to vendor: $18.00" - means that the amount of $18 was automatically transferred to the PayPal account of the vendor, leaving us - the store administrator - with a little less than $2 earnings from this sale in our PayPal account. We say "a little less than $2" because in reality it is going to be two dollars minus the commission PayPal has charged us for their service (As you might remember, it is the administrator who pays the PayPal fees - no fees are imposed on the vendors).
 
 So, everything is fine: the vendor has received their earnings, and we have received our commission. Both the transactions were completed automatically.
 
 _Related pages:_
 
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
-
