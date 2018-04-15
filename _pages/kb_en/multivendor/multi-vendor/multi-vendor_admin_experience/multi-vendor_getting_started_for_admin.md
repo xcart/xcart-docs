@@ -71,9 +71,8 @@ The store administrator must check the section Email notifications (**Store setu
 Once the store has been configured to work as a multivendor marketplace, it is time to invite the sellers. The sellers will need vendor accounts. The store administrator can {% link "add new vendors" ref_6OTbIwfd#adding-new-vendors-via-the-admin-area %} via the Users section of the Admin area or have new sellers submit a vendor registration application via the "Become a seller" link on the storefront and then {% link "approve their applications" ref_6OTbIwfd#approvingrejecting-vendor-applications %} in the Admin area.  
 
 ## Step 7: Help vendors with the setup of their catalog
-The store administrator can view and manage any products in the store, including the products created by vendor users.
 
-## Step 8: Set the commission for the vendors
+## Step 8: Set a commission for the vendors
 The store administrator specifies the size of commissions that the vendors must pay to the storefront operator on each sale through the store. See {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %} for more information.
     
 ## Step 9: Choose and configure the payment methods
@@ -81,11 +80,15 @@ The store administrator chooses and configures the store's payment methods. Most
 
 ## Step 10: Configure the taxes
 
-## Step 11: Decide on the shipping method
+## Step 11: Decide on the shipping methods
 
-## Step: Check the other addon settings
+## Step 12: Check the other addon settings
 early on while configuring a new multivendor X-Cart store
 Information on how to adjust the Multi-vendor addon settings is available in the article {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}.
+
+## Step 13: Consider activating other Multivendor-related addons
+The functionality of a multivendor X-Cart store can be extended by other addons. See {% link "Multivendor components" ref_MRQEvicQ %} for an overview of the addons typically used with Multi-vendor.
+
 
 # Administrator tasks to manage a multivendor marketplace
 
@@ -95,9 +98,9 @@ The store administrator can manage the existing vendor users, including the remo
 ## Supervise the catalog, coupons and discounts
 The store administrator exercises the function of supervising the product catalog. See {% link "Supervising the product catalog" ref_0dPCIV3f %} for more information.
 
-The store administrator can view, edit and delete coupons and volume discounts created by vendors (However, the administrator cannot tell, which discount or coupon is owned by which vendor). The administrator can create coupons and discounts, but the coupons and discounts created by them are not visible to vendors and can be applied only to the products owned by the administrator.
+If necessary, the store administrator can help vendors with volume discounts and coupons. The administrator can view, edit and delete coupons and volume discounts created by the vendors; they cannot, however, create coupons and discounts to be applied to vendor products. (Any coupons and discounts created by the administrator are not visible to vendors and can be applied only to the products owned by the administrator).
 
-## Step 13: Work on the orders
+## Work on the orders
 The store administrator has full access to all the orders in the store. 
 
 In the "_Warehouse_" mode, the administrator performs the following functions:
@@ -108,7 +111,7 @@ In the "_Warehouse_" mode, the administrator performs the following functions:
 
 In the "_Vendors as separate shops_" mode, the administrator has the same capabilities as in the "_Warehouse_" mode, but, typically, only acts as a supervisor - whereas the processing of orders and making changes to the information of specific orders is carried out by the vendors.
 
-## Step 14: Get information on how your vendors' business is going 
+## Get information on how your vendors' business is going 
 It is always a good idea to check from time to time how the business of individual vendors on the marketplace is going. The store administrator has access to vendor statistics including:
 
    *   Order statistics, 
@@ -118,11 +121,9 @@ It is always a good idea to check from time to time how the business of individu
 
 See {% link "Viewing vendor statistics" ref_4mvK1AKz %} for more information.
 
-## Step 15: Pay the vendors
+## Pay the vendors
 See {% link "Performing and registering vendor payout transactions" ref_3uy1YgfD %} for more information.
 
-## Step 16: Consider activating other Multivendor-related addons
-The functionality of a multivendor X-Cart store can be extended by other addons. See {% link "Multivendor components" ref_MRQEvicQ %} for an overview of the addons typically used with Multi-vendor.
 
 _Related pages:_
 
