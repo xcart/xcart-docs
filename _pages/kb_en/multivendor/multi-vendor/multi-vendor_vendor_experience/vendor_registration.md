@@ -30,7 +30,7 @@ Here's an example of a vendor registration page:
 
 The contents of the vendor registration page and the set of fields required for completion may vary depending on the store settings. The information submitted via the company name, description and company address fields of the vendor registration form (if such fields are present on the form and are completed by a prospective vendor) is used to pre-configure the vendor's profile settings and (in the "Vendors as separate shops" Multivendor mode) the vendor's ship-from address.  
 
-To register a vendor profile, a prospective vendor must complete and submit the registration form.
+To apply for a vendor profile, a prospective vendor must complete and submit the registration form.
 
 Once the form has been submitted, a new (unapproved) vendor user will be created in the store and a Thank you page will be displayed:
 ![xc5_mv_thankyou_page.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_thankyou_page.png)
