@@ -79,7 +79,7 @@ To configure the module:
     
     *   **Show vendor list in sidebar**: Specify whether you want your store's visitors to see the list of your store's vendors in the sidebar area of the store site.
     
-    *   **Show ratings & reviews on vendor profile page**: (Reviews module required) Enable this if you want ratings and reviews to be shown on vendor profile pages.
+    *   **Show vendor rating**: (Reviews module required) Enable this if you want ratings and reviews to be shown for vendors.
     
     *   **Allow vendors to approve, reject and edit product ratings and reviews**: Enable this to allow vendors to handle product ratings and reviews for their products.
     
