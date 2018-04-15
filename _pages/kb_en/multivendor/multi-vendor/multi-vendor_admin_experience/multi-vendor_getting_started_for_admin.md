@@ -92,7 +92,7 @@ The functionality of a multivendor X-Cart store can be extended by other addons.
 
 # Administrator tasks to manage a multivendor marketplace
 
-## Step 6: Supervise the users
+## Supervise the users
 The store administrator should manage the existing vendor users, including the removal of vendor users, export of vendor information and access to all the information associated with specific vendor profiles. See {% link "Managing vendors" ref_6OTbIwfd %} for details.
 
 ## Supervise the catalog, coupons and discounts
