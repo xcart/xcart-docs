@@ -68,7 +68,7 @@ Another important task that should be completed by the store administrator befor
 The store administrator must check the section Email notifications (**Store setup** > **Email notifications**) and adjust the notifications specific to Multi-vendor. For more info, see {% link "Managing Multi-vendor email notifications" ref_7DW1NMak %}.
 
 ## Step 6: Get some sellers to join your marketplace as vendors
-Once the store has been configured to work as a multivendor marketplace, it is time to invite the sellers. The sellers will need vendor accounts. The store administrator can add new vendors via the Users section of the Admin area or have new sellers submit a vendor registration application via the "Become a seller" link on the storefront and then approve these applications in the Admin area. For instructions, see the article {% link "Managing vendors" ref_6OTbIwfd %}.
+Once the store has been configured to work as a multivendor marketplace, it is time to invite the sellers. The sellers will need vendor accounts. The store administrator can {% link "add new vendors" ref_6OTbIwfd#adding-new-vendors-via-the-admin-area %} via the Users section of the Admin area or have new sellers submit a vendor registration application via the "Become a seller" link on the storefront and then {% link "approve their applications" ref_6OTbIwfd#approvingrejecting-vendor-applications %} in the Admin area.  
 
 ## Step 7: Help vendors with the setup of their catalog
 The store administrator can view and manage any products in the store, including the products created by vendor users.
