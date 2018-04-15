@@ -7,9 +7,11 @@ title: Multi-vendor getting started for admin
 order: 100
 published: false
 ---
-This article provides an overview of the steps which the administrator of an X-Cart store needs to take to launch and manage a multivendor X-Cart-based marketplace.
+This article provides an overview of the steps which the administrator of an X-Cart store needs to take to launch a multivendor X-Cart-based marketplace. It also covers the tasks the administrator should do to manage this multivendor marketplace on a day-to-day basis.
 
 In this manual, by "administrator" we mean the store owner/storefront operator or an agent acting on their behalf and represented by an X-Cart store user with the access level "Administrator" and the role "Administrator".
+
+# Steps to launch a multivendor X-Cart-based marketplace
 
 ## Step 1: Ensure that the addon Multi-vendor is active
 A regular single-seller X-Cart store is transformed into a multivendor marketplace by the addon **Multi-vendor**. The store administrator must ensure that this addon is active. 
@@ -57,25 +59,17 @@ If the mode "_Vendors as separate shops_" is chosen, there will be no common shi
 The store administrator must ensure that all the users of the multivendor store/marketplace - including vendors - have the access permissions required to do their work. The administrator manages the access permissons using {% link "Roles" ref_38HKdc1f %} (**Users** > **Roles**). The addon Multi-vendor introduces the role "Vendor". The administrator can edit this role (rename the role / adjust the set of permissions given by the role) or create other vendor related roles. See the article {% link "Managing vendor access permissions" ref_0GOeWpB2 %} for details. 
 The store administrator should also check and adjust the Privacy and access settings on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %} to specify their preferences as to whether the customers' contact information may be shown to vendors, whether the vendors should have access to global attributes, and whether the vendors should be allowed to work with product ratings and reviews.
 
-## Step: Do the setup related to vendor onboarding 
+## Step 4: Do the setup related to vendor onboarding 
 The store administrator must adjust the contents of the vendor registration page through which new sellers will apply for vendor accounts. This includes editing the welcome text and adjusting the set of form fields that will have to be completed by prospective vendors. See the article {% link "Managing the vendor registration page" ref_41fyOJ9F %} for details. 
 The store administrator should also specify which role needs to be assigned to new vendor users by default; this can be done using the setting **Role to assign to new vendor users** on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}.
 Another important task that should be completed by the store administrator before new vendor users start to log in to the Vendor area is to adjust the onboarding welcome message for new vendors. The vendor onboarding message will be displayed on the Vendor area dashboard; this message can be used by the administrator to provide an overview of the steps a new vendor is required to complete before they can start selling or to share any other kind of important information with the vendors. The vendor onboarding message can be configured using the **Vendor onboarding welcome message** field on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}.
 
-
-
-## Step: Check the other addon settings
-early on while configuring a new multivendor X-Cart store
-Information on how to adjust the Multi-vendor addon settings is available in the article {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}.
-
-## Step 4: Check and adjust Multi-vendor email notifications
+## Step 5: Check and adjust Multi-vendor email notifications
 The store administrator must check the section Email notifications (**Store setup** > **Email notifications**) and adjust the notifications specific to Multi-vendor. For more info, see {% link "Managing Multi-vendor email notifications" ref_7DW1NMak %}.
 
-## Step 5: Get some sellers to join your marketplace as vendors
+## Step 6: Get some sellers to join your marketplace as vendors
 Once the store has been configured to work as a multivendor marketplace, it is time to invite the sellers. the store administrator can add new vendor users by approving vendor registration applications of prospective vendors or by creating new vendor user profiles via the Users section of the store's Admin area.
 
-## Step 6: Supervise the users
-The store administrator can manage the existing vendor users, including the removal of vendor users, export of vendor information and access to all the information associated with specific vendor profiles. See {% link "Managing vendors" ref_6OTbIwfd %} for details.
 
 ## Step 7: Help vendors with the setup of their catalog
 The store administrator can view and manage any products in the store, including the products created by vendor users.
@@ -88,9 +82,18 @@ The store administrator chooses and configures the store's payment methods. Most
 
 ## Step 10: Configure the taxes
 
-## Step 11: Decide on the shipping methods
+## Step 11: Decide on the shipping method
 
-## Step 12: Supervise the catalog, coupons and discounts
+## Step: Check the other addon settings
+early on while configuring a new multivendor X-Cart store
+Information on how to adjust the Multi-vendor addon settings is available in the article {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}.
+
+# Administrator tasks to manage a multivendor marketplace
+
+## Step 6: Supervise the users
+The store administrator can manage the existing vendor users, including the removal of vendor users, export of vendor information and access to all the information associated with specific vendor profiles. See {% link "Managing vendors" ref_6OTbIwfd %} for details.
+
+## Supervise the catalog, coupons and discounts
 The store administrator exercises the function of supervising the product catalog. See {% link "Supervising the product catalog" ref_0dPCIV3f %} for more information.
 
 The store administrator can view, edit and delete coupons and volume discounts created by vendors (However, the administrator cannot tell, which discount or coupon is owned by which vendor). The administrator can create coupons and discounts, but the coupons and discounts created by them are not visible to vendors and can be applied only to the products owned by the administrator.
