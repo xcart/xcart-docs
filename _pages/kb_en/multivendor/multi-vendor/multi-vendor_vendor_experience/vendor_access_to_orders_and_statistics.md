@@ -20,13 +20,13 @@ Once an order has been placed for a vendor's product, the vendor can see the res
 
 By clicking on the Order # of this order, the vendor can view the order details.
 
-In the "_Warehouse_" multivendor mode, if the original order contains products of more than one vendor, each of the vendors has the following order management capabilities:
+In the "_Warehouse_" multivendor mode, if the original order contains products of more than one vendor, each of vendors has following order management capabilities:
 
 *   can view only the information pertaining to the products they own;
 *   can see the payment and shipping methods selected by the buyer, but cannot see the shipping cost;
 *   cannot edit any order details, change the order statuses or add order tracking information (These functions are carried out by the administrator).
 
-In the "_Vendors as separate shops_" mode, a separate order is formed for the products of each vendor, so each vendor gets a separate order to which they have full access. In this mode vendors have the following order management capabilities:
+In the "_Vendors as separate shops_" mode, a separate order is formed for the products of each vendor, so each vendor gets a separate order to which they have full access. In this mode vendors have following order management capabilities:
 
 *   can view the list of ordered items, the payment method, the shipping method and the shipping cost;
 *   can view and update the payment and shipping order statuses;
