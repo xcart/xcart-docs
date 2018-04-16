@@ -87,12 +87,12 @@ The store administrator chooses and configures the store's payment methods. Most
 
 ## Step 11: Decide on the shipping methods
 
-## Step 12: Check the other addon settings
-early on while configuring a new multivendor X-Cart store
-Information on how to adjust the Multi-vendor addon settings is available in the article {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}.
+## Step 12: Check the rest of the Multi-vendor addon settings
+
+See {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}.
 
 ## Step 13: Consider activating other Multivendor-related addons
-The functionality of a multivendor X-Cart store can be extended by other addons. See {% link "Multivendor components" ref_MRQEvicQ %} for an overview of the addons typically used with Multi-vendor.
+The store administrator may choose to extend the functionality of their multivendor X-Cart store/online marketplace by other X-Cart addons. See {% link "Multivendor components" ref_MRQEvicQ %} for an overview of the addons typically used with Multi-vendor.
 
 
 # Administrator tasks to manage a multivendor marketplace
