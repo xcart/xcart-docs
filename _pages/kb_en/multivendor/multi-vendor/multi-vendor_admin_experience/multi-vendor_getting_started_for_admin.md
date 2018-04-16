@@ -89,14 +89,14 @@ In the "Vendors as separate shops" multivendor mode, each vendor has to ship the
 
 ## Step 11: Configure the taxes
 Depending on the business model employed by the store, the taxes will have to be collected on the sales and paid to a government organization by either the vendors themselves or by the store owner/storefront operator. To ensure proper calculation of taxes, the store administrator must specify in the Finance section of the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}, who is going to be responsible for the collection of taxes on the sales through the store/marketplace: the site owner or the vendor. 
-In stores where the collection of taxes has been configured as the responsibility of the site owner, tax calculation can be configured using one of the following:
 
-   * an X-Cart tax configuration addon like {% link "Sales tax" ref_aJPK4DHN %}, {% link "VAT/GST" ref_Rzp45QlN %} or {% link "Canadian taxes" ref_hxmof6xX %};
+In stores where the collection of taxes has been configured as the responsibility of the site owner, the store administrator will need to configure tax calculation with one of the following methods:
+
+   * Using an X-Cart tax configuration addon like {% link "Sales tax" ref_aJPK4DHN %}, {% link "VAT/GST" ref_Rzp45QlN %} or {% link "Canadian taxes" ref_hxmof6xX %} (This method involves extensive configuration of zones, taxes and tax rates).
    or 
-   * an integration of an online tax calculation service like {% link "AvaTax" ref_6880bVvi %} or TaxJar. 
+   * Using an integration of an online tax calculation service like {% link "AvaTax" ref_6880bVvi %} or TaxJar (This method involves getting an account with one of the online tax calculation services and configuring the store to connect to the respective service to get tax rates for each order). 
 
-the store administrator must specify which taxes and tax rates should be used.
-It should be noted that 
+In stores where the collection of taxes has been configured as the responsibility of the vendor, an online tax calculation service like {% link "AvaTax" ref_6880bVvi %} or TaxJar will have to be used. The configuration of taxes with X-Cart addons like {% link "Sales tax" ref_aJPK4DHN %}, {% link "VAT/GST" ref_Rzp45QlN %} or {% link "Canadian taxes" ref_hxmof6xX %} in such stores _is not supported_.
 
 ## Step 12: Adjust the vendor payout options
 Unless the multivendor store/online marketplace has been configured to use a payment method that will automatically transfer the money from sales to the vendors, the store owner will have to pay the money to the vendors based on payout requests submitted by them. The store administrator should specify how they wish to work with vendor payout requests. This can be done using the payout related settings in the Finance section of the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}. For example, the administrator can set a minimal balance that a vendor must have to be able to request a payout of their earnings, or they can enable an email notification for payout requests, and so on.
