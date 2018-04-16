@@ -88,7 +88,14 @@ In the "Warehouse" multivendor mode, the products of different vendors are all s
 In the "Vendors as separate shops" multivendor mode, each vendor has to ship their own products from their own business location. For this reason, each vendor has to add and configure their own shipping methods. The process is the same as when completed by the store administrator, with the only difference - that the vendors have to configure their shipping methods in their own Vendor area. The store administrator must ensure that each of the selling vendors has at least one shipping method configured and enabled.
 
 ## Step 11: Configure the taxes
-Depending on the business model employed by the store, the taxes will have to be collected on the sales and paid to a government organization by either the vendors themselves or by the store owner/storefront operator. To ensure proper calculation of taxes, the store administrator must specify in the Finance section of the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}, who is going to be responsible for the collection of taxes on the sales through the store/marketplace: the store owner or the vendor.
+Depending on the business model employed by the store, the taxes will have to be collected on the sales and paid to a government organization by either the vendors themselves or by the store owner/storefront operator. To ensure proper calculation of taxes, the store administrator must specify in the Finance section of the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}, who is going to be responsible for the collection of taxes on the sales through the store/marketplace: the site owner or the vendor. 
+In stores where the collection of taxes has been configured as the responsibility of the site owner, tax calculation can be configured using one of the following:
+
+   * an X-Cart tax configuration addon like {% link "Sales tax" ref_aJPK4DHN %}, {% link "VAT/GST" ref_Rzp45QlN %} or {% link "Canadian taxes" ref_hxmof6xX %};
+   or 
+   * an integration of an online tax calculation service like {% link "AvaTax" ref_6880bVvi %} or TaxJar. 
+
+the store administrator must specify which taxes and tax rates should be used.
 It should be noted that 
 
 ## Step 12: Adjust the vendor payout options
