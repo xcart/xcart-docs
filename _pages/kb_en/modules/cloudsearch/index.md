@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-04-13 13:25 +0400'
 identifier: ref_3MF4RL7z
 title: CloudSearch and CloudFilters
-order: 100
+order: 155
 published: true
 ---
 
