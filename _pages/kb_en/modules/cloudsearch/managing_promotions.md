@@ -49,7 +49,30 @@ Now if you visit the store’s front end and do a search for "iphone" or "6splus
 
 ![prom-res.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-res.png)
 
+{% note info %}
+If you decide to add more search queries to a product later on, just type them next to exisitng ones and SAVE the changes.
+
+![prom-7.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-7.png)
+{% endnote %}
+
 
 # Setting the order of promotions in search results
 
-If you choose to configure multiple promotions for the same search query, you will be able to adjust the order in which the promotions should be displayed in the search results inside the CloudSearch widget in your store’s front end. To adjust the order:
+If you choose to configure multiple promotions for the same search query, you will be able to adjust the order in which the promotions should be displayed in the search results inside the CloudSearch widget in your store’s front end. 
+
+Use arrows to move a promotion up or down:
+
+![prom-sort.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-sort.png)
+
+The new order will be saved automatically.
+
+# Deleting promotions
+
+You can delete any promotion you no longer need. 
+For this purpose locate the promotion in question and click the trash icon:
+
+![trash-1.png]({{site.baseurl}}/attachments/ref_0OurnBzC/trash-1.png)
+
+Then confirm your decision in a pop-up:
+
+![trash-2.png]({{site.baseurl}}/attachments/ref_0OurnBzC/trash-2.png)
