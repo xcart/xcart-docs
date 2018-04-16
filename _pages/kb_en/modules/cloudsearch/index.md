@@ -21,5 +21,5 @@ CloudSearch can be supplemented by CloudFilters to create a rich faceted search 
 1. {% link "Enabling CloudSearch and CloudFilters" ref_7qk2On7k %}
 2. {% link "Understanding CloudSearch" ref_5IHjr19k %}
 3. {% link "Managing Promotions in CloudSearch" ref_0OurnBzC %}
-4. Managing Synonims 
+4. {% link "Managing Synonyms in CloudSearch" ref_7H4podhD %}
 5. CloudFilters
