@@ -122,7 +122,7 @@ It is always a good idea to check from time to time how the business of individu
 See {% link "Viewing vendor statistics" ref_4mvK1AKz %} for more information.
 
 ## Pay the vendors and track the flow of money to and from the vendors
-See {% link "Managing vendor transactions" ref_3uy1YgfD %} for more information.
+Unless the multivendor store/online marketplace uses a payment method that supports automated distribution of the money received from a buyer by way of order payment between the store owner/storefront operator and the vendors (like PayPal Adaptive Payments), all the money from the sales of vendor products ends up in the hands of the storefront operator who has to handle the distribution. The storefront operator needs to take care that the money earned by the vendors goes to the vendors, whereas the commission that should be paid by the vendors to the storefront operator goes to the storefront operator.  See {% link "Managing vendor transactions" ref_3uy1YgfD %} for more information.
 
 
 _Related pages:_
