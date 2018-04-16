@@ -18,8 +18,8 @@ Using CloudSearch proven to increase your conversion rates.
 
 CloudSearch can be supplemented by CloudFilters to create a rich faceted search experience for your web store. CloudFilters provides an efficient way to navigate through a large list of products to find items matching certain filtering criteria. Customers can express their search needs in a convenient and natural way — filter by price, category, brand, size, color or any other attribute they want.
 
-1. Enabling CloudSearch and CloudFilters
-2. Understanding CloudSearch
-3. Managing Promotions
+1. {% link "Enabling CloudSearch and CloudFilters" ref_7qk2On7k %}
+2. {% link "Understanding CloudSearch" ref_5IHjr19k %}
+3. {% link "Managing Promotions in CloudSearch" ref_0OurnBzC %}
 4. Managing Synonims 
 5. CloudFilters
