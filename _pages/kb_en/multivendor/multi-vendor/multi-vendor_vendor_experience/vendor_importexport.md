@@ -12,8 +12,6 @@ redirect_from:
   - >-
     /modules/multi-vendor/multi-vendor_vendor_experience/vendor_importexport.html
 ---
-
-
 Vendors can use the Import by CSV section of the store's back end  (**Catalog** > **Import**) to add their new products and update their existing products.
 
 ![]({{site.baseurl}}/attachments/8749505/8717240.png)
