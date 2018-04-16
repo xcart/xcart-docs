@@ -92,15 +92,15 @@ The functionality of a multivendor X-Cart store can be extended by other addons.
 
 # Administrator tasks to manage a multivendor marketplace
 
-## Supervise the users
+## Task 1: Supervise the users
 The store administrator manages the existing vendor users, including the removal of vendor users, export of vendor information and access to all the information associated with specific vendor profiles. See {% link "Managing vendors" ref_6OTbIwfd %} for details.
 
-## Supervise the catalog, coupons and discounts
+## Task 2: Supervise the catalog, coupons and discounts
 The store administrator exercises the function of supervising the product catalog. See {% link "Supervising the product catalog" ref_0dPCIV3f %} for more information.
 
 If necessary, the store administrator can help vendors with volume discounts and coupons. The administrator can view, edit and delete coupons and volume discounts created by the vendors; they cannot, however, create coupons and discounts to be applied to vendor products. (Any coupons and discounts created by the administrator are not visible to vendors and can be applied only to the products owned by the administrator).
 
-## Work on the orders
+## Task 3: Work on the orders
 The store administrator has full access to all the orders in the store. 
 
 In the "_Warehouse_" mode, the administrator performs the following functions:
@@ -111,7 +111,7 @@ In the "_Warehouse_" mode, the administrator performs the following functions:
 
 In the "_Vendors as separate shops_" mode, the administrator has the same capabilities as in the "_Warehouse_" mode, but, typically, only acts as a supervisor - whereas the processing of orders and making changes to the information of specific orders is carried out by the vendors.
 
-## Get information on how your vendors' business is going 
+## Task 4: Get information on how your vendors' business is going 
 It is always a good idea to check from time to time how the business of individual vendors on the marketplace is going. The store administrator has access to vendor statistics including:
 
    *   Order statistics, 
@@ -121,7 +121,7 @@ It is always a good idea to check from time to time how the business of individu
 
 See {% link "Viewing vendor statistics" ref_4mvK1AKz %} for more information.
 
-## Pay the vendors and track the flow of money to and from the vendors
+## Task 5: Pay the vendors and track the flow of money to and from the vendors
 Unless the multivendor store/online marketplace uses a payment method that supports automated distribution of the money received from a buyer by way of order payment between the store owner and the vendors (like PayPal Adaptive Payments), all the money from the sales of vendor products ends up in the hands of the store owner who has to handle the distribution. The store owner needs to ensure that the money earned by the vendors goes to the vendors, whereas the commission that should be paid by the vendors to the store owner remains in the hands of the store owner. X-Cart does the calculation of the amounts earned by the vendors and the amounts earned by the store owner as a commission in each case. After a vendor's product has been sold and the money has been received by the store owner, the vendor can request a payout of the money due to them. The store administrator should review the payout request and, after making sure that all is correct, ensure that the money is transferred to the vendor. If an order gets cancelled/refunded, the respective adjustments need to be made, and some or all of the money received by the vendor may have to be returned to the store owner so they can handle the refund. To keep track of the transactions between the vendors on one end and the store owner on the other, the store administrator has to register all the cases when the money changes hands while being distributed to the vendors or goes back from the vendors to the store owner. See {% link "Managing vendor transactions" ref_3uy1YgfD %} for instructions.
 
 
