@@ -14,7 +14,7 @@ CloudSearch is easy to use, just start typing in the search box in your storefro
 
 The search covers categories, manufacturers and static pages as well as product attributes such as product name, description, SKU, product options, extra fields, category and manufacturer. CloudSearch recognizes word forms and provides other advanced full-text search capabilities. The CloudSearch widget in your store interacts directly with our cloud without increasing load on your server. 
 
-Using CloudSearch proven to increase your conversion rates.
+Using CloudSearch proved to increase conversion rates.
 
 CloudSearch can be supplemented by CloudFilters to create a rich faceted search experience for your web store. CloudFilters provides an efficient way to navigate through a large list of products to find items matching certain filtering criteria. Customers can express their search needs in a convenient and natural way — filter by price, category, brand, size, color or any other attribute they want.
 
