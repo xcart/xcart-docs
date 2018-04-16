@@ -22,6 +22,7 @@ _In this section:_
 *   {% link "Blog system in X-Cart 5" ref_T5FrnC4x %}
 *   {% link "Booking" ref_iTdd1QoP %}
 *   {% link "Canada Post" ref_ifwLo5ks %}
+*   {% link "CloudSearch and CloudFilters" ref_3MF4RL7z %}
 *   {% link "eBay Integration" ref_0SnFdXk1 %}
 *   {% link "eCC Desktop: Quickbooks integration" ref_0HbWTUok %}
 *   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
