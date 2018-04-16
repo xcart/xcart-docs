@@ -93,7 +93,7 @@ In the "Vendors as separate shops" multivendor mode, each vendor has to ship the
 
 
 ## Step 13: Check and adjust the Multi-vendor Appearance settings 
-The store administrator should set the Appearance preferences on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}.
+The store administrator should set the Appearance preferences on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %} to adjust the appearance of the vendor list in the customer area and the way vendor rating is displayed.
 
 ## Step 14: Consider activating other Multivendor-related addons
 The store administrator may choose to extend the functionality of their multivendor X-Cart store/online marketplace by other X-Cart addons. See {% link "Multivendor components" ref_MRQEvicQ %} for an overview of the addons typically used with Multi-vendor.
