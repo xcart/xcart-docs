@@ -13,6 +13,7 @@ redirect_from:
 ---
 _In this section:_
 
+   *   {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
    *   {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}
    *   {% link "Managing vendor access permissions" ref_0GOeWpB2 %}
    *   {% link "Managing the vendor registration page" ref_41fyOJ9F %}
