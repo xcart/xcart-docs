@@ -5,7 +5,7 @@ updated_at: '2018-04-13 13:25 +0400'
 identifier: ref_3MF4RL7z
 title: CloudSearch and CloudFilters
 order: 100
-published: false
+published: true
 ---
 
 CloudSearch is a SaaS solution that integrates with X-Cart to enable dynamic, real-time product search including autosuggest and spelling correct in an X-Cart based store. Use the Dashboard to control the search behavior, gather statistics, and gain insights on user behavior and demands. 
@@ -22,13 +22,4 @@ CloudSearch can be supplemented by CloudFilters to create a rich faceted search 
 2. Understanding CloudSearch
 3. Managing Promotions
 4. Managing Synonims 
-5. CloudFilters 
-
-
-
-
-
-
-
-
-
+5. CloudFilters
