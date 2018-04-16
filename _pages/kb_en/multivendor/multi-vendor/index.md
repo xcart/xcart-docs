@@ -14,6 +14,7 @@ The **Multi-vendor** addon for X-Cart 5 is the core component of X-Cart Multiven
 _In this section:_
 
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
+    *   {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
     *   {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}
     *   {% link "Managing vendor access permissions" ref_0GOeWpB2 %}
     *   {% link "Managing the vendor registration page" ref_41fyOJ9F %}
