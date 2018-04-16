@@ -84,12 +84,13 @@ The store administrator specifies the size of commissions that the vendors must 
 The store administrator chooses and configures the store's payment methods. Most of the payment methods supported by X-Cart 5 support a single payment recepient account. So, for the vast majority of payment methods, it will be the administrator who will receive the money from all the sales at their account; the administrator will then have to distribute the earnings to the specific vendors. There is, however, a payment method that is currently integrated with X-Cart which supports automated payment of earnings to the vendors - PayPal Adaptive Payments. For details, see {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}.
 
 ## Step 10: Decide on the shipping methods
+In the "Warehouse" multivendor mode, the products of different vendors are all shipped from the same warehouse, and it is the storefront operator who is responsible for shipping the orders out to the buyers. So, it is the store administrator who must configure the shipping settings. This is in no way different than configuring the shipping settings in a regular single-seller X-Cart store. More info on the subject can be found in the {% link "Shipping" ref_7tvT7GEK %} section of this manual.
+In the "Vendors as separate shops" multivendor mode, each vendor has to ship their own products from their own business location. For this reason, each vendor has to add and configure their own shipping methods. The process is the same as when completed by the store administrator, with the only difference - that the vendors have to configure their shipping methods in their own Vendor area. The store administrator must ensure that each of the selling vendors has at least one shipping method configured and enabled.
 
 ## Step 11: Configure the taxes
 
-## Step 12: Check the rest of the Multi-vendor addon settings
-
-See {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}.
+## Step 12: Check and adjust the Multi-vendor Appearance settings 
+The store administrator should set the Appearance preferences on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}.
 
 ## Step 13: Consider activating other Multivendor-related addons
 The store administrator may choose to extend the functionality of their multivendor X-Cart store/online marketplace by other X-Cart addons. See {% link "Multivendor components" ref_MRQEvicQ %} for an overview of the addons typically used with Multi-vendor.
