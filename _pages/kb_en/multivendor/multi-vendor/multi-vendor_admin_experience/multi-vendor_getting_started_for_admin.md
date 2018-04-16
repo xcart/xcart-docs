@@ -78,14 +78,14 @@ The store administrator needs to provide help to the vendors as they start addin
 Generally, the store administrator will have full access to any products created by vendors and may help the vendors by reviewing/editing/removing products on their behalf. If necessary, the store administrator may even add products to the catalog on behalf of vendors (manually one by one, or via import - everything will work as usual with the only difference that the administrator will have to specify the vendor who will be the owner of the product).  
 
 ## Step 8: Set a commission for the vendors
-The store administrator specifies the size of commissions that the vendors must pay to the storefront operator on each sale through the store. See {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %} for more information.
+The store administrator specifies the size of commissions that the vendors must pay to the storefront operator on each sale through the store. See {% link "Setting vendor commissions" ref_7B8smyEx %} for more information.
     
 ## Step 9: Choose and configure the payment methods
 The store administrator chooses and configures the store's payment methods. Most of the payment methods supported by X-Cart 5 support a single payment recepient account. So, for the vast majority of payment methods, it will be the administrator who will receive the money from all the sales at their account; the administrator will then have to distribute the earnings to the specific vendors. There is, however, a payment method that is currently integrated with X-Cart which supports automated payment of earnings to the vendors - PayPal Adaptive Payments. For details, see {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}.
 
-## Step 10: Configure the taxes
+## Step 10: Decide on the shipping methods
 
-## Step 11: Decide on the shipping methods
+## Step 11: Configure the taxes
 
 ## Step 12: Check the rest of the Multi-vendor addon settings
 
