@@ -80,18 +80,17 @@ Generally, the store administrator will have full access to any products created
 ## Step 8: Set a commission for the vendors
 The store administrator specifies the size of commissions that the vendors must pay to the storefront operator on each sale through the store. See {% link "Setting vendor commissions" ref_7B8smyEx %} for more information.
     
-## Step 9: Adjust the payout options
-The store administrator should specify how they wish to work with vendor payout requests. This can be done using the payout related settings in the Finance section of the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}.
-
-## Step 10: Choose and configure the payment methods
+## Step 9: Choose and configure the payment methods
 The store administrator chooses and configures the store's payment methods. Most of the payment methods supported by X-Cart 5 support a single payment recepient account. So, for the vast majority of payment methods, it will be the administrator who will receive the money from all the sales at their account; the administrator will then have to distribute the earnings to the specific vendors. There is, however, a payment method that is currently integrated with X-Cart which supports automated payment of earnings to the vendors - PayPal Adaptive Payments. For details, see {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}.
 
-## Step 11: Decide on the shipping methods
+## Step 10: Decide on the shipping methods
 In the "Warehouse" multivendor mode, the products of different vendors are all shipped from the same warehouse, and it is the storefront operator who is responsible for shipping the orders out to the buyers. So, it is the store administrator who must configure the shipping settings. This is in no way different than configuring the shipping settings in a regular single-seller X-Cart store. More info on the subject can be found in the {% link "Shipping" ref_7tvT7GEK %} section of this manual.
 In the "Vendors as separate shops" multivendor mode, each vendor has to ship their own products from their own business location. For this reason, each vendor has to add and configure their own shipping methods. The process is the same as when completed by the store administrator, with the only difference - that the vendors have to configure their shipping methods in their own Vendor area. The store administrator must ensure that each of the selling vendors has at least one shipping method configured and enabled.
 
-## Step 12: Configure the taxes
+## Step 11: Configure the taxes
 
+## Step 12: Adjust the vendor payout options
+Unless the multivendor store/online marketplace is configured to use a payment method that will automatically transfer the money from sales to the vendors, the store owner will need to pay the money to the vendors based on a payout request submitted by them. can request a payout of their earnings. The store administrator should specify how they wish to work with vendor payout requests. This can be done using the payout related settings in the Finance section of the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}. For example, the administrator can set a minimal balance that a vendor must have to be able to request a payout of their earnings, or they can enable an email notification for payout requests, and so on.
 
 ## Step 13: Check and adjust the Multi-vendor Appearance settings 
 The store administrator should set the Appearance preferences on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %} to adjust the appearance of the vendor list in the customer area and the way vendor rating is displayed.
