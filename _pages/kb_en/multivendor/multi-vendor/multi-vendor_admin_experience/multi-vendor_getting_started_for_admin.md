@@ -80,7 +80,7 @@ Generally, the store administrator will have full access to any products created
 ## Step 8: Set a commission for the vendors
 The store administrator specifies the size of commissions that the vendors must pay to the storefront operator on each sale through the store. See {% link "Setting vendor commissions" ref_7B8smyEx %} for more information.
     
-## Step 9: 
+## Step 9: Adjust the payout options
 
 ## Step 10: Choose and configure the payment methods
 The store administrator chooses and configures the store's payment methods. Most of the payment methods supported by X-Cart 5 support a single payment recepient account. So, for the vast majority of payment methods, it will be the administrator who will receive the money from all the sales at their account; the administrator will then have to distribute the earnings to the specific vendors. There is, however, a payment method that is currently integrated with X-Cart which supports automated payment of earnings to the vendors - PayPal Adaptive Payments. For details, see {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}.
