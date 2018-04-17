@@ -9,14 +9,11 @@ published: false
 ---
 ![migration.jpg]({{site.baseurl}}/attachments/ref_otTGssNZ/migration.jpg)
 
-This guide explains the main steps to set up an X-Cart store. Please refer to it to make sure you don't forget any key tasks before the store launch. [Contact X-Cart professionals](https://www.x-cart.com/contact-us.html) if you need assistance at any step: we’re just one call or email away ;)
+## Лицензия на использование X-Cart и уcтановка магазина
 
+1. [Выберите подходящую версию X-Cart и приобретите лицензию](https://www.x-cart.ru/ceny.html "Миграция магазина на платформу X-Cart"), если это платная версия. [Скачайте](https://www.x-cart.ru/download.html) файл установки. 
 
-## Step 1: Obtaining an X-Cart license and installing the software
-
-1.  Follow the link below to compare X-Cart packages and choose the most suitable one: [http://www.x-cart.com/software_pricing.html](http://www.x-cart.com/software_pricing.html). [Download](https://www.x-cart.com/download.html) the software. If you select a commercial package, purchase a license to get a license key. 
-
-2.  If you have a web server, check if it meets [X-Cart system requirements](http://kb.x-cart.com/en/general_setup/installation_guide.html#server-requirements) and make the necessary adjustments. If you have no web server, or it doesn’t qualify, consider [X-Cart Hosting](http://www.x-cart.com/hosting.html), which is fine-tuned for optimal X-Cart performance, or select one of our [trusted partners](http://partners.x-cart.com/hosting-companies).
+2.  Если вы уже приобрели сервер, проверьте, отвечает ли он [системным требованиям X-Cart](https://kb.x-cart.ru/general_setup/installation_guide.html#системные-требования "Миграция магазина на платформу X-Cart"). Если нет, воспользуйтесь [хостингом X-Cart](https://www.x-cart.ru/hosting.html "Миграция магазина на платформу X-Cart"), специально оптимизированным под платформу, или [сервисом партнёров](https://market.x-cart.com/experts-and-services/hosters/ "Миграция магазина на платформу X-Cart").
 
 3.   Once the hosting is ready, proceed to X-Cart installation. See a detailed Installation guide [here](http://kb.x-cart.com/en/general_setup/installation_guide.html#installation-process).
 
