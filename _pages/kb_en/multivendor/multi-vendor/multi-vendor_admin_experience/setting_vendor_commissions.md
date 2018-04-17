@@ -5,7 +5,7 @@ updated_at: '2018-04-16 14:34 +0400'
 identifier: ref_7B8smyEx
 title: Setting vendor commissions
 order: 100
-published: false
+published: true
 ---
 In a store/online marketplace based on X-Cart Multivendor, vendors must pay a commission to the store owner/storefront operator for using the storefront to sell their products. The store administrator acting on behalf of the store owner/storefront operator must set the commission rates to calculate this commission. 
 
