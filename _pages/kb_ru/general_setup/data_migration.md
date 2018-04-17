@@ -19,26 +19,23 @@ published: false
 
 4. После завершения установки откроется форма регистрации лицензии. {% link "Активируйте" ref_eqZRcCns#активация-базовой-лицензии-x-cart %} бесплатную версию или {% link "зарегистрируйте" ref_eqZRcCns#активация-платной-лицензии-x-cart-business-multivendor-или-ultimate %} платную лицензию.
 
-Once your X-Cart is installed, you will see a pop-up window suggesting that you register your free license ([see how](https://www.youtube.com/watch?v=MEncqXpJ8qc)) or activate a paid edition license (see [video instruction](https://www.youtube.com/watch?v=mmedPCQ91yA)). Follow the procedure in accordance with the X-Cart package chosen.
+## Перенос данных на платформу X-Cart 
 
+Самый простой способ  - воспользоваться сервисом переноса данных [Cart2Cart](https://www.shopping-cart-migration.com/ "Миграция магазина на платформу X-Cart"). Партнёр X-Cart гарантирует бесперебойный перенос данных с существующего магазина в новый магазин X-Cart. Также, понадобится специальный модуль переноса данных.
 
-## Step 2: Data migration with a store migration app
+1. В панели администратора X-Cart откройте страницу **Мои модули** и перейдите по ссылке  **Установить из Маркетплейса**. Сделайте поиск по слову _migrate_. 
 
-The easiest way to migrate store data is to use the service provided by X-Cart partners Cart2Cart. They guarantee the finest quality of data transfer to your new X-Cart store. With a number of ready-made migration modules that we provide, this task should be easy.
+2. Найдите модуль для текущей платформы магазина. Доступны модули для _Magento, WooCommerce, PrestaShop, Shopify, OsCommerce, BigCommerce, Interspire, ZenCart_. Полный список можно увидеть в [Маркетплейсе](https://market.x-cart.com/addons/migration/?substring=migrate&filter[edition]=all&filter[priceType]=all&filter[sortBy]=p.arrivalDate). 
 
-1.   Open X-Cart admin back-end –> Modules –> View more addons in Marketplace and search by the search term "migrate". 
+3.   Зарегистрируйтесь или авторизуйтесь в Cart2Cart и установите модуль переноса данных.
 
-2.   Find the module showing the name of your current shopping cart platform. Presently, we support migration from Magento, WooCommerce, PrestaShop, Shopify, OsCommerce, BigCommerce, Interspire, ZenCart and [more](http://www.x-cart.com/extensions/addons?price=All&price=All&keys=Migrate&sort_by=created&sort_by=created&sort_order=DESC&sort_order=DESC), see the entire list in the Marketplace via the X-Cart admin area. 
+4.   Укажите FTP логин и пароль к текущему магазину для загрузки соединительного моста.
 
-3.   Install the module and register a Cart2Cart account, or sign in if you already have one.
+5.   Cart2Cart загрузит соеинительный мост в X-Cart автоматически.
 
-4.   Enter the FTP credentials of your current store to upload the Connection Bridge.
+6.   Откроется сайт Cart2Cart, где необходимо выбрать данные для переноса.
 
-5.   Let Cart2Cart upload the Connecting Bridge to your X-Cart automatically.
-
-6.   After being redirected to the Cart2Cart website, choose the entities you’re willing to move to X-Cart.
-
-7.   Finish a free Demo and launch the Full Migration.
+7.   Отключите бесплатную демо версию и запустите полный перенос данных.
 
 
 ## Step 3: Check and organize your products after the migration
