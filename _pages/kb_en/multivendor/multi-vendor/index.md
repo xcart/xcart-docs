@@ -21,6 +21,7 @@ _In this section:_
     *   {% link "Managing Multi-vendor email notifications" ref_7DW1NMak %}
     *   {% link "Managing vendors" ref_6OTbIwfd %}
     *   {% link "Supervising the product catalog" ref_0dPCIV3f %}
+    *   {% link "Setting vendor commissions" ref_7B8smyEx %}
     *   {% link "Viewing vendor statistics" ref_4mvK1AKz %}
 
 *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
