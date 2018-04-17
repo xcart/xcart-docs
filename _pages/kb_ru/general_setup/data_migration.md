@@ -13,11 +13,13 @@ published: false
 
 1. [Выберите подходящую версию X-Cart и приобретите лицензию](https://www.x-cart.ru/ceny.html "Миграция магазина на платформу X-Cart"), если это платная версия. [Скачайте](https://www.x-cart.ru/download.html) файл установки. 
 
-2.  Если вы уже приобрели сервер, проверьте, отвечает ли он [системным требованиям X-Cart](https://kb.x-cart.ru/general_setup/installation_guide.html#системные-требования "Миграция магазина на платформу X-Cart"). Если нет, воспользуйтесь [хостингом X-Cart](https://www.x-cart.ru/hosting.html "Миграция магазина на платформу X-Cart"), специально оптимизированным под платформу, или [сервисом партнёров](https://market.x-cart.com/experts-and-services/hosters/ "Миграция магазина на платформу X-Cart").
+2. Если вы уже приобрели сервер, проверьте, отвечает ли он {% link "системным требованиям X-Cart" ref_ZlmtdzS3#системные-требования %}. Если нет, воспользуйтесь [хостингом X-Cart](https://www.x-cart.ru/hosting.html "Миграция магазина на платформу X-Cart"), специально оптимизированным под платформу, или [сервисом партнёров](https://market.x-cart.com/experts-and-services/hosters/ "Миграция магазина на платформу X-Cart").
 
-3.   Once the hosting is ready, proceed to X-Cart installation. See a detailed Installation guide [here](http://kb.x-cart.com/en/general_setup/installation_guide.html#installation-process).
+3. Когда хостинг готов, {% link "приступайте к установке магазина" ref_ZlmtdzS 3%}
 
-4.   Once your X-Cart is installed, you will see a pop-up window suggesting that you register your free license ([see how](https://www.youtube.com/watch?v=MEncqXpJ8qc)) or activate a paid edition license (see [video instruction](https://www.youtube.com/watch?v=mmedPCQ91yA)). Follow the procedure in accordance with the X-Cart package chosen.
+4. После завершения установки откроется форма регистрации лицензии.   https://kb.x-cart.ru/general_setup/activating_your_license.html#активация-базовой-лицензии-x-cartАктивируйте бесплатную версию  или зарегистрируйте платную лицензию https://kb.x-cart.ru/general_setup/activating_your_license.html#активация-платной-лицензии-x-cart-business-multivendor-или-ultimate 
+
+Once your X-Cart is installed, you will see a pop-up window suggesting that you register your free license ([see how](https://www.youtube.com/watch?v=MEncqXpJ8qc)) or activate a paid edition license (see [video instruction](https://www.youtube.com/watch?v=mmedPCQ91yA)). Follow the procedure in accordance with the X-Cart package chosen.
 
 
 ## Step 2: Data migration with a store migration app
