@@ -14,3 +14,12 @@ In the "Vendors as separate shops" multivendor mode, two types of commission rat
 The commission rates can be set globally (the same rate for all the vendors) or on a per-vendor basis.
 
 To set the commission rates globally, the store administrator should use the settings **Order DST based commission rate** and **Order shipping cost based commission rate** on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}.
+
+If any of the vendors need commission rates different from the global rates, the store administrator will need to set them in the profile details of those vendors. To set vendor-specific commission rates for a vendor, the administrator will need to use the Financial details section of the vendor's profile. In this section, the following commission rate settings are provided:
+   
+   * **Order DST based commission rate defined by**
+   * **Order shipping cost based commission rate defined by**
+   
+For both these settings, the available options are "Global rate" and "Special rate". "Global rate" means that  
+
+![xc5_mv_vendor_specific_commission_rates.png]({{site.baseurl}}/attachments/ref_7B8smyEx/xc5_mv_vendor_specific_commission_rates.png)
