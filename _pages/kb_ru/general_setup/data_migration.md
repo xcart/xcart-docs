@@ -17,7 +17,7 @@ published: false
 
 3. Когда хостинг готов, {% link "приступайте к установке магазина" ref_ZlmtdzS 3%}
 
-4. После завершения установки откроется форма регистрации лицензии.   https://kb.x-cart.ru/general_setup/activating_your_license.html#активация-базовой-лицензии-x-cartАктивируйте бесплатную версию  или зарегистрируйте платную лицензию https://kb.x-cart.ru/general_setup/activating_your_license.html#активация-платной-лицензии-x-cart-business-multivendor-или-ultimate 
+4. После завершения установки откроется форма регистрации лицензии. {% link "Активируйте" ref_eqZRcCns#активация-базовой-лицензии-x-cart %} бесплатную версию или {% link "зарегистрируйте" ref_eqZRcCns#активация-платной-лицензии-x-cart-business-multivendor-или-ultimate %} платную лицензию.
 
 Once your X-Cart is installed, you will see a pop-up window suggesting that you register your free license ([see how](https://www.youtube.com/watch?v=MEncqXpJ8qc)) or activate a paid edition license (see [video instruction](https://www.youtube.com/watch?v=mmedPCQ91yA)). Follow the procedure in accordance with the X-Cart package chosen.
 
