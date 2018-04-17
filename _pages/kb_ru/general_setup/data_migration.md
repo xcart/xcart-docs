@@ -44,16 +44,15 @@ published: false
 
 1. {% link "Проверьте наличие информации о товарах" ref_REno3u9g %} - описаний, изображений, вариантов, мета описаний - в зависимости от структуры предыдущей платформы.
 
-2.   {% link "Configure the taxes" ref_kJmd7K27 %} you require for your products or automate tax calculation via [Avatax Sales Tax calculation service](http://www.x-cart.com/extensions/addons/avatax-sales-tax-automation.html) by Avalara.
+2. {% link "Настройте налоги" ref_XPMqWHCC %}.
 
-3.   Make sure the products are arranged in categories correctly and are easy to find (Admin back-end –> Catalog –> Categories).
+3. В разделе **Каталог / Категории** проверьте правильность распределения товаров по категориям.
 
-4.   {% link "Add Featured products" ref_4iFdpTdv %} on the home page and/or category pages.
+4. {% link "Разместите рекомендуемые товары" ref_0GmOySU6 %} на главной странице магазина и/или на страницах категорий.
 
-5.   If your products have options and variants, use the {% link "product classes and attributes feature" ref_T90ZcEpP %} to set them up. You may need them if your products have such parameters as color, size, material, country of origin, ISBN, technical specifications, etc.
+5. Если у товаров есть варианты и опции (цвет, размер, материал, страна происхождения, международный стандартный книжный номер, технические особенности), настройте их с помощью {% link "классов и атрибутов" ref_pXBwGdtu %}.
 
-6.   {% link "Optimize the store catalog pages for SEO" ref_OBh3V1k1 %}: define meta elements of your product and category pages - such as the page title, meta description and meta keywords; {% link "set up seo-friendly URLs" ref_nJxrzFEZ %}.
-
+6. {% link "Проведите поисковую оптимизация магазина" ref_0EHqE8sY %} - укажите мета элементы товаров и категорий (заголовки страниц, мета описания, мета ключевые слова) и настройте {% link "SEO-оптимизированные семантические ссылки" ref_7IDJJdrM %}.
 
 ## Step 4: Configure the storefront
 
