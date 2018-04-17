@@ -7,6 +7,4 @@ title: Setting vendor commissions
 order: 100
 published: false
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+In X-Cart Multivendor, vendors must pay a commission for using the storefront. The commission rates are set by the store administrator acting on behalf of the store owner/storefront operator. It is possible to set commission rates that will be used globally for all the vendors or to set individual commission rates on a per-vendor basis.
