@@ -7,4 +7,8 @@ title: Setting vendor commissions
 order: 100
 published: false
 ---
-In X-Cart Multivendor, vendors must pay a commission for using the storefront. The commission rates are set by the store administrator acting on behalf of the store owner/storefront operator. In the "Vendors as separate shops" multivendor mode, two types of commission may be configured: an order DST based commission and a shipping cost based commission. In the "Warehouse" multivendor mode, only the order DST based commission is used (The products of all the vendors are shipped from the same location by the storefront operator, so no commission on the shipping cost is charged.) For both the commission types (order DST based commission and shipping cost based commission), the commission rates can be set globally (for all the vendors) or on a per-vendor basis.
+In a store/online marketplace based on X-Cart Multivendor, vendors must pay a commission to the store owner/storefront operator for using the storefront to sell their products. The store administrator acting on behalf of the store owner/storefront operator must set the commission rates to calculate this commission. 
+
+In the "Vendors as separate shops" multivendor mode, two types of commission rates can be configured: an order DST based commission rate and a shipping cost based commission rate. In the "Warehouse" multivendor mode, only the order DST based commission is used (The products of all the vendors are shipped from the same location by the storefront operator, so no commission on the shipping cost is charged.) 
+
+The commission rates can be set globally (for all the vendors) or on a per-vendor basis.
