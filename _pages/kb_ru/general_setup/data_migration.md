@@ -42,7 +42,7 @@ published: false
 
 Если вы использовали модуль миграции для переноса товаров в X-Cart, необходимо проверить товары после переноса.
 
-1.   {% link "Check the product details" ref_fhzzxDTy %}, which includes product descriptions, images, variants and meta descriptions - depending on your previous software.
+1. {% link "Проверьте наличие информации о товарах" ref_REno3u9g %} - описаний, изображений, вариантов, мета описаний - в зависимости от структуры предыдущей платформы.
 
 2.   {% link "Configure the taxes" ref_kJmd7K27 %} you require for your products or automate tax calculation via [Avatax Sales Tax calculation service](http://www.x-cart.com/extensions/addons/avatax-sales-tax-automation.html) by Avalara.
 
