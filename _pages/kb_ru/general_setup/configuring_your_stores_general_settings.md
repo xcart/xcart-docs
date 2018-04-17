@@ -15,7 +15,7 @@ published: false
   ![1-1.jpg]({{site.baseurl}}/attachments/ref_2nu9NBTd/1-1.jpg)
 
 * **Пошаговый**
-  <div class="ui stackable three column grid">
+<div class="ui stackable three column grid">
   <div class="column" markdown="span">![2-2.jpg]({{site.baseurl}}/attachments/ref_2nu9NBTd/2-2.jpg)
 </div>
   <div class="column" markdown="span">![33.jpg]({{site.baseurl}}/attachments/ref_2nu9NBTd/33.jpg)
@@ -108,7 +108,7 @@ published: false
     ![15.jpg]({{site.baseurl}}/attachments/ref_2nu9NBTd/15.jpg)
     
 -   _На списке продуктов_ : Если покупатель выберет из списка товар с вариантами и опциями и нажмёт **Купить** или перетащит товар в корзину, откроется окно быстрого просмотра товара, чтобы покупатель выбрал варианты/опции:
-     <div class="ui stackable three column grid">
+<div class="ui stackable three column grid">
   <div class="column" markdown="span">![16.jpg]({{site.baseurl}}/attachments/ref_2nu9NBTd/16.jpg)
 </div>
   <div class="column" markdown="span">![16-2.jpg]({{site.baseurl}}/attachments/ref_2nu9NBTd/16-2.jpg)
