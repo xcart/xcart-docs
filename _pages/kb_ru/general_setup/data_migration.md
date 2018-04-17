@@ -54,15 +54,15 @@ published: false
 
 6. {% link "Проведите поисковую оптимизация магазина" ref_0EHqE8sY %} - укажите мета элементы товаров и категорий (заголовки страниц, мета описания, мета ключевые слова) и настройте {% link "SEO-оптимизированные семантические ссылки" ref_7IDJJdrM %}.
 
-## Step 4: Configure the storefront
+## Настройка витрины
 
-We love beautiful stores as much as you do. That’s why we offer a number of tools that help you to personalize your X-Cart store easily:
+Измените внешний вид магазина с помощью встроенных инструментов X-Cart:
 
-1.   {% link "Change X-Cart logo and favicon" ref_2VXSZhKE %} to your company’s ones. {% link "Change the default Welcome text and banner on the Front page" ref_Id69E4GT %} to the ones of your own. {% link "Change the theme" ref_GLqVdpgd %} if you like.  Add links to certain pages to the Primary or Footer menus on the storefront {% link "as explained here" ref_BDykFBbw %}.
+1. {% link "Замените стандартные логотип и фавикон" ref_rbCbfRkR %} на свои изображения. {% link "Разметите приветственный текст и баннер" ref_akieAE07 %} на главной странице магазина. Выберите один из {% link "шаблонов дизайна" ref_theme %}. {% link "В главное и нижнее меню" ref_newmenuitem %} магазина поместите ссылки на страницы.
 
-2.   You may also choose to modify the text labels, say, rename the button “add to cart” to “add to bag”, as is explained by {% link "this instruction" ref_IyGxQ1DN %}. 
+2. При необходимости, {% link "измените стандартные тексты" ref_textlabels %} интерфейса через языковые переменные, например, переименуйте кнопки. 
 
-3.   {% link "Specify your company identity and contact information" ref_HcSs9eFL %}. Enable the {% link "Contact Us form" ref_hfZXkxzT %}. Edit the text on the Contact Us page {% link "as described here" ref_CsqC5DNX %}.To tell your customers about your company or to explain your store’s shipping and return policy, {% link "add static pages to your store" ref_Ptf5vaPn %}. To modify the dummy  “terms and conditions” text of ours, follow {% link "this instruction" ref_r5b4EKhF %}.
+3. Внесите {% link "данные о компании" ref_dsAHxl1X %} и контактную информацию. {% link "Подключите %}и {% link "измените ref_contactustxt %} форму обратной связи. Создайте статические страницы для размещения информации о компании, политике доставки и возврата и т.п. Разместите свой текст на странице Условия использования  {% link "Specify your company identity and contact information" ref_HcSs9eFL %}. Enable the {% link "Contact Us form" ref_hfZXkxzT %}. Edit the text on the Contact Us page {% link "as described here" ref_CsqC5DNX %}.To tell your customers about your company or to explain your store’s shipping and return policy, {% link "add static pages to your store" ref_Ptf5vaPn %}. To modify the dummy  “terms and conditions” text of ours, follow {% link "this instruction" ref_r5b4EKhF %}.
 
 4.   {% link "Configure your store’s General look and feel settings" ref_qAZlJxZm %} like product sorting within a category, minimal image width, number of products per category listing page, etc. Define the {% link "localization" ref_cc4sCpa5 %} parameters like weight unit, time zone and weight format.
 
