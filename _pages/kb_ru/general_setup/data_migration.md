@@ -66,7 +66,7 @@ published: false
 
 4. {% link "Оформите интерфейс магазина" ref_2nu9NBTd %} - настройте сортировку и количество товаров на страницах, размеры изображений и т.д. Укажите {% link "параметры локализации" ref_lclztn %} - валюту, меры веса, временную зону и т.д.
 
-5. You may also {% link "switch the store language in Admin area" ref_x5oSN86B %} or {% link "add a custom translation to the storefront" ref_NH3w8sSS %}. 
+5. Выберите {% link "язык интерфейса администратора" ref_adminlanguage %} магазина и установите дополнительные {% link "модули перевода" ref_translation %}. 
 
 
 ## Step 5: Configure your Shipping and Payment methods
