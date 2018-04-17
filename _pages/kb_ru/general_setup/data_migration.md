@@ -62,9 +62,9 @@ published: false
 
 2. При необходимости, {% link "измените стандартные тексты" ref_textlabels %} интерфейса через языковые переменные, например, переименуйте кнопки. 
 
-3. Внесите {% link "данные о компании" ref_dsAHxl1X %} и контактную информацию. {% link "Подключите ref_contactus %}и {% link "измените ref_contactustxt %} форму обратной связи. Создайте статические страницы для размещения информации о компании, политике доставки и возврата и т.п. Разместите свой текст на странице Условия использования  {% link "Specify your company identity and contact information" ref_HcSs9eFL %}. Enable the {% link "Contact Us form" ref_hfZXkxzT %}. Edit the text on the Contact Us page {% link "as described here" ref_CsqC5DNX %}.To tell your customers about your company or to explain your store’s shipping and return policy, {% link "add static pages to your store" ref_Ptf5vaPn %}. To modify the dummy  “terms and conditions” text of ours, follow {% link "this instruction" ref_r5b4EKhF %}.
+3. Внесите {% link "данные о компании" ref_dsAHxl1X %} и контактную информацию. {% link "Подключите ref_contactus %}и {% link "измените" ref_contactustxt %} форму обратной связи. Создайте {% link "статические страницы" ref_T6yRxWp5 %} для размещения информации о компании, политике доставки и возврата и т.п. Разместите свой текст на странице {% link "Условия использования" ref_t&c %}.
 
-4.   {% link "Configure your store’s General look and feel settings" ref_qAZlJxZm %} like product sorting within a category, minimal image width, number of products per category listing page, etc. Define the {% link "localization" ref_cc4sCpa5 %} parameters like weight unit, time zone and weight format.
+4. {% link "Оформите интерфейс магазина" ref_2nu9NBTd %} - настройте сортировку и количество товаров на страницах, размеры изображений и т.д. Укажите {% link "параметры локализации" ref_lclztn %} - валюту, меры веса, временную зону и т.д.
 
 5. You may also {% link "switch the store language in Admin area" ref_x5oSN86B %} or {% link "add a custom translation to the storefront" ref_NH3w8sSS %}. 
 
