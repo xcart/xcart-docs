@@ -4,7 +4,6 @@ layout: article_with_sidebar
 updated_at: '2017-07-19 22:19 +0400'
 identifier: ref_VG5mIoLT
 title: Installation Guide
-version: X-Cart 5.2.5 and later
 categories:
   - General setup
 published: true
