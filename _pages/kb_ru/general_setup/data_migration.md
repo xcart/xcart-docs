@@ -38,9 +38,9 @@ published: false
 7.   Отключите бесплатную демо версию и запустите полный перенос данных.
 
 
-## Step 3: Check and organize your products after the migration
+## Проверка товаров после переноса данных
 
-If you have added products to X-Cart via a migration app, it is important to verify the products afterwards.
+Если вы использовали модуль миграции для переноса товаров в X-Cart, необходимо проверить товары после переноса.
 
 1.   {% link "Check the product details" ref_fhzzxDTy %}, which includes product descriptions, images, variants and meta descriptions - depending on your previous software.
 
