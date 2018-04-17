@@ -20,6 +20,14 @@ If any of the vendors need commission rates different from the global rates, the
    * **Order DST based commission rate defined by**
    * **Order shipping cost based commission rate defined by**
    
-For both these settings, the available options are "Global rate" and "Special rate". "Global rate" means that  
+   ![xc5_mv_vendor_specific_commission_rates.png]({{site.baseurl}}/attachments/ref_7B8smyEx/xc5_mv_vendor_specific_commission_rates.png)
+   
+For both these settings, the available options are "Global rate" and "Special rate". By default, the option "Global rate" will be selected for all the vendors; it means that the commission for this vendor will be calculated using the rate specified on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}. To set a different rate, the administrator will need to switch the setting to the "Special rate" option. Once this happens, another setting will be revealed below:
+   ![xc5_mv_vendor_specific_commission_rates1.png]({{site.baseurl}}/attachments/ref_7B8smyEx/xc5_mv_vendor_specific_commission_rates1.png)
 
-![xc5_mv_vendor_specific_commission_rates.png]({{site.baseurl}}/attachments/ref_7B8smyEx/xc5_mv_vendor_specific_commission_rates.png)
+This way, the administrator will get access to the fields allowing them to set vendor-specific commission rates:
+
+   * **Order DST based commission rate of this vendor**
+   * **Order shipping cost based commission rate of this vendor**
+   
+These settings are similar to the commission rate settings on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}, but apply only to the current vendor.
