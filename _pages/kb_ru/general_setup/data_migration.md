@@ -71,24 +71,20 @@ published: false
 
 ## Настройка оплаты и доставки
 
-Такие товары как программное обеспечение, документы, онлайн карты и т.п. не требуют доставки, поэтому для них следует {% link "отключить расчёт стоимости транспортировки" ref_UbbrzsCH %}. Для обычных товаров настройте доставку.
+Такие товары как программное обеспечение, документы, онлайн карты и т.п. не требуют доставки, поэтому для них следует {% link "отключить расчёт стоимости транспортировки" ref_UbbrzsCH %}. Для обычных товаров настройте {% link "доставку" ref_glvKFUGT %}.
 
-1.   First of all, X-Cart supports carrier-calculated shipping rates for the following carriers: FedEx, U.S.P.S., UPS, Canada Post, AustraliaPost, DHL, Pitney Bowes, EMS, ShippingCalc. {% link "Read how to enable this" ref_ybdiN8r0 %}.
+Когда настроена доставка, можно принимать платежи от покупателей.
 
-2.   If you prefer custom table rates, {% link "follow this instruction" ref_3TG6AuN0 %}.
+Выберите, настройте и активируйте способы оплатыю
 
-3.   It is also possible to set up an individual shipping cost per product using the {% link "Shipping freight" ref_kioKBJIM %} feature. To charge a handling fee, {% link "follow these steps" ref_nFJTxPMR %}. {% link "Free shipping" ref_rOT8GezP %} is also easy to enable.
+1. Выберите, настройте и активируйте {% link "способы оплаты" ref_guGkzxGn %}.
 
-Once the shipping settings have been configured, make sure you can accept payments from your customers.
+2. Чтобы безопасно принимать к оплате кредитные карты, подключите магазин к X-Payments.
 
-1.   {% link "Enable at least one payment method" ref_Jq6Bsdrt %} and place a test order.
+3. Укажите адреса электронной почты, чтобы получать {% link "уведомления  о заказах" ref_bSnAl0Ss %}.
 
-2.   To enable PCI compliant credit card saving and processing, {% link "connect your store to X-Payments" ref_NaZh0d1b %}.
+Когда настройка завершена, рекомендуется протестировать работу магазина. Пройдите весь путь покупателя - от поиска и выбора товара до оплаты и изменения {% link "статуса заказа" ref_orders %}. Для тестирования удобно создать тестовый товар с минимальной ценой.
 
-3.   Specify the email addresses to receive {% link "notifications about new orders" ref_wKcxbiUf %}.
+В [базе знаний](http://kb.x-cart.ru/)вы найдёте инструкции по настройке магазина.
 
-After the above steps have been completed, we recommend that you make several test orders. Try the entire customer’s journey from finding a product and adding it to cart (you can create a test product which costs $0.01 for the purpose) to making a payment and updating {% link "order statuses" ref_r4PbRx4Z %}.
-
-Find more info in the [X-Cart user guide](http://kb.x-cart.com/), or [contact us](https://www.x-cart.com/migrate_me.html) for help.
-
-If the migration process scares you a bit, and you do not feel confident in your strength, we will be happy to do the whole data migration for you, just [let us know](https://www.x-cart.com/migrate_me.html)!
+Если не планируете делать миграцию самостоятельно, [обратитесь к команде X-Cart](https://www.x-cart.ru/contact-us.html) за сервисом переноса данных со сторонних платформ на X-Cart.
