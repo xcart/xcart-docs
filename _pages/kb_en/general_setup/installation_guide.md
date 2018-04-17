@@ -24,7 +24,8 @@ Before you get started you might want to check whether your web server spec meet
 
 Here is the system requirements list:
 
-*   PHP __5.4__ or higher
+*   PHP __5.4__ - __7.2__
+	_(X-Cart 5.3.4.5+)_
 *   __PDO__ extension with MySQL driver
 *   __Phar__ extension
 *   __mbstring__ extension is highly recommended (though X-Cart has a polyfill for it, native extension will speed up string processing)
