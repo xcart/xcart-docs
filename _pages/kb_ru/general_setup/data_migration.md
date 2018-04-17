@@ -69,9 +69,9 @@ published: false
 5. Выберите {% link "язык интерфейса администратора" ref_adminlanguage %} магазина и установите дополнительные {% link "модули перевода" ref_translation %}. 
 
 
-## Step 5: Configure your Shipping and Payment methods
+## Настройка оплаты и доставки
 
-Intangible goods (software programs, documents, online cards and the like) do not require shipping, so if you sell such products, you need to {% link "disable shipping calculation for them" ref_z5KmbFAu %}. For the rest of your products you have a number of tools to estimate the shipping cost properly.
+Такие товары как программное обеспечение, документы, онлайн карты и т.п. не требуют доставки, поэтому для них следует {% link "отключить расчёт стоимости транспортировки" ref_UbbrzsCH %}. Для обычных товаров настройте доставку.
 
 1.   First of all, X-Cart supports carrier-calculated shipping rates for the following carriers: FedEx, U.S.P.S., UPS, Canada Post, AustraliaPost, DHL, Pitney Bowes, EMS, ShippingCalc. {% link "Read how to enable this" ref_ybdiN8r0 %}.
 
