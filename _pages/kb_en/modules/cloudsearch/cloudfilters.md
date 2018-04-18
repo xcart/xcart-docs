@@ -5,7 +5,7 @@ updated_at: '2018-04-18 11:33 +0400'
 identifier: ref_25POvGjV
 title: CloudFilters
 order: 100
-published: false
+published: true
 ---
 CloudFilters module is aimed at narrowing down search results and hepling your customers to navigate through a large list of products to find items matching certain filtering criteria. 
 
