@@ -200,7 +200,7 @@ CSV файл с товарами должен сдержать как миним
     </tr>
     <tr>
       <td class="confluenceTd">useSeparateBox</td>
-      <td colspan="1" class="confluenceTd">Отправка в отдельной коробке требуется или не требуется</td>
+      <td colspan="1" class="confluenceTd">Отправка в отдельной коробке - требуется или не требуется</td>
       <td colspan="1" class="confluenceTd">Да/Нет</td>
     </tr>
     <tr>
