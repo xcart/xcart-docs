@@ -44,6 +44,7 @@ When creating a new product, you can specify the following product details:
 *   **Memberships**: Membership levels to which this product should be available. Non-members and users belonging to other membership levels will not be able to see the product on the storefront.
 *   **Tax class**: The tax class to which the product belongs (Defines what taxes should be applied to the product). For more info on tax classes, see: {% link "Setting up tax classes" ref_pAWOdG8N %}.
 *   **Price**: The product price.
+*   **Market price**: The product price, which shows the difference between the price offered in your store and the average price of the same product on the market (the field is added by the [Market Price](https://market.x-cart.com/addons/market-price.html "Adding products") module)
 *   **Product on sale**: Use this to put the product on sale.
 *   **Quantity in stock**: The exact current quantity in stock, or any value if you do not intend to track the inventory of this product. (In the latter case you will need to disable inventory tracking after the product has been created.) 
 *   **Weight**: Product weight.
