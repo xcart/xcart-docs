@@ -273,7 +273,9 @@ The form must contain at least one section (`self::SECTION_DEFAULT` section is d
 
 Each **key** of section fields is the name of the field. In our case, they are **sku**, **name**, **price** and **full_description**. The value of array's elements is an array of parameters that define each field.
 
-Field's parameters must match parameters of the field's type. For example, if you have **sku** field in example above, you cannot define a parameter **pattern** for it as we did for **price** one, because **sku**'s type will not know what to do with it and it will result in error. Exception are **type** и **position** parameters, which applicable to all fields
+Field's parameters must match parameters of the field's type. For example, if you have **sku** field in example above, you cannot define a parameter **pattern** for it as we did for **price** one, because **sku**'s type will not know what to do with it and it will result in error. Exception are **type** и **position** parameters, which applicable to all fields.
+
+More about form's fields in the {% link "Form fields" ref_SlIeQwQo %} article.
 
 Now we need to create the `\XLite\Module\XCExample\ModelEditing\Model\DTO\ExampleProductEdit` it need to validate data and trasfer data to and from form. For that, we create the
 `<X-Cart>/classes/XLite/Module/XCExample/ModelEditing/Model/DTO/ExampleProductEdit.php` file with the following content:
