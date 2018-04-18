@@ -5,7 +5,7 @@ updated_at: '2018-04-17 15:21 +0400'
 identifier: ref_6220Kq81
 title: Миграция магазина на платформу X-Cart
 order: 120
-published: false
+published: true
 ---
 ![migration.jpg]({{site.baseurl}}/attachments/ref_otTGssNZ/migration.jpg)
 
