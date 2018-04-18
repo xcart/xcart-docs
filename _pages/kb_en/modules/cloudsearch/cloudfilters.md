@@ -11,7 +11,7 @@ CloudFilters module is aimed at narrowing down search results and helping your c
 
 Filters are displayed on a category/subcategory page, search page and brands page (if the {% link "Shop by Brand" ref_2LetICls %} module is enabled). 
 
-CloudFilter adds filters dinamically based on the page they are displayed at. Hence the filters for one category will differ from the filters for another and both of them will differ from the filters displayed on the search page, etc. 
+The module shows filters dinamically based on the content of a page they are displayed at. Hence the filters for one category will differ from the filters for another and both of them will differ from the filters displayed on the search page, etc. 
 
 <div class="ui stackable three column grid">
   <div class="column" markdown="span">![filters-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/filters-1.png)</div>
@@ -19,7 +19,7 @@ CloudFilter adds filters dinamically based on the page they are displayed at. He
   <div class="column" markdown="span">![filters-3.png]({{site.baseurl}}/attachments/ref_25POvGjV/filters-3.png)</div>
 </div>
 
-The set of filters to be displayed on a page is automatically narrowed down and is build based on the  relevant {% link "product attributes" ref_T90ZcEpP %}, {% link "product tags" ref_6nFoxYf1 %} and {% link "vendor" ref_4ahg5FLK %} info. Selected filters are saved in the URL so that one can easily share a link to the filtered list of products. It is not only handy but also advantageous from a SEO standpoint. 
+The set of filters to be displayed on a page is automatically narrowed down and is built based on the  relevant {% link "product attributes" ref_T90ZcEpP %}, {% link "product tags" ref_6nFoxYf1 %} and {% link "vendor" ref_4ahg5FLK %} info. Selected filters are saved in the URL so that one can easily share a link to the filtered list of products. It is not only handy but also advantageous from a SEO standpoint. 
 
 Once the filter is applied, all the images and prices are instantly updated.
 
@@ -54,8 +54,8 @@ You'll see a pop-up window where you'll need to define a semantic term and add f
 ![smart-filter-popup.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter-popup.png)
 
 
-If semantic terms are configured they override the filters from the SET UP FILTERS tab.
+For the storefront search page SMART FILTERS if configured override the filters from the SET UP FILTERS tab.
 
 {% note info %}
-Semantic terms (categories) should correlate with the whole store category structure or product types to cover a certain group of products and should not coincide with each other. 
+Semantic terms (categories) should correlate with the whole store category structure or product types to cover a certain group of products and should not overlap with each other. 
 {% endnote %}
