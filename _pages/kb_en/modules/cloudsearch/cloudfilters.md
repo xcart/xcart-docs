@@ -29,11 +29,20 @@ The SET UP FILTERS tab is the main one. It contains filters gathered automatical
 If a filter is disabled it's not displayed in the storefront. 
 Besides the filters listed in the SET UP FILTERS tab there are default filters (category, price and manufacturer) that are always present in addition to the filters you enabled. 
 
-The SMART FILTER SELECTION FOR SEARCH tab is an advanced filtering system that can be used by the stores with a huge inventory to narrow down 
+The SMART FILTER SELECTION FOR SEARCH tab is an advanced filtering system that can be used by the big stores with a wide range of products (and product attributes as a result) to narrow down the filters displayed on the search page in the storefront. Here you can define special filter categories based on customer's search query. As a result, only relevant filters will be shown.
+
+To add a filter category hit the **Add Filter Category** button.
+
+![smart-filter.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter.png)
 
 
-Второй таб – это экспериментальная фишка для сужения/уменьшения количества фильтров только на странице поиска
+You'll see a pop-up window where you'll need to define a semantic term and add filters from the list that match this category. Click **Add category** when you are done.
+
+![smart-filter-popup.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter-popup.png)
 
 
-По сути эти семантические группы должны более или менее соответствовать структуре категорий или типам товаров в магазине, чтобы “угадывать” категорию
-они должны быть непересекающимися, чтобы по смыслу запрос попадал однозначно или туда или сюда
+If semantic terms are configured they override the filters from the SET UP FILTERS tab.
+
+{% note info %}
+Semantic terms (categories) should correlate with the whole store category structure or product types to cover a certain group of products and should not coincide with each other. 
+{% endnote %}
