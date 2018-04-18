@@ -14,7 +14,7 @@ The module extends the **File Attachments** module's functionality and allows yo
 ## Configuring the Amazon S3 Presigned URLs
 
 {% note info %}
-This feature is included E-goods module starting from v5.3.3.0 version.
+This feature is included in the E-goods module starting from version 5.3.3.0.
 {% endnote %}
 
 With the E-goods module you can utilize Amazon S3 to store large collection of digital downloads. 
