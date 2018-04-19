@@ -31,3 +31,9 @@ The **Webmaster mode** provides five convenient tools that you can use to apply 
 3. {% link "Layout Editor" ref_1xoeCJwy %}
 4. [Labels Editor](https://kb.x-cart.com/look_and_feel/managing_texts_labels_in_your_store.html#editing-text-labels-via-webmaster-mode "Using Theme Tweaker for Layout Changes")
 5. {% link "Description Editor" ref_0KCLczz4 %}
+
+
+
+_Related pages:_
+* {% link "Basic Design Changes in X Cart 5.3" ref_KpqQsVGf %}
+* [Using Webmaster Mode in X-Cart 5](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html)
