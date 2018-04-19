@@ -25,8 +25,8 @@ To set your preferences for product reviews:
    1. In the list of your store's installed modules, locate the entry for Product reviews and click the **Settings ** button below it:
     ![xc5_productreviews_settingsbutton.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_settingsbutton.png)
 
-     The "Product reviews" module settings page opens:
-    ![xc5_productreviews_settings.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_settings.png)
+   The "Product reviews" module settings page opens:
+   ![xc5_productreviews_settings.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_settings.png)
 
    2. Adjust the module settings: 
       * Who can leave feedback: Specify the type of store users who should be allowed to add product ratings and reviews (_Registered users only_ or _Registered users who purchased the product_).
