@@ -22,6 +22,7 @@ Design
 *   {% link "Changing your store's Welcome text and banner on the Front page" ref_Id69E4GT %}
 *   {% link "Uploading custom images onto your store's server" ref_zyQIOcia %}
 *   {% link "Changing the text of the maintenance page" ref_GX9sbLzF %}
+*   {% link "Changing the checkout logos picture" ref_V0WJ7Tzu %}
 *   {% link "Theme Tweaker and Webmaster Mode" ref_2L6W3YMS %}
 *   {% link "Changing 404 "page not found"" ref_1vY1kBkj %}
 
