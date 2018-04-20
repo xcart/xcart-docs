@@ -7,7 +7,7 @@ title: Enabling the Contact Us form
 categories:
   - User manual
 published: true
-order: 200
+order: 650
 ---
 
 
@@ -43,5 +43,3 @@ You can control the accessibility of the "Contact us" form link via the Primary 
 _Related pages:_
 
 *   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
-
-
