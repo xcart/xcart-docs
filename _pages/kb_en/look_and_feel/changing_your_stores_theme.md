@@ -7,7 +7,7 @@ title: 'Changing your store&#39;s theme'
 categories:
   - User manual
 published: true
-order: 190
+order: 100
 ---
 
 
