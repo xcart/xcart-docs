@@ -29,8 +29,10 @@ To set your preferences for product reviews:
 
    2. Adjust the module settings: 
       * Who can leave feedback: Specify the type of store users who should be allowed to add product ratings and reviews (_Registered users only_ or _Registered users who purchased the product_).
-      * Admin moderates all reviews before showing them to customers: Enable this option if you would like to 
-      * The quantity of reviews for tabs product reviews
+      * Admin moderates all reviews before showing them to customers: Enable this option if you would like to be able to approve and reject reviews so that only approved reviews will be published.
+      * The quantity of reviews for tabs product reviews: Use this setting to specify the maximum number of reviews to be displayed in the product reviews section of a product page. If the number of reviews is greater than the number specified here, pagintion will be provided.
+      * Request customers to review the purchased products after successful orders: Enable this option if you would like a review request to be sent to customers if their order was successful. A successful order is an order that has been successfully paid for and delivered (Payment status = Paid, Fulfilment status = Delivered). For orders that do not require shipping, the Fulfilment status is not taken into account; such orders are deemed successful as soon as their payment status is set to Paid.
+      * How many days later to send a review request: Use this setting to specify the length of period (in days) that should pass between updating the status(es) of an order so the order is deemed successful and the sending of a review request to the customer. 
       
    3.  Click **Submit** to save the changes.
    
@@ -39,7 +41,7 @@ To set your preferences for product reviews:
 The Admin area of your store provides a dedicated section for product reviews - the Product reviews section (**Catalog** > **Reviews**). In this section you can view and manage all the reviews that have been created for the products in your store:
     ![xc5_productreviews_all_product_reviews.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_all_product_reviews.png)
 
-Reviews for specific individual products can also be viewed and managed via the **Reviews** tab of the product information page of the respective products:
+Reviews for individual products can also be viewed and managed via the **Reviews** tab of the product information page of the respective products:
     ![xc5_productreviews_reviews_4product.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_reviews_4product.png)
 
 In each of the above-named locations, product reviews are presented in a table. For each review, the following information is available:
