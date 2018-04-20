@@ -7,7 +7,7 @@ title: Managing texts labels in your store
 categories:
   - User manual
 published: true
-order: 220
+order: 700
 ---
 
 Different people may prefer different words for the same meaning. For example, that part of an online store where a user stores the items they picked before paying for them - is it a "shopping cart", a "shopping basket" or a "shopping bag"? In X-Cart, we prefer to call it a "shopping cart", but we understand that some people will want to use a different name. So we made it possible to change almost any word or phrase in your X-Cart store's user interface.
