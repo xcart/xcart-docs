@@ -1,33 +1,17 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="{{ site.google_verification }}" />
-    <title>Redirecting&hellip;</title>
-    <link rel="canonical" href="{{ page.redirect.to }}">
-    <link rel="shortcut icon" href="http://img6.xcart.com/sites/all/themes/xcartcom2/favicon.ico" type="image/vnd.microsoft.icon">
-    <link rel="apple-touch-icon" href="//www.x-cart.com/apple-touch-icon.png">
-    {% css main %}
-  </head>
-  <body>
-    {% include header.html %}
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="not-found-page">
-          <div class="ui center aligned container">
-            <div class="ui sizer text">
-              <div class="ui huge header">Redirecting&hellip;</div>
-              <div class="ui medium header">                
-                <a href="{{ page.redirect.to }}">Click here if you are not redirected.</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <script>location="{{ page.redirect.to }}"</script>
+---
+title: Redirecting...
+layout: base
+large_header: false
+---
+
+<div class="not-found-page">
+  <div class="ui center aligned container">
+    <div class="ui sizer text">
+      <div class="ui huge header">Redirecting&hellip;</div>
+      <div class="ui medium header">                
+        <a href="{{ page.redirect.to }}">Click here if you are not redirected.</a>
       </div>
     </div>
-    {% include footer.html %}
-  </body>
-</html>
+  </div>
+</div>
+<script>location="{{ page.redirect.to }}"</script>
