@@ -7,7 +7,7 @@ title: Adding pages to your store
 categories:
   - User manual
 published: true
-order: 160
+order: 500
 ---
 
 
@@ -40,5 +40,3 @@ _Related pages:_
 *   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
 
 *   {% link "Adding a New Page in X Cart 5: Tutorial by Mike White" ref_dycXnOI1 %}
-
-
