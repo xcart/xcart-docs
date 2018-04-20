@@ -7,7 +7,7 @@ title: Changing the Terms and conditions page
 categories:
   - User manual
 published: true
-order: 170
+order: 550
 ---
 
 
@@ -65,4 +65,3 @@ _Related pages:_
 
 *   {% link "Adding pages to your store" ref_Ptf5vaPn %}
 *   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
-
