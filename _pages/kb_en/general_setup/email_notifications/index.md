@@ -6,6 +6,8 @@ identifier: ref_5QLrLCu7
 title: 'Email Notifications: Set Up and Maintenance'
 order: 100
 published: true
+redirect_from:
+  - /look_and_feel/enablingdisabling_order_created_email_notifications.html
 ---
 
 Your store can detect various types of events and notify users about these events by email. For example, your store sends email notifications when someone creates a user profile at your store, when this profile is modifed, when a new order is created, then every time the order status is changed, and so on. Some notifications are sent to the store staff (like the site administrator, sales department, customer service, etc.), others - to the store’s customers (namely, the users who created an order, the users whose profile is modified and so on). 
