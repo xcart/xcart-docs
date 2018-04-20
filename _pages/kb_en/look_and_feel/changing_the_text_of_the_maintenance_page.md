@@ -7,7 +7,7 @@ title: Changing the text of the maintenance page
 categories:
   - User manual
 published: true
-order: 300
+order: 350
 ---
 
 When your store is in the process of rebuilding its cache, upgrading the core or installing new modules, it is not operational, and your customers see the maintenance page instead:
@@ -53,5 +53,3 @@ We will add the line "`<div class="text">If you have any questions, contact us: 
 Likewise, you can add links to your social accounts and images, or any other info you find necessary. After saving this file, the store's maintenance page will look like this:
 
 ![]({{site.baseurl}}/attachments/8750554/8719383.png)
-
-
