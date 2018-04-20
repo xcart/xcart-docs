@@ -63,6 +63,12 @@ To delete a review, click on the Trash icon on the line of that review in the ta
 To delete multiple reviews, select the check boxes for those reviews and click the Trash button below the Product reviews table. Then confirm your wish to delete the selected reviews.
     ![xc5_productreviews_delete_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_delete_selected.png)
 
+To moderate a _Pending_ review, click on the **[...]** button on the line of that review, check if the review requires editing (the review can be edited right away) and click either **Approve** or **Remove**.
+    ![xc5_productreviews_moderate.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_moderate.png)
+
+To moderate multiple reviews at the same time, select the check boxes for those reviews, click the Check button below the table and select the option you require from the expanded button menu (_Approve selected_ will approve all the selected reviews and publish them on the product details page of the respective products; _Unapprove selected_ will unpublish the selected reviews resetting their status from _Published_ to _Pending_).
+    ![xc5_productreviews_moderate_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_moderate_selected.png)
+
 To edit a review, click on the **[...]** button on the line of that review:
     ![xc5_productreviews_more_opts.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_more_opts.png)
 
@@ -70,12 +76,6 @@ This opens the review for editing:
     ![xc5_productreviews_edit.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_edit.png)
 
 Edit the review as you require and click the button to save the changes (For reviews in the _Published_ state, this will be the **Update** button; for reviews in the _Pending_ state, the **Approve** button).
-
-To moderate a _Pending_ review, click on the **[...]** button on the line of that review, check if the review requires editing (the review can be edited right away) and click either **Approve** or **Remove**.
-    ![xc5_productreviews_moderate.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_moderate.png)
-
-To moderate multiple reviews at the same time, select the check boxes for those reviews, click the Check button below the table and select the option you require from the expanded button menu (_Approve selected_ will approve all the selected reviews and publish them on the product details page of the respective products; _Unapprove selected_ will unpublish the selected reviews resetting their status from _Published_ to _Pending_).
-    ![xc5_productreviews_moderate_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_moderate_selected.png)
 
 To add a new review via the Admin area, click the **Add review** button above the table:
     ![xc5_productreviews_add_from_admin.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_add_from_admin.png)
