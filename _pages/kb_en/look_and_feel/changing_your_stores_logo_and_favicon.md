@@ -7,7 +7,7 @@ title: 'Changing your store&#39;s logo and favicon'
 categories:
   - User manual
 published: true
-order: 100
+order: 150
 ---
 
 It is possible to add your own images for the store's logo and favicon:
