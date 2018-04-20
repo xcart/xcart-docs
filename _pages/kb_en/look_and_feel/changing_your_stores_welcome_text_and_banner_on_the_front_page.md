@@ -7,7 +7,7 @@ title: 'Changing your store&#39;s Welcome text and banner on the Front page'
 categories:
   - User manual
 published: true
-order: 110
+order: 250
 ---
 
 
