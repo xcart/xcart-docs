@@ -7,7 +7,7 @@ title: Removing the &quot;Powered by&quot; notice
 categories:
   - User manual
 published: true
-order: 240
+order: 800
 ---
 
 
@@ -39,5 +39,3 @@ order: 240
     ```
 
     ![]({{site.baseurl}}/attachments/6389847/9437792.png)
-
-
