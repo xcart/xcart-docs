@@ -7,7 +7,7 @@ title: 'Uploading custom images onto your store&#39;s server'
 categories:
   - User manual
 published: true
-order: 290
+order: 300
 ---
 
 
