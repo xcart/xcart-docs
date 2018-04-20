@@ -23,6 +23,7 @@ Design
 *   {% link "Uploading custom images onto your store's server" ref_zyQIOcia %}
 *   {% link "Changing the text of the maintenance page" ref_GX9sbLzF %}
 *   {% link "Theme Tweaker and Webmaster Mode" ref_2L6W3YMS %}
+*   {% link "Changing 404 "page not found"" ref_1vY1kBkj %}
 
 Pages and elements 
 *   {% link "Adding pages to your store" ref_Ptf5vaPn %}
