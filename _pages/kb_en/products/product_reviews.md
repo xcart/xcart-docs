@@ -32,7 +32,7 @@ To set your preferences for product reviews:
       * Admin moderates all reviews before showing them to customers: Enable this option if you would like to be able to approve and reject reviews so that only approved reviews will be published.
       * The quantity of reviews for tabs product reviews: Use this setting to specify the maximum number of reviews to be displayed in the Reviews section of a product page (under the Reviews tab). If the number of reviews is greater than the number specified here, visitors will be able to read the rest of the reviews after following the "Read all reviews for the product" link in the lower part of the section.
       * Request customers to review the purchased products after successful orders: Enable this option if you would like a review request to be sent to customers if their order was successful. A successful order is an order that has been successfully paid for and delivered (Payment status = Paid, Fulfilment status = Delivered). For orders that do not require shipping, the Fulfilment status is not taken into account; such orders are deemed successful as soon as their payment status is set to Paid.
-      * How many days later to send a review request: Use this setting to specify the length of period (in days) that should pass between updating the status(es) of an order so the order is deemed successful and the sending of a review request to the customer. 
+      * How many days later to send a review request: This setting pertains to the previous one. Use it to specify the length of period (in days) that should pass between updating the status(es) of an order so the order is deemed successful and the sending of a review request to the customer. 
       
    3.  Click **Submit** to save the changes.
    
