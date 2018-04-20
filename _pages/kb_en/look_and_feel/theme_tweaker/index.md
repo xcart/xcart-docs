@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-06 13:30 +0400'
 identifier: ref_2L6W3YMS
 title: Theme Tweaker and Webmaster Mode
-order: 700
+order: 400
 published: true
 description: Learn how to use Webmaster mode to apply changes to the default store layout
 ---
