@@ -15,4 +15,4 @@ Additionally, Shopper Approved enables businesses to send review invitations via
 
 X-Cart is integrated with Shopper Approved via a [module of the same name](https://market.x-cart.com/addons/shopper-approved-reviews.html).  Since Shopper Approved uses a Google data feed, you'll also need the [Google Product Feed](https://market.x-cart.com/addons/google-product-feed.html) module to be installed and enabled. 
 
-Configure the Shopper Approved module and start growing.
+{% link "Configure" ref_3otm3RBq %} the Shopper Approved module and start growing.
