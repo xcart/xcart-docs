@@ -40,8 +40,8 @@ Below is an explanation of the settings that can be found on the Canada Post set
 * **Quote type**: Choose _Commercial_ to get contracted rates (as contracted between you and Canada Post); choose _Counter_ to get rates you'd get over the counter (without a customer or contract number).
 
 * **Customer number**: This field is intended for your Canada Post commercial customer number, if you have one. See the Canada Post website for more info:
-    *   Why do I need a Canada Post customer number? [http://www.canadapost.ca/cpo/mc/business/productsservices/marketing/faqs.jsf#13](http://www.canadapost.ca/cpo/mc/business/productsservices/marketing/faqs.jsf#13)
-    *   How can I get a commercial customer number? [http://www.canadapost.ca/cpo/mc/business/support/customernumber.jsf](http://www.canadapost.ca/cpo/mc/business/support/customernumber.jsf)
+    *   Why do I need a Canada Post customer number? [https://www.canadapost.ca/web/en/kb/details.page?article=get_a_commercial_cus&cattype=kb&cat=accountinformation&subcat=generalinformation](https://www.canadapost.ca/web/en/kb/details.page?article=get_a_commercial_cus&cattype=kb&cat=accountinformation&subcat=generalinformation)
+    *   How can I get a commercial customer number? [https://www.canadapost.ca/web/en/kb/details.page?article=get_a_commercial_cus&cattype=kb&cat=accountinformation&subcat=generalinformation](https://www.canadapost.ca/web/en/kb/details.page?article=get_a_commercial_cus&cattype=kb&cat=accountinformation&subcat=generalinformation)
 
 After you have completed the Canada Post registration via the Merchant registration wizard, this field will be completed automatically.
 
