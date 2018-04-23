@@ -47,6 +47,7 @@ _In this section:_
 *   {% link "ShippingEasy" ref_HTml5LyW %}
 *   {% link "Shop by Brand Module" ref_2LetICls %}
 *   {% link "Shopgate - Mobile Commerce" ref_tHlhZwW1 %}
+*   {% link "Shopper Approved Module" ref_1leKQurL %}
 *   {% link "Social Login" ref_IapN8lJ8 %}
 *   {% link "Special Offers" ref_special_offers %}
 *   {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}
