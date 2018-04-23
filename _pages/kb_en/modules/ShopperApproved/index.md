@@ -3,8 +3,8 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-23 13:22 +0400'
 identifier: ref_1leKQurL
-title: ''
-order: 100
+title: Shopper Approved Module
+order: 255
 published: false
 ---
 Customer reviews are a real force in promoting your goods to the rest of the store visitors (as long as the review rates are high). But have you ever thought of extending your customer reviews all over the web to attract more and more new customers?
