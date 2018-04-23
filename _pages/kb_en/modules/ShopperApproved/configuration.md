@@ -5,7 +5,7 @@ updated_at: '2018-04-23 14:48 +0400'
 identifier: ref_3otm3RBq
 title: Configuring the Shopper Approved Module
 order: 100
-published: false
+published: true
 ---
 First of all, make sure the Shopper Approved module is {% link "installed and enabled" ref_uEnDBBA7 %} in the **Addons** section of your store Admin area. If enabled proceed to the module _Settings_ page.
 
@@ -45,5 +45,4 @@ Options that you can define in the _Product and Category pages_ tab are as follo
 
 More settings are available under the **Product** -> **Code** section of your ShopperApproved dashboard on the “Step 2. Select Your Options” step.
 
-The _Merchant Review Survey_ tab allows you to enable/disable a brief survey on the thank you page and a necessity of mandatory comments. More settings are available under the **Merchant** -> **Surveys** section of your ShopperApproved dashboard where you can set up follow-up emails survey to all customers who check out. 
-
+The _Merchant Review Survey_ tab allows you to enable/disable a brief survey on the thank you page and a necessity of mandatory comments. More settings are available under the **Merchant** -> **Surveys** section of your ShopperApproved dashboard where you can set up follow-up emails survey to all customers who check out.
