@@ -5,7 +5,7 @@ updated_at: '2018-04-23 16:01 +0400'
 identifier: ref_45EGhRet
 title: Configuring the Product reviews addon
 order: 100
-published: false
+published: true
 ---
 To set your preferences for the Product reviews addon:
    1. In the list of your store's installed addons, locate the entry for Product reviews and click the **Settings** button below it:
@@ -24,4 +24,4 @@ To set your preferences for the Product reviews addon:
 
 _Related pages:_
 
-   * {% link "Product reviews" ref_XBriIS6B %} 
+   * {% link "Product reviews" ref_XBriIS6B %}
