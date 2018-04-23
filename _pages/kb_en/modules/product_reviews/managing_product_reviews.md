@@ -75,3 +75,7 @@ To export all reviews, click the **Export all:CSV** button below the Product rev
 
 To export just some specific reviews, use the filter to find the reviews you need to export, select the check boxes for those reviews and click the **Export selected:CSV** button below the table.
     ![xc5_productreviews_export_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_export_selected.png)
+
+_Related pages:_
+
+   * {% link "Product reviews" ref_XBriIS6B %}
