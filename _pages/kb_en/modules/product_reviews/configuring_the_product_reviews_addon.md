@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-23 16:01 +0400'
 identifier: ref_45EGhRet
-title: ''
+title: Configuring the Product reviews addon
 order: 100
 published: false
 ---
