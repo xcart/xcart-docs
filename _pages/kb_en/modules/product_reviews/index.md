@@ -24,12 +24,8 @@ The store administrator has full product review management capabilities:
 
 
    
-## Managing product review notifications
-When a new product review is submitted, a "New product review submitted" email notification is sent to the store administrator. This notification can be disabled/edited via the Email notifications section (**Store setup** > **Email notifications**).
-   ![xc5_productreviews_review_submitted_msg.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_review_submitted_msg.png)
-
 _Related pages:_
 
    * {% link "Configuring the Product reviews addon" ref_45EGhRet %}
    * {% link "Managing product reviews" ref_04i6vQJb  %}
-   * {% link "Managing product review notifications"  %}
+   * {% link "Managing product review notifications" ref_1KUVvkg8 %}
