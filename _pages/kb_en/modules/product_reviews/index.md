@@ -23,8 +23,7 @@ The store administrator has full product review management capabilities:
    * edit and even create new reviews from the Admin area. 
 
 
-   
-_Related pages:_
+_In this section:_
 
    * {% link "Configuring the Product reviews addon" ref_45EGhRet %}
    * {% link "Managing product reviews" ref_04i6vQJb  %}
