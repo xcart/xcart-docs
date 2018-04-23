@@ -12,6 +12,17 @@ The Admin area of your store provides a dedicated section for product reviews - 
 
 Reviews for individual products can also be viewed and managed via the **Reviews** tab of the product information page of the respective products:
     ![xc5_productreviews_reviews_4product.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_reviews_4product.png)
+    
+_In this section:_
+
+   * {% link "Understanding product review information" #understanding-product-review-information %}
+   * {% link "Filtering product reviews" #filtering-product-reviews %}
+   * {% link "Deleting product reviews" #deleting-product-reviews %}
+   * {% link "Handling pending product reviews" #handling-pending-product-reviews %}
+   * {% link "Editing product reviews" #editing-product-reviews %}
+   * {% link "Adding product reviews via the Admin area" #adding-product-reviews-via-the-admin-area %}
+   * {% link "Exporting product reviews" #exporting-product-reviews %}
+   
 
 ## Understanding product review information
 In each of the above-named locations, product reviews are presented in a table. For each review, the following information is available:
@@ -35,7 +46,7 @@ To delete a review, click on the Trash icon on the line of that review in the ta
 To delete multiple reviews, select the check boxes for those reviews and click the Trash button below the Product reviews table. Then confirm your wish to delete the selected reviews.
     ![xc5_productreviews_delete_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_delete_selected.png)
 
-## Handling pending reviews
+## Handling pending product reviews
 To moderate a _Pending_ review, click on the **[...]** button on the line of that review, check if the review requires editing (the review can be edited right away) and click either **Approve** or **Remove**.
     ![xc5_productreviews_moderate.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_moderate.png)
 
