@@ -41,6 +41,7 @@ _In this section:_
 *   {% link "POS system for X-Cart" ref_BMTUgGt4 %}
 *   {% link "Product Advisor" ref_72asis58 %}
 *   {% link "Product Feeds" ref_0gfIXwxH %}
+*   {% link "Product reviews" ref_XBriIS6B %}
 *   {% link "Product Filter Module" ref_6e82A7rL %}
 *   {% link "Sale Module" ref_7tBJ8Yqo %}
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
