@@ -13,7 +13,7 @@ The Admin area of your store provides a dedicated section for product reviews - 
 Reviews for individual products can also be viewed and managed via the **Reviews** tab of the product information page of the respective products:
     ![xc5_productreviews_reviews_4product.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_reviews_4product.png)
     
-_In this section:_
+This article covers:
 
    * {% link "Understanding product review information" #understanding-product-review-information %}
    * {% link "Filtering product reviews" #filtering-product-reviews %}
