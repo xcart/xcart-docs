@@ -4,12 +4,11 @@ layout: article_with_sidebar
 updated_at: '2017-06-11 00:27 +0400'
 identifier: ref_XBriIS6B
 title: Product reviews
-order: 100
+order: 223
 published: true
 redirect_from:
   - /products/product_reviews.html
 ---
-## About product reviews
 The module **Product reviews** (included in X-Cart business) enables the product ratings and reviews feature for your X-Cart store.
     ![xc5_productreviews_module.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_module.png)
 
