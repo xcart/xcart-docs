@@ -5,7 +5,7 @@ updated_at: '2018-04-23 16:07 +0400'
 identifier: ref_04i6vQJb
 title: Managing product reviews
 order: 200
-published: false
+published: true
 ---
 The Admin area of your store provides a dedicated section for product reviews - the Product reviews section (**Catalog** > **Reviews**). In this section you can view and manage all the reviews that have been created for the products in your store:
     ![xc5_productreviews_all_product_reviews.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_all_product_reviews.png)
@@ -75,4 +75,3 @@ To export all reviews, click the **Export all:CSV** button below the Product rev
 
 To export just some specific reviews, use the filter to find the reviews you need to export, select the check boxes for those reviews and click the **Export selected:CSV** button below the table.
     ![xc5_productreviews_export_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_export_selected.png)
-  
