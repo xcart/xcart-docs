@@ -11,7 +11,7 @@ First of all, make sure the Shopper Approved module is {% link "installed and en
 
 ![settings.png]({{site.baseurl}}/attachments/ref_3otm3RBq/settings.png)
 
-There you'll be given an option either to sign up for Shopper Approved or to connect manually with an exisiting account.
+There you'll be given an option either to sign up for Shopper Approved or to connect manually with an existing account.
  
 ![settings-page.png]({{site.baseurl}}/attachments/ref_3otm3RBq/settings-page.png)
 
@@ -36,7 +36,7 @@ Further module set-up can be done in the **Content** -> **Shopper Approved** sec
 ![product_category_pages.png]({{site.baseurl}}/attachments/ref_3otm3RBq/product_category_pages.png)
 
 Options that you can define in the _Product and Category pages_ tab are as follows:
-* _Use Shopper Approved widget instead of the default one_ : YES/NO
+* _Use Shopper Approved widget instead of the default one_ : YES/NO (The widget will display the reviews submitted via the Shopper Approved module only, all reviews submitted earlier will not be available to customers)
 * _Star size_ : Regular/Big
 * _Maximum number of reviews to display_ : from 3 to 20
 * _Date format_ : choose the one you like better 
