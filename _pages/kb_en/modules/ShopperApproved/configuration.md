@@ -30,6 +30,7 @@ You'll need to specify the following data:
 * **ShopperApproved API Token**: Get this info in the Dashboard -> User Info section at [ShopperApproved](https://www.shopperapproved.com/account/dashboard/userinfo/account-settings "Configuring the Shopper Approved Module") 
 * **ShopperApproved Site Domain**: Your X-Cart store URL e.g. myxcartstore.com
 
+When enabled the Shopper Approved module creates a _Read our reviews_ static page that aimed to promote verified reviews you gain through the Shopper Approved module. You can customize it to your liking in the **Content** -> **Pages** section of the Admin area or add the merchant reviews widget to any other static page. The _Read our reviews_ static page may appear empty until you receive first reviews and approve them at Shopper Approved dashboard.
 
 Further module set-up can be done in the **Content** -> **Shopper Approved** section of the store Admin area.
 
