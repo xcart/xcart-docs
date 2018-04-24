@@ -33,3 +33,18 @@ You'll see a screen of the kind:
   The variants with duplicate attributes will get a title with a suffix, containing the attribute option values as string. Google will do it's best to handle such products properly.
   {% endnote %}
 
+In the _Google Shopping Group for variants_ tab you can assign your attributes to Google groups to import your variants.
+
+![gf-setting-2.png]({{site.baseurl}}/attachments/ref_2gQBB6qM/gf-setting-2.png)
+
+For this purpose choose an attribute using the SEARCH field and assign one of the Google groups to it from the list of available in drop-down.
+
+**Save changes** when complete. 
+
+The feed you generated can then be used in the [Google Merchant Cernter](https://support.google.com/merchants/answer/188493?hl=en&ref_topic=3163841 "Google Product Feed Module") or any 3rd party services which accept the Google feed file format.
+
+If you already have an account with Google (like Gmail), visit [merchants.google.com](https://merchants.google.com/ "Google Product Feed Module") and sign in to get started.
+
+If you don't already have a Google account, go to [accounts.google.com](https://accounts.google.com/ "Google Product Feed Module") and click Create account. Follow the prompts to create a new Google Account.
+
+Learn more about Google Merchant Center at https://support.google.com/merchants/answer/188495?hl=en&ref_topic=3163841
