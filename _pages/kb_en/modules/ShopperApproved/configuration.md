@@ -31,7 +31,7 @@ You'll need to specify the following data:
 * **ShopperApproved Site Domain**: Your X-Cart store URL e.g. myxcartstore.com
 
 
-Further module set up can be done in the **Content** -> **Shopper Approved** section of the store Admin area.
+Further module set-up can be done in the **Content** -> **Shopper Approved** section of the store Admin area.
 
 ![product_category_pages.png]({{site.baseurl}}/attachments/ref_3otm3RBq/product_category_pages.png)
 
@@ -43,6 +43,22 @@ Options that you can define in the _Product and Category pages_ tab are as follo
 
 **Save changes** when done. 
 
-More settings are available under the **Product** -> **Code** section of your ShopperApproved dashboard on the “Step 2. Select Your Options” step.
+More settings are available under the **Product** -> **Code** section of your [ShopperApproved](https://www.shopperapproved.com/account/product/page-code "Configuring the Shopper Approved Module") dashboard on the “Step 2. Select Your Options” step.
 
-The _Merchant Review Survey_ tab allows you to enable/disable a brief survey on the thank you page and a necessity of mandatory comments. More settings are available under the **Merchant** -> **Surveys** section of your ShopperApproved dashboard where you can set up follow-up emails survey to all customers who check out.
+![code-step2.png]({{site.baseurl}}/attachments/ref_3otm3RBq/code-step2.png)
+
+
+The _Merchant Review Survey_ tab allows you to enable/disable a brief survey on the thank you page and a necessity of mandatory comments. More settings are available under the **Merchant** -> **Surveys** section of your [ShopperApproved](https://www.shopperapproved.com/account/merchant/surveys/options "Configuring the Shopper Approved Module") dashboard where you can set up follow-up emails survey to all customers who check out.
+
+![survey.png]({{site.baseurl}}/attachments/ref_3otm3RBq/survey.png)
+
+
+Since ShopperApproved uses Google feed data format you'll need to install and enable the Google Product Feed module and generate a data feed using it. The data feed will be automatically imported to ShopperApproved and you can find a link to it in the **Dashboard** -> **Product** -> **Integration** section at [ShopperApproved](https://www.shopperapproved.com/account/product/integration "Configuring the Shopper Approved Module"). 
+
+![sa-data-feed.png]({{site.baseurl}}/attachments/ref_3otm3RBq/sa-data-feed.png)
+
+Once the Google data feed is submitted to ShopperApproved your product reviews become available in the [dashboard](https://www.shopperapproved.com/account/dashboard "Configuring the Shopper Approved Module") where you can manage them further.
+
+![Dashboard.png]({{site.baseurl}}/attachments/ref_3otm3RBq/Dashboard.png)
+
+Afterwards the reviews will be updated automatically each time you re-generate Google feed in X-Cart.
