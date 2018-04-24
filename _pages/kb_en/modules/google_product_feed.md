@@ -5,7 +5,7 @@ updated_at: '2018-04-24 13:01 +0400'
 identifier: ref_2gQBB6qM
 title: Google Product Feed Module
 order: 185
-published: false
+published: true
 ---
 Google Product Feed module generates a feed file to upload your store and product data to Google (and not only to it) in the correct format. You can use the uploaded data for Google Shopping and other Google services, as well as 3rd party services which accept the Google feed file format.
 
