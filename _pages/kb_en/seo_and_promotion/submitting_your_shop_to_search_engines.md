@@ -17,15 +17,17 @@ The module **XML Sitemap** for X-Cart 5 serves SEO purposes. It generates an X
 
 The module can be installed from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
-![xc5_xml_sitemap_module.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_module.png)
+![xml-1.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xml-1.png)
+
 
 ## Configuring your XML sitemap
 
-Once the module XML Sitemap has been installed, you will be able to access the XML sitemap section (**Store setup** > **XML sitemap**) in your store's Admin area.
+Once the module XML Sitemap has been installed, you will be able to access the XML sitemap settings (**Store setup** > **SEO Settings**) in your store's Admin area.
 
-![]({{site.baseurl}}/attachments/6389770/8719453.png)
+![xml-2.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xml-2.png)
 
-In the XML sitemap section, you can adjust the settings based on which the XML sitemap for your store will be generated:
+
+In the _XML sitemap_ tab, you can adjust the settings based on which the XML sitemap for your store will be generated:
 
 *   The subsection titled "**Mark the search engines you want to inform of the structure of your site using the site map**" allows you to specify the search engines to which the information from your site's XML sitemap should be made available.
 *   The settings "**Frequency of content renewal for X page**" allow you to specify how frequently specific types of pages on your store site are likely to change. The frequency of content renewal value provides general information to search engines and may not correlate exactly to how often they crawl the page. 
@@ -33,15 +35,17 @@ In the XML sitemap section, you can adjust the settings based on which the XML 
 
 Clicking the **Submit** button saves the changes you have made to the XML sitemap settings and - if the checkboxes for Google and/or Bing have been marked - submits an automated ping-request to the selected search engine(s) to submit the XML sitemap. 
 
-The button **Generate XML-Sitemap** at the top of the page allows you to re-generate your store's XML sitemap after changing the settings.
+The button **Generate XML Sitemap** at the top of the page allows you to re-generate your store's XML sitemap after changing the settings.
 
-![]({{site.baseurl}}/attachments/6389770/8719785.png)
+![xml-3.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xml-3.png)
+
 
 ## Submitting your XML sitemap to search engines
 
-You can find your XML sitemap URL at the top of the XML sitemap section in your store's Admin area (**Store setup** > **XML sitemap**):
+You can find your XML sitemap URL at the top of the XML sitemap tab in your store's Admin area (**Store setup** > **SEO Settings**):
 
-![]({{site.baseurl}}/attachments/6389770/8719786.png)
+![xml-4.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xml-4.png)
+
 
 This URL specifies the location of your store's XML sitemap index. The index lists all the available XML files for your store (There can be more than one XML files due to restrictions on the size of individual XML files and the number of URLs in each XML file). 
 
