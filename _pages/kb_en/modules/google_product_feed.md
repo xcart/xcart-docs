@@ -47,4 +47,4 @@ If you already have an account with Google (like Gmail), visit [merchants.google
 
 If you don't already have a Google account, go to [accounts.google.com](https://accounts.google.com/ "Google Product Feed Module") and click Create account. Follow the prompts to create a new Google Account.
 
-Learn more about Google Merchant Center at https://support.google.com/merchants/answer/188495?hl=en&ref_topic=3163841
+Learn more about [Google Merchant Center](https://support.google.com/merchants/answer/188495?hl=en&ref_topic=3163841 "Google Product Feed Module") and how to become a Google merchant.
