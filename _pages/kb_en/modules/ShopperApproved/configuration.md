@@ -53,7 +53,7 @@ The _Merchant Review Survey_ tab allows you to enable/disable a brief survey on 
 ![survey.png]({{site.baseurl}}/attachments/ref_3otm3RBq/survey.png)
 
 
-Since ShopperApproved uses Google feed data format you'll need to install and enable the Google Product Feed module and generate a data feed using it. The data feed will be automatically imported to ShopperApproved and you can find a link to it in the **Dashboard** -> **Product** -> **Integration** section at [ShopperApproved](https://www.shopperapproved.com/account/product/integration "Configuring the Shopper Approved Module"). 
+Since ShopperApproved uses {% link "Google feed" ref_2gQBB6qM %} data format you'll need to install and enable the Google Product Feed module and generate a data feed using it. The data feed will be automatically imported to ShopperApproved and you can find a link to it in the **Dashboard** -> **Product** -> **Integration** section at [ShopperApproved](https://www.shopperapproved.com/account/product/integration "Configuring the Shopper Approved Module"). 
 
 ![sa-data-feed.png]({{site.baseurl}}/attachments/ref_3otm3RBq/sa-data-feed.png)
 
