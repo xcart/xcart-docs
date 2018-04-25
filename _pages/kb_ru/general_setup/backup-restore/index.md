@@ -5,7 +5,7 @@ updated_at: '2018-04-25 10:22 +0400'
 identifier: ref_17RaOTRh
 title: Резервное копирование и восстановление магазина
 order: 160
-published: false
+published: true
 ---
 Резервное копирование - создание копии сайта, которая помогает полностью восстановить данные сайта при необходимости. Резервная копия создаётся вручную или автоматически с помощью модуля [Мастер резервного копирования (Backup Master)](https://market.x-cart.com/addons/backup-master.html "How to Back Up and Restore the Site"). 
 
@@ -21,4 +21,3 @@ published: false
 1. {% link "Prerequisites" ref_4X9iIR6L %}
 2. {% link "Files and Database Backup" ref_1kRBEegE %}
 3. {% link "Files and Database Restoration" ref_080K3Qe7 %}
-
