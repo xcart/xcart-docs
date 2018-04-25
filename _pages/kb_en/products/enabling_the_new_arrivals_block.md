@@ -11,20 +11,23 @@ order: 180
 ---
 
 
-The "New arrivals" feature in X-Cart 5 is available through the use of **Product Advisor** module by X-Cart team.  With this feature your store can showcase newly added products:
+The "New arrivals" feature in X-Cart 5 is available through the use of the addon **Product Advisor** by X-Cart team.  With this feature your store can showcase newly added products:
 
 *   in a separate block titled "New arrivals";
 *   on a separate page (`http://<your-domain>/<x-cart-5-directory>/?target=new_arrivals`) available by default through the "New arrivals" item in your store's Primary menu.
 
 In addition to that, newly added products can be marked with "New!" labels in all product lists in the Customer front end.
 
-To use the "New arrivals"  feature, make sure that the module **Product Advisor**  is installed and enabled at your store:
+To use the "New arrivals"  feature, make sure that the addon **Product Advisor**  is installed and enabled in your store:
 
-![]({{site.baseurl}}/attachments/6389778/8717811.png)To adjust the way new arrivals should be displayed to your store's visitors, you will need to adjust some module settings:
+![xc5_productadvisor_addon_enabled.png]({{site.baseurl}}/attachments/ref_2A50nkO9/xc5_productadvisor_addon_enabled.png)
 
-1.  Click the **Settings** link near the module icon in the list of your store's installed modules to go to the  "Product Advisor" module settings page.
+To adjust the way new arrivals should be displayed to your store's visitors, you will need to adjust some addon settings:
+
+1.  Click the **Settings** link near the addon icon in the list of your store's installed modules to go to the  "Product Advisor" module settings page.
 2.  On the "Product Advisor" module settings page, adjust the settings in the **"New arrivals" block settings** section.
-     ![]({{site.baseurl}}/attachments/6389778/8717812.png)
+     ![xc5_productadvisor_addon_settings.png]({{site.baseurl}}/attachments/ref_2A50nkO9/xc5_productadvisor_addon_settings.png)
+
     The settings are as follows:
 
     *   **Enable "New arrivals" feature in catalog**: Enable this option to enable the "New arrivals" feature. 
@@ -32,16 +35,14 @@ To use the "New arrivals"  feature, make sure that the module **Product Adviso
     *   **Maximum number of products to display in complete new arrivals list**: Specify the maximum number of products to be displayed when a user clicks the "All newest products" link in the "New arrivals" block:
         ![]({{site.baseurl}}/attachments/6389778/8717847.png)
         Leave 0 for no limit.
-    *   **Mark new products in catalog**: Enable this option to mark new products in all product lists (except for the list in the New arrivals section) with a label saying "New!"
-        ![]({{site.baseurl}}/attachments/6389778/8717846.png)
-    *   (X-Cart 5.2.x) **Display "New arrivals" block on sidebar (otherwise in center area)**: This setting defines the location of the "New arrivals" block. Enable if you want the "New arrivals" block to appear in the sidebar:
-        ![]({{site.baseurl}}/attachments/6389778/8717813.png)
-        Disable if you want this block to be displayed in the central area of your store site:
-        ![]({{site.baseurl}}/attachments/6389778/8717845.png)
-
-        {% note info %}
-        This setting is removed in X-Cart 5.3.x versions in favor of Layout editor mode, which allows you to drag "New arrivals" block to appropriate place either in sidebar or center area.
-        {% endnote %}
+    *   **Label new products**: Adjust this setting to specify whether you would like "New!" labels to be placed on products, and if so, on what pages that should happen. 
+        * _Don't label_ - "New" labels will not be used anywhere on the store pages.
+        
+        * _In catalog only_ - "New" labels will be used on catalog pages (like on the screenshot below):
+          ![xc5_productadvisor_new_label_in_catalog.png]({{site.baseurl}}/attachments/ref_2A50nkO9/xc5_productadvisor_new_label_in_catalog.png)
+ 
+        * _On catalog and product pages_ - "New" labels will be used on catalog pages (like on the screenshot above) AND on product pages (like on the screenshot below):
+          ![xc5_productadvisor_new_label_on_productpage.png]({{site.baseurl}}/attachments/ref_2A50nkO9/xc5_productadvisor_new_label_on_productpage.png)
 
     *   **Maximum number of products to display in "New arrivals" block**: This setting defines the maximum number of products that can be displayed in the "New arrivals" block. Specify a non-zero value; otherwise, 3 products will be displayed by default. If the specified value is less than the total amount of products on the complete new arrivals list, that value will be used instead. 
 
