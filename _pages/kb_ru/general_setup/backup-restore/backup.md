@@ -59,39 +59,40 @@ mysqldump -h<db_host> -u<username> -p<password> -r<backup_filename> <db_name>
 
 ## Создание резервной копии файлов магазина
 
-Creating a backup copy of the store files presumes that you pack all the files in the X-Cart root directory into an archive and then copy or move the archive to a new location on the remote server or your local computer.
+Резервное копирование файлов означает сохранение всех файлов корневой директории X-Cart в архиве и копирование или перемещение этого архива на удалённый сервер или локальный компьютер.
 
 {% note info %}
-If you have previously saved the database dump into the file in the X-Cart root directory, the file will also be included into the archive.
+Если дамп базы был сохранён в файле в корневой директории, он также будет включён в архив резервной копии файлов.
 {% endnote %}
 
-To create an archive you need to use a file archive manager. The exact choice of the archive manager will depend on the operating system you use. On a UNIX-based server, the most popular archive manager, which is currently installed on the majority of servers, is TAR. Later in this section you will find an example of how to archive the X-Cart files with the TAR archive manager. On a Windows-based server, you can create the archive with one of the available file archive managers for Windows, including WinRAR, WinZIP, PKZip and 7Zip. You need to pack the whole X-Cart root directory to an archive and then save the archive to the directory that is parent to the X-Cart root directory.
+Для создания резервной копии файлов потребуется менеджер архивирования подходящий используемой операционной системе. Наиболее распространённый архиватор, установленный на большинстве UNIX серверов, - TAR. На Windows серверах работают архиваторы WinRAR, WinZIP, PKZip и 7Zip. Запакуйте все файлы корневой папки X-Cart в архив и сохраните этот архив в директории на уровень выше корневой папки магазина.
 
-Alternatively, if it is not possible to pack the X-Cart files into an archive directly on your server, you can copy the X-Cart root directory to your local computer or another remote server using FTP or other suitable facility. Before that, make sure the new location, to which you are planning to copy the X-Cart root directory, has enough free disk space. Besides, the control panel of your hosting provider may offer its own facilities for backing up your account data.
+Если не удаётся создать архив на сервере, где установлен X-Cart, скопируйте корневую папку магазина на компьютер или другой сервер, например, по FTP. Перед копированием убедитесь, что на новом местоположении достаточно свободного места.
+Также, хостинг провайдеры позволяют создавать резервные копии аккаунта через панель управления.
 
-### Backing up store files with the TAR archive manager (UNIX-based servers only)
+### Создание резервной копии файлов X-Cart с помощью архиватора TAR (для UNIX серверов)
 
-In UNIX-based systems, TAR is known to be one of the most reliable and trustworthy utilities for creating and manipulating file archives. It is now commonly used in tandem with external compression utilities like GZIP, BZIP2 or LZMA, which enables you not only to create an archive, but also compress the data in the archive. As a result, with TAR you can create a lightweight archive of your store and then restore it using the same utility. To find out whether TAR is installed on your server, run the following shell command.
+В UNIX системах архиватор TAR считается самым надёжным средством создания и управления архивами. Обычно TAR используют с такими служебными программами для сжатия, как GZIP, BZIP2 и LZMA, которые позволяют не только создавать архив, но и сжимать данные внутри него. В результате, получается TAR-архив небольшого объёма, который можно открыть теми же средствами. Чтобы узнать, установлен ли TAR на сервере, запустите команду.
 
 ```
 tar --version
 ```
 
-If TAR is installed on your server, the system will display a message with the version of the utility; otherwise you will see an error message. In case of the latter, please contact your hosting team for help.
+Если архиватор установлен, появится сообщение с версией TAR, если не установлен - сообщение об ошибке. Обратитесь в поддержку хостинга для установки архиватора.
 
-To back up files with the TAR archive manager:
+Создание TAR-архива с файлами магазина:
 
-1. Log in to your server or your hosting account.
+1. Войдите в хостинг аккаунт/на сервер.
 
-2. Go to the X-Cart root directory.
+2. Откройте корневую директорию магазина.
 
-3. In the X-Cart root directory run the following shell command.
+3. Запустите shell команду
 
 ```
 tar -czvf ../store_backup.tgz *
 ```
 
-After you have run the command, TAR will pack all the files in the X-Cart root directory to the file store_backup.tgz and compress it with the ZIP data compression algorithm. The file will be saved to the directory that is parent to the X-Cart root directory. For example, if the X-Cart root directory is u/user/public_html/xcart, the file store_backup.tgz will be saved to directory u/user/public_html.
+После запуска команды TAR упакует все файлы корневой папки магазина в файл `store_backup.tgz` и уменьшит размер архива с помощью ZIP.  Архив будет сохранён в директории на уровень выше корневой папки X-Cart. Например, если корневая папка `u/user/public_html/xcart`, файл `store_backup.tgz` будет сохранён в `u/user/public_html`.
 
 ## Backup Master Module
 
