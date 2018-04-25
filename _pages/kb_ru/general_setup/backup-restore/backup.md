@@ -110,13 +110,14 @@ tar -czvf ../store_backup.tgz *
 * LКоманды консоли Linux (без сжатия)
 
 {% note info %}
-Using Linux Shell commands is much faster, so it is the recommended option for Linux servers.
-ZipArchive class may fail when working with large backup files, but it is the only option available on Windows servers, unfortunately.
+Shell команды Linux - самый быстрый способ, поэтому он рекомендован для Linux серверов. ZipArchive может не справиться с объёмными файлами, на это единственный способ на Windows серверах.
 {% endnote %}
 
-A predefined backup method is Linux Shell commands. If you change it, don't forget to **Submit** the changes. 
+Способ **Команды консоли Linux** выбран по умолчанию. Если вы выбрали другой метод, сохраните изменения. 
 
-To make a full store backup using the Backup Master module go to the **System tool** -> **Backup** section and click a **'Create backup'** button.
+![3.jpg]({{site.baseurl}}/attachments/ref_5V7w6uSs/3.jpg)
+
+Для создани резервной копии откройте раздел **Инструменты / Backup** и нажмите **Создать резервную копию**.
 
 <div class="ui stackable three column grid">
   <div class="column" markdown="span">![backup-1.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup-1.png)</div>
@@ -124,4 +125,4 @@ To make a full store backup using the Backup Master module go to the **System to
   <div class="column" markdown="span">![backup-3.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup-3.png)</div>
 </div>
 
-The module will create a full cart backup and will list it in a history of backups where you can see a path to the backup file to use it further, the file size and date of creation. To delete a backup click the _Trash_ icon next to it.
+Модуль создаёт полную резервную копию магазина и сохраняет запись о ней в истории резервного копирования. В истории можно найти ссылку на файл резервной копии, размер файла и дату создания. Чтобы удалить резервную копию, нажмите на значок корзины рядом с названием файла.
