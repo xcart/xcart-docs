@@ -56,4 +56,4 @@ To adjust the way new arrivals should be displayed to your store's visitors, you
     __X-Cart 5.1.x__: Drupal block settings can override this option (when the DrupalConnector module is enabled).
     {% endnote %}
 
-3.  Once you are done configuring the settings, click the **Submit **button at the bottom of the page to save the changes.
+3.  Once you are done configuring the settings, click the **Submit** button at the bottom of the page to save the changes.
