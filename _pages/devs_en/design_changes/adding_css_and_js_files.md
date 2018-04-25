@@ -11,7 +11,7 @@ published: true
 ---
 You can add your CSS/JS resources to your viewer class (more about this in {% link "Working with viewer classes" ref_6dMJsZ63 %}), by creating two specific methods in this viewer class: `getCSSFiles()` and `getJSFiles().`
 
-## `getCSSFiles()`
+## getCSSFiles()
 
 Widget registers its CSS files via this method. During the initialization of viewer classes these CSS files are collected into the static storage.
 
@@ -55,7 +55,7 @@ public function getCSSFiles()
 }
 ```
 
-## `getJSFiles()`
+## getJSFiles()
 
 The widget registers its JS files via this method. During the initialization of viewer classes these JS files are collected into the static storage.
 
