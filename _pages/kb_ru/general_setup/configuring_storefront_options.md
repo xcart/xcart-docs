@@ -5,7 +5,7 @@ updated_at: '2018-04-25 09:26 +0400'
 identifier: ref_1VHqZJhO
 title: Настройка витрины магазина
 order: 130
-published: false
+published: true
 ---
 Настройки витрины магазина устанавливаются в секции `[storefront_options]` файла `etc/config.php`:
 
