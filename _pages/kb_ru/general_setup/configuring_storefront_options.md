@@ -6,6 +6,7 @@ identifier: ref_1VHqZJhO
 title: Настройка витрины магазина
 order: 130
 published: true
+version: X-Cart 5.3.3
 ---
 Настройки витрины магазина устанавливаются в секции `[storefront_options]` файла `etc/config.php`:
 
