@@ -5,7 +5,7 @@ updated_at: '2018-04-25 10:43 +0400'
 identifier: ref_5YhVAjYy
 title: Восстановление файлов и базы магазина из резервной копии
 order: 170
-published: false
+published: true
 ---
 Восстановление магазина из резервной копии - процесс обратный созданию резервной копии с использованием тех же средств. Восстановление не представляет сложности, но важен чёткий порядок действий: восстановление сначала файлов, потом - базы. Следующее требование - восстановление в новой директории, созданной в WWW зоне хостинг аккаунта. Это требование необходимо соблюдать в любом случае - при копировании/переносе магазина на новое место и при замещении магазина резервной копией. После восстановления необходимо скорректировать конфигурацию магазина (значения языковых переменных в главном файле конфигурации `config.php`, пути к изображениям, права на файлы и т.д.).
 
@@ -95,34 +95,32 @@ published: false
     * Нажмите **Загрузить и восстановить**.
     Появится сообщение о завершении восстановления базы.
 
-### Restoring the database using terminal access
+### Восстановление базы данных по терминальному доступу
 
-To restore the database using terminal access to the server:
+1. Войдите в хостинг аккаунт или на сервер.
 
-1. Log in to your server or your hosting account.
-
-2. Run the following shell command.   
+2. Запустите shell команду   
    ```
    mysql -u USER -pPASSWORD DATABASE < /path/to/dump.sql
    ```
-   The system will ask you to to enter your password for the MySQL account. After the password has been accepted, the system will populate the database with the data from the SQL dump.
+   Введите MySQL пароль. База будет заполнена данными из SQL дампа.
    
    {% note info %}
-   The name/address of the MySQL server, the name of the MySQL database, the username and the password for the MySQL account must be the same as the values of the respective variables in the X-Cart configuration file config.php.
+   Используйте те же имя и адрес MySQL сервера, название MySQL базы данных, логин и пароль к MySQL аккаунту, что указаны в файле конфигурации X-Cart `/etc/config.php`.
    {% endnote %}
 
 
-## Safety Tips
+## Советы
 
-Remove the SQL dump and the archive from the WWW directory of your server or hosting account. It is strongly recommended that you do not leave the SQL dump of the store database and the packed archive with X-Cart files anywhere in the WWW directory of your server or hosting account where you keep your Internet projects and which is publicly accessible. Otherwise, your store data can be easily stolen as anybody will be able to access the database dump through the Web.
+Следует удалить SQL дамп и архив с файлами магазина из WWW директории хостинг аккаунта или сервера. Эта директория содержит Интернет-проекты и доступна в сети Интернет, поэтому данные магазина находятся в открытом доступе, что небезопасно.
 
-A good practice here is to keep the backup on a local computer or in a directory on a remote server that cannot be accessed through the Web. For example, if the root directory of your hosting account is /u/user/ and the web directory is /u/user/public_html/, you must move the SQL dump and the store archive from the directory /u/user/public_html/ to somewhere in the directory /u/user/.
+Важно хранить резервную копию на локальном компьютере или на удалённом сервере в директории, недоступной онлайн. Например, если корневая директория на хостинге - `/u/user/`, а веб-директория -  `/user/public_html/`, SQL дамп архив с файлами следует переместить из `/u/user/public_html/` в `/u/user/`/.
 
-## Troubleshooting
+## Решение проблем
 
 {:.ui.compact.celled.small.padded.table} 
 
-|Problem |	Possible cause |	Solution |
-| The system says you do not have enough privileges to write to the file. |	User who has run the PHP script is not allowed to write files to the directory. | Set writable permissions to the directory where you are trying to save the SQL dump to, and repeat the task. |
-| The system says you do not have enough free disk space to complete the operation. |	File system does not have enough free disk space. |	Since some data has been saved to the file before the error message, first remove the file with the backup. Then either make available more free space and repeat the task, or choose to save the file to another location. |
-| Task was terminated and the system says you will be redirected to the previous page. |	The memory that was allocated to the script has exhausted. |	Increase the amount of memory allocated to the script by increasing the default value of the $memory_limit variable in the php.ini file. If you do not have access to the php.ini file, ask your hosting team to help you. **NOTE:** It may be necessary to increase the allocated memory several times, because it is impossible to predict how much memory you really need. |
+|Проблема |	Причина |	Решение проблем |
+| Система сообщает о нехватке прав для записи в файлы. | У пользователя, запустившего PHP скрипт, нет прав на загрузку файлов в директорию. | Установите права на запись на директорию, в которой хотите сохранить SQL дамп, и повторите действие. |
+| Система сообщает о нехватке свободного дискового пространства для осуществления операции. |	В файловой системе недостаточно свободного пространства. |	Т.к. некоторые данные были сохранены в файле до появления сообщения об ошибке, прежде всего удалите файл с резервной копией. Затем освободите место и повторите действие или сохраните файл в другом месте. |
+| Задача прервана. Система сообщает, что будет открыта предыдущая страница. | Объём памяти, выделенный для скрипта, исчерпан. |	Увеличьте объём памяти для скрипта изменением значения переменной $memory_limit в файле `php.ini`. Если у вас нет доступа к файлу `php.ini`, обратитесь за помощью в поддержку хостинга. Возможно потребуется изменять объём доступной памяти несколько раз, т.к. сложно предугадать, сколько на самом деле потребуется. |
