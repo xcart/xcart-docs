@@ -94,18 +94,20 @@ tar -czvf ../store_backup.tgz *
 
 После запуска команды TAR упакует все файлы корневой папки магазина в файл `store_backup.tgz` и уменьшит размер архива с помощью ZIP.  Архив будет сохранён в директории на уровень выше корневой папки X-Cart. Например, если корневая папка `u/user/public_html/xcart`, файл `store_backup.tgz` будет сохранён в `u/user/public_html`.
 
-## Backup Master Module
+## Создание резервной копии с помощью модуля Мастер резервного копирования (Backup Master)
 
-To make the process of creating a full store backup more convenient and straighforward you can use a special [Backup Master](https://market.x-cart.com/addons/backup-master.html "Files and Database Backup") module that facilitates both a database and a full store files backup in one click. 
+Модуль [Мастер резервного копирования (Backup Master)](https://market.x-cart.com/addons/backup-master.html "Files and Database Backup") упрощает процесс создания резервной копии X-Cart, т.к. создаёт одновременно резервные копии и базы и файлов магазин. 
 
-To install the module go to the Addons section of the Admin area and follow the procedure described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once installed open the module settings page to configure the method of a backup.
+В _X-Cart Всё включено_ модуль уже установлен и требует только настройки, а в _X-Cart Базовый, Бизнес_ и _Мультивендор_ модуль требует установки и активации. 
 
-![backup-module.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup-module.png)
+Откройте страницу настройки модуля.
 
-You can choose between the following methods:
-* ZipArchive class biult into PHP
-* Linux Shell commands
-* Linux Shell commands (without compression)
+![2.jpg]({{site.baseurl}}/attachments/ref_5V7w6uSs/2.jpg)
+
+Выберите один из способ создания резервной копии:
+* Класс ZipArchive, встроенный в PHP
+* Команды консоли Linux
+* LКоманды консоли Linux (без сжатия)
 
 {% note info %}
 Using Linux Shell commands is much faster, so it is the recommended option for Linux servers.
