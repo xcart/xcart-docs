@@ -31,9 +31,9 @@ published: true
   2. отключите опцию **Посмотреть магазин** 
   3. Когда витрина отключена, посетители магазина увидят надпись, что магазин временно недоступен. Чтобы открыть магазин, включите эту опцию.
   
-  <div class="ui stackable three column grid">
+<div class="ui stackable three column grid">
   <div class="column" markdown="span">![7.jpg]({{site.baseurl}}/attachments/ref_14Vi7MGc/7.jpg)
 </div>
   <div class="column" markdown="span">![8.jpg]({{site.baseurl}}/attachments/ref_14Vi7MGc/8.jpg)
 </div>
-  </div>
+</div>
