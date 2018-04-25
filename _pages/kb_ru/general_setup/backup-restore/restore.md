@@ -82,18 +82,18 @@ published: false
 
 3. Восстановите базу данных магазина из SQL дампа как описано ниже.
    
-   If the SQL dump was saved using the Create SQL file option, i.e. was saved as a file on the web server ('var/backup/sqldump.sql.php'):
-    * Click the 'Restore from server' button.
-    * Wait until the system displays a message saying that the database has been restored successfully.
+   Если SQL дамп был создан с помощью **Создать SQL файл** на вкладке **Сохранить базу**, т.е. был сохранён в виде файла на сервере (`var/backup/sqldump.sql.php`):
+    * Нажмите кнопку **Загрузить дамп с сервера**.
+    * Появится сообщение о завершении восстановления базы.
     {% note info %}
-    If restoring the database this way the current database backup will bo done automatically by the system. 
+    При этом  резервная копия текущей базы создаётся автоматически. 
     {% endnote %}
   
-   If the SQL dump is saved on a local computer:
-    * Click the 'Choose file' button to display the dialog box for uploading files.
-    * Select the file with the SQL dump.
-    * Click the 'Upload and Restore' button.
-    Wait until the system displays a message saying that the database has been restored successfully.
+   Если SQL дамп был сохранён на компьютере:
+    * Нажмите **Обзор** для выбора файла.
+    * Выберите файл SQL дампа.
+    * Нажмите **Загрузить и восстановить**.
+    Появится сообщение о завершении восстановления базы.
 
 ### Restoring the database using terminal access
 
