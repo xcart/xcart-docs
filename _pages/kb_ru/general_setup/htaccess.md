@@ -5,21 +5,21 @@ updated_at: '2018-04-25 09:37 +0400'
 identifier: ref_45m8r5iV
 title: Защита сайта X-Cart при помощи htaccess
 order: 140
-published: false
+published: true
 ---
-Sometimes it may be necessary to close/limit access to your website or the cart admin area for security or development issues. This can be done using [htaccess password protection](http://www.htaccesstools.com/articles/password-protection/).
+Чтобы закрыть или ограничить доступ к магазину или его панели управления, настройте защиту паролем с помощью файла [`.htaccess`](https://ru.wikipedia.org/wiki/.htaccess "Защита сайта X-Cart при помощи htaccess").
 
-If you read the article you should know that the main point here is to create 2 files called .htaccess and .htpasswd in the directory you want to password protect, where a .htaccess file actually closes access to a directory with a form where you need to submit login/password to be authorized and the .htpasswd file contains the very login/password info you need to submit to be authorized.  
+Создайте два текстовых файла с расширением `.htaccess` и `.htpasswd` и по FTP-соединению загрузите их в директорию, которая требует защиты. Файл `.htaccess` ограничивает доступ через форму ввода логина и пароля, а файл `.htpasswd` содержит саму информацию для доступа, логин и пароль.  
 
-First, you need to create a .htpasswd file with your login and password, the file content being like 
+Создайте текстовый файл .htpasswd следующего содержания: 
 
 ```
 mylogin:mypassword
 ```
 
-where _mylogin_ stands for a login authorized to access this folder and _mypassword_ stands for a password to be used.
+где _mylogin_ имя пользователя, с которым разрешён доступ, а _mypassword_ пароль для этого имени пользователя.
 
-Next, to close your whole X-Cart store you need to put a .thaccess file with the following content into an X-Cart root directory:
+Чтобы закрыть доступ ко всему сайту, создайте файл `.thaccess` следующего содержания и загрузите файл в корневую директорию магазина:
 
 ```
 AuthType Basic
@@ -28,9 +28,9 @@ AuthUserFile /path/to/.htpasswd
 Require valid-user
 ```
 
-Where _/path/to/.htpasswd_ should be changed with the full path to your .htpasswd.
+где _/path/to/.htpasswd_ - полный путь к файлу .htpasswd.
 
-If you need to password protect the store admin area only, the .htaccess file content should be as follows:
+Для защиты только интерфейса администратора содержание файла `.htaccess` должно быть следующим:
 
 ```
 AuthType Basic
@@ -40,4 +40,3 @@ AuthUserFile /path/to/.htpasswd
 Require valid-user
 </Files>
 ```
-
