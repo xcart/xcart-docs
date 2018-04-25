@@ -7,41 +7,39 @@ title: Восстановление файлов и базы магазина и
 order: 170
 published: false
 ---
-Generally speaking, restoring a store from a backup copy is an inverse procedure to creating the backup copy. When restoring the store, you are expected to use the same tools that you used to create the backup copy. Similar to creating the backup, restoring does not cause any serious difficulties, but it yet requires the standard sequence of operations: restore the store files and then restore the database. One of the major rules to be observed is to restore data from the backup to a newly created directory within the WWW part of your hosting account. You must keep with this rule no matter whether you simply copy/move the store to a new location or replace an existing installation with the backup copy. After you have restored your store from the backup, you may need to adjust some configuration settings, including the values of the variables in the main configuration file config.php, paths to images, file permissions, etc.
+Восстановление магазина из резервной копии - процесс обратный созданию резервной копии с использованием тех же средств. Восстановление не представляет сложности, но важен чёткий порядок действий: восстановление сначала файлов, потом - базы. Следующее требование - восстановление в новой директории, созданной в WWW зоне хостинг аккаунта. Это требование необходимо соблюдать в любом случае - при копировании/переносе магазина на новое место и при замещении магазина резервной копией. После восстановления необходимо скорректировать конфигурацию магазина (значения языковых переменных в главном файле конфигурации `config.php`, пути к изображениям, права на файлы и т.д.).
 
-The instructions below generally describe how to restore X-Cart files from a backup copy. Examples and notes are provided for UNIX- and Windows-based servers. Many of the listed operations can be carried out through your server/hosting control panel (if any).
+Инструкции ниже описывают восстановление файлов магазина из резервной копии. Примеры даны для Unix и Windows серверов. Многие действия выполнимы на сервере или в панели управления хостинга.
 
 {% toc %}
 
-## Restoring X-Cart files from a back-up
+## Восстановление файлов X-Cart из резервной копии
 
-1. Log in to your server or your hosting account.
-2. Go to the directory that contains all your Internet projects (usually referred to as the WWW directory), and create a new directory where you will deploy the store from the backup.
-  On a UNIX-based server, you can create a new directory using the following shell command.
+1. Зайдите на сервер или в хостинг аккаунт.
+2. Откройте директорию, в которой хранятся все Интернет-проекты, обычно это WWW. Создайте новую папку, в которой будут восстановлены файлы. 
+На Unix сервере следующая shell команда создаёт новую директорию:
      ```
      mkdir xcart
      ```
-  On a Windows-based server, you can create a new directory using the graphic user interface (GUI).
-  As a result, you should get an empty directory that is accessible through the Internet. 
-3. Go to the directory that you have just created and upload the X-Cart files (or the archive with X-Cart files) onto the directory using FTP, SCP, your control panel or other suitable facility.
-4. If you have the X-Cart files in an archive, extract them using the available utilities. 
-  On a Unix-based server, you can extract files from the archive using the following shell command. 
+  На Windows сервере новую папку можно создать в графическом интерфейсе. В итоге должна получиться новая доступная в Интернете директория. 
+3. Откройте созданную директорию и загрузите в неё файлы/архив с файлами X-Cart через FTP, SCP, контрольную панель и т.п.
+4. Если вы загрузили архив с файлами, распакуйте его. На Unix сервере поможет команда 
      ```
      tar -xfv <archive_name>
      ```
-  OR
+  или
      ```
      tar –xzvf <archive_name> # If the archive has file extension *.tar.gz, *.gz or *.zip
      ```
-  OR
+  или
      ```
      tar –xjvf <archive_name> # If the archive has file extension *.tbz.
      ```
-  On a Windows-based server, you can extract the archive with one of the available file archive managers for Windows, including WinRAR, WinZIP, PKZip or 7Zip.
-5. Check the X-Cart directory. It must contain the standard X-Cart file structure. If it only contains one directory with the X-Cart files, move its content to the current directory. 
-6. If necessary, edit the main X-Cart configuration file <X-Cart>/etc/config.php:
-  * Locate the file /etc/config.php and open it for editing in your favorite plain text editor.
-  * Set correct values for the following variables:
+  На Windows сервере архив можно распаковать с помощью WinRAR, WinZIP, PKZip или 7Zip.
+5. Директория X-Cart должна иметь стандартную файловую структуру. Если в ней только одна папка с файлами X-Cart, перенесите её содержимое в текущую директорию. 
+6. Исправьте настройки в файле конфигурации `/etc/config.php`:
+  * Откройте файл `/etc/config.php` в текстовом редакторе.
+  * Укажите верные значения следующих языковых переменных:
     ```
     [database_details]
     hostspec = "localhost"
@@ -52,39 +50,37 @@ The instructions below generally describe how to restore X-Cart files from a bac
     password = "password"
     table_prefix = "xc_"
     ```
-  and
+  и
     ```
     [host_details]
     http_host = "<HOST>"
     https_host = "<HOST>"
     web_dir = "/xcart"
     ```
-7. Create a new database for the store using a database management system (DBMS) that you usually use to manage your MySQL databases.
-  On a Unix-based server, you can create the a database using the following shell command:
+7. Создайте новую базу данных для магазина. 
+  На Unix серверах используйте shell команду:
      ```
      mysqladmin -u USER -pPASSWORD create NEWDATABASE
      ```
-  The system will ask you to to enter your password for the MySQL account. After the password is accepted, the system will create a new empty database for your store.
+ После запуска команды введите MySQL пароль, будет создана новая база данных.
   {% note  info%}
-  The name/address of the MySQL server, the name of the MySQL database, the username and the password for the MySQL account must be the same as the values of the respective variables in the X-Cart configuration file /etc/config.php.
+  Используйте те же имя и адрес MySQL сервера, название MySQL базы данных, логин и пароль к MySQL аккаунту, что указаны в файле конфигурации X-Cart `/etc/config.php`.
   {% endnote %}
   
-## Restoring Database from SQL Dump
+## Восстановление базы данных из SQL дампа
 
-When you restore a database from an SQL dump, the existing database tables get overwritten. We strongly recommend that you always back up the current store database before restoring data from an SQL dump as it allows you to avoid any possible data loss. Another critical issue here is that you can restore the database only if the SQL dump was created for the same X-Cart version.
+При восстановлении базы из SQL дапма таблицы базы перезаписываются. Поэтому важно делать резервную копию текущей базы перед восстановлением данных из дампа. Также, восстановить базу из дампа можно только при условии, что дамп был создан для той же версии X-Cart, на которой происходит восстановление.
 
-The store administrator can restore the database either through the X-Cart Admin area or manually. If you decide to carry out this task manually, ensure that you have access to the respective tools and facilities, including different client implementations of the SSH protocol like OpenSSH or PuTTY, Telnet, phpMyAdmin, MySQL console, control panel of your hosting account, Remote Desktop client and other. In this case, the exact instructions on how to restore the database from the backup will depend on the utility you use.
+Администратор магазина может восстановить базу данных в интерфейсе администратора магазина или вручную. Для восстановления вручную потребуется доступ к OpenSSH или PuTTY, Telnet, phpMyAdmin, MySQL консоль, панель управления на хостинге, удалённый рабочий стол и др. Процесс восстановления будет зависеть от используемых инструментов.
 
-### Restoring the database through X-Cart Admin area
+### Восстановление базы данных в интерфейсе администратора
 
-To restore the database through the X-Cart Admin area:
+1. Зайдите в панель управления магазина.
 
-1. Log in to the Admin area.
+2. Откройте раздел **Инструменты / База данных** и перейдите на вкладку **Восстановить базу**;
+  ![1.jpg]({{site.baseurl}}/attachments/ref_5YhVAjYy/1.jpg)
 
-2. Go to the **Restore Database** tab in the **System Tools** -> **Database** section;
-  ![restore.png]({{site.baseurl}}/attachments/ref_080K3Qe7/restore.png)
-
-3. Restore the database from the SQL dump using the instructions below.
+3. Восстановите базу данных магазина из SQL дампа как описано ниже.
    
    If the SQL dump was saved using the Create SQL file option, i.e. was saved as a file on the web server ('var/backup/sqldump.sql.php'):
     * Click the 'Restore from server' button.
@@ -130,4 +126,3 @@ A good practice here is to keep the backup on a local computer or in a directory
 | The system says you do not have enough privileges to write to the file. |	User who has run the PHP script is not allowed to write files to the directory. | Set writable permissions to the directory where you are trying to save the SQL dump to, and repeat the task. |
 | The system says you do not have enough free disk space to complete the operation. |	File system does not have enough free disk space. |	Since some data has been saved to the file before the error message, first remove the file with the backup. Then either make available more free space and repeat the task, or choose to save the file to another location. |
 | Task was terminated and the system says you will be redirected to the previous page. |	The memory that was allocated to the script has exhausted. |	Increase the amount of memory allocated to the script by increasing the default value of the $memory_limit variable in the php.ini file. If you do not have access to the php.ini file, ask your hosting team to help you. **NOTE:** It may be necessary to increase the allocated memory several times, because it is impossible to predict how much memory you really need. |
-
