@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-04-25 12:16 +0400'
 identifier: ref_14Vi7MGc
-title: Требования к резервной копии магазина
+title: Требования к резервному копрованию магазина
 order: 180
 published: false
 ---
@@ -36,4 +36,3 @@ Before you start making a back up copy of your store, make sure of the following
   <div class="column" markdown="span">![off-2.png]({{site.baseurl}}/attachments/ref_4X9iIR6L/off-2.png)</div>
   <div class="column" markdown="span">![off-3.png]({{site.baseurl}}/attachments/ref_4X9iIR6L/off-3.png)</div>
   </div>
-
