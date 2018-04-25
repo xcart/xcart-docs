@@ -16,6 +16,7 @@ _In this section:_
 
 *   {% link "Managing addons" ref_gTOegEua %}
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
+*   {% link "Add to Cart PopUp Module" ref_1iGC8Efj %}
 *   {% link "Amazon Pay" ref_mri0tPhM %} (former "Pay with Amazon")
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
 *   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
