@@ -82,6 +82,8 @@ That happens because resources container is a child of `body` view list itself, 
 Use `layout.main` or `layout.footer` view lists instead. Also, you can use another method to load your resources, which is described in the following section.
 {% endnote %}
 
+## Alternative way of adding JS/CSS files
+
 There is an alternative way to add a new JS/CSS file to the layout and it requires you to decorate `\XLite\View\AView` class in your module.
 
 1.  Create `View/AView.php` file in your module with the following content: 
@@ -118,3 +120,13 @@ There is an alternative way to add a new JS/CSS file to the layout and it requir
     ```
 
     the `skins/customer/modules/<Developer ID>/<Module ID>/script.js` file must exist.
+    
+## Module example
+
+Here is a module example that adds CSS and JS files for customer and admin areas.
+<https://www.dropbox.com/s/ts1u6cdl57a0h3s/XCExample-CSSJSDemo-v5_3_0.tar>
+
+- CSS for customer area: `skins/customer/XCExample/CSSJSDemo/css/style.css`;
+- JS for customer area: `skins/customer/XCExample/CSSJSDemo/js/script.js`;
+- CSS for admin area: `skins/admin/XCExample/CSSJSDemo/css/style.css`;
+- JS for admin area: `skins/admin/XCExample/CSSJSDemo/js/script.js`.
