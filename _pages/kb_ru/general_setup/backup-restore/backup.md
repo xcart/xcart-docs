@@ -23,7 +23,7 @@ published: true
 
  1. Войдите в панель управления магазина.
  2. Откройе раздел **Инструменты / База данных** и перейдите на вкладку **Сохранить базу**.
- ![backup.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup.png)
+ ![1.jpg]({{site.baseurl}}/attachments/ref_5V7w6uSs/1.jpg)
  3. На открывшейся странице выберите подходящую опцию: **Скачать SQL файл** или **Создать SQL файл**. 
 
 {% note info %}
