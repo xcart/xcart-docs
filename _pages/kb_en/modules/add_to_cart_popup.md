@@ -29,4 +29,4 @@ Your customers can proceed to checkout directly from the popup.
 
 ![customer.png]({{site.baseurl}}/attachments/ref_1iGC8Efj/customer.png)
 
-They also have the option to continue shopping by clicking the **Continue shopping** button - or get interested in the products it recommends, and either add it to cart or view the product details page.
+They also have the option to continue shopping by closing the popup or get interested in the products it recommends, and either add it to cart or view the product details page.
