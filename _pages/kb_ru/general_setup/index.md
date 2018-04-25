@@ -13,7 +13,6 @@ categories:
 ---
 * {% link "Инструкция по установке" ref_ZlmtdzS3 %}
 * {% link "Общие настройки магазина" ref_2nu9NBTd %}
-* {% link "Настройка семантических ссылок" ref_7IDJJdrM %}
 * {% link "Активация лицензии X-Cart 5" ref_eqZRcCns %}
 * {% link "Восстановление магазина с помощью мгновенного сохранения данных" ref_PTtxOzz4 %}
 * {% link "Магазин недоступен и показывает сообщение "We are deploying new changes" " ref_uLSlTTpi %}
