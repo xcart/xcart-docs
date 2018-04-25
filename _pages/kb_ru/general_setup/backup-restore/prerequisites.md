@@ -5,34 +5,35 @@ updated_at: '2018-04-25 12:16 +0400'
 identifier: ref_14Vi7MGc
 title: Требования к резервному копрованию магазина
 order: 180
-published: false
+published: true
 ---
-Before you start making a back up copy of your store, make sure of the following:
+Для резервного копирования магазина должны быть выполнены следующие условия:
 
-* You have enough free disk space on your server or hosting account where your store is installed.
+* Достаточно свободного пространства на сервере или хостинге, где установлен магазин.
   {% note info %}
-  If you do not have enough free disk space, try to remove the files that you do not longer use or move them to another location.
+  Если пространства не хватает, удалите или переместите в другую директорию ненужные файлы.
   {% endnote %}
 
-* You can access your server or hosting account using one of these options: terminal SSH or Telnet access, FTP, remote desktop (available for Windows-based servers only), your hosting control panel.
+* Подключение к серверу или хостинг аккаунту по SSH, Telnet-доступу, FTP, через панель управления или удалённый рабочий стол (для Windows серверов).
   {% note info %}
-  If you cannot access your server or hosting account via these or other alternative options, address your hosting team for help.
+  Если не удаётся подключиться к серверу или хостинг аккаунту перечисленными способами, обратитесь за помощью в поддержку хостинг провайдера.
   {% endnote %}
 
-* The directory to which you are going to save the backup copy has writable permissions.
+* Права на запись для директории, в которой будет сохранена резервная копия магазина.
 
-* The Customer area of your store is temporarily closed for maintenance.
+* Временное отключение витрины магазина для проведения технических работ.
   {% note info %}
-  Having the Customer area closed ensures that none of your website visitors will be able to shop through your store and place orders while you are backing up your store, and the backup will include all the info that is available by the moment you start this task.
+  Важно отключить магазин, чтобы во время копирования не появились новые пользователи и заказы. В этом случае резервная копия будет содержать полную информацию магазина.
   {% endnote %}
   
-  To close the store for maintenance:
-  1. Log in to the Admin area.
-  2. Find the 'View Storefront' option and turn it OFF
-  3. From here on, all your store visitors will be automatically redirected to a special page saying that the store is temporarily inaccessible and can be visited later. To open the store back, log in to the Admin area and turn ON the 'View Storefront' option.
+  Как закрыть витрину магазина: 
+  1. Зайдите в панель управления магазина.
+  2. отключите опцию **Посмотреть магазин** 
+  3. Когда витрина отключена, посетители магазина увидят надпись, что магазин временно недоступен. Чтобы открыть магазин, включите эту опцию.
   
   <div class="ui stackable three column grid">
-  <div class="column" markdown="span">![off-1.png]({{site.baseurl}}/attachments/ref_4X9iIR6L/off-1.png)</div>
-  <div class="column" markdown="span">![off-2.png]({{site.baseurl}}/attachments/ref_4X9iIR6L/off-2.png)</div>
-  <div class="column" markdown="span">![off-3.png]({{site.baseurl}}/attachments/ref_4X9iIR6L/off-3.png)</div>
+  <div class="column" markdown="span">![7.jpg]({{site.baseurl}}/attachments/ref_14Vi7MGc/7.jpg
+</div>
+  <div class="column" markdown="span">![8.jpg]({{site.baseurl}}/attachments/ref_14Vi7MGc/8.jpg)
+</div>
   </div>
