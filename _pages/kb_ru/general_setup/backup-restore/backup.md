@@ -7,24 +7,24 @@ title: Резервная копия файлов и базы данных ма�
 order: 170
 published: false
 ---
-With X-Cart the store administrator can back up the store database in a few easy steps directly from the Admin area. 
+Администратор магазина X-Cart может создать резервную копию базы данных магазина в панели управления магазина. 
 
 {% note warning %}
-In case any 3rd party or custom add-ons data is stored elsewhere but not in the X-Cart database the corresponding data won't be included into the database backup done with the standard X-Cart utilities.
+В резервную копию базы, созданную стандартными средствами X-Cart, не входят данные сторонних и созданных на заказ модулей, расположенные за пределами базы магазина.
 {% endnote %}
 
-Hence there can be cases that you have to back up the database manually so that the dump includes all possible store data. For this purpose you can use any adequate facility, including different client implementations of the SSH protocol like OpenSSH or PuTTY, Telnet, phpMyAdmin, MySQL console, control panel of your hosting account, Remote Desktop client and other. 
+Чтобы в дамп вошли все данные, следует делать резервную копию вручную. Воспользуйтесь версиями SSH протокола OpenSSH или PuTTY, Telnet, phpMyAdmin, консолью MySQL, панелью управления хостинга, удалённым рабочим столом и др. 
 
 {% toc %}
 
 ## Backing up the database through X-Cart Admin area
 
-To back up the database through the X-Cart Admin area:
+Создание резервной копии базы данных в зоне администратора X-Cart:
 
- 1. Log in to the Admin area.
- 2. Open the 'Database Backup' tab in the **System tools** -> **Database** section.
+ 1. Войдите в панель управления магазина.
+ 2. Откройе раздел **Инструменты / База данных** и перейдите на вкладку **Сохранить базу**.
  ![backup.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup.png)
- 3. In the 'Database backup' tab choose the option that suits you better and click on it. 
+ 3. На открывшейся странице выберите подходящую опцию: **Скачать SQL файл** или **Создать SQL файл**. 
 
 {% note info %}
 If you do not have access to your server/hosting account through FTP, SSH or other suitable facility, do not select the check box and save the SQL file directly to your local computer.
@@ -124,4 +124,3 @@ To make a full store backup using the Backup Master module go to the **System to
 </div>
 
 The module will create a full cart backup and will list it in a history of backups where you can see a path to the backup file to use it further, the file size and date of creation. To delete a backup click the _Trash_ icon next to it.
-
