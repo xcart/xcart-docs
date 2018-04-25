@@ -27,39 +27,37 @@ published: false
  3. На открывшейся странице выберите подходящую опцию: **Скачать SQL файл** или **Создать SQL файл**. 
 
 {% note info %}
-If you do not have access to your server/hosting account through FTP, SSH or other suitable facility, do not select the check box and save the SQL file directly to your local computer.
+Если у вас нет доступа на сервер/хостинг по SSH или FTP, охраните SQL файл на компьютере.
 {% endnote %}
 
-## Backing up the database using terminal access
+## Создание резервной копии через терминал
 
-To back up the database using terminal access to the server:
+1. Войдите в хостинг аккаунт или на сервер по терминальному доступу.
 
-1. Log in to your server or hosting account.
+2. Откройте директорию, в которой установлен магазин X-Cart.
 
-2. Go to the X-Cart root directory.
-
-3. Run the following shell command.
+3. Запустите shell команду
 
 
 ```
 mysqldump -h<db_host> -u<username> -p<password> -r<backup_filename> <db_name>
 ```
 
-The abbreviations in the command mean:
+Сокращения в команде:
 
 {:.ui.compact.celled.small.padded.table}
-|db_host | The DNS name or the IP-address of your MySQL server.|
-|username | The username for your MySQL user account.|
-|password | The password for your MySQL user account.|
-|backup_filename | The name and the path to the newly created SQL file with the database dump.|
-|db_name | The name of the MySQL database that you use for X-Cart.|
+|db_host | DNS имя или IP адрес MySQL сервера|
+|username | Имя пользователя в учётной записи MySQL|
+|password | Пароль к учётной записи MySQL|
+|backup_filename | Название резервной копии и путь к SQL файлу, содержащему дамп базы|
+|db_name | Название MySQL базы магазина|
 
 
-After you have run the command, the system will generate an SQL file and save it to the directory that you have specified in the <backup_filename> part of the command. If you have specified the name of the file for the backup only without mentioning the path, the file will be saved to the X-Cart root directory, the directory where you are currently located.
+После запуска команды система создаёт SQL файл и сохраняет его в директории, указанной в команде. Если в команде указано только название директории и не указан путь к ней, файл будет сохранён в корневой директории X-Cart.
 
-If necessary, you can use a different path, but it is yet recommended that it be a location within the X-Cart root directory.
+Рекомендуется расположение внутри корневой директории.
 
-## Backing up Store Files
+## Создание резервной копии файлов магазина
 
 Creating a backup copy of the store files presumes that you pack all the files in the X-Cart root directory into an archive and then copy or move the archive to a new location on the remote server or your local computer.
 
