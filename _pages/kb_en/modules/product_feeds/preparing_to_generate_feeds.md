@@ -41,6 +41,16 @@ The module allows you to assign feed categories to each product sepatately or to
 3.  Use the drop-down boxes to select the feed categories for the products.
 4.  Click **Update categories** to save the changes.
 
+It's also possible to import feed categories for products using the following fields:
+
+* **nextagId** : specify a relevant NexTag category ID
+* **shopzillaId** : specify a relevant Shopzilla category ID
+* **pricegrabberId** : specify a relevant Pricegrabber category ID
+* **ebayCommerceId** : specify a relevant shopping.com category ID
+* **googleShoppingId** : specify a relevant Google Shopping category ID
+       
+The field value should be a category ID of a particular comparison shopping site that you can get from the comparison shopping site itself. An alternative way to find a category ID is to assign a category to some product in X-Cart Admin area and then export this product and check for the relevant category ID in the export file.
+
 ## Adjusting feed settings
 
 Before you generate a product feed for any of the shopping engines, you must configure the product feed settings for this specific engine.
