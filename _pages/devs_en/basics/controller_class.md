@@ -12,18 +12,11 @@ published: true
 ---
 ## Introduction
 
-**Controller** is a class that is responsible for request handling in X-Cart. This article aims to give a basic understanding of how controllers work in X-Cart and how you can use them.
+**Controller** is type of classes that is responsible for request handling in X-Cart. This article aims to give a basic understanding of how controllers work in X-Cart and how you can use them.
 
-## Table of Contents
+{% toc Table of Contents %}
 
-*   [Introduction](#introduction)
-*   [Table of Contents](#table-of-contents)
-*   [Understanding of Controller classes](#understanding-of-controller-classes)
-    *   [handleRequest()](#handlerequest())
-*   [Module example](#module-example)
-*   [Module pack](#module-pack)
-
-## Understanding of Controller classes
+## Understanding how X-Cart handles requests
 
 When X-Cart receives a request to one of its end-points – `cart.php` or `admin.php` – it starts looking for an appropriate Controller class based on **target** parameter in the request. If target is not specified, it is assumed as **main**.
 
@@ -32,19 +25,19 @@ When X-Cart identifies controller class name based on the target parameter passe
 *   If **target=main**, then controller class name will be **Main**;
 *   If **target=featured_products**, then controller name will become **FeaturedProducts** and so on.
 
-If you make a request to `admin.php`, script X-Cart identifies a controller class name and after that looks for it in the `classes/XLite/Controller/Admin/` folder and then in 
-`classes/XLite/Module/<DEV-ID>/<MODULE-ID>/Controller/Admin/` folder of each module.
+If you make a request to `admin.php`, script X-Cart identifies a controller class name and after that looks for it in the 'classes/XLite/Controller/**Admin**/' folder and then in 
+'classes/XLite/Module/<DEV-ID>/<MODULE-ID>/Controller/**Admin**/' folder of each module.
 
-If you make a request to `cart.php`, X-Cart identifies a controller class name and then looks for it in the `classes/XLite/Controller/Customer/` folder and then in
-`classes/XLite/Module/<DEV-ID>/<MODULE-ID>/Controller/Customer/` folders of each module as well.
+If you make a request to `cart.php`, X-Cart identifies a controller class name and then looks for it in the 'classes/XLite/Controller/**Customer**/' folder and then in
+'classes/XLite/Module/<DEV-ID>/<MODULE-ID>/Controller/**Customer**/' folders of each module as well.
 
-When, controller class is found, X-Cart calls its `handleRequest()` method – see an implementation of the `processRequest()` method in the `\XLite` class ({% link "more about classnames in X-Cart" ref_FAgFbEx9 %}).
+When, controller class is found, X-Cart calls its `handleRequest()` method – see an implementation of the `\XLite::processRequest()` > `\XLite::runController()` methods ({% link "more about classnames in X-Cart" ref_FAgFbEx9 %}).
 
-Let us have a look at what exactly `handleRequest()` method does. See its implementation in the `\XLite\Controller\AController` class.
+Let us have a look at what exactly `handleRequest()` method does. See its general implementation in the `\XLite\Controller\AController` class.
 
 ### handleRequest()
 
-Its implementation: 
+Its default implementation is as follows:
 
 ```php
 public function handleRequest()
@@ -58,18 +51,22 @@ public function handleRequest()
     } elseif ($this->needSecure()) {
         $this->redirectToSecure();
 
+    } elseif (!$this->checkLanguage()) {
+        $this->redirectToCurrentLanguage();
+
     } else {
         $this->run();
     }
 
     if ($this->isRedirectNeeded()) {
         $this->doRedirect();
-    }
+
+    // ...
 }
 ```
 
-1.  It checks whether you are allowed to access this resource – `if (!$this->checkAccess())` – whether this page is visible –  `elseif (!$this->isVisible())` – and whether we need a redirect to HTTPS – `elseif ($this->needSecure())` 
-2.  If everything is good, then it calls `run()` method, which is implemented as follows: 
+1.  It checks whether you have rights to access this resource (`if (!$this->checkAccess())`), whether this page is visible (`elseif (!$this->isVisible())`), whether we need a redirect to properly display store in customer's language (`elseif (!$this->checkLanguage()`) and whether we need a redirect to HTTPS (`elseif ($this->needSecure())`).
+2.  If everything is good, it calls `run()` method, which is implemented as follows: 
 
     ```php
     protected function run()
@@ -88,33 +85,33 @@ public function handleRequest()
     }
     ```
 
-3.  This method looks for **action** parameter in the request and if it is there, it tries to find a method for handling this action. If **action=create**, then it will search for `doActionCreate()` method, i.e. it uppercases the first letter in action parameter and prepend it with **do** prefix.
-4.  If no action parameter passed, then X-Cart will call `doNoAction()` method.
+3.  This method looks for **action** parameter in the request and if it is there, it tries to find a method for handling this action. If **action=create**, then it will search for `doActionCreate()` method, i.e. it [camel-cases](https://en.wikipedia.org/wiki/Camel_case "Controllers") the action parameter and prepend it with **doAction** prefix.
+4.  If no action parameter is passed, X-Cart will call `doNoAction()` method.
 5.  That is it with `run()` method and we get back to `handleReques()` method implementation. X-Cart checks the `isRedirectNeeded()` method and performs redirect if needed.
 
-In your modules, you might want to extend `handleRequest()` method itself or just implement `doAction()` methods according to action parameters you are going to pass.
+In your modules, you might want to extend `handleRequest()` method itself or just implement `doAction<YourAction>()` methods according to action parameters you are going to pass.
 
 Also, talking about modules, if you want to create a controller for customer area, your controller class should extend the `\XLite\Controller\Customer\ACustomer` class. If you create a controller class for admin area, then it should extend the `\XLite\Controller\Admin\AAdmin` class. More details are in the module example below.
 
 ## Module example
 
-Let us try to create some simple module that will show `doAction()` method work in real life.
+Let us try to create some simple module that will show how `doAction()` method works in real life.
 
-We will create a mod that will create `cart.php?target=controller_demo` page. It will also create two records in **xc_config** table: one will count number of opening this page with no action, another record will track number of page opening with **action=test** parameter. We will be able to see these option values via direct request to MySQL: 
+We will create a mod that will create `cart.php?target=controller_demo` page. It will also create two records in **xc_config** table: one will count number of opening this page with no action, another record will track number of page opening with **action=test** parameter. We will be able to see these option values via direct requests to MySQL: 
 
 ```php
-SELECT * FROM xc_config WHERE category = "Tony\\ControllerDemo";
+SELECT * FROM xc_config WHERE category = "XCExample\\ControllerDemo";
 ```
 
-We start with {% link "creating an empty module" ref_G2mlgckf %} with developer ID **Tony** and module ID **ControllerDemo**. Then, we create the `<X-Cart>/classes/XLite/Module/Tony/ControllerDemo/install.yaml` file with the following content: 
+We start with {% link "creating an empty module" ref_G2mlgckf %} with developer ID **XCExample** and module ID **ControllerDemo**. Then, we create the `classes/XLite/Module/XCExample/ControllerDemo/install.yaml` file with the following content: 
 
 ```php
 XLite\Model\Config:
   - name: no_action
-    category: Tony\ControllerDemo
+    category: XCExample\ControllerDemo
     value: 0
   - name: test_action
-    category: Tony\ControllerDemo
+    category: XCExample\ControllerDemo
     value: 0
 ```
 
@@ -123,12 +120,12 @@ This **install.yaml** file will create **no_action** and **test_action** {% link
 _Note: do not forget to {% link "push the content of this YAML file" ref_HvrXVNvJ#X-CartSDK-LoadingYAMLfile %}_ _to the database._
 
 Now we need to create the page in customer area that will be available by `cart.php?target=controller_demo` URL. We create the
-`<X-Cart>/classes/XLite/Module/Tony/ControllerDemo/Controller/Customer/ControllerDemo.php` file with the following content: 
+`classes/XLite/Module/XCExample/ControllerDemo/Controller/Customer/ControllerDemo.php` file with the following content: 
 
 ```php
 <?php
 
-namespace XLite\Module\Tony\ControllerDemo\Controller\Customer;
+namespace XLite\Module\XCExample\ControllerDemo\Controller\Customer;
 
 class ControllerDemo extends \XLite\Controller\Customer\ACustomer
 {
@@ -147,9 +144,9 @@ class ControllerDemo extends \XLite\Controller\Customer\ACustomer
         if (in_array($name, array('no_action', 'test_action'))) {
             \XLite\Core\Database::getRepo('\XLite\Model\Config')->createOption(
                 array(
-                    'category' => 'Tony\ControllerDemo',
+                    'category' => 'XCExample\ControllerDemo',
                     'name'     => $name,
-                    'value'    => \XLite\Core\Config::getInstance()->Tony->ControllerDemo->{$name} + 1,
+                    'value'    => \XLite\Core\Config::getInstance()->XCExample->ControllerDemo->{$name} + 1,
                     )
                 );
         }
@@ -192,9 +189,9 @@ Here are key points of this class implementation:
             if (in_array($name, array('no_action', 'test_action'))) {
                 \XLite\Core\Database::getRepo('\XLite\Model\Config')->createOption(
                     array(
-                        'category' => 'Tony\ControllerDemo',
+                        'category' => 'XCExample\ControllerDemo',
                         'name'     => $name,
-                        'value'    => \XLite\Core\Config::getInstance()->Tony->ControllerDemo->{$name} + 1,
+                        'value'    => \XLite\Core\Config::getInstance()->XCExample->ControllerDemo->{$name} + 1,
                         )
                     );
             }
@@ -205,9 +202,9 @@ The mod is done now and we need to re-deploy the store and then check the result
 `cart.php?target=controller_demo&action=test` URLs. After that, make a request to your database and check the counters: 
 
 ```php
-SELECT * FROM xc_config WHERE category = "Tony\\ControllerDemo";
+SELECT * FROM xc_config WHERE category = "XCExample\\ControllerDemo";
 ```
 
 ## Module pack
 
-You can download this module example from here: [https://dl.dropboxusercontent.com/u/23858825/Tony-ControllerDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-ControllerDemo-v5_1_0.tar)
+You can download this module example from here: <https://www.dropbox.com/s/0lseyb8ishfcs52/XCExample-ControllerDemo-v5_3_0.tar>
