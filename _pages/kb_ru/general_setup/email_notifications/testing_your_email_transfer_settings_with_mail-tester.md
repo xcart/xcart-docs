@@ -7,17 +7,17 @@ title: Тестирование отправки почты через Mail Test
 order: 250
 published: false
 ---
-A great deal of communication with your X-Cart store users will happen via email. This includes automatic email notifications, email marketing messages like abandoned cart reminders and - sometimes - newsletters. If you take communication with your customers seriously, you will invest some time and effort in the design and content of your emails. However, after all that work, there's still a chance your emails will find a way to the spam folder of your customer email boxes. This article discusses why this may happen and what you can do to improve the situation from your end.
+Часть общения с покупателями происходит по электронной почте посредством уведомлений, маркетинговых сообщений и рассылок. Вжно уделить внимание оформлению, содержанию и отправке почтовых сообщений. Также, важно предотвратить попадание писем в спам.
 
-According to recent research, up to 80-90% of all email on the Internet is spam. Be it unsolicited promotional business materials, virus spam, illegal money transfer scam or phishing scam to obtain sensitive information, spam is bad: it causes financial harm, interferes with day-to-day work and makes it more difficult for people to find legitimate emails that they may have received.
+Согласно исследованиям, 80-90% электронных сообщений в сети - спам. Спам любого вида приносит только вред - наносит финансовый урон, мешает повседневной работе, усложняет получение надёжных сообщений
 
-To stop the bombardment with spam emails, people and businesses are using all kinds of spam prevention tools and techniques so that they can receive only content that is relevant to them. 
+Предотвратить получение спама можно несколькими способами. 
 
-Advanced anti-spam systems of today use three major types of email analysis (or their variations) to determine if an email message is spam:
+Современные антиспам-системы используют три типа анализа почтовых сообщений:
 
-1. Analysis of the email sending server IP address.
-2. Analysis of the SPF/DMARC records of the sender's domain and of the DKIM signature.
-3. Analysis of the email content (headers, subject, body, links, etc).
+1. Анализ IP адреса сервера отправителя.
+2. Анализ SPF/DMARC записи домена отправителя и цифровой подписи DKIM.
+3. Анализ содержимого письма (заголовка, темы, тела письма, ссылок и т.д.).
 
 For example, IP addresses are important when it comes to determining the credibility of an inbound email. Every time a receiving host gets connected to by a sending host for email transfer, it takes steps to resolve the domain name presented to it as the domain name of the sender to an IP address. Then it contacts the DNS server of the identified domain to confirm via SPF records that the mail server specified by the IP address in question is on the list of servers and IP addresses authorized to send email for that specific domain. This is SPF(Sender Policy Framework) email authentication which helps the receiving host to confirm that inbound mail has not been forged. To put it simply, one cannot send email from a domain that they do not own. This includes free mail services like Gmail and Yahoo Mail. If you try to send email from your website specifying a @gmail.com address as the sender, the first thing your addressee's mail server will do is check if you are authorized to use a Gmail email address on mail sent from your website. Since Gmail's servers do not have SPF records for your domain, your mail will be deemed unauthorized. As a result, it will be blocked or end up in the spam folder. 
 
@@ -64,4 +64,3 @@ If Mail Tester does not receive your email, it will remain stuck on the page bel
       ![mail_tester_3.png]({{site.baseurl}}/attachments/ref_1QrpKuD3/mail_tester_3.png)
 
 If you see this page, it means your current sending method is not working. Again, in this case you should request help from your hosting provider or network administrator.
-
