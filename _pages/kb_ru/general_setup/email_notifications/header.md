@@ -5,20 +5,17 @@ updated_at: '2018-04-26 11:50 +0400'
 identifier: ref_5ePC45X8
 title: 'Заголовок, приветствие и подпись '
 order: 210
-published: false
+published: true
 ---
-Every email notification has a predefined header, greeting and signature (same for all notifications) that can be edited in the **Header, greeting & signature** tab of the **Store setup** -> **Email notifications** page.  
+Для всех уведомлений по электронной почте заданы стандартные _заголовок, приветствие_ и _подпись_. Для редактирования этих параметров откройте раздел **Настройка магазина / Уведомления по электронной почте** и перейдите на вкладку **Заголовок, приветствие и подпись**. 
 
-![header.png]({{site.baseurl}}/attachments/ref_2W845gkS/header.png)
+![7.jpg]({{site.baseurl}}/attachments/ref_5ePC45X8/7.jpg)
 
-The greeting format is the same for both admin and customer notifications, while the format of the header and signature can be different. 
+_Приветствие_ одинаково для администратора и покупателей, а _заголовок_ и _подпись_ отличаются. 
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![customer.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/customer.png)</div>
-  <div class="column" markdown="span">![admin.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/admin.png)</div>
-</div> 
+![8.jpg]({{site.baseurl}}/attachments/ref_5ePC45X8/8.jpg)
 
-Notification headers and signatures can be set using the following variables:
+Заголовок и подпись уведомления можно редактировать в следующих языковых переменных:
 
 ```
 %logo%	
@@ -40,4 +37,4 @@ Notification headers and signatures can be set using the following variables:
 %message%
 ```
 
-Don't forget to **save changes** when done.
+Сделав изменения, нажмите **Сохранить**.
