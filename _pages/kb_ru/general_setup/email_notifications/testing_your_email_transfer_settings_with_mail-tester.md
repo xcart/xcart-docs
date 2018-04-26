@@ -31,7 +31,7 @@ published: false
 
 Как проверить почту через **Mail Tester**:
 
-   1. Откройте сайт [**Mail Tester**](https://www.mail-tester.com "Тестирование отправки почты через Mail Tester")и скопируйте адреса в буфер обмена.
+   1. Откройте сайт [**Mail Tester**](https://www.mail-tester.com "Тестирование отправки почты через Mail Tester")и скопируйте адрес электронной почты в буфер обмена.
       ![mail_tester_1.png]({{site.baseurl}}/attachments/ref_1QrpKuD3/mail_tester_1.png)
    
    2. Перейдите в панель администратора магазина и выполните одно из действий:
@@ -40,27 +40,24 @@ published: false
       или:
       * В разделе **Настройка магазина / Уведомления по электронной почте** откройте вкладку **Настройки отправки E-Mail**. Введите скопированный адрес в поле **Е-mail получателя** в секции **Проверка параметров электронной почты** и нажмите **Отправить тестовое сообщение**.
    
-   3. Go back to https://www.mail-tester.com/ and press the button "Then check your score". Allow a few seconds for Mail Tester to check the inbox and calculate your score. 
+   3. Вернитесь на [**Mail Tester**](https://www.mail-tester.com "Тестирование отправки почты через Mail Tester") и нажмите кнопку **Затем проверьте оценку**. **Mail Tester** проверит входящую почту и рассчитает спам-рейтинг сообщения с вашего сайта. 
 
-You should then see your Spam Score test results. Here is an example page:
+Откроется страница с результатами проверки:
       ![mail_tester_2.jpg]({{site.baseurl}}/attachments/ref_1QrpKuD3/mail_tester_2.jpg)
 
-The highest score would be 10/10. The lower your score, the more likely your emails will be flagged as spam.
+Если рейтинг выше **7-8**, с сообщениям на сайте всё в порядке. На всякий случай, спросите нескольких покупателей, получают ли они письма из магазина.
 
-If your score is above 7 or 8, you will probably be fine. To make sure, ask a bunch of your store users if they get your emails. 
+Нажав на значок **+**, получите подробную информацию по каждому параметру проверки. Если вы видите     и галочку на зелёном фоне, результат хороший. Если нет - предстоит настроит отправку почты. 
 
-By clicking on the [+] buttons you can get detailed information about each parameter of your test results.
-If your results say "You're properly authenticated", and you see a check mark on the green background for that item, it is a good thing. If that is not the case, serious work to adjust the configuration of your mail sending system is required. 
+О чём говорит плохой результат проверки:
+   * Ваш адрес внесён в чёрный список. 
+   * Не создана SPF-запись.
+   * Не настроена проверка цифровой подписью DKIM.
+   * **SpamAssassin**распознаёт ваши письма как спам из-за содержимого (ключевые слова, битые ссылки, подозрительный html код и.т.п.).
 
-Common issues resulting in bad scores include the following:
-   * You are blacklisted. 
-   * SPF record is not set up.
-   * DKIM is not set up.
-   * The form or content of your email makes it look like spam for SpamAssassin (Note any bad keywords, broken links, etc.)
+Передайте результаты проверки хостингу или системному администратору для решения проблем. 
 
-If you get a bad Mail Tester score, share your testing results with your hosting provider staff or network administrator. They should know what to do. 
-
-If Mail Tester does not receive your email, it will remain stuck on the page below:
+Если **Mail Tester** не получил сообщение из магазина, он зависает на странице проверки:
       ![mail_tester_3.png]({{site.baseurl}}/attachments/ref_1QrpKuD3/mail_tester_3.png)
 
-If you see this page, it means your current sending method is not working. Again, in this case you should request help from your hosting provider or network administrator.
+Если вы видите эту страницу, значит отправка почты из магазина не работает. Обратитесь к хостингу или системному администратору.
