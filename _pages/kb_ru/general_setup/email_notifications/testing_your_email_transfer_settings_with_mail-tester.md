@@ -23,11 +23,11 @@ published: false
 
 Другой распространённый способ борьбы со спамом - технология DKIM. При DKIM-аутентификации сообщению присваивается цифровая подпись, по которой сообщение проходит проверку на агентском уровне передачи. Подпись генерируется специально для домена отправления. Сервер получения принимает почту, извлекает цифровую подпись из DNS-данных домена отправления и по ней проводит криптографическую аутентификацию, чтобы удостовериться, что в процессе передачи письмо не было изменено.
 
-Then, of course, there are sender IP blacklists and various filters that identify spam based on the characteristics of email content (like bad keywords or phrases typical of spam, suspicious HTML, broken links, etc.)
+Существуют черные списки IP адресов и фильтры, которые определяют спам по элементам содержимого письма (типичным для спама ключевым словам и фразам, подозрительному html коду, битым ссылкам и т.п.).
 
-The diversity of anti-spam tools and methods used today makes us think about a great number of factors that must be taken into account to ensure the deliverability of your emails. Unfortunately, it is not enough to compose a nice looking message and hope X-Cart will take care of delivering it to the intended recipient. To get your emails delivered as intended, you will need to ensure your mail server and DNS records are configured properly for email authentication. 
+Разнообразие средств борьбы со спамом показывает, что успешная доставка писем зависит от множества факторов. Чтобы предотвратить попадание писем в спам, необходимо настроить почтовый сервер и DNS-данные для прохождения аутентификации почты.
 
-The easiest way to identify problems with your email transfer configuration is to use a tool called Mail Tester (mail-tester.com). This tool is very useful for determining your "Spam Score" or likelihood of your emails ending up in the spam inbox.  Mail Tester allows you to run up to three tests a day for free and supports multiple languages.
+Сервис **Mail Tester** - простой способ проверить правильность настройки почты. Сервис находит проблемы в настройке отправки электронной почты и устанавливает спам рейтинг сообщений и степень вероятности попадания писем в спам. **Mail Tester** доступен на нескольких языках и предоставляет три бесплатных теста в сутки.
 
 To test your email transfer configuration:
 
