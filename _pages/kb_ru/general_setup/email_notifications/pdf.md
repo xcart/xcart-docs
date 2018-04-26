@@ -7,12 +7,12 @@ title: PDF-счёт в уведомлении о заказе
 order: 220
 published: false
 ---
-If necessary you can add a PDF version of invoices to the e-mail notifications using the **Attachments** tab of the **Store setup** -> **Email notifications** page. 
+В разделе **Настройка магазина / Уведомления по электронной почте** на вкладке **Прикрепляемые файлы** включите или отключите опцию **Прикреплять к уведомлениям PDF-версию счёта**. 
 
 ![attachments.png]({{site.baseurl}}/attachments/ref_08i5p47o/attachments.png)
 
-PDF invoices will be added as an attachment to all order related notifications.
+Если опция включена, PDF-версия счёта будет приложена ко всем уведомлениям о заказе.
 
 {% note info %}
-You can extend the default PDF invoices feature with a paid [PDF Invoice](https://market.x-cart.com/addons/PDF-Invoice.html "eMail Notifications: Set Up and Maintenance") module that is more flexible and powerful.
+Дополнительный модуль [**PDF-счёт** (**PDF Invoices**)](https://market.x-cart.com/addons/PDF-Invoice.html "PDF-счёт в уведомлении о заказе") предлагает расширенные опции управления счетами.
 {% endnote %}
