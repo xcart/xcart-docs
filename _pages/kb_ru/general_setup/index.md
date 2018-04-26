@@ -26,3 +26,4 @@ categories:
 * {% link "Изменение веб-адреса панели управления магазина (X-Cart 5.2.7+)" ref_7nytHV9K %}
 * {% link "Защита сайта X-Cart при помощи htaccess" ref_45m8r5iV %}
 * {% link "Настройка витрины магазина" ref_1VHqZJhO %}
+* {% link "Уведомления по электронной почте" ref_2NMZBFiZ %}
