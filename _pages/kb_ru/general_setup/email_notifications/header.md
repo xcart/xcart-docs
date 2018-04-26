@@ -7,7 +7,7 @@ title: 'Заголовок, приветствие и подпись '
 order: 210
 published: false
 ---
-Every email notification has a predefined header, greeting and signature (same for all notifications) that can be edited in the **Header, greeting & signature** tab of the **Store setup** -> **Email notifications** page. 
+Every email notification has a predefined header, greeting and signature (same for all notifications) that can be edited in the **Header, greeting & signature** tab of the **Store setup** -> **Email notifications** page.  
 
 ![header.png]({{site.baseurl}}/attachments/ref_2W845gkS/header.png)
 
@@ -41,4 +41,3 @@ Notification headers and signatures can be set using the following variables:
 ```
 
 Don't forget to **save changes** when done.
-
