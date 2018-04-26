@@ -1,12 +1,13 @@
 ---
 title: Creating new page
 identifier: ref_0VgqyxB8
-updated_at: 2014-12-18 00:00
+updated_at: '2014-12-18 00:00'
 layout: article_with_sidebar
 lang: en
 categories:
-- Developer docs
-- Demo module
+  - Developer docs
+  - Demo module
+published: true
 ---
 
 ## Introduction
@@ -31,8 +32,9 @@ First thing to do is to {% link "create an empty module" ref_G2mlgckf %}. We are
 
 For the sake of example, our task is to create the page which will be available at `admin.php?target=tony_custom` address and will display **Hello world!** text.
 
-1.  Create new controller class. Since we want our page to be opened at `admin.php?target=tony_custom`, the controller class must be named **TonyCustom**. If you need more info about how controllers work in X-Cart, look {% link "here" ref_AF6bmvL6#general-x-cart-workflow %}. 
-2.  We create the `<X-Cart>/classes/XLite/Module/Tony/PageDemo/Controller/Admin/TonyCustom.php` file with the following content: 
+1.  Create new controller class. Since we want our page to be opened at `admin.php?target=tony_custom`, the controller class must be named **TonyCustom**. If you need more info about how controllers work in X-Cart, look at {% link "Controllers" ref_hkVaxgds %} article.
+
+2.  We create the `classes/XLite/Module/Tony/PageDemo/Controller/Admin/TonyCustom.php` file with the following content: 
 
     ```php
     <?php
@@ -47,7 +49,7 @@ For the sake of example, our task is to create the page which will be available 
 
     As you can see, it is pretty empty, but since no data should be processed from the request, we do not need any extra methods here.
 
-3.  Create new viewer class that will manage the data output. This viewer class must sit in the `<X-Cart>/classes/XLite/Module/Tony/PageDemo/View/Page/Admin/` directory and it must be named the same as its controller class. This way X-Cart can pick it up automatically. We are creating the `<X-Cart>/classes/XLite/Module/Tony/PageDemo/View/Page/Admin/TonyCustom.php` file with the following content: 
+3.  Create new viewer class that will manage the data output. This viewer class should sit in the `classes/XLite/Module/Tony/PageDemo/View/Page/Admin/` directory and have the same as controller class. This is just an agreement and all page viewer classes follow the same principle. We are creating the `classes/XLite/Module/Tony/PageDemo/View/Page/Admin/TonyCustom.php` file with the following content: 
 
 
     <div class="ui top attached tabular menu">
@@ -66,7 +68,7 @@ For the sake of example, our task is to create the page which will be available 
 
     class TonyCustom extends \XLite\View\AView
     {
-    	public static function getAllowedTargets()
+        public static function getAllowedTargets()
         {
             return array_merge(parent::getAllowedTargets(), array('tony_custom'));
         }
@@ -143,7 +145,7 @@ For the sake of example, our task is to create the page which will be available 
 
     The `getDefaultTemplate()` method defines what template will be used in order to output the content. The template path can be whatever you prefer.
 
-5.  Now it is time to create the template defined in the `getDefaultTemplate()` method, so it would display **Hello world!** text. We are creating the `<X-Cart>/skins/admin/modules/Tony/PageDemo/page/tony_custom/body.twig` (`<X-Cart>/skins/admin/en/modules/Tony/PageDemo/page/tony_custom/body.tpl` for 5.2.x) file with the following content: 
+5.  Now it is time to create the template defined in the `getDefaultTemplate()` method, so it would display **Hello world!** text. We are creating the `skins/admin/modules/Tony/PageDemo/page/tony_custom/body.twig` (`skins/admin/en/modules/Tony/PageDemo/page/tony_custom/body.tpl` for 5.2.x and earlier) file with the following content: 
 
     ```php
     Hello world!
@@ -161,7 +163,7 @@ You can {% link "create a page via macro" ref_HvrXVNvJ#X-CartSDK-Creatingpage %}
 
 Imagine, we have a similar task of creating page (`cart.php?target=tony_custom`) with **Hello world!** text, but in customer area. The process would be quite the same as for creating page for admin zone.
 
-1.  We create new controller class: `<X-Cart>/classes/XLite/Module/Tony/PageDemo/Controller/Customer/TonyCustom.php` . Notice that we changed the sub-directory from `Controller/**Admin**/TonyCustom.php` to `Controller/Customer/TonyCustom.php`, this way X-Cart will understand that this controller for customer zone, not admin. 
+1.  We create new controller class: `classes/XLite/Module/Tony/PageDemo/Controller/Customer/TonyCustom.php` . Notice that we changed the sub-directory from 'Controller/**Admin**/TonyCustom.php' to 'Controller/**Customer**/TonyCustom.php', this way X-Cart will understand that this controller for customer zone, not admin. 
 
 2.  The content of the controller class will be as follows: 
 
@@ -177,7 +179,7 @@ Imagine, we have a similar task of creating page (`cart.php?target=tony_custom`)
 
     The implementation of the controller class is similar to admin's one, but it has different namespace (`XLite\Module\Tony\PageDemo\Controller\Customer`) and it extends different class (`\XLite\Controller\**Customer\ACustomer`)
 
-3.  We create new viewer class: `<X-Cart>/classes/XLite/Module/Tony/PageDemo/View/Page/Customer/TonyCustom.php` (again, notice change from `Page/Admin/TonyCustom.php` to `Page/Customer/TonyCustom.php` in the path) with the following content: 
+3.  We create new viewer class: `classes/XLite/Module/Tony/PageDemo/View/Page/Customer/TonyCustom.php` (again, notice change from `Page/Admin/TonyCustom.php` to `Page/Customer/TonyCustom.php` in the path) with the following content: 
 
     <div class="ui top attached tabular menu">
         <a class='item' data-tab='tab_3-1'>5.2.x and earlier</a>
@@ -269,9 +271,10 @@ Imagine, we have a similar task of creating page (`cart.php?target=tony_custom`)
 
     The template for this viewer sits in other location. Aside from that, the implementation is the same.
 
-5.  Finally, we need to create the template mentioned in the `getDefaultTemplate()` method. We create the `<X-Cart>/skins/customer/modules/Tony/PageDemo/page/tony_custom/body.twig` (`<X-Cart>/skins/default/en/modules/Tony/PageDemo/page/tony_custom/body.tpl` for 5.2.x) template (notice, that we create this template in the `skins/default/` directory, instead of `skins/admin/` one – it is so, because this template will be displayed in customer store-front) with **Hello world!** content.
+5.  Finally, we need to create the template mentioned in the `getDefaultTemplate()` method. We create the `skins/customer/modules/Tony/PageDemo/page/tony_custom/body.twig` (`skins/default/en/modules/Tony/PageDemo/page/tony_custom/body.tpl` for 5.2.x and earlier) template (notice, that we create this template in the `skins/customer/` directory, instead of `skins/admin/` one – it is so, because this template will be displayed in customer store-front) with **Hello world!** content.
 6.  Re-deploy the store and open the `cart.php?target=tony_custom` page after that. You will see the following result:![]({{site.baseurl}}/attachments/8224999/8355982.png)
 
 ## Module pack
 
-You can download the module described here: [https://dl.dropboxusercontent.com/u/23858825/Tony-PageDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-PageDemo-v5_1_0.tar)
+For X-Cart 5.2.x and earlier: <https://www.dropbox.com/s/6amqcyoz6cxaqmg/Tony-PageDemo-v5_1_0.tar>
+For X-Cart 5.3.x and later: <https://www.dropbox.com/s/sjsfhlae3jos283/Tony-PageDemo-v5_3_0.tar>
