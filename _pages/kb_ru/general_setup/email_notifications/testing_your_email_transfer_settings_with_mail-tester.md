@@ -29,16 +29,16 @@ published: false
 
 Сервис **Mail Tester** - простой способ проверить правильность настройки почты. Сервис находит проблемы в настройке отправки электронной почты и устанавливает спам рейтинг сообщений и степень вероятности попадания писем в спам. **Mail Tester** доступен на нескольких языках и предоставляет три бесплатных теста в сутки.
 
-To test your email transfer configuration:
+Как проверить почту через **Mail Tester**:
 
-   1. Visit https://www.mail-tester.com/ and copy the email address provided on that page to clipboard.
+   1. Откройте сайт [**Mail Tester**](https://www.mail-tester.com "Тестирование отправки почты через Mail Tester")и скопируйте адреса в буфер обмена.
       ![mail_tester_1.png]({{site.baseurl}}/attachments/ref_1QrpKuD3/mail_tester_1.png)
    
-   2. Go to the Admin area of your X-Cart store and do one of the following:
+   2. Перейдите в панель администратора магазина и выполните одно из действий:
 
-      * Create a new store user with the email address you have copied from Mail Tester. This will trigger the sending of an email notification to that email address.
-      Or:
-      * Go to **Store setup** > **Email notifications** and select the **Email transfer settings** tab. On the page that opens, scroll down to the section "Test email configuration" and paste the email address you have copied into the "TO:" field. Use the form to send a test email.
+      * В разделе **Пользователи** создайте новую учётную запись с адресом, скопированным с сайта. Уведомления будут отправляться на указанный адрес.
+      или:
+      * В разделе **Настройка магазина / Уведомления по электронной почте** откройте вкладку **Настройки отправки E-Mail**. Введите скопированный адрес в поле **Е-mail получателя** в секции **Проверка параметров электронной почты** и нажмите **Отправить тестовое сообщение**.
    
    3. Go back to https://www.mail-tester.com/ and press the button "Then check your score". Allow a few seconds for Mail Tester to check the inbox and calculate your score. 
 
