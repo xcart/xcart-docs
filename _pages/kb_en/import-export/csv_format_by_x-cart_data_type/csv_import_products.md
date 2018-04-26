@@ -662,6 +662,45 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
       <td class="confluenceTd">Float (e.g. 1.00)</td>
     </tr>
+  <tr>
+      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Product Feeds</strong> module</em>
+      </td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">nextagId</td>
+      <td class="confluenceTd">
+        <p>Adds a NexTag feed category to a product</p>
+      </td>
+      <td class="confluenceTd">NexTag Category ID</td>
+    </tr>
+  <tr>
+      <td class="confluenceTd">shopzillaId</td>
+      <td class="confluenceTd">
+        <p>Adds a Shopzilla feed category to a product</p>
+      </td>
+      <td class="confluenceTd">Shopzilla Category ID</td>
+    </tr>
+  <tr>
+      <td class="confluenceTd">pricegrabberId</td>
+      <td class="confluenceTd">
+        <p>Adds a Pricegrabber feed category to a product</p>
+      </td>
+      <td class="confluenceTd">Pricegrabber Category ID</td>
+    </tr>
+  <tr>
+      <td class="confluenceTd">ebayCommerceId</td>
+      <td class="confluenceTd">
+        <p>Adds an eBay Commerce Network (shopping.com) feed category to a product</p>
+      </td>
+      <td class="confluenceTd">eBay Category ID</td>
+    </tr>
+  <tr>
+      <td class="confluenceTd">googleShoppingId</td>
+      <td class="confluenceTd">
+        <p>Adds a Google Shopping feed category to a product</p>
+      </td>
+      <td class="confluenceTd">Google Shopping Category ID</td>
+    </tr>
   </tbody>
 </table>
 
