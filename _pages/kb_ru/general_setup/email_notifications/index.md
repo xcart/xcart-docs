@@ -22,9 +22,9 @@ published: true
 ![3.jpg]({{site.baseurl}}/attachments/ref_2NMZBFiZ/3.jpg)
 
 
-*  {% link "Adding recipient addresses for email notifications" ref_wKcxbiUf %}
-*  {% link "Editing a text of an email notification" ref_1qTqS245 %}
-*  {% link "Editing header, greeting &amp; signature" ref_2W845gkS %}
-*  {% link "Adding PDF invoices to email notifications" ref_08i5p47o %}
-*  {% link "Configuring email transfer settings" ref_5PirMonD %}
+*  {% link "Уведомления по электронной почте для сотрудников магазина" ref_3aBNbHWr %}
+*  {% link "Редактирование текста уведомлений по электронной почте" ref_44CVOpx9 %}
+*  {% link "Заголовок, приветствие и подпись " ref_5ePC45X8 %}
+*  {% link "PDF-счёт в уведомлении о заказе" ref_0YpEIa2U %}
+*  {% link "Настройка отправки почтовых сообщений" ref_0Yn6vP7I %}
 *  {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %}
