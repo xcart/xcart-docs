@@ -27,4 +27,4 @@ published: true
 *  {% link "Заголовок, приветствие и подпись " ref_5ePC45X8 %}
 *  {% link "PDF-счёт в уведомлении о заказе" ref_0YpEIa2U %}
 *  {% link "Настройка отправки почтовых сообщений" ref_0Yn6vP7I %}
-*  {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %}
+*  {% link "Тестирование отправки почты через Mail Tester" ref_5hU36ima %}
