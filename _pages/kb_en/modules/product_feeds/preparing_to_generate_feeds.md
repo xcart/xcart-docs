@@ -46,7 +46,7 @@ It's also possible to import feed categories for products using the following fi
 * **nextagId** : specify a relevant NexTag category ID
 * **shopzillaId** : specify a relevant Shopzilla category ID
 * **pricegrabberId** : specify a relevant Pricegrabber category ID
-* **ebayCommerceId** : specify a relevant shopping.com category ID
+* **ebayCommerceId** : specify a relevant eBay category ID
 * **googleShoppingId** : specify a relevant Google Shopping category ID
        
 The field value should be a category ID of a particular comparison shopping site that you can get from the comparison shopping site itself. An alternative way to find a category ID is to assign a category to some product in X-Cart Admin area and then export this product and check for the relevant category ID in the export file.
