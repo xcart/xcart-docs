@@ -7,23 +7,25 @@ title: Редактирование текста уведомлений по э�
 order: 200
 published: false
 ---
-To edit the text of a notification, click on the notification title. You'll see a page of the kind:
+Управление уведомлениями по электронной почте происходит в разделе **Настройка магазина / Уведомления по электронной почте**. Для редактирования уведомления нажмите на  название:
 
-![edit.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/edit.png)
+### Секция Настройки
 
-Each notification consists of the following parts:
-* ![settings-1.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/settings-1.png)
-  Here you can enable/disable the notification and define the email subject. 
+- Включение и отключение уведомления.
+- Тема уведомления.
 
-* ![scheme.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/scheme.png)
-  Here you can enable/disable the header, greeting and signature of the notification and edit the notification text. 
+### Секция Схема
+
+- Включение и отключение заголовка, приветствия и подписи. 
+- Текст уведомления - сообщение в уведомлении.
+- Путь до основного шаблона - название шаблона уведомления, в котором можно изменить структуру уведомления. Шаблон уведомления может содержать и другие шаблоны, из которых формируется уведомление. Чтобы изменить структуру уведомления, скопируйте шаблоны в директорию `skins/theme_tweaker/mail/` (или в директорию `skins/custom_skin/mail/`, если в магазине работает модуль **CustomSkin**) внутри то же папки и сделайте изменения.
+
+Некоторые уведомления редактируются через встроенный редактор. У таких уведомлений присутствует кнопка **Редактировать в режиме Веб-мастра**.
   
-  Also, you can find the name of a notification body template that you can refer to if you need to customize the notification structure. The body template may include other templates to generate the email notification. To customize it, you'll need to copy appropriate templates to the "skins/theme_tweaker/mail/" (or "skins/custom_skin/mail/" if you use CustomSkin module) directory within the same folder structure and then change the notification to meet your needs.
-  
-  Some notifications can be edited via the {% link "Webmaster mode" ref_1xoeCJwy %}. Such notifications have a special **'Edit via Webmaster mode'** button under the **Body**.
-  ![webmaster.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/webmaster.png)
+Заголовок и текст уведомления можно изменить и через языковые переменные. Список задействованных языковых переменных представлен в сноске у полей заголовка и текста.
 
-* ![system-settings.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/system-settings.png)
-  Here you can edit the notification title and description if necessary.
-  
-When the notification editing is complete either **Save changes** or **Send test email** and **Preview template** to see the changes before saving them.
+По ссылке **Заголовок, приветствие и подпись** открывается страница общих настроек уведомлений. На этой странице установите общие для всех уведомлений приветствие, заголовок и подпись.
+
+### Секция Системные настройки
+
+Редактирование _названия_ и _описания_ уведомления, которые видит администратор магазина в разделе **Настройка магазина / Уведомления по электронной почте** в панели управления магазина.
