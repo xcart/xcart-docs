@@ -36,10 +36,12 @@ To edit a claim for return click on the order number on the **Orders** -> **Retu
 You'll be forwarded to the _Order return_ tab where you'll see a sceen of the kind:
 ![manage-return.png]({{site.baseurl}}/attachments/ref_2yZxorwM/manage-return.png)
 
-Your options are either to **Autorize** or **Decline** the clain for return. 
+Your options are either to **Autorize** or **Decline** the claim for return. 
 
 If you authorize the claim for return the order status will be changed to REFUNDED [payment status] and RETURNED [fulfilment status] automatically. The claim for return will get a COMPLETED status respectively.
 
 If you decline the claim for return the order payment and fulfilment statuses will stay as is and  the claim for return status will change to DECLINED respectively.
 
-A customer will get an {% link "e-mail notification" ref_5QLrLCu7 %} on any change you apply to the order, including the claim for return resolution status.
+To modify a return request, add the necessary changes to it and then hit the '**Modify**' button that becomes visible. 
+
+A customer will get an {% link "e-mail notification" ref_5QLrLCu7 %} on any change you apply to the order, including the changes to the claim for return and its resolution status.
