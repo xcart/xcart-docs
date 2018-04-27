@@ -5,7 +5,7 @@ updated_at: '2018-04-27 09:30 +0400'
 identifier: ref_2yZxorwM
 title: Managing Order Returns
 order: 100
-published: false
+published: true
 ---
 First of all you'll need to configure the returns policy of your store. 
 
@@ -42,4 +42,4 @@ If you authorize the claim for return the order status will be changed to REFUND
 
 If you decline the claim for return the order payment and fulfilment statuses will stay as is and  the claim for return status will change to DECLINED respectively.
 
-A customer will get an {% link "e-mail notification" ref_5QLrLCu7 %} on any change you apply to the order, including the claim for return resolution status. 
+A customer will get an {% link "e-mail notification" ref_5QLrLCu7 %} on any change you apply to the order, including the claim for return resolution status.
