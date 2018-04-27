@@ -63,3 +63,7 @@ Once the Google data feed is submitted to ShopperApproved your product reviews b
 ![Dashboard.png]({{site.baseurl}}/attachments/ref_3otm3RBq/Dashboard.png)
 
 Afterwards the reviews will be updated automatically each time you re-generate Google feed in X-Cart.
+
+Customers of your X-Cart store will be prompted to leave a feedback once an order is placed. They will see a pop-up screen where they can rate their customer experience and also answer the questions from the survey:
+
+![checkout-popup.png]({{site.baseurl}}/attachments/ref_3otm3RBq/checkout-popup.png)
