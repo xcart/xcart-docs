@@ -17,3 +17,5 @@ No matter which of the above methods is used to distribute the money, the store 
 
 In the case of automated distribution, the transactions reflecting the movement of the money are generated and registered in this section automatically. In the case of manual distribution, the store administrator uses this section to manually register any transactions taking place between the store owner/storefront operator and each of the vendors.
 
+Let us take a closer look at how to use the Vendor transactions section.
+
