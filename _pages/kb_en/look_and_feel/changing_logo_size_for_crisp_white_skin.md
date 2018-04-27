@@ -7,18 +7,42 @@ title: Changing logo size for Crisp White skin
 order: 200
 published: true
 ---
-The logo size can be customized using Custom CSS.
+For Crisp White skin, the default banner block height is 60px, and the default menu block height is 60px; the total height of the header block is 140px (as regards the desktop view).
 
-For example, if your custom logo image height is 100 pixels, then you can add the following code to the "Custom CSS" section, to reflect your new logo size:
+So, if you want to use a larger logo image, you will need to increase the height of these blocks, respectively.
+
+For example, let's add +20px to the height of the banner and menu blocks, and also add +40px to the height of the header block. Here is the code that should be added to your "Custom CSS" section:
 
 ```
+/* Increase total height of header block +40px */
+#header-area:after {
+  margin-top: 180px;
+}
+
+/* Increase logo and menu blocks height +20px */
 @media (min-width: 992px) {
-#logo, .company-logo {
-  height: 100px;
-}
+  #logo, .company-logo {
+    height: 80px;
+  }
+  #header-bar {
+    height: 80px;
+  }
 }
 
-#logo img, .company-logo img {
-  max-height: 100px;
+.header-right-bar {
+  height: 80px;
 }
+
+/* Increase logo image height +20px */
+#logo img, .company-logo img {
+  max-height: 60px;
+}
+
+/* Adjust paddings for menu items */
+/* Original padding: 20px 17px; */
+.navbar-nav>li>a, .navbar-nav>li>span {
+    padding: 35px 17px 25px 17px;
+}
+
 ```
+
