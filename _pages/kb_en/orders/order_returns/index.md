@@ -5,7 +5,7 @@ updated_at: '2018-04-26 14:53 +0400'
 identifier: ref_30bVFfXt
 title: Order Returns
 order: 130
-published: false
+published: true
 ---
 The Order Returns module is designed to simplify the process of managing product returns, which may be very annoying if you do not have a special tool to deal with it. With this module product returns become quick and convenient; the module organizes the whole process and allows your customers and you to avoid negative experience by getting rid of endless email correspondence.
 
