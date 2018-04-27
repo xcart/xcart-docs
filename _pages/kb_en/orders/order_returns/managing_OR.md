@@ -41,3 +41,5 @@ Your options are either to **Autorize** or **Decline** the clain for return.
 If you authorize the claim for return the order status will be changed to REFUNDED [payment status] and RETURNED [fulfilment status] automatically. The claim for return will get a COMPLETED status respectively.
 
 If you decline the claim for return the order payment and fulfilment statuses will stay as is and  the claim for return status will change to DECLINED respectively.
+
+A customer will get an {% link "e-mail notification" ref_5QLrLCu7 %} on any change you apply to the order, including the claim for return resolution status. 
