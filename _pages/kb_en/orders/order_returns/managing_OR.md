@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-04-27 09:30 +0400'
 identifier: ref_2yZxorwM
 title: Managing Order Returns
-order: 100
+order: 110
 published: true
 ---
 First of all you'll need to configure the returns policy of your store. 
