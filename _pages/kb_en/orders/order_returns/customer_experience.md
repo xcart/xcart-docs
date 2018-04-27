@@ -15,4 +15,4 @@ The customer will be redirected to the _Create Return_ page where he can specify
 
 ![create-return.png]({{site.baseurl}}/attachments/ref_0DnA7pBo/create-return.png)
 
-When the claim for return is either authorized or declined a customer will get an {% link "e-mail notification" ref_5QLrLCu7 %} on the order changes.
+When the claim for return is either authorized or declined a customer will get the corresonding {% link "e-mail notifications" ref_5QLrLCu7 %} on the order changes.
