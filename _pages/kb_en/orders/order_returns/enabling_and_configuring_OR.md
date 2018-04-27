@@ -7,7 +7,6 @@ title: Enabling and Configuring Order Returns
 order: 100
 published: true
 ---
-[Order Returns](https://market.x-cart.com/addons/order-returns.html "Enabling and Configuring Order Returns") module is included in the X-Cart Ultimate edition and is a paid module for X-Cart Business and Multivendor.
 
 To enable the Order Returns module follow the instructions from the guide {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
