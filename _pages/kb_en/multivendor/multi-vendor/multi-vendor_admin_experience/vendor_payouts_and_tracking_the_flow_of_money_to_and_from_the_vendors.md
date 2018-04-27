@@ -12,4 +12,6 @@ In an X-Cart-based multivendor store/online marketplace, the store owner/storefr
    * automatically (through the use of payment methods supporting automated distribution, like {% link "PayPal Adaptive Payments" ref_FdXWLwVN %};
    * manually (by the store owner/storefront operator - using means outside X-Cart). 
 
-No matter which of the above methods is used to distribute the money, the store administrator acting on behalf of the store owner/storefront operator has a way to track the money flow right in the X-Cart Admin area - through the section Vendor transactions (**Orders** > **Vendor transactions**).
+No matter which of the above methods is used to distribute the money, the store administrator acting on behalf of the store owner/storefront operator has a way to track the money flow right in the X-Cart Admin area - through the section Vendor transactions (**Orders** > **Vendor transactions**):
+<img>
+
