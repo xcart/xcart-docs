@@ -17,6 +17,7 @@ The key features of the Order Returns module include:
 * Email notifications about authorized and declined requests to customers.
 
 _In this section_:
-{% link "Enabling and Configuring Order Returns" ref_5JucPxO8 %}
-{% link "Managing Order Returns" ref_2yZxorwM %}
-Customer Experience
+
+*  {% link "Enabling and Configuring Order Returns" ref_5JucPxO8 %}
+*  {% link "Managing Order Returns" ref_2yZxorwM %}
+*  
