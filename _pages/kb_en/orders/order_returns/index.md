@@ -18,12 +18,5 @@ The key features of the Order Returns module include:
 
 _In this section_:
 {% link "Enabling and Configuring Order Returns" ref_5JucPxO8 %}
-Managing Return Requests
+{% link "Managing Order Returns" ref_2yZxorwM %}
 Customer Experience
-
-claim return (customer) status=issued -> authorized (admin) -> Fulfilment status:Returned + Payment status:Refunded (automatically) -> customer status = completed
-
-modify активизируется толко если изменить что-то в ордере
-
-claim return (customer) status=issued -> decline (admin) -> status = declined -> Fulfilment status:+ Payment status: не меняется (automatically) -> customer status = declined
-если добавить коммент к ордеру в админке, коммент появится в кастомерке
