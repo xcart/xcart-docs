@@ -21,6 +21,7 @@ _In this section:_
    *   {% link "Managing vendors" ref_6OTbIwfd %}
    *   {% link "Supervising the product catalog" ref_0dPCIV3f %}
    *   {% link "Setting vendor commissions" ref_7B8smyEx %}
+   *   {% link "Vendor payouts and tracking the flow of money to and from the vendors" ref_3uy1YgfD %}
    *   {% link "Viewing vendor statistics" ref_4mvK1AKz %}
 
 _Related pages:_
