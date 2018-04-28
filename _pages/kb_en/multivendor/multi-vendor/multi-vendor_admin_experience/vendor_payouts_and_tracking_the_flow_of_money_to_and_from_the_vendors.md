@@ -17,11 +17,11 @@ No matter which of the above methods is used to distribute the money, the store 
 
 In the case of automated distribution, the transactions reflecting the movement of the money are generated and registered in this section automatically. In the case of manual distribution, the store administrator uses this section to manually register any transactions taking place between the store owner/storefront operator and each of the vendors.
 
-Let us take a closer look at how to use the Vendor transactions section.
+Let us take a closer look at how to work on vendor transactions using the Vendor transactions section.
 
 ## Viewing vendor transactions
 
-The main content of the section is a table showing vendor transaction information in the following format:
+The main content of the Vendor transactions section is a table showing vendor transaction information in the following format:
 
    *   Vendor: Company name and email address of the vendor to whom the transaction pertains.
    *   Created by: Transaction origin (who created the transaction). The following values may be used:
@@ -50,3 +50,8 @@ The store administrator can filter the transaction list by:
 For example, the screenshot below shows transactions filtered by vendor profile:   
    ![xc5_mv_transactions_filtered_by_vendor.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_transactions_filtered_by_vendor.png)
 
+When an order containing one or more products of some vendor is paid for by a customer, an "Order paid" transaction is created automatically in the Transactions history section. This type of transactions means that a customer has paid for some vendor products, but the money has not yet been received by the vendor. The thing is, in a multivendor X-Cart store all the money paid by a customer purchasing a vendor's product goes first to the account of the store owner/storefront operator. Then the money due to the vendor (which is the same amount as was paid by the customer - less the commission the vendor must pay on this sale to the store owner/storefront operator) needs to be transferred from the account of the store owner/storefront operator to the account of the vendor whose product was sold. The transfer of the money from the store owner/storefront operator to the vendor may happen automatically (that is, if the customer who purchased the products was using a payment method with automatic distribution of the earnings and commission between the vendors and the store owner/stoferont operator, like PayPal Adaptive Payments) or manually by the store owner/storefront operator. In the former case (using automatic distribution), the transaction reflecting the transfer of the money from the store owner/storefront operator to the vendor is created automatically; that is reflected by the status "Auto". In the latter case (with manual transfer of the money), the transaction needs to be created manually by the administrator; the transaction in this case is marked with the email address of the administrator who created it.
+
+By reviewing past transactions, the store administrator representing the store owner/storefront operator can find out the money sums that have been earned by the vendors and learn whether they have already been transferred to the vendor or the administrator needs to do a payout. 
+![xc5_multi-vendor_transactions.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_transactions.png)
+    
