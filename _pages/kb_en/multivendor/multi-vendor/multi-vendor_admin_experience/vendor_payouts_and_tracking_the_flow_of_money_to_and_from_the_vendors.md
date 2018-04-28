@@ -32,10 +32,16 @@ The main content of the section is a table showing vendor transaction informatio
    *   Date: Date when the transaction took place.
    *   Order: Order to which the transaction pertains.
    *   Description: Short description of the transaction. For example:
-        "Order paid" = "Some products owned by the vendor were purchased. The vendor has earned money, but the storefront operator has not yet paid it out to them"; 
-        "PayPal Adaptive: Commission paid" = "The money earned by the vendor has been transferred via PayPal Adaptive Payments to the vendor's PayPal account. The commission due to the storefront operator on this sale (minus PayPal commission) has been paid to the storefront operator"
-   *   Vendor earnings: How much money the vendor has earned on this sale.
-   *   Paid to vendor: How much money has been paid out to the vendor.
+        
+       * Order paid - Some products owned by the vendor were purchased. The vendor has earned money, but the storefront operator has not yet paid it out to them".
+       * Order canceled/refunded -
+       * Method name: Commission paid (like "PayPal Adaptive: Commission paid" or "PayPal For Marketplaces: Commission paid") - The money earned by the vendor has been transferred via the specified payment method to the vendor's account. The commission due to the storefront operator on this sale (minus the payment method commission) has been paid to the storefront operator.
+   *   Income: How much money has been added to the administrator account balance by this transaction.
+   *   Expense: How much money has been paid out to the vendor by this transaction (In the case of a payout request - how much money has to be paid out to the vendor based on this payout request).
 
-To find specific transactions in the Transactions history, the store administrator can filter the transaction list by specifying a date range, a vendor profile and/or a portion of transaction description.
+To find specific transactions in the Vendor transactions section, the store administrator can filter the transaction list by:
+   * Date range 
+   * Vendor profile (_Any profile_ = All available transactions regardless of the vendor to whom they pertain. Specific vendor company name and email address = Only the transactions pertaining to the specified vendor.)
+   * Transaction description (Entire description or part of it.) 
+   * Type of transaction (_Show all_ = All available transactions regardless of the transaction type. _Only pending_ = Only pending transactions.)
 
