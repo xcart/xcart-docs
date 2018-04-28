@@ -50,9 +50,6 @@ The store administrator can filter the transaction list by:
 For example, the screenshot below shows transactions filtered by vendor profile:   
    ![xc5_mv_transactions_filtered_by_vendor.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_transactions_filtered_by_vendor.png)
 
-_The contents of this section below this line is currently a draft.
-Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
-
 ## Creating transactions
 To manually register a transaction in the X-Cart Admin area, the store administrator needs to click the **Create transaction** button. This adds a new line in the transactions table. The administrator must select the vendor profile to which the transaction pertains, provide a description that will allow both the vendor and themselves to identify this transaction at a later time, and adjust the Income/Expense fields as needed. Once they are done, they need to click **Save changes** to save the transaction. The transaction will be saved, and both the administrator and vendor balance will be re-calculated.
 
@@ -63,6 +60,9 @@ The store administrator can edit the Description, Income and Expense fields of:
 To edit a transaction, the administrator must click within the field that needs to be edited, make the changes they require, and save these changes using the **Save changes** button. Updating the contents of the Income and Expense fields will cause the money amounts on the administrator and vendor accounts to be re-calculated.   
 
 Note that the administrator cannot delete previously created transactions. The recommended method of correcting transactions created in error is by creating corrective transactions.
+
+_The contents of this section below this line is currently a draft.
+Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
 
 ## Handling payout requests
 
