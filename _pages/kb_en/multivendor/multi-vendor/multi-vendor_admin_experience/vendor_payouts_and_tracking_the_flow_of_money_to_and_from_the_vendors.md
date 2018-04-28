@@ -19,6 +19,8 @@ In the case of automated distribution, the transactions reflecting the movement 
 
 Let us take a closer look at how to use the Vendor transactions section.
 
+## Viewing vendor transactions
+
 The main content of the section is a table showing vendor transaction information in the following format:
 
    *   Vendor: Company name and email address of the vendor to whom the transaction pertains.
