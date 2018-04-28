@@ -54,8 +54,10 @@ _The contents of this section below this line is currently a draft.
 Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
 
 ## Creating transactions
+To create a transaction, the store administrator needs to click the **Create transaction** button. This adds a new line in the transactions table. The administrator must select the vendor profile to which the transaction pertains, provide a description that will allow both the vendor and themselves to identify this transaction at a later time, and adjust the Income/Expense fields as needed.
 
 ## Editing transactions
+
 
 ## Handling payout requests
 
