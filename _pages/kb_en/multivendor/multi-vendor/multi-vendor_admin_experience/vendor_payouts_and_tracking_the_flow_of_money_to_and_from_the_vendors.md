@@ -21,4 +21,21 @@ Let us take a closer look at how to use the Vendor transactions section.
 
 The main content of the section is a table showing vendor transaction information in the following format:
 
+   *   Vendor: Company name and email address of the vendor to whom the transaction pertains.
+   *   Created by: Transaction origin (who created the transaction). The following values may be used:
+       
+       * Order number (like "#00007") - The transaction was created automatically in connection with the payment for or cancellation/refund of the specified order; 
+       * Administrator name and email address (like Admin Admin admin@example.com) - The transaction was created manually by the administrator using the **Create transaction** feature.
+       * PayPal logo - The transaction was created automatically by PayPal (if a PayPal payment method with automatic distribution was used).
+       * Vendor company name and email address (like Seller Ltd seller3@example.com) - The transaction is a payout request created by the specified vendor.
+       
+   *   Date: Date when the transaction took place.
+   *   Order: Order to which the transaction pertains.
+   *   Description: Short description of the transaction. For example:
+        "Order paid" = "Some products owned by the vendor were purchased. The vendor has earned money, but the storefront operator has not yet paid it out to them"; 
+        "PayPal Adaptive: Commission paid" = "The money earned by the vendor has been transferred via PayPal Adaptive Payments to the vendor's PayPal account. The commission due to the storefront operator on this sale (minus PayPal commission) has been paid to the storefront operator"
+   *   Vendor earnings: How much money the vendor has earned on this sale.
+   *   Paid to vendor: How much money has been paid out to the vendor.
+
+To find specific transactions in the Transactions history, the store administrator can filter the transaction list by specifying a date range, a vendor profile and/or a portion of transaction description.
 
