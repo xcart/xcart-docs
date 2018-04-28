@@ -50,7 +50,14 @@ The store administrator can filter the transaction list by:
 For example, the screenshot below shows transactions filtered by vendor profile:   
    ![xc5_mv_transactions_filtered_by_vendor.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_transactions_filtered_by_vendor.png)
 
+_The contents of this section below this line is currently a draft.
+Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
+
+## Creating transactions
+
+## Editing transactions
+
 ## Handling payout requests
 
-_This section is under construction and will be added soon._
-    
+
+
