@@ -35,11 +35,11 @@ The main content of the section is a table showing vendor transaction informatio
    *   Order: Order to which the transaction pertains.
    *   Description: Short description of the transaction. For example:
         
-       * Order paid - Some products owned by the vendor were purchased. The vendor has earned money, but the storefront operator has not yet paid it out to them".
-       * Order canceled/refunded -
+       * Order paid - One or more products owned by the vendor were purchased and paid for. The vendor has earned money, but the store owner/storefront operator has not yet paid it out to them.
+       * Order canceled/refunded - A purchase of one or more products from the vendor has been canceled/refunded. The money needs to be deducted from the vendor's account balance to cover the expense.
        * Method name: Commission paid (like "PayPal Adaptive: Commission paid" or "PayPal For Marketplaces: Commission paid") - The money earned by the vendor has been transferred via the specified payment method to the vendor's account. The commission due to the storefront operator on this sale (minus the payment method commission) has been paid to the storefront operator.
-   *   Income: How much money has been added to the administrator account balance by this transaction.
-   *   Expense: How much money has been paid out to the vendor by this transaction (In the case of a payout request - how much money has to be paid out to the vendor based on this payout request).
+   *   Income: The money amount that has been added to the administrator account balance by this transaction.
+   *   Expense: The money amount that has been paid out to the vendor by this transaction (In the case of a payout request - the amount of money that has to be paid out to the vendor based on this payout request).
 
 The store administrator can filter the transaction list by:
    * Date range 
