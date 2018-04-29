@@ -65,6 +65,6 @@ _The contents of this section below this line is currently a draft.
 Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
 
 ## Handling payout requests
-
+When a new payout request from a vendor comes in, the store administrator can see it in the Vendor transactions section. The request looks like a regular transaction, but has two buttons - Accept and Decline .
 
 
