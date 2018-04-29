@@ -12,9 +12,9 @@ In a multivendor X-Cart store, the store administrator exercises the function of
    * [Create catalog categories](#creating-catalog-categories);
    * [Control the use of product classes and attributes by vendors](#working-on-product-classes-and-attributes);
    * [Determine the owner of any product in the catalog](determining-the-owner-of-a-product);
+   * [Change the owner of a product](changing-the-owner-of-a-product);
    * [Sort the products by vendor in Product list view](sorting-the-products-by-vendor);
-   * [Find the products of a specific vendor](finding-the-products-of-a-certain-vendor);
-   * [Change the owner of a product](changing-the-owner-of-a-product).
+   * [Find the products of a specific vendor](finding-the-products-of-a-certain-vendor).
 
 
 ## Creating catalog categories
