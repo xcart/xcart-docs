@@ -11,9 +11,10 @@ In a multivendor X-Cart store, the store administrator exercises the function of
 
    * [Create catalog categories](#creating-catalog-categories);
    * [Control the use of product classes and attributes by vendors](#working-on-product-classes-and-attributes);
-   * [Determine the owner of any product in the catalog](determining-the-owner-a-product);
+   * [Determine the owner of any product in the catalog](determining-the-owner-of-a-product);
    * [Sort the products by vendor in Product list view](sorting-the-products-by-vendor);
-   * [Find the products of a specific vendor](finding-the-products-of-a-certain-vendor).
+   * [Find the products of a specific vendor](finding-the-products-of-a-certain-vendor);
+   * [Change the owner of a product](changing-the-owner-of-a-product).
 
 
 ## Creating catalog categories
@@ -32,7 +33,7 @@ The store administrator supervises the use of {% link "product classes and attri
    * The store administrator can specify whether vendor users should be able to add their own values for global attributes and attributes created by the administrator or by the other vendors at the level of product classes, or whether they should just be able to use the existing values. To do so, they need to adjust the setting "Vendor access to global attributes" on the {% link "«Multi-vendor» addon settings page" ref_MRQEvicQ %}). 
 
     
-## Determining the owner a product
+## Determining the owner of a product
 When the same product catalog holds the products of more than one seller, the store administrator who exercises the function of supervising the catalog may require to be able to find the seller (vendor) who added a certain product (and thus is its owner). 
 
 Finding the owner of a product is easy:
@@ -43,8 +44,20 @@ Finding the owner of a product is easy:
 
    * When viewing the details pages of a vendor product in the Admin area, the administrator can see the name and email of the vendor who owns the product:
 ![xc5_mv_product_owner.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_product_owner.png)
-    
-    
+
+## Changing the owner of a product
+The store administrator can change the owner of a product. To do so, they need to go open the product details in the Admin area and hover the cursor over the name of the current product owner:
+![xc5_mv_change_vendor1.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_change_vendor1.png)
+
+The field shows as editable:
+![xc5_mv_change_vendor2.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_change_vendor2.png)
+
+Once this happens, they need to click on it. The owner field becomes a drop-down selector from which one of the existing vendors can be chosen. The administrator needs to select a new owner and save the changes by selecting **Update product**:
+![xc5_mv_change_vendor3.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_change_vendor3.png)
+
+After this the selected vendor will become the new owner of the product and will be able to access its details in their own Vendor area, whereas the previous owner will lose access to the product. Note that if there are any existing orders containing this product when the product owner is changed, the new owner will not be able to access these orders. A warning will be provided: 
+![xc5_mv_change_vendor4.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_change_vendor4.png)
+
 ## Sorting the products by vendor
 The store administrator supervising the product catalog can sort the products in the product list (**Catalog** > **Products**) by vendor. To do so, they need to click on the Vendor header of the product list table:
 ![xc5_mv_sort_by_vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_sort_by_vendor.png)
