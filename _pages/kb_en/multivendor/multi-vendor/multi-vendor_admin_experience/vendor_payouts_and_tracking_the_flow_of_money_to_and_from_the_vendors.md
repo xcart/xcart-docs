@@ -67,8 +67,8 @@ To edit a transaction, the administrator must click within the field that needs 
 
 Note that the administrator cannot delete previously created transactions. The recommended method of correcting transactions created in error is by creating corrective transactions.
 
-_The contents of this section below this line is currently a draft.
-Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
-
 ## Handling payout requests
-When a new payout request from a vendor comes in, the store administrator can see it in the Vendor transactions section. The request looks like a regular transaction, but its description says "Request for payout" has two buttons - Accept and Decline .
+When a new payout request from a vendor comes in, the store administrator can see it in the Vendor transactions section. A request looks like a regular transaction, but its description says "Request for payout" and it has two buttons - Accept and Decline:
+![xc5_mv_payout_request_in_admin.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_in_admin.png)
+If the administrator wants to make a payout based on a request, they need to use the Accept button.
+
