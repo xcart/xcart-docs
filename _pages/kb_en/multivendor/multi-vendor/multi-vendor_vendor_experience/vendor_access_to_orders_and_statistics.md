@@ -16,7 +16,7 @@ redirect_from:
 
 Once an order has been placed for a vendor's product, the vendor can see the respective order added to the list of orders in the Orders section of the store's back end (**Orders** > **Orders list**):
 
-![xc5_multi-vendor_vendorview_orderslist.png]({{site.baseurl}}/attachments/ref_Q16T5ZnW/xc5_multi-vendor_vendorview_orderslist.png)
+![xc5_mv_vendor_order_list.png]({{site.baseurl}}/attachments/ref_Q16T5ZnW/xc5_mv_vendor_order_list.png)
 
 By clicking on the Order # of this order, the vendor can view the order details.
 
@@ -35,13 +35,13 @@ In the "_Vendors as separate shops_" mode, a separate order is formed for the pr
 
 Vendors can access their statistics on orders and bestsellers via the Statistics section (**Orders** > **Statistics**). The order statistics can be viewed via the **Order statistics** tab:
 
-![xc5_multi-vendor_vendorview_order_statistics.png]({{site.baseurl}}/attachments/ref_Q16T5ZnW/xc5_multi-vendor_vendorview_order_statistics.png)
+![xc5_mv_vendor_order_statistics.png]({{site.baseurl}}/attachments/ref_Q16T5ZnW/xc5_mv_vendor_order_statistics.png)
 
 The bestsellers statistics can be accessed via the **Best sellers** tab:
 
 ![xc5_multi-vendor_order_bestsellers.png]({{site.baseurl}}/attachments/ref_Q16T5ZnW/xc5_multi-vendor_order_bestsellers.png)
 
-Vendors can also track the movement of the money from the sales of their products to their account via the Vendor transactions section (**Orders** > **Vendor transactions**):
+Vendors can also track the movement of the money from the sales of their products to their account via the My transactions section (**My account** > **My transactions**):
 
 ![xc5_multi-vendor_vendorview_transactions1.png]({{site.baseurl}}/attachments/ref_Q16T5ZnW/xc5_multi-vendor_vendorview_transactions1.png)
 
