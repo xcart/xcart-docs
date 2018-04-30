@@ -13,12 +13,13 @@ redirect_from:
     /modules/multi-vendor/multi-vendor_vendor_experience/vendor_login_and_first_steps.html
 ---
 
-From the viewpoint of X-Cart 5 user access levels, a vendor user is an administrator with the role "Vendor". This means that vendors are allowed to log in to the store's back end, but have access only to a limited set of features.
+From the viewpoint of X-Cart 5 user access levels, a vendor user is an administrator with the role "Vendor". This means that vendors are allowed to log in to the store's back end, but have access only to a limited set of features (This is called a "Vendor area").
 
-The URL for vendor login is the same as for all administrator users:
-
-`http://<your-domain>/<x-cart-5-directory>/admin.php?target=login`
-
+A vendor can log in to their personal Vendor area using any user login form in the store. 
+For example, they can use the regular Sign in/Sign up form for customers or the URL for administrator users:
+`https://<your-domain>/<x-cart-5-directory>/admin.php?target=login`
+or the URL for vendors:
+`https://<your-domain>/<x-cart-5-directory>/admin.php?target=login_vendor`
 (The `http://<your-domain>/<x-cart-5-directory>` portion needs to be replaced with the actual address of your X-Cart 5 store).
 
 The first time a registered vendor logs in to the store's back end, there won't be much going on there as they do not yet have any products or sales:
