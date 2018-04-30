@@ -70,10 +70,9 @@ Note that the administrator cannot delete previously created transactions. The r
 ## Handling payout requests
 When a new payout request from a vendor comes in, the store administrator is notified about it by email (This is enabled by the "Vendor request for payment" {% link "email notification" ref_7DW1NMak %}). The administrator can see the request in the Vendor transactions section. A request is a pending transaction; it looks like a regular transaction, but its description says "Request for payout" and it has two buttons - Accept and Decline:
 ![xc5_mv_payout_request_in_admin.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_in_admin.png)
-If the administrator wants to make a payout based on a request, they need to use the Accept button.
-If necessary, it is possible to edit the description and the Income/Expense fields. 
+If the administrator wants to make a payout based on a request, they need to use the Accept button. 
 Once a payout request is accepted, it stops being a pending transaction and becomes a regular transaction (without the Accept/Decline buttons). The balance totals for both the administrator and vendor accounts are adjusted accordingly:
 ![xc5_mv_payout_request_accepted.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_accepted.png)
 If the administrator chooses to decline a payout request, they need to use the Decline button. Once this button is clicked, the request stops being a pending transaction and is marked as "Declined"; for example:
 ![xc5_mv_payout_request_declined_in_admin.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_declined_in_admin.png)
-
+If necessary, the administrator can do a partial payout. This can be done by creating a compensatory transaction. For example, if a vendor has requested a payout of $100, and the store owner wants to pay out $90 now and $10 at a later time, the administrator can accept the vendor's payout request for $100 and then create an additional transaction specifying $10 in the Income field. This way only $90 will be transferred to the vendor's balance, whereas the store owner will remain liable to pay $10 to the vendor at a later time. The comments to explain what amount is going where can be added via the Description field of the respective transactions.
