@@ -51,6 +51,12 @@ For example, the screenshot below shows transactions filtered by vendor profile:
    ![xc5_mv_transactions_filtered_by_vendor.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_transactions_filtered_by_vendor.png)
 
 ## Creating transactions
+The store admininstrator can manually create transactions in the Vendor transactions section. The transactions can be used to reflect the movement of funds both to and from the accounts of individual vendors.
+
+Typically the store admininstrator pays out money to vendors based on payout requests. However, a payout request is not a requirement: the store administrator can create any type of transaction at any time, including payout transactions. For example, the store owner and the vendor can communicate and agree on the amount to be paid out to the vendor using personal communication outside X-Cart, and the administrator will be able to register such a transaction in X-Cart by manually creating a transaction using the method described below. 
+
+Similarly, the administrator will be able to create transactions for partial refunds, transactions to correct erroneous transactions and so on.
+
 To manually register a transaction in the X-Cart Admin area, the store administrator needs to click the **Create transaction** button. This adds a new line in the transactions table. The administrator must select the vendor profile to which the transaction pertains, provide a description that will allow both the vendor and themselves to identify this transaction at a later time, and adjust the Income/Expense fields as needed. Once they are done, they need to click **Save changes** to save the transaction. The transaction will be saved, and both the administrator and vendor balance will be re-calculated.
 
 ## Editing transactions
@@ -65,4 +71,4 @@ _The contents of this section below this line is currently a draft.
 Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
 
 ## Handling payout requests
-When a new payout request from a vendor comes in, the store administrator can see it in the Vendor transactions section. The request looks like a regular transaction, but its description says has two buttons - Accept and Decline .
+When a new payout request from a vendor comes in, the store administrator can see it in the Vendor transactions section. The request looks like a regular transaction, but its description says "Request for payout" has two buttons - Accept and Decline .
