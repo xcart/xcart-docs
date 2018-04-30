@@ -44,7 +44,7 @@ Note, however, that vendor's catalog management capabilities are different from 
 
 *   Unlike administrators with the role "Administrator", vendors can view and manage only their own products: any products added by other users are not visible to them.
 *   Unlike administrators with the role "Administrator", vendors do not have access to category management. They cannot create categories by themselves and can only add their products to categories created by the store administrator. If the store's list of categories is lacking a category that a vendor requires, they need to contact the store administrator to resolve this problem.
-*   Vendors can assign product classes and attribute values added by the store administrator to their own products. Depending on the way the module Multi-vendor is configured, vendors may also be able to add their own product classes and attribute values. More information about this is available in the section {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %} of this manual.
+*   Vendors can assign product classes and attribute values added by the store administrator to their own products. Depending on the way the store is configured, vendors may also be able to add their own product classes and attribute values. More information about this is available in the section {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %} of this manual.
 
 Related pages:
 
