@@ -9,7 +9,7 @@ published: true
 ---
 ## Approving/rejecting vendor applications
 
-A user who wants to become a new vendor on the marketplace can submit an application via the vendor registration page available via the "Become a seller" link in the Customer area. When this happens, the store administrator is notified of the new vendor registration via a bell notification and an email notification sent to their inbox. The administrator needs to review this application and either approve or reject it.
+A user who wants to become a new vendor on the marketplace can submit an application via the vendor registration page available via the "Become a seller" link in the Customer area. When this happens, the store administrator is notified of the new vendor registration via a bell notification and an email notification sent to their inbox (This is enabled by the "Vendor account created" {% link "email notification" ref_7DW1NMak %}). The administrator needs to review this application and either approve or reject it.
 
 To do so, the administrator needs to find the profile of the user who has applied to become a vendor in the Users section of the store's Admin area (They will have a regular user profile record in the store's user list and will be marked as an "Unapproved vendor"):
 ![xc5_mv_unapproved_vendor_list1.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_unapproved_vendor_list1.png)
@@ -20,6 +20,8 @@ After reviewing the user profile of the prospective vendor, the administrator ne
 ![xc5_mv_approve_decline.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_approve_decline.png)
 
 If needed, before approving a vendor profile, the administrator may want to re-adjust the new vendor's access information (for example, to change the user's access permissions by changing the role that was assigned to them by default, to give the user a non-default membership level, or to re-adjust the account settings so the user will be requested to change their password on next login). This, of course, can also be done *after* the new vendor approval.
+
+Note that approving or rejecting a vendor application triggers an email notification to the applicant (This is enabled by the "Vendor account approved" or "Vendor account rejected" {% link "email notifications" ref_7DW1NMak %}).
 
 ## Adding new vendors via the Admin area
 
