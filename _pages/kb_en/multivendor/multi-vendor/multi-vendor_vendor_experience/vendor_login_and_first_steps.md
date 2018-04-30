@@ -17,9 +17,13 @@ From the viewpoint of X-Cart 5 user access levels, a vendor user is an administr
 
 A vendor can log in to their personal Vendor area using any user login form in the store. 
 For example, they can use the regular Sign in/Sign up form for customers or the URL for administrator users:
+
 `https://<your-domain>/<x-cart-5-directory>/admin.php?target=login`
+
 or the URL for vendors:
+
 `https://<your-domain>/<x-cart-5-directory>/admin.php?target=login_vendor`
+
 (The `http://<your-domain>/<x-cart-5-directory>` portion needs to be replaced with the actual address of your X-Cart 5 store).
 
 After logging in, the vendor will see a page similar to the following:
