@@ -38,7 +38,7 @@ The notifications pertaining to **Multi-vendor** include the following:
     * **Customer has rated the order (for vendor)**: This notification is sent to the vendor when a customer rates the order of this vendor
 
 
-* _Payment request related notifications:_
+* _Payout request related notifications:_
 
     * **Vendor request for payment**: This message is used to notify the administrator when a vendor submits a payout request.
    
