@@ -22,13 +22,12 @@ or the URL for vendors:
 `https://<your-domain>/<x-cart-5-directory>/admin.php?target=login_vendor`
 (The `http://<your-domain>/<x-cart-5-directory>` portion needs to be replaced with the actual address of your X-Cart 5 store).
 
-The first time a registered vendor logs in to the store's back end, there won't be much going on there as they do not yet have any products or sales:
-
-![]({{site.baseurl}}/attachments/8749377/8719610.png)
+After logging in, the vendor will see a page similar to the following:
+![xc5_mv_vendor_dashboard.png]({{site.baseurl}}/attachments/ref_SZycMdTx/xc5_mv_vendor_dashboard.png)
 
 To start selling with X-Cart, a vendor user needs to complete the following steps:
 
-1.  Check their user profile and provide the necessary information (vendor details, financial info, etc.) See {% link "Managing vendor profile information" ref_b7PTQMgf %}.
+1.  Check their user profile and see if any important information (vendor details, financial info, etc.) needs to be added or corrected. See {% link "Managing vendor profile information" ref_b7PTQMgf %}.
 
 2.  Add the products they are going to sell. See {% link "Managing vendor catalog" ref_r4mcwiho %} for information on how vendors can add products manually. See {% link "Vendor import/export" ref_pa3oqbXz %} for information on how vendors can add products using CSV import.
 
