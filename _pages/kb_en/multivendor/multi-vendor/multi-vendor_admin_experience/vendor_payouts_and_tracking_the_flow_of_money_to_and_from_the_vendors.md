@@ -38,7 +38,7 @@ The main content of the Vendor transactions section is a table showing vendor tr
        * Order paid - One or more products owned by the vendor were purchased and paid for. The vendor has earned money, but the store owner/storefront operator has not yet paid it out to them.
        * Order canceled/refunded - A purchase of one or more products from the vendor has been canceled/refunded. The money needs to be deducted from the vendor's account balance to cover the expense.
        * Method name: Commission paid (like "PayPal Adaptive: Commission paid" or "PayPal For Marketplaces: Commission paid") - The money earned by the vendor has been transferred via the specified payment method to the vendor's account. The commission due to the storefront operator on this sale (minus the payment method commission) has been paid to the storefront operator.
-   *   Income: The money amount that has been added to the administrator account balance by this transaction.
+   *   Income: The money amount that has been earned and added to the administrator account balance by this transaction (excluding the administrator commission).
    *   Expense: The money amount that has been paid out to the vendor by this transaction (In the case of a payout request - the amount of money that has to be paid out to the vendor based on this payout request).
 
 The store administrator can filter the transaction list by:
@@ -65,6 +65,4 @@ _The contents of this section below this line is currently a draft.
 Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
 
 ## Handling payout requests
-When a new payout request from a vendor comes in, the store administrator can see it in the Vendor transactions section. The request looks like a regular transaction, but has two buttons - Accept and Decline .
-
-
+When a new payout request from a vendor comes in, the store administrator can see it in the Vendor transactions section. The request looks like a regular transaction, but its description says has two buttons - Accept and Decline .
