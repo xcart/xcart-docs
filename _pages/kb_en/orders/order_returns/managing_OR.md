@@ -20,7 +20,7 @@ If you don't have the {% link "Custom Order Statuses" ref_7FIU2sxJ %} module ins
 If the Custom Order Statuses module is enabled you can allow orders with any existing statuses for return as well as create new fulfilment statuses, if necessary.
 
 {% note info %}
-Don't forget to add your returns policy to the {% link "Terms and conditions page" ref_r5b4EKhF %}. Or {% link "create a new page" ref_Ptf5vaPn %} for returns policy as an alternative.
+Don't forget to add your returns policy to the _Return Policy_ page in the **Catalog** -> **Product Tabs** section.
 {% endnote %}
 
 To manage order returns open the **Orders** -> **Returns** section of the Admin area. 
