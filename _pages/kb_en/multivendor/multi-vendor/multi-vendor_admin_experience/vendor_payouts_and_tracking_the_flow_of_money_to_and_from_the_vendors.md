@@ -45,7 +45,7 @@ The store administrator can filter the transaction list by:
    * Date range 
    * Vendor profile (_Any profile_ = All available transactions regardless of the vendor to whom they pertain. Specific vendor company name and email address = Only the transactions pertaining to the specified vendor.)
    * Transaction description (Entire description or part of it.) 
-   * Type of transaction (_Show all_ = All available transactions regardless of the transaction type. _Only pending_ = Only pending transactions.)
+   * Type of transaction (_Show all_ = All available transactions regardless of the transaction type. _Only pending_ = Only payout requests.)
    
 For example, the screenshot below shows transactions filtered by vendor profile:   
    ![xc5_mv_transactions_filtered_by_vendor.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_transactions_filtered_by_vendor.png)
@@ -68,9 +68,12 @@ To edit a transaction, the administrator must click within the field that needs 
 Note that the administrator cannot delete previously created transactions. The recommended method of correcting transactions created in error is by creating corrective transactions.
 
 ## Handling payout requests
-When a new payout request from a vendor comes in, the store administrator can see it in the Vendor transactions section. A request looks like a regular transaction, but its description says "Request for payout" and it has two buttons - Accept and Decline:
+When a new payout request from a vendor comes in, the store administrator is notified about it by email (This is enabled by the "Vendor request for payment" {% link "email notification" ref_7DW1NMak %}). The administrator can see the request in the Vendor transactions section. A request is a pending transaction; it looks like a regular transaction, but its description says "Request for payout" and it has two buttons - Accept and Decline:
 ![xc5_mv_payout_request_in_admin.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_in_admin.png)
 If the administrator wants to make a payout based on a request, they need to use the Accept button.
 If necessary, it is possible to edit the description and the Income/Expense fields. 
-Once a payout request is accepted, it becomes a regular transaction (without the Accept/Decline buttons). The balance totals for both the administrator and vendor accounts are adjusted accordingly:
+Once a payout request is accepted, it stops being a pending transaction and becomes a regular transaction (without the Accept/Decline buttons). The balance totals for both the administrator and vendor accounts are adjusted accordingly:
 ![xc5_mv_payout_request_accepted.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_accepted.png)
+If the administrator chooses to decline a payout request, they need to use the Decline button. Once this button is clicked, the request stops being a pending transaction and is marked as "Declined"; for example:
+![xc5_mv_payout_request_declined_in_admin.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_declined_in_admin.png)
+
