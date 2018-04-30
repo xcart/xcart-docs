@@ -71,4 +71,6 @@ Note that the administrator cannot delete previously created transactions. The r
 When a new payout request from a vendor comes in, the store administrator can see it in the Vendor transactions section. A request looks like a regular transaction, but its description says "Request for payout" and it has two buttons - Accept and Decline:
 ![xc5_mv_payout_request_in_admin.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_in_admin.png)
 If the administrator wants to make a payout based on a request, they need to use the Accept button.
-
+If necessary, it is possible to edit the description and the Income/Expense fields. 
+Once a payout request is accepted, it becomes a regular transaction (without the Accept/Decline buttons). The balance totals for both the administrator and vendor accounts are adjusted accordingly:
+![xc5_mv_payout_request_accepted.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_accepted.png)
