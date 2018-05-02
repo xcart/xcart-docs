@@ -5,7 +5,7 @@ updated_at: '2018-05-02 11:30 +0400'
 identifier: ref_1dsuHf3i
 title: Enabling and Configuring E-goods Module
 order: 110
-published: false
+published: true
 ---
 
 To enable the E-goods module follow the procedure decribed in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}
