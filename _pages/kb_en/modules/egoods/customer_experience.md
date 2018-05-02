@@ -5,7 +5,7 @@ updated_at: '2018-05-02 14:03 +0400'
 identifier: ref_208aL8a0
 title: 'E-goods Module: Customer Experience'
 order: 140
-published: false
+published: true
 ---
 When a customer proceeds to checkout after adding a downloadable product to cart, there is no shipping section there if shipping for the product is disabled:
 
@@ -22,4 +22,4 @@ After the order fulfilment status is changed to any other except for _Will not d
 
 ![invoice-1.png]({{site.baseurl}}/attachments/ref_208aL8a0/invoice-1.png)
 
-Also, the customer can find the doanload link for the product on the order details page in the **Orders** section of his account in your store. 
+Also, the customer can find the doanload link for the product on the order details page in the **Orders** section of his account in your store.
