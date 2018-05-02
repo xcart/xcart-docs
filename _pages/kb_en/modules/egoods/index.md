@@ -15,5 +15,5 @@ _In this section:_
 
 * {% link "Enabling and Configuring E-goods Module" ref_1dsuHf3i %}
 * {% link "Configuring Amazon S3 Signed URLs" ref_51iHbWYa %}
-* Admin Experience
+* {% link "E-goods Module: Admin Experience" ref_3sGGx0lV %}
 * Customer Experience
