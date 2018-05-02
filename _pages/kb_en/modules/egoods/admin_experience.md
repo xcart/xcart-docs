@@ -7,7 +7,6 @@ title: 'E-goods Module: Admin Experience'
 order: 120
 published: false
 ---
-{% toc %}
 
 ## Adding downloadable product
 
