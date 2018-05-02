@@ -13,8 +13,7 @@ The module extends the **File Attachments** module's functionality and allows yo
 
 _In this section:_
 
-* Enabling and Configuring E-goods module
+* {% link "Enabling and Configuring E-goods Module" ref_1dsuHf3i %}
 * {% link "Configuring Amazon S3 Signed URLs" ref_51iHbWYa %}
 * Admin Experience
 * Customer Experience
-
