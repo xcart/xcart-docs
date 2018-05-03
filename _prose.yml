@@ -113,6 +113,16 @@ prose:
           label: "Redirects from"
           placeholder: "/some_page.html"
           alterable: true
+      - name: "redirect_to"
+        field:
+          element: "text"
+          label: "Redirects to"
+          placeholder: "https://example.com/some_full_url.html"
+      - name: "show_in_sidebar"
+        field:
+          element: "checkbox"
+          label: "Show in navigation menu"
+          value: true
 
     _pages/devs_en:
       - name: "identifier"
@@ -190,6 +200,16 @@ prose:
           label: "Redirects from"
           placeholder: "/some_page.html"
           alterable: true
+      - name: "redirect_to"
+        field:
+          element: "text"
+          label: "Redirects to"
+          placeholder: "https://example.com/some_full_url.html"
+      - name: "show_in_sidebar"
+        field:
+          element: "checkbox"
+          label: "Show in navigation menu"
+          value: true
 
     _pages/kb_ru:
       - name: "identifier"
@@ -267,6 +287,16 @@ prose:
           label: "Redirects from"
           placeholder: "/some_page.html"
           alterable: true
+      - name: "redirect_to"
+        field:
+          element: "text"
+          label: "Redirects to"
+          placeholder: "https://example.com/some_full_url.html"
+      - name: "show_in_sidebar"
+        field:
+          element: "checkbox"
+          label: "Show in navigation menu"
+          value: true
 
     _pages/devs_ru:
       - name: "identifier"
@@ -344,3 +374,13 @@ prose:
           label: "Redirects from"
           placeholder: "/some_page.html"
           alterable: true
+      - name: "redirect_to"
+        field:
+          element: "text"
+          label: "Redirects to"
+          placeholder: "https://example.com/some_full_url.html"
+      - name: "show_in_sidebar"
+        field:
+          element: "checkbox"
+          label: "Show in navigation menu"
+          value: true
