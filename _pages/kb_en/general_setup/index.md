@@ -17,7 +17,7 @@ _In this section:_
 
 Installation and Migration
 *   {% link "Installation guide" ref_VG5mIoLT %}
-*   {% link "Installing and activating modules" ref_0fGEpvrh %}
+*   {% link "Managing addons" ref_gTOegEua %}
 *   {% link "Activating your license" ref_qwhmJtqW %}
 *   {% link "Getting started with store migration" ref_otTGssNZ %}
 *   {% link "Migration from X-Cart 4 to X-Cart 5" ref_EntIT03c %}
