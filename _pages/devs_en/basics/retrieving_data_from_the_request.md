@@ -35,6 +35,7 @@ This article teaches X-Cart developers how to retrive data from requests to X-Ca
 	}
     ```
     - `classes/XLite/Module/XCExample/RequestDemo/View/Page/Customer/ExampleRequestDemo.php` with the following content:
+    
     ```php
     <?php
 	// vim: set ts=4 sw=4 sts=4 et:
