@@ -95,7 +95,13 @@ module Jekyll
         parts = item['url'].sub('/', '').gsub('index.html', '').split('/')
         itembase = parts.slice(0, level).join('/')
 
-        if item.data.fetch('show_in_sidebar', true) and item.data.fetch('title', '') and itembase == parent and parts.length > level and parts.length <= level + 1
+        should_show_in_sidebar = item.data.fetch('show_in_sidebar', true)
+
+        if !item.data.fetch('redirect_to', '').empty?
+          should_show_in_sidebar = item.data.fetch('hide_from_navigation', false)
+        end
+
+        if should_show_in_sidebar and item.data.fetch('title', '') and itembase == parent and parts.length > level and parts.length <= level + 1
       
           # active class calculation moved to js due to aggressive caching
           # is_active = item['identifier'] == @page['identifier']
