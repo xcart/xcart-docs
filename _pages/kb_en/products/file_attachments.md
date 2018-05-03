@@ -23,6 +23,7 @@ To add an attachment to a product:
      * via URL
 
 2. Choose the file and click **Upload**
+  The maximum file size is limited by the server settings.
 
 3. The file will be added to the product
   ![att-3.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/att-3.png)
