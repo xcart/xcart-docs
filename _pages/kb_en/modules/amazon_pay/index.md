@@ -8,6 +8,8 @@ categories:
   - User manual
 published: true
 order: 105
+redirect_from:
+  - /modules/pay_with_amazon/index.html
 ---
 
 
