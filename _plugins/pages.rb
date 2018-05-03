@@ -65,7 +65,10 @@ module JekyllRedirectFrom
 
     def read_yaml(*args)
       old_read_yaml(*args)
-      self.data['show_in_sidebar'] = false
+
+      if (self.data['redirect_to'].nil? || self.data['redirect_to'].empty?)
+        self.data['show_in_sidebar'] = false
+      end
     end
   end
 end
