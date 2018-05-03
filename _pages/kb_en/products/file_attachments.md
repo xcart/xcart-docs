@@ -5,7 +5,7 @@ updated_at: '2018-05-03 13:31 +0400'
 identifier: ref_0ZWKcob4
 title: Product File Attachments
 order: 100
-published: false
+published: true
 ---
 Sometimes it's necessary to expand the regular products description with a file attachment to provide your customers with a manual if you are selling e.g. household appliances or with a detailed programm description if you are selling courses, whatever.
 
@@ -29,6 +29,3 @@ To add an attachment to a product:
   
   You can add a file description, download the file or re-upload it it necessary. 
   If you need to delete the file, click the _Trash_ icon next to it.
-
-   
-  
