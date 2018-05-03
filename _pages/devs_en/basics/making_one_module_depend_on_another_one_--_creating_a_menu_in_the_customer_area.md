@@ -2,13 +2,12 @@
 lang: en
 layout: article_with_sidebar
 updated_at: '2015-12-02 00:00'
-title: Code and module dependencies
+title: Module dependencies
 identifier: ref_xdDPawlG
 order: 46
 categories:
   - Developer docs
   - Demo module
-  - Outdated
 published: true
 ---
 ## Introduction
