@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-08-09 13:42 +0400'
 identifier: ref_ZszpDfxQ
 title: E-goods
-order: 165
+order: 166
 published: true
 ---
 The module enables you to sell digitally distributed content also known as e-goods. You can sell both e-goods and tangible products in one online store.
