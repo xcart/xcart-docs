@@ -98,7 +98,7 @@ module Jekyll
         should_show_in_sidebar = item.data.fetch('show_in_sidebar', true)
 
         if !item.data.fetch('redirect_to', '').empty?
-          should_show_in_sidebar = item.data.fetch('hide_from_navigation', false)
+          should_show_in_sidebar = !item.data.fetch('hide_from_navigation', false)
         end
 
         if should_show_in_sidebar and item.data.fetch('title', '') and itembase == parent and parts.length > level and parts.length <= level + 1
