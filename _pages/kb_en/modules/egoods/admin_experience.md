@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-05-02 11:57 +0400'
 identifier: ref_3sGGx0lV
 title: 'E-goods Module: Admin Experience'
-order: 120
+order: 130
 published: true
 ---
 
