@@ -11,10 +11,11 @@ icon: puzzle
 description: Discover the world of different building blocks for your shop
 published: true
 ---
+Please find below a list of manuals for some popular X-Cart addons.
+Information on how an addon can be installed and activated in X-Cart is available in the section {% link "Managing addons" ref_gTOegEua %}
 
 _In this section:_
 
-*   {% link "Managing addons" ref_gTOegEua %}
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
 *   {% link "Add to Cart PopUp Module" ref_1iGC8Efj %}
 *   {% link "Amazon Pay" ref_mri0tPhM %} (former "Pay with Amazon")
