@@ -4,10 +4,10 @@ layout: article_with_sidebar
 updated_at: '2018-05-02 11:21 +0400'
 identifier: ref_51iHbWYa
 title: Configuring Amazon S3 Signed URLs
-order: 130
+order: 120
 published: true
 ---
-{% note info %}
+{% note warning %}
 This feature is included in the E-goods module starting from version 5.3.3.0.
 {% endnote %}
 
