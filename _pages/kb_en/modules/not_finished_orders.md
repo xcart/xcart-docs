@@ -6,7 +6,6 @@ identifier: ref_7dKyzAJ4
 title: Not Finished Orders
 order: 190
 show_in_sidebar: true
-published: false
+published: true
 redirect_to: 'https://kb.x-cart.com/orders/not_finished_orders.html'
 ---
-
