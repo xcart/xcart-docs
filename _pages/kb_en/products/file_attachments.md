@@ -15,8 +15,8 @@ You can do this using the _Attachments_ tab on the Product details page (**Catal
 
 To add an attachment to a product:
 1. Click on the Add file button and choose the file source:
-  ![att-2.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/att-2.png)
-  You can upload a file:
+   ![att-2.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/att-2.png)
+    You can upload a file:
     * from your local computer 
     * from your local server
     * via URL
@@ -25,7 +25,7 @@ To add an attachment to a product:
   The maximum file size is limited by the server settings.
 
 3. The file will be added to the product
-  ![att-3.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/att-3.png)
+   ![att-3.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/att-3.png)
   
   You can add a file description, download the file or re-upload it it necessary. 
   If you need to delete the file, click the _Trash_ icon next to it.
