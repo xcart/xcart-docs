@@ -20,6 +20,7 @@ _In this section:_
 *   {% link "Adding featured products" ref_4iFdpTdv %}
 *   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
 *   {% link "How to add video to a product or category description." ref_7zAsoYst %}
+*   {% link "Product File Attachments" ref_0ZWKcob4 %}
 *   {% link "Enabling the «New arrivals» block" ref_2A50nkO9 %}
 *   {% link "Enabling the «Recently viewed» block" ref_9aKsqqeK %}
 *   {% link "Enabling the «Coming soon» block" ref_hQnN8cAT %}
