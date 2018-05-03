@@ -5,7 +5,7 @@ updated_at: '2018-05-02 11:57 +0400'
 identifier: ref_3sGGx0lV
 title: 'E-goods Module: Admin Experience'
 order: 120
-published: false
+published: true
 ---
 
 ## Adding downloadable product
