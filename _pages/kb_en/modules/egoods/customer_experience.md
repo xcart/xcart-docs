@@ -23,3 +23,7 @@ After the order fulfilment status is changed to any other except for _Will not d
 ![invoice-1.png]({{site.baseurl}}/attachments/ref_208aL8a0/invoice-1.png)
 
 The download link for the product can also be found on the order details page in the **My orders** section of a customer account in your store.
+
+{% note info %}
+In case a customer paid with a subscription for a downloadable product s/he'll receive an e-mail notification each time a store admin changes the attachment file for the downloadable product and will have access to all new files attached to the product.
+{% endnote %}
