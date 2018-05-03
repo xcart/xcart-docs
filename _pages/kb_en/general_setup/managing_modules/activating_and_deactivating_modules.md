@@ -8,6 +8,8 @@ categories:
   - User manual
 published: true
 order: 100
+redirect_from:
+  - /modules/managing_modules/activating_and_deactivating_modules.html
 ---
 ## Activating addons
 

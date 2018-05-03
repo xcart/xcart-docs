@@ -8,6 +8,8 @@ categories:
   - User manual
 published: true
 order: 90
+redirect_from:
+  - /modules/managing_modules/index.html
 ---
 
 The functionality of your X-Cart 5 based store can be extended by installing additional modules: add-ons. 

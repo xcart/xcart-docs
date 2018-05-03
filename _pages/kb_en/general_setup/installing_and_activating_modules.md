@@ -7,7 +7,8 @@ title: Installing and activating addons
 categories:
   - User manual
 published: true
-order: 180
+hide_from_navigation: true
+redirect_to: /general_setup/managing_modules/
 ---
 
 

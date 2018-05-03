@@ -8,6 +8,8 @@ categories:
   - User manual
 published: true
 order: 110
+redirect_from:
+  - /modules/managing_modules/installing_modules_from_the_marketplace.html
 ---
 To install an addon from the X-Cart Marketplace:
 

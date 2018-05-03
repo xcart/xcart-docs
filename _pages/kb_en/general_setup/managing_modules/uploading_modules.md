@@ -8,6 +8,8 @@ categories:
   - User manual
 published: true
 order: 120
+redirect_from:
+  - /modules/managing_modules/uploading_modules.html
 ---
 
 
