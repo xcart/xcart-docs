@@ -23,7 +23,11 @@ To assign a file to a product:
 
 ## Processing Orders
 
-Your store customers can pay for downloadable products, using any of the available payment options, including both online and offline methods. The link for download doesn't become vailable to customers right after placing an order and the order gets a _Waiting for approve_ fulfilment status. The download link becomes available after a store admin changes the order fulfilment status to any other except for _Will not deliver_. If the cart admin changes the order fulfilment status to _Will not deliver_ the customer will not get access to the download link. More info on the order statuses you can find in {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}.
+Your store customers can pay for downloadable products, using any of the available payment options, including both online and offline methods. The link for download doesn't become vailable to customers right after placing an order and the order gets a _Waiting for approve_ fulfilment status. 
+
+![wfa_status.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/wfa_status.png)
+
+The download link becomes available after a store admin changes the order fulfilment status to any other except for _Will not deliver_. If the cart admin changes the order fulfilment status to _Will not deliver_ the customer will not get access to the download link. More info on the order statuses you can find in {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}.
 
 {% note info %}
 If you are using the E-goods module along with {% link "X-Payments subscriptions" ref_8VFoqBFZ %} resulting in a product that is both subscription based and downloadable a new order may not have a preset _Waiting for approve_ fulfilment status depending on the payment method you choose. Hence a download link for a product will become available to a customer as soon as the subscription is authorized and the order is paid.
