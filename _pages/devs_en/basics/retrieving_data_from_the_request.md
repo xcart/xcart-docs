@@ -24,6 +24,7 @@ This article teaches X-Cart developers how to retrive data from requests to X-Ca
 1.  We {% link "create a module" ref_G2mlgckf %} with developer ID **XCExample** and module ID **RequestDemo**.
 2.  We {% link "create a page" ref_0VgqyxB8 %} with **target=example_request_demo** customer area. Eventually, we will have three files in the module:
     - `classes/XLite/Module/XCExample/RequestDemo/Controller/Customer/ExampleRequestDemo.php` with the following content:
+    
     ```php
     <?php
 	// vim: set ts=4 sw=4 sts=4 et:
@@ -34,6 +35,7 @@ This article teaches X-Cart developers how to retrive data from requests to X-Ca
 	{
 	}
     ```
+    
     - `classes/XLite/Module/XCExample/RequestDemo/View/Page/Customer/ExampleRequestDemo.php` with the following content:
     
     ```php
@@ -68,6 +70,7 @@ This article teaches X-Cart developers how to retrive data from requests to X-Ca
 	    }
 	}
     ```
+    
     - empty `skins/customer/modules/XCExample/RequestDemo/page/example-request-demo/body.twig` template.
     
 3.  We define the template's content as follows: 
