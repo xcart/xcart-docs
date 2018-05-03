@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-05-03 13:31 +0400'
 identifier: ref_0ZWKcob4
 title: Product File Attachments
-order: 100
+order: 166
 published: true
 ---
 Sometimes it's necessary to expand the regular products description with a file attachment to provide your customers with a manual if you are selling e.g. household appliances or with a detailed programm description if you are selling courses, whatever.
