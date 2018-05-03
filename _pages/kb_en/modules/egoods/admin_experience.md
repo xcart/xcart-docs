@@ -25,6 +25,16 @@ To assign a file to a product:
 
 Your store customers can pay for downloadable products, using any of the available payment options, including both online and offline methods. The link for download doesn't become vailable to customers right after placing an order and the order gets a _Waiting for approve_ fulfilment status. The download link becomes available after a store admin changes the order fulfilment status to any other except for _Will not deliver_. If the cart admin changes the order fulfilment status to _Will not deliver_ the customer will not get access to the download link. More info on the order statuses you can find in {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}.
 
+{% note info %}
+If you are using the E-goods module along with {% link "X-Payments subscriptions" ref_8VFoqBFZ %} resulting in a product that is both subscription based and downloadable a new order may not have a preset _Waiting for approve_ fulfilment status depending on the payment method you choose. Hence a download link for a product will become available to a customer as soon as the subscription is authorized and the order is paid.
+{% endnote %}
+
+Once an order is processed, a store admin can update the e-goods status in the _E-goods_ tab of the Order details page:
+
+![order-details.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/order-details.png)
+
+Here you can see the amount of downloads left, TTL and also can block or renew access to the file.
+
 Due to the specificity of how digital products are delivered, the Egoods module enables you to have more control of how orders with downloadable products are processed: 
 - you can disable all online payment methods, which mostly work for automatic order processing;
 - you can choose to enable only those payment methods that require manual processing; 
@@ -37,3 +47,4 @@ The "auth only" option means that a payment gateway does not really withdraw the
 {% endnote %}
 
 Processing orders that contain downloadable products using payments with "auth only" mode as well as using other methods that require manual order processing, allows you to filter suspicious and potentially fraudulent orders and approve only trustworthy purchases.
+
