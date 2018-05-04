@@ -18,3 +18,4 @@ icon: puzzle
 *   {% link "Запуск распродажи" ref_2V0wZ5qu %}
 *   {% link "Незавершённые покупки (Abandoned cart reminder)" ref_4pmEuIKR %}
 *   {% link "Специальные предложения (Special Offers)" ref_1H0OI3IC %}
+*   {% link "Синхронизация X-Cart с 1С:Предприятие" ref_1yLiVv5G %}
