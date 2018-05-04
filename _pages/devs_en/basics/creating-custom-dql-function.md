@@ -5,7 +5,7 @@ updated_at: '2018-05-04 15:13 +0400'
 identifier: ref_7AqEDxwd
 title: Creating custom Doctrine function
 order: 100
-published: false
+published: true
 ---
 ## Introduction
 
