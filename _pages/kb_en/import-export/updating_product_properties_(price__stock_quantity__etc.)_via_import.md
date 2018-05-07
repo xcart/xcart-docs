@@ -20,7 +20,7 @@ As some of you may already know, we have a module named {% link "Update inventor
 
 ![]({{site.baseurl}}/attachments/9306814/9439207.png)
 
-The mode **'Create new items and update existing items'** allows you to bothcreate new items andupdate the existing items**.** If your import file contains items that do not already exist in the store's database, in the **'Create new items and update existing items'** mode, these items will be created as a result of import.
+The mode **'Create new items and update existing items'** allows you to both create new items and update the existing items. If your import file contains items that do not already exist in the store's database, these items will be created as a result of import.
 
 New items can be created based on the following master IDs:
 
@@ -33,7 +33,7 @@ New items can be created based on the following master IDs:
 
 The mode **'Update existing items, but skip new items'** allows you to update the existing items without creating any new ones. 
 
-Note that, in both the import modes, any missing items that are dependent on the existing items will be created. For example, if an existing product being updated through import does not have a category specified, the category will be created.
+Note that in both the import modes any missing items that are dependent on the existing items will be created. For example, if an existing product being updated through import does not have a category specified, the category will be created.
 
 Let's take a closer look at how you can update the stock quantities and prices of your existing products. We will consider the following cases:
 
@@ -51,7 +51,7 @@ The process is pretty straightforward:
 1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
     ![]({{site.baseurl}}/attachments/9306814/9439225.png)
 2.  Download the resulting export file and import it into our favorite spreadsheet editor so you can view the file contents separated nicely into columns. For the sake of example, we'll do it with Google Sheets on Google Docs.
-3.  The file you get has a lot of columns, so it is a good idea to remove the columns whose contents will not need to be updated - to make the file more manageable. Care not to remove the required columns. To find out, which columns are required for your file, check the section {% link "CSV import: Products" ref_WmJBfwxA %} of this manual. In the table describing the data format for the import of products, you can see that there are only two required fields (they are marked with asterisks): **sku** and **name**. So you will need to keep these two columns. The price that needs to be updated can be found in the column **price**, and the product quantity - in the column **stockLevel**. So, these columns will also have to be kept. Basically, you can safely remove all the columns except for **sku**, **name**, **price** and **stockLevel**. After you do so, your spreadsheet should look something like the following:
+3.  The file you get has a lot of columns, so it is a good idea to remove the columns whose contents will not need to be updated - to make the file more manageable. Care not to remove the required columns. To find out which columns are required for your file check the section {% link "CSV import: Products" ref_WmJBfwxA %} of this manual. In the table describing the data format for the import of products, you can see that there are only two required fields (they are marked with asterisks): **sku** and **name**. So you will need to keep these two columns. The price that needs to be updated can be found in the column **price**, and the product quantity - in the column **stockLevel**. So, these columns will also have to be kept. Basically, you can safely remove all the columns except for **sku**, **name**, **price** and **stockLevel**. After you do so, your spreadsheet should look something like the following:
     ![]({{site.baseurl}}/attachments/9306814/9439208.png)
     (On the screenshot above, the column **name** has the name **name_en** because it contains values for the English language; for other languages the column name will have a different language code appended).
 4.  On the lines of the SKUs for which you need to update the price and the stock quantity, edit the contents of the **price** and **stockLevel** fields as you require. 
