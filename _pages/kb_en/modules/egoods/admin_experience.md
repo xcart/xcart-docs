@@ -22,7 +22,7 @@ To assign a file to a product:
 4. Save the changes.
 
 {% note info %}
-If you are using the E-goods module along with {% link "X-Payments subscriptions" ref_8VFoqBFZ %} a customer will get an updated download link for the product each time a subscription fee is paid. The history of the attachment changes is not stored and the customer is notified about any possible attachment changes within a subscription period.
+If you are using the E-goods module along with {% link "X-Payments subscriptions" ref_8VFoqBFZ %} a customer will get an updated download link for the product each time a subscription fee is paid. The history of the attachment changes is not stored and the customer is not notified about any possible attachment changes within a subscription period.
 {% endnote %}
 
 ## Processing Orders
