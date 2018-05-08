@@ -5,7 +5,7 @@ updated_at: '2018-05-08 15:10 +0400'
 identifier: ref_4a5rpsQq
 title: Related Products
 order: 295
-published: false
+published: true
 ---
 You can configure your X-Cart 5 store to show a block with the related products (alternatives or additional items) - the so-called “Related Products” block. This feature is available through the use of the **Related Products** module by X-Cart team and is included in Business, Multivendor and Ultimate editions. To use the feature, make sure this module {% link "installed and enabled" ref_uEnDBBA7 %}.
 
