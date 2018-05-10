@@ -7,11 +7,11 @@ title: Call for Price Module
 order: 145
 published: true
 ---
-The Call for Price module allows you to hide the price and "Add to cart" button for particular products and show a messsage instead. The module is insluded into the X-Cart ultimate edition and is paid for X-Cart Business and Multivendor.
+The [Call for Price](https://market.x-cart.com/addons/call-for-price.html "Call for Price Module") module allows you to hide the price and "Add to cart" button for particular products and show a messsage instead. The module is included into the X-Cart Ultimate edition and is paid for X-Cart Business and Multivendor.
 
 To install the module follow instructions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}
 
-Once enabled open the module Settings page if you need to change the default 'Call for price' message:
+Once enabled open the module _Settings page_ if you need to change the default 'Call for price' message:
 
 ![settings-1.png]({{site.baseurl}}/attachments/ref_3K1pJExV/settings-1.png)
 
@@ -19,7 +19,9 @@ You'll see a screen like this:
 
 ![settings-2.png]({{site.baseurl}}/attachments/ref_3K1pJExV/settings-2.png)
 
-Here you can adjust the text that is displayed to your customers in your store frontend. The default text will look as follows:
+Here you can adjust the text that is displayed to your customers in your store frontend. 
+
+The default text will look as follows:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![cus-1.png]({{site.baseurl}}/attachments/ref_3K1pJExV/cus-1.png)</div>
@@ -31,8 +33,8 @@ Here you can adjust the text that is displayed to your customers in your store f
 The 'Call for price' option can be enabled:
 
 1. Per product:
-   * Open the Product details page (**Catalog** -> **Products**), 
-   * Locate the Prices section in the Info tab 
+   * Choose the product you need fro the list (**Catalog** -> **Products**) and open the Product details page 
+   * Locate the **Prices** section in the _Info_ tab 
    ![product-details.png]({{site.baseurl}}/attachments/ref_3K1pJExV/product-details.png)
    * Turn ON the _Call for price_ trigger above it
    * **Save** the changes
@@ -40,7 +42,7 @@ The 'Call for price' option can be enabled:
 2. Per product variant
    * Enable the 'Call for price' option for the product as described above
    * Open the _Variants_ tab of the Product details page
-   * Locate the Cart icon opposite the product variant
+   * Locate the _Cart_ icon opposite the product variant
    ![variants.png]({{site.baseurl}}/attachments/ref_3K1pJExV/variants.png)
    * Switch it to _Call for price_
    * **Save** the changes
@@ -54,7 +56,7 @@ The 'Call for price' option can be enabled:
    
 3. Via 'Bulk edit':
    * Open the Product listing page (**Catalog** -> **Products**)
-   * Mark the products
+   * Mark the products you need
    * Locate the _Cart_ icon in the 'Bulk edit' palette in the bottom
    ![product-list.png]({{site.baseurl}}/attachments/ref_3K1pJExV/product-list.png)
    * Switch to _Call for price_ 
