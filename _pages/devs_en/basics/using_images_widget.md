@@ -92,7 +92,7 @@ Let us have a closer look at this implementation.
     mappedBy="product"
     ```
 
-    Learn more about `[mappedBy](http://doctrine-orm.readthedocs.org/en/latest/reference/association-mapping.html#one-to-many-bidirectional)` in Doctrine documentation. Also, using `mappedBy` directive in **Product** class means that we will have to use `inversedBy` directive in **SecondaryImage** class in order to create **bidirectional** relation. This way we will be able to access **SecondaryImage** object from **Product** object `$product->getSecondaryImages()` as well as access **Product** object from **SecondaryImage** object `$secondaryImage->getProduct()`. 
+    Learn more about [mappedBy](http://doctrine-orm.readthedocs.org/en/latest/reference/association-mapping.html#one-to-many-bidirectional) in Doctrine documentation. Also, using `mappedBy` directive in **Product** class means that we will have to use `inversedBy` directive in **SecondaryImage** class in order to create **bidirectional** relation. This way we will be able to access **SecondaryImage** object from **Product** object `$product->getSecondaryImages()` as well as access **Product** object from **SecondaryImage** object `$secondaryImage->getProduct()`. 
 
     This `cascade` directive defines that **SecondaryImage** objects are associated with its **Product** object and if we remove or clone Product entity, the same will happen to SecondaryImage objects linked to it. Learn more about [cascade](http://doctrine-orm.readthedocs.org/en/latest/reference/working-with-associations.html#transitive-persistence-cascade-operations) in Doctrine documentation. 
     
