@@ -33,7 +33,6 @@ The Call for Price option for products can be enabled:
    ![product-details.png]({{site.baseurl}}/attachments/ref_3K1pJExV/product-details.png)
    * Turn ON the _Call for price_ trigger above it
    * **Save** the changes
-   * 
    
 2. Per product variant
    * Enable the 'Call for price' option for the product as described above
