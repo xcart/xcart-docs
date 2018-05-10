@@ -5,7 +5,7 @@ updated_at: '2018-05-08 16:57 +0400'
 identifier: ref_3K1pJExV
 title: Call for Price Module
 order: 145
-published: false
+published: true
 ---
 The Call for Price module allows you to hide the price and "Add to cart" button for particular products and show a messsage instead. The module is insluded into the X-Cart ultimate edition and is paid for X-Cart Business and Multivendor.
 
@@ -64,9 +64,3 @@ The Call for Price option for products can be enabled:
    
 When the 'Call for price' feature is enabled a customer will see it like this:
    ![apparel.png]({{site.baseurl}}/attachments/ref_3K1pJExV/apparel.png)
- 
-
-
-
-
-
