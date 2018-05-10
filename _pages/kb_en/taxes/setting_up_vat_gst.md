@@ -38,8 +38,6 @@ A video tutorial is also available:
 Before you configure your VAT / GST tax:
 
 1.  Ensure that each of the products in your store to which VAT / GST needs to be applied has a tax class assigned to it. You can create your custom tax classes or use the "Default tax class" that is assigned to all your products by default. 
-
-    See:
     
     *   {% link "Creating tax classes" ref_pAWOdG8N#creating-tax-classes %};
     
@@ -47,13 +45,9 @@ Before you configure your VAT / GST tax:
 
 2.  Ensure that your store has all the necessary address zones configured. You will need these zones to use different tax rates based on the customer address.
     
-    See:
-    
     *   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
     
 3.  If you are going to need different tax rates for different customer membership levels, ensure that the necessary user membership levels have been set up. 
-    
-    See:
     
     *   {% link "Adding user membership levels" ref_9ITFspcC %}
 
@@ -78,7 +72,15 @@ To configure your VAT / GST tax, complete the following steps:
         Note that the field for selecting memberships is made available in this section only when the option "Use the same tax rates for all user membership levels" is disabled:
         ![xc5_taxes_vat_memberships.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_memberships.png)
     
-    *   Use the setting **Display prices in catalog including VAT / GST** to specify, whether the product prices in your store's catalog should be displayed with VAT / GST included, or not. Note that this setting affects only the way the prices are *displayed*. If the prices in the database do not include VAT / GST, enabling the option "Display prices in catalog including VAT / GST" will result in that an appropriate tax rate will be added to the price before it is displayed in the catalog. If the prices in the database are set including VAT / GST, enabling the option "Display prices in catalog including VAT / GST" will result in that the tax rate will be subtracted from the price before the price is displayed.
+    *   Use the setting **Display prices in catalog including VAT / GST** to specify, whether the product prices in your store's catalog (on the storefront) should be displayed with VAT / GST included, or not. Note that this setting affects only the way the prices are *displayed*. 
+    
+        1) If the setting "Display prices in catalog including VAT / GST" is set to off, and the prices in the database do not include VAT, then the prices for display on the storefront will equal the prices in the database for all the zones. 
+        
+        2) If the setting "Display prices in catalog including VAT / GST" is set to off, and the prices in the database are set including VAT, then the prices for display on the storefront will have to be calculated by subtracting the VAT amount from the prices in the database.
+        
+        3) If the setting "Display prices in catalog including VAT / GST" is set to on, and the prices in the database do not include VAT, the display prices will have to be calculated by adding the VAT amount (according to the VAT rate for the zone) to the price in the database. For zones with a zero VAT rate, the display price will be the same as the price in the database (The result of adding "zero" VAT to the price in the database). For zones with a non-zero VAT rate, the display price will be calculated as the price in the database plus a non-zero VAT amount calculated based on the VAT rate for the zone.
+        
+        4) If the setting "Display prices in catalog including VAT / GST" is set to on, and the prices in the database are set including VAT for a certain zone (for example, VAT for Germany), the display prices for that zone (Germany) will be the same as the prices in the database (the way we specified them - with German VAT included); the display prices for other zones where VAT needs to be applied (using a different VAT rate) will be calculated by subtracting the German VAT from the price in the database and adding the VAT amount we require for the respective zone.
     
     *   X-Cart can display product prices with the label 'inc VAT' or 'ex VAT' displayed next to them - depending on whether VAT / GST is included into the price or not. Use the setting **Display 'inc/ex VAT' labels next to prices** to specify, whether you want to use such labels, and if so, on which pages the labels should be shown. 
         * *Never* means that the labels will not be used anywhere in the catalog. Not that if you choose not to use the labels, you will still have to find a way to place information as to whether your prices include the tax somewhere on the catalog pages as it must be made clear to your customers.
