@@ -5,7 +5,7 @@ updated_at: '2018-05-10 12:10 +0400'
 identifier: ref_6TPP8Yyb
 title: Enabling Catalog Mode and Hiding Prices for Products
 order: 310
-published: false
+published: true
 ---
 You can configure your X-Cart 5 store to hide the cart icon and remove the "Add to cart" and "Buy" buttons and to disable checkout turning your online store into a catalog of your goods and services. 
 
