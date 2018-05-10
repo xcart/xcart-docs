@@ -708,14 +708,14 @@ There are many more fields which you can include into your product CSV file. Bel
     <tr>
       <td class="confluenceTd">callForPrice</td>
       <td class="confluenceTd">
-        <p>Enables the _Call for price_ option for a product</p>
+        <p>Enables the 'Call for price' option for a product</p>
       </td>
       <td class="confluenceTd">Yes/No</td>
     </tr>
   <tr>
       <td class="confluenceTd">variantCallForPrice</td>
       <td class="confluenceTd">
-        <p>Enables the _Call for price_ option for a product variant</p>
+        <p>Enables the 'Call for price' option for a product variant</p>
       </td>
       <td class="confluenceTd">Yes/No</td>
     </tr>
