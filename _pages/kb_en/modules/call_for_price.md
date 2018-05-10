@@ -26,7 +26,9 @@ Here you can adjust the text that is displayed to your customers in your store f
   <div class="column" markdown="span">![cus-2.png]({{site.baseurl}}/attachments/ref_3K1pJExV/cus-2.png)</div>
 </div>
 
-## The Call for Price option for products can be enabled: 
+## Enabling the 'Call for Price' option for products
+
+The 'Call for price' option can be enabled:
 
 1. Per product:
    * Open the Product details page (**Catalog** -> **Products**), 
