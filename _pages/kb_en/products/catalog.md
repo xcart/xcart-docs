@@ -15,6 +15,6 @@ To make this possible enable the Catalog module as described in {% link "Install
 
 The Catalog module functionality can be extended or substituted with the following modules:
 * {% link "Call for Price Module" ref_3K1pJExV %}
-* Hide Prices
+* {% link "Hide Prices Module" ref_46jNUlWG %}
 
 These modules allow to hide prices but keep checkout available for customers.
