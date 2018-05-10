@@ -23,6 +23,7 @@ _In this section:_
 *   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
 *   {% link "Blog system in X-Cart 5" ref_T5FrnC4x %}
 *   {% link "Booking" ref_iTdd1QoP %}
+*   {% link "Call for Price Module" ref_3K1pJExV %}
 *   {% link "Canada Post" ref_ifwLo5ks %}
 *   {% link "CloudSearch and CloudFilters" ref_3MF4RL7z %}
 *   {% link "eBay Integration" ref_0SnFdXk1 %}
