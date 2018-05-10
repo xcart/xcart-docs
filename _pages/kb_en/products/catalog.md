@@ -13,6 +13,6 @@ It's good if you need an eCommerce website to demonstrate your products and serv
 
 To make this possible enable the Catalog module as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}. The module is free and available for all X-Cart 5 editions (Business, Multivendor, Ultimate).
 
-If you still need to keep the checkout working but hide the product prices only the Catalog module functionality can be extended with the following modules:
+If you still need to keep the checkout working but hide the product prices only use the following modules instead of the Catalog module:
 * {% link "Call for Price Module" ref_3K1pJExV %}
 * Hide Prices
