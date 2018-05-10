@@ -41,7 +41,7 @@ The Call for Price option for products can be enabled:
    ![variants.png]({{site.baseurl}}/attachments/ref_3K1pJExV/variants.png)
    * Switch it to _Call for price_
    * **Save** the changes
-   {% info note %}
+   {% note info %}
    In case the 'Call for price' option is enabled not for all the variants available a customer will see it like this:
    <div class="ui stackable two column grid">
     <div class="column" markdown="span">![vaiant-customer-2.png]({{site.baseurl}}/attachments/ref_3K1pJExV/vaiant-customer-2.png)</div>
