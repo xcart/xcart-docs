@@ -4,8 +4,8 @@ layout: article_with_sidebar
 updated_at: '2018-05-11 17:16 +0400'
 identifier: ref_26UftgNS
 title: '&quot;Operate as a user&quot; feature'
-order: 100
-published: false
+order: 400
+published: true
 ---
 Sometimes the administrator of an X-Cart based online store may require to access the store as another user. This may be needed to do stuff on behalf of the user (for example, to place an order on behalf of a customer), to check how the store user interface appears to the user or to investigate a problem. 
 
