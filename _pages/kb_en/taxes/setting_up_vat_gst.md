@@ -88,6 +88,8 @@ To configure your VAT / GST tax, complete the following steps:
         * *On product details pages only* means that the labels will be used only for the prices displayed on the pages showing detailed product info, and not used on any other pages.
         * *On all catalog pages* means that the labels will be used everywhere in the catalog where product prices are shown.
     
+    *   If you are going to use vatlayer.com VAT number validation for VAT exempt customers, specify your API key in the **EU VAT Number Validation API key (vatlayer.com)**  field. More info on VAT exemption is available below in the section {% link "Handling VAT exemption" ref_Rzp45QlN#handling-vat-exemption %}.
+    
     *   In the **Merchant Tax Number** field, specify your tax identification number. This value will be shown on the invoices of orders with VAT applied. If you need to change the wording of this phrase (for example, to "VAT ID" or "ABN") follow the "Rename label" link below the field name to do it.
     
 4.  Set up the VAT/GST tax rates you require. For more info, see the section "Setting up your VAT / GST tax rates" further in this article.
