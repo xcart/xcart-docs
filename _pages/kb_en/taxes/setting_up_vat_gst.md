@@ -9,29 +9,30 @@ published: true
 redirect_from:
   - /taxes/defining_vat_for_your_products.html
 ---
-If you are required to charge buyers a value added tax (VAT) or a goods and services tax (GST), we recommend using the module **Value Added Tax / Goods and Services Tax** for tax setup. 
+If you are required to charge buyers a value added tax (VAT) or a goods and services tax (GST), we recommend using the addon **Value Added Tax / Goods and Services Tax** for tax setup. 
     ![xc5_taxes_vat_module.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_module.png)
 
 
-This module is specifically designed for businesses in the UK, EU, Australia and other countries where you need to be able to charge VAT / GST. The module allows you to use different tax rates based on the membership level and address of the customer. It also supports tax exemption based on customer's VAT ID.
+This addon is specifically designed for businesses in the UK, EU, Australia and other countries where you need to be able to charge VAT / GST. The addon allows you to use different tax rates based on the membership level and address of the customer. It also supports tax exemption based on customer's VAT ID.
 
 {% note info %}
-Note that we have a special module for {% link "Canadian taxes" ref_hxmof6xX %}.
+Note that we have a special addon for {% link "Canadian taxes" ref_hxmof6xX %}.
 {% endnote %}
 
-To start using the module "Value Added Tax / Goods and Services Tax", ensure that it is installed and enabled in your store's Installed Modules section.
+To start using the addon "Value Added Tax / Goods and Services Tax", ensure that it is installed and enabled in your store.
 
-This article explains how to set up and enable VAT / GST calculation using the module "Value Added Tax / Goods and Services Tax" for X-Cart 5. 
+This article explains how to set up and enable VAT / GST calculation using the addon "Value Added Tax / Goods and Services Tax" for X-Cart 5. 
 
 *  {% link "Configuring VAT / GST" ref_Rzp45QlN#configuring-vat--gst %}
 *  {% link "Setting up your VAT / GST tax rates" ref_Rzp45QlN#setting-up-your-vat--gst-tax-rates %}
 *  {% link "Enabling/Disabling VAT / GST calculation" ref_Rzp45QlN#enablingdisabling-vat--gst-calculation %}
 *  {% link "Some examples of VAT setup" ref_Rzp45QlN#some-examples-of-vat-setup %}
+*  {% link "Handling VAT exemption" ref_Rzp45QlN#handling-vat-exemption %}
 
 A video tutorial is also available:
 
-*   {% link "Video: Setting up VAT with the module "EU and UK VAT / GST" ref_wcorpZyz %}
-    (Note that the video is based on an older version of the module, so be prepared to find a few differences in the user interface; however, the general idea is the same.)
+*   {% link "Video: Setting up VAT with the addon "EU and UK VAT / GST" ref_wcorpZyz %}
+    (Note that the video is based on an older version of the addon, so be prepared to find a few differences in the user interface; however, the general idea is the same.)
 
 ## Configuring VAT / GST
 
@@ -131,7 +132,7 @@ When VAT / GST calculation is enabled, the button shows as **Tax enabled**, and 
 
 ## Some examples of VAT setup
 
-Let us consider a few typical cases of tax setup that can be implemented using the module VAT / GST:
+Let us consider a few typical cases of tax setup that can be implemented using the addon VAT / GST:
 
 *  {% link "I. Set VAT-inclusive prices for the country where you do business" ref_Rzp45QlN#i-set-vat-inclusive-prices-for-the-country-where-you-do-business %}
 *  {% link "II. Set prices and VAT for different countries in Europe (VAT included)" ref_Rzp45QlN#ii-set-prices-and-vat-for-different-countries-in-europe-vat-included %}
@@ -220,6 +221,9 @@ VAT rate for [zone without VAT] = 0%
 VAT rate for [zone that must use VAT] = 20%
 VAT rate for [zone without VAT] = 0%
 
+## Handling VAT exemption
+Te addon **Value Added Tax / Goods and Services Tax** supports tax exemption based on customer's VAT ID. Buyers who specify a VAT-using European country in the **Country** field of their address (in either the shipping or the billing address block, during checkout or while editing the address book in their profile) will be given an option to complete an additional field - **VAT number**. If they have a VAT ID that allows them not to pay VAT on the purchase, they can submit it using this field.
+The X-Cart store will provide validation of the VAT number format and will submit the VAT number that has been entered to the free VAT number validation service at http://ec.europa.eu/taxation_customs/vies/. If the service returns information that the specified VAT number is valid, the X-Cart store will automatically remove the VAT amount for the buyer so they will not have to pay it. If the service responds that the VAT number is invalid or fails to respond (this sometimes happens if the service is down or overloaded), the VAT amount for the buyer will not be removed. As an alternative to the free service ``http://ec.europa.eu/taxation_customs/vies/``, it is possible to use a paid VAT number validation service ``https://vatlayer.com/``. To do so, you will have to sign up at https://vatlayer.com/product, get an API key to access the service and submit this API key in the **Value Added Tax / Goods and Services Tax** addon setting via the **EU VAT Number Validation API key (vatlayer.com)** field. 
 
 _Related pages:_
 
@@ -232,4 +236,4 @@ _Related pages:_
 
 _See also:_
 
-*   {% link 'Video: Setting up VAT with the module "EU and UK VAT / GST"' ref_wcorpZyz %}
+*   {% link 'Video: Setting up VAT with the addon "EU and UK VAT / GST"' ref_wcorpZyz %}
