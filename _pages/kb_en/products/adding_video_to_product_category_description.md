@@ -3,10 +3,9 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-02-08 14:32 +0400'
 identifier: ref_7zAsoYst
-title: How to add video to a product or category description
+title: Adding video to product or category description
 order: 165
 published: true
-description: Adding video to product or category description
 ---
 You can easily add videos to category/product descriptions. To add a video to the description of a category or a product, follow the steps below:
 
