@@ -29,4 +29,5 @@ To be able to access the store as one of the administrators, you need to be an A
 To use the feature:
 
    1. Open the profile of the administrator user as whom you want to access the store.
-   2. From the Profile actions selector, choose the option _Log in as this admin_.
+   2. From the Profile actions selector, choose the option _Log in as this admin_:
+      ![log_in_as_admin_option.png]({{site.baseurl}}/attachments/ref_26UftgNS/log_in_as_admin_option.png)
