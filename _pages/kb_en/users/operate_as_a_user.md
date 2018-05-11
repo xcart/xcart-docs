@@ -15,7 +15,7 @@ In X-Cart 5 Business and more advanced editions, logging in to the store as a di
    * [Accessing the store as another administrator](#accessing-the-store-as-another-administrator-log-in-as-this-admin)
 
 ## Accessing the store as a customer ("Operate as this customer")
-To be able to access the store as one of the registered customers, you need to be an Administrator user with Root access (equals the role "Administrator") or an Administrator user with any custom role including the *Manage users* permission.
+To be able to access the store as one of the registered customers, you need to be an Administrator user with Root access (equals the role "Administrator") or an Administrator user with any custom role including the permission to *Manage users*.
 
 To use the feature:
 
@@ -24,7 +24,7 @@ To use the feature:
       ![operate_as_customer_option.png]({{site.baseurl}}/attachments/ref_26UftgNS/operate_as_customer_option.png)
 
 ## Accessing the store as another administrator ("Log in as this admin")
-To be able to access the store as one of the administrators, you need to be an Administrator user with Root access (equals the role "Administrator") or an Administrator user with any custom role including the permissions *Manage users* AND *Manage administrators*.
+To be able to access the store as one of the administrators, you need to be an Administrator user with Root access (equals the role "Administrator") or an Administrator user with any custom role including the permissions to *Manage users* AND *Manage administrators*.
 
 To use the feature:
 
