@@ -41,4 +41,4 @@ The administrator can create new user accounts directly from Users section in th
 
 The administrator can force a user to log out. To do so, open the user's profile and select the option _Logout this user_ from the Profile actions drop-down.
 
-Sometimes the administrator may need to check how the store looks and functions for another user, or to do some task for them (for example, create an order on behalf of a customer). In this case, the administrator can use the {% link "Operate as user" feature" ref_26UftgNS %}. 
+Sometimes the administrator may need to check how the store looks and functions for another user, or to do some task for them (for example, create an order on behalf of a customer). In this case, the administrator can use the {% link "Operate as a user" feature" ref_26UftgNS %}. 
