@@ -26,6 +26,8 @@ To use the feature:
 ## Accessing the store as another administrator ("Log in as this admin")
 To be able to access the store as one of the administrators, you need to be an Administrator user with Root access (equals the role "Administrator") or an Administrator user with any custom role including the permissions to *Manage users* AND *Manage administrators*.
 
+Note that it is not possible to use this feature to access the accounts of administrators with Root access (the role "Administrator").
+
 To use the feature:
 
    1. Open the profile of the administrator user as whom you want to access the store.
