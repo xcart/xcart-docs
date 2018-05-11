@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-23 10:33 +0400'
 identifier: ref_wcorpZyz
-title: Setting up VAT with the module "EU and UK VAT / GST"
+title: Setting up VAT with the addon "EU and UK VAT / GST"
 order: 100
 categories:
   - User manual
