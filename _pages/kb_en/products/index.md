@@ -32,6 +32,7 @@ _In this section:_
 *   {% link "Related Products" ref_4a5rpsQq %}
 *   {% link "Products Bulk Edit" ref_1kSYmXQn %}
 *   {% link "Setting up wholesale prices and minimum purchase quantites for different membership levels" ref_ttZa4qgu %}
+*   {% link "Enabling Catalog Mode and Hiding Prices for Products" ref_6TPP8Yyb %}
 
 
 _Related pages:_
