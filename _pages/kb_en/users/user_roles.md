@@ -20,8 +20,9 @@ _Administrator_ is the role providing Root access to the store's back end, which
 Other roles provide limited access to just some of the features. This may be described by the following permissions:
 
    * Manage catalog – enables users having the role to edit the shop inventory;
-   * Manage users – gives users permissions to edit user profiles;
-   * Manage orders – enabled users to view orders and perform actions on them.
+   * Manage users – gives users the permissions to view, edit and delete user profiles;
+   * Manage administrators – gives users the permissions to view, edit and delete administrator profiles;
+   * Manage orders – enables users to view orders and perform actions on them.
 
 This list may be further extended by custom modules or other X-Cart add-ons from the Module Marketplace. For example, the module Simple CMS adds two more permissions to the list:
 
