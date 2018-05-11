@@ -5,7 +5,7 @@ updated_at: '2018-05-11 11:02 +0400'
 identifier: ref_5uEPaGnt
 title: 'PIN Codes module: Installation and Setup'
 order: 100
-published: false
+published: true
 ---
 To install the PIN Codes module follow the instructions from {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
 
