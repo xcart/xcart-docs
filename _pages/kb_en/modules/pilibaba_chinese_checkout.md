@@ -7,7 +7,7 @@ title: Pilibaba Chinese Checkout
 categories:
   - User manual
 published: true
-order: 209
+order: 205
 ---
 
 
@@ -52,5 +52,3 @@ Below are a few screenshots demonstrating the features available in the Pilibab
 ![]({{site.baseurl}}/attachments/9307023/9439633.png)
 
 ![]({{site.baseurl}}/attachments/9307023/9439634.png)
-
-
