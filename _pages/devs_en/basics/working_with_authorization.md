@@ -1,14 +1,15 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2015-04-17 00:00'
 title: Authorization API
 identifier: ref_fKauw8Cw
-updated_at: 2015-04-17 00:00
-layout: article_with_sidebar
-lang: en
 categories:
-- Developer docs
-- Demo script
+  - Developer docs
+  - Demo script
+published: true
+order: 100
 ---
-
 ## Introduction
 
 This article shows you can authenticate a user by login and password. It also shows you how to log off a current user.
@@ -25,10 +26,15 @@ We start with {% link "creating an external script" ref_ogmCiRWZ %} `<X-Cart>/te
 
 ```php
 <?php
+
+// test.php
+
 //X-Cart initializtion
 require_once 'top.inc.php';
+
 $login = 'bit-bucket@x-cart.com';
 $password = 'master';
+
 if ($_GET['mode'] == 'login') {
 
     $profile = \XLite\Core\Auth::getInstance()->login($login, $password);
