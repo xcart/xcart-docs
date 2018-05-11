@@ -24,7 +24,9 @@ After the order fulfilment status is changed to any other except for _Will not d
 
 In case the the **Approve before providing access to download** option is disabled, the customer gets a download link for the product right after the order is paid.
 
-The download link for the product can also be found on the order details page in the **My orders** section of a customer account in your store.
+The download link for the product can also be found in the _Ordered files_ tab of the **My orders** section in a customer account in your store.
+
+![order-files.png]({{site.baseurl}}/attachments/ref_208aL8a0/order-files.png)
 
 {% note info %}
 In case a customer pays with a subscription for a downloadable product s/he'll receive all {% link "X-Payments" ref_8VFoqBFZ %} related e-mail notifications as well as regular E-goods related notifications on the order status updates. Depending on whether the **Approve before providing access to download** option is enabled or not the customer will receive a download link either right after the subscription is paid or after the subscription is paid and the _Waiting for approve_ fulfilment status is changed to any other, except for _Will not deliver_.
