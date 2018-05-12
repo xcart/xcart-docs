@@ -22,6 +22,13 @@ To use the feature:
    1. Open the profile of the customer as whom you want to access the store.
    2. From the Profile actions selector, choose the option _Operate as this customer_:
       ![operate_as_customer_option.png]({{site.baseurl}}/attachments/ref_26UftgNS/operate_as_customer_option.png)
+      As a result, the store's Customer area will be opened in a new browser tab; on that tab the message "You are operating as *customer_email_address*" will be displayed at the top of the screen. You will aslso be able to see an overlay with the words "You are operating as *customer*, *customer_email_address*" and the **Quit** button:
+      ![u_r_operating_as.png]({{site.baseurl}}/attachments/ref_26UftgNS/u_r_operating_as.png)
+   3. Work in the browser tab with the Customer area as if you were this customer.
+   4. To quit using the "Operate as this customer" mode, either click the **Quit** button in the overlay:
+      ![quit_operate_as_user.png]({{site.baseurl}}/attachments/ref_26UftgNS/quit_operate_as_user.png)
+or switch back to the tab with your Admin area and do any action requiring the page to be reloaded (for example, go to a different page within the Admin area). You will be notified that you have finished operating as the customer:
+      ![finished_operating_as.png]({{site.baseurl}}/attachments/ref_26UftgNS/finished_operating_as.png)
 
 ## Accessing the store as another administrator ("Log in as this admin")
 To be able to access the store as one of the administrators, you need to be an Administrator user with Root access (equals the role "Administrator") or an Administrator user with any custom role including the permissions to *Manage users* AND *Manage administrators*.
