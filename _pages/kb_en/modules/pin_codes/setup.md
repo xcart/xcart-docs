@@ -16,5 +16,5 @@ You'll see a screen like this:
 ![settings-2.png]({{site.baseurl}}/attachments/ref_5uEPaGnt/settings-2.png)
 
 Here you can enable the following options:
-* _Show only ESD related fulfilment statuses_ : If enabled there will be only 3 order fulfilment statuses available: New, Delivered and Will Not Deliver. You can rename them with "Custom Order Statuses" module if necessary.
+* _Show only ESD related fulfilment statuses_ : If enabled there will be only 3 order fulfilment statuses available: New, Delivered and Will Not Deliver. You can rename them with {% link "Custom Order Statuses" ref_7FIU2sxJ %} module if necessary.
 * _Approve before providing access_ : If enabled, each new order with a PIN code will get a _Waiting for approve_ fulfilment status and a customer will get the code only when the fulfilment status for the order is changed to any different from _Will Not Deliver_. If disabled a customer will get the code right after the order is paid.
