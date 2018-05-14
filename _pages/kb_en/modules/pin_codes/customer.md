@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-05-14 09:57 +0400'
 identifier: ref_6zxUp9Kr
 title: 'PIN Codes: Customer Experience'
-order: 100
+order: 130
 published: true
 ---
 When a customer proceeds to checkout after adding a product with PIN codes to cart, there is no shipping section there if shipping for the product is disabled:
