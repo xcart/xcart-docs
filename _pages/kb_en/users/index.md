@@ -20,3 +20,4 @@ _In this section:_
 *   {% link "User membership levels" ref_RXsgxNSm %}
 *   {% link "Promote Sales with User Memberships" ref_memberships_ext %}
 *   {% link "User profile fields" ref_gg1fQDgB %}
+*   {% link ""Operate as a user" feature" ref_26UftgNS %}
