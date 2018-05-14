@@ -18,27 +18,26 @@ Vendors can add and manage products using the Products section (**Catalog** > **
 
 To add a new product, a vendor needs to go to this section and click the **Add new** button:
 
-![]({{site.baseurl}}/attachments/8749388/8716908.png)
+![xc5_mv_vendor_add_product.png]({{site.baseurl}}/attachments/ref_r4mcwiho/xc5_mv_vendor_add_product.png)
 
 then enter information about the product using the form provided:
 
-![]({{site.baseurl}}/attachments/8749388/8717030.png)
+![xc5_mv_vendor_add_product1.png]({{site.baseurl}}/attachments/ref_r4mcwiho/xc5_mv_vendor_add_product1.png)
 
 More info about the process can be found in the article {% link "Adding products" ref_fhzzxDTy %}. 
 
-The entered product information needs to be saved by clicking the **Add product** button at the bottom of the page:
+The entered product information needs to be saved by clicking the **Add product** button at the bottom of the page.
 
-![]({{site.baseurl}}/attachments/8749388/8717031.png)
+
 
 Once a product vendor has added some products, they can view them as a list in the Products section:
-
-![]({{site.baseurl}}/attachments/8749388/8717111.png)
+![xc5_mv_vendor_products.png]({{site.baseurl}}/attachments/ref_r4mcwiho/xc5_mv_vendor_products.png)
 
 From here they can access the details of specific products, remove products and temporarily disable products. 
 
-The product details view for vendors is similar to that of the store administrator: vendors can control the product's info, product class and attributes, inventory tracking options, product reviews and related products.
+The product details view for vendors is similar to that of the store administrator: vendors can control the product's info, product class and attributes, inventory tracking options, product reviews, related products, etc.
 
-![]({{site.baseurl}}/attachments/8749388/8717120.png)
+![xc5_mv_vendor_product_view.png]({{site.baseurl}}/attachments/ref_r4mcwiho/xc5_mv_vendor_product_view.png)
 
 Note, however, that vendor's catalog management capabilities are different from those of the store administrator:
 
