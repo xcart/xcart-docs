@@ -17,9 +17,9 @@ _In this section:_
 *   {% link "Vendor login and first steps" ref_SZycMdTx %}
 *   {% link "Managing vendor profile information" ref_b7PTQMgf %}
 *   {% link "Specifying vendor ship-from address" ref_TWPnoz7h %}
-*   {% link "Managing vendor catalog" ref_r4mcwiho %}
+*   {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
 *   {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %}
-*   {% link "Adding coupons and discounts for vendor products" ref_SwbyhUn5 %}
+*   {% link "Adding coupons and discounts as a vendor" ref_SwbyhUn5 %}
 *   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
 *   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
 *   {% link "Vendor import/export" ref_pa3oqbXz %}
