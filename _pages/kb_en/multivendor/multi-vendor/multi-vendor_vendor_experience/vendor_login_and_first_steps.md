@@ -49,7 +49,7 @@ _Related pages:_
 
 *   {% link "Vendor registration" ref_SkW62BgH %}
 *   {% link "Managing vendor profile information" ref_b7PTQMgf %}
-*   {% link "Managing vendor catalog" ref_r4mcwiho %}
+*   {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
 *   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
 *   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
 *   {% link "Specifying vendor ship-from address" ref_TWPnoz7h %}
