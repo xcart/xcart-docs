@@ -39,7 +39,7 @@ To add a PIN code to a product:
         {% endnote %}
 5. Save the changes.
 
-Afterwards you'll be able to trace used PINs and delete unused (for manual PINs only) if required:
+Afterwards you'll be able to trace used PINs and delete unused (for manually-generated PINs only) if required:
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![sold-auto.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/sold-auto.png)</div>
   <div class="column" markdown="span">![sold-manual.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/sold-manual.png)</div>
@@ -49,13 +49,13 @@ Afterwards you'll be able to trace used PINs and delete unused (for manual PINs 
 
 Your store customers can pay for products with PIN codes, using any of the available payment options, including both online and offline methods. 
 
-In case the _Approve before providing access_ option is {% link "enabled" ref_5uEPaGnt %} PIN codes doesn't become vailable to customers right after placing an order.  Such orders get a _Waiting for approve_ fulfilment status. 
+In case the _Approve before providing access_ option is {% link "enabled" ref_5uEPaGnt %} PIN codes doesn't become vailable to customers right after an order is placed.  Such orders get a _Waiting for approve_ fulfilment status. 
 
 ![wfa_status.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/wfa_status.png)
 
-The PIN code becomes available after a store admin changes the order fulfilment status to any other except for _Will not deliver_ provided that the order is paid (payment status is paid). If the cart admin changes the order fulfilment status to _Will not deliver_ the customer will not get the PIN code. More info on the order statuses you can find in {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}.
+A PIN code becomes available after a store admin changes the order fulfilment status to any other except for _Will not deliver_ provided that the order is paid (payment status is paid). If the cart admin changes the order fulfilment status to _Will not deliver_ the customer will not get the PIN code. More info on the order statuses you can find in {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}.
 
-Once an order is processed, a store admin can the PINs sold in the _PIN codes_ tab of the Order details page:
+Once an order is processed, a store admin can check the PINs sold in the _PIN codes_ tab of the Order details page:
 
 ![order.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/order.png)
 
