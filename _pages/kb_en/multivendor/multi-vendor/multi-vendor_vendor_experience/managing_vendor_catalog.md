@@ -12,8 +12,6 @@ redirect_from:
   - >-
     /modules/multi-vendor/multi-vendor_vendor_experience/managing_vendor_catalog.html
 ---
-
-
 Vendors can add and manage products using the Products section (**Catalog** > **Products**).
 
 To add a new product, a vendor needs to go to this section and click the **Add new** button:
