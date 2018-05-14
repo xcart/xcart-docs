@@ -47,7 +47,7 @@ If a vendor requests a change of their profile information (for example, if the 
 For details on the management of vendor profile information, see {% link "Managing vendor profile information" ref_b7PTQMgf %}
 
 ## Terminating a vendor's user session
-If the store administrator needs to force a logout of a vendor, they can terminate the user session of that vendor the same way as that of any other user in the store - by chosing the "Log out this user" option from the **Profile actions** selector in the vendor's profile:
+If the store administrator needs to force a logout of a vendor, they can terminate the user session of that vendor the same way as that of any other user in the store - by chosing the "Logout this user" option from the **Profile actions** selector in the vendor's profile:
 ![xc5_mv_log_out_vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_log_out_vendor.png)
 
 ## "Log in as this vendor"
