@@ -24,7 +24,9 @@ To use the feature:
       ![operate_as_customer_option.png]({{site.baseurl}}/attachments/ref_26UftgNS/operate_as_customer_option.png)
       As a result, the store's Customer area will be opened in a new browser tab; on that tab the message "You are operating as *customer_email_address*" will be displayed at the top of the screen. You will aslso be able to see an overlay with the words "You are operating as *customer*, *customer_email_address*" and the **Quit** button:
       ![u_r_operating_as.png]({{site.baseurl}}/attachments/ref_26UftgNS/u_r_operating_as.png)
-   3. Work in the browser tab with the Customer area as if you were this customer.
+   3. Work in the browser tab in which the Customer area has been opened as if you were this customer.
+      **Note**: Since the "Operate as this customer" mode is typically used by X-Cart store administrators to create orders on behalf of customers, it is essential that an administrator should have an offline payment method they can use for creating an order when operating as a customer. For this reason we made the payment method "Phone Ordering" available in the Customer area to administrators working in the "Operate as this customer" mode - even if this method was disabled in the Admin area. The presence of the method "Phone Ordering" in the Customer area when the administrator is operating as a customer is normal and is a feature of the "Operate as this customer" mode. The method is visible only to the administrator working as a customer; customers working under their own accounts will not be able to see or use this method.
+      
    4. To quit using the "Operate as this customer" mode, either click the **Quit** button in the overlay:
       ![quit_operate_as_user.png]({{site.baseurl}}/attachments/ref_26UftgNS/quit_operate_as_user.png)
 or switch back to the tab with your Admin area and do any action requiring the page to be reloaded (for example, go to a different page within the Admin area). You will be notified that you have finished operating as the customer:
