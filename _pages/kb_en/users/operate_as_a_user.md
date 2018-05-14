@@ -40,3 +40,5 @@ To use the feature:
    1. Open the profile of the administrator user as whom you want to access the store.
    2. From the Profile actions selector, choose the option _Log in as this admin_:
       ![log_in_as_admin_option.png]({{site.baseurl}}/attachments/ref_26UftgNS/log_in_as_admin_option.png)
+   3. The Admin area - as accessible to the selected admin user - will be opened in a new browser tab. Your current user session will be terminated, and you will be logged in to the store as the user you selected. 
+   4. To quit operating as this user, simply sign out.
