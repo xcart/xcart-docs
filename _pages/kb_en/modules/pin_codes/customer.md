@@ -5,7 +5,7 @@ updated_at: '2018-05-14 09:57 +0400'
 identifier: ref_6zxUp9Kr
 title: 'PIN Codes: Customer Experience'
 order: 100
-published: false
+published: true
 ---
 When a customer proceeds to checkout after adding a product with PIN codes to cart, there is no shipping section there if shipping for the product is disabled:
 
@@ -31,4 +31,3 @@ In case a customer pays with a subscription for a product with PIN codes s/he re
 
 Such customer will receive an updated PIN code each time a subscription is paid.
 {% endnote %}
-
