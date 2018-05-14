@@ -39,12 +39,25 @@ With this method, a new vendor user is created right away:
 
 The new vendor can log in and start selling immediately after the creation of their profile.
 
-## Editing vendor profiles
+## Editing vendor profile information
 
 If a vendor requests a change of their profile information (for example, if the vendor is selling their business, and the change of the business owner needs to be reflected in the vendor profile details), the store administrator can edit the respective vendor profile via the Users section of the store's Admin area.
 ![xc5_multi-vendor_admin_access2vendorprofile.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_admin_access2vendorprofile.png)
 
 For details on the management of vendor profile information, see {% link "Managing vendor profile information" ref_b7PTQMgf %}
+
+## Terminating a vendor's user session
+If the store administrator needs to force a logout of a vendor, they can terminate the user session of that vendor the same way as that of any other user in the store - by chosing the "Log out this user" option from the **Profile actions** selector in the vendor's profile:
+![xc5_mv_log_out_vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_log_out_vendor.png)
+
+## "Log in as this vendor"
+If the store administrator needs to access the Vendor area of a vendor (for example, to see what information is available to the vendor, to help the vendor with a certain task or to investigate some kind of problem), they can sign in to that Vendor area using the "Log in as this vendor" feature (available via the **Profile actions** selector in the vendor's profile):
+![xc5_mv_log_in_as_vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_log_in_as_vendor.png)
+
+Since vendor users are, technically, administrators with limited access, "Log in as this vendor" works the same way as the "{% link "Log in as this admin" ref_26UftgNS#accessing-the-store-as-another-administrator-log-in-as-this-admin %}" feature: the Vendor area of the selected vendor is opened in a new browser tab; on that tab the administrator is signed into the Vendor area as the vendor they have selected:
+![xc5_mv_log_in_as_vendor1.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_log_in_as_vendor1.png)
+The user session which the administrator was using gets terminated.
+To quit using the Vendor area as a vendor, the administrator needs to sign out.
 
 ## Exporting vendor profile information
 If the information from the profiles of some or all of the store's vendors needs to be used outside the X-Cart store (for example, if the store owner wants to have this information in a spreadsheet editor or wishes to use it in some kind of other external application), the store administrator should consider exporting vendor profile information from the X-Cart store to a CSV file:
