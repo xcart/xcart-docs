@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 16:26 +0400'
 identifier: ref_r4mcwiho
-title: Managing vendor catalog
+title: Managing the catalog as a vendor
 categories:
   - User manual
 published: true
@@ -11,6 +11,8 @@ order: 130
 redirect_from:
   - >-
     /modules/multi-vendor/multi-vendor_vendor_experience/managing_vendor_catalog.html
+  - >-
+    /multivendor/multi-vendor/multi-vendor_vendor_experience/managing_vendor_catalog.html
 ---
 Vendors can add and manage products using the Products section (**Catalog** > **Products**).
 
