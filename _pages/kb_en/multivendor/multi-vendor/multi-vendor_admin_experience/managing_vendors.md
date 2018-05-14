@@ -67,3 +67,8 @@ If the information from the profiles of some or all of the store's vendors needs
 
 If the access of any existing vendor to the marketplace needs to be discontinued, the store administrator can remove their user profile via the Users section of the store's Admin area:
 ![xc5_multi-vendor_removal.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_removal.png)
+
+_Related pages:_
+   
+   * {% link "Managing vendor access permissions" ref_0GOeWpB2 %}
+   * {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
