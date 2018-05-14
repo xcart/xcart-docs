@@ -33,5 +33,5 @@ Using the **vendor** column in the import CSV file is not mandatory: even if a 
 _Related pages:_
 
 *   {% link "Vendor login and first steps" ref_SZycMdTx %}
-*   {% link "Managing vendor catalog" ref_r4mcwiho %}
+*   {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
