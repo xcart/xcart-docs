@@ -11,5 +11,5 @@ The [PIN Codes](https://market.x-cart.com/addons/pin-codes.html "PIN Codes Modul
 
 _In this section_:
 * {% link "PIN Codes module: Installation and Setup" ref_5uEPaGnt %}
-* PIN Codes module: Admin Experience
+* {% link "PIN Codes Module: Admin Experience" ref_5kUqjYZ7 %}
 * PIN Codes module: Customer Experience
