@@ -51,7 +51,7 @@ This can be either a PayPal account or a bank account. If the store uses PayPa
 _Related pages:_
 
 *   {% link "Vendor login and first steps" ref_SZycMdTx %}
-*   {% link "Managing vendor catalog" ref_r4mcwiho %}
+*   {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
 *   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
 *   {% link "Specifying vendor ship-from address" ref_TWPnoz7h %}
 *   {% link "Vendor import/export" ref_pa3oqbXz %}
