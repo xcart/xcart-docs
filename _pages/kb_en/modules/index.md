@@ -43,6 +43,7 @@ _In this section:_
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
 *   {% link "Not Finished Orders" ref_5TMbPwNQ %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
+*   {% link "PIN Codes Module" ref_2ioJzfJL %}
 *   {% link "POS system for X-Cart" ref_BMTUgGt4 %}
 *   {% link "Product Advisor" ref_72asis58 %}
 *   {% link "Product Feeds" ref_0gfIXwxH %}
