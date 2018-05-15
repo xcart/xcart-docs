@@ -22,4 +22,4 @@ In the "Warehouse" mode, vendors do not have access to the above section, as the
 
 _Related pages:_
 
-*   {% link "Managing vendor profile information" ref_b7PTQMgf %}
+*   {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}
