@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 16:25 +0400'
 identifier: ref_b7PTQMgf
-title: Managing vendor profile information
+title: Managing vendor profile information as a vendor
 categories:
   - User manual
 published: true
@@ -11,6 +11,8 @@ order: 110
 redirect_from:
   - >-
     /modules/multi-vendor/multi-vendor_vendor_experience/managing_vendor_profile_information.html
+  - >-
+    /multivendor/multi-vendor/multi-vendor_vendor_experience/managing_vendor_profile_information.html
 ---
 ## Account details
 A vendor user can access the general information about their account and edit their account email address and password via the Account details section. This section can be accessed using one of the following methods:
