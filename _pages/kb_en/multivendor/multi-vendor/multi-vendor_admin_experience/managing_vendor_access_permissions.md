@@ -20,3 +20,8 @@ Alternatively, the store administrator can create other vendor-related roles wit
 If the administrator chooses to use more than one vendor-related role in their store, they need to set the default vendor role ("Role to assign to new vendor users") via the Milti-vendor addon settings. See the setting **Role to assign to new vendor users**.
 
 To change the access permissions of a vendor, the administrator can either change the role assigned to them or give them additional roles according to the functions they need to perform. This can be done via the Access information section of the vendor's user profile (See the **Account details** tab).
+
+_Related pages:_
+   
+   *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
+   *  {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
