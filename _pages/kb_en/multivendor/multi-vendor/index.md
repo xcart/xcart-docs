@@ -43,4 +43,4 @@ _Related pages:_
 
 *   {% link "Multivendor components" ref_MRQEvicQ %}
 *   {% link "Multi-vendor module (videos)" ref_5C7PSWVy %}
-*   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}
+
