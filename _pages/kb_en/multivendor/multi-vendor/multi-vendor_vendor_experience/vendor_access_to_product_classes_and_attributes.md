@@ -34,10 +34,8 @@ Vendors can access the section for the management of product classes and attribu
 
 More information on the management of product classes and attributes can be found in the {% link "Product classes and attributes" ref_T90ZcEpP %} section of this manual.
 
-_Related pages_:
+_Related pages:_
 
-*   {% link "Vendor login and first steps" ref_SZycMdTx %}
-*   {% link "Managing vendor catalog" ref_r4mcwiho %}
-*   {% link "Vendor import/export" ref_pa3oqbXz %}
-*   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
-*   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
+   *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
+   *   {% link "Vendor login and first steps" ref_SZycMdTx %}
+   
