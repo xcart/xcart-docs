@@ -25,17 +25,20 @@ In “Vendors as separate shops” mode vendors communicate with customers thems
 {% endnote %}
 
 
-A store administrator gets notifications about new messages in the **Notification Menu**.
+A store administrator gets notifications about new messages in the **Notification Menu** of a store admin area.
 
   ![new-mes-notification.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-mes-notification.png)
 
-The menu expands and it's possible to open new messages right from it.
+The menu expands and it's possible to open new messages and disputes right from it.
 
   ![quick-menu.png]({{site.baseurl}}/attachments/ref_09pfmGGi/quick-menu.png)
 
-If you view new messages and disputes this way the system will show only the new unread messages to you:
-
-  ![new-messages.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-messages.png)
+If you view new messages and disputes this way the system will show only the new unread messages or disputes to you:
+  
+  <div class="ui stackable two column grid">
+  <div class="column" markdown="span">![new-messages.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-messages.png)</div>
+  <div class="column" markdown="span">![dispute-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/dispute-admin.png)</div>
+</div>
 
 If you need to see all available messages but not only the new ones open the **Orders** -> **Messages** section of the admin area
 
@@ -50,3 +53,9 @@ A store admin can search for orders with messages using the advanced search pane
   ![search.png]({{site.baseurl}}/attachments/ref_09pfmGGi/search.png)
 
 Additional filtering option is added to the **Orders list** section and allows a store administrator and vendor to get a list of orders _With any messages_ or _With unread messages_.
+
+Also, if there is a new message for an order, it will be displayed in the _Messages_ tab of the Order details page:
+
+![order-details-mes.png]({{site.baseurl}}/attachments/ref_09pfmGGi/order-details-mes.png)
+
+If necessary a store admin can open dispute on the order by clicking the **'Open dispute'** button in the _Messages_ tab of the Order details page and close a dispute by clicking the **'Close dispute'** button respectively.
