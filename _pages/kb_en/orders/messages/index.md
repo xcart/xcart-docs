@@ -5,7 +5,7 @@ updated_at: '2018-05-15 10:32 +0400'
 identifier: ref_5lxsFz5L
 title: Messages Module
 order: 100
-published: false
+published: true
 ---
 It's not a secret that accurate customer care, offering an easy and convenient way to reach the store owner and the vendors selling in the store give customers confidence in your business and cheer them to spend more. X-Cart has a special instrument to make communication between customers and store owners and vendors fast and handy.
 
