@@ -62,7 +62,7 @@ To configure the module:
         The commission will be charged automatically when a buyer pays for an order containing products supplied by a vendor. You will be able to see the commission you earned on any vendor order in the Orders list section.
         Please note that the setting  "Order shipping cost based commission rate" applies only to the "Vendors as separate shops" multivendor mode (In the "Warehouse" mode, no shipping cost based commission is calculated, since the products of all the vendors are shipped from the same warehouse).
         
-        **Important:** If you wish to use different commission rates for different vendors, you will have to set vendor-specific commission rates via the Financial details section of individual vendor profiless. See {% link "Managing vendor profile information as an administrator" %}
+        **Important:** If you wish to use different commission rates for different vendors, you will have to set vendor-specific commission rates via the Financial details section of individual vendor profiless. See {% link "Managing vendor profile information as an administrator" ref_5cbH2V3e %}
 
     *   **Sales tax is the responsibility of** (Site owner / Vendor): This setting is only active in the "Vendors as separate shops" Multivendor mode. Use it to specify who should be responsible for the collection of sales tax and the payment of the tax that has been collected to the government: the store owner/storefront operator or the vendors. The setting affects tax rates configured using the Sales Tax and Canadian Taxes addons. If your store uses automated tax calculation with AvaTax or TaxJar addon, the value in this field is also used to determine the nexus.
     
