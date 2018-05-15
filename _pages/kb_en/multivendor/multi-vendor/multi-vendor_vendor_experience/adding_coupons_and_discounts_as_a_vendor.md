@@ -27,4 +27,6 @@ If necessary, vendor coupons and discounts can be edited by the store administra
 
 Related pages:
 
-*   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
+   *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
+   *   {% link "Vendor login and first steps" ref_SZycMdTx %}
+   
