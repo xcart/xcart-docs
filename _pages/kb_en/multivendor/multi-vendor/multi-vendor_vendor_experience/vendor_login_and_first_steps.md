@@ -48,7 +48,7 @@ Once customers start placing orders for products owned by a vendor, the vendor w
 _Related pages:_
 
 *   {% link "Vendor registration" ref_SkW62BgH %}
-*   {% link "Managing vendor profile information" ref_b7PTQMgf %}
+*   {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}
 *   {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
 *   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
 *   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
