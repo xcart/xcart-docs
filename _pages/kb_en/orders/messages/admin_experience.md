@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-15 10:48 +0400'
 identifier: ref_09pfmGGi
-title: 'Messages Module: Admin Experience'
+title: 'Order Messages: Admin Experience'
 order: 100
 published: true
 ---
