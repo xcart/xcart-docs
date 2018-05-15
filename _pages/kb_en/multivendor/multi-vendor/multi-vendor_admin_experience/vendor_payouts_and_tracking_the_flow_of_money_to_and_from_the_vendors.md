@@ -76,3 +76,8 @@ Once a payout request is accepted, it stops being a pending transaction and beco
 If the administrator chooses to decline a payout request, they need to use the Decline button. Once this button is clicked, the request stops being a pending transaction and is marked as "Declined"; for example:
 ![xc5_mv_payout_request_declined_in_admin.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_declined_in_admin.png)
 If necessary, the administrator can do a partial payout. This can be done by creating a compensatory transaction. For example, if a vendor has requested a payout of $100, and the store owner wants to pay out $90 now and $10 at a later time, the administrator can accept the vendor's payout request for $100 and then create an additional transaction specifying $10 in the Income field. This way only $90 will be transferred to the vendor's balance, whereas the store owner will remain liable to pay $10 to the vendor at a later time. The comments to explain what amount is going where can be added via the Description field of the respective transactions.
+
+_Related pages:_
+   
+   *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
+   *  {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
