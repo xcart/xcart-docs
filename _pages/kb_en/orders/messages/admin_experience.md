@@ -7,7 +7,7 @@ title: 'Order Messages: Admin Experience'
 order: 100
 published: true
 ---
-First of all, check that the Messages module is installed and enabled as described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
+First of all, check that the Order Messages module is installed and enabled as described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
 
 If enabled and you have the {% link "Multivendor" ref_4ahg5FLK %} module enabled as well proceed to the Messages module settings page to add special options for providers:
 
@@ -58,7 +58,7 @@ Also, if there is a new message for an order, it will be displayed in the _Messa
 
 ![order-details-mes.png]({{site.baseurl}}/attachments/ref_09pfmGGi/order-details-mes.png)
 
-If necessary a store admin can open dispute on the order (e.g. to cut into the messaging between a vendor and a customer and get notifications for this conversation) by clicking the **'Open dispute'** button in the _Messages_ tab of the Order details page and close a dispute by clicking the **'Close dispute'** button respectively.
+If necessary a store admin can open a dispute on the order (e.g. to cut into the messaging between a vendor and a customer and get notifications for this conversation) by clicking the **'Open dispute'** button in the _Messages_ tab of the Order details page and close a dispute by clicking the **'Close dispute'** button respectively.
 
 ![open-dispute-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/open-dispute-admin.png)
 
