@@ -152,4 +152,4 @@ _Related pages:_
 _Related pages:_
    *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
    *  {% link "Multi-vendor: Customer experience" ref_fxTL6F2z %}
-   *   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}
+   *  {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}
