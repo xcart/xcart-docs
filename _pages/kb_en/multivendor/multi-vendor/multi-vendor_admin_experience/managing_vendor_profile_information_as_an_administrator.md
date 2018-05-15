@@ -34,5 +34,5 @@ The store administrator can access the products of a vendor via the Vendor produ
 
 _Related pages:_
    
-   * {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-   * {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
+   *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
+   *  {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
