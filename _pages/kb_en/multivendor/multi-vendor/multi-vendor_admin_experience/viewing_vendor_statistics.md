@@ -34,3 +34,7 @@ For each vendor, the following information is provided:
 ## Viewing vendor transaction history
 The store administrator can view the history of transactions reflecting the movement of the money earned on the sales of vendor products between the accounts of the store owner/storefront operator and the vendors using the Vendor transactions section. To view all the transactions for all the vendors, the store administrator should select **Orders** > **Vendor transactions** in the Admin menu. To view the transactions for a specific vendor, the administrator should click the **Open transactions history** for the respective vendor in the Vendor statistics section (**Orders** > **Vendor statistics**), or to filter the transactions in the Vendor transactions section (**Orders** > **Vendor transactions**) by vendor profile. More info on vendor transactions is available in the section {% link "Vendor payouts and tracking the flow of money to and from the vendors" ref_3uy1YgfD %} of this manual.
 
+_Related pages:_
+   
+   *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
+   *  {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
