@@ -7,7 +7,7 @@ title: Order Messages
 order: 140
 published: false
 ---
-It's not a secret that accurate customer care, offering an easy and convenient way to reach the store owner and the vendors selling in the store give customers confidence in your business and cheer them to spend more. X-Cart has a special instrument to make communication between customers and store owners and vendors fast and handy.
+It's not a secret that accurate customer care, offering an easy and convenient way to reach the store owner and the vendors selling in the store, gives customers confidence in your business and cheers them to spend more. X-Cart has a special instrument to make communication between customers and store owners and vendors fast and handy.
 
 The [Messages](https://market.x-cart.com/addons/order-messages.html "Messages Module") module allows both a customer and a seller to start a conversation related to the order right on the order details page, and well-thought notification system won’t leave any message unread. Messaging related to orders is available in all paid editions (X-Cart Business, X-Cart Multivendor, X-Cart Ultimate). 
 
