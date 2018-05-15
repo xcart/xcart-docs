@@ -147,7 +147,9 @@ Unless the multivendor store/online marketplace uses a payment method that suppo
 
 _Related pages:_
 
-*   {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}
-*   {% link "Vendor registration" ref_SkW62BgH %}
-*   {% link "Multi-vendor: Customer experience" ref_fxTL6F2z %}
-*   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}
+   *  {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}
+   *  {% link "Vendor registration" ref_SkW62BgH %}
+_Related pages:_
+   *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
+   *  {% link "Multi-vendor: Customer experience" ref_fxTL6F2z %}
+   *   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}
