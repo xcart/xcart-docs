@@ -35,4 +35,6 @@ These settings are similar to the commission rate settings on the {% link "Multi
 
 _Related pages:_
 
-   *   {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}
+   *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
+   *  {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
+   *  {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}
