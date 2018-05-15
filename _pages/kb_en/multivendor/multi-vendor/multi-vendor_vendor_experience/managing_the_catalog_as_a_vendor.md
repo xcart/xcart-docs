@@ -48,7 +48,7 @@ Note, however, that vendor's catalog management capabilities are different from 
 Related pages:
 
 *   {% link "Vendor login and first steps" ref_SZycMdTx %}
-*   {% link "Managing vendor profile information" ref_b7PTQMgf %}
+*   {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}
 *   {% link "Vendor access to product classes and attributes" ref_Q16T5ZnW %}
 *   {% link "Vendor import/export" ref_pa3oqbXz %}
 *   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
