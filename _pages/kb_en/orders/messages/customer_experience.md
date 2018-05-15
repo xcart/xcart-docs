@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-05-15 12:11 +0400'
 identifier: ref_4mlYlOOa
 title: 'Messages . Module: Customer Experience'
-order: 100
+order: 110
 published: false
 ---
 Key features
