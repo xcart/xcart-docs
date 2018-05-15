@@ -5,7 +5,7 @@ updated_at: '2018-05-15 12:11 +0400'
 identifier: ref_4mlYlOOa
 title: 'Order Messages: Customer Experience'
 order: 110
-published: false
+published: true
 ---
 The Messages module saves your customers from the necessity to search for contact info and fill in contact forms. With this module they can get in touch with the store admin and/or the vendor of an ordered item in one click directly from the order details page. 
 
