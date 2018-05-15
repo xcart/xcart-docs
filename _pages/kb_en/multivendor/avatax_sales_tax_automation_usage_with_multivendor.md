@@ -19,3 +19,4 @@ To use AvaTax Sales Tax Automation, the store administrator will have to get an 
 When the addon "AvaTax Sales Tax Automation" is used in the "Vendors as separate shops" multivendor mode, the store administrator can limit the set of US states for which a request for tax rates may be sent by the store. This can be done using the setting "Calculate taxes for US in designated states only" on the settings page of the AvaTax Sales Tax Automation addon:
 
 and on the Financial details tab of the vendor profile (See the section "US tax calculation").
+![us_tax_calculation.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/us_tax_calculation.png)
