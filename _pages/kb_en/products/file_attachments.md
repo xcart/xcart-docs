@@ -29,3 +29,8 @@ To add an attachment to a product:
   
   You can add a file description, download the file or re-upload it it necessary. 
   If you need to delete the file, click the _Trash_ icon next to it.
+  
+  --------------------------
+  
+  _Related articles_:
+  * {% link "PIN Codes Module" ref_2ioJzfJL %}
