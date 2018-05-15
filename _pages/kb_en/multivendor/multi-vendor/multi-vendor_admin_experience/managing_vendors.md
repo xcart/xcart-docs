@@ -70,5 +70,5 @@ If the access of any existing vendor to the marketplace needs to be discontinued
 
 _Related pages:_
    
-   * {% link "Managing vendor access permissions" ref_0GOeWpB2 %}
-   * {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
+   *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
+   *  {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
