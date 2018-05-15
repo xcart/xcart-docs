@@ -1,19 +1,19 @@
 ---
-title: Product attributes
-identifier: ref_cPPwdSA9
-updated_at: 2015-01-23 00:00
-layout: article_with_sidebar
 lang: en
-version: X-Cart 5.2.16 and earlier
+layout: article_with_sidebar
+updated_at: '2015-01-23 00:00'
+title: Hiding product attributes
+identifier: ref_cPPwdSA9
 categories:
-- Developer docs
-- Demo module
-- Outdated
+  - Developer docs
+  - Demo module
+  - Outdated
+published: true
+order: 100
 ---
-
 ## Introduction
 
-This guide aims to show some approach of working with product attributes. In this article we will create a mod that will hide certain attribute from being displayed in customer area.
+This guide aims to show an approach to working with product attributes. In this article we will create a mod that hides particular attribute from being displayed in customer area.
 
 Imagine that we have a product with **hidden-value** attribute:
 ![]({{site.baseurl}}/attachments/8225478/8356216.png)
