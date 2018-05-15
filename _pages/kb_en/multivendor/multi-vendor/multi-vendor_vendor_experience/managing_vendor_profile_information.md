@@ -46,7 +46,9 @@ A vendor should specify their company address. The vendor company address may be
 A vendor can view and manage the financial information regarding their account via the **Financial details** section (**My account** > **Financial details**):
      ![xc5_mv_vendor_financial_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_financial_details.png)
      
-Here the vendor can see the size of commission for their account. Also, the vendor can use this section to specify an account that they wish to use to accept money from the sales through the multivendor marketplace. This can be either a PayPal account or a bank account. If the store uses PayPal Adaptive payments, specifying a PayPal account in the vendor's financial info will allow the vendor to be paid automatically on each sale made through the store. The details of the vendor's bank account are not used by X-Cart, but they are visible to the store owner/storefront operator (represented by the account of the store administrator) who can use these details to transfer the funds they owe to the seller using means outside X-Cart.
+Here the vendor can see the size of commissions set by the storefront operator for their account. 
+
+Also, the vendor can use this section to specify an account that they wish to use to accept money from the sales through the multivendor marketplace. This can be either a PayPal account or a bank account. If the store uses PayPal Adaptive payments, specifying a PayPal account in the vendor's financial info will allow the vendor to be paid automatically on each sale made through the store. The details of the vendor's bank account are not used by X-Cart, but they are visible to the store owner/storefront operator (represented by the account of the store administrator) who can use these details to transfer the funds they owe to the seller using means outside X-Cart.
 
 _Related pages:_
 
