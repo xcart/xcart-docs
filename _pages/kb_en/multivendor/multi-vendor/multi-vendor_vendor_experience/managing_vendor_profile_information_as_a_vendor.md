@@ -28,7 +28,7 @@ A vendor user can access the general information about their account and edit th
 A vendor can specify their name and address(es) in the Address book section (**My account**>**Account details**, **Address book** tab):
      ![xc5_mv_vendor_address_book.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_address_book.png)
 
-Note that this section is intended for the personal address(es) of the seller. The address that will be used to calculate the cost of shipping from the vendor's warehouse to the buyer in the "Vendors as separate shops" multivendor mode should be specified in the Company address section (**My account** > **Company address**). 
+Note that this section is intended for the personal address(es) of the seller; this information will not be published on the seller's page. The address that will be used to calculate the cost of shipping from the vendor's warehouse to the buyer in the "Vendors as separate shops" multivendor mode should be specified in the Company address section (**My account** > **Company address**). 
 
 ## Company details
 A vendor should provide general information about their business in the **Company details** section:
@@ -56,4 +56,3 @@ _Related pages:_
 
    *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
    *   {% link "Vendor login and first steps" ref_SZycMdTx %}
-
