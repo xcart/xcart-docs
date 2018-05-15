@@ -14,5 +14,5 @@ The [Messages](https://market.x-cart.com/addons/order-messages.html "Messages Mo
 If you have Multi-vendor functionality enabled, the Messages addon also allows your buyers to start messaging with sellers before they make a purchase. They can initiate the conversations right on the sellers' pages in the storefront. 
 
 _In this section:_
-* {% link "Messages Module: Admin Experience" ref_09pfmGGi %}
-* Messages Module: Customer Experience
+* {% link "Order Messages: Admin Experience" ref_09pfmGGi %}
+* {% link "Order Messages: Customer Experience" ref_4mlYlOOa %}
