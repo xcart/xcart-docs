@@ -15,8 +15,7 @@ redirect_from:
 
 From the viewpoint of X-Cart 5 user access levels, a vendor user is an administrator with the role "Vendor". This means that vendors are allowed to log in to the store's back end, but have access only to a limited set of features (This is called a "Vendor area").
 
-A vendor can log in to their personal Vendor area using any user login form in the store. 
-For example, they can use:
+After a vendor account has been registered (see {% link "Vendor registration" ref_SkW62BgH %}), the vendor can log in to their personal Vendor area using any user login form in the store. For example, they can use:
 
    * the regular Sign in/Sign up form for customers, 
    * the URL for administrator users: `https://<your-domain>/<x-cart-5-directory>/admin.php?target=login`
@@ -33,6 +32,7 @@ To start selling with X-Cart, a vendor user needs to complete the following step
 2. The vendor should check the information in their user profile and see if anything needs to be added or corrected. See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}.
 
 3.  The vendor should populate the catalog with the products they are going to sell. See {% link "Managing the catalog as a vendor" ref_r4mcwiho %} for information on how vendors can add products to the catalog manually. See {% link "Vendor import/export" ref_pa3oqbXz %} for information on how vendors can add products using CSV import.
+    Information on the use of product classes and attributes by vendors can be found in the section {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %}.
 
 4.  If the store is set to work in the "_Vendors as separate shops_" {% link "multivendor mode" ref_nFq48dhr %}:
     *  Specify the address from which their products will be shipped. This address will be used to calculate the cost of delivery of an order from the vendor's warehouse to the buyer. See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf#company-details %}
