@@ -50,3 +50,5 @@ Vendors can also track the movement of the money from the sales of their product
 _Related pages:_
 
    *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
+   *   {% link "Vendor login and first steps" ref_SZycMdTx %}
+   
