@@ -26,7 +26,9 @@ The store administrator can view and manage the company address of a vendor via 
 ## Financial details
 The store administrator can set vendor-specific commission rates for a vendor via the Financial details section of the vendor's profile: 
    ![xc5_mv_vendor_financial_details_in_admin.png]({{site.baseurl}}/attachments/ref_5cbH2V3e/xc5_mv_vendor_financial_details_in_admin.png)
-In the same section, the administrator can access the information regarding the account at which the vendor wishes to accept earnings from the sales.
+   (More info on vendor commissions can be found in the section {% link "Setting vendor commissions" ref_7B8smyEx %}.)
+   
+Also, in the section Financial details, the administrator can access the information regarding the financial account at which the vendor wishes to accept earnings from the sales through the multivendor store/marketplace.
 
 ## Vendor products
 The store administrator can access the products of a vendor via the Vendor products section of the vendor's profile:
