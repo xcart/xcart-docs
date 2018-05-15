@@ -59,3 +59,19 @@ Also, if there is a new message for an order, it will be displayed in the _Messa
 ![order-details-mes.png]({{site.baseurl}}/attachments/ref_09pfmGGi/order-details-mes.png)
 
 If necessary a store admin can open dispute on the order (e.g. to cut into the messaging between a vendor and a customer and get notifications for this conversation) by clicking the **'Open dispute'** button in the _Messages_ tab of the Order details page and close a dispute by clicking the **'Close dispute'** button respectively.
+
+![open-dispute-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/open-dispute-admin.png)
+
+To open a dispute it will be necessary to specify a reason for it:
+
+![open-dispute-a.png]({{site.baseurl}}/attachments/ref_09pfmGGi/open-dispute-a.png)
+
+And a dispute will be opened with a special notification on whom the dispute originates to:
+
+![dispute-opened-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/dispute-opened-admin.png)
+
+When a dispute is closed, a special notification will be there as well:
+
+![dispute-closed-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/dispute-closed-admin.png)
+
+
