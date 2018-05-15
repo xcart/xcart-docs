@@ -66,3 +66,8 @@ The store administrator supervising the product catalog can sort the products in
 The store administrator supervising the product catalog can easily find the products of a specific vendor. To do so, they need to do a product search in the store's Admin area specifying the vendor in the search form. Once the initial characters of the vendor's company name or email address are entered into the Vendor field, a drop-down selector with matching vendors will be provided:
 ![xc5_mv_search_by_vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_search_by_vendor.png)
 As an alternative, the store administrator can access the products of a specific vendor via the vendor's user profile. See {% link "Managing vendor profile information as an administrator" ref_5cbH2V3e#vendor-products %} for details.
+
+_Related pages:_
+   
+   *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
+   *  {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
