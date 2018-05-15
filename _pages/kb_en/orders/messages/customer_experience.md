@@ -40,6 +40,6 @@ When a customer gets a new message from the seller, there appears a special icon
 
 ![unread-mes.png]({{site.baseurl}}/attachments/ref_4mlYlOOa/unread-mes.png)
 
-Also a customer gets an e-mail notification about any new message recived:
+Also a customer gets an e-mail notification about any new message recieved:
 
 ![email-cus.png]({{site.baseurl}}/attachments/ref_4mlYlOOa/email-cus.png)
