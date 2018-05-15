@@ -34,7 +34,7 @@ _In this section:_
     *   {% link "Managing vendor catalog" ref_r4mcwiho %}
     *   {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %}
     *   {% link "Adding coupons and discounts for vendor products" ref_SwbyhUn5 %}
-    *   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
+    *   {% link "Managing shipping methods as a vendor" ref_IvXmtLKI %}
     *   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
     *   {% link "Vendor import/export" ref_pa3oqbXz %}
 
