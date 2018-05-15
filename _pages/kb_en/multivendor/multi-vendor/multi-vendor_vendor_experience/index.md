@@ -16,7 +16,6 @@ _In this section:_
 *   {% link "Vendor registration" ref_SkW62BgH %}
 *   {% link "Vendor login and first steps" ref_SZycMdTx %}
 *   {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}
-*   {% link "Specifying vendor ship-from address" ref_TWPnoz7h %}
 *   {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
 *   {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %}
 *   {% link "Adding coupons and discounts as a vendor" ref_SwbyhUn5 %}
