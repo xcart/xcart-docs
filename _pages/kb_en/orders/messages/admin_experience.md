@@ -7,20 +7,47 @@ title: 'Messages Module: Admin Experience'
 order: 100
 published: false
 ---
-First of all check if the Messages module is installed and enabled as described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
+First of all, check that the Messages module is installed and enabled as described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
 
-If enabled and you have the Multivendor module enabled as well proceed to the Messages module Settings page to add special options for providers:
+If enabled and you have the {% link "Multivendor" ref_4ahg5FLK %} module enabled as well proceed to the Messages module settings page to add special options for providers:
 
   ![settings-1.png]({{site.baseurl}}/attachments/ref_09pfmGGi/settings-1.png)
 
-You'll see a screen where you'll need to enable a direct communicaton between customers and providers:
+You'll see a screen where you'll need to allow a direct communicaton between customers and providers in a “Warehouse” mode:
 
   ![settings-2.png]({{site.baseurl}}/attachments/ref_09pfmGGi/settings-2.png)
-  
-Vendors and Store Administrator get notifications about new messages in the notification menu. 
 
-![]({{site.baseurl}}/attachments/ref_09pfmGGi/quick-menu.png)
+
+{% note info %}
+In the “Warehouse” mode it’s a store administrator who handles communication with customers by default. If both messaging with the store administrator and vendors is enabled, a customer can choose whom he wants to communicate with.
+
+In “Vendors as separate shops” mode vendors communicate with customers themselves and get only the messages related to their orders.
+{% endnote %}
+
+
+A store administrator gets notifications about new messages in the **Notification Menu**.
+
+  ![new-mes-notification.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-mes-notification.png)
+
+The menu expands and it's possible to open new messages right from it.
+
+  ![quick-menu.png]({{site.baseurl}}/attachments/ref_09pfmGGi/quick-menu.png)
+
+If you view new messages and disputes this way the system will show only the new unread messages to you:
+
+  ![new-messages.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-messages.png)
+
+If you need to see all available messages but not only the new ones open the **Orders** -> **Messages** section of the admin area
+
+  ![new-message-adimn.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-message-adimn.png)
 
 Besides that, all messages are duplicated by e-mail.
-Easy search for orders with messages
-Additional filtering option is added to the Orders list section and allows a store administrator and vendor to get a list of orders With any messages or With unread messages.
+
+  ![email-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/email-admin.png)
+
+A store admin can search for orders with messages using the advanced search panel on the **Orders list** page (**Orders** -> **Orders list**)
+  
+  ![search.png]({{site.baseurl}}/attachments/ref_09pfmGGi/search.png)
+
+Additional filtering option is added to the **Orders list** section and allows a store administrator and vendor to get a list of orders _With any messages_ or _With unread messages_.
+
