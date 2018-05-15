@@ -24,3 +24,5 @@ Depending on the {% link "multivendor mode" ref_nFq48dhr#ConfiguringtheMulti-ven
 _Related pages:_
 
    *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
+   *   {% link "Vendor login and first steps" ref_SZycMdTx %}
+   
