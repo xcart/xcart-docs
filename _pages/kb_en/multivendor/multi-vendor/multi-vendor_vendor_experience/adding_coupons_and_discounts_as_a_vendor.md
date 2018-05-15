@@ -25,7 +25,7 @@ Vendors can see only the coupons and discounts created by themselves. They do no
 
 If necessary, vendor coupons and discounts can be edited by the store administrator.
 
-Related pages:
+_Related pages:_
 
    *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
    *   {% link "Vendor login and first steps" ref_SZycMdTx %}
