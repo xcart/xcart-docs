@@ -24,4 +24,4 @@ _In this section:_
     *   {% link "Multi-vendor" ref_cvwmAuRi %} (Core component)
     *   {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}
     *   Order messages: Usage with Multivendor (Article under construction)
-    *   AvaTax Sales Tax Automation: Usage with Multivendor (Article under construction)
+    *   {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}  
