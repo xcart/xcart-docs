@@ -21,6 +21,4 @@ Depending on the {% link "multivendor mode" ref_nFq48dhr#ConfiguringtheMulti-ven
 
 _Related pages:_
 
-*   {% link "Vendor login and first steps" ref_SZycMdTx %}
-*   {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
-*   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
+   *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
