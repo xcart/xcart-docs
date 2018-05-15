@@ -21,12 +21,14 @@ There are also a few other addons recommended for use with X-Cart Multivendor. S
 
 Here's a brief overview of the addons typically used to build a Multivendor store (in addition to the addon **Multi-vendor**):
 
-   * **Trusted/Non-trusted vendors**: The addon enables the store administrator to mark vendors as trusted and non-trusted. Any products added by vendors with the status "Trusted vendor" will be visible to your store visitors right away, whereas the products of non-trusted vendors will appear on the storefront only after they have been approved by the administrator.
+   * **Trusted/Non-trusted vendors**: This addon enables the store administrator to mark vendors as trusted and non-trusted. Any products added by vendors with the status "Trusted vendor" will be visible to your store visitors right away, whereas the products of non-trusted vendors will appear on the storefront only after they have been approved by the administrator.
      ![tntv_module_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/tntv_module_installed.png)
    
-   * **Order messages**: The addon enhances the communication system in your store by providing an opportunity for the customers, the store administrator and the vendors to start a conversation or dispute about an order right from the Order details page. 
+   * **Order messages**: This addon is not just for Multivendor; it can be used on single-seller X-Cart editions just as well. We are listing it here because it provides some Multivendor-specific features when used with the X-Cart Multivendor edition. This addon enhances the communication system in your store by providing an opportunity for the customers, the store administrator and the vendors to start a conversation or dispute about an order right from the Order details page. A well-thought notification system ensures that no message will be left unread. In Multivendor, the addon also allows store visitors to start messaging with the sellers before they make a purchase; they can initiate a conversation right on the sellers' pages on the storefront. 
      ![om_module_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/om_module_installed.png)
 
+   * **AvaTax Sales Tax Automation**: This is another addon which is intended not exclusively for Multivendor, but fits Multivendor-enabled marketplaces just as well as single-seller X-Cart stores. This addon is intended for tax calculation, and it provides the fastest, easiest and most accurate way to calculate sales tax, manage tax exemptions and file returns. Avalara determines the tax rates automatically based on 100,000+ taxability rules in 11,000+ taxing jurisdictions. 
+   
 If an addon you are looking to use is not installed in your store, check the X-Cart’s Marketplace.
 
 For general addon installation instructions, see {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
