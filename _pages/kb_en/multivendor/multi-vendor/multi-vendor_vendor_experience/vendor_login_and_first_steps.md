@@ -25,9 +25,9 @@ After a vendor account has been registered (see {% link "Vendor registration" re
 After logging in, the vendor will see a page similar to the following:
 ![xc5_mv_vendor_dashboard.png]({{site.baseurl}}/attachments/ref_SZycMdTx/xc5_mv_vendor_dashboard.png)
 
-To start selling with X-Cart, a vendor user needs to complete the following steps:
+Now the vendor can start selling. The steps below will get them started:
 
-1. If a vendor onboarding message has been provided by the storefront operator (similar to the one in the screenshot above, titled "Welcome to our marketplace"), the vendor should read the message and follow the instructions provided therein. 
+1. If a vendor onboarding welcome message has been provided by the storefront operator (similar to the one in the screenshot above, titled "Welcome to our marketplace"), the vendor should read the message and follow the instructions provided therein. 
 
 2. The vendor should check the information in their user profile and see if anything needs to be added or corrected. See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}.
 
@@ -42,6 +42,8 @@ To start selling with X-Cart, a vendor user needs to complete the following step
     {% note info %}
     (In "_Warehouse_" mode, the products of different vendors are shipped from the same warehouse, so the "ship-from" address and shipping methods are the same for all the vendors; they are configured by the store administrator.)
     {% endnote %}
+
+5.  If the option to create coupons and discounts has been enabled by the store administrator, the vendor can create coupons and discounts for their products. See {% link "Adding coupons and discounts for vendor products" ref_SwbyhUn5 %}.
 
 Once customers start placing orders for products owned by a vendor, the vendor will be able to view these orders via the Orders section. The vendor will also have access to sales statistics including their order statistics and best selling products. See {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}.
 
