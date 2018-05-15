@@ -16,14 +16,14 @@ redirect_from:
 A vendor user can access the general information about their account and edit their account email address and password via the Account details section. This section can be accessed using one of the following methods:
 
    * By clicking on the user icon in the header of the store's back end and selecting **My profile**:
-     ![xc5_mv_my_profile.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_my_profile.png)
+     ![xc5_mv_vendor_my_profile_link.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_my_profile_link.png)
 
    * By clicking **My account** and selecting **Account details**:
-     ![xc5_mv_my_account_account_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_my_account_account_details.png)
+     ![xc5_mv_vendor_account_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_account_details.png)
 
 
 ## Address book
-A vendor can specify their name and address(es) in the Address book section (**My account**>**Account details*, **Address book** tab):
+A vendor can specify their name and address(es) in the Address book section (**My account**>**Account details**, **Address book** tab):
      ![xc5_mv_vendor_address_book.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_address_book.png)
 
 Note that this section is intended for the personal address(es) of the seller. The address that will be used to calculate the cost of shipping from the vendor's warehouse to the buyer in the "Vendors as separate shops" multivendor mode should be specified in the Company address section (**My account** > **Company address**). 
