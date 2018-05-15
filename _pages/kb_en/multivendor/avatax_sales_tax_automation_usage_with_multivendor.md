@@ -16,8 +16,8 @@ In stores where the collection of taxes has been configured as the responsibilit
 
 To use AvaTax Sales Tax Automation, the store administrator will have to get an AvaTax account first. Then they will have to adjust the settings on the AvaTax Sales Tax Automation addon settings page.
 
-The store administrator can limit the set of US states for which a request for tax rates may be sent by the store. This can be done by adjusting the setting "Automatically calculate taxes for [_All US States_ / _Specific states_]" on the AvaTax Sales Tax Automation addon settings page to "_Specific states_" and specifying the states in the "Specify US states" field which appears below the "Automatically calculate taxes for" field after the option "_Specific states_" is selected):
+The store administrator can limit the set of US states for which a request for tax rates may be sent to Avalara's tax service by the store. This can be done by adjusting the setting **Automatically calculate taxes for** [_All US States_ / _Specific states_] in the "Tax Calculation settings" section of the AvaTax Sales Tax Automation addon settings page to "_Specific states_" and specifying those states in the "Specify US states" field which appears below):
 ![auto_calc_taxes.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/auto_calc_taxes.png)
 
-When the addon "AvaTax Sales Tax Automation" is used in the "Vendors as separate shops" multivendor mode, the set of states can be limited on a "per vendor" basis - via the Financial details tab of the vendor profile (See the section "US tax calculation").
+When the addon "AvaTax Sales Tax Automation" is used in the "Vendors as separate shops" multivendor mode, the set of states can also be limited on a "per vendor" basis - by using the setting **Automatically calculate taxes for** [_All US States_ / _Specific states_] on the Financial details tab of the vendor profile (See the section "US tax calculation").
 ![us_tax_calculation.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/us_tax_calculation.png)
