@@ -20,6 +20,7 @@ _In this section:_
     *   {% link "Managing the vendor registration page" ref_41fyOJ9F %}
     *   {% link "Managing Multi-vendor email notifications" ref_7DW1NMak %}
     *   {% link "Managing vendors" ref_6OTbIwfd %}
+    *   {% link "Managing vendor profile information as an administrator" ref_5cbH2V3e %}
     *   {% link "Supervising the product catalog" ref_0dPCIV3f %}
     *   {% link "Setting vendor commissions" ref_7B8smyEx %}
     *   {% link "Vendor payouts and tracking the flow of money to and from the vendors" ref_3uy1YgfD %}
@@ -28,7 +29,7 @@ _In this section:_
 *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
     *   {% link "Vendor registration" ref_SkW62BgH %}
     *   {% link "Vendor login and first steps" ref_SZycMdTx %}
-    *   {% link "Managing vendor profile information" ref_b7PTQMgf %}
+    *   {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}
     *   {% link "Specifying vendor ship-from address" ref_TWPnoz7h %}
     *   {% link "Managing vendor catalog" ref_r4mcwiho %}
     *   {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %}
