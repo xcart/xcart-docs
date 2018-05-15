@@ -28,7 +28,7 @@ After logging in, the vendor will see a page similar to the following:
 
 To start selling with X-Cart, a vendor user needs to complete the following steps:
 
-1. If a vendor onboarding message has been provided by the storefront operator (similar the one in the screenshot above, titled "Welcome to our marketplace"), read the message and follow the instructions provided therein. 
+1. If a vendor onboarding message has been provided by the storefront operator (similar to the one in the screenshot above, titled "Welcome to our marketplace"), read the message and follow the instructions provided therein. 
 
 2. Check the information in their user profile and see if anything needs to be added or corrected. See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}.
 
