@@ -45,7 +45,9 @@ Now the vendor can start selling. The steps below will get them started:
 
 5.  If the option to create coupons and discounts has been enabled by the store administrator, the vendor can create coupons and discounts for their products. See {% link "Adding coupons and discounts for vendor products" ref_SwbyhUn5 %}.
 
-Once customers start placing orders for products owned by a vendor, the vendor will be able to view these orders via the Orders section. The vendor will also have access to sales statistics including their order statistics and best selling products. See {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}.
+6. Once customers start buying products owned by the vendor, the vendor will be able to view the orders via the Orders section. 
+
+7. The vendor will have access to sales statistics including their order statistics and best selling products. See {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}.
 
 _Related pages:_
 
