@@ -11,3 +11,7 @@ dkfj
 ![xc5_mv_request_payout_button.png]({{site.baseurl}}/attachments/ref_6yngv3DQ/xc5_mv_request_payout_button.png)
 dkjf
 ![xc5_mv_payout_requested_successfully.png]({{site.baseurl}}/attachments/ref_6yngv3DQ/xc5_mv_payout_requested_successfully.png)
+
+_Related pages:_
+
+   *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
