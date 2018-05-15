@@ -19,4 +19,15 @@ dlkf
 dfk   
    ![xc5_mv_vendor_company_details_in_admin.png]({{site.baseurl}}/attachments/ref_5cbH2V3e/xc5_mv_vendor_company_details_in_admin.png)
 
-## 
+## Company address
+sd
+   ![xc5_mv_vendor_company_addr_in_admin.png]({{site.baseurl}}/attachments/ref_5cbH2V3e/xc5_mv_vendor_company_addr_in_admin.png)
+
+## Financial details
+sd
+   ![xc5_mv_vendor_financial_details_in_admin.png]({{site.baseurl}}/attachments/ref_5cbH2V3e/xc5_mv_vendor_financial_details_in_admin.png)
+
+## Vendor products
+lddf
+   ![xc5_mv_vendor_products_in_admin.png]({{site.baseurl}}/attachments/ref_5cbH2V3e/xc5_mv_vendor_products_in_admin.png)
+
