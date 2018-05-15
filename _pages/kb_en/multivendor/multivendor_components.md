@@ -40,5 +40,5 @@ _Related pages:_
    
    * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
    * {% link "Multi-vendor" ref_cvwmAuRi %} (X-Cart addon)
-   * {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %} (X-Cart addon)
+   * {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %} 
    * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %} 
