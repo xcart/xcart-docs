@@ -3,9 +3,9 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-15 10:32 +0400'
 identifier: ref_5lxsFz5L
-title: Messages Module
-order: 100
-published: true
+title: Order Messages
+order: 140
+published: false
 ---
 It's not a secret that accurate customer care, offering an easy and convenient way to reach the store owner and the vendors selling in the store give customers confidence in your business and cheer them to spend more. X-Cart has a special instrument to make communication between customers and store owners and vendors fast and handy.
 
@@ -26,6 +26,4 @@ Fully compatible with multi-vendor modes
 In “Vendors as separate shops” mode vendors communicate with customers themselves and get only the messages related to their orders.
 In “Warehouse” mode it’s a store administrator who handles communication with customers by default, however communication with vendors can also be enabled.
 Excellent notification system to guarantee well-timed responses
-When a customer gets a new message from a seller, there appears a special icon in the header in customer area. Vendors and Store Administrator get notifications about new messages in the notification menu. Besides that, all messages are duplicated by e-mail.
-Easy search for orders with messages
-Additional filtering option is added to the Orders list section and allows a store administrator and vendor to get a list of orders With any messages or With unread messages.
+When a customer gets a new message from a seller, there appears a special icon in the header in customer area. 
