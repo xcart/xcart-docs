@@ -32,3 +32,7 @@ In the same section, the administrator can access the information regarding the 
 The store administrator can access the products of a vendor via the Vendor products section of the vendor's profile:
    ![xc5_mv_vendor_products_in_admin.png]({{site.baseurl}}/attachments/ref_5cbH2V3e/xc5_mv_vendor_products_in_admin.png)
 
+_Related pages:_
+   
+   * {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
+   * {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
