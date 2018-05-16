@@ -9,9 +9,14 @@ published: true
 ---
 ## Approving/rejecting vendor applications
 
-A user who wants to become a new vendor on the marketplace can submit an application via the vendor registration page available via the "Become a seller" link in the Customer area. When this happens, the store administrator is notified of the new vendor registration via a bell notification and an email notification sent to their inbox (This is enabled by the "Vendor account created" {% link "email notification" ref_7DW1NMak %}). The administrator needs to review this application and either approve or reject it.
+A user who wants to become a new vendor on the marketplace can submit an application via the vendor registration page available via the "Become a seller" link in the Customer area. When this happens, the store administrator is notified of the new vendor registration via a bell notification:
+![xc5_mv_unapproved_vendor_bell_notification.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_unapproved_vendor_bell_notification.png)
 
-To do so, the administrator needs to find the profile of the user who has applied to become a vendor in the Users section of the store's Admin area (They will have a regular user profile record in the store's user list and will be marked as an "Unapproved vendor"):
+They also get an email notification sent to their inbox. (This is enabled by the "Vendor account created" {% link "email notification" ref_7DW1NMak %}). 
+
+The administrator needs to review this application and either approve or reject it.
+
+To do so, the administrator needs to find the profile of the user who has applied to become a vendor in the Users section of the store's Admin area. They will have a regular user profile record in the store's user list and will be marked as an "Unapproved vendor":
 ![xc5_mv_unapproved_vendor_list1.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_unapproved_vendor_list1.png)
 
 To decide whether the new vendor application should be approved, the administrator may want to review the details of the vendor profile. Note that a vendor profile is populated with the information that the user has provided at the time of submitting their vendor application; this includes the prospective vendor's email, name, company name, company description and company address and, if required, ship-from address. This information can be found on the tabs of the prospective vendor's user profile.
