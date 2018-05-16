@@ -33,7 +33,8 @@ The vendors will not need a separate AvaTax account; however, to ensure correct 
          ![us_tax_calculation.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/us_tax_calculation.png)
          
       *  If the vendor company has nexus in just some of the states, the administrator should make sure the setting **Automatically calculate taxes for** is set to "_Specific states_", and those states are listed in the **Specify US states** field below.
-         
+         ![us_tax_calculation2.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/us_tax_calculation2.png)
+
 Vendors should be instructed to specify their nexus states via **My account** > **Financial details**:
 ![us_tax_calculation_in_vendor.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/us_tax_calculation_in_vendor.png)
 
