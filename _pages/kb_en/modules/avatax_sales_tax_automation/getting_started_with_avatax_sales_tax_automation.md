@@ -9,8 +9,6 @@ categories:
 published: true
 order: 200
 ---
-
-
 To enable AvaTax Sales Tax Automation at your X-Cart store, follow these steps:
 
 1.  Get an account with [Avalara](http://avlr.co/1EPeUtq) and activate it: log in to the Admin Console at [https://admin-development.avalara.net](https://admin-development.avalara.net) (for Development Accounts) or [https://admin-avatax.avalara.net](https://admin-avatax.avalara.net) (for Production Accounts) using your user id and password. After successful account activation you will be provided with your account number and license key. Be sure to record them for future use: the account number and license key are needed for API access, and you will need to enter them on the "AvaTax Sales Tax Automation" module settings page in your X-Cart store.
