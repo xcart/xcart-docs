@@ -1,10 +1,11 @@
 ---
-title: File structure of footer
 lang: en
 layout: article_with_sidebar
-updated_at: 2017-10-13 01:03 +0400
+updated_at: '2017-10-13 01:03 +0400'
+title: File structure of footer
 identifier: ref_TLfQP0C0
 order: 100
+published: true
 ---
 
 ## Introduction
@@ -20,7 +21,7 @@ Once you know what templates are used {% link "you can change this section" ref_
 - [Footer structure](#footer-structure)
 
 ## Footer structure
-This area is represented by the collection of templates and view classes assigned to `layout.footer` view list. You can see the call for this view list in `<X-Cart>/skins/customer/main.twig` template:
+This area is represented by the collection of templates and view classes assigned to `layout.footer` view list. You can see the call for this view list in `skins/customer/main.twig` template:
 
 ```html
 
@@ -58,8 +59,8 @@ If you want to place your HTML code inside existing footer menu, you should regi
 
 ![footer-breakdown.png]({{site.baseurl}}/attachments/ref_TLfQP0C0/footer-breakdown.png)
 
-`\XLite\Module\XC\NewsletterSubscriptions\View\SubscribeBlock` class that controls 'Sign up for company news' section uses `<X-Cart>/customer/modules/XC/NewsletterSubscriptions/form/subscribe.twig` template.
+`\XLite\Module\XC\NewsletterSubscriptions\View\SubscribeBlock` class that controls 'Sign up for company news' section uses `customer/modules/XC/NewsletterSubscriptions/form/subscribe.twig` template.
 
-`\XLite\View\Menu\Customer\Footer` class that controls footer menu uses `<X-Cart>/skins/layout/footer/footer_menu.twig` template for rendering. But most stores use Simple CMS module that overrides this class and then X-Cart will use `<X-Cart>/customer/modules/CDev/SimpleCMS/footer_menu.twig` template instead.
+`\XLite\View\Menu\Customer\Footer` class that controls footer menu uses `skins/layout/footer/footer_menu.twig` template for rendering. But most stores use Simple CMS module that overrides this class and then X-Cart will use `customer/modules/CDev/SimpleCMS/footer_menu.twig` template instead.
 
 `skins/customer/layout/footer/main.footer.section.twig` template calls for `sidebar.footer` view list, which contains only one template: `customer/layout/footer/powered_by.twig`.
