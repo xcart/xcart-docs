@@ -32,5 +32,5 @@ If you want the prices currency to be displayed depending on a customer's locati
     *   **Time format** : This setting defines how time is displayed in the store.
     *   **Time zone** : This setting defines the time zone your store geographically belongs to. 
     *   **CSV column delimiter** : This setting defines what sign should be used in a CSV file to delimit columns if you use any text editor instead of a speadsheet editor.
-    *   **Import/export charset** : This setting defines a charset used for a CSV file of import/export.
+    *   **Import/export charset** : This setting defines a charset used for an import/export CSV file.
 3.  Once you are done, click **Submit** at the bottom of the page to save the changes.
