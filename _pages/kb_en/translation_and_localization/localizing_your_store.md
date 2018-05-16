@@ -19,17 +19,18 @@ If you want the prices currency to be displayed depending on a customer's locati
 {% endnote %}
 
 1.  Go to the Localization section of your store's Admin area (**Store setup** > **Localization**).
-    ![]({{site.baseurl}}/attachments/6389828/8716749.png)
+    ![localization.png]({{site.baseurl}}/attachments/ref_cc4sCpa5/localization.png)
+
 2.  Use the settings in this section to define the localization parameters for your country:
-    *   Weight unit
-    *   Weight symbol
-    *   Hide trailing zeros in fractional part
-    *   Weight format
-    *   Dimensional unit
-    *   Dimensional symbol
-    *   Date format
-    *   Time format
-    *   Time zone
-    *   CSV column delimiter
-    *   Import/export charset
+    *   **Weight unit** : This setting defines the main weight unit that will be used in your store to measure the weight of products, shiping boxes, etc. You can choose between LB (pound(s)) / OZ (ounce(s)) / KG (kilogram) / G (gram)
+    *   **Weight symbol** : The field is updated automatically depending on the chosen Weight Unit.
+    *   **Hide trailing zeros in fractional part** : If enabled weight is displayed as a whole number (1) instead of a fractional number (1.00) in the customer storefront. Weight is always displayed as a fractional number (1.00) in the admin area.
+    *   **Weight format** : This setting defines how weight is displayed in the customer storefront. 
+    *   **Dimensional unit** : This setting defines the main dimentional unit that will be used in your store to measure the size of products, shiping boxes, etc. You can choose between - MM (millimeter(s)) / CM (centimeter(s)) / DM (decimeter(s)) / M ( meter(s)) / IN (inch(es))
+    *   **Dimensional symbol** : The field is updated automatically depending on the chosen Weight Format.
+    *   **Date format** : This setting defines how date is displayed in the store. 
+    *   **Time format** : This setting defines how time is displayed in the store.
+    *   **Time zone** : This setting defines the time zone your store geographically belongs to. 
+    *   **CSV column delimiter** : This setting defines what sign should be used in a CSV file to delimit columns if you use any text editor instead of a speadsheet editor.
+    *   **Import/export charset** : This setting defines a charset used for a CSV file of import/export.
 3.  Once you are done, click **Submit** at the bottom of the page to save the changes.
