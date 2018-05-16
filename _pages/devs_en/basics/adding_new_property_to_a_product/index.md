@@ -43,7 +43,7 @@ abstract class Product extends \XLite\Model\Product implements \XLite\Base\IDeco
     /**
      * @Column (type="string")
      */
-    protected $myMessage;
+    protected $myMessage = '';
  
     public function getMyMessage()
     {
