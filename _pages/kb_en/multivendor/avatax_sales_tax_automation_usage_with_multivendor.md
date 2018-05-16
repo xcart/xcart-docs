@@ -5,7 +5,7 @@ updated_at: '2018-05-15 21:25 +0400'
 identifier: ref_3MSUEwVA
 title: 'AvaTax Sales Tax Automation: Usage with Multivendor'
 order: 500
-published: true
+published: false
 ---
 The addon {% link "AvaTax Sales Tax Automation" ref_6880bVvi %} can be used with X-Cart Multivendor:
    
