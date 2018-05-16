@@ -25,9 +25,9 @@ Also, it's possible to get a quick access to the messages from the **My account*
 In case a customer is not satisfied with the ordered item or with communication with a vendor or whatever else, he can open a dispute to get in touch with the store administrator. 
 
 To open a dispute a customer should:
-1. Click the Contact seller link opposite to the order in question
+1. Click the **Contact seller** link opposite to the order in question
   ![contact-seller.png]({{site.baseurl}}/attachments/ref_4mlYlOOa/contact-seller.png)
-2. Click the Open dispute link on the Messages page
+2. Click the **Open dispute** link on the Messages page
   ![open-dispute.png]({{site.baseurl}}/attachments/ref_4mlYlOOa/open-dispute.png)
 3. Specify a reason for the dispute in a pop-up
   ![dispute-popup.png]({{site.baseurl}}/attachments/ref_4mlYlOOa/dispute-popup.png)
