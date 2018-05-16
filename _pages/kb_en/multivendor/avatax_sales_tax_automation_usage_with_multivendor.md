@@ -12,7 +12,7 @@ The addon {% link "AvaTax Sales Tax Automation" ref_6880bVvi %} can be used with
    * in both the "Warehouse" and "Vendors as separate shops" multivendor modes;
    * regardless of whether tax collection has been set up as the responsibility of the site owner or of the vendors. 
 
-Unlike X-Cart's {% link "Sales tax" ref_aJPK4DHN %}, {% link "VAT/GST" ref_Rzp45QlN %} or {% link "Canadian taxes" ref_hxmof6xX %} addons, AvaTax Sales Tax Automation can safely be used for U.S. multivendor X-Cart stores operating in the "Vendors as separate shops" mode in which the collection of taxes has been configured as the responsibility of the vendors (**Sales tax is the responsibility of**=_Vendor_). 
+Unlike X-Cart's {% link "Sales tax" ref_aJPK4DHN %}, {% link "VAT/GST" ref_Rzp45QlN %} or {% link "Canadian taxes" ref_hxmof6xX %} addons, AvaTax Sales Tax Automation can safely be used for U.S. multivendor X-Cart stores operating in the "Vendors as separate shops" mode in which the collection of sales tax has been configured as the responsibility of the vendors (**Sales tax is the responsibility of**=_Vendor_). 
 
 To use AvaTax Sales Tax Automation, the store administrator will have to get an AvaTax account and complete the required configuration in the AvaTax Admin Console and the X-Cart store as described in {% link "Getting started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}.
 
