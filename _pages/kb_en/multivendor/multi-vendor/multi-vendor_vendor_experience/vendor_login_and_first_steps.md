@@ -53,6 +53,8 @@ Now the vendor can start selling. The steps below will get them started:
 
 7. Once customers start buying products owned by the vendor, the vendor will be able to view the orders via the Orders section. They will also have access to sales statistics including their order statistics and best selling products. See {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}.
 
+8. 
+
 _Related pages:_
 
 *   {% link "Vendor registration" ref_SkW62BgH %}
