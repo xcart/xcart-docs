@@ -16,10 +16,10 @@ They also get an email notification sent to their inbox. (This is enabled by the
 
 The administrator needs to review this application and either approve or reject it.
 
-To do so, the administrator needs to find the profile of the user who has applied to become a vendor in the Users section of the store's Admin area. They will have a regular user profile record in the store's user list and will be marked as an "Unapproved vendor":
+The administrator can quickly access the list of unapproved vendors in the Users section of the store's Admin area by clicking on the "Unapproved vendors N" link in the bell notification, or find them by their "Unapproved vendor" status using the filter at the top of the User lists. Unapproved vendors have a regular user profile record in the store's user list and are marked "Unapproved vendor":
 ![xc5_mv_unapproved_vendor_list1.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_unapproved_vendor_list1.png)
 
-To decide whether the new vendor application should be approved, the administrator may want to review the details of the vendor profile. Note that a vendor profile is populated with the information that the user has provided at the time of submitting their vendor application; this includes the prospective vendor's email, name, company name, company description and company address and, if required, ship-from address. This information can be found on the tabs of the prospective vendor's user profile.
+To decide whether a new vendor application should be approved, the administrator may want to review the details of the vendor profile. Note that a vendor profile is populated with the information that the user has provided at the time of submitting their vendor application; this includes the prospective vendor's email, name, company name, company description and company address and, if required, ship-from address. This information can be found on the tabs of the prospective vendor's user profile.
 
 After reviewing the user profile of the prospective vendor, the administrator needs to approve or reject the application using the buttons **Approve vendor** / **Decline vendor**. 
 ![xc5_mv_approve_decline.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_approve_decline.png)
