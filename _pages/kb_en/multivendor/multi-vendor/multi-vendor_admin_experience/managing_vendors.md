@@ -12,7 +12,7 @@ published: true
 A user who wants to become a new vendor on the marketplace can submit an application via the vendor registration page available via the "Become a seller" link in the Customer area. When this happens, the store administrator is notified of the new vendor registration via a bell notification:
 ![xc5_mv_unapproved_vendor_bell_notification.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_unapproved_vendor_bell_notification.png)
 
-They also get an email notification sent to their inbox. (This is enabled by the "Vendor account created" {% link "email notification" ref_7DW1NMak %}). 
+The administrator also gets an email notification sent to their inbox. (This is enabled by the "Vendor account created" {% link "email notification" ref_7DW1NMak %}). 
 
 The administrator needs to review this application and either approve or reject it.
 
