@@ -16,14 +16,7 @@ redirect_from:
 
 This article explains how to add a new field to a product in X-Cart and then display its value on some page. For the sake of example, we will add a new property called 'My Message' to a product and if it is not empty, it will be displayed on product details page in customer area.
 
-## Table of Contents
-* [Introduction](#introduction)
-* [Table of Contents](#table-of-contents)
-* [Creating the module](#creating-the-module)
-* [Decorating model class](#decorating-model-class)
-* [Decorating viewer class](#decorating-viewer-class)
-* [Displaying field value in customer area](#displaying-field-value-in-customer-area)
-* [Module pack](#module-pack)
+{% toc Table of Contents %}
 
 ## Creating the module
 
