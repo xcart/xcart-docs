@@ -43,3 +43,7 @@ When a customer gets a new message from the seller, there appears a special icon
 Also a customer gets an e-mail notification about any new message recieved:
 
 ![email-cus.png]({{site.baseurl}}/attachments/ref_4mlYlOOa/email-cus.png)
+
+If a customer decides to close a dispute he can click the **Close dispute** link in the related communication thread:
+![close-dispute-cust.png]({{site.baseurl}}/attachments/ref_4mlYlOOa/close-dispute-cust.png)
+
