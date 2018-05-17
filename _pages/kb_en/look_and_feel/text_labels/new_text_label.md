@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-05-17 10:06 +0400'
 identifier: ref_2YYP07T3
 title: Adding New Text Labels
-order: 100
+order: 120
 published: true
 ---
 To add a new text label:
