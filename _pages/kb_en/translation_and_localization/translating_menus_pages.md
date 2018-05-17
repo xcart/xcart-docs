@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-02-13 20:12 +0400'
 identifier: ref_7I70QnHa
 title: 'Translating news, menus and static pages'
-order: 100
+order: 130
 published: true
 ---
 Not all text in X-Cart is orgaized in labels, as you may have noticed already.  There are also menus, static pages and news that are translated a bit differenly. To translate menus, static pages and news you'll need to {% link "switch" ref_x5oSN86B %} the cart admin to the language of translation, find the element you need to translate and edit it. 
