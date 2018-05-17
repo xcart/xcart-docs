@@ -7,9 +7,10 @@ title: Installing language packages
 categories:
   - User manual
 published: true
-order: 260
+order: 100
 redirect_from:
-  - /look_and_feel/translating_your_stores_user_interface_to_other_languages.html
+  - >-
+    /look_and_feel/translating_your_stores_user_interface_to_other_languages.html
 ---
 To install a language translation module from the X-Cart Marketplace:
 
