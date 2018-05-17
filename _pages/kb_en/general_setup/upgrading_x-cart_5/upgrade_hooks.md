@@ -24,4 +24,4 @@ Upgrade hooks may exist in the modules as well, if the module needs to synchroni
 
 _Related pages:_
 
-*   [Upgrade hooks](http://devs.x-cart.com/en/misc/upgrade_hooks.html)
+*   [Upgrade hooks](http://devs.x-cart.com/en/misc/upgrade_hooks.html) (X-Cart Devs portal article)
