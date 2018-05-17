@@ -5,7 +5,7 @@ updated_at: '2018-05-17 12:29 +0400'
 identifier: ref_2eoOYsqJ
 title: Store Upgrade Process (Automated Upgrades)
 order: 120
-published: false
+published: true
 ---
 ## Before you upgrade: back up your store
 Installing an update/upgrade is a serious task which requires some preparation. At the very least, you should create a backup of your store (Be sure to back up both the files and the database!)
