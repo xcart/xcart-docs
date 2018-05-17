@@ -6,8 +6,6 @@ identifier: ref_pQQ1CLe1
 title: Upgrading X-Cart 5
 order: 320
 published: true
-redirect_from:
-  - 'https://kb.x-cart.com/general_setup/upgrading_x-cart_5.html'
 ---
 Since the adoption of the [four-sequence versioning scheme](http://devs.x-cart.com/en/misc/x-cart_versions.html#x-cart-53x-versioning) by X-Cart, in which the first two sequences of digits in the version identifier represent the major version, the third sequence - the minor version, and the fourth sequence - the build version (bugfix release), we had to change X-Cart's upgrade system a little bit to accomodate the changes. 
 
