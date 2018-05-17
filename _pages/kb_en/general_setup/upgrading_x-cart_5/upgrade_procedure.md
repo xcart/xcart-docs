@@ -152,4 +152,4 @@ Also note the **Advanced mode** link allowing you to install just some specific 
 
 _Related pages:_
 
-*   [X-Cart Upgrade General Steps](http://devs.x-cart.com/en/misc/x-cart_upgrade_general_steps.html)
+*   [X-Cart Upgrade General Steps](http://devs.x-cart.com/en/misc/x-cart_upgrade_general_steps.html) (X-Cart Devs portal article)
