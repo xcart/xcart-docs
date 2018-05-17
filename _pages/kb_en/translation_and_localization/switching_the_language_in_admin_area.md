@@ -7,7 +7,7 @@ title: Switching the language in Admin area
 categories:
   - User manual
 published: true
-order: 250
+order: 110
 redirect_from:
   - /look_and_feel/switching_the_language_in_admin_area.html
 ---
