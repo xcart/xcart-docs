@@ -13,7 +13,11 @@ categories:
 ---
 Once you download X-Cart from [www.x-cart.com](http://www.x-cart.com/) and install it on your server, you get a store builder with the user interface displayed in the English language. 
 
-However, you can turn your X-Cart into a truly multi-language solution by installing language translation addons. For example, there are some language translations that you can download from X-Cart Marketplace, including:
+But it will be "English" not only for the user interface but for the whole store set-up as well, meaning that X-Cart is configured to use the British measurement system, date and time format, etc. by default. 
+
+You'll can localize your X-Cart store to meet your country standards, time-zone and measurement system to sell confortly within your oen country. See {% link "Localizing your store" ref_cc4sCpa5 %} for the guides.
+
+Also, you can turn your X-Cart into a truly multi-language solution by installing language translation addons. For example, there are some language translations that you can download from X-Cart Marketplace, including:
 
 *   [Russian](https://market.x-cart.com/addons/russian-translation.html "Translation and Localization")
 *   [French](https://market.x-cart.com/addons/french-translation.html "Translation and Localization")
@@ -26,11 +30,6 @@ If you want to translate X-Cart into a language for which no translation is avai
 Below are some guides on how to translate your store into another language:  
 *  {% link "Installing language packages" ref_NH3w8sSS %}
 *  {% link "Switching the language in Admin area" ref_x5oSN86B %}
-*  {% link "Translating labels" ref_2CQ8HuY4 %}
-*  {% link "Translating news, menus and static pages" ref_7I70QnHa %}
 *  {% link "Translating product catalog into another language" ref_5MQvg8Mm %}
-
-
-_Also in this section:_
-
-*  {% link "Localizing your store" ref_cc4sCpa5 %}
+*  {% link "Translating news, menus and static pages" ref_7I70QnHa %}
+*  {% link "Translating labels" ref_2CQ8HuY4 %}
