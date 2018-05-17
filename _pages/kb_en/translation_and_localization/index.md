@@ -15,11 +15,11 @@ Once you download X-Cart from [www.x-cart.com](http://www.x-cart.com/) and insta
 
 However, you can turn your X-Cart into a truly multi-language solution by installing language translation addons. For example, there are some language translations that you can download from X-Cart Marketplace, including:
 
-*   Russian
-*   French
-*   German
-*   Dutch
-*   British English
+*   [Russian](https://market.x-cart.com/addons/russian-translation.html "Translation and Localization")
+*   [French](https://market.x-cart.com/addons/french-translation.html "Translation and Localization")
+*   [German](https://market.x-cart.com/addons/german-translation.html "Translation and Localization")
+*   [Dutch](https://market.x-cart.com/addons/dutch-translation-by-community-members.html "Translation and Localization")
+*   [British English](https://market.x-cart.com/addons/translation-british-english.html "Translation and Localization")
 
 If you want to translate X-Cart into a language for which no translation is available in the X-Cart Marketplace, contact us at {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. We will explain how this can be done and how you can get money out of it.
 
