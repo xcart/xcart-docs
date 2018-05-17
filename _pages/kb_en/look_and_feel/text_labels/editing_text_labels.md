@@ -5,7 +5,7 @@ updated_at: '2018-05-17 10:00 +0400'
 identifier: ref_2GDSR1ID
 title: Editing Text Labels
 order: 100
-published: false
+published: true
 ---
 Let us show how to edit text labels in X-Cart. For example, we want to change the wording of the phrase "Your shopping cart" shown in the snapshot below so it says "Your shopping bag":
     ![xc5_translations_your_shopping_cart_customer.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_your_shopping_cart_customer.png)
