@@ -5,7 +5,7 @@ updated_at: '2018-05-17 10:03 +0400'
 identifier: ref_14EyD6iT
 title: Editing Labels in Webmaster Mode
 order: 110
-published: false
+published: true
 ---
 You may find it easier to edit a label directly in the store front-end where you see the text you need to edit and you don't need to know the label name or whatsever else. 
 
