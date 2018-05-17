@@ -5,7 +5,7 @@ updated_at: '2018-05-17 12:25 +0400'
 identifier: ref_040K9jOe
 title: Upgrade Waves and Upgrade Availability
 order: 100
-published: false
+published: true
 ---
 ## Upgrade waves
 
