@@ -16,8 +16,6 @@ Different people may prefer different words for the same meaning. For example, t
 
 Just a few words on how it works. In X-Cart 5 pieces of text like names of sections of the user interface, various notes, comments and error messages are all stored as text labels. A text label has a name by which it can be referenced from the template or program code and one or more "translations". A translation is a value of the label defined for a specific language. When a piece of text needs to be displayed on a page, X-Cart selects the respective text label from the database and determines which of its translations needs to be displayed - according to the language that is currently selected for viewing the page. If, for some reason, the value of the label for the selected language is missing, the label value for the default language is displayed. If the label value for the default language is missing as well, the label name is displayed.
 
-So, when you need to edit an existing piece of text from your store's user interface, you need to identify the text label that stores this piece of text as a value, and then edit this value. If your store uses multiple languages, you may also need to check if a similar change needs to be done for the values of this label in the other languages. 
-
 _In this section_:
 
 * {% link "Editing Text Labels" ref_2GDSR1ID %}
