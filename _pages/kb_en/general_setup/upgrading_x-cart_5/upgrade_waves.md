@@ -16,3 +16,6 @@ The second wave is the **Merchant wave**; this wave typically becomes available 
 The Developer wave provides access to new X-Cart features earlier. However, upgrading in the Developer wave may be recommended only for users prepared to deal with upgrade issues, should any such issues arise. 
 
 By default, all new X-Cart installations are configured to get upgrades in the Merchant wave. If you need access to new X-Cart releases in the Developer wave, you will want to switch your **Upgrade access level** to  Developer in the Upgrade options section of your store's Admin area (**System settings** > **Environment**).
+
+## Availability of upgrades for different versions
+A major upgrade involving the change of the second sequence in the version number can be done only from the latest version of the branch. In other words, if the 5.0.x branch consists of the versions 5.0.10, 5.0.11, 5.0.12, 5.0.13, 5.0.14, then the only version number from which you can upgrade to 5.1 is 5.0.14. Major upgrades involving the change of the third sequence in the version number do not follow this requirement, which means you can upgrade a 5.0.10 store to 5.0.14 in one run. To upgrade a store from 5.0.10 to 5.1.0, a two-step upgrade will be required: first, an upgrade from 5.0.10 to 5.0.14, and then an upgrade from 5.0.14 to 5.1.0.
