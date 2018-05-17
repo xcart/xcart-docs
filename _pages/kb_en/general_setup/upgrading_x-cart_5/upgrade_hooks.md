@@ -21,3 +21,7 @@ Upgrade hooks of the core are located in the folder `<X-Cart 5>/upgrade/`. For e
 *   **post_rebuild.php** contains post-rebuild hooks.
 
 Upgrade hooks may exist in the modules as well, if the module needs to synchronize data between its own versions. Module upgrade hooks can be found in the `<X-Cart 5>/classes/Module/<DEV-ID>/<MODULE-ID>/upgrade/` folders; for example `<X-Cart 5>/classes/XLite/Module/XC/ProductComparison/upgrade/`.
+
+_Related pages:_
+
+*   [Upgrade hooks](http://devs.x-cart.com/en/misc/upgrade_hooks.html)
