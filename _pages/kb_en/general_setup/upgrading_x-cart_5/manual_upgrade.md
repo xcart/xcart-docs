@@ -5,7 +5,7 @@ updated_at: '2018-05-17 12:31 +0400'
 identifier: ref_2QKUHnQv
 title: Manual Upgrade
 order: 140
-published: false
+published: true
 ---
 ## Manual upgrade
 
@@ -55,4 +55,3 @@ Below we have provided a description of a full manual upgrade:
     ```
 
 This completes the upgrade process.
-
