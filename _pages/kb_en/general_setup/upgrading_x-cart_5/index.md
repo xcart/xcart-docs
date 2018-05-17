@@ -6,6 +6,8 @@ identifier: ref_pQQ1CLe1
 title: Upgrading X-Cart 5
 order: 320
 published: true
+redirect_from:
+  - /general_setup/upgrading_x-cart_5.html
 ---
 Since the adoption of the [four-sequence versioning scheme](http://devs.x-cart.com/en/misc/x-cart_versions.html#x-cart-53x-versioning) by X-Cart, in which the first two sequences of digits in the version identifier represent the major version, the third sequence - the minor version, and the fourth sequence - the build version (bugfix release), we had to change X-Cart's upgrade system a little bit to accomodate the changes. 
 
@@ -41,4 +43,4 @@ The new features implemented by a major upgrade rely on major changes of the cor
   </tbody>
 </table>
 
-If a major upgrade and a minor update are available to a store at the same time, the store administrator can choose which upgrade they want to apply. As a result of a minor update, the store will be upgraded to get all the fixes of the latest available bugfix release within the store's version branch. As a result of a major upgrade, the store will be upgraded to the latest version with all the new features and bugfixes available to the store's license.  
+If a major upgrade and a minor update are available to a store at the same time, the store administrator can choose which upgrade they want to apply. As a result of a minor update, the store will be upgraded to get all the fixes of the latest available bugfix release within the store's version branch. As a result of a major upgrade, the store will be upgraded to the latest version with all the new features and bugfixes available to the store's license.
