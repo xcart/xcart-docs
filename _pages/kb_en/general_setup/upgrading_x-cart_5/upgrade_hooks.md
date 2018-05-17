@@ -5,7 +5,7 @@ updated_at: '2018-05-17 12:28 +0400'
 identifier: ref_2xlJ5Tka
 title: Upgrade Hooks
 order: 110
-published: false
+published: true
 ---
 ## Upgrade hooks
 The general idea of any upgrade/update is to overwrite the existing files of the core/module. That simple. However, sometimes X-Cart needs to synchronize data or do some utility work. Such work is done by **upgrade hooks**. There are three types of upgrade hooks:
