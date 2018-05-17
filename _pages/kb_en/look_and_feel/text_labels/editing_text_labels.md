@@ -25,7 +25,7 @@ Let's do it:
     
     {% note info %}
     If you need to edit the same phrase in more than one languages, just select any one of them.
-    {% ednnote %}
+    {% endnote %}
     
     Use search to find the phrase you want to edit. Please do mind that this search is case-sensitive. We need to find the phrase "Your shopping cart", so we simply paste it into the search bar and click **Search**:
     ![xc5_translations_search_cart_label.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_search_cart_label.png)
