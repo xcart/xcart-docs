@@ -7,7 +7,7 @@ title: Localizing your store
 categories:
   - User manual
 published: true
-order: 230
+order: 100
 redirect_from:
   - /look_and_feel/localizing_your_store.html
 ---
