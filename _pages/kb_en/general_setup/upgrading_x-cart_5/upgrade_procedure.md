@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-17 12:29 +0400'
 identifier: ref_2eoOYsqJ
-title: Store Upgrade Process (Autoupgrades)
+title: Store Upgrade Process (Automated Upgrades)
 order: 120
 published: false
 ---
@@ -149,3 +149,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
     
    11. If the page provides any kind of "upgrade notes" (like in the screenshot below), be sure to follow through with the recommendations provided therein.
         ![11_completed1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed1.png)
+
+_Related pages:_
+
+*   [X-Cart Upgrade General Steps](http://devs.x-cart.com/en/misc/x-cart_upgrade_general_steps.html)
