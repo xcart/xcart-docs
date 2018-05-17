@@ -9,7 +9,7 @@ categories:
 published: true
 order: 700
 redirect_from:
-  - 'https://kb.x-cart.com/look_and_feel/managing_texts_labels_in_your_store.html'
+  - /look_and_feel/managing_texts_labels_in_your_store.html
 ---
 
 Different people may prefer different words for the same meaning. For example, that part of an online store where a user stores the items they picked before paying for them - is it a "shopping cart", a "shopping basket" or a "shopping bag"? In X-Cart, we prefer to call it a "shopping cart", but we understand that some people will want to use a different name. So we made it possible to change almost any word or phrase in your X-Cart store's user interface.
