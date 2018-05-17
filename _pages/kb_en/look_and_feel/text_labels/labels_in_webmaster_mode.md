@@ -7,17 +7,17 @@ title: Editing Labels in Webmaster Mode
 order: 110
 published: true
 ---
-You may find it easier to edit a label directly in the store front-end where you see the text you need to edit and you don't need to know the label name or whatsever else. 
+You may find it easier to edit a label directly in the store frontend where you see the text you need to edit and you don't need to know the label name or whatsever else. 
 
-To enable the {% link "Webmaster Mode" ref_2L6W3YMS %} you should be logged in as an admin in the store customer front-end. When logged in as an admin you'll see a 'Gear' icon in the bottom left corner.
+To enable the {% link "Webmaster Mode" ref_2L6W3YMS %} you should be logged in as an admin in the store frontend. When logged in as an admin you'll see a 'Gear' icon in the bottom left corner.
 
 ![webmaster.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/webmaster.png)
 
-Click on it and you'll see the Webmaster mode options. You'll need the **Labels Editor** one. 
+Click on it and you'll see the Webmaster mode tools. You'll need the **Labels Editor** one. 
 
 ![labels-editor.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/labels-editor.png)
 
-Make sure the _Highlight labels_ option is turned ON, then you'll see all the labels that you can edit directly on this page highlighted. Click on the label you want to edit, change its name in a pop-up and _Save_ the changes. The label will be changed thoughout the whole store. 
+Make sure the _Highlight labels_ option is turned ON, then you'll see all the labels that you can edit directly on this page highlighted. Click on the label you want to edit, change its name in a pop-up and _Save_ the changes. That's it, the label will be changed thoughout the whole store. 
 
 ![edit-label.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/edit-label.png)
 
