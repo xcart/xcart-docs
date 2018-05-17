@@ -48,6 +48,6 @@ If a major upgrade and a minor update are available to a store at the same time,
 _In this section_ :
 
 * {% link "Upgrade Waves and Upgrade Availability" ref_040K9jOe %}
-* Upgrade Hooks
-* Store Upgrade Process (Automated Upgrades)
-* Manual Store Upgrade
+* {% link "Upgrade Hooks" ref_2xlJ5Tka %}
+* {% link "Store Upgrade Process (Automated Upgrades)" ref_2eoOYsqJ %}
+* {% link "Manual Store Upgrade" ref_2QKUHnQv %}
