@@ -15,7 +15,7 @@ Once you download X-Cart from [www.x-cart.com](http://www.x-cart.com/) and insta
 
 But it will be "English" not only for the user interface but for the whole store set-up as well, meaning that X-Cart is configured to use the British measurement system, date and time format, etc. by default. 
 
-You'll can localize your X-Cart store to meet your country standards, time-zone and measurement system to sell confortly within your oen country. See {% link "Localizing your store" ref_cc4sCpa5 %} for the guides.
+It's possible to localize an X-Cart store to meet your country standards, time-zone and measurement system to sell comfortly within your own country. See {% link "Localizing your store" ref_cc4sCpa5 %} for the guides.
 
 Also, you can turn your X-Cart into a truly multi-language solution by installing language translation addons. For example, there are some language translations that you can download from X-Cart Marketplace, including:
 
