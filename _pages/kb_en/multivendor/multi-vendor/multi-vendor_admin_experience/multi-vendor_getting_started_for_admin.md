@@ -46,7 +46,7 @@ Before anyone can sell products through an online marketplace based on X-Cart Mu
           <td class="confluenceTd" >
             <ul>
               <li>When a customer's cart contains items from more than one vendor, a separate order is formed for every vendor.</li>
-              <li>The vndors can fully edit their orders.</li>
+              <li>The vendors can fully edit their orders.</li>
               <li>Every order is delivered from the warehouse of the respective vendor. The cost of shipping is calculated for delivery from the address specified by the vendor.</li>
             </ul>
           </td>
