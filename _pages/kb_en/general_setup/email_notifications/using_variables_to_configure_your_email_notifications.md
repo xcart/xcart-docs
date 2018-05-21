@@ -7,7 +7,7 @@ title: Using variables to configure your email  notifications
 order: 100
 published: true
 ---
-When adjusting the header, greeting and signature for your store's email notifications, it is possible to use variables; for example: 
+When adjusting the header, greeting, text and signature for your store's email notifications, it is possible to use variables; for example: 
 
 ```
 %logo%	
