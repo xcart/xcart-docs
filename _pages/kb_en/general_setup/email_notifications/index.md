@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-23 14:28 +0400'
 identifier: ref_5QLrLCu7
-title: 'Email Notifications: Setup and Maintenance'
+title: 'Email notifications: setup and maintenance'
 order: 100
 published: true
 redirect_from:
