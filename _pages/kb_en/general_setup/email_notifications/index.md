@@ -22,7 +22,7 @@ Admin notifications are marked with an ON/OFF trigger in the 'Administrator' col
 
 ![notification_types.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/notification_types.png)
 
-Email notifications that are added by modules installed to the store have the module name in a notification title. Such notifications are added and removed automatically when a module in question is installed or deleted/disabled.
+Email notifications that are added by modules installed in the store have the module name in the notification title. Such notifications are added and removed automatically when the module to which they pertain is installed or deleted/disabled.
 
 ![module.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/module.png)
 
