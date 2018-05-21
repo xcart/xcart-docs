@@ -33,3 +33,8 @@ The variables enable you to provide a placeholder for information that changes f
 
 A list of supported variables and their respective values can be found by clicking on the field help icon displayed next to the field you wish to edit.
 ![xc5_notif_variables.png]({{site.baseurl}}/attachments/ref_2W845gkS/xc5_notif_variables.png)
+
+
+_Related pages:_
+
+   * {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
