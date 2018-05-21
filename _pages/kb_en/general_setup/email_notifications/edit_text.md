@@ -7,26 +7,29 @@ title: Editing email notifications
 order: 110
 published: true
 ---
-To edit a notification, click on the notification title. You'll see a page like the following:
+Email notifications can be edited via the **Store setup** -> **Email notifications** section of the Admin area.
+
+To edit a notification, locate it in the above said section and click on the notification title. A page with the email notification settings opens:
 
 ![edit.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/edit.png)
 
-Each notification consists of the following parts:
+The page consists of a few sections:
+
 * ![settings-1.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/settings-1.png)
-  Here you can enable/disable the notification and define the email subject. 
+  Here you can enable/disable the notification and specify the email subject. 
 
 * ![scheme.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/scheme.png)
   Here you can enable/disable the header, greeting and signature of the notification and edit the notification text. 
   
-  Also, you can find the name of a notification body template that you can refer to if you need to customize the notification structure. The body template may include other templates to generate the email notification. To customize it, you'll need to copy appropriate templates to the "skins/theme_tweaker/mail/" (or "skins/custom_skin/mail/" if you use CustomSkin module) directory within the same folder structure and then change the notification to meet your needs.
+  In addition to that, here you can find the name of the notification body template. You can refer to this template if you need to customize the notification structure. The body template may include other templates to generate the email notification. To customize it, you'll need to copy the appropriate templates to the "skins/theme_tweaker/mail/" folder (or "skins/custom_skin/mail/" if you are using the CustomSkin module) within the same folder structure and then change the notification according to your needs.
   
-  Some notifications can be edited via the {% link "Webmaster mode" ref_1xoeCJwy %}. Such notifications have a special **'Edit via Webmaster mode'** button under the **Body**.
+  Some notifications can be edited via {% link "Webmaster mode" ref_1xoeCJwy %}. Such notifications have a special **'Edit via Webmaster mode'** button under their **Body** section.
   ![webmaster.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/webmaster.png)
 
 * ![system-settings.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/system-settings.png)
   Here you can edit the notification title and description if necessary.
   
-When the notification editing is complete either **Save changes** or **Send test email** and **Preview template** to see the changes before saving them.
+After editing the notification settings, be sure to click **Save changes** to save your changes. Note that you can also use the **Send test email** and **Preview template** buttons.
 
 
 _Related pages:_
