@@ -27,65 +27,67 @@ If there is any kind of update/upgrade available, there will be an **Updates are
 Also, there will be a notification of available updates when clicking the bell icon:
 ![updates-nots.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/updates-nots.png)
 
+Starting with X-Cart 5.3.2.4, the color of the **Updates are available** link background in the header may be either green or orange. The orange color signifies that only a feature-release is available. The green color, like in the screenshot below, signifies that a bug-fix release and/or modules updates are available (or both a bug-fix release and a feature-release are available).
+![updates-orange.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/updates-orange.png)
 
-Starting with X-Cart 5.3.2.4, the color of the **Updates are available** link background in the header may be either green or orange. The orange color signifies that only a feature-release is available. The green color, like in the screenshot below, signifies that a bug-fix release is available (or both a bug-fix release and a feature-release are available).
-![xc5_upgrades_green_available.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_green_available.png)
+{% note info %}
+In X-Cart version 5.3.2.3 and earlier, the **Updates are available** link is always highlighted with an orange background, regardless of the nature of available updates.
+{% endnote %}
 
-Note that, in X-Cart versions prior to 5.3.2.4, the **Updates are available** link in the header always shows against an orange background, regardless of the nature of available updates.
-
-To check what updates are available, click on any of the "Updates are available" links. You will see the "Updates for your version" page showing the available updates:
+To check what updates are available, click on any of the "Updates are available" links. You will see the "Updates for y
+our version" page showing the available updates:
 ![2_4yourversion0.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion0.png)
 
 Note the page tabs: 
 
-   *   The **Minor update** tab (named **Bug-fixes only** in X-Cart versions prior to 5.3.2.4) shows the available bug-fix releases of the core and modules:
+   *   The **Minor update** tab (named **Bug-fixes only** in X-Cart v5.3.2.3 and earlier) shows the available bug-fix releases of the core and modules:
 
-       (X-Cart 5.3.2.4 and later)
-       ![xc5_upgrades_minor.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_minor.png)
+       (X-Cart v5.3.2.4 and later)
+       ![minor-upgrade.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/minor-upgrade.png)
       
-       (X-Cart versions prior to 5.3.2.4)
+       (X-Cart v5.3.2.3 and earlier)
        ![2_4yourversion2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion2.png)
 
-   *   The **Major upgrade** tab (named **Bug-fixes and new features** in X-Cart versions prior to 5.3.2.4) shows the available feature-releases of the core and modules:
+   *   The **Major upgrade** tab (named **Bug-fixes and new features** in X-Cart v5.3.2.3 and earlier) shows the available feature-releases of the core and modules:
        
-       (X-Cart 5.3.2.4 and later)
-       ![xc5_upgrades_major.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_major.png)
+       (X-Cart v5.3.2.4 and later)
+       ![major-upgrade.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/major-upgrade.png)
 
-       (X-Cart versions prior to 5.3.2.4)
+       (X-Cart v5.3.2.3 and earlier)
        ![2_4yourversion1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion1.png)
 
 Also note the **Advanced mode** link allowing you to install just some specific updates/upgrades:
-       ![xc5_upgrades_advanced_mode.png]({{site.baseurl}}/attachments/ref_9raTXZPN/xc5_upgrades_advanced_mode.png)
+       ![advanced-mode.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/advanced-mode.png)
 
 
 **To update/upgrade your X-Cart store**, follow the steps below:
 
-   1.  Back up your store (both the files and the database). You do need this step in case something goes wrong. Please do not neglect this step because it can cost you hours of work contacting your hosting provider and asking them to recover your store from their server backup.
+   1.  Back up your store (both the files and the database). You do need this step in case something goes wrong. Please do not neglect this step because it can cost you hours of work contacting your hosting provider and asking them to recover your store from their server backups.
 
    2.  In your store's Admin area, click **Updates are available** to go to the "Updates for your version" page.
 
    3.  Review the available updates and choose the updates you need to apply. If there are both a minor update and a major upgrade available for your store at the same time, you will need to select the tab you require:
-       *   To get bugfixes for your version, use the **Minor update** (**Bug-fixes only**) tab. 
+       *   To get bugfixes for your current version, use the **Minor update** (**Bug-fixes only**) tab. 
        *   To get both the bug-fixes and the new features, switch to the **Major upgrade** (**Bug-fixes and new features**) tab. 
        
-       If you do not want to do the global update/upgrade on your store including all the updates/upgrades you see listed on the tab you have open, follow the **Advanced mode** link to choose the specific update/upgrade components that you want to be installed. 
-       ![xc5_upgrades_advanced_mode.png]({{site.baseurl}}/attachments/ref_9raTXZPN/xc5_upgrades_advanced_mode.png)
-
-       Please be warned, however, that proper operation of the store site after an update/upgrade is not guaranteed if you choose to install not the entire update/upgrade, but only some of the components. Use the selective upgrade feature (Advanced mode) at your own risk and only if you know exactly what you are doing.
+       If you do not want to do the global update/upgrade on your store including all the updates/upgrades you see listed on the tab you have opened, follow the **Advanced mode** link to choose the specific update/upgrade components that you want to be installed. 
+       
+       {% note warning %}
+       Proper operation of the store site after an update/upgrade is not guaranteed if you choose to install not the entire update/upgrade, but only some of the components. Use the selective upgrade feature (Advanced mode) at your own risk and only if you know exactly what you are doing.
+       {% endnote %}
        
    4.  Scroll down the page to the bottom of the list of updates. There you will see the **Install updates** button. Click on this button to proceed with installing the selected update/upgrade components.
-       ![3_install_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/3_install_updates.png)
+       ![instal-updates.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/instal-updates.png)
 
-   5.  After the **Install updates** button has been clicked upon, the page will be reloaded prompting you to confirm your selection of upgrade/update components. There will be a title "These components will be updated" and a list of components; for each component, you will be able to see the current version and the version to which it will be updated:
-       ![4_components1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_components1.png)
+   5.  After the **Install updates** button has been clicked, the page will be reloaded prompting you to confirm your selection of upgrade/update components. There will be a title "These components will be updated" and a list of components; for each component, you will be able to see the current version and the version to which it will be updated. Scroll down the page to the bottom of the list and click the **Continue** button:
+       ![update-components.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/update-components.png)
 
-       To continue, scroll down the page to the bottom of the list and click the **Continue** button:
-       ![4_components2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_components2.png)
-
-       Note that updates/upgrades are only available to X-Cart stores with an activated license key. If you are using an X-Cart trial copy without any license key activated (free or paid), you will not be able to continue any furter than this step. There will be a message stating the problem with your license:
+       {% note info %}
+       Updates/upgrades are available only to X-Cart stores with an activated license key. If you are using an X-Cart trial copy without any license key activated (free or paid), you will not be able to continue any furter than this step. There will be a message stating the problem with your license:
        ![4_licensekey.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_licensekey.png)
        
        If you see a message like that, you need to at least activate a free license, or purchase and activate a paid license. Once you do so, the problem will be resolved, and next time you attempt an update/upgrade, the **Continue** button will be available.
+       {% endnote %}
     
    6.  Clicking the **Continue** button launches the downloading of all the necessary update/upgrade packs for the core and modules. 
         ![5_downl.png]({{site.baseurl}}/attachments/ref_9raTXZPN/5_downl.png)
@@ -96,7 +98,9 @@ Also note the **Advanced mode** link allowing you to install just some specific 
         ...and checked for integrity:
         ![7_checking_integrity.png]({{site.baseurl}}/attachments/ref_9raTXZPN/7_checking_integrity.png)
 
-        NOTE: If this step times out because of bad connection, you can try to adjust the REQUEST_LONG_TTL constant in the `<X-Cart 5>/var/run/classes/XLite/Core/Marketplace.php` script so that X-Cart would be able to download all the files in time.
+        {% note warning %}
+        If this step times out because of bad connection, you can try to adjust the REQUEST_LONG_TTL constant in the `<X-Cart 5>/var/run/classes/XLite/Core/Marketplace.php` script so that X-Cart would be able to download all the files in time.
+        {% endnote %}
 
    7.  Once all the upgrade packs have been downloaded, you will be provided with a list of all the downloaded updates and prompted to confirm that you have created a backup.
 
