@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-26 19:04 +0400'
 identifier: ref_2W845gkS
-title: 'Editing the header, greeting & signature of an email notification'
+title: 'Editing the header, greeting & signature of your email notifications'
 order: 120
 published: true
 ---
