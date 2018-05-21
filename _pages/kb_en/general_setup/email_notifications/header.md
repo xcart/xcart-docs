@@ -21,3 +21,8 @@ The format of the greeting is the same for both the admin and customer notificat
 When adjusting the header, greeting and signature for your store's email notifications, it is possible to use variables. See {% link "Using variables to configure your email  notifications" ref_6fJMVyRl %}
 
 After changing the settings in the **Header, greeting & signature** section, be sure to click the **Save changes** button at the bottom of the page to save your changes.
+
+
+_Related pages:_
+
+   * {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
