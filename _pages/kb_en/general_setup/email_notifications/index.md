@@ -24,7 +24,7 @@ Each email notification is identified by a title and has a mention that describe
 
 ![notification_types.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/notification_types.png)
 
-For email notifications that are added by a module, the module name is mentioned in the notification title. Such notifications are added and removed automatically when the module to which they pertain is installed or deleted/disabled.
+For email notifications that are added by an addon, the name of the addon is mentioned in the notification title. Such notifications are added and removed automatically when the addon to which they pertain is installed or deleted/disabled.
 
 ![module.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/module.png)
 
