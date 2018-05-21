@@ -40,4 +40,4 @@ Notification headers and signatures can be set using the following variables:
 %message%
 ```
 
-After changing anything settings on't forget to **save changes** when done.
+After changing the settings in the **Header, greeting & signature** section, be sure to click the **Save changes** button at the bottom of the page to save your changes.
