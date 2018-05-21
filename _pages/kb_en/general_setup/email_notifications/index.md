@@ -31,7 +31,7 @@ For email notifications that are added by a module, the module name is mentioned
 
 *  {% link "Adding recipient addresses for email notifications" ref_wKcxbiUf %}
 *  {% link "Editing the text of an email notification" ref_1qTqS245 %}
-*  {% link "Editing the header, greeting &amp; signature of an email notification" ref_2W845gkS %}
+*  {% link "Editing the header, greeting &amp; signature of your email notifications" ref_2W845gkS %}
 *  {% link "Adding PDF invoices to email notifications" ref_08i5p47o %}
 *  {% link "Using variables to configure your email notifications" ref_6fJMVyRl %}
 *  {% link "Configuring email transfer settings" ref_5PirMonD %}
