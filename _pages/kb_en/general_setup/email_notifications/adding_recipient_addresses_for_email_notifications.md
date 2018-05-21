@@ -67,3 +67,8 @@ All in all, you can have up to four different email addresses for your store's n
        {% note info %}
        A separate 'to' email address for the _Contact us_ form may be configured on the settings page of the [Contact Us](https://market.x-cart.com/addons/contact-us.html "Adding recipient addresses for email notifications") module.
        {% endnote %}
+
+
+_Related pages:_
+
+   * {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
