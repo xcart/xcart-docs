@@ -20,7 +20,7 @@ Here you can enable/disable and edit notifications.
 
 Some of the notifications are sent to both the store staff and customers, others - only to the store staff or only to customers. Admin notifications have an ON/OFF switch in the 'Administrator' column, customer notifications - an ON/OFF switch in the 'Customer' column, respectively. 
 
-Each email notification is titled and has a mention that describes the purpose of the notification. 
+Each email notification is identified by a title and has a mention that describes the purpose of the notification. 
 
 ![notification_types.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/notification_types.png)
 
