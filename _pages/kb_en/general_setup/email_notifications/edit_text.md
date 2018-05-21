@@ -7,7 +7,7 @@ title: Editing the text of an email notification
 order: 110
 published: true
 ---
-To edit the text of a notification, click on the notification title. You'll see a page like the following:
+To edit a notification, click on the notification title. You'll see a page like the following:
 
 ![edit.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/edit.png)
 
