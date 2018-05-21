@@ -28,6 +28,7 @@ Each notification consists of the following parts:
   
 When the notification editing is complete either **Save changes** or **Send test email** and **Preview template** to see the changes before saving them.
 
+
 _Related pages:_
 
    * {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
