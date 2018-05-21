@@ -40,4 +40,4 @@ Notification headers and signatures can be set using the following variables:
 %message%
 ```
 
-Don't forget to **save changes** when done.
+After changing anything settings on't forget to **save changes** when done.
