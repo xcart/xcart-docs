@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-05-21 20:09 +0400'
 identifier: ref_6fJMVyRl
 title: Using variables to configure your email  notifications
-order: 100
+order: 135
 published: true
 ---
 When adjusting the header, greeting, text and signature for your store's email notifications, it is possible to use variables; for example: 
