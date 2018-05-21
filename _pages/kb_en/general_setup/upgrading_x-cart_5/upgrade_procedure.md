@@ -34,9 +34,8 @@ Starting with X-Cart 5.3.2.4, the color of the **Updates are available** link ba
 In X-Cart version 5.3.2.3 and earlier, the **Updates are available** link is always highlighted with an orange background, regardless of the nature of available updates.
 {% endnote %}
 
-To check what updates are available, click on any of the "Updates are available" links. You will see the "Updates for y
-our version" page showing the available updates:
-![2_4yourversion0.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion0.png)
+To check what updates are available, click on any of the "Updates are available" links. You will see the "Updates for your version" page showing the available updates:
+![updates-available.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/updates-available.png)
 
 Note the page tabs: 
 
