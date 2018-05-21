@@ -34,3 +34,7 @@ If you want to send email notifications via an email server, different from the 
 You'll need to specify the **SMTP server** that should be used for the email notificatons. If necessary {% link "configure" ref_raLBcOm3 %} the background job processing on your server to send emails asynchronously, that will improve the website performance. Then define your **username** and **password** for the SMTP server and set the **'Use authentication'** and '**Secure connection'** options. When everything is done, **submit** the changes. 
 
 Besides SMTP you can use [Mandrill](https://market.x-cart.com/addons/mandrill-transactional-emails-integration.html "eMail Notifications: Set Up and Maintenance") as a default mailer for all the transactional emails.
+
+_Related pages:_
+
+   * {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
