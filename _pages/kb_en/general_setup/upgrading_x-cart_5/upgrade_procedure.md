@@ -8,20 +8,25 @@ order: 120
 published: true
 ---
 ## Before you upgrade: back up your store
-Installing an update/upgrade is a serious task which requires some preparation. At the very least, you should create a backup of your store (Be sure to back up both the files and the database!)
+Installing an update/upgrade is a serious task which requires some preparation. At the very least, you should create a backup of your store 
 
-In addition, we strongly recommend that before installing an update or an upgrade on your live store, you should create a dev copy of your store and try installing the update/upgrade on that copy. Only if the update/upgrade installation goes smoothly, and after you have made sure the store's dev copy continues to work as expected after the update/upgrade process has been completed should you attempt updating/upgrading your live store.
+{% note warning %}
+**Be sure to back up both the files and the database!**
+{% endnote %}
 
-For details on creating your store's dev copy and restoring the store from backup, see {% link 'Moving X-Cart to another location' ref_6oFmUXC7 %}
+In addition, we strongly recommend that you should create a DEV copy of your store BEFORE installing an update or an upgrade on your LIVE store and try installing the update/upgrade on that copy. Only if the update/upgrade installation goes smoothly, and after you have made sure the store's DEV copy continues working as expected after the update/upgrade is uplied should you attempt updating/upgrading your LIVE store.
+
+For details on how to create a dev copy of your store and to restore the store from backup, see {% link 'Moving X-Cart to another location' ref_6oFmUXC7 %}
 
 ## Store upgrade process
 Once per day, each X-Cart store checks the Marketplace for updates. The response from the Marketplace is cached for a day. If you need to delete this cache, open the link `admin.php?target=addons_list_marketplace&action=clear_cache`.
 
 If there is any kind of update/upgrade available, there will be an **Updates are available** link in the header of the Admin area:
-![1_updates_available.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available.png)
+![updates-green.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/updates-green.png)
 
 Also, there will be a notification of available updates when clicking the bell icon:
-![1_updates_available1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available1.png)
+![updates-nots.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/updates-nots.png)
+
 
 Starting with X-Cart 5.3.2.4, the color of the **Updates are available** link background in the header may be either green or orange. The orange color signifies that only a feature-release is available. The green color, like in the screenshot below, signifies that a bug-fix release is available (or both a bug-fix release and a feature-release are available).
 ![xc5_upgrades_green_available.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_green_available.png)
