@@ -16,3 +16,8 @@ PDF invoices will be added as an attachment to all order related notifications.
 {% note info %}
 You can extend the default PDF invoices feature with a paid [PDF Invoice](https://market.x-cart.com/addons/PDF-Invoice.html "eMail Notifications: Set Up and Maintenance") module that is more flexible and powerful.
 {% endnote %}
+
+
+_Related pages:_
+
+   * {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
