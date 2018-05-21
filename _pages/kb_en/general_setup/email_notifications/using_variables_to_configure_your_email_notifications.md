@@ -7,7 +7,12 @@ title: Using variables to configure your email  notifications
 order: 135
 published: true
 ---
-When adjusting the header, greeting, text and signature for your store's email notifications, it is possible to use variables; for example: 
+When adjusting the header, greeting, text and signature for your store's email notifications, it is possible to use variables. 
+
+A list of supported variables and their respective values can be found by clicking on the field help icon displayed next to the field you wish to edit.
+![xc5_notif_variables.png]({{site.baseurl}}/attachments/ref_2W845gkS/xc5_notif_variables.png)
+
+Here's an overview of the variables supported in X-Cart store email notifications:
 
    * ```%logo%``` - Your company logo.
    * ```%company_name%```- Your company name as specified on your store’s Contact information page.
@@ -29,8 +34,6 @@ When adjusting the header, greeting, text and signature for your store's email n
 
 The variables enable you to provide a placeholder for information that changes from one email message to another or is not known to you (like the name of the intended recipient of the email notification, an order ID, or a link to the details of the order in question). They also enable you to re-use the information that have already been provided by you somewhere else in the Admin back end - without having to write it again in the notification fields. For example, if you want the greeting in an email notification to mention the user to whom it has been sent according to their user type, you can specify the greeting as "Dear %recipient_name%!"; the resulting greeting will say "Dear Administrator!" if sent to an administrator and "Dear Customer!" if sent to a customer. Similarly, if your store's name is "Audrey's Candy Shoppe", and you want your email notification signature to say that, you simply need to specify your company name via your store’s Contact information page (**Store setup** > **Contact information**) and then re-use this information in your email notification signature by entering the variable %company_name% in the notification Signature field where you want to use it - and it will say "Audrey's Candy Shoppe" in the email notification that will come to your customer's inbox.  
 
-A list of supported variables and their respective values can be found by clicking on the field help icon displayed next to the field you wish to edit.
-![xc5_notif_variables.png]({{site.baseurl}}/attachments/ref_2W845gkS/xc5_notif_variables.png)
 
 
 _Related pages:_
