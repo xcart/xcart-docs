@@ -3,19 +3,19 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-17 12:31 +0400'
 identifier: ref_2QKUHnQv
-title: Manual Upgrade
+title: Manual Store Upgrade
 order: 140
 published: true
 ---
 ## Manual upgrade
 
-We do our best to provide smooth minor and major upgrade capabilities, but sometimes something goes wrong and you need to deal with it. If an upgrade was interrupted, you can continue it manually.
+We do our best to provide smooth minor and major upgrade capabilities, but it may be that something goes wrong and you need to deal with it. If an upgrade was interrupted, you can continue it manually.
 
-First thing to do is to find out what step your upgrade stopped at. Look at the bottom of the `<X-Cart 5>/var/log/upgrade.log` file. It will show you what upgrade hooks were run and what files were overwritten. If not all the post-rebuild hooks were run, it means that the upgrade process broke during the 5th step. If not all the files were overwritten, then the process stopped at the 2nd step. You need to locate the problem step, re-do this step manually, and then run all the following steps manually.
+First thing to do is to find out what step your upgrade has stopped at. Look at the bottom of the `<X-Cart 5>/var/log/upgrade.log` file. It will show you what upgrade hooks were run and what files were overwritten. If not all the post-rebuild hooks were run, it means that the upgrade process broke during the 5th step. If not all the files were overwritten, then the process stopped at the 2nd step. You need to locate the step where the problem occurred, re-do this step manually, and then run all the following steps manually.
 
 Below we have provided a description of a full manual upgrade:
 
-1.  How to get new files? First of all, check the folder `<X-Cart 5>/var/tmp`, and all the new files should be there. If this folder is empty, you should install the X-Cart 5 version you are upgrading to on the same server (you can freely get it on [http://www.x-cart.com)](http://www.x-cart.com)) and activate all the paid add-ons using your license keys. After that, this installation will have all the needed files.
+1.  How to get new files? First of all, check the folder `<X-Cart 5>/var/tmp`. All the new files should be there. If this folder is empty, you should install the X-Cart 5 version you are upgrading to on the same server (you can freely get it on [http://www.x-cart.com)](http://www.x-cart.com)) and activate all the paid add-ons using your license keys. After that, this installation will have all the needed files.
 2.  You need to run all the pre-upgrade hooks (core's and modules'). The code example of how to run one hook is below: 
 
     ```php
