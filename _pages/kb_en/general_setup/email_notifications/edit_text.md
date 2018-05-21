@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-26 19:02 +0400'
 identifier: ref_1qTqS245
-title: Editing the text of an email notification
+title: Editing email notifications
 order: 110
 published: true
 ---
