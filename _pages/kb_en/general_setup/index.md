@@ -33,7 +33,7 @@ Backup, Restore, Relocate
 Store Configuration and Maintenance
 *   {% link "Configuring your store's General settings" ref_qAZlJxZm %}
 *   {% link "Specifying your company's identity and contact information" ref_HcSs9eFL %}
-*   {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}
+*   {% link "eMail Notifications: Setup and Maintenance" ref_5QLrLCu7 %}
 *   {% link "Enabling Catalog mode (no "Add to cart" buttons)" ref_CvAsFxq8 %}
 *   {% link "Сonfiguring the storefront options" ref_wGaTsp7Z %}
 *   {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
