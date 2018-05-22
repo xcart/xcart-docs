@@ -37,13 +37,18 @@ To configure a shipping method with the custom table based rates, follow the ste
     *   **Delivery time**: Provide information about the estimated delivery time.
     *   **Table based on**:  Use this field to specify the parameter (or parameters) based on which the rates will be calculated. (You will configure a custom table of rates for this shipping method a bit later.)
         *   _Subtotal_ - Choose this parameter if you want to set shipping rates based on a specific order subtotal 
+            
             e.g. $7 flat rate shipping for orders with a subtotal of up to $50 and free shipping for orders over that amount.
         *   _Weight_ - Choose this parameter if you want to set shipping rates based on the weight of items in the order 
+            
             e.g. £28.13 flat rate shipping for the orders with the overall weigh of up to 5 kg and £9.99 shipping per kg for the orders with the overall weigh of over 5 kg. If you use this type of rates, make sure that all your products that require shipping have a correct weight specified in the product details.
         *   _Items_ - Choose this parameter if you want to set shipping rates based on the number of items in the order 
+            
             e.g. $2.60 flat rate shipping if the number of items in the order is 5 or less, and $0.40 per item if the number of items in the order is 6 or more.
         *   _Subtotal, weight, items_ - Choose this option to set shipping rates based on a combination of the above parameters
+            
             e.g. $7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb, free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb, and $10 flat rate shipping for orders weighing over 10 lb. 
+            
             Again, if you are going to define rates based on weight, be sure to specify correct weights for all your products.
     *   **Address zone**: Select the Address zone the shipping method will be available for. If you haven't configured the zone you require yet, use the _Manage zones_ link to access the **Zones** section and configure it.
 
