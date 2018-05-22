@@ -21,7 +21,7 @@ To edit a notification, locate it in the list of notifications on the Settings t
   The **State** switch in this section enables you to toggle the notification (This works the same as the On/Off switches on the notifications list in the **Store setup** -> **Email notifications** section.)
   
   The **Subject** field is where you can specify the subject of the email message in which the notification will be sent. Note that when setting the subject you can use variables. See {% link "Using variables to configure your email  notifications" ref_6fJMVyRl %} 
-  
+  &nbsp;
 * To enable/disable the header, greeting and signature for the notification and/or edit the notification text, use the **Scheme** section:
  
   ![scheme.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/scheme.png)
