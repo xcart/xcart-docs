@@ -20,7 +20,7 @@ During our tests we measure the _Time to Last Byte_ parameter, the time between 
 
 Also it's possible to use [https://www.webpagetest.org]( https://www.webpagetest.org "Speeding up your store") to test a site performance. 
 
-{% toc How can I speed up my store? %}
+{% toc **How can I speed up my store?** %}
 
 ## Step 1\. Enable CSS, JS aggregation and widget caching
 
