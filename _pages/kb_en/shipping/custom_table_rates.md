@@ -54,11 +54,13 @@ To configure a shipping method with the custom table based rates, follow the ste
 
 5.  Configure your custom shipping rates table for the defined shipping method. 
 
-    Use the form below the shipping details to create your custom rates table for the method you've just created. What you see here is, in fact, the first row of your table - with the default zero values. 
+    Use the form below the shipping general info to create a table of custom rates for the method you've just created. What you see here is, in fact, the first row of your table - with the default zero values. 
     ![]({{site.baseurl}}/attachments/9306242/9437471.png)
     The set of fields that you see in this table may be different depending on the value of the "Table based on" setting specified above. 
+    
     e.g. if you choose to base your table on "_Subtotal, weight, items_", there will be more fields; for the lack of space, they will be displayed in two rows one below the other (as shown in the screen below):
     ![]({{site.baseurl}}/attachments/9306242/9437472.png)
+    
     But in any case you should remember that all these fields pertain to the first row of your custom rates table, and all of them are intended for your first shipping rate.
     To create a shipping rate, you will need to adjust the values in the fields of this table so that they form a rule according to which the shipping rate will be calculated. 
     If necessary, you will be able to add more table rows for more rates. In the end, be sure to save your changes.
