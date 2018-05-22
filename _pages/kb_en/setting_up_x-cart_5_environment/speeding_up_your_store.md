@@ -20,12 +20,9 @@ During our tests we measure the _Time to Last Byte_ parameter, the time between 
 
 Also it's possible to use [https://www.webpagetest.org]( https://www.webpagetest.org "Speeding up your store") to test a site performance. 
 
-{% toc %}
+{% toc How can I speed up my store? %}
 
-
-## How can I speed up my store?
-
-### Step 1\. Enable CSS, JS aggregation and widget caching
+## Step 1\. Enable CSS, JS aggregation and widget caching
 
 In your store's Admin area, go to the **Look & Feel** -> **Performance** section and check if the following options are enabled:
 
@@ -50,11 +47,11 @@ If you have custom mods, you may consider [making some of their widgets cached]
 ![performance.png]({{site.baseurl}}/attachments/ref_WqHzxAmJ/performance.png)
 
 
-### Step 2\. Disable any unused modules
+## Step 2\. Disable any unused modules
 
 Every installed and enabled module increases the PHP load time, so if you disable all the modules you are not using, it will speed up your store. See more info on how to disable a module in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}
 
-### Step 3\. Use CDN for your store
+## Step 3\. Use CDN for your store
 
 CDN does not reduce the time X-Cart scripts take to work, but it delivers images, CSS and JS files to client's browser more quickly. Overall, your pages will be rendered faster.
 
@@ -62,7 +59,7 @@ Module example: 
 
 *   [https://market.x-cart.com/addons/xcartcdn-by-cfl-systems.html](https://market.x-cart.com/addons/xcartcdn-by-cfl-systems.html "Speeding up your store")
 
-### Step 4\. Use compression
+## Step 4\. Use compression
 
 The control panel of your hosting provider may have an option to enable compression of HTML code (for instance, cPanel has the [Optimize website](https://documentation.cpanel.net/display/ALD/Optimize+Website) option). You should enable it.
 
@@ -80,11 +77,13 @@ gzip_vary on;
 # end gzip configuration
 ```
 
-### Step 5\. Use a recent PHP version (7.0+)
+## Step 5\. Use a recent PHP version (7.0+)
 
-We've run lots of tests to see if X-Cart works better on later PHP versions like 5.5 and 5.6, and it really does! Typically you can get a two times speedup simply by installing PHP 5.5+. PHP 7.0 is supported by X-Cart versions 5.3.x.
+We've run lots of tests to see if X-Cart works better on later PHP versions like PHP 7, and it really does! Typically you can get a two times speedup simply by installing PHP 7.0+, that is supported by X-Cart versions 5.3.x.
 
-### Step 6\. Use Query Cache (MySQL)
+For ealier versions of X-Cart you can use PHP 5.5+ as they are not compatible with PHP 7.
+
+## Step 6\. Use Query Cache (MySQL)
 
 MySQL provides a convenient feature that can be used to speed up any queries to the database - Query Cache. To get an optimized and speedy response from your MySQL server, you may want to add the following configuration directives to your MySQL server:
 
@@ -96,7 +95,7 @@ SET GLOBAL query_cache_limit = 1048576;
 
 Alternatively, you can adjust these settings in the MySQL configuration file. A good article explaining each aspect of Query Cache configuration is available at [http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html](http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html)
 
-### Step 7\. Install native mbstring extension (PHP)
+## Step 7\. Install native mbstring extension (PHP)
 
 Though X-Cart has [Symfony mbstring polyfill](https://github.com/symfony/polyfill), it works slower than with the native extension (especially if the "Send PDF versions of the invoices in the attachment" option is enabled). [Installing native mbstring extension](http://php.net/manual/en/mbstring.installation.php) can greatly speed up your store during certain operations.
 
