@@ -3,9 +3,9 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-22 14:48 +0400'
 identifier: ref_3MQlKQPZ
-title: ''
+title: Creating form
 order: 100
-published: false
+published: true
 ---
 ## Introduction
 
