@@ -28,7 +28,12 @@ Also, there will be a notification of available updates when clicking the bell i
 ![updates-nots.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/updates-nots.png)
 
 Starting with X-Cart 5.3.2.4, the color of the **Updates are available** link background in the header may be either green or orange. The orange color signifies that only a feature-release is available. The green color, like in the screenshot below, signifies that a bug-fix release and/or modules updates are available (or both a bug-fix release and a feature-release are available).
-![updates-orange.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/updates-orange.png)
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![updates-orange.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/updates-orange.png)</div>
+  <div class="column" markdown="span">![updates-green-1.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/updates-green-1.png)</div>
+</div>
+
 
 {% note info %}
 In X-Cart version 5.3.2.3 and earlier, the **Updates are available** link is always highlighted with an orange background, regardless of the nature of available updates.
