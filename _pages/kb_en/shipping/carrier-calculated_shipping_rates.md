@@ -16,9 +16,9 @@ Some carrier companies provide web services that allow shopping carts to access 
 X-Cart 5 provides integrations with a few of the most popular real-time shipping rate calculation services, including:
 
 *   FedEx;
-*   {% link "U.S.P.S." ref_whrpZnV3 %};
-*   {% link "UPS" ref_0uCGd6Bs %};
-*   {% link "Canada Post" ref_ifwLo5ks %};
+*   U.S.P.S.
+*   UPS
+*   Canada Post
 *   AustraliaPost;
 *   DHL;
 *   Pitney Bowes;
