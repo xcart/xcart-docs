@@ -12,7 +12,7 @@ Sometimes it's necessary to change a default page layout to make your store uniq
 
 Based on the changes you made, **Theme Tweaker** will create a new module and copy a custom template and you won't have to do that manually. In addition to the unbeatable convenience of making changes on the fly, you may rest assured that every tweak you implemented with this tool will be saved correctly in accordance with the OOP paradigm. 
 
-Please make sure the module is {% link "installed and enabled" ref_0fGEpvrh %} before proceeding. When enabled, you can {% link "change skins" ref_GLqVdpgd %} in one click in the **Look and feel** > **Layout** section of the admin area and apply changes to the existing store layout directly on the storefront using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Using Theme Tweaker for Layout Changes"). 
+Please make sure the module is {% link "installed and enabled" ref_0fGEpvrh %} before proceeding. When enabled, you can {% link "change skins" ref_GLqVdpgd %} in one click in the **Look and feel** > **Layout** section of the admin area and apply changes to the existing store layout directly on the storefront using [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Using Theme Tweaker for Layout Changes"). 
 
 For this purpose log in as an admin and open the storefront using the "View storefront" button on any page of your store admin area. 
 
