@@ -22,3 +22,4 @@ _In this section:_
 *   {% link "Managing X-Cart order statuses (X-Cart 5.2.7 and later)" ref_7FIU2sxJ %}
 *   {% link "Adding new shipping/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}
 *   {% link "Order Returns" ref_30bVFfXt %}
+*   {% link "Order Messages" ref_5lxsFz5L %}
