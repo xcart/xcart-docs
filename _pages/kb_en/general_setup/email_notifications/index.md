@@ -29,7 +29,7 @@ For email notifications that are added by an addon, the name of the addon is men
 ![module.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/module.png)
 
 
-*  {% link "Adding recipient addresses for email notifications" ref_wKcxbiUf %}
+*  {% link "Specifying your 'Contacts' email addresses" ref_wKcxbiUf %}
 *  {% link "Editing email notifications" ref_1qTqS245 %}
 *  {% link "Editing the header, greeting &amp; signature of your email notifications" ref_2W845gkS %}
 *  {% link "Adding PDF invoices to email notifications" ref_08i5p47o %}
