@@ -33,12 +33,12 @@ If you want to send email notifications using an SMTP server different from the 
 
 ![smtp.png]({{site.baseurl}}/attachments/ref_5PirMonD/smtp.png)
 
-* **SMTP server**: SMTP server hostname.  
-* **SMTP port**: 
-**'Use authentication'**
-* **Username** 
-* **Password**  
-* **Secure connection'** options. 
+* **SMTP server**: Specify your SMTP server hostname.  
+* **SMTP port**: Specify your SMTP port. By default, SMTP uses TCP port 25. However, if you are going to use secure SSL/TLS encrypted SMTP, you need to specify the correct TCP port number for your system here. Typically, the port number for secure SMTP is 465.
+* **Use authentication'**: Specify whether SMTP authentication is going to be used.
+* **Username**: Specify your username.
+* **Password**: Specify your password.
+* **Secure connection**: In itself, SMTP email transfer doesn't provide an encryption, so you may want to use an SSL/TLS extension that employs a separate port for encrypted communication. Use this field to specify whether such an extension is going to be used.
 
 After configuring your SMTP connection details, be sure to save the changes by clicking **Submit**. 
 
