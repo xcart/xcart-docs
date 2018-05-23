@@ -9,6 +9,8 @@ published: true
 ---
 Email transfer configuration is the most important part of email notifications setup as the deliverability of email messages from your store to end users will depend on it.
 
+## Adjusting your store's FROM/REPLY-TO settings
+
 First of all you will need to adjust your FROM/REPLY-TO settings:
 
 1. Go to the **E-Mail transfer settings** tab of the **Store setup** -> **Email notifications** page.
@@ -26,7 +28,7 @@ After adjusting the FROM/REPLY-TO settings, you should test your settings by sen
 
 ![test.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/test.png)
 
-More information regarding the deliverability of your emails is available in the article {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %}. 
+## SMTP
 
 If you want to send email notifications via an email server different from the one your store is installed at, enable the **'Use SMTP server'** option. Once this option is enabled, you will be able to see the configuration fields.
 
