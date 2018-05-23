@@ -16,16 +16,13 @@ To find it, please, open the **Taxes** section in your admin back-end (**Store s
 
 To set up a shipping tax:
    1. click the the **New Rate** button
-      
-     ![new-rate.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/new-rate.png)
+      ![new-rate.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/new-rate.png)
       
    2. define a zone the tax will be applied to:
-
-     ![zone]({{site.baseurl}}/attachments/ref_4nZM0iOX/zone.png)
+      ![zone]({{site.baseurl}}/attachments/ref_4nZM0iOX/zone.png)
 
    3. set a tax rate in %
-      
-     ![rate.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/rate.png)
+      ![rate.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/rate.png)
 
    4. _**Save changes**_
       
