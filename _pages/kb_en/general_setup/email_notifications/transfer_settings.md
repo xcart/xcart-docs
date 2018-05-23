@@ -7,14 +7,14 @@ title: Configuring email transfer settings
 order: 140
 published: true
 ---
-Email transfer configuration is the most important part of email notifications setup as whether your emails will be delivered and read by the end users, your customers, will depend on it.
+Email transfer configuration is the most important part of email notifications setup as the deliverability of email messages from your store to end users will depend on it.
 
-First of all you will need to set the default FROM email address for your store:
+First of all you will need to adjust your FROM/REPLY-TO settings:
 
 1. Go to the **E-Mail transfer settings** tab of the **Store setup** -> **Email notifications** page.
-   ![email-settings.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/email-settings.png)
+   ![xc5_notif_emai_transfer_settings.png]({{site.baseurl}}/attachments/ref_5PirMonD/xc5_notif_emai_transfer_settings.png)
 
-2. Use the setting **'Which email to use for the FROM field'** to specify the email address that you want to be used for the FROM field:
+2. Use the setting **'Email to use for the FROM field'** to specify the email address that you want to be used for the FROM field. The following options are available:
  
    * Email from the Contact information section: Choose this option if you want the default FROM email address(es) for your store to be taken from the {% link "Contacts" ref_wKcxbiUf %} section.
    * Sender email as identified by the server: Choose this option if you want the default FROM email address to be defined by the mail server.
