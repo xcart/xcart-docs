@@ -24,9 +24,8 @@ First of all you will need to adjust your FROM/REPLY-TO settings:
 
 3. Click **Submit** to save the changes. 
 
-After adjusting the FROM/REPLY-TO settings, you should test your settings by sending a test email via the **'Test email configuration'** section at the bottom of the page.
-
-![test.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/test.png)
+You can test the sending of email messages FROM/TO the email addresses you have chosen via the **'Test email configuration'** section at the bottom of the page. 
+   ![test.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/test.png)
 
 ## Specifying your SMTP server connection details
 
