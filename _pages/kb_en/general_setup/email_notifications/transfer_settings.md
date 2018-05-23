@@ -22,7 +22,7 @@ First of all you will need to adjust your FROM/REPLY-TO settings:
 
 3. Click **Submit** to save the changes. 
 
-After setting your default FROM email, you should test your settings by sending a test email via the **'Test email configuration'** section at the bottom of the page.
+After adjusting the FROM/REPLY-TO settings, you should test your settings by sending a test email via the **'Test email configuration'** section at the bottom of the page.
 
 ![test.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/test.png)
 
@@ -34,7 +34,7 @@ If you want to send email notifications via an email server different from the o
 
 You'll need to specify the **SMTP server** that should be used for the email notificatons. If necessary {% link "configure" ref_raLBcOm3 %} the background job processing on your server to send emails asynchronously; that will improve the website performance. Then define your **username** and **password** for the SMTP server and set the **'Use authentication'** and '**Secure connection'** options. When everything is done, **submit** the changes. 
 
-Besides SMTP you can use [Mandrill](https://market.x-cart.com/addons/mandrill-transactional-emails-integration.html "eMail Notifications: Set Up and Maintenance") as a default mailer for all the transactional emails.
+Besides SMTP you can use [Mandrill](https://market.x-cart.com/addons/mandrill-transactional-emails-integration.html "Email notifications: setup and maintenance") as a default mailer for all the transactional emails.
 
 _Related pages:_
 
