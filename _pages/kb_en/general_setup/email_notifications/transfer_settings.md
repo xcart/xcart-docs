@@ -14,7 +14,7 @@ Email transfer configuration is the most important part of email notifications s
 First of all, you will need to specify what email addresses must be used in the FROM and REPLY-TO fields of email notifications that will be sent by your store. 
 
 The REPLY-TO address is the address that will be used if the recipient of the email notification decides to reply to the notification message.
-The FROM address is the address of the email sender. It is really important because it has a major effect on the deliverability of email messages. To ensure that your store's emails do not end up in the spam folder of your customers' inboxes, you must set the FROM email address correctly. For details, see the article {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %} in this manual.
+The FROM address is the address of the email sender. This address is really important because it has a major effect on the deliverability of email messages. To ensure that your store's emails do not end up in the spam folder of your customers' inboxes, you must set the FROM email address correctly. For details, see the article {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %} in this manual.
 
 To adjust the FROM and REPLY-TO fields of your store's email notifications, follow the steps below: 
 
