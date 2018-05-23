@@ -9,6 +9,11 @@ published: true
 ---
 Email transfer configuration is the most important part of email notifications setup as the deliverability of email messages from your store to end users will depend on it.
 
+Read on to find out about:
+
+   * [Adjusting your store's FROM/REPLY-TO settings](#adjusting-your-stores-fromreply-to-settings)
+   * [Specifying your SMTP server connection details](#specifying-your-smtp-server-connection-details)
+
 ## Adjusting your store's FROM/REPLY-TO settings
 
 First of all, you will need to specify what email addresses must be used in the FROM and REPLY-TO fields of email notifications that will be sent by your store. 
