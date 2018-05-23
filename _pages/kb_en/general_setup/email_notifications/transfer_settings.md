@@ -35,7 +35,7 @@ To adjust the FROM and REPLY-TO fields of your store's email notifications, foll
 
 3. Click **Submit** to save the changes. 
 
-You can test the sending of email messages FROM/TO the email addresses you have chosen via the **Test email configuration** section at the bottom of the page. 
+You can test the sending of email messages using the email addresses you have specified in the FROM/REPLY-TO settings section via the **Test email configuration** section at the bottom of the page. 
    ![test.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/test.png)
 
 ## Specifying your SMTP server connection details
