@@ -14,7 +14,7 @@ By default, all notifications in your store - except for the ones sent to custom
 
 ![contacts.png]({{site.baseurl}}/attachments/ref_wKcxbiUf/contacts.png)
 
-All in all, you can have up to four different email addresses for your store's notifications:
+You can set four kinds of contact email addresses:
 
    *   **Site administrator e-mail**:
    
