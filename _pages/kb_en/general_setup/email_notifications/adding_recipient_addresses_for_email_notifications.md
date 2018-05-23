@@ -32,7 +32,7 @@ You can set four kinds of contact email addresses:
        * notification about the generation of the store's safe mode access key (the message with your Hard and Soft reset links);
        * notifications about failed administrator login attempts 
        * notification about a product's stock level reaching the low limit ("Low limit warning");
-       * notification about the completion of a data export process (may be sent in cases when data export takes a long time).
+       * notification about the completion of a data export process (may be sent when data export takes a long time).
 
 
    *   **Customer relations e-mail**: 
