@@ -14,11 +14,11 @@ First of all you will need to set the default FROM email address for your store:
 1. Go to the **E-Mail transfer settings** tab of the **Store setup** -> **Email notifications** page.
    ![email-settings.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/email-settings.png)
 
-2. Use the setting **'Which email to use for the FROM field'** to choose the option you require:
-{:.ui.compact.celled.small.padded.table}
-| Email from the Contact information section |If you choose this option the default FROM email(s) for your store will be the one(s) that are specified for {% link "Contacts" ref_wKcxbiUf %}|
-| Sender email as identified by the server |If you choose this option the default FROM email will be the one defined by your mail server|
-| Email address specified below | If you shoose this option you can define any FROM email address you like better |
+2. Use the setting **'Which email to use for the FROM field'** to specify the email address that you want to be used for the FROM field:
+ 
+   * Email from the Contact information section: Choose this option if you want the default FROM email address(es) for your store to be taken from the {% link "Contacts" ref_wKcxbiUf %} section.
+   * Sender email as identified by the server: Choose this option if you want the default FROM email address to be defined by the mail server.
+   * Email address specified below: Choose this option to use an email address not matching the two previous options. You will be able to specify this address in the field below.
 
 3. Click **Submit** to save the changes. 
 
