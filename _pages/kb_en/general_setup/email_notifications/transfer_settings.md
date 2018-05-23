@@ -30,7 +30,7 @@ First of all, you will need to specify what email addresses must be used in the 
 
 3. Click **Submit** to save the changes. 
 
-You can test the sending of email messages FROM/TO the email addresses you have chosen via the **'Test email configuration'** section at the bottom of the page. 
+You can test the sending of email messages FROM/TO the email addresses you have chosen via the **Test email configuration** section at the bottom of the page. 
    ![test.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/test.png)
 
 ## Specifying your SMTP server connection details
