@@ -28,15 +28,24 @@ After adjusting the FROM/REPLY-TO settings, you should test your settings by sen
 
 ![test.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/test.png)
 
-## SMTP
+## Specifying your SMTP server connection details
 
-If you want to send email notifications via an email server different from the one your store is installed at, enable the **'Use SMTP server'** option. Once this option is enabled, you will be able to see the configuration fields.
+If you want to send email notifications using an SMTP server different from the default one, enable the **'Use SMTP server'** option. This will allow you to specify the SMTP server connection details.
 
 ![smtp.png]({{site.baseurl}}/attachments/ref_5PirMonD/smtp.png)
 
-You'll need to specify the **SMTP server** that should be used for the email notificatons. If necessary {% link "configure" ref_raLBcOm3 %} the background job processing on your server to send emails asynchronously; that will improve the website performance. Then define your **username** and **password** for the SMTP server and set the **'Use authentication'** and '**Secure connection'** options. When everything is done, **submit** the changes. 
+* **SMTP server**: SMTP server hostname.  
+* **SMTP port**: 
+**'Use authentication'**
+* **Username** 
+* **Password**  
+* **Secure connection'** options. 
 
-Besides SMTP you can use [Mandrill](https://market.x-cart.com/addons/mandrill-transactional-emails-integration.html "Email notifications: setup and maintenance") as a default mailer for all the transactional emails.
+After configuring your SMTP connection details, be sure to save the changes by clicking **Submit**. 
+
+If necessary, it is possible to {% link "configure" ref_raLBcOm3 %} background job processing on your server to send emails asynchronously. That should improve your website performance.
+
+Note that besides SMTP you can use [Mandrill](https://market.x-cart.com/addons/mandrill-transactional-emails-integration.html "Email notifications: setup and maintenance") as the default mailer for your store's transactional emails.
 
 _Related pages:_
 
