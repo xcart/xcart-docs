@@ -25,7 +25,9 @@ First of all, you will need to specify what email addresses must be used in the 
       * Email address specified below: Choose this option to use an email address not matching the two previous options. You will be able to specify this address in the field below.
 
    * If you haven't yet done so, configure your 'Contacts' email addresses in the store's Contact information section. You can access this section quickly by clicking on the 'contact information' link near the **Email to use for the REPLY-to field in customer emails** item in the 'FROM/REPLY-TO settings' section.
-). The email addresses specified in the 'Contacts' section will be used as REPLY-TO addresses for email notifications that will be sent to customers (Which email address will be used in each specific notification will depend on the type of notification message; for details, see {% link "Specifying your 'Contacts' email addresses" ref_wKcxbiUf %}).
+). The email addresses specified in the 'Contacts' section will be used as REPLY-TO addresses for email notifications that will be sent to customers (Which email address will be used in each specific notification will depend on the type of notification message; for more info on this see {% link "Specifying your 'Contacts' email addresses" ref_wKcxbiUf %}).
+
+   * Note that for email notifications that will be sent to the administrator the REPLY-TO field will be filled with the actual email address of the customer mentioned in the email notification. (Basically, this is brought to your attention by the **Email to use for the REPLY-to field in admin emails** item in the 'FROM/REPLY-TO settings' section. It works this way out of the box, no need to adjust anything.)
 
 3. Click **Submit** to save the changes. 
 
