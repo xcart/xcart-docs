@@ -11,11 +11,13 @@ order: 200
 ---
 
 
-Intangible goods (software programs, documents, online cards and the like) do not require shipping, so if you sell such products, you need to disable shipping calculation for them. This can be done by setting the option **Requires shipping** (in X-Cart versions 5.2.10 and earlier - **Shippable**) on the **Info** tab of the product details to "No":
+Intangible goods (software programs, documents, online cards and the like) do not require shipping, so if you sell such products, you need to disable shipping calculation for them. 
 
-![]({{site.baseurl}}/attachments/9306284/9437372.png)
+This can be done by setting the option **Requires shipping** (in X-Cart versions 5.2.10 and earlier - **Shippable**) to "No" in the **Shipping** section of the **Info** tab in the product details:
+
+![requires-shipping.png]({{site.baseurl}}/attachments/ref_z5KmbFAu/requires-shipping.png)
+
 
 _Related pages:_
 
 *   {% link "Adding digital goods" ref_lxNH6TFr %}
-
