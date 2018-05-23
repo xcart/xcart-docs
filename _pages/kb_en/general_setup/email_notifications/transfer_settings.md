@@ -11,7 +11,12 @@ Email transfer configuration is the most important part of email notifications s
 
 ## Adjusting your store's FROM/REPLY-TO settings
 
-First of all, you will need to specify what email addresses must be used in the FROM and REPLY-TO fields of email notifications that will be sent by your store: 
+First of all, you will need to specify what email addresses must be used in the FROM and REPLY-TO fields of email notifications that will be sent by your store. 
+
+The REPLY-TO address is the address that will be used if the recipient of the email notification decides to reply to the notification message.
+The FROM address is the address of the email sender. It is really important because it has a major effect on the deliverability of email messages. To ensure that your store's emails do not end up in the spam folder of your customers' inboxes, you must set the FROM email address correctly. For details, see the article {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %} in this manual.
+
+To adjust the FROM and REPLY-TO fields of your store's email notifications, follow the steps below: 
 
 1. In the **Store setup** -> **Email notifications** section, select the **E-Mail transfer settings** tab:
    ![xc5_notif_emai_transfer_settings.png]({{site.baseurl}}/attachments/ref_5PirMonD/xc5_notif_emai_transfer_settings.png)
@@ -23,7 +28,7 @@ First of all, you will need to specify what email addresses must be used in the 
       * Email from the Contact information section: Choose this option if you want the default FROM email address(es) for your store to be taken from the {% link "Contacts" ref_wKcxbiUf %} section.
       * Sender email as identified by the server: Choose this option if you want the default FROM email address to be defined by the mail server.
       * Email address specified below: Choose this option to use an email address not matching the two previous options. You will be able to specify this address in the field below.
-
+     
    * If you haven't yet done so, configure your 'Contacts' email addresses in the store's Contact information section. You can access this section quickly by clicking on the 'contact information' link near the **Email to use for the REPLY-to field in customer emails** item in the 'FROM/REPLY-TO settings' section. The email addresses specified in the 'Contacts' section will be used as REPLY-TO addresses for email notifications that will be sent to customers (Which email address will be used in each specific notification will depend on the type of notification message; for more info on this see {% link "Specifying your 'Contacts' email addresses" ref_wKcxbiUf %}).
 
    * Note that for email notifications that will be sent to the administrator the REPLY-TO field will be filled with the actual email address of the customer mentioned in the email notification. (Basically, this is brought to your attention by the **Email to use for the REPLY-to field in admin emails** item in the 'FROM/REPLY-TO settings' section. It works this way out of the box, no need to adjust anything.)
