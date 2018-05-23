@@ -62,8 +62,8 @@ To configure a shipping method with the custom table based rates, follow the ste
     ![]({{site.baseurl}}/attachments/9306242/9437472.png)
     
     But in any case you should remember that all these fields pertain to the first row of your custom rates table, and all of them are intended for your first shipping rate.
-    To create a shipping rate, you will need to adjust the values in the fields of this table so that they form a rule according to which the shipping rate will be calculated. 
-    If necessary, you will be able to add more table rows for more rates. In the end, be sure to save your changes.
+    To create a shipping rate, you will need to adjust the values in the fields of this table so that they form a rule according to which the shipping rate is calculated. 
+    If necessary, you can to add more table rows for more rates. In the end, be sure to save your changes.
 
     Let's configure a following custom rates table as a sample that will allow us to offer our customers:
     
