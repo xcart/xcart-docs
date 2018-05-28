@@ -102,10 +102,18 @@ There is an alternative way to add a new JS/CSS file to the layout and it requir
             $list[static::RESOURCE_JS][] = 'modules/<Developer ID>/<Module ID>/script.js';
 
     		// example of external JS file
-            $list[static::RESOURCE_JS][] = 'http://example.com/path/to/script.js';
+            $list[static::RESOURCE_JS][] = [
+            	'url' => 'http://example.com/path/to/script.js',
+            ];
 
     		// example of internal CSS file
             $list[static::RESOURCE_CSS][] = 'modules/<Developer ID>/<Module ID>/style.css';
+            
+            // example of external CSS file
+            $list[static::RESOURCE_CSS][] = [
+            	'url' => 'http://example.com/path/to/style-file.css',
+            ];            
+            
             return $list;
         }
     }
