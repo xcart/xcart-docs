@@ -5,7 +5,7 @@ updated_at: '2018-05-28 16:28 +0400'
 identifier: ref_74D8LsxZ
 title: Increasing sku's length
 order: 100
-published: false
+published: true
 ---
 ## Introduction
 
