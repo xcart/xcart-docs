@@ -9,18 +9,18 @@ published: true
 version: X-Cart 5.3.1 and later
 ---
 Once the module "XC4 to XC5 Migration wizard" has been installed on your X-Cart 5 store, you get a new item at the top of the Admin area menu - "Migration wizard":
-    ![xc5_migration_wizard_menu_item.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_menu_item.png)
+    ![xc5_mw_menu_item.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_menu_item.png)
 
 To use the wizard:
 
 1.  Click on the "Migration wizard" item in the Admin area menu. The wizard will be launched. 
-    ![xc5_migration_wizard_start1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_start1.png)
+    ![xc5_mw_step1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step1.png)
 
 2.  At the first step of the wizard ("1. Start"), select the check box to confirm that you understand the consequences of using the wizard (namely, that any existing data in your X-Cart 5 store will be overwritten as a result of the migration process). Click **Start migration** to proceed:
-    ![xc5_migration_wizard_start2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_start2.png)
+    ![xc5_mw_step1_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step1_1.png)
 
     As a result, the second step of the wizard will be loaded - "2. Connect":
-    ![xc5_migration_wizard_connect1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect1.png)
+    ![xc5_mw_step2_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step2_1.png)
 
 3.  At the second step of the wizard ("2. Connect"), specify your X-Cart 4 store database connection details. 
 
@@ -31,7 +31,7 @@ To use the wizard:
     *   **Database password**: The password of your MySQL account.
     
     If this set of fields is not enough to provide all the necessary connection details, please use the **Advanced options** section (expands at the click of the respective button): 
-    ![xc5_migration_wizard_connect2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect2.png)
+    ![xc5_mw_step2_2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step2_2.png)
 
     In the **Advanced options** section, you can enter the following info:
     
@@ -39,15 +39,16 @@ To use the wizard:
     *   **Port number**: The port number to use for the connection, for connections made using TCP/IP. The default port number is 3306.
     *   **Socket**: The MySQL Unix socket.
     *   **Table prefix**: The table prefix used in your X-Cart 4 database (as was specified during X-Cart 4 installation). If you do not remember the table prefix that was used for your X-Cart 4 store, you can look it up in the file init.php of your X-Cart 4.x installation (in X-Cart versions 4.5.3 and later, see the value of `XC_TBL_PREFIX`; in earlier versions - the value of `xcart_tbl_prefix`). The default table prefix for all X-Cart 4 versions is `xcart_`.
-    ![xc5_migration_wizard_connect2_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect2_1.png)
+    ![xc5_mw_step2_3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step2_3.png)
 
     After specifying the above details, provide the following settings:
     * Encryption key: Your X-Cart 4 store Blowfish key (the secret key needed for access to certain types of data stored in X-Cart 4 in encrypted form, such as user passwords). For more info on X-Cart 4 Blowfish key, see [X-Cart 4 manual](http://help.x-cart.com/index.php?title=X-Cart:Blowfish#Blowfish_key_based_encryption_method "X-Cart 4 manual").
     * Site URL: The URL of your X-Cart 4 store.
-    ![xc5_migration_wizard_connect3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect3.png)
+    * Site path: The site path of your X-Cart 4 store.
+    ![xc5_mw_step2_4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step2_4.png)
     
     Click **Save and continue**:
-    ![xc5_migration_wizard_connect4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect4.png)
+    ![xc5_mw_step2_5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step2_5.png)
 
     That will take you to the next step of the wizard - "3. Check".
 
