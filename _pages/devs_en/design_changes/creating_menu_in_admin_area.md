@@ -1,155 +1,168 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2014-12-11 00:00'
 title: Creating menu in admin area
 identifier: ref_Tkkqgkgr
-updated_at: 2014-12-11 00:00
-layout: article_with_sidebar
-lang: en
 categories:
-- Developer docs
-- Demo module
+  - Developer docs
+  - Demo module
+published: true
+order: 100
 ---
-
 ## Introduction
 
-This article describes how developers can create/change menu items in admin area.
- ![]({{site.baseurl}}/attachments/8225143/8356087.png)
+This article describes how developers can change menu items in admin area.
+![admin-menu-default.png]({{site.baseurl}}/attachments/ref_Tkkqgkgr/admin-menu-default.png)
 
-The admin menu section is defined by the `\XLite\View\Menu\Admin\TopMenu` class ({% link "more info about X-Cart classnames" ref_FAgFbEx9 %}) and this guide describes how you can apply changes to it.
+The admin menu is defined by the `\XLite\View\Menu\Admin\LeftMenu` class ({% link "more info about X-Cart classnames" ref_FAgFbEx9 %}) and this guide describes how you can change it.
 
-## Table of Contents
-
-*   [Introduction](#introduction)
-*   [Table of Contents](#table-of-contents)
-*   [Implementation](#implementation)
-*   [Module pack](#module-pack)
+{% toc Table of Contents %}
 
 ## Implementation
 
-1.  {% link "Create an empty module" ref_G2mlgckf %}. We are creating module with developer ID **Tony** and module ID **AdminMenuDemo**.
-2.  {% link "Decorate" ref_AF6bmvL6 %} the `\XLite\View\Menu\Admin\TopMenu` class in your module. We are creating the `<X-Cart>/classes/XLite/Module/Tony/AdminMenuDemo/View/Menu/Admin/TopMenu.php` file with the following content:
+As have been said above, default admin menu is defined by the `\XLite\View\Menu\Admin\LeftMenu` class. There are main and bottom parts of the menu in admin area:
+![main-and-bottom-admin-menu.png]({{site.baseurl}}/attachments/ref_Tkkqgkgr/main-and-bottom-admin-menu.png)
+
+The main part of the menu is defined by the `defineItems()` method in the `\XLite\View\Menu\Admin\LeftMenu` class, while bottom part is defined by the `defineBottomItems()` method in the same class.
+
+So, if we want to edit the menu, we have to change arrays returned by those methods.
+
+We start off with {% link "creating an empty module" ref_G2mlgckf %} with developer ID **XCExample** and module ID **AdminMenuDemo**.
+
+Our task will be to add a new menu item, remove existing one and edit another existing one.
+
+We need to {% link "decorate" ref_AF6bmvL6 %} the `\XLite\View\Menu\Admin\LeftMenu` class, so we create `classes/XLite/Module/XCExample/AdminMenuDemo/View/Menu/Admin/LeftMenu.php` file with the following content:
 
     ```php
-    <?php
-    // vim: set ts=4 sw=4 sts=4 et:
+	<?php
 
-    namespace XLite\Module\Tony\AdminMenuDemo\View\Menu\Admin;
+	namespace XLite\Module\XCExample\AdminMenuDemo\View\Menu\Admin;
 
-    abstract class TopMenu extends \XLite\View\Menu\Admin\TopMenu implements \XLite\Base\IDecorator
-    {
-    	protected function defineItems() 
-    	{
-    		$menu = parent::defineItems();
+	/**
+	 * Left side menu widget
+	 */
+	abstract class LeftMenu extends \XLite\View\Menu\Admin\LeftMenu implements \XLite\Base\IDecorator
+	{
+    	protected function defineItems()
+	    {
+    	    $items = parent::defineItems();
 
-    		$menu['promotions'][self::ITEM_CHILDREN] += array (
-    			'google' => array (
-    			    self::ITEM_TITLE	=> 'Google menu item',
-                    self::ITEM_LINK   	=> 'http://google.com',
-                    self::ITEM_WEIGHT   => 500,
-                    ),
-    			);
+        	// creating new item 
+	        // Catalog > Another link to products
+    	    $items['catalog'][self::ITEM_CHILDREN]['extra_product_list'] = array(
+        	    self::ITEM_TITLE  => static::t('Products (new link)'),
+            	self::ITEM_TARGET => 'product_list',
+	            self::ITEM_WEIGHT => 250,
+    	    );
 
-    		$menu['promotions'][self::ITEM_CHILDREN] += array (
-    			'products' => array (
-    			    self::ITEM_TITLE	=> 'Another link to products',
-                    self::ITEM_TARGET   => 'product_list',
-                    self::ITEM_WEIGHT   => 600,
-                	),
-    			);
+        	// removing Catalog > Classes & attibutes item
+	        unset($items['catalog'][self::ITEM_CHILDREN]['product_classes']);
 
-    		if (!isset($menu['my-menu'])) {
-    			$menu['my-menu'] = array (
-    				self::ITEM_TITLE 	=> 'My custom menu',
-    				self::ITEM_TARGET 	=> 'product_list',
-    				self::ITEM_WEIGHT 	=> 300,
-    				self::ITEM_CHILDREN => array(),
-    			);
-    		}
+    	    // changing name of Catalog > Products item to 'New products title'
+        	$items['catalog'][self::ITEM_CHILDREN]['product_list'][static::ITEM_TITLE] = 'Products (title changed)';
 
-    		$menu['my-menu'][self::ITEM_CHILDREN] += array (
-    			'products' => array (
-    				self::ITEM_TITLE 	=> 'Products in custom menu',
-    				self::ITEM_TARGET 	=> 'product_list',
-    				self::ITEM_WEIGHT 	=> 100,
-    				),
-    			);
-
-    		return $menu;
+	        return $items;
     	}
-    }
+	}
     ```
 
-3.  Let us have a closer look at each meaningful part of this code.
-4.  First of all, we call parent's `defineItems()` in order to generate basic menu structure and save it into `$menu` variable: 
+Let us have a closer look at each meaningful part of this code. This code works for main menu, but the same principles apply to bottom menu defined by `defineBottomItems()`.
+
+First of all, we call parent's `defineItems()` in order to get default menu structure and save it into `$items` variable: 
 
     ```php
-    $menu = parent::defineItems();
+    $items = parent::defineItems();
     ```
 
-5.  We create a new **Google menu item **menu item inside **Promotions** category like this:
+### Creating new menu item
+
+We create a new **Products (new link)** item in **Catalog** menu like this:
 
     ```php
-    		$menu['promotions'][self::ITEM_CHILDREN] += array (
-    			'google' => array (
-    			    self::ITEM_TITLE	=> 'Google menu item',
-                    self::ITEM_LINK   	=> 'http://google.com',
+    	    $items['catalog'][self::ITEM_CHILDREN]['extra_product_list'] = array(
+        	    self::ITEM_TITLE  => static::t('Products (new link)'),
+            	self::ITEM_TARGET => 'product_list',
+	            self::ITEM_WEIGHT => 250,
+    	    );
+    ```
+
+- `self::ITEM_TITLE` element defines what label will our menu item have;
+- `self::ITEM_TARGET` element defines a page where a user will go after clicking this menu item. If you want to redirect customer to a page outside of X-Cart's admin area, use `self::ITEM_LINK` element instead;
+- `self::ITEM_WEIGHT` element defines the location of our menu item among others. The greater the value, the lower the menu item will sit.
+
+Example of menu item with link to external page:
+
+	```php
+    	    $items['catalog'][self::ITEM_CHILDREN]['google'] = array(
+        	    self::ITEM_TITLE  => static::t('Go to Google'),
+            	self::ITEM_LINK => 'https://google.com',
+	            self::ITEM_WEIGHT => 500,
+    	    );
+    
+    ```
+
+`$items['catalog']` piece ('catalog' to be precise) defines that we create this menu item in **Catalog** menu. If we want to create items in other menus, then we should use another key in `$items` array. Here is the reference:
+- Orders - `$items['sales']`;
+- Discounts - `$items['promotions']`;
+- Users - `$items['users']`;
+- Content - `$items['content']`;
+- Sales channels - `$items['sales_channels']`.
+
+The reference for `defineBottomItems()` method:
+- My addons - `$items['extensions']`;
+- Look & Feel - `$items['css_js']`;
+- Store setup - `$items['store_setup']`;
+- System tools - `$items['system_settings']`.
+
+### Changing and removing existing menu item
+
+If we want to remove existing menu item, we just remove element representing this item from the `$items` array:
+
+```php
+// removing Catalog > Classes & attibutes item
+unset($items['catalog'][self::ITEM_CHILDREN]['product_classes']);
+```
+
+If we want to change existing menu item, we edit it in the same `$items` array:
+
+```php
+// changing name of Catalog > Products item to 'New products title'
+$items['catalog'][self::ITEM_CHILDREN]['product_list'][static::ITEM_TITLE] = 'Products (title changed)';
+```
+
+In case you need to re-arrange items in the menu, you should change items' `self::ITEM_WEIGHT` parameter, instead of re-arranging item positions in `$items` array.
+
+### Creating your own menu
+
+If you want to create your own menu section like 'Catalog' or 'Orders', then you should add this section into `$items` array like this:
+
+```php
+        // adding new menu with the most sophisticated title 'New menu'
+        $items['new_menu'] = [
+            static::ITEM_TITLE    => static::t('New menu'),
+            static::ITEM_ICON_SVG => 'images/fa-cog.svg',
+            static::ITEM_WEIGHT   => 500,
+            // static::ITEM_TARGET   => 'product_list',
+            self::ITEM_CHILDREN => [
+                'new_menu' => [
+                    self::ITEM_TITLE    => 'Google menu item',
+                    self::ITEM_LINK     => 'https://google.com',
                     self::ITEM_WEIGHT   => 500,
-                    ),
-    			);
-    ```
+                ],
+            ]
+        ];
+```
 
-    **Title** field (`self::ITEM_TITLE`) defines what text is displayed in menu, **link** field (`self::ITEM_TITLE`) defines where link will take users, **weight** field (`self::ITEM_WEIGHT`) defines the location of our menu item among others – the higher the value, the lower the menu item will sit.
+- `static::ITEM_TITLE`, `static::ITEM_WEIGHT`, `static::ITEM_TARGET` elements are the same as for menu items we discussed above;
+- `static::ITEM_ICON_SVG` element defines an icon displayed near the menu: 
+![menu-icons.png]({{site.baseurl}}/attachments/ref_Tkkqgkgr/menu-icons.png)
+- `self::ITEM_CHILDREN` element defines menu items in this menu. Each menu item is represented by element we looked at earlier.
 
-6.  We create **Another link to products** menu item inside **Promotions** category like this: 
+We are done with the mod. Reload the page and check the results:
+![menu-edited-version.png]({{site.baseurl}}/attachments/ref_Tkkqgkgr/menu-edited-version.png)
 
-    ```php
-    		$menu['promotions'][self::ITEM_CHILDREN] += array (
-    			'products' => array (
-    			    self::ITEM_TITLE	=> 'Another link to products',
-                    self::ITEM_TARGET   => 'product_list',
-                    self::ITEM_WEIGHT   => 600,
-                	),
-    			);
-    ```
-
-    It is almost exactly the same as above, but we use **target** field (`self::ITEM_TARGET`) instead of **link** one here. Target field allows us to generate a link as _admin.php?target=_**_products_list_ **by specifying just _product_list_ value, not the whole URL.
-
-7.  We create a new category menu with **My custom menu** name as follows: 
-
-    ```php
-    		if (!isset($menu['my-menu'])) {
-    			$menu['my-menu'] = array (
-    				self::ITEM_TITLE 	=> 'My custom menu',
-    				self::ITEM_TARGET 	=> 'product_list',
-    				self::ITEM_WEIGHT 	=> 300,
-    				self::ITEM_CHILDREN => array(),
-    			);
-    		}
-    ```
-
-    Fields of this menu entry as the same as above, but it also has **children** param (`self::ITEM_CHILDREN`). This way we are telling X-Cart that this menu item can contain child items, but these items are not defined yet, because it has value of empty array.
-
-8.  We add one more menu item into our newly created **My custom menu** category as follows: 
-
-    ```php
-    		$menu['my-menu'][self::ITEM_CHILDREN] += array (
-    			'products' => array (
-    				self::ITEM_TITLE 	=> 'Products in custom menu',
-    				self::ITEM_TARGET 	=> 'product_list',
-    				self::ITEM_WEIGHT 	=> 100,
-    				),
-    			);
-    ```
-
-    This piece of code should already be familiar to you.
-
-9.  Now it is time to re-deploy the store and check the results. You will see new menu items:
-    ![]({{site.baseurl}}/attachments/8225143/8356088.png)
 
 ## Module pack
 
-You can download this module from here: [https://dl.dropboxusercontent.com/u/23858825/Tony-AdminMenuDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-AdminMenuDemo-v5_1_0.tar)
-
-## Attachments:
-
-* [admin-area-menu-items.png]({{site.baseurl}}/attachments/8225143/8356087.png) (image/png)
-* [admin-area-custom-menu.png]({{site.baseurl}}/attachments/8225143/8356088.png) (image/png)
+You can download this module from here: <https://www.dropbox.com/s/t69i7wkop0osdu6/XCExample-AdminMenuDemo-v5_3_0.tar>
