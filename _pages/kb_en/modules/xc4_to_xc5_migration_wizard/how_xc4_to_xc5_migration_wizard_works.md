@@ -134,6 +134,12 @@ published: true
           <br>*   UPS (If the method is used in X-Cart 4, the Migration wizard requires that the module "UPS" should be enabled in X-Cart 5; your X-Cart 4 store's UPS settings are not checked and not migrated to X-Cart 5)&nbsp;</p>
       </td>
     </tr>
+    <tr class="top aligned">
+      <td colspan="1" class="confluenceTd"><span>Orders</span>
+      </td>
+      <td colspan="1" class="confluenceTd">
+       <p>As is;
+      </td>
   </tbody>
 </table>
 
