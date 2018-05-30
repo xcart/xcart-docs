@@ -238,5 +238,4 @@ PHP Code:
 ; */ ?>
 ```
 
-## Limitations
-The module does not support the migration of order data.
+
