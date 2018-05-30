@@ -40,23 +40,23 @@ developer ID **XCExample** and module ID **OverridingTopMenu**.
  
 	class Top extends \XLite\View\Menu\Customer\Top implements \XLite\Base\IDecorator 
 	{
-    	protected function getMyItems()
-	    {
-    	    $return = array();
+		protected function getMyItems()
+		{
+			$return = array();
  
-        	$return[] = array (
-            	'url' => 'http://google.com',
-	            'label' => 'Google menu',
-    	        'controller' => false,
-        	    );
+			$return[] = array (
+				'url' => 'http://google.com',
+				'label' => 'Google menu',
+				'controller' => false,
+			);
  
-	        return $return;
-    	}
+			return $return;
+		}
  
-	    protected function defineItems()
-    	{
-        	return $this->getMyItems();
-	    }
+		protected function defineItems()
+		{
+			return $this->getMyItems();
+		}
 	}
     ```
 
