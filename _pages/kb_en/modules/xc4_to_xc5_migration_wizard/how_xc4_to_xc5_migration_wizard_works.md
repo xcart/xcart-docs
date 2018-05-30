@@ -79,7 +79,7 @@ published: true
       <td colspan="1" class="confluenceTd"><span>Users</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>As is (For older X-Cart 4 versions, user passwords are migrated; not so for newer versions).&nbsp;</p>
+        <p>As is. For older X-Cart 4 versions where user passwords are stored in the database in encrypted form the passwords are migrated. (A valid Blowfish key needs to be specified at the step "2. Connect" of the migration wizard). Not so for newer X-Cart 4 versions in which password hashing is used. Since hashed passwords cannot be decrypted, there is no way for passwords to be migrated from an X-Cart 4 store to X-Cart 5. After the migration, the users will have to use the "Forgot password?" feature in the X-Cart 5 store to regain access to their accounts.)&nbsp;</p>
       </td>
     </tr>
     <tr class="top aligned">   
@@ -237,5 +237,3 @@ PHP Code:
 ; WARNING: Do not change the line below
 ; */ ?>
 ```
-
-
