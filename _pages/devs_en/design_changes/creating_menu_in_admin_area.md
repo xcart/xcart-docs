@@ -34,7 +34,7 @@ Our task will be to add a new menu item, remove existing one and edit another ex
 
 We need to {% link "decorate" ref_AF6bmvL6 %} the `\XLite\View\Menu\Admin\LeftMenu` class, so we create `classes/XLite/Module/XCExample/AdminMenuDemo/View/Menu/Admin/LeftMenu.php` file with the following content:
 
-    ```php
+```php
 	<?php
 
 	namespace XLite\Module\XCExample\AdminMenuDemo\View\Menu\Admin;
@@ -65,27 +65,27 @@ We need to {% link "decorate" ref_AF6bmvL6 %} the `\XLite\View\Menu\Admin\LeftM
 	        return $items;
     	}
 	}
-    ```
+```
 
 Let us have a closer look at each meaningful part of this code. This code works for main menu, but the same principles apply to bottom menu defined by `defineBottomItems()`.
 
 First of all, we call parent's `defineItems()` in order to get default menu structure and save it into `$items` variable: 
 
-    ```php
+```php
     $items = parent::defineItems();
-    ```
+```
 
 ### Creating new menu item
 
 We create a new **Products (new link)** item in **Catalog** menu like this:
 
-    ```php
+```php
     	    $items['catalog'][self::ITEM_CHILDREN]['extra_product_list'] = array(
         	    self::ITEM_TITLE  => static::t('Products (new link)'),
             	self::ITEM_TARGET => 'product_list',
 	            self::ITEM_WEIGHT => 250,
     	    );
-    ```
+```
 
 - `self::ITEM_TITLE` element defines what label will our menu item have;
 - `self::ITEM_TARGET` element defines a page where a user will go after clicking this menu item. If you want to redirect customer to a page outside of X-Cart's admin area, use `self::ITEM_LINK` element instead;
@@ -93,14 +93,14 @@ We create a new **Products (new link)** item in **Catalog** menu like this:
 
 Example of menu item with link to external page:
 
-	```php
+```php
     	    $items['catalog'][self::ITEM_CHILDREN]['google'] = array(
         	    self::ITEM_TITLE  => static::t('Go to Google'),
             	self::ITEM_LINK => 'https://google.com',
 	            self::ITEM_WEIGHT => 500,
     	    );
     
-    ```
+```
 
 `$items['catalog']` piece ('catalog' to be precise) defines that we create this menu item in **Catalog** menu. If we want to create items in other menus, then we should use another key in `$items` array. Here is the reference:
 - Orders - `$items['sales']`;
