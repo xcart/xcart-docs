@@ -7,7 +7,7 @@ title: Adding PDF invoices to email notifications
 order: 130
 published: true
 ---
-If necessary you can add a PDF version of invoices to the e-mail notifications using the **Attachments** tab of the **Store setup** -> **Email notifications** page. 
+If necessary you can add a PDF version of invoices to the email notifications by enabling the setting **Send the PDF version of invoices in the attachments** on the **Attachments** tab of the **Store setup** -> **Email notifications** page. 
 
 ![attachments.png]({{site.baseurl}}/attachments/ref_08i5p47o/attachments.png)
 
