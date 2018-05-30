@@ -76,7 +76,7 @@ developer ID **XCExample** and module ID **OverridingTopMenu**.
  
 	class TopAfterSimpleCMS extends \XLite\View\Menu\Customer\Top implements \XLite\Base\IDecorator 
 	{
-    	protected function defineItems()
+		protected function defineItems()
 	    {
     	    return $this->getMyItems();
 	    }
