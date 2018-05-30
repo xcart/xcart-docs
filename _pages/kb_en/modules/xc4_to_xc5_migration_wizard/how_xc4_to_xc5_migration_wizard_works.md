@@ -138,7 +138,7 @@ published: true
       <td colspan="1" class="confluenceTd"><span>Orders</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>As is.&nbsp;</p>
+        <p>As is. Order number is copied from the X-Cart 4 store.&nbsp;</p>
       </td>
      </tr> 
   </tbody>
