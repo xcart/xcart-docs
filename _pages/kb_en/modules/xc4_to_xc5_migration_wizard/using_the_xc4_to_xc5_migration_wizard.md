@@ -52,8 +52,10 @@ To use the wizard:
 
     That will take you to the next step of the wizard - "3. Check".
 
-4.  Using the connection details provided at the previous step, your X-Cart 5 store tries to connect to the specified X-Cart 4 database. Provided that the connection details have been specified correctly, at the third step of the wizard ("3. Check") you should be able to see a summary of information that X-Cart 5 could obtain regarding your X-Cart 4 store:
+4.  Using the connection details provided at the previous step, your X-Cart 5 store tries to connect to the specified X-Cart 4 database. Provided that the connection details have been specified correctly, at the third step of the wizard ("3. Check") you should be able to see a summary of information that X-Cart 5 was able to obtain regarding the data migratable from your X-Cart 4 store:
      ![xc5_mw_step3_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step3_1.png)
+     
+    The "Images size" item shows the amount of space taken by the X-Cart 4 store images (in Mbytes). If you are going to migrate the images, be sure to check that you have a sufficient amount of disk space on your X-Cart 5 store hosting for them.
 
     Click **Continue** to proceed.
     ![xc5_mw_step3_2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step3_2.png)
