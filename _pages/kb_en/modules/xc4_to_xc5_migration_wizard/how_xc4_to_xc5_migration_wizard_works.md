@@ -243,8 +243,8 @@ The user of the module "XC4 to XC5 Migration wizard" may choose to run a migrati
 
 In the Demo migration mode, the following data are migrated:
 * 10 latest orders;
-* Products for the items from those orders; 
-* Users for these orders;
+* Products from those orders; 
+* Users for those orders;
 * All the categories; 
 * 10 products from one of the categories.
 
