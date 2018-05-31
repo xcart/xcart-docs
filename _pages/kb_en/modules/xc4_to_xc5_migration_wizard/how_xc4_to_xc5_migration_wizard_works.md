@@ -17,7 +17,7 @@ published: true
       <td colspan="1" class="confluenceTd">
         <p>*   Company;
           <br><span>&nbsp;</span>
-          <br>*   General (Default customer address; Weight and Length symbols; Purchase limits; Defaut admin/customer language; Ship-from address. The currency is not copied from X-Cart 4 automatically in the process of migration but needs to be specified manually before the migration start);
+          <br>*   General (Default customer address; Weight and Length symbols; Purchase limits; Defaut admin/customer language; Ship-from address. The currency is not copied from X-Cart 4 automatically in the process of migration but needs to be specified manually before the migration start. Before the migration of orders, an alert will be provided showing the currency selected in the store and warning the user that the orders will be migrated using that currrency.);
           <br><span>&nbsp;</span>
           <br>*   Contact Us (If your X-Cart 4 database contains an entry for contact_us, the Migration wizard requests that the module "Contact Us" should be enabled in X-Cart 5; your X-Cart 4 store's Contact Us form settings are not checked and not migrated to X-Cart 5);
           <br><span>&nbsp;</span>
