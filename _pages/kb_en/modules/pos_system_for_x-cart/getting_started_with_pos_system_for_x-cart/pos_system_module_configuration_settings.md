@@ -1,12 +1,13 @@
 ---
-identifier: ref_cIqoSFOT
-updated_at: 2016-04-27 00:00
-layout: article_with_sidebar
 lang: en
-title: 'POS system module configuration settings'
+layout: article_with_sidebar
+updated_at: '2016-04-27 00:00'
+identifier: ref_cIqoSFOT
+title: POS system module configuration settings
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -22,17 +23,13 @@ Following is an explanation of the settings you can find on this page:
     *   [QZ Tray 2.x](https://qz.io/download/);
     *   [PrintNode](https://app.printnode.com/account/download).Below the **Printer connection method** setting, you can see a widget showing the current status of the selected connector for access to printers. On this page, the connector is used to detect the presence of installed printers. Once the connector has detected available locally installed printers, the connector status changes to “Printers found”, and the list of available printers is loaded in the **Barcode printer name** and **Receipt printer name** drop-down boxes below. 
 
-*   **Barcode printer name** and **Receipt printer name**:These settings allow you to select the printers that will be used to print out, respectively, barcodes and receipts. Failure to specify any of the said two printers will render the respective functionality (i.e., the buttons and sections of the user interface that control the respective printing operations) unavailable. For example, if you do not select a Receipt printer, you will not be able to print receipts.
-
-    Important
-
-    Icon
-
-    If the system name of your Barcode printer or Receipt printer changes after the respective printer has been selected for use with the POS system module in the module settings, you will need to reload the ‘“Pos System” module settings’ page in your browser, allow your chosen printer connector to obtain the new printer name, select the new printer name in the module settings and save the changes.
+*   **Barcode printer name** and **Receipt printer name**:These settings allow you to select the printers that will be used to print out, respectively, barcodes and receipts. Failure to specify any of the said two printers will render the respective functionality (i.e., the buttons and sections of the user interface that control the respective printing operations) unavailable. For example, if you do not select a Receipt printer, you will not be able to print receipts. **Important**: If the system name of your Barcode printer or Receipt printer changes after the respective printer has been selected for use with the POS system module in the module settings, you will need to reload the ‘“Pos System” module settings’ page in your browser, allow your chosen printer connector to obtain the new printer name, select the new printer name in the module settings and save the changes.
 
 *   **Barcode line width (in dots)**: This field should be used to set the minimum line width in a printed barcode. The smaller this value is, the more lines of the barcode can be printed on a barcode label. The number of barcode lines depends on the number of characters in the product's UPC, a code added on the "Product info" page (The greater the length of UPC, the longer the barcode). The recommended value for the ‘Barcode line width (in dots)’ field is "1" or "2", but, regardless of the value you specify, please make sure that your barcode scanner can recognize the barcodes printed with this line width. The images below demonstrate a barcode printed with two different values of the minimum barcode line width parameter:
 
-    ![](attachments/7504496/9439602.png)          ![]({{site.baseurl}}/attachments/7504496/9439603.png)
+    ![Barcode_line_width1.png]({{site.baseurl}}/attachments/ref_cIqoSFOT/Barcode_line_width1.png) 
+    
+    ![Barcode_line_width2.png]({{site.baseurl}}/attachments/ref_cIqoSFOT/Barcode_line_width2.png)
 
 *   **Receipt width (in characters)**: This field should be used to set the receipt width you are going to use (Specify the number of characters that fit the width of a receipt) .
 
