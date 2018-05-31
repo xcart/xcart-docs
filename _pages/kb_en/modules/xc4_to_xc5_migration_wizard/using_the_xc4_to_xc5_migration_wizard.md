@@ -147,8 +147,7 @@ To use the wizard:
 
     Note that the above stages will be included in any migration process - regardless of whether you are importing products/categories or not. If your X-Cart 5 store has products and categories, the processes run at these stages are simply necessary to ensure that your store looks and functions correctly.
 
-    Also note that the module "XC4 to XC5 Migration wizard" now does not do the resizing of images. The stage "Resizing images..." which used to be included in the migration process by earlier versions of the module has been excluded. Now if you need to resize the images before going into production with your X-Cart 5 store, you can do the resizing via Look & Feel > Images > Generate resized images.
-    
+    Also note that the module "XC4 to XC5 Migration wizard" now does not do the resizing of images. The stage "Resizing images..." which used to be included in the migration process by earlier versions of the module has been excluded. Now if you need to resize the images before going into production with your X-Cart 5 store, you can do the resizing using the **Generate resized images** feature in the **Look & Feel** > **Images** section.
 
 8.  Once the transfer has completed, the final step of the wizard will be displayed - "6. Complete":
     ![xc5_mw_step6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step6.png)
