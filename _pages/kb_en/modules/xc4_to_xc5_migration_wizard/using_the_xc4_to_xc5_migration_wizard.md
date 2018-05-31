@@ -133,13 +133,21 @@ To use the wizard:
     
     While your data is being migrated from your X-Cart 4 store to X-Cart 5, you will be able to see the progress on the screen. Here are the stages that will have to be completed:
     
-    * Processing products...
+    * _Migrating data..._
+      Moving the selected types of data from X-Cart 4 to X-Cart 5.
+
+    * _Processing products..._
+      Updating product related quick data and other types of data related to products, like calculating the bestsellers statistics based on the migrated orders. 
     
-    * Processing categories... 
-   
-    * Removing duplicate images...    
-    
-    * Resizing images... 
+    * _Processing categories..._
+      Updating quick data for categories. Until this step has been completed properly, the category tree will not be displayed correctly. 
+       
+    * _Removing duplicate images..._
+      Removing any duplicate product images (if any product images got duplicated as a result of the migration).
+
+    Note that the above stages will be included in any migration process - regardless of whether you are importing products/categories or not. If your X-Cart 5 store has products and categories, the processes run at these stages are simply necessary to ensure that your store looks and functions correctly.
+
+    Also note that the module "XC4 to XC5 Migration wizard" now does not do the resizing of images. The stage "Resizing images..." which used to be included in the migration process by earlier versions of the module has been excluded. Now if you need to resize the images before going into production with your X-Cart 5 store, you can do the resizing via Look & Feel > Images > Generate resized images.
     
 
 8.  Once the transfer has completed, the final step of the wizard will be displayed - "6. Complete":
