@@ -67,6 +67,7 @@ To use the wizard:
 
     If you wish to just try the migration in demo mode this time, select the **Demo migration** option at the top of the page:
     ![xc5_mw_step4_3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_3.png)
+    More info on Demo migration is available {% link "here" ref_37NAeGlf#demo-migration %}.
 
     Then click **Save and continue**:
     ![xc5_mw_step4_4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_4.png)
@@ -158,4 +159,3 @@ In some cases, during the migration of data, things may not go as smoothly as on
 
 If you wish to do another migration (for example, finish migrating your X-Cart 4 data after testing the migration in the **Demo migration** mode), you can restart the migration wizard using the **Restart wizard** button:
    ![xc5_mw_step6_restart.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step6_restart.png)
-
