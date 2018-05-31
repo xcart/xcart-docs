@@ -5,7 +5,6 @@ updated_at: '2017-02-07 01:58 +0400'
 title: XC4 to XC5 Migration wizard
 order: 360
 published: true
-version: X-Cart 5.3.1 and later
 identifier: ref_enOvcLbO
 ---
 
