@@ -54,8 +54,8 @@ To start using the X-Cart POS module on your system, do the following:
 
 10.  Try printing a receipt for the order that has been created.
 
-    *   {% link "Printing receipts (Customer area)" ref_uL3nV6ST %}
+    *   {% link "Printing receipts. Customer area" ref_uL3nV6ST %}
 
-    *   {% link "Printing receipts (Admin area)" ref_IotuU4Ev %}
+    *   {% link "Printing receipts. Admin area" ref_IotuU4Ev %}
 
  Once you've made sure everything works as expected, you should be ready to go live with your POS-enabled X-Cart store.
