@@ -1,12 +1,13 @@
 ---
-identifier: ref_4s82Om1P
-updated_at: 2016-04-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up roles/permissions for POS system users'
+layout: article_with_sidebar
+updated_at: '2016-04-26 00:00'
+identifier: ref_4s82Om1P
+title: Setting up roles/permissions for POS system users
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -32,9 +33,3 @@ _Related pages:_
 
 *   {% link "Getting started with POS system for X-Cart" ref_uuhJRDAr %}
 
-## Attachments:
-
-* [pos_operator1.png]({{site.baseurl}}/attachments/7504410/7602271.png) (image/png)
-* [pos_operator2.png]({{site.baseurl}}/attachments/7504410/7602272.png) (image/png)
-* [xc5_POS_operator_permissions.png]({{site.baseurl}}/attachments/7504410/8719204.png) (image/png)
-* [xc5_assign_POS_operator_role.png]({{site.baseurl}}/attachments/7504410/8719205.png) (image/png)
