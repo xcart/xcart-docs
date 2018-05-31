@@ -237,3 +237,15 @@ PHP Code:
 ; WARNING: Do not change the line below
 ; */ ?>
 ```
+
+## Demo migration 
+The user of the module "XC4 to XC5 Migration wizard" may choose to run a migration in the Demo migration mode. In this mode, only a limited range of data is migrated. The idea behind Demo migration mode is that a big X-Cart 4 store may take a really long time to be fully migrated, whereas the user doing a migration wants to know the migration process is going fine sooner than that. You wouldn't want to spend hours waiting for a perfect result just to discover the migration has not worked out all right for your particular situation. For this reason we implemented a mode that allows you to migrate just some of the data to quickly check the migration results and make sure everything is going as expected before doing a full migration.
+
+In the Demo migration mode, the following data are migrated:
+* 10 latest orders;
+* Products for the items from those orders; 
+* Users for these orders;
+* All the categories; 
+* 10 products from one of the categories.
+
+After a migration has been completed in the **Demo migration** mode, a link to the category with the migrated data is provided so the user can review the product list and pagination). The rest of the X-Cart 4 store data (settings, zone, content, etc.) is migrated in full.
