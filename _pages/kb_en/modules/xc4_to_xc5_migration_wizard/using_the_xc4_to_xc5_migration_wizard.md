@@ -111,9 +111,18 @@ To use the wizard:
    
 7.  By now (Wizard step "5. Transfer"), the wizard has collected all the information it requires and is ready to start the data migration process. You can see a list of X-Cart entities that will be transfered from your X-Cart 4 store to the X-Cart 5 platform:
      ![xc5_mw_step5_5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_5.png)
+    
     If orders are going to be migrated, you will get an alert message regarding the currency being used: "The orders will be migrated using the current store currency (_Currency symbol - Currency name_). You can change the currency _here_." You need to make sure your X-Cart 5 store is using the same currency as was used in the X-Cart 4 store. Use the link in the alert message to quickly access your X-Cart 5 store's currency settings (Store setup > Localization, Currency tab).
 
+    Note that if you want to migrate not all your X-Cart 4 orders, but just the latest orders starting from a specific date, it is possible to specify the date using the **Migrate orders from date** field:
+    ![xc5_mw_step5_6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_6.png)
+
+    It is also possible to skip any X-Cart 4 store data that has already been migrated previously by enabling the **Skip previously migrated data** option:
+    ![xc5_mw_step5_6_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_6_1.png)
+    
     To start the migration, click **Start migration**:
+    ![xc5_mw_step5_7.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_7.png)
+
     ![xc5_migration_wizard_transfer2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer2.png)
     
     The migration process begins:
