@@ -59,13 +59,19 @@ To use the wizard:
     Click **Continue** to proceed.
     ![xc5_mw_step3_2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step3_2.png)
     
-5.  At the fourth step of the wizard ("4. Select"), you will see a list of data types that can be migrated from your X-Cart 4 store to X-Cart 5, with check boxes:
+5.  At the fourth step of the wizard ("4. Select"), you will see a list of data types that can be migrated from your X-Cart 4 store to X-Cart 5 ("What to transfer"), with check boxes:
     ![xc5_mw_step4_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_1.png)
 
-    Use the check boxes to select the data types that you want to be moved to X-Cart 5, then click **Save and continue**:
+    Use the check boxes to select the data types that you want to be migrated to X-Cart 5, then click **Save and continue**:
     ![xc5_mw_step4_2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_2.png)
 
-6.  If the module detects that your X-Cart 4 installation has features that are lacking in X-Cart 5 default distribution pack, but can be implemented by enabling certain X-Cart 5 add-on modules, at the next step of the wizard ("5. Enable"), it will provide you with a list of X-Cart 5 modules that you should enable so you can have the same features as in your X-Cart 4 store:
+    If you wish to just try the migration in demo mode this time, select the **Demo migration** option at the top of the page:
+    ![xc5_mw_step4_3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_3.png)
+
+    Then click **Save and continue**:
+    ![xc5_mw_step4_4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_4.png)
+
+6.  If the module detects that your X-Cart 4 installation has features that are lacking in X-Cart 5 default distribution pack, but can be implemented by enabling certain X-Cart 5 add-on modules, at the next step of the wizard ("5. Enable"), it will provide you with a list of X-Cart 5 modules that should be enabled so you can have the same features as in your X-Cart 4 store:
     ![xc5_migration_wizard_enable1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable1.png)
 
     Click **Enable and continue**:
