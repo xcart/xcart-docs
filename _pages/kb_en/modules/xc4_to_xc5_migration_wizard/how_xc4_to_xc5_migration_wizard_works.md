@@ -239,7 +239,7 @@ PHP Code:
 ```
 
 ## Demo migration 
-The user of the module "XC4 to XC5 Migration wizard" may choose to run a migration in the Demo migration mode. In this mode, only a limited range of data is migrated. The idea behind Demo migration mode is that a big X-Cart 4 store may take a really long time to be fully migrated, whereas the user doing a migration wants to know the migration process is going fine sooner than that. You wouldn't want to spend hours waiting for a perfect result just to discover the migration has not worked out all right for your particular situation. For this reason we implemented a mode that allows you to migrate just some of the data to quickly check the migration results and make sure everything is going as expected before doing a full migration.
+The user of the module "XC4 to XC5 Migration wizard" may choose to run a migration in the Demo migration mode. To do so, they need to select the option of the same name at the step "4. Select" of the migration wizard. In the Demo migration mode, only a limited range of data is migrated. The idea behind Demo migration mode is that a big X-Cart 4 store may take a really long time to be fully migrated, whereas the user doing a migration wants to know the migration process is going fine sooner than that. You wouldn't want to spend hours waiting for a perfect result just to discover the migration has not worked out all right for your particular situation. For this reason we implemented a mode that allows you to migrate just some of the data to quickly check the migration results and make sure everything is going as expected before doing a full migration.
 
 In the Demo migration mode, the following data are migrated:
 * 10 latest orders;
@@ -249,3 +249,6 @@ In the Demo migration mode, the following data are migrated:
 * 10 products from one of the categories.
 
 After a migration has been completed in the **Demo migration** mode, a link to the category with the migrated data is provided so the user can review the product list and pagination). The rest of the X-Cart 4 store data (settings, zone, content, etc.) is migrated in full.
+
+## Partial migration (Skip previously migrated data)
+The user of the module "XC4 to XC5 Migration wizard" who has already performed a demo/partial migration of store data from an X-Cart 4 store to X-Cart 5 may choose to run another partial migration of store data to complete the transfer of data from X-Cart 4 to X-Cart 5 skipping any previously migrated X-Cart entities to save time. To do so, they need to select the option **Skip previously migrated data** at the step "5. Transfer" of the migration wizard. 
