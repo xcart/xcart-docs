@@ -122,31 +122,33 @@ To use the wizard:
     
     To start the migration, click **Start migration**:
     ![xc5_mw_step5_7.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_7.png)
-
-    ![xc5_migration_wizard_transfer2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer2.png)
-    
+ 
     The migration process begins:
-    ![xc5_migration_wizard_transfer3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer3.png)
+    ![xc5_mw_step5_71.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_71.png)
 
     Note that the migration process, which may take a while to complete, only continues while the page is open. 
-    ![xc5_migration_wizard_transfer4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer4.png)
+    ![xc5_mw_step5_8.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_8.png)
 
     So be sure to keep the page open or, if you have to close it for a while, be sure to re-open it to allow the migration module to finish its work.
     
     While your data is being migrated from your X-Cart 4 store to X-Cart 5, you will be able to see the progress on the screen. Here are the stages that will have to be completed:
     
-    *   Processing products: 
-    ![xc5_migration_wizard_transfer5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer5.png)
+    * Processing products...
     
-    *   Removing duplicate images:    
-    ![xc5_migration_wizard_transfer6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer6.png)
+    * Processing categories... 
+   
+    * Removing duplicate images...    
+    
+    * Resizing images... 
+    
 
-    *   Resizing images:    
-    ![xc5_migration_wizard_transfer7.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer7.png)
-
-8. Once the transfer has completed, the final step of the wizard will be displayed - "6. Complete":
-    ![xc5_migration_wizard_congrats.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_congrats.png)
+8.  Once the transfer has completed, the final step of the wizard will be displayed - "6. Complete":
+    ![xc5_mw_step6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step6.png)
 
 That is all; your data has been successfully migrated.
 
 In some cases, during the migration of data, things may not go as smoothly as one would hope. For example, PHP execution may be interrupted. Problems like that tend to be related to the time limit settings of the web server, especially if working on a server with limited resources or on a slow internet connection. If you experience errors causing mid-process interruption of the migration, be sure to increase your server time limit (See {% link "Setting the time limit of your server" ref_xqnpttd4 %}) or decrease the **migration_chunk_length** value in etc/config.local.php (See [How XC4 to XC5 Migration wizard works: Migration process](http://kb.x-cart.com/en/modules/xc4_to_xc5_migration_wizard/how_xc4_to_xc5_migration_wizard_works.html#migration-process "Using the module "XC4 to XC5 Migration wizard"")).
+
+If you wish to do another migration (for example, finish migrating your X-Cart 4 data after testing the migration in the **Demo migration** mode), you can restart the migration wizard using the **Restart wizard** button:
+   ![xc5_mw_step6_restart.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step6_restart.png)
+
