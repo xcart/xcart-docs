@@ -72,15 +72,15 @@ To use the wizard:
     ![xc5_mw_step4_4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_4.png)
 
 6.  If the module detects that your X-Cart 4 installation has features that are lacking in X-Cart 5 default distribution pack, but can be implemented by enabling certain X-Cart 5 add-on modules, at the next step of the wizard ("5. Enable"), it will provide you with a list of X-Cart 5 modules that should be enabled so you can have the same features as in your X-Cart 4 store:
-    ![xc5_migration_wizard_enable1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable1.png)
+    ![xc5_mw_step5_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_1.png)
 
     Click **Enable and continue**:
-    ![xc5_migration_wizard_enable2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable2.png)
+    ![xc5_mw_step5_2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_2.png)
 
     What happens next depends on whether your X-Cart 5 store is a trial installation or is using some kind of license (free or non-free).
     
     On a trial installation, the module installer will activate all the required modules:
-    ![xc5_migration_wizard_enable3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable3.png)
+    ![xc5_mw_step5_3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_3.png)
 
     If any paid modules are installed and activated at this step, after the store has been deployed you will get a license warning like the following:
     ![xc5_migration_wizard_enable4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable4.png)
@@ -109,10 +109,11 @@ To use the wizard:
     This means that our licensing problem has been resolved, and we need to go back to our migration wizard to continue with the migration process:
     ![xc5_migration_wizard_enable6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable6.png)
    
-7.  By the next step ("5. Transfer"), the wizard has collected all the information it requires and is ready to start the data migration process. You can see a list of X-Cart entities that will be transfered from your X-Cart 4 store to the X-Cart 5 platform:
-    ![xc5_migration_wizard_transfer1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer1.png)
-    
-    Click **Start migration**.
+7.  By now (Wizard step "5. Transfer"), the wizard has collected all the information it requires and is ready to start the data migration process. You can see a list of X-Cart entities that will be transfered from your X-Cart 4 store to the X-Cart 5 platform:
+     ![xc5_mw_step5_5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_5.png)
+    If orders are going to be migrated, you will get an alert message regarding the currency being used: "The orders will be migrated using the current store currency (_Currency symbol - Currency name_). You can change the currency _here_." You need to make sure your X-Cart 5 store is using the same currency as was used in the X-Cart 4 store. Use the link in the alert message to quickly access your X-Cart 5 store's currency settings (Store setup > Localization, Currency tab).
+
+    To start the migration, click **Start migration**:
     ![xc5_migration_wizard_transfer2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer2.png)
     
     The migration process begins:
