@@ -18,7 +18,7 @@ It is possible to specify your company's identity and contact information so you
 
 Your full contact information (company name, website address, street address, phone and fax numbers) will be included into your customers' invoices like so:  
 
-![]({{site.baseurl}}/attachments/6389857/7602604.png)
+![xc5_company_identity_contact_info_on_invoice.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/xc5_company_identity_contact_info_on_invoice.png)
 
 If you configure your store to provide shipping cost calculation for buyers, the address you enter in the _Company address_ section of the Contact information page will be used as the location from which your goods are shipped.
 
