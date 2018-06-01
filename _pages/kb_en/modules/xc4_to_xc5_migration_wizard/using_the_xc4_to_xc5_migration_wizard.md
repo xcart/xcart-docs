@@ -67,7 +67,7 @@ To use the wizard:
 
     If you wish to just try the migration in demo mode this time, select the **Demo migration** option at the top of the page:
     ![xc5_mw_step4_3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_3.png)
-    More info on Demo migration is available {% link "here" ref_37NAeGlf#demo-migration %}.
+    More info on Demo migration is available in the section {% link "How XC4 to XC5 Migration wizard works: Demo migration" ref_37NAeGlf#demo-migration %} of this manual.
 
     Then click **Save and continue**:
     ![xc5_mw_step4_4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_4.png)
@@ -120,6 +120,7 @@ To use the wizard:
 
     It is also possible to skip any X-Cart 4 store data that has already been migrated previously by enabling the **Skip previously migrated data** option:
     ![xc5_mw_step5_6_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_6_1.png)
+    More info on this option is available in the section {% link "How XC4 to XC5 Migration wizard works: Skipping previously migrated data" ref_37NAeGlf#skipping-previously-migrated-data %} of this manual.
     
     To start the migration, click **Start migration**:
     ![xc5_mw_step5_7.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_7.png)
@@ -159,3 +160,11 @@ In some cases, during the migration of data, things may not go as smoothly as on
 
 If you wish to do another migration (for example, finish migrating your X-Cart 4 data after testing the migration in the **Demo migration** mode), you can restart the migration wizard using the **Restart wizard** button:
    ![xc5_mw_step6_restart.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step6_restart.png)
+   
+
+_Related pages:_
+
+   *   {% link "How XC4 to XC5 Migration wizard works" ref_37NAeGlf %}
+   *   {% link "XC4 to XC5 Migration wizard system requirements and installation" ref_KqsCJNRG %}
+   
+
