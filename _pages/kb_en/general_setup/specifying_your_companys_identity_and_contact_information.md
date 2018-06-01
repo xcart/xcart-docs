@@ -28,6 +28,8 @@ Company name and year in which the store opened will be used in the copyright no
 
 ![]({{site.baseurl}}/attachments/6389857/7602605.png)
 
+The _Contacts_ sections of the Contact information page can be used to set the email addresses for the email notifications your store is going to send to users. More information on your store's email notifications is available in the section {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %} of this manual. Instructions for using the _Contacts_ sections of the Contact information page can be found in the section {% link "Specifying your 'Contacts' email addresses" ref_wKcxbiUf %}.
+
 _Related pages:_
    
    * {% link "General setup" ref_9z7v4QHi %}
