@@ -26,7 +26,7 @@ Such details as your company name, phone number, fax number and website address 
 
 Company name and year in which the store opened will be used in the copyright notice in the website footer:
 
-![xc5_company_name_in_footer.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/xc5_company_name_in_footer.png)
+![xc5_company_name_in_footer1.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/xc5_company_name_in_footer1.png)
 
 The _Contacts_ sections of the Contact information page can be used to set the email addresses for the email notifications your store is going to send to users. 
 ![xc5_notif_contacts_section.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/xc5_notif_contacts_section.png)
