@@ -24,9 +24,9 @@ If you configure your store to provide shipping cost calculation for buyers, the
 
 Such details as your company name, phone number, fax number and website address will be included into email notifications sent to customers.
 
-Company name and year in which the store opened will be used in the copyright notice in the website's footer:
+Company name and year in which the store opened will be used in the copyright notice in the website footer:
 
-![]({{site.baseurl}}/attachments/6389857/7602605.png)
+![xc5_company_name_in_footer.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/xc5_company_name_in_footer.png)
 
 The _Contacts_ sections of the Contact information page can be used to set the email addresses for the email notifications your store is going to send to users. 
 ![xc5_notif_contacts_section.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/xc5_notif_contacts_section.png)
