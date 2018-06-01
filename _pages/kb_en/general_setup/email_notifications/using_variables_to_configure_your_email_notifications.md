@@ -27,12 +27,12 @@ Here's an overview of the variables supported in X-Cart store email notification
    * ```%company_city%```- The city of your company address as specified on your store’s Contact information page.	
    * ```%company_zipcode%```- The zip code of your company address as specified on your store’s Contact information page.	
    * ```%company_phone%```- Your company phone number as specified on your store’s Contact information page.
-   * ```%recipient_name%```
-   * ```%conversation_link%```	
-   * ```%order_number%```	
-   * ```%order_link%```	
-   * ```%order_messages_link%```	
-   * ```%message%```
+   * ```%recipient_name%``` - Name / Company name / Addressee (Customer / Administrator / Vendor). Depending on the type of email notification, this piece of information may be taken from the address book or just be written using a word referring to the type of the user, like "Customer" or "Administrator".
+   * ```%conversation_link%``` - Link to the conversation between the customer and the vendor, without relation to a specific order. (Communication between customer and vendor users is enabled by the Messages addon.) 	
+   * ```%order_number%``` - Order number	
+   * ```%order_link%```	- Link to the order details
+   * ```%order_messages_link%``` - Link to the conversation between the customer and the vendor/administrator regarding a specific order. (Communication between customer and vendor/administrator users is enabled by the Messages addon.) 		
+   * ```%message%``` - Message (enabled by the Messages addon.) 
 
  
 
