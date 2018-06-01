@@ -5,7 +5,7 @@ updated_at: '2018-05-31 15:09 +0400'
 identifier: ref_0KlcQFy1
 title: AJAX widget on product page
 order: 100
-published: false
+published: true
 ---
 ## Introduction
 
