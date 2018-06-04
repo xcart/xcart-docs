@@ -66,7 +66,7 @@ location @handler {
         index cart.php;
 
         rewrite ^/sitemap.xml(\?.+)?$ /cart.php?target=sitemap;
-        rewrite ^/(.*)$ /cart.php?url=$1 last;
+        rewrite ^/((?!images/|files/).*)$ /cart.php?url=$1 last;
 }
 
 location / {
