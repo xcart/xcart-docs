@@ -41,6 +41,7 @@ You can choose between:
     * _Hide and make them available only via a direct link_ 
     
 *   **Display check number for eCheck payment method**: This setting is used for stores using the Check payment method. It defines whether the payment information form provided to the customer who has chosen to pay by check should include a field for check number, or not.
+    ![xc5_check_number_field.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_check_number_field.png)
 
 *   **Subcategory listings format**: This setting defines how subcategories should be displayed on category pages. 
     Setting the subcategory listings format to "_Icons_" allows you to have icons displayed for your subcategories:
