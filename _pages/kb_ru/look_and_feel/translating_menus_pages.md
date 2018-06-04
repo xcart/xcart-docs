@@ -7,7 +7,7 @@ title: 'Перевод новостей, меню и статических ст
 order: 200
 published: false
 ---
-Not all text in X-Cart is orgaized in labels, as you may have noticed already.  There are also menus, static pages and news that are translated a bit differenly. To translate menus, static pages and news you'll need to {% link "switch" ref_x5oSN86B %} the cart admin to the language of translation, find the element you need to translate and edit it. 
+Для перевода текста  новостей, меню и статических страниц на другой язык следует не редактировать языковые метки, а переключить панель управления на язык перевода и редактировать тексты. 
 
 {% note info %}
 A corresponding language package should be {% link "installed" ref_NH3w8sSS %} to proceed with further translations.
@@ -73,4 +73,3 @@ We'll translate the 'BIG WINTER SALE' announcement in our sample:
 The translated news message will look as follows in the store front-end:
 
 ![news-homw.png]({{site.baseurl}}/attachments/ref_7I70QnHa/news-homw.png)
-
