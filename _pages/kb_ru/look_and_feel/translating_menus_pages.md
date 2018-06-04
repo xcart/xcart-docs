@@ -7,22 +7,17 @@ title: 'Перевод новостей, меню и статических ст
 order: 200
 published: false
 ---
-Для перевода текста  новостей, меню и статических страниц на другой язык следует не редактировать языковые метки, а {% link "" ref_adminlanguage %} на язык перевода и редактировать тексты. 
+Для перевода текста **новостей, меню и статических страниц** на другой язык следует не {% link "редактировать языковые метки" ref_translation %}, а {% link "переклчить язык панели управления" ref_adminlanguage %} на язык перевода и редактировать тексты.
+![2.jpg]({{site.baseurl}}/attachments/ref_2lJntxE4/2.jpg)
 
 ## Перевод меню
 
 Откройте раздел **Содержание / Меню** и переключите язык панели управления на язык перевода. Названия пунктов меню не переведены на установленный язык и остаются на стандартном языке магазина. Нажмите на название пункта меню и в появившемся поле замените текст на название на новом языке.
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![menus.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus.png)
-)</div>
-  <div class="column" markdown="span">![menus-german.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus-german.png)
-</div>
-</div>
+![3.jpg]({{site.baseurl}}/attachments/ref_2lJntxE4/3.jpg)
 
 В магазине появились пункты меню на другом языке:
-
-![menus-de-home.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus-de-home.png)
+![4.jpg]({{site.baseurl}}/attachments/ref_2lJntxE4/4.jpg)
 
 ## Перевод статических страниц
 
