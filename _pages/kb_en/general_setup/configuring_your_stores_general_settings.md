@@ -74,7 +74,7 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
     
     *   _Rate_ - (Enabled by the addon **Product reviews**) Products sorted by their rating (Products rated highest by the buyers are displayed first).
 
-*   **Default order to sort products within a search result**: This setting allows you to control the default display order for products that may be displayed in a list of search results after someone searches for a product in the Customer area. 
+*   **Default order to sort products within a search result**: This setting specifies the default sort order for products that may be displayed in a list of search results after someone searches for a product in the Customer area. If your store uses the default X-Cart's product search feature, the list of available options here is the same as for the setting 'Default order to sort products within a category' above. If your store's search is powered by CloudSearch, you do not need to adjust this option, because CloudSearch automatically sets the default sort order for search results to Relevance.
 
 *   **Default display mode for products list**: This setting allows you to set the default display mode for products on the storefront:
     
