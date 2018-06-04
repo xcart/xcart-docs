@@ -26,25 +26,23 @@ published: false
 Как пример, сделаем перевод страницы **Условия работы магазина**:
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![pages.png]({{site.baseurl}}/attachments/ref_7I70QnHa/pages.png)
+  <div class="column" markdown="span">![5.jpg]({{site.baseurl}}/attachments/ref_2lJntxE4/5.jpg)
 </div>
-  <div class="column" markdown="span">![pages-de.png]({{site.baseurl}}/attachments/ref_7I70QnHa/pages-de.png)</div>
+  <div class="column" markdown="span">![6.jpg]({{site.baseurl}}/attachments/ref_2lJntxE4/6.jpg)
+</div>
 </div>
 
 Перевода требует и страница и название ссылки на эту страницу в нижнем меню магазина. Откройте раздел **Содержание / Меню**, перейдите на вкладку **Нижнее меню** и измените название пункта **Условия использования**.
-
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![footer.png]({{site.baseurl}}/attachments/ref_7I70QnHa/footer.png)
-</div>
-  <div class="column" markdown="span">![terms-de.png]({{site.baseurl}}/attachments/ref_7I70QnHa/terms-de.png)
-</div>
-</div>
+![7.jpg]({{site.baseurl}}/attachments/ref_2lJntxE4/7.jpg)
 
 Страница отображается в магазине на другой языке:
 
-![footer-home.png]({{site.baseurl}}/attachments/ref_7I70QnHa/footer-home.png)
-
-![menus-de-home.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus-de-home.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![8.jpg]({{site.baseurl}}/attachments/ref_2lJntxE4/8.jpg)
+</div>
+  <div class="column" markdown="span">![9.jpg]({{site.baseurl}}/attachments/ref_2lJntxE4/9.jpg)
+</div>
+</div>
 
 ## Перевод новостей
 
