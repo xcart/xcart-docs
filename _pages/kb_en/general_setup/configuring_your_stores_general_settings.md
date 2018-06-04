@@ -12,7 +12,7 @@ redirect_from:
   - /look_and_feel/configuring_your_stores_general_settings.html
 ---
 
-Most of general settings that determine your store's appearance and behavior can be found in the **Store setup > Cart & checkout** section, in the **General** tab:
+Most of the general settings that define the way your store looks and functions can be found in the section **Store setup > Cart & checkout** (the tab **General**):
 
 ![general_settings.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/general_settings.png)
 
@@ -34,7 +34,7 @@ You can choose between:
 
 ## Customer Zone settings
 
-*   **How to show out of stock products** : This setting allows you to set whether or not to display the out-of-stock products in the customer storefront. You can choose between the following options:
+*   **How to show out of stock products** : This setting allows you to specify whether out-of-stock products should be visible to customers on the storefront. The following options are available:
     
     * _Show in all the sections_  
     * _Show only in categories and search listings_ 
