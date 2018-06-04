@@ -7,17 +7,11 @@ title: 'Перевод новостей, меню и статических ст
 order: 200
 published: false
 ---
-Для перевода текста  новостей, меню и статических страниц на другой язык следует не редактировать языковые метки, а переключить панель управления на язык перевода и редактировать тексты. 
+Для перевода текста  новостей, меню и статических страниц на другой язык следует не редактировать языковые метки, а {% link "" ref_adminlanguage %} на язык перевода и редактировать тексты. 
 
-{% note info %}
-A corresponding language package should be {% link "installed" ref_NH3w8sSS %} to proceed with further translations.
-{% endnote %}
+## Перевод меню
 
-{% toc Let's consider each case in details. %}
-
-## Translating menus
-
-To translate menus go to the **Content** > **Menus** section of your store admin area, switch the admin language to the one you need (it will be German in our sample), translate the menu(s) value and save the changes.
+Откройте раздел **Содержание / Меню** и переключите язык панели управления на язык перевода. Названия пунктов меню не переведены на установленный язык и остаются на стандартном языке магазина. Нажмите на название пункта меню и в появившемся поле замените текст на название на новом языке.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![menus.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus.png)
@@ -26,15 +20,15 @@ To translate menus go to the **Content** > **Menus** section of your store admin
 </div>
 </div>
 
-The translated menus will look as follows in the store front-end:
+В магазине появились пункты меню на другом языке:
 
 ![menus-de-home.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus-de-home.png)
 
-## Translating static pages
+## Перевод статических страниц
 
-To translate static pages go to the **Content** > **Pages** section of your store admin area, switch the admin language to the one you need (it will be German in our sample), click on the page you want to edit, translate the page name and content and save the changes. 
+Откройте раздел **Содержание / Страницы**, переключите язык панели управления на язык перевода, нажмите на название страницы и переведите название и описание страницы на новый язык. 
 
-We'll translate the 'Terms and conditions' page in our sample:
+Как пример, сделаем перевод страницы **Условия работы магазина**:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![pages.png]({{site.baseurl}}/attachments/ref_7I70QnHa/pages.png)
@@ -42,7 +36,7 @@ We'll translate the 'Terms and conditions' page in our sample:
   <div class="column" markdown="span">![pages-de.png]({{site.baseurl}}/attachments/ref_7I70QnHa/pages-de.png)</div>
 </div>
 
-For 'Terms and conditions' it will also be necessary to translate its value in the footer menu. So go to the **Content** > **Menus** > **Footer** menu section. Find the 'Info Links' menu and click on the submenu items. There, click on 'Terms and conditions', translate it and save the changes.
+Перевода требует и страница и название ссылки на эту страницу в нижнем меню магазина. Откройте раздел **Содержание / Меню**, перейдите на вкладку **Нижнее меню** и измените название пункта **Условия использования**.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![footer.png]({{site.baseurl}}/attachments/ref_7I70QnHa/footer.png)
@@ -51,17 +45,17 @@ For 'Terms and conditions' it will also be necessary to translate its value in t
 </div>
 </div>
 
-The translated 'Terms and conditions' page will look as follows in the store front-end:
+Страница отображается в магазине на другой языке:
 
 ![footer-home.png]({{site.baseurl}}/attachments/ref_7I70QnHa/footer-home.png)
 
 ![menus-de-home.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus-de-home.png)
 
-## Translating NEWs
+## Перевод новостей
 
-To translate NEWS go to the **Content** > **News messages** section of your store admin area, switch the admin language to the one you need (it will be German in our sample), click on the news message you want to edit, translate the message name and content and save the changes. 
+Откройте раздел **Содержание / Новости**, переключите язык панели управления на язык перевода, нажмите на новость и переведите её название, затем нажмите **Изменить** и переведите текст на другой язык. 
 
-We'll translate the 'BIG WINTER SALE' announcement in our sample:
+Для примера переведём новость :
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![news-en.png]({{site.baseurl}}/attachments/ref_7I70QnHa/news-en.png)
@@ -70,6 +64,6 @@ We'll translate the 'BIG WINTER SALE' announcement in our sample:
 </div>
 </div>
 
-The translated news message will look as follows in the store front-end:
+Новость появилась в магазине на новом языке:
 
 ![news-homw.png]({{site.baseurl}}/attachments/ref_7I70QnHa/news-homw.png)
