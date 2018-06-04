@@ -69,6 +69,10 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
     *   _By Name - A-Z_ - Products sorted by their names, A to Z direction.
     
     *   _By Name - Z-A_ - Products sorted by their names, Z to A direction.
+    
+    *   _Sales_ - (enabled by the addon **Bestsellers**) Products sorted according to their popularity.
+    
+    * 
 
 *   **Default order to sort products within a search result**: This setting allows you to control the default display order for products that may be displayed in a list of search results after someone searches for a product in the Customer area. 
 
