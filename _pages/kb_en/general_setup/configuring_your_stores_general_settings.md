@@ -57,16 +57,18 @@ You can choose between:
 *   **Default order to sort products within a category**: This setting allows you to control the default display order for products within a category. 
     The following options are available:
 
-    *   _Recommended_ - The product sort order defined by the store owner via the category settings:
+    *   _Recommended_ - Product sort order defined by the store owner via the category settings:
         ![products-order.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/products-order.png)
  
+    *   _Newest first_ - Products sorted by arrival date.
+    
     *   _By Price - cheapest first_ - The low to high price sort order (Products with the lowest price are displayed first).
      
     *   _By Price - cheapest last_ - The high to low price sort order (Products with the highest price are displayed first).
 
-    *   _By Name - A-Z_ - The sort order in which products are sorted by their names, A to Z direction.
+    *   _By Name - A-Z_ - Products sorted by their names, A to Z direction.
     
-    *   _By Name - Z-A_ - The sort order in which products are sorted by their names, Z to A direction.
+    *   _By Name - Z-A_ - Products sorted by their names, Z to A direction.
 
 *   **Default order to sort products within a search result**: This setting allows you to control the default display order for products that may be displayed in a list of search results after someone searches for a product in the Customer area. 
 
