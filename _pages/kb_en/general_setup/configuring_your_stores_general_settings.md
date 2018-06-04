@@ -45,9 +45,10 @@ You can choose between:
 
 *   **Subcategory listings format**: This setting defines how subcategories should be displayed on category pages. 
     Setting the subcategory listings format to "_Icons_" allows you to have icons displayed for your subcategories:
-    ![]({{site.baseurl}}/attachments/7505478/7602697.png)
+    ![xc5_subcategory_listings_icons.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_subcategory_listings_icons.png)
+
     Setting the format to "_List_" produces a simple list of subcategory names, without icons:
-    ![]({{site.baseurl}}/attachments/7505478/7602698.png)
+    ![xc5_subcategory_listings_list.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_subcategory_listings_list.png)
     
     {% note info %}
     This setting does not apply to root (top level) categories. The appearance of root categories on the store's Front page can be adjusted with the setting _'Root category listings format'_ in the **Content > Front page** section.
