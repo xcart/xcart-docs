@@ -5,7 +5,7 @@ updated_at: '2018-06-04 14:48 +0400'
 identifier: ref_2lJntxE4
 title: 'Перевод новостей, меню и статических страниц на другой язык'
 order: 200
-published: false
+published: true
 ---
 Для перевода текста **новостей, меню и статических страниц** на другой язык следует не {% link "редактировать языковые метки" ref_translation %}, а {% link "переклчить язык панели управления" ref_adminlanguage %} на язык перевода и редактировать тексты.
 ![2.jpg]({{site.baseurl}}/attachments/ref_2lJntxE4/2.jpg)
@@ -51,12 +51,12 @@ published: false
 Для примера переведём новость :
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![news-en.png]({{site.baseurl}}/attachments/ref_7I70QnHa/news-en.png)
+  <div class="column" markdown="span">![10.jpg]({{site.baseurl}}/attachments/ref_2lJntxE4/10.jpg)
 </div>
-  <div class="column" markdown="span">![news-de.png]({{site.baseurl}}/attachments/ref_7I70QnHa/news-de.png)
+  <div class="column" markdown="span">![11.jpg]({{site.baseurl}}/attachments/ref_2lJntxE4/11.jpg)
 </div>
 </div>
 
 Новость появилась в магазине на новом языке:
 
-![news-homw.png]({{site.baseurl}}/attachments/ref_7I70QnHa/news-homw.png)
+![12.jpg]({{site.baseurl}}/attachments/ref_2lJntxE4/12.jpg)
