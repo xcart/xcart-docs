@@ -5,7 +5,7 @@ updated_at: '2018-06-05 12:28 +0400'
 identifier: ref_7AGCIqKw
 title: Тэги товаров (Product Tags)
 order: 120
-published: false
+published: true
 ---
 [Теги товаров (Product Tags)](https://market.x-cart.com/addons/product-tags.html "Product Tags") - встроенный модуль, который конкретизирует результаты поиска и помогает покупателям быстрее находить нужные товары. Модуль **Теги товаров (Product Tags)** работает самостоятельно или с модулем **Фильтры товаров (Product Filter)**. 
 
