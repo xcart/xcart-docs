@@ -69,12 +69,19 @@ published: false
 
 **Поиск по тегам в интерфейсе администратора** - Откройте раздел **Каталог / Товары**, в секции фильтров для поиска отметьте поиск по тегам и укажите название тега в поле поиска.
 
-![tag-search.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/tag-search.png)
+![11.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/11.jpg)
 
 **Поиск по тегам в интерфейсе покупателей, если теги отображаются в боковой колонке на страницах магазина** - В секции **Теги** нажмите на тег, чтобы увидеть связанные с ним товары.
 
-![front-end.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/front-end.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![12.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/12.jpg)
+)</div>
+  <div class="column" markdown="span">![13.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/13.jpg)
+</div>
+</div>
 
 **Поиск по тегам в интерфейсе покупателей, если теги не отображаются в боковой колонке на страницах магазина** - На главной странице магазина ажмите на поиск, откроется страница расширенного поиска товаров. Нажмите **Больше параметров поиска**, отметьте **Тег** и напишите название тега в поле поиска. 
+![15.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/15.jpg)
 
 На странице категории выберите тег и нажмите **Показать**. 
+![16.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/16.jpg)
