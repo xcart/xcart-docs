@@ -20,7 +20,7 @@ published: false
 
 После активации модуля перейдите по ссылке **Настройки**.
 
-![addons.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/addons.png)
+![4.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/4.jpg)
 
 ## Настройка модуля
 
@@ -30,24 +30,34 @@ published: false
 
  - **Позволять продавцам создавать новые теги:** Эта опция доступна в настройках модуля, только если в магазине активирован модуль **X-Cart Мультивендор**, и позволяет продавцам создавать теги для своих товаров. 
 
-![settings.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/settings.png)
+![5.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/5.jpg)
 
 ## Создание и настройка тегов
 
 1. Чтобы создать и настроить теги товаров откройте раздел **Каталог / Теги**.
 Нажмите **Новый тег**, введите название тега и сохраните изменения.
-![tags.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/tags.png)
+![6.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/6.jpg)
 2. Теперь присвойте созданные теги товарам. Добавлять теги можно к каждому товару отдельно или к нескольким товарам одновременно. Каждому товару присваивается сколько угодно тэгов.
 
     Откройте раздел **Каталог / Товары**.
 
 * **Добавление тега одному товару** - Нажмите на название товара, на открывшейся странице выберите значение в поле **Теги** и нажмите **Обновить товар**. 
   
-  ![tags-field.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/tags-field.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![7.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/7.jpg)
+)</div>
+  <div class="column" markdown="span">![8.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/8.jpg)
+</div>
+</div>
   
 * **Добавление тега нескольким товарам** - Отметьте товары в списке, нажмите **Редактировать выбранные / Категории и теги**. 
   
-  ![bulk-edit.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/bulk-edit.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![9.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/9.jpg)
+)</div>
+  <div class="column" markdown="span">![10.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/10.jpg)
+</div>
+</div>
    
   На открывшейся странице создайте, выберите из готовых, удалите или замените теги для выбранных товаров.
 
