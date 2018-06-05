@@ -17,7 +17,7 @@ published: false
   
    В разделе **Каталог / Экспорт** выберите данные для экспорта и нажмите **Начать экспорт**.
 
-   ![]({{site.baseurl}}/attachments/ref_5MQvg8Mm/export.png)
+   ![2.jpg]({{site.baseurl}}/attachments/ref_7bXXWi0F/2.jpg)
   
    Будет создан СSV файл с выбранной информацией на стандартном языке магазина.
 
