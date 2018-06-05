@@ -22,3 +22,4 @@ categories:
 *   {% link "Лидеры продаж" ref_6OU4G1wB %}
 *   {% link "Оптовые цены и минимальный объём покупки" ref_3BQKP6eU %}
 *   {% link "Запуск распродажи" ref_2V0wZ5qu %}
+*   {% link "Тэги товаров (Product Tags)" ref_7AGCIqKw %}
