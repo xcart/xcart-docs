@@ -7,9 +7,9 @@ title: Тэги товаров (Product Tags)
 order: 120
 published: false
 ---
-[Product Tags](https://market.x-cart.com/addons/product-tags.html "Product Tags") is a built-in X-Cart 5 module that can be used to narrow down search results either within the {% link "Product Filter Module" ref_6e82A7rL %} or independently of it and hence can improve the oveall customer experience. 
+[Тэги товаров (Product Tags)](https://market.x-cart.com/addons/product-tags.html "Product Tags") - встроенный модуль, который конкретизирует результаты поиска и помогает покупателям быстрее находить нужные товары. Модуль **Тэги товаров (Product Tags)** работает самостоятельно или с модулем **Фильтры товаров (Product Filter)**. 
 
-Please check that the **Product Tags** module is {% link "installed and enabled" ref_0fGEpvrh %} in the **Addons** section of the store admin area. 
+Модуль уже установлен в **X-Cart Бизнес**, **X-Cart Мультивендор** и **X-Cart Всё включено**, и требует только {% link "активации" ref_IEo2gFuZ %}. Для **X-Cart Базовый** модуль следует {% link "приобрести, установить и активировать" ref_gpeZtm28 %}. 
 
 ![addons.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/addons.png)
 
