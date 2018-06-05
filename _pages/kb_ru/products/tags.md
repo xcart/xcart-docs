@@ -13,9 +13,9 @@ published: false
 
 Модуль уже установлен в **X-Cart Бизнес**, **X-Cart Мультивендор** и **X-Cart Всё включено**, и требует только {% link "активации" ref_IEo2gFuZ %}. Для **X-Cart Базовый** модуль следует {% link "приобрести, установить и активировать" ref_gpeZtm28 %}. 
 
-![addons.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/addons.png)
-
 После активации модуля перейдите по ссылке **Настройки**.
+
+![addons.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/addons.png)
 
 ## Настройка модуля
 
