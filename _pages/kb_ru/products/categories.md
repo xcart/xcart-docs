@@ -36,18 +36,18 @@ published: false
 * **Родительская категория** - Если выбрано значение **Главная категория**, новая категория будет одной из главных категорий, которые отображаются в секции **Категории** на главной странице магазина. Если выбрано **название категории**, новая категория будет подкатегорией выбранной категории. 
 * **Настроить показ заголовка для категории** - Настройка определяет, показывать или не показывать название категории на странице этой категории.
 * **Изображение категории** - Установите изображение категории, покупатели увидят эту картинку над названием категории на главной странице магазина.
-* Top banner: Use this section to add a banner of the category.
-* Description: A cateory description that will be displayed on the category details page.
-* Clean URL: The category page Clean URL (for SEO purposes).
-* Category page title: The title to be used in the title bar of this category details page (for SEO purposes). If the field is left blank the category name will be used as Page Title.
-* Meta keywords: The keywords to be used in the keywords META tag on the category page (for SEO purposes).
-* Meta description: The description to be used in the description META tag on the category page (for SEO purposes).
-* Open Graph meta tags: The custom META tags for sharing the category page on Facebook.
-* Memberships: Membership levels to which this category should be available. Non-members and users belonging to other membership levels will not be able to see the category on the storefront.
-* Enabled: Whether the category should be displayed on the storefront. Uncheck this option to temporarily remove the category from the storefront (Store visitors will not be able to see it).
-* Classes for product filter: Define what attributes will be included into the {% link "product filter" ref_6e82A7rL %} block on a category page in the store front-end
+* **Верхний баннер** - баннер отображается сверху на странице категории.
+* **Описание** - Информация о категории, которую покупатели увидят на странице категории.
+* **ЧПУ** - Семантическая ссылка на категорию, необходимая для поисковой оптимизации.
+* **Заголовок страницы категории** - Название категории на вкладке браузера, в которой открыта эта категория. Если поле не заполнено, будет использовано название категории.
+* **Meta ключевые слова** - ключевые слова в мета теге _keywords_ страницы категории, необходимые для поисковой оптимизации.
+* **Meta описание** - Описание в мета теге _description_ страницы категории, необходимое для поисковой оптимизации.
+* **Мета теги Open Graph** - Мета теги стандарта _Open Graph_ для передачи страницы категории сервису _Facebook_.
+* **Группы пользователей** - Только члены выбранных групп пользователей будут видеть эту категорию в магазине. Покупатели, входящие в другие группы пользователей или не входящие ни в какую группу, не увидят категорию и её товары.
+* **Включено** - Опция включает и отключает категорию. Категория отображается или не отображается в магазине.
+* **Классы для фильтра продуктов** - Свойства товаров, которые будут представлены в секции фильтров на странице категории.
 
-Click **Update** to save the changes.
+Когда категория настроена, нажмите **Обновить** для сохранения изменений.
 
 ## Adding a subcategory
 
