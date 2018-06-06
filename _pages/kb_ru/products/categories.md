@@ -95,7 +95,7 @@ published: false
 
    ![submenu.png]({{site.baseurl}}/attachments/ref_6rpDdput/submenu.png)
 
-3. Чтобы улучшить внешний вид магазина, подберите подходящую разметку страниц в разделе **Интерфейс / разметка стсраницы**
+3. Установите разметку страниц с верхним меню в разделе **Интерфейс / разметка страницы**
 
    ![layout.png]({{site.baseurl}}/attachments/ref_6rpDdput/layout.png)
 
