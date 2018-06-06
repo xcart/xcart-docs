@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-06-05 12:28 +0400'
 identifier: ref_7AGCIqKw
-title: Тэги товаров (Product Tags)
+title: Теги товаров (Product Tags)
 order: 120
 published: true
 ---
