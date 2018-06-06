@@ -89,7 +89,7 @@ published: false
 
 Секция категорий расположена в левой колонке страниц магазина. 
 
-![home.png]({{site.baseurl}}/attachments/ref_6rpDdput/home.png)
+![11.jpg]({{site.baseurl}}/attachments/ref_1Iu2dCz7/11.jpg)
 
 Переместите секцию категрий на другое местоположение с помощью встроенного редактора.
 
@@ -97,25 +97,28 @@ published: false
 
 1. Сделайте категории пунктами меню в разделе **Содержание / Меню**, как описано в статье {% link "Создание новых пунктов меню" ref_newmenuitem %}.
 
-   ![menus.png]({{site.baseurl}}/attachments/ref_6rpDdput/menus.png)
+Чтобы добавить ссылку на страницу магазина (например, на страницу категории), укажите ссылку как относительный путь _?target=category&categoryid=4_ или как абсолютный путь http://www.магазин.ру/cart.php?target=category&category_id=4. Также, короткий путь _{categoryname}_ будет вести на страницу категории.
 
-   {% note info %}
-   Чтобы добавить ссылку на страницу магазина (например, на страницу категории), укажите ссылку как относительный путь _?target=category&categoryid=4_ или как абсолютный путь http://www.магазин.ру/cart.php?target=category&category_id=4. Также, короткий путь _{categoryname}_ будет вести на страницу категории
-   {% endnote %}
+Расположите в нужном порядке и активируйте меню категорий. 
 
-   Расположите в нужном порядке и активируйте меню категорий. 
+![12.jpg]({{site.baseurl}}/attachments/ref_1Iu2dCz7/12.jpg)
    
 2. Для категорий с подкатегориями создайте подпункты меню. Наведите курсор на категорию и нажмите **Добавить** в столбце **Подменю**
 
-   ![submenu.png]({{site.baseurl}}/attachments/ref_6rpDdput/submenu.png)
-
+  <div class="ui stackable two column grid">
+  <div class="column" markdown="span">![13.jpg]({{site.baseurl}}/attachments/ref_1Iu2dCz7/13.jpg)
+)</div>
+  <div class="column" markdown="span">![14.jpg]({{site.baseurl}}/attachments/ref_1Iu2dCz7/14.jpg)
+</div>
+</div>
+ 
 3. Установите разметку страниц с верхним меню в разделе **Интерфейс / разметка страницы**
 
-   ![layout.png]({{site.baseurl}}/attachments/ref_6rpDdput/layout.png)
+   ![15.jpg]({{site.baseurl}}/attachments/ref_1Iu2dCz7/15.jpg)
 
 4. Категории появились в главном меню магазина
 
-   ![home_1.png]({{site.baseurl}}/attachments/ref_6rpDdput/home_1.png)
+   ![16.jpg]({{site.baseurl}}/attachments/ref_1Iu2dCz7/16.jpg)
    
 {% note info%}
 Другой и более простой способ перенести категории в верхнее меню - использовать модуль [Горизонтальное меню категорий (Horizontal Flyout Categories Menu)](https://market.x-cart.com/addons/horizontal-flyout-categories-menu.html "Product Categories").
