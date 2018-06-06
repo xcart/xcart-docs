@@ -7,30 +7,34 @@ title: Категории товаров
 order: 130
 published: false
 ---
-It's not a secret that to improve customer experience and to make the site navigation easier it's better to organize products into categories. This section provides information on how to add categories to your store manually. Please note that you can also add categories via {% link "import" ref_VXdfNsVw %}. 
+Распределение товаров по категориям упрощает покупателям поиск и нивигацию по магазину. Категории создаются двумя способами - путём {% link "импорта" ref_AwaMbiEf %}и вручную. 
 
-{% toc In this article: %}
+* [Создание категории](создание-категори)
+* [Создание подкатегории](создание-подкатегории)
+* [Добавление товара в категорию](добавление-товара-в-категорию)
+* [Создание рекомендуемых товаров](создание-рекомендуемых-товаров)
+* [Отображение категорий в магазине](отображение-категорий-в-магазине)
 
-## Adding a new category
 
-To add a new category you need to go to the _Categories_ section of your store admin area (**Catalog** > **Categories**), click the **New Category** button, name the category in the field that will appear and _**Save**_ the changes. 
+## Создание категории 
+
+На странице **Каталог / Категории** нажмите **Новая категория** и в появившемся поле напишите название новой категории. Нажмите **Сохранить**. 
 
 ![new.png]({{site.baseurl}}/attachments/ref_6rpDdput/new.png)
 
-You'll see the category you've just created in the list. Categories are displayed on the store home page in the order of appearance in the list, so change the category position if necessary. 
+Новая категория появилась вверху списка. В магазине категории отображаются в том же порядке, что и в панели администратора. Если нужно, переместите категорию на другую позицию. 
 
 ![list.png]({{site.baseurl}}/attachments/ref_6rpDdput/list.png)
 
-To edit the category further click on the category name. Use the fields in the **Category Info** tab to provide information about the category. The only required fields are _Category name_ and _Parent category_.
+Для редактирования свойств новой категории нажмите на название. Общие настройки категории находятсятся на вкладке **Информация о категории**. На вкладках **Подкатегории**, **Товары** и **Рекомендуемые товары** происходит управление подкатегориями и товарами, входящими в эту категорию.
 
 ![edit-category.png]({{site.baseurl}}/attachments/ref_6rpDdput/edit-category.png)
 
+### Информация о категории
 
-Category information that can be specified
-
-* Category name: The name by which you and your customers will identify this category.
-* Parent category: The category to which this category belongs (if it's a subcategory). If this is a main category let is belong to the root category (i.e. to be displayed on the home page). 
-* Show category title: Choose if you want the category to be visible or hidden from the customers.
+* **Название категории** - одно и то же название отображается в интерфейсе и администратора и покупателей.
+* **Родительская категория** - Если выбрано значение **Главная категория**, новая категория будет одной из главных категорий, которые отображаются в секции **Категории** на главной странице магазина. Если выбрано **название категории**, новая категория будет подкатегорией выбранной категории. 
+* **Настроить показ заголовка для категории** - Настройка определяет, показывать или не показывать название категории на странице этой категории.
 * Category image: Use this section to add an image of the category.
 * Top banner: Use this section to add a banner of the category.
 * Description: A cateory description that will be displayed on the category details page.
@@ -97,4 +101,3 @@ To do so you should:
 {% note info%}
 It's also possble to move the categories list to the horizontal bar using the [Horizontal Flyout Categories Menu](https://market.x-cart.com/addons/horizontal-flyout-categories-menu.html "Product Categories") module. It's easier in set-up.
 {% endnote %}
-
