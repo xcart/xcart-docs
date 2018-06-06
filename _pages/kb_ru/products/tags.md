@@ -36,7 +36,7 @@ published: true
 
 1. Чтобы создать и настроить теги товаров откройте раздел **Каталог / Теги**.
 Нажмите **Новый тег**, введите название тега и сохраните изменения.
-![6.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/6.jpg)
+![3.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/3.jpg)
 2. Теперь присвойте созданные теги товарам. Добавлять теги можно к каждому товару отдельно или к нескольким товарам одновременно. Каждому товару присваивается сколько угодно тэгов.
 
     Откройте раздел **Каталог / Товары**.
@@ -56,7 +56,7 @@ published: true
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![9.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/9.jpg)
 )</div>
-  <div class="column" markdown="span">![10.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/10.jpg)
+  <div class="column" markdown="span">![2.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/2.jpg)
 </div>
 </div>
     
