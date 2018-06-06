@@ -71,15 +71,15 @@ published: false
 
 На странице редактирования категории перейдите на вкладку **Рекомендуемые товары**, нажмите **Добавить рекомендуемые товары** и выберите товары из списка. В магазине должен быть установлен и активирован модуль {% link "Рекомендуемые товары" ref_0GmOySU6 %}.
 
-## Categories representation
+## Отображение категорий в магазине
 
-By default the categories block is displayed in the left side column on the home page. 
+Секция категорий расположена в левой колонке страниц магазина. 
 
 ![home.png]({{site.baseurl}}/attachments/ref_6rpDdput/home.png)
 
-It's possible to change the categories block location using the [webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Product Categories"). Also it's possible to remove the categories block at all and add categories to the top menu. You'll get a horizontal categories representation this way. 
+Переместите секцию категрий на другое местоположение с помощью встроенного редактора.
 
-To do so you should:
+Также, можно удалить секцию категорий и поместить категории в верхнее меню сайта:
 
 1. Add your categories as menus on the Menus page (**Content** > **Menus**) in the store back-end as described in {% link "Adding new items to your store's menus" ref_BDykFBbw %}.
 
