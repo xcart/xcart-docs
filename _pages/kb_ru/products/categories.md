@@ -67,9 +67,9 @@ published: false
 
 ![product.png]({{site.baseurl}}/attachments/ref_6rpDdput/product.png)
 
-## Adding featured products
+## Создание рекомендемых товаров
 
-Use the _Featured Products_ tab on the category details page to add featured products to a category. For more info on the featured products set-up please fere to {% link "Adding featured products" ref_4iFdpTdv %}.
+На странице редактирования категории перейдите на вкладку **Рекомендуемые товары**, нажмите **Добавить рекомендуемые товары** и выберите товары из списка. В магазине должен быть установлен и активирован модуль {% link "Рекомендуемые товары" ref_0GmOySU6 %}.
 
 ## Categories representation
 
