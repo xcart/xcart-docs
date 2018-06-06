@@ -7,13 +7,14 @@ title: Групповое редактирование товаров
 order: 140
 published: false
 ---
-It's not a secret that making similar changes in multiple products is a monotonous and time-consuming process. Hence it facilitates the general workflow greatly when an admin can change multiple products at the same time. In X-Cart you can do this using the **'Bulk edit all'** tool on the product listing page in the store admin area (**Catalog** -> **Products**).
+Модуль **Групповое редактирование товаров Bulk Editing** установлен и актвирован в **X-Cart Бизнес**, **X-Cart Всё включено** и **X-Cart Мультивендор**. В **X-Cart Базовый** этот модуль недоступен, чтобы использоват модуль, следует приобрести лицензию  **X-Cart Бизнес**, **X-Cart Всё включено** или **X-Cart Мультивендор**.
+
+Настройка товаров подразумевает одинаковые действия с каждым товаром. Чтобы сэкономить время и избежать монотонной работы, воспользуйтесь функцией группового редактирования товаров в разделе **Каталог / Товары**.
 
 ![bulk-edit-all.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/bulk-edit-all.png)
 
-With the bulk editing tool you can enable/disable products, put products on sale or cancel the sale for the products, change products properties (categories, tags, inventory, prices, etc.).
+В массовое изменение входит включение и отключение товаров, размещение товаров на распродаже, завершение распродажи, редактирование свойств товаров (категорий, тегов, цен, запаса и т.д.).
 
-Let's review each option in details:
 {% toc %}
 
 ## Enabling/Disabling products
