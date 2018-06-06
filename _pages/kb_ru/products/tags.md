@@ -45,17 +45,16 @@ published: true
   
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![7.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/7.jpg)
-)</div>
+</div>
   <div class="column" markdown="span">![8.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/8.jpg)
 </div>
 </div>
-  
-  
+    
 * **Добавление тега нескольким товарам** - Отметьте товары в списке, нажмите **Редактировать выбранные / Категории и теги**. На открывшейся странице создайте, выберите из готовых, удалите или замените теги для выбранных товаров.
   
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![9.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/9.jpg)
-)</div>
+</div>
   <div class="column" markdown="span">![2.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/2.jpg)
 </div>
 </div>
@@ -73,7 +72,7 @@ published: true
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![12.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/12.jpg)
-)</div>
+</div>
   <div class="column" markdown="span">![13.jpg]({{site.baseurl}}/attachments/ref_7AGCIqKw/13.jpg)
 </div>
 </div>
