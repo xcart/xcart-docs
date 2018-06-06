@@ -60,7 +60,12 @@ published: false
 
 Нажмите на название созданной подкатегории и настройте её аналогично основной категории.
 
-![subcategory.png]({{site.baseurl}}/attachments/ref_6rpDdput/subcategory.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![6.jpg]({{site.baseurl}}/attachments/ref_1Iu2dCz7/6.jpg)
+)</div>
+  <div class="column" markdown="span">![7.jpg]({{site.baseurl}}/attachments/ref_1Iu2dCz7/7.jpg)
+</div>
+</div>
 
 ## Добавление товара в категорию
 
