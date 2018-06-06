@@ -3,8 +3,8 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-06-06 11:48 +0400'
 identifier: ref_1Iu2dCz7
-title: ''
-order: 100
+title: Категории товаров
+order: 130
 published: false
 ---
 It's not a secret that to improve customer experience and to make the site navigation easier it's better to organize products into categories. This section provides information on how to add categories to your store manually. Please note that you can also add categories via {% link "import" ref_VXdfNsVw %}. 
