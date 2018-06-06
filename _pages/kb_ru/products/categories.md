@@ -49,15 +49,21 @@ published: false
 
 Когда категория настроена, нажмите **Обновить** для сохранения изменений.
 
-## Adding a subcategory
+## Создание подкатегории
 
-To add a subcategory you should do almost all the same as to add a category, as a subcategory is a category in fact but of a lower level. So go to the Subcategories tab on the category details page, click the New Category button and follow the procedure described [above](https://kb.x-cart.com/products/categories.html#adding-a-new-category "Product Categories"). 
+На странице категории перейдите на вкладку **Подкатегории**, нажмите **Новая категория**, введите название новой подкатегории и нажмите **Сохранить**. Будет создана подкатегория для новой категории. 
+
+Нажмите на название созданной подкатегории и настройте её аналогично основной категории.
 
 ![subcategory.png]({{site.baseurl}}/attachments/ref_6rpDdput/subcategory.png)
 
-## Adding product to a category
+## Добавление товара в категорию
 
-To add a product to a category go to the _Product_ tab on the category details page and click the **Add product** button. You'll be redirected to the _Add products_ page (**Catalog** > **Products** > **Add products**) where you can {% link "add products" ref_fhzzxDTy %} to the category one by one. As you understand it is annoying to update/add each new product via the Admin interface. Instead, you can import products as described in {% link "How to import data" ref_glDc6kA1 %} to make the process faster.
+Два способа добавить товар в категорию:
+
+ - В разделе **Каталог / Категории** нажмите на категорию, в которую необходимо добавить товар. перейдите на вкладку **Товары** и нажмите **Добавить товар**.
+
+ - В **Каталог / Товары** нажмите **Добавить товар**, заполните страницу данными нового товара и присвойте новому товару категорию вручную. Чтобы не заполнять страницу каждого товара вручную, воспользуйтесь {% link "импортом" ref_AwaMbiEf %}.
 
 ![product.png]({{site.baseurl}}/attachments/ref_6rpDdput/product.png)
 
