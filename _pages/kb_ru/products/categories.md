@@ -81,29 +81,28 @@ published: false
 
 Также, можно удалить секцию категорий и поместить категории в верхнее меню сайта:
 
-1. Add your categories as menus on the Menus page (**Content** > **Menus**) in the store back-end as described in {% link "Adding new items to your store's menus" ref_BDykFBbw %}.
+1. Сделайте категории пунктами меню в разделе **Содержание / Меню**, как описано в статье {% link "Создание новых пунктов меню" ref_newmenuitem %}.
 
    ![menus.png]({{site.baseurl}}/attachments/ref_6rpDdput/menus.png)
 
    {% note info %}
-   If you want to add a link to a page within your store (e.g. the category page), you can specify it as ?target=category&category_id=4 (relative path) or as http://www.your_store_url.com/cart.php?target=category&category_id=4 (absolute path).
-   Also the '{_category_name_}' shortcut value will lead to the category page.
+   Чтобы добавить ссылку на страницу магазина (например, на страницу категории), укажите ссылку как относительный путь _?target=category&categoryid=4_ или как абсолютный путь http://www.магазин.ру/cart.php?target=category&category_id=4. Также, короткий путь _{categoryname}_ будет вести на страницу категории
    {% endnote %}
 
-   Make sure the category menus are enabled and go in a proper order. Turn all unnecessary menus off to make the menu bar more attractive.
-
-2. Add a submenu if necessary
+   Расположите в нужном порядке и активируйте меню категорий. 
+   
+2. Для категорий с подкатегориями создайте подпункты меню
 
    ![submenu.png]({{site.baseurl}}/attachments/ref_6rpDdput/submenu.png)
 
-3. Change the home page and default page layout on the _Layout_ page (**Look & feel** > **Layout**) in the store back-end.
+3. Чтобы улучшить внешний вид магазина, подберите подходящую разметку страниц в разделе **Интерфейс / разметка стсраницы**
 
    ![layout.png]({{site.baseurl}}/attachments/ref_6rpDdput/layout.png)
 
-4. Check your new site layout.
+4. Категории появились в главном меню магазина
 
    ![home_1.png]({{site.baseurl}}/attachments/ref_6rpDdput/home_1.png)
    
 {% note info%}
-It's also possble to move the categories list to the horizontal bar using the [Horizontal Flyout Categories Menu](https://market.x-cart.com/addons/horizontal-flyout-categories-menu.html "Product Categories") module. It's easier in set-up.
+Другой и более простой способ перенести категории в верхнее меню - использовать модуль [Горизонтальное меню категорий (Horizontal Flyout Categories Menu)](https://market.x-cart.com/addons/horizontal-flyout-categories-menu.html "Product Categories").
 {% endnote %}
