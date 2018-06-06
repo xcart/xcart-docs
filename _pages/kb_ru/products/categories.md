@@ -20,15 +20,20 @@ published: false
 
 На странице **Каталог / Категории** нажмите **Новая категория** и в появившемся поле напишите название новой категории. Нажмите **Сохранить**. 
 
-![new.png]({{site.baseurl}}/attachments/ref_6rpDdput/new.png)
+![2.jpg]({{site.baseurl}}/attachments/ref_1Iu2dCz7/2.jpg)
 
 Новая категория появилась вверху списка. В магазине категории отображаются в том же порядке, что и в панели администратора. Если нужно, переместите категорию на другую позицию. 
 
-![list.png]({{site.baseurl}}/attachments/ref_6rpDdput/list.png)
+![3.jpg]({{site.baseurl}}/attachments/ref_1Iu2dCz7/3.jpg)
 
 Для редактирования свойств новой категории нажмите на название. Общие настройки категории находятсятся на вкладке **Информация о категории**. На вкладках **Подкатегории**, **Товары** и **Рекомендуемые товары** происходит управление подкатегориями и товарами, входящими в эту категорию.
 
-![edit-category.png]({{site.baseurl}}/attachments/ref_6rpDdput/edit-category.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![4.jpg]({{site.baseurl}}/attachments/ref_1Iu2dCz7/4.jpg)
+)</div>
+  <div class="column" markdown="span">![5.jpg]({{site.baseurl}}/attachments/ref_1Iu2dCz7/5.jpg)
+</div>
+</div>
 
 ### Информация о категории
 
