@@ -31,7 +31,7 @@ published: false
 * Нажмите **Поместить на распродажу**
   ![5.jpg]({{site.baseurl}}/attachments/ref_4js5MsFN/5.jpg)
 * Откроется окно настройки цены товара на распродаже: установите новую сниженную цену или скидку в процентах
-  ![sale-2.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/sale-2.png)
+  ![6.jpg]({{site.baseurl}}/attachments/ref_4js5MsFN/6.jpg)
  
 - Удаление товаров с распродажи:
 * Выберите товары из списка
@@ -41,18 +41,18 @@ published: false
 
 * Выберите товары для редактирования
 * Нажмите Редактировать выбранные / Категории и теги
-  ![categories.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/categories.png)
+  ![7.jpg]({{site.baseurl}}/attachments/ref_4js5MsFN/7.jpg)
 * На открывшейся странице создайте, выберите, удалите или измените категории и ярлыки товаров.
   * Нажмите на текстовое поле для выбора категории или ярлыка для редактирования. Можно выбрать несколько значений
-  ![categories-1.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/categories-1.png)
+  ![8.jpg]({{site.baseurl}}/attachments/ref_4js5MsFN/8.jpg)
 
 ## Изменение размера запаса
 
 * Выберите товары из списка
 * Нажмите **Редактировать выбранные / Информация по наличию на складе** 
-  ![inventory-1.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/inventory-1.png)
+  ![9.jpg]({{site.baseurl}}/attachments/ref_4js5MsFN/9.jpg)
 * На открывшейся странице внесите информацию о запасах выбранных товаров:
-  ![inventory-2.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/inventory-2.png)
+  ![10.jpg]({{site.baseurl}}/attachments/ref_4js5MsFN/10.jpg)
   
   {:.ui.compact.celled.small.padded.table}
   | Контроль остатков | Включите или отключите отслеживание изменения размера запаса |
@@ -69,9 +69,9 @@ published: false
 
 * Выберите товары для редактирования
 * Нажмите **Редактировать выбранные / Цена и доступность для групп**
-  ![price-1.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/price-1.png)
+  ![11.jpg]({{site.baseurl}}/attachments/ref_4js5MsFN/11.jpg)
 * Настройте выбранные товары на открывшейся странице:
-  ![price-2.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/price-2.png)
+  ![12.jpg]({{site.baseurl}}/attachments/ref_4js5MsFN/12.jpg)
   
   {:.ui.compact.celled.small.padded.table}
   | Цена | Укажите цену товаров. Цена будет одинаковой для всех выбранных товаров |
@@ -87,9 +87,9 @@ published: false
 
 * Выберите товары для редактирования
 * Нажмите **Редактировать выбранные / Доставка** 
-  ![shipping.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/shipping.png)
+  ![13.jpg]({{site.baseurl}}/attachments/ref_4js5MsFN/13.jpg)
 * Настройте доставку для выбранных товаров на открывшейся странице:
-  ![shipping-2.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/shipping-2.png)
+  ![14.jpg]({{site.baseurl}}/attachments/ref_4js5MsFN/14.jpg)
   
   {:.ui.compact.celled.small.padded.table}
   | Вес | Укажите вес товаров в килограммах |
@@ -107,6 +107,7 @@ published: false
 
 * Выберите товары, для которых необходимо установить продавца
 * Нажмите **Редактировать выбранные / Продавец** - _этот пункт присутствует в меню **Редактировать выбранные** только в **X-Cart Мультивендор**_
-  ![shipping.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/shipping.png)
+  ![15.jpg]({{site.baseurl}}/attachments/ref_4js5MsFN/15.jpg)
 * На открывшейся странице выберите продавца из списка и сохраните изменения
-  ![shipping-2.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/shipping-2.png)
+  ![16.jpg]({{site.baseurl}}/attachments/ref_4js5MsFN/16.jpg)
+
