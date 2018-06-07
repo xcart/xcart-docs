@@ -17,31 +17,26 @@ published: false
 
 {% toc %}
 
-## Enabling/Disabling products
+## Включение и отключение товаров
 
-To enable/disable products in bulk:
-
-* Choose products you want to edit on the product listing page (**Catalog** -> **Products**)
-* Click either **'Enable all'** or **'Disable all'** button depending on the action you want to apply
+* Отметьте товары, которые собираетесь включить или отключить
+* Нажмите **Включить все** или **Отключить все**
 
   ![enable:disable.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/enable:disable.png)
  
 
-## Putting products on sale
+## Распродажа товаров
 
-To put products on sale in bulk:
-
-* Choose products you want to edit on the product listing page (**Catalog** -> **Products**)
-* Click the **'Put all for sale'** button 
+ - Размещение товаров на распродаже:
+* Выберите товары для распродажи
+* Нажмите **Поместить на распродажу**
   ![sale.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/sale.png)
-* In a pop-up set the value of either the _Sale price_ or _Percent off_ options and click **'Apply price'**
+* Откроется окно настройки цены товара на распродаже: установите новую сниженную цену или скидку в процентах
   ![sale-2.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/sale-2.png)
  
-
-To cancel sale for products in bulk:
-
-* Choose products you want to edit on the product listing page (**Catalog** -> **Products**)
-* Click **'Cancel sale'** 
+-Удаление товаров с распродажи:
+* Выберите товары из списка
+* Нажмите **Удалить с распродажи** 
 
 
 ## Bulk edit categories and tags
