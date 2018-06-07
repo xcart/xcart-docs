@@ -114,14 +114,14 @@
 
     if (pages.length > 0) {
       var kb_category = {
-        name: 'Knowledge base',
+        name: 'KB',
         results: pages.filter(function(item) {
           return item.site.indexOf('kb') == 0;
         })
       };
       
       var devs_category = {
-        name: 'Developer docs',
+        name: 'DEV',
         results: pages.filter(function(item) {
           return item.site.indexOf('devs') == 0;
         })
