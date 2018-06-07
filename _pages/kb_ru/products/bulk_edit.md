@@ -29,7 +29,7 @@ published: false
  - Размещение товаров на распродаже:
 * Выберите товары для распродажи
 * Нажмите **Поместить на распродажу**
-  ![sale.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/sale.png)
+  ![5.jpg]({{site.baseurl}}/attachments/ref_4js5MsFN/5.jpg)
 * Откроется окно настройки цены товара на распродаже: установите новую сниженную цену или скидку в процентах
   ![sale-2.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/sale-2.png)
  
