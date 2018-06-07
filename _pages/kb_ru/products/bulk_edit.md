@@ -38,26 +38,18 @@ published: false
 * Выберите товары из списка
 * Нажмите **Удалить с распродажи** 
 
+## Изменение категорий и тегов
 
-## Bulk edit categories and tags
-
-To edit categories and tags of the products in bulk:
-
-* Choose products you want to edit on the product listing page (**Catalog** -> **Products**)
-* Click **Bulk edit selected** -> **Categories and tags** 
+* Выберите товары для редактирования
+* Нажмите Редактировать выбранные / Категории и теги
   ![categories.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/categories.png)
-* In a new window choose the action you want to perform:
-  * _Add_/_Remove_/_Move_to_ for Categories AND/OR _Add_/_Remove_/_Replace_with_ for Tags
-  * Click to specify a category/tag value you want to edit (you can specify more than one value)
-    ![categories-1.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/categories-1.png)
-* Save changes
+* На открывшейся странице создайте, выберите, удалите или измените категории и ярлыки товаров.
+  * Нажмите на текстовое поле для выбора категории или ярлыка для редактирования. Можно выбрать несколько значений
+  ![categories-1.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/categories-1.png)
 
+## Изменение размера запаса
 
-## Bulk edit inventory
-
-To edit products inventory in bulk:
-
-* Choose products you want to edit on the product listing page (**Catalog** -> **Products**)
+* Выберите товары из списка
 * Click **Bulk edit selected** -> **Inventory** 
   ![inventory-1.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/inventory-1.png)
 * In a new window edit the inventory field(s) for the products:
