@@ -64,43 +64,40 @@ published: false
   | Все покупатели | Укажите минимальное количество товара для покупки для вех покупателей |
   | Оптовые покупатели | Укажите минимальное количество товара для покупки для оптовых покупателей |
 
-* Save changes 
+* Сохраните изменения 
 
-## Bulk edit price and membership
+## Изменение цен и доступности группам пользователей
 
-To edit price and membership for products in bulk:
-
-* Choose products you want to edit on the product listing page (**Catalog** -> **Products**)
-* Click **Bulk edit selected** -> **Price and membership** 
+* Выберите товары для редактирования
+* Нажмите **Редактировать выбранные / Цена и доступность для групп**
   ![price-1.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/price-1.png)
-* In a new window edit the field(s) for the products:
+* Настройте выбранные товары на открывшейся странице:
   ![price-2.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/price-2.png)
   
   {:.ui.compact.celled.small.padded.table}
-  | Price | Use this field to specify the product(s) price |
-  | Market price | Use this field to specify the product(s) market price |
-  | On sale | Use this field to put product(s) on sale |
-  | Memberships | Use this field to ADD, REMOVE or REPLACE membership for the product(s) (choose the action first, then choose the membership value from the list)|
-  | Tax Class | Use this field to set a tax class for the product(s) |
+  | Цена | Укажите цену товаров. Цена будет одинаковой для всех выбранных товаров |
+  | Рыночная цена | Средняя стоимость товара в других магазинах. Это поле присутствует, только если в магазине активирован модуль **Рыночная цена (Market Price)** |
+  | Участвует в распродаже | Включите или отключите опцию, чтобы поместить или удалить товары с распродажи |
+  | Цена на распродаже | Установите сниженную цену в рублях или скидку в процентах|
+  | Доступность только для этих групп пользователей | Добавьте, удалите или измените группу пользователей, представителям которой доступны выбранные товары |
+  | Класс налога | Выберите налог, который будет налагаться на выбранные товары |
 
-* Save changes 
+* Сохраните изменения 
 
-## Bulk edit shipping info
+## Изменение информации о доставке
 
-To edit price and membership for products in bulk:
-
-* Choose products you want to edit on the product listing page (**Catalog** -> **Products**)
-* Click **Bulk edit selected** -> **Shipping info** 
+* Выберите товары для редактирования
+* Нажмите **Редактировать выбранные / Доставка** 
   ![shipping.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/shipping.png)
-* In a new window edit the shipping field(s) for the products:
+* Настройте доставку для выбранных товаров на открывшейся странице:
   ![shipping-2.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/shipping-2.png)
   
   {:.ui.compact.celled.small.padded.table}
-  | Weight | Use this field to specify the product(s) weight |
-  | Requires shipping | Use this field to enable/disbale shipping for product(s) |
+  | Вес | Use this field to specify the product(s) weight |
+  | Требуется доставка | Use this field to enable/disbale shipping for product(s) |
   | Shipping freight | Use this field to set the {% link "shipping freight" ref_kioKBJIM %} value for product(s) |
-  | Separate box | Use this field to enable/disbale shipping in a separate box for product(s) |
-  | Length / Width / Height | Use this fields define the box dimensions  |
-  | Maximum items in box | Use this fields define how many products can be put in the box |
+  | Отправка отдельной посылкой | Use this field to enable/disbale shipping in a separate box for product(s) |
+  | Длина / Ширина / Высота | Use this fields define the box dimensions  |
+  | Макс. кол-во в посылке | Use this fields define how many products can be put in the box |
 
-* Save changes
+* Сохраните изменения
