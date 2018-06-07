@@ -50,13 +50,13 @@ published: false
 ## Изменение размера запаса
 
 * Выберите товары из списка
-* Click **Bulk edit selected** -> **Inventory** 
+* Нажмите **Редактировать выбранные / Информация по наличию на складе** 
   ![inventory-1.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/inventory-1.png)
-* In a new window edit the inventory field(s) for the products:
+* На открывшейся странице внесите информацию о запасах выбранных товаров:
   ![inventory-2.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/inventory-2.png)
   
   {:.ui.compact.celled.small.padded.table}
-  | Inventory tracking | Use this field to enable/disable inventory tracking |
+  | Контроль остатков | Включите или отключите отслеживание изменения размера запаса |
   | Quantity in stock | Use this field to specify the quantity in stock value |
   | Show low stock warning on product page | Use this field to enable/disable low stock warning representation |
   | Notify administrator if the stock quantity of this product goes below a certain limit | Use this field to enable/disable notifications on the stock quantity for admin |
