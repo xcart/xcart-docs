@@ -93,11 +93,13 @@ published: false
   ![shipping-2.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/shipping-2.png)
   
   {:.ui.compact.celled.small.padded.table}
-  | Вес | Use this field to specify the product(s) weight |
-  | Требуется доставка | Use this field to enable/disbale shipping for product(s) |
-  | Shipping freight | Use this field to set the {% link "shipping freight" ref_kioKBJIM %} value for product(s) |
-  | Отправка отдельной посылкой | Use this field to enable/disbale shipping in a separate box for product(s) |
-  | Длина / Ширина / Высота | Use this fields define the box dimensions  |
-  | Макс. кол-во в посылке | Use this fields define how many products can be put in the box |
+  | Вес | Укажите вес товаров в килограммах |
+  | Требуется доставка | Включите или отключите доставку товаров |
+  | Бесплатная доставка | Включите или отключите бесплатную доставку товаров |
+  | Исключить из расчета стоимости доставки | Никогда не рассчитывать стоимость доставки для выбранных товаров |
+  | Фиксированная стоимость доставки | Укажите {% link "стоимость доставки" ref_ELG1SBUJ %} для выбранных товаров |
+  | Отправка отдельной посылкой | Укажите, нужна ли отправка отдельной посылкой |
+  | Длина / Ширина / Высота | Укажите размеры коробок для отправки выбранных товаров |
+  | Макс. кол-во в посылке | Укажите, сколько товаров помещается в одной коробке |
 
 * Сохраните изменения
