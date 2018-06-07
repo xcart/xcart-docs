@@ -57,12 +57,12 @@ published: false
   
   {:.ui.compact.celled.small.padded.table}
   | Контроль остатков | Включите или отключите отслеживание изменения размера запаса |
-  | Quantity in stock | Use this field to specify the quantity in stock value |
-  | Show low stock warning on product page | Use this field to enable/disable low stock warning representation |
-  | Notify administrator if the stock quantity of this product goes below a certain limit | Use this field to enable/disable notifications on the stock quantity for admin |
-  | Low stock threshold | Use this field to specify the low stock threshold |
-  | All customers | Use this field to set minimum purchase quantity for all customers |
-  | Wholesaler | Use this field to set minimum purchase quantity for wholesale customers |
+  | Остаток | Укажите количество товара в наличии |
+  | Показывать покупателям предупреждение о низком остатке товара | Включите или отключите уведомление для покупателей |
+  | Уведомлять администратора при снижении остатка этого товара на складе до минимального предела | Включите или отключите уведомление для администратора |
+  | Минимальный предел остатка | Укажите минимально возможное количество товар, при котором администратор получает напоминание, что запас товара необходимо восполнить |
+  | Все покупатели | Укажите минимальное количество товара для покупки для вех покупателей |
+  | Оптовые покупатели | Укажите минимальное количество товара для покупки для оптовых покупателей |
 
 * Save changes 
 
