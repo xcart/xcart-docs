@@ -24,3 +24,4 @@ categories:
 *   {% link "Запуск распродажи" ref_2V0wZ5qu %}
 *   {% link "Теги товаров (Product Tags)" ref_7AGCIqKw %}
 *   {% link "Категории товаров" ref_1Iu2dCz7 %}
+*   {% link "Групповое редактирование товаров" ref_4js5MsFN %}
