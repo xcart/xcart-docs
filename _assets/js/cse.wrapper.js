@@ -102,8 +102,10 @@
     var self = this;
     var results = response.items || [];
     var pages = results.reduce(function(memo, item) {
+      console.log(_.unescape(item.htmlTitle), item.title);
+      var title = _.unescape(item.htmlTitle).replace(' - X-Cart 5 Knowledge Base', '').replace(' - X-Cart 5 Developer Documentation', '');
       memo.push({
-        title: _.unescape(item.htmlTitle),
+        title: title,
         url: item.link,
         description: self.getCategoryByItem(item),
         site: item.displayLink
