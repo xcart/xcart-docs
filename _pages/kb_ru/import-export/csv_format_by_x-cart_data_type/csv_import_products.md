@@ -386,7 +386,7 @@ CSV файл с товарами должен сдержать как миним
         <br>Несколько значений&nbsp;</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Поля, добавленные модулем <strong>[**Рыночная цена (Market Price)**](https://market.x-cart.com/addons/market-price.html "Групповое редактирование товаров")</strong> </em>
+      <td colspan="3" class="confluenceTd"><em> Поля, добавленные модулем <strong> Market Price </strong> </em>
       </td>
     </tr>
     <tr>
