@@ -13,37 +13,35 @@ published: false
 *   Процесс обработки платежей автоматизирован, не уходит время на обработку заказов, даже если заказов много.
 *   Некоторые платёжные сервисы, например, ROBOKASSA и Visa QIWI Wallet, позволяют принимать онлайн-платежи без регистрации счёта продавца.
 
-## Choice criteria
+## На что обратить внимание при выборе платёжного сервиса
 
-### Things to ask first
+### Получите ответы на следующие вопросы
 Some important initial questions you should ask of any potential vendor of billing software include:
 
-*   How long has the company been in business?
-*   What is the history of the company?
-*   How long has the particular features package you're interested in been on the market?
-*   How many and what types of Web services use their software?
-*   Are client references available for you to call?
-*   Is a demo version of the software available?
-*   What is the availability and accessibility of system setup, training and support, as well as the approximate cost of these essential items?
-*   Will the company be able to import data from your previous billing system, if necessary, and what is the expected cost for this service? have they been successful with this?
-*   What are the hardware and networking requirements recommended by the software vendor for optimum efficiency?
-*   What is the cost of their 'basic' system and what is 'included'? Are there any additional products available at an extra charge to enhance the basic software package?
+*   Как долго компания действует на рынке услуг.
+*   Какова история компании.
+*   Как долго компания предоставляет интересующие вас услуги.
+*   Сколько и какого рода компании пользуются услугами платёжной системы.
+*   Предоставляет ли компания контактные данные.
+*   Доступна ли демо-версия программного обеспечения.
+*   Насколько проста настройка системы, возможно ли обучение, доступна ли техподдержка, какова стоимость сервиса.
+*   Предоставляет ли компания услугу по переносу данных из текущей системы учёта, и какова стоимость.
+*   Каковы требования к оборудованию и сети для максимально эффективной работы .
+*   Какова стоимость базового сервисного плана и что в него входит, доступны ли дополнительные опции за отдельную плату.
 
-### Merchant account
-First, you should draw a line between payment gateways that require a merchant account and those that don't.
-Payment gateways requiring a merchant account usually offer attractive commission rates, for example, 1.8% of each transaction, a fixed $0.20 from each transaction, and a series of monthly charges grouped under several headings, usually amounting to less than $100. This means that your company keeps a greater share of gross sales.
-On the other hand, payment gateways requiring a merchant account have several disadvantages:
+### Коммерческий счёт
+Для одних платёжных сервисов  необходим коммерческий счёт, для других - нет. Сервисы, требующие счёт продавца, предлагают выгодные условия выплаты комиссии (повышенный процент с каждой платёжной операции или повышенную фиксированную сумму) и сгруппированные по категориям ежемесячные платежи. Для компании это означает сохранение большей части выручки. 
+Но такие платёжные сервисы имеют и ряд недостатков:
 
-*   They seldom engage in fraud prevention and rather leave it in the hands of the seller to decide which transactions are safe to accept and which should be rejected. If the company suffers a high rate of fraud, the gateway provider may terminate the service.
-*   Moreover, signing up for a merchant account can take around one month, and these are usually only granted to incorporated companies with an existing financial background.
-*   Lastly, it can be hard to get authorization for transactions with certain credit cards such as American Express and Diners Club.
-In the case of payment gateways not requiring a merchant account, the main advantages are:
-*   You will be ready to sell immediately.
-*   Fraud prevention tools are provided free of charge.
-*   There are usually no fixed charges (only a commission over transactions).
-Of course, the disadvantage is a less attractive commission rate, usually between 5.5% and 12%, with a $0.80 fixed rate per transaction. It is also worth noting that the name on the customer's credit card statement will be the name of the payment company, not yours.
+*   Платёжная система не всегда проверяет платежей на мошенничество. Компания самостоятельно принимает решение о надёжности платежей. Платёжная система вправе приостановить предоставление услуг, если компания часто отклоняет платежи по причине мошенничества.
+*   Регистрация коммерческого счёта занимает около месяца. Причём, чаще такой счёт предоставляется финансово стабильным акционерным компаниям.
 
-See the list of ready-to-use payment processing integrations for X-Cart 5 in our [Marketplace](https://market.x-cart.com/addons/#filter[edition]=6&filter[priceType]=all&filter[tags]=Payment%20processing&filter[sortBy]=p.arrivalDate "Choosing a payment gateway"). Choose the one that looks good for your needs and contact the payment gateway reps directly to create a merchant account. Can’t find your payment gateway in this list? Email us at support@x-cart.com.
+Преимущества платёжных систем, не требующих коммерческий счёт:
+*   Начало продаж и приёма платежей сразу после подключения сервиса.
+*   Средства предотвращения мошенничества включены в пакет услуг.
+*   Отсутствие фиксированных плат, только комиссия с платёжных операций. Есть и недостатки - невысокая комиссия и название платёжной системы вместо названия компании в выписке по карточному счёту покупателя.
+
+В [X-Cart Маркетплейсе](https://market.x-cart.com/addons/payment-processing/?filter[edition]=all&filter[priceType]=all&filter[sortBy]=p.arrivalDate "Выбор платёжной системы") доступны модули подключения платёжных сервисов. Техподдержка этих компаний поможет с регистрацией счёта. Если не нашли подходящий платёжный сервис в Маркетплейсе, обратитесь за решением к команде X-Cart.
 
 ### Integration, customization and branding
 From the technological point of view, you should consider the type of integration and security measures offered by each gateway. One of the most important criteria is that your customers receive a consistent and smooth transaction experience through this process. Many 3rd party payment gateways forget this fact.
