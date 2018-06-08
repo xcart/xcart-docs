@@ -25,3 +25,4 @@ categories:
 *   {% link "Теги товаров (Product Tags)" ref_7AGCIqKw %}
 *   {% link "Категории товаров" ref_1Iu2dCz7 %}
 *   {% link "Групповое редактирование товаров" ref_4js5MsFN %}
+*   {% link "Видео ролик в описании товара или категории" ref_55yhSGfA %}
