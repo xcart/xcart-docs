@@ -7,14 +7,11 @@ title: Выбор платёжной системы
 order: 60
 published: false
 ---
-## Overview
-A payment gateway is an essential part of your online strategy. Popular shopping carts are compatible with a great variety of payment systems widely known as payment gateways. But how can you choose the one that is right for you? You do not have the luxury of rectifying a wrong decision. Apart from the cost of the service, you stand to lose out much more - customers, orders, fraud related losses, integration time, time to market etc.
-On the stage of getting your online store live, you will likely face the problem of accepting credit card payments from your customers. It is the most common and convenient payment method available over the Internet. To be able to accept credit card payments at your X-Cart based online store, you will need to subscribe to the service of a payment gateway which will process credit cards for you. Payment gateway service is available from such companies as Authorize.NET, PayPal, WorldPay, 2CheckOut and some others.
-There are several significant benefits when using this type of service:
+Обработка онлайн-платежей - неотъемлемый элемент торговли в Интернете. Распространённые платформы электронной торговли поддерживают десятки платёжных систем, и часто выбор сервиса обработки платежей представляет сложность. Неверный выбор непозволителен, т.к. оборачивается материальным ущербом, потерей покупателей и времени. Вопрос организации приёма платежей от покупателей возникает при запуске онлайн-магазина. Решение - зарегистрироваться в сервисе онлайн-оплаты и настроить платёжный сервис в магазине. Простой и распространённый способ, который настраиваетя с помощью платёжной системы, - оплата картой. X-Cart работает с платёжными сервисами Яндекс, ROBOKASSA, PayPal, Сбербанк. Преимущества электронных платёжных систем: 
 
-*   Most payment gateways have a sophisticated fraud protection mechanism that helps to avoid most chargebacks from the customers whose credit card might have been stolen by hackers.
-*   The process is fully automated so you can save a vast amount of time if you have many orders.
-*   Some payment gateways like 2CheckOut enable you to accept credit cards even if you do not have an internet merchant account (It may be difficult to obtain a merchant account if you have just started a business and haven't got a positive credit history yet).
+*   Многие платёжные системы предлагают усовершенствованную защиту от мошенничества, что позволяет избежать отмены платежей по запросу держателя карты.
+*   Процесс обработки платежей автоматизирован, не уходит время на обработку заказов, даже если заказов много.
+*   Некоторые платёжные сервисы, например, ROBOKASSA и Visa QIWI Wallet, позволяют принимать онлайн-платежи без регистрации счёта продавца.
 
 ## Choice criteria
 
