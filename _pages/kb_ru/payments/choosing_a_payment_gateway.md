@@ -3,8 +3,8 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-06-08 17:45 +0400'
 identifier: ref_0iq6JtDa
-title: ''
-order: 100
+title: Выбор платёжной системы
+order: 60
 published: false
 ---
 ## Overview
