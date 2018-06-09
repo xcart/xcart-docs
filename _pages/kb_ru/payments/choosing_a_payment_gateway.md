@@ -63,55 +63,62 @@ published: false
 
 Своевременность предоставления услуг - непреложное правило онлайн-бизнеса. Клиент, ушедший к конкуренту, - наглядный пример повышенных затрат на привлечение клиентов. Многие продавцы доверяют разработку сайтов сторонним специалистам. Поэтому крайне важно, чтобы интеграция с платёжной системой была как можно проще. Но далеко не многие платёжные сервисы предоставляют готовый инструмент подключения, подходящий для разных платформ. Некоторые платёжные системы предлагают только сложные API для интеграции с магазином, при которых используются специфические языки программирования. Другие платёжные системы требуют установки dll библиотек или компонентов на сервере. Это представляет сложность на виртуальных хостингах, т.к. провайдер хостинга может отказаться устанавливать что-либо на сервере. Таким образом, прежде чем остановить выбор на платёжной системе, убедитесь, что интеграция полностью выполнима и не представляет сложностей.
 
-### Comprehensive merchant interface
-One more aspect to check from the beginning is the functionality provided by the merchant interface. The types of reports available, the interfaces available for searching transactions, processing captures and refunds, requesting withdrawals etc. In fact, you should request a demo of the merchant interface before you make your payment gateway decision to ensure that it supports all the features you require.
+### Понятный интерфейс продавца
 
-### Hidden costs
-Many payment gateways may have hidden costs associated with them that may not be disclosed in the beginning. This may not allow you to compare them with enough depth. Some of the hidden costs with any payment gateway service are as follows:
+Следующее, на что необходимо обратить внимание, - возможности интерфейса продавца (доступные типы отчётов, поиск платёжных операций, обработка удержаний и возвратов, запрос списания и т.п.). Чтобы удостовериться в наличии необходимых функций, поработайте с демо-версией платёжной системы.
 
-*   Chargeback fees
-*   Chargeback Forex losses: this particular item is important. Most banks or payment gateways will charge you Forex losses on chargebacks. Sometimes this can translate to a substantial amount. Some service providers, however, will bear the chargeback losses themselves.
-*   Reversal fees
-*   Termination fees
-*   Hidden setup charges
-*   Non-Sufficient Funds fees
-*   Annual fees
-*   Statement fees (more for more services)
-*   Customer support fees
-*   Withdrawal charges
+### Скрытые издержки
 
-Most of these costs will not be mentioned on their websites. It is important that you understand all the costs mentioned above and ask the provider directly for all the information regarding these costs. Most providers will charge you these fees without disclosing them to you.
+Часто оказывается, что для работы с платёжной системой требуются дополнительные расходы, о которых сначала не было известно. К таким издержкам относятся :
 
-### Time to withdrawal
-Find out how soon you can get access to your money. Some payment gateways may proclaim a no-reserve policy, but take a month to remit your funds. That means your funds remain blocked for a period of one month with the provider. While most payment gateways may maintain reserves for risk mitigation, it is essential to estimate within how much time you will have access to your funds.
+*   Плата за возмещение платежа.
+*   Издержки по валютным операциям за возмещение платежей. Многие банки и платёжные системы перекладывают эти расходы на продавцов. Суммы могут достигать немалых размеров. Хотя есть и платёжные сервисы, которые берут эти расходы на себя.
+*   Плата за возврат средств, списанных с карточного счёта.
+*   Плата за аннулирование.
+*   Скрытые издержки на подготовку к работе.
+*   Издержки по чекам, по которым не могут быть получены деньги.
+*   Ежегодные платы.
+*   Комиссия за ежемесячные выписки по счету.
+*   Траты на техподдержку.
+*   Комиссия за вывоод средств.
 
-### Technical support
-Ensure that your payment gateway provider has a well-staffed and trained support team. Under ideal circumstances, the payment gateway provider should have a 24x7x365 support desk. It'll enable you to respond quickly to your international customers who may have queries with regard to their online transaction.
+Подобные расходы не освещаются в описании сервиса на сайтах платёжных систем. Обратитесь к представителю сервиса за подробной информацией обо всех возможных затратах. Большинство компаний взимают эти платы, не сообщая об этом.
 
-### Multicurrency
-With a global audience, multi-currency support becomes essential for those who have customers outside the USA and Europe. Though it is not an essential feature, it is helpful to be able to charge your customers in local currencies, or at least US Dollar currency.
+### Срок вывода средств
 
-### Reserve funds
-Most payment gateways will reserve a certain portion of your funds to mitigate risk due to chargebacks. What is important is to find out the reserve amounts and how they are calculated, as well as the time period for which the reserve is maintained. Also ensure that you tie up with a payment gateway that maintains a rolling reserve as opposed to a fixed reserve so that funds begin rolling in your account albeit a little late.
+Важно узнать, как скоро предоставляется доступ к заработанным средствам. Некоторые платёжные системы запрещают создание резервов, но выдавать средства в течение месяца. Другими словами, в течение месяца средства остаются заблокированными. Большинство платёжных систем всё же позволяют создавать резервы для снижения рисков,  но важно знать заранее, как скоро средства станут доступны.
 
-### E-Goods selling
-Another factor to bear in mind is that some payment gateways are not available for the sale of intangibles such as software and services, whereas others are.
+### Техническая поддержка
 
-### Callback response
-Lastly, we should mention the callback response or silent response feature. What is it, and how can it help selling with the shopping cart?
-A callback response is a silent and secure signal sent by the payment gateway to the shopping cart to notify it about the result of a transaction. It is extremely useful to update the order status from pending to paid and trigger other processes related to the approval of a payment, such as:
+Лучше выбрать платёжную систему с организованной и обученной командой техподдержки. В идеале, поддержка доступна 24 часа в сутки и 365 дней в году, что важно для иностранных клиентов.
 
-*   Decreasing the stock of the products purchased
-*   Delivering digital goods
-*   Increasing sales figures
-*   Notifying affiliates and suppliers
+### Многовалютность
 
-## Alternatives to online systems
-X-Cart also supports payments through non-credit card means, for example {% link "PayPal" ref_g8OosGK4 %}. This company acts as an intermediary between users and transfers funds from one user to another by discounting the amount of the transaction from the payer's account. This system can be useful in certain cases, although the verification procedure is quite complicated.
+Поддержка различных валют важна при работе с иностранными клиентам. Хотя это и не основная необходимость, иногда важно обрабатывать платежи в местной валюте клиента.
 
-## Conclusion
-If your store is just starting out, you will want to keep fixed costs low. You should choose a gateway that offers its own SSL certificate free of charge, does not require installing components on your server, and does not charge excessive penalties for chargebacks.
-If your store is already established, with a clear projection of sales levels, you will want to choose a gateway that allows you to use your own merchant account and your own SSL certificate, and offers all the security measures and uniformity of advanced integration methods.
+### Резервирование средств
+
+Многие платёжные сервисы удерживают часть средств, чтобы избежать потерь связанных с возмещением платежей по требованию клиентов. Важно заранее выяснить, на какой срок, какая сумма удерживается и как она рассчитывается. Лучше, чтобы платёжная система создавала подвижные, а не статичные запасы, чтобы средства работали, пусть даже через некоторое время.
+
+### Продажа нематериальных товаров
+
+Не все платёжные системы поддерживают оплату нематериальных товаров, таких как программное обеспечение, услуги и т.п.
+
+### Ответ на запрос
+
+Это незаметный и безопасный сигнал от платёжного сервиса магазину, сообщающий о результате обработки платежа. Необходимо изменять статус заказа и запускать остальные процессы, связанные с подтверждением платежа:
+
+*   Уменьшение запаса, купленного товара
+*   Доставку нематериальных товаров
+*   Повышение количественных показателей продаж
+*   Информирование партнёров и поставщиков
+
+## Альтернативы онлайн-системам
+
+Сервис PayPal действует как посредник между пользователями и обрабатывает платежи без участия банковских карт. Средства передаются от одного пользователя другому посредством списания суммы операции со счёта плательщика. Эта система имеет свои преимущества, но отличается сложной процедурой проверки.
+
+
+На начальном этапе магазина желательно сократить постоянные расходы. Лучше выбрать платёжную систему, предоставляющую бесплатный SSL сертификат, не требующую установки дополнительных компонентов на сервере и не взимающую высокую комиссию за возврат платежей по требованию клиентов.  Если магазин достиг стабильности и объём продаж легко прогнозируется, лучше использовать платёжный сервис, позволояющий подключить счёт продавца и свой SSL сертификат, а также обеспечивающий необходимую безопасность и усовершенствованные способы интеграции.
 
 ## See also
 *   {% link "Accepting payments" ref_Jq6Bsdrt %}
