@@ -16,7 +16,6 @@ published: false
 ## На что обратить внимание при выборе платёжного сервиса
 
 ### Получите ответы на следующие вопросы
-Some important initial questions you should ask of any potential vendor of billing software include:
 
 *   Как долго компания действует на рынке услуг.
 *   Какова история компании.
@@ -30,6 +29,7 @@ Some important initial questions you should ask of any potential vendor of billi
 *   Какова стоимость базового сервисного плана и что в него входит, доступны ли дополнительные опции за отдельную плату.
 
 ### Коммерческий счёт
+
 Для одних платёжных сервисов  необходим коммерческий счёт, для других - нет. Сервисы, требующие счёт продавца, предлагают выгодные условия выплаты комиссии (повышенный процент с каждой платёжной операции или повышенную фиксированную сумму) и сгруппированные по категориям ежемесячные платежи. Для компании это означает сохранение большей части выручки. 
 Но такие платёжные сервисы имеют и ряд недостатков:
 
@@ -47,18 +47,21 @@ Some important initial questions you should ask of any potential vendor of billi
 
 С технологической точки зрения различают типы интеграции и средства безопасности, предлагаемых платёжной системой. Важно сделать процесс оплаты для покупателя простым и надёжным. Об этом забывают многие платёжные сервисы. Простой способ интеграции с платёжной системой - создание онлайн-формы для ввода платёжных данных. Для ввода данных для оплаты покупателя переносит с сайта магазина на сайт платёжного сервиса. Переход на другой сайт с другим дизайном и функциональностью представляет неудобство для покупателя и часто вызывает недоверие. Некоторые платёжные сервисы допускают размещение баннера или логотипа магазина на своей странице оплаты, но этого недостаточно. Некоторые платёжные сервисы позволяют полностью стилизовать страницу оплаты под магазин. Для этого можно изменить цвет текста, шрифт, цвет фона, хедер и его фон. При выборе платёжного сервиса обратите внимание на возможность адаптации страницы оплаты. Лучше выбрать платёжную систему со сложным способом интеграции, она будет более надёжной и стабильной. Также, необходимо узнать у провайдера хостинга, отвечает ли сервер системным требованиям платёжного сервиса (наличие SSL сертификата, возможность устанавливать дополнительные компоненты и открывать порты на шлюзе безопасности, и т.д.).
 
-### Fraud detection and risk mitigation
-Indeed, business loss from online fraud can be daunting. So merchants have realized the importance of taking measures to minimize losses occurring due to online fraud. It is important that the payment gateway you choose supports basic fraud detection and risk mitigation measures. Note that fraud detection does not simply end with AVS or CVV2. Most payment gateways will offer you CVV (Verified by Visa) checking. While it is an additional measure, it does not successfully detect fraudulent patterns. Ideally, choose a payment gateway that offers you fraud detection tools apart from just AVS and CVV2.
+### Обнаружение мошенничества и снижение рисков
 
-### Transaction features
-Credit card transactions have a versatile set of features. There are various modes of transaction that can be performed. Auth-capture, sale mode, reversal, partial captures, partial reversals etc. It is important that the payment gateway supports all the transaction modes. Various business occasions require different combinations of these transaction modes.
-For instance, if a customer places an order you will want to authorize the transaction. If you do not have all the items the customer has ordered, you will need to initiate a partial capture at the time of delivery. If the customer has got the items, but one of them is damaged, they will return it back to you, and in this case, you will need to initiate a partial refund.
+Ущерб от мошенничества в сети может достигать громадных объёмов, поэтому важно минимизировать риск подвергнуться действиям мошенников и тем самым снизить потери. Базовые средства обнаружения и предотвращения мошенничества должен предоставлять выбранный платёжный сервис. При этом обнаружение подлогов не ограничивается только требованием вводить AVS или CVV2 код. Многие платёжные системы предлагают также CVV проверку (проверено Visa), но и этот дополнительный способ зашиты не отслеживает все случаи подлогов. Лучше выбрать платёжный сервис, который обеспечивает средства защиты помимо AVS и CVV2.
 
-### Security
-Financial transactions require profound security measures. And it is not only the Verisign 128 bit Digital Certificate which most payment gateways have. Security is a ground-up activity which needs to be effectively planned. There are several facets to take care of, including the datacenter physical security (where the payment gateway servers are hosted), OS and application security, firewall and intrusion detection systems at the OS and application layer, database security, and, finally, transaction security. Each of these requires the initial establishment and continuous monitoring. Verify that the payment gateway you choose controls all the facets of security on an ongoing basis.
+### Особенности платёжных операций
 
-### Easy integration
-Time-to-market is the mantra for online businesses. Every online customer lost to a competitor represents higher customer acquisition costs. Additionally, most merchants today outsource their website development. It is crucial therefore that the payment gateway offers you an easy integration process. This is another area where few payment gateways offer ready-made integration kits for all possible platforms. Quite a few payment gateways implement only complex Socket based APIs requiring you to write clients in specific languages to talk proprietary protocols. Another common problem faced here is that some payment gateways have integration kits that require a DLL or a component to be installed on your server. This becomes an issue if you are hosted in a virtual hosting environment. Your server provider may not be willing to install any component on their servers. Make sure to check up on the feasibility of the integration process in detail before you make up you mind in the choice of a payment gateway.
+Известны различные способы и особенности оформления платежей - авторизованное удержание средств, режим распродажи, отмена и частичная отмена, частичное списание и т.п. Важно, чтобы выбранный платёжный сервис обеспечивал все возможные способы операций. В некоторых случаях требуется сочетание нескольких способов. Например, когда покупатель размещает заказ, продавцу необходимо авторизовать платёж; если в наличии нет всех заказанных товаров, необходимо оформить частичное списание средств; если один из доставленных товаров повреждён и покупатель вернёт его продавцу, необходимо оформить частичный возврат средств.
+
+### Безопасность
+
+Безопасность - важнейшее требование к обработке онлайн-платежей. Безопасность не ограничивается электронным сертификатом Verisign, который предоставляет большинство платёжных систем. Обеспечение безопасности требует тщательного планирования. Необходимо позаботиться о защите центра обработки данных (физическом нахождении сервера платёжной системы), операционной системы и программного обеспечения, о наличии систем обнаружения вторжения на уровнях операционной системы и программного обеспечения, о защите базы данных и безопасности платёжных операций. Необходимо организовать и постоянно отслеживать каждый пункт системы безопасности. Убедитесь, что выбранный платёжный сервис обеспечивает защиту по всем параметрам на постоянной основе.
+
+### Простота интеграции
+
+Своевременность предоставления услуг - непреложное правило онлайн-бизнеса. Клиент, ушедший к конкуренту, - наглядный пример повышенных затрат на привлечение клиентов. Многие продавцы доверяют разработку сайтов сторонним специалистам. Поэтому крайне важно, чтобы интеграция с платёжной системой была как можно проще. Но далеко не многие платёжные сервисы предоставляют готовый инструмент подключения, подходящий для разных платформ. Некоторые платёжные системы предлагают только сложные API для интеграции с магазином, при которых используются специфические языки программирования. Другие платёжные системы требуют установки dll библиотек или компонентов на сервере. Это представляет сложность на виртуальных хостингах, т.к. провайдер хостинга может отказаться устанавливать что-либо на сервере. Таким образом, прежде чем остановить выбор на платёжной системе, убедитесь, что интеграция полностью выполнима и не представляет сложностей.
 
 ### Comprehensive merchant interface
 One more aspect to check from the beginning is the functionality provided by the merchant interface. The types of reports available, the interfaces available for searching transactions, processing captures and refunds, requesting withdrawals etc. In fact, you should request a demo of the merchant interface before you make your payment gateway decision to ensure that it supports all the features you require.
