@@ -62,9 +62,9 @@ published: true
 **Идентификатор пользователя (API ID)** - Идентификатор для авторизации в API. Сгенерируйте идентификатор в личном кабинете **Visa QIWI Wallet** в разделе **Настройки / REST-протокол / Аутентификационные данные**.
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![122.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/122.jpg)
-</div>
   <div class="column" markdown="span">![133.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/133.jpg)
+</div>
+  <div class="column" markdown="span">![122.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/122.jpg)
 </div>
 </div>
 
