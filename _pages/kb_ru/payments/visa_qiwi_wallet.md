@@ -45,7 +45,7 @@ published: true
 
 ![9.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/9.jpg)
 
-Подключение X-Cart к **QIWI Wallet Pull API** осуществляется через **Pull REST API** - полнофункциональное API для всех операций со счетами. Настройте протокол в [личном кабинете **Visa QIWI Wallet**](https://ishop.qiwi.com/login.action "Visa QIWI Wallet")в разделе **Настройки / REST-протокол**.
+Подключение X-Cart к **QIWI Wallet Pull API** осуществляется через **Pull REST API** - полнофункциональное API для всех операций со счетами. Настройте протокол в [личном кабинете **Visa QIWI Wallet**](https://ishop.qiwi.com/login.action "Visa QIWI Wallet") в разделе **Настройки / REST-протокол**.
 
 ![10.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/10.jpg)
 
