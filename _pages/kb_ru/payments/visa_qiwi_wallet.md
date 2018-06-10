@@ -35,9 +35,9 @@ published: true
 </div>
   <div class="column" markdown="span">![7.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/7.jpg)
 </div>
-  <div class="column" markdown="span">![8.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/8.jpg)
-</div>
-</div>
+  </div>
+  
+![8.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/8.jpg)
 
 ## Настройка модуля
 
