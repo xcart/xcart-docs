@@ -61,7 +61,12 @@ published: false
 
 **Идентификатор пользователя (API ID)** - Идентификатор для авторизации в API. Сгенерируйте идентификатор в личном кабинете **Visa QIWI Wallet** в разделе **Настройки / REST-протокол / Аутентификационные данные**.
 
-![133.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/133.jpg)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![122.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/122.jpg)
+</div>
+  <div class="column" markdown="span">![133.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/133.jpg)
+</div>
+</div>
 
 **Пароль** - Пароль для авторизации в API - пароль для личного кабинета **Visa QIWI Wallet**. Можно изменить в личном кабинете **Visa QIWI Wallet** в разделе **Управление пользователями / Смена пароля**.
 
