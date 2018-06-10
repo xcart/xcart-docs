@@ -12,6 +12,7 @@ categories:
 icon: payment
 ---
 *   {% link "Прием платежей в X-Cart" ref_guGkzxGn %}
+*   {% link "Выбор платёжной системы" ref_0iq6JtDa %}
 *   {% link "Яндекс.Касса" ref_baAbXfEo %}
 *   {% link "ROBOKASSA" ref_VhQHtKBi %}
 *   {% link "PayPal" ref_paypal %}
