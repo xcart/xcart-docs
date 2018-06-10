@@ -16,3 +16,4 @@ icon: payment
 *   {% link "Яндекс.Касса" ref_baAbXfEo %}
 *   {% link "ROBOKASSA" ref_VhQHtKBi %}
 *   {% link "PayPal" ref_paypal %}
+*   {% link "Visa QIWI Wallet" ref_6VdyEdlr %}
