@@ -28,7 +28,7 @@ published: true
 
 ## Подключение способа оплаты
 
-В панели управления откройте **Настройка магазина / Приём платежей**. В секции **Онлайн методы** нажмите **Добавить способ оплаты**. Найдите в списке **Visa QIWI Wallet** или сделайте поиск по слову _qiwi_ и нажмите **Добавить**. Автоматически открывается страница настроек модуля.
+В панели управления откройте **Настройка магазина / Приём платежей**. В секции **Онлайн методы** нажмите **Добавить способ оплаты**. Найдите в списке **Visa QIWI Wallet** или сделайте поиск по слову _qiwi_ и нажмите **Добавить**. 
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![6.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/6.jpg)
@@ -36,6 +36,8 @@ published: true
   <div class="column" markdown="span">![7.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/7.jpg)
 </div>
   </div>
+  
+  Автоматически открывается страница настроек модуля.
   
 ![8.jpg]({{site.baseurl}}/attachments/ref_6VdyEdlr/8.jpg)
 
