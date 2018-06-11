@@ -27,6 +27,13 @@ published: false
 
 **Глобальный атрибут товара, определяющий его бренд** -  Выберите глобальный атрибут, значения которого являются брендами. Если в поле нет вариантов для выбора, сначала {% link "создайте такой глобальный атрибут" ref_o3s6sQgq %}. 
 
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![13.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/13.jpg)
+</div>
+  <div class="column" markdown="span">![15.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/15.jpg)
+</div>
+</div>
+
 Пока не установлен глобальный атрибут, работа с брендами невозможна.
 ![12.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/12.jpg)
 
@@ -77,8 +84,8 @@ published: false
 Администратор может изменить расположение секции брендов с помощью встроенного редактора через **Режим разметки**. 
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">!![88.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/88.jpg)
+  <div class="column" markdown="span">![88.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/88.jpg)
 </div>
-  <div class="column" markdown="span">!![9.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/9.jpg)
+  <div class="column" markdown="span">![9.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/9.jpg)
 </div>
 </div>
