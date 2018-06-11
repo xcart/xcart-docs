@@ -29,23 +29,23 @@ published: false
 | Упорядочивать список в блоке | Установите режим сортировки брендов в секции на главной странице - по названию, по количеству товаров бренда или в выбранном администратором порядке. |
 | Длина списка в блоке | Количество брендов в секции на главной странице. |
 
-Don't forget to **Submit** changes when done.
-
-When the module is enabled and configured, existing brands are collected through the store automatically based on the global attribute you specified and are displayed in the _Brands_ section (**Catalog** > **Brands**) in the admin back-end. 
+X-Cart автоматически находит бренды по глобальным атрибутам, указанным в настройках модуля. Список торговых марок отображается в разделе **Каталог / Бренды** в панели управления магазина. 
 
 ![brands.png]({{site.baseurl}}/attachments/ref_2LetICls/brands.png)
 
-Here the cart admin can change the order of appearance of the brands the way he needs. By default, the brands are sorted alphabetically. Also, it's possible to edit the existing brands and add new ones if required. 
+Список составлен в алфавитном порядке и отображается одинаково в интерфейсе администратора и покупателей. На странице **Каталог / Бренды** администратор может изменить порядок следования брендов в списке, редактировать и добавлять новые бренды. 
 
-To create a new brand click the **New brand** button, to edit an existing brand click the brand name in the list. The procedure is similar, in both cases you'll need to feel in the fields with the info and save the changes.
+Нажмите **Новый бренд**, чтобы _создать_ бренд. 
 
-You can specify the following info for your brands, the only required filed being the brand name:
-* **Brand name**: Use this field to specify or edit the brand name here.
-* **Brand logo** : Use this field to upload a brand logo here (you can do it either via a URL or directly from your computer).
-* **Description** : A brand description that will be displayed on the brand's page.
-* **Meta keywords** : The keywords to be used in the keywords META tag on the category page (for SEO purposes).
-* **Meta description** : The description to be used in the description META tag on the category page (for SEO purposes).
-* **Clean URL** : The product page Clean URL (for SEO purposes).
+Нажмите на **название бренда** в списке, чтобы _редактировать_ существующий бренд.
+
+Информация о брендах:
+* **Бренд**: Название торговой марки. Это обязательное поле.
+* **Логотип**: Загрузите изображение бренда по ссылке или с компьютера.
+* **Описание**: Информация, которая будет отображаться на странице бренда в магазине.
+* **Meta ключевые слова**: Ключевые слова в мета-тэге keywords на странице категории (для поисковой оптимизации).
+* **Meta описание**: Описание бренда в мета-теге description на странице категории (для поисковой оптимизации).
+* **ЧПУ**: Семантическая ссылка на страницу бренда (для поисковой оптимизации).
 
 The buyers will see the Brands block on the home page and on any category page on the store front-end. You can change the Brands block location using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Shop by Brand Module"). The brands are also added to the store main {% link "menu" ref_BDykFBbw %}. If you want to disable the brands menu you can do it in the **Content** > **Menus** section of the store admin back-end.
 
