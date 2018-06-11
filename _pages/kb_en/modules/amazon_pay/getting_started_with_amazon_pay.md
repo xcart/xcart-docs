@@ -50,7 +50,7 @@ To start using Amazon Pay:
         *   Your **Secret Access Key**
             ![]({{site.baseurl}}/attachments/7504636/7602357.png)
 
-    *   **Note**: If you do not see your keys, you'll need to create new ones, which you do by clicking the link under "Create MWS Account":
+    *   **Note**: If you do not see your keys, you'll need to create new ones, that you do by clicking the link under "Create MWS Account":
         *   Log in using your Seller Central account.
 
         *   Select the "I want to access my own Amazon seller account with MWS" option.
