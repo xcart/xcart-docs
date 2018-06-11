@@ -13,9 +13,11 @@ published: false
 
 {% link "Установите и активируйте модуль" ref_gpeZtm28 %}.
 
-Перейдите по ссылке **Настройки** и установите параметры модуля:
+Перейдите по ссылке **Настройки** 
 
 ![addon.png]({{site.baseurl}}/attachments/ref_2LetICls/addon.png)
+
+и установите параметры модуля:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_2LetICls/settings.png)
 
