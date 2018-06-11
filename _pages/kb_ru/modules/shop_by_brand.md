@@ -5,7 +5,7 @@ updated_at: '2018-06-11 14:25 +0400'
 identifier: ref_1vIquXc9
 title: Поиск товаров по брендам
 order: 260
-published: false
+published: true
 ---
 Модуль [Поиск товаров по брендам (Shop by Brand)](https://market.x-cart.com/addons/shop-by-brand.html "Shop by Brand Module") входит в _X-Cart Всё включено_. Для _X-Cart Базовый_, _X-Cart Бизнес_ и _X-Cart Мультивендор_ этот модуль следует приобрести в [Маркетплейсе](https://market.x-cart.com/addons "Поиск товаров по брендам").
 
