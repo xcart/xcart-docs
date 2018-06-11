@@ -15,11 +15,11 @@ published: false
 
 Перейдите по ссылке **Настройки** 
 
-![addon.png]({{site.baseurl}}/attachments/ref_2LetICls/addon.png)
+![3.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/3.jpg)
 
 и установите параметры модуля:
 
-![settings.png]({{site.baseurl}}/attachments/ref_2LetICls/settings.png)
+![4.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/4.jpg)
 
 {:.ui.compact.celled.small.padded.table} 
 
@@ -33,9 +33,9 @@ published: false
 
 X-Cart автоматически находит бренды по глобальным атрибутам, указанным в настройках модуля. Список торговых марок отображается в разделе **Каталог / Бренды** в панели управления магазина. 
 
-![brands.png]({{site.baseurl}}/attachments/ref_2LetICls/brands.png)
-
 Список составлен в алфавитном порядке и отображается одинаково в интерфейсе администратора и покупателей. На странице **Каталог / Бренды** администратор может изменить порядок следования брендов в списке, редактировать и добавлять новые бренды. 
+
+![5.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/5.jpg)
 
 Нажмите **Новый бренд**, чтобы _создать_ бренд. 
 
