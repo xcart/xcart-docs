@@ -7,29 +7,27 @@ title: Поиск товаров по брендам
 order: 260
 published: false
 ---
-[Shop by Brand](https://market.x-cart.com/addons/shop-by-brand.html "Shop by Brand Module") module is included in X-Cart Ultimate edition (paid for X-Cart Business). The module is aimed at promoting branded goods.
+Модуль [Поиск товаров по брендам (Shop by Brand)](https://market.x-cart.com/addons/shop-by-brand.html "Shop by Brand Module") входит в _X-Cart Всё включено_, для _X-Cart Базовый_, _X-Cart Бизнес_ и _X-Cart Мультивендор_ этот модуль следует приобрести в [Маркетплейсе](https://market.x-cart.com/addons "Поиск товаров по брендам").
 
-With this module finding products of specific brands/manufacturers becomes much easier to customers. Especially to first-time visitors who don't know what exactly they are looking for.
+Модуль **Поиск товаров по брендам (Shop by Brand)** находит товары по названиям производителей и торговых марок. Модуль упрощает поиск товаров для покупателей, особенно для новых посетителей магазина, которые не знакомы с ассортиментом магазина.
 
-To install the module  please follow the steps described in {% link "Installing and activating addons" ref_0fGEpvrh %}.
+{% link "Установите и активируйте модуль" ref_gpeZtm28 %}.
 
-Once installed, find the module in the list of installed modules on the Addons page in the admin back-end, open the module settings page and configure the module according to your business needs.
+Перейдите по ссылке **Настройки** и установите параметры модуля:
 
 ![addon.png]({{site.baseurl}}/attachments/ref_2LetICls/addon.png)
-
-The module settings are as follows:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_2LetICls/settings.png)
 
 {:.ui.compact.celled.small.padded.table} 
 
-| Which global attribute field is the product brand? | Here you can choose brands from the global attributes available. If you have no global attributes, please, {% link "configure" ref_HzMkgc0q %} them first. |
-| Order brands on the Brands page by | Choose between "Brand names", "Admin-defined order" and "Number of products". |
-| Enable pagination on the Brands page | Should be enabled only if you have a great deal of brands in the store. |
-| Default number of brands per page | The number of brands to be displayed on the Brands page on the store front-end. |
-| Show the Brands block on the home page | If enabled the Brands block will be displayed on the home page. |
-| Order brands in the Brands block by | Choose between "Brand names", "Admin-defined order" and "Number of products". |
-| Number of items in the Brands block |Set the number of brands to be displayed in the Brands block on the store front-end. |
+| Глобальный атрибут товара, определяющий его бренд | Выберите бренды из глобальных атрибутов товаров. Если в поле нет вариантов для выбора, сначала настройте глобальные атрибуты. |
+| Упорядочивать список на странице брендов | Установите режим сортировки брендов по названию, по количеству товаров бренда или в выбранном администратором порядке. |
+| Разбивать список брендов на страницы | Рекомендуется включить эту опцию, если в магазине представлено множество брендов. |
+| Количество брендов на страницу по умолчанию | Количество брендов в списке на странице торговых марок. |
+| Отображать блок со списком брендов | Включите эту опцию, чтобы секция со списком брендов отображалась на главной странице магазина. |
+| Упорядочивать список в блоке | Установите режим сортировки брендов в секции на главной странице - по названию, по количеству товаров бренда или в выбранном администратором порядке. |
+| Длина списка в блоке | Количество брендов в секции на главной странице. |
 
 Don't forget to **Submit** changes when done.
 
@@ -60,4 +58,3 @@ The Brands block on the store front-end displays only the brands that have produ
 {% note warning %}
 Enabling the "Show all" option for the '_How to show out of stock products_' field in the {% link "Customer Zone settings" ref_qAZlJxZm %} (**Store setup** > **Cart & Checkout**) will display the out-of-stock products throughout the whole store.
 {% endnote %}
-
