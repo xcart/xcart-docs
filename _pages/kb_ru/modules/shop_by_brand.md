@@ -41,7 +41,7 @@ published: true
 Товары, которым присвоены значения этого глобального атрибута, будут представлены на страницах брендов в магазине. 
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![17.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/17.jpg)
+  <div class="column" markdown="span">![22.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/22.jpg)
 </div>
   <div class="column" markdown="span">![20.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/20.jpg)
 </div>
