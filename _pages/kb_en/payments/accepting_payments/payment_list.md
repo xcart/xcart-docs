@@ -5,7 +5,7 @@ updated_at: '2018-06-11 12:42 +0400'
 identifier: ref_0wA82ctg
 title: "Viewing\_your store's payment methods list"
 order: 100
-published: false
+published: true
 ---
 X-Cart supports two types of payment methods:
 
@@ -26,4 +26,3 @@ INACTIVE (gray icon) = the method is not available (not visible to customers).
 The **Configure** button below each payment method name allows you to access the payment method settings:
 
 ![xc5_paymentmethods_configure_button.png]({{site.baseurl}}/attachments/ref_Jq6Bsdrt/xc5_paymentmethods_configure_button.png)
-
