@@ -15,7 +15,7 @@ version: X-Cart 5.1 - 5.2
 
 This article gives an example of how to create the right sidebar and hide the left sidebar in customer area, while transferring all sidebar widgets from left to right.
 
-{% note information %}
+{% note info %}
 If you use X-Cart 5.3 and higher, you can add right sidebar via admin area. For that, go to 'Look & feel' > 'Layout' section in admin area and change 'Default layout' and/or 'Home page layout' options there.
 {% endnote %}
 
