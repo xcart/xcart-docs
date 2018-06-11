@@ -18,3 +18,4 @@ _In this section:_
 *   {% link "Accepting payments" ref_Jq6Bsdrt %}
 *   {% link "PayPal" ref_g8OosGK4 %}
 *   {% link "Braintree" ref_3U96LOWn %}
+*   {% link "Amazon Pay" ref_mri0tPhM %} (former “Pay with Amazon”)
