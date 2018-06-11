@@ -11,6 +11,6 @@ Using the **Sorting & Descriptions** tab of the **Payment methods** section it's
 
 ![sorting-payments.png]({{site.baseurl}}/attachments/ref_1WSCwpNh/sorting-payments.png)
 
-By default all Online Payments come first, but you can change the payments order by drag-n-dropping them to the right position. 
+By default all **Online methods** come first, but you can change the payments order if required by drag-n-dropping them to the right position. 
 
 Also you can add the payment description and/or change the payment name that will be displayed to customers. Don't forget to **Save changes** when done.
