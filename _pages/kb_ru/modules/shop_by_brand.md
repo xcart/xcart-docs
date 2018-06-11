@@ -47,14 +47,14 @@ X-Cart автоматически находит бренды по глобал�
 * **Meta описание**: Описание бренда в мета-теге description на странице категории (для поисковой оптимизации).
 * **ЧПУ**: Семантическая ссылка на страницу бренда (для поисковой оптимизации).
 
-The buyers will see the Brands block on the home page and on any category page on the store front-end. You can change the Brands block location using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Shop by Brand Module"). The brands are also added to the store main {% link "menu" ref_BDykFBbw %}. If you want to disable the brands menu you can do it in the **Content** > **Menus** section of the store admin back-end.
+Покупатели видят список брендов на **главной странице магазина** и на странице каждой **категории**. Расположение секции брендов можно изменить с помощью встроенного редактора. В меню автоматически появляется пункт **Бренды**. Этот пункт можно отключить в разделе **Содержание / Меню**.
 
 ![home.png]({{site.baseurl}}/attachments/ref_2LetICls/home.png)
 
-The Brands block on the store front-end displays only the brands that have products that are in stock. If you want to show the brands with the out-of-stock products, please, enable the "Show all" option for the '_How to show out of stock products_' field in the {% link "Customer Zone settings" ref_qAZlJxZm %} (**Store setup** > **Cart & Checkout**). The brands that have no products assigned to them won't be displayed ever.
+В секции брендов отображаются только бренды, товары которых представлены в магазине, и при условии, что товары в наличии. Чтобы в секции брендов отображались и бренды, товары которых закончились, установите значение **Отображать во всех секциях** для опции **Как отображать товары которых нет в наличии** на странице **Настройка магазина / Корзина и оплата**. Если в магазине создан бренд, но к нему не относится ни один товар, этот бренд не отображается в секции брендов.
 
 ![general.png]({{site.baseurl}}/attachments/ref_2LetICls/general.png)
 
 {% note warning %}
-Enabling the "Show all" option for the '_How to show out of stock products_' field in the {% link "Customer Zone settings" ref_qAZlJxZm %} (**Store setup** > **Cart & Checkout**) will display the out-of-stock products throughout the whole store.
+Обратите внимание, что начение **Отображать во всех секциях** для опции **Как отображать товары которых нет в наличии** на странице **Настройка магазина / Корзина и оплата** влияет не только на раздел брендов, но на отображение товаров в магазине.
 {% endnote %}
