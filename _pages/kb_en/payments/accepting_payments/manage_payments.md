@@ -19,7 +19,7 @@ To edit an existing method:
 
     This opens the page with the payment method's settings.
 
-    ![]({{site.baseurl}}/attachments/6389794/xc5_paymentmethods_configure_method1.png)
+    ![configure-payment-page.png]({{site.baseurl}}/attachments/ref_25BG59R3/configure-payment-page.png)
 
 2.  Edit the settings. 
 
