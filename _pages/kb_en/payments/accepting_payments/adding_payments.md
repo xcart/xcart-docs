@@ -5,7 +5,7 @@ updated_at: '2018-06-11 12:44 +0400'
 identifier: ref_36BqwVSF
 title: Adding payment methods
 order: 110
-published: false
+published: true
 ---
 How you add a new payment method for your store depends on whether this method will be an _online_ or an _offline_ one.
 
