@@ -22,5 +22,4 @@ The Payments methods section allows you:
 *   {% link "Viewing your store's payment methods list" ref_0wA82ctg %}
 *   {% link "Adding payment methods" ref_36BqwVSF %}
 *   {% link "Managing exiting payment methods" ref_25BG59R3 %}
-
-
+*   {% link "Sorting payments on the storefront" ref_1WSCwpNh %}
