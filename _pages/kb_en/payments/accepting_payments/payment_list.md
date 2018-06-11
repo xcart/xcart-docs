@@ -18,11 +18,12 @@ On the **Payment settings** page, online payment methods can be found in the *
 
 The INACTIVE/ACTIVE switch displayed for every item on the list of payment methods can be used to control the availability of the method to customers:
 
-![xc5_paymentmethods_inactive_active.png]({{site.baseurl}}/attachments/ref_Jq6Bsdrt/xc5_paymentmethods_inactive_active.png)
+![active-inactive-payment.png]({{site.baseurl}}/attachments/ref_0wA82ctg/active-inactive-payment.png)
 
 ACTIVE (green icon) = the method is available on the storefront;
 INACTIVE (gray icon) = the method is not available (not visible to customers).
 
 The **Configure** button below each payment method name allows you to access the payment method settings:
 
-![xc5_paymentmethods_configure_button.png]({{site.baseurl}}/attachments/ref_Jq6Bsdrt/xc5_paymentmethods_configure_button.png)
+![configure-payment.png]({{site.baseurl}}/attachments/ref_0wA82ctg/configure-payment.png)
+
