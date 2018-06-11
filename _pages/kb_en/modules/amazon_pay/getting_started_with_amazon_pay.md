@@ -24,7 +24,7 @@ To start using Amazon Pay:
     
     * [here](https://payments.amazon.co.uk/preregistration/lpa?LD=SPUKAP_EX_XCart16) if your business is based in the UK;
     
-    * [here](https://payments.amazon.co.uk/preregistration/lpa?LD=SPUDEAP_EX_XCart16) Germany.
+    * [here](https://payments.amazon.co.uk/preregistration/lpa?LD=SPUDEAP_EX_XCart16) if your busineess is based in Germany.
 
 2.  Log in to Amazon's Seller Central at [https://sellercentral.amazon.com](https://sellercentral.amazon.com/ "https://sellercentral.amazon.com") to complete a few extra steps. If you’ve registered for multiple Amazon services, you’ll see a dropdown at the top of the page that lets you move between the different services.
     ![]({{site.baseurl}}/attachments/7504636/7602352.png)
