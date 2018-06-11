@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-06-11 14:25 +0400'
 identifier: ref_1vIquXc9
-title: Поиск товаров по брендам
+title: Поиск товаров по брендам (Shop by Brand)
 order: 260
 published: true
 ---
