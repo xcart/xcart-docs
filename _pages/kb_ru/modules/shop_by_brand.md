@@ -105,9 +105,11 @@ published: false
 
 Покупатели видят список брендов на **главной странице магазина**, на странице каждой **категории** и на странице **Бренды** по ссылке в главном меню.
 
-![88.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/88.jpg)
-
 Администратор может изменить расположение секции брендов на главной странице и на страницах категорий с помощью встроенного редактора через **Режим разметки**. 
 
-![9.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/9.jpg)
-
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![88.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/88.jpg)
+</div>
+  <div class="column" markdown="span">![9.jpg]({{site.baseurl}}/attachments/ref_1vIquXc9/9.jpg)
+</div>
+</div>
