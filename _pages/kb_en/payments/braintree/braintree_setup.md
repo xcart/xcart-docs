@@ -63,9 +63,13 @@ You can configure the following additinal setting for the payment:
   
   ![braintree-account-adm.png]({{site.baseurl}}/attachments/ref_6gWLGj9K/braintree-account-adm.png)
   
-  Also there, in the _Account_ tab you can **Refresh access token** and **Unlink account** with the respective butotns	of the same name. 
-  The **Refresh access token** button should be used if you ever ever need to exchange the access token (e.g. if the current token is expiring soon or you think it has been compromised in some way). The access token will expire 10 years from its creation date. 
-  The **Unlink account** button should be used if you need to disconnnect your Braintree account, that will also revoke the access token. You will not be able to accept payments via Braintree until the Braintree account is connected back.
+  Also there, in the _Account_ tab you can **Refresh access token** and **Unlink account** with the respective buttons	of the same name. 
+  The **Refresh access token** button should be used if you ever need to exchange the access token (e.g. if the current token is expiring soon or you think it has been compromised in some way). The access token will expire 10 years from its creation date. 
+  The **Unlink account** button should be used if you need to disconnnect your Braintree account, that will also revoke the access token. 
+  
+  {% note warning %}
+  You will not be able to accept payments via Braintree until the Braintree account is connected back.
+  {% endnote %}
   
   * **Auto settle** : Enable the feature if you want all the requests to be processed through your default merchant account (the predefined **Merchant ID**).
   * **Braintree invoice number prefix** : Set an invoice prefix to distinguish the orders paid with Braintree from the orders paid with other payment methods if required. The set prefix will be added to all orders in X-Cart paid with Braintree.
