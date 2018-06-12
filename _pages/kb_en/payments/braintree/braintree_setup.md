@@ -63,8 +63,8 @@ You can configure the following additinal setting for the payment:
   
   ![braintree-account-adm.png]({{site.baseurl}}/attachments/ref_6gWLGj9K/braintree-account-adm.png)
   
-  Also there, in the _Account_ tab you can **Refresh the access token** and **Unlink account** with the respective butotns	of the same name. 
-  The **Refresh the access token** button should be used if you ever ever need to exchange the access token (e.g. if the current token is expiring soon or you think it has been compromised in some way). The access token will expire 10 years from its creation date. 
+  Also there, in the _Account_ tab you can **Refresh access token** and **Unlink account** with the respective butotns	of the same name. 
+  The **Refresh access token** button should be used if you ever ever need to exchange the access token (e.g. if the current token is expiring soon or you think it has been compromised in some way). The access token will expire 10 years from its creation date. 
   The **Unlink account** button should be used if you need to disconnnect your Braintree account, that will also revoke the access token. You will not be able to accept payments via Braintree until the Braintree account is connected back.
   
   * **Auto settle** : Enable the feature if you want all the requests to be processed through your default merchant account (the predefined **Merchant ID**).
