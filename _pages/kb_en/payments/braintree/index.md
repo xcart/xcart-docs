@@ -28,4 +28,4 @@ Please read on:
 
 *   {% link "Enabling and Configuring Braintree Payment" ref_6gWLGj9K %}
 *   Braintree: Admin Experience
-*   Braintree: Customer Experience
+*   {% link "Braintree : Customer Experience" ref_1H9wRepr %}
