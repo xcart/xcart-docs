@@ -1,58 +1,53 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2015-01-20 00:00'
 title: Implementing horizontal attribute tabs
 identifier: ref_fqe3OJXk
-updated_at: 2015-01-20 00:00
-layout: article_with_sidebar
-lang: en
-version: X-Cart 5.1.4 - 5.2.16
 categories:
-- Developer docs
-- Demo module
+  - Developer docs
+  - Demo module
+published: true
+order: 100
 ---
-
 ## Introduction
 
-X-Cart 5.1.4 introduced **vertical product attribute tabs** that look as follows:![]({{site.baseurl}}/attachments/8225427/8356199.png)
+X-Cart 5.1.4 introduced **vertical product attribute tabs** that look as follows:
+![]({{site.baseurl}}/attachments/8225427/8356199.png)
 
-If you are one of the clients, who want previous **horizontal** look of product tabs: ![]({{site.baseurl}}/attachments/8225427/8356200.png)
+If you are one of the clients, who prefers previous **horizontal** look of product tabs, then this guide is for you.
+![]({{site.baseurl}}/attachments/8225427/8356200.png)
 
-then this guide is for you.
-
-## Table of Contents
-
-*   [Introduction](#introduction)
-*   [Table of Contents](#table-of-contents)
-*   [Implementation](#implementation)
-*   [Module pack](#module-pack)
+{% toc Table of Contents %}
 
 ## Implementation
 
-We start with {% link "creating an empty module" ref_G2mlgckf %} with developer ID **Tony** and module ID **ProductTabsChange**. This change comes to applying set of CSS rules, so we need to {% link "register a new CSS file" ref_p0CRZmMS %}. We create the
-`<X-Cart>/classes/XLite/Module/Tony/ProductTabsChange/View/AView.php` file with the following content: 
+We start with {% link "creating an empty module" ref_G2mlgckf %} with developer ID **XCMods** and module ID **ProductTabsChange**. This change comes down to applying set of CSS rules, so we need to {% link "register a new CSS file" ref_p0CRZmMS %}. We create the
+`classes/XLite/Module/XCEMods/ProductTabsChange/View/AView.php` file with the following content: 
 
 ```php
 <?php
-// vim: set ts=4 sw=4 sts=4 et:
 
-namespace XLite\Module\Tony\ProductTabsChange\View;
+namespace XLite\Module\XCMod\ProductTabsChange\View;
 
 /**
  * Abstract widget
  */
 abstract class AView extends \XLite\View\AView implements \XLite\Base\IDecorator
 {
-    protected function getThemeFiles($adminZone = null)
+    public function getCSSFiles()
     {
-        $list = parent::getThemeFiles($adminZone);
-
-        $list[static::RESOURCE_CSS][] = 'modules/Tony/ProductTabsChange/css/style.css';
-
-        return $list;
-    }
+        return array_merge(
+            parent::getCSSFiles(),
+            array(
+                'modules/XCMod/ProductTabsChange/css/style.css',
+            )
+        );
+    }    
 }
 ```
 
-and then create the `<X-Cart>/skins/default/en/modules/Tony/ProductTabsChange/css/style.css` file with the following content: 
+and then create the aforementioned `skins/customer/modules/XCMod/ProductTabsChange/css/style.css` CSS file with the following content: 
 
 ```php
 .product-details-tabs div.tabs ul.tabs {
@@ -92,13 +87,8 @@ and then create the `<X-Cart>/skins/default/en/modules/Tony/ProductTabsChange/cs
 }
 ```
 
-That is it. Now you need to re-deploy the store and check the results in store-front.
+That is it, now you should see the change applied in customer area.
 
 ## Module pack
 
-You can download this module pack from here: [https://dl.dropboxusercontent.com/u/23858825/Tony-ProductTabsChange-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-ProductTabsChange-v5_1_0.tar)
-
-## Attachments:
-
-* [vertical-product-tabs.png]({{site.baseurl}}/attachments/8225427/8356199.png) (image/png)
-* [horizontal-product-tabs.png]({{site.baseurl}}/attachments/8225427/8356200.png) (image/png)
+You can download this module pack from here: <https://www.dropbox.com/s/zy88lg3ci7gfovg/XCMod-ProductTabsChange-v5_3_0.tar>
