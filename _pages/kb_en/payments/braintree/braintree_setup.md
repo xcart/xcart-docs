@@ -5,7 +5,7 @@ updated_at: '2018-06-12 10:59 +0400'
 identifier: ref_6gWLGj9K
 title: Enabling and Configuring Braintree Payment
 order: 100
-published: false
+published: true
 ---
 ## Enabling Braintree Payment
 
