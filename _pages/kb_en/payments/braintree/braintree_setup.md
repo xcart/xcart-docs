@@ -9,9 +9,9 @@ published: true
 ---
 ## Enabling Braintree Payment
 
-To enable Braintree as a payment method in your X-Cart store, add Braintree to the list of your store's active payment methods and configure it:
+To enable Braintree as a payment method in your X-Cart store, add it to the list of your store's active payment methods:
 
-   1. In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
+   1. In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for _Online methods_, click **Add payment method**:
         
       ![xc5_braintree_add_payment_method.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_add_payment_method.png)
 
@@ -23,17 +23,15 @@ To enable Braintree as a payment method in your X-Cart store, add Braintree to t
      
       ![xc5_braintree_payment_method_added_successfully.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method_added_successfully.png)
 
-      Note that if the Braintree integration module is not installed in your X-Cart store at the time of adding the method, there will be an **Install** button instead of **Add**: 
+      {% note info %}
+      If the Braintree integration module is not installed in your X-Cart store at the time of adding the method, there will be an **Install** button instead of **Add**: 
         
       ![xc5_braintree_payment_method.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method.png)
         
       Use this button to install the module and add the method.
+      {% endnote %}
         
-   3. Once the method has been added, you will need to connect your X-Cart Braintree integration with your Braintree or PayPal account. Click the **Configure** button pertaining to the Braintree payment method you have added to proceed to connecting:
-    
-      ![xc5_braintree_configure_button.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_configure_button.png)
-         
-      A page with the **Connect with Braintree** button will be displayed:
+   3. Once the method is added, you will need to connect your X-Cart Braintree integration with your Braintree or PayPal account. A page with the **Connect with Braintree** button will be displayed:
        
       ![xc5_braintree_method_added.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_method_added.png)
 
@@ -51,6 +49,33 @@ To enable Braintree as a payment method in your X-Cart store, add Braintree to t
       
 ## Configuring Braintree Payment
 
-Once the Braintree authorization is complete you'll be redirected to the Braintree settings page in the X-Cart admin automatically. You'll see a screen of the kind:
+Once the Braintree authorization is complete you'll be redirected to the **Braintree settings page** in the X-Cart admin automatically. You'll see a screen of the kind:
 
 ![braintree-settings.png]({{site.baseurl}}/attachments/ref_6gWLGj9K/braintree-settings.png)
+
+The Merchant account ID will be predefined when linked with your Braintree account data. The rest of the settings can be configured additionally.
+
+You can configure the following additinal setting for the payment:
+
+**Merchant account ID** : 
+**Auto settle** : YES/NO
+**Braintree invoice number prefix** : Set an invoice prefix to distinguish the orders paid with Braintree from the orders paid with other payment methods if required. The set prefix will be added to all orders in X-Cart paid with Braintree.
+**Kount merchant ID** : Specify your [Kount merchant ID](https://www.kount.com/fraud-detection-software/kount-products "Enabling and Configuring Braintree Payment") if have it.
+
+Additional PayPal settings:
+
+**Accept PayPal** : Enable the option is you can accept payment via PayPal as well.
+**Button color** : Choose the PayPal button color
+**Button shape** : Choose the PayPal button shape
+
+Additional Vault settings:
+
+**Use Vault** : Enabling Vault will allow you to charge the PayPal account in the future without requiring your customer to re-authenticate with PayPal.
+**Ask customer to save card in vault** : Enable to have your customers permission for saving card in vault
+
+Additional 3-D Secure settings:
+
+**3-D Secure** : Enable the option to use 3-D Secure payments
+**Accept card types not covered by 3-D Secure (e.g. Amex, Discover)** : Choose whether you want to accept card types not covered by 3-D Secure or not.
+**Use for cards saved in vault** : If set to YES the 3-D Secure payment will be applied to all cards saved in vault.
+
