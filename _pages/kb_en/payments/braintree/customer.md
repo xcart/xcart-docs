@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-06-12 12:33 +0400'
 identifier: ref_1H9wRepr
 title: 'Braintree : Customer Experience'
-order: 100
+order: 120
 published: true
 ---
 When the Braintree Payment is enabled a customer can choose it at checkout to pay the order. Braintree allows customers to submit the CC data directly on your X-Cart site and this data will be processed securely. 
