@@ -22,8 +22,10 @@ Depending on the X-Cart version you are using, a Braintree integration module ma
 If not, you can obtain it from the X-Cart Marketplace at any time:
 ![xc5_braintree_module.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_module.png)
 
-To accept payments with Braintree, you will need a Braintree or PayPal account. If you do not yet have one, you will be able to sign up in the process of setting up the Braintree integration for your store (Please read on).
+To accept payments with Braintree, you will need a Braintree or PayPal account. If you do not yet have one, you will be able to sign up in the process of setting up the Braintree integration for your store.
 
-* Enabling and Configuring Braintree Payment
-* Braintree: Admin Experience
-* Braintree: Customer Experience
+Please read on:
+
+*   {% link "Enabling and Configuring Braintree Payment" ref_6gWLGj9K %}
+*   Braintree: Admin Experience
+*   Braintree: Customer Experience
