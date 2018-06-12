@@ -58,13 +58,22 @@ The **Merchant ID** (a unique identifier for your entire gateway account) will b
 You can configure the following additinal setting for the payment:
 
   * **Merchant account ID** : Your merchant account ID is a unique identifier for a specific merchant account. Within your Braintree gateway, you can have multiple merchant accounts to process transactions for different businesses or currencies. If you have a single merchant account, it is not necessary to specify a merchant account ID in your API requests. If you have multiple merchant accounts and choose not to specify the merchant account ID, all requests will be processed through your default merchant account (the predefined **Merchant ID**).
+  
+  The preset **Merchant account ID** you can check in the _'Account'_ tab of the Braintree Payment settings page
+  
+  ![braintree-account-adm.png]({{site.baseurl}}/attachments/ref_6gWLGj9K/braintree-account-adm.png)
+  
+  Also there, in the _Account_ tab you can **Refresh the access token** and **Unlink account** with the respective butotns	of the same name. 
+  The **Refresh the access token** button should be used if you ever ever need to exchange the access token (e.g. if the current token is expiring soon or you think it has been compromised in some way). The access token will expire 10 years from its creation date. 
+  The **Unlink account** button should be used if you need to disconnnect your Braintree account, that will also revoke the access token. You will not be able to accept payments via Braintree until the Braintree account is connected back.
+  
   * **Auto settle** : Enable the feature if you want all the requests to be processed through your default merchant account (the predefined **Merchant ID**).
   * **Braintree invoice number prefix** : Set an invoice prefix to distinguish the orders paid with Braintree from the orders paid with other payment methods if required. The set prefix will be added to all orders in X-Cart paid with Braintree.
-  * **Kount merchant ID** : Specify your [Kount merchant ID](https://www.kount.com/fraud-detection-software/kount-products "Enabling and Configuring Braintree Payment") if have it.
+  * **Kount merchant ID** : Specify your [Kount merchant ID](https://www.kount.com/fraud-detection-software/kount-products "Enabling and Configuring Braintree Payment") if you have it.
 
 Additional PayPal settings:
 
-  * **Accept PayPal** : Enable the option is you can accept payment via PayPal as well.
+  * **Accept PayPal** : With the option enabled you can accept payment via PayPal as well.
   * **Button color** : Choose the PayPal button color.
   * **Button shape** : Choose the PayPal button shape.
 
