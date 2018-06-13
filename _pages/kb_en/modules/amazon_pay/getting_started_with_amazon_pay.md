@@ -46,12 +46,12 @@ To start using Amazon Pay:
 
 5.  Get your account keys (These will need to be entered in X-Cart):
 
-    *   Under "Settings" -> "Integration Settings":
+    *   Under **"Settings"** -> **"Integration Settings"**:
 
         *   Your **Merchant ID**
             ![]({{site.baseurl}}/attachments/7504636/7602356.png)
             
-    *   Under "Integration" -> "MWS Access Key":
+    *   Under **"Integration"** -> **"MWS Access Key"**:
 
         *   Your **Access Key ID**
 
@@ -77,7 +77,7 @@ To start using Amazon Pay:
 
 
 7.  In Seller Central, configure your instant notification settings (IPN):
-    
+       
     Under **"Settings"** -> **"Integration Settings"**, enter your **Merchant URL**. The Sandbox and Production accounts each have separate values for this setting, so you must switch the view using the drop-down box at the top of the screen to set both. The URL you'll need to enter is `httрs://<YOUR_XCART_STORE>/cart.php?target=amazon_checkout&isipn=Y` (HTTPS is required when you configure your IPN URL for the production account. HTTP is only allowed for testing since no private customer data is passed in test mode). 
 
 
