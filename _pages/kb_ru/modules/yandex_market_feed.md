@@ -68,7 +68,7 @@ published: true
 Выберите **Ссылка**, вставьте ссылку из настроек модуля в магазине и нажмите **Проверить Прайс-лист**. Если файл составлен в верном формате, прайс-лист будет добавлен и появится в списке на этой странице. Если файл имеет неверный формат, появится сообщение об ошибке.
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">!![7.jpg]({{site.baseurl}}/attachments/ref_7fuauP3o/7.jpg)
+  <div class="column" markdown="span">![7.jpg]({{site.baseurl}}/attachments/ref_7fuauP3o/7.jpg)
 </div>
   <div class="column" markdown="span">![8.jpg]({{site.baseurl}}/attachments/ref_7fuauP3o/8.jpg)
 </div>
