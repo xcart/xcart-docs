@@ -100,7 +100,8 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
 *   **Maximum allowed order subtotal**: This setting allows you to set the maximum order amount. A shopper will be allowed to check out only if their order subtotal amount is less than this value.
     ![xc5_general_settings_max_subtotal.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_max_subtotal.png)
     
-*   **Maximum order quantity (per product)** (used to be "Default purchase limit" in earlier X-Cart 5 versions): This setting allows you to limit the number of product units that a buyer can order at a time. If a buyer attempts to add to cart more product units than specified here, only the allowed quantity will be added; the buyer will be notified of the quantity adjustment with an appropriate message (For example, "Sorry, there's a limit of 1 per order for the product `<Product name>`. 1 unit(s) already in cart.")
+*   **Maximum order quantity (per product)**: This setting allows you to limit the number of product units that a buyer can order at a time. If a buyer attempts to add to cart more product units than specified here, only the allowed quantity will be added; the buyer will be notified of the quantity adjustment with an appropriate message:
+    ![xc5_general_settings_max_prod_units.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_max_prod_units.png)
 
 *   **Force customer to choose product options before adding a product to cart**: This setting affects the add to cart behavior of products with modifier options and products with product variants. 
     
