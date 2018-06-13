@@ -5,7 +5,7 @@ updated_at: '2018-06-13 15:41 +0400'
 identifier: ref_08L2zVtq
 title: Неоплаченные заказы (Not Finished Orders)
 order: 290
-published: false
+published: true
 ---
 Когда покупатель оплачивает покупку, его корзина очищается, а в панели управления магазина создаётся заказ с товарами, которые находились в корзине на момент совершения оплаты. Возможна ситуация, когда покупатель переходит на страницу оплаты, но не оплачивает заказ по какой-то причине (передумал, отвлёкся, сломался компьютер и т.п.). В этом случае заказ не регистрируется в панели управления. Если администратор желает знать обо всех незавершённых заказах, поможет модуль [Неоплаченные заказы (Not Finished Orders)](https://market.x-cart.com/addons/not-finished-orders.html "Неоплаченные заказы (Not Finished Orders)"). 
 
@@ -21,7 +21,12 @@ published: false
 
 В разделе Мои модули найдите **Not Finished Orders** и нажмите **Настройки**.
 
-![payment-transactions.png]({{site.baseurl}}/attachments/ref_5TMbPwNQ/payment-transactions.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![1.jpg]({{site.baseurl}}/attachments/ref_08L2zVtq/1.jpg)
+</div>
+  <div class="column" markdown="span">![2.jpg]({{site.baseurl}}/attachments/ref_08L2zVtq/2.jpg)
+</div>
+</div>
 
 * **Создавать незавершенный заказ** - условие для регистрации незавершённого заказа: _До оплаты_ или _В случае неудачной оплаты_.
 
@@ -38,7 +43,7 @@ published: false
 
 Неоплаченные заказы появляются в разделе **Заказы / Список заказов**.
 
-![order.png]({{site.baseurl}}/attachments/ref_5TMbPwNQ/order.png)
+![3.jpg]({{site.baseurl}}/attachments/ref_08L2zVtq/3.jpg)
 
 У неоплаченного заказа нет номера, его можно узнать по статусу **Не завершен**. Неоплаченный заказ приобретает номер, только если админстратор изменяет статусы оплаты и доставки.
 
