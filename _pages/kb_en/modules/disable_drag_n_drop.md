@@ -14,7 +14,7 @@ The drag-n-drop add to cart feature enables a shopper to grab a product from a p
 
 To disable the drag-n-drop add to cart feature, the addon simply needs to be installed and active.
 ![xc5_general_settings_disable_drag_n_drop.png]({{site.baseurl}}/attachments/ref_2NVSkzc3/xc5_general_settings_disable_drag_n_drop.png)
-
+No need to configure any addon settings - it is just the status of the addon that affects the add to cart behavior (addon enabled = drag-n-drop is not used; addon disabled = drag-n-drop is used).
 
 _Related pages:_
 
