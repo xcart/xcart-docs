@@ -23,3 +23,4 @@ icon: puzzle
 *   {% link "Фильтры свойств товаров (Product Filter Module)" ref_0Fs6QJrz %}
 *   {% link "Каталог товаров для Яндекс.Маркета (Yandex.Market Feed)" ref_7fuauP3o %}
 *   {% link "Многовалютность (Multicurrency)" ref_1EpoZue8 %}
+*   {% link "Неоплаченные заказы (Not Finished Orders)" ref_08L2zVtq %}
