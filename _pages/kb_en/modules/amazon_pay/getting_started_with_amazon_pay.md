@@ -28,21 +28,23 @@ To start using Amazon Pay:
 
 2.  Log in to Amazon's Seller Central at [https://sellercentral.amazon.com](https://sellercentral.amazon.com/ "https://sellercentral.amazon.com") to complete a few extra steps. If you’ve registered for multiple Amazon services, you’ll see a dropdown at the top of the page that lets you move between the different services.
     ![]({{site.baseurl}}/attachments/7504636/7602352.png)
-3.  Create a test account to use in Sandbox mode.
-    Select "Amazon Payments Advanced (Sandbox View)" from the drop-down box at the top of the screen. Under "Integration" -> "Test Accounts", you can create test accounts for use in Sandbox mode. Sandbox mode can be used to make test purchases without processing an actual payment.
+3.  Create a test account to use in the Sandbox mode.
+    
+    Select "Amazon Payments Advanced (Sandbox View)" from the drop-down box at the top of the screen. Under **"Integration"** -> **"Test Accounts"**, you can create test accounts for use in  Sandbox mode. Sandbox mode can be used to make test purchases without processing an actual payment.
     ![]({{site.baseurl}}/attachments/7504636/7602353.png)
 
 4.  Set up your account
-    Select "Amazon Payments Advanced (Production View)" from the drop-down box at the top of the screen. You’ll need to complete a tax interview and set up your bank account, even if you’ve already done so for an existing account. You’ll see a message and links to complete these steps on your home page when you switch to the Production View.
+    
+    Select "Amazon Payments Advanced (Production View)" from the drop-down box at the top of the screen. You’ll need to complete a tax interview and set up your bank account, even if you’ve already done it for an existing account. You’ll see a message and links to complete these steps on your home page when you switch to the Production View.
     ![]({{site.baseurl}}/attachments/7504636/7602354.png)
 
 5.  Get your account keys (These will need to be entered in X-Cart):
 
     *   Under "Settings" -> "Integration Settings":
 
-        *   Your** Merchant ID**
-            **![]({{site.baseurl}}/attachments/7504636/7602356.png)
-            **
+        *   Your **Merchant ID**
+            ![]({{site.baseurl}}/attachments/7504636/7602356.png)
+            
     *   Under "Integration" -> "MWS Access Key":
 
         *   Your **Access Key ID**
@@ -51,6 +53,7 @@ To start using Amazon Pay:
             ![]({{site.baseurl}}/attachments/7504636/7602357.png)
 
     *   **Note**: If you do not see your keys, you'll need to create new ones, that you do by clicking the link under "Create MWS Account":
+        
         *   Log in using your Seller Central account.
 
         *   Select the "I want to access my own Amazon seller account with MWS" option.
@@ -66,16 +69,18 @@ To start using Amazon Pay:
     *   {% link "Configuring the Amazon Pay addon" ref_0UssH5KP %}
 
 7.  In Seller Central, configure your instant notification settings (IPN):
-    Under "Settings" -> "Integration Settings", enter your **Merchant URL**. The Sandbox and Production accounts each have separate values for this setting, so you must switch the view using the drop-down box at the top of the screen to set both. The URL you'll need to enter is `httрs://<YOUR_XCART_STORE>/cart.php?target=amazon_checkout&isipn=Y` (HTTPS is required when you configure your IPN URL for the production account. HTTP is only allowed for testing since no private customer data is passed in test mode). 
+    
+    Under **"Settings"** -> **"Integration Settings"**, enter your **Merchant URL**. The Sandbox and Production accounts each have separate values for this setting, so you must switch the view using the drop-down box at the top of the screen to set both. The URL you'll need to enter is `httрs://<YOUR_XCART_STORE>/cart.php?target=amazon_checkout&isipn=Y` (HTTPS is required when you configure your IPN URL for the production account. HTTP is only allowed for testing since no private customer data is passed in test mode). 
 
-8.  If you wish to use your own graphics (company logo) in the pop-up window where buyers will sign in to Amazon Pay, upload the image in Seller Central (This is called "Pop-up Window Banner" under "Settings" -> "Integration Settings"). Banner images must be 520 pixels wide by 50 pixels tall, and they must have no animation. Image files should be in .jpg or .gif format.
+8.  If you wish to use your own graphics (company logo) in the pop-up window where buyers will sign in to Amazon Pay, upload the image in Seller Central (This is called "Pop-up Window Banner" under **"Settings"** -> **"Integration Settings"**). Banner images must be 520 pixels wide by 50 pixels tall, and they must have no animation. Image files should be in .jpg or .gif format.
 
 9.  Test your setup in Sandbox mode. You can use the test account you set up earlier. We recommend trying out both your customer-facing checkout flow as well as order management to get a feel for how orders are processed.
 
 10.  Once you’re ready to go live with your Amazon Pay addon, switch the addon to production mode by setting its Operation mode to "Live", and you should be ready to go.
 
 11.  Order Management
-    You manage orders entirely within X-Cart’s order management interface, as you would with a standard credit card payment gateway. There's no need to process the orders via Amazon's Seller Central website as with Checkout by Amazon.
+     
+     You manage orders entirely within X-Cart’s order management interface, as you would with a standard credit card payment gateway. There's no need to process orders via Amazon's Seller Central website as with Checkout by Amazon.
 
 _Related pages:_
 
