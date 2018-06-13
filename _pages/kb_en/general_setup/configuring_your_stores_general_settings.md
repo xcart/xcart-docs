@@ -110,10 +110,6 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
     * _On Category Listing_ : A shopper who chooses to add to cart a product with options/variants from a category listing will have to specify the options they require before the product is added to the shopping cart.
     
     * _On Category and Product Details Page_ : With this option selected, the add to cart behavior on a category listing will be the same as desribed above (See the _On Category Listing_ option). In addition to that, if a shopper chooses to add a product to the shopping cart from the product details page, they will also have to select product options.    
-    
-    {% note info %}
-    If you want to disable drag-n-drop option for products completely install the [Disable drag'n'drop add to cart](https://market.x-cart.com/addons/disable-drag-n-drop.html "Configuring your store&#39;s General settings") module and activate it. More info on modules installation you can find in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
-    {% endnote %}
 
 *   **Redirect customer to the cart page after a product is added to cart**: When this option is enabled, after adding a product to cart a shopper is redirected to the cart page where they can see the item they just added. When the option is disabled, the shopper remains on the same page. Please note that this setting is not compatible with X-Cart's Add to Cart module: when the module Add to Cart popup is enabled, adding a product to cart results in a popup being displayed.
 
@@ -145,3 +141,7 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
 *   **Users per page**:  This setting allows you to specify the maximum number of users that can be displayed on a search results page in the store's back end.
 *   **Orders per page**:  This setting allows you to specify the maximum number of orders that can be displayed on a search results page in the store's back end.
 *   **Number of days to store the last login data**: This setting defines the lifespan of a "recent_login" cookie that is set by the store on a customer's computer when they log in. While being stored, the cookie allows the customer to return to the store without having to re-enter their user authentication details (username and password).
+
+_Related pages:_
+
+   * {% link "Disable drag'n'drop add to cart" ref_2NVSkzc3 %}
