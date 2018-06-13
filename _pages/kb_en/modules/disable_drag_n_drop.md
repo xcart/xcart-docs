@@ -9,3 +9,7 @@ published: true
 ---
 The addon **Disable drag'n'drop add to cart** disables X-Cart's default drag-n-drop add to cart feature replacing it with the 'add to cart' button on product listing pages (category, search results). 
 To disable the drag-n-drop add to cart feature, the addon simply needs to be installed and active.
+
+_Related pages:_
+
+   * {% link "Addons" ref_mCs9Q9Uy %}
