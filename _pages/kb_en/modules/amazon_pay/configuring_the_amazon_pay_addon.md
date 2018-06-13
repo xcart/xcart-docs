@@ -36,7 +36,11 @@ To configure the addon:
         * With the _Asynchronous_ type of request selected, Amazon will not process authorizations in real time: after an authorization request, your store will receive an immediate API response indicating the Pending status of the authorization, and the order status in your store will become Queued. At this point, the customer will receive an order confirmation with the Queued order status. Later, when the authorization request is processed by Amazon, the store will receive the final processing status of the authorization request (for example, Open or Declined) from Amazon through the Instant Payment Notification service, and the order status in the store will be updated, respectively, to Authorized/Processed (dependes on the Capture mode) or Declined. At this time, the customer will receive another notification - with the updated order status. 
         * With the _Synchronous_ type of request selected, it will be different: the authorization request will be either processed or declined by Amazon in real time. In response to your authorization request, Amazon will return either an Open or Declined status in the API response, typically within a few seconds  (If Amazon is unable to process the authorization synchronously, it will return a Declined status). As a result, the order status in your X-Cart store will become either Authorized/Processed (depends on the Capture mode) or Declined right after the order has been placed - while the buyer is still on your store's site. Note that by selecting the _Synchronous_ type of request you may observe a higher authorization decline rate as Amazon will convert some Pending authorizations to Declined. 
      * **OrderId prefix**: Specify an order prefix that will be added to all orders paid with Amazon Pay if you need to differentiate them from the rest of the orders in your store
-     * **Callback URL**: Is defined automatically by the system
+     * **Callback URL**: Is defined automatically by the system. 
+       
+       To ensure that the status of payments in your store is updated automatically after Amazon processes the respective payment requests, you need to set up the endpoints:
+          * Log in to Seller Central and select 'Integration Settings' from the Settings drop-down box.
+          * Click **Edit** under the 'Instant Notifications Settings' section and enter the Callback URL provided here into the 'Merchant URL' field.
 
 3.  Click **Submit** to save the changes.
 
