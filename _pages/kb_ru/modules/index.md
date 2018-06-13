@@ -20,3 +20,4 @@ icon: puzzle
 *   {% link "Специальные предложения (Special Offers)" ref_1H0OI3IC %}
 *   {% link "Синхронизация X-Cart с 1С:Предприятие" ref_1yLiVv5G %}
 *   {% link "Поиск товаров по брендам (Shop by Brand)" ref_1vIquXc9 %}
+*   {% link "Фильтры свойств товаров (Product Filter Module)" ref_0Fs6QJrz %}
