@@ -88,8 +88,8 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
         ![xc5_general_settings_table_view.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_table_view.png)
 
 
-*   **Products per category listing page**: This setting allows you to specify the number of products that should be displayed on a category page by default (Users will be able to change the number of products displayed per page if they wish). For example, if we set this to "2", by default there will be only two products displayed per page. For the rest of the product list pagination will be provided:
-    ![]({{site.baseurl}}/attachments/7505478/7602705.png)
+*   **Products per category listing page**: This setting allows you to specify the number of products that should be displayed on a category page by default (Users will be able to change the number of products displayed per page if they wish; here you set the number of products they see initially, before making any changes). For example, if we set this to "2", by default there will be only two products displayed per page. For the rest of the product list pagination will be provided:
+    ![xc5_general_settings_default_prod_number.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_default_prod_number.png)
     
 *  **Maximum products per category listing page**: This setting allows you to set the max number of products displayed on a category page. For example, if we set this to "10", max 10 products will be displayed per page. For the rest of the product list pagination will be provided:
     ![max_value.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/max_value.png)
