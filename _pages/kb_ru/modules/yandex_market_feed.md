@@ -46,9 +46,11 @@ published: false
 
 ## Регистрация в Яндекс.Маркете
 
-Для регистрации в сервисе **Яндекс.Маркет** необходима учетная запись **Яндекса**. Владелец учётной записи **Яндекса**, регистрирующийся в **Яндекс.Маркете**, становится [главным представителем магазина](https://yandex.ru/support/partnermarket/accesses/roles.html#roles-description__representative "Каталог товаров для Яндекс.Маркета (Yandex.Market Feed)") - получает полный доступ к администрированию всех магазинов, связанных с его учётной записью. 
+[Для регистрации в сервисе **Яндекс.Маркет**](https://yandex.ru/support/partnermarket/registration/authorization.html "Каталог товаров для Яндекс.Маркета (Yandex.Market Feed)") необходима учетная запись **Яндекса**. 
 
-Выполните общие настройки, настройте доставку и самовывоз. Пройдите модерацию. Оплатите размещение, чтобы ваши предложения начали публиковаться на **Маркете**.
+Владелец учётной записи **Яндекса**, регистрирующийся в **Яндекс.Маркете**, становится [главным представителем магазина](https://yandex.ru/support/partnermarket/accesses/roles.html#roles-description__representative "Каталог товаров для Яндекс.Маркета (Yandex.Market Feed)") - получает полный доступ к администрированию всех магазинов, связанных с его учётной записью. 
+
+Выполните [общие настройки](https://yandex.ru/support/partnermarket/registration/settings.html "Каталог товаров для Яндекс.Маркета (Yandex.Market Feed)"), настройте [доставку и самовывоз](https://yandex.ru/support/partnermarket/settings/delivery.html "Каталог товаров для Яндекс.Маркета (Yandex.Market Feed)"), [пройдите модерацию](https://yandex.ru/support/partnermarket/registration/check-shop.html "Каталог товаров для Яндекс.Маркета (Yandex.Market Feed)"). [Оплатите размещение](https://yandex.ru/support/partnermarket/registration/payment.html "Каталог товаров для Яндекс.Маркета (Yandex.Market Feed)"), чтобы ваши предложения начали публиковаться на **Маркете**.
 
 Вы можете разместить товары нескольких магазинов. Для этого ознакомьтесь с [условиями размещения нескольких магазинов](https://yandex.ru/support/partnermarket/registration/many-shops.html#many-shops "Каталог товаров для Яндекс.Маркета (Yandex.Market Feed)").
 
