@@ -7,11 +7,9 @@ title: Неоплаченные заказы (Not Finished Orders)
 order: 290
 published: false
 ---
-When a buyer completes a payment process with a payment gateway and clicks _**Place Order**_  his cart in X-Cart front-end is cleared and the admin back-end registers an order for this buyer being an exact copy of the cart at the moment of payment.  Sometimes it can be that a buyer proceeds to paying a cart but doesn't complete it due to many reasons (a customer changes his mind, something distracts a customer from the payment, a computer crash, etc.). In this case the cart admin back-end doesn't register an order and if a merchant wants to have such not finished purchases registered it's necessary to use the **Not Finished Orders module** in X-Cart. This module is included in the Business edition and higher and can be {% link "enabled" ref_0fGEpvrh %} in the _**My Addons**_ section of the cart admin back-end.
+Когда покупатель оплачивает покупку, его корзина очищается, а в панели управления магазина создаётся заказ с товарами, которые находились в корзине на момент совершения оплаты. Возможна ситуация, когда покупатель переходит на страницу оплаты, но не оплачивает заказ по какой-то причине (передумал, отвлёкся, сломался компьютер и т.п.). В этом случае заказ не регистрируется в панели управления. Если администратор желает знать обо всех незавершённых заказах, поможет модуль [Неоплаченные заказы (Not Finished Orders)](https://market.x-cart.com/addons/not-finished-orders.html "Неоплаченные заказы (Not Finished Orders)"). Модуль входит в _X-Cart Бизнес_, _X-Cart Мультивендор_ и _X-Cart Всё включено_ и требует только активации. В _X-Cart Базовый_ модуль нельзя установить, чтобы использовать модуль, следует обновить лицензию с X-Cart Базовый на _X-Cart Бизнес_, _X-Cart Мультивендор_ или _X-Cart Всё включено_.
 
-{% note info %}
-The **Not Finished Orders** module works with the orders created with online payment processors. For the offline payment methods an order is created at the moment a buyer clicks the **Place order** button in the X-Cart front-end and an order gets an "Awaiting payment" status by default. 
-{% endnote %}
+Модуль регистрирует неоплаченные заказы, для которых был выбран **онлайн** способ оплаты. Если покупатель выбрал **оффлайн** способ оплаты, заказ регистрируется в любом случае, как только покупатель нажимает **Разместить заказ**, и получает статус **Ожидается оплата**. 
 
 To set up the **Not Finished Orders** module use the _Settings_ link.
 
@@ -36,4 +34,3 @@ Once enabled and set up, the cart admin will see the not finished orders in the 
 A not finished order won't have an order number and the payment status will be "Status is not defined". The order will get an orderID only when and if the cart admin changes the fulfilment status and payment status of the order.
 
 The **Not Finished Orders** module is good for manual tracking of the purchases. If you want to automate the procedure use the {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %} module. It works with any abandoned cart regardless of the payment method.
-
