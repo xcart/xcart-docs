@@ -37,7 +37,9 @@ After the buyer successfully authenticates, they find themselves on a special ch
 
 ![]({{site.baseurl}}/attachments/7504625/7602351.png)
 
-Note that the buyer stays on your store's site throughout the checkout process, without ever being redirected to Amazon.
+{% note info %}
+The buyer stays on your store's site throughout the checkout process, without ever being redirected to Amazon.
+{% endnote %}
 
 After selecting a shipping address and a payment method from their account, the buyer selects a shipping method. X-Cart uses the information provided by the customer to calculate the shipping cost and taxes. Then the buyer places the order using the **Place order** button. This sends a payment request to Amazon.
 
