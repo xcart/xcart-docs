@@ -22,3 +22,4 @@ icon: puzzle
 *   {% link "Поиск товаров по брендам (Shop by Brand)" ref_1vIquXc9 %}
 *   {% link "Фильтры свойств товаров (Product Filter Module)" ref_0Fs6QJrz %}
 *   {% link "Каталог товаров для Яндекс.Маркета (Yandex.Market Feed)" ref_7fuauP3o %}
+*   {% link "Многовалютность (Multicurrency)" ref_1EpoZue8 %}
