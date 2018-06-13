@@ -118,13 +118,13 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
 
     Note that this setting affects only grid view (does not affect list view and table view; in list view and table view "Add to cart" buttons are displayed at all times - regardless of the value of this setting).
 
-*   **Ask anonymous users to create an account or sign in before checkout**: When this option is enabled, a shopper who was not signed in when they clicked the Checkout button is provided with a page where they can sign in to their account or create a new account:
-    ![]({{site.baseurl}}/attachments/7505478/7602723.png)
+*   **Ask anonymous users to create an account or sign in before checkout**: If this option is enabled, a shopper who is not signed in at the time of clicking the Checkout button will be provided with a page where they can sign in to their account or create a new account:
+    ![xc5_general_settings_login_b4_checkout.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_login_b4_checkout.png)
+
     When this option is disabled, such a page is not provided, and the shopper goes straight to the store's checkout page. 
-    Regardless of whether this option is enabled or disabled, on the checkout page, the shopper will still be able to sign in if they choose to do so: 
-    ![]({{site.baseurl}}/attachments/7505478/7602724.png)
-    And even if the "Sign in" link at the top of the page goes unnoticed, an existing user will be recognized by the system based on their email address and prompted to sign in:
-    ![]({{site.baseurl}}/attachments/7505478/7602725.png)
+    
+    A user who attempts to check out with an email address already existing in the database will be recognized by the system based on their email address and prompted to sign in if they wish to:
+    ![xc5_general_settings_email_in_use.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_email_in_use.png)
 
 *   **Terms and conditions relative URL**: Relative URL of the static page with your store's Terms and conditions (enabled by the Simple CMS module). If the field is empty (for example, Simple CMS is not installed), a language variable from ?target=terms (Terms and conditions text) will be used (the Terms and conditions text will be displayed in a popup at checkout); this is part of core fuctionality, the module Simple CMS is not necessary.
 
