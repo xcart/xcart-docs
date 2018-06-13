@@ -111,7 +111,7 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
     
     * _On Category and Product Details Page_ : With this option selected, the add to cart behavior on a category listing will be the same as desribed above (See the _On Category Listing_ option). In addition to that, if a shopper chooses to add a product to the shopping cart from the product details page, they will also have to select product options.    
 
-*   **Redirect customer to the cart page after a product is added to cart**: When this option is enabled, after adding a product to cart a shopper is redirected to the cart page where they can see the item they just added. When the option is disabled, the shopper remains on the same page. Please note that this setting is not compatible with X-Cart's Add to Cart module: when the module Add to Cart popup is enabled, adding a product to cart results in a popup being displayed.
+*   **Redirect customer to the cart page after a product is added to cart**: When this option is enabled, after adding a product to cart a shopper is redirected to the cart page where they can see the item they just added. When the option is disabled, the shopper remains on the same page. Please note that this setting is not compatible with X-Cart's addon Add to Cart: when the module Add to Cart is enabled, adding a product to cart results in a popup being displayed.
 
 *   **Display "Add to cart" buttons for products in grid view**: This setting defines whether "Add to cart" buttons should be displayed for products in grid view, or not. The snapshot below demonstrates products in grid view with "Add to cart" buttons enabled: 
     ![]({{site.baseurl}}/attachments/7505478/7602709.png)
