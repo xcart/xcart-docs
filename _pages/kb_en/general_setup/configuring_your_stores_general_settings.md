@@ -91,8 +91,8 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
 *   **Products per category listing page**: This setting allows you to specify the number of products that should be displayed on a category page by default (Users will be able to change the number of products displayed per page if they wish; here you set the number of products they see initially, before making any changes). For example, if we set this to "2", by default there will be only two products displayed per page. For the rest of the product list pagination will be provided:
     ![xc5_general_settings_default_prod_number.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_default_prod_number.png)
     
-*  **Maximum products per category listing page**: This setting allows you to set the max number of products displayed on a category page. For example, if we set this to "10", max 10 products will be displayed per page. For the rest of the product list pagination will be provided:
-    ![max_value.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/max_value.png)
+*  **Maximum products per category listing page**: This setting allows you to set a limit on the maximum number of products that can be displayed on a category page. For example, if we set this to "5", a user will not be able to change the number of products displayed per page to a number larger than 4 (See the screenshot below: The number of products currently displayed on a category page is 2. A user can switch this to 4, which is less than 5, but they cannot switch it to 5 or more). 
+    ![xc5_general_settings_max_prod_number.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_max_prod_number.png)
 
 *   **Minimum allowed order subtotal**: This setting allows you to set the minimum order amount a shopper must reach before being allowed to check out.
     ![]({{site.baseurl}}/attachments/7505478/7602713.png)
