@@ -7,10 +7,10 @@ title: Многовалютность (Multicurrency)
 order: 280
 published: false
 ---
-If you sale worldwide it makes sense to use the [Multicurrency](https://market.x-cart.com/addons/multicurrency-for-xcart5.html "Multicurrency Module") module to make purchases easier for your international customers.
+Если магазин предлагает товары покупателям за пределами Российской Федерации, модуль [Многовалютность (Multicurrency)](https://market.x-cart.com/addons/multicurrency-for-xcart5.html "Многовалютность (Multicurrency)") необходим: покупатели из других стран быстрее принимают решение о покупке, когда видят цены товаров в валюте своей страны.
 
 {% note info %}
-The Multicurrency module works in bunble with the [Geolocation module](https://market.x-cart.com/addons/geolocation.html "Multicurrency Module") that uses a free "GeoLite2 Country" database by MaxMind.  So, please, check that the Geolocation module is enabled. The "GeoLite2 Country" database allows to define a customer's location accurate to a country. If you need to improve the accuracy you can upload other databases on the Geolocation module settings page.
+Для работы модуля **Многовалютность (Multicurrency)** требуется модуль **Geolocation**, подключающий бесплатную базу данных геопозиционирования IP-адресов **GeoLite2 Country** от **MaxMind**. Модуль определяет местонахождение посетителя магазина по IP адресу. Администратор может загрузить другую базу в настройках модуля **Geolocation**.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![geolocation.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation.png)</div>
@@ -18,7 +18,7 @@ The Multicurrency module works in bunble with the [Geolocation module](https://m
 </div>
 {% endnote %}
 
-To enable the Multicurrency module please follow instructions from {% link "Installing and activating addons" ref_0fGEpvrh %}.
+В X-Cart Бизнес, X-Cart Мультивендор и X-Cart Всё включено модуль доступен для установке в Маркетплейме. В X-Cart Базовый установить модуль нельзя, чтобы настроить несколько валют в магазине, следует приобрести лицензию на X-Cart Бизнес, X-Cart Мультивендор или X-Cart Всё включено и установить модуль из Маркетплейса.
 
 Once installed the Multicurrency module will become available in the **Store setup** -> **Localization** section of your store admin area.
 
