@@ -10,7 +10,7 @@ published: false
 Если магазин предлагает товары покупателям за пределами Российской Федерации, модуль [Многовалютность (Multicurrency)](https://market.x-cart.com/addons/multicurrency-for-xcart5.html "Многовалютность (Multicurrency)") необходим: покупатели из других стран быстрее принимают решение о покупке, когда видят цены товаров в валюте своей страны.
 
 {% note info %}
-Для работы модуля **Многовалютность (Multicurrency)** требуется модуль **Geolocation**, подключающий бесплатную базу данных геопозиционирования IP-адресов **GeoLite2 Country** от **MaxMind**. Модуль определяет местонахождение посетителя магазина по IP адресу. Администратор может загрузить другую базу в настройках модуля **Geolocation**.
+Для работы модуля **Многовалютность (Multicurrency)** требуется модуль [Geolocation](https://market.x-cart.com/addons/geolocation.html "Многовалютность (Multicurrency)"), подключающий бесплатную базу данных геопозиционирования IP-адресов **GeoLite2 Country** от **MaxMind**. Модуль определяет местонахождение посетителя магазина по IP адресу. Администратор может загрузить другую базу в настройках модуля **Geolocation**.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![geolocation.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation.png)</div>
@@ -18,7 +18,7 @@ published: false
 </div>
 {% endnote %}
 
-В X-Cart Бизнес, X-Cart Мультивендор и X-Cart Всё включено модуль доступен для установке в Маркетплейме. В X-Cart Базовый установить модуль нельзя, чтобы настроить несколько валют в магазине, следует приобрести лицензию на X-Cart Бизнес, X-Cart Мультивендор или X-Cart Всё включено и установить модуль из Маркетплейса.
+В _X-Cart Бизнес_, _X-Cart Мультивендор_ и _X-Cart Всё включено_ модуль доступен для установки в Маркетплейсе. В _X-Cart Базовый_ установить модуль нельзя, чтобы настроить несколько валют в магазине _X-Cart Базовый_, следует приобрести лицензию на _X-Cart Бизнес_, _X-Cart Мультивендор_ или _X-Cart Всё включено_ и {% link "установить модуль из Маркетплейса" ref_gpeZtm28 %}.
 
 Once installed the Multicurrency module will become available in the **Store setup** -> **Localization** section of your store admin area.
 
