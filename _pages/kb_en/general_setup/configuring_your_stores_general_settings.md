@@ -103,17 +103,13 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
 *   **Maximum order quantity (per product)**: This setting allows you to limit the number of product units that a buyer can order at a time. If a buyer attempts to add to cart more product units than specified here, only the allowed quantity will be added; the buyer will be notified of the quantity adjustment with an appropriate message:
     ![xc5_general_settings_max_prod_units.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_max_prod_units.png)
 
-*   **Force customer to choose product options before adding a product to cart**: This setting affects the add to cart behavior of products with modifier options and products with product variants. 
+*   **Force customer to choose product options before adding a product to cart**: This setting affects the add to cart behavior for products with product options or variants. 
     
-    *  _NO_ : A shopper can drag and drop products to cart without having to select any product options manually; the products are added to cart with default options:
-    ![options-1.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/options-1.png)
+    *  _NO_ : With this option selected, a shopper will be able to add a product with options/variants to the shopping cart without selecting any options; the product will be added to the shopping cart with its default option set, which the shopper will be able to adjust later.
     
-    * _On Category Listing_ : A shopper hovering their mouse over a product with modifiers/variants will see a note "Choose the product options first". The shopper will need to click on the product to access its details and make a selection of product options with which they want to add the product to cart. (A product will have default options predefined):
-    ![options-2.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/options-2.png)
+    * _On Category Listing_ : A shopper who chooses to add to cart a product with options/variants from a category listing will have to specify the options they require before the product is added to the shopping cart.
     
-    * _On Category and Product Details Page_ : The same as _On Category Listing_ plus nessecity to select product options on the product details page:
-    ![options-3.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/options-3.png)
-    
+    * _On Category and Product Details Page_ : With this option selected, the add to cart behavior on a category listing will be the same as desribed above (See the _On Category Listing_ option). In addition to that, if a shopper chooses to add a product to the shopping cart from the product details page, they will also have to select product options.    
     
     {% note info %}
     If you want to disable drag-n-drop option for products completely install the [Disable drag'n'drop add to cart](https://market.x-cart.com/addons/disable-drag-n-drop.html "Configuring your store&#39;s General settings") module and activate it. More info on modules installation you can find in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
