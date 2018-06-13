@@ -13,8 +13,10 @@ published: false
 Для работы модуля **Многовалютность (Multicurrency)** требуется модуль [Geolocation](https://market.x-cart.com/addons/geolocation.html "Многовалютность (Multicurrency)"), подключающий бесплатную базу данных геопозиционирования IP-адресов **GeoLite2 Country** от **MaxMind**. Модуль определяет местонахождение посетителя магазина по IP адресу. Администратор может загрузить другую базу в настройках модуля **Geolocation**.
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![geolocation.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation.png)</div>
-  <div class="column" markdown="span">![geolocation-settings.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation-settings.png)</div>
+  <div class="column" markdown="span">![1.jpg]({{site.baseurl}}/attachments/ref_1EpoZue8/1.jpg)
+</div>
+  <div class="column" markdown="span">![2.jpg]({{site.baseurl}}/attachments/ref_1EpoZue8/2.jpg)
+</div>
 </div>
 {% endnote %}
 
