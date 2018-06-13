@@ -28,7 +28,7 @@ or via the URL: 
 Here's an example of a vendor registration page:
 ![xc5_mv_vendor_registration_form_example.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_vendor_registration_form_example.png)
 
-The contents of the vendor registration page and the set of fields required for completion may vary depending on the store settings. The information submitted via the company name, description and company address fields of the vendor registration form (if such fields are present on the form and are completed by a prospective vendor) is used to pre-configure the vendor's profile settings and (in the "Vendors as separate shops" Multivendor mode) the vendor's ship-from address.  
+The contents of the vendor registration page and the set of fields required for completion by a prospective vendor may vary depending on the store settings (More info on the management of the vendor registration page is available in the {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %} section of this manual). The information submitted via the company name, description and company address fields of the vendor registration form (if such fields are present on the form and are completed by a prospective vendor) is used to pre-configure the vendor's profile settings and (in the "Vendors as separate shops" Multivendor mode) the vendor's ship-from address.  
 
 To apply for a vendor profile, a prospective vendor must complete and submit the registration form.
 
