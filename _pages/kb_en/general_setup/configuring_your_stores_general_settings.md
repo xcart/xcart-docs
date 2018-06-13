@@ -113,8 +113,9 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
 
 *   **Redirect customer to the cart page after a product is added to cart**: When this option is enabled, after adding a product to cart a shopper is redirected to the cart page where they can see the item they just added. When the option is disabled, the shopper remains on the same page. Please note that this setting is not compatible with X-Cart's addon Add to Cart: when the module Add to Cart is enabled, adding a product to cart results in a popup being displayed.
 
-*   **Display "Add to cart" buttons for products in grid view**: This setting defines whether "Add to cart" buttons should be displayed for products in grid view, or not. The snapshot below demonstrates products in grid view with "Add to cart" buttons enabled: 
-    ![]({{site.baseurl}}/attachments/7505478/7602709.png)
+*   **Display "Add to cart" buttons for products in grid view**: This setting defines whether "Add to cart" buttons should be displayed for products in grid view, or not. The screenshot below demonstrates products in grid view with the "Add to cart" buttons enabled: 
+    ![xc5_general_settings_add2cart_button.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_add2cart_button.png)
+
     Note that this setting affects only grid view (does not affect list view and table view; in list view and table view "Add to cart" buttons are displayed at all times - regardless of the value of this setting).
 
 *   **Ask anonymous users to create an account or sign in before checkout**: When this option is enabled, a shopper who was not signed in when they clicked the Checkout button is provided with a page where they can sign in to their account or create a new account:
