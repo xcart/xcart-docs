@@ -7,30 +7,39 @@ title: Неоплаченные заказы (Not Finished Orders)
 order: 290
 published: false
 ---
-Когда покупатель оплачивает покупку, его корзина очищается, а в панели управления магазина создаётся заказ с товарами, которые находились в корзине на момент совершения оплаты. Возможна ситуация, когда покупатель переходит на страницу оплаты, но не оплачивает заказ по какой-то причине (передумал, отвлёкся, сломался компьютер и т.п.). В этом случае заказ не регистрируется в панели управления. Если администратор желает знать обо всех незавершённых заказах, поможет модуль [Неоплаченные заказы (Not Finished Orders)](https://market.x-cart.com/addons/not-finished-orders.html "Неоплаченные заказы (Not Finished Orders)"). Модуль входит в _X-Cart Бизнес_, _X-Cart Мультивендор_ и _X-Cart Всё включено_ и требует только активации. В _X-Cart Базовый_ модуль нельзя установить, чтобы использовать модуль, следует обновить лицензию с X-Cart Базовый на _X-Cart Бизнес_, _X-Cart Мультивендор_ или _X-Cart Всё включено_.
+Когда покупатель оплачивает покупку, его корзина очищается, а в панели управления магазина создаётся заказ с товарами, которые находились в корзине на момент совершения оплаты. Возможна ситуация, когда покупатель переходит на страницу оплаты, но не оплачивает заказ по какой-то причине (передумал, отвлёкся, сломался компьютер и т.п.). В этом случае заказ не регистрируется в панели управления. Если администратор желает знать обо всех незавершённых заказах, поможет модуль [Неоплаченные заказы (Not Finished Orders)](https://market.x-cart.com/addons/not-finished-orders.html "Неоплаченные заказы (Not Finished Orders)"). 
 
 Модуль регистрирует неоплаченные заказы, для которых был выбран **онлайн** способ оплаты. Если покупатель выбрал **оффлайн** способ оплаты, заказ регистрируется в любом случае, как только покупатель нажимает **Разместить заказ**, и получает статус **Ожидается оплата**. 
 
-To set up the **Not Finished Orders** module use the _Settings_ link.
+{% toc %}
+
+## Установка модуля
+
+Модуль входит в _X-Cart Бизнес_, _X-Cart Мультивендор_ и _X-Cart Всё включено_ и требует только активации. В _X-Cart Базовый_ модуль нельзя установить, чтобы использовать модуль, следует обновить лицензию с X-Cart Базовый на _X-Cart Бизнес_, _X-Cart Мультивендор_ или _X-Cart Всё включено_.
+
+## Настройка модуля
+
+В разделе Мои модули найдите **Not Finished Orders** и нажмите **Настройки**.
 
 ![payment-transactions.png]({{site.baseurl}}/attachments/ref_5TMbPwNQ/payment-transactions.png)
 
-The settings of the module are as follows:
+* **Создавать незавершенный заказ** - условие для регистрации незавершённого заказа: _До оплаты_ или _В случае неудачной оплаты_.
 
-* _Not finished order will be created_  - in this drop-down the admin can choose the conditions that if met will result in a not finished order creation.
-
-* _Clear cart if administrator changes order_ - YES/NO
+* **Очищать корзину при изменении заказа администратором** - _Да_ или _Нет_.
 
 {% note info %}
-If this option is set to 'YES' a buyer's cart of a not finished order will be cleared as soon as the cart admin changes the order details, e.g. a payment status of a not finished order from "Status is not defined" to "Awaiting payment". By default the cart content is cleared only when an order is placed.  
+- Если выбрано значение _ДА_, корзина покупателя очищается, как только администратор изменяет незавершённый заказ, например, статус с **Не завершен** на **Ожидается оплата**. 
+- В случае оплаченного заказа, корзина обнуляется в момент оплаты.  
 {% endnote %}
 
-* _Limit lifetime of not finished order_ - If enabled, the cart admin will be able to define the the time to use the cart at its current state for future attempts in days. 
+* **Ограничить срок действия незавершенного заказа**  - Если опция активирована, появляется поле **Срок действия незавершенного заказа (в днях)**, в котором администратор устанавливает срок в днях, в течение которого содержимое корзины сохраняется, и покупатель может завершить оплату покупки. 
 
-Once enabled and set up, the cart admin will see the not finished orders in the **Orders** section of the admin back-end.
+## Незавершённые заказы в панели управления магазина
+
+Неоплаченные заказы появляются в разделе **Заказы / Список заказов**.
 
 ![order.png]({{site.baseurl}}/attachments/ref_5TMbPwNQ/order.png)
 
-A not finished order won't have an order number and the payment status will be "Status is not defined". The order will get an orderID only when and if the cart admin changes the fulfilment status and payment status of the order.
+У неоплаченного заказа нет номера, его можно узнать по статусу **Не завершен**. Неоплаченный заказ приобретает номер, только если админстратор изменяет статусы оплаты и доставки.
 
-The **Not Finished Orders** module is good for manual tracking of the purchases. If you want to automate the procedure use the {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %} module. It works with any abandoned cart regardless of the payment method.
+Модуль помогает вручную отслеживать и изменять незавершённые заказы. Процесс можно автоматизировать с помощью модуля {% link "Незавершённые покупки (Abandoned cart reminder)" ref_4pmEuIKR %}, который регистрирует незавершённые покупки независимо от выбранного покупателем метода оплаты.
