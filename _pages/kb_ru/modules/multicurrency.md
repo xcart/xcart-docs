@@ -18,31 +18,36 @@ published: false
 </div>
 {% endnote %}
 
+{% toc %}
+
+## Установка модуля
+
 В _X-Cart Бизнес_, _X-Cart Мультивендор_ и _X-Cart Всё включено_ модуль доступен для установки в Маркетплейсе. В _X-Cart Базовый_ установить модуль нельзя, чтобы настроить несколько валют в магазине _X-Cart Базовый_, следует приобрести лицензию на _X-Cart Бизнес_, _X-Cart Мультивендор_ или _X-Cart Всё включено_ и {% link "установить модуль из Маркетплейса" ref_gpeZtm28 %}.
 
-Once installed the Multicurrency module will become available in the **Store setup** -> **Localization** section of your store admin area.
+
+## Настройка многовалютности магазина
+
+После установки модуля в разделе **Настройка магазина / Локализация** появляется вкладка **Валюта**.
 
 ![currencies.png]({{site.baseurl}}/attachments/ref_2tPJubPU/currencies.png)
 
-Please, refer to the **Currencies** tab to configure the module settings that are as follows:
+* **Скрыть нули в дробной части**  - Если опция включена, отображается только целая часть цены; если опция отключена - отображается дробная часть после запятой.
+* **Онлайн сервис курса валют** - Выберите онлайн-сервис или значение **Отсутствует**, чтобы устанавливать курс валют вручную.
+* **Обновлять курсы валют каждый(е)** - Выберите временной промежуток автоматического обновления курса валют.
+* **Добавить валюту** - Выберите из списка дополнительную валюту магазина и нажмите **Добавить валюту**. Добавленная валюта появится в списке ниже.
 
-* **Hide trailing zeros in fractional part** : If enabled a price will be displayed without decimals
-* **Online currency rates service** : Choose a currency converter or set to NONE to define the conversion rates manually
-* **Update online rates every** : Set a periodicity of the rates revision
-* **Add currency** (button and drop-down): Choose a currency you want to add in a drop-down and click the 'Add currency' button
+Для валюты указаны страны, в которых действует эта валюта. Список стран можно изменить - нажать на крестик для удаления страны или нажать внутри поля для добавления страны. Одна страна может быть выбрана только для одной валюты.
 
-Each currency comes with a pre-set list of countries it's applicable to. If you want you can add/remove countries to/from the list by clicking the 'Countries' field. Each country can be assigned to one currency only.
+Стандартная валюта магазина отмечена в списке. Если вы установили другую валюту в качестве стандартной, сохраните это изменение и нажмите **Обновить курс**.
 
-{% note info %}
-If you change the default store currency don't forget to update the rates using the 'Update Rates' button for the prices to be displayed correctly.
-{% endnote %}
+## Выбор валюты в магазине
 
-When installed and configured the module in action will look as follows in the store front-end:
+После установки и настройки модуля валют в магазине появляется поле выбора страны, валюты и языка:
 
 ![customer.png]({{site.baseurl}}/attachments/ref_2tPJubPU/customer.png)
 
-A customer will see the currency and the language of the country his IP belongs to. A language switch will be available only if {% link "translations" ref_1frAlu26 %} are enabled in the store. If there are no particular currency and translation defined for the customers location the store content will be displayed in the default currency and language.
+Страна, валюта и язык предустановлены по IP адресу покупателя. Выбор языка возможен, только если в магазине установлены модули перевода интерфейса. Если для местоположения покупателя не найдены валюта и язык, будут использованы стандартные валюта и язык магазина.
 
 {% note warning %}
-The currency that will be used for orders processing will depend on the payment gateway you are using. Some payments allow orders processing only in the default store currency. Others allow to accept payments in more than one currency. Please, check with your payment processing company for details.
+Валюта оплаты заказов зависит от настроенного в магазине платёжного сервиса. Одни платёжные системы позволяют оплату заказов только в стандартной валюте магазина, другие - в любой валюте. Уточние эту информацию в поддержке платёжной системы.
 {% endnote %}
