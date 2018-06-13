@@ -142,6 +142,7 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
 *   **Orders per page**:  This setting allows you to specify the maximum number of orders that can be displayed on a search results page in the store's back end.
 *   **Number of days to store the last login data**: This setting defines the lifespan of a "recent_login" cookie that is set by the store on a customer's computer when they log in. While being stored, the cookie allows the customer to return to the store without having to re-enter their user authentication details (username and password).
 
+
 _Related pages:_
 
    * {% link "Disable drag'n'drop add to cart" ref_2NVSkzc3 %}
