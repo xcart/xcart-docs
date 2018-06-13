@@ -23,57 +23,54 @@ The module settings are as follows:
 
 * **Включить фильтр "Цена"** - Если опция включена, в блоке поиска появится фильтр по ценовому диапазону.
 
-* **Включить фильтр "Атрибуты"**  - Опция активирует поиск по свойствам товаров. 
+* **Включить фильтр "Атрибуты"** - Опция активирует поиск по свойствам товаров. 
 
 {% note info %}
 _Поиск по свойствам_ возможен только при наличии {% link "атрибутов" ref_pXBwGdtu %} у товаров. 
 {% endnote %}
 
-* _Enable "Tags" filter_ - if enabled the filter will show the tags available for search
+* **Включить фильтр "Теги"** - Опция активирует поиск по тегам.
 
 {% note info %}
-For the "Tags" filter to be displayed you should have {% link "tags set up" ref_6nFoxYf1 %} in your store. 
+_Поиск по тегам_ возможен, только если настроены {% link "теги" ref_7AGCIqKw %} товаров. 
 {% endnote %}
 
-* _Show only available attributes and tags for products in category_ - if enabled X-Cart generates data cache that is used to display in the filter only the attribute values and tags that are actually used for the products in the category being viewed. 
+* **Отображать только атрибуты и теги, реально используемые для продуктов в категории** - Если опция включена, X-Cart генерирует кэш данных категории, поэтому в фильтрах отображаются только теги и атрибуты, которые заданные для товаров этой категории. 
 
 {% note info %} 
-Enabling this option will make a page load faster as only a set of particular attributes and tags will be counted, but not all attributes and tags available in your store. This is essential for the stores with a high inventory turnover ratio.
+Эта опция повышает скорость загрузки страницы, т.к. загружаются не все теги и атрибуты магазина, а только некоторые, присущие товарам этой категории. Это важно для магазинов с высоким товарным оборотом.
 {% endnote %}
 
-* _Cache reset mode_ - can be set either to generate cache on the fly or to remove cache when attribute, tag or product data is changed. The first option will allow working with the actual inventory stock but will slow down the page loading as it will be necessary to cache filters each time. If you don't update inventory too often, use the second option. 
+* **Режим обновления кэша**  - Выберите генерацию кэша в процессе работы или сброс кэша при изменении атрибутов, тегов или товаров. При генерации кэша в процессе работы задействован фактический запас товаров, но при этом замедляется загрузка страницы, т.к. постоянно кэшируются все фильтры. Сброс кэша при изменении данных рекомендуется, если товарный запас изменяется редко. 
 
 {% note info%}
-If the "Remove cache when ..." option is chosen a category page cache will be removed and generated anew the first time this page is opened after you change products, categories or attributes data. The first page loading may last more than usual as time will be spent on cache regeneration.
+Если выбрана опция сброса кэша при изменении данных, кэш страницы категории будет сброшен и снова сгенерирован при первом открытии страницы после изменения товаров, категорий и атрибутов. При первом открытии страница может загружаться дольше обычного по причине генерации кэша.
 {% endnote %}
 
-* _Sort order for class attributes_ (available only if the "Attributes" filter is enabled) - here you can choose if the attributes are sorted alphabetically or manually.
+* **Порядок сортировки классовых атрибутов** - Эта опция доступна, если активирована опция **Включить фильтр "Атрибуты"**. Атрибуты сортируются в алфавитном порядке или в заданном администратором порядке.
 
 {% note info %}
-This setting affects only the attributes themselves, not their values. The values are sorted alphabetically. 
+Эта опция влияет только на сами атрибуты. Значения атрибутов всегда сортируются по алфавиту. 
 {% endnote %}
 
-* _Generate the URL query string for filter with_ - can be set to _GET params_ or _hash_ depending on how you prefer the search URL to be assembled.
+* **Строить строку запроса в URL для фильтра, используя** - Выберите GET параметры или Хеш.
 
-If you change any setting value don't forget to _**Submit**_ the changes.
-
-To define what attributes will be included into the product filter block on a category page in the store front-end open a category page in the admin back-end (**Catalog** > **Categories** > **_Category_Name_**).
+Установите трибуты, которые будут доступны в фильтрах на странице категории. Откройте категорию в разделе **Каталог / Категории** и на вкладке **Информация о категории** найдите **Классы для фильтра товаров**.
 
 ![category.png]({{site.baseurl}}/attachments/ref_6e82A7rL/category.png)
 
-Find the _Classes for product filter_ setting in the **Category Info** tab.
-
 ![Screen Shot 2018-01-31 at 13.25.42.png]({{site.baseurl}}/attachments/ref_6e82A7rL/Screen Shot 2018-01-31 at 13.25.42.png)
 
-Here you can choose what classes of attributes will be used to filter products in this category. Available options are as follows:
-* All classes from this category - the filter will show classes of all products from this category (the more classes and products a category has the more time it will take to load a category page).
-* Do not show the filter - this filter will not be displayed on the category page
-* Choose classes - if you use this option you'll be able to define the exact class(es) the filter will be based on. Using this option you can limit the number of classes applied. You can choose any class from all classes available in your store.
+Выберите одно из значений:
+
+* **Все классы этой категории** - Классы всех товаров этой категории будут присутствовать в фильтрах. Чем больше классов и товаров в категории, тем дольше загружается страница категории.
+* **Не отображать фильтр** - Фильтр по классам будет недоступен.
+* **Выбрать классы** - При установке этой опции появляется поле для выбора классов, которые будут отображаться в фильтрах поиска. Можно выбрать любые классы товаров.
 
 ![]({{site.baseurl}}/attachments/ref_6e82A7rL/Screen%20Shot%202018-01-31%20at%2013.26.33.png)
 
 {% note info %}
-If there are no products in the category itself the product filter won't be displayed on the category page in the store front-end. If there are subcategories and products belong to a subcategory, but not to the category itself, the _Classes for product filter_ setting should be configured on a subcategory page in the admin back-end.
+Если в категории нет товаров, поиск по свойствам товаров не будет отображаться на странице категории. Если в категории есть подкатегории и товары входят в подкатегории, но не в категорию, настройте опцию **Классы для фильтра товаров** для подкатегорий.
 {% endnote %}
 
 Once enabled and set up the product filter will become available on the category's page in the store front-end.
@@ -81,5 +78,5 @@ Once enabled and set up the product filter will become available on the category
 ![]({{site.baseurl}}/attachments/ref_6e82A7rL/store-front.png)
 
 {% note info %}
-You can change the Product Filter block position in the store front-end using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Product Filter Module").
+Встроенный редактор изменяет расположение блока поиска.
 {% endnote %}
