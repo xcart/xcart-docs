@@ -11,7 +11,7 @@ published: false
 
 Модуль **Фильтры свойств товаров (Product Filter)** входит в _X-Cart Бизнес_, _X-Cart Мультивендор_ и _X-Cart Всё включено_. Для _X-Cart Базовый_ приобретите модуль в [Маркетплейсе](https://market.x-cart.com/addons/ "Фильтры свойств товаров (Product Filter Module)"), {% link "установите и активируйте" ref_gpeZtm28 %}.
 
-When enabled, you'll need to open the _Settings_ page and configure the module according to your business needs.
+Найдите модуль в разделе **Мои модули** и откройте **Настройки**.
 
 ![addons.png]({{site.baseurl}}/attachments/ref_6e82A7rL/addons.png)
 
@@ -19,14 +19,14 @@ The module settings are as follows:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_6e82A7rL/settings.png)
 
-* _Enable "In stock only" filter_ - if enabled the 'In stock' selector will be added to the filter 
+* **Включить фильтр "Только товары в наличии"** - Если опция включена, в поиске появится фильтр по наличию и покупатели увидят в результатах поиска только товары в наличии. 
 
-* _Enable "Price range" filter_ - if enabled the filter will allow choosing the search price range
+* **Включить фильтр "Цена"** - Если опция включена, в блоке поиска появится фильтр по ценовому диапазону.
 
-* _Enable "Attributes" filter_ - if enabled the filter will display the choice of attributes available for the products 
+* **Включить фильтр "Атрибуты"**  - Опция активирует поиск по свойствам товаров. 
 
 {% note info %}
-For the "Attributes" filter to be displayed you should have attributes set up in your store. For more info on the attributes configuration please refer to {% link "Product classes and attributes" ref_T90ZcEpP %}. 
+_Поиск по свойствам_ возможен только при наличии {% link "атрибутов" ref_pXBwGdtu %} у товаров. 
 {% endnote %}
 
 * _Enable "Tags" filter_ - if enabled the filter will show the tags available for search
