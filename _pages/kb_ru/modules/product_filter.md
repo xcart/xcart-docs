@@ -13,11 +13,12 @@ published: false
 
 Найдите модуль в разделе **Мои модули** и откройте **Настройки**.
 
-![addons.png]({{site.baseurl}}/attachments/ref_6e82A7rL/addons.png)
-
-The module settings are as follows:
-
-![settings.png]({{site.baseurl}}/attachments/ref_6e82A7rL/settings.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![1.jpg]({{site.baseurl}}/attachments/ref_0Fs6QJrz/1.jpg)
+</div>
+  <div class="column" markdown="span">![2.jpg]({{site.baseurl}}/attachments/ref_0Fs6QJrz/2.jpg)
+</div>
+</div>
 
 * **Включить фильтр "Только товары в наличии"** - Если опция включена, в поиске появится фильтр по наличию и покупатели увидят в результатах поиска только товары в наличии. 
 
