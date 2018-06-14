@@ -47,12 +47,12 @@ published: false
   {% endnote %}
   
 - ### Использование баллов:
-  * **Redeem rate** : What discount the shopper will get for a single reward point spent on checkout.
-  * **Max. reward discount** : The maximum discount that a shopper can get for an order by redeeming his reward points. Can be either a fixed sum, or a percent value.
-  * **Apply discount on the** : Whether the discount should apply on the grand total, or the subtotal.
+  * **Скидка за бонусный балл** - Коэффициент перерасчёта потраченной суммы в бонусные баллы.
+  * **Максимальная скидка за баллы** - Максимально возможный размер скидки за списание бонусных баллов при оформлении заказа. Фиксированная сумма в рублях или процент от стоимости заказа.
+  * **Применять скидку к** - Скидка рассчитывается или от стоимости товаров в заказе или от полной суммы заказа, включая стоимость доставки и налоги.
   
 - ### Информация о бонусной программе:
-  * **Loyalty Program Details page** : What page to use as the Loyalty Program Details page. (You can choose between 'Built-in page template' and custom templates available in your store).  
+  * **Страница бонусной программы** : What page to use as the Loyalty Program Details page. (You can choose between 'Built-in page template' and custom templates available in your store).  
   {% note info %}  
   To {% link "create a custom template" ref_Ptf5vaPn %} for your Loyalty Program details page use the **Content** > **Pages** > **New Page** section in the admin back-end. 
   ![custom.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/custom.png)
