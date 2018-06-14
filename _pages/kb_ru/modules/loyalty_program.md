@@ -9,17 +9,17 @@ published: false
 ---
 Модуль [Программа лояльности (Loyalty Program)](https://market.x-cart.com/addons/loyalty-program.html "Программа лояльности (Loyalty Program)")создаёт возможности поощрения покупателей и, следовательно, повышения продаж - покупатель получает поощрение за покупку и положительную оценку или отзыв о товаре; посетитель магазина регистрируется, размещает заказ и становится постоянным покупателем.
 
-Модуль **Программа лояльности (Loyalty Program)** входит в X-Cart Всё включено и требует только {% link "активации" ref_IEo2gFuZ %}.  Для X-Cart Бзовый, X-Cart Бизнес и X-Cart Мультивендор модуль платный, приобретите лицензию в Маркетплейсе, {% link "установите и активируйте модуль" ref_gpeZtm28 %}.
-
 {% toc %} 
 
-## Installation and set-up
+## Установка и настройка модуля
 
-To install the Loyalty Program module please follow the steps described in {% link "Installing and activating addons" ref_0fGEpvrh %}. Once installed proceed to configuring the Loyalty Program on the module settings page.
+Модуль **Программа лояльности (Loyalty Program)** входит в X-Cart Всё включено и требует только {% link "активации" ref_IEo2gFuZ %}.  Для X-Cart Бзовый, X-Cart Бизнес и X-Cart Мультивендор модуль платный, приобретите лицензию в Маркетплейсе, {% link "установите и активируйте модуль" ref_gpeZtm28 %}.
+
+В разделе **Мои модули** найдите модуль по названию и перейдите по ссылке **настройки**.
 
 ![]({{site.baseurl}}/attachments/ref_1Odyn6mT/install.png)
 
-The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATION. 
+В настройках модуля три блока 
 
  <div class="ui stackable two column grid">
    <div class="column" markdown="span">![settings-earn.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-earn.png)
@@ -28,15 +28,15 @@ The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATIO
   </div>
 </div>
  
-EARN settings:
-  * **Rewards multiplier** : Number of points awarded to the shopper per dollar spent on your store. It can take either whole or decimal numbers.
-  * **Give points for the shipping cost** : On/Off
-  * **Give points for taxes** : On/Off
-  * **Reward for orders with coupons** : On/Off 
-  * **Sign-up reward** : Number of points awarded to the shopper for creating a shop account.
-  * **Reward for rating a product** : Number of points awarded to the shopper for rating a product.
-  * **Reward for reviewing a product** : Number of points awarded to the shopper for reviewing a product.
-  * **Minimum product rating eligible for the reward** : Rewards for reviewing/rating a product won't be given for rates less than this number.  
+Начисление баллов:
+  * **Награда за покупки** - Количество баллов, начисляемых за каждый потраченный в магазине рубль. Целое или дробное число.
+  * **Начислять баллы за стоимость доставки** - Если опция активирована, бонусные баллы начисляются не только за покупки в магазине, но и за оплату доставки этих покупок.
+  * **Начислять баллы за сумму налогов** - Если опция активирована, бонусные баллы начисляются не только за покупки в магазине, но и за оплату налогов, связанных с покупками.
+  * **Начислять баллы за заказы с купонами** - Администратор выбирает, начислять или нет бонусные баллы за заказы, к которым уже применён купон на скидку. 
+  * **Награда за регистрацию** - Количество приветственных баллов, которые покупатель получает за регистрацию учётной записи в магазине.
+  * **Награда за оценку товара** - Количество бонусных баллов, которые покупатель получает за оценку товара.
+  * **Награда за отзыв о товаре** - Количество бонусных баллов, которые покупатель получает за отзыв о товаре.
+  * **Минимальная оценка для награды** - Покупатель получает бонусные баллы, только если даёт товару эту оценку или выше.  
   
   {% note info %}
  
