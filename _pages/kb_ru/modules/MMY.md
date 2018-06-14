@@ -82,21 +82,23 @@ published: false
   
 Начиная со второго уровня (**Модель**) на странице уровня появляется вкладка Информация. Если администратор заполняет эту страницу, покупатель увидит изображение и описание марки, модели или конкретного выбранного по фильтрам автомобиля. Можно создать одну страницу или отдельные страницы для моделей и годов выпуска. У страницы описания уровня свой заголовлк, текст и изображение.
 
+На странице управления товарами на вкладке **Общее** указывается общее описание товаров.
+
 ![level_info.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/level_info.png)
 
-When a customer clicks to filter the parts, he will be redirected to the corresponding landing page (**Level info** page) with its own name, image and information. This page will also contain the list of spare parts for the vehicle specified by the customer. 
+Когда покупатель устанавливает параметры выбора автомобиля и нажимает Найти, открывается страница уровня. Название, изображение и описание этой страницы установлено на вкладке Информация уровня в разделе Каталог / Make/Model/Year/Engine. На этой странице перечислены детали, подходящие для выбранного покупателем автомобиля. 
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![landing_admin.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/landing_admin.png)</div>
   <div class="column" markdown="span">![landing-customer.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/landing-customer.png)</div>
 </div>
 
-If the **Level page** is not configured for a sublevel, the module will display the search results depending on the filters set by a customer.
+Если администратор не заполнил описание уровня, покупатель увидит страницу с результатами поиска в соответствии с выбранными фильтрами.
 
 ![customer_filters.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/customer_filters.png)
 
-The **Make/Model/Year** filters show up on all pages in your online store. A customer selects a make of a product, a model, a year and an engine using convenient modern selectors and gets a list of products with the set characteristics.
-
 ![filters-fontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/filters-fontend.png)
 
-Registered customers can save their vehicles in the account with the **'Remember my vehicle'** checkbox. Next time they come to your store, they will see the parts for their vehicles right away without the need to use filters.
+Зарегистрированные покупатели сохраняют выбранные автомобили в своей учётной записи
+
+Поэтому при следующем посещении магазина покупатели увидят запчасти для своих автомобилей, не выставляя фильтры для поиска.
