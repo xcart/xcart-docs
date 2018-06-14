@@ -9,7 +9,7 @@ published: false
 ---
 Модуль [Программа лояльности (Loyalty Program)](https://market.x-cart.com/addons/loyalty-program.html "Программа лояльности (Loyalty Program)")создаёт возможности поощрения покупателей и, следовательно, повышения продаж - покупатель получает поощрение за покупку и положительную оценку или отзыв о товаре; посетитель магазина регистрируется, размещает заказ и становится постоянным покупателем.
 
-The Loyalty Program module is included in the X-Cart Ultimate edition and can be added as a paid extension to the Business edition.
+Модуль **Программа лояльности (Loyalty Program)** входит в X-Cart Всё включено и требует только {% link "активации" ref_IEo2gFuZ %}.  Для X-Cart Бзовый, X-Cart Бизнес и X-Cart Мультивендор модуль платный, приобретите лицензию в Маркетплейсе, {% link "установите и активируйте модуль" ref_gpeZtm28 %}.
 
 {% toc %} 
 
