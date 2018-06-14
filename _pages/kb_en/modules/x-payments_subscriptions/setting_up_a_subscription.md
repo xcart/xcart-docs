@@ -29,6 +29,7 @@ Once you activate the module X-Payments subscriptions, it becomes possible to se
         {% note info %}
         Subscription fee may not be set to "0" (zero). 
         {% endnote %}
+        
     *   **Plan** : Set the frequency of recurring payments. Here are examples of some typical configurations:
         *   "**Each** + ** 1**-st day of + **Week**" = Every Monday
         *   "**Each **+ **2**-nd day of + **Week** + Count days from the end" = Every Sunday
@@ -40,10 +41,12 @@ Once you activate the module X-Payments subscriptions, it becomes possible to se
         {% note info %}
         If a transaction aiming to charge a customer a subscription fee for any subscription period fails (i.e. you do not get a subscription payment you were supposed to get), the module will initiate further attempts to charge the customer's card according to the setting "Number of rebill attempts for anunsuccessful charge" on the module settings page. The subscription will continue until the number of successful charges reaches the number of Re-bill periods.
         {% endnote %}
+        
      * **Calculate shipping for recurring orders** : If enabled shipping cost will be included into the subscription fee charged each period.
         {% note info %}
         The shipping fee will be changed according to the fees set for the shipping method chosen by a customer in the very first order. In case the chosen shipping method becomes inavailable the subscription stops and the customer receives an e-mail notification about it.
         {% endnote %}
+        
 5.  Click **Save** for the changes to be applied.
 
 _Related pages:_
