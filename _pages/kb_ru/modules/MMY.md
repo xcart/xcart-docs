@@ -15,8 +15,7 @@ published: false
 
 Модуль **Марка/Модель/Год изготовления (Make/Model/Year)** платный, приобретите лицензию в Маркетплейсе и {% link "установите модуль" ref_gpeZtm28 %}. По ссылке **Настройки** открывается раздел параметров модуля.
 
-![installed.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/installed.png)
-
+![1.jpg]({{site.baseurl}}/attachments/ref_4SKmwOLz/1.jpg)
 
 ## Настройка модуля
 
