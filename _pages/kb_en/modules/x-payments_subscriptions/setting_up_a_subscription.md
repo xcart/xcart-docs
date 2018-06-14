@@ -11,7 +11,7 @@ order: 150
 ---
 
 
-Once you activate the module X-Payments subscriptions, it becomes possible to set up a subscription for any product in your store. For this purpose, you can use an existing product or create a new product. For the sake of example, we will create a product "Beauty Box Subscription". Purchasing a subscription for this product will allow buyers to get a box of beauty and makeup samples on a monthly basis for just $20 per month. 
+Once you activate the module X-Payments subscriptions, it becomes possible to set up a subscription for any product in your store. For this purpose, you can use an existing product or create a new product. 
 
 1.  Start by creating a regular product as described in {% link "Adding products" ref_fhzzxDTy %}.
     Do not worry about setting the product price just yet - the product is going to be a subscription, so the regular _Price_ field for it will be ignored.
