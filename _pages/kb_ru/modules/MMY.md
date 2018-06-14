@@ -29,26 +29,18 @@ published: false
 | **Высота баннера** | Максимально возможная высота баннера на странице уровня. Стандартное значение 200 можно изменить. |
 | **Использовать отдельную вкладку на странице товара для перечня групп** | Если опция включена, автомобили, для которых подходит деталь, будут перечислены на отдельной вкладке **Совместимость** на странице товара в магазине. Вкладка **Совместимость** появится и на странице товара в панели управления магазина. Если опция отключена - автомобили, для которых подходит деталь, будут перечислены на вкладке **Описание** на странице товара в магазине. | 
 | **Сортировка уровня** | Выберите режим сортировки результатов поиска на каждом уровне - в _алфавитном порядке, с 0 до 9_ или _в обратном алфавитном порядке, с 9 до 0_. |
-| **Перенаправить пользователя на страницу поиска если страница модели не подготовлена (не заполнено описание)** |  |
+| **Перенаправить пользователя на страницу поиска, если страница модели не подготовлена (не заполнено описание)** | Если у модели нет страницы с описанием, будет открываться страница поиска товаров. |
 | **Добавлять ЧПУ выбранного уровня к ЧПУ категорий** |  |
 
-{% note info %}
-With the **Use separate tab for the fitment on the product page** option enabled each product will gain a separate **Fitment** tab that will be displayed onthe product details page both in the admin back-end and customer frontend.
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![fitment-admin.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-admin.png)</div>
-  <div class="column" markdown="span">![fitment-frontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-frontend.png)</div>
-</div>
-{% endnote %}
+Настройка уровней и выбор товаров 
 
-When the **Make/Model/Year** module settings are configured you can proceed with setting up the filter levels and populating the module with products. 
-
-To configure the filters go to the **Catalog** -> **Make/Model/Year/Engine** page of the admin back-end and start adding the filters of Level 1 (**Makes**).
+Откройте раздел **Каталог / Make/Model/Year/Engine**. Уровни создаются последовательно: Марка, модель, год выпуска, объём двигателя.
 
 ![make.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/make.png)
 
-To add a **Make** click on the **'New Make'** button and name the Make in a new line. When you add all the makes, click **Save changes**.  
+Чтобы создать уровень **Марка**, нажмите **Новый**, в открывшемся поле напишите название марки и нажмите **Сохранить**.  
 
-Likewise you can proceed with the next levels configuration (Model/Year/Engine). For this purpose you'll need to click the **Manage Model** link opposite to the **Make**, **Manage Year** link opposite to the **Model** and so on and add the positions for the next levels. 
+Справа от названия марки появляется ссылка **Модель**, по которой открывается страница второго уровня **Модель**. Нажмите **Новый элемент**, в появившемся поле напишите название модели и нажмите **Сохранить**. Аналогично перейдите на третий и четвертый уровни. 
 
 <div class="ui stackable three column grid">
   <div class="column" markdown="span">![model.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/model.png)</div>
@@ -56,9 +48,9 @@ Likewise you can proceed with the next levels configuration (Model/Year/Engine).
   <div class="column" markdown="span">![engine.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/engine.png)</div>
 </div>
 
-When the levels are configured, you can add products on the very last step by clicking the **Manage Products** link in the end. 
+Когда указан объём двигателя на четвёртом уровне, справа появляется ссылка **управления товарами**. 
 
-* If the products are already added/uploaded to the store click the **'Add product'** button and choose the products that meet the filters you configured from a list in a pop-up.
+* Если каталог товаров магазина уже готов, на открывшейся странице нажмите **Добавить товар** и выберите товары, которым соответствуют указанные марка, модель, год выпуска и объём двигателя.
   
   ![select_products.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/select_products.png)
   
