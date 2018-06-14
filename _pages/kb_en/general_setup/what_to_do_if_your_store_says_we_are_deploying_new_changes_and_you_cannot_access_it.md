@@ -50,10 +50,12 @@ To run your store in safe mode, you need to access your store website using a Ha
 
 The format of the reset links is as follows:
 
+*   Core-only reset (X-Cart 5.3.5.5+):
+    `http://<shop_domain>/admin.php?target=main&safe_mode=1&access_key=<shop_key>&mode=core`
 *   Hard reset:
     `http://<shop_domain>/admin.php?target=main&safe_mode=1&access_key=<shop_key>`
 *   Soft reset: 
-    `http://<shop_domain>/admin.php?target=main&safe_mode=1&access_key=<shop_key>&soft_reset=1`
+    `http://<shop_domain>/admin.php?target=main&safe_mode=1&access_key=<shop_key>&mode=soft`
 
 (If you cannot access your Hard and Soft reset links, you can re-create them manually by replacing the part __`<shop_domain>`__ with the actual domain of your store and the part __`<shop_key>`__ with your actual Safe Mode access key from the file **var/data/.safeModeAccessKey**).
 
@@ -79,7 +81,7 @@ Clicking on a reset link disables some or all of the modules installed at your s
       <td colspan="1"  class="confluenceTd"><span>Disables all the modules except for the ones developed by X-Cart 5 team and Qualiteam </span>
       </td>
     </tr>
-    <tr >
+    <tr>
       <td  class="confluenceTd"><strong>Hard reset</strong>
       </td>
       <td  class="confluenceTd">
@@ -87,6 +89,13 @@ Clicking on a reset link disables some or all of the modules installed at your s
         <p>&nbsp;</p>
       </td>
       <td colspan="1"  class="confluenceTd"><span>Disables all the modules except for the ones developed by X-Cart 5 team</span>
+      </td>
+    </tr>
+    <tr>
+      <td  class="confluenceTd"><strong>Core-only reset (X-Cart 5.3.5.5+)</strong>
+      </td>
+      <td colspan="2" class="confluenceTd">
+        <span>Disables absolutely all the modules and custom mods, leaving only the core</span>
       </td>
     </tr>
     <tr >
