@@ -78,9 +78,9 @@ published: false
   
   {% endnote %}
   
-  You can upload products to the module even without configuring the module levels beforehand. The levels and their values will be added to the **Catalog** -> **Make/Model/Year/Engine** section automatically from the .csv file you imported. 
+  Перед импортом товаров необязательно заранее создавать уровни. Уровни будут автоматически созданы в разделе **Каталог / Make/Model/Year/Engine** на основе CSV файла. 
   
-Starting from Level 2 (**Model**), each sublevel has a special **Level info** page, that if configured will be displayed in the storefront depending on the selected filters. It’s especially useful if you want to provide your customers with additional information on Make, Model or particular vehicle when they select it. Due to flexible settings, you can set the same page, for example, for all models and years or a separate page for each model (and even year). Using a simple interface you can set the page Title, Image and Description. 
+Начиная со второго уровня (**Модель**) на странице уровня появляется вкладка Информация. Если администратор заполняет эту страницу, покупатель увидит изображение и описание марки, модели или конкретного выбранного по фильтрам автомобиля. ожно создать одну страницу или отдельные страницы для моделей и годов выпуска. 
 
 ![level_info.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/level_info.png)
 
