@@ -27,5 +27,4 @@ To accept payments with Braintree, you will need a Braintree or PayPal account. 
 Please read on:
 
 *   {% link "Enabling and Configuring Braintree Payment" ref_6gWLGj9K %}
-*   Braintree: Admin Experience
 *   {% link "Braintree : Customer Experience" ref_1H9wRepr %}
