@@ -15,18 +15,20 @@ published: false
 
 ![installed.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/installed.png)
 
-The module configuration settings are as follows:
+Сначала настройте модуль, затем создайте уровни и добавьте товары.
+
+Настройка модуля
 
 ![settings.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/settings.png)
 
 {:.ui.compact.celled.small.padded.table}
 
-| **Number of levels to be used in the filter (2,3,4)** | Here you can choose from 2 to 4 filter levels that you'll set up for your products. |
-| **Name of level X**| The default filter names are preset to Make/Model/Year/Engine, but you can set any filter name you like better instead. |
-| **Maximum banner width** | Set the width of a banner that will be displayed on the _Level Info_ page. The preset value is 500. |
-| **Maximum banner hight** | Set the width of a banner that will be displayed on the _Level Info_ page. The preset value is 200. |
-| **Use separate tab for the fitment on the product page** | If enabled the information on all the vehicles the part can be used for will be displayed in a separate _Fitment_ tab on the product details page in the storefront. If disabled the info will be displayed in the main _Description_ tab. | 
-| **Level X sorting** | Choose the order of the search results representation for the level. |
+| **Количество уровней, используемых в фильтре (2,3,4)** | Выберите 2,3 или 4 уровня (марка, модель, год выпуска и объём двигателя), которые настроите для товаров. |
+| **Название уровня**| Полям по умолчанию даны названия, подходящие для магазина автомобильной тематики. Переименуйте эти поля, если настраиваете модуль не для автомобилей, а для других товаров.|
+| **Ширина баннера** | Максимально возможная ширина баннера на странице уровня. Стандартное значение 500 можно изменить. |
+| **Высота баннера** | Максимально возможная высота баннера на странице уровня. Стандартное значение 200 можно изменить. |
+| **Использовать отдельную вкладку на странице товара для перечня групп** | Если опция включена, автомобили, для которых подходит деталь, будут перечислены на отдельной вкладке **Совместимость** на странице товара в магазине. Вкладка **Совместимость** появится и на странице товара в панели управления магазина. Если опция отключена - автомобили, для которых подходит деталь, будут перечислены на вкладке **Описание** на странице товара в магазине. | 
+| **Сортировка уровня** | Выберите режим сортировки результатов поиска на каждом уровне - в _алфавитном порядке, с 0 до 9_ или _в обратном алфавитном порядке, с 9 до 0_. |
 
 {% note info %}
 With the **Use separate tab for the fitment on the product page** option enabled each product will gain a separate **Fitment** tab that will be displayed onthe product details page both in the admin back-end and customer frontend.
