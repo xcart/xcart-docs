@@ -103,7 +103,7 @@ Clicking on a reset link disables some or all of the modules installed at your s
     </tr>
     <tr >
       <td colspan="3"  class="confluenceTd">
-        <p>Any custom modifications uploaded to your store in the form of modules via the "Upload addon" feature are disabled regardless of the reset link type - no matter who the author of the modification is, whether it be X-Cart service departments, X-Cart partners or 3rd party developers.</p>
+        <p>**Note**: Any custom modifications uploaded to your store in the form of modules via the "Upload addon" feature are disabled regardless of the reset link type - no matter who the author of the modification is, whether it be X-Cart service departments, X-Cart partners or 3rd party developers.</p>
       </td>
     </tr>
   </tbody>
