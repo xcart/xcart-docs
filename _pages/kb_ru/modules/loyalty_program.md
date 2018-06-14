@@ -7,11 +7,11 @@ title: Программа лояльности (Loyalty Program)
 order: 300
 published: false
 ---
-Do you want to stimulate guest customers to register, or encourage product reviews and ratings, or even reward customers for purchases? Use the [Loyalty Program](https://market.x-cart.com/addons/loyalty-program.html "Loyalty Program") module to achieve your goals. The module will help you to increase customer loyalty and turn your visitors into returning customers as well as to reward your customers with points for actions.
+Модуль [Программа лояльности (Loyalty Program)](https://market.x-cart.com/addons/loyalty-program.html "Программа лояльности (Loyalty Program)")создаёт возможности поощрения покупателей и, следовательно, повышения продаж - покупатель получает поощрение за покупку и положительную оценку или отзыв о товаре; посетитель магазина регистрируется, размещает заказ и становится постоянным покупателем.
 
 The Loyalty Program module is included in the X-Cart Ultimate edition and can be added as a paid extension to the Business edition.
 
-{% toc Let's review the module in details. %} 
+{% toc %} 
 
 ## Installation and set-up
 
@@ -108,4 +108,3 @@ Reward points will be converted into a respective discount according to the Loya
 A store admin can check and adjust the reward points balance of a customer with a comment for the adjustment (if required) on the user account details page in the _Reward Points_ tab (**Users** -> **User list**).
 
 ![user.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/user.png)
-
