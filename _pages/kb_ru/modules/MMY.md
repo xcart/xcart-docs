@@ -19,7 +19,7 @@ published: false
 
 ## Настройка модуля
 
-![settings.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/settings.png)
+![22.jpg]({{site.baseurl}}/attachments/ref_4SKmwOLz/22.jpg)
 
 {:.ui.compact.celled.small.padded.table}
 
