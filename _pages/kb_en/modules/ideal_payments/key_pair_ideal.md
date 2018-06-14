@@ -5,7 +5,7 @@ updated_at: '2018-06-14 11:30 +0400'
 identifier: ref_1Vi2lP6E
 title: Obtaining a key pair for iDEAL Payments
 order: 120
-published: false
+published: true
 ---
 It is possible to use a "self-signed certificate", or to purchase a certificate from a Certificate Authority (CA).
 
