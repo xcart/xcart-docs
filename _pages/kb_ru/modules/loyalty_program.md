@@ -70,17 +70,21 @@ published: false
 
 ![menu.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/menu.png)
 
-When the Loyalty Program module is enabled, the store visitors and registered customers will see reward points they will get for buying a product.
+Перейдя по ссылке **Бонусы** в главном меню покупатели могут ознакомиться с условиями получения и использования бонусных баллов.
 
 ![home.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/home.png)
 
-Also, they will see a Loyalty Program menu (if enabled) where they can get information on the Loyalty Program policy.
+В описании товара посетители сайта и зарегистрированные покупатели видят количество бонусных баллов, начисляемых за его покупку.
 
 ![details.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/details.png)
 
-At checkout the registered customers will see a sum of reward points they will earn with an order. Store visitors will be promted to register an account for the reward points to be added to the order.
+_Зарегистрированные_ покупатели, авторизовавшиеся со своей учётной записью, получают бонусные баллы после оформления заказа. 
+
+_Незарегистрированные_ покупатели видит бонусные баллы при оформлении заказа, но не получают их, если оплачивают заказ без регистрации в магазине. Чтобы получить бонусные баллы за покупку, гостю сайта следует создать учётную запись.
 
 ![checkout.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/checkout.png)
+
+Бонусные баллы поступают на счёт покупателя, как только заказ получает статус **Оплачен**. Если покупатель выбрал **онлайн способ оплаты**, бонусы начисляются сразу же после платежа. Если **оффлайн способ оплаты** - бонусы начисляются после обработки заказа администратором
 
 Customers can also earn reward points by rating products or writing {% link "product reviews" ref_XBriIS6B %}  if it's enabled in the Loyalty Program settings. 
 
