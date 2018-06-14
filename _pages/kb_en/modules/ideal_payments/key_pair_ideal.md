@@ -28,7 +28,7 @@ If you are going to use a self-signed certificate, you can create your public an
 
     The previous OpenSSL command will generate a certificate in X.509 format, with a validity period of 5 years (1825 days), the maximum for iDEAL signing certificates.
 
-4.  The file priv**.**pem contains the private key; it needs to be kept private. The file cert.cer contains the certificate with the public key; this file needs to be communicated to Rabobank iDEAL. 
+4.  The file priv.pem contains the private key; it needs to be kept private. The file cert.cer contains the certificate with the public key; this file needs to be communicated to Rabobank iDEAL. 
 
 If you are going to buy a certificate from a Certificate Authority (CA), rather than generate the certificate yourself, you should note the following: the CA signing certificate (and the rest of the certificate chain) must use hashing algorithms and key lengths that are at least as secure or better than those of the Merchant certificate.
 Therefore CA-certificates used to sign certificates for electronic signatures must use at least SHA-256 for hashing and 2,048 bits for RSA keys.
