@@ -44,7 +44,7 @@ Once you activate the module X-Payments subscriptions, it becomes possible to se
         
      * **Calculate shipping for recurring orders** : If enabled shipping cost will be included into the subscription fee charged each period.
         {% note info %}
-        The shipping fee will be changed according to the fees set for the shipping method chosen by a customer in the very first order. In case the chosen shipping method becomes inavailable the subscription stops and the customer receives an e-mail notification about it.
+        The shipping fee will be changed according to the fees set for the shipping method chosen by a customer in the very first order with a subscription. In case the chosen shipping method becomes inavailable (e.g. a customer chose free shipping for orders over $50 and a subscription fee is $10 olny (less than $50 required for shipping) or the cart admin disabled the chosen shipping method, etc.) the subscription stops and the customer receives an e-mail notification about it.
         {% endnote %}
         
 5.  Click **Save** for the changes to be applied.
