@@ -13,18 +13,19 @@ order: 100
 To start using the module:
 
 1.  Make sure the module  **iDEAL Payments** has been activated at your store (See {% link "Activating and deactivating modules" ref_uEnDBBA7 %}). If the module **iDEAL Payments** is not installed in your store, you can get it from the Marketplace (General module installation instructions are available here: {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.)
-    ![]({{site.baseurl}}/attachments/9306867/9439227.png)
+    ![ideal-addon.png]({{site.baseurl}}/attachments/ref_h6SlMCLe/ideal-addon.png)
 
-2.  Prepare the key pair that will be needed for the encryption of communication between your store and iDEAL. As a result, you should have two files: the file **priv.pem** with your RSA private key and the file **cert.cer** with your public certificate. For instruction on the creation of the key pair, see the section {% link "Obtaining a key pair for iDEAL Payments" ref_h6SlMCLe %} below.
+2.  Prepare the key pair that will be needed for the encryption of communication between your store and iDEAL. As a result, you should have two files: the file **priv.pem** with your RSA private key and the file **cert.cer** with your public certificate. For instruction on the creation of the key pair, please refer to {% link "Obtaining a key pair for iDEAL Payments" ref_1Vi2lP6E %}
 
 3.  Upload the certificate file **cert.cer**, which you have obtained earlier, to the Rabo iDEAL Dashboard, via the tab 'Adjust public key'.
-4.  In your X-Cart store's Admin back end, go to **Store setup > Payment methods** and click the **Add payment method** button in the Online methods section.
-    ![]({{site.baseurl}}/attachments/9306867/9439228.png)
 
-5.  In the list of available payment methods that opens, find the method named**iDEAL Professional (Rabobank)** and choose to add it to your store by clicking the **Add** button opposite its name:
-    **![]({{site.baseurl}}/attachments/9306867/9439226.png)
-    **The method will be added, and the method settings page will be opened:
-    ![]({{site.baseurl}}/attachments/9306867/9439229.png)
+4.  In your X-Cart store's Admin back end, go to **Store setup > Payment methods** and click the **Add payment method** button in the _Online methods_ section.
+    ![add-online.png]({{site.baseurl}}/attachments/ref_h6SlMCLe/add-online.png)
+
+5.  In the list of available payment methods that opens, find the method named **iDEAL Professional (Rabobank)** and choose to add it to your store by clicking the **Add** button opposite its name:
+    ![ideal-add.png]({{site.baseurl}}/attachments/ref_h6SlMCLe/ideal-add.png)
+    The method will be added, and the method settings page will be opened:
+    ![ideal-settings.png]({{site.baseurl}}/attachments/ref_h6SlMCLe/ideal-settings.png)
 
 6.  Configure the module settings:
 
@@ -38,7 +39,6 @@ To start using the module:
     *   **Currency**: Specify the currency to be used for iDEAL transactions.
     *   **Invoice number prefix**: If you use the same account to accept payments from more than one X-Cart stores, use this field to set an invoice number prefix for this store. The prefix will serve as an identifier of the store and will help you to avoid errors of the "duplicate invoice number" type.
     *   **Test/Live mode**: Use this setting to select the operation mode for your iDEAL Payments integration. Before you can offer iDEAL Payments on your website, you will first need to successfully carry out some required test transactions (More information about this is available via Rabobank iDEAL documentation). To do the testing, you will need to set the operation mode of your integration to _Test_. Note that the testing of the integration needs to take place in the iDEAL test environment: [https://idealtest.rabobank.nl](https://idealtest.rabobank.nl/). After your iDEAL Payments integration is approved for production use, you can use the Test/Live mode setting to switch to _Live_.
-
     *   **Enable logging of iDEAL transactions**: If you experience problems with iDEAL Payments, use this setting to enable logging of communications between your X-Cart store and Rabobank iDEAL servers. This will help you or our tech support engineers to locate the source of the problems.
 
 7.  Save the changes by clicking the **Save changes** button at the bottom of the page. The method will be activated.
