@@ -17,7 +17,6 @@ published: false
 
 ![installed.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/installed.png)
 
-Сначала настройте модуль, затем создайте уровни и добавьте товары.
 
 ## Настройка модуля
 
