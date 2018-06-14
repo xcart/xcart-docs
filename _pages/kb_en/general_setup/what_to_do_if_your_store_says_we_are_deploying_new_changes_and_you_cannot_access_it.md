@@ -57,7 +57,7 @@ The format of the reset links is as follows:
 *   Soft reset: 
     `http://<shop_domain>/admin.php?target=main&safe_mode=1&access_key=<shop_key>&mode=soft`
 
-(If you cannot access your Hard and Soft reset links, you can re-create them manually by replacing the part __`<shop_domain>`__ with the actual domain of your store and the part __`<shop_key>`__ with your actual Safe Mode access key from the file **var/data/.safeModeAccessKey**).
+(If you cannot access your reset links, you can re-create them manually by replacing the part __`<shop_domain>`__ with the actual domain of your store and the part __`<shop_key>`__ with your actual Safe Mode access key from the file **var/data/.safeModeAccessKey**).
 
 Clicking on a reset link disables some or all of the modules installed at your store (Detailed information on the action of each link is available in the table below). Then X-Cart 5 tries to recover itself.  Once your store is back online, you can try enabling the modules again one by one in order to identify the one causing your site to crash. As soon as you know which module is causing it, you can contact its developer to get it fixed. 
 
