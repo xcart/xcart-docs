@@ -10,14 +10,9 @@ published: true
 order: 100
 ---
 
-
-## Getting started
-
-To use iDEAL Payments, you will need to complete the iDEAL application process. You can start by choosing the "Registration" link at [https://ideal.rabobank.nl](https://ideal.rabobank.nl). The process involves providing the required information about you business and completing some tests in the Rabobank iDEAL test environment. After the assessment and approval of your application and signing your contract, you will be able to activate iDEAL on your site. The guidelines for completing the application process are available [here](https://ideal.rabobank.nl/ideal/languagechange.do?languageid=er&RND_FORM_TOKEN=RND_1460629246265_-682106363&guilanguageaction=true).
-
 To start using the module:
 
-1.  Make sure the module  **iDEAL Payments **has been activated at your store (See {% link "Activating and deactivating modules" ref_uEnDBBA7 %}). If the module **iDEAL Payments** is not installed in your store, you can get it from the Marketplace (General module installation instructions are available here: {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.)
+1.  Make sure the module  **iDEAL Payments** has been activated at your store (See {% link "Activating and deactivating modules" ref_uEnDBBA7 %}). If the module **iDEAL Payments** is not installed in your store, you can get it from the Marketplace (General module installation instructions are available here: {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.)
     ![]({{site.baseurl}}/attachments/9306867/9439227.png)
 
 2.  Prepare the key pair that will be needed for the encryption of communication between your store and iDEAL. As a result, you should have two files: the file **priv.pem** with your RSA private key and the file **cert.cer** with your public certificate. For instruction on the creation of the key pair, see the section {% link "Obtaining a key pair for iDEAL Payments" ref_h6SlMCLe %} below.
@@ -47,34 +42,4 @@ To start using the module:
     *   **Enable logging of iDEAL transactions**: If you experience problems with iDEAL Payments, use this setting to enable logging of communications between your X-Cart store and Rabobank iDEAL servers. This will help you or our tech support engineers to locate the source of the problems.
 
 7.  Save the changes by clicking the **Save changes** button at the bottom of the page. The method will be activated.
-
-## Obtaining a key pair for iDEAL Payments
-
-It is possible to use a "self-signed certificate", or to purchase a certificate from a Certificate Authority (CA).
-
-If you are going to use a self-signed certificate, you can create your public and private keys as follows: 
-
-1.  Download the “OpenSSL Library” from [http://www.openssl.org](http://www.openssl.org). You can find more information on the “certificate generating utility” at:[http://www.openssl.org/docs/apps/req.html](http://www.openssl.org/docs/apps/req.html). You may also generate the key pair using other software. If so, please use the manual that comes with your software.
-
-2.  Generate an “RSA private key” using the following command (choose your own password for the field [privateKeyPass]):
-
-    ```php
-    openssl genrsa –aes-128 –out priv.pem –passout pass:[privateKeyPass] 2048 
-    ```
-
-3.  Create a certificate based on the “RSA private key”  (use the same password as in the previous step for the field [privateKeyPass]): 
-
-    ```php
-    openssl req –x509 –sha256 –new –key priv.pem –passin pass:[privateKeyPass]  
-    -days 1825 –out cert.cer
-    ```
-
-    The previous OpenSSL command will generate a certificate in X.509 format, with a validity period of 5 years (1825 days), the maximum for iDEAL signing certificates.
-
-4.  The file priv**.**pem contains the private key; it needs to be kept private. The file cert.cer contains the certificate with the public key; this file needs to be communicated to Rabobank iDEAL. 
-
-If you are going to buy a certificate from a Certificate Authority (CA), rather than generate the certificate yourself, you should note the following: the CA signing certificate (and the rest of the certificate chain) must use hashing algorithms and key lengths that are at least as secure or better than those of the Merchant certificate.
-Therefore CA-certificates used to sign certificates for electronic signatures must use at least SHA-256 for hashing and 2,048 bits for RSA keys.
-Signing certificates should also have a maximum validity period of 5 years.
-
 
