@@ -72,7 +72,7 @@ You can configure the following additinal setting for the payment:
   {% endnote %}
   
   * **Auto settle** : Enable the feature if you want all the requests to be processed through your default merchant account (the predefined **Merchant ID**).
-  * **Braintree invoice number prefix** : Set an invoice prefix to distinguish the orders paid with Braintree from the orders paid with other payment methods if required. The set prefix will be added to all orders in X-Cart paid with Braintree.
+  * **Braintree invoice number prefix** : If you use the same account to accept payments from more than one X-Cart stores, use this field to set an invoice number prefix for this store. The prefix will serve as an identifier of the store and will help you to avoid errors of the “duplicate invoice number” type.
   * **Kount merchant ID** : Specify your [Kount merchant ID](https://www.kount.com/fraud-detection-software/kount-products "Enabling and Configuring Braintree Payment") if you have it.
 
 Additional PayPal settings:
@@ -91,4 +91,3 @@ Additional 3-D Secure settings:
   * **3-D Secure** : Enable the option to use 3-D Secure payments.
   * **Accept card types not covered by 3-D Secure (e.g. Amex, Discover)** : Choose whether you want to accept card types not covered by 3-D Secure or not.
   * **Use for cards saved in vault** : If set to YES the 3-D Secure payment will be applied to all cards saved in vault.
-
