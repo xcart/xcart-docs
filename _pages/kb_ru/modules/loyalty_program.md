@@ -52,29 +52,23 @@ published: false
   * **Применять скидку к** - Скидка рассчитывается или от стоимости товаров в заказе или от полной суммы заказа, включая стоимость доставки и налоги.
   
 - ### Информация о бонусной программе:
-  * **Страница бонусной программы** : What page to use as the Loyalty Program Details page. (You can choose between 'Built-in page template' and custom templates available in your store).  
-  {% note info %}  
-  To {% link "create a custom template" ref_Ptf5vaPn %} for your Loyalty Program details page use the **Content** > **Pages** > **New Page** section in the admin back-end. 
-  ![custom.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/custom.png)
-  {% endnote %}
+  * **Страница бонусной программы** : Выберите страницу, на которой будет размещаться информация о системе скидок магазина. Если выбрано значение **Страница модуля**, будет создана новая отдельная страница для описания бонусной программы. Также, можно выбрать одну из страниц магазина, созданных в разделе **Содержание / Страницы**, или создать новую страницу.
+  
+## Управление системой скидок 
 
-## Managing Loyalty Program 
-
-The Loyalty Program can be managed in the **Discounts** > **Loyalty Program** section of the admin back-end. 
+В разделе **Скидки / Бонусная программа** администратор видит статистику по бонусной программе и текущие настройки. 
 
 ![report.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/report.png)
 
-There you can check reports on the reward points redeemed in your store and see a number of unused points for all customers, see a sum of total discount given to your customers for the redeemed points and a number of customers with unused reward points. 
+В этом разделе администратор видит количество списанных и неиспользованных бонусных баллов всех покупателей, суммарную скидку по бонусным баллам и количество покупателей, у кого остались неиспользованные бонусные баллы. 
 
-Also you can check the current Loyalty Program settings and change them if required. 
+Если настройки необходимо изменить, по ссылке **Изменить параметры** админстратор попадает на страницу настройки модуля **Программа лояльности (Loyalty Program)**. 
 
-To manage the Loyalty Program representation in the store front-end enable the corresponding menu in the **Content** > **Menus** section of the admin back-end and **save** the changes.
+## Бонусная программа в интерфейсе покупателя
+
+После установки модуля автоматически создаётся новый неактивированный пункт главного меню **Бонусы**. На своё усмотрение администратор активирует этот пункт меню. Ссылка **Бонусы** появляется в главном меню магазина и ведёт на страницу с писанием бонусной программы магазина. Страница, где описана система скидок, выбрана в разделе **Информация о бонусной программе** в настройках модуля.
 
 ![menu.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/menu.png)
-
-The menu itself is added automatically after the Loyalty Program module is installed.
-
-## Customer experience
 
 When the Loyalty Program module is enabled, the store visitors and registered customers will see reward points they will get for buying a product.
 
