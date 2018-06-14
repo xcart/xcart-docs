@@ -54,23 +54,27 @@ published: false
   
   ![select_products.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/select_products.png)
   
-  
-* If the products are not uploaded to the store as yet, you can import them with a .csv file using the guides from {% link "CSV import: Products" ref_WmJBfwxA %}.
-  The fields that should be added to a .csv file to populate the module with products should be as follows:
+Администратор устанавливает принадлежность товара к уровням и на странице товара на вкладке **Совместимость**.
+ 
+На странице товара в магазине покупатели увидят вкладку **Совместимость**, которая показывает марку, модель, год выпуска и объём двигателя автомобиля.
+
+Для одного товара можно создать несколько комбинаций уровней
+    
+* Если в магазине ещё нет каталога товаров, {% link "импортируйте товары в CSV файле" ref_AwaMbiEf %}. Обязательные для модуля колонки CSV файла:
   
   ![csv.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/csv.png)
   
   
-  The fields' names in the .csv file should correspond with the level names you set on the **Make/Model/Year Module** settings page.
+  Названия колонок CSV файла должны соответствовать названиями уровней, заданных в настройках модуля.
   
   {% note info %}
   
-  If the value **ALL** is specified for a field, the SKU will be added to all existing level values (works for predefined levels only). 
+  Если значение поля **All**, товар с этим артикулом будет добавлен на всех уровнях. Этот способ подходит только для автоматически созданных и заполненных уровней. 
   
   e.g. 
   make/model/year : all/A5/2012
   
-  In this case new items will be added to all existing Make levels (make1/A5/2012, … makeNN/A5/2012). You can even import values as make/model/year: all,all,all and the SKU will be added to all existing Make/Model/Year levels. 
+  Это значит, что новые товары появятся на всех уровнях **Марка**. Если при импорте во всех столбцах (марка, модель, год) поставить значение All, товар появится на всех уровнях **Марка / Модель / Год**. 
   
   {% endnote %}
   
