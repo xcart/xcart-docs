@@ -8,7 +8,9 @@ order: 167
 published: true
 ---
 
-Social feeds are a good point to attract new visitors and boost sales, Facebook Marketing being one of the most popular and efficient. If you already have a Facebook account start using a free [X-Cart Facebook eCommerce](https://market.x-cart.com/addons/facebook-e-commerce.html "Facebook eCommerce Module") module right away to upload your products to Facebook Catalog and to create personalized ads that will allow reaching the right audience in the right place at the right time. 
+Social feeds are a good point to attract new visitors and boost sales, Facebook Marketing being one of the most popular and efficient. If you already have a Facebook account start using a free [X-Cart Facebook eCommerce](https://market.x-cart.com/addons/facebook-e-commerce.html "Facebook eCommerce Module") module right away to upload your products to Facebook Catalog and to create personalized ads that will allow reaching the right audience in the right place at the right time. Facebook ads are synchronized with Instagram and are shown there as well even if you don't have an Instagram account.
+
+You can learn more about Instagram ads [here](https://www.facebook.com/business/help/1634705703469129?helpref=faq_content "Facebook eCommerce Module") and [here](https://www.facebook.com/business/help/1513393428972189?helpref=faq_content "Facebook eCommerce Module"). 
 
 {% note info %}
 
@@ -20,7 +22,7 @@ Facebook eCommerce module uploads your products to Facebook Catalog automaticall
 
 {% toc Let's check what you need to do to make use of it. %}
 
-### **Install the Facebook eCommerce module** 
+## **Install the Facebook eCommerce module** 
 
 Install the module as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}
   
@@ -30,7 +32,7 @@ Once installed the module will become available in the **Sales Channels** > **Fa
 
 Also, each product will gain an _Add to Facebook product feed_ setting in the Marketing section on the product details page that is enabled by default. All products with the enabled _Add to Facebook product feed_ setting will be automatically added to the product feed and uploaded to your Facebook Catalog.
 
-### **Configure the module** 
+## **Configure the module** 
 
   You can configure the Facebook e-Commerce module in the **Sales Channels** > **Facebook E-Commerce** section of the store admin area
   
@@ -62,7 +64,7 @@ Also, each product will gain an _Add to Facebook product feed_ setting in the Ma
   The _Frequency of Product Feed renewal_ setting itself will not make renewals automatical. You'll need to set up console.php as described in {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
   {% endnote %}
   
-### **Upload Product Feed to Facebook**
+## **Upload Product Feed to Facebook**
   
   To upload your product feed to Facebook go to [Catalog Manager](https://www.facebook.com/business/help/1659534074121655 "Facebook eCommerce Module") of your [Facebook Business account](https://business.facebook.com/overview/ "Facebook eCommerce Module") at https://www.facebook.com/products/
   
