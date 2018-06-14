@@ -9,9 +9,6 @@ published: false
 ---
 Модуль [Марка/Модель/Год изготовления (Make/Model/Year)](https://market.x-cart.com/addons/make-model-year.html "Марка / Модель / Год изготовления (Make/Model/Year)") добавляет 4 уровня поисковых фильтров, запоминает фильтры поиска незарегистрированных покупателей и просмотренные автомобили зарегистрированных покупателей. Модуль предназначен для магазинов, продающих авто и мотозапчасти, но подходит и для других магазинов, товары в которых подразделяются на группы (компьютеры, смартфоны, копировальные аппараты и т.п.).
 
-
-The [Make/Model/Year module](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year Module") allows to set up up to 4 levels of filter for inventory, as well as to remember the filters for the non-registered visitors and to remember the vehicle for the registered customers. Though the module is mainly aimed at the sellers of auto parts or/and moto parts, it can also be used by any seller who differentiates the products by levels like computers, copiers, smartphones, etc. 
-
 To install the module follow the steps described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once the module is installed and enabled, go to the module settings page to configure it.
 
 ![installed.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/installed.png)
