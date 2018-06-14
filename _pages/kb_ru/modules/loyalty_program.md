@@ -15,7 +15,7 @@ published: false
 
 Модуль **Программа лояльности (Loyalty Program)** входит в X-Cart Всё включено и требует только {% link "активации" ref_IEo2gFuZ %}.  Для X-Cart Бзовый, X-Cart Бизнес и X-Cart Мультивендор модуль платный, приобретите лицензию в Маркетплейсе, {% link "установите и активируйте модуль" ref_gpeZtm28 %}.
 
-В разделе **Мои модули** найдите модуль по названию и перейдите по ссылке **настройки**.
+В разделе **Мои модули** найдите модуль по названию и перейдите по ссылке **Настройки**.
 
 ![]({{site.baseurl}}/attachments/ref_1Odyn6mT/install.png)
 
@@ -28,7 +28,7 @@ published: false
   </div>
 </div>
  
-Начисление баллов:
+- ### Начисление баллов:
   * **Награда за покупки** - Количество баллов, начисляемых за каждый потраченный в магазине рубль. Целое или дробное число.
   * **Начислять баллы за стоимость доставки** - Если опция активирована, бонусные баллы начисляются не только за покупки в магазине, но и за оплату доставки этих покупок.
   * **Начислять баллы за сумму налогов** - Если опция активирована, бонусные баллы начисляются не только за покупки в магазине, но и за оплату налогов, связанных с покупками.
@@ -40,17 +40,18 @@ published: false
   
   {% note info %}
  
-  You can also set per-product rewards that will override the _Rewards multiplier_ settings for a particular product. This can be done on a {% link "product details page" ref_fhzzxDTy %} in the 'Automatic reward points' field (_Price & Inventory_). If set to 'NO' you'll be able to define the number of points a customer will get for buying this product. 
+  Настройки модуля одинаково распространяются на все товары магазина. Но можно установить и специальные условия вознаграждения за покупку конкретных товаров. В этом случае общие для всех товаров настройки бонусной системы не действую на этот товар. 
+  На странице товара в секции **Цены и наличие на складе** отключите опцию **Автоматические бонусные баллы**, появится поле **Бонусные баллы**, укажите в этом поле количество баллов для покупателя за покупку товара. 
   ![product.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/product.png)
   
   {% endnote %}
   
-REDEEM settings:
+- ### Использование баллов:
   * **Redeem rate** : What discount the shopper will get for a single reward point spent on checkout.
   * **Max. reward discount** : The maximum discount that a shopper can get for an order by redeeming his reward points. Can be either a fixed sum, or a percent value.
   * **Apply discount on the** : Whether the discount should apply on the grand total, or the subtotal.
   
-INFORMATION settings:
+- ### Информация о бонусной программе:
   * **Loyalty Program Details page** : What page to use as the Loyalty Program Details page. (You can choose between 'Built-in page template' and custom templates available in your store).  
   {% note info %}  
   To {% link "create a custom template" ref_Ptf5vaPn %} for your Loyalty Program details page use the **Content** > **Pages** > **New Page** section in the admin back-end. 
