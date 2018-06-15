@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-06-14 17:04 +0400'
 identifier: ref_4SKmwOLz
-title: Марка / Модель / Год изготовления (Make/Model/Year)
+title: Марка / Модель / Год  (Make/Model/Year)
 order: 310
 published: true
 ---
