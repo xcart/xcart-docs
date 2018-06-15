@@ -25,4 +25,4 @@ icon: puzzle
 *   {% link "Многовалютность (Multicurrency)" ref_1EpoZue8 %}
 *   {% link "Неоплаченные заказы (Not Finished Orders)" ref_08L2zVtq %}
 *   {% link "Программа лояльности (Loyalty Program)" ref_6DRAWYp4 %}
-*   {% link "Марка / Модель / Год изготовления (Make/Model/Year)" ref_4SKmwOLz %}
+*   {% link "Марка / Модель / Год (Make/Model/Year)" ref_4SKmwOLz %}
