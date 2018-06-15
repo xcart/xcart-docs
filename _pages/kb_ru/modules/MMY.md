@@ -106,11 +106,6 @@ published: true
 
 Когда покупатель устанавливает параметры выбора автомобиля и нажимает **Найти**, открывается страница уровня. На этой странице перечислены детали, подходящие для выбранного покупателем автомобиля. Название, изображение и описание этой страницы установлено на вкладке **Информация** уровня в разделе **Каталог / Make/Model/Year/Engine**. 
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![landing_admin.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/landing_admin.png)</div>
-  <div class="column" markdown="span">![landing-customer.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/landing-customer.png)</div>
-</div>
-
 Если администратор не заполнил описание уровня, покупатель увидит страницу с результатами поиска в соответствии с выбранными фильтрами.
 
 ![14.jpg]({{site.baseurl}}/attachments/ref_4SKmwOLz/14.jpg)
