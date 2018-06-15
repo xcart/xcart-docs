@@ -117,10 +117,13 @@ published: false
 
 Если администратор не заполнил описание уровня, покупатель увидит страницу с результатами поиска в соответствии с выбранными фильтрами.
 
-![customer_filters.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/customer_filters.png)
+![14.jpg]({{site.baseurl}}/attachments/ref_4SKmwOLz/14.jpg)
 
-![filters-fontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/filters-fontend.png)
+Если зарегистрированный покупатель сохраняет выбранные автомобили, при следующем посещении магазина покупатель увидят запчасти для своих автомобилей, не выставляя фильтры для поиска.
 
-Зарегистрированные покупатели сохраняют выбранные автомобили в своей учётной записи
-
-Поэтому при следующем посещении магазина покупатели увидят запчасти для своих автомобилей, не выставляя фильтры для поиска.
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![15.jpg]({{site.baseurl}}/attachments/ref_4SKmwOLz/15.jpg)
+</div>
+  <div class="column" markdown="span">![16.jpg]({{site.baseurl}}/attachments/ref_4SKmwOLz/16.jpg)
+</div>
+</div>
