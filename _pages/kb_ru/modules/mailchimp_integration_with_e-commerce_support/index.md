@@ -7,15 +7,9 @@ title: Подключение сервиса рассылок MailChimp к он�
 order: 310
 published: false
 ---
-[MailChimp](http://www.mailchimp.com/signup/?pid=xcart&source=website) integration for X-Cart 5 is available in the form of an add-on module (“addon”) named “MailChimp Integration with Ecommerce support”. 
-It is a powerful tool that replaces X-Cart's built-in newsletter subscriptions feature and enables you to access some exciting e-commerce features like product recommendations, abandoned cart messages, purchase-based automations, and sales reports. 
-
-_In this section:_
+Сервис подключается к магазину на базе Х-Cart с помощью модуля [MailChimp Integration with Ecommerce support](https://market.x-cart.com/addons/mailchimp-integration-with-e-commerce.html "Подключение сервиса рассылок MailChimp к онлайн-магазину"). Модуль дополняет  стандартную функциональность рассылок и открывает новые возможности - рекомендации товаров, сообщения о забытых товарах, автоматические уведомления в процессе покупки и отчёты о продажах.
 
 *   {% link "Getting started with 'MailChimp Integration with E-commerce support'" ref_w5MRyybe %}
 *   {% link "Configuring the addon 'MailChimp Integration with E-commerce support'" ref_ST1QnErC %}
 *   {% link "Managing your MailChimp lists" ref_dHGZpSCX %}
 
-_See also:_
-
-*   {% link "Video: MailChimp Integration with Ecommerce-360 support in an X-Cart 5 Store" ref_XO8v2bJX %}
