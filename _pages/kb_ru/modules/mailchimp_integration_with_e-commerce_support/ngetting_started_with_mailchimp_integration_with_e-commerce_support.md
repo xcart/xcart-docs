@@ -63,11 +63,12 @@ published: false
    
 С помощью этой настройки вы получите список покупателей, привлечённых в магазин рассылкой, отследите их покупательскую активность и передадите эту информацию в **MailChimp**. В разделе **Reports** панели управления **MailChimp** появится информация о заказах, конверсии и объёму продаж. 
 
-Note that MailChimp mailing lists support segmentation based on your subscribers' purchase activity: Orders amount (Biggest Spenders/Tiny spenders), Frequency of ordering (Frequent Buyers/We Miss You), Series of purchasing (after a specific product purchase). Based on your customers' purchasing activity, MailChimp will recommend products to your newsletter recipients. Every recipient will see a set of products that are more likely to be interesting particularly to them.
+**MailChimp** классифицирует получателей рассылок по покупательской активности: по сумме заказа, частоте заказов, предпочтению товаров. **MailChimp** определяет, рассылки о каких товарах отправлять тем или иным подписчикам.
 
-With the advanced Email Automation capabilities of MailChimp, you will be able to set emails or series of emails to be sent to your customers right away as soon as they take particular actions in your store, i.e. just subscribed, abandoned cart, made a first purchase, bought any/specific product, bought product from some category.
+**MailChimp** делает автоматические рассылки или серии писем по каждому действию покупателя в магазине - регистрация, подписка на новости, забытая корзина, первая покупка, выбор товара, выбор категории и т.п.
 
-## Disconnect Integration
+## Отключение **MailChimp**
+
 Should you need to disconnect your X-Cart MailChimp integration from the currently used MailChimp account and to connect it to some other MailChimp account, or to connect it to the same MailChimp account using a different API key, use the “Reset MailChimp connection” feature:
 
    Step 1. You will need the username and password for the MailChimp account to which you will be connecting your MailChimp integration, so make sure you have them at the ready. You will also require an API key that your MailChimp integration will use to access that account on your behalf, so make sure an API key has been generated as per the instructions in the MailChimp knowledge base article [About API keys](http://kb.mailchimp.com/integrations/api-integrations/about-api-keys).
