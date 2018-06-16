@@ -23,41 +23,17 @@ published: false
 
 Если на момент подключения к **MailChimp** в магазине уже существовал список подписчиков, сформированный модулем **Newsletter subscriptions**, он не будет автоматически перенесён в **MailChimp**. Экспортируйте готовые списки из магазина и [https://mailchimp.com/help/import-subscribers-to-a-list/](https://mailchimp.com/help/import-subscribers-to-a-list/ "Установка модуля и подключение к сервису рассылок MailChimp"). 
 
-## Download and Install Integration from X-Cart Marketplace
+## Подключение магазина к сервису MailChimp
 
-If, for some reason, the MailChimp integration addon is missing from the Installed Addons section of your X-Cart store’s Admin area, you can install it as follows:
+### Регистрация в **MailChimp**
 
-Step 1. In the Installed Addons section of your X-Cart store’s Admin area, click on the link “View more addons in Marketplace”.
-![xc5_mailchimp_viewmore.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_viewmore.png)
+Для подключения магазина к сервису **MailChimp** откройте настройки модуля по ссылке в разделе магазина **Мои модули** и учётную запись **MailChimp** на соседних вкладках браузера. Так выгладит страница настроек модуля до подключения к сервису. Если у вас уже есть учётная запись **MailChimp**, переходите к настройкам ниже, если нет - [https://login.mailchimp.com/signup/](https://login.mailchimp.com/signup/ "Установка модуля и подключение к сервису рассылок MailChimp"). 
 
-You will be redirected to the Addons Marketplace.
+### Подключение магазина к **MailChimp**
 
-Step 2. In the search bar, type “mailchimp” and press “Enter” (The search is not case-sensitive). 
-![xc5_mailchimp_addons_mktplce.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_addons_mktplce.png)
+1. В учётной записи **MailChimp** настройте [https://mailchimp.com/help/about-api-keys/](https://mailchimp.com/help/about-api-keys/ "Установка модуля и подключение к сервису рассылок MailChimp"), необходимый для связи с X-Cart.
 
-After the page re-loads, you will be provided with a list of add-on modules in our Addons Marketplace that have a mention of MailChimp in their name or description. 
-
-Step 3. In the list, look for the addon name “MailChimp Integration with Ecommerce support”.
-![xc5_mailchimp_addon_name_mktplce.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_addon_name_mktplce.png)
-
-It is the addon you require. 
-
-Step 4. Select the Install checkbox near the addon name and click the Install addons button. 
-![xc5_mailchimp_install.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_install.png)
-
-The addon will be downloaded from the Addons Marketplace, installed and activated automatically. 
-![xc5_mailchimp_deploy.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_deploy.png)
-
-Once the installation process has been completed, you will be able to find the addon in the Installed Addons section of your store’s Admin area. From there you will be able to
- access the addon configuration settings page by clicking the Settings link. 
-
-## Connect Integration to Your MailChimp Account
-
-To use MailChimp with your X-Cart store, you will need to connect your MailChimp integration with your MailChimp account. If you do not yet have a MailChimp account, you can [sign up here](https://login.mailchimp.com/signup/?source=website&pid=xcart). 
-
-The connection is done using an API key, so you will need one. Instructions for how to find or generate your API key are available in the MailChimp knowledge base article [About API keys](http://kb.mailchimp.com/integrations/api-integrations/about-api-keys).
-
-Once an API key has been set up for your X-Cart store in your MailChimp account, connect your integration to MailChimp:
+2. 
 
 Step 1. Go to the “MailChimp Integration with Ecommerce support” addon settings page in your X-Cart store’s Admin area. You can do so by selecting the Settings link for the addon “MailChimp Integration with Ecommerce support” in your store’s Installed Addons section.
 ![xc5_mailchimp_settings_link.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_settings_link.png)
