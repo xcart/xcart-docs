@@ -7,17 +7,7 @@ title: Установка модуля и подключение к сервис
 order: 100
 published: false
 ---
-Getting started with MailChimp Integration:
-
-   * [Make sure integration is installed and active](#make-sure-integration-is-installed-and-active-in-your-x-cart-store) in your X-Cart store. If not, [download and install integration from X-Cart Marketplace](#download-and-install-integration-from-x-cart-marketplace).
-   
-   * [Connect integration to your MailChimp account](#connect-integration-to-your-mailchimp-account).
-
-See also:
-
-   * [Disconnect integration](#disconnect-integration)
-
-## Make sure integration is installed and active in your X-Cart store
+## Установка модуля 
 
 Users of new X-Cart installations will find the addon "MailChimp Integration with Ecommerce support" already installed and active in the Installed Addons section of their store’s Admin area. 
 
