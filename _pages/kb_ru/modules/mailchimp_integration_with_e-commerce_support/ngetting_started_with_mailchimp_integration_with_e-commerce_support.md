@@ -39,20 +39,16 @@ published: false
 - 2 способ
 Войдите в учётную запись **MailChimp** и скопируйте созданный для магазина [API кллюч](https://mailchimp.com/help/about-api-keys/ "Установка модуля и подключение к сервису рассылок MailChimp"). Внесите этот ключ в настройки модуля.
 
+После подключения магазина к **MailChimp** по ссылке **Настройки** открывается страница параметров модуля.
+
+Следующий шаг - настройка модуля (статистика, напоминания о забытых товарах, способ подписки для покупателей и т.п.).  
 
 
-       Provided that a valid API key has been used, your X-Cart MailChimp integration will be connected to your MailChimp account.
+Списки рассылок
 
-Regardless of the connection method that has been used, after a successful connection you will be able to see the “MailChimp Integration with E-commerce support” module settings page with your MailChimp API key showing in the field of the same name:
-![xc5_mailchimp_successfully_authenticated.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_successfully_authenticated.png)
+Если до подключения к X-Cart в **MailChimp** были созданы списки, они автоматически импортируются в магазин после подключения. Найдите и активируйте нужные списки в разделе **Каналы продаж / MailChimp lists**. Дополнительная информация о списках в X-Cart и в [MailChimp](https://mailchimp.com/help/lists/ "Установка модуля и подключение к сервису рассылок MailChimp"). 
 
-Should you need to change the MailChimp account or the API key used for the connection, you will be able to do so at any time using the “Reset MailChimp connection” link provided next to the MailChimp API key field (See [Disconnect Integration](#disconnect-integration) for more info).
-
-Once your integration has been connected to your MailChimp account, you should configure it. For example, you will be able to toggle the E-commerce analytics and Abandoned carts features, choose how your customers should be able to subscribe to your MailChimp lists (whether a customer should be able to choose more than one list when subscribing, whether an additional confirmation should be required after a customer opts in to subscribe, etc.) For more info, see {% link "Configuring the addon 'MailChimp Integration with E-commerce support'" ref_ST1QnErC %}
-
-If you've already had some lists and list groups configured in your MailChimp account before connecting your X-Cart store to MailChimp, you should expect to find these lists and groups imported into your X-Cart store as soon as the connection between the store and your MailChimp account has been established. To view and manage the lists imported from your account, go to the **Sales channels** > **MailChimp lists** page. At the least, you will need to visit this page and make sure that the lists to which you would like your store users to be able to subscribe are active for your store. For more info on managing lists in X-Cart, see {% link "Managing your MailChimp lists" ref_dHGZpSCX %}. If you haven't yet created any lists on the MailChimp end and need more information on this topic, see the MailChimp Knowledge Base [article on Lists](https://kb.mailchimp.com/lists). 
-
-As soon as your lists/groups are ready, your store's users will be able to subscribe to them via the subscription form on the checkout and registration pages. Registered customers will be able to change their subscriptions (add more lists/groups or unsubscribe completely) via the Account details page. You as the store administrator will also be able to edit the subscription preferences of your store users by editing the profiles of these users via your X-Cart store's Admin area. 
+Покупатели могут подписаться на рассылку на странице регистрации в магазине и оплаты покупки. Зарегистрированные покупатели могут подписаться на дополнительные рассылки или отказаться от рассылок в настройках учётной записи. Администратор также может изменять подписки покупателей в настройках учётных записей покупателей в панели управления. 
 
 After setting up your lists in MailChimp, you will be able to create and send [Campaigns](http://kb.mailchimp.com/campaigns).
 
