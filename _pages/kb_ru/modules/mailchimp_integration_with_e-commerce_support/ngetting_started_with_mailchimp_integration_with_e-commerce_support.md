@@ -9,7 +9,9 @@ published: false
 ---
 ## Установка модуля 
 
-Users of new X-Cart installations will find the addon "MailChimp Integration with Ecommerce support" already installed and active in the Installed Addons section of their store’s Admin area. 
+[https://market.x-cart.com/addons/mailchimp-integration-with-e-commerce.html](https://market.x-cart.com/addons/mailchimp-integration-with-e-commerce.html "Установка модуля и подключение к сервису рассылок MailChimp") - бесплатный модуль. Он установлен и активирован по умолчанию. Найдите модуль и ссылку на его настройки в разделе **Мои модули**.
+
+Чтобы подключить магазин к сервису MailChimp, активируйте модуль
 
 You can check whether you have the MailChimp integration add-on module in your X-Cart 5 based store as follows:
 
