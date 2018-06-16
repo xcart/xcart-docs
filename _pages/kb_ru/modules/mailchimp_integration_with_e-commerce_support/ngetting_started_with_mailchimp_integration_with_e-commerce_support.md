@@ -21,7 +21,7 @@ published: false
 
 Если активирован и модуль **MailChimp**, списки подписчиков больше не сохраняются в панели управления магазина. Управление списками и группами подписчиков происходит в учётной записи **MailChimp**.
 
-Если на момент подключения к **MailChimp** в магазине уже существовал список подписчиков, сформированный модулем **Newsletter subscriptions**, он не будет автоматически перенесён в **MailChimp**. Экспортируйте готовые списки из магазина и импортируйте в **MailChimp**. 
+Если на момент подключения к **MailChimp** в магазине уже существовал список подписчиков, сформированный модулем **Newsletter subscriptions**, он не будет автоматически перенесён в **MailChimp**. Экспортируйте готовые списки из магазина и [https://mailchimp.com/help/import-subscribers-to-a-list/](https://mailchimp.com/help/import-subscribers-to-a-list/ "Установка модуля и подключение к сервису рассылок MailChimp"). 
 
 ## Download and Install Integration from X-Cart Marketplace
 
