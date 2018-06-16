@@ -61,7 +61,7 @@ published: false
    1.  На странице **Campaigns** в панели управления **MailChimp** нажмите на название акции. Внизу страницы нажмите **Edit** рядом с названием секции **Settings & Tracking**.
    2.  Отметьте опцию  **E-commerce link tracking** и нажмите **Save**. 
    
-This way you will be able to track individual visitors of your website attracted by your MailChimp campaigns, capture customers purchasing activity, and pass it all back to MailChimp. You will be able to view purchase details, conversions, and total sales on the Reports page in your MailChimp account. 
+С помощью этой настройки вы получите список покупателей, привлечённых в магазин рассылкой, отследите их покупательскую активность и передадите эту информацию в **MailChimp**. В разделе **Reports** панели управления **MailChimp** появится информация о заказах, конверсии и объёму продаж. 
 
 Note that MailChimp mailing lists support segmentation based on your subscribers' purchase activity: Orders amount (Biggest Spenders/Tiny spenders), Frequency of ordering (Frequent Buyers/We Miss You), Series of purchasing (after a specific product purchase). Based on your customers' purchasing activity, MailChimp will recommend products to your newsletter recipients. Every recipient will see a set of products that are more likely to be interesting particularly to them.
 
