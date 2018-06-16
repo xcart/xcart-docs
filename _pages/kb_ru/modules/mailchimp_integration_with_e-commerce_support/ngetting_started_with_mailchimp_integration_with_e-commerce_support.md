@@ -56,13 +56,10 @@ published: false
 
 В панели управления **MailChimp** нажмите **Campaigns** и **Create campaign**. Из перечисленных видов акций -  email-рассылка, рекламное объявление или рекламная страница - выберите **рассылку**. Придумайте название акции и нажмите **Begin**. 
 
-After setting up your lists in MailChimp, you will be able to create and send [Campaigns](http://kb.mailchimp.com/campaigns).
+Чтобы видеть продажи по результатам акции, настройте отслеживание переходов по ссылкам из рассылки:
 
-To make the most of MailChimp's e-commerce features, be sure to enable e-commerce link tracking when configuring your campaigns or automations to track purchases. 
-To turn on e-commerce link tracking for a campaign, follow these steps:
-
-   1.  Navigate to the Setup step of the Campaign Builder.
-   2.  In the Tracking section, check the box next to E-commerce link tracking. 
+   1.  На странице **Campaigns** в панели управления **MailChimp** нажмите на название акции. Внизу страницы нажмите **Edit** рядом с названием секции **Settings & Tracking**.
+   2.  Отметьте опцию  **E-commerce link tracking** и нажмите **Save**. 
    
 This way you will be able to track individual visitors of your website attracted by your MailChimp campaigns, capture customers purchasing activity, and pass it all back to MailChimp. You will be able to view purchase details, conversions, and total sales on the Reports page in your MailChimp account. 
 
