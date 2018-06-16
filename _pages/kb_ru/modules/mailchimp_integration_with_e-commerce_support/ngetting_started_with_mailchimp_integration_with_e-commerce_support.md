@@ -9,7 +9,7 @@ published: false
 ---
 ## Установка модуля 
 
-[https://market.x-cart.com/addons/mailchimp-integration-with-e-commerce.html](https://market.x-cart.com/addons/mailchimp-integration-with-e-commerce.html "Установка модуля и подключение к сервису рассылок MailChimp") - бесплатный модуль. Он установлен и активирован по умолчанию. Найдите модуль и ссылку на его настройки в разделе **Мои модули**.
+[MailChimp](https://market.x-cart.com/addons/mailchimp-integration-with-e-commerce.html "Установка модуля и подключение к сервису рассылок MailChimp") - бесплатный модуль. Он установлен и активирован по умолчанию. Найдите модуль и ссылку на его настройки в разделе **Мои модули**.
 
 Чтобы подключить магазин к сервису **MailChimp**, активируйте модуль.
 
@@ -21,42 +21,25 @@ published: false
 
 Если активирован и модуль **MailChimp**, списки подписчиков больше не сохраняются в панели управления магазина. Управление списками и группами подписчиков происходит в учётной записи **MailChimp**.
 
-Если на момент подключения к **MailChimp** в магазине уже существовал список подписчиков, сформированный модулем **Newsletter subscriptions**, он не будет автоматически перенесён в **MailChimp**. Экспортируйте готовые списки из магазина и [https://mailchimp.com/help/import-subscribers-to-a-list/](https://mailchimp.com/help/import-subscribers-to-a-list/ "Установка модуля и подключение к сервису рассылок MailChimp"). 
+Если на момент подключения к **MailChimp** в магазине уже существовал список подписчиков, сформированный модулем **Newsletter subscriptions**, он не будет автоматически перенесён в **MailChimp**. Экспортируйте готовые списки из магазина и [импортируйте в MailChimp](https://mailchimp.com/help/import-subscribers-to-a-list/ "Установка модуля и подключение к сервису рассылок MailChimp"). 
 
 ## Подключение магазина к сервису MailChimp
 
 ### Регистрация в **MailChimp**
 
-Для подключения магазина к сервису **MailChimp** откройте настройки модуля по ссылке в разделе магазина **Мои модули** и учётную запись **MailChimp** на соседних вкладках браузера. Так выгладит страница настроек модуля до подключения к сервису. Если у вас уже есть учётная запись **MailChimp**, переходите к настройкам ниже, если нет - [https://login.mailchimp.com/signup/](https://login.mailchimp.com/signup/ "Установка модуля и подключение к сервису рассылок MailChimp"). 
+Для подключения магазина к сервису **MailChimp** откройте настройки модуля по ссылке в разделе магазина **Мои модули** и учётную запись **MailChimp** на соседних вкладках браузера. Так выгладит страница настроек модуля до подключения к сервису. Если у вас уже есть учётная запись **MailChimp**, переходите к настройкам ниже, если нет - [ззарегистрируйтесь](https://login.mailchimp.com/signup/ "Установка модуля и подключение к сервису рассылок MailChimp"). 
 
 ### Подключение магазина к **MailChimp**
 
-- В учётной записи **MailChimp** настройте [https://mailchimp.com/help/about-api-keys/](https://mailchimp.com/help/about-api-keys/ "Установка модуля и подключение к сервису рассылок MailChimp"), необходимый для связи с X-Cart.
+- В учётной записи **MailChimp** настройте [API кллюч](https://mailchimp.com/help/about-api-keys/ "Установка модуля и подключение к сервису рассылок MailChimp"), необходимый для связи с X-Cart.
 
 - 1 способ
 В настройках модуля в магазине нажмите **Подключить аккаунт MailChimp**, [https://login.mailchimp.com/](https://login.mailchimp.com/ "Установка модуля и подключение к сервису рассылок MailChimp").  
 
-Step 1. Go to the “MailChimp Integration with Ecommerce support” addon settings page in your X-Cart store’s Admin area. You can do so by selecting the Settings link for the addon “MailChimp Integration with Ecommerce support” in your store’s Installed Addons section.
-![xc5_mailchimp_settings_link.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_settings_link.png)
+- 2 способ
+Войдите в учётную запись **MailChimp** и скопируйте созданный для магазина [API кллюч](https://mailchimp.com/help/about-api-keys/ "Установка модуля и подключение к сервису рассылок MailChimp"). Внесите этот ключ в настройки модуля.
 
-Before you have connected the integration to your MailChimp account, the addon settings page provides a form for connecting:
-![xc5_mailchimp_connecting.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connecting.png)
 
-Step 2. Use one of the following methods to connect to MailChimp:
-
-   * Method 1
-       Step 1. Click on the link “Connect with your MailChimp account”. 
-       ![xc5_mailchimp_connecting1.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connecting1.png)
-
-       Step 2. On the MailChimp authorization page, enter your MailChimp login and password and click **Log In**.
-       ![xc5_mailchimp_connect2account.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connect2account.png)
-
-       Provided that the authorization goes successfully, your X-Cart MailChimp integration will be connected to your MailChimp account.
-            
-   * Method 2
-       Step 1. In your MailChimp account, copy the API key you have set up for your X-Cart store.
-       Step 2. On the MailChimp Integration addon settings page in your X-Cart store, paste the API key into the field that says “Enter your MailChimp API key manually” and press Enter.
-       ![xc5_mailchimp_connecting2.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connecting2.png)
 
        Provided that a valid API key has been used, your X-Cart MailChimp integration will be connected to your MailChimp account.
 
