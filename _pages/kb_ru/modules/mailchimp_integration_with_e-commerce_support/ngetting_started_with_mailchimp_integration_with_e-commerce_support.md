@@ -34,7 +34,7 @@ published: false
 - В учётной записи **MailChimp** настройте [https://mailchimp.com/help/about-api-keys/](https://mailchimp.com/help/about-api-keys/ "Установка модуля и подключение к сервису рассылок MailChimp"), необходимый для связи с X-Cart.
 
 - 1 способ
-В настройках модуля в магазине нажмите **Подключить аккаунт MailChimp**, авторизуйтесь в **MailChimp**.  
+В настройках модуля в магазине нажмите **Подключить аккаунт MailChimp**, [https://login.mailchimp.com/](https://login.mailchimp.com/ "Установка модуля и подключение к сервису рассылок MailChimp").  
 
 Step 1. Go to the “MailChimp Integration with Ecommerce support” addon settings page in your X-Cart store’s Admin area. You can do so by selecting the Settings link for the addon “MailChimp Integration with Ecommerce support” in your store’s Installed Addons section.
 ![xc5_mailchimp_settings_link.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_settings_link.png)
