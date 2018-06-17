@@ -113,7 +113,7 @@ For example, you need to increase the price of variant SKUs 100001 and 100003 so
 Here's how you can do it:
 
 1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
-    ![]({{site.baseurl}}/attachments/9306814/9439225.png)
+    ![xc5_import_exportproducts.png]({{site.baseurl}}/attachments/ref_OEpBdtQ6/xc5_import_exportproducts.png)
     
 2.  Download the resulting export file and import it into your favorite spreadsheet editor.
 
