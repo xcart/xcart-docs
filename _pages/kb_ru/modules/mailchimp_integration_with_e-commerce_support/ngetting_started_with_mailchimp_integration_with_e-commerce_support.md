@@ -85,12 +85,7 @@ published: false
 
    В панели управления магазина откройте раздел Мои модули и найдите модуль **MailChimp**.
 
+   Чтобы **отключить** модуль, установите значение переключателя **ОТКЛ** и нажмите **Сохранить**.
    
+   Чтобы **удалить** модуль, нажмите на **значок корзины**.
    
-Your X-Cart installation will take a few moments to deactivate / uninstall the addon and re-deploy your store. 
-
-Once the process has been completed, MailChimp will no longer be used to handle newsletter subscriptions for your store.
-
-_Related pages:_
-
-* {% link "Configuring the addon 'MailChimp Integration with E-commerce support'" ref_ST1QnErC %}
