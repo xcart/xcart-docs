@@ -85,15 +85,19 @@ XL - $9.99. 
 This can be easily achieved using the export-import feature. To set the prices we require, we'll simply adjust the price modifiers:
 
 1.  In the "Export in CSV" section of your store's back end (**Catalog** > **Export**), choose to export Product attribute values:
-    ![]({{site.baseurl}}/attachments/9306814/9439230.png)
+    ![xc5_import_exportprodattrvalues.png]({{site.baseurl}}/attachments/ref_OEpBdtQ6/xc5_import_exportprodattrvalues.png)
+
 2.  Download the resulting export file and import it into your favorite spreadsheet editor. 
+
 3.  Edit the file removing the columns whose contents will not need to be updated. Care not to remove the required columns. According to the section {% link "CSV import: Product attribute values" ref_Z7XdREZl %} of this manual, the required columns for the import of product attribute values are **productSKU**, **type**, **name**, and **value**. Keep those columns - and the column **priceModifier** (You will need it to update the price modifiers). Now if you look at the lines pertaining to SKU 10001, you should see something like the following:
     ![]({{site.baseurl}}/attachments/9306814/9439231.png)
+    
 4.  Adjust the values in the **priceModifier** column:
     *   Add the price modifier "-2" for the sizing option S ($9.99 - 2 = $7.99)
     *   Add the price modifier "-1" for the sizing option M ($9.99 - 1 = $8.99).
     *   Make sure the price modifier value for the sizing option L is NULL (= $9.99).
     *   Remove the price modifier "+2" for the sizing option XL so the price modifier value for XL is also NULL (= $9.99).![]({{site.baseurl}}/attachments/9306814/9439232.png)
+    
 5.  Save the file and re-import it into your store via the "Import by CSV" section in your store's back end  (**Catalog** > **Import**). 
 
 After the import process is completed, you should be able to see the updated prices.
@@ -110,14 +114,18 @@ Here's how you can do it:
 
 1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
     ![]({{site.baseurl}}/attachments/9306814/9439225.png)
+    
 2.  Download the resulting export file and import it into your favorite spreadsheet editor.
+
 3.  Edit the file removing the columns whose contents will not need to be updated. Care not to remove the required columns. According to the section {% link "CSV import: Products" ref_WmJBfwxA %} of this manual, the required columns for the import of products are **sku** and **name**; you will need to keep those columns. Because we are dealing not just with simple products, but with product variants, you will also need to keep the column **variantSKU** - the values in this column are necessary to identify the specific variants. As we are going to update the prices and quantities for variants, you should also keep the columns **variantPrice** and **variantQuantity**. Now if you look at the lines presenting the details of the variants of "Binary Mom", you should have something like the following:
     ![]({{site.baseurl}}/attachments/9306814/9439234.png)
+
 4.  Adjust the values in the file:
 
     *   For variant SKUs 100001 and 100003, add "19.99" in the **variantPrice** column.
     *   For variant SKU 100002, change the stock quantity to "2".As a result, your file contents should look like the following:
     ![]({{site.baseurl}}/attachments/9306814/9439235.png)
+
 5.  Save the file and re-import it into your store via the "Import by CSV" section in your store's back end  (**Catalog** > **Import**). 
 
 After the import process is completed, you should be able to see the updated prices and stock quantity for the product variants.
@@ -139,9 +147,12 @@ We are going to achieve the same result without editing the Wholesale pricing se
 
 1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
     ![]({{site.baseurl}}/attachments/9306814/9439225.png)
+
 2.  Download the resulting export file and import it into your favorite spreadsheet editor. 
+
 3.  Edit the file removing the columns whose contents will not need to be updated. As you can find out from the section {% link "CSV import: Products" ref_WmJBfwxA %} of this manual, the columns required for the import of products with wholesale prices are **sku** and **name** (required for products) + **wholesalePrices** and **variantWholesalePrices** (the fields added by the module Wholesale). So, keep those columns in your file. It may also be a good idea to keep the columns **price** and **stockLevel** - just so you have information about the product's base price and quantity in stock close at hand. The rest of the columns can be safely removed. Now if you look at the line of SKU 10001, you should see something like the following:
     ![]({{site.baseurl}}/attachments/9306814/9633886.png)
+
 4.  Now add the wholesale price tiers you require. In our example, SKU 10001 "Planet Express Babydoll" is a simple product without variants, which means we need to add our wholesale prices in the **wholesalePrices** column. The format to write out wholesale price tiers in your file is as follows:
     **N1**(**Membership1**)=**Price1**&&**N2**(**Membership2**)=**Price2**,
     where: 
@@ -164,9 +175,13 @@ For products with variants, the process of adding wholesale prices is similar, o
 ## Removing the existing images of a product
 
 1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products.
+
 2.  Download the resulting export file and import it into your favorite spreadsheet editor.
+
 3.  Edit the file removing the columns whose contents will not need to be updated. Care not to remove the required columns. According to the section {% link "CSV import: Products" ref_WmJBfwxA %} of this manual, the required columns for the import of products are **sku** and **name**; you will need to keep those columns. If you need to remove the images not just for simple products, but for product variants, you will also need to keep the column **variantSKU** - the values in this column are needed to identify the specific variants. As you are going to update the images of products/product variants, you should also keep the columns **images** (for simple products) and **variantImage** (for variants).
+
 4.  For the products/product variants that need to have their images removed, replace the image URL/filepath with the word "NULL" (in capitalized case).
+
 5.  Save the file and re-import it into your store via the "Import by CSV" section in your store's back end  (**Catalog** > **Import**). 
 
 After the import process is completed, you should be able to see that the product or variant images for which you have specified the path as "NULL" have been removed.
