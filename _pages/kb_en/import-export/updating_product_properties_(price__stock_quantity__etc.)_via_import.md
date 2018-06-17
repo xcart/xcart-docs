@@ -82,7 +82,7 @@ L - $9.99,
 
 XL - $9.99. 
 
-This can be easily achieved using the export-import feature. To achieve the prices we require, we'll simply adjust the price modifiers:
+This can be easily achieved using the export-import feature. To set the prices we require, we'll simply adjust the price modifiers:
 
 1.  In the "Export in CSV" section of your store's back end (**Catalog** > **Export**), choose to export Product attribute values:
     ![]({{site.baseurl}}/attachments/9306814/9439230.png)
