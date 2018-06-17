@@ -51,7 +51,7 @@ For instance, you have a product SKU 10001 "Planet Express Babydoll" for which y
 The process is pretty straightforward:
 
 1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
-    ![]({{site.baseurl}}/attachments/9306814/9439225.png)
+    ![xc5_import_exportproducts.png]({{site.baseurl}}/attachments/ref_OEpBdtQ6/xc5_import_exportproducts.png)
     
 2.  Download the resulting export file and import it into your favorite spreadsheet editor so you can view the file contents separated nicely into columns. For the sake of example, we'll do it with Google Sheets on Google Docs.
 
