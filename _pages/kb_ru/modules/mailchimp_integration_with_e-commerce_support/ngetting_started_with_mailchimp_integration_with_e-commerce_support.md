@@ -26,6 +26,14 @@ published: false
 
 Если активирован только модуль **Newsletter subscriptions**, адреса, введённые в этой форме, вносятся в списки подписчиков в разделе **Каналы продаж / Рассылка** в панели управления магазина.
 
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![3.jpg]({{site.baseurl}}/attachments/ref_6sRMggED/3.jpg)
+
+</div>
+  <div class="column" markdown="span">![4.jpg]({{site.baseurl}}/attachments/ref_6sRMggED/4.jpg)
+</div>
+</div>
+
 Если активирован и модуль **MailChimp**, списки подписчиков больше не сохраняются в панели управления магазина. Управление списками и группами подписчиков происходит в учётной записи **MailChimp**.
 
 Если на момент подключения к **MailChimp** в магазине уже существовал список подписчиков, сформированный модулем **Newsletter subscriptions**, он не будет автоматически перенесён в **MailChimp**. Экспортируйте готовые списки из магазина и [импортируйте в MailChimp](https://mailchimp.com/help/import-subscribers-to-a-list/ "Установка модуля и подключение к сервису рассылок MailChimp"). 
