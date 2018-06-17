@@ -69,17 +69,15 @@ published: false
 
 ## Отключение **MailChimp**
 
-Should you need to disconnect your X-Cart MailChimp integration from the currently used MailChimp account and to connect it to some other MailChimp account, or to connect it to the same MailChimp account using a different API key, use the “Reset MailChimp connection” feature:
+Отключение от **MailChimp** осуществляется для того, чтобы подключить магазин к другой учётной записи **MailChimp** или подключить магазин к той же учётной записи **MailChimp** с новым API ключом:
 
-   Step 1. You will need the username and password for the MailChimp account to which you will be connecting your MailChimp integration, so make sure you have them at the ready. You will also require an API key that your MailChimp integration will use to access that account on your behalf, so make sure an API key has been generated as per the instructions in the MailChimp knowledge base article [About API keys](http://kb.mailchimp.com/integrations/api-integrations/about-api-keys).
+   1. Зарегистрируйте новую учётную запись **MailChimp** и создайте в ней [API кллюч](https://mailchimp.com/help/about-api-keys/ "Установка модуля и подключение к сервису рассылок MailChimp") для вязи с магазином.
 
-   Step 2. On the MailChimp Integration addon settings page in your X-Cart store, click on the “Reset MailChimp connection” link to the right of the MailChimp API key field.
-![xc5_mailchimp_reset_connection.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_reset_connection.png)
+   2. В настройках модуля в магазине нажмите **Переподключить аккаунт MailChimp**. 
+   
+   3. Введите логин и пароль новой учётной записи **MailChimp**, к который подключаете магазин.
 
-   Step 3. On the page that opens, enter the username and password for the MailChimp account to which the integration needs to be connected and choose to log in.
-![xc5_mailchimp_connect2account.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connect2account.png)
-
-   Once you have been successfully authenticated, the integration will be disconnected from the current MailChimp account and connected to the account that has been specified.
+   Магазин отключён от предыдущего и подключён к новому логину **MailChimp**.
 
 If you wish to stop using X-Cart’s MailChimp integration, you can either deactivate or uninstall the addon in your X-Cart store. Deactivation stops the addon from operation, but it does not remove the settings you made to the addon configuration nor clear any data that was generated or collected during the period that the addon was in operation. If you wish to completely remove all the data related to using the addon, you need to uninstall it.
 
