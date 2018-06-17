@@ -79,19 +79,13 @@ published: false
 
    Магазин отключён от предыдущего и подключён к новому логину **MailChimp**.
 
-If you wish to stop using X-Cart’s MailChimp integration, you can either deactivate or uninstall the addon in your X-Cart store. Deactivation stops the addon from operation, but it does not remove the settings you made to the addon configuration nor clear any data that was generated or collected during the period that the addon was in operation. If you wish to completely remove all the data related to using the addon, you need to uninstall it.
+Чтобы полностью остановить работу **MailChimp**, отключите модуль **MailChimp** в разделе **Мои модули** в магазине. Рассылки через **MailChimp** перестанут работать, но настройки модуля и накопленная во время работы модуля информация сохранятся. Полное удаление всей информации возможно только путём удаления модуля.
 
-To deactivate or uninstall the MailChimp integration addon:
+Отключение и удаление модуля 
 
-   Step 1. Log in to your X-Cart store’s Admin area.
+   В панели управления магазина откройте раздел Мои модули и найдите модуль **MailChimp**.
+
    
-   Step 2. Click the **My addons** menu item on the Admin menu to access your store’s Installed Addons section. 
-
-   Step 3. In the list of your installed addons, find the one named  “MailChimp Integration with Ecommerce support” and choose the desired action:
-To deactivate the addon, set the ON/OFF switch to the “OFF” position.
-To uninstall the addon, click on the Trash icon.
-
-   Step 4. Click **Save changes**.
    
 Your X-Cart installation will take a few moments to deactivate / uninstall the addon and re-deploy your store. 
 
