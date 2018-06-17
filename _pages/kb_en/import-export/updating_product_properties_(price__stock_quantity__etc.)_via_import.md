@@ -11,7 +11,7 @@ published: true
 order: 130
 ---
 
-Import is a powerful feature, and it allows you not only to create new items, but also to update the existing items in your store. This can be used to update the properties of the items in the store's catalog, including - but not limited to - prices and product quantities.
+Import is a powerful feature, and it allows you not only to create new items, but to update the existing items in your store as well. This can be used to update the properties of the items in the store's catalog, including - but not limited to - prices and product quantities. The idea is to export some existing information from your store to a CSV file, make changes to this information by editing the file in a spreadsheet editor, save the edited version of the file and re-import it into your store so the updated information from the file replaces the existing information in your store. 
 
 As some of you may already know, we have a module named {% link "Update inventory" ref_uSIvmuTh %} that can be used to update product quantities via the import process. We have been asked more than once to extend the functionality of that module so it can be used to update product prices as well. We, however, have made a conscious choice not to implement this feature in the module because, with the release of X-Cart 5.2.13, this module is no longer necessary: now you can achieve just the same (and more!) using X-Cart's core functionality. In X-Cart 5.2.13, we implemented the ability to properly update any existing items in your store, and you have two import modes to choose from:
 
@@ -52,12 +52,16 @@ The process is pretty straightforward:
 
 1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
     ![]({{site.baseurl}}/attachments/9306814/9439225.png)
+    
 2.  Download the resulting export file and import it into your favorite spreadsheet editor so you can view the file contents separated nicely into columns. For the sake of example, we'll do it with Google Sheets on Google Docs.
+
 3.  The file you get has a lot of columns, so it is a good idea to remove the columns whose contents will not need to be updated - to make the file more manageable. Care not to remove the required columns. To find out which columns are required for your file check the section {% link "CSV import: Products" ref_WmJBfwxA %} of this manual. In the table describing the data format for the import of products, you can see that there are only two required fields (they are marked with asterisks): **sku** and **name**. So you will need to keep these two columns. The price that needs to be updated can be found in the column **price**, and the product quantity - in the column **stockLevel**. So, these columns will also have to be kept. Basically, you can safely remove all the columns except for **sku**, **name**, **price** and **stockLevel**. After you do so, your spreadsheet should look something like the following:
     ![]({{site.baseurl}}/attachments/9306814/9439208.png)
     (On the screenshot above, the column **name** has the name **name_en** because it contains values for the English language; for other languages the column name will have a different language code appended).
+    
 4.  On the lines of the SKUs for which you need to update the price and the stock quantity, edit the contents of the **price** and **stockLevel** fields as you require. 
     ![]({{site.baseurl}}/attachments/9306814/9439209.png)
+    
 5.  Save the file and re-import it into your store via the "Import by CSV" section in your store's back end  (**Catalog** > **Import**). 
 
 After the import process is completed, you should be able to see the updated product information in the details of the respective products.
