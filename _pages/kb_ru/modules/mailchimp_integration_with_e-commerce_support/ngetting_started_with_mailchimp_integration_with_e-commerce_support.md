@@ -15,12 +15,7 @@ published: false
 
 Для настройки рассылок понадобится и стандартный модуль рассылок **Newsletter subscriptions**.
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![1.jpg]({{site.baseurl}}/attachments/ref_6sRMggED/1.jpg)
-</div>
-  <div class="column" markdown="span">![2.jpg]({{site.baseurl}}/attachments/ref_6sRMggED/2.jpg)
-</div>
-</div>
+![7.jpg]({{site.baseurl}}/attachments/ref_6sRMggED/7.jpg)
 
 Модуль **Newsletter subscriptions** отвечает за блок **Подписаться на новости**, где покупатели подписываются на новостную рассылку магазина.
 
@@ -44,7 +39,11 @@ published: false
 
 ### Регистрация в **MailChimp**
 
-Для подключения магазина к сервису **MailChimp** откройте настройки модуля по ссылке в разделе магазина **Мои модули** и учётную запись **MailChimp** на соседних вкладках браузера. Так выгладит страница настроек модуля до подключения к сервису. Если у вас уже есть учётная запись **MailChimp**, переходите к настройкам ниже, если нет - [ззарегистрируйтесь](https://login.mailchimp.com/signup/ "Установка модуля и подключение к сервису рассылок MailChimp"). 
+Для подключения магазина к сервису **MailChimp** откройте настройки модуля по ссылке в разделе магазина **Мои модули** и учётную запись **MailChimp** на соседних вкладках браузера. Так выгладит страница настроек модуля до подключения к сервису
+
+![6.jpg]({{site.baseurl}}/attachments/ref_6sRMggED/6.jpg)
+
+Если у вас уже есть учётная запись **MailChimp**, переходите к настройкам ниже, если нет - [зарегистрируйтесь](https://login.mailchimp.com/signup/ "Установка модуля и подключение к сервису рассылок MailChimp"). 
 
 ### Подключение магазина к **MailChimp**
 
