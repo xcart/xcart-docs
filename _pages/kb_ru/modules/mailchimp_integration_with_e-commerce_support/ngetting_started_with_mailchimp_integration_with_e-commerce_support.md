@@ -36,9 +36,9 @@ published: false
 
 Если активирован и модуль **MailChimp**, списки подписчиков больше не сохраняются в панели управления магазина. Управление списками и группами подписчиков происходит в учётной записи **MailChimp**.
 
-![5.jpg]({{site.baseurl}}/attachments/ref_6sRMggED/5.jpg)
-
 Если на момент подключения к **MailChimp** в магазине уже существовал список подписчиков, сформированный модулем **Newsletter subscriptions**, он не будет автоматически перенесён в **MailChimp**. Экспортируйте готовые списки из магазина и [импортируйте в MailChimp](https://mailchimp.com/help/import-subscribers-to-a-list/ "Установка модуля и подключение к сервису рассылок MailChimp"). 
+
+![5.jpg]({{site.baseurl}}/attachments/ref_6sRMggED/5.jpg)
 
 ## Подключение магазина к сервису MailChimp
 
