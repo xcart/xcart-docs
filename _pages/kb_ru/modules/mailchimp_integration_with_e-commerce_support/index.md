@@ -9,6 +9,6 @@ published: true
 ---
 Сервис подключается к магазину на базе Х-Cart с помощью модуля [MailChimp Integration with Ecommerce support](https://market.x-cart.com/addons/mailchimp-integration-with-e-commerce.html "Подключение сервиса рассылок MailChimp к онлайн-магазину"). Модуль дополняет  стандартную функциональность рассылок и открывает новые возможности - рекомендации товаров, сообщения о забытых товарах, автоматические уведомления в процессе покупки и отчёты о продажах.
 
-*   {% link "Установка модуля и подключение к сервису рассылок MailChimp" Установка модуля и подключение к сервису рассылок MailChimp %}
+*   {% link "Установка модуля и подключение к сервису рассылок MailChimp" ref_5M7eFcuG %}
 *   {% link "Configuring the addon 'MailChimp Integration with E-commerce support'" ref_ST1QnErC %}
 *   {% link "Managing your MailChimp lists" ref_dHGZpSCX %}
