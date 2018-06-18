@@ -7,7 +7,7 @@ title: Модуль Multi-vendor
 order: 130
 published: true
 ---
-*   {% link "X-Cart Мультивендор: интерфейс Администратора" ref_6kbIUy5R %}
+*   X-Cart Мультивендор: интерфейс Администратора
     *   {% link "Функции Администратора" ref_4wtRFm5x %}
     *   {% link "Настройка модуля Multi-vendor" ref_3fL15c4m %}
     *   {% link "Managing vendor access permissions" ref_0GOeWpB2 %}
