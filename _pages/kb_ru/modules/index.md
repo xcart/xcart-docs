@@ -26,3 +26,4 @@ icon: puzzle
 *   {% link "Неоплаченные заказы (Not Finished Orders)" ref_08L2zVtq %}
 *   {% link "Программа лояльности (Loyalty Program)" ref_6DRAWYp4 %}
 *   {% link "Марка / Модель / Год (Make/Model/Year)" ref_4SKmwOLz %}
+*   {% link "Подключение сервиса рассылок MailChimp к онлайн-магазину" ref_2dnxqcA0 %}
