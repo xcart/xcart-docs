@@ -65,22 +65,21 @@ published: false
     
    *   **Требовать загрузить инвойс при запросе на выплату средств** - Администратор может потребовать от продавца счёт на оплату для оформления выплаты. Если эта настройка включена, продавец не сможет запросить выплату без предоставления счёта. Счёт будет прикреплён к уведомлению по электронной почте **Запрос от продавца на выплату средств**, отправляемому на адрес, указанный в поле **Высылать запрос на выплату средств на e-mail**.
     
-   *   **Использование продавцом глобальных атрибутов** - Настройка определяет, разрешено или нет продавцам добавлять новые значения атрибутов (глобальных и в классах товаров), созданных админстратором и другими продавцами. Возможные варианты - Может использовать только уже существующие значения и Может использовать существующие значения и создавать новые.
+   *   **Использование продавцом глобальных атрибутов** - Настройка определяет, разрешено или нет продавцам добавлять новые значения атрибутов (глобальных и в классах товаров), созданных админстратором и другими продавцами. Возможные варианты - **Может использовать только уже существующие значения** и **Может использовать существующие значения и создавать новые**.
 
-   *   **Show vendor list in product filter**: This option applies only for stores using the "Product Filter" module. Enable this option if you want your store's visitors to be able to filter products by vendor. With this option enabled, your store's product filter will allow users to select the vendor whose products they wish to view. Note that filtering by vendor will be available only in categories that list products of more than one vendor. If you do not want to allow filtering by vendor, make sure this option is disabled.
+   *   **Отображать список вендоров в фильтре товаров** - Настройка действует только при включённом модуле **Фильтры свойств товаров** (**Product Filter**). Если опция включена, в фильтрах для поиска товаров появится фильтр по названию магазина продавца, и покупатели смогу получить список товаров конкретного продавца. Поиск по продавцу работает только в категориях, содержащих товары нескольких продавцов.
    
-   *   **Show vendor list in sidebar**: Specify whether you want your store's visitors to see the list of your store's vendors in the sidebar area of the store site.
+   *   **Отображать список продавцов в боковой панели** - Если настройка включена, в боковой панели витрины магазина появится список продавцов, предлагающих свои товары на торговой площадке.
     
-   *   **Show vendor rating**: (Reviews module required) Enable this if you want ratings and reviews to be shown for vendors.
+   *   **Отображать оценки продавца** - Эта настройка действует только при включённом модуле **Отзывы о товарах (Product Reviews)**.
     
-   *   **Allow vendors to approve, reject and edit product ratings and reviews**: Enable this to allow vendors to handle product ratings and reviews for their products.
+   *   **Разрешить продавцам одобрять, отклонять и редактировать оценки и отзывы о товарах** - Настройка позволяет продавцам редактировать оценки и отзывы покупателей об их товарах.
    
-   *   **Allow vendors to reply to product ratings and reviews**: Enable this to allow vendors to reply to ratings and reviews for their products.
+   *   **Разрешить вендорам отвечать на оценки и отзывы о товарах** - Настройка позволяет продавцам отвечать на отзывы покупателей и комментировать оценки товаров.
     
-   *   **Role to assign to new vendor users**: Specify the role you want to be assigned to new vendor users after the creation of their profile/approval of their vendor application by admin. (Note: Besides the default "Vendor" role that is present in your store from the moment you install and activate the Multi-vendor module, you can set up more roles for users that will be acting as vendors in your store. The setting "Role to assign to new vendor users" allows you to specify the role that should be assigned to users with access level "Vendor" when such users are created.)
+   *   **Роль, назначаемая новым продавцам по умолчанию** - Набор прав, доступный новому пользователю после создания учётной записи продавца администратором или после подтверждения администратором запроса на регистрацию в качестве продавца. После установки модуля **Multi-vendor** доступна только одна роль - **Продавец**. Администратор может создать дополнительные роли (наборы прав на управление) для пользователей, которые будут действовать в качестве продавцов. Настройка устанавливает набор прав для пользователей с уровнем доступа **Продавец**.
 
-   *   **Base vendor rating on**: Specify whether vendor rating should be based on detailed categorized rating or product rating.
+   *   **Тип оценки продавца** - Подробный отзыв или оценки товаров.
     
-   *   **Vendor onboarding welcome message**: Use this field to adjust the onboarding message for your vendors. The message will be displayed on the vendor's dashboard after they log in to their account.
+   *   **Ознакомительное сообщение для нового продавца** - Приветственное сообщение, которое увидят новые продавцы при первом входе в учётную запись в магазине.
 
-3.  Click **Submit** to save the changes.
