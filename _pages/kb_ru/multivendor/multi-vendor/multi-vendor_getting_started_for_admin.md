@@ -58,12 +58,15 @@ published: false
 
 ## Настройка прав доступа для пользователей
 
-Администратор распределяет права на управление разделами магазина, чтобы все сотрудники, включая продавцов, выполняли свою часть работы. Набор прав для сотрудника определяется в разделе **Пользователи / Роли**. С установкой и активацией модуля **Multivendor** в списке стандартных ролей появляется _Продавец_. Администратор может изменить название и набор прав роли, и создать новые связанные с деятельностью продавцов роли. На права продавцов влияют и настройки самого модуля **Multivendor**, которые устанавливает администратор.
+Администратор распределяет права на управление разделами магазина, чтобы все сотрудники, включая продавцов, выполняли свою часть работы. {% link "Набор прав" ref_roles %} для сотрудника определяется в разделе **Пользователи / Роли**. С установкой и активацией модуля **Multivendor** в списке стандартных ролей появляется _Продавец_. Администратор может изменить название и набор прав роли, и создать новые связанные с деятельностью продавцов роли. На права продавцов влияют и настройки самого модуля **Multivendor**, которые устанавливает администратор.
 
-## Step 4: Do the setup related to vendor onboarding 
-The store administrator must adjust the contents of the vendor registration page through which new sellers will apply for vendor accounts. This includes editing the welcome text and adjusting the set of form fields that will have to be completed by prospective vendors. See the article {% link "Managing the vendor registration page" ref_41fyOJ9F %} for details. 
-The store administrator should also specify which role needs to be assigned to new vendor users by default; this can be done using the setting **Role to assign to new vendor users** on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}.
-Another important task that should be completed by the store administrator before new vendor users start to log in to the Vendor area is to adjust the onboarding welcome message for new vendors. The vendor onboarding message will be displayed on the Vendor area dashboard; this message can be used by the administrator to provide an overview of the steps a new vendor is required to complete before they can start selling or to share any other kind of important information with the vendors. The vendor onboarding message can be configured using the **Vendor onboarding welcome message** field on the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}.
+## Регистрация продавцов в магазине
+
+Администратор настраивает страницу, на которой новые продавцы подают заявку на работу в магазине - размещает приветственное сообщение и определяет набор полей для заполнения. В настройках модуля администратор устанавливает, какой набор прав (роль) присваивается новому продавцу при регистрации (настройка Роль, назначаемая новым продавцам по умолчанию).  
+
+При первом входе в учётную запись в интерфейсе продавцов новый продавец видит приветственное сообщение. В приветственном тексте администратор сообщает новому продавцу о необходимых организационных действиях перед началом работы и другую важную информацию. 
+
+Администратор редактирует текст в поле **Ознакомительное сообщение для нового продавца** на странице настроек модуля.
 
 ## Step 5: Check and adjust Multi-vendor email notifications
 The store administrator must check the section Email notifications (**Store setup** > **Email notifications**) and adjust the notifications specific to Multi-vendor. For more info, see {% link "Managing Multi-vendor email notifications" ref_7DW1NMak %}.
