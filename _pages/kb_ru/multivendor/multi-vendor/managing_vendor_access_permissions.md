@@ -8,12 +8,22 @@ order: 160
 published: false
 ---
 Администратор магазина определяет, какие пользователи могут управлять теми или иными разделами магазина. {% link "Набор прав" ref_roles %} для пользователя устанавливается в разделе **Пользователи / Наборы прав доступа**. С установкой модуля **Multi-vendor** в списке наборов прав доступа появляется **Продавец**. Пользователь магазина, которому выдан набор прав **Продавец**, имеет доступ в интерфейс продавцов и продаёт свои товары на единой торговой площадке. Стандартный набор прав **Продавец** даёт пользователю права на управление каталогом продавца, управление заказами продавца и управление настройками доставки продавца.
-    
-If necessary, the store administrator can edit this role changing the role name or the set of access permissions which this role gives to its users. 
-    ![]({{site.baseurl}}/attachments/8749416/8717112.png)
-    
-Alternatively, the store administrator can create other vendor-related roles with some or all of the above-named vendor permissions.
 
-If the administrator chooses to use more than one vendor-related role in their store, they need to set the default vendor role ("Role to assign to new vendor users") via the Milti-vendor addon settings. See the setting **Role to assign to new vendor users**.
+![3.jpg]({{site.baseurl}}/attachments/ref_349tAksJ/3.jpg)
+    
+Администратор магазина может изменить название и состав набора прав. 
 
-To change the access permissions of a vendor, the administrator can either change the role assigned to them or give them additional roles according to the functions they need to perform. This can be done via the Access information section of the vendor's user profile (See the **Account details** tab).
+![4.jpg]({{site.baseurl}}/attachments/ref_349tAksJ/4.jpg)
+
+Админстратор может создать новые полные или ограниченные наборы прав для продавцов.
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![5.jpg]({{site.baseurl}}/attachments/ref_349tAksJ/5.jpg)
+</div>
+  <div class="column" markdown="span">![6.jpg]({{site.baseurl}}/attachments/ref_349tAksJ/6.jpg)
+</div>
+</div>
+
+Если администратор создаёт дополнительные наборы прав для продавцов, один из наборов прав должен быть установлен как набор прав по умолчанию в настройках модуля.
+
+Чтобы изменить набор прав для продавца в соответствии с его обязанностями, администратор присваивает продавцу новый или дополнительный набор прав. Для редактирования наборов прав продавца откройте раздел **Пользователи / Список пользователей**, нажмите на имя продавца, перейдите на вкладку **Учётная запись** и перейдите в секцию **Данные для доступа**.
