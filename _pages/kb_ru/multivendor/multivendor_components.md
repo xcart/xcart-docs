@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-06-18 15:28 +0400'
 identifier: ref_7wkoH88c
-title: Что представляет собой торговая площадка
+title: Состав X-Cart Мультивендор
 order: 200
 published: true
 ---
