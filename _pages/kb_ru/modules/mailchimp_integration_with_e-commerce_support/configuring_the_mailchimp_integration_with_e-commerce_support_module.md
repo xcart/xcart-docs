@@ -17,11 +17,14 @@ published: false
   <div class="column" markdown="span">![2.jpg]({{site.baseurl}}/attachments/ref_781Rx48T/2.jpg)
 </div>
 </div>
-
    
-   * MailChimp API key: The API key that was used to connect your X-Cart store to your MailChimp account. If, for some reason, you need to use a different MailChimp account or a different key, use the "Reset MailChimp connection" link.
+   * **API ключ MailChimp**  - В этом поле хранится API ключ, созданный в панели управления **MailChimp** для подключения к магазину. Чтобы сменить учётную запись **MailChimp** или API ключ, заведите новый логин **MailChimp** или создайте в существующей учётной записи новый API ключ и нажмите **Переподключить аккаунт MailChimp** в настройках модуля в магазине.
    
-   * Enable E-commerce analytics: This option enables E-commerce analytics by MailChimp for your X-Cart store. For details, see the article [Use MailChimp for E-Commerce](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use MailChimp for E-Commerce") in MailChimp Knowledge Base. E-commerce analytics is the core component of the integration functionality; the setting is enabled by default, and we recommend keeping it that way. When the E-commerce analytics option is enabled, the settings page for the module includes the **E-Commerce features setup** section. Be sure to visit that section and specify the lists for which [Ecommerce Stores](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) need to be created on the MailChimp end. See the [E-Commerce features setup](#E-Commerce_features_setup) section further below for more info. 
+   * **Включить аналитику Ecommerce** - Настройка включена по умолчанию, и лучше её не отключать. **MailChimp** будет собирать [аналитические данные по магазину](https://mailchimp.com/help/sell-more-stuff-with-mailchimp/ "Настройка модуля MailChimp Integration with E-commerce support"). 
+   
+ Когда эта настройка включена, на странице настройки модуля доступна вкладка **Настройка опций e-Commerce**. Также, необходимо включить опцию **E-Commerce Link Tracking** в настройках акций в панели управления **MailChimp**. 
+ 
+ МWhen the E-commerce analytics option is enabled, the settings page for the module includes the **E-Commerce features setup** section. Be sure to visit that section and specify the lists for which [Ecommerce Stores](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) need to be created on the MailChimp end. See the [E-Commerce features setup](#E-Commerce_features_setup) section further below for more info. 
    **Important:** Be sure also to enable [E-Commerce Link Tracking](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use MailChimp for E-Commerce") for your campaigns and automations in your MailChimp account back end.
    
    * Enable Abandoned Carts:  This option enables the Abandoned Carts feature. For more info on this feature, see the [MailChimp site](https://mailchimp.com/features/abandoned-cart/ "Abandoned Cart")
