@@ -18,16 +18,13 @@ published: false
 </div>
 </div>
    
-   * **API ключ MailChimp**  - В этом поле хранится API ключ, созданный в панели управления **MailChimp** для подключения к магазину. Чтобы сменить учётную запись **MailChimp** или API ключ, заведите новый логин **MailChimp** или создайте в существующей учётной записи новый API ключ и нажмите **Переподключить аккаунт MailChimp** в настройках модуля в магазине.
+   * **API ключ MailChimp** - В этом поле хранится API ключ, созданный в панели управления **MailChimp** для подключения к магазину. Чтобы сменить учётную запись **MailChimp** или API ключ, заведите новый логин **MailChimp** или создайте в существующей учётной записи новый API ключ и нажмите **Переподключить аккаунт MailChimp** в настройках модуля в магазине.
    
    * **Включить аналитику Ecommerce** - Настройка включена по умолчанию, и лучше её не отключать. **MailChimp** будет собирать [аналитические данные по магазину](https://mailchimp.com/help/sell-more-stuff-with-mailchimp/ "Настройка модуля MailChimp Integration with E-commerce support"). 
    
- Когда эта настройка включена, на странице настройки модуля доступна вкладка **Настройка опций e-Commerce**. Также, необходимо включить опцию [E-Commerce Link Tracking](https://mailchimp.com/help/sell-more-stuff-with-mailchimp/ "Настройка модуля MailChimp Integration with E-commerce support") в настройках рассылок в панели управления **MailChimp**. 
+ Когда эта настройка включена, на странице настройки модуля доступна вкладка **Настройка опций e-Commerce**. Также, необходимо включить опцию [E-Commerce Link Tracking](https://mailchimp.com/help/sell-more-stuff-with-mailchimp/ "Настройка модуля MailChimp Integration with E-commerce support") в настройках рассылок в панели управления **MailChimp**.  
  
-  
-   **Important:** Be sure also to enable [E-Commerce Link Tracking](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use MailChimp for E-Commerce") for your campaigns and automations in your MailChimp account back end.
-   
-   * Enable Abandoned Carts:  This option enables the Abandoned Carts feature. For more info on this feature, see the [MailChimp site](https://mailchimp.com/features/abandoned-cart/ "Abandoned Cart")
+   * **Включить Abandoned Carts** - Настройка включает **MailChimp** рассылку о [забытых корзинах](https://mailchimp.com/features/abandoned-cart/ "Настройка модуля MailChimp Integration with E-commerce support"), которая напоминает покупателям о выбранных товарах, предлагает похожие и способствует совершению покупки.  
    
    * Enable single opt-in for customers: This setting defines whether customers who opt in to subscribe to your news lists should be asked to confirm the subscription via email, or not. When this option is disabled, new subscribers get an email containing a subscription confirmation link that they need to click to be added to your list (Double opt-in). When this option is enabled, new subscribers are added to your list as soon as they opt in, without having to confirm the subscription by email (Single opt-in). Remember that abusing the single opt-in option may get your account banned by MailChimp.
    
