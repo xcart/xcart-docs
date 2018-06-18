@@ -11,8 +11,7 @@ categories:
   - home
 ---
 Модуль **Multi-Vendor** встроен в _X-Cart Мультивендор_. Модуль превращает X-Cart в маркетплейс, в котором действуют несколько продавцов.
-    *   {% link "Что представвляет собой торговая площадка" ref_cvwmAuRi %}
+    *   {% link "Состав X-Cart Мультивендор" ref_7wkoH88c %}
     *   {% link "Модуль Мультивендор" ref_cvwmAuRi %} (Core component)
     *   {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}
     *   Order messages: Usage with Multivendor
-   
