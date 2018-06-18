@@ -17,7 +17,7 @@ published: false
 
 Обычный магазин X-Cart становится торговой площадкой для множества продавцов после установки модуля [Multivendor](https://market.x-cart.com/addons/suppliers-multivendors.html?sl=en&utm_source=XC5admin&utm_medium=addons_list_marketplace&utm_campaign=XC5admin "X-Cart Мультивендор: интерфейс Администратора"). Модуль входит в _X-Cart Мультивендор_ и _X-Cart Всё включено_ и требует только {% link "активации и настройки" ref_IEo2gFuZ %}. В _X-Cart Базовый_ модуль недоступен.
 
-## Step 2: Choose the multivendor mode
+## Выбор режима торговой площадки
 Before anyone can sell products through an online marketplace based on X-Cart Multivendor, the store administrator needs to configure it. Besides all the configuration needed for a regular single-seller X-Cart store, a multivendor X-Cart store needs some additional configuration through the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}. The first and most important setting that the store administrator needs to adjust on this page is **Multivendor mode** . With this setting, the store administrator needs to specify which store operation mode they want to use. Two modes are supported: "_Warehouse_" and "_Vendors as separate shops_"). 
 
    <table class="ui compact celled small padded table">
