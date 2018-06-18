@@ -42,7 +42,7 @@ Once you activate the module X-Payments subscriptions, it becomes possible to se
         If a transaction aiming to charge a customer a subscription fee for any subscription period fails (i.e. you do not get a subscription payment you were supposed to get), the module will initiate further attempts to charge the customer's card according to the setting "Number of rebill attempts for anunsuccessful charge" on the module settings page. The subscription will continue until the number of successful charges reaches the number of Re-bill periods.
         {% endnote %}
         
-     * **Calculate shipping for recurring orders** [for X-Cart v5.3.2.3 and later]: If enabled shipping cost will be included into the subscription fee charged each period.
+     * **Calculate shipping for recurring orders** [for X-Payments v5.3.2.3 and later]: If enabled shipping cost will be included into the subscription fee charged each period.
         {% note info %}
         The shipping fee will be changed according to the fees set for the shipping method chosen by a customer in the very first order with a subscription. In case the chosen shipping method becomes inavailable (e.g. a customer chose free shipping for orders over $50 and a subscription fee is $10 olny (less than $50 required for shipping) or the cart admin disabled the chosen shipping method, etc.) the subscription stops and the customer receives an e-mail notification about it.
         {% endnote %}
