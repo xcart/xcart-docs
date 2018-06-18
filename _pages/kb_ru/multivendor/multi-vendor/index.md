@@ -10,7 +10,7 @@ published: true
 *   X-Cart Мультивендор: интерфейс Администратора
     *   {% link "Функции Администратора" ref_4wtRFm5x %}
     *   {% link "Настройка модуля Multi-vendor" ref_3fL15c4m %}
-    *   {% link "Managing vendor access permissions" ref_0GOeWpB2 %}
+    *   {% link "Права продавцов на управление магазином" ref_349tAksJ %}
     *   {% link "Managing the vendor registration page" ref_41fyOJ9F %}
     *   {% link "Managing Multi-vendor email notifications" ref_7DW1NMak %}
     *   {% link "Managing vendors" ref_6OTbIwfd %}
