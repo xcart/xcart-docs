@@ -26,14 +26,24 @@ published: false
  
    * **Включить Abandoned Carts** - Настройка включает **MailChimp** рассылку о [забытых корзинах](https://mailchimp.com/features/abandoned-cart/ "Настройка модуля MailChimp Integration with E-commerce support"), которая напоминает покупателям о выбранных товарах, предлагает похожие и способствует совершению покупки.  
    
-   * Enable single opt-in for customers: This setting defines whether customers who opt in to subscribe to your news lists should be asked to confirm the subscription via email, or not. When this option is disabled, new subscribers get an email containing a subscription confirmation link that they need to click to be added to your list (Double opt-in). When this option is enabled, new subscribers are added to your list as soon as they opt in, without having to confirm the subscription by email (Single opt-in). Remember that abusing the single opt-in option may get your account banned by MailChimp.
+   * **Включить режим подписки single opt-in** - Если опция включена, посетитель магазина моментально подписывается на рассылку без подтверждения адреса электронной почты. Если опция отключена, действует режим **double opt-in**, когда подписчик получает письмо со ссылкой для подтверждения email адреса, прежде чем будет подписан на рассылку магазина. 
    
-* Subscription select element type (_Type:checkbox_ or _Type:select box_): This setting defines the way your customers select a subscription. If the select box option is enabled here, your customers can subscribe to only one mail list; if the checkbox option is enabled, your customers can subscribe to multiple lists.
+   По умолчанию эта настройка отключена. Слишком частое или долгое использование режима регистрации без подтверждения адреса (**single opt-in**) может привести к блокировке учётной записи **MailChimp**.
+   
+* **Тип элемента выбора подписки** - Способ выбора рассылки для покупателей: **Список** - покупатель выбирает рассылки по одной; **галочка** - сразу несколько.
 
-* Update MailChimp lists every (_Never, 1 minute, 10 minutes, etc._): Select the time interval for the periodical list updates.
+* **Обновлять список рассылок MailChimp каждые** - Установите, как часто будет происходить автоматическое обновление списка рассылок.
 
-## E-Commerce features setup
-![xc5_mailchimp_ecommerce_features.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_ecommerce_features.png)
+* **Тип купонов на скидку, который следует загружать в MailChimp** - Выберите тип скидочных купонов, которые будут включены в рассылки. **Все купоны** - любые из купонов, настроенных в магазине. **Только купоны, которые соответствуют промо-правилам MailChimp** - Купоны, отличные от стандарта **MailChimp**, не попадут в рассылки. 
+Купон, составленный по промо-правилам MailChimp, содержит информацию: код, сумма скидки, активен с, активен по.
+
+## Настройка опций e-Commerce
+
+![3.jpg]({{site.baseurl}}/attachments/ref_781Rx48T/3.jpg)
+
+Товары, заказы, корзины и покупатели загружаются в **MailChimp**, где сохраняются в виде [Магазина](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/ "Настройка модуля MailChimp Integration with E-commerce support"). Предоставление такой информации **MailChimp** позволяет полностью использовать возможности **MailChimp** по предложению товаров и обработке забытых корзин.
+
+В панели управления **MailChimp** Магазин - объект высшего уровня. Товары, корзины, заказы и покупатели хранятся внутри него. Каждый магазин в **MailChimp** привязан к списку рассылок, который выбраны в разделе **Настройка опций e-Commerce** на странице модуля в X-Cart.
 
 The **E-Commerce features setup** section of the module settings page enables you to control the upload of store data (products, orders, carts and customers) to MailChimp. Uploading your store data to MailChimp enables you to take full advantage of MailChimp Product Recommendations and Abandoned Carts. For best performance of these features, the products, orders, carts and customers from your ecommerce store need to be uploaded to MailChimp and organized as a [Store](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/). On the MailChimp end, a Store is the top-level e-commerce resource. Carts, Customers, Orders, and Products all exist inside of the scope of a Store. 
 Each Store in MailChimp needs to be tied to a MailChimp list. In the **E-Commerce features setup** section of the module settings page in X-Cart, you specify the lists for which MailChimp Stores need to be created and initiate the upload/syncing of store data. First, you need to select the check boxes for the lists you require and click **Update**. This saves the set of MailChimp lists for which Stores should be created. To initiate the upload of store data for the selected lists, click **Upload store data to MailChimp**. MailChimp will create the Stores and will connect them to the MailChimp lists you have specified. Store data from X-Cart will be uploaded to these specific Stores. After the initial synchronization, further synchronization of store data will be done on the go automatically, without the need to click the **Upload store data to MailChimp** button; for example, when a new cart or a new order are created in your X-Cart store, the respective information will be automatically submitted to MailChimp. The button **Upload store data to MailChimp** remains in the **E-Commerce features setup** section just in case you need to redo the synchronizion; for example, you may need to use the button again if things get desynchronized between your store and your MailChimp account after you disable the module in X-Cart temporarily. Another button - **Update store data** - will help you to update your company information on the MailChimp end (for example, if your company name or address change).
