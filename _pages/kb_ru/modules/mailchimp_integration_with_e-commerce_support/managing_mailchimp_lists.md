@@ -7,9 +7,14 @@ title: 'Получатели рассылок в MailChimp '
 order: 340
 published: false
 ---
-The creation and editing of MailChimp lists for use with your X-Cart store is done outside X-Cart on the MailChimp end. For more info on MailChimp lists, see the MailChimp Knowledge Base [article](http://kb.mailchimp.com/lists). 
-Any lists and list groups configured in your MailChimp account before connecting your X-Cart store to MailChimp are imported into your X-Cart store automatically. You can find them on the Sales channels > MailChimp lists page. 
-   ![xc5_mailchimp_lists.png]({{site.baseurl}}/attachments/ref_dHGZpSCX/xc5_mailchimp_lists.png)
+Администратор магазина создаёт и редактирует [списки получателей рассылок](https://mailchimp.com/help/lists/ "Получатели рассылок в MailChimp ") в [личном кабинете MailChimp](https://login.mailchimp.com "Получатели рассылок в MailChimp "). Затем эти списки и группы списков автоматически импортируются в магазин и появляются в разделе панели управления **Каналы продаж / MailChimp lists**.
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![4.jpg]({{site.baseurl}}/attachments/ref_4daxBO2t/4.jpg)
+</div>
+  <div class="column" markdown="span">![5.jpg]({{site.baseurl}}/attachments/ref_4daxBO2t/5.jpg)
+</div>
+</div>
 
 If you have edited your lists/groups in your MailChimp account recently, the  Sales channels > MailChimp lists page in your X-Cart store's Admin area may not be displaying the actual state of your lists; in this case, you can use the **Update MailChimp Lists** button on the "MailChimp Integration" addon settings page in X-Cart to synchronize the data between the systems. 
    ![xc5_mailchimp_update_lists_button.png]({{site.baseurl}}/attachments/ref_dHGZpSCX/xc5_mailchimp_update_lists_button.png)
