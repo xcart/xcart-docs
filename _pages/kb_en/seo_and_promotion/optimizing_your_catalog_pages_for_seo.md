@@ -58,12 +58,17 @@ First, on the SEO settings page (**Store setup** > **SEO settings**), you can ac
 
    ![xc5_seo_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_title.png)
 
-To edit the default site title, click on the [Edit] link for the respective field. This will get you to the Edit labels section where you will be able to edit the  language label _default-site-title_ in which the default site title is stored:
+To edit the default site title, click on the [Edit] link for the respective field.
+![xc5_edit_default_site_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_edit_default_site_title.png)
+
+This will get you to the Edit labels section where you will be able to edit the  language label _default-site-title_ in which the default site title is stored:
 
    ![xc5_seo_default_site_title_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_site_title_label.png)
 
-To edit the title for the Home page, click on the [Edit] link at the bottom of the Home page title and meta section. You will be redirected to the Front page settings page (**Content** > **Front page**), which is the place where you can adjust the Home page title:
+To edit the title for the Home page, click on the [Edit] link at the bottom of the 'Home page title and meta' section. 
+   ![xc5_edit_home_pg_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_edit_home_pg_title.png)
 
+You will be redirected to the Front page settings page (**Content** > **Front page**), which is the place where you can adjust the Home page title.
    ![xc5_seo_home_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_home_page_title.png)
 
 In the Page title format section of the SEO settings page there is also a set of controls that enable you to set the format of complex page titles:
@@ -99,7 +104,9 @@ In X-Cart, a meta description and keywords tags can be defined for every page of
 On the SEO settings page (**Store setup** > **SEO settings**), you can access the sections for setting the default site meta description and keywords, as well as the meta description and keywords for the site's home page:
    ![xc5_seo_meta_seo_settings.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_meta_seo_settings.png)
 
-To edit the default site meta description, click on the [Edit] link for the respective field. This will get you to the Edit labels section where you will be able to edit the language label _default-meta-description_ in which the default meta description is stored:
+To edit the default site meta description, click on the [Edit] link for the respective field. 
+
+This will get you to the Edit labels section where you will be able to edit the language label _default-meta-description_ in which the default meta description is stored:
    
    ![xc5_seo_default_meta_description_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_meta_description_label.png)
 
