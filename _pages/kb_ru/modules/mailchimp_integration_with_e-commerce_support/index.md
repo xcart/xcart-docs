@@ -11,4 +11,4 @@ published: true
 
 *   {% link "Установка модуля и подключение к сервису рассылок MailChimp" ref_5M7eFcuG %}
 *   {% link "Настройка модуля MailChimp Integration with E-commerce support" ref_781Rx48T %}
-*   {% link "Managing your MailChimp lists" ref_dHGZpSCX %}
+*   {% link "Получатели рассылок в MailChimp " ref_4daxBO2t %}
