@@ -25,10 +25,10 @@ published: false
       <thead>
         <tr class="sortableHeader">
           <th class="confluenceTh sortableHeader" data-column="0">
-            <div class="tablesorter-header-inner">Warehouse</div>
+            <div class="tablesorter-header-inner">Общий склад</div>
           </th>
           <th class="confluenceTh sortableHeader" data-column="1">
-            <div class="tablesorter-header-inner">Vendors as separate shops</div>
+            <div class="tablesorter-header-inner">Отдельные склады</div>
           </th>
         </tr>
       </thead>
@@ -36,16 +36,16 @@ published: false
         <tr>
           <td class="confluenceTd">
             <ul>
-              <li>When a customer's cart contains items from more than one vendor, a single order is formed.</li>
-              <li>Processing of the order is done by the store administrator. The vendors cannot edit the order.</li>
-              <li>The order is delivered as a single shipment from a single warehouse location. The cost of shipping is calculated for delivery from the <em>Company address</em> as specified by the store administrator.</li>
+              <li>Если покупатель выбирает товары нескольких продавцов, формируется один  заказ.</li>
+              <li>Заказы обрабатывает администратор, продавцы не имеют прав на редактирование заказов.</li>
+              <li>Все товары заказа доставляются одной посылкой из единого магазина. Стоимость доставки рассчитывается с адреса компании, указанного администратором магазина в настройках.</li>
             </ul>
           </td>
           <td class="confluenceTd" >
             <ul>
-              <li>When a customer's cart contains items from more than one vendor, a separate order is formed for every vendor.</li>
-              <li>The vendors can fully edit their orders.</li>
-              <li>Every order is delivered from the warehouse of the respective vendor. The cost of shipping is calculated for delivery from the address specified by the vendor.</li>
+              <li>Если покупатель выбирает товары разных продавцов, формируется отдельный заказ на товары каждого продавца.</li>
+              <li>Продавцы имеют полный доступ к заказам.</li>
+              <li>Каждый заказ отправляется из магазина продавца. Стоимость доставки рассчитывается с адреса, указанного продавцом.</li>
             </ul>
           </td>
         </tr>
