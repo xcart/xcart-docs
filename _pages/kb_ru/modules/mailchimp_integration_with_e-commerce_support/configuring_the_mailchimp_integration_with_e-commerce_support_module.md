@@ -22,7 +22,7 @@ published: true
    
    * **Включить аналитику Ecommerce** - Настройка включена по умолчанию, и лучше её не отключать. **MailChimp** будет собирать [аналитические данные по магазину](https://mailchimp.com/help/sell-more-stuff-with-mailchimp/ "Настройка модуля MailChimp Integration with E-commerce support"). 
    
- Когда эта настройка включена, на странице настройки модуля доступна вкладка **Настройка опций e-Commerce**. Также, необходимо включить опцию [E-Commerce Link Tracking](https://mailchimp.com/help/sell-more-stuff-with-mailchimp/ "Настройка модуля MailChimp Integration with E-commerce support") в настройках рассылок в панели управления **MailChimp**.  
+ Когда эта настройка включена, на странице настройки модуля доступна вкладка **Настройка опций e-Commerce**. Также, необходимо включить опцию **E-Commerce Link Tracking** в настройках рассылок в панели управления **MailChimp**.  
  
    * **Включить Abandoned Carts** - Настройка включает **MailChimp** рассылку о [забытых корзинах](https://mailchimp.com/features/abandoned-cart/ "Настройка модуля MailChimp Integration with E-commerce support"), которая напоминает покупателям о выбранных товарах, предлагает похожие и способствует совершению покупки.  
    
