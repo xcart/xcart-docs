@@ -7,9 +7,9 @@ title: Модуль Multi-vendor
 order: 130
 published: true
 ---
-*   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-    *   {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
-    *   {% link "Configuring the Multi-vendor addon" ref_nFq48dhr %}
+*   {% link "X-Cart Мультивендор: интерфейс Администратора" ref_6kbIUy5R %}
+    *   {% link "Функции Администратора" ref_4wtRFm5x %}
+    *   {% link "Настройка модуля Multi-vendor" ref_3fL15c4m %}
     *   {% link "Managing vendor access permissions" ref_0GOeWpB2 %}
     *   {% link "Managing the vendor registration page" ref_41fyOJ9F %}
     *   {% link "Managing Multi-vendor email notifications" ref_7DW1NMak %}
