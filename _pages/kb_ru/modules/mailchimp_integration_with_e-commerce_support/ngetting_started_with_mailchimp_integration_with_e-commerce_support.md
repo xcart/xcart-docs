@@ -5,6 +5,7 @@ updated_at: '2018-06-15 17:29 +0400'
 title: Установка модуля и подключение к сервису рассылок MailChimp
 order: 100
 published: true
+identifier: ref_5M7eFcuG
 ---
 ## Установка модуля 
 
@@ -109,4 +110,3 @@ published: true
    Чтобы **удалить** модуль, нажмите на **значок корзины**.
    
    ![9.jpg]({{site.baseurl}}/attachments/ref_6sRMggED/9.jpg)
-
