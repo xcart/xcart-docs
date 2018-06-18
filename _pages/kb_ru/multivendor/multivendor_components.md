@@ -9,11 +9,15 @@ published: false
 ---
 **X-Cart Мультивендор** - это **X-Cart Бизнес**, дополненный несколькими модулями, превращающими магазин одного продавца в магазин нескольких продавцов. 
 
+Одни дополнительные модули предназначены именно для **X-Cart Мультивендор**, т.к. связаны с встроенным модулем **Мультивендор** и без него не работают (**Надёжные и ненадёжные продавцы Trusted/Non-trusted vendors**). Другие - работают и отдельно, но функционально связаны с **X-Cart Мультивендор** (**Order messages**). Необязательно использовать все эти модули, установите подходящие для магазина.
+
+{% toc %}
+
+## Мультивендор (Multi-vendor)
+
 Главный модуль, создающий торговую площадку, - **Мультивендор**. Этот модуль привносит в X-Cart новый тип пользователей - продавцов; интерфейс подачи заявки и подтверждения регистрации продавцов; два режима работы - общий склад и отдельные склады; панель управления для продавцов.
 
-There are also a few other addons recommended for use with X-Cart Multivendor. Some of them are strictly specific to the Multivendor package because they depend on the core Multi-vendor addon and cannot be used without it (like **Trusted/Non-trusted vendors**). Others are addons that have Multivendor related features (like **Order messages**). You are not required to have all these addons installed and enabled in your store; just choose the ones you require for your business. 
-
-Here's a brief overview of the addons typically used to build a Multivendor store (in addition to the addon **Multi-vendor**):
+## Надёжные и ненадёжные продавцы Trusted/Non-trusted vendors
 
    * **Trusted/Non-trusted vendors**: This addon enables the store administrator to mark vendors as trusted and non-trusted. Any products added by vendors with the status "Trusted vendor" will be visible to your store visitors right away, whereas the products of non-trusted vendors will appear on the storefront only after they have been approved by the administrator. For more information on this addon, see {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}.
      ![tntv_module_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/tntv_module_installed.png)
