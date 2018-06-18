@@ -3,8 +3,8 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-06-18 13:51 +0400'
 identifier: ref_781Rx48T
-title: ''
-order: 100
+title: Настройка модуля MailChimp Integration with E-commerce support
+order: 330
 published: false
 ---
 The settings and preferences for the addon "MailChimp Integration with Ecommerce support" can be adjusted on the addon settings page in your X-Cart store’s Admin area.
