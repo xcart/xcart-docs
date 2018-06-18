@@ -47,7 +47,7 @@ identifier: ref_5M7eFcuG
 
 ### Подключение магазина к **MailChimp**
 
-- В учётной записи **MailChimp** настройте [API кллюч](https://mailchimp.com/help/about-api-keys/ "Установка модуля и подключение к сервису рассылок MailChimp"), необходимый для связи с X-Cart.
+- В учётной записи **MailChimp** настройте [API ключ](https://mailchimp.com/help/about-api-keys/ "Установка модуля и подключение к сервису рассылок MailChimp"), необходимый для связи с X-Cart.
 
 ![10.jpg]({{site.baseurl}}/attachments/Установка модуля и подключение к сервису рассылок MailChimp/10.jpg)
 
