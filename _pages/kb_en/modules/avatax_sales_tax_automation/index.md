@@ -23,3 +23,7 @@ _In this section:_
 *   {% link "Configuring the AvaTax Sales Tax Automation module" ref_havNFG9i %}
 *   {% link "Mapping products to AvaTax tax codes" ref_SXNVD8TL %}
 *   {% link "Managing sales tax exemption for customers (AvaTax settings)" ref_9WS5DtDB %}
+
+_See also:_
+
+* {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}
