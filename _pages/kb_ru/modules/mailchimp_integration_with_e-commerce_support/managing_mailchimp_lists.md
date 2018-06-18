@@ -5,7 +5,7 @@ updated_at: '2018-06-18 14:45 +0400'
 identifier: ref_4daxBO2t
 title: 'Получатели рассылок в MailChimp '
 order: 340
-published: false
+published: true
 ---
 Администратор магазина создаёт и редактирует [списки получателей рассылок](https://mailchimp.com/help/lists/ "Получатели рассылок в MailChimp ") в [личном кабинете MailChimp](https://login.mailchimp.com "Получатели рассылок в MailChimp "). Затем эти списки и группы поодписчиков автоматически импортируются в магазин и появляются в разделе панели управления **Каналы продаж / MailChimp lists**.
 
@@ -35,4 +35,4 @@ published: false
 </div>
   <div class="column" markdown="span">![9.jpg]({{site.baseurl}}/attachments/ref_4daxBO2t/9.jpg)
 </div>
-</div>  
+</div>
