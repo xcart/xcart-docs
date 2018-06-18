@@ -5,7 +5,7 @@ updated_at: '2018-06-18 16:11 +0400'
 identifier: ref_197V0Y0x
 title: Модуль Multi-vendor
 order: 130
-published: false
+published: true
 ---
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
     *   {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
