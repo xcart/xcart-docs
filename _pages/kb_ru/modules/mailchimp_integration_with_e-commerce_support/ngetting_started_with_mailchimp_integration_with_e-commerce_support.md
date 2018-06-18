@@ -5,7 +5,7 @@ updated_at: '2018-06-15 17:29 +0400'
 identifier: ref_6sRMggED
 title: Установка модуля и подключение к сервису рассылок MailChimp
 order: 100
-published: false
+published: true
 ---
 ## Установка модуля 
 
