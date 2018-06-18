@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-06-18 15:28 +0400'
 identifier: ref_7wkoH88c
 title: Состав X-Cart Мультивендор
-order: 200
+order: 120
 published: true
 ---
 **X-Cart Мультивендор** - это **X-Cart Бизнес**, дополненный несколькими модулями, превращающими магазин одного продавца в магазин нескольких продавцов. 
