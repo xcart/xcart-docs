@@ -7,12 +7,17 @@ title: Настройка модуля MailChimp Integration with E-commerce sup
 order: 330
 published: false
 ---
-The settings and preferences for the addon "MailChimp Integration with Ecommerce support" can be adjusted on the addon settings page in your X-Cart store’s Admin area.
+## Настройка модуля
 
-## MailChimp settings
-![xc5_mailchimp_settings.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_settings.png)
+Найдите модуль по названию **MailChimp** в разделе **Мои модули** и перейдите на страницу настроек.
 
-In the **MailChimp settings** section of the page, the following settings can be adjusted:
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![1.jpg]({{site.baseurl}}/attachments/ref_781Rx48T/1.jpg)
+</div>
+  <div class="column" markdown="span">![2.jpg]({{site.baseurl}}/attachments/ref_781Rx48T/2.jpg)
+</div>
+</div>
+
    
    * MailChimp API key: The API key that was used to connect your X-Cart store to your MailChimp account. If, for some reason, you need to use a different MailChimp account or a different key, use the "Reset MailChimp connection" link.
    
