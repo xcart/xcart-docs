@@ -7,7 +7,7 @@ title: 'Получатели рассылок в MailChimp '
 order: 340
 published: false
 ---
-Администратор магазина создаёт и редактирует [списки получателей рассылок](https://mailchimp.com/help/lists/ "Получатели рассылок в MailChimp ") в [личном кабинете MailChimp](https://login.mailchimp.com "Получатели рассылок в MailChimp "). Затем эти списки и группы списков автоматически импортируются в магазин и появляются в разделе панели управления **Каналы продаж / MailChimp lists**.
+Администратор магазина создаёт и редактирует [списки получателей рассылок](https://mailchimp.com/help/lists/ "Получатели рассылок в MailChimp ") в [личном кабинете MailChimp](https://login.mailchimp.com "Получатели рассылок в MailChimp "). Затем эти списки и группы поодписчиков автоматически импортируются в магазин и появляются в разделе панели управления **Каналы продаж / MailChimp lists**.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![4.jpg]({{site.baseurl}}/attachments/ref_4daxBO2t/4.jpg)
@@ -16,11 +16,23 @@ published: false
 </div>
 </div>
 
-If you have edited your lists/groups in your MailChimp account recently, the  Sales channels > MailChimp lists page in your X-Cart store's Admin area may not be displaying the actual state of your lists; in this case, you can use the **Update MailChimp Lists** button on the "MailChimp Integration" addon settings page in X-Cart to synchronize the data between the systems. 
-   ![xc5_mailchimp_update_lists_button.png]({{site.baseurl}}/attachments/ref_dHGZpSCX/xc5_mailchimp_update_lists_button.png)
+Если списки изменены в **MailChimp**, изменения не отображаются автоматически в панели управления магазина. Для синхронизации данных нажмите **Update MailChimp Lists** на странице настроек модуля.
 
-In any case, you need to make sure that the lists and groups you have configured on the MailChimp end are visible on the Sales channels > MailChimp lists page in your X-Cart store's Admin area. Be sure to check this page and do the following:
+![6.jpg]({{site.baseurl}}/attachments/ref_4daxBO2t/6.jpg)
+
+Как проверить, что списки и группы подписчиков, созданные в **MailChimp**, перенесены в раздел **Каналы продаж / MailChimp lists** панели управления магазина и настроены:
    
-   * Use the On/Off buttons before the names of specific lists and groups to specify the lists and groups that should be active for your store. The active lists and groups will be visible on the forms that your store users will use to select the lists/groups to which they want to subscribe. Inactive lists/groups will not appear on such forms, and thus your store users will not be able to select them.
+   * Переключателем рядом с названием включите и отключите списки или группы. Активные списки и группы доступны посетителям сайта в форме выбора рассылки, а неактивные - не отображаются в витрине магазина.
    
-   * Use the check boxes in the "Subscribe by default" column to specify which lists and groups a user should be subscribed to if they opt in to receive your store's email newsletter via a single check box option (without choosing the specific lists/groups - for example, by subscribing via the "Sign up for *Your company name* news" box in the site footer, or by choosing the option "Subscribe to our news list and be in touch with our latest offers" during checkout).
+   * В колонке **Подписка по умолчанию** выберите списки и группы для стандартного набора рассылок, на которые будет подписан покупатель, согласившийся на получение новостей от магазина. 
+   
+   ![7.jpg]({{site.baseurl}}/attachments/ref_4daxBO2t/7.jpg)
+
+   Этот набор рассылок подключается в разделе **Подписаться на новости** и на странице оплаты заказа.
+   
+ <div class="ui stackable two column grid">
+  <div class="column" markdown="span">![8.jpg]({{site.baseurl}}/attachments/ref_4daxBO2t/8.jpg)
+</div>
+  <div class="column" markdown="span">![9.jpg]({{site.baseurl}}/attachments/ref_4daxBO2t/9.jpg)
+</div>
+</div>  
