@@ -7,10 +7,7 @@ title: Права продавцов на управление магазино�
 order: 160
 published: false
 ---
-The store administrator manages the access permissons for the store users using {% link "Roles" ref_38HKdc1f %} (**Users** > **Roles**). The Multi-vendor addon introduces a new user role: "Vendor". To be able to access the dedicated vendor area of the X-Cart store's back end and operate as a vendor, a user needs to have this role. By default, the access permissions for this role include the following:
-    *   Manage vendor's catalog;
-    *   Manage vendor's orders;
-    *   Manage vendor's shipping settings.
+Администратор магазина определяет, какие пользователи могут управлять теми или иными разделами магазина. {% link "Набор прав" ref_roles %} для пользователя устанавливается в разделе **Пользователи / Наборы прав доступа**. С установкой модуля **Multi-vendor** в списке наборов прав доступа появляется **Продавец**. Пользователь магазина, которому выдан набор прав **Продавец**, имеет доступ в интерфейс продавцов и продаёт свои товары на единой торговой площадке. Стандартный набор прав **Продавец** даёт пользователю права на управление каталогом продавца, управление заказами продавца и управление настройками доставки продавца.
     
 If necessary, the store administrator can edit this role changing the role name or the set of access permissions which this role gives to its users. 
     ![]({{site.baseurl}}/attachments/8749416/8717112.png)
