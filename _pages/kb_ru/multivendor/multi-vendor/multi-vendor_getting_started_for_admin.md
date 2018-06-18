@@ -134,23 +134,28 @@ published: false
 
 Администратор имеет полный доступ ко всем заказам торговой площадки: 
 
-в режиме **Общий склад**:
+- в режиме **Общий склад**:
      
    *   изменяет статусы заказов;
    *   редактирует заказы с помощью модуля **Advanced Order Management**;
    *   предоставляет покупателям информацию для отслеживания заказов.
 
-In the "_Vendors as separate shops_" mode, the administrator has the same capabilities as in the "_Warehouse_" mode, but, typically, only acts as a supervisor - whereas the processing of orders and making changes to the information of specific orders is carried out by the vendors.
+- в режиме **Отдельные склады** администратор имеет такой же полный доступ, но не работает с заказами, а контролирует действия продавцов. Каждый продавец самостоятельно обрабатывает свои заказы.
 
-## Task 4: Get information on how your vendors' business is going 
-It is always a good idea to check from time to time how the business of individual vendors on the marketplace is going. The store administrator has access to vendor statistics including:
+## Достижения продавцов 
+ 
+Администратору полезно интересоваться успехами продавцов. Оценить состояние бизнеса продавца позволяет статистика:
 
-   *   Order statistics, 
-   *   Best sellers,
-   *   Vendor statistics,
-   *   Transactions history.
+   *   статистика по заказам, 
+   *   лидеры продаж,
+   *   статистика по продавцам,
+   *   история платёжных операций.
 
-See {% link "Viewing vendor statistics" ref_4mvK1AKz %} for more information.
 
-## Task 5: Pay the vendors and track the flow of money to and from the vendors
-Unless the multivendor store/online marketplace uses a payment method that supports automated distribution of the money received from a buyer by way of order payment between the store owner and the vendors (like {% link "PayPal Adaptive payments (legacy)" ref_FdXWLwVN %} or PayPal for Marketplaces), all the money from the sales of vendor products ends up in the hands of the store owner who has to handle the distribution. The store owner needs to ensure that the money earned by the vendors goes to the vendors, whereas the commission that should be paid by the vendors to the store owner remains in the hands of the store owner. X-Cart does the calculation of the amounts earned by the vendors and the amounts earned by the store owner as a commission in each case. After a vendor's product has been sold and the money has been received by the store owner, the vendor can request a payout of the money due to them. The store administrator should review the payout request and, after making sure that all is correct, ensure that the money is transferred to the vendor. If an order gets canceled/refunded, the respective adjustments need to be made, and some or all of the money received by the vendor may have to be returned to the store owner so they can handle the refund. To keep track of the transactions between the vendors on one end and the store owner on the other, the store administrator has to register all the cases when the money changes hands while being distributed to the vendors or goes back from the vendors to the store owner. More info on this is available in the section {% link "Vendor payouts and tracking the flow of money to and from the vendors" ref_3uy1YgfD %}.
+## Выплаты продавцам и отслеживание передвижения средств
+
+Выручка от всех продаж торговой площадки поступает на счёт владельца магазина. Администратор распределяет средства между продавцами в соответствии с их продажами, при этом на счёте администратора остаётся комиссия, выплачиваемая каждым продавцом. 
+
+Размер выплаты и комиссии рассчитывает X-Cart. После оплаты товара покупателем и поступления средств на счёт владельца магазина продавец может запросить выплату своей выручки. Администратор проверяет правильность расчёта выплаты и комиссии и переводит средства на счёт продавца. 
+
+В случае возврата товара покупателем, продавец должен вернуть часть или всю сумму выплаты владельцу магазина, чтобы администратор оформил возврат средств покупателю. Чтобы вести точный учёт, администратор фиксирует каждое передвижение средств от администратора к продавцу и наоборот. 
