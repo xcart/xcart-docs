@@ -3,11 +3,11 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-12 10:59 +0400'
 identifier: ref_6gWLGj9K
-title: Enabling and Configuring Braintree Payment
+title: Enabling and Configuring PayPal Powered by Braintree Payment
 order: 110
 published: true
 ---
-## Enabling Braintree Payment
+## Enabling PayPal Powered by Braintree Payment
 
 To enable Braintree as a payment method in your X-Cart store, add it to the list of your store's active payment methods:
 
@@ -24,14 +24,14 @@ To enable Braintree as a payment method in your X-Cart store, add it to the list
       ![xc5_braintree_payment_method_added_successfully.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method_added_successfully.png)
 
       {% note info %}
-      If the Braintree integration module is not installed in your X-Cart store at the time of adding the method, there will be an **Install** button instead of **Add**: 
+      If the PayPal Powered by Braintree module is not installed in your X-Cart store at the time of adding the method, there will be an **Install** button instead of **Add**: 
         
       ![xc5_braintree_payment_method.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method.png)
         
       Use this button to install the module and add the method.
       {% endnote %}
         
-   3. Once the method is added, you will need to connect your X-Cart Braintree integration with your Braintree or PayPal account. A page with the **Connect with Braintree** button will be displayed:
+   3. Once the method is added, you will need to connect your X-Cart PayPal Powered by Braintree integration with your Braintree or PayPal account. A page with the **Connect with Braintree** button will be displayed:
        
       ![xc5_braintree_method_added.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_method_added.png)
 
@@ -47,7 +47,7 @@ To enable Braintree as a payment method in your X-Cart store, add it to the list
       
       By logging into your PayPal/Braintree account, you will connect the X-Cart Braintree integration to your account and authorize it to take actions on your behalf. 
       
-## Configuring Braintree Payment
+## Configuring PayPal Powered by Braintree Payment
 
 Once the Braintree authorization is complete you'll be redirected to the **Braintree settings page** in the X-Cart admin automatically. You'll see a screen of the kind:
 
@@ -59,7 +59,7 @@ You can configure the following additinal setting for the payment:
 
   * **Merchant account ID** : Your merchant account ID is a unique identifier for a specific merchant account. Within your Braintree gateway, you can have multiple merchant accounts to process transactions for different businesses or currencies. If you have a single merchant account, it is not necessary to specify a merchant account ID in your API requests. If you have multiple merchant accounts and choose not to specify the merchant account ID, all requests will be processed through your default merchant account (the predefined **Merchant ID**).
   
-  The preset **Merchant account ID** you can check in the _'Account'_ tab of the Braintree Payment settings page
+  The preset **Merchant account ID** you can check in the _'Account'_ tab of the **Braintree settings page**
   
   ![braintree-account-adm.png]({{site.baseurl}}/attachments/ref_6gWLGj9K/braintree-account-adm.png)
   
@@ -68,7 +68,7 @@ You can configure the following additinal setting for the payment:
   The **Unlink account** button should be used if you need to disconnnect your Braintree account, that will also revoke the access token. 
   
   {% note warning %}
-  You will not be able to accept payments via Braintree until the Braintree account is connected back.
+  You will not be able to accept payments via PayPal Powered by Braintree until the Braintree account is connected back.
   {% endnote %}
   
   * **Auto settle** : Enable the feature if you want all the requests to be processed through your default merchant account (the predefined **Merchant ID**).
