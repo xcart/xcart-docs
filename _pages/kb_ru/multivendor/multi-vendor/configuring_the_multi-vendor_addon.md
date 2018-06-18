@@ -45,14 +45,16 @@ published: false
     </table>
 
 
-   *   **Do not show customers’ contact information to vendors**: This setting toggles vendor access to customer contact information.
+   *   **Скрывать от продавца информацию о покупателе** - С помощью этой настройки администратор позволяет или не позволяет продавцам видеть контактную информацию покупателей.
     
-   *   **Order DST based commission rate** and **Order shipping cost based commission rate**: If you wish to charge your vendors a commission on every sale of their products through your store, you can use these fields to specify your commission rates. The "Order DST based commission rate" setting allows you to set a commission rate as a percentage of the order discounted subtotal (DST), the "Order shipping cost based commission rate" setting - as a percentage of the order shipping cost. The rates specified here will be applied by default to the sales of any vendors for which no vendor-specific commission rates have been set. 
-        The commission will be charged automatically when a buyer pays for an order containing products supplied by a vendor. You will be able to see the commission you earned on any vendor order in the Orders list section.
-        Please note that the setting  "Order shipping cost based commission rate" applies only to the "Vendors as separate shops" multivendor mode (In the "Warehouse" mode, no shipping cost based commission is calculated, since the products of all the vendors are shipped from the same warehouse).
-        **Important:** If you wish to use different commission rates for different vendors, you will have to set vendor-specific commission rates via the Financial details section of individual vendor profiless. 
-        See {% link "Setting vendor commissions" ref_7B8smyEx %} for more information.
+   *   **Комиссия со стоимости товаров в заказе** и **Комиссия со стоимости доставки заказа** - Эти настройки устанавливают размер комиссии, которую продавец платит владельцу магазина с каждой продажи.
+   
+**Комиссия со стоимости товаров в заказе** - процент от стоимости товаров в заказе. **Комиссия со стоимости доставки заказа** - процент от стоимости доставки заказа. 
 
+Эта настройка действует только в режиме **Отдельные склады**, т.к. в режиме **Общий склад** товары всех продавцов доставляются с одного склада и комиссия с доставки для каждого продавца не рассчитывается). Указанные в этих полях процентные ставки применяются ко всем продавцам, для которых не определены индивидуальные условия. Размер комиссии рассчитывается автоматически после оплаты покупателем заказа, содержащего товары продавца. 
+
+Администратор видит размер полученной за каждый заказ комиссии в разделе **Заказы / Список заказов**. Администратор может установить индивидуальные условия расчёта для продавца, в этом случае размер комиссии задаётся в разделе Финансовые детали учётной записи продавца. 
+        
    *   **Sales tax is the responsibility of** (Site owner / Vendor): This setting is adjustable only in the "Vendors as separate shops" Multivendor mode. Use it to specify who should be responsible for the collection of sales tax and the payment of the tax that has been collected to the government: the store owner/storefront operator or the vendors. The setting affects tax rates configured using the Sales Tax and Canadian Taxes addons. If your store uses automated tax calculation with AvaTax or TaxJar addon, the value in this field is also used to determine the nexus. Note that in the "Warehouse" Multivendor mode, taxes are always the responsibility of the store owner/storefront operator. 
   
    *   **Minimal vendor balance to request a payout**: Use this field to set a minimum amount of money that a vendor must have on their account balance to be able to request a payout of their earnings.
