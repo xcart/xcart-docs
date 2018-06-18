@@ -22,9 +22,9 @@ published: false
    
    * **Включить аналитику Ecommerce** - Настройка включена по умолчанию, и лучше её не отключать. **MailChimp** будет собирать [аналитические данные по магазину](https://mailchimp.com/help/sell-more-stuff-with-mailchimp/ "Настройка модуля MailChimp Integration with E-commerce support"). 
    
- Когда эта настройка включена, на странице настройки модуля доступна вкладка **Настройка опций e-Commerce**. Также, необходимо включить опцию **E-Commerce Link Tracking** в настройках рассылок в панели управления **MailChimp**. 
+ Когда эта настройка включена, на странице настройки модуля доступна вкладка **Настройка опций e-Commerce**. Также, необходимо включить опцию [E-Commerce Link Tracking](https://mailchimp.com/help/sell-more-stuff-with-mailchimp/ "Настройка модуля MailChimp Integration with E-commerce support") в настройках рассылок в панели управления **MailChimp**. 
  
- МWhen the E-commerce analytics option is enabled, the settings page for the module includes the **E-Commerce features setup** section. Be sure to visit that section and specify the lists for which [Ecommerce Stores](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) need to be created on the MailChimp end. See the [E-Commerce features setup](#E-Commerce_features_setup) section further below for more info. 
+  
    **Important:** Be sure also to enable [E-Commerce Link Tracking](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use MailChimp for E-Commerce") for your campaigns and automations in your MailChimp account back end.
    
    * Enable Abandoned Carts:  This option enables the Abandoned Carts feature. For more info on this feature, see the [MailChimp site](https://mailchimp.com/features/abandoned-cart/ "Abandoned Cart")
