@@ -3,8 +3,8 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-06-18 23:01 +0400'
 identifier: ref_3fL15c4m
-title: ''
-order: 100
+title: Настройка модуля Multi-vendor
+order: 150
 published: false
 ---
 After the Multi-vendor module has been installed and enabled, it needs to be configured.
