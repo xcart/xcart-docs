@@ -5,7 +5,7 @@ updated_at: '2018-06-18 15:19 +0400'
 identifier: ref_1kueJila
 title: Мультивендор (Multi-Vendor)
 order: 100
-published: false
+published: true
 icon: handshake
 categories:
   - home
