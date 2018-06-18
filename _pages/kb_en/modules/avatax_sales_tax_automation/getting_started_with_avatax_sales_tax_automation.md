@@ -15,7 +15,7 @@ To enable AvaTax Sales Tax Automation at your X-Cart store, follow these steps:
 
 2.  In the AvaTax Admin Console, configure your company settings and tax profile.
 
-    You can get started by clicking 'Get Started' on the navigation bar when the 'Home' tab is selected. Detailed information on configuring your Avalara account can be found in the [Avalara Help Center](https://help.avalara.com/). Avalara self learning course for the Admin Console can be found at [http://www.avalara.com/avauniversity/avalarauniversity](http://www.avalara.com/avauniversity/avalarauniversity).
+    You can get started by clicking 'Get Started' on the navigation bar when the 'Home' tab is selected. Detailed information on configuring your Avalara account can be found in the [Avalara Help Center](https://help.avalara.com/).
 
     1.  Specify your company details (This includes setting a "Company Code" for your X-Cart store - you will need to enter it on the "AvaTax Sales Tax Automation" module settings page in X-Cart).
     2.  Select Nexus Jurisdictions (where your company needs to calculate sales and use tax due to "substantial physical presence" in a taxing jurisdiction).
