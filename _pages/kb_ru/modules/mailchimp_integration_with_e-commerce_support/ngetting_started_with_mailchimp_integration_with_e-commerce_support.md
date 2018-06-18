@@ -2,7 +2,7 @@
 lang: ru
 layout: article_with_sidebar
 updated_at: '2018-06-15 17:29 +0400'
-identifier: ref_6sRMggED
+identifier: Установка модуля и подключение к сервису рассылок MailChimp
 title: Установка модуля и подключение к сервису рассылок MailChimp
 order: 100
 published: true
