@@ -5,7 +5,7 @@ updated_at: '2018-06-18 13:51 +0400'
 identifier: ref_781Rx48T
 title: Настройка модуля MailChimp Integration with E-commerce support
 order: 330
-published: false
+published: true
 ---
 ## Настройка модуля
 
