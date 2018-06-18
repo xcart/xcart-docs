@@ -7,18 +7,15 @@ title: 'X-Cart Мультивендор: интерфейс Администра
 order: 140
 published: false
 ---
-This article covers:
-   
-   * The steps that need to be taken by an X-Cart store administrator to launch a multivendor store/online marketplace. See {% link "Steps to launch a multivendor X-Cart-based marketplace" ref_5saLJNod#steps-to-launch-a-multivendor-x-cart-based-marketplace %}
-   * The tasks that need to be performed by the administrator to manage this multivendor store/online marketplace on a day-to-day basis. {% link "Administrator tasks to manage a multivendor marketplace" ref_5saLJNod#administrator-tasks-to-manage-a-multivendor-marketplace %}
+Администратор отвечает за настройку, запуск и поддержание функционирования магазина.
 
-In this manual, by "administrator" we mean the store owner/storefront operator or an agent acting on their behalf and represented by an X-Cart store user with the access level "Administrator" and the role "Administrator".
+Администратор - владелец магазина или его представитель, который в X-Cart представлен как пользователь с полными правами доступа и управления магазином.
 
-# Steps to launch a multivendor X-Cart-based marketplace
+# Настройка и запуск магазина
 
-## Step 1: Ensure that the addon Multi-vendor is active
-A regular single-seller X-Cart store is transformed into a multivendor marketplace by the addon **Multi-vendor**. The store administrator must ensure that this addon is active. 
-More info on the management of addons in X-Cart is available in the section {% link "Managing addons" ref_gTOegEua %}.
+## Настройка модуля Multivendor
+
+Обычный магазин X-Cart становится торговой площадкой для множества продавцов после установки модуля **Multivendor**. Модуль входит в _X-Cart Мультивендор_ и _X-Cart Всё включено_ и требует только {% link "активации и настройки" ref_IEo2gFuZ %}. В _X-Cart Базовый_ и _X-Cart Бизнес_ модуль необходимо {% link "приобрести" ref_gpeZtm28 %}.
 
 ## Step 2: Choose the multivendor mode
 Before anyone can sell products through an online marketplace based on X-Cart Multivendor, the store administrator needs to configure it. Besides all the configuration needed for a regular single-seller X-Cart store, a multivendor X-Cart store needs some additional configuration through the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}. The first and most important setting that the store administrator needs to adjust on this page is **Multivendor mode** . With this setting, the store administrator needs to specify which store operation mode they want to use. Two modes are supported: "_Warehouse_" and "_Vendors as separate shops_"). 
