@@ -7,10 +7,9 @@ title: Что представляет собой торговая площад�
 order: 200
 published: false
 ---
-X-Cart **Multivendor** edition is X-Cart Business extended with a bunch of Multivendor-specific addons. These addons modify a regular X-Cart Business store transforming it into a marketplace that can be used simultaneously by multiple sellers. 
+**X-Cart Мультивендор** - это **X-Cart Бизнес**, дополненный несколькими модулями, превращающими магазин одного продавца в магазин нескольких продавцов. 
 
-The most important addon of this bunch is **Multi-vendor**. It is the core of the Multivendor package; you won't be able to run a Multivendor marketplace without it. This addon introduces a new type of X-Cart users - "vendors", an interface for vendor registration and approval, an option for the store administrator to choose one of two store operation modes (Warehouse/Vendors as separate shops), a dedicated area of the store back end where vendors can manage their product catalog and get access to orders, payment transactions and statistics, and so on.
-  ![mv_module_inst.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mv_module_inst.png)
+Главный модуль, создающий торговую площадку, - **Мультивендор**. Этот модуль привносит в X-Cart новый тип пользователей - продавцов; интерфейс подачи заявки и подтверждения регистрации продавцов; два режима работы - общий склад и отдельные склады; панель управления для продавцов.
 
 There are also a few other addons recommended for use with X-Cart Multivendor. Some of them are strictly specific to the Multivendor package because they depend on the core Multi-vendor addon and cannot be used without it (like **Trusted/Non-trusted vendors**). Others are addons that have Multivendor related features (like **Order messages**). You are not required to have all these addons installed and enabled in your store; just choose the ones you require for your business. 
 
