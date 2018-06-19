@@ -24,7 +24,7 @@ published: true
     *   {% link "Регистрация продавца" ref_4XIi52rR %}
     *   {% link "Начало работы продавца" ref_1GzoOb7x %}
     *   {% link "Управление учётной записью" ref_173RdhEa %}
-    *   {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
+    *   {% link "Товары продавца" ref_5dCYCGJt %}
     *   {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %}
     *   {% link "Adding coupons and discounts for vendor products" ref_SwbyhUn5 %}
     *   {% link "Managing shipping methods as a vendor" ref_IvXmtLKI %}
