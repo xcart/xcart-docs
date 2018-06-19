@@ -15,23 +15,18 @@ redirect_from:
 
 In the Customer area of your X-Cart store, in all the locations from which buyers can initiate checkout, the Amazon Pay addon adds a **Pay with Amazon** button:
 
-Here's what it looks like on the "Your shopping bag" page:
+Here's what it looks like:
 
-![]({{site.baseurl}}/attachments/7504625/7602347.png)
+<div class="ui stackable three column grid">
+  <div class="column" markdown="span">![amz-cus-cart.png]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-cart.png)<p>"Your shopping bag" page</p></div>
+  <div class="column" markdown="span">![amz-cus-minicart.png]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-minicart.png)<p>"Minicart" widget</p></div>
+  <div class="column" markdown="span">![amz-cus-popup.png]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-popup.png)<p>"Add to cart" popup (if {% link "Add to Cart PopUp Module" ref_1iGC8Efj %} is enabled)</p></div>
+</div>
 
-in the "Minicart" widget:
-
-![]({{site.baseurl}}/attachments/7504625/7602348.png)
-
-and in the "Add to cart" popup:
-
-![]({{site.baseurl}}/attachments/7504625/7602349.png)
 
 Once the **Amazon Pay** button is clicked, a pop-up window titled "Amazon Pay: Sign In" is displayed where the buyer is asked for their Amazon Pay account email address and password:
 
-![]({{site.baseurl}}/attachments/7504625/7602350.png)
-
-(As you can see in the screenshot above, you can add your company logo in the buyer authentication pop-up window. This can be done by uploading your own banner image on the "Settings" -> "Integration Settings" page in Seller Central).
+![]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-signin.png)
 
 After the buyer successfully authenticates, they find themselves on a special checkout page in X-Cart which has two Amazon widgets embedded in it: the AddressBook widget (the "Address Book" section) where the buyer can select a shipping address from their Amazon Pay account or add a new one and the Wallet widget (the "Payment Method" section) where the buyer can select a payment method from their Amazon Pay account:
 
@@ -53,7 +48,7 @@ The way in which the order status is handled after order placement depends on th
     *   "Declined" (= transaction declined).
 *   If the _Asynchronous_ type of authorization request is used, the order initially gets the status "Queued", and, a few minutes later, when the store receives the payment request processing status from Amazon through the Instant Payment Notification (IPN) service,  this order status is updated to either "Authorized"/"Processed" (dependes on the Capture mode) or "Declined".
 
-When the order is created, appropriate order notifications are sent to the email addresses of the buyer and the store's orders department in accordance with your store's "General settings :: Email notifications options" configuration. When the payment's status in Amazon Pay transitions as a part of the payment process (for example, when you capture a previously authorized amount or issue a refund), appropriate notifications are sent as well.
+When the order is created, appropriate order notifications are sent to the email addresses of the buyer and the store's orders department in accordance with your store's **Store setup** -> **Email notifications** configuration (see more info about email configuration in {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}). When the payment's status in Amazon Pay transitions as a part of the payment process (for example, when you capture a previously authorized amount or issue a refund), appropriate notifications are sent as well.
 
 _Related pages:_
 
