@@ -13,7 +13,7 @@ published: true
     *   {% link "Права продавцов на управление магазином" ref_349tAksJ %}
     *   {% link "Настройка страницы регистрации продавцов" ref_4dG3KiEA %}
     *   {% link "Уведомления по электронной почте для продавцов" ref_7ibWNHAF %}
-    *   {% link "Managing vendors" ref_6OTbIwfd %}
+    *   {% link "Управление продавцами" ref_2VIZjv0i %}
     *   {% link "Managing vendor profile information as an administrator" ref_5cbH2V3e %}
     *   {% link "Supervising the product catalog" ref_0dPCIV3f %}
     *   {% link "Setting vendor commissions" ref_7B8smyEx %}
