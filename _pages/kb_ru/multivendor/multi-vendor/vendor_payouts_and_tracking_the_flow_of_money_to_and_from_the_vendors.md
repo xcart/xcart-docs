@@ -35,20 +35,20 @@ published: false
         
        * **Заказ оплачен** - Один или несколько товаров продавца оплачены, продавец получил выручку с продажи, но администратор ещё не перевёл заработанные средства продавцу.
        * **Заказ отклонён/отменён** - Оплата товаров продавца не прошла или отменена. Сумма, начисленная продавцу, будет списана с его счёта.
-       * Method name: Commission paid (like "PayPal Adaptive: Commission paid" or "PayPal For Marketplaces: Commission paid") - The money earned by the vendor has been transferred via the specified payment method to the vendor's account. The commission due to the storefront operator on this sale (minus the payment method commission) has been paid to the storefront operator.
-   *   Income: The money amount that has been earned and added to the administrator account balance by this transaction (excluding the administrator commission).
-   *   Expense: The money amount that has been paid out to the vendor by this transaction (In the case of a payout request - the amount of money that has to be paid out to the vendor based on this payout request).
+       * **Название метода оплаты: выплата комиссии (например, PayPal Adaptive: выплата комиссии)** - Заработанные продавцом средства перечислены на его счёт указанным методом оплаты. Комиссия продавца перечислена владельцу магазина за вычетом комиссии платёжной системы (не для РФ).
+   *   **Доход** - Сумма, вырученная от продажи и поступившая на счёт администратора за вычетом комиссии администратора .
+   *   **Расход** - Выплаченная продавцу сумма. Если продавец подавал запрос на выплату, то сумма, подлежащая выплате продавцу.
 
-The store administrator can filter the transaction list by:
-   * Date range 
-   * Vendor profile (_Any profile_ = All available transactions regardless of the vendor to whom they pertain. Specific vendor company name and email address = Only the transactions pertaining to the specified vendor.)
-   * Transaction description (Entire description or part of it.) 
-   * Type of transaction (_Show all_ = All available transactions regardless of the transaction type. _Only pending_ = Only payout requests.)
+Администратор находит платёжные операции по фильтрам:
+   * **Период времени** - Результаты поиска покажут операции между выбранными даты. 
+   * **Продавец** - _Любой пользователь_ -  в результатах поиска будут все платёжные операции всех продавцов. _Название компании продавца_ - в результатах поиска появятся платёжные операции только выбранного продавца.
+   * **Описание** - Поиск по полному описанию или нескольким словам из него. 
+   * **Статус платёжной операции** - Все платёжные операции или только необработанные запросы на выплату.
    
-For example, the screenshot below shows transactions filtered by vendor profile:   
    ![xc5_mv_transactions_filtered_by_vendor.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_transactions_filtered_by_vendor.png)
 
-## Creating transactions
+## Создание платёжной операции
+
 The store admininstrator can manually create transactions in the Vendor transactions section. The transactions can be used to reflect the movement of funds both to and from the accounts of individual vendors.
 
 Typically the store admininstrator pays out money to vendors based on payout requests. However, a payout request is not a requirement: the store administrator can create any type of transaction at any time, including payout transactions. For example, the store owner and the vendor can communicate and agree on the amount to be paid out to the vendor using personal communication outside X-Cart, and the administrator will be able to register such a transaction in X-Cart by manually creating a transaction using the method described below. 
