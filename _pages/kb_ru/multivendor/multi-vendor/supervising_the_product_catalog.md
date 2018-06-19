@@ -21,45 +21,45 @@ published: false
 
 ## Управление классами и атрибутами товаров
 
-Администратор торговой площадки контролирует использование продавцами классов и атрибутов товаров: 
+Администратор торговой площадки контролирует использование продавцами {% link "​классов и атрибутов товаров" ref_pXBwGdtu %}: 
 
    * Администратор помогает продавцам настроить классы, атрибуты и значения атрибутов или создаёт их самостоятельно по запросу продавца в разделе **Каталог / Классы и атрибуты**. Администратор создаёт глобальные атрибуты, атрибуты на уровне класса товаров и на уровне конкретного товара.
     
    * Продавцы самостоятельно создают классы и атрибуты для своих товаров. Администратор время от времени проверяет список на странице **Каталог / Классы и атрибуты** и при необходимости редактирует или удаляет записи. Администратор различает классы и атрибуты, созданные продавцами, по указанному имени и адресу электронной почты.  
     
-   * Что касается значений атрибутов, администратор устанавливает права в настройках модуля **Multi-vendor**: продавцы могут добавлять значения глобальных атрибутов и атрибутов, созданных администратором и другими продавцами для классов товаров; или продавцы могут использовать только существующие значения атрибутов. 
+   * Что касается значений атрибутов, администратор устанавливает права в {% link "настройках модуля" ref_3fL15c4m %} **Multi-vendor**: продавцы могут добавлять значения глобальных атрибутов и атрибутов, созданных администратором и другими продавцами для классов товаров; или продавцы могут использовать только существующие значения атрибутов. 
 
-    
-## Determining the owner of a product
-When the same product catalog holds the products of more than one seller, the store administrator who exercises the function of supervising the catalog may require to be able to find the seller (vendor) who added a certain product (and thus is its owner). 
+## Определение владельца товара
 
-Finding the owner of a product is easy:
+Если каталог товаров магазина содержит товары разных продавцов, администратору, отвечающему за каталог, может потребоваться установить создателя, т.е. владельца товара: 
 
-   * When viewing the store's product list in the Admin area, the administrator can see the owner of each product in the "Vendor" column:
+   * Владелец товара указан на странице **Каталог / Товары** в колонке **Продавец**, где указан адрес электронной почты продавца:
 ![xc5_mv_product_owners.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_product_owners.png)
-(This column shows the email address of the vendor who owns the product.)
 
-   * When viewing the details pages of a vendor product in the Admin area, the administrator can see the name and email of the vendor who owns the product:
+   * Владелец товара указан на странице информации о товаре:
 ![xc5_mv_product_owner.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_product_owner.png)
 
-## Changing the owner of a product
-The store administrator can change the owner of a product. To do so, they need to go open the product details in the Admin area and hover the cursor over the name of the current product owner:
+## Изменение владельца товара
+
+Администратор магазина имеет возможность поменять владельца товара. На странице товара нажмите на название текущего продавца и выберите нового из списка:
 ![xc5_mv_change_vendor1.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_change_vendor1.png)
 
-The field shows as editable:
+Обновите товар.
 ![xc5_mv_change_vendor2.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_change_vendor2.png)
 
-Once this happens, they need to click on it. The owner field becomes a drop-down selector from which one of the existing vendors can be chosen. The administrator needs to select a new owner and save the changes by selecting **Update product**:
 ![xc5_mv_change_vendor3.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_change_vendor3.png)
 
-After this the selected vendor will become the new owner of the product and will be able to access its details in their own Vendor area, whereas the previous owner will lose access to the product. Note that if there are any existing orders containing this product when the product owner is changed, the new owner will not be able to access these orders. A warning will be provided: 
+Новый продавец получит полный доступ к товару, а предыдущий продавец больше не увидит его в списке своих товаров. Если на момент смены продавца товара в магазине уже были заказы, содержащие этот товар, новый владелец товара не получит к ним доступ. На странице товара появится предупреждении о наличии заказа с этим товаров и ограниченном доступе нового продавца: 
 ![xc5_mv_change_vendor4.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_change_vendor4.png)
 
-## Sorting the products by vendor
-The store administrator supervising the product catalog can sort the products in the product list (**Catalog** > **Products**) by vendor. To do so, they need to click on the Vendor header of the product list table:
+## Сортировка товаров по продавцу
+
+Если на странице **Каталог / Товары** администратор нажмёт на название колонки **Продавец**, товар в списке будут отсортированы по принадлежности продавцу:
 ![xc5_mv_sort_by_vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_sort_by_vendor.png)
 
-## Finding the products of a certain vendor
-The store administrator supervising the product catalog can easily find the products of a specific vendor. To do so, they need to do a product search in the store's Admin area specifying the vendor in the search form. Once the initial characters of the vendor's company name or email address are entered into the Vendor field, a drop-down selector with matching vendors will be provided:
+## Поиск товаров одного продавца
+
+Чтобы посмотреть товар конкретного продавца, администратор делает поиск по имени этого продавца. Достаточно начать печатать имя или адрес электронной почты в поле **Продавец**, система выдаст список соответствующих результатов:
 ![xc5_mv_search_by_vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_search_by_vendor.png)
-As an alternative, the store administrator can access the products of a specific vendor via the vendor's user profile. See {% link "Managing vendor profile information as an administrator" ref_5cbH2V3e#vendor-products %} for details.
+
+Кроме того список товаров продавца можно найти на странице его учётной записи.
