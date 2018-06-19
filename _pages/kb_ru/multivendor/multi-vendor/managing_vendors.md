@@ -28,47 +28,44 @@ published: false
 
 После обработки заявки администратором продавец получает уведомление по электронной почте - **Учетная запись продавца подтверждена** или **Учетная запись продавца отклонена**.
 
-## Adding new vendors via the Admin area
+## Создание учётной записи продавца в панели управления магазина
 
-The store administrator can create user profiles for vendor users via the Users section of the store's Admin area.
+Администратор может самостоятельно зарегистрировать нового продавца двумя способами в разделе **Пользователи**.
 
-To create a new vendor profile, the administrator needs to do one of the following: 
-
-*   creates a new user profile with the access level "Vendor":
+*   создать нового пользователя и установить уровень доступа **Продавец**:
     ![]({{site.baseurl}}/attachments/8749143/8719604.png)
-*   creates a new user profile with the access level "Admin" and the role "Vendor" (or other vendor-related role, if such a role has been configured by the administrator):
+*   создать нового пользователя и установить уровень доступа **Администратор** и набор прав **Продавец**. Если администратор создал дополнительные наборы прав доступа для продавцов, может быть установлен любой из них:
     ![]({{site.baseurl}}/attachments/8749143/8716890.png)
 
-With this method, a new vendor user is created right away:
+Сразу после создания учётной записи продавец может приступать к работе в магазине:
     ![xc5_multi-vendor_profile_created.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_multi-vendor_profile_created.png)
 
-The new vendor can log in and start selling immediately after the creation of their profile.
+## Редактирование информации о продавцах
 
-## Editing vendor profile information
-
-If a vendor requests a change of their profile information (for example, if the vendor is selling their business, and the change of the business owner needs to be reflected in the vendor profile details), the store administrator can edit the respective vendor profile via the Users section of the store's Admin area.
+По запросу продавца администратор редактируетего учётную запись в разделе **Пользователи** в панели управления магазина.
 ![xc5_multi-vendor_admin_access2vendorprofile.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_admin_access2vendorprofile.png)
 
-For details on the management of vendor profile information, see {% link "Managing vendor profile information as an administrator" ref_5cbH2V3e %}
+## Завершение сессии продавца
 
-## Terminating a vendor's user session
-If the store administrator needs to force a logout of a vendor, they can terminate the user session of that vendor the same way as that of any other user in the store - by chosing the "Logout this user" option from the **Profile actions** selector in the vendor's profile:
+При необходимости принудительного вывода продавца из системы администратор завершает его сессию через меню **Действия с пользователем** на странице учётной записи продавца:
 ![xc5_mv_log_out_vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_log_out_vendor.png)
 
-## "Log in as this vendor"
-If the store administrator needs to access the Vendor area of a vendor (for example, to see what information is available to the vendor, to help the vendor with a certain task or to investigate some kind of problem), they can sign in to that Vendor area using the "Log in as this vendor" feature (available via the **Profile actions** selector in the vendor's profile):
+## Вход в систему с учётной записью продавца
+
+Чтобы помочь продавцу с настройкой магазина или исследовать проблему, администратор может войти в интерфейс продавца через меню **Действия с пользователем** на странице учётной записи продавца:
 ![xc5_mv_log_in_as_vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_log_in_as_vendor.png)
 
-Since vendor users are, technically, administrators with limited access, "Log in as this vendor" works the same way as the "{% link "Log in as this admin" ref_26UftgNS#accessing-the-store-as-another-administrator-log-in-as-this-admin %}" feature: the Vendor area of the selected vendor is opened in a new browser tab; on that tab the administrator is signed into the Vendor area as the vendor they have selected:
+Т.к. продавец - это администратор с ограниченным доступом, функция **Войти как продавец** работает так же, как и функция **Войти как администратор** - панель управления продавца открывается в новой вкладке браузера. При этом администратор авторизован в системе с логином и паролем продавца, из учётной записи которого он перешёл в интерфейс продавца:
 ![xc5_mv_log_in_as_vendor1.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_log_in_as_vendor1.png)
-The user session which the administrator was using gets terminated.
-To quit using the Vendor area as a vendor, the administrator needs to sign out.
 
-## Exporting vendor profile information
-If the information from the profiles of some or all of the store's vendors needs to be used outside the X-Cart store (for example, if the store owner wants to have this information in a spreadsheet editor or wishes to use it in some kind of other external application), the store administrator should consider exporting vendor profile information from the X-Cart store to a CSV file:
+При переходе администратора в интерфейс продавца его сессия как администратора прерывается. Чтобы завершить сесси продавца, администратору следует выйти из учётной записи.
+
+## Экспорт учётных записей продавцов
+
+Администратор может сохранить информацию о продавцах в текстовом редакторе или использовать её в стороннем приложении. Для переноса всех данных осуществляется экспорт в CSV файл:
 ![xc5_multi-vendor_export.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_export.png)
 
-## Removing vendors
+## Удаление проавцов
 
-If the access of any existing vendor to the marketplace needs to be discontinued, the store administrator can remove their user profile via the Users section of the store's Admin area:
+Чтобы удалить продавца с торговой площадки, администратор удаляет его учётную запись в разделе **Пользователи / Список пользователей**, нажав на значок корзины и **Сохранить**:
 ![xc5_multi-vendor_removal.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_removal.png)
