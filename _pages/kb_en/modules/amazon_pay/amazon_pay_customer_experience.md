@@ -18,7 +18,7 @@ In the Customer area of your X-Cart store, in all the locations from which buyer
 Here's what it looks like:
 
 <div class="ui stackable three column grid">
-  <div class="column" markdown="span">![amz-cus-cart.png]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-cart.png)<p>"Your shopping bag" page</p></div>
+  <div class="column" markdown="span">![amz-cus-cart.png]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-cart.png)"Your shopping bag" page</div>
   <div class="column" markdown="span">![amz-cus-minicart.png]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-minicart.png)<p>"Minicart" widget</p></div>
   <div class="column" markdown="span">![amz-cus-popup.png]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-popup.png)<p>"Add to cart" popup (if {% link "Add to Cart PopUp Module" ref_1iGC8Efj %} is enabled)</p></div>
 </div>
