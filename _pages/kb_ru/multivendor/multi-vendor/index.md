@@ -16,7 +16,7 @@ published: true
     *   {% link "Управление продавцами" ref_2VIZjv0i %}
     *   {% link "Управление учётными записями продавцов" ref_2rJB0b8C %}
     *   {% link "Каталог товаров продавца" ref_4riMmgUo %}
-    *   {% link "Setting vendor commissions" ref_7B8smyEx %}
+    *   {% link "Настройка расчёта комиссии продавцов" ref_5PibVkQ1 %}
     *   {% link "Оформление и отслеживание выплат продавцам" ref_16DRDxyb %}
     *   {% link "Статистика заказов продавцов" ref_1XinLemP %}
 
