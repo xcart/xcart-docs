@@ -7,30 +7,27 @@ title: Каталог товаров продавца
 order: 220
 published: false
 ---
-In a multivendor X-Cart store, the store administrator exercises the function of supervising the product catalog through which the vendors market their products. In connection with this function, the administrator can:
+В магазине, в котором работает несколько продавцов, администратор управляет каталогом товаров.
 
-   * [Create catalog categories](#creating-catalog-categories);
-   * [Control the use of product classes and attributes by vendors](#working-on-product-classes-and-attributes);
-   * [Determine the owner of any product in the catalog](#determining-the-owner-of-a-product);
-   * [Change the owner of a product](#changing-the-owner-of-a-product);
-   * [Sort the products by vendor in Product list view](#sorting-the-products-by-vendor);
-   * [Find the products of a specific vendor](#finding-the-products-of-a-certain-vendor).
+{% toc %}
 
 
-## Creating catalog categories
-By default, vendor users in a multivendor X-Cart store do not have the permissions to create or manage the store's product categories. It means that the categories to which the vendors will add their products must be created by store administrator. The vendors will add their products to the existing categories; if the need arises for a new category, the vendors will have to contact the store administrator to request the change. The store administrator can create and manage categories via the Manage categories section of the store's Admin area (**Catalog** > **Categories**). 
-Note that if necessary the store's primary administrator may choose to delegate the function of supervising the product catalog categories to any other administrator user (including vendor); to do so, they just need to give them an additional role for category management with the permission to manage the product catalog:
-![xc5_mv_category_management.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_category_management.png)
+## Создание категорий товаров
+
+Только администратор магазина имеет права на создание новых категорий в каталоге товаров, а продавцы могут только внести свои товары в имеющиеся категории. Если продавец не находит подходящей категории, он запрашивает у администратора создание новой категории. 
+
+Администратор создаёт новые и управляет существующими категориями в разделе **Каталог / Категории**в панели управления магазина. Главный администратор магазина имеет право передать управление категориями каталога другому пользователю с правами администратора, включая продавцов. Для этого администратору следует создать новый набор прав **Управление категориями с правами на редактирование каталога** и выдать эти права пользователю в его учётной записи.
 
 
-## Working on product classes and attributes
-The store administrator supervises the use of {% link "product classes and attributes" ref_T90ZcEpP %} by the vendors: 
+## Управление классами и атрибутами товаров
 
-   * Product classes and attributes are a complex topic in X-Cart that requires time to understand. So the store administrator may need to help new vendors with the initial setup of product classes, attributes and attribute values. The store administrator can themselves create any product classes, attributes and attribute values that the vendors may require (including any attributes at the global level, the level of product classes and the level of specific products) via the Classes & attributes section (**Catalog** > **Classes & attributes**) of the store's Admin area.
+Администратор торговой площадки контролирует использование продавцами классов и атрибутов товаров: 
+
+   * Администратор помогает продавцам настроить классы, атрибуты и значения атрибутов или создаёт их самостоятельно по запросу продавца в разделе **Каталог / Классы и атрибуты**. Администратор создаёт глобальные атрибуты, атрибуты на уровне класса товаров и на уровне конкретного товара.
     
-   * Vendors have access to the creation of their own product classes, attributes and attribute values. The store administrator should periodically check the Classes & attributes section (**Catalog** > **Classes & attributes**) to review the product classes, attributes and attribute values that the vendors have created and, if necessary, can edit or delete them. When displayed to the administrator, product classes and attributes created by vendors are marked with the name and email of the vendor who owns them ("Vendor: Vendor name [(vendor_email@example.com)](http://localhost/x-cart-5.2.8-en/admin.php?target=profile&profile_id=11)"), so the administrator can easily tell which product class or attribute is owned by whom.  
+   * Продавцы самостоятельно создают классы и атрибуты для своих товаров. Администратор время от времени проверяет список на странице **Каталог / Классы и атрибуты** и при необходимости редактирует или удаляет записи. Администратор различает классы и атрибуты, созданные продавцами, по указанному имени и адресу электронной почты.  
     
-   * The store administrator can specify whether vendor users should be able to add their own values for global attributes and attributes created by the administrator or by the other vendors at the level of product classes, or whether they should just be able to use the existing values. To do so, they need to adjust the setting "Vendor access to global attributes" on the {% link "«Multi-vendor» addon settings page" ref_MRQEvicQ %}). 
+   * Что касается значений атрибутов, администратор устанавливает права в настройках модуля **Multi-vendor**: продавцы могут добавлять значения глобальных атрибутов и атрибутов, созданных администратором и другими продавцами для классов товаров; или продавцы могут использовать только существующие значения атрибутов. 
 
     
 ## Determining the owner of a product
