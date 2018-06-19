@@ -5,7 +5,7 @@ updated_at: '2018-06-19 11:45 +0400'
 identifier: ref_1XinLemP
 title: Статистика заказов продавцов
 order: 170
-published: false
+published: true
 ---
 ## Просмотр статистики заказов
 
