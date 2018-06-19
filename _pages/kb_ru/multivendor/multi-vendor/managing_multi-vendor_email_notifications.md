@@ -7,7 +7,7 @@ title: Уведомления по электронной почте для пр
 order: 190
 published: false
 ---
-The addon **Multi-vendor** enables its own set of email notifications in X-Cart. The store administrator should check and adjust these notifications in the Email notifications section (**Store setup** > **Email notifications**). More infornation on the management of X-Cart store notifications is available in the section {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}.
+Модуль **Multi-vendor** добавляет и активирует уведомления для продавцов. Администратор магазина настраивает эти уведомления в разделе **Настройка магазина / Уведомления по электронной почте**. Подробнее в статье The addon **Multi-vendor** enables its own set of email notifications in X-Cart. The store administrator should check and adjust these notifications in the Email notifications section (**Store setup** > **Email notifications**). More infornation on the management of X-Cart store notifications is available in the section {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}.
 
 The notifications pertaining to **Multi-vendor** include the following:
 
