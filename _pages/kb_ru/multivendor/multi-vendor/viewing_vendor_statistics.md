@@ -7,29 +7,41 @@ title: Статистика заказов продавцов
 order: 170
 published: false
 ---
-## Viewing vendor order statistics
-The store administrator can use the Statistics section (**Orders** > **Statistics**) to view the store's sales statistics. By default, the **Order statistics** tab in this section shows the store's overall sales statistics based on all the orders in the store. If needed, the store administrator can use the same tab to access the statistics on the sales of specific vendors.
+## Просмотр статистики заказов
 
-To view the Order statistics for a specific vendor, the store administrator needs to enter the vendor's company name or email address into the filter at the top of the order statistics table:
-![xc5_multi-vendor_order_statistics.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_order_statistics.png)
+В разделе **Заказы / Статистика** на вкладке **Статистика заказов** содержится информация обо всех заказах торговой площадки. Также, администратор видит статистику продаж отдельных продавцов.
+
+Для поиск статистики продавца администратор вводит его адрес электронной почты или название компании в поле поиска:
+
+![1.jpg]({{site.baseurl}}/attachments/ref_1XinLemP/1.jpg)
    
-   
-## Viewing vendor bestsellers   
-The store administrator can use the **Best sellers** tab of the Statistics section (**Orders** > **Statistics**) to view the statistics on the store's best selling products. Similarly to Order statistics, the Best sellers statistics can be filtered by vendor:
-![xc5_multi-vendor_order_bestsellers.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_order_bestsellers.png)
+## Просмотр лидеров продаж продавцов
 
+Вкладка **Лидеры продаж** показывает часто продаваемые товары магазина. Аналогично статистике заказов, записи фильтруются по продавцам:
 
-## Viewing vendor financial statistics
-The store administrator can use the Vendor statistics section (**Orders** > **Vendor statistics**) to view the financial statistics for specific vendors, including the information about each vendor's all time earnings on sales via the store, the amount paid out to them and the amount remaining to be paid out: 
-![xc5_multi-vendor_statistics.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_statistics.png)
-    
-For each vendor, the following information is provided:
+![2.jpg]({{site.baseurl}}/attachments/ref_1XinLemP/2.jpg)
+
+## Финансовая статистика продавцов
+
+На странице **Заказы / Статистика продавцов** Администратор видит статистику финансов продавцов: историю платёжных операций, доход, расход, запросы на выплаты и остаток невыплаченных средств: 
+
+![3.jpg]({{site.baseurl}}/attachments/ref_1XinLemP/3.jpg)
+
+Следующая информация доступна по каждому продавцу:
      
-   *   Vendor: Vendor to whom the statistics pertains.
-   *   Transaction history: The link to view all the transactions for the vendor in the Transactions history.
-   *   Vendor earnings: How much money has been earned by the vendor on sales via the store.
-   *   Paid to Vendor: What part of the vendor's earnings has been paid out to them by the storefront operator. 
-   *   Liability: The amount that remains to be paid to the vendor by the storefront operator.
+   *   **Продавец** - Название компании и адрес электронной почты продавца.
+   *   **История транзакций** - Ссылка Открыть историю транзакций ведёт к списку платёжных операций продавца.
+   *   **Доход** - Доход продавца с продаж.
+   *   **Расход**- Сумма средств, выплаченных администратору в качестве комиссии, вычтенных после отмены заказа и т.п.
+   *   **Запрошено к выплате** - Часть дохода с продаж, выплаченная продавцу владельцем торговой площадки. 
+   *   **Осталось выплатить продавцам** -  Остаток средств, подлежащих выплате продавцу.
 
-## Viewing vendor transaction history
-The store administrator can view the history of transactions reflecting the movement of the money earned on the sales of vendor products between the accounts of the store owner/storefront operator and the vendors using the Vendor transactions section. To view all the transactions for all the vendors, the store administrator should select **Orders** > **Vendor transactions** in the Admin menu. To view the transactions for a specific vendor, the administrator should click the **Open transactions history** for the respective vendor in the Vendor statistics section (**Orders** > **Vendor statistics**), or to filter the transactions in the Vendor transactions section (**Orders** > **Vendor transactions**) by vendor profile. More info on vendor transactions is available in the section {% link "Vendor payouts and tracking the flow of money to and from the vendors" ref_3uy1YgfD %} of this manual.
+## Просмотр истории платёжных операций продавца
+
+Администратор магазина отслеживает передвижение средств между счетами владельца магазина и продавцами. Полный список платёжных операций доступен в разделе **Заказы / Платежные операции продавцов**. На этой странице можно увидеть проводки конкретного продавца, если сделать поиск по названию компании или адресу электронной почты. 
+
+![4.jpg]({{site.baseurl}}/attachments/ref_1XinLemP/4.jpg)
+
+Другой способ посмотреть платёжные операции конкретного продавца - перейти к списку по ссылке **Открыть историю операций** в разделе **Заказы / Статистика продавцов**.
+
+![5.jpg]({{site.baseurl}}/attachments/ref_1XinLemP/5.jpg)
