@@ -22,7 +22,7 @@ published: true
 
 *   Multi-vendor: Vendor experience
     *   {% link "Регистрация продавца" ref_4XIi52rR %}
-    *   {% link "Vendor login and first steps" ref_SZycMdTx %}
+    *   {% link "Начало работы продавца" ref_1GzoOb7x %}
     *   {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}
     *   {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
     *   {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %}
