@@ -20,7 +20,7 @@ published: true
     *   {% link "Оформление и отслеживание выплат продавцам" ref_16DRDxyb %}
     *   {% link "Статистика заказов продавцов" ref_1XinLemP %}
 
-*   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
+*   Multi-vendor: Vendor experience
     *   {% link "Vendor registration" ref_SkW62BgH %}
     *   {% link "Vendor login and first steps" ref_SZycMdTx %}
     *   {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}
