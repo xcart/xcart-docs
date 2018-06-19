@@ -5,7 +5,7 @@ updated_at: '2018-06-19 16:00 +0400'
 identifier: ref_2rJB0b8C
 title: Управление учётными записями продавцов
 order: 210
-published: false
+published: true
 ---
 ## Учётная запись
 
@@ -38,4 +38,3 @@ published: false
 
 Администратор может просматривать список товаров продавца, их цены и размер запаса:
    ![6.jpg]({{site.baseurl}}/attachments/ref_2rJB0b8C/6.jpg)
-
