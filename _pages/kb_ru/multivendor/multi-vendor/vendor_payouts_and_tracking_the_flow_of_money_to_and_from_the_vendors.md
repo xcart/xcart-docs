@@ -7,36 +7,34 @@ title: Оформление и отслеживание выплат прода�
 order: 180
 published: false
 ---
-In an X-Cart-based multivendor store/online marketplace, the store owner/storefront operator must ensure that the money earned by the vendors on product sales through the store/marketplace successfully reaches the respective vendors. The distribution of the earnings from product sales among all the participants (the vendors and the store owner/storefront operator) can be done:
+Возможны два способа распределения дохода с продаж между продавцами и владельцем торговой площадки:
    
-   * automatically (through the use of payment methods supporting automated distribution, like {% link "PayPal Adaptive Payments" ref_FdXWLwVN %};
-   * manually (by the store owner/storefront operator - using means outside X-Cart). 
+   * Автоматически через платёжные системы, которые поддерживают распределение средств по разным счетам. Этот способ выплат не действует в магазинах на базе X-Cart, зарегистрированных в Российской Федерации, в связи со спецификой платёжных систем;
+   * Вручную администратором магазина. Этот способ используется в магазинах на базе X-Cart, зарегистрированных в Российской Федерации. 
 
-No matter which of the above methods is used to distribute the money, the store administrator acting on behalf of the store owner/storefront operator has a way to track the money flow right in the X-Cart Admin area - through the section Vendor transactions (**Orders** > **Vendor transactions**):
+Независимо от способа выплаты, администратор отслеживает передвижение средств в разделе **Заказы / Платёжные операции продавцов** в панели управления магазина:
    ![xc5_vendor_transactions_admin_view.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_vendor_transactions_admin_view.png)
 
-In the case of automated distribution, the transactions reflecting the movement of the money are generated and registered in this section automatically. In the case of manual distribution, the store administrator uses this section to manually register any transactions taking place between the store owner/storefront operator and each of the vendors.
+При **автоматическом** распределении дохода с продаж операции появляются в этом списке автоматически. При распределении выплат **вручную** администратор создаёт новую платёжную операцию по каждому передвижению средств от владельца магазина к продавцам и наоборот.
 
-Let us take a closer look at how to work on vendor transactions using the Vendor transactions section.
+## Просмотр списка платёжных операций
 
-## Viewing vendor transactions
+Раздел **Заказы / Платёжные операции продавцов** представляет платёжные операции в виде таблицы, содержащей следующую информацию:
 
-The main content of the Vendor transactions section is a table showing vendor transaction information in the following format:
-
-   *   Vendor: Company name and email address of the vendor to whom the transaction pertains.
-   *   Created by: Transaction origin (who created the transaction). The following values may be used:
+   *   **Продавец** - Название компании и адрес электронной почты продавца, которому принадлежит операция.
+   *   **Кем создана** - Происхождение платёжной операции. Возможные значения этой колонки:
        
-       * Order number (like "#00011") - The transaction was created automatically in connection with the payment for or cancellation/refund of the specified order; 
-       * Administrator name and email address (like Admin Admin admin@example.com) - The transaction was created manually by the administrator using the **Create transaction** feature.
-       * PayPal logo - The transaction was created automatically by PayPal (if a PayPal payment method with automatic distribution was used).
-       * Vendor company name and email address (like Partner Inc partner2@example.com) - The transaction is a payout request created by the specified vendor.
+       * **Номер заказа** - платёжная операция создана автоматически после оплаты/отмены указанного заказа (_не для Российской Федерации_); 
+       * **Имя и адрес электронной почты администратора** - платёжная операция создана администратором.
+       * **Логотип PayPal** - платёжная операция создана автоматически после оплаты/отмены заказа через метод оплаты **PayPal**, поддерживающий автоматическое распределение средств (_не для Российской Федерации_).
+       * **Название компании и адрес электронной почты продавца** - платёжная операция представляет собой запрос продавца на выплату средств.
        
-   *   Date: Date when the transaction took place.
-   *   Order: Order to which the transaction pertains.
-   *   Description: Short description of the transaction. For example:
+   *   **Дата** - дата совершения платёжной операции.
+   *   **Заказ** - номер заказа, к которому относится платёжная операция.
+   *   **Описание** - краткий комментарий к операции:
         
-       * Order paid - One or more products owned by the vendor were purchased and paid for. The vendor has earned money, but the store owner/storefront operator has not yet paid it out to them.
-       * Order canceled/refunded - A purchase of one or more products from the vendor has been canceled/refunded. The money needs to be deducted from the vendor's account balance to cover the expense.
+       * **Заказ оплачен** - Один или несколько товаров продавца оплачены, продавец получил выручку с продажи, но администратор ещё не перевёл заработанные средства продавцу.
+       * **Заказ отклонён/отменён** - Оплата товаров продавца не прошла или отменена. Сумма, начисленная продавцу, будет списана с его счёта.
        * Method name: Commission paid (like "PayPal Adaptive: Commission paid" or "PayPal For Marketplaces: Commission paid") - The money earned by the vendor has been transferred via the specified payment method to the vendor's account. The commission due to the storefront operator on this sale (minus the payment method commission) has been paid to the storefront operator.
    *   Income: The money amount that has been earned and added to the administrator account balance by this transaction (excluding the administrator commission).
    *   Expense: The money amount that has been paid out to the vendor by this transaction (In the case of a payout request - the amount of money that has to be paid out to the vendor based on this payout request).
