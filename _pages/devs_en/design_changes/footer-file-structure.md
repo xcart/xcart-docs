@@ -13,12 +13,10 @@ published: true
 This article describes what templates are used to render footer section of customer area in X-Cart. By 'footer' we mean the section shown below:
 ![footer.png]({{site.baseurl}}/attachments/ref_TLfQP0C0/footer.png)
 
-Once you know what templates are used {% link "you can change this section" ref_fCqWygpc %} according to your needs.
+Once you know what templates and view lists are used, {% link "you can change this section" ref_E88KCMDD %} according to your needs.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Table of Contents](#table-of-contents)
-- [Footer structure](#footer-structure)
+{% toc Table of Contents %}
 
 ## Footer structure
 This area is represented by the collection of templates and view classes assigned to `layout.footer` view list. You can see the call for this view list in `skins/customer/main.twig` template:
