@@ -15,7 +15,7 @@ published: true
     *   {% link "Уведомления по электронной почте для продавцов" ref_7ibWNHAF %}
     *   {% link "Управление продавцами" ref_2VIZjv0i %}
     *   {% link "Управление учётными записями продавцов" ref_2rJB0b8C %}
-    *   {% link "Supervising the product catalog" ref_0dPCIV3f %}
+    *   {% link "Каталог товаров продавца" ref_4riMmgUo %}
     *   {% link "Setting vendor commissions" ref_7B8smyEx %}
     *   {% link "Оформление и отслеживание выплат продавцам" ref_16DRDxyb %}
     *   {% link "Статистика заказов продавцов" ref_1XinLemP %}
