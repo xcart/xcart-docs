@@ -5,7 +5,7 @@ updated_at: '2018-06-20 00:08 +0400'
 identifier: ref_173RdhEa
 title: Управление учётной записью
 order: 240
-published: false
+published: true
 ---
 ## Учётная запись продавца
 
