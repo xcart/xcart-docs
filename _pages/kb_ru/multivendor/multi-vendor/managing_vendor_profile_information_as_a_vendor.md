@@ -7,40 +7,45 @@ title: Управление учётной записью
 order: 240
 published: false
 ---
-## Account details
-A vendor user can access the general information about their account and edit their account email address and password via the Account details section. This section can be accessed using one of the following methods:
+## Учётная запись продавца
 
-   * By clicking on the user icon in the header of the store's back end and selecting **My profile**:
+На странице учётной записи продавец видит общую информацию о своём магазине и может изменить пароль. Страница учётной записи доступна 
+
+   * По ссылке **Мой профиль** на иконке в правом верхнем углу:
      ![xc5_mv_vendor_my_profile_link.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_my_profile_link.png)
 
-   * By clicking **My account** and selecting **Account details**:
+   * В разделе **Мой аккаунт / Учётная запись** в главном меню панели управления:
      ![xc5_mv_vendor_account_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_account_details.png)
 
 
-## Address book
-A vendor can specify their name and address(es) in the Address book section (**My account**>**Account details**, **Address book** tab):
+## Адресная книга
+
+В разделе **Мой аккаунт / Учётная запись** на вкладке **Адресная книга** продавец видит и редактирует свой личный адрес и добавляет новые адреса:
      ![xc5_mv_vendor_address_book.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_address_book.png)
 
-Note that this section is intended for the personal address(es) of the seller; this information will not be shared with the buyers. The address that will be used to calculate the cost of shipping from the vendor's warehouse to the buyer in the "Vendors as separate shops" multivendor mode should be specified in the Company address section (**My account** > **Company address**). 
+Продавец использует адреса из этого раздела для оформления покупок, которые делает в магазине в качестве покупателя. Покупатели не видят эти адреса продавца. В разделе **Адресная книга** не отображается адрес отправки заказов покупателям в режиме **Отдельные склады.** 
 
-## Company details
-A vendor should provide general information about their business in the **Company details** section:
+## Информация о компании
+
+В этом разделе продавец указывает общую информацию о своём магазин:
      ![xc5_mv_vendor_company_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_company_details.png)
 
-   * **Company name**: Name by which store visitors will identify the vendor. 
-   * **CleanURL**: Human readable and SEO friendly web address for the vendor profile page in the Customer area.
-   * **Image**: Vendor image.
-   * **Location**: Vendor location.
-   * **Description**: Vendor description for the vendor profile page.
+   * **Название компании** - Название магазина продавца на торговой площадке. 
+   * **ЧПУ** - Оптимизированная для поисковых систем семантическая ссылка на страницу продавца на торговой площадке.
+   * **Изображение** - Изображение магазина, которое покупатели увидят на странице продавца.
+   * **Местонахождение** - Нахождение продавца.
+   * **Описание** - Краткое описание магазина, которое покупатели увидят на странице продавца.
     
-## Company address
-A vendor should specify their company address. The vendor company address may be specified during vendor registration or entered directly in the Company address section of the Vendor area (**My account** > **Company address**). In the "Vendors as separate shops" multivendor mode, this address is used to calculate the cost of shipping from the vendor's warehouse to the buyer.  
+## Адрес продавца
+
+Адрес продавца используется в режиме **Отдельные склады** для отправки заказов покупателям и для расчёта стоимости доставки. Продавец указывает адрес в заявке на регистрацию или после подтверждения регистрации в разделе **Мой профиль / Учётная запись** на вкладке **Адрес продавца**.  
      ![xc5_mv_my_account_vendor_company_address.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_my_account_vendor_company_address.png)
 
-## Financial details
-A vendor can view and manage the financial information regarding their account via the **Financial details** section (**My account** > **Financial details**):
+## Финансовые детали
+
+В разделе **Мой профиль / Учётная запись** на вкладке **Финансовые детали** продавец видит размер взимаемой с него комиссии с суммы продаж и со стоимости доставки заказов:
      ![xc5_mv_vendor_financial_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_financial_details.png)
      
 Here the vendor can see the size of commissions set by the storefront operator for their account. 
 
-Also, the vendor can use this section to specify an account that they wish to use to accept money from the sales through the multivendor marketplace. This can be either a PayPal account or a bank account. If the store uses PayPal Adaptive payments, specifying a PayPal account in the vendor's financial info will allow the vendor to be paid automatically on each sale made through the store. The details of the vendor's bank account are not used by X-Cart, but they are visible to the store owner/storefront operator (represented by the account of the store administrator) who can use these details to transfer the funds they owe to the vendor using means outside X-Cart.
+Также, в этом разделе продавец указывает реквизиты банковского счёта, на который получает доход с продаж на торговой площадке. Только администратор магазина видит реквизиты банковского счёта продавца.
