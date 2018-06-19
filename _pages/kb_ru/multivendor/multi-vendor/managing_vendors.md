@@ -5,7 +5,7 @@ updated_at: '2018-06-19 15:20 +0400'
 identifier: ref_2VIZjv0i
 title: Управление продавцами
 order: 200
-published: false
+published: true
 ---
 ## Обработка запросов на регистрацию
 
