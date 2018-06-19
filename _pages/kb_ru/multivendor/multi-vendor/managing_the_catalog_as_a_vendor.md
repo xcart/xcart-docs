@@ -7,33 +7,22 @@ title: Товары продавца
 order: 250
 published: false
 ---
-Vendors can add and manage products using the Products section (**Catalog** > **Products**).
+В разделе **Каталог / Товары** продавец видит список своих товаров, представленных в магазине, добавляет новые товары и редактирует существующие.
 
-To add a new product, a vendor needs to go to this section and click the **Add new** button:
+Кнопка **Добавить товар** открывает страницу {% link "создания нового товара" ref_REno3u9g %}:
 
-![xc5_mv_vendor_add_product.png]({{site.baseurl}}/attachments/ref_r4mcwiho/xc5_mv_vendor_add_product.png)
+![1.jpg]({{site.baseurl}}/attachments/ref_5dCYCGJt/1.jpg)
 
-then enter information about the product using the form provided:
+Новый созданный продавцом товар также появляется в списке.
 
-![xc5_mv_vendor_add_product1.png]({{site.baseurl}}/attachments/ref_r4mcwiho/xc5_mv_vendor_add_product1.png)
+На странице **Каталог / Товары** продавец редактирует, импортирует, включает или отключает все товары единовременно. 
 
-More info about the process can be found in the article {% link "Adding products" ref_fhzzxDTy %}. 
+Чтобы редактировать конкретный товар, продавец нажимает на его название и попадает на страницу информации об этом товаре. Как и администратор магазина, продавец редактирует классы, атрибуты, запас, отзывы, связанные товары и т.д.
 
-The entered product information needs to be saved by clicking the **Add product** button at the bottom of the page.
+![2.jpg]({{site.baseurl}}/attachments/ref_5dCYCGJt/2.jpg)
 
+Что касается управления каталогом, продавцу доступно меньше функций, чем администратору:
 
-
-Once a product vendor has added some products, they can view them as a list in the Products section:
-![xc5_mv_vendor_products.png]({{site.baseurl}}/attachments/ref_r4mcwiho/xc5_mv_vendor_products.png)
-
-From here they can access the details of specific products, remove products and temporarily disable products. 
-
-The product details view for vendors is similar to that of the store administrator: vendors can control the product's info, product class and attributes, inventory tracking options, product reviews, related products, etc.
-
-![xc5_mv_vendor_product_view.png]({{site.baseurl}}/attachments/ref_r4mcwiho/xc5_mv_vendor_product_view.png)
-
-Note, however, that vendor's catalog management capabilities are different from those of the store administrator:
-
-*   Unlike administrators with the role "Administrator", vendors can view and manage only their own products: any products added by other users are not visible to them.
-*   Unlike administrators with the role "Administrator", vendors do not have access to category management. They cannot create categories by themselves and can only add their products to categories created by the store administrator. If the store's list of categories is lacking a category that a vendor requires, they need to contact the store administrator to resolve this problem.
-*   Vendors can assign product classes and attribute values added by the store administrator to their own products. Depending on the way the store is configured, vendors may also be able to add their own product classes and attribute values. More information about this is available in the section {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %} of this manual.
+*   В разделе **Каталог / Товары** продавец видит не все товары магазина, а только свои товары.
+*   Продавец не создаёт категории, а только добавляет свои товары в созданные администратором категории. Если в магазине нет нужной категории, проавец обращается за помощью к администратору.
+*   В зависимости от настроек, установленных администратором, продавец может задать для своих товаров только созданные администратором классы и значения атрибутов или самостоятельно создать классы и значения атрибутов.
