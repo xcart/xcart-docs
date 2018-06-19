@@ -21,7 +21,7 @@ published: true
     *   {% link "Статистика заказов продавцов" ref_1XinLemP %}
 
 *   Multi-vendor: Vendor experience
-    *   {% link "Vendor registration" ref_SkW62BgH %}
+    *   {% link "Регистрация продавца" ref_4XIi52rR %}
     *   {% link "Vendor login and first steps" ref_SZycMdTx %}
     *   {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}
     *   {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
