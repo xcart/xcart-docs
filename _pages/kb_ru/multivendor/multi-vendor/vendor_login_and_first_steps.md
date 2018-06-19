@@ -8,42 +8,34 @@ order: 100
 published: false
 ---
 
-From the viewpoint of X-Cart 5 user access levels, a vendor user is an administrator with the role "Vendor". This means that vendors are allowed to log in to the store's back end, but have access only to a limited set of features (This is called a "Vendor area").
+С точки зрения уровня доступа, продавец - администратор с набором прав **Продавец**. Продавец входит в панель управления магазина, но управляет только разделами, связанными с его продажами.
 
-After a vendor account has been registered (see {% link "Vendor registration" ref_SkW62BgH %}), the vendor can log in to their personal Vendor area using any user login form in the store. For example, they can use:
+Сразу после подтверждения регистрации продавец получает доступ в панель управления и авторизуется через любую форму входа:
 
-   * the regular Sign in/Sign up form for customers, 
-   * the URL for administrator users: `https://<your-domain>/<x-cart-5-directory>/admin.php?target=login`
-   * the URL for vendors: `https://<your-domain>/<x-cart-5-directory>/admin.php?target=login_vendor`
-     (The portion `http://<your-domain>/<x-cart-5-directory>` needs to be replaced with the actual address of your X-Cart 5 store).
-
-After logging in, the vendor will see a page similar to the following:
+   * в интерфейсе покупателей 
+   * в интерфейсе администратора по ссылке `https://магазин.ру/admin.php?target=login`
+   * в интерфейсе продавца по ссылке `https://магазин.ру/admin.php?target=login_vendor`
+     
+При входе в панель управления продавце видит сводную информационную страницу и приветственное сообщение:
 ![xc5_mv_vendor_dashboard.png]({{site.baseurl}}/attachments/ref_SZycMdTx/xc5_mv_vendor_dashboard.png)
 
-Now the vendor can start selling. The steps below will get them started:
+Необходимые действия перед началом работы:
 
-1. If a vendor onboarding welcome message has been provided by the storefront operator (similar to the one in the screenshot above, titled "Welcome to our marketplace"), the vendor should read the message and follow the instructions provided therein. 
+1. Общие инструкции предоставлены в приветственном сообщении, которое продавец видит при первом входе в панель управления, если администратор настроил это сообщение. 
 
-2. The vendor should check the information in their user profile and see if anything needs to be added or corrected. See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}.
+2. В первую очередь следует проверить и отредактировать учётную запись.
 
-3.  The vendor should populate the catalog with the products they are going to sell. See {% link "Managing the catalog as a vendor" ref_r4mcwiho %} for information on how vendors can add products to the catalog manually. See {% link "Vendor import/export" ref_pa3oqbXz %} for information on how vendors can add products using CSV import.
-    Information on the use of product classes and attributes by vendors can be found in the section {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %}.
+3. Далее продавец вносит свои товары в каталог магазина - создаёт товары вручную или импортирует. Продавцы настраивают классы и атрибуты для своих товаров товаров.
+    
+4.  В режиме **Отдельные склады**:
+    *  Продавец указывает адрес отправки товаров, на основе которого будет рассчитываться стоимость доставки заказов покупателям.
 
-4.  If the store is set to work in the "_Vendors as separate shops_" {% link "multivendor mode" ref_nFq48dhr %}:
-    *  The vendor must specify the address from which their products will be shipped. This address will be used to calculate the cost of delivery of an order from the vendor's warehouse to the buyer. See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf#company-details %}
-
-    *  The vendor must specify the shipping methods they are going to use. See {% link "Managing shipping methods as a vendor" ref_IvXmtLKI %}.
+    *  Также, продавец указывает методы доставки, доступные покупателям в его магазине. 
 
     {% note info %}
-    (In "_Warehouse_" mode, the products of different vendors are shipped from the same warehouse, so the "ship-from" address and shipping methods are the same for all the vendors; the configuration of the "ship-from" address and shipping methods in this case is done by the store administrator.)
+    В режиме **Общий склад** товары всех продавцов отправляются с одного склада, поэтому адрес отправки и методы оплаты одни и те же для всех продавцов. За настройку доставки отвечает администратор магазина.
     {% endnote %}
+  
+5.  Если администратор активировал купоны и скидки для продавцов, продавцы самостоятельно создают купоны и скидки на свои товары.
 
-5.  If the store is set to work in the "_Vendors as separate shops_" {% link "multivendor mode" ref_nFq48dhr %}, vendors are responsible for the collection of sales tax, and the store uses an automated sales tax calculation solution like AvaTax or TaxJar:
-
-    *  The vendor must check the Financial details of their profile (**My account** > **Financial details**) and ensure that only the US states in which they are going to do business and which pertain to their nexus are listed in the "US tax calculation" settings section. This is needed to ensure that no tax calculation requests are sent to AvaTax/TaxJar if the user creating an order comes from a state which does not belong to the vendor's nexus.
-
-    For more information on the usage of AvaTax Sale Tax Automation with X-Cart Multivendor, see {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}.
-    
-6.  If the option to create coupons and discounts has been enabled for the vendor by the store administrator, the vendor can create coupons and discounts for their products. See {% link "Adding coupons and discounts for vendor products" ref_SwbyhUn5 %}.
-
-7. Once customers start buying products owned by the vendor, the vendor will be able to view the orders via the Orders section. They will also have access to sales statistics including their order statistics and best selling products. See {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}.
+6. В разделе **Заказы** продавец видит заказы, содержащие его товары, статистику продаж и наиболее часто покупаемые товары.
