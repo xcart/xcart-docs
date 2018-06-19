@@ -12,23 +12,22 @@ published: false
 На странице учётной записи продавец видит общую информацию о своём магазине и может изменить пароль. Страница учётной записи доступна 
 
    * По ссылке **Мой профиль** на иконке в правом верхнем углу:
-     ![xc5_mv_vendor_my_profile_link.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_my_profile_link.png)
-
+     
    * В разделе **Мой аккаунт / Учётная запись** в главном меню панели управления:
-     ![xc5_mv_vendor_account_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_account_details.png)
-
+     
+     ![5.jpg]({{site.baseurl}}/attachments/ref_173RdhEa/5.jpg)
 
 ## Адресная книга
 
 В разделе **Мой аккаунт / Учётная запись** на вкладке **Адресная книга** продавец видит и редактирует свой личный адрес и добавляет новые адреса:
-     ![xc5_mv_vendor_address_book.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_address_book.png)
+     ![6.jpg]({{site.baseurl}}/attachments/ref_173RdhEa/6.jpg)
 
 Продавец использует адреса из этого раздела для оформления покупок, которые делает в магазине в качестве покупателя. Покупатели не видят эти адреса продавца. В разделе **Адресная книга** не отображается адрес отправки заказов покупателям в режиме **Отдельные склады.** 
 
 ## Информация о компании
 
 В этом разделе продавец указывает общую информацию о своём магазин:
-     ![xc5_mv_vendor_company_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_company_details.png)
+     ![7.jpg]({{site.baseurl}}/attachments/ref_173RdhEa/7.jpg)
 
    * **Название компании** - Название магазина продавца на торговой площадке. 
    * **ЧПУ** - Оптимизированная для поисковых систем семантическая ссылка на страницу продавца на торговой площадке.
@@ -39,13 +38,11 @@ published: false
 ## Адрес продавца
 
 Адрес продавца используется в режиме **Отдельные склады** для отправки заказов покупателям и для расчёта стоимости доставки. Продавец указывает адрес в заявке на регистрацию или после подтверждения регистрации в разделе **Мой профиль / Учётная запись** на вкладке **Адрес продавца**.  
-     ![xc5_mv_my_account_vendor_company_address.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_my_account_vendor_company_address.png)
+     ![8.jpg]({{site.baseurl}}/attachments/ref_173RdhEa/8.jpg)
 
 ## Финансовые детали
 
 В разделе **Мой профиль / Учётная запись** на вкладке **Финансовые детали** продавец видит размер взимаемой с него комиссии с суммы продаж и со стоимости доставки заказов:
-     ![xc5_mv_vendor_financial_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_financial_details.png)
+     ![9.jpg]({{site.baseurl}}/attachments/ref_173RdhEa/9.jpg)
      
-Here the vendor can see the size of commissions set by the storefront operator for their account. 
-
 Также, в этом разделе продавец указывает реквизиты банковского счёта, на который получает доход с продаж на торговой площадке. Только администратор магазина видит реквизиты банковского счёта продавца.
