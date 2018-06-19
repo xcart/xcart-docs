@@ -26,11 +26,11 @@ Here's what it looks like:
 
 Once the **Amazon Pay** button is clicked, a pop-up window titled "Amazon Pay: Sign In" is displayed where the buyer is asked for their Amazon Pay account email address and password:
 
-![]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-signin.png)
+![amz-cus-signin.png]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-signin.png)
 
 After the buyer successfully authenticates, they find themselves on a special checkout page in X-Cart which has two Amazon widgets embedded in it: the AddressBook widget (the "Address Book" section) where the buyer can select a shipping address from their Amazon Pay account or add a new one and the Wallet widget (the "Payment Method" section) where the buyer can select a payment method from their Amazon Pay account:
 
-![]({{site.baseurl}}/attachments/7504625/7602351.png)
+![amz-checkout.png]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-checkout.png)
 
 {% note info %}
 The buyer stays on your store's site throughout the checkout process, without ever being redirected to Amazon.
