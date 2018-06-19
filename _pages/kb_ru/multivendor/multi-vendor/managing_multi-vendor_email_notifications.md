@@ -5,41 +5,40 @@ updated_at: '2018-06-19 13:43 +0400'
 identifier: ref_7ibWNHAF
 title: Уведомления по электронной почте для продавцов
 order: 190
-published: false
+published: true
 ---
-Модуль **Multi-vendor** добавляет и активирует уведомления для продавцов. Администратор магазина настраивает эти уведомления в разделе **Настройка магазина / Уведомления по электронной почте**. Подробнее в статье The addon **Multi-vendor** enables its own set of email notifications in X-Cart. The store administrator should check and adjust these notifications in the Email notifications section (**Store setup** > **Email notifications**). More infornation on the management of X-Cart store notifications is available in the section {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}.
+Модуль **Multi-vendor** добавляет и активирует уведомления для продавцов. Администратор магазина настраивает эти уведомления в разделе {% link "Настройка магазина / Уведомления по электронной почте" ref_2NMZBFiZ %}. 
 
-The notifications pertaining to **Multi-vendor** include the following:
+Почтовые уведомления модуля **Multi-vendor**:
 
+* **Сообщения об учётных записях продавцов**:
 
-* _Notifications related to the management of vendor accounts:_
-
-     * **Vendor account created**: This notification is sent when a new vendor account is created.
+     * **Создание учетной записи продавца** - Админстратор и продавец получают уведомление, когда в магазине зарегистрирован новый продавец.
    
-     * **Vendor account approved**: This notification is sent after a new vendor account is approved by the store administrator.
+     * **Учетная запись продавцаа подтверждена** - Продавец получает уведомление, когда его запрос на регисрацию подтверждён администратором.
     
-     * **Vendor account rejected**: This notification is sent after a new vendor account is rejected by the store administrator.
+     * **Учетная запись продавца отклонена** - Продавец получает уведомление, когда его запрос на регистрацию отклонён администратором.
 
 
-* _Order related notifications for vendors:_
+* **Сообщения о заказах продавцов**:
 
-    * **Order changed with advanced order management (for vendor)**: This message is sent to notify the vendor of any changes made to their order by an administrator using the advanced order management feature.
+    * Заказ изменен с помощью продвинутого редактирования заказов (для продавца)  - Продавец получает уведомление, когда администратор изменяет заказ, содержащий его товары, используя дополнительные опции редактирования заказов.
    
-    * **Order canceled (for vendor)**: This notification is sent to the vendor when an order gets the status Canceled.
+    * Заказ отменен (для продавца) - Продавец получает уведомление, когда отмеённ заказ, содержащий его товары.
    
-    * **Order changed (for vendor)**: This notification is sent to the vendor when the status of an order is updated - in the event that no other type of notification is sent.
+    * Заказ изменен (для продавца) - Продавец получает уведомление, когда изменён статус заказа, при условии, что никакие другие уведомления не отправлены.
    
-    * **Order created (for vendor)**: This notification is sent to the vendor when a new order is created (Disabled by default).
+    * Заказ создан (для продавца) - Продавец получает уведомление, когда сформирован новый заказ, содержащий его товары.
    
-    * **Order failed (for vendor)**: This notification is sent to both the administrator and customer when an order gets the status Declined.
+    * Заказ отклонен (для продавца) - Администратор, продавец и покупатель получают уведомления, когда сзаказу присвоен статус Отколнён.
    
-    * **Order processed (for vendor)**: This notification is sent to the vendor when an order gets the status Paid.
+    * Заказ оплачен (для продавца) - Продавец получает уведомление, когда оплачен заказ, содержащий его товары.
    
-    * **Customer has rated the order (for vendor)**: This notification is sent to the vendor when a customer rates the order of this vendor
+    * Клиент оценил заказ (для продавца) - Продавец получает уведомление, когда покупатель даёт оценку заказу, содержащему товары продавца.
 
 
-* _Payout request related notifications:_
+* **Сообщения о выплатах продавцам**:
 
-    * **Vendor request for payment**: This message is used to notify the administrator when a vendor submits a payout request.
+    * Запрос от продавца на выплату средств - Администратор получает уведомление, когда продавец запрашивает выплату.
    
-    * **Vendor request has been processed**: This message notifies the vendor who has submitted a payout request as to whether their payout request has been approved or declined by the administrator.
+    * Запрос от продавца был обработан - Продавец получает уведомление, когда его запрос на выплату выполнен или отклонён.
