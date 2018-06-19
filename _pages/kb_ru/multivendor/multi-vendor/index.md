@@ -18,7 +18,7 @@ published: true
     *   {% link "Supervising the product catalog" ref_0dPCIV3f %}
     *   {% link "Setting vendor commissions" ref_7B8smyEx %}
     *   {% link "Vendor payouts and tracking the flow of money to and from the vendors" ref_3uy1YgfD %}
-    *   {% link "Viewing vendor statistics" ref_4mvK1AKz %}
+    *   {% link "Статистика заказов продавцов" ref_1XinLemP %}
 
 *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
     *   {% link "Vendor registration" ref_SkW62BgH %}
