@@ -49,28 +49,31 @@ published: false
 
 ## Создание платёжной операции
 
-The store admininstrator can manually create transactions in the Vendor transactions section. The transactions can be used to reflect the movement of funds both to and from the accounts of individual vendors.
+Создавать платёжные операции вручную может администратор магазина. Эти операции отражают передвижение средств от владельца торговой площадке к продавцам и наоборот. Создание платёжных операций необходимо, если распределение средств не происходит автоматически.
 
-Typically the store admininstrator pays out money to vendors based on payout requests. However, a payout request is not a requirement: the store administrator can create any type of transaction at any time, including payout transactions. For example, the store owner and the vendor can communicate and agree on the amount to be paid out to the vendor using personal communication outside X-Cart, and the administrator will be able to register such a transaction in X-Cart by manually creating a transaction using the method described below. 
+Администратор создают любой тип платёжных операций, включая запросы продавцов на выплаты. Например, если администратор и продавец договариваются об определённой сумме выплаты, администратор создаёт запрос вручную. 
 
-Similarly, the administrator will be able to create transactions for partial refunds, transactions to correct erroneous transactions and so on.
+Также, администратор вносит операции возвратов, частичных возвратов и корректирующие проводки.
 
-To manually register a transaction in the X-Cart Admin area, the store administrator needs to click the **Create transaction** button. This adds a new line in the transactions table. The administrator must select the vendor profile to which the transaction pertains, provide a description that will allow both the vendor and themselves to identify this transaction at a later time, and adjust the Income/Expense fields as needed. Once they are done, they need to click **Save changes** to save the transaction. The transaction will be saved, and both the administrator and vendor balance will be re-calculated.
+Для создания новой проводки администратор нажимает кнопку **Создать транзакцию**, появляется новая незаполненная строка. В новой строке администратор указывает имя продавца, описание проводки, по которой администратор и продавец смогут распознать платёж, доход и расход. Когда новая проводка сохранена, баланс владельца магазина и продавца пересчитывается.
 
-## Editing transactions
-The store administrator can edit the Description, Income and Expense fields of: 
-   * manually created transactions;
-   * payout request transactions.
-To edit a transaction, the administrator must click within the field that needs to be edited, make the changes they require, and save these changes using the **Save changes** button. Updating the contents of the Income and Expense fields will cause the money amounts on the administrator and vendor accounts to be re-calculated.   
+## Редактирование платёжных операций
 
-Note that the administrator cannot delete previously created transactions. The recommended method of correcting transactions created in error is by creating corrective transactions.
+Администратор редактирует описание, доход и расход внесённых вручную платёжных операций и запросов продавцов на выплату.
 
-## Handling payout requests
-When a new payout request from a vendor comes in, the store administrator is notified about it by email (This is enabled by the "Vendor request for payment" {% link "email notification" ref_7DW1NMak %}). The administrator can see the request in the Vendor transactions section. A request is a pending transaction; it looks like a regular transaction, but its description says "Request for payout" and it has two buttons - Accept and Decline:
+При наведении курсора на строку проводки поля описания, прихода и расхода становятся редактируемыми. После изменения содержания полей следует нажать кнопку **Сохранить**. После редактирования полей **Доход** и **Расход** происходит перерасчёт баланса администратора и продавца.   
+
+X-Cart не позволяет удалять платёжные операции. Если проводка внесена с ошибкой или не должна была быть внесена, следует внести корректирующую проводку.
+
+## Обработка запросов продавцов на выплату
+
+Админстратор узнаёт о новом запросе на выплату из уведомления по электронной почте (**Запрос от вендора на выплату средств** в разделе **Настройка магазина / Уведомления по электронной почте**). В панели управления администратор видит этот запрос в разделе **Заказы / Платёжные операции продавцов**. Запрос представляет собой ожидающую обработки проводку. В описании проводки сказано **Запрос на выплату**. В строке запроса на выплату администратор видит две кнопки - **Подтвердить** и **Отклонить**:
 ![xc5_mv_payout_request_in_admin.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_in_admin.png)
-If the administrator wants to make a payout based on a request, they need to use the Accept button. 
-Once a payout request is accepted, it stops being a pending transaction and becomes a regular transaction (without the Accept/Decline buttons). The balance totals for both the administrator and vendor accounts are adjusted accordingly:
+
+Если администратор решает сделать выплату по запросу, он нажимает **Подтвердить**, проводка уже не требует обработки, кнопки **Подтвердить** и **Отклонить** пропадают. После подтверждения выплаты происходит перерасчёт баланса продавца и администратора:
 ![xc5_mv_payout_request_accepted.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_accepted.png)
-If the administrator chooses to decline a payout request, they need to use the Decline button. Once this button is clicked, the request stops being a pending transaction and is marked as "Declined"; for example:
+
+Если администратор решает отклонить запрос на выплату, он нажимает **Отклонит**ь, проводка уже не требует обработки и приобретает статус **Отклонена**:
 ![xc5_mv_payout_request_declined_in_admin.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_declined_in_admin.png)
-If necessary, the administrator can do a partial payout. This can be done by creating a compensatory transaction. For example, if a vendor has requested a payout of $100, and the store owner wants to pay out $90 now and $10 at a later time, the administrator can accept the vendor's payout request for $100 and then create an additional transaction specifying $10 in the Income field. This way only $90 will be transferred to the vendor's balance, whereas the store owner will remain liable to pay $10 to the vendor at a later time. The comments to explain what amount is going where can be added via the Description field of the respective transactions.
+
+При необходимости администратор делает частичную выплату продавцу посредством компенсирующей проводки. Например, продавец запросил RUB 3000, а администратор планирует выплатить RUB 2000 по запросу и RUB 1000 позже. Администратор подтверждает запрос на RUB 3000 и вносит дополнительную проводку на сумму RUB 1000 в поле **Доход**. В результате, продавец получает только RUB 2000, и администратор остаётся должен RUB 1000. Чтобы внести ясность, администратор оставляет комментарии в поле **Описание** обеих платёжных операций.
