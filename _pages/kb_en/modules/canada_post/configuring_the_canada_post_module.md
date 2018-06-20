@@ -33,7 +33,7 @@ Below is an explanation of the settings that can be found on the Canada Post set
 * **User** and **Password**: These fields store your Canada Post merchant API key. They are completed automatically as a result of Canada Post registration via the Merchant registration wizard.
 * **Developer mode**: Enable it if you want to test the shipping method before making it live.
 * **Log all comunications between shopping cart and UPS server**: Enable if you want to have logs saved for future references.
-   ![settings-1.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-1.png)
+   ![settings-11.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-11.png)
 
 ## Additional settings
 
