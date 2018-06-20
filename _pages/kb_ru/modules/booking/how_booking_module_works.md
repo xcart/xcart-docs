@@ -7,20 +7,22 @@ title: 'https://kb.x-cart.com/modules/booking/how_booking_module_works.html'
 order: 360
 published: false
 ---
-The module allows you to turn some or all the products on your website into bookable ones. A bookable product has all the features of a regular non-bookable product; however, your customers don't just buy it, but reserve it for a limited time.
+Модуль Бронирование - основа сайтов, предоставляющих услуги бронирования или проката.
 
-The details page of a bookable product provides a widget allowing website visitors to check the product's availability for the period they require:
+Резервируемый объект или услуга - товар, настраиваемый по общим правилам. Особенность в том, что посетители магазина не покупают этот товар, а бронируют на некоторое время.
 
-![]({{site.baseurl}}/attachments/8749986/8718800.png)
+На странице бронируемого товара покупатель проверяет доступность объекта на выбранный промежуток времени:
 
-Bookable products can be simple or more complex (configured with attributes and product variants). When a bookable product has variants, the module displays the list of its available variants in the form of a table where each variant is a separate line. At the end of the line a field is provided allowing a user to specify the number of reservations of the variant they wish to make for the specified dates. It is possible to have a name for each specific variant in the table and, if necessary, a column providing information about the maximum number of guests that is possible for each of the variants:
+![5.jpg]({{site.baseurl}}/attachments/ref_1NFgjVaS/5.jpg)
+
+Администратор настраивает простой товар или товар с атрибутами и вариантами. Если бронируемый товар представлен в нескольких вариантах, модуль отображает его в виде таблицы, в которой каждый вариант расположен на отдельной строке. В поле на конце строки покупатель указывает количество бронирований варианта объекта на выбранные даты. Для каждого варианта в таблице указано название и максимально возможное количество гостей:
 
 ![]({{site.baseurl}}/attachments/8749986/8718798.png)
 
-The product's price is treated as the price of a 1 night's reservation. The total price of a reservation is calculated based on the number of nights in the selected reservation period.
+Цена бронируемого товара устанавливается за одну ночь, затем на основе выбранных дат и количество ночей в этом периоде рассчитывается общая стоимость бронирования.
 
-The module also provides the ability to track reservations: The "stock level" settings of a product or product variant - product quantity or variant quantity - are used to specify the maximum number of simultaneous reservations that are possible for it. If a product is sold out for the dates specified by a user wishing to make a reservation, the module will suggest that the user should choose a different period. For products with variants the module tracks the number of reservations per variant and hides any variants that are sold out from the list.
+Настройки размера запаса резервируемых товаров или их вариантов отражают максимальное количество возможных одновременных бронирований. Если на выбранные покупателем даты объект недоступен, модуль предложит выбрать другие даты. Если товар с вариантами, модуль фиксирует количество бронирований каждого варианта и скрывает недоступные.
 
-The module is mobile-friendly: by using responsive design techniques, it can display available bookable variants on tablets and other mobile devices without scroll bars:
+Благодаря технологии гибкого дизайна, модуль работает на всех мобильных устройствах и отображает результаты поиска по датам без полосы прокрутки:
 
 ![]({{site.baseurl}}/attachments/8749986/8718802.png)
