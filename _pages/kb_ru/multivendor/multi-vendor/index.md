@@ -31,4 +31,4 @@ published: true
     *   {% link "Заказы и статистика продавцов" ref_3nMhDh8b %}
     *   {% link "Импорт и экспорт данных продавцов" ref_59Aam8kL %}
 
-*   {% link "Multi-vendor: Customer experience" ref_fxTL6F2z %}
+*   {% link "Покупатель торговой площадки" ref_5Wl78SV1 %}
