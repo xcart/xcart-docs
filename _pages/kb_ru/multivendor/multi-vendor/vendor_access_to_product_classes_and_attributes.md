@@ -7,22 +7,21 @@ title: Классы и атрибуты товаров продавцов
 order: 260
 published: false
 ---
-With regard to product classes and attributes, vendors have the following capabilities:
+Продавец попадает на страницу классов и атрибутов двумя путями:
 
-*   can define product-specific attributes (attribute names) and attribute values for their own products;
-*   can create product classes and add attributes for them;
-*   can see product classes created by admin or other vendors;
-*   can see attributes (attribute names) and attribute values created by admin or other vendors at the level of product classes + can assign these attributes and values to their own products (but cannot tell, whether a specific class or attribute is owned by admin or by another vendor); 
-*   cannot add their own attributes (attribute names) for product classes created by admin or other vendors;
-*   cannot edit the classes, attributes or attribute values defined by admin or other vendors;
-*   cannot add attributes (attribute names) at the global level (This feature is accessible only to the administrator);
-*   can see the attributes (attribute names) and attribute values created by admin at the global level + can assign these attributes and values to their own products (but cannot edit these attributes or their values).  
+- В разделе **Каталог / Товары** нажать на название товара и перейти на вкладку **Атрибуты**.
+- В разделе **Каталог / Классы и атрибуты**.
 
-Depending on the way the module Multi-vendor was configured by the store administrator, vendors may or may not have access to adding their own values for global attributes and attributes created by admin or other vendors at the level of product classes. This depends on the setting **Vendor access to global attributes** on the Multi-vendor module settings page: if this setting is set to "_Use existing and add new values_", vendors can not just use the existing attribute values, but also add their own new values for the attributes defined by others; if this setting is set to "_Use existing values only_", vendors cannot add their own attribute values and only use the existing values.
+По сравнению с администратором, у продавца ограниченный доступ к редактированию классов и атрибутов товаров:
 
-Vendors can access the section for the management of product classes and attributes in one of the two ways:
+*   продавец создаёт атрибуты товаров и значения атрибутов для своих товаров;
+*   продавец создаёт классы товаров и добавляет в них атрибуты;
+*   продавец видит классы товаров, созданные администратором и другими продавцами;
+*   продавец не может создавать атрибуты для классов товаров, созданных администратором и другими продавцами; 
+*   продавец не может редактировать классы, атрибуты и значения атрибутов, установленные администратором и другими продавцами;
+*   продавец не может добавлять глобальные атрибуты, эта функция доступна только в интерфейсе администратора;
+*   продавец видит глобальные атрибуты и их значения, созданные администратором на глобальном уровне, может присвоить эти атрибуты своим товарам, но не может их редактировать.
+  
 
-*   via the **Attributes** tab of the product details view of a specific product;
-*   via the **Classes & attributes** menu item in the **Products** menu.
+В зависимости от установленных администратором настроек модуля **Multi-vendor**, _продавец использует доступные значения атрибутов и создаёт новые значения для атрибутов, созданных администратором и другими продавцами_, или _продавец использует доступные значения атрибутов и не может создавать новые_.
 
-More information on the management of product classes and attributes can be found in the {% link "Product classes and attributes" ref_T90ZcEpP %} section of this manual.
