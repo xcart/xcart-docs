@@ -11,6 +11,6 @@ published: true
 
 **WordPress** - быстрая и простая бесплатная система управления контентом, отвечающая современным стандартам. С помощью модуля блог легко подключается к магазину и становится его частью за счёт адаптации дизайна. 
 
-*   {% link "Blog system in X-Cart 5 module installation" ref_ayU7G1y0 %}
+*   {% link "Установка модуля Блог" ref_224YUyxU %}
 *   {% link "Getting started with Blog system in X-Cart 5" ref_n6czcwis %}
 *   {% link "Configuring the module Blog system in X-Cart 5" ref_vpkSAB5T %}
