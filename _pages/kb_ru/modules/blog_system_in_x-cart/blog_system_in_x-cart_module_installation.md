@@ -5,7 +5,7 @@ updated_at: '2018-06-20 11:36 +0400'
 identifier: ref_224YUyxU
 title: Установка модуля Блог
 order: 340
-published: false
+published: true
 ---
 Модуль **Блог (Blog system in X-Cart 5)** входит в пакет _X-Cart Всё включено_. Для _X-Cart Базовый_, _X-Cart Бизнес_ и _X-Cart Мультивендор_ {% link "приобретите модуль в маркетплейсе и установите" ref_gpeZtm28 %}. 
 
