@@ -39,9 +39,9 @@ To start shipping with Canada Post:
     ![canada-shippings.png]({{site.baseurl}}/attachments/ref_zfNLsPus/canada-shippings.png)
     
     Look through the list of methods and ensure that the methods you wish to use are enabled. Disable any methods that you do not need. Be sure to save your changes by clicking **Save changes**.
-5.  Make sure your company's address has been configured on the Contact information page (**Store setup > Contact information**). This address will be used as your store's "Ship from" address when calculating shipping rates. 
+5.  Make sure your company's address has been {% link "configured" ref_HcSs9eFL %} on the Contact information page (**Store setup > Contact information**). This address will be used as your store's "Ship from" address when calculating shipping rates. 
     {% note info %}
-    This needs to be a Canadian address, as shipping rates can be calculated only for orders shipping from Canadian locations. 
+    This needs to be a Canadian address, as shipping rates can be calculated only for orders shipped from Canadian locations. 
     {% endnote %}
 
 _Related pages:_
