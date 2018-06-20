@@ -7,9 +7,7 @@ title: Бронирование (Booking)
 order: 350
 published: false
 ---
-The module **Booking** for X-Cart 5 is an extension allowing you to set up a booking or rental website and handle online reservations for your customers. 
-
-_In this section:_
+Запустите сервис онлайн-бронирования с помощью модуля **Бронирование (Booking)**. 
 
 *   {% link "How &quot;Booking&quot; module works" ref_8LMQvd29 %}
 *   {% link "&quot;Booking&quot; module: Getting started" ref_mUn67cLl %}
