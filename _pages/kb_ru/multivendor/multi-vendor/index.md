@@ -26,7 +26,7 @@ published: true
     *   {% link "Управление учётной записью" ref_173RdhEa %}
     *   {% link "Товары продавца" ref_5dCYCGJt %}
     *   {% link "Классы и атрибуты товаров продавцов" Multi-vendor %}
-    *   {% link "Adding coupons and discounts for vendor products" ref_SwbyhUn5 %}
+    *   {% link "Купоны и скидки на товары продавцов" ref_0WtZ8AAk %}
     *   {% link "Managing shipping methods as a vendor" ref_IvXmtLKI %}
     *   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
     *   {% link "Vendor import/export" ref_pa3oqbXz %}
