@@ -13,4 +13,4 @@ published: true
 
 *   {% link "Установка модуля Блог" ref_224YUyxU %}
 *   {% link "Создание блога в магазине" ref_6VBJS2hG %}
-*   {% link "Configuring the module Blog system in X-Cart 5" ref_vpkSAB5T %}
+*   {% link "Настройка модуля в X-Cart" ref_vpkSAB5T %}
