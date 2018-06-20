@@ -7,9 +7,9 @@ title: Блог в X-Cart
 order: 330
 published: false
 ---
-**Blog system in X-Cart 5** is a module that extends your X-Cart 5 store with a fully functional blog using the most popular blogging software in the world.
+Модуль **Блог (Blog system in X-Cart 5)** позволяет подключить к магазину X-Cart полнофункциональный блог на базе самого популярного программного обеспечения.
 
-WordPress is a freely distributed, standards-compliant, fast, light and free content management system. The add-on module allows you to install a blog powered by WordPress to your existing X-Cart store in just two simple steps so it will become part of the X-Cart system and mirror your existing store's design. 
+**WordPress** - быстрая и простая бесплатная система управления контентом, отвечающая современным стандартам. С помощью модуля блог легко подключается к магазину и становится его частью за счёт адаптации дизайна. 
 
 *   {% link "Blog system in X-Cart 5 module installation" ref_ayU7G1y0 %}
 *   {% link "Getting started with Blog system in X-Cart 5" ref_n6czcwis %}
