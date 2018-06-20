@@ -33,10 +33,10 @@ To start shipping with Canada Post:
     If you prefer to configure the Canada Post module manually refer to the guides from {% link "Configuring the Canada Post module" ref_XsHLxUwv %}.
     {% endnote %}
     
-4.  While still in the **Store setup** -> **Shipping** section of your store's Admin area, select the Canada Post method in the _Settings_ tab:
+4.  While still in the **Store setup** -> **Shipping** section of your store's Admin area, select the Canada Post method in the _Settings_ tab: 
     ![shipping-canada-post.png]({{site.baseurl}}/attachments/ref_zfNLsPus/shipping-canada-post.png)
-    This opens a list of supported Canada Post shipping methods:
-    ![canada-shippings.png]({{site.baseurl}}/attachments/ref_zfNLsPus/canada-shippings.png)
+    This opens the Canada Post settings page. Proceed to the _Carrier Services_ tab to see a list of supported Canada Post shipping methods:
+    ![carrier-services.png]({{site.baseurl}}/attachments/ref_zfNLsPus/carrier-services.png)
     
     Look through the list of methods and ensure that the methods you wish to use are enabled. Disable any methods that you do not need. Be sure to save your changes by clicking **Save changes**.
 5.  Make sure your company's address has been {% link "configured" ref_HcSs9eFL %} on the Contact information page (**Store setup > Contact information**). This address will be used as your store's "Ship from" address when calculating shipping rates. 
