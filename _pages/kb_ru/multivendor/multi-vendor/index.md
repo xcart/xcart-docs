@@ -27,8 +27,8 @@ published: true
     *   {% link "Товары продавца" ref_5dCYCGJt %}
     *   {% link "Классы и атрибуты товаров продавцов" Multi-vendor %}
     *   {% link "Купоны и скидки на товары продавцов" ref_0WtZ8AAk %}
-    *   {% link "Managing shipping methods as a vendor" ref_IvXmtLKI %}
-    *   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
+    *   {% link "Методы доставки продавцов" ref_6vsGnMj5 %}
+    *   {% link "ref_3nMhDh8b" ref_3nMhDh8b %}
     *   {% link "Vendor import/export" ref_pa3oqbXz %}
 
 *   {% link "Multi-vendor: Customer experience" ref_fxTL6F2z %}
