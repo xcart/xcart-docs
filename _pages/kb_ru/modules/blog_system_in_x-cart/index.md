@@ -5,7 +5,7 @@ updated_at: '2018-06-20 11:33 +0400'
 identifier: ref_6a9ulokJ
 title: Блог в X-Cart
 order: 330
-published: false
+published: true
 ---
 Модуль **Блог (Blog system in X-Cart 5)** позволяет подключить к магазину X-Cart полнофункциональный блог на базе самого популярного программного обеспечения.
 
