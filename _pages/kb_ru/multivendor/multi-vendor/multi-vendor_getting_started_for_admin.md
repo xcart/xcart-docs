@@ -15,7 +15,7 @@ published: true
 
 ## Установка модуля Multivendor
 
-Обычный магазин X-Cart становится торговой площадкой для множества продавцов после установки модуля [Multivendor](https://market.x-cart.com/addons/suppliers-multivendors.html?sl=en&utm_source=XC5admin&utm_medium=addons_list_marketplace&utm_campaign=XC5admin "X-Cart Мультивендор: интерфейс Администратора"). Модуль входит в _X-Cart Мультивендор_ и _X-Cart Всё включено_ и требует только {% link "активации и настройки" ref_IEo2gFuZ %}. В _X-Cart Базовый_ модуль недоступен.
+Обычный магазин X-Cart становится торговой площадкой для множества продавцов после установки модуля [Multivendor](https://market.x-cart.com/addons/suppliers-multivendors.html?sl=en&utm_source=XC5admin&utm_medium=addons_list_marketplace&utm_campaign=XC5admin "X-Cart Мультивендор: интерфейс Администратора"). Модуль входит в _X-Cart Мультивендор_ и _X-Cart Всё включено_ и требует только {% link "активации и настройки" ref_IEo2gFuZ %}. В _X-Cart Базовый_ и _X-Cart Бизнес_ модуль недоступен.
 
 ## Выбор вида торговой площадки
 
