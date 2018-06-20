@@ -7,34 +7,29 @@ title: Покупатель торговой площадки
 order: 310
 published: false
 ---
-In a multi-vendor X-Cart 5 store, the storefront provides a **Vendors** menu from which store visitors can access the profile and products of specific vendors:
+Администратор торговой площадки, где несколько продавцов предлагают свои товары, на своё усмотрение размещает в витрине магазина секцию со списком продавцов. Отображение секции **Продавцы** включается и отключается в настройках модуля **Multi-vendor**:
 
-![]({{site.baseurl}}/attachments/8749408/8717013.png)
+![1.jpg]({{site.baseurl}}/attachments/ref_5Wl78SV1/1.jpg)
 
-Note that the **Vendors** menu appears on the storefront only if the store administrator has chosen to make this menu available in the sidebar of the store site. 
+Название компании в секции **Продавцы** - ссылка, по которой покупатель попадает на страницу конкретного продавца. 
 
-By clicking on the vendor company name link on the **Vendors** menu, store visitors can access the vendor's profile page. This page provides general information about the vendor including their company name, image, description and location. It also lists all the vendor's products:
+На странице продавца покупатель видит название и краткое описание компании, логотип, местонахождение магазина и товары продавца:
 
-![]({{site.baseurl}}/attachments/8749408/8717014.png)
+![2.jpg]({{site.baseurl}}/attachments/ref_5Wl78SV1/2.jpg)
 
-The details pages of specific products also provide some information about the vendor. This includes the vendor's company name, location and image. There is also the View Profile link that allows visitors to access the vendor's profile page:
+Информация о продавце доступна и на странице товара - название компании, ссылка на страницу продавца и местонахождение магазина:
 
-![]({{site.baseurl}}/attachments/8749408/8717015.png)
+![3.jpg]({{site.baseurl}}/attachments/ref_5Wl78SV1/3.jpg)
 
-If the store administrator has chosen to enable product filtering by vendor with the help of X-Cart 5 **Product Filters** module, visitors of the store's Customer area can filter products by vendor in catgories that list products of more than one vendor:
+Если администратор магазина аквтивировал поиск товаров по продавцу, то на странице категории покупатель может воспользоваться фильтром для поиска по продавцу. Если в категории представлены товары только одного продавца, фильтр по продавцу не отображается:
 
-![]({{site.baseurl}}/attachments/8749408/8717256.png)
+![4.jpg]({{site.baseurl}}/attachments/ref_5Wl78SV1/4.jpg)
 
-When a product owned by a vendor is added to the shopping cart, the vendor's company name appears on the cart page:
+Когда покупатель помещает товар в корзину, на странице корзины отображается название продавца, создавшего этот товар. Когда в корзине несколько товаров, они сортируются по продавцу:
 
-![]({{site.baseurl}}/attachments/8749408/8717250.png)
+![6.jpg]({{site.baseurl}}/attachments/ref_5Wl78SV1/6.jpg)
 
-If the cart contains products of more than one vendors, the products on the shopping cart page are automatically sorted by vendor:
+В режиме **Общий склад** администратор настраивает несколько методов доставки, и покупатель выбирает один из них, т.к. все товары оплачиваются в одном заказе и доставляются одной посылкой. 
 
-![]({{site.baseurl}}/attachments/8749408/8717249.png)
+В режиме **Отдельные склады** каждый продавец настраивает свои методы доставки, и покупатель выбирает отдельный метод доставки для товаров каждого продавца, т.к. товары разных продавцов оплачиваются отдельными заказами и доставляются отдельными посылками.
 
-In the "Warehouse" multivendor mode, the list of shipping methods available for the order is formed by the store administrator; the buyer has to choose a single shipping method for the entire order. In the "Vendors as separate shops" mode, each vendor has their own list of shipping methods; the buyer has to choose a shipping method for each of the vendors whose products are in the shopping cart:
-
-![]({{site.baseurl}}/attachments/8749408/8719639.png)
-
-In the "Warehouse" multivendor mode, the buyer gets a single order invoice. In the "Vendors as separate shops" mode, a separate order is formed for each of the vendors whose products are in the order; the buyer gets a separate order invoice for each of the orders.
