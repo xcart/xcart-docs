@@ -27,3 +27,4 @@ icon: puzzle
 *   {% link "Программа лояльности (Loyalty Program)" ref_6DRAWYp4 %}
 *   {% link "Марка / Модель / Год (Make/Model/Year)" ref_4SKmwOLz %}
 *   {% link "Подключение сервиса рассылок MailChimp к онлайн-магазину" ref_2dnxqcA0 %}
+*   {% link "Блог в X-Cart" ref_6a9ulokJ %}
