@@ -17,25 +17,24 @@ To export an order to ShippingEasy manually, use one of the following methods:
 
 *   Method 1 (can be used to bulk export multiple orders):
 
-1.  In the **Orders** section of your X-Cart store's Admin area, find the orders you want to export and select the check boxes to the left of their numbers in the orders list.
-    ![]({{site.baseurl}}/attachments/8224939/8355926.png)
-2.  Click the **More actions** link at the bottom of the screen and select **Export to ShippingEasy**:
-    ![]({{site.baseurl}}/attachments/8224939/8355927.png)
-    The selected orders will be exported to ShippingEasy. A success message will be displayed at the top of the screen:
-    ![]({{site.baseurl}}/attachments/8224939/8355925.png)
+1.  In the **Orders** section of your X-Cart store's Admin area, find the orders you want to export and select the check boxes to the left of their numbers in the orders list. Then select **Export to ShippingEasy** in the _Bulk Edit_ menu at the bottom of the screen 
+    ![shippingeasy-orders-export.png]({{site.baseurl}}/attachments/ref_t2NVGwT2/shippingeasy-orders-export.png)
+
+2. The selected orders will be exported to ShippingEasy. A success message will be displayed at the top of the screen.
+    
 
 *   Method 2:
 
 1.  In the **Orders** section of your X-Cart store's Admin area, find the order you want to export and open its details for viewing:
-    ![]({{site.baseurl}}/attachments/8224939/8355923.png)
+    ![shippingeasy-order-details.png]({{site.baseurl}}/attachments/ref_t2NVGwT2/shippingeasy-order-details.png)
+
 2.  On the page providing the order's details (General info), click the **Export to ShippingEasy** button:
-    ![]({{site.baseurl}}/attachments/8224939/8355924.png)
-    The order will be exported to ShippingEasy. A success message will be displayed at the top of the screen:
-    ![]({{site.baseurl}}/attachments/8224939/8355925.png)
+    ![shippingeasy-orderdetails-export.png]({{site.baseurl}}/attachments/ref_t2NVGwT2/shippingeasy-orderdetails-export.png)
+
+    The order will be exported to ShippingEasy. A success message will be displayed at the top of the screen.
 
 _Related pages:_
 
 *   {% link "Canceling orders" ref_QU6Aanr9 %}
 *   {% link "Viewing shipment information" ref_WpUdcBgJ %}
 *   {% link "Updating order statuses for shipped orders" ref_cTn6pCxX %}
-
