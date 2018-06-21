@@ -9,53 +9,51 @@ published: false
 ---
 Создание бронируемого товара с вариантами:
 
--  {% link "Добавьте" ref_REno3u9g %} новый товар по обычным правилам. 
+1.  {% link "Добавьте" ref_REno3u9g %} новый товар по обычным правилам. 
     ![]({{site.baseurl}}/attachments/8750040/8718732.png)
-2.  Leave the fields **Price** and **Quantity in stock** at their default values (Remember, we are creating a product with variants, so we'll set a price and a quantity for each variant individually a bit later). 
+2.  Не заполняйте поля **Цена** и **Остаток**. Цена и количество будут настроены для вариантов отдельно. 
     ![]({{site.baseurl}}/attachments/8750040/8718733.png)
-3.  Disable shipping calculation for the product by setting the **Shippable** property to "No":
+3.  Отключите расчёт доставки для товара. Установите значение **НЕТ** для опции **Требуется доставка**:
     ![]({{site.baseurl}}/attachments/8750040/8718735.png)
 
-4.  Provide the rest of general information about the product as needed and click **Add product** to save it. The product will be created.
+4.  Сохраните новый товар.
     ![]({{site.baseurl}}/attachments/8750040/8718744.png)
 
-5.  Continue configuring the product you have created: Switch to the **Booking** tab of the product details and set the **Product booking **option to "Enabled" to specify that this product is bookable:
+5.  Сохраните товар и перейдите на вкладку **Бронирование**. Активируйте _бронирование объекта_ и укажите _минимальный срок бронирования в ночах_:
     ![]({{site.baseurl}}/attachments/8750040/8718736.png)
-    Be sure to click **Update** to save the changes.
-
-6.  Configure the attributes whose values will be used to form product variants for the product. If you are going to have more than one bookable product in your store, consider setting up a product class and configuring attributes on the class level. If all your products are going to be bookable, configure attributes on the global level. For the sake of example, we'll create a product class "Hotel" with the attributes "Room type" and "Number of guests":
-    1.  In the **Classes & attributes** section, select to add a new product class:
+    
+6.  Настройте атрибуты, из которых будут сформированы варианты товара. Если в магазине несколько бронируемых товаров, создайте класс товаров и атрибуты в этом классе. Если в магазине только бронируемые товары, настройте глобальные атрибуты. В качестве примера создадим **класс Отель** с **атрибутами Тип комнаты и Количество гостей**:
+    1.  На странице Каталог / Классы и атрибуты нажмите **Создать новый класс**:
         ![]({{site.baseurl}}/attachments/8750040/8718728.png)
 
-    2.  Provide a name for the new product class (in our case, "Hotel") and save the changes:
+    2.  Создайте класс **Отель**:
         ![]({{site.baseurl}}/attachments/8750040/8718729.png)
 
-    3.  Click the Edit attributes link opposite the product class name to go to a page where you can configure attributes:
+    3.  Нажмите **Редактировать атрибуты**:
         ![]({{site.baseurl}}/attachments/8750040/8718730.png)
 
-    4.  On the page that opens, select to add a new attribute:
+    4.  Нажмите **Новый атрибут**:
         ![]({{site.baseurl}}/attachments/8750040/8718731.png)
 
-    5.  In the **New attribute** popup, provide the details of your attribute. We've entered the attribute name "Room type" and left the attribute type set to "Plain field":
+    5.  Создайте атрибут с названием **Тип номера** и типом **Простое поле**. Нажмите **Далее**:
         ![]({{site.baseurl}}/attachments/8750040/8718739.png)
 
-    6.  Click **Next**. A popup titled **Edit attribute values** will appear. In this popup, click the **New value** button a few times to add some blank new lines where you will enter your values for the attribute "Room type":
+    6.  Откроется окно значений атрибута. Нажмите **Новое значение**, чтобы указать каждый тип комнаты отдельно:
         ![]({{site.baseurl}}/attachments/8750040/8718740.png)
 
-    7.  Enter attribute value names on the lines you have added. You'll need a value for every room type that can be booked on your site. As you can see on the screenshot below, we've added four room types: "Double or Twin Room - Attic", "Superior Double or Twin Room", "Standard Room Sea View" and "Standard Room Land View". We'll only need the former two of these values for the product we are creating right now; the latter two we'll use later for another hotel. If we need more room types, we'll be able to add them later.
+    7.  Для примера добавим четыре типа номеров: _Двухместный_, _Двухместный с видом на море_, _Трехместный_, _Двухместный с видом на сад_.
         ![]({{site.baseurl}}/attachments/8750040/8718741.png)
 
-        Click **Save changes**. The attribute values will be saved.
-    8.  Repeat Steps d-h to create the attribute "Number of guests" and add values for it.
+    8.  Аналогично создайте атрибут **Количество гостей**:
         ![]({{site.baseurl}}/attachments/8750040/8718745.png)
 
-    9.  If necessary, add other attributes (Things like "Free WiFi: Yes/No", "Air Conditioning: Yes/No", "Meals: Room only / Half Board / Full Board").
+    9.  Если предлагаются дополнительные услуги, создайте дополнительные атрибуты - _Трансфер_, _Wi-Fi_, _Spa_ и т.п.
         ![]({{site.baseurl}}/attachments/8750040/8718747.png)
 
-7.  Assign appropriate attribute values to your bookable product via the **Attributes** tab.
+7.  Когда атрибуты готовы, вернитесь на страницу нового товара **Отель** и откройте вкладку **Атрибуты**. На вкладке **Глобальные атрибуты** укажите **класс товара Отель** и настройте атрибуты.
     ![]({{site.baseurl}}/attachments/8750040/8718746.png)
 
-8.  Use the **Variants** tab to create specific bookable variants for the product. 
+8.  Перейдите на вкладку **Варианты** и выберите атрибуты, на основе которых будут сформированы варианты. Комбинации атрибутов можно создать вручную или автоматически. Для примера выберем атрибуты **Тип номера** и **Количество гостей** и создадим варианты вручную. 
 
     1.  Choose the attributes on which your variants will be based and select how you would like to create the variants (manually or automatically). We have selected to create variants based on the "Group type" attribute only and are going to use the link Create all possible variants (2) for the variants to be generated automatically:
         ![]({{site.baseurl}}/attachments/8750040/8718750.png)
