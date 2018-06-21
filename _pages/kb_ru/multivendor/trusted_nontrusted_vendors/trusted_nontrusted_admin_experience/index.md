@@ -7,22 +7,24 @@ title: 'Надёжные и ненадёжные продавцы : интерф
 order: 410
 published: false
 ---
-If the owner/administrator of a multivendor X-Cart store wishes to be able to review the content of new product pages created by vendors before such pages get published,on the storefront, they can enable the addon **Trusted/Non-trusted vendors**.
+С помощью модуля **Надёжные и ненадёжные продавцы (Trusted/Non-trusted vendors)** администратор торговой площадки проверяет информацию о новых товарах продавцов до того, как товары станут доступны покупателям.
 
-In a multivendor X-Cart store/online marketplace with the addon **Trusted/Non-trusted vendors** installed and active, the store administrator will be able to give individual vendors a trusted/non-trusted status. Trusted vendors will be able to add new products to the product catalog without moderation; non-trusted vendors will have to submit new products for approval by the store administrator before these products get published. 
+Администратор присваивает продавцам статусы - **надёжный** или **ненадёжный**. 
 
-The store administrator will be notified of new products submitted for approval and will be able to either approve or decline the publication of the respective product pages. They will also be able to add a comment for the vendor regarding their decision. 
+- Если надёжный продавец добавляет новый товар в каталог магазина, товар сразу появляется в витрине. - Если ненадёжный продавец - товар появляется в каталоге только после проверки и одобрения администратором. 
 
-The vendor will be notified of the administrator's decision by an email notification. If the administrator has chosen to provide a comment, the comment will be included in the email notification message.
+Администратор получает по электронной почте уведомление о поступлении нового товара на проверку, затем проверяет, одобряет или отклоняет новый товар. После проверки товара администратор оставляет комментарий для продавца. 
 
-Find out how a store administrator can:
+Продавец получает уведомление о результатах проверки товара. Если администратор оставил комментарий, он будет включён в уведомление.
 
-   * Activate the addon "Trusted/Non-trusted vendors" to enable the moderation of new products added by individual vendors. See {% link "Activating the Trusted/Non-trusted vendors addon" ref_6jpz9PXe %}
+Действия администратора:
+
+   * Установка модуля
    
-   * Give individual vendors a trusted/non-trusted status to specify who can add new products to the catalog without moderation, and who must submit new products for approval by the store administrator before they get published. See {% link "Managing the trusted/non-trusted status of vendors" ref_2ETaFqTV %}
+   * Присвоение статуса продавцу
    
-   * Approve or decline the publication of new products created by non-trusted vendors. See {% link "Reviewing the products of non-trusted vendors" ref_5G96zfLj %}
+   * Проверка товаров ненадёжных продавцов
      
-   * Find vendor products by their publication status. See {% link "Finding products by their publication status" ref_3ge43cA0 %}
+   * Поиск товаров по статусу обработки
        
-   * Adjust the email notifications sent to vendors after their product is approved or declined. See {% link "Managing email notifications for the Trusted/Non-trusted vendors addon" ref_2x7CPLIC %}
+   * Настройка уведомлений по электронной почте
