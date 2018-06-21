@@ -7,11 +7,11 @@ title: Настройка простого бронируемого товара
 order: 400
 published: false
 ---
-To create a simple bookable product (without product variants), follow these steps:
+Создание бронируемого товара без вариантов:
 
-1.  Start creating a new product the normal way: specify a product name, choose a category, add images, etc. 
+1.  {% link "Добавьте" ref_REno3u9g %} новый товар по обычным правилам. 
     ![]({{site.baseurl}}/attachments/8749984/8718722.png)
-2.  Use the **Price** field to specify the price of reservation of the product for one day (or night). 
+2.  В поле цена укажите стоимость бронирования объекта за одну ночь. Если цена будет изменяться, в этом поле будет указана базовая цена, а изменения цены будут отражены в опциях. Настройте {% link "опции товара с модификаторами цены" ref_SuWz9rmN %}. 
     If the price needs to vary, use this field to specify the base price - you will be able to add product options modifying this price after general information about the product has been saved. For information on setting up product options as price modifiers, see {% link "Managing attribute values" ref_bTfJ9bTS %}
     Use the **Quantity in stock** field  to specify the maximum bookable quantity for the product. This quantity will be the maximum number of reservations of the product that can be made at the same time. For example, if you have only 8 units of an item that you can rent , your customers should not be able to reserve more than 8 units on any date; so, for such an item, you should specify the Quantity in stock as "8".
     You probably won't need X-Cart to calculate shipping cost for your bookable product. To disable shipping calculation for the product, set the **Shippable** setting to "No".
