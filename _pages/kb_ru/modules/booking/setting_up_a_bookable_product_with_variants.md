@@ -7,9 +7,9 @@ title: Настройка бронируемого товара с вариан�
 order: 410
 published: false
 ---
-To create a bookable product with product variants, follow these steps:
+Создание бронируемого товара с вариантами:
 
-1.  Start creating a new product the normal way: specify a product name, choose a category, add images, etc. 
+-  {% link "Добавьте" ref_REno3u9g %} новый товар по обычным правилам. 
     ![]({{site.baseurl}}/attachments/8750040/8718732.png)
 2.  Leave the fields **Price** and **Quantity in stock** at their default values (Remember, we are creating a product with variants, so we'll set a price and a quantity for each variant individually a bit later). 
     ![]({{site.baseurl}}/attachments/8750040/8718733.png)
