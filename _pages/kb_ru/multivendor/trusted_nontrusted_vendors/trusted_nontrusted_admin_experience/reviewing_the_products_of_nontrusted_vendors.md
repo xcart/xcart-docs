@@ -7,23 +7,35 @@ title: Проверка товаров ненадёжных продавцов
 order: 430
 published: false
 ---
-After a non-trusted vendor submits a new product for approval by the store administrator, the store administrator is notified about the fact via a bell notification:
-![tnt_bell_unapproved_products.png]({{site.baseurl}}/attachments/ref_5G96zfLj/tnt_bell_unapproved_products.png)
-(The words "Unapproved products N" are a link which the store administrator can use to quickly access the list of products sent for approval; N is the number of products for review.)
+Если ненадёжный продавец создаёт новый товар и отправляет его на проверку, в меню новостей в панели управления администратора появляется уведомление о новом товаре на проверку:
+![10.jpg]({{site.baseurl}}/attachments/ref_2TWCQBR3/10.jpg)
 
-The store administrator can use the "Unapproved products N" link in the bell notification or go to the Products section and {% link "use filtering" ref_3ge43cA0 %} to find the products in the "Sent for approval" state.
+Администратор переходит на страницу нового товара по ссылке **Непроверенные товары** в меню новостей или через поиск по статусу **Только в ожидании одобрения** в разделе **Каталог / Товары**.
 
-To approve or decline the publication of a product, the store administrator needs to open the product for viewing/editing; then they need to use the Approve or the Decline button according to what action they require.
-![tnt_approve_decline.png]({{site.baseurl}}/attachments/ref_5G96zfLj/tnt_approve_decline.png)
+![2.jpg]({{site.baseurl}}/attachments/ref_2TWCQBR3/2.jpg)
 
-If the administrator chooses to approve the publication of the product, a popup titled "Approve and add comment" will be displayed:
-![tnt_approve_add_comment.png]({{site.baseurl}}/attachments/ref_5G96zfLj/tnt_approve_add_comment.png)
+Нажав на название товара, администратор попадает на страницу информации о товаре, проверяет товар и нажимает **Одобрить товар** или **Отклонить товар**.
 
-To approve the publication of the product, the store administrator will need to click the **Approve product** button. Leaving a comment for the vendor is optional. 
+![3.jpg]({{site.baseurl}}/attachments/ref_2TWCQBR3/3.jpg)
 
-If the administrator chooses to decline the publication of the product, a popup titled "Decline and add comment" will be displayed:
-![tnt_decline_add_comment.png]({{site.baseurl}}/attachments/ref_5G96zfLj/tnt_decline_add_comment.png)
+Открывается окно для комментария продавцу о результатах проверки и кнопкой **Одобрить товар** или **Отклонить товар**. Оставлять комментарий необязательно.
 
-To decline the publication of the product, the store administrator will need to click the **Decline product** button. Leaving a comment for the vendor is optional. 
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![4.jpg]({{site.baseurl}}/attachments/ref_2TWCQBR3/4.jpg)
+</div>
+  <div class="column" markdown="span">![5.jpg]({{site.baseurl}}/attachments/ref_2TWCQBR3/5.jpg)
+</div>
+</div>
 
-Approving or declining the publication of a product triggers an {% link "email notification" ref_2x7CPLIC %} to the vendor to notify them of the product status change. If the administrator has chosen to leave a comment, the comment is sent to the vendor along with the email notification.
+Одобрив или отклонив товар, администратор имеет возможность изменить решение
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![6.jpg]({{site.baseurl}}/attachments/ref_2TWCQBR3/6.jpg)
+</div>
+  <div class="column" markdown="span">![7.jpg]({{site.baseurl}}/attachments/ref_2TWCQBR3/7.jpg)
+</div>
+</div>
+
+После одобрения или отклонения товара продавец получает уведомление о результатах проверки. Если администратор оставил комментарий, продавец найдёт его в этом письме.
+
+
