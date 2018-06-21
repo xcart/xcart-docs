@@ -14,19 +14,19 @@ published: false
 Продавцы со статусом **Ненадёжный** отправляют новые товары на проверку администратору, и товары появляются в магазине, только если одобрены администратором. 
 
 В панели управления продавца опция включения товара неактивна, пока товар находится на проверке у администратора. Товар активируется, если администратор его одобряет, и остаётся отключённым - если отклоняет.
-![tnt_cannot_enable_unapproved.png]({{site.baseurl}}/attachments/ref_4NXPSgua/tnt_cannot_enable_unapproved.png)
+![1.jpg]({{site.baseurl}}/attachments/ref_2fNSmNFO/1.jpg)
 
 Ненадёжный продавец сохраняет новый товар и в нижней части страницы видит статус **Товар не одобрен**. Кнопка **Отправить на одобрение** передаёт товар администратору на проверку:
-![tnt_unapproved_product.png]({{site.baseurl}}/attachments/ref_4NXPSgua/tnt_unapproved_product.png)
+![2.jpg]({{site.baseurl}}/attachments/ref_2fNSmNFO/2.jpg)
 
 Как только продавец отправляет товар на проверку, статус изменяется на **Товар отправлен на одобрение**:
-![tnt_product_sent_4_approval.png]({{site.baseurl}}/attachments/ref_4NXPSgua/tnt_product_sent_4_approval.png)
+![3.jpg]({{site.baseurl}}/attachments/ref_2fNSmNFO/3.jpg)
 
 Далее продавец ожидает результатов проверки - администратор одобряет или отклоняет товар. Результат проверки и комментарии администратора отправляются продаву по электронной почте. Соответственно, статус товара изменяется на **Товар одобрен**:
-![tnt_product_approved_in_vendor.png]({{site.baseurl}}/attachments/ref_4NXPSgua/tnt_product_approved_in_vendor.png)
+![4.jpg]({{site.baseurl}}/attachments/ref_2fNSmNFO/4.jpg)
 
 или **Товар отклонён**:
-![tnt_product_declined_in_vendor.png]({{site.baseurl}}/attachments/ref_4NXPSgua/tnt_product_declined_in_vendor.png)
+![5.jpg]({{site.baseurl}}/attachments/ref_2fNSmNFO/5.jpg)
 
 Если товар не прошёл проверку, продавец корректирует информацию о товаре, как администратор советует в комментариях, и повторно передаёт товар на проверку. 
 
