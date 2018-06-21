@@ -7,24 +7,30 @@ title: Отправка нового товара на проверку (для 
 order: 460
 published: false
 ---
-In a multivendor X-Cart store with the addon **Trusted/Non-trusted vendors** installed and active, trusted vendors can add their products without an approval from the storefront operator/store administrator. Non-trusted vendors, however, have to submit new products for approval by the store administrator before the products get published on the storefront. Note that any products created by non-trusted vendors may not be enabled using X-Cart's standard On/Off controls before an approval is obtained (The On/Off controls for such products are disabled).
+Если в _X-Cart Мультивендор_ активирован модуль **Надёжные и ненадёжные продавцы (Trusted/Non-trusted vendors)**, администратор разделяет продавцов на проверенных и непроверенных. 
+
+Новые товары продавцов со статусом **Надёжный** сразу появляются в каталоге магазина. 
+
+Продавцы со статусом **Ненадёжный** отправляют новые товары на проверку администратору, и товары появляются в магазине, только если одобрены администратором. 
+
+В панели управления продавца опция включения товара неактивна, пока товар находится на проверке у администратора. Товар активируется, если администратор его одобряет, и остаётся отключённым - если отклоняет.
 ![tnt_cannot_enable_unapproved.png]({{site.baseurl}}/attachments/ref_4NXPSgua/tnt_cannot_enable_unapproved.png)
 
-Once a new product is created by a non-trusted vendor in the Vendor area, the vendor sees a panel in the lower part of the Info section of the product page displaying the product status as "Product is unapproved". The vendor can submit the product for approval by clicking the **Send for approval** button on the same panel:
+Ненадёжный продавец сохраняет новый товар и в нижней части страницы видит статус **Товар не одобрен**. Кнопка **Отправить на одобрение** передаёт товар администратору на проверку:
 ![tnt_unapproved_product.png]({{site.baseurl}}/attachments/ref_4NXPSgua/tnt_unapproved_product.png)
 
-Once this happens, the status of the product is updated to "Product is sent for approval":
+Как только продавец отправляет товар на проверку, статус изменяется на **Товар отправлен на одобрение**:
 ![tnt_product_sent_4_approval.png]({{site.baseurl}}/attachments/ref_4NXPSgua/tnt_product_sent_4_approval.png)
 
-The vendor then has to wait for the store administrator to review the new product and to either approve or decline its publication. When this happens, the vendor will be notified via email. The status of the product will be updated, respectively, to either "Product is approved":
+Далее продавец ожидает результатов проверки - администратор одобряет или отклоняет товар. Результат проверки и комментарии администратора отправляются продаву по электронной почте. Соответственно, статус товара изменяется на **Товар одобрен**:
 ![tnt_product_approved_in_vendor.png]({{site.baseurl}}/attachments/ref_4NXPSgua/tnt_product_approved_in_vendor.png)
 
-or "Product is declined":
+или **Товар отклонён**:
 ![tnt_product_declined_in_vendor.png]({{site.baseurl}}/attachments/ref_4NXPSgua/tnt_product_declined_in_vendor.png)
 
-If a product gets declined, the vendor will need to fix the product details as recommended by the store administrator and re-submit the product for approval after updating the product details. 
+Если товар не прошёл проверку, продавец корректирует информацию о товаре, как администратор советует в комментариях, и повторно передаёт товар на проверку. 
 
-Note that on the page of a product that has been declined by the store administrator the **Send for approval** button is re-activated as soon as the vendor updates the product details in any way (Not necessarily in the way recommended by the store administrator; X-Cart does not have a method to check that).
+Кнопка **Отправить на одобрение** снова появляется на странице _отклонённого товара_, как только продавец обновляет товар. X-Cart не проверяет, какие изменения делает продавец, это не обязательно изменения, рекомендованные администратором.
 
-Also note that after a product has been given the status "Product is approved", it remains approved - even if the vendor edits its details.
+_Одобренный товар_ сохраняет статус **Товар одобрен**, даже если продавец редактирует информацию о товаре.
 
