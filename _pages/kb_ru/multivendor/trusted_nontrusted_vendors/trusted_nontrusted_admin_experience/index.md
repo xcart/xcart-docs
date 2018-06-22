@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-06-21 15:41 +0400'
 identifier: ref_4suKkUwY
-title: 'Надёжные и ненадёжные продавцы : интерфейс администратора'
+title: 'Надёжные и ненадёжные продавцы: интерфейс администратора'
 order: 410
 published: true
 ---
