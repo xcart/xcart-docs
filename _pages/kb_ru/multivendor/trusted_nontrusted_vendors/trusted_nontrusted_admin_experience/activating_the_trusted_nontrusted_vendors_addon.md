@@ -5,7 +5,7 @@ updated_at: '2018-06-21 18:41 +0400'
 identifier: ref_1vEboSvs
 title: Установка модуля Надёжные и ненадёжные продавцы (Trusted/Non-trusted vendors)
 order: 450
-published: false
+published: true
 ---
 Модуль **Надёжные и ненадёжные продавцы (Trusted/Non-trusted vendors)** входит в _X-Cart Мультивендор_ и _X-Cart Всё включено_. 
 
