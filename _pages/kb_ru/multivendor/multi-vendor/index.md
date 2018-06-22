@@ -20,7 +20,7 @@ published: true
     *   {% link "Оформление и отслеживание выплат продавцам" ref_16DRDxyb %}
     *   {% link "Статистика заказов продавцов" ref_1XinLemP %}
 
-*   Multi-vendor: Vendor experience
+*   X-Cart Мультивендор: интерфейс Продавца
     *   {% link "Регистрация продавца" ref_4XIi52rR %}
     *   {% link "Начало работы продавца" ref_1GzoOb7x %}
     *   {% link "Управление учётной записью" ref_173RdhEa %}
