@@ -17,5 +17,5 @@ description: >-
 
    *   {% link "Состав X-Cart Мультивендор" ref_7wkoH88c %}
    *   {% link "Модуль Мультивендор" ref_197V0Y0x %} (Встроенный)
-   *   {% link "Надёжные и ненадёжные продавцы (Trusted/Non-trusted vendors)" ref_5c7BY9Rn %}
+   *   {% link "Надёжные и ненадёжные продавцы (Trusted/Non-trusted vendors)" ref_6yi6OjKi %}
    *   Order messages: Usage with Multivendor
