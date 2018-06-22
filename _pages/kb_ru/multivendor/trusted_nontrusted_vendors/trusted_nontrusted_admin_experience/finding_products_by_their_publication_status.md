@@ -5,7 +5,7 @@ updated_at: '2018-06-21 16:58 +0400'
 identifier: ref_6gSITo9a
 title: Поиск товаров по статусу проверки
 order: 430
-published: false
+published: true
 ---
 В разделе **Каталог / Товары** администратор использует поле **Статус проверки товаров** для поиска товаров продавцов по статусу проверки. 
 ![8.jpg]({{site.baseurl}}/attachments/ref_6gSITo9a/8.jpg)
