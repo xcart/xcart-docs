@@ -28,3 +28,4 @@ icon: puzzle
 *   {% link "Марка / Модель / Год (Make/Model/Year)" ref_4SKmwOLz %}
 *   {% link "Подключение сервиса рассылок MailChimp к онлайн-магазину" ref_2dnxqcA0 %}
 *   {% link "Блог в X-Cart" ref_6a9ulokJ %}
+*   {% link "Надёжные и ненадёжные продавцы" ref_6yi6OjKi %}
