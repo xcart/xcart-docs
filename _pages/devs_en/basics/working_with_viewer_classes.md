@@ -1,13 +1,16 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2014-11-07 00:00'
 title: View classes
 identifier: ref_6dMJsZ63
-updated_at: 2014-11-07 00:00
-layout: article_with_sidebar
-lang: en
 order: 15
 categories:
-- Developer docs
-- Demo module
+  - Developer docs
+  - Demo module
+published: true
+redirect_to: >-
+  https://devs.x-cart.com/getting_started/how-to-apply-design-changes.html#registering-viewer-class-in-view-list
 ---
 
 ## Introduction
