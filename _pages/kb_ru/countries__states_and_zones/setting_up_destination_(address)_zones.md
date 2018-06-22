@@ -5,7 +5,7 @@ updated_at: '2017-10-27 17:16 +0400'
 identifier: ref_fVgOaXam
 title: Настройка зон доставки
 order: 10
-published: true
+published: false
 ---
 ## Что такое зона доставки
 
