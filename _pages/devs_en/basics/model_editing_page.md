@@ -22,7 +22,13 @@ published: true
 
 Sometimes developers {% link "create complex entities" ref_wmExvPDD %} that require a **separate** page for editing its properties, instead of doing it via {% link "ItemsList" ref_hBpBE0vS %}. This article explains how you can create a page where you can edit a model. For the sake of example, we will be editing product, but the same principles apply to all other entities as well.
 
+{% note info %}
+
 You might want to see another way of creating such page - {% link "New model editing implementation" ref_8MoO0Ob %}. This method utilizes the power of Symfony forms and Twig blocks and gives more control of how the form looks.
+
+The approach of Symfony forms is used on product details page and on settings page. All other entity pages (category, user, order, etc) use the approach described in this article.
+
+{% endnote %}
 
 {% toc Table of Contents %}
 
