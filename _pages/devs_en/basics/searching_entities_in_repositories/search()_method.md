@@ -1,13 +1,16 @@
 ---
 title: search() method
 identifier: ref_ehDn4NIi
-updated_at: 2015-04-17 00:00
+updated_at: '2015-04-17 00:00'
 layout: article_with_sidebar
 lang: en
 categories:
-- Developer docs
-- Demo module
-- Outdated
+  - Developer docs
+  - Demo module
+published: true
+order: 100
+redirect_to: >-
+  https://devs.x-cart.com/getting_started/working-with-database.html#method-search
 ---
 
 ## Introduction
