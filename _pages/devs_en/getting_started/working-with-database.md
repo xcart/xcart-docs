@@ -13,17 +13,11 @@ X-Cart uses ORM [Doctrine 2 framework](http://www.doctrine-project.org/) to work
 
 Using Doctrine means that we do not write plain SQL queries and this tutorial illustrates main approaches of working with database.
 
-## Tables of Contents
-- [Introduction](#introduction)
-- [Tables of Contents](#tables-of-contents)
-- [Pulling objects by ID](#pulling-objects-by-id)
-- [Pulling a collection of objects](#pulling-a-collection-of-objects)
-- [Query builder](#query-builder)
-	- [Select](#select)
-    - [Join](#join)
-    - [Group By](#group-by)
-    - [Order By](#order-by)
+{% note info %}
+To try out the examples below, use {% link "test external script" ref_ogmCiRWZ %}.
+{% endnote %}
 
+{% toc Table of Contents %}
 
 ## Pulling objects by ID
 
@@ -272,3 +266,177 @@ var_dump($return);
 ```
 
 We only added `orderBy('sales', 'DESC')` to the query builder and it sorted the results in descending order. If we wanted to go from lowest sales to highest, we would use `orderBy('sales', 'ASC')`. `orderBy()` method allows not only aliases ('sales' as we are using), but also property names, e.g. `oi.item_id`.
+
+## Method search()
+
+Besides working with QueryBuilder directly, X-Cart allows to de-composite queries to logical pieces, so that those pieces can be combined as needed.
+
+Let us imagine a situation, we need to pull all products that are more expensive than $20. We can do it as follows:
+
+```php
+$products = \XLite\Core\Database::getRepo('XLite\Model\Product')->createQueryBuilder('p')
+            ->andWhere('p.price > :price')
+            ->setParameter('price', 20);
+```
+
+Then, we want to pull products that have more than 5 items in stock and we surely can do that as follows:
+
+```php
+$products = \XLite\Core\Database::getRepo('XLite\Model\Product')->createQueryBuilder('p')
+            ->andWhere('p.amount > :amount')
+            ->setParameter('amount', 5);
+```
+
+If after that we want to pull products that are more expensive than $20 and have more than 5 items in stock, what are we going to do? Will we need to repeat ourselves and do something like this?
+
+```php
+$products = \XLite\Core\Database::getRepo('XLite\Model\Product')->createQueryBuilder('p')
+            ->andWhere('p.price > :price')
+            ->setParameter('price', 20);
+            ->andWhere('p.amount > :amount')
+            ->setParameter('amount', 5);
+```
+
+There is better approach.
+
+To illustrate this approach, let us {% link "create a module" ref_G2mlgckf %} with developer ID **XCExample** and module ID **SearchRepoDemo**. Inside this module let us {% link "decorate" ref_AF6bmvL6 %} `\XLite\Model\Repo\ARepo` class. We create `classes/XLite/Module/XCExample/SearchRepoDemo/Model/Repo/ARepo.php` file with the following content:
+
+```php
+<?php
+
+namespace XLite\Module\XCExample\SearchRepoDemo\Model\Repo;
+
+abstract class Product extends \XLite\Model\Repo\Product implements \XLite\Base\IDecorator
+{
+}
+```
+
+Here is a new method of pulling entities. Let us suppose we want to pull product more expensive than $20. We would write it as follows:
+
+```php
+// defining condition object
+$cnd = new \XLite\Core\CommonCell();
+$cnd->moreExpensiveThan20 = true;
+
+// pulling products from the database based on the $cnd condition
+$products = \XLite\Core\Database::getRepo('\XLite\Model\Product')->search($cnd);
+
+echo '<ul>';
+// displaying product names
+foreach ($products as $product) {
+    echo '<li>' . $product->getName() . ': ' . $product->getPrice() . ' - ' . $product->getAmount() . '</li>';
+}
+echo '</ul>';
+```
+
+`\XLite\Core\CommonCell` object is essentially a wrapper around regular PHP array. It is an object and you can access its properties as `$cnd->property`, but it also acts as array in a sense, that you can cycle its properties. 
+
+So, we create such empty object and define its property `moreExpensiveThan20` as `true`. Then, we fetch repository object (`\XLite\Core\Database::getRepo('\XLite\Model\Product')`) and call its `search()` method with common cell object as an argument. This search method will return the products we need.
+
+X-Cart will take this common cell object, cycle through its properties and apply handlers of those properties (X-Cart treats them as flags) to the routine of pulling products. 
+
+However, we need a handler of the `moreExpensiveThan20` flag to make our code working. For that we edit the created earlier `classes/XLite/Module/XCExample/SearchRepoDemo/Model/Repo/ARepo.php` file and add the following method there:
+
+```php
+    protected function prepareCndMoreExpensiveThan20(\Doctrine\ORM\QueryBuilder $queryBuilder, $value)
+    {
+        $result = $queryBuilder;
+
+        if ($value) {
+            $result
+                ->andWhere('p.price > :price')
+                ->setParameter('price', 20);
+        }
+
+        return $result;
+    }
+```
+
+We must name this method as `prepareCnd<NAME-OF-OUR-FLAG>`, so we call it `prepareCndMoreExpensiveThan20`. 
+
+The first parameter of such method is QueryBuilder object and the method must return QueryBuilder object as well. This QueryBuilder object will be eventually used to pull entities from the database.
+
+The second parameter of the method is value of our property. In our case, it is `true`. So, if our property is `true`, we add this piece to the QueryBuilder object:
+
+```php
+$qb
+  ->andWhere('p.price > :price')
+  ->setParameter('price', 20);
+```
+
+Once we added this method, let us check the results. Our script will display list of products with prices greater than $20.
+
+Following the above example, let us create a test script that would return products that have more than 5 items in stock. Our test script would look as follows:
+
+```php
+// defining condition object
+$cnd = new \XLite\Core\CommonCell();
+$cnd->moreThan = 5;
+
+// pulling products from the database based on the $cnd condition
+$products = \XLite\Core\Database::getRepo('\XLite\Model\Product')->search($cnd);
+
+echo '<ul>';
+// displaying product names
+foreach ($products as $product) {
+    echo '<li>' . $product->getName() . ': ' . $product->getPrice() . ' - ' . $product->getAmount() . '</li>';
+}
+echo '</ul>';
+```
+
+The only difference from the first script is that our property in `$cnd` object is `moreThan` instead of `moreExpensiveThan20`. However, we need to add handler of this property to product repository class as well. So, we edit `\XLite\Module\XCExample\SearchRepoDemo\Model\Repo\Product` class and add the following method there:
+
+```php
+    protected function prepareCndMoreThan(\Doctrine\ORM\QueryBuilder $queryBuilder, $value)
+    {
+        $result = $queryBuilder;
+
+        if ($value > 0) {
+            $result
+                ->andWhere('p.amount > :amount')
+                ->setParameter('amount', $value);
+        }
+
+        return $result;
+    }
+```
+
+This time we actually use `$value` parameter in QueryBuilder object.
+
+Again, if we run the test script, we will see the list of products that have more than 5 items in stock.
+
+What if we want to pull list of products that cost more than $20 and have more than 5 items in stock? In this case, our test script would look as follows:
+
+```php
+// defining condition object
+$cnd = new \XLite\Core\CommonCell();
+$cnd->moreExpensiveThan20 = true;
+$cnd->moreThan = 5;
+
+// pulling products from the database based on the $cnd condition
+$products = \XLite\Core\Database::getRepo('\XLite\Model\Product')->search($cnd);
+
+echo '<ul>';
+// displaying product names
+foreach ($products as $product) {
+    echo '<li>' . $product->getName() . ': ' . $product->getPrice() . ' - ' . $product->getAmount() . '</li>';
+}
+echo '</ul>';
+```
+
+It is pretty much the same as those two above, but it has two properties in `$cnd` object:
+
+```php
+// defining condition object
+$cnd = new \XLite\Core\CommonCell();
+$cnd->moreExpensiveThan20 = true;
+$cnd->moreThan = 5;
+```
+
+Since we already invested time creating handlers for those properties, this piece of code will just work now without additional code.
+
+In that sense `search()` method is pretty handy, when you have a bunch of conditions that need to be combined in different variations.
+
+{% note info %}
+The module we created can be downloaded from here: <https://www.dropbox.com/s/8bxtoclqtorkdy6/XCExample-SearchRepoDemo-v5_3_0.tar>
+{% endnote %}
