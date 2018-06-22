@@ -41,15 +41,14 @@ published: false
 
 ![7.jpg]({{site.baseurl}}/attachments/ref_6VBJS2hG/7.jpg)
 
-После завершения установки нажмите **Войти**ю
+После завершения установки нажмите **Войти**.
 
-![8.jpg]({{site.baseurl}}/attachments/ref_6VBJS2hG/8.jpg)
+![11.jpg]({{site.baseurl}}/attachments/ref_6VBJS2hG/11.jpg)
 
-Откроется панель управления **WordPress**.
+Откроется панель управления **WordPress**. Нажмите на название сайта, чтобы посмотреть, как выглядит ваш блог в магазине.
 
-![9.jpg]({{site.baseurl}}/attachments/ref_6VBJS2hG/9.jpg)
+![10.jpg]({{site.baseurl}}/attachments/ref_6VBJS2hG/10.jpg)
 
-Перейдите по ссылке **Блог** в магазине, чтобы посмотреть, как выглядит ваш блог.
 
 Посетители магазина попадут в этот блог по ссылке в главном меню.
 
