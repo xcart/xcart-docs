@@ -18,8 +18,6 @@ For example, if you have a food store selling both alcohol and non-alcohol prod
 
 In X-Cart 5, every product needs to have a tax class assigned to it. By default, new products are created with the **Default tax class** assigned. If you expect all of your store's products to use the same tax rates, you do not need to create any additional tax classes - just use the **Default tax class** for all rates. However, if you are going to have different tax rates for different types of products - like in the example with alcohol and non-alcohol products - then you will need additional tax classes.
 
-The **Tax classes** feature is enabled in X-Cart 5 by the module Sales Tax. Before you proceed, make sure this module is {% link "installed and enabled" ref_uEnDBBA7 %}.
-
 This article covers:
 {% toc %}
 
