@@ -10,10 +10,6 @@ categories:
 published: true
 ---
 
-The **Tax classes** feature is enabled in X-Cart 5 by the module Sales Tax. Before you proceed, make sure this module is {% link "installed and enabled" ref_uEnDBBA7 %}.
-
-## What are tax classes?
-
 According to your country's laws, you may need to charge different taxes for different types of products. For instance, you may need to calculate sales tax differently for alcohol and non-alcohol products.
 
 X-Cart 5 allows you to have **tax classes**. By using this feature you can organize your products into groups according to what sales tax rate calculation rules need to be used for them.
@@ -21,6 +17,8 @@ X-Cart 5 allows you to have **tax classes**. By using this feature you can org
 For example, if you have a food store selling both alcohol and non-alcohol products, and you need to calculate sales tax differently for those two groups of products, you will need two tax classes - one for alcohol products and one for non-alcohol products. To make it work, you will need to specify how tax rates should be calculated for each of these tax classes. You will also need to assign a tax class to every product in your store. This way all the products will have appropriate tax rates applied to them. 
 
 In X-Cart 5, every product needs to have a tax class assigned to it. By default, new products are created with the **Default tax class** assigned. If you expect all of your store's products to use the same tax rates, you do not need to create any additional tax classes - just use the **Default tax class** for all rates. However, if you are going to have different tax rates for different types of products - like in the example with alcohol and non-alcohol products - then you will need additional tax classes.
+
+The **Tax classes** feature is enabled in X-Cart 5 by the module Sales Tax. Before you proceed, make sure this module is {% link "installed and enabled" ref_uEnDBBA7 %}.
 
 This article covers:
 {% toc %}
