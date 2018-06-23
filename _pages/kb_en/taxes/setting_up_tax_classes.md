@@ -59,7 +59,7 @@ To assign a tax class to a product follow instructions below:
 Once the tax class has been assigned to a product, this product will use the tax rates defined for this product class.
 
 {% note info %}
-If you need to assign the tax class to more than one product at a time use the ["Products Bulk Edit"](https://kb.x-cart.com/products/bulk_edit.html#bulk-edit-price-and-membership "Setting up tax classes") feature.
+If you need to assign a tax class to more than one product at a time use the ["Products Bulk Edit"](https://kb.x-cart.com/products/bulk_edit.html#bulk-edit-price-and-membership "Setting up tax classes") feature.
 {% endnote %}
 
 _Related pages:_
