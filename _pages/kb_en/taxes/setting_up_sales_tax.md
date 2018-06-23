@@ -11,17 +11,13 @@ published: true
 ---
 
 
-Sales tax calculation in X-Cart 5 can be enabled using the module **Sales Tax**. Typically you will find this module already installed in your store. (If this is not the case, you can install it at any time from X-Cart's Marketplace using the {% link "standard module installation procedure" ref_Vn1mMUw9 %}.) 
 
-If the installed module is not enabled, you will need to {% link "activate" ref_uEnDBBA7 %} it. 
-
-![]({{site.baseurl}}/attachments/8225533/8356388.png)
-
-Setting up sales tax in X-Cart 5 is not difficult, whereas the system provides enough flexibility to configure even the most intricate tax calculation rules: if necessary, it is possible to configure your sales tax so it is calculated differently depending on the tax class of the products in the order, the customer's address zone and the customer's membership level.
 
 This article explains how to set up and enable sales tax calculation using the Sales Tax module for X-Cart 5. 
 
 ## Video tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/neu9h6xjJe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/neu9h6xjJe0" frameborder="0"></iframe>
 
