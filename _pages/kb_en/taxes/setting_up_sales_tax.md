@@ -24,22 +24,20 @@ This article explains how to set up and enable sales tax calculation using the S
 1.  Ensure that each of the products in your store that needs the sales tax to be applied to has a tax class assigned to it. You can create your custom tax classes or use the "Default tax class" that is assigned to all products by default. 
 
     See:
-    
     *   {% link "Creating tax classes" ref_pAWOdG8N#creating-tax-classes %};
-    
     *   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}.
+
 
 2.  Ensure that your store has all the necessary address zones configured. You will need these zones to use different tax rates based on the customer address.
 
     See:
-
     *   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
     
 3.  If you need different tax rates for different customer membership levels, ensure that the necessary user membership levels are set up.
 
     See:
-
     *   {% link "Adding user membership levels" ref_9ITFspcC %}
+
 
 ## Configuring sales tax
 
