@@ -57,7 +57,7 @@ This article explains how to set up and enable sales tax calculation using the S
     
 4.  Set up one or more tax calculation rules:
 
-    *   If you need tax rates to be applied to the cost of the products in a customer's order (product subtotal or discounted subtotal), or to the cost of the products plus shipping (subtotal + shipping cost or discounted subtotal + shipping cost), set up tax rates using the **General tax rates** section_:_
+    *   If you need tax rates to be applied to the cost of the products in a customer's order (product subtotal or discounted subtotal), or to the cost of the products plus shipping (subtotal + shipping cost or discounted subtotal + shipping cost), set up tax rates using the **General tax rates** section:
 
         1.  Use the **Taxable base** selector to specify the type of costs that will be the basis of your tax rates calculation.
             ![tax-sales-taxable-base.png]({{site.baseurl}}/attachments/ref_aJPK4DHN/tax-sales-taxable-base.png)
