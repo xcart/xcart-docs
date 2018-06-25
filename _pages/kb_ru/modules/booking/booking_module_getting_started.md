@@ -5,7 +5,7 @@ updated_at: '2018-06-20 23:11 +0400'
 identifier: ref_2Ym8l972
 title: Начало работы с модулем Бронирование
 order: 360
-published: false
+published: true
 ---
 Чтобы предлагать услуги бронирования и проката в онлайн-магазине:
 
@@ -22,4 +22,3 @@ published: false
     See {% link "Editing «Booking» module text labels to your needs" ref_slH6gvha %}.
 
 5.  Создайте бронируемые товары, которые будете продавать.
-
