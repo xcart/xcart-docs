@@ -5,7 +5,7 @@ updated_at: '2018-06-20 23:21 +0400'
 identifier: ref_04Or024E
 title: Установка модуля
 order: 370
-published: false
+published: true
 ---
 Модуль Бронирование совместим с _X-Cart Базовый_, _X-Cart Бизнес_, _X-Cart Мультивендор_ и _X-Cart Всё включено_.
 
