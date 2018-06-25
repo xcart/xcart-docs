@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-06-20 22:33 +0400'
 identifier: ref_1NFgjVaS
-title: 'https://kb.x-cart.com/modules/booking/how_booking_module_works.html'
+title: Как работает модуль Бронирование
 order: 360
 published: false
 ---
