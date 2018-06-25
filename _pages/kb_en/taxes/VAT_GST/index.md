@@ -24,7 +24,7 @@ Please find below some guidance on how to set up and enable VAT / GST calculatio
 *  {% link "Configuring VAT / GST (for the UK, EU, Australia, etc)" ref_Rzp45QlN %}
 *  {% link "Setting up your VAT / GST tax rates" ref_1uXE2bZt %}
 *  {% link "Examples of VAT setup" ref_0i5znUi1 %}
-*  
+*  {% link "Configuring VAT Exemption" ref_0OMhh0n0 %}
 
 A video tutorial is also available:
 
