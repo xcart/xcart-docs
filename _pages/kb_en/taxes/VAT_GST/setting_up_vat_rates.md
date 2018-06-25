@@ -5,7 +5,7 @@ updated_at: '2018-06-25 14:25 +0400'
 identifier: ref_1uXE2bZt
 title: Setting up your VAT / GST tax rates
 order: 120
-published: false
+published: true
 ---
 You need to set up VAT / GST rates to configure VAT / GST tax calculation:
 
