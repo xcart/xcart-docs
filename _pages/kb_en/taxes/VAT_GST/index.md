@@ -5,7 +5,7 @@ updated_at: '2018-06-25 14:08 +0400'
 identifier: ref_0GjdgNJx
 title: ''
 order: 100
-published: false
+published: true
 ---
 If you are required to charge buyers a value added tax (VAT) or a goods and services tax (GST), we recommend using the addon [**Value Added Tax / Goods and Services Tax**](https://market.x-cart.com/addons/uk-vat.html) for tax setup. 
     ![VAT-install.png]({{site.baseurl}}/attachments/ref_0GjdgNJx/VAT-install.png)
