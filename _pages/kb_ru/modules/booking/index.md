@@ -5,7 +5,7 @@ updated_at: '2018-06-20 22:15 +0400'
 identifier: ref_6glKt5oJ
 title: Бронирование (Booking)
 order: 350
-published: false
+published: true
 ---
 Запустите сервис онлайн-бронирования с помощью модуля **Бронирование (Booking)**. 
 
