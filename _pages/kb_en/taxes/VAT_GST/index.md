@@ -28,5 +28,6 @@ Please find below some guidance on how to set up and enable VAT / GST calculatio
 
 A video tutorial is also available:
 
-*   {% link "Video: Setting up VAT with the addon "EU and UK VAT / GST" ref_wcorpZyz %}*
+*   {% link "Video: Setting up VAT with the addon "EU and UK VAT / GST" ref_wcorpZyz %} *
+
     <sub>* The video is based on an older version of the addon, so be prepared to find a few differences in the user interface; however, the general idea is the same.</sub>
