@@ -5,7 +5,7 @@ updated_at: '2018-06-25 14:40 +0400'
 identifier: ref_0OMhh0n0
 title: ''
 order: 160
-published: false
+published: true
 ---
 
 The addon **Value Added Tax / Goods and Services Tax** supports tax exemption based on customer's VAT ID. Buyers who specify a VAT-using European country in the **Country** field of their address (in either the shipping or the billing address block, during checkout or while editing the address book in their profile) will be given an option to complete an additional field - **VAT number**. 
