@@ -9,10 +9,10 @@ published: false
 ---
 Запустите сервис онлайн-бронирования с помощью модуля **Бронирование (Booking)**. 
 
-*   {% link "How &quot;Booking&quot; module works" ref_8LMQvd29 %}
-*   {% link "&quot;Booking&quot; module: Getting started" ref_mUn67cLl %}
-*   {% link "&quot;Booking&quot; module: System requirements and installation" ref_0l095Fro %}
-*   {% link "Configuring the module &quot;Booking&quot;" ref_PGtil8wm %}
-*   {% link "Setting up a simple bookable product" ref_7o088Cca %}
-*   {% link "Setting up a bookable product with variants" ref_5BTPsMUx %}
-*   {% link "Editing &quot;Booking&quot; module text labels to your needs" ref_slH6gvha %}
+*   {% link "Как работает модуль Бронирование" ref_1NFgjVaS %}
+*   {% link "Начало работы с модулем Бронирование" ref_2Ym8l972 %}
+*   {% link "Установка модуля" ref_04Or024E %}
+*   {% link "Настройка модуля Бронирование" ref_5hVVpEeo %}
+*   {% link "Настройка простого бронируемого товара" ref_4lUFoqU2 %}
+*   {% link "Настройка бронируемого товара с вариантами" ref_4ZFXupeD %}
+*   {% link "Редактирование текстовых меток модуля Бронирование" ref_5ic1ftH6 %}
