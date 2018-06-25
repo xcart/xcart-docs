@@ -7,7 +7,6 @@ identifier: ref_f4ohXara
 version: 'X-Cart 5.2.x and X-Cart 5.3.x '
 categories:
   - Developer docs
-  - Outdated
 order: 100
 published: true
 ---
