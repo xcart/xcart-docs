@@ -1,24 +1,20 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2016-08-18 00:00'
 title: Upgrade hooks
 identifier: ref_WOuwAgsI
-updated_at: 2016-08-18 00:00
-layout: article_with_sidebar
-lang: en
 keywords:
-- pre upgrade
-- post upgrade
-- post rebuild
-- hook messages
+  - pre upgrade
+  - post upgrade
+  - post rebuild
+  - hook messages
 categories:
-- Developer docs
+  - Developer docs
+published: true
+order: 100
 ---
-
-### Table of contents
-
-*   [Overview](#overview)
-*   [Upgrade messages](#upgrade-messages)
-*   [Hook format](#hook-format)
-*   [Iterative upgrade hooks](#iterative-upgrade-hooks)
+{% toc Table of Contents %}
 
 ## Overview
 
@@ -68,19 +64,29 @@ Here are some examples of directory placement for different types of hooks:
 
 Hooks may be split into multiple parts; for example, post_rebuild_1.php, post_rebuild_2.php, post_rebuild_3.php - such hooks will be run consecutively following one another according to the increment of the index number.
 
-## Upgrade messages
+## Upgrade messages and changelogs
 
 Note that the directory with hooks can also be used to place the text files displayed during an upgrade:
 
 *   **pre_upgrade.txt** - contains text displayed on the page before the start of an upgrade;
 *   **post_upgrade.txt** - contains text displayed on the page after a successful completion of the upgrade.
 
-By default, these files contain text in the English language. To show the text in Russian, you need to save the file names using the suffix _“ru”_:
+By default, these files contain text in the English language. To show the text in Russian (or in other languages), you need to save the file names using the suffix _“ru”_ (or with the code of needed language):
 
 ```
 pre_upgrade.ru.txt
 post_upgrade.ru.txt
 ```
+
+If you want to display changelog for your module before merchant can upgrade it, e.g.
+![changelog-example.png]({{site.baseurl}}/attachments/ref_WOuwAgsI/changelog-example.png)
+
+then you should put the file with your text into `classes/XLite/Module/<DeveloperID>/<ModuleID>/changelog` directory.
+
+- If it is changelog for module's version 5.3.1.3, your text file will be at `classes/XLite/Module/<DeveloperID>/<ModuleID>/changelog/5.3/1/3.log`;
+- if it is changelog for module's version 5.3.1, your text file will be at
+`classes/XLite/Module/<DeveloperID>/<ModuleID>/changelog/5.3/1/3.log`.
+
 
 ## Hook format
 
@@ -120,7 +126,7 @@ return function ($status = null) {
 
 The body of a hook is an anonymous function with a single optional parameter **$status**.
 
-A simple hook not requiring extensive resourses for its execution may just return null after the execution --- which indicates that the execution of the hook has been completed.
+A simple hook not requiring extensive resourses for its execution may just return null after the execution — which indicates that the execution of the hook has been completed.
 
 ## Iterative upgrade hooks
 
