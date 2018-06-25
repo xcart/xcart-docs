@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-25 14:08 +0400'
 identifier: ref_0GjdgNJx
-title: ''
+title: 'Setting Up VAT/GST  (for the UK, EU, Australia, etc)'
 order: 100
 published: true
 ---
@@ -21,10 +21,10 @@ To start using the addon "Value Added Tax / Goods and Services Tax", ensure that
 
 Please find below some guidance on how to set up and enable VAT / GST calculation using the addon "Value Added Tax / Goods and Services Tax" for X-Cart 5. 
 
-*  [Configuring VAT / GST](#configuring-vat--gst)
-*  [Setting up your VAT / GST tax rates](#setting-up-your-vat--gst-tax-rates)
+*  {% link "Configuring VAT / GST (for the UK, EU, Australia, etc)" ref_Rzp45QlN %}
+*  {% link "Setting up your VAT / GST tax rates" ref_1uXE2bZt %}
 *  [Enabling/Disabling VAT / GST calculation](#enablingdisabling-vat--gst-calculation)
-*  [Some examples of VAT setup](#some-examples-of-vat-setup)
+*  {% link "Examples of VAT setup" ref_0i5znUi1 %}
 *  [Handling VAT exemption](#handling-vat-exemption)
 
 A video tutorial is also available:
