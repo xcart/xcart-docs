@@ -7,7 +7,6 @@ identifier: ref_cPPwdSA9
 categories:
   - Developer docs
   - Demo module
-  - Outdated
 published: true
 order: 100
 ---
