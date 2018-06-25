@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-25 14:40 +0400'
 identifier: ref_0OMhh0n0
-title: ''
+title: Configuring VAT Exemption
 order: 160
 published: true
 ---
