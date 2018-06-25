@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-06-25 14:08 +0400'
 identifier: ref_0GjdgNJx
 title: 'Setting Up VAT/GST  (for the UK, EU, Australia, etc)'
-order: 100
+order: 300
 published: true
 ---
 If you are required to charge buyers a value added tax (VAT) or a goods and services tax (GST), we recommend using the addon [**Value Added Tax / Goods and Services Tax**](https://market.x-cart.com/addons/uk-vat.html) for tax setup. 
@@ -23,9 +23,8 @@ Please find below some guidance on how to set up and enable VAT / GST calculatio
 
 *  {% link "Configuring VAT / GST (for the UK, EU, Australia, etc)" ref_Rzp45QlN %}
 *  {% link "Setting up your VAT / GST tax rates" ref_1uXE2bZt %}
-*  [Enabling/Disabling VAT / GST calculation](#enablingdisabling-vat--gst-calculation)
 *  {% link "Examples of VAT setup" ref_0i5znUi1 %}
-*  [Handling VAT exemption](#handling-vat-exemption)
+*  
 
 A video tutorial is also available:
 
