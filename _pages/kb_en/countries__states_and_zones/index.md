@@ -31,4 +31,5 @@ If the customer's address is found to match more than one zone, X-Cart will have
 
 _In this section:_
 
+*   {% link "The “All Addresses” (default) zone" ref_4kPvWTw2 %}
 *   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
