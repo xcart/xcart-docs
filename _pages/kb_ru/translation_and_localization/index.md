@@ -29,4 +29,4 @@ icon: translate
 *  {% link "Изменение языка интерфейса администратора" ref_translation %}
 *  {% link "Изменение языка каталога товаров" ref_7bXXWi0F %}
 *  {% link "Перевод новостей, меню и статических страниц на другой язык" ref_2lJntxE4 %}
-*  {% link "Translating labels" ref_2CQ8HuY4 %}
+*  {% link "Редактирование текста  на страницах магазина" ref_textlabels %}
