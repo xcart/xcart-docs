@@ -85,21 +85,20 @@ The "Taxable base" column becomes available when the option _Individual settings
 If necessary, use the **New rate** button to add rows for more tax rates. 
    ![taxes-can-new-rate.png]({{site.baseurl}}/attachments/ref_hxmof6xX/taxes-can-new-rate.png)
 
-Complete the fields in each row as you require.
+Complete the fields in each row as you require:
 
-     *   **Province**: Specify the province in which the tax rate should be applied. The tax rate will be applied to orders of customers whose address belongs to the selected province. Whether it is their Billing or Shipping address depends on the option selected in the "Address for Canadian taxes calculation" field of common tax settings.
+   *   **Province**: Specify the province in which the tax rate should be applied. The tax rate will be applied to orders of customers whose address belongs to the selected province. Whether it is their Billing or Shipping address depends on the option selected in the "Address for Canadian taxes calculation" field of common tax settings.
      
-     *   **Tax class**: Specify the type of products (tax class) to which the tax rate should be applied. For example, if you select the _Default tax class_ option here, the tax rate will be applied to all the products that have the default tax class assigned. 
+   *   **Tax class**: Specify the type of products (tax class) to which the tax rate should be applied. For example, if you select the _Default tax class_ option here, the tax rate will be applied to all the products that have the default tax class assigned. 
      
-     *   **User membership**: Specify the user membership level for which the tax rate should be applied. The option _Ignore membership_ allows you to create a tax rate that will be applied to all orders irrespective of the buyer's membership.
+   *   **User membership**: Specify the user membership level for which the tax rate should be applied. The option _Ignore membership_ allows you to create a tax rate that will be applied to all orders irrespective of the buyer's membership.
      
-    *   **Taxable base**: Specify the type of costs based on which your tax rates should be calculated. 
+  *   **Taxable base**: Specify the type of costs based on which your tax rates should be calculated. 
     
-    *   **Rate**: Specify the tax rate amount as a percentage of the selected taxable base.
+  *   **Rate**: Specify the tax rate amount as a percentage of the selected taxable base.
 
 **Save changes** when you are done.
     
-
 ## Enabling/Disabling the calculation of Canadian taxes
 
 Once configured and enabled, the calculation of Canadian taxes can be disabled/re-enabled using the  **Tax enabled**/**Tax disabled** button at the top of the _Canadian taxes_ tab in the **Taxes** section (**Store setup** > **Taxes**). 
