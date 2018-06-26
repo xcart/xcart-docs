@@ -29,3 +29,4 @@ icon: puzzle
 *   {% link "Подключение сервиса рассылок MailChimp к онлайн-магазину" ref_2dnxqcA0 %}
 *   {% link "Блог в X-Cart" ref_6a9ulokJ %}
 *   {% link "Надёжные и ненадёжные продавцы" ref_6yi6OjKi %}
+*   {% link "Бронирование (Booking)" ref_6glKt5oJ %}
