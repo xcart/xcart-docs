@@ -5,7 +5,7 @@ updated_at: '2018-06-26 14:43 +0400'
 identifier: ref_4kPvWTw2
 title: The “All Addresses” (default) zone
 order: 110
-published: false
+published: true
 ---
 Before you have configured any zones, your store already has one zone - the one named "All Addresses (default zone)". This zone is built in and cannot be deleted. The presence of the "All Addresses" zone in your store ensures that a customer's zone can be determined even if the customer's address does not match any of the zones you have set up. 
 
