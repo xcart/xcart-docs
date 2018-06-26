@@ -9,12 +9,10 @@ published: true
 ---
 Чтобы предлагать услуги бронирования и проката в онлайн-магазине:
 
-1.  Установите и активируйте модуль **Бронирование**. 
-    See {% link "«Booking» module: System requirements and installation" ref_0l095Fro %}.
-
-2.  Если вы планируете настроить варианты для бронируемых товаров, настройте модуль **Варианты товаров**. 
-    See {% link "Product variants" ref_0uApuQfx %}.
-
+1.  {% link "Установите и активируйте" ref_04Or024E %} модуль **Бронирование**. 
+    
+2.  Если вы планируете настроить варианты для бронируемых товаров, настройте модуль {% link "Варианты товаров" ref_1fbgU1JE %}. 
+    
 3.  Настройте тестовый бронируемых объект. 
     See {% link "Setting up a simple bookable product" ref_7o088Cca %} / {% link "Setting up a bookable product with variants" ref_5BTPsMUx %}.
 
