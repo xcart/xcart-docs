@@ -2,7 +2,7 @@
 lang: ru
 layout: article_with_sidebar
 updated_at: '2018-01-12 13:47 +0400'
-title: Перевод интерфейса магазина на другие языки
+title: Установка модуля перевода
 order: 140
 published: true
 identifier: ref_translation
