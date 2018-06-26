@@ -12,21 +12,21 @@ icon: translate
 
 Это значит, что язык интерфейса администратора и покупателей будет на русском языке, магазин будет использовать систему мер, общепринятую в Российской Федерации. 
 
-It's possible to localize an X-Cart store to meet your country standards, time-zone and measurement system to sell comfortly within your own country. See {% link "Localizing your store" ref_cc4sCpa5 %} for the guides.
+{% link "Настройки магазина определяют его локализацию" ref_lclztn %}. 
 
-Also, you can turn your X-Cart into a truly multi-language solution by installing language translation addons. For example, there are some language translations that you can download from X-Cart Marketplace, including:
+Если вы планируете продавать товары не только в Российской Федерации, установите языковые версии магазина. Модули перевода доступны для установки в Маркетплейсе:
 
-*   [Russian](https://market.x-cart.com/addons/russian-translation.html "Translation and Localization")
-*   [French](https://market.x-cart.com/addons/french-translation.html "Translation and Localization")
-*   [German](https://market.x-cart.com/addons/german-translation.html "Translation and Localization")
-*   [Dutch](https://market.x-cart.com/addons/dutch-translation-by-community-members.html "Translation and Localization")
-*   [British English](https://market.x-cart.com/addons/translation-british-english.html "Translation and Localization")
+[Русский](https://market.x-cart.com/addons/russian-translation.html  "Язык магазина и локализация")
+[Французский](https://market.x-cart.com/addons/french-translation.html  "Язык магазина и локализация")
+[Немецкий](https://market.x-cart.com/addons/german-translation.html  "Язык магазина и локализация")
+[Голландский](https://market.x-cart.com/addons/dutch-translation-by-community-members.html  "Язык магазина и локализация")
+[Британский английский](https://market.x-cart.com/addons/translation-british-english.html  "Язык магазина и локализация")
 
-If you want to translate X-Cart into a language for which no translation is available in the X-Cart Marketplace, contact us at {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. We will explain how this can be done and how you can get money out of it.
+Если необходимого перевода нет в Маркетплейсе, обратитесь к команде X-Cart {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. Мы расскажем, как создать модуль перевода.
 
-Below are some guides on how to translate your store into another language:  
-*  {% link "Installing language packages" ref_NH3w8sSS %}
-*  {% link "Switching the language in Admin area" ref_x5oSN86B %}
-*  {% link "Translating product catalog into another language" ref_5MQvg8Mm %}
-*  {% link "Translating news, menus and static pages" ref_7I70QnHa %}
+Инструкции по изменению языка магазина  
+*  {% link "Установка модуля перевода" ref_translation %}
+*  {% link "Изменение языка интерфейса администратора" ref_translation %}
+*  {% link "Изменение языка каталога товаров" ref_7bXXWi0F %}
+*  {% link "Перевод новостей, меню и статических страниц на другой язык" ref_2lJntxE4 %}
 *  {% link "Translating labels" ref_2CQ8HuY4 %}
