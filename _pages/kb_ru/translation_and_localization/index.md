@@ -8,9 +8,9 @@ order: 100
 published: false
 icon: translate
 ---
-Once you download X-Cart from [www.x-cart.com](http://www.x-cart.com/) and install it on your server, you get a store builder with the user interface displayed in the English language. 
+[Скачав](https://www.x-cart.ru/download.html "Язык магазина и локализация") и установив X-Cart, вы получаете магазин на русском языке.  
 
-But it will be "English" not only for the user interface but for the whole store set-up as well, meaning that X-Cart is configured to use the British measurement system, date and time format, etc. by default. 
+Это значит, что язык интерфейса администратора и покупателей будет на русском языке, магазин будет использовать систему мер, общепринятую в Российской Федерации. 
 
 It's possible to localize an X-Cart store to meet your country standards, time-zone and measurement system to sell comfortly within your own country. See {% link "Localizing your store" ref_cc4sCpa5 %} for the guides.
 
