@@ -5,7 +5,7 @@ updated_at: '2018-06-21 08:20 +0400'
 identifier: ref_4lUFoqU2
 title: Настройка простого бронируемого товара
 order: 400
-published: false
+published: true
 ---
 Создание бронируемого товара без вариантов:
 
