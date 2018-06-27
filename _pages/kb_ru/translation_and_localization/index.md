@@ -5,7 +5,7 @@ updated_at: '2018-06-26 16:59 +0400'
 identifier: ref_4JzRSOqJ
 title: Язык магазина и локализация
 order: 100
-published: false
+published: true
 icon: translate
 ---
 [Скачав](https://www.x-cart.ru/download.html "Язык магазина и локализация") и установив X-Cart, вы получаете магазин на русском языке.  
