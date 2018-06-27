@@ -5,7 +5,7 @@ updated_at: '2018-06-27 08:24 +0400'
 identifier: ref_5DrrpGaw
 title: Установка модуля перевода
 order: 110
-published: false
+published: true
 ---
 ## Установка модуля перевода из Маркетплейса:
 
