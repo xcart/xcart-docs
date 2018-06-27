@@ -1,6 +1,6 @@
 ---
 lang: en
-layout: article_with_sidebar
+layout: wide_article_with_sidebar
 title: Request examples
 identifier: ref_examples_index
 rest_api: docs

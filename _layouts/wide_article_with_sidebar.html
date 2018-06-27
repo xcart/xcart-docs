@@ -1,0 +1,21 @@
+---
+layout: wide_page
+disable_spacer: true
+---
+
+<div class="ui stackable grid">
+	{% include sidebar.html %}
+
+	<article class="content sixteen wide tablet seven wide computer column">
+    {% include breadcrumbs.html %}
+
+    <h1 class="post-title">{{ page.title }}</h1>
+  	{% include messages.html %}
+
+	  <div class="post-content style-{{ page.path | split: '/' | first }}">
+	    {{ content }}
+	  </div>
+
+    {% include improve_links.html %}    
+	</article>
+</div>

@@ -1,6 +1,6 @@
 ---
 lang: en
-layout: article_with_sidebar
+layout: wide_article_with_sidebar
 title: REST API Documentation
 identifier: ref_rest_api_doc
 rest_api: docs
@@ -8,6 +8,8 @@ order: 100
 icon: plug
 categories:
   - home
+redirect_from:
+  - /basics/rest_api_documentation.html
 description: >-
   If you want to exchange data with X-Cart through an external script, REST API
   is the way to go.

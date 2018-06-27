@@ -1,10 +1,12 @@
 ---
-title: REST API cookbook
+title: REST API Cookbook
 lang: en
-layout: article_with_sidebar
+layout: wide_article_with_sidebar
 updated_at: 2017-10-30 15:00 +0400
 identifier: ref_I90uIumU
-order: 100
+rest_api: docs
+categories:
+  - api
 ---
 
 ## Introduction
