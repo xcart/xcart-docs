@@ -5,7 +5,7 @@ updated_at: '2018-06-27 09:27 +0400'
 identifier: ref_54qEkf3y
 title: Изменение языка интерфейса администратора
 order: 120
-published: false
+published: true
 ---
 Если магазин доступен на нескольких языках, в верхнем меню вы найдёте переключатель языка:
 ![12.jpg]({{site.baseurl}}/attachments/ref_adminlanguage/12.jpg)
