@@ -16,7 +16,7 @@ After the module has been {% link "installed and enabled" ref_RGbuM3KA %}, it n
 To configure the module:
 
 1.  In the Installed Modules section of your X-Cart store’s Admin area, locate the entry for the AvaTax Sales Tax Automation module and click the **Settings** link below it:
-    ![]({{site.baseurl}}/attachments/8749239/8717991.png)
+    ![xc5_avatax_settings_link.png]({{site.baseurl}}/attachments/ref_havNFG9i/xc5_avatax_settings_link.png)
     
     The "AvaTax Sales Tax Automation" module settings page opens.
     ![xc5_avatax_settings1.png]({{site.baseurl}}/attachments/ref_havNFG9i/xc5_avatax_settings1.png)
