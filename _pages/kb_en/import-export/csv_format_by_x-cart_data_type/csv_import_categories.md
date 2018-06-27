@@ -82,7 +82,7 @@ Below is a list of supported fields and their respective value types for categor
       <td class="confluenceTd">String</td>
     </tr>
     <tr>
-      <td class="confluenceTd"><strong>*name</strong>
+      <td class="confluenceTd"><strong>name*</strong>
       </td>
       <td class="confluenceTd">Category name.</td>
       <td class="confluenceTd">String,
