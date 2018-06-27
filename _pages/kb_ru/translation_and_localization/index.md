@@ -8,6 +8,8 @@ order: 1000
 published: true
 icon: translate
 description: Адаптация магазина к стандартам страны и перевод интерфейса на различные языки
+categories:
+  - home
 ---
 [Скачав](https://www.x-cart.ru/download.html "Язык магазина и локализация") и установив X-Cart, вы получаете магазин на русском языке.  
 
