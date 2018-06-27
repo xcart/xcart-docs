@@ -210,7 +210,7 @@ There are many more fields which you can include into your product CSV file. Bel
         <p>Clean URLs are imported according to the following rules:</p>
         <p>1. If the cleanURL field doesn't exist in a .csv file the product Clean URL field stays unchanged.</p>
         <p>2. If the cleanURL field value is defined in a .csv file and this field is empty for a product at the moment of import the respective product property is created the product Clean URL gaining the value of the respective field from the .csv file.</p>
-        <p>3. If the cleanURL field value is defined in a .csv file and this field is NOT empty (exists) for a product at the moment of import the respective product Clean URL value is substituted with the one from the .csv file if the field value doesn't conflict with any of the existing Clean URLs values. If the conflict exists the cleanURL field value is automatically modified by adding **-1** to the end of the field value.</p>
+        <p>3. If the cleanURL field value is defined in a .csv file and this field is NOT empty (exists) for a product at the moment of import the respective product Clean URL value is substituted with the one from the .csv file if the field value doesn't conflict with any of the existing Clean URLs values. If the conflict exists the cleanURL field value is automatically modified by adding <strong>-1</strong> to the end of the field value.</p>
       </td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
