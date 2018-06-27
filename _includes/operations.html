@@ -1,0 +1,69 @@
+{% for verb in page.api.operations %}
+<div id="{{verb.operationId}}" class="ui vertical basic segment operation-segment">
+    <h3 class="operation-summary ui dividing header">
+        <div class="icon">
+            <span class="operation-verb {{ verb.verb }} ui horizontal label ">{{ verb.verb | upcase }}</span>
+        </div>
+        <div class="content">
+            {{ verb.summary }}
+            <div class="sub header"><a href="//{{ verb.full_path }}" target="_blank">{{ verb.path }}</a></div>
+        </div>
+    </h1>
+    {% if verb.description %}
+    <div class="operation-description ui basic segment">
+        {{ verb.description }}
+    </div>
+    {% endif %}
+    {% if verb.has_path_params %}
+    <div class="operation-parameters ui basic segment">
+        <div class="ui small header">{{ site.data.labels["Path parameters"][page.lang] }}</div>
+        {% for param in verb.parameters %}
+        {% if param.in == 'path' %}
+            {% include param.html param=param %}
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% if verb.has_query_params %}
+    <div class="operation-parameters ui basic segment">
+        <div class="ui small header">{{ site.data.labels["Query parameters"][page.lang] }}</div>
+        {% for param in verb.parameters %}
+        {% if param.in == 'query' %}
+            {% include param.html param=param %}
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% if verb.has_body_params %}
+    <div class="operation-request-body ui basic segment">
+        <div class="ui small header">{{ site.data.labels["Request body"][page.lang] }}</div>
+        {% for param in verb.parameters %}
+        {% if param.in == 'body' %}
+            <div class="operation-schema-type">{{ param.schema.compact_type | escape }}</div>
+            {% include schema.html schema=param.schema key=param.parameter %}
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+    <div class="operation-responses ui basic segment">
+        <div class="ui small header">{{ site.data.labels["Responses"][page.lang] }}</div>
+        {% for response in verb.responses %}
+            <div class="operation-response ui code-{{response.code}} segment">
+                <div class="ui accordion response-accordion">
+                    <div class="ui title">
+                        {{response.code}}&nbsp;{{response.description}} <span class="operation-schema-type">{{ response.schema.compact_type | escape }}</span>
+                        <i class="dropdown icon"></i>
+                    </div>
+                    <div class="content">
+                        {% include response_example.html example=response.example %}
+                        {% include schema.html schema=response.schema key=response.parameter %}
+                    </div>
+                </div>
+            </div>            
+        {% endfor %}
+    </div>
+</div>
+{% if forloop.last != true %}
+<div class="ui divider operation-divider"></div>
+{% endif %}
+{% endfor %}

@@ -127,6 +127,11 @@
     padding-top: 0;
 }
 
+.ui.page.vertical.segment.top-segment {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .ui.container.page {
     padding: 2rem 0;
 }
@@ -263,7 +268,8 @@
   padding-top: 0;
 
   .ui.breadcrumb > .section {
-    padding-top: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
   }
 
   .ui.breadcrumb > *:nth-last-child(-n+2) {

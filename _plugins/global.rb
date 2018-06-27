@@ -7,7 +7,26 @@ Jekyll::Hooks.register [:pages, :posts], :pre_render do |page, payload|
     payload['baseurl_link'] = payload['site']['baseurl'] + '/' + articles_path
   end
 
-  payload['navigation_baseurl'] = payload['page']['url'].sub('/' + articles_path, '').split('/').first
+  if payload['page']['api'] then
+    payload['navigation_starting_level'] = 2
+    payload['navigation_baseurl'] = payload['page']['url'].sub('/' + articles_path, '').split('/').first + '/v' + payload['page']['api']['version']
+  else 
+    payload['navigation_starting_level'] = 1
+    payload['navigation_baseurl'] = payload['page']['url'].sub('/' + articles_path, '').split('/').first
+  end
+
+  if payload['page']['rest_api'] == 'docs' then
+    payload['navigation_max_level'] = 2 
+  elsif payload['page']['rest_api'] == 'version' then
+    payload['navigation_max_level'] = 3
+  elsif payload['page']['rest_api'] == 'group' or payload['page']['rest_api'] == 'reference' then
+    payload['navigation_starting_level'] = 3
+    payload['navigation_max_level'] = 4
+    payload['navigation_baseurl'] = payload['navigation_baseurl'] + payload['page']['group']
+  else
+    payload['navigation_max_level'] = 6
+  end
+
   payload
 end
 

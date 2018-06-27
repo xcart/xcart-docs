@@ -1,0 +1,150 @@
+.jsonview {
+    font-size: 0.85rem;
+
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.example-json:not(.initialized) {
+    visibility: hidden;
+    overflow: hidden;
+}
+
+article.reference {
+    margin-left: 3rem;
+    .ui.rail {
+        width: 350px;
+    }
+
+    .ui.header {
+        letter-spacing: 0px;
+    }
+}
+
+.ui.divider.operation-divider {
+    width: 100vw;
+    margin: 4rem 0;
+}
+
+.operation-schema-type {
+    font-size: $tiny-font-size;
+    color: $grey-color;
+}
+
+.operation-summary {
+    .icon .operation-verb.label {
+        vertical-align: top;
+    }
+}
+
+.operation-response.segment {
+    &.code-default, &.code-200 {
+        border-top: 2px solid #21BA45;
+    }
+}
+
+.operation-verb.label {
+    &.get {
+        background-color: #21BA45 !important;
+        border-color: #21BA45 !important;
+        color: #FFF !important;
+    }
+
+    &.delete {
+        background-color: #db2828 !important;
+        border-color: #db2828 !important;
+        color: #fff !important;
+    }
+
+    &.post {
+        background-color: #2185d0 !important;
+        border-color: #2185d0 !important;
+        color: #fff !important;
+    }
+
+    &.put {
+        background-color: #fbbd08 !important;
+        border-color: #fbbd08 !important;
+        color: #fff !important;
+    }
+}
+
+.operation-segment {
+
+}
+
+.operation-schema-fields {
+    overflow: scroll;
+    display: table;
+    width: 100%;
+
+    .schema-field {
+        display: table-row;
+    }
+
+    .schema-field + .schema-field {
+        box-shadow: 0 -1px 0px 0px rgba(0,0,0,0.1);
+        .schema-field-name, .schema-field-properties {
+            padding-top: 0.5rem;
+        }
+    }
+
+    .schema-field-name {
+        font-family: $mono-font-family;
+        display: table-cell;
+        padding-bottom: 0.5rem;
+    }
+
+    .schema-field-type {
+        font-size: $tiny-font-size;
+        color: $grey-color;
+    }
+
+    .schema-field-properties {
+        padding-left: 1rem;
+        display: table-cell;
+        padding-bottom: 0.5rem;
+        white-space: normal;
+        word-break: break-word;
+    }
+}
+
+.operation-parameters {
+    overflow: scroll;
+    display: table;
+    width: 100%;
+
+    .operation-param {
+        display: table-row;
+    }
+
+    .operation-param + .operation-param {
+        box-shadow: 0 -1px 0px 0px rgba(0,0,0,0.1);
+        .param-name, .param-properties {
+            padding-top: 0.5rem;
+        }
+    }
+
+    .param-name {
+        font-family: $mono-font-family;
+        display: table-cell;
+        padding-bottom: 0.5rem;
+    }
+
+    .param-type {
+        font-size: $tiny-font-size;
+        color: $grey-color;
+
+        .required {
+            color: red !important;
+        }
+    }
+
+    .param-properties {
+        padding-left: 1rem;
+        display: table-cell;
+        padding-bottom: 0.5rem;
+        white-space: normal;
+        word-break: break-word;
+    }
+}

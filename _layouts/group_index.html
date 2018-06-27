@@ -1,0 +1,35 @@
+---
+layout: wide_page
+rest_api: group
+lang: en
+disable_spacer: true
+---
+<div class="ui stackable grid">
+    {% include sidebar.html %}
+
+    <article class="reference content sixteen wide tablet seven wide computer column">
+        {% include breadcrumbs.html %}
+        <h1 class="post-title">{{page.title}}</h1>
+
+        <div class="post-content">
+            <div class="tags-list ui stackable grid">
+            {% for tag in page.tags %}
+                <div class="eight wide column">
+                    <div class="ui card" style="height: 100%;">
+                        <div class="content">
+                            <div class="header" style="word-wrap: break-word;"><a href="{{tag.name}}.html">{{ tag.name }}</a></div>
+                            <div class="description">{{ tag.description }}</div>
+                        </div>                    
+                        {% if tag.external %}
+                        <div class="extra content">
+                        <i class="linkify icon"></i>
+                        <a href="{{ tag.external.url }}" target="_blank">{{ tag.external.description }}</a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </article>
+</div>

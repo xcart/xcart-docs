@@ -7,9 +7,6 @@ identifier: ref_RSR29iWL
 order: 100
 redirect_to:
   - /rest-api/
-icon: plug
-categories:
-  - home
 description: >-
   If you want to exchange data with X-Cart through an external script, REST API
   is the way to go.

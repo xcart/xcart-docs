@@ -1,0 +1,11 @@
+<div class="operation-schema-fields ui basic vertical segment" data-key="{{ include.key }}">
+    {% for prop in include.schema.properties %}
+    <div class="schema-field">
+        <div class="schema-field-name">{{ prop.name }}</div>
+        <div class="schema-field-properties">
+            <div class="schema-field-type">{{ prop.compact_type }}</div>
+            <div class="schema-field-description">{{ prop.description }}</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

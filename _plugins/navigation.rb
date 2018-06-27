@@ -4,7 +4,7 @@
 # adds {% navigation_menu %} tag
 #
 # Author: Eugene Dementjev
-# Version: 0.3.5
+# Version: 0.4
 
 require 'mini_cache'
 
@@ -45,13 +45,14 @@ module Jekyll
 
       def initialize(tag_name, args, tokens)
         super
-        @starting_level = 1
       end
 
       def render(context)
         @site = context.registers[:site]
         @config = context.registers[:site].config
         @page = context.environments.first["page"]
+        @starting_level = context['navigation_starting_level']
+        @max_level = context['navigation_max_level']
         baseurl = context['navigation_baseurl']
 
         self.cache.get_or_set("menu-#{baseurl}") do
@@ -63,6 +64,10 @@ module Jekyll
       end
 
       def render_level(level, parent, force_active_class = false)
+        if level >= @max_level then
+          return {:markup => '', :active => false}
+        end
+
         menu_id = level == @starting_level ? 'id="navigation-menu"' : ''
         css_class = level == @starting_level ? 'ui sticky vertical secondary navigation accordion pointing' : 'content'
 

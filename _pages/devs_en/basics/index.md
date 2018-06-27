@@ -29,4 +29,4 @@ The Basics section shows how to achieve typical tasks when you edit your X-Cart 
 *   {% link "How to work with sessions" ref_PW2oOrvq %};
 *   {% link "Making request to external services" ref_HK4ekS1u %};
 *   {% link "Making dependencies between modules" ref_xdDPawlG %};
-*   {% link "REST API documentation" ref_RSR29iWL %}.
+*   {% link "REST API documentation" ref_rest_api_doc %}.

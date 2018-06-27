@@ -9,7 +9,7 @@ order: 100
 
 ## Introduction
 
-This article contains step-by-step instructions for creating tricky records in X-Cart via REST API. For more infromation about how REST API works in X-Cart, please refer to main article: {% link "REST API documentation" ref_RSR29iWL %}.
+This article contains step-by-step instructions for creating tricky records in X-Cart via REST API. For more infromation about how REST API works in X-Cart, please refer to main article: {% link "REST API documentation" ref_rest_api_doc %}.
 
 During the article, we will assume that your X-Cart store is available at https://localhost/, your REST API key with writable permissions is 'write'.
 

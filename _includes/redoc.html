@@ -1,0 +1,3 @@
+{% if page.redoc_spec %}
+<redoc spec-url="{{ page.redoc_spec | prepend: site.baseurl }}" lazy-rendering></redoc>
+{% endif %}

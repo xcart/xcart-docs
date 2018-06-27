@@ -1,0 +1,24 @@
+---
+layout: wide_page
+rest_api: reference
+lang: en
+disable_spacer: true
+---
+<div class="ui stackable grid">
+	{% include sidebar.html %}
+
+	<article class="reference content sixteen wide tablet seven wide computer column">
+        {% include breadcrumbs.html %}
+        <h1 class="post-title">{{ page.title }}</h1>
+      	{% include messages.html %}
+
+        <div class="post-content">        
+            {% if page.api.description %}
+            <div class="operation-description">
+                {{ page.api.description }}
+            </div>
+            {% endif %}
+            {% include operations.html %}
+        </div>
+	</article>
+</div>

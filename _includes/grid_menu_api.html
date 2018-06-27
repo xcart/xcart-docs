@@ -1,0 +1,20 @@
+<div class="ui basic vertical segment index-navigation">
+  <div class="ui stackable grid">
+    {% assign api_pages = site.pages | sort: 'order' %}
+    {% for item in api_pages %}
+      {% if item.title and item.categories contains 'api' and item.lang == page.lang %}
+          <div class="sixteen wide mobile eight wide tablet third wide computer column">
+              <div class="navigation-item ui segment">
+                <a href="{{ item.url | prepend: site.baseurl }}">
+                  <h4 class="ui header">
+                    <div class="content">
+                      {{ item.title }}
+                    </div>
+                  </h4>
+                </a>
+            </div>
+          </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
