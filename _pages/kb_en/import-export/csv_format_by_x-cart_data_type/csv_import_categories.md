@@ -77,7 +77,7 @@ Below is a list of supported fields and their respective value types for categor
         <p>Clean URLs are imported according to the following rules:</p>
         <p>1. If the cleanURL field value doesn't exist in a .csv file the category Clean URL field stays unchanged.</p>
         <p>2. If the cleanURL field value is defined in a .csv file and this field is empty for a category at the moment of import the respective category property is created the category Clean URL gaining the value of the respective field from the .csv file.</p>
-        <p>3. If the cleanURL field value is defined in a .csv file and this field is NOT empty (exists) for a category at the moment of import the respective category Clean URL value is substituted with the one from the .csv file if the field value doesn't conflict with any of the existing Clean URLs values. If the conflict exists the cleanURL field value is automatically modified by adding **-1** to the end of the field value.</p>
+        <p>3. If the cleanURL field value is defined in a .csv file and this field is NOT empty (exists) for a category at the moment of import the respective category Clean URL value is substituted with the one from the .csv file if the field value doesn't conflict with any of the existing Clean URLs values. If the conflict exists the cleanURL field value is automatically modified by adding <strong>-1</strong> to the end of the field value.</p>
       </td>
       <td class="confluenceTd">String</td>
     </tr>
