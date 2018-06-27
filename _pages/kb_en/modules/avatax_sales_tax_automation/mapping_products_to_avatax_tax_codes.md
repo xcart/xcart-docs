@@ -15,7 +15,8 @@ To ensure the correct choice of taxing scenario for each transaction in your sto
 
 For this purpose a special field is provided on the product information page: the field **Tax code****(AvaTax)**:
 
-![]({{site.baseurl}}/attachments/8749241/8717394.png)
+![xc5_avatax_tax_code.png]({{site.baseurl}}/attachments/ref_SXNVD8TL/xc5_avatax_tax_code.png)
+
 
  Use this field to add an applicable taxability code for each of your products. This can be an AvaTax System tax code or a custom defined tax code.
 
