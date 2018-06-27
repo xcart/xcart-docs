@@ -13,7 +13,8 @@ order: 600
 
 X-Cart's AvaTax Sales Tax Automation allows you to handle tax exemption for customers. If you scroll down the **Account details** section of a customer profile, you will find the **AvaTax settings** section where you can enter the customer's Exemption number and Usage type:
 
-![]({{site.baseurl}}/attachments/8749847/8717990.png)
+![xc5_avatax_user_tax_exemption.png]({{site.baseurl}}/attachments/ref_9WS5DtDB/xc5_avatax_user_tax_exemption.png)
+
 
 _Related pages:_
 
