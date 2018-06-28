@@ -23,7 +23,7 @@ Once a customer adds a product to his wishlist this product is marked with a _re
 
    <div class="ui stackable three column grid">
      <div class="column" markdown="span">![added-to-wishlist.png]({{site.baseurl}}/attachments/ref_60uS71VK/added-to-wishlist.png)product listing page</div>
-     <div class="column" markdown="span"> ![already-in.png]({{site.baseurl}}/attachments/ref_60uS71VK/already-in.png)product details page</div>
+     <div class="column" markdown="span"> product details page ![already-in.png]({{site.baseurl}}/attachments/ref_60uS71VK/already-in.png)</div>
    </div>
 
                                                            
