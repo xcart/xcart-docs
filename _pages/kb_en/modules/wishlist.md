@@ -13,21 +13,21 @@ With "My Wishlist" module {% link "installed and enabled" ref_Vn1mMUw9 %}, your 
 
 The option to add a product to wishlist is available at almost every page of your site where products are displayed:
 
-<div class="ui stackable three column grid">
-  <div class="column" markdown="span">![add-to.png]({{site.baseurl}}/attachments/ref_60uS71VK/add-to.png) product listing page</div>
-  <div class="column" markdown="span">![product-details.png]({{site.baseurl}}/attachments/ref_60uS71VK/product-details.png) product details page</div>
-</div>
+  <div class="ui stackable three column grid">
+    <div class="column" markdown="span">![add-to.png]({{site.baseurl}}/attachments/ref_60uS71VK/add-to.png) product listing page</div>
+    <div class="column" markdown="span">![product-details.png]({{site.baseurl}}/attachments/ref_60uS71VK/product-details.png) product details page</div>
+  </div>
 
 
 Once a customer adds a product to his wishlist this product is marked with a _red heart_ icon. 
 
-<div class="ui stackable three column grid">
-  <div class="column" markdown="span">![added-to-wishlist.png]({{site.baseurl}}/attachments/ref_60uS71VK/added-to-wishlist.png) product listing page</div>
-  <div class="column" markdown="span"> ![already-in.png]({{site.baseurl}}/attachments/ref_60uS71VK/already-in.png)
-product details page</div>
-</div>
+   <div class="ui stackable three column grid">
+     <div class="column" markdown="span">![added-to-wishlist.png]({{site.baseurl}}/attachments/ref_60uS71VK/added-to-wishlist.png)product listing page</div>
+     <div class="column" markdown="span"> ![already-in.png]({{site.baseurl}}/attachments/ref_60uS71VK/already-in.png)product details page</div>
+   </div>
 
-
+                                                           
+                                                           
 The wishlist page in the store frontend can be reached from:
 
 * the site header 
