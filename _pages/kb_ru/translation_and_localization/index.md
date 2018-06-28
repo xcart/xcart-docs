@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-06-26 16:59 +0400'
 identifier: ref_4JzRSOqJ
 title: Язык магазина и локализация
-order: 1000
+order: 100
 published: true
 icon: translate
 description: Адаптация магазина к стандартам страны и перевод интерфейса на различные языки
