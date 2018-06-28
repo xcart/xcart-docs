@@ -20,7 +20,7 @@ paginate_path: "/what_is_new/page:num/"
 
 # REST API
 swagger_pages:
-    latest_api: 5.3.3.3
+    latest_api: 5.3.5.5
     path: "/rest-api/v:version/"
 
 swagger:
@@ -28,3 +28,5 @@ swagger:
     json: 'spec/5.3.3.0.json'
   - id: 5_3_3_3
     json: 'spec/5.3.3.3.json'
+  - id: 5_3_5_5
+    json: 'spec/5.3.5.5.json'
