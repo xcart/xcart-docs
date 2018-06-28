@@ -5,7 +5,7 @@ updated_at: '2018-06-27 15:53 +0400'
 identifier: ref_60uS71VK
 title: ''
 order: 330
-published: false
+published: true
 ---
 Quite a common case in ecommerce routine is when a customer doesn’t want to buy the product of his choice right at the moment, and wants to keep the info about this product for the possible future references. He may do this to wait for the upcoming discount offer or whatever else. Such cases are covered by the wishlist functionality that in X-Cart can be added by the ["My Wishlist" module](https://market.x-cart.com/addons/my-wishlist.html) (included in X-Cart Ultimate, paid for X-Cart Business an X-Cart Multivendor).
 
