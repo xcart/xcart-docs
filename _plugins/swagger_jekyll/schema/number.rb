@@ -1,7 +1,7 @@
 require_relative '../schema'
 
 module SwaggerJekyll
-  class Schema::Number < SwaggerJekyll::Schema
+  class Schema::Number < Schema
     def compact_type
       out = type
 

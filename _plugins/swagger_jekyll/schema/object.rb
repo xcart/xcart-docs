@@ -1,5 +1,7 @@
+require_relative '../schema'
+
 module SwaggerJekyll
-  class Schema::Object < SwaggerJekyll::Schema
+  class Schema::Object < Schema
     def type
       'object'
     end

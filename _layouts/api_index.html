@@ -16,7 +16,9 @@ disable_spacer: true
 
             <p>X-Cart uses Swagger to provide a formal definition of the public interface for its REST APIs.  Swagger provides a very rich definition model for URL structures, request models, and response models, and has a very developed ecosystem of tools for use with API interaction, testing and client generation.</p>
 
-            <a download target="_blank" href="{{ page.specfile | prepend: '/' | prepend: site.baseurl }}" class="ui button primary large">Download Swagger JSON</a>
+            <p>
+                <a download target="_blank" href="{{ page.specfile | prepend: '/' | prepend: site.baseurl }}" class="ui button primary large">Download Swagger JSON</a>
+            </p>
 
             <p>X-Cart Swagger .json file is not quite up to the standard because different resources are accessed through different query parameters, not different URI parts. The Swagger spec is really tight here and doesn't offer much options. If you load it into the Swagger Editor, it might show errors, hang up or even crash.</p>
 

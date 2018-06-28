@@ -1,5 +1,7 @@
+require_relative '../schema'
+
 module SwaggerJekyll
-  class Schema::AnyOf < SwaggerJekyll::Schema
+  class Schema::AnyOf < Schema
     def compact_type
       type.join(", ")
     end

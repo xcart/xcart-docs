@@ -1,5 +1,7 @@
+require_relative '../schema'
+
 module SwaggerJekyll
-  class Schema::Array < SwaggerJekyll::Schema
+  class Schema::Array < Schema
     def compact_type
       "#{element_type.compact_type}[] array"
     end

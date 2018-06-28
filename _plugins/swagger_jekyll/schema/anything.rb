@@ -1,3 +1,5 @@
+require_relative '../schema'
+
 module SwaggerJekyll
   class Schema::Anything < Schema
     def compact_type
