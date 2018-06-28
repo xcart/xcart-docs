@@ -5,7 +5,7 @@ updated_at: '2018-06-28 15:29 +0400'
 identifier: ref_1Wh4L7AQ
 title: Локализация сайта
 order: 160
-published: false
+published: true
 ---
 В панели управления магазина откройте страницу **Настройка магазина / Локализация**.
     
