@@ -4,8 +4,8 @@ layout: article_with_sidebar
 updated_at: '2018-06-28 15:22 +0400'
 identifier: ref_06whJBHl
 title: 'Перевод новостей, меню и статических страниц на другой язык'
-order: 100
-published: false
+order: 140
+published: true
 ---
 Для перевода текста **новостей, меню и статических страниц** на другой язык следует не {% link "редактировать языковые метки" ref_translation %}, а {% link "переклчить язык панели управления" ref_adminlanguage %} на язык перевода и редактировать тексты.
 ![2.jpg]({{site.baseurl}}/attachments/ref_2lJntxE4/2.jpg)
