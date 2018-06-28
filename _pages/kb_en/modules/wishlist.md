@@ -14,7 +14,7 @@ With "My Wishlist" module {% link "installed and enabled" ref_Vn1mMUw9 %}, your 
 The option to add a product to wishlist is available at almost every page of your site where products are displayed:
 
 <div class="ui stackable three column grid">
-  <div class="column" markdown="span">![product.png]({{site.baseurl}}/attachments/ref_60uS71VK/product.png) product listing page</div>
+  <div class="column" markdown="span">![add-to.png]({{site.baseurl}}/attachments/ref_60uS71VK/add-to.png) product listing page</div>
   <div class="column" markdown="span">![product-details.png]({{site.baseurl}}/attachments/ref_60uS71VK/product-details.png) product details page</div>
 </div>
 
