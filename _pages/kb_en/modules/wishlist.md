@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-27 15:53 +0400'
 identifier: ref_60uS71VK
-title: ''
+title: Wishlist
 order: 330
 published: true
 ---
