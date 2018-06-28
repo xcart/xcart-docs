@@ -11,7 +11,7 @@ order: 410
 ---
 
 
-The module **X-Payments subscriptions** is a recurring billing solution for stores based on X-Cart 5 that allows you to create product subscriptions and process them via [X-Payments](http://www.x-payments.com/help/Main_Page). 
+The module **X-Payments subscriptions** is a recurring billing solution for stores based on X-Cart 5 that allows you to create product subscriptions and process them via [X-Payments](http://www.x-payments.com/help/Main_Page), a PCI DSS Level 1 service provider. 
 
 _In this section:_
 
