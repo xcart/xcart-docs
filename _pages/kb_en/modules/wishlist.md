@@ -27,12 +27,13 @@ Once a customer adds a product to his wishlist this product is marked with a _re
 product details page</div>
 </div>
 
-The wishlist page can be reached both from the site header and from the quick menu in the up right corner.
 
-<div class="ui stackable three column grid">
-  <div class="column" markdown="span">![header.png]({{site.baseurl}}/attachments/ref_60uS71VK/header.png)</div>
-  <div class="column" markdown="span">![account-popup.png]({{site.baseurl}}/attachments/ref_60uS71VK/account-popup.png)</div>
-</div>
+The wishlist page in the store frontend can be reached from:
+
+* the site header 
+  ![header.png]({{site.baseurl}}/attachments/ref_60uS71VK/header.png)
+* the quick menu in the up right corner
+  ![account-popup.png]({{site.baseurl}}/attachments/ref_60uS71VK/account-popup.png)
 
 The store admin can also check the customer's wishlist in the _Wishlist_ tab of a user profile (**Users** -> **Users list**) in the Admin area:
 
