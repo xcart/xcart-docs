@@ -44,10 +44,10 @@ Offering wishlists is an effective way to reduce shopping cart abandonment and f
 
 Besides that wishlist introduces your site to new customers and many of them may get converted to buyers (if they are referred to) as the "My Wishlist" module also allows a customer to send an email to his/her friends or relatives with the product details and buying option. 
 
-The "send to a friend" option is available to a customer on the Wishlist page in the customer account of your store front-end.
+The "send wishlist" option is available to a customer on the Wishlist page in the customer account of your store front-end.
 
 ![send-to-friend.png]({{site.baseurl}}/attachments/ref_60uS71VK/send-to-friend.png)
 
-The "send to a friend" option allows viral marketing for your website as another person gets to know about your website and products sold through it. 
+The "send wishlist" option allows viral marketing for your website as another person gets to know about your website and products sold through it. 
 
 Wishlists can also encourage users to sign up for an account who wouldn't have otherwise.
