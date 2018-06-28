@@ -19,11 +19,11 @@ categories:
 
 Если вы планируете продавать товары не только в Российской Федерации, установите языковые версии магазина. Модули перевода доступны для установки в Маркетплейсе:
 
-[Русский](https://market.x-cart.com/addons/russian-translation.html  "Язык магазина и локализация")
-[Французский](https://market.x-cart.com/addons/french-translation.html  "Язык магазина и локализация")
-[Немецкий](https://market.x-cart.com/addons/german-translation.html  "Язык магазина и локализация")
-[Голландский](https://market.x-cart.com/addons/dutch-translation-by-community-members.html  "Язык магазина и локализация")
-[Британский английский](https://market.x-cart.com/addons/translation-british-english.html  "Язык магазина и локализация")
+- [Русский](https://market.x-cart.com/addons/russian-translation.html  "Язык магазина и локализация")
+- [Французский](https://market.x-cart.com/addons/french-translation.html  "Язык магазина и локализация")
+- [Немецкий](https://market.x-cart.com/addons/german-translation.html  "Язык магазина и локализация")
+- [Голландский](https://market.x-cart.com/addons/dutch-translation-by-community-members.html  "Язык магазина и локализация")
+- [Британский английский](https://market.x-cart.com/addons/translation-british-english.html  "Язык магазина и локализация")
 
 Если необходимого перевода нет в Маркетплейсе, обратитесь к команде X-Cart {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. Мы расскажем, как создать модуль перевода.
 
