@@ -22,14 +22,10 @@ published: true
 
 Введите информацию о базе данных и нажмите **Отправить**.
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![4.jpg]({{site.baseurl}}/attachments/ref_6VBJS2hG/4.jpg)
-</div>
-  <div class="column" markdown="span">![5.jpg]({{site.baseurl}}/attachments/ref_6VBJS2hG/5.jpg)
-</div>
-</div>
+![5.jpg]({{site.baseurl}}/attachments/ref_6VBJS2hG/5.jpg)
 
-**WordPress** создаст файл _wp-config.php_, в котором сохранит данные подключения к MySQL базе. Если файл успешно создан, вы получите подтверждение. Нажмите **Начать установку**. 
+
+**WordPress** создаст файл _wp-config.php_, в котором сохранит данные подключения к MySQL базе. Если файл успешно создан, вы получите подтверждение. Нажмите **Запустить установку**. 
 
 ![6.jpg]({{site.baseurl}}/attachments/ref_6VBJS2hG/6.jpg)
 
