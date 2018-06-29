@@ -9,10 +9,21 @@ categories:
 published: true
 order: 100
 ---
+X-Cart 5 has 5 templates (Standard, Fashion, Noblesse, Digital and Crisp White) that are included into all default software packages.
+
+   ![templates.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/templates.png)
+
+You can choose any of them for your store in the the **Layout** section (**Look & Feel** > **Layout**) of the store admin area.
+
+   ![templates-layout.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/templates-layout.png)
+
+{% note info %}
+If the _Layout_ part of the page is inactive check that the **Color Schemes** module is enabled in the **My Addons** section.
+    ![templates-color-schemes.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/templates-color-schemes.png)
+{% endnote %}
+
+In the _Layout_ section of the page you can see the skin that is currently installed in the store and change the default and home-page layout if necessary. You can choose between one-column, two-column (left or right) and three column layout schemes. The home page layout changes the representation of the home page and the default layout changes the representation of the rest of your store pages.
+
+To change the store skin choose the one you like better in the _Choose a new template_ section (the current skin will be highlighted with orange border, the new one with blue) and click the **Submit** button. 
 
 
-1.  In the store's Admin area go to the Installed Modules section and check whether the **Color Schemes** module is installed at your store. If not, choose to go to X-Cart Marketplace and install it from there:
-    ![]({{site.baseurl}}/attachments/6389826/8716561.png)
-
-2.  Go to the Layout section (**Look & Feel > Color and Layout**) and select one of the available colour schemes:
-    ![]({{site.baseurl}}/attachments/6389826/8716611.png)
