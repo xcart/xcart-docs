@@ -25,9 +25,9 @@ With regard to product classes and attributes, vendors have the following capab
 *   cannot add attributes (attribute names) at the global level (This feature is accessible only to the administrator);
 *   can see the attributes (attribute names) and attribute values created by admin at the global level + can assign these attributes and values to their own products (but cannot edit these attributes or their values).  
 
-Depending on the way the module Multi-vendor was configured by the store administrator, vendors may or may not have access to adding their own values for global attributes and attributes created by admin or other vendors at the level of product classes. This depends on the setting **Vendor access to global attributes** on the Multi-vendor module settings page: if this setting is set to "_Use existing and add new values_", vendors can not just use the existing attribute values, but also add their own new values for the attributes defined by others; if this setting is set to "_Use existing values only_", vendors cannot add their own attribute values and only use the existing values.
+Depending on the way the module Multi-vendor was configured by the store administrator, vendors may or may not have access to adding their own values for global attributes and attributes created by admin or other vendors at the level of product classes. This depends on the setting **Vendor access to global attributes** on the Multi-vendor module settings page: if this setting is set to "_Use existing and add new values_", vendors do not just use the existing attribute values, but can also add their own new values for the attributes defined by others; if this setting is set to "_Use existing values only_", vendors cannot add their own attribute values and only use the existing values.
 
-Vendors can access the section for the management of product classes and attributes in one of the two ways:
+Vendors can access the section for the management of product classes and attributes in one of the following ways:
 
 *   via the **Attributes** tab of the product details view of a specific product;
 *   via the **Classes & attributes** menu item in the **Catalog** menu.
