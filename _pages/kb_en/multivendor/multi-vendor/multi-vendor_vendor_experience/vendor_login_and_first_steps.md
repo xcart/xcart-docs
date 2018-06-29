@@ -43,17 +43,15 @@ Now the vendor can start selling. The steps below will get them started:
     (In "_Warehouse_" mode, the products of different vendors are shipped from the same warehouse, so the "ship-from" address and shipping methods are the same for all the vendors; the configuration of the "ship-from" address and shipping methods in this case is done by the store administrator.)
     {% endnote %}
 
-5.  If the store is set to work in the "_Vendors as separate shops_" {% link "multivendor mode" ref_nFq48dhr %}, vendors are responsible for the collection of sales tax, and the store uses an automated sales tax calculation solution like AvaTax or TaxJar:
-
-    *  The vendor must check the Financial details of their profile (**My account** > **Financial details**) and ensure that only the US states in which they are going to do business and which pertain to their nexus are listed in the "US tax calculation" settings section. This is needed to ensure that no tax calculation requests are sent to AvaTax/TaxJar if the user creating an order comes from a state which does not belong to the vendor's nexus.
+    * If, according to the store's Multi-vendor configuration settings, vendors have been given the responsibility to collect sales tax on their own sales, and an automated sales tax calculation solution like AvaTax or TaxJar is used by the store, the vendor must check the Financial details section in their profile (**My account** > **Financial details**) and ensure that all the US states in which they are going to do business and which pertain to their nexus (and only those states) are listed in the "US tax calculation" settings section. This is needed to ensure that tax calculation requests to AvaTax/TaxJar are sent properly for the vendor. Note that failure to specify the states in the **Financial details** section properly may result in the store's failure to send tax calculation requests to AvaTax/TaxJar for the vendor's products.
 
     For more information on the usage of AvaTax Sale Tax Automation with X-Cart Multivendor, see {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}.
     
-6.  If the option to create coupons and discounts has been enabled for the vendor by the store administrator, the vendor can create coupons and discounts for their products. See {% link "Adding coupons and discounts for vendor products" ref_SwbyhUn5 %}.
+5.  If the option to create coupons and discounts has been enabled for the vendor by the store administrator, the vendor can create coupons and discounts for their products. See {% link "Adding coupons and discounts for vendor products" ref_SwbyhUn5 %}.
 
-7. Once customers start buying products owned by the vendor, the vendor will be able to view the orders via the Orders section. They will also have access to sales statistics including their order statistics and best selling products. See {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}.
+6. Once customers start buying products owned by the vendor, the vendor will be able to view the orders via the Orders section. They will also have access to sales statistics including their order statistics and best selling products. See {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}.
 
-8. 
+7. 
 
 _Related pages:_
 
