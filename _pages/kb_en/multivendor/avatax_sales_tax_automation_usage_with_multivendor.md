@@ -39,5 +39,3 @@ Vendors should be instructed to specify their nexus states via **My account** > 
 ![us_tax_calculation_in_vendor.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/us_tax_calculation_in_vendor.png)
 
 Note that failure to specify the states in the **Specify US states** field after adjusting the setting **Automatically calculate taxes for** to "_Specific states_" will result in that no tax calculation requests will be sent to AvaTax to calculate sales tax for the vendor's products; for this reason the store administrator should double check that the information regarding the vendor's nexus states has been properly provided by them via the Financial details section (If not, the administrator should request that the vendor fixes it, or fix it themselves for the vendor).
-
-
