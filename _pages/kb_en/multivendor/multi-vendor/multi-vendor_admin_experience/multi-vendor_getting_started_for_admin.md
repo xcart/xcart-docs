@@ -94,9 +94,7 @@ In stores where the collection of taxes has been configured as the responsibilit
 
    * Using an X-Cart tax configuration addon like {% link "Sales tax" ref_aJPK4DHN %}, {% link "VAT/GST" ref_Rzp45QlN %} or {% link "Canadian taxes" ref_hxmof6xX %} (This method involves extensive configuration of zones, taxes and tax rates).
    or 
-   * Using an integration of an online tax calculation service like AvaTax or TaxJar (This method involves getting an account with one of the online tax calculation services and configuring the store to connect to the respective service to get tax rates for each order). 
-
-In stores where the collection of taxes has been configured as the responsibility of the vendor, an online tax calculation service like AvaTax or TaxJar will have to be used. The configuration of taxes with X-Cart addons like {% link "Sales tax" ref_aJPK4DHN %}, {% link "VAT/GST" ref_Rzp45QlN %} or {% link "Canadian taxes" ref_hxmof6xX %} in such stores _is not supported_.
+   * Using an integration of an online tax calculation service like AvaTax or TaxJar (This method involves getting an account with one of the online tax calculation services and configuring the store to connect to the respective service to get tax rates for each order).
 
 For information on the usage of AvaTax Sale Tax Automation with X-Cart Multivendor, see {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}.
 
