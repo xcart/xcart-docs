@@ -13,7 +13,7 @@ X-Cart 5 has 5 templates (Standard, Fashion, Noblesse, Digital and Crisp White) 
 
    ![templates.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/templates.png)
 
-You can choose any of them for your store in the the **Layout** section (**Look & Feel** > **Layout**) of the store admin area.
+You can choose any of them for your store in the **Layout** section (**Look & Feel** > **Layout**) of the store admin area.
 
    ![templates-layout.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/templates-layout.png)
 
