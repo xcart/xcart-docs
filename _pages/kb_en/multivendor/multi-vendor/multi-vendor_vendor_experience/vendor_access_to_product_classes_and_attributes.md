@@ -30,7 +30,7 @@ Depending on the way the module Multi-vendor was configured by the store adminis
 Vendors can access the section for the management of product classes and attributes in one of the two ways:
 
 *   via the **Attributes** tab of the product details view of a specific product;
-*   via the **Classes & attributes** menu item in the **Products** menu.
+*   via the **Classes & attributes** menu item in the **Catalog** menu.
 
 More information on the management of product classes and attributes can be found in the {% link "Product classes and attributes" ref_T90ZcEpP %} section of this manual.
 
@@ -38,4 +38,3 @@ _Related pages:_
 
    *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
    *   {% link "Vendor login and first steps" ref_SZycMdTx %}
-   
