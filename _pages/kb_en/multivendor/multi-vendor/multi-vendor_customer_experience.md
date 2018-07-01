@@ -37,7 +37,7 @@ When a product owned by a vendor is added to the shopping cart, the vendor's com
 
 In the "Warehouse" multivendor mode, the list of shipping methods available for the order is formed by the store administrator; the buyer has to choose a single shipping method for the entire order. In the "Vendors as separate shops" mode, each vendor has their own list of shipping methods; the buyer has to choose a shipping method for each of the vendors whose products are in the shopping cart:
 
-![]({{site.baseurl}}/attachments/8749408/8719639.png)
+![xc5_mv_vendor_shipping_methods.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_vendor_shipping_methods.png)
 
 In the "Warehouse" multivendor mode, the buyer gets a single order invoice. In the "Vendors as separate shops" mode, a separate order is formed for each of the vendors whose products are in the order; the buyer gets a separate order invoice for each of the orders.
 
