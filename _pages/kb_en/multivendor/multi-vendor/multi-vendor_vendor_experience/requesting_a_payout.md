@@ -5,7 +5,7 @@ updated_at: '2018-04-30 18:15 +0400'
 identifier: ref_6yngv3DQ
 title: Requesting a payout of one's earnings as a vendor
 order: 100
-published: false
+published: true
 ---
 In a multivendor store, a vendor who has funds on their earning balance can request a payout of their earnings by submitting a payout request to the store owner/storefront operator using the **Request payout** button on the Vendor transactions page (**My account** > **My transactions**) of the Vendor area.
 ![xc5_mv_request_payout_button.png]({{site.baseurl}}/attachments/ref_6yngv3DQ/xc5_mv_request_payout_button.png)
