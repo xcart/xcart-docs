@@ -7,7 +7,7 @@ title: Requesting a payout
 order: 100
 published: false
 ---
-In a multivendor store, a vendor who has funds on their earning balance can request a payout of their earnings by submitting a payout request to the store owner/storefront operator using the **Request payout** button in the Vendor transactions section (**My account** > **My transactions**) of the Vendor area.
+In a multivendor store, a vendor who has funds on their earning balance can request a payout of their earnings by submitting a payout request to the store owner/storefront operator using the **Request payout** button on the Vendor transactions page (**My account** > **My transactions**) of the Vendor area.
 ![xc5_mv_request_payout_button.png]({{site.baseurl}}/attachments/ref_6yngv3DQ/xc5_mv_request_payout_button.png)
 
 Note that if the store administrator has set a minimum limit on the amount of funds that must be accumulated on a vendor's earning balance for the vendor to be able to request a payout (via the "Minimal vendor balance to request a payout" setting), the vendor will have access to the **Request payout** button only if the earning balance amount requirement is met.
@@ -19,7 +19,7 @@ The vendor will not be able to submit a payout request without submitting an inv
 Once a payout request is submitted, a success message is displayed and a _Request for payout_ transaction is created (visible both to the vendor and the store administrator):
 ![xc5_mv_payout_requested_successfully.png]({{site.baseurl}}/attachments/ref_6yngv3DQ/xc5_mv_payout_requested_successfully.png)
 
-
+Once the store administrator approves or declines the payout request, the information on the Vendor transactions page will be updated to reflect the changes:
 ![xc5_mv_payout_request_accepted_in_vendor.png]({{site.baseurl}}/attachments/ref_6yngv3DQ/xc5_mv_payout_request_accepted_in_vendor.png)
 
 _Related pages:_
