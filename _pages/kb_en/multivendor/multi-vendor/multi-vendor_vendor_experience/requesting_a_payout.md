@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-30 18:15 +0400'
 identifier: ref_6yngv3DQ
-title: Requesting a payout
+title: Requesting a payout of one's earnings as a vendor
 order: 100
 published: false
 ---
