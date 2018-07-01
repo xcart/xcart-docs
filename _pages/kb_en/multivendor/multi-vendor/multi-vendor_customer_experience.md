@@ -31,13 +31,9 @@ If the store administrator has chosen to enable product filtering by vendor with
 
 ![]({{site.baseurl}}/attachments/8749408/8717256.png)
 
-When a product owned by a vendor is added to the shopping cart, the vendor's company name appears on the cart page:
+When a product owned by a vendor is added to the shopping cart, the vendor's company name appears on the cart page. If the cart contains products of more than one vendors, the products on the shopping cart page are automatically sorted by vendor:
 
-![]({{site.baseurl}}/attachments/8749408/8717250.png)
-
-If the cart contains products of more than one vendors, the products on the shopping cart page are automatically sorted by vendor:
-
-![]({{site.baseurl}}/attachments/8749408/8717249.png)
+![xc5_mv_vendor_name_in_cart.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_vendor_name_in_cart.png)
 
 In the "Warehouse" multivendor mode, the list of shipping methods available for the order is formed by the store administrator; the buyer has to choose a single shipping method for the entire order. In the "Vendors as separate shops" mode, each vendor has their own list of shipping methods; the buyer has to choose a shipping method for each of the vendors whose products are in the shopping cart:
 
