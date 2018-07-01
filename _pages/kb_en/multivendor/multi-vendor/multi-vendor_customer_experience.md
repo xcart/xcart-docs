@@ -21,11 +21,11 @@ Note that the **Vendors** menu appears on the storefront only if the store admin
 
 By clicking on the vendor company name link on the **Vendors** menu, store visitors can access the vendor's profile page. This page provides general information about the vendor including their company name, image, description and location. It also lists all the vendor's products:
 
-![]({{site.baseurl}}/attachments/8749408/8717014.png)
+![xc5_mv_vendor_page_in_customer.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_vendor_page_in_customer.png)
 
-The details pages of specific products also provide some information about the vendor. This includes the vendor's company name, location and image. There is also the View Profile link that allows visitors to access the vendor's profile page:
+The details pages of specific products also provide some information about the vendor. This includes the vendor's company name (with a link to the vendor profile page) and location:
 
-![]({{site.baseurl}}/attachments/8749408/8717015.png)
+![xc5_mv_vendor_product.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_vendor_product.png)
 
 If the store administrator has chosen to enable product filtering by vendor with the help of X-Cart 5 **Product Filters** module, visitors of the store's Customer area can filter products by vendor in catgories that list products of more than one vendor:
 
