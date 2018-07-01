@@ -12,6 +12,7 @@ In a multivendor store, a vendor who has funds on their earning balance can requ
 
 Note that if the store administrator has set a minimum limit on the amount of funds that must be accumulated on a vendor's earning balance for the vendor to be able to request a payout ("Minimal vendor balance to request a payout"), the vendor will have access to the **Request payout** button only if the earning balance amount requirement is met.
 
+
 Once a payout request is submitted, a success message is displayed and a _Request for payout_ transaction is created (visible both to the vendor and the store administrator):
 ![xc5_mv_payout_requested_successfully.png]({{site.baseurl}}/attachments/ref_6yngv3DQ/xc5_mv_payout_requested_successfully.png)
 
