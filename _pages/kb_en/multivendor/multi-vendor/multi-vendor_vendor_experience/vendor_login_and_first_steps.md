@@ -51,7 +51,8 @@ Now the vendor can start selling. The steps below will get them started:
 
 6. Once customers start buying products owned by the vendor, the vendor will be able to view the orders via the Orders section. They will also have access to sales statistics including their order statistics and best selling products. See {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}.
 
-7. 
+7. With every purchase of the vendor's products, the vendor's earnings will be accumulated on the vendor's earning balance. As soon as a sufficient amount of money has been accumulated on the vendor's earning balance, the vendor will be able to request a payout of the money due to them. See {% link "Requesting a payout of one's earnings as a vendor" ref_6yngv3DQ %}.
+
 
 _Related pages:_
 
