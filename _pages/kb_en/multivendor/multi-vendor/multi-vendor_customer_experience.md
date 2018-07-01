@@ -15,7 +15,7 @@ redirect_from:
 
 In a multi-vendor X-Cart 5 store, the storefront provides a **Vendors** menu from which store visitors can access the profile and products of specific vendors:
 
-![]({{site.baseurl}}/attachments/8749408/8717013.png)
+![xc5_mv_vendor_list_in_sidebar.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_vendor_list_in_sidebar.png)
 
 Note that the **Vendors** menu appears on the storefront only if the store administrator has chosen to make this menu available in the sidebar of the store site. 
 
