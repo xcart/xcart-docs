@@ -39,7 +39,9 @@ To add a new product:
 
 ## Product information that can be specified
 
-When creating a new product, you need to specify product information via the form fields of the Add product page. Note that the actual set of fields available to you on this page depends on the X-Cart edition you are using and the set of addons (modules) enabled. The following list of fields corresponds to the set of product fields available for configuration on a fresh install of X-Cart Ultimate edition:
+When creating a new product, you need to specify product information via the form fields of the Add product page. Note that the actual set of fields available to you on this page depends on the X-Cart edition you are using and the set of addons (modules) enabled. The following list of fields corresponds to the set of product fields available for configuration on a fresh install of X-Cart Ultimate edition. If you do not see any of the fields described below in your X-Cart store back end, it means that the addon that enables this field is not installed or not active. To see what addons are active in your store and, if necessary, to install/activate more addons, check the **My addons** section in your X-Cart store Admin area. More info on the management of X-Cart addons can be found in the {% "Managing addons" ref_gTOegEua %} section of this manual.
+
+So, here is the product information that can be specified when adding a new product:
 
 *   **Vendor**: Company name and email of the vendor who owns the product. This field is only available if X-Cart's {% link "Multi-vendor" ref_cvwmAuRi %} addon is active. Since an administrator can create products not only for themselves, but also for other users (vendors), this field needs to be adjusted to specify the owner of the product.
 
