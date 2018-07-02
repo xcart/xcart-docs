@@ -11,8 +11,6 @@ order: 100
 redirect_from:
   - /general_setup/setting_up_seo-friendly_urls.html
 ---
-
-
 ## Introduction
 
 This article aims to help merchants to set up X-Cart to use SEO-friendly URLs for products and categories instead of the default ones with GET parameters (like `cart.php?target=category&category_id=2`).
