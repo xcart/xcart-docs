@@ -69,8 +69,9 @@ _Prices & Inventory_
 *   **Sale**: Use this to put the product on sale.
 *   **Arrival date**: This field allows you to record the date since when the product is available in your store. On its own, the information entered in this field serves purely informational purposes, but may be employed by X-Cart modules (For example, a module that allows you to add a new product to your catalog in advance and let it be published on the storefront automatically when its arrival date is reached).
 *   **Automatic reward points**:
+*   **Inventory tracking**: Whether you wish to use the inventory tracking feature for this product. If the product quantity is unlimited and does not need to be tracked, set the option to _Disabled_.
+*   **Quantity in stock**: The current inventory level of the product (the number of product units in stock).
 
-*   **Quantity in stock**: The exact current quantity in stock, or any value if you do not intend to track the inventory of this product. (In the latter case you will need to disable inventory tracking after the product has been created.) 
 *   **Weight**: Product weight.
 *   **Shippable**: Whether the product is shippable.
 *   **Free shipping**: Whether the product should be shipped free of charge.
