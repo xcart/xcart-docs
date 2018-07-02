@@ -11,11 +11,12 @@ The default X-Cart 5 software allows adding banners to the store front-page (hom
 
 If you want more banners that can be added to any page of the store and placed in different locations you can extend the default functionality with the [Banners System](https://market.x-cart.com/addons/banner-system.html "Adding Banners to Store Pages") module (paid for Business and Multivendor, included in Ultimate). 
 
-Once {% link "installed and enabled" ref_Vn1mMUw9 %} the **Banner System** module functionality is added to the **Banners** section (**Content** -> **Banners**) of the store Admin area. 
+Once {% link "installed and enabled" ref_Vn1mMUw9 %} the **Banner System** module functionality is added to the **Banners** section (**Content** -> **Banners**) of the store Admin area. To add a new banner click the **"New banner"** button in this section.
 
 ![new-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/new-banner.png)
 
-To add a new banner click the "New banner" button in this section. You'll see a screen of the kind:
+ 
+You'll see a screen of the kind:
    ![add-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/add-banner.png)
    
    Here you can define the basic banner settings:
@@ -45,21 +46,32 @@ To edit the banner further click on its name in the list of banners available in
    
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![images-settings.png]({{site.baseurl}}/attachments/ref_35tpPrVf/images-settings.png)</div>
-  <div class="column" markdown="span">![add-html-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/add-html-banner.png)</div>
+  <div class="column" markdown="span">![html-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/html-banner.png)</div>
 </div>
 
-The _Banner images settings_ tab allows you to add images to the banner. To add a new image click **Create**. You'll see a line where you can upload the image and set the image properties:
+1. The _Banner images settings_ tab allows you to add images to the banner. To add a new image click **Create**. 
+   You'll see a line where you can upload the image and set the image properties:
+   
+   ![image-properties.png]({{site.baseurl}}/attachments/ref_35tpPrVf/image-properties.png)
+   
+   You can define the following fields for the image:
+      * **Image** : To add an image click the **+** icon. The image can be uploaded _from computer_ or _via URL_. 
+      * **Link** : Specify the URL the image will forward to.
+      * **Main text** : You can add a main image description here, if required.
+      * **Main text color** : To choose the main text color click on the color number. You'll see a colorpicker that you can use to find the color you need.
+      * **Additional text** : You can add an additional image description here, if required.
+      * **Additional text color** To choose the additional text color click on the color number. You'll see a colorpicker that you can use to find the color you need.
+   
+   Click **Save changes** once you are done the image will be added to the banner. Add the rest of the images the same way. You can add a text only to the banner if required. 
+   
+   A list of images added to the banner looks as follows:
+   
+   ![first-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/first-banner.png)
 
-![image-properties.png]({{site.baseurl}}/attachments/ref_35tpPrVf/image-properties.png)
-
-You can define the following fields for the image:
-* **Image** : To add an image click the **+** icon. The image can be uploaded _from computer_ or _via URL_. 
-* **Link** : Specify the URL the image will forward to.
-* **Main text** : You can add a main image description here, if required.
-* **Main text color** : To choose the main text color click on the color number. You'll see a colorpicker that you can use to find the color you need.
-* **Additional text** : You can add an additional image description here, if required.
-* **Additional text color** To choose the additional text color click on the color number. You'll see a colorpicker that you can use to find the color you need.
-
-Click **Save changes** once you are done the image will be added to the banner. Add the rest of the images the same way. You can add a text only to the banner if required.
-
-![first-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/first-banner.png)
+2. The _HTML banners_ tab allows you to create an html banner. To add a new banner click the **Add new HTML-banner** button. You'll see a form where a banner can be added:
+   ![html-properties.png]({{site.baseurl}}/attachments/ref_35tpPrVf/html-properties.png)
+   
+   {% note info %}
+   HTML banners are more robust and are good for SEO as they can be indexed by search engines.
+   {% endnote %}
+   
