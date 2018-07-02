@@ -18,7 +18,7 @@ Once {% link "installed and enabled" ref_Vn1mMUw9 %} the **Banner System** modul
 To add a new banner click the "New banner" button in this section. You'll see a screen of the kind:
    ![add-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/add-banner.png)
    
-   Here you can define the banner settings:
+   Here you can define the basic banner settings:
    * **Location** : Choose one of the locations available
    * **Position** : In case there will be more than one banner at the same location, specify the banner position in the row.
    * **Banner name** : Specify the banner name here (mandatory field).
@@ -41,9 +41,26 @@ To add a new banner click the "New banner" button in this section. You'll see a 
    
    ![banner-created.png]({{site.baseurl}}/attachments/ref_35tpPrVf/banner-created.png)
 
-To edit the banner further click on its name in the list of banners available in the store. 
+To edit the banner further click on its name in the list of banners available in the store. You'll see a page with the basic banner settings you specified previously. Skip this tab and proceeed either to the _Banner images settings_ tab or to the _HTML banners_ tab depending on the type of banner you want to configure. 
    
-   
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![images-settings.png]({{site.baseurl}}/attachments/ref_35tpPrVf/images-settings.png)</div>
+  <div class="column" markdown="span">![add-html-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/add-html-banner.png)</div>
+</div>
 
+The _Banner images settings_ tab allows you to add images to the banner. To add a new image click **Create**. You'll see a line where you can upload the image and set the image properties:
 
- 
+![image-properties.png]({{site.baseurl}}/attachments/ref_35tpPrVf/image-properties.png)
+
+You can define the following fields for the image:
+* **Image** : To add an image click the **+** icon. The image can be uploaded _from computer_ or _via URL_. 
+* **Link** : Specify the URL the image will forward to.
+* **Main text** : You can add a main image description here, if required.
+* **Main text color** : To choose the main text color click on the color number. You'll see a colorpicker that you can use to find the color you need.
+* **Additional text** : You can add an additional image description here, if required.
+* **Additional text color** To choose the additional text color click on the color number. You'll see a colorpicker that you can use to find the color you need.
+
+Click **Save changes** once you are done the image will be added to the banner. Add the rest of the images the same way. You can add a text only to the banner if required.
+
+![first-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/first-banner.png)
+
