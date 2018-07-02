@@ -97,7 +97,7 @@ _Prices & Inventory_
 
 *   **Backorder label**: This field is only available if the previous setting ("Available for backorder") is enabled. It enables you to add a message regarding the backordering of the current product which your store visitors will see attached to this product in product lists and on the product page when the product is out of stock. You can insert the number of units available for backordering into this message by using the "%number%" placeholder; for example: "You can backorder up to %number% items."
 
-*   **Limit the backorder quantity**: This field is only available if the setting "Available for backorder" is enabled. It enables you to set the maximum number of product units that a customer can backorder.
+*   **Limit the backorder quantity**: This field is only available if the setting "Available for backorder" is enabled. It enables you to set the maximum number of units of the current product that a customer can purchase on backorder.
 
 _Shipping_
 
