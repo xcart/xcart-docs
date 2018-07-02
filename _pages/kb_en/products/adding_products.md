@@ -9,6 +9,8 @@ categories:
 published: true
 order: 120
 ---
+_This section is currently a draft.
+Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
 
 This section provides information on how to add products to your store manually one by one. Please note that you can also add products via {% link "import" ref_TANvG2De %}. 
 
