@@ -41,7 +41,7 @@ To add a new product:
 
 When creating a new product, you can specify the following product details:
 
-*   **Vendor**: Company name and email of the vendor who owns the product. This field is only available if X-Cart's {% link "Multi-vendor" ref_cvwmAuRi %} addon is active; it enables you to create products not only for yourself, but also for other users - as if they themselves created it.
+*   **Vendor**: Company name and email of the vendor who owns the product. This field is only available if X-Cart's {% link "Multi-vendor" ref_cvwmAuRi %} addon is active. Since an administrator can create products not only for themselves, but also for other users (vendors), this field needs to be adjusted to specify the owner of the product.
 *   **Product name**: The name by which you and your customers will identify this product.
 *   **SKU**: The product SKU (A code that will serve as a unique identifier for this product).
 *   **Images**: Use this section to add images of the product.
