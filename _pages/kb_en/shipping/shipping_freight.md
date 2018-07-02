@@ -27,7 +27,7 @@ To define whether the shipping cost for products with a defined shipping freight
 
    ![settings.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/settings.png)
 
-For the cases when customer's shopping cart contains only products with a defined shipping freight, and no other shipping methods are available, your store will need a shipping method selectable at checkout. We provide a special shipping method for this purpose - "Fixed rate shipping". 
+For the cases when a customer's shopping cart contains only products with a defined shipping freight, and no other shipping methods are available, your store will need a shipping method selectable at checkout. We provide a special shipping method for this purpose - "Fixed rate shipping". 
 
 Make sure this method is active in the **Store setup** -> **Shipping** section of your store's Admin area:
 
