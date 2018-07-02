@@ -71,17 +71,21 @@ _Prices & Inventory_
 *   **Automatic reward points**:
 *   **Inventory tracking**: Whether you wish to use the inventory tracking feature for this product. If the product quantity is unlimited and does not need to be tracked, set the option to _Disabled_.
 *   **Quantity in stock**: The current inventory level of the product (the number of product units in stock).
+*   **Available for backorder**:
 
+_Shipping_
 *   **Weight**: Product weight.
-*   **Shippable**: Whether the product is shippable.
+*   **Requires shipping**: Whether this product requires shipping.
+*   **Freight**:
 *   **Free shipping**: Whether the product should be shipped free of charge.
-*   **Ship in a separate box**: Whether the product needs to be shipped separately from other products. If it is shippable in a separate box, you can define the box dimensions and how many products can be put in this box.
+*   **Exclude from shipping cost calculation**:
+*   **Separate box**: Whether the product needs to be shipped separately from other products. If it needs to be shipped in a separate box, you can define the box dimensions and the maximum number of product units that fit in this box.
     
-
-*   **Product page title**: The title to be used in the title bar of this product details page (for SEO purposes). 
+_Marketing_
 *   **Open Graph meta tags**: The custom META tags for sharing the product page on Facebook.
-*   **Meta keywords**: The keywords to be used in the keywords META tag on the product page (for SEO purposes).
 *   **Meta description**: The description to be used in the description META tag on the product page (for SEO purposes).
+*   **Meta keywords**: The keywords to be used in the keywords META tag on the product page (for SEO purposes).
+*   **Product page title**: The title to be used in the title bar of this product details page (for SEO purposes). 
 *   **Clean URL**: The product page Clean URL (for SEO purposes).
 
 ## Inventory tracking
