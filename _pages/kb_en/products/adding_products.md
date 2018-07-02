@@ -40,20 +40,14 @@ To add a new product:
 When creating a new product, you can specify the following product details:
 
 *   **Vendor**: Company name and email of the vendor who owns the product. This field is only available if X-Cart's {% link "Multi-vendor" ref_cvwmAuRi %} addon is active; it enables the store administrator to create products not only for themselves, but also for other users - as if they themselves created it.
-*   **SKU**: The product SKU (A code that will serve as a unique identifier for this product).
 *   **Product name**: The name by which you and your customers will identify this product.
-*   **Category**: The category (or categories) to which this product belongs. 
+*   **SKU**: The product SKU (A code that will serve as a unique identifier for this product).
 *   **Images**: Use this section to add images of the product.
-*   **Memberships**: Membership levels to which this product should be available. Non-members and users belonging to other membership levels will not be able to see the product on the storefront.
-*   **Tax class**: The tax class to which the product belongs (Defines what taxes should be applied to the product). For more info on tax classes, see: {% link "Setting up tax classes" ref_pAWOdG8N %}.
-*   **Price**: The product price.
-*   **Market price**: The product price, which shows the difference between the price offered in your store and the average price of the same product on the market (the field is added by the [Market Price](https://market.x-cart.com/addons/market-price.html "Adding products") module)
-*   **Product on sale**: Use this to put the product on sale.
-*   **Quantity in stock**: The exact current quantity in stock, or any value if you do not intend to track the inventory of this product. (In the latter case you will need to disable inventory tracking after the product has been created.) 
-*   **Weight**: Product weight.
-*   **Shippable**: Whether the product is shippable.
-*   **Free shipping**: Whether the product should be shipped free of charge.
-*   **Ship in a separate box**: Whether the product needs to be shipped separately from other products. If it is shippable in a separate box, you can define the box dimensions and how many products can be put in this box;
+*   **Category**: The category (or categories) to which this product belongs. 
+*   **Description**: A short product description that will be displayed on product list pages.
+*   **Full description**: A longer product description that will be displayed on the product details page.
+*   **Allow buyers to attach files to this product**:
+*   **Tags**:
 *   **Available for sale**: Whether the product should be displayed on the storefront. Uncheck this option to temporarily remove the product from the storefront (Store visitors will not be able to see it).
 
     <a id="available-for-sale"></a>
@@ -63,19 +57,31 @@ When creating a new product, you can specify the following product details:
   
     If you don't want to sell a product any longer but want a product page be still accessible in the storefront, set the product's stock to zero and add "Not available for sale" to the product name, rather than making it inactive. Make sure the _How to show out of stock products_ option is set to "Show in all the sections" in the **Store setup** -> **Cart & checkout** section of the admin area. 
     {% endnote %}
-    
+*   **Call for price**:
+
+_Prices & Inventory_
+*   **Memberships**: Membership levels to which this product should be available. Non-members and users belonging to other membership levels will not be able to see the product on the storefront.
+*   **Tax class**: The tax class to which the product belongs (Defines what taxes should be applied to the product). For more info on tax classes, see: {% link "Setting up tax classes" ref_pAWOdG8N %}.
+*   **Price**: The product price.
+*   **Market price**: The product price, which shows the difference between the price offered in your store and the average price of the same product on the market (the field is added by the [Market Price](https://market.x-cart.com/addons/market-price.html "Adding products") module)
+*   **Sale**: Use this to put the product on sale.
 *   **Arrival date**: This field allows you to record the date since when the product is available in your store. On its own, the information entered in this field serves purely informational purposes, but may be employed by X-Cart modules (For example, a module that allows you to add a new product to your catalog in advance and let it be published on the storefront automatically when its arrival date is reached).
+*   **Automatic reward points**:
+
+*   **Quantity in stock**: The exact current quantity in stock, or any value if you do not intend to track the inventory of this product. (In the latter case you will need to disable inventory tracking after the product has been created.) 
+*   **Weight**: Product weight.
+*   **Shippable**: Whether the product is shippable.
+*   **Free shipping**: Whether the product should be shipped free of charge.
+*   **Ship in a separate box**: Whether the product needs to be shipped separately from other products. If it is shippable in a separate box, you can define the box dimensions and how many products can be put in this box.
+    
+
 *   **Product page title**: The title to be used in the title bar of this product details page (for SEO purposes). 
-*   **Brief** **description**: A short product description that will be displayed on product list pages.
-*   **Full description**: A longer product description that will be displayed on the product details page.
 *   **Open Graph meta tags**: The custom META tags for sharing the product page on Facebook.
 *   **Meta keywords**: The keywords to be used in the keywords META tag on the product page (for SEO purposes).
 *   **Meta description**: The description to be used in the description META tag on the product page (for SEO purposes).
 *   **Clean URL**: The product page Clean URL (for SEO purposes).
 
 ## Inventory tracking
-
-Once a product has been created, you can specify inventory tracking options for it. 
 
 1.  In the store's Admin area, open the details of the product for which you want to specify inventory tracking options.
 2.  Go to the Inventory Tracking section of the product details page by either selecting the **Inventory tracking** tab:
@@ -87,7 +93,7 @@ Once a product has been created, you can specify inventory tracking options for 
 3.  Adjust the product's inventory tracking options as you require:
     *   **Inventory tracking for this product is** (Enabled / Disabled): To enable inventory tracking for this product, set this option to _Enabled_. If the product quantity is unlimited and does not need to be tracked, set the option to _Disabled_.
     *   **Quantity in stock**: Specify the actual current inventory level of the product (the number of product units in stock).
-    *   **Low limit notification for this product is **(Enabled / Disabled): If you want to receive notifications when you are running out of this product, set this to _Enabled_; when you do so, you will also need to specify the inventory level at which the notification needs to be sent (For this purpose another field - "Low limit quantity" - will be provided below). If you do not want to receive low limit notifications, set the "Low limit notification for this product is (Enabled / Disabled)" setting to _Disabled_.
+    *   **Low limit notification for this product is** (Enabled / Disabled): If you want to receive notifications when you are running out of this product, set this to _Enabled_; when you do so, you will also need to specify the inventory level at which the notification needs to be sent (For this purpose another field - "Low limit quantity" - will be provided below). If you do not want to receive low limit notifications, set the "Low limit notification for this product is (Enabled / Disabled)" setting to _Disabled_.
     *   **Low limit quantity**: Use this field to specify what product quantity should be considered "low". You will be notified when this quantity is reached.
 4.  Click **Update** to save the changes.
 
