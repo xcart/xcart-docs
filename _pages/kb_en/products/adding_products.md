@@ -105,7 +105,7 @@ _Shipping_
 
 *   **Requires shipping**: Whether this product requires shipping.
 
-*   **Freight**:
+*   **Freight**: **Free shipping and Shipping freights**
 
 *   **Free shipping**: Whether the product should be shipped free of charge.
 
