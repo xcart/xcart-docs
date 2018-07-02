@@ -67,9 +67,9 @@ _Prices & Inventory_
 *   **Price**: The product price.
 *   **Market price**: The product price, which shows the difference between the price offered in your store and the average price of the same product on the market (the field is added by the [Market Price](https://market.x-cart.com/addons/market-price.html "Adding products") module)
 *   **Sale**: Use this to put the product on sale.
-*   **Arrival date**: This field allows you to record the date since when the product is available in your store. On its own, the information entered in this field serves purely informational purposes, but may be employed by X-Cart modules (For example, a module that allows you to add a new product to your catalog in advance and let it be published on the storefront automatically when its arrival date is reached).
+*   **Arrival date**: This field allows you to record the date since when the product is or will be available in your store. On its own, the information entered in this field serves purely informational purposes, but may be employed by X-Cart modules (For example, a module that allows you to add a new product to your catalog in advance and let it be published on the storefront automatically when its arrival date is reached).
 *   **Automatic reward points**:
-*   **Inventory tracking**: Whether you wish to use the inventory tracking feature for this product. If the product quantity is unlimited and does not need to be tracked, set the option to _Disabled_.
+*   **Inventory tracking**: Whether you wish to use the inventory tracking feature for this product. If the product quantity is unlimited and does not need to be tracked, disable this option.
 *   **Quantity in stock**: The current inventory level of the product (the number of product units in stock).
 *   **Available for backorder**:
 
@@ -91,17 +91,21 @@ _Marketing_
 ## Inventory tracking
 
 1.  In the store's Admin area, open the details of the product for which you want to specify inventory tracking options.
+
 2.  Go to the Inventory Tracking section of the product details page by either selecting the **Inventory tracking** tab:
     ![]({{site.baseurl}}/attachments/6389859/8716870.png)
     or by clicking the Inventory tracking options link to the right of the **Quantity in stock** field:
     ![]({{site.baseurl}}/attachments/6389859/8716871.png)
     The Inventory tracking section opens:
     ![]({{site.baseurl}}/attachments/6389859/8716869.png)
+    
 3.  Adjust the product's inventory tracking options as you require:
-    *   **Inventory tracking for this product is** (Enabled / Disabled): To enable inventory tracking for this product, set this option to _Enabled_. If the product quantity is unlimited and does not need to be tracked, set the option to _Disabled_.
-    *   **Quantity in stock**: Specify the actual current inventory level of the product (the number of product units in stock).
-    *   **Low limit notification for this product is** (Enabled / Disabled): If you want to receive notifications when you are running out of this product, set this to _Enabled_; when you do so, you will also need to specify the inventory level at which the notification needs to be sent (For this purpose another field - "Low limit quantity" - will be provided below). If you do not want to receive low limit notifications, set the "Low limit notification for this product is (Enabled / Disabled)" setting to _Disabled_.
+    *   **Arrival date**: This field allows you to record the date since when the product is or will be available in your store. On its own, the information entered in this field serves purely informational purposes, but may be employed by X-Cart modules (For example, a module that allows you to add a new product to your catalog in advance and let it be published on the storefront automatically when its arrival date is reached).
+    *   **Inventory tracking**: Whether you wish to use the inventory tracking feature for this product. If the product quantity is unlimited and does not need to be tracked, disable this option.
+    *   **Quantity in stock**: Specify the current inventory level of the product (the number of product units in stock).
+    *   **Notify administrator if the stock quantity of this product goes below a certain limit**: X-Cart allows you to set a low stock threshold for each product and get automated email notifications whenever a product stock goes down to this level. To get low stock email notifications for this product, enable this setting. You will also need to specify the inventory level at which a notification needs to be sent (Use the "Low limit quantity" field below). 
     *   **Low limit quantity**: Use this field to specify what product quantity should be considered "low". You will be notified when this quantity is reached.
+    
 4.  Click **Update** to save the changes.
 
 ## Specifying additional product parameters (color, material, country of origin, ISBN, etc.)
