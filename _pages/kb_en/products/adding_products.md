@@ -35,7 +35,7 @@ To add a new product:
 
 3.  Use the fields on the Add product page to provide information about the product. The page contains quite a number of fields, but you do not have to set all of them right now: the only required field is **Product name**, which means you only have to provide that value, whereas the rest of the product fields may be configured at any time later. See the section "[Basic product setup Product information that can be specified](#basic-product-setup-product-information-that-can-be-specified)" below for a detailed explanation of all the product page fields. 
 
-4.  To save the product information you have provided, click **Add product** at the bottom of the page. The new product will be saved. If necessary, you will be able to find it in the Products section (**Catalog** > **Products**) to do further editing or to specify some advanced product settings.
+4.  To save the product information you have provided, click **Add product** at the bottom of the page. The new product will be saved. If necessary, you will be able to find it in the Products section (**Catalog** > **Products**) to do further editing or to specify some advanced product settings (See the section "[Advanced product setup](#advanced-product-setup)" section of this manual for more info).
 
 ## Basic product setup: Product information that can be specified 
 
@@ -81,7 +81,7 @@ _Prices & Inventory_
 
 *   **Price**: The product price.
 
-*   **Market price**: The product price, which shows the difference between the price offered in your store and the average price of the same product on the market (the field is added by the [Market Price](https://market.x-cart.com/addons/market-price.html "Adding products") module)
+*   **Market price**: The product price that shows the difference between the price offered in your store and the average price of the same product on the market. The field is added by the [Market Price](https://market.x-cart.com/addons/market-price.html "Adding products") module.
 
 *   **Sale**: Use this to put the product on sale.
 
