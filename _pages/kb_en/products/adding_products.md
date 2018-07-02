@@ -123,7 +123,7 @@ _Marketing_
 
 *   **Product page title**: The title to be used in the title bar of this product details page (for SEO purposes). 
 
-*   **Clean URL**: The product page Clean URL (for SEO purposes).
+*   **Clean URL**: The product page Clean URL (for SEO purposes). Note that if the Clean URLs feature is disabled, you will need to activate it before you can configure a clean URL for the current product or tell X-Cart to generate the URL automatically. More info on Clean URLs is available via the {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %} section of this manual.
 
 ## Inventory tracking
 
