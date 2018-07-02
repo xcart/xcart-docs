@@ -87,13 +87,17 @@ _Prices & Inventory_
 
 *   **Arrival date**: This field allows you to record the date since when the product is or will be available in your store. On its own, the information entered in this field serves purely informational purposes, but may be employed by X-Cart modules (For example, a module that allows you to add a new product to your catalog in advance and let it be published on the storefront automatically when its arrival date is reached).
 
-*   **Automatic reward points**:
+*   **Automatic reward points**: This field is only available if X-Cart's [Loyalty Program](https://market.x-cart.com/addons/loyalty-program.html?sl=en&utm_source=XC5admin&utm_medium=addons_list_installed&utm_campaign=XC5admin "Adding products") addon is active; it enables you to set the number of points that a customer can earn for buying the current product.
 
 *   **Inventory tracking**: Whether you wish to use the inventory tracking feature for this product. If the product quantity is unlimited and does not need to be tracked, disable this option.
 
 *   **Quantity in stock**: The current inventory level of the product (the number of product units in stock).
 
-*   **Available for backorder**: [Backorder / Preorder](https://market.x-cart.com/addons/backorder-preorder.html?sl=en&utm_source=XC5admin&utm_medium=addons_list_installed&utm_campaign=XC5admin "Adding products")
+*   **Available for backorder**: This field is only available if X-Cart's [Backorder / Preorder](https://market.x-cart.com/addons/backorder-preorder.html?sl=en&utm_source=XC5admin&utm_medium=addons_list_installed&utm_campaign=XC5admin "Adding products") addon is active; it enables you to specify that the current product can be purchased even when it is out of stock. After enabling the "Available for backorder" option, you will also be able to set a backorder label for the product and to limit the backorder quantity (see below).
+
+*   **Backorder label**: This field is only available if the previous setting ("Available for backorder") is enabled. It enables you to add a message regarding the backordering of the current product which your store visitors will see attached to this product in product lists and on the product page when the product is out of stock. You can insert the number of units available for backordering into this message by using the "%number%" placeholder; for example: "You can backorder up to %number% items."
+
+*   **Limit the backorder quantity**: This field is only available if the setting "Available for backorder" is enabled. It enables you to set the maximum number of product units that a customer can backorder.
 
 _Shipping_
 
