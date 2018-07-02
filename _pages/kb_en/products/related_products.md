@@ -29,3 +29,5 @@ To configure related products:
 By default, all products you add as related ones will have the _'Bidirectional link'_ option enabled. This means that the related product is not only linked to from the product on view, but also provides a link to that product. With the "Bidirectional link" option enabled, removing the link from one of the products will not remove the link in the opposite direction. To remove the relationship between the products completely, disable the "Bidirectional link" option first, then remove the link.
 
 You can remove the bidirectional link to all related products by using the **'Edit all'** button at the bottom of the page.
+
+Related products can also be imported via a .csv file as described in {% link "CSV import: Products" ref_WmJBfwxA %}
