@@ -25,3 +25,11 @@
         }
     }
 }
+
+.post-content {
+    ul, ol {
+        li + li {
+            margin-top: 1rem;
+        }
+    }
+}
