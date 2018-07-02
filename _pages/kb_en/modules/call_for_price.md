@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-08 16:57 +0400'
 identifier: ref_3K1pJExV
-title: Call for Price Module
+title: 'Call for Price '
 order: 145
 published: true
 ---
