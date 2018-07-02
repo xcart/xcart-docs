@@ -71,33 +71,53 @@ So, here is the product information that can be specified when adding a new prod
     If you don't want to sell a product any longer but want a product page be still accessible on the storefront, set the product's stock to zero and add "Not available for sale" to the product name, rather than making it inactive. Make sure the _How to show out of stock products_ option is set to "Show in all the sections" in the **Store setup** -> **Cart & checkout** section of the admin area. 
     {% endnote %}
     
-*   **Call for price**:
+*   **Call for price**: This field is only available if X-Cart's {% "Call for Price" ref_3K1pJExV %} addon is active; it enables you to specify that the price and Add to cart button must not be provided for the current product; instead, a message inviting store visitors to call for price should be displayed.
 
 _Prices & Inventory_
+
 *   **Memberships**: Membership levels to which this product should be available. Non-members and users belonging to other membership levels will not be able to see the product on the storefront.
+
 *   **Tax class**: The tax class to which the product belongs (Defines what taxes should be applied to the product). For more info on tax classes, see: {% link "Setting up tax classes" ref_pAWOdG8N %}.
+
 *   **Price**: The product price.
+
 *   **Market price**: The product price, which shows the difference between the price offered in your store and the average price of the same product on the market (the field is added by the [Market Price](https://market.x-cart.com/addons/market-price.html "Adding products") module)
+
 *   **Sale**: Use this to put the product on sale.
+
 *   **Arrival date**: This field allows you to record the date since when the product is or will be available in your store. On its own, the information entered in this field serves purely informational purposes, but may be employed by X-Cart modules (For example, a module that allows you to add a new product to your catalog in advance and let it be published on the storefront automatically when its arrival date is reached).
+
 *   **Automatic reward points**:
+
 *   **Inventory tracking**: Whether you wish to use the inventory tracking feature for this product. If the product quantity is unlimited and does not need to be tracked, disable this option.
 *   **Quantity in stock**: The current inventory level of the product (the number of product units in stock).
+
 *   **Available for backorder**:
 
 _Shipping_
+
 *   **Weight**: Product weight.
+
 *   **Requires shipping**: Whether this product requires shipping.
+
 *   **Freight**:
+
 *   **Free shipping**: Whether the product should be shipped free of charge.
+
 *   **Exclude from shipping cost calculation**:
+
 *   **Separate box**: Whether the product needs to be shipped separately from other products. If it needs to be shipped in a separate box, you can define the box dimensions and the maximum number of product units that fit in this box.
     
 _Marketing_
+
 *   **Open Graph meta tags**: The custom META tags for sharing the product page on Facebook.
+
 *   **Meta description**: The description to be used in the description META tag on the product page (for SEO purposes).
+
 *   **Meta keywords**: The keywords to be used in the keywords META tag on the product page (for SEO purposes).
+
 *   **Product page title**: The title to be used in the title bar of this product details page (for SEO purposes). 
+
 *   **Clean URL**: The product page Clean URL (for SEO purposes).
 
 ## Inventory tracking
