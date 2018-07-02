@@ -37,7 +37,7 @@ To add a new product:
 
 4.  To save the product information you have provided, click **Add product** at the bottom of the page. The product information will be saved. 
 
-## Product information that can be specified (Basic product setup)
+## Basic product setup: Product information that can be specified 
 
 When creating a new product, you need to specify product information via the form fields of the Add product page. Note that the actual set of fields available to you on this page depends on the X-Cart edition you are using and the set of addons (modules) enabled. The following list of fields corresponds to the set of product fields available for configuration on a fresh install of X-Cart Ultimate edition. If you do not see any of the fields described below in your X-Cart store back end, it means that the addon that enables this field is not installed or not active. To see what addons are active in your store and, if necessary, to install/activate more addons, check the **My addons** section in your X-Cart store Admin area. More info on the management of X-Cart addons can be found in the {% link "Managing addons" ref_gTOegEua %} section of this manual.
 
