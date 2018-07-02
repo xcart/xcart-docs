@@ -575,7 +575,7 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Upselling Product</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Related Products</strong> module</em>
       </td>
     </tr>
     <tr>
