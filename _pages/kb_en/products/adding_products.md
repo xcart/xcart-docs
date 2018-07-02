@@ -37,7 +37,7 @@ To add a new product:
 
 4.  To save the product information you have provided, click **Add product** at the bottom of the page. The product information will be saved. 
 
-## Product information that can be specified
+## Product information that can be specified (Basic product setup)
 
 When creating a new product, you need to specify product information via the form fields of the Add product page. Note that the actual set of fields available to you on this page depends on the X-Cart edition you are using and the set of addons (modules) enabled. The following list of fields corresponds to the set of product fields available for configuration on a fresh install of X-Cart Ultimate edition. If you do not see any of the fields described below in your X-Cart store back end, it means that the addon that enables this field is not installed or not active. To see what addons are active in your store and, if necessary, to install/activate more addons, check the **My addons** section in your X-Cart store Admin area. More info on the management of X-Cart addons can be found in the {% link "Managing addons" ref_gTOegEua %} section of this manual.
 
@@ -123,7 +123,7 @@ _Marketing_
 
 *   **Product page title**: The title to be used in the title bar of this product details page (for SEO purposes). 
 
-*   **Clean URL**: The product page Clean URL (for SEO purposes). Note that if the Clean URLs feature is disabled, you will need to activate it before you can configure a clean URL for the current product or tell X-Cart to generate the URL automatically. More info on Clean URLs is available via the {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %} section of this manual.
+*   **Clean URL**: The product page Clean URL (human-readable SEO-friendly URL, typically based on the product name). The URL can be configured manually (by editing of the field contents directly) or generated automatically (by enabling the "Autogenerate Clean URL" option below before saving the product). Note that if the Clean URLs feature is disabled, you will need to activate it for the SEO-friendly page URLs to become available to store visitors. More info on Clean URLs is available via the {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %} section of this manual.
 
 ## Inventory tracking
 
