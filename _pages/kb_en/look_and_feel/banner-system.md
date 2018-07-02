@@ -11,7 +11,13 @@ The default X-Cart 5 software allows adding banners to the store front-page (hom
 
 If you want more banners that can be added to any page of the store and placed in different locations you can extend the default functionality with the [Banners System](https://market.x-cart.com/addons/banner-system.html "Adding Banners to Store Pages") module (paid for Business and Multivendor, included in Ultimate). 
 
-Once {% link "installed and enabled" ref_Vn1mMUw9 %} the **Banner System** module functionality is added to the **Banners** section (**Content** -> **Banners**) of the store Admin area. To add a new banner click the **"New banner"** button in this section.
+Once {% link "installed and enabled" ref_Vn1mMUw9 %} the **Banner System** module functionality is added to the **Banners** section (**Content** -> **Banners**) of the store Admin area. 
+
+{% toc %}
+
+## Creating banners
+
+To add a new banner click the **"New banner"** button in this section.
 
 ![new-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/new-banner.png)
 
@@ -42,6 +48,8 @@ You'll see a screen of the kind:
    
    ![banner-created.png]({{site.baseurl}}/attachments/ref_35tpPrVf/banner-created.png)
 
+## Maintaining banners content
+
 To edit the banner further click on its name in the list of banners available in the store. You'll see a page with the basic banner settings you specified previously. Skip this tab and proceeed either to the _Banner images settings_ tab or to the _HTML banners_ tab depending on the type of banner you want to configure. 
    
 <div class="ui stackable two column grid">
@@ -67,11 +75,23 @@ To edit the banner further click on its name in the list of banners available in
    A list of images added to the banner looks as follows:
    
    ![first-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/first-banner.png)
+   
+   An image banner will look as follows in the customer storefront:
+   
+   ![first-banner-cus.png]({{site.baseurl}}/attachments/ref_35tpPrVf/first-banner-cus.png)
+
 
 2. The _HTML banners_ tab allows you to create an html banner. To add a new banner click the **Add new HTML-banner** button. You'll see a form where a banner can be added:
    ![html-properties.png]({{site.baseurl}}/attachments/ref_35tpPrVf/html-properties.png)
+   
+   You can define the following fields for the image:
+      * **Position** :  Use this field to set the order of appearance of HTML banners
+      * **Content** : Use this field to add the HTML banner content   
    
    {% note info %}
    HTML banners are more robust and are good for SEO as they can be indexed by search engines.
    {% endnote %}
    
+   An HTML banner will look as follows in the customer storefront:
+   
+   ![html-banner-cus.png]({{site.baseurl}}/attachments/ref_35tpPrVf/html-banner-cus.png)
