@@ -5,7 +5,7 @@ updated_at: '2018-06-28 15:35 +0400'
 identifier: ref_35tpPrVf
 title: Adding Banners to Store Pages
 order: 355
-published: false
+published: true
 ---
 The default X-Cart 5 software allows adding banners to the store front-page (home-page) and category pages that is described in {% link "Changing your store's Welcome text and banner on the Front page" ref_Id69E4GT %}. 
 
@@ -63,4 +63,3 @@ You can define the following fields for the image:
 Click **Save changes** once you are done the image will be added to the banner. Add the rest of the images the same way. You can add a text only to the banner if required.
 
 ![first-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/first-banner.png)
-
