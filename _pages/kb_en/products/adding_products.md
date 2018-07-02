@@ -33,9 +33,7 @@ To add a new product:
 
 3.  Use the fields on the Add product page to provide information about the product. The only required field is **Product name**. 
 
-4.  Once you're done, click **Add product** button at the bottom of the page. 
-    ![]({{site.baseurl}}/attachments/6389859/8716867.png)
-    The product will be added. 
+4.  Once you're done, click **Add product** button at the bottom of the page. The product will be added. 
 
 ## Product information that can be specified
 
