@@ -28,7 +28,7 @@
 
 .post-content {
     ul, ol {
-        li + li {
+        li + li p:first-child {
             margin-top: 1rem;
         }
     }
