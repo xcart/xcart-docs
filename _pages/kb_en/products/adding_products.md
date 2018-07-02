@@ -41,7 +41,7 @@ To add a new product:
 
 When creating a new product, you can specify the following product details:
 
-*   **Vendor**: Company name and email of the vendor who owns the product. This field is only available if X-Cart's {% link "Multi-vendor" ref_cvwmAuRi %} addon is active; it enables the store administrator to create products not only for themselves, but also for other users - as if they themselves created it.
+*   **Vendor**: Company name and email of the vendor who owns the product. This field is only available if X-Cart's {% link "Multi-vendor" ref_cvwmAuRi %} addon is active; it enables you to create products not only for yourself, but also for other users - as if they themselves created it.
 *   **Product name**: The name by which you and your customers will identify this product.
 *   **SKU**: The product SKU (A code that will serve as a unique identifier for this product).
 *   **Images**: Use this section to add images of the product.
@@ -49,7 +49,7 @@ When creating a new product, you can specify the following product details:
 *   **Description**: A short product description that will be displayed on product list pages.
 *   **Full description**: A longer product description that will be displayed on the product details page.
 *   **Allow buyers to attach files to this product**:
-*   **Tags**:
+*   **Tags**: This field is only available if X-Cart's {% link "Product Tags" ref_6nFoxYf1 %} addon is active; it enables you to assign tags defined via the Product tags section (**Catalog** > **Tags**) to the current product.
 *   **Available for sale**: Whether the product should be displayed on the storefront. Uncheck this option to temporarily remove the product from the storefront (Store visitors will not be able to see it).
 
     <a id="available-for-sale"></a>
