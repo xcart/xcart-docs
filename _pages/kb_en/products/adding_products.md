@@ -33,9 +33,9 @@ To add a new product:
     The Add product page opens.
     ![xc5_products_add_product_page.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_add_product_page.png)
 
-3.  Use the fields on the Add product page to provide information about the product. The page contains quite a number of fields, but you do not have to set all of them right now: the only required field is **Product name**, which means you only have to provide that value, whereas the rest of the product fields may be configured at any time later. See the section "Product information that can be specified" below for a detailed explanation of all the product page fields. 
+3.  Use the fields on the Add product page to provide information about the product. The page contains quite a number of fields, but you do not have to set all of them right now: the only required field is **Product name**, which means you only have to provide that value, whereas the rest of the product fields may be configured at any time later. See the section "Basic product setup Product information that can be specified" below for a detailed explanation of all the product page fields. 
 
-4.  To save the product information you have provided, click **Add product** at the bottom of the page. The product information will be saved. 
+4.  To save the product information you have provided, click **Add product** at the bottom of the page. The new product will be saved. If necessary, you will be able to find it in the Products section (**Catalog** > **Products**) to do further editing or to specify some advanced product settings.
 
 ## Basic product setup: Product information that can be specified 
 
@@ -125,7 +125,9 @@ _Marketing_
 
 *   **Clean URL**: The product page Clean URL (human-readable SEO-friendly URL, typically based on the product name). The URL can be configured manually (by editing of the field contents directly) or generated automatically (by enabling the "Autogenerate Clean URL" option below before saving the product). Note that if the Clean URLs feature is disabled, you will need to activate it for the SEO-friendly page URLs to become available to store visitors. More info on Clean URLs is available via the {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %} section of this manual.
 
-## Inventory tracking
+## Advanced product setup 
+
+_Inventory tracking_
 
 1.  In the store's Admin area, open the details of the product for which you want to specify inventory tracking options.
 
