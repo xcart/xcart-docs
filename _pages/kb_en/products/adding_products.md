@@ -47,7 +47,7 @@ So, here is the product information that can be specified when adding a new prod
 
 *   **Product name**: The name by which you and your customers will identify this product.
 
-*   **SKU**: The product SKU (A code that will serve as a unique identifier for this product).
+*   **SKU**: The product SKU (A code that will serve as a unique identifier for this product). If you leave this field blank, a SKU will be generated automatically when the product is saved.
 
 *   **Images**: Use this section to add images of the product.
 
