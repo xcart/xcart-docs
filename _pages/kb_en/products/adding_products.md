@@ -23,12 +23,16 @@ This video captures the process of adding a new product in X-Cart 5.3.x.
 To add a new product:
 
 1.  In your store's Admin area, go to the Products section (**Catalog** > **Products**).
-    ![]({{site.baseurl}}/attachments/6389859/8716836.png)
+    ![xc5_products.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products.png)
+
 2.  Click the **Add product** button.
-    ![]({{site.baseurl}}/attachments/6389859/8716837.png)
+    ![xc5_products_add_product_button.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_add_product_button.png)
+    
     The page for adding a new product opens. 
-    ![]({{site.baseurl}}/attachments/6389859/8716838.png)
+    ![xc5_products_add_product_page.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_add_product_page.png)
+
 3.  Use the fields on the Add product page to provide information about the product. The only required field is **Product name**. 
+
 4.  Once you're done, click **Add product** button at the bottom of the page. 
     ![]({{site.baseurl}}/attachments/6389859/8716867.png)
     The product will be added. 
