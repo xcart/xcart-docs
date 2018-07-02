@@ -14,7 +14,7 @@ Individual shipping cost per product can be set using the _Shipping freight_ fea
 
 For example, you have a product - "Albert Einstein Action Figure" - that you want to be shipped for $5\.
 
-To set the shipping freight property for this product to $5  (or whatever amount you want to charge buyers for the shipping of this product), follow these steps:
+To set the shipping freight property for this product to $5 (or whatever amount you want to charge buyers for the shipping of this product), follow these steps:
 
 1.  In the Products section of your store's Admin area (**Catalog** > **Products**), find the product for which you need to set shipping freight ("Albert Einstein Action Figure").
 
