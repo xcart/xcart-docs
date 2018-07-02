@@ -55,10 +55,11 @@ When creating a new product, you can specify the following product details:
     <a id="available-for-sale"></a>
     
     {% note info %}    
-    If you disable the **Available for sale** option a product will become inactive and a customer will see a 404 "Page not found" error for this product page in the storefront. You can set redirects on the pages of the disabled products using .htacces or [Redirects Module](https://market.x-cart.com/addons/redirects-by-Nova-Horizons.html "Adding products") if necessary. 
+    If you disable the **Available for sale** option, the product will become inactive, and store visitors who will attempt to access the page of this product via a direct link will see the 404 "Page not found" error. If necessary, you can set redirects for the pages of disabled products using .htacces or the [Redirects Module](https://market.x-cart.com/addons/redirects-by-Nova-Horizons.html "Adding products"). 
   
-    If you don't want to sell a product any longer but want a product page be still accessible in the storefront, set the product's stock to zero and add "Not available for sale" to the product name, rather than making it inactive. Make sure the _How to show out of stock products_ option is set to "Show in all the sections" in the **Store setup** -> **Cart & checkout** section of the admin area. 
+    If you don't want to sell a product any longer but want a product page be still accessible on the storefront, set the product's stock to zero and add "Not available for sale" to the product name, rather than making it inactive. Make sure the _How to show out of stock products_ option is set to "Show in all the sections" in the **Store setup** -> **Cart & checkout** section of the admin area. 
     {% endnote %}
+    
 *   **Call for price**:
 
 _Prices & Inventory_
