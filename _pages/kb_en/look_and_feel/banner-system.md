@@ -57,8 +57,8 @@ To edit the banner further click on its name in the list of banners available in
   <div class="column" markdown="span">![html-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/html-banner.png)</div>
 </div>
 
-1. The _Banner images settings_ tab allows you to add images to the banner. To add a new image click **Create**. 
-   You'll see a line where you can upload the image and set the image properties:
+1. The _Banner images settings_ tab allows you to add images to the banner. 
+   To add a new image click **Create**. You'll see a line where you can upload the image and set the image properties:
    
    ![image-properties.png]({{site.baseurl}}/attachments/ref_35tpPrVf/image-properties.png)
    
@@ -81,7 +81,8 @@ To edit the banner further click on its name in the list of banners available in
    ![first-banner-cus.png]({{site.baseurl}}/attachments/ref_35tpPrVf/first-banner-cus.png)
 
 
-2. The _HTML banners_ tab allows you to create an html banner. To add a new banner click the **Add new HTML-banner** button. You'll see a form where a banner can be added:
+2. The _HTML banners_ tab allows you to create an html banner. 
+   To add a new banner click the **Add new HTML-banner** button. You'll see a form where a banner can be added:
    ![html-properties.png]({{site.baseurl}}/attachments/ref_35tpPrVf/html-properties.png)
    
    You can define the following fields for the image:
