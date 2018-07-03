@@ -41,6 +41,10 @@ To add a new attribute at the level of a specific product, follow the instructio
 5.  Click **Save changes**. The attribute will be assigned to the product.
     Now if you check the **Specification** tab on the product details page, you will be able to see the attribute you have added:
     ![]({{site.baseurl}}/attachments/7504853/7602459.png)
+    
+{% note info %}
+If you want to add product specific attributes in bulk use import feature as described in {% link "CSV import: Product attribute values" ref_Z7XdREZl %}
+{% endnote %}
 
 ## Viewing a product's list of product-specific attributes
 
