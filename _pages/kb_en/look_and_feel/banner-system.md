@@ -17,7 +17,7 @@ Once {% link "installed and enabled" ref_Vn1mMUw9 %} the **Banner System** modul
 
 ## Creating banners
 
-To add a new banner click the **"New banner"** button in this section.
+To add a new banner click the **"New banner"** button in the **Content** -> **Banners** section.
 
 ![new-banner.png]({{site.baseurl}}/attachments/ref_35tpPrVf/new-banner.png)
 
