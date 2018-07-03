@@ -45,7 +45,9 @@ To install an addon from the X-Cart Marketplace:
 
     Now if you choose to view the list of your store's installed addons, the addon you have installed will be on the list. 
 
-    Note that after the addon has been installed, it is already in the _Enabled_ (active) state. You can temporarily disable the addon using the addon deactivation instructions from the article {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
+   {% note info %}
+   After the addon has been installed, it is already in the _Enabled_ (active) state. You can temporarily disable the addon or remove it completely using the addon deactivation instructions from the article {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
+   {% endnote %}
 
 _Related pages:_
 
