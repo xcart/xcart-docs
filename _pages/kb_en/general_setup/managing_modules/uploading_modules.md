@@ -21,7 +21,9 @@ If a module is obtained from a source other than the Marketplace, you can upload
     ![upload-addon-popup.png]({{site.baseurl}}/attachments/ref_GZQ9vTq6/upload-addon-popup.png)
 2.  Select the file of the module to be uploaded and click **Install add-on**. This starts the installation process. Once it is completed, the module will be added to the list of installed modules.
 
-Note that after the module has been installed, it is already in the _Enabled_ (active) state. You can temporarily disable the module using the module deactivation instructions from the article {% link "Activating and deactivating addons" ref_uEnDBBA7 %}
+   {% note info %}
+   After the addon has been installed, it is already in the _Enabled_ (active) state. You can temporarily disable the addon or remove it completely using the addon deactivation instructions from the article {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
+   {% endnote %}
 
 _Related pages:_
 
