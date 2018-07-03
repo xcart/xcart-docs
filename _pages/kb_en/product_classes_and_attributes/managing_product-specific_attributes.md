@@ -43,7 +43,7 @@ To add a new attribute at the level of a specific product, follow the instructio
     ![]({{site.baseurl}}/attachments/7504853/7602459.png)
     
 {% note info %}
-If you want to add product specific attributes in bulk use import feature as described in {% link "CSV import: Product attribute values" ref_Z7XdREZl %}
+If you want to add product specific attributes in bulk use import feature as described in {% link "CSV import: Products" ref_WmJBfwxA %}
 {% endnote %}
 
 ## Viewing a product's list of product-specific attributes
