@@ -136,3 +136,4 @@ Below is a list of supported fields and their respective value types for the imp
 **Tips**:
 
 *   If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields into your CSV file for import. Simply remove the respective column(s) from the file.
+*   To check for the correct CSV file format export product with all attributes from the actual database. You'll see what fields are currently in use.
