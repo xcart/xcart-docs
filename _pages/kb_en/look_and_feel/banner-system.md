@@ -65,9 +65,9 @@ To edit the banner further click on its name in the list of banners available in
    You can define the following fields for the image:
       * **Image** : To add an image click the **+** icon. The image can be uploaded _from computer_ or _via URL_. 
       * **Link** : Specify the URL the image will forward to.
-      * **Main text** : You can add a main image description here, if required.
+      * **Main text** : You can add text to the banner, if required.
       * **Main text color** : To choose the main text color click on the color number. You'll see a colorpicker that you can use to find the color you need.
-      * **Additional text** : You can add an additional image description here, if required.
+      * **Additional text** : You can add more text here, if required.
       * **Additional text color** To choose the additional text color click on the color number. You'll see a colorpicker that you can use to find the color you need.
    
    Click **Save changes** once you are done the image will be added to the banner. Add the rest of the images the same way. You can add a text only to the banner if required. 
