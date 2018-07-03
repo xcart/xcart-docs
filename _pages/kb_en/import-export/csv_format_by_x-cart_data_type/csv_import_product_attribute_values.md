@@ -85,6 +85,15 @@ Below is a list of supported fields and their respective value types for the imp
       </td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
+  <tr>
+      <td colspan="1" class="confluenceTd">[attribute_name](field:product)</td>
+      <td colspan="1" class="confluenceTd">
+        <p>Use this field to add a product specific attribute where [attribute_name] is the name of a product specific attribute for the product</p>
+      </td>
+      <td colspan="1" class="confluenceTd">String,
+        <br>Multilingual,
+        <br>Max. length: 255&nbsp;</td>
+    </tr>
     <tr>
       <td colspan="1" class="confluenceTd">attributePosition
       </td>
