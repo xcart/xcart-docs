@@ -84,17 +84,7 @@ Below is a list of supported fields and their respective value types for the imp
         <p>Actual attribute value</p>
       </td>
       <td colspan="1" class="confluenceTd">String</td>
-    </tr>
-  <tr>
-      <td colspan="1" class="confluenceTd">[attribute_name](field:product)</td>
-      <td colspan="1" class="confluenceTd">
-        <p>Use this field to add a product specific attribute where [attribute_name] stands for the name of a product specific attribute of the product</p>
-        <p>e.g. Color(field:product)</p>
-      </td>
-      <td colspan="1" class="confluenceTd">String,
-        <br>Multilingual,
-        <br>Max. length: 255&nbsp;</td>
-    </tr>
+  </tr>
     <tr>
       <td colspan="1" class="confluenceTd">attributePosition
       </td>
@@ -136,4 +126,4 @@ Below is a list of supported fields and their respective value types for the imp
 **Tips**:
 
 *   If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields into your CSV file for import. Simply remove the respective column(s) from the file.
-*   To check for the correct CSV file format export product with all attributes from the actual database. You'll see what fields are currently in use.
+*   To check for the correct CSV file format export products with all attributes from the actual database. You'll see what fields are currently in use.
