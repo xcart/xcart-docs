@@ -70,7 +70,7 @@ To edit the banner further click on its name in the list of banners available in
       * **Additional text** : You can add more text here, if required.
       * **Additional text color** To choose the additional text color click on the color number. You'll see a colorpicker that you can use to find the color you need.
    
-   Click **Save changes** once you are done the image will be added to the banner. Add the rest of the images the same way. You can add a text only to the banner if required. 
+   Click **Save changes** once you are done. The image will be added to the banner. Add the rest of the images the same way. You can add a text only to the banner if required. 
    
    A list of images added to the banner looks as follows:
    
