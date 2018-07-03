@@ -290,6 +290,16 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
       <td class="confluenceTd">String</td>
     </tr>
+  <tr>
+      <td colspan="1" class="confluenceTd">[attribute_name](field:product)</td>
+      <td colspan="1" class="confluenceTd">
+        <p>Defines a product specific attribute for a product, where [attribute_name] stands for the name of a product specific attribute of the product</p>
+        <p>e.g. Color(field:product)</p>
+      </td>
+      <td colspan="1" class="confluenceTd">String,
+        <br>Multilingual,
+        <br>Max. length: 255&nbsp;</td>
+    </tr>
     <tr>
       <td class="confluenceTd">taxClass</td>
       <td class="confluenceTd">Defines tax class for a product</td>
