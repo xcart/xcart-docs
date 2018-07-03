@@ -46,7 +46,10 @@ To deactivate an installed addon:
 
 ## Uninstalling addons
 
-To uninstall (delete) addon you are not planning to use further use the **'Trash'** icon balow the addon name and click **Save changes**. 
+To uninstall (delete) addon you are not planning to use further use the **'Trash'** icon bellow the addon name and click **Save changes**. 
+
+![uninstall-addons.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/uninstall-addons.png)
+
 
 {% note info %}
 It's recommended to uninstall addons that are out of use to facilitate the overall store performance.
