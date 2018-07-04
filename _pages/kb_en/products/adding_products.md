@@ -71,7 +71,7 @@ So, here is the product information that can be specified when adding a new prod
     If you don't want to sell a product any longer but want a product page be still accessible on the storefront, set the product's stock to zero and add "Not available for sale" to the product name, rather than making it inactive. Make sure the _How to show out of stock products_ option is set to "Show in all the sections" in the **Store setup** -> **Cart & checkout** section of the admin area. 
     {% endnote %}
     
-*   **Call for price**: This field is only available if X-Cart's {% link "Call for Price" ref_3K1pJExV %} addon is active; it enables you to specify that the price and Add to cart button must not be provided for the current product; instead, a message inviting store visitors to call for price should be displayed.
+*   **Call for price**: This field is only available if X-Cart's {% link "Call For Price" ref_3K1pJExV %} addon is active; it enables you to specify that the price and Add to cart button must not be provided for the current product; instead, a message inviting store visitors to call for price should be displayed.
 
 _Prices & Inventory_
 
@@ -81,7 +81,7 @@ _Prices & Inventory_
 
 *   **Price**: The product price.
 
-*   **Market price**: The product price that shows the difference between the price offered in your store and the average price of the same product on the market. The field is added by the [Market Price](https://market.x-cart.com/addons/market-price.html "Adding products") module.
+*   **Market price**: This field is enabled by the [Market Price](https://market.x-cart.com/addons/market-price.html "Adding products") addon. It can be used to set a market product price showing the difference between the product price offered in your store and the average price of this product on the market. The market price is meant to show a customer how advantageous it is to order the product from your store. The market price is displayed next to the regular one on the product details page and in the product listing within a category. A sign showing the discount produced by the price difference is shown next to it to draw the attention of your site visitors.
 
 *   **Sale**: Use this to put the product on sale.
 
