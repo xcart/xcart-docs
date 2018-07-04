@@ -127,17 +127,8 @@ _Marketing_
 
 ## Advanced product setup 
 
-Once a new product has been [added](#adding-a-new-product), you can  In the store's Admin area, open the details of the product for which you want to specify inventory tracking options.
+Once a new product has been [added](#adding-a-new-product) to your store, you can edit any of its settings configured during the [basic product setup] and, if necessary, configure some advanced product settings for it as well. To do so, you will need to find the product in the store's Admin area (**Catalog** > **Products**) and click on the product name to access the product details. The result will be a page with all the information you have provided regarding this product so far - basically, the same page with the product information form you have completed during the basic product setup - but now this page will have tabs allowing you to access some additional sections for product configuration.
 
-2.  Go to the Inventory Tracking section of the product details page by either selecting the **Inventory tracking** tab:
-    ![]({{site.baseurl}}/attachments/6389859/8716870.png)
-    or by clicking the Inventory tracking options link to the right of the **Quantity in stock** field:
-    ![]({{site.baseurl}}/attachments/6389859/8716871.png)
-    The Inventory tracking section opens:
-    ![]({{site.baseurl}}/attachments/6389859/8716869.png)
-    
-3.  Adjust the product's inventory tracking options as you require.
-4.  Click **Update** to save the changes.
 
 * **Inventory tracking options**
 
