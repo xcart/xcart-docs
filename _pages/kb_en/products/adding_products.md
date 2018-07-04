@@ -12,7 +12,6 @@ order: 120
 _This section is currently a draft.
 Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
 
-This section provides information on how to add products to your store manually one by one. Please note that you can also add products via {% link "import" ref_TANvG2De %}. 
 
 ## Video guide
 
@@ -21,6 +20,8 @@ This video captures the process of adding a new product in X-Cart 5.3.x.
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/yJAaZIXOWLo" frameborder="0"></iframe>
 
 ## Adding a new product
+
+This section provides information on how to add products to your store manually one by one. Please note that you can also add products via {% link "import" ref_TANvG2De %}. 
 
 To add a new product:
 
@@ -105,7 +106,7 @@ _Shipping_
 
 *   **Requires shipping**: Whether this product requires shipping.
 
-*   **Freight**: **Free shipping and Shipping freights**
+*   **Freight**: This field is enabled by the addon Free shipping and Shipping freights.
 
 *   **Free shipping**: Whether the product should be shipped free of charge.
 
