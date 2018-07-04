@@ -33,11 +33,11 @@ To add a new product:
     The Add product page opens.
     ![xc5_products_add_product_page.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_add_product_page.png)
 
-3.  Use the fields on the Add product page to provide information about the product. The page contains quite a number of fields, but you do not have to set all of them right now: the only required field is **Product name**, which means you only have to provide that value, whereas the rest of the product fields may be configured at any time later. See the section "[Basic product setup Product information that can be specified](#basic-product-setup-product-information-that-can-be-specified)" below for a detailed explanation of all the product page fields. 
+3.  Use the fields on the Add product page to provide information about the product. The page contains quite a number of fields, but you do not have to set all of them right now: the only required field is **Product name**, which means you only have to provide that value, whereas the rest of the product fields may be configured at any time later. See the section "[Basic product setup](#basic-product-setup)" below for a detailed explanation of all the product page fields. 
 
 4.  To save the product information you have provided, click **Add product** at the bottom of the page. The new product will be saved. If necessary, you will be able to find it in the Products section (**Catalog** > **Products**) to do further editing or to specify some advanced product settings (See the section "[Advanced product setup](#advanced-product-setup)" section of this manual for more info).
 
-## Basic product setup: Product information that can be specified 
+## Basic product setup
 
 When creating a new product, you need to specify product information via the form fields of the Add product page. Note that the actual set of fields available to you on this page depends on the X-Cart edition you are using and the set of addons (modules) enabled. The following list of fields corresponds to the set of product fields available for configuration on a fresh install of X-Cart Ultimate edition. If you do not see any of the fields described below in your X-Cart store back end, it means that the addon that enables this field is not installed or not active. To see what addons are active in your store and, if necessary, to install/activate more addons, check the **My addons** section in your X-Cart store Admin area. More info on the management of X-Cart addons can be found in the {% link "Managing addons" ref_gTOegEua %} section of this manual.
 
@@ -127,9 +127,7 @@ _Marketing_
 
 ## Advanced product setup 
 
-_Inventory tracking_
-
-1.  In the store's Admin area, open the details of the product for which you want to specify inventory tracking options.
+Once a new product has been [added](#adding-a-new-product), you can  In the store's Admin area, open the details of the product for which you want to specify inventory tracking options.
 
 2.  Go to the Inventory Tracking section of the product details page by either selecting the **Inventory tracking** tab:
     ![]({{site.baseurl}}/attachments/6389859/8716870.png)
@@ -138,16 +136,15 @@ _Inventory tracking_
     The Inventory tracking section opens:
     ![]({{site.baseurl}}/attachments/6389859/8716869.png)
     
-3.  Adjust the product's inventory tracking options as you require:
-    *   **Arrival date**: This field allows you to record the date since when the product is or will be available in your store. On its own, the information entered in this field serves purely informational purposes, but may be employed by X-Cart modules (For example, a module that allows you to add a new product to your catalog in advance and let it be published on the storefront automatically when its arrival date is reached).
-    *   **Inventory tracking**: Whether you wish to use the inventory tracking feature for this product. If the product quantity is unlimited and does not need to be tracked, disable this option.
-    *   **Quantity in stock**: Specify the current inventory level of the product (the number of product units in stock).
+3.  Adjust the product's inventory tracking options as you require.
+4.  Click **Update** to save the changes.
+
+* **Inventory tracking options**
+
     *   **Notify administrator if the stock quantity of this product goes below a certain limit**: X-Cart allows you to set a low stock threshold for each product and get automated email notifications whenever a product stock goes down to this level. To get low stock email notifications for this product, enable this setting. You will also need to specify the inventory level at which a notification needs to be sent (Use the "Low limit quantity" field below). 
     *   **Low limit quantity**: Use this field to specify what product quantity should be considered "low". You will be notified when this quantity is reached.
     
-4.  Click **Update** to save the changes.
-
-## Specifying additional product parameters (color, material, country of origin, ISBN, etc.)
+* **Additional product parameters (color, material, country of origin, ISBN, etc.)**
 
 You can add these additional parameters as attributes via the **Attributes** tab of the product details page.
 
@@ -157,6 +154,6 @@ Buyers will be able to view these parameters via the **Specification** tab of th
 
 For detailed information on product attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}.
 
-## Specifying product options (color, size, etc.)
+* **Product options (color, size, etc.)**
 
 In X-Cart 5, product options can be configured based on product attributes. You add an attribute like "Size" and specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". The buyer will then be able to choose the option they require. Some examples of how you can set product options based on attributes are provided in the article {% link "Managing attribute values" ref_bTfJ9bTS %}. For detailed information on product attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}.
