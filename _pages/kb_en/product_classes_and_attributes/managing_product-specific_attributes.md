@@ -42,9 +42,31 @@ To add a new attribute at the level of a specific product, follow the instructio
     Now if you check the **Specification** tab on the product details page, you will be able to see the attribute you have added:
     ![]({{site.baseurl}}/attachments/7504853/7602459.png)
     
-{% note info %}
-If you want to add product specific attributes in bulk use import feature as described in {% link "CSV import: Products" ref_WmJBfwxA %}
-{% endnote %}
+## Importing product specific attributes
+
+Product specific attributes can be imported in 2 different ways:
+
+1. Via {% link "CSV import: Products" ref_WmJBfwxA %}
+   
+   Using a products.csv file you'll import products along with the products specific attributes, if they have them. Product specific attribute value column has the format of: `[attribute_name](field:product)`. 
+   See the example below:
+
+   ![products-csv.png]({{site.baseurl}}/attachments/ref_d4ktum3z/products-csv.png)
+   
+   If you want to update a product with product specific attributes only skipping the rest of the product related info (like memberships, productClass, taxClass, enabled, shippable, categories, inventoryTracking, etc.) you'll need to include the sku, name and `[attribute_name](field:product)` fields into your import file only.
+
+2. Via {% link "CSV import: Product attribute values" ref_Z7XdREZl %}
+   
+   It's also possible to import product specific attributes for products separately. You'll need to use a product-attributes.csv file for the purpose.
+   
+   See the example below:
+   
+   ![product-attributes-csv.png]({{site.baseurl}}/attachments/ref_d4ktum3z/product-attributes-csv.png)
+   
+   The **'owner'** field in a product-attributes.csv file defines whether an attribute is product specific or not. All attributes that have "YES" set in the **'owner'** field are product specific. The actual value of a product specific attribute is defined in the **'value'** field and can vary depending on the **'name'** (the field that is responsibe for a text representation of the attribute). Each actual value of a product specific attribute should be defined in a separate row.
+   
+   If you want to import the product specific attributes only the required fields for the import file will be **productSKU**, **type**, **name**, **owner** and **value**. 
+
 
 ## Viewing a product's list of product-specific attributes
 
