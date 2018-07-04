@@ -2,7 +2,7 @@
 lang: ru
 layout: article_with_sidebar
 updated_at: '2018-01-16 10:46 +0400'
-title: Изменение дизайна магазина
+title: Разметка страниц магазина
 order: 170
 published: true
 identifier: ref_theme
