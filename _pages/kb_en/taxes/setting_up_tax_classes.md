@@ -47,9 +47,9 @@ Once you have created the tax classes you require, be sure to assign them to pro
 
 To assign a tax class to a product follow instructions below:
 
-1.  Choose a product you need to assign a tax class to in the **Catalog** -> **Products** section of your X-Cart admin and open this product's details page for editing.
+1.  Choose a product you need to assign a tax class to in the **Catalog** -> **Products** section of your X-Cart admin area and open this product's details page for editing.
 
-2.  Locate the the **Tax class** field in the **Prices & Inventory** section of product details and select the tax class you want to assign to this product.
+2.  Locate the **Tax class** field in the **Prices & Inventory** section of product details and select the tax class you want to assign to this product.
     ![xc5_taxclass_tax_class_assign.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/xc5_taxclass_tax_class_assign.png)
 
 3.  Click **Update product**.
