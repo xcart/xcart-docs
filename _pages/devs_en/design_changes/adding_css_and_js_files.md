@@ -91,7 +91,10 @@ There is an alternative way to add a new JS/CSS file to the layout and it requir
     `classes/XLite/Module/<Developer>/<Module>/View/AView.php`
     
     ```php
+    <?php
+    
     namespace XLite\Module\<Developer ID>\<Module ID>\View;
+    
     abstract class AView extends \XLite\View\AView implements \XLite\Base\IDecorator
     {
         protected function getThemeFiles($adminZone = null)
