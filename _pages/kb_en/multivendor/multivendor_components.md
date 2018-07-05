@@ -24,6 +24,9 @@ Here's a brief overview of the addons typically used to build a Multivendor stor
    * **Trusted/Non-trusted vendors**: This addon enables the store administrator to mark vendors as trusted and non-trusted. Any products added by vendors with the status "Trusted vendor" will be visible to your store visitors right away, whereas the products of non-trusted vendors will appear on the storefront only after they have been approved by the administrator. For more information on this addon, see {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}.
      ![tntv_module_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/tntv_module_installed.png)
    
+   * **Multiple Profiles for Vendors**: The addon enables existing vendors to create additional user profiles for the staff who help them work on their product catalog, promotions and orders.
+     ![mvp_module.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mvp_module.png)
+
    * **Order messages**: This addon is not just for Multivendor; it can be used on single-seller X-Cart editions just as well. We are listing it here because it provides some Multivendor-specific features when used with the X-Cart Multivendor edition. This addon enhances the communication system in your store by providing an opportunity for the customers, the store administrator and the vendors to start a conversation or dispute about an order right from the Order details page. A well-thought notification system ensures that no message will be left unread. In Multivendor, the addon also allows store visitors to start messaging with the sellers before they make a purchase; they can initiate a conversation right on the sellers' pages on the storefront. 
      ![om_module_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/om_module_installed.png)
 
@@ -41,4 +44,4 @@ _Related pages:_
    * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
    * {% link "Multi-vendor" ref_cvwmAuRi %} (X-Cart addon)
    * {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %} 
-   * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %} 
+   * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}
