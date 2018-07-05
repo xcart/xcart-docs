@@ -3,9 +3,9 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-03 17:03 +0400'
 identifier: ref_4bMGEiAR
-title: ''
+title: Working with settings
 order: 100
-published: false
+published: true
 ---
 ## Introduction
 
