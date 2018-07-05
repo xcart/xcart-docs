@@ -35,12 +35,22 @@ The rest of the settings are:
     If a store has only one currency and one language set up the widget is not displayed. If a store has a single currency and several languages set up the widget displays the country that is defined automatically by the customer's IP without an oppotunity to change it. 
     {% endnote %}
     
-* **Upload extended database** : You can upload an extended .mmdb database to get user location by IP more accurately. With MaxMind databases you can choose between:
+* **Upload extended database** : You can upload an extended .mmdb database to get user location by IP more accurately. 
+    With MaxMind databases you can choose between:
     * [free GeoLite2 databases](https://dev.maxmind.com/geoip/geoip2/geolite2/ "Geolocation Module")
     * [paid GeoIP2 databases](https://www.maxmind.com/en/geoip2-databases?%25refID=xcart%25 "Geolocation Module")
     
+    {% note info %}
     MaxMind GeoIP2 databases are more accurate than the GeoLite2 databases. The default GeoLite2-Country database allows to define a customer's location accurate to a country. If you need a more accurate database you can switch to a free GeoLite2-City database that defines a customer's location accurate to a city. If you need more options try one of the paid GeoIP2 databases.
+    {% endnote %}
     
-    To upload a new database you need to download a zipped database package from maxmind.com, decompress the database archive to get the .mmdb file and upload it to your X-Cart installation using the "Choose file" option opposite the **Upload extended database** field. 
+    * To upload a new database you need to:
+      * download a zipped database package from maxmind.com, 
+      * decompress the database archive to get the .mmdb file and 
+      * upload the .mmdb file to your X-Cart installation using the "Choose file" option opposite the **Upload extended database** field. 
+      
+      {% note info %}
+      If necessary you can evert to default database using a special checkbox under the **Database file in use** field value.
+      {% endnote %}
 
 * **Database file in use** : The field shows the database file that is currently in use by the Geolocation module.
