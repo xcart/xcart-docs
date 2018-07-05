@@ -5,7 +5,7 @@ updated_at: '2018-03-21 20:37 +0400'
 identifier: ref_2RWVrO1D
 title: 'Multiple profiles for vendors: Staff member access levels'
 order: 100
-published: false
+published: true
 ---
 At the time of creation of a new vendor staff profile, the vendor who creates the profile chooses an appropriate access level for them. The access level may be either full or limited.
 
