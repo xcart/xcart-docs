@@ -97,17 +97,15 @@ Here is how we are going to display saved HTML code in the <head></head>:
 	{{ this.getHtmlCode()|raw }}
     ```
 
-    This code simply calls `getHtmlCode()` method of our viewer class and outputs its result **without** applying [htmlentites()](http://php.net/function.htmlentities.php) function to the result. If we omit [|raw modifier](https://twig.symfony.com/doc/2.x/filters/raw.html), then all special symbols like <, >, etc will be converted to HTML entities and we will not have proper HTML code in the <head> section.
+    This code simply calls `getHtmlCode()` method of our viewer class and outputs its result **without** applying [htmlentites()](http://php.net/function.htmlentities.php) function to the result. If we omit ['raw' modifier](https://twig.symfony.com/doc/2.x/filters/raw.html), then all special symbols like <, >, etc will be converted to HTML entities and we will not have proper HTML code in the <head> section.
 
 4.  Re-deploy the store and check the results. The HTML code specified in the setting field will be added to <head> section of all pages in store-front.
   
 {% note info %}  
-You may ask: why do we need specify HTML code, not pure JS or CSS one? The answer is: quite often web-services provide integration code like this
+You may ask: why do we need specify HTML code, not pure JS or CSS one? The answer is: quite often web-services provide integration code like this:
 
-    ```php
     <script type="text/javascript">var some_var="value";</script> 
     <script type="text/javascript" src="http://link.to/some/javascript/file.js"></script> 
-    ```
 
 and you cannot insert it into the web-page code using custom JS/CSS code fields from Theme Tweaker module. In this case, our module would work perfectly.
 {% endnote %}
