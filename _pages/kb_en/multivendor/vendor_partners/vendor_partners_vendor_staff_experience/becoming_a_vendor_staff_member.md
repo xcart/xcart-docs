@@ -5,7 +5,7 @@ updated_at: '2018-03-21 20:35 +0400'
 identifier: ref_06GsE5l1
 title: 'Multiple profiles for vendors: Becoming a vendor staff member'
 order: 100
-published: false
+published: true
 ---
 When an existing vendor wants to invite another user to work on the products and orders in their dedicated vendor area as a staff member, they create a new user profile for them and send an invitation to their email address. The new user has to accept the invitation to get the role of a vendor staff member. 
 
@@ -25,4 +25,3 @@ _Related pages:_
    
    * {% link "Multiple profiles for vendors: Vendor staff experience" ref_6cuZfAKJ %}
    * {% link "Multiple profiles for vendors: Staff member access levels" ref_2RWVrO1D %}
-
