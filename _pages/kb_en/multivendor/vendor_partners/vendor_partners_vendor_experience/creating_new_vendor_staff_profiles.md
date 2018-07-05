@@ -5,7 +5,7 @@ updated_at: '2018-03-27 20:16 +0400'
 identifier: ref_61myPZQD
 title: 'Multiple profiles for vendors: Creating new vendor staff profiles'
 order: 100
-published: false
+published: true
 ---
 To create a new vendor staff profile, a vendor needs to be logged in to their personal Vendor area. The creation of a new vendor staff account can be initiated from the Vendor staff members section (**My account** > **Staff members**):
 ![mvp_myaccount_staffmembers.png]({{site.baseurl}}/attachments/ref_6X7UpEq6/mvp_myaccount_staffmembers.png)
