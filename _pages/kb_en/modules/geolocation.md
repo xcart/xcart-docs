@@ -21,10 +21,15 @@ By default, X-Cart uses the MaxMind GeoIP2 database (GeoLite2-Country.mmdb) that
 
 The rest of the settings are:
 
-* **Display location select widget** : When enabled a _"My location"_ select widget is displayed in the header of the store frontend (for the Standard skins only). This widget allows a customer to choose his location with the accuracy up to city. 
+* **Display location select widget** : When enabled a _"My location"_ select widget is displayed in the header of the store frontend. This widget allows a customer to choose his location with the accuracy up to city. 
     <div class="ui stackable two column grid">
      <div class="column" markdown="span">![my-location-widget.png]({{site.baseurl}}/attachments/ref_34F5BkhW/my-location-widget.png)</div>
      <div class="column" markdown="span">![my-location-widget-2.png]({{site.baseurl}}/attachments/ref_34F5BkhW/my-location-widget-2.png)</div>
     </div>
+    
+    {% note info %}
+    For the Crisp Whie skin the _"My Location"_ select widget is displayed only if there is an opportunity for a customer to choose between several currencies (the {% link "Multicurrency Module" ref_2tPJubPU %} is installed and enabled). If a store has only one currency and one language set up the widget is not displayed. If a store has a single currency and several languages set up the widget displays the country that is defined automatically by the customer's IP without an oppotunity to change it. 
+    {% endnote %}
+    
 * **Upload extended database** : You can upload an extended .mmdb database to get user location by IP more accurately. More info on the databases available you can get [here](https://www.maxmind.com/en/geoip2-databases?%refID=xcart% "Geolocation Module"). 
 * **Database file in use** : The field shows the database file that is currently in use by the Geolocation module.
