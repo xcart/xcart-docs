@@ -3,9 +3,9 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-05 16:49 +0400'
 identifier: ref_1TkG8hLf
-title: ''
+title: Making customer top menu static
 order: 100
-published: false
+published: true
 ---
 Sometimes store admins want to disable the feature of top menu in Crisp White theme to be on top of a page, even if you scroll the page down.
 
