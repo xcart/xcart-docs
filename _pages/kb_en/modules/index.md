@@ -34,6 +34,7 @@ _In this section:_
 *   {% link "Facebook eCommerce Module" ref_LA0TBHEA %}
 *   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
 *   {% link "Free Shipping and Shipping freights" ref_4Bfeegp9 %}
+*   {% link "Geolocation Module" ref_34F5BkhW %}
 *   {% link "Google Product Feed Module" ref_2gQBB6qM %}
 *   {% link "Hide Prices Module" ref_46jNUlWG %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
