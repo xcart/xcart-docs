@@ -97,7 +97,7 @@ Here is how we are going to display saved HTML code in the <head></head>:
 	{{ this.getHtmlCode()|raw }}
     ```
 
-    This code simply calls `getHtmlCode()` method of our viewer class and outputs its result **without** applying [htmlentites()](http://php.net/function.htmlentities.php) function to the result. If we omit [**|raw** modifier](https://twig.symfony.com/doc/2.x/filters/raw.html), then all special symbols like <, >, etc will be converted to HTML entities and we will not have proper HTML code in the <head> section.
+    This code simply calls `getHtmlCode()` method of our viewer class and outputs its result **without** applying [htmlentites()](http://php.net/function.htmlentities.php) function to the result. If we omit [|raw modifier](https://twig.symfony.com/doc/2.x/filters/raw.html), then all special symbols like <, >, etc will be converted to HTML entities and we will not have proper HTML code in the <head> section.
 
 4.  Re-deploy the store and check the results. The HTML code specified in the setting field will be added to <head> section of all pages in store-front.
   
