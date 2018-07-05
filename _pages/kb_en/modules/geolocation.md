@@ -4,9 +4,28 @@ layout: article_with_sidebar
 updated_at: '2018-07-05 14:08 +0400'
 identifier: ref_34F5BkhW
 title: Geolocation Module
-order: 174
+order: 176
 published: false
 ---
-## A New Post
+To improve the user experience of non-logged in customers X-Cart 5 is integrated with a free IP geolocation database GeoLite by Maxmind within the [Geolocation module](https://market.x-cart.com/addons/geolocation.html). The module works in bunble with many other features in X-Cart and allows e.g. to "guess" the customers' country and address for more precise pre-login shipping cost estimation.
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+First of all, check that the Geolocation module is {% link "installed and enabled" ref_0fGEpvrh %}. 
+
+ ![geolocation.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation.png)
+
+If you need to change the geolocation configuration settings proceed to the module settings page. It will look as follows:
+
+![geolocation-settings.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation-settings.png)
+
+By default, X-Cart uses the MaxMind GeoIP2 database (GeoLite2-Country.mmdb) that allows to define a customer's location accurate to a country. The default database is predefind in the "Default geolocation provider" field on the module settings page.
+
+The rest of the settings are:
+
+* **Display location select widget** : When enabled a "My location" select widget is displayed in the header of the store frontend. This widget allows a customer to choose his location with the accuracy up to city. 
+    <div class="ui stackable two column grid">
+     <div class="column" markdown="span">![my-location-widget.png]({{site.baseurl}}/attachments/ref_34F5BkhW/my-location-widget.png)</div>
+     <div class="column" markdown="span">![my-location-widget-2.png]({{site.baseurl}}/attachments/ref_34F5BkhW/my-location-widget-2.png)</div>
+    </div>
+* **Upload extended database** : You can upload an extended .mmdb database to get user location by IP more accurately. More info on the databases available you can get [here](https://www.maxmind.com/en/geoip2-databases?%refID=xcart% "Geolocation Module"). 
+* **Database file in use** : The field shows the database file that is currently in use by the Geolocation module.
+
