@@ -5,7 +5,7 @@ updated_at: '2018-03-27 20:19 +0400'
 identifier: ref_0wN2KuZB
 title: 'Multiple profiles for vendors: Inviting new vendor staff members to log in'
 order: 200
-published: false
+published: true
 ---
 Once a new vendor staff profile has been {% link "created"  ref_61myPZQD %}, the vendor needs to send an invitation to the staff member so they can log in to their profile, confirm their staff status and begin their work. To send an invitation, the vendor uses the "Send" link provided on the line of the respective vendor staff profile:
 ![mvp_invitation_send_link.png]({{site.baseurl}}/attachments/ref_6X7UpEq6/mvp_invitation_send_link.png)
