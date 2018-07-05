@@ -5,7 +5,7 @@ updated_at: '2018-03-27 19:38 +0400'
 identifier: ref_2ds6Cj75
 title: 'Multiple profiles for vendors: Understanding the changes to the store''s roles'
 order: 200
-published: false
+published: true
 ---
 After the activation of the addon **Multiple profiles for vendors**, the administrator will find a new role added to the list of user roles in the Roles section of the store's Admin area (**Users** > **Roles**) - the role "Vendor staff":
 ![mvp_vendor_staff_role.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_vendor_staff_role.png)
