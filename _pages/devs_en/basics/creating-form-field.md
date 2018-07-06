@@ -3,9 +3,9 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-06 13:57 +0400'
 identifier: ref_2p2X2NnZ
-title: ''
+title: Creating custom setting / form field
 order: 100
-published: false
+published: true
 ---
 ## Introduction
 
