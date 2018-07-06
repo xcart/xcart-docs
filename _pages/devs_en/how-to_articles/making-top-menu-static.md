@@ -5,7 +5,7 @@ updated_at: '2018-07-05 16:49 +0400'
 identifier: ref_1TkG8hLf
 title: Making customer top menu static
 order: 100
-published: true
+published: false
 ---
 Sometimes store admins want to disable the feature of top menu in Crisp White theme to be on top of a page, even if you scroll the page down.
 
@@ -28,7 +28,7 @@ This article explains how to acheive that.
 	}    
     ```
     
-   	You can do that by creating a module and {% link "adding CSS file via it" ref_p0CRZmMS %}. Alternatively, you can use [ThemeTweaker module](https://kb.x-cart.com/look_and_feel/theme_tweaker/custom_css.html) to define custom CSS code.
+You can do that by creating a module and {% link "adding CSS file via it" ref_p0CRZmMS %}. Alternatively, you can use [ThemeTweaker module](https://kb.x-cart.com/look_and_feel/theme_tweaker/custom_css.html) to define custom CSS code.
 
 2. Define the following piece of JS code for all pages in your store-front:
 	```js
