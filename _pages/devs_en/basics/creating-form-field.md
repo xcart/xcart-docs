@@ -15,7 +15,7 @@ redirect_from:
 This article describes how developer can create your own setting class in X-Cart instead of using predefined ones from the `classes/XLite/View/FormField/` folder. For the sake of example, we will create a new page in admin area where we will display our own select-box.
 
 {% note info %}
-You need to create PHP class for input field in order to be able to define this input field as a {% link "setting of your module" ref_4bMGEiAR %}. It also allows you to re-use this input field. However, you are not forced to use it and are allowed to specify <input> tag right in your templates if you find it convenient.
+You need to create PHP class for input field in order to be able to define this input field as a {% link "setting of your module" ref_4bMGEiAR %}. It also allows you to re-use this input field. However, you are not forced to use it and are allowed to specify `<input>` tag right in your templates if you find it convenient.
 {% endnote %}
 
 {% toc Table of Contents %}
