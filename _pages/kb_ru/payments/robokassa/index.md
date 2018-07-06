@@ -15,7 +15,7 @@ redirect_from:
 ---
 
 
-Модуль подключает онлайн-магазин к платёжному сервису [ROBOKASSA](https://www.robokassa.ru/ru/ "ROBOKASSA"). Это надёжный сервис обработки электронныйх плтежей, удобный для покупателей и продавцов.
+Модуль подключает онлайн-магазин к платёжному сервису [ROBOKASSA](https://www.robokassa.ru/ru/ "ROBOKASSA"). Это надёжный сервис обработки электронныйх платежей, удобный для покупателей и продавцов.
 
 ROBOKASSA - это сервис, позволяющий принимать платежи от клиентов с помощью [банковских карт](http://robokassa.ru/ru/Creditcards.aspx "http://robokassa.ru/ru/Creditcards.aspx"), в любой [электронной валюте](http://robokassa.ru/ru/Currencies.aspx "http://robokassa.ru/ru/Currencies.aspx"), с помощью сервисов [мобильная коммерция](http://robokassa.ru/ru/Sms.aspx "http://robokassa.ru/ru/Sms.aspx") (МТС, Мегафон, Билайн), платежи через [интернет-банк](http://robokassa.ru/ru/E-invoicing.aspx "http://robokassa.ru/ru/E-invoicing.aspx") ведущих Банков РФ, платежи через банкоматы, через [терминалы мгновенной оплаты](http://robokassa.ru/ru/Terminals.aspx "http://robokassa.ru/ru/Terminals.aspx"), а также с помощью [приложения для iPhone](http://robokassa.ru/ru/iRobokassa.aspx "http://robokassa.ru/ru/iRobokassa.aspx").
 
