@@ -28,7 +28,7 @@ This article explains how to acheive that.
 	}    
     ```
     
-   	You can do that by creating a module and {% link "adding CSS file via it" ref_p0CRZmMS %}. Alternatively, you can use [ThemeTweaker module](https://kb.x-cart.com/look_and_feel/theme_tweaker/custom_css.html) to define custom CSS code.
+	You can do that by creating a module and {% link "adding CSS file via it" ref_p0CRZmMS %}. Alternatively, you can use [ThemeTweaker module](https://kb.x-cart.com/look_and_feel/theme_tweaker/custom_css.html) to define custom CSS code.
 
 2. Define the following piece of JS code for all pages in your store-front:
 	```js
@@ -38,4 +38,4 @@ $(".desktop-header")
     .removeData("bs.affix");
     ```
 
-Again, you can do that by creating a module and adding JS file to it or via ThemeTweaker module: go to 'Look & feel' > 'Custom CSS & JS' > 'Custom Javascript' section in your admin area.
+	Again, you can do that by creating a module and adding JS file to it or via ThemeTweaker module: go to 'Look & feel' > 'Custom CSS & JS' > 'Custom Javascript' section in your admin area.
