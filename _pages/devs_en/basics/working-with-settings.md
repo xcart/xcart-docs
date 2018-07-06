@@ -256,4 +256,4 @@ YAML code:
 
 Again, parameters are the same, but you specify the class name in the **type** field.
 
-You can use all classes from the `classes/XLite/View/FormField/` folder in your settings  or {% link "create your own one" ref_fxJxv6rf %}.
+You can use all classes from the `classes/XLite/View/FormField/` folder in your settings  or {% link "create your own one" ref_2p2X2NnZ %}.
