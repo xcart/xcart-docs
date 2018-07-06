@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-10-23 11:41 +0400'
 identifier: ref_esm15xpd
-title: 'ROBOKASSA: Установка модуля'
+title: Установка модуля ROBOKASSA в панели управления магазина
 redirect_from:
   - /документация_на_русском/robokassa/robokassa_установка_модуля.html
 categories:
@@ -13,20 +13,11 @@ order: 100
 ---
 
 
-Загрузка и установка модуля ROBOKASSA осуществляется через X-Cart Marketplace.
+ROBOKASSA - бесплатный модуль, для любой версии X-Cart он доступен для установки в маркетплейсе.
 
 ![]({{site.baseurl}}/attachments/7504676/7602389.png)
 
-Инструкция по установке модулей из X-Cart Marketplace (на английском языке) доступна здесь: {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+Воспользуйтесь {% link "инструкциям по установке" ref_gpeZtm28 %}.
 
-После установки модуль будет автоматически активирован. 
+Когда установка завершена, модуль автоматически активирован, и можно переходить к настройке способа оплаты. 
 
-_См. также:_
-
-*   {% link "ROBOKASSA: Как это выглядит в X-Cart" ref_Tc5uipce %}
-*   {% link "Подключение магазина к сервису ROBOKASSA" ref_nPhzIbb7 %}
-*   {% link "Включение и настройка способа оплаты через ROBOKASSA в X-Cart" ref_MGJHxoN6 %}
-
-## Attachments:
-
-* [install_robokassa.png]({{site.baseurl}}/attachments/7504676/7602389.png) (image/png)
