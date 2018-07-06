@@ -6,6 +6,9 @@ identifier: ref_2p2X2NnZ
 title: Creating custom setting / form field
 order: 100
 published: true
+redirect_from:
+  - >-
+    /getting_started/step_4_-_working_with_settings/creating_custom_setting_class.html
 ---
 ## Introduction
 
