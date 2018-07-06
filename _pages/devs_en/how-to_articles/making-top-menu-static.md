@@ -22,12 +22,13 @@ However, making the menu static is somewhat quick and cheap solution to make thi
 This article explains how to acheive that.
 
 1. Define the following piece of CSS code for all pages in your store-front:
+
 	```css
 	.target-main #header-area .desktop-header {
 	  position: static;
-	}    
+	}
     ```
-    
+
 	You can do that by creating a module and {% link "adding CSS file via it" ref_p0CRZmMS %}. Alternatively, you can use [ThemeTweaker module](https://kb.x-cart.com/look_and_feel/theme_tweaker/custom_css.html) to define custom CSS code.
 
 2. Define the following piece of JS code for all pages in your store-front:
