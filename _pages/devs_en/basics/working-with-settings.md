@@ -6,6 +6,9 @@ identifier: ref_4bMGEiAR
 title: Working with settings
 order: 100
 published: true
+redirect_from:
+  - /getting_started/step_4_-_working_with_settings
+  - /getting_started/step_4_-_working_with_settings/index.html
 ---
 ## Introduction
 
