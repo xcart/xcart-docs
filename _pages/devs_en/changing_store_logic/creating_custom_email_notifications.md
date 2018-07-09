@@ -49,20 +49,20 @@ Then, we {% link "create a page" ref_0VgqyxB8 %} `admin.php?target=example_email
 	 * @ListChild (list="admin.center", zone="admin")
 	 */
 	class ExampleEmailDemo extends \XLite\View\AView
-	{
+    {
         
     	/**
 	     * Return list of allowed targets
     	 */
 	    public static function getAllowedTargets()
-    	{
-        	return array_merge(parent::getAllowedTargets(), array('example_email_demo'));
+        {
+            return array_merge(parent::getAllowedTargets(), array('example_email_demo'));
 	    }
       
     	/**
 	     * Return widget default template
     	 */
-    public function getDefaultTemplate()
+        public function getDefaultTemplate()
 	    {
     	    return 'modules/XCExample/EmailDemo/page/example_email_demo/body.twig';
 	    }
@@ -80,7 +80,7 @@ Then, we display {% link "from that contains two fields" ref_3MQlKQPZ %}: 'Email
 
 	class EmailDemo extends \XLite\View\Model\AModel
 	{
-    	protected $schemaDefault = [
+        protected $schemaDefault = [
 	        'to' => [
     	        self::SCHEMA_CLASS      => 'XLite\View\FormField\Input\Text\Email',
         	    self::SCHEMA_LABEL      => 'Email to',
@@ -88,7 +88,7 @@ Then, we display {% link "from that contains two fields" ref_3MQlKQPZ %}: 'Email
 	        ],    
     	    'body' => [
         	    self::SCHEMA_CLASS      => 'XLite\View\FormField\Input\Text',
-            	self::SCHEMA_LABEL      => 'Body',
+                self::SCHEMA_LABEL      => 'Body',
 	            self::SCHEMA_REQUIRED   => false,            
     	    ],
 	    ];
