@@ -7,7 +7,7 @@ title: Активация магазина в сервисе ROBOKASSA
 order: 160
 published: true
 ---
-Магазин подключён в [личном кабинете ROBOKASSAhttps://partner.robokassa.ru/Home/Index](https://partner.robokassa.ru/Home/Index "Активация магазина в сервисе ROBOKASSA") и модуль **ROBOKASSA** настроен в панели управления **магазина X-Cart**.
+Магазин подключён в [личном кабинете ROBOKASSA](https://partner.robokassa.ru/Home/Index "Активация магазина в сервисе ROBOKASSA") и модуль **ROBOKASSA** настроен в панели управления **магазина X-Cart**.
 
 Теперь требуется активация магазина в сервисе **ROBOKASSA**, чтобы онлайн-магазин начал принимать оплату заказов от покупателей через платёжный метод **ROBOKASSA**. Отправьте в **ROBOKASSA** запрос на активацию магазина для приёма платежей на странице **Настройки магазина** в [личном кабинете ROBOKASSA](https://partner.robokassa.ru/ "Активация магазина в сервисе ROBOKASSA"):
 ![10.jpg]({{site.baseurl}}/attachments/ref_7d3oMQyH/10.jpg)
