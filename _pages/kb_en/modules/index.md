@@ -21,6 +21,7 @@ _In this section:_
 *   {% link "Amazon Pay" ref_mri0tPhM %} (former "Pay with Amazon")
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
 *   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
+*   {% link "Back in Stock Notifications Module" ref_1oUpzwSS %}
 *   {% link "Blog system in X-Cart 5" ref_T5FrnC4x %}
 *   {% link "Booking" ref_iTdd1QoP %}
 *   {% link "Call for Price Module" ref_3K1pJExV %}
