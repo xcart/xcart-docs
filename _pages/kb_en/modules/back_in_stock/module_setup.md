@@ -9,6 +9,10 @@ published: true
 ---
 To install the **Back in Stock Notifications** module follow instructions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
+{% note info %}
+Make surethat the out-of-stock items are visible in the store, otherwise the customers won't be able make a subscription. For this purpose check that the **How to show out of stock products** option on the **Store setup** -> **Cart & Checkout** page is set to either _Show in all the sections_ or _Show only in categories and search listings_.
+{% endnote %}
+
 Once installed proceed to the module settings page to configure it.
 
 ![installed.png]({{site.baseurl}}/attachments/ref_7mZJltoM/installed.png)
