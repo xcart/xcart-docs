@@ -34,10 +34,18 @@ Once the notifications are sent they get the corresponding state in the listings
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">Back in stock subscriptions![adm-bins-sent.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/adm-bins-sent.png)</div>
-  <div class="column" markdown="span">Price drop subscriptions![adm-pdd-sent.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/adm-pdd-sent.png)
-</div>
+  <div class="column" markdown="span">Price drop subscriptions![adm-pdd-sent.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/adm-pdd-sent.png)</div>
 </div>
 
 {% note info %}
 If the store is {% link "configured to run scheduled tasks" ref_lLqNzAaq %} all back-in-stock and price-drop-down notifications will be sent automatically as soon as the inventory and the price meet the subscriptions' conditions. So the store admin will need only to check the listings using the **Check products** button at the bottom of the page.
 {% endnote %}
+
+The **Catalog** -> **Watched products** section displays a list of products in demand (_Back in stock watchlist_ tab) and a list of products with a price drop-down request (_Price drop watchlist_ tab)
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">Back in stock watchlist ![adm-bins-watchlist.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/adm-bins-watchlist.png)</div>
+  <div class="column" markdown="span">Price drop watchlist ![adm-pdd-watchlist.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/adm-pdd-watchlist.png)</div>
+</div>
+
+Using these lists the cart admin can plan futher store inventory supplies and possible sales or other related marketing campains. 
