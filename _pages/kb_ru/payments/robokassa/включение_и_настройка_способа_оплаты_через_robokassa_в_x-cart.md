@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-10-23 11:41 +0400'
 identifier: ref_MGJHxoN6
-title: Включение и настройка способа оплаты через ROBOKASSA в X-Cart
+title: Подключение способа оплаты ROBOKASSA в панели управления X-Cart
 redirect_from:
   - >-
     /документация_на_русском/robokassa/включение_и_настройка_способа_оплаты_через_robokassa_в_x-cart.html
