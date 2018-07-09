@@ -12,5 +12,5 @@ published: true
 The module also helps the cart admin to find the "most wanted" products and arrange supplies properly to meet customers demand. 
 
 *  {% link "Back in Stock Notifications Module: Installation and Set-Up" ref_7mZJltoM %}
-*  Back in Stock Notifications Module : Admin Experience
+*  {% link "Back in Stock Notifications: Admin Experience" ref_3ZfsAR9B %}
 *  Back in Stock Notifications Module : Customer Experience
