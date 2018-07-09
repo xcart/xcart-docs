@@ -5,7 +5,7 @@ updated_at: '2018-07-09 13:52 +0400'
 identifier: ref_3ZfsAR9B
 title: 'Back in Stock Notifications: Admin Experience'
 order: 110
-published: false
+published: true
 ---
 Once the **Back in Stock Notifications** module is {% link "installed and configured" ref_7mZJltoM %} a store admin can check for notification subscriptions and for the products in demand in the **Catalog** -> **Product notification subscriptions** and **Catalog** -> **Watched products** sections respectively. 
 
@@ -41,4 +41,3 @@ Once the notifications are sent they get the corresponding state in the listings
 {% note info %}
 If the store is {% link "configured to run scheduled tasks" ref_lLqNzAaq %} all back-in-stock  and price-drop-down notifications will be sent automatically as soon as the inventory and price meet the subscription conditions. So the store admin will need only to check the listings using the **Check products** button at the bottom of the page.
 {% endnote %}
-
