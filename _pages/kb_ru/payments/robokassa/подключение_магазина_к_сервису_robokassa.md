@@ -88,4 +88,4 @@ order: 100
 ![9.jpg]({{site.baseurl}}/attachments/ref_nPhzIbb7/9.jpg)
 
 
-{% link "Активация магазина в сервисе ROBOKASSA" ref_7d3oMQyH %}
+{% link "Подключение способа оплаты ROBOKASSA в панели управления X-Cart" ref_MGJHxoN6 %}
