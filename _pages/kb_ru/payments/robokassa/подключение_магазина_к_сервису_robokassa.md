@@ -88,3 +88,4 @@ order: 100
 ![9.jpg]({{site.baseurl}}/attachments/ref_nPhzIbb7/9.jpg)
 
 
+{% link "Активация магазина в сервисе ROBOKASSA" ref_7d3oMQyH %}
