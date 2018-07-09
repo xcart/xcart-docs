@@ -39,34 +39,33 @@ Then, we {% link "create a page" ref_0VgqyxB8 %} `admin.php?target=example_email
     ```
 2. Page viewer class `\XLite\Module\XCExample\EmailDemo\View\Page\Admin\ExampleEmailDemo` with the following content:
 	```php
-	<?php
+    <?php
 
-	namespace XLite\Module\XCExample\EmailDemo\View\Page\Admin;
+    namespace XLite\Module\XCExample\EmailDemo\View\Page\Admin;
 
-	/**
-	 * ExampleEmailDemoPage
-	 *
-	 * @ListChild (list="admin.center", zone="admin")
-	 */
-	class ExampleEmailDemo extends \XLite\View\AView
+    /**
+     * ExampleEmailDemoPage
+     *
+     * @ListChild (list="admin.center", zone="admin")
+     */
+    class ExampleEmailDemo extends \XLite\View\AView
     {
-        
-    	/**
-	     * Return list of allowed targets
-    	 */
-	    public static function getAllowedTargets()
+        /**
+         * Return list of allowed targets
+         */
+        public static function getAllowedTargets()
         {
             return array_merge(parent::getAllowedTargets(), array('example_email_demo'));
-	    }
+        }
       
-    	/**
-	     * Return widget default template
-    	 */
+        /**
+         * Return widget default template
+         */
         public function getDefaultTemplate()
 	    {
-    	    return 'modules/XCExample/EmailDemo/page/example_email_demo/body.twig';
-	    }
-	}    
+            return 'modules/XCExample/EmailDemo/page/example_email_demo/body.twig';
+        }
+    }    
     ```
 3. Empty page template `skins/admin/modules/XCExample/EmailDemo/page/example_email_demo/body.twig`.
 
@@ -74,60 +73,60 @@ Then, we display {% link "from that contains two fields" ref_3MQlKQPZ %}: 'Email
 
 1. We create form widget's class `\XLite\Module\XCExample\EmailDemo\View\Model\EmailDemo` with the following content:
 	```php
-	<?php
+    <?php
 
-	namespace XLite\Module\XCExample\EmailDemo\View\Model;
+    namespace XLite\Module\XCExample\EmailDemo\View\Model;
 
-	class EmailDemo extends \XLite\View\Model\AModel
-	{
+    class EmailDemo extends \XLite\View\Model\AModel
+    {
         protected $schemaDefault = [
-	        'to' => [
-    	        self::SCHEMA_CLASS      => 'XLite\View\FormField\Input\Text\Email',
-        	    self::SCHEMA_LABEL      => 'Email to',
-            	self::SCHEMA_REQUIRED   => true,
-	        ],    
-    	    'body' => [
-        	    self::SCHEMA_CLASS      => 'XLite\View\FormField\Input\Text',
+            'to' => [
+                self::SCHEMA_CLASS      => 'XLite\View\FormField\Input\Text\Email',
+                self::SCHEMA_LABEL      => 'Email to',
+                self::SCHEMA_REQUIRED   => true,
+            ],    
+            'body' => [
+                self::SCHEMA_CLASS      => 'XLite\View\FormField\Input\Text',
                 self::SCHEMA_LABEL      => 'Body',
-	            self::SCHEMA_REQUIRED   => false,            
-    	    ],
-	    ];
+                self::SCHEMA_REQUIRED   => false,            
+            ],
+        ];
 
-    	protected function getDefaultModelObject()
-	    {
-    	    return null;
-	    }
+        protected function getDefaultModelObject()
+        {
+            return null;
+        }
 
-    	protected function getFormClass()
-	    {
-    	    return 'XLite\Module\XCExample\EmailDemo\View\Form\EmailDemo';
-	    }
-	}
+        protected function getFormClass()
+        {
+            return 'XLite\Module\XCExample\EmailDemo\View\Form\EmailDemo';
+        }
+    }
 	```
 2. We create `\XLite\Module\XCExample\EmailDemo\View\Form\EmailDemo` form class used by `getFormClass()` method:
 	```php
     <?php
 
-	namespace XLite\Module\XCExample\EmailDemo\View\Form;
+    namespace XLite\Module\XCExample\EmailDemo\View\Form;
 
-	class EmailDemo extends \XLite\View\Form\AForm
-	{
-    	protected function getDefaultTarget()
-	    {
-    	    return 'example_email_demo';
-	    }
+    class EmailDemo extends \XLite\View\Form\AForm
+    {
+        protected function getDefaultTarget()
+        {
+            return 'example_email_demo';
+        }
 
-    	protected function getDefaultAction()
-	    {
-    	    return 'send';
-	    }
-	}
+        protected function getDefaultAction()
+        {
+            return 'send';
+        }
+    }
     ```
 3. We update the `skins/admin/modules/XCExample/EmailDemo/page/example_email_demo/body.twig` template and define its content as follows:
 	```html
-	<h2>Email sending script</h2>
+    <h2>Email sending script</h2>
 
-	{{ widget('\\XLite\\Module\\XCExample\\EmailDemo\\View\\Model\\EmailDemo') }}
+    {{ widget('\\XLite\\Module\\XCExample\\EmailDemo\\View\\Model\\EmailDemo') }}
 	```
     
 At this point, we have a module and the form on the `admin.php?target=example_email_demo` page:
