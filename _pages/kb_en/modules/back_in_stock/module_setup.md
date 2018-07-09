@@ -5,7 +5,7 @@ updated_at: '2018-07-06 15:59 +0400'
 identifier: ref_7mZJltoM
 title: 'Back in Stock Notifications Module: Installation and Set-Up'
 order: 100
-published: false
+published: true
 ---
 To install the **Back in Stock Notifications** module follow instructions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
