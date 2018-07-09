@@ -18,7 +18,7 @@ order: 100
 
 1.  Проверьте магазин на соответствие [требованиям ROBOKASSA](https://www.robokassa.ru/ru/Requirements.aspx "Подключение магазина к сервису ROBOKASSA"). 
 2.  [Зарегистрируйтесь](https://partner.robokassa.ru/Reg/Register?culture=ru) на сайте ROBOKASSA.
-    <div class="ui stackable two column grid">
+<div class="ui stackable two column grid">
   <div class="column" markdown="span">![1.jpg]({{site.baseurl}}/attachments/ref_nPhzIbb7/1.jpg)
 </div>
   <div class="column" markdown="span">![2.jpg]({{site.baseurl}}/attachments/ref_nPhzIbb7/2.jpg)
