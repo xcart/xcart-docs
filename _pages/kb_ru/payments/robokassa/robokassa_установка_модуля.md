@@ -23,3 +23,4 @@ ROBOKASSA - бесплатный модуль, для любой версии X-
 
 ![робокасса2.jpg]({{site.baseurl}}/attachments/ref_esm15xpd/робокасса2.jpg)
 
+{% link "Подключение способа оплаты ROBOKASSA в панели управления X-Cart" ref_MGJHxoN6 %}
