@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-10-23 11:41 +0400'
 identifier: ref_nPhzIbb7
-title: Подключение магазина к сервису ROBOKASSA
+title: Подключение магазина в панели управления ROBOKASSA
 redirect_from:
   - >-
     /документация_на_русском/robokassa/подключение_магазина_к_сервису_robokassa.html
