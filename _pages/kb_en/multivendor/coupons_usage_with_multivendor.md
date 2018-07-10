@@ -18,6 +18,7 @@ Vendors can view and manage only the coupons that they own. In their personal Ve
 ## Coupons: Multivendor store administrator experience
 The store administrator can view, edit and delete any coupons created by the vendors. If the administrator themselves is also a vendor, they can create and manage coupons for their own products (Such coupons are not visible to vendors and can be applied only to the products owned by the administrator).
 
-If necessary, the administrator can create coupons on behalf of vendors and change the owner of any existing coupon. To do so, they need to specify the vendor who will be the owner of the coupon using the Vendor field in the coupon details:
+If necessary, the administrator can create coupons on behalf of vendors. To create a coupon for a vendor, the administrator needs to specify this vendor as the owner of the coupon using the Vendor field in the coupon details:
 ![mvcoupons_coupon_vendor_field_in_admin.png]({{site.baseurl}}/attachments/ref_2HGKKzgD/mvcoupons_coupon_vendor_field_in_admin.png)
 
+The administrator can change the owner of any existing coupon.
