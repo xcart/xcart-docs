@@ -43,3 +43,4 @@ Note that failure to specify the states in the **Specify US states** field after
 _Related pages:_
 
    * {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
+   * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
