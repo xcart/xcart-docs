@@ -8,7 +8,7 @@ order: 100
 published: false
 ---
 ## Coupons: Vendor experience
-In a Multivendor X-Cart store with the addon {% link "Coupons" ref_3iTVKlYe %} installed and enabled, vendors can create discount coupons. A vendor can create and manage their coupons via the Discounts section of the Vendor area:
+In a Multivendor X-Cart store with the addon {% link "Coupons" ref_3iTVKlYe %} installed and enabled, vendors can create discount coupons. A vendor can create and manage their coupons via the Coupons section (**Discounts** > **Coupons**) of the Vendor area:
 ![mvcoupons_coupons_section_in_vendor.png]({{site.baseurl}}/attachments/ref_2HGKKzgD/mvcoupons_coupons_section_in_vendor.png)
 
 Coupons created by a vendor are applied only to the products of that particular vendor.
@@ -16,7 +16,8 @@ Coupons created by a vendor are applied only to the products of that particular 
 Vendors can view and manage only the coupons that they own. In their personal Vendor area, they do not have access to any coupons owned by other vendors or the store administrator.
 
 ## Coupons: Multivendor store administrator experience
-The store administrator can view, edit and delete any coupons created by the vendors. If the administrator themselves is also a vendor, they can create and manage coupons for their own products (Such coupons are not visible to vendors and can be applied only to the products owned by the administrator).
+The store administrator can view and manage coupons via the Coupons section (**Discounts** > **Coupons**) of the Admin area. They can view, edit and delete any coupons created by the vendors; if the administrator themselves is also a vendor, they can create and manage coupons for their own products (Such coupons are not visible to vendors and can be applied only to the products owned by the administrator).
+![mvcoupons_coupons_section_in_admin.png]({{site.baseurl}}/attachments/ref_2HGKKzgD/mvcoupons_coupons_section_in_admin.png)
 
 If necessary, the administrator can create coupons on behalf of vendors. To create a coupon for a vendor, the administrator needs to specify this vendor as the owner of the coupon using the Vendor field in the coupon details:
 ![mvcoupons_coupon_vendor_field_in_admin.png]({{site.baseurl}}/attachments/ref_2HGKKzgD/mvcoupons_coupon_vendor_field_in_admin.png)
