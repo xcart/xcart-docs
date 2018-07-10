@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-07-10 14:20 +0400'
 identifier: ref_2HGKKzgD
 title: 'Coupons: Usage with Multivendor'
-order: 100
+order: 900
 published: true
 redirect_from:
   - >-
@@ -37,4 +37,3 @@ _Related pages:_
 
    * {% link "Coupons" ref_SGI1FqdC %}
    * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
-   
