@@ -27,6 +27,7 @@ _In this section:_
 *   {% link "Call for Price Module" ref_3K1pJExV %}
 *   {% link "Canada Post" ref_ifwLo5ks %}
 *   {% link "CloudSearch and CloudFilters" ref_3MF4RL7z %}
+*   {% link "Coupons" ref_3iTVKlYe %}
 *   {% link "Disable drag'n'drop add to cart" ref_2NVSkzc3 %}
 *   {% link "eBay Integration" ref_0SnFdXk1 %}
 *   {% link "eCC Desktop: Quickbooks integration" ref_0HbWTUok %}
