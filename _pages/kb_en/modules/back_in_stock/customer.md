@@ -5,7 +5,7 @@ updated_at: '2018-07-10 11:36 +0400'
 identifier: ref_4aP2C30g
 title: 'Back in Stock Notifications: Customer Experience'
 order: 120
-published: false
+published: true
 ---
 
 The Back in Stock Notifications module allows to subscribe to back-in-stock and price-drop-down notifications for both registered and unregistered customers. The process is quite the same the only difference being that the unregistered customers have to specify their e-mail, while the registered customers have this field predefined based on the customer account data.
@@ -34,4 +34,3 @@ For the price-drop-down notifications a customers will also be able to specify t
   <div class="column" markdown="span"><i>Confirmation pop-up</i>![cus-pdd-notify-1.png]({{site.baseurl}}/attachments/ref_4aP2C30g/cus-pdd-notify-1.png)</div>
   <div class="column" markdown="span"><i>Subscription confirmation on the product details page</i>![cus-pdd-notify-2.png]({{site.baseurl}}/attachments/ref_4aP2C30g/cus-pdd-notify-2.png)</div>
 </div>
-
