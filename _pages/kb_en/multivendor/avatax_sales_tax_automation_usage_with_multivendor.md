@@ -14,7 +14,7 @@ The addon {% link "AvaTax Sales Tax Automation" ref_6880bVvi %} can be used with
 
 Unlike X-Cart's {% link "Sales tax" ref_aJPK4DHN %}, {% link "VAT/GST" ref_Rzp45QlN %} or {% link "Canadian taxes" ref_hxmof6xX %} addons, AvaTax Sales Tax Automation can safely be used for U.S. multivendor X-Cart stores operating in the "Vendors as separate shops" mode in which the collection of sales tax has been configured as the responsibility of the vendors (**Sales tax is the responsibility of**=_Vendor_). 
 
-To use AvaTax Sales Tax Automation, the store administrator will have to get an AvaTax account and complete the required configuration in the AvaTax Admin Console and the X-Cart store as described in {% link "Getting started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}.
+To use AvaTax Sales Tax Automation, the store administrator will have to get an AvaTax account and complete the required configuration in the AvaTax Admin Console and the X-Cart store as described inÂ {% link "Getting started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}.
 
 The vendors will not need a separate AvaTax account; however, to ensure correct tax calculation in a Multivendor store via a single AvaTax account, the store administrator will need to properly configure the nexus jurisdictions for the store's AvaTax account in the AvaTax Admin Console including all the states where the store/marketplace has nexus; they will also need to make sure all the nexus states are specified properly in the X-Cart store's settings:
 
@@ -39,3 +39,7 @@ Vendors should be instructed to specify their nexus states via **My account** > 
 ![us_tax_calculation_in_vendor.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/us_tax_calculation_in_vendor.png)
 
 Note that failure to specify the states in the **Specify US states** field after adjusting the setting **Automatically calculate taxes for** to "_Specific states_" will result in that no tax calculation requests will be sent to AvaTax to calculate sales tax for the vendor's products; for this reason the store administrator should double check that the information regarding the vendor's nexus states has been properly provided by them via the Financial details section (If not, the administrator should request that the vendor fixes it, or fix it themselves for the vendor).
+
+_Related pages:_
+
+   * {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
