@@ -65,6 +65,7 @@ _In this section:_
 *   {% link "Update inventory" ref_uSIvmuTh %}
 *   {% link "UPS" ref_0uCGd6Bs %}
 *   {% link "U.S.P.S." ref_whrpZnV3 %}
+*   {% link "Volume Discounts" ref_3JbpQrPF %}
 *   {% link "Wishlist" ref_60uS71VK %}
 *   {% link "XC4 to XC5 Migration wizard" ref_enOvcLbO %}
 *   {% link "X-Cart 5 to WordPress Integration" ref_rJ8hCpkQ %}
