@@ -33,3 +33,7 @@ If necessary, the administrator can create coupons on behalf of vendors. To crea
 ![mvcoupons_vendor_coupon_created_by_admin.png]({{site.baseurl}}/attachments/ref_2HGKKzgD/mvcoupons_vendor_coupon_created_by_admin.png)
 
 
+_Related pages:_
+
+   * {% link "Coupons" ref_SGI1FqdC %}
+   
