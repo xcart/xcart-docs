@@ -116,7 +116,7 @@ The store administrator manages the existing vendor users, including the removal
 ## Task 2: Supervise the catalog, coupons and discounts
 The store administrator exercises the function of supervising the product catalog. See {% link "Supervising the product catalog" ref_0dPCIV3f %} for more information.
 
-If necessary, the store administrator can help vendors with volume discounts and coupons. The administrator can view, edit and delete coupons and volume discounts created by the vendors; they cannot, however, create coupons and discounts to be applied to vendor products. (Any coupons and discounts created by the administrator are not visible to vendors and can be applied only to the products owned by the administrator).
+If the store uses the addons {% link "Volume Discounts" ref_3JbpQrPF %} and {% link "Coupons" ref_3iTVKlYe %}, the store administrator can help vendors with the setup of volume discounts and coupons, respectively. For more info, see Volume Discounts: Usage with Multivendor and Coupons: Usage with Multivendor. 
 
 ## Task 3: Work on the orders
 The store administrator has full access to all the orders in the store. 
