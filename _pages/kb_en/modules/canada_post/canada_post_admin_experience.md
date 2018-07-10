@@ -26,7 +26,7 @@ For **contract** shipping, you will need to take the following steps:
 1.  Prepare the packages for shipping by Canada Post and create the respective "shipments" via your store's back end. By "shipment" here we mean a collection of data about a package that your store will provide to Canada Post so that Canada Post can deliver it according to your preferences and specifications (See [Creating shipments](#creating-shipments)).
 2.  Obtain the shipping labels and affix them to your packages (See [Obtaining shipping labels](#obtaining-shipping labels)). 
 3.  Once a group of shipments is ready for pickup by Canada Post or drop-off to a Canada Post location, initiate the delivery process by transmitting these shipments (See [Transmitting shipments](#transmitting-shipments)).
-4.  Obtain and print out your Canada Post manifest for the transmitted shipments (See [Obtaining manifests](#obtaining-manifests)). If you are a commercial customer and you use contract shipping services, you must produce a hard copy of your manifest and provide to Canada Post when they pick up your shipments or when you drop off your shipments at a mail processing plant.
+4.  Obtain and print out your Canada Post manifest for the transmitted shipments. If you are a commercial customer and you use contract shipping services, you must produce a hard copy of your manifest and provide to Canada Post when they pick up your shipments or when you drop off your shipments at a mail processing plant.
 
 For **non-contract** shipping, you will need to take the following steps:
 
@@ -167,21 +167,21 @@ Where applicable, the same window may provide links to related documents; for ex
 
 ## Handling returns
 
-Return requests submitted by shoppers wishing to return items shipped to them by Canada Post can be found in the Returns section of the Admin area (**Orders** > **Returns**):
+{% note info %}
+In order to process return requests from the customers make sure the  module is {% link "installed and enabled" ref_Vn1mMUw9 %} in your store.
+{% endnote %}
 
-![]({{site.baseurl}}/attachments/7505660/7602856.png)
+Return requests submitted by shoppers wishing to return items shipped to them by Canada Post can be found in the **Returns** section of the Admin area (**Orders** > **Returns**. The return requests are displayed as a list:
 
-The return requests are displayed as a list:
+![returns.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/returns.png)
 
-![]({{site.baseurl}}/attachments/7505660/7602855.png)
+New requests have the status "_Issued_". This status means that you need to review the request and either approve or reject it.
 
-New requests have the status "_Requires authorization_". This status means that you need to review the request and either approve or reject it.
+You can view the details of any request on the list by clicking on the respective _Order #_ link in the first column. The return details page allows you to see what items are being returned and to view the buyer's note, if such a note has been provided:
 
-You can view the details of any request on the list by clicking on the respective Return # link in the first column. The return details page allows you to see what items are being returned and to view the buyer's note, if such a note has been provided:
+![return-details.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/return-details.png)
 
-![]({{site.baseurl}}/attachments/7505660/7602857.png)
-
-To process a return request, simply select the status you require (_Approved_ or _Rejected_) from the **Status** drop-down box and click **Save changes**. If you are doing it via the return details page, you may choose to provide a note to the buyer using the **Note** box before saving the updated status. Once the status of a return request has been updated, an email message will be sent to the buyer informing them whether their request has been approved or rejected. The message of approval will contain a return label that the buyer will be able to print out and use for shipping the items back to your store.
+You can either **Authorize** or **Decline** the request using the corresponding buttons at the bottom of the _Order return_ tab. Once the status of a return request is updated, an email message will be sent to the buyer informing them whether their request has been approved or rejected. 
 
 _Related pages:_
 
