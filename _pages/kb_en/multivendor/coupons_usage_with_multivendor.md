@@ -36,4 +36,5 @@ If necessary, the administrator can create coupons on behalf of vendors. To crea
 _Related pages:_
 
    * {% link "Coupons" ref_SGI1FqdC %}
+   * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
    
