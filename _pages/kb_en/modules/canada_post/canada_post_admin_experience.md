@@ -19,7 +19,7 @@ This includes the following topics:
 
 ## Contract and non-contract shipping
 
-When shipping orders with Canada Post, your workflow will depend on whether you are using contract or non-contract services (This needs to be defined in the module settings).
+When shipping orders with Canada Post, your workflow will depend on whether you are using contract or non-contract services (This needs to be defined in the {% link "module settings" ref_XsHLxUwv %}).
 
 For **contract** shipping, you will need to take the following steps:
 
@@ -39,29 +39,40 @@ In the non-contract shipping flow, no manifests are required, so you do not need
 
 When a buyer selects one of the available Canada Post shipping methods for their order, the module performs calculations to determine the number of packages needed to ship the order to the buyer and provides an estimation of the shipping cost based on the number of packages needed, their respective weights and the shipping rates that the module obtains from Canada Post.
 
-Once the order has been placed, you can view its details via your store's Admin area as usual; the information about the shipping method selected by the buyer and the estimated shipping cost are availble in the Shipping info section of the **General info** tab:
+Once the order has been placed, you can view its details via your store's Admin area as usual; the information about the shipping method selected by the buyer is availble in the _Shipping info_ section of the **General info** tab and the estimated shipping cost is displayed at the bottom of the order dettails page:
 
-![]({{site.baseurl}}/attachments/7505660/7602858.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><i>General info: Part 1</i>![order-general.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/order-general.png)</div>
+  <div class="column" markdown="span"><i>General info: Part 2</i>![order-general-2.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/order-general-2.png)</div>
+</div>
 
 When you are ready to pack the ordered items for shipment, start by visiting the Shipments section (This can be accessed via the **Shipments** tab when viewing the order details):
 
-![]({{site.baseurl}}/attachments/7505660/7602859.png)
+![order-shipments.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/order-shipments.png)
 
 In this section, you need to provide information about the parcels that you will use to ship the order via Canada Post. A collection of information about a single parcel to be shipped by Canada Post is called a shipment.
 
-When you open the Shipments section for a new order, you will notice that it already contains a list of shipments. This list reflects the way in which the module proposes to split the items from this order into parcels based on the weight limit for one package. For example, in the snapshot below you can see how a large order was split into two parcels so the weight of each parcel does not exceed 30 kilograms:
+When you open the **Shipments** section for a new order, you will notice that it already contains a list of shipments. This list reflects the way in which the module proposes to split the items from this order into parcels based on the weight limit for one package. 
 
-![]({{site.baseurl}}/attachments/7505660/7602861.png)
+For example, in the screen below you can see how a large order was split into two parcels so the weight of each parcel does not exceed 10 kilograms:
 
-Please note that when the module splits an order into parcels, it does not take into account the dimensions of the individual items in the order nor the dimensions of the box into which they will be packed. As a result, the method does not guarantee that the items placed by the module into one parcel will actually fit in. It is your responsibility as a merchant to verify not only that the weight of the items in each shipment does not exceed the Package maximum weight limit, but also to make sure the items placed into each parcel do actually fit into the box of the specified dimensions. 
+<div class="ui stackable three column grid">
+  <div class="column" markdown="span">![parcel-1.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/parcel-1.png)</div>
+  <div class="column" markdown="span">![parcel-2.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/parcel-2.png)</div>
+  <div class="column" markdown="span">![parcel-3.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/parcel-3.png)</div>
+</div>
 
-If you choose not to follow the split of the items into parcels proposed by the module, you should adjust the configuration of the shipments in the Shipments section accordingly. For example, you may change the dimensions of specific parcels, or move the items between the existing parcels, or add more parcels and move some of the items there. However, please be aware that if you change the way your items are split into shipments, it may cause a significant difference between the actual shipping fees you will need to pay and the estimated shipping cost that the buyer has paid.
+{% note info %}
+When the module splits an order into parcels, it does not take into account the dimensions of the individual items in the order nor the dimensions of the box into which they will be packed. As a result, the method does not guarantee that the items placed by the module into one parcel will actually fit in. It is your responsibility as a merchant to verify not only that the weight of the items in each shipment does not exceed the Package maximum weight limit, but also to make sure the items placed into each parcel do actually fit into the box of the specified dimensions. 
+{% endnote %}
 
-In the example demonstrated by the snapshot above, we have exactly this type of a situation: although the weight limit is not exceeded by any of the two parcels, a box measuring 40cm x 30.5cm x 21.6cm is highly unlikely to provide enough room for six Yoda plush backpacks and ten wind-up Bender robots together. This means we'll need to adjust the shipments split manually: use larger size boxes or split the first parcel into a few separate ones.
+If you choose not to follow the split of the items into parcels proposed by the module, you should adjust the configuration of the shipments in the **Shipments** section accordingly. 
+
+For example, you may change the dimensions of specific parcels, or move the items between the existing parcels, or add more parcels and move some of the items there. However, please be aware that if you change the way your items are split into shipments, it may cause a significant difference between the actual shipping fees you will need to pay and the estimated shipping cost that the buyer has paid.
 
 The size of the box can be easily adjusted by editing the **Dimensions** fields:
 
-![]({{site.baseurl}}/attachments/7505660/7602863.png)
+![shipments-dimention.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/shipments-dimention.png)
 
 The distribution of the ordered items into parcels can be adjusted by moving items from one parcel to another. If necesary, more parcels can be added by moving items to a new parcel.
 
@@ -74,9 +85,7 @@ To move items from one parcel to another:
 5.  Click **Save changes**. 
     The items will be moved.
 
-The snapshot below demonstrates the creation of an additional parcel by moving five units of the product "Bare Metal Bender Wind-up" out of Parcel #1 to a new parcel (After the changes have been saved, a new parcel - Parcel #3 containing five wind-up Bender robots - will be added to the list; the number of Bender robots in Parcel #1 will be decreased):
-
-![]({{site.baseurl}}/attachments/7505660/7602862.png)
+![shipments-move-item.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/shipments-move-item.png)
 
 As you move items between the parcels, the module automatically checks that the package weight limit is never exceeded.
 
@@ -84,7 +93,9 @@ Once you have adjusted the number of parcels, the parcel dimensions and the dist
 
 *   select the parcel type, 
 *   select the types of email notifications that need to be sent,
+*   select the way to deliver,
 *   specify the insurance coverage amount, 
+*   select whether the proof of age is required or not,
 *   specify whether a signature is required, etc.
 
 The maximum allowed parcel weight and the set of available parcel options may differ depending on the parcel destination and shipping method selected.
@@ -93,13 +104,13 @@ You should also specify the intended method of payment (_Credit card_ or _Accoun
 
 After editing any parcel characteristics or options, be sure to apply your changes by clicking the **Save changes** button.
 
-Once the configuration of your shipments has been completed, you need to submit information about them to Canada Post. To do so, click the **Save & Create shipment** button below each shipment:
+Once the configuration of your shipments has been completed, you need to submit information about them to Canada Post. To do so, click the **Create shipment** button below each shipment:
 
-![]({{site.baseurl}}/attachments/7505660/7602864.png)
+![create-shipment.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/create-shipment.png)
 
-The shipment will be submitted to Canada Post. Once it has been processed, the **Save & Create shipment** button will disappear; in its place you should be able to find a new information section titled "Shipment info": 
+The shipment will be submitted to Canada Post. Once it has been processed, the **Create shipment** button will disappear; in its place you should be able to find a new information section titled "Shipment info": 
 
-![]({{site.baseurl}}/attachments/7505660/7602865.png)
+![shipment-info.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/shipment-info.png)
 
 In this section some important information pertaining to the created shipment will be provided, including the Tracking pin (a tracking identifier by which you and the parcel addressee will be able to track the parcel) and the shipping label link.
 
@@ -107,29 +118,7 @@ In this section some important information pertaining to the created shipment wi
 
 Each of the parcels to be shipped by Canada Post needs to have a shipping label affixed to it. X-Cart's Canada Post module allows you to obtain shipping labels for your Canada Post parcels.
 
-Once you have chosen to save and create a new shipment, the module contacts Canada Post and obtains a shipping label for it. You can access this label using a link in the Shipment info section of the shipment details. The label needs to be saved on your system as a PDF file, printed out and affixed to the parcel.
-
-## Transmitting shipments
-
-If you are using contract shipping services, from time to time you will need to "transmit" your created shipments. The step of transmitting shipments needs to be performed when you have saved and created one or more shipments and are ready to hand them over to Canada Post. Normally you will create a few shipments and transmit them together as a group, but it is also possible to transmit a single shipment, if necessary. Transmitting shipment triggers billing and sends shipping info to Canada Post.
-
-Please only transmit shipments if you are sure they have been configured, packaged and labelled correctly; you will not be able to void a shipment after it has been transmitted.
-
-Here's how you transmit shipments:
-
-Once you [create](#creating-shipments) a new shipment by clicking the **Save & Create shipment** button on the order details' **Shipments** tab, the shipment is added to your store's list of created Canada Post shipments in the CanadaPost shipments section (**Orders** > **CanadaPost shipments**):
-
-![]({{site.baseurl}}/attachments/7505660/7602867.png)
-
-Here you need to select the shipments that you want to transmit, specify your preferred payment method and click the **Transmit shipment** button:
-
-![]({{site.baseurl}}/attachments/7505660/7602868.png)
-
-The selected shipments will be transmitted. You should see a success message at the top of the screen:
-
-![]({{site.baseurl}}/attachments/7505660/7602869.png)
-
-Once a shipment has been transmitted, it is removed from the CanadaPost shipments section (**Orders** > **CanadaPost shipments**). The respective manifest is created. Now you can go to the CanadaPost manifests section (**Orders** > **CanadaPost manifests**) to [obtaining your manifest](#obtaining-manifests).
+Once you have chosen to create a new shipment, the module contacts Canada Post and obtains a shipping label for it. You can access this label using a link in the Shipment info section of the shipment details. The label needs to be saved on your system as a PDF file, printed out and affixed to the parcel.
 
 ## Voiding shipments
 
@@ -137,51 +126,42 @@ If the shipping label for a shipment that has been created is spoiled or will ot
 
 Voiding can only be performed before the shipment has been transmitted; transmitted shipments cannot be voided.
 
-To void a created shipment, do one of the following:
+To void a created shipment hit the **Void** button beneath the _Shipping info_ section and confirm the action.
 
-*   On the Shipments tab of the order details, locate the shipment that needs to be voided and click the **Void shipment** button pertaining to it:
+![void-confirmation.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/void-confirmation.png)
 
-![]({{site.baseurl}}/attachments/7505660/7602866.png)
-
-OR:
-
-*   (This method is available only for shipments that were created while using CanadaPost contract services): In the CanadaPost shipments section (**Orders** > **CanadaPost shipments**), locate the shipment that needs to be voided and click the **x VOID** button opposite it:
-    ![]({{site.baseurl}}/attachments/7505660/7602870.png)
-
-You will be asked to confirm the Void shipment action. What happens after you confirm this action depends on the type of services being used:
+What happens after you confirm this action depends on the type of services being used:
 
 *   If you are using contract shipping, the module will send a Void Shipment request to the Canada Post API. This will officially cancel the shipment and invalidate the shipping label previously created for it. In your store, the shipment will be switched back to the pre-created status; the shipping label and tracking pin links for the shipment will be removed.
-*   If you are using non-contract shipping, no requests will be sent to the Canada Post API (Canada Post will NOT be informed about the voiding), but in your store the shipment will be switched back to the pre-created status, and the shipping label and the tracking pin links for the shipment will be removed. 
+*   If you are using non-contract shipping, no requests will be sent to the Canada Post API (Canada Post will NOT be informed about the voiding), but in your store the shipment will be switched back to the pre-created status, and the shipping label and the tracking pin links for the shipment will be removed.
 
-## Obtaining manifests
+## Transmitting shipments
 
-For Canada Post contract holders, the module offers the ability to generate Canada Post shipping manifests. A manifest is required so that Canada Post will bill you properly and readily accept your shipments. 
+If you are using contract shipping services, from time to time you will need to "transmit" your created shipments. The step of transmitting shipments needs to be performed when you created a shipments and are ready to hand it over to Canada Post. Transmitting shipment triggers billing and sends shipping info to Canada Post.
 
-The step of obtaining a manifest for your shipments takes place after you have [transmit](#transmitting-shipments) them. To obtain a manifest, go to the CanadaPost manifests section (**Orders** > **CanadaPost manifests**). This section is where the list of manifests that have been created via your store can be seen. At the top of the list, you should be able to see the manifest for the group of shipments you have transmitted recently; you can recognize this manifest by its status, which should be "_Created_":
+{% note warning %}
+Please only transmit shipments if you are sure they have been configured, packaged and labelled correctly; you will not be able to void a shipment after it has been transmitted.
+{% endnote %}
 
-![]({{site.baseurl}}/attachments/7505660/7602871.png)
+Here's how you transmit shipments:
 
-Note that while a manifest is in the "_Created_" status, it cannot be printed out because not all the required information has been received from the Canada Post server yet. To get a printable manifest, you need to perform one more step - to click the **Update manifests** button below the Manifests list: 
+Once you [created](#creating-shipments) a new shipment by clicking the **Create shipment** button on the order details' **Shipments** tab, the **Transmit shipment** button becomes available beneath the _Shipping info_ section. Hit it, confirm the action and the shipment will be transmitted.
 
-![]({{site.baseurl}}/attachments/7505660/7602872.png)
+![transmit-confirmation.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/transmit-confirmation.png)
 
-A click on the **Update manifests** button induces the module to send a request to the Canada Post server and thus obtain the information it requires to generate a printable manifest. As a result, the manifest status changes to "_Approved_", and a PDF document icon appears on the line of the respective entry in the Manifests list:
+Once a shipment has been transmitted, manifests info is added to a special _Manifests_ section opposite the _Shipping info_ section
 
-![]({{site.baseurl}}/attachments/7505660/7602873.png)
-
-Now you can click on the PDF icon for the manifest, save the manifest as a PDF file on your system and have it printed out so you will have a printed copy of the manifest for Canada Post.
-
-Note that after the status of a manifest changes to "_Approved_", information about the manifest also appears in the details of the shipments included into it:
-
-![]({{site.baseurl}}/attachments/7505660/7602874.png)
+![manifest.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/manifest.png)
 
 Here you can see the ID of the manifest into which the shipment was included. The "Document: Artifact" link allows you to save and print out the manifest without going to the CanadaPost manifests page.
 
+A manifest is required so that Canada Post will bill you properly and readily accept your shipments. 
+
 ## Tracking shipments
 
-Canada Post shipments can be tracked via the store's Admin area by clicking the Tracking pin link in the shipment details. The tracking details are displayed in a popup window:
+Canada Post shipments can be tracked via the store's Admin area by clicking the _Tracking pin_ link in the **Shipment info** section. The tracking details are displayed in a popup window:
 
-![]({{site.baseurl}}/attachments/7505660/7602875.png)
+![]({{site.baseurl}}/attachments/ref_N6PsLLrM/tracking-details.png)
 
 Where applicable, the same window may provide links to related documents; for example, a signature image or a delivery confirmation certificate. 
 
