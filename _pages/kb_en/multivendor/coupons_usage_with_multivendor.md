@@ -6,6 +6,9 @@ identifier: ref_2HGKKzgD
 title: 'Coupons: Usage with Multivendor'
 order: 100
 published: true
+redirect_from:
+  - >-
+    /multivendor/multi-vendor/multi-vendor_vendor_experience/adding_coupons_and_discounts_as_a_vendor.html
 ---
 In a Multivendor X-Cart store with the addon {% link "Coupons" ref_3iTVKlYe %} installed and enabled, both the store administrator and vendors can create and manage discount coupons.
 
