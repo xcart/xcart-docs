@@ -48,4 +48,5 @@ Now your customer should be able to enter the code **HAPPY10** at checkout and g
 
 _Related pages:_
 
-*   {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %} (video)
+   * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}  
+   * {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %} (video)
