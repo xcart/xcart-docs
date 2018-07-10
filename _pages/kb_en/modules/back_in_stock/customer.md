@@ -41,3 +41,7 @@ When the requested product is back in stock or the price of the requested produc
   <div class="column" markdown="span"><i>Back-in-stock- notification</i>![cus-bins-notification.png]({{site.baseurl}}/attachments/ref_4aP2C30g/cus-bins-notification.png)</div>
   <div class="column" markdown="span"><i>Price-drop-down notification</i>![cus-pdd-notification.png]({{site.baseurl}}/attachments/ref_4aP2C30g/cus-pdd-notification.png)</div>
 </div>
+
+{% note info %}
+The above notifications use the default text. If you want to change it you are welcome to modify the notification text in the Store setup -> **Email notifications** section of the admin area as described in {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}.
+{% endnote %}
