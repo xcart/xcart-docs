@@ -13,20 +13,7 @@ redirect_from:
     /modules/multi-vendor/multi-vendor_vendor_experience/adding_coupons_and_discounts_for_vendor_products.html
   - >-
     /multivendor/multi-vendor/multi-vendor_vendor_experience/adding_coupons_and_discounts_for_vendor_products.html
+redirect_to: /multivendor/coupons_usage_with_multivendor.html
 ---
 
-In stores with the modules "Coupons" and "Volume Discounts" installed and enabled, vendors can create coupons and discounts for their products. This can be done using the Discounts section of the Vendor area:
 
-![xc5_mv_vendor_discounts.png]({{site.baseurl}}/attachments/ref_SwbyhUn5/xc5_mv_vendor_discounts.png)
-
-Any coupons and discounts created by a vendor are applied only to the products of that particular vendor.
-
-Vendors can see only the coupons and discounts created by themselves. They do not see any coupons or discounts that may have been created by other vendors or the store administrator.
-
-If necessary, vendor coupons and discounts can be edited by the store administrator.
-
-_Related pages:_
-
-   *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
-   *   {% link "Vendor login and first steps" ref_SZycMdTx %}
-   
