@@ -13,4 +13,4 @@ The module also helps the cart admin to find the "most wanted" products and arra
 
 *  {% link "Back in Stock Notifications Module: Installation and Set-Up" ref_7mZJltoM %}
 *  {% link "Back in Stock Notifications: Admin Experience" ref_3ZfsAR9B %}
-*  Back in Stock Notifications Module : Customer Experience
+*  {% link "Back in Stock Notifications: Customer Experience" ref_4aP2C30g %}
