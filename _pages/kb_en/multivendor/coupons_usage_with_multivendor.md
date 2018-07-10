@@ -9,7 +9,7 @@ published: false
 ---
 ## Coupons: Vendor experience
 In a Multivendor X-Cart store with the addon {% link "Coupons" ref_3iTVKlYe %} installed and enabled, vendors can create discount coupons. A vendor can create and manage their coupons via the Discounts section of the Vendor area:
-
+![mvcoupons_coupons_section_in_vendor.png]({{site.baseurl}}/attachments/ref_2HGKKzgD/mvcoupons_coupons_section_in_vendor.png)
 
 Coupons created by a vendor are applied only to the products of that particular vendor.
 
