@@ -25,5 +25,6 @@ _In this section:_
     *   {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}
     *   {% link "Multiple profiles for vendors" ref_3le6s8jL %}
     *   Volume Discounts: Usage with Multivendor (Article under construction)
+    *   Coupons: Usage with Multivendor (Article under construction)
     *   Messages addon: Usage with Multivendor (Article under construction)
     *   {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}
