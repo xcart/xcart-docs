@@ -7,7 +7,7 @@ title: Enabling Catalog mode (no &quot;Add to cart&quot; buttons)
 categories:
   - User manual
 published: true
-order: 260
+order: 230
 redirect_from:
   - /look_and_feel/enabling_catalog_mode_(no_add_to_cart_buttons).html
 ---
