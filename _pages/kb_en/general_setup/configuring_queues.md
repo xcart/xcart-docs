@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-08-24 13:38 +0400'
 identifier: ref_raLBcOm3
 title: Configuring background job queue
-order: 100
+order: 260
 published: true
 version: X-Cart 5.3.3
 ---
@@ -52,9 +52,3 @@ jsRunnerForOnlineEnabled = true
 ```
 
 This option is enabled by default in X-Cart 5.3.3.
-
-
-
-
-
-
