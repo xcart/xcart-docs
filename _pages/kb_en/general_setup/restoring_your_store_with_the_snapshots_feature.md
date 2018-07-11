@@ -8,7 +8,7 @@ version: X-Cart 5.2.5 and later
 categories:
   - User manual
 published: true
-order: 240
+order: 130
 ---
 
 
