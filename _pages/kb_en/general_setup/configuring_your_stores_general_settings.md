@@ -7,7 +7,7 @@ title: Configuring your store General settings
 categories:
   - User manual
 published: true
-order: 140
+order: 200
 redirect_from:
   - /look_and_feel/configuring_your_stores_general_settings.html
 ---
