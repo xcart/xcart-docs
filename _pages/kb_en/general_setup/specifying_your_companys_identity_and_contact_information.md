@@ -7,7 +7,7 @@ title: 'Specifying your company&#39;s identity and contact information'
 categories:
   - User manual
 published: true
-order: 120
+order: 210
 redirect_from:
   - >-
     /look_and_feel/specifying_your_companys_identity_and_contact_information.html
