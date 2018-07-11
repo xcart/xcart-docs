@@ -45,7 +45,7 @@ The rest of the changes can be done the same way as described in {% link "Adding
 
 ## GDPR Module: Admin Experience
 
-The addon tracks all the activities related to the processing of the store customers’ personal data and keeps their record in the store back-end on a special **GDPR activities** page (**Store setup** -> **GDPR activities**).
+The addon tracks all the activities related to the processing of your store customers’ personal data and keeps their records in the store back-end on a special **GDPR activities** page (**Store setup** -> **GDPR activities**).
 
 ![gdpr-activities.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/gdpr-activities.png)
 
@@ -72,9 +72,9 @@ For this purpose it will be necessary to:
       
   * Save the changes
 
-The next thing your store customers and visitors will have to do will be to tick the customer consent checkboxes on checkout page, on the registration page and on the contact us page if they are not pre-ticked. 
+The next thing your store customers and visitors will have to deel with will be the customer consent checkboxes on checkout page, on the registration page and on the contact us page.  
 
-Registered customers will need to tick the checkbox only once and anonymous users will have to confirm their consent every time they place an order.
+Registered customers will need to tick the checkbox only once and anonymous users will have to confirm their consent every time they place an order or submit a request in the **Contact Us** form.
 
 <div class="ui stackable three column grid">
   <div class="column" markdown="span"><i>Checkout page</i>![consent-checkout.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/consent-checkout.png)</div>
