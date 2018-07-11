@@ -7,7 +7,7 @@ title: Managing addons
 categories:
   - User manual
 published: true
-order: 90
+order: 10
 redirect_from:
   - /modules/managing_modules/index.html
 ---
