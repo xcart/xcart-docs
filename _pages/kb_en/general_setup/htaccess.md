@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-02-26 13:56 +0400'
 identifier: ref_68xr4sCx
 title: How to password protect access to your X-Cart
-order: 100
+order: 290
 published: true
 description: How to password protect access to your X-Cart
 ---
