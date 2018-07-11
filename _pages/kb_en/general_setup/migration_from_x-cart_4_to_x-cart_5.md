@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-02-07 01:54 +0400'
 identifier: ref_EntIT03c
 title: Migration from X-Cart 4 to X-Cart 5
-order: 97
+order: 40
 published: true
 ---
 ## Introduction
