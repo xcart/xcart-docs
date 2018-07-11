@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-05-18 20:53 +0400'
 identifier: ref_pQQ1CLe1
 title: Upgrading X-Cart 5
-order: 320
+order: 60
 published: true
 redirect_from:
   - /general_setup/upgrading_x-cart_5.html
