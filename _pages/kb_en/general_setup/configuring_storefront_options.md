@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-09-11 16:09 +0400'
 identifier: ref_wGaTsp7Z
 title: Configuring the storefront options
-order: 100
+order: 240
 published: true
 version: X-Cart 5.3.3
 ---
