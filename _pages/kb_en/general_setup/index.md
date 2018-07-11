@@ -42,3 +42,4 @@ Store Configuration and Maintenance
 *   {% link "Inaccessible Admin area after enabling HTTPS" ref_q171FiKp %}
 *   {% link "How to password protect access to your X-Cart" ref_68xr4sCx %}
 *   {% link "Getting compliant with the EU Cookie Law" ref_IOt4rapT %}
+*   {% link "Getting compliant with EU General Data Protection Regulation (GDPR)" ref_6VMSNqoq %}
