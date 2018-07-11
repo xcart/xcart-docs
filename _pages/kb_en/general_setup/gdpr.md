@@ -7,7 +7,7 @@ title: Getting compliant with EU General Data Protection Regulation (GDPR)
 order: 310
 published: true
 ---
-Since the amended [General Data Protection Regulation](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation "Getting compliant with EU General Data Protection Regulation (GDPR)"), commonly known as GDPR, came into force on 28 May 2018, website owners in Europe and outside it have been forced to seek ways to comply with the new requlations on processing the EU residents’ personal data (collecting emails, monitoring site visitors behavior by IP, etc).
+Since the amended [General Data Protection Regulation](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation "Getting compliant with EU General Data Protection Regulation (GDPR)"), commonly known as GDPR, came into force on 28 May 2018, website owners in Europe and outside it have been forced to seek ways to comply with the new regulations on processing the EU residents’ personal data (collecting emails, monitoring site visitors behavior by IP, etc).
 
 {% note info %}
 Before you start any changes in your online store, we advise that you should contact competent authorities. They can help with the audit and will also provide you with the list of the necessary changes that your business needs.
@@ -66,7 +66,7 @@ If preferred a store admin can change the cookie pop-up content using the {% lin
 For this purpose it will be necessary to:
   *  Open the storefront while logged in as a store admin (make sure you are opening the storefront from a new IP to see the cookie pop-up)
   *  Hit the _Gear_ icon in the bottom left corner and activate **Labels editor** (make sure the _Highlight labels_ option is switched to ON). 
-     You'll see the pop-up text highligheted.
+     You'll see the pop-up text highlighted.
      
      ![labels-editor.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/labels-editor.png)
        
@@ -76,7 +76,7 @@ For this purpose it will be necessary to:
       
   * Save the changes
 
-The next thing your store customers and visitors will have to deel with will be the customer consent checkboxes on checkout page, on the registration page and on the contact us page.  
+The next thing your store customers and visitors will have to deal with will be the customer consent checkboxes on checkout page, on the registration page and on the contact us page.  
 
 Registered customers will need to tick the checkbox only once and anonymous users will have to confirm their consent every time they place an order or submit a request in the **Contact Us** form.
 
@@ -85,6 +85,8 @@ Registered customers will need to tick the checkbox only once and anonymous user
   <div class="column" markdown="span"><i>Registration page</i>![consent-registration.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/consent-registration.png)</div>
   <div class="column" markdown="span"><i>Contact us page</i>![consent-contact-us.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/consent-contact-us.png)</div>
 </div>
+
+The text of the consent checkboxes can also be editer in the Webmaster mode the same way as described to the cookie pop-up above.
 
 Also there is a link in customers’ area that allows deleting customers profiles. Profile deletion removes the data stored in the profile and communication with the store owner and sellers. 
 
