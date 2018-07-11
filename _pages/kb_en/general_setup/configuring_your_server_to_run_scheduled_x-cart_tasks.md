@@ -7,7 +7,7 @@ title: Сonfiguring your server to run scheduled X-Cart tasks
 categories:
   - User manual
 published: true
-order: 200
+order: 250
 redirect_from:
   - >-
     /general_setup/%D1%81onfiguring_your_server_to_run_scheduled_x-cart_tasks.html
