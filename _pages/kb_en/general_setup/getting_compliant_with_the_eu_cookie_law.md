@@ -7,7 +7,7 @@ title: Getting compliant with the EU Cookie Law
 categories:
   - User manual
 published: true
-order: 270
+order: 300
 redirect_from:
   - /look_and_feel/getting_compliant_with_the_eu_cookie_law.html
 ---
