@@ -85,3 +85,9 @@ Registered customers will need to tick the checkbox only once and anonymous user
   <div class="column" markdown="span"><i>Registration page</i>![consent-registration.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/consent-registration.png)</div>
   <div class="column" markdown="span"><i>Contact us page</i>![consent-contact-us.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/consent-contact-us.png)</div>
 </div>
+
+Also there is a link in customers’ area that allows deleting customers profiles. Profile deletion removes the data stored in the profile and communication with the store owner and sellers. 
+
+![delete-account.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/delete-account.png)
+
+If anonymous customers want to remove their personal data, they can request it using a **Contact Us** form on your website.
