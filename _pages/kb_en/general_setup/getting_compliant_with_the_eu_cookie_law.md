@@ -13,7 +13,7 @@ redirect_from:
 ---
 
 
-Since the amended [Privacy and Electronic Communications Directive](http://en.wikipedia.org/wiki/Directive_on_Privacy_and_Electronic_Communications), commonly known as the EU Cookie Law, came into force on 26 May 2012, website owners in Europe have been forced to seek ways to comply with the new requlations.
+Since the amended [Privacy and Electronic Communications Directive](http://en.wikipedia.org/wiki/Directive_on_Privacy_and_Electronic_Communications), commonly known as the EU Cookie Law, came into force on 26 May 2012, website owners in Europe have been forced to seek ways to comply with the new regulations.
 
 Designed to protect the online privacy of consumers, the Directive focuses, among other things, on the use of tracking technology, including cookies. In short, it requires that websites must inform their visitors about the use of cookies and obtain the visitors' consent before placing cookies on to their computers. 
 
