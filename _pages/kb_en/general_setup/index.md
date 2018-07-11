@@ -41,4 +41,5 @@ Store Configuration and Maintenance
 *   {% link "What to do if your store says «We are deploying new changes» and you cannot access it" ref_3zSHgdQk %}
 *   {% link "Inaccessible Admin area after enabling HTTPS" ref_q171FiKp %}
 *   {% link "How to password protect access to your X-Cart" ref_68xr4sCx %}
+*   {% link "How to access the store when it is closed for maintenance for too long" ref_3zSHgdQk %}
 *   {% link "Getting compliant with the EU Cookie Law" ref_IOt4rapT %}
