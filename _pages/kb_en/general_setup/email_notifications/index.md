@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-23 14:28 +0400'
 identifier: ref_5QLrLCu7
 title: 'Email notifications: setup and maintenance'
-order: 100
+order: 220
 published: true
 redirect_from:
   - /look_and_feel/enablingdisabling_order_created_email_notifications.html
