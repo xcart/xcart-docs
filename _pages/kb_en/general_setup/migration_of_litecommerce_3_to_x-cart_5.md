@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-02-27 17:29 +0400'
 identifier: ref_icEFLRUp
 title: Migration from Litecommerce 3 to X-Cart 5
-order: 400
+order: 50
 published: true
 version: X-Cart 5.0 - 5.1
 ---
