@@ -39,13 +39,17 @@ The default Privacy statement page can be located in the **Content** -> **Pages*
 
 ![privacy-statement.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/privacy-statement.png)
 
-To edit the page content click on the page name, locate the text in the **Content** field and edit it to meet your busines needs or replace the default text completely with of your company Privacy policy instead. If you keep the default text for your Privacy statement page, make sure you replace the values in yellow with the corresponding information about your company.
+To edit the page content click on the page name. You'll see the Privacy statement edit page
 
-The rest of the changes can be done the same way as described in {% link "Adding pages to your store" ref_Ptf5vaPn %}. Don't forget to **save** the changes when you are done.
+![privacy-statement-1.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/privacy-statement-1.png)
+
+Locate the text in the **Content** field and edit it (replace the values in yellow with the corresponding information about your company) or replace the default text completely with of your company Privacy policy instead. The rest of the changes can be done the same way as described in {% link "Adding pages to your store" ref_Ptf5vaPn %}. 
+
+Don't forget to **save** the changes when you are done.
 
 ## GDPR Module: Admin Experience
 
-The addon tracks all the activities related to the processing of your store customers’ personal data and keeps their records in the store back-end on a special **GDPR activities** page (**Store setup** -> **GDPR activities**).
+The addon tracks all the activities related to processing your store customers’ personal data and keeps their records in the store back-end on a special **GDPR activities** page (**Store setup** -> **GDPR activities**).
 
 ![gdpr-activities.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/gdpr-activities.png)
 
@@ -53,7 +57,7 @@ This page gathers info on all store accounts and 3d party services used in the s
 
 ## GDPR Module: Customer Experience
 
-The first thing your store customers will come across with will be a cookie pop-up if it's enabled in the GDPR module settings. The addon settings allow disabling the cookie pop-up at all as well or showing it only for customers from particular countries only. 
+The first thing your store customers will come across with will be a cookie pop-up if it's [enabled in the GDPR module settings](https://kb.x-cart.com/general_setup/gdpr.html#installing-and-configuring-gdpr-module "Getting compliant with EU General Data Protection Regulation (GDPR)"). The addon settings allow disabling the cookie pop-up at all as well or showing it only for customers from particular countries only. 
 
 ![cookie-popup.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/cookie-popup.png)
 
@@ -61,7 +65,7 @@ If preferred a store admin can change the cookie pop-up content using the {% lin
 
 For this purpose it will be necessary to:
   *  Open the storefront while logged in as a store admin (make sure you are opening the storefront from a new IP to see the cookie pop-up)
-  *  Hit the _Gear_ icon the bottom left corner and activate **Labels editor** (make sure the _Highlight labels_ option is switched to ON). 
+  *  Hit the _Gear_ icon in the bottom left corner and activate **Labels editor** (make sure the _Highlight labels_ option is switched to ON). 
      You'll see the pop-up text highligheted.
      
      ![labels-editor.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/labels-editor.png)
