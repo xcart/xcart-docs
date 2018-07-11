@@ -64,7 +64,7 @@ The first thing your store customers will come across with will be a cookie pop-
 If preferred a store admin can change the cookie pop-up content using the {% link "Webmaster Mode" ref_14EyD6iT %}.
 
 For this purpose it will be necessary to:
-  *  Open the storefront while logged in as a store admin (make sure you are opening the storefront from a new IP to see the cookie pop-up)
+  *  Open the storefront while logged in as a store admin
   *  Hit the _Gear_ icon in the bottom left corner and activate **Labels editor** (make sure the _Highlight labels_ option is switched to ON). 
      You'll see the pop-up text highlighted.
      
@@ -86,7 +86,7 @@ Registered customers will need to tick the checkbox only once and anonymous user
   <div class="column" markdown="span"><i>Contact us page</i>![consent-contact-us.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/consent-contact-us.png)</div>
 </div>
 
-The text of the consent checkboxes can also be editer in the Webmaster mode the same way as described to the cookie pop-up above.
+The text of the consent checkboxes can also be editer in the Webmaster mode the same way as described above for the cookie pop-up.
 
 Also there is a link in customers’ area that allows deleting customers profiles. Profile deletion removes the data stored in the profile and communication with the store owner and sellers. 
 
