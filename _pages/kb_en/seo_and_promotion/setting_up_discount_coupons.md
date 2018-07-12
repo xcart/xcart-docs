@@ -32,23 +32,17 @@ If an invalid coupon code is entered (for example, if the coupon code is misspel
 ![xc5_coupons_invalidcoupon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_invalidcoupon.png)
 
 
-
-
-
 To create a coupon:
 
-1.  In your store's Admin area, go to the Coupons section (**Promotions** > **Coupons**):
-    ![]({{site.baseurl}}/attachments/6389790/8719429.png)
-    
-2.  Select to create a new coupon by clicking the **New discount coupon** button:
-    ![]({{site.baseurl}}/attachments/6389790/8719430.png)
+1.  In your store's Admin area, go to the Coupons section (**Promotions** > **Coupons**) and select to create a new coupon by clicking the **New discount coupon** button:
+    ![xc5_coupons_addcoupon1.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_addcoupon1.png)
     
     A page for coupon creation opens:
-    ![]({{site.baseurl}}/attachments/6389790/8719431.png)
+    ![xc5_coupons_addcoupon2.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_addcoupon2.png)
 
-3.  Specify the details of your discount coupon. 
+2.  Specify the details of your discount coupon. 
 
-    For example, we want to create a coupon to let our customers use the code **HAPPY10** to get a $10 discount on items from the Apparel category if the order subtotal amount is over $100\. The coupon should be valid from Oct 9, 2015 through Oct 13, 2015\. We want to limit the use of this coupon to no more than once and we want to forbid using this coupon in combination with any other coupons. In this case we should specify the coupon details as follows:
+    For example, we want to create a coupon to let our customers use the code **HAPPY10** to get a $10 discount on items from the Apparel category if the order subtotal amount is over $100\. The coupon should be valid from Oct 9, 2018 through Oct 13, 2018. We want to limit the use of this coupon to no more than once and we want to forbid using this coupon in combination with any other coupons. In this case we should specify the coupon details as follows:
     ![]({{site.baseurl}}/attachments/6389790/8719432.png)
 
 4.  Click the **Create** button at the bottom of the page. 
