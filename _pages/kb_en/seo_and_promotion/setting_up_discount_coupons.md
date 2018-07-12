@@ -58,17 +58,17 @@ To create a coupon:
     * **Product classes** - Product class(es) to which the coupon should be applied. 
     * **Memberships** - Membership level(s) allowed to use the coupon.
     
-    For example, we want to create a coupon to let our customers use the code **HAPPY10** to get a $10 discount on items from the Apparel category if the order subtotal amount is over $100\. The coupon should be valid from Oct 9, 2018 through Oct 13, 2018. We want to limit the use of this coupon to no more than once and we want to forbid using this coupon in combination with any other coupons. In this case we should specify the coupon details as follows:
-    ![]({{site.baseurl}}/attachments/6389790/8719432.png)
+    ![xc5_coupons_addcoupon3.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_addcoupon3.png)
 
-4.  Click the **Create** button at the bottom of the page. 
+3.  Click the **Create** button at the bottom of the page. 
     ![]({{site.baseurl}}/attachments/6389790/8719434.png)
 
 The coupon will be created and added to the list in the Coupons section:
 
 ![]({{site.baseurl}}/attachments/6389790/8719435.png)
 
-Now your customer should be able to enter the code **HAPPY10** at checkout and get a $10 discount on an eligible order. Note that only one customer will be able to do so as this is a single use coupon.
+Now your customer should be able to enter the code **HAPPY10** at checkout and get a 10% discount on an eligible order. 
+
 
 _Related pages:_
 
