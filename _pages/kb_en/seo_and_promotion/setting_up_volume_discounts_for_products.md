@@ -13,16 +13,13 @@ order: 140
 X-Cart 5 allows you to configure volume discounts. A volume discount may be expressed as a fixed amount or a percentage off the order subtotal amount. Unlike {% link "coupon discounts" ref_SGI1FqdC %}, volume discounts do not require your customers to enter any kind of secret code: a volume discount is applied automatically to any order that meets certain requirements. You define what these requirements should be. For example, you may create a discount that will be applied to orders with a subtotal amount equal to or greater than a certain amount, or will be applied to orders placed by users of a specific membership level.
 
 When a volume discount is applied, the cart and checkout pages will show the discount amount on a separate line:
-
-![]({{site.baseurl}}/attachments/6389792/8719445.png)
+![xc5_volumedisounts_discount_in_customer.png]({{site.baseurl}}/attachments/ref_xEadpu9F/xc5_volumedisounts_discount_in_customer.png)
 
 For purchases with a subtotal amount below the level needed to get a discount, a message like the following will be displayed:
-
-![]({{site.baseurl}}/attachments/6389792/8719446.png)
+![xc5_volumedisounts_get_discount_msg.png]({{site.baseurl}}/attachments/ref_xEadpu9F/xc5_volumedisounts_get_discount_msg.png)
 
 The volume discounts feature in X-Cart 5 is enabled by the module **Volume Discounts**:
 ![mv_volumediscounts_addon.png]({{site.baseurl}}/attachments/ref_xEadpu9F/mv_volumediscounts_addon.png)
-
 
 To use the volume discounts feature, make sure the module is installed and enabled at your store. If the module is not installed, you can install it from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
