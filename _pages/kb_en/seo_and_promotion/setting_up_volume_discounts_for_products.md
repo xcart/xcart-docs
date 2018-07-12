@@ -21,8 +21,8 @@ For purchases with a subtotal amount below the level needed to get a discount, a
 ![]({{site.baseurl}}/attachments/6389792/8719446.png)
 
 The volume discounts feature in X-Cart 5 is enabled by the module **Volume Discounts**:
+![mv_volumediscounts_addon.png]({{site.baseurl}}/attachments/ref_xEadpu9F/mv_volumediscounts_addon.png)
 
-![]({{site.baseurl}}/attachments/6389792/8719438.png)
 
 To use the volume discounts feature, make sure the module is installed and enabled at your store. If the module is not installed, you can install it from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
