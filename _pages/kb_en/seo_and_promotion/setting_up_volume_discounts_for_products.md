@@ -23,17 +23,21 @@ The volume discounts feature in X-Cart 5 is enabled by the module **Volume Disco
 
 To use the volume discounts feature, make sure the module is installed and enabled at your store. If the module is not installed, you can install it from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
-To configure volume discounts:
+To configure a volume discount:
 
 1.  In your store's Admin area, go to the Volume discounts section (**Promotions** > **Volume discounts**).
     ![]({{site.baseurl}}/attachments/6389792/8719439.png)
+    
 2.  Click the **Add discount** button.
     ![]({{site.baseurl}}/attachments/6389792/8719440.png)
+    
     A section for adding a new discount will be displayed:
     ![]({{site.baseurl}}/attachments/6389792/8719441.png)
+    
 3.  Specify the parameters of your discount in the fields of the section that has appeared. 
     For example, we want to create a discount to let **all our customers** (regardless of their membership level) to get a **10% discount** on orders wth a total amount **equal to or** **greater than $100**. In this case we need to configure the discount parameters as follows:
     ![]({{site.baseurl}}/attachments/6389792/8719442.png)
+    
 4.  Once you are done, click the **Save changes **button.
     ![]({{site.baseurl}}/attachments/6389792/8719443.png)
 
