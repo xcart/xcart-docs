@@ -11,6 +11,7 @@ In a Multivendor X-Cart store with the addon {% link "Volume Discounts" ref_3Jbp
 
 ## Volume discounts: Vendor experience
 Vendors can create and manage volume discounts via the  section Volume discounts (**Discounts** > **Volume discounts**) of the Vendor area:
+![mv_volumediscounts_in_vendor.png]({{site.baseurl}}/attachments/ref_117NpIm9/mv_volumediscounts_in_vendor.png)
 
 Volume discounts created by a vendor are applied only to the products of that particular vendor.
 
