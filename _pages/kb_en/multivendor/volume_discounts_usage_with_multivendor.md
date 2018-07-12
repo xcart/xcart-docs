@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-07-10 14:09 +0400'
 identifier: ref_117NpIm9
 title: 'Volume Discounts: Usage with Multivendor'
-order: 100
+order: 1000
 published: true
 ---
 In a Multivendor X-Cart store with the addon {% link "Volume Discounts" ref_3JbpQrPF %} installed and enabled, both the store administrator and vendors can create and manage volume discounts.
