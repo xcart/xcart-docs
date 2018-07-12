@@ -50,4 +50,5 @@ If necessary, you can add more than one discounts for the different subtotal ran
 
 _Related pages:_
 
-*   {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %} (video)
+   * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
+   * {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %} (video)
