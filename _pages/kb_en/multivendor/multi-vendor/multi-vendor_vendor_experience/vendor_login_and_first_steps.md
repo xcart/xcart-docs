@@ -56,9 +56,11 @@ Now the vendor can start selling. The steps below will get them started:
 
 _Related pages:_
 
-*   {% link "Vendor registration" ref_SkW62BgH %}
-*   {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}
-*   {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
-*   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
-*   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
-*   {% link "Vendor import/export" ref_pa3oqbXz %}
+   * {% link "Vendor registration" ref_SkW62BgH %}
+   * {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}
+   * {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
+   * {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
+   * {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
+   * {% link "Vendor import/export" ref_pa3oqbXz %}
+   * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
+   * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %} 
