@@ -16,13 +16,24 @@ The coupons feature in X-Cart 5 is enabled by the module **Coupons**:
 
 To use the coupons feature, make sure the module is installed and enabled at your store. If the module is not installed, you can install it from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
-When the **Coupons** module is enabled, a link **Have a discount coupon?** is provided at checkout. Buyers can use this link to expand a section where they can enter their coupon code:
+When the **Coupons** module is enabled, a link **Have a discount coupon?** is provided at checkout. 
+![xc5_coupons_haveacoupon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_haveacoupon.png)
 
-![xc5_coupons_happy10.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_happy10.png)
+Buyers can use this link to expand a section where they can enter their coupon code:
+![xc5_coupons_haveacoupon1.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_haveacoupon1.png)
 
-The result of applying a coupon looks similar to the following:
+Provided that a valid coupon code is being used, the coupon will be applied to the order:
+![xc5_coupons_couponapplied.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_couponapplied.png)
 
-![]({{site.baseurl}}/attachments/6389790/8719437.png)
+The result will be reflected at checkout:
+![xc5_coupons_couponapplied1.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_couponapplied1.png)
+
+If an invalid coupon code is entered (for example, if the coupon code is misspelled, expired or otherwise does not meet the coupon application conditions), the user will be informed of the problem: For example, here's the result of using an expired coupon code: 
+![xc5_coupons_invalidcoupon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_invalidcoupon.png)
+
+
+
+
 
 To create a coupon:
 
