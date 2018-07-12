@@ -26,13 +26,19 @@ To use the volume discounts feature, make sure the module is installed and enabl
 To configure a volume discount:
 
 1.  In your store's Admin area, go to the Volume discounts section (**Promotions** > **Volume discounts**) and click **Add discount**:
-    ![]({{site.baseurl}}/attachments/6389792/8719440.png)
+    ![xc5_volumedisounts_add_discount.png]({{site.baseurl}}/attachments/ref_xEadpu9F/xc5_volumedisounts_add_discount.png)
     
     A section for adding a new discount will be displayed:
-    ![]({{site.baseurl}}/attachments/6389792/8719441.png)
+    ![xc5_volumedisounts_add_discount1.png]({{site.baseurl}}/attachments/ref_xEadpu9F/xc5_volumedisounts_add_discount1.png)
     
-2.  Specify the parameters of your discount in the fields of the section that has appeared. 
-    For example, we want to create a discount to let **all our customers** (regardless of their membership level) to get a **10% discount** on orders wth a total amount **equal to or** **greater than $100**. In this case we need to configure the discount parameters as follows:
+2.  Specify the parameters of the volume discount you require.
+    
+    * **Subtotal** - Order subtotal amount starting from which the discount should be available. For example, if you set this to "100" (USD), the discount will be available for orders with a subtotal amount equal to or more than $100.
+    * **Discount** - Discount amount. May be set as a fixed amount or as a percentage.
+    * **Membership** - Membership level to which the discount should be available.
+    * **Vendor** - This field is available only in {% link "X-Cart Multivendor" ref_4ahg5FLK %}.
+    
+    For example, to configure a 10% discount for all customers (regardless of their membership level) on all orders with a subtotal of $100 or more, we would need need to set the discount parameters as follows:
     ![]({{site.baseurl}}/attachments/6389792/8719442.png)
     
 3.  Once you are done, click the **Save changes** button.
