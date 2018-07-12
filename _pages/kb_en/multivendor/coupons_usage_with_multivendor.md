@@ -18,7 +18,7 @@ Vendors can create and manage coupons via the Coupons section (**Discounts** > *
 
 Coupons created by a vendor are applied only to the products of that particular vendor.
 
-Vendors can view and manage only the coupons that they own. In their personal Vendor area, they do not have access to any coupons owned by other vendors or the store administrator.
+Vendors can view and manage only the coupons that they own. In their personal Vendor area, they do not have access to any coupons owned by the other vendors or the store administrator.
 
 ## Coupons: Multivendor store administrator experience
 The store administrator can view and manage coupons via the Coupons section (**Discounts** > **Coupons**) of the Admin area.
