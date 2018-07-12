@@ -17,6 +17,7 @@ Volume discounts created by a vendor are applied only to the products of that pa
 Vendors can view and manage only the volume discounts that they own. In their personal Vendor area, they do not have access to volume discounts owned by other vendors. As of the time of writing this article, vendors also do not have the ability to see in their Vendor area volume discounts created by the store administrator for the store in general (the discounts configured to apply to "Any profile"; if configured, such discounts will be applied to the products of any vendor in the store, but the vendors will not see them as discounts in the Volume discounts section).
 
 ## Volume discounts: Multivendor store administrator experience
-The store administrator can view and manage coupons via the Coupons section (**Discounts** > **Coupons**) of the Admin area.
+The store administrator can view and manage coupons via the Volume discounts section (**Discounts** > **Volume discounts**) of the Admin area.
+
 The administrator can view, edit and delete volume discounts created by the vendors
 (Any coupons and discounts created by the administrator are not visible to vendors and can be applied only to the products owned by the administrator).
