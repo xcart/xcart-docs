@@ -25,3 +25,5 @@ If the administrator themselves is also a vendor, they can create and manage vol
 
 If necessary, the administrator can create volume discounts on behalf of vendors. To create a volume discount for a vendor, the administrator needs to specify this vendor as the owner of the discount using the Vendor field in the volume discount details:
 
+If the administrator wants to set a volume discount not just for a single vendor, but for the entire store - so the discount will apply to all the products regardless of the vendor, they must set the Vendor field to "Any profile".
+
