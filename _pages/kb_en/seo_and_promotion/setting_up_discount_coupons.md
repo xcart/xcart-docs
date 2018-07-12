@@ -48,10 +48,10 @@ To create a coupon:
     * **Enabled** - Whether the coupon is active and can be used by customers.
     * **Discount type** - Type of discount provided by the coupon. Can be expressed as a fixed amount in the store currency ("$ off"), a percentage ("Percent") or a discount for the amount of the order shipping cost ("Free shipping").
     * **Discount amount** - The amount a buyer can get off their order. This field is only available with **Discount type** set to "$ off" or "Percent". 
-    * **Active from** - 
-    * **Active till**
-    * **Subtotal range (begin)**
-    * **Subtotal range (end)**
+    * **Active from** - Coupon validity period start date.
+    * **Active till** - Coupon expiration date.
+    * **Subtotal range (begin)** - Minimum order subtotal amount (The coupon will not be applied if the subtotal is less than the amount specified here).
+    * **Subtotal range (end)** - Maximum order subtotal amount (The coupon will not be applied if the subtotal is more than the amount specified here).
     * **Limit the number of uses** - Leave this option disabled to allow unlimited use of the coupon. Enable to be able to specify the absolute maximum number of times this coupon can be used (**The maximum number of uses**) and/or the maximum number of times this coupon can be used per user (**The maximum number of uses per user**).
     * **Coupon cannot be combined with other coupons** - Whether the coupon can be combined with other coupons.
     * **Categories** - Category/-ies to which the coupon should be applied.
