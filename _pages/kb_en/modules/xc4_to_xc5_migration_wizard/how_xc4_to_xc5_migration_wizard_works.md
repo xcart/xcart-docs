@@ -79,7 +79,9 @@ published: true
       <td colspan="1" class="confluenceTd"><span>Users</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>As is. For older X-Cart 4 versions where user passwords are stored in the database in encrypted form the passwords are migrated. (A valid Blowfish key needs to be specified at the step "2. Connect" of the migration wizard). Not so for newer X-Cart 4 versions in which password hashing is used. Since hashed passwords cannot be decrypted, there is no way for passwords to be migrated from an X-Cart 4 store to X-Cart 5. After the migration, the users will have to use the "Forgot password?" feature in the X-Cart 5 store to regain access to their accounts.)&nbsp;</p>
+        <p>As is. </p>
+        <p>In X-Cart Classic 4.0.x-4.4.x user passwords are stored in the database in encrypted form. Hence all user passwords are migrated safely providing that a valid Blowfish key is specified at the ["Step 2 - Connect" of the migration wizard](https://kb.x-cart.com/modules/xc4_to_xc5_migration_wizard/using_the_xc4_to_xc5_migration_wizard.html#step-2---connect "How XC4 to XC5 Migration wizard works"). </p>
+        <p> Starting from X-Cart Classic 4.5.x password hashing is used. Since hashed passwords cannot be decrypted, there is no way for passwords to be migrated from an X-Cart 4.5.x+ store to X-Cart 5. After the migration, the users will have to use the "Forgot password?" feature in the X-Cart 5 store to regain access to their accounts.</p>
       </td>
     </tr>
     <tr class="top aligned">   
