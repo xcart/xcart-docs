@@ -31,8 +31,11 @@ Here's a brief overview of the addons typically used to build a Multivendor stor
      ![om_module_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/om_module_installed.png)
      
    * **Coupons**: This addon is also not just for Multivendor, but it needs to be mentioned here because in Multivendor it enables vendors to create and manage discount coupons. More information on this addon is available in the section {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}.   
+     ![mvcoupons_addon.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mvcoupons_addon.png)
+
 
    * **Volume Discounts**: Another addon not just for Multivendor. Enables vendors to create and manage volume discounts. More information on this addon is available in the section {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}.
+     ![mv_volumediscounts_addon.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mv_volumediscounts_addon.png)
    
    * **AvaTax Sales Tax Automation**: Another addon intended not exclusively for Multivendor, but fits Multivendor-enabled marketplaces just as well as single-seller X-Cart stores. This addon is intended for tax calculation, and it provides the fastest, easiest and most accurate way to calculate sales tax, manage tax exemptions and file returns via Avalara's service. For more information on this addon, see {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %} 
      ![xc5_mv_avatax_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/xc5_mv_avatax_installed.png)
