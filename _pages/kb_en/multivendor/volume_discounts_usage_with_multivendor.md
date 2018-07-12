@@ -32,3 +32,7 @@ If necessary, the administrator can create volume discounts on behalf of vendors
 If the administrator wants to set a volume discount not just for a single vendor, but for the entire store - so the discount will apply to all the products regardless of the vendor, they must set the Vendor field to "Any profile".
 ![mv_volumediscounts_anyprofile.png]({{site.baseurl}}/attachments/ref_117NpIm9/mv_volumediscounts_anyprofile.png)
 
+_Related pages:_
+
+   * {% link "Volume Discounts" ref_3JbpQrPF %}
+   * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
