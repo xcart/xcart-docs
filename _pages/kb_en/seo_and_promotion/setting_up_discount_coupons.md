@@ -35,7 +35,7 @@ If an invalid coupon code is entered (for example, if the coupon code is misspel
 To create a coupon:
 
 1.  In your store's Admin area, go to the Coupons section (**Promotions** > **Coupons**) and select to create a new coupon by clicking the **New discount coupon** button:
-    ![xc5_coupons_addcoupon1.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_addcoupon1.png)
+    ![xc5_coupons_addcoupon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_addcoupon.png)
     
     A page for coupon creation opens:
     ![xc5_coupons_addcoupon2.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_addcoupon2.png)
