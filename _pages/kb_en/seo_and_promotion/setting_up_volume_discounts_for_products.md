@@ -39,18 +39,21 @@ To configure a volume discount:
     * **Vendor** - This field is available only in {% link "X-Cart Multivendor" ref_4ahg5FLK %}.
     
     For example, to configure a 10% discount for all customers (regardless of their membership level) on all orders with a subtotal of $100 or more, we would need need to set the discount parameters as follows:
-    ![]({{site.baseurl}}/attachments/6389792/8719442.png)
+    ![xc5_volumedisounts_add_discount2.png]({{site.baseurl}}/attachments/ref_xEadpu9F/xc5_volumedisounts_add_discount2.png)
     
 3.  Once you are done, click the **Save changes** button.
-    ![]({{site.baseurl}}/attachments/6389792/8719443.png)
+    ![xc5_volumedisounts_add_discount3.png]({{site.baseurl}}/attachments/ref_xEadpu9F/xc5_volumedisounts_add_discount3.png)
 
 The discount will be added:
+![xc5_volumedisounts_add_discount4.png]({{site.baseurl}}/attachments/ref_xEadpu9F/xc5_volumedisounts_add_discount4.png)
 
-![]({{site.baseurl}}/attachments/6389792/8719450.png)
+If necessary, you can add more than one discounts for the different subtotal ranges and membership levels. For example, with a setup like in the screenshot below:
+   * a $3 discount will be provided on orders with a subtotal amount of $50 or more (available to all customers);
+   * a 10% discount will be provided on orders with a subtotal amount of $100 or more (available to all customers);
+   *  a 20% discount will be provided on orders with a subtotal amount of $500 or more (available only to customers with the membership level "Wholesale").
+![xc5_volumedisounts_add_discount5.png]({{site.baseurl}}/attachments/ref_xEadpu9F/xc5_volumedisounts_add_discount5.png)
 
-If necessary, you can add more than one discounts for the different subtotal ranges and membership levels. For example, with a setup like in the following screenshot all our customers will get a 10% discount off orders with a subtotal amount of $100 or more, and a 20% discount off orders with a subtotal amount of $200 or more; customers of the membership level "Wholesaler" will get 30% off any order of $200 or more.
-
-![]({{site.baseurl}}/attachments/6389792/8719452.png)
+Note that volume discounts do not sum up: if a customer's order meets more than one volume discount conditions, they will still get only one discount (the largest of the ones available to them).
 
 _Related pages:_
 
