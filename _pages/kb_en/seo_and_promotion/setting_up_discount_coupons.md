@@ -42,21 +42,21 @@ To create a coupon:
 
 2.  Specify the details of your discount coupon. 
 
-    * **Vendor**
-    * **Code**
-    * **Comment**
-    * **Enabled**
-    * **Discount type**
-    * **Discount amount**
-    * **Active from**
+    * **Vendor** - 
+    * **Code** - Code that a buyer will need to enter at checkout to get the discount.
+    * **Comment** - Comment to help you identify this coupon.
+    * **Enabled** - Whether the coupon is active and can be used by customers.
+    * **Discount type** - Type of discount provided by the coupon. Can be expressed as a fixed amount in the store currency ("$ off"), a percentage ("Percent") or a discount for the amount of the order shipping cost ("Free shipping").
+    * **Discount amount** - The amount a buyer can get off their order. This field is only available with **Discount type** set to "$ off" or "Percent". 
+    * **Active from** - 
     * **Active till**
     * **Subtotal range (begin)**
     * **Subtotal range (end)**
     * **Limit the number of uses** - Leave this option disabled to allow unlimited use of the coupon. Enable to be able to specify the absolute maximum number of times this coupon can be used (**The maximum number of uses**) and/or the maximum number of times this coupon can be used per user (**The maximum number of uses per user**).
-    * **Coupon cannot be combined with other coupons** - Specify whether the coupon can be combined with other coupons.
-    * **Categories** - Specify the category/-ies to which the coupon should be applied.
-    * **Product classes** - Specify the product class(es) to which the coupon should be applied. 
-    * **Memberships** - Specify the membership level(s) allowed to use the coupon.
+    * **Coupon cannot be combined with other coupons** - Whether the coupon can be combined with other coupons.
+    * **Categories** - Category/-ies to which the coupon should be applied.
+    * **Product classes** - Product class(es) to which the coupon should be applied. 
+    * **Memberships** - Membership level(s) allowed to use the coupon.
     
     For example, we want to create a coupon to let our customers use the code **HAPPY10** to get a $10 discount on items from the Apparel category if the order subtotal amount is over $100\. The coupon should be valid from Oct 9, 2018 through Oct 13, 2018. We want to limit the use of this coupon to no more than once and we want to forbid using this coupon in combination with any other coupons. In this case we should specify the coupon details as follows:
     ![]({{site.baseurl}}/attachments/6389790/8719432.png)
