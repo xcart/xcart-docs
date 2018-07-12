@@ -46,7 +46,7 @@ Click on it to launch the migation process:
    * Site URL: The URL of your X-Cart 4 store.
    * Site path: The site path of your X-Cart 4 store.
     
-   Click **Save and continue**:
+   Click **Save and continue**.
 
 ##  Step 3 - Check
     
@@ -69,7 +69,7 @@ Click on it to launch the migation process:
    If you wish to just try the migration in demo mode this time, select the **Demo migration** option at the top of the page:
    ![xc5_mw_step4_3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_3.png)
     
-   Click **Save and continue**
+   Click **Save and continue**.
     
    {% note info %}
    More info on Demo migration is available in the section {% link "How XC4 to XC5 Migration wizard works: Demo migration" ref_37NAeGlf#demo-migration %} of this manual.
@@ -80,7 +80,7 @@ Click on it to launch the migation process:
    At the fifth step of the wizard, X-Cart will provide you with a list of X-Cart 5 modules that should be enabled if the wizard detects that your X-Cart 4 installation has features that are lacking in the default X-Cart 5 distribution pack but can be added by enabling certain X-Cart 5 modules:
    ![xc5_mw_step5_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_1.png)
 
-   Click **Enable and continue**:
+   Click **Enable and continue**.
 
    What happens next depends on whether your X-Cart 5 store is a trial installation or is using some kind of license (free or non-free).
     
@@ -105,7 +105,7 @@ Click on it to launch the migation process:
        ![xc5_migration_wizard_enable6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable6.png)
        {% endnote %}
        
-   *  On a LICENSED installation activated, the scenario of the wizard step "5. Enable" will be a bit different after the **Enable and continue** button has been clicked. 
+   *  On a LICENSED installation, the scenario of the wizard "Step 5 - Enable" will be a bit different after the **Enable and continue** button has been clicked. 
       
       If, after downloading the modules recommended for activation in your X-Cart 5 store, the module installer detects that these modules may not be used with your type of X-Cart license, you will get a license warning as follows:
       
