@@ -47,13 +47,11 @@ Click on it to launch the migation process:
    * Site path: The site path of your X-Cart 4 store.
     
    Click **Save and continue**:
-   ![xc5_mw_step2_5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step2_5.png)
-
-   That will take you to the next step of the wizard - "3. Check".
 
 ##  Step 3 - Check
     
    At the third step of the wizard, your X-Cart 5 store tries to connect to the specified X-Cart 4 database using the connection details provided at earlier. 
+   
    Provided that the connection details have been specified correctly you should be able to see a summary of information that X-Cart 5 was able to obtain regarding the data that can be migrated from your X-Cart 4 store:
     ![xc5_mw_step3_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step3_1.png)
      
@@ -63,11 +61,10 @@ Click on it to launch the migation process:
     
 ##  Step 4 - Select
     
-   At the fourth step of the wizard, you will see a list of data types that can be migrated from your X-Cart 4 store to X-Cart 5 ("What to transfer"), with check boxes:
-   ![xc5_mw_step4_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_1.png)
-
+   At the fourth step of the wizard, you will see a list of data types that can be migrated from your X-Cart 4 store to X-Cart 5 ("What to transfer"), with check boxes.
+   
    Use the check boxes to select the data types that you want to be migrated to X-Cart 5, then click **Save and continue**:
-   ![xc5_mw_step4_2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_2.png)
+   ![xc5_mw_step4_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_1.png)
 
    If you wish to just try the migration in demo mode this time, select the **Demo migration** option at the top of the page:
    ![xc5_mw_step4_3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_3.png)
@@ -80,14 +77,14 @@ Click on it to launch the migation process:
     
 ##  Step 5 - Enable
     
-   At the fifth step of the wizard, X-Cart will provide you with a list of X-Cart 5 modules that should be enabled if the module detects that your X-Cart 4 installation has features that are lacking in X-Cart 5 default distribution pack, but can be implemented by enabling certain X-Cart 5 add-on modules:
+   At the fifth step of the wizard, X-Cart will provide you with a list of X-Cart 5 modules that should be enabled if the wizard detects that your X-Cart 4 installation has features that are lacking in the default X-Cart 5 distribution pack but can be added by enabling certain X-Cart 5 modules:
    ![xc5_mw_step5_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_1.png)
 
    Click **Enable and continue**:
 
    What happens next depends on whether your X-Cart 5 store is a trial installation or is using some kind of license (free or non-free).
     
-   -  On a trial installation, the module installer will activate all the required modules:
+   *  On a TRIAL installation, the module installer will activate all the required modules:
       ![xc5_mw_step5_3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_3.png)
        
       If any paid modules are installed and activated at this step you will get a license warning with a list of affected modules after the store has been deployed:
@@ -100,8 +97,19 @@ Click on it to launch the migation process:
     
        You may choose to resolve the licensing problem right away, or you may close the popup window with the warning and continue with the migration process. However, please be aware that the license warning will continue to appear in your X-Cart 5 store (both the store's back end and the storefront) until you resolve the problem with your license or remove the modules. 
        
-   -  If your X-Cart 5 store has some kind of license activated, after the **Enable and continue** button has been clicked, the scenario of the wizard step "5. Enable" will be a bit different. If, after downloading the modules recommended for activation in your X-Cart 5 store, the module installer detects that these modules may not be used with your type of X-Cart license, you will get a license warning like the following:
-       ![xc5_migration_wizard_license_type.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_license_type.png)
+       {% note info %}
+       On our demo, we used a trial installation, so we got the first type of warning and chose to activate a license key for X-Cart Ultimate. After activating the key, we got a message at the top of the screen showing that the key has been activated successfully:
+       ![xc5_migration_wizard_enable5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable5.png)
+        
+       This means that our licensing problem has been resolved, and we need to go back to our migration wizard to continue with the migration process:
+       ![xc5_migration_wizard_enable6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable6.png)
+       {% endnote %}
+       
+   *  On a LICENSED installation activated, the scenario of the wizard step "5. Enable" will be a bit different after the **Enable and continue** button has been clicked. 
+      
+      If, after downloading the modules recommended for activation in your X-Cart 5 store, the module installer detects that these modules may not be used with your type of X-Cart license, you will get a license warning as follows:
+      
+      ![xc5_migration_wizard_license_type.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_license_type.png)
        
        In this case, you will be able to resolve the problem using one of the following methods:
        
@@ -112,11 +120,6 @@ Click on it to launch the migation process:
        The modules will not be installed, and you will not be able to continue with the migration process until you resolve the problem with your license or remove the modules. 
        {% endnote %}
       
-   On our demo, we used a trial installation, so we got the first type of warning and chose to activate a license key for X-Cart Ultimate. After activating the key, we got a message at the top of the screen showing that the key has been activated successfully:
-    ![xc5_migration_wizard_enable5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable5.png)
-    
-   This means that our licensing problem has been resolved, and we need to go back to our migration wizard to continue with the migration process:
-    ![xc5_migration_wizard_enable6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable6.png)
    
 ##  Step 6 - Transfer
     
@@ -140,9 +143,6 @@ Click on it to launch the migation process:
    To start the migration, click **Start migration**:
    ![xc5_mw_step5_7.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_7.png)
  
-   The migration process begins:
-   ![xc5_mw_step5_71.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_71.png)
-
    The migration process may take a while to complete and only continues while the page is open. Hence be sure to keep the page open or, if you have to close it for a while, be sure to re-open it to allow the migration module to finish its work.
    ![xc5_mw_step5_8.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_8.png)
 
@@ -169,9 +169,13 @@ Click on it to launch the migation process:
 ## Step 7 - Complete
    
    This is the final step of the wizard. Your data has been successfully migrated.
-    ![xc5_mw_step6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step6.png)
-
-
+   ![xc5_mw_step6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step6.png)
+    
+   {% note info %}
+   Please keep in mind that starting from X-Cart Classic v4.5.x user passwords are not stored in the database. Hence the passwords can't be transferred savefy during the migration process and all users will have to use the **Forgot password?** option on the next login to the X-Cart 5 store in order to get in. 
+   
+   We'd recommend to add a special banner to the X-Cart 5 **Sign in** pop-up prompting the users to restore the password because of migration. 
+   {% endnote %}
 
 In some cases things may not go as smoothly as one would hope during the data migration procedure, e.g. PHP execution may be interrupted. Problems like that tend to be related to the time limit settings of the web server, especially if working on a server with limited resources or on a slow internet connection. If you experience errors causing mid-process interruption of the migration, be sure to increase your server time limit (See {% link "Setting the time limit of your server" ref_xqnpttd4 %}) or decrease the **migration_chunk_length** value in etc/config.local.php (See [How XC4 to XC5 Migration wizard works: Migration process](http://kb.x-cart.com/en/modules/xc4_to_xc5_migration_wizard/how_xc4_to_xc5_migration_wizard_works.html#migration-process "Using the module "XC4 to XC5 Migration wizard"")).
 
