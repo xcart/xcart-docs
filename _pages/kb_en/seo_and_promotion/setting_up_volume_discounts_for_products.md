@@ -36,7 +36,7 @@ To configure a volume discount:
     * **Subtotal** - Order subtotal amount starting from which the discount should be available. For example, if you set this to "100" (USD), the discount will be available for orders with a subtotal amount equal to or more than $100.
     * **Discount** - Discount amount. May be set as a fixed amount or as a percentage.
     * **Membership** - Membership level to which the discount should be available.
-    * **Vendor** - This field is available only in {% link "X-Cart Multivendor" ref_4ahg5FLK %}.
+    * **Vendor** - This field is available only in {% link "X-Cart Multivendor" ref_4ahg5FLK %}. For information on using this field, see {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}.
     
     For example, to configure a 10% discount for all customers (regardless of their membership level) on all orders with a subtotal of $100 or more, we would need need to set the discount parameters as follows:
     ![xc5_volumedisounts_add_discount2.png]({{site.baseurl}}/attachments/ref_xEadpu9F/xc5_volumedisounts_add_discount2.png)
