@@ -11,7 +11,10 @@ order: 130
 ---
 X-Cart 5 allows you to create coupons for your customers. A coupon is a secret code which a customer can use to get a discount on their order (typically, a fixed amount or a percentage off, or free shipping). It is possible to limit the use of a coupon to a specific order subtotal amount, time period, product category, product class or user membership level. If necessary, it is also possible to set the number of times that a coupon can be used.
 
-The coupons feature in X-Cart 5 is enabled by the module **Coupons**:![]({{site.baseurl}}/attachments/6389790/8719428.png)To use the coupons feature, make sure the module is installed and enabled at your store. If the module is not installed, you can install it from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+The coupons feature in X-Cart 5 is enabled by the module **Coupons**:
+![mvcoupons_addon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/mvcoupons_addon.png)
+
+To use the coupons feature, make sure the module is installed and enabled at your store. If the module is not installed, you can install it from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
 When the **Coupons** module is enabled, a link **Have a discount coupon?** is provided at checkout. Buyers can use this link to expand a section where they can enter their coupon code:
 
