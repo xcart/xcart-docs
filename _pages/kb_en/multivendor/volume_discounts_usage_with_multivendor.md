@@ -21,5 +21,7 @@ The store administrator can view and manage coupons via the Volume discounts sec
 
 The administrator can view, edit and delete volume discounts created by the vendors.
 
-If the administrator themselves is also a vendor, they can create and manage volume discounts for their own products. Volume discounts created by the administrator for their own (Administrator) profile are not visible to vendors and can be applied only to the products owned by the administrator. To create a volume discount for themselves, the administrator must specify that they themselves are the owner of the discount. This can be done using the Vendor field in the volume discount details:
+If the administrator themselves is also a vendor, they can create and manage volume discounts for their own products. Volume discounts created by the administrator for their own (Administrator) profile are not visible to vendors and can be applied only to the products owned by the administrator. To create a volume discount for their own profile, the administrator must specify that they themselves are the owner of the discount. This can be done using the Vendor field in the volume discount details.
+
+If necessary, the administrator can create volume discounts on behalf of vendors. To create a volume discount for a vendor, the administrator needs to specify this vendor as the owner of the discount using the Vendor field in the volume discount details:
 
