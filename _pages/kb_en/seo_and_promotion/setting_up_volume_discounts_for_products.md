@@ -50,10 +50,10 @@ The discount will be added:
 If necessary, you can add more than one discounts for the different subtotal ranges and membership levels. For example, with a setup like in the screenshot below:
    * a $3 discount will be provided on orders with a subtotal amount of $50 or more (available to all customers);
    * a 10% discount will be provided on orders with a subtotal amount of $100 or more (available to all customers);
-   *  a 20% discount will be provided on orders with a subtotal amount of $500 or more (available only to customers with the membership level "Wholesale").
+   *  a 20% discount will be provided on orders with a subtotal amount of $500 or more (available only to customers with the membership level "Wholesaler").
 ![xc5_volumedisounts_add_discount5.png]({{site.baseurl}}/attachments/ref_xEadpu9F/xc5_volumedisounts_add_discount5.png)
 
-Note that volume discounts do not sum up: if a customer's order meets more than one volume discount conditions, they will still get only one discount (the largest of the ones available to them).
+Note that volume discounts do not sum up: if a customer's order meets more than one volume discount conditions, they will still get only one discount (the largest of the ones available to them). For example, with volume discounts configured like in the screenshot above, a customer without a membership level who places an order for $100 or more will get the 10% off discount (but not the $3 discount).
 
 _Related pages:_
 
