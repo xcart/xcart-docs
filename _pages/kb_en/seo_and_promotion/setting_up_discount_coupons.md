@@ -64,8 +64,8 @@ To create a coupon:
     ![]({{site.baseurl}}/attachments/6389790/8719434.png)
 
 The coupon will be created and added to the list in the Coupons section:
+![xc5_coupons_addcoupon4.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_addcoupon4.png)
 
-![]({{site.baseurl}}/attachments/6389790/8719435.png)
 
 Now your customer should be able to enter the code **HAPPY10** at checkout and get a 10% discount on an eligible order. 
 
