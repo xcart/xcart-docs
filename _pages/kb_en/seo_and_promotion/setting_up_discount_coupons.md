@@ -42,6 +42,22 @@ To create a coupon:
 
 2.  Specify the details of your discount coupon. 
 
+    * **Vendor**
+    * **Code**
+    * **Comment**
+    * **Enabled**
+    * **Discount type**
+    * **Discount amount**
+    * **Active from**
+    * **Active till**
+    * **Subtotal range (begin)**
+    * **Subtotal range (end)**
+    * **Limit the number of uses** - Leave this option disabled to allow unlimited use of the coupon. Enable to be able to specify the absolute maximum number of times this coupon can be used (**The maximum number of uses**) and/or the maximum number of times this coupon can be used per user (**The maximum number of uses per user**).
+    * **Coupon cannot be combined with other coupons** - Specify whether the coupon can be combined with other coupons.
+    * **Categories** - Specify the category/-ies to which the coupon should be applied.
+    * **Product classes** - Specify the product class(es) to which the coupon should be applied. 
+    * **Memberships** - Specify the membership level(s) allowed to use the coupon.
+    
     For example, we want to create a coupon to let our customers use the code **HAPPY10** to get a $10 discount on items from the Apparel category if the order subtotal amount is over $100\. The coupon should be valid from Oct 9, 2018 through Oct 13, 2018. We want to limit the use of this coupon to no more than once and we want to forbid using this coupon in combination with any other coupons. In this case we should specify the coupon details as follows:
     ![]({{site.baseurl}}/attachments/6389790/8719432.png)
 
