@@ -42,10 +42,10 @@ To create a coupon:
 
 2.  Specify the details of your discount coupon. 
 
-    * **Vendor** - 
+    * **Vendor** - This field is available only in {% link "X-Cart Multivendor" ref_4ahg5FLK %}. For information on using this field, see {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}.
     * **Code** - Code that a buyer will need to enter at checkout to get the discount.
     * **Comment** - Comment to help you identify this coupon.
-    * **Enabled** - Whether the coupon is active and can be used by customers.
+    * **Enabled** - Whether the coupon is active and can be used by customers. Disable the option to deactivate the coupon.
     * **Discount type** - Type of discount provided by the coupon. Can be expressed as a fixed amount in the store currency ("$ off"), a percentage ("Percent") or a discount for the amount of the order shipping cost ("Free shipping").
     * **Discount amount** - The amount a buyer can get off their order. This field is only available with **Discount type** set to "$ off" or "Percent". 
     * **Active from** - Coupon validity period start date.
