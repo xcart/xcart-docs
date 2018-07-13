@@ -7,63 +7,49 @@ title: 'Free shipping on specific products '
 order: 145
 published: true
 ---
-With the module **Free shipping and Shipping freights** by X-Cart team (available in X-Cart Business, Multivendor, Ultimate editions), it is possible to configure free shipping on specific products. 
-   ![module.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/module.png)
-   
+Free shipping on specific products can be configured using the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %} by X-Cart team. 
 
-The module enables you to set the following shipping options for the products:
-  * **Shipping freight** : a product is shipped at a fixed cost
-  * **Free shipping** : a product is shipped for free if all the products in the shopping cart are either eligible for free shipping or excluded from shipping calculation
-  * **Exclude from shipping cost calculation** : a product shipping fee will always be excluded from the order total
-  
+## Setting up free shipping for a product
+
+When this addon is active, two settings for free shipping are provided in the "Shipping" section of the Info tab of a product details page in the store back end (The product property **Requires shipping** must be set to "Yes" for the settings to be visible):
+
+  * **Free shipping** : The product is shipped for free if all the products in the shopping cart are either eligible for free shipping or excluded from shipping calculation.
+  * **Exclude from shipping cost calculation** : The product shipping fee will always be excluded from the order total.  
   ![product_shipping.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/product_shipping.png)
 
-These shipping settings are unconditional, which means that so far you cannot configure any special offers with them. Store admin can choose what shipping method to use for the products with the free shipping enabled. 
+These settings are unconditional, which means that you cannot configure any special offers with them.
 
-To define whether the shipping cost for products with a defined shipping freight value should be calculated as shipping freight only or whether the shipping freight for such products should be added to the regular shipping rate set the preferred value on the module settings page.
+To provide free shipping for a product, you will need to properly adjust these settings. Below you will find some use cases explaining how these settings will affect the calculation of shipping cost for the product and the set of shipping methods that will be offered to the buyers who choose to order this product. 
 
-   ![settings.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/settings.png)
+Imagine that you have three products in your store:
 
-To set special shipping conditions on a specific product, use the following method:
+  * Product 1: No special shipping conditions; 
+  * Product 2: "Free shipping" option enabled;
+  * Product 3: "Exclude from shipping cost calculation” option enabled (or both “Exclude from shipping cost calculation” and “Free shipping” options enabled).
 
-   1.  In your store's back end, locate the product for which you want to set free shipping.
-   
-   2.  Click through to edit the details of this product . On the **Info** tab of the product details, locate the **Shipping** section and choose the option you need: _freght_, _free shipping_ or _exclude from shipping cost calculation_.
-     (These options are available only for tangible goods; i.e. the property **Requires shipping** / **Shippable** must be set to "Yes" for the settings to be visible).
-
-   3.  Use the **Update product** button at the bottom of the screen to save the changes. 
-
-Below are some usecases of the special shipping conditions:
-
-You have 3 items:
-
-  * Item 1 - no special shipping conditions 
-  * Item 2 - "free shipping" option enabled
-  * Item 3 - "exclude from shipping cost calculation” option enabled (or both “Exclude from shipping cost calculation” and “Free shipping” options enabled)
-
-You have 2 rates:
-  * Standard Shipping: flat rate $5
-  * Express Shipping: flat rate $10
+You also have two shipping methods:
+  * Standard Shipping: flat rate $5;
+  * Express Shipping: flat rate $10.
 
 Example 1.
 
-A customer adds Item 1 and Item 3 to cart and proceeds to checkout. Both Standard ($5) and Express ($10) shipping will be avalable. The customer can choose between them and pays for Item 1 shipping only.
+A customer adds Product 1 and Product 3 to the shopping cart and proceeds to checkout. Both Standard ($5) and Express ($10) shipping methods will be avalable. The customer will be able to choose any of them and, in any case, will pay only for the shipping of Product 1.
 
 Example 2.
 
-A customer adds Item 1 and Item 2 to cart and proceeds to checkout. Both Standard ($5) and Express ($10) shipping will be avalable. The customer can choose between them and pays for both Item 1 and Item 2 shipping.
+A customer adds Poduct 1 and Product 2 to the shopping cart and proceeds to checkout. Both Standard ($5) and Express ($10) shipping methods will be avalable. The customer will be able to choose any of them and will have to pay for the shipping of both Product 1 and Product 2.
 
 Example 3.
 
-A customer adds two Items 2 to cart and proceeds to checkout. In addition to Standard ($5) and Express ($10) shipping the cart will show a special Free ($0) shipping method. Though a free method is also available on checkout now, customer may prefer not to use it, if e.g. a faster delivery is needed. If any shipping method other than Free shipping is chosen a customer will have to pay for shipping of all the items in the cart.
+A customer adds two units of Product 2 to the shopping cart and proceeds to checkout. In addition to Standard ($5) and Express ($10) shipping, the cart will now show a special Free ($0) shipping method. Although a free method is available at checkout now, the customer may prefer not to use it (for example, if a faster delivery is needed). If any shipping method other than Free shipping is chosen, the customer will have to pay for the shipping of all the items in the cart.
 
 Example 4.
 
-A customer adds two Items 3 to cart and proceeds to checkout. Both Standard ($0) and Express ($0) shipping will be avalable. The customer can choose between them and have both items shipped for free.
+A customer adds two units of Product 3 to the shopping cart and proceeds to checkout. Both Standard ($0) and Express ($0) shipping will be avalable. The customer will be able to choose any of them and, in any case, will have both the items shipped for free.
 
 Example 5.
 
-A customer adds Item 2 and Item 3 to cart and proceeds to checkout. In addition to Standard ($5) and Express ($10) shipping the cart will show a special Free ($0) shipping method. A customer may choose either free shipping and pay nothing or any of the paid methods and pay only for shipping of Item 2.
+A customer adds Product 2 and Product 3 to cart and proceeds to checkout. In addition to Standard ($5) and Express ($10) shipping, the cart will now show a special Free ($0) shipping method. The customer will be able to choose either free shipping (and pay nothing) or any of the paid shipping methods and pay only for the shipping of Product 2.
 
 ## "Free shipping" method
 For the case when a customer's shopping cart contains only products with free shipping or products with free shipping and products excluded from shipping cost calculation the module provides a special method "Free shipping" 
