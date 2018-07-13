@@ -16,10 +16,10 @@ The addon provides a few shipping related settings that can be adjusted for prod
 The addon also has a settings page where you can specify whether the shipping cost for products with a defined shipping freight value should be calculated as shipping freight only or whether the shipping freight for such products should be added to the regular shipping rate.
    ![settings.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/settings.png)
 
-For more info on using the **Free shipping and Shipping freights** addon, see:
+For information on how to set free shipping on specific products and control the shipping methods with which such products should be shipped, see {% link "Free shipping on specific products" ref_IU9J0uuT %}.
 
-   * {% link "Free shipping on specific products" ref_IU9J0uuT %}
-   * {% link "Shipping freight" ref_kioKBJIM %}
+For information on how to set a fixed shipping fee for specific products, see {% link "Shipping freight" ref_kioKBJIM %}.
+
 
 _Related pages:_
 
