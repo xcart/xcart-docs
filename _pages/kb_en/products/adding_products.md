@@ -80,7 +80,7 @@ _Prices & Inventory_
 
 *   **Tax class**: The tax class to which the product belongs (Defines what taxes should be applied to the product). For more info on tax classes, see: {% link "Setting up tax classes" ref_pAWOdG8N %}.
 
-*   **Price**: The product price.
+*   **Price**: The product base price.
 
 *   **Market price**: This field is enabled by the [Market Price](https://market.x-cart.com/addons/market-price.html "Adding products") addon. It can be used to set a market product price showing the difference between the product price offered in your store and the average price of this product on the market. The market price is meant to show a customer how advantageous it is to order the product from your store. The market price is displayed next to the regular one on the product details page and in the product listing within a category. A sign showing the discount produced by the price difference is shown next to it to draw the attention of your site visitors.
 
@@ -106,13 +106,13 @@ _Shipping_
 
 *   **Requires shipping**: Whether this product requires shipping.
 
-*   **Freight**: This field is enabled by the addon Free shipping and Shipping freights.
+*   **Freight**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}.
 
-*   **Free shipping**: Whether the product should be shipped free of charge.
+*   **Free shipping**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}. Whether the product should be shipped free of charge.
 
-*   **Exclude from shipping cost calculation**:
+*   **Exclude from shipping cost calculation**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}.
 
-*   **Separate box**: Whether the product needs to be shipped separately from other products. If it needs to be shipped in a separate box, you can define the box dimensions and the maximum number of product units that fit in this box.
+*   **Separate box**: Whether the product needs to be shipped separately from other products. If it needs to be shipped in a separate box, you can define the box dimensions and the maximum number of product units that fit in this box. This setting affects the calculation of order shipping cost.
     
 _Marketing_
 
