@@ -9,10 +9,6 @@ categories:
 published: true
 order: 120
 ---
-_This section is currently a draft.
-Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
-
-
 ## Video guide
 
 This video captures the process of adding a new product in X-Cart 5.3.x. 
@@ -125,6 +121,9 @@ _Marketing_
 *   **Product page title**: The title to be used in the title bar of this product details page (for SEO purposes). 
 
 *   **Clean URL**: The product page Clean URL (human-readable SEO-friendly URL, typically based on the product name). The URL can be configured manually (by editing of the field contents directly) or generated automatically (by enabling the "Autogenerate Clean URL" option below before saving the product). Note that if the Clean URLs feature is disabled, you will need to activate it for the SEO-friendly page URLs to become available to store visitors. More info on Clean URLs is available via the {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %} section of this manual.
+
+_The below text is currently a draft.
+Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
 
 ## Advanced product setup 
 
