@@ -62,6 +62,7 @@ _In this section:_
 *   {% link "Shopper Approved Module" ref_1leKQurL %}
 *   {% link "Social Login" ref_IapN8lJ8 %}
 *   {% link "Special Offers" ref_special_offers %}
+*   {% link "TaxJar Sales Tax Automation" ref_0wHdWryq %}
 *   {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}
 *   {% link "Update inventory" ref_uSIvmuTh %}
 *   {% link "UPS" ref_0uCGd6Bs %}
