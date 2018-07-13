@@ -43,7 +43,7 @@ Now the vendor can start selling. The steps below will get them started:
     (In "_Warehouse_" mode, the products of different vendors are shipped from the same warehouse, so the "ship-from" address and shipping methods are the same for all the vendors; the configuration of the "ship-from" address and shipping methods in this case is done by the store administrator.)
     {% endnote %}
 
-    * If, according to the store's Multi-vendor configuration settings, vendors have been given the responsibility to collect sales tax on their own sales, and an automated sales tax calculation solution like AvaTax or TaxJar is used by the store, the vendor must check the Financial details section in their profile (**My account** > **Financial details**) and ensure that all the US states in which they are going to do business and which pertain to their nexus (and only those states) are listed in the "US tax calculation" settings section. This is needed to ensure that tax calculation requests to AvaTax/TaxJar are sent properly for the vendor. Note that failure to specify the states in the **Financial details** section properly may result in the store's failure to send tax calculation requests to AvaTax/TaxJar for the vendor's products.
+    * If, according to the store's Multi-vendor configuration settings, vendors have been given the responsibility to collect sales tax on their own sales, and an automated sales tax calculation solution like {% link "AvaTax" ref_6880bVvi %} or {% link "TaxJar" ref_0wHdWryq %} is used by the store, the vendor must check the Financial details section in their profile (**My account** > **Financial details**) and ensure that all the US states in which they are going to do business and which pertain to their nexus (and only those states) are listed in the "US tax calculation" settings section. This is needed to ensure that tax calculation requests to AvaTax/TaxJar are sent properly for the vendor. Note that failure to specify the states in the **Financial details** section properly may result in the store's failure to send tax calculation requests to AvaTax/TaxJar for the vendor's products.
 
     For more information on the usage of AvaTax Sale Tax Automation with X-Cart Multivendor, see {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}.
     
@@ -63,4 +63,4 @@ _Related pages:_
    * {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
    * {% link "Vendor import/export" ref_pa3oqbXz %}
    * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
-   * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %} 
+   * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}
