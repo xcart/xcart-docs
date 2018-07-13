@@ -42,4 +42,4 @@ If necessary, you can edit the name and description of this method. To do so, cl
 
 That is all. 
 
-Now every item of the product "Albert Einstein Action Figure" will be shipped for $5 (two items - $10, tree items - $15, and so on). For orders containing other items along with any number of Albert Einstein action figures, the order shipping cost will be $5 multiplied by the number of Albert Einstein action figures + the shipping cost of the rest of the order.
+Now every unit of the product "Albert Einstein Action Figure" will be shipped for $5 (two units - $10, tree units - $15, and so on). For orders containing other items along with any number of Albert Einstein action figures, the order shipping cost will be $5 multiplied by the number of Albert Einstein action figures + the shipping cost of the rest of the order.
