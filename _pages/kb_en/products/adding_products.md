@@ -106,7 +106,7 @@ _Shipping_
 
 *   **Requires shipping**: Whether this product requires shipping. This setting affects the calculation of order shipping cost. (If the product does not require shipping, the shipping cost for it will not be calculated).
 
-*   **Freight**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}.
+*   **Freight**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}. More info on using this setting is available in the section {% link "Shipping freight" ref_kioKBJIM %}.
 
 *   **Free shipping**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}. More info on using this setting is available in the section {% link "Free shipping on specific products" ref_IU9J0uuT %}.
 
