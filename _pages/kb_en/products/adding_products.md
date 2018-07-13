@@ -84,7 +84,7 @@ _Prices & Inventory_
 
 *   **Market price**: This field is enabled by the [Market Price](https://market.x-cart.com/addons/market-price.html "Adding products") addon. It can be used to set a market product price showing the difference between the product price offered in your store and the average price of this product on the market. The market price is meant to show a customer how advantageous it is to order the product from your store. The market price is displayed next to the regular one on the product details page and in the product listing within a category. A sign showing the discount produced by the price difference is shown next to it to draw the attention of your site visitors.
 
-*   **Sale**: This field is enabled by the {% link "Sale" ref_7tBJ8Yqo %} addon. Use it to put the product on sale. 
+*   **Sale**: This field is enabled by the {% link "Sale" ref_7tBJ8Yqo %} addon. Use it to put the product on sale. After enabling the "Sale" option you will be able to specify either a sale price for the product (expressed in the store currency) or a discount (expressed as a percentage off the product base price).
 
 *   **Arrival date**: This field allows you to record the date since when the product is or will be available in your store. On its own, the information entered in this field serves purely informational purposes, but may be employed by X-Cart modules (For example, a module that allows you to add a new product to your catalog in advance and let it be published on the storefront automatically when its arrival date is reached).
 
