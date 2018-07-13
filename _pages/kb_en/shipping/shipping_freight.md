@@ -27,8 +27,7 @@ To set the shipping freight property for this product to $5 (or whatever amount 
     
 4.  Click **Update product**.
 
-To define whether the shipping cost for products with a defined shipping freight value should be calculated as shipping freight only or whether the shipping freight for such products should be added to the regular shipping rate set the preferred value on the module settings page.
-
+To define whether the shipping cost for products with a defined shipping freight value should be calculated as shipping freight only or whether the shipping freight for such products should be added to the regular shipping rate, specify your preferred option on the **Free shipping and Shipping freights** module settings page:
    ![settings.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/settings.png)
 
 For the cases when a customer's shopping cart contains only products with a defined shipping freight, and no other shipping methods are available, your store will need a shipping method selectable at checkout. We provide a special shipping method for this purpose - "Fixed rate shipping". This method can be found in the Shipping methods section (**Store setup** > **Shipping**) of your store's Admin area:
@@ -44,5 +43,3 @@ If necessary, you can edit the name and description of this method. To do so, cl
 That is all. 
 
 Now every item of the product "Albert Einstein Action Figure" will be shipped for $5 (two items - $10, tree items - $15, and so on). For orders containing other items along with any number of Albert Einstein action figures, the order shipping cost will be $5 multiplied by the number of Albert Einstein action figures + the shipping cost of the rest of the order.
-
-
