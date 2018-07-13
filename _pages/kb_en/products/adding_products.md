@@ -102,15 +102,15 @@ _Prices & Inventory_
 
 _Shipping_
 
-*   **Weight**: Product weight.
+*   **Weight**: Product weight. If the product requires shipping, this setting may affect the calculation of order shipping cost.
 
 *   **Requires shipping**: Whether this product requires shipping. This setting affects the calculation of order shipping cost. (If the product does not require shipping, the shipping cost for it will not be calculated).
 
 *   **Freight**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}.
 
-*   **Free shipping**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}. Whether the product should be shipped free of charge.
+*   **Free shipping**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}. More info on using this setting is available in the section {% link "Free shipping on specific products" ref_IU9J0uuT %}.
 
-*   **Exclude from shipping cost calculation**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}.
+*   **Exclude from shipping cost calculation**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}. More info on using this setting is available in the section {% link "Free shipping on specific products" ref_IU9J0uuT %}.
 
 *   **Separate box**: Whether the product needs to be shipped separately from other products. If it needs to be shipped in a separate box, you can define the box dimensions and the maximum number of product units that fit in this box. This setting affects the calculation of order shipping cost.
     
