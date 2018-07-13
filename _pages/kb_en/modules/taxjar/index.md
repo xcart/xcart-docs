@@ -5,7 +5,7 @@ updated_at: '2018-07-13 13:35 +0400'
 identifier: ref_0wHdWryq
 title: TaxJar Sales Tax Automation
 order: 290
-published: false
+published: true
 ---
 X-Cart’s Tax Jar Sales Tax Automation module allows you to integrate your X-Cart based store with [TaxJar](https://www.taxjar.com/ "TaxJar Sales Tax Automation"), one of the market leading sales tax automation service in the US. 
 
@@ -13,5 +13,3 @@ TaxJar offers automated sales tax reporting and filing for multi-channel online 
 
 _In this section:_
 *   Installing and Configuring the TaxJar Sales Tax Automation Module (under construction)
-
-
