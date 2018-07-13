@@ -104,7 +104,7 @@ _Shipping_
 
 *   **Weight**: Product weight.
 
-*   **Requires shipping**: Whether this product requires shipping.
+*   **Requires shipping**: Whether this product requires shipping. This setting affects the calculation of order shipping cost. (If the product does not require shipping, the shipping cost for it will not be calculated).
 
 *   **Freight**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}.
 
