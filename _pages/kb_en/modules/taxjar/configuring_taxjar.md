@@ -7,6 +7,20 @@ title: Installing and Configuring the TaxJar Sales Tax Automation Module
 order: 100
 published: false
 ---
-## A New Post
+To install the TaxJar module follow the general instructions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Once installed and enabled proceed to the module settings page:
+
+![]({{site.baseurl}}/attachments/ref_3aEqWYoS/installed.png)
+
+You'll see a screen of the kind:
+
+![settings.png]({{site.baseurl}}/attachments/ref_3aEqWYoS/settings.png)
+
+Here you need to configure the following settings:
+
+* **API Token** : https://app.taxjar.com/account#api-access
+* **Enable tax calculation** :
+* **Enable tax reporting** :
+* **Do not create order in case of tax calculation error** :
+* **Automatically calculate taxes for** :
