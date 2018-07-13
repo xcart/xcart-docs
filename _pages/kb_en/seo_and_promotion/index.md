@@ -13,8 +13,6 @@ description: >-
   promotions
 published: true
 ---
-
-
 _In this section:_
 
 *   {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %}
