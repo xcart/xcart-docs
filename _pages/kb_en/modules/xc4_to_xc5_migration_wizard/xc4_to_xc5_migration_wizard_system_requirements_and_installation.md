@@ -39,24 +39,31 @@ If the X-Cart 4 store from which the data is going to be migrated to the X-Cart 
 
 To migrate your X-Cart 4 store to X-Cart 5, you need:
 
-   * Your existing X-Cart 4 store. For the migration, you will need to provide the migration module with your X-Cart 4 database connection details and your store URL, so be sure to have those at hand when you launch the Migration wizard.
+   * Your existing X-Cart 4 store. 
+   
+   For the migration, you will need to provide the migration module with your X-Cart 4 database connection details and your store URL, so be sure to have those at hand when you launch the Migration wizard.
    
    * A fresh installation of X-Cart 5. 
      
      {% note warning %}
      **Important**: Be sure to use the default build configuration that you get right out of the distribution package. Do not install any additional modules and do not attempt any customizations of the X-Cart 5 store's default functionality or look & feel before your X-Cart 4 data and settings have been fully migrated. Be sure to remove any demo data that may be present in the X-Cart 5 store (A link to the "Remove data" tool will be provided at the first step of the Migration wizard).
      {% endnote %}
+     
+   * Migration wizard module installed on your X-Cart 5 store.
+   
+     To install and enable the Migration wizard module on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+     
+     {% note warning %}
+     To be able to install the Migration wizard module you should have the [Order import](https://market.x-cart.com/addons/orders-import.html "XC4 to XC5 Migration wizard system requirements and installation") module installed and enabled. 
+     
+     Please make sure the Order import module is {% link "installed and enabled" ref_uEnDBBA7 %}.
+     {% endnote %}
+     
+     As a result, you should have the module "XC4 to XC5 Migration wizard" installed on your X-Cart 5 store:
+     
+     ![migration-wizard-installed.png]({{site.baseurl}}/attachments/ref_KqsCJNRG/migration-wizard-installed.png)
 
-The module can be obtained via X-Cart’s Marketplace:
-![xc5_migration_module_install.png]({{site.baseurl}}/attachments/ref_KqsCJNRG/xc5_migration_module_install.png)
-
-To install and enable the module on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
-
-As a result, you should have the module "XC4 to XC5 Migration wizard" installed on your X-Cart 5 store:
-
-![xc5_migration_module_installed.png]({{site.baseurl}}/attachments/ref_KqsCJNRG/xc5_migration_module_installed.png)
-
-After the module has been installed, you are ready to proceed to the migration of your data and settings. See {% link "Using the module 'XC4 to XC5 Migration wizard'" ref_Ah935naM %} for detailed info.
+After the module is installed you can proceed to the migration of your data and settings. See {% link "Using the module 'XC4 to XC5 Migration wizard'" ref_Ah935naM %} for detailed info.
 
 _Related pages:_
 
