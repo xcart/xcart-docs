@@ -7,7 +7,7 @@ title: Free Shipping and Shipping freights
 order: 175
 published: true
 ---
-With the addon **Free shipping and Shipping freights** by X-Cart team (available in X-Cart Business, Multivendor, Ultimate editions), it is possible to set a handling fee/ shipping freight and to configure free shipping on specific products. 
+With the addon **Free shipping and Shipping freights** by X-Cart team (available in X-Cart Business, Multivendor, Ultimate editions), it is possible to set a shipping freight and to configure free shipping on specific products. 
    ![module.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/module.png)
    
 The addon provides a few shipping related settings that can be adjusted for products that require shipping (You can find them in the "Shipping" section of the Info tab of a product's details): **Shipping freight**,  **Free shipping** and **Exclude from shipping cost calculation**.
