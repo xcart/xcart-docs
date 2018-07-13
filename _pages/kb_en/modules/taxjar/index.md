@@ -7,9 +7,9 @@ title: TaxJar Sales Tax Automation
 order: 290
 published: true
 ---
-X-Cart’s Tax Jar Sales Tax Automation module allows you to integrate your X-Cart based store with [TaxJar](https://www.taxjar.com/ "TaxJar Sales Tax Automation"), one of the market leading sales tax automation service in the US. 
+X-Cart’s TaxJar Sales Tax Automation module allows you to integrate your X-Cart based store with [TaxJar](https://www.taxjar.com/ "TaxJar Sales Tax Automation"), one of the market leading sales tax automation service in the US. 
 
-TaxJar offers automated sales tax reporting and filing for multi-channel online sellers. Once connected TaxJar calculates sales tax accurately to the rooftop level, the tax data is automatically submitted to TaxJar and prepared there so you can easily file sales tax returns in the states you have nexus. With the AutoFile feature TaxJar makes it possible to file your returns on your behalf automatically.
+TaxJar offers automated sales tax reporting and filing for multi-channel online sellers. Once connected TaxJar calculates sales tax accurately to the rooftop level, the tax data is automatically submitted to TaxJar and prepared there so you can easily file sales tax returns in the states you have nexus. With the [AutoFile](https://www.taxjar.com/autofile "TaxJar Sales Tax Automation") feature TaxJar makes it possible to file your returns on your behalf automatically.
 
 _In this section:_
 *   Installing and Configuring the TaxJar Sales Tax Automation Module (under construction)
