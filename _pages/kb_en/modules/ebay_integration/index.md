@@ -9,7 +9,7 @@ categories:
 published: true
 order: 160
 ---
-The addon X-Cart eBay Integration creates a new sales channel for your business by automatically integrating your existing X-Cart 5 store with eBay. 
+The addon [X-Cart eBay Integration](https://market.x-cart.com/addons/ebay-integration.html) creates a new sales channel for your business by automatically integrating your existing X-Cart 5 store with eBay. 
 
    * Have your X-Cart store connected to one or more eBay marketplace sites, including the sites for United States, Canada (English or French), UK, Australia, Austria, Belgium (French), France, Germany, Italy, Belgium (Dutch), Netherlands, Spain, Switzerland, Hong Kong, India, Ireland, Malaysia, Philippines, Poland and Singapore. 
    * Get your products listed on eBay in as little as a few minutes using the product titles, images, descriptions, prices, inventory levels, variants and attributes from your X-Cart store. 
