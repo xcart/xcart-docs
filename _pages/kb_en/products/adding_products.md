@@ -149,9 +149,6 @@ In addition, here are some settings you can use to set a low stock threshold for
    
    * **Low limit quantity**: Use this field to set the low stock threshold for the product (starting from this quantity, the product stock level will be considered "low"). 
 
-_The below text is currently a draft.
-Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
-
 ### Specify additional product parameters to be shown in the product specification
 
 If you want to specify additional parameters (like color, material, country of origin, ISBN, etc.) for the product so they can be viewed by your store visitors on the "Specification" tab of the product page, you will want to use X-Cart's {% link "Product classes and attributes" ref_T90ZcEpP %} feature. This feature is part of X-Cart's core and, if you just want the attributes, does not require any X-Cart addons. The attributes can be specified via the "Attributes" tab of the product page.
@@ -165,6 +162,9 @@ If you want to configure product options (color, size, etc.) so buyers will be a
 For example, you will be able to create an attribute "Size" and to specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". Your customers will be able to choose these values as product options. 
 
 If you need not just separate independent options, but product variants based on option combinations (like "Color: White + Size: XL"), you will need to use the addon {% link "Product Variants" ref_0uApuQfx %}. This addon will help you to create product variants based on combinations of options that have been configured as attribute values. The configuration of product variants will have to be done via the "Variants" tab of the product page.
+
+_The below text is currently a draft.
+Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._ 
 
 ### Set wholesale prices
 "Wholesale" addon
