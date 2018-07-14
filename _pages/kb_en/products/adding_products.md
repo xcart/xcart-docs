@@ -140,13 +140,16 @@ Here you see the fields **Arrival date**, **Inventory tracking** and **Quantity 
 
 In addition, here are some settings you can use to set a low stock threshold for the product and get notified whenever the product stock goes down to this level. The settings are as follows:
 
-   * **Show low stock warning on product page**: Enable this setting if you want a warning to be displayed on the product page whenever the product stock reaches the low stock treshold. You will also need to specify the inventory level at which this should happen (Use the "Low limit quantity" field further below in this section). 
+   * **Show low stock warning on product page**: Enable this setting if you want a warning message (like "Only 10 in stock!") to be displayed to customers viewing the product if the product stock reaches the low stock treshold. 
+   ![xc5_products_only10instock.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_only10instock.png)
+
+       To enable the warning, you will also need to specify the inventory level at which the warning  should be triggered (Use the "Low limit quantity" field further below in this section). 
    
-   * **Notify administrator if the stock quantity of this product goes below a certain limit**: Enable this setting to get an automated email notification whenever the product stock reaches the low stock treshold. You will also need to specify the inventory level at which the email notification needs to be sent (Use the "Low limit quantity" field below). 
+   * **Notify administrator if the stock quantity of this product goes below a certain limit**: Enable this setting to get an automated email notification when the product stock reaches the low stock treshold. You will also need to specify the inventory level at which the email notification needs to be sent (Use the "Low limit quantity" field below). 
    
    * **Low limit quantity**: Use this field to set the low stock threshold for the product (starting from this quantity, the product stock level will be considered "low"). 
     
-### Specify additional product parameters 
+### Specify additional product parameters to be shown in the product specification
 
 If you want to specify additional parameters (like color, material, country of origin, ISBN, etc.) for the product so they can be viewed by your store visitors on the "Specification" tab of the product page, you will want to use X-Cart's {% link "Product classes and attributes" ref_T90ZcEpP %} feature. This feature is part of X-Cart's core and, if you just want the attributes, does not require any X-Cart addons. The attributes can be specified via the "Attributes" tab of the product page.
 ![xc5_products_attributes_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_attributes_tab.png)
