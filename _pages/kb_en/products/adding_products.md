@@ -132,7 +132,7 @@ Once a new product has been [added](#adding-a-new-product) to your store, you ca
 
 The set of tabs that will be available to you will depend on your X-Cart edition and the set of addons activated in your store. Below is an overview of some of the popular tasks that can be accomplished by adjusting the advanced product settings via the various tabs of the product page - with information on what X-Cart addons/features you will require.
 
-### Set additional Inventory tracking options
+### Set additional inventory tracking options
 
    * **Notify administrator if the stock quantity of this product goes below a certain limit**: X-Cart allows you to set a low stock threshold for each product and get automated email notifications whenever a product stock goes down to this level. To get low stock email notifications for this product, enable this setting. You will also need to specify the inventory level at which a notification needs to be sent (Use the "Low limit quantity" field below). 
    * **Low limit quantity**: Use this field to specify what product quantity should be considered "low". You will be notified when this quantity is reached.
@@ -140,6 +140,7 @@ The set of tabs that will be available to you will depend on your X-Cart edition
 ### Specify additional product parameters 
 
 If you want to specify additional parameters (like color, material, country of origin, ISBN, etc.) for the product so they can be viewed by your store visitors on the "Specification" tab of the product page, you will want to use X-Cart's {% link "Product classes and attributes" ref_T90ZcEpP %} feature. This feature is part of X-Cart's core and, if you just want the attributes, does not require any X-Cart addons. The attributes can be specified via the "Attributes" tab of the product page.
+![xc5_products_attributes_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_attributes_tab.png)
 
 ### Specify product options (color, size, etc.)
 
