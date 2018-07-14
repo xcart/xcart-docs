@@ -165,7 +165,7 @@ If you need not just separate independent options, but product variants based on
 ![xc5_products_variants_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_variants_tab.png) 
 
 ### Set wholesale prices and minimum purchase quantities for different membership levels
-If you want to set different prices on the same product that would be enabled for buyers depending on the buyer membership level and the product quantity being ordered, you should use the addon {% link "Wholesale module" ref_ttZa4qgu %}. 
+If you want to set different prices on the same product that would be enabled for buyers depending on the buyer membership level and the product quantity being ordered, you should use the addon [Wholesale](https://market.x-cart.com/addons/wholesale.html).
 
 With this addon you will be able to set price tiers for different purchase quantities and different user membership levels via the "Wholesale pricing" tab of the product page.
 ![xc5_products_wholesale_pricing_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_wholesale_pricing_tab.png)
@@ -173,8 +173,10 @@ With this addon you will be able to set price tiers for different purchase quant
 You will also be able to set minimum product purchase quantities for different user membership levels via the "Inventory tracking" tab.
 ![xc5_products_min_purchase_qty.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_min_purchase_qty.png)
 
+For more info on using the addon, see {% link "Wholesale module" ref_ttZa4qgu %}. 
+
 _The below text is currently a draft.
 Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
 
 ### Sell the product on eBay
-X-Cart eBay Integration
+To list the product on eBay and get your data synchronized between eBay and your X-Cart store, you may want to use the addon [X-Cart eBay Integration](https://market.x-cart.com/addons/ebay-integration.html). With this addon, you will be able to set the product's eBay options. For more info on using the addon, see {% link "eBay Integration" ref_0SnFdXk1 %}.
