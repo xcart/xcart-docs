@@ -169,11 +169,12 @@ _The below text is currently a draft.
 Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._ 
 
 ### Set wholesale prices and minimum purchase quantities for different membership levels
-{% link "Wholesale module" ref_ttZa4qgu %} addon
-"Wholesale pricing" tab - set price tiers for different user membership levels.
+If you want to set different prices on the same product that would be enabled for buyers depending on the buyer membership level and the product quantity being ordered, you should use the addon {% link "Wholesale module" ref_ttZa4qgu %}. 
+
+With this addon you will be able to set price tiers for different purchase quantities and different user membership levels via the "Wholesale pricing" tab of the product page.
 ![xc5_products_wholesale_pricing_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_wholesale_pricing_tab.png)
 
-"Inventory tracking" tab - set minimum product purchase quantities for different user membership levels.
+You will also be able to set minimum product purchase quantities for different user membership levels via the "Inventory tracking" tab.
 ![xc5_products_min_purchase_qty.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_min_purchase_qty.png)
 
 ### Sell the product on eBay
