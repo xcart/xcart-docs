@@ -140,10 +140,12 @@ Here you see the fields **Arrival date**, **Inventory tracking** and **Quantity 
 
 In addition, here are some settings you can use to set a low stock threshold for the product and get notified whenever the product stock goes down to this level. The settings are as follows:
 
-   * **Show low stock warning on product page**: Enable this setting if you want a warning message (like "Only 10 in stock!") to be displayed to customers viewing the product if the product stock reaches the low stock treshold. 
+   * **Show low stock warning on product page**: Enable this setting if you want a warning message (like "Only X left in stock") to be displayed to customers viewing the product if the product stock reaches the low stock treshold. 
    ![xc5_products_only10instock.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_only10instock.png)
 
        To enable the warning, you will also need to specify the inventory level at which the warning  should be triggered (Use the "Low limit quantity" field further below in this section). 
+       
+       You can edit the text of the warning message by editing the text label "Only X left in stock" via the Language labels section (**Store setup** > **Translations**). For information on text labels and how to edit them, see {% link "Managing texts labels in your store" ref_IyGxQ1DN %}.
    
    * **Notify administrator if the stock quantity of this product goes below a certain limit**: Enable this setting to get an automated email notification when the product stock reaches the low stock treshold. You will also need to specify the inventory level at which the email notification needs to be sent (Use the "Low limit quantity" field below). 
    
