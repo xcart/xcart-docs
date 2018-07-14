@@ -133,8 +133,17 @@ Once a new product has been [added](#adding-a-new-product) to your store, you ca
 The set of tabs that will be available to you will depend on your X-Cart edition and the set of addons activated in your store. Below is an overview of some of the popular tasks that can be accomplished by adjusting the advanced product settings via the various tabs of the product page - with information on what X-Cart addons/features you will require.
 
 ### Set additional inventory tracking options
+Whereas it is possible to adjust some basic product inventory tracking settings via the _Prices & Inventory_ section of the Info tab of the product details, you can access still more settings via the "Inventory tracking" tab:
+![xc5_products_inventory_tracking_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_inventory_tracking_tab.png)
 
-   * **Notify administrator if the stock quantity of this product goes below a certain limit**: X-Cart allows you to set a low stock threshold for each product and get automated email notifications whenever a product stock goes down to this level. To get low stock email notifications for this product, enable this setting. You will also need to specify the inventory level at which a notification needs to be sent (Use the "Low limit quantity" field below). 
+Here you see the fields **Arrival date**, **Inventory tracking** and **Quantity in stock** (the same ones as in the _Prices & Inventory_ section of the Info tab). 
+
+In addition, here are some settings you can use to set a low stock threshold for the product and get notified whenever the product stock goes down to this level. The settings are as follows:
+
+   * **Show low stock warning on product page**
+
+   * **Notify administrator if the stock quantity of this product goes below a certain limit**: Enable this setting to get an automated email notification whenever the product stock reaches the low stock treshold. You will also need to specify the inventory level at which the email notification needs to be sent (Use the "Low limit quantity" field below). 
+   
    * **Low limit quantity**: Use this field to specify what product quantity should be considered "low". You will be notified when this quantity is reached.
     
 ### Specify additional product parameters 
