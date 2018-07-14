@@ -161,8 +161,10 @@ If you want to configure product options (color, size, etc.) so buyers will be a
 
 For example, you will be able to create an attribute "Size" and to specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". Your customers will be able to choose these values as product options. 
 
-If you need not just separate independent options, but product variants based on option combinations (like "Color: White + Size: XL"), you will need to use the addon {% link "Product Variants" ref_0uApuQfx %}. This addon will help you to create product variants based on combinations of options that have been configured as attribute values. The configuration of product variants will have to be done via the "Variants" tab of the product page.
-![xc5_products_variants_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_variants_tab.png) 
+If you need not just separate independent options, but product variants based on option combinations (like "Color: White + Size: XL"), you will need to use the addon [Product Variants](https://market.x-cart.com/addons/product-variants.html). This addon will help you to create product variants based on combinations of options that have been configured as attribute values. The configuration of product variants will have to be done via the "Variants" tab of the product page.
+![xc5_products_variants_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_variants_tab.png)
+
+For more info on using the addon, see {% link "Product Variants" ref_0uApuQfx %}
 
 ### Set wholesale prices and minimum purchase quantities for different membership levels
 If you want to set different prices on the same product that would be enabled for buyers depending on the buyer membership level and the product quantity being ordered, you should use the addon [Wholesale](https://market.x-cart.com/addons/wholesale.html).
