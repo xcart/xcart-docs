@@ -7,7 +7,7 @@ title: Wholesale module
 categories:
   - User manual
 published: true
-order: 339
+order: 340
 redirect_from:
   - >-
     /products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html
