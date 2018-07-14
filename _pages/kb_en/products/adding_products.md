@@ -162,11 +162,7 @@ If you want to configure product options (color, size, etc.) so buyers will be a
 For example, you will be able to create an attribute "Size" and to specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". Your customers will be able to choose these values as product options. 
 
 If you need not just separate independent options, but product variants based on option combinations (like "Color: White + Size: XL"), you will need to use the addon {% link "Product Variants" ref_0uApuQfx %}. This addon will help you to create product variants based on combinations of options that have been configured as attribute values. The configuration of product variants will have to be done via the "Variants" tab of the product page.
-![xc5_products_variants_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_variants_tab.png)
-
-
-_The below text is currently a draft.
-Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._ 
+![xc5_products_variants_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_variants_tab.png) 
 
 ### Set wholesale prices and minimum purchase quantities for different membership levels
 If you want to set different prices on the same product that would be enabled for buyers depending on the buyer membership level and the product quantity being ordered, you should use the addon {% link "Wholesale module" ref_ttZa4qgu %}. 
@@ -176,6 +172,9 @@ With this addon you will be able to set price tiers for different purchase quant
 
 You will also be able to set minimum product purchase quantities for different user membership levels via the "Inventory tracking" tab.
 ![xc5_products_min_purchase_qty.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_min_purchase_qty.png)
+
+_The below text is currently a draft.
+Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
 
 ### Sell the product on eBay
 X-Cart eBay Integration
