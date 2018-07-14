@@ -29,7 +29,6 @@ _In this section:_
 *   {% link "CloudSearch and CloudFilters" ref_3MF4RL7z %}
 *   {% link "Coupons" ref_3iTVKlYe %}
 *   {% link "Disable drag'n'drop add to cart" ref_2NVSkzc3 %}
-*   {% link "eBay Integration" ref_0SnFdXk1 %}
 *   {% link "eCC Desktop: Quickbooks integration" ref_0HbWTUok %}
 *   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
 *   {% link "E-goods" ref_ZszpDfxQ %}
@@ -73,5 +72,6 @@ _In this section:_
 *   {% link "Wishlist" ref_60uS71VK %}
 *   {% link "XC4 to XC5 Migration wizard" ref_enOvcLbO %}
 *   {% link "X-Cart 5 to WordPress Integration" ref_rJ8hCpkQ %}
+*   {% link "X-Cart eBay Integration" ref_0SnFdXk1 %}
 *   {% link "X-Payments connector" ref_NaZh0d1b %}
 *   {% link "X-Payments subscriptions" ref_8VFoqBFZ %}
