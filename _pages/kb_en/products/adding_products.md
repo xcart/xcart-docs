@@ -130,7 +130,7 @@ Once a new product has been [added](#adding-a-new-product) to your store, you ca
 
 The set of tabs that will be available to you will depend on your X-Cart edition and the set of addons activated in your store. Below is an overview of some of the popular tasks that can be accomplished by adjusting the advanced product settings via the various tabs of the product page - with information on what X-Cart addons/features you will require.
 
-### Set additional inventory tracking options
+### Set advanced inventory tracking options for the product
 Whereas it is possible to adjust some basic product inventory tracking settings via the _Prices & Inventory_ section of the Info tab of the product details, you can access still more settings via the "Inventory tracking" tab:
 ![xc5_products_inventory_tracking_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_inventory_tracking_tab.png)
 
@@ -162,6 +162,8 @@ If you want to configure product options (color, size, etc.) so buyers will be a
 For example, you will be able to create an attribute "Size" and to specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". Your customers will be able to choose these values as product options. 
 
 If you need not just separate independent options, but product variants based on option combinations (like "Color: White + Size: XL"), you will need to use the addon {% link "Product Variants" ref_0uApuQfx %}. This addon will help you to create product variants based on combinations of options that have been configured as attribute values. The configuration of product variants will have to be done via the "Variants" tab of the product page.
+![xc5_products_variants_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_variants_tab.png)
+
 
 _The below text is currently a draft.
 Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._ 
