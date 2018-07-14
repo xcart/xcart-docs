@@ -3,11 +3,11 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-10-15 15:10 +0400'
 identifier: ref_0SnFdXk1
-title: eBay Integration
+title: X-Cart Bay Integration
 categories:
   - User manual
 published: true
-order: 160
+order: 360
 ---
 The addon [X-Cart eBay Integration](https://market.x-cart.com/addons/ebay-integration.html) creates a new sales channel for your business by automatically integrating your existing X-Cart 5 store with eBay. 
 
