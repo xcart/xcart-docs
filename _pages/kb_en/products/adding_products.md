@@ -140,11 +140,11 @@ Here you see the fields **Arrival date**, **Inventory tracking** and **Quantity 
 
 In addition, here are some settings you can use to set a low stock threshold for the product and get notified whenever the product stock goes down to this level. The settings are as follows:
 
-   * **Show low stock warning on product page**
-
+   * **Show low stock warning on product page**: Enable this setting if you want a warning to be displayed on the product page whenever the product stock reaches the low stock treshold. You will also need to specify the inventory level at which this should happen (Use the "Low limit quantity" field further below in this section). 
+   
    * **Notify administrator if the stock quantity of this product goes below a certain limit**: Enable this setting to get an automated email notification whenever the product stock reaches the low stock treshold. You will also need to specify the inventory level at which the email notification needs to be sent (Use the "Low limit quantity" field below). 
    
-   * **Low limit quantity**: Use this field to specify what product quantity should be considered "low". You will be notified when this quantity is reached.
+   * **Low limit quantity**: Use this field to set the low stock threshold for the product (starting from this quantity, the product stock level will be considered "low"). 
     
 ### Specify additional product parameters 
 
