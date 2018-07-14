@@ -169,4 +169,10 @@ If you need not just separate independent options, but product variants based on
 ### Set wholesale prices
 "Wholesale" addon
 "Wholesale pricing" tab - set price tiers for different user membership levels.
+![xc5_products_wholesale_pricing_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_wholesale_pricing_tab.png)
+
 "Inventory tracking" tab - set minimum product purchase quantities for different user membership levels.
+![xc5_products_min_purchase_qty.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_min_purchase_qty.png)
+
+### Sell the product on eBay
+X-Cart eBay Integration
