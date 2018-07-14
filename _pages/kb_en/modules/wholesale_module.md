@@ -3,9 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-28 18:10 +0400'
 identifier: ref_ttZa4qgu
-title: >-
-  Setting up wholesale prices and minimum purchase quantites for different
-  membership levels
+title: Wholesale module
 categories:
   - User manual
 published: true
