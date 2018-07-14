@@ -168,8 +168,8 @@ If you need not just separate independent options, but product variants based on
 _The below text is currently a draft.
 Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._ 
 
-### Set wholesale prices
-"Wholesale" addon
+### Set wholesale prices and minimum purchase quantities for different membership levels
+{% link "Wholesale module" ref_ttZa4qgu %} addon
 "Wholesale pricing" tab - set price tiers for different user membership levels.
 ![xc5_products_wholesale_pricing_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_wholesale_pricing_tab.png)
 
