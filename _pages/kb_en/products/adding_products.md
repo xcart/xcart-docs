@@ -157,9 +157,14 @@ Material may not yet be complete, information may presently be omitted, and cert
 If you want to specify additional parameters (like color, material, country of origin, ISBN, etc.) for the product so they can be viewed by your store visitors on the "Specification" tab of the product page, you will want to use X-Cart's {% link "Product classes and attributes" ref_T90ZcEpP %} feature. This feature is part of X-Cart's core and, if you just want the attributes, does not require any X-Cart addons. The attributes can be specified via the "Attributes" tab of the product page.
 ![xc5_products_attributes_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_attributes_tab.png)
 
-### Specify product options (color, size, etc.) for buyers to choose
+### Specify product options for buyers to choose
 
-In X-Cart 5, product options can be configured based on product attributes. You add an attribute like "Size" and specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". The buyer will then be able to choose the option they require. Some examples of how you can set product options based on attributes are provided in the article {% link "Managing attribute values" ref_bTfJ9bTS %}. For detailed information on product attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}.
+If you want to configure product options (color, size, etc.) so buyers will be able to choose the options they require, you will need to use use X-Cart's {% link "Product classes and attributes" ref_T90ZcEpP %} feature and adjust the options for the product via the "Attributes" tab of the product page. 
+![xc5_products_attributes_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_attributes_tab.png)
+
+For example, it is possible to create an attribute "Size" and specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". Customers will be able to choose these values as product options. 
+
+{% link "Product Variants"  %}.
 
 ### Set wholesale prices
 "Wholesale" addon
