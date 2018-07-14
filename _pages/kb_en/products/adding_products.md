@@ -177,8 +177,9 @@ You will also be able to set minimum product purchase quantities for different u
 
 For more info on using the addon, see {% link "Wholesale module" ref_ttZa4qgu %}. 
 
-_The below text is currently a draft.
-Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
-
 ### Sell the product on eBay
-To list the product on eBay and get your data synchronized between eBay and your X-Cart store, you may want to use the addon [X-Cart eBay Integration](https://market.x-cart.com/addons/ebay-integration.html). With this addon, you will be able to set the product's eBay options. For more info on using the addon, see {% link "eBay Integration" ref_0SnFdXk1 %}.
+To list the product on eBay and get your data synchronized between eBay and your X-Cart store, you may want to use the addon [X-Cart eBay Integration](https://market.x-cart.com/addons/ebay-integration.html). With this addon, you will be able to set the product's eBay options via the "eBay product options" tab of the product page. 
+![xc5_products_ebay_product_options_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_ebay_product_options_tab.png)
+
+For more info on using the addon, see {% link "X-Cart eBay Integration" ref_0SnFdXk1 %}.
+
