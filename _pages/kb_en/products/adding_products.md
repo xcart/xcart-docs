@@ -159,12 +159,12 @@ If you want to specify additional parameters (like color, material, country of o
 
 ### Specify product options for buyers to choose
 
-If you want to configure product options (color, size, etc.) so buyers will be able to choose the options they require, you will need to use use X-Cart's {% link "Product classes and attributes" ref_T90ZcEpP %} feature and adjust the options for the product via the "Attributes" tab of the product page. 
+If you want to configure product options (color, size, etc.) so buyers will be able to choose the options they require before checkout, you will need to use X-Cart's {% link "Product classes and attributes" ref_T90ZcEpP %} feature. This feature helps you to configure options for the product via the "Attributes" tab of the product page. 
 ![xc5_products_attributes_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_attributes_tab.png)
 
-For example, it is possible to create an attribute "Size" and specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". Customers will be able to choose these values as product options. 
+For example, you will be able to create an attribute "Size" and to specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". Your customers will be able to choose these values as product options. 
 
-{% link "Product Variants"  %}.
+If you need not just separate independent options, but product variants based on option combinations (like "Color: White + Size: XL"), you will need to use the addon {% link "Product Variants" ref_0uApuQfx %}. This addon will help you to create product variants based on combinations of options that have been configured as attribute values. The configuration of product variants will have to be done via the "Variants" tab of the product page.
 
 ### Set wholesale prices
 "Wholesale" addon
