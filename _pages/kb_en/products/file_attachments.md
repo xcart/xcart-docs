@@ -36,5 +36,5 @@ To add an attachment to a product:
   
   _Related articles:_
      
-    * {% link "E-goods" ref_ZszpDfxQ %}
-    * {% link "PIN Codes Module" ref_2ioJzfJL %}
+  * {% link "E-goods" ref_ZszpDfxQ %}
+  * {% link "PIN Codes Module" ref_2ioJzfJL %}
