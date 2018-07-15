@@ -192,3 +192,18 @@ For more info on using the addon, see {% link "Related Products" ref_4a5rpsQq %}
 
 For showing related products in the Add to cart popup, you will also need the addon [Add to Cart Popup](https://market.x-cart.com/addons/add-to-cart-popup.html).
 For more info on using the addon, see {% link "Add to Cart PopUp Module" ref_1iGC8Efj %}.
+
+### Change the set of tabs displayed on the product page in the Customer area
+If the set of product page tabs used in your store by default does not meet your needs, you can use the addon [Custom product tabs](https://market.x-cart.com/addons/custom-product-tabs.html) to change it. With this addon you will be able to specify which of the standard X-Cart store tabs should be displayed on the product page and in what order; if you need more tabs, you will also be able to add custom tabs of your own.
+![xc5_products_tabs_in_customer.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_tabs_in_customer.png)
+You will be able to manage the tabs for the product page via "Tabs" tab:
+![xc5_products_tabs_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_tabs_tab.png)
+
+### PIN codes
+If you need to sell stuff like licenses, enrollment keys, PIN codes, serial numbers, activation codes and passwords, phone cards and access codes, you may want to use the addon [PIN Codes](https://market.x-cart.com/addons/pin-codes.html "PIN Codes Module"). This addon will enable you to attach PIN codes to your existing product via the "PIN codes" tab:
+![xc5_products_pin_codes_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_pin_codes_tab.png)
+For more info on using the addon, see {% link "PIN Codes Module" ref_2ioJzfJL %}.
+
+### Attachments
+If you need to
+![xc5_products_attachments_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_attachments_tab.png)
