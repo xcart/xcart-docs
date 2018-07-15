@@ -28,7 +28,7 @@ To add an attachment to a product:
 3. The file will be added to the product
    ![att-3.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/att-3.png)
   
-  You can add a file description, download the file or re-upload it it necessary. 
+  You can add a file description, download the file or re-upload it if necessary. 
   
   If you need to delete the file, click the _Trash_ icon next to it.
   
