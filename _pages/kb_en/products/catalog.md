@@ -11,7 +11,7 @@ You can configure your X-Cart 5 store to hide the cart icon and remove the "Add 
 
 It's good if you need an eCommerce website to demonstrate your products and services online rather than to sell them. 
 
-To make this possible enable the Catalog module as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}. The module is free and available for all X-Cart 5 editions (Business, Multivendor, Ultimate).
+To make this possible, enable the Catalog module as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}. The module is free and available for all X-Cart 5 editions (Business, Multivendor, Ultimate).
 
 The Catalog module functionality can be extended or substituted with the following modules:
 * {% link "Call for Price Module" ref_3K1pJExV %}
