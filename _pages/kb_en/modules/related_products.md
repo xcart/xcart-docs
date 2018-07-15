@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-05-08 15:10 +0400'
 identifier: ref_4a5rpsQq
 title: Related Products
-order: 295
+order: 226
 published: true
 redirect_from:
   - /products/related_products.html
