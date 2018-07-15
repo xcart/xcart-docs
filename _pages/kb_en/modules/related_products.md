@@ -19,6 +19,10 @@ Using the related products feature you can:
 Here's an example of "Related products" block - displayed at the bottom of the product page for one of the products in our demo store:
 ![xc5_products_related_products.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_products_related_products.png)
 
+And here's an example of related products used as a source of items for "Customers who bought this also bought" in the add-to-cart popup:
+![xc5_products_related_products1.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_products_related_products1.png)
+
+
 An upselling link can lead in a single direction (from product A to product B), or be bidirectional (pointing both ways, from product A to product B and from product B to product A). In the former case, product B will show up as related on the page of product A, but if we go to the page of product B, we won't see the product A in the 'Related products' block. In the latter case, product B will show up as related to product A and vice versa.
 
 To configure related products:
