@@ -13,17 +13,17 @@ Adding a product with PIN codes is similar to adding an ordinary product describ
 
 To add a PIN code to a product:
 1. Create, import or clone a product as described in {% link "Adding products" ref_fhzzxDTy %}.
-2. In the _Info_ tab of the Product details page locate the **Shipping** section and disable shipping for the product.
+2. On the _Info_ tab of the Product details page, locate the **Shipping** section and disable shipping for the product.
   ![shipping.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/shipping.png)
-3. At the Product details page, locate the _PIN Codes_ tab and enable PIN codes for the product.
+3. On the Product details page, locate the _PIN Codes_ tab and enable PIN codes for the product.
   ![pin_tab-2.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/pin_tab-2.png)
-4. Once enabled, you can add PIN codes to product:
+4. Once enabled, you can add PIN codes to the product:
     * **AUTOMATICALLY**
     ![automatically.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/automatically.png)
-    If you choose automatic PIN codes generation X-Cart will autogenerate a 16-digit numeric code that will be sent to a customer after an order is paid.
+    If you choose automatic PIN codes generation, X-Cart will automatically generate a 16-digit numeric code that will be sent to the customer after the order is paid for.
     * **MANUALLY**
     ![manual.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/manual.png)
-    If you choose manual PIN codes generation you'll have 2 options:
+    If you choose manual PIN codes generation, you will have two options:
       * Add codes manually
         * Click the **'Add pin codes'** button
         * Type the PIN codes you need in a pop-up
@@ -39,7 +39,7 @@ To add a PIN code to a product:
         {% endnote %}
 5. Save the changes.
 
-Afterwards you'll be able to trace used PINs and delete unused (for manually-generated PINs only) if required:
+Afterwards you will be able to trace used PINs and delete unused ones (for manually-generated PINs only) if required:
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![sold-auto.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/sold-auto.png)</div>
   <div class="column" markdown="span">![sold-manual.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/sold-manual.png)</div>
@@ -47,15 +47,15 @@ Afterwards you'll be able to trace used PINs and delete unused (for manually-gen
 
 ## Processing Orders
 
-Your store customers can pay for products with PIN codes, using any of the available payment options, including both online and offline methods. 
+Your store customers can pay for products with PIN codes using any of the available payment options, including both online and offline methods. 
 
-In case the _Approve before providing access_ option is {% link "enabled" ref_5uEPaGnt %} PIN codes doesn't become vailable to customers right after an order is placed.  Such orders get a _Waiting for approve_ fulfilment status. 
+If the _Approve before providing access_ option is {% link "enabled" ref_5uEPaGnt %}, a PIN code does not become available to the customer right after the order is placed.  Such orders get the _Waiting for approve_ fulfilment status. 
 
 ![wfa_status.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/wfa_status.png)
 
-A PIN code becomes available after a store admin changes the order fulfilment status to any other except for _Will not deliver_ provided that the order is paid (payment status is paid). If the cart admin changes the order fulfilment status to _Will not deliver_ the customer will not get the PIN code. More info on the order statuses you can find in {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}.
+A PIN code becomes available after a store administrator changes the order fulfilment status to any other status - except for _Will not deliver_ - provided that the order has been paid for (the payment status is paid). If the administrator changes the order fulfilment status to _Will not deliver_, the customer will not get the PIN code. More info on X-Cart order statuses is available in the section {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}.
 
-Once an order is processed, a store admin can check the PINs sold in the _PIN codes_ tab of the Order details page:
+Once an order is processed, a store admin can check the PINs sold via the _PIN codes_ tab of the Order details page:
 
 ![order.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/order.png)
 
@@ -70,8 +70,8 @@ The "auth only" option means that a payment gateway does not really withdraw the
 
 {% endnote %}
 
-Processing orders that contain products with PIN codes using payments with "auth only" mode as well as using other methods that require manual order processing, allows you to filter suspicious and potentially fraudulent orders and approve only trustworthy purchases.
+Processing orders that contain products with PIN codes using payments with "auth only" mode as well as using other methods that require manual order processing allows you to filter suspicious and potentially fraudulent orders and approve only trustworthy purchases.
 
 {% note info %}
-If you are using the PIN Codes module along with {% link "X-Payments subscriptions" ref_8VFoqBFZ %} a customer will get an updated PIN code for the product each time a subscription fee is paid.
+If you are using the PIN Codes module along with {% link "X-Payments subscriptions" ref_8VFoqBFZ %}, a customer will get an updated PIN code for the product each time a subscription fee is paid.
 {% endnote %}
