@@ -32,7 +32,7 @@ To add an attachment to a product:
   
   If you need to delete the file, click the _Trash_ icon next to it.
   
-  --------------------------
+ 
   
-  _Related articles_:
+  _Related articles:_
   * {% link "PIN Codes Module" ref_2ioJzfJL %}
