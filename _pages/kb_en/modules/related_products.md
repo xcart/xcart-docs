@@ -14,7 +14,10 @@ You can configure your X-Cart 5 store to show a block with the related products 
 Using the related products feature you can: 
 * encourage a customer to spend more money, i.e. to buy a more expensive alternative of the product s/he views.
 * recommend related products from other categories, reminding the customer about other popular things s/he may be interested in -  extensions, accessories, warranties, etc.
-* display recommended items in the add-to-cart popup (if you have the "Add to Cart Popup" addon enabled)
+* display recommended items in the add-to-cart popup (if you have the "Add to Cart Popup" addon enabled).
+
+Here's an example of "Related products" block - displayed at the bottom of the product page for one of the products in our demo store:
+![xc5_products_related_products.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_products_related_products.png)
 
 An upselling link can lead in a single direction (from product A to product B), or be bidirectional (pointing both ways, from product A to product B and from product B to product A). In the former case, product B will show up as related on the page of product A, but if we go to the page of product B, we won't see the product A in the 'Related products' block. In the latter case, product B will show up as related to product A and vice versa.
 
@@ -22,12 +25,12 @@ To configure related products:
 
 1. Go to the _Related products_ tab of the **Product details** page (**Catalog** -> **Products**).
   ![related-1.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/related-1.png)
-  
+
 2. Click the **'Add related products'** button.
 
 3. Choose related products from the list and click **'Add products'**.
   ![related-2.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/related-2.png)
-  
+
 That's it! The related products have been added.
   ![related-3.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/related-3.png)
 
