@@ -9,6 +9,4 @@ categories:
 published: true
 order: 280
 ---
-
-
 X-Cart 5 can be used to sell digital goods. The feature is available through the use of the modules {% link "Product File Attachments" ref_0ZWKcob4 %} and {% link "E-goods" ref_ZszpDfxQ %} by X-Cart team.
