@@ -9,7 +9,7 @@ published: true
 ---
 ## Adding Products with PIN Codes
 
-Adding a product with PIN codes is similar to adding an ordinary product described in {% link "Adding products" ref_fhzzxDTy %}. The only difference is that you must also generate PIN codes for the product using the _PIN Codes_ tab on the Product details page in the Admin/Provider area.
+Adding a product with PIN codes is similar to adding an ordinary product described in {% link "Adding products" ref_fhzzxDTy %}. The only difference is that you must also generate PIN codes for the product using the _PIN Codes_ tab on the Product details page in the Admin area.
 
 To add a PIN code to a product:
 1. Create, import or clone a product as described in {% link "Adding products" ref_fhzzxDTy %}.
