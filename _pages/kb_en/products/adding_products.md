@@ -199,12 +199,12 @@ If the set of product page tabs used in your store by default does not meet your
 You will be able to manage the tabs for the product page via "Tabs" tab:
 ![xc5_products_tabs_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_tabs_tab.png)
 
-### PIN codes
+### Add PIN codes to the product
 If you need to sell stuff like licenses, enrollment keys, PIN codes, serial numbers, activation codes and passwords, phone cards and access codes, you may want to use the addon [PIN Codes](https://market.x-cart.com/addons/pin-codes.html "PIN Codes Module"). This addon will enable you to attach PIN codes to your existing product via the "PIN codes" tab:
 ![xc5_products_pin_codes_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_pin_codes_tab.png)
 For more info on using the addon, see {% link "PIN Codes Module" ref_2ioJzfJL %}.
 
-### Attachments
+### Attach files to the product
 If you need to attach files to your product (like a product manual or a detailed description) so your store visitors will be able to download these files from the product page, you will need to use the addon [File attachments](https://market.x-cart.com/addons/file-attachments.html) and the "Attachments" tab of the product page.  
 ![xc5_products_attachments_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_attachments_tab.png)
 For more info on using the addon, see {% link "Product File Attachments" ref_0ZWKcob4 %}.
