@@ -36,17 +36,18 @@ For the sake of example, we will create a module that has textarea setting where
 3. Now we need to create a textarea option, so it could accept the HTML code. For that сreate the `install.yaml` file in the root folder of your module. We are creating it in the `classes/XLite/Module/XCExample/SettingsDemo/` folder.
 
 4. Put the following content into `install.yaml` file:
+
     ```php
-	XLite\Model\Config:
-	  - name: html_code
-    	category: XCExample\SettingsDemo
-	    type: textarea
-    	orderby: 100
-	    value: ''
-    	translations:
-	      - code: en
-    	    option_name: Put your HTML code here
-        	option_comment: I am comment to the option and I am here just for show that you can put some text into me
+    XLite\Model\Config:
+      - name: html_code
+        category: XCExample\SettingsDemo
+        type: textarea
+        orderby: 100
+        value: ''
+        translations:
+          - code: en
+            option_name: Put your HTML code here
+            option_comment: I am comment to the option and I am here just for show that you can put some text into me
     ```
 
 5. Once it is done, re-deploy the store and install the module. If you already have the module installed and activated, you need to {% link "push the changes of install.yaml file" ref_8BPAwaEG %} to the database.
