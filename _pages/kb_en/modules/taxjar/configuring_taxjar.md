@@ -22,7 +22,7 @@ Here you need to configure the following settings:
 * **API Token** : Copy and paste your [TaxJar API token](https://app.taxjar.com/account#api-access "Installing and Configuring the TaxJar Sales Tax Automation Module") into X-Cart. 
 * **Enable tax calculation** : Toggle this setting on if you need taxes to be calculated at checkout in accordance with the address specified by a customer.
 * **Enable tax reporting** : Toggle this setting on if you need the X-Cart order and refund transactions to be imported into TaxJar automatically. Orders are imported immediately after they’re paid and delivered in a complete status, i.e. the orders are in a “Paid” payment status and “Shipped” or “Delivered” fulfillment status.
-* **Do not create order in case of tax calculation error** : Toggle this setting on to stop order creation in case of the tax calculation fails. (The setting is available only if **Enable tax calculation** is enabled.)
+* **Do not create order in case of tax calculation error** : Toggle this setting on to stop order creation in case if the tax calculation fails. (The setting is available only if **Enable tax calculation** is enabled.)
 * **Automatically calculate taxes for** : Choose the states the auto taxes calculation will be available for.
 * **Debug mode** : Toggle this setting on to include debug information into the tax_jar log file.
 
