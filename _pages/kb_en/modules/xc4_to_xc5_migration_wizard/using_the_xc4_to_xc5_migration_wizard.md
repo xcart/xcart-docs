@@ -174,7 +174,7 @@ Click on it to launch the migation process:
    {% note info %}
    Please keep in mind that starting from X-Cart Classic v4.5.x user passwords are not stored in the database. Hence the passwords can't be transferred savefy during the migration process and all users will have to use the **Forgot password?** option on the next login to the X-Cart 5 store in order to get in. 
    
-   We'd recommend to add a special banner to the X-Cart 5 **Sign in** pop-up prompting the users to restore the password because of migration. 
+   We'd recommend to add a special banner to the X-Cart 5 **Sign in** pop-up prompting the users to restore the password because of migration. A sample custom module that will add a label to the sign in form you can download [here](https://www.dropbox.com/s/pydh4uv15x7m783/XCMod-RestorePasswordAfterMigration-v5_3_0.tar?dl=0 "Using the module "XC4 to XC5 Migration wizard"").
    {% endnote %}
 
 In some cases things may not go as smoothly as one would hope during the data migration procedure, e.g. PHP execution may be interrupted. Problems like that tend to be related to the time limit settings of the web server, especially if working on a server with limited resources or on a slow internet connection. If you experience errors causing mid-process interruption of the migration, be sure to increase your server time limit (See {% link "Setting the time limit of your server" ref_xqnpttd4 %}) or decrease the **migration_chunk_length** value in etc/config.local.php (See [How XC4 to XC5 Migration wizard works: Migration process](http://kb.x-cart.com/en/modules/xc4_to_xc5_migration_wizard/how_xc4_to_xc5_migration_wizard_works.html#migration-process "Using the module "XC4 to XC5 Migration wizard"")).
