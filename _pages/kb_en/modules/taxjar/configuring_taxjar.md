@@ -30,10 +30,11 @@ Click **Submit** to make the settings active.
 
 When TaxJar is connected proceed to the **Store setup**-> **Taxes** section to configure the module further. Here you can set up your nexus addresses in TaxJar:
 
-![manage-nexus.png]({{site.baseurl}}/attachments/ref_3aEqWYoS/manage-nexus.png)
+![tax-tj.png]({{site.baseurl}}/attachments/ref_3aEqWYoS/tax-tj.png)
 
 Click the [_Manage your nexus addresses_](https://app.taxjar.com/account/?utm_source=xcart-module#states "Installing and Configuring the TaxJar Sales Tax Automation Module") link. You will be redirected to TaxJar where you can add state with nexus your store taxes will be automatically calculated and reported for in your TaxJar account. 
 
 Also you can assign TaxJar category tax codes to product tax classes to support product exemptions. For this purpose open the _Tax classes_ tab of the **Store setup** -> **Taxes** section, {% link "create your product tax classes" ref_pAWOdG8N %} (if they are not created as yet) and assign TaxJar category codes to your product tax classes:
 
-![tax-classes.png]({{site.baseurl}}/attachments/ref_3aEqWYoS/tax-classes.png)
+![tax-classes-1.png]({{site.baseurl}}/attachments/ref_3aEqWYoS/tax-classes-1.png)
+
