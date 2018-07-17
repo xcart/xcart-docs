@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-07-13 14:03 +0400'
 identifier: ref_3aEqWYoS
 title: Installing and Configuring the TaxJar Sales Tax Automation Module
-order: 100
+order: 130
 published: true
 ---
 To install the TaxJar module follow the general instructions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
