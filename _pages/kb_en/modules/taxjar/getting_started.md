@@ -5,7 +5,7 @@ updated_at: '2018-07-17 18:25 +0400'
 identifier: ref_3U4ulELA
 title: Getting started with TaxJar Sales Tax Automation
 order: 120
-published: false
+published: true
 ---
 To enable TaxJar Sales Tax Automation at your X-Cart store, follow the steps below:
 
