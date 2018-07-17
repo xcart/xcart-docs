@@ -13,5 +13,5 @@ TaxJar offers automated sales tax reporting and filing for multi-channel online 
 
 _In this section:_
 *   How TaxJar Sales Tax Automation works [under construction]
-*   Getting started with TaxJar Sales Tax Automation [under construction]
+*   {% link "Getting started with TaxJar Sales Tax Automation" ref_3U4ulELA %}
 *   {% link "Installing and Configuring the TaxJar Sales Tax Automation Module" ref_3aEqWYoS %}
