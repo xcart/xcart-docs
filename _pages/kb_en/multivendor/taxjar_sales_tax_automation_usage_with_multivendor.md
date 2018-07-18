@@ -14,7 +14,7 @@ The addon {% link "TaxJar Sales Tax Automation" ref_0wHdWryq %} can be used with
 
 Unlike X-Cart's {% link "Sales tax" ref_aJPK4DHN %}, {% link "VAT/GST" ref_Rzp45QlN %} or {% link "Canadian taxes" ref_hxmof6xX %} addons, TaxJar Sales Tax Automation can safely be used for U.S. multivendor X-Cart stores operating in the "Vendors as separate shops" mode in which the collection of sales tax has been configured as the responsibility of the vendors (**Sales tax is the responsibility of**=_Vendor_). 
 
-To use TaxJar Sales Tax Automation, the store administrator will have to get a TaxJar account and complete the required configuration in the TaxJar profile and the X-Cart store as described inÂ {% link "Getting started with TaxJar Sales Tax Automation" ref_3U4ulELA %}.
+To use TaxJar Sales Tax Automation, the store administrator will have to get a TaxJar account and complete the required configuration in the TaxJar profile and the X-Cart store as described in {% link "Getting started with TaxJar Sales Tax Automation" ref_3U4ulELA %}.
 
 The vendors will not need a separate TaxJar account; however, to ensure correct tax calculation in a Multivendor store via a single TaxJar account, the store administrator will need to properly configure the nexuses for the store's TaxJar account including all the states where the store/marketplace has nexus; they will also need to make sure all the nexus states are specified properly in the X-Cart store's settings:
 
