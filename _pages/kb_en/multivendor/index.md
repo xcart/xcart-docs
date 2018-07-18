@@ -28,3 +28,4 @@ _In this section:_
    * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}  
    * Messages addon: Usage with Multivendor (Article under construction)
    * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}
+   * {% link "TaxJar Sales Tax Automation: Usage with Multivendor" ref_4ne38ZTm %}
