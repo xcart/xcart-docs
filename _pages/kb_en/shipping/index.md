@@ -18,7 +18,7 @@ There are some basics that set a foundation for the rest of your shipping. While
 
   Will you offer free or flat-rate shipping to absorb some or all of the cost or will you pass the full cost of shipping on to your customers? If the later, will you use real-time shipping carriers like UPS, CanadaPost, DHL or whatever or will you use custom shiping rates, that you can control yourself?
   
-  {% info note %}
+  {% note info %}
   For unregistered customers, shipping rates are displayed at checkout in the very same order they are set in the admin area (first comes the first active shipping method from the shipping settings page (**Store setup** -> **Shiping**)). 
   
   For registered customers, the first shipping method displayed at checkout will be the one they used for the previous order. The rest of the shipping methods will come in the order of active shipping methods defined in the admin area.
