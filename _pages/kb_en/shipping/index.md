@@ -20,6 +20,7 @@ There are some basics that set a foundation for the rest of your shipping. While
   
   {% note info %}
   For unregistered customers, shipping rates in X-Cart are displayed at checkout in the very same order they are sorted on the shipping settings page in the admin area (**Store setup** -> **Shipping**), i.e. first comes the first active shipping method from the settings page, next come all the rest active shipping methods as they are.
+  
   For registered customers, first comes the shipping method used for the previous order. The rest of the shipping methods are displayed according to the order of the active shipping methods in the admin area.
   {% endnote %}
 
