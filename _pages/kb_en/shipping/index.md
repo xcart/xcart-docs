@@ -17,6 +17,11 @@ There are some basics that set a foundation for the rest of your shipping. While
 * _Your shipping rates and methods_
 
   Will you offer free or flat-rate shipping to absorb some or all of the cost or will you pass the full cost of shipping on to your customers? If the later, will you use real-time shipping carriers like UPS, CanadaPost, DHL or whatever or will you use custom shiping rates, that you can control yourself?
+  
+  {% note info %}
+  For unregistered customers, shipping rates in X-Cart are displayed at checkout in the very same order they are sorted on the shipping settings page in the admin area (**Store setup** -> **Shipping**), i.e. first comes the first active shipping method from the settings page, next come all the rest active shipping methods as they are.
+  For registered customers, first comes the shipping method used for the previous order. The rest of the shipping methods are displayed according to the order of the active shipping methods in the admin area.
+  {% endnote %}
 
 * _Product weights_
 
