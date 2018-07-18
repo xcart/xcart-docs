@@ -27,7 +27,7 @@ There are some basics that set a foundation for the rest of your shipping. While
 
   Before you can ship products, you’ll first need to decide your pricing strategy for shipping. There are several common methods, but your choice should always be informed by the underlying financials of your business.
 
-  X-Cart is integrated with the real-time shipping carriers as well as suppotrs custom shipping rates that you can set up and control yourself. Moreover you can combine both ways for more profit if necessary. Below you will find a guide on the basic shipping configuration and setup as well as some use cases that may be helpful to understand the overall shipping opportunities.
+  X-Cart is integrated with the real-time shipping carriers and supports custom shipping rates as well that you can set up and control yourself. Moreover you can combine both ways for more profit if necessary. Below you will find a guide on the basic shipping configuration and setup as well as some use cases that may be helpful to understand the overall shipping opportunities.
 
 
 _In this section:_
