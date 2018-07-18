@@ -27,6 +27,12 @@ X-Cart 5 provides integrations with a few of the most popular real-time shipping
 
 During checkout, after a customer has submitted the shipping address, X-Cart sends the order information to the API of the carrier (for example, FedEx). The carrier then uses the information submitted by X-Cart  - including the information about the origin and destination addresses, the weight of the products in the order and, if specified, the expected parcel dimensions (length, width, height) - to calculate the shipping rates. The customer is then provided with information about the shipping options and rates applicable to the order.
 
+{% info note %}
+For unregistered customers shipping rates are displayed at checkout in the very same order they are set in the admin area (first comes the first active shipping method from the shipping settings page (**Store setup** -> **Shiping**)). 
+
+For registered customers the first shipping method displayed at checkout will be the one they used for the previous order. The rest of the shipping methods will come in the order of active shipping methods defined in the admin area.
+{% endnote %}
+
 Since the shipping costs are calculated automatically by the carrier at the exact time the order is placed at, this method allows you to get the most accurate rates.
 
 To use carrier-calculated shipping rates, configure shipping as outlined below:
