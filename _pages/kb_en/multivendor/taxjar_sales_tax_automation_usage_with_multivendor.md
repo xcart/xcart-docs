@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-18 13:19 +0400'
 identifier: ref_4ne38ZTm
-title: 'AvaTax Sales Tax Automation: Usage with Multivendor'
+title: 'TaxJar Sales Tax Automation: Usage with Multivendor'
 order: 1200
 published: true
 ---
