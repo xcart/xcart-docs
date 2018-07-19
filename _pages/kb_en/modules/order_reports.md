@@ -27,11 +27,11 @@ To analize statistics on the orders placed in the store a cart admin should open
     
     ![segments.png]({{site.baseurl}}/attachments/ref_52nVzkWs/segments.png)
     
-    * **Total** : Provides general statistics on the orders' gross total and subtotal for the requested peried, on the shipping and tax charges, on average order value	and customer lifetime value, total number of repeat purchases, etc.
+    * **Total** : Provides general statistics on the orders' gross total and subtotal for the requested period, on the shipping and tax charges, on average order value	and customer lifetime value, total number of repeat purchases, etc.
     * **Product** : Provides info on the most profitable and most ordered products
     * **Category** : Provides info on the most profitable categories in the store. 
-    * **Shipping country** : Provides info on the countries you are selling to ranging them by the volume of sales values and nember of orders.
-    * **Shipping state** : Provides info on the states (if a country has them) you are selling to ranging them by the volume of sales values and nember of orders.
+    * **Shipping country** : Provides info on the countries you are selling to ranging them by the volume of sales and number of orders.
+    * **Shipping state** : Provides info on the states (if a country has them) you are selling to ranging them by the volume of sales and number of orders.
     * **Coupon** : Provides info on the most profitable coupon sales. The orders with no coupons applied are shown in the _No coupon_ row. 
     * **Top customers** : Provides info on the top buying customers of your store.
     
