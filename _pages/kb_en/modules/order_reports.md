@@ -38,4 +38,3 @@ To analize statistics on the orders placed in the store a cart admin should open
 Each report can be exported into a .CSV file using a special orange button at the top of the page:
 
 ![export.png]({{site.baseurl}}/attachments/ref_52nVzkWs/export.png)
-
