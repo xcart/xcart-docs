@@ -130,7 +130,7 @@ Once a new product has been [added](#adding-a-new-product) to your store, you ca
 
 The set of tabs that will be available to you will depend on your X-Cart edition and the set of addons activated in your store. Below is an overview of some of the popular tasks that can be accomplished by adjusting the advanced product settings via the various tabs of the product page - with information on what X-Cart addons/features you will require.
 
-### Set advanced inventory tracking options for the product
+### Set advanced inventory tracking options for the product (low stock threshold and notifications)
 Whereas it is possible to adjust some basic product inventory tracking settings via the _Prices & Inventory_ section of the Info tab of the product details, you can access still more settings via the "Inventory tracking" tab:
 ![xc5_products_inventory_tracking_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_inventory_tracking_tab.png)
 
