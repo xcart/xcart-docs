@@ -45,6 +45,7 @@ _In this section:_
 *   {% link "Multicurrency Module" ref_2tPJubPU %}
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
 *   {% link "Not Finished Orders" ref_5TMbPwNQ %}
+*   {% link "Order Reports Module" ref_52nVzkWs %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
 *   {% link "PIN Codes Module" ref_2ioJzfJL %}
 *   {% link "POS system for X-Cart" ref_BMTUgGt4 %}
