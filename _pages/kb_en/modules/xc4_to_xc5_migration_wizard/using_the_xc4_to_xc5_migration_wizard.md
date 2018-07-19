@@ -170,7 +170,9 @@ Click on it to launch the migation process:
    
    This is the final step of the wizard. Your data has been successfully migrated.
    ![xc5_mw_step6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step6.png)
-    
+   
+   <a id="add-label-to-signin-form"></a>
+   
    {% note info %}
    Please keep in mind that starting from X-Cart Classic v4.5.x user passwords are not stored in the database. Hence the passwords can't be transferred savefy during the migration process and all users will have to use the **Forgot password?** option on the next login to the X-Cart 5 store in order to get in. 
    
