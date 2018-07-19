@@ -14,4 +14,5 @@ large_header: false
     </div>
   </div>
 </div>
-<script>location="{{ page.redirect.to }}"</script>
+<script>
+window.location.href = "{{ page.redirect.to }}" + (window.location.search || '') + (window.location.hash || '');</script>
