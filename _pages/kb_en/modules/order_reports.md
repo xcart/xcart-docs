@@ -7,7 +7,7 @@ title: Order Reports Module
 order: 203
 published: true
 ---
-[Order Reports module](https://market.x-cart.com/addons/order-reports.html "Order Reports Module") helps merchants to analyze the sales return-on-investment by segmenting orders by products, categories, shipping country, etc. Hence it's possible to track where the most sales come from and get ideas about how to increase the revenue. 
+[Order Reports module](https://market.x-cart.com/addons/order-reports.html "Order Reports Module") helps merchants to analize the sales return-on-investment by segmenting orders by products, categories, shipping country, etc. Hence it's possible to track where the most sales come from and get ideas about how to increase the revenue. 
 
 Order Reports module is included in the X-Cart Ultimate edition and is a paid module for X-Cart Business and Multivendor.
 
