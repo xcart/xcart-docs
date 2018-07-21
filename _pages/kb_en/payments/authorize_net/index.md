@@ -5,7 +5,7 @@ updated_at: '2018-07-21 13:58 +0400'
 identifier: ref_3fG0OGvw
 title: Authorize.NET
 order: 500
-published: false
+published: true
 ---
 An X-Cart store can be integrated with Authorize.NET payment system. Currently, there are two Authorize.NET payments available in the X-Cart Marketplace:
 
