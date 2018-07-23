@@ -6,6 +6,8 @@ identifier: ref_T9GhEfev
 title: Free shipping on orders that meet certain conditions
 order: 140
 published: true
+redirect_from:
+  - /shipping/free_shipping_on_orders_that_meet_certain_conditions.html
 ---
 You can easily configure your X-Cart store to provide free shipping on orders that meet certain conditions; for example:
 
