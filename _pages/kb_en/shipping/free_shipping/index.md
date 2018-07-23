@@ -6,6 +6,8 @@ identifier: ref_BCq5l4MP
 title: Free shipping
 order: 139
 published: true
+redirect_from:
+  - /shipping/free_shipping.html
 ---
 _In this section:_
 
