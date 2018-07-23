@@ -5,7 +5,7 @@ updated_at: '2018-07-23 16:44 +0400'
 identifier: ref_7fLCkUYr
 title: Authorize.NET Accept.js Payment Configuration
 order: 110
-published: false
+published: true
 ---
 To enable Authorize.NET Accept.js as a payment method in your X-Cart store, {% link "add it to the list" ref_36BqwVSF %} of your store's active payment methods:
 
