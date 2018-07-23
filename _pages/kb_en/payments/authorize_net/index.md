@@ -21,5 +21,5 @@ To accept payments with Authorize.NET, you will need an Authorize.NET account. I
 
 Please read on:
 
-* Authorize.NET SIM payment configuration [under construction]
+* {% link "Authorize.NET SIM Payment Configuration" ref_6Ah9C8EW %}
 * Authorize.NET Accept.js payment configuration [under construction]
