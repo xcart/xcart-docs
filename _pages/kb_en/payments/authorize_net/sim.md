@@ -25,7 +25,7 @@ To enable Authorize.NET SIM as a payment method in your X-Cart store, {% link "a
       Use this button to install the module and add the method.
       {% endnote %}
       
-   3. Configure the Authorize.NET SIM payment on the payment settings page:
+   3. Configure the Authorize.NET SIM payment on the payment settings page as follows:
       
       ![sim-settings.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/sim-settings.png)
       
