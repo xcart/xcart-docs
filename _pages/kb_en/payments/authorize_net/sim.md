@@ -18,7 +18,7 @@ To enable Authorize.NET SIM as a payment method in your X-Cart store, {% link "a
       ![sim-add.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/sim-add.png)
 
       {% note info %}
-      If the PayPal Powered by Braintree module is not installed in your X-Cart store at the time of adding the method, there will be an **Install** button instead of **Add**: 
+      If the Authorize.NET SIM module is not installed in your X-Cart store at the time of adding the method, there will be an **Install** button instead of **Add**: 
         
       ![sim-install.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/sim-install.png)
         
