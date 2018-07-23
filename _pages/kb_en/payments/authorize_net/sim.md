@@ -5,7 +5,7 @@ updated_at: '2018-07-21 14:36 +0400'
 identifier: ref_6Ah9C8EW
 title: Authorize.NET SIM Payment Configuration
 order: 100
-published: false
+published: true
 ---
 To enable Authorize.NET SIM as a payment method in your X-Cart store, {% link "add it to the list" ref_36BqwVSF %} of your store's active payment methods:
 
