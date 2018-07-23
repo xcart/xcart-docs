@@ -18,6 +18,7 @@ _In this section:_
 *   {% link "Accepting payments" ref_Jq6Bsdrt %}
 *   {% link "PayPal" ref_g8OosGK4 %}
 *   {% link "Braintree" ref_3U96LOWn %}
+*   {% link "Authorize.NET" ref_3fG0OGvw %}
 *   {% link "Amazon Pay" ref_mri0tPhM %} (former “Pay with Amazon”) 
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
