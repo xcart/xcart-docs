@@ -33,7 +33,7 @@ To enable Authorize.NET SIM as a payment method in your X-Cart store, {% link "a
       When signed up/in, copy your store Relay Response URL and paste it to your Authorize.NET **Account** -> **Response/Receipt URLs** section in the [Merchant Interface](https://account.authorize.net/ "Authorize.NET SIM Payment Configuration")
       
       Next you'll need to specify the following settings :
-      * **API Login ID** : Locate your API Login ID in the Authorize.NET Merchant Interface and paste it here.
+      * **API Login ID** : Locate your API Login ID in the Authorize.NET Merchant Interface ("Security Settings" section -> "API Credentials & Keys" link), copy the value and paste it here.
       * **Transaction key** : Specify the transaction key in this field. 
         
         To obtain the transaction key from the Merchant Interface, do as follows:  
