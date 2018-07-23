@@ -6,6 +6,8 @@ identifier: ref_IU9J0uuT
 title: 'Free shipping on specific products '
 order: 145
 published: true
+redirect_from:
+  - /shipping/free_shipping_on_specific_products.html
 ---
 Free shipping on specific products can be configured using the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %} by X-Cart team. 
 
