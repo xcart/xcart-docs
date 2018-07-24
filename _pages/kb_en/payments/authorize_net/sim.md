@@ -57,7 +57,7 @@ To enable Authorize.NET SIM as a payment method in your X-Cart store, {% link "a
       
       The payment position at checkout will be the same as set on this page, i.e. if this is the first active payment method it will be shown first at checkout.
       
-      ![sim-checkout.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/sim-checkout.png)
+      ![sim-checkout-cw.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/sim-checkout-cw.png)
       
       When a customer chooses to pay an order with Authorize.NET SIM, he'll be redirected to the Authorize.NET payment form after the Place order button is clicked. There it will be necessary to complete the payment on the side of Authorize.Net. 
       
