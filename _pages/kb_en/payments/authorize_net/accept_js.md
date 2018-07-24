@@ -55,6 +55,6 @@ To enable Authorize.NET Accept.js as a payment method in your X-Cart store, {% l
 
       The payment position at checkout will be the same as set on this page, i.e. if this is the first active payment method it will be shown first at checkout.
       
-      ![js-checkout.png]({{site.baseurl}}/attachments/ref_7fLCkUYr/js-checkout.png)
+      ![js-checkout-cw.png]({{site.baseurl}}/attachments/ref_7fLCkUYr/js-checkout-cw.png)
       
       When a customer chooses to pay an order with Authorize.NET Accept.js, he'll be able to submit the cc data info directly on the checkout page in your X-Cart store. This info will be safely transferred to Authorize.NET side and processed there.
