@@ -10,3 +10,4 @@ published: true
 _In this section:_
 
 *   {% link "Adding products" ref_fhzzxDTy %}
+*   {% link "Bulk Product Edit" ref_1kSYmXQn %}
