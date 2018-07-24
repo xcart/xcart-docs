@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2015-12-21 00:00'
 identifier: ref_uymkBt6a
-title: Products
+title: Products and Catalog
 categories:
   - home
 order: 30
