@@ -8,4 +8,4 @@ order: 100
 published: true
 ---
 *   {% link "Digital Goods" ref_lxNH6TFr %}
-*   {% link "Product Variants" ref_0uApuQfx %}
+*   {% link "Product Variants" ref_4gDLkmPU %}
