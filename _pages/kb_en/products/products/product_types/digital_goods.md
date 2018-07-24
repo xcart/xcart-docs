@@ -11,4 +11,4 @@ order: 280
 redirect_from:
   - /products/adding_digital_goods.html
 ---
-X-Cart 5 can be used to sell digital goods. The feature is available through the use of the modules {% link "Product File Attachments" ref_0ZWKcob4 %} and {% link "E-goods" ref_ZszpDfxQ %} by X-Cart team.
+X-Cart 5 can be used to sell digital goods. The feature is available through the use of the modules {% link "File attachments" ref_0ZWKcob4 %} and {% link "E-goods" ref_ZszpDfxQ %} by X-Cart team.
