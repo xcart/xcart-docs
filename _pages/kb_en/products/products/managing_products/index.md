@@ -7,4 +7,6 @@ title: Managing Products
 order: 100
 published: false
 ---
+_In this section:_
 
+*   {% link "Adding products" ref_fhzzxDTy %}
