@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-28 18:09 +0400'
 identifier: ref_lxNH6TFr
-title: Digital goods
+title: Digital Goods
 categories:
   - User manual
 published: true
