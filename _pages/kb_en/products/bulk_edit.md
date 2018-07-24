@@ -3,9 +3,11 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-28 13:20 +0400'
 identifier: ref_1kSYmXQn
-title: Products Bulk Edit
+title: Bulk Product Edit
 order: 195
 published: true
+redirect_from:
+  - /products/bulk_edit.html
 ---
 It's not a secret that making similar changes in multiple products is a monotonous and time-consuming process. Hence it facilitates the general workflow greatly when an admin can change multiple products at the same time. In X-Cart you can do this using the **'Bulk edit all'** tool on the product listing page in the store admin area (**Catalog** -> **Products**).
 
@@ -115,4 +117,4 @@ To edit price and membership for products in bulk:
   | Length / Width / Height | Use this fields define the box dimensions  |
   | Maximum items in box | Use this fields define how many products can be put in the box |
 
-* Save changes 
+* Save changes
