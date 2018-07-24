@@ -16,7 +16,7 @@ published: true
 _In this section:_
 
 *   {% link "Product Categories" ref_6rpDdput %}
-*   {% link "Adding products" ref_fhzzxDTy %}
+*   {% link "Products" ref_5vJ9gwBl %}
 *   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
 *   {% link "How to add video to a product or category description." ref_7zAsoYst %}
 *   {% link "Product File Attachments" ref_0ZWKcob4 %}
