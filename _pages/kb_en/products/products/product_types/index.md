@@ -7,6 +7,7 @@ title: Product Types
 order: 100
 published: true
 ---
-*   {% link "Digital Goods" ref_lxNH6TFr %}
+*   {% link "Downloadable Products" ref_lxNH6TFr %} (aka Digital goods / Egoods / Digital distribution products)
 *   {% link "Product Variants" ref_4gDLkmPU %}
+*   {% link "PIN Codes" ref_4JeE99n8 %}
 *   {% link "Bookable Products" ref_4IYL2Shf %}
