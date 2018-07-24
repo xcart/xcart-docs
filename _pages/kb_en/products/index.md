@@ -17,14 +17,10 @@ _In this section:_
 
 *   {% link "Product Categories" ref_6rpDdput %}
 *   {% link "Adding products" ref_fhzzxDTy %}
-*   {% link "Adding featured products" ref_4iFdpTdv %}
 *   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
 *   {% link "How to add video to a product or category description." ref_7zAsoYst %}
 *   {% link "Product File Attachments" ref_0ZWKcob4 %}
-*   {% link "Enabling the «New arrivals» block" ref_2A50nkO9 %}
-*   {% link "Enabling the «Recently viewed» block" ref_9aKsqqeK %}
-*   {% link "Enabling the «Coming soon» block" ref_hQnN8cAT %}
-*   {% link "Enabling the Bestsellers block" ref_p1CIVmy6 %}
+*   {% link "Promotional Blocks" ref_2jxmZvPp %}
 *   {% link "Enabling product comparison" ref_xWLlmcLL %}
 *   {% link "Adding digital goods" ref_lxNH6TFr %}
 *   {% link "Product variants" ref_0uApuQfx %}
