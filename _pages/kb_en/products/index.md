@@ -18,4 +18,4 @@ _In this section:_
 *   {% link "Promotional Blocks" ref_2jxmZvPp %}
 *   {% link "Enhancement of Catalog Usability" ref_4rdSdQFC %}
 
-*   {% link "Product File Attachments" ref_0ZWKcob4 %}
+
