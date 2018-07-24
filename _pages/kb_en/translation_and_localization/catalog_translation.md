@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-02-09 13:26 +0400'
 identifier: ref_5MQvg8Mm
-title: Translating product catalog into another language
+title: Translating the product catalog into another language
 order: 120
 published: true
 description: translating product catalog into another language
