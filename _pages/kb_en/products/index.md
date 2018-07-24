@@ -13,7 +13,7 @@ published: true
 ---
 _In this section:_
 
-*   {% link "Product Categories" ref_6rpDdput %}
+*   {% link "Categories" ref_6rpDdput %}
 *   {% link "Products" ref_5vJ9gwBl %}
 *   {% link "Promotional Blocks" ref_2jxmZvPp %}
 *   {% link "Enhancement of Catalog Usability" ref_4rdSdQFC %}
