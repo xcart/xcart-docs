@@ -9,4 +9,4 @@ published: true
 ---
 _In this section:_
 
-*   {% link "Adding products" ref_fhzzxDTy %}
+*   {% link "Managing products" ref_5nD0rz0a %}
