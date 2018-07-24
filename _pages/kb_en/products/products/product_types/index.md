@@ -9,3 +9,4 @@ published: true
 ---
 *   {% link "Digital Goods" ref_lxNH6TFr %}
 *   {% link "Product Variants" ref_4gDLkmPU %}
+*   {% link "Bookable Products" ref_4IYL2Shf %}
