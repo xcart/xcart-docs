@@ -18,8 +18,8 @@ _In this section:_
 *   {% link "Promotional Blocks" ref_2jxmZvPp %}
 
 *   {% link "Product File Attachments" ref_0ZWKcob4 %}
-*   {% link "Product variants" ref_0uApuQfx %}
-*   {% link "Setting up wholesale prices and minimum purchase quantites for different membership levels" ref_ttZa4qgu %}
+
+
 
 
 _Related pages:_
