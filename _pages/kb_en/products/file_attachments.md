@@ -7,11 +7,15 @@ title: Product File Attachments
 order: 166
 published: true
 ---
-Sometimes it's necessary to expand the regular products description with a file attachment to provide your customers with a manual if you are selling e.g. household appliances or with a detailed programm description if you are selling courses, whatever.
+Sometimes it may be necessary to enhance the regular product description with a file attachment to provide your customers with a manual (that is, for example, if you are selling household appliances) or with a detailed program description (for example, if you are selling educational courses, etc.)
 
-You can do this using the _Attachments_ tab on the Product details page (**Catalog** -> **Products** section). 
+You can do that using the addon [File attachments](https://market.x-cart.com/addons/file-attachments.html). 
 
+The addon adds a special tab on the product page in the store back end -  "Attachments" - which enables you to attach files to the product; your store visitors can then download these files from the product page.
 ![att-1.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/att-1.png)
+
+You can upload files from your local computer, from a URL or from your store server. The maximum file size is limited by the server settings.
+
 
 To add an attachment to a product:
 
@@ -22,16 +26,13 @@ To add an attachment to a product:
     * from your local server
     * via URL
 
-2. Choose the file and click **Upload**
-  The maximum file size is limited by the server settings.
+2. Choose the file and click **Upload**.  
 
-3. The file will be added to the product
+The file will be added to the product:
    ![att-3.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/att-3.png)
   
-  You can add a file description, download the file or re-upload it if necessary. 
-  
-  If you need to delete the file, click the _Trash_ icon next to it.
-  
+If necessary, you can add a file description, download the file, re-upload it or delete it.
+ 
  
   
   _Related articles:_
