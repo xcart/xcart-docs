@@ -7,3 +7,4 @@ title: PIN codes
 order: 100
 published: false
 ---
+X-Cart allows you to sell codes. This may be useful if you need to sell licenses, enrollment keys, PIN codes, serial numbers, activation codes, passwords, phone cards and access codes. This feature is enabled by the addon [PIN codes](https://market.x-cart.com/addons/pin-codes.html). For more information on using this addon, see the section {% link "PIN Codes Module" ref_2ioJzfJL %} of this manual.
