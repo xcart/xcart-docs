@@ -33,6 +33,7 @@ _In this section:_
 *   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
 *   {% link "E-goods" ref_ZszpDfxQ %}
 *   {% link "Facebook eCommerce Module" ref_LA0TBHEA %}
+*   {% link "FedEx" ref_58tOKWMt %}
 *   {% link "File attachments" ref_0ZWKcob4 %}
 *   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
 *   {% link "Free Shipping and Shipping freights" ref_4Bfeegp9 %}
