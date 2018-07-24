@@ -11,6 +11,6 @@ _In this section:_
 
 *   {% link "Adding featured products" ref_4iFdpTdv %}
 *   {% link "Enabling the «New arrivals» block" ref_2A50nkO9 %}
-*   {% link "Enabling the «Recently viewed» block" ref_9aKsqqeK %}
 *   {% link "Enabling the «Coming soon» block" ref_hQnN8cAT %}
+*   {% link "Enabling the «Recently viewed» block" ref_9aKsqqeK %}
 *   {% link "Enabling the Bestsellers block" ref_p1CIVmy6 %}
