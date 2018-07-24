@@ -6,4 +6,5 @@ identifier: ref_5GDTzgnR
 title: Translating the catalog into another language
 order: 700
 published: true
+redirect_to: /translation_and_localization/catalog_translation.html
 ---
