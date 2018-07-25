@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-25 16:08 +0400'
 identifier: ref_5V3qE4xK
-title: ''
+title: Adding Categories
 order: 100
 published: true
 ---
