@@ -74,7 +74,7 @@ If the access of any existing vendor to the marketplace needs to be discontinued
 
 ## Converting existing customers to vendors
 If an existing registered customer user wants to become a vendor, the store administrator can convert their existing customer account to vendor. To complete the task, the administrator needs to find the customer (the one that needs to be converted) in the Admin area, open their profile for editing and use the option to convert the customer to vendor (_"Convert to vendor"_)  available via the **Profile actions** selector:
-![xc5_mv_customer_convert_2_vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_customer_convert_2_vendor.png)
+![xc5_mv_customer_convert2vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_customer_convert2vendor.png)
 
 
 _Related pages:_
