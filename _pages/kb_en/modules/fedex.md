@@ -43,15 +43,26 @@ So first of all you'll need to fill in the following fields in accordance with y
 *   **Test mode**: Turn the test mode on if you want to check the FedEx shipping processing before making it live.
 *   **Enable debugging**: This option enables logging of requests to the FedEx server and responses from it. The logs are saved to **fedex.log** files in the `<X-Cart>/var/log/` folder.
  
-## Carrier tyoes
+## Carrier types
 
 These are the options that will be applied to both domestic and international shipments:
 
 ![settings-carrier-types.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-carrier-types.png)
 
-*   **Package box type**: Select the type of packaging that will be used for shipments.
-*   **Package dimensions (IN)** (Length, Width, Height): Use these fields to define the default package size for USPS shipments in inches.
-*   **Maximum package weight (lbs)**: Specify the top limit of package's weight in lbs.
+*   **FedEx Express (FDXE)**: 
+*   **FedEx Ground (FDXG)** 
+*   **FedEx SmartPost (FXSP)**: 
+    ![settings-smertpost-on.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-smertpost-on.png)
+    * **Hub ID**:
+    * **Indicia**:
+*   **Rate request type**: 
+*   **Packaging**: Select the type of packaging that will be used for shipments.
+*   **Dropoff type**: 
+*   **Ship date (days)**: 
+*   **Currency code**: If the shipping currency is other than USD, specify it in this field.
+*   **Currency rate**: Set the currency conversion rate here. If your currency is the US dollar, leave this field set to 1.
+*   **Package dimensions (inches)**: Use these fields to define the default package size for FedEx shipments in inches (Length, Width, Height).
+*   **Maximum package weight**: Specify the top limit of package's weight in lbs.
 
 ## Special services
 
@@ -77,15 +88,6 @@ Follow the link from the _Note_ to find the payments section
 ![note.png]({{site.baseurl}}/attachments/ref_58tOKWMt/note.png)
 
 {% endnote %}
-
-## Currency conversion options
-
-Use this section to provide a currency convertion rate if your currency is other than the US dollar. 
-
-![currency.png]({{site.baseurl}}/attachments/ref_0uCGd6Bs/currency.png)
-
-*   **Shipping cost currency**: If the shipping currency is other than USD, specify it in this field.
-*   **Currency rate**: Set the currency conversion rate here. If your currency is the US dollar, leave this field set to 1.
 
 
 ## Advanced options
