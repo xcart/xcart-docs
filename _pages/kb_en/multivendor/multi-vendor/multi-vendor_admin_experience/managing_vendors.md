@@ -69,9 +69,13 @@ If the information from the profiles of some or all of the store's vendors needs
 ![xc5_multi-vendor_export.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_export.png)
 
 ## Removing vendors
-
 If the access of any existing vendor to the marketplace needs to be discontinued, the store administrator can remove their user profile via the Users section of the store's Admin area:
 ![xc5_multi-vendor_removal.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_removal.png)
+
+## Converting existing customers to vendors
+If an existing registered customer user wants to become a vendor, the store administrator can convert their existing customer account to vendor. To complete the task, the administrator needs to find the customer (the one that needs to be converted) in the Admin area, open their profile for editing and use the option to convert the customer to vendor (_"Convert to vendor"_)  available via the **Profile actions** selector:
+![xc5_mv_customer_convert_2_vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_customer_convert_2_vendor.png)
+
 
 _Related pages:_
    
