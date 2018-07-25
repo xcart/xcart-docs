@@ -5,7 +5,7 @@ updated_at: '2018-07-24 13:03 +0400'
 identifier: ref_58tOKWMt
 title: FedEx
 order: 168
-published: false
+published: true
 ---
 The [FedEx module](https://market.x-cart.com/addons/fedex.html "FedEx") for X-Cart 5 allows you to use online shipping rate calculation via [FedEx service](https://www.fedex.com/en-us/home.html "FedEx").
 
