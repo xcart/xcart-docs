@@ -5,7 +5,7 @@ updated_at: '2018-07-25 16:17 +0400'
 identifier: ref_3RiU8luY
 title: ''
 order: 100
-published: false
+published: true
 ---
 
 To add a product to a category in X-Cart:
@@ -16,4 +16,4 @@ To add a product to a category in X-Cart:
 
 ![product.png]({{site.baseurl}}/attachments/ref_6rpDdput/product.png)
 
-If you are going to have many products and categories, adding products to categories one by one manually via the Admin interface may take quite a while. Instead, you may want to try importing products as described in {% link "How to import data" ref_glDc6kA1 %}. 
+If you are going to have many products and categories, adding products to categories one by one manually via the Admin interface may take quite a while. Instead, you may want to try importing products as described in {% link "How to import data" ref_glDc6kA1 %}.
