@@ -23,6 +23,11 @@ By clicking on the vendor company name link on the **Vendors** menu, a store vis
 
 ![xc5_mv_vendor_page_in_customer.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_vendor_page_in_customer.png)
 
+Note how the categories list shown on the page is limited just to the categories where the current vendor has products:
+![xc5_mv_vendor_categories.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_vendor_categories.png)
+
+If a store visitor chooses to view some category from the vendor profile page, they will only be shown the products of this specific vendor. 
+
 The details pages of specific products also provide some information about the vendor. This includes the vendor's company name (with a link to the vendor profile page) and location:
 
 ![xc5_mv_vendor_product.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_vendor_product.png)
