@@ -7,9 +7,11 @@ title: Product Types
 order: 100
 published: true
 ---
-_In this section:_
+X-Cart supports the following types of products:
 
-*   {% link "Downloadable Products" ref_lxNH6TFr %} 
-*   {% link "Product Variants" ref_4gDLkmPU %}
-*   {% link "PIN Codes" ref_4JeE99n8 %}
-*   {% link "Bookable Products" ref_4IYL2Shf %}
+*   Regular products (the basic product type used in X-Cart; can be created as described in {% link "Adding products" %});
+*   {% link "Downloadable products" ref_lxNH6TFr %}; 
+*   {% link "Product variants" ref_4gDLkmPU %};
+*   {% link "PIN codes" ref_4JeE99n8 %};
+*   {% link "Bookable products" ref_4IYL2Shf %};
+*   {% link "Subscription products" ref_14yhWsEV %}.
