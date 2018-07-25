@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-07-25 16:17 +0400'
 identifier: ref_3RiU8luY
 title: Adding Products to a Category
-order: 100
+order: 500
 published: true
 ---
 
