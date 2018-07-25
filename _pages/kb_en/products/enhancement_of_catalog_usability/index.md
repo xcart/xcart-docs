@@ -15,3 +15,4 @@ _In this section:_
 *   {% link "Setting up wholesale prices and minimum purchase quantites for different membership levels" ref_ttZa4qgu %}
 *   {% link "Translating the catalog into another language" ref_5GDTzgnR %}
 *   {% link "Enabling Catalog Mode and Hiding Prices for Products" ref_6TPP8Yyb %} (No checkout)
+*   {% link "Adding Promotional Blocks" ref_1Rl9SIIU %}
