@@ -5,7 +5,7 @@ updated_at: '2018-07-25 16:08 +0400'
 identifier: ref_5V3qE4xK
 title: ''
 order: 100
-published: false
+published: true
 ---
 To add a new category in an X-Cart store catalog:
 
@@ -50,4 +50,3 @@ Click **Update** to save the changes.
 To add a subcategory you should do almost all the same as to add a category, as a subcategory is a category in fact but of a lower level. So go to the Subcategories tab on the category details page, click the **New Category** button and follow the procedure described above.
 
 ![subcategory.png]({{site.baseurl}}/attachments/ref_6rpDdput/subcategory.png)
-
