@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-07-25 16:45 +0400'
 identifier: ref_3aUJrW2c
 title: Managing the Category Block Representation
-order: 100
+order: 1000
 published: false
 ---
 By default your product categories are displayed as a block in the left-hand side column of the store site. 
