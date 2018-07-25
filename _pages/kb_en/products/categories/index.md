@@ -11,4 +11,5 @@ redirect_from:
 ---
 _In this section:_
 
-{% link "Managing Categories" ref_2JeiDy5a %}
+*  {% link "Managing Categories" ref_2JeiDy5a %}
+*  {% link "Managing the Category Block Representation" ref_3aUJrW2c %}
