@@ -5,7 +5,7 @@ updated_at: '2018-07-25 16:45 +0400'
 identifier: ref_3aUJrW2c
 title: Managing the Category Block Representation
 order: 1000
-published: false
+published: true
 ---
 By default your product categories are displayed as a block in the left-hand side column of the store site. 
 
@@ -41,4 +41,3 @@ To add categories to the top menu:
 {% note info%}
 It is also possble to move the categories list to the horizontal bar using the X-Cart addon [Horizontal Flyout Categories Menu](https://market.x-cart.com/addons/horizontal-flyout-categories-menu.html "Product Categories"). Its easier in setup.
 {% endnote %}
-
