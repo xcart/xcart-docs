@@ -19,7 +19,7 @@ In a multi-vendor X-Cart 5 store, the storefront provides a **Vendors** menu fro
 
 Note that the **Vendors** menu appears on the storefront only if the store administrator has chosen to make this menu available in the sidebar of the store site. 
 
-By clicking on the vendor company name link on the **Vendors** menu, store visitors can access the vendor's profile page. This page provides general information about the vendor including their company name, image, description and location. It also lists all the vendor's products:
+By clicking on the vendor company name link on the **Vendors** menu, a store visitor goes to the vendor's profile page and enters a browsing mode in which they can view the products of just this one vendor. The vendor's profile information displayed on the page includes the vendor's company name, image, description and location. It also provides a list of categories in which the vendor has products and allows the store visitor to browse through the products of the vendor:
 
 ![xc5_mv_vendor_page_in_customer.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_vendor_page_in_customer.png)
 
