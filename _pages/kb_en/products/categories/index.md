@@ -9,3 +9,6 @@ published: true
 redirect_from:
   - /products/categories.html
 ---
+_In this section:_
+
+{% link "Managing Categories" ref_2JeiDy5a %}
