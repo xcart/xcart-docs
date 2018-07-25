@@ -7,7 +7,7 @@ title: ''
 order: 100
 published: false
 ---
-To add a new category:
+To add a new category in an X-Cart store catalog:
 
 1. Go to the _Categories_ section of your store Admin area (**Catalog** > **Categories**).
 
