@@ -39,7 +39,7 @@ published: false
 
 ## Проверка новых отзывов
 Нажмите кнопку на конце строки отзыва, измените текст при необходимости и нажмите **Одобрить** или **Удалить**.
-    <div class="ui stackable two column grid">
+<div class="ui stackable two column grid">
   <div class="column" markdown="span">![9.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/9.jpg)
 </div>
   <div class="column" markdown="span">![10.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/10.jpg)
@@ -54,20 +54,30 @@ published: false
     ![12.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/12.jpg)
 
 Откроется окно редактирования отзыва:
-    ![13.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/13.jpg)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![13.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/13.jpg)
+</div>
+  <div class="column" markdown="span">![10.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/10.jpg)
+</div>
+</div>    
 
 Измените отзыв и нажмите **Обновить** (для опубликованных отзывов) и **Одобрить** или **Удалить** (для ожидающих модерации отзывов).
 
 ## Создание отзывов в интерфейсе администратора
 Над списком отзывов нажмите **Добавить отзыв**:
-    ![xc5_productreviews_add_from_admin.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_add_from_admin.png)
+   <div class="ui stackable two column grid">
+  <div class="column" markdown="span">![14.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/14.jpg)
+</div>
+  <div class="column" markdown="span">![15.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/15.jpg)
+</div>
+</div>
 
 Заполните все поля и нажмите **Создать**:
-    ![xc5_productreviews_add_from_admin1.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_add_from_admin1.png)
+    ![16.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/16.jpg)
 
 ## Экспорт отзывов
 Для экспорта всех отзывов нажмите **Экспорт: CSV** под спискои отзывов. 
-    ![xc5_productreviews_export_all.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_export_all.png)
+    ![17.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/17.jpg)
 
 Для экспорта нескольких отзывов найдите отзывы по фильтрам или отметьте галочками в списке и нажмите **Эскпорт выбранных: CSV** под списком отзывов.
-    ![xc5_productreviews_export_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_export_selected.png)
+    ![18.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/18.jpg)
