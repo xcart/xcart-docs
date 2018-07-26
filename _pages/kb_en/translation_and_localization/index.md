@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-02-13 14:18 +0400'
 identifier: ref_1frAlu26
 title: Translation and Localization
-order: 75
+order: 20
 published: true
 description: Learn how to localize your store and make it multilingual
 icon: translate
