@@ -6,7 +6,7 @@ identifier: ref_kJmd7K27
 title: Taxes
 categories:
   - home
-order: 80
+order: 45
 icon: calculator
 description: Define the rules for correct charge of various tax types
 published: true
