@@ -5,7 +5,7 @@ updated_at: '2018-07-26 13:49 +0400'
 identifier: ref_7qhcvhtF
 title: Настройка модуля Отзывы о товарах (Product reviews)
 order: 510
-published: false
+published: true
 ---
    1. В разделе **Мои модули** найдите модуль по названию и нажмите **Настройки**:
     ![2.jpg]({{site.baseurl}}/attachments/ref_7qhcvhtF/2.jpg)
