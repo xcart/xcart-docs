@@ -6,7 +6,7 @@ identifier: ref_9z7v4QHi
 title: General setup
 categories:
   - home
-order: 10
+order: 15
 icon: configure
 description: Guides describing the process of installing and configuring your X-Cart 5
 published: true
