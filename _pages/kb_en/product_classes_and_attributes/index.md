@@ -6,7 +6,7 @@ identifier: ref_T90ZcEpP
 title: Product classes and attributes
 categories:
   - home
-order: 120
+order: 30
 icon: table
 description: Manage the range of products with ease
 published: true
