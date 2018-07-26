@@ -5,7 +5,7 @@ updated_at: '2018-07-26 15:07 +0400'
 identifier: ref_6UmXrl9m
 title: Работа с отзывами о товарах
 order: 520
-published: false
+published: true
 ---
 Отзывы о товарах находятся в разделе **Каталог / Отзывы** в панели управления магазина:
     ![4.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/4.jpg)
