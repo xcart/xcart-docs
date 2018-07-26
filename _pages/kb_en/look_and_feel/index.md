@@ -6,7 +6,7 @@ identifier: ref_bzUBJufx
 title: Look and feel
 categories:
   - home
-order: 65
+order: 70
 icon: paint brush
 description: Make your shop one of a kind applying slick and stylish themes and tweaks
 published: true
