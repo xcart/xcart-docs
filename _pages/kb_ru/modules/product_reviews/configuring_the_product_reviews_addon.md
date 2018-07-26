@@ -7,10 +7,10 @@ title: Настройка модуля Отзывы о товарах (Product r
 order: 510
 published: false
 ---
-   1. В разделе **Мои модули** найдите модуль п названию и нажмите **Настройки**:
-    ![xc5_productreviews_settingsbutton.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_settingsbutton.png)
+   1. В разделе **Мои модули** найдите модуль по названию и нажмите **Настройки**:
+    ![2.jpg]({{site.baseurl}}/attachments/ref_7qhcvhtF/2.jpg)
       Откроется страница параметров модуля:
-    ![xc5_productreviews_settings1.png]({{site.baseurl}}/attachments/ref_45EGhRet/xc5_productreviews_settings1.png)
+    ![3.jpg]({{site.baseurl}}/attachments/ref_7qhcvhtF/3.jpg)
   
    2. Настройте модуль: 
       * **Кто оставляет отзывы** - Выберите, кто из пользователей может оценивать товары и оставлять отзывы (зарегистрированные пользователи или купившие этот товар зарегистрированные пользователи).
