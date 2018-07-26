@@ -8,7 +8,8 @@ order: 500
 published: false
 ---
 Модуль входит в _X-Cart Бизнес_, _X-Cart Мультивендор_ и _X-Cart Всё включено_.
-    ![xc5_productreviews_module.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_module.png)
+
+![1.jpg]({{site.baseurl}}/attachments/ref_78e2YH3R/1.jpg)
 
 На странице товара покупатели дают товару оценку, отставляют отзывы и видят отзывы других покупателей. 
 
