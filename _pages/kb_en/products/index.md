@@ -6,7 +6,7 @@ identifier: ref_uymkBt6a
 title: Products and Catalog
 categories:
   - home
-order: 30
+order: 25
 icon: cube
 description: Fill your catalog with detailed product pages and various promotional blocks
 published: true
