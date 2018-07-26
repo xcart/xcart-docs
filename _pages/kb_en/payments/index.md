@@ -6,7 +6,7 @@ identifier: ref_gm10twDM
 title: Payments
 categories:
   - home
-order: 55
+order: 60
 icon: payment
 description: Enable payment methods to accept payments from buyers
 published: true
