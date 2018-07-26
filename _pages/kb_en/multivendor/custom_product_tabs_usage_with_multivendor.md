@@ -5,7 +5,7 @@ updated_at: '2018-07-26 07:19 +0400'
 identifier: ref_13ILtNnj
 title: 'Custom Product Tabs: Usage with Multivendor'
 order: 100
-published: false
+published: true
 ---
 
 In a Multivendor X-Cart store with the addon {% link "Custom Product Tabs" ref_3iTVKlYe %} installed and enabled, the store administrator may choose to allow vendors to specify what product page tabs should be used for their products, as well as give the vendors limited product tab management access.
