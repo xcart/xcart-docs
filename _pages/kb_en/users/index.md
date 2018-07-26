@@ -6,7 +6,7 @@ identifier: ref_QdN8kJnH
 title: Users
 categories:
   - home
-order: 110
+order: 35
 icon: user
 description: 'Adjust users profile fields, provide different memberships for your customers'
 published: true
