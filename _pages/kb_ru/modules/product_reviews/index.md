@@ -7,20 +7,18 @@ title: Отзывы о товарах
 order: 500
 published: false
 ---
-The module **Product reviews** (included in X-Cart business) enables the product ratings and reviews feature for your X-Cart store.
+Модуль входит в _X-Cart Бизнес_, _X-Cart Мультивендор_ и _X-Cart Всё включено_.
     ![xc5_productreviews_module.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_module.png)
 
-With this module, customers can leave feedback for the products they purchased and see what other buyers think about the products and the store. 
+На странице товара покупатели дают товару оценку, отставляют отзывы и видят отзывы других покупателей. 
 
-The store administrator has full product review management capabilities: 
+Администратор имеет полный доступ к отзывам покупателей: 
 
-   * choose who can write product reviews (all registered customers or just those registered customers who have actually purchased the product);   
-   * review the feedback submitted by customers and decide in each case, whether the review should be posted or rejected;
-   * search for specific reviews and filter reviews;
-   * edit and even create new reviews from the Admin area. 
+   * устанавливает, кто может оставить отзыв (все зарегистрированные пользователи или только купившие товар зарегистрированные пользователи);   
+   * просматривает, публикует или удаляет отзывы;
+   * находит отзывы с помощью поиска и по фильтрам;
+   * редактирует и создаёт новые отзывы. 
 
-
-_In this section:_
 
    * {% link "Configuring the Product reviews addon" ref_45EGhRet %}
    * {% link "Managing product reviews" ref_04i6vQJb  %}
