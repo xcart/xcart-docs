@@ -7,17 +7,15 @@ title: Настройка модуля Отзывы о товарах (Product r
 order: 510
 published: false
 ---
-To set your preferences for the Product reviews addon:
-   1. In the list of your store's installed addons, locate the entry for Product reviews and click the **Settings** button below it:
+   1. В разделе **Мои модули** найдите модуль п названию и нажмите **Настройки**:
     ![xc5_productreviews_settingsbutton.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_settingsbutton.png)
-      The "Product reviews" addon settings page opens:
+      Откроется страница параметров модуля:
     ![xc5_productreviews_settings1.png]({{site.baseurl}}/attachments/ref_45EGhRet/xc5_productreviews_settings1.png)
   
-   2. Adjust the addon settings: 
-      * Who can leave feedback: Specify the type of store users who should be allowed to add product ratings and reviews (_Registered users only_ or _Registered users who purchased the product_).
-      * Admin moderates all reviews before showing them to customers: Enable this option if you would like to be able to approve and reject reviews so that only approved reviews will be published.
-      * The quantity of reviews for tabs product reviews: Use this setting to specify the maximum number of reviews to be displayed in the Reviews section of a product page (under the Reviews tab). If the number of reviews is greater than the number specified here, visitors will be able to read the rest of the reviews after following the "Read all reviews for the product" link in the lower part of the section.
-      * Request customers to review the purchased products after successful orders: Enable this option if you would like a review request to be sent to customers if their order was successful. A successful order is an order that has been successfully paid for and delivered (Payment status = Paid, Fulfilment status = Delivered). For orders that do not require shipping, the Fulfilment status is not taken into account; such orders are deemed successful as soon as their payment status is set to Paid.
-      * How many days later to send a review request: This setting pertains to the previous one and is only shown when the previous setting is enabled. Use it to specify the length of period (in days) that should pass between updating the status(es) of an order so the order is deemed successful and the sending of a review request to the customer. **Important**: For the automated sending of review requests to customers, your server must be configured to {% link "run scheduled X-Cart tasks" ref_lLqNzAaq %}.
-      
-   3.  Click **Submit** to save the changes.
+   2. Настройте модуль: 
+      * **Кто оставляет отзывы** - Выберите, кто из пользователей может оценивать товары и оставлять отзывы (зарегистрированные пользователи или купившие этот товар зарегистрированные пользователи).
+      * **Администратор проверяет отзывы перед размещением в магазине** - Если опция включена, отзывы о товарах передаются на проверку администратору. Администратор проверяет, размещает или удаляет отзыв.
+      * **Количество отзывов на странице** - Установите максимально возможное  количество отзывов на вкладке **Отзывы** на странице товара. Если отзывов о товаре больше, чем указано в этом поле, полный список доступен по ссылке **Прочитать все отзывы о товаре**. В скобках на конце ссылки указано количество отзывов.
+      * **Отправлять покупателям приглашение оставить отзыв о купленных товарах после успешного заказа** - Если опция включена, после успешного заказа товара покупатель получает запрос на отзыв о товаре. Успешным считается заказ, который оплачен и доставлен (статус оплаты -**Оплачен**, статус доставки - **Доставлен**). Если заказ не требует доставки, статус доставки не учитывается. Такие заказы считаются успешными после изменения статуса на **Оплачен**.
+      * **Через сколько дней отправлять приглашение оставить отзыв**  - Эта опция появляется только после активации предыдущей настройки и устанавливает, через сколько дней после успешного заказа покупатель получает запрос на отзыв. 
+      Чтобы рассылать автоматические запросы на отзыв, необходимо настроить {% link "выполнение запланированных задач на сервере" ref_cronjob28 %}.
