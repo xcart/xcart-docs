@@ -6,7 +6,7 @@ identifier: ref_6tPdxAUT
 title: Setting up X-Cart 5 environment
 categories:
   - home
-order: 15
+order: 10
 icon: server
 description: Discover how to setup an environment for your X-Cart store
 published: true
@@ -26,4 +26,4 @@ This section contains guides on how to set up your X-Cart environment properly:
     *   {% link "Setting up openSSL" ref_GuFOdboA %};
     *   {% link "Creating a self-signed SSL certificate" ref_u3gKq6NF %};
     *   {% link "Setting up .phar" ref_TCoIXzX2 %}.
-*   {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %}.    
+*   {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %}.
