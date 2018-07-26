@@ -29,3 +29,8 @@ This will provide access to the page with the tab details.
 
 To be able to adjust the tab content, the vendor will need to switch off the **Keep default value** option:
 ![mv_customproducttabs_dont_keep_default.png]({{site.baseurl}}/attachments/ref_13ILtNnj/mv_customproducttabs_dont_keep_default.png)
+
+
+_Related pages:_
+
+   * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
