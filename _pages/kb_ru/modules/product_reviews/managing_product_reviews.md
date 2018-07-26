@@ -7,71 +7,62 @@ title: Работа с отзывами о товарах
 order: 520
 published: false
 ---
-The Admin area of your store provides a dedicated section for product reviews - the Product reviews section (**Catalog** > **Reviews**). In this section you can view and manage all the reviews that have been created for the products in your store:
+Отзывы о товарах находятся в разделе **Каталог / Отзывы** в панели управления магазина:
     ![xc5_productreviews_all_product_reviews.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_all_product_reviews.png)
 
-Reviews for individual products can also be viewed and managed via the **Reviews** tab of the product information page of the respective products:
+Отзывы о конкретном товаре доступны на вкладке **Отзывы о товаре** на странице редактирования этого товара:
     ![xc5_productreviews_reviews_4product.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_reviews_4product.png)
     
-This article covers:
-
-   * {% link "Understanding product review information" #understanding-product-review-information %}
-   * {% link "Filtering product reviews" #filtering-product-reviews %}
-   * {% link "Deleting product reviews" #deleting-product-reviews %}
-   * {% link "Handling pending product reviews" #handling-pending-product-reviews %}
-   * {% link "Editing product reviews" #editing-product-reviews %}
-   * {% link "Adding product reviews via the Admin area" #adding-product-reviews-via-the-admin-area %}
-   * {% link "Exporting product reviews" #exporting-product-reviews %}
+{% link toc %}
    
+## Содержание отзывов
+Список отзывов представлен в виде таблицы, содержащей следующую ниформацию:
 
-## Understanding product review information
-In each of the above-named locations, product reviews are presented in a table. For each review, the following information is available:
+   * **Товар** (только в разделе **Каталог / Отзывы**) - название товара, о котором оставлен отзыв.
+   * **Автор** - Имя, которое автор отзыва указал в окне создания отзыва, и адрес электронной почты пользователя.
+   * **Отзыв** - Текста отзыва. Если текст длинный и не помещается в поле, отображается только часть первой фразы. Наведите курсор на текст, чтобы увидеть полный отзыв.
+   * **Рейтинг** - Оценка в звездочках, даннная покупателем товару.
+   * **Статус** - Статус отзываю Опубликован - отзыв размещён на странице товара. Ожидает модерации - администратор ещё не проверил отзыв, отзыв будт одобрен или удален.
+   * **Дата** - Дата создания отзыва покупателем.
+   * **SEO** (только на странице товара) - В этой колонке выберите отзыв, который будет показан в расширенном описании страницы, если товар попадет в результаты поиска в Google и других поисковых системах. Подробнее об этом рассказано в [статье Google](https://support.google.com/webmasters/answer/146750 "Работа с отзывами о товарах").Сортировка отзывов
 
-   * Product (This column is _not_ provided on the **Reviews** tab of the product information page): Name of the product that was reviewed.
-   * Reviewer: Name (as specified by the user while creating the review) and email address of the user who submitted the review.
-   * Review: The beginning of the comment about the product that was submitted by the reviewer in the body of the review. To view the entire comment, click on the **[...]** button on the line of the review.
-   * Rating: Star rating of the product as was specified by the reviewer.
-   * Status: Review publication status (_Published_ = The review is available online; _Pending_ = The review is on moderation, and the administrator has yet to approve the review for publication or to reject it).
-   * Date: Date on which the review was submitted.
-   * SEO (This column is provided only on the **Reviews** tab of the product information page): Whether the review should be included into the rich snippet shown for the page of the product when the page appears in search results by Google and other major search engines. More info: https://support.google.com/webmasters/answer/146750
-
-## Filtering product reviews
-In the Product reviews section (**Catalog** > **Reviews**), a filter is provided above the Product reviews table allowing you to filter reviews and search for specific reviews based on product name, SKU, customer info, rating given by customer, review status, date range and so on.
+## Сортировка отзывов
+В разделе **Каталог / Отзывы** над списком отзывов расположены фильтры для поиска отзывов по параметрам - названию товара, артикулу, покупателю, рейтингу товара, статусу отзыва, дате.
     ![xc5_productreviews_filter.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_filter.png)
 
-## Deleting product reviews
-To delete a review, click on the Trash icon on the line of that review in the table, then click **Save changes**. 
+## Удаление отзывов
+Чтобы удалить один отзыв, нажмите на значок корзины в конце его строки и кнопку **Сохранить**. 
     ![xc5_productreviews_delete.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_delete.png)
 
-To delete multiple reviews, select the check boxes for those reviews and click the Trash button below the Product reviews table. Then confirm your wish to delete the selected reviews.
+Чтобы удалить несколько отзывов, отметьте отзывы галочками слева, нажмите на значок корзины под списком отзывов и кнопку **Сохранить**.
     ![xc5_productreviews_delete_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_delete_selected.png)
 
-## Handling pending product reviews
-To moderate a _Pending_ review, click on the **[...]** button on the line of that review, check if the review requires editing (the review can be edited right away) and click either **Approve** or **Remove**.
+## Проверка новых отзывов
+Нажмите кнопку на конце строки отзыва, измените текст при необходимости и нажмите **Одобрить** или **Удалить**.
     ![xc5_productreviews_moderate.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_moderate.png)
 
-To moderate multiple reviews at the same time, select the check boxes for those reviews, click the Check button below the table and select the option you require from the expanded button menu (_Approve selected_ will approve all the selected reviews and publish them on the product details page of the respective products; _Unapprove selected_ will unpublish the selected reviews resetting their status from _Published_ to _Pending_).
+Чтобы одновременно изменить несколько отзывов, отметьте отзывы галочками слева, нажмите на галочку под списком отзывов и из меню выберите нужное значение. **Одобрить выбранные** - отзывы будут размещены на страницах товаров. **Не одобрять выбранные** - отзывы будут удалены со страниц товаров, их статус изменится с Опубликовано на Ожидает модерации.
     ![xc5_productreviews_moderate_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_moderate_selected.png)
 
-## Editing product reviews
-To edit a review, click on the **[...]** button on the line of that review:
+## Редактирование отзывов
+Нажмите кнопку на конце строки отзыва, откроется окно редактирования:
     ![xc5_productreviews_more_opts.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_more_opts.png)
 
-This opens the review for editing:
+Откроется окно редактирования отзыва:
     ![xc5_productreviews_edit.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_edit.png)
 
-Edit the review as you require and click the button to save the changes (For reviews in the _Published_ state, this will be the **Update** button; for reviews in the _Pending_ state, the **Approve** button).
+Измените отзыв и нажмите **Обновить** (для опубликованных отзывов) и **Одобрить** или **Удалить** (для ожидающих модерации отзывов).
 
-## Adding product reviews via the Admin area
-To add a new review via the Admin area, click the **Add review** button above the table:
+## Создание отзывов в интерфейсе администратора
+Над списком отзывов нажмите **Добавить отзыв**:
     ![xc5_productreviews_add_from_admin.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_add_from_admin.png)
 
-Then use the blank form for review creation to create a review and save the changes:
+Заполните все поля и нажмите **Создать**:
     ![xc5_productreviews_add_from_admin1.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_add_from_admin1.png)
 
-## Exporting reviews
-To export all reviews, click the **Export all:CSV** button below the Product reviews table. 
+## Экспорт отзывов
+Для экспорта всех отзывов нажмите **Экспорт: CSV** под спискои отзывов. 
     ![xc5_productreviews_export_all.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_export_all.png)
 
-To export just some specific reviews, use the filter to find the reviews you need to export, select the check boxes for those reviews and click the **Export selected:CSV** button below the table.
+Для экспорта нескольких отзывов найдите отзывы по фильтрам или отметьте галочками в списке и нажмите **Эскпорт выбранных: CSV** под списком отзывов.
     ![xc5_productreviews_export_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_export_selected.png)
