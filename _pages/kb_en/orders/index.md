@@ -6,7 +6,7 @@ identifier: ref_r4PbRx4Z
 title: Orders
 categories:
   - home
-order: 50
+order: 60
 icon: file text outline
 description: Learn how to manage orders from your customers
 published: true
