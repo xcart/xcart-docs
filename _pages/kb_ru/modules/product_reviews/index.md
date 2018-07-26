@@ -21,6 +21,6 @@ published: true
    * редактирует и создаёт новые отзывы. 
 
 
-   * {% link "Configuring the Product reviews addon" ref_45EGhRet %}
-   * {% link "Managing product reviews" ref_04i6vQJb  %}
-   * {% link "Managing product review notifications" ref_1KUVvkg8 %}
+   * {% link "Настройка модуля Отзывы о товарах (Product reviews)" ref_7qhcvhtF %}
+   * {% link "Работа с отзывами о товарах" ref_6UmXrl9m  %}
+   * {% link "Уведомления об отзывах" ref_7lwkIe9h %}
