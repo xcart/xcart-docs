@@ -23,7 +23,9 @@ They will be able to adjust the Show/Hide property for any tab that has been mad
 ![mv_customproducttabs_show_hide.png]({{site.baseurl}}/attachments/ref_13ILtNnj/mv_customproducttabs_show_hide.png)
 The Show/Hide setting for the tab will be appplied to their own product set only.
 
-If necessary, vendors will also be able to edit the 
+If necessary, vendors will also be able to edit the description and content of custom product tabs editable by them. For example, if the vendor needs to edit the tab "Shipping info", they need to click on the tab title:
 ![mv_customproducttabs_shipping_info.png]({{site.baseurl}}/attachments/ref_13ILtNnj/mv_customproducttabs_shipping_info.png)
+This will provide access to the page with the tab details. 
 
-can choose whether the tab should be displayed for their products or not, as well as edit the tab contents and brief info.
+To be able to adjust the tab content, the vendor will need to switch off the **Keep default value** option:
+![mv_customproducttabs_dont_keep_default.png]({{site.baseurl}}/attachments/ref_13ILtNnj/mv_customproducttabs_dont_keep_default.png)
