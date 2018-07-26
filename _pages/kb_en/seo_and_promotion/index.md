@@ -6,7 +6,7 @@ identifier: ref_Ibr5EziH
 title: SEO and promotion
 categories:
   - home
-order: 90
+order: 70
 icon: flag
 description: >-
   Optimize your catalog for search engine and setup up special offers and
