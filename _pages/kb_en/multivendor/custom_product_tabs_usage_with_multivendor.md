@@ -19,4 +19,11 @@ If the administrator wants to allow vendors to choose themselves whether they ne
 If the store administrator has chosen to enable access to product tab editing for vendors, in the Vendor area vendor users will find the Product tabs section (**Catalog** > **Product tabs**) with the list of product tabs used by the store:
 ![mv_customproducttabs_in_vendor.png]({{site.baseurl}}/attachments/ref_13ILtNnj/mv_customproducttabs_in_vendor.png)
 
+They will be able to adjust the Show/Hide property for any tab that has been made editable by vendors. 
+![mv_customproducttabs_show_hide.png]({{site.baseurl}}/attachments/ref_13ILtNnj/mv_customproducttabs_show_hide.png)
+The Show/Hide setting for the tab will be appplied to their own product set only.
+
+If necessary, vendors will also be able to edit the 
+![mv_customproducttabs_shipping_info.png]({{site.baseurl}}/attachments/ref_13ILtNnj/mv_customproducttabs_shipping_info.png)
+
 can choose whether the tab should be displayed for their products or not, as well as edit the tab contents and brief info.
