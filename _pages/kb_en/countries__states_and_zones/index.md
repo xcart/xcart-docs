@@ -6,7 +6,7 @@ identifier: ref_DmCBnKwz
 title: 'Countries, states and zones'
 categories:
   - home
-order: 70
+order: 50
 icon: flag
 description: Setup various geographic zones used to configure shipping and tax rules
 published: true
