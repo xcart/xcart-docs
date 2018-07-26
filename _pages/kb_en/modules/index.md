@@ -6,7 +6,7 @@ identifier: ref_mCs9Q9Uy
 title: Addons
 categories:
   - home
-order: 100
+order: 80
 icon: puzzle
 description: Discover the world of different building blocks for your shop
 published: true
