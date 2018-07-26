@@ -40,6 +40,8 @@ Here's a brief overview of the addons typically used to build a Multivendor stor
      ![xc5_mv_avatax_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/xc5_mv_avatax_installed.png)
 
    * **[Custom Product Tabs](https://market.x-cart.com/addons/custom-product-tabs.html)**: Another addon not just for Multivendor. Enables additional custom product tabs on the detailed product pages. For more information on this addon, see {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %} 
+     ![mv_customproducttabs_module.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mv_customproducttabs_module.png)
+
    
 If an addon you are looking to use is not installed in your store, check the X-Cart’s Marketplace.
 
