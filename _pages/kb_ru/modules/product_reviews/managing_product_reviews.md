@@ -8,10 +8,10 @@ order: 520
 published: false
 ---
 Отзывы о товарах находятся в разделе **Каталог / Отзывы** в панели управления магазина:
-    ![xc5_productreviews_all_product_reviews.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_all_product_reviews.png)
+    ![4.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/4.jpg)
 
 Отзывы о конкретном товаре доступны на вкладке **Отзывы о товаре** на странице редактирования этого товара:
-    ![xc5_productreviews_reviews_4product.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_reviews_4product.png)
+    ![5.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/5.jpg)
     
 {% link toc %}
    
@@ -28,28 +28,33 @@ published: false
 
 ## Сортировка отзывов
 В разделе **Каталог / Отзывы** над списком отзывов расположены фильтры для поиска отзывов по параметрам - названию товара, артикулу, покупателю, рейтингу товара, статусу отзыва, дате.
-    ![xc5_productreviews_filter.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_filter.png)
+    ![6.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/6.jpg)
 
 ## Удаление отзывов
 Чтобы удалить один отзыв, нажмите на значок корзины в конце его строки и кнопку **Сохранить**. 
-    ![xc5_productreviews_delete.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_delete.png)
+    ![7.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/7.jpg)
 
 Чтобы удалить несколько отзывов, отметьте отзывы галочками слева, нажмите на значок корзины под списком отзывов и кнопку **Сохранить**.
-    ![xc5_productreviews_delete_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_delete_selected.png)
+    ![8.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/8.jpg)
 
 ## Проверка новых отзывов
 Нажмите кнопку на конце строки отзыва, измените текст при необходимости и нажмите **Одобрить** или **Удалить**.
-    ![xc5_productreviews_moderate.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_moderate.png)
+    <div class="ui stackable two column grid">
+  <div class="column" markdown="span">![9.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/9.jpg)
+</div>
+  <div class="column" markdown="span">![10.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/10.jpg)
+</div>
+</div>
 
 Чтобы одновременно изменить несколько отзывов, отметьте отзывы галочками слева, нажмите на галочку под списком отзывов и из меню выберите нужное значение. **Одобрить выбранные** - отзывы будут размещены на страницах товаров. **Не одобрять выбранные** - отзывы будут удалены со страниц товаров, их статус изменится с Опубликовано на Ожидает модерации.
-    ![xc5_productreviews_moderate_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_moderate_selected.png)
+    ![11.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/11.jpg)
 
 ## Редактирование отзывов
 Нажмите кнопку на конце строки отзыва, откроется окно редактирования:
-    ![xc5_productreviews_more_opts.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_more_opts.png)
+    ![12.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/12.jpg)
 
 Откроется окно редактирования отзыва:
-    ![xc5_productreviews_edit.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_edit.png)
+    ![13.jpg]({{site.baseurl}}/attachments/ref_6UmXrl9m/13.jpg)
 
 Измените отзыв и нажмите **Обновить** (для опубликованных отзывов) и **Одобрить** или **Удалить** (для ожидающих модерации отзывов).
 
