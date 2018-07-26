@@ -6,7 +6,7 @@ identifier: ref_7tvT7GEK
 title: Shipping
 categories:
   - home
-order: 60
+order: 40
 icon: shipping
 description: Configure either carrier-calculated (online) or table-based shipping methods
 published: true
