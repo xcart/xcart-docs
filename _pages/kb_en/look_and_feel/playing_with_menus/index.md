@@ -5,7 +5,7 @@ updated_at: '2018-07-27 14:32 +0400'
 identifier: ref_7Bjg2ZY0
 title: Playing with Menus
 order: 100
-published: false
+published: true
 ---
 
 Categories representation in the default X-Cart 5 layout is rather straightforward - a list of categories in the left-hand column on every page. The free Flyout Categories Menu module that is available in all X-Cart 5 editions (Business, Multivendor and Ultimate) extends the default representation with a vertical drop-down menu for the categories list.
