@@ -9,6 +9,8 @@ published: true
 ---
 The [Flyout Categories Menu module](https://market.x-cart.com/addons/flyout-categories-menu.html "Playing with Menus") is free and available in all X-Cart 5 editions (Business, Multivendor and Ultimate). The module extends the default left-column categories representation with a vertical drop-down menu for the categories list.
 
+![flyout-cus.png]({{site.baseurl}}/attachments/ref_6KutUhlR/flyout-cus.png)
+
 To enable the module follow the instructions from {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once enabled proceed to the module settings page to configure it:
 
 ![fly-out-enabled.png]({{site.baseurl}}/attachments/ref_6KutUhlR/fly-out-enabled.png)
