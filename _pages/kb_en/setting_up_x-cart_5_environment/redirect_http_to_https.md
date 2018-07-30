@@ -20,7 +20,7 @@ To configure redirect on Apache server, you should have **.htaccess** file in yo
 
 ```
 RewriteEngine On
-RewriteCond %{HTTPS} =off
+RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
 ```
 
@@ -53,7 +53,7 @@ Use this code in the **.htaccess** file:
 
 ```
 RewriteEngine On
-RewriteCond %{HTTPS} =off
+RewriteCond %{HTTPS} off
 RewriteCond %{REQUEST_URI} =/login.php
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
 ```
@@ -64,7 +64,7 @@ where `/login.php` should be substituted with the path of the page.
 
 ```
 RewriteEngine On
-RewriteCond %{HTTPS} =off
+RewriteCond %{HTTPS} off
 RewriteCond %{REQUEST_URI} !^/test.php
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
 ```
