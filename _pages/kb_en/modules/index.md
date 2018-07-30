@@ -35,6 +35,7 @@ _In this section:_
 *   {% link "Facebook eCommerce Module" ref_LA0TBHEA %}
 *   {% link "FedEx" ref_58tOKWMt %}
 *   {% link "File attachments" ref_0ZWKcob4 %}
+*   {% link "Flyout Categores Menu" ref_6KutUhlR %}
 *   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
 *   {% link "Free Shipping and Shipping freights" ref_4Bfeegp9 %}
 *   {% link "Geolocation Module" ref_34F5BkhW %}
