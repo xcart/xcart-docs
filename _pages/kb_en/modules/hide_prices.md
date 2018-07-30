@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-05-10 12:36 +0400'
 identifier: ref_46jNUlWG
 title: Hide Prices Module
-order: 179
+order: 178
 published: true
 ---
 Use the [Hide Prices](https://market.x-cart.com/addons/hide-prices.html "Hide Prices Module") module if you need to hide prices and disable the shop functionality for non-registered users or any other group of users. Such visitors will be able to browse your online catalog (without the prices), but will not be able to add anything to cart or proceed to checkout.
