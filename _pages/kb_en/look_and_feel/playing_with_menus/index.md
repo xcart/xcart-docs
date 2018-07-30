@@ -3,8 +3,8 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-27 14:32 +0400'
 identifier: ref_7Bjg2ZY0
-title: Playing with Menus
-order: 100
+title: Custom Menus
+order: 610
 published: true
 ---
 
