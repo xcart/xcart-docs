@@ -5,7 +5,7 @@ updated_at: '2018-07-31 18:41 +0400'
 identifier: ref_3yEqhwsC
 title: Multilevel Primary Menu
 order: 189
-published: false
+published: true
 ---
 [Multilevel Primary Menu module](https://market.x-cart.com/addons/multilevel-primary-menu.html "Multilevel Primary Menu") extends the {% link "default menus feature" ref_BDykFBbw %} and adds the multiple drop-down menu functionality for the header tab menu.
 
