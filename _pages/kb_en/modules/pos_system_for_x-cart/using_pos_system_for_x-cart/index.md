@@ -6,7 +6,7 @@ identifier: ref_qquWbgzV
 title: Using POS system for X-Cart
 categories:
   - User manual
-published: true
+published: false
 order: 140
 ---
 
