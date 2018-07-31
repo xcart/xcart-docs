@@ -18,12 +18,14 @@ When installed and enabled proceed to the module settings page to configure it.
 The module settings page is devided into 3 sections:
 
 * **"Single-column" layout settings section**
+  
   This section defines the categories representation in the top head menu
   ![hfcm-single.png]({{site.baseurl}}/attachments/ref_1mFs8c7N/hfcm-single.png)
   
   * **Depth of the menu levels** : The setting defines how many category levels are displayed in the top menu. If the setting value is set to e.g. 1 the menu will display the root categories only.
   
 * **"Multicolumn" layout settings**
+  
   This section defines the subcategories representation in the top head menu
   ![hfcm-multiple.png]({{site.baseurl}}/attachments/ref_1mFs8c7N/hfcm-multiple.png)
   
@@ -44,6 +46,7 @@ The module settings page is devided into 3 sections:
   * **Width of the column in multicolumn layout** : Set the preferred width of a subnemu in pxl. Minimum required value is 180.
   
 * **General settings**
+  
   This section defines the common settings for both categories and subcategories representation
   ![hfcm-general-settings.png]({{site.baseurl}}/attachments/ref_1mFs8c7N/hfcm-general-settings.png)
   
