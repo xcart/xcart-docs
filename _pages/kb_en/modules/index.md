@@ -41,6 +41,7 @@ _In this section:_
 *   {% link "Geolocation Module" ref_34F5BkhW %}
 *   {% link "Google Product Feed Module" ref_2gQBB6qM %}
 *   {% link "Hide Prices Module" ref_46jNUlWG %}
+*   {% link "Horizontal Flyout Categories Menu" ref_1mFs8c7N %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "Loyalty Program" ref_1Odyn6mT %}
 *   {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
