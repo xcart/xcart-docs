@@ -5,7 +5,7 @@ updated_at: '2018-07-30 17:06 +0400'
 identifier: ref_1mFs8c7N
 title: Horizontal Flyout Categories Menu
 order: 179
-published: false
+published: true
 ---
 [Horizontal Flyout Categories Menu module](https://market.x-cart.com/addons/horizontal-flyout-categories-menu.html "Horizontal Flyout Categories Menu") moves the categories list to the horizontal bar with a drop-down menu. The module is included into the X-Cart Ultimate edition and is paid for X-Cart Business and Multivendor.
 
