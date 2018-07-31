@@ -27,12 +27,20 @@ The module settings page is devided into 3 sections:
   This section defines the subcategories representation in the top head menu
   ![hfcm-multiple.png]({{site.baseurl}}/attachments/ref_1mFs8c7N/hfcm-multiple.png)
   
-  * **Use multicolumn layout for subcategories** : If enabled only the 1st level subcategories is displayed in the multiple column view. Number of columns should be set on the category settings page.
+  * **Use multicolumn layout for subcategories** : If enabled only the 1st level subcategories is displayed in the multiple column view. Number of columns should be set on the category settings page :
+    ![category-page.png]({{site.baseurl}}/attachments/ref_1mFs8c7N/category-page.png)
+    
+    {% note info %}
+    If the value of the **Number of columns in multicolumn layout** option on the category settings page is set to 0 the system will use the default field's value from the module settings page.
+    {% endnote%}
+
   * **Use 2 levels of subcategories in multicolumn layout** : If enabled 2 levels of subcategories are displayed in the multiple column view.
   * **Number of columns in multicolumn layout** : The value stands for the number of columns in a submenu. 
+    
     {% note info %}
     The value defined here works only if the option of the same name on the category settings page is set to 0. Otherwise the system uses the value defined on the category settings page.
     {% endnote %}
+  
   * **Width of the column in multicolumn layout** : Set the preferred width of a subnemu in pxl. Minimum required value is 180.
   
 * **General settings**
@@ -50,3 +58,5 @@ The module settings page is devided into 3 sections:
     
     See more info on the menus management in {% link "Adding new items to your store's menus" ref_BDykFBbw %}
     {% endnote %}
+
+Don't forget to **Save** the changes when you are done.  To see your changes in the storefront clear the browser widget cache.
