@@ -12,7 +12,7 @@ Categories representation in the default X-Cart 5 layout is rather straightforwa
 
 If necessary the default categories representation can be transformed into horizontal menus as described in {% link "Managing the Category Block Representation" ref_3aUJrW2c %}. But if you don't want to play with the default menus to configure them this way and need a more robust solution that will add extra facilities to the store or change the categories representation drastically use one of the following modules:
 
-* Horizontal Flyout Categories Menu
+* {% link "Horizontal Flyout Categories Menu" ref_1mFs8c7N %}
   Moves the categories list to the horizontal bar with a drop-down menu.
 * Multilevel Primary Menu
   Adds the multiple drop-down menu functionality for the header tab menu.
