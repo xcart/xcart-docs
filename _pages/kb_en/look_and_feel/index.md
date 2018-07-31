@@ -31,6 +31,7 @@ Pages and elements
 *   {% link "Adding pages to your store" ref_Ptf5vaPn %}
 *   {% link "Changing the Terms and conditions page" ref_r5b4EKhF %}
 *   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
+*   {% link "Custom Menus" ref_7Bjg2ZY0 %}
 *   {% link "Enabling the Contact Us form" ref_hfZXkxzT %}
 *   {% link "Editing the text on the Contact Us page" ref_CsqC5DNX %}
 *   {% link "Managing texts labels in your store" ref_IyGxQ1DN %}
