@@ -6,7 +6,7 @@ identifier: ref_eOsVsftg
 title: 'POS system module: system requirements and installation'
 categories:
   - User manual
-published: true
+published: false
 order: 120
 ---
 
