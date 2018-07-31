@@ -51,7 +51,6 @@ _In this section:_
 *   {% link "Order Reports Module" ref_52nVzkWs %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
 *   {% link "PIN Codes Module" ref_2ioJzfJL %}
-*   {% link "POS system for X-Cart" ref_BMTUgGt4 %}
 *   {% link "Product Advisor" ref_72asis58 %}
 *   {% link "Product Feeds" ref_0gfIXwxH %}
 *   {% link "Product Filter Module" ref_6e82A7rL %}
