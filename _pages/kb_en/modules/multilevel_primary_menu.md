@@ -34,6 +34,9 @@ Once installed and enabled, the module adds the following extra facilities to th
      ![mpm-add-menu-description.png]({{site.baseurl}}/attachments/ref_3yEqhwsC/mpm-add-menu-description.png)
    3. Add your menu description in a drop-down 
      ![mpm-add-menu-description-2.png]({{site.baseurl}}/attachments/ref_3yEqhwsC/mpm-add-menu-description-2.png)
+     {% note info%}
+     Use HTML tags to organize and format the text of the menu description.
+     {% endnote %}
    4. Save the changes
 
 ### Ability to display all available submenus in a drop-down of the header tab menu in the customer storefront
