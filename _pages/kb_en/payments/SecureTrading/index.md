@@ -26,9 +26,9 @@ To accept payment via Secure Trading, please ensure you have met the following r
 * Your firewall is configured to allow connections from Secure Trading’s IP Ranges.
   Current IP Ranges can be viewed at http://webapp.securetrading.net/ips.html
 
+If you are unsure on any of the points above, please [contact Secure Trading](http://www.securetrading.com/support/support.html) for assistance.
 
-If you are unsure on any of the points above, please contact Secure Trading for assistance (see
-section 8.1).
+Please read on:
 
 * SecureTrding Payment: Installation and Set-Up
 * SecureTrading Payment: Admin Experience
