@@ -19,14 +19,12 @@ The module settings page is devided into 3 sections:
 
 * **"Single-column" layout settings section**
   
-  This section defines the categories representation in the top head menu
   ![hfcm-single.png]({{site.baseurl}}/attachments/ref_1mFs8c7N/hfcm-single.png)
   
   * **Depth of the menu levels** : The setting defines how many category levels are displayed in the top menu. If the setting value is set to e.g. 1 the menu will display the root categories only.
   
 * **"Multicolumn" layout settings**
   
-  This section defines the subcategories representation in the top head menu
   ![hfcm-multiple.png]({{site.baseurl}}/attachments/ref_1mFs8c7N/hfcm-multiple.png)
   
   * **Use multicolumn layout for subcategories** : If enabled only the 1st level subcategories is displayed in the multiple column view. Number of columns should be set on the category settings page :
@@ -47,7 +45,6 @@ The module settings page is devided into 3 sections:
   
 * **General settings**
   
-  This section defines the common settings for both categories and subcategories representation
   ![hfcm-general-settings.png]({{site.baseurl}}/attachments/ref_1mFs8c7N/hfcm-general-settings.png)
   
   * **Show number of products in category** : If enabled the number of products in a category is displayed next to the category's name.
