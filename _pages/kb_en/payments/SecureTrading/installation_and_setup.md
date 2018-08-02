@@ -21,11 +21,7 @@ To enable Secure Trading as a payment method in your X-Cart store, add it to the
    Use this button to install the module and add the method.
    {% endnote %}
 
-   The method will be added:
-
-   ![payment-added.png]({{site.baseurl}}/attachments/ref_76tvX6bZ/payment-added.png)
-
-3. Proceed to the payment settings page to configure it:
+3. You'll be redirected to the payment settings page to configure it:
 
    ![settings.png]({{site.baseurl}}/attachments/ref_76tvX6bZ/settings.png)
 
@@ -52,6 +48,12 @@ To enable Secure Trading as a payment method in your X-Cart store, add it to the
      We recommend that you contact your acquirer for information on whether this mandate applies to your configuration and to clarify whether to process your transactions as pre-authorisations or final authorisations.
      Selecting PRE for Auth Method will also flag VISA transactions as PRE. Note that VISA does not support the FINAL option.
      {% endnote %}
+     
+     **Save** the configuration settings.
+     
+     The payment method is added to the list:
+     
+     ![payment-added.png]({{site.baseurl}}/attachments/ref_76tvX6bZ/payment-added.png)
 
 4. If necessary add the payment description or change the payment name in the _Sorting&Description_ tab of the **Store setup** -> **Payment methods** section in the Admin area.
   ![sorting-descriptions.png]({{site.baseurl}}/attachments/ref_76tvX6bZ/sorting-descriptions.png)
