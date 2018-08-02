@@ -10,18 +10,7 @@ published: true
 order: 100
 ---
 
-
-## Introduction
-
-This article explains how to set up Paypal Express Checkout in X-Cart.
-
-## Table of Contents
-
-*   [Introduction](#introduction)
-*   [Table of Contents](#table-of-contents)
-*   [Setting up Express Checkout with email](#setting-up-express-checkout-with-email)
-*   [Enabling the Secure Token setting](#enabling-the-secure-token-setting)
-*   [Creating your custom PayPal payment page](#creating-your-custom-paypal-payment-page)
+{% toc %}
 
 ## Setting up Express Checkout with email
 
