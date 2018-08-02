@@ -17,3 +17,4 @@ icon: payment
 *   {% link "ROBOKASSA" ref_VhQHtKBi %}
 *   {% link "PayPal" ref_paypal %}
 *   {% link "Visa QIWI Wallet" ref_6VdyEdlr %}
+*   {% link "Сбербанк (Sberbank payment gateway)" ref_0m3nFu9W %}
