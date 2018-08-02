@@ -5,7 +5,7 @@ updated_at: '2018-08-01 12:34 +0400'
 identifier: ref_4120Kb6S
 title: ''
 order: 550
-published: false
+published: true
 ---
 An X-Cart store can be integrated with a Secure Trading payment system that delivers the most secure, reliable, fully PCI DSS compliant online payment processing to organisations worldwide. 
 
