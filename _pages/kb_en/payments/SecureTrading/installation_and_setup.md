@@ -15,6 +15,14 @@ To enable Secure Trading as a payment method in your X-Cart store, add it to the
 
 2. In the popup box that appears, find the **Secure Trading** method and select to **Add** this method:
 
+![add.png]({{site.baseurl}}/attachments/ref_76tvX6bZ/add.png)
+
+{% note info %}
+If the Secure Trading payment is not installed in your X-Cart store at the time of adding the method, there will be an **Install** button instead of **Add**:
+![install.png]({{site.baseurl}}/attachments/ref_76tvX6bZ/install.png)
+Use this button to install the module and add the method.
+{% endnote %}
+
 The method will be added:
 
 ![payment-added.png]({{site.baseurl}}/attachments/ref_76tvX6bZ/payment-added.png)
