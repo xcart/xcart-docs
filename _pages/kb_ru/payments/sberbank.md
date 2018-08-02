@@ -11,7 +11,7 @@ published: true
 
 Модуль **Sberbank payment gateway** подключает в онлайн-магазине способы оплаты через платёжный шлюз **Сбербанка**. 
 
-Подключение магазина к сервису через REST API позволяет использовать полную функциональность платёжного шлюза.
+Подключение магазина к сервису через REST API позволяет использовать [полную функциональность](http://www.sberbank.ru/ru/s_m_business/bankingservice/acquiring_total/#solutions-web "Сбербанк (Sberbank payment gateway)") платёжного шлюза.
 
 {% toc %}
 
