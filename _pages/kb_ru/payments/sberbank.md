@@ -3,9 +3,9 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-08-01 22:41 +0400'
 identifier: ref_0m3nFu9W
-title: Сбербанк
+title: Сбербанк (Sberbank payment gateway)
 order: 70
-published: false
+published: true
 ---
 **Сбербанк** - ведущий банк в Российской Федерации. 
 
