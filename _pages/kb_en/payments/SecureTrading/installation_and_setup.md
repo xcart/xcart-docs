@@ -5,7 +5,7 @@ updated_at: '2018-08-01 14:55 +0400'
 identifier: ref_76tvX6bZ
 title: 'Secure Trading: Installation and Set-Up'
 order: 100
-published: false
+published: true
 ---
 To enable Secure Trading as a payment method in your X-Cart store, add it to the list of your store’s active payment methods:
 
@@ -54,4 +54,3 @@ Here you'll need to define the following settings:
 ![sorting-descriptions.png]({{site.baseurl}}/attachments/ref_76tvX6bZ/sorting-descriptions.png)
 
 The payment position at checkout will be the same as set on this page, i.e. if this is the first active payment method it will be shown first at checkout.
-
