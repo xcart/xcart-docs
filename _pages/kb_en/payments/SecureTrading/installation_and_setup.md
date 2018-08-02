@@ -46,11 +46,12 @@ To enable Secure Trading as a payment method in your X-Cart store, add it to the
    * **Web service password** : Specify the password defined on the previous step.
    * **Prefix for transaction id** : If you use the same account to accept payments from more than one X-Cart stores, use this field to set an invoice number prefix for this store. The prefix will serve as an identifier of the store and will help you to avoid errors of the “duplicate invoice number” type. It’s recommended to limit the length of invoice prefix to 9 characters. Larger prefixes will be cut prior to transaction initialization.
    * **Auth Method** : Select the auth method.
-   {% note info %}
-  Mastercard Europe have mandated that Mastercard and Maestro transactions processed with certain European acquiring banks must be flagged as either pre-authorisation or final authorisation. Such transactions are subject to acquirer-specific conditions.
-  We recommend that you contact your acquirer for information on whether this mandate applies to your configuration and to clarify whether to process your transactions as pre-authorisations or final authorisations.
-  Selecting PRE for Auth Method will also flag VISA transactions as PRE. Note that VISA does not support the FINAL option.
-  {% endnote %}
+     
+     {% note info %}
+     Mastercard Europe have mandated that Mastercard and Maestro transactions processed with certain European acquiring banks must be flagged as either pre-authorisation or final authorisation. Such transactions are subject to acquirer-specific conditions.
+     We recommend that you contact your acquirer for information on whether this mandate applies to your configuration and to clarify whether to process your transactions as pre-authorisations or final authorisations.
+     Selecting PRE for Auth Method will also flag VISA transactions as PRE. Note that VISA does not support the FINAL option.
+     {% endnote %}
 
 4. If necessary add the payment description or change the payment name in the _Sorting&Description_ tab of the **Store setup** -> **Payment methods** section in the Admin area.
   ![sorting-descriptions.png]({{site.baseurl}}/attachments/ref_76tvX6bZ/sorting-descriptions.png)
