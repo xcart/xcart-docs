@@ -29,4 +29,4 @@ Please read on:
 
 * {% link "Secure Trading: Installation and Set-Up" ref_76tvX6bZ %}
 * SecureTrading Payment: Admin Experience
-* SecureTrading Payment: Customer Experience
+* {% link "Secure Trading: Customer Experience" ref_3dsCaddY %}
