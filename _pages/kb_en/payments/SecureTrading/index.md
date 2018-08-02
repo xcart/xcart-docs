@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-08-01 12:34 +0400'
 identifier: ref_4120Kb6S
-title: ''
+title: Secure Trading Payment Solution
 order: 550
 published: true
 ---
