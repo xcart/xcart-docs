@@ -27,6 +27,6 @@ If you are unsure on any of the points above, please [contact Secure Trading](ht
 
 Please read on:
 
-* SecureTrding Payment: Installation and Set-Up
+* {% link "Secure Trading: Installation and Set-Up" ref_76tvX6bZ %}
 * SecureTrading Payment: Admin Experience
 * SecureTrading Payment: Customer Experience
