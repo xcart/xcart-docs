@@ -20,6 +20,6 @@ If necessary the default categories representation can be transformed into horiz
 
   Adds the multiple drop-down menu functionality for the header tab menu.
   
-* Tree-like Categories Menu
+* {% link "Tree-like Categories Menu" ref_3DV2eqp1 %}
 
   Transforms the default fly-out category structure into a tree structure
