@@ -24,7 +24,7 @@ A store admin can refund a full order amount or do a partial refund.
 For a partial refund an admin should specify the required sum in a field near the **Refund** button (by default it shows the maximun available amount for a refund that equals the order total) and click **Refund**.
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span"><i>Summ available for refund</i>![partial-refund.png]({{site.baseurl}}/attachments/ref_4dfJvyCl/partial-refund.png)</div>
+  <div class="column" markdown="span"><i>Amount available for refund</i>![partial-refund.png]({{site.baseurl}}/attachments/ref_4dfJvyCl/partial-refund.png)</div>
   <div class="column" markdown="span"><i>Residual amount</i>![residual-amount.png]({{site.baseurl}}/attachments/ref_4dfJvyCl/residual-amount.png)</div>
 </div>
 
