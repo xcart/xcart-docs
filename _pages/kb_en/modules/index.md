@@ -69,6 +69,7 @@ _In this section:_
 *   {% link "Social Login" ref_IapN8lJ8 %}
 *   {% link "Special Offers" ref_special_offers %}
 *   {% link "TaxJar Sales Tax Automation" ref_0wHdWryq %}
+*   {% link "Tree-like Categories Menu" ref_3DV2eqp1 %}
 *   {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}
 *   {% link "Update inventory" ref_uSIvmuTh %}
 *   {% link "UPS" ref_0uCGd6Bs %}
