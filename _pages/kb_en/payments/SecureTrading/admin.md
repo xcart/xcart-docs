@@ -7,7 +7,9 @@ title: 'Secure Trading: Admin Experience'
 order: 110
 published: true
 ---
-In addition to the regular {% link "order processing facilities" ref_6q6Mj9CC %} Secure Trading allows also to void and refund orders in full and/or partially paid with this payment method directly in the X-Cart Admin area. 
+In addition to the regular {% link "order processing facilities" ref_6q6Mj9CC %} Secure Trading allows also to void and refund orders in full and/or partially and check the callback details of the orders paid with this payment method directly in the X-Cart Admin area. 
+
+## Void and Refund
 
 A store admin can void an order paid with Secure Trading payments only within the same day the order was placed. At 00:00 AM (UTC) next day to the order was paid Secure Trading settles  transactions and void operations become inavailable. A cart admin can only refund the orders placed the day before or earlier. 
 
@@ -21,12 +23,14 @@ To refund an order a store admin should open the order details page of the order
 
 A store admin can refund a full order amount or do a partial refund. 
 
-For a partial refund an admin should specify the required sum in a field near the **Refund** button (by default it shows the maximun available amount for a refund that equals the order total) and click **Refund**.
+For a partial refund an admin should specify the required sum in a field near the **Refund** button (by default it shows the maximun available amount for a refund that equals the order total) and click **Refund**. As a result the admin will see the refunded amount and the residual amount in the field near the **Refund** button. 
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Amount available for refund</i>![partial-refund.png]({{site.baseurl}}/attachments/ref_4dfJvyCl/partial-refund.png)</div>
   <div class="column" markdown="span"><i>Residual amount</i>![residual-amount.png]({{site.baseurl}}/attachments/ref_4dfJvyCl/residual-amount.png)</div>
 </div>
+
+## Callback details
 
 Secure Trading payment solution also makes it possible to check the callback details on the order processing in the order history. 
 
