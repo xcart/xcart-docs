@@ -9,7 +9,7 @@ published: true
 ---
 In addition to the regular {% link "order processing facilities" ref_6q6Mj9CC %} Secure Trading allows also to void and refund orders in full and/or partially paid with this payment method directly in the X-Cart Admin area. 
 
-A store admin can void an order paid with Secure Trading payments only within the same day the order was placed at. At 00:00 AM (UTC) next day to the order was paid Secure Trading completes  transaction's processing and void operations become inavailable. A cart admin can only refund the orders placed the day before or earlier. 
+A store admin can void an order paid with Secure Trading payments only within the same day the order was placed. At 00:00 AM (UTC) next day to the order was paid Secure Trading settles  transactions and void operations become inavailable. A cart admin can only refund the orders placed the day before or earlier. 
 
 To void an order a store admin should open the order details page of the order in question and click on the **Void** button in the blue section:
 
@@ -39,6 +39,8 @@ Hitting the **+** button opposite an operation allows to expand the details of a
 ![callback.png]({{site.baseurl}}/attachments/ref_4dfJvyCl/callback.png)
 
 Here a store admin can get the info about a credit card used to pay the order, Secure Trading transaction reference and settle status.
+
+The table below explains the Secure Starding settle status codes.
 
 <table class="ui compact padded celled small table">
   <tbody>
