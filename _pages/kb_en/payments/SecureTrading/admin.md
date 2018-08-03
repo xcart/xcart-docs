@@ -5,7 +5,7 @@ updated_at: '2018-08-02 12:10 +0400'
 identifier: ref_4dfJvyCl
 title: 'Secure Trading: Admin Experience'
 order: 110
-published: false
+published: true
 ---
 In addition to the regular {% link "order processing facilities" ref_6q6Mj9CC %} Secure Trading allows also to void and refund orders in full and/or partially paid with this payment method directly in the X-Cart Admin area. 
 
