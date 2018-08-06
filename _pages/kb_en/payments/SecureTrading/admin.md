@@ -44,7 +44,7 @@ Hitting the **+** button opposite an operation allows to expand the details of a
 
 Here a store admin can get the info about a credit card used to pay the order, Secure Trading transaction reference and settle status.
 
-The table below explains the Secure Starding settle status codes.
+The table below explains the Secure Trading settle status codes.
 
 <table class="ui compact padded celled small table">
   <tbody>
