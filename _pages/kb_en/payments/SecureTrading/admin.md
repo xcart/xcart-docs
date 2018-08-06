@@ -11,7 +11,9 @@ In addition to the regular {% link "order processing facilities" ref_6q6Mj9CC %}
 
 ## Void and Refund
 
-A store admin can void an order paid with Secure Trading payments only within the same day the order was placed. At 00:00 AM (UTC) next day to the order was paid Secure Trading settles  transactions and void operations become inavailable. A cart admin can only refund the orders placed the day before or earlier. 
+A store admin can void an order paid with Secure Trading payments only within the same day the order was placed. At 00:00 AM (UTC) next day to the order was paid Secure Trading settles  transactions and void operations become inavailable. 
+
+A cart admin can only refund an order, once settlement has been performed (this is usually the following day).
 
 To void an order a store admin should open the order details page of the order in question and click on the **Void** button in the blue section:
 
