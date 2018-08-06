@@ -7,11 +7,11 @@ title: 'Secure Trading: Customer Experience'
 order: 120
 published: true
 ---
-When the Secure Trading payment is enabled a customer can choose it at checkout to pay an order. 
+When the Secure Trading payment is enabled a customer can choose it at checkout to pay for an order. 
 
 ![checkout-1.png]({{site.baseurl}}/attachments/ref_3dsCaddY/checkout-1.png)
 
-By hitting the **Place order** button the customer is redirected to the Secure Trading side to choose a preferred payment method:
+By hitting the **Place order** button the customer is redirected to the Secure Trading Payment Page to choose a preferred payment method:
 
 ![checkout-2.png]({{site.baseurl}}/attachments/ref_3dsCaddY/checkout-2.png)
 
