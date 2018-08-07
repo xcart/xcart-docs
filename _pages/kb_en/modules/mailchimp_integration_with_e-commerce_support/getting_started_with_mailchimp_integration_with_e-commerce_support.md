@@ -9,7 +9,13 @@ published: true
 ---
 Getting started with MailChimp Integration:
 
-   * [Make sure integration is installed and active](#make-sure-integration-is-installed-and-active-in-your-x-cart-store) in your X-Cart store. If not, [download and install integration from X-Cart Marketplace](#download-and-install-integration-from-x-cart-marketplace).
+   * Make sure integration is {% link "installed and active" ref_0fGEpvrh %} in your X-Cart store. If not, install the Mailchinp module as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+   
+   {% note info %}
+   The Mailchimp module requires the default Newsletter subscriptions module to be {% link "installed and enabled" ref_uEnDBBA7 %}. If both addons are used at the same time, the “Newsletter subscriptions” addon will be linked to MailChimp and the subscriber email addresses submitted via the subscription form will no longer be stored to a list within X-Cart, but will be handled via MailChimp, provided that your X-Cart store is connected to your MailChimp account via the addon settings, and the MailChimp Integration is properly configured.
+   
+   if your store already has a list of subscribers formed by the addon “Newsletter subscriptions” when you switch to MailChimp, you should not expect these subscribers to be imported into MailChimp automatically. To use your existing subscribers with MailChimp, you will need to export them from your X-Cart store and import them into your MailChimp account. See [https://kb.mailchimp.com/lists/growth/import-subscribers-to-a-list](https://kb.mailchimp.com/lists/growth/import-subscribers-to-a-list "Getting started with MailChimp Integration with E-commerce support") for information on how to import subscribers into MailChimp.
+   {% endnote%}
    
    * [Connect integration to your MailChimp account](#connect-integration-to-your-mailchimp-account).
 
@@ -17,69 +23,6 @@ See also:
 
    * [Disconnect integration](#disconnect-integration)
 
-## Make sure integration is installed and active in your X-Cart store
-
-Users of new X-Cart installations will find the addon "MailChimp Integration with Ecommerce support" already installed and active in the Installed Addons section of their store’s Admin area. 
-
-You can check whether you have the MailChimp integration add-on module in your X-Cart 5 based store as follows:
-
-Step 1. Log in to your X-Cart store’s Admin area.
-
-Step 2. Click the **My addons** menu item on the Admin menu to access your store’s Installed Addons section.
-![xc5_mailchimp_my_addons.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_my_addons.png)
-
-Step 3. In the search bar, type “mailchimp” and press “Enter” (The search is not case-sensitive).
-![xc5_mailchimp_search_in_installed.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_search_in_installed.png)
-
-After the page re-loads, you will be provided with a list of add-on modules that have a mention of MailChimp in their name or description that are currently installed in your store. 
-
-Step 4. In the list provided to you, look for the addon name “MailChimp Integration with Ecommerce support”. If you can see it on the list, it means that the addon for MailChimp integration is already installed in your store. 
-![xc5_mailchimp_addon_name_in_installed.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_addon_name_in_installed.png)
-
-Pay attention to the ON/OFF switch below the addon name.
-![xc5_mailchimp_on_off_switch.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_on_off_switch.png)
-
-If it is set to “ON”, the addon is active and ready to use. If it is set to “OFF, the addon needs to be activated. 
-To activate the addon, set the ON/OFF switch to “ON” and click the **Save changes** button below the addon list. 
-![xc5_mailchimp_install.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_install.png)
-
-Your X-Cart installation will take a few moments to activate the addon and re-deploy your store.
-
-If you haven’t been able to find the addon “MailChimp Integration with Ecommerce support” in your store’s Installed Addons section, it means that the addon is not installed currently, and you will need to install it before you continue (See [further below](#download-and-install-integration-from-x-cart-marketplace) for instructions).
-
-Step 4. Take a note of whether the addon “Newsletter subscriptions” is also installed and active. 
-![xc5_mailchimp_newsletter_subscr.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_newsletter_subscr.png)
-
-Please be aware that if both the addons are used at the same time, the “Newsletter subscriptions” addon will be linked to MailChimp as well. The “Newsletter subscriptions” addon enables a subscription form in the site footer where your site visitors can submit their email addresses to subscribe to your store newsletter. When you use the addon “Newsletter subscriptions” on its own, any email addresses submitted via this form are added to your store’s own list of newsletter subscribers in the Subscribers section of the Admin area where they can be managed by the administrator. If, however, you use X-Cart’s MailChimp integration addon along with “Newsletter subscriptions”, the subscriber email addresses submitted via the subscription form are no longer stored to a list within X-Cart, but are handled via MailChimp. That, of course, provided that your X-Cart store is connected to your MailChimp account via the addon settings, and the MailChimp Integration is properly configured.
-Note that if your store already has a list of subscribers formed by the addon “Newsletter subscriptions” when you switch to MailChimp, you should not expect these subscribers to be imported into MailChimp automatically. To use your existing subscribers with MailChimp, you will need to export them from your X-Cart store and import them into your MailChimp account. See [https://kb.mailchimp.com/lists/growth/import-subscribers-to-a-list](https://kb.mailchimp.com/lists/growth/import-subscribers-to-a-list "Getting started with MailChimp Integration with E-commerce support") for information on how to import subscribers into MailChimp.
-
-## Download and Install Integration from X-Cart Marketplace
-
-If, for some reason, the MailChimp integration addon is missing from the Installed Addons section of your X-Cart store’s Admin area, you can install it as follows:
-
-Step 1. In the Installed Addons section of your X-Cart store’s Admin area, click on the link “View more addons in Marketplace”.
-![xc5_mailchimp_viewmore.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_viewmore.png)
-
-You will be redirected to the Addons Marketplace.
-
-Step 2. In the search bar, type “mailchimp” and press “Enter” (The search is not case-sensitive). 
-![xc5_mailchimp_addons_mktplce.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_addons_mktplce.png)
-
-After the page re-loads, you will be provided with a list of add-on modules in our Addons Marketplace that have a mention of MailChimp in their name or description. 
-
-Step 3. In the list, look for the addon name “MailChimp Integration with Ecommerce support”.
-![xc5_mailchimp_addon_name_mktplce.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_addon_name_mktplce.png)
-
-It is the addon you require. 
-
-Step 4. Select the Install checkbox near the addon name and click the Install addons button. 
-![xc5_mailchimp_install.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_install.png)
-
-The addon will be downloaded from the Addons Marketplace, installed and activated automatically. 
-![xc5_mailchimp_deploy.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_deploy.png)
-
-Once the installation process has been completed, you will be able to find the addon in the Installed Addons section of your store’s Admin area. From there you will be able to
- access the addon configuration settings page by clicking the Settings link. 
 
 ## Connect Integration to Your MailChimp Account
 
