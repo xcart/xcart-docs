@@ -5,7 +5,7 @@ updated_at: '2018-08-07 14:05 +0400'
 identifier: ref_2WzsM3Pg
 title: Newsletter Subscriptions
 order: 197
-published: false
+published: true
 ---
 The “Newsletter subscriptions” module adds a sign-up form into the footer of your site inviting your store visitors to subscribe to your newsletters. The module is included in all X-Cart editions (Business, Multivendor and Ultimate) and comes preinstalled.
 
@@ -27,7 +27,4 @@ The **Newsletters** section of the Admin area allows a store admin to add new em
 
 To add a new email to the list click **Create** button and type in the required email.
 
-To export the subscribers list select the required emails from the list and click **Export selected: CSV** or don't select anything and click **Export all: CSV** if you need to export all the emails. 
-
-
-
+To export the subscribers list select the required emails from the list and click **Export selected: CSV** or don't select anything and click **Export all: CSV** if you need to export all the emails.
