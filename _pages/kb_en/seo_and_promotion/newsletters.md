@@ -5,7 +5,7 @@ updated_at: '2018-08-06 14:09 +0400'
 identifier: ref_1YvPiQr5
 title: Promoting Sales with Newsletters
 order: 200
-published: false
+published: true
 ---
 Newsletters are a valuable marketing tool videly used in e-commerce, as it’s a good way to reach out to customers and prospects and boost brand awareness and promote products and services. 
 
@@ -23,10 +23,4 @@ Sending newsletters at regular intervals helps you maintain contact with custome
 EXPERTISE
 A newsletter should showcase what your expertise is and how you can help customers and prospects. The newsletter content should typically provide valuable information to customers and prospects that helped you establish the company as a leader in your industry. When developing leadership, make sure to include articles covering important issues in your market sector and share information on your industry and how you are adapting.
 
-To create a business newsletter, you can use the default X-Cart 5 Newsletter module or you can join an autoresponder business - {% link "MailChimp" ref_Rox8AcJp %}.
-
-
-
-
-
-
+To create a business newsletter, you can use the default X-Cart 5 {% link "Newsletter Subscriptions" ref_2WzsM3Pg %} module or you can join an autoresponder business - {% link "MailChimp" ref_Rox8AcJp %}.
