@@ -49,6 +49,7 @@ _In this section:_
 *   {% link "Multicurrency Module" ref_2tPJubPU %}
 *   {% link "Multilevel Primary Menu" ref_3yEqhwsC %}
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
+*   {% link "Newsletter Subscriptions" ref_2WzsM3Pg %}
 *   {% link "Not Finished Orders" ref_5TMbPwNQ %}
 *   {% link "Order Reports Module" ref_52nVzkWs %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
