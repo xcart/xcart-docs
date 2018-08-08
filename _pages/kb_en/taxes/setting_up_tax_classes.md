@@ -49,7 +49,8 @@ To configure rates for tax classes:
    ![new-rate.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate.png)
 
 2. Fill in the fields in the new rate line that will appear:
-   ![tax-class.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/tax-class.png)
+   ![new-rate-1.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate-1.png)
+
    * **Zone** : Select the zone from a drop-down the tax is applicable to.
    * **Tax class** : Select the tax class applicable.
    * **Rate** : Set the tax rate in %.
@@ -58,7 +59,8 @@ To configure rates for tax classes:
 
 That's it, a tax rate for a tax class is created.
 
-![tax-class-created.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/tax-class-created.png)
+![tax-class-1.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/tax-class-1.png)
+
 
 
 ## Assigning tax classes to products
