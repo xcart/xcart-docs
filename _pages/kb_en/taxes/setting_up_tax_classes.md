@@ -41,6 +41,26 @@ That's all, the tax class has been created:
 
 Now you can assign it to products and configure tax rates for it. 
 
+## Configuring rates for tax classes
+
+To configure rates for tax classes:
+
+1. Open the **Sales tax** tab in the **Taxes** section (**Store setup** -> **Taxes**) of your X-Cart admin area and click the **New rate** button in the _General tax rates_ section:
+   ![new-rate.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate.png)
+
+2. Fill in the fields in the new rate line that will appear:
+   ![tax-class.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/tax-class.png)
+   * **Zone** : Select the zone from a drop-down the tax is applicable to.
+   * **Tax class** : Select the tax class applicable.
+   * **Rate** : Set the tax rate in %.
+   
+3. Click **Save changes**.
+
+That's it, a tax rate for a tax class is created.
+
+![tax-class-created.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/tax-class-created.png)
+
+
 ## Assigning tax classes to products
 
 Once you have created the tax classes you require, be sure to assign them to products.
