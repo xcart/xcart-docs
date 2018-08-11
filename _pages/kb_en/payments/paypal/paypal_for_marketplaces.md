@@ -45,9 +45,46 @@ To add the payment method "PayPal for Marketplaces" for your store:
     * **PayPal API Secret** : Specify your password for PayPal sandbox or live account
     * **PayPal Partner ID** : pecify the Partner's business account log-in
     * **PayPal BN Code** : Specify a unique build notation (BN) code you've got from PayPal as a Partner. If you do not have a BN code, [contact your PayPal account manager](https://www.paypal.com/partnerprogram/ "PayPal for Marketplaces"). BN codes provide tracking opportunities within the PayPal system on all transactions originating or associated with a particular Partner (for revenue sharing).
+    Additional settings
+    * **Payment descriptor** : The payment descriptor on the buyer credit card statement of account activity.
+    * **Test/Live mode** : Payment method operation mode.
+    * **Order id prefix** : A prefix that will be added to the IDs of all the orders originating from this store to make them unique. This value is required only if you use your PayPal account with more than one store.
+    * **Disburse funds** : Select 'Delayed' if you need an option to authorize the earnings transfer to the vendor's account and 'Immediate' if no pre-authorization is required.
     
+4. **Save** your configuration settings
+
+5. Connect an additional PayPal Business Account to your X-Cart if required:
+   ![connect-business-account.png]({{site.baseurl}}/attachments/ref_6iphJijP/connect-business-account.png)
+   Click _Connect to PayPal link_ to access the PayPal sign-in page and sign in using your PayPal account different from the account specified above in your account settings. This account will be used to receive the shipping cost (if you are going to ship out goods on behalf of vendors), the earnings on your own products (if you are going to be one of the sellers), and the earnings on the sales of the vendors who have not set up a PayPal account of their own for some reason.
+
+
+Once the above steps have been completed, shoppers at your store should be able to select this method at checkout and use it for payment. By default, the name of this payment method will appear to shoppers simply as “PayPal”:
+
+![cus-checkout-1.png]({{site.baseurl}}/attachments/ref_6iphJijP/cus-checkout-1.png)
+
+When hitting the **PayPal** button to pay for the order a customer will be redirected to PayPal for payment processing where they will need to submit the credit card details:
+
+![cus-checkout-paypal.png]({{site.baseurl}}/attachments/ref_6iphJijP/cus-checkout-paypal.png)
+
+After the payment is complete the customer will be redirected back to your X-Cart store and the same payment method name will appear on the order invoice:
+
+![cus-invoice.png]({{site.baseurl}}/attachments/ref_6iphJijP/cus-invoice.png)
+
+If necessary, you can adjust the display name of this payment method (the one that will be visible to customers) and the position of this payment method in your store’s list of payment methods via the _Sorting & Descriptions_ tab on the **Payment settings** page: 
+
+![sorting-description.png]({{site.baseurl}}/attachments/ref_6iphJijP/sorting-description.png)
+
+## Vendor Experience
+
+To be able to receive payments through PayPal for Marketplaces payment automatically, vendors needs to specify their PayPal Business account in the **Financial info** section of their profile (See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}). 
+
+![vendor-paypal-details.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-paypal-details.png)
+
+If a vendor fails to specify the appropriate PayPal Business account, the money due to them will simply not be transferred to the vendor's account, but will remain in the account of the store administrator. 
+
+For example, if an order contains products by three vendors, of which only one has a PayPal Business account specified in the profile, the money will be transferred only to the vendor who has a PayPal Business account specified as their Financial info, whereas the money of the other two vendors will be transferred to the account of the administrator. In the **Vendor transactions** section (**Orders** > **Vendor transactions**) there will appear auto-generated PayPal for Marketplaces payments transactions showing the receipt of funds by the store administrator for each of the three vendors, but an automatic transaction showing payout of vendor earnings will be present only for one of the vendors. The administrator will have to find a way to pay out the money they owe to the remaining two vendors (with methods outside X-Cart), after which the information about the respective payout transactions will have to be added in X-Cart manually.
 
 ## Admin Experience
-## Vendor Experience
-## Customer Experience
+
+
 
