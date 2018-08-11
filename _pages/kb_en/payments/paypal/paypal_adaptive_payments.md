@@ -28,7 +28,7 @@ To be able to use "PayPal Adaptive payments", a verified Premier or Business Pa
 
 To add the payment method "PayPal Adaptive payments" for your store:
 
-1.  In your store's Admin area, go to the Payment Settings section  (**Store setup** >** Payment methods**) and click **Add payment method**:![]({{site.baseurl}}/attachments/8751079/8719795.png)
+1.  In your store's Admin area, go to the Payment Settings section  (**Store setup** >**Payment methods**) and click **Add payment method**:![]({{site.baseurl}}/attachments/8751079/8719795.png)
 2.  In the list of payment methods that opens in a popup window, locate the method "PayPal Adaptive payments" and click the **Add** button opposite its name:![]({{site.baseurl}}/attachments/8751079/8719794.png)
 3.  Once the payment method has been added, configure its settings:
     ![]({{site.baseurl}}/attachments/8751079/8719797.png)
@@ -40,7 +40,8 @@ To add the payment method "PayPal Adaptive payments" for your store:
 
         Additional settings:
     *   **Test/Live mode**: Payment method operation mode.
-    *   **Order id prefix**: A prefix that will be added to the IDs of all the orders originating from this store to make them unique. This value is required only if you use your PayPal account with more than one stores.
+    *   **Order id prefix**: A prefix that will be added to the IDs of all the orders originating from this store to make them unique. This value is required only if you use your PayPal account with more than one store.
+    
 
 4.  Activate the payment method.
     ![]({{site.baseurl}}/attachments/8751079/9437186.png)
