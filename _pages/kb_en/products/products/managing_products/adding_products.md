@@ -221,9 +221,9 @@ The default global product tabs are:
 * **Description** : Shows the product SKU, weight and detailed product description
 * **Specification** : Shows the info about all available {% link "product options and attributes " ref_uaJk8ete %}
 * **Comments** : Shows the customer comments on a product added via special modules (Go social, Disqus, VK comments, etc.)
-* **Reviews** : Shows an {% link "average rating" ref_XBriIS6B %}of a product if it was rated and customer reviews (if any).   
+* **Reviews** : Shows an {% link "average rating" ref_XBriIS6B %} of a product if it was rated and customer reviews (if any).   
 
-The rest of the tabs are added by the Custom Product Tabs module and can be enabled, disabled and removed if necessary. 
+The default global product tabs can't be deleted and can only be hidden if required. The rest of the tabs are added by the Custom Product Tabs module and can be enabled, disabled and deleted if necessary. 
 
 ### Add PIN codes to the product
 If you need to sell stuff like licenses, enrollment keys, PIN codes, serial numbers, activation codes and passwords, phone cards and access codes, you may want to use the addon [PIN Codes](https://market.x-cart.com/addons/pin-codes.html "PIN Codes Module"). This addon will enable you to attach PIN codes to your existing product via the "PIN codes" tab:
