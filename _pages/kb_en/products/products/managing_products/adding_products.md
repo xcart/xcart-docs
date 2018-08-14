@@ -223,7 +223,7 @@ The default global product tabs are:
 * **Comments** : Shows the customer comments on a product added via special modules (Go social, Disqus, VK comments, etc.)
 * **Reviews** : Shows an {% link "average rating" ref_XBriIS6B %} of a product if it was rated and customer reviews (if any).   
 
-The default global product tabs can't be deleted and can only be hidden if required. The rest of the tabs are added by the Custom Product Tabs module and can be enabled, disabled and deleted if necessary. 
+The default global product tabs can't be deleted and can only be hidden if required. The rest of the tabs are added by the {% link "Custom Product Tabs" ref_2JzbMU2q %} module and can be enabled, disabled and deleted if necessary. 
 
 ### Add PIN codes to the product
 If you need to sell stuff like licenses, enrollment keys, PIN codes, serial numbers, activation codes and passwords, phone cards and access codes, you may want to use the addon [PIN Codes](https://market.x-cart.com/addons/pin-codes.html "PIN Codes Module"). This addon will enable you to attach PIN codes to your existing product via the "PIN codes" tab:
