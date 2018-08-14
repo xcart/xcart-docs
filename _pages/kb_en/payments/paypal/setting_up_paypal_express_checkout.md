@@ -26,7 +26,13 @@ For a full-fledged Express Checkout implementation allowing payments and post-ch
 
 ![xc5_pp_express_api_credentials_section.png]({{site.baseurl}}/attachments/ref_vHffMFLk/xc5_pp_express_api_credentials_section.png)
 
-After choosing this option, you will need to specify a set of credentials for access to the API. Two API options are supported: PayPal API and Payflow API. PayPal API (Merchant API) will work for most merchants. If you can, use PayPal API. If you only have access to Payflow API, then use Payflow API. 
+After choosing this option, you will need to specify a set of credentials for access to the API.
+
+{% note info %}
+To get a set of credentials please contact the PayPal support.
+{% endnote %}
+
+Two API options are supported: PayPal API and Payflow API. PayPal API (Merchant API) will work for most merchants. If you can, use PayPal API. If you only have access to Payflow API, then use Payflow API. 
 
 Your choice of an API solution will determine the type of API credentials that you will need to enter.
 
