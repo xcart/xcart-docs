@@ -30,4 +30,4 @@ icon: puzzle
 *   {% link "Блог в X-Cart" ref_6a9ulokJ %}
 *   {% link "Надёжные и ненадёжные продавцы" ref_6yi6OjKi %}
 *   {% link "Бронирование (Booking)" ref_6glKt5oJ %}
-*   {% link "Отзывы о товарах (Product reviews))" ref_78e2YH3R %}
+*   {% link "Отзывы о товарах (Product reviews)" ref_78e2YH3R %}
