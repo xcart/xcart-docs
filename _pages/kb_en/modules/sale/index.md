@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-23 17:37 +0400'
 identifier: ref_7tBJ8Yqo
 title: Sale Module
-order: 227
+order: 229
 published: true
 description: sale
 ---
