@@ -8,7 +8,7 @@ order: 850
 published: true
 ---
 
-In a Multivendor X-Cart store with the addon {% link "Custom Product Tabs" ref_3iTVKlYe %} installed and enabled, the store administrator may choose to allow vendors to specify what product page tabs should be used for their products, as well as give the vendors limited product tab management access.
+In a Multivendor X-Cart store with the addon {% link "Custom Product Tabs" ref_2JzbMU2q %} installed and enabled, the store administrator may choose to allow vendors to specify what product page tabs should be used for their products, as well as give the vendors limited product tab management access.
 
 ## Custom Product Tabs: Multivendor store administrator experience
 In the Product tabs section (**Catalog** > **Product tabs**) of the Admin area, where the administrator manages the tabs for the product page, there will be a switch for each product tab to toggle vendor access to the management of the tab display and contents (See the **Vendor editable** column):
