@@ -22,7 +22,7 @@ Make sure the "ImageMagick" library is installed on the server hosting your X-Ca
 
 ## Configuring Royal Mail Services
 
-Proceed to the module settings page (Store setup -> Royal Mail) to configure it:
+Proceed to the module settings page (**Store setup** -> **Royal Mail**) to configure it:
 
 ![settings-page.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/settings-page.png)
 
@@ -40,9 +40,45 @@ Then you'll need to proceed to the **Royal Mail Services** tab (**Store setup** 
 
 ![services.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/services.png)
 
-To add a new relation click the **Add relation** button and fill in the fields in the new relations line in series:
+To add a new relation click the **Add relation** button and select the values from the dropdown fields in the new relation's line in series:
 
 ![new-relation.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/new-relation.png)
+
+**Save** the changes when you are done.
+
+{% note info %}
+Royal Mail Services doesn't have an API facilitating online shipping rates calculation. Hence the Royal Mail Services module can't be used for calculating online shipping rates at checkout, but only for shipping orders via the Royal Mail Services. 
+
+Please make sure you have {% link "offline shipping rates" ref_3TG6AuN0 %} configured in conjunction with the Royal Mail rates to offer shipping calculation at checkout to your customers.
+![checkout.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/checkout.png)
+{% endnote %}
+
+## Shipping orders via Royal Mail Services
+
+To ship orders via Royal Mail a store admin should:
+1. On the order details page:
+   * Create RM Shipment by clicking on a green button at the bottom of the page:
+     ![create-rm-shipment.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/create-rm-shipment.png)
+     After creating an RM shipment, X-Cart sends a request to Royal Mail and receives a tracking number that is automatically assighed to the order and registered on the order details page:
+     ![tracking.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/tracking.png)
+     The green Create PM Shipment button is changed to red Cancel RM Shipment one, the later becomes unavailable after the order manifest is sent to Royal Mail.
+   * Print label and/or international document if applicable by clicking the buttons of the same name at the top of the page:
+     ![print-label.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/print-label.png)
+     A shipping label and international document should then be affixed to a shipping conainer specifing its content:
+     ![shipping-label.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/shipping-label.png)
+
+   
+2. In the Orders -> Royal Mail Manifests section:
+   * Send manifest to Royal Mail:
+     ![manifests.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/manifests.png)
+     After a manifest is sent it's not possible to change the shipping data and cancel the RM shipment for the order.
+   * Print off a Royal Mail manifest for the order and handover it with your mail:
+     ![manifest.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/manifest.png)
+
+
+
+
+
 
 
 
