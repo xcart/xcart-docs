@@ -49,7 +49,7 @@ To add a new relation click the **Add relation** button and select the values fr
 {% note info %}
 Royal Mail Services doesn't have an API facilitating online shipping rates calculation. Hence the Royal Mail Services module can't be used for calculating online shipping rates at checkout, but only for shipping orders via the Royal Mail Services. 
 
-Please make sure you have {% link "offline shipping rates" ref_3TG6AuN0 %} configured in conjunction with the Royal Mail rates to offer shipping calculation at checkout to your customers.
+Please make sure you have {% link "offline shipping rates" ref_3TG6AuN0 %} configured in conjunction with the Royal Mail rates and relations you set up to offer shipping calculation at checkout to your customers.
 ![checkout.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/checkout.png)
 {% endnote %}
 
@@ -72,5 +72,5 @@ To ship orders via Royal Mail a store admin should:
    * Send manifest to Royal Mail:
      ![manifests.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/manifests.png)
      After a manifest is sent it's not possible to change the shipping data and cancel the RM shipment for the order.
-   * Print off a Royal Mail manifest for the order and handover it with your mail:
+   * Print off a Royal Mail manifest for the order and handover it with a shipping container:
      ![manifest.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/manifest.png)
