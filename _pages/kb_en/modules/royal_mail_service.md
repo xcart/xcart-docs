@@ -5,7 +5,7 @@ updated_at: '2018-08-15 14:52 +0400'
 identifier: ref_2gtSkN9y
 title: Royal Mail Service
 order: 227
-published: false
+published: true
 ---
 X-Cart is integrated with the Royal Mail (the national postal service and courier company in the United Kingdom) via the [Royal Mail Service](https://market.x-cart.com/addons/royal-mail-service.html "Royal Mail Service") module.
 
@@ -74,12 +74,3 @@ To ship orders via Royal Mail a store admin should:
      After a manifest is sent it's not possible to change the shipping data and cancel the RM shipment for the order.
    * Print off a Royal Mail manifest for the order and handover it with your mail:
      ![manifest.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/manifest.png)
-
-
-
-
-
-
-
-
-
