@@ -50,33 +50,34 @@ Please make sure you have {% link "offline shipping rates" ref_3TG6AuN0 %} confi
 
 ## Shipping orders via Royal Mail Services
 
-RM shipment for an order is created automatically on the Royal Mail server when the order gets a {% link "PAID or IN PROGREES order payment status" ref_DkbTi1qJ %}. Orders can get the PAID and IN PROGRESS statuses either automatically or manually depending on the payment method used in the store. If the order payment status is changed back to NEW the existing RM shipment is cancelled automatically as well.
+RM shipment for an order is created automatically on the Royal Mail server when the order gets a {% link "PAID payment or a PROCESSING fulfilment statuses" ref_DkbTi1qJ %}. If the order status is changed back to NEW the existing RM shipment is cancelled automatically as well.
 
-In case the order details change (e.g. the change of shipping address, etc.) RM shipment is updated automatically on the ROyal Mail server. Once an order manifest is sent to Royal Mail all shipments get fixed and can't be changed or cancelled.
+After an RM shipment is created, X-Cart sends a request to Royal Mail and receives a tracking number that is automatically assighed to the order and registered on the order details page:
+![tracking.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/tracking.png)
 
-A cart admin can also create and manage RM shipments for orders manually:
+A cart admin can also create an RM Shipment manually by clicking on a green button at the bottom of the order details page:
+![create-rm-shipment.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/create-rm-shipment.png)
 
-1. On the order details page:
-   * Create RM Shipment by clicking on a green button at the bottom of the page:
-     ![create-rm-shipment.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/create-rm-shipment.png)
-     After creating an RM shipment, X-Cart sends a request to Royal Mail and receives a tracking number that is automatically assighed to the order and registered on the order details page:
-     ![tracking.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/tracking.png)
-     The green Create PM Shipment button is changed to red Cancel RM Shipment one, the later becomes unavailable after the order manifest is sent to Royal Mail.
-   * Print label and/or international document if applicable by clicking the buttons of the same name at the top of the page:
+The green **Create PM Shipment** button is then changed to red **Cancel RM Shipment** one, the later becomes unavailable after the order manifest is sent to Royal Mail.
+
+In case the order details change (e.g. the change of shipping address, etc.) RM shipment is updated automatically on the Royal Mail server. Once an order manifest is sent to Royal Mail all shipments get fixed and can't be changed or cancelled.
+
+To print a label of an order and/or an international document if applicable a cart admin should use the buttons of the same name at the top of the page:
      ![print-label.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/print-label.png)
      
-     {% note warning %}
-     Please note that the “ImageMagick” library is required for proper resizing of shipping labels while printing. In case the “ImageMagick” library is installed the label will be available for printing by clicking the **Packing Slip** button at the top of the page.
-     Make sure the "ImageMagick" library is installed on the server hosting your X-Cart store for you.
-     {% endnote %}
+{% note warning %}
+Please note that the “ImageMagick” library is required for proper resizing of shipping labels while printing. In case the “ImageMagick” library is installed the label will be available for printing by clicking the **Packing Slip** button at the top of the page.
+     
+Make sure the "ImageMagick" library is installed on the server hosting your X-Cart store for you.
+{% endnote %}
 
-     A shipping label and international document should then be affixed to a shipping container specifing its content:
-     ![shipping-label.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/shipping-label.png)
+A shipping label and international document should then be affixed to a shipping container specifing its content:
+![shipping-label.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/shipping-label.png)
 
-   
-2. In the Orders -> Royal Mail Manifests section:
-   * Send manifest to Royal Mail:
-     ![manifests.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/manifests.png)
-     After a manifest is sent it's not possible to change the shipping data and cancel the RM shipment for the order.
-   * Print off a Royal Mail manifest for the order and handover it with a shipping container:
-     ![manifest.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/manifest.png)
+To send an order manifest to Royal Mail a cart admin should use the **Send manifest** button opposite the order in question in the **Orders** -> **Royal Mail Manifests** section:
+![manifests.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/manifests.png)
+
+After a manifest is sent it's not possible to change the shipping data and cancel the RM shipment for the order.
+ 
+Then the store admin should print off a Royal Mail manifest using the **Print manifest** button opposite the order in question in the **Orders** -> **Royal Mail Manifests** section and handover it with a shipping container:
+![manifest.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/manifest.png)
