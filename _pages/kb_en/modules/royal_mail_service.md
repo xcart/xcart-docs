@@ -15,11 +15,6 @@ To start working with the module make sure the Royal Mail Service is installed a
 
 ![installed.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/installed.png)
 
-{% note warning %}
-Please note that the "ImageMagick" library is required for the module to work.
-Make sure the "ImageMagick" library is installed on the server hosting your X-Cart store for you.
-{% endnote %}
-
 ## Configuring Royal Mail Services
 
 Proceed to the module settings page (**Store setup** -> **Royal Mail**) to configure it:
@@ -55,7 +50,12 @@ Please make sure you have {% link "offline shipping rates" ref_3TG6AuN0 %} confi
 
 ## Shipping orders via Royal Mail Services
 
-To ship orders via Royal Mail a store admin should:
+RM shipment for an order is created automatically on the Royal Mail server when the order gets a {% link "PAID or IN PROGREES order payment status" ref_DkbTi1qJ %}. Orders can get the PAID and IN PROGRESS statuses either automatically or manually depending on the payment method used in the store. If the order payment status is changed back to NEW the existing RM shipment is cancelled automatically as well.
+
+In case the order details change (e.g. the change of shipping address, etc.) RM shipment is updated automatically on the ROyal Mail server. Once an order manifest is sent to Royal Mail all shipments get fixed and can't be changed or cancelled.
+
+A cart admin can also create and manage RM shipments for orders manually:
+
 1. On the order details page:
    * Create RM Shipment by clicking on a green button at the bottom of the page:
      ![create-rm-shipment.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/create-rm-shipment.png)
@@ -64,7 +64,13 @@ To ship orders via Royal Mail a store admin should:
      The green Create PM Shipment button is changed to red Cancel RM Shipment one, the later becomes unavailable after the order manifest is sent to Royal Mail.
    * Print label and/or international document if applicable by clicking the buttons of the same name at the top of the page:
      ![print-label.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/print-label.png)
-     A shipping label and international document should then be affixed to a shipping conainer specifing its content:
+     
+     {% note warning %}
+     Please note that the “ImageMagick” library is required for proper resizing of shipping labels while printing. In case the “ImageMagick” library is installed the label will be available for printing by clicking the **Packing Slip** button at the top of the page.
+     Make sure the "ImageMagick" library is installed on the server hosting your X-Cart store for you.
+     {% endnote %}
+
+     A shipping label and international document should then be affixed to a shipping container specifing its content:
      ![shipping-label.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/shipping-label.png)
 
    
