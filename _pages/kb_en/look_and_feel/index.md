@@ -36,3 +36,6 @@ Pages and elements
 *   {% link "Editing the text on the Contact Us page" ref_CsqC5DNX %}
 *   {% link "Managing texts labels in your store" ref_IyGxQ1DN %}
 *   {% link "Removing the «Powered by» notice" ref_o5oJ0AFO %}
+
+_Related pages_ :
+{% link "Basic Design Changes in X Cart 5.3" ref_KpqQsVGf %}
