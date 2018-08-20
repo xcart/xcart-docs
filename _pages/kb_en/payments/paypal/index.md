@@ -32,6 +32,7 @@ _In this section:_
 *   {% link "Setting up Paypal Payments Advanced" ref_sO5X6iBT %}
 *   {% link "Setting up Paypal Payflow Link" ref_mTCkpViN %}
 *   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}
+*   {% link "PayPal for Marketplaces" ref_6iphJijP %}
 *   {% link "Setting up a test account" ref_P9Imto9y %}
 *   {% link "Setting up PayPal IPN URL" ref_2rlawgsT %}
 *   {% link "Enabling the Secure Token setting" ref_rPvvhtm9 %}
