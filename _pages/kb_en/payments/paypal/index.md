@@ -23,6 +23,7 @@ This module can be used to enable payments via the following methods:
 *   {% link "PayPal Payflow Link" ref_mTCkpViN %}
 *   PayPal Partner Hosted with PCI Compliance
 *   {% link "PayPal Adaptive payments" ref_FdXWLwVN %}
+*   {% link "PayPal for Marketplaces" ref_6iphJijP %}
 
 _In this section:_
 
