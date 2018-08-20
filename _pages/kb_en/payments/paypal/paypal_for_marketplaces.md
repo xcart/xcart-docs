@@ -45,6 +45,7 @@ To add the payment method "PayPal for Marketplaces" for your store:
     * **PayPal API Secret** : Specify your password for PayPal sandbox or live account
     * **PayPal Partner ID** : pecify the Partner's business account log-in
     * **PayPal BN Code** : Specify a unique build notation (BN) code you've got from PayPal as a Partner. If you do not have a BN code, [contact your PayPal account manager](https://www.paypal.com/partnerprogram/ "PayPal for Marketplaces"). BN codes provide tracking opportunities within the PayPal system on all transactions originating or associated with a particular Partner (for revenue sharing).
+    
     Additional settings
     * **Payment descriptor** : The payment descriptor on the buyer credit card statement of account activity.
     * **Test/Live mode** : Payment method operation mode.
