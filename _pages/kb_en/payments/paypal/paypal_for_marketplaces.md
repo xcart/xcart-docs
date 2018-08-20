@@ -87,14 +87,18 @@ To be able to receive payments through the PayPal for Marketplaces payment autom
 
 If a vendor fails to specify the appropriate PayPal Business account, the money due to them will simply not be transferred to the vendor's account, but will remain in the account of the store administrator. 
 
-For example, if an order contains products by three vendors, of which only one has a PayPal Business account specified in the profile, the money will be transferred only to the vendor who has a PayPal Business account specified as their Financial info, whereas the money of the other two vendors will be transferred to the account of the administrator. 
-
 All auto-generated PayPal for Marketplaces payments transactions showing the receipt of funds by the store vendors are recorded in the **Vendor transactions** section (**Orders** > **Vendor transactions**):
 
 ![vendor-transactions.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-transactions.png)
 
 ## Admin Experience
 
+All the information about the flow of payments from buyers to the store administrator through PayPal for Marketplaces payments is available for review in the **Payment transactions** section (**Orders** -> **Payment transactions**) of the admin area:
+
+![transactions.png]({{site.baseurl}}/attachments/ref_6iphJijP/transactions.png)
+
 In case a vendor doesn't have a PayPal Business account registered in the **Financial info** section the store admin will have to find a way to pay out the money they owe to such vendors (with methods outside X-Cart), after which the information about the respective payout transactions will have to be added in X-Cart manually using the **Create transaction** button in the **Vendor transactions** section (**Orders** > **Vendor transactions**):
 
 ![create-transaction.png]({{site.baseurl}}/attachments/ref_6iphJijP/create-transaction.png)
+
+
