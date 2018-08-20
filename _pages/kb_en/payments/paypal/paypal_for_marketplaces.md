@@ -5,7 +5,7 @@ updated_at: '2018-08-09 15:05 +0400'
 identifier: ref_6iphJijP
 title: PayPal for Marketplaces
 order: 270
-published: false
+published: true
 ---
 [PayPal for Marketplaces](https://market.x-cart.com/addons/paypal-for-marketplaces.html "PayPal for Marketplaces") is a comprehensive payments solution for marketplaces, crowdfunding platforms, and other environments where people buy and sell goods and services or raise money. PayPal for Marketplaces payment solution can be used at X-Cart Multivendor and Ultimate platforms only.
 
@@ -98,6 +98,3 @@ All auto-generated PayPal for Marketplaces payments transactions showing the rec
 In case a vendor doesn't have a PayPal Business account registered in the **Financial info** section the store admin will have to find a way to pay out the money they owe to such vendors (with methods outside X-Cart), after which the information about the respective payout transactions will have to be added in X-Cart manually using the **Create transaction** button in the **Vendor transactions** section (**Orders** > **Vendor transactions**):
 
 ![create-transaction.png]({{site.baseurl}}/attachments/ref_6iphJijP/create-transaction.png)
-
-
-
