@@ -39,18 +39,17 @@ To add the payment method "PayPal for Marketplaces" for your store:
    
 3.  Once the payment method has been added, configure its settings:
     ![settings-page.png]({{site.baseurl}}/attachments/ref_6iphJijP/settings-page.png)
-    Your account settings:
-    * **PayPal For Marketplaces account email** : Specify your e-mail registered for PayPal for Marketplace account
-    * **PayPal API Client ID** : Specify your login to PayPal sandbox or live account
-    * **PayPal API Secret** : Specify your password for PayPal sandbox or live account
-    * **PayPal Partner ID** : pecify the Partner's business account log-in
-    * **PayPal BN Code** : Specify a unique build notation (BN) code you've got from PayPal as a Partner. If you do not have a BN code, [contact your PayPal account manager](https://www.paypal.com/partnerprogram/ "PayPal for Marketplaces"). BN codes provide tracking opportunities within the PayPal system on all transactions originating or associated with a particular Partner (for revenue sharing).
-    
-    Additional settings
-    * **Payment descriptor** : The payment descriptor on the buyer credit card statement of account activity.
-    * **Test/Live mode** : Payment method operation mode.
-    * **Order id prefix** : A prefix that will be added to the IDs of all the orders originating from this store to make them unique. This value is required only if you use your PayPal account with more than one store.
-    * **Disburse funds** : Select 'Delayed' if you need an option to authorize the earnings transfer to the vendor's account and 'Immediate' if no pre-authorization is required.
+    * Your account settings:
+      * **PayPal For Marketplaces account email** : Specify your e-mail registered for PayPal for Marketplace account
+      * **PayPal API Client ID** : Specify your login to PayPal sandbox or live account
+      * **PayPal API Secret** : Specify your password for PayPal sandbox or live account
+      * **PayPal Partner ID** : pecify the Partner's business account log-in
+      * **PayPal BN Code** : Specify a unique build notation (BN) code you've got from PayPal as a Partner. If you do not have a BN code, [contact your PayPal account manager](https://www.paypal.com/partnerprogram/ "PayPal for Marketplaces"). BN codes provide tracking opportunities within the PayPal system on all transactions originating or associated with a particular Partner (for revenue sharing).
+    * Additional settings:
+      * **Payment descriptor** : The payment descriptor on the buyer credit card statement of account activity.
+      * **Test/Live mode** : Payment method operation mode.
+      * **Order id prefix** : A prefix that will be added to the IDs of all the orders originating from this store to make them unique. This value is required only if you use your PayPal account with more than one store.
+      * **Disburse funds** : Select 'Delayed' if you need an option to authorize the earnings transfer to the vendor's account and 'Immediate' if no pre-authorization is required.
     
 4. **Save** your configuration settings
 
