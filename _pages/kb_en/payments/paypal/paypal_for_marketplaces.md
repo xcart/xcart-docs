@@ -7,7 +7,7 @@ title: PayPal for Marketplaces
 order: 270
 published: false
 ---
-[PayPal for Marketplaces](https://market.x-cart.com/addons/paypal-for-marketplaces.html "PayPal for Marketplaces") is a comprehensive payments solution for marketplaces, crowdfunding platforms, and other environments where people buy and sell goods and services or raise money and hence can be used at X-Cart Multivendor and Ultimate platforms only.
+[PayPal for Marketplaces](https://market.x-cart.com/addons/paypal-for-marketplaces.html "PayPal for Marketplaces") is a comprehensive payments solution for marketplaces, crowdfunding platforms, and other environments where people buy and sell goods and services or raise money. PayPal for Marketplaces payment solution can be used at X-Cart Multivendor and Ultimate platforms only.
 
 {% note warning %}
 PayPal for Marketplaces is a limited-release solution at this time. It is available to select partners for approved use cases. For more information, reach out to your PayPal account manager or contact [PayPal Partner Expert team](https://www.paypal.com/us/webapps/mpp/partner-program/contact-us?ref=marketplace "PayPal for Marketplaces").
@@ -15,7 +15,7 @@ PayPal for Marketplaces is a limited-release solution at this time. It is availa
 
 PayPal for Marketplaces enables merchants to accept payments in up to 25 currencies across the globe. Customers can pay via credit or debit cards, local payment methods, or PayPal wallet payments. PayPal manages the risk inherent in processing payments. 
 
-X-Cart is integrated with PayPal for Marketplaces using the **Connected path** type of integration, where each PayPal merchant assumes financial liability. PayPal holds responsibility for fraud and merchant management. All merchants (vendors in X-Cart) must have PayPal Business accounts. As for the X-Cart admins, it's enough for them to have a PayPal Marketplace account that is required as a backup account for vendors who don't have a configured PayPal Business account and for {% link "managing shipping methods in a warehouse mode" ref_IvXmtLKI %} in Multivendor edition.
+X-Cart is integrated with PayPal for Marketplaces using the **Connected path** type of integration, where each PayPal merchant assumes financial liability. PayPal holds responsibility for fraud and merchant management. All merchants (vendors in X-Cart) must have PayPal Business accounts. As for the X-Cart admins if they are not merchants, it's enough for them to have a PayPal Marketplace account that is required as a backup account for vendors who don't have a configured PayPal Business account and for {% link "managing shipping methods in a warehouse mode" ref_IvXmtLKI %} in Multivendor edition.
 
 To get started with PayPal for Marketplaces, you must [register your marketplace with PayPal](https://developer.paypal.com/docs/marketplaces/prerequisites/#registration-steps "PayPal for Marketplaces") to get an access token. This access token is used for authorization of the REST API requests.
 
@@ -53,9 +53,14 @@ To add the payment method "PayPal for Marketplaces" for your store:
     
 4. **Save** your configuration settings
 
-5. Connect an additional PayPal Business Account to your X-Cart if required:
-   ![connect-business-account.png]({{site.baseurl}}/attachments/ref_6iphJijP/connect-business-account.png)
-   Click _Connect to PayPal link_ to access the PayPal sign-in page and sign in using your PayPal account different from the account specified above in your account settings. This account will be used to receive the shipping cost (if you are going to ship out goods on behalf of vendors), the earnings on your own products (if you are going to be one of the sellers), and the earnings on the sales of the vendors who have not set up a PayPal account of their own for some reason.
+{% note info %}
+You can connect an additional PayPal Business Account to your X-Cart if required:
+![connect-business-account.png]({{site.baseurl}}/attachments/ref_6iphJijP/connect-business-account.png)
+
+Click _Connect to PayPal link_ to access the PayPal sign-in page and sign in using your PayPal account different from the account specified above in your account settings. This additional account will be used to receive the shipping cost (if you are going to ship out goods on behalf of vendors), the earnings on your own products (if you are going to be one of the sellers), and the earnings on the sales of the vendors who have not set up a PayPal Business account of their own for some reason.
+
+If this option in not configured and there is a vendor with a not configured PayPal Business account, a customer will not be able to pay an order via PayPal for Marketplaces payment in case a product from such vendor is added to cart.
+{% endnote %}
 
 
 Once the above steps have been completed, shoppers at your store should be able to select this method at checkout and use it for payment. By default, the name of this payment method will appear to shoppers simply as “PayPal”:
@@ -76,15 +81,23 @@ If necessary, you can adjust the display name of this payment method (the one th
 
 ## Vendor Experience
 
-To be able to receive payments through PayPal for Marketplaces payment automatically, vendors needs to specify their PayPal Business account in the **Financial info** section of their profile (See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}). 
+To be able to receive payments through the PayPal for Marketplaces payment automatically, vendors needs to specify their PayPal Business account in the **Financial info** section of their profile (See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}). 
 
 ![vendor-paypal-details.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-paypal-details.png)
 
 If a vendor fails to specify the appropriate PayPal Business account, the money due to them will simply not be transferred to the vendor's account, but will remain in the account of the store administrator. 
 
-For example, if an order contains products by three vendors, of which only one has a PayPal Business account specified in the profile, the money will be transferred only to the vendor who has a PayPal Business account specified as their Financial info, whereas the money of the other two vendors will be transferred to the account of the administrator. In the **Vendor transactions** section (**Orders** > **Vendor transactions**) there will appear auto-generated PayPal for Marketplaces payments transactions showing the receipt of funds by the store administrator for each of the three vendors, but an automatic transaction showing payout of vendor earnings will be present only for one of the vendors. The administrator will have to find a way to pay out the money they owe to the remaining two vendors (with methods outside X-Cart), after which the information about the respective payout transactions will have to be added in X-Cart manually.
+For example, if an order contains products by three vendors, of which only one has a PayPal Business account specified in the profile, the money will be transferred only to the vendor who has a PayPal Business account specified as their Financial info, whereas the money of the other two vendors will be transferred to the account of the administrator. 
+
+All auto-generated PayPal for Marketplaces payments transactions showing the receipt of funds by the store vendors are recorded in the **Vendor transactions** section (**Orders** > **Vendor transactions**):
+
+![vendor-transactions.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-transactions.png)
 
 ## Admin Experience
+
+In case a vendor doesn't have a PayPal Business account registered in the **Financial info** section the store admin will have to find a way to pay out the money they owe to such vendors (with methods outside X-Cart), after which the information about the respective payout transactions will have to be added in X-Cart manually using the **Create transaction** button in the **Vendor transactions** section (**Orders** > **Vendor transactions**):
+
+![create-transaction.png]({{site.baseurl}}/attachments/ref_6iphJijP/create-transaction.png)
 
 
 
