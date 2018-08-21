@@ -11,6 +11,8 @@ The [Stripe payment module](https://market.x-cart.com/addons/stripe-payment-modu
 
 Stripe payment can be used in the US, UK, Canada and Ireland, Stripe is in Beta in Australia, France, Spain, Germany, Belgium, Finland, Netherlands and Luxembourg, with even more countries coming.
 
+## Installation and Set-up
+
 To enable Stripe payment in your store follow the regular guidelines on adding an online payment method provided in {% link "Adding payment methods" ref_36BqwVSF %}.
 
 Once Stripe is added, you'll be redirected to the Stripe settins page:
@@ -63,4 +65,24 @@ The used payment method is displayed on both the order invoice page in the custo
   <div class="column" markdown="span"><i>Payment transactions</i>![payment-transactions.png]({{site.baseurl}}/attachments/ref_1SRSOBWa/payment-transactions.png)</div>
 </div>
 
+## Order Processing
 
+Depending on the **Transaction type** settings value orders paid with Stripe get either "Paid" or "Authorized" {% link "order payment status" ref_DkbTi1qJ %}. The "Paid" status is assigned to an order if the **Transaction type** setting is set to **Authorization and Capture** and the "Authorized" status is assigned if the value is set to **Authorize only** respectively. 
+
+Orders with the "Authorized" payment status require manual processing. The cart admin can either **Capture** or **Void** the order on the order details page depending on the preferences.
+
+![capture-void.png]({{site.baseurl}}/attachments/ref_1SRSOBWa/capture-void.png)
+
+Once an order gets the "Paid" status it can be refunded only. 
+
+Stripe allows full and partial refunds:
+
+![refund.png]({{site.baseurl}}/attachments/ref_1SRSOBWa/refund.png)
+
+To refund the order in full just click on the **Refund** button on the order details page and confirm the action. 
+
+For a partial refund specify the amount you want to refund in the field opposite the **Refund** button and click **Refund**. 
+
+The order will get the "Partially paid" payment status the maximum amount available for refund being specified:
+
+![partial-refund.png]({{site.baseurl}}/attachments/ref_1SRSOBWa/partial-refund.png)
