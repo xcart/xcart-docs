@@ -5,7 +5,7 @@ updated_at: '2018-08-21 12:06 +0400'
 identifier: ref_1SRSOBWa
 title: Stripe
 order: 270
-published: false
+published: true
 ---
 The [Stripe payment module](https://market.x-cart.com/addons/stripe-payment-module.html "Stripe") provides an integration with Stripe, a PCI compliant payment service with a neat payment form on checkout that allows saving personal CC info in Stripe for future re-using (optional). Stripe is compatible with all types of devices: desktop, tablet and mobile. 
 
