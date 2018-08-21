@@ -23,3 +23,4 @@ _In this section:_
 *   {% link "Amazon Pay" ref_mri0tPhM %} (former “Pay with Amazon”) 
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
+*   {% link "Stripe" ref_1SRSOBWa %}
