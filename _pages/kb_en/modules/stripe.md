@@ -32,7 +32,8 @@ Here you'll need to copy "Webhook URL" and place it into your Stripe Account set
 2. in the section _Endpoints receiving events from your account_, click **+ Add endpoint**.
    ![add-endpoint.png]({{site.baseurl}}/attachments/ref_1SRSOBWa/add-endpoint.png)
 3. in the form that opens, paste the "Webhook URL" value into the field **URL to be called** and click **Add endpoint**.
-4. the "Webhook URL" is added
+
+That's it, the "Webhook URL" is added.
    
 {% note info %}
 More information on the setup of webhooks is available [here](https://stripe.com/docs/webhooks#configuring-your-webhook-settings "Stripe").
