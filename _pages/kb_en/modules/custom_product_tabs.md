@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-08-14 14:37 +0400'
 identifier: ref_2JzbMU2q
 title: Custom Product Tabs
-order: 157
+order: 70
 published: true
 ---
 If the set of product page tabs used in your store by default does not meet your needs, you can use the addon [Custom product tabs](https://market.x-cart.com/addons/custom-product-tabs.html) to change it. 
