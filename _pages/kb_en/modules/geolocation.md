@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-07-05 14:08 +0400'
 identifier: ref_34F5BkhW
 title: Geolocation Module
-order: 176
+order: 125
 published: true
 ---
 To improve the user experience of non-logged in customers X-Cart 5 is integrated with a free IP geolocation database GeoLite by Maxmind within the [Geolocation module](https://market.x-cart.com/addons/geolocation.html). The module works in bunble with many other features in X-Cart and allows e.g. to "guess" the customers' country and address for more precise pre-login shipping cost estimation.
