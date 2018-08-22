@@ -7,7 +7,7 @@ title: 'eCC Desktop: Quickbooks integration'
 categories:
   - User manual
 published: true
-order: 164
+order: 80
 ---
 
 
@@ -34,5 +34,3 @@ _See also:_
 
 *   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
-
-
