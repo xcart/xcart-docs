@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-19 13:53 +0400'
 identifier: ref_0Esu2RNW
 title: Make/Model/Year Module
-order: 187
+order: 165
 published: true
 ---
 The [Make/Model/Year module](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year Module") allows to set up up to 4 levels of filter for inventory, as well as to remember the filters for the non-registered visitors and to remember the vehicle for the registered customers. Though the module is mainly aimed at the sellers of auto parts or/and moto parts, it can also be used by any seller who differentiates the products by levels like computers, copiers, smartphones, etc. 
