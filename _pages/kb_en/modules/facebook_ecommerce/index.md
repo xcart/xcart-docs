@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-11-16 01:48 +0400'
 identifier: ref_LA0TBHEA
 title: Facebook eCommerce Module
-order: 167
+order: 95
 published: true
 ---
 
