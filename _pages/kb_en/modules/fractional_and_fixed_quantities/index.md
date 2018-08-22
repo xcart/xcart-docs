@@ -11,7 +11,7 @@ categories:
   - User manual
   - Module
 published: true
-order: 170
+order: 115
 ---
 
 The module "Fractional and Fixed quantities" provides a number of product quantity related features for your X-Cart 5 online store.
