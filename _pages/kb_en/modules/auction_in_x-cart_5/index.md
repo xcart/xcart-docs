@@ -7,7 +7,7 @@ title: Auction in X-Cart 5
 categories:
   - User manual
 published: true
-order: 110
+order: 25
 ---
 
 
