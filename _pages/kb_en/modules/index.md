@@ -41,6 +41,7 @@ _In this section:_
 *   {% link "Free Shipping and Shipping freights" ref_4Bfeegp9 %}
 *   {% link "Geolocation Module" ref_34F5BkhW %}
 *   {% link "Google Product Feed Module" ref_2gQBB6qM %}
+*   {% link "Go Social" ref_4YoBovhW %}
 *   {% link "Hide Prices Module" ref_46jNUlWG %}
 *   {% link "Horizontal Flyout Categories Menu" ref_1mFs8c7N %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
