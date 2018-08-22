@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-26 16:45 +0400'
 identifier: ref_4Bfeegp9
 title: Free Shipping and Shipping freights
-order: 175
+order: 120
 published: true
 ---
 With the addon **Free shipping and Shipping freights** by X-Cart team (available in X-Cart Business, Multivendor, Ultimate editions), it is possible to set a shipping freight and to configure free shipping on specific products. 
