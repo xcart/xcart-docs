@@ -7,7 +7,7 @@ title: AvaTax Sales Tax Automation
 categories:
   - User manual
 published: true
-order: 120
+order: 30
 ---
 
 
