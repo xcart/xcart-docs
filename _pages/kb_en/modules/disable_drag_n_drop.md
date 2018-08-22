@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-06-13 17:35 +0400'
 identifier: ref_2NVSkzc3
 title: Disable drag'n'drop add to cart
-order: 158
+order: 75
 published: true
 ---
 The addon **[Disable drag'n'drop add to cart](https://market.x-cart.com/addons/disable-drag-n-drop.html "Disable drag'n'drop add to cart")** disables X-Cart's drag-n-drop add to cart feature, which is available by default.
