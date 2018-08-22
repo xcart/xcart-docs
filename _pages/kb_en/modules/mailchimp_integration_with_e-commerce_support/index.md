@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-09-27 16:07 +0400'
 identifier: ref_Rox8AcJp
 title: MailChimp Integration with Ecommerce support
-order: 185
+order: 160
 published: true
 ---
 [MailChimp](http://www.mailchimp.com/signup/?pid=xcart&source=website) integration for X-Cart 5 is available in the form of an add-on module (“addon”) named “MailChimp Integration with Ecommerce support”. 
