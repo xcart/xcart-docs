@@ -7,7 +7,7 @@ title: Booking
 categories:
   - User manual
 published: true
-order: 140
+order: 45
 ---
 
 
