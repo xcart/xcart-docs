@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-08-07 14:05 +0400'
 identifier: ref_2WzsM3Pg
 title: Newsletter Subscriptions
-order: 197
+order: 185
 published: true
 ---
 The “Newsletter subscriptions” module adds a sign-up form into the footer of your site inviting your store visitors to subscribe to your newsletters. The module is included in all X-Cart editions (Business, Multivendor and Ultimate) and comes preinstalled.
