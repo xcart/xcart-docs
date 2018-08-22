@@ -7,7 +7,7 @@ title: Abandoned Cart Reminder
 categories:
   - User manual
 published: true
-order: 100
+order: 10
 ---
 
 
@@ -32,4 +32,3 @@ _In this section:_
 *   {% link "Managing abandoned carts and sending reminders" ref_hkTTIuTr %}
 *   {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}
 *   {% link "Abandoned Cart Reminder FAQ" ref_P3v5Wzvf %}
-
