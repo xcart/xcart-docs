@@ -7,7 +7,7 @@ title: Amazon Pay
 categories:
   - User manual
 published: true
-order: 105
+order: 20
 redirect_from:
   - /modules/pay_with_amazon/index.html
 ---
