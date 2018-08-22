@@ -7,7 +7,7 @@ title: iDEAL Payments
 categories:
   - User manual
 published: true
-order: 180
+order: 150
 ---
 
 
