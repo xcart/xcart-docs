@@ -5,7 +5,7 @@ updated_at: '2018-08-22 15:49 +0400'
 identifier: ref_4YoBovhW
 title: Go Social
 order: 135
-published: false
+published: true
 ---
 [Go Social](https://market.x-cart.com/addons/go-social.html "Go Social") module adds the most popular social share widgets (Facebook Like, Tweet It, Pinterest and Google+ buttons) on product pages.
 
@@ -57,6 +57,3 @@ You can enable/disable the following options:
      * enable a moderator interface on Facebook where comments from all product pages can be easily moderated together
   * **Facebook Application Namespace** : Specify the same app namespace that you entered when configured your Facebook Platform application.
   * **Facebook Admins** : Specify a comma-separated list of the Facebook User IDs of page administrators. The list should include at least your own Facebook User ID.
-
-
-
