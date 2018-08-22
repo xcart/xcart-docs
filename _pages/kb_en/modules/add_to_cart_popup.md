@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-04-24 14:19 +0400'
 identifier: ref_1iGC8Efj
 title: Add to Cart PopUp Module
-order: 103
+order: 15
 published: true
 ---
 Improve shopping experience by displaying the add-to-cart action confirmation where it cannot go unnoticed by the customer - in a popup, right before the customer's eyes, which gives the customer assurance that everything is going the right way.
