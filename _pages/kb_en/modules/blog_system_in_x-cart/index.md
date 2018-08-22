@@ -7,7 +7,7 @@ title: Blog system in X-Cart 5
 categories:
   - User manual
 published: true
-order: 130
+order: 40
 ---
 
 
