@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-08-24 16:29 +0400'
 identifier: ref_3LCo1cQc
-title: Отслеживание электронной торговли
+title: Сводка по электронной торговле
 order: 100
 published: true
 ---
