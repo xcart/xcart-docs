@@ -37,11 +37,12 @@ published: false
     4. Аккаунт создан. На открывшейся странице вы найдёте идентификатор отслеживания.
     
     ![property-id.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/property-id.png)
+    
+Чтобы найти идентификатор отслеживания конкретного аккаунта, на странице **Все аккаунты** наведите курсор на название аккаунта. Код отслеживания появится в колонке **Ресурсы и приложения**.
 
-* **What are you tracking** : Choose between _single domain_ / _one domain with multiple subdomains_ / _multiple top level domains_ depending on your preferences. 
-* **Google Analytics code version** : A preset value is [Universal Analytics](https://support.google.com/analytics/answer/3450662?hl=en "Installing and Configuring  Google Analytics Module"). Also, it's possible to set the value to Traditional.
-* **Enable eCommerce Google Analytics** : Enable/Disable submitting ecommerce data to Google Analytics
-* **Register purchase only on Paid status change** : When enabled, order data is sent to Google Analytics when an order becomes ‘Paid’. When disabled, X-Cart sends order when an invoice page shows up to a customer regardless of the order status.
-* **Debug mode** : Enable to check all actions submitted to Google Analytics in a browser JS console.
+* **Что отслеживается**: Выберите, что будет отслеживать Google Аналитика: _Одиночный домен_, _Один домен с несколькими поддоменами_ или _Несколько доменов верхнего уровня_. 
+* **Версия кода Google Analytics**: Выберите [стандарт](https://support.google.com/analytics/answer/3450662?hl=ru "Установка и настройка модуля Google Analytics"). По умолчанию выбран новый стандарт _Universal Analytics_, обязательный для всех ресурсов. Другой доступный вариант - _Traditional_.
+* **Включить eCommerce Google Analytics**:  Включите или отключите отслеживание электронной торговли.
+* **Регистрировать покупку только после смены статуса на "Оплачен"**: Если опция включена, информация о заказе передаётся в Google Аналитику, когда статус заказа изменяется на **Оплачен**. Если опция отключена, информация о заказе передаётся в Google Аналитику независимо от статуса заказа, когда открывается страница счёта.
+* **Режим отладки** : Если режим отладки включён, все действия передачи данных в Google Аналитику можно отследит в JS консоли браузера.
 
-**Submit** changes when the module configuration is complete. Google Analytics will collect staistics based on the settings you specified.
