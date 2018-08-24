@@ -5,7 +5,7 @@ updated_at: '2018-08-24 15:02 +0400'
 identifier: ref_1YoJs3i5
 title: Google Аналитика
 order: 70
-published: false
+published: true
 ---
 Чтобы преуспеть и выдержать конкуренцию в сфере онлайн-коммерции, важно быстро принимать рациональные решения. Для принятия взвешенных решений необходимы статистические данные о работе магазина, и собирать такую информацию вручную крайне сложно. На помощь приходят инструменты, автоматизирующие получение информации.
 
@@ -20,4 +20,3 @@ Google Аналитика повышает эффективность рекла
 *   {% link "Installing and Configuring  Google Analytics Module" ref_7aqHV7fa %}
 *   {% link "Ecommerce Tracking with Google Analytics" ref_3B4yRZ99 %}
 *   {% link "Ecommerce dashboards in Google Analytics" ref_38zRtgUZ %}
-
