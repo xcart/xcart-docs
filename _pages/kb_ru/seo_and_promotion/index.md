@@ -2,7 +2,7 @@
 lang: ru
 layout: article_with_sidebar
 updated_at: '2018-01-04 14:11 +0400'
-title: SEO и специальные предложения
+title: SEO и продвижение
 order: 150
 icon: search
 published: true
