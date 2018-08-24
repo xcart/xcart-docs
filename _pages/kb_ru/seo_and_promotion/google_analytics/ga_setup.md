@@ -7,35 +7,34 @@ title: Установка и настройка модуля Google Analytics
 order: 100
 published: false
 ---
-First of all you'll need to enable the Google Analytics module as described in the {% link "Managing addons" ref_gTOegEua %} guide.
+Активируйте модуль по {% link "инструкциям" ref_gpeZtm28 %}.
 
-When the module is enabled, open the Settings page to configure it.
+Перейдите по ссылке **Настройки** рядом с названием модуля.
 
 ![installed.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/installed.png)
 
-The module configuration settings are as follows:
+Настройки модуля:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/settings.png)
 
-* **Web Property ID** : Specify your Google Analytics Web Property ID
+* **Web Property ID**: Код отслеживания, который вы получили при регистрации в Google Аналитике. Идентификатор указывается в настройках модуля в магазине, чтобы система Google Аналитика получала данные о посещении сайта магазина.
   
-  How to find your Web Property ID:
-  1. Log in to [Analytics](https://www.google.com/analytics "Installing and Configuring Google Analytics Module"), using the Google account that owns the Analytics profile that you want to get the ID for.
-  2. Choose the Analytics Settings tab
-  3. Find the entry in the list for the Analytics profile that you need the profile for:
-     Each profile has two rows:  the top one lists the URL of the site and profile ID, while the 2nd one has the name you have given the profile, view report-link, some statistics, and links to edit or delete the profile.
+  Где найти идентификатор отслеживания:
+  1. Авторизуйтесь в системе [Google Аналитика](https://analytics.google.com "Установка и настройка модуля Google Analytics") через Google аккаунт, с которым связан аккаунт Google Аналитики.
+  2. Нажмите на ссылку Google Аналитике, откроется список аккаунтов.
+  3. Нажмите на название аккаунта, появится строка с названием сайта, где указан идентификатор отслеживания.
      
     ![id.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/id.png)
       
-   How to create a new Web Property ID:
-   1. Register at https://www.google.com/analytics using your Google account.
-   2. Follow the steps to create a new account and get a tracking ID
+   Как создать идентификатор отслеживания:
+   1. Зарегистрируйтесь в [Google Аналитике](https://analytics.google.com "Установка и настройка модуля Google Analytics") через свой Google аккаунт.
+   2. Заполните настройки нового аккаунта и нажмите **Получить идентификатор отслеживания**
       <div class="ui stackable three column grid">
        <div class="column" markdown="span">![new-1.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/new-1.png)</div>
        <div class="column" markdown="span">![new-2.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/new-2.png)</div>
       </div>
-    3. Accept Google Analytics Terms of Service Agreement
-    4. Your Web Property ID is in the Property -> Tracking info -> Tracking code section
+    3. Подтвердите Принятие Условий использования Google Аналитикие и условий в отношении обработки данных в соответствии с требованиями Генерального регламента ЕС о защите персональных данных (GDPR).
+    4. Аккаунт создан. На открывшейся странице вы найдёте идентификатор отслеживания.
     
     ![property-id.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/property-id.png)
 
@@ -46,4 +45,3 @@ The module configuration settings are as follows:
 * **Debug mode** : Enable to check all actions submitted to Google Analytics in a browser JS console.
 
 **Submit** changes when the module configuration is complete. Google Analytics will collect staistics based on the settings you specified.
-
