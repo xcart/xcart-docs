@@ -17,6 +17,6 @@ published: true
 
 Google Analytics повышает эффективность рекламы и конверсию сайта.
 
-*   {% link "Installing and Configuring  Google Analytics Module" ref_7aqHV7fa %}
+*   {% link "Установка и настройка модуля Google Analytics" ref_3iMuKmmv %}
 *   {% link "Ecommerce Tracking with Google Analytics" ref_3B4yRZ99 %}
 *   {% link "Ecommerce dashboards in Google Analytics" ref_38zRtgUZ %}
