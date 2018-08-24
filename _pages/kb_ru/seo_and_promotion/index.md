@@ -18,3 +18,4 @@ categories:
 *   {% link "Магазин в поисковых системах" ref_68MWoBM6 %}
 *   {% link "Оптовые скидки" ref_0yZU8I9T %}
 *   {% link "Настройка семантических ссылок" ref_01pcHM1g %}
+*   {% link "Google Аналитика" ref_1YoJs3i5 %}
