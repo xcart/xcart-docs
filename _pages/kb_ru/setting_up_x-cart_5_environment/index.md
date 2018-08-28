@@ -21,3 +21,4 @@ icon: server
     *   {% link "Настройка openSSL" ref_openssl %}
 *   {% link "Оптимизация сервера для скачивания больших файлов" ref_attachments00 %}
 *   {% link "Создание самоподписанного SSL сертификата" ref_selfsignedssl %}
+*   {% link "Повышение скорости работы магазина" ref_2TGQ7nN1 %}
