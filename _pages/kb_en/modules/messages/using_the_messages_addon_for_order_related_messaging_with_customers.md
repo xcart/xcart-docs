@@ -7,19 +7,19 @@ title: Using the "Messages" addon for order related messaging with customers
 order: 400
 published: false
 ---
-## Getting notified about new messages
-Whenever someone sends you a message, you will be notified about it via a bell notification in your X-Cart store's Admin area:
+## Getting notified about new messages and disputes
+Whenever someone sends you a message or opens a dispute, you will be notified about it via a bell notification in your X-Cart store's Admin area:
 
    ![new-mes-notification.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-mes-notification.png)
 
-You can expand the bell notification menu and access your new messages by clicking the Messages link:
+You can expand the bell notification menu and access your new messages or disputes by clicking on the respective link ("Messages" or "Disputes"):
 
-  ![quick-menu.png]({{site.baseurl}}/attachments/ref_09pfmGGi/quick-menu.png)
+![msgs_bell_links.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_bell_links.png)
 
 Note that you will also receive all the messages addressed to you via email.
 
-## Messages section: all your messages in one place
-You can easily access all your messages via the Messages section of your store's Admin area (**Orders** -> **Messages**):
+## Messages section: all your messages and disputes in one place
+You can easily access all the messages and disputes, if any, via the Messages section of your store's Admin area (**Orders** -> **Messages**):
 
   ![new-message-adimn.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-message-adimn.png)
 
