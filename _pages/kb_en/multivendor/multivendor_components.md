@@ -39,6 +39,9 @@ Here's a brief overview of the addons typically used to build a Multivendor stor
    * **[AvaTax Sales Tax Automation](https://market.x-cart.com/addons/avatax-sales-tax-automation.html)**: Another addon intended not exclusively for Multivendor, but fits Multivendor-enabled marketplaces just as well as single-seller X-Cart stores. This addon is intended for tax calculation, and it provides the fastest, easiest and most accurate way to calculate sales tax, manage tax exemptions and file returns via Avalara's service. For more information on this addon, see {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %} 
      ![xc5_mv_avatax_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/xc5_mv_avatax_installed.png)
 
+   * **[TaxJar Sales Tax Automation](https://market.x-cart.com/addons/taxjar-sales-tax-automation.html)**: An addon to help you handle US tax calculation, reporting and filing through the integration with TaxJar. For more information on this addon, see {% link "TaxJar Sales Tax Automation: Usage with Multivendor" ref_4ne38ZTm %} 
+     
+     
    * **[Custom Product Tabs](https://market.x-cart.com/addons/custom-product-tabs.html)**: Another addon not just for Multivendor. Enables additional custom product tabs on the detailed product pages. For more information on this addon, see {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %} 
      ![mv_customproducttabs_module.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mv_customproducttabs_module.png)
 
