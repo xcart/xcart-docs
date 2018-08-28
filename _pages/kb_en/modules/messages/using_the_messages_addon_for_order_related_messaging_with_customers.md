@@ -7,3 +7,18 @@ title: Using the "Messages" addon for order related messaging with customers
 order: 400
 published: false
 ---
+## Getting notified about new messages
+Whenever someone sends you a message, you will be notified about it via a bell notification in your X-Cart store's Admin area:
+
+   ![new-mes-notification.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-mes-notification.png)
+
+You can expand the bell notification menu and access your new messages by clicking the Messages link:
+
+  ![quick-menu.png]({{site.baseurl}}/attachments/ref_09pfmGGi/quick-menu.png)
+
+Note that you will also receive all the messages addressed to you via email.
+
+## Viewing and managing messages
+
+## Finding orders with messages
+unread/any
