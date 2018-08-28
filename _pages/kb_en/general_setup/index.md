@@ -32,6 +32,7 @@ Backup, Restore, Relocate
 
 Store Configuration and Maintenance
 *   {% link "Configuring your store's General settings" ref_qAZlJxZm %}
+*   {% link "X-Cart Store Security" ref_4ewdbDM8 %}
 *   {% link "Specifying your company's identity and contact information" ref_HcSs9eFL %}
 *   {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
 *   {% link "Enabling Catalog mode (no "Add to cart" buttons)" ref_CvAsFxq8 %}
