@@ -61,4 +61,5 @@ _Related pages:_
    * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}  
    * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
    * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}
+   * {% link "TaxJar Sales Tax Automation: Usage with Multivendor" ref_4ne38ZTm %} 
    * {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %}
