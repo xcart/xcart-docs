@@ -7,24 +7,24 @@ title: Выбор драйвера кеширования данных
 order: 100
 published: false
 ---
-Caching one of the most effective way of improving performance of web applications of all kinds. X-Cart 5 employs various types of caching the data at many levels within the system. However, you have to choose the most appropriate cache driver to get the maximum performance gain. 
+Кеширование - эффективный способ повышения производительности веб-приложений. X-Cart применяет различные способы кеширования данных на разных уровнях системы. Чтобы максимально повысить производительность сайта, важно выбрать подходящий драйвер кеэширования. 
 
-X-Cart application gives you the following options for the data caching mechanism:
+Механизм кеширования в X-Cart:
 
--	[APC](http://php.net/manual/en/book.apc.php) cache
--	[Memcached \ Memcache](http://php.net/manual/en/book.memcached.php) driver
--	[XCache](https://xcache.lighttpd.net/) driver
--	File system caching
+-	[Альтернативный PHP кешер](http://php.net/manual/ru/book.apc.php)
+-	[Драйвер Memcached \ Memcache](http://php.net/manual/ru/book.memcached.php)
+-	[Драйвер XCache](https://xcache.lighttpd.net/)
+-	Кеширование файловой системы
 
-By default, X-Cart tries to detect and automatically select the caching driver for you in the aforemented order, eventually falling back to the file system caching (using it doesn't require any configuration).
+X-Cart автоматически находит и выбирает драйвер кеширования в указанном порядке и в итоге приходит к кешированию файловой системы, что не требует специфической настройки.
 
 {% note info %}
-This article is discussing only the caching of dynamic content like product selections, filters, calculation results etc. Caching of the static content that does not change during store deployments, like CSS, Images and Javascript files, is the matter of another subject.
+Данная статья рассматривает кеширование только динамического содержимого (выборки товаров, фильтров, результатов расчётов и т.п.).
 {% endnote %}
 
-## Configuring the X-Cart cache driver
+## Настройка драйвера кеширования X-Cart
 
-You can select the cache driver manually by setting the `type` option in `[cache]` section inside `<X-Cart dir>/etc/config.php`
+Чтобы выбрать драйвер кеширования вручную, установите опцию `type` в секции [cache] файла `<X-Cart dir>/etc/config.php`
 
 ```
 ; ----------------------
@@ -36,12 +36,12 @@ You can select the cache driver manually by setting the `type` option in `[cache
 type=file
 ```
 
-## Cache specifics
+## Характеристики кеширования
 
-When it comes to choosing the cache options, generally you have to consider the amount of the data in your store and the overall customer traffic. The cached content can be divided into public and personal parts:
+При настройке кеширования следует принимать во внимание объём данных в магазине и посещаемость сайта. Кешируемое содержимое делится на общедоступное и частное:
 
--	Public content is what multiple users see, e.g. categories list, wholesale information, product filters and other. 
--	Personal content is tailored for the specific customer. It includes product lists, shipping rates, shopping cart state etc. For example, product lists are cached by pager state, user membership, sorting order and display mode (grid, list). That means that the size of the personal content is highly dependent on customer traffic.
+-	Общедоступное содержимое - что видят все пользователи (списки категорий, оптовые цены, фильтры свойств товаров и т.п.). 
+-	Частное содержимое предназначено для конкретного пользователя (списки товаров, стоимость доставки, состояние корзины и т.п.). Например, списки товаров кешируются постраничной навигацией, группами пользователей, режимами сортировки и отображения. То есть объём частного содержимого зависит от посещаемости магазина.
 
 If your store contains lots of products and categories (we're talking about hundreds of thousands of products), cached content can quickly take up the whole available space (it can take gigabytes). Such cache will be ineffective if the space is limited because X-Cart will have to constantly recalculate the same data unable to cache it all.
 
@@ -99,4 +99,3 @@ namespace=XLite
 ; port 11211 is used.
 servers=127.0.0.1
 ```
-
