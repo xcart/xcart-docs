@@ -9,22 +9,6 @@ published: true
 ---
 First of all, check that the Order Messages module is installed and enabled as described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
 
-If enabled and you have the {% link "Multivendor" ref_4ahg5FLK %} module enabled as well proceed to the Messages module settings page to add special options for providers:
-
-  ![settings-1.png]({{site.baseurl}}/attachments/ref_09pfmGGi/settings-1.png)
-
-You'll see a screen where you'll need to allow a direct communicaton between customers and providers in a “Warehouse” mode:
-
-  ![settings-2.png]({{site.baseurl}}/attachments/ref_09pfmGGi/settings-2.png)
-
-
-{% note info %}
-In the “Warehouse” mode it’s a store administrator who handles communication with customers by default. If both messaging with the store administrator and vendors is enabled, a customer can choose whom he wants to communicate with.
-
-In “Vendors as separate shops” mode vendors communicate with customers themselves and get only the messages related to their orders.
-{% endnote %}
-
-
 A store administrator gets notifications about new messages in the **Notification Menu** of a store admin area.
 
   ![new-mes-notification.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-mes-notification.png)
@@ -40,15 +24,15 @@ If you view new messages and disputes this way the system will show only the new
   <div class="column" markdown="span">![dispute-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/dispute-admin.png)</div>
 </div>
 
-If you need to see all available messages but not only the new ones open the **Orders** -> **Messages** section of the admin area
+If you need to see all available messages but not only the new ones open the **Orders** -> **Messages** section of the Admin area
 
   ![new-message-adimn.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-message-adimn.png)
 
-Besides that, all messages are duplicated by e-mail.
+Besides that, all the messages are duplicated by email.
 
   ![email-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/email-admin.png)
 
-A store admin can search for orders with messages using the advanced search panel on the **Orders list** page (**Orders** -> **Orders list**)
+The store admin can search for orders with messages using the advanced search panel on the **Orders list** page (**Orders** -> **Orders list**)
   
   ![search.png]({{site.baseurl}}/attachments/ref_09pfmGGi/search.png)
 
@@ -58,7 +42,7 @@ Also, if there is a new message for an order, it will be displayed in the _Messa
 
 ![order-details-mes.png]({{site.baseurl}}/attachments/ref_09pfmGGi/order-details-mes.png)
 
-If necessary a store admin can open a dispute on the order (e.g. to cut into the messaging between a vendor and a customer and get notifications for this conversation) by clicking the **'Open dispute'** button in the _Messages_ tab of the Order details page and close a dispute by clicking the **'Close dispute'** button respectively.
+If necessary the store admin can open a dispute on the order (e.g. to cut into the messaging between a vendor and a customer and get notifications for this conversation) by clicking the **'Open dispute'** button in the _Messages_ tab of the Order details page and close a dispute by clicking the **'Close dispute'** button respectively.
 
 ![open-dispute-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/open-dispute-admin.png)
 
@@ -73,5 +57,3 @@ And a dispute will be opened with a special notification on whom the dispute ori
 When a dispute is closed, a special notification will be there as well:
 
 ![dispute-closed-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/dispute-closed-admin.png)
-
-
