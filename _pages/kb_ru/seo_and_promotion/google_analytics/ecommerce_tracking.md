@@ -7,57 +7,52 @@ title: ''
 order: 100
 published: false
 ---
-First of all it's necessary to specify that Ecommerce tracking stands for collecting and analyzing only purchase and transaction data. Ecommerce reports allow you to analyze purchase activity on your site. You can see product and transaction information, average order value, ecommerce conversion rate, time to purchase, and other purchase related data. Besides that Google Analytics allows to analyze customer traffic, adds strategy, email marketing, etc.
+Отслеживание электронной торговли - сбор и анализ информации только о продажах и платежных операциях. Отчеты предоставляют результаты анализа покупательской активности на сайте, информацию о товарах и движении средств, среднюю стоимость заказа, коэффициент конверсии, время до покупки и другие параметры. 
 
-When you open Google Analytics home for the first time you'll see a screen like this
+Так выглядит главная страница аккаунта
 
 ![Analytics.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/Analytics.png)
 
-The default Google Analytics reports that you'll see on the homepage are most likely to be 
-* User Traffic 
-* How do you acquire users?
-* How are your active users trending over time?
-* How well do you retain users?
-* When do your users visit?
-* Where are your users?
-* What are your top devices?
-* What pages do your users visit?
-* How are you performing against goals?
-* What are your top selling products?
+На главной странице выводятся следующие отчеты 
+* Источники траффика 
+* Как вы привлекаете посетителей?
+* Как меняется активность пользователей с течением времени?
+* Коэффициент удержания клиентов?
+* В какое время пользователи посещают ваш ресурс?
+* Где находятся ваши клиенты?
+* С каких устройств пользователи заходят на сайт?
+* Какие страницы просматривают пользователи?
+* Какие товары у вас покупают чаще всего?
 
-These reports will be based on the data submitted by our X-Cart store to Google Analytics and will give you an insight into how your business is doing, who your customers are, where they’re coming from, and what they are buying.
+Отчеты, составленные на основе полученной из онлайн-магазина информации, дают представление о работе магазина, контингенте потребителей, местоположении покупателей, выборе товаров. 
 
-All reports are joined into groups that are listed in the left column to your convenience: 
-1. Real-time section shows you traffic and engagement figures on a live, real time basis.
-2. Audience section covers data related to your audience’s location, browser, platform, demographics, and interests. You can also do [cohort analysis](https://support.google.com/analytics/answer/6158745?hl=en "Ecommerce Tracking with Google Analytics") and visualize your audience’s flow through your site.
-3. Acquisition section shows you how and where did you get your customers (through search, social, referrals, advertising, or direct visits).
-4. Behavior section contains reports on the visitors' interaction with your site. You can learn what pages are most popular with your customers, get stats on the site events, etc.
-5. Conversions section is useful for tracking conversion rates for your stated goals. 
-  The **Conversions** -> **E-commerce** tab is where you can see the basic sales funnel reports based on a linear path to purchase logic. Here you can trace the standard % Completion and % Abandonment rates.
+Отчеты сгруппированы в разделы в левом меню: 
+**В режиме реального времени** - отчеты составляются в течение нескольких секунд и постоянно обновляются..
+**Аудитория**- информация о местоположении, операционных системах, браузерах, мобильных устройствах покупателей. [Когортный анализ](https://support.google.com/analytics/answer/6158745?hl=ru) дает визуальное представление статистики. 
+**Источники траффика** - откуда приходят посетители на сайт (по поиску, из социальных сетей, по рекламным ссылкам, по реферальским ссылкам или напрямую).
+**Поведение** - обзор действий посетителей сайта (посещаемость сайта, поисковые запросы, популярные страницы).
+**Конверсии** - коэффициент конверсии с учетом поставленных целей. В подразделе **Электронная торговля** отражены общие отчеты.
   
   ![default-ecommerce-tracking.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/default-ecommerce-tracking.png)
   
   
-  Besides Shopping Behaviour you can also trace Checkout Behaviour, Sales Performance, Products Performance, etc.
+ Помимо стандартных отчетов, можно получать специальные отчеты. Для этого создается цель, по которй отслеживается конверсия. 
 
-In addition to the preset sales funnels you can build custom sales funnels based on your goals and events you want to track.
-
-To build a sales funnel go to the **Admin** -> **Account** -> **Property** -> **View** -> **Goals** section.
+Откройте раздел **Администратор**, установите **Аккаунт**, **Ресурс** и **Представление**.
 
 ![goals.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/goals.png)
 
-Click on the red **'New Goal'** button and follow the steps in the guide. 
+Нажмите **Цели** и **Создать цель**. 
 1. The first step is _Goal set-up_. Choose 'Custom' here and click **Continue**.
   ![goal-custom.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/goal-custom.png)
 
-2. The second step is Goal Description.
-   Here you'll need to define the goal name and [Goal slot ID](https://support.google.com/analytics/answer/1012040?hl=en&ref_topic=6150889#goal_sets "Ecommerce Tracking with Google Analytics").
-   ![goal-description.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/goal-description.png)
-   Also you'll need to set up a [goal type](https://support.google.com/analytics/answer/1032415#goal_type "Ecommerce Tracking with Google Analytics") that can be either:
-     * Destination - A funnel you'll build will refer to the path your users take to reach a particular destination. 
-     * Duration - A funnel you'll build will masure user engagement by treating minimum session duration as a conversion.
-     * Pages/Screen per session - A funnel you'll build will measure user engagement by treating the number of pages or screens per session as a goal. 
-     * Event - A funnel you'll build will  treat user interactions with your site or app as a conversion. 
+2. Дайте название новой цели и выберите [идентификатор](https://support.google.com/analytics/answer/1012040?hl=ru&ref_topic=6150889#goal_sets).
+      ![goal-description.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/goal-description.png)
+   Установите [тип цели](https://support.google.com/analytics/answer/1032415#goal_type):
+     * Целевая страница - последовательность переходов, после которых пользователи достигают страницы. 
+     * Продолжительность - измерение активности пользователя на основе продолжительности сессии.
+     * Страниц/экранов за сеанс - измерение активности пользователя на основе количества страниц или экранов, просмотренных за сессию. 
+     * Событие - действия пользователя на сайте или в приложении. 
    
    Click **'Continue'** after the goal type is defined.  
 
