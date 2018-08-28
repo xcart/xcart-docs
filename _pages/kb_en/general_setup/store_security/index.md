@@ -11,6 +11,8 @@ Security is the main concern when it comes to e-commerce. Since financial transa
 
 Proper X-Cart store security set-up will minimize the threat of fraud and instill trust within your customer base.
 
+{% toc %}
+
 ## Step 1. Secure Server Configuration
 
 First of all, ensure the server X-cart is installed at is {% link "configured securely" ref_secureconfig %}. The best option is to host X-Cart at a [PCI compliant server](https://www.x-cart.com/hosting.html "X-Cart Store Security") that deploys regular PCI scans to prevent security threats. 
