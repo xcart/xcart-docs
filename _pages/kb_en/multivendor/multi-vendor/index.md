@@ -35,6 +35,7 @@ _In this section:_
     *   {% link "Managing shipping methods as a vendor" ref_IvXmtLKI %}
     *   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
     *   {% link "Vendor import/export" ref_pa3oqbXz %}
+    *   {% link "Requesting a payout of one's earnings as a vendor" ref_6yngv3DQ %}
 
 *   {% link "Multi-vendor: Customer experience" ref_fxTL6F2z %}
 
