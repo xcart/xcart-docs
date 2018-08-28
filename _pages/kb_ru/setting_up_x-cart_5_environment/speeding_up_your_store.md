@@ -19,7 +19,7 @@ Also it's possible to use [https://www.webpagetest.org]( https://www.webpagetest
 
 {% toc **Как ускорить работу магазина* %}
 
-## 1. Включите CSS, JS аггрегирование и кэширование графических элементов
+## 1. Включите CSS, JS агрегирование и кэширование графических элементов
 
 В панели управления магазина откройте страницу **Интерфейс / Производительность** и отметьте опции:
 
@@ -30,7 +30,7 @@ Also it's possible to use [https://www.webpagetest.org]( https://www.webpagetest
 Первые две настройки объединяют большинство CSS файлов в один CSS файл и большинство JS файлов в один JS файл. Благодаря этому браузер делает не 50-100, а всего 2-5 запросов серверу, чтобы полностью получить CSS стили  и JS скрипты.
 
 {% note info %}
-When X-Cart aggregates CSS and JS files, the result is cached. If you change your JS/CSS files directly in the file system after they have been included into the cache, you will not see the functionality or style changes you have made. To make your changes visible, clear the aggregation cache using a **Clear aggergation cache** button on that page. 
+Когда X-Cart агрегирует CSS и JS файлы, результат кешируется. Если изменить JS/CSS файлы прямо в файловой системе после того, как они попали в кеш, изменения не отобразятся. Чтобы увидеть изменения, очистите кеш агрегации кнопкой **Очистить кеш агрегации**. 
 {% endnote %}
 
 Настройка Использовать кэширование виджетов (включите для лучшей производительности) активирует внутренее кэширование классов просмотра, что значительно ускоряет загрузку страниц, содержащих статические данные (страниц товаров и категорий). Это позволяет избежать вычислений, когда содержимое не изменялось.
