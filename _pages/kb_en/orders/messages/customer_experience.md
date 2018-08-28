@@ -7,7 +7,7 @@ title: 'Order Messages: Customer Experience'
 order: 110
 published: true
 ---
-The Messages module saves your customers from the necessity to search for contact info and fill in contact forms. With this module they can get in touch with the store admin and/or the vendor of an ordered item in one click directly from the order details page. 
+The addon Messages saves your customers the necessity to search for your contact info and fill in the contact forms. With this module they can get in touch with the store admin and/or the vendor of an ordered item in one click directly from the order details page. 
 
 ![contact-seller.png]({{site.baseurl}}/attachments/ref_4mlYlOOa/contact-seller.png)
 
@@ -46,4 +46,3 @@ Also a customer gets an e-mail notification about any new message recieved:
 
 If a customer decides to close a dispute he can click the **Close dispute** link in the related communication thread:
 ![close-dispute-cust.png]({{site.baseurl}}/attachments/ref_4mlYlOOa/close-dispute-cust.png)
-
