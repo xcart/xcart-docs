@@ -3,37 +3,37 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-08-28 12:47 +0400'
 identifier: ref_2TGQ7nN1
-title: ''
+title: Повышение скорости работы магазина
 order: 100
 published: false
 ---
-With each release we measure X-Cart's performance using the [t2.micro AWS instance](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/t2-instances.html) as a server (1 CPU, 1 PHP Thread, 512Mb RAM). We use an X-Cart installation with 2000 products, 100 categories (10 root categories, each containing 10 sub-categories), 1000 users and 1000 orders. We also use the [jMeter](http://jmeter.apache.org/) application that emulates 3 concurrent users who make 50 requests.
+Каждая новая версия X-Cart перед выпуском проходит тест на быстродействие. Тестирование происходит на [инстансе Amazon версии t2.micro](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-performance-instances.html "Повышение скорости работы магазина") (1 процессор, 1 PHP поток, 512 Мб оперативной памяти). В тестируемом магазине 2000 товаров, 100 категорий (10 корневых, по 10 подкатегорий в каждой), 1000 пользователей и 1000 заказов. Приложение [jMeter](http://jmeter.apache.org/ "Повышение скорости работы магазина") имитирует одновременные действия троих покупателей, создающих 50 запросов.
 
-During our tests we measure the _Time to Last Byte_ parameter, the time between the moment a browser makes a request to a page and the moment the HTML code of this page is fully received. Acceptable page load times for us are:
+При тестировании измеряется время до получения последнего байта: с момента, когда браузер запрашивает страницу, до момента, когда html код этой страницы полностью загружен. Приемлемое время загрузки:
 
-*   Home page: faster than 1.5 sec;
-*   Category page: faster than 1.5 sec;
-*   Product page: faster than 2 sec.
+*   Домашняя страница - менее 1,5 секунд;
+*   Страница категории - менее 1,5 секунд;
+*   Страница товара - менее 2 секунд.
 
 Also it's possible to use [https://www.webpagetest.org]( https://www.webpagetest.org "Speeding up your store") to test a site performance. 
 
-{% toc **How can I speed up my store?** %}
+{% toc **Как ускорить работу магазина* %}
 
-## Step 1\. Enable CSS, JS aggregation and widget caching
+## 1. Включите CSS, JS аггрегирование и кэширование графических элементов
 
-In your store's Admin area, go to the **Look & Feel** -> **Performance** section and check if the following options are enabled:
+В панели управления магазина откройте страницу **Интерфейс / Производительность** и отметьте опции:
 
-*   **Aggregate CSS files**, 
-*   **Aggregate JS files**, 
-*   **Use widget cache**
+*   **Объединять CSS файлы в один служебный CSS файл (включите для лучшей производительности**, 
+*   **Объединять JS файлы в один служебный JS файл (включите для лучшей производительности)**, 
+*   **Использовать кэширование виджетов (включите для лучшей производительности)**
 
-The first two options allow X-Cart to compound most CSS files into a single one, and most JS files into a single one as well. This way a client's browser will only send a few requests to your server (2-5 requests instead of 50~100) in order to get all the CSS styles and JS scripts.
+Первые две настройки объединяют большинство CSS файлов в один CSS файл и большинство JS файлов в один JS файл. Благодаря этому браузер делает не 50-100, а всего 2-5 запросов серверу, чтобы полностью получить CSS стили  и JS скрипты.
 
 {% note info %}
 When X-Cart aggregates CSS and JS files, the result is cached. If you change your JS/CSS files directly in the file system after they have been included into the cache, you will not see the functionality or style changes you have made. To make your changes visible, clear the aggregation cache using a **Clear aggergation cache** button on that page. 
 {% endnote %}
 
-The **Use widget cache** option enables the internal cache of viewer classes, which is a great way to speed up the opening of pages that have static data, like product or category pages. This allows to skip some calculations if no changes have been made to the content.
+Настройка Использовать кэширование виджетов (включите для лучшей производительности) активирует внутренее кэширование классов просмотра, что значительно ускоряет загрузку страниц, содержащих статические данные (страниц товаров и категорий). Это позволяет избежать вычислений, когда содержимое не изменялось.
 
 {% note info %}
 When X-Cart uses widgets cache, the static content of product lists is stored into a temporary cache. After editing the content (modifying the product descriptions, titles or photos), you should clear the widgets cache with the **Clear widgets cache** button in the **Look & Feel** -> **Performance** section to make these changes visible in the frontend right away. If you do not clear it, the changes will be updated anyway, but it may require more time.
@@ -100,4 +100,3 @@ Though X-Cart has [Symfony mbstring polyfill](https://github.com/symfony/polyfil
 
 * [X-Cart Security and Performance Optimization: Webinar Recording, PDF-slides, PHP 7 Patches & Dirty Cow](https://www.x-cart.com/blog/x-cart-security-speed-webinar-recording-php-7-dirty-cow.html "Speeding up your store") 
 * [How To Speed Up Your Mobile Website](https://www.x-cart.com/blog/speed-up-website.html "Speeding up your store")
-
