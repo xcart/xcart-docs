@@ -31,9 +31,9 @@ You can easily access all the messages and disputes, if any, via the Messages se
   ![new-message-adimn.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-message-adimn.png)
 
 ## Viewing/responding to messages for a specific order
-Also, if there is a new message for an order, it will be displayed in the _Messages_ tab of the Order details page:
+Messages associated with a specific order can be found on the Messages tab of the Order details page:
 
-![order-details-mes.png]({{site.baseurl}}/attachments/ref_09pfmGGi/order-details-mes.png)
+   ![order-details-mes.png]({{site.baseurl}}/attachments/ref_09pfmGGi/order-details-mes.png)
 
 ## Contacting a customer about a specific order
 
