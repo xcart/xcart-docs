@@ -13,9 +13,8 @@ With this addon enabled, both the customer and the seller can initiate a convers
 
 General information on the use of the Messages addon in X-Cart is available here:
    
-   * {% link "How the addon "Messages" works" ref_14MliLgA %}
+   * {% link "How the "Messages" addon works" ref_14MliLgA %}
    * {% link ""Messages" addon: System requirements and installation" ref_4tbCTp5V %}
-   * {% link "Configuring the addon "Messages"" ref_7bC3cVId %}
-   * {% link "Using the addon "Messages" for order related messaging with customers" ref_7KZpxV92 %}
+   * {% link "Using the "Messages" addon for order related messaging with customers" ref_7KZpxV92 %}
 
 
