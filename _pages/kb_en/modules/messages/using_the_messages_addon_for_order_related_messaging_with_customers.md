@@ -31,14 +31,14 @@ You can easily access all the messages and disputes, if any, via the Messages se
   ![new-message-adimn.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-message-adimn.png)
 
 ## Viewing/responding to messages for a specific order
-Messages associated with a specific order can be found on the Messages tab of the Order details page:
+Messages and disputes associated with a specific order can be found on the Messages tab of the Order details page:
 
    ![order-details-mes.png]({{site.baseurl}}/attachments/ref_09pfmGGi/order-details-mes.png)
 
 ## Contacting a customer about a specific order
 
 ## Finding orders with unread/any messages
-The store admin can search for orders with messages using the advanced search panel on the **Orders list** page (**Orders** -> **Orders list**)
+The store admin can easily find orders with messages using the advanced search panel on the **Orders list** page (**Orders** -> **Orders list**)
   
   ![search.png]({{site.baseurl}}/attachments/ref_09pfmGGi/search.png)
 
