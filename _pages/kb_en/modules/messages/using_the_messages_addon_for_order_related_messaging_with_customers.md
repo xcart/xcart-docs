@@ -16,6 +16,11 @@ You can expand the bell notification menu and access your new messages or disput
 
    ![msgs_bell_links.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_bell_links.png)
 
+On the order details page, you will be able to discover new unread messages/disputes submitted with regard to the current order by looking at a small number label showing next to the Messages tab title:
+   
+   ![order-details-mes.png]({{site.baseurl}}/attachments/ref_09pfmGGi/order-details-mes.png)
+
+
 Note that you will also be notified about any new messages and disputes via email.
    
    ![email-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/email-admin.png)
