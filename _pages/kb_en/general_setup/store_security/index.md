@@ -43,30 +43,79 @@ Credit card fraud is the most common security threat that online retailers face.
 
 1. PCI-DSS certified payment solutions
    
-   X-Cart doesn't store credit card data info to avoid an unauthorized access to customers’ payment information and is integrated with the certified payment solutions only. So just choose any online payment system that is pci-dss compliant and processes transactions securely. Alterative payment solutions can be used via a special pci-dss certified module - {% link "X-Payments" ref_8VFoqBFZ %}. 
+   X-Cart doesn't store credit card data info to avoid an unauthorized access to customers’ payment information and is integrated with the certified payment solutions only. So just choose any online payment system that is pci-dss compliant and processes transactions securely. Altenative payment solutions can be used via a special pci-dss certified module - {% link "X-Payments" ref_8VFoqBFZ %}. 
 
 2. Anti-fraud protection
 
    X-Cart has a built-in antifraud protection via the [AntiFraud Service Connector module](https://market.x-cart.com/addons/antifraud.html "X-Cart Store Security"). The module helps to identify online fraud using sophisticated checking algorithm and reduces chargebacks.
+   
+   As an additional mean of protection don't allow anonimous checkout. You can engage customers in registering an account with your store using the [Register on checkout](https://market.x-cart.com/addons/register-on-checkout.html "X-Cart Store Security") module. 
 
-3. Anti-bot protection
-
-
-
-4. Address Verification System (AVS)
+3. Address Verification System (AVS)
    
    One of the safest ways online retailers can facilitate credit card processing is by the use of an Address Verification System (AVS). This system is capable of comparing a customer’s billing address against the information stored on file by a credit card issuer. It can block any suspicious transactions if the information provided doesn’t match with the one stored on the credit card.
+   AVS is widely supported by Visa, MasterCard and American Express in the USA, Canada and United Kingdom and is used by e.g. {% link "UPS" ref_0uCGd6Bs %}, {% link "U.S.P.S." ref_whrpZnV3 %}, {% link "Canada Post" ref_ifwLo5ks %}, 2Checkout, {% link "Braintree" ref_3U96LOWn %}, etc.
+
+4. Anti-bot protection
+
+   Use [Google reCAPTCHA](https://market.x-cart.com/addons/google-recaptcha.html "X-Cart Store Security") module to protect your shop from robots creating fake user accounts and sending SPAM through your site. The module will add a special 
+   
+   For more security use the [Block Users by IP](https://market.x-cart.com/addons/block-users-by-IP-country-user-agent.html "X-Cart Store Security") module that will protect your store from bots and fraud customers, by limiting or completely restricting access to it with the help of flexible settings and filters, taking into account IP, address and user behavior.
+
+## Step 6. Protect X-Cart from XSS- and CSRF-attacks
+
+To protect X-Cart from XSS- and CSRF-attacks configure the etc/config.php file to return special headers. For this purpose find the following parts of code in the  etc/config.php file and set the appropriate value depending on the case. The values definition you can find following the help links. 
 
 
+```
+; X-Frame-Options value
+; For possible values see https://developer.mozilla.org/en-US/docs/Web/HTTP/X-Frame-Options
+; Examples:
+; x_frame_options = ‘disabled’
+; x_frame_options = ‘sameorigin’
+x_frame_options = ‘sameorigin’
+```
+...
 
-есть модуль https://market.x-cart.com/addons/block-users-by-IP-country-user-agent.html
-для защиты от ботов есть модуль https://market.x-cart.com/addons/google-recaptcha.html
-отмена анонимного чекаута https://market.x-cart.com/addons/register-on-checkout.html
+
+```
+; X-XSS-Protection value
+; For possible values see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
+; Examples:
+; x_xss_protection = ‘disabled’ # prevent X-XSS-Protection header sending
+; x_xss_protection = ‘0’
+; x_xss_protection = ‘1; mode=block’
+x_xss_protection = ‘1; mode=block’
+```
+...
 
 
-Anti-fraud and anti-bot protection
+```
+; Content-Security-Policy value
+; For possible values see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
+; Examples:
+; content_security_policy = ‘disabled’ # prevent Content-Security-Policy header sending
+ameorigin content_security_policy = “default-src ‘self’”
+; content_security_policy = “default-src ‘self’; img-src *;”
+content_security_policy = ‘disabled’
+```
+...
 
-Protect from Credit Card Fraud
 
-Besides that X-Cart allows to protect the installation from XSS- and CSRF-attacks
+```
+; X-Content-Type-Options value
+; For possible values see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
+; Examples:
+; x_content_type_options = ‘disabled’ # prevent X-Content-Type-Options header sending
+; x_content_type_options = ‘nosniff’
+x_content_type_options = ‘nosniff’
+```
 
+To protect from CSRF attacks X-Cart uses special form id that can be either unique for each form (per-form) or the same for one session (per-session). The default setting is "per-session".
+
+
+```
+; CSRF token strategy
+; possible values: per-session, per-form
+csrf_strategy = per-session
+```
