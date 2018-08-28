@@ -19,7 +19,7 @@ You can expand the bell notification menu and access your new messages by clicki
 Note that you will also receive all the messages addressed to you via email.
 
 ## Messages section: all your messages in one place
-open the **Orders** -> **Messages** section of the Admin area
+You can easily access all your messages via the Messages section of your store's Admin area (**Orders** -> **Messages**):
 
   ![new-message-adimn.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-message-adimn.png)
 
