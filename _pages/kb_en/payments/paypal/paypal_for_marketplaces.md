@@ -97,6 +97,44 @@ All the information about the flow of payments from buyers to the store administ
 
 ![transactions.png]({{site.baseurl}}/attachments/ref_6iphJijP/transactions.png)
 
+For example, a store has an _Order DST_ based commission rate of 10%. The Order shipping cost based commission rate is not applied, because the store is set to operate in the “Warehouse” multivendor mode:
+
+![vendor-warehouse.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-warehouse.png)
+
+Let’s assume that this store received an order that had been paid for through PayPal for Marketplace payments. The order number is #0024. The respective payment transaction for the amount of $672.35 will be registered in the **Payment transactions** section (**Orders** > **Payment transactions**):
+
+![transactions-0024.png]({{site.baseurl}}/attachments/ref_6iphJijP/transactions-0024.png)
+
+This transaction shows that the store has received the money for the order from the buyer. Based on the transaction status, we see that the transaction was completed successfully.
+
+Now let’s have a look at the order details. The order contains two products. One of the products - “Apple iPhone 6S” priced at $650.00 - is owned by the store administrator, the other one - ”A PayPal product” priced at $10 - belongs to one of the vendors (UK Vendor Ltd).
+
+![order-details-00024.png]({{site.baseurl}}/attachments/ref_6iphJijP/order-details-00024.png)
+
+A store admin needs to make sure that the vendor who provided the product ”A PayPal product” has received their earnings from this order automatically through PayPal for Marketplace payments. 
+
+This info can be checked in the **Vendor transactions** section (**Orders** > **Vendor transactions**).
+
+In the **Vendor transactions** section we see two transactions pertaining to Order #00024:
+
+* (Auto) Order paid – Vendor earnings: $9.00;
+
+and
+
+* (Auto PayPal) PayPal for Marketplaces: Commission paid – Paid to vendor: $9.00
+
+![vendor-transactions-00024.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-transactions-00024.png)
+
+The first transaction - “(Auto) Order paid – Vendor earnings: $9.00” - means that one or more products owned by a vendor were purchased, and the store administrator now owes money to the vendor. The amount $9.00 is the result of subtracting the 10% Order DST based commission ($1) from the vendor’s share of the order discounted subtotal ($10).
+
+The second transaction - “(Auto PayPal) PayPal for Marketplaces: Commission paid – Paid to vendor: $9.00” - means that the amount of $9 was automatically transferred to the PayPal account of the vendor, leaving the store administrator with a little less than $1 earnings from this sale in his PayPal account. 
+
+{% note info %}
+We say “a little less than $1” because in reality it is going to be one dollar minus the commission PayPal has charged for their service.
+{% endnote %}
+
+So, everything is fine: the vendor has received their earnings, and the store admin has received his commission. Both transactions were completed automatically.
+
 In case a vendor doesn't have a PayPal Business account registered in the **Financial info** section the store admin will have to find a way to pay out the money they owe to such vendors (with methods outside X-Cart), after which the information about the respective payout transactions will have to be added in X-Cart manually using the **Create transaction** button in the **Vendor transactions** section (**Orders** > **Vendor transactions**):
 
 ![create-transaction.png]({{site.baseurl}}/attachments/ref_6iphJijP/create-transaction.png)
