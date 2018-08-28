@@ -39,14 +39,14 @@ Also it's possible to use [https://www.webpagetest.org]( https://www.webpagetest
 When X-Cart uses widgets cache, the static content of product lists is stored into a temporary cache. After editing the content (modifying the product descriptions, titles or photos), you should clear the widgets cache with the **Clear widgets cache** button in the **Look & Feel** -> **Performance** section to make these changes visible in the frontend right away. If you do not clear it, the changes will be updated anyway, but it may require more time.
 {% endnote %}
 
-If you have custom mods, you may consider [making some of their widgets cached](http://devs.x-cart.com/en/design_changes/making_your_custom_widget_cached.html) as well.
+Если в магазине работают специально созданные для него модули, кэширование их виджетов также ускоряет работу магазина.
 
 ![performance.png]({{site.baseurl}}/attachments/ref_WqHzxAmJ/performance.png)
 
 
-## Step 2\. Disable any unused modules
+## 2. Отключите ненужные модули
 
-Every installed and enabled module increases the PHP load time, so if you disable all the modules you are not using, it will speed up your store. See more info on how to disable a module in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}
+Каждый установленный и активированный модуль увеличивает время работы PHP. Поэтому отключение ненужных модулей повышает скорость загрузки магазина.
 
 ## Step 3\. Use CDN for your store
 
