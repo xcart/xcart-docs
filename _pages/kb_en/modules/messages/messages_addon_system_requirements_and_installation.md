@@ -5,7 +5,7 @@ updated_at: '2018-08-28 19:05 +0400'
 identifier: ref_4tbCTp5V
 title: '"Messages" addon: System requirements and installation'
 order: 100
-published: false
+published: true
 ---
 To be able to successfully install and use the Messages addon for X-Cart, you need a working copy of X-Cart 5 installed on your server.
 
