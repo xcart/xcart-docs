@@ -39,11 +39,23 @@ For more protection use the built-in [Two factor authentication module](https://
 
 ## Step 5. Make sure your store has multi-layered security
 
-1. Anti-fraud protection
+Credit card fraud is the most common security threat that online retailers face. To avoid it and minimize the possibility of fraud orders and accounts use:
 
-X-Cart has a built-in antifraud protection via the [AntiFraud Service Connector module](https://market.x-cart.com/addons/antifraud.html "X-Cart Store Security"). 
+1. PCI-DSS certified payment solutions
+   
+   X-Cart doesn't store credit card data info to avoid an unauthorized access to customers’ payment information and is integrated with the certified payment solutions only. So just choose any online payment system that is pci-dss compliant and processes transactions securely. Alterative payment solutions can be used via a special pci-dss certified module - {% link "X-Payments" ref_8VFoqBFZ %}. 
 
-2. Anti-bot protection
+2. Anti-fraud protection
+
+   X-Cart has a built-in antifraud protection via the [AntiFraud Service Connector module](https://market.x-cart.com/addons/antifraud.html "X-Cart Store Security"). The module helps to identify online fraud using sophisticated checking algorithm and reduces chargebacks.
+
+3. Anti-bot protection
+
+
+
+4. Address Verification System (AVS)
+   
+   One of the safest ways online retailers can facilitate credit card processing is by the use of an Address Verification System (AVS). This system is capable of comparing a customer’s billing address against the information stored on file by a credit card issuer. It can block any suspicious transactions if the information provided doesn’t match with the one stored on the credit card.
 
 
 
@@ -56,4 +68,5 @@ Anti-fraud and anti-bot protection
 
 Protect from Credit Card Fraud
 
+Besides that X-Cart allows to protect the installation from XSS- and CSRF-attacks
 
