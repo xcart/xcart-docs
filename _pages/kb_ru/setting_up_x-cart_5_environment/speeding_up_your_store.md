@@ -60,9 +60,9 @@ Also it's possible to use [https://www.webpagetest.org]( https://www.webpagetest
 
 Активируйте сжатие html кода в панели управления хостинга. Например, в Cpanel есть опция [Optimize website](https://documentation.cpanel.net/display/74Docs/Optimize+Website "Повышение скорости работы магазина").
 
-If you manage your host yourself, you should enable the [zlib](http://php.net/manual/en/book.zlib.php) compression in PHP. If you are using Apache install [mod_deflate](http://httpd.apache.org/docs/2.0/mod/mod_deflate.html) (Apache 2.0.x) or [mod_gzip](http://sourceforge.net/projects/mod-gzip/) (Apache 1.3.x).
+Если у вас свой сервер, активируйте PHP библиотеку сжатия [zlib](http://php.net/manual/ru/book.zlib.php "Повышение скорости работы магазина"). На Apache сервере установите [mod_deflate](http://httpd.apache.org/docs/2.0/mod/mod_deflate.html "Повышение скорости работы магазина") (для Apache 2.0.x) или [mod_gzip](https://sourceforge.net/projects/mod-gzip/ "Повышение скорости работы магазина")(для Apache 1.3.x)/
 
-Besides, in case all static files are served directly by Nginx on your site, you can enable gzip compression for static files, by specifying additional directives in your nginx configuration file, for example: 
+Если Nginx управляет статическими файлами прямо на сайте, включите gzip сжатие для таких файлов, внеся дополнительные директив в файл конфигурации Nginx. Пример: 
 
 ```php
 # enable gzip compression
@@ -74,15 +74,15 @@ gzip_vary on;
 # end gzip configuration
 ```
 
-## Step 5\. Use a recent PHP version (7.0+)
+## 5. Используйте актуальную версию PHP (5.5 и выше)
 
-We've run lots of tests to see if X-Cart works better on later PHP versions like PHP 7, and it really does! Typically you can get a two times speedup simply by installing PHP 7.0+, that is supported by X-Cart versions 5.3.x.
+X-Cart тестировался на разных версиях PHP и на новых версиях (5.5, 5.6) он действительно работает быстрее. С переходом на PHP 5.5 и выше скорость магазина увеличивается в два раза. PHP 7.0 поддерживается только X-Cart 5.3 и новее.
 
 For ealier versions of X-Cart you can use PHP 5.5+ as they are not compatible with PHP 7.
 
-## Step 6\. Use Query Cache (MySQL)
+## 6. Используйте кэширование запросов MySQL
 
-MySQL provides a convenient feature that can be used to speed up any queries to the database - Query Cache. To get an optimized and speedy response from your MySQL server, you may want to add the following configuration directives to your MySQL server:
+Кэширование запросов ускоряет обработку запросов к базе. Чтобы ускорить и оптимизировать отклик MySQL сервера, добавьте следующие конфигурационные директивы:
 
 ```php
 SET GLOBAL query_cache_size  = 268435456;
@@ -90,13 +90,13 @@ SET GLOBAL query_cache_type  = 1;
 SET GLOBAL query_cache_limit = 1048576;
 ```
 
-Alternatively, you can adjust these settings in the MySQL configuration file. A good article explaining each aspect of Query Cache configuration is available at [http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html](http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html)
+Эти же настройки можно прописать в файле конфигурации MySQL. [Информация](http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html)
 
-## Step 7\. Install native mbstring extension (PHP)
+## 7. Установите оригинальное расширение mbstring (PHP)
 
-Though X-Cart has [Symfony mbstring polyfill](https://github.com/symfony/polyfill), it works slower than with the native extension (especially if the "Send PDF versions of the invoices in the attachment" option is enabled). [Installing native mbstring extension](http://php.net/manual/en/mbstring.installation.php) can greatly speed up your store during certain operations.
+Стандартное полизаполнение [Symfony](https://github.com/symfony/polyfill "Повышение скорости работы магазина") для mbstring в X-Cart работает медленнее, чем оригинальное расширение, особенно если активирована опция **Прикреплять к уведомлениям PDF-версию счета**. Установка [расширения mbstring](http://php.net/manual/ru/mbstring.installation.php "Повышение скорости работы магазина") ускоряет ряд процессов в работе магазина.
 
-## More tips and tricks for performance optimization
+## Дополнительная информация
 
 * [X-Cart Security and Performance Optimization: Webinar Recording, PDF-slides, PHP 7 Patches & Dirty Cow](https://www.x-cart.com/blog/x-cart-security-speed-webinar-recording-php-7-dirty-cow.html "Speeding up your store") 
 * [How To Speed Up Your Mobile Website](https://www.x-cart.com/blog/speed-up-website.html "Speeding up your store")
