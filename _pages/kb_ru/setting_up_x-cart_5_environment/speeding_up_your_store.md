@@ -60,7 +60,7 @@ published: true
 
 Активируйте сжатие html кода в панели управления хостинга. Например, в Cpanel есть опция [Optimize website](https://documentation.cpanel.net/display/74Docs/Optimize+Website "Повышение скорости работы магазина").
 
-Если у вас свой сервер, активируйте PHP библиотеку сжатия [zlib](http://php.net/manual/ru/book.zlib.php "Повышение скорости работы магазина"). На Apache сервере установите [mod_deflate](http://httpd.apache.org/docs/2.0/mod/mod_deflate.html "Повышение скорости работы магазина") (для Apache 2.0.x) или [mod_gzip](https://sourceforge.net/projects/mod-gzip/ "Повышение скорости работы магазина")(для Apache 1.3.x)/
+Если у вас свой сервер, активируйте PHP библиотеку сжатия [zlib](http://php.net/manual/ru/book.zlib.php "Повышение скорости работы магазина"). На Apache сервере установите [mod_deflate](http://httpd.apache.org/docs/2.0/mod/mod_deflate.html "Повышение скорости работы магазина") (для Apache 2.0.x) или [mod_gzip](https://sourceforge.net/projects/mod-gzip/ "Повышение скорости работы магазина") (для Apache 1.3.x)/
 
 Если Nginx управляет статическими файлами прямо на сайте, включите gzip сжатие для таких файлов, внеся дополнительные директив в файл конфигурации Nginx. Пример: 
 
