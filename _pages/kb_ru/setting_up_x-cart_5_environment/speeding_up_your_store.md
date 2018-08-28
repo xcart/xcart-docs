@@ -41,8 +41,7 @@ published: true
 
 Если в магазине работают специально созданные для него модули, кэширование их виджетов также ускоряет работу магазина.
 
-![performance.png]({{site.baseurl}}/attachments/ref_WqHzxAmJ/performance.png)
-
+![7.jpg]({{site.baseurl}}/attachments/ref_2TGQ7nN1/7.jpg)
 
 ## 2. Отключите ненужные модули
 
