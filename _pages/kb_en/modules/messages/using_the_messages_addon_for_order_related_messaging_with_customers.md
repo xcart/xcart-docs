@@ -14,9 +14,12 @@ Whenever someone sends you a message or opens a dispute, you will be notified ab
 
 You can expand the bell notification menu and access your new messages or disputes by clicking on the respective link ("Messages" or "Disputes"):
 
-![msgs_bell_links.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_bell_links.png)
+   ![msgs_bell_links.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_bell_links.png)
 
-Note that you will also receive all the messages addressed to you via email.
+Note that you will also be notified about any new messages and disputes via email.
+   
+   ![email-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/email-admin.png)
+
 
 ## Messages section: all your messages and disputes in one place
 You can easily access all the messages and disputes, if any, via the Messages section of your store's Admin area (**Orders** -> **Messages**):
