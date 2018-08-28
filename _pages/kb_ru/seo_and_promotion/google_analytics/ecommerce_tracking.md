@@ -49,26 +49,26 @@ published: false
 2. Дайте название новой цели и выберите [идентификатор](https://support.google.com/analytics/answer/1012040?hl=ru&ref_topic=6150889#goal_sets).
       ![goal-description.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/goal-description.png)
    Установите [тип цели](https://support.google.com/analytics/answer/1032415#goal_type):
-     * Целевая страница - последовательность переходов, после которых пользователи достигают страницы. 
-     * Продолжительность - измерение активности пользователя на основе продолжительности сессии.
-     * Страниц/экранов за сеанс - измерение активности пользователя на основе количества страниц или экранов, просмотренных за сессию. 
-     * Событие - действия пользователя на сайте или в приложении. 
+     * **Целевая страница** - последовательность переходов, после которых пользователи достигают страницы. 
+     * **Продолжительность** - измерение активности пользователя на основе продолжительности сессии.
+     * **Страниц/экранов за сеанс** - измерение активности пользователя на основе количества страниц или экранов, просмотренных за сессию. 
+     * **Событие** - действия пользователя на сайте или в приложении. 
    
-   Click **'Continue'** after the goal type is defined.  
+   Нажмите **Далее**.  
 
-3. The third step is **Goal details**.
-   The Goal details will depend on the Goal type you specified. 
-     * The Destination goal type - You'll need to specify the screens or pages the user must visit prior to the final destination goal by turning on the Funnel option. For each step in the funnel, click +Add another Step, then enter a page name or an app screen name, as you did in the Destination field.
-     * The Duration goal type - You'll need to specify the desired session duration
-     * The Pages/Screen per session goal type - You'll need to specify a number of pages or screens users should view to generate a conversion.
-     * The Event goal type - You'll need to set up at least one [Event](https://support.google.com/analytics/answer/1033068?hl=en-GB&utm_id=ad "Ecommerce Tracking with Google Analytics") to use Event goals. Use the Event conditions to configure the event components.
+3. Укажите **подробные сведения о цели**, они определяются выбранным типом.
+  
+     * **Тип цели Целевая страница** - Укажите страницы и экраны, которые посещает пользователь для достижения цели. для каждого шага последовательности нажмите Добавить еще один шаг и внесите названия страниц и экранов приложений.
+     * **Тип цели Продолжительность** - Укажите желаемую продолжительность сессии.
+     * **Тип цели Страниц/экранов за сеанс** - Укажите количество просмотренных пользователем страниц и экранов, вызывающих конверсию
+     * **Тип цели Событие** - Чтобы использовать тип цели Событие, создайте хотя бы одно [событие](https://support.google.com/analytics/answer/1033068?hl=ru-GB&utm_id=ad) и задайте одно или несколько условий. Если произойдет событие и будут соблюдены указанные условия, будет засчитана конверсия. 
      
 
-Click **Save** when the goal set-up is complete. Within 24 hours, GA will start tracking data based on the goals you set up and you can generate relevant reports to help you optimize your business. You can check the reports in the **Conversions** -> **Goals** -> **Funnel Visualization** section.
+Когда цель настроена, нажмите **Сохранить**. В  течение 24 часов начнется анализ данных на основе заданных целей. Отчеты будут находиться в разделе **Конверсии / Цели / Визуализация**.
 
-Moreover, you can configure scheduled email reports to your inbox based in the goals you set, so that you won't even need to open GA to check them. Just click **Share** on the top and set up the frequency (daily, weekly, monthly, or only once) and type in your email address.
+Настройте периодическую автоматическую отправку отчетов по заданным целям на электронную почту, тогда не придется открывать аккаунт Google Analytics для проверки отчетов. Нажмите **Открыть доступ**, укажите адрес, на который будет отправляться отчет, и частоту отправки.
 
   ![scheduled-emails.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/scheduled-emails.png)
 
-Using advanced options, you can also limit the time during which you’ll get the reports — from one to 12 months.
+В дополнительных настройках укажите, в течение какого периода хотите получать отчет.
 
