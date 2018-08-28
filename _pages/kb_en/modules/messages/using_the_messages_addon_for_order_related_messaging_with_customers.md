@@ -18,7 +18,12 @@ You can expand the bell notification menu and access your new messages by clicki
 
 Note that you will also receive all the messages addressed to you via email.
 
-## Viewing and managing messages
+## Messages section: all your messages in one place
 
-## Finding orders with messages
-unread/any
+## Viewing/responding to messages for a specific order
+
+## Contacting a customer about a specific order
+
+## Finding orders with unread/any messages
+
+## Disputes
