@@ -48,17 +48,17 @@ Also it's possible to use [https://www.webpagetest.org]( https://www.webpagetest
 
 Каждый установленный и активированный модуль увеличивает время работы PHP. Поэтому отключение ненужных модулей повышает скорость загрузки магазина.
 
-## Step 3\. Use CDN for your store
+## 3. Используйте сеть доставки контента
 
-CDN does not reduce the time X-Cart scripts take to work, but it delivers images, CSS and JS files to client's browser more quickly. Overall, your pages will be rendered faster.
+Сеть доставки контента не сокращает время работы скриптов X-Cart, а ускоряет передачу изображений, CSS и JS файлов в браузер пользователя.
 
-Module example: 
+Воспользуйтесь модулем: 
 
-*   [https://market.x-cart.com/addons/xcartcdn-by-cfl-systems.html](https://market.x-cart.com/addons/xcartcdn-by-cfl-systems.html "Speeding up your store")
+*   [XCartCDN](https://market.x-cart.com/addons/xcartcdn-by-cfl-systems.html "Speeding up your store")
 
-## Step 4\. Use compression
+## 4. Применяйте сжатие
 
-The control panel of your hosting provider may have an option to enable compression of HTML code (for instance, cPanel has the [Optimize website](https://documentation.cpanel.net/display/ALD/Optimize+Website) option). You should enable it.
+Активируйте сжатие html кода в панели управления хостинга. Например, в Cpanel есть опция [Optimize website](https://documentation.cpanel.net/display/74Docs/Optimize+Website "Повышение скорости работы магазина").
 
 If you manage your host yourself, you should enable the [zlib](http://php.net/manual/en/book.zlib.php) compression in PHP. If you are using Apache install [mod_deflate](http://httpd.apache.org/docs/2.0/mod/mod_deflate.html) (Apache 2.0.x) or [mod_gzip](http://sourceforge.net/projects/mod-gzip/) (Apache 1.3.x).
 
