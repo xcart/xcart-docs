@@ -28,7 +28,7 @@ Here's a brief overview of the addons typically used to build a Multivendor stor
      ![mvp_module.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mvp_module.png)
 
    * **[Messages](https://market.x-cart.com/addons/order-messages.html)**: This addon is not just for Multivendor; it can be used on single-seller X-Cart editions just as well. We are listing it here because it provides some Multivendor-specific features when used with the X-Cart Multivendor edition. This addon enhances the communication system in your store by providing an opportunity for the customers, the store administrator and the vendors to start a conversation or dispute about an order right from the Order details page. A well-thought-out notification system ensures that no message will be left unread. In Multivendor, the addon also allows store visitors to start messaging with the sellers before they make a purchase; they can initiate a conversation right on the sellers' pages on the storefront. 
-     ![om_module_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/om_module_installed.png)
+     ![msgs_module_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/msgs_module_installed.png)
      
    * **[Coupons](https://market.x-cart.com/addons/discount-coupons.html)**: This addon is also not just for Multivendor, but it needs to be mentioned here because in Multivendor it enables vendors to create and manage discount coupons. More information on this addon is available in the section {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}.   
      ![mvcoupons_addon.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mvcoupons_addon.png)
@@ -53,8 +53,9 @@ _Related pages:_
    * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
    * {% link "Multi-vendor" ref_cvwmAuRi %} (X-Cart addon)
    * {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %} 
-   * {% link "Multiple profiles for vendors" ref_3le6s8jL %}.
-   * {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %}
-   * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
+   * {% link "Multiple profiles for vendors" ref_3le6s8jL %}
+   * {% link "Messages addon: Usage with Multivendor" ref_4Ox4FPDB %}
    * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}  
+   * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
    * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}
+   * {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %}
