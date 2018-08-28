@@ -66,7 +66,7 @@ Credit card fraud is the most common security threat that online retailers face.
 
 ## Step 6. Protect X-Cart from XSS- and CSRF-attacks
 
-To protect X-Cart from XSS- and CSRF-attacks configure the etc/config.php file to return special headers. For this purpose find the following parts of code in the  etc/config.php file and set the appropriate value depending on the case. The values definition you can find following the help links. 
+To protect X-Cart from [XSS-](https://en.wikipedia.org/wiki/Cross-site_scripting "X-Cart Store Security") and [CSRF-attacks](https://en.wikipedia.org/wiki/Cross-site_request_forgery "X-Cart Store Security") configure the etc/config.php file to return special headers. For this purpose find the following parts of code in the  etc/config.php file and set the appropriate value depending on the case. The values definition you can find following the help links. 
 
 
 ```
