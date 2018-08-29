@@ -18,11 +18,11 @@ You can expand the bell notification menu and access your new messages or disput
 
    ![msgs_bell_links.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_bell_links.png)
 
-On the order details page, you will be able to discover new unread messages/disputes submitted with regard to the current order by looking at a small number label showing next to the Messages tab title (The number on the label will show the number of unread messages):
+While on the order details page, you will know you have new unread messages/disputes submitted with regard to the current order if a small number label is displayed next to the Messages tab title (The number on the label will show the number of unread messages):
    
    ![msgs_new_msg.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_new_msg.png)
 
-Note that you will also be notified about any new messages and disputes via email.
+Note that you will also be notified about any new messages/disputes via email.
 
 
 ## Messages section: all your messages and disputes in one place
@@ -44,7 +44,7 @@ From the Messages section, the following actions are available:
    * Mark all or selected communication threads as read or unread.
 
 ## Viewing/responding to messages for a specific order
-Messages and disputes associated with a specific order can be found on the Messages tab of the Order details page. You can view all the communication pertaining to a specific order using one of the following methods:
+You can view all the communication pertaining to a specific order using one of the following methods:
 
 _Method 1:_
    In the **Orders list** section (**Orders** -> **Orders list**), find the order you require and open its details for viewing/editing. 
