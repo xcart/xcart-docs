@@ -66,7 +66,13 @@ _Method 2:_
 
 
 ## Contacting a customer about a specific order
-
+To write a message to a customer regarding a specific order:
+   1. In the **Orders list** section (**Orders** -> **Orders list**), find the order you require and open its details for viewing/editing. 
+ 
+   2. Switch to the Messages tab of the order details.
+   
+   3. In the section that opens
+   
 ## Finding orders with unread/any messages
 You can easily find orders with messages using the advanced search panel on the **Orders list** page (**Orders** -> **Orders list**). With the addon "Messages" installed and enabled, this panel includes the field **Messages** which you can use to specify the filtering option you require (_All orders_, _Orders with unread messages_, _Orders with any messages_).
   
