@@ -22,4 +22,4 @@ For non-multivendor stores, the only thing that needs to be adjusted before you 
    * **New message** (Messages module)
      This message is sent to users involved in communication when a new message for them appears in the conversation. For this type of notification to be used, the communication must be initiated from a vendor page on the storefront - without an association with any specific order.
 
-More info on the management of email notifications can be found 
+More info on the management of email notifications can be found in the section {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}.
