@@ -35,7 +35,7 @@ For each communication thread, the following information is provided:
    * **Date**: Date and time when the latest message in the communication thread was posted. 
 Communication threads with an open dispute will be marked **Dispute** (in red).
 
-In the Messages section you can:
+From the Messages section, the following actions are available:
 
    * View a communication thread. To access the thread you require, click anywhere on the line of the respective conversation in the list. This will open the order details page with the full message thread pertaining to the current conversation.
    * Search for specific communication threads. Use the filter/search form above the list to provide keywords and filter the search results. (For example, it is possible to search only in unread messages, or only in open disputes, or in all the messages regardless of the type).
