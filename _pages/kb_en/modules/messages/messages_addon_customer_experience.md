@@ -5,7 +5,7 @@ updated_at: '2018-08-28 19:35 +0400'
 identifier: ref_14MliLgA
 title: '"Messages" addon: Customer experience'
 order: 100
-published: false
+published: true
 ---
 This section covers the order related messaging features and actions available to the customers of an X-Cart based online store using the addon **Messages**.
 
