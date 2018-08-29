@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-08-29 11:35 +0400'
 identifier: ref_7K9BOMK0
 title: Configuring the "Messages" addon
-order: 100
+order: 300
 published: false
 ---
 ## A New Post
