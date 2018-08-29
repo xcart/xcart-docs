@@ -92,20 +92,22 @@ In the most typical case, when a customer is not happy with the items they have 
 To open a dispute:
 
    1. In the Messages section of the details of the order on which you need to open a dispute, click **'Open dispute'**:
-      ![open-dispute-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/open-dispute-admin.png)
-   
-   2. In the popup, specify a reason for opening the dispute:
-      ![open-dispute-a.png]({{site.baseurl}}/attachments/ref_09pfmGGi/open-dispute-a.png)
+      ![msgs_open_dispute.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_open_dispute.png)
+  
+   2. In the popup, specify a reason for opening the dispute and click **Open dispute**:
+      ![msgs_open_dispute1.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_open_dispute1.png)
 
-And a dispute will be opened with a special notification on whom the dispute originates to:
+As a result, a dispute will be opened:
+   ![msgs_open_dispute2.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_open_dispute2.png)
 
-![dispute-opened-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/dispute-opened-admin.png)
-
+As long as the dispute is open, a note in red with a mention of who and when opened the dispute (like "Dispute opened on Aug 29, 2018, by Admin Admin") will be displayed at the top of the communication thread pertaining to the order.
    
 To close a dispute:
 
-   * In the communication thread pertaining to the order on which you need to close a dispute (in the Messages section of the order details), click **'Close dispute'**
+   * In the communication thread pertaining to the order on which you need to close a dispute (in the Messages section of the order details), click **'Close dispute'**:
+     ![msgs_close_dispute.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_close_dispute.png)
 
-When a dispute is closed, a special notification will be there as well:
+Confirm the action. After that, the dispute will be closed.
+     ![msgs_close_dispute1.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_close_dispute1.png)
 
-![dispute-closed-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/dispute-closed-admin.png)
+Once the dispute has been closed, the note in red color stating the open status of the dispute will be removed from the top of the communication thread.
