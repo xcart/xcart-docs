@@ -25,7 +25,7 @@ While on the order details page, you will know you have new unread messages/disp
 Note that you will also be notified about any new messages/disputes via email.
 
 
-## Messages section: all your messages and disputes in one place
+## Messages section: viewing all your messages and disputes in one place
 You can easily access all the communication threads (messages and disputes), if any, via the Messages section of your store's Admin area (**Orders** -> **Messages**):
 
    ![msgs_messages_in_admin.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_messages_in_admin.png)
