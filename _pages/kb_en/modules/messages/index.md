@@ -9,7 +9,7 @@ published: false
 ---
 X-Cart's addon [Messages](https://market.x-cart.com/addons/order-messages.html "Messages Module") is a solution to facilitate the communication between the customers and the seller in an X-Cart based store. 
 
-With this addon enabled, both the customer and the seller can initiate a conversation in connection to an order right from the order details page. A well-thought-out notification system ensures that no message will be left unread.  
+With this addon enabled, both the customer and the seller can initiate a conversation in connection to an order right from the order details page. If there is a problem with an order, it is possible to open a dispute. A well-thought-out notification system ensures that no message will be left unread.  
 
 General information on the use of the Messages addon in X-Cart is available here:
    
