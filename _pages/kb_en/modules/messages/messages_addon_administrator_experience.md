@@ -13,3 +13,6 @@ _In this section:_
    * {% link "Configuring the "Messages" addon" ref_7K9BOMK0 %}
    * {% link "Using the "Messages" addon for order related messaging with customers" ref_7KZpxV92 %}
 
+_Related pages:_
+   
+   *  {% link "Messages addon" ref_0pnZpHq3 %}
