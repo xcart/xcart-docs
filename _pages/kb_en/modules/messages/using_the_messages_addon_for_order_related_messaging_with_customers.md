@@ -20,15 +20,26 @@ On the order details page, you will be able to discover new unread messages/disp
    
    ![msgs_new_msg.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_new_msg.png)
 
-Note that you will also be notified about any new messages and disputes via email:
-   
-   ![email-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/email-admin.png)
+Note that you will also be notified about any new messages and disputes via email.
 
 
 ## Messages section: all your messages and disputes in one place
-You can easily access all the messages and disputes, if any, via the Messages section of your store's Admin area (**Orders** -> **Messages**):
+You can easily access all the communication threads (messages and disputes), if any, via the Messages section of your store's Admin area (**Orders** -> **Messages**):
 
-  ![new-message-adimn.png]({{site.baseurl}}/attachments/ref_09pfmGGi/new-message-adimn.png)
+   ![msgs_messages_in_admin.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_messages_in_admin.png)
+
+For each communication thread, the following information is provided:
+   
+   * **Link**: Order # to which the communication thread pertains. 
+   * **Message**: Latest message in the communication thread. New (unread) messages will be marked (See the note "New message for order" on the screenshot above).
+   * **Date**: Date and time when the latest message in the communication thread was posted. 
+Communication threads with an open dispute will be marked **Dispute** (in red).
+
+In the Messages section you can:
+
+   * View a communication thread. To access the thread you require, click anywhere on the line of the respective conversation in the list. This will open the order details page with the full message thread pertaining to the current conversation.
+   * Search for specific communication threads. Use the filter/search form above the list to provide keywords and filter the search results. (For example, it is possible to search only in unread messages, or only in open disputes, or in all the messages regardless of the type).
+   * Mark all or selected communication threads as read or unread.
 
 ## Viewing/responding to messages for a specific order
 Messages and disputes associated with a specific order can be found on the Messages tab of the Order details page:
