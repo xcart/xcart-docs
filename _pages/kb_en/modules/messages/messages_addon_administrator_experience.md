@@ -7,4 +7,9 @@ title: '"Messages" addon: Administrator experience'
 order: 100
 published: false
 ---
+_In this section:_
+
+   * {% link ""Messages" addon: System requirements and installation" ref_4tbCTp5V %}
+   * {% link "Configuring the "Messages" addon" ref_7K9BOMK0 %}
+   * {% link "Using the "Messages" addon for order related messaging with customers" ref_7KZpxV92 %}
 
