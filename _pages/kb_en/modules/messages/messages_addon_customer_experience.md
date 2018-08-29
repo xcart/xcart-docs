@@ -9,7 +9,7 @@ published: false
 ---
 This section covers the order related messaging features and actions available to the customers of an X-Cart based online store using the addon **Messages**.
 
-The addon **Messages** enables direct communication between the customers and the store owner in connection to orders. For example, if a customer needs to ask a question about their order, wants to give feedback about their order or needs to report a problem, they can use the messaging system provided by the addon to do it.  saves your customers the necessity to search for your contact info and fill in the contact forms. With this module they can get in touch with you directly from the details page of their order. 
+The addon **Messages** enables direct communication between the customers and the store owner in connection to orders. For example, if a customer needs to ask a question about their order, wants to give feedback about their order or needs to report a problem, they can use the messaging system provided by the addon to start a communication thread with the seller (store administrator). This communication thread will be linked to the order in question, so both the customer and the administrator will have all the order information at their fingertips. 
 
 ![contact-seller.png]({{site.baseurl}}/attachments/ref_4mlYlOOa/contact-seller.png)
 
