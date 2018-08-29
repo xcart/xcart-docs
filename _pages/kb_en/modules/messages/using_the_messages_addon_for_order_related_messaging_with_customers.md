@@ -115,3 +115,7 @@ Confirm the action. After that, the dispute will be closed:
      ![msgs_close_dispute1.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_close_dispute1.png)
 
 Once the dispute has been closed, the note in red color stating the open status of the dispute will be removed from the top of the communication thread.
+
+_Related pages:_
+
+   * {% link "Messages addon" ref_0pnZpHq3 %}
