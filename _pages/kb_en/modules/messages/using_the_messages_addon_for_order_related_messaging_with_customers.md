@@ -46,9 +46,24 @@ From the Messages section, the following actions are available:
 ## Viewing/responding to messages for a specific order
 Messages and disputes associated with a specific order can be found on the Messages tab of the Order details page. You can view all the communication pertaining to a specific order using one of the following methods:
 
-   * In the **Orders list** section (**Orders** -> **Orders list**), find the order you require and open its details for viewing/editing. Switch to the Messages tab of the order details. In the section that opens you will find all the messages pertaining to this order.
-   OR:
-   * In the Messages section (**Orders** -> **Messages**), locate the communication thread you require (it will have the order number shown in the **Link** column) and click anywhere on its line. You will be redirected to the Messages section of the order details with the respective communication thread.
+_Method 1:_
+   In the **Orders list** section (**Orders** -> **Orders list**), find the order you require and open its details for viewing/editing. 
+   ![msgs_order11.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_order11.png)
+
+   Switch to the Messages tab of the order details.
+   ![msgs_msgs_tab.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_msgs_tab.png)
+
+   In the section that opens you will find all the messages pertaining to this order.
+   ![msgs_msgs4order.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_msgs4order.png)
+
+ 
+_Method 2:_ 
+   In the Messages section (**Orders** -> **Messages**), locate the communication thread you require (it will have the order number shown in the **Link** column) and click anywhere on its line. 
+   ![msgs_select_msg.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_select_msg.png)
+
+   You will be redirected to the Messages section of the order details with the respective communication thread.
+   ![msgs_msgs4order.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_msgs4order.png)
+
 
 ## Contacting a customer about a specific order
 
