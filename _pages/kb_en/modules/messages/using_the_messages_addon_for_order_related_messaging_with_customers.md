@@ -46,8 +46,9 @@ From the Messages section, the following actions are available:
 ## Viewing/responding to messages for a specific order
 Messages and disputes associated with a specific order can be found on the Messages tab of the Order details page. You can view all the communication pertaining to a specific order using one of the following methods:
 
-   * 
-   ![order-details-mes.png]({{site.baseurl}}/attachments/ref_09pfmGGi/order-details-mes.png)
+   * In the **Orders list** section (**Orders** -> **Orders list**), find the order you require and open its details for viewing/editing. Switch to the Messages tab of the order details. In the section that opens you will find all the messages pertaining to this order.
+   OR:
+   * In the Messages section (**Orders** -> **Messages**), locate the communication thread you require (it will have the order number shown in the **Link** column) and click anywhere on its line. You will be redirected to the Messages section of the order details with the respective communication thread.
 
 ## Contacting a customer about a specific order
 
