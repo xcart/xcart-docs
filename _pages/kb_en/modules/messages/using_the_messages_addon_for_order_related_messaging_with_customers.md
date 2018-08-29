@@ -87,17 +87,27 @@ You can easily find orders with messages using the advanced search panel on the 
   ![search.png]({{site.baseurl}}/attachments/ref_09pfmGGi/search.png)
 
 ## Opening/closing a dispute
-If necessary the store admin can open a dispute on the order (e.g. to cut into the messaging between a vendor and a customer and get notifications for this conversation) by clicking the **'Open dispute'** button in the _Messages_ tab of the Order details page and close a dispute by clicking the **'Close dispute'** button respectively.
+In the most typical case, when a customer is not happy with the items they have purchased or with the service that has been provided to them, it is the customer who will open a dispute. It is possible, however, to open a dispute on an order from the Admin area.
 
-![open-dispute-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/open-dispute-admin.png)
+To open a dispute:
 
-To open a dispute it will be necessary to specify a reason for it:
-
-![open-dispute-a.png]({{site.baseurl}}/attachments/ref_09pfmGGi/open-dispute-a.png)
+   1. In the Messages section of the details of the order on which you need to open a dispute, click **'Open dispute'**:
+      ![open-dispute-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/open-dispute-admin.png)
+   
+   2. In the popup, specify a reason for opening the dispute:
+      ![open-dispute-a.png]({{site.baseurl}}/attachments/ref_09pfmGGi/open-dispute-a.png)
 
 And a dispute will be opened with a special notification on whom the dispute originates to:
 
 ![dispute-opened-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/dispute-opened-admin.png)
+
+   
+To close a dispute:
+
+   * In the communication thread pertaining to the order on which you need to close a dispute (in the Messages section of the order details), click **'Close dispute'**
+
+
+
 
 When a dispute is closed, a special notification will be there as well:
 
