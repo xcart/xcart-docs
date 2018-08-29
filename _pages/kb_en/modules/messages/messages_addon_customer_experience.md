@@ -14,6 +14,15 @@ The addon **Messages** enables direct communication between the customers and th
 To start messaging with the seller about a specific order, a customer will just need to find the respective order in the Orders section of their account information (**My account** > **Orders**) and click **Contact seller**:
 ![contact-seller.png]({{site.baseurl}}/attachments/ref_4mlYlOOa/contact-seller.png)
 
+On the page that opens, the customer will be able to:
+
+   * create and submit a new message to the seller:
+     ![msg_submit_msg_in_customer.png]({{site.baseurl}}/attachments/ref_14MliLgA/msg_submit_msg_in_customer.png)
+
+   * open a dispute:
+     ![msg_opendispute_in_customer.png]({{site.baseurl}}/attachments/ref_14MliLgA/msg_opendispute_in_customer.png)
+
+   
 All communication with the store admins and/or vendors will be registered in the _Messages_ tab of the **My Orders** section in the customer account. To view the communication it will be necessary to click on the related order number.
 
 <div class="ui stackable two column grid">
