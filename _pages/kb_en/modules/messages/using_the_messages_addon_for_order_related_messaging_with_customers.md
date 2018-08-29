@@ -106,9 +106,6 @@ To close a dispute:
 
    * In the communication thread pertaining to the order on which you need to close a dispute (in the Messages section of the order details), click **'Close dispute'**
 
-
-
-
 When a dispute is closed, a special notification will be there as well:
 
 ![dispute-closed-admin.png]({{site.baseurl}}/attachments/ref_09pfmGGi/dispute-closed-admin.png)
