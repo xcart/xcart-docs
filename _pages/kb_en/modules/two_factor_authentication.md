@@ -23,8 +23,29 @@ You'll need to set up the following paramethers:
 
 ![tfa-settings-page.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-settings-page.png)
 
-* **API key** : Specify the APY key from your [Authy.com](dashboard.authy.com  "Two factor authentication")  account.
+* **API key** : Specify the APY key from your [Authy.com](dashboard.authy.com  "Two factor authentication") account. 
+  
+  If you don't have an account as yet follow the steps below to create an Authy API Key: 
+  * Create a Twilio account [here](https://www.twilio.com/try-twilio "Two factor authentication")
+  * Create an [Authy application in the Twilio Console](https://www.twilio.com/console/authy "Two factor authentication").
+  * Once you've created a new Authy application, copy the API Key for Production available in the Settings page of your Authy application. See the image below for reference:
+  ![tfa-authy-api.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-authy-api.png)
+  
 * **Production mode** : Enable if you don't need to test the integration and are ready to use the module in production mode.
 * **Use two-factor authentication for the customer interface** : Enable if you need the two-factor authentication option to be available to customer accounts.
-* **Use two-factor authentication for the administrator interface** : Enable if you need the two-factor authentication option to be available to admin accounts.
+* **Use two-factor authentication for the administrator interface** : Enable if you need the two-factor authentication option to be available to admin and vendor accounts.
 
+When configured the module addes the _Country phone code_ and _Phone number_ fields to a user account.
+
+![tfa-phone-fields.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-phone-fields.png)
+
+The values for these fields should be specified by a user when creating an account.
+
+![tfa-new-account.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-new-account.png)
+
+Alternatively the values can be specified by the store admin in the respective user profile (**Users** -> **User list** -> **User profile**). Also the cart admin can enable the **Require to change password on next log in** option for a user profile, so that a user is forced to renew the account password and specify the phone to enable the two-factor authentication for his account.
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><i>Admin verificaton</i>![tfa-admin-verification.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-admin-verification.png)</div>
+  <div class="column" markdown="span"><i>Customer verification</i>![tfa-customer-verification.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-customer-verification.png)</div>
+</div>
