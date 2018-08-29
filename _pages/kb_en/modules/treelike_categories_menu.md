@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-08-03 15:17 +0400'
 identifier: ref_3DV2eqp1
 title: Tree-like Categories Menu
-order: 295
+order: 290
 published: true
 ---
 The [Tree-like Categories Menu module](https://market.x-cart.com/addons/tree-like-categories-menu.html "Tree-like Categories Menu") expands the functionality of {% link "Flyout Categores Menu" ref_6KutUhlR %} and changes the menu into a tree-like type. The module is included in X-Cart Ultimate edition and is paid for X-Cart Business and Multivendor.
