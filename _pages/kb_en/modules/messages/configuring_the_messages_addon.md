@@ -7,6 +7,8 @@ title: Configuring the "Messages" addon
 order: 300
 published: false
 ---
-## A New Post
+Like many other X-Cart addons, the addon **Messages** has its own settings page which can be accessed via the Settings link:
+   ![msgs_settings.png]({{site.baseurl}}/attachments/ref_7K9BOMK0/msgs_settings.png)
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+At the time of writing, there is just one setting available on this page, and that one is of value only to multivendor X-Cart stores running in the Warehouse multivendor mode.
+   ![msgs_settings1.png]({{site.baseurl}}/attachments/ref_7K9BOMK0/msgs_settings1.png)
