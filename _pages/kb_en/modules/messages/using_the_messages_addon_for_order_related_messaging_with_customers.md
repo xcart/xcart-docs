@@ -42,7 +42,7 @@ In the Messages section you can:
    * Mark all or selected communication threads as read or unread.
 
 ## Viewing/responding to messages for a specific order
-Messages and disputes associated with a specific order can be found on the Messages tab of the Order details page:
+Messages and disputes associated with a specific order can be found on the Messages tab of the Order details page. You can view all the communication pertaining to a specific order using one of the following methods:
 
    ![order-details-mes.png]({{site.baseurl}}/attachments/ref_09pfmGGi/order-details-mes.png)
 
