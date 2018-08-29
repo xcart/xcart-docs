@@ -75,6 +75,7 @@ _In this section:_
 *   {% link "TaxJar Sales Tax Automation" ref_0wHdWryq %}
 *   {% link "Tree-like Categories Menu" ref_3DV2eqp1 %}
 *   {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}
+*   {% link "Two factor authentication" ref_30a8vM7c %}
 *   {% link "Update inventory" ref_uSIvmuTh %}
 *   {% link "UPS" ref_0uCGd6Bs %}
 *   {% link "U.S.P.S." ref_whrpZnV3 %}
