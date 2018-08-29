@@ -7,6 +7,8 @@ title: '"Messages" addon: Customer experience'
 order: 100
 published: false
 ---
+This section covers the order related messaging features and actions available to the customers of an X-Cart based online store using the addon **Messages**.
+
 The addon Messages saves your customers the necessity to search for your contact info and fill in the contact forms. With this module they can get in touch with you directly from the details page of their order. 
 
 ![contact-seller.png]({{site.baseurl}}/attachments/ref_4mlYlOOa/contact-seller.png)
