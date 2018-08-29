@@ -5,7 +5,7 @@ updated_at: '2018-08-29 11:58 +0400'
 identifier: ref_30a8vM7c
 title: Two factor authentication
 order: 295
-published: false
+published: true
 ---
 Two Factor Authentication module integrates X-Cart with Authy.com that simplifies and strengthens the security of your account. Two-Factor Authentication system can be used to protect each type of accounts: admin or customer. 
 
