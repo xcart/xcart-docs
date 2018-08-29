@@ -15,6 +15,7 @@ General information on the use of the Messages addon in X-Cart is available here
    
    * {% link "How the "Messages" addon works" ref_14MliLgA %}
    * {% link ""Messages" addon: System requirements and installation" ref_4tbCTp5V %}
+   * {% link "Configuring the "Messages" addon"  %}
    * {% link "Using the "Messages" addon for order related messaging with customers" ref_7KZpxV92 %}
 
 
