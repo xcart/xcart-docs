@@ -37,7 +37,7 @@ Besides that X-Cart has a special brut force protection built-in for both admin 
 
 ![contact-info.png]({{site.baseurl}}/attachments/ref_4ewdbDM8/contact-info.png)
 
-For more protection use the built-in [Two factor authentication module](https://market.x-cart.com/addons/two-factor-authorization.html "X-Cart Store Security") that enables a two-step verification for both admin and customer accounts.
+For more protection use the built-in {% link "Two Factor Authentication" ref_30a8vM7c %} module that enables a two-step verification for both admin and customer accounts.
 
 ## Step 5. Make sure your store has multi-layered security
 
