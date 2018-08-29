@@ -49,5 +49,5 @@ The notifications pertaining to **Multi-vendor** include the following:
 _Related pages:_
    
    * {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-   *  {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
+   * {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
    * {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}
