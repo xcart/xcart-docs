@@ -44,7 +44,7 @@ From the Messages section, the following actions are available:
    * Mark all or selected communication threads as read or unread.
 
 ## Viewing/responding to messages for a specific order
-You can view all the communication pertaining to a specific order using one of the following methods:
+You can view messages pertaining to a specific order using one of the following methods:
 
 _Method 1:_
    In the **Orders list** section (**Orders** -> **Orders list**), find the order you require and open its details for viewing/editing. 
@@ -66,6 +66,7 @@ _Method 2:_
    You will be redirected to the Messages section of the order details with the respective communication thread expanded.
    ![msgs_msgs4order.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_msgs4order.png)
 
+You can respond to the communication by adding your message to the thread. Type your response in the field that says "Write your message here" and click **Submit**.
 
 ## Contacting a customer about a specific order
 If necessary, you can write to a customer about their order from the order details page of that order.
