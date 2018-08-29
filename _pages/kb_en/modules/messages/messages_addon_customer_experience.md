@@ -36,6 +36,7 @@ Once a new message from the seller is received, the customer will be notified by
 The customer and the seller will be able to continue exchanging messages as long as they require. If a dispute has been opened, it will remain open until the customer or the administrator choose to close it. All the communication will be stored carefully in the message history. The customer will be able to access their messages at any time via the **My account** > **Messages** section.
 
 
+
 _Related pages:_
 
    * {% link "Messages addon" ref_0pnZpHq3 %}
