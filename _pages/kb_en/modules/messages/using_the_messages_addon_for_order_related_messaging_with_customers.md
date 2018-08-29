@@ -92,7 +92,7 @@ You can easily find orders with messages using the advanced search panel on the 
   ![search.png]({{site.baseurl}}/attachments/ref_09pfmGGi/search.png)
 
 ## Opening/closing a dispute
-In the most typical case, when a customer is not happy with the items they have purchased or with the service that has been provided to them, and they want to draw the attention of the store owner to this problem, they will open a dispute. It is also possible, however, to open a dispute on an order from the Admin area.
+In the most typical case, when a customer is not happy with the items they have purchased or with the service that has been provided to them, and they want to draw the attention of the store owner to this problem, they will open a dispute. It is also possible, however, to open a dispute on an order from the Admin area. 
 
 To open a dispute from the Admin area:
 
