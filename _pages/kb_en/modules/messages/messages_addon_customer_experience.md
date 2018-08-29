@@ -6,6 +6,8 @@ identifier: ref_14MliLgA
 title: '"Messages" addon: Customer experience'
 order: 100
 published: true
+redirect_from:
+  - /orders/messages/customer_experience.html
 ---
 This section covers the order related messaging features and actions available to the customers of an X-Cart based online store using the addon **Messages**.
 
