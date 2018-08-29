@@ -7,7 +7,7 @@ title: Using the "Messages" addon for order related messaging with customers
 order: 400
 published: false
 ---
-This section covers the order related messaging features and actions available to you via your X-Cart store's Admin area.
+This section covers the order related messaging features and actions available to you via the Admin area of an X-Cart based online store using the addon **Messages**.
 
 ## Getting notified about new messages and disputes
 Whenever someone sends you a message or opens a dispute, you will be notified about it via a bell notification in your X-Cart store's Admin area:
