@@ -49,3 +49,7 @@ If a customer decides to close a dispute he can click the **Close dispute** link
 
 
 In a Multivendor X-Cart store, the addon can be used to enable communication between the customers, the individual vendors acting as sellers and the store owner. More information on the use of the addon with Multivendor is available in the section {% link "Messages addon: Usage with Multivendor" ref_4Ox4FPDB %}.
+
+_Related pages:_
+
+   * {% link "Messages addon" ref_0pnZpHq3 %}
