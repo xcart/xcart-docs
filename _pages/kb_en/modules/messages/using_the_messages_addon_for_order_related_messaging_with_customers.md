@@ -58,15 +58,19 @@ _Method 1:_
 
  
 _Method 2:_ 
-   In the Messages section (**Orders** -> **Messages**), locate the communication thread you require (it will have the order number shown in the **Link** column) and click anywhere on its line. 
+   In the Messages section (**Orders** -> **Messages**), locate the communication thread you require. (You will be able to identify the thread you require by the order number shown in the **Link** column.) 
+   
+   Click on the thread to access its contents. 
    ![msgs_select_msg.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_select_msg.png)
 
-   You will be redirected to the Messages section of the order details with the respective communication thread.
+   You will be redirected to the Messages section of the order details with the respective communication thread expanded.
    ![msgs_msgs4order.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_msgs4order.png)
 
 
 ## Contacting a customer about a specific order
-To write a message to a customer regarding a specific order:
+If necessary, you can write to a customer about their order from the order details page of that order.
+
+Here's how:
 
    1. In the **Orders list** section (**Orders** -> **Orders list**), find the order you require and open its details for viewing/editing. 
  
@@ -87,7 +91,7 @@ You can easily find orders with messages using the advanced search panel on the 
   ![search.png]({{site.baseurl}}/attachments/ref_09pfmGGi/search.png)
 
 ## Opening/closing a dispute
-In the most typical case, when a customer is not happy with the items they have purchased or with the service that has been provided to them, it is the customer who will open a dispute. It is possible, however, to open a dispute on an order from the Admin area.
+In the most typical case, when a customer is not happy with the items they have purchased or with the service that has been provided to them, it is the customer who will open a dispute. It is also possible, however, to open a dispute on an order from the Admin area.
 
 To open a dispute:
 
@@ -100,7 +104,7 @@ To open a dispute:
 As a result, a dispute will be opened:
    ![msgs_open_dispute2.png]({{site.baseurl}}/attachments/ref_7KZpxV92/msgs_open_dispute2.png)
 
-As long as the dispute is open, a note in red with a mention of who and when opened the dispute (like "Dispute opened on Aug 29, 2018, by Admin Admin") will be displayed at the top of the communication thread pertaining to the order.
+As long as the dispute is open, a note in red stating the open status of the dispute, with a mention of by whom and when it was opened (like "Dispute opened on Aug 29, 2018, by Admin Admin") will be displayed in the Messages section of the order details at the top of the communication thread pertaining to the order.
    
 To close a dispute:
 
