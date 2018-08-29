@@ -26,3 +26,6 @@ In the “Warehouse” mode it is the store administrator who handles communicat
 
 
 {% endnote %}
+
+## Disputes
+If necessary the store admin can open a dispute on the order (e.g. to cut into the messaging between a vendor and a customer and get notifications for this conversation) by clicking the **'Open dispute'** button in the _Messages_ tab of the Order details page and close a dispute by clicking the **'Close dispute'** button respectively.
