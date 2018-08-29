@@ -6,6 +6,8 @@ identifier: ref_3TriDEXu
 title: '"Messages" addon: Administrator experience'
 order: 100
 published: true
+redirect_from:
+  - /orders/messages/admin_experience.html
 ---
 _In this section:_
 
