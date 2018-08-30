@@ -7,4 +7,93 @@ title: AntiFraud Service Connector
 order: 21
 published: false
 ---
-AntiFraud Service Connector module integrates X-Cart with AntiFraud services that allows to identify online fraud using sophisticated checking algorithm and reduce chargebacks.
+[AntiFraud Service Connector](https://market.x-cart.com/addons/antifraud.html#product-details-tab-description "AntiFraud Service Connector") module integrates X-Cart with AntiFraud services that allows to identify online fraud using sophisticated checking algorithm and reduce chargebacks.
+
+To start using the module [subscribe](https://market.x-cart.com/addons/antifraud.html#product-details-tab-Plans_and_Pricing "AntiFraud Service Connector") to one of available plans depending on the amount of requests you need to procees per.
+
+To install the module follow instructions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+
+When installed proceed to the module settings page to configure it:
+
+![af-installed.png]({{site.baseurl}}/attachments/ref_6oaerFUv/af-installed.png)
+
+Module settings are devided into 3 tabs. You need to set up all of them:
+1. Settings
+   ![af-settings-1.png]({{site.baseurl}}/attachments/ref_6oaerFUv/af-settings-1.png)
+   * **AntiFraud module service key** : Specify the service key you've got in the subsciption confirmation e-mail.
+   * **Fraud risk factor threshold value** : Specify the fraud risk factor threshold value. Orders with a Fraud risk factor greater than the value specified in this field will not be processed automatically. If fraud risk factor is greater than this limit, order status will be 'Queued'.
+     
+     {% note info %}
+      A fraud risk factor value that will be calculated by Antifraud service module with reference to a certain order will represent a number from 1 to 10 (the greater the number, the higher the probability of fraud from the corresponding IP address). The field **Fraud risk factor threshold value** allows you to specify, how great a fraud risk factor of an order must be for the order to be considered fraudulent. 
+      
+      For example, if you set the **Fraud risk factor threshold value** to '5' (which corresponds to 50% risk of fraud), all the orders with the fraud risk factor rates from 6 to 10 will be considered potentially fraudulent. X-Cart will not process such orders automatically: they will be placed with the status 'Queued', so you will be able to review them personally at a later time and decide, whether you want to process them or not. If you find a certain order to be fraudulent, you will be able to report the IP address from which the order originated to the Antifraud service server as a source of fraudulent orders. This will prevent further fraudulent orders coming from this IP.
+     {% endnote %}
+     
+   * **Block order processing if risk score execeeds threshold** : If you enable this X-Cart won't even send an order to a payment gateway for processing if fraud score is bad. In this case the special "AF Error #1: Cannot process this order. Contact administrator" message is displayed for the customers at checkout.
+   * **Use AVS check result returned from the gateway** : If enabled customer’s billing address will be compared on checkout against the information stored on file by a credit card issuer and any suspicious transactions will be blocked if the information provided doesn’t match with the one stored on the credit card. The setting works for X-Payment paymetns only.
+   * **AntiFraud safe distance (km)** : The distance between a billing address location and an IP address location that you wish to be treated as safe. Any order originating from an IP address located within the Antifraud safe distance from the address provided by the customer at checkout will be processed as non-fraudulent.
+   * **Order total threshold** : The order subtotal amount starting from which an order must be considered 'large'. Antifraud service believes large orders to provide a greater risk for store owners, so it uses an additional coefficient to increase the **Fraud risk factor** of an order if its subtotal exceeds the value provided in this field.
+   * **Run AntiFraud check on orders with zero order total** : This option allows you to specify whether you wish orders whose order total amount has been calculated as '0' (zero) to be screened by Antifraud service.
+   * **Force to use the "Auth only" mode if the fraud risk factor exceeds** : Define the maximum allowed value of the fraud risk factor. When exceeded, X-Cart will force to perform the transaction in the "Auth only" mode even if the payment module is set up to use a different mode.
+   * **Address error score** :
+   * **"AntiFraud service key is invalid" notification to orders department** : This option allows you to specify whether you wish an email notification to be sent to the store's Orders department if the value entered into the 'Antifraud module subscription key' field is not a valid subscription key.
+   * **"AntiFraud service key is expired" notification to orders department** : This option allows you to specify whether you wish an email notification to be sent to the store's Orders department when your Antifraud module subscription key expires.
+     
+   **Save** the settings when you are done.
+   
+2. Payment methods
+   ![af-settings-2.png]({{site.baseurl}}/attachments/ref_6oaerFUv/af-settings-2.png)
+   
+   Here you'll see a list of payment methods enabled in your store. You need to select the payment methods falling under the AntiFraud check. AntiFraud check will be performed on orders placed using the specified payment methods only.
+   
+3. High risk countries
+   ![af-settings-3.png]({{site.baseurl}}/attachments/ref_6oaerFUv/af-settings-3.png)
+   
+   Form a list of countries that fall under a special check from AntiFraud service if applicable. To add a country to the list, choose it from the countries drop-down and click **Add**. 
+
+When AntiFraud screening is enabled, X-Cart submits non-personal data about a new order to AntiFraud service server to calculate the risk factor. The following customer information is sent to our screening servers during antifraud checks:
+
+  * IP address
+  * proxy IP address
+  * email
+  * country (billing address)
+  * state (billing address)
+  * city (billing address)
+  * ZIP code (billing address)
+  * phone
+
+
+If the risk factor exceeds the threshold you specified, the order is delayed for your further manual check (like a call to a buyer or asking for an additional evidence of authenticity etc.), with the detailed report being provided, so you have a clear picture, what exactly was suspicious  in that order.
+
+Antifraud service assesses the fraud risk factor by processing MaxMind's GeoIP/minFraud service data via our unique algorithms. The algorithms are based on our substantial experience in online credit card processing and are specially adapted to be used in X-Cart shopping cart system. Rolled out long ago, the service proved to be extremely helpful and effective for thousands of X-Cart merchants.
+
+## What is Fraud Risk Factor and how it is calculated?
+
+Fraud risk factor is a number from 1 to 10 estimating the riskiness of accepting a credit card for a certain order (the higher the number the higher the risk). The calculation is performed in two steps:
+
+1. The first step is done by Antifraud server depending on the following parameters:
+
+   * country_doesnot_match (binary value, 1 or 0)
+   * city_doesnot_match (binary value, 1 or 0)
+   * is_free_email (binary value, 1 or 0)
+   * is_anonymous_proxy (binary value, 1 or 0)
+   * fraudulent_ip (binary value, 1 or 0)
+   * proxy_score (decimal value, from 0 to 10)
+   * spam_score (decimal value, from 0 to 10)
+   * CHECK_IP_DISTANCE (integer value, distance in km) 
+   
+     Using this algorithm: 
+     * First the fraud risk factor is assigned 0 value;
+     * If any of the binary parameters takes value 1 ('true'), the fraud risk factor is increased by some ("know how") value;
+     * If 'proxy_score' or 'spam_score' exceeds 4, the fraud risk factor is increased by some ("know how") value;
+     * If 'CHECK_IP_DISTANCE' exceeds the Antifraud safe distance value, the fraud risk factor is increased by some ("know how") value;
+     * Finally, if the fraud risk factor value is above 10, it becomes equal 10;
+     
+2. Once the first step is done the calculated value is passed to X-Cart to be adjusted according to all of following rules:
+
+   * If the order total is greater than the Order total threshold value - 'order_limit_excess' becomes 1 (true), and the fraud risk factor is multiplied by 2;
+   * If the customer has processed orders - 'completed orders' takes value 1 (true), and the fraud risk factor is divided by 2;
+   * If the customer has cancelled orders - 'declined_orders' takes value 1 (true), and the fraud risk factor is multiplied by 1,5;
+   * If the IP address being checked has been already used to place orders under a different user account - 'foreign_ip_address' takes value 1 (true), and the fraud risk factor is multiplied by 2;
+   * If the customer's billing address is considered to be a high risk country - 'is_high_risk_country' takes value 1 (true), and the fraud risk factor is incremented by 7.
+   * Finally, if the fraud risk factor value is above 10, it becomes equal 10.
