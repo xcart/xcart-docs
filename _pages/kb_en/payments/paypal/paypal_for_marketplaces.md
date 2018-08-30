@@ -43,7 +43,12 @@ To add the payment method "PayPal for Marketplaces" for your store:
       * **PayPal For Marketplaces account email** : Specify your e-mail registered for PayPal for Marketplace account
       * **PayPal API Client ID** : Specify your login to PayPal sandbox or live account
       * **PayPal API Secret** : Specify your password for PayPal sandbox or live account
-      * **PayPal Partner ID** : pecify the Partner's business account log-in
+      
+        {% note info %}
+        Sandbox accounts are used for testing purposes only. Live accounts are used to process live orders.
+        {% endnote %}
+        
+      * **PayPal Partner ID** : Specify the Partner's business account log-in
       * **PayPal BN Code** : Specify a unique build notation (BN) code you've got from PayPal as a Partner. If you do not have a BN code, [contact your PayPal account manager](https://www.paypal.com/partnerprogram/ "PayPal for Marketplaces"). BN codes provide tracking opportunities within the PayPal system on all transactions originating or associated with a particular Partner (for revenue sharing).
     * Additional settings:
       * **Payment descriptor** : The payment descriptor on the buyer credit card statement of account activity.
@@ -138,5 +143,3 @@ So, everything is fine: the vendor has received their earnings, and the store ad
 In case a vendor doesn't have a PayPal Business account registered in the **Financial info** section the store admin will have to find a way to pay out the money they owe to such vendors (with methods outside X-Cart), after which the information about the respective payout transactions will have to be added in X-Cart manually using the **Create transaction** button in the **Vendor transactions** section (**Orders** > **Vendor transactions**):
 
 ![create-transaction.png]({{site.baseurl}}/attachments/ref_6iphJijP/create-transaction.png)
-
-
