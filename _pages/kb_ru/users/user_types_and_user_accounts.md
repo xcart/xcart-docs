@@ -5,7 +5,7 @@ updated_at: '2018-08-30 14:33 +0300'
 identifier: ref_2QVbwBzD
 title: Типы пользователей и учетные записи
 order: 100
-published: false
+published: true
 ---
 ## Типы пользователей в X-Cart
 В  X-Cart два типа пользователей:
