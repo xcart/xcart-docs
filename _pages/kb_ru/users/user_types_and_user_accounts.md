@@ -38,16 +38,16 @@ published: false
    *   Создан - дата создания учетной записи;
    *   Последний вход - Дата последнего входа в аккаунт. 
    
-The filter above the table can be used to filter the table contents and find specific users.
+Над таблицей находятся фильтры для поиска пользователей по параметрам.
 
-The administrator with user management permissions can access the profile of any user in the table for viewing/editing. To access the profile of a user, click on the user login/email link in the Login/Email column or the user name link in the Name column. 
+Администратор с правами на управление пользователями имеет доступ ко всем учетным записям. Страница пользователя открывается по ссылке в столбце **Имя пользователя/Email**или Название. 
 
-The administrator can remove user accounts. To remove a user account, click on the Trash icon opposite the user name in the table column at the far right (this marks the user account for removal), then click **Save changes**.
+Администратор имеет права на удаление аккаунтов пользователей. Нажмите на значок корзины в правом конце строки, учетная запись будет отмечена. Нажмите **Сохранить**, учетная запись будет удалена.
 
-The administrator can export user account information to CSV format.  To export the entire users table, click the button **Export all: CSV** below the table. To export the information for specific users, mark these users by selecting the check boxes before their names, then click the button **Export selected: CSV** (This button is displayed in the place of the **Export all: CSV** button when at least one user is selected).
+Администратор может экспортировать учетные записи пользователей в CSV. файл. Чтобы экспортировать все учетные записи, нажмите **Экспорт: CSV** под таблицей. Чтобы экспортировать выбранные учетные записи, отметьте их слева и нажмите **Экспорт выбранных: CSV**. 
 
-The administrator can create new user accounts directly from Users section in the Admin area. To create a new user account, click the **Add user** button above the users table and use the Create profile form to specify the account details for the new user. Note that while creating a new user account, you may want to give them a {% link "membership level" ref_RXsgxNSm %}. If creating an administrator user, you will also have to set their  {% link "role" ref_38HKdc1f %} to define the access permissions this user should have in the Admin area.
+Чтобы создать новую учетную запись, нажмите **Добавить пользователя** в разделе **Пользователи / Список пользователей** и заполните страницу. При создании учетной записи можно установить уровень членства. При создании учетной записи администратора установите набор прав доступа.
 
-The administrator can force a user to log out. To do so, open the user's profile and select the option _Logout this user_ from the Profile actions drop-down.
+Администратор может самостоятельно вывести пользователя из системы. Откройте страницу учетной записи пользователя и выберите **Разлогинить пользователя** в меню **Действия с пользователем**.
 
-Sometimes the administrator may need to check how the store looks and functions for another user, or to do some task for them (for example, create an order on behalf of a customer). In this case, the administrator can use the {% link "Operate as a user" feature" ref_26UftgNS %}.
+Чтобы посмотреть, как работает магазин для пользователя, или выполнить за него действие, например, создать заказ, выберите Войти как пользователь.
