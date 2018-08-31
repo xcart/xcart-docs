@@ -15,7 +15,7 @@ First, as you probably remember, a multivendor store at any given moment functio
 
 In the "_Vendors as separate shops_" mode, the user who handles orders and ships the puchased products to the buyer is the product owner (a vendor or the store administrator acting as a vendor). So it is only natural that customers' messages about products and orders in this mode should go directly to the product owner. In accordance with this approach, the addon Messages organizes messaging in the "_Vendors as separate shops_" mode is such a way that when a customer chooses to write a message about an order, this message goes to the respective vendor. The store owner/administrator can supervise the communication process as all the messages between the customers and the vendors are visible to them, but they only interfere in the communication to handle disputes or to help resolving problems that a vendor cannot resolve themselves.
 
-In the "_Warehouse_" mode,   
+In the "_Warehouse_" mode, the products sold in the store all come from different owners (vendors), but a customer buying products from different vendors still gets a single order, and all the products are shipped to them from a single warehouse location. Who has 
 
  
 
