@@ -7,8 +7,6 @@ title: 'Google reCAPTCHA '
 order: 101
 published: true
 ---
-reCAPTCHA lets you embed a CAPTCHA in your web pages in order to protect them against spam and other types of automated abuse. 
-
 [Google reCAPTCHA module](https://market.x-cart.com/addons/google-recaptcha.html "Google reCAPTCHA ") uses the free Google reCAPTCHA service to protect your shop from robots creating fake user accounts and sending SPAM through your site.
 
 The module integrates with the advanced version of the API that displays a simple "I'm not a robot" checkbox instead of asking users to enter a complex mix of digits and letters.
