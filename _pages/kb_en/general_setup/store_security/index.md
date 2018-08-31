@@ -60,7 +60,7 @@ Credit card fraud is the most common security threat that online retailers face.
 
 4. Anti-bot protection
 
-   Use [Google reCAPTCHA](https://market.x-cart.com/addons/google-recaptcha.html "X-Cart Store Security") module to protect your shop from robots creating fake user accounts and sending SPAM through your site. The module will add a special 
+   Use {% link "Google reCAPTCHA " ref_4S6YEcnH %} module to protect your shop from robots creating fake user accounts and sending SPAM through your site. The module will add a special 
    
    For more security use the [Block Users by IP](https://market.x-cart.com/addons/block-users-by-IP-country-user-agent.html "X-Cart Store Security") module that will protect your store from bots and fraud customers, by limiting or completely restricting access to it with the help of flexible settings and filters, taking into account IP, address and user behavior.
 
