@@ -7,9 +7,16 @@ title: 'Messages addon: Usage with Multivendor'
 order: 100
 published: false
 ---
-In a Multivendor X-Cart store with the addon {% link "Messages addon" ref_0pnZpHq3 %} installed and enabled, both the store administrator and vendors can create and manage discount coupons.
+In a Multivendor X-Cart store, the addon {% link "Messages" ref_0pnZpHq3 %} can be used to enable direct communication between the store customers and the sellers (vendors) and give the store owner/administrator a method to supervise the communication process and, if necessary, to interfere in the communication so as to help resolving problems or handle disputes.
 
+Basic usage of the Messages addon is described in {% link "this section" ref_0pnZpHq3 %}, so here we will cover just the multivendor-related specifics.
+   
+First, 
 If you have Multi-vendor functionality enabled, the Messages addon also allows your buyers to start messaging with sellers before they make a purchase. They can initiate the conversations right on the sellers' pages in the storefront. 
+
+## Customer experience
+,jn
+![mv_msg_contactnow.png]({{site.baseurl}}/attachments/ref_4Ox4FPDB/mv_msg_contactnow.png)
 
 ## Admin experience
 If enabled and you have the {% link "Multivendor" ref_4ahg5FLK %} module enabled as well proceed to the Messages module settings page to add special options for providers:
