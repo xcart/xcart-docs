@@ -15,6 +15,45 @@ The module integrates with the advanced version of the API that displays a simpl
 
 To start using the module make sure it's installed and enabled as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
+Then sign up for a [free Google reCAPTCHA account](https://www.google.com/recaptcha/admin#list "Google reCAPTCHA "), to get your site key and secure key that you'll need to specify dirung the module configuration.
+
 To configure the module open the module settings page:
 
 ![gre-installed.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-installed.png)
+
+The settings page is devided into 3 subsections:
+
+1. Google reCAPTCHA account
+   ![gre-settings-1.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-settings-1.png)
+   Specify here your:
+   * **Site key**
+   * **Secret key**
+2. Google reCAPTCHA settings
+   ![gre-settings-2.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-settings-2.png)
+   Select the values for the following fields here:
+   * **API version** : Can be only reCAPTCHA Version 2.0.
+   * **Theme** : Select between 'light' or 'dark'.
+   * **Size** : Select between 'normal' or 'compact'.
+3. Forms protected with Google reCAPTCHA
+   ![gre-settings-3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-settings-3.png)
+   Toggle on the reCAPTCHA protection for the forms you need. Possible options are:
+   * Sign-in form (storefront)
+   * Password recovery form
+   * Customer sign-up form
+   * Contact form
+   * Vendor sign-up form
+  
+**Submit** the settings when you are done.
+
+The enabled Google reCAPTCHA protection for the chosen forms will look as follows:
+
+<div class="ui stackable three column grid">
+  <div class="column" markdown="span"><i>Sign-in form</i>![gre-sign-in.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-sign-in.png)</div>
+  <div class="column" markdown="span"><i>Sign-up form</i>![gre-create-new-account.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-create-new-account.png)</div>
+  <div class="column" markdown="span"><i>Contact form</i>![gre-contact_us.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-contact_us.png)</div>
+</div>
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><i>Forgot password form</i>![gre-forgot-password.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-forgot-password.png)</div>
+  <div class="column" markdown="span"><i>Vendor sign-up form</i></div>
+</div>
