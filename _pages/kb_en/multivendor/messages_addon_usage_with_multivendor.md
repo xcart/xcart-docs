@@ -7,12 +7,15 @@ title: 'Messages addon: Usage with Multivendor'
 order: 100
 published: false
 ---
-In a Multivendor X-Cart store, the addon {% link "Messages" ref_0pnZpHq3 %} can be used to enable direct communication between the store customers and the sellers (vendors) and give the store owner/administrator a method to supervise the communication process and, if necessary, to interfere in the communication so as to help resolving problems or handle disputes.
+In a Multivendor X-Cart store, the addon {% link "Messages" ref_0pnZpHq3 %} can be used to enable direct communication between the store customers, the sellers (vendors) and the store owner/administrator.
 
-Basic usage of the Messages addon is described in {% link "this section" ref_0pnZpHq3 %}, so here we will cover just the multivendor-related specifics.
+Basic usage of the Messages addon is described in the main {% link "Messages addon manual" ref_0pnZpHq3 %}, so here we will just go over the multivendor-related specifics.
    
-First, 
-If you have Multi-vendor functionality enabled, the Messages addon also allows your buyers to start messaging with sellers before they make a purchase. They can initiate the conversations right on the sellers' pages in the storefront. 
+First, since the owner of products
+
+and give the store owner/administrator a method to supervise the communication process and, if necessary, to interfere in the communication so as to help resolving problems or handle disputes.
+
+Second, If you have Multi-vendor functionality enabled, the Messages addon also allows your buyers to start messaging with sellers before they make a purchase. They can initiate the conversations right on the sellers' pages in the storefront. 
 
 ## Customer experience
 ,jn
