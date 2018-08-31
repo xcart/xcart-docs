@@ -5,7 +5,7 @@ updated_at: '2018-08-31 15:43 +0400'
 identifier: ref_4S6YEcnH
 title: 'Google reCAPTCHA '
 order: 101
-published: false
+published: true
 ---
 reCAPTCHA lets you embed a CAPTCHA in your web pages in order to protect them against spam and other types of automated abuse. 
 
