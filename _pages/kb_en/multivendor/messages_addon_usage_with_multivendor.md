@@ -12,8 +12,8 @@ In a Multivendor X-Cart store, the addon {% link "Messages" ref_0pnZpHq3 %} can 
 Basic usage of the Messages addon is described in the main {% link "Messages addon manual" ref_0pnZpHq3 %}, so here we will just go over the multivendor-related specifics.
    
 First, as you probably remember, a multivendor store always functions in one of the two Multivendor modes: "_Vendors as separate shops_" or "_Warehouse_". 
-In the "_Vendors as separate shops_" mode, the user who handles orders and ships the puchased products to the buyer is the product owner (a vendor or the store administrator acting as a vendor). So messaging is organized in such a way that messages about products and orders go directly to (and from) the product owner.
-In the "_Warehouse_" mode,  
+In the "_Vendors as separate shops_" mode, the user who handles orders and ships the puchased products to the buyer is the product owner (a vendor or the store administrator acting as a vendor). So it is only natural that customers' messages about products and orders in this mode should go directly to the product owner. In accordance with this approach, the addon Messages organizes messaging in the "_Vendors as separate shops_" mode is such a way that when a customer chooses to write a message about an order, this message goes to the respective vendor.
+In the "_Warehouse_" mode,   
 
 and give the store owner/administrator a method to supervise the communication process and, if necessary, to interfere in the communication so as to help resolving problems or handle disputes.
 
