@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-08-28 18:27 +0400'
 identifier: ref_0pnZpHq3
 title: Messages addon
-order: 100
+order: 166
 published: true
 ---
 X-Cart's addon [Messages](https://market.x-cart.com/addons/order-messages.html "Messages Module") is a solution to facilitate the communication between the customers and the seller in an X-Cart based store. 
