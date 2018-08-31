@@ -30,7 +30,7 @@ The module's settings page allows you to control the settings related to the "Co
 
 The "Contact us" form can be protected by reCAPTCHA. reCAPTCHA is a free Web service that helps prevent automated abuse of your site. In this case, it prevents automated submission of the "Contact us" form by using a [CAPTCHA](http://www.google.com/recaptcha#captcha) to ensure that only humans can submit it. 
 
-To use reCAPTCHA, you will need to configure your reCAPTCHA **Public key** and **Private key** settings. To sign up for reCAPTCHA and obtain the necessary keys, go to [https://www.google.com/recaptcha/admin/create](https://www.google.com/recaptcha/admin/create).
+To use reCAPTCHA follow the guides from {% link "Google reCAPTCHA " ref_4S6YEcnH %}.
 
 If your store uses the **Simple CMS** module by X-Cart team, the link to the "Contact us" form appears in your store's Primary menu: 
 
