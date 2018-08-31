@@ -20,7 +20,7 @@ In the "_Warehouse_" mode, the products all come from different owners (vendors)
 If the administrator chooses to handle all the communication with the customers themselves, they should keep the above said setting disabled. In this case all order related messages from customers will be addressed to the administrator. If, however, they wish to enable the customers to choose by themselves who they want to contact - the individual vendors or the store administrator - they need to enable this setting. In this case the addressee of each message will be chosen by the customer.
 
  
-
+One more difference 
 Second, If you have Multi-vendor functionality enabled, the Messages addon also allows your buyers to start messaging with sellers before they make a purchase. They can initiate the conversations right on the sellers' pages in the storefront. 
 
 ## Customer experience
