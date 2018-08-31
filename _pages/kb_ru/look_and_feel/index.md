@@ -29,3 +29,4 @@ categories:
 *   {% link "Удаление надписи Разработано X-Cart" ref_poweredby %}
 *   {% link "Локализация сайта" ref_lclztn %}
 *   {% link "Разметка страниц магазина" ref_theme %}
+*   {% link "Изменение страницы 404" ref_4m9ihjFk %}
