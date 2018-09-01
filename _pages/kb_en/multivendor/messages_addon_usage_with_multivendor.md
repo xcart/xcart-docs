@@ -5,7 +5,7 @@ updated_at: '2018-07-26 07:18 +0400'
 identifier: ref_4Ox4FPDB
 title: 'Messages addon: Usage with Multivendor'
 order: 100
-published: false
+published: true
 ---
 In a Multivendor X-Cart store/marketplace, the addon {% link "Messages" ref_0pnZpHq3 %} can be used to enable direct communication between the store customers, the sellers (vendors) and the store owner/administrator.
 
