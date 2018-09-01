@@ -19,30 +19,13 @@ In the "_Warehouse_" mode, the products all come from different owners (vendors)
    ![msgs_settings1.png]({{site.baseurl}}/attachments/ref_4Ox4FPDB/msgs_settings1.png)
 If the administrator is going to be the user who will handle all the communication with the customers, they should keep the above said setting disabled. In this case all order related messages from customers will go directly to the administrator; the vendors will not have access to them. If, however, the administrator wishes to enable the vendors to handle the communication with customers by themselves, they need to enable this setting. In this case order messages from customers will be addressed to vendors. If an order contains products owned by different vendors, the customer will have to choose which of the vendors they wish to conact.
 
-One more feature
+In addition to 
 Second, If you have Multi-vendor functionality enabled, the Messages addon also allows your buyers to start messaging with sellers before they make a purchase. They can initiate the conversations right on the sellers' pages in the storefront. 
 
-## Customer experience
-,jn
+
 ![mv_msg_contactnow.png]({{site.baseurl}}/attachments/ref_4Ox4FPDB/mv_msg_contactnow.png)
 
-## Admin experience
-If enabled and you have the {% link "Multivendor" ref_4ahg5FLK %} module enabled as well proceed to the Messages module settings page to add special options for providers:
 
-  ![settings-1.png]({{site.baseurl}}/attachments/ref_09pfmGGi/settings-1.png)
-
-**Allow direct communicaton between vendor and buyer in the "Warehouse" multivendor mode**
-
-  ![settings-2.png]({{site.baseurl}}/attachments/ref_09pfmGGi/settings-2.png)
-
-
-{% note info %}
-In “Vendors as separate shops” mode vendors communicate with customers themselves and get only the messages related to their orders.
-
-In the “Warehouse” mode it is the store administrator who handles communication with customers by default. If both messaging with the store administrator and vendors is enabled, a customer can choose whom he wants to communicate with.
-
-
-{% endnote %}
 
 ## Disputes
 If necessary the store admin can open a dispute on the order (e.g. to cut into the messaging between a vendor and a customer and get notifications for this conversation) by clicking the **'Open dispute'** button in the _Messages_ tab of the Order details page and close a dispute by clicking the **'Close dispute'** button respectively.
