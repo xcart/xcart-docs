@@ -19,12 +19,11 @@ In the "_Warehouse_" mode, the products all come from different owners (vendors)
    ![msgs_settings1.png]({{site.baseurl}}/attachments/ref_4Ox4FPDB/msgs_settings1.png)
 If the administrator is going to be the user who will handle all the communication with the customers, they should keep the above said setting disabled. In this case all order related messages from customers will go directly to the administrator; the vendors will not have access to them. If, however, the administrator wishes to enable the vendors to handle the communication with customers by themselves, they need to enable this setting. In this case order messages from customers will be addressed to vendors. If an order contains products owned by different vendors, the customer will have to choose which of the vendors they wish to conact.
 
-In addition to 
-Second, If you have Multi-vendor functionality enabled, the Messages addon also allows your buyers to start messaging with sellers before they make a purchase. They can initiate the conversations right on the sellers' pages in the storefront. 
+In addition to messages about orders, multivendor X-Cart stores running in the "_Vendors as separate shops_" mode, or in the "_Warehouse_" mode with the setting **Allow direct communication between vendor and buyer in the "Warehouse" multivendor mode** enabled, support messages not related to orders. It means that in such stores any customer can contact a vendor using the _Contact now_ link on the vendor page on the storefront (no purchase is required).
+   ![mv_msg_contactnow.png]({{site.baseurl}}/attachments/ref_4Ox4FPDB/mv_msg_contactnow.png)
 
-
-![mv_msg_contactnow.png]({{site.baseurl}}/attachments/ref_4Ox4FPDB/mv_msg_contactnow.png)
-
+Unlike communication threads about specific orders, threads non-related to orders are marked as "Conversation":
+![mv_msg_msgs_in_vendor.png]({{site.baseurl}}/attachments/ref_4Ox4FPDB/mv_msg_msgs_in_vendor.png)
 
 
 ## Disputes
