@@ -15,4 +15,4 @@ When installed, the module automatically disables checkout from unauthorised cus
 
 ![roc-checkout.png]({{site.baseurl}}/attachments/ref_1IYxME8O/roc-checkout.png)
 
-There a customer will have either to sign in with an exisitng account, if he has it, or register a new account if this his first order in your store.
+There a customer will have either to sign in with an exisitng account, if he has it, or register a new account if this is his first order in your store.
