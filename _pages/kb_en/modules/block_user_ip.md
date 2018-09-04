@@ -5,7 +5,7 @@ updated_at: '2018-09-04 10:52 +0400'
 identifier: ref_3rhs1MJ8
 title: Block Users by IP / Country / User agent
 order: 41
-published: false
+published: true
 ---
 The [Block User's by IP/Country/User Agent module](https://market.x-cart.com/addons/block-users-by-IP-country-user-agent.html "Block Users by IP / Country / User agent") protects your store from bots and fraud customers, by limiting or completely restricting access to it with the help of flexible settings and filters, taking into account IP, address and user behavior.
 
@@ -56,5 +56,3 @@ When the module configuration is complete you can proceed to creating access fil
    Click **Create** to complete the filter creation.
  3. The newly created filter will become available on the **Access filters** page:
     ![buip-access-filters.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-access-filters.png)
-
-
