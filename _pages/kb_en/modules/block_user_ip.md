@@ -20,10 +20,11 @@ The **Block User's by IP/Country/User Agent module settings page** is devided in
 1. IP based access control:
    ![buip-settings-1.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-settings-1.png)
    * **Access control mode** : Select between "Allow access from all but blacklisted IP addresses" and "Allow access from IP addresses in white list". 
-     
+     {% note info %}
      The first option will allow access to the store from any IP address except for those that are in the blacklist and will work even if there are no IP addresses in the back list. 
      
      The second option will allow access to the store only from IP addresses that are in the white list and will NOT work if there is no white list with IP addresses (i.e. you have to create a white list with IP addresses in the **Store setup** -> **Access filters** section to use this mode).
+     {% endnote %}
    * **Link to bypass the IP based access control system** : Is generated automatiocally
 
 2. Bot protection:
@@ -32,8 +33,9 @@ The **Block User's by IP/Country/User Agent module settings page** is devided in
    * **A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than** : 
    * **Allow bots to make purchases** : Toggle the setting off if you don't want bots to make purchases in your store.
    * **Detect search engine bots via the user agent** : With this option enabled any visitor of a "crawler" type according to [https://browscap.org/](https://browscap.org/ "Block Users by IP / Country / User agent") is automatically blacklisted. 
-     
+     {% note info %}
      If this option is disabled the module will sort the visitors in accordance with the **A visitor should be identified as a bot if** and **A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than** settings.
+     {% endnote %}
    * **Add bot IP addresses to black list** : Decide if you want to add bot IP addresses to back list automatically or not and select one of the options.  
      {% note info %}
      When making a choice please keep in mind that any option starting with "Forbid ..." automatiocally adds any bot IP address (both good bots that help in creating the required visibility of the websites on the internet, and bad bots that are programmed to perform a variety of malicious jobs) to the black list and limits access to the store pages from the blacklisted IP  depending on the option you selected. 
