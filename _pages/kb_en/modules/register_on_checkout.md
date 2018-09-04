@@ -7,6 +7,12 @@ title: Register On Checkout
 order: 225
 published: false
 ---
-The module engages customers to register before checkout. By default, registration is optional and a buyer can sign in using his existing profile in your store or checkout as a new user. In the latter case no profile is created.
+If you want to be sure that any of your buyers has a registered profile in your store use the [Register on checkout](https://market.x-cart.com/addons/register-on-checkout.html "Register On Checkout") module.
 
-With this module enabled you can be sure that any of your buyers has a registered profile in your store. Unauthorized visitors won't be able to proceed to checkout.
+To install the module follow the guidelines from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+
+When installed, the module automatically disables checkout from unauthorised customers and engages them to register on checkout.
+
+![roc-checkout.png]({{site.baseurl}}/attachments/ref_1IYxME8O/roc-checkout.png)
+
+There a customer will have either to sign in with an exisitng account, if he has it, or register a new account if this his first order in your store. 
