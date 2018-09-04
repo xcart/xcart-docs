@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-06-11 00:27 +0400'
 identifier: ref_XBriIS6B
 title: Product reviews
-order: 223
+order: 222
 published: true
 redirect_from:
   - /products/product_reviews.html
