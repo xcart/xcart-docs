@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-22 15:04 +0400'
 identifier: ref_6nFoxYf1
 title: Product Tags
-order: 226
+order: 223
 published: true
 redirect_from:
   - /products/tags.html
