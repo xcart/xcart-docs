@@ -29,8 +29,8 @@ The **Block User's by IP/Country/User Agent module settings page** is devided in
 
 2. Bot protection:
    ![buip-settings-2.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-settings-2.png)
-   * **A visitor should be identified as a bot if** : 
-   * **A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than** : 
+   * **A visitor should be identified as a bot if** : Specify the corresponding time/pages paramethers.
+   * **A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than** : Specify the period in seconds.
    * **Allow bots to make purchases** : Toggle the setting off if you don't want bots to make purchases in your store.
    * **Detect search engine bots via the user agent** : With this option enabled any visitor of a "crawler" type according to [https://browscap.org/](https://browscap.org/ "Block Users by IP / Country / User agent") is automatically blacklisted. 
      {% note info %}
