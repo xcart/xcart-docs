@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-06-11 00:27 +0400'
 identifier: ref_XBriIS6B
-title: Product reviews
+title: Product Reviews
 order: 222
 published: true
 redirect_from:
