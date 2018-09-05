@@ -23,6 +23,7 @@ _In this section:_
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
 *   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
 *   {% link "Back in Stock Notifications Module" ref_1oUpzwSS %}
+*   {% link "Backup Master Module" ref_60LdO1tN %}
 *   {% link "Blog system in X-Cart 5" ref_T5FrnC4x %}
 *   {% link "Block Users by IP / Country / User agent" ref_3rhs1MJ8 %}
 *   {% link "Booking" ref_iTdd1QoP %}
