@@ -24,6 +24,7 @@ _In this section:_
 *   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
 *   {% link "Back in Stock Notifications Module" ref_1oUpzwSS %}
 *   {% link "Blog system in X-Cart 5" ref_T5FrnC4x %}
+*   {% link "Block Users by IP / Country / User agent" ref_3rhs1MJ8 %}
 *   {% link "Booking" ref_iTdd1QoP %}
 *   {% link "Call for Price Module" ref_3K1pJExV %}
 *   {% link "Canada Post" ref_ifwLo5ks %}
