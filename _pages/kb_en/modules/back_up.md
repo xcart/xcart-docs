@@ -6,5 +6,6 @@ identifier: ref_60LdO1tN
 title: Backup Master Module
 order: 36
 published: false
-redirect_to: '/general_setup/backup-restore/backup.html#backup-master-module'
+redirect_to: >-
+  https://kb.x-cart.com/general_setup/backup-restore/backup.html#backup-master-module
 ---
