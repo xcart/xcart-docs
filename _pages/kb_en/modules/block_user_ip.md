@@ -11,6 +11,10 @@ The [Block User's by IP/Country/User Agent module](https://market.x-cart.com/add
 
 To install the module follow directions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
+{% toc %}
+
+## Installation and Set-up
+
 When installed proceed to the module settings page to configure it:
 
 ![buip-installed.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-installed.png)
@@ -31,6 +35,9 @@ The **Block User's by IP/Country/User Agent module settings page** is devided in
    ![buip-settings-2.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-settings-2.png)
    * **A visitor should be identified as a bot if** : Specify the corresponding time/pages paramethers.
    * **A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than** : Specify the period in seconds.
+     {% note info %}
+     The time and pages values for the above settings are to be found out empirically as they differ depending on a particular site, server environment, etc.
+     {% endnote %}
    * **Allow bots to make purchases** : Toggle the setting off if you don't want bots to make purchases in your store.
    * **Detect search engine bots via the user agent** : With this option enabled any visitor of a "crawler" type according to [https://browscap.org/](https://browscap.org/ "Block Users by IP / Country / User agent") is automatically blacklisted. 
      {% note info %}
@@ -49,6 +56,8 @@ The **Block User's by IP/Country/User Agent module settings page** is devided in
    * **Restrict purchases based on buyer location** : Select if you want to restrict purchases for buyers whose billing address doesn't match the IP address they used for the purchase.
 
 Don't forget to **submit** the changes to make them active.
+
+## Access Filters
 
 When the module configuration is complete you can proceed to creating access filters if required. 
 
@@ -70,7 +79,7 @@ For this purpose:
     ![buip-access-filters.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-access-filters.png)
     
 
-Filters can also be created based on a particular order or user information. 
+Filters can also be created based on a particular order or user information if they seem fraud to you.
 
 For this purpose:
 1. Open either the **Order details page** of a particulat order (**Orders** -> **Order list**) or the **Account details page** of a particular user (**Users** -> **User list**)
@@ -78,5 +87,7 @@ For this purpose:
      <div class="column" markdown="span">![buip-order-details.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-order-details.png)</div>
      <div class="column" markdown="span">![buip-user-details.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-user-details.png)</div>
     </div>
-2. Locate the IP address section
-3. Click the **Start creation of filter for this IP** button to add a new filter 
+2. Locate the IP address section.
+3. Click the **Start creation of filter for this IP** button to add a new filter. You'll be redirected to the **Access filter** page.
+4. Create a new filter for the chosen IP address. Don't forget to click **Create** to complete the filter creation.
+5. The newly created filter is added to the filters'list.
