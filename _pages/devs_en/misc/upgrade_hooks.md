@@ -85,7 +85,7 @@ then you should put the file with your text into `classes/XLite/Module/<Develope
 
 - If it is changelog for module's version 5.3.1.3, your text file will be at `classes/XLite/Module/<DeveloperID>/<ModuleID>/changelog/5.3/1/3.log`;
 - if it is changelog for module's version 5.3.1, your text file will be at
-`classes/XLite/Module/<DeveloperID>/<ModuleID>/changelog/5.3/1/3.log`.
+`classes/XLite/Module/<DeveloperID>/<ModuleID>/changelog/5.3/1/0.log`.
 
 
 ## Hook format
