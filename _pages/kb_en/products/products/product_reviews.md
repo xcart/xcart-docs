@@ -5,7 +5,7 @@ updated_at: '2018-09-06 14:51 +0400'
 identifier: ref_5Cs8QXil
 title: Product Reviews
 order: 300
-published: false
+published: true
 ---
 Besides being an essential part of an online store’s branding and marketing, product reviews can definitely be a great insight into the customer service quality. They help build trust and loyalty, and typically describe what sets your products apart from others.
 
