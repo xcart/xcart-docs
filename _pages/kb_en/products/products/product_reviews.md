@@ -31,3 +31,4 @@ _Repated pages:_
 * {% link "Shopper Approved Module" ref_1leKQurL %}
 * {% link "Loyalty Program" ref_1Odyn6mT %}
 * {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
+* {% link "Customer Satisfaction" ref_5EkhZ4uD %}
