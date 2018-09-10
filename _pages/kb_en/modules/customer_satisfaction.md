@@ -57,8 +57,10 @@ All customers' feedbacks are registered in the **Customer feedback** section in 
 
 ![customer-feedback.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/customer-feedback.png)
 
-To manage a feedback click the **[...]** button opposite the feedback in question. You'll be redirected to the Manage feedback page where you can check for the survey details and the comments provided by the customer. 
+To manage a feedback click the **[...]** button opposite the feedback in question. You'll be redirected to the **Manage Customer Feedback page** where you can check for the survey details and the comments provided by the customer. 
 
 ![manage-feedback.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/manage-feedback.png)
+
+Each feedback except for the 'excellent' ones get the NEW status that you can change to 'IN PROGRESS' or 'CLOSED' when the feedback is addressed. The 'excellent' feedbacks get the CLOSED status automatically. 
 
 To process the feedback further you can contact the customer by email to thank him for the feedback left or to help in case of any questions.
