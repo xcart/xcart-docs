@@ -5,7 +5,7 @@ updated_at: '2018-09-07 13:34 +0400'
 identifier: ref_5EkhZ4uD
 title: Customer Satisfaction
 order: 71
-published: false
+published: true
 ---
 [Customer Satisfaction](https://market.x-cart.com/addons/customer-satisfaction.html "Customer Satisfaction") module adds a possibility for a store admin to follow up customers who made orders in the store and collect reviews to get insight on how they rate the store as a whole and the store customer service in particular. 
 
