@@ -32,7 +32,7 @@ Defauls image settings are as follows:
 *  **Cloud Zoom Mode** [becomes available only if Cloud Zoom is ON]: Choose if you want the zoomed image to be displayed inside the general image area or outside it.
 * **Use blurred image placeholders for smart image loading** : When enabled, pre-loaded low resolution images or single color background image placeholders are used to replace the actual full resolution images on the storefront before they are fully loaded.
 
-The images size-chart presents the actual space (width(px) and height(px)) available for an image on a page and differs depending on the {% link "skin installed" ref_GLqVdpgd %}. All images used in the store are resized to fit the image space taking into consideration the settings configured above. You can change the default sizes if required. However, please keep in mind that the original image should be at least 2 times bigger than the size of an image space it will be resized to.
+The images size-chart presents the actual space (width(px) and height(px)) available for an image on a page and differs depending on the {% link "skin installed" ref_GLqVdpgd %}. All images used in the store are resized to fit the image space taking into consideration the settings configured above. You can change the default sizes if required. However, please do in mind that the original image should be at least 2 times bigger than the size of an image space it will be resized to.
 
 
 ## Custom Images 
