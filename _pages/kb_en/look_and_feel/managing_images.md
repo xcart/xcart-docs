@@ -34,6 +34,8 @@ Defauls image settings are as follows:
 
 The images size-chart presents the actual space (width(px) and height(px)) available for an image on a page and differs depending on the {% link "skin installed" ref_GLqVdpgd %}. All images used in the store are resized to fit the image space taking into account the settings configured above. You can change the default sizes if required. However, please do in mind that the original image should be at least 2 times bigger than the size of an image space it will be resized to.
 
+Clicking the **Generate resized images** button (next to the **Save** button) launches the actual image resizing routine to generate copies of existing images in all the sizes needed to display the images in your store's customer area. Having a separate image file in each of the sizes provides a way to speed up your site's performance by reducing page load times for pages containing graphics.
+
 
 ## Custom Images 
 
