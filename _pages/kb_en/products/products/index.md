@@ -7,6 +7,8 @@ title: Products
 order: 100
 published: true
 ---
+X-Cart allows you to sell regular goods and e-goods, services, pins and subscriptions. You add a product in X-Cart by entering product details and {% link "uploading images" ref_VtuUJTh5 %}. If your product has options, like size or color, configure it using {% link "product classes and attributes" ref_T90ZcEpP %}. X-Cart also alows to regulate product prices and inventory depending on {% link "customer memberships" ref_memberships_ext %}.
+
 _In this section:_
 
 *   {% link "Product types" ref_67tFd2bl %}
