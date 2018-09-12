@@ -9,6 +9,10 @@ published: true
 redirect_from:
   - /products/categories.html
 ---
+Categories in X-Cart stand for collections or groups of products. Products are joined into categories based on a set of similar type or product features and make it easier for a customer to navigate in your store. 
+
+You can create categories both manually and automatically using the {% link "import feature" ref_glDc6kA1 %}.
+
 _In this section:_
 
 *  {% link "Managing Categories" ref_2JeiDy5a %}
