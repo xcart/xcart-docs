@@ -11,6 +11,10 @@ icon: cube
 description: Fill your catalog with detailed product pages and various promotional blocks
 published: true
 ---
+Creating a product catalog is one of the most important parts of setting up your store. Whether you are going to sell regular goods, digital downloads, services, pins, subscriptions or gift cards you can't start without a well-organized product catalog. 
+
+You can add all the products into a single catalog or group your products in categories to make it easier for customers to find them.
+
 _In this section:_
 
 *   {% link "Categories" ref_2662pEI3 %}
