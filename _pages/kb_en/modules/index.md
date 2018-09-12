@@ -32,6 +32,7 @@ _In this section:_
 *   {% link "CloudSearch and CloudFilters" ref_3MF4RL7z %}
 *   {% link "Coupons" ref_3iTVKlYe %}
 *   {% link "Custom Product Tabs" ref_2JzbMU2q %}
+*   {% link "Customer Files Uploads &amp; Product Attachments" ref_1tk0fbqz %}
 *   {% link "Customer Satisfaction" ref_5EkhZ4uD %}
 *   {% link "Disable drag'n'drop add to cart" ref_2NVSkzc3 %}
 *   {% link "eCC Desktop: Quickbooks integration" ref_0HbWTUok %}
