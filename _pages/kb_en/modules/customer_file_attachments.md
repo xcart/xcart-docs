@@ -36,4 +36,9 @@ To enable customer file attachments:
 
 That's it, file attachments are enabled for a product.
 
+Now customers are able to see product file attachments both on the product quick view page and on the product details page:
 
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><i>Product details page</i>![cus-product-details.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/cus-product-details.png)</div>
+  <div class="column" markdown="span"><i>Quick view page</i>![cus-quick-view.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/cus-quick-view.png)</div>
+</div>
