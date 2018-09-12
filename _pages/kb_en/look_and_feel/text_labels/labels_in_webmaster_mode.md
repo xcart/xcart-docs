@@ -9,6 +9,10 @@ published: true
 ---
 You may find it easier to edit a label directly in the store frontend where you see the text you need to edit and you don't need to know the label name or whatsever else. 
 
+{% note info %}
+The option is available if the {% link "Theme Tweaker" ref_2L6W3YMS %} module is installed and enabled.
+{% endnote %}
+
 To enable the {% link "Webmaster Mode" ref_2L6W3YMS %} you should be logged in as an admin in the store frontend. When logged in as an admin you'll see a 'Gear' icon in the bottom left corner.
 
 ![webmaster.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/webmaster.png)
