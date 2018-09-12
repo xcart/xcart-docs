@@ -15,6 +15,8 @@ Creating a product catalog is one of the most important parts of setting up your
 
 You can add all the products into a single catalog or group your products in categories to make it easier for customers to find them.
 
+If you're interested in creating a product catalog through an imported spreadsheet, see {% link "Import-Export" ref_TANvG2De %}
+
 _In this section:_
 
 *   {% link "Categories" ref_2662pEI3 %}
