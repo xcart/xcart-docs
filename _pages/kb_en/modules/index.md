@@ -78,6 +78,7 @@ _In this section:_
 *   {% link "Special Offers" ref_special_offers %}
 *   {% link "Stripe" ref_1SRSOBWa %}
 *   {% link "TaxJar Sales Tax Automation" ref_0wHdWryq %}
+*   {% link "Theme Tweaker and Webmaster Mode" ref_2L6W3YMS %}
 *   {% link "Tree-like Categories Menu" ref_3DV2eqp1 %}
 *   {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}
 *   {% link "Two factor authentication" ref_30a8vM7c %}
