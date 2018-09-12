@@ -5,7 +5,7 @@ updated_at: '2018-09-12 09:06 +0400'
 identifier: ref_1tk0fbqz
 title: Customer Files Uploads & Product Attachments
 order: 71
-published: false
+published: true
 ---
 The [Customer Files Uploads & Product Attachments](https://market.x-cart.com/addons/files-uploads-product-attachments.html "Customer Files Uploads & Product Attachments") module adds a posibility to allow customers to attach files to a product before purchasing so that the store administrator could download those files when processing the order. 
 
