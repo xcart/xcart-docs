@@ -69,6 +69,7 @@ _In this section:_
 *   {% link "Product reviews" ref_XBriIS6B %}
 *   {% link "Product variants" ref_4OTLafuC %}
 *   {% link "Related Products" ref_4a5rpsQq %}
+*   {% link "RTL languages support" ref_3vEHzhPP %}
 *   {% link "Sale Module" ref_7tBJ8Yqo %}
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 *   {% link "ShippingEasy" ref_HTml5LyW %}
