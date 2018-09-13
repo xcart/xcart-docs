@@ -5,7 +5,7 @@ updated_at: '2018-09-13 12:02 +0400'
 identifier: ref_3vEHzhPP
 title: RTL languages support
 order: 228
-published: false
+published: true
 ---
 The [RTL Languages Support module](https://market.x-cart.com/addons/standard-rtl-skin.html "RTL languages support") adds a possibility for the whole site to be displayed right-to-left when a particular language is selected in the storefront.
 
@@ -26,6 +26,3 @@ When installed the module adds a special **RTL** check-box to the **Languages** 
 By enabling the **RTL** checkbox for a language you make a store using one of the standard skins to be displayed right-to-left when this language is selected in the customer storefront: 
 
 ![storefront.png]({{site.baseurl}}/attachments/ref_3vEHzhPP/storefront.png)
-
-
-
