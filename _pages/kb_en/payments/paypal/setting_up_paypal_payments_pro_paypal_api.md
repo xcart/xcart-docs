@@ -43,3 +43,4 @@ Here's how to set up PayPal Payments Pro (PayPal API) in an X-Cart 5 based store
 ![xc5_pp_pro_xpconnect.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_xpconnect.png)
 mjn
 ![xc5_pp_pro_paypalapi_paymentconf_inxp.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_paypalapi_paymentconf_inxp.png)
+hj
