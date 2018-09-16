@@ -23,24 +23,21 @@ Depending on the type of API to which your PayPal Payments Pro account has been 
    * PayPal Payments Pro (PayPal API)
    * PayPal Payments Pro (Payflow API)
 
-All you need to know to choose the right payment method integration for you is the type of API credentials available to your PayPal account.
-If  API credentials to which 
+To choose the right payment method integration for you, all you need to know is the type of API credentials available to your PayPal account. 
 
-PayPal solution available in two versions:
-1. In X-Cart, add PayPal Payments Pro (PayPal API) to the list of your store's active payment methods and configure it: 
+
+If you have such credentials as API access username, API access password and API signature/API certificate, choose PayPal Payments Pro (PayPal API). See further below how to set up this method in X-Cart.
+
+If you have such credentials as Partner, Merchant login, User and Password (the same credentials you use for login to manager.paypal.com), choose PayPal Payments Pro (Payflow API). For information on how to set up PayPal Payments Pro (Payflow API) in X-Cart 5, see {% link "PayPal Payments Pro (Payflow API)" %}
+
+Here's how to set up PayPal Payments Pro (PayPal API) in an X-Cart 5 based store:
+
+   1. In X-Cart, add PayPal Payments Pro (PayPal API) to the list of your store's active payment methods and configure it: 
    
-   
-   
-   
-   
-   
-   
-   
-   
-   1. In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
+      1. In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
 ![xc5_pp_pro_addpayment.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_addpayment.png)
    
-   2. In the popup box that appears, find the method **PayPal Payments Pro (PayPal API)** and choose to **Add** this method:
+      2. In the popup box that appears, find the method **PayPal Payments Pro (PayPal API)** and choose to **Add** this method:
 ![xc5_pp_pro_paypalapi_add.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_paypalapi_add.png)
 (If this method has already been added previously, choose to **Configure** it.)
 ![xc5_pp_pro_xpconnect.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_xpconnect.png)
