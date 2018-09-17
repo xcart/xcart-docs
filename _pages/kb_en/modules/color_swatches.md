@@ -32,7 +32,9 @@ The module adds a special **Color swatches** section (**Catalog** -> **Color swa
 
 ![swatches-list.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/swatches-list.png)
 
-Initially the swatches list is empty and the store admin should create all swatches from scratch. To create a swatch:
+Initially the swatches list is empty and the store admin should create all swatches from scratch. 
+
+To create a swatch:
 1. Click **Create**. You'll see a new blank line with the fields to be defined.
 2. Add a swatch name in the line
    ![create-swatch.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/create-swatch.png)
@@ -44,7 +46,9 @@ Initially the swatches list is empty and the store admin should create all swatc
    * The color code and the color itself will be added to the swatch
 4. Click **Save changes**
 
-If necessary you can add an image to the color swatch. For this purpose:
+If necessary you can add an image to the color swatch. 
+
+For this purpose:
 1. Click **+** in the image field of a swatch
    ![add-image.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/add-image.png)
 2. Upload an image either from computer or via URL
@@ -66,7 +70,7 @@ That's it, the color swatches option is added for a product and will be displaye
 
 ![cus-color-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-color-swatches.png)
 
-If a product in question has variants, the variants will be renamed to swatches automatically when the color swatches are added to the product attributes:
+If the **Use color swatch name as an attribute option name** option is enabled product variants (if any) will be renamed to swatches automatically when the color swatches are added to the product attributes:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Before color swatches</i>![variants-before-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/variants-before-swatches.png)</div>
