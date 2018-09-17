@@ -14,6 +14,8 @@ The [Color Swatches module](https://market.x-cart.com/addons/color-swatches.html
   <div class="column" markdown="span"><i>With color swatches</i>![cus-color-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-color-swatches.png)</div>
 </div>
 
+## Instaling and Configuring Color Swatches
+
 To install the module follow the guides from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 When installed proceed to the module settings page to configure it:
@@ -54,6 +56,8 @@ For this purpose:
 2. Upload an image either from computer or via URL
 3. **Save changes**
 
+## Adding Color Swatches to Product-Specific Attributes
+
 When all required color swatches are created you can add them to product descriptions. For this purpose find a product you need to modify in the product list (**Catalog** -> **Products**), proceed to the product details page and open the **Attributes** tab:
 
 ![attributes-add-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/attributes-add-swatches.png)
@@ -69,6 +73,8 @@ Check in the **Color swatches** check-box, add color swatches to the product att
 That's it, the color swatches option is added for a product and will be displayed in the storefront instead of the default layout:
 
 ![cus-color-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-color-swatches.png)
+
+## Adding Color Swatches for Product Variants
 
 If the **Use color swatch name as an attribute option name** option is enabled product variants (if any) will be renamed to swatches automatically when the color swatches are added to the product attributes:
 
@@ -87,3 +93,19 @@ If you add images to the product variants the product image displayed to a custo
 </div>
 
 If no images are added to the product variants the product image will stay the same regardless of the product color chosen.
+
+## Adding Color Swatches to Global Attributes
+
+If you want to apply color swatches to all products in your store and you have {% link "global attributes set-up" ref_HzMkgc0q %} for them you can add color swatches to global attributes and they will be applied to all products with global attributes automatically. 
+
+To add color swatches to global atributes:
+1. Locate the attribute you need to add a color swatch to (**Catalog** -> **Classes & attributes**) and click **Edit** or [create a new global attribute](https://kb.x-cart.com/product_classes_and_attributes/managing_global_attributes.html#adding-global-attributes "Color Swatches") 
+2. Toggle on the **Use color swatches** option in the pop-up
+   <div class="ui stackable two column grid">
+    <div class="column" markdown="span">![global-new.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/global-new.png)</div>
+    <div class="column" markdown="span">![global-edit.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/global-edit.png)</div>
+   </div>
+3. Specify the values choosing the appropriate color swatch from a drop-down
+   ![global-add-swatch.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/global-add-swatch.png)
+4. Save the changes
+5. [Assign global apptibutes to products](https://kb.x-cart.com/product_classes_and_attributes/managing_global_attributes.html#assigning-global-attributes-to-products "Color Swatches")
