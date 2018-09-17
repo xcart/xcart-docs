@@ -14,6 +14,8 @@ The [Color Swatches module](https://market.x-cart.com/addons/color-swatches.html
   <div class="column" markdown="span"><i>With color swatches</i>![cus-color-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-color-swatches.png)</div>
 </div>
 
+{% toc %}
+
 ## Instaling and Configuring Color Swatches
 
 To install the module follow the guides from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
