@@ -31,6 +31,7 @@ _In this section:_
 *   {% link "Call for Price Module" ref_3K1pJExV %}
 *   {% link "Canada Post" ref_ifwLo5ks %}
 *   {% link "CloudSearch and CloudFilters" ref_3MF4RL7z %}
+*   {% link "Color Swatches" ref_4bXaF5qJ %}
 *   {% link "Coupons" ref_3iTVKlYe %}
 *   {% link "Custom Product Tabs" ref_2JzbMU2q %}
 *   {% link "Customer Files Uploads &amp; Product Attachments" ref_1tk0fbqz %}
