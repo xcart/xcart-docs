@@ -88,6 +88,7 @@ _In this section:_
 *   {% link "Update inventory" ref_uSIvmuTh %}
 *   {% link "UPS" ref_0uCGd6Bs %}
 *   {% link "U.S.P.S." ref_whrpZnV3 %}
+*   {% link "Variants Table View" ref_7FeW8hHv %}
 *   {% link "Volume Discounts" ref_3JbpQrPF %}
 *   {% link "Wholesale module" ref_ttZa4qgu %}
 *   {% link "Wishlist" ref_60uS71VK %}
