@@ -22,6 +22,8 @@ For information on how to configure product variants in your store, see:
 
 *   [Managing product variants](#managing-product-variants)
 *   [Wholesale prices for product variants](#wholesale-prices-for-product-variants)
+*   {% link "Color Swatches for Product Variants" ref_4bXaF5qJ %}
+*   {% link "Variants Table View" ref_7FeW8hHv %}
 
 ## Video tutorial
 
