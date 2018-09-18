@@ -173,3 +173,5 @@ _Related pages:_
 
 *   {% link "Product classes and attributes" ref_T90ZcEpP %}
 *   {% link "Managing attribute values" ref_bTfJ9bTS %}
+*   {% link "Color Swatches" ref_4bXaF5qJ %}
+*   {% link "Variants Table View" ref_7FeW8hHv %}
