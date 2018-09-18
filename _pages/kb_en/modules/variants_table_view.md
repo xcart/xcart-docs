@@ -40,3 +40,9 @@ That's it! Product variants will now be displayed in table mode:
 ![storefront.png]({{site.baseurl}}/attachments/ref_7FeW8hHv/storefront.png)
 
 Now your customers can select which product variant(s) they want to purchase, enter the quantity of each product, and click the **Add to Cart** button to place all product variants and quantities into their shopping cart at once - without navigating through the product page numerous times to add each variant separately.
+
+{% note info %}
+Table view for product variants can be added for multiple products in bulk via the {% link "product import" ref_WmJBfwxA %} facility. 
+
+Set the 'variantsAsTable' field value for a product to 'Yes' to make variants displayed as table.
+{% endnote %}
