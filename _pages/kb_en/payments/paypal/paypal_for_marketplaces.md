@@ -88,7 +88,9 @@ If necessary, you can adjust the display name of this payment method (the one th
 
 To be able to receive payments through the PayPal for Marketplaces payment automatically, vendors needs to specify their PayPal Business account in the **Financial info** section of their profile (See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}). 
 
-![vendor-paypal-details.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-paypal-details.png)
+![vendor-paypal-detail-1.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-paypal-detail-1.png)
+
+For this purpose they should use the _Connect to PayPal_ link and specify their PayPal Business Merchant ID to get connected. 
 
 If a vendor fails to specify the appropriate PayPal Business account, the money due to them will simply not be transferred to the vendor's account, but will remain in the account of the store administrator. 
 
