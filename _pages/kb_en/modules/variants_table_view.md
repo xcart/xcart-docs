@@ -5,7 +5,7 @@ updated_at: '2018-09-18 10:46 +0400'
 identifier: ref_7FeW8hHv
 title: Variants Table View
 order: 323
-published: false
+published: true
 ---
 The [Variants Table View](https://market.x-cart.com/addons/variants-table-view.html "Variants Table View") module allows to show all possible product variants as a table with quantity specification fields and enables bulk adding to cart of different product variations. 
 
