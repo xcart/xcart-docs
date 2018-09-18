@@ -7,4 +7,36 @@ title: Variants Table View
 order: 323
 published: false
 ---
-Show all possible product variants as a table with quantity specification fields and enable bulk adding to cart of different product variations. Thus your Customers can select which product variant(s) they want to purchase, enter the quantity of each product, and click the "Add to Cart" button to place all product variants and quantities into their shopping cart at once - without navigating through the product page numerous times to add each variant separately.
+The [Variants Table View](https://market.x-cart.com/addons/variants-table-view.html "Variants Table View") module allows to show all possible product variants as a table with quantity specification fields and enables bulk adding to cart of different product variations. Thus your Customers can select which product variant(s) they want to purchase, enter the quantity of each product, and click the "Add to Cart" button to place all product variants and quantities into their shopping cart at once - without navigating through the product page numerous times to add each variant separately.
+
+{% note warning %}
+The extension requires the {% link "Product Variants" ref_4OTLafuC %} module installed and enabled in your store. It does not imply its own functionality of creating and configuring the product variants, it just changes the visual representation of the variants in the storefront.
+{% endnote %}
+
+To install the module follow the giudes from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+
+When installed proceed to the module settings page for configuration:
+
+![installed.png]({{site.baseurl}}/attachments/ref_7FeW8hHv/installed.png)
+
+The Variants Table View module page allows you to choose whether to display _Quantity_, _SKU_, _Image_ and _Weight_ parameters of a product variant in the table:
+
+![settings-page.png]({{site.baseurl}}/attachments/ref_7FeW8hHv/settings-page.png)
+
+**Save** the changes to make them active.
+
+To enable table view for product variants proceed to the product details page of a product in question. 
+
+{% note info %}
+The product should have variants configured already. If it's not, set up product variants as described in {% link "Product Variants" ref_4OTLafuC %}.
+{% endnote %}
+
+Locate the **Display variants as a table** settings in the **Info** tab of the product details page and toggle it on. 
+
+![product-details.png]({{site.baseurl}}/attachments/ref_7FeW8hHv/product-details.png)
+
+That's it! Product variants will now be displayed in table mode:
+
+![storefront.png]({{site.baseurl}}/attachments/ref_7FeW8hHv/storefront.png)
+
+
