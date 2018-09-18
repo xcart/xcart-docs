@@ -7,6 +7,8 @@ title: Promotional Blocks
 order: 100
 published: true
 ---
+Promotional blocks allows to extend the default products presentation in the storefront and engage customers in viewing more products than they initially intended. 
+
 _In this section:_
 
 *   {% link "Adding featured products" ref_4iFdpTdv %}
