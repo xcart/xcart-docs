@@ -7,7 +7,7 @@ title: Variants Table View
 order: 323
 published: false
 ---
-The [Variants Table View](https://market.x-cart.com/addons/variants-table-view.html "Variants Table View") module allows to show all possible product variants as a table with quantity specification fields and enables bulk adding to cart of different product variations. Thus your Customers can select which product variant(s) they want to purchase, enter the quantity of each product, and click the "Add to Cart" button to place all product variants and quantities into their shopping cart at once - without navigating through the product page numerous times to add each variant separately.
+The [Variants Table View](https://market.x-cart.com/addons/variants-table-view.html "Variants Table View") module allows to show all possible product variants as a table with quantity specification fields and enables bulk adding to cart of different product variations. 
 
 {% note warning %}
 The extension requires the {% link "Product Variants" ref_4OTLafuC %} module installed and enabled in your store. It does not imply its own functionality of creating and configuring the product variants, it just changes the visual representation of the variants in the storefront.
@@ -39,4 +39,4 @@ That's it! Product variants will now be displayed in table mode:
 
 ![storefront.png]({{site.baseurl}}/attachments/ref_7FeW8hHv/storefront.png)
 
-
+Now your customers can select which product variant(s) they want to purchase, enter the quantity of each product, and click the **Add to Cart** button to place all product variants and quantities into their shopping cart at once - without navigating through the product page numerous times to add each variant separately.
