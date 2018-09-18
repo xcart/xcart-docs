@@ -507,7 +507,17 @@ There are many more fields which you can include into your product CSV file. Bel
         <br>Multirow&nbsp;
       </td>
     </tr>
-    <tr>
+      <tr>
+      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Variants Table View</strong> module</em>
+      </td>
+      </tr>
+      <tr>
+      <td colspan="1" class="confluenceTd">variantsAsTable</td>
+      <td colspan="1" class="confluenceTd">Display product variants in a <strong>Table</strong> mode.</td>
+      <td colspan="1" class="confluenceTd">Yes/No
+      </td>
+    </tr>
+      <tr>
       <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Wholesale</strong> module</em>
       </td>
     </tr>
