@@ -18,6 +18,8 @@ Most of the general settings that define the way your store looks and functions 
 
 Below you can find some of the settings explained.
 
+{% toc %}
+
 ## Checkout type
 
 This setting is available if your store has the addon **Fast Lane Checkout** installed and enabled. It enables you to specify the type of checkout routine that should be used:
