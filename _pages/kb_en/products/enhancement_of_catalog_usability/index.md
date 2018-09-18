@@ -7,6 +7,8 @@ title: Enhancement of Catalog Usabillity
 order: 1000
 published: true
 ---
+Make your product catalog more attractive so that is starts working for you. Use additional features to enhance the default catalog presentation.
+
 _In this section:_
 
 *   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
