@@ -5,7 +5,7 @@ updated_at: '2018-09-19 11:46 +0400'
 identifier: ref_2FZ36bkz
 title: Product Questions
 order: 222
-published: false
+published: true
 ---
 The [Product Questions module](https://market.x-cart.com/addons/product-questions.html "Product Questions") enables shoppers to ask questions about the store products and get answers from the store staff. Questions and answers appear then together as a tab on the product page.
 
@@ -77,5 +77,3 @@ When used together with {% link "Multivendor" ref_4ahg5FLK %} module e-mails wit
   <div class="column" markdown="span"><i>Vendor area</i>![vendor-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/vendor-question.png)</div>
   <div class="column" markdown="span"><i>Vendor answer in the storefront</i>![cus-vendor-answer.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-vendor-answer.png)</div>
 </div>
-
-
