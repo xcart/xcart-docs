@@ -9,6 +9,10 @@ published: true
 ---
 The [Product Questions module](https://market.x-cart.com/addons/product-questions.html "Product Questions") enables shoppers to ask questions about the store products and get answers from the store staff. Questions and answers appear then together as a tab on the product page.
 
+{% toc %}
+
+## Insatllation and Set-Up
+
 To install the module follow the guidelines from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 When installed proceed to the module settings page to configure the options:
@@ -22,7 +26,9 @@ You can enable the following options on the Product Questions module settings pa
  
  ![settings-page.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/settings-page.png)
 
-That's it! The module is configured. Don't forget to **save** your changes. 
+That's it! The module is configured. Don't forget to **submit** your changes. 
+
+## Customer Experience
 
 Product questions become available to customers as soon as the module is installed. If configured, the non signed in visitors can also ask questions about your products. 
 
@@ -41,6 +47,8 @@ The question itself can be aked in a pop-up that appers after the **Ask question
 If this is a registered customer the name and email fields will be predefined and the customer will have only to type in the question and submit it. If this is a non registered customer all fields will be clean and the visitor will need to fill them in.
 
 The e-mail field is optional. If a user specified an e-mail address when asking a question, the answer is e-mailed to him or her as well as published on the product page. Also when asking a question, a customer can make it a public or a private one. Private questions (and answers to them) are visible only to the users who asked them.
+
+## Admin Experience
 
 The store administrator is notified of new questions by e-mail and new questions posted become available in the **Questions** section in the store admin area (**Catalog** -> **Questions**):
 
@@ -74,12 +82,16 @@ The newly added question will appear in the questions list in the admin area and
   <div class="column" markdown="span"><i>New question in the storefront</i>![cus-question-from-admin.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-question-from-admin.png)</div>
 </div>
 
+## Vendor Experience
+
 When used together with {% link "Multivendor" ref_4ahg5FLK %} module e-mails with questions about a product are sent to the vendor that added the product. In the back-end vendors can answer questions about their products, and the answers show up with the vendor's name.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Vendor area</i>![vendor-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/vendor-question.png)</div>
   <div class="column" markdown="span"><i>Vendor answer in the storefront</i>![cus-vendor-answer.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-vendor-answer.png)</div>
 </div>
+
+## E-mail Notifications
 
 All e-mail notifications sent by the module can be managed by the store administrator in the **Email notifications** section of the admin area (Store setup -> Email notifications) as described in {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}.
 
