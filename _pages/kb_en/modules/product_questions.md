@@ -11,7 +11,7 @@ The [Product Questions module](https://market.x-cart.com/addons/product-question
 
 {% toc %}
 
-## Insatllation and Set-Up
+## Installation and Set-Up
 
 To install the module follow the guidelines from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
