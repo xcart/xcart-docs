@@ -67,6 +67,7 @@ _In this section:_
 *   {% link "Product Feeds" ref_0gfIXwxH %}
 *   {% link "Product Filter Module" ref_6e82A7rL %}
 *   {% link "Product Tags" ref_6nFoxYf1 %}
+*   {% link "Product Questions" ref_2FZ36bkz %}
 *   {% link "Product reviews" ref_XBriIS6B %}
 *   {% link "Product variants" ref_4OTLafuC %}
 *   {% link "Related Products" ref_4a5rpsQq %}
