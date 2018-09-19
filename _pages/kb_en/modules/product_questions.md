@@ -16,12 +16,13 @@ When installed proceed to the module settings page to configure the options:
 ![installed.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/installed.png)
 
 You can enable the following options on the Product Questions module settings page:
- * **Allow quest user to ask product questions** : When enabled Makes questions available for unregistered customers.
- * **Show the administrator full name in replies** : Personalizes admin replies if enabled.
+
+ * **Allow quest user to ask product questions** : When enabled makes questions available for unregistered customers.
+ * **Show the administrator full name in replies** : When enabled personalizes replies from the store staff.
  
  ![settings-page.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/settings-page.png)
 
-That's it! The module is configured. Don't forget to save your changes. 
+That's it! The module is configured. Don't forget to **save** your changes. 
 
 Product questions become available to customers as soon as the module is installed. If configured, the non signed in visitors can also ask questions about your products. 
 
@@ -29,7 +30,7 @@ To ask a question a visitor should follow the _Ask a question_ link on the produ
 
 ![cus-ask-question-link.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-ask-question-link.png)
 
-He'll be forwarded to the **Questions** tab of the product details page where the customer can click the **Ask question** button:
+A customer is forwarded to the **Questions** tab of the product details page where it's necessary to click the **Ask question** button:
 
 ![cus-ask-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-ask-question.png)
 
@@ -58,7 +59,9 @@ Any questions that have not yet been answered are visible only to the people who
 
 ![cus-under-moderation.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-under-moderation.png)
 
+{% note info %}
 To get the product page loaded faster, the **Questions** tab lists only a few recent questions along with a link to show the entire list of them. The module uses the AJAX technique to update product questions without a complete page reload.
+{% endnote %}
 
 To add a new question a store admin should click the **New question** button in the **Questions** section (**Catalog** -> **Questions**), fill in the questionnaire and click **Create**.
 
@@ -77,3 +80,9 @@ When used together with {% link "Multivendor" ref_4ahg5FLK %} module e-mails wit
   <div class="column" markdown="span"><i>Vendor area</i>![vendor-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/vendor-question.png)</div>
   <div class="column" markdown="span"><i>Vendor answer in the storefront</i>![cus-vendor-answer.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-vendor-answer.png)</div>
 </div>
+
+All e-mail notifications sent by the module can be managed by the store administrator in the **Email notifications** section of the admin area (Store setup -> Email notifications) as described in {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}.
+
+![adm-email-notifications.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/adm-email-notifications.png)
+
+By default, both customer and admin notifications are enabled. A store admin can disable e-mail notifications about new questions sent to the admin, but not the notifcations with the answers sent to the customers.
