@@ -25,7 +25,7 @@ _In this section:_
 *   {% link "Back in Stock Notifications Module" ref_1oUpzwSS %}
 *   {% link "Backup Master Module" ref_60LdO1tN %}
 *   {% link "Bestsellers Module" ref_5wAOub4C %}
-*   {% link "Blog system in X-Cart 5" ref_T5FrnC4x %}
+*   {% link "Blog System in X-Cart 5" ref_T5FrnC4x %}
 *   {% link "Block Users by IP / Country / User agent" ref_3rhs1MJ8 %}
 *   {% link "Booking" ref_iTdd1QoP %}
 *   {% link "Call for Price Module" ref_3K1pJExV %}
@@ -42,7 +42,7 @@ _In this section:_
 *   {% link "E-goods" ref_ZszpDfxQ %}
 *   {% link "Facebook eCommerce Module" ref_LA0TBHEA %}
 *   {% link "FedEx" ref_58tOKWMt %}
-*   {% link "File attachments" ref_0ZWKcob4 %}
+*   {% link "File Attachments" ref_0ZWKcob4 %}
 *   {% link "Flyout Categores Menu" ref_6KutUhlR %}
 *   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
 *   {% link "Free Shipping and Shipping freights" ref_4Bfeegp9 %}
@@ -66,12 +66,12 @@ _In this section:_
 *   {% link "Product Advisor" ref_72asis58 %}
 *   {% link "Product Feeds" ref_0gfIXwxH %}
 *   {% link "Product Filter Module" ref_6e82A7rL %}
-*   {% link "Product Tags" ref_6nFoxYf1 %}
 *   {% link "Product Questions" ref_2FZ36bkz %}
-*   {% link "Product reviews" ref_XBriIS6B %}
-*   {% link "Product variants" ref_4OTLafuC %}
+*   {% link "Product Reviews" ref_XBriIS6B %}
+*   {% link "Product Tags" ref_6nFoxYf1 %}
+*   {% link "Product Variants" ref_4OTLafuC %}
 *   {% link "Related Products" ref_4a5rpsQq %}
-*   {% link "RTL languages support" ref_3vEHzhPP %}
+*   {% link "RTL Languages Support" ref_3vEHzhPP %}
 *   {% link "Sale Module" ref_7tBJ8Yqo %}
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 *   {% link "ShippingEasy" ref_HTml5LyW %}
@@ -85,8 +85,8 @@ _In this section:_
 *   {% link "Theme Tweaker and Webmaster Mode" ref_2L6W3YMS %}
 *   {% link "Tree-like Categories Menu" ref_3DV2eqp1 %}
 *   {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}
-*   {% link "Two factor authentication" ref_30a8vM7c %}
-*   {% link "Update inventory" ref_uSIvmuTh %}
+*   {% link "Two Factor Authentication" ref_30a8vM7c %}
+*   {% link "Update Inventory" ref_uSIvmuTh %}
 *   {% link "UPS" ref_0uCGd6Bs %}
 *   {% link "U.S.P.S." ref_whrpZnV3 %}
 *   {% link "Variants Table View" ref_7FeW8hHv %}
@@ -96,5 +96,5 @@ _In this section:_
 *   {% link "XC4 to XC5 Migration wizard" ref_enOvcLbO %}
 *   {% link "X-Cart 5 to WordPress Integration" ref_rJ8hCpkQ %}
 *   {% link "X-Cart eBay Integration" ref_0SnFdXk1 %}
-*   {% link "X-Payments connector" ref_NaZh0d1b %}
-*   {% link "X-Payments subscriptions" ref_8VFoqBFZ %}
+*   {% link "X-Payments Connector" ref_NaZh0d1b %}
+*   {% link "X-Payments Subscriptions" ref_8VFoqBFZ %}
