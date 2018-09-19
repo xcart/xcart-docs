@@ -73,6 +73,9 @@ The newly added question will appear in the questions list in the admin area and
 
 When used together with {% link "Multivendor" ref_4ahg5FLK %} module e-mails with questions about a product are sent to the vendor that added the product. In the back-end vendors can answer questions about their products, and the answers show up with the vendor's name.
 
-
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><i>Vendor area</i>![vendor-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/vendor-question.png)</div>
+  <div class="column" markdown="span"><i>Vendor answer in the storefront</i>![cus-vendor-answer.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-vendor-answer.png)</div>
+</div>
 
 
