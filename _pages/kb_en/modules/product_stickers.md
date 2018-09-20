@@ -19,6 +19,7 @@ The **Product Stickers module configuration settings** are as follows:
 ![settings-page.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/settings-page.png)
 
 * **Display product labels as stickers** : If enabled, default product labels (sale, market price, etc.) will be displayed as stickers.
+  {% note info %}
   <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Sale</i>![adm-sale.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/adm-sale.png)</div>
   <div class="column" markdown="span"><i>Market price</i>![adm-market-price.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/adm-market-price.png)</div>
@@ -27,6 +28,7 @@ The **Product Stickers module configuration settings** are as follows:
   <div class="column" markdown="span">![cus-sale.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/cus-sale.png)</div>
   <div class="column" markdown="span">![cus-market-price.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/cus-market-price.png)</div>
   </div>
+  {% endnote %}
 * **Allow vendors to edit product stickers** : If enabled, vendors can create, edit and assign product stickers to the products they own. Applies to X-Cart Multivendor and Ultimate editions only.
 
 **Submit** the settings to make them active.
