@@ -22,7 +22,7 @@ The **Product Stickers module configuration settings** are as follows:
   <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Sale</i>![adm-sale.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/adm-sale.png)</div>
   <div class="column" markdown="span"><i>Market price</i>![adm-market-price.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/adm-market-price.png)</div>
-</div>
+  </div>
   <div class="ui stackable two column grid">
   <div class="column" markdown="span">![cus-sale.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/cus-sale.png)</div>
   <div class="column" markdown="span">![cus-market-price.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/cus-market-price.png)</div>
