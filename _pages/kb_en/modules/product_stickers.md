@@ -5,7 +5,7 @@ updated_at: '2018-09-20 09:10 +0400'
 identifier: ref_2O2hXMhF
 title: Product Stickers
 order: 223
-published: false
+published: true
 ---
 The [Product Stickers module](https://market.x-cart.com/addons/product-stickers.html "Product Stickers") allows to label any products in your store with custom stickers to deliver special information to your store visitors. 
 
@@ -63,8 +63,3 @@ That's it! A product sticker is assighed to the product and will be displayed in
   <div class="column" markdown="span">![product-details-3.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/product-details-3.png)</div>
   <div class="column" markdown="span">![cus-stickers.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/cus-stickers.png)</div>
 </div>
-
-
-
-
-
