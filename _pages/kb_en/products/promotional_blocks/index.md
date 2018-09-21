@@ -20,3 +20,4 @@ _In this section:_
 *   {% link "Product Reviews" ref_5Cs8QXil %}
 *   {% link "Product Tags" ref_6nFoxYf1 %}
 *   {% link "Products Carousel" ref_4yBBezmL %}
+*   {% link "Product Stickers" ref_2O2hXMhF %}
