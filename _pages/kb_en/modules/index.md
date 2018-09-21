@@ -64,6 +64,7 @@ _In this section:_
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
 *   {% link "PIN Codes Module" ref_2ioJzfJL %}
 *   {% link "Product Advisor" ref_72asis58 %}
+*   {% link "Products Carousel" ref_4yBBezmL %}
 *   {% link "Product Feeds" ref_0gfIXwxH %}
 *   {% link "Product Filter Module" ref_6e82A7rL %}
 *   {% link "Product Questions" ref_2FZ36bkz %}
