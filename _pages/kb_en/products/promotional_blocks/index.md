@@ -7,7 +7,15 @@ title: Promotional Blocks
 order: 100
 published: true
 ---
-Promotional blocks allows to extend the default products presentation in the storefront and engage customers in viewing more products than they initially intended. 
+Promotional blocks and elements allow to extend the default products presentation in the storefront and engage customers in viewing more products than they initially intended. 
+
+Using informative _New Arrivals_, _Comming Soon_, _Bestsellers_ or _Recently Viewed_ blocks helps customers to learn and navigate through your store stock better and if products in such blocks are marked with stickers they will gain special customers' attention for sure.
+
+The featured and related products blocks attract customers to the items that may supplement the products they've added to cart so far. 
+
+_Product Tags_ block helps to search for products quicker and easier and _Product Reviews_ allow to share experience and build a strong customer community.
+
+For more convenience change the default blocks display to product carousel. 
 
 _In this section:_
 
