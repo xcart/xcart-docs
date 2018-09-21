@@ -19,3 +19,4 @@ _In this section:_
 *   {% link "Enabling the Bestsellers block" ref_p1CIVmy6 %}
 *   {% link "Product Reviews" ref_5Cs8QXil %}
 *   {% link "Product Tags" ref_6nFoxYf1 %}
+*   {% link "Products Carousel" ref_4yBBezmL %}
