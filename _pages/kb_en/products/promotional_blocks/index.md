@@ -13,7 +13,7 @@ Using informative _New Arrivals_, _Comming Soon_, _Bestsellers_ or _Recently Vie
 
 The featured and related products blocks attract customers to the items that may supplement the products they've added to cart so far. 
 
-_Product Tags_ block helps to search for products quicker and easier and _Product Reviews_ allow to share experience and build a strong customer community.
+_Product Tags_ block helps to search for products quicker and easier while _product reviews_ and _questions_ allow to share experience and give more product insignt to build a strong customer community.
 
 For more convenience change the default blocks display to product carousel. 
 
@@ -28,4 +28,5 @@ _In this section:_
 *   {% link "Product Reviews" ref_5Cs8QXil %}
 *   {% link "Product Tags" ref_6nFoxYf1 %}
 *   {% link "Products Carousel" ref_4yBBezmL %}
+*   {% link "Product Questions" ref_2FZ36bkz %}
 *   {% link "Product Stickers" ref_2O2hXMhF %}
