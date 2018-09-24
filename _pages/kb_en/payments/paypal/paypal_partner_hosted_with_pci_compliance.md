@@ -11,7 +11,7 @@ PayPal Partner Hosted with PCI Compliance can be enabled in an X-Cart based stor
 
 Here's how to enable and set up PayPal Partner Hosted with PCI Compliance:
 
-   1. In the X-Cart Admin area, choose to add PayPal Partner Hosted with PCI Compliance to the list of your store's active payment methods: 
+   1. In X-Cart, choose to add PayPal Partner Hosted with PCI Compliance to the list of your store's active payment methods: 
    
       1. In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
          
