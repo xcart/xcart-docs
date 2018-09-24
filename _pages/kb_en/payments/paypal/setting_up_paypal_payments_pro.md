@@ -31,22 +31,24 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
 
    4. In a new browser tab or widow, log in to X-Payments, open your X-Payments dashboard and provide X-Payments with data required to connect to your X-Cart store and to the chosen payment gateway:
    
-      1. If you are using a Multistore version of X-Payments, go to the 'Online Stores' page (**Settings** -> **Online stores**) and [add your X-Cart store to X-Payments](https://www.x-payments.com/help/X-Payments:Managing_store_connections "Setting up PayPal Payments Pro"). 
+      1. If using a multistore version of X-Payments, go to the 'Online Stores' page (**Settings** -> **Online stores**) and [add your X-Cart store to X-Payments](https://www.x-payments.com/help/X-Payments:Managing_store_connections "Setting up PayPal Payments Pro"). If using a single store version, start with Step 2.
       
-      2. Go to the 'Payment Configurations' page (**Settings** -> **Payment configurations**) and add a new payment configuration selecting the PayPal Payments Pro integration of the same name as has been selected in X-Cart (in our case, "PayPal Payments Pro (Payflow API)").
+      2. If you haven't yet done so, configure the details of your X-Cart store in X-Payments (**Settings** -> **Online store**) by specifying a store name, a store title, an order prefix and a template.
+      
+      3. Go to the 'Payment Configurations' page (**Settings** -> **Payment configurations**) and add a new payment configuration selecting the PayPal Payments Pro integration of the same name as has been selected in X-Cart (in our case, "PayPal Payments Pro (Payflow API)").
         ![xc5_pp_pro_payflowapi_paymentconf_inxp.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_payflowapi_paymentconf_inxp.png)
          
          As a result, a page like the following opens:
         ![paypal_pro_payflowapi_confsettings.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/paypal_pro_payflowapi_confsettings.png)
         
-      3.  Use this page to specify the required configuration parameters as per the following instructions:
+      4.  Use this page to specify the required configuration parameters as per the following instructions:
       
          * Instructions for [PayPal Payments Pro (Payflow API)](https://www.x-payments.com/help/X-Payments:Configuring_PayPal_payment_modules_in_X-Payments#Configuring_PayPal_Payments_Pro_.28Payflow_API.29_configuration_settings "Setting up PayPal Payments Pro") 
          * Instructions for [PayPal Payments Pro (PayPal API)](https://www.x-payments.com/help/X-Payments:Configuring_PayPal_payment_modules_in_X-Payments#PayPal_Payments_Pro_.28PayPal_API.29_configuration_settings "Setting up PayPal Payments Pro") 
          
-      4.  Save the payment configuration by clicking **Save**.
+      5.  Save the payment configuration by clicking **Save**.
       
-      5.  Make sure the payment configuration you have created is enabled.
+      6. Make sure the payment configuration you have created is enabled (active).
         
 
 
