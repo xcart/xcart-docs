@@ -9,7 +9,7 @@ published: false
 ---
 PayPal Payments Pro (also known as Website Payments Pro outside the U.S.) is a fully customizable payments system that enables you to accept all major credit and debit cards, PayPal and PayPal Credit. 
 
-X-Cart 5 does not provide a direct integration for PayPal Payments Pro, but PayPal Payments Pro can be enabled in an X-Cart based online store via X-Payments, a platform by a PCI DSS Level 1 certified service provider. 
+X-Cart 5 does not provide a direct integration for PayPal Payments Pro, but PayPal Payments Pro can be enabled in an X-Cart based online store via [X-Payments](https://www.x-payments.com/ "Setting up PayPal Payments Pro (PayPal API)"), a platform by a PCI DSS Level 1 certified service provider. X-Payments pricing information and a list of available plans/packages can be found on the [Pricing](https://www.x-payments.com/pricing.html "Setting up PayPal Payments Pro (PayPal API)") page of the X-Payments website. Note that to connect your X-Cart based online store to X-Payments, you will need to use the X-Cart addon "[X-Payments connector](https://market.x-cart.com/addons/xpayments-connector.html "Setting up PayPal Payments Pro (PayPal API)")". Instructions for connecting X-Cart to X-Payments can be found in the {% link "X-Payments connector manual" ref_NaZh0d1b %}.
 
 Depending on the type of API to which your PayPal Payments Pro account has been given access, you will be able to use one of the following X-Payments payment method integrations:
 
