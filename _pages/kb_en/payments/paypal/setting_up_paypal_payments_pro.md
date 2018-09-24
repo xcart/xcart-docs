@@ -35,10 +35,5 @@ Instructions for setting up PayPal Payments Pro are available here:
 {% link "Setting up PayPal Payments Pro (PayPal API)" %}
 
 
-Here's how to set up PayPal Payments Pro (PayPal API) in an X-Cart 5 based store:
-
-   1. In X-Cart, choose to add PayPal Payments Pro (PayPal API) to the list of your store's active payment methods: 
-            You will be redirected to the "X-Payments connector" module settings page:
-         ![xc5_pp_pro_xpconnect.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_xpconnect.png)
 
    
