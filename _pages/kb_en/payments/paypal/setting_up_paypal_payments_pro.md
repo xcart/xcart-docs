@@ -40,13 +40,10 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
         ![paypal_pro_payflowapi_confsettings.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/paypal_pro_payflowapi_confsettings.png)
         
       3.  Use this page to specify the required configuration parameters as per the following instructions:
+      
          * Instructions for [PayPal Payments Pro (Payflow API)](https://www.x-payments.com/help/X-Payments:Configuring_PayPal_payment_modules_in_X-Payments#Configuring_PayPal_Payments_Pro_.28Payflow_API.29_configuration_settings "Setting up PayPal Payments Pro") 
          * Instructions for [PayPal Payments Pro (PayPal API)](https://www.x-payments.com/help/X-Payments:Configuring_PayPal_payment_modules_in_X-Payments#PayPal_Payments_Pro_.28PayPal_API.29_configuration_settings "Setting up PayPal Payments Pro") 
          
-          
-          
-          
-        
       3.  Save the payment configuration by clicking **Save**.
       
       4.  Make sure the payment configuration you have created is enabled.
