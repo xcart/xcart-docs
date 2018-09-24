@@ -11,7 +11,7 @@ To configure the connection with your X-Cart 5 store in the X-Payments back end,
 
 1.  Log in to X-Payments as administrator.
 
-2.  Provide your X-Payments application with data required to connect to your chosen payment gateway:
+2.  Provide X-Payments with data required to connect to your chosen payment gateway:
     1.  In the X-Payments back end, go to the 'Payment Configurations' page (**Settings** -> **Payment configurations**):
         ![]({{site.baseurl}}/attachments/8750414/8719141.png)
     2.  From the **New configuration** drop-down box, select the payment module that X-Payments should use to connect to the payment gateway that will process your X-Cart 5 store payment transactions.
@@ -26,7 +26,7 @@ To configure the connection with your X-Cart 5 store in the X-Payments back end,
     6.  Make sure the payment configuration you have created is enabled.
         ![]({{site.baseurl}}/attachments/8750414/8719177.png)
 
-3.  Provide your X-Payments application with data required to connect to your X-Cart 5 store:
+3.  Provide X-Payments with data required to connect to your X-Cart 5 store:
     1.  In the X-Payments back end, go to the 'Online Stores' page (**Settings** -> **Online stores**).
         ![]({{site.baseurl}}/attachments/8750414/8719162.png)
     2.  Click **Add new store**.
