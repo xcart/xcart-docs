@@ -5,7 +5,7 @@ updated_at: '2018-09-24 13:03 +0400'
 identifier: ref_66scBj0f
 title: Market Price
 order: 166
-published: false
+published: true
 ---
 The [Market Price](https://market.x-cart.com/addons/market-price.html "Market Price") module allows setting a market product price, which shows the difference between the price offered in your store and the average price of the same product on the market. 
 
