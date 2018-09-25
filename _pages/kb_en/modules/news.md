@@ -5,7 +5,7 @@ updated_at: '2018-09-25 10:54 +0400'
 identifier: ref_0UBPXGXi
 title: News
 order: 184
-published: false
+published: true
 ---
 The [News module](https://market.x-cart.com/addons/news-module.html "News") enables you to share the company and products news and updates with your community.
 
