@@ -83,7 +83,7 @@ _Prices & Inventory_
 
 *   **Price**: The product base price.
 
-*   **Market price**: This field is enabled by the [Market Price](https://market.x-cart.com/addons/market-price.html "Adding products") addon. It can be used to set a market product price showing the difference between the product price offered in your store and the average price of this product on the market. The market price is meant to show a customer how advantageous it is to order the product from your store. The market price is displayed next to the regular one on the product details page and in the product listing within a category. A sign showing the discount produced by the price difference is shown next to it to draw the attention of your site visitors.
+*   **Market price**: This field is enabled by the {% link "Market Price" ref_66scBj0f %}. It can be used to set a market product price showing the difference between the product price offered in your store and the average price of this product on the market. 
 
 *   **Sale**: This field is enabled by the {% link "Sale" ref_7tBJ8Yqo %} addon. Use it to put the product on sale. After enabling the "Sale" option you will be able to specify either a sale price for the product (expressed in the store currency) or a discount (expressed as a percentage off the product base price).
 
