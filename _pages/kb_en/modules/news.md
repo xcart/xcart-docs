@@ -15,7 +15,7 @@ When installed proceed to the module settings page to configure it:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/installed.png)
 
-The News module settings page allow you to define the number of news messages in the **Top news** block on a storefont page and the number of news messages per page on the **News page** in the storefront:
+The "News" module settings page allow you to define the number of news messages in the **Top news** block on a storefont page and the number of news messages per page on the **News page** in the storefront:
 
 ![settings-page.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/settings-page.png)
 
