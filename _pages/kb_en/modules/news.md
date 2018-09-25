@@ -25,5 +25,21 @@ News messages are a great way to build a community around your products and noti
 
 ![content-news.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/content-news.png)
 
-A new "Create news message" page will be opened. Set the date and fill in the required fields:
+A new "Create news message" page will be opened. 
+
 ![create-news.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/create-news.png)
+
+Set the date, fill in the required fields and click **"Create"**. The news message will be added to the news list:
+
+![news-added.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/news-added.png)
+
+If necessary you can enable/disable, edit or even delete news later on.
+
+![edit-news.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/edit-news.png)
+
+All enabled news will be displayed in the storefront in a special **News** block on category listing pages and on the News page:
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><i>Category listing page</i>![cus-categories-page.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/cus-categories-page.png)</div>
+  <div class="column" markdown="span"><i>News page</i>![cus-news-page.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/cus-news-page.png)</div>
+</div>
