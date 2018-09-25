@@ -29,7 +29,9 @@ A new "Create news message" page will be opened.
 
 ![create-news.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/create-news.png)
 
-Set the date, fill in the required fields and click **"Create"**. The news message will be added to the news list:
+Set the date, fill in the required fields and click **"Create"**. The WYSIWYG editor allows to format the news text, add images and videos, insert html code if required.
+
+The news message will be added to the news list:
 
 ![news-added.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/news-added.png)
 
