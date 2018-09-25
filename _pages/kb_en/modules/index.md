@@ -55,6 +55,7 @@ _In this section:_
 *   {% link "Loyalty Program" ref_1Odyn6mT %}
 *   {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
 *   {% link "Make/Model/Year Module" ref_0Esu2RNW %}
+*   {% link "Market Price" ref_66scBj0f %}
 *   {% link "Multicurrency Module" ref_2tPJubPU %}
 *   {% link "Multilevel Primary Menu" ref_3yEqhwsC %}
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
