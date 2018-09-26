@@ -21,7 +21,7 @@ The "News" module settings page allow you to define the number of news messages 
 
 **Submit** the settings to make them active.
 
-News messages are a great way to build a community around your products and notify clients about recent updates. To add news on the site proceed to the **News** section in the admin area (**Content** -> **News**) abd click **Create**:
+News messages are a great way to build a community around your products and notify clients about recent updates. To add news on the site proceed to the **News** section in the admin area (**Content** -> **News**) and click **Create**:
 
 ![content-news.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/content-news.png)
 
@@ -29,17 +29,19 @@ A new "Create news message" page will be opened.
 
 ![create-news.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/create-news.png)
 
-Set the date, fill in the required fields and click **"Create"**. The WYSIWYG editor allows to format the news text, add images and videos, insert html code if required.
+Set the date, fill in the required fields and click **"Create"**. The WYSIWYG editor allows to format the content text, add images and videos, insert html code if required. 
+
+The content text is displayed in full on the **News page** in the storefront. Brief description is shown in the **News block** on all the storefront pages it's {% link "enabled at" ref_1xoeCJwy %}. 
 
 The news message will be added to the news list:
 
 ![news-added.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/news-added.png)
 
-If necessary you can enable/disable, edit or even delete news later on.
+If necessary you can enable/disable, edit or even delete news from the list later on.
 
 ![edit-news.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/edit-news.png)
 
-All enabled news will be displayed in the storefront in a special **News** block on category listing pages and on the News page:
+All enabled news will be displayed in the storefront in a special **News block** on every page the block is enabled at and on the **News page**:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Category listing page</i>![cus-categories-page.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/cus-categories-page.png)</div>
