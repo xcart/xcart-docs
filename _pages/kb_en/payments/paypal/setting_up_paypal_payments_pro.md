@@ -28,8 +28,11 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
        
       You will be redirected to the "X-Payments connector" module settings page. If you haven't connected your X-Cart store to X-Payments previously, you will see a page like the following:
       ![xc5_pp_pro_xpconnect.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_xpconnect.png)
+      
       If you have already connected your X-Cart store to X-Payments, the page will look similar to this:
       ![xc5_pp_pro_xpconnect0.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_xpconnect0.png)
+      
+      For now, just leave this page as is and proceed on to the next step to configure the connection on the X-Payments end.
 
    4. In a new browser tab or widow, log in to X-Payments, open your X-Payments dashboard and provide X-Payments with data required to connect to your X-Cart store and to the chosen payment gateway:
    
