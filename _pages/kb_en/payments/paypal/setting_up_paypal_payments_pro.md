@@ -70,7 +70,7 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
       3. Paste the configuration bundle from clipboard into the appropriate field on the connection settings and click **Deploy**.
         ![xc5_pp_pro_deploy.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_deploy.png)
         
-        The module will take a few moments to deploy the configuration. Once the process is complete, you will see a success message at the top of the page. You will also notice that the PayPal Payments Pro method has been imported into the X-Cart store from X-Payments:
+        The module will take a few moments to deploy the configuration. Once the process is complete, you will see a success message at the top of the page. You will also notice that the PayPal Payments Pro method (renamed in our case to "Debit or Credit card") has been imported into the X-Cart store from X-Payments:
         ![xc5_pp_pro_deployed0.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_deployed0.png)
 
 
