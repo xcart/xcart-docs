@@ -72,7 +72,15 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
         
         The module will take a few moments to deploy the configuration. Once the process is complete, you will see a success message at the top of the page. You will also notice that the PayPal Payments Pro method (renamed in our case to "Debit or Credit card") has been imported into the X-Cart store from X-Payments:
         ![xc5_pp_pro_deployed0.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_deployed0.png)
+        
+        Note that this method is already active:
+        ![xc5_pp_pro_method_active.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_method_active.png)
 
+        If you wish to use this method for PCI compliant payments with saved credit cards, enable the "Save cards" feature for this method:
+        ![xc5_pp_pro_savecards.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_savecards.png)
+
+        Also be sure to complete the _Save credit card setup_ on the X-Payments connector settings page:
+        
 
 
       
