@@ -82,6 +82,8 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
         Also be sure to complete the _Save credit card setup_ on the X-Payments connector settings page:
         ![xc5_pp_pro_saveccsetup.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_saveccsetup.png)
         ![xc5_pp_pro_saveccsetup0.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_saveccsetup0.png)
+        
+ That's all; now you can accept payments via PayPal Payments Pro.
 
 
 
