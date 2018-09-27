@@ -68,6 +68,8 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
 
       3. Paste the configuration bundle from clipboard into the appropriate field on the connection settings and click **Deploy**.
         ![xc5_pp_pro_deploy.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_deploy.png)
+        
+        The module will take a few moments to deploy the configuration. Once the process has been completed, you will see a success message at the top of the page. 
 
       
 
