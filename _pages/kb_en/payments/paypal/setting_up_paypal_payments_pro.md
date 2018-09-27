@@ -39,7 +39,8 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
       1. If using a multistore version of X-Payments, go to the 'Online Stores' page (**Settings** -> **Online stores**) and [add your X-Cart store to X-Payments](https://www.x-payments.com/help/X-Payments:Managing_store_connections "Setting up PayPal Payments Pro"); make sure the store you have added is enabled (active). If using a single store version, start with Step 2.
       
       2. If you haven't yet done so, configure the details of your X-Cart store in X-Payments (**Settings** -> **Online store**) by specifying a store name, a store title, an order prefix and a template.
-      
+        ![xc5_pp_pro_onlinestore.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_onlinestore.png)
+
       3. Go to the 'Payment Configurations' page (**Settings** -> **Payment configurations**) and add a new payment configuration selecting the PayPal Payments Pro integration of the same name as has been selected in X-Cart (in our case, "PayPal Payments Pro (Payflow API)").
         ![xc5_pp_pro_payflowapi_paymentconf_inxp.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_payflowapi_paymentconf_inxp.png)
          
