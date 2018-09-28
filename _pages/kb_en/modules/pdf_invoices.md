@@ -5,7 +5,7 @@ updated_at: '2018-09-27 11:00 +0400'
 identifier: ref_4pIx0x0g
 title: PDF Invoices
 order: 196
-published: false
+published: true
 ---
 The [PDF Invoices module](https://market.x-cart.com/addons/PDF-Invoice.html "PDF Invoices") allows to issue invoices in .pdf format and attach such invoices to messages.
 
