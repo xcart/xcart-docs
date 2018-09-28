@@ -11,7 +11,7 @@ order: 300
 ---
 An X-Cart 5 online store can be configured to accept payments with PayPal. Depending on the type of PayPal solution you require, you will need to use one of the following solutions: 
 
-* **PayPal** addon for X-Cart by X-Cart team. This solution can be used to enable payments via:
+* **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal")** addon for X-Cart by X-Cart team. This solution can be used to enable payments via:
 
    *   {% link "PayPal Express Checkout" ref_vHffMFLk %}
    *   {% link "PayPal Payments Standard" ref_DT2EX6fz %}
@@ -22,7 +22,7 @@ An X-Cart 5 online store can be configured to accept payments with PayPal. Depen
    *   PayPal Partner Hosted with PCI Compliance
    *   PayPal Credit
 
-* **X-Payments** (a payments platform by a PCI Level 1 certified service provider; X-Cart addon **X-Payments connector** is required to connect). This solution can be used to enable payments via:
+* **[X-Payments](https://www.x-payments.com/ "PayPal")** (a payments platform by a PCI Level 1 certified service provider; X-Cart addon **X-Payments connector** is required to connect). This solution can be used to enable payments via:
 
    *   {% link "PayPal Payments Pro" ref_6k1NvzJp %} (Payflow API / PayPal API)
    *   PayPal Payflow Pro
