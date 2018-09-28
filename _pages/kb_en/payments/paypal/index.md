@@ -9,31 +9,27 @@ categories:
 published: true
 order: 300
 ---
-To accept payments in an X-Cart based store using PayPal, use the module **PayPal** by X-Cart team.
-    ![xc5_paypal_module.png]({{site.baseurl}}/attachments/ref_g8OosGK4/xc5_paypal_module.png)
+An X-Cart 5 online store can be configured to accept payments with PayPal. Depending on the type of PayPal solution you require, you will need to use one of the following solutions: 
 
-This module can be used to enable payments via the following methods:
+* **PayPal** addon for X-Cart by X-Cart team. This solution can be used to enable payments via:
 
-*   {% link "PayPal Express Checkout" ref_vHffMFLk %}
-*   PayPal Credit
-*   {% link "PayPal Payments Standard" ref_DT2EX6fz %}
-*   {% link "PayPal Payments Advanced" ref_sO5X6iBT %}
-*   PayPal Payments Pro (PayPal API)
-*   PayPal Payments Pro (Payflow API)
-*   {% link "PayPal Payflow Link" ref_mTCkpViN %}
-*   PayPal Partner Hosted with PCI Compliance
-*   {% link "PayPal Adaptive payments" ref_FdXWLwVN %}
-*   {% link "PayPal for Marketplaces" ref_6iphJijP %}
+   *   {% link "PayPal Express Checkout" ref_vHffMFLk %}
+   *   {% link "PayPal Payments Standard" ref_DT2EX6fz %}
+   *   {% link "PayPal Payments Advanced" ref_sO5X6iBT %}
+   *   {% link "PayPal Payflow Link" ref_mTCkpViN %}
+   *   {% link "PayPal for Marketplaces" ref_6iphJijP %} (supports multiple payment recipients; is recommended for X-Cart Multivendor PayPal Adaptive Payments)
+   *   {% link "PayPal Adaptive payments" ref_FdXWLwVN %} (legacy)
+   *   PayPal Partner Hosted with PCI Compliance
+   *   PayPal Credit
 
-_In this section:_
+* **X-Payments** (a payments platform by a PCI Level 1 certified service provider; X-Cart addon **X-Payments connector** is required to connect). This solution can be used to enable payments via:
 
-*   {% link "Setting up Paypal Express Checkout" ref_vHffMFLk %}
-*   {% link "Setting up Paypal Payments Standard" ref_DT2EX6fz %}
-*   {% link "Setting up Paypal Payments Advanced" ref_sO5X6iBT %}
-*   {% link "Setting up Paypal Payflow Link" ref_mTCkpViN %}
-*   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}
-*   {% link "PayPal for Marketplaces" ref_6iphJijP %}
-*   {% link "Setting up a test account" ref_P9Imto9y %}
-*   {% link "Setting up PayPal IPN URL" ref_2rlawgsT %}
-*   {% link "Enabling the Secure Token setting" ref_rPvvhtm9 %}
-*   {% link "Creating your custom PayPal payment page" ref_PA8He4Vs %}
+   *   {% link "PayPal Payments Pro" ref_6k1NvzJp %} (Payflow API / PayPal API)
+   *   PayPal Payflow Pro
+
+* **[PayPal Here](https://market.x-cart.com/addons/PayPal-Here-payment-module.html "PayPal")** addon for X-Cart by Qualiteam. This addon and a mobile device with the PayPal Here application installed are required to use the PayPal Here solution by PayPal. For better interaction we also recommend to install the [Mobile Admin](https://www.x-cart.com/extensions/addons/mobile-admin.html "PayPal") extension.
+
+
+_See also:_
+
+*   {% link "Braintree" ref_3U96LOWn %}
