@@ -21,7 +21,7 @@ Complete the following steps:
     ![]({{site.baseurl}}/attachments/8750414/8719164.png)
 5.  Now it is time to use the configuration bundle you have copied from your X-Cart 5 store's details page in the X-Payments admin back end. Paste the configuration bundle into the appropriate field on the "X-Payments connector" module settings page in X-Cart and click **Deploy**:
     ![]({{site.baseurl}}/attachments/8750414/8719166.png)
-    The module will take a few moments to deploy the configuration. Once the process is completed, you will should a success message saying something like "Test transaction has been completed successfully for API version X. Payment methods have been imported successfully. Configuration has been successfully deployed."
+    The module will take a few moments to deploy the configuration. Once the process is complete, you will see a success message at the top of the screen saying "Test transaction has been completed successfully for API version X. Payment methods have been imported successfully. Configuration has been successfully deployed."
 
     So, now your X-Payments installation is connected to your X-Cart store. 
 
