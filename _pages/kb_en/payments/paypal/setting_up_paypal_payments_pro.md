@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-09-14 14:44 +0400'
 identifier: ref_6k1NvzJp
 title: 'Setting up PayPal Payments Pro '
-order: 100
+order: 290
 published: true
 ---
 PayPal Payments Pro (also known as Website Payments Pro outside the U.S.) is a fully customizable payments system that enables you to accept all major credit and debit cards, PayPal and PayPal Credit. 
