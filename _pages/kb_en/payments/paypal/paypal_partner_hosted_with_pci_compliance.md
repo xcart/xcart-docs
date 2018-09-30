@@ -40,3 +40,8 @@ Here's how to start accepting payments with PayPal Partner Hosted with PCI Compl
       * Order id prefix: A prefix that will help you to identify a payment transaction as originating from this X-Cart store.
    
    5. Click **Save changes** at the bottom of the page to save your configuration settings.
+   
+   6. You can control the status of your **PayPal Partner Hosted with PCI Compliance** method via the Payment methods page (**Store setup > Payment methods**). Make sure the payment method is active:
+   ![xc5_ph_active.png]({{site.baseurl}}/attachments/ref_0gaUolue/xc5_ph_active.png)
+      
+   
