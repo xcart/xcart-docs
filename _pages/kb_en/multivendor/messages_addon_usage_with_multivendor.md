@@ -31,6 +31,7 @@ Unlike communication threads about specific orders, threads non-related to order
 The store administrator can view and manage the communication treads of the "conversation" type in a way similar to order related threads:
 ![mv_msg_vendor_conversation_in_admin1.png]({{site.baseurl}}/attachments/ref_4Ox4FPDB/mv_msg_vendor_conversation_in_admin1.png)
 
+_Related pages:_
 
-
-
+   * {% link "Messages" ref_0pnZpHq3 %}
+   * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
