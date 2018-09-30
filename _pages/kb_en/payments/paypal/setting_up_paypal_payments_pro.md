@@ -78,6 +78,8 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
         
         That's all; now you can accept payments via PayPal Payments Pro.
         
+        Note that should you need to change any settings for your PayPal Payments Pro method, you will need to do that on the X-Payments end (not in your X-Cart store) and then re-import the method into X-Cart.
+        
         You can control the status (active/inactive) of your PayPal Payments Pro method right on the "X-Payments connector" module settings page (shown on the screenshot above) or via the Payment methods page (**Store setup > Payment methods**):
         ![xc5_pp_pro_promethod_active.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_promethod_active.png)
         
@@ -91,4 +93,3 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
         You will be able to control the status of your method for payments with saved credit cards (active/inactive) via the  Payment methods page (**Store setup > Payment methods**); see the **Use a saved credit card** method:
         ![xc5_pp_pro_savedcard_methodactive.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_savedcard_methodactive.png)
 
-Note that should you need to change any settings for your PayPal Payments Pro method, you will need to do that on the X-Payments end (not in your X-Cart store) and then re-import the method into X-Cart.
