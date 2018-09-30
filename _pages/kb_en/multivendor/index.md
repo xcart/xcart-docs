@@ -31,3 +31,7 @@ _In this section:_
    * Messages addon: Usage with Multivendor (Article under construction)
    * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}
    * {% link "TaxJar Sales Tax Automation: Usage with Multivendor" ref_4ne38ZTm %}
+
+_Related pages:_
+   
+   * {% link "PayPal for Marketplaces" ref_6iphJijP %}
