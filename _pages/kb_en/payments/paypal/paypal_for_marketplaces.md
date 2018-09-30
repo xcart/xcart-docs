@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-08-09 15:05 +0400'
 identifier: ref_6iphJijP
 title: PayPal for Marketplaces
-order: 270
+order: 260
 published: true
 ---
 [PayPal for Marketplaces](https://market.x-cart.com/addons/paypal-for-marketplaces.html "PayPal for Marketplaces") is a comprehensive payments solution for marketplaces, crowdfunding platforms, and other environments where people buy and sell goods and services or raise money. PayPal for Marketplaces payment solution can be used at X-Cart Multivendor and Ultimate platforms only.
