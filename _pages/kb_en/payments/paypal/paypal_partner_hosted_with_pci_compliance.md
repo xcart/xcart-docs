@@ -20,4 +20,4 @@ Here's how to start accepting payments with PayPal Partner Hosted with PCI Compl
                   
       (If this method has already been added previously, choose **Settings**.)
         
-      The PayPal Partner Hosted with PCI Compliance settings page opens. 
+   4. Once the payment method has been added, configure its settings:
