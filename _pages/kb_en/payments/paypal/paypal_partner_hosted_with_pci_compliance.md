@@ -39,4 +39,4 @@ Here's how to start accepting payments with PayPal Partner Hosted with PCI Compl
       * Test/Live mode: PayPal operating mode. ('Live' should be selected for live stores, 'Test' - for testing.)
       * Order id prefix: A prefix that will help you to identify a payment transaction as originating from this X-Cart store.
    
-   5. Click **Save** to save your configuration settings.
+   5. Click **Save changes** at the bottom of the page to save your configuration settings.
