@@ -7,7 +7,7 @@ title: Setting up a PayPal test account
 categories:
   - User manual
 published: true
-order: 180
+order: 300
 ---
 
 
