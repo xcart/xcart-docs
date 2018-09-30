@@ -7,7 +7,7 @@ title: Setting up PayPal IPN URL
 categories:
   - User manual
 published: true
-order: 220
+order: 350
 ---
 
 ## Steps to complete
