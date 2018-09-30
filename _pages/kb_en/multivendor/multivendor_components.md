@@ -30,6 +30,9 @@ Here's a brief overview of the addons typically used to build a Multivendor stor
    * **[Messages](https://market.x-cart.com/addons/order-messages.html)**: This addon is not just for Multivendor; it can be used on single-seller X-Cart editions just as well. We are listing it here because it provides some Multivendor-specific features when used with the X-Cart Multivendor edition. This addon enhances the communication system in your store by providing an opportunity for the customers, the store administrator and the vendors to start a conversation or dispute about an order right from the Order details page. A well-thought-out notification system ensures that no message will be left unread. In Multivendor, the addon also allows store visitors to start messaging with the sellers before they make a purchase; they can initiate a conversation right on the sellers' pages on the storefront. 
      ![msgs_module_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/msgs_module_installed.png)
      
+   * **[Custom Product Tabs](https://market.x-cart.com/addons/custom-product-tabs.html)**: Another addon not just for Multivendor. Enables additional custom product tabs on the detailed product pages. For more information on this addon, see {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %} 
+     ![mv_customproducttabs_module.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mv_customproducttabs_module.png)
+
    * **[Coupons](https://market.x-cart.com/addons/discount-coupons.html)**: This addon is also not just for Multivendor, but it needs to be mentioned here because in Multivendor it enables vendors to create and manage discount coupons. More information on this addon is available in the section {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}.   
      ![mvcoupons_addon.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mvcoupons_addon.png)
 
@@ -42,9 +45,6 @@ Here's a brief overview of the addons typically used to build a Multivendor stor
    * **[TaxJar Sales Tax Automation](https://market.x-cart.com/addons/taxjar-sales-tax-automation.html)**: An addon to help you handle US tax calculation, reporting and filing through the integration with TaxJar. For more information on this addon, see {% link "TaxJar Sales Tax Automation: Usage with Multivendor" ref_4ne38ZTm %} 
      ![taxjar_addon_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/taxjar_addon_installed.png)
      
-   * **[Custom Product Tabs](https://market.x-cart.com/addons/custom-product-tabs.html)**: Another addon not just for Multivendor. Enables additional custom product tabs on the detailed product pages. For more information on this addon, see {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %} 
-     ![mv_customproducttabs_module.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mv_customproducttabs_module.png)
-
    
 If an addon you are looking to use is not installed in your store, check the X-Cart’s Marketplace.
 
