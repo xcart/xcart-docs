@@ -75,17 +75,20 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
         
         Note that this method is already active:
         ![xc5_pp_pro_method_active.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_method_active.png)
-
+        
+        That's all; now you can accept payments via PayPal Payments Pro.
+        
+        You can control the status (active/inactive) of your PayPal Payments Pro method right on the "X-Payments connector" module settings page (shown on the screenshot above) or via the Payment methods page (**Store setup > Payment methods**):
+        ![xc5_pp_pro_promethod_active.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_promethod_active.png)
+        
         If you wish to use this method for PCI compliant payments with saved credit cards, enable the "Save cards" feature for this method:
         ![xc5_pp_pro_savecards.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_savecards.png)
 
-        Be sure to complete the _Save credit card setup_ on the X-Payments connector settings page:
+        Also be sure to complete the _Save credit card setup_ on the X-Payments connector settings page:
         ![xc5_pp_pro_saveccsetup.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_saveccsetup.png)
         ![xc5_pp_pro_saveccsetup0.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_saveccsetup0.png)
         
-        Also make sure the method for payments with saved credit cards is active:
+        You will be able to control the status of your method for payments with saved credit cards (active/inactive) via the  Payment methods page (**Store setup > Payment methods**); see the **Use a saved credit card** method:
         ![xc5_pp_pro_savedcard_methodactive.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_savedcard_methodactive.png)
 
- That's all; now you can accept payments via PayPal Payments Pro.
- 
 Note that should you need to change any settings for your PayPal Payments Pro method, you will need to do that on the X-Payments end (not in your X-Cart store) and then re-import the method into X-Cart.
