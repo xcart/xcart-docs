@@ -79,8 +79,13 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
         If you wish to use this method for PCI compliant payments with saved credit cards, enable the "Save cards" feature for this method:
         ![xc5_pp_pro_savecards.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_savecards.png)
 
-        Also be sure to complete the _Save credit card setup_ on the X-Payments connector settings page:
+        Be sure to complete the _Save credit card setup_ on the X-Payments connector settings page:
         ![xc5_pp_pro_saveccsetup.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_saveccsetup.png)
         ![xc5_pp_pro_saveccsetup0.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_saveccsetup0.png)
         
+        Also make sure the method for payments with saved credit cards is active:
+        ![xc5_pp_pro_savedcard_methodactive.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_savedcard_methodactive.png)
+
  That's all; now you can accept payments via PayPal Payments Pro.
+ 
+Note that should you need to change any settings for your PayPal Payments Pro method, you will need to do that on the X-Payments end (not in your X-Cart store) and then re-import the method into X-Cart.
