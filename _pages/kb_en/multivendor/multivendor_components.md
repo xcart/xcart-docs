@@ -45,6 +45,7 @@ Here's a brief overview of the addons typically used to build a Multivendor stor
    * **[TaxJar Sales Tax Automation](https://market.x-cart.com/addons/taxjar-sales-tax-automation.html)**: An addon to help you handle US tax calculation, reporting and filing through the integration with TaxJar. For more information on this addon, see {% link "TaxJar Sales Tax Automation: Usage with Multivendor" ref_4ne38ZTm %} 
      ![taxjar_addon_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/taxjar_addon_installed.png)
      
+   * **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal addon")**: An addon package that includes all X-Cart's PayPal payment method integrations, with **PayPal for Marketplaces** among them. In the context of X-Cart Multivendor, this addon will be of great help for stores in need of a solution to automatically distribute the incoming payments from the buyers between the store owner and the vendors.
    
 If an addon you are looking to use is not installed in your store, check the X-Cart’s Marketplace.
 
@@ -63,4 +64,5 @@ _Related pages:_
    * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}  
    * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}
    * {% link "TaxJar Sales Tax Automation: Usage with Multivendor" ref_4ne38ZTm %} 
+   * {% link "PayPal for Marketplaces" ref_6iphJijP %}
   
