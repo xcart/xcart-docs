@@ -5,7 +5,7 @@ updated_at: '2018-09-14 14:44 +0400'
 identifier: ref_6k1NvzJp
 title: 'Setting up PayPal Payments Pro '
 order: 100
-published: false
+published: true
 ---
 PayPal Payments Pro (also known as Website Payments Pro outside the U.S.) is a fully customizable payments system that enables you to accept all major credit and debit cards, PayPal and PayPal Credit. 
 
@@ -84,14 +84,3 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
         ![xc5_pp_pro_saveccsetup0.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_saveccsetup0.png)
         
  That's all; now you can accept payments via PayPal Payments Pro.
-
-
-
-      
-
-
-
-
-
-
-   
