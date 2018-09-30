@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-09-28 20:10 +0400'
 identifier: ref_0mnK3aMh
 title: PayPal addon
-order: 100
+order: 194
 published: true
 ---
 PayPal payments can be enabled in X-Cart using the addon **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal addon")** by X-Cart team:
@@ -29,4 +29,4 @@ _See also:_
 *   {% link "Setting up a test account" ref_P9Imto9y %}
 *   {% link "Setting up PayPal IPN URL" ref_2rlawgsT %}
 *   {% link "Enabling the Secure Token setting" ref_rPvvhtm9 %}
-*   {% link "Creating your custom PayPal payment page" ref_PA8He4Vs %}    
+*   {% link "Creating your custom PayPal payment page" ref_PA8He4Vs %}
