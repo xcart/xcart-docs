@@ -5,7 +5,7 @@ updated_at: '2018-09-20 00:47 +0400'
 identifier: ref_0gaUolue
 title: ''
 order: 280
-published: false
+published: true
 ---
 PayPal Partner Hosted with PCI Compliance can be enabled in an X-Cart based store via the addon **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal addon")** by X-Cart team.
 
