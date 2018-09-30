@@ -7,7 +7,7 @@ title: Creating your custom PayPal payment page
 categories:
   - User manual
 published: true
-order: 240
+order: 450
 ---
 
 
