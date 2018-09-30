@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-09-28 20:10 +0400'
 identifier: ref_0mnK3aMh
-title: PayPal addon
+title: PayPal Addon
 order: 194
 published: true
 ---
