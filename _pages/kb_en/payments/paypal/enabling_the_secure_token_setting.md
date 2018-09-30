@@ -7,7 +7,7 @@ title: Enabling the Secure Token setting
 categories:
   - User manual
 published: true
-order: 200
+order: 400
 ---
 
 
