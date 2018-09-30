@@ -13,7 +13,7 @@ X-Cart 5 does not provide a direct integration for PayPal Payments Pro, but PayP
 
 To start accepting payments with PayPal Payments Pro in your X-Cart store (via X-Payments):
 
-   1. Make sure te addon X-Payments connector is {% "installed and enabled" ref_025khQBN %} in your X-Cart store. 
+   1. Make sure te addon X-Payments connector is {% link "installed and enabled" ref_025khQBN %} in your X-Cart store. 
    
    2. In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
       ![xc5_pp_pro_addpayment.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_addpayment.png)
