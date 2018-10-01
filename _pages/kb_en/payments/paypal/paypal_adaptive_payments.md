@@ -4,7 +4,6 @@ layout: article_with_sidebar
 updated_at: '2017-11-27 12:49 +0400'
 identifier: ref_FdXWLwVN
 title: PayPal Adaptive payments (legacy)
-version: X-Cart 5.2.7 and later
 categories:
   - User manual
 published: true
