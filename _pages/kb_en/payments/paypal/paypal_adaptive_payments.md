@@ -10,7 +10,7 @@ categories:
 published: true
 order: 270
 ---
-**Important:** The PayPal Adaptive Payments solultion for X-Cart has been moved to legacy status. For split payments, we currently recommend **PayPal for Marketplaces** available via the **[PayPal addon](https://market.x-cart.com/addons/paypal.html)** by X-Cart team.
+{% note warning %}**Important:** The PayPal Adaptive Payments solultion for X-Cart has been moved to legacy status. For split payments, we currently recommend **PayPal for Marketplaces** available via the **[PayPal addon](https://market.x-cart.com/addons/paypal.html)** by X-Cart team. {% endnote %}
 
 
 
