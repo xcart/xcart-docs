@@ -47,6 +47,7 @@ The notifications pertaining to **Multi-vendor** include the following:
 
 The store administrator should also check the E-Mail transfer settings section (**Store setup** > **Email notifications**) and properly specify the REPLY-TO email address that should be used for email notifications that will be sent to the vendors. This can be done by adjusting the setting **Email to use for the REPLY-to field in vendor email**. 
 
+
 _Related pages:_
    
    * {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
