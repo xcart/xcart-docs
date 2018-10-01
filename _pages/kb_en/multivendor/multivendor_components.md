@@ -62,9 +62,9 @@ _Related pages:_
    * {% link "Multiple profiles for vendors" ref_3le6s8jL %}
    * {% link "Messages addon: Usage with Multivendor" ref_4Ox4FPDB %}
    * {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %}
-   * {% link "Product Filter Module" ref_6e82A7rL %} 
    * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
    * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}  
    * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}
    * {% link "TaxJar Sales Tax Automation: Usage with Multivendor" ref_4ne38ZTm %} 
    * {% link "PayPal for Marketplaces" ref_6iphJijP %}
+   * {% link "Product Filter Module" ref_6e82A7rL %} 
