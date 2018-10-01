@@ -84,3 +84,7 @@ Once enabled and set up the product filter will become available on the category
 {% note info %}
 You can change the Product Filter block position in the store front-end using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Product Filter Module").
 {% endnote %}
+
+_Related pages:_
+
+   * {% link "Product Filter: Usage with Multivendor" ref_5YMhId62 %} 
