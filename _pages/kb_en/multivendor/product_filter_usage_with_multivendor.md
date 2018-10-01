@@ -10,3 +10,9 @@ published: false
 In a Multivendor X-Cart store with the addon **[Product Filter](https://market.x-cart.com/addons/product-filter.html)** installed and enabled, store visitors can filter the products on the storefront by vendor. The filter is provided on the pages of catgories containing products of more than one vendor:
    ![xc5_mv_filter_by_vendor.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_filter_by_vendor.png)
 
+More info on using the addon Product Filter is available in the {% link "Product Filter Module" ref_6e82A7rL %} section of this manual.
+
+_Related pages:_
+   
+   
+
