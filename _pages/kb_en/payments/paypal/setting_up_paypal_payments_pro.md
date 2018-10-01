@@ -53,6 +53,8 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
          
          * Instructions for [PayPal Payments Pro (PayPal API)](https://www.x-payments.com/help/X-Payments:Configuring_PayPal_payment_modules_in_X-Payments#PayPal_Payments_Pro_.28PayPal_API.29_configuration_settings "Setting up PayPal Payments Pro") 
          
+         It is a good idea to rename the method from the default "PayPal Payments Pro" to a name that will be better understood by your customers; for example, "Debit or Credit card". You can do that by renaming the payment configuration in X-Payments.
+
       5. Save the payment configuration by clicking **Save**.
          ![xc5_pp_pro_saveconf.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_saveconf.png)
       
