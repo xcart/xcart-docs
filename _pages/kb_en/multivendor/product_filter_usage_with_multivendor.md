@@ -14,5 +14,6 @@ More info on using the addon Product Filter is available in the {% link "Product
 
 _Related pages:_
    
+   * {% link "Product Filter Module" ref_6e82A7rL %} 
    
 
