@@ -36,3 +36,10 @@ The DHL Site ID and API password should be specified in the Credentials section 
 
 Also, here you can enable the DHL shipping method when the configuration is complete. Use the "This shipping method is" trigger to toggle the method ON/OFF.
 
+## Module Settings
+
+## Additional Settings
+
+This is an option that is helpful and can affect shipping rates calculation:
+
+![settings-3.png]({{site.baseurl}}/attachments/ref_3dwzJG71/settings-3.png)
