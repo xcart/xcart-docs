@@ -12,6 +12,11 @@ In a Multivendor X-Cart store with the addon **[Product Filter](https://market.x
 
 More info on using the addon Product Filter is available in the {% link "Product Filter Module" ref_6e82A7rL %} section of this manual.
 
+
+If you wish to use the addon Product Filter, but would prefer not to allow your store site visitors to user the filtering by vendor, you will need to disable the setting **Show vendor list in product filter** on the "Multi-vendor" module settings page:
+   ![xc5_mv_vendor_productfilter.png]({{site.baseurl}}/attachments/ref_5YMhId62/xc5_mv_vendor_productfilter.png)
+
+
 _Related pages:_
    
    * {% link "Product Filter Module" ref_6e82A7rL %}
