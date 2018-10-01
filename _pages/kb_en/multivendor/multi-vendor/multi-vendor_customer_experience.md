@@ -32,10 +32,6 @@ The details pages of specific products also provide some information about the v
 
 ![xc5_mv_vendor_product.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_vendor_product.png)
 
-If the store administrator has chosen to enable product filtering by vendor with the help of X-Cart 5 **Product Filter** module, visitors of the store's Customer area can filter products by vendor in catgories that list products of more than one vendor:
-
-![xc5_mv_filter_by_vendor.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_filter_by_vendor.png)
-
 When a product owned by a vendor is added to the shopping cart, the vendor's company name appears on the cart page. If the cart contains products of more than one vendors, the products on the shopping cart page are automatically sorted by vendor:
 
 ![xc5_mv_vendor_name_in_cart.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_vendor_name_in_cart.png)
