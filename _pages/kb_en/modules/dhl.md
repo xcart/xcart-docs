@@ -50,6 +50,7 @@ The DHL modulesettings page consists of 4 subsections:
    * **API endpoint (test)** : The field value is preset.
 
 3. Additional Settings
+   
    You can add insured value to shipments if applicable:
    ![settings-3.png]({{site.baseurl}}/attachments/ref_3dwzJG71/settings-3.png)
    
@@ -58,6 +59,7 @@ The DHL modulesettings page consists of 4 subsections:
    {% endnote %}
 
 4. Package Settings
+   
    These are the options that will be applied to both domestic and international shipments:
    ![settings-4.png]({{site.baseurl}}/attachments/ref_3dwzJG71/settings-4.png)
    * **Dimension unit** : Select the dimension unit applicable.
@@ -68,3 +70,10 @@ The DHL modulesettings page consists of 4 subsections:
 
 **Submit** your settings to make them active.
 
+When the basic module settings are configured proceed to the Carrier services tab of the settings page to choose the shipping services that will be available to your customers.
+
+![carrier-services.png]({{site.baseurl}}/attachments/ref_3dwzJG71/carrier-services.png)
+
+You can enable/disable the services and drag-n-drop them to change the order of appearance. 
+
+**Save** the changes when you are done.
