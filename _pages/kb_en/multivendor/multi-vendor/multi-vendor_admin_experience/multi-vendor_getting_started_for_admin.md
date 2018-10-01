@@ -151,4 +151,4 @@ _Related pages:_
    *  {% link "Vendor registration" ref_SkW62BgH %}
    *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
    *  {% link "Multi-vendor: Customer experience" ref_fxTL6F2z %}
-   *  {% link "PayPal Adaptive payments (legacy)" ref_FdXWLwVN %}
+   *  {% link "PayPal for Marketplaces" ref_6iphJijP %}
