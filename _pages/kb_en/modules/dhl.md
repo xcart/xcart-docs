@@ -70,10 +70,24 @@ The DHL modulesettings page consists of 4 subsections:
 
 **Submit** your settings to make them active.
 
-When the basic module settings are configured proceed to the Carrier services tab of the settings page to choose the shipping services that will be available to your customers.
+When the basic module settings are configured proceed to the **Carrier services** tab of the settings page to choose the shipping services that will be available to your customers.
 
 ![carrier-services.png]({{site.baseurl}}/attachments/ref_3dwzJG71/carrier-services.png)
 
 You can enable/disable the services and drag-n-drop them to change the order of appearance. 
 
 **Save** the changes when you are done.
+
+The **Test rates** tab of the settings page allows to test the DHL shipping configuration and check the accuracy of the rates calculation. 
+
+![test-rates.png]({{site.baseurl}}/attachments/ref_3dwzJG71/test-rates.png)
+
+That's it! The DHL shipping is configured and enabled. Now your customers can choose DHL shipping at checkout.
+
+![cus-checkout.png]({{site.baseurl}}/attachments/ref_3dwzJG71/cus-checkout.png)
+
+Once the module is configured, DHL shipping is added to the list of shipping methods (**Store setup** -> **Shipping methods**):
+
+![shipping-methods.png]({{site.baseurl}}/attachments/ref_3dwzJG71/shipping-methods.png)
+
+Here you can quickly enable/disable the DHL shipping method and change its order of appearance for customers as described in {% link "Carrier-calculated shipping rates" ref_ybdiN8r0 %}.
