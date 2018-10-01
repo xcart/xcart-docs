@@ -10,6 +10,8 @@ categories:
 published: true
 order: 270
 ---
+**Important:** The PayPal Adaptive Payments solultion for X-Cart has been moved to legacy status. For split payments, we currently recommend **PayPal for Marketplaces** available via the **[PayPal addon](https://market.x-cart.com/addons/paypal.html)** by X-Cart team.
+
 
 
 In X-Cart 5.2.7 we implemented an integration of **[Adaptive Payments by PayPal](https://developer.paypal.com/docs/classic/products/adaptive-payments/)**. This integration allows you to automate the payment transaction flow for X-Cart's {% link "Multi-vendor module" ref_cvwmAuRi %}. The integration enables the payment method "PayPal Adaptive payments" which allows customers' payments for orders in a multi-vendor store to be split automatically between the storefront operator (represented by the account of the store administrator) and the vendors whose products were purchased. The earnings from the sale of the products are automatically sent to the PayPal accounts of the respective vendors; the commission amount that is due to the storefront operator from the sale goes to the PayPal account of the store administrator - also automatically.
