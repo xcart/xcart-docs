@@ -45,6 +45,7 @@ The notifications pertaining to **Multi-vendor** include the following:
     * **Vendor request has been processed**: This message notifies the vendor who has submitted a payout request as to whether their payout request has been approved or declined by the administrator.
 
 
+The store administrator should also check the E-Mail transfer settings section (**Store setup** > **Email notifications**) and properly specify the REPLY-TO email address that should be used for email notifications that will be sent to the vendors. This can be done by adjusting the setting **Email to use for the REPLY-to field in vendor email**. 
 
 _Related pages:_
    
