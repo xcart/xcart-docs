@@ -36,6 +36,7 @@ _In this section:_
 *   {% link "Custom Product Tabs" ref_2JzbMU2q %}
 *   {% link "Customer Files Uploads &amp; Product Attachments" ref_1tk0fbqz %}
 *   {% link "Customer Satisfaction" ref_5EkhZ4uD %}
+*   {% link "DHL" ref_3dwzJG71 %}
 *   {% link "Disable drag'n'drop add to cart" ref_2NVSkzc3 %}
 *   {% link "eCC Desktop: Quickbooks integration" ref_0HbWTUok %}
 *   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
