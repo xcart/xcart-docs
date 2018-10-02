@@ -30,12 +30,13 @@ The DHL settings page looks like the following:
 
 To use DHL XML Services you need to register on [DHL.com](http://www.dhl.com/ "DHL") with a Site ID and Password. Once you have registered you would need to obtain an Account number from DHL.com that provides access to the XML Services.
 
-The DHL modulesettings page consists of 4 subsections:
+The DHL module settings page consists of 4 subsections:
 
 1. Credentials 
    ![settings-1.png]({{site.baseurl}}/attachments/ref_3dwzJG71/settings-1.png)
    
    Use this section to specify the DHL Site ID and API password you gained when registered an account with DHL.
+   
    Also, here you can enable the DHL shipping method when the configuration is complete. Use the "This shipping method is" trigger to toggle the method ON/OFF.
 
 2. Module Settings
@@ -86,7 +87,7 @@ That's it! The DHL shipping is configured and enabled. Now your customers can ch
 
 ![cus-checkout.png]({{site.baseurl}}/attachments/ref_3dwzJG71/cus-checkout.png)
 
-Once the module is configured, DHL shipping is added to the list of shipping methods (**Store setup** -> **Shipping methods**):
+Once the module is configured, DHL shipping is added to the list of shipping methods (**Store setup** -> **Shipping**):
 
 ![shipping-methods.png]({{site.baseurl}}/attachments/ref_3dwzJG71/shipping-methods.png)
 
