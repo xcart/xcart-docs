@@ -50,6 +50,7 @@ To use carrier-calculated shipping rates, configure shipping as outlined below:
 4.  Configure the settings of the selected shipping integration module and save the changes. 
     We have instructions for some popular shipping modules:
     *   {% link "Canada Post" ref_XsHLxUwv %}
+    *   {% link "DHL" ref_3dwzJG71 %}
     *   {% link "FedEx" ref_58tOKWMt %}
     *   {% link "U.S.P.S." ref_whrpZnV3 %}
     *   {% link "UPS" ref_0uCGd6Bs %}
