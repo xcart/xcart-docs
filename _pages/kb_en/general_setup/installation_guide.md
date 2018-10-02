@@ -43,6 +43,7 @@ Here is the system requirements list:
 *   mod_rewrite-like components to enable proper work of {% link "SEO-friendly URLs" ref_nJxrzFEZ %}
 *   if xdebug is enabled, `xdebug.max_nesting_level` must be set to 300
 *   if OPcache is enabled, `opcache.save_comments` and `opcache.load_comments` must be true (set to "1"). Any other cachers should not strip comments from the code too.
+*   [Suhosin](https://suhosin.org/stories/index.html "Installation Guide") PHP extension might interfere proper work of X-Cart 5, so you should disable it. 
 
 ### Hardware requirements
 
