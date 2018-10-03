@@ -20,7 +20,7 @@ All email addresses submitted via this form are added to your store’s list of 
 ![subscribers.png]({{site.baseurl}}/attachments/ref_2WzsM3Pg/subscribers.png)
 
 {% note info %}
-If the default Newsletter subscriptions module is linked to {% link "MailChimp" ref_Rox8AcJp %} the subscriber email addresses submitted via the subscription form will no longer be stored to a list within X-Cart, but will be handled via MailChimp, provided that your X-Cart store is connected to your MailChimp account via the addon settings, and the MailChimp Integration is configured properly.
+If the default Newsletter subscriptions module is linked to {% link "Mailchimp" ref_Rox8AcJp %} the subscriber email addresses submitted via the subscription form will no longer be stored to a list within X-Cart, but will be handled via Mailchimp, provided that your X-Cart store is connected to your Mailchimp account via the addon settings, and the Mailchimp Integration is configured properly.
 {% endnote%}
 
 The **Newsletters** section of the Admin area allows a store admin to add new emails to the subscribtion list and export existing subscribers into a .csv file.
