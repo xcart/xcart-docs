@@ -41,20 +41,19 @@ Before you have connected the integration to your Mailсhimp account, the addon 
 Step 2. Use one of the following methods to connect to Mailсhimp:
 
    * Method 1
-       Step 1. Click on the link “Connect with your Mailсhimp account”. 
+      * Step 1. Click on the link “Connect with your Mailсhimp account”. 
        ![xc5_mailchimp_connecting1.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connecting1.png)
-
-       Step 2. On the Mailсhimp authorization page, enter your Mailсhimp login and password and click **Log In**.
-       ![xc5_mailchimp_connect2account.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connect2account.png)
-
-       Provided that the authorization goes successfully, your X-Cart Mailсhimp integration will be connected to your Mailсhimp account.
+       
+       * Step 2. On the Mailсhimp authorization page, enter your Mailсhimp login and password and click **Log In**.
+         ![xc5_mailchimp_connect2account.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connect2account.png)
+         Provided that the authorization goes successfully, your X-Cart Mailсhimp integration will be connected to your Mailсhimp account.
             
    * Method 2
-       Step 1. In your Mailсhimp account, copy the API key you have set up for your X-Cart store.
-       Step 2. On the Mailсhimp Integration addon settings page in your X-Cart store, paste the API key into the field that says “Enter your Mailсhimp API key manually” and press Enter.
-       ![xc5_mailchimp_connecting2.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connecting2.png)
-
-       Provided that a valid API key has been used, your X-Cart Mailсhimp integration will be connected to your Mailсhimp account.
+       * Step 1. In your Mailсhimp account, copy the API key you have set up for your X-Cart store.
+       * Step 2. On the Mailсhimp Integration addon settings page in your X-Cart store, paste the API key into the field that says “Enter your Mailсhimp API key manually” and press Enter.
+         ![xc5_mailchimp_connecting2.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connecting2.png)
+         
+         Provided that a valid API key has been used, your X-Cart Mailсhimp integration will be connected to your Mailсhimp account.
 
 Regardless of the connection method that has been used, after a successful connection you will be able to see the “Mailсhimp Integration with E-commerce support” module settings page with your Mailсhimp API key showing in the field of the same name:
 ![xc5_mailchimp_successfully_authenticated.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_successfully_authenticated.png)
