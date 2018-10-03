@@ -9,8 +9,8 @@ published: true
 ---
 This article covers:
    
-   * The steps that need to be taken by an X-Cart store administrator to launch a multivendor store/online marketplace. See {% link "Steps to launch a multivendor X-Cart-based marketplace" ref_5saLJNod#steps-to-launch-a-multivendor-x-cart-based-marketplace %}
-   * The tasks that need to be performed by the administrator to manage this multivendor store/online marketplace on a day-to-day basis. {% link "Administrator tasks to manage a multivendor marketplace" ref_5saLJNod#administrator-tasks-to-manage-a-multivendor-marketplace %}
+   * {% link "Steps to launch a multivendor X-Cart-based marketplace" ref_5saLJNod#steps-to-launch-a-multivendor-x-cart-based-marketplace %} -  The steps that need to be taken by an X-Cart store administrator to launch a multivendor store/online marketplace. 
+   * {% link "Administrator tasks to manage a multivendor marketplace" ref_5saLJNod#administrator-tasks-to-manage-a-multivendor-marketplace %} - The tasks that need to be performed by the administrator to manage this multivendor store/online marketplace on a day-to-day basis. 
 
 In this manual, by "administrator" we mean the store owner/storefront operator or an agent acting on their behalf and represented by an X-Cart store user with the access level "Administrator" and the role "Administrator".
 
