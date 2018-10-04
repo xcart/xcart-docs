@@ -47,6 +47,7 @@ _In this section:_
 *   {% link "Flyout Categores Menu" ref_6KutUhlR %}
 *   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
 *   {% link "Free Shipping and Shipping freights" ref_4Bfeegp9 %}
+*   {% link "Gift Wrapping" ref_3eTR6n0m %}
 *   {% link "Geolocation Module" ref_34F5BkhW %}
 *   {% link "Google Product Feed Module" ref_2gQBB6qM %}
 *   {% link "Go Social" ref_4YoBovhW %}
