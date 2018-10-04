@@ -25,7 +25,7 @@ The "Gift Wrapping" module settings page allows to define the following settings
 
 **Submit** the changes to make them active.
 
-When enabled and configured the module adds a "Gift wrapping" checkbox to the cart page in the storefront that a customer can use to add a gift wrapping to the order. 
+When enabled and configured the module adds an "Add gift wrapping" checkbox to the cart page in the storefront that a customer can use to add a gift wrapping to the order. 
 
 ![cus-cart.png]({{site.baseurl}}/attachments/ref_3eTR6n0m/cus-cart.png)
 
@@ -36,6 +36,6 @@ If the **Allow adding a greeting message to orders** option is enabled, the cust
 Both the gift wrapping option and the greeting messag are then added to cart and displayed at checkout in the storefront and in the order details in the admin area:
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![cus-checkout-with greeting-message.png]({{site.baseurl}}/attachments/ref_3eTR6n0m/cus-checkout-with greeting-message.png)</div>
+  <div class="column" markdown="span">![cus-checkout-with-greeting-message.png]({{site.baseurl}}/attachments/ref_3eTR6n0m/cus-checkout-with-greeting-message.png)</div>
   <div class="column" markdown="span">![order-details-greeting-message.png]({{site.baseurl}}/attachments/ref_3eTR6n0m/order-details-greeting-message.png)</div>
 </div>
