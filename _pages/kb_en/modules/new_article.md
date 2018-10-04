@@ -5,7 +5,7 @@ updated_at: '2018-10-03 11:33 +0400'
 identifier: ref_3eTR6n0m
 title: Gift Wrapping
 order: 126
-published: false
+published: true
 ---
 The [Gift Wrapping module](https://market.x-cart.com/addons/gift-wrapping.html "Gift Wrapping") allows to enable and offer a gift wrapping option to customers. 
 
