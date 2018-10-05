@@ -36,7 +36,7 @@ Besides that each component product will automatically gain a record in the **Bu
 
 ![in-bundle.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/in-bundle.png)
 
-When a bundle is ordered the quantity in stock is updated for all its components simultaneously. If any of the components is out of stock customers won’t be able to buy the bundle.
+When a bundle is ordered the quantity in stock is updated for all its components simultaneously. If any of the components is out of stock customers won’t be able to buy the bundle. 
 
 When making an order a customer will see a list of products included in the bundle on the cart page and in the invoice:
 
