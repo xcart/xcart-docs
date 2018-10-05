@@ -7,7 +7,7 @@ title: Bundle Products
 order: 46
 published: true
 ---
-The [Bundle Products module](https://market.x-cart.com/addons/bundle-products.html "Bundle Products") allows to join product in bundles and make a special discount on a set of products if bought together.
+The [Bundle Products module](https://market.x-cart.com/addons/bundle-products.html "Bundle Products") allows to join product in bundles and make a special discount on a set of products if bought together. 
 
 To start using the module install it as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
