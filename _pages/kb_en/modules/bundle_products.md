@@ -15,11 +15,11 @@ To start using the module install it as described in {% link "Installing addons 
 
 ![installed.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/installed.png)
 
-When installed the module adds a **Bundle** tab to the product details page where a store admin/vendor can add bundle components to a product. 
+When installed the module adds a _Bundle_ tab to the product details page where a store admin/vendor can add bundle components to a product. 
 
 To create a bundle a store admin/vendor should:
 1. Create a new product as described in {% link "Adding products" ref_fhzzxDTy %}. This product will be the main product for a bundle.
-2. Set a special price for the bundle product that will cover the costs of all components included. 
+2. Locate the **Price & Inventory** section of the _Info_ tab on the product details page and set a special price for the bundle product that will cover the costs of all components included. 
    
    {% note info %}
    Make sure the price of a bundle product covers all included components and is less than the sum price of the components. 
@@ -28,7 +28,7 @@ To create a bundle a store admin/vendor should:
    ![cus-product-details.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/cus-product-details.png)
    {% endnote %}
 
-3. Proceed to the **Bundle** tab of the product details page and click the **Add components** button:
+3. Proceed to the _Bundle_ tab of the product details page and click the **Add components** button:
    ![adm-bundle-add-components.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/adm-bundle-add-components.png)
 2. Choose products for the bundle in a pop-up:
    ![add-bundle-popup.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/add-bundle-popup.png)
@@ -38,7 +38,7 @@ That's it! The chosen products will be added to the bundle list as bundle compon
 
 ![adm-product-details.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/adm-product-details.png)
 
-Besides that each component product will automatically gain a record in the **Bundle** tab of its product details page that this product is included into a bundle:
+Besides that each component product will automatically gain a record in the _Bundle_ tab of its product details page that this product is included into a bundle:
 
 ![in-bundle.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/in-bundle.png)
 
