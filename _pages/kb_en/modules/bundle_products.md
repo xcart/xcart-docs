@@ -5,7 +5,7 @@ updated_at: '2018-10-04 12:05 +0400'
 identifier: ref_1nuTw4Kc
 title: Bundle Products
 order: 46
-published: false
+published: true
 ---
 The [Bundle Products module](https://market.x-cart.com/addons/bundle-products.html "Bundle Products") allows to join product in bundles and make a special discount on a set of product if bought together.
 
@@ -44,5 +44,3 @@ In addition to the product details page a customer will see a list of products i
   <div class="column" markdown="span"><i>Cart page</i>![cus-cart-page.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/cus-cart-page.png)</div>
   <div class="column" markdown="span"><i>Invoice page</i>![cus-invoice.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/cus-invoice.png)</div>
 </div>
-
-
