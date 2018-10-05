@@ -21,7 +21,7 @@ To create a bundle a store admin/vendor should:
    {% note info %}
    Make sure the price of a bundle product covers all included components and is less than the sum price of the components. The price difference will be automatically calculated and displayed in the bundle product description in the storefront:
    ![cus-product-details.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/cus-product-details.png)
-   {% endnoted %}
+   {% endnote %}
 3. Proceed to the **Bundle** tab of the product details page and click the **Add components** button:
    ![adm-bundle-add-components.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/adm-bundle-add-components.png)
 2. Choose products for the bundle in a pop-up:
