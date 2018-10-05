@@ -38,4 +38,11 @@ Besides that each component product will automatically gain a record in the **Bu
 
 When a bundle is ordered the quantity in stock is updated for all its components. If any of the components is out of stock customers won’t be able to buy the bundle.
 
+In addition to the product details page a customer will see a list of products included in the bundle on the cart page and in the invoice:
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><i>Cart page</i>![cus-cart-page.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/cus-cart-page.png)</div>
+  <div class="column" markdown="span"><i>Invoice page</i>![cus-invoice.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/cus-invoice.png)</div>
+</div>
+
 
