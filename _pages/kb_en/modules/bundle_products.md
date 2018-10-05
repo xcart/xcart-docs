@@ -7,7 +7,7 @@ title: Bundle Products
 order: 46
 published: true
 ---
-The [Bundle Products module](https://market.x-cart.com/addons/bundle-products.html "Bundle Products") allows to join product in bundles and make a special discount on a set of product if bought together.
+The [Bundle Products module](https://market.x-cart.com/addons/bundle-products.html "Bundle Products") allows to join product in bundles and make a special discount on a set of products if bought together.
 
 To start using the module install it as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
@@ -36,9 +36,9 @@ Besides that each component product will automatically gain a record in the **Bu
 
 ![in-bundle.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/in-bundle.png)
 
-When a bundle is ordered the quantity in stock is updated for all its components. If any of the components is out of stock customers won’t be able to buy the bundle.
+When a bundle is ordered the quantity in stock is updated for all its components simultaneously. If any of the components is out of stock customers won’t be able to buy the bundle.
 
-In addition to the product details page a customer will see a list of products included in the bundle on the cart page and in the invoice:
+When making an order a customer will see a list of products included in the bundle on the cart page and in the invoice:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Cart page</i>![cus-cart-page.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/cus-cart-page.png)</div>
