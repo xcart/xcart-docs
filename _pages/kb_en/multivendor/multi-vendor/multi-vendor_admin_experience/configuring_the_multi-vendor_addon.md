@@ -81,7 +81,7 @@ To configure the module:
     
     *   **Show vendor list in sidebar**: Specify whether you want your store's visitors to see the list of your store's vendors in the sidebar area of the store site.
     
-    *   **Show vendor rating**: (Reviews module required) Enable this if you want ratings and reviews to be shown for vendors.
+    *   **Show vendor rating**: (This setting is available if the addon [Product reviews](https://market.x-cart.com/addons/product-reviews.html "Configuring the Multi-vendor addon") is installed and enabled) Enable this if you want ratings and reviews to be shown for vendors.
     
     *   **Allow vendors to approve, reject and edit product ratings and reviews**: Enable this to allow vendors to handle product ratings and reviews for their products. This setting applies only if the store has product ratings and/or reviews created with the Reviews module.
     
