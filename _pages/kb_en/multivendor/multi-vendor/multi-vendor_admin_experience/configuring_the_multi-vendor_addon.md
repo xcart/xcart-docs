@@ -97,7 +97,7 @@ To configure the module:
     
     *   **Show vendor rating**: (This setting is available only if the addon [Product reviews](https://market.x-cart.com/addons/product-reviews.html "Configuring the Multi-vendor addon") is installed and enabled.) Enable this if you want ratings and reviews to be shown for vendors.
     
-    Then some settings for the **Onboarding** process:
+    Then some settings related to **Onboarding**:
     
     *   **Vendor application form**: This is actually not a setting, but a way to quickly access your vendor application form management page. To adjust the form, click *Manage*. More info on this is available in the section {% link "Managing the vendor registration page" ref_41fyOJ9F %}. 
     
