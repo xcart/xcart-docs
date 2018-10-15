@@ -12,6 +12,8 @@ The addon **[Product reviews](https://market.x-cart.com/addons/product-reviews.h
    * Item as Described;
    * Communication;
    * (if applicable) Shipping Speed.
+   
+In each of the above named categories, the customer's experience can be specified as a rating of one to five stars.   
 
 More info on using the addon "Product reviews" is available in the {% link "Product Reviews" ref_XBriIS6B %} section of this manual.
 
