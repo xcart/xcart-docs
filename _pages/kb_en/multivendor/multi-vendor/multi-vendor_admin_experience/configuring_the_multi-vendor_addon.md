@@ -19,7 +19,7 @@ To configure the module:
     ![xc5_multi-vendor_settings_link.png]({{site.baseurl}}/attachments/ref_nFq48dhr/xc5_multi-vendor_settings_link.png)
 
     This opens the '"Multi-vendor" module settings' page:
-    ![xc5_multi-vendor_module_settings.png]({{site.baseurl}}/attachments/ref_nFq48dhr/xc5_multi-vendor_module_settings.png)
+    ![mv_settings.png]({{site.baseurl}}/attachments/ref_nFq48dhr/mv_settings.png)
 
 2.  Adjust the module settings.
 
