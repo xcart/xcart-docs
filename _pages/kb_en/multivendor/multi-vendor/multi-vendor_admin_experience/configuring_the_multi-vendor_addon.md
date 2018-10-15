@@ -95,7 +95,7 @@ To configure the module:
     
     *   **Show vendor list in sidebar**: Specify whether you want your store's visitors to see the list of your store's vendors in the sidebar area of the store site.
     
-    *   **Show vendor rating**: (This setting is available only if the addon [Product reviews](https://market.x-cart.com/addons/product-reviews.html "Configuring the Multi-vendor addon") is installed and enabled.) Enable this if you want ratings and reviews to be shown for vendors.
+    *   **Show vendor rating**: (This setting is available only if the addon [Product reviews](https://market.x-cart.com/addons/product-reviews.html "Configuring the Multi-vendor addon") is installed and enabled.) Enable this if you want customers to be able to see your vendors' rating information. If this setting is enabled, vendor rating info is shown on the vendor page in the Customer area and in the vendor information block on the page listing the vendor's products in the Customer area.
     
     Then some settings related to **Onboarding**:
     
