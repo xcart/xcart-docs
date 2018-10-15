@@ -21,8 +21,10 @@ To configure the module:
     This opens the '"Multi-vendor" module settings' page:
     ![xc5_multi-vendor_module_settings.png]({{site.baseurl}}/attachments/ref_nFq48dhr/xc5_multi-vendor_module_settings.png)
 
-2.  Adjust the module settings:
+2.  Adjust the module settings.
 
+    First, you should set the most important setting:
+    
     *   **Multivendor mode**: Select the operation mode for your multi-vendor store_ (Warehouse / Vendors as separate shops)_. 
 
     <table class="ui compact celled small padded table">
@@ -56,7 +58,7 @@ To configure the module:
       </tbody>
     </table>
 
-    *   **Do not show customers’ contact information to vendors**: This setting toggles vendor access to customer contact information.
+    Then there are also some settings in the **Finance** section:
     
     *   **Order DST based commission rate** and **Order shipping cost based commission rate**: If you wish to charge your vendors a commission on every sale of their products through your store, you can use these fields to specify your commission rates. The "Order DST based commission rate" setting allows you to set a commission rate as a percentage of the order discounted subtotal (DST), the "Order shipping cost based commission rate" setting - as a percentage of the order shipping cost. The rates specified here will be applied by default to the sales of any vendors for which no vendor-specific commission rates have been set. 
         The commission will be charged automatically when a buyer pays for an order containing products supplied by a vendor. You will be able to see the commission you earned on any vendor order in the Orders list section.
@@ -74,22 +76,32 @@ To configure the module:
     
     *   **Require to upload an invoice with a payout request**: Enable this option if you wish to request vendors to upload an invoice when they submit a payout request. If this is enabled, vendors will not be able to request a payout without submitting an invoice. The submitted invoice will be sent to the email address specified in the "Payout request e-mail" field along with the "Vendor request for payment" email notification message.
     
+    Then comes the **Privacy and access** section:
+    
+    *   **Do not show customers’ contact information to vendors**: This setting toggles vendor access to customer contact information.
+    
     *   **Vendor access to global attributes**: Specify whether your vendors should be allowed to add their own attribute values if they decide to use attributes added at the product class and global levels by the store admin and/or other vendors.
         The available options here are "Use existing values only" and "Use existing and add new values".
 
-    *   **Show vendor list in product filter**: This option applies only for stores using the "Product Filter" module. Enable this option if you want your store's visitors to be able to filter products by vendor. With this option enabled, your store's product filter will allow users to select the vendor whose products they wish to view. Note that filtering by vendor will be available only in categories that list products of more than one vendor. If you do not want to allow filtering by vendor, make sure this option is disabled.
-    
-    *   **Show vendor list in sidebar**: Specify whether you want your store's visitors to see the list of your store's vendors in the sidebar area of the store site.
-    
-    *   **Show vendor rating**: (This setting is available if the addon [Product reviews](https://market.x-cart.com/addons/product-reviews.html "Configuring the Multi-vendor addon") is installed and enabled) Enable this if you want ratings and reviews to be shown for vendors.
-    
     *   **Allow vendors to approve, reject and edit product ratings and reviews**: Enable this to allow vendors to handle product ratings and reviews for their products. This setting applies only if the store has product ratings and/or reviews created with the Reviews module.
     
     *   **Allow vendors to reply to product ratings and reviews**: Enable this to allow vendors to reply to ratings and reviews for their products. This setting applies only if the store has product ratings and/or reviews created with the Reviews module.
     
-    *   **Role to assign to new vendor users**: Specify the role you want to be assigned to new vendor users after the creation of their profile/approval of their vendor application by admin. (Note: Besides the default "Vendor" role that is present in your store from the moment you install and activate the Multi-vendor module, you can set up more roles for users that will be acting as vendors in your store. The setting "Role to assign to new vendor users" allows you to specify the role that should be assigned to users with access level "Vendor" when such users are created.)
-
+    Then some settings that affect your store **Appearance**:
+    
     *   **Base vendor rating on**: Specify whether vendor rating should be based on detailed categorized rating or product rating.
+    
+    *   **Show vendor list in product filter**: This option applies only for stores using the "Product Filter" module. Enable this option if you want your store's visitors to be able to filter products by vendor. With this option enabled, your store's product filter will allow users to select the vendor whose products they wish to view. Note that filtering by vendor will be available only in categories that list products of more than one vendor. If you do not want to allow filtering by vendor, make sure this option is disabled.
+    
+    *   **Show vendor list in sidebar**: Specify whether you want your store's visitors to see the list of your store's vendors in the sidebar area of the store site.
+    
+    *   **Show vendor rating**: (This setting is available only if the addon [Product reviews](https://market.x-cart.com/addons/product-reviews.html "Configuring the Multi-vendor addon") is installed and enabled.) Enable this if you want ratings and reviews to be shown for vendors.
+    
+    Then some settings for the **Onboarding** process:
+    
+    *   **Vendor application form**: This is actually not a setting, but a way to quickly access your vendor application form management page. To adjust the form, click *Manage*. More info on this is available in the section {% link "Managing the vendor registration page" ref_41fyOJ9F %}. 
+    
+    *   **Role to assign to new vendor users**: Specify the role you want to be assigned to new vendor users after the creation of their profile/approval of their vendor application by admin. (Note: Besides the default "Vendor" role that is present in your store from the moment you install and activate the Multi-vendor module, you can set up more roles for users that will be acting as vendors in your store. The setting "Role to assign to new vendor users" allows you to specify the role that should be assigned to users with access level "Vendor" when such users are created.)
     
     *   **Vendor onboarding welcome message**: Use this field to adjust the onboarding message for your vendors. The message will be displayed on the vendor's dashboard after they log in to their account.
 
