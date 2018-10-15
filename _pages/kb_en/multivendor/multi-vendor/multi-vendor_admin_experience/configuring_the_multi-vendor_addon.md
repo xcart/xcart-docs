@@ -89,7 +89,7 @@ To configure the module:
     
     Then some settings that affect your store **Appearance**:
     
-    *   **Base vendor rating on**: Specify whether vendor rating should be based on detailed categorized rating or product rating.
+    *   **Base vendor rating on**: Specify whether vendor rating should be based on detailed categorized rating or product rating. (This setting needs to be adjusted only if you are using the addon [Product reviews](https://market.x-cart.com/addons/product-reviews.html "Configuring the Multi-vendor addon") with Multivendor. If the addon Product reviews is not installed or disabled, this setting has no effect on your store.)
     
     *   **Show vendor list in product filter**: This option applies only for stores using the "Product Filter" module. Enable this option if you want your store's visitors to be able to filter products by vendor. With this option enabled, your store's product filter will allow users to select the vendor whose products they wish to view. Note that filtering by vendor will be available only in categories that list products of more than one vendor. If you do not want to allow filtering by vendor, make sure this option is disabled.
     
