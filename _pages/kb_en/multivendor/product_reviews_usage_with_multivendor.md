@@ -7,13 +7,11 @@ title: 'Product Reviews: Usage with Multivendor'
 order: 100
 published: false
 ---
-The addon **[Product reviews](https://market.x-cart.com/addons/product-reviews.html "Configuring the Multi-vendor addon")** can be used to enable customers to rate products and add product reviews. In addition to that, in an online store based on X-Cart Multivendor, this addon can be used to enable customers to give a detailed categorized rating of the vendor(s) from whom they have purchased products to let other customers know about their experience. Once an order has been delivered to the customer, the customer can rate each of the vendors from which the products in the order are sourced according to the following categories:
+The addon **[Product reviews](https://market.x-cart.com/addons/product-reviews.html "Configuring the Multi-vendor addon")** can be used to enable customers to rate products and add product reviews. In addition to that, in an online store based on X-Cart Multivendor, this addon can be used to enable customers to give a detailed categorized rating of the vendor(s) from whom they have purchased products to let other customers know about their experience. Once an order has been delivered to the customer, the customer can rate each of the vendors from which the products in the order were sourced according to the following categories:
    
    * Item as Described;
    * Communication;
    * (if applicable) Shipping Speed.
-
-
 
 More info on using the addon "Product reviews" is available in the {% link "Product Reviews" ref_XBriIS6B %} section of this manual.
 
