@@ -57,11 +57,12 @@ A customer can rate any vendor from whom they have purchased products as soon as
 As an alternative, the customer can set the "_Delivered_" status for their order by themselves using the **Confirm delivery** button:
    ![xc5_mv_confirm_delivery.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_confirm_delivery.png)
 
-Once the delivery of an order has been confirmed by the customer, they will be prompted to rate the order. The customer can choose to do it straight away, or rate the order later. In any case, the customer will be able to access the order rating page at any time later (even after they have already rated the order) via the Rate order link on the order list:
+Once the delivery of an order has been confirmed by the customer, they will be prompted to rate the order. The customer can choose to do it straight away, or rate the order later. In any case, the customer will be able to access the Rate order page at any time later (even after they have already rated the order) via the Rate order link on the order list:
    ![xc5_mv_rate_order_link.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_rate_order_link.png)
  
-The order rating page 
-
+The Rate order page looks similar to the following:
+   ![xc5_mv_rate_order_page.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_rate_order_page.png)
+Note that if the order contains items from more than one vendor, the customer can rate each of the vendors separately.
 
 ## Product reviews: Multivendor store administrator experience
 
