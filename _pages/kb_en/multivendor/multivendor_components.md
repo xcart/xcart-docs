@@ -65,7 +65,7 @@ _Related pages:_
    * {% link "Product Filter: Usage with Multivendor" ref_5YMhId62 %} 
    * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
    * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}  
+   * {% link "Product Reviews: Usage with Multivendor" ref_7neRIOVI %}  
    * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}
    * {% link "TaxJar Sales Tax Automation: Usage with Multivendor" ref_4ne38ZTm %} 
    * {% link "PayPal for Marketplaces" ref_6iphJijP %}
-   
