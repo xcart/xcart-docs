@@ -50,6 +50,8 @@ These settings enable the store administrator to set the permissions that vendor
 
 ## Product reviews: Customer experience
 
+With the addon "Product reviews" enabled in the store, customers can
+
 ## Product reviews: Multivendor store administrator experience
 
 The store administrator has full control over the "Product reviews" addon as a component of their X-Cart Multivendor store. They can enable/disable this component via the **Installed Addons** section and adjust the addon settings via the settings pages for both the "Product reviews" and "Multi-vendor" addons. 
