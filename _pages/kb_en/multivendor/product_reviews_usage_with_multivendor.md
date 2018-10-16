@@ -7,13 +7,18 @@ title: 'Product Reviews: Usage with Multivendor'
 order: 100
 published: false
 ---
-The addon **[Product reviews](https://market.x-cart.com/addons/product-reviews.html "Configuring the Multi-vendor addon")** can be used to enable customers to rate products and add product reviews. In addition to that, in an online store based on X-Cart Multivendor, this addon can be used to enable customers to give a detailed categorized rating of the vendor(s) from whom they have purchased products to let other customers know about their experience. Once an order has been delivered to the customer, the customer can rate each of the vendors from which the products in the order were sourced according to the following categories:
+The addon **[Product reviews](https://market.x-cart.com/addons/product-reviews.html "Configuring the Multi-vendor addon")** can be used to enable customers to rate products and add product reviews. In addition to that, in a Multivendor X-Cart store, this addon can be used to enable customers to give detailed categorized ratings of their orders to let other customers know about their experience. Because orders are tied to specific vendors, the order ratings provided by the customers are used to calculate vendor ratings. Basically, by rating their order, a customer rates the vendor from which the products in the order were sourced. The rating is done in the following categories:
    
-   * Item as Described;
+   * Item description (whether the item received is as described);
    * Communication;
    * (if applicable) Shipping Speed.
    
-In each of the above named categories, the customer's experience can be specified as a rating of one to five stars. The rating info provided by different cutomers for a vendor is summed up, and the resulting rating summary is shown on the vendor page in the Customer area and in the vendor information block on the page listing the vendor's products in the Customer area.   
+In each of the above named categories, the customer's experience is specified as a rating of one to five stars. The rating info provided by different cutomers for a vendor is summed up, and the resulting rating summary is shown in the Customer area (That, of course, provided that the store administrator has enabled the display of this kind of data to customers). Specifically, vendor rating information can be found on the vendor page:
+![xc5_mv_vendor_page.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_vendor_page.png)
+
+and in the vendor information block on the pages of specific products:
+![xc5_mv_vendor_block.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_vendor_block.png)
+
 
 In this section you will find more information on the use of "Product reviews" with X-Cart Multivendor:
 
