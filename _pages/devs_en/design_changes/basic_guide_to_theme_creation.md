@@ -23,8 +23,6 @@ Also, you might want to read about advanced {% link 'skin module definition' ref
 
 ## Table of Contents
 
-*   [Introduction](#introduction)
-*   [Table of Contents](#table-of-contents)
 *   [Registering themes in the module](#registering-themes-in-the-module)
 *   [Module example](#module-example)
 *   [Using CustomSkin module](#using-customskin-module)
