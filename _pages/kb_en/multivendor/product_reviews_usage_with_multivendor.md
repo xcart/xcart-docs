@@ -41,11 +41,12 @@ In the section **Appearance**, the settings that require the attention of the st
       
    *   **Show vendor rating**: This setting has effect on whether the rating of a vendor should be shown on the vendor page in the Customer area and in the vendor information block on the page listing the vendor's products in the Customer area. If this setting is enabled, the vendor rating is shown and can be viewed by customers. If the setting is disabled, the rating is collected but not shown in the Customer area.
     
-**Privacy and access**
+In the section **Privacy and access** the settings that need to be adjusted by the store administrator are as follows:
 
-   *   **Allow vendors to approve, reject and edit product ratings and reviews**: Enable this to allow vendors to handle product ratings and reviews for their products. This setting applies only if the store has product ratings and/or reviews created with the Reviews module.
-    
-   *   **Allow vendors to reply to product ratings and reviews**: Enable this to allow vendors to reply to ratings and reviews for their products. This setting applies only if the store has product ratings and/or reviews created with the Reviews module.
+   *   **Allow vendors to approve, reject and edit product ratings and reviews**    
+   *   **Allow vendors to reply to product ratings and reviews** 
+   
+   These settings enable the store administrator to set the permissions that vendor users should have with regard to their vendor rating and product reviews. If the store administrator wishes to allow the vendors to handle their own ratings and reviews by themselves, they need to make sure the respective options are enabled.
 
 _Related pages:_
    
