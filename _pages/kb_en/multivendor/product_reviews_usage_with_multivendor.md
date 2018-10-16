@@ -50,16 +50,25 @@ These settings enable the store administrator to set the permissions that vendor
 
 ## Product reviews: Customer experience
 
-With the addon "Product reviews" enabled in the store, customers can leave feedback about their experience purchasing items from a vendor by giving the vendor a rating. A customer can rate any vendor from whom they have purchased products as soon as the fulfillment status of the respective order switches to "_Delivered_". The customer can set the "_Delivered_" status for an order by themselves, in which case 
+With the addon "Product reviews" enabled in the store, customers can leave feedback about their experience purchasing items from a vendor by giving the vendor a rating. A customer can rate any vendor from whom they have purchased products as soon as the fulfillment status of their order with items from this vendor is switched to "_Delivered_". Once the store staff has updated the order status to "_Delivered_", an email notification is sent to the customer inviting them to rate their order. 
+The customer can set the "_Delivered_" status for an order by themselves using the **Confirm delivery** button:
+   ![xc5_mv_confirm_delivery.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_confirm_delivery.png)
+
+Once the delivery of an order has been confirmed, the customer is prompted to rate the order. The customer can choose to do it straight away or rate it later; in any case, the page for rating an order can be accessed at any time via the Rate order link on the order list:
+   ![xc5_mv_rate_order_link.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_rate_order_link.png)
+ 
+
 
 ## Product reviews: Multivendor store administrator experience
 
-The store administrator has full control over the "Product reviews" addon as a component of their X-Cart Multivendor store. They can enable/disable this component via the **Installed Addons** section and adjust the addon settings via the settings pages for both the "Product reviews" and "Multi-vendor" addons. 
-
-See:
+The store administrator has full control over the "Product reviews" addon as a component of their X-Cart Multivendor store. They can enable/disable this component via the **Installed Addons** section and adjust the addon settings via the settings pages for both the "Product reviews" and "Multi-vendor" addons. See:
    
    * {% link "Configuring the Product reviews addon" ref_45EGhRet %}
    * [Product reviews: Multivendor-specific configuration](#product-reviews--multivendor-specific-configuration)
+
+The administrator also has control over the email notifications pertaining to vendor ratings and can manage them via the 
+
+used to notify customers that they can rate their order 
 
 The store administrator can view and manage vendor ratings via the Vendor ratings section (**Users** > **Vendor ratings**): 
 ![xc5_vendor_ratings_in_admin.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_vendor_ratings_in_admin.png)
