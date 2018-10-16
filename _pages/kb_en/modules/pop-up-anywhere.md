@@ -5,7 +5,7 @@ updated_at: '2018-10-15 10:44 +0400'
 identifier: ref_5KvYsWjw
 title: Pop-up Anywhere
 order: 210
-published: false
+published: true
 ---
 The [Pop-Up Anywhere module](https://market.x-cart.com/addons/popup-anywhere.html "Pop-up Anywhere") allows to create an unlimited number of pop-overs and display them in the storefront instantly or on schedule, for all visitors or for certain groups of customers only. 
 
