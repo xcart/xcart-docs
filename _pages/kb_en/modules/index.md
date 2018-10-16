@@ -70,6 +70,7 @@ _In this section:_
 *   {% link "PDF Invoices" ref_4pIx0x0g %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
 *   {% link "PIN Codes Module" ref_2ioJzfJL %}
+*   {% link "Pop-up Anywhere" ref_5KvYsWjw %}
 *   {% link "Product Advisor" ref_72asis58 %}
 *   {% link "Products Carousel" ref_4yBBezmL %}
 *   {% link "Product Feeds" ref_0gfIXwxH %}
