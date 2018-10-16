@@ -73,7 +73,7 @@ Note that if the order contains items sourced from more than one vendor, the cus
 
 ## Product reviews: Multivendor store administrator experience
 
-The store administrator has full control over the "Product reviews" addon as a component of their X-Cart Multivendor store. They can enable/disable this component via the **Installed Addons** section and adjust the addon settings via the settings pages for both the "Product reviews" and "Multi-vendor" addons. See:
+The store administrator has full control over the "Product reviews" addon as a component of their Multivendor store. They can enable/disable this component via the **Installed Addons** section and adjust the addon settings via the settings pages for both the "Product reviews" and "Multi-vendor" addons. See:
    
    * {% link "Configuring the Product reviews addon" ref_45EGhRet %}
    * [Product reviews: Multivendor-specific configuration](#product-reviews--multivendor-specific-configuration)
