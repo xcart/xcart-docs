@@ -88,7 +88,9 @@ The store administrator can view and manage (edit or delete) vendor ratings via 
 The filter at the top of the section can be used to filter/search for reviews by vendor profile, customer name or date range.
 
 ## Product reviews: Vendor experience
-   
+
+   ![xc5_mv_order_ratings_in_vendor.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_order_ratings_in_vendor.png)
+
    
 _Related pages:_
    
