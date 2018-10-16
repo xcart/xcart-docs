@@ -90,7 +90,7 @@ The filter at the top of the section can be used to filter/search for reviews by
 ## Product reviews: Vendor experience
 Vendors with appropriate permissions can view their own rating information in the section Order ratings (**Orders** > **Order ratings**):
    ![xc5_mv_order_ratings_in_vendor.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_order_ratings_in_vendor.png)
-
+They cannot edit or delete any ratings that have been provided by customers with regard to their orders.
    
 _Related pages:_
    
