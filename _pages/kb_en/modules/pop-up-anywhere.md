@@ -13,7 +13,7 @@ To install the module follow the guides from {% link "Installing addons from the
 
 ![installed.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/installed.png)
 
-When installed the module adds the **Popups** section to the admin area (**Discounts** -> **Popups**) where you can create new and manage existing pop-ups.
+When installed the module adds the **Popups** section to the admin area (**Discounts** -> **Popups**) where you can create new and manage existing pop-ups. A store admin can enable/disable, edit or delete pop-ups completely. The page also allows filtering pop-ups by name and changing the pop-up order by drag-n-dropping a pop-up to the required position in the list. 
 
 ![new-popup.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/new-popup.png)
 
@@ -82,7 +82,9 @@ You'll be redirected to a **New popup** page where you'll need to fill in the fi
 
 Click **Create** to complete a pop-up creation and add it to the pop-up list. 
 
-That's it! A new pop-up is added.
+That's it! A new pop-up is added. 
+
+To edit a pop-up just click on its name in the list (**Discounts** -> **Popups**), make the necessary changes and click **Update**.
 
 _Video guide_:
 
