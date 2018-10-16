@@ -46,11 +46,22 @@ In the section **Privacy and access**, the settings that need to be adjusted by 
    *   **Allow vendors to approve, reject and edit product ratings and reviews**    
    *   **Allow vendors to reply to product ratings and reviews** 
    
-   These settings enable the store administrator to set the permissions that vendor users should have with regard to their vendor rating and product reviews. If the store administrator wishes to allow the vendors to handle their own ratings and reviews by themselves, they need to make sure the respective options are enabled.
+These settings enable the store administrator to set the permissions that vendor users should have with regard to their vendor rating and product reviews. If the store administrator wishes to allow the vendors to handle their own ratings and reviews by themselves, they need to make sure the respective options are enabled.
 
 ## Product reviews: Customer experience
 
-## Product reviews: Multivendor store administrator experienc
+## Product reviews: Multivendor store administrator experience
+
+The store administrator has full control over the "Product reviews" addon as a component of their X-Cart Multivendor store. They can enable/disable this component via the **Installed Addons** section and adjust the addon settings via the settings pages for both the "Product reviews" and "Multi-vendor" addons. 
+
+See:
+   
+   * {% link "Configuring the Product reviews addon" ref_45EGhRet %}
+   * [Product reviews: Multivendor-specific configuration](#product-reviews--multivendor-specific-configuration)
+
+The store administrator can view and manage vendor ratings
+![xc5_vendor_ratings_in_admin.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_vendor_ratings_in_admin.png)
+
 ## Product reviews: Vendor experience
    
    
