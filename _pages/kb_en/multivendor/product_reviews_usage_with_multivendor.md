@@ -53,7 +53,7 @@ In the section **Privacy and access**, the settings that need to be adjusted by 
    *   **Allow vendors to approve, reject and edit product ratings and reviews**    
    *   **Allow vendors to reply to product ratings and reviews** 
    
-These settings enable the store administrator to adjust the permissions that vendor users should have with regard to the ratings and reviews given by customers to their products. (These settings do not, however, provide vendors with a permission to edit or delete their vendor rating). If the store administrator wishes to allow the vendors to handle their own ratings and reviews by themselves, they need to make sure the respective options are enabled.
+These settings enable the store administrator to adjust the permissions that vendor users should have with regard to the ratings and reviews given by customers to their products. (These settings do not, however, provide vendors with a permission to edit or delete their vendor rating). If the store administrator wishes to allow vendors to handle their own ratings and reviews by themselves, they need to make sure the respective options are enabled.
 
 ## Product reviews: Customer experience
 
