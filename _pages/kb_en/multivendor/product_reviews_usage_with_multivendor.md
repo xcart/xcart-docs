@@ -32,7 +32,7 @@ In the section **Appearance**, the settings that require the attention of the st
 
    *   **Base vendor rating on**: This setting has effect on the way vendor ratings are formed. 
 
-       If it is set to "_detailed categorized rating_", customers are allowed to rate their experience purchasing from vendors. In this case, a vendor rating is formed of the star ratings provided by customers evaluating the purchase from the following viewpoints:
+       If it is set to "_detailed categorized rating_", customers are allowed to rate their experience purchasing from vendors, and a vendor rating is formed of the star ratings provided by customers evaluating the purchase from the following viewpoints:
   - whether the item they received is as described;
   - whether the communication with the vendor was problem-free; 
   - whether the shipping speed was fast enough.
