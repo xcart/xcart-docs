@@ -18,7 +18,13 @@ When installed the module adds the **Popups** section to the admin area (**Disco
 ![new-popup.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/new-popup.png)
 
 {% note info %}
-By default, a list of pop-ups contains 4 samples that are aimed to demonstrate 4 different types of a pop-up set-up - a standard pop-up, a pop-up with a custom template, a notification bar and a notificaton bar with minicart and **Checkout** button. Some of the samples are enabled, some are not. You can disable all the samples or even delete them completely when you decide you don't need them any longer.
+By default, a list of pop-ups contains 4 samples that are aimed to demonstrate 4 different types of a pop-up set-up: 
+- a standard pop-up, 
+- a pop-up with a custom template, 
+- a notification bar 
+- a notificaton bar with minicart and **Checkout** button. 
+
+Some of the samples are enabled, some are not. You can disable all the samples or even delete them completely when you decide you don't need them any longer.
 {% endnote %}
 
 To create a new pop-up click the **New popup** button at the top of the page. 
