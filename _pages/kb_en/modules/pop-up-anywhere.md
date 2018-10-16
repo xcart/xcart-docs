@@ -64,3 +64,6 @@ You'll be redirected to a **New popup** page where you'll need to define the fol
 Click **Create** to complete a pop-up creation and add it to the pop-up list. 
 
 That's it! A new pop-up is added.
+
+_Related articles_:
+*  <iframe width="560" height="315" src="https://www.youtube.com/embed/m8PKa7LVUcw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
