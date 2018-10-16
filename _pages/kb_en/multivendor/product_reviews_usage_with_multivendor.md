@@ -64,7 +64,7 @@ A customer can rate an order as soon as the fulfillment status of this order is 
 As an alternative, the customer can set the "_Delivered_" status for their order by themselves using the **Confirm delivery** button:
    ![xc5_mv_confirm_delivery.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_confirm_delivery.png)
 
-Once the delivery of an order has been confirmed by the customer, they will be prompted to rate the order. The customer can choose to do it straight away, or rate the order later. In any case, the customer will be able to access the Rate order page at any time later (even after they have already rated the order) via the Rate order link on the order list:
+Once the delivery of an order has been confirmed by the customer, they are prompted to rate the order. The customer can choose to do it straight away, or rate the order later. In any case, the customer will be able to access the Rate order page at any time later (even after they have already rated the order) via the Rate order link on the order list:
    ![xc5_mv_rate_order_link.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_rate_order_link.png)
  
 The Rate order page looks similar to the following:
