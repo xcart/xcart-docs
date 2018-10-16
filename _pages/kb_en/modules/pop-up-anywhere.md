@@ -7,7 +7,7 @@ title: Pop-up Anywhere
 order: 210
 published: false
 ---
-The [Pop-Up Anywhere module](https://market.x-cart.com/addons/popup-anywhere.html "Pop-up Anywhere") allows to create unlimited number of pop-overs and display them in the storefront instantly or on schedule, for all visitors or for certain groups of customers only. 
+The [Pop-Up Anywhere module](https://market.x-cart.com/addons/popup-anywhere.html "Pop-up Anywhere") allows to create an unlimited number of pop-overs and display them in the storefront instantly or on schedule, for all visitors or for certain groups of customers only. 
 
 To install the module follow the guides from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
@@ -24,20 +24,37 @@ To create a new pop-up click the **New popup** button at the top of the page.
 You'll be redirected to a **New popup** page where you'll need to define the following settings:
 1. General popup settings
    ![general-popup-settings.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/general-popup-settings.png)
-   * Administrative name : Specify a name of a pop-up that will be displayed in the pop-up list in the admin area.
-   * Enabled : Tick the checkbox if you want a pop-up to be enabled right after it's created.
-   * Active from : Set the start-date for a pop-up using a built-in calender (optional).
+   * **Administrative name** : Specify a name of a pop-up that will be displayed in the pop-up list in the admin area.
+   * **Enabled** : Tick the checkbox if you want a pop-up to be enabled right after it's created.
+   * **Active from** : Set the start-date for a pop-up using a built-in calender (optional).
      ![from-till.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/from-till.png)
-   * Active till : Set the end-date for a pop-up (optional).
+   * **Active till** : Set the end-date for a pop-up (optional).
 2. Popup content
    ![popup-content.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/popup-content.png)
-   * Popup type : Choose a type for the pop-up from a drop-down
-     * Standard popup : A pop-up will use the colors of the main store skin and will be displayed in the storefront according to the rules specified in the **Popup behaviour** and **Popup appearance** sections.
+   * **Popup type** : Choose a type of a pop-up from the drop-down
+     * **Standard popup** : A pop-up will use the colors of the main store skin and will be displayed in the storefront according to the rules specified in the **Popup behaviour** and **Popup appearance** sections.
        ![standard-pop-up-2.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/standard-pop-up-2.png)
-     * Custom popup template : A pop-up will use the colors and styles of a custom template and will be displayed in the storefront according to the rules specified in the **Popup behaviour** and **Popup appearance** sections.
+     * **Custom popup template** : A pop-up will use the colors and styles of a custom template and will be displayed in the storefront according to the rules specified in the **Popup behaviour** and **Popup appearance** sections.
        ![standard-popup.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/standard-popup.png)
-     * Notification bar
-     * Bar with minicart and checkout button
-   * Title : Name your pop-up the way your customers will see it in the storefront.
-   * Content : Specify the pop-up content. Use either the WISIWIG editor or 
+       {% note info %}
+       All custom templates should be uploaded to the /skin/customer/modules/QSL/PopupAnywhere/popup_templates/ folder on the server where your X-Cart software is hosted. More info on how to create a custom template you can find here. 
+       {% endnote %}
+     * **Notification bar** : A pop-up will use the colors of the main store skin and will be displayed in the storefront according to the rules specified in the **Popup behaviour** and **Popup appearance** sections.
+       ![notification-bar-popup.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/notification-bar-popup.png)
+     * **Bar with minicart and checkout button** : A pop-up will use the colors of the main store skin and will be displayed in the storefront according to the rules specified in the **Popup behaviour** and **Popup appearance** sections.
+       ![minicart-and-checkout-popup.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/minicart-and-checkout-popup.png)
+   * **Title** : Name your pop-up the way your customers will see it in the storefront.
+   * **Content** : Add the pop-up content here. Use the built-in WISIWIG editor to insert images, videos or links if required or choose a custom .twig file for a custom popup template. 
+3. Popup behaviour
+   * Display mode
+   * Show popup to
+   * Show if URL contains
+   * Do not show if URL contains
+4. Popup appearance
+   * Popup width
+   * Popup position
+   * Show background
+   * Show Close button
+   * Appearance animation
+   * Delay (seconds)
 
