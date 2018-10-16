@@ -39,7 +39,7 @@ In the section **Appearance**, the settings that require the attention of the st
      
        If the setting "Base vendor rating on" is adjusted to "_product rating_", a vendor rating is formed as a result of aggregation of ratings given by customers to the products of this vendor. 
       
-   *   **Show vendor rating**: (This setting is available if the addon [Product reviews](https://market.x-cart.com/addons/product-reviews.html "Configuring the Multi-vendor addon") is installed and enabled.) Enable this if you want ratings and reviews to be shown for vendors.
+   *   **Show vendor rating**: This setting has effect on whether the rating of a vendor should be shown on the vendor page in the Customer area and in the vendor information block on the page listing the vendor's products in the Customer area. If this setting is enabled, the vendor rating is shown and can be viewed by customers. If the setting is disabled, the rating is collected but not shown in the Customer area.
     
 **Privacy and access**
 
