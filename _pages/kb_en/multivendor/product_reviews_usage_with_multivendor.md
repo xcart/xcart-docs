@@ -19,7 +19,7 @@ In this section you will find more information on the use of "Product reviews" w
 
    * [Product reviews: Multivendor-specific configuration](#product-reviews--multivendor-specific-configuration);
    * [Product reviews: Customer experience](#product-reviews--customer-experience);
-   * [Product reviews: Multivendor store administrator experience](##product-reviews--multivendor-store-administrator-experience);
+   * [Product reviews: Multivendor store administrator experience](#product-reviews--multivendor-store-administrator-experience);
    * [Product reviews: Vendor experience](#product-reviews-vendor-experience).
 
 More info on using the addon "Product reviews" is available in the {% link "Product Reviews" ref_XBriIS6B %} section of this manual.
@@ -41,13 +41,19 @@ In the section **Appearance**, the settings that require the attention of the st
       
    *   **Show vendor rating**: This setting has effect on whether the rating of a vendor should be shown on the vendor page in the Customer area and in the vendor information block on the page listing the vendor's products in the Customer area. If this setting is enabled, the vendor rating is shown and can be viewed by customers. If the setting is disabled, the rating is collected but not shown in the Customer area.
     
-In the section **Privacy and access** the settings that need to be adjusted by the store administrator are as follows:
+In the section **Privacy and access**, the settings that need to be adjusted by the store administrator are as follows:
 
    *   **Allow vendors to approve, reject and edit product ratings and reviews**    
    *   **Allow vendors to reply to product ratings and reviews** 
    
    These settings enable the store administrator to set the permissions that vendor users should have with regard to their vendor rating and product reviews. If the store administrator wishes to allow the vendors to handle their own ratings and reviews by themselves, they need to make sure the respective options are enabled.
 
+## Product reviews: Customer experience
+
+## Product reviews: Multivendor store administrator experienc
+## Product reviews: Vendor experience
+   
+   
 _Related pages:_
    
    * {% link "Product Reviews" ref_XBriIS6B %}
