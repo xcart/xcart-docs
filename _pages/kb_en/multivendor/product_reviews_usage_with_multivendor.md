@@ -50,7 +50,7 @@ These settings enable the store administrator to set the permissions that vendor
 
 ## Product reviews: Customer experience
 
-With the addon "Product reviews" enabled in the store, customers can
+With the addon "Product reviews" enabled in the store, customers can leave feedback about their experience purchasing items from a vendor by giving the vendor a rating. A customer can rate any vendor from whom they have purchased products as soon as the fulfillment status of the respective order switches to "_Delivered_". The customer can set the "_Delivered_" status for an order by themselves, in which case 
 
 ## Product reviews: Multivendor store administrator experience
 
