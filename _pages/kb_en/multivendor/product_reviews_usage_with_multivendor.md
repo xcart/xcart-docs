@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-10-15 14:08 +0400'
 identifier: ref_7neRIOVI
 title: 'Product Reviews: Usage with Multivendor'
-order: 100
+order: 1100
 published: true
 ---
 The addon **[Product reviews](https://market.x-cart.com/addons/product-reviews.html "Configuring the Multi-vendor addon")** can be used to enable customers to rate products and add product reviews. In addition to that, in a Multivendor X-Cart store, this addon can be used to enable customers to give detailed categorized ratings of their orders to let other customers know about their experience. Because orders are tied to specific vendors, the order ratings provided by the customers are used to calculate vendor ratings. Basically, by rating their order, a customer rates the vendor from which the products in the order were sourced. The rating is done in the following categories:
