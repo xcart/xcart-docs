@@ -13,7 +13,7 @@ The addon **[Product reviews](https://market.x-cart.com/addons/product-reviews.h
    * Communication;
    * (if applicable) Shipping Speed.
    
-In each of the above named categories, the customer's experience can be specified as a rating of one to five stars. The rating info provided by different cutomers is summed up, and the resulting rating summary is shown on the vendor page in the Customer area and in the vendor information block on the page listing the vendor's products in the Customer area.    
+In each of the above named categories, the customer's experience can be specified as a rating of one to five stars. The rating info provided by different cutomers for a vendor is summed up, and the resulting rating summary is shown on the vendor page in the Customer area and in the vendor information block on the page listing the vendor's products in the Customer area.    
 
 More info on using the addon "Product reviews" is available in the {% link "Product Reviews" ref_XBriIS6B %} section of this manual.
 
