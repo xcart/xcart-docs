@@ -78,9 +78,10 @@ The store administrator has full control over the "Product reviews" addon as a c
    * {% link "Configuring the Product reviews addon" ref_45EGhRet %}
    * [Product reviews: Multivendor-specific configuration](#product-reviews--multivendor-specific-configuration)
 
-The administrator also has control over the email notifications pertaining to vendor ratings and can manage them via the Email notifications section (**Store setup** > **Email notifications**). At present, there are two notifications:
+The administrator also has control over the email notifications pertaining to vendor ratings and product reviews and can manage them via the Email notifications section (**Store setup** > **Email notifications**). At present, there are three notifications for vendor ratings and product reviews:
 
    * Request to review purchased products - (Product Reviews module)
+   * New product review submitted - (Product Reviews module)
    * Customer has rated the order (for vendor)
    
 The store administrator can view and manage (edit or delete) vendor ratings via the Vendor ratings section (**Users** > **Vendor ratings**): 
