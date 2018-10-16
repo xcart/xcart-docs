@@ -57,9 +57,9 @@ These settings enable the store administrator to set the permissions that vendor
 
 ## Product reviews: Customer experience
 
-With the addon "Product reviews" enabled in the store, customers can leave feedback about their experience purchasing items from a vendor by giving the vendor a rating. 
+With the addon "Product reviews" enabled in the store, customers can leave feedback about their experience purchasing items from a vendor by rating their order. 
 
-A customer can rate any vendor from whom they have purchased products as soon as the fulfillment status of their order with items from this vendor is switched to "_Delivered_". Once the store staff has updated the order status to "_Delivered_", an email notification is sent to the customer inviting them to rate their order. 
+A customer can rate an order as soon as the fulfillment status of this order is switched to "_Delivered_". If the change of order status to "_Delivered_" is done by the store staff, an email notification is sent to the customer inviting them to rate their order. 
 
 As an alternative, the customer can set the "_Delivered_" status for their order by themselves using the **Confirm delivery** button:
    ![xc5_mv_confirm_delivery.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_confirm_delivery.png)
@@ -69,7 +69,7 @@ Once the delivery of an order has been confirmed by the customer, they will be p
  
 The Rate order page looks similar to the following:
    ![xc5_mv_rate_order_page.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_rate_order_page.png)
-Note that if the order contains items from more than one vendor, the customer can rate each of the vendors separately.
+Note that if the order contains items sourced from more than one vendor, the customer can rate each of the vendors separately.
 
 ## Product reviews: Multivendor store administrator experience
 
