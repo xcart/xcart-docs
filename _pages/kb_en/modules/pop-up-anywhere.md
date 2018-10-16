@@ -23,7 +23,7 @@ By default, a list of pop-ups contains 4 samples that are aimed to demonstrate 4
 
 To create a new pop-up click the **New popup** button at the top of the page. 
 
-You'll be redirected to a **New popup** page where you'll need to define the following settings:
+You'll be redirected to a **New popup** page where you'll need to fill in the fields in 4 sections of settings to create a pop-up.
 
 ## General popup settings
    
