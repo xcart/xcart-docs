@@ -15,11 +15,16 @@ The addon **[Product reviews](https://market.x-cart.com/addons/product-reviews.h
    
 In each of the above named categories, the customer's experience can be specified as a rating of one to five stars. The rating info provided by different cutomers for a vendor is summed up, and the resulting rating summary is shown on the vendor page in the Customer area and in the vendor information block on the page listing the vendor's products in the Customer area.   
 
-Below more information 
+In this section you will find more information on the use of "Product reviews" with X-Cart Multivendor:
+
+   * [Product reviews: Multivendor-specific configuration](#product-reviews--multivendor-specific-configuration);
+   * [Product reviews: Customer experience](#product-reviews--customer-experience);
+   * [Product reviews: Multivendor store administrator experience](##product-reviews--multivendor-store-administrator-experience);
+   * [Product reviews: Vendor experience](#product-reviews-vendor-experience).
 
 More info on using the addon "Product reviews" is available in the {% link "Product Reviews" ref_XBriIS6B %} section of this manual.
 
-## Multivendor-specific configuration 
+## Product reviews: Multivendor-specific configuration 
 
 **Appearance**
 
