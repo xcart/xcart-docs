@@ -25,9 +25,10 @@ In this section you will find more information on the use of "Product reviews" w
 More info on using the addon "Product reviews" is available in the {% link "Product Reviews" ref_XBriIS6B %} section of this manual.
 
 ## Product reviews: Multivendor-specific configuration 
-If enabled in a Multivendor X-Cart store, the addon "Product reviews" adds a couple of settings to the Multi-vendor module {% link "settings page" ref_nFq48dhr %}.
 
-**Appearance**
+If enabled in a Multivendor X-Cart store, the addon "Product reviews" adds a couple of settings to the Multi-vendor module {% link "settings page" ref_nFq48dhr %}. The store administrator must check and adjust these settings.
+
+First, in the section **Appearance**,
 
    *   **Base vendor rating on**: Specify whether vendor rating should be based on detailed categorized rating or product rating.
       
