@@ -54,7 +54,7 @@ With the addon "Product reviews" enabled in the store, customers can leave feedb
 The customer can set the "_Delivered_" status for an order by themselves using the **Confirm delivery** button:
    ![xc5_mv_confirm_delivery.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_confirm_delivery.png)
 
-Once the delivery of an order has been confirmed, the customer is prompted to rate the order. The customer can choose to do it straight away or rate it later; in any case, the page for rating an order can be accessed at any time via the Rate order link on the order list:
+Once the delivery of an order has been confirmed, the customer is prompted to rate the order. The customer can choose to do it straight away, or rate the order later; in any case, the customer can access the rating page at any time (even after they have already rated the order) via the Rate order link on the order list:
    ![xc5_mv_rate_order_link.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_rate_order_link.png)
  
 
