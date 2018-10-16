@@ -62,7 +62,7 @@ You'll be redirected to a **New popup** page where you'll need to fill in the fi
 
 ## Popup behaviour
 
-   This section defines the rules according to that the pop-up will be displayed in the storefront.
+   This section defines the rules that control the pop-up display in the storefront.
    ![popup-behaviour.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/popup-behaviour.png)
    * **Display mode** : Choose the appropriate display mode for a pop-up. If you choose to display a pop-up once in N days you'll also need to specify the periodicity in days.
    * **Show popup to** : Choose if a pop-up should be displayed to all visitors or to some groups of visitors only (registered or unregistered customers)
