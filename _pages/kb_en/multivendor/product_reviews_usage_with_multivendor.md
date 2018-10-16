@@ -59,7 +59,7 @@ See:
    * {% link "Configuring the Product reviews addon" ref_45EGhRet %}
    * [Product reviews: Multivendor-specific configuration](#product-reviews--multivendor-specific-configuration)
 
-The store administrator can view and manage vendor ratings
+The store administrator can view and manage vendor ratings via the Vendor ratings section (**Users** > **Vendor ratings**): 
 ![xc5_vendor_ratings_in_admin.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_vendor_ratings_in_admin.png)
 
 ## Product reviews: Vendor experience
