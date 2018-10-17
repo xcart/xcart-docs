@@ -5,9 +5,9 @@ updated_at: '2018-10-17 09:44 +0400'
 identifier: ref_1T0EXlkr
 title: Exit Offers
 order: 91
-published: false
+published: true
 ---
-The [Exit Offers module](https://market.x-cart.com/addons/exit-offers.html "Exit Offers") allows to display an exit popup when a visitor moves the mouse up to the close button and is about to leave your site. This way it's possible to grab visitors back right when they are about to leave your store and recover sales which you would otherwise lose.
+The [Exit Offers module](https://market.x-cart.com/addons/exit-offers.html "Exit Offers") allows to display an exit popup when a visitor moves the mouse up to the close button and is about to leave the site. This way it's possible to grab visitors back right when they are about to leave the store and recover sales.
 
 To intall the module follow directions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
@@ -23,12 +23,12 @@ You'll see a _New exit offer_ page where you'll need to fill in the fields (requ
 
 ![new-offer.png]({{site.baseurl}}/attachments/ref_1T0EXlkr/new-offer.png)
 
-* **Exit offer** (required field) : Specify a name of your exit offer. The exit offer name will be visible in the admin area only.
-* **Enabled** : The option is activated by default. If you don't want an offer to be enabled right after it's created switch this option off. 
-* **Min Qty in cart** : Specify a minimum products quantity in cart for an exit offer to become active.
-* **Max Qty** (0 - no limit) : Specify a maximum products quantity in cart for an exit offer to become active.
-* **Min subtotal** : Specify a minimum cart subtotal for an exit offer to become active.
-* **Max subtotal** (0 - no limit) : Specify a maximum cart subtotal for an exit offer to become active.
+* **Exit offer** (required field) : Specify a name of your exit offer. The exit offer name will be displayed on the exit offers listing page (**Discounts** -> **Exit Offers**) in the admin area.
+* **Enabled** : The option is pre-activated. If you don't want an offer to be enabled right after it's created switch this option off. 
+* **Min Qty in cart** : If applicable specify a minimum products quantity in cart for an exit offer to become active for visitors.
+* **Max Qty** (0 - no limit) : If applicable specify a maximum products quantity in cart for an exit offer to become active for visitors.
+* **Min subtotal** : If applicable specify a minimum cart subtotal for an exit offer to become active for visitors.
+* **Max subtotal** (0 - no limit) : If applicable specify a maximum cart subtotal for an exit offer to become active for visitors.
 * **Offer message** (required field) : Add an exit offer description here. Use the built-in WISIWIG editor to make your offer more informative and capturing.
 
 Click **Create** when you are done.
