@@ -40,3 +40,17 @@ That's it! a new exit offer is added to the list.
 If it's enabled it will be displayed to customers when they try to leave your store page:
 
 ![storefront-exit.png]({{site.baseurl}}/attachments/ref_1T0EXlkr/storefront-exit.png)
+
+To style the exit popup you can:
+
+* use inline styles when formatting the exit offer message
+* use {% link "Theme Tweaker" ref_2Kfe2OX6 %} module to add your styles for .exit-offer-popup-dialog.no-title .exit-offer-contents, .ui-dialog.exit-offer-popup-dialog .ui-dialog-titlebar-close and .ui-dialog.exit-offer-popup-dialog CSS selectors
+
+You can also style a particular exit offer popup by using its ID number; for example, .exit-offer-popup-dialog-2.no-title .exit-offer-contents
+
+When testing your custom styles use the following command in your browser debug console to make the exit popup appear once again on the next page refresh: 
+```
+jQuery.removeCookie("exit_offer_shown");
+```
+
+When done clear browser cookies, refresh the page and add an item to the cart to see how the exit offer changes.
