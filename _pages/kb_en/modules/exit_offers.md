@@ -48,7 +48,7 @@ To edit an exit offer a store admin can either click the offer name and add chan
 To style the exit popup a store admin can:
 
 * use inline styles when formatting the exit offer message;
-* use {% link "Theme Tweaker" ref_2Kfe2OX6 %} module to add custom styles for .exit-offer-popup-dialog.no-title .exit-offer-contents, .ui-dialog.exit-offer-popup-dialog .ui-dialog-titlebar-close and .ui-dialog.exit-offer-popup-dialog CSS selectors.
+* use {% link "Theme Tweaker" ref_2Kfe2OX6 %} module to add custom styles for _.exit-offer-popup-dialog.no-title .exit-offer-contents_, _.ui-dialog.exit-offer-popup-dialog .ui-dialog-titlebar-close_ and _.ui-dialog.exit-offer-popup-dialog_ CSS selectors.
 
 Also it's possible to style a particular exit offer popup by using its ID number; for example, .exit-offer-popup-dialog-2.no-title .exit-offer-contents
 
