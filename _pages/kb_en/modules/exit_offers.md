@@ -33,7 +33,7 @@ You'll see a _New exit offer_ page where you'll need to fill in the fields (requ
 
 Click **Create** when you are done.
 
-That's it! a new exit offer is added to the list.
+That's it! A new exit offer is added to the list.
 
 ![offer-created.png]({{site.baseurl}}/attachments/ref_1T0EXlkr/offer-created.png)
 
@@ -45,10 +45,10 @@ To edit an exit offer a store admin can either click the offer name and add chan
 
 ![edit-properties.png]({{site.baseurl}}/attachments/ref_1T0EXlkr/edit-properties.png)
 
-To style the exit popup a store admin can:
+To style exit popups a store admin can:
 
-* use inline styles when formatting the exit offer message;
-* use {% link "Theme Tweaker" ref_2Kfe2OX6 %} module to add custom styles for _.exit-offer-popup-dialog.no-title .exit-offer-contents_, _.ui-dialog.exit-offer-popup-dialog .ui-dialog-titlebar-close_ and _.ui-dialog.exit-offer-popup-dialog_ CSS selectors.
+* use inline styles (built-in WISIWIG editor) when formatting the exit offer message;
+* use the {% link "Theme Tweaker" ref_2Kfe2OX6 %} module to add custom styles for _.exit-offer-popup-dialog.no-title .exit-offer-contents_, _.ui-dialog.exit-offer-popup-dialog .ui-dialog-titlebar-close_ and _.ui-dialog.exit-offer-popup-dialog_ CSS selectors.
 
 Also it's possible to style a particular exit offer popup by using its ID number; for example, .exit-offer-popup-dialog-2.no-title .exit-offer-contents
 
