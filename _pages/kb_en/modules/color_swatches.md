@@ -114,19 +114,19 @@ To add color swatches to global atributes:
 
 ## Importing Color Swatches
 
-It's possible to create color swatchers using the built-in Import tool. 
+It's possible to create color swatchers using the built-in {% link "Import" ref_glDc6kA1 %} tool. 
 
 For this purpose you should create a .csv file of the following format:
 
 ![import-1.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-1.png)
 
-You'll need to specify the swatch name, position, color and image for each color swatch you want to add and upload the .csv file via the **Catalog** -> **Import** section in the cart admin area. The color swatches will be added to the list in the **Catalog** -> **Color swatches** section in the admin area. 
+You'll need to specify a swatch name, position, color and image for each color swatch you want to add and upload the .csv file via the **Catalog** -> **Import** section in the cart admin area. The color swatches will be added to the list in the **Catalog** -> **Color swatches** section in the admin area. 
 
 If you want to assign color swatches to existing product attributes the file format should be as follows:
 
 ![import-2.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-2.png)
 
-When importing product attributes you can specify several swatch values at a time similar to the way the the options values are specified, e.g. if options are specified as 
+Also when importing product attributes you can specify several swatch values at a time similar to the way the options values are specified, e.g. if options are specified as 
 
 ```
 options = Red&&Green&&Blue
@@ -135,4 +135,4 @@ color swatches can be specified as
 ```
 swatches = red_swatch&&green_swatch&&blue_swatch
 ```
-For more info on importing product attributes please refer to {% link "CSV import: Classes & Attributes" ref_qTbDu6Ov %}
+For more info on importing product attributes please refer to {% link "CSV import: Classes & Attributes" ref_qTbDu6Ov %}.
