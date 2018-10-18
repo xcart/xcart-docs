@@ -95,7 +95,7 @@ Below is a list of supported fields and their respective value types for the imp
       <td colspan="1" class="confluenceTd">swatches</td>
       <td colspan="1" class="confluenceTd">
         <p>List of possible color swatches. Options are separated with<strong> '&amp;&amp;' </strong>symbol.</p>
-        <p>Example: red_swatch'&amp;&amp;'green_swatch'&amp;&amp;'blue_swatch</p>
+        <p>Example: red_swatch&amp;&amp;green_swatch&amp;&amp;blue_swatch</p>
       </td>
       <td colspan="1" class="confluenceTd">String
         <br>Multiple,
