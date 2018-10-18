@@ -116,6 +116,18 @@ Below is a list of supported fields and their respective value types for the imp
       <td colspan="1" class="confluenceTd">Applied only if type is Text. Indicates that this value is editable by customer on the product page.</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
+  <tr>
+      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Color Swatches</strong> module</em>
+      </td>
+    </tr>
+  <tr>
+      <td colspan="1" class="confluenceTd"><strong>swatch</strong>
+      </td>
+      <td colspan="1" class="confluenceTd">A name of a color swatch.</td>
+      <td colspan="1" class="confluenceTd">String,
+        <br>Multilingual,
+        <br>Max. length: 255</td>
+    </tr>
   </tbody>
 </table>
 
