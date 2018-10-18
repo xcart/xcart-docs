@@ -110,7 +110,7 @@ To add color swatches to global atributes:
 3. Specify the values choosing the appropriate color swatch from a drop-down
    ![global-add-swatch.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/global-add-swatch.png)
 4. Save the changes
-5. [Assign global apptibutes to products](https://kb.x-cart.com/product_classes_and_attributes/managing_global_attributes.html#assigning-global-attributes-to-products "Color Swatches")
+5. [Assign global attributes to products](https://kb.x-cart.com/product_classes_and_attributes/managing_global_attributes.html#assigning-global-attributes-to-products "Color Swatches")
 
 ## Importing Color Swatches
 
