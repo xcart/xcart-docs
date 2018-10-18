@@ -121,7 +121,7 @@ Below is a list of supported fields and their respective value types for the imp
       </td>
     </tr>
   <tr>
-      <td colspan="1" class="confluenceTd"><strong>swatch</strong>
+      <td colspan="1" class="confluenceTd">swatch
       </td>
       <td colspan="1" class="confluenceTd">A name of a color swatch.</td>
       <td colspan="1" class="confluenceTd">String,
