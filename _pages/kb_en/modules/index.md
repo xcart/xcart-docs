@@ -55,6 +55,7 @@ _In this section:_
 *   {% link "Go Social" ref_4YoBovhW %}
 *   {% link "Hide Prices Module" ref_46jNUlWG %}
 *   {% link "Horizontal Flyout Categories Menu" ref_1mFs8c7N %}
+*   {% link "Hurry Up" ref_4XQjes9g %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "Loyalty Program" ref_1Odyn6mT %}
 *   {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
