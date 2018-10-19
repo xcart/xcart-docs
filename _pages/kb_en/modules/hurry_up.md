@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-10-19 11:41 +0400'
 identifier: ref_4XQjes9g
-title: Hurry Up!
+title: Hurry Up
 order: 146
 published: true
 ---
@@ -26,7 +26,7 @@ The **Hurry Up** module settings page allows to configure 3 different types of a
    ![low-stock-alerts.png]({{site.baseurl}}/attachments/ref_4XQjes9g/low-stock-alerts.png)
    
    * **Alert position** : Select the way the notifications should be displayed. You can choose between inside the page content (below the **Add to Cart** button) or a pop up as a tooltip at the bottom of the page.
-   * **Stock level threshold** : Set the lowest stock level threshold. The alerts will appear for products having **less** than this number of units in stock.
+   * **Stock level threshold** : Set the lowest stock level threshold. The alerts will appear for products having LESS than this number of units in stock.
    * **Custom text color** : Choose the text color for the alert.
    * **Custom background color** : Choose the backgroung color for alert.
    * **Custom border color** : Choose the border color for alert.
@@ -39,7 +39,7 @@ The **Hurry Up** module settings page allows to configure 3 different types of a
    ![frequently-viewed-products-alerts.png]({{site.baseurl}}/attachments/ref_4XQjes9g/frequently-viewed-products-alerts.png)
    
    * **Alert position** : Select the way the notifications should be displayed. You can choose between inside the page content (below the **Add to Cart** button) or a pop up as a tooltip at the bottom of the page.
-   * **Count viewers within this period (minutes)** : Specify a time period in seconds. The module will count only those customers who viewed the product **less** than this number of minutes ago.
+   * **Count viewers within this period (minutes)** : Specify a time period in seconds. The module will count only those customers who viewed the product LESS than this number of minutes ago.
    * **Custom text color** : Choose the text color for the alert.
    * **Custom background color** : Choose the backgroung color for alert.
    * **Custom border color** : Choose the border color for alert.
@@ -52,8 +52,8 @@ The **Hurry Up** module settings page allows to configure 3 different types of a
    ![bought-recently-alerts.png]({{site.baseurl}}/attachments/ref_4XQjes9g/bought-recently-alerts.png)
    
    * **Alert position** : Select the way the notifications should be displayed. You can choose between inside the page content (below the **Add to Cart** button) or a pop up as a tooltip at the bottom of the page.
-   * **Minimum number of recent sales** : Specify a number of orders to be counted. The alert will appear only for products that have been ordered recently **more** than this number of times.
-   * **Recent sales period duration (hours)** : Specify the sales period in hours. The module will count only the orders placed **less** than this number of hours ago.
+   * **Minimum number of recent sales** : Specify a number of orders to be counted. The alert will appear only for products that have been ordered recently MORE than this number of times.
+   * **Recent sales period duration (hours)** : Specify the sales period in hours. The module will count only the orders placed LESS than this number of hours ago.
    * **Custom text color** : Choose the text color for the alert.
    * **Custom background color** : Choose the backgroung color for alert.
    * **Custom border color** : Choose the border color for alert.
