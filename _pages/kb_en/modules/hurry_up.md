@@ -5,7 +5,7 @@ updated_at: '2018-10-19 11:41 +0400'
 identifier: ref_4XQjes9g
 title: Hurry Up!
 order: 146
-published: false
+published: true
 ---
 The [Hurry Up module](https://market.x-cart.com/addons/hurry-up.html "Hurry Up!") allows to enable product page notifications like low stock alerts, recently bought products alerts and frequently viewed products alerts. The sense of urgency encourages the prospective buyers to make an on-the-spot buying decision.
 
@@ -59,4 +59,4 @@ The **Hurry Up** module settings page allows to configure 3 different types of a
    * **Custom border color** : Choose the border color for alert.
    * **Hide the alert after a delay** : Enable if you want to the notifications disappear after a specific number of seconds.
    
-**Submit** the settings to make them active. 
+**Submit** the settings to make them active.
