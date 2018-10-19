@@ -30,7 +30,7 @@ The **Hurry Up** module settings page allows to configure 3 different types of a
    * **Custom text color** : Choose the text color for the alert.
    * **Custom background color** : Choose the backgroung color for alert.
    * **Custom border color** : Choose the border color for alert.
-   * **Hide the alert after a delay** : Enable if you want to the notifications disappear after a specific number of seconds.
+   * **Hide the alert after a delay** : Enable if you want the notifications disappear after a specific number of seconds.
    
 2. **Alerts for frequently viewed products**
    
@@ -43,7 +43,7 @@ The **Hurry Up** module settings page allows to configure 3 different types of a
    * **Custom text color** : Choose the text color for the alert.
    * **Custom background color** : Choose the backgroung color for alert.
    * **Custom border color** : Choose the border color for alert.
-   * **Hide the alert after a delay** : Enable if you want to the notifications disappear after a specific number of seconds.
+   * **Hide the alert after a delay** : Enable if you want the notifications disappear after a specific number of seconds.
 
 3. **Alerts for products bought recently**
    
@@ -57,6 +57,6 @@ The **Hurry Up** module settings page allows to configure 3 different types of a
    * **Custom text color** : Choose the text color for the alert.
    * **Custom background color** : Choose the backgroung color for alert.
    * **Custom border color** : Choose the border color for alert.
-   * **Hide the alert after a delay** : Enable if you want to the notifications disappear after a specific number of seconds.
+   * **Hide the alert after a delay** : Enable if you want the notifications disappear after a specific number of seconds.
    
 **Submit** the settings to make them active.
