@@ -13,9 +13,9 @@ To install the module follow the general guidelines from {% link "Installing add
 
 ![installed.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/installed.png)
 
-When installed and eabled the module performs a series of tests and helps the store admin find SEO issues on the website. 
+When installed and enabled the module performs a series of tests and helps a store admin find SEO issues on the website. 
 
-To start testin proceed to the _SEO Health Check_ tab of the **SEO settings** section (**Store setup** -> **SEO settings**):
+To start testings proceed to the _SEO Health Check_ tab of the **SEO settings** section (**Store setup** -> **SEO settings**):
 
 ![seo-settings.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/seo-settings.png)
 
