@@ -38,4 +38,4 @@ The check results will provide recommendations on improving the store SEO perfor
 - Can search engines find an {% link "XML sitemap" ref_OqJ2oZTE %} and a [robots.txt file](https://kb.x-cart.com/seo_and_promotion/optimizing_your_catalog_pages_for_seo.html#robotstxt "SEO Health Check") for your site? Are these files up to date?
 - Does your site use the [secure protocol](https://kb.x-cart.com/general_setup/store_security/index.html#step-2-use-ssl-certificates "SEO Health Check")?
 
-It is recommended to run the tests from time to time in order to ensure that your website is ready for search engines.
+It is recommended to run the tests from time to time in order to ensure that a website is ready for search engines.
