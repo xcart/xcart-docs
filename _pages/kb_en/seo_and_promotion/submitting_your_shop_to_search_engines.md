@@ -8,6 +8,7 @@ categories:
   - User manual
 published: true
 order: 120
+redirect_to: 'https://kb.x-cart.com/modules/seo_health_check.html'
 ---
 
 
