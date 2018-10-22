@@ -85,6 +85,7 @@ _In this section:_
 *   {% link "Related Products" ref_4a5rpsQq %}
 *   {% link "RTL Languages Support" ref_3vEHzhPP %}
 *   {% link "Sale Module" ref_7tBJ8Yqo %}
+*   {% link "SEO Health Check" ref_2RwDb3OY %}
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 *   {% link "ShippingEasy" ref_HTml5LyW %}
 *   {% link "Shop by Brand Module" ref_2LetICls %}
@@ -108,5 +109,6 @@ _In this section:_
 *   {% link "XC4 to XC5 Migration wizard" ref_enOvcLbO %}
 *   {% link "X-Cart 5 to WordPress Integration" ref_rJ8hCpkQ %}
 *   {% link "X-Cart eBay Integration" ref_0SnFdXk1 %}
+*   {% link "XML Sitemap" ref_21dOPnWz %}
 *   {% link "X-Payments Connector" ref_NaZh0d1b %}
 *   {% link "X-Payments Subscriptions" ref_8VFoqBFZ %}
