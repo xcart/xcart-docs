@@ -18,6 +18,7 @@ _In this section:_
 *   {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %}
 *   {% link "Optimizing your catalog pages for SEO" ref_OBh3V1k1 %}
 *   {% link "Submitting your shop to search engines" ref_OqJ2oZTE %}
+*   {% link "SEO Health Check" ref_2RwDb3OY %}
 *   {% link "Putting products on sale" ref_6EE1gdnh %}
 *   {% link "Setting up discount coupons" ref_SGI1FqdC %}
 *   {% link "Setting up volume discounts for products" ref_xEadpu9F %}
