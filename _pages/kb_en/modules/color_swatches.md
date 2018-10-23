@@ -76,7 +76,7 @@ That's it, the color swatches option is added for a product and will be displaye
 
 ![cus-color-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-color-swatches.png)
 
-## Adding Color Swatches for Product Variants
+## Adding Color Swatches to Product Variants
 
 If the **Use color swatch name as an attribute option name** option is enabled product variants (if any) will be renamed to swatches automatically when the color swatches are added to the product attributes:
 
@@ -85,7 +85,7 @@ If the **Use color swatch name as an attribute option name** option is enabled p
   <div class="column" markdown="span"><i>After color swatches</i>![variants-after-swarches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/variants-after-swarches.png)</div>
 </div>
 
-If you add images to the product variants the product image displayed to a customer will change depending on the chosen lolor swatch:
+If you add images to the product variants the product image displayed to a customer will change depending on the chosen color swatch:
 
 <div class="ui stackable four column grid">
   <div class="column" markdown="span"><i>Variants with imagess</i>![variants-with-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/variants-with-swatches.png)</div>
@@ -98,7 +98,7 @@ If no images are added to the product variants the product image will stay the s
 
 ## Adding Color Swatches to Global Attributes
 
-If you want to apply color swatches to all products in your store and you have {% link "global attributes set-up" ref_HzMkgc0q %} for them you can add color swatches to global attributes and they will be applied to all products with global attributes automatically. 
+If you want to apply color swatches to all products in your store and you have {% link "global attributes" ref_HzMkgc0q %} set up for products you can add color swatches to global attributes and they will be applied to all products with global attributes automatically. 
 
 To add color swatches to global atributes:
 1. Locate the attribute you need to add a color swatch to (**Catalog** -> **Classes & attributes**) and click **Edit** or [create a new global attribute](https://kb.x-cart.com/product_classes_and_attributes/managing_global_attributes.html#adding-global-attributes "Color Swatches") 
@@ -116,23 +116,35 @@ To add color swatches to global atributes:
 
 It's possible to create color swatchers using the built-in {% link "Import" ref_glDc6kA1 %} tool. 
 
-For this purpose you should create a .csv file of the following format:
+For this purpose you should create a swatches.csv file of the following format:
 
 ![import-1.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-1.png)
 
-You'll need to specify a swatch name, position, color and image for each color swatch you want to add and upload the .csv file via the **Catalog** -> **Import** section in the cart admin area. The color swatches will be added to the list in the **Catalog** -> **Color swatches** section in the admin area. 
+You'll need to specify a swatch name, position, color and image for each color swatch you want to add and upload the swatches.csv file via the **Catalog** -> **Import** section in the cart admin area. The color swatches will be added to the list in the **Catalog** -> **Color swatches** section in the admin area. 
 
-If you want to assign color swatches to existing product attributes the file format should be as follows:
+{% note info %}
+* The <swatch_color> value should be a HEX presentation of a color.
+* The <position> value is a swatch position on the **Color Swatches** listing page (**Catalog** -> **Color swatches**).
+* The <image> value should be an image URL.
+* The  <name> value should be any swatch name (e.g. red, blue, etc.)
+{% endnote %}
+  
+To import color swatches with existing product global attributes you should use the basic file format as described in {% link "CSV import: Classes & Attributes" ref_qTbDu6Ov %} and add a <swatches> field to the file.
+  
+The <swatches> field should have a value of a swatch name or a list of values of all swatch names delimited with && in case of multiple product options values. The <swatches> field values will be bind with product options. 
+  
+Below is a sample file for importing a global attributes with color swatches:
 
-![import-2.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-2.png)
+![import-3.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-3.png)
+ 
+To import color swatches with existing product specific attributes you should use the basic file format as described in {% link "CSV import: Product attribute values" ref_Z7XdREZl %} and add a <swatch> field to the file. 
+  
+The <swatch> field should have a value of a swatch color in order to assign a color swatch to a product specific attribute.
+  
+Below is a sample import file for importing a product specific attribute with a color swatch option:
 
-Also when importing product attributes you can specify several swatch values at a time similar to the way the options values are specified, e.g. if options are specified as 
-
-```
-options = Red&&Green&&Blue
-```
-color swatches can be specified as 
-```
-swatches = red_swatch&&green_swatch&&blue_swatch
-```
-For more info on importing product attributes please refer to {% link "CSV import: Classes & Attributes" ref_qTbDu6Ov %}.
+![import-2.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-2.png) 
+  
+{% note warning %}
+Please note that the sample import images use the minimum of the required fields and can be used for demostrative purposes only. 
+{% endnote %}
