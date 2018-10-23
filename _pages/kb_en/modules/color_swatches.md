@@ -131,7 +131,7 @@ You'll need to specify a swatch name, position, color and image for each color s
   
 To import color swatches with existing product global attributes you should use the basic file format as described in {% link "CSV import: Classes & Attributes" ref_qTbDu6Ov %} and add a **swatches** field to the file.
   
-The **swatches** field should have a value of a swatch name or a list of values of all swatch names delimited with && in case of multiple product options values. The **swatches** field values will be bind with product options. 
+The **swatches** field should have a value of a swatch name or a list of values of all swatch names delimited with _&&_ in case of multiple product options values. The **swatches** field values will be bind with product options. 
   
 Below is a sample file for importing a global attributes with color swatches:
 
