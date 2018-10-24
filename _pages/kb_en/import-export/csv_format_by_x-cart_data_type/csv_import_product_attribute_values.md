@@ -73,7 +73,7 @@ Below is a list of supported fields and their respective value types for the imp
     <tr>
       <td colspan="1" class="confluenceTd">owner</td>
       <td colspan="1" class="confluenceTd">
-        <p>_Yes_ for *Product-Specific* attributes. _No_ for *Global* attributes.<br />Note that owner value is a part of the key. Changing _No_ to _Yes_, and vice versa, will result in that a new attribute will be added (provided there hasn't been one).</p>
+        <p>Yes for *Product-Specific* attributes. No for *Global* attributes.<br />Note that owner value is a part of unique identifier. Changing No to Yes, and vice versa, will result in that a new attribute will be added (provided there hasn't been one).</p>
       </td>
       <td colspan="1" class="confluenceTd">Yes/No</td>
     </tr>
