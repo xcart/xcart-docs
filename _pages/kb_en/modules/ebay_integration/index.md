@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-10-15 15:10 +0400'
 identifier: ref_0SnFdXk1
-title: X-Cart Bay Integration
+title: X-Cart eBay Integration
 categories:
   - User manual
 published: true
