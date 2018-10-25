@@ -28,11 +28,13 @@ The text of a backorder promo will be displayed in product lists and on the prod
   <div class="column" markdown="span">![1.jpg]({{site.baseurl}}/attachments/1.jpg)</div>
 </div>
 
+{% note info %}
+A backorder option for products can be added on a per product basis by enabling the  **Available for backorder** option on the product details page or for more than one product at a time by importing the required field values. The fields should be added to a products.csv file, e.g.:
 
-A backorder option for products can be added on a per product basis by enabling the  **Available for backorder** option on the product details page or for more than one product at a time by importing the required field values. 
+![backorder-import.png]({{site.baseurl}}/attachments/ref_3XIgbfev/backorder-import.png)
 
-
-For a detailed info on the import file tructure please refer to {% link "CSV import: Products" ref_WmJBfwxA %}.
+For a detailed fields description please refer to {% link "CSV import: Products" ref_WmJBfwxA %}.
+{% endnote %}
 
 All backordered products are recorded in the **Backordered products** section in the admin area (**Orders** -> **Backordered products**) where a store admin can trace the required amount:
 
