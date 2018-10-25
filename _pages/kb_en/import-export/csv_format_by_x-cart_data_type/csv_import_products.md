@@ -761,7 +761,11 @@ There are many more fields which you can include into your product CSV file. Bel
         <p> It's possible to insert the number of units available for backordering by using the '%number%' placeholder.</p>
         <p> EXAMPLE: You can back-order up to '%number%' items. </p>
     </td>
-      <td colspan="1" class="confluenceTd">String</td>
+      <td colspan="1" class="confluenceTd">
+        <p>String</p>  
+        <p>Multilingual</p> 
+        <p>HTML allowed</p>
+    </td>
     </tr>
   <tr>
       <td colspan="1" class="confluenceTd">isBackorderLimited
