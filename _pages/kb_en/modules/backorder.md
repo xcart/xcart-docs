@@ -5,7 +5,7 @@ updated_at: '2018-10-25 11:52 +0400'
 identifier: ref_3XIgbfev
 title: Backorder / Preorder
 order: 36
-published: false
+published: true
 ---
 The [Backorder/Preorder module](https://market.x-cart.com/addons/backorder-preorder.html "Backorder / Preorder") gives a possibility to allow customers order products that are not in stock at the moment.
 
@@ -43,9 +43,3 @@ All backordered products are recorded in the **Backordered products** section in
 Also all orders with the backordered products get a special fulfilment status - **Back-ordered** (**Orders** -> **Orders list**) so that a store admin can differentiate such orders and give them his particular attention:
 
 ![orders-list.png]({{site.baseurl}}/attachments/ref_3XIgbfev/orders-list.png)
-
-
-
-
-
-
