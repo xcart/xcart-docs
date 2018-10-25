@@ -750,7 +750,7 @@ There are many more fields which you can include into your product CSV file. Bel
     <tr>
       <td colspan="1" class="confluenceTd">availableForBackorder
       </td>
-      <td colspan="1" class="confluenceTd">Defines whether a product is available for backorder or not</td>
+      <td colspan="1" class="confluenceTd">Enables the 'Available for backorder' option for the product</td>
       <td colspan="1" class="confluenceTd">Yes/No</td>
     </tr>
   <tr>
@@ -758,15 +758,15 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
       <td colspan="1" class="confluenceTd">
         <p>Defines a backorder promo text that is displayed to customers when a product is out of stock</p>
-        <p> It's possible to insert the number of units available for backordering by using the %number% placeholder.</p>
-        <p> EXAMPLE: You can back-order up to %number% items. </p>
+        <p> It's possible to insert the number of units available for backordering by using the '%number%' placeholder.</p>
+        <p> EXAMPLE: You can back-order up to '%number%' items. </p>
     </td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
   <tr>
       <td colspan="1" class="confluenceTd">isBackorderLimited
       </td>
-      <td colspan="1" class="confluenceTd">Defines whether the <strong>Limit the backorder quantity</strong> option is enabled or not.
+      <td colspan="1" class="confluenceTd">Enables the 'Limit the backorder quantity' option for the product.
 </td>
       <td colspan="1" class="confluenceTd">Yes/No</td>
     </tr>
@@ -774,7 +774,7 @@ There are many more fields which you can include into your product CSV file. Bel
   <tr>
       <td colspan="1" class="confluenceTd">backorderLimit
       </td>
-      <td colspan="1" class="confluenceTd">Defines the maximum backorder quantity
+      <td colspan="1" class="confluenceTd">Defines the maximum backorder quantity.
 </td>
       <td colspan="1" class="confluenceTd">Integer</td>
     </tr>
