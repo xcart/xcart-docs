@@ -25,11 +25,13 @@ The text of a backorder promo will be displayed in product lists and on the prod
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![cus-out-of-stock.png]({{site.baseurl}}/attachments/ref_3XIgbfev/cus-out-of-stock.png)</div>
-  <div class="column" markdown="span">![1.jpg]({{site.baseurl}}/attachments/1.jpg)</div>
+  <div class="column" markdown="span"></div>
 </div>
 
 {% note info %}
-A backorder option for products can be added on a per product basis by enabling the  **Available for backorder** option on the product details page or for more than one product at a time by importing the required field values. The fields should be added to a products.csv file, e.g.:
+A backorder option for products can be added on a per product basis by enabling the  **Available for backorder** option on the product details page or for more than one product at a time by importing the required field values. 
+
+The fields should be added to a products.csv file, e.g.:
 
 ![backorder-import.png]({{site.baseurl}}/attachments/ref_3XIgbfev/backorder-import.png)
 
