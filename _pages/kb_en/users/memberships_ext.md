@@ -17,7 +17,7 @@ You can also enable special payment options for certain groups of customers base
 
 {% toc Let us review each option in detail. %}
 
-## Memberships for Products and Categories
+## Membership-specific Access to Products and Categories
 
 In the section [Setting up wholesale prices and minimum purchase quantites for different membership levels](https://kb.x-cart.com/products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html) of this manual you can find out how to set special prices for the customers who buy items in bulk. Setting memberships on a certain product, groups of products or even categories works a bit different. Using this function you can grant access to specific products or categories only to certain members of your site and hide them from the rest of your customers. The hidden products and categories will still be indexed by Google, so this won't affect the ranks.
 
