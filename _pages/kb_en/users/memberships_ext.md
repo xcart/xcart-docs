@@ -19,9 +19,9 @@ You can also enable special payment options for certain groups of customers base
 
 ## Memberships for Products and Categories
 
-In the section [Setting up wholesale prices and minimum purchase quantites for different membership levels](https://kb.x-cart.com/products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html) of this manual you can find out how to set special prices for the customers who buy bulk items. Setting memberships on a certain product, groups of products or even categories works a bit different. Using this function you can grant access to the items to the particular members of your site only and hide such items from the rest of the customers. The hidden products and categories are still indexed by Google, so this won't affect the ranks.
+In the section [Setting up wholesale prices and minimum purchase quantites for different membership levels](https://kb.x-cart.com/products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html) of this manual you can find out how to set special prices for the customers who buy items in bulk. Setting memberships on a certain product, groups of products or even categories works a bit different. Using this function you can grant access to specific products or categories only to certain members of your site and hide them from the rest of your customers. The hidden products and categories will still be indexed by Google, so this won't affect the ranks.
 
-To hide a category and grant access to it to the certain store members only you should go the the 'Catalog: Categories' section in the cart admin area, choose and open the category you need, and set the required membership(s) in the 'Memberships' field (Figure 1). Please don't forget to press the 'Update' button to save the changes.
+To hide a category and grant access to it only to certain store members, you should go the the 'Catalog: Categories' section in the cart admin area, choose and open the category you need, and set the required membership(s) in the 'Memberships' field (Figure 1). Please don't forget to press the 'Update' button to save the changes.
 
 {% note info %}
 Hold _**Shift**_ if you want to choose more than one membership at a time  
