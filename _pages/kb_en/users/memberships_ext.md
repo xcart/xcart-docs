@@ -21,37 +21,38 @@ You can also enable special payment options for certain groups of customers base
 
 In the section [Setting up wholesale prices and minimum purchase quantites for different membership levels](https://kb.x-cart.com/products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html) of this manual you can find out how to set special prices for the customers who buy items in bulk. Setting memberships on a certain product, groups of products or even categories works a bit different. Using this function you can grant access to specific products or categories only to certain members of your site and hide them from the rest of your customers. The hidden products and categories will still be indexed by Google, so this won't affect the ranks.
 
-To hide a category and grant access to it only to certain store members, you should go the the 'Catalog: Categories' section in the cart admin area, choose and open the category you need, and set the required membership(s) in the 'Memberships' field (Figure 1). Please don't forget to press the 'Update' button to save the changes.
-
-{% note info %}
-Hold _**Shift**_ if you want to choose more than one membership at a time  
-{% endnote %}
+To hide a category and grant access to it only to certain store members:
+    
+   1. Go the the 'Catalog: Categories' section in the your store's Amin area.
+   2. Choose the category you require and open it.
+   3. Specify the membership(s) that should be able to access this category in the 'Memberships' field (Figure 1). Hold down the _**Shift**_ key to select multiple memberships.  
+   4. Don't forget to press the 'Update' button to save the changes.
 
 ![Figure 1]({{site.baseurl}}/attachments/X Cart online store builder    Your company name    Manage category  Apparel.png)
 
+The same needs to be done about the products in this category:
+ 
+   1. Open the 'Catalog: Products' section in the Admin area.
+   
+   2. Filter the product list so it shows only the products from the category you require (the one you worked on at the previous step). This can be done by specifying the category name in the category selector (where it says 'Any Category') and clicking _**Search**_. (Figire 2)
+      ![Figure 2]({{site.baseurl}}/attachments/Products.png)
 
-Once completed you should also do the same to the products from this category. For this purpose please open the 'Catalog: Products' section in the admin area, choose the category you worked with previously in the 'Any Category' drop-down and click _**Search**_. (Figire 2)
+   3. Scroll down the product list and select 'Bulk Edit' > 'Price and Membership' (Figure 3)
+      ![Figure 3]({{site.baseurl}}/attachments/bulk edit.png)
+      
+      You will be redirected to a new page where you will be able to bulk edit product options. 
+    
+   4. Choose the 'Membersips' option and click to specify the membership(s) you need.
+   
+   5. Click _**Save Changes**_. (Figure 4)
+      ![Figure 4]({{site.baseurl}}/attachments/membership.png)
 
-![Figure 2]({{site.baseurl}}/attachments/Products.png)
+That's all. The category and all the products in it are now hidden from any unregistered users. To be able to see this category or a product in it, a customer will need to be logged in and have a membership that we have specified as allowed to access this category/product.
 
-The cart will show you a full list of all products from the chosen caterory as a result. You should scroll the page down, press the 'Bulk Edit' drop-down and choose the 'Price and Membership' option (Figure 3)
+If a non-member tries to open a members-only category page using a direct link, the store will show a `page not found` error. With a members-only product, the store will show an `access denied` error with a link to the 'Contact Us' page so the user can contact the store administrator and request the required membership. (Figure 5)
+       ![Figure 5]({{site.baseurl}}/attachments/access.png)
 
-![Figure 3]({{site.baseurl}}/attachments/bulk edit.png)
-
-You'll be redirected to a new page to edit product options in bulk. Choose the 'Membersips' option and click to specify the membership(s) you need. Press _**Save Changes**_. (Figure 4)
-
-![Figure 4]({{site.baseurl}}/attachments/membership.png)
-
-Doing this we closed a category and all products in it from the unregistered viewers and allowed the registered customers with a particular membership, e.g. Wholesaler, see the category and buy products from it.
-
-If a non-member tries to open a membership category page using a direct category link the cart will show a `page not found` error. If the same with a direct product link, the cart will show the `access denied` error with a possibiity to contact the store admin and ask for membership. (Figure 5)
-
-![Figure 5]({{site.baseurl}}/attachments/access.png)
-
-
-{% note info %}
-The contact the administrator link in the error will redirect a visitor to the 'Contact Us' page (https://www.yourstore.com/cart.php?target=contact_us) where s/he can ask for a membership. A cart admin can give membership to a registered customer only (Access Level - Customer), but not to an anonimous visitor. So to become a member a customer should register an account with your store first.
-{% endnote %}
+Note that a store administrator can give membership to a registered customer only (Access Level - Customer), but not to an anonymous visitor. 
 
 ## Memberships and Taxes
 
