@@ -8,20 +8,18 @@ order: 100
 published: true
 description: memberships and products/categories/discounts/taxes/etc.
 ---
+Memberships can be used to:
+- divide customers into groups (wholesale, retail, etc.) as described in {% link "User membership levels" ref_RXsgxNSm %};
+- grant tax-exempt status to a group of customers;
+- create discounts for certain memberships.
 
+You can also enable special payment options for certain groups of customers based on membership or even sell memberships providing access to better prices.
 
-So how can you benefit from using memberships? Memberships are commonly used for:
-- deviding customers in groups (wholesale, retail, etc.) as described in {% link "User membership levels" ref_RXsgxNSm %}
-- granting a group of customers with a tax-exempt status
-- creating discounts for certain memberships
-
-You can also provide special payment options for certain groups of customers or even sell memberships to the customers for gaining access to better prices. Hence you can not only promote sales with memberships but also earn on them.
-
-{% toc Let's review each option in detail. %}
+{% toc Let us review each option in detail. %}
 
 ## Memberships for Products and Categories
 
-In [Setting up wholesale prices and minimum purchase quantites for different membership levels](https://kb.x-cart.com/products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html) you've learned how to give special prices to the customers who buy bulk items. Setting memberships on a certain product, groups of products or even categories works a bit different. Using this function you can grant access to the items to the particular members of your site only and hide such items from the rest of the customers. The hidden products and categories are still indexed by Google, so this won't affect the ranks.
+In the section [Setting up wholesale prices and minimum purchase quantites for different membership levels](https://kb.x-cart.com/products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html) of this manual you can find out how to set special prices for the customers who buy bulk items. Setting memberships on a certain product, groups of products or even categories works a bit different. Using this function you can grant access to the items to the particular members of your site only and hide such items from the rest of the customers. The hidden products and categories are still indexed by Google, so this won't affect the ranks.
 
 To hide a category and grant access to it to the certain store members only you should go the the 'Catalog: Categories' section in the cart admin area, choose and open the category you need, and set the required membership(s) in the 'Memberships' field (Figure 1). Please don't forget to press the 'Update' button to save the changes.
 
