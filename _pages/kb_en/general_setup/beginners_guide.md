@@ -9,6 +9,8 @@ published: true
 ---
 What to start with to get your first sale? The checklist below outlines all of the steps that you need to take to get started with X-Cart.
 
+{% toc %}
+
 ## Before you start
 
 Before you start setting up your X-Cart store, it's important to find a reliable hosting for your store that whould meet the [sofware system requirements](https://kb.x-cart.com/general_setup/installation_guide.html#server-requirements "Beginners Guide") and set-up a memorable and easy to type store domain so that your customers can find your store online.
