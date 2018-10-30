@@ -44,13 +44,13 @@ The same needs to be done about the products in this category:
     
    4. Choose the 'Membersips' option and click to specify the membership(s) you need.
    
-   5. Click _**Save Changes**_. (Figure 4)
+   5. Click _**Save changes**_. (Figure 4)
       ![Figure 4]({{site.baseurl}}/attachments/membership.png)
 
 That's all. The category and all the products in it are now hidden from any unregistered users. To be able to see this category or a product in it, a customer will need to be logged in and have a membership that we have specified as allowed to access this category/product.
 
 If a non-member tries to open a members-only category page using a direct link, the store will show a `page not found` error. With a members-only product, the store will show an `access denied` error with a link to the 'Contact Us' page so the user can contact the store administrator and request the required membership. (Figure 5)
-       ![Figure 5]({{site.baseurl}}/attachments/access.png)
+      ![Figure 5]({{site.baseurl}}/attachments/access.png)
 
 Note that a store administrator can give membership to a registered customer only (Access Level - Customer), but not to an anonymous visitor. 
 
@@ -119,20 +119,23 @@ To enable paid memberships, make sure the module is installed as described in {%
 
 To create a paid membership:
 
-   1. Go to the '**Catalog** > **Products**' section of your store's Admin area and choose to add a new product (Figure 12).
+   1. If you haven't yet done so, add the membership that you wish to offer to your customers as a paid one.
+   
+   2. Go to the '**Catalog** > **Products**' section of your store's Admin area and choose to add a new product (Figure 12).
       ![Fig 12]({{site.baseurl}}/attachments/add_product.png)
       
-   2. On the page that opens, specify the product details as you require; for example, name, SKU, description, etc. - just like any regular product in your store. 
+   3. On the page that opens, specify the product details as you require; for example, name, SKU, description, etc. - just like any regular product in your store. 
    
-   3. To turn the product into a paid membership, use the setting **Membership to assign to product purchaser** to specify the membership that your customers will be able to get by purchasing the current product (Figure 13) and set the period for which the membership will be granted by adjusting the setting **Membership duration** (Figure 14).
+   4. To turn the product into a paid membership, use the setting **Membership to assign to product purchaser** to specify the membership that your customers will be able to get by purchasing the current product (Figure 13) and set the period for which the membership will be granted by adjusting the setting **Membership duration** (Figure 14).
       ![Fig 13]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.27.png)
       ![Fig 14]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.51.png)
       
-   4. If necessary you can enable your existing members to purchase this membership at a special price and get a level up. The membership price for existing members can be adjusted via the **Prices & Inventory** section (Figure 15). 
+   5. If necessary you can enable your existing members to purchase this membership at a special price and get a level up. The membership price for existing members can be adjusted via the **Prices & Inventory** section (Figure 15). 
       ![Fig 15]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.37.44.png)
 
+   6. Save the changes.
 
-Once created, the membership will become available for sale and your customers will be able to purchase it (Figure 16).
+Once created, the paid membership will become available for sale and your customers will be able to purchase it (Figure 16).
    ![Fig 16]({{site.baseurl}}/attachments/product.png)
 
 If anonymous checkout is enabled in the store, and a buyer of premium membership access chooses to check out without creating an account, the membership will not be assigned to that buyer automatically until an account  is created for them. The store administrator will be notified of such orders with an "action required" warning. 
