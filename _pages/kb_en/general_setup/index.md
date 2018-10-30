@@ -15,7 +15,7 @@ The _General Setup_ section contains tutorials on the basic store installation a
 
 Use X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} if you wonder how to get started and are worried about forgetting the key steps on the way to your first sale. The Beginner's Guide covers all the necessary tutorials from choosing a proper hosting to promoting your store and adding extra sale channels.
 
-If you are considering moving to X-Cart from another platform use our migration tutorials and [contact our Team](https://www.x-cart.com/shopping-cart-migration.htm "General setup") for help.
+If you are considering moving to X-Cart from another platform use our {% link "migration tutorials" ref_7AInnCrh %} and [contact our Team](https://www.x-cart.com/shopping-cart-migration.htm "General setup") for help.
 
 
 Upgrade, Backup, Restore, Relocate
