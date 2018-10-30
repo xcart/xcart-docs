@@ -23,6 +23,8 @@ To get started with PayPal for Marketplaces, you must [register your marketplace
 As a partner, PayPal must vet and approve you before you can use PayPal for Marketplaces. Once approved, additional permissions are attached to your account to allow access to the Marketplaces APIs.
 {% endnote %}
 
+{% toc %}
+
 ## PayPal for Marketplaces installation and set-up
 
 Like all PayPal payment methods, the method "PayPal for Marketplaces" is enabled by the module "PayPal". So please make sure the PayPal module is {% link "installed and enabled" ref_0fGEpvrh %}:
@@ -86,15 +88,15 @@ If necessary, you can adjust the display name of this payment method (the one th
 
 ## Vendor Experience
 
-To be able to receive payments through the PayPal for Marketplaces payment automatically, vendors needs to specify their PayPal Business account in the **Financial info** section of their profile (See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}). 
+To be able to receive payments through the PayPal for Marketplaces payment automatically, vendors need to specify their PayPal Business account in the **Financial info** section of their profile (See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}). 
 
-![vendor-paypal-detail-1.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-paypal-detail-1.png)
+![vendor-connect-paypal.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-connect-paypal.png)
 
 For this purpose they should use the _Connect to PayPal_ link and specify their PayPal Business Merchant ID to get connected. 
 
 If a vendor fails to specify the appropriate PayPal Business account, the money due to them will simply not be transferred to the vendor's account, but will remain in the account of the store administrator. 
 
-All auto-generated PayPal for Marketplaces payments transactions showing the receipt of funds by the store vendors are recorded in the **Vendor transactions** section (**Orders** > **Vendor transactions**):
+All auto-generated PayPal for Marketplaces payments transactions showing the receipt of funds by the store vendors are recorded in the **Vendor transactions** section of the admin area (**Orders** > **Vendor transactions**) and in the **My transactions** section of the vendor area (**My account** -> **My transactions**):
 
 ![vendor-transactions.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-transactions.png)
 
