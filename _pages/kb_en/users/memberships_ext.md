@@ -105,7 +105,7 @@ Choose the offer you'll set up first and press _**Create**_. You'll see a form t
 ![Fig 10]({{site.baseurl}}/attachments/conditions.png)
 
 {% note info %} 
-For detailed guidance on the offers set-up please refer to {% link "Special Offers" ref_special_offers %}
+For detailed guidance on the setup of special offers refer to the section {% link "Special Offers" ref_special_offers %} in this manual.
 {% endnote %}
 
 
@@ -136,27 +136,22 @@ To create a paid membership:
       
    2. On the page that opens, specify the product details as you require; for example, name, SKU, description, etc. - just like any regular product in your store. 
    
-   3. To turn the product into a paid membership, use the setting 'Membership to assign to product purchaser' to specify the membership that your customers will be able to get by purchasing the current product (Figure 13) and set the period for which the membership will be granted by adjusting the setting _**Membership Duration**_ (Figure 14).
-
-![Fig 13]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.27.png)
-![Fig 14]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.51.png)
-
-If necessary you can set a special price for memberships in the 'Prices & Inventory' section if applicable (Figure 15). This way existing members can level up at a special cost.
+   3. To turn the product into a paid membership, use the setting **Membership to assign to product purchaser** to specify the membership that your customers will be able to get by purchasing the current product (Figure 13) and set the period for which the membership will be granted by adjusting the setting **Membership duration** (Figure 14).
+      ![Fig 13]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.27.png)
+      ![Fig 14]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.51.png)
+   4. If necessary you can set a special price for memberships in the 'Prices & Inventory' section (Figure 15). This way existing members can level up at a special cost.
 
 ![Fig 15]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.37.44.png)
 
 
-Once created a membership will become available for sale for customers (Figure 16).
+Once created, the membership will become available for sale and your customers will be able to purchase it (Figure 16).
+   ![Fig 16]({{site.baseurl}}/attachments/product.png)
 
-![Fig 16]({{site.baseurl}}/attachments/product.png)
+If anonymous checkout is enabled in the store, and a buyer of premium membership access chooses to check out without creating an account, the membership will not be assigned to that buyer automatically until an account  is created for them. The store administrator will be notified of such orders with an "action required" warning. 
 
+After the order gets the status 'Paid', the customer will get the membership they have purchased automatically and will be able to access all the membership-specific privileges right away.
 
-{% note info %} 
-If anonymous checkout is enabled, and a customer, buying a premium membership access, prefers to checkout without an account creation, the membership will not be assigned automatically till the account is created. The admin will be notified about such an order with a warning, indicating the "action required". 
-{% endnote %}
+When the membership expires the customer will get an email notification. 
 
-After the order gets a 'Paid' status a customer gets a paid membership automatically and therefore gets access to all membership privileges.
-
-When the membership expires the customer will get an e-mail notification, that will be sent automatically. E-mail notifications for the **Paid Membership** module can be managed in the **Store setup** > **Email notifications** section of the admin area.
-
-![notifications.png]({{site.baseurl}}/attachments/ref_memberships_ext/notifications.png)
+Email notifications for the **Paid Membership** module can be managed in the **Store setup** > **Email notifications** section of the Admin area.
+   ![notifications.png]({{site.baseurl}}/attachments/ref_memberships_ext/notifications.png)
