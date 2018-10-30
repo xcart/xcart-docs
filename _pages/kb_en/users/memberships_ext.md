@@ -55,7 +55,7 @@ That's all. The category and all the products in it are now hidden from any unre
 If a non-member tries to open a members-only category page using a direct link, the store will show a `page not found` error. With a members-only product, the store will show an `access denied` error with a link to the 'Contact Us' page so the user can contact the store administrator and request the required membership. (Figure 5)
       ![Figure 5]({{site.baseurl}}/attachments/access.png)
 
-Note that a store administrator can give membership to a registered customer only (Access Level - Customer), but not to an anonymous visitor. 
+Note that a store administrator can give membership to registered customers only (Access Level - Customer), but not to anonymous visitors. 
 
 ## Membership-specific Taxes
 
