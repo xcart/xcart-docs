@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-10-30 13:42 +0400'
 identifier: ref_22Mt5dpo
-title: Beginners Guide
+title: Beginner's Guide
 order: 100
 published: false
 ---
@@ -66,7 +66,9 @@ After you launch your online store, your business might benefit from adding some
 - [Google Shopping](https://www.x-cart.com/grow-your-sales-with-google-adwords-google-shopping.html "Beginners Guide")
 
 ## SEO and Promotion
-- Configure
-- Define the store pages metadata
-- Configure newsletters
-   
+
+After you launch your online store, you need to promote it. You can improve your store's visibility by thoughtfully defining your home page metadata and by promoting your store in all of the appropriate spaces.
+
+- {% link "Optimize your catalog pages for SEO" ref_OBh3V1k1 %}
+- [Promote your store](https://kb.x-cart.com/seo_and_promotion/ "Beginner's Guide")
+
