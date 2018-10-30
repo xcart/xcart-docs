@@ -54,7 +54,7 @@ If a non-member tries to open a members-only category page using a direct link, 
 
 Note that a store administrator can give membership to a registered customer only (Access Level - Customer), but not to an anonymous visitor. 
 
-## Memberships and Taxes
+## Membership-specific Taxes
 
 Using memberships you can boost sales by offering low tax rates or even tax-free orders for your VIP customers and attact them with lower expences this way. 
 
@@ -67,7 +67,7 @@ To set special taxes for memberships go to the 'Store SetUp: Taxes' section of y
 The detailed description of the tax configuration process you can find in {% link "Setting up sales tax" ref_aJPK4DHN %}.
 {% endnote %}
 
-## Membership Discounts
+## Membership-specific Discounts, Coupons and Special Offers
 
 This is a feature in-demand in deed. Using memberships you can vary a discount level between different groups of customers, provide coupons of limited edition valid only for a particular membership, extend membership sales with special offers.
 
@@ -109,11 +109,11 @@ For detailed guidance on the offers set-up please refer to {% link "Special Offe
 {% endnote %}
 
 
-## Memberships for Payments Methods
+## Membership-specific Payment Methods
 
-With the [Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html) module you'll be able to give extra payment options to the certain groups of customers in your store, e.g. enable PayPal Express Checkout for the wholesale buyers only. 
+With the [Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html) module you will be able to give additional payment options to certain groups of customers in your store; for example, to enable PayPal Express Checkout for wholesale buyers only. 
 
-To enable the feature, please install the 'Memberships for payment methods' module first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed a special 'Memberships' field will appear under each payment method in the 'Store SetUp: Payment Methods' section of the cart admin area (Figure 11).
+To enable the feature, install the 'Memberships for payment methods' module first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once the module is installed, a special 'Memberships' field will appear under each payment method in the 'Store Setup: Payment Methods' section of your store's Admin area (Figure 11).
 
 ![Fig 11]({{site.baseurl}}/attachments/payment.png)
 
@@ -125,9 +125,9 @@ You'll need to define an applicable membership in this field and the payment wil
 
 ## Paid Memberships
 
-The standard membership feature can be extended with a [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html) module that will enable an ability to sell paid memberships as regular products. This module is usefull if you have an extremely favorable options for members worth paying for, e.g. closed sales, vip prices, etc.
+The standard membership feature can be extended using the module [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html). This module enables you to sell paid memberships as regular products. If your customers may be willing to pay for member access to advanced buying options - like closed sales, vip prices and exclusive discounts - this module may be just the thing for you.
 
-To enable the feaure make sure the module is installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed you'll be able to create memberships as products and sell them to your customers. For this purpose go to the '**Catalog** > **Products**' section of the cart admin area and click the 'Add Product' button (Figure 12).
+To enable paid memberships, make sure the module is installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed, you'll be able to create memberships as products and sell them to your customers. For this purpose go to the '**Catalog** > **Products**' section of the cart admin area and click the 'Add Product' button (Figure 12).
 
 ![Fig 12]({{site.baseurl}}/attachments/add_product.png)
 
