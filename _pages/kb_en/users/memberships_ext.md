@@ -56,16 +56,21 @@ Note that a store administrator can give membership to a registered customer onl
 
 ## Membership-specific Taxes
 
-Using memberships you can boost sales by offering low tax rates or even tax-free orders for your VIP customers and attact them with lower expences this way. 
+If some of your clients need to be given lower tax rates or have an exemption from paying the sales tax, you can adjust your store to meet this need by setting up tax rates specifically for different membership levels. 
 
-To set special taxes for memberships go to the 'Store SetUp: Taxes' section of your cart admin area, make sure the 'Use the same tax rates for all user membership levels' option is disabled, create a new tax rate or edit an existing one pointing the required membership (Figure 6). Don't forget to _**Save Changes**_ when done. 
+To set membership-specific tax rates:
+   
+   1. Go to the 'Store Setup: Taxes' section of your store's Admin area to set up your tax.
+   
+   2. When adjusting the details of your tax, make sure the option 'Use the same tax rates for all user membership levels' is disabled.
+   
+   3. Create a new tax rate or edit an existing one specifying the required membership (Figure 6). 
+   
+   4. Be sure to save your changes. 
+   ![Fig 6]({{site.baseurl}}/attachments/tax.png)
 
-![Fig 6]({{site.baseurl}}/attachments/tax.png)
+The detailed description of the tax configuration process is available in the section {% link "Setting up sales tax" ref_aJPK4DHN %} of this manual.
 
-
-{% note info %} 
-The detailed description of the tax configuration process you can find in {% link "Setting up sales tax" ref_aJPK4DHN %}.
-{% endnote %}
 
 ## Membership-specific Discounts, Coupons and Special Offers
 
