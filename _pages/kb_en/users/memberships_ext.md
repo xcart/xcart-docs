@@ -127,11 +127,16 @@ You'll need to define an applicable membership in this field and the payment wil
 
 The standard membership feature can be extended using the module [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html). This module enables you to sell paid memberships as regular products. If your customers may be willing to pay for member access to advanced buying options - like closed sales, vip prices and exclusive discounts - this module may be just the thing for you.
 
-To enable paid memberships, make sure the module is installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed, you'll be able to create memberships as products and sell them to your customers. For this purpose go to the '**Catalog** > **Products**' section of the cart admin area and click the 'Add Product' button (Figure 12).
+To enable paid memberships, make sure the module is installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once the module is installed, you will be able to create memberships as products and sell them to your customers. 
 
-![Fig 12]({{site.baseurl}}/attachments/add_product.png)
+To create a paid membership:
 
-You'll be forwarded to a page to create a new product where it will be necessary to fill in the fields, e.g. name, SKU, description, etc just like any regular product in your store. To make a product a paid membership you should enable the 'Membership to assign to product purchaser' field (Figure 13) and choose a _**Membership Duration**_ (Figure 14).
+   1. Go to the '**Catalog** > **Products**' section of your store's Admin area and choose to add a new product (Figure 12).
+      ![Fig 12]({{site.baseurl}}/attachments/add_product.png)
+      
+   2. On the page that opens, specify the product details as you require; for example, name, SKU, description, etc. - just like any regular product in your store. 
+   
+   3. To turn the product into a paid membership, use the setting 'Membership to assign to product purchaser' to specify the membership that your customers will be able to get by purchasing the current product (Figure 13) and set the period for which the membership will be granted by adjusting the setting _**Membership Duration**_ (Figure 14).
 
 ![Fig 13]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.27.png)
 ![Fig 14]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.51.png)
