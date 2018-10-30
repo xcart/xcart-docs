@@ -11,26 +11,22 @@ icon: configure
 description: Guides describing the process of installing and configuring your X-Cart 5
 published: true
 ---
+The _General Setup_ section contains tutorials on the basic store installation and configuration issues.
+
+Use X-Cart Beginner's Guide if you wonder how to get started and are worried about forgetting the key steps on the way to your first sale. The Beginner's Guide covers all the necessary tutorials from choosing a proper hosting to promoting your store and adding extra sale channels.
+
+If you are considering moving to X-Cart from another platform use our migration tutorials and [contact our Team](https://www.x-cart.com/shopping-cart-migration.htm "General setup") for help.
 
 
-_In this section:_
-
-Installation and Migration
-*   {% link "Installation guide" ref_VG5mIoLT %}
-*   {% link "Managing addons" ref_gTOegEua %}
-*   {% link "Activating your license" ref_qwhmJtqW %}
-*   {% link "Getting started with store migration" ref_otTGssNZ %}
-*   {% link "Migration from X-Cart 4 to X-Cart 5" ref_EntIT03c %}
-*   {% link "Migration from Litecommerce 3 to X-Cart 5" ref_icEFLRUp %}
+Upgrade, Backup, Restore, Relocate
 *   {% link "Upgrading X-Cart 5" ref_pQQ1CLe1 %}
-
-Backup, Restore, Relocate
 *   {% link "How to Back Up and Restore the Site" ref_5cU1i33e %}
 *   {% link "Moving X-Cart to another location" ref_6oFmUXC7 %}
 *   {% link "Changing the admin panel URL (X-Cart 5.2.7+)" ref_Ta5fHl8u %}
 *   {% link "Restoring your store with the Snapshots feature" ref_h7Oh5T8T %}
 
-Store Configuration and Maintenance
+
+Configuration and Maintenance
 *   {% link "Configuring your store's General settings" ref_qAZlJxZm %}
 *   {% link "X-Cart Store Security" ref_4ewdbDM8 %}
 *   {% link "Specifying your company's identity and contact information" ref_HcSs9eFL %}
