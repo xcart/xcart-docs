@@ -19,14 +19,14 @@ You can also enable special payment options for certain groups of customers base
 
 ## Membership-specific Access to Products and Categories
 
-In the section [Setting up wholesale prices and minimum purchase quantites for different membership levels](https://kb.x-cart.com/products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html) of this manual you can find out how to set special prices for the customers who buy items in bulk. Setting memberships on a certain product, groups of products or even categories works a bit different. Using this function you can grant access to specific products or categories only to certain members of your site and hide them from the rest of your customers. The hidden products and categories will still be indexed by Google, so this won't affect the ranks.
+In the section [Setting up wholesale prices and minimum purchase quantites for different membership levels](https://kb.x-cart.com/products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html) of this manual you can find out how to set special prices for the customers who buy items in bulk. Allowing access to a certain product, group of products or product category based on membership works a bit differently. Using this function you can grant access to specific products or categories only to certain members of your site and hide them from the rest of your customers. The hidden products and categories will still be indexed by Google, so this won't affect the ranks.
 
 To hide a category and grant access to it only to certain store members:
     
    1. Go the the 'Catalog: Categories' section in the your store's Amin area.
    2. Choose the category you require and open it.
    3. Specify the membership(s) that should be able to access this category in the 'Memberships' field (Figure 1). Hold down the _**Shift**_ key to select multiple memberships.  
-   4. Don't forget to press the 'Update' button to save the changes.
+   4. Don't forget to save your changes.
 
 ![Figure 1]({{site.baseurl}}/attachments/X Cart online store builder    Your company name    Manage category  Apparel.png)
 
@@ -44,7 +44,7 @@ The same needs to be done about the products in this category:
     
    4. Choose the 'Membersips' option and click to specify the membership(s) you need.
    
-   5. Click _**Save changes**_. (Figure 4)
+   5. Save your changes. (Figure 4)
       ![Figure 4]({{site.baseurl}}/attachments/membership.png)
 
 That's all. The category and all the products in it are now hidden from any unregistered users. To be able to see this category or a product in it, a customer will need to be logged in and have a membership that we have specified as allowed to access this category/product.
