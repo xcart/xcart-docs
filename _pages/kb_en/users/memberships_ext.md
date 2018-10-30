@@ -139,9 +139,9 @@ To create a paid membership:
    3. To turn the product into a paid membership, use the setting **Membership to assign to product purchaser** to specify the membership that your customers will be able to get by purchasing the current product (Figure 13) and set the period for which the membership will be granted by adjusting the setting **Membership duration** (Figure 14).
       ![Fig 13]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.27.png)
       ![Fig 14]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.51.png)
-   4. If necessary you can set a special price for memberships in the 'Prices & Inventory' section (Figure 15). This way existing members can level up at a special cost.
-
-![Fig 15]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.37.44.png)
+      
+   4. If necessary you can enable your existing members to purchase this membership at a special price and get a level up. The membership price for existing members can be adjusted via the **Prices & Inventory** section (Figure 15). 
+      ![Fig 15]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.37.44.png)
 
 
 Once created, the membership will become available for sale and your customers will be able to purchase it (Figure 16).
