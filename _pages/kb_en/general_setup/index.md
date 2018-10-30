@@ -18,7 +18,8 @@ Use X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} if you wonder how to get s
 If you are considering moving to X-Cart from another platform use our {% link "migration tutorials" ref_7AInnCrh %} and [contact our Team](https://www.x-cart.com/shopping-cart-migration.htm "General setup") for help.
 
 
-Upgrade, Backup, Restore, Relocate
+## Upgrade, Backup, Restore, Relocate
+
 *   {% link "Upgrading X-Cart 5" ref_pQQ1CLe1 %}
 *   {% link "How to Back Up and Restore the Site" ref_5cU1i33e %}
 *   {% link "Moving X-Cart to another location" ref_6oFmUXC7 %}
@@ -26,7 +27,8 @@ Upgrade, Backup, Restore, Relocate
 *   {% link "Restoring your store with the Snapshots feature" ref_h7Oh5T8T %}
 
 
-Configuration and Maintenance
+## Configuration and Maintenance
+
 *   {% link "Configuring your store's General settings" ref_qAZlJxZm %}
 *   {% link "X-Cart Store Security" ref_4ewdbDM8 %}
 *   {% link "Specifying your company's identity and contact information" ref_HcSs9eFL %}
