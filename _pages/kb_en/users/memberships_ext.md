@@ -73,20 +73,15 @@ This is a feature in-demand in deed. Using memberships you can vary a discount l
 
 **Membership discounts** can be set up in the 'Discounts: Volume Discounts' section of the admin back-end as described in {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %}. The process is rather straightforward - press the 'Add discount' button, define a subtotal the discount will be applied to in the '$' marked field, define the discount value in % or $ and choose the appropriate membership (Figure 7). You can repeat the process as many times as you need and then press _**Save Changes**_
 
-{% note info %} 
-To allow customers use several types of discount at a time use % to set the value 
-{% endnote %}
-
-![Figure 7]({{site.baseurl}}/attachments/Screen Shot 2018-01-12 at 21.27.47.png)
+To allow customers to use several types of discount at a time use % to set the value 
+   ![Figure 7]({{site.baseurl}}/attachments/Screen Shot 2018-01-12 at 21.27.47.png)
 
 
 **Membership coupons** can be defined in the 'Discounts: Coupons' section of the admin back-end as described in {% link "Setting up discount coupons" ref_SGI1FqdC %}. When creating a membership discount the main point is to set the applicable membership(s) in the 'Membership' area (Figure 8) and save the changes. You can edit the coupon later on by clicking the coupon name and enable/disable it using the On/Off button.
 
 ![Fig 8]({{site.baseurl}}/attachments/coupons.png)
 
-{% note info %} 
-If a non-member uses a membership coupon at checkout a cart will display an error "Sorry, the coupon you entered is not valid for your membership level. Contact the administrator"
-{% endnote %}
+If a non-member uses a members-only coupon at checkout, they will get an error message like the following: "Sorry, the coupon you entered is not valid for your membership level. Contact the administrator"
 
 **Special Offers** for memberships can be set up using the [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Promote Sales with User Memberships") and [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Promote Sales with User Memberships") modules. Using these modules you'll be able to grant your membership users and not only them with such offers like:
 - buy N items from specified categories to get a discount on M of them (the cheapest ones);
@@ -97,30 +92,23 @@ Set the discount to 100%, and customers will get the items for free.
 {% endnote %}
 
 To configure the offers you'll need to have the modules installed first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed the features will become available in the 'Discounts: Special Offers' section of your admin back-end (Figure 9).
-
-![Fig 9]({{site.baseurl}}/attachments/so.png)
+   ![Fig 9]({{site.baseurl}}/attachments/so.png)
 
 Choose the offer you'll set up first and press _**Create**_. You'll see a form that you'll need to feel in to create an offer that will meet the conditions you specify, e.g. dates, rewards, exclusions, etc. As for memberships you'll need to specify them in the 'Conditions' section in the 'Eligible membership levels' field (Figure 10).
+   ![Fig 10]({{site.baseurl}}/attachments/conditions.png)
 
-![Fig 10]({{site.baseurl}}/attachments/conditions.png)
-
-{% note info %} 
 For detailed guidance on the setup of special offers refer to the section {% link "Special Offers" ref_special_offers %} in this manual.
-{% endnote %}
 
 
 ## Membership-specific Payment Methods
 
-With the [Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html) module you will be able to give additional payment options to certain groups of customers in your store; for example, to enable PayPal Express Checkout for wholesale buyers only. 
+With the module [Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html) you will be able to give additional payment options to certain groups of customers in your store; for example, to enable PayPal Express Checkout for wholesale buyers only. 
 
-To enable the feature, install the 'Memberships for payment methods' module first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once the module is installed, a special 'Memberships' field will appear under each payment method in the 'Store Setup: Payment Methods' section of your store's Admin area (Figure 11).
+To enable the feature, install the module 'Memberships for payment methods' module first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once the module is installed, a special 'Memberships' field will appear under each payment method in the 'Store Setup: Payment Methods' section of your store's Admin area (Figure 11).
+   ![Fig 11]({{site.baseurl}}/attachments/payment.png)
 
-![Fig 11]({{site.baseurl}}/attachments/payment.png)
-
-You'll need to define an applicable membership in this field and the payment will become available for the customers with the specified membership only (Figure 12). On checkout, a customer will see only the payment methods available for his membership.
-
-
-![Fig 12]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 16.16.45.png)
+You'll need to use this field to specify the membership to which the payment method should be available (Figure 12). At checkout your customers will be able to see only the payment methods available to their membership group.
+   ![Fig 12]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 16.16.45.png)
 
 
 ## Paid Memberships
