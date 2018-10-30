@@ -153,5 +153,5 @@ After the order gets the status 'Paid', the customer will get the membership the
 
 When the membership expires the customer will get an email notification. 
 
-Email notifications for the **Paid Membership** module can be managed in the **Store setup** > **Email notifications** section of the Admin area.
+Email notifications for the **Paid Membership** module can be managed via the Email notifications section of the Admin area (**Store setup** > **Email notifications**).
    ![notifications.png]({{site.baseurl}}/attachments/ref_memberships_ext/notifications.png)
