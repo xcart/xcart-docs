@@ -5,7 +5,7 @@ updated_at: '2018-10-30 13:42 +0400'
 identifier: ref_22Mt5dpo
 title: Beginner's Guide
 order: 100
-published: false
+published: true
 ---
 What to start with to get your first sale? The checklist below outlines all of the steps that you need to take to get started with X-Cart.
 
