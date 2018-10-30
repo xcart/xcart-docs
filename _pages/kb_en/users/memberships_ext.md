@@ -77,9 +77,9 @@ The detailed description of the tax configuration process is available in the se
 
 ## Membership-specific Discounts, Coupons and Special Offers
 
-This is a feature in-demand in deed. Using memberships you can vary a discount level between different groups of customers, provide coupons of limited edition valid only for a particular membership, extend membership sales with special offers.
+By using memberships you can vary the discount level between different groups of customers, provide coupons of limited edition that are valid only for a particular membership level, as well as extend membership sales with special offers.
 
-**Membership discounts** can be set up in the 'Discounts: Volume Discounts' section of the admin back-end as described in {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %}. The process is rather straightforward - press the 'Add discount' button, define a subtotal the discount will be applied to in the '$' marked field, define the discount value in % or $ and choose the appropriate membership (Figure 7). You can repeat the process as many times as you need and then press _**Save Changes**_
+**Membership discounts** can be set up in the 'Discounts: Volume Discounts' section of the admin back-end as described in {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %}. The process is rather straightforward - press the 'Add discount' button, define a subtotal the discount will be applied to in the '$' marked field, define the discount value in % or $ and choose the appropriate membership (Figure 7). You can repeat the process as many times as you need and then press _**Save changes**_
 
 To allow customers to use several types of discount at a time use % to set the value 
    ![Figure 7]({{site.baseurl}}/attachments/Screen Shot 2018-01-12 at 21.27.47.png)
@@ -91,15 +91,13 @@ To allow customers to use several types of discount at a time use % to set the v
 
 If a non-member uses a members-only coupon at checkout, they will get an error message like the following: "Sorry, the coupon you entered is not valid for your membership level. Contact the administrator"
 
-**Special Offers** for memberships can be set up using the [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Promote Sales with User Memberships") and [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Promote Sales with User Memberships") modules. Using these modules you'll be able to grant your membership users and not only them with such offers like:
+**Special Offers** for memberships can be set up using the [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Promote Sales with User Memberships") and [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Promote Sales with User Memberships") modules. Using these modules you'll be able to grant your membership users, and not only them, with such offers as:
 - buy N items from specified categories to get a discount on M of them (the cheapest ones);
 - spend a particular amount in specified categories to get a discount on M of the items bought from these categories (the cheapest ones).
 
-{% note info %} 
-Set the discount to 100%, and customers will get the items for free. 
-{% endnote %}
+If necessary, it is possible to set the discount to 100%, and your customers will get the items for free. 
 
-To configure the offers you'll need to have the modules installed first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once installed the features will become available in the 'Discounts: Special Offers' section of your admin back-end (Figure 9).
+To configure the offers you will need to have the modules installed first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once the modules are installed, the features will become available in the 'Discounts: Special Offers' section of your store's Admin back end (Figure 9).
    ![Fig 9]({{site.baseurl}}/attachments/so.png)
 
 Choose the offer you'll set up first and press _**Create**_. You'll see a form that you'll need to feel in to create an offer that will meet the conditions you specify, e.g. dates, rewards, exclusions, etc. As for memberships you'll need to specify them in the 'Conditions' section in the 'Eligible membership levels' field (Figure 10).
