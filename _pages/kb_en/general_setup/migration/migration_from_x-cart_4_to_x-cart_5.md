@@ -7,7 +7,7 @@ title: Migration from X-Cart 4 to X-Cart 5
 order: 40
 published: true
 redirect_from:
-  - /migration_from_x-cart_4_to_x-cart_5.html
+  - /general_setup/migration_from_x-cart_4_to_x-cart_5.html
 ---
 ## Introduction
 
