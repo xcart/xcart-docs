@@ -3,18 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-05-01 18:39 +0400'
 identifier: ref_RXsgxNSm
-title: User membership levels
+title: Managing User Membership Levels
 order: 200
 published: true
 redirect_from:
   - /users/adding_user_membership_levels.html
 ---
-To give privileges to certain categories of customers and to restrict access of other customers to these privileges, set up user membership levels. Using membership levels enables you to:
-
-*   provide groups of customers with exclusive access to certain products and categories;
-*   set up membership-specific prices and discounts;
-*   set up membership-specific tax rates.
-
 User membership levels can be set up and managed using the Membership levels section of your store's Admin area (**Users > Membership levels**). 
 
 ## Adding membership levels
