@@ -15,7 +15,9 @@ Memberships can be used to:
 
 You can also enable special payment options for certain groups of customers based on membership or even sell memberships providing access to better prices.
 
-{% toc Let us review each option in detail. %}
+Let us review each option in detail.
+
+{% toc %}
 
 ## Membership-specific Access to Products and Categories
 
