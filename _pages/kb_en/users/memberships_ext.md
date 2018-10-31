@@ -3,23 +3,11 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-01-11 14:22 +0400'
 identifier: ref_memberships_ext
-title: Promote Sales with User Memberships
+title: Using Memberships
 order: 100
 published: true
 description: memberships and products/categories/discounts/taxes/etc.
 ---
-To give privileges to certain categories of customers and to restrict access of other customers to these privileges, it is possible to set up memberships (membership levels). Memberships can be used in a lot of ways. For examlple, memberships enable you to divide customers into groups (wholesale, retail, etc.) and do one or more of the following:
-
-   * provide certain groups of customers with exclusive access to specific products and/or categories;
-   * grant tax-exempt status or provide special tax rates to certain groups of customers;
-   * create discounts, coupons or special offers available only to certain groups of customers;
-   * enable special payment options for a group of customers based on membership;
-
-It is even possible to sell memberships to your customers.
-
-Let us review each option in detail.
-
-{% link "User membership levels" ref_RXsgxNSm %}
 
 {% toc %}
 
