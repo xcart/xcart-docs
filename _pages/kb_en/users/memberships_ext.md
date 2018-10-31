@@ -79,10 +79,17 @@ The detailed description of the tax configuration process is available in the se
 
 By using memberships you can vary the discount level between different groups of customers, provide coupons of limited edition that will be valid only for a specific membership level, and extend membership sales with special offers.
 
-Membership-specific discounts can be set up in the 'Discounts: Volume Discounts' section of the admin back-end as described in {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %}. The process is rather straightforward - press the 'Add discount' button, define a subtotal the discount will be applied to in the '$' marked field, define the discount value in % or $ and choose the appropriate membership (Figure 7). You can repeat the process as many times as you need and then press _**Save changes**_
+Membership-specific discounts can be set up using the module **[Volume Discounts](https://market.x-cart.com/addons/volume-discounts.html)** via the section 'Discounts: Volume Discounts' of the Admin back end. More info on volume discounts is provided in the section {% link "Setting up volume discounts for products" ref_xEadpu9F %}. 
 
-To allow customers to use several types of discount at a time use % to set the value 
-   ![Figure 7]({{site.baseurl}}/attachments/Screen Shot 2018-01-12 at 21.27.47.png)
+The process of setting up a membership-specific volume discount is rather straightforward:
+
+   1. In the Volume discounts section of the store back end (**Discounts** > **Volume discounts**), choose to add a new discount.
+   2. Specify the subtotal amount starting from which the discount will be available. 
+   3. Set the discount amount (may be set as an absolute value or as a percentage)
+   4. Choose the membership level that a customer must have to be able to use the discount (Figure 7). 
+   5. Save your changes.
+    
+      ![Figure 7]({{site.baseurl}}/attachments/Screen Shot 2018-01-12 at 21.27.47.png)
 
 
 Membership-specific coupons can be defined in the 'Discounts: Coupons' section of the admin back-end as described in {% link "Setting up discount coupons" ref_SGI1FqdC %}. When creating a membership discount the main point is to set the applicable membership(s) in the 'Membership' area (Figure 8) and save the changes. You can edit the coupon later on by clicking the coupon name and enable/disable it using the On/Off button.
