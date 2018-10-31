@@ -8,12 +8,12 @@ order: 100
 published: true
 description: memberships and products/categories/discounts/taxes/etc.
 ---
-Memberships can be used to:
+Memberships can be used in a lot of ways. For examlple, in X-Cart it is possible to:
 - divide customers into groups (wholesale, retail, etc.) as described in {% link "User membership levels" ref_RXsgxNSm %};
 - grant tax-exempt status to a group of customers;
-- create discounts for certain memberships.
-
-You can also enable special payment options for certain groups of customers based on membership or even sell memberships providing access to better prices.
+- create discounts for certain membership levels;
+- enable special payment options for a group of customers based on membership;
+- sell memberships providing access to better prices.
 
 Let us review each option in detail.
 
