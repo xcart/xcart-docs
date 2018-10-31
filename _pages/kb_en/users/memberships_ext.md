@@ -113,7 +113,7 @@ To create an offer that will be available only to members:
    ![Fig 10]({{site.baseurl}}/attachments/conditions.png)
    3. Save your changes.
    
-For detailed guidance on the setup of special offers refer to the section {% link "Special Offers" ref_special_offers %} in this manual.
+For detailed information on the setup of special offers, refer to the section {% link "Special Offers" ref_special_offers %} in this manual.
 
 
 ## Membership-specific Payment Methods
