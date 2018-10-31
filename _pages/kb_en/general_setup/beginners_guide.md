@@ -15,7 +15,7 @@ What to start with to get your first sale? The checklist below outlines all of t
 
 Before you start setting up your X-Cart store, it's important to find a reliable hosting for your store that whould meet the [sofware system requirements](https://kb.x-cart.com/general_setup/installation_guide.html#server-requirements "Beginners Guide") and set-up a memorable and easy to type store domain so that your customers can find your store online.
 
-- Choose a hosting for X-Cart
+- [Choose a hosting for X-Cart](https://market.x-cart.com/experts-and-services/hosters/ "Beginner's Guide")
 - [Choose a domain for the store](https://www.x-cart.com/blog/how-to-choose-domain-name.html "Beginners Guide")
 
 ## X-Cart Installation
@@ -73,4 +73,3 @@ After you launch your online store, you need to promote it. You can improve your
 
 - {% link "Optimize your catalog pages for SEO" ref_OBh3V1k1 %}
 - [Promote your store](https://kb.x-cart.com/seo_and_promotion/ "Beginner's Guide")
-
