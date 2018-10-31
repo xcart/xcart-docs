@@ -7,7 +7,7 @@ title: Getting started with store migration
 order: 30
 published: true
 redirect_from:
-  - /getting_started_with_store_migration.html
+  - /general_setup/getting_started_with_store_migration.html
 ---
 ![migration.jpg]({{site.baseurl}}/attachments/ref_otTGssNZ/migration.jpg)
 
