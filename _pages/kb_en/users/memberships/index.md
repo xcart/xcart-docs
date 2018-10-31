@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-10-31 20:20 +0400'
 identifier: ref_5JXPTA0A
 title: Memberships
-order: 100
+order: 500
 published: true
 ---
 
