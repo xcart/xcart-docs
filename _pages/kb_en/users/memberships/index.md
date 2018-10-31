@@ -5,7 +5,7 @@ updated_at: '2018-10-31 20:20 +0400'
 identifier: ref_5JXPTA0A
 title: Memberships
 order: 100
-published: false
+published: true
 ---
 
 To give privileges to certain categories of customers and to restrict access of other customers to these privileges, it is possible to set up memberships (membership levels). Memberships can be used in a lot of ways. For examlple, memberships enable you to divide customers into groups (wholesale, retail, etc.) and do one or more of the following:
