@@ -20,3 +20,4 @@ It is even possible to sell memberships to your customers.
 This section provides information on the management of user memberships in X-Cart and an overview of ways to use memberships in your X-Cart store.
    
    * {% link "Managing User Membership Levels" ref_RXsgxNSm %}
+   * {% link "Using Memberships" ref_memberships_ext %}
