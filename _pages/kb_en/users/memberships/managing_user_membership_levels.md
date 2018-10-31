@@ -8,7 +8,7 @@ order: 200
 published: true
 redirect_from:
   - /users/adding_user_membership_levels.html
-  - /users/user_membership_levels.md
+  - /users/user_membership_levels.html
 ---
 User membership levels can be set up and managed using the Membership levels section of your store's Admin area (**Users > Membership levels**). 
 
