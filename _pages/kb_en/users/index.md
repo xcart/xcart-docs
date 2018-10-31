@@ -15,9 +15,9 @@ published: true
 
 _In this section:_
 
-*   {% link "User types and user accounts" ref_PWr4CNvW %}
-*   {% link "User roles" ref_38HKdc1f %}
-*   {% link "User membership levels" ref_RXsgxNSm %}
+*   {% link "User Types and User Accounts" ref_PWr4CNvW %}
+*   {% link "User Roles" ref_38HKdc1f %}
+*   {% link "User Membership Levels" ref_RXsgxNSm %}
 *   {% link "Promote Sales with User Memberships" ref_memberships_ext %}
-*   {% link "User profile fields" ref_gg1fQDgB %}
-*   {% link ""Operate as a user" feature" ref_26UftgNS %}
+*   {% link "User Profile Fields" ref_gg1fQDgB %}
+*   {% link ""Operate as a User" Feature" ref_26UftgNS %}
