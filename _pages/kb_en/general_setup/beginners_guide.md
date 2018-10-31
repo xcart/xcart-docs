@@ -72,4 +72,4 @@ After you launch your online store, your business might benefit from adding some
 After you launch your online store, you need to promote it. You can improve your store's visibility by thoughtfully defining your home page metadata and by promoting your store in all of the appropriate spaces.
 
 - {% link "Optimize your catalog pages for SEO" ref_OBh3V1k1 %}
-- [Promote your store](https://kb.x-cart.com/seo_and_promotion/ "Beginner's Guide")
+- {% link "Promote your store" ref_Ibr5EziH %}
