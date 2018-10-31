@@ -21,7 +21,7 @@ X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} can help you if you wonder how
 
 If you are considering moving to X-Cart from another platform use our {% link "migrtion tutorials" ref_7AInnCrh %}:
 * {% link "Getting started with store migration" ref_otTGssNZ %}
-{% link "Migration from X-Cart 4 to X-Cart 5" ref_EntIT03c %}
+* {% link "Migration from X-Cart 4 to X-Cart 5" ref_EntIT03c %}
 * {% link "Migration from Litecommerce 3 to X-Cart 5" ref_icEFLRUp %}
 
 You can also [contact our Team](https://www.x-cart.com/shopping-cart-migration.htm "General setup") for help.
