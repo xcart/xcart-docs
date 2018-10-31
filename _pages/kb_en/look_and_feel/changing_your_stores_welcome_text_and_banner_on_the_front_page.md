@@ -11,15 +11,17 @@ order: 250
 ---
 
 
-By default, the Front page of your X-Cart store contains a dummy Welcome message and a dummy banner. Depending on your store's skin and layout, the placement of the banner and welcome message may be somewhat different. For example, here's what it looks like in X-Cart's Standard skin:
+By default, the Front page of your X-Cart store contains a dummy Welcome message and a dummy banner. Depending on your store's skin and layout, the placement of the banner and welcome message may be somewhat different. 
+
+For example, here's what it looks like in X-Cart's Standard skin:
 
 ![xc5_banner_welcome_text.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_text.png)
 
 ## Changing the default Welcome message
 
-One of the first things you will want to do while setting up your new X-Cart store is to remove or change the default Welcome message. 
+One of the first things you might want to do while setting up your new X-Cart store is to remove or change the default Welcome message. 
 
-To change the default Welcome message, follow these steps:
+To change the default Welcome message, follow the steps below:
 
 1.  In your store's Admin area, go to the Front page section (**Content > Front page** menu). Make sure you are viewing the **Front page** tab.
     ![front-page.png]({{site.baseurl}}/attachments/ref_Id69E4GT/front-page.png)
@@ -28,14 +30,14 @@ To change the default Welcome message, follow these steps:
     
     
 {% note info %}    
-If you do not want to use a Welcome text, simply remove the text used by default leaving the Description field blank.
+If you do not want to use a Welcome text, simply remove the text used by default leaving the **Description** field blank.
 {% endnote %}
 
 The Welcome text on the Customer area front page will be updated.
 
 ## Changing the default Front page banner
 
-You will want to change the default banner image shown on the Customer area Front page. 
+You might want to change the default banner image shown on the Customer area Front page. 
 
 You can replace the existing dummy banner with your own one, or you can disable the banner altogether. 
 
@@ -55,9 +57,24 @@ To change the banner contents:
 
 2.  Use the **Enabled** switch to specify whether the banner should be displayed (If you prefer not to show the banner just yet, set this switch to "Off". You will be able to publish the banner later on by setting the switch back to "On" and updating the banner settings).
 
-3.  Set the **Banner inverval (in seconds)**. This setting is intended for a rotating banner - in which more than one images (banner frames) will be switched periodically. The setting specifies the frequency with which individual banner frames should be switched. If you create your banner using just one image, it will not rotate, so this setting will be ignored.
+3.  Set the **Banner inverval (in seconds)**. 
+    
+    This setting is intended for a rotating banner - in which more than one images (banner frames) will be switched periodically. The setting specifies the frequency with which individual banner frames should be switched. If you create your banner using just one image, it will not rotate, so this setting will be ignored.
 
-4.  Upload the image(s) for your banner. To create a simple static banner, you will need to upload just one image. To create a rotating banner, you will need to upload multiple images. For each image you can add a target link: when a store visitor clicks on the banner image, they will be redirected to the page you specify using this link (For example, this could be a link to the details page of a specific product or a specific product category).
+4.  Upload the image(s) for your banner. 
+    
+    To create a simple static banner, you will need to upload just one image. To create a rotating banner, you will need to upload multiple images. 
+    
+    {% note info %}
+    Recommended banner paramethers for Retina and 4k displays:
+    - image size 3840х880 px
+    - JPG format with a 50%-80% compression
+    - file size 100-300 kb
+    
+    You can use tools like [ImageOptim](https://imageoptim.com/ "Changing your store&#39;s Welcome text and banner on the Front page") and/or [TinyPNG](https://tinypng.com/ "Changing your store&#39;s Welcome text and banner on the Front page") for banner optimization.
+    {% endnote %}
+    
+    For each image you can add a target link: when a store visitor clicks on the banner image, they will be redirected to the page you specify using this link (For example, this could be a link to the details page of a specific product or a specific product category).
 
     *   As your banner already contains some image frames by default, you will need to either replace these images with your own ones, or to disable the respective frames so they will not be displayed.
         ![delete-banner.png]({{site.baseurl}}/attachments/ref_Id69E4GT/delete-banner.png)
