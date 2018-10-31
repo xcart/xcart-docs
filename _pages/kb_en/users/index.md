@@ -17,7 +17,6 @@ _In this section:_
 
 *   {% link "User Types and User Accounts" ref_PWr4CNvW %}
 *   {% link "User Roles" ref_38HKdc1f %}
-*   {% link "User Membership Levels" ref_RXsgxNSm %}
-*   {% link "Promote Sales with User Memberships" ref_memberships_ext %}
 *   {% link "User Profile Fields" ref_gg1fQDgB %}
 *   {% link ""Operate as a User" Feature" ref_26UftgNS %}
+*   {% link "Memberships" ref_5JXPTA0A %}
