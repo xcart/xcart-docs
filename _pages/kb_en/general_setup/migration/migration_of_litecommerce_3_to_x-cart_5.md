@@ -8,7 +8,7 @@ order: 50
 published: true
 version: X-Cart 5.0 - 5.1
 redirect_from:
-  - /migration_of_litecommerce_3_to_x-cart_5.html
+  - /general_setup/migration_of_litecommerce_3_to_x-cart_5.html
 ---
 
 ## Introduction
