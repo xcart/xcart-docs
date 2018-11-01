@@ -7,4 +7,5 @@ title: Cloning Products
 order: 100
 published: false
 ---
+![xc5_products_clone.png]({{site.baseurl}}/attachments/ref_5gTzBmtP/xc5_products_clone.png)
 
