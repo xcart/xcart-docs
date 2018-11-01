@@ -25,10 +25,9 @@ Let's review each option in detail.
 
 To enable/disable products in bulk:
 
-* Choose the products you want to edit on the product listing page (**Catalog** -> **Products**)
-* Click either **'Enable all'** or **'Disable all'** button depending on the action you want to apply
-
-  ![enable:disable.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/enable:disable.png)
+   1. Choose the products you want to edit on the product listing page (**Catalog** -> **Products**)
+   2. Click either **'Enable all'** or **'Disable all'** button depending on the action you want to apply
+      ![enable:disable.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/enable:disable.png)
  
 
 ## Bulk put products on sale
@@ -37,9 +36,9 @@ To put products on sale in bulk:
 
    1. Choose products you want to edit on the product listing page (**Catalog** -> **Products**)
    2. Click the **'Put all for sale'** button 
-  ![sale.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/sale.png)
+      ![sale.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/sale.png)
    3. In a pop-up set the value of either the _Sale price_ or _Percent off_ options and click **'Apply price'**
-  ![sale-2.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/sale-2.png)
+      ![sale-2.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/sale-2.png)
  
 
 To cancel sale for products in bulk:
@@ -54,12 +53,12 @@ To edit categories and tags of the products in bulk:
 
    1. Choose the products you want to edit on the product listing page (**Catalog** -> **Products**)
    2. Click **Bulk edit selected** -> **Categories and tags** 
-  ![categories.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/categories.png)
+      ![categories.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/categories.png)
    3. In a new window choose the action you want to perform:
       
       * _Add_/_Remove_/_Move_to_ for Categories AND/OR _Add_/_Remove_/_Replace_with_ for Tags
    4. Click to specify a category/tag value you want to edit (you can specify more than one value)
-    ![categories-1.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/categories-1.png)
+      ![categories-1.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/categories-1.png)
    5. Save the changes.
 
 
