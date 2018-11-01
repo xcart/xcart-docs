@@ -5,7 +5,7 @@ updated_at: '2018-11-01 21:13 +0400'
 identifier: ref_0dCe3PeU
 title: Deleting Products
 order: 100
-published: false
+published: true
 ---
 Products created by mistake or no longer needed (for example, sold out) can be deleted.
 
@@ -19,5 +19,3 @@ To delete one or more products:
    3. When prompted, confirm your intention to delete the selected product(s).
       
 The product(s) will be deleted.
-      
-
