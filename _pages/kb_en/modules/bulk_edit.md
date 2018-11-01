@@ -3,8 +3,8 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-28 13:20 +0400'
 identifier: ref_1kSYmXQn
-title: Bulk Product Edit
-order: 195
+title: Bulk Editing
+order: 44
 published: true
 redirect_from:
   - /products/bulk_edit.html
