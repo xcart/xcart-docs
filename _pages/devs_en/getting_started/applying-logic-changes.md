@@ -104,7 +104,7 @@ Now our module is enabled and we can see how decoration approach works. The cond
 
 and we want this method to return `false` instead of `true`.
 
-For that, we create the `<X-Cart>/classes/XLite/Module/XCExample/DecoratorDemo/View/Product/ListItem.php` file inside our module directory with the folloing content:
+For that, we create the `<X-Cart>/classes/XLite/Module/XCExample/DecoratorDemo/View/Product/ListItem.php` file inside our module directory with the following content:
 
 ```php
 <?php
