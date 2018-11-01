@@ -7,6 +7,4 @@ title: Enabling Shopping by Brand
 order: 1000
 published: false
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+{% link "Shop by Brand Module ref_2LetICls %}
