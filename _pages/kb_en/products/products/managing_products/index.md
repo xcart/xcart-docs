@@ -7,7 +7,7 @@ title: Managing Products
 order: 200
 published: true
 ---
-Usually product management starts with adding products to the catalog. This can be done either on a per product basis, as described below, or via {% link "Import-Export" ref_TANvG2De %}. 
+Usually product management starts with adding products to the catalog. This can be done either {% link "on a per product basis" ref_fhzzxDTy %}, or via {% link "Import-Export" ref_TANvG2De %}. 
 
 Also you'll need to promote your products to customers and make them displayed not only on the category page they belong to. Link products with each other so that customers can see alternatives and related products when viewing a product. See the section {% link "Promotional Blocks" ref_2jxmZvPp %} to find out more about that.
 
@@ -20,3 +20,4 @@ _In this section:_
 _See also:_
 
    * {% link "Bulk Editing" ref_1kSYmXQn %}
+   * {% link "Import-Export" ref_TANvG2De %}
