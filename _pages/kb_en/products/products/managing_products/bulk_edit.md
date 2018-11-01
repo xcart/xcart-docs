@@ -9,13 +9,16 @@ published: true
 redirect_from:
   - /products/bulk_edit.html
 ---
-It's not a secret that making similar changes in multiple products is a monotonous and time-consuming process. It helps a lot when you can change multiple products at the same time. In X-Cart you can do this using the **'Bulk edit all'** tool on the product listing page in the store admin area (**Catalog** -> **Products**).
+It's not a secret that making similar changes in multiple products is a monotonous and time-consuming process. It helps a lot when you can change multiple products at the same time. In X-Cart you can do this using the addon **[Bulk Editing](https://market.x-cart.com/addons/bulk-editing.html)**. 
+   ![xc5_bulk_editing_module.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/xc5_bulk_editing_module.png)
 
-![bulk-edit-all.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/bulk-edit-all.png)
+With the addon **Bulk Editing** installed and enabled in your store, you get a new tool in the Products section of your store's back end - **'Bulk edit all'**:
+   ![bulk-edit-all.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/bulk-edit-all.png)
 
-With the bulk editing tool you can enable/disable products, put products on sale or cancel the sale for the products, change products properties (categories, tags, inventory, prices, etc.).
+With this tool you can enable/disable products, put products on sale (or end a sale) and change other product properties (categories, tags, inventory, prices, etc.).
 
-Let's review each option in details:
+Let's review each option in detail.
+
 {% toc %}
 
 ## Bulk enable/disabe products
