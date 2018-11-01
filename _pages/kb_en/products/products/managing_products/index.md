@@ -9,10 +9,8 @@ published: true
 ---
 Usually product management starts with adding products to the catalog. In X-Cart, products can be added to the catalog one by one manually or via import. You will find information about these methods in the following sections:
    
-   * {% link "Adding Products" ref_fhzzxDTy %}
-     Find out how to add a product manually and learn about the product properties that can be specified for a product.  
-   * {% link "Import-Export" ref_TANvG2De %}
-     Learn about the Import-Export feature and the types and format of data that need to be submitted via a CSV file when creating products by import.
+   * {% link "Adding Products" ref_fhzzxDTy %} - Find out how to add a product manually and learn about the product properties that can be specified for a product.  
+   * {% link "Import-Export" ref_TANvG2De %} - Learn about the Import-Export feature and the types and format of data that need to be submitted via a CSV file when creating products by import.
      
 Information on the management of existing products can be found here:
    
@@ -20,16 +18,12 @@ Information on the management of existing products can be found here:
    
 Then, of course, you will want to control how store visitors will see/access your products. Here are some sections that you may find helpful:
 
-   * {% link "Configuring Your Store General Settings" ref_qAZlJxZm %}
-     Check out the possibilities to adjust the representation of your products on the storefront by adjusting Customer Zone settings like "How to show out of stock products", "Default order to sort products within a category", "Default order to sort products within a search result", "Default display mode for products list" and so on.
+   * {% link "Configuring Your Store General Settings" ref_qAZlJxZm %} - Check out the possibilities to adjust the representation of your products on the storefront by adjusting Customer Zone settings like "How to show out of stock products", "Default order to sort products within a category", "Default order to sort products within a search result", "Default display mode for products list" and so on.
      If you need to set a limit on the maximum product quantity that can be ordered, adjust the setting "Maximum order quantity (per product)" in the same section.
    
-   * {% link "Enabling Shopping by Brand" ref_0i48Hq0P %} 
-     Find out about the option to specify brands for your products and enable your customers to shop by brand.
+   * {% link "Enabling Shopping by Brand" ref_0i48Hq0P %} - Find out about the option to specify brands for your products and enable your customers to shop by brand.
      
-   * {% link "Promotional Blocks" ref_2jxmZvPp %} 
-     Learn how you to get your products displayed in various promotional blocks across your product catalog. 
+   * {% link "Promotional Blocks" ref_2jxmZvPp %} - Learn how you to get your products displayed in various promotional blocks across your product catalog. 
 
-   * {% link "Memberships" ref_5JXPTA0A  %} 
-     Find out how you can provide exclusive access to some products to some of your customers (and restrict access to these products for the rest of your customers).
+   * {% link "Memberships" ref_5JXPTA0A  %} - Find out how you can provide exclusive access to some products to some of your customers (and restrict access to these products for the rest of your customers).
 
