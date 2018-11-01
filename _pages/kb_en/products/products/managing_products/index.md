@@ -29,6 +29,6 @@ Then, of course, you will want to control how store visitors will see/access you
    
    * {% link "Enabling Shopping by Brand" ref_0i48Hq0P %} - Find out about the option to specify brands for your products and enable your customers to shop by brand.
      
-   * {% link "Promotional Blocks" ref_2jxmZvPp %} - Learn how you to get your products displayed in various promotional blocks across your product catalog. 
+   * {% link "Promotional Blocks" ref_2jxmZvPp %} - Learn how you can get your products displayed in various promotional blocks across your product catalog. 
 
    * {% link "Memberships" ref_5JXPTA0A  %} - Find out how you can provide exclusive access to some products to some of your customers (and restrict access to these products for the rest of your customers).
