@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-11-01 21:13 +0400'
 identifier: ref_0dCe3PeU
 title: Deleting Products
-order: 200
+order: 300
 published: true
 ---
 Products created by mistake or no longer needed (for example, sold out) can be deleted.
