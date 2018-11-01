@@ -7,7 +7,7 @@ title: Managing Products
 order: 200
 published: true
 ---
-Usually product management starts with adding products to the catalog. Products can be added to the catalog one by one manually or via import. 
+Usually product management starts with adding products to the catalog. In X-Cart, products can be added to the catalog one by one manually or via import. You will find information about these methods in the following sections:
    
    * {% link "Adding Products" ref_fhzzxDTy %}
      Find out how to add a product manually and learn about the product properties that can be specified for a product.  
