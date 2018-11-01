@@ -11,10 +11,14 @@ Usually product management starts with adding products to the catalog. In X-Cart
    
    * {% link "Adding Products" ref_fhzzxDTy %} - Find out how to add a product manually and learn about the product properties that can be specified for a product.  
    * {% link "Import-Export" ref_TANvG2De %} - Learn about the Import-Export feature and the types and format of data that need to be submitted via a CSV file when creating products by import.
+   
+If you wish to add a new product and a similar product already exists in your store, you may find it helpful to clone the existing product.
+   
+   * {% link "Cloning Products" ref_5gTzBmtP %} - Find out how to create a new product based on an existing one.
      
 Information on the management of existing products can be found here:
    
-   * {% link "Bulk Editing" ref_1kSYmXQn %}
+   * {% link "Bulk Editing" ref_1kSYmXQn %} - Find out how to edit multiple products simultaneously.
    
 Then, of course, you will want to control how store visitors will see/access your products. Here are some sections that you may find helpful:
 
