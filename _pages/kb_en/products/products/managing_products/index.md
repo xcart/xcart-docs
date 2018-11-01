@@ -16,7 +16,7 @@ Usually product management starts with adding products to the catalog. Products 
      
 Then, of course, you will want to control how store visitors will see/access your products. 
 
-   * {% link "Configuring your store General settings" ref_qAZlJxZm %}
+   * {% link "Configuring Your Store General Settings" ref_qAZlJxZm %}
      Check out the possibilities to adjust the representation of your products on the storefront by adjusting Customer Zone settings like "How to show out of stock products", "Default order to sort products within a category", "Default order to sort products within a search result", "Default display mode for products list" and so on.
      If you need to set a limit on the maximum product quantity that can be ordered, adjust the setting "Maximum order quantity (per product)" in the same section.
      
