@@ -17,4 +17,5 @@ _In this section:_
 *   {% link "Setting up Wholesale Prices and Minimum Purchase Quantites for Different Membership Levels" ref_ttZa4qgu %}
 *   {% link "Translating the Catalog into Another Language" ref_5GDTzgnR %}
 *   {% link "Enabling Catalog Mode and Hiding Prices for Products" ref_6TPP8Yyb %} (No checkout)
+*   {% link "Enabling Shopping by Brand" ref_0i48Hq0P %}
 *   {% link "Adding Promotional Blocks" ref_1Rl9SIIU %}
