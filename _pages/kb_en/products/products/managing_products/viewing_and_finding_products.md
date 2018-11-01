@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-11-01 21:37 +0400'
 identifier: ref_5znzAqDd
 title: Viewing and Finding Products
-order: 100
+order: 200
 published: true
 ---
 You can view your products in the Products section of the store back end:
