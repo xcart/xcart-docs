@@ -14,7 +14,7 @@ Usually product management starts with adding products to the catalog. Products 
    * {% link "Import-Export" ref_TANvG2De %}
      Learn about the Import-Export feature and the types and format of data that need to be submitted via a CSV file when creating products by import.
      
-Then, of course, you will want to control how store visitors will see/access your products. 
+Then, of course, you will want to control how store visitors will see/access your products. Here are some sections that you may find helpful:
 
    * {% link "Configuring Your Store General Settings" ref_qAZlJxZm %}
      Check out the possibilities to adjust the representation of your products on the storefront by adjusting Customer Zone settings like "How to show out of stock products", "Default order to sort products within a category", "Default order to sort products within a search result", "Default display mode for products list" and so on.
