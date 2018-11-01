@@ -69,7 +69,8 @@ If you see a user with a pending membership level, you may want to check the use
    2.  Go to see the user's Account details and scroll down the page to the Membership field.
     
    3.  From the drop-down list in the Membership field, select the membership level requested by the user.
-        ![xc5_membership_approve_pending.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_approve_pending.png)
+       ![xc5_membership_approve_pending.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_approve_pending.png)
+        
         (The membership level being requested by the user is shown as 'Pending membership'. The user's current membership level, if any, is shown in the Membership field; the option _Ignore membership_ in the Membership field means that the user currently does not have a membership level assigned.)
    
    4.  Click **Update** to save the changes.
