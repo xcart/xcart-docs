@@ -7,11 +7,23 @@ title: Managing Products
 order: 200
 published: true
 ---
-Usually product management starts with adding products to the catalog. This can be done either {% link "on a per product basis" ref_fhzzxDTy %}, or via {% link "Import-Export" ref_TANvG2De %}. 
+Usually product management starts with adding products to the catalog. Products can be added to the catalog one by one manually or via import. 
+   
+   * {% link "Adding Products" ref_fhzzxDTy %}
+     Find out how to add a product manually and learn about the product properties that can be specified for a product.  
+   * {% link "Import-Export" ref_TANvG2De %}
+     Learn about the Import-Export feature and the types and format of data that need to be submitted via a CSV file when creating products by import.
+     
+Then, of course, you will want to control how store visitors will see/access your products. 
 
-Also you'll need to promote your products to customers and make them displayed not only on the category page they belong to. Link products with each other so that customers can see alternatives and related products when viewing a product. See the section {% link "Promotional Blocks" ref_2jxmZvPp %} to find out more about that.
+   * {% link "Configuring your store General settings" ref_qAZlJxZm %}
+     Check out the possibilities to adjust the representation of your products on the storefront by adjusting Customer Zone settings like "How to show out of stock products", "Default order to sort products within a category", "Default order to sort products within a search result", "Default display mode for products list"
+     If you need to set a limit on the maximum product quantity that can be ordered, adjust the setting "Maximum order quantity (per product)" in the same section.
+     
+   * {% link "Promotional Blocks" ref_2jxmZvPp %} 
+     Learn how you to get your products displayed in various promotional blocks across your product catalog. 
 
-After all the products have been added, you may want to adjust their representation on the storefront. You can choose between **Grid**, **List** and **Table** display modes and set the desired view in your store's general settings (**Store setup** -> **Cart & checkout**). You can get more info on the general settings configuration in {% link "Configuring your store General settings" ref_qAZlJxZm %}.
+
 
 _In this section:_
 
