@@ -7,3 +7,9 @@ title: Deleting Products
 order: 100
 published: false
 ---
+Products created by mistake or no longer needed (sold out) can be deleted.
+
+To delete a product:
+
+   1. 
+![xc5_products_delete.png]({{site.baseurl}}/attachments/ref_0dCe3PeU/xc5_products_delete.png)
