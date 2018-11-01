@@ -18,6 +18,7 @@ If you wish to add a new product and a similar product already exists in your st
      
 Information on the management of existing products can be found here:
    
+   * {% link "Deleting Products" ref_0dCe3PeU %} - Learn how to delete any products you no longer require.
    * {% link "Bulk Editing" ref_1kSYmXQn %} - Find out how to edit multiple products simultaneously.
    
 Then, of course, you will want to control how store visitors will see/access your products. Here are some sections that you may find helpful:
@@ -30,4 +31,3 @@ Then, of course, you will want to control how store visitors will see/access you
    * {% link "Promotional Blocks" ref_2jxmZvPp %} - Learn how you to get your products displayed in various promotional blocks across your product catalog. 
 
    * {% link "Memberships" ref_5JXPTA0A  %} - Find out how you can provide exclusive access to some products to some of your customers (and restrict access to these products for the rest of your customers).
-
