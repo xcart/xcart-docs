@@ -15,16 +15,15 @@ To create a product by cloning:
    
    2. Choose to clone the selected product(s) with the **Clone selected** tool.  
       ![xc5_products_clone.png]({{site.baseurl}}/attachments/ref_5gTzBmtP/xc5_products_clone.png)
-      When prompted, confirm your intention to clone the selected product(s).
+      
+   3. When prompted, confirm your intention to clone the selected product(s).
       
       The store will create an exact copy of the product selected at the previous step (exact in everything but the product SKU; the SKU will be generated based on the original SKU with the addition of "-clone-N", where N is the clone number id).
       ![xc5_products_clone_sku.png]({{site.baseurl}}/attachments/ref_5gTzBmtP/xc5_products_clone_sku.png)
       
-   3. Edit the information of the clone product as you require.
+   4. Edit the information of the clone product as you require.
    
-   4. Save the changes.
+   5. Save the changes.
    
 If you have selected multiple products at Step 2, the resulting clone products will be shown to you as a list on a separate page. You will be able to edit and save each of them separately. Note that you can access the page with your clone products at any time via the Cloned products item in your back end menu (**Catalog** > **Cloned products**).
    ![xc5_products_cloned_products.png]({{site.baseurl}}/attachments/ref_5gTzBmtP/xc5_products_cloned_products.png)
-
-
