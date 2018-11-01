@@ -5,7 +5,7 @@ updated_at: '2018-11-01 21:37 +0400'
 identifier: ref_5znzAqDd
 title: Viewing and Finding Products
 order: 100
-published: false
+published: true
 ---
 You can view your products in the Products section of the store back end:
    ![xc5_products_view_products.png]({{site.baseurl}}/attachments/ref_5znzAqDd/xc5_products_view_products.png)
@@ -17,4 +17,3 @@ Note that this form contains more fields than are immediately visible. You can e
    ![xc5_products_filter1.png]({{site.baseurl}}/attachments/ref_5znzAqDd/xc5_products_filter1.png)
 
 The set of filtering fields available to you in the search/filter form may be different from what you see in the screenshot above as it depends on the set of modules/features enabled in your store.
-
