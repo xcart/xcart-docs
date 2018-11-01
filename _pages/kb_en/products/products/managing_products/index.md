@@ -24,8 +24,8 @@ Then, of course, you will want to control how store visitors will see/access you
      Check out the possibilities to adjust the representation of your products on the storefront by adjusting Customer Zone settings like "How to show out of stock products", "Default order to sort products within a category", "Default order to sort products within a search result", "Default display mode for products list" and so on.
      If you need to set a limit on the maximum product quantity that can be ordered, adjust the setting "Maximum order quantity (per product)" in the same section.
    
-   * {% link "Shop by Brand Module ref_2LetICls %} 
-     Find out how to specify brands for your products and enable your customers to shop by brand.
+   * {% link "Enabling Shopping by Brand" ref_0i48Hq0P %} 
+     Find out about the option to specify brands for your products and enable your customers to shop by brand.
      
    * {% link "Promotional Blocks" ref_2jxmZvPp %} 
      Learn how you to get your products displayed in various promotional blocks across your product catalog. 
