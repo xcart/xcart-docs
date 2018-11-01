@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-11-01 18:04 +0400'
 identifier: ref_5gTzBmtP
 title: Cloning Products
-order: 100
+order: 1000
 published: true
 ---
 If you need to create a new product in your X-Cart store and know that you already have a similar product in the store catalog, you can create the new product by cloning the existing one. 
