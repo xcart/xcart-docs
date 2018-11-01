@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-25 22:43 +0400'
 identifier: ref_fhzzxDTy
-title: Adding products
+title: Adding Products
 categories:
   - User manual
 published: true
