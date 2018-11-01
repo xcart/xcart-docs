@@ -14,6 +14,10 @@ Usually product management starts with adding products to the catalog. In X-Cart
    * {% link "Import-Export" ref_TANvG2De %}
      Learn about the Import-Export feature and the types and format of data that need to be submitted via a CSV file when creating products by import.
      
+Information on the management of existing products can be found here:
+   
+   * {% link "Bulk Editing" ref_1kSYmXQn %}
+   
 Then, of course, you will want to control how store visitors will see/access your products. Here are some sections that you may find helpful:
 
    * {% link "Configuring Your Store General Settings" ref_qAZlJxZm %}
@@ -26,11 +30,3 @@ Then, of course, you will want to control how store visitors will see/access you
    * {% link "Memberships" ref_5JXPTA0A  %} 
      Find out how you can provide exclusive access to some products to some of your customers (and restrict access to these products for the rest of your customers).
 
-_In this section:_
-
-   * {% link "Adding Products" ref_fhzzxDTy %}
-
-_See also:_
-
-   * {% link "Bulk Editing" ref_1kSYmXQn %}
-   * {% link "Import-Export" ref_TANvG2De %}
