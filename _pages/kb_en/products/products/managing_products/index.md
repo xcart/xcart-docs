@@ -15,5 +15,8 @@ After all the products have been added, you may want to adjust their representat
 
 _In this section:_
 
-*   {% link "Adding Products" ref_fhzzxDTy %}
+   * {% link "Adding Products" ref_fhzzxDTy %}
 
+_See also:_
+
+   * {% link "Bulk Editing" ref_1kSYmXQn %}
