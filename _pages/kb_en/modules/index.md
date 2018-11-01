@@ -28,6 +28,7 @@ _In this section:_
 *   {% link "Blog System in X-Cart 5" ref_T5FrnC4x %}
 *   {% link "Block Users by IP / Country / User agent" ref_3rhs1MJ8 %}
 *   {% link "Booking" ref_iTdd1QoP %}
+*   {% link "Bulk Editing" ref_1kSYmXQn %}
 *   {% link "Bundle Products" ref_1nuTw4Kc %}
 *   {% link "Call for Price Module" ref_3K1pJExV %}
 *   {% link "Canada Post" ref_ifwLo5ks %}
