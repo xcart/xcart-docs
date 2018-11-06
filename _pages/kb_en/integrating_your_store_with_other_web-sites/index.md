@@ -15,7 +15,7 @@ X-Cart is integrated with many sales channels that merchants can use to sell pro
 
 Configure one of the following sales channels to broaden your customer base and instantly boost online sales: 
 
-*   {% link "Adding products to cart via URL" ref_lG8NdRzr %}
+*   {% link "Adding products to cart via URL" ref_lG8NdRzr %} - Use deep linking to reference your store for other sources.
 
 *   Amazon Feeds (under construction) - Manage your Amazon listings and X-Cart products in a single location.
 
