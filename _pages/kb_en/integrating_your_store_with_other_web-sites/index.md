@@ -11,7 +11,9 @@ icon: plug
 description: Learn how to connect X-Cart store to other websites
 published: true
 ---
-X-Cart is integrated with many sales channels that merchants can use to sell products and reach more customers. Configure one of the following sales channels to a store to grow your businesses:
+X-Cart is integrated with many sales channels that merchants can use to sell products and reach more customers. Multiple online marketplaces, like Facebook, Amazon, eBay and Google shopping are trusted by millions of online shoppers.
+
+Configure one of the following sales channels to broaden your customer base and instantly boost online sales: 
 
 *   {% link "Adding products to cart via URL" ref_lG8NdRzr %}
 
