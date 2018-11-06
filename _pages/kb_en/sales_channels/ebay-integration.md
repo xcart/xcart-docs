@@ -8,6 +8,3 @@ order: 100
 published: false
 redirect_to: 'https://kb.x-cart.com/modules/ebay_integration/index.html'
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
