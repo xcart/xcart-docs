@@ -60,7 +60,7 @@ Test your store before launching. Place and process some test orders to see how 
 
 ## Sales channels (if applicable)
 
-After you launch your online store, your business might benefit from adding some other online channels to your X-Cart store. There are several online channels that you can add to X-Cart when selling online. These channels are optional, but each can be used to maximize your store's audience.
+After you launch your online store, your business might benefit from adding some other {% link "online sales channels" ref_ybdJste8 %} to your X-Cart store. There are several online channels that you can add to X-Cart when selling online. These channels are optional, but each can be used to maximize your store's audience.
 
 - [Amazon](https://www.x-cart.com/sell-online/how-to-sell-on-amazon.html "Beginners Guide")
 - [eBay](https://www.x-cart.com/sell-online/how-to-sell-on-ebay.html "Beginners Guide")
