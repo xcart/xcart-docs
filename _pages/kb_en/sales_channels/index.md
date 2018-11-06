@@ -10,6 +10,8 @@ order: 130
 icon: plug
 description: Learn how to connect X-Cart store to other websites
 published: true
+redirect_from:
+  - /integrating_your_store_with_other_web-sites/index.html
 ---
 X-Cart is integrated with many sales channels that merchants can use to sell products and reach more customers. Multiple online marketplaces, like Facebook, Amazon, eBay and Google shopping are trusted by millions of online shoppers.
 
