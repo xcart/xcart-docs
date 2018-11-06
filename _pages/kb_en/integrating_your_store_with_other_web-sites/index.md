@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2015-12-21 00:00'
 identifier: ref_ybdJste8
-title: Sale Channels
+title: Sales Channels
 categories:
   - home
 order: 130
