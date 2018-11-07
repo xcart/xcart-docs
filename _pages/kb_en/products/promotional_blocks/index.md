@@ -7,26 +7,32 @@ title: Promotional Blocks
 order: 100
 published: true
 ---
-Promotional blocks and elements allow to extend the default products presentation in the storefront and engage customers in viewing more products than they initially intended. 
+Promotional blocks enable you to enhance the default presentation of your products on the storefront and engage customers in viewing more products than they initially intended. 
 
-Using informative _New Arrivals_, _Comming Soon_, _Bestsellers_ or _Recently Viewed_ blocks helps customers to learn and navigate through your store stock better and if products in such blocks are marked with stickers they will gain special customers' attention for sure.
+The blocks _New Arrivals_, _Comming Soon_, _Bestsellers_ or _Recently Viewed_ can be used to help your customers to navigate through your catalog better. Stickers displayed on the products in such blocks - with messages like "10% off","30% less" (than the market price) or any custom text - are sure to gain additional customers' attention. For more info on this, see the following sections:
+   
+  * {% link "Enabling the «New arrivals» block" ref_2A50nkO9 %}
+  * {% link "Enabling the «Coming soon» block" ref_hQnN8cAT %}
+  * {% link "Enabling the «Recently viewed» block" ref_9aKsqqeK %}
+  * {% link "Enabling the Bestsellers block" ref_p1CIVmy6 %}
+  * {% link "Product Stickers" ref_2O2hXMhF %}
 
-The featured and related products blocks attract customers to the items that may supplement the products they've added to cart so far. 
+_Featured products_ and _Related products_ can be used to attract your customers to alternatives or additional items that may supplement the product being viewed or have been added to the shopping cart previously. For information on these, see: 
 
-_Product Tags_ block helps to search for products quicker and easier while _product reviews_ and _questions_ allow to share experience and give more product insignt to build a strong customer community.
+   * {% link "Adding featured products" ref_4iFdpTdv %}
+   * {% link "Adding related products" ref_4a5rpsQq %}
 
-For more convenience change the default blocks display to product carousel. 
+The _Product Tags_ block can help your store visitors to search for products quicker and easier, whereas _Product Reviews_ and _Questions_ enable your store users to share their experience and give more product insight to build a strong customer community. See the following sections:
 
-_In this section:_
+   * {% link "Product Tags" ref_6nFoxYf1 %}
+   * {% link "Product Reviews" ref_5Cs8QXil %}
+   * {% link "Product Questions" ref_2FZ36bkz %}
 
-*   {% link "Adding featured products" ref_4iFdpTdv %}
-*   {% link "Adding related products" ref_4a5rpsQq %}
-*   {% link "Enabling the «New arrivals» block" ref_2A50nkO9 %}
-*   {% link "Enabling the «Coming soon» block" ref_hQnN8cAT %}
-*   {% link "Enabling the «Recently viewed» block" ref_9aKsqqeK %}
-*   {% link "Enabling the Bestsellers block" ref_p1CIVmy6 %}
-*   {% link "Product Reviews" ref_5Cs8QXil %}
-*   {% link "Product Tags" ref_6nFoxYf1 %}
-*   {% link "Products Carousel" ref_4yBBezmL %}
-*   {% link "Product Questions" ref_2FZ36bkz %}
-*   {% link "Product Stickers" ref_2O2hXMhF %}
+For an alternative layout and convenient accessiblity of the above named promotional blocks, it is possible to enable a product carousel. For details see:
+   
+   * {% link "Products Carousel" ref_4yBBezmL %}
+
+
+
+
+
