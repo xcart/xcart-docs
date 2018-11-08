@@ -21,7 +21,7 @@ When a choice of a payment processor is made it's time to proceed to the payment
 
 *   {% link "Accepting payments" ref_Jq6Bsdrt %}
 
-You can enable different payment methods in X-Cart so that your customers have a choice of payment options at checkout:
+You can enable different payment methods in X-Cart so that your customers have a choice of payment options at checkout. Below are the most popular payment processors supported by X-Cart:
 
 *   {% link "PayPal" ref_g8OosGK4 %}
 *   {% link "Braintree" ref_3U96LOWn %}
