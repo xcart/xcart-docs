@@ -11,7 +11,7 @@ categories:
   - home
 published: true
 ---
-Data import is a perfect wayout if you don't have time and/or desire to populate your store with products and customers adding them manually one-by-one. It's even possible to import orders if necessary.
+Data import is a perfect way-out if you don't have time and/or desire to populate your store with products and customers adding them manually one-by-one. It's even possible to import orders if necessary.
 
 {% note info %}
 If you want to add multiple changes to the products that are present in the database already, you might find it easier to use {% link "bulk editing" ref_1kSYmXQn %} instead.
