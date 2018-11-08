@@ -11,11 +11,18 @@ icon: payment
 description: Enable payment methods to accept payments from buyers
 published: true
 ---
+Getting paid is what a business is meant for. 
 
-_In this section:_
+Understanding the payment process is an important step toward getting paid by your customers. All of X-Cart supported payment methods rely on third-party providers to process your transactions. These providers might charge extra fees, as well as enforce rules about what products you can sell using their service. Hence each merchant should consider these factors as well as the countries where the business is located and where customers live and many other criteria when choosing a payment gateway. 
 
 *   {% link "Choosing a payment gateway" ref_CT7rXfVw %}
+
+When a choice of a payment processor is made it's time to proceed to the payment gateway configuration in your X-Cart admin backend. 
+
 *   {% link "Accepting payments" ref_Jq6Bsdrt %}
+
+You can enable different payment methods in X-Cart so that your customers have a choice of payment options at checkout:
+
 *   {% link "PayPal" ref_g8OosGK4 %}
 *   {% link "Braintree" ref_3U96LOWn %}
 *   {% link "Authorize.NET" ref_3fG0OGvw %}
@@ -24,3 +31,9 @@ _In this section:_
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
 *   {% link "Stripe" ref_1SRSOBWa %}
+
+You can get even [more payment options](https://www.x-payments.com/help/X-Payments:Payment_gateways_supported_by_X-Payments_3.1 "Payments") for checkout if using X-Payments, a platform by a PCI DSS Level 1 certified service provider that is intended for merchants who need to accept credit card payments online and who require compliance with the PCI DSS standard. 
+
+*   {% link "X-Payments connector" ref_NaZh0d1b %}
+*   {% link "X-Payments subscriptions" ref_8VFoqBFZ %}
+
