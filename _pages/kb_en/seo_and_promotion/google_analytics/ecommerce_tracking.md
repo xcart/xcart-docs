@@ -56,10 +56,10 @@ To build a sales funnel go to the **Admin** -> **Account** -> **Property** -> **
 
 Click on the red **'New Goal'** button and follow the steps in the guide. 
 
-1. The first step is _Goal set-up_. Choose 'Custom' here and click **Continue**.
+1. The first step is **Goal set-up**. Choose 'Custom' here and click **Continue**.
   ![goal-custom.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/goal-custom.png)
 
-2. The second step is Goal Description.
+2. The second step is **Goal Description**.
    Here you'll need to define the goal name and [Goal slot ID](https://support.google.com/analytics/answer/1012040?hl=en&ref_topic=6150889#goal_sets "Ecommerce Tracking with Google Analytics").
    ![goal-description.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/goal-description.png)
    Also you'll need to set up a [goal type](https://support.google.com/analytics/answer/1032415#goal_type "Ecommerce Tracking with Google Analytics") that can be either:
@@ -71,14 +71,16 @@ Click on the red **'New Goal'** button and follow the steps in the guide.
    Click **'Continue'** after the goal type is defined.  
 
 3. The third step is **Goal details**.
-   The Goal details will depend on the Goal type you specified. 
+   The **Goal details** will depend on the **Goal type** you specified. 
      * The Destination goal type - You'll need to specify the screens or pages the user must visit prior to the final destination goal by turning on the Funnel option. For each step in the funnel, click +Add another Step, then enter a page name or an app screen name, as you did in the Destination field.
      * The Duration goal type - You'll need to specify the desired session duration
      * The Pages/Screen per session goal type - You'll need to specify a number of pages or screens users should view to generate a conversion.
      * The Event goal type - You'll need to set up at least one [Event](https://support.google.com/analytics/answer/1033068?hl=en-GB&utm_id=ad "Ecommerce Tracking with Google Analytics") to use Event goals. Use the Event conditions to configure the event components.
      
 
-Click **Save** when the goal set-up is complete. Within 24 hours, GA will start tracking data based on the goals you set up and you can generate relevant reports to help you optimize your business. You can check the reports in the **Conversions** -> **Goals** -> **Funnel Visualization** section.
+Click **Save** when the goal set-up is complete. 
+
+Within 24 hours, GA will start tracking data based on the goals you set up and you can generate relevant reports to help you optimize your business. You can check the reports in the **Conversions** -> **Goals** -> **Funnel Visualization** section.
 
 Moreover, you can configure scheduled email reports to your inbox based in the goals you set, so that you won't even need to open GA to check them. Just click **Share** on the top and set up the frequency (daily, weekly, monthly, or only once) and type in your email address.
 
