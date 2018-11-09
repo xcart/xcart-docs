@@ -20,3 +20,7 @@ X-Cart 5.3.3:
 
 X-Cart 5.2.4
 <iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/p552BZzZHHE" frameborder="0"></iframe>
+
+_See also:_ 
+
+   * [Basic Design Changes in X Cart 5.3](https://kb.x-cart.com/webinars_and_video_tutorials/basic_design_changes_in_x-cart_5.3.html)
