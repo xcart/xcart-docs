@@ -28,25 +28,34 @@ The default Google Analytics reports that you'll see on the homepage are most li
 These reports will be based on the data submitted by our X-Cart store to Google Analytics and will give you an insight into how your business is doing, who your customers are, where they’re coming from, and what they are buying.
 
 All reports are joined into groups that are listed in the left column to your convenience: 
-1. Real-time section shows you traffic and engagement figures on a live, real time basis.
-2. Audience section covers data related to your audience’s location, browser, platform, demographics, and interests. You can also do [cohort analysis](https://support.google.com/analytics/answer/6158745?hl=en "Ecommerce Tracking with Google Analytics") and visualize your audience’s flow through your site.
-3. Acquisition section shows you how and where did you get your customers (through search, social, referrals, advertising, or direct visits).
-4. Behavior section contains reports on the visitors' interaction with your site. You can learn what pages are most popular with your customers, get stats on the site events, etc.
-5. Conversions section is useful for tracking conversion rates for your stated goals. 
-  The **Conversions** -> **E-commerce** tab is where you can see the basic sales funnel reports based on a linear path to purchase logic. Here you can trace the standard % Completion and % Abandonment rates.
+
+1. **Real-time** section shows you traffic and engagement figures on a live, real time basis.
+2. **Audience** section covers data related to your audience’s location, browser, platform, demographics, and interests. You can also do [cohort analysis](https://support.google.com/analytics/answer/6158745?hl=en "Ecommerce Tracking with Google Analytics") and visualize your audience’s flow through your site.
+3. **Acquisition** section shows you how and where did you get your customers (through search, social, referrals, advertising, or direct visits).
+4. **Behavior** section contains reports on the visitors' interaction with your site. You can learn what pages are most popular with your customers, get stats on the site events, etc.
+5. **Conversions** section is useful for tracking conversion rates for your stated goals. 
   
-  ![default-ecommerce-tracking.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/default-ecommerce-tracking.png)
+   The **Conversions** -> **E-commerce** tab is where you can see the basic sales funnel reports based on a linear path to purchase logic. Here you can trace the standard % Completion and % Abandonment rates.
   
-  
-  Besides Shopping Behaviour you can also trace Checkout Behaviour, Sales Performance, Products Performance, etc.
+   ![default-ecommerce-tracking.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/default-ecommerce-tracking.png)
+   
+   Besides Shopping Behaviour you can also trace Checkout Behaviour, Sales Performance, Products Performance, etc.
 
 In addition to the preset sales funnels you can build custom sales funnels based on your goals and events you want to track.
+
+{% note info %}
+Before you proceed with the goals make sure the **Enable Enhanced Ecommerce Reporting** option is enabled in the **Ecommerce Settings** -> **Enhanced Ecommerce Settings** section:
+
+![reporting-on.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/reporting-on.png)
+{% endnote %}
+
 
 To build a sales funnel go to the **Admin** -> **Account** -> **Property** -> **View** -> **Goals** section.
 
 ![goals.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/goals.png)
 
 Click on the red **'New Goal'** button and follow the steps in the guide. 
+
 1. The first step is _Goal set-up_. Choose 'Custom' here and click **Continue**.
   ![goal-custom.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/goal-custom.png)
 
