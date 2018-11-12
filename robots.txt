@@ -2,5 +2,6 @@
 ---
 User-agent: *
 Disallow: /ref_*
+Disallow: /search.html?*
 Host: {{ site.url }}
 Sitemap: {{ "sitemap.xml" | absolute_url }}
