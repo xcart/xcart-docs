@@ -9,9 +9,9 @@ published: true
 redirect_from:
   - /products/tags.html
 ---
-[Product Tags](https://market.x-cart.com/addons/product-tags.html "Product Tags") is a built-in X-Cart 5 module that can be used to narrow down search results either within the {% link "Product Filter Module" ref_6e82A7rL %} or independently of it and hence can improve the oveall customer experience. 
+The X-Cart module [Product Tags](https://market.x-cart.com/addons/product-tags.html "Product Tags") can be used to narrow down the search results either within the {% link "Product Filter Module" ref_6e82A7rL %} or independently of it and hence can improve the overall customer experience. 
 
-Please check that the **Product Tags** module is {% link "installed and enabled" ref_0fGEpvrh %} in the **Addons** section of the store admin area. 
+To start using the **Product Tags** module, ensure that it is {% link "installed and enabled" ref_0fGEpvrh %} in the **Addons** section of the store's Admin area. 
 
 ![addons.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/addons.png)
 
