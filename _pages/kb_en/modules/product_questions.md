@@ -82,20 +82,6 @@ The newly added question will appear in the questions list in the Admin area and
   <div class="column" markdown="span"><i>New question on the storefront</i>![cus-question-from-admin.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-question-from-admin.png)</div>
 </div>
 
-## Vendor Experience
-
-When used with {% link "X-Cart Multivendor" ref_4ahg5FLK %}, the email messages with product questions get sent to the owner of the product:
-
-   * If the product is owned by a vendor, the email message is sent to the vendor. 
-   * If the product is owned by an administrator acting as a vendor, the email message is sent to them, respectively. 
-
-In the store back end, the product owner can answer the questions about their products, and the answers are shown to the customers with the name of the product owner attached to them.
-
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span"><i>Vendor answer in the Vendor area</i>![vendor-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/vendor-question.png)</div>
-  <div class="column" markdown="span"><i>Vendor answer on the storefront</i>![cus-vendor-answer.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-vendor-answer.png)</div>
-</div>
-
 ## Email Notifications
 
 Email notifications sent by the module can be managed by the store administrator in the **Email notifications** section of the Admin area (Store setup -> Email notifications). For more info on the management of email notifications, see {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}.
