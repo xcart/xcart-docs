@@ -59,8 +59,8 @@ In this section the store administrator can answer the questions submitted by th
 To answer a question, the store administrator needs to click on the question or the **Reply** button opposite it, type the answer in the **Answer** field and click **Update**. The answer to the question will be posted on the product details page on the storefront and, if the emailed of the customer who asked the question is available, will also be sent to the customer by email.
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span"><i>Reply on the product details page</i>![cus-admin-reply.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-admin-reply.png)</div>
-  <div class="column" markdown="span"><i>Reply in e-mail</i>![cus-answer-email.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-answer-email.png)</div>
+  <div class="column" markdown="span"><i>Admin answer on the product details page</i>![cus-admin-reply.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-admin-reply.png)</div>
+  <div class="column" markdown="span"><i>Admin answer in an email message</i>![cus-answer-email.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-answer-email.png)</div>
 </div>
 
 Any questions that have not yet been answered are visible only to the people who asked them. Such questions appear with a special "on moderation" mark next to them. 
@@ -71,30 +71,35 @@ Any questions that have not yet been answered are visible only to the people who
 To get the product page loaded faster, the **Questions** tab lists only a few recent questions along with a link to show the entire list of them. The module uses the AJAX technique to update product questions without a complete page reload.
 {% endnote %}
 
-To add a new question a store admin should click the **New question** button in the **Questions** section (**Catalog** -> **Questions**), fill in the questionnaire and click **Create**.
+To add a new question, the store administrator needs to click **New question** in the **Questions** section (**Catalog** -> **Questions**), complete the product question form and submit it by clicking **Create**.
 
 ![adm-create-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/adm-create-question.png)
 
-The newly added question will appear in the questions list in the admin area and will be added to the **Questions** tab of the product details page in the storefront.
+The newly added question will appear in the questions list in the Admin area and will be added to the **Questions** tab of the product details page on the storefront.
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span"><i>New question in the admin area</i>![adm-new-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/adm-new-question.png)</div>
-  <div class="column" markdown="span"><i>New question in the storefront</i>![cus-question-from-admin.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-question-from-admin.png)</div>
+  <div class="column" markdown="span"><i>New question in the Admin area</i>![adm-new-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/adm-new-question.png)</div>
+  <div class="column" markdown="span"><i>New question on the storefront</i>![cus-question-from-admin.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-question-from-admin.png)</div>
 </div>
 
 ## Vendor Experience
 
-When used together with {% link "Multivendor" ref_4ahg5FLK %} module e-mails with questions about a product are sent to the vendor that added the product. In the back-end vendors can answer questions about their products, and the answers show up with the vendor's name.
+When used with {% link "X-Cart Multivendor" ref_4ahg5FLK %}, the email messages with product questions get sent to the owner of the product:
+
+   * If the product is owned by a vendor, the email message is sent to the vendor. 
+   * If the product is owned by an administrator acting as a vendor, the email message is sent to them, respectively. 
+
+In the store back end, the product owner can answer the questions about their products, and the answers are shown to the customers with the name of the product owner attached to them.
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span"><i>Vendor area</i>![vendor-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/vendor-question.png)</div>
-  <div class="column" markdown="span"><i>Vendor answer in the storefront</i>![cus-vendor-answer.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-vendor-answer.png)</div>
+  <div class="column" markdown="span"><i>Vendor answer in the Vendor area</i>![vendor-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/vendor-question.png)</div>
+  <div class="column" markdown="span"><i>Vendor answer on the storefront</i>![cus-vendor-answer.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-vendor-answer.png)</div>
 </div>
 
-## E-mail Notifications
+## Email Notifications
 
-All e-mail notifications sent by the module can be managed by the store administrator in the **Email notifications** section of the admin area (Store setup -> Email notifications) as described in {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}.
+Email notifications sent by the module can be managed by the store administrator in the **Email notifications** section of the Admin area (Store setup -> Email notifications). For more info on the management of email notifications, see {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}.
 
-![adm-email-notifications.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/adm-email-notifications.png)
+   ![adm-email-notifications.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/adm-email-notifications.png)
 
-By default, both customer and admin notifications are enabled. A store admin can disable e-mail notifications about new questions sent to the admin, but not the notifcations with the answers sent to the customers.
+By default, both customer and admin notifications are enabled. The store administrator can disable email notifications about new questions sent to the administrator, but not the notifcations with the answers sent to the customers.
