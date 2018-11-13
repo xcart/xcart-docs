@@ -22,11 +22,11 @@ After the module has been installed, proceed to the module settings page:
 There you can adjust the following settings:
 
  * **Allow guest user to ask product questions** : If enabled, the questions feature is available to all the visitors of your store (including unregistered users). If disabled, only registered customers can ask questions.
- * **Show the administrator full name in replies** : When enabled personalizes replies from the store staff.
+ * **Show the administrator full name in replies** : If enabled, the replies to customer questions from the store staff are personalized with the administrator full name.
  
    ![settings-page.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/settings-page.png)
 
-That's it! The module is configured. Don't forget to **submit** your changes. 
+Be sure to save your changes. 
 
 ## Customer Experience
 
