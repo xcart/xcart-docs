@@ -30,21 +30,21 @@ Be sure to save your changes.
 
 ## Customer Experience
 
-Product questions become available to customers as soon as the module is installed. If configured, the non signed in visitors can also ask questions about your products. 
+The product questions feature becomes available to customers as soon as the module is installed and enabled. By default, it is only registered customers who can ask questions. If the store administrator choses to enable the feature for guest users as well, any non signed-in visitors will also be able to ask questions. 
 
-To ask a question a visitor should follow the _Ask a question_ link on the product details page:
+To ask a question about a product, a visitor needs to use the _Ask a question_ link on the product details page:
 
-![cus-ask-question-link.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-ask-question-link.png)
+   ![cus-ask-question-link.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-ask-question-link.png)
 
-A customer is forwarded to the **Questions** tab of the product details page where it's necessary to click the **Ask question** button:
+They will be forwarded to the **Questions** tab of the product details page where they will need to click the **Ask question** button:
 
-![cus-ask-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-ask-question.png)
+   ![cus-ask-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-ask-question.png)
 
-The question itself can be aked in a pop-up that appers after the **Ask question** button is clicked:
+After the **Ask question** button has been clicked, a popup appears where the visitor can ask their question:
 
-![cus-question-popup.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-question-popup.png)
+   ![cus-question-popup.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-question-popup.png)
 
-If this is a registered customer the name and email fields will be predefined and the customer will have only to type in the question and submit it. If this is a non registered customer all fields will be clean and the visitor will need to fill them in.
+If the visitor is a registered customer, the name and email fields in the popup will be pre-completed with the information from the customer profile, and the customer will only have to type in their question and submit it. If the visitor is a non registered customer all fields will be clean and the visitor will need to fill them in.
 
 The e-mail field is optional. If a user specified an e-mail address when asking a question, the answer is e-mailed to him or her as well as published on the product page. Also when asking a question, a customer can make it a public or a private one. Private questions (and answers to them) are visible only to the users who asked them.
 
