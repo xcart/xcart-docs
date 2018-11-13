@@ -7,24 +7,24 @@ title: Product Questions
 order: 222
 published: true
 ---
-The [Product Questions module](https://market.x-cart.com/addons/product-questions.html "Product Questions") enables shoppers to ask questions about the products in your store and get answers from the store staff. The questions and answers appear then together in a separate tab on the product page.
+The X-Cart module [Product Questions](https://market.x-cart.com/addons/product-questions.html "Product Questions") enables shoppers to ask questions about the products in your store and get answers from the store staff. The questions and answers then appear in a separate tab on the product page.
 
 {% toc %}
 
 ## Installation and Setup
 
-To install the module follow the guidelines from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the module, follow the guidelines from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-When installed proceed to the module settings page to configure the options:
+After the module has been installed, proceed to the module settings page:
 
-![installed.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/installed.png)
+   ![installed.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/installed.png)
 
-You can enable the following options on the Product Questions module settings page:
+There you can adjust the following settings:
 
- * **Allow quest user to ask product questions** : When enabled makes questions available for unregistered customers.
+ * **Allow guest user to ask product questions** : If enabled, the questions feature is available to all the visitors of your store (including unregistered users). If disabled, only registered customers can ask questions.
  * **Show the administrator full name in replies** : When enabled personalizes replies from the store staff.
  
- ![settings-page.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/settings-page.png)
+   ![settings-page.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/settings-page.png)
 
 That's it! The module is configured. Don't forget to **submit** your changes. 
 
