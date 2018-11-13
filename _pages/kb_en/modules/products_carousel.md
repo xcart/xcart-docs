@@ -7,19 +7,19 @@ title: Products Carousel
 order: 216
 published: true
 ---
-The [Products Carousel module](https://market.x-cart.com/addons/products-carousel.html "Products Carousel") allows to enable responsive and user-friendly product carousel for certain sections in the storefront (e.g. Bestsellers, Featured Products, New Arrivals, etc.) and is compatible with smartphones, tablets and desktops.
+The X-Cart module [Products Carousel](https://market.x-cart.com/addons/products-carousel.html "Products Carousel") can be used to enable a responsive and user-friendly product carousel for certain sections on the storefront (e.g. Bestsellers, Featured Products, New Arrivals, etc.) It is compatible with smartphones, tablets and desktop computers.
 
-To install the module follow the guides from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the module, follow the instructions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-When installed, proceed to the module settings page to configure it:
+After the module has been installed, proceed to the module settings page to configure it:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_4yBBezmL/installed.png)
 
-You'll see the list of sections product carousel can be enabled for:
+On the module settings page, you will find a list of sections for which the product carousel can be enabled:
 
 ![settings-page.png]({{site.baseurl}}/attachments/ref_4yBBezmL/settings-page.png)
 
-Choose the sections and set the desired navigation for them - it can be either pagination or a set of "next"-"previous" arrows or you can use both at the same time. Navigation choice is applied to all sections with product carousel enabled and can't be changed on a per section basis.
+Choose the sections and set the navigation method that you want to be used for them (pagination, "next-previous" arrows or both at the same time). Note that your choice of navigation method will be applied to all the sections with product carousel enabled and can't be changed on a per section basis.
 
 **Submit** your changes to make them active.
 
