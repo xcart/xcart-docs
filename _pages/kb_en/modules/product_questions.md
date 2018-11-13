@@ -7,11 +7,11 @@ title: Product Questions
 order: 222
 published: true
 ---
-The [Product Questions module](https://market.x-cart.com/addons/product-questions.html "Product Questions") enables shoppers to ask questions about the store products and get answers from the store staff. Questions and answers appear then together as a tab on the product page.
+The [Product Questions module](https://market.x-cart.com/addons/product-questions.html "Product Questions") enables shoppers to ask questions about the products in your store and get answers from the store staff. The questions and answers appear then together in a separate tab on the product page.
 
 {% toc %}
 
-## Installation and Set-Up
+## Installation and Setup
 
 To install the module follow the guidelines from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
