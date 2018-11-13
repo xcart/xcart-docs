@@ -82,6 +82,10 @@ The newly added question will appear in the questions list in the Admin area and
   <div class="column" markdown="span"><i>New question on the storefront</i>![cus-question-from-admin.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-question-from-admin.png)</div>
 </div>
 
+## Vendor Experience
+
+The module Product Questions can be used in X-Cart Multivendor stores. For details see the section {% link "Product Questions: Usage with Multivendor" ref_6GeYbVmv %}.
+
 ## Email Notifications
 
 Email notifications sent by the module can be managed by the store administrator in the **Email notifications** section of the Admin area (Store setup -> Email notifications). For more info on the management of email notifications, see {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}.
