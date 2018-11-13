@@ -7,7 +7,7 @@ title: 'Product Questions: Usage with Multivendor'
 order: 1050
 published: false
 ---
-When used with X-Cart Multivendor, the module [Product Questions](https://market.x-cart.com/addons/product-questions.html "Product Questions") enables email messages with product questions to be sent to the proper product owner:
+When used with X-Cart Multivendor, the module {% link "Product Questions" ref_2FZ36bkz %} enables email messages with product questions to be sent to the proper product owner:
 
    * If the product is owned by a vendor, the email message is sent to the vendor. 
    * If the product is owned by an administrator acting as a vendor, the email message is sent to them, respectively. 
