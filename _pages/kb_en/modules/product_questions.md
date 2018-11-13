@@ -40,11 +40,11 @@ They will be forwarded to the **Questions** tab of the product details page wher
 
    ![cus-ask-question.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-ask-question.png)
 
-After the **Ask question** button has been clicked, a popup appears where the visitor can ask their question:
+After the **Ask question** button has been clicked, a popup appears where the visitor will be able to ask their question:
 
    ![cus-question-popup.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-question-popup.png)
 
-If the visitor is a registered customer, the name and email fields in the popup will be pre-completed with the information from the customer profile, and the customer will only have to type in their question and submit it. If the visitor is a non registered customer all fields will be clean and the visitor will need to fill them in.
+If the visitor is a registered customer, the name and email fields in the popup will be pre-completed with the information from the customer profile, and the customer will only have to type in their question and submit it. If the visitor is a non-registered customer (or a customer who is not signed in), all the fields will be blank, and the visitor will have to complete them.
 
 The e-mail field is optional. If a user specified an e-mail address when asking a question, the answer is e-mailed to him or her as well as published on the product page. Also when asking a question, a customer can make it a public or a private one. Private questions (and answers to them) are visible only to the users who asked them.
 
