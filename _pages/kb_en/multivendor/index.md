@@ -27,7 +27,8 @@ _In this section:_
    * {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %}
    * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
    * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}  
-   * {% link "Messages addon: Usage with Multivendor" ref_4Ox4FPDB %}  
+   * {% link "Messages addon: Usage with Multivendor" ref_4Ox4FPDB %} 
+   * {% link "Product Questions: Usage with Multivendor" ref_6GeYbVmv %}
    * {% link "Product Reviews: Usage with Multivendor" ref_7neRIOVI %}  
    * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}
    * {% link "TaxJar Sales Tax Automation: Usage with Multivendor" ref_4ne38ZTm %}
