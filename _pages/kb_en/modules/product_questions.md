@@ -44,7 +44,7 @@ After the **Ask question** button has been clicked, a popup appears where the vi
 
    ![cus-question-popup.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-question-popup.png)
 
-If the visitor is a registered customer, the name and email fields in the popup will be pre-completed with the information from their profile, and the customer will only have to type in their question and submit it. If the visitor is a non-registered customer (or a customer who is not signed in), all the fields will be blank, and the visitor will have to complete them.
+If the visitor is a registered customer, the name and email fields in the popup will be pre-completed with the information from their profile, and the visitor will only have to type in their question and submit it. If the visitor is a non-registered customer (or a customer who is not signed in), all the fields will be blank, and the visitor will have to complete them.
 
 The email field is optional. If the user asking a question specifies their email address, the answer will be emailed to them as well as published on the product page. Also, before submitting their question, a customer can make it a public or a private one. Private questions (and answers to them) are visible only to the users who asked them.
 
@@ -54,9 +54,9 @@ The store administrator is notified of new questions by email. New questions als
 
    ![adm-questions.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/adm-questions.png)
 
-In this section the store administrator can answer users' questions, edit them and even create new questions based on past discussions with customers. 
+In this section the store administrator can answer the questions submitted by the users, edit them and even create new questions based on past discussions with the customers. 
 
-To answer a question the store admin should only click the **Reply** button opposite the question or the question itself, type the answer in the **Answer** field and click **Update**. The answer will be posted to the product details page in the storefront and e-mailed to the customer who asked the question.
+To answer a question, the store administrator needs to click on the question or the **Reply** button opposite it, type the answer in the **Answer** field and click **Update**. The answer to the question will be posted on the product details page on the storefront and, if the emailed of the customer who asked the question is available, will also be sent to the customer by email.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Reply on the product details page</i>![cus-admin-reply.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-admin-reply.png)</div>
