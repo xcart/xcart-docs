@@ -19,3 +19,7 @@ In the store back end, the product owner can answer the questions about their pr
   <div class="column" markdown="span"><i>Vendor answer on the storefront</i>![cus-vendor-answer.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-vendor-answer.png)</div>
 </div>
 
+_Related pages:_
+   
+   * {% link "Product Questions" ref_2FZ36bkz %}
+   * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
