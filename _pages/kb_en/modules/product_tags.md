@@ -13,15 +13,15 @@ The X-Cart module [Product Tags](https://market.x-cart.com/addons/product-tags.h
 
 To start using the **Product Tags** module, ensure that it is {% link "installed and enabled" ref_0fGEpvrh %} in the **Addons** section of the store's Admin area. 
 
-![addons.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/addons.png)
+   ![addons.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/addons.png)
 
-On the module settings page you can choose whether to display the **Tags** section in the storefront or not. If enabled, **Product Tags** will be displayed on every page of your store in a separate section.
+On the module settings page, you can adjust the setting **Show tags list in the sidebar**. This setting specifies whether the **Tags** section should be displayed on the storefront or not. If enabled, product tags will be displayed in a separate section on every page of your store.
 
-![settings.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/settings.png)
+   ![settings.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/settings.png)
 
-To configure tags go to the **Catalog** -> **Tags** section of your store admin area.
+To configure product tags, go to the Tags section of your store's Admin area (**Catalog** -> **Tags**).
 
-![tags.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/tags.png)
+   ![tags.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/tags.png)
 
 To add a tag click on the **'New tag'** button and **Save changes**. 
 
