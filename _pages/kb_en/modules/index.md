@@ -23,6 +23,7 @@ _In this section:_
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
 *   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
 *   {% link "Back in Stock Notifications Module" ref_1oUpzwSS %}
+*   {% link "Backorder / Preorder" ref_3XIgbfev %}
 *   {% link "Backup Master Module" ref_60LdO1tN %}
 *   {% link "Bestsellers Module" ref_5wAOub4C %}
 *   {% link "Blog System in X-Cart 5" ref_T5FrnC4x %}
