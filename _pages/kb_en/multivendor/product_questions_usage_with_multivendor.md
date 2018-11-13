@@ -5,7 +5,7 @@ updated_at: '2018-11-13 19:40 +0400'
 identifier: ref_6GeYbVmv
 title: 'Product Questions: Usage with Multivendor'
 order: 1050
-published: false
+published: true
 ---
 When used with X-Cart Multivendor, the module {% link "Product Questions" ref_2FZ36bkz %} enables email messages with product questions to be sent to the proper product owner:
 
