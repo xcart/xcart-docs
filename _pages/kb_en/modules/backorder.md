@@ -24,8 +24,8 @@ If the **Available for backorder** option is enabled a store admin can specify a
 The text of a backorder promo will be displayed in product lists and on the product page when the product is out of stock. It's also possible to insert the number of units available for backordering in the text by using the **%number%** placeholder where **%number%** will be automatically subsctituted by the maximum backorder quantity specified.
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![cus-out-of-stock.png]({{site.baseurl}}/attachments/ref_3XIgbfev/cus-out-of-stock.png)</div>
-  <div class="column" markdown="span"></div>
+  <div class="column" markdown="span"><i>Product details page</i>![cus-out-of-stock.png]({{site.baseurl}}/attachments/ref_3XIgbfev/cus-out-of-stock.png)</div>
+  <div class="column" markdown="span"><i>Product listing page</i>![listing-page.png]({{site.baseurl}}/attachments/ref_3XIgbfev/listing-page.png)</div>
 </div>
 
 {% note info %}
