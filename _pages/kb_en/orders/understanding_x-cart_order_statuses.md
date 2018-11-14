@@ -20,15 +20,15 @@ By default, X-Cart uses the following order statuses:
 **Payment statuses**
 
 {:.ui.compact.celled.small.padded.table}
-| Q | Awaiting payment | The order has been created, but has not been paid yet. It is used as the initial status of all orders for which an offline payment method was selected (like Phone ordering, Wire Transfer, etc.) It may also be assigned as a temporary initial status to orders for which an online payment method was selected. In this case the "Awaiting payment" status indicates that the buyer has submitted their payment information, but the result of the transaction is not known yet: the order payment is neither successfully processed nor declined yet. |
+| Q | Awaiting payment | The order has been created, but has not been paid yet. It is used as the initial status of all orders for which an offline payment method was selected (like Phone ordering, Wire Transfer, etc.) It may also be assigned as a temporary initial status to orders for which an online payment method was selected. In this case the _Awaiting payment_ status indicates that the buyer has submitted their payment information, but the result of the transaction is not known yet: the order payment is neither successfully processed nor declined yet. |
 | P | Paid | The buyer has been fully charged for their purchase. With online payment methods, this usually means that the money for the purchase has been transferred to the merchant's account. |
 | PP | Partially paid | The order has been partially paid (or there has been a partial refund). |
-| A | Authorized | This status can only be set by a payment processor (cannot be set manually). It indicates that an authorization has been placed on the buyer's card to ensure the buyer has sufficient credit or balance to pay for the purchase. The bank has put a hold on the requested amount, but the money has not been transferred to the merchant yet.The merchant has yet to place a charge to capture it. |
+| A | Authorized | This status can only be set by a payment processor (cannot be set manually). It indicates that an authorization has been placed on the buyer's card to ensure the buyer has sufficient credit or balance to pay for the purchase. The bank has put a hold on the requested amount, but the money has not been transferred to the merchant yet. The merchant has yet to place a charge to capture it. |
 | D | Declined | This status can only be set by a payment processor (cannot be set manually). It indicates that an attempt to authorize or charge the buyer's card has failed and the order has been cancelled. |
-| C | Cancelled | The order has been cancelled by the merchant. Typically, an order has to be in the Authorized or Awaiting payment state before it becomes Cancelled. |
-| R | Refunded | The money for the purchase has been refunded in full. This status can be set automatically by payment processors whose X-Cart integration supports refunds, or it can be set manually by administrator. Typically, an order has to be in the Paid state before it becomes Refunded. |
+| C | Cancelled | The order has been cancelled by the merchant. Typically, an order has to be in the _Authorized_ or _Awaiting payment_ state before it becomes Cancelled. |
+| R | Refunded | The money for the purchase has been refunded in full. This status can be set automatically by payment processors whose X-Cart integration supports refunds, or it can be set manually by administrator. Typically, an order has to be in the _Paid_ state before it becomes _Refunded_. |
 
-The statuses Awaiting payment, Paid and Authorized cause the inventory levels of the ordered items to be decreased according to the quantities ordered. The statuses Refunded, Cancelled and Declined cause the items to be restocked. The status Partially Paid does not affect the inventory.
+The statuses _Awaiting payment_, _Paid_ and _Authorized_ cause the inventory levels of the ordered items to be decreased according to the quantities ordered. The statuses _Refunded_, _Cancelled_ and _Declined_ cause the items to be restocked. The status _Partially Paid_ does not affect the inventory.
 
 **Fulfilment statuses**
 
