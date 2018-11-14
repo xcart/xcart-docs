@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-01-26 12:50 +0400'
 identifier: ref_7pBlny0J
 title: X-Cart Payment Transaction Statuses
-order: 100
+order: 20
 published: true
 ---
 Every order in your X-Cart store has a payment transaction status that provides information as to the current state of the payment in the cart processing workflow. 
@@ -31,4 +31,4 @@ A cart admin can find the info on the payment transaction statuces in the _**'Pa
 
 ![payment-transactions.png]({{site.baseurl}}/attachments/ref_7pBlny0J/payment-transactions.png)
 
-If necessary a cart admin can search orders based on a particular payment transaction status. 
+If necessary a cart admin can search orders based on a particular payment transaction status.
