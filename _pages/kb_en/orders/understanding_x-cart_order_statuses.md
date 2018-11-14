@@ -7,7 +7,7 @@ title: Understanding X-Cart order statuses
 categories:
   - User manual
 published: true
-order: 100
+order: 10
 ---
 
 
