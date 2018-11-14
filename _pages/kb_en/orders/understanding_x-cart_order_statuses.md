@@ -13,7 +13,7 @@ order: 100
 
 ## System order statuses
 
-Every order in your X-Cart store has a payment status and a fulfilment status. These two statuses provide information as to the current state of the order in the {% link "order processing workflow" ref_DkbTi1qJ %}. 
+Every order in your X-Cart store has a payment status and a fulfilment status. These two statuses provide information as to the current state of the order in the [order processing workflow](https://kb.x-cart.com/orders/understanding_x-cart_order_statuses.html#order-processing-workflow "Understanding X-Cart order statuses"). 
 
 By default, X-Cart uses the following order statuses:
 
@@ -49,19 +49,20 @@ For information on _custom order statuses_, see the {% link "Managing X-Cart o
 
 ## Order processing workflow
 
-For orders paid using offline payment methods, the order processing workflow is as follows:
+For orders paid using {% link "offline payment methods" ref_Jq6Bsdrt %}, the order processing workflow is as follows:
 
-*   A new order is created with the status Awaiting payment.
-*   As the order progresses through the various stages of the order processing and fulfillment process, the store administrator manually updates the order status. The current status of the order can be changed manually to any other status at any time. Typically, after the order payment has been received, the status Awaiting payment will be changed to Paid; if the order is cancelled - to Cancelled. After a refund, the status Paid will have to be changed to Refunded. The status Partially Paid is possible in case of a partial payment for the order or a partial refund.
+*   A new order is created with the status _Awaiting payment_.
+*   As the order progresses through the various stages of the order processing and fulfillment process, the store administrator manually updates the order status. The current status of the order can be changed manually to any other status at any time. Typically, after the order payment has been received, the status _Awaiting payment_ will be changed to _Paid_; if the order is cancelled - to _Cancelled_. After a refund, the status _Paid_ will have to be changed to _Refunded_. The status _Partially Paid_ is possible in case of a partial payment for the order or a partial refund.
 
-We strongly recommend using the Refunded status (not Cancelled) when updating the order status from Paid, and Cancelled (not Refunded) when updating the order status from Authorized or Awaiting payment.
+{% note info %}
+We strongly recommend using the _Refunded_ status (not _Cancelled_) when updating the order status from _Paid_, and _Cancelled_ (not _Refunded_) when updating the order status from _Authorized_ or _Awaiting payment_.
+{% endnote %}
 
+For orders paid using {% link "online payment processors" ref_Jq6Bsdrt %}, the regular order processing workflow looks as follows:
 
-For orders paid using online payment processors, the regular order processing workflow looks as follows:
-
-*   A new order is created with the status Awaiting payment, Paid or Authorized - depending on the payment method settings and the type of response received from the payment gateway.
-*   If the initial order status is Awaiting Payment or Authorized, it may be changed automatically to Paid, Partialy Paid or Declined (The resulting status depends on the callback received from the payment gateway).
-*   If the order status is Paid, the order may be refunded. This is only possible if the payment gateway supports refunds. After a full refund, the order status is automatically changed to Refunded. After a partial refund, the order status becomes Partialy Paid.
+*   A new order is created with the status _Awaiting payment_, _Paid_ or _Authorized_ - depending on the payment method settings and the type of response received from the payment gateway.
+*   If the initial order status is _Awaiting Payment_ or _Authorized_, it may be changed automatically to _Paid_, _Partialy Paid_ or _Declined_ (The resulting status depends on the callback received from the payment gateway).
+*   If the order status is _Paid_, the order may be refunded. This is only possible if the payment gateway supports refunds. After a full refund, the order status is automatically changed to _Refunded_. After a partial refund, the order status becomes _Partialy Paid_.
 *   If necessary, the store administrator can intervene at any stage of the order processing flow and manually change the current status of the order to any status they require.
 
 _Related pages:_
