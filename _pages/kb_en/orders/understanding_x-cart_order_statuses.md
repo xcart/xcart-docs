@@ -47,7 +47,7 @@ What you see in the first columns of the above tables is letter codes by which X
 
 For information on _custom order statuses_, see the {% link "Managing X-Cart order statuses (X-Cart 5.2.7 and later)" ref_7FIU2sxJ %} section of this manual.
 
-## Order workflow
+## Order processing workflow
 
 For orders paid using offline payment methods, the order processing workflow is as follows:
 
