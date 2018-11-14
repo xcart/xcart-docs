@@ -38,13 +38,12 @@ To assign a tag to a product:
       ![tags-field.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/tags-field.png)
    4. Click **'Update product'** to save the changes.
   
-If necessary, you can assign a product tag to more than one product at a time. For that you will need to use the **Bulk Editing** option. 
-  
+If necessary, you can assign a product tag to more than one product at a time. For that you will need to use the **Bulk Editing** option:
+
+   1. Go to the Products section (**Catalog** -> **Products**).
+   2. Find the products to which you need to assign product tags and select them for bulk editing. Click **Bulk edit selected** and choose the **'Categories and tags'** option.
    ![bulk-edit.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/bulk-edit.png)
-  
-  For this purpose check all the products you want to edit on the product search page in the Admin area (**Catalog** -> **Products** section), click the **'Bulk edit all'** button and choose the **'Categories and tags'** option. 
-  
-  You'll see a page, where you can change tags for all products in the list at once.
+   3. On the next page, specify the tags you require. They will be applied to all the selected products.
 
   ![editing.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/editing.png)
   
