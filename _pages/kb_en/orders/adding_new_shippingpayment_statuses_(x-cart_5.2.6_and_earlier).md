@@ -8,7 +8,7 @@ version: X-Cart 5.2.6 and earlier
 categories:
   - Developer docs
 published: true
-order: 120
+order: 50
 ---
 
 ## Introduction
@@ -19,8 +19,6 @@ The solution provided in this article should be used for X-Cart versions 5.2.6 a
 
 ## Table of Contents
 
-*   [Introduction](#introduction)
-*   [Table of Contents](#table-of-contents)
 *   [Creating payment status](#creating-payment-status)
 *   [Creating shipping status](#creating-shipping-status)
 *   [Translating order statuses](#translating-order-statuses)
