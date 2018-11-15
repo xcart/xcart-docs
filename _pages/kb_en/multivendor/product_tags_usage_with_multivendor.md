@@ -22,8 +22,10 @@ Depending on the store settings, vendors will have either limited or full produc
 
 Limited product tag management capabilities mean that vendors cannot create new product tags or edit/delete the existing ones, but they can assign tags created by the store administrator to their own products via the **Tags** field on the Info tab of product details and to search for products by tags. 
 
-Full product tag management capabilities mean that vendors have a Tags section in their Vendor area (**Catalog** > **Tags**) - similar to the one used by the administrator. Via this section, they can add their own tags for products, as well as edit and delete any existing tags (including the ones created by other users). They can assign tags to their own products via the **Tags** field on the Info tab of product details (using tags created by themselves or by any other users) or and to search for products by tags. 
+Full product tag management capabilities mean that vendors have a Tags section in their Vendor area (**Catalog** > **Tags**) - similar to the one used by the administrator.
+   ![mv_product_tags_section_in_vendor.png]({{site.baseurl}}/attachments/ref_5zZ0ep58/mv_product_tags_section_in_vendor.png)
+
+Via this section, they can add their own tags for products, as well as edit and delete any existing tags (including the ones created by other users). They can assign tags to their own products via the **Tags** field on the Info tab of product details (using tags created by themselves or by any other users) or and to search for products by tags. 
 
 
 
-In the Vendor area,
