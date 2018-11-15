@@ -26,3 +26,8 @@ Full product tag management capabilities mean that vendors have a Tags section i
    ![mv_product_tags_section_in_vendor.png]({{site.baseurl}}/attachments/ref_5zZ0ep58/mv_product_tags_section_in_vendor.png)
 
 Via this section, they can add their own tags for products, as well as edit and delete any existing tags (including the ones created by other users). They can assign tags to their own products via the **Tags** field on the Info tab of product details (using tags created by themselves or by any other users) or and to search for products by tags.
+
+_Related pages:_
+
+   * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
+   * {% link "Product Tags" ref_6nFoxYf1 %} 
