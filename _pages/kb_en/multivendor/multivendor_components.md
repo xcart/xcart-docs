@@ -32,10 +32,10 @@ Here's a brief overview of the addons typically used to build a Multivendor stor
      
    * **[Custom Product Tabs](https://market.x-cart.com/addons/custom-product-tabs.html)**: Another addon not just for Multivendor. Enables additional custom product tabs on the detailed product pages. For more information on this addon, see {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %} 
      ![mv_customproducttabs_module.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mv_customproducttabs_module.png)
-
-   * **[Product Filter](https://market.x-cart.com/addons/product-filter.html)**: This addon works equally well for single-seller and multivendor X-Cart stores. In X-Cart Multivendor it may be of use to enable filtering of products by the vendor. For more information on this addon, see {% link "Product Filter: Usage with Multivendor" ref_5YMhId62 %} 
    
    * **[Product Tags](https://market.x-cart.com/addons/product-tags.html)**: This addon is compatible with Multivendor. It enables the store administrator and vendors to add tags by which products can be easily found by shoppers. For more information on this addon, see {% link "Product Tags: Usage with Multivendor" ref_5zZ0ep58 %} 
+   
+   * **[Product Filter](https://market.x-cart.com/addons/product-filter.html)**: This addon works equally well for single-seller and multivendor X-Cart stores. In X-Cart Multivendor it may be of use to enable filtering of products by the vendor. For more information on this addon, see {% link "Product Filter: Usage with Multivendor" ref_5YMhId62 %} 
    
    * **[Coupons](https://market.x-cart.com/addons/discount-coupons.html)**: This addon is also not just for Multivendor, but it needs to be mentioned here because in Multivendor it enables vendors to create and manage discount coupons. More information on this addon is available in the section {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}.   
      ![mvcoupons_addon.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mvcoupons_addon.png)
