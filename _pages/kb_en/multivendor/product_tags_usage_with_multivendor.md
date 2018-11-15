@@ -5,7 +5,7 @@ updated_at: '2018-11-15 09:15 +0400'
 identifier: ref_5zZ0ep58
 title: 'Product Tags: Usage with Multivendor'
 order: 875
-published: false
+published: true
 ---
 In a Multivendor X-Cart store with the addon {% link "Product Tags" ref_6nFoxYf1 %} installed and enabled, it is possible to use product tags. The addon enables the store staff (administrator, vendors) to attach custom tags to products so shoppers can find them easier.
 
@@ -25,7 +25,4 @@ Limited product tag management capabilities mean that vendors cannot create new 
 Full product tag management capabilities mean that vendors have a Tags section in their Vendor area (**Catalog** > **Tags**) - similar to the one used by the administrator.
    ![mv_product_tags_section_in_vendor.png]({{site.baseurl}}/attachments/ref_5zZ0ep58/mv_product_tags_section_in_vendor.png)
 
-Via this section, they can add their own tags for products, as well as edit and delete any existing tags (including the ones created by other users). They can assign tags to their own products via the **Tags** field on the Info tab of product details (using tags created by themselves or by any other users) or and to search for products by tags. 
-
-
-
+Via this section, they can add their own tags for products, as well as edit and delete any existing tags (including the ones created by other users). They can assign tags to their own products via the **Tags** field on the Info tab of product details (using tags created by themselves or by any other users) or and to search for products by tags.
