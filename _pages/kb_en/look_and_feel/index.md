@@ -41,4 +41,4 @@ If you are ready to delve into the process and need to add custom changes to the
 
 
 _Video Tutorials_ :
-{% link "Basic Design Changes in X Cart 5.3" ref_KpqQsVGf %}
+*   {% link "Basic Design Changes in X Cart 5.3" ref_KpqQsVGf %}
