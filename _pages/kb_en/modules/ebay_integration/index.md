@@ -37,3 +37,4 @@ _Related pages:_
 
 * {% link "eBay Integration module (video)" ref_yLiuFJ66 %}
 * [How to Sell on Ebay: Step-By-Step Guide For Beginners](https://www.x-cart.com/sell-online/how-to-sell-on-ebay.html "eBay Integration")
+* {% link "Sales Channels" ref_ybdJste8 %}
