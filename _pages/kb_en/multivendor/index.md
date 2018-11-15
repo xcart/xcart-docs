@@ -25,6 +25,7 @@ _In this section:_
    * {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}
    * {% link "Multiple profiles for vendors" ref_3le6s8jL %}
    * {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %}
+   * {% link "Product Tags: Usage with Multivendor" ref_5zZ0ep58 %} 
    * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
    * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}  
    * {% link "Messages addon: Usage with Multivendor" ref_4Ox4FPDB %} 
