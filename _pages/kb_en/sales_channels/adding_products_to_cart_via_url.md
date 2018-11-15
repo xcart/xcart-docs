@@ -22,3 +22,8 @@ The part `http://<your-domain>/<x-cart-5-directory>` will, of course, need to be
 `http://<your-domain>/<x-cart-5-directory>/admin.php?target=product&product_id=12345`
 
 In the example URL above, 12345 is the product ID. Copy and paste it into your hand-crafted link.
+
+
+_Related pages:_
+
+   * {% link "Sales Channels" ref_ybdJste8 %}
