@@ -49,9 +49,11 @@ If necessary, you can assign a product tag to more than one product at a time. F
   
 Once the tags have been configured and assigned to products, they can be used to narrow down the search results both in the store's back end and on the storefront.
 
-To search by a tag in the Admin area, open the **Catalog** -> **Products** section, select the **Tag** checkbox in the search settings and type the tag name.
+To search for products by a tag in the Admin area, use one of the following methods:
+   * In the Products section (**Catalog** > **Products**), expand the filter/search form above the product list, select the **Tag** checkbox in the search settings and enter the tag name.
    ![tag-search.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/tag-search.png)
-
+   * In the Tags section (**Catalog** > **Tags**), find the tag you require and click on the number link displayed in the Products column of the tag list.
+   
 On the storefront, to find all the products with a certain tag, you will want to click on the tag in the **Tags** section. 
    ![front-end.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/front-end.png)
 
