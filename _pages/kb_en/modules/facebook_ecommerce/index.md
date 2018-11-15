@@ -82,3 +82,7 @@ Also, each product will gain an _Add to Facebook product feed_ setting in the Ma
   ![Products.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/Products.png)
   
 That's it! You can start advertising your products through Facebook.
+
+_Related pages:_
+
+   * {% link "Sales Channels" ref_ybdJste8 %}
