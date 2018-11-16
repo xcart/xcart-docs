@@ -5,7 +5,7 @@ updated_at: '2018-11-16 03:55 +0400'
 identifier: ref_6yI1dNPD
 title: Configuring PayPal Smart Buttons
 order: 1000
-published: false
+published: true
 ---
 X-Cart's PayPal integration supports PayPal Checkout [Smart Payment Buttons](https://www.paypal.com/us/smarthelp/article/what-are-smart-payment-buttons-in-express-checkout-ts2173). The Smart Payment Buttons feature enables you to customize the payment buttons on the checkout page.
 
