@@ -11,6 +11,7 @@ icon: shipping
 description: Configure either carrier-calculated (online) or table-based shipping methods
 published: true
 ---
+Once an order is paid, a merchant needs to deliever it to the end-user, that includes packaging and the rest of the order fulfillment. Choose whether to ship goods on your own or to rely on a shipping company that will deliver goods to customers on your behalf. Remember that logistics are a vital part of any e-commerce business’s operations. 
 
 There are some basics that set a foundation for the rest of your shipping. While you can come back and change each of these later on, as you learn more, these are the key decisions and steps that make up your high-level shipping strategy.
 
