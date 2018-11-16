@@ -99,4 +99,4 @@ Creating a custom payment page allows you to co-brand the PayPal checkout pages 
 _Related pages:_
 
 * {% link "PayPal Addon" ref_0mnK3aMh %}
-* {% link "Configuring PayPal Smart Buttons" ref_6yI1dNPD %}
+* {% link "Configuring PayPal Smart Payment Buttons" ref_6yI1dNPD %}
