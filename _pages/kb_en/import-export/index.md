@@ -11,17 +11,17 @@ categories:
   - home
 published: true
 ---
-Data import is a perfect way-out if you don't have time and/or desire to populate your store with products and customers adding them manually one-by-one. It's even possible to import orders if necessary.
+Data import is a perfect way out if you do not have the time or desire to populate your store with products and customers adding them manually one by one; it enables you to add new information and update the existing information about products, categories, users and other stuff by submitting a specially formatted data file. If necessary, it is even possible to import orders.
 
 {% note info %}
 If you want to add multiple changes to the products that are present in the database already, you might find it easier to use {% link "bulk editing" ref_1kSYmXQn %} instead.
 {% endnote %}
 
-X-Cart uses [CSV files](https://en.wikipedia.org/wiki/Comma-separated_values "Import-Export") for data import/export that you can create in any spreadsheet editor (MS Excel _or _LibreOffice Calc_) you like better. 
+X-Cart uses [CSV files](https://en.wikipedia.org/wiki/Comma-separated_values "Import-Export") for data import/export that you can create in any spreadsheet editor you like better (for example, MS Excel _or _LibreOffice Calc_). 
 
-Importing products is useful if you switched to X-Cart from another platform or if you want to make multiple changes to your products or inventory that are not possible with bulk editing. 
+Importing products is useful if you are switching to X-Cart from another platform, or if you want to make multiple changes to your products or inventory that are not possible with bulk editing. 
 
-As for customers data, if you have a customer list that you want to use in X-Cart, you can enter it into a customer CSV file and then import it in your X-Cart admin. You can also use the customer CSV template to build a new customer list.
+Similarly, if you have a customer list from another platfrom that you want to use in your X-Cart store, you can enter it into a CSV file and import this file via your X-Cart admin. You can also use the customer CSV template to build a new customer list.
 
 Orders import is suported via the [Orders Import ](https://market.x-cart.com/addons/orders-import.html "Import-Export") module, that is not included into the core and should be installed additionally as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
