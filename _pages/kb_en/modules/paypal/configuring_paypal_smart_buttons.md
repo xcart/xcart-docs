@@ -17,3 +17,9 @@ With Smart Payment Buttons, you can choose:
 It is also possible to specify the funding sources that should be made available to buyers. (When multiple funding sources are available, PayPal automatically determines which additional buttons are appropriate to display. However, you can choose to opt-in or out-of displaying specific funding sources.)
 
 All this can be done via the **Customize the PayPal button** section of PayPal payment method setup:
+![xc5_pp_smart_buttons.png]({{site.baseurl}}/attachments/ref_6yI1dNPD/xc5_pp_smart_buttons.png)
+
+_Related pages:_
+
+* {% link "PayPal Addon" ref_0mnK3aMh %}
+* {% link "Setting up Paypal Express Checkout" ref_vHffMFLk %}
