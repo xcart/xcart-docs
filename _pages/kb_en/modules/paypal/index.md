@@ -30,3 +30,4 @@ _See also:_
 *   {% link "Setting up PayPal IPN URL" ref_2rlawgsT %}
 *   {% link "Enabling the Secure Token setting" ref_rPvvhtm9 %}
 *   {% link "Creating your custom PayPal payment page" ref_PA8He4Vs %}
+*   {% link "Configuring PayPal Smart Payment Buttons" ref_6yI1dNPD %}
