@@ -94,3 +94,9 @@ Creating a custom payment page allows you to co-brand the PayPal checkout pages 
 9.  Click **Save**.
 
 10.  Click the radio button next to the new payment page style you just created, and click **Make Primary**. Your custom payment page style will now be used whenever buyers choose to pay with PayPal.
+
+
+_Related pages:_
+
+* {% link "PayPal Addon" ref_0mnK3aMh %}
+* {% link "Configuring PayPal Smart Buttons" ref_6yI1dNPD %}
