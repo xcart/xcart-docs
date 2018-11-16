@@ -12,5 +12,8 @@ X-Cart's PayPal integration supports PayPal Checkout [Smart Payment Buttons](htt
 With Smart Payment Buttons, you can choose:
 
    * The size, color, and shape of your PayPal checkout button and the buttons for other multiple alternative payment methods such as PayPal Credit, Venmo, and local funding sources.
-   * The language that appears on the buttons.
    * The button layout (horizontal or vertical).
+
+It is also possible to specify the funding sources that should be made available to buyers. (When multiple funding sources are available, PayPal automatically determines which additional buttons are appropriate to display. However, you can choose to opt-in or out-of displaying specific funding sources.)
+
+All this can be done via the **Customize the PayPal button** section of PayPal payment method setup:
