@@ -25,6 +25,8 @@ Similarly, if you have a customer list from another platfrom that you want to us
 
 Orders import is suported via the [Orders Import ](https://market.x-cart.com/addons/orders-import.html "Import-Export") module, that is not included into the core and should be installed additionally as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
+Data export is a convenient way to get structured information out of your X-Cart store. Typically, the function of data export is auxiliary - enabling you to find out the data format required to import data. For example, if you want to import a specific type of data, but do not know what fields need to be created in your import file and how the data in those fields has to be formatted, you can add just a couple of items of that type via the back end of your X-Cart store manually (or use the existing demo data) and then export it to CSV. This way you will have a pattern to follow when formatting the rest of the data to be imported into the store via CSV. 
+
 _In this section:_
 
 *   {% link "How to import data" ref_glDc6kA1 %}
