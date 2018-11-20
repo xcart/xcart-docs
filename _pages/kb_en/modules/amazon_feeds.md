@@ -16,6 +16,8 @@ Prerequisites:
 To be able to use the Amazon Feeds module a merchant should be signed up with the [Amazon Professional Seller plan](https://services.amazon.com/selling/pricing.html "Amazon Feeds") that allows to create a developer account. 
 {% endnote %}
 
+## Amazon Feeds module configuration and set-up
+
 Once installed and enabled proceed to the module settings page for configuration:
 
 ![module-installed.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/module-installed.png)
@@ -73,6 +75,7 @@ All configured marketplaces are added to the **Marketplaces** list in the **Sale
 ![configured-marketplaces.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/configured-marketplaces.png)
 
 
-
+## Products and categories configuration
+## Submit Feeds
 
 
