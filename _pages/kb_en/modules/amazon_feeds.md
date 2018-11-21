@@ -140,7 +140,7 @@ If you want to submit feeds to Amazon manually:
 1. Open the **Sales channels** -> **Amazon** section 
 2. Select the marketplaces from the list (tick a checkboxes in front of a marketplace)
    ![submit-feeds-list.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/submit-feeds-list.png)
-3. Click **Submit feeds** button
+3. Click **Submit feeds** button 
 4. Choose the feeds to submit from the list in a pop-up
    ![submit-feeds-popup.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/submit-feeds-popup.png)
 5. Click the **Submit feeds** button
@@ -157,4 +157,4 @@ To check the results click the **View details** button opposite the feed in ques
 Amazon has strict limitations on amount of feed submissions per hour. Hence we recommend configuring automated feed submissions to avoid any possible confusion.  
 {% endnote %}
 
-
+If you need to import orders manually select the marketplaces and click the **Import orders** button. Then click **Start** for the order import to begin.
