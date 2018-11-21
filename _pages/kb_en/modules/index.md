@@ -18,6 +18,7 @@ _In this section:_
 
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
 *   {% link "Add to Cart PopUp Module" ref_1iGC8Efj %}
+*   {% link "Amazon Feeds" ref_4UNr3oKZ %}
 *   {% link "Amazon Pay" ref_mri0tPhM %} (former "Pay with Amazon")
 *   {% link "AntiFraud Service Connector" ref_6oaerFUv %}
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
