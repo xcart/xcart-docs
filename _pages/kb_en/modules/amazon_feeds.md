@@ -83,7 +83,9 @@ To add a new marketplace:
        {% endnote %}
        
      * **Save** the configuration settings.
-     * Add fields mapping for shipping settings that becomes available after the settings are saved. For this purpose:
+     * Add fields mapping for shipping settings that becomes available after the settings are saved. 
+     
+       For this purpose:
        * Click the **Add mapping** link in the **Orders** section.
          ![orders-add-mapping.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/orders-add-mapping.png)
        * You'll see a **Shipping setting** pop-up where you can map a particular Amazon shipping service with an X-Cart shipping method for a zone:
@@ -111,7 +113,7 @@ You can add as many marketplaces as many Amazon accounts you have.
 
 ## Additional import rules
 
-Before you submit feeds to Amazon you need to map your current X-Cart inventory (products and categories data) with Amazon categorization. By default, once the import options for a marketplace are configured in the **Sales channels** -> **Amazon** section all X-Cart inventory can be submitted to Amazon according to the these global rules. 
+Before you submit feeds to Amazon you need to map your current X-Cart inventory (products and categories data) with Amazon categorization. By default, once the import options for a marketplace are configured in the **Sales channels** -> **Amazon** section all X-Cart inventory can be submitted to Amazon according to these global rules. 
 
 If you want to make additional import rules for some of your categories and/or products this can be done directly on the category/product details page.
 
@@ -119,10 +121,10 @@ For this purpose:
 
 1. Locate a category/product in question on the products or categories listing page in the admin area (**Catalog** -> **Categories** for categories and **Catalog** -> **Products** for products).
 2. Open the category/product details page and proceed to the **Amazon category options** / **Amazon product options** tab respectively:
-  <div class="ui stackable two column grid">
-  <div class="column" markdown="span"><i>Category details page</i>![category-details-amazon.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/category-details-amazon.png)</div>
-  <div class="column" markdown="span"><i>Product details page</i>![product-details-amazon.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/product-details-amazon.png)</div>
-  </div>  
+   <div class="ui stackable two column grid">
+    <div class="column" markdown="span"><i>Category details page</i>![category-details-amazon.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/category-details-amazon.png)</div>
+    <div class="column" markdown="span"><i>Product details page</i>![product-details-amazon.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/product-details-amazon.png)</div>
+   </div>  
 3. In the **Category** and **Category type** drop-downs of the **Main export options** section select the Amazon category values that correspond with the category/product in question. 
 4. Add a specific fields mapping if required. 
    * Click on the **Add mapping** link
