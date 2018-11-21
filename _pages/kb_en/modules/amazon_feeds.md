@@ -16,47 +16,56 @@ Prerequisites:
 To be able to use the Amazon Feeds module a merchant should be signed up with the [Amazon Professional Seller plan](https://services.amazon.com/selling/pricing.html "Amazon Feeds") that allows to create a developer account. 
 {% endnote %}
 
+{% toc %}
+
 ## Amazon Feeds module configuration and set-up
 
 Once installed and enabled proceed to the module settings page for configuration purposes:
 
 ![module-installed.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/module-installed.png)
 
-You you'll be automatically redirected to the **Sales Channels** -> **Amazon** section of the admin area where you can proceed with the marketplaces' configuration:
+You will be automatically redirected to the **Sales Channels** -> **Amazon** section of the admin area where you can proceed with the marketplaces' configuration:
 
 ![settings-page.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/settings-page.png)
 
 To add a new marketplace:
+
 1. Click the **Configure new marketplace** button. 
 2. You'll see a screen **New marketplace** where you'll need to specify your AWS account details:
    ![new-marketplace-1.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/new-marketplace-1.png)
+   
    To get the AWS account details:
    * Open your Amazon Professional Seller account at [https://sellercentral.amazon.com/](https://sellercentral.amazon.com/ "Amazon Feeds").
    * [Add a developer](https://docs.developer.amazonservices.com/en_US/dev_guide/DG_Registering.html "Amazon Feeds") to your seller account then authorise this developer.
-   * Copy and past your AWS Merchant ID, AWS Access Key ID and AWS Secret Key from this authorisation to the fields in the form in X-Cart admin:
+   * Copy and past your AWS Merchant ID, AWS Access Key ID and AWS Secret Key from this authorisation to the fields in the form in the X-Cart admin:
      ![account-data.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/account-data.png)
    * Choose the country that corresponds with your Amazon account data.
    * Click on the **Get available marketplaces** button to get the **Marketplace** field value.
-   * **Save** the settinings. If everything is specified correctly the new marketplace will gain the **Configured** status automatically. 
+   * **Save** the settings. 
+   
+     If everything is specified correctly the new marketplace will gain the **Configured** status automatically. 
      ![status-configured.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/status-configured.png)
+
 3. Select the export options for products and import options for orders for the configured marketplace:
    ![import-export.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/import-export.png)
    
    To set up products export options:
      * Enable the **Automatically sync X-Cart product updates to Amazon** checkbox in the **Products** section. 
+       
        {% note warning %}
        The **Automatically sync X-Cart product updates to Amazon** option requires a special {% link "cron task" ref_lLqNzAaq %} set up on the server hosting your X-Cart store.
        {% endnote %}
+     
      * Select whether to update everything or inventory only in the drop-down.
-     * **Save** the configuration settings.
-     * If applicable add fields mapping for product properties that becomes available after the settings are saved. 
+       
        {% note info %}
-       Fields mapping is used for a proper info representation on Amazon. 
-       
-       e.g. 
-       
-       If you map Amazon description field with both description and full description product properties in X-Cart, a product description on Amazon will contain all the information from the corresponsing fields in X-Cart (both brief and full product description texts).
+       If this is your first product import to Amazon choose first the 'all' option to submit all products info and change the value to 'inventory' afterwards to update the product inventory data only. 
+       If you already have products uploaded to Amazon and need to synchronize the inventory only choose the 'inventory' option.
        {% endnote %}
+       
+     * **Save** the configuration settings.
+     * Add fields mapping for product properties that becomes available after the settings are saved. 
+       
        For this purpose: 
        * Click the **Add mapping** link in the **Products** section. 
          ![products-add-mapping.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/products-add-mapping.png)
@@ -68,11 +77,13 @@ To add a new marketplace:
    
    To set orders import options:
      * Enable the **Automatically import orders** checkbox in the **Orders** section.
+       
        {% note warning %}
        The **Automatically import orders** option requires a special {% link "cron task" ref_lLqNzAaq %} set up on the server hosting your X-Cart store.
        {% endnote %}
+       
      * **Save** the configuration settings.
-     * If applicable add fields mapping for shipping settings that becomes available after the settings are saved. For this purpose:
+     * Add fields mapping for shipping settings that becomes available after the settings are saved. For this purpose:
        * Click the **Add mapping** link in the **Orders** section.
          ![orders-add-mapping.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/orders-add-mapping.png)
        * You'll see a **Shipping setting** pop-up where you can map a particular Amazon shipping service with an X-Cart shipping method for a zone:
@@ -81,6 +92,14 @@ To add a new marketplace:
          ![mapped-shipping-settings.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/mapped-shipping-settings.png)
        * If necessary you can delete a shipping mapping by selecting the required positions and choosing the **Delete selected items** option for them.
          ![delete-shipping-mapping.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/delete-shipping-mapping.png)
+         
+       {% note info %}
+       Fields mapping is used for a proper info representation on Amazon. 
+       
+       e.g. 
+       
+       If you map Amazon description field with both description and full description product properties in X-Cart, a product description on Amazon will contain all the information from the corresponsing fields in X-Cart (both brief and full product description texts).
+       {% endnote %}
 
 4. **Save** all the configuration changes for the new marketplace.
 
@@ -117,6 +136,7 @@ Category and product specific import rules are of the first priority during feed
 In case the **Automatically sync X-Cart product updates to Amazon** and **Automatically import orders** options are enabled for a marketplace the feeds and the orders will be automatically submitted to and/or imported from Amazon provided that a correspondimg {% link "cron task" ref_lLqNzAaq %} is configured on the server hosting your X-Cart store. 
 
 If you want to submit feeds to Amazon manually:
+
 1. Open the **Sales channels** -> **Amazon** section 
 2. Select the marketplaces from the list (tick a checkboxes in front of a marketplace)
    ![submit-feeds-list.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/submit-feeds-list.png)
@@ -124,5 +144,17 @@ If you want to submit feeds to Amazon manually:
 4. Choose the feeds to submit from the list in a pop-up
    ![submit-feeds-popup.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/submit-feeds-popup.png)
 5. Click the **Submit feeds** button
+
+That's it. The feeds are submitted the results being recorded in the **Feed Submissions** section.
+
+![feed-submissions.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/feed-submissions.png)
+
+To check the results click the **View details** button opposite the feed in question:
+
+![feeds-view-details.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/feeds-view-details.png)
+
+{% note warning %}
+Amazon has strict limitations on amount of feed submissions per hour. Hence we recommend configuring automated feed submissions to avoid any possible confusion.  
+{% endnote %}
 
 
