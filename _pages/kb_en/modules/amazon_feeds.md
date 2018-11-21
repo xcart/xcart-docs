@@ -7,7 +7,7 @@ title: Amazon Feeds
 order: 19
 published: false
 ---
-X-Cart [Amazon Feeds module](https://market.x-cart.com/addons/amazon-feeds.html "Amazon Feeds") allows merchants to export products and related data to Amazon to start selling to gain new sales and extend customer pull.
+X-Cart [Amazon Feeds module](https://market.x-cart.com/addons/amazon-feeds.html "Amazon Feeds") allows merchants to export products and related data to Amazon to start selling there in order to gain new sales and extend customer pull.
 
 To start using the module install it as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
@@ -18,7 +18,7 @@ To be able to use the Amazon Feeds module a merchant should be signed up with th
 
 ## Amazon Feeds module configuration and set-up
 
-Once installed and enabled proceed to the module settings page for configuration:
+Once installed and enabled proceed to the module settings page for configuration purposes:
 
 ![module-installed.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/module-installed.png)
 
@@ -44,9 +44,20 @@ To add a new marketplace:
    
    To set up products export options:
      * Enable the **Automatically sync X-Cart product updates to Amazon** checkbox in the **Products** section. 
+       {% note warning %}
+       The **Automatically sync X-Cart product updates to Amazon** option requires a special {% link "cron task" ref_lLqNzAaq %} set up on the server hosting your X-Cart store.
+       {% endnote %}
      * Select whether to update everything or inventory only in the drop-down.
      * **Save** the configuration settings.
-     * If applicable add fields mapping for product properties that becomes available after the settings are saved. For this purpose: 
+     * If applicable add fields mapping for product properties that becomes available after the settings are saved. 
+       {% note info %}
+       Fields mapping is used for a proper info representation on Amazon. 
+       
+       e.g. 
+       
+       If you map Amazon description field with both description and full description product properties in X-Cart, a product description on Amazon will contain all the information from the corresponsing fields in X-Cart (both brief and full product description texts).
+       {% endnote %}
+       For this purpose: 
        * Click the **Add mapping** link in the **Products** section. 
          ![products-add-mapping.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/products-add-mapping.png)
        * You'll see a **Fields mapping** pop-up, where you can match the Amazon fields' values (1st column) with the X-Cart fields' values (2nd column)
@@ -57,6 +68,9 @@ To add a new marketplace:
    
    To set orders import options:
      * Enable the **Automatically import orders** checkbox in the **Orders** section.
+       {% note warning %}
+       The **Automatically import orders** option requires a special {% link "cron task" ref_lLqNzAaq %} set up on the server hosting your X-Cart store.
+       {% endnote %}
      * **Save** the configuration settings.
      * If applicable add fields mapping for shipping settings that becomes available after the settings are saved. For this purpose:
        * Click the **Add mapping** link in the **Orders** section.
@@ -74,8 +88,41 @@ All configured marketplaces are added to the **Marketplaces** list in the **Sale
 
 ![configured-marketplaces.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/configured-marketplaces.png)
 
+You can add as many marketplaces as many Amazon accounts you have. 
 
-## Products and categories configuration
-## Submit Feeds
+## Additional import rules
+
+Before you submit feeds to Amazon you need to map your current X-Cart inventory (products and categories data) with Amazon categorization. By default, once the import options for a marketplace are configured in the **Sales channels** -> **Amazon** section all X-Cart inventory can be submitted to Amazon according to the these global rules. 
+
+If you want to make additional import rules for some of your categories and/or products this can be done directly on the category/product details page.
+
+For this purpose: 
+
+1. Locate a category/product in question on the products or categories listing page in the admin area (**Catalog** -> **Categories** for categories and **Catalog** -> **Products** for products).
+2. Open the category/product details page and proceed to the **Amazon category options** / **Amazon product options** tab respectively:
+  <div class="ui stackable two column grid">
+  <div class="column" markdown="span"><i>Category details page</i>![category-details-amazon.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/category-details-amazon.png)</div>
+  <div class="column" markdown="span"><i>Product details page</i>![product-details-amazon.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/product-details-amazon.png)</div>
+  </div>  
+3. In the **Category** and **Category type** drop-downs of the **Main export options** section select the Amazon category values that correspond with the category/product in question. 
+4. Add a specific fields mapping if required. 
+   * Click on the **Add mapping** link
+   * Match the Amazon fields' values (1st column) with the X-Cart fields' values (2nd column) in the **Fields mapping** pop-up
+5. Save the settings.
+
+Category and product specific import rules are of the first priority during feed submission to Amazon.
+
+## Feed Submissions
+
+In case the **Automatically sync X-Cart product updates to Amazon** and **Automatically import orders** options are enabled for a marketplace the feeds and the orders will be automatically submitted to and/or imported from Amazon provided that a correspondimg {% link "cron task" ref_lLqNzAaq %} is configured on the server hosting your X-Cart store. 
+
+If you want to submit feeds to Amazon manually:
+1. Open the **Sales channels** -> **Amazon** section 
+2. Select the marketplaces from the list (tick a checkboxes in front of a marketplace)
+   ![submit-feeds-list.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/submit-feeds-list.png)
+3. Click **Submit feeds** button
+4. Choose the feeds to submit from the list in a pop-up
+   ![submit-feeds-popup.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/submit-feeds-popup.png)
+5. Click the **Submit feeds** button
 
 
