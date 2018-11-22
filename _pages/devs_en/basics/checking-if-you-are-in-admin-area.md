@@ -5,7 +5,7 @@ updated_at: '2018-11-22 16:05 +0400'
 identifier: ref_1IIzn913
 title: ''
 order: 100
-published: false
+published: true
 ---
 If you need to check whether you are in admin area or in customer one, use the following method:
 
