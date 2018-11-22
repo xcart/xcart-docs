@@ -17,7 +17,7 @@ You can give certain products in your store more prominent placement by showcasi
 
 This feature is made available by the module ["Featured Products"](https://market.x-cart.com/addons/featured-products.html "Adding featured products") by X-Cart team. 
 
-Before you continue, make sure this module is installed and enabled:
+Before you continue, make sure this module is {% link "installed and enabled" ref_0fGEpvrh %}:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/installed.png)
 
