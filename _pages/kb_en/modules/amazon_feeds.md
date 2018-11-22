@@ -75,6 +75,14 @@ To add a new marketplace:
        * All mapped product properties will be automatically listed in the **Products** section.
          ![mapped-product-properties.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/mapped-product-properties.png)
    
+       {% note info %}
+       Fields mapping is used for a proper info representation on Amazon. 
+       
+       e.g. 
+       
+       If you map Amazon description field with both description and full description product properties in X-Cart, a product description on Amazon will inherit the information from the first not empty field found in X-Cart (either brief or full product description texts), but not both.
+       {% endnote %}
+   
    To set orders import options:
      * Enable the **Automatically import orders** checkbox in the **Orders** section.
        
@@ -96,11 +104,9 @@ To add a new marketplace:
          ![delete-shipping-mapping.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/delete-shipping-mapping.png)
          
        {% note info %}
-       Fields mapping is used for a proper info representation on Amazon. 
+       In case shipping mapping is not configured all orders imported from Amazon will gain 'Amazon shipping' value as a shipping method automatically. 
        
-       e.g. 
-       
-       If you map Amazon description field with both description and full description product properties in X-Cart, a product description on Amazon will contain all the information from the corresponsing fields in X-Cart (both brief and full product description texts).
+       For configured shipping mapping shipping info in all orders imported from Amazon will be represented according to the maping rules set. 
        {% endnote %}
 
 4. **Save** all the configuration changes for the new marketplace.
@@ -113,19 +119,24 @@ You can add as many marketplaces as many Amazon accounts you have.
 
 ## Additional import rules
 
-Before you submit feeds to Amazon you need to map your current X-Cart inventory (products and categories data) with Amazon categorization. By default, once the import options for a marketplace are configured in the **Sales channels** -> **Amazon** section all X-Cart inventory can be submitted to Amazon according to these global rules. 
+All products are exported from X-Cart and imported to Amazon according to the mapping rules specified in the **Products export options** section (**Sales channels** -> **Amazon**). 
 
-If you want to make additional import rules for some of your categories and/or products this can be done directly on the category/product details page.
+If you want to make additional mapping rules for some of your categories (applied to all products from this category) and/or products (applied to a particular product only) this can be done directly on the category/product details page.
 
 For this purpose: 
 
-1. Locate a category/product in question on the products or categories listing page in the admin area (**Catalog** -> **Categories** for categories and **Catalog** -> **Products** for products).
+1. Locate a category/product in question on the categories or products listing page in the admin area (**Catalog** -> **Categories** for categories and **Catalog** -> **Products** for products).
 2. Open the category/product details page and proceed to the **Amazon category options** / **Amazon product options** tab respectively:
    <div class="ui stackable two column grid">
     <div class="column" markdown="span"><i>Category details page</i>![category-details-amazon.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/category-details-amazon.png)</div>
     <div class="column" markdown="span"><i>Product details page</i>![product-details-amazon.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/product-details-amazon.png)</div>
    </div>  
 3. In the **Category** and **Category type** drop-downs of the **Main export options** section select the Amazon category values that correspond with the category/product in question. 
+
+{% note info %}
+Amazon **category** and **category type** fields allow to set up a type of a product that will determine what particular product properties are added to the feed. If you add e.g. _Clothing_ -> _Dress_ mapping it will be possible to assign such product parameters as size, sleeve length, season, etc. to a product after it is exported to Amazon.
+{% endnote %}
+
 4. Add a specific fields mapping if required. 
    * Click on the **Add mapping** link
    * Match the Amazon fields' values (1st column) with the X-Cart fields' values (2nd column) in the **Fields mapping** pop-up
@@ -135,7 +146,7 @@ Category and product specific import rules are of the first priority during feed
 
 ## Feed Submissions
 
-In case the **Automatically sync X-Cart product updates to Amazon** and **Automatically import orders** options are enabled for a marketplace the feeds and the orders will be automatically submitted to and/or imported from Amazon provided that a correspondimg {% link "cron task" ref_lLqNzAaq %} is configured on the server hosting your X-Cart store. 
+In case the **Automatically sync X-Cart product updates to Amazon** and **Automatically import orders** options are enabled for a marketplace the feeds and the orders will be automatically submitted to and/or imported from Amazon provided that a corresponding {% link "cron task" ref_lLqNzAaq %} is configured on the server hosting your X-Cart store. 
 
 If you want to submit feeds to Amazon manually:
 
