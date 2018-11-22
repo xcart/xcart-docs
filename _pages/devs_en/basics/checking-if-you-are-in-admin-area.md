@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-11-22 16:05 +0400'
 identifier: ref_1IIzn913
-title: ''
+title: Checking if you are in admin or customer area
 order: 100
 published: true
 ---
