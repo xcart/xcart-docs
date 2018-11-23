@@ -68,7 +68,7 @@ Also, a new setting - **Add to Facebook product feed** - will be added for each 
   
   ![paste-product-feed.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/paste-product-feed.png)
   
-  At the _Add Products_ step, choose 'Set on a schedule' for _How do you want to upload your data feed?_, paste your Product Feed URL that X-Cart generated for you in the **Add a Data Feed URL** field, schedule the automatic uploads and name the feed the way you like it better. Click the **Start Upload** button to upload your products from X-Cart to Facebook.
+  At the step _Add Products to Your Catalog_, specify that you want to _Use Data Feeds_. In the section  **How do you want to upload your data feed?**, choose 'Set a schedule' and paste the Product Feed URL generated for you by X-Cart in the **Data Feed URL** field. Schedule the automatic uploads and name the feed the way you like it better. Click the **Start Upload** button to upload your products from X-Cart to Facebook.
   
   When the products are uploaded, you'll see them in the **Products** tab.
   
