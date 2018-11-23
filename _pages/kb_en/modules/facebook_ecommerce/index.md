@@ -12,26 +12,22 @@ Social feeds are a good point to attract new visitors and boost sales, Facebook 
 
 You can learn more about Instagram ads [here](https://www.facebook.com/business/help/1634705703469129?helpref=faq_content "Facebook eCommerce Module") and [here](https://www.facebook.com/business/help/1513393428972189?helpref=faq_content "Facebook eCommerce Module"). 
 
-{% note info %}
+If you do not have a Facebook account yet, you can create it at [https://www.facebook.com/business](https://www.facebook.com/business "Facebook eCommerce Module").
 
-If you don't have a Facebook account as yet, don't lose time and create it now at [https://www.facebook.com/business](https://www.facebook.com/business "Facebook eCommerce Module")
+The module Facebook Ads and Instagram Ads uploads your products to Facebook Catalog automatically and syncs the product data always keeping the catalog up-to-date. 
 
-{% endnote %}
-
-Facebook eCommerce module uploads your products to Facebook Catalog automatically and syncs the product data always keeping the catalog up-to-date. 
-
-To make use of Facebook and Instagram ads you'll need to:
+To make use of Facebook and Instagram ads, you will need to:
 {% toc %}
 
-## **Install the Facebook eCommerce module** 
+## **Install the Facebook Ads and Instagram Ads module** 
 
 Install the module as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}
   
   ![xc5_fecommerce_module_in_mktplce.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_module_in_mktplce.png)
   
-Once installed the module will become available in the **Sales Channels** > **Facebook E-Commerce** section of the store admin area. 
+Once installed, the module will become available in the **Sales Channels** > **Facebook E-Commerce** section of your store's Admin area. 
 
-Also, each product will gain an _Add to Facebook product feed_ setting in the Marketing section on the product details page that is enabled by default. All products with the enabled _Add to Facebook product feed_ setting will be automatically added to the product feed and uploaded to your Facebook Catalog.
+Also, a new setting - **Add to Facebook product feed** - will be added for each of the products in your store's catalog. You will find it in the Marketing section of the product details page. Note that this setting is enabled by default. All the products with the setting **Add to Facebook product feed** enabled will be added automatically to the product feed and uploaded to your Facebook Catalog.
 
 ## **Configure the module** 
 
