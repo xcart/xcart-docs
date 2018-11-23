@@ -8,7 +8,7 @@ order: 95
 published: true
 ---
 
-Social feeds are a good point to attract new visitors and boost sales, Facebook Marketing being one of the most popular and efficient. If you already have a Facebook account start using a free [X-Cart Facebook eCommerce](https://market.x-cart.com/addons/facebook-e-commerce.html "Facebook eCommerce Module") module right away to upload your products to Facebook Catalog and to create personalized ads that will allow reaching the right audience in the right place at the right time. Facebook ads are synchronized with Instagram and are shown there as well even if you don't have an Instagram account.
+Social feeds are a good point to attract new visitors and boost sales, Facebook Marketing being one of the most popular and efficient. If you have a Facebook account, you can start using X-Cart's free [Facebook Ads and Instagram Ads](https://market.x-cart.com/addons/facebook-e-commerce.html) module (formerly known as "Facebook eCommerce") right away. This module enables you to upload your products to Facebook Catalog and to create personalized ads that will allow reaching the right audience in the right place at the right time. Facebook ads are synchronized with Instagram and are shown there as well even if you don't have an Instagram account.
 
 You can learn more about Instagram ads [here](https://www.facebook.com/business/help/1634705703469129?helpref=faq_content "Facebook eCommerce Module") and [here](https://www.facebook.com/business/help/1513393428972189?helpref=faq_content "Facebook eCommerce Module"). 
 
