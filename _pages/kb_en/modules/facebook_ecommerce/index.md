@@ -50,7 +50,7 @@ Also, a new setting - **Add to Facebook product feed** - will be added for each 
   
   ![xc5_fecommerce_generate_prod_feed_w_id.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_generate_prod_feed_w_id.png)
   
-  It will take some time to generate a Product Feed URL depending on the overall store inventory. Once the process is completed, copy the _Product Feed URL_ that has been generated and paste it into the appropriate field when creating a new catalog at https://www.facebook.com/products/catalogs/new.
+  It will take some time to generate a Product Feed URL depending on the overall store inventory. Once the process is completed, copy the _Product Feed URL_ that has been generated and paste it into the appropriate field when specifying a source of products for your catalog (https://www.facebook.com/products/catalogs/new).
   
   ![xc5_fecommerce_url_generated.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_url_generated.png)
   
@@ -60,7 +60,7 @@ Also, a new setting - **Add to Facebook product feed** - will be added for each 
   
 ## **Upload Product Feed to Facebook**
   
-  To upload your product feed to Facebook, go to [Catalog Manager](https://www.facebook.com/business/help/1659534074121655 "Facebook eCommerce Module") of your [Facebook Business account](https://business.facebook.com/overview/ "Facebook eCommerce Module") at https://www.facebook.com/products/
+  To upload your product feed to Facebook, go to the [Catalog Manager](https://www.facebook.com/business/help/1659534074121655 "Facebook eCommerce Module") of your [Facebook Business account](https://business.facebook.com/overview/ "Facebook eCommerce Module") at https://www.facebook.com/products/
   
   ![facebook-catalog.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/facebook-catalog.png)
   
