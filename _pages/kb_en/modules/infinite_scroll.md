@@ -29,3 +29,6 @@ The Infinite Scroll settings page allows to configure the following options:
 **Submit** the settings to make them active.
 
 That's it! The module is configured. Now your customers don't need to switch pages when looking through a long list of products. More products will be displayed automatically as they scroll the page down.
+
+_Related pages_:
+*  {% link "Infinite Scroll module (video)" ref_XFOnM7r6 %}
