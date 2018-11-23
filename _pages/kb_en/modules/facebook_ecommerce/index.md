@@ -21,9 +21,9 @@ To make use of Facebook and Instagram ads, you will need to:
 
 ## **Install the Facebook Ads and Instagram Ads module** 
 
-Install the module as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}
+Install the module as described in the section {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %} of this manual.
   
-  ![xc5_fecommerce_module_in_mktplce.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_module_in_mktplce.png)
+  ![xc5_fb_module.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_module.png)
   
 Once installed, the module will become available in the **Sales Channels** > **Facebook E-Commerce** section of your store's Admin area. 
 
@@ -31,7 +31,7 @@ Also, a new setting - **Add to Facebook product feed** - will be added for each 
 
 ## **Configure the module** 
 
-  You can configure the Facebook e-Commerce module in the **Sales Channels** > **Facebook E-Commerce** section of the store admin area
+  You can configure the module settings for Facebook Ads and Instagram Ads in the **Sales Channels** > **Facebook E-Commerce** section of the store's Admin area:
   
   ![xc5_fecommerce_settings.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_settings.png)
   
