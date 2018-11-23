@@ -5,7 +5,7 @@ updated_at: '2018-11-23 12:30 +0400'
 identifier: ref_1WLu7suL
 title: Infinite Scroll
 order: 151
-published: false
+published: true
 ---
 [Infinite Scroll module](https://market.x-cart.com/addons/infinite-scroll.html "Infinite Scroll") by X-Cart allows to replace standard pagination with Facebook-wall-like infinite scrolling that improves shopping experience and makes product browsing easier and quicker not only on PCs but also on touchscreen devices like smartphones and tablets.
 
