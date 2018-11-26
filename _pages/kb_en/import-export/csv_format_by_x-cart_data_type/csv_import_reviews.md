@@ -12,15 +12,19 @@ A review CSV file for import must have the name **reviews-yyyy-mm-dd.csv**, wher
 Below is a list of supported fields and their respective value types for the import of customers:
 
 {:.ui.compact.celled.small.padded.table} 
-|**Field in CSV file**|**What this field describes**|**Value type**|
-|<strong>product*</strong>|Product SKU (Unique identifier of the product)|<br>String</br> <br>Max. length: 32</br>|
+|**Field in CSV file**|**What this field describes**|<strong>Value type**</strong>|
+|<strong>product*</strong>|Product SKU (Unique identifier of the product)|<br>String<br>Max. length: 32|
 |review|Customer review|String|
 |response|Admin reply on a review from a customer (field value can be empty)|String|
 |rating|Products rating set by a customer рейтинг|Integer (1-5)|
-|additionDate|A review date|Date        (e.g. 1 Jan 2013)|
-|responseDate|A response date (field value can be empty)|Date        (e.g. 1 Jan 2013)|
+|additionDate|A review date|<br>Date <br>(e.g. 1 Jan 2013)|
+|responseDate|A response date (field value can be empty)|<br>Date <br> (e.g. 1 Jan 2013)|
 |respondent|An email of X-Cart admin account that was used for response (field value can be empty) |email|
-|reviewerName|A name of a customer who submitted a review| String        Max. length: 255 |
+|reviewerName|A name of a customer who submitted a review|<br> String <br> Max. length: 255 |
 |email| An email of a customer who submitted a review|email|
-|status|A review status set by the store administrator (Approved status is required for a review to become visible in the store front)| Approved / Pending|
+|status|A review status set by the store administrator (If set to 'Approved' the review becomes visible in the storefront)| Approved / Pending|
 |useForMeta|If set to 'Yes' a review will be used in the product metatags|Yes/No|
+
+<sub>* Required field.</sub>
+
+<sub>** See {% link "CSV field attributes" ref_2LwMTTTW %} for more info.</sub>
