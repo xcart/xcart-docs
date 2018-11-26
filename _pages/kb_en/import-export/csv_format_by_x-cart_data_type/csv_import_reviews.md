@@ -11,7 +11,7 @@ A review CSV file for import must have the name **reviews-yyyy-mm-dd.csv**, wher
 
 Below is a list of supported fields and their respective value types for the import of customers:
 
-{:.ui.compact.celled.small.padded.table} 
+{:.ui.compact.padded.small.celled.table} 
 |**Field in CSV file**|**What this field describes**|<strong>Value type**</strong>|
 |<strong>product*</strong>|Product SKU (Unique identifier of the product)|<br>String<br>Max. length: 32|
 |review|Customer review|String|
