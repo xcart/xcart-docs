@@ -20,8 +20,8 @@ Max. length: 32|
 |rating|Products rating set by a customer рейтинг|Integer (1-5)|
 |additionDate|A review date|Date (e.g. 1 Jan 2013)|
 |responseDate|A response date (field value can be empty)|Date (e.g. 1 Jan 2013)|
-|respondent|мыло админа, который ответил на отзыв, может быть пустым|email|
-|reviewerName|имя кастомера, который оставил отзыв| String Max. length: 255 |
-|email| мыло кастомера, который оставил отзыв|email|
-|status|Approved / Pending| тут два этих значения|
-|useForMeta|отзыв будет использовать для метатегов у этого продукта|Yes/No|
+|respondent|An email of X-Cart admin account that was used for response (field value can be empty) |email|
+|reviewerName|A name of a customer who submitted a review| String Max. length: 255 |
+|email| An email of a customer who submitted a review|email|
+|status|A review status set by the store administrator (Approved status is required for a review to become visible in the store front)| Approved / Pending|
+|useForMeta|If set to 'Yes' a review will be used as metatags for the product|Yes/No|
