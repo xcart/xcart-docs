@@ -60,19 +60,25 @@ Also, a new setting - **Add to Facebook product feed** - will be added for each 
   
 ## **Upload Product Feed to Facebook**
   
-  To upload your product feed to Facebook, go to the [Catalog Manager](https://www.facebook.com/business/help/1659534074121655 "Facebook eCommerce Module") of your [Facebook Business account](https://business.facebook.com/overview/ "Facebook eCommerce Module") at https://www.facebook.com/products/
+  To upload your product feed to Facebook:
   
-  ![facebook-catalog.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/facebook-catalog.png)
+   1. Go to the [Catalog Manager](https://www.facebook.com/business/help/1659534074121655 "Facebook eCommerce Module") of your [Facebook Business account](https://business.facebook.com/overview/ "Facebook eCommerce Module") at https://www.facebook.com/products/.
+   
+      Click to create a new catalog or choose to edit an exisitng one. 
+      ![facebook-catalog.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/facebook-catalog.png)
   
-  Click to create a new catalog or click an exisitng one to edit it. At the step _Add Products to Your Catalog_, specify that you want to _Use Data Feeds_. In the section  **How do you want to upload your data feed?**, choose 'Set a schedule' and paste the Product Feed URL generated for you by X-Cart in the **Data Feed URL** field:
+   2. At the step _Add Products to Your Catalog_, specify that you want to _Use Data Feeds_. 
+      ![xc5_fb_use_feeds.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_use_feeds.png)
+
+   3. In the section  **How do you want to upload your data feed?**, choose 'Set a schedule' and paste the Product Feed URL generated for you by X-Cart in the **Data Feed URL** field:
+      ![paste-product-feed.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/paste-product-feed.png)
   
-  ![paste-product-feed.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/paste-product-feed.png)
+   4. Schedule the automatic uploads and name the feed the way you like it better. 
+   
+   5. Click the **Start Upload** button to upload your products from X-Cart to Facebook.
   
-  Schedule the automatic uploads and name the feed the way you like it better. Click the **Start Upload** button to upload your products from X-Cart to Facebook.
-  
-  After the products have been uploaded, you will see them on the **Products** tab.
-  
-  ![Products.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/Products.png)
+After the products have been uploaded, you will see them on the **Products** tab.
+      ![Products.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/Products.png)
   
 That's it! You can start advertising your products through Facebook.
 
