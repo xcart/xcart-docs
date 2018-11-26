@@ -28,3 +28,7 @@ Below is a list of supported fields and their respective value types for the imp
 <sub>* Required field.</sub>
 
 <sub>** See {% link "CSV field attributes" ref_2LwMTTTW %} for more info.</sub>
+
+**Tips**:
+
+* If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields into your CSV file for import. Simply remove the respective column(s) from the file.
