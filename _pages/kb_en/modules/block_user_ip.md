@@ -51,10 +51,12 @@ The Block Users by IP/Country/User Agent module settings page includes 3 subsect
 
 3. Address based protection
    ![buip-settings-3.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-settings-3.png)
-   * **Restrict purchases based on buyer address** : Select if you want to restrict purchases for buyers with a different billing and shipping address.
-   * **Restrict purchases based on buyer location** : Select if you want to restrict purchases for buyers whose billing address doesn't match the IP address they used for the purchase.
+   
+   * **Restrict purchases based on buyer address** : Specify whether buyers whose billing address is different from their shipping address must be prevented from making purchases at your store.
+   
+   * **Restrict purchases based on buyer location** : Specify whether buyers whose billing address does not match the IP address they are using must be prevented from making purchases at your store.
 
-Don't forget to **submit** the changes to make them active.
+Be sure to save your settings by clicking **Submit**.
 
 ## Access Filters
 
