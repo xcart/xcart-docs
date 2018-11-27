@@ -52,9 +52,9 @@ The Block Users by IP/Country/User Agent module settings page includes 3 subsect
 3. Address based protection
    ![buip-settings-3.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-settings-3.png)
    
-   * **Restrict purchases based on buyer address** : Specify whether buyers whose billing address is different from their shipping address must be prevented from making purchases at your store.
+   * **Restrict purchases based on buyer address** : Specify whether buyers whose billing address is different from their shipping address should be prevented from making purchases at your store.
    
-   * **Restrict purchases based on buyer location** : Specify whether buyers whose billing address does not match the IP address they are using must be prevented from making purchases at your store.
+   * **Restrict purchases based on buyer location** : Specify whether buyers whose billing address does not match the IP address they are using should be prevented from making purchases at your store.
 
 Be sure to save your settings by clicking **Submit**.
 
@@ -69,15 +69,20 @@ After the module has been configured, you can proceed to creating access filters
    
 2. Configure the set of options for your filter:
    
-   * **Condition type** : Select a condition type to distinguish a user (IP address, IP address mask, IP address country, User agent). Depending on the type you'll be able to specify: 
-     * an exact IP address 
-     * a mask for a group of IP addresses
-     * a country IP addresses belong to
-     * user agent pattern
-   * **Filter type** : Choose if you want to give or forbid access to the site for users with the particular condition type.
-   * **Filter range** : Select what part of your store should be inaccessible.
-   * **Reason** : Specify the reason for applying the limitations if required.
+   * **Condition type** : Select a condition type to distinguish a user (IP address, IP address mask, IP address country, User agent). Depending on the type selected you will be able to specify: 
+     * an exact IP address; 
+     * a mask for a group of IP addresses;
+     * a country to which the IP addresses belong;
+     * a user agent pattern.
+     
+   * **Filter type** : Choose whether you want to give or to forbid access to the site for users with the specified condition type.
+   
+   * **Filter range** : Select what part of your store site should be inaccessible to the users with the specified condition type.
+   
+   * **Reason**  (optional): Specify the reason for applying the limitations.
+   
    Click **Create** to complete the filter creation.
+   
 3. The newly created filter will become available on the **Access filters** page:
     ![buip-access-filters.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-access-filters.png)
     
