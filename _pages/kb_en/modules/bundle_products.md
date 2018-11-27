@@ -19,14 +19,24 @@ When installed the module adds a _Bundle_ tab to the product details page where 
 
 To create a bundle a store admin/vendor should:
 1. Create a new product as described in {% link "Adding products" ref_fhzzxDTy %}. This product will be the main product for a bundle.
-2. Locate the **Price & Inventory** section of the _Info_ tab on the product details page and set a special price for the bundle product that will cover the costs of all components included. 
+
+2. Locate the **Price & Inventory** section of the _Info_ tab on the product details page
+   * Set a special price for the bundle product that will cover the costs of all components included. 
    
-   {% note info %}
-   Make sure the price of a bundle product covers all included components and is less than the sum price of the components. 
+     {% note info %}
+     Make sure the price of a bundle product covers all included components and is less than the sum price of the components. 
+     
+     The price difference will be automatically calculated and displayed in the bundle product description in the storefront:
+     ![cus-product-details.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/cus-product-details.png)
+     {% endnote %}
    
-   The price difference will be automatically calculated and displayed in the bundle product description in the storefront:
-   ![cus-product-details.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/cus-product-details.png)
-   {% endnote %}
+   * Enable the **Inventory tracking** option and leave the **Quantity in stock** field empty
+     
+     {% note info %}
+     The quantity in stock of a bundle product depends on the stock of it components and is calculated and displayed automatically by the system. 
+     
+     Even if you specify the quantity in stock for a bundle product the system will trace and display its inventory based on the least available in stock component.
+     {% endnote %}
 
 3. Proceed to the _Bundle_ tab of the product details page and click the **Add components** button:
    ![adm-bundle-add-components.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/adm-bundle-add-components.png)
@@ -42,7 +52,7 @@ Besides that each component product will automatically gain a record in the _Bun
 
 ![in-bundle.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/in-bundle.png)
 
-When a bundle is ordered the quantity in stock is updated for all its components simultaneously. If any of the components is out of stock customers won’t be able to buy the bundle. 
+When a bundle is ordered the quantity in stock is updated for all its components simultaneously. If any of the components is out-of-stock the bundle goes out-of-stock as well and customers won’t be able to buy the bundle. 
 
 When making an order a customer will see a list of products included in the bundle on the cart page and in the invoice:
 
