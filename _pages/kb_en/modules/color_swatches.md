@@ -60,7 +60,7 @@ For this purpose:
 1. Click **+** in the image field of a swatch.
    ![add-image.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/add-image.png)
    
-2. Upload an image either from computer or via a URL.
+2. Upload an image either from your local computer or a URL.
 
 3. Click **Save changes**.
 
