@@ -15,7 +15,7 @@ redirect_from:
 This article describes how to add Facebook Pixel code to X-Cart pages. 
 
 Before we get started, be aware that you can set up Facebook Pixel without custom programming by using these modules:
-- Facebook E-Commerce module: <https://market.x-cart.com/addons/facebook-e-commerce.html>
+- Facebook Ads and Instagram Ads module: <https://market.x-cart.com/addons/facebook-e-commerce.html>
 - Facebook Pixel integration via Segment: <https://market.x-cart.com/addons/facebook-pixel.html>
 
 ## Step-by-step guide
