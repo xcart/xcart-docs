@@ -81,22 +81,26 @@ After the module has been configured, you can proceed to creating access filters
    
    * **Reason**  (optional): Specify the reason for applying the limitations.
    
-   Click **Create** to complete the filter creation.
+3.   Click **Create** to complete the creation of the filter.
    
-3. The newly created filter will become available on the **Access filters** page:
+The newly created filter will become available on the **Access filters** page:
     ![buip-access-filters.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-access-filters.png)
     
 
-Filters can also be created based on a particular order or user information if they look like fraud to you.
+Filters can also be created based on a particular order or user information if they look like fraud to you. For this purpose:
 
-For this purpose:
-1. Open either the **Order details page** of a particulat order (**Orders** -> **Order list**) or the **Account details page** of a particular user (**Users** -> **User list**)
+1. Open either the **Order details page** of the order (**Orders** -> **Order list**) or the **Account details page** of the user (**Users** -> **User list**) that you wish to use as a basis for your filter.
    <div class="ui stackable two column grid">
      <div class="column" markdown="span">![buip-order-details.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-order-details.png)</div>
      <div class="column" markdown="span">![buip-user-details.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-user-details.png)</div>
     </div>
+    
 2. Locate the IP address section.
-3. Click the **Start creation of filter for this IP** button to add a new filter. You'll be redirected to the **Access filter** page.
-4. Create a new filter for the chosen IP address. Be sure to click **Create** to complete the creation of your filter.
 
-The newly created filter is added to the filter list.
+3. Click the **Start creation of filter for this IP** button. You will be redirected to the **Access filter** page.
+
+4. Create a new filter for the chosen IP address. 
+
+5. Click **Create** to complete the creation of your filter.
+
+The newly created filter will be added to the list of your filters.
