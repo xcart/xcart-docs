@@ -7,19 +7,19 @@ title: Block Users by IP / Country / User agent
 order: 41
 published: true
 ---
-The [Block User's by IP/Country/User Agent module](https://market.x-cart.com/addons/block-users-by-IP-country-user-agent.html "Block Users by IP / Country / User agent") protects your store from bots and fraud customers, by limiting or completely restricting access to it with the help of flexible settings and filters, taking into account IP, address and user behavior.
+The X-Cart module [Block Users by IP/Country/User Agent](https://market.x-cart.com/addons/block-users-by-IP-country-user-agent.html "Block Users by IP / Country / User agent") protects your store from bots and fraudulent users by limiting or completely restricting access to it with the help of flexible settings and filters taking into account the user IP, address and behavior.
 
 {% toc %}
 
-To install the module follow directions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the module, follow the guidelines from the section {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 ## Installation and Set-up
 
-When installed proceed to the module settings page to configure it:
+After the module has been installed, proceed to the module settings page to configure it:
 
 ![buip-installed.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-installed.png)
 
-The **Block User's by IP/Country/User Agent module settings page** is devided into 3 subsections:
+The **Block Users by IP/Country/User Agent module settings page** includes 3 subsections:
 
 1. IP based access control:
    ![buip-settings-1.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-settings-1.png)
@@ -64,7 +64,7 @@ When the module configuration is complete you can proceed to creating access fil
 For this purpose:
 1. Open the **Store setup** -> **Access filter** section in the admin area and click 'Create':
    ![buip-access-filters-create.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-access-filters-create.png)
-2. You'll be redirected to a new page, where you can create an access filter based on the set of options available:
+2. You will be redirected to a new page where you can create an access filter based on the set of options available:
    ![buip-new-filter.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-new-filter.png)
    * **Condition type** : Select a condition type to distinguish a user (IP address, IP address mask, IP address country, User agent). Depending on the type you'll be able to specify: 
      * an exact IP address 
@@ -79,7 +79,7 @@ For this purpose:
     ![buip-access-filters.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-access-filters.png)
     
 
-Filters can also be created based on a particular order or user information if they seem fraud to you.
+Filters can also be created based on a particular order or user information if they look like fraud to you.
 
 For this purpose:
 1. Open either the **Order details page** of a particulat order (**Orders** -> **Order list**) or the **Account details page** of a particular user (**Users** -> **User list**)
@@ -89,5 +89,6 @@ For this purpose:
     </div>
 2. Locate the IP address section.
 3. Click the **Start creation of filter for this IP** button to add a new filter. You'll be redirected to the **Access filter** page.
-4. Create a new filter for the chosen IP address. Don't forget to click **Create** to complete the filter creation.
-5. The newly created filter is added to the filters'list.
+4. Create a new filter for the chosen IP address. Be sure to click **Create** to complete the creation of your filter.
+
+The newly created filter is added to the filter list.
