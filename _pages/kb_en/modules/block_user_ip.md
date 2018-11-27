@@ -60,13 +60,15 @@ Be sure to save your settings by clicking **Submit**.
 
 ## Access Filters
 
-When the module configuration is complete you can proceed to creating access filters if required. 
+After the module has been configured, you can proceed to creating access filters. For this purpose:
 
-For this purpose:
-1. Open the **Store setup** -> **Access filter** section in the admin area and click 'Create':
+1. In your store's Admin area, go to the Access filters section (**Store setup** -> **Access filters**) and click **Create**:
    ![buip-access-filters-create.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-access-filters-create.png)
-2. You will be redirected to a new page where you can create an access filter based on the set of options available:
+   You will be redirected to a new page where you can create an access filter.
    ![buip-new-filter.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-new-filter.png)
+   
+2. Configure the set of options for your filter:
+   
    * **Condition type** : Select a condition type to distinguish a user (IP address, IP address mask, IP address country, User agent). Depending on the type you'll be able to specify: 
      * an exact IP address 
      * a mask for a group of IP addresses
