@@ -47,12 +47,7 @@ The Block Users by IP/Country/User Agent module settings page includes 3 subsect
    
    * **Detect search engine bots via the user agent** : With this option enabled, any visitor that is found to be a type of "crawler" according to [https://browscap.org/](https://browscap.org/ "Block Users by IP / Country / User agent") will be blacklisted automatically. Note that if this option is disabled, the module will sort the visitors in accordance with the settings **A visitor should be identified as a bot if** and **A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than**.
      
-   * **Add bot IP addresses to black list** : Decide if you want to add bot IP addresses to back list automatically or not and select one of the options.  
-     {% note info %}
-     When making a choice please keep in mind that any option starting with "Forbid ..." automatiocally adds any bot IP address (both good bots that help in creating the required visibility of the websites on the internet, and bad bots that are programmed to perform a variety of malicious jobs) to the black list and limits access to the store pages from the blacklisted IP  depending on the option you selected. 
-     
-     If you set the value to "Forbid access to entire site" the site will become inaccessible to all possible bots and as a result the site will NOT not be indexed by good bots as well.
-     {% endnote %}
+   * **Add bot IP addresses to black list** : Decide whether you want to add bot IP addresses to your backlist automatically, or not, and select one of the options. **Important**: When making your choice, please keep in mind that any option starting with "Forbid ..." will automatically add any bot IP addresses to the blacklist (including both the bad bots programmed to perform a variety of malicious jobs AND the good bots that help in creating the required visibility of websites on the internet); it will also limit access to the store pages from the blacklisted IPs according to the option you selected. For example, if you set the value to "Forbid access to entire site", your store site will become inaccessible to ANY bots, and, as a result, it will NOT be indexed by any good bots either.
 
 3. Address based protection
    ![buip-settings-3.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-settings-3.png)
