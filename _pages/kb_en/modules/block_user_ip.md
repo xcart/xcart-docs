@@ -19,17 +19,18 @@ After the module has been installed, proceed to the module settings page to conf
 
 ![buip-installed.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-installed.png)
 
-The Block Users by IP/Country/User Agent module settings page includes 3 subsections: **IP based access control**, **Bot protection** and **Address based protection**. Adjust the settings in these sections according to your needs:
+The Block Users by IP/Country/User Agent module settings page includes 3 subsections: **IP based access control**, **Bot protection** and **Address based protection**. Adjust the settings in these subsections according to your needs:
 
 1. IP based access control:
    ![buip-settings-1.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-settings-1.png)
-   * **Access control mode** : Select between "Allow access from all but blacklisted IP addresses" and "Allow access from IP addresses in white list". 
-     {% note info %}
-     The first option will allow access to the store from any IP address except for the ones that are blacklisted and will work even if there are no IP addresses on the backlist. 
+   
+   * **Access control mode** : Choose the mode you would like to use.
+   
+     _Allow access from all but blacklisted IP addresses_  - This option will allow access to the store from any IP address except for the ones that are blacklisted and will work even if there are no IP addresses on the backlist.
      
-     The second option will allow access to the store only from IP addresses that are in the white list and will NOT work if there is no white list with IP addresses (i.e. you have to create a white list with IP addresses in the **Store setup** -> **Access filters** section to use this mode).
-     {% endnote %}
-   * **Link to bypass the IP based access control system** : Is generated automatiocally
+     _Allow access from IP addresses in white list_ - This option will allow access to the store only from IP addresses that are whitelisted and will NOT work if there is not a whitelist with IP addresses. (You have to create a whitelist with IP addresses in the **Store setup** -> **Access filters** section before you can use this mode).
+    
+   * **Link to bypass the IP based access control system** : This link is generated automatically.
 
 2. Bot protection:
    ![buip-settings-2.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-settings-2.png)
