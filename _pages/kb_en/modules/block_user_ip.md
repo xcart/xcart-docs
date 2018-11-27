@@ -40,15 +40,13 @@ The Block Users by IP/Country/User Agent module settings page includes 3 subsect
    * **A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than** : Typically a bot takes much less time to attempt to buy an item after adding it to the shopping cart than a human does. We can try and distinguish bots from humans based on the duration of the time period (in seconds) between the two actions by the same user. You can use this setting to specify the minimum amount of seconds between an add to cart action and an attempt to buy for a user to be considered human. Any value less than that will allow the system to identify the user as a bot.
     
      {% note info %}
-     The time and number of pages values for the above settings should be found out empirically as they differ depending on a particular site, server environment, etc.
+     The time and number of pages values for the above settings will have to be found out empirically as they will differ depending on a particular site, server environment, etc.
      {% endnote %}
    
-   * **Allow bots to make purchases** : Toggle the setting off if you don't want bots to make purchases in your store.
+   * **Allow bots to make purchases** : Toggle the setting off if you want to prevent bots from making purchases at your store.
    
-   * **Detect search engine bots via the user agent** : With this option enabled any visitor of a "crawler" type according to [https://browscap.org/](https://browscap.org/ "Block Users by IP / Country / User agent") is automatically blacklisted. 
-     {% note info %}
-     If this option is disabled the module will sort the visitors in accordance with the **A visitor should be identified as a bot if** and **A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than** settings.
-     {% endnote %}
+   * **Detect search engine bots via the user agent** : With this option enabled, any visitor that is found to be a type of "crawler" according to [https://browscap.org/](https://browscap.org/ "Block Users by IP / Country / User agent") will be blacklisted automatically. Note that if this option is disabled, the module will sort the visitors in accordance with the settings **A visitor should be identified as a bot if** and **A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than**.
+     
    * **Add bot IP addresses to black list** : Decide if you want to add bot IP addresses to back list automatically or not and select one of the options.  
      {% note info %}
      When making a choice please keep in mind that any option starting with "Forbid ..." automatiocally adds any bot IP address (both good bots that help in creating the required visibility of the websites on the internet, and bad bots that are programmed to perform a variety of malicious jobs) to the black list and limits access to the store pages from the blacklisted IP  depending on the option you selected. 
