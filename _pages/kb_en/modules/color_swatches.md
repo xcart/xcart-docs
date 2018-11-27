@@ -16,7 +16,7 @@ The module [Color Swatches](https://market.x-cart.com/addons/color-swatches.html
 
 {% toc %}
 
-## Instaling and Configuring Color Swatches
+## Installing and Configuring the Module 
 
 To install the module, follow the guidelines from the section {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
@@ -30,33 +30,38 @@ The Color Swatches module settings are rather straightforward:
 
 Here you can define the sizes (hight and width) of a swatch image in the customer storefront and whether to use the color swatch name as an attribute option name or not.
 
-Don't forget to **submit** the new configuration settings to make them active.
+After adjusting the settings as you require, be sure to click **Submit** to make them active.
 
-The module adds a special **Color swatches** section (**Catalog** -> **Color swatches**) to the store admin area where a store admin can configure the swatches themselves:
+## Configuring Color Swatches
+The store administrator creates and manages color swatches via the **Color swatches** section of the store's Admin area (**Catalog** -> **Color swatches**).
 
 ![swatches-list.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/swatches-list.png)
 
-Initially the swatches list is empty and the store admin should create all swatches from scratch. 
+Initially there are no swatches, so the swatch list is empty. The store admin needs to create any swatches they require from scratch. 
 
 To create a swatch:
-1. Click **Create**. You'll see a new blank line with the fields to be defined.
-2. Add a swatch name in the line
+
+1. Click **Create**. A new blank line will be displayed in the swatch list. You will need to adjust the fields on this new line to create your new swatch.
+
+2. In the Name field, specify the name by which you will identify the swatch.
    ![create-swatch.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/create-swatch.png)
-3. Choose the swatch color:
+
+3. In the Color field, set the swatch color you require. To do so, click within the **Color** field and use the color selection panel to select the color you need. 
    ![add-color.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/add-color.png)
-   * Click in the **Color** field for the color panel to be displayed
-   * Choose the color you need
-   * Click a multicolor round botton in the bottom right corner to add the chosen color
-   * The color code and the color itself will be added to the swatch
-4. Click **Save changes**
+   
+   The selected color and its code will be added to your swatch.
+
+4. Click **Save changes**.
 
 If necessary you can add an image to the color swatch. 
 
 For this purpose:
-1. Click **+** in the image field of a swatch
+1. Click **+** in the image field of a swatch.
    ![add-image.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/add-image.png)
-2. Upload an image either from computer or via URL
-3. **Save changes**
+   
+2. Upload an image either from computer or via a URL.
+
+3. Click **Save changes**.
 
 ## Adding Color Swatches to Product-Specific Attributes
 
