@@ -74,7 +74,7 @@ After the color swatches you require have been created, they need to be added to
 In case there are no product attributes for a product you'll need to {% link "create" ref_kEKoAxJB %} them first.
 {% endnote %}
 
-Check in the **Color swatches** check-box, add color swatches to the product attributes from the drop-down and **save** the changes. 
+Check in the **Color swatches** check box, add color swatches to the product attributes from the drop-down and **save** the changes. 
 
 ![attributes-save-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/attributes-save-swatches.png)
 
@@ -84,7 +84,7 @@ That's it, the color swatches option is added for a product and will be displaye
 
 ## Adding Color Swatches to Product Variants
 
-If the **Use color swatch name as an attribute option name** option is enabled product variants (if any) will be renamed to swatches automatically when the color swatches are added to the product attributes:
+If the **Use color swatch name as an attribute option name** option is enabled, product variants (if any) will be renamed to swatches automatically when the color swatches are added to the product attributes:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Before color swatches</i>![variants-before-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/variants-before-swatches.png)</div>
@@ -100,7 +100,7 @@ If you add images to the product variants the product image displayed to a custo
   <div class="column" markdown="span"><i>Color 3</i>![cus-var-3.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-var-3.png)</div>
 </div>
 
-If no images are added to the product variants the product image will stay the same regardless of the product color chosen.
+If no images are added to the product variants the product image will remain the same regardless of the product color chosen.
 
 ## Adding Color Swatches to Global Attributes
 
