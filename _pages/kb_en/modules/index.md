@@ -46,7 +46,7 @@ _In this section:_
 *   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
 *   {% link "E-goods" ref_ZszpDfxQ %}
 *   {% link "Exit Offers" ref_1T0EXlkr %}
-*   {% link "Facebook eCommerce Module" ref_LA0TBHEA %}
+*   {% link "Facebook Ads and Instagram Ads" ref_LA0TBHEA %} (Formerly known as Facebook eCommerce)
 *   {% link "FedEx" ref_58tOKWMt %}
 *   {% link "File Attachments" ref_0ZWKcob4 %}
 *   {% link "Flyout Categores Menu" ref_6KutUhlR %}
