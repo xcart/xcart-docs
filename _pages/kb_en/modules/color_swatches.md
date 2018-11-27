@@ -7,7 +7,7 @@ title: Color Swatches
 order: 61
 published: true
 ---
-The [Color Swatches module](https://market.x-cart.com/addons/color-swatches.html#product-details-tab-description "Color Swatches") helps to visualize different colors and fabrics having them displayed as clickable swatches on the product page. 
+The module [Color Swatches](https://market.x-cart.com/addons/color-swatches.html#product-details-tab-description "Color Swatches") for X-Cart helps users to visualize different colors and fabrics by having them displayed as clickable swatches on the product page. 
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>W/o color swatches</i>![cus-without-color-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-without-color-swatches.png)</div>
@@ -18,9 +18,9 @@ The [Color Swatches module](https://market.x-cart.com/addons/color-swatches.html
 
 ## Instaling and Configuring Color Swatches
 
-To install the module follow the guides from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the module, follow the guidelines from the section {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-When installed proceed to the module settings page to configure it:
+After the module has been installed, proceed to the module settings page to configure it:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/installed.png)
 
