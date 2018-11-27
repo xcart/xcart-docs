@@ -13,7 +13,7 @@ The X-Cart module [Block Users by IP/Country/User Agent](https://market.x-cart.c
 
 To install the module, follow the guidelines from the section {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-## Installation and Set-up
+## Installation and setup
 
 After the module has been installed, proceed to the module settings page to configure it:
 
