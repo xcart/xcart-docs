@@ -21,7 +21,7 @@ After the module has been installed, proceed to the module settings page to conf
 
 The Block Users by IP/Country/User Agent module settings page includes 3 subsections: **IP based access control**, **Bot protection** and **Address based protection**. Adjust the settings in these subsections according to your needs:
 
-1. IP based access control:
+1. IP based access control
    ![buip-settings-1.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-settings-1.png)
    
    * **Access control mode** : Choose the mode you would like to use.
@@ -32,14 +32,19 @@ The Block Users by IP/Country/User Agent module settings page includes 3 subsect
     
    * **Link to bypass the IP based access control system** : This link is generated automatically.
 
-2. Bot protection:
+2. Bot protection
    ![buip-settings-2.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-settings-2.png)
-   * **A visitor should be identified as a bot if** : Specify the corresponding time/pages paramethers.
-   * **A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than** : Specify the period in seconds.
+   
+   * **A visitor should be identified as a bot if** : Typically a bot takes much less time to "view" a page than a human does. So we can try to tell whether a user is a bot or a human being based on the average time they spend viewing a page. You can use this setting to specify the page viewing speed that should be used for your store site to distinguish bots from humans.
+   
+   * **A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than** : Typically a bot takes much less time to attempt to buy an item after adding it to the shopping cart than a human does. We can try and distinguish bots from humans based on the duration of the time period (in seconds) between the two actions by the same user. You can use this setting to specify the minimum amount of seconds between an add to cart action and an attempt to buy for a user to be considered human. Any value less than that will allow the system to identify the user as a bot.
+    
      {% note info %}
-     The time and pages values for the above settings are to be found out empirically as they differ depending on a particular site, server environment, etc.
+     The time and number of pages values for the above settings should be found out empirically as they differ depending on a particular site, server environment, etc.
      {% endnote %}
+   
    * **Allow bots to make purchases** : Toggle the setting off if you don't want bots to make purchases in your store.
+   
    * **Detect search engine bots via the user agent** : With this option enabled any visitor of a "crawler" type according to [https://browscap.org/](https://browscap.org/ "Block Users by IP / Country / User agent") is automatically blacklisted. 
      {% note info %}
      If this option is disabled the module will sort the visitors in accordance with the **A visitor should be identified as a bot if** and **A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than** settings.
@@ -51,7 +56,7 @@ The Block Users by IP/Country/User Agent module settings page includes 3 subsect
      If you set the value to "Forbid access to entire site" the site will become inaccessible to all possible bots and as a result the site will NOT not be indexed by good bots as well.
      {% endnote %}
 
-3. Address based protection:
+3. Address based protection
    ![buip-settings-3.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-settings-3.png)
    * **Restrict purchases based on buyer address** : Select if you want to restrict purchases for buyers with a different billing and shipping address.
    * **Restrict purchases based on buyer location** : Select if you want to restrict purchases for buyers whose billing address doesn't match the IP address they used for the purchase.
