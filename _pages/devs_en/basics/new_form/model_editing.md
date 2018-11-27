@@ -35,7 +35,7 @@ We start with creating a simple module with developer ID **XCExample** and modul
 	{}
 	```
     
-* page widget class `\XLite\Module\XCExample\ModelEditing\View\Page\Admin\ProductEdit` with the following content: 
+* page widget class `\XLite\Module\XCExample\ModelEditing\View\Page\Admin\ExampleProductEdit` with the following content:
 
     ```php
     <?php
@@ -48,7 +48,7 @@ We start with creating a simple module with developer ID **XCExample** and modul
      *
      * @ListChild (list="admin.center", zone="admin")
      */
-    class ProductEdit extends \XLite\View\AView
+    class ExampleProductEdit extends \XLite\View\AView
     {
         /**
          * Return list of allowed targets
