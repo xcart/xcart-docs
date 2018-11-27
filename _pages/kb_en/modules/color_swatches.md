@@ -65,7 +65,7 @@ For this purpose:
 
 ## Adding Color Swatches to Product-Specific Attributes
 
-When all required color swatches are created you can add them to product descriptions. For this purpose find a product you need to modify in the product list (**Catalog** -> **Products**), proceed to the product details page and open the **Attributes** tab:
+After the color swatches you require have been created, they need to be added to product descriptions. For this purpose find the product for which you need to add color swatches (**Catalog** -> **Products**), proceed to the product details page and open the **Attributes** tab:
 
 ![attributes-add-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/attributes-add-swatches.png)
 
