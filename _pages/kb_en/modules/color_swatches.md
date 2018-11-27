@@ -28,7 +28,8 @@ The Color Swatches module settings are rather straightforward:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/settings.png)
 
-Here you can define the sizes (hight and width) of a swatch image in the customer storefront and whether to use the color swatch name as an attribute option name or not.
+   * **Box width** and **Box height**: Set the dimensions (hight and width) of your swatch images in the customer storefront.
+   * **Use color swatch name as an attribute option name**: Specify whether the color swatch name should be used as an attribute option name or not.
 
 After adjusting the settings as you require, be sure to click **Submit** to make them active.
 
