@@ -22,10 +22,11 @@ After a hosting company has been chosen, a store owner should make sure the serv
 
 
 Also it's important to set up the server environment for proper communication with the [Marketplace](https://market.x-cart.com/addons/ "Setting up X-Cart 5 environment"), as you'll need it for the X-Cart modules' installation process: 
-    *   {% link "Setting up cURL" ref_sshnMtN7 %};
-    *   {% link "Setting up openSSL" ref_GuFOdboA %};
-    *   {% link "Creating a self-signed SSL certificate" ref_u3gKq6NF %};
-    *   {% link "Setting up .phar" ref_TCoIXzX2 %}.
+
+*   {% link "Setting up cURL" ref_sshnMtN7 %};
+*   {% link "Setting up openSSL" ref_GuFOdboA %};
+*   {% link "Creating a self-signed SSL certificate" ref_u3gKq6NF %};
+*   {% link "Setting up .phar" ref_TCoIXzX2 %}.
 
 Below are some important tips that you may need for a further software maintenace:
 
