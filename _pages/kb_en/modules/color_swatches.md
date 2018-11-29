@@ -55,9 +55,7 @@ To create a swatch:
 
 4. Click **Save changes**.
 
-If necessary you can add an image to the color swatch. 
-
-For this purpose:
+A swatch configured using the procedure above will be displayed on the storefront as a box of the color you have specified at Step 3. If, instead of a simple color box you wish to use a custom image, after saving the basic details of your swatch you need to add a swatch image. Here's how to do it: 
 
 1. Click **+** in the image field of a swatch.
    ![add-image.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/add-image.png)
