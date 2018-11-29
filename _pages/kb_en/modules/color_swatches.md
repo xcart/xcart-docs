@@ -76,9 +76,9 @@ After the color swatches you require have been created, they need to be added to
    ![attributes-add-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/attributes-add-swatches.png)
    
 3. Map your color swatches to the attribute values. (Select a swatch for each value using the drop-down boxes to the right of the values.)
-
-4. Click **Save changes**. 
    ![attributes-save-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/attributes-save-swatches.png)
+
+4. Click **Save changes**.
 
 That's it. Now your store visitors should be able to select product options using color swatches:
    ![cus-color-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-color-swatches.png)
