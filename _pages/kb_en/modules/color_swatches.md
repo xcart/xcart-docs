@@ -50,8 +50,8 @@ To create a swatch:
 3. In the Color field, set the swatch color you require. To do so, click within the **Color** field and use the color selection panel to select the color you need. 
    ![add-color.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/add-color.png)
    
-   The selected color and its code will be added to your swatch.
-   ![xc5_swatch_color_code_added.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_color_code_added.png)
+   The selected color and its code will be added to your swatch:
+   ![xc5_swatch_color_added.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_color_added.png)
 
 4. Click **Save changes**.
 
