@@ -57,6 +57,7 @@ To create a swatch:
 If necessary you can add an image to the color swatch. 
 
 For this purpose:
+
 1. Click **+** in the image field of a swatch.
    ![add-image.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/add-image.png)
    
