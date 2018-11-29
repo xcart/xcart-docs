@@ -51,6 +51,7 @@ To create a swatch:
    ![add-color.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/add-color.png)
    
    The selected color and its code will be added to your swatch.
+   ![xc5_swatch_color_code_added.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_color_code_added.png)
 
 4. Click **Save changes**.
 
