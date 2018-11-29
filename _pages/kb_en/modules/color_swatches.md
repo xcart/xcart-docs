@@ -65,25 +65,24 @@ For this purpose:
 
 3. Click **Save changes**.
 
-## Adding Color Swatches to Product-Specific Attributes
+## Adding Color Swatches for Product-Specific Attributes
 
-After the color swatches you require have been created, they need to be added to product descriptions. For this purpose find the product for which you need to add color swatches (**Catalog** -> **Products**), proceed to the product details page and open the **Attributes** tab:
+After the color swatches you require have been created, they need to be added to product descriptions. For this purpose:
 
-![attributes-add-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/attributes-add-swatches.png)
+1. Find the product for which you need to add color swatches (**Catalog** -> **Products**), proceed to the product details page and go to the **Attributes** tab to access the product attributes. (In case there are no product attributes configured for the product, you will need to {% link "create" ref_kEKoAxJB %} them first.)
 
-{% note info %}
-In case there are no product attributes for a product you'll need to {% link "create" ref_kEKoAxJB %} them first.
-{% endnote %}
+2. Enable the **Color swatches** check box option.
+   ![attributes-add-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/attributes-add-swatches.png)
+   
+3. Map your color swatches to the product's attributes.
 
-Check in the **Color swatches** check box, add color swatches to the product attributes from the drop-down and **save** the changes. 
+4. Click **Save** to save the changes. 
+   ![attributes-save-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/attributes-save-swatches.png)
 
-![attributes-save-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/attributes-save-swatches.png)
+That's it. Now your store visitors should be able to select product options using color swatches:
+   ![cus-color-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-color-swatches.png)
 
-That's it, the color swatches option is added for a product and will be displayed in the storefront instead of the default layout:
-
-![cus-color-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-color-swatches.png)
-
-## Adding Color Swatches to Product Variants
+## Adding Color Swatches for Product Variants
 
 If the **Use color swatch name as an attribute option name** option is enabled, product variants (if any) will be renamed to swatches automatically when the color swatches are added to the product attributes:
 
@@ -103,7 +102,7 @@ If you add images to the product variants the product image displayed to a custo
 
 If no images are added to the product variants the product image will remain the same regardless of the product color chosen.
 
-## Adding Color Swatches to Global Attributes
+## Adding Color Swatches for Global Attributes
 
 If you want to apply color swatches to all products in your store and you have {% link "global attributes" ref_HzMkgc0q %} set up for products you can add color swatches to global attributes and they will be applied to all products with global attributes automatically. 
 
