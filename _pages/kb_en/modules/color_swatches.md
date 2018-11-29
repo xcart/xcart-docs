@@ -76,7 +76,7 @@ After the color swatches you require have been created, they need to be added to
    
 3. Map your color swatches to the product's attributes.
 
-4. Click **Save** to save the changes. 
+4. Click **Save changes**. 
    ![attributes-save-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/attributes-save-swatches.png)
 
 That's it. Now your store visitors should be able to select product options using color swatches:
@@ -87,20 +87,20 @@ That's it. Now your store visitors should be able to select product options usin
 If the **Use color swatch name as an attribute option name** option is enabled, product variants (if any) will be renamed to swatches automatically when the color swatches are added to the product attributes:
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span"><i>Before color swatches</i>![variants-before-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/variants-before-swatches.png)</div>
-  <div class="column" markdown="span"><i>After color swatches</i>![variants-after-swarches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/variants-after-swarches.png)</div>
+  <div class="column" markdown="span"><i>Before adding color swatches</i>![variants-before-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/variants-before-swatches.png)</div>
+  <div class="column" markdown="span"><i>After adding color swatches</i>![variants-after-swarches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/variants-after-swarches.png)</div>
 </div>
 
-If you add images to the product variants the product image displayed to a customer will change depending on the chosen color swatch:
+If you add images to your product variants, the product image displayed to the customer will change depending on the color swatch chosen by the customer:
 
 <div class="ui stackable four column grid">
-  <div class="column" markdown="span"><i>Variants with imagess</i>![variants-with-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/variants-with-swatches.png)</div>
+  <div class="column" markdown="span"><i>Variants with images</i>![variants-with-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/variants-with-swatches.png)</div>
   <div class="column" markdown="span"><i>Color 1</i>![cus-var-1.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-var-1.png)</div>
   <div class="column" markdown="span"><i>Color 2</i>![cus-var-2.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-var-2.png)</div>
   <div class="column" markdown="span"><i>Color 3</i>![cus-var-3.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-var-3.png)</div>
 </div>
 
-If no images are added to the product variants the product image will remain the same regardless of the product color chosen.
+If no images are added to the product variants, the product image will remain the same regardless of the product color chosen.
 
 ## Adding Color Swatches for Global Attributes
 
