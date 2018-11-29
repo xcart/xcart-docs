@@ -38,7 +38,7 @@ The store administrator creates and manages color swatches via the **Color swatc
 
 ![swatches-list.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/swatches-list.png)
 
-Initially there are no swatches, so the swatch list is empty. The store admin needs to create any swatches they require from scratch. 
+Initially there are no swatches, so the swatch list is empty. The store administrator needs to create any swatches they require from scratch. 
 
 To create a swatch:
 
@@ -50,7 +50,7 @@ To create a swatch:
 3. In the Color field, set the swatch color you require. To do so, click within the **Color** field and use the color selection panel to select the color you need. 
    ![add-color.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/add-color.png)
    
-   The selected color and its code will be added to your swatch:
+   The selected color and its code will be added to your swatch details:
    ![xc5_swatch_color_added.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_color_added.png)
 
 4. Click **Save changes**.
@@ -60,9 +60,14 @@ A swatch configured using the procedure above will be displayed on the storefron
 1. Click **+** in the image field of a swatch.
    ![add-image.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/add-image.png)
    
-2. Upload an image either from your local computer or a URL.
+2. Upload the image you require either from your local computer or a URL. The image will be added to your swatch details.
+   ![xc5_swatch_img_added.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_img_added.png)
 
 3. Click **Save changes**.
+
+Once all the required color swatches have been created in the **Color swatches** section, they are ready to use.
+
+Note that the store administrator can sort, edit and delete their color swatches at any time using the same section.
 
 ## Adding Color Swatches for Product-Specific Attributes
 
