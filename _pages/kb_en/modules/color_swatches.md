@@ -72,10 +72,10 @@ After the color swatches you require have been created, they need to be added to
 
 1. Find the product for which you need to add color swatches (**Catalog** -> **Products**), proceed to the product details page and go to the **Attributes** tab to access the product attributes. (In case there are no product attributes configured for the product, you will need to {% link "create" ref_kEKoAxJB %} them first.)
 
-2. Enable the **Color swatches** check box option.
+2. Hover your cursor over the attribute for which you need to add swatches. This will reveal the **Color swatches** check box option. Enable this option.
    ![attributes-add-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/attributes-add-swatches.png)
    
-3. Map your color swatches to the product's attributes.
+3. Map your color swatches to the attribute values. (Select a swatch for each value using the drop-down boxes to the right of the values.)
 
 4. Click **Save changes**. 
    ![attributes-save-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/attributes-save-swatches.png)
