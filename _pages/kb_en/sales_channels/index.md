@@ -19,7 +19,7 @@ The following channels are supported:
 
 *   {% link "Adding products to cart via URL" ref_lG8NdRzr %} - Use deep linking to reference your store from other sources.
 
-*   Amazon Feeds (under construction) - Manage your Amazon listings and X-Cart products in a single location.
+*   {% link "Amazon Feeds" ref_4UNr3oKZ %} - Manage your Amazon listings and X-Cart products in a single location.
 
 *   {% link "Buy Button" ref_TEiIdZZc %} - Sell from your own website or blog (e.g. WordPress) by embedding buy buttons that connect with your X-Cart checkout.
 
