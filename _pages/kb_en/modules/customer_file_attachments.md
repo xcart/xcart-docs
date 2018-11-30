@@ -7,34 +7,39 @@ title: Customer Files Uploads & Product Attachments
 order: 71
 published: true
 ---
-The [Customer Files Uploads & Product Attachments](https://market.x-cart.com/addons/files-uploads-product-attachments.html "Customer Files Uploads & Product Attachments") module adds a posibility to allow customers to attach files to a product before purchasing so that the store administrator could download those files when processing the order. 
+The [Customer Files Uploads & Product Attachments](https://market.x-cart.com/addons/files-uploads-product-attachments.html "Customer Files Uploads & Product Attachments") module can be used to enable customers to attach files to a product before purchasing it so the store administrator can download those files when processing the order. 
 
-When {% link "installed and enabled" ref_uEnDBBA7 %} proceed to the module settings page to configure it:
+To make use of customer file attachments, you will need to:
+{% toc %}
+
+## Make sure the module Customer Files Uploads & Product Attachments is installed and active
+
+For help installing or activating the module, see the section {% link "Managing addons" ref_gTOegEua %} of this manual.
+
+## Configure the module 
+After making sure the module is installed and active, proceed to adjust the module settings:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/installed.png)
 
-The "Customer Files Uploads & Product Attachments" module settings are as follows:
+You can adjust the following settings:
 ![settings-page.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/settings-page.png)
 
 * **Max number of files that can be attached** : Specify the maximum number of files that can be attached to a product.
-* **Allowed file extensions** : Enter file extensions separated by comma e.g. "jpg,txt,svg".
-* **Max file size (MB). Set to "0" (zero) for unlimited** : Define the maximum file size.
+* **Allowed file extensions** : Provide a comma separated list of file extensions that should be allowed for upload; for example, "jpg,txt,svg".
+* **Max file size (MB). Set to "0" (zero) for unlimited** : Set the maximum file size. Note that the PHP settings **upload_max_filesize** and **post_max_size** may impose their own limitations on the maximum size of file uploads if they are lower than the ones specified in the module settings. To increase these parameters, edit the file **php.ini** or contact your server administrator for assistance.
 
-{% note warning %}
-The **upload_max_filesize** and **post_max_size** PHP settings may impose their own limitations to the maximum size of the file uploaded, if they're lower than the ones you specified in the store settings. To increase these parameters edit the **php.ini** file or contact your server administrator for assistance
-{% endnote %}
+Be sure to submit the settings to make them active.
 
-**Submit** the settings to make them active and proceed to the product list page (**Catalog** -> **Products**) to enable customer file attachments for products.
-
-To enable customer file attachments:
-1. Locate the product you want to allow attachments for and open the product details page
-2. Locate the **Allow buyers to attach files to this product** setting on the product details page and toggle it on:
+## Enable customer file attachments for products
+Once the module settings have been configured, you can proceed to enable customer file attachments for your products:
+1. In the store back end, go to **Catalog** -> **Products** and locate the product for which you want to allow attachments. Open the product details.
+2. On the product details page, enable the setting **Allow buyers to attach files to this product**.
    ![adm-product-details-1.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/adm-product-details-1.png)
-3. When enabled, select if file attachments should be mandatory for a product or not:
+3. Specify whether file attachments should be mandatory for the product or not:
    ![adm-product-details-2.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/adm-product-details-2.png)
-4. **Save** the changes.
+4. Save the changes.
 
-That's it, file attachments are enabled for a product.
+That's it. File attachments for the product are now enabled.
 
 Now customers are able to see product file attachments both on the product quick view page and on the product details page:
 
