@@ -25,7 +25,7 @@ Below is a list of supported fields and their respective value types for the imp
 Here is a sample file for importing color swatches:
 ![import-1.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-1.png)
 
-To import color swatches using existing global product attributes, you will need to use the basic CSV file format described in {% link "CSV import: Classes & Attributes" ref_qTbDu6Ov %} with the field **swatches** added to the file.
+To import color swatches using existing global or product class attributes, you will need to use the basic CSV file format described in {% link "CSV import: Classes & Attributes" ref_qTbDu6Ov %} with the field **swatches** added to the file.
   
 Below is a sample file for importing global attributes with color swatches:
    ![import-3.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-3.png)
