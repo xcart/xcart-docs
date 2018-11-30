@@ -29,7 +29,7 @@ The Color Swatches module settings are rather straightforward:
 ![settings.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/settings.png)
 
    * **Box width** and **Box height**: Set the dimensions (hight and width) of your swatch images in the customer storefront.
-   * **Use color swatch name as an attribute option name**: Specify whether the color swatch name should be used as an attribute option name or not.
+   * **Use color swatch name as an attribute option name**: Specify whether the color swatch name should be used as the name of the product option, or not. For example, if you have a product attribute "Color" with values (options) defined as "red", "blue" and "yellow", and the color swatches added for those values, respectively, as "swatch_1", "swatch_2" and "swatch_3", the setting "Use color swatch name as an attribute option name" will affect what your customers will see when hovering their cursor over the red, blue and yellow color swatch boxes on the storefront: if the setting is disabled, the name of the option will be displayed as "red", "blue" or "yellow"; if the setting is enabled, it will be shown as "swatch_1", "swatch_2" or "swatch_3", respectively.
 
 After adjusting the settings as you require, be sure to click **Submit** to make them active.
 
