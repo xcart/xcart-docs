@@ -72,7 +72,7 @@ Once the required color swatches have been created in the **Color swatches** sec
 It is possible to view, sort, edit and delete color swatches at any time using the **Color swatches** section of the store back end.
 
 ## Adding Color Swatches to Product Descriptions
-To add color swatches to product descriptions, you will need to assign the color swatches created in the  **Color swatches** section to the attributes used by your products. The process will have some specifics depending on the type of attributes being used ([product-specific](###adding-color-swatches-to-products-using-product-specific-attributes), [product class](###adding-color-swatches-to-products-using-product-class-attributes) or [global](###adding-color-swatches-to-products-using-global-attributes)). For detailed information on product attributes in X-Cart, see the section {% link "Product classes and attributes" ref_T90ZcEpP %}of this manual.
+To add color swatches to product descriptions, you will need to assign the color swatches created in the  **Color swatches** section to the attributes used by your products. The process will have some specifics depending on the type of attributes being used ([product-specific](#adding-color-swatches-to-products-using-product-specific-attributes), [product class](#adding-color-swatches-to-products-using-product-class-attributes) or [global](#adding-color-swatches-to-products-using-global-attributes)). For detailed information on product attributes in X-Cart, see the section {% link "Product classes and attributes" ref_T90ZcEpP %} of this manual.
 
 ### Adding Color Swatches to Products Using Product-Specific Attributes
 
