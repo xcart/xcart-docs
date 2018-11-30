@@ -66,7 +66,7 @@ A swatch configured using the procedure above will be displayed on the storefron
 
 3. Click **Save changes**.
 
-Once the required color swatches have been created in the **Color swatches** section, they can be [added to product descriptions](##adding-color-swatches-to-product-descriptions). 
+Once the required color swatches have been created in the **Color swatches** section, they can be [added to product descriptions](#adding-color-swatches-to-product-descriptions). 
 
 ### Viewing and Managing Existing Color Swatches
 It is possible to view, sort, edit and delete color swatches at any time using the **Color swatches** section of the store back end.
