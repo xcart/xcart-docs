@@ -39,22 +39,20 @@ Once the module settings have been configured, you can proceed to enable custome
    ![adm-product-details-2.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/adm-product-details-2.png)
 4. Save the changes.
 
-That's it. File attachments for the product are now enabled.
-
-Now customers are able to see product file attachments both on the product quick view page and on the product details page:
+That's it. File attachments for the product are now enabled. Your customers will be able to access the product file attachments widget both on the product quick view page and on the product details page:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Product details page</i>![cus-product-details.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/cus-product-details.png)</div>
   <div class="column" markdown="span"><i>Quick view page</i>![cus-quick-view.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/cus-quick-view.png)</div>
 </div>
 
-If product attachments are mandatory a customer won't be able to proceed to checkout without adding a file to the product he wants to order. Files attached will be registered and displayed on the cart page and in the customer invoice:
+Note that if the module settings  require that product attachments should be mandatory, a customer will not be able to proceed to checkout without first adding a file to the product they want to order. The files attached will be registered and displayed on the cart page and in the customer invoice:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Cart page</i>![cus-cart.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/cus-cart.png)</div>
   <div class="column" markdown="span"><i>Invoice page</i>![invoice.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/invoice.png)</div>
 </div>
 
-The store admin will be able to check and download the files attached to the product by a customer on the order details page (**Orders** -> **Order list**):
+The store administrator will be able to check and download the files attached to the product by a customer via the order details page (**Orders** -> **Order list**):
 
 ![order-details.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/order-details.png)
