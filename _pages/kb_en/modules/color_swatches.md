@@ -164,19 +164,7 @@ Color swatches can be used for product variants. To add color swatches to varian
 
 It is possible to create color swatches using {% link "Import" ref_glDc6kA1 %}. For this purpose you will need to create a CSV file and put your color swatches data in this file formatting it as described in the section {% "CSV Import: Color Swatches" ref_0adU3A0n %}. In the file, you will need to specify a swatch name, position, color and image for each color swatch you want to add and upload this CSV file via the **Catalog** -> **Import** section of the store back end.  
 
-Here is a sample file for importing color swatches:
-![import-1.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-1.png)
-
 To import color swatches using existing global product attributes, you will need to use the basic CSV file format described in {% link "CSV import: Classes & Attributes" ref_qTbDu6Ov %} with the field **swatches** added to the file.
   
-Below is a sample file for importing global attributes with color swatches:
-   ![import-3.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-3.png)
- 
 To import color swatches using existing product-specific attributes, you will need to use the basic CSV file format described in {% link "CSV import: Product attribute values" ref_Z7XdREZl %} with the field **swatch** added to the file. 
   
-Below is a sample import file for importing a product-specific attribute with a color swatch option:
-   ![import-2.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-2.png) 
-  
-{% note warning %}
-Please note that the images of sample import files use a minimum of required fields and are shown for demostration only. 
-{% endnote %}
