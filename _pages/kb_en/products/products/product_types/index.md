@@ -14,5 +14,4 @@ X-Cart supports the following types of products:
 *   {% link "Product variants" ref_4gDLkmPU %};
 *   {% link "PIN codes" ref_4JeE99n8 %};
 *   {% link "Bookable products" ref_4IYL2Shf %};
-*   {% link "Subscription products" ref_14yhWsEV %};
-*   {% link "Customer Files Uploads &amp; Product Attachments" ref_1tk0fbqz %}.
+*   {% link "Subscription products" ref_14yhWsEV %}.
