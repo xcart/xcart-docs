@@ -76,7 +76,7 @@ To add color swatches to product descriptions, you will need to assign the color
 
 ### Adding Color Swatches to Products Using Product-Specific Attributes
 
-If you need to add color swatches to just a couple of products in your store, and/or the color swatches need to be unique for each of the products, it is recommended that you add them at the level of attributes of specific products. 
+If you need to add color swatches to just a couple of products in your store, and/or the color swatches need to be unique for each of the products, it is recommended that you add them at the level of product-specific attributes of products. 
 
 Here's how to do it:
 
@@ -94,7 +94,13 @@ That's it. Now your store visitors should be able to select product options usin
    ![cus-color-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-color-swatches.png)
 
 ### Adding Color Swatches to Products Using Product Class Attributes
-Under construction.
+
+If you need to add the same color swatches to a group of products in your store, it is recommended that you add them at the level of product class attributes. 
+
+Here's how to do it:
+
+_The below text is currently a draft.
+Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
 
 ### Adding Color Swatches to Products Using Global Attributes
 
