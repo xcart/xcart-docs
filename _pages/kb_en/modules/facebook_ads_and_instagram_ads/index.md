@@ -23,7 +23,7 @@ To make use of Facebook and Instagram ads, you will need to:
 
 ## Make sure the module Facebook Ads and Instagram Ads is installed and active
 
-Install or activate the module; for help see the section {% link "Managing addons" ref_gTOegEua %} of this manual.
+For help installing or activating the module, see the section {% link "Managing addons" ref_gTOegEua %} of this manual.
   
   ![xc5_fb_module.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_module.png)
   
