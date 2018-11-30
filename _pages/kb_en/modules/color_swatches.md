@@ -80,7 +80,7 @@ If you need to add color swatches to just a couple of products in your store, an
 
 Here's how to do it:
 
-1. Find the product for which you need to add color swatches (**Catalog** -> **Products**), proceed to the product details page and go to the **Attributes** tab to access the product attributes. Make sure you are viewing the **Product-Specific** subsection. Here you can find the product's product-specific attributes. (If there are no product-specific attributes, you will need to {% link "create" ref_kEKoAxJB %} them first.)
+1. Find the product for which you need to add color swatches (**Catalog** -> **Products**), proceed to the product details page and go to the **Attributes** tab to access the product attributes. Make sure you are viewing the **Product-Specific** subsection. Here you can find the product's product-specific attributes. (If there are no product-specific attributes, you will need to {% link "add" ref_kEKoAxJB %} them first.)
 
 2. Hover your cursor over the attribute for which you need to add swatches. This will reveal the **Color swatches** check box option. Enable this option.
    ![attributes-add-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/attributes-add-swatches.png)
@@ -97,7 +97,25 @@ That's it. Now your store visitors should be able to select product options usin
 
 If you need to add the same color swatches to a group of products in your store, it is recommended that you add them at the level of product class attributes. 
 
-Here's how to do it:
+Imagine that you have a product class "Apparel" for stuff like t-shirts, dresses, pants, etc., and you want to add simple color swatches (red, blue, yellow, etc.) for the products of this class. 
+
+Let's see how to do it:
+
+1. In your store’s back end, go to the Classes & attributes section (**Catalog** > **Classes & attributes**).
+In the list of product classes, locate the name of the product class you require and click on the Edit attributes (N) link opposite it. As you know, we are trying to add swatches for the product class "Apparel", so we will need to access the attributes for that class:
+   ![xc5_swatch_apparel_class_edit_attr.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_apparel_class_edit_attr.png)
+
+   On the page that opens you will find the attributes defined for the class you have selected. (If there are no attributes, you will need to {% link "add" ref_kEKoAxJB %} them first.) 
+
+2. Choose to create the attribute you require or edit an existing one. (We are going to need an attribute named "Color". We don't have such an attribute, so we will have to create it.) 
+   When configuring the attribute, enable the **Use color swatches** option:
+   ![xc5_swatch_apparel_class_use_swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_apparel_class_use_swatches.png)
+
+3. Map your color swatches to the attribute values. (Select a swatch for each value using the drop-down boxes to the right of the values.)
+   ![xc5_swatch_apparel_class_swatches_map.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_apparel_class_swatches_map.png)
+
+4. Save your changes.
+
 
 _The below text is currently a draft.
 Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
