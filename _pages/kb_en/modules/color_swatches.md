@@ -90,7 +90,7 @@ Here's how to do it:
 
 4. Click **Save changes**.
 
-That's it. Now your store visitors should be able to select product options using color swatches:
+That's it. Now your store visitors should be able to see the color swatches on the storefront:
    ![cus-color-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-color-swatches.png)
 
 ### Adding Color Swatches to Products Using Product Class Attributes
