@@ -20,6 +20,7 @@ There are several types of data which you can import into your X-Cart store via 
 *   {% link "Customers" ref_JobVfzZg %};
 *   {% link "Orders" ref_import_orders_csv %} (added by the **Orders Import** addon);
 *   {% link "Reviews" ref_1YmizVdi %} (added by the **Reviews** addon)
+*   {% link "Color Swatches" ref_0adU3A0n %} (added by the **Color Swatches** addon)
 
 Follow the links above for information on the allowed CSV format for each of the data types.  
 
