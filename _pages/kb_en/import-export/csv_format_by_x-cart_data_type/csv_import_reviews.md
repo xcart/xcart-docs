@@ -7,9 +7,9 @@ title: 'CSV Import: Reviews'
 order: 200
 published: true
 ---
-A review CSV file for import must have the name **reviews-yyyy-mm-dd.csv**, where the part **-yyyy-mm-dd** can be any date you want, or can be omitted.
+A CSV file for importing reviews must have the name **reviews-yyyy-mm-dd.csv**, where the part **-yyyy-mm-dd** can be any date you want, or can be omitted.
 
-Below is a list of supported fields and their respective value types for the import of customers:
+Below is a list of supported fields and their respective value types for the import of reviews:
 
 {:.ui.compact.padded.small.celled.table} 
 |**Field in CSV file**|**What this field describes**|<strong>Value type**</strong>|
