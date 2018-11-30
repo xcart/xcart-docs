@@ -162,35 +162,22 @@ Color swatches can be used for product variants. To add color swatches to varian
 
 ## Importing Color Swatches
 
-It is possible to create color swatches using {% link "Import" ref_glDc6kA1 %}. For this purpose you will need to create a file swatches.csv of the following format:
+It is possible to create color swatches using {% link "Import" ref_glDc6kA1 %}. For this purpose you will need to create a CSV file and put your color swatches data in this file formatting it as described in the section {% "CSV Import: Color Swatches" ref_0adU3A0n %}. In the file, you will need to specify a swatch name, position, color and image for each color swatch you want to add and upload this CSV file via the **Catalog** -> **Import** section of the store back end.  
 
+Here is a sample file for importing color swatches:
 ![import-1.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-1.png)
 
-You'll need to specify a swatch name, position, color and image for each color swatch you want to add and upload the swatches.csv file via the **Catalog** -> **Import** section in the cart admin area. The color swatches will be added to the list in the **Catalog** -> **Color swatches** section in the admin area. 
-
-{% note info %}
-* The _swatch_color_ value should be a [HEX presentation of a color](https://en.wikipedia.org/wiki/Web_colors#Hex_triplet "Color Swatches") (e.g. FF0000, 2468A0, etc.).
-* The _position_ value is a swatch position on the **Color Swatches** listing page (**Catalog** -> **Color swatches**).
-* The _image_ value should be an image URL.
-* The  _name_ value should be any swatch name (e.g. red, blue, etc.)
-{% endnote %}
-  
-To import color swatches with existing product global attributes you should use the basic file format as described in {% link "CSV import: Classes & Attributes" ref_qTbDu6Ov %} and add a **swatches** field to the file.
-  
-The **swatches** field should have a value of a color swatch name or a list of values of all swatch names delimited with _&&_ in case of multiple product options values. The **swatches** field values will be bind with product options as a result. 
+To import color swatches using existing global product attributes, you will need to use the basic CSV file format described in {% link "CSV import: Classes & Attributes" ref_qTbDu6Ov %} with the field **swatches** added to the file.
   
 Below is a sample file for importing global attributes with color swatches:
-
-![import-3.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-3.png)
+   ![import-3.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-3.png)
  
-To import color swatches with existing product specific attributes you should use the basic file format as described in {% link "CSV import: Product attribute values" ref_Z7XdREZl %} and add a **swatch** field to the file. 
+To import color swatches using existing product-specific attributes, you will need to use the basic CSV file format described in {% link "CSV import: Product attribute values" ref_Z7XdREZl %} with the field **swatch** added to the file. 
   
-The **swatch** field should have a value of a color swatch name in order to assign a color swatch to a product specific attribute.
   
-Below is a sample import file for importing a product specific attribute with a color swatch option:
-
-![import-2.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-2.png) 
+Below is a sample import file for importing a product-specific attribute with a color swatch option:
+   ![import-2.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-2.png) 
   
 {% note warning %}
-Please note that the sample import images use the minimum of the required fields and can be used for demostrative purposes only. 
+Please note that the images of sample import files use a minimum of required fields and are shown for demostration only. 
 {% endnote %}
