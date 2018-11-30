@@ -94,7 +94,7 @@ Below is a list of supported fields and their respective value types for the imp
   <tr>
       <td colspan="1" class="confluenceTd">swatches</td>
       <td colspan="1" class="confluenceTd">
-        <p>List of possible color swatches. Options are separated with<strong> '&amp;&amp;' </strong>symbol.</p>
+        <p>List of possible color swatches. The options need to be separated using the <strong> '&amp;&amp;' </strong>delimiter.</p>
         <p>Example: red_swatch&amp;&amp;green_swatch&amp;&amp;blue_swatch</p>
       </td>
       <td colspan="1" class="confluenceTd">String
