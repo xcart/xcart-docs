@@ -21,13 +21,13 @@ The module Facebook Ads and Instagram Ads uploads your products to Facebook Cata
 To make use of Facebook and Instagram ads, you will need to:
 {% toc %}
 
-## Install the Facebook Ads and Instagram Ads module 
+## Install or activate the module Facebook Ads and Instagram Ads
 
-Install the module as described in the section {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %} of this manual.
+Install or activate the module; for help see the section {% link "Managing addons" ref_gTOegEua %} of this manual.
   
   ![xc5_fb_module.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_module.png)
   
-Once installed, a new section will become available in your store's Admin area: **Sales Channels** > **Facebook E-Commerce**. 
+Once the module has been activated, a new section will become available in your store's Admin area: **Sales Channels** > **Facebook E-Commerce**. 
 
 Also, a new setting - **Add to Facebook product feed** - will be added for each of the products in your store's catalog. You will find it in the Marketing section of the product details page. Note that this setting is enabled by default. All the products with the setting **Add to Facebook product feed** enabled will be added automatically to the product feed and uploaded to your Facebook Catalog.
 
