@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-11-30 23:20 +0400'
 identifier: ref_0adU3A0n
-title: ''
+title: 'CSV Import: Color Swatches'
 order: 100
 published: false
 ---
