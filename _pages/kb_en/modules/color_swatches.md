@@ -158,29 +158,11 @@ That's it. The color swatches will be added to the product. Now your store visit
 
 ### Adding Color Swatches to Product Variants
 
-If the **Use color swatch name as an attribute option name** option is enabled, product variants (if any) will be renamed to swatches automatically when the color swatches are added to the product attributes:
-
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span"><i>Before adding color swatches</i>![variants-before-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/variants-before-swatches.png)</div>
-  <div class="column" markdown="span"><i>After adding color swatches</i>![variants-after-swarches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/variants-after-swarches.png)</div>
-</div>
-
-If you add images to your product variants, the product image displayed to the customer will change depending on the color swatch chosen by the customer:
-
-<div class="ui stackable four column grid">
-  <div class="column" markdown="span"><i>Variants with images</i>![variants-with-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/variants-with-swatches.png)</div>
-  <div class="column" markdown="span"><i>Color 1</i>![cus-var-1.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-var-1.png)</div>
-  <div class="column" markdown="span"><i>Color 2</i>![cus-var-2.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-var-2.png)</div>
-  <div class="column" markdown="span"><i>Color 3</i>![cus-var-3.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-var-3.png)</div>
-</div>
-
-If no images are added to the product variants, the product image will remain the same regardless of the product color chosen.
+Color swatches can be used for product variants. To add color swatches to variants, you simply need to map your swatches to the attributes of which the variants are built.
 
 ## Importing Color Swatches
 
-It's possible to create color swatchers using the built-in {% link "Import" ref_glDc6kA1 %} tool. 
-
-For this purpose you should create a swatches.csv file of the following format:
+It is possible to create color swatches using {% link "Import" ref_glDc6kA1 %}. For this purpose you will need to create a file swatches.csv of the following format:
 
 ![import-1.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-1.png)
 
