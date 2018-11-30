@@ -237,7 +237,7 @@ For more info on using the addon, see {% link "Product File Attachments" ref_0ZW
 
 If you need to be able not just to attach files for free download by store visitors but to sell digital goods, you will also need the addon [E-goods](https://market.x-cart.com/addons/e-goods.html). For more info on using the addon, see the section {% link "E-goods" ref_ZszpDfxQ %} in this manual.
 
-## Enable customers to attach files to the product
+### Enable customers to attach files to the product
 If you need your customers to be able to attach files to their order before making a purchase (like, for example, if you are selling custom design t-shirts and want to enable your customers to upload their own t-shirt design for the t-shirt they are ordering), you will need to use the addon [Customer Files Uploads & Product Attachments](https://market.x-cart.com/addons/files-uploads-product-attachments.html).
 ![cus-product-details.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/cus-product-details.png)
 For more info on using the addon, see {% link "Customer Files Uploads &amp; Product Attachments" ref_1tk0fbqz %}.
