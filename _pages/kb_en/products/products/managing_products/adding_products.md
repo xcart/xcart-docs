@@ -206,7 +206,7 @@ The set of product tabs displayed to a customer is defined in the **Tabs** tab:
 
 ![tabs-adm.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/tabs-adm.png)
 
-The product tabs can be _global_ (applied to all exisiting products in the **Catalogue** -> **Product tabs** section) and _product specific_ (applied to a particular product in the **Tabs** tab of the product details page).
+The product tabs can be _global_ (applied to all exisiting products in the **Catalog** -> **Product tabs** section) and _product specific_ (applied to a particular product in the **Tabs** tab of the product details page).
 
 To create a product specific product tab click the **New tab** button and fill in the tab name, content and brief info (if applicable) on the page that opens. 
 ![new-product-tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/new-product-tab.png)
@@ -214,7 +214,7 @@ To create a product specific product tab click the **New tab** button and fill i
 Click **Create** to add a product tab and stay on the product tab page or **Save and close** to add a product tab and be redirected back to the **Tabs** tab of the product details page.
 ![new-octorus-tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/new-octorus-tab.png)
 
-Global product tabs are managed in the **Catalogue** -> **Product tabs** section:
+Global product tabs are managed in the **Catalog** -> **Product tabs** section:
 ![product-tabs.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/product-tabs.png)
 
 The default global product tabs are:
