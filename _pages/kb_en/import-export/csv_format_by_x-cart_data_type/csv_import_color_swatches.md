@@ -15,7 +15,7 @@ Below is a list of supported fields and their respective value types for the imp
 |**Field in CSV file**|**What this field describes**|<strong>Value type**</strong>|
 |<strong>name*</strong>|Swatch name (e.g. red, blue, etc.)|<br>String<br>Max. length: 255|
 |position|Swatch position on the Color Swatches listing page (Catalog > Color swatches). May not be negative. A smaller number means a higher position on the list.|Integer|
-|<strong>color*<strong>|Swatch color value (a HEX presentation of the color)|String|
+|<strong>color*</strong>|Swatch color value (a HEX presentation of the color)|String|
 |image|Swatch image location|String|
 
 <sub>* Required field.</sub>
