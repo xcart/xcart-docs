@@ -16,7 +16,7 @@ Below is a list of supported fields and their respective value types for the imp
 |<strong>product*</strong>|Product SKU (Unique identifier of the product)|<br>String<br>Max. length: 32|
 |review|Customer review|String|
 |response|Admin reply on a review from a customer (field value can be empty)|String|
-|rating|Products rating set by a customer рейтинг|Integer (1-5)|
+|rating|Product rating set by a customer|Integer (1-5)|
 |additionDate|A review date|<br>Date <br>(e.g. 1 Jan 2013)|
 |responseDate|A response date (field value can be empty)|<br>Date <br> (e.g. 1 Jan 2013)|
 |respondent|An email of X-Cart admin account that was used for response (field value can be empty) |email|
