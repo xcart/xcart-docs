@@ -21,7 +21,7 @@ The module Facebook Ads and Instagram Ads uploads your products to Facebook Cata
 To make use of Facebook and Instagram ads, you will need to:
 {% toc %}
 
-## **Install the Facebook Ads and Instagram Ads module** 
+## Install the Facebook Ads and Instagram Ads module 
 
 Install the module as described in the section {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %} of this manual.
   
@@ -31,7 +31,7 @@ Once installed, the module will become available in the **Sales Channels** > **F
 
 Also, a new setting - **Add to Facebook product feed** - will be added for each of the products in your store's catalog. You will find it in the Marketing section of the product details page. Note that this setting is enabled by default. All the products with the setting **Add to Facebook product feed** enabled will be added automatically to the product feed and uploaded to your Facebook Catalog.
 
-## **Configure the module** 
+## Configure the module 
 
   You can configure the module settings for Facebook Ads and Instagram Ads in the Facebook E-Commerce section of the store's Admin area (**Sales Channels** > **Facebook E-Commerce**). 
   
@@ -60,7 +60,7 @@ Also, a new setting - **Add to Facebook product feed** - will be added for each 
   The _Frequency of Product Feed renewal_ setting itself will not make renewals automatical. You will need to {% link "configure your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}.
   {% endnote %}
   
-## **Upload Product Feed to Facebook**
+## Upload Product Feed to Facebook
   
   To upload your product feed to Facebook:
   
