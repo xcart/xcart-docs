@@ -124,8 +124,7 @@ In the list of product classes, locate the name of the product class you require
 
 That's it. The color swatches will be added to the product. Now your store visitors should be able to see them on the storefront:
    
-_The below text is currently a draft.
-Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
+   ![xc5_swatch_apparel_class_swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_apparel_class_swatches.png)
 
 ### Adding Color Swatches to Products Using Global Attributes
 
