@@ -113,10 +113,17 @@ In the list of product classes, locate the name of the product class you require
 
 3. Map your color swatches to the attribute values. (Select a swatch for each value using the drop-down boxes to the right of the values.)
    ![xc5_swatch_apparel_class_swatches_map.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_apparel_class_swatches_map.png)
+   If you need some or all of the attribute values (and the color swatches) to be assigned automatically to any new products added to this product class, be sure to adjust the settings for these attribute values accordingly.
+   Once you are done configuring the attribute values, be sure to save your changes.
+   
+4. To add the attribute values (and the color swatches) to an existing product, find the product (**Catalog** -> **Products**), proceed to its details page and go to the **Attributes** tab to access the product attributes. Make sure you are viewing the **Global** subsection. Make sure the product is assigned to the proper product class ("Apparel"). Scroll down to the section with the class attributes and make sure the attribute values you require for this product are enabled for it:
+   ![xc5_swatch_apparel_class_attr_values.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_apparel_class_attr_values.png)
+   
+5. Save the changes.
+   ![xc5_swatch_apparel_class_attr_values1.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_apparel_class_attr_values1.png)
 
-4. Save your changes.
-
-
+That's it. The color swatches will be added to the product. Now your store visitors should be able to see them on the storefront:
+   
 _The below text is currently a draft.
 Material may not yet be complete, information may presently be omitted, and certain parts of the content may be subject to radical, rapid alteration._
 
