@@ -4,8 +4,8 @@ layout: article_with_sidebar
 updated_at: '2018-11-30 23:20 +0400'
 identifier: ref_0adU3A0n
 title: 'CSV Import: Color Swatches'
-order: 100
-published: false
+order: 250
+published: true
 ---
 A CSV file for importing color swatches must have the name **swatches-yyyy-mm-dd.csv**, where the part **-yyyy-mm-dd** can be any date you want, or can be omitted.
 
@@ -38,4 +38,3 @@ Below is a sample import file for importing a product-specific attribute with a 
 {% note warning %}
 Please note that the images of sample import files use a minimum of required fields and are shown for demostration only. 
 {% endnote %}
-
