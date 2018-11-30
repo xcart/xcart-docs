@@ -26,7 +26,7 @@ You can adjust the following settings:
 
 * **Max number of files that can be attached** : Specify the maximum number of files that can be attached to a product.
 * **Allowed file extensions** : Provide a comma separated list of file extensions that should be allowed for upload; for example, "jpg,txt,svg".
-* **Max file size (MB). Set to "0" (zero) for unlimited** : Set the maximum file size. Note that the PHP settings **upload_max_filesize** and **post_max_size** may impose their own limitations on the maximum size of file uploads if they are lower than the ones specified in the module settings. To increase these parameters, edit the file **php.ini** or contact your server administrator for assistance.
+* **Max file size (MB). Set to "0" (zero) for unlimited** : Set the maximum file size. Note that the PHP settings upload_max_filesize and post_max_size may impose their own limitations on the maximum size of file uploads if they are lower than the ones specified in the module settings. To increase these parameters, edit the file **php.ini** or contact your server administrator for assistance.
 
 Be sure to submit the settings to make them active.
 
