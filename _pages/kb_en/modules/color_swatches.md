@@ -107,7 +107,7 @@ In the list of product classes, locate the name of the product class you require
 
    On the page that opens you will find the attributes defined for the class you have selected. (If there are no attributes, you will need to {% link "add" ref_kEKoAxJB %} them first.) 
 
-2. Choose to create the attribute you require or edit an existing one. (We are going to need an attribute named "Color". We don't have such an attribute, so we will have to create it.) 
+2. Choose to create the attribute you require or edit an existing one. (We are going to need an attribute named "Color", so the screenshot below demonstrates how we are creating it.) 
    When configuring the attribute, enable the **Use color swatches** option:
    ![xc5_swatch_apparel_class_use_swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_apparel_class_use_swatches.png)
 
@@ -128,19 +128,33 @@ That's it. The color swatches will be added to the product. Now your store visit
 
 ### Adding Color Swatches to Products Using Global Attributes
 
-If you want to add your color swatches to the descriptions of many or all the products in your store, you should use {% link "global attributes" ref_HzMkgc0q %} to add them.  
+If you want to be able to add the same color swatches to the descriptions of many or all the products in your store, you should use {% link "global attributes" ref_HzMkgc0q %} to add them.  
 
-To add color swatches to global atributes:
-1. Locate the attribute you need to add a color swatch to (**Catalog** -> **Classes & attributes**) and click **Edit** or [create a new global attribute](https://kb.x-cart.com/product_classes_and_attributes/managing_global_attributes.html#adding-global-attributes "Color Swatches") 
-2. Toggle on the **Use color swatches** option in the pop-up
+To add color swatches using global atributes:
+
+1. In your store’s back end, go to the Classes & attributes section (**Catalog** > **Classes & attributes**) and choose to edit global attributes.
+   ![xc5_swatch_global_edit_attr.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/xc5_swatch_global_edit_attr.png)
+
+2. Choose to edit an existing global attribute or to [create a new one](https://kb.x-cart.com/product_classes_and_attributes/managing_global_attributes.html#adding-global-attributes "Color Swatches") 
+   
+   When configuring the attribute, enable the **Use color swatches** option:
    <div class="ui stackable two column grid">
     <div class="column" markdown="span">![global-new.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/global-new.png)</div>
     <div class="column" markdown="span">![global-edit.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/global-edit.png)</div>
    </div>
-3. Specify the values choosing the appropriate color swatch from a drop-down
+   
+3. Configure the attribute values you require and map your color swatches to the attribute values by choosing an appropriate color swatch for each of the values.
    ![global-add-swatch.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/global-add-swatch.png)
-4. Save the changes
-5. [Assign global attributes to products](https://kb.x-cart.com/product_classes_and_attributes/managing_global_attributes.html#assigning-global-attributes-to-products "Color Swatches")
+   
+   If you need some or all of the attribute values (and the color swatches) to be assigned automatically to any new products added to your store, be sure to adjust the settings for these attribute values accordingly.
+   
+   Also be sure to save your changes.
+   
+5. To add the attribute values (and the color swatches) to an existing product, find the product (**Catalog** -> **Products**), proceed to its details page and go to the **Attributes** tab to access the product attributes. Make sure you are viewing the **Global** subsection. Scroll down to the section with global attributes and make sure the attribute values you require for this product are enabled for it.
+
+6. Save the changes.
+   
+That's it. The color swatches will be added to the product. Now your store visitors should be able to see them on the storefront.
 
 ### Adding Color Swatches to Product Variants
 
