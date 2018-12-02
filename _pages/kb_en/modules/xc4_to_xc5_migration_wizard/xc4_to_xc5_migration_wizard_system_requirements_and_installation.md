@@ -51,19 +51,16 @@ To migrate your X-Cart 4 store to X-Cart 5, you need:
      
    * Migration wizard module installed on your X-Cart 5 store.
    
-     To install and enable the Migration wizard module on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+     The module can be obtained from the X-Cart Marketplace. To install and enable the Migration wizard module on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+     ![xc5_mw_module_install.png]({{site.baseurl}}/attachments/ref_KqsCJNRG/xc5_mw_module_install.png)
      
-     {% note warning %}
-     To be able to install the Migration wizard module you should have the [Order import](https://market.x-cart.com/addons/orders-import.html "XC4 to XC5 Migration wizard system requirements and installation") module installed and enabled. 
+     **Important**: The module Migration wizard requires the module [Order import](https://market.x-cart.com/addons/orders-import.html "XC4 to XC5 Migration wizard system requirements and installation") for its operation. Before trying to install the Migration wizard, make sure the module Order import is {% link "installed and enabled" ref_uEnDBBA7 %}.
+     ![xc5_mw_module.png]({{site.baseurl}}/attachments/ref_KqsCJNRG/xc5_mw_module.png)
      
-     Please make sure the Order import module is {% link "installed and enabled" ref_uEnDBBA7 %}.
-     {% endnote %}
-     
-     As a result, you should have the module "XC4 to XC5 Migration wizard" installed on your X-Cart 5 store:
-     
-     ![migration-wizard-installed.png]({{site.baseurl}}/attachments/ref_KqsCJNRG/migration-wizard-installed.png)
+     Once the module "XC4 to XC5 Migration wizard" has been installed on your X-Cart 5 store, you will be able to find it in the **My addons** section of the store Admin area:
+     ![xc5_mw_module_installed.png]({{site.baseurl}}/attachments/ref_KqsCJNRG/xc5_mw_module_installed.png)
 
-After the module is installed you can proceed to the migration of your data and settings. See {% link "Using the module 'XC4 to XC5 Migration wizard'" ref_Ah935naM %} for detailed info.
+After installing the module you can proceed to the migration of your store data and settings. See {% link "Using the module 'XC4 to XC5 Migration wizard'" ref_Ah935naM %} for detailed info.
 
 _Related pages:_
 
