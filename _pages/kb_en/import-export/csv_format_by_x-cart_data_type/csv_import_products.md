@@ -179,6 +179,11 @@ There are many more fields which you can include into your product CSV file. Bel
       <td colspan="1" class="confluenceTd">Whether low stock notification is enabled</td>
       <td colspan="1" class="confluenceTd">Yes/No</td>
     </tr>
+  <tr>
+      <td colspan="1" class="confluenceTd">minimumPurchaseQuantity</td>
+      <td colspan="1" class="confluenceTd"><p>The minimum allowed quantity for purchase.</p><p> In case the field is added by the store admin, it's required that the this field is imported along with the <strong>vendor</strong> field, where the <strong>vendor</strong> field value should be either empty if the product owner is the store admin, or a vendor email if the product owner is a vendor.</p> <p>If the <strong>minimumPurchaseQuantity</strong> field is imported by a vendor no additional fields are required.</p></td>
+      <td colspan="1" class="confluenceTd">Integer</td>
+    </tr>
     <tr>
       <td class="confluenceTd">categories</td>
       <td colspan="1" class="confluenceTd">
