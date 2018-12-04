@@ -15,22 +15,25 @@ It also assumes that your store company address has been {% link "configured" re
 
 To start using the module, you need to configure it. The module configuration settings can be accessed using one of the following methods:
 
-1. In the **Shipping** section of your X-Cart store’s Admin area (**Store setup** > **Shipping**)
-   *  click the **Add shipping method** button:
+_Method 1_
+
+1. In the **Shipping** section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), click the **Add shipping method** button:
    ![shipping.png]({{site.baseurl}}/attachments/ref_whrpZnV3/shipping.png)
+   This brings up a popup where you will be able to select the shipping method you require.
 
-   *  and then choose the FedEx shipping method in a pop-up:
+2. On the **Carrier-calculated rates** tab within the popup, locate the icon/link for FedEx and click on it:
    ![add-fedex.png]({{site.baseurl}}/attachments/ref_58tOKWMt/add-fedex.png)
+  
+The settings page for FedEx module opens.
 
+_Method 2_
 
-2. Locate the FedEx module in the **My addons** section of your Admin area and click the _Settings_ link: 
-   
+* In the **My addons** section of your store's Admin area, locate the module FedEx and click on the _Settings_ link next to its name: 
    ![module-settings.png]({{site.baseurl}}/attachments/ref_58tOKWMt/module-settings.png)
 
+The settings page for FedEx module opens.
 
-To use FedEx Rating API you need to register on [FedEx.com](https://www.fedex.com/en-us/home.html "FedEx") with a User ID and Password. Once you have registered you would need to obtain a set of
-credentials (key, password, account number and meter number), which will allow you
-to use FedEx.com Rating API. 
+To use FedEx Rating API, you need to register at [FedEx.com](https://www.fedex.com/en-us/home.html "FedEx") with a User ID and Password. Once you have registered, you will need to obtain a set of credentials including a key, a password, an account number and a meter number that will allow you to use FedEx.com Rating API. 
 
 When you have all the required credentials you'll need to fill in the following fields in accordance with your FedEx account data:
 
