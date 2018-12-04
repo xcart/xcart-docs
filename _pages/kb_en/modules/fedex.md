@@ -94,17 +94,13 @@ Follow the link from the _Note_ to find the payments section
 
 ## Advanced options
 
-Toddle on the advanced options if you need any of them. 
-
-{% note info %}
-Not all FedEx Carrier Services support advanced options, so, please, consult FedEx support before using them.
-{% endnote %}
+Adjust the advanced options as you require. Note that not all FedEx Carrier Services support the advanced options, so please consult FedEx support before using them.
 
 ![settings-advanced-options.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-advanced-options.png)
  
 Advanced options may affect the shipping rates calculation and imply extra fees from FedEx. 
 
-Don't forget to **save** the changes when the FedEx shipping configuration is complete.
+Don't forget to save the changes when the FedEx shipping configuration is complete.
 
 ## FedEx Carrier Services
 
