@@ -54,7 +54,7 @@ In this section, you need to provide information about the parcels that you will
 
 When you open the **Shipments** section for a new order, you will notice that it already contains a list of shipments. This list reflects the way in which the module proposes to split the items from this order into parcels based on the weight limit for one package. 
 
-For example, in the screen below you can see how a large order was split into two parcels so the weight of each parcel does not exceed 10 kilograms:
+For example, below you can see how a large order was split into three parcels so the weight of each parcel does not exceed 10 kilograms:
 
 <div class="ui stackable three column grid">
   <div class="column" markdown="span">![parcel-1.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/parcel-1.png)</div>
