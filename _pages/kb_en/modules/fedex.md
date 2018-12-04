@@ -7,15 +7,11 @@ title: FedEx
 order: 100
 published: true
 ---
-The [FedEx module](https://market.x-cart.com/addons/fedex.html "FedEx") for X-Cart 5 allows you to use online shipping rate calculation via [FedEx service](https://www.fedex.com/en-us/home.html "FedEx").
+The module [FedEx](https://market.x-cart.com/addons/fedex.html "FedEx") for X-Cart 5 allows you to use online shipping rate calculation via [FedEx service](https://www.fedex.com/en-us/home.html "FedEx").
 
-This article assumes that the FedEx module has already been {% link "installed and activated" ref_0fGEpvrh %} at your store.
+This article assumes that the module FedEx has already been {% link "installed and activated" ref_0fGEpvrh %} at your store.
 
-{% note info %}
-
-Make sure your company’s address has been configured on the **Contact information** page (**Store setup** > **Contact information**). This address will be used as your store’s “Ship from” address when calculating shipping rates.
-
-{% endnote %}
+It also assumes that your store company address has been {% link "configured" ref_HcSs9eFL %} on the **Contact information** page (**Store setup** > **Contact information**). This address will be used as your store’s "Ship from" address when calculating shipping rates.  
 
 To start using the module, you need to configure it. The module configuration settings can be accessed using one of the following methods:
 
@@ -23,7 +19,7 @@ To start using the module, you need to configure it. The module configuration se
    *  click the **Add shipping method** button:
    ![shipping.png]({{site.baseurl}}/attachments/ref_whrpZnV3/shipping.png)
 
-   *   and then choose the FedEx shipping method in a pop-up:
+   *  and then choose the FedEx shipping method in a pop-up:
    ![add-fedex.png]({{site.baseurl}}/attachments/ref_58tOKWMt/add-fedex.png)
 
 
