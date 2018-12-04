@@ -4,8 +4,8 @@ layout: article_with_sidebar
 updated_at: '2018-12-03 12:33 +0400'
 identifier: ref_2P0tUkT3
 title: Fraud Analysis and Prevention
-order: 100
-published: false
+order: 150
+published: true
 ---
 Every online store owner dreams of being successful and having a well-recognized brand. However, the more popular your brand is, the more likely it is to become a target of online fraud.
 
