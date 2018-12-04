@@ -61,8 +61,8 @@ We strongly recommend using the _Refunded_ status (not _Cancelled_) when updatin
 For orders paid using {% link "online payment processors" ref_Jq6Bsdrt %}, the regular order processing workflow looks as follows:
 
 *   A new order is created with the status _Awaiting payment_, _Paid_ or _Authorized_ - depending on the payment method settings and the type of response received from the payment gateway.
-*   If the initial order status is _Awaiting Payment_ or _Authorized_, it may be changed automatically to _Paid_, _Partialy Paid_ or _Declined_ (The resulting status depends on the callback received from the payment gateway).
-*   If the order status is _Paid_, the order may be refunded. This is only possible if the payment gateway supports refunds. After a full refund, the order status is automatically changed to _Refunded_. After a partial refund, the order status becomes _Partialy Paid_.
+*   If the initial order status is _Awaiting Payment_ or _Authorized_, it may be changed automatically to _Paid_, _Partially Paid_ or _Declined_ (The resulting status depends on the callback received from the payment gateway).
+*   If the order status is _Paid_, the order may be refunded. This is only possible if the payment gateway supports refunds. After a full refund, the order status is automatically changed to _Refunded_. After a partial refund, the order status becomes _Partially Paid_.
 *   If necessary, the store administrator can intervene at any stage of the order processing flow and manually change the current status of the order to any status they require.
 
 _Related pages:_
