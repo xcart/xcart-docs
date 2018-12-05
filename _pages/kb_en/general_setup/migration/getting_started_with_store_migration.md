@@ -84,7 +84,7 @@ Intangible goods (software programs, documents, online cards and the like) do no
 
 2.   If you prefer custom table rates, {% link "follow this instruction" ref_3TG6AuN0 %}.
 
-3.   It is also possible to set up an individual shipping cost per product using the {% link "Shipping freight" ref_kioKBJIM %} feature. To charge a handling fee, {% link "follow these steps" ref_nFJTxPMR %}. {% link "Free shipping" ref_rOT8GezP %} is also easy to enable.
+3.   It is also possible to set up an individual shipping cost per product using the {% link "Shipping freight" ref_kioKBJIM %} feature. To charge a handling fee, {% link "follow these steps" ref_nFJTxPMR %}. {% link "Free shipping" ref_BCq5l4MP %} is also easy to enable.
 
 Once the shipping settings have been configured, make sure you can accept payments from your customers.
 
