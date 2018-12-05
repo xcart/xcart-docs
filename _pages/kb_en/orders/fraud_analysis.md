@@ -41,6 +41,6 @@ In combating fraud, don't forget to think about the customer and ensure their ex
 
 The third fraud type you should be aware of is the _Account takeover fraud_ that is a form of identity theft, wherein a criminal gains access to a registered customer’s account and poses as that known and trusted shopper. 
 
-To prevent accounts takeover and protect your customers use {% link "Two factor authentication" ref_30a8vM7c %} that will levels up protection to user accounts by adding a necessity to confirm the username and password with a one-time SMS code to log in. Even if Authy server is compromised, the hacker will have no usernames or passwords, as these sensitive details are NOT stored on their side.
+To prevent accounts takeover and protect your customers use {% link "Two factor authentication" ref_30a8vM7c %} that will level up protection to user accounts by adding a necessity to confirm the username and password with a one-time SMS code to log in. Even if Authy server is compromised, the hacker will have no usernames or passwords, as these sensitive details are NOT stored on their side.
 
 
