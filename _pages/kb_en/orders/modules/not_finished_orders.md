@@ -10,7 +10,11 @@ description: not finished orders module
 redirect_from:
   - /orders/not_finished_orders.html
 ---
-When a buyer completes a payment process with a payment gateway and clicks _**Place Order**_  his cart in X-Cart front-end is cleared and the admin back-end registers an order for this buyer being an exact copy of the cart at the moment of payment.  Sometimes it can be that a buyer proceeds to paying a cart but doesn't complete it due to many reasons (a customer changes his mind, something distracts a customer from the payment, a computer crash, etc.). In this case the cart admin back-end doesn't register an order and if a merchant wants to have such not finished purchases registered it's necessary to use the **Not Finished Orders module** in X-Cart. This module is included in the Business edition and higher and can be {% link "enabled" ref_0fGEpvrh %} in the **My Addons** section of the cart admin back-end.
+When a buyer completes a payment process with a payment gateway and clicks _**Place Order**_  his cart in X-Cart front-end is cleared and the admin back-end registers an order for this buyer being an exact copy of the cart at the moment of payment. 
+
+Sometimes it can be that a buyer proceeds to paying a cart but doesn't complete it due to many reasons (a customer changes his mind, something distracts a customer from the payment, a computer crash, etc.). In this case the cart admin back-end doesn't register an order by default and if a merchant wants to have such not finished purchases registered it's necessary to use the [Not Finished Orders module](https://market.x-cart.com/addons/not-finished-orders.html "Not Finished Orders") in X-Cart. 
+
+To install the module follow the regular guidelines provided in the article {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
 
 {% note info %}
 The **Not Finished Orders** module works with the orders created with online payment processors. For the offline payment methods an order is created at the moment a buyer clicks the **Place order** button in the X-Cart front-end and an order gets an "Awaiting payment" status by default. 
