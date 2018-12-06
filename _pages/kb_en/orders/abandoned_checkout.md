@@ -5,13 +5,14 @@ updated_at: '2018-12-03 12:39 +0400'
 identifier: ref_0koB5jdl
 title: 'Abandoned Checkout '
 order: 100
-published: false
+published: true
 ---
-Not everyone who adds a product to their cart completes the checkout. When a potential customer provides their contact information but doesn't complete the order, their cart is stored as an abandoned checkout.
+Shopping cart abandonment is a covert cause of a huge number of lost sales. The sad fact is that not everyone who adds a product to their cart completes the checkout. There are a lot of reasons this could happen. This person may not have their credit card in front of them, perhaps he/she wants to look around a bit more before placing an order or even an order resulted in unexpected costs. While there are a lot of reasons why people leave mid-checkout, most often it's not because they're no longer interested in the product.
 
-Abandoned checkout recovery is available only for the Online Store sales channel. Abandoned checkouts on Shopify POS or third party sales channels will not receive a checkout recovery email.
+X-Cart offers 2 possible solutions to trace abandoned carts and follow-up with the customers who didn't finished an order for some reason:
 
-If a customer doesn't enter their email address before they abandon the checkout, then you can't send them an abandoned checkout notification. Customer accounts in your store are not created for these customers. Items in a customers cart at the time that they abandoned the checkout are not saved.
+*  {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
+*  {% link "Not Finished Orders" ref_7dKyzAJ4 %}
 
-https://help.shopify.com/en/manual/orders/abandoned-checkouts
-https://support.bigcommerce.com/s/article/Using-the-Abandoned-Cart-Saver#notifications
+Remember that if a customer doesn't enter their email address before they abandon the checkout, no customer account is created in your store and items in a customers cart at the time that they abandoned the checkout are not saved. Hence you can't send them an abandoned checkout notification.
+
