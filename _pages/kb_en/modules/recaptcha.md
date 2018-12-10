@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-08-31 15:43 +0400'
 identifier: ref_4S6YEcnH
 title: 'Google reCAPTCHA '
-order: 101
+order: 131
 published: true
 ---
 [Google reCAPTCHA module](https://market.x-cart.com/addons/google-recaptcha.html "Google reCAPTCHA ") uses the free Google reCAPTCHA service to protect your shop from robots creating fake user accounts and sending SPAM through your site.
