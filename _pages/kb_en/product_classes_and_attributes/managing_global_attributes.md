@@ -43,14 +43,14 @@ The process is as follows:
 
     *   **Attribute**: Attribute name.
     *   **Attribute group**: (Specify this if you want to assign the new attribute to some attribute group) Name of the attribute group.
-    *   **Type**: Attribute value type (_Plain field_, _Textarea_, _Yes/No_, _Hidden_).
+    *   **Type**: Attribute value type (_Plain field_, _Textarea_, _Yes/No_, _Hidden field_).
         ![attribute-type.png]({{site.baseurl}}/attachments/ref_HzMkgc0q/attribute-type.png)
 5.  Click **Next**. The attribute should be saved. Now the popup is expanded so you can edit attribute values:
     ![]({{site.baseurl}}/attachments/7504857/8719299.png)
 6.  Configure the attribute values you require (See {% link "Managing attribute values" ref_bTfJ9bTS %} for more info). 
     
     {% note info %}
-    A global attribute of a hidden type can have a single value only.
+    A global attribute of a _Hidden field_ type can have a single value only.
     {% endnote %}
     
     In our example, we need to add values for the attribute "Color"; these will be "Orange", "Blue", etc - we simply need to name all the colors for all the products that will use this global attribute. The snapshot below demonstrates adding the value "Orange": 
