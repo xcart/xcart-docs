@@ -92,8 +92,10 @@ The Hidden field attribute is configured the same way as the [Plain field](#plai
 ![attributes-tab.png]({{site.baseurl}}/attachments/ref_bTfJ9bTS/attributes-tab.png)
 
 {% note info %}
-Hidden field attibutes unlike global attributes of any other type can be created in the **Classes & Attributes** section only. See {% link "Managing global attributes" ref_HzMkgc0q %} for more info.
+Hidden field attibutes unlike global attributes of any other type can be created in the **Classes & Attributes** section only. See {% link "Managing global attributes" ref_HzMkgc0q %} for more info.  
 {% endnote %}
+
+A store admin can use the {% link "Bulk Editing" ref_1kSYmXQn %} tool to configure hidden attributes for multiple products at once.
 
 ## Multi-value attributes (product options)
 
