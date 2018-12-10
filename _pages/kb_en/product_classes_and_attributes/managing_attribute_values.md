@@ -25,7 +25,7 @@ X-Cart supports three field types for attribute values:
 *   [Plain field](#plain-field)
 *   [Textarea](#textarea)
 *   [Yes/No](#yesno)
-*   Hidden field (for {% link "global attributes" ref_HzMkgc0q %} only)
+*   [Hidden field](#hidden-field "Managing attribute values") (for {% link "global attributes" ref_HzMkgc0q %} only)
 
 When configuring an attribute, select the field type that best suits your needs. Below we provide detailed explanation of each type.
 
@@ -83,15 +83,17 @@ For details, see [Multi-value attributes (product options)](#multi-value-attrib
 
 This field type allows to add a hidden global attribute to a product that can be seen and used by a store administrator only (e.g. to add some product info that should not be displayed to customers in the storefront but can be used for admin purposes like {% link "Google Product Feed" ref_7aXFWHEN %} module configuration). 
 
-Hidden field attribute is displayed as a separate tab of the Attributes section on the product details page:
+Hidden field attribute is displayed as a separate tab of the **Attributes** section on the product details page (**Attributes** -> **Hidden attributes**):
 
 ![hidden-tab.png]({{site.baseurl}}/attachments/ref_bTfJ9bTS/hidden-tab.png)
 
-The Hidden field attribute is configured the same way as the [Plain field](#plain-field) attribute, however unlike Plain field it doesn't allow to add multiple values to a product. A store admin can set only one value from the list of available per a hidden field attribute for a product.
+The Hidden field attribute is configured the same way as the [Plain field](#plain-field) attribute, however unlike Plain field it doesn't allow to add multiple values to a product. A store admin can set only one value per a hidden field attribute for a product from the list of available.
 
 ![attributes-tab.png]({{site.baseurl}}/attachments/ref_bTfJ9bTS/attributes-tab.png)
 
+{% note info %}
 Hidden field attibutes unlike global attributes of any other type can be created in the **Classes & Attributes** section only. See {% link "Managing global attributes" ref_HzMkgc0q %} for more info.
+{% endnote %}
 
 ## Multi-value attributes (product options)
 
