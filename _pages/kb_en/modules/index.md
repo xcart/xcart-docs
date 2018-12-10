@@ -55,6 +55,7 @@ _In this section:_
 *   {% link "Geolocation Module" ref_34F5BkhW %}
 *   {% link "Gift Wrapping" ref_3eTR6n0m %}
 *   {% link "Google Product Feed Module" ref_2gQBB6qM %}
+*   {% link "Google reCAPTCHA " ref_4S6YEcnH %}
 *   {% link "Go Social" ref_4YoBovhW %}
 *   {% link "Hide Prices Module" ref_46jNUlWG %}
 *   {% link "Horizontal Flyout Categories Menu" ref_1mFs8c7N %}
