@@ -43,6 +43,7 @@ Below is a list of supported fields and their respective value types for the imp
           <li>T - Text</li>
           <li>S - Select</li>
           <li>C - Yes/No</li>
+          <li>H - Hidden</li>
         </ul>
         <p>&nbsp;</p>
       </td>
