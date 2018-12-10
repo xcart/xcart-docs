@@ -25,12 +25,15 @@ X-Cart supports three field types for attribute values:
 *   [Plain field](#plain-field)
 *   [Textarea](#textarea)
 *   [Yes/No](#yesno)
+*   Hidden field (for {% link "global attributes" ref_HzMkgc0q %} only)
 
 When configuring an attribute, select the field type that best suits your needs. Below we provide detailed explanation of each type.
 
-### Plain field
+### **Plain field**
 
-Choose this field type if you need the attribute value to be a word/phrase of your choice. You can use _Plain field_ to specify such properties of a product as color, size, ISBN (for books), etc.: it is good foor almost anything, provided you can describe it in a couple of words. For example, we used it to specify the dimensions of a bag:
+Choose this field type if you need the attribute value to be a word/phrase of your choice. 
+
+You can use _Plain field_ to specify such properties of a product as color, size, ISBN (for books), etc.: it is good foor almost anything, provided you can describe it in a couple of words. For example, we used it to specify the dimensions of a bag:
 
 ![]({{site.baseurl}}/attachments/7504859/8719327.png)
 
@@ -38,11 +41,17 @@ On the storefront, it shows as follows:
 
 ![]({{site.baseurl}}/attachments/7504859/7602527.png)
 
-Note that this field type can be used to specify multiple values for one attribute. For details, see [Multi-value attributes (product options)](#multi-value-attributes-product-options).
+{% note info %}
+Plain field type can be used to specify multiple values for one attribute. 
 
-### Textarea
+For details, see [Multi-value attributes (product options)](#multi-value-attributes-product-options).
+{% endnote %}
 
-This field type allows for a longer text length than _Plain field_ and can be used to provide lengthier descriptions. For example, we used it to add detailed information about the fabric and cut of a women's top:
+### **Textarea**
+
+This field type allows for a longer text length than _Plain field_ and can be used to provide lengthier descriptions. 
+
+For example, we used it to add detailed information about the fabric and cut of a women's top:
 
 ![]({{site.baseurl}}/attachments/7504859/8719328.png)
 
@@ -50,7 +59,9 @@ On the storefront, it shows as follows:
 
 ![]({{site.baseurl}}/attachments/7504859/7602525.png)
 
-Starting with X-Cart 5.1, the _Textarea_ attribute value field type can be used to add personalization options for products (i.e. provide an editable text area on the product page on the storefront so buyers can use it to enter their own custom text). For details, see [Personalization options](#personilization-options-editable-textarea).
+Starting with X-Cart 5.1, the _Textarea_ attribute value field type can be used to add personalization options for products (i.e. provide an editable text area on the product page on the storefront so buyers can use it to enter their own custom text). 
+
+For details, see [Personalization options](#personilization-options-editable-textarea).
 
 ### **Yes/No**
 
@@ -62,7 +73,25 @@ On the storefront, it looks like this:
 
 ![]({{site.baseurl}}/attachments/7504859/7602541.png)
 
-Note that the _Yes/No_ field type can also be used to specify "Yes or No" options for products. For details, see [Multi-value attributes (product options)](#multi-value-attributes-product-options).
+{% note info %}
+The _Yes/No_ field type can also be used to specify "Yes or No" options for products. 
+
+For details, see [Multi-value attributes (product options)](#multi-value-attributes-product-options).
+{% endnote %}
+
+### **Hidden field**
+
+This field type allows to add a hidden global attribute to a product that can be seen and used by a store administrator only (e.g. to add some product info that should not be displayed to customers in the storefront but can be used for admin purposes like {% link "Google Product Feed" ref_7aXFWHEN %} module configuration). 
+
+Hidden field attribute is displayed as a separate tab of the Attributes section on the product details page:
+
+![hidden-tab.png]({{site.baseurl}}/attachments/ref_bTfJ9bTS/hidden-tab.png)
+
+The Hidden field attribute is configured the same way as the [Plain field](#plain-field) attribute, however unlike Plain field it doesn't allow to add multiple values to a product. A store admin can set only one value from the list of available per a hidden field attribute for a product.
+
+![attributes-tab.png]({{site.baseurl}}/attachments/ref_bTfJ9bTS/attributes-tab.png)
+
+Hidden field attibutes unlike global attributes of any other type can be created in the **Classes & Attributes** section only. See {% link "Managing global attributes" ref_HzMkgc0q %} for more info.
 
 ## Multi-value attributes (product options)
 
