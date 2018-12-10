@@ -43,11 +43,19 @@ The process is as follows:
 
     *   **Attribute**: Attribute name.
     *   **Attribute group**: (Specify this if you want to assign the new attribute to some attribute group) Name of the attribute group.
-    *   **Type**: Attribute value type (_Plain field_, _Textarea_, _Yes/No_).![]({{site.baseurl}}/attachments/7504857/8719298.png)
+    *   **Type**: Attribute value type (_Plain field_, _Textarea_, _Yes/No_, _Hidden_).
+        ![attribute-type.png]({{site.baseurl}}/attachments/ref_HzMkgc0q/attribute-type.png)
 5.  Click **Next**. The attribute should be saved. Now the popup is expanded so you can edit attribute values:
     ![]({{site.baseurl}}/attachments/7504857/8719299.png)
-6.  Configure the attribute values you require (See {% link "Managing attribute values" ref_bTfJ9bTS %} for more info). In our example, we need to add values for the attribute "Color"; these will be "Orange", "Blue", etc - we simply need to name all the colors for all the products that will use this global attribute. The snapshot below demonstrates adding the value "Orange": 
+6.  Configure the attribute values you require (See {% link "Managing attribute values" ref_bTfJ9bTS %} for more info). 
+    
+    {% note info %}
+    A global attribute of a hidden type can have a single value only.
+    {% endnote %}
+    
+    In our example, we need to add values for the attribute "Color"; these will be "Orange", "Blue", etc - we simply need to name all the colors for all the products that will use this global attribute. The snapshot below demonstrates adding the value "Orange": 
     ![]({{site.baseurl}}/attachments/7504857/8719300.png)
+    
 7.  If you want some or all of the value(s) you added for this global attribute to be applied automatically to all the products that will be added to your store's catalog in future, click the Check mark icon(s) opposite the names of these attribute values (the Check mark icons should turn green): 
     ![]({{site.baseurl}}/attachments/7504857/8719301.png)
 8.  Once you're done editing the attribute values, save the changes using the **Save changes** button:
