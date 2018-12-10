@@ -122,3 +122,15 @@ To edit price and membership for products in bulk:
       | Maximum items in box | Use this fields define how many products can be put in the box |
 
    4. Save the changes.
+
+## Bulk edit hidden attributes
+
+To edit hidden attributes in bulk:
+   1. Choose the products you want to edit on the product listing page (**Catalog** -> **Products**)
+   2. Click **Bulk edit selected** -> **Hidden attributes** 
+      ![hidden-attributes.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/hidden-attributes.png)
+      
+   3. In a new window choose the hidden attribute(s) value for the products:
+      ![edit-hidden-attributes.png]({{site.baseurl}}/attachments/ref_1kSYmXQn/edit-hidden-attributes.png)
+ 
+   4. Save the changes.
