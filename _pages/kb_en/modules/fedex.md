@@ -84,15 +84,20 @@ Here's how you can start using this module with X-Cart:
    ![settings-special-services.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-special-services.png)
    Note that special services may imply extra fees from FedEx.
 
-8. Use the section **Cash on delivery** to see the status of your cash on delivery option for Fedex shipments.
+8. The section **Cash on delivery** shows the status of your cash on delivery option for Fedex shipments.
    ![settings-cash-on-delivery.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-cash-on-delivery.png)
-   Note that the status of your FedEx cash on delivery option itself may not be changed from the FedEx module setting page directly. 
-   To change the status, you will need to go to the Payment settings section. To do that, you will need to either follow the link in the help note:
+   Note that this status may not be changed from the FedEx module setting page directly. 
+   To change the status, you will need to go to the Payment settings section of your X-Cart store back end. To do that, you will need to either follow the link in the help note:
    ![note.png]({{site.baseurl}}/attachments/ref_58tOKWMt/note.png)
    or simply go to **Store setup** > **Payment methods** via the Admin menu.
-   You will find the setting to toggle the cash on delivery option for FedEx next to the name of your FedEx method in the Offline methods section:
+   
+   In the Payment settings section, you will find the setting to toggle the cash on delivery option for FedEx next to the name of your FedEx method in the Offline methods list:
    ![cash-on-del.png]({{site.baseurl}}/attachments/ref_58tOKWMt/cash-on-del.png)
-   Here you can change the status (activate or deactivate cash on delivery), and it will be reflected on the FedEx module settings page. (You may need to refresh the module settings page to see the correct current status. But be sure to save any unsaved module settings before doing the refreshing.)
+   Here you will be able to change the status (activate or deactivate cash on delivery), and it will be reflected on the FedEx module settings page. (You may need to refresh the module settings page to see the correct current status. But be sure to save any unsaved module settings before refreshing the page.)
+   
+   After the activation of the cache on delivery option for FedEx, another setting will be added in the Cache on delivery section of the FedEx module settings page: **COD type**. 
+   ![fedex_cod_type.png]({{site.baseurl}}/attachments/ref_58tOKWMt/fedex_cod_type.png)
+   Use this setting to select the type of funds that should be collected by FedEx upon package delivery.  
    
 9. Adjust the **Advanced options** as you require. Note that not all FedEx Carrier Services support the advanced options, so please consult FedEx support before using them.
    ![settings-advanced-options.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-advanced-options.png)
