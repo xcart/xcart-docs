@@ -106,10 +106,10 @@ Here's how you can start using this module with X-Cart:
 
 10. Be sure to save your FedEx configuration by clicking the **Submit** button at the bottom of the page. Once your basic FedEx configuration has been saved, another tab will be added on the FedEx module settings page: **Carrier Services**. 
 
-11. Proceed to the **Carrier Services** tab to limit the FedEx carrier services you want to use for shipment. The carrier services you choose will be available to your customers at checkout if they meet conditions from the FedEx **Settings** tab.
+11. Proceed to the **Carrier Services** tab to specify the set of FedEx carrier services that should be used for shipment. The carrier services you specify here will be available to your customers at checkout if the conditions from the FedEx **Settings** tab are met.
     ![carrier-services.png]({{site.baseurl}}/attachments/ref_58tOKWMt/carrier-services.png)
 
-    Here you can enable/disable FedEx carrier services, change the services sorting and apply {% link "tax classes" ref_pAWOdG8N %} to shipments if applicable.
+    Here you can enable/disable FedEx carrier services, change the services sort order and apply {% link "tax classes" ref_pAWOdG8N %} to shipments, if applicable.
     ![carrier-services-1.png]({{site.baseurl}}/attachments/ref_58tOKWMt/carrier-services-1.png)
 
-    By default, carrier services are sorted alphabetically. If you want to change the order of appearance of your carrier services, drag-n-drop them to their new positions. Available shipping methods will be displayed to the customers at checkout in the very same order they are organized on the **Carrier Services** tab.
+    By default, carrier services are sorted alphabetically. If you want to change the sort order, you can drag-n-drop the carrier services to their new positions. Available shipping methods will be displayed to your customers at checkout in the very same order in which they are shown on the **Carrier Services** tab.
