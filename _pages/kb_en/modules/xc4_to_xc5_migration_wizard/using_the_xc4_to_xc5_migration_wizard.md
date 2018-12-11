@@ -226,7 +226,7 @@ After you complete the migration and switched X-Cart 4 store with new X-Cart 5 o
 
 This code makes sure that product, category and static pages properly indexed in your X-Cart 4 now redirect to their successors in X-Cart 5 store.
 
-If you use `nginx` web-server instead of Apache and `.htaccess` rules do not work for you, here is the equivalent of the same rules in `nginx` syntax:
+If you use `nginx` web-server instead of `Apache` and `.htaccess` rules do not work for you, here is the equivalent of the same rules in `nginx` syntax:
 
 ```
 #RewriteCond %{QUERY_STRING} productid=([0-9]+)
