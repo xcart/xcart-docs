@@ -17,7 +17,7 @@ Once installed and enabled the Google Product Feed module adds an **Add to Googl
 
 All products with the enabled **Add to Google product feed** option will be automatically added to a feed once generated. If you want to exclude some products from the feed, disable the **Add to Google product feed** option for them.
 
-Before procceding to a feed generation you need to subdivide your inventory into small groups to match [Google product categories structure](https://support.google.com/merchants/answer/6324436?hl=en "Google Product Feed Module") . Since the feed is generated and transmitted based on the _google_product_attribute_ values you need to assign proper attribute values to your products first. This can be done using a special [global attribute of a hidden field type](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#hidden-field). 
+Before procceding to feed generation you need to subdivide your inventory into small groups to match [Google product categories structure](https://support.google.com/merchants/answer/6324436?hl=en "Google Product Feed Module") . Since the feed is generated and transmitted based on the _google_product_attribute_ values you need to assign proper attribute values to your products first. This can be done using a special [global attribute of a hidden field type](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#hidden-field). 
 
 Assign hidden attributes to your products using the {% link "Bulk Editing" ref_1kSYmXQn %} tool and make sure the hidden attributes' values meet the [List of Google categories](https://www.google.com/basepages/producttype/taxonomy-with-ids.en-US.txt "Google Product Feed Module"). 
 
