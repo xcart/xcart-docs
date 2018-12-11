@@ -202,11 +202,51 @@ This is a basic checklist to make sure everything is migrated correctly and your
 - Contact information is properly filled in Store Setup > Contact information section;
 - If you want to use SMTP server for email notifications, set it up in Store setup > Email notifications > E-Mail transfer settings section;
 - Migration Wizard does not transfer existing Gift Certificates and Testimonials. Make sure you have copied them from the X-Cart 4 store manually;
-- Migration Wizard does not transfer any sales taxes or tax classes. Make sure you have configured them manually. (If you don’t see Sales Tax line in Taxes section - install free modules «Sales Tax» and «VAT Tax» in the «My Addons» section).
+- Migration Wizard does not transfer any sales taxes or tax classes. Make sure you have configured them manually. (If you don’t see Sales Tax line in Taxes section - install free modules «Sales Tax» and «VAT Tax» in the «My Addons» section);
+- Make sure you filled in SEO information in the 'Store setup' > 'SEO settings' section in the admin area.
 
 The points above are required to check before switching your existing store with X-Cart 5, but they are not limited to them. You may need to check other parts of the store depending on what functionality is heavily used by your clients.
 
-   
+## .htaccess file in the migrated store
+
+After you complete the migration and switched X-Cart 4 store with new X-Cart 5 one, you need to put the following code into its `.htaccess` file.
+
+```
+  RewriteCond %{QUERY_STRING} cat=([0-9]+)
+  RewriteRule ^home\.php$ cart.php?target=category&category_id=%1 [L,R=301]
+
+  RewriteCond %{QUERY_STRING} productid=([0-9]+)
+  RewriteRule ^product\.php$ cart.php?target=product&product_id=%1 [L,R=301]
+
+  RewriteCond %{QUERY_STRING} pageid=([0-9]+)
+  RewriteRule ^pages\.php$ cart.php?target=page&id=%1 [L,R=301]
+  
+  RewriteRule ^home.php$ cart.php [NC,L]
+```
+
+This code makes sure that product, category and static pages properly indexed in your X-Cart 4 now redirect to their successors in X-Cart 5 store.
+
+If you use `nginx` web-server instead of Apache and `.htaccess` rules do not work for you, here is the equivalent of the same rules in `nginx` syntax:
+
+```
+#RewriteCond %{QUERY_STRING} productid=([0-9]+)
+#RewriteRule ^product\.php$ cart.php?target=product&product_id=%1 [L,R=301]
+location = /product.php {
+    rewrite ^ /cart.php?target=product&product_id=$arg_productid;
+}
+
+#RewriteCond %{QUERY_STRING} pageid=([0-9]+)
+#RewriteRule ^pages\.php$ cart.php?target=page&id=%1 [L,R=301]
+location = /pages.php {
+    rewrite ^ /cart.php?target=page&id=$arg_pageid;
+}
+
+#RewriteCond %{QUERY_STRING} cat=([0-9]+)
+#RewriteRule ^home\.php$ cart.php?target=category&category_id=%1 [L,R=301]
+location = /home.php {
+    rewrite ^ /cart.php?target=category&category_id=$arg_cat;
+}
+```
 
 _Related pages:_
 
