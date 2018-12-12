@@ -63,28 +63,29 @@ Here's how you can start using this module with X-Cart:
    
    The logs will be saved to **fedex.log** files in the `<X-Cart>/var/log/` folder.
  
-6. In the **Carrier types** section, choose the preferred shipments and configure them in accordance with your business needs:
+6. In the **Carrier types** section, choose the preferred services and configure them in accordance with your business needs:
    ![settings-carrier-types.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-carrier-types.png)
 
-   *   **FedEx Express (FDXE)**: Enable [FedEx Express](http://www.fedex.com/us/fedex/shippingservices/express.html "FedEx") if you want to use this shipment.
-   *   **FedEx Ground (FDXG)** : Enable [FedEx Ground](https://www.fedex.com/en-us/shipping/ground.html "FedEx") if you want to use this shipment. FedEx Ground delivers in 1–7 business days, based on distance to the destination.
-   *   **FedEx SmartPost (FXSP)**: Enable [FedEx SmartPost](https://www.fedex.com/en-us/shipping/fedex-smartpost.html "FedEx") if you want to use this shipment. FXSP picks up (or accepts drop shipments), provides line haul and delivers your packages to a USPS facility for final delivery by a postal carrier. 
-       If enabled the following settings become available:
+   *   **FedEx Express (FDXE)**: Enable [FedEx Express](http://www.fedex.com/us/fedex/shippingservices/express.html "FedEx") if you want to use this service.
+   *   **FedEx Ground (FDXG)** : Enable [FedEx Ground](https://www.fedex.com/en-us/shipping/ground.html "FedEx") if you want to use this service. FedEx Ground delivers in 1–7 business days, based on distance to the destination.
+   *   **FedEx SmartPost (FXSP)**: Enable [FedEx SmartPost](https://www.fedex.com/en-us/shipping/fedex-smartpost.html "FedEx") if you want to use this service. FXSP picks up (or accepts drop shipments), provides line haul and delivers your packages to a USPS facility for final delivery by a postal carrier. 
+       If FedEx SmartPost is enabled, the following two settings also become available:
        ![settings-smertpost-on.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-smertpost-on.png)
+       Be sure to adjust them as well.
        * **Hub ID**: Select your Hub ID.
        * **Indicia**: Specify the indicia type. 
-   *   **Rate request type**: Select the type of the rates that will be used for shipments.
-   *   **Packaging**: Select the type of packaging that will be used for shipments.
-   *   **Dropoff type**: Select the type of drop off that will be used for shipments.
+   *   **Rate request type**: Select the type of rates that should be used for your shipments.
+   *   **Packaging**: Select the type of packaging that should be used for your shipments.
+   *   **Dropoff type**: Select the type of drop off that should be used for your shipments.
    *   **Ship date (days)**: Set the number of days until the order is shipped.
    *   **Currency code**: If the shipping currency is other than USD, specify it in this field.
    *   **Currency rate**: If the currency code specified above differs from the currency the store uses for payments, specify a conversion rate to convert the shipping cost returned by FedEx into your store's currency. If the currencies are the same, leave this set to 1.
-   *   **Package dimensions (inches)**: Use these fields to define the default package size for FedEx shipments in inches (Length, Width, Height).
-   *   **Maximum package weight**: Specify the top limit of the package weight in lbs.
+   *   **Package dimensions (inches)**: Use these fields to define the default package size that should be used for FedEx shipments (Length, Width, Height in inches).
+   *   **Maximum package weight**: Specify the maximum package weight limit.
 
-7. In the section **Special services**, configure the special services for shipments, if applicable.
+7. If you are going to use special services, configure them in the section **Special services**:
    ![settings-special-services.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-special-services.png)
-   Note that special services may imply extra fees from FedEx.
+   Note that special services may imply extra fees.
 
 8. The section **Cash on delivery** shows the status of your cash on delivery option for Fedex shipments.
    ![settings-cash-on-delivery.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-cash-on-delivery.png)
@@ -104,7 +105,7 @@ Here's how you can start using this module with X-Cart:
 9. Adjust the **Advanced options** as you require. Note that not all FedEx Carrier Services support the advanced options, so please consult FedEx support before using them.
    ![settings-advanced-options.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-advanced-options.png)
  
-   Note that advanced options may affect the shipping rates calculation and imply extra fees from FedEx. 
+   Note that advanced options may affect the shipping rates calculation and may imply extra fees. 
 
 10. Be sure to save your FedEx configuration by clicking the **Submit** button at the bottom of the page. Once your basic FedEx configuration has been saved, another tab will be added on the FedEx module settings page: **Carrier Services**. 
 
