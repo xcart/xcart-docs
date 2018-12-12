@@ -95,7 +95,7 @@ Here's how you can start using this module with X-Cart:
    ![cash-on-del.png]({{site.baseurl}}/attachments/ref_58tOKWMt/cash-on-del.png)
    Here you will be able to change the status (activate or deactivate cash on delivery), and it will be reflected on the FedEx module settings page. (You may need to refresh the module settings page to see the correct current status. But be sure to save any unsaved module settings before refreshing the page.)
    
-   After the activation of the cache on delivery option for FedEx, another setting will be added in the Cache on delivery section of the FedEx module settings page: **COD type**. 
+   After the activation of the cash on delivery option for FedEx, another setting will be added in the Cash on delivery section of the FedEx module settings page: **COD type**. 
    ![fedex_cod_type.png]({{site.baseurl}}/attachments/ref_58tOKWMt/fedex_cod_type.png)
    Use this setting to select the type of funds that should be collected by FedEx upon package delivery.  
    
