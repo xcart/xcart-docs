@@ -63,7 +63,7 @@ Here's how you can start using this module with X-Cart:
    
    The logs will be saved to **fedex.log** files in the `<X-Cart>/var/log/` folder.
  
-6. In the **Carrier types** section, choose the preferred services and configure them in accordance with your business needs:
+6. In the **Carrier types** section, specify your preferred FedEx configuration:
    ![settings-carrier-types.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-carrier-types.png)
 
    *   **FedEx Express (FDXE)**: Enable [FedEx Express](http://www.fedex.com/us/fedex/shippingservices/express.html "FedEx") if you want to use this service.
