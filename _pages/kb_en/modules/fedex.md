@@ -15,7 +15,7 @@ Here's how you can start using this module with X-Cart:
 
 2. Make sure your store company address has been {% link "configured" ref_HcSs9eFL %} on the **Contact information** page (**Store setup** > **Contact information**). This address will be used as your store’s "Ship from" address when calculating shipping rates.  
 
-3. Create a FedEx account by registering at [FedEx.com](https://www.fedex.com/en-us/home.html "FedEx") - this will get you a User ID and a password. Use your account to obtain a set of credentials for access to FedEx API. The credentials include an authentication key, a password, an account number and a meter number. You will need to enter these credentials in your X-Cart store back end to connect your store to your FedEx account and enable it to exchange information with FedEx services via the API provided by FedEx.
+3. Create a FedEx account by registering at [FedEx.com](https://www.fedex.com/en-us/home.html "FedEx") - this will get you a User ID and a password. Use your account to obtain a set of credentials for access to FedEx API. The credentials include an authentication key, a password, an account number and a meter number. You will need to enter these credentials in your X-Cart store back end to connect your store to your FedEx account and enable it to exchange information with FedEx services via the API provided by FedEx. 
 
 4. In your X-Cart store back end, go to the FedEx module settings page. 
 
@@ -49,11 +49,13 @@ Here's how you can start using this module with X-Cart:
    *   **FedEx account number**: Specify your [FedEx account number](http://www.fedex.com/fsm/help/html/us/faq.html#faq002 "FedEx"). 
    *   **FedEx meter number**: Specify your FedEx meter number. A FedEx Meter Number is an identification number that FedEx will use to pull your negotiated rates. 
    
-   If you are going to test your store's FedEx integration before going into production, you will need to specify that the module is going to be used in test mode:
+   Note that you can test your store's FedEx integration before going into production. You will need to specify that the module is going to be used in test mode:
    
    *   **Test mode**: Enable/Disable test mode.
    
-   Note that for test mode you will also need a set of test credentials for the fields above (FedEx authentication key, FedEx authentication password, FedEx account number and FedEx meter number).
+   To do the testing, you will also need to use your test credentials for access to the API.
+   
+   Once you decide to switch your store's FedEx integration to production mode, you will need to replace the test credentials with your production credentials. You will be able to obtain your production credentials after selecting _Move to Production_ in your FedEx account.
    
    In case of FedEx related issues you will want to enable the logging of requests sent to the FedEx services by the store and of responses received from FedEx by the store. This can be done using the following setting:
   
