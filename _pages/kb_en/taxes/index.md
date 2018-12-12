@@ -28,3 +28,4 @@ _In this section:_
 *   {% link "Setting up shipping taxes" ref_7vViyKfY %}
 *   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
 *   {% link "TaxJar Sales Tax Automation" ref_0wHdWryq %}
+*   {% link "Tax Exemptions" ref_5ffIgmxG %}
