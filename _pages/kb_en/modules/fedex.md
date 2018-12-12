@@ -96,13 +96,13 @@ Here's how you can start using this module with X-Cart:
    
    In the Payment settings section, you will find the setting to toggle the cash on delivery option for FedEx next to the name of your FedEx method in the Offline methods list:
    ![cash-on-del.png]({{site.baseurl}}/attachments/ref_58tOKWMt/cash-on-del.png)
-   Here you will be able to change the status (activate or deactivate cash on delivery), and it will be reflected on the FedEx module settings page. (You may need to refresh the module settings page to see the correct current status. But be sure to save any unsaved module settings before refreshing the page.)
+   The status of this setting will be reflected on the FedEx module settings page. (You may have to refresh the module settings page to see the correct current status. But be sure to save any unsaved module settings before refreshing the page.)
    
    After the activation of the cash on delivery option for FedEx, another setting will be added in the Cash on delivery section of the FedEx module settings page: **COD type**. 
    ![fedex_cod_type.png]({{site.baseurl}}/attachments/ref_58tOKWMt/fedex_cod_type.png)
    Use this setting to select the type of funds that should be collected by FedEx upon package delivery.  
    
-9. Adjust the **Advanced options** as you require. Note that not all FedEx Carrier Services support the advanced options, so please consult FedEx support before using them.
+9. Adjust the settings in the **Advanced options** section as you require. Note that not all FedEx Carrier Services support the advanced options, so please consult FedEx support before using them.
    ![settings-advanced-options.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-advanced-options.png)
  
    Note that advanced options may affect the shipping rates calculation and may imply extra fees. 
@@ -112,7 +112,7 @@ Here's how you can start using this module with X-Cart:
 11. Proceed to the **Carrier Services** tab to specify the set of FedEx carrier services that should be used for shipment. The carrier services you specify here will be available to your customers at checkout if the conditions from the FedEx **Settings** tab are met.
     ![carrier-services.png]({{site.baseurl}}/attachments/ref_58tOKWMt/carrier-services.png)
 
-    Here you can enable/disable FedEx carrier services, change the services sort order and apply {% link "tax classes" ref_pAWOdG8N %} to shipments, if applicable.
+    On the **Carrier Services** tab, you can enable/disable FedEx carrier services, change the services sort order and apply {% link "tax classes" ref_pAWOdG8N %} to shipments, if applicable.
     ![carrier-services-1.png]({{site.baseurl}}/attachments/ref_58tOKWMt/carrier-services-1.png)
 
-    By default, carrier services are sorted alphabetically. If you want to change the sort order, you can drag-n-drop the carrier services to their new positions. Available shipping methods will be displayed to your customers at checkout in the very same order in which they are shown on the **Carrier Services** tab.
+    By default, carrier services are sorted alphabetically. If you want to change the sort order, you can drag-n-drop the carrier services to re-adjust their positions. During checkout, the available shipping methods will be displayed to your customers in the very same order in which they are shown on the **Carrier Services** tab.
