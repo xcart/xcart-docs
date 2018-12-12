@@ -16,14 +16,13 @@ Automatical tax-exempt feature is supported in {% link "Avalara AvaTax " ref_27H
 To set up a tax-exempt option manually you'll need to:
 
 1. Create a special tax-exempt membership and assign it the customers that can order goods tax free - See more info on memberships creation in {% link "Managing User Membership Levels" ref_RXsgxNSm %}
-  
-  {% note info %}
-  You'll need to devide all your customers into groups and assign a special membership level to each of the groups depending on whether the customer is tax-exempt or not.
-  {% endnote %}
-  
+   {% note info %}
+   You'll need to devide all your customers into groups and assign a special membership level to each of the groups depending on whether the customer is tax-exempt or not.
+   {% endnote %}
+
 2. Create the store tax system based on the memberships - See more info on taxes set-up in {% link "Setting up sales tax" ref_aJPK4DHN %}
   
-  {% note info %}
-  When setting up taxes disable the **Use the same tax rates for all user membership levels** option and create tax rates based on the memberships used in the store. The tax-exempt membership should have a 0% tax rate applied.
-  {% endnote %}
+   {% note info %}
+   When setting up taxes disable the **Use the same tax rates for all user membership levels** option and create tax rates based on the memberships used in the store. The tax-exempt membership should have a 0% tax rate applied.
+   {% endnote %}
 
