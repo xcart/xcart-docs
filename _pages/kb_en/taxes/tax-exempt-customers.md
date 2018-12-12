@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-12-03 12:28 +0400'
 identifier: ref_5ffIgmxG
-title: Tax Exempt
+title: Tax Exemptions
 order: 700
 published: true
 ---
