@@ -11,6 +11,8 @@ A [Tax Exempt module](https://market.x-cart.com/addons/tax-exemption.html "Tax E
 
 To start using the module install it as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
+{% toc %}
+
 ## Tax-Exempt Customers
 
 The Tax Exempt module adds a possibility for a customer to specify tax number at checkout:
