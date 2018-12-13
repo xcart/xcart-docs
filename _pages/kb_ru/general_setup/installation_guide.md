@@ -46,94 +46,18 @@ icon: download
 ## Аппаратные требования
 
 
-<table class="ui celled padded compact small table">
-  <thead>
-    <tr>
-      <th style="text-align: center;" class="confluenceTh">&nbsp;</th>
-      <th colspan="3" style="text-align: center;" class="confluenceTh">Поток данных</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th style="text-align: center;" class="confluenceTh">Размер каталога</th>
-      <th class="confluenceTh"><span style="color: rgb(0,0,0);">до 100 посетителей в день</span>
-      </th>
-      <th class="confluenceTh"><span style="color: rgb(0,0,0);">до 5 000 посетителей в день</span>
-      </th>
-      <th class="confluenceTh"><span style="color: rgb(0,0,0);">до 15 000 посетителей в день</span>
-      </th>
-    </tr>
-    <tr>
-      <th class="confluenceTh">1 500 кодов товаров</th>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">надежный совместный/облачный хостинг</span>
-      </td>
-      <td class="confluenceTd">
-        <p>Виртуальный выделенный сервер / Выделенный сервер</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Двухядерный процессор</li>
-          <li>Оперативная память 1 GB</li>
-          <li>Скорость трафика 250 Mbps</li>
-        </ul>
-      </td>
-      <td class="confluenceTd">
-        <p>Выделенный сервер</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Двухядерный процессор</li>
-          <li>Оперативная память 8 GB, Жестский диск SAS</li>
-          <li>Скорость трафика 500 Mbps</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <th class="confluenceTh">20 000 кодов товаров</th>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">надежный совместный/облачный хостинг</span>
-      </td>
-      <td class="confluenceTd">
-        <p>Виртуальный выделенный сервер / Выделенный сервер</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Двухядерный процессор</li>
-          <li>Оперативная память 2 GB</li>
-          <li>Скорость трафика 250 Mbps</li>
-        </ul>
-      </td>
-      <td class="confluenceTd">
-        <p>Выделенный сервер</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Двухядерный процессор</li>
-          <li>Оперативная память 16 GB, Жестский диск SAS</li>
-          <li>Скорость трафика 500 Mbps</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <th class="confluenceTh">300 000 кодов товаров</th>
-      <td class="confluenceTd">
-        <p>VPS хостинг (виртуальный выделенный сервер)</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Двухядерный процессор</li>
-          <li>Оперативная память 2 GB</li>
-          <li>Скорость трафика 100 Mbps</li>
-        </ul>
-      </td>
-      <td class="confluenceTd">
-        <p>Выделенный сервер</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Двухядерный процессор</li>
-          <li>Оперативная память 4 GB, Жестский диск SAS</li>
-          <li>Скорость трафика 250 Mbps</li>
-        </ul>
-      </td>
-      <td class="confluenceTd">
-        <p>Выделенный сервер</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Четырехядерный процессор</li>
-          <li>Оперативная память 16 GB, Жестский диск SAS</li>
-          <li>Скорость трафика 500 Mbps</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+ {% note warning %}
+ Use X-Cart on NIX-based servers only. 
+ {% endnote %}
+
+ {:.ui.compact.celled.small.padded.table} 
+ 
+ | |**up to 2K traffic**|**2-10K traffic**|**10-50K traffic**|**50-100K traffic**|**over 100K traffic**|
+ |**up to 1000 SKUs** <br>**up to 100 Categories**|VPS hosting<br>- 1 Core<br>- 1 GB RAM (DDR4)|VPS hosting<br>- 1 Core<br>- 2 GB RAM (DDR4) |VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |Dedicated server|
+ |**up to 10 000 SKUs**<br>**up to 500 Categories**|VPS hosting <br>- 1 Core<br>- 2 GB RAM (DDR4) |VPS hosting<br>- 1 Core<br>- 2 GB RAM (DDR4)|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |Dedicated Server|
+ |**up to 20 000 SKUs**<br>**up to 1000 Categories**|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4)|Dedicated Server|Dedicated Server|
+ |**up to 50 000 SKUs**<br>**up to 2000 Categories**|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4)|Dedicated Server|Dedicated Server|Dedicated Server|
+ |**over 50 000 SKUs**<br>**over 2000 Categories**|Dedicated Server|Dedicated Server|Dedicated Server|Dedicated Server|Dedicated Server|
 
 
 ## Совместимость с браузерами
@@ -143,7 +67,7 @@ X-Cart 5 работает в следующих браузерах:
 *   Google Chrome (последняя версия)
 *   Safari (последняя версяя для MacOS X v10.8 и новее, iOS7 и новее)
 *   Firefox (последняя версия)
-*   Internet Explorer 10 и новее
+*   Microsoft Edge (последняя версия)
 
 
 ## Установка X-Cart
