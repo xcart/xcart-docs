@@ -5,7 +5,7 @@ updated_at: '2018-12-12 11:52 +0400'
 identifier: ref_6dA6W1gY
 title: Tax Exempt
 order: 280
-published: false
+published: true
 ---
 A [Tax Exempt module](https://market.x-cart.com/addons/tax-exemption.html "Tax Exempt") by X-Cart makes it possible to add tax exemptions for certain groups of customers as well as for particular products.
 
@@ -54,7 +54,4 @@ For this purpose a store admin should:
 3. Enable the **Tax Exempt** option to the **Prices & Inventory** section:
    ![tax-exempt-product.png]({{site.baseurl}}/attachments/ref_6dA6W1gY/tax-exempt-product.png)
 
-4. Click **Update product**. 
-
-
-
+4. Click **Update product**.
