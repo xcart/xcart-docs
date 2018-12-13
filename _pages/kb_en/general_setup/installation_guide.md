@@ -52,8 +52,8 @@ Here is the system requirements list:
  {% endnote %}
 
  {:.ui.compact.celled.small.padded.table} 
- |||<span style="color:red"> **Traffic** </span>|||
- | **Catalog size**|<span style="text-align:center">**up to 2K**</span>|<span style="text-align:center">**2-10K**</span>|<span style="text-align:center">**10-50K**</span>|<span style="text-align:center">**50-100K**</span>|<span style="text-align:center">**over 100K**</span>|
+ 
+ | |**up to 2K**|**2-10K**|**10-50K**|**50-100K**|**over 100K**|
  |**up to 1000 SKUs** <br>**up to 100 Categories**|VPS hosting<br>- 1 Core<br>- 1 GB RAM (DDR4)|VPS hosting<br>- 1 Core<br>- 2 GB RAM (DDR4) |VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |Dedicated server|
  |**up to 10 000 SKUs**<br>**up to 500 Categories**|VPS hosting <br>- 1 Core<br>- 2 GB RAM (DDR4) |VPS hosting<br>- 1 Core<br>- 2 GB RAM (DDR4)|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |Dedicated Server|
  |**up to 20 000 SKUs**<br>**up to 1000 Categories**|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4)|Dedicated Server|Dedicated Server|
