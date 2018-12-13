@@ -53,104 +53,13 @@ Here is the system requirements list:
 
  {:.ui.compact.celled.small.padded.table} 
  
- | |**up to 2K trafic**|**2-10K trafic**|**10-50K trafic**|**50-100K trafic**|**over 100K trafic**|
+ | |**up to 2K traffic**|**2-10K traffic**|**10-50K traffic**|**50-100K trafifc**|**over 100K traffic**|
  |**up to 1000 SKUs** <br>**up to 100 Categories**|VPS hosting<br>- 1 Core<br>- 1 GB RAM (DDR4)|VPS hosting<br>- 1 Core<br>- 2 GB RAM (DDR4) |VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |Dedicated server|
  |**up to 10 000 SKUs**<br>**up to 500 Categories**|VPS hosting <br>- 1 Core<br>- 2 GB RAM (DDR4) |VPS hosting<br>- 1 Core<br>- 2 GB RAM (DDR4)|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |Dedicated Server|
  |**up to 20 000 SKUs**<br>**up to 1000 Categories**|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4)|Dedicated Server|Dedicated Server|
  |**up to 50 000 SKUs**<br>**up to 2000 Categories**|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4)|Dedicated Server|Dedicated Server|Dedicated Server|
  |**over 50 000 SKUs**<br>**over 2000 Categories**|Dedicated Server|Dedicated Server|Dedicated Server|Dedicated Server|Dedicated Server|
  
- 
- 
- 
-<table class="ui celled padded compact small table">
-  <thead>
-    <tr>
-      <th style="text-align: center;" class="confluenceTh">&nbsp;</th>
-      <th colspan="3" style="text-align: center;" class="confluenceTh">Traffic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th style="text-align: center;" class="confluenceTh">Catalog size</th>
-      <th class="confluenceTh"><span style="color: rgb(0,0,0);">up to 100 visitors/day</span>
-      </th>
-      <th class="confluenceTh"><span style="color: rgb(0,0,0);">up to 5 000 visitors/day</span>
-      </th>
-      <th class="confluenceTh"><span style="color: rgb(0,0,0);">up to 15 000 visitors/day</span>
-      </th>
-    </tr>
-    <tr>
-      <th class="confluenceTh">1 500 SKUs</th>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">a good shared/cloud hosting</span>
-      </td>
-      <td class="confluenceTd">
-        <p>VPS / Dedicated server</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Dual-core CPU</li>
-          <li>RAM 1 GB</li>
-          <li>250 Mbps connection</li>
-        </ul>
-      </td>
-      <td class="confluenceTd">
-        <p>Dedicated server</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Dual CPU dual-core</li>
-          <li>RAM 8 GB, SAS HDD</li>
-          <li>500 Mbps connection</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <th class="confluenceTh">20 000 SKUs</th>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">a good shared/cloud hosting</span>
-      </td>
-      <td class="confluenceTd">
-        <p>VPS / Dedicated server</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Dual-core CPU</li>
-          <li>RAM 2 GB</li>
-          <li>250 Mbps connection</li>
-        </ul>
-      </td>
-      <td class="confluenceTd">
-        <p>Dedicated server</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Dual CPU dual-core</li>
-          <li>RAM 16 GB, SAS HDD</li>
-          <li>500 Mbps connection</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <th class="confluenceTh">300 000 SKUs</th>
-      <td class="confluenceTd">
-        <p>VPS hosting</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Dual-core CPU</li>
-          <li>RAM 2 GB</li>
-          <li>100 Mbps connection</li>
-        </ul>
-      </td>
-      <td class="confluenceTd">
-        <p>Dedicated server</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Dual-core CPU</li>
-          <li>RAM 4 GB, SAS HDD</li>
-          <li>250 Mbps connection</li>
-        </ul>
-      </td>
-      <td class="confluenceTd">
-        <p>Dedicated server</p>
-        <ul style="margin-left: 1.6em;">
-          <li>Dual CPU quad-core</li>
-          <li>RAM 16 GB, SAS HDD</li>
-          <li>500 Mbps connection</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
 
 ## Browser compatibility
 
