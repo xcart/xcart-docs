@@ -47,7 +47,7 @@ icon: download
 
 
  {% note warning %}
- Use X-Cart on NIX-based servers only. 
+ Use X-Cart on NIX-based servers only. Windows-based server are not supported.
  {% endnote %}
 
  {:.ui.compact.celled.small.padded.table} 
