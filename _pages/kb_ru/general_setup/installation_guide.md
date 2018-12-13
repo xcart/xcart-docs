@@ -51,7 +51,7 @@ icon: download
 
  {:.ui.compact.celled.small.padded.table} 
  
- | |**до 2000 посетителей/месяц**|**2000-10000 **|**10000-50000**|**50000-100000**|**свыше 100000 посетителей/месяц**|
+ | |**до 2000 посетителей/месяц**|**2000-10000**|**10000-50000**|**50000-100000**|**свыше 100000 посетителей/месяц**|
  |**до 1000 артикулов** <br>**до 100 категорий**|VPS hosting<br>- 1 Core<br>- 1 GB RAM (DDR4)|VPS hosting<br>- 1 Core<br>- 2 GB RAM (DDR4) |VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |Выделенный сервер|
  |**до 10 000 артикулов**<br>**до 500 категорий**|VPS hosting <br>- 1 Core<br>- 2 GB RAM (DDR4) |VPS hosting<br>- 1 Core<br>- 2 GB RAM (DDR4)|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |Выделенный сервер|
  |**до 20 000 артикулов**<br>**до 1000 категорий**|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4)|Выделенный сервер|Выделенный сервер|
