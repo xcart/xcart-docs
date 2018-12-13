@@ -99,6 +99,7 @@ _In this section:_
 *   {% link "Social Login" ref_IapN8lJ8 %}
 *   {% link "Special Offers" ref_special_offers %}
 *   {% link "Stripe" ref_1SRSOBWa %}
+*   {% link "Tax Exempt" ref_6dA6W1gY %}
 *   {% link "TaxJar Sales Tax Automation" ref_0wHdWryq %}
 *   {% link "Theme Tweaker and Webmaster Mode" ref_2L6W3YMS %}
 *   {% link "Tree-like Categories Menu" ref_3DV2eqp1 %}
