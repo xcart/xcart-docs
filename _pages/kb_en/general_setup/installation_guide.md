@@ -50,7 +50,7 @@ Here is the system requirements list:
  {:.ui.compact.celled.small.padded.table} 
  ||Traffic|
  |catalog|up to 2K|2-10K|10-50K|50-100K|over 100K|
- |up to 1000 SKUs <p>up to 100 Categories|VPS hosting<p>- 1 Core<p>- 1 GB RAM (DDR4)|VPS hosting<p>- 1 Core<p>- 2 GB RAM (DDR4) |VPS hosting<p>- 1 Core<p>- 1 GB RAM (DDR4)|VPS hosting<p>- 2 Core<p>- 4 GB RAM (DDR4)|VPS hosting<p>- 8 Core<p>- 16 GB RAM (DDR4) |Dedicated server|
+ |up to 1000 SKUs <br>up to 100 Categories|VPS hosting<br>- 1 Core<br>- 1 GB RAM (DDR4)|VPS hosting<br>- 1 Core<br>- 2 GB RAM (DDR4) |VPS hosting<br>- 1 Core<br>- 1 GB RAM (DDR4)|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |Dedicated server|
 
 <table class="ui celled padded compact small table">
   <thead>
