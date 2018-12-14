@@ -77,24 +77,18 @@ Here is the system requirements list:
       </td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
-        <ul>
-          <li>1 Core</li>
-          <li>2 GB RAM (DDR4)</li>
-        </ul>
+        <p>- 1 Core</p>
+          <p>- 2 GB RAM (DDR4)</p>
       </td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
-        <ul>
-          <li>2 Core</li>
-          <li>4 GB RAM (DDR4)</li>
-        </ul>
+        <p>- 2 Core</p>
+        <p>- 4 GB RAM (DDR4)</p>
       </td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
-        <ul>
-          <li>8 Core</li>
-          <li>16 GB RAM (DDR4)</li>
-        </ul>
+        <p>- 8 Core</p>
+          <p>- 16 GB RAM (DDR4)</p>
       </td>
       <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
       </td>
@@ -103,31 +97,23 @@ Here is the system requirements list:
       <th class="confluenceTh"><p>up to 10 000 SKUs</p><p>up to 500 Categories</p></th>
       <td class="confluenceTd">
         <p>VPS hosting</p>
-        <ul>
-          <li>1 Core</li>
-          <li>2 GB RAM (DDR4)</li>
-        </ul>
+        <p>- 1 Core</p>
+        <p>- 2 GB RAM (DDR4)</p>
       </td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
-        <ul>
-          <li>1 Core</li>
-          <li>2 GB RAM (DDR4)</li>
-        </ul>
+        <p>- 1 Core</p>
+          <p>- 2 GB RAM (DDR4)</p>
       </td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
-        <ul>
-          <li>2 Core</li>
-          <li>4 GB RAM (DDR4)</li>
-        </ul>
+        <p>- 2 Core</p>
+          <p>- 4 GB RAM (DDR4)</p>
       </td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
-        <ul>
-          <li>8 Core</li>
-          <li>16 GB RAM (DDR4)</li>
-        </ul>
+        <p>- 8 Core</p>
+          <p>- 16 GB RAM (DDR4)</p>
       </td>
       <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
       </td>
@@ -136,24 +122,18 @@ Here is the system requirements list:
       <th class="confluenceTh"><p>up to 20 000 SKUs</p><p>up to 1000 Categories</p></th>
       <td class="confluenceTd">
         <p>VPS hosting</p>
-        <ul>
-          <li>2 Core</li>
-          <li>4 GB RAM (DDR4)</li>
-        </ul>
+        <p>- 2 Core</p>
+          <p>- 4 GB RAM (DDR4)</p>
       </td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
-        <ul>
-          <li>2 Core</li>
-          <li>4 GB RAM (DDR4)</li>
-        </ul>
+        <p>- 2 Core</p>
+          <p>- 4 GB RAM (DDR4)</p>
       </td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
-        <ul>
-          <li>8 Core</li>
-          <li>16 GB RAM (DDR4)</li>
-        </ul>
+        <p>- 8 Core</p>
+          <p>- 16 GB RAM (DDR4)</p>
       </td>
       <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
       </td>
@@ -164,17 +144,13 @@ Here is the system requirements list:
       <th class="confluenceTh"><p>up to 50 000 SKUs</p><p>up to 2000 Categories</p></th>
       <td class="confluenceTd">
         <p>VPS hosting</p>
-        <ul>
-          <li>8 Core</li>
-          <li>16 GB RAM (DDR4)</li>
-        </ul>
+        <p>- 8 Core</p>
+          <p>- 16 GB RAM (DDR4)</p>
       </td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
-        <ul>
-          <li>8 Core</li>
-          <li>16 GB RAM (DDR4)</li>
-        </ul>
+        <p>- 8 Core</p>
+          <p>- 16 GB RAM (DDR4)</p>
       </td>
       <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
       </td>
