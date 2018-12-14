@@ -72,3 +72,5 @@ Any changes made to the order will automatically result in the order invoice alt
 The **Messages** tab can be used if it's necessary to send notes about the order to a customer. 
 
 ![messages.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/messages.png)
+
+It's also possible to print {% link "packing slips" ref_2mocNY5w %} directly from the order details page. Packing slips provide important details about the order contents and are a great way to communicate what has been sent to the customer.
