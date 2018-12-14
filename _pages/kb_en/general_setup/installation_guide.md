@@ -50,8 +50,8 @@ Here is the system requirements list:
 <table class="ui celled padded compact small table">
   <thead>
     <tr>
-      <td style="text-align: center;" class="confluenceTd">&nbsp;</td>
-      <td colspan="5" style="text-align: center;" class="confluenceTd">Traffic (Visitors/Month)</td>
+      <th style="text-align: center;" class="confluenceTh">&nbsp;</th>
+      <th colspan="5" style="text-align: center;" class="confluenceTh">Traffic (Visitors/Month)</th>
     </tr>
   </thead>
   <tbody>
