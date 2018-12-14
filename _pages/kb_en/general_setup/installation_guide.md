@@ -182,7 +182,7 @@ X-Cart 5 supports following browsers:
 *   Google Chrome (latest version)
 *   Safari (latest versions for MacOS X v10.8 and later, iOS7 and later)
 *   Firefox (latest version)
-*   Internet Explorer 10 and higher
+*   Microsoft Edge (latest version)
 
 ## Installation process
 
