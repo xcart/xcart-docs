@@ -72,10 +72,8 @@ Here is the system requirements list:
       <th class="confluenceTh"><p>up to 1000 SKUs</p><p>up to 100 Categories</p></th>
       <td class="confluenceTd">
         <p>VPS hosting</p>
-        <ul>
-          <li>1 Core</li>
-          <li>1 GB RAM (DDR4)</li>
-        </ul>
+        <p>- 1 Core</p>
+        <p>- 1 GB RAM (DDR4)</p>
       </td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
