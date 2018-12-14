@@ -125,8 +125,8 @@ Click on it to launch the migation process:
    
 ##  Step 6 - Transfer
     
-   At the sixth step of the wizard, you can see a list of X-Cart entities that will be transfered from your X-Cart 4 store to the X-Cart 5 platform hence the migration wizard has collected all the information it requires and is ready to start the data migration process:
-    ![xc5_mw_step5_5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_5.png)
+   At the next step of the wizard, you can see a list of X-Cart entities that will be transfered from your X-Cart 4 store to the X-Cart 5 platform hence the migration wizard has collected all the information it requires and is ready to start the data migration process:
+    ![mw_10.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_10.png)
     
    If orders are going to be migrated, you will get an alert message regarding the currency being used: "The orders will be migrated using the current store currency (_Currency symbol - Currency name_). You can change the currency _here_." 
    
@@ -134,19 +134,20 @@ Click on it to launch the migation process:
 
    {% note info %}
    If you want to migrate not all your X-Cart 4 orders, but just the latest orders starting from a specific date, it is possible to specify the date using the **Migrate orders from date** field:
-   ![xc5_mw_step5_6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_6.png)
+   ![mw_11.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_11.png)
+
    
    It is also possible to skip any X-Cart 4 store data that has already been migrated previously by enabling the **Skip previously migrated data** option:
-   ![xc5_mw_step5_6_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_6_1.png)
+   ![mw_11_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_11_1.png)
     
    More info on this option is available in the section {% link "How XC4 to XC5 Migration wizard works: Skipping previously migrated data" ref_37NAeGlf#skipping-previously-migrated-data %} of this manual.
    {% endnote %}
     
    To start the migration, click **Start migration**:
-   ![xc5_mw_step5_7.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_7.png)
+   ![mw_12.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_12.png)
  
    The migration process may take a while to complete and only continues while the page is open. Hence be sure to keep the page open or, if you have to close it for a while, be sure to re-open it to allow the migration module to finish its work.
-   ![xc5_mw_step5_8.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_8.png)
+   ![mw_13.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_13.png)
 
    While your data is being migrated from your X-Cart 4 store to X-Cart 5, you will be able to see the progress on the screen. Here are the stages that will have to be completed:
     
@@ -171,7 +172,7 @@ Click on it to launch the migation process:
 ## Step 7 - Complete
    
    This is the final step of the wizard. Your data has been successfully migrated.
-   ![xc5_mw_step6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step6.png)
+   ![mw_14.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_14.png)
    
    <a id="add-label-to-signin-form"></a>
    
@@ -184,7 +185,8 @@ Click on it to launch the migation process:
 In some cases things may not go as smoothly as one would hope during the data migration procedure, e.g. PHP execution may be interrupted. Problems like that tend to be related to the time limit settings of the web server, especially if working on a server with limited resources or on a slow internet connection. If you experience errors causing mid-process interruption of the migration, be sure to increase your server time limit (See {% link "Setting the time limit of your server" ref_xqnpttd4 %}) or decrease the **migration_chunk_length** value in etc/config.local.php (See [How XC4 to XC5 Migration wizard works: Migration process](http://kb.x-cart.com/en/modules/xc4_to_xc5_migration_wizard/how_xc4_to_xc5_migration_wizard_works.html#migration-process "Using the module "XC4 to XC5 Migration wizard"")).
 
 If you wish to do another migration (for example, finish migrating your X-Cart 4 data after testing the migration in the **Demo migration** mode), you can restart the migration wizard using the **Restart wizard** button:
-   ![xc5_mw_step6_restart.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step6_restart.png)
+   ![mw_15.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_15.png)
+
    
 ## Checklist before going live
 
