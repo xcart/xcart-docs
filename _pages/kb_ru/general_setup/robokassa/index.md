@@ -3,9 +3,9 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2018-12-14 15:20 +0400'
 identifier: ref_4uuhiaEM
-title: ''
+title: Робокасса
 order: 100
-published: false
+published: true
 ---
 <!DOCTYPE html>
 <html>
