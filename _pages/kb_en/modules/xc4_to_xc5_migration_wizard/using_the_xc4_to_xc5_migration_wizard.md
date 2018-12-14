@@ -8,7 +8,7 @@ order: 140
 published: true
 ---
 Once the module "XC4 to XC5 Migration wizard" has been installed on your X-Cart 5 store, you get a new item at the top of the Admin area menu - "Migration wizard":
-    ![xc5_mw_menu_item.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_menu_item.png)
+    ![mw_link.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_link.png)
 
 Click on it to launch the migation process:
 
@@ -16,12 +16,13 @@ Click on it to launch the migation process:
     
    At the first step of the wizard, select the check box to confirm that you understand the consequences of using the wizard (namely, that any existing data in your X-Cart 5 store will be overwritten as a result of the migration process). 
    Click **Start migration** to proceed:
-   ![xc5_mw_step1_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step1_1.png)
+   ![mw_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_1.png)
 
 ##  Step 2 - Connect
     
    At the second step of the wizard, specify your X-Cart 4 store database connection details.
-   ![xc5_mw_step2_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step2_1.png)
+   ![mw_2.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_2.png)
+
 
    Start by completing the following fields:
     
@@ -30,7 +31,8 @@ Click on it to launch the migation process:
    *   **Database password**: The password of your MySQL account.
     
    If this set of fields is not enough to provide all the necessary connection details, please use the **Advanced options** section (expands at the click of the respective button): 
-   ![wizard-advanced.png]({{site.baseurl}}/attachments/ref_Ah935naM/wizard-advanced.png)
+   ![mw_3.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_3.png)
+
     
    In the **Advanced options** section, you can enter the following info:
     
@@ -40,7 +42,7 @@ Click on it to launch the migation process:
    *   **Table prefix**: The table prefix used in your X-Cart 4 database (as was specified during X-Cart 4 installation). If you do not remember the table prefix that was used for your X-Cart 4 store, you can look it up in the file init.php of your X-Cart 4.x installation (in X-Cart versions 4.5.3 and later, see the value of `XC_TBL_PREFIX`; in earlier versions - the value of `xcart_tbl_prefix`). The default table prefix for all X-Cart 4 versions is `xcart_`.
     
    After specifying the above details, define the following settings:
-   ![xc5_mw_step2_4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step2_4.png)
+   ![mw_4.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_4.png)
     
    * Encryption key: Your X-Cart 4 store Blowfish key (the secret key needed for access to certain types of data stored in X-Cart 4 in encrypted form, such as user passwords). For more info on X-Cart 4 Blowfish key, see [X-Cart 4 manual](http://help.x-cart.com/index.php?title=X-Cart:Blowfish#Blowfish_key_based_encryption_method "X-Cart 4 manual").
    * Site URL: The URL of your X-Cart 4 store.
