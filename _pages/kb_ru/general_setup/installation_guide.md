@@ -48,15 +48,6 @@ icon: download
  {% note warning %}
  Используйте X-Cart только на NIX серверах. 
  {% endnote %}
-
- {:.ui.compact.celled.small.padded.table} 
- 
- | |**до 2 000 посетителей/месяц**|**2 000-10 000**|**10 000-50 000**|**50 000-100 000**|**свыше 100 000 посетителей/месяц**|
- |**до 1000 артикулов** <br>**до 100 категорий**|VPS hosting<br>- 1 Core<br>- 1 GB RAM (DDR4)|VPS hosting<br>- 1 Core<br>- 2 GB RAM (DDR4) |VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |Выделенный сервер|
- |**до 10 000 артикулов**<br>**до 500 категорий**|VPS hosting <br>- 1 Core<br>- 2 GB RAM (DDR4) |VPS hosting<br>- 1 Core<br>- 2 GB RAM (DDR4)|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |Выделенный сервер|
- |**до 20 000 артикулов**<br>**до 1000 категорий**|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 2 Core<br>- 4 GB RAM (DDR4)|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4)|Выделенный сервер|Выделенный сервер|
- |**до 50 000 артикулов**<br>**до 2000 категорий**|VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4) |VPS hosting<br>- 8 Core<br>- 16 GB RAM (DDR4)|Выделенный сервер|Выделенный сервер|Выделенный сервер|
- |**свыше 50 000 артикулов**<br>**свыше 2000 категорий**|Выделенный сервер|Выделенный сервер|Выделенный сервер|Выделенный сервер|Выделенный сервер|
  
  <table class="ui celled padded compact small table">
   <thead>
@@ -68,19 +59,19 @@ icon: download
   <tbody>
     <tr>
       <td><strong>Каталог</strong></td>
-      <td><strong>до 2 000</strong>
+      <td><strong>до 2.000</strong>
       </td>
-      <td><strong>2 000 - 10 000</strong>
+      <td><strong>2.000 - 10.000</strong>
       </td>
-      <td><strong>10 000 - 50 000</strong>
+      <td><strong>10.000 - 50.000</strong>
       </td>
-      <td><strong>50 000 - 100 000</strong>
+      <td><strong>50.000 - 100.000</strong>
       </td>
-      <td><strong>свыше 100 000</strong>
+      <td><strong>свыше 100.000</strong>
       </td>
     </tr>
     <tr>
-      <td><p><strong>до 1 000 артикулов</strong></p><p><strong>до 100 категорий</strong></p></td>
+      <td><p><strong>до 1.000 артикулов</strong></p><p><strong>до 100 категорий</strong></p></td>
       <td>
         <p>VPS hosting</p>
         <p>- 1 Core</p>
@@ -105,7 +96,7 @@ icon: download
       </td>
     </tr>
     <tr>
-      <td><p><strong>до 10 000 артикулов</strong></p><p><strong>до 500 категорий</strong></p></td>
+      <td><p><strong>до 10.000 артикулов</strong></p><p><strong>до 500 категорий</strong></p></td>
       <td>
         <p>VPS hosting</p>
         <p>- 1 Core</p>
@@ -130,7 +121,7 @@ icon: download
       </td>
     </tr>
     <tr>
-      <td><p><strong>до 20 000 артикулов</strong></p><p><strong>до 1 000 категорий</strong></p></td>
+      <td><p><strong>до 20.000 артикулов</strong></p><p><strong>до 1.000 категорий</strong></p></td>
       <td>
         <p>VPS hosting</p>
         <p>- 2 Core</p>
@@ -152,7 +143,7 @@ icon: download
       </td>
     </tr>
     <tr>
-      <td><p><strong>до 50 000 артикулов</strong></p><p><strong>до 2 000 категорий</strong></p></td>
+      <td><p><strong>до 50.000 артикулов</strong></p><p><strong>до 2.000 категорий</strong></p></td>
       <td>
         <p>VPS hosting</p>
         <p>- 8 Core</p>
@@ -171,7 +162,7 @@ icon: download
       </td>
     </tr>
     <tr>
-      <td><p><strong>свыше 50 000 артикулов</strong></p><p><strong>свыше 2 000 категорий</strong></p></td>
+      <td><p><strong>свыше 50.000 артикулов</strong></p><p><strong>свыше 2.000 категорий</strong></p></td>
       <td>Выделенный сервер
       </td>
       <td>Выделенный сервер
