@@ -51,7 +51,7 @@ Here is the system requirements list:
   <thead>
     <tr>
       <th style="text-align: center;" class="confluenceTh">&nbsp;</th>
-      <th colspan="3" style="text-align: center;" class="confluenceTh">Traffic (Visitors/Month)</th>
+      <th colspan="5" style="text-align: center;" class="confluenceTh">Traffic (Visitors/Month)</th>
     </tr>
   </thead>
   <tbody>
@@ -157,6 +157,42 @@ Here is the system requirements list:
           <li>16 GB RAM (DDR4)</li>
         </ul>
       </td>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      </td>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      </td>
+    </tr>
+    <tr>
+      <th class="confluenceTh"><p>up to 50 000 SKUs</p><p>up to 2000 Categories</p></th>
+      <td class="confluenceTd">
+        <p>VPS hosting</p>
+        <ul style="margin-left: 1.6em;">
+          <li>8 Core</li>
+          <li>16 GB RAM (DDR4)</li>
+        </ul>
+      </td>
+      <td class="confluenceTd">
+        <p>VPS hosting</p>
+        <ul style="margin-left: 1.6em;">
+          <li>8 Core</li>
+          <li>16 GB RAM (DDR4)</li>
+        </ul>
+      </td>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      </td>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      </td>
+      </td>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      </td>
+    </tr>
+    <tr>
+      <th class="confluenceTh"><p>over 50 000 SKUs</p><p>over 2000 Categories</p></th>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      </td>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      </td>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
       </td>
       <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
       </td>
