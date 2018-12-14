@@ -57,19 +57,19 @@ Here is the system requirements list:
   <tbody>
     <tr>
       <td style="text-align: center;" class="confluenceTh">Catalog size</td>
-      <th class="confluenceTh"><span style="color: rgb(0,0,0);">up to 2K </span>
-      </th>
-      <th class="confluenceTh"><span style="color: rgb(0,0,0);">2K-10K</span>
-      </th>
-      <th class="confluenceTh"><span style="color: rgb(0,0,0);">10K-50K</span>
-      </th>
-      <th class="confluenceTh"><span style="color: rgb(0,0,0);">50K-100K</span>
-      </th>
-      <th class="confluenceTh"><span style="color: rgb(0,0,0);">over 100K</span>
-      </th>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">up to 2K </span>
+      </td>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">2K-10K</span>
+      </td>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">10K-50K</span>
+      </td>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">50K-100K</span>
+      </td>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">over 100K</span>
+      </td>
     </tr>
     <tr>
-      <th class="confluenceTd"><p>up to 1000 SKUs</p><p>up to 100 Categories</p></th>
+      <td class="confluenceTd"><p>up to 1000 SKUs</p><p>up to 100 Categories</p></td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
         <p>- 1 Core</p>
@@ -94,7 +94,7 @@ Here is the system requirements list:
       </td>
     </tr>
     <tr>
-      <th class="confluenceTd"><p>up to 10 000 SKUs</p><p>up to 500 Categories</p></th>
+      <td class="confluenceTd"><p>up to 10 000 SKUs</p><p>up to 500 Categories</p></td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
         <p>- 1 Core</p>
@@ -119,7 +119,7 @@ Here is the system requirements list:
       </td>
     </tr>
     <tr>
-      <th class="confluenceTd"><p>up to 20 000 SKUs</p><p>up to 1000 Categories</p></th>
+      <td class="confluenceTd"><p>up to 20 000 SKUs</p><p>up to 1000 Categories</p></td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
         <p>- 2 Core</p>
@@ -141,7 +141,7 @@ Here is the system requirements list:
       </td>
     </tr>
     <tr>
-      <th class="confluenceTd"><p>up to 50 000 SKUs</p><p>up to 2000 Categories</p></th>
+      <td class="confluenceTd"><p>up to 50 000 SKUs</p><p>up to 2000 Categories</p></td>
       <td class="confluenceTd">
         <p>VPS hosting</p>
         <p>- 8 Core</p>
@@ -160,7 +160,7 @@ Here is the system requirements list:
       </td>
     </tr>
     <tr>
-      <th class="confluenceTd"><p>over 50 000 SKUs</p><p>over 2000 Categories</p></th>
+      <td class="confluenceTd"><p>over 50 000 SKUs</p><p>over 2000 Categories</p></td>
       <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
       </td>
       <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
