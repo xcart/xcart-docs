@@ -56,14 +56,14 @@ Here is the system requirements list:
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center;" class="confluenceTh">Catalog size</td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">up to 2K </span>
+      <td><strong>Catalog size</strong></td>
+      <td><strong>up to 2K </strong>
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">2K-10K</span>
+      <td><strong>2K-10K</strong>
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">10K-50K</span>
+      <td><strong>10K-50K</strong>
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">50K-100K</span>
+      <td><strong>50K-100K</strong>
       </td>
       <td class="confluenceTd"><span style="color: rgb(0,0,0);">over 100K</span>
       </td>
