@@ -55,7 +55,7 @@ Click on it to launch the migation process:
    At the third step of the wizard, your X-Cart 5 store tries to connect to the specified X-Cart 4 database using the connection details provided at earlier. 
    
    Provided that the connection details have been specified correctly you should be able to see a summary of information that X-Cart 5 was able to obtain regarding the data that can be migrated from your X-Cart 4 store:
-    ![xc5_mw_step3_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step3_1.png)
+    ![mw_5.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_5.png)
      
    The "Images size" item shows the amount of space taken by the X-Cart 4 store images (in Mbytes). If you are going to migrate the images, be sure to check that you have a sufficient amount of disk space on your X-Cart 5 store hosting for them.
 
@@ -66,10 +66,10 @@ Click on it to launch the migation process:
    At the fourth step of the wizard, you will see a list of data types that can be migrated from your X-Cart 4 store to X-Cart 5 ("What to transfer"), with check boxes.
    
    Use the check boxes to select the data types that you want to be migrated to X-Cart 5, then click **Save and continue**:
-   ![xc5_mw_step4_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_1.png)
+   ![mw_6.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_6.png)
 
    If you wish to just try the migration in demo mode this time, select the **Demo migration** option at the top of the page:
-   ![xc5_mw_step4_3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step4_3.png)
+   ![mw_7.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_7.png)
     
    Click **Save and continue**.
     
@@ -80,7 +80,7 @@ Click on it to launch the migation process:
 ##  Step 5 - Enable
     
    At the fifth step of the wizard, X-Cart will provide you with a list of X-Cart 5 modules that should be enabled if the wizard detects that your X-Cart 4 installation has features that are lacking in the default X-Cart 5 distribution pack but can be added by enabling certain X-Cart 5 modules:
-   ![xc5_mw_step5_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_1.png)
+   ![mw_8.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_8.png)
 
    Click **Enable and continue**.
 
