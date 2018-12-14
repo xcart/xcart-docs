@@ -198,32 +198,19 @@ For more info on using the addon, see {% link "Related Products" ref_4a5rpsQq %}
 For showing related products in the Add to cart popup, you will also need the addon [Add to Cart Popup](https://market.x-cart.com/addons/add-to-cart-popup.html).
 For more info on using the addon, see {% link "Add to Cart PopUp Module" ref_1iGC8Efj %}.
 
-### Change the set of tabs displayed on the product page in the Customer area
-X-Cart uses the **Product tabs** feature to present the detailed product info to the customers in the most suitable format. 
+### Change the set of tabs displayed on the product page on the storefront
+X-Cart uses the product tabs feature to present the detailed product information to the store visitors in the most suitable format. 
 ![tabs-cus.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/tabs-cus.png)
 
-The set of product tabs displayed to a customer is defined in the **Tabs** tab:
+By default the standard set of product tabs is as follows:
+   * **Description** : Shows the product SKU, weight and detailed product description
+   * **Specification** : Shows the info about all available {% link "product options and attributes " ref_uaJk8ete %}
+   * **Comments** : Shows the customer comments on a product added via special modules (Go social, Disqus, VK comments, etc.)
+   * **Reviews** : Shows an {% link "average rating" ref_XBriIS6B %} of a product if it was rated and customer reviews (if any).  
+   
+If necessary, you can change the set of tabs used on your store's product details pages; for example, it is possible to hide any tab you do not need, change the order in which the tabs appear or add more tabs of your own. 
 
-![tabs-adm.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/tabs-adm.png)
-
-The product tabs can be _global_ (applied to all exisiting products in the **Catalog** -> **Product tabs** section) and _product specific_ (applied to a particular product in the **Tabs** tab of the product details page).
-
-To create a product specific product tab click the **New tab** button and fill in the tab name, content and brief info (if applicable) on the page that opens. 
-![new-product-tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/new-product-tab.png)
-
-Click **Create** to add a product tab and stay on the product tab page or **Save and close** to add a product tab and be redirected back to the **Tabs** tab of the product details page.
-![new-octorus-tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/new-octorus-tab.png)
-
-Global product tabs are managed in the **Catalog** -> **Product tabs** section:
-![product-tabs.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/product-tabs.png)
-
-The default global product tabs are:
-* **Description** : Shows the product SKU, weight and detailed product description
-* **Specification** : Shows the info about all available {% link "product options and attributes " ref_uaJk8ete %}
-* **Comments** : Shows the customer comments on a product added via special modules (Go social, Disqus, VK comments, etc.)
-* **Reviews** : Shows an {% link "average rating" ref_XBriIS6B %} of a product if it was rated and customer reviews (if any).   
-
-The default global product tabs can't be deleted and can only be hidden if required. The rest of the tabs are added by the {% link "Custom Product Tabs" ref_2JzbMU2q %} module and can be enabled, disabled and deleted if necessary. 
+Product tab management is enabled by the addon [Custom Product Tabs](https://market.x-cart.com/addons/custom-product-tabs.html). For more info on using the addon, see {% link "Custom Product Tabs" ref_2JzbMU2q %}. 
 
 ### Add PIN codes to the product
 If you need to sell stuff like licenses, enrollment keys, PIN codes, serial numbers, activation codes and passwords, phone cards and access codes, you may want to use the addon [PIN Codes](https://market.x-cart.com/addons/pin-codes.html "PIN Codes Module"). This addon will enable you to attach PIN codes to your existing product via the "PIN codes" tab:
