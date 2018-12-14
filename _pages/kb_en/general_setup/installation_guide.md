@@ -47,6 +47,10 @@ Here is the system requirements list:
 
 ### Hardware requirements
 
+{% note warning %}
+Use X-Cart on NIX-based servers only!
+{% endnote %}
+
 <table class="ui celled padded compact small table">
   <thead>
     <tr>
