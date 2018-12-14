@@ -11,7 +11,7 @@ If the set of product page tabs used in your store by default does not meet your
 
 ![module-enabled.png]({{site.baseurl}}/attachments/ref_2JzbMU2q/module-enabled.png)
 
-With this addon {% link "enabled" ref_uEnDBBA7 %}, you will be able to specify which of the standard X-Cart store tabs should be displayed on the product page and in what order; if you need more tabs, you will also be able to add custom tabs of your own.
+With this addon {% link "enabled" ref_uEnDBBA7 %} you will be able to specify which of the standard X-Cart store tabs should be displayed on the product page and in what order; if you need more tabs, you will also be able to add custom tabs of your own.
 ![tabs-cus.png]({{site.baseurl}}/attachments/ref_2JzbMU2q/tabs-cus.png)
 
 You will be able to manage the tabs displayed on the product page on the storefront:
