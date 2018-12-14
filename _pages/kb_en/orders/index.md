@@ -28,6 +28,7 @@ When an order is processed you need to {% link "ship" ref_7tvT7GEK %} it and man
 
 *   {% link "Managing Orders in X-Cart" ref_6q6Mj9CC %}
 *   {% link "Managing X-Cart order statuses (X-Cart 5.2.7 and later)" ref_7FIU2sxJ %}
+*   {% link "Packing Slips" ref_2mocNY5w %}
 *   {% link "Adding new shipping/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}
 *   {% link "Not Finished Orders" ref_5TMbPwNQ %}
 *   {% link "Order Returns" ref_30bVFfXt %}
