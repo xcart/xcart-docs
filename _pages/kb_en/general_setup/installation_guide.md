@@ -57,7 +57,7 @@ Here is the system requirements list:
   <tbody>
     <tr>
       <td><strong>Catalog size</strong></td>
-      <td><strong>up to 2K </strong>
+      <td><strong>up to 2K</strong>
       </td>
       <td><strong>2K-10K</strong>
       </td>
@@ -65,111 +65,111 @@ Here is the system requirements list:
       </td>
       <td><strong>50K-100K</strong>
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">over 100K</span>
+      <td><strong>over 100K</strong>
       </td>
     </tr>
     <tr>
-      <td class="confluenceTd"><p>up to 1000 SKUs</p><p>up to 100 Categories</p></td>
-      <td class="confluenceTd">
+      <td><p><strong>up to 1000 SKUs</strong></p><p><strong>up to 100 Categories</strong></p></td>
+      <td>
         <p>VPS hosting</p>
         <p>- 1 Core</p>
         <p>- 1 GB RAM (DDR4)</p>
       </td>
-      <td class="confluenceTd">
+      <td>
         <p>VPS hosting</p>
         <p>- 1 Core</p>
           <p>- 2 GB RAM (DDR4)</p>
       </td>
-      <td class="confluenceTd">
+      <td>
         <p>VPS hosting</p>
         <p>- 2 Core</p>
         <p>- 4 GB RAM (DDR4)</p>
       </td>
-      <td class="confluenceTd">
+      <td>
         <p>VPS hosting</p>
         <p>- 8 Core</p>
           <p>- 16 GB RAM (DDR4)</p>
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      <td>Dedicated server
       </td>
     </tr>
     <tr>
-      <td class="confluenceTd"><p>up to 10 000 SKUs</p><p>up to 500 Categories</p></td>
-      <td class="confluenceTd">
+      <td><p><strong>up to 10 000 SKUs</strong></p><p><strong>up to 500 Categories</strong></p></td>
+      <td>
         <p>VPS hosting</p>
         <p>- 1 Core</p>
         <p>- 2 GB RAM (DDR4)</p>
       </td>
-      <td class="confluenceTd">
+      <td>
         <p>VPS hosting</p>
         <p>- 1 Core</p>
           <p>- 2 GB RAM (DDR4)</p>
       </td>
-      <td class="confluenceTd">
+      <td>
         <p>VPS hosting</p>
         <p>- 2 Core</p>
           <p>- 4 GB RAM (DDR4)</p>
       </td>
-      <td class="confluenceTd">
+      <td>
         <p>VPS hosting</p>
         <p>- 8 Core</p>
           <p>- 16 GB RAM (DDR4)</p>
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      <td>Dedicated server
       </td>
     </tr>
     <tr>
-      <td class="confluenceTd"><p>up to 20 000 SKUs</p><p>up to 1000 Categories</p></td>
-      <td class="confluenceTd">
+      <td><p><strong>up to 20 000 SKUs</strong></p><p><strong>up to 1000 Categories</strong></p></td>
+      <td>
         <p>VPS hosting</p>
         <p>- 2 Core</p>
           <p>- 4 GB RAM (DDR4)</p>
       </td>
-      <td class="confluenceTd">
+      <td>
         <p>VPS hosting</p>
         <p>- 2 Core</p>
           <p>- 4 GB RAM (DDR4)</p>
       </td>
-      <td class="confluenceTd">
+      <td>
         <p>VPS hosting</p>
         <p>- 8 Core</p>
           <p>- 16 GB RAM (DDR4)</p>
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      <td>Dedicated server
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      <td>Dedicated server
       </td>
     </tr>
     <tr>
-      <td class="confluenceTd"><p>up to 50 000 SKUs</p><p>up to 2000 Categories</p></td>
-      <td class="confluenceTd">
+      <td><p><strong>up to 50 000 SKUs</strong></p><p><strong>up to 2000 Categories</strong></p></td>
+      <td>
         <p>VPS hosting</p>
         <p>- 8 Core</p>
           <p>- 16 GB RAM (DDR4)</p>
       </td>
-      <td class="confluenceTd">
+      <td>
         <p>VPS hosting</p>
         <p>- 8 Core</p>
           <p>- 16 GB RAM (DDR4)</p>
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      <td>Dedicated server
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      <td>Dedicated server
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      <td>Dedicated server
       </td>
     </tr>
     <tr>
-      <td class="confluenceTd"><p>over 50 000 SKUs</p><p>over 2000 Categories</p></td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      <td><p><strong>over 50 000 SKUs</strong></p><p><strong>over 2000 Categories</strong></p></td>
+      <td>Dedicated server
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      <td>Dedicated server
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      <td>Dedicated server
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      <td>Dedicated server
       </td>
-      <td class="confluenceTd"><span style="color: rgb(0,0,0);">Dedicated server</span>
+      <td>Dedicated server
       </td>
     </tr>
   </tbody>
