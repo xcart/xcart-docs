@@ -5,7 +5,7 @@ updated_at: '2018-12-14 09:30 +0400'
 identifier: ref_2mocNY5w
 title: Packing Slips
 order: 31
-published: false
+published: true
 ---
 When you are fulfilling orders, you might want to include a packing slip in the package that you're sending to your customer. Packing slips provide important details about the order such as the to/from address and order contents and are often one of the first things a customer sees when opening their package. Hence packing slips are a great way to communicate what has been sent to the customer and provide value beyond the sale.
 
