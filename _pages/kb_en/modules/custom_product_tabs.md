@@ -37,12 +37,13 @@ To add a new global product tab:
       
       A new global product tab will be added to both the **Product tabs** section and the **Tabs** section of each product respectively the tab position being preserved as set in **Product tabs**:
       
-     <div class="ui stackable two column grid">
+   <div class="ui stackable two column grid">
        <div class="column" markdown="span">![mynewtab.png]({{site.baseurl}}/attachments/ref_2JzbMU2q/mynewtab.png)</div>
        <div class="column" markdown="span">![mynewtab-product.png]({{site.baseurl}}/attachments/ref_2JzbMU2q/mynewtab-product.png)</div>
-     </div>
+   </div>
      
-    Any changes applied to the global product tabs (sorting and viewing options) will affect the newly created products only. If you want the changes to affect all existing products, enable the option **Apply sort and view settings for all products** before saving the changes.
+     
+   Any changes applied to the global product tabs (sorting and viewing options) will affect the newly created products only. If you want the changes to be applied to all the existing products, enable the option **Apply sort and view settings for all products** before saving the changes.
     ![apply-sort.png]({{site.baseurl}}/attachments/ref_2JzbMU2q/apply-sort.png)
 
 
