@@ -131,7 +131,7 @@ The settings in this section allow you to specify the default option values for 
 
 ![settings-7.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-7.png)
 
-For detailed information on Canada Post rules and practices, please refer to the [Canada Postal Guide](http://kb.x-cart.com/www.canadapost.ca/postalguide).
+For detailed information on Canada Post rules and practices, please refer to the [Canada Postal Guide](http://www.canadapost.ca/postalguide).
 
 _Related pages:_
 
