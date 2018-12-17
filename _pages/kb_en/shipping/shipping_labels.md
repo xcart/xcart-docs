@@ -5,7 +5,7 @@ updated_at: '2018-12-14 09:21 +0400'
 identifier: ref_7p59HzrS
 title: 'Shipping Labels '
 order: 220
-published: false
+published: true
 ---
 Shipping labels provide key information to each actor of your supply chain to move your package from one hand to another, from the warehouse to your customer’s doorstep. Hence using shipping labels simplifies the delivery process and makes it straightforward. 
 
@@ -20,4 +20,3 @@ X-Cart is integrated with the following carrier providers that support shipping 
 * {% link "ShippingEasy" ref_HTml5LyW %}
 * {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 * {% link "Royal Mail Service" ref_2gtSkN9y %}
-
