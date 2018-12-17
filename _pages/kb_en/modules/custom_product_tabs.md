@@ -36,6 +36,7 @@ To add a new global product tab:
       Click **Save and close** to save the tab and be redirected back.
       
       A new global product tab will be added to both the **Product tabs** section and the **Tabs** section of each product respectively the tab position being preserved as set in **Product tabs**:
+      
      <div class="ui stackable two column grid">
        <div class="column" markdown="span">![mynewtab.png]({{site.baseurl}}/attachments/ref_2JzbMU2q/mynewtab.png)</div>
        <div class="column" markdown="span">![mynewtab-product.png]({{site.baseurl}}/attachments/ref_2JzbMU2q/mynewtab-product.png)</div>
