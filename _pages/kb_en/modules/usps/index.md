@@ -5,7 +5,7 @@ updated_at: '2018-12-17 11:32 +0400'
 identifier: ref_158tuAaD
 title: U.S.P.S.
 order: 320
-published: false
+published: true
 ---
 X-Cart is integrated with U.S.P.S. carrier services via the [U.S.P.S. module](https://market.x-cart.com/addons/usps.html "U.S.P.S.") and allows to communicate with USPS API in two possible ways to retrieve shipping rates:
 
@@ -27,4 +27,4 @@ X-Cart is integrated with U.S.P.S. carrier services via the [U.S.P.S. module](ht
    
    To start using the U.S.P.S. module install it as described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
    
-   *  
+   *
