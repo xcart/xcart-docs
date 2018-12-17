@@ -46,3 +46,4 @@ _In this section:_
 *   {% link "Handling fee" ref_nFJTxPMR %}
 *   {% link "Shipping setup for downloadable products" ref_z5KmbFAu %}
 *   {% link "Shipping Tax" ref_4nZM0iOX %}
+*   {% link "Shipping Labels " ref_7p59HzrS %}
