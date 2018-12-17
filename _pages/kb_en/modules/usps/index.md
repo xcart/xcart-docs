@@ -19,10 +19,10 @@ X-Cart is integrated with U.S.P.S. carrier services via the [U.S.P.S. module](ht
 
    With the X-Cart Pitney Bowes integration you'll get:
    - competitive, discounted USPS pricing (savings up to 20% on retail USPS rates and up to 49% on the other major carriers); 
-   - printing shipping labels with ease and tracking USPS shipments from origin to delivery;
-   - ensures that packages reach their intended destinations with automatic address verification;
-   - a possibility toidentify USPS shipping services cost and estimated delivery time;
+   - automatic address verification;
    - daily shipping manifests to speed carrier processing;
+   - a possibility to print shipping labels with ease and track USPS shipments from origin to delivery;
+   - a possibility to identify USPS shipping services cost and estimated delivery time;
    - a possibility to manage refunds and cancellations.
    
 
