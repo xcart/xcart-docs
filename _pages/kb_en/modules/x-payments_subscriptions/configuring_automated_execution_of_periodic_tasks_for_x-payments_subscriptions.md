@@ -28,7 +28,7 @@ every 24 hours. You can set up the respective cron job by manually editing the 
 The recommended setup for running the script console.php via crontab is as follows:
 
 ```php
-0 0 * * * cd /path/to/xcart_dir;  /path/to/php/bin -f php console.php --target=x_payments_subscriptions_cron
+0 0 * * * cd /path/to/xcart_dir;  /path/to/php/bin -f console.php --target=x_payments_subscriptions_cron
 ```
 
 *   0 0 * * * - to run the script every day
