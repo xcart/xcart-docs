@@ -25,6 +25,8 @@ X-Cart is integrated with U.S.P.S. carrier services via the [U.S.P.S. module](ht
    - daily shipping manifests to speed carrier processing;
    - a possibility to manage refunds and cancellations.
    
-   To start using the U.S.P.S. module install it as described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
+
+To start using the U.S.P.S. module install it as described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
    
-   *
+   *  {% link "U.S.P.S. General Configuration" ref_whrpZnV3 %}
+   *  U.S.P.S. Shipments (uder construction)
