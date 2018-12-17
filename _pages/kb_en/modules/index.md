@@ -107,7 +107,7 @@ _In this section:_
 *   {% link "Two Factor Authentication" ref_30a8vM7c %}
 *   {% link "Update Inventory" ref_uSIvmuTh %}
 *   {% link "UPS" ref_0uCGd6Bs %}
-*   {% link "U.S.P.S." ref_whrpZnV3 %}
+*   {% link "U.S.P.S." ref_158tuAaD %}
 *   {% link "Variants Table View" ref_7FeW8hHv %}
 *   {% link "Volume Discounts" ref_3JbpQrPF %}
 *   {% link "Wholesale module" ref_ttZa4qgu %}
