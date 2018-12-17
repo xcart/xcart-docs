@@ -41,20 +41,26 @@ These are the most important settings, and after you specify them your X-Cart wi
 
 ![pitney.png]({{site.baseurl}}/attachments/ref_whrpZnV3/pitney.png)
 
-If you decide to use USPS via Pitney Bowes you'll need to register an account with https://www.pbshippingmerchant.pitneybowes.com/accountInfo and then specify the email ypu used during the rigistration in the **'PitneyBowes merchant emailId'** field. 
+If you decide to use USPS via Pitney Bowes you'll need to register an account with https://www.pbshippingmerchant.pitneybowes.com/accountInfo and then specify the email you used during the rigistration in the **'PitneyBowes merchant emailId'** field. 
 
 If you already have an account with Pitney Bowes no additional registration is required, just fill in the **'PitneyBowes merchant emailId'** field with the registered email.
+
+{% note info %}
+Configuring U.S.P.S. via Pitney Bowes allows using integrated shipping labels.
+{% endnote %}
 
 If you prefer to use plain USPS, choose the USPS option in the drop-down and fill in the fields
 
 ![usps.png]({{site.baseurl}}/attachments/ref_whrpZnV3/usps.png)
 
-You simply need to specify your **User ID** provided by USPS as well as **USPS API server URL**. Enter the URL provided to you by U.S.P.S. in the notification about your successful registration for the U. S. Postal Service's Web Tools Application Program Interfaces. For example:
+You simply need to specify your **User ID** provided by USPS as well as **USPS API server URL**. 
+
+Enter the URL provided to you by U.S.P.S. in the notification about your successful registration for the U.S. Postal Service's Web Tools Application Program Interfaces. For example:
 http://stg-production.shippingapis.com/ShippingApi.dll
 http://production.shippingapis.com/ShippingAPI.dll
 
 {% note info %}
-If you experience a problem that USPS worked fine in test mode, but does not work properly in live mode (usually you receive the **API Authorization failure. RateV4 is not a valid API name for this protocol** error message), you should [contact USPS](https://www.usps.com/help/contact-us.htm)_ _support staff and ask them to transfer your account to production server._
+If you experience a problem that USPS worked fine in test mode, but does not work properly in live mode (usually you receive the **API Authorization failure. RateV4 is not a valid API name for this protocol** error message), you should [contact USPS support staff](https://www.usps.com/help/contact-us.htm) and ask them to transfer your account to production server.
 {% endnote %}
 
 ## Common options
