@@ -9,7 +9,7 @@ published: true
 ---
 If U.S.P.S. delivery is set-up via Pitney Bowes services a store admin can create shipments to get an order tracking number and shipping label to attach them to the order. 
 
-First of all, a store admin should open the order details page (Orders -> Orders list) and locate the _USPS shipments_ tab there:
+First of all, a store admin should open the order details page (**Orders** -> **Orders list**) and locate the _USPS shipments_ tab there:
 
 ![adm-order-details.png]({{site.baseurl}}/attachments/ref_0TwynAXE/adm-order-details.png)
 
@@ -45,8 +45,8 @@ Click **Create shipment** after all options have been specified.
 Shipment info is displayed at the top of the **USPS Shipments** tab and looks as follows:
 ![adm-shipment-created.png]({{site.baseurl}}/attachments/ref_0TwynAXE/adm-shipment-created.png)
 
-* Shipment ID that contains the general shipping info (date, shipping method name, package weight and size)
-* Order tracking number that is also automatically added to the general info tab
+* Shipment ID contains the general shipping info (date, shipping method name, package weight and size)
+* Order tracking number is also automatically added to the general info tab
   ![adm-order-details-tracking-number.png]({{site.baseurl}}/attachments/ref_0TwynAXE/adm-order-details-tracking-number.png)
 * Delivery cost
 
