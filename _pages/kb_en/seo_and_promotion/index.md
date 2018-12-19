@@ -42,4 +42,4 @@ Use newsletters to reach your customers and share news about your store and sale
 *   {% link "Promote Sales with User Memberships" ref_memberships_ext %}
 *   {% link "Promoting Sales with Newsletters" ref_1YvPiQr5 %}
 *   {% link "Special Offers" ref_special_offers %}
-
+*   {% link "Marketing Campaigns" ref_2fLbUtdZ %}
