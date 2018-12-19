@@ -63,8 +63,6 @@ http://production.shippingapis.com/ShippingAPI.dll
 If you experience a problem that USPS worked fine in test mode, but does not work properly in live mode (usually you receive the **API Authorization failure. RateV4 is not a valid API name for this protocol** error message), you should [contact USPS support staff](https://www.usps.com/help/contact-us.htm) and ask them to transfer your account to production server.
 {% endnote %}
 
-The following settings will differ depending on the U.S.P.S. shipping method you've chosen:
-
 ## Common options
 
 These are the options that will be applied to both domestic and international shipments.
@@ -147,4 +145,3 @@ These are some options that are helpful, but do not affect shipping rates calcul
 *   **Auto enable new USPS shipping methods**: This option will automatically add all new USPS shipping methods to your system. They will not be enabled for customers automatically though.
 
 Don't forget to save the changes when the USPS shipping configuration is complete.
-
