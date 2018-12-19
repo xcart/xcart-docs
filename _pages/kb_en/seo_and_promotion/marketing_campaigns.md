@@ -9,7 +9,7 @@ published: true
 ---
 In order for businesses to win market share and stay relevant they need to consider many types of marketing strategies. Each marketing strategy can communicate to a target market the benefits and features of a product.
 
-Marketing strategies are based on well planned marketing campaigns along with other marketing tools that help a merchant to connect with customers, increase brand awareness, and skyrocket revenue.
+[Marketing strategies](https://www.x-cart.com/blog/content-strategy.html "Marketing Campaigns") are based on well planned marketing campaigns along with other marketing tools that help a merchant to connect with customers, increase brand awareness, and skyrocket revenue.
 
 Marketing campaigns are defined sets of activities that promote a product or sale over a specific time through marketing channels like paid advertising, social media, and {% link "email campaigns" ref_1YvPiQr5 %}. 
 
