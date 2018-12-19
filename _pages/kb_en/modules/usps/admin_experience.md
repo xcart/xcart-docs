@@ -41,3 +41,19 @@ The USPS shipments tab allows the store admin to specify the shipment details an
    * **Shipping label sender signature** : Adds the sender’s signature and the date on CN22 and CP72 shipping labels. Enter the signature as a string. The Sender’s signature date is automatically populated.
 
 Click **Create shipment** after all options have been specified. 
+
+Shipment info is displayed at the top of the **USPS Shipments** tab and looks as follows:
+![adm-shipment-created.png]({{site.baseurl}}/attachments/ref_0TwynAXE/adm-shipment-created.png)
+
+* Shipment ID that contains the general shipping info (date, shipping method name, package weight and size)
+* Order tracking number that is also automatically added to the general info tab
+  ![adm-order-details-tracking-number.png]({{site.baseurl}}/attachments/ref_0TwynAXE/adm-order-details-tracking-number.png)
+* Delivery cost
+
+Using the shipment tab a store admin can:
+
+* Print a shipping label 
+  ![adm-shipping-label.png]({{site.baseurl}}/attachments/ref_0TwynAXE/adm-shipping-label.png)
+
+* Update tracking info 
+* Void shipment
