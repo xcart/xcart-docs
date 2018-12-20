@@ -41,7 +41,7 @@ This article explains how to set up and enable sales tax calculation using the S
 
 ## Configuring sales tax
 
-1.  Open the the **Sales tax** tab of the **Taxes** section (**Store setup** > **Taxes**) in the X-Cart admin area.
+1.  Open the **Sales tax** tab of the **Taxes** section (**Store setup** > **Taxes**) in the X-Cart admin area.
     ![tax-sales.png]({{site.baseurl}}/attachments/ref_aJPK4DHN/tax-sales.png)
     
 2.  Configure the tax options in the **Common tax settings** section:
