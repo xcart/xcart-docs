@@ -9,6 +9,8 @@ published: true
 ---
 The module [Add to Cart Popup](https://market.x-cart.com/addons/add-to-cart-popup.html) for X-Cart is an extension that improves the shopping experience of your store site visitors by showing to them a popup with what they have just added to their shopping cart, as well as a list of "You may also like"-type of product recommendations. 
 
+![customer.png]({{site.baseurl}}/attachments/ref_1iGC8Efj/customer.png)
+
 The popup is triggered by a shopper clicking the "Buy now"/ "Add to cart" button or drag'n'dropping an item to the cart. The popup provides an instant confirmation of the shopper's add-to-cart action giving the shopper an assurance that the product has been added to their shopping cart successfully. In addition to that, the popup functions as an upselling / cross-selling tool that can provide the shopper with further recommendations as to what other products they may choose to buy. The popup provides convenient site navigation options allowing the shopper to proceed directly to checkout, to continue shopping or to go to the shopping cart page.
 
 To use the Add to Cart Popup module, you need to make sure it is installed and enabled. For module installation instructions, see {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once the module has been installed and enabled, it needs to be configured. To configure the module, proceed to the module _Settings_ page:
@@ -26,7 +28,5 @@ The default settings are to show random products in the popup and show the popup
 If you have {% link "Product Advisor" ref_72asis58 %} and Related Products modules installed and enabled you can also show related products and/or products bought with this item by other customers. Just enable the options and set the priority of displaying by drag-n-dropping the settings. The options will be displayed in the order of appearance.
 
 Your customers can proceed to checkout directly from the popup. 
-
-![customer.png]({{site.baseurl}}/attachments/ref_1iGC8Efj/customer.png)
 
 They also have the option to continue shopping by closing the popup or get interested in the products it recommends, and either add it to cart or view the product details page.
