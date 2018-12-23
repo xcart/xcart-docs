@@ -7,11 +7,11 @@ title: Add to Cart PopUp Module
 order: 15
 published: true
 ---
-Improve shopping experience by displaying the add-to-cart action confirmation where it cannot go unnoticed by the customer - in a popup, right before the customer's eyes, which gives the customer assurance that everything is going the right way.
+The module [Add to Cart Popup](https://market.x-cart.com/addons/add-to-cart-popup.html) for X-Cart is an extension that improves the shopping experience of your store site visitors by showing to them a popup with what they have just added to their shopping cart, as well as a list of "You may also like"-type of product recommendations. 
 
-The Add to cart module is a free module available in X-Cart Business, Multivendor and Ultimate that optimizes your store website for higher conversion rates and is an effective upselling and cross-selling tool, that displays 3 recommended products.
+The popup is triggered by a shopper clicking the "Buy now"/ "Add to cart" button or drag'n'dropping an item to the cart. The popup provides an instant confirmation of the shopper's add-to-cart action giving the shopper an assurance that the product has been added to their shopping cart successfully. In addition to that, the popup functions as an upselling / cross-selling tool that can provide the shopper with further recommendations as to what other products they may choose to buy. The popup provides convenient site navigation options allowing the shopper to proceed directly to checkout, to continue shopping or to go to the shopping cart page.
 
-To configure the Add to cart module you should have it installed and enabled as described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once enabled proceed to the module _Settings_ page:
+To use the Add to Cart Popup module, you need to make sure it is installed and enabled. For module installation instructions, see {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once the module has been installed and enabled, it needs to be configured. To configure the module, proceed to the module _Settings_ page:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_1iGC8Efj/settings.png)
 
