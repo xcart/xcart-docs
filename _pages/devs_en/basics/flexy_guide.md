@@ -140,7 +140,7 @@ You can also create output filter yourself. The mod below will give you an examp
 
 ### Including templates and widgets
 
-If you want to include another template into your one, you can do it as follows: 
+If you want to include another template into a template of yours, you can do it as follows: 
 
 ```php
 <widget template="path/to/template.tpl" />
@@ -249,9 +249,9 @@ Now, it is time to test our output filter in action. We go to our `<X-Cart>/ski
 
 **I am an example string** is our test string.
 
-Then, we have to re-deploy the store and once the process is finished, we should go to the `cart.php?target=output_filter` page and we will see the following result: ![]({{site.baseurl}}/attachments/8225410/8356193.png)
+Then, we have to re-deploy the store and once the process is finished, we should go to the page `cart.php?target=output_filter` and we will see the following result: ![]({{site.baseurl}}/attachments/8225410/8356193.png)
 
-As you can see all spaces have been removed from our test string.
+As you can see, all the spaces have been removed from our test string.
 
 ### Module pack
 
