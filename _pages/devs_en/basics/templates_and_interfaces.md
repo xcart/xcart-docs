@@ -16,7 +16,7 @@ Templates in X-Cart are rendered with *built-in rendering engine*. Rendering eng
 
 Flexy template engine was used in X-Cart 5.0 - 5.2 versions. You can read more about it at the {% link "Flexy template engine guide" ref_VcuME8xW %}.
 
-Starting with X-Cart 5.3, default rendering system is [Twig](http://twig.sensiolabs.org). It has been extended with some X-Cart specific features, which are described at {% link 'Custom features with Twig template engine' ref_twigguide %} guide.
+Starting with X-Cart 5.3, default rendering system is [Twig](http://twig.sensiolabs.org). It has been extended with some X-Cart specific features, which are described at {% link "Custom features with Twig template engine" ref_twigguide %} guide.
 
 ## Table of contents
 
