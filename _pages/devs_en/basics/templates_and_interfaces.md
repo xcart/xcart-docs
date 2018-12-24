@@ -10,7 +10,7 @@ published: true
 
 ## Introduction
 
-Templates are the part of X-Cart view layer. They define exactly how the content is shown on a page -- basically, templates present HTML code. In most cases, templates *should not contain any logic* whether they will or will not be rendered, this is typically handled by the corresponding {% link 'View classes' ref_6dMJsZ63 %}. 
+Templates are the part of X-Cart view layer. They define exactly how the content is shown on a page -- basically, templates present HTML code. In most cases, templates *should not contain any logic* whether they will or will not be rendered, this is typically handled by the corresponding {% link "View classes" ref_6dMJsZ63 %}. 
 
 Templates in X-Cart are rendered with *built-in rendering engine*. Rendering engine allows to combine static HTML code with dynamic data, provided by View class. Also, the engine helps to automate code generation with the most basic conditional and loop operators. Data preprocessing should still be handled by the View class to separate two different concerns and allow a more maintainable software.
 
