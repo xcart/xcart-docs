@@ -9,7 +9,7 @@ order: 56
 categories:
   - Developer docs
   - Demo module
-published: false
+published: true
 ---
 
 ## Introduction
