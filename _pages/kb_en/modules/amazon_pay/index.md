@@ -10,6 +10,7 @@ published: true
 order: 20
 redirect_from:
   - /modules/pay_with_amazon/index.html
+  - /modules/amazon_pay.html
 ---
 
 
