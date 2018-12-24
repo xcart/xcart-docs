@@ -23,7 +23,11 @@ To configure the module, you need to adjust the following settings:
 
 The setting at the top of the page - **Enable a popup after a product is added to cart via drag-n-drop** - enables you to adjust the module behavior as to whether the Add to Cart popup should be displayed after a product has been added to the shopping cart using the drag'n'drop feature. By default, this setting is enabled, which means the Add to Cart popup will be shown to customers who have just added something to their cart via drag'n'drop. If, however, you feel that your customers might be vexed with the popup showing up in this context, you may prefer to disable the use of the popup with drag'n'drop by disabling the setting.
    
-Another important decision that you will need to make while adjusting the module settings is whether you would like to provide product recommendations in the Add to Cart popup, and, if so, what type of products should be used as a source for such recommendations. By default, the Add to Cart popup will provide recommendations based on randomly selected products. If you are also using the modules {% link "Product Advisor" ref_72asis58 %} and/or Related Products, you will be able to choose other sources for product recommendations:
+Another important decision that you will need to make while adjusting the module settings is whether you would like to provide product recommendations in the Add to Cart popup, and, if so, what type of products should be used as a source of such recommendations. 
+
+By default, the Add to Cart popup will provide recommendations based on randomly selected products (This corresponds to the enabled source _Random products_). If you do not want any recommendations to be provided, you need to disable the source. 
+
+If you are using the modules {% link "Product Advisor" ref_72asis58 %} and/or {% "Related Products" ref_4a5rpsQq %}, you will be able to choose other sources for product recommendations:
 
    * **Customers who bought this product also bought (Product Advisor module)**
    * **Related products (Related Products module)**
