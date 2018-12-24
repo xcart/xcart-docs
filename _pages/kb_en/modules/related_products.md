@@ -11,7 +11,7 @@ redirect_from:
 ---
 You can configure your X-Cart 5 store to show a block with the related products (alternatives or additional items) - the so-called “Related Products” block. This feature is available through the use of the **Related Products** module by X-Cart team. To use the feature, make sure this module {% link "installed and enabled" ref_uEnDBBA7 %}.
 
-Using the related products feature you can: 
+By using the related products feature you can: 
 * encourage the customer viewing a product to spend more money by buying a more expensive alternative to the product being viewed;
 * remind the customer about other popular things in which they may be interested (extensions, accessories, warranties, etc.) or recommend related products from other categories; 
 * display recommended items in the add-to-cart popup (provided that the "Add to Cart Popup" addon is enabled).
@@ -23,7 +23,7 @@ And here's an example of how related products can be used as a source of items f
 ![xc5_products_related_products1.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_products_related_products1.png)
 (More info on how to enable this feature can be found in the section {% link "Add to Cart PopUp Module" ref_1iGC8Efj %})
 
-An upselling link can lead in a single direction (from product A to product B), or be bidirectional (pointing both ways, from product A to product B and from product B to product A). In the former case, product B will show up as related on the page of product A, but if we go to the page of product B, we won't see the product A in the 'Related products' block. In the latter case, product B will show up as related to product A and vice versa.
+An upselling link can lead in a single direction (from Product A to Product B), or be bidirectional (pointing both ways, from Product A to Product B and from Product B to Product A). In the former case, Product B will show up as related on the page of Product A, but if we go to the page of Product B, we won't see the Product A in the 'Related products' block. In the latter case, Product B will show up as related to Product A, and vice versa.
 
 To configure related products:
 
