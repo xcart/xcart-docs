@@ -9,12 +9,12 @@ published: true
 redirect_from:
   - /products/related_products.html
 ---
-You can configure your X-Cart 5 store to show a block with the related products (alternatives or additional items) - the so-called “Related Products” block. This feature is available through the use of the **Related Products** module by X-Cart team and is included in Business, Multivendor and Ultimate editions. To use the feature, make sure this module {% link "installed and enabled" ref_uEnDBBA7 %}.
+You can configure your X-Cart 5 store to show a block with the related products (alternatives or additional items) - the so-called “Related Products” block. This feature is available through the use of the **Related Products** module by X-Cart team. To use the feature, make sure this module {% link "installed and enabled" ref_uEnDBBA7 %}.
 
 Using the related products feature you can: 
-* encourage a customer to spend more money, i.e. to buy a more expensive alternative of the product s/he views.
-* recommend related products from other categories, reminding the customer about other popular things s/he may be interested in -  extensions, accessories, warranties, etc.
-* display recommended items in the add-to-cart popup (if you have the "Add to Cart Popup" addon enabled).
+* encourage the customer viewing a product to spend more money by buying a more expensive alternative to the product being viewed;
+* remind the customer about other popular things in which they may be interested (extensions, accessories, warranties, etc.) or recommend related products from other categories; 
+* display recommended items in the add-to-cart popup (provided that the "Add to Cart Popup" addon is enabled).
 
 Here's an example of "Related products" block - displayed at the bottom of the product page for one of the products in our demo store:
 ![xc5_products_related_products.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_products_related_products.png)
