@@ -8,6 +8,7 @@ order: 320
 published: true
 redirect_from:
   - /modules/u.s.p.s.html
+  - /modules/usps.html
 ---
 X-Cart is integrated with U.S.P.S. carrier services via the [U.S.P.S. module](https://market.x-cart.com/addons/usps.html "U.S.P.S.") and allows to communicate with USPS API in two possible ways to retrieve shipping rates:
 
