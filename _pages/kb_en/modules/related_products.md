@@ -45,3 +45,6 @@ That's it! The selected products have been added as related.
 ## Importing Related Products
 Related products can be imported via a .csv file as described in the section {% link "CSV import: Products" ref_WmJBfwxA %}.
 
+## Managing Product Relationships
+Once you have added one or more related products for a product, they can be viewed and managed via the Related products section of the product's details.
+
