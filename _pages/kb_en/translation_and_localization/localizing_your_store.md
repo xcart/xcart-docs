@@ -22,11 +22,11 @@ If you want the prices currency to be displayed depending on a customer's locati
     ![localization.png]({{site.baseurl}}/attachments/ref_cc4sCpa5/localization.png)
 
 2.  Use the settings in this section to adjust the localization parameters for your country:
-    *   **Weight unit** : The main weight unit that will be used in your store to measure the weight of products, shipping boxes, etc. The available options are LB (pound(s)) / OZ (ounce(s)) / KG (kilogram) / G (gram).
+    *   **Weight unit** : The main weight unit that should be used in your store to measure the weight of products, shipping boxes, etc. The available options are LB (pound(s)) / OZ (ounce(s)) / KG (kilogram) / G (gram).
     *   **Weight symbol** : This field is adjusted automatically depending on the Weight unit selected above.
     *   **Hide trailing zeros in fractional part** : This setting specifies whether the trailing zeros in the decimal part of numbers (typically, weight values) should be truncated when such numbers are displayed on the storefront. Note that this setting does not affect the numbers in the Admin area. For example, if the weight of a product in the Admin area is set as "1.5000 lbs", and the setting "Hide trailing zeros in fractional part" is enabled, the same weight will be displayed on the storefront as "1.5 lbs".
     *   **Weight format** : The format to display weight values on the storefront. 
-    *   **Dimensional unit** : The main dimentional unit that will be used in your store to measure the size of products, shipping boxes, etc. The available options are MM (millimeter(s)) / CM (centimeter(s)) / DM (decimeter(s)) / M ( meter(s)) / IN (inch(es)).
+    *   **Dimensional unit** : The main dimentional unit that should be used in your store to measure the size of products, shipping boxes, etc. The available options are MM (millimeter(s)) / CM (centimeter(s)) / DM (decimeter(s)) / M ( meter(s)) / IN (inch(es)).
     *   **Dimensional symbol** : This field is adjusted automatically depending on the Weight format selected above.
     *   **Date format** : The format to display dates in the store. 
     *   **Time format** : The format to display time in the store.
