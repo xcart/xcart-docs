@@ -34,16 +34,17 @@ Imagine that you have a product in your product catalog that you want to connect
    ![xc5_rproducts_add.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_add.png)
    
    You will see a popup with a list of products to select your related products from.
+   ![xc5_rproducts_add1.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_add1.png)
 
 3. Select the product(s) that you want to be related to the product you are working on. If necessary, use the filter above the list to find the product(s) you require.
-
+  
 4. Adjust the setting **Make bidirectional relations** at the bottom of the list as you require to specify how the selected products should be related with the main product. (Enable the option **Make bidirectional relations** if you want the products selected from the list to be linked to from the main product as well as themselves provide a link to it. Disable this option if you want the products selected from the list to be linked to from the main product, but not provide a link to it.)   
 
 5. Click **Add products**.
-  ![related-2.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/related-2.png)
+   ![xc5_rproducts_add2.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_add2.png)
 
-That's it! The selected products have been added as related.
-  ![related-3.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/related-3.png)
+This adds the selected products as related.
+  ![xc5_rproducts_added.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_added.png)
 
 ## Importing Related Products
 Related products can be imported via a .csv file as described in the section {% link "CSV import: Products" ref_WmJBfwxA %}.
