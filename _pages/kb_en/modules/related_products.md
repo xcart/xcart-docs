@@ -30,7 +30,10 @@ Imagine that you have a product in your product catalog that you want to connect
 1. In the Products section of your store's Admin area (**Catalog** -> **Products**), find the product for which you need to add related products, and open its details. Click the **Related products** tab to go to the respective section of the product details.
   ![related-1.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/related-1.png)
 
-2. In the Related products section, click **Add related products**. You will see a popup with a list of products to select your related products from.
+2. In the Related products section, click **Add related products**.
+   ![xc5_rproducts_add.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_add.png)
+   
+   You will see a popup with a list of products to select your related products from.
 
 3. Select the product(s) that you want to be related to the product you are working on. If necessary, use the filter above the list to find the product(s) you require.
 
