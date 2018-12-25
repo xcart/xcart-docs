@@ -9,7 +9,7 @@ published: true
 redirect_from:
   - /products/related_products.html
 ---
-You can configure your X-Cart 5 store to show a section recommending related products (alternatives or additional items) to your customers - the so-called "Related products" block. This feature is available through the use of the module **Related Products** by X-Cart team. To use the feature, make sure this module is {% link "installed and enabled" ref_uEnDBBA7 %}.
+You can configure your X-Cart 5 store to show a section recommending related products (alternatives or additional items) to your customers - the so-called "Related products" block. This feature is available through the use of the module **[Related Products](https://market.x-cart.com/addons/related-products.html)** by X-Cart team. To use the feature, make sure this module is {% link "installed and enabled" ref_uEnDBBA7 %}.
 ![xc5_rproducts_module.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_module.png)
 
 By using the related products feature you can: 
