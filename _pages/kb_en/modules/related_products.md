@@ -18,7 +18,7 @@ By using the related products feature you can:
 * display recommended items in the Add to Cart popup (This requires the addon "Add to Cart Popup").
 
 Here is an example of a "Related products" block displayed at the bottom of the product page for one of the products in our demo store:
-![xc5_products_related_products.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_products_related_products.png)
+![xc5_rproducts_block.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_block.png)
 
 And here is an example of how related products can be used as a source of items for "Customers who bought this also bought" in the Add to Cart popup:
 ![xc5_products_related_products1.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_products_related_products1.png)
