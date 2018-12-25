@@ -20,7 +20,7 @@ By using the related products feature you can:
 Here is an example of a "Related products" block displayed at the bottom of the product page for one of the products in our demo store:
 ![xc5_rproducts_block.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_block.png)
 
-And here is an example of how related products can be used as a source of items for the section "Customers who bought this also bought" in the Add to Cart popup:
+And here is an example of how related products can be used as a source for product recommendations for the Add to Cart popup. Note the items in the section "Customers who bought this also bought":
 ![xc5_products_related_products1.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_products_related_products1.png)
 (More info on how to enable this feature can be found in the section {% link "Add to Cart PopUp Module" ref_1iGC8Efj %})
 
