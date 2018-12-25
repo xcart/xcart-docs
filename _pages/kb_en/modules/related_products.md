@@ -60,4 +60,5 @@ To stop showing a product as related, remove it from the related products list. 
 Note that in the case of a bidirectional relationship between the products, after the removal of a related product from the related products list the main product will still remain connected to that related product and will appear in the "Related Products" block for that product. To remove the relationship between the products completely, you will need to disable the "Bidirectional link" option before removing the related product.
 
 Bulk delete and bulk enable/disable action for the bidirectional connection are available via the **Edit all** button.
+![xc5_rproducts_bulk.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_bulk.png)
 
