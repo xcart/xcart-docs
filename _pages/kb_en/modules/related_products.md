@@ -46,5 +46,18 @@ That's it! The selected products have been added as related.
 Related products can be imported via a .csv file as described in the section {% link "CSV import: Products" ref_WmJBfwxA %}.
 
 ## Managing Product Relationships
-Once you have added one or more related products for a product, they can be viewed and managed via the Related products section of the product's details.
+Once you have added one or more related products for a product, they can be viewed and managed via the Related products section of the product's details. 
+
+To change the order of the products in the "Related Products" block on the storefront, readjust the positions of the individual products in the related products list:
+![xc5_rproducts_sort.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_sort.png)
+
+To specify that the relationship between a related product and the main one should be bidirectional, enable the _Bidirectional link_ option and save the changes:
+![xc5_rproducts_bi_link.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_bi_link.png)
+
+To stop showing a product as related, remove it from the related products list. To do so, select the related product for deletion using the X button opposite its name and save the changes.
+![xc5_rproducts_remove.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_remove.png)
+
+Note that in the case of a bidirectional relationship between the products, after the removal of a related product from the related products list the main product will still remain connected to that related product and will appear in the "Related Products" block for that product. To remove the relationship between the products completely, you will need to disable the "Bidirectional link" option before removing the related product.
+
+Bulk delete and bulk enable/disable action for the bidirectional connection are available via the **Edit all** button.
 
