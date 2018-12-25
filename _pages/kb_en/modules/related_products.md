@@ -27,7 +27,7 @@ And here is an example of how related products can be used as a source for produ
 ## Adding Related Products for a Product
 Imagine that you have a product in your product catalog that you want to connect with one or more other products so that these other products will be recommended to customers when the customers show an interest in the first one. To do that you will need to edit the first product specifying the other products as related to it. Here's how it can be done: 
 
-1. In the Products section of your store's Admin area (**Catalog** -> **Products**), find the product for which you need to add related products and open its details. Click the **Related products** tab to go to the respective section of the product details.
+1. In the Products section of your store's Admin area (**Catalog** -> **Products**), find the product for which you need to add related products, and open its details. Click the **Related products** tab to go to the respective section of the product details.
   ![related-1.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/related-1.png)
 
 2. In the Related products section, click **Add related products**. You will see a popup with a list of products to select your related products from.
