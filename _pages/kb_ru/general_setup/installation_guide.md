@@ -41,7 +41,18 @@ icon: download
 15. {% link "время работы PHP" ref_DGK9HJBw %}, настроенное в соответствие с конфигурацией сервера;
 16. такие компоненты, как `mod_rewrite`  для работы SEO-оптимизированных семантических ссылок;
 17. при включенном `xdebug`, значение `xdebug.max_nesting_level` должно быть 300;
-18. при включенной директиве `OPcache`, `opcache.save_comments` и `opcache.load_comments` должны быть включены (значение “1”); никакие другие кешеры не должны вырезать комментарии из кода. 
+18. при включенной директиве `OPcache` должны быть применены следующие значения настроек: 
+	
+	```
+	opcache.use_cwd=1
+	opcache.revalidate_path=1
+	opcache.validate_timestamps=1
+	opcache.revalidate_freq=0
+    opcache.save_comments=1
+    opcache.load_comments=1
+    ```
+    
+    никакие другие кешеры не должны вырезать комментарии из кода. 
 
 ## Аппаратные требования
 
