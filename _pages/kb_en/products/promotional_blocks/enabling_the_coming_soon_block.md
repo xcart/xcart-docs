@@ -26,7 +26,8 @@ To use the "Coming soon" feature, make sure that the module **Product Advisor*
 
 1.  Click the **Settings** link near the "Product Advisor" module icon in the list of your store's installed modules to go to the module's settings page.
 2.  On the "Product Advisor" module settings page, adjust the settings in the **"Coming soon" block settings** section:
-    ![]({{site.baseurl}}/attachments/6389776/8717923.png)
+    ![xc5_comingsoon_settings.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/xc5_comingsoon_settings.png)
+
     The settings are as follows:
     *   **Enable "Coming soon" feature in catalog**: Enable this option to use the "Coming soon" feature. With this option enabled, products with an arrival date set in the future will be visible to store visitors before the arrival date. With this option disabled, products with an arrival date set in the future will not appear on the storefront before their arrival date.
     *   **Label upcoming products**: Specify whether "Coming soon" labels should be used on the products with an arrival date set in the future (and if so, on what pages). The available options are _Don't label_, _In catalog only_ and _On catalog and product pages_. Here'a a "Coming soon" label shown on product on a catalog page:
