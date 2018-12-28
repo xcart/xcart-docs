@@ -10,7 +10,7 @@ published: true
 If you sale worldwide it makes sense to use the [Multicurrency](https://market.x-cart.com/addons/multicurrency-for-xcart5.html "Multicurrency Module") module to make purchases easier for your international customers.
 
 {% note info %}
-The Multicurrency module works in bunble with the {% link "Geolocation Module" ref_34F5BkhW %} that uses a free "GeoLite2 Country" database by MaxMind.  So, please, check that the Geolocation module is enabled. The "GeoLite2 Country" database allows to define a customer's location accurate to a country. If you need to improve the accuracy you can upload other databases on the Geolocation module settings page.
+The Multicurrency module works in a bundle with the {% link "Geolocation Module" ref_34F5BkhW %} that uses a free "GeoLite2 Country" database by MaxMind.  So, please, check that the Geolocation module is enabled. The "GeoLite2 Country" database allows to define a customer's location accurate to a country. If you need to improve the accuracy you can upload other databases on the Geolocation module settings page.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![geolocation.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation.png)</div>
