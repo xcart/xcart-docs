@@ -42,7 +42,18 @@ Here is the system requirements list:
 *   {% link "PHP time limit" ref_xqnpttd4 %} properly set according to your server config
 *   mod_rewrite-like components to enable proper work of {% link "SEO-friendly URLs" ref_nJxrzFEZ %}
 *   if xdebug is enabled, `xdebug.max_nesting_level` must be set to 300
-*   if OPcache is enabled, `opcache.save_comments` and `opcache.load_comments` must be true (set to "1"). Any other cachers should not strip comments from the code too.
+*   if OPcache is enabled, the following settings must be applied: 
+	
+	```
+	opcache.use_cwd=1
+	opcache.revalidate_path=1
+	opcache.validate_timestamps=1
+	opcache.revalidate_freq=0
+    opcache.save_comments=1
+    opcache.load_comments=1
+    ```
+    
+    Any other cachers should not strip comments from the code too.
 *   [Suhosin](https://suhosin.org/stories/index.html "Installation Guide") PHP extension might interfere proper work of X-Cart 5, so you should disable it. 
 
 ### Hardware requirements
