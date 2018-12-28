@@ -41,4 +41,4 @@ To use the "Coming soon" feature, make sure that the module **Product Advisor*
         Drupal block settings can override this option (when the DrupalConnector module is enabled).
     *   **Maximum number of products to display in "Coming soon" block**: Specify the maximum number of products to be shown in the "Coming soon" block. Specify a non-zero value; otherwise, 3 products will be displayed by default. If the number of "coming soon" products is more than the number specified by this setting, any products above the specified number will be available for viewing via the "All upcoming products" link. Drupal block settings can override this option (when the DrupalConnector module is enabled).
 
-3.  Once you are done configuring the settings, click the **Submit **button at the bottom of the page to save the changes.
+3.  Once you are done configuring the settings, click the **Submit** button at the bottom of the page to save the changes.
