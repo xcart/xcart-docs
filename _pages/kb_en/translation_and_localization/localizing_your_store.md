@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-28 00:17 +0400'
 identifier: ref_cc4sCpa5
-title: Localizing your store
+title: Localizing Your Store
 categories:
   - User manual
 published: true
