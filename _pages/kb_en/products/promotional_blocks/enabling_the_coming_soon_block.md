@@ -28,10 +28,9 @@ To use the "Coming soon" feature, make sure that the module **Product Advisor*
 2.  On the "Product Advisor" module settings page, adjust the settings in the **"Coming soon" block settings** section:
     ![]({{site.baseurl}}/attachments/6389776/8717923.png)
     The settings are as follows:
-    *   **Enable "Coming soon" feature in catalog**: Enable this option to enable the "Coming soon" feature.
-    *   **Mark upcoming products in catalog**: Enable this option to mark all the products that are about to appear in your store with the "Coming soon" label. The "Coming soon"  labels on products will appear in all product lists except for the "Coming soon" lists. 
+    *   **Enable "Coming soon" feature in catalog**: Enable this option to use the "Coming soon" feature. With this option enabled, products with an arrival date set in the future will be visible to store visitors before the arrival date. With this option disabled, products with an arrival date set in the future will not appear on the storefront before their arrival date.
+    *   **Label upcoming products**: Specify whether "Coming soon" labels should be used on the products with an arrival date set in the future (and if so, on what pages). The available options are _Don't label_, _In catalog only_ and _On catalog and product pages_. Here'a a "Coming soon" label shown on product on a catalog page:
         ![]({{site.baseurl}}/attachments/6389776/8717926.png)
-
     *   **Show arrival date on product details pages**: This setting defines whether the arrival date for products that are "coming soon" should be displayed on the product details pages of the respective products. Enable the option to show the arrival date; disable to hide the arrival date.
         ![]({{site.baseurl}}/attachments/6389776/8717927.png)
     *   **Show "coming soon" products only from category being viewed by customer**: This setting defines whether you want to show "coming soon" products from the entire store or just from the category the customer is currently viewing. Drupal block settings can override this option (when the DrupalConnector module is enabled).
