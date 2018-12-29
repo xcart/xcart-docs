@@ -59,3 +59,5 @@ To adjust the way new arrivals should be displayed to your store's visitors, you
     {% endnote %}
 
 3.  Once you are done configuring the settings, click the **Submit** button at the bottom of the page to save the changes.
+
+New products in your store will be treated as new arrivals and automatically included into the "New arrivals" list starting on their arrival date as specified in the {% link "product details" ref_fhzzxDTy %}. They will remain in the "New" state for the duration of the period specified by the setting "Number of days to keep products marked as new arrivals", after which they will be automatically excluded from the "New arrivals" list.
