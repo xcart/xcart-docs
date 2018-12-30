@@ -1,21 +1,18 @@
 ---
-title: Adding custom JavaScript code to the page
 lang: en
 layout: article_with_sidebar
-updated_at: 2017-05-02 16:42 +0400
+updated_at: '2017-05-02 16:42 +0400'
+title: Adding custom JavaScript code to the page
 identifier: ref_mw8w648h
 version: X-Cart 5.2.16 and earlier
 categories:
-- Developer docs
-- Outdated
+  - Developer docs
+  - Outdated
 order: 100
+published: true
 ---
 
-## Table of Contents
-
-- [Custom JS code for every page](#custom-js-code-for-every-page)
-- [Putting custom JS to a certain part of the HTML](#putting-custom-js-to-a-certain part-of-the-html)
-- [Script tag in content fields or static pages](#script-tag-in-content-fields-or-static-pages)
+{% toc Table of Contents %}
 
 ## Custom JS code for every page
 
