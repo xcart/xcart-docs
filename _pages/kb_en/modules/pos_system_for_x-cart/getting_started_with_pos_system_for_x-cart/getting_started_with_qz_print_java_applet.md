@@ -1,12 +1,13 @@
 ---
-identifier: ref_1e1MaOuk
-updated_at: 2016-04-25 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Getting started with QZ Print Java applet'
+layout: article_with_sidebar
+updated_at: '2016-04-25 00:00'
+identifier: ref_1e1MaOuk
+title: Getting started with QZ Print Java applet
 categories:
   - User manual
-
+published: false
+order: 100
 ---
 
 
