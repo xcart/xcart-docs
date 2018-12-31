@@ -6,7 +6,7 @@ identifier: ref_cIqoSFOT
 title: POS system module configuration settings
 categories:
   - User manual
-published: true
+published: false
 order: 100
 ---
 
