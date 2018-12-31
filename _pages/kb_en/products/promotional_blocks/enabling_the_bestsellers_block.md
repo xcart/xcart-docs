@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-28 18:07 +0400'
 identifier: ref_p1CIVmy6
-title: Enabling the Bestsellers block
+title: Enabling the Bestsellers Block
 categories:
   - User manual
 published: true
