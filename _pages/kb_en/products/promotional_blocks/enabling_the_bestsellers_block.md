@@ -12,20 +12,27 @@ redirect_from:
   - /products/enabling_the_bestsellers_block.html
 ---
 
+You can configure your X-Cart 5 store to showcase the most popular products (the ones that have been purchased at your store the most often) in a separate page section - the so-called "Bestsellers" block. This feature is available through the use of the **Bestsellers** module by X-Cart team. To use the feature, make sure this module {% link "installed and enabled" ref_0fGEpvrh %} in your store.
 
-You can configure your X-Cart 5 store to show a block with the most popular products (the ones purchased most oftenly) - the so-called "Bestsellers" block. This feature is available through the use of the **Bestsellers** module by X-Cart team. To use the feature, make sure this module {% link "installed and enabled" ref_0fGEpvrh %}.
-
-To configure the appearance of the "Bestsellers" block, you need to adjust some module settings:
-
-1.  Go to the "Bestsellers" module settings page by clicking the **Settings** link.
-    ![bestsellers1.png]({{site.baseurl}}/attachments/ref_p1CIVmy6/bestsellers1.png)
-    The page looks as follows:
-    ![bestsellers2.png]({{site.baseurl}}/attachments/ref_p1CIVmy6/bestsellers2.png)
-    
-2.  Adjust the module settings as you require. Once you're done, be sure to save the changes by clicking **Submit**.
-    
-By default, the **Bestsellers** block is displayed in the bottom of the site
-
+By default, the **Bestsellers** block is displayed in the central area of your store site closer to the page bottom:
 ![bestsellers3.png]({{site.baseurl}}/attachments/ref_p1CIVmy6/bestsellers3.png)
+You can find it on the Home page as well as on category pages.
 
-If you want to change the block position use the Layout Editor in the [Webmaster Mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html).
+It is possible to move the block to a different location using the Layout Editor in the [Webmaster Mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html).
+
+The products for the "Bestsellers" block are selected automatically based on your store's product sales statistics. You specify the maximum number of products that can be shown within the block, and X-Cart populates this block with the specified number of products choosing the ones that have been purchased by your customers the most often. 
+
+On category pages, the block provides a list of category bestsellers; on the Home page, the block contents is formed based on the overall site sales staistics using the most popular products from different categories.
+
+The maximum number of products that can be shown within the "Bestsellers" block on the Home page and on the category pages can be adjusted as follows:
+
+   1. Use the **Settings** link to access the "Bestsellers" module settings page.
+      ![bestsellers1.png]({{site.baseurl}}/attachments/ref_p1CIVmy6/bestsellers1.png)
+      
+      The module settings page looks like the following:
+      ![bestsellers2.png]({{site.baseurl}}/attachments/ref_p1CIVmy6/bestsellers2.png)
+    
+   2. Adjust the number of products as you require. 
+    
+   3. Save the changes by clicking **Submit**.
+    
