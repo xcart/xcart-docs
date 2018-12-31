@@ -1,12 +1,13 @@
 ---
-identifier: ref_L2vV8Twt
-updated_at: 2016-04-27 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Getting started with PrintNode'
+layout: article_with_sidebar
+updated_at: '2016-04-27 00:00'
+identifier: ref_L2vV8Twt
+title: Getting started with PrintNode
 categories:
   - User manual
-
+published: false
+order: 100
 ---
 
 
