@@ -1,12 +1,13 @@
 ---
-identifier: ref_lh4nFlzm
-updated_at: 2016-04-27 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Getting started with QZ Tray 2.x'
+layout: article_with_sidebar
+updated_at: '2016-04-27 00:00'
+identifier: ref_lh4nFlzm
+title: Getting started with QZ Tray 2.x
 categories:
   - User manual
-
+published: false
+order: 100
 ---
 
 
