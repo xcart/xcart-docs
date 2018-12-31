@@ -6,7 +6,7 @@ identifier: ref_uuhJRDAr
 title: Getting started with POS system for X-Cart
 categories:
   - User manual
-published: true
+published: false
 order: 130
 ---
 
