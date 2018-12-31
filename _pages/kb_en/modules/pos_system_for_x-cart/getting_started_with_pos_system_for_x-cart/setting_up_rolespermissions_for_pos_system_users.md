@@ -6,7 +6,7 @@ identifier: ref_4s82Om1P
 title: Setting up roles/permissions for POS system users
 categories:
   - User manual
-published: true
+published: false
 order: 100
 ---
 
@@ -32,4 +32,3 @@ If your store uses the module “User permissions”, you will be able to adjust
 _Related pages:_
 
 *   {% link "Getting started with POS system for X-Cart" ref_uuhJRDAr %}
-
