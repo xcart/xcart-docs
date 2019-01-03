@@ -38,7 +38,7 @@ To create a coupon for a vendor, the administrator needs to specify this vendor 
 
 {% note info %}
 In case a vendor name is not specified in the Vendor field in the coupon details the coupon will be applied globally to all products available in the store regardless of the product owner.
-{% endnotes%}
+{% endnote %}
 
 _Related pages:_
 
