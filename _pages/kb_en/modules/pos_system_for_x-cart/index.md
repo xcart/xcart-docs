@@ -6,7 +6,7 @@ identifier: ref_BMTUgGt4
 title: POS system for X-Cart
 categories:
   - User manual
-published: true
+published: false
 order: 210
 redirect_to: 'https://www.x-cart.com/retail-pos-system.html'
 ---
