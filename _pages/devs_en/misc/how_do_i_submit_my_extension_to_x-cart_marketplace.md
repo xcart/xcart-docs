@@ -1,12 +1,13 @@
 ---
-title: How do I submit my extension to X-Cart marketplace
 lang: en
 layout: article_with_sidebar
-updated_at: 2016-08-26 10:28 +0400
+updated_at: '2016-08-26 10:28 +0400'
+title: How do I submit my extension to X-Cart marketplace
 identifier: ref_uGQn5pNX
 categories:
-- Developer docs
+  - Developer docs
 order: 100
+published: true
 ---
 
 ## Introduction
@@ -20,39 +21,43 @@ This article is aimed to the developers who want to submit their extensions to X
 
 This article will explain each step, so you will be confident about what is going to happen.
 
-## Table of Contents
+{% toc Table of Contents %}
 
-*   [Introduction](#introduction)
-*   [Table of Contents](#table-of-contents)
-*   [Get partner account](#get-vendor-account)
-*   [Write module](#write-module)
-*   [Upload module to marketplace](#upload-module-to-marketplace)
-*   [Publish module page on our web-site](#publish-module-page-on-our-web-site)
+## Getting vendor account
 
-## Get vendor account
+First of all, when you decide to write extensions for X-Cart 5 (theme or module), you need to obtain developer NFR license. For that, send us a message at [partners@x-cart.com](mailto:partners@x-cart.com) with the following information:
 
-First of all, if you decide to write extensions for X-Cart 5 (theme or module), you need to obtain developer NFR license. For that, please send us a message at [partners@x-cart.com](mailto:partners@x-cart.com) with the following information:
-
-1.  What module you are going to write
+1.  What module you are going to create
 2.  Email for your vendor account
 
-Once you send us this info, we will create you a vendor account and you will be able to log into it at [https://market.x-cart.com/admin.php](https://market.x-cart.com/admin.php) 
+Once you send us this info, we will create you a vendor account and you will be able to log into it at [https://market.x-cart.com/admin.php](https://market.x-cart.com/admin.php)
+
+After that you need to fill in Company Details here: [https://market.x-cart.com/admin.php?target=vendor](https://market.x-cart.com/admin.php?target=vendor)
+
+![v1.png]({{site.baseurl}}/attachments/ref_uGQn5pNX/v1.png)
+
+You can get to this page by clicking 'My profile' link in the dropdown menu that will come out when you hover over profile icon in the top right corner. Then, go to 'Company details' tab there. Or you can get to this page by clicking 'My account' > 'Company details' menu on the left-hand side.
+
+Mandatory fields are:
+- Company name (will be shown on each module page);
+- Developer public e-mail (will be shown on each module page);
+- [Developer IDs](https://devs.x-cart.com/getting_started/creating-module.html#choosing-identifiers "How do I submit my extension to X-Cart marketplace").
 
 
-## Write module
+## Writing module
 
 Next step is to write the module you want. We have several simple requirements to your module's code:
 
 1.  PHP code must comply to {% link "PSR2 standard" ref_2RV1BTPq %}
 2.  PHP code must not use any encryption
 3.  Your module must not compromise store's owner and must not contain malicious code. If we find an attempt to use malicious code in your module, you will not be allowed to post modules to the marketplace ever since and your existing modules will be removed from it as well.
-4.  The initial version of your module must be 0, i.e. 5.0.0, 5.1.0, etc depending on what version of X-Cart you module is going to be compatible with.
+4.  The initial version of your module must be 0, i.e. 5.3.0, 5.4.0, etc depending on what version of X-Cart you module is going to be compatible with.
 
 Beside that, we ask to create a demo of your module on any external web-site, so we could see your module in action.
 
 ## Upload module to marketplace
 
-In order to upload your module to the Market site, please go to your vendor account at [https://market.x-cart.com/admin.php](https://market.x-cart.com/admin.php) and then go to the **Catalog/Products** section. There, you will be able to upload module for review using the **Add product** button. 
+In order to upload your module to the Marketplace, go to your vendor account at [https://market.x-cart.com/admin.php](https://market.x-cart.com/admin.php) and then go to the **Catalog/Products** section. There, you will be able to upload module for review using the **Add product** button. 
 
 Setup "Developer ID" - your namespace in the Market system. E.g. if your company name is "My Company Name" put something like "MYCOMPANYNAME" in there.
 
