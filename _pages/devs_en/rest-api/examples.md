@@ -13,25 +13,7 @@ order: 100
 redirect_from:
   - /rest-api/examples/index.html
 ---
-
-## Table of Contents
-
-*   [Searching all products within price range](#searching-all-products-within-price-range)
-*   [Creating product](#creating-product)
-*   [Creating several products at once](#creating-several-products-at-once)
-*   [Changing SKU for a product with ID=1](#changing-sku-for-a-product-with-id1)
-*   [Changing SKUs for products with ID=1 and ID=3](#changing-skus-for-products-with-id1-and-id3)
-*   [Assigning a product to a category](#assigning-a-product-to-a-category)
-*   [Removing a product with ID=1](#removing-a-product-with-id1)
-*   [Removing all products](#removing-all-products)
-*   [Creating a shipping zone](#creating-a-shipping-zone)
-*   [Getting shipping zones info ](#getting-shipping-zones-info)
-*   [Creating a shipping method](#creating-a-shipping-method)
-*   [Getting shipping methods info](#getting-shipping-methods-info)
-*   [Creating a shipping rate](#creating-a-shipping-rate)
-*   [Updating an existing shipping rate](#updating-an-existing-shipping-rate)
-*   [Changing the shipping status for an order](#changing-the-shipping-status-for-an-order)
-*   [Updating a product variant](#updating-product-variant)
+{% toc Table of Contents %}
 
 Given examples work for the <u>Default schema only</u>, and they **do not work** for the Complex schema.
 
@@ -480,6 +462,8 @@ http://<MY-XCART-PATH>/admin.php?target=RESTAPI&_key=WRITEAPIKEY
 &model[0][id]=143
 &model[0][amount]=10
 ```
+
+The same way you can define other parameters of the product variant, such as price, weight, defaultPrice, defaultAmount (these two are flags that define that price and/or amount must be inherited from the main product price and amount), weight, etc.
 
 ### Creating a shipping zone
 
