@@ -17,7 +17,7 @@ redirect_from:
 
 Given examples work for the <u>Default schema only</u>, and they **do not work** for the Complex schema.
 
-### Searching all products within price range
+## Searching all products within price range
 
 Direct request: 
 
@@ -54,7 +54,7 @@ $result = $client->get('product', array('query' => $query))->json();
 
 Such a request will create a product and then return the same product info in JSON as a result.
 
-### Creating product
+## Creating product
 
 Direct request: 
 
@@ -105,7 +105,7 @@ $result = $client->post('product/0', array('body' => $product))->json();
 
 Such a request will create a product and then return the same product info in JSON as a result.
 
-### Creating several products at once
+## Creating several products at once
 
 Direct request: 
 
@@ -164,7 +164,7 @@ Note that we make a request to **_path=product** (not _path=product/0) in orde
 
 Such a request will create two products and then return their info as a result.
 
-### Changing SKU for a product with ID=1
+## Changing SKU for a product with ID=1
 
 Direct request: 
 
@@ -226,7 +226,7 @@ $products = array(
 $result = $client->put('product', array('body' => $products))->json();
 ```
 
-### Assigning a product to a category
+## Assigning a product to a category
 
 Direct request:
 
@@ -255,7 +255,7 @@ $link = array(
 $result = $client->post('categoryproducts/0', array('body' => $link))->json();
 ```
 
-### Removing a product with ID=1
+## Removing a product with ID=1
 
 Direct request: 
 
@@ -274,7 +274,7 @@ $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 $result = $client->delete('product/1')->json();
 ```
 
-### Removing all products
+## Removing all products
 
 Direct request: 
 
@@ -293,7 +293,7 @@ $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 $result = $client->delete('product')->json();
 ```
 
-### Adding attribute to the product
+## Adding attribute to the product
 
 With REST API Client:
 
@@ -369,7 +369,7 @@ $result = $client
     ->json();
 ```
 
-### Adding attribute to the product
+## Adding attribute to the product
 
 With REST API Client:
 
@@ -444,7 +444,7 @@ $variantAttributes = array(
 $result = $client->put('product/' . $productId, array('body' => $variantAttributes))->json();
 ```
 
-### Getting all product variants
+## Getting all product variants
 If you know the specific product variant ID that needs to be updated, you can update the variant data directly. In the below example, we change "amount" to 10 for variant ID = 143
 
 ```
@@ -452,7 +452,7 @@ http://<MY-XCART-PATH>/admin.php?target=RESTAPI&_key=WRITEAPIKEY
 &_path=xc-productvariants-productvariant
 ```
 
-### Updating a product variant
+## Updating a product variant
 If you know the specific product variant ID that needs to be updated, you can update the variant data directly. In the below example, we change "amount" to 10 for variant ID = 143
 
 ```
@@ -465,7 +465,7 @@ http://<MY-XCART-PATH>/admin.php?target=RESTAPI&_key=WRITEAPIKEY
 
 The same way you can define other parameters of the product variant, such as price, weight, defaultPrice, defaultAmount (these two are flags that define that price and/or amount must be inherited from the main product price and amount), weight, etc.
 
-### Creating a shipping zone
+## Creating a shipping zone
 
 Direct request:
 
@@ -511,7 +511,7 @@ array (size=5)
                   'element_type' => string 'Z' (length=1)
 ```
 
-### Getting shipping zones info 
+## Getting shipping zones info 
 
 Direct request:
 
@@ -519,7 +519,7 @@ Direct request:
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=KEY&_path=zone
 ```
 
-### Creating a shipping method
+## Creating a shipping method
 
 Direct request:
 
@@ -557,7 +557,7 @@ array (size=5)
           'enabled' => string '1' (length=1)
 ```
 
-### Getting shipping methods info
+## Getting shipping methods info
 
 Direct request:
 
@@ -565,7 +565,7 @@ Direct request:
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=KEY&_path=shipping-method
 ```
 
-### Creating a shipping rate
+## Creating a shipping rate
 
 Direct request:
 
@@ -599,7 +599,7 @@ array (size=5)
           'markup_per_weight' => string '7' (length=1)
 ```
 
-### Updating an existing shipping rate
+## Updating an existing shipping rate
 
 Direct request:
 
@@ -627,7 +627,7 @@ array (size=5)
           'markup_per_weight' => string '77' (length=2)
 ```
 
-### Changing the shipping status for an order
+## Changing the shipping status for an order
 
 ```
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=KEY
