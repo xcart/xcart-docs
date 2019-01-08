@@ -10,7 +10,7 @@ published: true
 
 To enable the E-goods module follow the procedure described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}
 
-Once enabled proceed to the module _Settings_ page:
+Once the module has been enabled, proceed to the module _Settings_ page:
 ![settings.png]({{site.baseurl}}/attachments/ref_1dsuHf3i/settings.png)
 
 Here you'll need to define the following settings:
