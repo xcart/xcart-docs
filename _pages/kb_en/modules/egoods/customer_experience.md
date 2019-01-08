@@ -22,7 +22,7 @@ After the order fulfilment status is changed to any other except for _Will not d
 
 ![invoice-1.png]({{site.baseurl}}/attachments/ref_208aL8a0/invoice-1.png)
 
-In case the the **Approve before providing access to download** option is disabled, the customer gets a download link for the product right after the order is paid.
+In case the **Approve before providing access to download** option is disabled, the customer gets a download link for the product right after the order is paid.
 
 The download link for the product can also be found in the _Ordered files_ tab of the **My orders** section in a customer account in your store.
 
