@@ -6,7 +6,7 @@ identifier: ref_yCxquUhl
 title: Configuring your X-Cart server for better large file download performance
 order: 500
 published: true
-version: X-Cart 5.3.3.2
+version: X-Cart 5.3.3.2 and later
 ---
 This guide offers some tips on how to configure your X-Cart server to allow huge file attachments (100 Mb and more) to be downloaded by the customers. Without configuring the following settings any large download will hang up. 
 
