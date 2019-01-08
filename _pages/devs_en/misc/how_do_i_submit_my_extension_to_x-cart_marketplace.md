@@ -8,6 +8,7 @@ categories:
   - Developer docs
 order: 100
 published: true
+redirect_to: 'https://s.x-cart.com/market_guidelines'
 ---
 
 ## Introduction
