@@ -9,33 +9,42 @@ published: true
 redirect_from:
   - /modules/egoods/configuring_amazon_urls.html
 ---
-{% note warning %}
-This feature is included in the E-goods module starting from version 5.3.3.0.
-{% endnote %}
+Starting with E-goods module version 5.3.3.0, it is possible to use Amazon S3 to store downloadable files for e-goods.  
+The benefit of this feature is to save server space at the same time limiting access to valuable files (such as proprietary MP3s) only to those customers who have made a purchase.
 
-With the E-goods module you can utilize Amazon S3 to store large collection of digital downloads. 
-The benefit of this feature is to save server space while also to limit access to valuable files (such as proprietary MP3s) to those customers who have made a purchase.
+In order to make use of the off-site storage feature, the store administrator will need to follow the steps below:
 
-In order to make use of the off-site storage feature, you should create a user with the *programmatic access checkbox ticked* on the [IAM section of the Amazon Web Services Console](https://console.aws.amazon.com/iam/home#/users):
+1. In the [IAM section of the Amazon Web Services Console](https://console.aws.amazon.com/iam/home#/users), create a user with the **Programmatic access** option enabled:
+   ![amazons3_1.png]({{site.baseurl}}/attachments/ref_ZszpDfxQ/amazons3_1.png)
 
-![amazons3_1.png]({{site.baseurl}}/attachments/ref_ZszpDfxQ/amazons3_1.png)
+2. At the step **Permissions**, create a new group for the user or assign the user to an existing group. For this group, enable the policies `AmazonS3FullAccess` and `AmazonS3ReadOnlyAccess`:
+   ![amazons3_2.png]({{site.baseurl}}/attachments/ref_ZszpDfxQ/amazons3_2.png)
 
-On the **Permissions** step, create a new group or assign to an existing group with the following policies for the groups - `AmazonS3FullAccess` and `AmazonS3ReadOnlyAccess`:
+3. Review the user details, click **Next**.
 
-![amazons3_2.png]({{site.baseurl}}/attachments/ref_ZszpDfxQ/amazons3_2.png)
+4. At the step **Complete**, loate your AWS access key and AWS secret key. You will need to copy and paste them into the appropriate fields on the E-goods module settings page in your X-Cart store.
+   ![amazons3_3.png]({{site.baseurl}}/attachments/ref_ZszpDfxQ/amazons3_3.png)
 
-Review the created user, click **Next** and copy AWS access key and the AWS secret key from the **Complete** step to paste them later on the Amazon S3 configuration section of the E-goods module settings page:
+5. In your X-Cart store Admin area, adjust the settings in the section **Amazon Signed URLs** of the E-goods module settings page: 
+   
+   * **Enable usage of Presigned URLs for Amazon S3 links**: Enable this setting. As a result, you will be able to access the fields for your Amazon S3 credentials (They will be shown below).
+   * **Amazon access key**: Copy and paste the AWS access key you have obtained from Amazon.
+   * **Amazon secret key**: Copy and paste the AWS secret key you have obtained from Amazon.
+   * **S3 Bucket name**: Copy and paste your S3 bucket name (You can get it from the S3 section of AWS).
+   ![amazons3_4.png]({{site.baseurl}}/attachments/ref_ZszpDfxQ/amazons3_4.png)
 
-![amazons3_3.png]({{site.baseurl}}/attachments/ref_ZszpDfxQ/amazons3_3.png)
+    {% note info %}
+    The same credentials can be used in the **Amazon S3** module by X-Cart team.
+    {% endnote %}
 
-You need to tick the "Enable usage of Presigned URLs for Amazon S3 links" checkbox and fill the Amazon credentials:
+6. Save the changes. This will connect your AWS account with your X-Cart store. 
 
-![amazons3_4.png]({{site.baseurl}}/attachments/ref_ZszpDfxQ/amazons3_4.png)
+Once the connection has been set up, the store administrator will be able to upload files of nearly any size onto the S3 Storage service of AWS and use them to configure downloadable products. Here's how it can be done:
 
-Paste the AWS access and secret key into that form. You'll also need the S3 bucket name (which you can get from the S3 section of AWS).
+1. Once a file has been uploaded onto S3, copy the URL of that file. 
+2. In X-Cart, on the Attachments tab of the product details, select **Add file** -> **Via URL**. 
+3. In the Upload file box, paste the URL that has been copied from S3 and un-check the box **Copy file to local server**.
+4. Click **Upload**.
 
-{% note info %}
-These credentials can also be used in the **Amazon S3** module by X-Cart team.
-{% endnote %}
+As a result, the product will be linked to the S3-stored file that has been specified.
 
-Once you have created the connection between your AWS account and your X-Cart store, you can upload files of nearly any size onto the S3 Storage service of AWS. Once you have uploaded a file onto S3, you can copy the URL of that file. Back on X-Cart, when viewing the corresponding product in the product editor, look for the Attachments tab. Select **Add file** -> **Via URL**. Paste the URL into the textbox, un-check the box next to **Copy file to local server**, and press the **Upload** button.
