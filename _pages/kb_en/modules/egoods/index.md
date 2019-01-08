@@ -7,13 +7,13 @@ title: E-goods
 order: 90
 published: true
 ---
-The module enables you to sell digitally distributed content also known as e-goods. You can sell both e-goods and tangible products in one online store.
 
-The module extends the [**File Attachments**](https://market.x-cart.com/addons/file-attachments.html "E-goods") module's functionality and allows you to specify whether a file uploaded for a product can be freely downloaded from the product page, or can be downloaded after the product is purchased only. When customers buy e-goods they receive an e-mail with the download links and see the links in their shop account.
+The X-Cart 5 module E-goods enables you to sell digitally distributed content (also known as digital goods / e-goods / digital distribution products). Installing this module does not prevent you from selling tangible products in the same online store.
+
+The module E-goods extends the functionality of the module [**File Attachments**](https://market.x-cart.com/addons/file-attachments.html "E-goods") and allows you to specify whether a file uploaded for a product can be downloaded from the product page at any time freely, or can be downloaded only after the product has been purchased. 
+
 
 _In this section:_
 
-* {% link "Enabling and Configuring E-goods Module" ref_1dsuHf3i %}
-* {% link "Configuring Amazon S3 Signed URLs" ref_51iHbWYa %}
 * {% link "E-goods Module: Admin Experience" ref_3sGGx0lV %}
 * {% link "E-goods Module: Customer Experience" ref_208aL8a0 %}
