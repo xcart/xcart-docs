@@ -5,7 +5,7 @@ updated_at: '2019-01-08 16:16 +0400'
 identifier: ref_6l9etSb8
 title: Configuring Downloadable Products
 order: 130
-published: false
+published: true
 ---
 Configuring a downloadable product is similar to adding an ordinary product. The only difference regarding configuring a downloadable product is that after completing basic product setup as described in {% link "Adding products" ref_fhzzxDTy %} you must assign a downloadable file to the product and - as the product will not require physical shipping - disable shipping for it.
 
