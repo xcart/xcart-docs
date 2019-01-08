@@ -31,8 +31,4 @@ The buyer will also be able to find the download link for the product in the **O
 
 ![order-files.png]({{site.baseurl}}/attachments/ref_208aL8a0/order-files.png)
 
-{% note info %}
-In case a customer pays with a subscription for a downloadable product s/he'll receive all {% link "X-Payments" ref_8VFoqBFZ %} related e-mail notifications as well as regular E-goods related notifications on the order status updates. Depending on whether the **Approve before providing access to download** option is enabled or not the customer will receive a download link either right after the subscription is paid or after the subscription is paid and the _Waiting for approve_ fulfilment status is changed to any other, except for _Will not deliver_.
-
-Such customer will receive an updated link with the actual product attachment on the moment of payment to download the product each time a subscription is paid and will not receive any notifications on and will not have access to the history of the product attachment changes through the subscription period.
-{% endnote %}
+If the store uses {% link "X-Payments subscriptions" ref_8VFoqBFZ %}, a customer who has purchased a downloadable product on subscription will get an updated download link for the product every time they pay a subscription fee. Note that if the store administrator has enabled manual reviews for downloadable product orders, the customer will also have to wait for the order status to be updated appropriately to any status other than _Will not deliver_ before they can access the link. Also note that the history of attachment changes will not be stored, and the customer will not be notified of any attachment changes during the subscription period.
