@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-05-02 11:21 +0400'
 identifier: ref_51iHbWYa
 title: Configuring Amazon S3 Signed URLs
-order: 120
+order: 110
 published: true
 redirect_from:
   - /modules/egoods/configuring_amazon_urls.html
