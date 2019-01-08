@@ -9,8 +9,9 @@ published: true
 redirect_from:
   - /modules/egoods/admin_experience.html
 ---
-{% link "Configuring the E-goods Module" ref_1dsuHf3i %}
-{% link "Configuring Amazon S3 Signed URLs" ref_51iHbWYa %}
-{% link "Configuring Downloadable Products" ref_6l9etSb8 %}
-
-{% link "Processing Orders for Downloadable Products" ref_0ctZibff %}
+_In this section:_
+   
+   * {% link "Configuring the E-goods Module" ref_1dsuHf3i %}
+   * {% link "Configuring Amazon S3 Signed URLs" ref_51iHbWYa %}
+   * {% link "Configuring Downloadable Products" ref_6l9etSb8 %}
+   * {% link "Processing Orders for Downloadable Products" ref_0ctZibff %}
