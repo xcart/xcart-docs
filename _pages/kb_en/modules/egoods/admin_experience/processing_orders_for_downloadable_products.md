@@ -5,7 +5,7 @@ updated_at: '2019-01-08 16:18 +0400'
 identifier: ref_0ctZibff
 title: Processing Orders for Downloadable Products
 order: 100
-published: false
+published: true
 ---
 The product download link does not become available to the buyer right after an order is placed. The order gets the fulfilment status _Waiting for approve_, and the store administrator needs to manually review the order.
 ![wfa_status.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/wfa_status.png)
