@@ -7,24 +7,27 @@ title: 'E-goods Module: Customer Experience'
 order: 140
 published: true
 ---
-When a customer proceeds to checkout after adding a downloadable product to cart, there is no shipping section there if shipping for the product is disabled:
+When placing an order for a downloadable product in an X-Cart based store, a shopper does not have to provide any shipping related details as downloadable products do not require physical shipping:
 
 ![checkout.png]({{site.baseurl}}/attachments/ref_208aL8a0/checkout.png)
 
-After an order is placed, it gets the _Waiting for approve_ fulfilment status [if the **Approve before providing access to download** option is {% link "enabled" ref_1dsuHf3i %}]: 
+To pay for a downloadable product, a shopper can use any of the available payment options, including online and offline methods.
+
+If the store does not use manual review of orders with downloadable products, the buyer of a downloadable product will get a download link for the product they have purchased right after the order has been paid for.
+
+If the store administrator has enabled manual review for orders with downloadable products, the buyer of a downloadable product will not receive a download link for the product; instead, the order will be assigned the fulfilment status _Waiting for approve_:
 
 ![wfa-customer.png]({{site.baseurl}}/attachments/ref_208aL8a0/wfa-customer.png)
 
-And a customer receives an {% link "e-mail notification" ref_5QLrLCu7 %} "Order waiting for approval":
+The buyer will receive an "Order waiting for approval" {% link "email notification" ref_5QLrLCu7 %}:
 ![notification.png]({{site.baseurl}}/attachments/ref_208aL8a0/notification.png)
+(This, of course, if the store administrator has not disabled the use of such notifications.)
 
-After the order fulfilment status is changed to any other except for _Will not deliver_ a download link is sent to a customer in the "Your order has been changed" e-mail notification:
+After the store administrator chooses to update the order fulfilment status to any status other than "_Will not deliver_", a download link will be sent to the buyer in the "Your order has been changed" email notification:
 
 ![invoice-1.png]({{site.baseurl}}/attachments/ref_208aL8a0/invoice-1.png)
 
-In case the **Approve before providing access to download** option is disabled, the customer gets a download link for the product right after the order is paid.
-
-The download link for the product can also be found in the _Ordered files_ tab of the **My orders** section in a customer account in your store.
+The buyer will also be able to find the download link for the product in the **Ordered files** tab of the **My orders** section in the Customer area.
 
 ![order-files.png]({{site.baseurl}}/attachments/ref_208aL8a0/order-files.png)
 
