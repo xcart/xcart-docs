@@ -95,7 +95,7 @@ If you need to include product SKU data into the export file use the **Products 
 
 A data import for the Make/Model/Year module can also be done in two different ways:
 
-1. With SKU
+1. **With SKU**
    
    The fields that should be added to a products-mmy-YYYY-MM-DD.csv file to populate the module with products should be as follows:
    ![csv.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/csv.png)
@@ -115,7 +115,7 @@ A data import for the Make/Model/Year module can also be done in two different w
      
    You CAN upload products to the module even without configuring the module levels beforehand. The levels and their values will be added to the **Catalog** -> **Make/Model/Year/Engine** section automatically from the products-mmy-YYYY-MM-DD.csv file you imported. 
 
-2. Without SKU
+2. **Without SKU**
    
    The fields that should be added to a mmy-YYYY-MM-DD.csv file to populate the module with products should be as follows:
    ![mmy-listing-csv.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/mmy-listing-csv.png)
@@ -123,3 +123,10 @@ A data import for the Make/Model/Year module can also be done in two different w
    The fields' names in the mmy-YYYY-MM-DD.csv file should correspond with the level names you set on the **Make/Model/Year Module** settings page and should have the REAL level values (the value **ALL** can't be used here).
    
    You CAN'T upload products to the module without configuring the module levels beforehand.
+   
+## Make/Model/ Year Selection Statistics
+
+The module allows a store admin to track visitors' selection statistics in a special section in the admin area (Catalog -> M/M/Y selection statistics):
+![selection-stats.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/selection-stats.png)
+
+A store admin can trace visitors' choice for the last day/week/month period and maintain the store inventory accordingly.
