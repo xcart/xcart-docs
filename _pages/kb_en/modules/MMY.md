@@ -66,7 +66,7 @@ To configure the filters:
 3. When the levels are configured, you can add products on the very last step by clicking the **Manage Products** link in the end. 
    * If the products are already added/uploaded to the store click the **'Add product'** button and choose the products that meet the filters you configured from a list in a pop-up.
      ![select_products.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/select_products.png)
-   * If the products are not uploaded to the store as yet, you can import them with a .csv file using the guides from {% link "CSV import: Products" ref_WmJBfwxA %}.
+   * If the products are not uploaded to the store as yet, you can import them with a .csv file using the guides [here](https://kb.x-cart.com/modules/MMY.html#makemodelyear-module-data-importexport "Make/Model/Year Module").
    
 ## **Level info** Page Set-Up
 
