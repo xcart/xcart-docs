@@ -127,6 +127,6 @@ A data import for the Make/Model/Year module can also be done in two different w
 ## Make/Model/ Year Selection Statistics
 
 The module allows a store admin to track visitors' selection statistics in a special section in the admin area (Catalog -> M/M/Y selection statistics):
-![selection-stats.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/selection-stats.png)
+![mmye-selection-stats.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/mmye-selection-stats.png)
 
-A store admin can trace visitors' choice for the last day/week/month period and maintain the store inventory accordingly.
+A store admin can trace visitors' preferences for the last day/week/month period and maintain the store inventory accordingly.
