@@ -9,6 +9,12 @@ published: true
 ---
 The [Make/Model/Year module](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year Module") allows to set up up to 4 levels of filter for inventory, as well as to remember the filters for the non-registered visitors and to remember the vehicle for the registered customers. Though the module is mainly aimed at the sellers of auto parts or/and moto parts, it can also be used by any seller who differentiates the products by levels like computers, copiers, smartphones, etc. 
 
+The **Make/Model/Year** filters show up on all pages in your online store. A customer selects a make of a product, a model, a year and an engine using convenient modern selectors and gets a list of products with the set characteristics.
+
+![filters-fontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/filters-fontend.png)
+
+Registered customers can save their vehicles in the account with the **'Remember my vehicle'** checkbox. Next time they come to your store, they will see the parts for their vehicles right away without the need to use filters.
+
 {% toc %}
 
 ## Make/Model/Year Module Installation and Set-Up
@@ -38,7 +44,7 @@ With the **Use separate tab for the fitment on the product page** option enabled
 </div>
 {% endnote %}
 
-## Settings Up Filter Levels
+## Filter Levels Set-Up
 
 When the **Make/Model/Year** module settings are configured you can proceed with setting up the filter levels and populating the module with products. 
 
@@ -50,55 +56,70 @@ To configure the filters:
    * When all the makes are added, click **Save changes**.  
 
 2. Proceed with the next levels configuration (Model/Year/Engine) likewise. 
-   * Click the **Manage Model** link opposite to the **Make** (**Manage Year** link opposite to the **Model**) and so on and add the positions for the next levels. 
+   * Click the **Manage Model** link opposite to the **Make** (**Manage Year** link opposite to the **Model** and so on) and add the positions for the next levels. 
      <div class="ui stackable three column grid">
         <div class="column" markdown="span">![model.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/model.png)</div>
         <div class="column" markdown="span">![year.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/year.png)</div>
         <div class="column" markdown="span">![engine.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/engine.png)</div>
      </div>
-     
-    * Starting from Level 2 (**Model**), each sublevel has a special **Level info** page, that if configured will be displayed in the storefront depending on the selected filters. It’s especially useful if you want to provide your customers with additional information on Make, Model or particular vehicle when they select it. Due to flexible settings, you can set the same page, for example, for all models and years or a separate page for each model (and even year). Using a simple interface you can set the page Title, Image and Description. 
-      ![level_info.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/level_info.png)
-
-      When a customer clicks to filter the parts, he will be redirected to the corresponding landing page (**Level info** page) with its own name, image and information. This page will also contain the list of spare parts for the vehicle specified by the customer. 
-
-      <div class="ui stackable two column grid">
-          <div class="column" markdown="span">![landing_admin.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/landing_admin.png)</div>
-          <div class="column" markdown="span">![landing-customer.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/landing-customer.png)</div>
-      </div>
-
-      If the **Level page** is not configured for a sublevel, the module will display the search results depending on the filters set by a customer.
-      ![customer_filters.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/customer_filters.png)
-
 
 3. When the levels are configured, you can add products on the very last step by clicking the **Manage Products** link in the end. 
    * If the products are already added/uploaded to the store click the **'Add product'** button and choose the products that meet the filters you configured from a list in a pop-up.
      ![select_products.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/select_products.png)
    * If the products are not uploaded to the store as yet, you can import them with a .csv file using the guides from {% link "CSV import: Products" ref_WmJBfwxA %}.
+   
+## **Level info** Page Set-Up
+
+Starting from Level 2 (**Model**), each sublevel has a special **Level info** page, that if configured will be displayed in the storefront depending on the selected filters. It’s especially useful if you want to provide your customers with additional information on Make, Model or particular vehicle when they select it. Due to flexible settings, you can set the same page, for example, for all models and years or a separate page for each model (and even year). Using a simple interface you can set the page Title, Image and Description. 
+![level_info.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/level_info.png)
+
+When a customer clicks to filter the parts, he will be redirected to the corresponding landing page (**Level info** page) with its own name, image and information. This page will also contain the list of spare parts for the vehicle specified by the customer. 
+
+<div class="ui stackable two column grid">
+   <div class="column" markdown="span">![landing_admin.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/landing_admin.png)</div>
+   <div class="column" markdown="span">![landing-customer.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/landing-customer.png)</div>
+</div>
+
+If the **Level page** is not configured for a sublevel, the module will display the search results depending on the filters set by a customer.
+
+![customer_filters.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/customer_filters.png)
+
+
+## Make/Model/Year Module Data Import/Export 
+
+The Make/Model/Year module data can be exported in the **Catalog** -> **Export** section:
+
+![export.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/export.png)
+
+If you need to include product SKU data into the export file use the **Products with Make/Model/Year/Engine** export option (products-mmy-YYYY-MM-DD.csv file format). The **Make/Model/Year/Engine listing** export option gives all the same export data except for the product SKU (mmy-YYYY-MM-DD.csv).
+
+A data import for the Make/Model/Year module can also be done in two different ways:
+
+1. With SKU
+   
+   The fields that should be added to a products-mmy-YYYY-MM-DD.csv file to populate the module with products should be as follows:
+   ![csv.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/csv.png)
+   
+   The fields' names in the products-mmy-YYYY-MM-DD.csv file should correspond with the level names you set on the **Make/Model/Year Module** settings page.
+   
+   {% note info %}
      
-## Make/Model/Year Module Data Import/Export   
+   If the value **ALL** is specified for a field, the SKU will be added to all existing level values (works for predefined levels only). 
      
- The fields that should be added to a .csv file to populate the module with products should be as follows:
-![csv.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/csv.png)
-  
- The fields' names in the .csv file should correspond with the level names you set on the **Make/Model/Year Module** settings page.
-  
-  {% note info %}
-  
-  If the value **ALL** is specified for a field, the SKU will be added to all existing level values (works for predefined levels only). 
-  
-  e.g. 
-  make/model/year : all/A5/2012
-  
-  In this case new items will be added to all existing Make levels (make1/A5/2012, … makeNN/A5/2012). You can even import values as make/model/year: all,all,all and the SKU will be added to all existing Make/Model/Year levels. 
-  
-  {% endnote %}
-  
-  You can upload products to the module even without configuring the module levels beforehand. The levels and their values will be added to the **Catalog** -> **Make/Model/Year/Engine** section automatically from the .csv file you imported. 
-  
+   e.g. 
+   make/model/year : all/A5/2012
+     
+   In this case new items will be added to all existing Make levels (make1/A5/2012, … makeNN/A5/2012). You can even import values as make/model/year: all,all,all and the SKU will be added to all existing Make/Model/Year levels. 
+     
+   {% endnote %}
+     
+   You CAN upload products to the module even without configuring the module levels beforehand. The levels and their values will be added to the **Catalog** -> **Make/Model/Year/Engine** section automatically from the products-mmy-YYYY-MM-DD.csv file you imported. 
 
-The **Make/Model/Year** filters show up on all pages in your online store. A customer selects a make of a product, a model, a year and an engine using convenient modern selectors and gets a list of products with the set characteristics.
-
-![filters-fontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/filters-fontend.png)
-
-Registered customers can save their vehicles in the account with the **'Remember my vehicle'** checkbox. Next time they come to your store, they will see the parts for their vehicles right away without the need to use filters.
+2. Without SKU
+   
+   The fields that should be added to a mmy-YYYY-MM-DD.csv file to populate the module with products should be as follows:
+   ![mmy-listing-csv.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/mmy-listing-csv.png)
+   
+   The fields' names in the mmy-YYYY-MM-DD.csv file should correspond with the level names you set on the **Make/Model/Year Module** settings page and should have the REAL level values (the value **ALL** can't be used here).
+   
+   You CAN'T upload products to the module without configuring the module levels beforehand.
