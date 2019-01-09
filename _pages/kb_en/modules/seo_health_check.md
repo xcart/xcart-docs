@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-10-22 10:21 +0400'
 identifier: ref_2RwDb3OY
 title: SEO Health Check
-order: 230
+order: 233
 published: true
 ---
 The [SEO Health Check module](https://market.x-cart.com/addons/seo-check.html "SEO Health Check") is a tool for keeping track of common SEO tasks that need to be done on the site. 
