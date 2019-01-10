@@ -30,7 +30,7 @@ Here's how to configure a downloadable product from the store back end (Admin ar
    
    If necessary, you will be able to delete or change the attachment file at any time later.
    
-4. Adjust the file settings as you require.
+4. Adjust the file settings as you require. See [Managing Downloadable Product Attachments](#managing-downloadable-product-attachments)
 
 5. Save the changes.
 
