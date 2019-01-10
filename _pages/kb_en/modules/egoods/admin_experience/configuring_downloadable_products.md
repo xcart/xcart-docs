@@ -7,7 +7,7 @@ title: Configuring Downloadable Products
 order: 130
 published: true
 ---
-Configuring a downloadable product is similar to adding an ordinary product. The only difference regarding configuring a downloadable product is that after completing basic product setup as described in {% link "Adding products" ref_fhzzxDTy %} you must assign a downloadable file to the product and - as the product will not require physical shipping - disable shipping for it.
+Adding a downloadable product is similar to adding an ordinary product. The only difference is that when you configure a downloadable product you must assign a downloadable file to it and - as the product will not require physical shipping - disable shipping for it.
 
 Here's how to configure a downloadable product from the store back end (Admin area or - in the case of X-Cart Multivendor - Vendor area):
 1. Create a new product or find an existing product that you wish to turn into a downloadable one. 
@@ -15,5 +15,5 @@ Here's how to configure a downloadable product from the store back end (Admin ar
   ![shipping.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/shipping.png)
 3. Go to the **Attachments** tab and assign a file to the product.
   ![attachments.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/attachments.png)
-  You can upload files from your local computer, from your local server and via an external URL.
+  You can upload files from your local computer, from your local server or via an external URL. For example, it is possible to use a shareable URL pointing to a file in a storage like One Drive, DropBox, or Google Drive.
 4. Save the changes.
