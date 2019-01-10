@@ -16,8 +16,7 @@ You can do that using the addon [File attachments](https://market.x-cart.com/add
 The addon adds a special tab on the product page in the store back end -  "Attachments" - which enables you to attach files to the product; your store visitors can then download these files from the product page.
 ![att-1.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/att-1.png)
 
-You can upload files from your local computer, from a URL or from your store server. The maximum file size is limited by the server settings.
-
+You can upload files from your local computer, from your local server or from a URL. The maximum file size is limited by the server settings.
 
 To add an attachment to a product:
 
