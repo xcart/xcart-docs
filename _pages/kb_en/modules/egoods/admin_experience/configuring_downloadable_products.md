@@ -34,9 +34,11 @@ Here's how to configure a downloadable product from the store back end (Admin ar
 
 5. Save the changes.
 
-Note that it is possible to create downloadable products by cloning existing products in your store catalog or by import:
-   * {% link "Cloning Products" ref_5gTzBmtP %}
-   * {% link "CSV Import: Products" ref_WmJBfwxA %}
+Note that it is possible to create downloadable products by cloning existing products in your store catalog or by import.
+
+When you clone a downloadable product, the contents of the Attachments tab of the product from which a clone is created is copied to the clone product. As a result, you get two products using the same file attachment(s). If necessary, you can then edit the file attachments for the clone product (replace the files, adjust the _Free_ / _Paid_ access settings, adjust the membership based access settings, and the like). For more info on product cloning, see the section {% link "Cloning Products" ref_5gTzBmtP %}.
+   
+For more info on product import, see the section {% link "CSV Import: Products" ref_WmJBfwxA %}.
 
 ## Managing Downloadable Product Attachments
 Attachments associated with a downloadable product can be managed via the Attachments tab of the product details: 
