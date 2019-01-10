@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-05-19 10:34 +0400'
 identifier: ref_WmJBfwxA
-title: 'CSV import: Products'
+title: 'CSV Import: Products'
 categories:
   - User manual
 published: true
