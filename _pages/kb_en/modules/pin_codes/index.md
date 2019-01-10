@@ -7,7 +7,7 @@ title: PIN Codes Module
 order: 207
 published: true
 ---
-The [PIN Codes](https://market.x-cart.com/addons/pin-codes.html "PIN Codes Module") module in X-Cart allows you to sell Licenses and Enrollment Keys, PIN codes, Serial Numbers, Activation Codes and Passwords, Phone cards and Access codes online. This module is free and available in Business, Multivendor and Ultimate editions.
+The [PIN Codes](https://market.x-cart.com/addons/pin-codes.html "PIN Codes Module") module in X-Cart allows you to sell Licenses and Enrollment Keys, PIN codes, Serial Numbers, Activation Codes and Passwords, Phone cards and Access codes online. 
 
 _In this section_:
 * {% link "PIN Codes module: Installation and Setup" ref_5uEPaGnt %}
