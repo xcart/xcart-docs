@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 16:07 +0400'
 identifier: ref_iy9cOdWS
-title: CSV format by X-Cart data type
+title: CSV Format by X-Cart Data Type
 categories:
   - User manual
 published: true
