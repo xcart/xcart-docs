@@ -1,12 +1,13 @@
 ---
-identifier: ref_JobVfzZg
-updated_at: 2016-06-16 00:00
-layout: article_with_sidebar
 lang: en
-title: 'CSV import: Customers'
+layout: article_with_sidebar
+updated_at: '2016-06-16 00:00'
+identifier: ref_JobVfzZg
+title: 'CSV Import: Customers'
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 Below is a list of supported fields and their respective value types for the import of customers:
