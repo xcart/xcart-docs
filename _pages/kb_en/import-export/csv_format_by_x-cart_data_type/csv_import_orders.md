@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-14 14:41 +0400'
 identifier: ref_import_orders_csv
-title: 'CSV import: Orders'
+title: 'CSV Import: Orders'
 categories:
   - CSV import
 published: true
