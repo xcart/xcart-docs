@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-06-16 00:00'
 identifier: ref_qTbDu6Ov
-title: 'CSV import: Classes &amp; Attributes'
+title: 'CSV Import: Classes &amp; Attributes'
 categories:
   - User manual
 published: true
