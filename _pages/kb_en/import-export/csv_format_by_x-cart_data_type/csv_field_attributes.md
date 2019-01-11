@@ -1,12 +1,13 @@
 ---
-identifier: ref_2LwMTTTW
-updated_at: 2016-01-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'CSV field attributes'
+layout: article_with_sidebar
+updated_at: '2016-01-26 00:00'
+identifier: ref_2LwMTTTW
+title: CSV field attributes
 categories:
   - User manual
-
+published: true
+order: 1900
 ---
 
 
