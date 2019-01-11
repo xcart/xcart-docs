@@ -13,11 +13,11 @@ order: 1900
 
 Below is an explanation of some attributes that we use to describe specific fields in an import CSV file from the viewpoint of value type that can be imported through them. Use this information to read the CSV format tables in the following sections:
 
-*   {% link "CSV import: Products" ref_WmJBfwxA %}
-*   {% link "CSV import: Classes & Attributes" ref_qTbDu6Ov %}
-*   {% link "CSV import: Product attribute values" ref_Z7XdREZl %}
-*   {% link "CSV import: Categories" ref_ekmg5iLG %}
-*   {% link "CSV import: Customers" ref_JobVfzZg %}
+*   {% link "CSV Import: Products" ref_WmJBfwxA %}
+*   {% link "CSV Import: Classes & Attributes" ref_qTbDu6Ov %}
+*   {% link "CSV Import: Product attribute values" ref_Z7XdREZl %}
+*   {% link "CSV Import: Categories" ref_ekmg5iLG %}
+*   {% link "CSV Import: Customers" ref_JobVfzZg %}
 
 <table class="ui celled padded compact small table">
   <thead>
