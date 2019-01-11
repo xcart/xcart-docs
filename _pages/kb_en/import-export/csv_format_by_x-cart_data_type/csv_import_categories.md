@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-04-26 10:00 +0400'
 identifier: ref_ekmg5iLG
-title: 'CSV import: Categories'
+title: 'CSV Import: Categories'
 categories:
   - User manual
 published: true
