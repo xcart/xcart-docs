@@ -62,6 +62,7 @@ _In this section:_
 *   {% link "Hurry Up" ref_4XQjes9g %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "Infinite Scroll" ref_1WLu7suL %}
+*   {% link "Kissmetrics" ref_C3AVd3Zp %}
 *   {% link "Loyalty Program" ref_1Odyn6mT %}
 *   {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
 *   {% link "Make/Model/Year Module" ref_0Esu2RNW %}
