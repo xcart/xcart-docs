@@ -11,7 +11,7 @@ The module E-goods modifies your X-Cart 5 store so it can be used to sell digita
 
 The module E-goods extends the functionality of the module [**File Attachments**](https://market.x-cart.com/addons/file-attachments.html "E-goods") allowing you to specify whether a file uploaded for a product can be accessed from the product page at any time freely, or can be downloaded only after the product has been purchased. 
 
-The module makes use of X-Cart's memberships feature allowing you to restrict customer access to specific files based on customer membership; this can be used to provide different files to different membership levels.
+The module makes use of X-Cart's memberships feature allowing you to restrict customer access to specific files based on customer membership; this can be used to provide different files to different customer membership levels.
 
 For even more control of your downloadable goods orders, the module enables you to include an additional step into your order processing routine for downloadable products so you can manually review and approve an order before the buyer can actually access the downloadable content they have ordered.  
 
