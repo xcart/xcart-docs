@@ -10,6 +10,7 @@ published: true
 [Kissmetrics](https://www.kissmetrics.com/) is a popular behavioral analytics and engagement platform. By connecting your X-Cart store to Kissmetrics, you get a mighty tool to analyze your online store and your customers’ behaviour in it.
 
 An X-Cart 5 store can be connected to Kissmetrics using one of the following methods:
+{% toc %}
    
    * [Method 1: Paste some Kissmetrics-provided JS code into your store using X-Cart's custom JS feature](#method-1-paste-some-kissmetrics-provided-js-code-into-your-store-using-x-carts-custom-js-feature) (supported by X-Cart versions 5.1 and later). 
    * [Method 2: Connect X-Cart to Kissmetrics by means of the free Segment Integration module](method-2-connect-x-cart-to-kissmetrics-by-means-of-the-free-segment-integration-module) (available for all X-Cart 5 versions).
@@ -67,13 +68,3 @@ To connect your store to Kissmetrics via the Segment Integration module, follow 
 
   10. Time to run some tests. If the integration works well, and the customers are already browsing you store now, in about 30 minutes or so you will see the first reports in your Kissmetrics dashboard. But there’s a faster way to verify: you can check how it's logging your own activity in the store in the [Live](https://app.kissmetrics.com/live) mode of Kissmetrics. Select the "My Activity" tab on the left-hand side menu and use the field provided there to paste the URL of your X-Cart store; click **Show my activity**, and your site will open in a new browser window allowing you to track your own activity. Do a few things your store visitors typically do on your site: try to find a product, add it to the shopping cart, place an order, rate a product, and so on. If you can see it tracked by Kissmetrics, welcome to the club =)
      ![xc5_kissmetrics_my_activity.png]({{site.baseurl}}/attachments/ref_C3AVd3Zp/xc5_kissmetrics_my_activity.png)
-
-
-
-
-    
-
-
-   
-
-
