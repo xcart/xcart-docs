@@ -21,9 +21,9 @@ In order to make use of the off-site storage feature, the store administrator wi
 2. At the step **Permissions**, create a new group for the user or assign the user to an existing group. For this group, enable the policies `AmazonS3FullAccess` and `AmazonS3ReadOnlyAccess`:
    ![amazons3_2.png]({{site.baseurl}}/attachments/ref_ZszpDfxQ/amazons3_2.png)
 
-3. Review the user details, click **Next**.
+3. Review the user details. If all is correct, click **Next**.
 
-4. At the step **Complete**, loate your AWS access key and AWS secret key. You will need to copy and paste them into the appropriate fields on the E-goods module settings page in your X-Cart store.
+4. At the step **Complete**, locate your AWS access key and AWS secret key; you will need to copy and paste them into the appropriate fields on the E-goods module settings page in your X-Cart store.
    ![amazons3_3.png]({{site.baseurl}}/attachments/ref_ZszpDfxQ/amazons3_3.png)
 
 5. In your X-Cart store Admin area, adjust the settings in the section **Amazon Signed URLs** of the E-goods module settings page: 
@@ -40,11 +40,14 @@ In order to make use of the off-site storage feature, the store administrator wi
 
 6. Save the changes. This will connect your AWS account with your X-Cart store. 
 
-Once the connection has been set up, the store administrator will be able to upload files of nearly any size onto the S3 Storage service of AWS and use them to configure downloadable products. Here's how it can be done:
+Once the connection has been set up, the store administrator will be able to upload files of nearly any size onto the S3 Storage service of AWS and use them to configure downloadable products. 
+
+Here's how it can be done:
 
 1. Once a file has been uploaded onto S3, copy the URL of that file. 
-2. In X-Cart, on the Attachments tab of the product details, select **Add file** -> **Via URL**. 
-3. In the Upload file box, paste the URL that has been copied from S3 and un-check the box **Copy file to local server**.
-4. Click **Upload**.
+2. In X-Cart, find the product for which you wish to add this file as a downloadable attachment. 
+3. On the Attachments tab of the product details, select **Add file** -> **Via URL**. 
+4. In the Upload file box, paste the URL that has been copied from S3 and un-check the box **Copy file to local server**.
+5. Click **Upload**.
 
 As a result, the product will be linked to the S3-stored file that has been specified.
