@@ -6,6 +6,8 @@ identifier: ref_C3AVd3Zp
 title: Kissmetrics
 order: 152
 published: true
+redirect_from:
+  - /seo_and_promotion/connecting_to_kissmetrics.html
 ---
 [Kissmetrics](https://www.kissmetrics.com/) is a popular behavioral analytics and engagement platform. By connecting your X-Cart store to Kissmetrics, you get a mighty tool to analyze your online store and your customers’ behaviour in it.
 
