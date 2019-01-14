@@ -5,7 +5,7 @@ updated_at: '2019-01-14 09:32 +0400'
 identifier: ref_1L33zOCa
 title: Segment Integration
 order: 710
-published: false
+published: true
 ---
 [Segment](https://segment.com "Segment Integration") is a powerful data aggregation tool which automatically collects information about your store's visitors, tracks e-commerce events and sends the gathered data to apps for analytics, marketing, data processing and storing. 
 
@@ -15,5 +15,15 @@ The module collects information on all the pages in your store a user visits. Th
 
 Though the module tracks so much data, it's absolutely invisible for your customers and light-weight for your server, having no impact on your store performance.
 
-Segment is integrated with hundreds of tools and applications for further processing of the collected information such as Mixpanel, Google Analytics, Localytics, RJ Metrics, SalesForce, HubSpot, Optimizely, Crazy Egg, ZenDesk, SalesMachine, Clicky and over a hundred of others. 
+* {% link "Segment Integration Module Installation and Configuration" ref_2tHtk4OT %}
+
+Segment is integrated with hundreds of tools and applications for further processing of the collected information such as Mixpanel, Google Analytics, Localytics, etc. 
+
+Below are the most popular applications that can be configured via the Segment Integration module:
+
+* {% link "Kissmetrics" ref_C3AVd3Zp %}
+* Google Adds
+* Pinterest Tags
+
+
 
