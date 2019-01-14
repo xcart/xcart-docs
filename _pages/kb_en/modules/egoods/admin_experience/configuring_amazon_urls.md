@@ -9,8 +9,9 @@ published: true
 redirect_from:
   - /modules/egoods/configuring_amazon_urls.html
 ---
-Starting with E-goods module version 5.3.3.0, it is possible to use Amazon S3 to store downloadable files for e-goods.  
-The benefit of this feature is to save server space at the same time limiting access to valuable files (such as proprietary MP3s) only to those customers who have made a purchase.
+Starting with the E-goods module version 5.3.3.0, it is possible to use Amazon S3 to store files for downloadable products.  
+
+This feature enables you to save server space and restrict access to valuable files (such as proprietary MP3s) only to those customers who have made a purchase.
 
 In order to make use of the off-site storage feature, the store administrator will need to follow the steps below:
 
@@ -47,4 +48,3 @@ Once the connection has been set up, the store administrator will be able to upl
 4. Click **Upload**.
 
 As a result, the product will be linked to the S3-stored file that has been specified.
-
