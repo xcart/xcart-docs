@@ -11,11 +11,12 @@ published: true
 
 An X-Cart 5 store can be connected to Kissmetrics using one of the following methods:
 {% toc %}
-   
-   * [Method 1: Paste some Kissmetrics-provided JS code into your store using X-Cart's custom JS feature](#method-1-paste-some-kissmetrics-provided-js-code-into-your-store-using-x-carts-custom-js-feature) (supported by X-Cart versions 5.1 and later). 
-   * [Method 2: Connect X-Cart to Kissmetrics by means of the free Segment Integration module](method-2-connect-x-cart-to-kissmetrics-by-means-of-the-free-segment-integration-module) (available for all X-Cart 5 versions).
 
 ## Method 1: Paste some Kissmetrics-provided JS code into your store using X-Cart's custom JS feature
+
+{% note warning %}
+The method is supported by X-Cart versions 5.1 and later.
+{% endnote %}
 
 To connect your X-Cart store to Kissmetrics using this method, follow the steps below:
 
@@ -32,6 +33,10 @@ To connect your X-Cart store to Kissmetrics using this method, follow the steps 
       ![xc5_kissmetrics_my_activity.png]({{site.baseurl}}/attachments/ref_C3AVd3Zp/xc5_kissmetrics_my_activity.png)
       
 ## Method 2: Connect X-Cart to Kissmetrics by means of the free Segment Integration module
+
+{% note warning %}
+The method is available for all X-Cart 5 versions.
+{% endnote %}
 
 Another method to connect your X-Cart 5 based store to Kissmetrics is by means of the free [Segment Intergation](https://market.x-cart.com/addons/segment-integration.html) module by Qualiteam. [Segment](http://support.kissmetrics.com/article/show/implementing-kissmetrics-with-segment) is a powerful data aggregation tool which automatically collects information about your store's visitors, tracks e-commerce events and can send the gathered data to over a hundred of apps for analytics, marketing, data processing and storing. Kissmetrics is among them. 
 
