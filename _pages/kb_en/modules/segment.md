@@ -5,7 +5,7 @@ updated_at: '2019-01-09 12:58 +0400'
 identifier: ref_2tHtk4OT
 title: Segment Integration
 order: 230
-published: false
+published: true
 ---
 X-Cart is integrated with Segment via a special free [Segment Integration](https://market.x-cart.com/addons/segment-integration.html "Segment Integration") module. The integration provides access to such useful tools like Goole Analytics, Mixpanel, Pinterest Tags, Google Ads, Facebook Pixel, Kissmetrics, etc.
 
@@ -75,9 +75,3 @@ To add a Destination:
 4. Wait for data to flow to the newly added system.
 
 In case of any difficulties with the Segment back-end configuration you can always refer to [Segment documentation](https://segment.com/docs/ "Segment Integration") for help.
-
-
-
-
-
-
