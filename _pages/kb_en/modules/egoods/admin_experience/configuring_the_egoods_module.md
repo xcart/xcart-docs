@@ -30,4 +30,4 @@ Here you'll need to adjust the module settings:
 
 To facilitate the download of large file attachments (100 Mb and larger) by customers, use X-Sendfile. To do so, contact your hosting provider to make sure X-Sendfile is installed on the server and configure your X-Cart installation to support large file downloads. For details, see the section {% link "Configuring your X-Cart server for better large file download performance" ref_yCxquUhl %}. 
 
-Alternatively use {% link "Amazon S3 Signed URLs" ref_51iHbWYa %}.
+Alternatively, use Amazon S3 Signed URLs. See the section {% link "Configuring Amazon S3 Signed URLs" ref_51iHbWYa %} for more info.
