@@ -13,11 +13,9 @@ The module E-goods extends the functionality of the module [**File Attachments**
 
 The module makes use of X-Cart's memberships feature allowing you to restrict customer access to specific files based on customer membership; this can be used to provide different files to different membership levels.
 
-For even more control of your downloadable goods orders, you will be able to include an additional step into your order processing routine for downloadable products so you can manually review and approve an order before the buyer can actually access the downloadable content they have ordered.  
+For even more control of your downloadable goods orders, the module enables you to include an additional step into your order processing routine for downloadable products so you can manually review and approve an order before the buyer can actually access the downloadable content they have ordered.  
 
-In addition to that, the module helps you to combat piracy by limiting the number of days that a download link should be available and the number of times that this link can be used by customers.
-
-
+The module helps you to combat piracy by limiting the number of days that a download link should be available and the number of times that this link can be used by customers.
 
 
 _In this section:_
