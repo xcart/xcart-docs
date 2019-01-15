@@ -22,7 +22,7 @@ The following settings can be adjusted:
 
 * **Downloads limit (per 1 ordered item)**: Secify the number of download attempts that should be available to the buyer who has purchased a downloadable product (i.e. how many times the buyer of a downloadable product should be able to download the product using the download link provided to them). To allow unlimited access, set this value to zero. **Important**: Since it is not possible for X-Cart to track the download of files from Amazon Signed URLs, for files stored on Amazon S3, the setting "Downloads limit (per 1 ordered item)" will only affect the number of times that a URL can be opened by the buyer (regardless of whether the file has been downloaded).
 
-* **Keep a history of downloads**: Amazon S3 Signed URLs are counted per link access (not download), because X-Cart cannot track downloads on the Amazon S3 Storage.
+* **Keep a history of downloads**: Specify whether your X-Cart store should keep a history of downloads for downloadable files. Because X-Cart cannot track downloads from the Amazon S3 storage, for files stored on Amazon S3, the history of downloads will be formed based on the buyer's attempts to open the respective Amazon S3 Signed URLs. 
 
 * **Show only ESD related fulfilment statuses**: With this option enabled, your store will use only three fulfilment statuses for all orders: _New_, _Delivered_ and _Will Not Deliver_. You can rename the statuses as you require using the {% link "Custom order statuses" ref_7FIU2sxJ %} module
 
