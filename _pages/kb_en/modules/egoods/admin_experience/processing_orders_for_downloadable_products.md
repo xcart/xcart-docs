@@ -7,7 +7,7 @@ title: Processing Orders for Downloadable Products
 order: 140
 published: true
 ---
-The order processing routine for orders containing e-goods may be different depending on the way the setting "Approve before providing access to download" in the {% "module configuration settings" ref_1dsuHf3i %} has been adjusted: 
+The order processing routine for orders containing e-goods may be different depending on the way the setting "Approve before providing access to download" in the {% link "module configuration settings" ref_1dsuHf3i %} has been adjusted: 
 
    * If this setting is disabled, a buyer who orders a downloadable product gets the download link as soon as they have paid for the order.
    
