@@ -25,7 +25,6 @@ Using SEO analytics and reports will give you insight into your sales and custom
 *   {% link "Optimizing your catalog pages for SEO" ref_OBh3V1k1 %}
 *   {% link "Submitting your shop to search engines" ref_OqJ2oZTE %}
 *   {% link "SEO Health Check" ref_2RwDb3OY %}
-*   {% link "Connecting to Kissmetrics" ref_C3AVd3Zp %}
 *   {% link "Google Analytics" ref_6NqAify2 %}
 *   {% link "Segment Integration" ref_1L33zOCa %}
 
