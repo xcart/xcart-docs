@@ -18,7 +18,7 @@ Once the module has been enabled, the store administrator must adjust the module
 The following settings can be adjusted:
 ![settings-1.png]({{site.baseurl}}/attachments/ref_1dsuHf3i/settings-1.png)
 
-* **Download link TTL (days)**: The number of days that a download link should be available to the customer. Set this value to zero for unlimited access. If you are using Amazon Signed URLs, TTL is limited to 7 days.
+* **Download link TTL (days)**: The number of days that a download link should be available to the buyer. Set this value to zero for unlimited access. If you are using Amazon Signed URLs, TTL is limited to 7 days.
 
 * **Downloads limit (per 1 ordered item)**: The number of download attempts available to the customer. Set this value to zero for unlimited access. If you are using Amazon Signed URLs, this settings controls the limit of link renewal, because it is impossible to control downloads on the Signed URL.
 
