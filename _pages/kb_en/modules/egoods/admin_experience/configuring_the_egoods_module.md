@@ -24,7 +24,7 @@ The following settings can be adjusted:
 
 * **Keep a history of downloads**: Specify whether your X-Cart store should keep a history of downloads for downloadable files. Because X-Cart cannot track downloads from the Amazon S3 storage, for files stored on Amazon S3, the history of downloads will be formed based on the buyer's attempts to open the respective Amazon S3 Signed URLs. 
 
-* **Show only ESD related fulfilment statuses**: With this option enabled, your store will use only three fulfilment statuses for all orders: _New_, _Delivered_ and _Will Not Deliver_. You can rename the statuses as you require using the {% link "Custom order statuses" ref_7FIU2sxJ %} module
+* **Show only ESD related fulfilment statuses**: If you sell only downloadable products and want to get rid of any fulfilment statuses that are used for tangible goods, but not for e-goods, enable this option. It will disable all the standard X-Cart order fulfilment statuses except for the following three: _New_, _Delivered_ and _Will Not Deliver_. If you wish you can rename the statuses as you require using the module {% link "Custom order statuses" ref_7FIU2sxJ %}.
 
 * **Approve before providing access to download**: If enabled, a customer will get a download link for the product only after an order is paid and the order fulfilment status is changed from _Waiting for approve_ to any other (except for _Will not deliver_). If disabled, a customer will get a download link as soon as the orders is paid, the order fulfilment status will be preset to _NEW_.
 
