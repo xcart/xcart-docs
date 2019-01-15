@@ -20,7 +20,7 @@ The following settings can be adjusted:
 
 * **Download link TTL (days)**: This setting pertains to the link that a buyer can use to access the downloadable file(s) of the product they have purchased. It specifies the number of days that the link should be available to the buyer. To allow unlimited access, set this value to zero. If you are using Amazon Signed URLs, TTL is limited to 7 days.
 
-* **Downloads limit (per 1 ordered item)**: The number of download attempts available to the customer. Set this value to zero for unlimited access. If you are using Amazon Signed URLs, this settings controls the limit of link renewal, because it is impossible to control downloads on the Signed URL.
+* **Downloads limit (per 1 ordered item)**: The number of download attempts that should be available to the buyer. To allow unlimited access, set this value to zero. If you are using Amazon Signed URLs, this settings controls the limit of link renewal, because it is impossible to control downloads on the Signed URL.
 
 * **Keep a history of downloads**: Amazon S3 Signed URLs are counted per link access (not download), because X-Cart cannot track downloads on the Amazon S3 Storage.
 
