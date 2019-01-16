@@ -9,12 +9,12 @@ published: true
 ---
 The order processing routine for orders containing e-goods may be different depending on the way the setting "Approve before providing access to download" in the {% link "module configuration settings" ref_1dsuHf3i %} has been adjusted: 
 
-   * If this setting is disabled, a buyer who orders a downloadable product gets the download link as soon as they have paid for the order.
+   * If this setting is disabled, a buyer who orders a downloadable product gets the download link as soon as they have paid for the order. The order fulfilment status is preset to _New_.
    
-   * If this setting is enabled, the product download link does not become available to the buyer right after an order is placed. The order gets the fulfilment status _Waiting for approve_, and the store administrator needs to manually review the order.
+   * If this setting is enabled, a buyer who orders a downloadable product _does not_ get the download link right away. The order gets the fulfilment status _Waiting for approve_, and the store administrator needs to manually review the order. 
 ![wfa_status.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/wfa_status.png)
 
-The download link becomes available after the administrator changes the order fulfilment status to any other except for _Will not deliver_ provided that the order is paid (payment status is paid). If the admin changes the order fulfilment status to _Will not deliver_ the customer will not get access to the download link. More info on X-Cart order statuses you can find in {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}.
+     Provided that the order has been paid for (the order payment status is _Paid_), after making sure that all is well with the order, the administrator can allow the buyer access to the download link by switching the fulfilment status of the order to any status other than _Will not deliver_; as soon as it happens, the buyer will get access to the download link. If the administrator chooses not to provide access to the download link to the buyer, they can switch the fulfilment status of the order to _Will not deliver_, and the buyer will not get access to the download link. More info on X-Cart order statuses can be found in {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}.
 
 Once an order is processed, the store administrator can update the e-goods status in the _E-goods_ tab of the Order details page:
 
