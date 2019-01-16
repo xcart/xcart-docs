@@ -48,7 +48,7 @@ For this purpose:
 4. Click **Save changes**
 
 {% note info %}
-You can enable additional grouping options in the /etc/config.local.php file if applicable:
+You can enable additional grouping options in the webroot/etc/config.php file if applicable:
   * condition 
   * adult
   * tax category 
