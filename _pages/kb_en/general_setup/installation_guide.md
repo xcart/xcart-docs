@@ -59,7 +59,7 @@ Here is the system requirements list:
 ### Hardware requirements
 
 {% note warning %}
-Use X-Cart on NIX-based servers only!
+Use X-Cart on \*NIX-based servers only (Ubuntu, Debian, CentOS etc.)!
 {% endnote %}
 
 <table class="ui celled padded compact small table">
