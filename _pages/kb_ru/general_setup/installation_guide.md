@@ -57,7 +57,7 @@ icon: download
 ## Аппаратные требования
 
  {% note warning %}
- Используйте X-Cart только на NIX серверах. 
+ Используйте X-Cart только на \*NIX серверах (Ubuntu, Debian, CentOS итд.)!
  {% endnote %}
  
  <table class="ui celled padded compact small table">
