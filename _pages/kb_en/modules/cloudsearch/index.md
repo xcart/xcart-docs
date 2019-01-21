@@ -10,7 +10,7 @@ published: true
 
 CloudSearch is a SaaS solution that integrates with X-Cart to enable dynamic, real-time product search including autosuggest and spelling correct in an X-Cart based store. Use the Dashboard to control the search behavior, gather statistics, and gain insights on user behavior and demands. 
 
-CloudSearch is easy to use, just start typing in the search box in your storefront. Search results start to be displayed instantly and are refined as the user continues typing. If it is on your site, it will be found. 
+CloudSearch is easy to use. Just start typing in the search box in your storefront. Search results start to be displayed instantly and are refined as the user continues typing. If it is on your site, it will be found. 
 
 The search covers categories, manufacturers and static pages as well as product attributes such as product name, description, SKU, product options, extra fields, category and manufacturer. CloudSearch recognizes word forms and provides other advanced full-text search capabilities. The CloudSearch widget in your store interacts directly with our cloud without increasing load on your server. 
 
