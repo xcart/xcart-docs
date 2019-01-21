@@ -13,4 +13,4 @@ To start using the module it should be turned ON in the **Addons** section of yo
 
 ![module-settings.png]({{site.baseurl}}/attachments/ref_7qk2On7k/module-settings.png)
 
-CloudFilters is enabled automatically along with the CLoudSearch module. To configure CloudFilters in your store refer to the guide. 
+CloudFilters is enabled automatically along with the CLoudSearch module. To configure CloudFilters in your store, see {% link "this guide" %}.
