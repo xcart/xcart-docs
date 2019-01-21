@@ -23,7 +23,7 @@ The set of filters to be displayed on a page is automatically narrowed down and 
 
 Once the filter is applied, all the images and prices are instantly updated.
 
-To configure filters open the _Cloudfilters_ tab on the **Catalog** -> **CloudSearch & CloudFilters** page in the Admin area. 
+To configure filters, open the _Cloudfilters_ tab on the **Catalog** -> **CloudSearch & CloudFilters** page in the Admin area. 
 
 ![cloudfilters.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters.png)
 
