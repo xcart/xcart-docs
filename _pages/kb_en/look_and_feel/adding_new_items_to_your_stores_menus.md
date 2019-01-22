@@ -39,8 +39,18 @@ To add a new item to one of your store's menus:
     A new empty entry will be added to the list. This is where you will create your page link.
     
 3.  Provide information about the page link that you want to add to the menu:
-    *   **Item name**: This is how your menu item will appear to users.
-    *   **Link**: This is the address of the page to which the menu item will take the user who clicks on it. Note that if you want to specify a link to an external resource, you must use the http:// prefix. For example, to add a link to google.com, you will need to enter the link as [http://google.com/](http://google.com/).
+    *   **Item name**: Name the menu item to way it will appear to users.
+    *   **Link**: Specify the address of the page the menu item redirect the users to. 
+        Use one of the following shortcut codes to specify the link address within your store:
+           * Relative path (e.g. cart.php?target=checkout)
+           * Absolute path (e.g. https://<your_store_domain>/cart.php?target=checkout).
+           * Page name values (e.g. {home})
+
+        {% note info %}
+        If you want to specify a link to an external resource, you must use the http:// prefix.
+        
+        For example, to add a link to google.com, you will need to enter the link as [http://google.com/](http://google.com/).
+        {% endnote %}
     
 4.  Click** Save changes**.
     ![save-new-manu.png]({{site.baseurl}}/attachments/ref_BDykFBbw/save-new-manu.png)
