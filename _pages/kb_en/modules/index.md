@@ -54,6 +54,7 @@ _In this section:_
 *   {% link "Free Shipping and Shipping freights" ref_4Bfeegp9 %}
 *   {% link "Geolocation Module" ref_34F5BkhW %}
 *   {% link "Gift Wrapping" ref_3eTR6n0m %}
+*   {% link "Google AdWords (via Segment Integration)" ref_0XLukKQy %}
 *   {% link "Google Product Feed Module" ref_2gQBB6qM %}
 *   {% link "Google reCAPTCHA " ref_4S6YEcnH %}
 *   {% link "Go Social" ref_4YoBovhW %}
@@ -78,6 +79,7 @@ _In this section:_
 *   {% link "PDF Invoices" ref_4pIx0x0g %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
 *   {% link "PIN Codes Module" ref_2ioJzfJL %}
+*   {% link "Pinterest Tag (via Segment Integration)" ref_7efT5dbq %}
 *   {% link "Pop-up Anywhere" ref_5KvYsWjw %}
 *   {% link "Product Advisor" ref_72asis58 %}
 *   {% link "Products Carousel" ref_4yBBezmL %}
