@@ -25,51 +25,50 @@ published: false
    Щелкните внутри поля «Выберите продукт» и начните вводить название продукта или его номер. Модуль будет предоставлять результаты поиска по мере ввода. Как только вы увидите нужный вам товар, нажмите на его название, и продукт будет добавлен:
    ![prom-3.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-3.png)
   
-* Specify one or more search queries for which you want the search results to include the selected product on the topmost line of the Products section of the CloudSearch widget:
+* Укажите один или несколько поисковых запросов, для которых вы хотите, чтобы результаты поиска включали выбранный продукт в верхнюю строку раздела «Продукты» виджета CloudSearch:
   
    ![prom-4.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-4.png)  
    
    {% note info %}
-   Use commas (,) to separate search queries OR click ENTER after each query you type.
+   Используйте запятые (,) для разделения поисковых запросов ИЛИ нажимайте ENTER после каждого введенного вами запроса.
    {% endnote %}
 
-  
-* Click the **Create promotion** button at the bottom when you are done:
+* Нажмите кнопку ** Создать продвижение ** внизу, когда закончите:
   ![prom-5.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-5.png)
 
-* The promotion is created. You should be able to see it in the _Promotions_ list:
+* Акция создана. Вы должны увидеть его в списке _Promotions_:
   
   ![prom-6.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-6.png)
 
-Now if you visit the store’s front end and do a search for "iphone" or "6splus" or any other key from the list, you should be able to see a link to iPhone 6S Plus on the first line of search results under "Products":
+Теперь, если вы зашли в магазин и выполнили поиск «iphone», «6splus» или любого другого ключа из списка, вы сможете увидеть ссылку на iPhone 6S Plus в первой строке результатов поиска в разделе «Продукты»:
 
 ![prom-res.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-res.png)
 
 {% note info %}
-If you decide to add more search queries to a product later on, just type them next to exisitng ones and SAVE the changes.
+Если вы решите добавить дополнительные поисковые запросы к продукту позже, просто введите их рядом с существующими и СОХРАНИТЕ изменения.
 
 ![prom-7.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-7.png)
 {% endnote %}
 
 
-# Setting the order of promotions in search results
+# Настройка порядка продвижения в результатах поиска
 
-If you choose to configure multiple promotions for the same search query, you will be able to adjust the order in which the promotions should be displayed in the search results inside the CloudSearch widget in your store’s front end. 
+Если вы решите настроить несколько рекламных акций для одного и того же поискового запроса, вы сможете настроить порядок, в котором рекламные объявления должны отображаться в результатах поиска внутри виджета CloudSearch в интерфейсе вашего магазина.
 
-Use arrows to move a promotion up or down:
+Используйте стрелки для перемещения продвижения вверх или вниз:
 
 ![prom-sort.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-sort.png)
 
-The new order will be saved automatically.
+Новый заказ будет сохранен автоматически.
 
-# Deleting promotions
+# Удаление рекламных акций
 
-You can delete any promotion you no longer need. 
-For this purpose locate the promotion in question and click the trash icon:
+Вы можете удалить любую рекламу, которая вам больше не нужна.
+Для этого найдите нужную акцию и щелкните значок корзины:
 
 ![trash-1.png]({{site.baseurl}}/attachments/ref_0OurnBzC/trash-1.png)
 
-Then confirm your decision in a pop-up:
+Затем подтвердите свое решение во всплывающем окне:
 
 ![trash-2.png]({{site.baseurl}}/attachments/ref_0OurnBzC/trash-2.png)
 
