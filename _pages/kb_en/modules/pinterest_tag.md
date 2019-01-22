@@ -5,7 +5,7 @@ updated_at: '2019-01-22 11:31 +0400'
 identifier: ref_7efT5dbq
 title: Pinterest Tag (via Segment Integration)
 order: 208
-published: false
+published: true
 ---
 [Pinterest Tag](https://market.x-cart.com/addons/pinterest-tag.html "Pinterest Tag (via Segment Integration)") integration allows you to track actions people take on your website after viewing your Promoted Pin. You can use this information to measure campaign performance, optimize spend, and create audiences to target on Pinterest. 
 
