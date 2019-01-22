@@ -3,8 +3,8 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2019-01-21 15:24 +0400'
 identifier: ref_5lJ5vNbL
-title: ''
-order: 100
+title: Включение CloudSearch и CloudFilters
+order: 200
 published: false
 ---
 Для включения модуля CloudSearch следуйте инструкциям из статьи {% link "Включение и отключение модулей" ref_IEo2gFuZ %}
