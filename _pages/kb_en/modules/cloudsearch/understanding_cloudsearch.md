@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-04-16 12:57 +0400'
 identifier: ref_5IHjr19k
 title: Understanding CloudSearch
-order: 200
+order: 300
 published: true
 ---
 For each store connected to CloudSearch service we maintain an index of searchable data. The data is pulled from the store using the API provided by the CloudSearch connector module installed in the store. On our servers, the data is indexed (specially prepared for more efficient storage and searching), after which it can be yielded as search results in response to requests coming from the search widget. That is to say, a piece of data can be found by CloudSearch only if it is contained in the index. X-Cart's products, pages, categories and manufacturers (collectively, these are referred to as "items") are pulled from your store via the above mentioned API three times a day (every eight hours). This accounts for the 8 hours' delay between the time you update information on your site and the moment that this information becomes searchable via CloudSearch.
