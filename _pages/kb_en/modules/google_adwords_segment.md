@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-01-21 11:31 +0400'
 identifier: ref_0XLukKQy
-title: Google AdWords (Segment)
+title: Google AdWords (via Segment Integration)
 order: 129
 published: true
 ---
