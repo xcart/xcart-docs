@@ -19,8 +19,11 @@ Though the module tracks so much data, it's absolutely invisible for your custom
 
 Segment is integrated with hundreds of tools and applications for further processing of the collected information such as Mixpanel, Google Analytics, Localytics, etc. 
 
-Below are the most popular advertising applications that can be configured via the Segment Integration module:
+To get a mighty tool to analyze your online store and your customers’ behaviour in it you can connect your X-Cart store to Kissmetrics, a popular behavioral analytics and engagement platform. 
 
 * {% link "Kissmetrics" ref_C3AVd3Zp %}
+
+To advertise the goods you are selling and attract new customers connect your X-Cart store to Google Ads and Pinterest:
+
 * {% link "Google AdWords " ref_0XLukKQy %}
 * {% link "Pinterest Tag " ref_7efT5dbq %}
