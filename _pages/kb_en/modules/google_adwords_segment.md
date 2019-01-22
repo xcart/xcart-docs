@@ -5,17 +5,18 @@ updated_at: '2019-01-21 11:31 +0400'
 identifier: ref_0XLukKQy
 title: Google AdWords (Segment)
 order: 129
-published: false
+published: true
 ---
-Google AdWords is a powerful tool for attracting new customers and growing your user base. It gives a merchant an ability to evaluate the effectiveness of business campaign and make necessary adjustments. 
+Google AdWords is a powerful tool for attracting new customers and growing your user base. It gives a merchant an ability to evaluate the effectiveness of a business campaign and make necessary adjustments if required. 
 
 X-Cart allows to submit data to Google AdWords and get access to all the advantages it gives via the Segment Integration module facilities. 
 
 {% note warning %} 
-To be able to submit data to Google AdWords you need the {% link "Segment Integration module" ref_2tHtk4OT %} to be installed and enabled.
+To be able to submit data to Google AdWords you need the {% link "Segment Integration module" ref_2tHtk4OT %} installed, enabled and configured to collect data from your X-Cart store.
 {% endnote %}
 
-To configure Google AdWords via Segment a store admin nees to:
+To configure Google AdWords via Segment a store admin should:
+
 1. Open the Segment back-end
 2. Click **Add destination** on the Segment Overview page:
    ![add-destination-overview.png]({{site.baseurl}}/attachments/ref_0XLukKQy/add-destination-overview.png)
@@ -25,12 +26,7 @@ To configure Google AdWords via Segment a store admin nees to:
    ![configure-ga.png]({{site.baseurl}}/attachments/ref_0XLukKQy/configure-ga.png)
 5. Choose the source site the data to be transferred from:
    ![select-source-ga.png]({{site.baseurl}}/attachments/ref_0XLukKQy/select-source-ga.png)
-6. Follow the [configuration procedures](https://segment.com/docs/destinations/google-adwords-new/ "Google AdWords (Segment)")
-   Here you need to specify your Google AdWords 
+6. Follow the configuration procedures as described in [Segment Docs](https://segment.com/docs/destinations/google-adwords-new/ "Google AdWords (Segment)") 
+7. Enable the Google AdWords New destination when you are done.
 
-It is also possible to make your ads appear only in specific geographical locations.
-
-
-
-Lots of people use Google to search for numerous things. It's a wonderful opportunity to show them that what you offer is exactly what they need. In Google's advertising system you bid on keywords for your ads to appear in search results. You are charged only when your ads are clicked on and a person lands on your website as a result.
 
