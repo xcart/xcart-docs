@@ -19,11 +19,8 @@ Though the module tracks so much data, it's absolutely invisible for your custom
 
 Segment is integrated with hundreds of tools and applications for further processing of the collected information such as Mixpanel, Google Analytics, Localytics, etc. 
 
-Below are the most popular applications that can be configured via the Segment Integration module:
+Below are the most popular advertising applications that can be configured via the Segment Integration module:
 
 * {% link "Kissmetrics" ref_C3AVd3Zp %}
-* Google Adds
-* Pinterest Tags
-
-
-
+* {% link "Google AdWords " ref_0XLukKQy %}
+* {% link "Pinterest Tag " ref_7efT5dbq %}
