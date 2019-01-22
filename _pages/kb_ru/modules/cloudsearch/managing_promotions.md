@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2019-01-22 17:26 +0400'
 identifier: ref_6zriMkVX
-title: ''
+title: Продвижение товаров при помощи CloudSearch
 order: 400
 published: false
 ---
