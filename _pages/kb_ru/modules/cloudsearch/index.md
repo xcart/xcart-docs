@@ -19,8 +19,8 @@ CloudSearch может быть дополнен CloudFilters для испол�
 
 _В данном разделе:_
 
-   * {% link "Включение CloudSearch и CloudFilters" ref_7qk2On7k %}
-   * {% link "Общие принципы работы CloudSearch" ref_5IHjr19k %}
-   * {% link "Продвижение товаров при помощи CloudSearch" ref_0OurnBzC %}
-   * {% link "Управление синонимами в CloudSearch" ref_7H4podhD %}
-   * {% link "CloudFilters" ref_25POvGjV %}
+   * {% link "Включение CloudSearch и CloudFilters" ref_5lJ5vNbL %}
+   * {% link "Общие принципы работы CloudSearch" ref_4rLETt0g %}
+   * {% link "Продвижение товаров при помощи CloudSearch" ref_6zriMkVX %}
+   * {% link "Управление синонимами в CloudSearch" ref_2BtZQT9C %}
+   * {% link "Настройка и использование CloudFilters" ref_5klrPdyQ %}
