@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2019-01-22 17:12 +0400'
 identifier: ref_4rLETt0g
-title: ''
+title: Общие принципы работы CloudSearch
 order: 100
 published: false
 ---
