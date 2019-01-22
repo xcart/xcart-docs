@@ -27,6 +27,7 @@ To configure Google AdWords via Segment a store admin should:
 5. Choose the source site the data to be transferred from:
    ![select-source-ga.png]({{site.baseurl}}/attachments/ref_0XLukKQy/select-source-ga.png)
 6. Follow the configuration procedures as described in [Segment Docs](https://segment.com/docs/destinations/google-adwords-new/ "Google AdWords (Segment)") 
+   ![setup-guide-ga.png]({{site.baseurl}}/attachments/ref_0XLukKQy/setup-guide-ga.png)
 7. Enable the Google AdWords New destination when you are done.
 
 
