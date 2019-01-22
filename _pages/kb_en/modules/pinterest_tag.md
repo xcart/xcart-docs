@@ -13,6 +13,8 @@ X-Cart allows to submit data to Pinterest and get access to all the advantages i
 
 {% note warning %} 
 To be able to submit data to Pinterest you need the {% link "Segment Integration module" ref_2tHtk4OT %} installed, enabled and configured to collect data from your X-Cart store.
+
+Also you need a Pinterest business account. If you don't yet have one, you can sign up [here](https://ads.pinterest.com/ "Pinterest Tag (via Segment Integration)").
 {% endnote %}
 
 To configure Pinterest via Segment a store admin should:
