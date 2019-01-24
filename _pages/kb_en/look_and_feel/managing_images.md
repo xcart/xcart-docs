@@ -25,12 +25,19 @@ Any images used in the store will be displayed in accordance with the configurat
 ![images-3.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images-3.png)
 
 Defauls image settings are as follows:
+
 * **Use dynamic image resizing** : This setting determines what happens if X-Cart cannot find a resized version of an image generated previously it needs to display. If this setting is enabled, an appropriately sized version of the image is generated on the fly. If this setting is disabled, the original (non-resized) image is used.
 * **Image quality after resize** : Set the desired image quality in %.
 * **Apply unsharp mask filter on resize** : This setting allows to increase sharpness of the resized images in the most highly detailed areas of the image. (_becomes available only if GDLib is intalled on the server_)
+  {% note info %}
+  The **Apply unsharp mask filter on resize** setting is available only if the server X-Cart is hosted at is configured to use **gdlib**. In case the serer is configured to use **imagmagic** the setting is not available.
+  {% endnote %}
 * **Cloud Zoom** : Toggle this setting on if you want to give your customers an opportunity to view an image in its original size and quality.
 *  **Cloud Zoom Mode** : Choose if you want the zoomed image to be displayed inside the general image area or outside it. (_becomes available only if Cloud Zoom is ON_)
 * **Use blurred image placeholders for smart image loading** : When enabled, pre-loaded low resolution images or single color background image placeholders are used to replace the actual full resolution images on the storefront before they are fully loaded.
+  {% note info %}
+  The **Use blurred image placeholders for smart image loading** setting is available for the Crisp White skin only.
+  {% endnote %}
 
 The images size-chart presents the actual space (width(px) and height(px)) available for an image on a page and differs depending on the {% link "skin installed" ref_GLqVdpgd %}. All images used in the store are resized to fit the image space taking into account the settings configured above. You can change the default sizes if required. However, please do in mind that the original image should be at least 2 times bigger than the size of an image space it will be resized to.
 
