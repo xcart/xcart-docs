@@ -30,7 +30,7 @@ Defauls image settings are as follows:
 * **Image quality after resize** : Set the desired image quality in %.
 * **Apply unsharp mask filter on resize** : This setting allows to increase sharpness of the resized images in the most highly detailed areas of the image. (_becomes available only if GDLib is intalled on the server_)
   {% note info %}
-  The **Apply unsharp mask filter on resize** setting is available only if the server X-Cart is hosted at is configured to use **gdlib**. In case the serer is configured to use **imagmagic** the setting is not available.
+  The **Apply unsharp mask filter on resize** setting is available only if the server X-Cart is hosted at is configured to use **gdlib**. In case the server is configured to use **imagmagic** the setting is not available.
   {% endnote %}
 * **Cloud Zoom** : Toggle this setting on if you want to give your customers an opportunity to view an image in its original size and quality.
 *  **Cloud Zoom Mode** : Choose if you want the zoomed image to be displayed inside the general image area or outside it. (_becomes available only if Cloud Zoom is ON_)
