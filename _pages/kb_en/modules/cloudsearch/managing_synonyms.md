@@ -18,23 +18,17 @@ To add a synonym group:
    
    A popup titled **Add synonyms** will appear.
    
-2. In the popup, click inside the input field and type one or more search queries that you want to be treated as synonymous (You must enter at least one word or phrase.) 
+2. In the popup, click inside the input field and type one or more search queries that you want to be treated as synonymous (You must enter at least one word or phrase.) To enter multiple search queries, separate the individual queries with commas (,) or press ENTER after each query as you type.
 
 3. Click **Add synonyms**.
    ![syn-3.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-3.png)
 
+The synonym group will be created. Now if you try searching with these queries in the store front end, the search results will be the same for all the queries from the group.
 
-{% note info %}
-
-Use commas (,) to separate search queries OR click ENTER after each query you type.
-{% endnote %}
-
-
-A synonym group will be created. You can delete and add items to the group and delete the group itself if necessary:
+If necessary you can add synonyms to an existing group and remove specific synonyms from a group. You can also delete the group itself.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![syn-4.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-4.png)</div>
   <div class="column" markdown="span">![syn-5.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-5.png</div>
 </div>
 
-Now if you try searching with these queries in the store’s front end, the search results will be the same for all the queries from the group.
