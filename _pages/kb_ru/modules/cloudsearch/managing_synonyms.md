@@ -11,10 +11,8 @@ published: false
 
 Добавление синонимов и управление ими осуществляется на вкладке **Synonyms** («Синонимы») в разделе **Каталог** -> **CloudSearch & CloudFilters** панели управления магазином.
 
-Чтобы добавить синоним groud, нажмите кнопку ** Добавить синонимы **:
-
+Чтобы добавить группу синонимов, нажмите кнопку **Add synonyms** («Добавить синонимы»):
 ![syn-1.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-1.png)
-
 
 In the popup window, click inside the input field and type the word(s) or phrase(s) you want to be treated as equal in meaning to the first one (at least one needs to be added). 
 Hit **Add synonym group** when you are done:
