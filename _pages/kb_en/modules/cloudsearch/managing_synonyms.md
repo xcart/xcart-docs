@@ -11,14 +11,17 @@ Synonyms is another feature available to users on paid accounts. It can be used 
 
 Synonyms can be added and managed via the _Synonyms_ tab in the **Catalog** -> **CloudSearch & CloudFilters** section of the Admin area. 
 
-To add a synonym group, hit the button **Add synonyms**:
+To add a synonym group:
 
-![syn-1.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-1.png)
+1. Click **Add synonyms**:
+   ![syn-1.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-1.png)
+   
+   A popup titled **Add synonyms** will appear.
+   
+2. In the popup, click inside the input field and type one or more search queries that you want to be treated as synonymous (You must enter at least one word or phrase.) 
 
-In the popup window, click inside the input field and type the word(s) or phrase(s) you want to be treated as equal in meaning to the first one (at least one needs to be added). 
-
-Hit **Add synonym group** when you are done:
-![syn-3.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-3.png)
+3. Click **Add synonyms**.
+   ![syn-3.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-3.png)
 
 
 {% note info %}
