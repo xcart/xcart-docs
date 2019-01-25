@@ -50,9 +50,8 @@ published: false
 Новый порядок будет сохранен автоматически.
 
 # Удаление промо акций
+Вы можете удалить любую промо акцию, если она вам более не нужна. 
+   ![cloud_remove_promo.png]({{site.baseurl}}/attachments/ref_6zriMkVX/cloud_remove_promo.png)
 
-Вы можете удалить любую промо акцию, если она вам более не нужна. Для этого найдите нужную акцию и щелкните значок корзины:
-   ![trash-1.png]({{site.baseurl}}/attachments/ref_0OurnBzC/trash-1.png)
 
-Затем подтвердите свое решение во всплывающем окне:
-   ![trash-2.png]({{site.baseurl}}/attachments/ref_0OurnBzC/trash-2.png)
+
