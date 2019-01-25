@@ -36,7 +36,7 @@ published: false
   ![cloud_promo_list.png]({{site.baseurl}}/attachments/ref_6zriMkVX/cloud_promo_list.png)
 
 Теперь, если вы зайдете в магазин и выполните поиск, используя «iphone», «6splus» или любой другой ключ из списка, вы сможете увидеть ссылку на iPhone 6S Plus в первой строке результатов поиска в разделе «Товары»:
-  ![prom-res.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-res.png)
+  ![cloud_promo_on_front_end.png]({{site.baseurl}}/attachments/ref_6zriMkVX/cloud_promo_on_front_end.png)
 
 Если позже вы решите добавить дополнительные поисковые запросы для этого же товара, просто введите их рядом с существующими и сохраните изменения.
    ![prom-7.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-7.png)
