@@ -19,20 +19,18 @@ published: false
   ![cloud_add_promo.png]({{site.baseurl}}/attachments/ref_6zriMkVX/cloud_add_promo.png)
   
   Появится всплывающее окно **Add product promotion** («Добавить промо акцию для товара»):
-  ![prom-2.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-2.png)
+  ![cloud_add_promo_popup.png]({{site.baseurl}}/attachments/ref_6zriMkVX/cloud_add_promo_popup.png)
   
 2. Во всплывающем окне **Add product promotion** («Добавить промо акцию для товара») выберите товар, который вы хотите продвигать:
   
    Щелкните внутри поля **Product** («Товар») и начните вводить название продукта или его артикул. Модуль будет выводить результаты поиска по мере ввода. Как только вы увидите нужный вам товар, щелкните по его названию, и товар будет добавлен:
-   ![prom-3.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-3.png)
+   ![cloud_select_product.png]({{site.baseurl}}/attachments/ref_6zriMkVX/cloud_select_product.png)
   
-3. Укажите один или несколько поисковых запросов, для которых результаты поиска должны включать выбранный товар в самой верхней позиции в разделе «Товары» виджета CloudSearch:
-   ![prom-4.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-4.png)  
-   
-   Для ввода нескольких запросов используйте запятые (,) для разделения отдельных поисковых запросов в списке, либо нажимайте ENTER после каждого введенного вами запроса.
+3. Укажите один или несколько поисковых запросов, для которых результаты поиска должны включать выбранный товар в самой верхней позиции в разделе «Товары» виджета CloudSearch. Для ввода нескольких запросов используйте запятые (,) для разделения отдельных поисковых запросов в списке, либо нажимайте ENTER после каждого введенного вами запроса.
+  ![cloud_promo_queries.png]({{site.baseurl}}/attachments/ref_6zriMkVX/cloud_promo_queries.png)
 
 4. Нажмите кнопку **Add promotion** («Создать промо акцию»).
-  ![prom-5.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-5.png)
+  ![cloud_iphone_promo_add.png]({{site.baseurl}}/attachments/ref_6zriMkVX/cloud_iphone_promo_add.png)
 
 Промо акция создана. Вы можете увидеть ее в списке на вкладке **Promotions** («Промо акции»):
   ![prom-6.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-6.png)
