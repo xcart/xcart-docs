@@ -16,17 +16,13 @@ published: false
 1. Нажмите кнопку **Add synonyms** («Добавить синонимы»):
    ![cloud_add_synonyms.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_add_synonyms.png)
 
-2. Во всплывающем окне щелкните внутри поля ввода и введите один или более поисковых запросов, которые вы хотите считать синонимичными (нужно добавить хотя бы одно слово или фразу). При необходимости добавления нескольких поисковых запросов, запросы в списке могут быть отделены друг от друга с помощью запятых (,) либо с помощью нажатия кнопки ENTER после каждого введенного запроса. 
+   Появится всплывающее окно **Add synonyms** («Добавить синонимы»):
+   ![cloud_add_synonyms_popup.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_add_synonyms_popup.png)
 
-3. Нажмите **Добавить группу синонимов**.
+2. Во всплывающем окне щелкните внутри поля ввода и введите один или более поисковых запросов, которые вы хотите считать синонимичными. (Необходимо добавить хотя бы одно слово или фразу). При необходимости добавления нескольких поисковых запросов, запросы в списке могут быть отделены друг от друга с помощью запятых (,) либо с помощью нажатия кнопки ENTER после каждого введенного запроса. 
 
-![syn-3.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-3.png)
-
-
-{% note info %}
-
-Use commas (,) to separate search queries OR click ENTER after each query you type.
-{% endnote %}
+3. Нажмите кнопку **Add synonyms** («Добавить синонимы»).
+   ![syn-3.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-3.png)
 
 
 A synonym group will be created. You can delete and add items to the group and delete the group itself if necessary:
