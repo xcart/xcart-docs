@@ -11,7 +11,9 @@ Promotions is a feature available to users on paid accounts. It allows the store
 
 # Creating Promotions
 
-Let's say that you are selling smartphones and want to promote, for example, iPhones (all of them or maybe just a certain SKU). So how to create a respective promotion?
+Let us imagine that you are selling smartphones and want to promote, for example, iPhones (all of them, or just a certain SKU). 
+
+Here's how you can create a promotion:
 
 * In the store’s Admin area, go to the **Catalog** -> **CloudSearch & Cloudfilters** section, locate the _Promotions_ tab and click **Add Promotion**:
   
