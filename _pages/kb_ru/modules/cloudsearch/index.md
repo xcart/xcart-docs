@@ -3,7 +3,7 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2019-01-21 15:03 +0400'
 identifier: ref_43XxjWQE
-title: ''
+title: CloudSearch and CloudFilters
 order: 100
 published: false
 ---
