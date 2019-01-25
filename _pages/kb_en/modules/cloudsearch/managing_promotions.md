@@ -15,30 +15,24 @@ Let us imagine that you are selling smartphones and want to promote, for example
 
 Here's how you can create a promotion:
 
-* In the store’s Admin area, go to the **Catalog** -> **CloudSearch & Cloudfilters** section, locate the _Promotions_ tab and click **Add Promotion**:
+1. In the store’s Admin area, go to the **Catalog** -> **CloudSearch & Cloudfilters** section, locate the **Promotions** tab and click **Add Promotion**:
+   ![prom-1.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-1.png)
   
-  ![prom-1.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-1.png)
-  
-  A popup window titled “Add new promotion” will be displayed:
-  ![prom-2.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-2.png)
+   A popup window titled "Add product promotion" will be displayed:
+   ![prom-2.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-2.png)
   
   
-* In the “Add promotion” popup window, select the product that you want to be promoted:
+2. In the “Add product promotion” popup window, select the product that you want to be promoted:
   
-  Click inside the “Select a product” field and start typing the product’s name or SKU. The module will provide search results as you type. As soon as you see the item you require, click on its name and the product will be added:
+  Click inside the “Product” field and start typing the product name or SKU. The module will provide search results as you type. As soon as you see the item you require, click on its name and the product will be added:
   ![prom-3.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-3.png)
   
-  
-* Specify one or more search queries for which you want the search results to include the selected product on the topmost line of the Products section of the CloudSearch widget:
-  
+3. Specify one or more search queries for which the selected product should be listed in the topmost position of search results in the Products section of the CloudSearch widget:
   ![prom-4.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-4.png)
   
-  {% note info %}
-  Use commas (,) to separate search queries OR click ENTER after each query you type.
-  {% endnote %}
-
-  
-* Click the **Create promotion** button at the bottom when you are done:
+  To enter multiple search queries, separate the individual queries with commas (,) or press ENTER after each query as you type.
+    
+4. Click **Create promotion**.
   
   ![prom-5.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-5.png)
 
