@@ -11,11 +11,14 @@ published: false
 
 Добавление синонимов и управление ими осуществляется на вкладке **Synonyms** («Синонимы») в разделе **Каталог** -> **CloudSearch & CloudFilters** панели управления магазином.
 
-Чтобы добавить группу синонимов, нажмите кнопку **Add synonyms** («Добавить синонимы»):
-![syn-1.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-1.png)
+Чтобы добавить группу синонимов:
 
-In the popup window, click inside the input field and type the word(s) or phrase(s) you want to be treated as equal in meaning to the first one (at least one needs to be added). 
-Hit **Add synonym group** when you are done:
+1. Нажмите кнопку **Add synonyms** («Добавить синонимы»):
+   ![cloud_add_synonyms.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_add_synonyms.png)
+
+2. Во всплывающем окне щелкните внутри поля ввода и введите один или более поисковых запросов, которые вы хотите считать синонимичными (нужно добавить хотя бы одно слово или фразу). При необходимости добавления нескольких поисковых запросов, запросы в списке могут быть отделены друг от друга с помощью запятых (,) либо с помощью нажатия кнопки ENTER после каждого введенного запроса. 
+
+3. Нажмите **Добавить группу синонимов**.
 
 ![syn-3.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-3.png)
 
