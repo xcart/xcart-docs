@@ -24,11 +24,13 @@ published: false
 3. Нажмите кнопку **Add synonyms** («Добавить синонимы»).
    ![cloud_add_syn_group.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_add_syn_group.png)
 
-A synonym group will be created. You can delete and add items to the group and delete the group itself if necessary:
+Группа синонимов будет добавлена. Теперь, если вы попытаетесь выполнить поиск по этим запросам на витрине магазина, результаты поиска будут одинаковыми для всех запросов из группы.
+
+При необходимости вы сможете добавить синонимы в уже существующую группу или удалить отдельные синонимы из группы. Также вы сможете удалить и саму группу.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![syn-4.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-4.png)</div>
   <div class="column" markdown="span">![syn-5.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-5.png</div>
 </div>
 
-Now if you try searching with these queries in the store’s front end, the search results will be the same for all the queries from the group.
+
