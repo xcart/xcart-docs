@@ -35,7 +35,7 @@ published: false
 или удалить отдельные синонимы из группы:
    ![cloud_remove_syn.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_remove_syn.png)
 
-Также вы сможете удалить и саму группу.
+Также вы сможете удалить и саму группу:
    ![cloud_remove_syn_group.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_remove_syn_group.png)
 
 
