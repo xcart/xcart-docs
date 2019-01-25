@@ -16,7 +16,7 @@ published: false
 Итак, как создать соответствующее продвижение:
 
 1. В панели управления магазина перейдите в раздел **Каталог** -> **CloudSearch & Cloudfilters**, найдите вкладку **Promotions** («Промо акции») и выберите **Add promotion** («Добавить промо акцию»):
-  ![prom-1.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-1.png)
+  ![cloud_add_promo.png]({{site.baseurl}}/attachments/ref_6zriMkVX/cloud_add_promo.png)
   
   Появится всплывающее окно **Add product promotion** («Добавить промо акцию для товара»):
   ![prom-2.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-2.png)
