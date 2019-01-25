@@ -33,7 +33,7 @@ published: false
   ![cloud_iphone_promo_add.png]({{site.baseurl}}/attachments/ref_6zriMkVX/cloud_iphone_promo_add.png)
 
 Промо акция создана. Вы можете увидеть ее в списке на вкладке **Promotions** («Промо акции»):
-  ![prom-6.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-6.png)
+  ![cloud_promo_list.png]({{site.baseurl}}/attachments/ref_6zriMkVX/cloud_promo_list.png)
 
 Теперь, если вы зайдете в магазин и выполните поиск, используя «iphone», «6splus» или любой другой ключ из списка, вы сможете увидеть ссылку на iPhone 6S Plus в первой строке результатов поиска в разделе «Товары»:
   ![prom-res.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-res.png)
