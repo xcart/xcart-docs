@@ -24,13 +24,13 @@ published: false
 3. Нажмите кнопку **Add synonyms** («Добавить синонимы»).
    ![cloud_add_syn_group.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_add_syn_group.png)
 
-Группа синонимов будет добавлена. Теперь, если вы попытаетесь выполнить поиск по этим запросам на витрине магазина, результаты поиска будут одинаковыми для всех запросов из группы.
+Группа синонимов будет добавлена. 
+   ![cloud_syn_group_added.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_syn_group_added.png)
 
-При необходимости вы сможете добавить синонимы в уже существующую группу или удалить отдельные синонимы из группы. Также вы сможете удалить и саму группу.
+Теперь, если вы попытаетесь выполнить поиск по этим запросам на витрине магазина, результаты поиска будут одинаковыми для всех запросов из группы.
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![syn-4.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-4.png)</div>
-  <div class="column" markdown="span">![syn-5.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-5.png</div>
-</div>
+При необходимости вы сможете добавить синонимы в уже существующую группу или удалить отдельные синонимы из группы. 
+
+Также вы сможете удалить и саму группу.
 
 
