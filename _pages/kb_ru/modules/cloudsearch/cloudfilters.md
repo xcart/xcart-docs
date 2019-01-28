@@ -23,15 +23,15 @@ published: false
 
 После применения фильтра все изображения и цены мгновенно обновляются.
 
-Чтобы настроить фильтры, откройте вкладку _Cloudfilters_ на странице ** Каталог ** -> ** CloudSearch & CloudFilters ** в панели управления магазина.
+Чтобы настроить фильтры, откройте вкладку **Cloudfilters** на странице **Каталог** -> **CloudSearch & CloudFilters** в панели управления магазина.
 
 ![cloudfilters.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters.png)
 
-На экране вы увидите две вкладки: SET UP FILTERS и SMART FILTER SELECTION FOR SEARCH.
+На экране вы увидите две вкладки с секциями **SET UP FILTERS** и **SMART FILTER SELECTION FOR SEARCH**, соответственно.
 
 ![cloudfilters-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters-1.png)
 
-Основной является секция SET UP FILTERS. Она содержит фильтры, созданные автоматически на основе всех атрибутов товаров, тегов и информации о продавцах, которые определены в вашем магазине. Вы можете включать / отключать фильтры и изменять их настройки:
+Основной является секция **SET UP FILTERS**. Она содержит фильтры, созданные автоматически на основе всех атрибутов товаров, тегов и информации о продавцах, которые определены в вашем магазине. Вы можете включать / отключать фильтры и изменять их настройки:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![filter-settings-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/filter-settings-1.png)</div>
@@ -40,12 +40,11 @@ published: false
 
 Когда фильтр отключен, он не отображается на витрине магазина. 
 
-Кроме фильтров, перечисленных в секции SET UP FILTERS, существуют также фильтры по умолчанию (фильтры категории, цены и производителя), которые всегда включены и используются вместе с фильтрами, которые вы можете включить по вашему выбору.
+Кроме фильтров, перечисленных в секции **SET UP FILTERS**, существуют также фильтры по умолчанию (фильтры категории, цены и производителя), которые всегда включены и используются вместе с фильтрами, которые вы можете включить по вашему выбору.
 
-The SMART FILTER SELECTION FOR SEARCH tab is an advanced filtering system that can be used by the big stores with a wide range of products (and product attributes as a result) to narrow down the filters displayed on the search page in the storefront. Here you can define special filter categories based on customer's search query. As a result, only relevant filters will be shown.
+Секция **SMART FILTER SELECTION FOR SEARCH** - это продвинутая система фильтрации, которая может использоваться большими магазинами с широким ассортиментом товаров (и в результате атрибутами товаров) для сужения фильтров, отображаемых на странице поиска в витрине магазина. Здесь вы можете определить специальные категории фильтров на основе поискового запроса клиента. В результате будут показаны только соответствующие фильтры.
 
-To add a filter category hit the **Add Filter Category** button.
-
+Чтобы добавить категорию фильтра, нажмите кнопку **Add Filter Category** (Добавить категорию фильтра).
 ![smart-filter.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter.png)
 
 
