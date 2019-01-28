@@ -11,7 +11,7 @@ CloudFilters module is aimed at narrowing down search results and helping your c
 
 Filters are displayed on a category/subcategory page, search page and brands page (if the module {% link "Shop by Brand" ref_2LetICls %} is enabled). 
 
-The module shows filters dinamically based on the content of a page they are displayed at. Hence the filters for one category will differ from the filters for another and both of them will differ from the filters displayed on the search page, etc. 
+Filters are shown dinamically based on the content of the page on which they are displayed. Accordingly, the filters for one category will not be the same as the filters for another category, and both of them will differ from the filters displayed on the search page, etc. 
 
 <div class="ui stackable three column grid">
   <div class="column" markdown="span">![filters-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/filters-1.png)</div>
