@@ -19,11 +19,12 @@ This guide describes the process of installing X-Cart 5 on your server.
 
 ## Server requirements
 
-{% note warning %}
-PREREQUISITES: Make sure the server you've chosen to host your X-Cart store is {% link "configured" ref_6tPdxAUT %} for the best software performance taking into consideration all required security settings.
+Before you get started you might want to check whether your web server spec meets system requirements. Even if you don't, the installation wizard will alert you during the process that something is not set up properly.
+
+{% note info %}
+You can always refer to the {% link "Setting up X-Cart 5 environment" ref_6tPdxAUT %} section for the tips on a proper server set-up for the best X-Cart software performance and security.
 {% endnote %}
 
-Before you get started you might want to check whether your web server spec meets system requirements. Even if you don't, the installation wizard will alert you during the process that something is not set up properly.
 
 Here is the system requirements list:
 
