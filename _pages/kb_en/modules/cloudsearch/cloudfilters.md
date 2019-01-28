@@ -26,6 +26,9 @@ Once a filter has been applied, all the images and prices are updated at once.
 To configure filters, open the **Cloudfilters** tab on the **Catalog** -> **CloudSearch & CloudFilters** page in the Admin area. 
 ![cloudfilters.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters.png)
 
+Enable CloudFilters using the button **Enable CloudFilters**:
+<img>
+
 You will see a screen with 2 tab sections, **SET UP FILTERS** and **SMART FILTER SELECTION FOR SEARCH**.
 ![cloudfilters-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters-1.png)
 
