@@ -19,9 +19,9 @@ Filters are shown dinamically based on the content of the page on which they are
   <div class="column" markdown="span">![filters-3.png]({{site.baseurl}}/attachments/ref_25POvGjV/filters-3.png)</div>
 </div>
 
-The set of filters to be displayed on a page is automatically narrowed down and is built based on the  relevant {% link "product attributes" ref_T90ZcEpP %}, {% link "product tags" ref_6nFoxYf1 %} and {% link "vendor" ref_4ahg5FLK %} info. Selected filters are saved in the URL so that one can easily share a link to the filtered list of products. It is not only handy but also advantageous from a SEO standpoint. 
+The set of filters to be displayed on a page is automatically narrowed down and is built based on the  relevant {% link "product attributes" ref_T90ZcEpP %}, {% link "product tags" ref_6nFoxYf1 %} and {% link "vendor" ref_4ahg5FLK %} info. The selected filters are saved in the URL so that one can easily share a link to the filtered list of products. It is not only handy for the users but may also be advantageous for SEO. 
 
-Once the filter is applied, all the images and prices are instantly updated.
+Once a filter has been applied, all the images and prices are updated at once.
 
 To configure filters, open the **Cloudfilters** tab on the **Catalog** -> **CloudSearch & CloudFilters** page in the Admin area. 
 
