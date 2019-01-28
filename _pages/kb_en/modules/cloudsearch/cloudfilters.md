@@ -24,21 +24,19 @@ The set of filters to be displayed on a page is automatically narrowed down and 
 Once a filter has been applied, all the images and prices are updated at once.
 
 To configure filters, open the **Cloudfilters** tab on the **Catalog** -> **CloudSearch & CloudFilters** page in the Admin area. 
-
 ![cloudfilters.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters.png)
 
-You'll see a screen with 2 tabs - **SET UP FILTERS** and **SMART FILTER SELECTION FOR SEARCH**.
-
+You will see a screen with 2 tab sections, **SET UP FILTERS** and **SMART FILTER SELECTION FOR SEARCH**.
 ![cloudfilters-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters-1.png)
 
-The **SET UP FILTERS** tab is the main one. It contains filters gathered automatically through your store based on all the product attributes, tags and vendors defined. You can enable/disable the filters and change the filters settings:
+The section **SET UP FILTERS** is the one where you will do the general setup of your filters. This section contains filters generated automatically based on all the product attributes, tags and vendors defined in your store. You can enable/disable any filters and change the filter settings:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![filter-settings-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/filter-settings-1.png)</div>
   <div class="column" markdown="span">![filter-settings.png]({{site.baseurl}}/attachments/ref_25POvGjV/filter-settings.png)</div>
 </div>
 
-If a filter is disabled it's not displayed in the storefront. 
+If a filter is disabled in the **SET UP FILTERS** section, it is not displayed on the storefront. 
 
 Besides the filters listed in the **SET UP FILTERS** tab there are default filters (category, price and manufacturer) that are always present in addition to the filters you enabled. 
 
