@@ -29,21 +29,21 @@ To configure filters, open the **Cloudfilters** tab on the **Catalog** -> **Clou
 Enable CloudFilters using the button **Enable CloudFilters**:
 <img>
 
-You will see a screen with 2 tab sections, **SET UP FILTERS** and **SMART FILTER SELECTION FOR SEARCH**.
+You will see a screen with 2 tab sections, **Set Up Filters** and **Smart Filter Selection For Product Search**.
 ![cloudfilters-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters-1.png)
 
-The section **SET UP FILTERS** is where you will do the general setup of your filters to be applied store wide. This section provides a list of filters generated automatically based on all the product attributes, tags and vendors defined in your store. You can enable/disable any filters and change the filter settings:
+The section **Set Up Filters** is where you will do the general setup of your filters to be applied store wide. This section provides a list of filters generated automatically based on all the product attributes, tags and vendors defined in your store. You can enable/disable any filters and change the filter settings:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![filter-settings-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/filter-settings-1.png)</div>
   <div class="column" markdown="span">![filter-settings.png]({{site.baseurl}}/attachments/ref_25POvGjV/filter-settings.png)</div>
 </div>
 
-If a filter is disabled in the section **SET UP FILTERS**, it is not displayed on the storefront. 
+If a filter is disabled in the section **Set Up Filters**, it is not displayed on the storefront. 
 
-Besides the filters listed in the section **SET UP FILTERS**, there are some default filters (category, price and manufacturer) that are always present along with the filters you have enabled. 
+Besides the filters listed in the section **Set Up Filters**, there are some default filters (category, price and manufacturer) that are always present along with the filters you have enabled. 
 
-The section **SMART FILTER SELECTION FOR SEARCH** is an advanced filtering system that can be used by big stores with a wide range of products (and, as a result, a lot of product attributes) to narrow down the set of filters displayed on the search page on the storefront. Here you can configure special filter categories based on customer search queries. As a result, only relevant filters will be shown.
+The section **Smart Filter Selection For Product Search** is an advanced filtering system that can be used by big stores with a wide range of products (and, as a result, a lot of product attributes) to narrow down the set of filters displayed on the search page on the storefront. Here you can configure special filter categories based on customer search queries. As a result, only relevant filters will be shown.
 
 To add a filter category:
 
@@ -56,7 +56,7 @@ A popup titled "Add new filter category" will be displayed.
 3. Once you are done selecting the filters, click **Add category**.
 ![smart-filter-popup.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter-popup.png)
 
-For the storefront search page **SMART FILTERS** if configured override the filters from the SET UP FILTERS tab.
+For the storefront search page **Smart Filters** if configured override the filters from the SET UP FILTERS tab.
 
 {% note info %}
 Semantic terms (categories) should correlate with the whole store category structure or product types to cover a certain group of products and should not overlap with each other. 
