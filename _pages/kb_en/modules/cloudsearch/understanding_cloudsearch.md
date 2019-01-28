@@ -41,8 +41,10 @@ The module provides a dashboard where the store administrator can view the store
 
 The dashboard can be reached via the _Settings_ link for the CloudSearch module on the **Addons** page or in the **Catalog** -> **CloudSearch & CloudFilters** section of the Admin back-end.
 
-The central area of the page provides CloudSearch statistics for the store, including the most popular searches that returned search results and the most popular searches that returned nothing. Statistical data is available for three periods: 24 hours, 7 days and 30 days. Search results can be exported to CSV.
+* The central area of the page provides CloudSearch statistics for the store, including the most popular searches that returned search results and the most popular searches that returned nothing. Statistical data is available for three periods: 24 hours, 7 days and 30 days. Search results can be exported to CSV.
 
-The panel titled _Account Info_ shows the module subscription plan info. 
-The panel titled _Your Store_ shows the current number of items (products, categories, manufacturers and pages) in the store. 
-The panel _Search Index_ shows the number of items that are currently contained in the CloudSearch index for your store on our servers.
+* The panel titled _Account Info_ shows the module subscription plan info. 
+
+* The panel titled _Your Store_ shows the current number of items (products, categories, manufacturers and pages) in the store. 
+
+* The panel _Search Index_ shows the number of items that are currently contained in the CloudSearch index for your store on our servers.
