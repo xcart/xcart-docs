@@ -47,10 +47,10 @@ The **SMART FILTER SELECTION FOR SEARCH** tab is an advanced filtering system th
 To add a filter category hit the **Add Filter Category** button.
 ![smart-filter.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter.png)
 
-You'll see a pop-up window where you'll need to define a semantic term and add filters from the list that match this category. Click **Add category** when you are done.
+You will see a popup window where you will need to specify a semantic term and add some filters from the list that should match this category. When you are done selecting the filters, click **Add category**.
 ![smart-filter-popup.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter-popup.png)
 
-For the storefront search page SMART FILTERS if configured override the filters from the SET UP FILTERS tab.
+For the storefront search page **SMART FILTERS** if configured override the filters from the SET UP FILTERS tab.
 
 {% note info %}
 Semantic terms (categories) should correlate with the whole store category structure or product types to cover a certain group of products and should not overlap with each other. 
