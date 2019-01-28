@@ -39,7 +39,7 @@ The module provides a dashboard where the store administrator can view the store
 
 ![cloudsearch.png]({{site.baseurl}}/attachments/ref_5IHjr19k/cloudsearch.png)
 
-The dashboard can be reached via the _Settings_ link for the CloudSearch module on the **Addons** page or in the **Catalog** -> **CloudSearch & CloudFilters** section of the Admin back-end.
+The dashboard can be reached via the _Settings_ link for the CloudSearch module on the **Addons** page or in the **Catalog** -> **CloudSearch & CloudFilters** section of the store Admin area.
 
 * The central area of the page provides CloudSearch statistics for the store, including the most popular searches that returned search results and the most popular searches that returned nothing. Statistical data is available for three periods: 24 hours, 7 days and 30 days. Search results can be exported to CSV.
 
