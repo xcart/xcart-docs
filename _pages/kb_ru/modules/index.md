@@ -16,7 +16,7 @@ icon: puzzle
 *   {% link "Abandoned Cart Reminder (Незавершённые покупки)" ref_4pmEuIKR %}
 *   {% link "Blog System in X-Cart 5 (Блог в X-Cart 5)" ref_6a9ulokJ %}
 *   {% link "Booking (Бронирование)" ref_6glKt5oJ %}
-*   {% link "CloudSearch and CloudFilters (Облачный поиск и Облачные фильтры)" ref_3MF4RL7z %}
+*   {% link "CloudSearch and CloudFilters (Облачный поиск и Облачные фильтры)" ref_43XxjWQE %}
 *   {% link "E-goods (Цифровые товары)" ref_4XRUG4tM %}
 *   {% link "Loyalty Program (Программа лояльности)" ref_6DRAWYp4 %}
 *   {% link "MailChimp Integration with Ecommerce support (Подключение сервиса рассылок MailChimp к онлайн-магазину)" ref_2dnxqcA0 %}
