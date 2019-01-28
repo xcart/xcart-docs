@@ -36,16 +36,21 @@ The section **SET UP FILTERS** is the one where you will do the general setup of
   <div class="column" markdown="span">![filter-settings.png]({{site.baseurl}}/attachments/ref_25POvGjV/filter-settings.png)</div>
 </div>
 
-If a filter is disabled in the **SET UP FILTERS** section, it is not displayed on the storefront. 
+If a filter is disabled in the section **SET UP FILTERS**, it is not displayed on the storefront. 
 
-Besides the filters listed in the **SET UP FILTERS** tab there are default filters (category, price and manufacturer) that are always present in addition to the filters you enabled. 
+Besides the filters listed in the section **SET UP FILTERS**, there are some default filters (category, price and manufacturer) that are always present along with the filters you have enabled. 
 
-The **SMART FILTER SELECTION FOR SEARCH** tab is an advanced filtering system that can be used by the big stores with a wide range of products (and product attributes as a result) to narrow down the filters displayed on the search page in the storefront. Here you can define special filter categories based on customer's search query. As a result, only relevant filters will be shown.
+The section **SMART FILTER SELECTION FOR SEARCH** is an advanced filtering system that can be used by big stores with a wide range of products (and, as a result, a lot of product attributes) to narrow down the set of filters displayed on the search page on the storefront. Here you can configure special filter categories based on customer search queries. As a result, only relevant filters will be shown.
 
-To add a filter category hit the **Add Filter Category** button.
+To add a filter category:
+
+1. Click **Add Filter Category**.
 ![smart-filter.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter.png)
+A popup titled "Add new filter category" will be displayed.
 
-You will see a popup window where you will need to specify a semantic term and add some filters from the list that should match this category. When you are done selecting the filters, click **Add category**.
+2. Use the popup to configure a filter category: specify a semantic term and add some filters from the list that should match this category. 
+
+3. Once you are done selecting the filters, click **Add category**.
 ![smart-filter-popup.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter-popup.png)
 
 For the storefront search page **SMART FILTERS** if configured override the filters from the SET UP FILTERS tab.
