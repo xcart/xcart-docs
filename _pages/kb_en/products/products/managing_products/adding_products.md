@@ -12,6 +12,8 @@ redirect_from:
   - /products/adding_products.html
   - /products/products/adding_products.md
 ---
+This section provides information on how to add products to your store manually one by one. Please note that you can also add products via {% link "import" ref_TANvG2De %}. 
+
 {% toc %}
 
 ## Video guide
@@ -21,8 +23,6 @@ This video captures the process of adding a new product in X-Cart 5.3.x.
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/yJAaZIXOWLo" frameborder="0"></iframe>
 
 ## Adding a new product
-
-This section provides information on how to add products to your store manually one by one. Please note that you can also add products via {% link "import" ref_TANvG2De %}. 
 
 To add a new product:
 
@@ -172,6 +172,7 @@ If you need not just separate independent options, but product variants based on
 For more info on using the addon, see {% link "Product Variants" ref_0uApuQfx %}
 
 ### Set wholesale prices and minimum purchase quantities for different membership levels
+
 If you want to set different prices on the same product that would be enabled for buyers depending on the buyer membership level and the product quantity being ordered, you should use the addon [Wholesale](https://market.x-cart.com/addons/wholesale.html).
 
 With this addon you will be able to set price tiers for different purchase quantities and different user membership levels via the "Wholesale pricing" tab of the product page.
