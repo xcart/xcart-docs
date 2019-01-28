@@ -9,7 +9,7 @@ published: true
 ---
 CloudFilters module is aimed at narrowing down search results and helping your customers to navigate through a large list of products to find items matching certain filtering criteria. Filters will be dynamically adjusted to your customers' needs, automatically updating the count values to reflect the correct number of terms for the current search.
 
-Filters are displayed on a category/subcategory page, search page and brands page (if the {% link "Shop by Brand" ref_2LetICls %} module is enabled). 
+Filters are displayed on a category/subcategory page, search page and brands page (if the module {% link "Shop by Brand" ref_2LetICls %} is enabled). 
 
 The module shows filters dinamically based on the content of a page they are displayed at. Hence the filters for one category will differ from the filters for another and both of them will differ from the filters displayed on the search page, etc. 
 
