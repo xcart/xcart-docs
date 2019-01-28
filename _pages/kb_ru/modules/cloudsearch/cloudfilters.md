@@ -26,7 +26,8 @@ published: false
 Чтобы настроить фильтры, откройте вкладку **CloudFilters** («Облачные фильтры») на странице **Каталог** -> **CloudSearch & CloudFilters** в панели управления магазина.
 ![cloud_cloudfilters_tab.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_cloudfilters_tab.png)
 
-Включите использование фильтров при помощи настройки **Enable CloudFilters** («Включить использование облачных фильтров»).
+Включите использование фильтров при помощи кнопки **Enable CloudFilters** («Включить использование облачных фильтров»).
+![cloud_enable_cloudfilters.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_enable_cloudfilters.png)
 
 На экране вы увидите две вкладки с секциями **SET UP FILTERS** («Настройка фильтров») и **SMART FILTER SELECTION FOR SEARCH** («Умная выборка фильтров для поиска»), соответственно.
 ![cloudfilters-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters-1.png)
