@@ -7,11 +7,11 @@ title: Настройка и использование CloudFilters
 order: 600
 published: false
 ---
-CloudFilters module is aimed at narrowing down search results and helping your customers to navigate through a large list of products to find items matching certain filtering criteria. Filters will be dynamically adjusted to your customers' needs, automatically updating the count values to reflect the correct number of terms for the current search.
+Модуль CloudFilters предназначен для сужения результатов поиска; он помогает вашим клиентам отфильтровать из большого объема товаров только те, которые соответствуют определенным критериям. Фильтры будут динамически настраиваться в соответствии с потребностями ваших клиентов, автоматически обновляя значения счетчика, чтобы отразить правильное количество терминов для текущего поиска.
 
-Filters are displayed on a category/subcategory page, search page and brands page (if the {% link "Shop by Brand" ref_2LetICls %} module is enabled). 
+Фильтры отображаются на странице категории / подкатегории, странице поиска и странице брендов (если включен модуль {% link "Покупка по бренду" ref_2LetICls%}).
 
-The module shows filters dinamically based on the content of a page they are displayed at. Hence the filters for one category will differ from the filters for another and both of them will differ from the filters displayed on the search page, etc. 
+Модуль показывает фильтры динамически на основе содержимого страницы, на которой они отображаются. Следовательно, фильтры для одной категории будут отличаться от фильтров для другой, и оба они будут отличаться от фильтров, отображаемых на странице поиска и т. Д.
 
 <div class="ui stackable three column grid">
   <div class="column" markdown="span">![filters-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/filters-1.png)</div>
@@ -19,11 +19,11 @@ The module shows filters dinamically based on the content of a page they are dis
   <div class="column" markdown="span">![filters-3.png]({{site.baseurl}}/attachments/ref_25POvGjV/filters-3.png)</div>
 </div>
 
-The set of filters to be displayed on a page is automatically narrowed down and is built based on the  relevant {% link "product attributes" ref_T90ZcEpP %}, {% link "product tags" ref_6nFoxYf1 %} and {% link "vendor" ref_4ahg5FLK %} info. Selected filters are saved in the URL so that one can easily share a link to the filtered list of products. It is not only handy but also advantageous from a SEO standpoint. 
+Набор фильтров, отображаемых на странице, автоматически сужается и создается на основе соответствующих {% link "атрибутов товара" ref_T90ZcEpP%}, {% link "тегов товара" ref_6nFoxYf1%} и информации {% link "продавца" %}. Выбранные фильтры сохраняются в URL, чтобы можно было легко поделиться ссылкой на отфильтрованный список продуктов. Это не только удобно, но и выгодно с точки зрения SEO.
 
-Once the filter is applied, all the images and prices are instantly updated.
+После применения фильтра все изображения и цены мгновенно обновляются.
 
-To configure filters, open the _Cloudfilters_ tab on the **Catalog** -> **CloudSearch & CloudFilters** page in the Admin area. 
+Чтобы настроить фильтры, откройте вкладку _Cloudfilters_ на странице ** Каталог ** -> ** CloudSearch & CloudFilters ** в панели управления магазина.
 
 ![cloudfilters.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters.png)
 
