@@ -309,10 +309,6 @@ X-Cart store is ready to work and the whole world is open to you.
 
 Use X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} to set up your store and start selling.
 
-You might want to {% link 'fill your products catalog' ref_fhzzxDTy %}, setup {% link 'shipping' ref_7tvT7GEK %} and {% link 'payment' ref_Jq6Bsdrt %} methods first.
-
-Also, you definitely should customize your store's {% link 'look and feel' ref_bzUBJufx %} and {% link 'setup SEO-friendly URLs' ref_nJxrzFEZ %} by configuring your server.
-
 P.S. And don't forget about {% link 'security measures' ref_secureconfig %}!
 
 ## Possible installation problems
