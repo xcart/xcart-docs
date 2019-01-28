@@ -32,7 +32,7 @@ Enable CloudFilters using the button **Enable CloudFilters**:
 You will see a screen with 2 tab sections, **SET UP FILTERS** and **SMART FILTER SELECTION FOR SEARCH**.
 ![cloudfilters-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters-1.png)
 
-The section **SET UP FILTERS** is the one where you will do the general setup of your filters. This section contains filters generated automatically based on all the product attributes, tags and vendors defined in your store. You can enable/disable any filters and change the filter settings:
+The section **SET UP FILTERS** is where you will do the general setup of your filters to be applied store wide. This section provides a list of filters generated automatically based on all the product attributes, tags and vendors defined in your store. You can enable/disable any filters and change the filter settings:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![filter-settings-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/filter-settings-1.png)</div>
