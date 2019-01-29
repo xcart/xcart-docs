@@ -35,7 +35,7 @@ If a user makes a spelling mistake while typing a search query, CloudSearch will
 
 ![search-5.png]({{site.baseurl}}/attachments/ref_5IHjr19k/search-5.png)
 
-The module provides a dashboard where the store administrator can view the store's account information for CloudSearch service:
+<a id="cloudsearch-dashboard"></a>The module provides a dashboard where the store administrator can view the store's account information for CloudSearch service:
 
 ![cloudsearch.png]({{site.baseurl}}/attachments/ref_5IHjr19k/cloudsearch.png)
 
