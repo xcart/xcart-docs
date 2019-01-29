@@ -37,7 +37,8 @@ published: true
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![cloud_manage_filters.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_manage_filters.png)
 </div>
-  <div class="column" markdown="span">![filter-settings.png]({{site.baseurl}}/attachments/ref_25POvGjV/filter-settings.png)</div>
+  <div class="column" markdown="span">![cloud_seller_filter_settings.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_seller_filter_settings.png)
+</div>
 </div>
 
 Когда фильтр отключен в секции **Set Up Filters** («Настройка фильтров»), он не отображается на витрине магазина. 
