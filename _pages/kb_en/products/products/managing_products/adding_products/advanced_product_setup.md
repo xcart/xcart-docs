@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-01-29 13:07 +0400'
 identifier: ref_2kV8GKN7
-title: Advanced Product Setup
+title: Advanced Product Details
 order: 110
 published: true
 ---
