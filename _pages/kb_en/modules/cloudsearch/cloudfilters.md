@@ -45,7 +45,9 @@ Besides the filters listed in the section **Set Up Filters**, there are some def
 
 The section **Smart Filter Selection For Product Search** is an advanced filtering system that can be used by big stores with a wide range of products (and, as a result, a lot of product attributes) to narrow down the set of filters displayed on the search page on the storefront. Here you can configure special filter categories based on customer search queries. As a result, only relevant filters will be shown.
 
-The section **Smart Filter Selection For Product Search** is where you do the advanced configuration of you store's filtering system. This section will be of use to large stores with a wide range of products (and, accordingly, a large number of product attributes). This section enables you to limit the number of filters that should be displayed on the search page on the storefront in accordance with the search query that has been used. In other words, the essense of the "Smart Filter Selection" feature is that it enables you to configure different sets of filters for different user search queries, linking them to specific keywords. As a result, when this feature is used, the search page does not show all the filters available in the store, but only the ones pertaining to the search query that has been used by your customer.
+The section **Smart Filter Selection For Product Search** is where you do the advanced configuration of you store's filtering system. This section will be of use to large stores with a wide range of products (and, accordingly, a large number of product attributes). This section enables you to limit the number of filters that should be displayed on the search page on the storefront in accordance with the search query that has been used. In other words, the essense of the "Smart Filter Selection" feature is that it enables you to configure different sets of filters for different user search queries, linking them to specific keywords. As a result, when this feature is used, the search page does not show all the filters available in the store (as configrued via the **Set Up Filters** section), but only the ones pertaining to the search query that has been used by your customer.
+
+Filter sets that are linked to specific keywords are called filter categories.
 
 To add a filter category:
 
@@ -57,6 +59,8 @@ A popup titled "Add new filter category" will be displayed.
 
 3. Once you are done selecting the filters, click **Add category**.
 ![smart-filter-popup.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter-popup.png)
+
+As a result, the filter category will be created.
 
 For the storefront search page **Smart Filters** if configured override the filters from the SET UP FILTERS tab.
 
