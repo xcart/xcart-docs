@@ -5,7 +5,7 @@ updated_at: '2019-01-29 13:00 +0400'
 identifier: ref_2D8wAeXP
 title: Basic Product Setup
 order: 100
-published: false
+published: true
 ---
 When creating a new product, you need to specify product information via the form fields of the Add product page. 
 
