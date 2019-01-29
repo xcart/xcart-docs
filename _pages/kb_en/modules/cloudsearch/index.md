@@ -24,4 +24,4 @@ _In this section:_
    * {% link "Understanding CloudSearch" ref_5IHjr19k %}
    * {% link "Managing Promotions in CloudSearch" ref_0OurnBzC %}
    * {% link "Managing Synonyms in CloudSearch" ref_7H4podhD %}
-   * {% link "CloudFilters" ref_25POvGjV %}
+   * {% link "Configuring and Using CloudFilters" ref_25POvGjV %}
