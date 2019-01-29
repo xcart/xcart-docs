@@ -62,7 +62,6 @@ A popup titled "Add new filter category" will be displayed.
 
 As a result, the filter category will be created.
 
-For the storefront search page **Smart Filters** if configured override the filters from the SET UP FILTERS tab.
 
 {% note info %}
 Semantic terms (categories) should correlate with the whole store category structure or product types to cover a certain group of products and should not overlap with each other. 
