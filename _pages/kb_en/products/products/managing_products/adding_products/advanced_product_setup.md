@@ -45,7 +45,7 @@ In addition, here are some settings you can use to set a low stock threshold for
 If you want to specify additional parameters (like color, material, country of origin, ISBN, etc.) for the product so they can be viewed by your store visitors on the "Specification" tab of the product page, you will want to use X-Cart's {% link "Product classes and attributes" ref_T90ZcEpP %} feature. This feature is part of X-Cart's core and, if you just want the attributes, does not require any X-Cart addons. The attributes can be specified via the "Attributes" tab of the product page.
 ![xc5_products_attributes_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_attributes_tab.png)
 
-## Product options
+## Product options and Product variants
 
 If you want to configure product options (color, size, etc.) so buyers will be able to choose the options they require before checkout, you will need to use X-Cart's {% link "Product classes and attributes" ref_T90ZcEpP %} feature. This feature helps you to configure options for the product via the "Attributes" tab of the product page. 
 ![xc5_products_attributes_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_attributes_tab.png)
