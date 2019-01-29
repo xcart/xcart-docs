@@ -16,6 +16,8 @@ redirect_from:
 This section provides information on how to add products to your store manually one by one. Please note that you can also add products via {% link "import" ref_TANvG2De %}. 
 
 {% toc %}
+*  {% link "Basic Product Setup" ref_2D8wAeXP %}
+*  {% link "Advanced Product Setup" ref_2kV8GKN7 %}
 
 ## Video guide
 
