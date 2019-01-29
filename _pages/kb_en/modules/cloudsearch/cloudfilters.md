@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-18 11:33 +0400'
 identifier: ref_25POvGjV
-title: CloudFilters
+title: Configuring and Using CloudFilters
 order: 600
 published: true
 ---
