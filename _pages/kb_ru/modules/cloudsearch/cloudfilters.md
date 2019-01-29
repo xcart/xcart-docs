@@ -52,10 +52,11 @@ published: true
 Для создания новой категории фильтров:
 
 1. Нажмите на кнопку **Add Filter Category** («Добавить категорию фильтров»).
-![smart-filter.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter.png)
+![cloud_add_filter_category.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_add_filter_category.png)
+
 Появится всплывающее окно «Add new filter category» («Добавить новую категорию фильтров»).
+![cloud_add_filter_category1.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_add_filter_category1.png)
 
 2. Используйте всплывающее окно для настройки новой категории фильтров: укажите ключевое слово (или слова) и выберите из списка фильтры, которые должны соответствовать данной категории. 
 
 3. Завершив выбор необходимых фильтров, нажмите **Add category** («Добавить категорию»).
-![smart-filter-popup.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter-popup.png)
