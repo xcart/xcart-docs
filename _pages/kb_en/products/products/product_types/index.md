@@ -11,7 +11,7 @@ X-Cart supports the following types of products:
 
 *   Regular products (the basic product type used in X-Cart; can be created as described in {% link "Adding products" ref_fhzzxDTy %};
 *   {% link "Downloadable products" ref_lxNH6TFr %}; 
-*   {% link "Product variants" ref_4gDLkmPU %};
+*   {% link "Variants" ref_4gDLkmPU %};
 *   {% link "PIN codes" ref_4JeE99n8 %};
 *   {% link "Bookable products" ref_4IYL2Shf %};
 *   {% link "Subscription products" ref_14yhWsEV %}.
