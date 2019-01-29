@@ -35,7 +35,7 @@ published: true
 **Set Up Filters** («Настройка фильтров») - это секция, в которой осуществляется настройка набора фильтров, который будет использоваться на всех страницах вашего магазина. Данная секция содержит список фильтров, созданных автоматически на основе всех атрибутов товаров, тегов и информации о продавцах, которые определены в вашем магазине. Вы можете включать / отключать фильтры и изменять их настройки:
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![cloud_manage_filters.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_manage_filters.png)
+  <div class="column" markdown="span">![cloud_manage_filters_ru.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_manage_filters_ru.png)
 </div>
   <div class="column" markdown="span">![cloud_seller_filter_settings.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_seller_filter_settings.png)
 </div>
