@@ -5,7 +5,7 @@ updated_at: '2019-01-29 13:07 +0400'
 identifier: ref_2kV8GKN7
 title: Advanced Product Setup
 order: 110
-published: false
+published: true
 ---
 Once a new product has been [added](#adding-a-new-product) to your store, you can edit any of its settings configured during the [basic product setup] and, if necessary, configure some advanced product settings for it as well. To do so, you will need to find the product in the store's Admin area (**Catalog** > **Products**) and click on the product name to access the product details. The result will be a page with all the information you have provided regarding this product so far - basically, the same page with the product information form you have completed during the basic product setup - but now this page will have tabs allowing you to access some additional sections for product configuration. 
 ![xc5_products_product_tabs.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_product_tabs.png)
