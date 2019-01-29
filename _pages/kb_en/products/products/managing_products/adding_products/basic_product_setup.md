@@ -17,6 +17,10 @@ If you do not see any of the fields described below in your X-Cart store back en
 
 The following list of fields corresponds to the set of product fields available for configuration on a fresh install of X-Cart Ultimate edition:
 
+{% toc %}
+
+## General Info
+
 *   **Vendor**: Company name and email of the vendor who owns the product. This field is only available if X-Cart's {% link "Multi-vendor" ref_cvwmAuRi %} addon is active. Since an administrator can create products not only for themselves, but also for other users (vendors), this field needs to be adjusted to specify the owner of the product.
 
 *   **Product name**: The name by which you and your customers will identify this product.
@@ -47,7 +51,7 @@ The following list of fields corresponds to the set of product fields available 
     
 *   **Call for price**: This field is only available if X-Cart's {% link "Call For Price" ref_3K1pJExV %} addon is active; it enables you to specify that the price and Add to cart button must not be provided for the current product; instead, a message inviting store visitors to call for price should be displayed.
 
-_Prices & Inventory_
+## Prices & Inventory
 
 *   **Memberships**: Membership levels to which this product should be available. Non-members and users belonging to other membership levels will not be able to see the product on the storefront. For more info on memberships in X-Cart, see the section {% link "User membership levels" ref_RXsgxNSm %} of this manual.
 
@@ -73,7 +77,7 @@ _Prices & Inventory_
 
 *   **Limit the backorder quantity**: This field is only available if the setting "Available for backorder" is enabled. It allows you to specify that only a limited number of units of the current product can be purchased on backorder, and to specify the maximum limit via the **Max. backorder quantity** field (appears when the "Limit the backorder quantity" option is enabled).
 
-_Shipping_
+## Shipping
 
 *   **Weight**: Product weight. If the product requires shipping, this setting may affect the calculation of order shipping cost.
 
@@ -87,7 +91,7 @@ _Shipping_
 
 *   **Separate box**: Whether the product needs to be shipped separately from other products. If it needs to be shipped in a separate box, you can define the box dimensions and the maximum number of product units that fit in this box. This setting affects the calculation of order shipping cost.
     
-_Marketing_
+## Marketing
 
 *   **Open Graph meta tags**: The custom META tags for sharing the product page on Facebook.
 
