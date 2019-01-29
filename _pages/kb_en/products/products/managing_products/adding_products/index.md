@@ -13,11 +13,18 @@ redirect_from:
   - /products/products/adding_products.md
   - /products/products/managing_products/adding_products.html
 ---
-This section provides information on how to add products to your store manually one by one. Please note that you can also add products via {% link "import" ref_TANvG2De %}. 
+This guide provides information on how to add products to your store manually one by one. 
+
+{% note info %}
+If you need to add products in bulk use the {% link "Import" ref_TANvG2De %} tool. 
+{% endnote %}
 
 {% toc %}
-*  {% link "Basic Product Setup" ref_2D8wAeXP %}
-*  {% link "Advanced Product Setup" ref_2kV8GKN7 %}
+
+More info on the product details you can define for a product can be found in the guides below:
+
+*  {% link "Product Details" ref_2D8wAeXP %}
+*  {% link "Advanced Product Details" ref_2kV8GKN7 %}
 
 ## Video guide
 
