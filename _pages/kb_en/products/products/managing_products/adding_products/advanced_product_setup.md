@@ -122,9 +122,16 @@ If you need your customers to be able to attach files to their order before maki
 ![cus-product-details.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/cus-product-details.png)
 For more info on using the addon, see {% link "Customer Files Uploads & Product Attachments" ref_1tk0fbqz %}.
 
-## Hidden attributes for Google Feed
+## Product hidden attributes for Google Feed
 
 To add the product to Google feed and get your data synchronized between Google and your X-Cart store, you may want to use the addon [Google Product Feed](https://market.x-cart.com/addons/google-product-feed.html "Advanced Product Details"). To {% link "use this addon" ref_2gQBB6qM %}, you will be able to set hidden attributes for the product to list it properly in Google feed. 
 ![apd-hidden-attributes.png]({{site.baseurl}}/attachments/ref_2kV8GKN7/apd-hidden-attributes.png)
 For more info on configuring hidden attributes, see [Managing attribute values](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#hidden-field "Advanced Product Details"). 
 
+## Sell products on Amazon
+
+To list the product on Amazon and get your data synchronized between Amazon and your X-Cart store, you may want to use the addon [Amazon Feeds](https://market.x-cart.com/addons/amazon-feeds.html "Advanced Product Details"). With this addon, you will be able to set the product's Amazon options via the "Amazon product options" tab of the product page. 
+![product-details-amazon.png]({{site.baseurl}}/attachments/ref_2kV8GKN7/product-details-amazon.png)
+
+
+For more info on using the addon, see the {% link "Amazon Feeds" ref_4UNr3oKZ %} section of this manual.
