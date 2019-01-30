@@ -53,10 +53,5 @@ The new order will be saved automatically.
 # Deleting promotions
 
 You can delete any promotion you no longer need. 
-For this purpose locate the promotion in question and click the trash icon:
+   ![cloud_remove_promo_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_remove_promo_en.png)
 
-![trash-1.png]({{site.baseurl}}/attachments/ref_0OurnBzC/trash-1.png)
-
-Then confirm your decision in a pop-up:
-
-![trash-2.png]({{site.baseurl}}/attachments/ref_0OurnBzC/trash-2.png)
