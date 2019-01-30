@@ -39,8 +39,7 @@ Now if you visit the store front end and do a search for "iphone" or "6splus" or
   ![cloud_promo_on_front_end_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_promo_on_front_end_en.png)
 
 If you decide to add more search queries to the product later on, just type them next to ones you have added previously and save the changes.
-  ![prom-7.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-7.png)
-
+  ![cloud_add_promo_query_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_add_promo_query_en.png)
 
 # Setting the order of promotions in search results
 
