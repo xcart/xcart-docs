@@ -55,7 +55,7 @@ To add a filter category:
 ![smart-filter.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter.png)
 A popup titled "Add new filter category" will be displayed.
 
-2. Use the popup to configure a filter category: specify a semantic term and add some filters from the list that should match this category. 
+2. Use the popup to configure a filter category: In the field **Keywords**, specify the keyword(s) to which the filter set of this filter category should be linked; then, click within the field **Filters** and select the filters for this category. 
 
 3. Once you are done selecting the filters, click **Add category**.
 ![smart-filter-popup.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter-popup.png)
@@ -63,4 +63,3 @@ A popup titled "Add new filter category" will be displayed.
 As a result, the filter category will be created.
 
 Note that the filter categories you use and the keywords you specify in the section **Smart Filter Selection For Product Search** must match the structure of user search queries. For example, if you are selling footballs and sportswear in your store, and you want different filters to appear depending on the type of products that has been found as a result of a search query, you will need to create two filter categories. At the same time, it is important that the specified keywords do not overlap in meaning, because, when your customer does a search on your store site, only one filter category needs to be selected in accordance with the search query.
-
