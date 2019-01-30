@@ -29,7 +29,7 @@ To start using CloudFilters, open the **Cloudfilters** tab on the **Catalog** ->
 ![cloud_cloudfilters_tab_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_cloudfilters_tab_en.png)
 
 Enable CloudFilters using the button **Enable CloudFilters**:
-<img>
+![cloud_enable_cloudfilters_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_enable_cloudfilters_en.png)
 
 Once CloudFilters service has been activated for your store, you will see a screen with two tab sections, **Set Up Filters** and **Smart Filter Selection For Product Search**.
 ![cloudfilters-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters-1.png)
