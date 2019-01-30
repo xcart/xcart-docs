@@ -30,11 +30,12 @@ The synonym group will be created.
 Now if you try searching with these queries in the store front end, the search results will be the same for all the queries from the group.
 
 If necessary you can add synonyms to an existing group:
-![cloud_add_syn_here_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_add_syn_here_en.png)
+   ![cloud_add_syn_here_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_add_syn_here_en.png)
 
 Or remove specific synonyms from a group: 
-![cloud_remove_syn_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_remove_syn_en.png)
+   ![cloud_remove_syn_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_remove_syn_en.png)
 
 You can also delete the group itself.
+   ![cloud_remove_syn_group_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_remove_syn_group_en.png)
 
 
