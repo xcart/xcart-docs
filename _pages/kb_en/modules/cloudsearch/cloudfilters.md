@@ -7,6 +7,7 @@ title: Configuring and Using CloudFilters
 order: 600
 published: true
 ---
+## General Information on CloudFilters
 CloudFilters module is aimed at narrowing down search results and helping your customers to navigate through a large list of products to find items matching certain filtering criteria. Filters will be dynamically adjusted to your customers' needs, automatically updating the count values to reflect the correct number of terms for the current search.
 
 Filters are displayed on a category/subcategory page, search page and brands page (if the module {% link "Shop by Brand" ref_2LetICls %} is enabled). 
@@ -23,7 +24,8 @@ The set of filters to be displayed on a page is automatically narrowed down and 
 
 Once a filter has been applied, all the images and prices are updated at once.
 
-To configure filters, open the **Cloudfilters** tab on the **Catalog** -> **CloudSearch & CloudFilters** page in the Admin area. 
+## CloudFilters Activation and Setup
+To start using CloudFilters, open the **Cloudfilters** tab on the **Catalog** -> **CloudSearch & CloudFilters** page in the Admin area. 
 ![cloudfilters.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters.png)
 
 Enable CloudFilters using the button **Enable CloudFilters**:
@@ -63,3 +65,5 @@ A popup titled "Add new filter category" will be displayed.
 As a result, the filter category will be created.
 
 Note that the filter categories you use and the keywords you specify in the section **Smart Filter Selection For Product Search** must match the structure of user search queries. For example, if you are selling footballs and sportswear in your store, and you want different filters to appear depending on the type of products that has been found as a result of a search query, you will need to create two filter categories. At the same time, it is important that the specified keywords do not overlap in meaning, because, when your customer does a search on your store site, only one filter category needs to be selected in accordance with the search query.
+
+## Checking Your Account Status and/or Deactivating CloudFilters 
