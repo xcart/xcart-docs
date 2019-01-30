@@ -18,6 +18,8 @@ If you wish to add a new product and a similar product already exists in your st
      
 Information on the management of existing products can be found here:
    
+   * {% link "Product Details" ref_2D8wAeXP %} - Learn what the basic product details are and use this guide to edit/configure your product it required.
+   * {% link "Advanced Product Details" ref_2kV8GKN7 %} - Learn what the advanced product details are and use this guide to edit/configure your product it required.
    * {% link "Viewing and Filtering Products" ref_5znzAqDd %} - Learn how to access your products in the store back end.
    * {% link "Deleting Products" ref_0dCe3PeU %} - Learn how to delete any products you no longer require.
    * {% link "Bulk Editing" ref_1kSYmXQn %} - Find out how to edit multiple products simultaneously.
