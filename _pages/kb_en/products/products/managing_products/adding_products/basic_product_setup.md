@@ -12,7 +12,9 @@ When creating a new product, you need to specify product details via the form fi
 {% note info %}
 The actual set of fields available to you on this page depends on the X-Cart edition you are using and the set of addons (modules) enabled. 
 
-If you do not see any of the fields described below in your X-Cart store back end, it means that the addon that enables this field is not installed or not active. To see what addons are active in your store and, if necessary, to install/activate more addons, check the **My addons** section in your X-Cart store Admin area. More info on the management of X-Cart addons can be found in the {% link "Managing addons" ref_gTOegEua %} section of this manual.
+If you do not see any of the fields described below in your X-Cart store back end, it means that the addon that enables this field is not installed or is not active. To see what addons are active in your store and, if necessary, to install/activate more addons, check the **My addons** section in your X-Cart store Admin area. 
+
+More info on the management of X-Cart addons can be found in the {% link "Managing addons" ref_gTOegEua %} section of this manual.
 {% endnote %}
 
 The following list of fields corresponds to the set of product fields available for configuration on a fresh install of X-Cart Ultimate edition:
