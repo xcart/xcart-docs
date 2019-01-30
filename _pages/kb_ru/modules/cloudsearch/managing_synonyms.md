@@ -30,7 +30,7 @@ published: true
 Теперь, если вы попытаетесь выполнить поиск по этим запросам на витрине магазина, результаты поиска будут одинаковыми для всех запросов из группы.
 
 При необходимости вы сможете добавить синонимы в уже существующую группу:
-   ![cloud_add_syn_here.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_add_syn_here.png)
+   ![cloud_add_syn_here_en.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_add_syn_here_en.png)
 
 или удалить отдельные синонимы из группы:
    ![cloud_remove_syn.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_remove_syn.png)
