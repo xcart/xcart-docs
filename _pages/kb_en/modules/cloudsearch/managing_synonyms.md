@@ -14,9 +14,10 @@ Synonyms can be added and managed via the _Synonyms_ tab in the **Catalog** -> *
 To add a synonym group:
 
 1. Click **Add synonyms**:
-   ![syn-1.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-1.png)
+   ![cloud_add_synonyms_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_add_synonyms_en.png)
    
    A popup titled **Add synonyms** will appear.
+   ![cloud_add_synonyms_popup_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_add_synonyms_popup_en.png)
    
 2. In the popup, click inside the input field and type one or more search queries that you want to be treated as synonymous (You must enter at least one word or phrase.) To enter multiple search queries, separate the individual queries with commas (,) or press ENTER after each query as you type.
 
@@ -31,4 +32,3 @@ If necessary you can add synonyms to an existing group and remove specific synon
   <div class="column" markdown="span">![syn-4.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-4.png)</div>
   <div class="column" markdown="span">![syn-5.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-5.png</div>
 </div>
-
