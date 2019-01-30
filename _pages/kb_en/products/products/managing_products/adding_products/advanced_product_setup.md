@@ -121,3 +121,10 @@ If you need to be able not just to attach files for free download by store visit
 If you need your customers to be able to attach files to their order before making a purchase (like, for example, if you are selling custom design t-shirts and want to enable your customers to upload their own t-shirt design for the t-shirt they are ordering), you will need to use the addon [Customer Files Uploads & Product Attachments](https://market.x-cart.com/addons/files-uploads-product-attachments.html "Advanced Product Details").
 ![cus-product-details.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/cus-product-details.png)
 For more info on using the addon, see {% link "Customer Files Uploads & Product Attachments" ref_1tk0fbqz %}.
+
+## Hidden attributes for Google Feed
+
+To add the product to Google feed and get your data synchronized between Google and your X-Cart store, you may want to use the addon [Google Product Feed](https://market.x-cart.com/addons/google-product-feed.html "Advanced Product Details"). To {% link "use this addon" ref_2gQBB6qM %}, you will be able to set hidden attributes for the product to list it properly in Google feed. 
+![apd-hidden-attributes.png]({{site.baseurl}}/attachments/ref_2kV8GKN7/apd-hidden-attributes.png)
+For more info on configuring hidden attributes, see [Managing attribute values](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#hidden-field "Advanced Product Details"). 
+
