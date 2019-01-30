@@ -22,7 +22,7 @@ To add a synonym group:
 2. In the popup, click inside the input field and type one or more search queries that you want to be treated as synonymous (You must enter at least one word or phrase.) To enter multiple search queries, separate the individual queries with commas (,) or press ENTER after each query as you type.
 
 3. Click **Add synonyms**.
-   ![syn-3.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-3.png)
+   ![cloud_add_syn_group_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_add_syn_group_en.png)
 
 The synonym group will be created. Now if you try searching with these queries in the store front end, the search results will be the same for all the queries from the group.
 
