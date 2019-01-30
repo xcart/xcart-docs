@@ -32,6 +32,6 @@ Now if you try searching with these queries in the store front end, the search r
 If necessary you can add synonyms to an existing group and remove specific synonyms from a group. You can also delete the group itself.
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![syn-4.png]({{site.baseurl}}/attachments/ref_7H4podhD/syn-4.png)</div>
+  <div class="column" markdown="span">![cloud_add_syn_here_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_add_syn_here_en.png)</div>
   <div class="column" markdown="span">![cloud_remove_syn_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_remove_syn_en.png)</div>
 </div>
