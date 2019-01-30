@@ -31,9 +31,9 @@ Here's how you can create a promotion:
   
 4. Click **Create promotion**.
   ![cloud_iphone_promo_add_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_iphone_promo_add_en.png)
-
+  
 The promotion has been created. You should be able to see it in the **Promotions** list:
-  ![prom-6.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-6.png)
+  ![cloud_promo_list_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_promo_list_en.png)
 
 Now if you visit the store front end and do a search for "iphone" or "6splus" or any other key from the list, you should be able to see a link to iPhone 6S Plus on the first line of search results under "Products":
   ![prom-res.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-res.png)
