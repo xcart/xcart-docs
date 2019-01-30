@@ -8,7 +8,7 @@ order: 200
 published: true
 ---
 To start using the module CloudSearch & CloudFilters, enable it in the section **My addons** of your store's Admin area. 
-![module-settings.png]({{site.baseurl}}/attachments/ref_7qk2On7k/module-settings.png)
+![cloud_module.png]({{site.baseurl}}/attachments/ref_7qk2On7k/cloud_module.png)
 
 To enable the module, follow the instructions from the section {% link "Installing and activating addons" ref_0fGEpvrh %} of this manual.
 
