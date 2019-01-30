@@ -12,9 +12,11 @@ The [Customer Files Uploads & Product Attachments](https://market.x-cart.com/add
 To make use of customer file attachments, you will need to:
 {% toc %}
 
-## Make sure the module Customer Files Uploads & Product Attachments is installed and active
+{% note warning %}
+PREREQUISITES: Make sure the module Customer Files Uploads & Product Attachments is installed and active.
 
-For help installing or activating the module, see the section {% link "Managing addons" ref_gTOegEua %} of this manual.
+For help with installing or activating the module, see the section {% link "Managing addons" ref_gTOegEua %} of this manual.
+{% endnote %}
 
 ## Configure the module 
 After making sure the module is installed and active, proceed to adjust the module settings:
