@@ -15,9 +15,9 @@ published: true
 Отображение фильтров осуществляется динамически на основе содержимого страницы, на которой они отображаются. Следовательно, фильтры для одной категории будут отличаться от фильтров для другой, и оба они будут отличаться от фильтров, отображаемых на странице поиска и т. д.
 
 <div class="ui stackable three column grid">
-  <div class="column" markdown="span">![filters-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/filters-1.png)</div>
-  <div class="column" markdown="span">![filter-2.png]({{site.baseurl}}/attachments/ref_25POvGjV/filter-2.png)</div>
-  <div class="column" markdown="span">![filters-3.png]({{site.baseurl}}/attachments/ref_25POvGjV/filters-3.png)</div>
+  <div class="column" markdown="span">![cloud_filters4apparel.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_filters4apparel.png)</div>
+  <div class="column" markdown="span">![cloud_filters4igoods.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_filters4igoods.png)</div>
+  <div class="column" markdown="span">![cloud_filters4search.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_filters4search.png)</div>
 </div>
 
 Набор фильтров, отображаемых на странице, автоматически сужается и создается на основе релевантных {% link "атрибутов товара" ref_pXBwGdtu %}, [тегов товара](https://kb.x-cart.com/modules/product_tags.html) и информации {% link "продавца" ref_4ahg5FLK %}. Выбранные фильтры сохраняются в URL, чтобы можно было легко поделиться ссылкой на отфильтрованный список продуктов. Это не только удобно, но и выгодно с точки зрения SEO.
@@ -79,6 +79,3 @@ published: true
 * Статус синхронизации информации между вашим магазином и службой CloudFilters на наших серверах.
 * Выключатель, позволяющий отказаться от использования службы CloudFilters в вашем магазине.
 ![cloud_cloudfilters_settings1.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_cloudfilters_settings1.png)
-
-
-
