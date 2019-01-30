@@ -13,15 +13,17 @@ redirect_from:
   - /products/products/adding_products.md
   - /products/products/managing_products/adding_products.html
 ---
-This guide provides information on how to add products to your store manually one by one. 
+There are multiple ways to add products to your store - you can use the built-in add/edit tool to manually create products in the store admin area, upload products in bulk using a CSV-formatted file, or use an app or the API to [migrate](https://kb.x-cart.com/general_setup/migration/getting_started_with_store_migration.html#step-2-data-migration-with-a-store-migration-app "Adding Products") your product catalog from another platform.
+
+This guide covers the basics of how to create a product in the store admin area manually. 
 
 {% note info %}
-If you need to add products in bulk use the {% link "Import" ref_TANvG2De %} tool. 
+If you're interested in creating a product through an imported spreadsheet, please refer to {% link "Import-Export" ref_TANvG2De %}. 
 {% endnote %}
 
 {% toc %}
 
-More info on the product details you can define for a product can be found in the guides below:
+To create a product it's enough to spesify its name only. The rest of the product details can be configured later on if required:
 
 *  {% link "Product Details" ref_2D8wAeXP %}
 *  {% link "Advanced Product Details" ref_2kV8GKN7 %}
