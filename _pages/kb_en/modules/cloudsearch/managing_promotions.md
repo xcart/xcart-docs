@@ -30,7 +30,7 @@ Here's how you can create a promotion:
   ![cloud_promo_queries_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_promo_queries_en.png)
   
 4. Click **Create promotion**.
-  ![prom-5.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-5.png)
+  ![cloud_iphone_promo_add_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_iphone_promo_add_en.png)
 
 The promotion has been created. You should be able to see it in the **Promotions** list:
   ![prom-6.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-6.png)
