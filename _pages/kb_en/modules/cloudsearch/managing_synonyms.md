@@ -24,7 +24,10 @@ To add a synonym group:
 3. Click **Add synonyms**.
    ![cloud_add_syn_group_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_add_syn_group_en.png)
 
-The synonym group will be created. Now if you try searching with these queries in the store front end, the search results will be the same for all the queries from the group.
+The synonym group will be created. 
+   ![]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_syn_group_added_en.png)![cloud_syn_group_added_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_syn_group_added_en.png)
+
+Now if you try searching with these queries in the store front end, the search results will be the same for all the queries from the group.
 
 If necessary you can add synonyms to an existing group and remove specific synonyms from a group. You can also delete the group itself.
 
