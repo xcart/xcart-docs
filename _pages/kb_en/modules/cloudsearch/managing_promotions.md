@@ -36,7 +36,7 @@ The promotion has been created. You should be able to see it in the **Promotions
   ![cloud_promo_list_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_promo_list_en.png)
 
 Now if you visit the store front end and do a search for "iphone" or "6splus" or any other key from the list, you should be able to see a link to iPhone 6S Plus on the first line of search results under "Products":
-  ![prom-res.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-res.png)
+  ![cloud_promo_on_front_end_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_promo_on_front_end_en.png)
 
 If you decide to add more search queries to the product later on, just type them next to ones you have added previously and save the changes.
   ![prom-7.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-7.png)
