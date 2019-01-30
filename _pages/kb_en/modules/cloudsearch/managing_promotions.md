@@ -24,10 +24,10 @@ Here's how you can create a promotion:
 2. In the “Add product promotion” popup window, select the product that you want to be promoted:
   
   Click inside the “Product” field and start typing the product name or SKU. The module will provide search results as you type. As soon as you see the item you require, click on its name and the product will be added:
-  ![prom-3.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-3.png)
+  ![cloud_select_product_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_select_product_en.png)
   
 3. Specify one or more search queries for which the selected product should be listed in the topmost position of search results in the Products section of the CloudSearch widget. To enter multiple search queries, separate the individual queries with commas (,) or press ENTER after each query as you type.
-  ![prom-4.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-4.png)
+  ![cloud_promo_queries_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_promo_queries_en.png)
   
 4. Click **Create promotion**.
   ![prom-5.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-5.png)
