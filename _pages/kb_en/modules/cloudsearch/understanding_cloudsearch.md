@@ -38,7 +38,7 @@ If a user makes a spelling mistake while typing a search query, CloudSearch will
 <a id="cloudsearch-dashboard"></a>The module provides a dashboard where the store administrator can view the store's account information for CloudSearch service:
 ![cloud_dashboard_en.png]({{site.baseurl}}/attachments/ref_5IHjr19k/cloud_dashboard_en.png)
 
-The dashboard can be reached via the _Settings_ link for the CloudSearch module on the **Addons** page or in the **Catalog** -> **CloudSearch & CloudFilters** section of the store Admin area.
+The dashboard can be accessed via the _Settings_ link for the CloudSearch module on the **Addons** page or in the **Catalog** -> **CloudSearch & CloudFilters** section of the store Admin area.
 
 * The central area of the page provides CloudSearch statistics for the store, including the most popular searches that returned search results and the most popular searches that returned nothing. Statistical data is available for three periods: 24 hours, 7 days and 30 days. Search results can be exported to CSV.
 
