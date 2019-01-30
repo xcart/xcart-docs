@@ -16,10 +16,10 @@ Let us imagine that you are selling smartphones and want to promote, for example
 Here's how you can create a promotion:
 
 1. In the store’s Admin area, go to the **Catalog** -> **CloudSearch & Cloudfilters** section, locate the **Promotions** tab and click **Add Promotion**:
-   ![prom-1.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-1.png)
+   ![cloud_add_promo_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_add_promo_en.png)
   
    A popup window titled "Add product promotion" will be displayed:
-   ![prom-2.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-2.png)
+   ![cloud_add_promo_popup_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_add_promo_popup_en.png)
     
 2. In the “Add product promotion” popup window, select the product that you want to be promoted:
   
