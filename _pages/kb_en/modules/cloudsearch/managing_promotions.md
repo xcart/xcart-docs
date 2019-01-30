@@ -46,8 +46,7 @@ If you decide to add more search queries to the product later on, just type them
 If you choose to configure multiple promotions for the same search query, you will be able to adjust the order in which the promotions should be displayed in the search results inside the CloudSearch widget in your store’s front end. 
 
 Use arrows to move a promotion up or down:
-
-![prom-sort.png]({{site.baseurl}}/attachments/ref_0OurnBzC/prom-sort.png)
+   ![cloud_promo_sort_en.png]({{site.baseurl}}/attachments/ref_0OurnBzC/cloud_promo_sort_en.png)
 
 The new order will be saved automatically.
 
