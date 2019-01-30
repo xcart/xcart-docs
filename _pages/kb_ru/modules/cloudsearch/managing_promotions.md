@@ -21,7 +21,6 @@ published: true
   ![cloud_add_promo_popup.png]({{site.baseurl}}/attachments/ref_6zriMkVX/cloud_add_promo_popup.png)
   
 2. Во всплывающем окне **Add product promotion** («Добавить промо акцию для товара») выберите товар, который вы хотите продвигать:
-  
    Щелкните внутри поля **Product** («Товар») и начните вводить название продукта или его артикул. Модуль будет выводить результаты поиска по мере ввода. Как только вы увидите нужный вам товар, щелкните по его названию, и товар будет добавлен:
    ![cloud_select_product.png]({{site.baseurl}}/attachments/ref_6zriMkVX/cloud_select_product.png)
   
