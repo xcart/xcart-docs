@@ -66,4 +66,6 @@ As a result, the filter category will be created.
 
 Note that the filter categories you use and the keywords you specify in the section **Smart Filter Selection For Product Search** must match the structure of user search queries. For example, if you are selling footballs and sportswear in your store, and you want different filters to appear depending on the type of products that has been found as a result of a search query, you will need to create two filter categories. At the same time, it is important that the specified keywords do not overlap in meaning, because, when your customer does a search on your store site, only one filter category needs to be selected in accordance with the search query.
 
-## Checking Your Account Status and/or Deactivating CloudFilters 
+## Account Management and/or Deactivating CloudFilters 
+You can check the status of your CloudFilters account and, if necessary, disable the use of CloudFilters in your store using the CloudFilters settings panel. To access this panel, use the "Settings" button on the **CloudFilters** tab:
+![cloud_cloudfilters_settings.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_cloudfilters_settings.png)
