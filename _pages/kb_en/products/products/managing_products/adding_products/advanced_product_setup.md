@@ -69,13 +69,6 @@ You will also be able to set minimum product purchase quantities for different u
 
 For more info on using the addon, see {% link "Wholesale module" ref_ttZa4qgu %}. 
 
-## Sell products on eBay
-
-To list the product on eBay and get your data synchronized between eBay and your X-Cart store, you may want to use the addon [X-Cart eBay Integration](https://market.x-cart.com/addons/ebay-integration.html). With this addon, you will be able to set the product's eBay options via the "eBay product options" tab of the product page. 
-![xc5_products_ebay_product_options_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_ebay_product_options_tab.png)
-
-For more info on using the addon, see {% link "X-Cart eBay Integration" ref_0SnFdXk1 %}.
-
 ## Related products
 
 For cross-selling/upselling purposes, you may wish to create links from the current product to some other products in your store. These products will be displayed as related to the current product in the "Related products" block on the product page on the storefront and, if necessary, may be used as a source of "Customers who bought this also bought" recommendations in the Add to cart popup. 
@@ -85,6 +78,7 @@ Linking products to one another is enabled by the addon [Related Products](https
 For more info on using the addon, see {% link "Related Products" ref_4a5rpsQq %}.
 
 For showing related products in the Add to cart popup, you will also need the addon [Add to Cart Popup](https://market.x-cart.com/addons/add-to-cart-popup.html).
+
 For more info on using the addon, see {% link "Add to Cart PopUp Module" ref_1iGC8Efj %}.
 
 ## Product tabs displayed on the product page on the storefront
@@ -122,11 +116,18 @@ If you need your customers to be able to attach files to their order before maki
 ![cus-product-details.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/cus-product-details.png)
 For more info on using the addon, see {% link "Customer Files Uploads & Product Attachments" ref_1tk0fbqz %}.
 
-## Product hidden attributes for Google Feed
+## Product with hidden attributes for Google Feed
 
 To add the product to Google feed and get your data synchronized between Google and your X-Cart store, you may want to use the addon [Google Product Feed](https://market.x-cart.com/addons/google-product-feed.html "Advanced Product Details"). To {% link "use this addon" ref_2gQBB6qM %}, you will be able to set hidden attributes for the product to list it properly in Google feed. 
 ![apd-hidden-attributes.png]({{site.baseurl}}/attachments/ref_2kV8GKN7/apd-hidden-attributes.png)
 For more info on configuring hidden attributes, see [Managing attribute values](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#hidden-field "Advanced Product Details"). 
+
+## Sell products on eBay
+
+To list the product on eBay and get your data synchronized between eBay and your X-Cart store, you may want to use the addon [X-Cart eBay Integration](https://market.x-cart.com/addons/ebay-integration.html). With this addon, you will be able to set the product's eBay options via the "eBay product options" tab of the product page. 
+![xc5_products_ebay_product_options_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_ebay_product_options_tab.png)
+
+For more info on using the addon, see {% link "X-Cart eBay Integration" ref_0SnFdXk1 %}.
 
 ## Sell products on Amazon
 
