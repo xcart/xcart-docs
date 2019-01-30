@@ -108,7 +108,7 @@ If you need to sell stuff like licenses, enrollment keys, PIN codes, serial numb
 ![xc5_products_pin_codes_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_pin_codes_tab.png)
 For more info on using the addon, see {% link "PIN Codes Module" ref_2ioJzfJL %}.
 
-### Products with File Attachments
+## Products with File Attachments
 
 If you need to attach files to your product (like a product manual or a detailed description) so your store visitors will be able to download these files from the product page, you will need to use the addon [File attachments](https://market.x-cart.com/addons/file-attachments.html) and the "Attachments" tab of the product page.  
 ![xc5_products_attachments_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_attachments_tab.png)
@@ -116,8 +116,8 @@ For more info on using the addon, see {% link "Product File Attachments" ref_0ZW
 
 If you need to be able not just to attach files for free download by store visitors but to sell digital goods, you will also need the addon [E-goods](https://market.x-cart.com/addons/e-goods.html). For more info on using the addon, see the section {% link "E-goods" ref_ZszpDfxQ %} in this manual.
 
-## Enable customers to attach files to the product
+## Products that allow customers to attach files at checkout
 
-If you need your customers to be able to attach files to their order before making a purchase (like, for example, if you are selling custom design t-shirts and want to enable your customers to upload their own t-shirt design for the t-shirt they are ordering), you will need to use the addon [Customer Files Uploads & Product Attachments](https://market.x-cart.com/addons/files-uploads-product-attachments.html).
+If you need your customers to be able to attach files to their order before making a purchase (like, for example, if you are selling custom design t-shirts and want to enable your customers to upload their own t-shirt design for the t-shirt they are ordering), you will need to use the addon [Customer Files Uploads & Product Attachments](https://market.x-cart.com/addons/files-uploads-product-attachments.html "Advanced Product Details").
 ![cus-product-details.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/cus-product-details.png)
-For more info on using the addon, see {% link "Customer Files Uploads &amp; Product Attachments" ref_1tk0fbqz %}.
+For more info on using the addon, see {% link "Customer Files Uploads & Product Attachments" ref_1tk0fbqz %}.
