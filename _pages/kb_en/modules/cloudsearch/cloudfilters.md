@@ -29,7 +29,7 @@ To configure filters, open the **Cloudfilters** tab on the **Catalog** -> **Clou
 Enable CloudFilters using the button **Enable CloudFilters**:
 <img>
 
-You will see a screen with 2 tab sections, **Set Up Filters** and **Smart Filter Selection For Product Search**.
+Once CloudFilters service has been activated for your store, you will see a screen with 2 tab sections, **Set Up Filters** and **Smart Filter Selection For Product Search**.
 ![cloudfilters-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloudfilters-1.png)
 
 The section **Set Up Filters** is where you will do the general setup of your filters to be applied store wide. This section provides a list of filters generated automatically based on all the product attributes, tags and vendors defined in your store. You can enable/disable any filters and change the filter settings:
