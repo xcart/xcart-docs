@@ -3,11 +3,11 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-19 13:53 +0400'
 identifier: ref_0Esu2RNW
-title: Make/Model/Year Module
+title: Make/Model/Year
 order: 165
 published: true
 ---
-The [Make/Model/Year module](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year Module") allows to set up up to 4 levels of filter for inventory, as well as to remember the filters for the non-registered visitors and to remember the vehicle for the registered customers. Though the module is mainly aimed at the sellers of auto parts or/and moto parts, it can also be used by any seller who differentiates the products by levels like computers, copiers, smartphones, etc. 
+The [Make/Model/Year](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year") addon allows to set up up to 4 levels of filter for inventory, as well as to remember the filters for the non-registered visitors and to remember the vehicle for the registered customers. Though the module is mainly aimed at the sellers of auto parts or/and moto parts, it can also be used by any seller who differentiates the products by levels like computers, copiers, smartphones, etc. 
 
 The **Make/Model/Year** filters show up on all pages in your online store. A customer selects a make of a product, a model, a year and an engine using convenient modern selectors and gets a list of products with the set characteristics.
 
@@ -17,13 +17,13 @@ Registered customers can save their vehicles in the account with the **'Remember
 
 {% toc %}
 
-## Make/Model/Year Module Installation and Set-Up
+## Make/Model/Year Addon Installation and Set-Up
 
-To install the module follow the steps described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once the module is installed and enabled, go to the module settings page to configure it.
+To install the addon follow the steps described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once the module is installed and enabled, go to the module settings page to configure it.
 
 ![installed.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/installed.png)
 
-The module configuration settings are as follows:
+The addon configuration settings are as follows:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/settings.png)
 
@@ -46,7 +46,7 @@ With the **Use separate tab for the fitment on the product page** option enabled
 
 ## Filter Levels Set-Up
 
-When the **Make/Model/Year** module settings are configured you can proceed with setting up the filter levels and populating the module with products. 
+When the **Make/Model/Year** addon settings are configured you can proceed with setting up the filter levels and populating the addon with products. 
 
 To configure the filters:
 
@@ -66,7 +66,7 @@ To configure the filters:
 3. When the levels are configured, you can add products on the very last step by clicking the **Manage Products** link in the end. 
    * If the products are already added/uploaded to the store click the **'Add product'** button and choose the products that meet the filters you configured from a list in a pop-up.
      ![select_products.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/select_products.png)
-   * If the products are not uploaded to the store as yet, you can import them with a .csv file using the guides [here](https://kb.x-cart.com/modules/MMY.html#makemodelyear-module-data-importexport "Make/Model/Year Module").
+   * If the products are not uploaded to the store as yet, you can import them with a .csv file using the guides [here](https://kb.x-cart.com/modules/MMY.html#makemodelyear-addon-data-importexport "Make/Model/Year").
    
 ## **Level info** Page Set-Up
 
@@ -80,27 +80,27 @@ When a customer clicks to filter the parts, he will be redirected to the corresp
    <div class="column" markdown="span">![landing-customer.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/landing-customer.png)</div>
 </div>
 
-If the **Level page** is not configured for a sublevel, the module will display the search results depending on the filters set by a customer.
+If the **Level page** is not configured for a sublevel, the addon will display the search results depending on the filters set by a customer.
 
 ![customer_filters.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/customer_filters.png)
 
 
-## Make/Model/Year Module Data Import/Export 
+## Make/Model/Year Addon Data Import/Export 
 
-The Make/Model/Year module data can be exported in the **Catalog** -> **Export** section:
+The Make/Model/Year addon data can be exported in the **Catalog** -> **Export** section:
 
 ![export.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/export.png)
 
 If you need to include product SKU data into the export file use the **Products with Make/Model/Year/Engine** export option (products-mmy-YYYY-MM-DD.csv file format). The **Make/Model/Year/Engine listing** export option gives all the same export data except for the product SKU (mmy-YYYY-MM-DD.csv).
 
-A data import for the Make/Model/Year module can also be done in two different ways:
+A data import for the Make/Model/Year addon can also be done in two different ways:
 
 1. **With SKU**
    
-   The fields that should be added to a products-mmy-YYYY-MM-DD.csv file to populate the module with products should be as follows:
+   The fields that should be added to a products-mmy-YYYY-MM-DD.csv file to populate the addon with products should be as follows:
    ![csv.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/csv.png)
    
-   The fields' names in the products-mmy-YYYY-MM-DD.csv file should correspond with the level names you set on the **Make/Model/Year Module** settings page.
+   The fields' names in the products-mmy-YYYY-MM-DD.csv file should correspond with the level names you set on the **Make/Model/Year addon** settings page.
    
    {% note info %}
      
@@ -113,20 +113,20 @@ A data import for the Make/Model/Year module can also be done in two different w
      
    {% endnote %}
      
-   You CAN upload products to the module even without configuring the module levels beforehand. The levels and their values will be added to the **Catalog** -> **Make/Model/Year/Engine** section automatically from the products-mmy-YYYY-MM-DD.csv file you imported. 
+   You CAN upload products to the addon even without configuring the addon levels beforehand. The levels and their values will be added to the **Catalog** -> **Make/Model/Year/Engine** section automatically from the products-mmy-YYYY-MM-DD.csv file you imported. 
 
 2. **Without SKU**
    
-   The fields that should be added to a mmy-YYYY-MM-DD.csv file to populate the module with products should be as follows:
+   The fields that should be added to a mmy-YYYY-MM-DD.csv file to populate the addon with products should be as follows:
    ![mmy-listing-csv.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/mmy-listing-csv.png)
    
-   The fields' names in the mmy-YYYY-MM-DD.csv file should correspond with the level names you set on the **Make/Model/Year Module** settings page and should have the REAL level values (the value **ALL** can't be used here).
+   The fields' names in the mmy-YYYY-MM-DD.csv file should correspond with the level names you set on the **Make/Model/Year** addon settings page and should have the REAL level values (the value **ALL** can't be used here).
    
-   You CAN'T upload products to the module without configuring the module levels beforehand.
+   You CAN'T upload products to the addon without configuring the addon levels beforehand.
    
 ## Make/Model/ Year Selection Statistics
 
-The module allows a store admin to track visitors' selection statistics in a special section in the admin area (**Catalog** -> **M/M/Y/E selection statistics**):
+The addon allows a store admin to track visitors' selection statistics in a special section in the admin area (**Catalog** -> **M/M/Y/E selection statistics**):
 ![mmye-selection-stats.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/mmye-selection-stats.png)
 
 A store admin can trace visitors' preferences for the last day/week/month period and maintain the store inventory accordingly.
