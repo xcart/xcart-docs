@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-28 18:10 +0400'
 identifier: ref_ttZa4qgu
-title: Wholesale module
+title: Wholesale
 categories:
   - User manual
 published: true
@@ -14,7 +14,7 @@ redirect_from:
 ---
 
 
-Wholesale prices and minimum purchase quantities for products can be configured in X-Cart 5 using the module **Wholesale**:
+Wholesale prices and minimum purchase quantities for products can be configured in X-Cart 5 using the addon **Wholesale**:
 
 ![]({{site.baseurl}}/attachments/6389808/8719226.png)
 
