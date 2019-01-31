@@ -3,22 +3,22 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-24 13:01 +0400'
 identifier: ref_2gQBB6qM
-title: Google Product Feed Module
+title: Google Product Feed
 order: 130
 published: true
 ---
-[Google Product Feed module](https://market.x-cart.com/addons/google-product-feed.html "Google Product Feed Module") generates a feed file to upload your store and product data to Google (and not only to it) in the correct format. You can use the uploaded data for Google Shopping and other Google services, as well as 3rd party services which accept the Google feed file format.
+[Google Product Feed](https://market.x-cart.com/addons/google-product-feed.html "Google Product Feed") addon generates a feed file to upload your store and product data to Google (and not only to it) in the correct format. You can use the uploaded data for Google Shopping and other Google services, as well as 3rd party services which accept the Google feed file format.
 
-To generate feeds make sure the Google Product Feed module is installed and enabled as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To generate feeds make sure the Google Product Feed addon is installed and enabled as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-Once installed and enabled the Google Product Feed module adds an **Add to Google product feed** option to the **Marketing** section of the product details page automatically. The option comes enabled for all active products by default. 
+Once installed and enabled the Google Product Feed addon enables an **Add to Google product feed** option in the **Marketing** section of the product details page automatically. The option comes enabled for all active products by default. 
 
 ![product-details-marketing.png]({{site.baseurl}}/attachments/ref_2gQBB6qM/product-details-marketing.png)
 
 All products with the enabled **Add to Google product feed** option will be automatically added to a feed once generated. If you want to exclude some products from the feed, disable the **Add to Google product feed** option for them.
 
 {% note info %}
-In case the [System Fields module](https://market.x-cart.com/addons/system-fields.html "Google Product Feed Module") is installed and enabled and the UPC/ISBN and Mnf#/Vendor# fields it adds are defined for a product, they will be included into the feed automatically as GTIN и MPN parameters.
+In case the [System Fields](https://market.x-cart.com/addons/system-fields.html "Google Product Feed") addon is installed and enabled and the UPC/ISBN and Mnf#/Vendor# fields it adds are defined for a product, they will be included into the feed automatically as GTIN и MPN parameters.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![system-fields-intalled.png]({{site.baseurl}}/attachments/ref_2gQBB6qM/system-fields-intalled.png)</div>
@@ -27,9 +27,9 @@ In case the [System Fields module](https://market.x-cart.com/addons/system-field
 
 {% endnote %}
 
-Before procceding to feed generation you need to subdivide your inventory into small groups to match [Google product categories structure](https://support.google.com/merchants/answer/6324436?hl=en "Google Product Feed Module") . Since the feed is generated and transmitted based on the _google_product_attribute_ values you need to assign proper attribute values to your products first. This can be done using a special [global attribute of a hidden field type](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#hidden-field). 
+Before procceding to feed generation you need to subdivide your inventory into small groups to match [Google product categories structure](https://support.google.com/merchants/answer/6324436?hl=en "Google Product Feed") . Since the feed is generated and transmitted based on the _google_product_attribute_ values you need to assign proper attribute values to your products first. This can be done using a special [global attribute of a hidden field type](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#hidden-field). 
 
-Assign hidden attributes to your products using the {% link "Bulk Editing" ref_1kSYmXQn %} tool and make sure the hidden attributes' values meet the [List of Google categories](https://www.google.com/basepages/producttype/taxonomy-with-ids.en-US.txt "Google Product Feed Module"). 
+Assign hidden attributes to your products using the {% link "Bulk Editing" ref_1kSYmXQn %} tool and make sure the hidden attributes' values meet the [List of Google categories](https://www.google.com/basepages/producttype/taxonomy-with-ids.en-US.txt "Google Product Feed"). 
 
 {% note info %}
 For shippable products, it is necessary to take into account product dimensions. If a product has weight, height, and width defined, these parameters will also be added to the Google Shopping feed file as separate product attributes.
@@ -80,10 +80,10 @@ Also on this page you can:
   {% endnote %}
 
 
-The feed you generated can be used in the [Google Merchant Cernter](https://support.google.com/merchants/answer/188493?hl=en&ref_topic=3163841 "Google Product Feed Module") or any 3rd party services which accept the Google feed file format.
+The feed you generated can be used in the [Google Merchant Cernter](https://support.google.com/merchants/answer/188493?hl=en&ref_topic=3163841 "Google Product Feed") or any 3rd party services which accept the Google feed file format.
 
-If you already have an account with Google (like Gmail), visit [merchants.google.com](https://merchants.google.com/ "Google Product Feed Module") and sign in to get started.
+If you already have an account with Google (like Gmail), visit [merchants.google.com](https://merchants.google.com/ "Google Product Feed") and sign in to get started.
 
-If you don't have a Google account yet, go to [accounts.google.com](https://accounts.google.com/ "Google Product Feed Module") and click **Create account**. Follow the prompts to create a new Google Account.
+If you don't have a Google account yet, go to [accounts.google.com](https://accounts.google.com/ "Google Product Feed") and click **Create account**. Follow the prompts to create a new Google Account.
 
-Learn more about [Google Merchant Center](https://support.google.com/merchants/answer/188495?hl=en&ref_topic=3163841 "Google Product Feed Module") and how to become a Google merchant.
+Learn more about [Google Merchant Center](https://support.google.com/merchants/answer/188495?hl=en&ref_topic=3163841 "Google Product Feed") and how to become a Google merchant.
