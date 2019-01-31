@@ -19,7 +19,7 @@ To add a synonym group:
    A popup titled **Add synonyms** will appear.
    ![cloud_add_synonyms_popup_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_add_synonyms_popup_en.png)
    
-2. In the popup, click inside the input field and type one or more search queries that you want to be treated as synonymous (You must enter at least one word or phrase.) To enter multiple search queries, separate the individual queries with commas (,) or press ENTER after each query as you type.
+2. In the popup, click inside the input field and type up to 5 search queries that you want to be treated as synonymous (You must enter at least one word or phrase.) To enter multiple search queries, separate the individual queries with commas (,) or press ENTER after each query as you type.
 
 3. Click **Add synonyms**.
    ![cloud_add_syn_group_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_add_syn_group_en.png)
@@ -37,5 +37,3 @@ Or you can remove specific synonyms from a group:
 
 You can also remove the group itself:
    ![cloud_remove_syn_group_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_remove_syn_group_en.png)
-
-
