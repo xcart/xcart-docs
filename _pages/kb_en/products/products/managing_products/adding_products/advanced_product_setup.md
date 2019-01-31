@@ -67,7 +67,7 @@ With this addon you will be able to set price tiers for different purchase quant
 You will also be able to set minimum product purchase quantities for different user membership levels via the "Inventory tracking" tab.
 ![xc5_products_min_purchase_qty.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_min_purchase_qty.png)
 
-For more info on using the addon, see {% link "Wholesale module" ref_ttZa4qgu %}. 
+For more info on using the addon, see {% link "Wholesale addon" ref_ttZa4qgu %}. 
 
 ## Related products
 
@@ -79,7 +79,7 @@ For more info on using the addon, see {% link "Related Products" ref_4a5rpsQq %}
 
 For showing related products in the Add to cart popup, you will also need the addon [Add to Cart Popup](https://market.x-cart.com/addons/add-to-cart-popup.html).
 
-For more info on using the addon, see {% link "Add to Cart PopUp Module" ref_1iGC8Efj %}.
+For more info on using the addon, see {% link "Add to Cart PopUp addon" ref_1iGC8Efj %}.
 
 ## Product tabs displayed on the product page on the storefront
 
@@ -89,7 +89,7 @@ X-Cart uses the product tabs feature to present the detailed product information
 By default the standard set of product tabs is as follows:
    * **Description** : Shows the product SKU, weight and detailed product description
    * **Specification** : Shows the info about all available {% link "product options and attributes " ref_uaJk8ete %}
-   * **Comments** : Shows the customer comments on a product added via special modules (Go social, Disqus, VK comments, etc.)
+   * **Comments** : Shows the customer comments on a product added via special addons (Go social, Disqus, VK comments, etc.)
    * **Reviews** : Shows an {% link "average rating" ref_XBriIS6B %} of a product if it was rated and customer reviews (if any).  
    
 If necessary, you can change the set of tabs used on your store's product details pages; for example, it is possible to hide any tab you do not need, change the order in which the tabs appear or add more tabs of your own. 
@@ -98,9 +98,9 @@ Product tab management is enabled by the addon [Custom Product Tabs](https://mar
 
 ## Products with PIN codes
 
-If you need to sell stuff like licenses, enrollment keys, PIN codes, serial numbers, activation codes and passwords, phone cards and access codes, you may want to use the addon [PIN Codes](https://market.x-cart.com/addons/pin-codes.html "PIN Codes Module"). This addon will enable you to attach PIN codes to your existing product via the "PIN codes" tab:
+If you need to sell stuff like licenses, enrollment keys, PIN codes, serial numbers, activation codes and passwords, phone cards and access codes, you may want to use the addon [PIN Codes](https://market.x-cart.com/addons/pin-codes.html "PIN Codes addon"). This addon will enable you to attach PIN codes to your existing product via the "PIN codes" tab:
 ![xc5_products_pin_codes_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_pin_codes_tab.png)
-For more info on using the addon, see {% link "PIN Codes Module" ref_2ioJzfJL %}.
+For more info on using the addon, see {% link "PIN Codes addon" ref_2ioJzfJL %}.
 
 ## Products with File Attachments
 
@@ -126,13 +126,38 @@ For more info on configuring hidden attributes, see [Managing attribute values](
 
 To list the product on eBay and get your data synchronized between eBay and your X-Cart store, you may want to use the addon [X-Cart eBay Integration](https://market.x-cart.com/addons/ebay-integration.html). With this addon, you will be able to set the product's eBay options via the "eBay product options" tab of the product page. 
 ![xc5_products_ebay_product_options_tab.png]({{site.baseurl}}/attachments/ref_fhzzxDTy/xc5_products_ebay_product_options_tab.png)
-
-For more info on using the addon, see {% link "X-Cart eBay Integration" ref_0SnFdXk1 %}.
+For more info on using the addon, see the section {% link "X-Cart eBay Integration" ref_0SnFdXk1 %} of this manual.
 
 ## Sell products on Amazon
 
 To list the product on Amazon and get your data synchronized between Amazon and your X-Cart store, you may want to use the addon [Amazon Feeds](https://market.x-cart.com/addons/amazon-feeds.html "Advanced Product Details"). With this addon, you will be able to set the product's Amazon options via the "Amazon product options" tab of the product page. 
 ![product-details-amazon.png]({{site.baseurl}}/attachments/ref_2kV8GKN7/product-details-amazon.png)
+For more info on using the addon, see the section {% link "Amazon Feeds" ref_4UNr3oKZ %} of this manual.
+
+## Bundle Products
+
+If you need to sell products in bundle to give your customers an opportunity to buy products at a special price on a set if bought together, you may want to use the addon [Bundle Products](https://market.x-cart.com/addons/bundle-products.html "Advanced Product Details"). This addon will enable you to join products in bundles via the Bundle tab of the product page:
+![adm-product-details.png]({{site.baseurl}}/attachments/ref_2kV8GKN7/adm-product-details.png)
+For more info on using the addon, see the section {% link "Bundle Products" ref_1nuTw4Kc %} of this manual.
+
+## Product reviews
+
+If you need to give your customers an oppurtunity to rate the products you sell and leave feedback on the products you may want to use the addon [Product Reviews](https://market.x-cart.com/addons/product-reviews.html "Advanced Product Details"). This addon allows to see and manage the reviews left for a product in the Reviews tab of the product page:
+![product-reviews.png]({{site.baseurl}}/attachments/ref_2kV8GKN7/product-reviews.png)
+For more info on the addon, see the section {% link "Product Reviews" ref_XBriIS6B %} of this manual.
+
+## Ready product descriptions
 
 
-For more info on using the addon, see the {% link "Amazon Feeds" ref_4UNr3oKZ %} section of this manual.
+
+## Feed categories
+
+If you need to export your products into popular comparison shopping websites (also known as shopping engines and price comparison websites) you may want to use the addon [Product Feeds](https://market.x-cart.com/addons/product-feeds.html "Advanced Product Details") that allows to export feeds to Nextag, Pricegrabber, Shopzilla, eBay Commerce Network (shopping.com) and Google Shopping. This addon adds a Feed categories tab to the product details page where a store admin can specify the feed categories into which the product being edited must go:
+![fc-2.png]({{site.baseurl}}/attachments/ref_2kV8GKN7/fc-2.png)
+For more info on the addon, see the section {% link "Product Feeds" ref_0gfIXwxH %} of this manual.
+
+## Fitment (Make/Model/Year)
+
+If you need to use an advanced filtering option for the customers to be able to sort products you see in the storefront (e.g. if you are selling auto/moto parts or any goods that can be differentiated by levels) you may want to use the addon [Make/Model/Year](https://market.x-cart.com/addons/make-model-year.html "Advanced Product Details"). This addon adds a special Fitment tab to the product details page where a store admin can assign the Make/Model/Year combinations to the product:
+![fitment.png]({{site.baseurl}}/attachments/ref_2kV8GKN7/fitment.png)
+For more info on the addon, see the section {% link "Make/Model/Year Addon" ref_0Esu2RNW %} of this manual.
