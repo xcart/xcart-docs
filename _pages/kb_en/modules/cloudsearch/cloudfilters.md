@@ -38,7 +38,7 @@ The section **Set Up Filters** is where you will do the general setup of your fi
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![cloud_manage_filters_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_manage_filters_en.png)</div>
-  <div class="column" markdown="span">![filter-settings.png]({{site.baseurl}}/attachments/ref_25POvGjV/filter-settings.png)</div>
+  <div class="column" markdown="span">![cloud_size_filter_settings_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_size_filter_settings_en.png)</div>
 </div>
 
 If a filter is disabled in the section **Set Up Filters**, it is not displayed on the storefront. 
