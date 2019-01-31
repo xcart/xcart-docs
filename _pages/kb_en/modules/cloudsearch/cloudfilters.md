@@ -54,13 +54,14 @@ Filter sets that are linked to specific keywords are called filter categories.
 To add a filter category:
 
 1. Click **Add Filter Category**.
-![smart-filter.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter.png)
+![cloud_add_filter_cat_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_add_filter_cat_en.png)
+
 A popup titled "Add new filter category" will be displayed.
+![cloud_add_filter_cat1_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_add_filter_cat1_en.png)
 
 2. Use the popup to configure a filter category: In the field **Keywords**, specify the keyword(s) to which the filter set of this filter category should be linked; then, click within the field **Filters** and select the filters for this category. 
 
 3. Once you are done selecting the filters, click **Add category**.
-![smart-filter-popup.png]({{site.baseurl}}/attachments/ref_25POvGjV/smart-filter-popup.png)
 
 As a result, the filter category will be created.
 
@@ -69,7 +70,7 @@ Note that the filter categories you use and the keywords you specify in the sect
 ## Account Management and/or Deactivating CloudFilters 
 <a id="cloudfilters-dashboard"></a>You can check the status of your CloudFilters account and, if necessary, disable the use of CloudFilters in your store using the CloudFilters settings panel. 
 To access this panel, use the "Settings" button on the **CloudFilters** tab:
-![cloud_cloudfilters_settings.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_cloudfilters_settings.png)
+![cloud_cloudfilters_settings_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_cloudfilters_settings_en.png)
 
 On this panel you can see:
    
