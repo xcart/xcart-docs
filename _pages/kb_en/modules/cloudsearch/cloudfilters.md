@@ -26,13 +26,13 @@ Once a filter has been applied, all the images and prices are updated at once.
 
 ## CloudFilters Activation and Setup
 To start using CloudFilters, open the **Cloudfilters** tab on the **Catalog** -> **CloudSearch & CloudFilters** page in the Admin area. 
-![cloud_cloudfilters_tab_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_cloudfilters_tab_en.png)
+   ![cloud_cloudfilters_tab_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_cloudfilters_tab_en.png)
 
 Enable CloudFilters using the button **Enable CloudFilters**:
-![cloud_enable_cloudfilters_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_enable_cloudfilters_en.png)
+   ![cloud_enable_cloudfilters_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_enable_cloudfilters_en.png)
 
 Once CloudFilters service has been activated for your store, you will see a screen with two tab sections, **Set Up Filters** and **Smart Filter Selection For Product Search**.
-![cloud_cloudfilters_sections_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_cloudfilters_sections_en.png)
+   ![cloud_cloudfilters_sections_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_cloudfilters_sections_en.png)
 
 The section **Set Up Filters** is where you will do the general setup of your filters to be applied store wide. This section provides a list of filters generated automatically based on all the product attributes, tags and vendors defined in your store. You can enable/disable any filters and change the filter settings:
 
@@ -54,10 +54,10 @@ Filter sets that are linked to specific keywords are called filter categories.
 To add a filter category:
 
 1. Click **Add Filter Category**.
-![cloud_add_filter_cat_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_add_filter_cat_en.png)
+   ![cloud_add_filter_cat_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_add_filter_cat_en.png)
 
-A popup titled "Add new filter category" will be displayed.
-![cloud_add_filter_cat1_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_add_filter_cat1_en.png)
+   A popup titled "Add new filter category" will be displayed.
+   ![cloud_add_filter_cat1_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_add_filter_cat1_en.png)
 
 2. Use the popup to configure a filter category: In the field **Keywords**, specify the keyword(s) to which the filter set of this filter category should be linked; then, click within the field **Filters** and select the filters for this category. 
 
@@ -70,11 +70,12 @@ Note that the filter categories you use and the keywords you specify in the sect
 ## Account Management and/or Deactivating CloudFilters 
 <a id="cloudfilters-dashboard"></a>You can check the status of your CloudFilters account and, if necessary, disable the use of CloudFilters in your store using the CloudFilters settings panel. 
 To access this panel, use the "Settings" button on the **CloudFilters** tab:
-![cloud_cloudfilters_settings_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_cloudfilters_settings_en.png)
+   ![cloud_cloudfilters_settings_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_cloudfilters_settings_en.png)
 
 On this panel you can see:
    
    * The status of your CloudFilters subscription and a button that allows you to change your current subscription plan.
    * The status of data synchronization between your store and the CloudFilters service on our servers.
    * A switch that allows you to disable the use of CloudFilters in your store.
-![cloud_cloudfilters_settings1.png]({{site.baseurl}}/attachments/ref_5klrPdyQ/cloud_cloudfilters_settings1.png)
+   ![cloud_cloudfilters_settings1_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_cloudfilters_settings1_en.png)
+
