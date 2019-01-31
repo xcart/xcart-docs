@@ -38,5 +38,13 @@ published: true
 Также вы сможете удалить и саму группу:
    ![cloud_remove_syn_group.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_remove_syn_group.png)
 
-Модуль поддерживает импорт и экспорт синонимов. Вы найдете соответствующие ссылки в верхней части секции **Synonyms** («Синонимы»):
-   ![cloud_syn_import_export_ru.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_syn_import_export_ru.png)
+Модуль поддерживает импорт и экспорт синонимов. Вы найдете ссылки для доступа к соответствующим секциям в верхней части секции **Synonyms** («Синонимы»):
+   ![cloud_syn_import_export_ru.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_syn_import_export_ru.png)  
+  
+Импорт и экспорт осуществляются в формате CSV. 
+
+Например, чтобы добавить имеющиеся у вас синонимы в CloudSearch через функцию импорта, необходимо создать файл .csv, добавить в него ваш список синонимов и осуществить импорт данного файла через секцию импорта. 
+   ![cloud_import_synonyms_ru.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_import_synonyms_ru.png)
+
+Каждая отдельная группа синонимов должна размещаться в файле на отдельной строке. В качестве разделителя между отдельными синонимами должна использоваться запятая.
+   
