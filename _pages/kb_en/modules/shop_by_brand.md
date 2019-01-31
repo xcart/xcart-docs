@@ -3,22 +3,22 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-02-05 13:14 +0400'
 identifier: ref_2LetICls
-title: Shop by Brand Module
+title: Shop by Brand
 order: 245
 published: true
 description: shop by brand
 ---
-[Shop by Brand](https://market.x-cart.com/addons/shop-by-brand.html "Shop by Brand Module") module is included in X-Cart Ultimate edition (paid for X-Cart Business). The module is aimed at promoting branded goods.
+[Shop by Brand](https://market.x-cart.com/addons/shop-by-brand.html "Shop by Brand") addon is included in X-Cart Ultimate edition (paid for X-Cart Business). The addon is aimed at promoting branded goods.
 
-With this module finding products of specific brands/manufacturers becomes much easier to customers. Especially to first-time visitors who don't know what exactly they are looking for.
+With this addon finding products of specific brands/manufacturers becomes much easier to customers. Especially to first-time visitors who don't know what exactly they are looking for.
 
-To install the module  please follow the steps described in {% link "Installing and activating addons" ref_0fGEpvrh %}.
+To install the addon  please follow the steps described in {% link "Installing and activating addons" ref_0fGEpvrh %}.
 
-Once installed, find the module in the list of installed modules on the Addons page in the admin back-end, open the module settings page and configure the module according to your business needs.
+Once installed, find the addon in the list of installed modules on the Addons page in the admin back-end, open the addon settings page and configure the addon according to your business needs.
 
 ![addon.png]({{site.baseurl}}/attachments/ref_2LetICls/addon.png)
 
-The module settings are as follows:
+The addon settings are as follows:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_2LetICls/settings.png)
 
@@ -34,7 +34,7 @@ The module settings are as follows:
 
 Don't forget to **Submit** changes when done.
 
-When the module is enabled and configured, existing brands are collected through the store automatically based on the global attribute you specified and are displayed in the _Brands_ section (**Catalog** > **Brands**) in the admin back-end. 
+When the addon is enabled and configured, existing brands are collected through the store automatically based on the global attribute you specified and are displayed in the _Brands_ section (**Catalog** > **Brands**) in the admin back-end. 
 
 ![brands.png]({{site.baseurl}}/attachments/ref_2LetICls/brands.png)
 
@@ -50,7 +50,7 @@ You can specify the following info for your brands, the only required filed bein
 * **Meta description** : The description to be used in the description META tag on the category page (for SEO purposes).
 * **Clean URL** : The product page Clean URL (for SEO purposes).
 
-The buyers will see the Brands block on the home page and on any category page on the store front-end. You can change the Brands block location using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Shop by Brand Module"). The brands are also added to the store main {% link "menu" ref_BDykFBbw %}. If you want to disable the brands menu you can do it in the **Content** > **Menus** section of the store admin back-end.
+The buyers will see the Brands block on the home page and on any category page on the store front-end. You can change the Brands block location using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Shop by Brand"). The brands are also added to the store main {% link "menu" ref_BDykFBbw %}. If you want to disable the brands menu you can do it in the **Content** > **Menus** section of the store admin back-end.
 
 ![home.png]({{site.baseurl}}/attachments/ref_2LetICls/home.png)
 
