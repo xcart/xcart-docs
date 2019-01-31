@@ -3,15 +3,15 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-19 16:14 +0400'
 identifier: ref_52nVzkWs
-title: Order Reports Module
+title: Order Reports
 order: 195
 published: true
 ---
-[Order Reports module](https://market.x-cart.com/addons/order-reports.html "Order Reports Module") helps merchants to analize the sales return-on-investment by segmenting orders by products, categories, shipping country, etc. Hence it's possible to track where the most sales come from and get ideas about how to increase the revenue. 
+[Order Reports](https://market.x-cart.com/addons/order-reports.html "Order Reports Module") addon helps merchants to analize the sales return-on-investment by segmenting orders by products, categories, shipping country, etc. Hence it's possible to track where the most sales come from and get ideas about how to increase the revenue. 
 
-Order Reports module is included in the X-Cart Ultimate edition and is a paid module for X-Cart Business and Multivendor.
+Order Reports addon is included in the X-Cart Ultimate edition and is a paid module for X-Cart Business and Multivendor.
 
-Once {% link "installed and enabled" ref_Vn1mMUw9 %} the module adds the **Order returns** section to the **Orders** parts of the Admin area (**Orders** -> **Order returns**):
+Once {% link "installed and enabled" ref_Vn1mMUw9 %} the addon adds the **Order returns** section to the **Orders** parts of the Admin area (**Orders** -> **Order returns**):
 
 ![settings.png]({{site.baseurl}}/attachments/ref_52nVzkWs/settings.png)
 
