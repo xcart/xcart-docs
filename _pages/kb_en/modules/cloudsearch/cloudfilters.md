@@ -65,6 +65,7 @@ To add a filter category:
    ![cloud_add_filter_cat2.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_add_filter_cat2.png)
 
 As a result, the filter category will be created.
+   ![cloud_filter_cat_added_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_filter_cat_added_en.png)
 
 Note that the filter categories you use and the keywords you specify in the section **Smart Filter Selection For Product Search** must match the structure of user search queries. For example, if you are selling footballs and sportswear in your store, and you want different filters to appear depending on the type of products that has been found as a result of a search query, you will need to create two filter categories. At the same time, it is important that the specified keywords do not overlap in meaning, because, when your customer does a search on your store site, only one filter category needs to be selected in accordance with the search query.
 
