@@ -7,7 +7,7 @@ title: 'Back in Stock Notifications: Admin Experience'
 order: 110
 published: true
 ---
-Once the **Back in Stock Notifications** module is {% link "installed and configured" ref_7mZJltoM %} a store admin can check for notification subscriptions and for the products in demand in the **Catalog** -> **Product notification subscriptions** and **Catalog** -> **Watched products** sections respectively. 
+Once the **Back in Stock Notifications** addon is {% link "installed and configured" ref_7mZJltoM %} a store admin can check for notification subscriptions and for the products in demand in the **Catalog** -> **Product notification subscriptions** and **Catalog** -> **Watched products** sections respectively. 
 
 The **Catalog** -> **Product notification subscriptions** section shows both the back-in-stock and price-drop-down subscriptions:
 
@@ -48,4 +48,4 @@ The **Catalog** -> **Watched products** section displays a list of products in d
   <div class="column" markdown="span"><i>Price drop watchlist </i>![adm-pdd-watchlist.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/adm-pdd-watchlist.png)</div>
 </div>
 
-Using these lists the cart admin can plan futher store inventory supplies and possible sales or other related marketing campains. 
+Using these lists the cart admin can plan futher store inventory supplies and possible sales or other related marketing campains.
