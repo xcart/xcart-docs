@@ -37,7 +37,7 @@ Once CloudFilters service has been activated for your store, you will see a scre
 The section **Set Up Filters** is where you will do the general setup of your filters to be applied store wide. This section provides a list of filters generated automatically based on all the product attributes, tags and vendors defined in your store. You can enable/disable any filters and change the filter settings:
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![filter-settings-1.png]({{site.baseurl}}/attachments/ref_25POvGjV/filter-settings-1.png)</div>
+  <div class="column" markdown="span">![cloud_manage_filters_en.png]({{site.baseurl}}/attachments/ref_25POvGjV/cloud_manage_filters_en.png)</div>
   <div class="column" markdown="span">![filter-settings.png]({{site.baseurl}}/attachments/ref_25POvGjV/filter-settings.png)</div>
 </div>
 
