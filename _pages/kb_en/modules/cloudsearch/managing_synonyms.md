@@ -57,3 +57,5 @@ To add your existing synonyms to CloudSearch via import:
    5. Click **Upload file**.
 
 After the file upload has completed, the synonyms from the file will be added to the system, and you will be able to find them in the section **Synonyms**.
+
+To export synonyms previously added to CloudSearch to a .csv file, use the link **Export**.
