@@ -7,11 +7,11 @@ title: 'Call for Price '
 order: 50
 published: true
 ---
-The [Call for Price](https://market.x-cart.com/addons/call-for-price.html "Call for Price Module") module allows you to hide the price and "Add to cart" button for particular products and show a messsage instead. The module is included into the X-Cart Ultimate edition and is paid for X-Cart Business and Multivendor.
+The [Call for Price](https://market.x-cart.com/addons/call-for-price.html "Call for Price") module allows you to hide the price and "Add to cart" button for particular products and show a messsage instead. The module is included into the X-Cart Ultimate edition and is paid for X-Cart Business and Multivendor.
 
-To install the module follow instructions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}
+To install the addon follow instructions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}
 
-Once enabled open the module _Settings page_ if you need to change the default 'Call for price' message:
+Once enabled open the addon _Settings page_ if you need to change the default 'Call for price' message:
 
 ![settings-1.png]({{site.baseurl}}/attachments/ref_3K1pJExV/settings-1.png)
 
