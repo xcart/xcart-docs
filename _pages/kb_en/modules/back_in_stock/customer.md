@@ -8,7 +8,7 @@ order: 120
 published: true
 ---
 
-The **Back in Stock Notifications** module allows both registered and unregistered customers to subscribe to back-in-stock and price-drop-down notifications. The process is quite the same the only difference being that the unregistered customers have to specify their e-mail, while the registered customers have this field predefined based on the customer account data.
+The **Back in Stock Notifications** addon allows both registered and unregistered customers to subscribe to back-in-stock and price-drop-down notifications. The process is quite the same the only difference being that the unregistered customers have to specify their e-mail, while the registered customers have this field predefined based on the customer account data.
 
 While the back-in-stock subscriptions are available for the out-of-stock products only, the price-drop-down subscriptions work for both in-stock and out-of-stock products. 
 
