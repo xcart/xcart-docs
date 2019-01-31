@@ -3,20 +3,20 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-01-29 16:35 +0400'
 identifier: ref_6e82A7rL
-title: Product Filter Module
+title: Product Filter
 order: 221
 published: true
 description: 'product filters, easy search'
 ---
-Let's imagine that you run an online store that has tons of different products. Each product has its own set of attributes like size, color, material, technical characteristics, and many others that make it distinct from other products. Buyers decisions directly depend on these product attributes and you as a seller can make a buyers choice easier using the product filters module. The filter based on product attributes will help your customers to narrow down the search results and find out the exact products they need. Filter-based search can also include tags, price range,  and in-stock availability. You can add a filter-based search block on a category page in the store front-end using the **Product Filter** module.
+Let's imagine that you run an online store that has tons of different products. Each product has its own set of attributes like size, color, material, technical characteristics, and many others that make it distinct from other products. Buyers decisions directly depend on these product attributes and you as a seller can make a buyers choice easier using the product filters addon. The filter based on product attributes will help your customers to narrow down the search results and find out the exact products they need. Filter-based search can also include tags, price range,  and in-stock availability. You can add a filter-based search block on a category page in the store front-end using the **Product Filter** addon.
 
-The **Product Filter** module is included into X-Cart Business package and higher and comes pre-installed. However, if it is not you can always enable it yourself as described in {% link "Installing and activating addons" ref_0fGEpvrh %}.
+The **Product Filter** addon is included into X-Cart Business package and higher and comes pre-installed. However, if it is not you can always enable it yourself as described in {% link "Installing and activating addons" ref_0fGEpvrh %}.
 
-When enabled, you'll need to open the _Settings_ page and configure the module according to your business needs.
+When enabled, you'll need to open the _Settings_ page and configure the addon according to your business needs.
 
 ![addons.png]({{site.baseurl}}/attachments/ref_6e82A7rL/addons.png)
 
-The module settings are as follows:
+The addon settings are as follows:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_6e82A7rL/settings.png)
 
@@ -82,9 +82,9 @@ Once enabled and set up the product filter will become available on the category
 ![]({{site.baseurl}}/attachments/ref_6e82A7rL/store-front.png)
 
 {% note info %}
-You can change the Product Filter block position in the store front-end using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Product Filter Module").
+You can change the Product Filter block position in the store front-end using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Product Filter").
 {% endnote %}
 
 _Related pages:_
 
-   * {% link "Product Filter: Usage with Multivendor" ref_5YMhId62 %} 
+   * {% link "Product Filter: Usage with Multivendor" ref_5YMhId62 %}
