@@ -11,7 +11,7 @@ categories:
   - home
 icon: puzzle
 ---
-*   {% link "Работа с модулями" ref_UOFzIxp9 %}
+Ниже приведен список руководств пользователя для некоторых популярных модулей X-Cart. Информация об установке и активации модулей в X-Cart доступна в разделе   {% link "Работа с модулями" ref_UOFzIxp9 %}
 
 *   {% link "Abandoned Cart Reminder" ref_4pmEuIKR %} (Незавершённые покупки)
 *   {% link "Blog System in X-Cart 5" ref_6a9ulokJ %} (Блог в X-Cart 5)
