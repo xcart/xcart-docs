@@ -37,3 +37,5 @@ published: true
 
 Также вы сможете удалить и саму группу:
    ![cloud_remove_syn_group.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_remove_syn_group.png)
+
+Модуль поддерживает импорт и экспорт синонимов. 
