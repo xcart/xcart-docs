@@ -37,3 +37,5 @@ Or you can remove specific synonyms from a group:
 
 You can also remove the group itself:
    ![cloud_remove_syn_group_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_remove_syn_group_en.png)
+   
+The module supports the import and export of synonyms.   
