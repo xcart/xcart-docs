@@ -39,3 +39,4 @@ published: true
    ![cloud_remove_syn_group.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_remove_syn_group.png)
 
 Модуль поддерживает импорт и экспорт синонимов. Вы найдете соответствующие ссылки в верхней части секции **Synonyms** («Синонимы»):
+   ![cloud_syn_import_export_ru.png]({{site.baseurl}}/attachments/ref_2BtZQT9C/cloud_syn_import_export_ru.png)
