@@ -17,22 +17,22 @@ Information on how an addon can be installed and activated in X-Cart is availabl
 _In this section:_
 
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
-*   {% link "Add to Cart PopUp Module" ref_1iGC8Efj %}
+*   {% link "Add to Cart PopUp" ref_1iGC8Efj %}
 *   {% link "Amazon Feeds" ref_4UNr3oKZ %}
 *   {% link "Amazon Pay" ref_mri0tPhM %} (former "Pay with Amazon")
 *   {% link "AntiFraud Service Connector" ref_6oaerFUv %}
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
 *   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
-*   {% link "Back in Stock Notifications Module" ref_1oUpzwSS %}
+*   {% link "Back in Stock Notifications" ref_1oUpzwSS %}
 *   {% link "Backorder / Preorder" ref_3XIgbfev %}
-*   {% link "Backup Master Module" ref_60LdO1tN %}
-*   {% link "Bestsellers Module" ref_5wAOub4C %}
+*   {% link "Backup Master" ref_60LdO1tN %}
+*   {% link "Bestsellers" ref_5wAOub4C %}
 *   {% link "Blog System in X-Cart 5" ref_T5FrnC4x %}
 *   {% link "Block Users by IP / Country / User agent" ref_3rhs1MJ8 %}
 *   {% link "Booking" ref_iTdd1QoP %}
 *   {% link "Bulk Editing" ref_1kSYmXQn %}
 *   {% link "Bundle Products" ref_1nuTw4Kc %}
-*   {% link "Call for Price Module" ref_3K1pJExV %}
+*   {% link "Call for Price" ref_3K1pJExV %}
 *   {% link "Canada Post" ref_ifwLo5ks %}
 *   {% link "CloudSearch and CloudFilters" ref_3MF4RL7z %}
 *   {% link "Color Swatches" ref_4bXaF5qJ %}
@@ -52,13 +52,13 @@ _In this section:_
 *   {% link "Flyout Categores Menu" ref_6KutUhlR %}
 *   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
 *   {% link "Free Shipping and Shipping freights" ref_4Bfeegp9 %}
-*   {% link "Geolocation Module" ref_34F5BkhW %}
+*   {% link "Geolocation" ref_34F5BkhW %}
 *   {% link "Gift Wrapping" ref_3eTR6n0m %}
 *   {% link "Google AdWords (via Segment Integration)" ref_0XLukKQy %}
-*   {% link "Google Product Feed Module" ref_2gQBB6qM %}
+*   {% link "Google Product Feed" ref_2gQBB6qM %}
 *   {% link "Google reCAPTCHA " ref_4S6YEcnH %}
 *   {% link "Go Social" ref_4YoBovhW %}
-*   {% link "Hide Prices Module" ref_46jNUlWG %}
+*   {% link "Hide Prices" ref_46jNUlWG %}
 *   {% link "Horizontal Flyout Categories Menu" ref_1mFs8c7N %}
 *   {% link "Hurry Up" ref_4XQjes9g %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
@@ -66,25 +66,25 @@ _In this section:_
 *   {% link "Kissmetrics" ref_C3AVd3Zp %}
 *   {% link "Loyalty Program" ref_1Odyn6mT %}
 *   {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
-*   {% link "Make/Model/Year Module" ref_0Esu2RNW %}
+*   {% link "Make/Model/Year" ref_0Esu2RNW %}
 *   {% link "Market Price" ref_66scBj0f %}
-*   {% link "Multicurrency Module" ref_2tPJubPU %}
+*   {% link "Multicurrency" ref_2tPJubPU %}
 *   {% link "Multilevel Primary Menu" ref_3yEqhwsC %}
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
 *   {% link "News" ref_0UBPXGXi %}
 *   {% link "Newsletter Subscriptions" ref_2WzsM3Pg %}
 *   {% link "Not Finished Orders" ref_5TMbPwNQ %}
-*   {% link "Order Reports Module" ref_52nVzkWs %}
+*   {% link "Order Reports" ref_52nVzkWs %}
 *   {% link "PayPal Addon" ref_0mnK3aMh %}
 *   {% link "PDF Invoices" ref_4pIx0x0g %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
-*   {% link "PIN Codes Module" ref_2ioJzfJL %}
+*   {% link "PIN Codes" ref_2ioJzfJL %}
 *   {% link "Pinterest Tag (via Segment Integration)" ref_7efT5dbq %}
 *   {% link "Pop-up Anywhere" ref_5KvYsWjw %}
 *   {% link "Product Advisor" ref_72asis58 %}
 *   {% link "Products Carousel" ref_4yBBezmL %}
 *   {% link "Product Feeds" ref_0gfIXwxH %}
-*   {% link "Product Filter Module" ref_6e82A7rL %}
+*   {% link "Product Filter" ref_6e82A7rL %}
 *   {% link "Product Questions" ref_2FZ36bkz %}
 *   {% link "Product Reviews" ref_XBriIS6B %}
 *   {% link "Product Stickers" ref_2O2hXMhF %}
@@ -92,13 +92,13 @@ _In this section:_
 *   {% link "Product Variants" ref_4OTLafuC %}
 *   {% link "Related Products" ref_4a5rpsQq %}
 *   {% link "RTL Languages Support" ref_3vEHzhPP %}
-*   {% link "Sale Module" ref_7tBJ8Yqo %}
+*   {% link "Sale" ref_7tBJ8Yqo %}
 *   {% link "SEO Health Check" ref_2RwDb3OY %}
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 *   {% link "ShippingEasy" ref_HTml5LyW %}
-*   {% link "Shop by Brand Module" ref_2LetICls %}
+*   {% link "Shop by Brand" ref_2LetICls %}
 *   {% link "Shopgate - Mobile Commerce" ref_tHlhZwW1 %}
-*   {% link "Shopper Approved Module" ref_1leKQurL %}
+*   {% link "Shopper Approved" ref_1leKQurL %}
 *   {% link "Social Login" ref_IapN8lJ8 %}
 *   {% link "Special Offers" ref_special_offers %}
 *   {% link "Stripe" ref_1SRSOBWa %}
@@ -113,7 +113,7 @@ _In this section:_
 *   {% link "U.S.P.S." ref_158tuAaD %}
 *   {% link "Variants Table View" ref_7FeW8hHv %}
 *   {% link "Volume Discounts" ref_3JbpQrPF %}
-*   {% link "Wholesale module" ref_ttZa4qgu %}
+*   {% link "Wholesale" ref_ttZa4qgu %}
 *   {% link "Wishlist" ref_60uS71VK %}
 *   {% link "XC4 to XC5 Migration wizard" ref_enOvcLbO %}
 *   {% link "X-Cart 5 to WordPress Integration" ref_rJ8hCpkQ %}
