@@ -43,6 +43,16 @@ The module supports the import and export of synonyms. You can find the links fo
 
 Import and export are carried out in the CSV format.
 
-For example, to add your existing synonyms to CloudSearch via import, you will need to create a .csv file, add your list of synonyms to it, and import that file through the import section:
-   ![cloud_import_syn_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_import_syn_en.png)
+For example, to add your existing synonyms to CloudSearch via import:
+
+   1. Create a .csv file and add your list of synonyms to it. In the file, each group of synonyms must be placed on a separate line. A comma must be used as a delimiter between the individual synonyms.
+
+   2. Go to the import section using the link at the top of the section **Synonyms**:
+      ![cloud_import_syn_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_import_syn_en.png)
+   
+   3. Specify the file that needs to be imported. 
+   
+   4. Use the setting **Delete all existing synonyms before importing** to specify whether CloudSearch should remove from the system any existing synonyms, or simply add the new synonyms to the existing ones. 
+   
+   5. Click **Upload file**.
 
