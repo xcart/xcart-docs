@@ -7,7 +7,7 @@ title: Understanding CloudSearch
 order: 300
 published: true
 ---
-For each store connected to CloudSearch service we maintain an index of searchable data. The data is pulled from the store using the API provided by the CloudSearch connector module installed in the store. On our servers, the data is indexed (specially prepared for more efficient storage and searching), after which it can be yielded as search results in response to requests coming from the search widget. That is to say, a piece of data can be found by CloudSearch only if it is contained in the index. X-Cart's products, pages, categories and manufacturers (collectively, these are referred to as "items") are pulled from your store via the above mentioned API three times a day (every eight hours). This accounts for the 8 hours' delay between the time you update information on your site and the moment that this information becomes searchable via CloudSearch.
+For each store connected to CloudSearch service we maintain an index of searchable data. The data is pulled from the store using the API provided by the CloudSearch connector addon installed in the store. On our servers, the data is indexed (specially prepared for more efficient storage and searching), after which it can be yielded as search results in response to requests coming from the search widget. That is to say, a piece of data can be found by CloudSearch only if it is contained in the index. X-Cart's products, pages, categories and manufacturers (collectively, these are referred to as "items") are pulled from your store via the above mentioned API three times a day (every eight hours). This accounts for the 8 hours' delay between the time you update information on your site and the moment that this information becomes searchable via CloudSearch.
 
 When a visitor of your store types text in the search field, the CloudSeach widget almost instantly displays a list of search results below the search field. This includes a list of suggestions (popular search queries beginning with the characters the user has typed) as well as products, categories, manufacturers and static pages that have been found to match the search query.
 
@@ -35,14 +35,14 @@ If a user makes a spelling mistake while typing a search query, CloudSearch will
 
 ![search-5.png]({{site.baseurl}}/attachments/ref_5IHjr19k/search-5.png)
 
-<a id="cloudsearch-dashboard"></a>The module provides a dashboard where the store administrator can view the store's account information for CloudSearch service:
+<a id="cloudsearch-dashboard"></a>The addon provides a dashboard where the store administrator can view the store's account information for CloudSearch service:
 ![cloud_dashboard_en.png]({{site.baseurl}}/attachments/ref_5IHjr19k/cloud_dashboard_en.png)
 
-The dashboard can be accessed via the _Settings_ link for the CloudSearch module on the **Addons** page or in the **Catalog** -> **CloudSearch & CloudFilters** section of the store Admin area.
+The dashboard can be accessed via the _Settings_ link for the CloudSearch addon on the **Addons** page or in the **Catalog** -> **CloudSearch & CloudFilters** section of the store Admin area.
 
 * The central area of the page provides CloudSearch statistics for the store, including the most popular searches that returned search results and the most popular searches that returned nothing. Statistical data is available for three periods: 24 hours, 7 days and 30 days. Search results can be exported to CSV.
 
-* The panel titled _Account Info_ shows the module subscription plan info. 
+* The panel titled _Account Info_ shows the CloudSearch subscription plan info. 
 
 * The panel titled _Your Store_ shows the current number of items (products, categories, manufacturers and pages) in the store. 
 
