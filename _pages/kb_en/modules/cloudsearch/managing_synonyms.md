@@ -38,7 +38,7 @@ Or you can remove specific synonyms from a group:
 You can also remove the group itself:
    ![cloud_remove_syn_group_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_remove_syn_group_en.png)
    
-The module supports the import and export of synonyms. You can find the links for access to the respective sections at the top of the **Synonyms** section:
+The addon supports the import and export of synonyms. You can find the links for access to the respective sections at the top of the **Synonyms** section:
    ![cloud_syn_import_export_en.png]({{site.baseurl}}/attachments/ref_7H4podhD/cloud_syn_import_export_en.png)
 
 Import and export are carried out in the CSV format.
