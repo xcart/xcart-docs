@@ -27,15 +27,15 @@ For help installing or activating the module, see the section {% link "Managing 
   
   ![xc5_fb_module.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_module.png)
   
-Once the module has been activated, a new section will become available in your store's Admin area: **Sales Channels** > **Facebook E-Commerce**. 
+Once the module has been activated, a new section will become available in your store's Admin area: **Sales Channels** > **Facebook Ads & Instagram Ads**. 
 
 Also, a new setting - **Add to Facebook product feed** - will be added for each of the products in your store's catalog. You will find it in the Marketing section of the product details page. Note that this setting is enabled by default. All the products with the setting **Add to Facebook product feed** enabled will be added automatically to the product feed and uploaded to your Facebook Catalog.
 
 ## Configure the module 
 
-  You can configure the module settings for Facebook Ads and Instagram Ads in the Facebook E-Commerce section of the store's Admin area (**Sales Channels** > **Facebook E-Commerce**). 
+  You can configure the module settings in the Facebook Ads & Instagram Ads section of the store's Admin area (**Sales Channels** > **Facebook Ads & Instagram Ads**). 
   
-  ![xc5_fb_module_settings.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_module_settings.png)
+  ![settings-page-new.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/settings-page-new.png)
   
   Note that this section can also be accessed via the **Settings** link in the **My addons** section:
   
@@ -44,17 +44,18 @@ Also, a new setting - **Add to Facebook product feed** - will be added for each 
   To configure the module, adjust the following settings:
   
   * **Frequency of Product Feed renewal** (hourly/daily/weekly): Specify how often you would like your product feed to be renewed. 
-  * **Facebook Pixel ID:** Specify your Facebook Pixel ID. If you do not have a Facebook Pixel ID yet, you can generate it as described at [https://www.facebook.com/business/help/952192354843755](https://www.facebook.com/business/help/952192354843755 "Facebook eCommerce Module"). Facebook Pixel will enable the tracking of such events as _View Content/Search/Add to Cart/Initiate Checkout/Purchase_, and you will be able to get stats on these events to work with sales funnel, ads conversion and so on.
+  * **Include out of stock products into feed** : Enable this option if you need the out-of-stock products to be included into the feed that is submitted to Facebook and Instagram.
+  * **Facebook Pixel ID** : Specify your Facebook Pixel ID. If you do not have a Facebook Pixel ID yet, you can generate it as described at [https://www.facebook.com/business/help/952192354843755](https://www.facebook.com/business/help/952192354843755 "Facebook eCommerce Module"). Facebook Pixel will enable the tracking of such events as _View Content/Search/Add to Cart/Initiate Checkout/Purchase_, and you will be able to get stats on these events to work with sales funnel, ads conversion and so on.
   
   Be sure to save your settings by clicking **Save changes**.
   
   After the settings have been properly adjusted, you can click the **Generate Product Feed** button to get a link for uploading the product feed to your Facebook Catalog.
   
-  ![xc5_fecommerce_generate_prod_feed_w_id.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_generate_prod_feed_w_id.png)
+  ![generate-feed-new.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/generate-feed-new.png)
   
   The system will take some time to generate a Product Feed URL depending on the overall store inventory. Once the process is completed, copy the _Product Feed URL_ that has been generated and paste it into the appropriate field when specifying a source of products for your catalog (https://www.facebook.com/products/catalogs/new).
   
-  ![xc5_fecommerce_url_generated.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fecommerce_url_generated.png)
+  ![copy-feed-new.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/copy-feed-new.png)
   
   {% note info %}
   The _Frequency of Product Feed renewal_ setting itself will not make renewals automatical. You will need to {% link "configure your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}.
