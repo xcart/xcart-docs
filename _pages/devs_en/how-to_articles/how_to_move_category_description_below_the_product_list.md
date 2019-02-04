@@ -1,13 +1,15 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2016-06-28 00:00'
 title: How to move category description below the product list
 identifier: ref_k2TqHwih
-updated_at: 2016-06-28 00:00
-layout: article_with_sidebar
-lang: en
 version: X-Cart 5.2.16 and earlier
 categories:
-- How-To Articles
-- Outdated
+  - How-To Articles
+  - Outdated
+published: true
+order: 100
 ---
 
 This article describes how to move category description below the product list.
@@ -19,44 +21,44 @@ To implement the necessary changes, you will need to modify X-Cart templates as 
 1.  Modification of X-Cart templates
 
     1.1\. Create a new template; for example:  
-
-    _skins/theme_tweaker/default/en/center/bottom/category_description.tpl_  
-
-    Here is the content of the new template:
-
-    {% highlight php %}
-    {**
+         
+       _skins/theme_tweaker/default/en/center/bottom/category_description.tpl_  
+          
+       Here is the content of the new template:
+       
+       {% highlight php %}
+       {**
      * @ListChild (list="center.bottom", weight="300")
      *}
     {if:getTarget()=#category#}
     <div class="category-description">{getDescription():h}</div>
     {end:}
-    {% endhighlight %}
+       {% endhighlight %}
 
-    The new template will be used to display category description in the center bottom part of the page within the "center.bottom" list.  
+       The new template will be used to display category description in the center bottom part of the page within the "center.bottom" list.  
 
     1.2\. Run the following SQL query on your X-Cart database:
-
-    {% highlight php %}
-    INSERT INTO xc_theme_tweaker_template (template, date) VALUES ("theme_tweaker/default/en/center/bottom/category_description.tpl", UNIX_TIMESTAMP());
-    {% endhighlight %}
-
-    After doing so you will be able to edit the new template directly in the Admin area of your X-Cart store, on the "Look & Feel" page in the "Webmaster mode" section, or while using the "Webmaster mode" tool.  
-
+       
+       {% highlight php %}
+       INSERT INTO xc_theme_tweaker_template (template, date) VALUES ("theme_tweaker/default/en/center/bottom/category_description.tpl", UNIX_TIMESTAMP());
+       {% endhighlight %}
+       
+       After doing so you will be able to edit the new template directly in the Admin area of your X-Cart store, on the "Look & Feel" page in the "Webmaster mode" section, or while using the "Webmaster mode" tool.  
+       
     1.3\. Re-generate X-Cart cache.  
-
+       
     1.4\. Modify the code of the template _skins/default/en/category_description.tpl_  using the "Webmaster mode" tool:  
-
-    Comment out the code responsible for the output of category description by placing it inside the special tags {* *}; for example:
-
-    {% highlight php %}
+       
+       Comment out the code responsible for the output of category description by placing it inside the special tags {* *}; for example:
+       
+       {% highlight php %}
     {*
     <div class="category-description">{getDescription():h}</div>
     *}
-    {% endhighlight %}
-
-    This will remove category description from the center top part of the page.  
-
+       {% endhighlight %}
+       
+       This will remove category description from the center top part of the page.  
+       
 2.  Set up a banner for the category.  
 
     2.1\. Install and activate the module "Banner System".  
