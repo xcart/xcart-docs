@@ -44,7 +44,7 @@ There are 2 possible ways to remove the notice:
    * Check the results in the front end.
      ![no-powered-by.png]({{site.baseurl}}/attachments/ref_o5oJ0AFO/no-powered-by.png)
 
-2. From the customer the storefront using the {% link "Webmaster Mode" ref_1gdpZJ44 %} facilities:
+2. From the customer storefront using the {% link "Webmaster Mode" ref_1gdpZJ44 %} facilities:
    
    * Open the storefront when logged in with an admin account and click the Webmaster mode gear at the bottom of the page:
      ![gear.png]({{site.baseurl}}/attachments/ref_o5oJ0AFO/gear.png)
@@ -61,10 +61,8 @@ There are 2 possible ways to remove the notice:
       <p class="powered-by-label">{{ this.getMessage()|raw }}</p>
       ```
       {% note info %}
-      If you want to remove the line completely, but not only the "Powered by" notice you shoud delete all the code from the template.
+      If you want to remove the line completely, but not only the "Powered by" notice, you shoud delete all the code from the template.
       {% endnote %}
       
    * Save the changes.
      ![cus-save-changes.png]({{site.baseurl}}/attachments/ref_o5oJ0AFO/cus-save-changes.png)
-
-
