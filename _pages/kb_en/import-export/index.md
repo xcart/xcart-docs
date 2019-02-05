@@ -5,7 +5,7 @@ updated_at: '2017-01-30 16:05 +0400'
 identifier: ref_TANvG2De
 title: Import-Export
 order: 35
-description: Batch updates for the store catalog and customer base
+description: Batch update your store catalog and customer base
 icon: exchange
 categories:
   - home
