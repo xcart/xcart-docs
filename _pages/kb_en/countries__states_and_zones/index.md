@@ -3,12 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2015-12-24 00:00'
 identifier: ref_DmCBnKwz
-title: 'Countries, states and zones'
+title: 'Countries, States and Zones'
 categories:
   - home
 order: 40
 icon: flag
-description: Setup various geographic zones used to configure shipping and tax rules
+description: Set up geographic zones for your shipping and tax rules
 published: true
 ---
 ## What are zones?
