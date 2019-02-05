@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-08-15 14:55 +0400'
 identifier: ref_6tPdxAUT
-title: Setting up X-Cart 5 environment
+title: Setting up X-Cart 5 Environment
 categories:
   - home
 order: 10
@@ -34,6 +34,3 @@ Below are some important tips that you may need for a further software maintenac
 *   {% link "Speeding up your store" ref_WqHzxAmJ %};
 *   {% link "Configuring your X-Cart server for better large file download performance" ref_yCxquUhl %};
 *   {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %}
-
-
-
