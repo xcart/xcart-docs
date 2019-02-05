@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-13 13:55 +0400'
 identifier: ref_STELArig
-title: Webinars and video tutorials
+title: Webinars and Video Tutorials
 categories:
   - home
 order: 200
