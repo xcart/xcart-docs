@@ -3,12 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-09-11 16:43 +0400'
 identifier: ref_9z7v4QHi
-title: General setup
+title: General Setup
 categories:
   - home
 order: 15
 icon: configure
-description: Guides describing the process of installing and configuring your X-Cart 5
+description: Install and configure your X-Cart 5 store
 published: true
 ---
 This section contains tutorials on the basic store installation and configuration issues.
