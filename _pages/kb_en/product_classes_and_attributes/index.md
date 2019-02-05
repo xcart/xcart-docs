@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-25 22:37 +0400'
 identifier: ref_T90ZcEpP
-title: Product classes and attributes
+title: Product Classes and Attributes
 categories:
   - home
 order: 30
