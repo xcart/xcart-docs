@@ -21,9 +21,9 @@ The module Facebook Ads and Instagram Ads uploads your products to Facebook Cata
 To make use of Facebook and Instagram ads, you will need to:
 {% toc %}
 
-## Make sure the module Facebook Ads and Instagram Ads is installed and active
+PREREQUISITES: Make sure the module Facebook Ads and Instagram Ads is installed and enabled.
 
-For help installing or activating the module, see the section {% link "Managing addons" ref_gTOegEua %} of this manual.
+For the guides on installing or activating the module, see the section {% link "Managing addons" ref_gTOegEua %} of this manual.
   
   ![xc5_fb_module.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_module.png)
   
