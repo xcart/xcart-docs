@@ -8,7 +8,7 @@ categories:
   - home
 order: 130
 icon: plug
-description: Learn how to connect X-Cart store to other websites
+description: Learn how to connect an X-Cart store to other websites
 published: true
 redirect_from:
   - /integrating_your_store_with_other_web-sites/index.html
