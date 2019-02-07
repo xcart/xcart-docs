@@ -57,7 +57,7 @@ In this section you will find links to webinar recordings and video tutorials fo
 *   {% link "Subscriptions in X-Cart 5 Powered by X-Payments" ref_Ae8Qd8lq %}
 *   {% link "Kount in X-Cart 5 Integrated with X-Payments" ref_lzAhqZpB %}
 
-## Content and Layount Management
+## Content and Layout Management
 
 *   {% link "Static Pages and Menus in X-Cart 5" ref_ATBkizcn %}
 *   {% link "Advanced Menu Management with Extended Simple CMS" ref_aWT2i7z1 %}
