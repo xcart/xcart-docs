@@ -24,6 +24,7 @@ In this section you will find links to webinar recordings and video tutorials fo
 *   {% link "X-Cart 5 Module License Activation" ref_hU6Rb4tw %}
 *   {% link "X-Cart 5 Upgrading Easy" ref_ewS4hGwa %}
 *   {% link "Prolongation of Access to Updates (video)" ref_pIvO4FGU %}
+*   {% link "Configuring Email Notifications in X-Cart 5.2" ref_PswmUSQt %}
 
 ## Catalog management
 
@@ -33,32 +34,22 @@ In this section you will find links to webinar recordings and video tutorials fo
 *   {% link "Product Classes and Attributes in X-Cart 5.3" ref_TFScbVdf %}
 *   {% link "Attributes and Product Filters in X-Cart 5.1" ref_tkXafgoK %}
 *   {% link "Product Variants in X-Cart 5" ref_PCmycghn %}
+*   {% link "Configuring Volume Discounts and Coupons in X-Cart 5" ref_6xFWK5tC %}
 
-## Store setup
+## Taxes
 
-*   {% link "Configuring Payment Methods in X-Cart 5" ref_kJD5AyoM %}
 *   {% link "Configuring Sales Tax in X-Cart 5" ref_GVD0wcyZ %}
 *   {% link "Setting up VAT with the Module "EU and UK VAT / GST"" ref_wcorpZyz %}
-*   {% link "Configuring Email Notifications in X-Cart 5.2" ref_PswmUSQt %}
-*   {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %}
-*   {% link "Connecting X-Payments 3.x with X-Cart 5" ref_ZM8ZDeD9 %}
-*   {% link "MailChimp Integration with Ecommerce-360 Support in an X-Cart 5 Store" ref_XO8v2bJX %}
-*   {% link "Configuring Volume Discounts and Coupons in X-Cart 5" ref_6xFWK5tC %}
+
+## Shipping
+
 *   {% link "Setting up Shipping Calculation in X-Cart 5" ref_CqSUSq61 %}
 
-## Content
+## Payment Methods and Order Management
 
-*   {% link "Static Pages and Menus in X-Cart 5" ref_ATBkizcn %}
-*   {% link "Advanced Menu Management with Extended Simple CMS" ref_aWT2i7z1 %}
-
-## Look & Feel
-
-*   {% link "Basic Design Changes in X Cart 5.3" ref_KpqQsVGf %}
-*   [Specifying Your Company Info, Changing the Text on the Add to Cart Button and Editing the Contact Us Page in X-Cart 5](http://devs.x-cart.com/en/webinars_and_video_tutorials/specifying_your_company_info__changing_the_text_on_the_add_to_cart_button_and_editing_the_contact_us_page_in_x-cart_5.html)
-*   [Basic Front End Changes in X-Cart 5.2 - Theme, Logo, Favicon, Home Page Banner](http://devs.x-cart.com/en/webinars_and_video_tutorials/basic_front-end_changes_in_x-cart_5.2_-_theme__logo__favicon__home_page_banner.html)
-
-## Payments & Orders
-
+*   {% link "Configuring Payment Methods in X-Cart 5" ref_kJD5AyoM %}
+*   {% link "Connecting X-Payments 3.x with X-Cart 5" ref_ZM8ZDeD9 %}
+*   {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %}
 *   {% link "X-Cart 5 Advanced Order Management in action" ref_7hG6Mxrq %}
 *   {% link "X-Cart 5 and X-Payments - PCI Compliant Credit Card Processing and Storing" ref_DqRLwgcu %}
 *   {% link "Saving Credit Cards in X-Cart 5 Integrated with X-Payments 2.x" ref_Ev0rZhsL %}
@@ -66,12 +57,21 @@ In this section you will find links to webinar recordings and video tutorials fo
 *   {% link "Subscriptions in X-Cart 5 Powered by X-Payments" ref_Ae8Qd8lq %}
 *   {% link "Kount in X-Cart 5 Integrated with X-Payments" ref_lzAhqZpB %}
 
+## Content and Layount Management
+
+*   {% link "Static Pages and Menus in X-Cart 5" ref_ATBkizcn %}
+*   {% link "Advanced Menu Management with Extended Simple CMS" ref_aWT2i7z1 %}
+*   {% link "Basic Design Changes in X Cart 5.3" ref_KpqQsVGf %}
+*   [Specifying Your Company Info, Changing the Text on the Add to Cart Button and Editing the Contact Us Page in X-Cart 5](http://devs.x-cart.com/en/webinars_and_video_tutorials/specifying_your_company_info__changing_the_text_on_the_add_to_cart_button_and_editing_the_contact_us_page_in_x-cart_5.html)
+*   [Basic Front End Changes in X-Cart 5.2 - Theme, Logo, Favicon, Home Page Banner](http://devs.x-cart.com/en/webinars_and_video_tutorials/basic_front-end_changes_in_x-cart_5.2_-_theme__logo__favicon__home_page_banner.html)
+
 ## Popular modules
 
 *   {% link "Booking Module (video)" ref_TquQiTqG %}
 *   {% link "Infinite Scroll Module (video)" ref_XFOnM7r6 %}
 *   {% link "Multi-vendor Module (videos)" ref_5C7PSWVy %}
 *   {% link "eBay Integration Module (video)" ref_yLiuFJ66 %}
+*   {% link "MailChimp Integration with Ecommerce-360 Support in an X-Cart 5 Store" ref_XO8v2bJX %}
 
 ## Webinars
 
