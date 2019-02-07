@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-11 17:16 +0400'
 identifier: ref_26UftgNS
-title: '&quot;Operate as a user&quot; feature'
+title: '"Operate as a user" feature'
 order: 400
 published: true
 ---
