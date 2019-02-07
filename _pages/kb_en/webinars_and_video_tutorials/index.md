@@ -12,7 +12,7 @@ description: Live video from our developers and associates
 published: true
 ---
 
-In this section you will find webinars and video tutorials for X-Cart 5.
+In this section you will find links to webinar recordings and video tutorials for X-Cart 5.
 
 ## Thank you for downloading X-Cart
 
