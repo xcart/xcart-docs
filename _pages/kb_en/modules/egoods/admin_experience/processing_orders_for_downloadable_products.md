@@ -7,7 +7,7 @@ title: Processing Orders for Downloadable Products
 order: 140
 published: true
 ---
-The store administrator can adjust the steps of the order processing routine for e-goods orders using the settings on the {% link "E-goods module settings" ref_1dsuHf3i %} page:
+The store administrator can adjust the steps of the order processing routine for e-goods orders using the settings on the {% link "E-goods addon settings" ref_1dsuHf3i %} page:
 
    * The setting "Show only ESD related fulfilment statuses" can be used to limit the set of fulfilment statuses that should be used by the store. Due to the specifics of the electronic method of delivery of such goods to the buyer, any statuses pertaining to the packaging, handling and shipping of an order will not be applicable for e-goods. If all the products in the store catalog are e-goods (no tangible goods that require shipping), the store administrator may consider switching to the E-goods order fulfilment model with just three statuses (_New_, _Delivered_ and _Will not deliver_). More info on X-Cart order statuses can be found in {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}.
 
@@ -30,7 +30,7 @@ Once an order has been processed, the store administrator can update the e-goods
 
 Here you can see the amount of downloads left, TTL and also can block or renew access to the file.
 
-Due to the specifics of how digital products are delivered, the E-goods module enables you to have more control of how orders with downloadable products are processed:
+Due to the specifics of how digital products are delivered, the E-goods addon enables you to have more control of how orders with downloadable products are processed:
 - You can disable all online payment methods, which mostly work for automatic order processing.
 - You can choose to enable only those payment methods that require manual processing.
 - You can choose the payments that allow using the "auth only" mode. 
