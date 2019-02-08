@@ -311,7 +311,7 @@ There are many more fields that you can include into your product CSV file. Belo
       <td class="confluenceTd">String</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Go Social</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Go Social</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -331,7 +331,7 @@ There are many more fields that you can include into your product CSV file. Belo
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>File attachments</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>File attachments</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -399,14 +399,14 @@ There are many more fields that you can include into your product CSV file. Belo
         <br>Multilingual&nbsp;</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>E-Goods</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>E-Goods</strong> addon</em>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">attachmentsPrivate
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>Defines what attachments are private and available after order is paid (e-goods) and what attachments are available right from the product page (modules <strong>Product Attachments</strong> and <strong>E-Goods</strong> must be enabled)
+        <p>Defines what attachments are private and available after order is paid (e-goods) and what attachments are available right from the product page (the addons <strong>Product Attachments</strong> and <strong>E-Goods</strong> must be enabled)
         </p>
         <p>In case of many attachments, you can mark some of them as private and some as publicly available. Multiple values must be separated by &amp;&amp; construction.</p>
         <p>Example:</p>
@@ -419,7 +419,7 @@ There are many more fields that you can include into your product CSV file. Belo
         <br>Multiple&nbsp;</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Market Price</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Market Price</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -430,7 +430,7 @@ There are many more fields that you can include into your product CSV file. Belo
       <td colspan="1" class="confluenceTd">Float (e.g. 5.00)</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Sale</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Sale</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -446,7 +446,7 @@ There are many more fields that you can include into your product CSV file. Belo
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Multivendor</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Fields added by the <strong>Multi-vendor</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -455,7 +455,7 @@ There are many more fields that you can include into your product CSV file. Belo
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Product Variants</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Fields added by the <strong>Product Variants</strong> addon</em>
       </td>
     </tr>    
     <tr>
@@ -513,7 +513,7 @@ There are many more fields that you can include into your product CSV file. Belo
       </td>
     </tr>
       <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Variants Table View</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Variants Table View</strong> addon</em>
       </td>
       </tr>
       <tr>
@@ -523,7 +523,7 @@ There are many more fields that you can include into your product CSV file. Belo
       </td>
     </tr>
       <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Wholesale</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Wholesale</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -551,14 +551,14 @@ There are many more fields that you can include into your product CSV file. Belo
       <td class="confluenceTd">
         <p>Defines wholesale prices for the product variant.
         </p>
-        <p><strong>Product Variants</strong> module must be enabled.</p>
+        <p>The addon <strong>Product Variants</strong> must be enabled.</p>
       </td>
       <td class="confluenceTd">String,
         <br>Multiple,
         <br>Multirow&nbsp;</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>System Fields</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Fields added by the <strong>System Fields</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -580,7 +580,7 @@ There are many more fields that you can include into your product CSV file. Belo
       <td colspan="1" class="confluenceTd">
         <p>Product variant UPC/ISBN code.
         </p>
-        <p>&nbsp;<strong>Product Variants</strong> module must be enabled.</p>
+        <p>&nbsp;The addon <strong>Product Variants</strong> must be enabled.</p>
       </td>
       <td colspan="1" class="confluenceTd">String,
         <br>Max. length: 32,<br>Multirow&nbsp;
@@ -592,7 +592,7 @@ There are many more fields that you can include into your product CSV file. Belo
       <td colspan="1" class="confluenceTd">
         <p>Manufacturer of the product variant.
         </p>
-        <p><strong>Product Variants</strong> module must be enabled.
+        <p>The addon <strong>Product Variants</strong> must be enabled.
         </p>
       </td>
       <td colspan="1" class="confluenceTd">String,
@@ -600,7 +600,7 @@ There are many more fields that you can include into your product CSV file. Belo
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Related Products</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Fields added by the <strong>Related Products</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -618,7 +618,7 @@ There are many more fields that you can include into your product CSV file. Belo
     </tr>
     <tr>
       <td colspan="3" class="confluenceTd">
-        <em>Fields added by <strong>Make/Model/Year</strong> module</em>
+        <em>Fields added by the <strong>Make/Model/Year</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -654,7 +654,7 @@ There are many more fields that you can include into your product CSV file. Belo
       <td class="confluenceTd">String</td>
     </tr>
   	<tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Product Tags</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Fields added by the <strong>Product Tags</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -667,7 +667,7 @@ There are many more fields that you can include into your product CSV file. Belo
         <br>Multiple&nbsp;</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Free Shipping and Shipping freights</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Fields added by the <strong>Free Shipping and Shipping freights</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -692,7 +692,7 @@ There are many more fields that you can include into your product CSV file. Belo
       <td class="confluenceTd">Float (e.g. 1.00)</td>
     </tr>
   <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Product Feeds</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Fields added by the <strong>Product Feeds</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -731,7 +731,7 @@ There are many more fields that you can include into your product CSV file. Belo
       <td class="confluenceTd">Google Shopping Category ID</td>
     </tr>
   <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Call for Price</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Fields added by the <strong>Call for Price</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -749,7 +749,7 @@ There are many more fields that you can include into your product CSV file. Belo
       <td class="confluenceTd">Yes/No</td>
     </tr>
   <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Backorder / Preorder</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Backorder / Preorder</strong> addon</em>
       </td>
     </tr>
     <tr>
@@ -794,7 +794,7 @@ There are many more fields that you can include into your product CSV file. Belo
 
 <sub markdown="1">** See {% link "CSV field attributes" ref_2LwMTTTW %} for more info.</sub>
 
-<sub markdown="1">*** The field name should correspond with the level name defined in the Make/Model/Year module settings. See {% link "Make/Model/Year Module" ref_0Esu2RNW %} for more info.</sub>
+<sub markdown="1">*** The field name should correspond with the level name defined in the Make/Model/Year addon settings. See {% link "Make/Model/Year" ref_0Esu2RNW %} for more info.</sub>
 
 ### Tips:
 
@@ -809,7 +809,7 @@ There are many more fields that you can include into your product CSV file. Belo
     - images;
     - imagesAlt;
     - attributeValue;
-    - variantImage (Product Variants module).
+    - variantImage (Product Variants addon).
     
 ## Updating product variants
 
@@ -826,7 +826,7 @@ The field `variantID` is completely separate from the `variantSKU` and serves on
 For example, the file below is sufficient to update the variant prices:
 ![product_variant_2.png]({{site.baseurl}}/attachments/ref_WmJBfwxA/product_variant_2.png)
 
-When importing product variants, values of non variant specific fields (i.e. all but the fields added by the Product Variants module) should not be repeated for each variant. This means that such values as memberships, productClass, taxClass, enabled, shippable, categories, inventoryTracking, name, description, etc. need to be specified only once per product variant set; specifying them for each individual variant SKU may result in such undesirable effects as the creation of duplicate values or re-writing of a value by a subsequent value. 
+When importing product variants, values of non variant specific fields (i.e. all but the fields added by the Product Variants addon) should not be repeated for each variant. This means that such values as memberships, productClass, taxClass, enabled, shippable, categories, inventoryTracking, name, description, etc. need to be specified only once per product variant set; specifying them for each individual variant SKU may result in such undesirable effects as the creation of duplicate values or re-writing of a value by a subsequent value. 
 
 For example, an import of variants for the product SKU 10000 Binary Mom using the following file:
 
