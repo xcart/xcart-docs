@@ -71,7 +71,7 @@ The **shipping_length**, **shipping_width** and **shipping height** fields value
 
 ## Using X-Cart hidden attributes for Google shopping groups
 
-The data that is included into the Google product feed by default is already defined for the products in your store through the regular X-Cart products fields that are usually displayed in the storefront for the customers. However, the Google product feed might include the information that you don't want to show to your customers in the storefront not to tire the customers of your store with unnecessary details, like **google_product_category**.
+The data that is included into the Google product feed by default is already defined for the products in your store through the regular X-Cart product fields that are usually displayed in the storefront for the customers. However, the Google product feed might include the information that you don't want to show in the storefront not to tire the customers of your store with unnecessary details, like **google_product_category**.
 
 The attributes that you don't need to show to the customers in your online store but need to submit to Google in the feed can be defined through the [global attribute of a hidden field type](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#hidden-field).  
 
