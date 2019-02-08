@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-02 11:30 +0400'
 identifier: ref_1dsuHf3i
-title: Configuring the E-goods Module
+title: Configuring the E-goods Addon
 order: 100
 published: true
 redirect_from:
