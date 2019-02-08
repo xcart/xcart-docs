@@ -11,6 +11,8 @@ published: true
 
 To generate feeds make sure the Google Product Feed addon is installed and enabled as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
+![installed.png]({{site.baseurl}}/attachments/ref_2gQBB6qM/installed.png)
+
 **PREREQUISITES:**
 
 1. Submiting feeds to Google Merchant Center requires a registered Google Merchant account.
@@ -41,30 +43,30 @@ The default list of _google product attributes_ that X-Cart includes in to the f
 
 {:.ui.compact.celled.small.padded.table}
 |_google product attribute_|X-Cart field value|
-|**id**| A 'SKU'field value for products or a 'variant_ID' field value for variants.|
+|**id**| A 'SKU' field value for products or a 'variant_ID' field value for variants.|
 |**link**|A product’s landing page.|
-|**title**|A 'Product name' field value of a product.|
-|**description**|A 'Description' field value of a product.|
-|**price**|A 'Price' field value.|
-|**availability**|The'in stock' value for products in stock. <br> The 'out of stock'for products that are out of stock. <br> The 'preorder'value for the products with the coming soon status.|
-|**availability_date**| The 'Arrival date' field value of a product (if defined).|
-|**condition**| The field value is "new" by default for all products. <br> The field can also have the 'used' and 'refurbished' values. To add additional values enable the **condition** attribute in webroot/etc/config.php and assign values to it through Google shopping groups.|
-|**gtin**| The field value is empty by default. <br> In case  the [System Fields](https://market.x-cart.com/addons/system-fields.html "Google Product Feed") addon is installed and enabled the field value is the 'UPC/ISBN' X-Cart filed value.|
-|**mpn**| The field value is empty by default. <br> In case  the [System Fields](https://market.x-cart.com/addons/system-fields.html "Google Product Feed") addon is installed and enabled the field value is the 'Mnf#/Vendor#' X-Cart field value.|
-|**product_type**| The 'Category' field value of a product.|
-|**shipping**| If the 'Requires shipping' field is set to OFF for a product, the field value submitted to the feed is 0.00 USD. <br>In case the Free shipping addon is enabled, the value is 0.00 USD for the free shipping option enabled and the shipping frieght value if it's defined for a product. <br> If the 'Requires shipping' field is set to ON for a product, the value is not submitted to feed.|
-|**shipping_weight**|A 'Shipping weight' field value of a product.|
-|**shipping_length**|A 'Shipping length' field value of a product.|
-|**shipping_width**|A 'Shipping width' field value of a product.|
-|**shipping_height**|A 'Shipping hight' field value of a product.|
+|**title**|A product's 'Product name' field value.|
+|**description**|A product's 'Description' field value.|
+|**price**|A product's 'Price' field value.|
+|**availability**|The 'in stock' value for products in stock. <br> The 'out of stock' for products that are out of stock. <br> The 'preorder' value for the products with the coming soon status.|
+|**availability_date**| A product's 'Arrival date' field value (if defined).|
+|**condition**| The field value is 'new' by default for all products. <br> The field can also have the 'used' and 'refurbished' values. To add additional values enable the **condition** attribute in webroot/etc/config.php and assign values to it through [Google shopping groups](https://kb.x-cart.com/modules/google_product_feed.html#configuring-google-shopping-groups "Google Product Feed").|
+|**gtin**| The field value is empty by default. <br> In case  the [System Fields](https://market.x-cart.com/addons/system-fields.html "Google Product Feed") addon is installed and enabled the field value is the product's 'UPC/ISBN' filed value.|
+|**mpn**| The field value is empty by default. <br> In case  the [System Fields](https://market.x-cart.com/addons/system-fields.html "Google Product Feed") addon is installed and enabled the field value is the product's 'Mnf#/Vendor#' field value.|
+|**product_type**| A product's 'Category' field value.|
+|**shipping**| If the 'Requires shipping' field is set to OFF for a product, the field value submitted to the feed is 0.00 USD. <br>In case the {% link "Free shipping" ref_BCq5l4MP %} addon is enabled, the value is 0.00 USD for the 'Free shipping' option enabled and the 'Shipping freight' field value if it's defined for a product. <br> If the 'Requires shipping' field is set to ON for a product, the value is not submitted to feed.|
+|**shipping_weight**|A product's 'Shipping weight' field value.|
+|**shipping_length**|A product's 'Shipping length' field value.|
+|**shipping_width**|A product's 'Shipping width' field value.|
+|**shipping_height**|A product's 'Shipping hight' field value.|
 |**image_link**|A product's image or variant's image (if defined).|
 |**additional_image_link**|Additional product's images (if defined).|
 |**identifier_exists**|The field value is 'false' by default for all products.|
-|**sale_price**|A 'Sale price' field value of a product (if defined). <br> Only if the {% link "Sale" ref_7tBJ8Yqo %} addon is installed and enabled. |
+|**sale_price**|A product's 'Sale price' field value (if defined). <br> Only if the {% link "Sale" ref_7tBJ8Yqo %} addon is installed and enabled. |
 |**item_group_id**| A 'variant id' value for product variants. <br> The attribute is included into the feed only if all X-Cart product variant attributes are assigned to respective shopping groups through Google shopping groups. In case the variant attributes are not assigned through Google shopping groups variants are submitted to the feed as separate products. Such variants with gain a title with a suffix, containing the variant attribute option values as string.
 
 {% note info %}
-The shipping_length, shipping_width and shipping height fileds values will be submitted to the feed only if all of them are defined for a product. If at least one of the field values is missing the shipping dimentions will not be submitted to the feed. 
+The **shipping_length**, **shipping_width** and **shipping height** fields values will be submitted to the feed only if all of them are defined for a product. If at least one of the field values is missing the shipping dimentions will not be submitted to the feed. 
 {% endnote %}
 
 ## Using X-Cart hidden attributes for Google shopping groups
