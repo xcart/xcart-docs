@@ -14,12 +14,12 @@ To generate feeds make sure the Google Product Feed addon is installed and enabl
 **PREREQUISITES:**
 
 1. Submiting feeds to Google Merchant Center requires a registered Google Merchant account.
-
-If you already have an account with Google (like Gmail), visit [merchants.google.com](https://merchants.google.com/Signup "Google Product Feed") and sign in to become a Google Merchant.
-
-If you don't have a Google account yet, proceed to [accounts.google.com](https://accounts.google.com/ "Google Product Feed") and click **Create account** to register with Google. Follow the prompts to create a new Google Account. Once you have a registered a Google account you can proceed to creating a Google Merchant account.
-
-Learn more about [Google Merchant Center](https://support.google.com/merchants/answer/188495?hl=en&ref_topic=3163841 "Google Product Feed") and how to become a Google merchant.
+   
+   If you already have an account with Google (like Gmail), visit [merchants.google.com](https://merchants.google.com/Signup "Google Product Feed") and sign in to become a Google Merchant.
+   
+   If you don't have a Google account yet, proceed to [accounts.google.com](https://accounts.google.com/ "Google Product Feed") and click **Create account** to register with Google. Follow the prompts to create a new Google Account. Once you have a registered a Google account you can proceed to creating a Google Merchant account.
+   
+   Learn more about [Google Merchant Center](https://support.google.com/merchants/answer/188495?hl=en&ref_topic=3163841 "Google Product Feed") and how to become a Google merchant.
 
 2. For a proper automatic feed submission your server should be configured to run {% link "scheduled X-Cart tasks" ref_lLqNzAaq %}.
 
@@ -40,7 +40,7 @@ Google product feed is formed based on [_google product attirbutes_](https://sup
 The default list of _google product attributes_ that X-Cart includes in to the feed file for a product is as follows:
 
 {:.ui.compact.celled.small.padded.table}
-|google_product_attribute_|X-Cart field value|
+|_google product attribute_|X-Cart field value|
 |**id**| A 'SKU'field value for products or a 'variant_ID' field value for variants.|
 |**link**|A product’s landing page.|
 |**title**|A 'Product name' field value of a product.|
@@ -85,7 +85,7 @@ To assign hidden attribute values to your products:
 
 ## Configuring Google shopping groups
 
-A Google shopping group tool in X-Cart allows to extend the list of _google_product_attributes_ included into the feed by assigning existing X-Cart product attributes to Google shopping groups. The attributes included into Google shopping groups stand apart from the other _google_product_attributes_ that are included into the feed by default as different merchants can have these attribute values defined through different fields in X-Cart.
+A Google shopping group tool in X-Cart allows to extend the list of _google product attributes_ included into the feed by assigning existing X-Cart product attributes to Google shopping groups. The attributes included into Google shopping groups stand apart from the other _google product attributes_ that are included into the feed by default as different merchants can have these attribute values defined through different fields in X-Cart.
 
 The list of groups available by default is as follows:
 
@@ -153,7 +153,7 @@ To assign attributes to Google shopping groups:
 
    ![shopping-groups.png]({{site.baseurl}}/attachments/ref_2gQBB6qM/shopping-groups.png)
 
-2. Search for a product attribute name you want to assign to a group in the SEARCH bar
+2. Locate the product attribute that you want to assign to a group. Use the SEARCH bar to find the required attribute if applicable.
 3. Choose a matching group in the **Google shopping group** drop-down
 4. Click **Save changes**
 
@@ -171,7 +171,7 @@ Also on this page you can:
   It can be either _hourly_, _daily_ or _weekly_.
   
   {% note  info %}
-  Please make sure you've configured X-Cart to run {% link "scheduled cron tasks" ref_lLqNzAaq %} to enable periodic feed updates.
+  Please make sure you've configured X-Cart to run {% link "scheduled cron tasks" ref_lLqNzAaq %} to enable periodic feed updates. 
   {% endnote %}
 
 * Choose the feed behaviour in case of duplicate product variants.  
