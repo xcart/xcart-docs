@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-02 14:03 +0400'
 identifier: ref_208aL8a0
-title: 'E-goods Module: Customer Experience'
+title: 'E-goods: Customer Experience'
 order: 140
 published: true
 ---
