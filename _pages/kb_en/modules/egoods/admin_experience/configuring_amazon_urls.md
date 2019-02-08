@@ -9,7 +9,7 @@ published: true
 redirect_from:
   - /modules/egoods/configuring_amazon_urls.html
 ---
-Starting with the E-goods module version 5.3.3.0, it is possible to use Amazon S3 to store files for downloadable products.  
+Starting with the E-goods addon version 5.3.3.0, it is possible to use Amazon S3 to store files for downloadable products.  
 
 This feature enables you to save server space and restrict access to valuable files (such as proprietary MP3s) only to those customers who have made a purchase.
 
@@ -23,10 +23,10 @@ In order to make use of the off-site storage feature, the store administrator wi
 
 3. Review the user details. If all is correct, click **Next**.
 
-4. At the step **Complete**, locate your AWS access key and AWS secret key; you will need to copy and paste them into the appropriate fields on the E-goods module settings page in your X-Cart store.
+4. At the step **Complete**, locate your AWS access key and AWS secret key; you will need to copy and paste them into the appropriate fields on the E-goods addon settings page in your X-Cart store.
    ![amazons3_3.png]({{site.baseurl}}/attachments/ref_ZszpDfxQ/amazons3_3.png)
 
-5. In your X-Cart store Admin area, adjust the settings in the section **Amazon Signed URLs** of the E-goods module settings page: 
+5. In your X-Cart store Admin area, adjust the settings in the section **Amazon Signed URLs** of the E-goods addon settings page: 
    
    * **Enable usage of Presigned URLs for Amazon S3 links**: Enable this setting. As a result, you will be able to access the fields for your Amazon S3 credentials (They will be shown below).
    * **Amazon access key**: Copy and paste the AWS access key you have obtained from Amazon.
@@ -35,7 +35,7 @@ In order to make use of the off-site storage feature, the store administrator wi
    ![amazons3_4.png]({{site.baseurl}}/attachments/ref_ZszpDfxQ/amazons3_4.png)
 
     {% note info %}
-    The same credentials can be used in the **Amazon S3** module by X-Cart team.
+    The same credentials can be used in the **Amazon S3** addon by X-Cart team.
     {% endnote %}
 
 6. Save the changes. This will connect your AWS account with your X-Cart store. 
