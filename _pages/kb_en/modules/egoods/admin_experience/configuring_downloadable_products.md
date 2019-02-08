@@ -8,7 +8,7 @@ order: 130
 published: true
 ---
 ## Adding Downloadable Products
-Adding a downloadable product is similar to adding an ordinary product. The only difference is that when you configure a downloadable product you must assign one or more downloadable files to it and, as the product will not require physical shipping, disable shipping for it.
+Adding a downloadable product is similar to adding a regular non-downloadabe one. The only difference is that when you configure a downloadable product you must assign one or more downloadable files to it and, as the product will not require physical shipping, disable shipping for it.
 
 Here's how to configure a downloadable product from the store back end (Admin area or - in the case of X-Cart Multivendor - Vendor area):
 
