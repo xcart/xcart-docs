@@ -10,9 +10,9 @@ redirect_from:
   - /modules/egoods/enabling_configuring_egoods.html
 ---
 
-To start using the module E-goods in an X-Cart 5 store, the store administrator needs to enable (activate) it. General instructions for module activation can be found in the section {% link "Activating and deactivating addons" ref_uEnDBBA7 %} of this manual.
+To start using the addon E-goods in an X-Cart 5 store, the store administrator needs to enable (activate) it. General instructions for addon activation can be found in the section {% link "Activating and deactivating addons" ref_uEnDBBA7 %} of this manual.
 
-Once the module has been enabled, the store administrator must adjust the module settings via the module _Settings_ page.
+Once the addon has been enabled, the store administrator must adjust the addon settings via its _Settings_ page.
 ![settings.png]({{site.baseurl}}/attachments/ref_1dsuHf3i/settings.png)
 
 The following settings can be adjusted:
@@ -24,7 +24,7 @@ The following settings can be adjusted:
 
 * **Keep a history of downloads**: Specify whether your X-Cart store should keep a history of downloads for downloadable files. Because X-Cart cannot track downloads from the Amazon S3 storage, for files stored on Amazon S3, the history of downloads will be formed based on the buyer's attempts to open the respective Amazon S3 Signed URLs. 
 
-* **Show only ESD related fulfilment statuses**: If you sell only downloadable products and want to get rid of any fulfilment statuses that are used for tangible goods, but not for e-goods, enable this option. It will disable all the standard X-Cart order fulfilment statuses except for the following three: _New_, _Delivered_ and _Will Not Deliver_. If you wish you can rename the statuses as you require using the module {% link "Custom order statuses" ref_7FIU2sxJ %}.
+* **Show only ESD related fulfilment statuses**: If you sell only downloadable products and want to get rid of any fulfilment statuses that are used for tangible goods, but not for e-goods, enable this option. It will disable all the standard X-Cart order fulfilment statuses except for the following three: _New_, _Delivered_ and _Will Not Deliver_. If you wish you can rename the statuses as you require using the addon {% link "Custom order statuses" ref_7FIU2sxJ %}.
 
 * **Approve before providing access to download**: Disable this option if you want the buyer of a downloadable product to automatically get a download link for the product they have purchased as soon as they have paid for the order. Enable this option if you want all e-goods orders to be submitted to you for manual review first so you can approve or forbid access to the downloadable file for the buyer. (In the manual review mode, all e-goods orders will be created with the fulfilment status _Waiting for approve_; for the buyer to get a download link, you will need to reset the order fulfilment status from _Waiting for approve_ to any other status, except for _Will not deliver_). 
 
