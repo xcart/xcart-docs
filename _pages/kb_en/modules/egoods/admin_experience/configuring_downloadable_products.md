@@ -34,7 +34,7 @@ Here's how to configure a downloadable product from the store back end (Admin ar
 
 5. Save the changes.
 
-Note that it is possible to create downloadable products by [cloning](#cloning-downloadable-products) existing products in your store catalog or by [import](#adding-updating-downloadable-products-by-import).
+Note that it is possible to create downloadable products by [cloning](#cloning-downloadable-products) existing products in your store catalog or by [import](#addingupdating-downloadable-products-by-import).
 
 ## Managing Downloadable Product Attachments
 Attachments associated with a downloadable product can be managed via the Attachments tab of the product details: 
