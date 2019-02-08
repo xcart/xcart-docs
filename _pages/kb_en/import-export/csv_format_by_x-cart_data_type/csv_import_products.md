@@ -39,7 +39,7 @@ Example of the simplest product CSV file:
 
 ## Fields reference
 
-There are many more fields which you can include into your product CSV file. Below we provided a list of supported fields and value types accepted by X-Cart via these fields:
+There are many more fields that you can include into your product CSV file. Below we provided a list of supported fields and value types accepted by X-Cart via these fields.
 
 <table class="ui compact padded celled small table">
   <tbody>
