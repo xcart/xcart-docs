@@ -17,9 +17,9 @@ To generate feeds make sure the Google Product Feed addon is installed and enabl
 
 1. Submiting feeds to Google Merchant Center requires a registered Google Merchant account.
    
-   If you already have an account with Google (like Gmail), visit [merchants.google.com](https://merchants.google.com/Signup "Google Product Feed") and sign in to become a Google Merchant.
+   - If you already have an account with Google (like Gmail), visit [merchants.google.com](https://merchants.google.com/Signup "Google Product Feed") and sign in to become a Google Merchant.
    
-   If you don't have a Google account yet, proceed to [accounts.google.com](https://accounts.google.com/ "Google Product Feed") and click **Create account** to register with Google. Follow the prompts to create a new Google Account. Once you have a registered a Google account you can proceed to creating a Google Merchant account.
+   - If you don't have a Google account yet, proceed to [accounts.google.com](https://accounts.google.com/ "Google Product Feed") and click **Create account** to register with Google. Follow the prompts to create a new Google Account. Once you have a registered a Google account you can proceed to creating a Google Merchant account.
    
    Learn more about [Google Merchant Center](https://support.google.com/merchants/answer/188495?hl=en&ref_topic=3163841 "Google Product Feed") and how to become a Google merchant.
 
@@ -33,11 +33,11 @@ Once installed and enabled the Google Product Feed addon enables the **Add to Go
 
 ![product-details-marketing.png]({{site.baseurl}}/attachments/ref_2gQBB6qM/product-details-marketing.png)
 
-All products with the enabled **Add to Google product feed** option will be automatically added to a feed once generated. If you want to exclude some products from the feed, disable the **Add to Google product feed** option for them.
+A feed file will included the data on all products with the enabled **Add to Google product feed**. If you want to exclude some products from the feed, disable the **Add to Google product feed** option for them.
 
 ## Product data included into the feed
 
-Google product feed is formed based on [_google product attirbutes_](https://support.google.com/merchants/answer/7052112?hl=en&ref_topic=6324338 "Google Product Feed") both required and optional. A feed is a file that contains all the information about the products you sell. The different pieces of information about your products are described in attributes, which allow customers to search for and find your items. Products are then joined into product groups based on the attribute values that are a way to organize the Google Merchant Center product inventory in a Shopping campaign within Google Ads. 
+Google product feed is formed based on [_google product attirbutes_](https://support.google.com/merchants/answer/7052112?hl=en&ref_topic=6324338 "Google Product Feed") both required and optional. A feed is a file that contains all the information about the products you sell. Google describes the different pieces of information about your products in attributes, which allow customers to search for and find your items. Products are then joined into product groups based on the attribute values that are a way to organize the Google Merchant Center product inventory in a Shopping campaign within Google Ads. 
 
 The default list of _google product attributes_ that X-Cart includes in to the feed file for a product is as follows:
 
@@ -87,9 +87,9 @@ To assign hidden attribute values to your products:
 
 ## Configuring Google shopping groups
 
-A Google shopping group tool in X-Cart allows to extend the list of _google product attributes_ included into the feed by assigning existing X-Cart product attributes to Google shopping groups. The attributes included into Google shopping groups stand apart from the other _google product attributes_ that are included into the feed by default as different merchants can have these attribute values defined through different fields in X-Cart.
+A Google shopping group tool in X-Cart allows to extend the list of _google product attributes_ included into the feed by assigning existing X-Cart product attributes to Google shopping groups. The attributes included into Google shopping groups stand apart from the other _google product attributes_ that are included into the feed by default because different merchants can have these attribute values defined through different fields in X-Cart.
 
-The list of groups available by default is as follows:
+The list of groups included into the list by default is as follows:
 
 * **brand** : Use the brand attribute to indicate the product's brand name. The brand is used to help identify your product and will be shown to users who view your ad. The attribute is required for each product with a clearly associated brand or manufacturer. If the product doesn’t have a clearly associated brand (e.g., movies, books, music, and posters) or is a custom-made product (e.g., art, custom t-shirts, novelty products, and handmade products), the attribute is optional.
 * **color** : Use the color attribute to describe your product’s color. This information helps create accurate filters, which users can use to narrow search results. If your product has variants that vary by color, then provide that information through this attribute. The attribute is required for _Apparel & Accessories_ (166) products when targeting these countries:
