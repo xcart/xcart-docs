@@ -165,14 +165,18 @@ Now you can proceed to the feed generation in the _Feed generation & settings_ t
 
 ![settings-page.png]({{site.baseurl}}/attachments/ref_2gQBB6qM/settings-page.png)
 
-Click on the **Generate feed** button to get the feed link. 
+Click on the **Generate feed** button to get the feed link. Now you can click the link to download the generated feed file for furthe usage.
 
-Also on this page you can:
+To upload a feed file to Google Merchant account follow the procedures described [here](https://support.google.com/merchants/answer/188477?hl=en&ref_topic=3163841 "Google Product Feed").
+
+The **Google Feed** section (**Sales channels** -> **Google product feed**) also allows to configure the following options:
 
 * Set the frequency of product feed renewal. 
-  It can be either _hourly_, _daily_ or _weekly_.
+  It can be either _hourly_, _daily_ or _weekly_. 
   
   {% note  info %}
+  This option is applicable if you choose to upload feed to Google Merchant via [Scheduled Fetches](https://support.google.com/merchants/answer/1219255 "Google Product Feed").
+  
   Please make sure you've configured X-Cart to run {% link "scheduled cron tasks" ref_lLqNzAaq %} to enable periodic feed updates. 
   {% endnote %}
 
