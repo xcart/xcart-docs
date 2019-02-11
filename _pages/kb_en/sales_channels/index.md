@@ -25,7 +25,7 @@ The following channels are supported:
 
 *   {% link "eBay Integration" ref_0SnFdXk1 %} - List your products on eBay and manage both X-Cart and eBay orders the X-Cart Admin area.
 
-*   {% link "Facebook" ref_LA0TBHEA %} - Post and advertize your products directly on your store's Facebook page.
+*   {% link "Facebook Ads & Instagram Ads" ref_LA0TBHEA %} - Post and advertize your products directly on your store's Facebook page.
 
 *   {% link "Google Product Feed" ref_2gQBB6qM %} - Upload your store and product data to [Google](https://support.google.com/merchants/answer/188493?hl=en&ref_topic=3163841 "Sale Channels") and attract more potential buyers. 
 
