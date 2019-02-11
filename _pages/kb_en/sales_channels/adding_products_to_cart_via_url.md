@@ -23,6 +23,10 @@ The part `http://<your-domain>/<x-cart-5-directory>` will, of course, need to be
 
 In the example URL above, 12345 is the product ID. Copy and paste it into your hand-crafted link.
 
+{% note info %}
+For products with variants it's recommended to use the {% link "Buy Button" ref_TEiIdZZc %} addon to generate a link on a particular product variant to be added to cart.
+{% endnote %}
+
 
 _Related pages:_
 
