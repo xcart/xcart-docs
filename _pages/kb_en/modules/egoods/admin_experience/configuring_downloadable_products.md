@@ -66,7 +66,7 @@ It is possible to create and/or update downloadable products using the CSV impor
    Here's an example of a CSV file for the import of a product (SKU 12026 Ollie - The App Controlled Robot) with a downloadable attachment (Ollie User Manual):
    ![xc5_egoods_import_egoods.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egoods_import_egoods.png)   
    
-3. In your X-Cart store Admin area, go to the section **Catalog** > **Import**, specify the import settings you require and upload your import CSV file.
+3. In your X-Cart store Admin area, go to the section **Catalog** > **Import**, select the CSV file you have prepared for import, specify the import settings as you require and click **Start import** to upload your import CSV file.
    ![xc5_egoods_import_egoods1.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egoods_import_egoods1.png)
 
 As a result of import:
