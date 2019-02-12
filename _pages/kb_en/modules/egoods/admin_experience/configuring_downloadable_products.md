@@ -48,9 +48,9 @@ It is possible to create and/or update downloadable products using the CSV impor
 
 1. Prepare the files that will be used as downloadable attachments for the products that you are going to import:
 
-   * If you are going to store your file attachments on your X-Cart store server, upload your attachment files to the folder <XCART-DIRECTORY>/files/attachments/. For better organization of the file structure, you may prefer to use a subfolder like <XCART-DIRECTORY>/files/attachments/[product_id]. As an alternative, it is also possible to put the files in the folder <XCART-DIRECTORY>/var/import, or its subfolders. (The ability to use this folder was implemented for compatibility with older X-Cart versions. Any files that will be imported from this folder will be automatically copied to a folder like <XCART-DIRECTORY>/files/attachments/[product_id] during import). You may want to use FTP to transfer the files to the above specified folders from a local computer. 
+   * If you are going to store your file attachments on your X-Cart store server, upload your attachment files to the folder &lt;XCART-DIRECTORY&gt;/files/attachments/. For better organization of the file structure, you may prefer to use a subfolder like &lt;XCART-DIRECTORY&gt;/files/attachments/[product_id]. As an alternative, it is also possible to put the files in the folder &lt;XCART-DIRECTORY&gt;/var/import, or its subfolders. (The ability to use this folder was implemented for compatibility with older X-Cart versions. Any files that will be imported from this folder will be automatically copied to a folder like &lt;XCART-DIRECTORY&gt;/files/attachments/[product_id] during import). You may want to use FTP to transfer the files to the above specified folders from a local computer. 
      
-   * If the files you need to import are located on another website available over the Internet, you do not have to upload them to your X-Cart server manually; to import such files, you will need to specify their location in the import CSV file as a URL, and they will be uploaded to the folder <XCART-DIRECTORY>/files/attachments/ automatically during the import process.
+   * If the files you need to import are located on another website available over the Internet, you do not have to upload them to your X-Cart server manually; to import such files, you will need to specify their location in the import CSV file as a URL, and they will be uploaded to the folder &lt;XCART-DIRECTORY&gt;/files/attachments/ automatically during the import process.
    
    * If you are going to store your attachments on Amazon S3, upload the files to Amazon S3 and have the file URLs on Amazon S3 at hand. 
 
@@ -69,8 +69,8 @@ It is possible to create and/or update downloadable products using the CSV impor
 3. In your X-Cart store Admin area, go to the section **Catalog** > **Import**, specify the import settings you require and upload your import CSV file.
 
 As a result of import:
-* A file that has been uploaded onto the X-Cart server to a folder within <XCART-DIRECTORY>/files/attachments/ will remain in the same folder. Its filepath will be linked to the product as the attachment file location. 
-* A file from an external URL (other than Amazon S3) will be uploaded automatically to a folder like <XCART-DIRECTORY>/files/attachments/[product_id]. The path to the file within the <XCART-DIRECTORY>/files/attachments/[product_id] folder will be linked to the product as the attachment file location. 
+* A file that has been uploaded onto the X-Cart server to a folder within &lt;XCART-DIRECTORY>/files/attachments/ will remain in the same folder. Its filepath will be linked to the product as the attachment file location. 
+* A file from an external URL (other than Amazon S3) will be uploaded automatically to a folder like &lt;XCART-DIRECTORY&gt;/files/attachments/[product_id]. The path to the file within the &lt;XCART-DIRECTORY&gt;/files/attachments/[product_id] folder will be linked to the product as the attachment file location. 
 * A file on Amazon S3: 
   - If your store has been properly configured to use Amazon S3 for E-goods, the Amazon S3 URL of the file will be linked to the product in your store as the attachment file location URL; the file itself will not be uploaded to your X-Cart store server. 
-  - If your store has *not* been configured to use Amazon S3 for E-goods, X-Cart will upload the file to <XCART-DIRECTORY>/files/attachments/[product_id].  
+  - If your store has *not* been configured to use Amazon S3 for E-goods, X-Cart will upload the file to &lt;XCART-DIRECTORY&gt;/files/attachments/[product_id].  
