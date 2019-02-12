@@ -54,16 +54,23 @@ It is possible to create and/or update downloadable products using the CSV impor
    
    * If you are going to store your attachments on Amazon S3, upload the files to Amazon S3 and have the file URLs on Amazon S3 at hand. 
 
-2. Prepare a CSV file with information about the products and downloadable attachments that you wish to import . Depending on your needs and your store configuration, you may require a different set of fields to format the data in your CSV file. For a detailed reference on the format of the fields in a CSV file for product import, see the section {% link "CSV Import: Products" ref_WmJBfwxA %}. 
+2. Prepare a products CSV file with information about the products and downloadable attachments that you wish to import . Depending on your needs and your store configuration, you may require a different set of fields to format the data in your CSV file. For a detailed reference on the format of the fields in a CSV file for product import, see the section {% link "CSV Import: Products" ref_WmJBfwxA %}. Make sure your resulting file meets the requirements of [RFC 4180 standard](https://en.wikipedia.org/wiki/Comma-separated_values#RFC_4180_standard). 
 
-   At the minimum, your file for the import of downloadable products will need to include the following information:
+   At the minimum, your CSV file for the import of downloadable products will need to include the following information:
    * Information required to properly identify a product (the fields **sku**, **name**).
    * Information about the downloadable files to be associated with the said sku and product name (the fields pertaining to the File attachments addon: **attachments**, **attachmentsTitle** and **attachmentsDescription**). 
    * Information as to whether access to the said downloadable files should be free for all visitors or should only be provided to the buyers who have purchased the product and paid for their order (the field **attachmentsPrivate**).
    
-   ![xc5_egoods_import_egoods.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egoods_import_egoods.png)
-
-   Note that the attachment file location may be specified in the **attachments** field either as a URL or as a local path. For a file stored on Amazon S3, this should be specified simply as the file URL on Amazon S3. If your store has been properly configured to use Amazon S3 for E-goods, and an Amazon S3 URL is submitted as an attachment file location during a product import, as a result of the import process, this Amazon S3 URL will simply be linked to the product in your store as the attachment file location URL; the file itself will not be uploaded to your X-Cart store server. For any other external URLs, as well as Amazon S3 URLs submitted for import via CSV without Amazon S3 connection properly configured for E-goods, X-Cart will upload the file to a subfolder of <XCART-DIRECTORY>/files/attachments/.   
+   Note that the attachment file location may be specified in the **attachments** field either as a URL or as a local path. For a file stored on Amazon S3, this should be specified simply as the file URL on Amazon S3.  
    
-3. Import the CSV file via the section **Catalog** > **Import**.
+   Here's an example of a CSV file for the import of a product (SKU 12026 Ollie - The App Controlled Robot) with a downloadable attachment (Ollie User Manual):
+   ![xc5_egoods_import_egoods.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egoods_import_egoods.png)   
+   
+3. In your X-Cart store Admin area, go to the section **Catalog** > **Import**, specify the import settings you require and upload your import CSV file.
 
+As a result of import:
+* A file that has been uploaded onto the X-Cart server to a folder within <XCART-DIRECTORY>/files/attachments/ will remain in the same folder. Its filepath will be linked to the product as the attachment file location. 
+* A file from an external URL (other than Amazon S3) will be uploaded automatically to a folder like <XCART-DIRECTORY>/files/attachments/[product_id]. The path to the file within the <XCART-DIRECTORY>/files/attachments/[product_id] folder will be linked to the product as the attachment file location. 
+* A file on Amazon S3: 
+  - If your store has been properly configured to use Amazon S3 for E-goods, the Amazon S3 URL of the file will be linked to the product in your store as the attachment file location URL; the file itself will not be uploaded to your X-Cart store server. 
+  - If your store has *not* been configured to use Amazon S3 for E-goods, X-Cart will upload the file to <XCART-DIRECTORY>/files/attachments/[product_id].  
