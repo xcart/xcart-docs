@@ -67,6 +67,7 @@ It is possible to create and/or update downloadable products using the CSV impor
    ![xc5_egoods_import_egoods.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egoods_import_egoods.png)   
    
 3. In your X-Cart store Admin area, go to the section **Catalog** > **Import**, specify the import settings you require and upload your import CSV file.
+   ![xc5_egoods_import_egoods1.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egoods_import_egoods1.png)
 
 As a result of import:
 * A file that has been uploaded onto the X-Cart server to a folder within &lt;XCART-DIRECTORY>/files/attachments/ will remain in the same folder. Its filepath will be linked to the product as the attachment file location. 
