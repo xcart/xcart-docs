@@ -25,7 +25,7 @@ Here's how to configure a downloadable product from the store back end (Admin ar
    
    For example, it is possible to use a shareable URL pointing to a file in a storage like One Drive, DropBox, or Google Drive.
    
-   If you have {% link "configured a connection to Amazon S3 for E-goods" ref_51iHbWYa %}, you can use an Amazon S3 URL as an attachment file location. In this case, the file will not be uploaded to your X-Cart store server; instead, your customers will be provided with a link to the file on Amazon S3. Instructions for [how to create a downloadable product with an attachment stored on Amazon S3](https://kb.x-cart.com/modules/egoods/admin_experience/configuring_the_egoods_module.html#amazons3) are available.
+   If you have {% link "configured a connection to Amazon S3 for E-goods" ref_51iHbWYa %}, you can use an Amazon S3 URL as an attachment file location. In this case, the file will not be uploaded to your X-Cart store server; instead, your customers will be provided with a link to the file on Amazon S3. Instructions for [how to create a downloadable product with an attachment stored on Amazon S3](https://kb.x-cart.com/modules/egoods/admin_experience/configuring_amazon_urls.html#amazons3) are available.
    
    Once the file has been uploaded to the X-Cart server or linked to on Amazon S3, it will be added to the list of attachments for the product.
    ![xc5_egood_attachment_added.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egood_attachment_added.png)
