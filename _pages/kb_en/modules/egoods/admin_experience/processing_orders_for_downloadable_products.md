@@ -24,6 +24,7 @@ The store administrator can adjust the steps of the order processing routine for
      
    If the administrator chooses not to approve the order, they will need to switch the fulfilment status of the order to _Will not deliver_. In this case the buyer will not get access to the download link. 
 
+<a id="renew-egoods-access"></a>
 Once an order has been processed, the store administrator can update the e-goods status in the _E-goods_ tab of the Order details page:
 
 ![order-details.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/order-details.png)
