@@ -7,6 +7,8 @@ title: Editing Category Details
 order: 110
 published: true
 ---
+After you create a category or subcategory, you need to make sure that it is properly configured to display all the neseccary information to your customers.
+
 To edit a category:
 
 1. Open the **Categories** section in the store admin area (**Catalog** -> **Categories**)
@@ -33,3 +35,5 @@ To edit a category:
    * **Classes for product filter**: Define what attributes will be included into the {% link "product filter" ref_6e82A7rL %} block on a category page in the store front-end
 
 4. Click **Update** to save the changes.
+
+That's it! Your category is configured. Now you can proceed to {% link "populating it with the products" ref_3RiU8luY %}.
