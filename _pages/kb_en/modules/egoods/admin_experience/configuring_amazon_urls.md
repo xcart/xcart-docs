@@ -41,7 +41,8 @@ In order to make use of the off-site storage feature, the store administrator wi
 6. Save the changes. This will connect your AWS account with your X-Cart store. 
 
 Once the connection has been set up, the store administrator will be able to upload files of nearly any size onto the S3 Storage service of AWS and use them to configure downloadable products. 
-<a id="AmazonS3"></a>
+
+<a id="amazons3"></a>
 Here's how it can be done:
 
 1. Once a file has been uploaded onto S3, copy the URL of that file. 
