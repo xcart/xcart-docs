@@ -50,12 +50,12 @@ Attachments associated with a downloadable product can be managed via the Attach
      
    * Use the download ("down arrow") button to download the attachment file.
    
-   * Use the **Free/Paid** switch to specify whether the attachment file should be available to anyone who wants to access it, or only to the buyers of the product who have paid for their order.
+   * Use the **Free/Paid** switch to specify whether the attachment file should be available to anyone who wants to access it, or only to the buyers of the product who have paid for their order. Note that for files with "Paid" access you can set the number of downloads and the number of days that the buyer should be able to access them; this, however, is done not on a per-file basis, but for your entire stock of products with paid attachments in general via the {% link "E-goods addon settings" ref_1dsuHf3i %} page.
    
    * Use the Membership dropdown box to specify the membership-based group of customers who should be able to access the file.
    
    * Be sure to click **Save changes** to save any changes of the attachment details you have made.
-   
+
 
 ## Cloning Downloadable Products
 When you clone a downloadable product, the contents of the Attachments tab of the product from which a clone is created is copied to the clone product. As a result, you get two products using the same file attachment(s). If necessary, you can then edit the file attachments for the clone product (replace the files, adjust the _Free_ / _Paid_ access settings, adjust the availability of the files to different membership levels, and the like), or just keep the original files and their settings if you wish to re-use them. For information on product cloning, see the section {% link "Cloning Products" ref_5gTzBmtP %}.
