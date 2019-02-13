@@ -47,10 +47,12 @@ Attachments associated with a downloadable product can be managed via the Attach
    * It is possible to change the title and description of your attachment: Click anywhere within the respective fields, and they will become editable.
    
    * It is possible to change the attachment file (or the location of the file): Use the **[...]** button to access the respective menu.
-   
+     
    * Use the download ("down arrow") button to download the attachment file.
    
-   * Use the Membership dropdown box to specify the group of customers who should be able to access the file.
+   * Use the **Free/Paid** switch to specify whether the attachment file should be available to anyone who wants to access it, or only to the buyers of the product who have paid for their order.
+   
+   * Use the Membership dropdown box to specify the membership-based group of customers who should be able to access the file.
    
    * Be sure to click **Save changes** to save any changes of the attachment details you have made.
    
