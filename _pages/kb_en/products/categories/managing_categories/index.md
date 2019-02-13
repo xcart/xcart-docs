@@ -26,4 +26,5 @@ Go to **Catalog** > **Categories** section of the store admin area to create, or
 _In this section:_
 
 *  {% link "Adding Categories" ref_5V3qE4xK %}
+*  {% link "Editing Category Details" ref_02QQDneV %}
 *  {% link "Adding Products to a Category" ref_3RiU8luY %}
