@@ -25,7 +25,9 @@ Here's how to configure a downloadable product from the store back end (Admin ar
    
    For example, it is possible to use a shareable URL pointing to a file in a storage like One Drive, DropBox, or Google Drive.
    
-   Once the file has been uploaded, it will be added to the list of attachments for the product.
+   If you have {% link "configured a connection to Amazon S3 for E-goods" ref_51iHbWYa %}, you can use an Amazon S3 URL as an attachment file location. In this case, the file will not be uploaded to your X-Cart store server; instead, your customers will be provided with a link to the file on Amazon S3. Instructions for [how to create a downloadable product with an attachment stored on Amazon S3](https://kb.x-cart.com/modules/egoods/admin_experience/configuring_the_egoods_module.html#AmazonS3) are available.
+   
+   Once the file has been uploaded to the X-Cart server or linked to on Amazon S3, it will be added to the list of attachments for the product.
    ![xc5_egood_attachment_added.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egood_attachment_added.png)
    
    If necessary, you will be able to delete or change the attachment file at any time later.
@@ -39,6 +41,8 @@ Note that it is possible to create downloadable products by [cloning](#cloning-d
 ## Managing Downloadable Product Attachments
 Attachments associated with a downloadable product can be managed via the Attachments tab of the product details: 
 ![attachments.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/attachments.png)
+
+   * It is possible to add more than one attachment for a single product. 
 
 ## Cloning Downloadable Products
 When you clone a downloadable product, the contents of the Attachments tab of the product from which a clone is created is copied to the clone product. As a result, you get two products using the same file attachment(s). If necessary, you can then edit the file attachments for the clone product (replace the files, adjust the _Free_ / _Paid_ access settings, adjust the availability of the files to different membership levels, and the like), or just keep the original files and their settings if you wish to re-use them. For information on product cloning, see the section {% link "Cloning Products" ref_5gTzBmtP %}.
