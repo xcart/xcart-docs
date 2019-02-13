@@ -24,7 +24,7 @@ To edit a category:
    * **Show category title**: Choose if you want the category to be visible or hidden from customers.
    * **Category image**: Use this section to add an image of the category. 
    * **Top banner**: Use this section to add a banner of the category. If you need to edit the banner representation, see [How to change the height of the top category banner](https://devs.x-cart.com/how-to_articles/how_to_change_the_height_of_the_top_category_banner.html "Editing Category Details").
-   * **Description**: A cateory description that will be displayed on the category details page.
+   * **Description**: A cateory description that will be displayed on the category details page. If you need to add a video to the category description, see {% link "Adding a video to product or category description" ref_7zAsoYst %}.
    * **Clean URL**: The category page Clean URL (for SEO purposes).
    * **Category page title**: The title to be used in the title bar of this category details page (for SEO purposes). If the field is left blank the category name will be used as Page Title.
    * **Meta keywords**: The keywords to be used in the keywords META tag on the category page (for SEO purposes).
