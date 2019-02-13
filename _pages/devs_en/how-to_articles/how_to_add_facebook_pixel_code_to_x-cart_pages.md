@@ -14,9 +14,8 @@ redirect_from:
 
 This article describes how to add Facebook Pixel code to X-Cart pages. 
 
-Before we get started, be aware that you can set up Facebook Pixel without custom programming by using these modules:
+Before we get started, be aware that you can set up Facebook Pixel without custom programming by using this module:
 - Facebook Ads and Instagram Ads module: <https://market.x-cart.com/addons/facebook-e-commerce.html>
-- Facebook Pixel integration via Segment: <https://market.x-cart.com/addons/facebook-pixel.html>
 
 ## Step-by-step guide
 
@@ -36,7 +35,7 @@ Before we get started, be aware that you can set up Facebook Pixel without custo
 	<script>
 	!function(f,b,e,v,n,t,s) { if(f.fbq)return;n=f.fbq=function() { n.callMethod?
 	n.callMethod.apply(n,arguments):n.queue.push(arguments) }; if(!f._fbq)f._fbq=n;
-	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	n.push=n;n.loaded=!0;n.agent='plxcart';n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s) } (window,
 	document,'script','//connect.facebook.net/en_US/fbevents.js');
 
@@ -120,4 +119,4 @@ Before we get started, be aware that you can set up Facebook Pixel without custo
 
 See also:
 
-*   [Facebook Pixel Setup](https://developers.facebook.com/docs/marketing-api/facebook-pixel/v2.5)
+*   [Facebook Pixel Setup](https://developers.facebook.com/docs/marketing-api/audiences-api/pixel)
