@@ -5,7 +5,7 @@ updated_at: '2019-02-13 12:52 +0400'
 identifier: ref_02QQDneV
 title: Editing Category Details
 order: 110
-published: false
+published: true
 ---
 To edit a category:
 
@@ -33,5 +33,3 @@ To edit a category:
    * **Classes for product filter**: Define what attributes will be included into the {% link "product filter" ref_6e82A7rL %} block on a category page in the store front-end
 
 4. Click **Update** to save the changes.
-
-
