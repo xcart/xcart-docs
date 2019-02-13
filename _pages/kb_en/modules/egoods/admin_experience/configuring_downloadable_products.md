@@ -50,7 +50,7 @@ Attachments associated with a downloadable product can be managed via the Attach
      
    * Use the download ("down arrow") button to download the attachment file.
    
-   * Use the **Free/Paid** switch to specify whether the attachment file should be available to anyone who wants to access it, or only to the buyers of the product who have paid for their order. Note that for files with "Paid" access you can set the number of downloads and the number of days that the buyer should be able to access them; this, however, is done not on a per-file basis, but for your entire stock of products with paid attachments in general via the {% link "E-goods addon settings" ref_1dsuHf3i %} page.
+   * Use the **Free/Paid** switch to specify whether the attachment file should be available to anyone who wants to access it, or only to the buyers of the product who have paid for their order. Note that for files with "Paid" access you can set the number of downloads and the number of days that the buyer should be able to access them; this, however, is done not on a per-attachment basis, but globally for your entire stock of products with paid attachments via the settings on your X-Cart store's {% link "E-goods addon settings" ref_1dsuHf3i %} page.
    
    * Use the Membership dropdown box to specify the membership-based group of customers who should be able to access the file.
    
