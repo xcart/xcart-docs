@@ -7,7 +7,7 @@ title: Editing Category Details
 order: 110
 published: true
 ---
-After you create a category or subcategory, you need to make sure that it is properly configured to display all the neseccary information to your customers.
+After creating a category or subcategory, you need to make sure that it is properly configured to display all the neseccary information to your customers.
 
 To edit a category:
 
