@@ -24,19 +24,19 @@ To add an attachment for a product:
 1. Find the product for which you need to add an attachment and open its details.
 
 2. Go to the **Attachments** tab. 
-   ![att-1.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/att-1.png)
+   ![xc5_fa_attachments_tab.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/xc5_fa_attachments_tab.png)
 
 3. Click **Add file** and choose the file source:
-   ![att-2.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/att-2.png)
+   ![xc5_fa_add_file.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/xc5_fa_add_file.png)
+
    You can upload files from your local computer, from your local server or via an external URL. 
 
 4. Choose the file and click **Upload**.  Once the file has been uploaded to the X-Cart server, it will be added to the list of attachments for the product:
-   ![att-3.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/att-3.png)
+   ![xc5_fa_attachment_added.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/xc5_fa_attachment_added.png)
+
    If necessary, you will be able to delete or change the attachment file at any time later.
 
-5. Adjust the attachment settings as you require. See [Managing Product Attachments](#managing-product-attachments)
-
-6. Save the changes.
+5. Adjust the attachment settings as you require. See [Managing Product Attachments](#managing-product-attachments). Be sure to save your changes.
 
 ## Managing Product Attachments
 
