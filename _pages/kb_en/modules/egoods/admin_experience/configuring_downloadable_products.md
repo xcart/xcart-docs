@@ -77,12 +77,12 @@ It is possible to create and/or update downloadable products using the CSV impor
    At the minimum, your CSV file for the import of downloadable products will need to include the following information:
    * Information required to properly identify a product (the fields **sku**, **name**).
    * Information about the downloadable files to be associated with the said sku and product name (the fields pertaining to the File attachments addon: **attachments**, **attachmentsTitle** and **attachmentsDescription**). 
-   * Information as to whether access to the said downloadable files should be free for all visitors or should only be provided to the buyers who have purchased the product and paid for their order (the field **attachmentsPrivate**).
+   * Information as to whether access to the said downloadable files should be free for all visitors or should only be provided to the buyers who have purchased the product and paid for their order (the field pertaining to the E-goods addon: **attachmentsPrivate**).
    
    Note that the attachment file location may be specified in the **attachments** field either as a URL or as a local path. For a file stored on Amazon S3, this should be specified simply as the file URL on Amazon S3.  
    
-   Here's an example of a CSV file for the import of a product (SKU 12026 Ollie - The App Controlled Robot) with a downloadable attachment (Ollie User Manual):
-   ![xc5_egoods_import_egoods.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egoods_import_egoods.png)   
+   Here's an example of a CSV file for the import of a product (SKU 12026 Ollie - The App Controlled Robot) with a *free* downloadable attachment (Ollie User Manual):
+   ![xc5_egoods_import_egoods.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egoods_import_egoods.png)
    
 3. In your X-Cart store Admin area, go to the section **Catalog** > **Import**, select the CSV file you have prepared for import, specify the import settings as you require and click **Start import** to upload your import CSV file.
    ![xc5_egoods_import_egoods1.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egoods_import_egoods1.png)
