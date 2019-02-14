@@ -94,4 +94,4 @@ As a result of import:
   _Related articles:_
      
   * {% link "E-goods" ref_ZszpDfxQ %}
-  * {% link "PIN Codes Module" ref_2ioJzfJL %}
+  * {% link "PIN Codes" ref_2ioJzfJL %}
