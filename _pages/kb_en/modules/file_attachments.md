@@ -13,9 +13,10 @@ Sometimes it may be necessary to enhance the regular product description with a 
 
 You can do that using the addon [File attachments](https://market.x-cart.com/addons/file-attachments.html). 
 
-The addon adds a special tab on the product page in the store back end -  "Attachments" - which enables you to attach files to the product; your store visitors can then download these files from the product page.
+The addon adds a special tab on the product page in the store back end -  "Attachments" - which enables you to attach files to the product. You can upload files from your local computer, from your local server or from a URL. The maximum file size is limited by the server settings.
 
-You can upload files from your local computer, from your local server or from a URL. The maximum file size is limited by the server settings.
+On the storefront, your store visitors can see and download the attachments from the product page:
+   ![xc5_fa_attachment_incustomer.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/xc5_fa_attachment_incustomer.png)
 
 ## Adding Product Attachments
 
