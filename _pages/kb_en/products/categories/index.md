@@ -20,4 +20,4 @@ The exact layout and appearance of category pages depends on the skin you are us
 _In this section:_
 
 *  {% link "Managing Categories" ref_2JeiDy5a %}
-*  {% link "Managing the Category Block Representation" ref_3aUJrW2c %}
+*  {% link "Categories Representation on Storefront" ref_3aUJrW2c %}
