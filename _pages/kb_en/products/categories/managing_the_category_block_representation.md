@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-25 16:45 +0400'
 identifier: ref_3aUJrW2c
-title: Managing the Category Block Representation
+title: Categories Representation on Storefront
 order: 1000
 published: true
 ---
