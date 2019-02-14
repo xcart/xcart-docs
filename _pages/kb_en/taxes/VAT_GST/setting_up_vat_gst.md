@@ -10,18 +10,18 @@ redirect_from:
   - /taxes/defining_vat_for_your_products.html
   - /taxes/setting_up_vat_gst.html
 ---
-**PREREQUISITES:** Make sure the addon Value Added Tax / Goods and Services Tax is {% link "installed and enabled" ref_0GjdgNJx %}.
-
 Before you configure your VAT / GST tax:
 
-1.  Ensure that each of the products in your store to which VAT / GST needs to be applied has a tax class assigned to it. You can create your custom tax classes or use the "Default tax class" that is assigned to all your products by default. 
+1. Ensure that the addon **Value Added Tax / Goods and Services Tax** is {% link "installed and enabled" ref_0GjdgNJx %}.  
+
+2. Ensure that each of the products in your store to which VAT / GST needs to be applied has a tax class assigned to it. You can create your custom tax classes or use the "Default tax class" that is assigned to all your products by default. 
     *   {% link "Creating tax classes" ref_pAWOdG8N#creating-tax-classes %};
     *   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}.
 
-2.  Ensure that your store has all the necessary address zones configured. You will need these zones to use different tax rates based on the customer address.
+3.  Ensure that your store has all the necessary address zones configured. You will need these zones to use different tax rates based on the customer address.
     *   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
     
-3.  If you are going to need different tax rates for different customer membership levels, ensure that the necessary user membership levels have been set up. 
+4.  If you are going to need different tax rates for different customer membership levels, ensure that the necessary user membership levels have been set up. 
     *   {% link "Adding user membership levels" ref_9ITFspcC %}
 
 To configure your VAT / GST tax, complete the following steps:
