@@ -40,19 +40,23 @@ Note that it is possible to create downloadable products by [cloning](#cloning-d
 
 ## Managing Downloadable Product Attachments
 Attachments associated with a downloadable product can be managed via the Attachments tab of the product details: 
-   ![xc5_egood_manage_attachments.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egood_manage_attachments.png)
+   ![xc5_egood_manage_attachments.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egood_manage_attachments.png)  
 
-   * It is possible to add more than one attachment for a single product. To add another attachment, use the **Add file** button.
+   * Add more than one attachment for a single product: To add another attachment, use the **Add file** button.
    
-   * It is possible to change the title and description of your attachment: Click anywhere within the respective fields, and they will become editable.
+   * Change the title and description of your attachment: Click anywhere within the respective fields, and they will become editable.
    
-   * It is possible to change the attachment file (or the location of the file): Use the **[...]** button to access the respective menu.
+   * Change the attachment file (or the location of the file): Use the **[...]** button to access the respective menu.
      
-   * Use the download ("down arrow") button to download the attachment file.
+   * Delete the attachment using the Delete ("Trash") button.
+   
+   * Use the Download ("down arrow") button to download the attachment file.
    
    * Use the **Free/Paid** switch to specify whether the attachment file should be available to anyone who wants to access it, or only to the buyers of the product who have paid for their order. Note that for files with "Paid" access you can set the number of downloads and the number of days that the buyer should be able to access them; this, however, is done not on a per-attachment basis, but globally for your entire stock of products with paid attachments via the settings "Download link TTL (days)" and "Downloads limit (per 1 ordered item)" on your X-Cart store's {% link "E-goods addon settings" ref_1dsuHf3i %} page. Should you need to prolong access to an attachment for a specific customer, you will want to reset these values for the attachment in the customer's order (on the E-goods tab of the Order details page; see the section [Processing Orders for Downloadable Products](https://kb.x-cart.com/modules/egoods/admin_experience/processing_orders_for_downloadable_products.html#renew-egoods-access) for instructions on how to do it).
    
    * Use the Membership dropdown box to specify the membership-based group of customers who should be able to access the file.
+   
+   * Drag-n-drop attachments to change the order in which they are shown on the page.
    
    * Be sure to click **Save changes** to save any changes of the attachment details you have made.
 
