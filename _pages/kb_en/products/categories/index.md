@@ -13,7 +13,7 @@ Categories in X-Cart stand for collections or groups of products. Products are j
 
 You can create categories both manually using the **Catalog** -> **Categories** section of the admin area and automatically using the {% link "import feature" ref_glDc6kA1 %}.
 
-When a category is created, it is shown on your online store as a webpage with a gallery of the products that are in this category and a category banner at the top of the page, that can be managed on the category details page in the admin area. Your customers can then click a product image on the category page to visit a product details page. You can help customers find and view categories by {% link "adding them as links to the menu" ref_3aUJrW2c %}in your store's navigation.
+When a category is created, it is shown on your online store as a webpage with a gallery of the products that are in this category and a category banner at the top of the page, that can be managed on the category details page in the admin area. Your customers can then click a product image on the category page to visit a product details page. You can help customers find and view categories by {% link "adding them as links to the menu" ref_3aUJrW2c %} in your store's navigation.
 
 The exact layout and appearance of category pages depends on the skin you are using.
 
