@@ -9,9 +9,9 @@ published: false
 ---
 X-Cart skin is a template that determines the way your online store looks and feels. Different skins have different styles and layouts, and offer a different experience for your customers. 
 
-The store admin area uses the Standard X-Cart skin by default. As for the customer storefront you can change the skin used there depending on the impression you want your store to have on your customers.
+X-Cart offers 5 skins out-of-the-box and over 55 skins that can be downloaded and installed from the Marketplace. The store admin area uses the X-Cart Standard skin by default. As for the customer storefront you can change the skin used there depending on the impression you want your store to have on your customers.
 
-X-Cart offers 5 skins out-of-the-box and over 55 skins that can be downloaded and installed from the Marketplace. Although each skin is different, all skins have some common features. All skins let you use the same types of pages, and all pages include some standard elements. 
+Although each skin is different, all skins have some common features. All skins let you use the same types of pages, and all pages include some standard elements. 
 
 The following page elements and page types make up a theme's structure.
 
@@ -48,4 +48,3 @@ All skins include these types of pages:
 |Contact Us| A static page that includes a form that customers can use to contact you.|
 |Customer| They include the customer registration page, the customer login page, and the customer account page. The customer account page includes the customer's shipping address and information about any existing orders.
 |Password|The password page is a single page that you can use to temporarily stop customers from seeing your online store. You might want to use a password page before you open your store, or while you're on vacation. On the password page, you can show your store's launch date, the kinds of products that you will sell, recent media coverage, or details about an upcoming sale. The password page also has an email field that customers can use to sign up if they want to receive newsletters from you in the future.|
-
