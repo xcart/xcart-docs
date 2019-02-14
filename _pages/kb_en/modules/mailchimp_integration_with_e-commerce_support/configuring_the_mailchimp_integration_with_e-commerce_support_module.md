@@ -27,6 +27,14 @@ In the **Mailchimp settings** section of the page, the following settings can be
 
 * Update Mailchimp lists every (_Never, 1 minute, 10 minutes, etc._): Select the time interval for the periodical list updates.
 
+* Type of discount coupons that should be uploaded to Mailchimp (_All discount coupons_ / _Only the discount coupons that match the Mailchimp promo rules_): Specify the type of coupons to be uploaded to Mailchimp. 
+  The Mailchimp promo rules are:
+  - Code
+  - Discount amount
+  - Active from
+  - Active till 
+  Discount coupons configured using any rules outside this rule set will be treated as not matching the Mailchimp rules.
+
 ## E-Commerce features setup
 ![xc5_mailchimp_ecommerce_features.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_ecommerce_features.png)
 
