@@ -17,7 +17,7 @@ Here's how to configure a downloadable product from the store back end (Admin ar
 2. On the **Info** tab of the Product details, locate the section **Shipping** and disable shipping for the product. Be sure to save your changes.
    ![xc5_egood_disable_shipping.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egood_disable_shipping.png)
    
-3. Go to the **Attachments** tab and assign a file to the product.
+3. Go to the **Attachments** tab and click **Add file**:
    ![xc5_egood_attachments_add.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egood_attachments_add.png)
 
    You can upload files from your local computer, from your local server or via an external URL. 
@@ -95,4 +95,4 @@ As a result of import:
 * A file from an external URL (other than Amazon S3) will be uploaded automatically to a folder like &lt;XCART-DIRECTORY&gt;/files/attachments/[product_id]. The path to the file within the &lt;XCART-DIRECTORY&gt;/files/attachments/[product_id] folder will be linked to the product as the attachment file location. 
 * A file on Amazon S3: 
   - If your store has been properly configured to use Amazon S3 for E-goods, the Amazon S3 URL of the file will be linked to the product in your store as the attachment file location URL; the file itself will not be uploaded to your X-Cart store server. 
-  - If your store has *not* been configured to use Amazon S3 for E-goods, X-Cart will upload the file to &lt;XCART-DIRECTORY&gt;/files/attachments/[product_id].  
+  - If your store has *not* been configured to use Amazon S3 for E-goods, X-Cart will upload the file to &lt;XCART-DIRECTORY&gt;/files/attachments/[product_id].
