@@ -10,6 +10,7 @@ redirect_from:
   - /taxes/defining_vat_for_your_products.html
   - /taxes/setting_up_vat_gst.html
 ---
+PREREQUISITES: Make sure the addon Value Added Tax / Goods and Services Tax is {% link "installed and enabled" ref_0GjdgNJx %}.
 
 Before you configure your VAT / GST tax:
 
