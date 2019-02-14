@@ -21,11 +21,13 @@ To add a new category in an X-Cart store catalog:
 
 ![new.png]({{site.baseurl}}/attachments/ref_6rpDdput/new.png)
 
-You'll see the category you've just created in the list. Categories are displayed on the store home page in the order of appearance in the list, so change the category position if necessary. 
+You'll see the category you've just created in the list. 
+
+Categories are displayed on the store home page in the order of appearance in the list, so change the category position if necessary. 
 
 ![list.png]({{site.baseurl}}/attachments/ref_6rpDdput/list.png)
 
-To add a subcategory you should do almost all the same as to add a category, as a subcategory is a category in fact but of a lower level. So go to the Subcategories tab on the category details page, click the **New Category** button and follow the procedure described above.
+To add a subcategory you should do almost all the same as to add a category, as a subcategory is a category in fact but of a lower level. So go to the **Subcategories** tab on the category details page, click the **New Category** button and follow the procedure described above.
 
 ![subcategory.png]({{site.baseurl}}/attachments/ref_6rpDdput/subcategory.png)
 
