@@ -34,7 +34,7 @@ To add an attachment for a product:
    ![att-3.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/att-3.png)
    If necessary, you will be able to delete or change the attachment file at any time later.
 
-5. Adjust the attachment settings as you require. See [Managing Downloadable Product Attachments](#managing-downloadable-product-attachments)
+5. Adjust the attachment settings as you require. See [Managing Product Attachments](#managing-product-attachments)
 
 6. Save the changes.
 
@@ -58,7 +58,9 @@ Attachments associated with a downloadable product can be managed via the Attach
    
    * Be sure to click **Save changes** to save any changes of the attachment details you have made.
 
- 
+## Cloning Products with File Attachments
+When you clone a product with file attachments, the contents of the Attachments tab of the product from which a clone is created is copied to the clone product. As a result, you get two products using the same file attachment(s). If necessary, you can then edit the file attachments for the clone product (replace the files, adjust the _Free_ / _Paid_ access settings, adjust the availability of the files to different membership levels, and the like), or just keep the original files and their settings if you wish to re-use them. For information on product cloning, see the section {% link "Cloning Products" ref_5gTzBmtP %}.
+   
   
   _Related articles:_
      
