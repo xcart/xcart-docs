@@ -85,6 +85,10 @@ For ealier versions of X-Cart you can use PHP 5.5+ as they are not compatible wi
 
 ## Step 6\. Use Query Cache (MySQL)
 
+{% note warning %}
+Applicable for X-Cart 5.6.x and earlier.
+{% endnote %}
+
 MySQL provides a convenient feature that can be used to speed up any queries to the database - Query Cache. To get an optimized and speedy response from your MySQL server, you may want to add the following configuration directives to your MySQL server:
 
 ```php
