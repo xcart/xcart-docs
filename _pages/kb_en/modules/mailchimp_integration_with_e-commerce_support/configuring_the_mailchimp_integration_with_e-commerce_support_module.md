@@ -14,26 +14,28 @@ The settings and preferences for the addon "Mailchimp Integration with Ecommerce
 
 In the **Mailchimp settings** section of the page, the following settings can be adjusted:
    
-   * Mailchimp API key: The API key that was used to connect your X-Cart store to your Mailchimp account. If, for some reason, you need to use a different Mailchimp account or a different key, use the "Reset Mailchimp connection" link.
+   * **Mailchimp API key**: The API key that was used to connect your X-Cart store to your Mailchimp account. If, for some reason, you need to use a different Mailchimp account or a different key, use the "Reset Mailchimp connection" link.
    
-   * Enable E-commerce analytics: This option enables E-commerce analytics by Mailchimp for your X-Cart store. For details, see the article [Use Mailchimp for E-Commerce](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use Mailchimp for E-Commerce") in Mailchimp Knowledge Base. E-commerce analytics is the core component of the integration functionality; the setting is enabled by default, and we recommend keeping it that way. When the E-commerce analytics option is enabled, the settings page for the module includes the **E-Commerce features setup** section. Be sure to visit that section and specify the lists for which [Ecommerce Stores](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) need to be created on the Mailchimp end. See the [E-Commerce features setup](#E-Commerce_features_setup) section further below for more info. 
+   * **Enable E-commerce analytics**: This option enables E-commerce analytics by Mailchimp for your X-Cart store. For details, see the article [Use Mailchimp for E-Commerce](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use Mailchimp for E-Commerce") in Mailchimp Knowledge Base. E-commerce analytics is the core component of the integration functionality; the setting is enabled by default, and we recommend keeping it that way. When the E-commerce analytics option is enabled, the settings page for the module includes the **E-Commerce features setup** section. Be sure to visit that section and specify the lists for which [Ecommerce Stores](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) need to be created on the Mailchimp end. See the [E-Commerce features setup](#E-Commerce_features_setup) section further below for more info. 
    **Important:** Be sure also to enable [E-Commerce Link Tracking](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use MailChimp for E-Commerce") for your campaigns and automations in your Mailchimp account back end.
    
-   * Enable Abandoned Carts:  This option enables the Abandoned Carts feature. For more info on this feature, see the [Mailchimp site](https://mailchimp.com/features/abandoned-cart/ "Abandoned Cart")
+   * **Enable Abandoned Carts**:  This option enables the Abandoned Carts feature. For more info on this feature, see the [Mailchimp site](https://mailchimp.com/features/abandoned-cart/ "Abandoned Cart")
    
-   * Enable single opt-in for customers: This setting defines whether customers who opt in to subscribe to your news lists should be asked to confirm the subscription via email, or not. When this option is disabled, new subscribers get an email with a subscription confirmation link that they need to click to be added to your list (Double opt-in). When this option is enabled, new subscribers are added to your list as soon as they opt in, without having to confirm the subscription by email (Single opt-in). Remember that abusing the single opt-in option may get your account banned by MailChimp.
+   * **Enable single opt-in for customers**: This setting defines whether customers who opt in to subscribe to your news lists should be asked to confirm the subscription via email, or not. When this option is disabled, new subscribers get an email with a subscription confirmation link that they need to click to be added to your list (Double opt-in). When this option is enabled, new subscribers are added to your list as soon as they opt in, without having to confirm the subscription by email (Single opt-in). Remember that abusing the single opt-in option may get your account banned by MailChimp.
    
-* Subscription select element type (_Type:checkbox_ or _Type:select box_): This setting defines the way your customers select a subscription. If the select box option is enabled here, your customers can subscribe to only one mail list; if the checkbox option is enabled, your customers can subscribe to multiple lists.
+* **Subscription select element type** (_Type:checkbox_ or _Type:select box_): This setting defines the way your customers select a subscription. If the select box option is enabled here, your customers can subscribe to only one mail list; if the checkbox option is enabled, your customers can subscribe to multiple lists.
 
-* Update Mailchimp lists every (_Never, 1 minute, 10 minutes, etc._): Select the time interval for the periodical list updates.
+* **Update Mailchimp lists every** (_Never, 1 minute, 10 minutes, etc._): Select the time interval for the periodical list updates.
 
-* Type of discount coupons that should be uploaded to Mailchimp (_All discount coupons_ / _Only the discount coupons that match the Mailchimp promo rules_): Specify the type of coupons to be uploaded to Mailchimp. 
+* **Type of discount coupons that should be uploaded to Mailchimp** (_All discount coupons_ / _Only the discount coupons that match the Mailchimp promo rules_): Specify the type of coupons to be uploaded to Mailchimp. 
   The Mailchimp promo rules are:
   - Code
   - Discount amount
   - Active from
   - Active till 
   Discount coupons configured using any rules outside this rule set will be treated as not matching the Mailchimp rules.
+  
+* **Site connection code**: The connection code will appear here automatically once you upload store data to MailChimp. Alternatively, you can connect MailChimp subscription popup via Custom Website integration code. Add your site to the MailChimp account and paste here the connection code.  
 
 ## E-Commerce features setup
 ![xc5_mailchimp_ecommerce_features.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_ecommerce_features.png)
