@@ -42,9 +42,11 @@ Step 2. Use one of the following methods to connect to Mailсhimp:
 
    * Method 1: Sign up for a new Mailchimp account and have it connected to your integration automatically
       * Step 1. Click on the “Sign Up” button. 
-              
+        ![xc5_mailchimp_signup.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_signup.png)
+      
       * Step 2. On the page that opens, provide the information required by Mailсhimp to create a new account.
-        
+        ![xc5_mailchimp_signup1.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_signup1.png)
+
         Once your new Mailchimp account has been created, your X-Cart Mailсhimp integration will be connected to it.
          
    * Method 2: Log in to your existing Mailchimp account and have it connected to your integration automatically
