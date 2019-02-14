@@ -41,6 +41,7 @@ To add an attachment for a product:
 ## Managing Product Attachments
 
 Attachments associated with a downloadable product can be managed via the Attachments tab of the product details:
+   ![xc5_fa_manage_attachments.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/xc5_fa_manage_attachments.png)
 
    * Add more than one attachment for a single product: To add another attachment, use the **Add file** button.
    
