@@ -31,8 +31,7 @@ Below is a list of supported fields and their respective value types for categor
       <td colspan="1" class="confluenceTd">Path to category. Serves as identifier.
         <br>Example: Toys &gt;&gt;&gt; Science Toys&nbsp;</td>
       <td colspan="1" class="confluenceTd">
-        <p>String,
-          <br>Max. length: 32</p>
+        <p>String</p>
       </td>
     </tr>
     <tr>
@@ -86,7 +85,8 @@ Below is a list of supported fields and their respective value types for categor
       </td>
       <td class="confluenceTd">Category name.</td>
       <td class="confluenceTd">String,
-        <br>Multilingual&nbsp;</td>
+        <br>Multilingual&nbsp;
+        <br>Max. length: 255&nbsp;</td>
     </tr>
     <tr>
       <td class="confluenceTd">description</td>
