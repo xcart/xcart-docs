@@ -9,10 +9,10 @@ published: true
 ---
 Getting started with Mailсhimp Integration:
 
-   * Make sure integration is {% link "installed and active" ref_0fGEpvrh %} in your X-Cart store. If not, install the Mailchinp module as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+   * Make sure integration is {% link "installed and active" ref_0fGEpvrh %} in your X-Cart store. If not, install the Mailchimp addon as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
    
    {% note info %}
-   The Mailchimp module requires the default Newsletter subscriptions module to be {% link "installed and enabled" ref_uEnDBBA7 %}. If both addons are used at the same time, the “Newsletter subscriptions” addon will be linked to Mailсhimp and the subscriber email addresses submitted via the subscription form will no longer be stored to a list within X-Cart, but will be handled via Mailсhimp, provided that your X-Cart store is connected to your Mailсhimp account via the addon settings, and the Mailсhimp Integration is configured properly.
+   The Mailchimp addon requires the basic Newsletter subscriptions addon to be {% link "installed and enabled" ref_uEnDBBA7 %}. If both addons are used at the same time, the “Newsletter subscriptions” addon will be linked to Mailсhimp and the subscriber email addresses submitted via the subscription form will no longer be stored to a list within X-Cart, but will be handled via Mailсhimp, provided that your X-Cart store is connected to your Mailсhimp account via the addon settings, and the Mailсhimp Integration is configured properly.
    
    If your store has a list of subscribers formed by the addon “Newsletter subscriptions” when you switch to Mailсhimp, you should not expect these subscribers to be imported into Mailсhimp automatically. To use your existing subscribers with Mailсhimp, you will need to export them from your X-Cart store and import them into your Mailсhimp account. See [https://kb.mailchimp.com/lists/growth/import-subscribers-to-a-list](https://kb.mailchimp.com/lists/growth/import-subscribers-to-a-list "Getting started with Mailсhimp Integration with E-commerce support") for information on how to import subscribers into Mailсhimp.
    {% endnote%}
@@ -64,7 +64,7 @@ Step 2. Use one of the following methods to connect to Mailсhimp:
          
          Provided that a valid API key has been used, your X-Cart Mailсhimp integration will be connected to your Mailсhimp account.
 
-Regardless of the connection method that has been used, after a successful connection you will be able to see the “Mailсhimp Integration with E-commerce support” module settings page with your Mailсhimp API key showing in the field of the same name:
+Regardless of the connection method that has been used, after a successful connection you will be able to see the “Mailсhimp Integration with E-commerce support” addon settings page with your Mailсhimp API key showing in the field of the same name:
 ![xc5_mailchimp_successfully_authenticated.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_successfully_authenticated.png)
 
 Should you need to change the Mailсhimp account or the API key used for the connection, you will be able to do so at any time using the “Reset Mailсhimp connection” link provided next to the Mailсhimp API key field (See [Disconnect Integration](#disconnect-integration) for more info).
