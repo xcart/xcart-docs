@@ -12,10 +12,10 @@ It is a powerful tool that replaces X-Cart's built-in newsletter subscriptions f
 
 _In this section:_
 
-*   {% link "Getting started with 'Mailchimp Integration with E-commerce support'" ref_w5MRyybe %}
-*   {% link "Configuring the addon 'Mailchimp Integration with E-commerce support'" ref_ST1QnErC %}
-*   {% link "Managing your Mailchimp lists" ref_dHGZpSCX %}
+*   {% link "Getting Started with 'Mailchimp Integration with E-commerce Support'" ref_w5MRyybe %}
+*   {% link "Configuring the Addon 'Mailchimp Integration with E-commerce Support'" ref_ST1QnErC %}
+*   {% link "Managing Your Mailchimp Lists" ref_dHGZpSCX %}
 
 _See also:_
 
-*   {% link "Video: Mailchimp Integration with Ecommerce-360 support in an X-Cart 5 Store" ref_XO8v2bJX %}
+*   {% link "Video: Mailchimp Integration with Ecommerce-360 Support in an X-Cart 5 Store" ref_XO8v2bJX %}
