@@ -27,13 +27,14 @@ In the **Mailchimp settings** section of the page, the following settings can be
 
 * **Update Mailchimp lists every** (_Never, 1 minute, 10 minutes, etc._): Select the time interval for the periodical list updates.
 
-* **Type of discount coupons that should be uploaded to Mailchimp** (_All discount coupons_ / _Only the discount coupons that match the Mailchimp promo rules_): Specify the type of coupons to be uploaded to Mailchimp. 
-  The Mailchimp promo rules are:
-  - Code
-  - Discount amount
-  - Active from
-  - Active till 
-  Discount coupons configured using any rules outside this rule set will be treated as not matching the Mailchimp rules.
+* **Type of discount coupons that should be uploaded to Mailchimp**: This setting is available only if the addon [Coupons](https://market.x-cart.com/addons/discount-coupons.html) is installed and active. Adjust this setting to specify the type of coupons that Mailchimp should be able to pull from your store for use in your campaigns via [promo code content blocks](https://mailchimp.com/help/use-promo-code-content-blocks/). The available options are:
+   * _All discount coupons:_ Select this option if you would like to be able to use with Mailchimp any coupons created in your X-Cart store.
+   * _Only the discount coupons that match the Mailchimp promo rules:_ Select this option if you need Mailchimp to be able to import only the coupons that have been configured with the following fields defined (all the four of them, or just some of them): 
+    - Code;
+    - Discount amount;
+    - Active from;
+    - Active till.
+    Discount coupons configured using any fields on top of this set (for example, a coupon for which a product category or a product class has been specified) will not be imported into Mailchimp.
   
 * **Site connection code**: The connection code will appear here automatically once you upload store data to MailChimp. Alternatively, you can connect MailChimp subscription popup via Custom Website integration code. Add your site to the MailChimp account and paste here the connection code.  
 
