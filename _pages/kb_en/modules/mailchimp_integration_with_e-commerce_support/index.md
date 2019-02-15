@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-09-27 16:07 +0400'
 identifier: ref_Rox8AcJp
-title: Mailchimp Integration with Ecommerce support
+title: Mailchimp Integration with Ecommerce Support
 order: 160
 published: true
 ---
