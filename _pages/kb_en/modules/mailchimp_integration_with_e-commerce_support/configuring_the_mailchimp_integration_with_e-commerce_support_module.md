@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-09-11 16:00 +0400'
 identifier: ref_ST1QnErC
-title: Configuring the Mailchimp Integration with E-commerce Support Addon
+title: Configuring the Addon 'Mailchimp Integration with E-commerce Support'
 order: 300
 published: true
 ---
