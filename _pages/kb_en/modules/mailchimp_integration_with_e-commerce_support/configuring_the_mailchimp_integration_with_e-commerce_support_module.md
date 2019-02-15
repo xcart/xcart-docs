@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-09-11 16:00 +0400'
 identifier: ref_ST1QnErC
-title: Configuring the Mailchimp Integration with E-commerce support module
+title: Configuring the Mailchimp Integration with E-commerce Support Addon
 order: 300
 published: true
 ---
@@ -40,19 +40,19 @@ In the **Mailchimp settings** section of the page, the following settings can be
 ## E-Commerce features setup
 ![xc5_mailchimp_ecommerce_features.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_ecommerce_features.png)
 
-The **E-Commerce features setup** section of the module settings page enables you to control the upload of store data (products, orders, carts and customers) to Mailchimp. 
+The **E-Commerce features setup** section of the addon settings page enables you to control the upload of store data (products, orders, carts and customers) to Mailchimp. 
 
 Uploading your store data to Mailchimp enables you to take full advantage of Mailchimp Product Recommendations and Abandoned Carts. For the best performance of these features, the products, orders, carts and customers from your ecommerce store need to be uploaded to Mailchimp and organized as a [Store](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/). On the Mailchimp end, a Store is the top-level e-commerce resource. Carts, Customers, Orders, and Products all exist inside of the scope of a Store. 
 
 Each Store in Mailchimp needs to be tied to a Mailchimp list. 
 
-In the **E-Commerce features setup** section of the module settings page in X-Cart, you specify the lists for which Mailchimp Stores need to be created and initiate the upload/syncing of store data. 
+In the **E-Commerce features setup** section of the addon settings page in X-Cart, you specify the lists for which Mailchimp Stores need to be created and initiate the upload/syncing of store data. 
 
 First, you need to select the check boxes for the lists you require and click **Update**. This saves the set of MailChimp lists for which Stores should be created. 
 
 To initiate the upload of store data for the selected lists, click **Upload store data to Mailchimp**. Mailchimp will create the Stores and will connect them to the Mailchimp lists you have specified. Store data from X-Cart will be uploaded to these specific Stores. After the initial synchronization, further synchronization of store data will be done on the go automatically, without the need to click the **Upload store data to Mailchimp** button; for example, when a new cart or a new order are created in your X-Cart store, the respective information will be automatically submitted to Mailchimp. 
 
-The button **Upload store data to Mailchimp** remains in the **E-Commerce features setup** section just in case you need to redo the synchronizion; for example, you may need to use the button again if things get desynchronized between your store and your Mailchimp account after you disable the module in X-Cart temporarily. 
+The button **Upload store data to Mailchimp** remains in the **E-Commerce features setup** section just in case you need to redo the synchronizion; for example, you may need to use the button again if things get desynchronized between your store and your Mailchimp account after you disable the addon in X-Cart temporarily. 
 
 Another button - **Update store data** - will help you to update your company information on the Mailchimp end (for example, if your company name or address change).
 
