@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-09-11 15:43 +0400'
 identifier: ref_w5MRyybe
-title: Getting started with Mailсhimp Integration with E-commerce support
+title: Getting Started with Mailсhimp Integration with E-commerce Support
 order: 100
 published: true
 ---
