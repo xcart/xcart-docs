@@ -16,7 +16,7 @@ In the **Mailchimp settings** section of the page, the following settings can be
    
    * **Mailchimp API key**: The API key that was used to connect your X-Cart store to your Mailchimp account. If, for some reason, you need to use a different Mailchimp account or a different key, use the "Reset Mailchimp connection" link.
    
-   * **Enable E-commerce analytics**: This option enables E-commerce analytics by Mailchimp for your X-Cart store. For details, see the article [Use Mailchimp for E-Commerce](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use Mailchimp for E-Commerce") in Mailchimp Knowledge Base. E-commerce analytics is the core component of the integration functionality; the setting is enabled by default, and we recommend keeping it that way. The addon settings for e-commerce analytics can be adjusted via the **E-Commerce features setup** section (This section appears on the page after you update Mailchimp lists). Be sure to visit the E-Commerce features setup section and specify the lists for which [Ecommerce Stores](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) need to be created on the Mailchimp end. See the instructions for [E-Commerce features setup](#E-Commerce_features_setup) further below. 
+   * **Enable E-commerce analytics**: This option enables E-commerce analytics by Mailchimp for your X-Cart store. For details, see the article [Use Mailchimp for E-Commerce](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use Mailchimp for E-Commerce") in Mailchimp Knowledge Base. E-commerce analytics is the core component of the integration functionality; the setting is enabled by default, and we recommend keeping it that way. For E-commerce analytics related features to function properly, you will need to upload your store data (your store catalog and orders) to Mailchimp via the **E-Commerce features setup** section of the addon settings page. (This section appears on the page after you update Mailchimp lists). Be sure to visit the E-Commerce features setup section and specify the lists for which [Ecommerce Stores](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) need to be created on the Mailchimp end. See the instructions for [E-Commerce features setup](#E-Commerce_features_setup) further below. 
    **Important:** Be sure also to enable [E-Commerce Link Tracking](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use MailChimp for E-Commerce") for your campaigns and automations in your Mailchimp account back end.
    
    * **Enable Abandoned Carts**:  This option enables the Abandoned Carts feature. For more info on this feature, see the [Mailchimp site](https://mailchimp.com/features/abandoned-cart/ "Abandoned Cart")
@@ -39,9 +39,11 @@ In the **Mailchimp settings** section of the page, the following settings can be
 * **Site connection code**: The connection code will appear here automatically once you upload store data to MailChimp. Alternatively, you can connect MailChimp subscription popup via Custom Website integration code. Add your site to the MailChimp account and paste here the connection code.  
 
 ## E-Commerce features setup
-![xc5_mailchimp_ecommerce_features.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_ecommerce_features.png)
 
 The **E-Commerce features setup** section of the addon settings page enables you to control the upload of store data (products, orders, carts and customers) to Mailchimp. 
+![xc5_mailchimp_ecommerce_features.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_ecommerce_features.png)
+
+This section does not appear on the page until Mailchimp lists are updated.
 
 Uploading your store data to Mailchimp enables you to take full advantage of Mailchimp Product Recommendations and Abandoned Carts. For the best performance of these features, the products, orders, carts and customers from your ecommerce store need to be uploaded to Mailchimp and organized as a [Store](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/). On the Mailchimp end, a Store is the top-level e-commerce resource. Carts, Customers, Orders, and Products all exist inside of the scope of a Store. 
 
