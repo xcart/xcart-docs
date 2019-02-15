@@ -36,7 +36,7 @@ In the **Mailchimp settings** section of the page, the following settings can be
     - Active till.
     Discount coupons configured using any fields on top of this set (for example, a coupon for which a product category or a product class has been specified) will not be imported into Mailchimp.
   
-* **Site connection code**: The connection code will appear here automatically once you upload store data to MailChimp. Alternatively, you can connect MailChimp subscription popup via Custom Website integration code. Add your site to the MailChimp account and paste here the connection code.  
+* **Site connection code**: This field is where your mc.js connection code needs to be. In most cases, your mc.js code will appear in this field automatically after your store data has been [uploaded to Mailchimp](#e-commerce-features-setup) and your store has been fully connected to Mailchimp. Alternatively, you can connect MailChimp subscription popup via Custom Website integration code. Add your site to the MailChimp account and paste here the connection code.  
 
 ## E-Commerce features setup
 
