@@ -23,11 +23,11 @@ The addon is also capable of gathering cart recovery statistics allowing you to
 
 _In this section:_
 
-*   {% link "Abandoned Cart Reminder addon system requirements and installation" ref_mT2evKUN %}
-*   {% link "How Abandoned Cart Reminder works" ref_BiSy9eBE %}
-*   {% link "Getting started with Abandoned Cart Reminder" ref_0XDhscNU %}
-*   {% link "Configuring the Abandoned Cart Reminder addon" ref_Gz0xMggZ %}
-*   {% link "Managing reminders" ref_i8rSfTrg %}
-*   {% link "Managing abandoned carts and sending reminders" ref_hkTTIuTr %}
-*   {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}
+*   {% link "Abandoned Cart Reminder Addon System Requirements and Installation" ref_mT2evKUN %}
+*   {% link "How Abandoned Cart Reminder Works" ref_BiSy9eBE %}
+*   {% link "Getting Started with Abandoned Cart Reminder" ref_0XDhscNU %}
+*   {% link "Configuring the Abandoned Cart Reminder Addon" ref_Gz0xMggZ %}
+*   {% link "Managing Reminders" ref_i8rSfTrg %}
+*   {% link "Managing Abandoned Carts and Sending Reminders" ref_hkTTIuTr %}
+*   {% link "Viewing Cart Recovery Statistics" ref_rg0Tct2p %}
 *   {% link "Abandoned Cart Reminder FAQ" ref_P3v5Wzvf %}
