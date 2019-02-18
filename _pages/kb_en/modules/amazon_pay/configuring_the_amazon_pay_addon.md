@@ -46,4 +46,4 @@ To configure the addon:
 
 _Related pages:_
 
-*   {% link "Getting started with Amazon Pay" ref_hU2VNqiL %}
+*   {% link "Getting Started with Amazon Pay" ref_hU2VNqiL %}
