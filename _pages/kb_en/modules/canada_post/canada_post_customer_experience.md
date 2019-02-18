@@ -57,5 +57,5 @@ After completing the form, the customer submits the return request by clicking t
 
 _Related pages:_
 
-*   {% link "Canada Post admin experience" ref_N6PsLLrM %}
-*   {% link "Getting started with Canada Post" ref_zfNLsPus %}
+*   {% link "Canada Post Admin Experience" ref_N6PsLLrM %}
+*   {% link "Getting Started with Canada Post" ref_zfNLsPus %}
