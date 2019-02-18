@@ -8,6 +8,9 @@ categories:
   - User manual
 published: true
 order: 250
+redirect_from:
+  - >-
+    /look_and_feel/changing_your_stores_welcome_text_and_banner_on_the_front_page.html
 ---
 
 
