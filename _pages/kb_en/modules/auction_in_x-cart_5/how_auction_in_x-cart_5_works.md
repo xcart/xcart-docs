@@ -11,7 +11,7 @@ order: 200
 ---
 
 
-The module allows you to create auction style listings based on any products in your catalog. New auction listings are created in a special section in the Admin area. For each listing you control such properties as the quantity of product units in the auction lot, the starting price, the minimum bid increment amount, and the auction duration. Each new listing is created based on a single product title (It is possible to create a multi-quantity auction lot consisting of multiple units of the same product, but it is not possible to combine multiple product titles into a single lot).
+The addon allows you to create auction style listings based on any products in your catalog. New auction listings are created in a special section in the Admin area. For each listing you control such properties as the quantity of product units in the auction lot, the starting price, the minimum bid increment amount, and the auction duration. Each new listing is created based on a single product title (It is possible to create a multi-quantity auction lot consisting of multiple units of the same product, but it is not possible to combine multiple product titles into a single lot).
 
 In the storefront area, your auction listings appear not only in categories, but also in a special section titled "Auction". This section can be accessed via a link in the main menu:
 
@@ -21,7 +21,7 @@ You may choose to also enable an additional section for auctioned products, the 
 
 ![]({{site.baseurl}}/attachments/8225140/8356099.png)
 
-In the module settings you can specify whether this block needs to be displayed in a side box (like in the snapshot above) or in the main column. You can also set the maximum number of auction listings that must be visible in this block.
+In the addon settings you can specify whether this block needs to be displayed in a side box (like in the snapshot above) or in the main column. You can also set the maximum number of auction listings that must be visible in this block.
 
 On your store's pages, auction listings stand out from the rest of the products as each of them has a clock counting down the time till the end of the auction displayed next to them and is marked by labels "Auction!" and "X percent off" (the X shows how much cheaper the current price of the product in the auction is - compared to the product's base price defined in the product details). 
 
@@ -51,7 +51,7 @@ When an auction ends, the listing is marked as "Sold" so your customers know the
 
 ![]({{site.baseurl}}/attachments/8225140/8356118.png)
 
-The module checks whether the ended listing has any participating bidders. If there are no such bidders, the listing is simply removed. If at least one bidder is found, the listing gets the status "Awaiting payment" (the status only appears in the Admin area where you manage your auction listings):
+The addon checks whether the ended listing has any participating bidders. If there are no such bidders, the listing is simply removed. If at least one bidder is found, the listing gets the status "Awaiting payment" (the status only appears in the Admin area where you manage your auction listings):
 
 ![]({{site.baseurl}}/attachments/8225140/8356117.png)
 
@@ -59,7 +59,7 @@ The auction winner is given 24 hours to add the auction lot they won to the shop
 
 ![]({{site.baseurl}}/attachments/8225140/8356115.png)
 
-The module blocks the buyer's ability to edit the product quantity in the shopping cart for auctioned items: 
+The addon blocks the buyer's ability to edit the product quantity in the shopping cart for auctioned items: 
 
 ![]({{site.baseurl}}/attachments/8225140/8356116.png)
 
@@ -70,7 +70,5 @@ The store administrator can edit and remove any existing auction listings, no ma
 _Related pages:_
 
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
-*   {% link "Configuring the module "Auction in X-Cart 5"" ref_HvGNMnhG %}
-*   {% link "Managing auction listings" ref_56sCmm0k %}
-
-
+*   {% link "Configuring the Addon "Auction in X-Cart 5"" ref_HvGNMnhG %}
+*   {% link "Managing Auction Listings" ref_56sCmm0k %}
