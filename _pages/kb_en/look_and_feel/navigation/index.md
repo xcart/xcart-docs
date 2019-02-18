@@ -7,6 +7,8 @@ title: Managing Navigation Elements
 order: 100
 published: false
 ---
-## A New Post
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+_In this section:_
+
+*  {% link "Custom Menus" ref_7Bjg2ZY0 %}
+*  {% link "Adding New Items to Store Menus" ref_BDykFBbw %}
