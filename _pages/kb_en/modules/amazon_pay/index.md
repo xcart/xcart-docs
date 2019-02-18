@@ -18,8 +18,8 @@ X-Cart's Amazon Pay module provides an integration with Amazon Pay, a payment se
 
 _In this section:_
 
-*   {% link "Amazon Pay addon system requirements and installation" ref_iCibZ9wD %}
-*   {% link "Getting started with Amazon Pay" ref_hU2VNqiL %}
-*   {% link "Configuring the Amazon Pay addon" ref_0UssH5KP %}
-*   {% link "Amazon Pay customer experience" ref_MQB8GDLT %}
-*   {% link "Amazon Pay admin experience" ref_meqXfPIt %}
+*   {% link "Amazon Pay Addon System Requirements and Installation" ref_iCibZ9wD %}
+*   {% link "Getting Started with Amazon Pay" ref_hU2VNqiL %}
+*   {% link "Configuring the Amazon Pay Addon" ref_0UssH5KP %}
+*   {% link "Amazon Pay Customer Experience" ref_MQB8GDLT %}
+*   {% link "Amazon Pay Admin Experience" ref_meqXfPIt %}
