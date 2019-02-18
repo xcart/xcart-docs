@@ -23,5 +23,5 @@ To view your store's cart recovery statistics for a certain period:
 _Related pages:_
 
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
-*   {% link "Managing abandoned carts and sending reminders" ref_hkTTIuTr %}
+*   {% link "Managing Abandoned Carts and Sending Reminders" ref_hkTTIuTr %}
 *   {% link "Abandoned Cart Reminder FAQ" ref_P3v5Wzvf %}
