@@ -11,11 +11,11 @@ order: 25
 ---
 
 
-Want to auction your products like on ebay? The module "Auction in X-Cart 5" may be a solution for you. This module allows you to turn your X-Cart store into a classic auction site with contemporary design. Choose a product, create an auction listing for it, set the starting price, specify the desired auction duration and the minimum bid increment amount - and you're all set! Your customers can now compete to win the auction. You have full control over each auction lot you create and can modify its parameters at any time.
+Want to auction your products like on ebay? The addon "Auction in X-Cart 5" may be a solution for you. This addon allows you to turn your X-Cart store into a classic auction site with contemporary design. Choose a product, create an auction listing for it, set the starting price, specify the desired auction duration and the minimum bid increment amount - and you're all set! Your customers can now compete to win the auction. You have full control over each auction lot you create and can modify its parameters at any time.
 
 _In this section:_
 
-*   {% link "How Auction in X-Cart 5 works" ref_aD2kfoVa %}
-*   {% link "Auction in X-Cart 5: system requirements and installation" ref_5pDnlkIl %}
-*   {% link "Configuring the module 'Auction in X-Cart'" ref_HvGNMnhG %}
-*   {% link "Managing auction listings" ref_56sCmm0k %}
+*   {% link "How Auction in X-Cart 5 Works" ref_aD2kfoVa %}
+*   {% link "Auction in X-Cart 5: System Requirements and Installation" ref_5pDnlkIl %}
+*   {% link "Configuring the Addon 'Auction in X-Cart'" ref_HvGNMnhG %}
+*   {% link "Managing Auction Listings" ref_56sCmm0k %}
