@@ -5,7 +5,7 @@ updated_at: '2019-02-18 11:33 +0400'
 identifier: ref_3vgykcgf
 title: Basic Skin Changes
 order: 120
-published: false
+published: true
 ---
 After you choose a skin that defines the basic look and feel of your online store, you can customize it to suit your unique brand. 
 
