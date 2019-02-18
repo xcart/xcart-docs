@@ -10,6 +10,7 @@ published: true
 order: 600
 redirect_from:
   - /look_and_feel/adding_new_items_to_your_store%27s_menus.html
+  - /look_and_feel/adding_new_items_to_your_stores_menus.html
 ---
 
 
