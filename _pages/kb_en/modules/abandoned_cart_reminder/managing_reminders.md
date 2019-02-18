@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-10-16 22:41 +0400'
 identifier: ref_i8rSfTrg
-title: Managing reminders
+title: Managing Reminders
 categories:
   - User manual
 published: true
@@ -20,7 +20,7 @@ This page provides information on the following actions with abandoned cart remi
 
 ## Creating reminders
 
-Before you can start sending abandoned cart reminders to owners of abandoned carts, you need to set up the reminders that will be sent. It is possible to set up multiple reminders and to specify a sending method (automatic or manual) for each of them. If Coupons module is installed in your store, you can also specify whether sending a reminder should create a discount coupon for the customer, or not. 
+Before you can start sending abandoned cart reminders to owners of abandoned carts, you need to set up the reminders that will be sent. It is possible to set up multiple reminders and to specify a sending method (automatic or manual) for each of them. If the addon Coupons is installed in your store, you can also specify whether sending a reminder should create a discount coupon for the customer, or not. 
 
 To create an abandoned cart reminder:
 
@@ -127,5 +127,5 @@ To delete a reminder:
 _Related pages:_
 
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
-*   {% link "Managing abandoned carts and sending reminders" ref_hkTTIuTr %}
-*   {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}
+*   {% link "Managing Abandoned Carts and Sending Reminders" ref_hkTTIuTr %}
+*   {% link "Viewing Cart Recovery Statistics" ref_rg0Tct2p %}
