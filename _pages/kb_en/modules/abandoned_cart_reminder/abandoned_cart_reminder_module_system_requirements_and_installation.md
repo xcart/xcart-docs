@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-10-16 22:51 +0400'
 identifier: ref_mT2evKUN
-title: Abandoned Cart Reminder addon system requirements and installation
+title: Abandoned Cart Reminder Addon System Requirements and Installation
 categories:
   - User manual
 published: true
@@ -31,4 +31,4 @@ As a result, you should have the addon Abandoned Cart Reminder installed in the 
 
 _Related pages:_
 
-*   {% link "Getting started with Abandoned Cart Reminder" ref_0XDhscNU %}
+*   {% link "Getting Started with Abandoned Cart Reminder" ref_0XDhscNU %}
