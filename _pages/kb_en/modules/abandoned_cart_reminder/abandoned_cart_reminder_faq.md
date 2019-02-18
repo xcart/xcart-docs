@@ -19,7 +19,7 @@ order: 190
 
 **A:** Your store's cart recovery statistics is actually a list of orders that were recovered as a result of customers using the cart recovery link in an abandoned cart reminder message. To clear your store's cart recovery statistics, you will need to delete the respective orders.
 
-**Q: I am using the User permissions module by X-Cart team. What permissions does a user need to be able to use the Abandoned Cart Reminder module functionality?**
+**Q: I am using the User permissions addon by X-Cart team. What permissions does a user need to be able to use the Abandoned Cart Reminder addon functionality?**
 
 **A:** Manage orders.
 
@@ -34,4 +34,3 @@ _Related pages:_
 *   {% link "Managing reminders" ref_i8rSfTrg %}
 *   {% link "Managing abandoned carts and sending reminders" ref_hkTTIuTr %}
 *   {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}
-
