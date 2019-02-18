@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-15 10:06 +0400'
 identifier: ref_SXNVD8TL
-title: Mapping products to AvaTax tax codes
+title: Mapping Products to AvaTax Tax Codes
 categories:
   - User manual
 published: true
