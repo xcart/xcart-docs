@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-10-16 22:35 +0400'
 identifier: ref_BiSy9eBE
-title: How Abandoned Cart Reminder works
+title: How Abandoned Cart Reminder Works
 categories:
   - User manual
 published: true
@@ -19,6 +19,6 @@ If your store uses the Coupons addon along with the Abandoned Cart Reminder add
 
 _Related pages:_
 
-*   {% link "Getting started with Abandoned Cart Reminder" ref_0XDhscNU %}
+*   {% link "Getting Started with Abandoned Cart Reminder" ref_0XDhscNU %}
 *   {% link "Abandoned Cart Reminder FAQ" ref_P3v5Wzvf %}
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
