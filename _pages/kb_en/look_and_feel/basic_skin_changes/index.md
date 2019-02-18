@@ -16,3 +16,4 @@ _In this section:_
 *  {% link "Changing a Store Logo and Favicon" ref_2VXSZhKE %}
 *  {% link "Changing Logo Size (for Crisp White Skin)" ref_RrLo9hcw %}
 *  {% link "Changing the checkout logos picture" ref_V0WJ7Tzu %}
+*  {% link "Changing a Default Store's Welcome Text and Banner on the Front Page" ref_Id69E4GT %}
