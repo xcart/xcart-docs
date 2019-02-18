@@ -70,9 +70,9 @@ To create a bookable product with product variants, follow these steps:
 
 That is all; you have configured a bookable product with product variants.
 
-Now, if you haven't yet done so, go to the "Booking" module settings page and specify which of the attributes you have added for your bookable products need to be used to display your product variants in the form of a table on the product details page on the storefront. For example, if you want the individual lines of your booking table corresponding to the product variants to have titles based on the values of the product's main variant-forming attribute ("Room type", "Car type" or similar), this attribute needs to be specified as the "Room type" attribute for your site. If you want your booking table to have a column for the number of guests per room / number of seats per car / etc., specify which of your attributes ("Number of guests", "Number of seats" or similar) should be used as the "Number of guests" attribute for your site. See {% link "Configuring the module «Booking»" ref_PGtil8wm %} for more information.
+Now, if you haven't yet done so, go to the "Booking" addon settings page and specify which of the attributes you have added for your bookable products need to be used to display your product variants in the form of a table on the product details page on the storefront. For example, if you want the individual lines of your booking table corresponding to the product variants to have titles based on the values of the product's main variant-forming attribute ("Room type", "Car type" or similar), this attribute needs to be specified as the "Room type" attribute for your site. If you want your booking table to have a column for the number of guests per room / number of seats per car / etc., specify which of your attributes ("Number of guests", "Number of seats" or similar) should be used as the "Number of guests" attribute for your site. See {% link "Configuring the addon «Booking»" ref_PGtil8wm %} for more information.
 
-We have adjusted the module settings as follows:
+We have adjusted the addon settings as follows:
 
 ![]({{site.baseurl}}/attachments/8750040/8718758.png)
 
@@ -108,10 +108,10 @@ we only see them in the Specification section:
 
 ![]({{site.baseurl}}/attachments/8750040/8718827.png)
 
-Note that the default wording used by the module "Booking" may not work well for your type of bookable products. For example, the phrases  "Room type" and  "Check dates (N-night stay)" will not work for a car rental website. Not to worry - the wording can be fixed by editing the "Booking" module text labels. For details see {% link "Editing «Booking» module text labels to your needs" ref_slH6gvha %}.
+Note that the default wording used by the addon "Booking" may not work well for your type of bookable products. For example, the phrases  "Room type" and  "Check dates (N-night stay)" will not work for a car rental website. Not to worry - the wording can be fixed by editing the "Booking" addon text labels. For details see {% link "Editing «Booking» addon text labels to your needs" ref_slH6gvha %}.
 
 _Related pages:_
 
-*   {% link "Configuring the module «Booking»" ref_PGtil8wm %}
-*   {% link "Editing «Booking» module text labels to your needs" ref_slH6gvha %}
-*   {% link "Setting up a simple bookable product" ref_7o088Cca %}
+*   {% link "Configuring the Addon Booking" ref_PGtil8wm %}
+*   {% link "Editing Booking-related Text Labels to Your Needs" ref_slH6gvha %}
+*   {% link "Setting up a Simple Bookable Product" ref_7o088Cca %}
