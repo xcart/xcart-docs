@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 10:26 +0400'
 identifier: ref_N6PsLLrM_old
-title: Canada Post admin experience (old copy)
+title: Canada Post Admin Experience (old copy)
 categories:
   - User manual
 published: false
