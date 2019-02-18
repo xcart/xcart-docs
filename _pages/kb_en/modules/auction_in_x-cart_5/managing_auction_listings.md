@@ -102,4 +102,4 @@ You can delete auction listings before they expire. To delete an auction listin
 
 _In this section:_
 
-*   {% link "How Auction in X-Cart 5 works" ref_aD2kfoVa %}
+*   {% link "How Auction in X-Cart 5 Works" ref_aD2kfoVa %}
