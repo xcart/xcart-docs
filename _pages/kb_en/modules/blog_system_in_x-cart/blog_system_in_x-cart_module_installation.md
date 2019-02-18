@@ -10,13 +10,13 @@ published: true
 order: 100
 ---
 
-The module Blog System in X-Cart 5 can be obtained via X-Cart’s Marketplace. 
+The addon Blog System in X-Cart 5 can be obtained via X-Cart’s Marketplace. 
 
 ![]({{site.baseurl}}/attachments/7505491/8719386.png)
 
-To install and enable the module on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}. 
+To install and enable the addon on your system, follow the general module installation instructions. See {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}. 
 
-After installation the module will be automatically activated:
+After installation the addon will be automatically activated:
 
 ![]({{site.baseurl}}/attachments/7505491/8719387.png)
 
@@ -24,5 +24,5 @@ After installation the module will be automatically activated:
 
 _Related pages:_
 
-*   {% link "Getting started with Blog System in X-Cart 5" ref_n6czcwis %}
-*   {% link "Configuring the module Blog System in X-Cart 5" ref_vpkSAB5T %}
+*   {% link "Getting Started with Blog System in X-Cart 5" ref_n6czcwis %}
+*   {% link "Configuring the Addon Blog System in X-Cart 5" ref_vpkSAB5T %}
