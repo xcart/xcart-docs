@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2019-02-18 12:09 +0400'
 identifier: ref_27dBlUF9
 title: Managing Content and Service Pages
-order: 130
+order: 500
 published: true
 ---
 Content and service pages like "Contact Us", "Terms & Conditions", "Maintenance", "Page not found" and others are pages with a static page content that serve to deviver an important information to customers in a constant manner. Though all of these pages are similar in function they differ in implementation and maintenance.
