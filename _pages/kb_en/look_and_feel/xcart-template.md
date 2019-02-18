@@ -9,7 +9,7 @@ published: true
 ---
 X-Cart skin is a template that determines the way your online store looks and feels. Different skins have different styles and layouts, and offer a different experience for your customers. 
 
-X-Cart offers 5 skins out-of-the-box and over 55 skins that can be downloaded and installed from the Marketplace. The store admin area uses the X-Cart Standard skin by default. As for the customer storefront you can change the skin used there depending on the impression you want your store to have on your customers.
+X-Cart offers 5 skins out-of-the-box and [70 template add-ons](https://market.x-cart.com/ecommerce-templates/) that can be downloaded and installed from the Marketplace. The store admin area uses the X-Cart Standard skin by default. As for the customer storefront you can change the skin used there depending on the impression you want your store to have on your customers.
 
 Although each skin is different, all of them have some common features. All skins let you use the same types of pages, and all pages include some standard elements. 
 
