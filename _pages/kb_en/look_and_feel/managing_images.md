@@ -8,6 +8,8 @@ categories:
   - User manual
 published: true
 order: 300
+redirect_from:
+  - /look_and_feel/uploading_custom_images_onto_your_stores_server.html
 ---
 
 X-Cart resizes original images to display them on a page. All images in X-Cart can be managed in the **Look&Feel** -> **Images** section of the admin backend where you can configure the default image settings and upload custom images if required.
