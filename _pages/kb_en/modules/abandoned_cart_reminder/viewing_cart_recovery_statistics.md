@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-15 00:27 +0400'
 identifier: ref_rg0Tct2p
-title: Viewing cart recovery statistics
+title: Viewing Cart Recovery Statistics
 categories:
   - User manual
 published: true
