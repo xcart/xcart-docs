@@ -37,9 +37,9 @@ By clicking on the arrow icon next to the product name in the booking table, you
 
 ![]({{site.baseurl}}/attachments/8749984/8718727.png)
 
-Note that the default wording used by the module "Booking" may not work well for your type of bookable products. For example, our demo wedding rentals website, on which the screenshot above was taken, would really benefit from replacing the phrases  "Room type" and  "Check dates (N-night stay)" with something like "Item" and  "Rental period (N day rental)". Not to worry - the wording can be fixed by editing the "Booking" module text labels. For details see {% link "Editing «Booking» module text labels to your needs" ref_slH6gvha %}.
+Note that the default wording used by the addon "Booking" may not work well for your type of bookable products. For example, our demo wedding rentals website, on which the screenshot above was taken, would really benefit from replacing the phrases  "Room type" and  "Check dates (N-night stay)" with something like "Item" and  "Rental period (N day rental)". Not to worry - the wording can be fixed by editing the "Booking" addon text labels. For details see {% link "Editing Booking-related Text Labels to Your Needs" ref_slH6gvha %}.
 
 _Related pages:_
 
-*   {% link "Setting up a bookable product with variants" ref_5BTPsMUx %}
-*   {% link "Editing «Booking» module text labels to your needs" ref_slH6gvha %}
+*   {% link "Setting up a Bookable Product with Variants" ref_5BTPsMUx %}
+*   {% link "Editing Booking-related Text Labels to Your Needs" ref_slH6gvha %}
