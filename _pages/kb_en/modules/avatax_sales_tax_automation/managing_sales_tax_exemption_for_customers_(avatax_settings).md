@@ -18,7 +18,7 @@ X-Cart's AvaTax Sales Tax Automation allows you to handle tax exemption for cust
 
 _Related pages:_
 
-*   {% link "How AvaTax Sales Tax Automation works" ref_GawMeTST %}
-*   {% link "Getting started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
-*   {% link "Configuring the AvaTax Sales Tax Automation module" ref_havNFG9i %}
-*   {% link "Mapping products to AvaTax tax codes" ref_SXNVD8TL %}
+*   {% link "How AvaTax Sales Tax Automation Works" ref_GawMeTST %}
+*   {% link "Getting Started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
+*   {% link "Configuring the AvaTax Sales Tax Automation Addon" ref_havNFG9i %}
+*   {% link "Mapping Products to AvaTax Tax Codes" ref_SXNVD8TL %}
