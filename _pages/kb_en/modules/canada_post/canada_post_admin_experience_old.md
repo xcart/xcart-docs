@@ -19,7 +19,7 @@ This includes the following topics:
 
 ## Contract and non-contract shipping
 
-When shipping orders with Canada Post, your workflow will depend on whether you are using contract or non-contract services (This needs to be defined in the module settings).
+When shipping orders with Canada Post, your workflow will depend on whether you are using contract or non-contract services (This needs to be defined in the addon settings).
 
 For **contract** shipping, you will need to take the following steps:
 
@@ -37,7 +37,7 @@ In the non-contract shipping flow, no manifests are required, so you do not need
 
 ## Creating shipments
 
-When a buyer selects one of the available Canada Post shipping methods for their order, the module performs calculations to determine the number of packages needed to ship the order to the buyer and provides an estimation of the shipping cost based on the number of packages needed, their respective weights and the shipping rates that the module obtains from Canada Post.
+When a buyer selects one of the available Canada Post shipping methods for their order, the addon performs calculations to determine the number of packages needed to ship the order to the buyer and provides an estimation of the shipping cost based on the number of packages needed, their respective weights and the shipping rates that the addon obtains from Canada Post.
 
 Once the order has been placed, you can view its details via your store's Admin area as usual; the information about the shipping method selected by the buyer and the estimated shipping cost are availble in the Shipping info section of the **General info** tab:
 
@@ -49,13 +49,13 @@ When you are ready to pack the ordered items for shipment, start by visiting the
 
 In this section, you need to provide information about the parcels that you will use to ship the order via Canada Post. A collection of information about a single parcel to be shipped by Canada Post is called a shipment.
 
-When you open the Shipments section for a new order, you will notice that it already contains a list of shipments. This list reflects the way in which the module proposes to split the items from this order into parcels based on the weight limit for one package. For example, in the snapshot below you can see how a large order was split into two parcels so the weight of each parcel does not exceed 30 kilograms:
+When you open the Shipments section for a new order, you will notice that it already contains a list of shipments. This list reflects the way in which the addon proposes to split the items from this order into parcels based on the weight limit for one package. For example, in the snapshot below you can see how a large order was split into two parcels so the weight of each parcel does not exceed 30 kilograms:
 
 ![]({{site.baseurl}}/attachments/7505660/7602861.png)
 
-Please note that when the module splits an order into parcels, it does not take into account the dimensions of the individual items in the order nor the dimensions of the box into which they will be packed. As a result, the method does not guarantee that the items placed by the module into one parcel will actually fit in. It is your responsibility as a merchant to verify not only that the weight of the items in each shipment does not exceed the Package maximum weight limit, but also to make sure the items placed into each parcel do actually fit into the box of the specified dimensions. 
+Please note that when the addon splits an order into parcels, it does not take into account the dimensions of the individual items in the order nor the dimensions of the box into which they will be packed. As a result, the method does not guarantee that the items placed by the addon into one parcel will actually fit in. It is your responsibility as a merchant to verify not only that the weight of the items in each shipment does not exceed the Package maximum weight limit, but also to make sure the items placed into each parcel do actually fit into the box of the specified dimensions. 
 
-If you choose not to follow the split of the items into parcels proposed by the module, you should adjust the configuration of the shipments in the Shipments section accordingly. For example, you may change the dimensions of specific parcels, or move the items between the existing parcels, or add more parcels and move some of the items there. However, please be aware that if you change the way your items are split into shipments, it may cause a significant difference between the actual shipping fees you will need to pay and the estimated shipping cost that the buyer has paid.
+If you choose not to follow the split of the items into parcels proposed by the addon, you should adjust the configuration of the shipments in the Shipments section accordingly. For example, you may change the dimensions of specific parcels, or move the items between the existing parcels, or add more parcels and move some of the items there. However, please be aware that if you change the way your items are split into shipments, it may cause a significant difference between the actual shipping fees you will need to pay and the estimated shipping cost that the buyer has paid.
 
 In the example demonstrated by the snapshot above, we have exactly this type of a situation: although the weight limit is not exceeded by any of the two parcels, a box measuring 40cm x 30.5cm x 21.6cm is highly unlikely to provide enough room for six Yoda plush backpacks and ten wind-up Bender robots together. This means we'll need to adjust the shipments split manually: use larger size boxes or split the first parcel into a few separate ones.
 
@@ -78,7 +78,7 @@ The snapshot below demonstrates the creation of an additional parcel by moving f
 
 ![]({{site.baseurl}}/attachments/7505660/7602862.png)
 
-As you move items between the parcels, the module automatically checks that the package weight limit is never exceeded.
+As you move items between the parcels, the addon automatically checks that the package weight limit is never exceeded.
 
 Once you have adjusted the number of parcels, the parcel dimensions and the distribution of the ordered items beween the parcels, you will need to go over the rest of the parcel characteristics and options and select/specify everything that applies:
 
@@ -105,9 +105,9 @@ In this section some important information pertaining to the created shipment wi
 
 ## Obtaining shipping labels
 
-Each of the parcels to be shipped by Canada Post needs to have a shipping label affixed to it. X-Cart's Canada Post module allows you to obtain shipping labels for your Canada Post parcels.
+Each of the parcels to be shipped by Canada Post needs to have a shipping label affixed to it. X-Cart's Canada Post addon allows you to obtain shipping labels for your Canada Post parcels.
 
-Once you have chosen to save and create a new shipment, the module contacts Canada Post and obtains a shipping label for it. You can access this label using a link in the Shipment info section of the shipment details. The label needs to be saved on your system as a PDF file, printed out and affixed to the parcel.
+Once you have chosen to save and create a new shipment, the addon contacts Canada Post and obtains a shipping label for it. You can access this label using a link in the Shipment info section of the shipment details. The label needs to be saved on your system as a PDF file, printed out and affixed to the parcel.
 
 ## Transmitting shipments
 
@@ -150,12 +150,12 @@ OR:
 
 You will be asked to confirm the Void shipment action. What happens after you confirm this action depends on the type of services being used:
 
-*   If you are using contract shipping, the module will send a Void Shipment request to the Canada Post API. This will officially cancel the shipment and invalidate the shipping label previously created for it. In your store, the shipment will be switched back to the pre-created status; the shipping label and tracking pin links for the shipment will be removed.
+*   If you are using contract shipping, the addon will send a Void Shipment request to the Canada Post API. This will officially cancel the shipment and invalidate the shipping label previously created for it. In your store, the shipment will be switched back to the pre-created status; the shipping label and tracking pin links for the shipment will be removed.
 *   If you are using non-contract shipping, no requests will be sent to the Canada Post API (Canada Post will NOT be informed about the voiding), but in your store the shipment will be switched back to the pre-created status, and the shipping label and the tracking pin links for the shipment will be removed. 
 
 ## Obtaining manifests
 
-For Canada Post contract holders, the module offers the ability to generate Canada Post shipping manifests. A manifest is required so that Canada Post will bill you properly and readily accept your shipments. 
+For Canada Post contract holders, the addon offers the ability to generate Canada Post shipping manifests. A manifest is required so that Canada Post will bill you properly and readily accept your shipments. 
 
 The step of obtaining a manifest for your shipments takes place after you have [transmit](#transmitting-shipments) them. To obtain a manifest, go to the CanadaPost manifests section (**Orders** > **CanadaPost manifests**). This section is where the list of manifests that have been created via your store can be seen. At the top of the list, you should be able to see the manifest for the group of shipments you have transmitted recently; you can recognize this manifest by its status, which should be "_Created_":
 
@@ -165,7 +165,7 @@ Note that while a manifest is in the "_Created_" status, it cannot be printed ou
 
 ![]({{site.baseurl}}/attachments/7505660/7602872.png)
 
-A click on the **Update manifests** button induces the module to send a request to the Canada Post server and thus obtain the information it requires to generate a printable manifest. As a result, the manifest status changes to "_Approved_", and a PDF document icon appears on the line of the respective entry in the Manifests list:
+A click on the **Update manifests** button induces the addon to send a request to the Canada Post server and thus obtain the information it requires to generate a printable manifest. As a result, the manifest status changes to "_Approved_", and a PDF document icon appears on the line of the respective entry in the Manifests list:
 
 ![]({{site.baseurl}}/attachments/7505660/7602873.png)
 
