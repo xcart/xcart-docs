@@ -24,7 +24,7 @@ When the template choice is left behind start with simple skin manipulations ess
 
 If you are ready to delve into the process and need to add custom changes to the store layout go further and use Theme Tweaker to edit your store’s look & feel easily — change the position of the blocks in drag and drop fashion or choose a pre-made layout type. Theme Tweaker even allows to modify templates quickly by clicking on the element while browsing the storefront, to apply additional styling with Custom CSS option, to customize JavaScript and to build unique email notifications templates.
 
-*   {% link "Overview of a Template Structure" ref_2qN1oWni %}
+*   {% link "Skin Structure Overview" ref_2qN1oWni %}
 *   {% link "Theme Tweaker and Webmaster Mode" ref_2L6W3YMS %}
 *   {% link "Managing Content and Service Pages" ref_27dBlUF9 %}
 *   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
