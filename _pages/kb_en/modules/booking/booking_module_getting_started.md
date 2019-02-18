@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 09:58 +0400'
 identifier: ref_mUn67cLl
-title: 'Booking: Getting Started'
+title: 'Booking Addon: Getting Started'
 categories:
   - User manual
 published: true
