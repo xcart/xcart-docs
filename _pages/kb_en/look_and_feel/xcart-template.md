@@ -3,9 +3,9 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-01-28 10:39 +0400'
 identifier: ref_2qN1oWni
-title: X-Cart Template Overview
+title: Overview of a Template Structure
 order: 100
-published: false
+published: true
 ---
 X-Cart skin is a template that determines the way your online store looks and feels. Different skins have different styles and layouts, and offer a different experience for your customers. 
 
@@ -23,7 +23,7 @@ All pages of a skin include these page elements:
 |Element|Description| 
 |Header|The content area that appears at the top of each page of your store. The header usually includes your store's name, your logo, main menu navigation, customer account link and cart icon.|
 |Body|The area on every page of your online store between the header and the footer. Unlike the header and footer, which are fixed elements that stay the same on every page, the body of the page is dynamic, and contains content that changes depending on the page that you are on.|
-|Navigation| A menu or a series of menus that provide a way for customers to explore or move around your online store. The main menu navigation is included in the header of a skin.|
+|Navigation| A menu or a block of menus that provide a way for customers to explore or move around your online store. The main menu navigation is included in the header of a skin.|
 |Footer|The content area that appears at the bottom of every page of your store. The footer might include menus, social media icons, contact information, or a newsletter signup.| 
 
 ## Page types
