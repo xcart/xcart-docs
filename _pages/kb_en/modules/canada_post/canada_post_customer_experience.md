@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 10:27 +0400'
 identifier: ref_ooBRtSLz
-title: Canada Post customer experience
+title: Canada Post Customer Experience
 categories:
   - User manual
 published: true
