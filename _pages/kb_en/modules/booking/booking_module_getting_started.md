@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 09:58 +0400'
 identifier: ref_mUn67cLl
-title: '&quot;Booking&quot; module: Getting started'
+title: 'Booking: Getting Started'
 categories:
   - User manual
 published: true
