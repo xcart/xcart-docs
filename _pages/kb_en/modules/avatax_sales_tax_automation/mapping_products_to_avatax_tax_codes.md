@@ -22,7 +22,7 @@ For this purpose a special field is provided on the product information page: th
 
 _Related pages:_
 
-*   {% link "How AvaTax Sales Tax Automation works" ref_GawMeTST %}
-*   {% link "Getting started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
-*   {% link "Configuring the AvaTax Sales Tax Automation module" ref_havNFG9i %}
-*   {% link "Managing sales tax exemption for customers (AvaTax settings)" ref_9WS5DtDB %}
+*   {% link "How AvaTax Sales Tax Automation Works" ref_GawMeTST %}
+*   {% link "Getting Started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
+*   {% link "Configuring the AvaTax Sales Tax Automation Addon" ref_havNFG9i %}
+*   {% link "Managing Sales Tax Exemption for Customers (AvaTax Settings)" ref_9WS5DtDB %}
