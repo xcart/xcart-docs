@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-10 00:19 +0400'
 identifier: ref_GLqVdpgd
-title: 'Changing your store&#39;s theme'
+title: Changing A Store Skin
 categories:
   - User manual
 published: true
@@ -11,7 +11,7 @@ order: 100
 redirect_from:
   - /look_and_feel/changing_your_stores_theme.html
 ---
-X-Cart 5 has five templates (Standard, Fashion, Noblesse, Digital and Crisp White) that are included into all default software packages.
+X-Cart 5 has five skins (Standard, Fashion, Noblesse, Digital and Crisp White) that are included into all default software packages.
 
    ![templates.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/templates.png)
 
@@ -24,6 +24,6 @@ In the _Layout_ section of the page you can see the skin that is currently insta
 To change the store skin choose the one you like better in the _Choose a new template_ section (the current skin will be highlighted with an orange border, the new one with blue) and click the **Submit** button. 
 
 {% note info %}
-If the _Layout_ part of the page is inactive check that the **Color Schemes** module is enabled in the **My Addons** section.
+If the _Layout_ part of the page is inactive check that the **Color Schemes** addon is enabled in the **My Addons** section.
     ![templates-color-schemes.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/templates-color-schemes.png)
 {% endnote %}
