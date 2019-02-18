@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 10:12 +0400'
 identifier: ref_0l095Fro
-title: '&quot;Booking&quot; module: System requirements and installation'
+title: 'Booking Addon: System Requirements and Installation'
 categories:
   - User manual
 published: true
