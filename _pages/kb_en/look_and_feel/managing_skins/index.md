@@ -15,3 +15,5 @@ All skins, both default and paid ones, has a standard left-to-right representati
 _In this section:_
 
 *  {% link "Changing a Store Skin" ref_GLqVdpgd %}
+*  Uploading Sking From the Marketplace
+*  {% link "RTL languages support" ref_3vEHzhPP %}
