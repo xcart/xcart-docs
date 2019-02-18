@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 10:01 +0400'
 identifier: ref_7o088Cca
-title: Setting up a simple bookable product
+title: Setting up a Simple Bookable Product
 categories:
   - User manual
 published: true
