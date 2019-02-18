@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-15 01:48 +0400'
 identifier: ref_HvGNMnhG
-title: Configuring the module &quot;Auction in X-Cart 5&quot;
+title: Configuring the Addon 'Auction in X-Cart 5'
 categories:
   - User manual
 published: true
