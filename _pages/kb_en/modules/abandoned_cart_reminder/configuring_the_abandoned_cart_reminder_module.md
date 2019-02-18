@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-10-16 22:38 +0400'
 identifier: ref_Gz0xMggZ
-title: Configuring the Abandoned Cart Reminder module
+title: Configuring the Abandoned Cart Reminder Addon
 categories:
   - User manual
 published: true
