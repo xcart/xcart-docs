@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-15 01:51 +0400'
 identifier: ref_56sCmm0k
-title: Managing auction listings
+title: Managing Auction Listings
 categories:
   - User manual
 published: true
@@ -24,9 +24,9 @@ To enable auction style bidding for a product in your store, you need to create 
 
 To create an auction listing:
 
-1.  In your store's Admin area, go to the  Installed Modules section (**Extensions** >** Installed modules**), locate the entry for "Auction in X-Cart 5" and click the **Settings **link below it:
+1.  In your store's Admin area, go to the  Installed Addons section (**My addons**), locate the entry for "Auction in X-Cart 5" and click the **Settings **link below it:
     ![]({{site.baseurl}}/attachments/8225026/8356065.png)
-    This opens the '"Auction in X-Crat 5" module settings' page.
+    This opens the '"Auction in X-Crat 5" addon settings' page.
 2.  Select the **Products** tab:
     ![]({{site.baseurl}}/attachments/8225026/8356064.png)
 3.  Click **Add product**:
@@ -54,8 +54,8 @@ You can view your store's currently existing auction listings. Currently existin
 
 To view your store's currently existing auction listings:
 
-1.  In your store's Admin area, go to the  Installed Modules section (**Extensions** >** Installed modules**), locate the entry for "Auction in X-Cart 5" and click the **Settings **link below it.
-    This opens the '"Auction in X-Crat 5" module settings' page.
+1.  In your store's Admin area, go to the  Installed Addons section (**My addons**), locate the entry for "Auction in X-Cart 5" and click the **Settings **link below it.
+    This opens the '"Auction in X-Crat 5" addon settings' page.
 2.  Select the **Products** tab:
     ![]({{site.baseurl}}/attachments/8225026/8356064.png)
     This opens the section where you can see the list of your store's auction listngs in the form of a table:
