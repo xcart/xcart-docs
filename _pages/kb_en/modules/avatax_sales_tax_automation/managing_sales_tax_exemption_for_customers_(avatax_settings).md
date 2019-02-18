@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-15 10:08 +0400'
 identifier: ref_9WS5DtDB
-title: Managing sales tax exemption for customers (AvaTax settings)
+title: Managing Sales Tax Exemption for Customers (AvaTax Settings)
 categories:
   - User manual
 published: true
