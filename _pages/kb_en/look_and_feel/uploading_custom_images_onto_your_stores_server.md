@@ -6,8 +6,9 @@ identifier: ref_zyQIOcia
 title: 'Uploading custom images onto your store&#39;s server'
 categories:
   - User manual
-published: true
+published: false
 order: 300
+redirect_to: 'https://kb.x-cart.com/look_and_feel/managing_images.html#custom-images'
 ---
 
 
