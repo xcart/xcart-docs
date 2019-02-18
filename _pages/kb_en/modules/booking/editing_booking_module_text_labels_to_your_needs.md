@@ -10,7 +10,7 @@ published: true
 order: 180
 ---
 
-Originally, the module "Booking" was designed for businesses that do rentals of accomodations like hotel rooms, apartments, villas and so on. For this reason, the language used by the module may not suit other types of products as well. This, however, does not mean that you cannot use the module for anything other than accomodation: the wording can be adapted by editing the text labels.
+Originally, the addon "Booking" was designed for businesses that do rentals of accomodations like hotel rooms, apartments, villas and so on. For this reason, the language used by the addon may not suit other types of products as well. This, however, does not mean that you cannot use the addon for anything other than accomodation: the wording can be adapted by editing the text labels.
 
 For example, let's change the phrase "Check dates (1-night stay)" shown in the screenshot below:
 
@@ -37,4 +37,4 @@ After a page refresh, your site should now show the new phrase:
 
 _Related pages:_
 
-*   {% link "«Booking» module: Getting started" ref_mUn67cLl %}
+*   {% link "Booking Addon: Getting started" ref_mUn67cLl %}
