@@ -40,8 +40,8 @@ Below is an explanation of the settings that can be found on the Canada Post set
 * **Quote type**: Choose _Commercial_ to get contracted rates (as contracted between you and Canada Post); choose _Counter_ to get rates you'd get over the counter (without a customer or contract number).
 
 * **Customer number**: This field is intended for your Canada Post commercial customer number, if you have one. See the Canada Post website for more info:
-    *   [Why do I need a Canada Post customer number?](https://www.canadapost.ca/web/en/kb/details.page?article=get_a_commercial_cus&cattype=kb&cat=accountinformation&subcat=generalinformation "Configuring the Canada Post module") 
-    *   [How can I get a commercial customer number?](https://www.canadapost.ca/web/en/kb/details.page?article=get_a_commercial_cus&cattype=kb&cat=accountinformation&subcat=generalinformation "Configuring the Canada Post module")
+    *   [Why do I need a Canada Post customer number?](https://www.canadapost.ca/web/en/kb/details.page?article=get_a_commercial_cus&cattype=kb&cat=accountinformation&subcat=generalinformation "Configuring the Canada Post Addon") 
+    *   [How can I get a commercial customer number?](https://www.canadapost.ca/web/en/kb/details.page?article=get_a_commercial_cus&cattype=kb&cat=accountinformation&subcat=generalinformation "Configuring the Canada Post Addon")
 
 After you have completed the Canada Post registration via the Merchant registration wizard, this field will be completed automatically.
 
@@ -56,7 +56,7 @@ After you have completed the Canada Post registration via the Merchant registra
 
 * **Shipments pick up type**: Specify whether you want Canada Post to pick up shipments at your business location (_shipments are picked up by Canada Post_) or whether you want to deliver your items to a post office from where they will be shipped further (_deposit your items at a Post Office_).
 
-* **Site number of the deposit location**: Specify the site number from your Canada Post account. (Look up the site number using [Find a Deposit Location](https://www.canadapost.ca/cpotools/apps/fdl/business/findDepositLocation?execution=e1s1 "Configuring the Canada Post module"))
+* **Site number of the deposit location**: Specify the site number from your Canada Post account. (Look up the site number using [Find a Deposit Location](https://www.canadapost.ca/cpotools/apps/fdl/business/findDepositLocation?execution=e1s1 "Configuring the Canada Post Addon"))
 
 * **Render detailed manifest**: Specify whether you need a full detailed manifest document to be rendered (_Yes_), or a summarized manifest document to be rendered (_No_).
 
