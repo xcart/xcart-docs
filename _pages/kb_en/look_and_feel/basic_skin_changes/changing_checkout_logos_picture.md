@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-07-19 17:34 +0400'
 identifier: ref_V0WJ7Tzu
-title: Changing the checkout logos picture
+title: Changing the Checkout Logo Picture
 order: 400
 published: true
 version: X-Cart 5.3.3
