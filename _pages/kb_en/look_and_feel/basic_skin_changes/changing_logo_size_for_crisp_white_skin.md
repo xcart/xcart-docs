@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-15 07:19 +0400'
 identifier: ref_RrLo9hcw
-title: Changing logo size for Crisp White skin
+title: Changing Logo Size (for Crisp White Skin)
 order: 200
 published: true
 redirect_from:
