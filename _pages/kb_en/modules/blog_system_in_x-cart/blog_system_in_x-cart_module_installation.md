@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-15 10:22 +0400'
 identifier: ref_ayU7G1y0
-title: Blog system in X-Cart 5 module installation
+title: Blog System in X-Cart 5 Addon Installation
 categories:
   - User manual
 published: true
