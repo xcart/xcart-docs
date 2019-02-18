@@ -41,4 +41,4 @@ To configure the addon:
 
 _Related pages:_
 
-*   {% link "Managing auction listings" ref_56sCmm0k %}
+*   {% link "Managing Auction Listings" ref_56sCmm0k %}
