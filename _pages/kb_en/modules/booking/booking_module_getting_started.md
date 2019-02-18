@@ -10,19 +10,18 @@ published: true
 order: 130
 ---
 
+To start using the addon "Booking":
 
-To start using the module "Booking":
+1.  Install and enable the addon. 
+    See {% link "Booking Addon: System Requirements and Installation" ref_0l095Fro %}.
 
-1.  Install and enable the module "Booking". 
-    See {% link "«Booking» module: System requirements and installation" ref_0l095Fro %}.
-
-2.  If you think you will need to configure variants for your bookable products, make sure the module "Product Variants" is also installed and enabled. 
-    See {% link "Product variants" ref_0uApuQfx %}.
+2.  If you think you will need to configure variants for your bookable products, make sure the addon "Product Variants" is also installed and enabled. 
+    See {% link "Product Variants" ref_0uApuQfx %}.
 
 3.  Try creating your first bookable product. 
-    See {% link "Setting up a simple bookable product" ref_7o088Cca %} / {% link "Setting up a bookable product with variants" ref_5BTPsMUx %}.
+    See {% link "Setting up a Simple Bookable Product" ref_7o088Cca %} / {% link "Setting up a Bookable Product with Variants" ref_5BTPsMUx %}.
 
-4.  If needed, adjust the text labels for the "Booking" module to go well with your type of bookable products.
-    See {% link "Editing «Booking» module text labels to your needs" ref_slH6gvha %}.
+4.  If needed, adjust the text labels for the addon "Booking" to go well with your type of bookable products.
+    See {% link "Editing Booking-related Text Labels to Your Needs" ref_slH6gvha %}.
 
 5.  Add more bookable products if needed.
