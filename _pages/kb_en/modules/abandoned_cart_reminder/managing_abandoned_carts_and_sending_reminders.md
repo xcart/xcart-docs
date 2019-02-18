@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-10-18 18:16 +0400'
 identifier: ref_hkTTIuTr
-title: Managing abandoned carts and sending reminders
+title: Managing Abandoned Carts and Sending Reminders
 categories:
   - User manual
 published: true
