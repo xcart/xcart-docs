@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-10-12 23:01 +0400'
 identifier: ref_n6czcwis
-title: Getting started with Blog system in X-Cart 5
+title: Getting Started with Blog System in X-Cart 5
 categories:
   - User manual
 published: true
@@ -11,7 +11,7 @@ order: 200
 ---
 
 
-This guide assumes that the module Blog system in X-Cart 5 has already been {% link "installed and enabled in your store" ref_ayU7G1y0 %}.
+This guide assumes that the addon Blog system in X-Cart 5 has already been {% link "installed and enabled in your store" ref_ayU7G1y0 %}.
 
 To start using a blog system in X-Cart:
 
@@ -52,10 +52,10 @@ To start using a blog system in X-Cart:
     ![]({{site.baseurl}}/attachments/7505489/7602727.png)
     You will be able to access your WordPress admin area using the "Log in" / "Site Admin" link in the right column of your store's blog page (The link "Site Admin" is displayed when you are already signed in):
     ![]({{site.baseurl}}/attachments/7505489/7602790.png)
-12.  To adjust the way your blog appears in your X-Cart store, use the settings on the module settings page:
+12.  To adjust the way your blog appears in your X-Cart store, use the settings on the addon settings page:
     ![]({{site.baseurl}}/attachments/7505489/8719388.png)
 
 _Related pages:_
 
-*   {% link "Blog system in X-Cart 5 module installation" ref_ayU7G1y0 %}
-*   {% link "Configuring the module Blog system in X-Cart 5" ref_vpkSAB5T %}
+*   {% link "Blog System in X-Cart 5 Addon Installation" ref_ayU7G1y0 %}
+*   {% link "Configuring the Addon Blog System in X-Cart 5" ref_vpkSAB5T %}
