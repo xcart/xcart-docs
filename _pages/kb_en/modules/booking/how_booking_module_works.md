@@ -23,7 +23,7 @@ Bookable products can be simple or more complex (configured with attributes and 
 
 The product's price is treated as the price of a 1 night's reservation. The total price of a reservation is calculated based on the number of nights in the selected reservation period.
 
-The addon also provides the ability to track reservations: The "stock level" settings of a product or product variant - product quantity or variant quantity - are used to specify the maximum number of simultaneous reservations that are possible for it. If a product is sold out for the dates specified by a user wishing to make a reservation, the addon will suggest that the user should choose a different period. For products with variants the module tracks the number of reservations per variant and hides any variants that are sold out from the list.
+The addon also provides the ability to track reservations: The "stock level" settings of a product or product variant - product quantity or variant quantity - are used to specify the maximum number of simultaneous reservations that are possible for it. If a product is sold out for the dates specified by a user wishing to make a reservation, the addon will suggest that the user should choose a different period. For products with variants the addon tracks the number of reservations per variant and hides any variants that are sold out from the list.
 
 The addon is mobile-friendly: by using responsive design techniques, it can display available bookable variants on tablets and other mobile devices without scroll bars:
 
