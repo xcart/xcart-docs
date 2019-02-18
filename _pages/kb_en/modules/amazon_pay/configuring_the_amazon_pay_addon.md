@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-04 12:21 +0400'
 identifier: ref_0UssH5KP
-title: Configuring the Amazon Pay addon
+title: Configuring the Amazon Pay Addon
 categories:
   - User manual
 published: true
