@@ -19,23 +19,18 @@ When the template choice is left behind start with simple skin manipulations ess
 
 *   {% link "Changing your store's theme" ref_GLqVdpgd %}
 *   {% link "Basic Skin Changes" ref_3vgykcgf %}
-*   {% link "Adding banners to store pages" ref_35tpPrVf %}
 *   {% link "Managing images" ref_zyQIOcia %}
-*   {% link "Enabling the Contact Us form" ref_hfZXkxzT %}
-*   {% link "Editing the text on the Contact Us page" ref_CsqC5DNX %}
+
 
 If you are ready to delve into the process and need to add custom changes to the store layout go further and use Theme Tweaker to edit your store’s look & feel easily — change the position of the blocks in drag and drop fashion or choose a pre-made layout type. Theme Tweaker even allows to modify templates quickly by clicking on the element while browsing the storefront, to apply additional styling with Custom CSS option, to customize JavaScript and to build unique email notifications templates.
 
 *   {% link "Overview of a Template Structure" ref_2qN1oWni %}
 *   {% link "Theme Tweaker and Webmaster Mode" ref_2L6W3YMS %}
-*   {% link "Adding pages to your store" ref_Ptf5vaPn %}
+*   {% link "Managing Content and Service Pages" ref_27dBlUF9 %}
 *   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
 *   {% link "Custom Menus" ref_7Bjg2ZY0 %}
 *   {% link "Managing texts labels in your store" ref_IyGxQ1DN %}
-*   {% link "Changing the Terms and conditions page" ref_r5b4EKhF %}
-*   {% link "Removing the «Powered by» notice" ref_o5oJ0AFO %}
-*   {% link "Changing the text of the maintenance page" ref_GX9sbLzF %}
-*   {% link "Changing 404 "page not found"" ref_1vY1kBkj %}
+
 
 
 _Video Tutorials_ :
