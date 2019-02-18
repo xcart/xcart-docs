@@ -17,7 +17,7 @@ X-Cart offers 5 free color schemes for your store out of the box and over [70 te
 
 When the template choice is left behind start with simple skin manipulations essential for almost every store: 
 
-*   {% link "Changing your store's theme" ref_GLqVdpgd %}
+*   {% link "Managing Skins" ref_1yXxbHIW %}
 *   {% link "Basic Skin Changes" ref_3vgykcgf %}
 *   {% link "Managing images" ref_zyQIOcia %}
 
@@ -29,7 +29,6 @@ If you are ready to delve into the process and need to add custom changes to the
 *   {% link "Managing Content and Service Pages" ref_27dBlUF9 %}
 *   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
 *   {% link "Custom Menus" ref_7Bjg2ZY0 %}
-*   {% link "Managing texts labels in your store" ref_IyGxQ1DN %}
 
 
 
