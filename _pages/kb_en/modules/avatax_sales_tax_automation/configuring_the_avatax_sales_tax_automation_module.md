@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-15 09:54 +0400'
 identifier: ref_havNFG9i
-title: Configuring the AvaTax Sales Tax Automation module
+title: Configuring the AvaTax Sales Tax Automation Addon
 categories:
   - User manual
 published: true
