@@ -9,8 +9,6 @@ categories:
 published: true
 order: 170
 ---
-
-
 This page provides information on the following actions with abandoned carts:
 
 *   [Viewing/filtering the abandoned carts list](#viewingfiltering-the-abandoned-carts-list);
@@ -36,7 +34,7 @@ The list of abandoned carts is presented in the form of a table.Â For each cartÂ
 *   **Email**: The email address of the abandoned cart owner.
 *   **Products**: Information about the products contained in the abandoned cart (product names, quantities, selected options).
 *   **Subtotal**: Subtotal amount of the abandoned order.
-*   **Coupons**: (_This column is displayed only when Abandoned Cart Reminder is used in conjunction with the Coupons module_) The coupon codes that were generated for the abandoned cart.
+*   **Coupons**: (_This column is displayed only when Abandoned Cart Reminder is used in conjunction with the Coupons addon_) The coupon codes that were generated for the abandoned cart.
 *   **Date**: Since when the cart has been in the abandoned state.
 *   **Notified**: Whether any abandoned cart reminder emails have been sent to the cart owner and how many times (+ the date when a reminder email was last sent for the cart).
 
@@ -70,5 +68,5 @@ To deleted an abandoned cart:
 _Related pages:_
 
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
-*   {% link "Managing reminders" ref_i8rSfTrg %}
-*   {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}
+*   {% link "Managing Reminders" ref_i8rSfTrg %}
+*   {% link "Viewing Cart Recovery Statistics" ref_rg0Tct2p %}
