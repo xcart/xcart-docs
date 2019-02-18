@@ -9,35 +9,33 @@ categories:
 published: true
 order: 130
 ---
-
-
 This page provides information on the user experience in the Admin area of an X-Cart based store using Canada Post to ship goods to buyers.
 
 This includes the following topics:
 
 {% toc %}
 
-## Contract and non-contract shipping
+## Contract and Non-contract Shipping
 
-When shipping orders with Canada Post, your workflow will depend on whether you are using contract or non-contract services (This needs to be defined in the {% link "module settings" ref_XsHLxUwv %}).
+When shipping orders with Canada Post, your workflow will depend on whether you are using contract or non-contract services (This needs to be defined in the {% link "addon settings" ref_XsHLxUwv %}).
 
 For **contract** shipping, you will need to take the following steps:
 
 1.  Prepare the packages for shipping by Canada Post and create the respective "shipments" via your store's back end. By "shipment" here we mean a collection of data about a package that your store will provide to Canada Post so that Canada Post can deliver it according to your preferences and specifications (See [Creating shipments](#creating-shipments)).
-2.  Obtain the shipping labels and affix them to your packages (See [Obtaining shipping labels](#obtaining-shipping labels)). 
-3.  Once a group of shipments is ready for pickup by Canada Post or drop-off to a Canada Post location, initiate the delivery process by transmitting these shipments (See [Transmitting shipments](#transmitting-shipments)).
+2.  Obtain the shipping labels and affix them to your packages (See [Obtaining Shipping Labels](#obtaining-shipping labels)). 
+3.  Once a group of shipments is ready for pickup by Canada Post or drop-off to a Canada Post location, initiate the delivery process by transmitting these shipments (See [Transmitting Shipments](#transmitting-shipments)).
 4.  Obtain and print out your Canada Post manifest for the transmitted shipments. If you are a commercial customer and you use contract shipping services, you must produce a hard copy of your manifest and provide to Canada Post when they pick up your shipments or when you drop off your shipments at a mail processing plant.
 
 For **non-contract** shipping, you will need to take the following steps:
 
-1.  Prepare the packages for shipping by Canada Post and create the respective "shipments" in your store's back end (See [Creating shipments](#creating-shipments)).
-2.  Obtain the shipping labels and affix them to your shipments (See [Obtaining shipping labels](#obtaining-shipping labels) ).
+1.  Prepare the packages for shipping by Canada Post and create the respective "shipments" in your store's back end (See [Creating Shipments](#creating-shipments)).
+2.  Obtain the shipping labels and affix them to your shipments (See [Obtaining Shipping Labels](#obtaining-shipping labels) ).
 
 In the non-contract shipping flow, no manifests are required, so you do not need to transmit your shipments.
 
-## Creating shipments
+## Creating Shipments
 
-When a buyer selects one of the available Canada Post shipping methods for their order, the module performs calculations to determine the number of packages needed to ship the order to the buyer and provides an estimation of the shipping cost based on the number of packages needed, their respective weights and the shipping rates that the module obtains from Canada Post.
+When a buyer selects one of the available Canada Post shipping methods for their order, the addon performs calculations to determine the number of packages needed to ship the order to the buyer and provides an estimation of the shipping cost based on the number of packages needed, their respective weights and the shipping rates that the addon obtains from Canada Post.
 
 Once the order has been placed, you can view its details via your store's Admin area as usual; the information about the shipping method selected by the buyer is availble in the _Shipping info_ section of the **General info** tab and the estimated shipping cost is displayed at the bottom of the order dettails page:
 
@@ -52,7 +50,7 @@ When you are ready to pack the ordered items for shipment, start by visiting the
 
 In this section, you need to provide information about the parcels that you will use to ship the order via Canada Post. A collection of information about a single parcel to be shipped by Canada Post is called a shipment.
 
-When you open the **Shipments** section for a new order, you will notice that it already contains a list of shipments. This list reflects the way in which the module proposes to split the items from this order into parcels based on the weight limit for one package. 
+When you open the **Shipments** section for a new order, you will notice that it already contains a list of shipments. This list reflects the way in which the addon proposes to split the items from this order into parcels based on the weight limit for one package. 
 
 For example, below you can see how a large order was split into three parcels so the weight of each parcel does not exceed 10 kilograms:
 
@@ -63,10 +61,10 @@ For example, below you can see how a large order was split into three parcels so
 </div>
 
 {% note info %}
-When the module splits an order into parcels, it does not take into account the dimensions of the individual items in the order nor the dimensions of the box into which they will be packed. As a result, the method does not guarantee that the items placed by the module into one parcel will actually fit in. It is your responsibility as a merchant to verify not only that the weight of the items in each shipment does not exceed the Package maximum weight limit, but also to make sure the items placed into each parcel do actually fit into the box of the specified dimensions. 
+When the addon splits an order into parcels, it does not take into account the dimensions of the individual items in the order nor the dimensions of the box into which they will be packed. As a result, the method does not guarantee that the items placed by the addon into one parcel will actually fit in. It is your responsibility as a merchant to verify not only that the weight of the items in each shipment does not exceed the Package maximum weight limit, but also to make sure the items placed into each parcel do actually fit into the box of the specified dimensions. 
 {% endnote %}
 
-If you choose not to follow the split of the items into parcels proposed by the module, you should adjust the configuration of the shipments in the **Shipments** section accordingly. 
+If you choose not to follow the split of the items into parcels proposed by the addon, you should adjust the configuration of the shipments in the **Shipments** section accordingly. 
 
 For example, you may change the dimensions of specific parcels, or move the items between the existing parcels, or add more parcels and move some of the items there. However, please be aware that if you change the way your items are split into shipments, it may cause a significant difference between the actual shipping fees you will need to pay and the estimated shipping cost that the buyer has paid.
 
@@ -87,7 +85,7 @@ To move items from one parcel to another:
 
 ![shipments-move-item.png]({{site.baseurl}}/attachments/ref_N6PsLLrM/shipments-move-item.png)
 
-As you move items between the parcels, the module automatically checks that the package weight limit is never exceeded.
+As you move items between the parcels, the addon automatically checks that the package weight limit is never exceeded.
 
 Once you have adjusted the number of parcels, the parcel dimensions and the distribution of the ordered items beween the parcels, you will need to go over the rest of the parcel characteristics and options and select/specify everything that applies:
 
@@ -114,13 +112,13 @@ The shipment will be submitted to Canada Post. Once it has been processed, the *
 
 In this section some important information pertaining to the created shipment will be provided, including the Tracking pin (a tracking identifier by which you and the parcel addressee will be able to track the parcel) and the shipping label link.
 
-## Obtaining shipping labels
+## Obtaining Shipping Labels
 
-Each of the parcels to be shipped by Canada Post needs to have a shipping label affixed to it. X-Cart's Canada Post module allows you to obtain shipping labels for your Canada Post parcels.
+Each of the parcels to be shipped by Canada Post needs to have a shipping label affixed to it. X-Cart's Canada Post addon allows you to obtain shipping labels for your Canada Post parcels.
 
-Once you have chosen to create a new shipment, the module contacts Canada Post and obtains a shipping label for it. You can access this label using a link in the Shipment info section of the shipment details. The label needs to be saved on your system as a PDF file, printed out and affixed to the parcel.
+Once you have chosen to create a new shipment, the addon contacts Canada Post and obtains a shipping label for it. You can access this label using a link in the Shipment info section of the shipment details. The label needs to be saved on your system as a PDF file, printed out and affixed to the parcel.
 
-## Voiding shipments
+## Voiding Shipments
 
 If the shipping label for a shipment that has been created is spoiled or will otherwise not be used, you may want to void this shipment.
 
@@ -132,10 +130,10 @@ To void a created shipment hit the **Void** button beneath the _Shipping info_ s
 
 What happens after you confirm this action depends on the type of services being used:
 
-*   If you are using contract shipping, the module will send a Void Shipment request to the Canada Post API. This will officially cancel the shipment and invalidate the shipping label previously created for it. In your store, the shipment will be switched back to the pre-created status; the shipping label and tracking pin links for the shipment will be removed.
+*   If you are using contract shipping, the addon will send a Void Shipment request to the Canada Post API. This will officially cancel the shipment and invalidate the shipping label previously created for it. In your store, the shipment will be switched back to the pre-created status; the shipping label and tracking pin links for the shipment will be removed.
 *   If you are using non-contract shipping, no requests will be sent to the Canada Post API (Canada Post will NOT be informed about the voiding), but in your store the shipment will be switched back to the pre-created status, and the shipping label and the tracking pin links for the shipment will be removed.
 
-## Transmitting shipments
+## Transmitting Shipments
 
 If you are using contract shipping services, from time to time you will need to "transmit" your created shipments. The step of transmitting shipments needs to be performed when you created a shipments and are ready to hand it over to Canada Post. Transmitting shipment triggers billing and sends shipping info to Canada Post.
 
@@ -157,7 +155,7 @@ Here you can see the ID of the manifest into which the shipment was included. Th
 
 A manifest is required so that Canada Post will bill you properly and readily accept your shipments. 
 
-## Tracking shipments
+## Tracking Shipments
 
 Canada Post shipments can be tracked via the store's Admin area by clicking the _Tracking pin_ link in the **Shipment info** section. The tracking details are displayed in a popup window:
 
@@ -165,10 +163,10 @@ Canada Post shipments can be tracked via the store's Admin area by clicking the 
 
 Where applicable, the same window may provide links to related documents; for example, a signature image or a delivery confirmation certificate. 
 
-## Handling returns
+## Handling Returns
 
 {% note info %}
-In order to process return requests from the customers make sure the  module is {% link "installed and enabled" ref_Vn1mMUw9 %} in your store.
+In order to process return requests from the customers make sure the addon is {% link "installed and enabled" ref_Vn1mMUw9 %} in your store.
 {% endnote %}
 
 Return requests submitted by shoppers wishing to return items shipped to them by Canada Post can be found in the **Returns** section of the Admin area (**Orders** > **Returns**. The return requests are displayed as a list:
@@ -185,5 +183,5 @@ You can either **Authorize** or **Decline** the request using the corresponding 
 
 _Related pages:_
 
-*   {% link "Canada Post customer experience" ref_ooBRtSLz %}
-*   {% link "Getting started with Canada Post" ref_zfNLsPus %}
+*   {% link "Canada Post Customer Experience" ref_ooBRtSLz %}
+*   {% link "Getting Started with Canada Post" ref_zfNLsPus %}
