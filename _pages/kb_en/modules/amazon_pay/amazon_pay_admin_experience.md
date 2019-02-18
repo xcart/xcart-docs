@@ -37,5 +37,5 @@ At the moment, X-Cart's Amazon Pay integration supports Authorize, Capture, Void
 
 _Related pages:_
 
-*   {% link "Configuring the Amazon Pay addon" ref_0UssH5KP %}
-*   {% link "Amazon Pay customer experience" ref_MQB8GDLT %}
+*   {% link "Configuring the Amazon Pay Addon" ref_0UssH5KP %}
+*   {% link "Amazon Pay Customer Experience" ref_MQB8GDLT %}
