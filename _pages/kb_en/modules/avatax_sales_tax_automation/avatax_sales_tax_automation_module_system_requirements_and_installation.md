@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-15 09:53 +0400'
 identifier: ref_RGbuM3KA
-title: 'AvaTax Sales Tax Automation module: system requirements and installation'
+title: 'AvaTax Sales Tax Automation Addon: System Requirements and Installation'
 categories:
   - User manual
 published: true
