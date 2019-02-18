@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 10:19 +0400'
 identifier: ref_5BTPsMUx
-title: Setting up a bookable product with variants
+title: Setting up a Bookable Product with Variants
 categories:
   - User manual
 published: true
