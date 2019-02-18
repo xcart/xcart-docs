@@ -13,24 +13,24 @@ order: 110
 
 To start shipping with Canada Post:
 
-1.  In your store's Admin area, enable the **Canada Post** module in the **Addons** section:
+1.  In your store's Admin area, enable the **Canada Post** addon in the **Addons** section:
     ![module-off.png]({{site.baseurl}}/attachments/ref_zfNLsPus/module-off.png)
 
-    (General module installation instructions are available here: {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.)
+    (General addon installation instructions are available here: {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.)
 
-2.  Click the _Settings_ link for **Canada Post** to access the module's settings page:
+2.  Click the _Settings_ link for **Canada Post** to access the addon settings page:
     ![module-settings.png]({{site.baseurl}}/attachments/ref_zfNLsPus/module-settings.png)
     On this page, a Merchant registration wizard is provided that allows you to start registration for the Canada Post services.
     To start, simply click **Register**. You will be redirected to the Canada Post website where you will be able to sign up for a Canada Post account  or sign in using your existing account:
     ![]({{site.baseurl}}/attachments/7505231/7602671.png)
     
     {% note  info %}
-    If you are already registered with Canada Post, the shipping settings will be automatically imported in X-Cart after you click 'Register'. Alternatively, you can click 'Configure manually' and set up the module yourself.
+    If you are already registered with Canada Post, the shipping settings will be automatically imported in X-Cart after you click 'Register'. Alternatively, you can click 'Configure manually' and set up the addon yourself.
     {% endnote %}
     
-3.  Once you have completed the registration process or signed in, X-Cart will be able to automatically obtain your merchant API key (username and password) needed to connect to Canada Post. You will be returned to your X-Cart store's Admin area, and your merchant API key will be retrieved through the API, tested and stored for future use in the store. Most of the settings will have already been configured for you automatically. However, you may still need to define some parcel characteristics (use 'Configire manually' button on the module settings page for the purpose).
+3.  Once you have completed the registration process or signed in, X-Cart will be able to automatically obtain your merchant API key (username and password) needed to connect to Canada Post. You will be returned to your X-Cart store's Admin area, and your merchant API key will be retrieved through the API, tested and stored for future use in the store. Most of the settings will have already been configured for you automatically. However, you may still need to define some parcel characteristics (use 'Configire manually' button on the addon settings page for the purpose).
     {% note info %}
-    If you prefer to configure the Canada Post module manually refer to the guides from {% link "Configuring the Canada Post module" ref_XsHLxUwv %}.
+    If you prefer to configure the Canada Post addon manually refer to the guides from {% link "Configuring the Canada Post Addon" ref_XsHLxUwv %}.
     {% endnote %}
     
 4.  While still in the **Store setup** -> **Shipping** section of your store's Admin area, select the Canada Post method in the _Settings_ tab: 
