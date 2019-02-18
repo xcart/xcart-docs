@@ -11,3 +11,8 @@ After you choose a skin that defines the basic look and feel of your online stor
 
 The basic skin customizations include changing the default store logo and favicon. Also it's necessary to remove the welcome text and banner on the storefront that may be included into a default X-Cart skin.
 
+_In this section:_
+
+*  {% link "Changing your store's logo and favicon" ref_2VXSZhKE %}
+*  {% link "Changing logo size for Crisp White skin" ref_RrLo9hcw %}
+*  {% link "Changing the checkout logos picture" ref_V0WJ7Tzu %}
