@@ -46,6 +46,6 @@ To start shipping with Canada Post:
 
 _Related pages:_
 
-*   {% link "Configuring the Canada Post module" ref_XsHLxUwv %}
-*   {% link "Canada Post admin experience" ref_N6PsLLrM %}
-*   {% link "Canada Post customer experience" ref_ooBRtSLz %}
+*   {% link "Configuring the Canada Post Addon" ref_XsHLxUwv %}
+*   {% link "Canada Post Admin Experience" ref_N6PsLLrM %}
+*   {% link "Canada Post Customer Experience" ref_ooBRtSLz %}
