@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 10:07 +0400'
 identifier: ref_PGtil8wm
-title: Configuring the module &quot;Booking&quot;
+title: Configuring the Addon Booking
 categories:
   - User manual
 published: true
