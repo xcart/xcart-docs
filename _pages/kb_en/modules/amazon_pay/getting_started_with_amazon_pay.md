@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-04 12:20 +0400'
 identifier: ref_hU2VNqiL
-title: Getting started with Amazon Pay
+title: Getting Started with Amazon Pay
 categories:
   - User manual
 published: true
