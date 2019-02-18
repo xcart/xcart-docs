@@ -99,7 +99,7 @@ The settings in this section allow you to specify the typical characteristics of
 ![settings-6.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-6.png)
 
 {% note info %}
-Please note that currently X-Cart's Canada Post module does not support the use of package dimensions (**Package length**, **Package width** and **Package height**) for rate calculation and for splitting a single order into multiple packages; only the **Pakage maximum weight** value and the weight of the products in the order are taken into account.
+Please note that currently X-Cart's Canada Post addon does not support the use of package dimensions (**Package length**, **Package width** and **Package height**) for rate calculation and for splitting a single order into multiple packages; only the **Pakage maximum weight** value and the weight of the products in the order are taken into account.
 {% endnote %}
 
 ## Parcel options
