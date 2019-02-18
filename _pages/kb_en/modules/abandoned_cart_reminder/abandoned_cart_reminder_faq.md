@@ -26,11 +26,10 @@ order: 190
 _Related pages:_
 
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
-*   {% link "Abandoned Cart Reminder module system requirements and installation" ref_mT2evKUN %}
+*   {% link "Abandoned Cart Reminder addon system requirements and installation" ref_mT2evKUN %}
 *   {% link "How Abandoned Cart Reminder works" ref_BiSy9eBE %}
 *   {% link "Getting started with Abandoned Cart Reminder" ref_0XDhscNU %}
-*   {% link "Abandoned Cart Reminder module system requirements and installation" ref_mT2evKUN %}
-*   {% link "Configuring the Abandoned Cart Reminder module" ref_Gz0xMggZ %}
+*   {% link "Configuring the Abandoned Cart Reminder addon" ref_Gz0xMggZ %}
 *   {% link "Managing reminders" ref_i8rSfTrg %}
 *   {% link "Managing abandoned carts and sending reminders" ref_hkTTIuTr %}
 *   {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}
