@@ -11,15 +11,15 @@ order: 400
 ---
 
 
-After the module "Auction in X-Cart 5" has been installed and enabled, it needs to be configured.
+After the addon "Auction in X-Cart 5" has been installed and enabled, it needs to be configured.
 
-To configure the module:
+To configure the addon:
 
-1.  In the Installed Modules section of your X-Cart store’s Admin area (**Extensions** >** Installed modules**), locate the entry for "Auction in X-Cart 5" and click the **Settings **link below it:
+1.  In the Installed Addons section of your X-Cart store’s Admin area (**My addons**), locate the entry for "Auction in X-Cart 5" and click the **Settings **link below it:
     ![]({{site.baseurl}}/attachments/8225032/8356073.png)
-    This opens the '"Auction in X-Crat 5" module settings' page:
+    This opens the '"Auction in X-Crat 5" addon settings' page:
     ![]({{site.baseurl}}/attachments/8225032/8356011.png)
-2.  On the Classic auction tab, adjust the module settings:
+2.  On the Classic auction tab, adjust the addon settings:
     *   **Display the “Products on auction” block in the storefront**: This setting allows you to specify whether you want to showcase your auctioned products in a special block displayed on your store's home page and category pages - in addition to the Auction section of your site available via the "Auction"  link in the main menu.
         When enabled, the block is displayed either in a side box:
         ![]({{site.baseurl}}/attachments/8225032/8356074.png)
@@ -42,4 +42,3 @@ To configure the module:
 _Related pages:_
 
 *   {% link "Managing auction listings" ref_56sCmm0k %}
-
