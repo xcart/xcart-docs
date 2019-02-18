@@ -80,7 +80,7 @@ To start using Amazon Pay:
 
 _Related pages:_
 
-*   {% link "Amazon Pay addon system requirements and installation" ref_iCibZ9wD %}
-*   {% link "Configuring the Amazon Pay addon" ref_0UssH5KP %}
-*   {% link "Amazon Pay customer experience" ref_MQB8GDLT %}
-*   {% link "Amazon Pay admin experience" ref_meqXfPIt %}
+*   {% link "Amazon Pay Addon System Requirements and Installation" ref_iCibZ9wD %}
+*   {% link "Configuring the Amazon Pay Addon" ref_0UssH5KP %}
+*   {% link "Amazon Pay Customer Experience" ref_MQB8GDLT %}
+*   {% link "Amazon Pay Admin Experience" ref_meqXfPIt %}
