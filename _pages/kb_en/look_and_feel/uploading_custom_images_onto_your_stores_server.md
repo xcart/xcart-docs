@@ -8,7 +8,7 @@ categories:
   - User manual
 published: false
 order: 300
-redirect_to: 'https://kb.x-cart.com/look_and_feel/managing_images.html#custom-images'
+redirect_to: 'https://kb.x-cart.com/look_and_feel/managing_images.html'
 ---
 
 
