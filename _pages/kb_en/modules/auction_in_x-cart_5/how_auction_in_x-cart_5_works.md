@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-15 01:39 +0400'
 identifier: ref_aD2kfoVa
-title: How Auction in X-Cart 5 works
+title: How Auction in X-Cart 5 Works
 categories:
   - User manual
 published: true
