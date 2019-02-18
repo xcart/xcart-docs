@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 10:13 +0400'
 identifier: ref_slH6gvha
-title: Editing &quot;Booking&quot; module text labels to your needs
+title: Editing Booking-related Text Labels to Your Needs
 categories:
   - User manual
 published: true
