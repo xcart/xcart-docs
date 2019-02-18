@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-15 09:44 +0400'
 identifier: ref_GawMeTST
-title: How AvaTax Sales Tax Automation works
+title: How AvaTax Sales Tax Automation Works
 categories:
   - User manual
 published: true
