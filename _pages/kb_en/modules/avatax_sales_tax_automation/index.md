@@ -17,12 +17,12 @@ Avalara's AvaTax is a cloud-based offering that can simplify the tax compliance 
 
 _In this section:_
 
-*   {% link "How AvaTax Sales Tax Automation works" ref_GawMeTST %}
-*   {% link "Getting started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
-*   {% link "AvaTax Sales Tax Automation module: system requirements and installation" ref_RGbuM3KA %}
-*   {% link "Configuring the AvaTax Sales Tax Automation module" ref_havNFG9i %}
-*   {% link "Mapping products to AvaTax tax codes" ref_SXNVD8TL %}
-*   {% link "Managing sales tax exemption for customers (AvaTax settings)" ref_9WS5DtDB %}
+*   {% link "How AvaTax Sales Tax Automation Works" ref_GawMeTST %}
+*   {% link "Getting Started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
+*   {% link "AvaTax Sales Tax Automation Addon: System Requirements and Installation" ref_RGbuM3KA %}
+*   {% link "Configuring the AvaTax Sales Tax Automation Addon" ref_havNFG9i %}
+*   {% link "Mapping Products to AvaTax Tax Codes" ref_SXNVD8TL %}
+*   {% link "Managing Sales Tax Exemption for Customers (AvaTax Settings)" ref_9WS5DtDB %}
 
 _See also:_
 
