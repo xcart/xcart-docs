@@ -11,12 +11,12 @@ order: 300
 ---
 
 
-After installing a WordPress blog in your store, you should check and adjust the module configuration:
+After installing a WordPress blog in your store, you should check and adjust the addon configuration:
 
-*   In the Installed Modules section of your X-Cart store’s Admin area, locate the entry for the module "Blog system in X-Cart 5" and click the **Settings **link below it:
+*   In the Installed Addons section of your X-Cart store’s Admin area, locate the entry for the addon "Blog system in X-Cart 5" and click the **Settings **link below it:
 
     ![]({{site.baseurl}}/attachments/7505612/8719389.png)
-    The "Blog System in X-Cart 5" module settings page opens:
+    The "Blog System in X-Cart 5" addon settings page opens:
     ![]({{site.baseurl}}/attachments/7505612/8719390.png)
     This is where you control how the blog appears in your X-Cart store.
 
@@ -33,7 +33,7 @@ The first thing you see on this page is the **Path to WordPress directory (rela
 
 ## Pages
 
-This section of the module settings page allows you to configure the look of your blog pages.
+This section of the addon settings page allows you to configure the look of your blog pages.
 
 *   **Add blog name**: This setting determines whether your blog name - as provided by the "Site Title" field in the WordPress General Settings - should be displayed in the blog page header, or not. For example, our blog title is "WordPress for X-Cart 5". If the "Add blog name" option is enabled, the blog page appears like so:
     ![]({{site.baseurl}}/attachments/7505612/7602795.png)
@@ -50,7 +50,7 @@ This section of the module settings page allows you to configure the look of you
 
 ## Widget "Recent Posts"
 
-The "Recent Posts" widget is a box displaying your latest blog posts. The settings in this section of the "Blog System in X-Cart" module settings page define how and whether this widget should be displayed in your store.
+The "Recent Posts" widget is a box displaying your latest blog posts. The settings in this section of the "Blog System in X-Cart" addon settings page define how and whether this widget should be displayed in your store.
 
 *   **Show widget**: This setting determines whether the "Recent Posts" widget should be displayed, or not.
 *   **The number of display recent posts**: This setting determines the maximum number of blog posts that can be displayed in the "Recent Posts" widget:
@@ -68,4 +68,4 @@ The "Recent Posts" widget is a box displaying your latest blog posts. The settin
 
 _Related pages:_
 
-*   {% link "Getting started with Blog system in X-Cart 5" ref_n6czcwis %}
+*   {% link "Getting Started with Blog System in X-Cart 5" ref_n6czcwis %}
