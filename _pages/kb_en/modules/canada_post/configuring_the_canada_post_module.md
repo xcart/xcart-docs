@@ -135,4 +135,4 @@ For detailed information on Canada Post rules and practices, please refer to the
 
 _Related pages:_
 
-*   {% link "Getting started with Canada Post" ref_zfNLsPus %}
+*   {% link "Getting Started with Canada Post" ref_zfNLsPus %}
