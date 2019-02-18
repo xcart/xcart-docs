@@ -13,7 +13,7 @@ order: 10
 
 The **Abandoned Cart Reminder** addon for X-Cart 5 is a shopping cart abandonment solution that allows you to follow up with shoppers who had items in their cart, but left without completing checkout, and, possibly, to convert their abandoned carts to sales.
 
-The addon collects the shopping cart contents of customers who abandoned their carts and allows you to remind them about the unfinished order via an e-mail message. Since communication with abandoned cart owners is done via email, you need to have their email addresses, which means the module only works for carts that were abandoned by customers who were logged in to their account while adding items to their cart or abandoned checkout after completing at least the first section - including the e-mail field - of the checkout page.
+The addon collects the shopping cart contents of customers who abandoned their carts and allows you to remind them about the unfinished order via an e-mail message. Since communication with abandoned cart owners is done via email, you need to have their email addresses, which means the addon only works for carts that were abandoned by customers who were logged in to their account while adding items to their cart or abandoned checkout after completing at least the first section - including the e-mail field - of the checkout page.
 
 Depending on your needs, you can automate the process of sending abandoned cart reminder messages or choose to send your messages manually.
 
