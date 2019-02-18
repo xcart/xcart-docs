@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-04 12:23 +0400'
 identifier: ref_meqXfPIt
-title: Amazon Pay admin experience
+title: Amazon Pay Admin Experience
 categories:
   - User manual
 published: true
