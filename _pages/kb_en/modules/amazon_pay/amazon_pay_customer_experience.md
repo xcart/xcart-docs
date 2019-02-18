@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-04 12:22 +0400'
 identifier: ref_MQB8GDLT
-title: Amazon Pay customer experience
+title: Amazon Pay Customer Experience
 categories:
   - User manual
 published: true
@@ -52,5 +52,5 @@ When the order is created, appropriate order notifications are sent to the email
 
 _Related pages:_
 
-*   {% link "Configuring the Amazon Pay addon" ref_0UssH5KP %}
-*   {% link "Amazon Pay admin experience" ref_meqXfPIt %}
+*   {% link "Configuring the Amazon Pay Addon" ref_0UssH5KP %}
+*   {% link "Amazon Pay Admin Experience" ref_meqXfPIt %}
