@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-15 01:50 +0400'
 identifier: ref_5pDnlkIl
-title: 'Auction in X-Cart 5: system requirements and installation'
+title: 'Auction in X-Cart 5: System Requirements and Installation'
 categories:
   - User manual
 published: true
