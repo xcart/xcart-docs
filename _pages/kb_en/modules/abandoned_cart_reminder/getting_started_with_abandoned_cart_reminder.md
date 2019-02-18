@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-10-18 18:10 +0400'
 identifier: ref_0XDhscNU
-title: Getting started with Abandoned Cart Reminder
+title: Getting Started with Abandoned Cart Reminder
 categories:
   - User manual
 published: true
