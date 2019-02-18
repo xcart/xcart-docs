@@ -13,6 +13,6 @@ The basic skin customizations include changing the default store logo and favico
 
 _In this section:_
 
-*  {% link "Changing your store's logo and favicon" ref_2VXSZhKE %}
-*  {% link "Changing logo size for Crisp White skin" ref_RrLo9hcw %}
+*  {% link "Changing a Store Logo and Favicon" ref_2VXSZhKE %}
+*  {% link "Changing Logo Size (for Crisp White Skin)" ref_RrLo9hcw %}
 *  {% link "Changing the checkout logos picture" ref_V0WJ7Tzu %}
