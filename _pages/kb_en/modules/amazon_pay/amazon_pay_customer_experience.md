@@ -20,7 +20,7 @@ Here's what it looks like:
 <div class="ui stackable three column grid">
   <div class="column" markdown="span">![amz-cus-cart.png]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-cart.png)"Your shopping bag" page</div>
   <div class="column" markdown="span">![amz-cus-minicart.png]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-minicart.png)"Minicart" widget</div>
-  <div class="column" markdown="span">![amz-cus-popup.png]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-popup.png)"Add to cart" popup (if {% link "Add to Cart PopUp Module" ref_1iGC8Efj %} is enabled)</div>
+  <div class="column" markdown="span">![amz-cus-popup.png]({{site.baseurl}}/attachments/ref_MQB8GDLT/amz-cus-popup.png)"Add to cart" popup (if {% link "Add to Cart PopUp" ref_1iGC8Efj %} is enabled)</div>
 </div>
 
 
