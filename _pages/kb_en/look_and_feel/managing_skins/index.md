@@ -13,3 +13,5 @@ Each X-Cart package (Business, Multivendor and Ultimate) comes with 5 pre-instal
 All skins, both default and paid ones, has a standard left-to-right representation. If necessary it's possible to convert a skin into a right-to-left one using a special {% link "RTL languages support" ref_3vEHzhPP %} addon.
 
 _In this section:_
+
+*  {% link "Changing a Store Skin" ref_GLqVdpgd %}
