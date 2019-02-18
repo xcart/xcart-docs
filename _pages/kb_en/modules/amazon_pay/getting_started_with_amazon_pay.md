@@ -51,7 +51,7 @@ To start using Amazon Pay:
     *   Your **Access Key ID**
     *   Your **Secret Access Key**
 
-6.  In a new browser tab or window, log in to the Admin interface of your X-Cart store. Copy the account keys from Seller Central and paste them into X-Cart on the Amazon Pay addon settings page. Specify the rest of the settings (Operation mode, Currency, Capture mode) as required and save the configuration. We recommend setting the Operation mode to "Test" first, so you can create some orders in Sandbox mode and see how it works. For more info on the module configuration settings, see:
+6.  In a new browser tab or window, log in to the Admin interface of your X-Cart store. Copy the account keys from Seller Central and paste them into X-Cart on the Amazon Pay addon settings page. Specify the rest of the settings (Operation mode, Currency, Capture mode) as required and save the configuration. We recommend setting the Operation mode to "Test" first, so you can create some orders in Sandbox mode and see how it works. For more info on the addon configuration settings, see:
 
     *   {% link "Configuring the Amazon Pay addon" ref_0UssH5KP %}
 
