@@ -52,7 +52,7 @@ To configure the addon:
 
 _Related pages:_
 
-*   {% link "How AvaTax Sales Tax Automation works" ref_GawMeTST %}
-*   {% link "Getting started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
-*   {% link "Mapping products to AvaTax tax codes" ref_SXNVD8TL %}
-*   {% link "Managing sales tax exemption for customers (AvaTax settings)" ref_9WS5DtDB %}
+*   {% link "How AvaTax Sales Tax Automation Works" ref_GawMeTST %}
+*   {% link "Getting Started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
+*   {% link "Mapping Products to AvaTax Tax Codes" ref_SXNVD8TL %}
+*   {% link "Managing Sales Tax Exemption for Customers (AvaTax settings)" ref_9WS5DtDB %}
