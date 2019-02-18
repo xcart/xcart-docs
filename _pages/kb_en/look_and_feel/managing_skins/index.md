@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2019-02-18 15:13 +0400'
 identifier: ref_1yXxbHIW
 title: Managing Skins
-order: 100
+order: 200
 published: true
 ---
 
