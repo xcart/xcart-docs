@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 10:15 +0400'
 identifier: ref_8LMQvd29
-title: How &quot;Booking&quot; module works
+title: How Booking Addon Works
 categories:
   - User manual
 published: true
