@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-11 13:14 +0400'
 identifier: ref_BDykFBbw
-title: 'Adding new items to your store&#39;s menus'
+title: Adding New Items to Store Menus
 categories:
   - User manual
 published: true
