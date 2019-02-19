@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-10-15 17:03 +0400'
 identifier: ref_40Al0Nky
-title: Exporting products to eBay
+title: Exporting Products to eBay
 categories:
   - User manual
 published: true
@@ -57,7 +57,6 @@ The addon X-Cart eBay Integration enables you to export product information from
 
 _Related pages:_
 
-*   {% link "Viewing and managing your product listings on eBay" ref_UxlB19Fr %}
-*   {% link "Importing orders from eBay" ref_QTwGRPLV %}
-*   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
-
+*   {% link "Viewing and Managing Your Product Listings on eBay" ref_UxlB19Fr %}
+*   {% link "Importing Orders from eBay" ref_QTwGRPLV %}
+*   {% link "Automating Import and Export Tasks for eBay Integration" ref_qPIZcwNs %}
