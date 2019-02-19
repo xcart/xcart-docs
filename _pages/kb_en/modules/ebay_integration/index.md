@@ -25,16 +25,16 @@ The integration is provided as a service. [Subscription plans](http://www.x-car
 
 _In this section:_
 
-*   {% link "X-Cart eBay Integration system requirements and installation" ref_RgzAH0hf %}
+*   {% link "X-Cart eBay Integration System Requirements and Installation" ref_RgzAH0hf %}
 *   {% link "Configuring X-Cart eBay Integration" ref_SCbAqGqX %}
-*   {% link "Exporting products to eBay" ref_40Al0Nky %}
-*   {% link "Viewing and managing your product listings on eBay" ref_UxlB19Fr %}
-*   {% link "Importing products from eBay" ref_ydMT71kb %}
-*   {% link "Importing orders from eBay" ref_QTwGRPLV %}
-*   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
+*   {% link "Exporting Products to eBay" ref_40Al0Nky %}
+*   {% link "Viewing and Managing Your Product Listings on eBay" ref_UxlB19Fr %}
+*   {% link "Importing Products from eBay" ref_ydMT71kb %}
+*   {% link "Importing Orders from eBay" ref_QTwGRPLV %}
+*   {% link "Automating Import and Export Tasks for eBay Integration" ref_qPIZcwNs %}
 
 _Related pages:_
 
-* {% link "eBay Integration module (video)" ref_yLiuFJ66 %}
+* {% link "EBay Integration Addon (Video)" ref_yLiuFJ66 %}
 * [How to Sell on Ebay: Step-By-Step Guide For Beginners](https://www.x-cart.com/sell-online/how-to-sell-on-ebay.html "eBay Integration")
 * {% link "Sales Channels" ref_ybdJste8 %}
