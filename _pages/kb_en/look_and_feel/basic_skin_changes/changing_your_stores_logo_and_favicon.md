@@ -19,7 +19,7 @@ It is also possible to change the store's "Apple icon". The icon is intended for
 
 To change the store's logo, favicon or Apple icon images, you will need the **Simple CMS** addon by X-Cart team. Make sure this addon is installed and enabled at your store (If the addon is not installed, {% link "install and activate it" ref_Vn1mMUw9 %}):
 
-![xc5_simple_cms_module.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/xc5_simple_cms_module.png)
+![simple-cms.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/simple-cms.png)
 
 To change the default logo, favicon or Apple icon images for your store website:
 
@@ -41,4 +41,3 @@ Now your store visitors should be able to see the new image(s):
     
 If necessary, after replacing the default image(s) with your own one(s), you can revert to the defaults by choosing the **Return to default logo** (**favicon**, **AppleIcon**) option:
     ![logo-favicon-return-default.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/logo-favicon-return-default.png)
-
