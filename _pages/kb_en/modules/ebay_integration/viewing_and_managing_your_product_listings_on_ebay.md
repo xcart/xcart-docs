@@ -46,6 +46,6 @@ Once the item is ended on eBay, a success message will be displayed. Also, a not
 
 _Related pages:_
 
-*   {% link "Exporting products to eBay" ref_40Al0Nky %}
-*   {% link "Importing orders from eBay" ref_QTwGRPLV %}
-*   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
+*   {% link "Exporting Products to eBay" ref_40Al0Nky %}
+*   {% link "Importing Orders from eBay" ref_QTwGRPLV %}
+*   {% link "Automating Import and Export Tasks for eBay Integration" ref_qPIZcwNs %}
