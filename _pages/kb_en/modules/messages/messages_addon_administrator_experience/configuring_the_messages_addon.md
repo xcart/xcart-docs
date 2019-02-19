@@ -16,16 +16,16 @@ More info on this can be found in the section {% link "Messages addon: Usage wit
 
 For non-multivendor stores, the only thing that needs to be adjusted before you start messaging with the help of this addon is the addon-specific email notifications. To adjust the notifications, go to the Email notifications section (**Store setup** > **Email notifications**) of the store's Admin area. At present, there are two types of notifications for the Messages addon:
 
-   * **Order message** (Messages module)  
+   * **Order message** (Messages addon)  
      This message is sent to users involved in communication when a new message for them appears in the communication thread regarding an order. For this type of notification to be used, the communication must be initiated from the page of a specific order.
      
-   * **New message** (Messages module)
+   * **New message** (Messages addon)
      This message is sent to users involved in communication when a new message for them appears in the conversation. For this type of notification to be used, the communication must be initiated from a vendor page on the storefront - without an association with any specific order.
 
-More info on the management of email notifications can be found in the section {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}.
+More info on the management of email notifications can be found in the section {% link "eMail Notifications: Setup and Maintenance" ref_5QLrLCu7 %}.
 
 _Related pages:_
 
-   * {% link "Messages addon" ref_0pnZpHq3 %}
+   * {% link "Messages Addon" ref_0pnZpHq3 %}
    * {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}
-   * {% link "Messages addon: Usage with Multivendor" ref_4Ox4FPDB %}
+   * {% link "Messages Addon: Usage with Multivendor" ref_4Ox4FPDB %}
