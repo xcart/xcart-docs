@@ -34,6 +34,6 @@ In your X-Cart store's general list of orders, eBay orders are marked with the "
 
 _Related pages:_
 
-*   {% link "Exporting products to eBay" ref_40Al0Nky %}
-*   {% link "Viewing and managing your product listings on eBay" ref_UxlB19Fr %}
-*   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
+*   {% link "Exporting Products to eBay" ref_40Al0Nky %}
+*   {% link "Viewing and Managing Your Product Listings on eBay" ref_UxlB19Fr %}
+*   {% link "Automating Import and Export Tasks for eBay Integration" ref_qPIZcwNs %}
