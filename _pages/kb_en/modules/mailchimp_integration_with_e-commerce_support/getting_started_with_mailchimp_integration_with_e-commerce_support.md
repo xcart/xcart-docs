@@ -9,7 +9,7 @@ published: true
 ---
 Getting started with Mailсhimp Integration:
 
-   * Make sure integration is {% link "installed and active" ref_0fGEpvrh %} in your X-Cart store. If not, install the Mailchimp addon as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+   * Make sure integration is {% link "installed and active" ref_0fGEpvrh %} in your X-Cart store. If not, install the Mailchimp addon as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
    
    {% note info %}
    The Mailchimp addon requires the basic Newsletter subscriptions addon to be {% link "installed and enabled" ref_uEnDBBA7 %}. If both addons are used at the same time, the “Newsletter subscriptions” addon will be linked to Mailсhimp and the subscriber email addresses submitted via the subscription form will no longer be stored to a list within X-Cart, but will be handled via Mailсhimp, provided that your X-Cart store is connected to your Mailсhimp account via the addon settings, and the Mailсhimp Integration is configured properly.
@@ -124,4 +124,4 @@ Once the process has been completed, Mailchimp will no longer be used to handle 
 
 _Related pages:_
 
-* {% link "Configuring the addon 'Mailchimp Integration with E-commerce support'" ref_ST1QnErC %}
+* {% link "Configuring the Addon 'Mailchimp Integration with E-commerce Support'" ref_ST1QnErC %}
