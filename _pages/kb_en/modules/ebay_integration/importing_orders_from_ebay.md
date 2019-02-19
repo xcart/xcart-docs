@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-10-15 17:04 +0400'
 identifier: ref_QTwGRPLV
-title: Importing orders from eBay
+title: Importing Orders from eBay
 categories:
   - User manual
 published: true
