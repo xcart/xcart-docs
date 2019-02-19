@@ -24,7 +24,7 @@ _In this section:_
 *   {% link "Theme Tweaker and Webmaster Mode" ref_2L6W3YMS %}
 *   {% link "Managing Content and Service Pages" ref_27dBlUF9 %}
 *   {% link "Managing Page Navigation" ref_4wQjPcoc %}
-*   {% link "Managing text labels in your store" ref_IyGxQ1DN %}
+*   {% link "Managing Text Labels" ref_IyGxQ1DN %}
 
 
 
