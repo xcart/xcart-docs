@@ -18,11 +18,11 @@ published: true
 
 ### Product details page
 
-On the product details page, the module adds some quantity related settings that can be used to set:
+On the product details page, the addon provides some quantity related settings that can be used to adjust the following properties:
 
-*   the length of the fractional part of product quantity;
-*   custom product quantity units;
-*   allowed quantities for adding to cart.
+*   **Length of fractional part of quantity**: The length of the fractional part of product quantity.
+*   **Quantity units**: Custom product quantity units.
+*   **Allowed quantities**: Allowed quantities for adding to cart.
 
 ![]({{site.baseurl}}/attachments/9666749/9634633.png)
 
