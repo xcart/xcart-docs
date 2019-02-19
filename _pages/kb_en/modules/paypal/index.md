@@ -17,7 +17,7 @@ This addon can be used to enable payments via:
    *   {% link "PayPal Payments Advanced" ref_sO5X6iBT %}
    *   {% link "PayPal Payflow Link" ref_mTCkpViN %}
    *   {% link "PayPal for Marketplaces" ref_6iphJijP %} (supports multiple payment recipients; is recommended for X-Cart Multivendor PayPal Adaptive Payments)
-   *   {% link "PayPal Adaptive payments" ref_FdXWLwVN %} (legacy)
+   *   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %} (legacy)
    *   {% link "PayPal Partner Hosted with PCI Compliance" ref_0gaUolue %}
    *   PayPal Credit
    
@@ -26,8 +26,8 @@ This addon can also be used to enable the **Log In with PayPal** feature for you
     
 _See also:_
 
-*   {% link "Setting up a test account" ref_P9Imto9y %}
+*   {% link "Setting up a Test Account" ref_P9Imto9y %}
 *   {% link "Setting up PayPal IPN URL" ref_2rlawgsT %}
-*   {% link "Enabling the Secure Token setting" ref_rPvvhtm9 %}
-*   {% link "Creating your custom PayPal payment page" ref_PA8He4Vs %}
+*   {% link "Enabling the Secure Token Setting" ref_rPvvhtm9 %}
+*   {% link "Creating your Custom PayPal Payment Page" ref_PA8He4Vs %}
 *   {% link "Configuring PayPal Smart Payment Buttons" ref_6yI1dNPD %}
