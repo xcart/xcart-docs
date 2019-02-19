@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 15:35 +0400'
 identifier: ref_FnFqUsage
-title: Using the module "Fractional and Fixed quantities"
+title: Using the Addon "Fractional and Fixed Quantities"
 order: 40
 version: X-Cart 5.2.16 and earlier
 keywords:
