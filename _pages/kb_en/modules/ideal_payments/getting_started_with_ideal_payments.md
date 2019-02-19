@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 15:43 +0400'
 identifier: ref_h6SlMCLe
-title: Getting started with iDEAL Payments
+title: Getting Started with iDEAL Payments
 categories:
   - User manual
 published: true
