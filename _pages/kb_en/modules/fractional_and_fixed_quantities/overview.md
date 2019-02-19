@@ -18,7 +18,7 @@ published: true
 
 ### Product details page
 
-On the product details page, the addon provides some quantity related settings that can be used to adjust the following properties:
+On the product details page, the addon provides some quantity related settings that can be used to adjust the following product properties:
 
    * **Length of fractional part of quantity**: The length of the fractional part of product quantity.
    * **Quantity units**: Custom product quantity units.
