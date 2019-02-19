@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-10-15 17:07 +0400'
 identifier: ref_UxlB19Fr
-title: Viewing and managing your product listings on eBay
+title: Viewing and Managing Your Product Listings on eBay
 categories:
   - User manual
 published: true
