@@ -86,5 +86,5 @@ The product price in the invoice is shown according to what product units have b
 
 _Related pages:_
 
-*   {% link "Configuring the module «Fractional and Fixed quantities»" ref_FnFqConfig %}
-*   {% link "Using the module «Fractional and Fixed quantities»" ref_FnFqUsage %}
+*   {% link "Configuring the Addon 'Fractional and Fixed Quantities'" ref_FnFqConfig %}
+*   {% link "Using the Addon 'Fractional and Fixed Quantities'" ref_FnFqUsage %}
