@@ -30,11 +30,11 @@ On the product details page, the addon provides some quantity related settings t
 
 When a product with custom-defined product quantity units is purchased, the order info and the order invoice in the store's back end show the product quantity with quantity units. For example, the screenshot below shows what it looks like on the General info tab of the order details: 
 
-![]({{site.baseurl}}/attachments/9666749/9634626.png)
+   ![]({{site.baseurl}}/attachments/9666749/9634626.png)
 
 And here is the order invoice:
 
-![]({{site.baseurl}}/attachments/9666749/9634627.png)
+   ![]({{site.baseurl}}/attachments/9666749/9634627.png)
 
 ## Customer interface
 
@@ -42,19 +42,19 @@ And here is the order invoice:
 
 If decimal quantities have been allowed for a product by the seller, customers can specify the quantity they wish to purchase using numbers with a fractional part:
 
-![]({{site.baseurl}}/attachments/9666749/9634630.png)
+   ![]({{site.baseurl}}/attachments/9666749/9634630.png)
 
 If the seller has set allowed quantities for adding some product to the shopping cart, on the page of that product on the storefront the **Qty** field is provided in the form of a selectbox from which customers can choose one of the allowed quantities:
 
-![]({{site.baseurl}}/attachments/9666749/9634632.png)
+   ![]({{site.baseurl}}/attachments/9666749/9634632.png)
 
 If the product has custom quantity units defined, the quantity units can be selected from the selectbox on the right-hand side of the **Qty** field:
 
-![]({{site.baseurl}}/attachments/9666749/9634634.png)
+   ![]({{site.baseurl}}/attachments/9666749/9634634.png)
 
 If the product has allowed quantities defined, and these allowed quantities are associated with specific quantity units, the selection can be performed using the combined selectbox with allowed quantities and quantity units:
 
-![]({{site.baseurl}}/attachments/9666749/9634635.png)
+   ![]({{site.baseurl}}/attachments/9666749/9634635.png)
 
 The price is adjusted dynamically according to the product quantity and quantity units selected.
 
@@ -64,7 +64,7 @@ The module {% link "Wholesale" ref_ttZa4qgu %} is supported with regard to decim
 
 On the cart page, product quantities are shown with product quantity units:
 
-![]({{site.baseurl}}/attachments/9666749/9634629.png)
+   ![]({{site.baseurl}}/attachments/9666749/9634629.png)
 
 The product price is calculated and displayed based on what product units are being used.
 
@@ -72,7 +72,7 @@ The product price is calculated and displayed based on what product units are be
 
 If custom quantity units are defined, on the checkout page they are displayed next to the product quantities:
 
-![]({{site.baseurl}}/attachments/9666749/9634636.png)
+   ![]({{site.baseurl}}/attachments/9666749/9634636.png)
 
 The product price is calculated and displayed based on the product units selected.
 
@@ -80,7 +80,7 @@ The product price is calculated and displayed based on the product units selecte
 
 In the order invoice, product quantity units can also be seen next to the product quantities they define:
 
-![]({{site.baseurl}}/attachments/9666749/9634628.png)
+   ![]({{site.baseurl}}/attachments/9666749/9634628.png)
 
 The product price in the invoice is shown according to what product units have been used.
 
