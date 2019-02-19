@@ -119,7 +119,7 @@ To set the default eBay categories:
     Use the **Main eBay Category** selector to select the eBay category that best describes the products you are going to sell on eBay. If not all your products are going to be in the same category, just select the category you intend to use for the majority of your eBay listings; for the products that do not fit well into the eBay category selected here, you will be able to choose an eBay category [at the product or category level](#configuring-ebay-options-for-products-and-categories).
     ![xc5_ebay_main_category_selector.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_main_category_selector.png)
 
-    Note that category selection is likely to be a multi-step process: at first, the selector will show only top level eBay categories; once you select one of them, another selector will be displayed right below the first one so you can continue to select a nested category. You must continue selecting categories until you reach the lowest level of the eBay category hierarchy where you will be able to select the category that provides the most precise description of your products. At this point you should see a note "Selection complete" (in earlier module versions - "Allowed to select"), which means the category selection process has been completed.
+    Note that category selection is likely to be a multi-step process: at first, the selector will show only top level eBay categories; once you select one of them, another selector will be displayed right below the first one so you can continue to select a nested category. You must continue selecting categories until you reach the lowest level of the eBay category hierarchy where you will be able to select the category that provides the most precise description of your products. At this point you should see a note "Selection complete" (in earlier versions of the addon - "Allowed to select"), which means the category selection process has been completed.
     ![xc5_ebay_categories_selected.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_categories_selected.png)
 
 3.  (Optional step) In a similar way, use the **Additional eBay Category** selector to set a default _additional_ category for your products.
@@ -249,6 +249,6 @@ To set eBay options for a product:
 
 _Related pages:_
 
-*   {% link "X-Cart eBay Integration system requirements and installation" ref_RgzAH0hf %}
-*   {% link "Exporting products to eBay" ref_40Al0Nky %}
-*   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
+*   {% link "X-Cart eBay Integration System Requirements and Installation" ref_RgzAH0hf %}
+*   {% link "Exporting Products to eBay" ref_40Al0Nky %}
+*   {% link "Automating Import and Export Tasks for eBay Integration" ref_qPIZcwNs %}
