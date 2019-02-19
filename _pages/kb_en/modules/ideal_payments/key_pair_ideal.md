@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-14 11:30 +0400'
 identifier: ref_1Vi2lP6E
-title: Obtaining a key pair for iDEAL Payments
+title: Obtaining a Key Pair for iDEAL Payments
 order: 120
 published: true
 ---
