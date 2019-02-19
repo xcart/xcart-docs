@@ -5,7 +5,7 @@ updated_at: '2019-02-19 13:08 +0400'
 identifier: ref_2lgAqF3p
 title: Installing Skins from Marketplace
 order: 110
-published: false
+published: true
 ---
 [X-Cart Marketplace](https://market.x-cart.com/ecommerce-templates/ "Uploading Skins from Marketplace") offers over 70 skin to your choice that you can obtain and use for your site.
 
