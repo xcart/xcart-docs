@@ -14,7 +14,7 @@ categories:
 published: true
 ---
 
-After the addon has been installed and enabled, it needs to be configured. The module configuration settings can be accessed via the Settings link below the product name on the Installed Modules list:
+After the addon has been installed and enabled, it needs to be configured. The addon configuration settings can be accessed via the Settings link below the product name on the Installed Addons list:
 
 ![]({{site.baseurl}}/attachments/9666738/9634072.png)
 
@@ -28,4 +28,4 @@ Once you're done configuring the addon settings, be sure to click the **Submit**
 
 _Related pages:_
 
-*   {% link "Using the addon 'Fractional and Fixed quantities'" ref_FnFqUsage %}
+*   {% link "Using the Addon 'Fractional and Fixed Quantities'" ref_FnFqUsage %}
