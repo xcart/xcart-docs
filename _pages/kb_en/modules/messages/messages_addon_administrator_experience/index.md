@@ -11,10 +11,10 @@ redirect_from:
 ---
 _In this section:_
 
-   * {% link ""Messages" addon: System requirements and installation" ref_4tbCTp5V %}
-   * {% link "Configuring the "Messages" addon" ref_7K9BOMK0 %}
-   * {% link "Using the "Messages" addon for order related messaging with customers" ref_7KZpxV92 %}
+   * {% link ""Messages" addon: System Requirements and Installation" ref_4tbCTp5V %}
+   * {% link "Configuring the "Messages" Addon" ref_7K9BOMK0 %}
+   * {% link "Using the "Messages" Addon for Order Related Messaging with Customers" ref_7KZpxV92 %}
 
 _Related pages:_
    
-   *  {% link "Messages addon" ref_0pnZpHq3 %}
+   *  {% link "Messages Addon" ref_0pnZpHq3 %}
