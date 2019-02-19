@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 15:30 +0400'
 identifier: ref_FnFqIndex
-title: Fractional and Fixed quantities
+title: Fractional and Fixed Quantities
 version: X-Cart 5.2.16 and earlier
 keywords:
   - Fractional and fixed quantities
