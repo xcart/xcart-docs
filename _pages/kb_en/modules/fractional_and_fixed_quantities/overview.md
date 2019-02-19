@@ -58,7 +58,7 @@ If the product has allowed quantities defined, and these allowed quantities are 
 
 The price is adjusted dynamically according to the product quantity and quantity units selected.
 
-The module {% link "Wholesale" ref_ttZa4qgu %} is supported with regard to decimal quantities. Also, minimum and maximum purchase quantities are adjusted if a customer switches from one type of quantity units to another.
+The addon {% link "Wholesale" ref_ttZa4qgu %} is supported with regard to decimal quantities. Also, minimum and maximum purchase quantities are adjusted if a customer switches from one type of quantity units to another.
 
 ### Cart page
 
