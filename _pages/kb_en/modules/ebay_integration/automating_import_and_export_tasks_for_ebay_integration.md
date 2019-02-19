@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-10-15 14:54 +0400'
 identifier: ref_qPIZcwNs
-title: Automating import and export tasks for eBay Integration
+title: Automating Import and Export Tasks for eBay Integration
 categories:
   - User manual
 published: true
@@ -20,6 +20,6 @@ Export of products from your X-Cart store to eBay and import of orders into your
 
 _Related pages:_
 
-*   {% link "Exporting products to eBay" ref_40Al0Nky %}
-*   {% link "Importing orders from eBay" ref_QTwGRPLV %}
+*   {% link "Exporting Products to eBay" ref_40Al0Nky %}
+*   {% link "Importing Orders from eBay" ref_QTwGRPLV %}
 *   {% link "Configuring X-Cart eBay Integration" ref_SCbAqGqX %}
