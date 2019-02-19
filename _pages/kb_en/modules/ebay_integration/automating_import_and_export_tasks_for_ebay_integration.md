@@ -16,7 +16,7 @@ redirect_from:
 For X-Cart v5.3.2.8 and later.
 {% endnote %}
 
-Export of products from your X-Cart store to eBay and import of orders into your X-Cart store from eBay can be performed automatically via cron. To use this feature, be sure to enable automated periodic execution of X-Cart's script **console.php** before you install the X-Cart eBay Integration addon (For more information on console.php and instructions for running it periodically, see {% link "Configuring automated execution of periodic tasks for X-Payments subscriptions" ref_pTgcx1sg %}). During the installation, the eBay Integration module will create the necessary periodic tasks to be run via console.php.
+Export of products from your X-Cart store to eBay and import of orders into your X-Cart store from eBay can be performed automatically via cron. To use this feature, be sure to enable automated periodic execution of X-Cart's script **console.php** before you install the X-Cart eBay Integration addon (For more information on console.php and instructions for running it periodically, see {% link "Configuring automated execution of periodic tasks for X-Payments subscriptions" ref_pTgcx1sg %}). During the installation, the eBay Integration addon will create the necessary periodic tasks to be run via console.php.
 
 _Related pages:_
 
