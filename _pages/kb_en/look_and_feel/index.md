@@ -15,7 +15,7 @@ They said "Good clothes open all doors" hence choosing a store theme is a seriou
 
 X-Cart offers 5 free color schemes for your store out of the box and over [70 template add-ons](https://market.x-cart.com/ecommerce-templates/ "Look and feel") that you can use if none of the free five suits you. With any theme you choose you'll get a stylish, responsive, fully customizable and well-suited solution. 
 
-When the template choice is left behind check the standard structure overview and start with the simple skin manipulations essential for almost every store: 
+When the template choice is left behind check the standard skin structure overview and start with the simple skin manipulations essential for almost every store: 
 
 *   {% link "Skin Structure Overview" ref_2qN1oWni %}
 *   {% link "Managing Skins" ref_1yXxbHIW %}
