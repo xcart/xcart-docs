@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-08-28 18:27 +0400'
 identifier: ref_0pnZpHq3
-title: Messages addon
+title: Messages Addon
 order: 166
 published: true
 ---
