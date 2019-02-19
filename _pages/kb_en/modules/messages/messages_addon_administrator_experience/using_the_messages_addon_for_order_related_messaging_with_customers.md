@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-08-28 19:29 +0400'
 identifier: ref_7KZpxV92
-title: Using the "Messages" addon for order related messaging with customers
+title: Using the "Messages" Addon for Order Related Messaging with Customers
 order: 400
 published: true
 ---
@@ -121,4 +121,4 @@ Once the dispute has been closed, the note in red color stating the open status 
 
 _Related pages:_
 
-   * {% link "Messages addon" ref_0pnZpHq3 %}
+   * {% link "Messages Addon" ref_0pnZpHq3 %}
