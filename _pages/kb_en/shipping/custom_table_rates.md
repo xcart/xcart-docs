@@ -11,7 +11,7 @@ order: 120
 ---
 
 
-When you decide what to charge your customers for shipping, the best approach is to use shipping rates based on what shipping actually costs your business. The most accurate estimation of shipping costs can be provided by using {% link "carrier-calculated shipping rates" ref_ybdiN8r0 %}, or, as an alternative, you may decide you want to configure your own custom rates table. 
+When you decide what to charge your customers for shipping, the best approach is to use shipping rates based on what shipping actually costs your business. The most accurate estimation of shipping costs can be provided by using {% link "carrier-calculated shipping rates" ref_ybdiN8r0 %}, or, as an alternative, you may decide you want to configure your own custom rate table. 
 
 {% note info %}
 For unregistered customers shipping rates are displayed at checkout in the very same order they are set in the admin area (first comes the first active shipping method from the shipping settings page (**Store setup** -> **Shiping**)). 
