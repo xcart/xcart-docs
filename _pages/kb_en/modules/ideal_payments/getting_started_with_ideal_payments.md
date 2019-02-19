@@ -10,9 +10,9 @@ published: true
 order: 100
 ---
 
-To start using the module:
+To start using the addon:
 
-1.  Make sure the module  **iDEAL Payments** has been activated at your store (See {% link "Activating and deactivating modules" ref_uEnDBBA7 %}). If the module **iDEAL Payments** is not installed in your store, you can get it from the Marketplace (General module installation instructions are available here: {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.)
+1.  Make sure the addon  **iDEAL Payments** has been activated at your store (See {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}). If the addon **iDEAL Payments** is not installed in your store, you can get it from the Marketplace (General addon installation instructions are available here: {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.)
     ![ideal-addon.png]({{site.baseurl}}/attachments/ref_h6SlMCLe/ideal-addon.png)
 
 2.  Prepare the key pair that will be needed for the encryption of communication between your store and iDEAL. As a result, you should have two files: the file **priv.pem** with your RSA private key and the file **cert.cer** with your public certificate. For instruction on the creation of the key pair, please refer to {% link "Obtaining a key pair for iDEAL Payments" ref_1Vi2lP6E %}
@@ -27,7 +27,7 @@ To start using the module:
     The method will be added, and the method settings page will be opened:
     ![ideal-settings.png]({{site.baseurl}}/attachments/ref_h6SlMCLe/ideal-settings.png)
 
-6.  Configure the module settings:
+6.  Configure the addon settings:
 
     *   **Merchant ID**: Enter the unique 9-digit connection number that has been provided to you as a result of your application and approval for Rabobank iDEAL Professional. All Rabobank specific merchant ID’s numbers start with 0020\. You can find your merchant ID in the received notification email and in the Rabo iDEAL Dashboard (see the 'Merchant data' tab under the Profile menu option). If the merchantID has less than 9 digits, leading zeros are used to fill out the field.  
     *   **SubID**: If you have a Merchant SubID for this store, enter it here. The SubID value entered in this field will accompany each iDEAL payment originating from this store. Unless agreed otherwise with the Acquirer, the Merchant has to use 0 (zero) as subID by default (if no subIDs are used).
@@ -42,4 +42,3 @@ To start using the module:
     *   **Enable logging of iDEAL transactions**: If you experience problems with iDEAL Payments, use this setting to enable logging of communications between your X-Cart store and Rabobank iDEAL servers. This will help you or our tech support engineers to locate the source of the problems.
 
 7.  Save the changes by clicking the **Save changes** button at the bottom of the page. The method will be activated.
-
