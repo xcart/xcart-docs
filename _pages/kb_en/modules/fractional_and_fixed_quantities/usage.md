@@ -33,7 +33,7 @@ If you sell products by length, by weight or by volume, and are willing to divid
 
 ## Set quantity units for a product
 
-With the module "Fractional and Fixed quantities", each product can be adjusted to use its own quantity units.
+With the addon "Fractional and Fixed quantities", each product can be adjusted to use its own quantity units.
 
 For example, if you sell fabric, you can specify whether you are selling it by the meter, by the yard, by the bolt, or any other unit of measurement you wish to use.
 
@@ -75,11 +75,11 @@ For example, you sell bottled wine, and you have configured for it a quantity un
 
 *   _Multiplier_: 20 – _Quantity unit name_: box
 
-If someone buys two boxes of this wine, the order invoice will show that they have ordered two boxes; however, for you, the product owner, the product inventory will simply be reduced by 40 units. A box here is just a package of 20 bottles, and its price equals the price of 20 individual bottles of wine sold together. If you wish to treat a box of wine as an independent product - with its own specific price (for example, cheaper than the price of 20 bottles of wine sold together) and with its own inventory trackable separately, then the module **Fractional and Fixed quantities** may not be the right choice for you; in this case, we advise you consider the module {% link "Product variants" ref_0uApuQfx %}.
+If someone buys two boxes of this wine, the order invoice will show that they have ordered two boxes; however, for you, the product owner, the product inventory will simply be reduced by 40 units. A box here is just a package of 20 bottles, and its price equals the price of 20 individual bottles of wine sold together. If you wish to treat a box of wine as an independent product - with its own specific price (for example, cheaper than the price of 20 bottles of wine sold together) and with its own inventory trackable separately, then the addon **Fractional and Fixed quantities** may not be the right choice for you; in this case, we advise you consider the addon {% link "Product variants" ref_0uApuQfx %}.
 
 ## Set up allowed quantities for adding to cart
 
-The module "Fractional and Fixed quantities" can be used to set allowed product quantities for adding to the shopping cart. This feature may be helpful, for example, if your product is sold in packs, and you expect that your customers may find it more convenient to know the number of units in each pack and buy the product in whole packs, accordingly. 
+The addon "Fractional and Fixed quantities" can be used to set allowed product quantities for adding to the shopping cart. This feature may be helpful, for example, if your product is sold in packs, and you expect that your customers may find it more convenient to know the number of units in each pack and buy the product in whole packs, accordingly. 
 
 To set allowed quantities for a product, follow the steps below:
 
