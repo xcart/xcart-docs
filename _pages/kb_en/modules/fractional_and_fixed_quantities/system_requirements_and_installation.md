@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 15:33 +0400'
 identifier: ref_FnFqSysReq
-title: 'Fractional and Fixed quantities: system requirements and installation'
+title: 'Fractional and Fixed Quantities: System Requirements and Installation'
 order: 20
 version: X-Cart 5.2.16 and earlier
 keywords:
