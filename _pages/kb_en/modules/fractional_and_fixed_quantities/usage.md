@@ -14,13 +14,13 @@ categories:
 published: true
 ---
 
-This section provides information on:
+This section explains how to:
 
-*   [Allowing decimal quantities](#allowing-decimal-quantities)
-*   [Setting up quantity units for a product](#setting-up-quantity-units-for-a-product)
-*   [Setting up allowed quantities for adding to cart](#setting-up-allowed-quantities-for-adding-to-cart)
+*   [Allow decimal quantities](#allow-decimal-quantities)
+*   [Set up quantity units for a product](#set-up-quantity-units-for-a-product)
+*   [Set up allowed quantities for adding to cart](#set-up-allowed-quantities-for-adding-to-cart)
 
-## Allowing decimal quantities
+## Allow decimal quantities
 
 If you sell products by length, by weight or by volume, and are willing to divide a whole product unit into portions if a buyer wants to purchase a non-whole quantity of product units, you should allow buyers to specify decimal product quantities. To do so, follow the steps below:
 
@@ -31,7 +31,7 @@ If you sell products by length, by weight or by volume, and are willing to divid
 
 3.  Click **Update product** to save the changes.
 
-## Setting up quantity units for a product
+## Set quantity units for a product
 
 With the module "Fractional and Fixed quantities", each product can be adjusted to use its own quantity units.
 
@@ -77,7 +77,7 @@ For example, you sell bottled wine, and you have configured for it a quantity un
 
 If someone buys two boxes of this wine, the order invoice will show that they have ordered two boxes; however, for you, the product owner, the product inventory will simply be reduced by 40 units. A box here is just a package of 20 bottles, and its price equals the price of 20 individual bottles of wine sold together. If you wish to treat a box of wine as an independent product - with its own specific price (for example, cheaper than the price of 20 bottles of wine sold together) and with its own inventory trackable separately, then the module **Fractional and Fixed quantities** may not be the right choice for you; in this case, we advise you consider the module {% link "Product variants" ref_0uApuQfx %}.
 
-## Setting up allowed quantities for adding to cart
+## Set up allowed quantities for adding to cart
 
 The module "Fractional and Fixed quantities" can be used to set allowed product quantities for adding to the shopping cart. This feature may be helpful, for example, if your product is sold in packs, and you expect that your customers may find it more convenient to know the number of units in each pack and buy the product in whole packs, accordingly. 
 
