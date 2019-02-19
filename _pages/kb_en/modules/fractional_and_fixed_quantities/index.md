@@ -14,9 +14,9 @@ published: true
 order: 115
 ---
 
-The module "Fractional and Fixed quantities" provides a number of product quantity related features for your X-Cart 5 online store.
+The addon "Fractional and Fixed quantities" provides a number of product quantity related features for your X-Cart 5 online store.
 
-With this module you can:
+With this addon you can:
 
 *   set different quantity units for the different products in your store (useful if you need to *  sell candies by the pound, ribbon by the yard, fabric by the bolt, etc.);
 *   sell the same product using different quantity units (for example, fabric by the yard and by the bolt);
@@ -26,7 +26,7 @@ With this module you can:
 
 _In this section_:
 
-*   {% link "Fractional and Fixed quantities module: Overview" ref_FnFqOverview %}
-*   {% link "Fractional and Fixed quantities: system requirements and installation" ref_FnFqSysReq %}
-*   {% link "Configuring the module «Fractional and Fixed quantities»" ref_FnFqConfig %}
-*   {% link "Using the module «Fractional and Fixed quantities»" ref_FnFqUsage %}
+*   {% link "Fractional and Fixed Quantities Addon: Overview" ref_FnFqOverview %}
+*   {% link "Fractional and Fixed Quantities: System Requirements and Installation" ref_FnFqSysReq %}
+*   {% link "Configuring the Addon 'Fractional and Fixed Quantities'" ref_FnFqConfig %}
+*   {% link "Using the Addon 'Fractional and Fixed Quantities'" ref_FnFqUsage %}
