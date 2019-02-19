@@ -16,7 +16,7 @@ The addon can be obtained via X-Cart’s Marketplace.
 
 ![xc5_ebay_module_in_mktplce.png]({{site.baseurl}}/attachments/ref_RgzAH0hf/xc5_ebay_module_in_mktplce.png)
 
-To install and enable the addon on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+To install and enable the addon on your system, follow the general module installation instructions. See {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 As a result, you should have the addon "X-Cart eBay Integration" listed in your store's Installed Addons section:
 
@@ -25,4 +25,4 @@ As a result, you should have the addon "X-Cart eBay Integration" listed in your
 
 _Related pages:_
 
-*   {% link "Configuring X-Cart eBay Integration module" ref_SCbAqGqX %}
+*   {% link "Configuring X-Cart eBay Integration Addon" ref_SCbAqGqX %}
