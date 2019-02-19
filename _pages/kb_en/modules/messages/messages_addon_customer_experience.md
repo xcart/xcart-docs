@@ -41,4 +41,4 @@ The customer and the seller will be able to continue exchanging messages as long
 
 _Related pages:_
 
-   * {% link "Messages addon" ref_0pnZpHq3 %}
+   * {% link "Messages Addon" ref_0pnZpHq3 %}
