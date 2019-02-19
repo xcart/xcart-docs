@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-10-15 17:10 +0400'
 identifier: ref_ydMT71kb
-title: Importing products from eBay
+title: Importing Products from eBay
 order: 155
 published: true
 ---
@@ -69,6 +69,5 @@ For example:
      
 _Related pages:_
 
-*   {% link "Exporting products to eBay" ref_40Al0Nky %}
-*   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
-
+*   {% link "Exporting Products to eBay" ref_40Al0Nky %}
+*   {% link "Automating Import and Export Tasks for eBay Integration" ref_qPIZcwNs %}
