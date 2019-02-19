@@ -20,11 +20,11 @@ published: true
 
 On the product details page, the addon provides some quantity related settings that can be used to adjust the following properties:
 
-*   **Length of fractional part of quantity**: The length of the fractional part of product quantity.
-*   **Quantity units**: Custom product quantity units.
-*   **Allowed quantities**: Allowed quantities for adding to cart.
+   * **Length of fractional part of quantity**: The length of the fractional part of product quantity.
+   * **Quantity units**: Custom product quantity units.
+   * **Allowed quantities**: Allowed quantities for adding to cart.
 
-![]({{site.baseurl}}/attachments/9666749/9634633.png)
+   ![]({{site.baseurl}}/attachments/9666749/9634633.png)
 
 ### Order and invoice
 
