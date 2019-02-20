@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-27 15:55 +0400'
 identifier: ref_wuyfRXZI
-title: Adding the Category menu and Product search widgets to your WordPress blog
+title: Adding the Category Menu and Product Search Widgets to Your WordPress Blog
 categories:
   - User manual
 published: true
