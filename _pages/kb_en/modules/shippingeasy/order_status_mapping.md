@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-08 13:37 +0400'
 identifier: ref_o506IWMl
-title: Order status mapping
+title: Order Status Mapping
 categories:
   - User manual
 published: true
