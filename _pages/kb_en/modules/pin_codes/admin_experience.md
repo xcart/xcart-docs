@@ -9,10 +9,10 @@ published: true
 ---
 ## Adding Products with PIN Codes
 
-Adding a product with PIN codes is similar to adding an ordinary product described in {% link "Adding products" ref_fhzzxDTy %}. The only difference is that you must also generate PIN codes for the product using the _PIN Codes_ tab on the Product details page in the store back end.
+Adding a product with PIN codes is similar to adding an ordinary product described in {% link "Adding Products" ref_fhzzxDTy %}. The only difference is that you must also generate PIN codes for the product using the _PIN Codes_ tab on the Product details page in the store back end.
 
 To add a PIN code to a product:
-1. Create, import or clone a product as described in {% link "Adding products" ref_fhzzxDTy %}.
+1. Create, import or clone a product as described in {% link "Adding Products" ref_fhzzxDTy %}.
 2. On the _Info_ tab of the Product details page, locate the **Shipping** section and disable shipping for the product.
   ![shipping.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/shipping.png)
 3. On the Product details page, locate the _PIN Codes_ tab and enable PIN codes for the product.
@@ -53,7 +53,7 @@ If the _Approve before providing access_ option is {% link "enabled" ref_5uEPaGn
 
 ![wfa_status.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/wfa_status.png)
 
-A PIN code becomes available after a store administrator changes the order fulfilment status to any other status - except for _Will not deliver_ - provided that the order has been paid for (the payment status is paid). If the administrator changes the order fulfilment status to _Will not deliver_, the customer will not get the PIN code. More info on X-Cart order statuses is available in the section {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}.
+A PIN code becomes available after a store administrator changes the order fulfilment status to any other status - except for _Will not deliver_ - provided that the order has been paid for (the payment status is paid). If the administrator changes the order fulfilment status to _Will not deliver_, the customer will not get the PIN code. More info on X-Cart order statuses is available in the section {% link "Understanding X-Cart Order Statuses" ref_DkbTi1qJ %}.
 
 Once an order is processed, a store admin can check the PINs sold via the _PIN codes_ tab of the Order details page:
 
