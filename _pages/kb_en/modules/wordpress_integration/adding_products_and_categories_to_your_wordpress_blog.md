@@ -33,5 +33,5 @@ Now check the post in your WordPress blog; you should be able to see the product
 
 Related pages:
 
-*   {% link "How X-Cart 5 to WordPress Integration works" ref_9IwXqwiT %}
-*   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_wuyfRXZI %}
+*   {% link "How X-Cart 5 to WordPress Integration Works" ref_9IwXqwiT %}
+*   {% link "Adding the Category Menu and Product Search Widgets to Your WordPress Blog" ref_wuyfRXZI %}
