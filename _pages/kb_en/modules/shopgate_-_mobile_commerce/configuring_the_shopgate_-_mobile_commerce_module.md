@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-10 16:01 +0400'
 identifier: ref_LPT5lDvl
-title: Configuring the &quot;Shopgate - Mobile Commerce&quot; module
+title: Configuring the 'Shopgate - Mobile Commerce' Addon
 categories:
   - User manual
 published: true
