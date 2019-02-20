@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-27 15:48 +0400'
 identifier: ref_9IwXqwiT
-title: How X-Cart 5 to WordPress Integration works
+title: How X-Cart 5 to WordPress Integration Works
 categories:
   - User manual
 published: true
