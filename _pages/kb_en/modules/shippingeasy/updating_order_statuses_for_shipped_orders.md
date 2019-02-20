@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-08 16:59 +0400'
 identifier: ref_cTn6pCxX
-title: Updating order statuses for shipped orders
+title: Updating Order Statuses for Shipped Orders
 categories:
   - User manual
 published: true
@@ -18,4 +18,4 @@ When an order is shipped via ShippingEasy, ShippingEasy notifies your X-Cart sto
 
 _Related pages:_
 
-*   {% link "Canceling orders" ref_QU6Aanr9 %}
+*   {% link "Canceling Orders" ref_QU6Aanr9 %}
