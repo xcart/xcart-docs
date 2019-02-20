@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-27 15:51 +0400'
 identifier: ref_wacvoZl5
-title: Configuring the X-Cart Intergration plugin in WordPress
+title: Configuring the X-Cart Intergration Plugin in WordPress
 categories:
   - User manual
 published: true
