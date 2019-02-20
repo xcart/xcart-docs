@@ -9,16 +9,14 @@ categories:
 published: true
 order: 240
 ---
-
-
-X-Cart's ShippingEasy module provides integration with [ShippingEasy](http://shippingeasy.com/ "http://shippingeasy.com/"), a cloud-based shipping solution that allows you to automate shipping and lower shipping costs.
+X-Cart's addon ShippingEasy provides integration with [ShippingEasy](http://shippingeasy.com/ "http://shippingeasy.com/"), a cloud-based shipping solution that enables you to automate shipping and to lower shipping costs.
 
 _In this section:_
 
-*   {% link "ShippingEasy module: system requirements and installation" ref_KF7JDnSv %}
-*   {% link "Integrating your store with ShippingEasy" ref_KhhQlZLM %}
-*   {% link "Order status mapping" ref_o506IWMl %}
-*   {% link "Manual export of orders to ShippingEasy" ref_t2NVGwT2 %}
-*   {% link "Viewing shipment information" ref_WpUdcBgJ %}
-*   {% link "Updating order statuses for shipped orders" ref_cTn6pCxX %}
-*   {% link "Canceling orders" ref_QU6Aanr9 %}
+*   {% link "ShippingEasy Addon: System Requirements and Installation" ref_KF7JDnSv %}
+*   {% link "Integrating Your Store with ShippingEasy" ref_KhhQlZLM %}
+*   {% link "Order Status Mapping" ref_o506IWMl %}
+*   {% link "Manual Export of Orders to ShippingEasy" ref_t2NVGwT2 %}
+*   {% link "Viewing Shipment Information" ref_WpUdcBgJ %}
+*   {% link "Updating Order Statuses for Shipped Orders" ref_cTn6pCxX %}
+*   {% link "Canceling Orders" ref_QU6Aanr9 %}
