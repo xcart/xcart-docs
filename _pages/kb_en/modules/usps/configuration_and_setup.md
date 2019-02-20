@@ -11,11 +11,11 @@ order: 100
 ---
 
 
-The [U.S.P.S. module](http://www.x-cart.com/extensions/addons/usps.html) for X-Cart 5 allows you to use online shipping rate calculation via [USPS Web Tools Ecommerce API](http://www.usps.com/webtools).
+The [U.S.P.S. addon](http://www.x-cart.com/extensions/addons/usps.html) for X-Cart 5 allows you to use online shipping rate calculation via [USPS Web Tools Ecommerce API](http://www.usps.com/webtools).
 
-This article assumes that the U.S.P.S module has already been {% link "installed and activated" ref_0fGEpvrh %} at your store.
+This article assumes that the U.S.P.S addon has already been {% link "installed and activated" ref_0fGEpvrh %} at your store.
 
-To start using the module, you need to configure it. The module configuration settings can be accessed using one of the following methods:
+To start using the addon, you need to configure it. The adddon configuration settings can be accessed using one of the following methods:
 
 1. In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**)
    * click the **Add shipping method** button:
@@ -24,7 +24,7 @@ To start using the module, you need to configure it. The module configuration se
    * and then choose the U.S.P.S shipping method in a pop-up:
 ![pop-up.png]({{site.baseurl}}/attachments/ref_whrpZnV3/pop-up.png)
 
-2. In the Installed Addons section of your X-Cart store’s Admin area (**My addons** > **Installed addons**), locate the entry for U.S.P.S. module and click the **Settings** link below it:
+2. In the Installed Addons section of your X-Cart store’s Admin area (**My addons** > **Installed addons**), locate the entry for U.S.P.S. addon and click the **Settings** link below it:
 ![modules.png]({{site.baseurl}}/attachments/ref_whrpZnV3/modules.png)
 
 
