@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-05-03 12:18 +0400'
 identifier: ref_LMCQeIrv
-title: Setting up Google Login for your store
+title: Setting up Google Login for Your Store
 categories:
   - User manual
 published: true
