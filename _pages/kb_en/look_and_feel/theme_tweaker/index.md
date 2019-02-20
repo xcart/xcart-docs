@@ -29,7 +29,7 @@ The storefront will be opened in a new tab. Find the 'Gear' icon in the bottom l
   <div class="column" markdown="span">![modes.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/modes.png)</div>
 </div>
 
-The **Webmaster mode** provides five convenient tools that you can use to apply changes to the different parts of your site. Let's review each tool in details:
+The **Webmaster mode** provides five convenient tools that you can use to apply changes to the different parts of your site:
 1. {% link "Template Editor" ref_1gdpZJ44 %}
 2. {% link "Custom CSS" ref_10vugyja %}
 3. {% link "Layout Editor" ref_1xoeCJwy %}
