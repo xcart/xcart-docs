@@ -55,6 +55,5 @@ Here you can find detailed explanations to all configuration fields provided on
 
 _Related pages:_
 
-*   {% link "Getting started with "Shopgate - Mobile Commerce"" ref_ifsTnMAq %}
-*   {% link "Establishing connections between the plugin and Shopgate" ref_9v2iKQ2a %}
-
+*   {% link "Getting Started with "Shopgate - Mobile Commerce"" ref_ifsTnMAq %}
+*   {% link "Establishing Connections between the Plugin and Shopgate" ref_9v2iKQ2a %}
