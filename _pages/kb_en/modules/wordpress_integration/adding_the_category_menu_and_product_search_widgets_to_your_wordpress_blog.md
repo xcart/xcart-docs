@@ -82,5 +82,5 @@ Now if you check the result in the blog, you should be able to see the widget in
 
 Related pages:
 
-*   {% link "How X-Cart 5 to WordPress Integration works" ref_9IwXqwiT %}
-*   {% link "Adding products and categories to your WordPress blog" ref_TmUz8Bkv %}
+*   {% link "How X-Cart 5 to WordPress Integration Works" ref_9IwXqwiT %}
+*   {% link "Adding Products and Categories to Your WordPress Blog" ref_TmUz8Bkv %}
