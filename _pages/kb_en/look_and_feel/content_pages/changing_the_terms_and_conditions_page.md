@@ -19,26 +19,26 @@ The Terms and conditions page is added in X-Cart 5 as part of the **Simple CMS*
 
 When this module is installed and enabled, you store site's footer contains a link to your store's Terms & Conditions page:
 
-![]({{site.baseurl}}/attachments/6389830/7602619.png)
+![terms-n-cons-storefront.png]({{site.baseurl}}/attachments/ref_r5b4EKhF/terms-n-cons-storefront.png)
 
 Click on this link and you will see our dummy text for this page:
 
-![]({{site.baseurl}}/attachments/6389830/7602621.png)
+![terms-n-cons-text.png]({{site.baseurl}}/attachments/ref_r5b4EKhF/terms-n-cons-text.png)
 
 To replace this text with your own Terms and conditions:
 
 1.  In your stores Admin area, go to the Pages section (**Content > Pages**):
-    ![]({{site.baseurl}}/attachments/6389830/8716552.png)
+    ![terms-n-cons-pages.png]({{site.baseurl}}/attachments/ref_r5b4EKhF/terms-n-cons-pages.png)
 2.  In the pages list, locate the entry for the Terms and condition page:
-    ![]({{site.baseurl}}/attachments/6389830/8716553.png)
+    ![terms-n-cons-pointed.png]({{site.baseurl}}/attachments/ref_r5b4EKhF/terms-n-cons-pointed.png)
 3.  Click on the page name ("Terms and conditions"). The page will be opened for editing:
-    ![]({{site.baseurl}}/attachments/6389830/8716554.png)
+    ![terms-n-cons-edit-page.png]({{site.baseurl}}/attachments/ref_r5b4EKhF/terms-n-cons-edit-page.png)
 4.  Edit the page details and content as you require.
 5.  Click **Save** or **Save & Close** at the bottom of the page to save the changes.
 
 The availability of the Terms and conditions page to store visitrs can be controlled using the **On/Off** switch:
 
-![]({{site.baseurl}}/attachments/6389830/8716556.png)
+![terms-n-cons-on-of.png]({{site.baseurl}}/attachments/ref_r5b4EKhF/terms-n-cons-on-of.png)
 
 To disable/re-enable the Terms and conditions page:
 
@@ -48,7 +48,7 @@ To disable/re-enable the Terms and conditions page:
  If you do not want to use X-Cart's Terms and conditions page at all, you can delete it:
 
 1.  In the Pages section (**Content > Pages**), click on the **Trash** icon opposite the Terms and conditions page:
-    ![]({{site.baseurl}}/attachments/6389830/8716555.png)
+    ![terms-n-cons-del.png]({{site.baseurl}}/attachments/ref_r5b4EKhF/terms-n-cons-del.png)
     The page will be marked for deletion.
 2.  Click **Save changes**.
     The page will be removed.
@@ -58,10 +58,12 @@ If you do not like that the Terms & Conditions page link is displayed in the sit
 To hide the Terms & Conditions page link from the Footer menu:
 
 1.  Go to the Menus page (**Content > Menus**) and select the **Footer menu** tab:
-    ![]({{site.baseurl}}/attachments/6389830/8716557.png)
-2.  Switch off the Terms and conditions page link by clicking the respective **On/Off** icon next to it (the icon should turn grey):
-    ![]({{site.baseurl}}/attachments/6389830/8716558.png)
-3.  Click **Save changes**.
+    ![terms-n-cons-menus.png]({{site.baseurl}}/attachments/ref_r5b4EKhF/terms-n-cons-menus.png)
+2. Locate the **Info links** menu and click on the items included in it. 
+   You'll be redirected to the Info links menu page.
+3.  Locate the Terms and conditions line and switch off the page link by clicking the respective **On/Off** icon next to it (the icon should turn grey):
+    ![terms-n-cons-menus-del.png]({{site.baseurl}}/attachments/ref_r5b4EKhF/terms-n-cons-menus-del.png)
+4.  Click **Save changes**.
 
 _Related pages:_
 
