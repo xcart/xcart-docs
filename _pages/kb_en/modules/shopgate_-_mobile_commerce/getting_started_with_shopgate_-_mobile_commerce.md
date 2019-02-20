@@ -27,7 +27,7 @@ To start using Shopgate with your X-Cart store, please follow the steps below:
 
 4.  Connect your X-Cart store and Shopgate. See {% link "Establishing connections between the plugin and Shopgate" ref_9v2iKQ2a %}.
 
-5.  Check and adjust the "Shopgate - Mobile Commerce" module configuration. See {% link "Configuring the 'Shopgate - Mobile Commerce' addon" ref_LPT5lDvl %}.
+5.  Check and adjust the "Shopgate - Mobile Commerce" addon configuration. See {% link "Configuring the 'Shopgate - Mobile Commerce' addon" ref_LPT5lDvl %}.
 
 _Related pages:_
 
