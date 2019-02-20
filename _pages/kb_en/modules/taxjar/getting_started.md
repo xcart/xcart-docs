@@ -9,7 +9,7 @@ published: true
 ---
 To enable TaxJar Sales Tax Automation at your X-Cart store, follow the steps below:
 
-1. Get an account with [TaxJar](https://app.taxjar.com/sign_up "Getting started with TaxJar Sales Tax Automation") to get an API token. You will need to enter it on the ”TaxJar Sales Tax Automation” module settings page in your X-Cart store.
+1. Get an account with [TaxJar](https://app.taxjar.com/sign_up "Getting started with TaxJar Sales Tax Automation") to get an API token. You will need to enter it on the ”TaxJar Sales Tax Automation” addon settings page in your X-Cart store.
 
 2. Configure your company settings and tax profile in TaxJar.  
    
@@ -20,5 +20,5 @@ To enable TaxJar Sales Tax Automation at your X-Cart store, follow the steps bel
 
 3. Enable TaxJar Sales Tax Automation in your X-Cart store:
    
-   * Make sure the TaxJar Sales Tax Automation module is {% link "installed and enabled" ref_Vn1mMUw9 %}.
-   * Configure the module (See {% link "Configuring the TaxJar Sales Tax Automation Module" ref_3aEqWYoS %}).
+   * Make sure the TaxJar Sales Tax Automation addon is {% link "installed and enabled" ref_Vn1mMUw9 %}.
+   * Configure the addon (See {% link "Configuring the TaxJar Sales Tax Automation Addon" ref_3aEqWYoS %}).
