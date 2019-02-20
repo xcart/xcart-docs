@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-29 13:06 +0400'
 identifier: ref_WpUdcBgJ
-title: Viewing shipment information
+title: Viewing Shipment Information
 categories:
   - User manual
 published: true
@@ -17,6 +17,4 @@ When an order is shipped, ShippingEasy sends shipment related information back t
 
 _Related pages:_
 
-*   {% link "Updating order statuses for shipped orders" ref_cTn6pCxX %}
-
-
+*   {% link "Updating Order Statuses for Shipped Orders" ref_cTn6pCxX %}
