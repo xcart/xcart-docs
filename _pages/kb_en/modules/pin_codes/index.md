@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-11 10:36 +0400'
 identifier: ref_2ioJzfJL
-title: PIN Codes Module
+title: PIN Codes Addon
 order: 207
 published: true
 ---
