@@ -10,7 +10,7 @@ published: true
 order: 120
 ---
 {% note warning %} 
-The module **X-Cart 5 to WordPress Integration** support has been discontinued. If you wish to sell products via your blog, we recommend the module **[Buy button](https://market.x-cart.com/addons/buy-button.html "X-Cart 5 to WordPress Integration")**; it enables you to add product widgets with the Buy button right into your blog posts. If, however, you are interested in adding a Wordpress blog into your X-Cart online store, then consider the **[Blog System in X-Cart 5](https://market.x-cart.com/addons/blog-system-in-xcart-5.html "X-Cart 5 to WordPress Integration")** addon. 
+The addon **X-Cart 5 to WordPress Integration** support has been discontinued. If you wish to sell products via your blog, we recommend the addon **[Buy button](https://market.x-cart.com/addons/buy-button.html "X-Cart 5 to WordPress Integration")**; it enables you to add product widgets with the Buy button right into your blog posts. If, however, you are interested in adding a Wordpress blog into your X-Cart online store, then consider the **[Blog System in X-Cart 5](https://market.x-cart.com/addons/blog-system-in-xcart-5.html "X-Cart 5 to WordPress Integration")** addon. 
 {% endnote %}
 
 The install and use the module X-Cart 5 to WordPress Integration, you need:
