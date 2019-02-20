@@ -11,11 +11,11 @@ order: 110
 ---
 
 
-The module Product Feeds can be obtained via X-Cart’s Marketplace. It is a commercial module, so you must purchase a license to be able to use it.
+The addon Product Feeds can be obtained via X-Cart’s Marketplace. It is a commercial addon, so you must purchase a license to be able to use it.
 
-To install and enable the module on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-When installed open the module _Settings_ page to configure it:
+When installed open the addon settings page to configure it:
 ![setiings-1.png]({{site.baseurl}}/attachments/ref_UEb13T0k/setiings-1.png)
 
 You'll see a screen of the kind:
@@ -27,5 +27,5 @@ You'll need to specify:
 
 _Related pages:_
 
-*   {% link "Preparing to generate feeds" ref_Gie0uAaw %}
-*   {% link "Generating feeds" ref_20WzfB4m %}
+*   {% link "Preparing to Generate Feeds" ref_Gie0uAaw %}
+*   {% link "Generating Feeds" ref_20WzfB4m %}
