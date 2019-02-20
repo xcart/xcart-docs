@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-23 16:07 +0400'
 identifier: ref_04i6vQJb
-title: Managing product reviews
+title: Managing Product Reviews
 order: 200
 published: true
 ---
