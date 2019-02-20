@@ -9,10 +9,10 @@ published: true
 redirect_from:
   - /products/product_reviews.html
 ---
-The module **Product reviews** (included in X-Cart business) enables the product ratings and reviews feature for your X-Cart store.
+The addon **Product reviews** (included in X-Cart business) enables the product ratings and reviews feature for your X-Cart store.
     ![xc5_productreviews_module.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_module.png)
 
-With this module, customers can leave feedback for the products they purchased and see what other buyers think about the products and the store. 
+With this addon, customers can leave feedback for the products they purchased and see what other buyers think about the products and the store. 
 
 The store administrator has full product review management capabilities: 
 
@@ -24,6 +24,6 @@ The store administrator has full product review management capabilities:
 
 _In this section:_
 
-   * {% link "Configuring the Product reviews addon" ref_45EGhRet %}
-   * {% link "Managing product reviews" ref_04i6vQJb  %}
-   * {% link "Managing product review notifications" ref_1KUVvkg8 %}
+   * {% link "Configuring the Product Reviews Addon" ref_45EGhRet %}
+   * {% link "Managing Product Reviews" ref_04i6vQJb  %}
+   * {% link "Managing Product Review Notifications" ref_1KUVvkg8 %}
