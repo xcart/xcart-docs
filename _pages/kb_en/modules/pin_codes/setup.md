@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-11 11:02 +0400'
 identifier: ref_5uEPaGnt
-title: 'PIN Codes module: Installation and Setup'
+title: 'PIN Codes Addon: Installation and Setup'
 order: 100
 published: true
 ---
