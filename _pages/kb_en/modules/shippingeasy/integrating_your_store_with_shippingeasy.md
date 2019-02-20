@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-29 12:54 +0400'
 identifier: ref_KhhQlZLM
-title: Integrating your store with ShippingEasy
+title: Integrating Your Store with ShippingEasy
 categories:
   - User manual
 published: true
