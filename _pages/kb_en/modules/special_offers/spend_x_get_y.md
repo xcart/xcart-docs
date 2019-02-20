@@ -7,11 +7,11 @@ title: 'Special Offers: Spend X Get Y'
 order: 100
 published: true
 ---
-The 'Spend X Get Y' module works with a cart subtotal and gives a customer a discount if a certain subtotal is met. Unlike regular discounts or sales the module encourages customers to spend from a certain sum to win a price. The Spend X Get Y offer is especially good when you need to force sales regardless of particular SKUs. 
+The addon 'Spend X Get Y' works with a cart subtotal and gives a customer a discount if a certain subtotal is met. Unlike regular discounts or sales the addon encourages customers to spend from a certain sum to win a price. The Spend X Get Y offer is especially good when you need to force sales regardless of particular SKUs. 
 
-The module is included into the Ultimate software package. If you run Business, you can buy the [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers: Spend X Get Y") module and install it as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. 
+The addon is included into the Ultimate software package. If you run Business, you can buy the [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers: Spend X Get Y") addon and install it as described in {% link "How to Install Addons in X-Cart 5" ref_fTUahl4n %}. 
 
-Once installed the module functionality will become available in the 'Discounts: Special Offers' section of the cart admin area (Figure 1). Along with the module itself you'll see a 'Sample: Spend $100 and get 50% off the cheapest' that illustrates the basic configuration principles.
+Once installed the addon functionality will become available in the 'Discounts: Special Offers' section of the cart admin area (Figure 1). Along with the addon itself you'll see a 'Sample: Spend $100 and get 50% off the cheapest' that illustrates the basic configuration principles.
 
 ![Fig 1]({{site.baseurl}}/attachments/spendxgety.png)
 
@@ -69,7 +69,7 @@ The section that comes next is **Exclusions** (Figure 6). Here you'll exclude an
 
 ![Fig 6]({{site.baseurl}}/attachments/exclusions.png)
 
-Exclusions can be set only on the special offers created with the [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers: Spend X Get Y") and [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Spend X Get Y") modules. To set an exclusion, mark the offer(s) that will prevent the current offer from being applied.
+Exclusions can be set only on the special offers created with the [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Special Offers: Spend X Get Y") and [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Spend X Get Y") addons. To set an exclusion, mark the offer(s) that will prevent the current offer from being applied.
 
 {% note info %}
 If you have e.g. Offer A and Offer B and define Offer B as an exclusion for Offer A, Offer A and Offer B will not be applied to the same products in an order. This means that the cart will first check the order to meet the Offer A conditions and apply the discounts set for Offer A if the conditions are met. Then the cart will check the same order to meet the Offer B conditions excluding the products that were counted for Offer A. If the Offer B conditions are met the Offer B discounts will be applied to the order as well but to the different items from the order. If no exclusions are set discounts of both Offer A and Offer B can be applied to one and the same product from the order. 
@@ -97,7 +97,7 @@ The full offer description is displayed on the Special Offers page (Figure 10), 
 
 ![Fig 10]({{site.baseurl}}/attachments/description.png)
 
-Now that you know how the **Spend X Get Y offer** works you can try it on your own and create an offer in your store following the steps described above. To proceed you'll need to choose the offer type on the listing page and click _**Create**_ (presuming the Spend X Get Y module {% link "is installed and enabled" ref_fTUahl4n %}). When all required fields of the offer are filled in don't forget to click _**Update**_ and enable the offer for your customers. 
+Now that you know how the **Spend X Get Y offer** works you can try it on your own and create an offer in your store following the steps described above. To proceed you'll need to choose the offer type on the listing page and click _**Create**_ (presuming the addon Spend X Get Y {% link "is installed and enabled" ref_fTUahl4n %}). When all required fields of the offer are filled in don't forget to click _**Update**_ and enable the offer for your customers. 
 
 ![create.png]({{site.baseurl}}/attachments/create.png)
 
