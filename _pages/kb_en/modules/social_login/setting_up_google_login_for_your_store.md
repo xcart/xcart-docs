@@ -14,7 +14,7 @@ order: 300
 To add the Google Login feature to your X-Cart store site, complete the following steps:
 
 1.  Create OAuth2 client ID for your store site (See [Creating OAuth2 client ID](#creating-oauth2-client-id)).
-2.  Obtain your Google Client ID and Google Client secret and enter them on the "Social Login" module settings page in your X-Cart store's Admin area (See [Configuring the Social Login module: Google](#configuring-the-social-login-module-google))
+2.  Obtain your Google Client ID and Google Client secret and enter them on the "Social Login" addon settings page in your X-Cart store's Admin area (See [Configuring the Social Login module: Google](#configuring-the-social-login-module-google))
 
 ## Creating OAuth2 client ID 
 
@@ -51,27 +51,27 @@ To create OAuth2 client ID for your store:
 8.  On the "Create Client ID" screen:
 
     1) Select _Web application_ for the **Application type**.
-    2) In the **Authorized redirect URI** box, enter the redirect URI for your store site (Simply copy and paste the URI from the Google Login setup instructions on your store's "Social Login" module settings page).
+    2) In the **Authorized redirect URI** box, enter the redirect URI for your store site (Simply copy and paste the URI from the Google Login setup instructions on your store's "Social Login" addon settings page).
     3) Click **Create Client ID**.
     
     ![filled_type.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/filled_type.png)
 
     The Client ID will be created. 
     
-9.	The **OAuth Client** will be opened. You'll need to copy-paste ID and Secret values to the Social Login module configuration screen:
+9.	The **OAuth Client** will be opened. You'll need to copy-paste ID and Secret values to the Social Login addon configuration screen:
 	![secret.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/secret.png)
 
-## Configuring the Social Login module: Google
+## Configuring the Social Login Addon: Google
 
 1.  On the Credentials page of your project in the [Google Developers Console](https://console.developers.google.com/), locate the needed credentails and click on the pencil icon to open the screen with the **Client ID** and **Client Secret** values:
 	![credentials2.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/credentials2.png)
 
 2.  Open a separate browser tab or window for the X-Cart Admin interface so you can copy and paste the Client ID and Client secret values.
 
-3.  In the Installed Modules section of your X-Cart store’s Admin area (**Extensions** >** Installed modules**), locate the entry for the Social Login module and click the **Settings **link below it:
+3.  In the Installed Addons section of your X-Cart store’s Admin area (**Extensions** >** Installed modules**), locate the entry for the Social Login module and click the **Settings **link below it:
     ![modules.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/modules.png)
 
-    This opens the "Social Login" module settings page.
+    This opens the "Social Login" addon settings page.
 4.  Scroll down to the Google section of the page and enter your Client ID and Client secret values:
     ![module_settings.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/module_settings.png)
 
@@ -81,4 +81,4 @@ To create OAuth2 client ID for your store:
 _Related pages:_
 
 *   {% link "Social Login" ref_IapN8lJ8 %}
-*   {% link "Setting up Facebook Login for your store" ref_vpEKPoyM %}
+*   {% link "Setting up Facebook Login for Your Store" ref_vpEKPoyM %}
