@@ -10,10 +10,10 @@ published: true
 order: 100
 ---
 {% note warning %} 
-The module **X-Cart 5 to WordPress Integration** support has been discontinued. If you wish to sell products via your blog, we recommend the module **[Buy button](https://market.x-cart.com/addons/buy-button.html "X-Cart 5 to WordPress Integration")**; it enables you to add product widgets with the Buy button right into your blog posts. If, however, you are interested in adding a Wordpress blog into your X-Cart online store, then consider the **[Blog System in X-Cart 5](https://market.x-cart.com/addons/blog-system-in-xcart-5.html "X-Cart 5 to WordPress Integration")** addon. 
+The addon **X-Cart 5 to WordPress Integration** support has been discontinued. If you wish to sell products via your blog, we recommend the addon **[Buy button](https://market.x-cart.com/addons/buy-button.html "X-Cart 5 to WordPress Integration")**; it enables you to add product widgets with the Buy button right into your blog posts. If, however, you are interested in adding a Wordpress blog into your X-Cart online store, then consider the **[Blog System in X-Cart 5](https://market.x-cart.com/addons/blog-system-in-xcart-5.html "X-Cart 5 to WordPress Integration")** addon. 
 {% endnote %}
 
-The X-Cart 5 to WordPress Integration module for X-Cart allows you to build ecommerce blocks with the products and categories from your X-Cart based store into your WordPress blog website.
+The X-Cart 5 to WordPress Integration addon for X-Cart allows you to build ecommerce blocks with the products and categories from your X-Cart based store into your WordPress blog website.
 
 Here is an example of a detailed product page included into a blog post:
 
@@ -59,7 +59,7 @@ By clicking the **CHECKOUT** button a user can proceed to checkout; when this h
 
 _Related pages:_
 
-*   {% link "X-Cart 5 to WordPress Integration: System requirements and installation" ref_qe4N0rTZ %}
-*   {% link "Configuring the X-Cart Intergration plugin in WordPress" ref_wacvoZl5 %}
-*   {% link "Adding products and categories to your WordPress blog" ref_TmUz8Bkv %}
-*   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_wuyfRXZI %}
+*   {% link "X-Cart 5 to WordPress Integration: System Requirements and Installation" ref_qe4N0rTZ %}
+*   {% link "Configuring the X-Cart Intergration Plugin in WordPress" ref_wacvoZl5 %}
+*   {% link "Adding Products and Categories to Your WordPress Blog" ref_TmUz8Bkv %}
+*   {% link "Adding the Category Menu and Product Search Widgets to Your WordPress Blog" ref_wuyfRXZI %}
