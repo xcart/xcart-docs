@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 22:44 +0400'
 identifier: ref_UEb13T0k
-title: Product Feeds module installation
+title: Product Feeds Addon Installation
 categories:
   - User manual
 published: true
