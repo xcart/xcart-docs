@@ -46,6 +46,16 @@ You'll see a screen of the kind:
    * **Rotation effect** : Choose one of the available rotation effects for the banner.
    * **Enabled** : If enabled the banner is displayed in the storefront.
    
+     {% note info %}    
+     Recommended banner paramethers for Retina and 4k displays:
+     
+     * image size 3840х880 px
+     * JPG format with a 50%-80% compression
+     * file size 100-300 kb
+     
+     You can use tools like ImageOptim and/or TinyPNG for banner optimization.
+     {% endnote %}
+   
    Click **Save** or **Save & Close** when you are done. You'll see the newly created banner in the list.
    
    ![banner-created.png]({{site.baseurl}}/attachments/ref_35tpPrVf/banner-created.png)
