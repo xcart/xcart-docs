@@ -29,7 +29,7 @@ The addon's settings page allows you to control the settings related to the "Con
 
 *   **Enable form**: Select this check box to allow your store's users to access the form. When enabled, the "Contact us" form is available via the link "/?target=contact_us"; for example, if your store's address is http://www.example.com/, your customers can access the form at http://www.example.com/?target=contact_us. When the form is disabled, users attempting to access the form get the "Access denied" page.
 *   **Email address of the message recipient**: Use this field to specify the email address to which messages submitted via the "Contact us" form should be sent. If this field is left empty, the site administrator email will be used.
-*   **Show email as text**:
+*   **Show email as text**: Enable this option if you need the email address of the message recipient to be displayed to customers on the Contact Us page in the storefront. In case the **Email address of the message recipient** field value is empty, the page will display the email defined for **HelpDesk/Support service e-mails** in the **Store setup** -> **Contact information** section of the store admin area.
 
 The "Contact us" form can be protected by reCAPTCHA. reCAPTCHA is a free Web service that helps prevent automated abuse of your site. In this case, it prevents automated submission of the "Contact us" form by using a [CAPTCHA](http://www.google.com/recaptcha#captcha) to ensure that only humans can submit it. 
 
