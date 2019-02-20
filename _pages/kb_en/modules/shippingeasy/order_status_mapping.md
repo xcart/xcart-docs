@@ -46,7 +46,7 @@ For example, according to the order statuses configuration demonstrated in the s
 
 _Related pages:_
 
-*   {% link "Manual export of orders to ShippingEasy" ref_t2NVGwT2 %}
-*   {% link "Viewing shipment information" ref_WpUdcBgJ %}
-*   {% link "Updating order statuses for shipped orders" ref_cTn6pCxX %}
-*   {% link "Canceling orders" ref_QU6Aanr9 %}
+*   {% link "Manual Export of Orders to ShippingEasy" ref_t2NVGwT2 %}
+*   {% link "Viewing Shipment Information" ref_WpUdcBgJ %}
+*   {% link "Updating Order Statuses for Shipped Orders" ref_cTn6pCxX %}
+*   {% link "Canceling Orders" ref_QU6Aanr9 %}
