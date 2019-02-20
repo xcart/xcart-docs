@@ -10,7 +10,7 @@ published: true
 order: 130
 ---
 {% note warning %} 
-The module **X-Cart 5 to WordPress Integration** support has been discontinued. If you wish to sell products via your blog, we recommend the module **[Buy button](https://market.x-cart.com/addons/buy-button.html "X-Cart 5 to WordPress Integration")**; it enables you to add product widgets with the Buy button right into your blog posts. If, however, you are interested in adding a Wordpress blog into your X-Cart online store, then consider the **[Blog System in X-Cart 5](https://market.x-cart.com/addons/blog-system-in-xcart-5.html "X-Cart 5 to WordPress Integration")** addon. 
+The addon **X-Cart 5 to WordPress Integration** support has been discontinued. If you wish to sell products via your blog, we recommend the addon **[Buy button](https://market.x-cart.com/addons/buy-button.html "X-Cart 5 to WordPress Integration")**; it enables you to add product widgets with the Buy button right into your blog posts. If, however, you are interested in adding a Wordpress blog into your X-Cart online store, then consider the **[Blog System in X-Cart 5](https://market.x-cart.com/addons/blog-system-in-xcart-5.html "X-Cart 5 to WordPress Integration")** addon. 
 {% endnote %}
 
 The X-Cart Integration plugin for WordPress is needed to connect your X-Cart store to your WordPress blog website.
@@ -30,7 +30,7 @@ After installing this plugin in WordPress, you need to enable and configure it:
 
 Related pages:
 
-*   {% link "How X-Cart 5 to WordPress Integration works" ref_9IwXqwiT %}
-*   {% link "X-Cart 5 to WordPress Integration: System requirements and installation" ref_qe4N0rTZ %}
-*   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_wuyfRXZI %}
-*   {% link "Adding products and categories to your WordPress blog" ref_TmUz8Bkv %}
+*   {% link "How X-Cart 5 to WordPress Integration Works" ref_9IwXqwiT %}
+*   {% link "X-Cart 5 to WordPress Integration: System Requirements and Installation" ref_qe4N0rTZ %}
+*   {% link "Adding the Category Menu and Product Search Widgets to Your WordPress Blog" ref_wuyfRXZI %}
+*   {% link "Adding Products and Categories to Your WordPress blog" ref_TmUz8Bkv %}
