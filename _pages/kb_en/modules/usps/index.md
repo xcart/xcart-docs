@@ -10,12 +10,12 @@ redirect_from:
   - /modules/u.s.p.s.html
   - /modules/usps.html
 ---
-X-Cart is integrated with U.S.P.S. carrier services via the [U.S.P.S. module](https://market.x-cart.com/addons/usps.html "U.S.P.S.") and allows to communicate with USPS API in two possible ways to retrieve shipping rates:
+X-Cart is integrated with U.S.P.S. carrier services via the [U.S.P.S. addon](https://market.x-cart.com/addons/usps.html "U.S.P.S.") and allows to communicate with USPS API in two possible ways to retrieve shipping rates:
 
 1. Direct connection with USPS Web Tools Ecommerce APIs to retrieve the list of available U.S.P.S. delivery methods and calculate the rates charged for shipping ordered items to international customers and customers within the United States.
 
    {% note info %}
-   The module calculates rates for orders shipped from the United States only. You just need to enter your USPS credentials to start using it.
+   The addon calculates rates for orders shipped from the United States only. You just need to enter your USPS credentials to start using it.
    {% endnote %}
 
 2. USPS via Pitney Bowes API (since X-Cart 5.3.3 released)
@@ -29,7 +29,7 @@ X-Cart is integrated with U.S.P.S. carrier services via the [U.S.P.S. module](ht
    - a possibility to manage refunds and cancellations.
    
 
-To start using the U.S.P.S. module install it as described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
+To start using the U.S.P.S. addon install it as described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
    
    *  {% link "U.S.P.S. General Configuration" ref_whrpZnV3 %}
    *  {% link "U.S.P.S. Shipments via Pitney Bowes" ref_0TwynAXE %}
