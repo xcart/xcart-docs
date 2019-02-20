@@ -33,10 +33,13 @@ To do this, you'll need to:
 
 1. Place an order as an admin and stop on the invoice page. 
 2. Enable the **Webmaster mode** by clicking the 'Gear' icon in the bottom left corner. 
-3. Choose the **Template Editor** tool and turn ON the _Pick templates from page_ option. You'll see a main list of templates used on this page.
+3. Choose the **Template Editor** tool and turn ON the _Pick templates from page_ option. 
+   
+   You'll see a main list of templates used on this page.
    ![invoice_page.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice_page.png)
      
 4. Pick a page element with a mouse (the element will be highlighted) and see the .twig file that corresponds with this element. 
+   
    _It will be the 'Shipping Address' info block in our case and the template that corresponds with it is _common/order/invoice/parts/bottom.address.shipping.twig_.
   ![highlighted_element.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/highlighted_element.png)
      
@@ -46,7 +49,9 @@ To do this, you'll need to:
    ![address-fields.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/address-fields.png)
    {% endnote %}
      
-5. Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block next to it. For this purpose:
+5. Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block next to it. 
+   
+   For this purpose:
    * find the _common/order/invoice/parts/bottom.address.shipping.twig_ template 
    * go one level up to the template that embeds both the shipping and billing address elements. This is the _common/order/invoice/parts/bottom.twig_ template.
      ![code-switch.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/code-switch.png)
@@ -57,7 +62,7 @@ To do this, you'll need to:
         ```twig
         <table cellspacing="0" class="addresses{% if this.order.isShippingSectionVisible() %} S{% endif %}{% if this.order.isPaymentSectionVisible() %} B{% endif %}">
         ```
-      * change the order of the code units to (1) `{% if this.order.isPaymentSectionVisible() %} B{% endif %}` <-> (2) `{% if this.order.isShippingSectionVisible() %} S{% endif %}` so that the line becomes
+      * change the order of the code units (1) `{% if this.order.isPaymentSectionVisible() %} B{% endif %}` and (2) `{% if this.order.isShippingSectionVisible() %} S{% endif %}` so that the line becomes:
      
         ```twig
         <table cellspacing="0" class="addresses{% if this.order.isPaymentSectionVisible() %} B{% endif %}{% if this.order.isShippingSectionVisible() %} S{% endif %}">
@@ -101,7 +106,7 @@ If a custom template is disabled the changes it applies will be cancelled and th
      
 ### Sample N2: Edit e-mail notification
 
-The second way to change an invoice is to edit the e-mail notification that a customer and an admin gets after an order is placed.
+The second way to change an invoice is to edit the e-mail notification that a customer and an admin receive after an order is placed.
      
 For this purpose:
 
@@ -119,42 +124,47 @@ Click on it and a random invoice will be opened in a new tab.
      
    _We'll remove the **Shipping method** section from the invoice in our sample._
      
-  ![invoice.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice.png)
+   ![invoice.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice.png)
      
 5. Click on the highlighted .twig file to open and edit it the way you need. 
   
-  _In our case it's the common/order/invoice/parts/bottom.methods.shipping.twig file and we'll delete the highlighted code from it to remove the **Shipping method** section from the invoice e-mail notification._
+   _In our case it's the common/order/invoice/parts/bottom.methods.shipping.twig file and we'll delete the highlighted code from it to remove the **Shipping method** section from the invoice e-mail notification._
      
-  ![invoice_changes.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice_changes.png)
+   ![invoice_changes.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice_changes.png)
 
 6. Save the changes when you are done.
 
 Once the changes are applied the invoice page looks as follows:
-     
-  ![deleted.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/deleted.png)
+![deleted.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/deleted.png)
     
 ## How to add a new element?
 
-As you may have already noticed the default Crisp and White skin unlike other default skins doesn't show a country flag near to the country name in the store front-end. Let's check how we can change it.
+As you may have already noticed the default CrispWhite skin unlike default Standard skins doesn't show a country flag near to the country name in the store front-end. Let's check how we can change it.
 
-First of all, you'll need to {% link "apply" ref_GLqVdpgd %} one of the standard skins to your store (if possible) and open the store home page in a Standard skin when logged in as an admin. This is required for you to be able to use the **Webmaster mode** -> **Template Editor**. Make sure the 'Pick templates from page' option is enabled. Click on the 'Language selector' element to find the .twig file that corresponds with it.
+To start, you'll need to: 
 
-![standsrd-skin.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/standsrd-skin.png)
+1. {% link "Apply" ref_GLqVdpgd %} one of the standard skins to your store (if possible).
+2. Open the store home page in a Standard skin when logged in as an admin. 
+3. Enable the **Webmaster mode** by clicking the 'Gear' icon in the bottom left corner.
+4. Choose the **Template Editor** tool and turn ON the _Pick templates from page_ option.
+5. Click on the 'Language selector' element to find the .twig file that corresponds with it.
+   ![standsrd-skin.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/standsrd-skin.png)
 
-Find the code that is responsible for a country flag representation and copy it.
+6. Find the code that is responsible for a country flag representation and copy it.
+    
+   ```
+   <img src="{{ this.currentLanguage.flagURL }}" alt="" />
+   ```
 
-```
-<img src="{{ this.currentLanguage.flagURL }}" alt="" />
-```
+7. Switch the store skin to CrispWhite in the **Look and Feel**-> **Layout** section of the admin area. 
+8. Open the storefront and log in as an admin there. Click on the 'Gear' iсon in the bottom left corner to enable the **Webmaster mode** -> **Template editor** tool. 
 
-After that switch the store skin to Crisp and White in the **Look and Feel**-> **Layout** section of the admin area. Open the store-front and log in as an admin there. Click on the 'Gear' iсon in the bottom left corner to enable the **Webmaster mode** -> **Template editor** tool. 
+9. Click on the 'Language selector' to see the .twig file you need to edit (_crisp_white/customer/layout/header/locale/country.twig_) 
+10. Paste the code in this template so that it looks as in the figure below:
+    ![crisp_flag.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/crisp_flag.png)
 
-Click on the 'Language selector' to see the .twig file you need to edit (_crisp_white/customer/layout/header/locale/country.twig_) and paste the code in this template so that it looks as in the figure below:
+11. Save the changes.
 
-![crisp_flag.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/crisp_flag.png)
-
-Save the changes.
-
-That's it! You've added a country flag to the Crisp and White skin.
+That's it! You've added a country flag to the CrispWhite skin.
 
 ![flag_changed.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/flag_changed.png)
