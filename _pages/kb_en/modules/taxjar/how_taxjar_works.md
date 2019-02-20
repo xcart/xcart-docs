@@ -3,13 +3,13 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-17 18:51 +0400'
 identifier: ref_19ny5CB7
-title: How TaxJar Sales Tax Automation works
+title: How TaxJar Sales Tax Automation Works
 order: 100
 published: true
 ---
-Sales tax automation for orders at your X-Cart store falls back on TaxJar’s extensive database of taxability data for different taxing jurisdictions (also known as nexus). X-Cart’s TaxJar Sales Tax Automation module allows your store to connect to TaxJar engine to determine the nexus to which the sale transaction pertains based on the address data provided and have the appropriate product taxability rules applied to the order. 
+Sales tax automation for orders at your X-Cart store falls back on TaxJar’s extensive database of taxability data for different taxing jurisdictions (also known as nexus). X-Cart’s TaxJar Sales Tax Automation addon allows your store to connect to TaxJar engine to determine the nexus to which the sale transaction pertains based on the address data provided and have the appropriate product taxability rules applied to the order. 
 
-When sales tax calculation needs to be performed, the module passes on to TaxJar all the information it requires to do the calculation. TaxJar uses this information to determine the nexus and select the taxing rules that need to be applied. The results of sales tax calculation for an order are provided directly on the checkout page before the order is placed:
+When sales tax calculation needs to be performed, the addon passes on to TaxJar all the information it requires to do the calculation. TaxJar uses this information to determine the nexus and select the taxing rules that need to be applied. The results of sales tax calculation for an order are provided directly on the checkout page before the order is placed:
 
 ![checkout.png]({{site.baseurl}}/attachments/ref_19ny5CB7/checkout.png)
 
@@ -24,4 +24,3 @@ A customer won't be able to place an order with an incorrectly defined address i
 {% endnote %}
 
 All order and refund transactions are then imported into TaxJar automatically and registered in the [Transactions](https://app.taxjar.com/transactions "How TaxJar Sales Tax Automation works") section. Orders are imported immediately after they’re paid and delivered in a complete status, i.e. the orders are in a “Paid” payment status and “Shipped” or “Delivered” fulfillment status. Pending orders that might be canceled aren’t imported into TaxJar. TaxJar forms periodical tax [reports in the Dashboard](https://app.taxjar.com/dashboard "How TaxJar Sales Tax Automation works") based on the imported order info.
-
