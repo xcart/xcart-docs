@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-12 15:45 +0400'
 identifier: ref_10vugyja
-title: How to Use Custom CSS
+title: Custom CSS
 order: 120
 published: true
 ---
@@ -15,14 +15,16 @@ If you need to see the changes while you are adding them, use the **Webmaster mo
 
 ![custom_css_customer.png]({{site.baseurl}}/attachments/ref_10vugyja/custom_css_customer.png)
 
-The custom css code that you see when opening the tool for the first time is a demo one that represents the basic page layout structure. You can edit the code or delete it completely both in the admin back-end or store front-end. The code deletion will not affect the skin anyhow.
+The custom css code that you see when opening the tool for the first time is a demo one that represents the basic page layout structure. You can edit the code or delete it completely both in the admin back-end and store frontend. The code deletion will not affect the skin anyhow.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![code_deleted_1.png]({{site.baseurl}}/attachments/ref_10vugyja/code_deleted_1.png)</div>
   <div class="column" markdown="span">![code_deleted_2.png]({{site.baseurl}}/attachments/ref_10vugyja/code_deleted_2.png)</div>
 </div>
 
-Let's check how the skin changes are applied based on the demo css code provided. The figures below show one and the same page with the custom css code enabled and disabled.
+Let's check how the skin changes are applied based on the demo css code provided. 
+
+The figures below show one and the same page with the custom css code enabled and disabled.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![css_off.png]({{site.baseurl}}/attachments/ref_10vugyja/css_off.png)</div>
