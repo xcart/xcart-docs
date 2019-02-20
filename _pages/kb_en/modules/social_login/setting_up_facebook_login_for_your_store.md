@@ -3,18 +3,16 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-05-03 11:13 +0400'
 identifier: ref_vpEKPoyM
-title: Setting up Facebook Login for your store
+title: Setting up Facebook Login for Your Store
 categories:
   - User manual
 published: true
 order: 200
 ---
-
-
 To add the "Login with Facebook" feature to your X-Cart store site, complete the following steps:
 
 1.  Create and configure a new App on Facebook (See [Creating a Facebook App](#creating-a-facebook-app)).
-2.  Obtain your Facebook App ID and App Secret and enter them on the "Social Login" module settings page in your X-Cart store's Admin area (See [Configuring the Social Login module: Facebook](#configuring-the-social-login-module-facebook))
+2.  Obtain your Facebook App ID and App Secret and enter them on the "Social Login" addon settings page in your X-Cart store's Admin area (See [Configuring the Social Login module: Facebook](#configuring-the-social-login-module-facebook))
 
 ## Creating a Facebook App
 
@@ -42,13 +40,13 @@ To create an App for Facebook login:
 6.  On the first step of the wizard enter your site URL and click **Save** and **Continue**:
     ![quickstart.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/quickstart.png)
         
-7.  The next steps are already integrated in the Social Login module, you can skip them.
+7.  The next steps are already integrated in the Social Login addon, you can skip them.
 	![facebook_5.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/facebook_5.png)
 
 8.	Scroll to the page top and use the **Settings** -> **Basic** section to see the app details:
     ![app_id.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/app_id.png)
     
-    Copy-paste your App ID and App Secret to use later in the configuration of the **Social Login** module.
+    Copy-paste your App ID and App Secret to use later in the configuration of the **Social Login** addon.
     Make sure the following fields are filled in with your X-Cart site info:
     * App Domains
     * Privacy Policy URL
@@ -71,9 +69,9 @@ To create an App for Facebook login:
 
 That is all. Your Facebook App has been configured.
 
-## Configuring the Social Login module: Facebook
+## Configuring the Social Login Addon: Facebook
 
-Once you have created and configured your Facebook App, you will need to obtain two pieces of information: your Facebook App ID and App Secret. These will need to be entered in X-Cart so the module can connect to the App you created on Facebook and generate the Facebook login widget code correctly.
+Once you have created and configured your Facebook App, you will need to obtain two pieces of information: your Facebook App ID and App Secret. These will need to be entered in X-Cart so the addon can connect to the App you created on Facebook and generate the Facebook login widget code correctly.
 
 The Facebook App ID and App Secret can be found on the **Settings** -> **Basic** page for your App (You will need to click the **Show** button and enter your password to reveal the App Secret):
 
@@ -81,17 +79,17 @@ The Facebook App ID and App Secret can be found on the **Settings** -> **Basic**
 
 We recommend opening your X-Cart Admin interface in a separate browser tab or window so you can copy and paste the App ID and App Secret values from Facebook to X-Cart.
 
-To configure the module:
+To configure the addon:
 
-1.  In the Installed Modules section of your X-Cart store’s Admin area, locate the entry for the **Social Login** module and click the **Settings** link below it:
+1.  In the Installed Addons section of your X-Cart store’s Admin area, locate the entry for the **Social Login** addon and click the **Settings** link below it:
     ![addons.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/addons.png)
     
-    This opens the "Social Login" module settings page:
+    This opens the "Social Login" addon settings page:
     ![social_login_settings.png]({{site.baseurl}}/attachments/ref_vpEKPoyM/social_login_settings.png)
     
-2.  On the "Social Login" module settings page, complete the **Facebook App ID/API Key** and **Facebook App Secret** fields with the Facebook App ID and App Secret values you obtained on Facebook. 
+2.  On the "Social Login" addon settings page, complete the **Facebook App ID/API Key** and **Facebook App Secret** fields with the Facebook App ID and App Secret values you obtained on Facebook. 
 
-	The "Social Login" module can also requests user location information, which requires additional approval from Facebook. This allows X-Cart to fill the address automatically upon user login (in case user has specified his location on the Facebook). You can disable this feature by using the **Request user location** checkbox.
+	The "Social Login" addon can also requests user location information, which requires additional approval from Facebook. This allows X-Cart to fill the address automatically upon user login (in case user has specified his location on the Facebook). You can disable this feature by using the **Request user location** checkbox.
 
 3.  After you've configured the Facebook section, click the **Submit** button near the bottom of the page to save the changes.
 
@@ -100,4 +98,4 @@ To configure the module:
 _Related pages:_
 
 *   {% link "Social Login" ref_IapN8lJ8 %}
-*   {% link "Setting up Google Login for your store" ref_LMCQeIrv %}
+*   {% link "Setting up Google Login for Your Store" ref_LMCQeIrv %}
