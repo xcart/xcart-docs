@@ -13,24 +13,39 @@ A second tool of the Webmaster mode is **Custom CSS**. This tool is aimed at cha
 
 ## Adding Custom CSS code to the site.
 
-Use the **Look and Feel** > **Custom CSS & JS** section of the store admin area to change your store skin with a custom css. The changes are applied storewide and are recorded in the **Look and Feel** > **Custom CSS & JS** section of your store admin area. 
+All changes that are applied through the **Custom CSS** tool facilities are applied storewide (i.e. to a store as a whole, but not to a single page of a store) and are recorded in the **Look and Feel** > **Custom CSS & JS** section of your store admin area. 
 
-![custom_css.png]({{site.baseurl}}/attachments/ref_10vugyja/custom_css.png)
+### Adding Custom CSS code in the Admin area
 
-If you need to see the changes while you are adding them, use the **Webmaster mode** -> **Custom CSS** tool in the store front-end. 
+To add Custom CSS code:
+
+1. Open the **Custom CSS** section of the admin area (**Look & Feel** -> **Custom CSS & JS**)
+   ![custom_css.png]({{site.baseurl}}/attachments/ref_10vugyja/custom_css.png)
+2. Turn on the **Use custom css** toggle
+3. Clean the text area beneath the toggle and paste your custom CSS code there
+   ![code_deleted_1.png]({{site.baseurl}}/attachments/ref_10vugyja/code_deleted_1.png)
+4. **Save** the changes.
+
+### Adding Custom CSS code in the storefront
+
+If you need to see the changes while you are adding them, use the **Webmaster mode** -> **Custom CSS** tool in the store frontend. 
 
 {% note info %}
 Please don't forget to be logged in as an admin.
 {% endnote %}
 
-![custom_css_customer.png]({{site.baseurl}}/attachments/ref_10vugyja/custom_css_customer.png)
-
-The custom css code that you see when opening the tool for the first time is a demo one that represents the basic page layout structure. You can edit the code or delete it completely both in the admin back-end and store frontend. The code deletion will not affect the skin anyhow.
-
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![code_deleted_1.png]({{site.baseurl}}/attachments/ref_10vugyja/code_deleted_1.png)</div>
-  <div class="column" markdown="span">![code_deleted_2.png]({{site.baseurl}}/attachments/ref_10vugyja/code_deleted_2.png)</div>
-</div>
+For this purpose: 
+1. Enable the Webmaster mode by clicking the ‘Gear’ icon in the bottom left corner.
+2. Choose the **Custom CSS** tool and turn ON the _Use Custom CSS_ option.
+   ![custom_css_customer.png]({{site.baseurl}}/attachments/ref_10vugyja/custom_css_customer.png)
+   
+   {% note info %}
+   The custom css code that you see when opening the tool for the first time is a demo one that represents the basic page layout structure. You can edit the code or delete it completely. The code deletion will not affect the skin anyhow.
+   
+   ![code_deleted_2.png]({{site.baseurl}}/attachments/ref_10vugyja/code_deleted_2.png)
+   {% endnote %}
+3. Paste your custom CSS code to the text area.
+4. Save the changes.
 
 Let's check how the skin changes are applied based on the demo css code provided. 
 
@@ -73,8 +88,13 @@ You can use the demo css code to learn how to apply similar changes to your stor
 
 ## Adding JS code to the site
 
-It's also possible to add javascrips to your site. For this purpose use the **Custom JavaScript** tab in the **Look and feel** -> **Custom CSS & JS** section of the admin back-end. 
+It's also possible to add javascrips to your site. 
 
-![custom_JS.png]({{site.baseurl}}/attachments/ref_10vugyja/custom_JS.png)
+For this purpose:
+1. Open **Custom JavaScript** section of the admin area (**Look and feel** -> **Custom CSS & JS**).
+   ![custom_JS.png]({{site.baseurl}}/attachments/ref_10vugyja/custom_JS.png)
+2. Turn the **Use custom js** toggle on
+3. Paste your custom JS code to the text area.
+4. Save the changes.
 
 Javascripts are stored in one file and both custom CSS and JS are added to the <HEAD> tag after all style files applied.
