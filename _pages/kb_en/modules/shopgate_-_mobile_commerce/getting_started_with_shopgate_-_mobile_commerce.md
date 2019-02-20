@@ -3,14 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-10 15:59 +0400'
 identifier: ref_ifsTnMAq
-title: Getting started with &quot;Shopgate - Mobile Commerce&quot;
+title: Getting Started with 'Shopgate - Mobile Commerce'
 categories:
   - User manual
 published: true
 order: 100
 ---
-
-
 To start using Shopgate with your X-Cart store, please follow the steps below:
 
 1.  In your X-Cart store's Admin area, go to the Modules Marketplace (**Extensions > Marketplace**) and install the module **Shopgate - Mobile Commerce**:
