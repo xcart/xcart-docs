@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 22:49 +0400'
 identifier: ref_20WzfB4m
-title: Generating feeds
+title: Generating Feeds
 categories:
   - User manual
 published: true
@@ -19,7 +19,7 @@ To generate product feeds:
 2.  Select the shopping engines for which you want to export your products.
     ![pf-2.png]({{site.baseurl}}/attachments/ref_20WzfB4m/pf-2.png)
 
-3.  Click **Generate selected feeds**. The module will start generating the selected feeds.
+3.  Click **Generate selected feeds**. The addon will start generating the selected feeds.
 
 While X-Cart is generating the feeds, the page will display a progress bar instead of the list of supported shopping engines:
 
@@ -35,5 +35,5 @@ For better results, we recommend you analyze the feeds that were generated and t
 
 _Related pages:_
 
-*   {% link "Product Feeds module installation" ref_UEb13T0k %}
-*   {% link "Preparing to generate feeds" ref_Gie0uAaw %}
+*   {% link "Product Feeds Addon Installation" ref_UEb13T0k %}
+*   {% link "Preparing to Generate Feeds" ref_Gie0uAaw %}
