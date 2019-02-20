@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-17 18:25 +0400'
 identifier: ref_3U4ulELA
-title: Getting started with TaxJar Sales Tax Automation
+title: Getting Started with TaxJar Sales Tax Automation
 order: 120
 published: true
 ---
