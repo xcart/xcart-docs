@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-23 16:28 +0400'
 identifier: ref_1KUVvkg8
-title: Managing product review notifications
+title: Managing Product Review Notifications
 order: 300
 published: true
 ---
@@ -12,4 +12,4 @@ When a new product review is submitted, a "New product review submitted" email n
 
 _Related pages:_
 
-   * {% link "Product reviews" ref_XBriIS6B %}
+   * {% link "Product Reviews" ref_XBriIS6B %}
