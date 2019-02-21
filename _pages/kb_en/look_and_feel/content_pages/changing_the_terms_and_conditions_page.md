@@ -3,11 +3,11 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-30 11:53 +0400'
 identifier: ref_r5b4EKhF
-title: Changing the Terms and conditions page
+title: Changing the 'Terms and Conditions' Page
 categories:
   - User manual
 published: true
-order: 550
+order: 110
 redirect_from:
   - /look_and_feel/changing_the_terms_and_conditions_page.html
 ---
