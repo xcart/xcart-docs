@@ -3,11 +3,11 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-28 00:08 +0400'
 identifier: ref_hfZXkxzT
-title: Enabling the Contact Us form
+title: Enabling the 'Contact Us' Form
 categories:
   - User manual
 published: true
-order: 650
+order: 120
 redirect_from:
   - /look_and_feel/enabling_the_contact_us_form.html
 ---
