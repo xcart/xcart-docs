@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-05 14:08 +0400'
 identifier: ref_34F5BkhW
-title: Geolocation Module
+title: Geolocation Addon
 order: 125
 published: true
 ---
