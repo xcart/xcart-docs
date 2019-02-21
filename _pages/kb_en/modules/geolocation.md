@@ -41,7 +41,6 @@ The following settings are available:
     If the store has only one currency and one language enabled, the widget will not be displayed.
     If the store has a single currency and more than one languages enabled, the widget will show the customer's country as has been identified automatically based on the customer's IP address, but will not provide the customer with controls to change their location. 
     
-    
 * **Upload extended database** : You can upload an extended .mmdb database to be able to identify a user's location by IP more accurately. 
     MaxMind provides the following database options:
     * [Free GeoLite2 databases](https://dev.maxmind.com/geoip/geoip2/geolite2/ "Geolocation Addon")
