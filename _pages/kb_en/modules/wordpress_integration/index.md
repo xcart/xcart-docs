@@ -21,7 +21,7 @@ _In this section:_
 *   {% link "X-Cart 5 to WordPress Integration: System Requirements and Installation" ref_qe4N0rTZ %}
 *   {% link "Configuring the X-Cart Intergration Plugin in WordPress" ref_wacvoZl5 %}
 *   {% link "Adding Products and Categories to Your WordPress Blog" ref_TmUz8Bkv %}
-*   {% link "Adding the Category Menu and Product search widgets to your WordPress blog" ref_wuyfRXZI %}
+*   {% link "Adding the Category Menu and Product Search Widgets to Your WordPress Blog" ref_wuyfRXZI %}
 
 _See also:_
 
