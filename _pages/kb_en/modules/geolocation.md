@@ -36,7 +36,7 @@ The rest of the settings are as follows:
     * [free GeoLite2 databases](https://dev.maxmind.com/geoip/geoip2/geolite2/ "Geolocation Addon")
     * [paid GeoIP2 databases](https://www.maxmind.com/en/geoip2-databases?%25refID=xcart%25 "Geolocation Addon")
     
-    MaxMind GeoIP2 databases are more accurate than GeoLite2 databases. The default GeoLite2-Country database can be used to identify a customer's location to the level of a country. If you need a more accurate database, you can switch to a free GeoLite2-City database that can help you to estimate a customer's location to a city. If you need more options, try one of the paid GeoIP2 databases.
+    MaxMind GeoIP2 databases are more accurate than GeoLite2 databases. The GeoLite2-Country database that is used by default can be used to identify a customer's location to the level of a country. If you need higher geolocation precision, you can switch to a free GeoLite2-City database that can help you to estimate a customer's location to a city. If you need more options, try one of the paid GeoIP2 databases.
     
     To upload a new database, download a zipped database package from maxmind.com, unpack the database archive to access the .mmdb file and upload the .mmdb file to your X-Cart installation using the "Choose file" option opposite the **Upload extended database** field. 
       
