@@ -3,11 +3,11 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-28 00:35 +0400'
 identifier: ref_GX9sbLzF
-title: Changing the text of the maintenance page
+title: Editing the Maintenance Page
 categories:
   - User manual
 published: true
-order: 350
+order: 140
 redirect_from:
   - /look_and_feel/changing_the_text_of_the_maintenance_page.html
 ---
