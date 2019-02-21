@@ -20,8 +20,8 @@ Main, but not all, of the content pages are created and managed in the **Pages**
 _In this section:_
 
 *  {% link "Adding Content Pages" ref_Ptf5vaPn %}
-*  {% link "Changing the Terms and conditions page" ref_r5b4EKhF %}
-*  {% link "Enabling the Contact Us form" ref_hfZXkxzT %}
-*  {% link "Editing the text on the Contact Us page" ref_CsqC5DNX %}
-*  {% link "Changing the text of the maintenance page" ref_GX9sbLzF %}
-*  {% link "Changing 404 "page not found"" ref_1vY1kBkj %}
+*  {% link "Changing the 'Terms and Conditions' Page" ref_r5b4EKhF %}
+*  {% link "Enabling the 'Contact Us' Form" ref_hfZXkxzT %}
+*  {% link "Editing Text on the 'Contact Us' Page" ref_CsqC5DNX %}
+*  {% link "Editing the Maintenance Page" ref_GX9sbLzF %}
+*  {% link "Changing 404 "Page Not Found"" ref_1vY1kBkj %}
