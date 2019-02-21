@@ -7,7 +7,7 @@ title: Adding Content Pages
 categories:
   - User manual
 published: true
-order: 500
+order: 100
 redirect_from:
   - /look_and_feel/adding_pages_to_your_store.html
 ---
