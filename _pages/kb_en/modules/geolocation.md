@@ -25,11 +25,11 @@ The rest of the settings are as follows:
     This widget enables a customer to specify their location to a zip code level. 
     ![my-location-widget-2.png]({{site.baseurl}}/attachments/ref_34F5BkhW/my-location-widget-2.png)
     
-    {% note info %}
-    For Crisp White skin, the _"My Location"_ select widget is displayed only if there is an opportunity for a customer to choose between several currencies (i.e. the {% link "Multicurrency Addon" ref_2tPJubPU %} is installed and enabled). 
+    **Important**:
+    In Crisp White skin, a customer will be able to specify their location via the _"My Location"_ select widget only if the store provides multiple currencies for the customer to choose from. That may be the case if the store has the addon {% link "Multicurrency" ref_2tPJubPU %} installed and enabled. 
+    If the store has only one currency and one language enabled, the widget will not be displayed.
+    If the store has a single currency and more than one languages enabled, the widget will show the customer's country as has been identified automatically based on the customer's IP address, but will not provide the customer with controls to change their location. 
     
-    If the store has only one currency and one language configured, the widget is not displayed. If the store has a single currency and more than one languages configured, the widget displays the country that is defined automatically by the customer's IP without an oppotunity to change it. 
-    {% endnote %}
     
 * **Upload extended database** : You can upload an extended .mmdb database to get user location by IP more accurately. 
     With MaxMind databases you can choose between:
