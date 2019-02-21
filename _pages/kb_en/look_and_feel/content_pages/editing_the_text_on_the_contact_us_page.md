@@ -3,11 +3,11 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-28 00:12 +0400'
 identifier: ref_CsqC5DNX
-title: Editing the text on the Contact Us page
+title: Editing Text on the 'Contact Us' Page
 categories:
   - User manual
 published: true
-order: 210
+order: 130
 redirect_from:
   - /look_and_feel/editing_the_text_on_the_contact_us_page.html
 ---
