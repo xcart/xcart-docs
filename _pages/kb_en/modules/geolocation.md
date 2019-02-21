@@ -40,8 +40,6 @@ The rest of the settings are as follows:
     
     To upload a new database, download a zipped database package from maxmind.com, unpack the database archive to access the .mmdb file and upload the .mmdb file to your X-Cart installation using the "Choose file" option opposite the **Upload extended database** field. 
       
-      {% note info %}
-      If necessary you can revert to using the default database by enabling a special checkbox option under the **Database file in use** field value.
-      {% endnote %}
-
+    If necessary you can revert to using the default database by enabling a special checkbox option under the **Database file in use** field value.
+      
 * **Database file in use** : The field shows the database file that is currently in use by the Geolocation addon.
