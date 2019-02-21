@@ -12,7 +12,7 @@ To improve the user experience of non-logged in customers, X-Cart 5 can be integ
 Before you start, ensure that the addon Geolocation is {% link "installed and enabled" ref_0fGEpvrh %}. 
 ![geolocation.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation.png)
 
-To check and adjust the geolocation configuration settings, proceed to the addon settings page:
+To check and adjust your store's geolocation configuration settings, proceed to the addon settings page:
 ![geolocation-settings.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation-settings.png)
 
 By default, X-Cart uses MaxMind's database GeoLite2-Country.mmdb which can be used to identify a customer's location to a country level. The default database provider is preset in the **Default geolocation provider** field on the addon settings page.
