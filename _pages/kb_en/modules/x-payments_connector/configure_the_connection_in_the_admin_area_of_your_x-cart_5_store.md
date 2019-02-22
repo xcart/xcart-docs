@@ -3,25 +3,25 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-10-31 15:44 +0400'
 identifier: ref_TIExeDzi
-title: Configure the connection in the Admin area of your X-Cart 5 store
+title: Configure the Connection in the Admin Area of Your X-Cart 5 store
 order: 130
 published: true
 ---
-The following procedure assumes that your X-Cart 5 store has the X-Payments connector module installed and enabled.
+The following procedure assumes that your X-Cart 5 store has the X-Payments connector addon installed and enabled.
 
 Complete the following steps:
 
 1.  Log in to the Admin panel of your X-Cart 5 store.
-2.  Go to the Installed Modules section and in the list of your store's installed modules locate the entry for X-Payments connector. 
-3.  Click the **Settings** button next to the module name:
+2.  Go to the Installed Addons section and, in the list of your store's installed addons, locate the entry for X-Payments connector. 
+3.  Click the **Settings** button next to the addon name:
     ![]({{site.baseurl}}/attachments/8750414/8719163.png)
-    The module settings page opens.
+    The addon settings page opens.
 
-4.  On the "X-Payments connector" module settings page, select the **Connection** tab to access your store's connection settings:
+4.  On the "X-Payments connector" addon settings page, select the **Connection** tab to access your store's connection settings:
     ![]({{site.baseurl}}/attachments/8750414/8719164.png)
-5.  Now it is time to use the configuration bundle you have copied from your X-Cart 5 store's details page in the X-Payments admin back end. Paste the configuration bundle into the appropriate field on the "X-Payments connector" module settings page in X-Cart and click **Deploy**:
+5.  Now it is time to use the configuration bundle you have copied from your X-Cart 5 store's details page in the X-Payments admin back end. Paste the configuration bundle into the appropriate field on the "X-Payments connector" addon settings page in X-Cart and click **Deploy**:
     ![]({{site.baseurl}}/attachments/8750414/8719166.png)
-    The module will take a few moments to deploy the configuration. Once the process is complete, you will see a success message at the top of the screen saying "Test transaction has been completed successfully for API version X. Payment methods have been imported successfully. Configuration has been successfully deployed."
+    The addon will take a few moments to deploy the configuration. Once the process is complete, you will see a success message at the top of the screen saying "Test transaction has been completed successfully for API version X. Payment methods have been imported successfully. Configuration has been successfully deployed."
 
     So, now your X-Payments installation is connected to your X-Cart store. 
 
@@ -50,7 +50,7 @@ Complete the following steps:
         ![]({{site.baseurl}}/attachments/8750414/8719188.png)
     4.  Enable the method you have added by setting the INACTIVE/ACTIVE switch for it to ACTIVE:
         ![]({{site.baseurl}}/attachments/8750414/8719189.png)
-11.  If you want the X-Payments credit card form to appear as embedded in your X-Cart store's checkout page, enable the **Use iframe** option in the Connection section of the "X-Payments connector" module settings page:
+11.  If you want the X-Payments credit card form to appear as embedded in your X-Cart store's checkout page, enable the **Use iframe** option in the Connection section of the "X-Payments connector" addon settings page:
     ![]({{site.baseurl}}/attachments/8750414/8719190.png)
     Please note that if you enable this option in X-Cart, you must also select an iframe based template for your X-Cart 5 store in the X-Payments admin back end.
 
