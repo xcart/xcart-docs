@@ -21,3 +21,4 @@ _In this section:_
 _Related pages:_
 
 *   {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %} (video)
+*   [How to Connect X-Payments (3.x) with X-Cart 5](https://youtu.be/h2F-nFRi_Fg "X-Payments connector") (video)
