@@ -9,8 +9,6 @@ categories:
 published: true
 order: 100
 ---
-
-
 Typically, your X-Cart 5 store will have the X-Payments connector installed and enabled from the very start:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_025khQBN/installed.png)
