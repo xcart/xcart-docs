@@ -7,9 +7,9 @@ title: Geolocation Addon
 order: 125
 published: true
 ---
-To improve the user experience of non-logged in customers, X-Cart 5 can be integrated with a free IP geolocation database GeoLite by MaxMind through the use of the addon **[Geolocation](https://market.x-cart.com/addons/geolocation.html)**. The Geolocation addon works in a bundle with many X-Cart features and enables your store, for example, to "guess" a customer's country and address for a more precise pre-login shipping cost estimation. 
+To improve the user experience of non-logged-in store visitors, IP geolocation can be implemented in an X-Cart 5 store through the use of the addon **[Geolocation](https://market.x-cart.com/addons/geolocation.html)** by X-Cart team. Geolocation is involved in a number of X-Cart features; for example, it enables your store to "guess" the location of a non-logged-in custmer for a more precise pre-login shipping cost estimation. 
 
-Note that the addon uses a downloadable database of IP addresses, not a web-service. By default, MaxMind's database GeoLite2-Country.mmdb is used which enables the store to identify a customer's location to a country level. If necessary, a more advanced database may be installed via the addon settings.
+The addon provides a way for X-Cart to use a downloadable database of IP addresses by MaxMind, an industry-leading provider of IP intelligence. By default, MaxMind's GeoLite database (GeoLite2-Country.mmdb) is used which enables the store to identify a customer's location to a country level. If necessary, a more advanced MaxMind database (free or paid) may be installed via the addon settings.   
 
 To start using geolocation in your X-Cart store, ensure that the addon Geolocation by X-Cart team is {% link "installed and enabled" ref_0fGEpvrh %}. 
 ![geolocation.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation.png)
