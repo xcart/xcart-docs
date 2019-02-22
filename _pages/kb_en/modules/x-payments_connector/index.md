@@ -18,7 +18,7 @@ A video guide for connecting X-Cart and X-Payments is available.
 **Published on Sep 21, 2016**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/h2F-nFRi_Fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-For earlier versions the process is similar; however, the steps can be a bit different - {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %} (video)
+For earlier X-Payments versions the process is similar; however, the steps included can be different - {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %} (video)
 
 _In this section:_
 
