@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-03-20 16:24 +0400'
 identifier: ref_025khQBN
-title: 'X-Payments connector: System requirements and installation'
+title: 'X-Payments Connector: System Requirements and Installation'
 categories:
   - User manual
 published: true
