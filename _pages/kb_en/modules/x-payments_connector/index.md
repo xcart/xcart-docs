@@ -11,14 +11,16 @@ order: 380
 ---
 
 
-The **X-Payments connector** module for X-Cart 5 is a means to connect your X-Cart 5 based online store to [X-Payments](https://www.x-payments.com/help/Main_Page) for PCI compliant credit card processing. 
+The **X-Payments connector** module for X-Cart 5 aims to connect your X-Cart 5 based online store to [X-Payments](https://www.x-payments.com/help/Main_Page) for PCI compliant credit card processing. 
+
+A video guide for connecting X-Cart and X-Payments is available.
+
+**Published on Sep 21, 2016**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h2F-nFRi_Fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+For earlier versions the process is similar; however, the steps can be a bit different - {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %} (video)
 
 _In this section:_
 
 *   {% link "X-Payments connector: System requirements and installation" ref_025khQBN %}
 *   {% link "Connecting X-Cart 5 and X-Payments" ref_UFLdTRDQ %}
-
-_Related pages:_
-
-*   {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %} (video)
-*   [How to Connect X-Payments (3.x) with X-Cart 5](https://youtu.be/h2F-nFRi_Fg "X-Payments connector") (video)
