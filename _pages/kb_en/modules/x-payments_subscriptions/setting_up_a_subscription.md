@@ -9,9 +9,7 @@ categories:
 published: true
 order: 150
 ---
-
-
-Once you activate the module X-Payments subscriptions, it becomes possible to set up a subscription for any product in your store. For this purpose, you can use an existing product or create a new product. 
+Once you activate the addon X-Payments subscriptions, it becomes possible to set up a subscription for any product in your store. For this purpose, you can use an existing product or create a new product. 
 
 1.  Start by creating a regular product as described in {% link "Adding products" ref_fhzzxDTy %}.
     Do not worry about setting the product price just yet - the product is going to be a subscription, so the regular _Price_ field for it will be ignored.
@@ -39,7 +37,7 @@ Once you activate the module X-Payments subscriptions, it becomes possible to se
         *   "**Every** + **1** + **Years**" = Annually
     *   **Re-bill periods** : Specify the number of times that you want a buyer to be billed during the subscription (including the very first subscription payment). This affects the subscription duration.  For example, if you want to limit your product to three months and charge the subscribers monthly, you will need to configure a subscription plan similar to "Each + 1-st day of + Month" and set the Re-bill periods setting to "3". By default, the Re-bill periods setting is set to 0, which actually means zero times (_not_ infinity!).
         {% note info %}
-        If a transaction aiming to charge a customer a subscription fee for any subscription period fails (i.e. you do not get a subscription payment you were supposed to get), the module will initiate further attempts to charge the customer's card according to the setting "Number of rebill attempts for anunsuccessful charge" on the module settings page. The subscription will continue until the number of successful charges reaches the number of Re-bill periods.
+        If a transaction aiming to charge a customer a subscription fee for any subscription period fails (i.e. you do not get a subscription payment you were supposed to get), the addon will initiate further attempts to charge the customer's card according to the setting "Number of rebill attempts for anunsuccessful charge" on the addon settings page. The subscription will continue until the number of successful charges reaches the number of Re-bill periods.
         {% endnote %}
         
      * **Calculate shipping for recurring orders** [for X-Payments v5.3.2.3 and later]: If enabled shipping cost will be included into the subscription fee charged each period.
@@ -51,5 +49,5 @@ Once you activate the module X-Payments subscriptions, it becomes possible to se
 
 _Related pages:_
 
-*   {% link "Getting started with X-Payments subscriptions" ref_tGCSZi8x %}
-*   {% link "Configuring the X-Payments subscriptions module" ref_RLhkriEJ %}
+*   {% link "Getting Started with X-Payments Subscriptions" ref_tGCSZi8x %}
+*   {% link "Configuring the X-Payments Subscriptions Addon" ref_RLhkriEJ %}
