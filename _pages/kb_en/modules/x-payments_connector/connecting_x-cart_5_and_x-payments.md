@@ -16,4 +16,4 @@ To connect your X-Cart 5 online store and X-Payments, follow the steps below:
 
 _Related pages:_
 
-*   {% link "X-Payments connector: System requirements and installation" ref_025khQBN %}
+*   {% link "X-Payments Connector: System Requirements and Installation" ref_025khQBN %}
