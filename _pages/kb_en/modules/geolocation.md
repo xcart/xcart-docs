@@ -46,10 +46,10 @@ The following settings are available:
     * [Free GeoLite2 databases](https://dev.maxmind.com/geoip/geoip2/geolite2/ "Geolocation Addon")
     * [Paid GeoIP2 databases](https://www.maxmind.com/en/geoip2-databases?%25refID=xcart%25 "Geolocation Addon")
     
-    MaxMind GeoIP2 databases are more accurate than GeoLite2 databases. The GeoLite2-Country database that is used by default can be used to identify a customer's location to the level of a country. If you need higher geolocation accuracy, you can switch to a free GeoLite2-City database that can help you to estimate a customer's location to a city. If you need more options, try one of the paid GeoIP2 databases.
+    The GeoLite2-Country database that is used by default can be used to identify a customer's location to the level of a country. If you need higher level of geolocation accuracy, you can switch to a free GeoLite2-City database that can help you to estimate a customer's location to a city. If you need more options, try one of the paid GeoIP2 databases. Note that paid MaxMind GeoIP2 databases are more accurate than GeoLite2 databases. 
     
-    To upload a new database, download a zipped database package from maxmind.com, unpack the database archive to access the .mmdb file and upload the .mmdb file to your X-Cart installation using the "Choose file" option opposite the **Upload extended database** field. 
+    To upload a new database, download a zipped database package from maxmind.com, unpack the database archive to access the .mmdb file and upload the .mmdb file to your X-Cart installation using the "Choose file" option in the **Upload extended database** field. 
       
-    If necessary, after uploading an extended database, you can revert to the default database using the **Revert to using the default database** option below the **Database file in use** field value.
+    If necessary, after uploading an extended database, you can revert to the default GeoLite2-Country database using the **Revert to using the default database** option below the **Database file in use** field value.
       
 * **Database file in use** : The field shows the database file that is currently in use by the Geolocation addon.
