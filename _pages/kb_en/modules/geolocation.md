@@ -28,7 +28,7 @@ To check and adjust your store's geolocation settings, proceed to the addon sett
 
 The following settings are available:
 
-* **Default geolocation provider**: The default database provider. Currently only MaxMind GeoIP2 is supported as a provider.
+* **Default geolocation provider**: The default database provider. Currently only MaxMind GeoIP2 is supported.
 
 * **Display location select widget**: This setting toggles the location select widget _"My location"_ in the storefront header.  
     ![my-location-widget.png]({{site.baseurl}}/attachments/ref_34F5BkhW/my-location-widget.png)
