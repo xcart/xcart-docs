@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-10 17:04 +0400'
 identifier: ref_8VFoqBFZ
-title: X-Payments subscriptions
+title: X-Payments Subscriptions
 categories:
   - User manual
 published: true
