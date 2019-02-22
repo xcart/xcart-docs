@@ -3,15 +3,13 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-10 16:43 +0400'
 identifier: ref_pTgcx1sg
-title: Configuring automated execution of periodic tasks for X-Payments subscriptions
+title: Configuring Automated Execution of Periodic Tasks for X-Payments Subscriptions
 categories:
   - User manual
 published: true
 order: 120
 ---
-
-
-For correct operation, the module X-Payments subscriptions requires periodic execution of a number of service tasks, including, but not limited to:
+For correct operation, the addon X-Payments subscriptions requires periodic execution of a number of service tasks, including, but not limited to:
 
 *   selection of subscriptions for which the following payment is due on the current day, creating orders for such subscription  payments, processing the orders for payments that were successful and scheduling the day for the next re-bill attempt for the payments that failed;
 *   tracking the number of failed attempts to charge the customer for the subscription and cancelling the subscription if the maximum allowed number of such attempts is exceeded;
@@ -38,4 +36,4 @@ The recommended setup for running the script console.php via crontab is as follo
 
 On a Windows server, a similar setup can be implemented using the Windows Task Scheduler.
 
-**Important**: For the correct work of the module, make sure that the server time zone setting is the same for the www-server and for the user under which cron is run.
+**Important**: For the correct work of the addon, make sure that the server time zone setting is the same for the www-server and for the user under which cron is run.
