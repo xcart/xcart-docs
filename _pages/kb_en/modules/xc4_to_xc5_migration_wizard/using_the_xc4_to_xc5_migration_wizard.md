@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-23 15:17 +0400'
 identifier: ref_Ah935naM
-title: Using the module "XC4 to XC5 Migration wizard"
+title: Using the Addon "XC4 to XC5 Migration Wizard"
 order: 140
 published: true
 ---
