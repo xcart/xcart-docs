@@ -3,23 +3,23 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-09-04 10:52 +0400'
 identifier: ref_3rhs1MJ8
-title: Block Users by IP / Country / User agent
+title: Block Users by IP / Country / User Agent
 order: 41
 published: true
 ---
-The X-Cart module [Block Users by IP/Country/User Agent](https://market.x-cart.com/addons/block-users-by-IP-country-user-agent.html "Block Users by IP / Country / User agent") protects your store from bots and fraudulent users by limiting or completely restricting access to it with the help of flexible settings and filters taking into account the user IP, address and behavior.
+The X-Cart addon [Block Users by IP/Country/User Agent](https://market.x-cart.com/addons/block-users-by-IP-country-user-agent.html "Block Users by IP / Country / User agent") protects your store from bots and fraudulent users by limiting or completely restricting access to it with the help of flexible settings and filters taking into account the user IP, address and behavior.
 
 {% toc %}
 
-## Module Installation and Setup
+## Addon Installation and Setup
 
-To install the module, follow the guidelines from the section {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the guidelines from the section {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-After the module has been installed, proceed to the module settings page to configure it:
+After the addon has been installed, proceed to the addon settings page to configure it:
 
 ![buip-installed.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-installed.png)
 
-The Block Users by IP/Country/User Agent module settings page includes 3 subsections: **IP based access control**, **Bot protection** and **Address based protection**. Adjust the settings in these subsections according to your needs:
+The Block Users by IP/Country/User Agent addon settings page includes 3 subsections: **IP based access control**, **Bot protection** and **Address based protection**. Adjust the settings in these subsections according to your needs:
 
 1. IP based access control
    ![buip-settings-1.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-settings-1.png)
@@ -45,7 +45,7 @@ The Block Users by IP/Country/User Agent module settings page includes 3 subsect
    
    * **Allow bots to make purchases** : Toggle the setting off if you want to prevent bots from making purchases at your store.
    
-   * **Detect search engine bots via the user agent** : With this option enabled, any visitor that is found to be a type of "crawler" according to [https://browscap.org/](https://browscap.org/ "Block Users by IP / Country / User agent") will be blacklisted automatically. Note that if this option is disabled, the module will sort the visitors in accordance with the settings "A visitor should be identified as a bot if" and "A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than".
+   * **Detect search engine bots via the user agent** : With this option enabled, any visitor that is found to be a type of "crawler" according to [https://browscap.org/](https://browscap.org/ "Block Users by IP / Country / User agent") will be blacklisted automatically. Note that if this option is disabled, the addon will sort the visitors in accordance with the settings "A visitor should be identified as a bot if" and "A visitor should be identified as a bot if the length of period between add to cart action and an attempt to buy is less than".
      
    * **Add bot IP addresses to black list** : Decide whether you want to add bot IP addresses to your backlist automatically, or not, and select one of the options. **Important**: When making your choice, please keep in mind that any option starting with "Forbid ..." will automatically add any bot IP addresses to the blacklist (including both the bad bots programmed to perform a variety of malicious jobs AND the good bots that help in creating the required visibility of websites on the internet); it will also limit access to the store pages from the blacklisted IPs according to the option you selected. For example, if you set the value to "Forbid access to entire site", your store site will become inaccessible to ANY bots, and, as a result, it will NOT be indexed by any good bots either.
 
@@ -60,7 +60,7 @@ Be sure to save your settings by clicking **Submit**.
 
 ## Configuring Access Filters
 
-After the module has been configured, you can proceed to creating access filters. For this purpose:
+After the addon has been configured, you can proceed to creating access filters. For this purpose:
 
 1. In your store's Admin area, go to the Access filters section (**Store setup** -> **Access filters**) and click **Create**:
    ![buip-access-filters-create.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-access-filters-create.png)
