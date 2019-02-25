@@ -7,7 +7,7 @@ title: Using the module "XC4 to XC5 Migration wizard"
 order: 140
 published: true
 ---
-Once the module "XC4 to XC5 Migration wizard" has been installed on your X-Cart 5 store, you get a new item at the top of the Admin area menu - "Migration wizard":
+Once the addon "XC4 to XC5 Migration wizard" has been installed on your X-Cart 5 store, you get a new item at the top of the Admin area menu - "Migration wizard":
     ![mw_link.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_link.png)
 
 Click on it to launch the migation process:
@@ -79,25 +79,25 @@ Click on it to launch the migation process:
     
 ##  Step 5 - Enable
     
-   At the fifth step of the wizard, X-Cart will provide you with a list of X-Cart 5 modules that should be enabled if the wizard detects that your X-Cart 4 installation has features that are lacking in the default X-Cart 5 distribution pack but can be added by enabling certain X-Cart 5 modules:
+   At the fifth step of the wizard, X-Cart will provide you with a list of X-Cart 5 addons that should be enabled if the wizard detects that your X-Cart 4 installation has features that are lacking in the default X-Cart 5 distribution pack but can be added by enabling certain X-Cart 5 addons:
    ![mw_8.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_8.png)
 
    Click **Enable and continue**.
 
    What happens next depends on whether your X-Cart 5 store is a trial installation or is using some kind of license (free or non-free).
     
-   *  On a TRIAL installation, the module installer will activate all the required modules:
+   *  On a TRIAL installation, the addon installer will activate all the required addons:
       ![xc5_mw_step5_3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_3.png)
        
-      If any paid modules are installed and activated at this step you will get a license warning with a list of affected modules after the store has been deployed:
+      If any paid addons are installed and activated at this step you will get a license warning with a list of affected addons after the store has been deployed:
       ![xc5_migration_wizard_enable4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable4.png)
        
       In this case, you have two options available:
         
-       *   Activate a license required to use the modules;
-       *   Remove the modules from your store.
+       *   Activate a license required to use the addons;
+       *   Remove the addons from your store.
     
-       You may choose to resolve the licensing problem right away, or you may close the popup window with the warning and continue with the migration process. However, please be aware that the license warning will continue to appear in your X-Cart 5 store (both the store's back end and the storefront) until you resolve the problem with your license or remove the modules. 
+       You may choose to resolve the licensing problem right away, or you may close the popup window with the warning and continue with the migration process. However, please be aware that the license warning will continue to appear in your X-Cart 5 store (both the store's back end and the storefront) until you resolve the problem with your license or remove the addons. 
        
        {% note info %}
        On our demo, we used a trial installation, so we got the first type of warning and chose to activate a license key for X-Cart Ultimate. After activating the key, we got a message at the top of the screen showing that the key has been activated successfully:
@@ -109,17 +109,17 @@ Click on it to launch the migation process:
        
    *  On a LICENSED installation, the scenario of the wizard "Step 5 - Enable" will be a bit different after the **Enable and continue** button has been clicked. 
       
-      If, after downloading the modules recommended for activation in your X-Cart 5 store, the module installer detects that these modules may not be used with your type of X-Cart license, you will get a license warning as follows:
+      If, after downloading the addons recommended for activation in your X-Cart 5 store, the addon installer detects that these addons may not be used with your type of X-Cart license, you will get a license warning as follows:
       
       ![xc5_migration_wizard_license_type.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_license_type.png)
        
        In this case, you will be able to resolve the problem using one of the following methods:
        
-       *   Upgrade your X-Cart license to the license type allowed to use the modules;
-       *   Remove the modules from your store.
+       *   Upgrade your X-Cart license to the license type allowed to use the addons;
+       *   Remove the addons from your store.
     
        {% note info %}
-       The modules will not be installed, and you will not be able to continue with the migration process until you resolve the problem with your license or remove the modules. 
+       The addons will not be installed, and you will not be able to continue with the migration process until you resolve the problem with your license or remove the addons. 
        {% endnote %}
       
    
@@ -146,7 +146,7 @@ Click on it to launch the migation process:
    To start the migration, click **Start migration**:
    ![mw_12.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_12.png)
  
-   The migration process may take a while to complete and only continues while the page is open. Hence be sure to keep the page open or, if you have to close it for a while, be sure to re-open it to allow the migration module to finish its work.
+   The migration process may take a while to complete and only continues while the page is open. Hence be sure to keep the page open or, if you have to close it for a while, be sure to re-open it to allow the migration addon to finish its work.
    ![mw_13.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_13.png)
 
    While your data is being migrated from your X-Cart 4 store to X-Cart 5, you will be able to see the progress on the screen. Here are the stages that will have to be completed:
@@ -166,7 +166,7 @@ Click on it to launch the migation process:
    The above stages will be included in any migration process - regardless of whether you are importing products/categories or not. If your X-Cart 5 store has products and categories, the processes run at these stages are simply necessary to ensure that your store looks and functions correctly.
 
    {% note info %}
-   The module "XC4 to XC5 Migration wizard" now does not do the resizing of images. The stage "Resizing images..." which used to be included in the migration process by earlier versions of the module has been excluded. Now if you need to resize the images before going into production with your X-Cart 5 store, you can do the resizing using the **Generate resized images** feature in the **Look & Feel** > **Images** section.
+   The addon "XC4 to XC5 Migration wizard" now does not do the resizing of images. The stage "Resizing images..." which used to be included in the migration process by earlier versions of the addon has been excluded. Now if you need to resize the images before going into production with your X-Cart 5 store, you can do the resizing using the **Generate resized images** feature in the **Look & Feel** > **Images** section.
    {% endnote %}
 
 ## Step 7 - Complete
@@ -179,10 +179,10 @@ Click on it to launch the migation process:
    {% note info %}
    Please keep in mind that starting from X-Cart Classic v4.5.x user passwords are not stored in the database. Hence the passwords can't be transferred savefy during the migration process and all users will have to use the **Forgot password?** option on the next login to the X-Cart 5 store in order to get in. 
    
-   We'd recommend to add a special banner to the X-Cart 5 **Sign in** pop-up prompting the users to restore the password because of migration. A sample custom module that will add a label to the sign in form you can download [here](https://www.dropbox.com/s/pydh4uv15x7m783/XCMod-RestorePasswordAfterMigration-v5_3_0.tar?dl=0 "Using the module "XC4 to XC5 Migration wizard"").
+   We'd recommend to add a special banner to the X-Cart 5 **Sign in** pop-up prompting the users to restore the password because of migration. A sample custom addon that will add a label to the sign in form you can download [here](https://www.dropbox.com/s/pydh4uv15x7m783/XCMod-RestorePasswordAfterMigration-v5_3_0.tar?dl=0 "Using the Addon "XC4 to XC5 Migration wizard"").
    {% endnote %}
 
-In some cases things may not go as smoothly as one would hope during the data migration procedure, e.g. PHP execution may be interrupted. Problems like that tend to be related to the time limit settings of the web server, especially if working on a server with limited resources or on a slow internet connection. If you experience errors causing mid-process interruption of the migration, be sure to increase your server time limit (See {% link "Setting the time limit of your server" ref_xqnpttd4 %}) or decrease the **migration_chunk_length** value in etc/config.local.php (See [How XC4 to XC5 Migration wizard works: Migration process](http://kb.x-cart.com/en/modules/xc4_to_xc5_migration_wizard/how_xc4_to_xc5_migration_wizard_works.html#migration-process "Using the module "XC4 to XC5 Migration wizard"")).
+In some cases things may not go as smoothly as one would hope during the data migration procedure, e.g. PHP execution may be interrupted. Problems like that tend to be related to the time limit settings of the web server, especially if working on a server with limited resources or on a slow internet connection. If you experience errors causing mid-process interruption of the migration, be sure to increase your server time limit (See {% link "Setting the time limit of your server" ref_xqnpttd4 %}) or decrease the **migration_chunk_length** value in etc/config.local.php (See [How XC4 to XC5 Migration wizard works: Migration process](http://kb.x-cart.com/en/modules/xc4_to_xc5_migration_wizard/how_xc4_to_xc5_migration_wizard_works.html#migration-process "Using the Addon "XC4 to XC5 Migration wizard"")).
 
 If you wish to do another migration (for example, finish migrating your X-Cart 4 data after testing the migration in the **Demo migration** mode), you can restart the migration wizard using the **Restart wizard** button:
    ![mw_15.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_15.png)
@@ -206,7 +206,7 @@ This is a basic checklist to make sure everything is migrated correctly and your
 - Contact information is properly filled in Store Setup > Contact information section;
 - If you want to use SMTP server for email notifications, set it up in Store setup > Email notifications > E-Mail transfer settings section;
 - Migration Wizard does not transfer existing Gift Certificates and Testimonials. Make sure you have copied them from the X-Cart 4 store manually;
-- Migration Wizard does not transfer any sales taxes or tax classes. Make sure you have configured them manually. (If you don’t see Sales Tax line in Taxes section - install free modules «Sales Tax» and «VAT Tax» in the «My Addons» section);
+- Migration Wizard does not transfer any sales taxes or tax classes. Make sure you have configured them manually. (If you don’t see Sales Tax line in Taxes section - install free addons «Sales Tax» and «VAT Tax» in the «My Addons» section);
 - Make sure you filled in SEO information in the 'Store setup' > 'SEO settings' section in the admin area.
 
 The points above are required to check before switching your existing store with X-Cart 5, but they are not limited to them. You may need to check other parts of the store depending on what functionality is heavily used by your clients.
