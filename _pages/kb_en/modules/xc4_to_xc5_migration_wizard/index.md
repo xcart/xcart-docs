@@ -2,7 +2,7 @@
 lang: en
 layout: article_with_sidebar
 updated_at: '2017-02-07 01:58 +0400'
-title: XC4 to XC5 Migration wizard
+title: XC4 to XC5 Migration Wizard
 order: 360
 published: true
 identifier: ref_enOvcLbO
