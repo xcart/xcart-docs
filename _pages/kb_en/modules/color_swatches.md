@@ -7,7 +7,7 @@ title: Color Swatches
 order: 61
 published: true
 ---
-The module [Color Swatches](https://market.x-cart.com/addons/color-swatches.html#product-details-tab-description "Color Swatches") for X-Cart helps users to visualize the different colors and fabrics of your products by having them displayed as clickable swatches on the product page. 
+The addon [Color Swatches](https://market.x-cart.com/addons/color-swatches.html#product-details-tab-description "Color Swatches") for X-Cart helps users to visualize the different colors and fabrics of your products by having them displayed as clickable swatches on the product page. 
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>W/o color swatches</i>![cus-without-color-swatches.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/cus-without-color-swatches.png)</div>
@@ -16,15 +16,15 @@ The module [Color Swatches](https://market.x-cart.com/addons/color-swatches.html
 
 {% toc %}
 
-## Installing and Configuring the Module 
+## Installing and Configuring the Addon 
 
-To install the module, follow the guidelines from the section {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the guidelines from the section {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-After the module has been installed, proceed to the module settings page to configure it:
+After the addon has been installed, proceed to the addon settings page to configure it:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/installed.png)
 
-The Color Swatches module settings are rather straightforward: 
+The Color Swatches addon settings are rather straightforward: 
 
 ![settings.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/settings.png)
 
@@ -72,7 +72,7 @@ Once the required color swatches have been created in the **Color swatches** sec
 It is possible to view, sort, edit and delete color swatches at any time using the **Color swatches** section of the store back end.
 
 ## Adding Color Swatches to Product Descriptions
-To add color swatches to product descriptions, you will need to assign the color swatches created in the  **Color swatches** section to the attributes used by your products. The process will have some specifics depending on the type of attributes being used ([product-specific](#adding-color-swatches-to-products-using-product-specific-attributes), [product class](#adding-color-swatches-to-products-using-product-class-attributes) or [global](#adding-color-swatches-to-products-using-global-attributes)). For detailed information on product attributes in X-Cart, see the section {% link "Product classes and attributes" ref_T90ZcEpP %} of this manual.
+To add color swatches to product descriptions, you will need to assign the color swatches created in the  **Color swatches** section to the attributes used by your products. The process will have some specifics depending on the type of attributes being used ([product-specific](#adding-color-swatches-to-products-using-product-specific-attributes), [product class](#adding-color-swatches-to-products-using-product-class-attributes) or [global](#adding-color-swatches-to-products-using-global-attributes)). For detailed information on product attributes in X-Cart, see the section {% link "Product Classes and Attributes" ref_T90ZcEpP %} of this manual.
 
 ### Adding Color Swatches to Products Using Product-Specific Attributes
 
@@ -166,4 +166,4 @@ It is possible to create color swatches using {% link "Import" ref_glDc6kA1 %}. 
 
 To import color swatches using existing global product attributes, you will need to use the basic CSV file format described in {% link "CSV import: Classes & Attributes" ref_qTbDu6Ov %} with the field **swatches** added to the file.
   
-To import color swatches using existing product-specific attributes, you will need to use the basic CSV file format described in {% link "CSV import: Product attribute values" ref_Z7XdREZl %} with the field **swatch** added to the file.
+To import color swatches using existing product-specific attributes, you will need to use the basic CSV file format described in {% link "CSV import: Product Attribute Values" ref_Z7XdREZl %} with the field **swatch** added to the file.
