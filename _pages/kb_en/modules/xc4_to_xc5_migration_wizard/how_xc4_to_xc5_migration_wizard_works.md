@@ -19,7 +19,7 @@ published: true
           <br><span>&nbsp;</span>
           <br>*   General (Default customer address; Weight and Length symbols; Purchase limits; Defaut admin/customer language; Ship-from address. The currency is not copied from X-Cart 4 automatically in the process of migration but needs to be specified manually before the migration start. Before the migration of orders, an alert will be provided showing the currency selected in the store and warning the user that the orders will be migrated using that currrency.);
           <br><span>&nbsp;</span>
-          <br>*   Contact Us (If your X-Cart 4 database contains an entry for contact_us, the Migration wizard requests that the module "Contact Us" should be enabled in X-Cart 5; your X-Cart 4 store's Contact Us form settings are not checked and not migrated to X-Cart 5);
+          <br>*   Contact Us (If your X-Cart 4 database contains an entry for contact_us, the Migration wizard requests that the addon "Contact Us" should be enabled in X-Cart 5; your X-Cart 4 store's Contact Us form settings are not checked and not migrated to X-Cart 5);
           <br><span>&nbsp;</span>
           <br>*   CleanURLs (If your X-Cart 4 store has the Clean URLs feature enabled, the Migration wizard automatically enables Clean URLs in X-Cart 5.)&nbsp;</p>
       </td>
@@ -28,9 +28,9 @@ published: true
       <td colspan="1" class="confluenceTd"><span>Сontent</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>*   Static pages (Only embedded ones; if such pages are present in X-Cart 4, the Migration wizard requires that the module "SimpleCMS" should be enabled in X-Cart 5);
+        <p>*   Static pages (Only embedded ones; if such pages are present in X-Cart 4, the Migration wizard requires that the addon "SimpleCMS" should be enabled in X-Cart 5);
           <br><span>&nbsp;</span>
-          <br>*   Speed bar (In X-Cart 5, similar functionality is available through the module "SimpleCMS", so if the feature is used in X-Cart 4, the Migration wizard requires that the module "SimpleCMS" should be enabled in X-Cart 5).&nbsp;</p>
+          <br>*   Speed bar (In X-Cart 5, similar functionality is available through the addon "SimpleCMS", so if the feature is used in X-Cart 4, the Migration wizard requires that the addon "SimpleCMS" should be enabled in X-Cart 5).&nbsp;</p>
       </td>
     </tr>
     <tr class="top aligned">
@@ -39,7 +39,7 @@ published: true
       <td colspan="1" class="confluenceTd">
         <p>All the general info, images and Clean URLs for the following entities:
           <br><span>&nbsp;</span>
-          <br>*   Bestsellers (If the feature is used in X-Cart 4, the Migration wizard requires that the module "Bestsellers" should be enabled in X-Cart 5; your X-Cart 4 store's Bestsellers settings are not checked and not migrated to X-Cart 5);
+          <br>*   Bestsellers (If the feature is used in X-Cart 4, the Migration wizard requires that the addon "Bestsellers" should be enabled in X-Cart 5; your X-Cart 4 store's Bestsellers settings are not checked and not migrated to X-Cart 5);
           <br><span>&nbsp;</span>
           <br>*   Detailed product images;
           <br><span>&nbsp;</span>
@@ -133,7 +133,7 @@ published: true
           <br><span>&nbsp;</span>
           <br>*   USPS;
           <br><span>&nbsp;</span>
-          <br>*   UPS (If the method is used in X-Cart 4, the Migration wizard requires that the module "UPS" should be enabled in X-Cart 5; your X-Cart 4 store's UPS settings are not checked and not migrated to X-Cart 5)&nbsp;</p>
+          <br>*   UPS (If the method is used in X-Cart 4, the Migration wizard requires that the addon "UPS" should be enabled in X-Cart 5; your X-Cart 4 store's UPS settings are not checked and not migrated to X-Cart 5)&nbsp;</p>
       </td>
     </tr>
     <tr class="top aligned">
@@ -147,9 +147,9 @@ published: true
 </table>
 
 ## Functionality matching
-The module performs a basic check of whether your X-Cart 5 installation has all the necessary modules installed and activated to cover the functionality that was available to you in your X-Cart 4 store. If it determines that a certain module needs to be installed/activated, an additional wizard step will be added to allow for this operation.
+The addon performs a basic check of whether your X-Cart 5 installation has all the required addons installed and activated to cover the functionality that was available to you in your X-Cart 4 store. If it determines that a certain addon needs to be installed/activated, an additional wizard step will be added to allow for this operation.
 
-Here's how the migration module determines whether any modules need to be installed and activated in X-Cart 5:
+Here's how the migration addon determines whether any addons need to be installed and activated in X-Cart 5:
 
 <table class="ui compact padded celled small table">
   <tbody>
@@ -188,7 +188,7 @@ Here's how the migration module determines whether any modules need to be instal
   </tbody>
 </table>
 
-The following modules are enabled automatically:
+The following addons are enabled automatically:
 
    *   CDev\RuTranslation
    *   CDev\DeTranslation
@@ -200,7 +200,7 @@ The migration of data from X-Cart 4 to X-Cart 5 is based on the import model. Th
 
 Exising IDs from X-Cart 4 are not saved in X-Cart 5 after the migration. However, records of what X-Cart 4 IDs were replaced with X-Cart 5 IDs are stored in the registry (MigrationRegistry - type of entity, MigrationRegistryEntry - how the ID was changed). When the wizard is restarted, the registry is cleared.
 
-The step for removing duplicate images in the process of data migration has been added to rid the store of redundant image data. At this step, the module checks whether any product variants are using the same image as the main product, and if a duplicate image is found, the image of the main product is removed. Whether any two images are the same is determined based on the image hash.
+The step for removing duplicate images in the process of data migration has been added to rid the store of redundant image data. At this step, the addon checks whether any product variants are using the same image as the main product, and if a duplicate image is found, the image of the main product is removed. Whether any two images are the same is determined based on the image hash.
 
 The following settings are available via the file `[xcart_dir]/etc/config.local.php` in your X-Cart 5 installation:
 
@@ -241,7 +241,7 @@ PHP Code:
 ```
 
 ## Demo migration 
-The user of the module "XC4 to XC5 Migration wizard" may choose to run a migration in the Demo migration mode. To do so, they need to select the option of the same name at the step "4. Select" of the migration wizard. In the Demo migration mode, only a limited range of data is migrated. The idea behind Demo migration mode is that a big X-Cart 4 store may take a really long time to be fully migrated, whereas the user doing a migration wants to know the migration process is going fine sooner than that. You wouldn't want to spend hours waiting for a perfect result just to discover the migration has not worked out all right for your particular situation. For this reason we implemented a mode that allows you to migrate just some of the data to quickly check the migration results and make sure everything is going as expected before doing a full migration.
+The user of the addon "XC4 to XC5 Migration wizard" may choose to run a migration in the Demo migration mode. To do so, they need to select the option of the same name at the step "4. Select" of the migration wizard. In the Demo migration mode, only a limited range of data is migrated. The idea behind Demo migration mode is that a big X-Cart 4 store may take a really long time to be fully migrated, whereas the user doing a migration wants to know the migration process is going fine sooner than that. You wouldn't want to spend hours waiting for a perfect result just to discover the migration has not worked out all right for your particular situation. For this reason we implemented a mode that allows you to migrate just some of the data to quickly check the migration results and make sure everything is going as expected before doing a full migration.
 
 In the Demo migration mode, the following data are migrated:
 * 10 latest orders;
@@ -253,14 +253,14 @@ In the Demo migration mode, the following data are migrated:
 After a migration has been completed in the **Demo migration** mode, a link to the category with the migrated data is provided so the user can review the product list and pagination). The rest of the X-Cart 4 store data (settings, zone, content, etc.) is migrated in full.
 
 ## Skipping previously migrated data 
-The user of the module "XC4 to XC5 Migration wizard" who has already performed a demo/partial migration of store data from an X-Cart 4 store to X-Cart 5 may choose to run another migration to complete the transfer of store data from X-Cart 4 to X-Cart 5 skipping any previously migrated X-Cart entities to save time. 
+The user of the addon "XC4 to XC5 Migration wizard" who has already performed a demo/partial migration of store data from an X-Cart 4 store to X-Cart 5 may choose to run another migration to complete the transfer of store data from X-Cart 4 to X-Cart 5 skipping any previously migrated X-Cart entities to save time. 
 
 To do so, they need to select the option **Skip previously migrated data** at the step "5. Transfer" of the migration wizard.
  
 The feature works as follows: 
-When the migration of a certain X-Cart 4 store data entity (a product, an order, a zone, etc.) to X-Cart 5 is completed successfully, a hash is calculated reflecting the current state of data related to it. Next time when an attempt is made to migrate this entity from X-Cart 4 to X-Cart 5 with the option **Skip previously migrated data** enabled, the module checks whether the entity to be migrated matches the hash that was calculated and saved during the previous migration. If the hash is the same, the entity is identified as an already migrated one and is skipped (not migrated again). On the opposite, if the entity in question has been changed since the previous migration, its hash will not match the hash calculated and stored for this entity last time, so this entity will be migrated again. For example, if an order was migrated and then its status in the X-Cart 4 store was changed, this order will be migrated again when you choose to migrate orders next time; if the order in X-Cart 4 has not been changed in any way, then it will be skipped. Note however that if an entity in X-Cart 4 has not been changed in any way, but has been changed in the X-Cart 5 store (or removed from the X-Cart 5 store completely), this entity will still be skipped (The migration script does not check the status of previously migrated entities on the X-Cart 5 store end.)
+When the migration of a certain X-Cart 4 store data entity (a product, an order, a zone, etc.) to X-Cart 5 is completed successfully, a hash is calculated reflecting the current state of data related to it. Next time when an attempt is made to migrate this entity from X-Cart 4 to X-Cart 5 with the option **Skip previously migrated data** enabled, the addon checks whether the entity to be migrated matches the hash that was calculated and saved during the previous migration. If the hash is the same, the entity is identified as an already migrated one and is skipped (not migrated again). On the opposite, if the entity in question has been changed since the previous migration, its hash will not match the hash calculated and stored for this entity last time, so this entity will be migrated again. For example, if an order was migrated and then its status in the X-Cart 4 store was changed, this order will be migrated again when you choose to migrate orders next time; if the order in X-Cart 4 has not been changed in any way, then it will be skipped. Note however that if an entity in X-Cart 4 has not been changed in any way, but has been changed in the X-Cart 5 store (or removed from the X-Cart 5 store completely), this entity will still be skipped (The migration script does not check the status of previously migrated entities on the X-Cart 5 store end.)
 
 _Related pages:_
 
-   *   {% link "XC4 to XC5 Migration wizard system requirements and installation" ref_KqsCJNRG %}
-   *   {% link "Using the module 'XC4 to XC5 Migration wizard'" ref_Ah935naM %}
+   *   {% link "XC4 to XC5 Migration Wizard System Requirements and Installation" ref_KqsCJNRG %}
+   *   {% link "Using the Addon 'XC4 to XC5 Migration Wizard'" ref_Ah935naM %}
