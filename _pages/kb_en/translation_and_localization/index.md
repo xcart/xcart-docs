@@ -20,13 +20,13 @@ It's possible to localize an X-Cart store to meet your country standards, time-z
 Also, you can turn your X-Cart into a truly multi-language solution by installing language translation addons. 
 
 _In this section:_  
-*  {% link "Localizing your store" ref_cc4sCpa5 %}
-*  {% link "Installing language packages" ref_NH3w8sSS %}
-*  {% link "Switching the language in Admin area" ref_x5oSN86B %}
-*  {% link "RTL languages support" ref_3vEHzhPP %}
-*  {% link "Translating product catalog into another language" ref_5MQvg8Mm %}
-*  {% link "Translating news, menus and static pages" ref_7I70QnHa %}
-*  {% link "Translating labels" ref_2CQ8HuY4 %}
+*  {% link "Localizing Your Store" ref_cc4sCpa5 %}
+*  {% link "Installing Language Packages" ref_NH3w8sSS %}
+*  {% link "Switching the Language of the Admin Area" ref_x5oSN86B %}
+*  {% link "RTL Languages Support" ref_3vEHzhPP %}
+*  {% link "Translating Product Catalog" ref_5MQvg8Mm %}
+*  {% link "Translating News, Menus, Static Pages and Order Statuses" ref_7I70QnHa %}
+*  {% link "Translating Labels" ref_2CQ8HuY4 %}
 
 {% note info %}
 Language translations that you can download from [X-Cart Marketplace](https://market.x-cart.com/addons/translation/?filter[edition]=all&filter[priceType]=all&filter[sortBy]=p.arrivalDate "Translation and Localization"), include but are not limited to:
