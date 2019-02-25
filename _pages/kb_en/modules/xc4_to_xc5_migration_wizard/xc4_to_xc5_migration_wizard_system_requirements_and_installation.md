@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-10-04 17:28 +0400'
 identifier: ref_KqsCJNRG
-title: XC4 to XC5 Migration wizard system requirements and installation
+title: XC4 to XC5 Migration Wizard System Requirements and Installation
 order: 100
 published: true
 ---
