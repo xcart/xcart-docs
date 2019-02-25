@@ -7,20 +7,20 @@ title: Customer Satisfaction
 order: 72
 published: true
 ---
-[Customer Satisfaction](https://market.x-cart.com/addons/customer-satisfaction.html "Customer Satisfaction") module adds a possibility for a store admin to follow up customers who made orders in the store and collect reviews to get insight on how they rate the store as a whole and the store customer service in particular. 
+The addon [Customer Satisfaction](https://market.x-cart.com/addons/customer-satisfaction.html "Customer Satisfaction") enables the store admin to follow up with the customers who have made a purchase at the store and collect reviews from them to find out how they rate the store as a whole and the store customer service in particular. 
 
 {% toc %}
 
-## Customer Satisfaction Module Installation and Set-up
+## Customer Satisfaction Addon Installation and Setup
 
-To install the module follow the guidelines from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the guidelines from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-When installed proceed to the module settings page for further configuration:
+Once the addon has been installed, proceed to the addon settings page to adjust the addon configuration:
 
 ![istalled.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/istalled.png)
 
-The Customer Satisfaction module settings page is devided into 2 subsections:
-1. **General options** - where you can set up the general module behaviour:
+The Customer Satisfaction addon settings page is devided into 2 subsections:
+1. **General options** - where you can set up the general addon behaviour:
    ![settings-1.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/settings-1.png)
    * **Action to send email** : Select if you want the request for feedback to be sent right after an order is paid or whether you want to wait some time and send it later on. If you choose to wait, you can define the time period in days (**Delay in days**) the request for feedback should be delayed for.
    * **Choose payment status triggering feedback request** : Select the payment status that an order should get for a feedback request to be sent to a customer.
@@ -31,7 +31,7 @@ The Customer Satisfaction module settings page is devided into 2 subsections:
    Decide whether you need to change the landing page text suggested by default for "Auful/Bad/Fair/Good/Excellent" rates. This text welcomes customers on a post-feedback survey page.
    ![landing-page-text.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/landing-page-text.png)
 
-When the basic module set-up is complete proceed to the **Feedback questions** section (**Orders** -> **Feedback questions**) to configure the questions that will be presented to a customer as a follow-up survey.
+Once the basic addon setup has been completed, proceed to the **Feedback questions** section (**Orders** -> **Feedback questions**) to configure the questions that will be presented to a customer as a follow-up survey.
 
 ![feddback-questions.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/feddback-questions.png)
 
