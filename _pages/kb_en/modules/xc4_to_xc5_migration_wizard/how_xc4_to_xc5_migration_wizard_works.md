@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-03-31 16:26 +0400'
 identifier: ref_37NAeGlf
-title: How XC4 to XC5 Migration wizard works
+title: How XC4 to XC5 Migration Wizard Works
 order: 110
 published: true
 ---
