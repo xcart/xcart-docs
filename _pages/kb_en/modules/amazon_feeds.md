@@ -7,20 +7,20 @@ title: Amazon Feeds
 order: 19
 published: true
 ---
-X-Cart [Amazon Feeds module](https://market.x-cart.com/addons/amazon-feeds.html "Amazon Feeds") allows merchants to export products and related data to Amazon to start selling there in order to gain new sales and extend customer pull.
+X-Cart's addon [Amazon Feeds](https://market.x-cart.com/addons/amazon-feeds.html "Amazon Feeds") allows merchants to export products and related data to Amazon to start selling there in order to gain new sales and extend customer pull.
 
-To start using the module install it as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To start using the addon, install it as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 {% note warning %}
 Prerequisites:
-To be able to use the Amazon Feeds module a merchant should be signed up with the [Amazon Professional Seller plan](https://services.amazon.com/selling/pricing.html "Amazon Feeds") that allows to create a developer account. 
+To be able to use the addon Amazon Feeds, a merchant should be signed up with the [Amazon Professional Seller plan](https://services.amazon.com/selling/pricing.html "Amazon Feeds") that allows to create a developer account. 
 {% endnote %}
 
 {% toc %}
 
-## Amazon Feeds module configuration and set-up
+## Amazon Feeds Addon Configuration and Setup
 
-Once installed and enabled proceed to the module settings page for configuration purposes:
+Once installed and enabled proceed to the addon settings page for configuration purposes:
 
 ![module-installed.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/module-installed.png)
 
@@ -117,7 +117,7 @@ All configured marketplaces are added to the **Marketplaces** list in the **Sale
 
 You can add as many marketplaces as many Amazon accounts you have. 
 
-## Additional import rules
+## Additional Import Rules
 
 All products are exported from X-Cart and imported to Amazon according to the mapping rules specified in the **Products export options** section (**Sales channels** -> **Amazon**). 
 
