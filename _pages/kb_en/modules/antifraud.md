@@ -7,7 +7,7 @@ title: AntiFraud Service Connector
 order: 21
 published: true
 ---
-[AntiFraud Service Connector](https://market.x-cart.com/addons/antifraud.html#product-details-tab-description "AntiFraud Service Connector") module integrates X-Cart with AntiFraud services that allows to identify online fraud using sophisticated checking algorithm and reduce chargebacks.
+The addon [AntiFraud Service Connector](https://market.x-cart.com/addons/antifraud.html#product-details-tab-description "AntiFraud Service Connector") integrates X-Cart with AntiFraud services that allows to identify online fraud using sophisticated checking algorithm and reduce chargebacks.
 
 When AntiFraud screening is enabled, X-Cart submits non-personal data about a new order to AntiFraud service server to calculate the risk factor. The following customer information is sent to our screening servers during antifraud checks:
 
@@ -25,19 +25,19 @@ If the risk factor exceeds the threshold you specified, the order is delayed for
 
 Antifraud service assesses the fraud risk factor by processing MaxMind's GeoIP/minFraud service data via our unique algorithms. The algorithms are based on our substantial experience in online credit card processing and are specially adapted to be used in X-Cart shopping cart system. Rolled out long ago, the service proved to be extremely helpful and effective for thousands of X-Cart merchants.
 
-To start using the module [subscribe](https://market.x-cart.com/addons/antifraud.html#product-details-tab-Plans_and_Pricing "AntiFraud Service Connector") to one of available plans depending on the amount of requests you need to procees per.
+To start using the addon, [subscribe](https://market.x-cart.com/addons/antifraud.html#product-details-tab-Plans_and_Pricing "AntiFraud Service Connector") to one of available plans depending on the amount of requests you need to procees per.
 
 {% toc %}
 
-## AntiFraud Module Installation and Set-up.
+## AntiFraud Addon Installation and Setup
 
-To install the module follow instructions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the instructions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-When installed proceed to the module settings page to configure it:
+Once the addon has been installed, proceed to the addon settings page to configure it:
 
 ![af-installed.png]({{site.baseurl}}/attachments/ref_6oaerFUv/af-installed.png)
 
-Module settings are devided into 3 tabs. You need to set up all of them:
+The addon settings are devided into 3 tabs. You need to set up all of them:
 
 1. Settings
    ![af-settings-1.png]({{site.baseurl}}/attachments/ref_6oaerFUv/af-settings-1.png)
@@ -46,7 +46,7 @@ Module settings are devided into 3 tabs. You need to set up all of them:
    * **Fraud risk factor threshold value** : Specify the fraud risk factor threshold value. Orders with a Fraud risk factor greater than the value specified in this field will not be processed automatically. If fraud risk factor is greater than this limit, order status will be 'Queued'.
      
      {% note info %}
-      A fraud risk factor value that will be calculated by Antifraud service module with reference to a certain order will represent a number from 1 to 10 (the greater the number, the higher the probability of fraud). The field **Fraud risk factor threshold value** allows you to specify, how great a fraud risk factor of an order must be for the order to be considered fraudulent. 
+      A fraud risk factor value that will be calculated by Antifraud service addon with reference to a certain order will represent a number from 1 to 10 (the greater the number, the higher the probability of fraud). The field **Fraud risk factor threshold value** allows you to specify, how great a fraud risk factor of an order must be for the order to be considered fraudulent. 
       
       For example, if you set the **Fraud risk factor threshold value** to '5' (which corresponds to 50% risk of fraud), all the orders with the fraud risk factor rates from 6 to 10 will be considered potentially fraudulent. X-Cart will not process such orders automatically: they will be placed with the status 'Queued', so you will be able to review them personally at a later time and decide, whether you want to process them or not. If you find a certain order to be fraudulent, you will be able to report the IP address from which the order originated to the Antifraud service server as a source of fraudulent orders. This will prevent further fraudulent orders coming from this IP.
      {% endnote %}
@@ -56,10 +56,10 @@ Module settings are devided into 3 tabs. You need to set up all of them:
    * **AntiFraud safe distance (km)** : The distance between a billing address location and an IP address location that you wish to be treated as safe. Any order originating from an IP address located within the Antifraud safe distance from the address provided by the customer at checkout will be processed as non-fraudulent. For all users outside the safe distance, the risk of fraud will be defined based on the **Fraud risk factor threshold value**.
    * **Order total threshold** : The order subtotal amount starting from which an order must be considered 'large'. Antifraud service believes large orders to provide a greater risk for store owners, so it uses an additional coefficient to increase the **Fraud risk factor** of an order if its subtotal exceeds the value provided in this field.
    * **Run AntiFraud check on orders with zero order total** : This option allows you to specify whether you wish orders whose order total amount has been calculated as '0' (zero) to be screened by Antifraud service.
-   * **Force to use the "Auth only" mode if the fraud risk factor exceeds** : Define the maximum allowed value of the fraud risk factor. When exceeded, X-Cart will force to perform the transaction in the "Auth only" mode even if the payment module is set up to use a different mode.
+   * **Force to use the "Auth only" mode if the fraud risk factor exceeds** : Define the maximum allowed value of the fraud risk factor. When exceeded, X-Cart will force to perform the transaction in the "Auth only" mode even if the payment system is set up to use a different mode.
    * **Address error score** : Define any score from 0 to 10 that will be assigned to an order in case the AntiFraud service is not able to process customer's address.
    * **"AntiFraud service key is invalid" notification to orders department** : This option allows you to specify whether you wish an email notification to be sent to the store's Orders department if the value entered into the 'Antifraud module subscription key' field is not a valid subscription key.
-   * **"AntiFraud service key is expired" notification to orders department** : This option allows you to specify whether you wish an email notification to be sent to the store's Orders department when your Antifraud module subscription key expires.
+   * **"AntiFraud service key is expired" notification to orders department** : This option allows you to specify whether you wish an email notification to be sent to the store's Orders department when your Antifraud addon subscription key expires.
      
      **Submit** the settings when you are done.
    
@@ -142,14 +142,14 @@ Antifraud service subscription key is valid for a limited number of times. As so
 
 If you get this message and want to continue using Antifraud, order a new Antifraud service subscription key from X-Cart.
 
-If the key entered into the **Antifraud module service key** field on the AntiFaud module settings page is not a valid Antifraud module service key, you will be informed that your Antifraud service key is invalid:
+If the key entered into the **Antifraud module service key** field on the AntiFaud addon settings page is not a valid key, you will be informed that your Antifraud service key is invalid:
 
 ```
 'Warning! Antifraud service key is invalid! You can purchase Antifraud Service subscription here or or get your trial key here (if it has not been used)'
 ```
-If you get this message, make sure the **Antifraud module service key** on the AntiFraud module settings page is entered correctly.
+If you get this message, make sure the **Antifraud module service key** on the AntiFraud addon settings page is entered correctly.
 
-If you wish to get email notifications in the event that your Antifraud module service key becomes invalid or expired, enable the corresponding email notifications on the module settings page.
+If you wish to get email notifications in the event that your key becomes invalid or expired, enable the corresponding email notifications on the addon settings page.
 
 {% endnote %}
 
