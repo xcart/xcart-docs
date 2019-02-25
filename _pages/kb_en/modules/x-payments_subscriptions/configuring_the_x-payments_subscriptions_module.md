@@ -27,5 +27,5 @@ To configure the addon:
 
 _Related pages:_
 
-*   {% link "Getting started with X-Payments subscriptions" ref_tGCSZi8x %}
-*   {% link "Setting up a subscription" ref_8JXKSRah %}
+*   {% link "Getting Started with X-Payments Subscriptions" ref_tGCSZi8x %}
+*   {% link "Setting up a Subscription" ref_8JXKSRah %}
