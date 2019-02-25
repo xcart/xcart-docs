@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-10 17:15 +0400'
 identifier: ref_8JXKSRah
-title: Setting up a subscription
+title: Setting up a Subscription
 categories:
   - User manual
 published: true
