@@ -7,7 +7,7 @@ title: Make/Model/Year
 order: 165
 published: true
 ---
-The [Make/Model/Year](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year") addon allows to set up up to 4 levels of filter for inventory, as well as to remember the filters for the non-registered visitors and to remember the vehicle for the registered customers. Though the module is mainly aimed at the sellers of auto parts or/and moto parts, it can also be used by any seller who differentiates the products by levels like computers, copiers, smartphones, etc. 
+The [Make/Model/Year](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year") addon allows to set up up to 4 levels of filter for inventory, as well as to remember the filters for the non-registered visitors and to remember the vehicle for the registered customers. Although the addon is mainly aimed at the sellers of auto parts or/and moto parts, it can also be used by any seller who differentiates the products by levels like computers, copiers, smartphones, etc. 
 
 The **Make/Model/Year** filters show up on all pages in your online store. A customer selects a make of a product, a model, a year and an engine using convenient modern selectors and gets a list of products with the set characteristics.
 
@@ -19,7 +19,7 @@ Registered customers can save their vehicles in the account with the **'Remember
 
 ## Make/Model/Year Addon Installation and Set-Up
 
-To install the addon follow the steps described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once the module is installed and enabled, go to the module settings page to configure it.
+To install the addon follow the steps described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once the addon has been installed and enabled, go to the addon settings page to configure it.
 
 ![installed.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/installed.png)
 
