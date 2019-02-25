@@ -7,18 +7,18 @@ title: Bundle Products
 order: 46
 published: true
 ---
-The [Bundle Products module](https://market.x-cart.com/addons/bundle-products.html "Bundle Products") allows to join products in bundle and make a special price on a set of products if bought together. 
+The addon [Bundle Products](https://market.x-cart.com/addons/bundle-products.html "Bundle Products") enables you to combine products into a bundle and market them as a set (at a special price - provided that the products are purchased together). 
 
-Let's say that there is a couple of products that can be sold cheaper if bought together. To make this possible it's necessary to create a product bundle that will include all required products as bundle components and set a price that will be cheaper than the sum price of it components. This is what the **Bundle Products** module can do.
+Let's say that there is a couple of products that can be sold cheaper if bought together. To make this possible it's necessary to create a product bundle that will include all the required products as bundle components and set a price that will be cheaper than the sum price of it components. This is what the **Bundle Products** addon can do.
 
-To start using the module install it as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To start using the addon, install it as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 ![installed.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/installed.png)
 
-When installed the module adds a _Bundle_ tab to the product details page where a store admin/vendor can add bundle components to a product. 
+Once the addon has been installed, you will find a _Bundle_ tab on the product details page where a store admin/vendor can add bundle components to the product. 
 
 To create a bundle a store admin/vendor should:
-1. Create a new product as described in {% link "Adding products" ref_fhzzxDTy %}. This product will be the main product for a bundle.
+1. Create a new product as described in {% link "Adding Products" ref_fhzzxDTy %}. This product will be the main product for a bundle.
 
 2. Locate the **Price & Inventory** section of the _Info_ tab on the product details page
    * Set a special price for the bundle product that will cover the costs of all components included. 
