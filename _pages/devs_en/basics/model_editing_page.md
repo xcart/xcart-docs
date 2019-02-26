@@ -336,7 +336,7 @@ We are done with this mod. To check the result, open the `admin.php?target=model
 
 If you fill this form in and submit it, you will create a new product.
 
-If you open `admin.php?target=product_edit&product_id=10` page, then you will see the following result (assuming product with ID 10 does exist in the database):
+If you open `admin.php?target=model_editing_demo&product_id=10` page, then you will see the following result (assuming product with ID 10 does exist in the database):
 ![model-editing-demo-with-ID.png]({{site.baseurl}}/attachments/ref_LanG54L9/model-editing-demo-with-ID.png)
 
 As you can see, X-Cart picked up properties of the product and you can edit it via this form.
