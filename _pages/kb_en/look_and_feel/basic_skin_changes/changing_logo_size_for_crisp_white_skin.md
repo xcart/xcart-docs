@@ -13,6 +13,12 @@ For Crisp White skin, the default logo block height is 60px, and the default men
 
 So, if you want to use a larger logo image, you will need to increase the height of these blocks, respectively.
 
+{% note info %}
+Before deploying the changes make sure they do not interfere with the modifications applied via the {% link "Custom CSS" ref_10vugyja %} feature. 
+
+Check the **Custom CSS** section of the store admin area (**Look & Feel** -> **Custom CSS & JS**) for any possible code added.
+{% endnote %}
+
 For example, let's add +20px to the height of the logo and menu blocks, and also add +40px to the height of the header block. Here is the code that should be added to your "Custom CSS" section:
 
 ```
@@ -47,7 +53,7 @@ For example, let's add +20px to the height of the logo and menu blocks, and also
 /* Adjust paddings for menu items */
 /* Original padding: 20px 17px; */
 .navbar-nav>li>a, .navbar-nav>li>span {
-    padding: 35px 17px 25px 17px;
+   padding: 30px 17px 25px 17px;
 }
 
 ```
