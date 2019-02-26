@@ -95,7 +95,7 @@ Below is the description of the `getSkin` method for your reference:
     const PDF_INTERFACE      = 'pdf';
 ```
 
-The following methods from **main.php** will be replaced with corresponding field options in the **main.yaml** file:
+The following methods from **Main.php** will be replaced with corresponding field options in the **main.yaml** file:
 - getAuthorName
 - getModuleName
 - getMajorVersion
@@ -141,7 +141,7 @@ Shows if the addon’s settings can be changed.
 Shows if the addon can be disabled. If set to ‘false’, the addon can only be removed/uninstalled.
 
 
-## Generate main.yaml from main.php
+## Generate main.yaml from Main.php
 The **main.yaml** file is generated automatically in the process of cache rebuild. However, you can manually generate the file with the following command:
 
 `php xc5 utils:generateMainYaml [-f] [moduleId]`
@@ -168,7 +168,7 @@ Upgrade hook files are now available in **[addon folder]/hooks/upgrade** (previo
 The hook file can be still used in the regular form of a function callback or in the new form of the object class callback `\XLite\Rebuild\Hook`. 
 
 ## Events
-We stopped using the following methods in **main.php**:
+We stopped using the following methods in **Main.php**:
 - callInstallEvent
 - callUninstallEvent
 - callDisableEvent
@@ -194,7 +194,7 @@ dependsOn:
 
 After you make this note, twig files of the Crisp White skin will be substituted by the corresponding files of the plugin skin.
 
-Main.php class of your skin should inherit `\XLite\Module\AModuleSkin` class. In the **main.php** file of your skin you can still use `moveTemplatesInLists()` and `moveClassesInLists()` functions. The classes and templates in your skin will be moved after the corresponding changes in the parent skin. 
+**Main.php** class of your skin should inherit `\XLite\Module\AModuleSkin` class. In the **Main.php** file of your skin you can still use `moveTemplatesInLists()` and `moveClassesInLists()` functions. The classes and templates in your skin will be moved after the corresponding changes in the parent skin. 
 
 To substitute a certain class in the parent skin, you should create a class in your own skin with the same name and add the following construction to it:
 ```twig
@@ -216,6 +216,5 @@ If you don’t use this line, the LESS-file will substitute that of the parent s
 - PHP 7.2 is minimal required version
 - PHP 7.3 support
 - MySQL 5.7.7 is minimal required version
-- Node.js v8 or higher plus corresponding npm is required for proper functioning of restoredb.
 
 # [Check out 5.4.0](https://static.x-cart.com/xc5kit/x-cart-5.4.0.1-beta.tgz)
