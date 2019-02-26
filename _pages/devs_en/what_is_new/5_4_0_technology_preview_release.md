@@ -174,7 +174,7 @@ We stopped using the following methods in **Main.php**:
 - callDisableEvent
 - runBuildCacheHandler
 
-You can create a corresponding event file in the **/hooks/folder**:
+You can create a corresponding event file in the **/hooks** folder:
 
 - **install.php** - called up when installing an addon or when first enabling it (in case it was disabled when installed)
 - **remove.php** - called up when removing an addon. When implementing, please consider the situations when an addon might have never been enabled. E.g. it was disabled after the installation and the user never used it or turned it on. So you should only use the core API.
