@@ -23,4 +23,7 @@ To enable PayPal Credit, we will need to click this new tab to go to the respect
 Here's what we see in the PayPal Credit settings section:
 ![xc5_pp_credit_setup.png]({{site.baseurl}}/attachments/ref_46r2geWj/xc5_pp_credit_setup.png)
 
+First of all, we need to specify that PayPal Credit should be enabled on our store site (**PayPal Credit is** _Enabled_) and select the check box for the option **I agree with PayPal terms & conditions**. We also need to provide our **PayPal account e-mail**.
+
+
 
