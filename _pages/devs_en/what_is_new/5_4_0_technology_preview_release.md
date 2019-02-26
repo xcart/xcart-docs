@@ -1,18 +1,18 @@
 ---
+title: 5.4.0 Technology Preview Release
 lang: en
-layout: article_with_sidebar
+layout: blogpost
 updated_at: '2019-02-26 13:08 +0400'
 identifier: ref_5GF2v7vj
-title: 5.4.0 Technology Preview Release
 order: 995
 published: true
+author: Max Slepukhov
 description: >-
   X-Cart version 5.4.0 comes with a bunch of developer-related goodies, so you
   may want to adapt your addons before the release comes to the merchant stores.
   Among the most significant changes is the upgrade system. It works
   autonomously of your live X-Cart instance, which means you can upgrade or add
   new features without losing stability.
-author: Max Slepukhov
 ---
 
 Hi fellow X-Carters!
