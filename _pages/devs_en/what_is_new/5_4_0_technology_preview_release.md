@@ -9,15 +9,15 @@ published: true
 description: >-
   X-Cart version 5.4.0 comes with a bunch of developer-related goodies, so you
   may want to adapt your addons before the release comes to the merchant stores.
-  Among the most significant changes is the upgrade system. It works autonomic
-  of your live X-Cart instance, which means you can upgrade or add new features
-  without losing stability.
+  Among the most significant changes is the upgrade system. It works
+  autonomously of your live X-Cart instance, which means you can upgrade or add
+  new features without losing stability.
 author: Max Slepukhov
 ---
 
 Hi fellow X-Carters!
 
-X-Cart version 5.4.0. comes with a bunch of developer-related goodies, so you may want to adapt your addons before the release comes to the merchant stores. Among the most significant changes is the upgrade system. It works autonomic of your live X-Cart instance, which means you can upgrade or add new features without losing stability. The upgrade system allows you to: 
+X-Cart version 5.4.0. comes with a bunch of developer-related goodies, so you may want to adapt your addons before the release comes to the merchant stores. Among the most significant changes is the upgrade system. It works autonomously of your live X-Cart instance, which means you can upgrade or add new features without losing stability. The upgrade system allows you to: 
 * install / uninstall / enable / disable / upgrade / rollback addons
 * install / rollback core updates and upgrades
 * cache rebuild
