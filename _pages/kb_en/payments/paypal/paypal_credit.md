@@ -18,5 +18,9 @@ For example, we chose to enable PayPal Express Checkout. After submitting the re
 ![xc5_pp_credit_tab.png]({{site.baseurl}}/attachments/ref_46r2geWj/xc5_pp_credit_tab.png)
 (This will be the same for all PayPal methods: as soon as you configure a PayPal method, you will get this PayPal Credit tab on the method configuration page.)
 
-To enable PayPal Credit, we will need to go to this new tab and adjust a few settings.
+To enable PayPal Credit, we will need to click this new tab to go to the respective section and adjust a few settings.
+
+Here's what we see in the PayPal Credit settings section:
+![xc5_pp_credit_setup.png]({{site.baseurl}}/attachments/ref_46r2geWj/xc5_pp_credit_setup.png)
+
 
