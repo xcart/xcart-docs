@@ -1,8 +1,8 @@
 ---
-title: 5.4.0 Technology Preview Release
 lang: en
 layout: blogpost
 updated_at: '2019-02-26 13:08 +0400'
+title: 5.4.0 Technology Preview Release
 identifier: ref_5GF2v7vj
 order: 995
 published: true
@@ -23,7 +23,7 @@ X-Cart version 5.4.0. comes with a bunch of developer-related goodies, so you ma
 * cache rebuild
 * self-upgrade / rollback
 
-# [Check out 5.4.0](https://static.x-cart.com/xc5kit/x-cart-5.4.0.1-beta.tgz)
+# --- [Download 5.4.0](https://static.x-cart.com/xc5kit/x-cart-5.4.0.1-beta.tgz) ---
 
 ## Main.php -> main.yaml
 In the new version we replaced some of the methods with corresponding field options in the main.yaml file. For instance, `getSkins` method was replaced by skins field in the **main.yaml** file. 
@@ -217,4 +217,4 @@ If you don’t use this line, the LESS-file will substitute that of the parent s
 - PHP 7.3 support
 - MySQL 5.7.7 is minimal required version
 
-# [Check out 5.4.0](https://static.x-cart.com/xc5kit/x-cart-5.4.0.1-beta.tgz)
+# --- [Download 5.4.0](https://static.x-cart.com/xc5kit/x-cart-5.4.0.1-beta.tgz) ---
