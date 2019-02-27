@@ -5,7 +5,7 @@ updated_at: '2019-02-26 16:19 +0400'
 identifier: ref_46r2geWj
 title: PayPal Credit
 order: 290
-published: false
+published: true
 ---
 Support for PayPal Credit can be enabled in an X-Cart based store via the addon **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal addon")** by X-Cart team. It is not an independent method of payment, but rather a financing option that your customers can employ to pay you via PayPal.  
 
