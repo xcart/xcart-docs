@@ -7,15 +7,13 @@ title: Order Reports
 order: 195
 published: true
 ---
-[Order Reports](https://market.x-cart.com/addons/order-reports.html "Order Reports Module") addon helps merchants to analize the sales return-on-investment by segmenting orders by products, categories, shipping country, etc. Hence it's possible to track where the most sales come from and get ideas about how to increase the revenue. 
+The addon [Order Reports](https://market.x-cart.com/addons/order-reports.html "Order Reports Addon") helps merchants to analyze the sales return-on-investment by segmenting orders by products, categories, shipping country, etc. Hence it's possible to track where the most sales come from and get ideas about how to increase the revenue. 
 
-Order Reports addon is included in the X-Cart Ultimate edition and is a paid module for X-Cart Business and Multivendor.
-
-Once {% link "installed and enabled" ref_Vn1mMUw9 %} the addon adds the **Order returns** section to the **Orders** parts of the Admin area (**Orders** -> **Order returns**):
+Once the addon has been {% link "installed and enabled" ref_Vn1mMUw9 %}, it adds the **Order returns** section to the **Orders** parts of the Admin area (**Orders** -> **Order returns**):
 
 ![settings.png]({{site.baseurl}}/attachments/ref_52nVzkWs/settings.png)
 
-To analize statistics on the orders placed in the store a cart admin should open the **Orders** -> **Order returns** section and choose:
+To analyze statistics on the orders placed in the store a cart admin should open the **Orders** -> **Order returns** section and choose:
   
   * a required time period
   
