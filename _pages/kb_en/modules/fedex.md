@@ -7,19 +7,19 @@ title: FedEx
 order: 100
 published: true
 ---
-The module [FedEx](https://market.x-cart.com/addons/fedex.html "FedEx") for X-Cart 5 allows you to use online shipping rate calculation via [FedEx service](https://www.fedex.com/en-us/home.html "FedEx").
+The addon [FedEx](https://market.x-cart.com/addons/fedex.html "FedEx") for X-Cart 5 allows you to use online shipping rate calculation via [FedEx service](https://www.fedex.com/en-us/home.html "FedEx").
 
-Here's how you can start using this module with X-Cart:
+Here's how you can start using this addon with X-Cart:
 
-1. Make sure the module FedEx has been {% link "installed and activated" ref_0fGEpvrh %} at your store.
+1. Make sure the addon FedEx has been {% link "installed and activated" ref_0fGEpvrh %} at your store.
 
 2. Make sure your store company address has been {% link "configured" ref_HcSs9eFL %} on the **Contact information** page (**Store setup** > **Contact information**). This address will be used as your store’s "Ship from" address when calculating shipping rates.  
 
 3. Create a FedEx account by registering at [FedEx.com](https://www.fedex.com/en-us/home.html "FedEx") - this will get you a User ID and a password. Use your account to obtain a set of credentials for access to FedEx API. The credentials include an authentication key, a password, an account number and a meter number. You will need to enter these credentials in your X-Cart store back end to connect your store to your FedEx account and enable it to exchange information with FedEx services via the API provided by FedEx. 
 
-4. In your X-Cart store back end, go to the FedEx module settings page. 
+4. In your X-Cart store back end, go to the FedEx addon settings page. 
 
-   The module settings page can be accessed using one of the following methods:
+   The addon settings page can be accessed using one of the following methods:
 
    _Method 1_
 
@@ -30,16 +30,16 @@ Here's how you can start using this module with X-Cart:
    2. On the **Carrier-calculated rates** tab within the popup, locate the icon/link for FedEx and click on it:
       ![add-fedex.png]({{site.baseurl}}/attachments/ref_58tOKWMt/add-fedex.png)
   
-      The settings page for FedEx module opens.
+      The settings page for the addon FedEx opens.
 
    _Method 2_
 
-   * In the **My addons** section of your store's Admin area, locate the module FedEx and click on the _Settings_ link next to its name: 
+   * In the **My addons** section of your store's Admin area, locate the addon FedEx and click on the _Settings_ link next to its name: 
      ![module-settings.png]({{site.baseurl}}/attachments/ref_58tOKWMt/module-settings.png)
 
-     The settings page for FedEx module opens.
+     The settings page for the addon FedEx opens.
 
-5. Configure the general settings for the FedEx module using your FedEx account information.
+5. Configure the general settings for the FedEx addon using your FedEx account information.
    ![fedex_general_settings.png]({{site.baseurl}}/attachments/ref_58tOKWMt/fedex_general_settings.png)
    
    Provide your credentials for API access:
@@ -49,7 +49,7 @@ Here's how you can start using this module with X-Cart:
    *   **FedEx account number**: Specify your [FedEx account number](http://www.fedex.com/fsm/help/html/us/faq.html#faq002 "FedEx"). 
    *   **FedEx meter number**: Specify your FedEx meter number. A FedEx Meter Number is an identification number that FedEx will use to pull your negotiated rates. 
    
-   Note that you can test your store's FedEx integration before going into production. You will need to specify that the module is going to be used in test mode:
+   Note that you can test your store's FedEx integration before going into production. You will need to specify that the addon is going to be used in test mode:
    
    *   **Test mode**: Enable/Disable test mode.
    
@@ -89,16 +89,16 @@ Here's how you can start using this module with X-Cart:
 
 8. The section **Cash on delivery** shows the status of your cash on delivery option for Fedex shipments.
    ![settings-cash-on-delivery.png]({{site.baseurl}}/attachments/ref_58tOKWMt/settings-cash-on-delivery.png)
-   Note that this status may not be changed from the FedEx module setting page directly. 
+   Note that this status may not be changed from the FedEx addon setting page directly. 
    To change the status, you will need to go to the Payment settings section of your X-Cart store back end. To do that, you will need to either follow the link in the help note:
    ![note.png]({{site.baseurl}}/attachments/ref_58tOKWMt/note.png)
    or simply go to **Store setup** > **Payment methods** via the Admin menu.
    
    In the Payment settings section, you will find the setting to toggle the cash on delivery option for FedEx next to the name of your FedEx method in the Offline methods list:
    ![cash-on-del.png]({{site.baseurl}}/attachments/ref_58tOKWMt/cash-on-del.png)
-   The status of this setting will be reflected on the FedEx module settings page. (You may have to refresh the module settings page to see the correct current status. But be sure to save any unsaved module settings before refreshing the page.)
+   The status of this setting will be reflected on the FedEx addon settings page. (You may have to refresh the addon settings page to see the correct current status. But be sure to save any unsaved addon settings before refreshing the page.)
    
-   After the activation of the cash on delivery option for FedEx, another setting will be added in the Cash on delivery section of the FedEx module settings page: **COD type**. 
+   After the activation of the cash on delivery option for FedEx, another setting will be added in the Cash on delivery section of the FedEx addon settings page: **COD type**. 
    ![fedex_cod_type.png]({{site.baseurl}}/attachments/ref_58tOKWMt/fedex_cod_type.png)
    Use this setting to select the type of funds that should be collected by FedEx upon package delivery.  
    
@@ -107,7 +107,7 @@ Here's how you can start using this module with X-Cart:
  
    Note that advanced options may affect the shipping rates calculation and may imply extra fees. 
 
-10. Be sure to save your FedEx configuration by clicking the **Submit** button at the bottom of the page. Once your basic FedEx configuration has been saved, another tab will be added on the FedEx module settings page: **Carrier Services**. 
+10. Be sure to save your FedEx configuration by clicking the **Submit** button at the bottom of the page. Once your basic FedEx configuration has been saved, another tab will be added on the FedEx addon settings page: **Carrier Services**. 
 
 11. Proceed to the **Carrier Services** tab to specify the set of FedEx carrier services that should be used for shipment. The carrier services you specify here will be available to your customers at checkout if the conditions from the FedEx **Settings** tab are met.
     ![carrier-services.png]({{site.baseurl}}/attachments/ref_58tOKWMt/carrier-services.png)
