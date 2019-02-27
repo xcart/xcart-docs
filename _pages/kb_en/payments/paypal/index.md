@@ -20,7 +20,7 @@ An X-Cart 5 online store can be configured to accept payments with PayPal. Depen
    *   {% link "PayPal for Marketplaces" ref_6iphJijP %} (supports multiple payment recipients; is recommended for X-Cart Multivendor PayPal Adaptive Payments)
    *   {% link "PayPal Adaptive payments" ref_FdXWLwVN %} (legacy)
    *   {% link "PayPal Partner Hosted with PCI Compliance" ref_0gaUolue %}
-   *   PayPal Credit
+   *   {% link "PayPal Credit" ref_46r2geWj %}
    
    More information is available in the section {% link "PayPal addon" ref_0mnK3aMh %} of this manual.
 
