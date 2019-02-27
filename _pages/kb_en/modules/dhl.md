@@ -91,4 +91,4 @@ Once the addon has been configured, DHL shipping is added to the list of shippin
 
 ![shipping-methods.png]({{site.baseurl}}/attachments/ref_3dwzJG71/shipping-methods.png)
 
-Here you can quickly enable/disable the DHL shipping method and change its order of appearance for customers as described in {% link "Carrier-calculated shipping rates" ref_ybdiN8r0 %}.
+Here you can quickly enable/disable the DHL shipping method and change its order of appearance for customers as described in {% link "Carrier-calculated Shipping Rates" ref_ybdiN8r0 %}.
