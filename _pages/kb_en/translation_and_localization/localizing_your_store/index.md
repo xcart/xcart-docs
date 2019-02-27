@@ -31,4 +31,3 @@ _In this section:_
 *  {% link "Configuring Currency" ref_2dx6iFtL %}
 *  {% link "Getting compliant with EU General Data Protection Regulation (GDPR)" ref_6VMSNqoq %}
 *  {% link "Getting compliant with the EU Cookie Law" ref_IOt4rapT %}
-*  {% link "RTL languages support" ref_3vEHzhPP %}
