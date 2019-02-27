@@ -7,11 +7,11 @@ title: Go Social
 order: 135
 published: true
 ---
-[Go Social](https://market.x-cart.com/addons/go-social.html "Go Social") module adds the most popular social share widgets (Facebook Like, Tweet It, Pinterest and Google+ buttons) on product pages.
+The addon [Go Social](https://market.x-cart.com/addons/go-social.html "Go Social") adds the most popular social share widgets (Facebook Like, Tweet It, Pinterest and Google+ buttons) on product pages.
 
 ![storefront.png]({{site.baseurl}}/attachments/ref_4YoBovhW/storefront.png)
 
-To use the module make sure it's {% link "installed and enabled" ref_uEnDBBA7 %}. Then proceed to the module setting page to configure it.
+To use the addon, make sure it is {% link "installed and enabled" ref_uEnDBBA7 %}. Then proceed to the addon setting page to configure it.
 
 ![installed.png]({{site.baseurl}}/attachments/ref_4YoBovhW/installed.png)
 
