@@ -27,7 +27,7 @@ To generate feeds make sure the Google Product Feed addon is installed and enabl
 
 {% toc %}
 
-## Adding products to feed
+## Adding Products to Feed
 
 Once installed and enabled the Google Product Feed addon enables the **Add to Google product feed** option in the **Marketing** section of the product details page automatically. The option comes enabled for all active products by default. 
 
@@ -35,7 +35,7 @@ Once installed and enabled the Google Product Feed addon enables the **Add to Go
 
 A feed file will included the data on all products with the enabled **Add to Google product feed**. If you want to exclude some products from the feed, disable the **Add to Google product feed** option for them.
 
-## Product data included into the feed
+## Product Data Included into the Feed
 
 Google product feed is formed based on [_google product attirbutes_](https://support.google.com/merchants/answer/7052112?hl=en&ref_topic=6324338 "Google Product Feed") both required and optional. A feed is a file that contains all the information about the products you sell. Google describes the different pieces of information about your products in attributes, which allow customers to search for and find your items. Products are then joined into product groups based on the attribute values that are a way to organize the Google Merchant Center product inventory in a Shopping campaign within Google Ads. 
 
@@ -69,7 +69,7 @@ The default list of _google product attributes_ that X-Cart includes in to the f
 The **shipping_length**, **shipping_width** and **shipping height** fields values will be submitted to the feed only if all of them are defined for a product. If at least one of the field values is missing the shipping dimentions will not be submitted to the feed. 
 {% endnote %}
 
-## Using X-Cart hidden attributes for Google shopping groups
+## Using X-Cart Hidden Attributes for Google Shopping Groups
 
 The data that is included into the Google product feed by default is already defined for the products in your store through the regular X-Cart product fields that are usually displayed in the storefront for the customers. However, the Google product feed might include the information that you don't want to show in the storefront not to tire the customers of your store with unnecessary details, like **google_product_category**.
 
@@ -77,7 +77,7 @@ The attributes that you don't need to show to the customers in your online store
 
 To assign hidden attribute values to your products:
 
-1. Create hidden attributes as described in {% link "Managing global attributes" ref_HzMkgc0q %}. 
+1. Create hidden attributes as described in {% link "Managing Global Attributes" ref_HzMkgc0q %}. 
    
    e.g. 
    If you sell cars and you need to add **google_product_category** attribute you should use '916' as a hidden attribute value that corresponds with _"916 - Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans"_ Google product category according to the [Google product taxonomy](https://www.google.com/basepages/producttype/taxonomy-with-ids.en-US.txt "Google Product Feed").
@@ -85,7 +85,7 @@ To assign hidden attribute values to your products:
 2. Assign hidden attributes to your products using the {% link "Bulk Editing" ref_1kSYmXQn %} tool as described in {% link "Bulk Editing" ref_1kSYmXQn %}.
 
 
-## Configuring Google shopping groups
+## Configuring Google Shopping Groups
 
 A Google shopping group tool in X-Cart allows to extend the list of _google product attributes_ included into the feed by assigning existing X-Cart product attributes to Google shopping groups. The attributes included into Google shopping groups stand apart from the other _google product attributes_ that are included into the feed by default because different merchants can have these attribute values defined through different fields in X-Cart.
 
@@ -159,7 +159,7 @@ To assign attributes to Google shopping groups:
 3. Choose a matching group in the **Google shopping group** drop-down
 4. Click **Save changes**
 
-## Feed generation
+## Feed Generation
 
 Now you can proceed to the feed generation in the _Feed generation & settings_ tab of the **Google Feed** section (**Sales channels** -> **Google product feed**):
 
