@@ -7,15 +7,15 @@ title: Horizontal Flyout Categories Menu
 order: 145
 published: true
 ---
-[Horizontal Flyout Categories Menu module](https://market.x-cart.com/addons/horizontal-flyout-categories-menu.html "Horizontal Flyout Categories Menu") moves the categories list to the horizontal bar with a drop-down menu. The module is included into the X-Cart Ultimate edition and is paid for X-Cart Business and Multivendor.
+The addon [Horizontal Flyout Categories Menu](https://market.x-cart.com/addons/horizontal-flyout-categories-menu.html "Horizontal Flyout Categories Menu") moves the categories list to the horizontal bar with a drop-down menu. 
 
-To install the module follow the instructions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the instructions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-When installed and enabled proceed to the module settings page to configure it.
+When installed and enabled proceed to the addon settings page to configure it.
 
 ![hfcm-installed.png]({{site.baseurl}}/attachments/ref_1mFs8c7N/hfcm-installed.png)
 
-The module settings page is devided into 3 sections:
+The addon settings page is devided into three sections:
 
 * **"Single-column" layout settings section**
   
@@ -31,7 +31,7 @@ The module settings page is devided into 3 sections:
     ![category-page.png]({{site.baseurl}}/attachments/ref_1mFs8c7N/category-page.png)
     
     {% note info %}
-    If the value of the **Number of columns in multicolumn layout** option on the category settings page is set to 0 the system will use the default field's value from the module settings page.
+    If the value of the **Number of columns in multicolumn layout** option on the category settings page is set to 0 the system will use the default field's value from the addon settings page.
     {% endnote%}
 
   * **Use 2 levels of subcategories in multicolumn layout** : If enabled 2 levels of subcategories are displayed in the multiple column view.
