@@ -11,34 +11,34 @@ redirect_from:
 ---
 When a buyer completes a payment process with a payment gateway and clicks _**Place Order**_  his cart in X-Cart front-end is cleared and the admin back-end registers an order for this buyer being an exact copy of the cart at the moment of payment. 
 
-Sometimes it can be that a buyer proceeds to paying a cart but doesn't complete it due to many reasons (a customer changes his mind, something distracts a customer from the payment, a computer crash, etc.). In this case the cart admin back-end doesn't register an order by default and if a merchant wants to have such not finished purchases registered it's necessary to use the [Not Finished Orders module](https://market.x-cart.com/addons/not-finished-orders.html "Not Finished Orders") in X-Cart. 
+Sometimes it can be that a buyer proceeds to paying a cart but doesn't complete it due to many reasons (a customer changes his mind, something distracts a customer from the payment, a computer crash, etc.). In this case the cart admin back-end doesn't register an order by default and if a merchant wants to have such not finished purchases registered it's necessary to use the addon [Not Finished Orders](https://market.x-cart.com/addons/not-finished-orders.html "Not Finished Orders") in X-Cart. 
 
-To install the module follow the regular guidelines provided in the article {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
+To install the addon, follow the regular guidelines provided in the article {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
 
 {% note info %}
-The **Not Finished Orders** module works with the orders created with online payment processors. For the offline payment methods an order is created at the moment a buyer clicks the **Place order** button in the X-Cart front-end and an order gets an "Awaiting payment" status by default. 
+The **Not Finished Orders** addon works with the orders created with online payment processors. For the offline payment methods an order is created at the moment a buyer clicks the **Place order** button in the X-Cart front-end and an order gets an "Awaiting payment" status by default. 
 {% endnote %}
 
-To set up the **Not Finished Orders** module use the _Settings_ link.
+To set up the **Not Finished Orders** addon, use the _Settings_ link.
 
 ![payment-transactions.png]({{site.baseurl}}/attachments/ref_5TMbPwNQ/payment-transactions.png)
 
-The settings of the module are as follows:
+The settings of the addon are as follows:
 
-* **Not finished order will be created** : Choose the conditions that if met will result in a not finished order creation.
+* **Not finished order will be created** : Choose the conditions that, if met, will result in the creation of a not finished order.
 
-* **Clear cart if administrator changes order** : Enable if you need a customer's cart to be cleared in the front-end once the corresponding order is changed by the store admin in the admin back-end.
+* **Clear cart if administrator changes order** : Enable if you need a customer's cart to be cleared in the front-end once the corresponding order is changed by the store admin in the Admin back end.
 
 {% note info %}
-If this option is set to 'YES' a buyer's cart of a not finished order will be cleared as soon as the cart admin changes the order details, e.g. a payment status of a not finished order from _Status is not defined_ to _Awaiting payment_. By default the cart content is cleared only when an order is placed.  
+If this option is set to 'YES', a buyer's cart of a not finished order will be cleared as soon as the store administrator changes the order details, e.g. a payment status of the not finished order, from _Status is not defined_ to _Awaiting payment_. By default the cart content is cleared only when an order is placed.  
 {% endnote %}
 
-* **Limit lifetime of not finished order** : If enabled, the cart admin will be able to define the the time to use the cart at its current state for future attempts in days. 
+* **Limit lifetime of not finished order** : If enabled, the store administrator will be able to define the time to use the cart in its current state for future attempts in days. 
 
-Once enabled and set up, the cart admin will see the not finished orders in the **Orders** section of the admin back-end.
+Once enabled and set up, the store administrator will see the not finished orders in the **Orders** section of the Admin back end.
 
 ![order.png]({{site.baseurl}}/attachments/ref_5TMbPwNQ/order.png)
 
 A not finished order won't have an order number and the payment status will be _Status is not defined_. The order will get an orderID only when and if the cart admin changes the fulfilment status and payment status of the order.
 
-The **Not Finished Orders** module is good for manual tracking of the purchases. If you want to automate the procedure use the {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %} module. It works with any abandoned cart regardless of the payment method.
+The **Not Finished Orders** addon is good for manual tracking of the purchases. If you want to automate the procedure use the {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %} addon. It works with any abandoned cart regardless of the payment method.
