@@ -7,17 +7,17 @@ title: Hurry Up
 order: 146
 published: true
 ---
-The [Hurry Up module](https://market.x-cart.com/addons/hurry-up.html "Hurry Up!") allows to enable product page notifications like low stock alerts, recently bought products alerts and frequently viewed products alerts. The sense of urgency encourages the prospective buyers to make an on-the-spot buying decision.
+The addon [Hurry Up](https://market.x-cart.com/addons/hurry-up.html "Hurry Up!") allows to enable product page notifications like low stock alerts, recently bought products alerts and frequently viewed products alerts. The sense of urgency encourages the prospective buyers to make an on-the-spot buying decision.
 
 ![cus-alerts.png]({{site.baseurl}}/attachments/ref_4XQjes9g/cus-alerts.png)
 
-To install the module follow the guidelines from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the guidelines from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-When installed and enabled proceed to the settings page to configure it:
+After the addon has been installed and enabled, proceed to the settings page to configure it:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_4XQjes9g/installed.png)
 
-The **Hurry Up** module settings page allows to configure 3 different types of alerts for customers:
+The **Hurry Up** addon settings page enables you to configure three different types of alerts for customers:
 
 1. **Low stock alerts**
 
@@ -39,7 +39,7 @@ The **Hurry Up** module settings page allows to configure 3 different types of a
    ![frequently-viewed-products-alerts.png]({{site.baseurl}}/attachments/ref_4XQjes9g/frequently-viewed-products-alerts.png)
    
    * **Alert position** : Select the way the notifications should be displayed. You can choose between inside the page content (below the **Add to Cart** button) or a pop up as a tooltip at the bottom of the page.
-   * **Count viewers within this period (minutes)** : Specify a time period in seconds. The module will count only those customers who viewed the product LESS than this number of minutes ago.
+   * **Count viewers within this period (minutes)** : Specify a time period in seconds. The addon will count only those customers who viewed the product LESS than this number of minutes ago.
    * **Custom text color** : Choose the text color for the alert.
    * **Custom background color** : Choose the backgroung color for alert.
    * **Custom border color** : Choose the border color for alert.
@@ -53,7 +53,7 @@ The **Hurry Up** module settings page allows to configure 3 different types of a
    
    * **Alert position** : Select the way the notifications should be displayed. You can choose between inside the page content (below the **Add to Cart** button) or a pop up as a tooltip at the bottom of the page.
    * **Minimum number of recent sales** : Specify a number of orders to be counted. The alert will appear only for products that have been ordered recently MORE than this number of times.
-   * **Recent sales period duration (hours)** : Specify the sales period in hours. The module will count only the orders placed LESS than this number of hours ago.
+   * **Recent sales period duration (hours)** : Specify the sales period in hours. The addon will count only the orders placed LESS than this number of hours ago.
    * **Custom text color** : Choose the text color for the alert.
    * **Custom background color** : Choose the backgroung color for alert.
    * **Custom border color** : Choose the border color for alert.
