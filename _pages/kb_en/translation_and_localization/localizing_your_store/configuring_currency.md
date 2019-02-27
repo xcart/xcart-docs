@@ -5,7 +5,7 @@ updated_at: '2019-02-27 12:06 +0400'
 identifier: ref_2dx6iFtL
 title: Configuring Currency
 order: 110
-published: false
+published: true
 ---
 To configure currency:
 
