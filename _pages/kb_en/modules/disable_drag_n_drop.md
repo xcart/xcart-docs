@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-13 17:35 +0400'
 identifier: ref_2NVSkzc3
-title: Disable drag'n'drop add to cart
+title: Disable Drag'n'drop Add to Cart
 order: 75
 published: true
 ---
