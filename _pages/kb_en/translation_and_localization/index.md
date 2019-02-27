@@ -18,8 +18,8 @@ Any merchant located outside the given countries can adapt the default X-Cart so
 _In this section:_  
 *  {% link "Localizing Your Store" ref_cc4sCpa5 %}
 *  {% link "Installing Language Packages" ref_NH3w8sSS %}
-*  {% link "Switching the Language of the Admin Area" ref_x5oSN86B %}
 *  {% link "RTL Languages Support" ref_3vEHzhPP %}
+*  {% link "Switching the Language of the Admin Area" ref_x5oSN86B %}
 *  {% link "Translating Product Catalog" ref_5MQvg8Mm %}
 *  {% link "Translating News, Menus, Static Pages and Order Statuses" ref_7I70QnHa %}
 *  {% link "Translating Labels" ref_2CQ8HuY4 %}
