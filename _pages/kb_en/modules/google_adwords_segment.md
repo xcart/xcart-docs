@@ -9,10 +9,10 @@ published: true
 ---
 Google AdWords is a powerful tool for attracting new customers and growing your user base. It gives a merchant an ability to evaluate the effectiveness of a business campaign and make necessary adjustments if required. 
 
-X-Cart allows to submit data to Google AdWords and get access to all the advantages it gives via the Segment Integration module facilities. 
+X-Cart allows to submit data to Google AdWords and get access to all the advantages it gives via the Segment Integration addon facilities. 
 
 {% note warning %} 
-To be able to submit data to Google AdWords you need the {% link "Segment Integration module" ref_2tHtk4OT %} installed, enabled and configured to collect data from your X-Cart store.
+To be able to submit data to Google AdWords you need the {% link "Segment Integration Addon" ref_2tHtk4OT %} installed, enabled and configured to collect data from your X-Cart store.
 {% endnote %}
 
 To configure Google AdWords via Segment a store admin should:
@@ -29,5 +29,3 @@ To configure Google AdWords via Segment a store admin should:
 6. Follow the configuration procedures as described in [Segment Docs](https://segment.com/docs/destinations/google-adwords-new/ "Google AdWords (Segment)") 
    ![setup-guide-ga.png]({{site.baseurl}}/attachments/ref_0XLukKQy/setup-guide-ga.png)
 7. Enable the Google AdWords New destination when you are done.
-
-
