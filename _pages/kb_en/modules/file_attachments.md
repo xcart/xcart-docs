@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-03 13:31 +0400'
 identifier: ref_0ZWKcob4
-title: File attachments
+title: File Attachments
 order: 105
 published: true
 redirect_from:
