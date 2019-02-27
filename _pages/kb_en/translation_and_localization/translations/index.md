@@ -5,7 +5,7 @@ updated_at: '2019-02-27 13:07 +0400'
 identifier: ref_6z1zgVsA
 title: Translating your Store
 order: 110
-published: false
+published: true
 ---
 X-Cart software can be downloaded and installed in 3 different packs (US, UK and Chinese) that determines the language of the user interface (both the storefront and the admin area). In case you need a store on any language not available in a default pack, you should install a default X-Cart software (US pack) and translate it to the language you need using a language package from [X-Cart Marketplace](https://market.x-cart.com/addons/translation/?filter[edition]=all&filter[priceType]=all&filter[sortBy]=p.arrivalDate "Translation and Localization").
 
@@ -25,5 +25,9 @@ A language package or translation as it is referred to on Marketplace is a .csv 
 
 When a piece of text needs to be displayed on a page, X-Cart selects the respective text label from the database and determines which of its translations needs to be displayed - according to the language that is currently selected for viewing the page. If, for some reason, the value of the label for the selected language is missing, the label value for the default language (English) is displayed. If the label value for the default language is missing as well, the label name is displayed.
 
-_In this section: _
-*  
+_In this section:_
+*  {% link "Installing Language Packages" ref_NH3w8sSS %}
+*  {% link "Switching Languages in the Admin Area" ref_x5oSN86B %}
+*  {% link "Translating Product Catalog" ref_5MQvg8Mm %}
+*  {% link "Translating Labels" ref_2CQ8HuY4 %}
+*  {% link "Translating News, Menus, Static Pages and Order Statuses" ref_7I70QnHa %}
