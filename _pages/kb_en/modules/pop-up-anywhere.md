@@ -7,18 +7,18 @@ title: Pop-up Anywhere
 order: 210
 published: true
 ---
-The [Pop-Up Anywhere module](https://market.x-cart.com/addons/popup-anywhere.html "Pop-up Anywhere") allows to create an unlimited number of pop-overs and display them in the storefront instantly or on schedule, for all visitors or for certain groups of customers only. 
+The addon [Pop-Up Anywhere](https://market.x-cart.com/addons/popup-anywhere.html "Pop-up Anywhere") allows to create an unlimited number of pop-overs and display them in the storefront instantly or on schedule, for all visitors or for certain groups of customers only. 
 
-To install the module follow the guides from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the guides from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 ![installed.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/installed.png)
 
-When installed the module adds the **Popups** section to the admin area (**Discounts** -> **Popups**) where you can create new and manage existing pop-ups. A store admin can enable/disable, edit or delete pop-ups completely. The page also allows filtering pop-ups by name and changing the pop-up order by drag-n-dropping a pop-up to the required position in the list. 
+Once the addon has been installed, it adds the **Popups** section to the Admin area (**Discounts** -> **Popups**) where you can create new and manage existing pop-ups. A store admin can enable/disable, edit or delete pop-ups completely. The page also allows filtering pop-ups by name and changing the pop-up order by drag-n-dropping a pop-up to the required position in the list. 
 
 ![new-popup.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/new-popup.png)
 
 {% note info %}
-By default, a list of pop-ups contains 4 samples that are aimed to demonstrate 4 different types of a pop-up set-up: 
+By default, a list of pop-ups contains four samples that are aimed to demonstrate 4 different types of a pop-up set-up: 
 - a standard pop-up, 
 - a pop-up with a custom template, 
 - a notification bar,
@@ -31,7 +31,7 @@ To create a new pop-up click the **New popup** button at the top of the page.
 
 You'll be redirected to a **New popup** page where you'll need to fill in the fields in 4 sections of settings to create a pop-up.
 
-## General popup settings
+## General Popup Settings
    
    This section defines the main pop-up settings displayed in the pop-up list in the admin area.
    ![general-popup-settings.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/general-popup-settings.png)
@@ -41,7 +41,7 @@ You'll be redirected to a **New popup** page where you'll need to fill in the fi
      ![from-till.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/from-till.png)
    * **Active till** : Set the end-date for a pop-up (optional).
 
-## Popup content
+## Popup Content
    
    This section defines the pop-up style and content displayed to the customers in the storefront.
    ![popup-content.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/popup-content.png)
@@ -60,7 +60,7 @@ You'll be redirected to a **New popup** page where you'll need to fill in the fi
    * **Title** : Name your pop-up the way your customers will see it in the storefront.
    * **Content** : Add the pop-up content here. Use the built-in WISIWIG editor to insert images, videos or links if required or choose a custom .twig file for a custom popup template. 
 
-## Popup behaviour
+## Popup Behaviour
 
    This section defines the rules that control the pop-up display in the storefront.
    ![popup-behaviour.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/popup-behaviour.png)
@@ -69,7 +69,7 @@ You'll be redirected to a **New popup** page where you'll need to fill in the fi
    * **Show if URL contains** : Specify the particular store pages for a pop-up to be displayed at (based on part of URL, e.g. target=cart, target=checkout, .html, etc.). Separate page types with a comma.
    * **Do not show if URL contains** : Specify the particular store pages for a pop-up NOT to be displayed at (based on part of URL, e.g. target=cart, target=checkout, .html, etc.). Separate page types with a comma.
    
-## Popup appearance
+## Popup Appearance
    
    This section defines the visual parameters of a pop-up.
    ![popup-appearance.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/popup-appearance.png)
