@@ -27,4 +27,8 @@ In addition, the localization process may also include:
 The aim of localization is to give a site the look and feel of having been created specifically for a target market, no matter their language, culture, or location.
 
 _In this section:_
-*  
+*  {% link "Configuring Units of Measure and Date Formats" ref_25Pj9ESi %}
+*  {% link "Configuring Currency" ref_2dx6iFtL %}
+*  {% link "Getting compliant with EU General Data Protection Regulation (GDPR)" ref_6VMSNqoq %}
+*  {% link "Getting compliant with the EU Cookie Law" ref_IOt4rapT %}
+*  {% link "RTL languages support" ref_3vEHzhPP %}
