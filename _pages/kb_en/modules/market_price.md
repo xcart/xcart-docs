@@ -7,15 +7,15 @@ title: Market Price
 order: 166
 published: true
 ---
-The [Market Price](https://market.x-cart.com/addons/market-price.html "Market Price") module allows setting a market product price, which shows the difference between the price offered in your store and the average price of the same product on the market. 
+The [Market Price](https://market.x-cart.com/addons/market-price.html "Market Price") addon allows setting a market product price, which shows the difference between the price offered in your store and the average price of the same product on the market. 
 
-The module is free and comes enabled with the default software installation:
+The addon is free and comes enabled with the default software installation:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_66scBj0f/installed.png)
 
-If it is not, you can always enable it in the **My addons** section of the admin area as described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
+If it is not, you can always enable it in the **My addons** section of the admin area as described in {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}.
 
-When enabled the module adds a **Market price** field to the _Price & Inventory_ section of the product details page in the admin area where the store admin can set the average market price on a product comparing to the price in this store:
+When enabled the addon adds a **Market price** field to the _Price & Inventory_ section of the product details page in the admin area where the store admin can set the average market price on a product comparing to the price in this store:
 
 ![product-details.png]({{site.baseurl}}/attachments/ref_66scBj0f/product-details.png)
 
