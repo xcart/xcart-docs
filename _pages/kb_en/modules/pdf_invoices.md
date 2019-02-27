@@ -7,25 +7,25 @@ title: PDF Invoices
 order: 196
 published: true
 ---
-The [PDF Invoices module](https://market.x-cart.com/addons/PDF-Invoice.html "PDF Invoices") allows to issue invoices in .pdf format and attach such invoices to messages.
+The addon [PDF Invoices](https://market.x-cart.com/addons/PDF-Invoice.html "PDF Invoices") allows you to issue invoices in .pdf format and attach such invoices to messages.
 
-To install the module follow the giudes from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the instructions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-When installed proceed to the module settings page to configure it:
+Once the addon has been installed, proceed to the addon settings page to configure it:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_4pIx0x0g/installed.png)
 
-The "PDF Invoices module" settings are as follows:
+The PDF Invoices addon settings are as follows:
 ![settings-page.png]({{site.baseurl}}/attachments/ref_4pIx0x0g/settings-page.png)
 
 * **Invoice file name pattern** : This field allows to rename the default .pdf invoice filename to any store specific one if required. Use _[orderNumber]_ pattern text to provide the order number position.
-* **Send the invoice attachment in the mail** : If enabled a .pdf invoice file will be attached to every e-mail (to both admin and customer) that contains an order link.
-* **Clear order email content when the invoice is attached** : If enabled, the text of an order confirmation e-mail won't contain any information about the order. All info about the order will be attached to the e-mail in a .pdf invoice.
+* **Send the invoice attachment in the mail** : If enabled a .pdf invoice file will be attached to every email (to both admin and customer) that contains an order link.
+* **Clear order email content when the invoice is attached** : If enabled, the text of an order confirmation email won't contain any information about the order. All info about the order will be attached to the email in a .pdf invoice.
   
 
 **Submit** the settings to make them active.
 
-When enabled and configured the module adds an **Open PDF invoice** button to the order confirmation page a customer sees after placing an order and to the order details page that a customer can view in his account in the **Orders** section:
+Once enabled and configured, the addon adds the button **Open PDF invoice** to the order confirmation page a customer sees after placing an order and to the order details page that a customer can view in his account in the **Orders** section:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Order confirmation page</i>![cus-invoice.png]({{site.baseurl}}/attachments/ref_4pIx0x0g/cus-invoice.png)</div>
@@ -42,11 +42,11 @@ Besides that the store admin can open a .pdf invoice for an order or for several
 
 For this purpose the admin should choose the order(s) he needs a .pdf invoice for and click the **Open PDF invoices** button at the bottom of the listing page. Invoices for the chosen orders will be downloaded in .pdf format to the admin's computer where it will be possible to open and use them further.
 
-Both the store admin and the customer get a .pdf invoice attached to the order confirmation e-mail if the **Send the invoice attachment in the mail** option is enabled:
+Both the store admin and the customer get a .pdf invoice attached to the order confirmation email if the **Send the invoice attachment in the mail** option is enabled:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Admin notification</i>![order-created-notification.png]({{site.baseurl}}/attachments/ref_4pIx0x0g/order-created-notification.png)</div>
   <div class="column" markdown="span"><i>Customer notification</i>![invoice-attached.png]({{site.baseurl}}/attachments/ref_4pIx0x0g/invoice-attached.png)</div>
 </div>
 
-In case the **Clear order email content when the invoice is attached** option is enabled a customer will get a default **Order created** e-mail notification with a .pdf invoice attached to it (the one you see on the sample above). The text of the default **Order created** notification you can edit in the **Email notifications** section (**Store setup** -> **Email notificaitons**) as described in {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}.
+In case the **Clear order email content when the invoice is attached** option is enabled a customer will get a default **Order created** email notification with a .pdf invoice attached to it (the one you see on the sample above). The text of the default **Order created** notification you can edit in the **Email notifications** section (**Store setup** -> **Email notificaitons**) as described in {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}.
