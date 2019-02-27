@@ -9,17 +9,17 @@ published: true
 redirect_from:
   - /orders/not_finished_orders.html
 ---
-When a buyer completes a payment process with a payment gateway and clicks _**Place Order**_  his cart in X-Cart front-end is cleared and the admin back-end registers an order for this buyer being an exact copy of the cart at the moment of payment. 
+When a buyer completes a payment process with a payment gateway and clicks _**Place Order**_, their cart in the X-Cart store front end is cleared, and the Admin back end registers an order for this buyer being an exact copy of the cart at the moment of payment. 
 
-Sometimes it can be that a buyer proceeds to paying a cart but doesn't complete it due to many reasons (a customer changes his mind, something distracts a customer from the payment, a computer crash, etc.). In this case the cart admin back-end doesn't register an order by default and if a merchant wants to have such not finished purchases registered it's necessary to use the addon [Not Finished Orders](https://market.x-cart.com/addons/not-finished-orders.html "Not Finished Orders") in X-Cart. 
+Sometimes it can be that a buyer proceeds to pay for the contents of their shopping cart but does not complete checkout due to many reasons (changes their mind, something distracts them from completing the payment, a computer crash occurs, etc.). In this case the store Admin back end does not register the order by default. If you want to have such "not finished" purchases registered, it is necessary to use the addon [Not Finished Orders](https://market.x-cart.com/addons/not-finished-orders.html "Not Finished Orders"). 
 
 To install the addon, follow the regular guidelines provided in the article {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
 
 {% note info %}
-The **Not Finished Orders** addon works with the orders created with online payment processors. For the offline payment methods an order is created at the moment a buyer clicks the **Place order** button in the X-Cart front-end and an order gets an "Awaiting payment" status by default. 
+The addon **Not Finished Orders** works with the orders created with online payment processors. For the offline payment methods an order is created at the moment a buyer clicks the **Place order** button in the X-Cart front end, and the order gets the "Awaiting payment" status by default. 
 {% endnote %}
 
-To set up the **Not Finished Orders** addon, use the _Settings_ link.
+To set up the addon **Not Finished Orders**, use the _Settings_ link.
 
 ![payment-transactions.png]({{site.baseurl}}/attachments/ref_5TMbPwNQ/payment-transactions.png)
 
@@ -39,6 +39,6 @@ Once enabled and set up, the store administrator will see the not finished order
 
 ![order.png]({{site.baseurl}}/attachments/ref_5TMbPwNQ/order.png)
 
-A not finished order won't have an order number and the payment status will be _Status is not defined_. The order will get an orderID only when and if the cart admin changes the fulfilment status and payment status of the order.
+A not finished order won't have an order number and the payment status will be _Status is not defined_. The order will get an orderID only when and if the store administrator changes the fulfilment status and payment status of the order.
 
 The **Not Finished Orders** addon is good for manual tracking of the purchases. If you want to automate the procedure use the {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %} addon. It works with any abandoned cart regardless of the payment method.
