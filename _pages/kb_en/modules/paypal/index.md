@@ -19,7 +19,7 @@ This addon can be used to enable payments via:
    *   {% link "PayPal for Marketplaces" ref_6iphJijP %} (supports multiple payment recipients; is recommended for X-Cart Multivendor PayPal Adaptive Payments)
    *   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %} (legacy)
    *   {% link "PayPal Partner Hosted with PCI Compliance" ref_0gaUolue %}
-   *   PayPal Credit
+   *   {% link "PayPal Credit" ref_46r2geWj %}
    
 This addon can also be used to enable the **Log In with PayPal** feature for your X-Cart store.   
     
