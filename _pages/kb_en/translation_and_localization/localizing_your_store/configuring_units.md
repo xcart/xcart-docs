@@ -9,7 +9,7 @@ published: true
 ---
 To configure units of measure and date formats: 
 
-1.  Go to the Localization section of your store's Admin area (**Store setup** > **Localization**):
+1.  Go to the **Units and Formats** section of your store's Admin area (**Store setup** > **Localization**):
     ![localization.png]({{site.baseurl}}/attachments/ref_cc4sCpa5/localization.png)
 
 2.  Use the settings in this section to adjust the localization parameters for your country:
