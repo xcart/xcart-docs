@@ -7,19 +7,19 @@ title: Exit Offers
 order: 91
 published: true
 ---
-The [Exit Offers module](https://market.x-cart.com/addons/exit-offers.html "Exit Offers") allows to display an exit popup when a visitor moves the mouse up to the close button and is about to leave the site. This way it's possible to grab visitors back right when they are about to leave the store and recover sales.
+The addon [Exit Offers](https://market.x-cart.com/addons/exit-offers.html "Exit Offers") allows to display an exit popup when a visitor moves the mouse up to the close button and is about to leave the site. This way it's possible to grab visitors back right when they are about to leave the store and recover sales.
 
-To intall the module follow directions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To intall the addon, follow the directions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 ![installed.png]({{site.baseurl}}/attachments/ref_1T0EXlkr/installed.png)
 
-When installed and enabled the module adds a special **Exit Offers** section in the store admin area (**Discounts** -> **Exit Offers**) where it's possible to create new and manage existing offers. 
+When installed and enabled, the addon adds a special **Exit Offers** section in the store Admin area (**Discounts** -> **Exit Offers**) where it's possible to create new and manage existing offers. 
 
 ![exit-offers-list.png]({{site.baseurl}}/attachments/ref_1T0EXlkr/exit-offers-list.png)
 
-To create a new exit offer click the **New exit offer** button at the top. 
+To create a new exit offer, click the **New exit offer** button at the top. 
 
-You'll see a _New exit offer_ page where you'll need to fill in the fields (required and optional) to create an offer.
+You will see a page titled _New exit offer_ where you will need to fill in the fields (required and optional) to create an offer.
 
 ![new-offer.png]({{site.baseurl}}/attachments/ref_1T0EXlkr/new-offer.png)
 
@@ -48,7 +48,7 @@ To edit an exit offer a store admin can either click the offer name and add chan
 To style exit popups a store admin can:
 
 * use inline styles (built-in WISIWIG editor) when formatting the exit offer message;
-* use the {% link "Theme Tweaker" ref_2Kfe2OX6 %} module to add custom styles for _.exit-offer-popup-dialog.no-title .exit-offer-contents_, _.ui-dialog.exit-offer-popup-dialog .ui-dialog-titlebar-close_ and _.ui-dialog.exit-offer-popup-dialog_ CSS selectors.
+* use the {% link "Theme Tweaker" ref_2Kfe2OX6 %} addon to add custom styles for _.exit-offer-popup-dialog.no-title .exit-offer-contents_, _.ui-dialog.exit-offer-popup-dialog .ui-dialog-titlebar-close_ and _.ui-dialog.exit-offer-popup-dialog_ CSS selectors.
 
 Also it's possible to style a particular exit offer popup by using its ID number; for example, .exit-offer-popup-dialog-2.no-title .exit-offer-contents
 
