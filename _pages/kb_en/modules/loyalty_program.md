@@ -12,7 +12,7 @@ Do you want to stimulate guest customers to register, or encourage product revie
 
 {% toc Let's review the addon in details. %} 
 
-## Installation and set-up
+## Installation and Setup
 
 To install the Loyalty Program addon, please follow the steps described in {% link "Installing and Activating Addons" ref_0fGEpvrh %}. Once the addon has been installed, proceed to configuring your Loyalty Program via the addon settings page.
 
@@ -56,9 +56,9 @@ INFORMATION settings:
   ![custom.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/custom.png)
   {% endnote %}
 
-## Managing Loyalty Program 
+## Managing Your Loyalty Program 
 
-The Loyalty Program can be managed in the **Discounts** > **Loyalty Program** section of the admin back-end. 
+The Loyalty Program can be managed in the **Discounts** > **Loyalty Program** section of the Admin back end. 
 
 ![report.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/report.png)
 
@@ -72,7 +72,7 @@ To manage the Loyalty Program representation in the store front-end enable the c
 
 The menu itself is added automatically after the Loyalty Program addon has been installed.
 
-## Customer experience
+## Customer Experience
 
 When the Loyalty Program addon is enabled, the store visitors and registered customers can see the reward points they will get for buying a product.
 
