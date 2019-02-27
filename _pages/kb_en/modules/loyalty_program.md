@@ -6,21 +6,19 @@ identifier: ref_1Odyn6mT
 title: Loyalty Program
 order: 155
 published: true
-description: The Loyalty Program Module.
+description: The Loyalty Program Addon
 ---
-Do you want to stimulate guest customers to register, or encourage product reviews and ratings, or even reward customers for purchases? Use the [Loyalty Program](https://market.x-cart.com/addons/loyalty-program.html "Loyalty Program") module to achieve your goals. The module will help you to increase customer loyalty and turn your visitors into returning customers as well as to reward your customers with points for actions.
+Do you want to stimulate guest customers to register, or encourage product reviews and ratings, or even reward customers for purchases? Use the addon [Loyalty Program](https://market.x-cart.com/addons/loyalty-program.html "Loyalty Program") to achieve your goals. The addon will help you to increase customer loyalty and turn your visitors into returning customers as well as to reward your customers with points for actions.
 
-The Loyalty Program module is included in the X-Cart Ultimate edition and can be added as a paid extension to the Business edition.
-
-{% toc Let's review the module in details. %} 
+{% toc Let's review the addon in details. %} 
 
 ## Installation and set-up
 
-To install the Loyalty Program module please follow the steps described in {% link "Installing and activating addons" ref_0fGEpvrh %}. Once installed proceed to configuring the Loyalty Program on the module settings page.
+To install the Loyalty Program addon, please follow the steps described in {% link "Installing and Activating Addons" ref_0fGEpvrh %}. Once the addon has been installed, proceed to configuring your Loyalty Program via the addon settings page.
 
 ![]({{site.baseurl}}/attachments/ref_1Odyn6mT/install.png)
 
-The module settings are devided into 3 main blocks - EARN, REDEEM and INFORMATION. 
+The addon settings are devided into three main blocks - EARN, REDEEM and INFORMATION. 
 
  <div class="ui stackable two column grid">
    <div class="column" markdown="span">![settings-earn.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-earn.png)
@@ -72,26 +70,26 @@ To manage the Loyalty Program representation in the store front-end enable the c
 
 ![menu.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/menu.png)
 
-The menu itself is added automatically after the Loyalty Program module is installed.
+The menu itself is added automatically after the Loyalty Program addon has been installed.
 
 ## Customer experience
 
-When the Loyalty Program module is enabled, the store visitors and registered customers will see reward points they will get for buying a product.
+When the Loyalty Program addon is enabled, the store visitors and registered customers can see the reward points they will get for buying a product.
 
 ![home.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/home.png)
 
-Also, they will see a Loyalty Program menu (if enabled) where they can get information on the Loyalty Program policy.
+Also, they can see a Loyalty Program menu (if enabled) where they can get information on the Loyalty Program policy.
 
 ![details.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/details.png)
 
-At checkout the registered customers will see a sum of reward points they will earn with an order. Store visitors will be promted to register an account for the reward points to be added to the order.
+At checkout, registered customers can see the reward points they will earn with the order. Store visitors will be promted to register an account for the reward points to be added to the order.
 
 ![checkout.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/checkout.png)
 
-Customers can also earn reward points by rating products or writing {% link "product reviews" ref_XBriIS6B %}  if it's enabled in the Loyalty Program settings. 
+Customers can also earn reward points by rating products or writing {% link "product reviews" ref_XBriIS6B %}  if this feature is enabled in the Loyalty Program settings. 
 
 {% note info %}
-Reward Points for product ratings and reviews can be promoted either on the Loyalty Program page or with the help of the [Pop-Up Anywhere](https://market.x-cart.com/addons/popup-anywhere.html "Loyalty Program") module.
+Reward Points for product ratings and reviews can be promoted either on the Loyalty Program page or with the help of the [Pop-Up Anywhere](https://market.x-cart.com/addons/popup-anywhere.html "Loyalty Program") addon.
 {% endnote %}
 
 Reward points are credited to a customer's account when an order gets a 'Paid' {% link "status" ref_DkbTi1qJ %}. After that the customer can see available reward points on the **Account Details** page in the **Reward Points** tab. If the order is cancelled or refunded the related reward points are withdrawn from the customer's account.
