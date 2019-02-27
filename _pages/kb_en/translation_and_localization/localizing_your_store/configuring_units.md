@@ -5,7 +5,7 @@ updated_at: '2019-02-27 11:56 +0400'
 identifier: ref_25Pj9ESi
 title: Configuring Units of Measure and Date Formats
 order: 100
-published: false
+published: true
 ---
 To configure units of measure and date formats: 
 
