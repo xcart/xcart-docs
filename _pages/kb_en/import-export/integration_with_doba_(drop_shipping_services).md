@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 16:10 +0400'
 identifier: ref_HOfdxO3E
-title: Integration with Doba (drop shipping services)
+title: Integration with Doba (Drop Shipping Services)
 categories:
   - User manual
 published: true
@@ -20,5 +20,3 @@ For more information about Doba and instructions on how to use Doba's Custom Dat
 _Related pages:_
 
 *   {% link "Import-Export" ref_TANvG2De %}
-
-
