@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-14 17:40 +0400'
 identifier: ref_qwhmJtqW
-title: Activating your license
+title: Activating Your License
 categories:
   - User manual
 published: true
@@ -156,5 +156,5 @@ _Related pages:_
 
 *   Video: {% link "X-Cart 5 Free License Activation" ref_X5ZLmSJV %}
 *   Video: {% link "X-Cart 5 Business License Activation" ref_UUrbypsh %}
-*   Video: {% link "X-Cart 5 Module License Activation" ref_hU6Rb4tw %}
-*   {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}
+*   Video: {% link "X-Cart 5 Addon License Activation" ref_hU6Rb4tw %}
+*   {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}
