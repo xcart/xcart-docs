@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-07-07 12:24 +0400'
 identifier: ref_h7Oh5T8T
-title: Restoring your store with the Snapshots feature
+title: Restoring Your Store with the Snapshots Feature
 version: X-Cart 5.2.5 and later
 categories:
   - User manual
