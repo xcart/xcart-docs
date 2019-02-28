@@ -26,6 +26,6 @@ So it's only natural that a lot of things will not be translated automatically. 
 3.  Use the Global edit feature to add the translation you require. Be sure to save your changes.
     ![xc5_translations_add_de_label.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_add_de_label.png)
 
-    (More dtailed instructions for editing text labels and their translations can be found in the {% link "Editing text labels" ref_IyGxQ1DN#editing-text-labels %} section of this manual.)
+    (More detailed instructions for editing text labels and their translations can be found in the {% link "Editing text labels" ref_IyGxQ1DN#editing-text-labels %} section of this manual.)
 
 That is all. After switching the language in your store's Admin area to "DE" you should be able to see the link text translated.
