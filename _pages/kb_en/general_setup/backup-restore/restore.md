@@ -13,7 +13,7 @@ The instructions below generally describe how to restore X-Cart files from a bac
 
 {% toc %}
 
-## Restoring X-Cart files from a back-up
+## Restoring X-Cart Files from a Back-up
 
 1. Log in to your server or your hosting account.
 2. Go to the directory that contains all your Internet projects (usually referred to as the WWW directory), and create a new directory where you will deploy the store from the backup.
@@ -69,13 +69,13 @@ The instructions below generally describe how to restore X-Cart files from a bac
   The name/address of the MySQL server, the name of the MySQL database, the username and the password for the MySQL account must be the same as the values of the respective variables in the X-Cart configuration file /etc/config.php.
   {% endnote %}
   
-## Restoring Database from SQL Dump
+## Restoring the Database from an SQL Dump
 
 When you restore a database from an SQL dump, the existing database tables get overwritten. We strongly recommend that you always back up the current store database before restoring data from an SQL dump as it allows you to avoid any possible data loss. Another critical issue here is that you can restore the database only if the SQL dump was created for the same X-Cart version.
 
 The store administrator can restore the database either through the X-Cart Admin area or manually. If you decide to carry out this task manually, ensure that you have access to the respective tools and facilities, including different client implementations of the SSH protocol like OpenSSH or PuTTY, Telnet, phpMyAdmin, MySQL console, control panel of your hosting account, Remote Desktop client and other. In this case, the exact instructions on how to restore the database from the backup will depend on the utility you use.
 
-### Restoring the database through X-Cart Admin area
+### Restoring the Database through X-Cart Admin Area
 
 To restore the database through the X-Cart Admin area:
 
@@ -99,7 +99,7 @@ To restore the database through the X-Cart Admin area:
     * Click the 'Upload and Restore' button.
     Wait until the system displays a message saying that the database has been restored successfully.
 
-### Restoring the database using terminal access
+### Restoring the Database Using Terminal Access
 
 To restore the database using terminal access to the server:
 
