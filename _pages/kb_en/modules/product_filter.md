@@ -10,7 +10,7 @@ description: 'product filters, easy search'
 ---
 Let's imagine that you run an online store that has tons of different products. Each product has its own set of attributes like size, color, material, technical characteristics, and many others that make it distinct from other products. Buyers decisions directly depend on these product attributes and you as a seller can make a buyers choice easier using the product filters addon. The filter based on product attributes will help your customers to narrow down the search results and find out the exact products they need. Filter-based search can also include tags, price range,  and in-stock availability. You can add a filter-based search block on a category page in the store front end using the **Product Filter** addon.
 
-The **Product Filter** addon is included into X-Cart Business package and higher and comes pre-installed. However, if it is not you can always enable it yourself as described in {% link "Installing and activating addons" ref_0fGEpvrh %}.
+The **Product Filter** addon is included into X-Cart Business package and higher and comes pre-installed. However, if it is not you can always enable it yourself as described in {% link "Installing and Activating Addons" ref_0fGEpvrh %}.
 
 When enabled, you'll need to open the _Settings_ page and configure the addon according to your business needs.
 
