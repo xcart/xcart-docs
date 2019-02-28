@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-08-29 11:58 +0400'
 identifier: ref_30a8vM7c
-title: Two factor authentication
+title: Two Factor Authentication
 order: 295
 published: true
 ---
