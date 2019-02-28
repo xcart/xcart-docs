@@ -67,5 +67,5 @@ To hide the Terms & Conditions page link from the Footer menu:
 
 _Related pages:_
 
-*   {% link "Adding pages to your store" ref_Ptf5vaPn %}
-*   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
+*   {% link "Adding Pages to Your Store" ref_Ptf5vaPn %}
+*   {% link "Adding New Items to Your Store's Menus" ref_BDykFBbw %}
