@@ -40,4 +40,4 @@ Use the {% link "Labels Editor" ref_14EyD6iT %} tool to change the text directly
 
 _Related pages:_
 
-*   {% link "Enabling the Contact Us form" ref_hfZXkxzT %}
+*   {% link "Enabling the Contact Us Form" ref_hfZXkxzT %}
