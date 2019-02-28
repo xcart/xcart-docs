@@ -47,7 +47,7 @@ If you need to translate (or to edit the existing translation) of one or several
 For this purpose:
 1. Locate a product or category you need to translate and open the product/category details page in the storefront.
    ![product-description-en.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/product-description-en.png)
-2. Switch the language of the admin area to the target language of your translation:
+2. Switch the storefront language to the target language of your translation:
    ![product-description-switch.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/product-description-switch.png)
 3. Enable Webmaster mode as described {% link "Description Editor" ref_0KCLczz4 %}
 4. Edit the required product/category description
@@ -67,18 +67,20 @@ To translate a product catalog:
 1. Export the current catalog data:
    * Go to the **Catalog** > **Export** section of your store admin area.
    * Choose the data to be exported (e.g. products, categories, attributes, etc.) and click **Start Export**.
-   ![]({{site.baseurl}}/attachments/ref_5MQvg8Mm/export.png)
+     ![]({{site.baseurl}}/attachments/ref_5MQvg8Mm/export.png)
    
-   As a result you'll get a .csv file with the default label names and their values.
+      As a result you'll get a .csv file with the default label names and their values.
    
 2. Open the exported .csv file in any spreadsheet editor (MS Excel, LibreOffice Calc, etc.).
-2. Delete all the tables except for SKU and the tables marked with EN (the labels marked with EN can be translated and imported back).
+3. Delete all the tables except for SKU and the tables marked with EN (the labels marked with EN can be translated and imported back).
+   
    You should get a file content similar to:
    ![export-products-en.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/export-products-en.png)
-3. Rename the EN tables to match the target language (e.g. name_en to name_de if your target language is German).
-4. Fill in the DE tables with the German translation. 
+4. Rename the EN tables to match the target language (e.g. name_en to name_de if your target language is German).
+5. Fill in the DE tables with the German translation. 
+   
    As a result, you'll get a file content similar to the one shown on an image below:
 
    ![product-csv-de.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/product-csv-de.png)
 
-5. Save the .csv file with the SKU and DE tables and import it back to your store as described in {% link "How to import data" ref_glDc6kA1 %}.
+6. Save the .csv file with the SKU and DE tables and import it back to your store as described in {% link "How to import data" ref_glDc6kA1 %}.
