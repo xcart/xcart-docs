@@ -99,11 +99,11 @@ After you have run the command, TAR will pack all the files in the X-Cart root d
 
 To make the process of creating a full store backup more convenient and straighforward you can use a special [Backup Master](https://market.x-cart.com/addons/backup-master.html "Files and Database Backup") addon that facilitates both a database and a full store files backup in one click. 
 
-To install the addon go to the Addons section of the Admin area and follow the procedure described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once installed open the module settings page to configure the method of a backup.
+To install the addon, go to the **My addons** section of the Admin area and follow the procedure described in {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}. Once the addon has been installed, open the addon settings page to configure the backup method.
 
 ![backup-module.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup-module.png)
 
-You can choose between the following methods:
+You can choose one of the following methods:
 * ZipArchive class biult into PHP
 * Linux Shell commands
 * Linux Shell commands (without compression)
@@ -113,7 +113,7 @@ Using Linux Shell commands is much faster, so it is the recommended option for L
 ZipArchive class may fail when working with large backup files, but it is the only option available on Windows servers, unfortunately.
 {% endnote %}
 
-A predefined backup method is Linux Shell commands. If you change it, don't forget to **Submit** the changes. 
+A predefined backup method is Linux Shell commands. If you change it, do not forget to **Submit** the changes. 
 
 To make a full store backup using the Backup Master addon go to the **System tool** -> **Backup** section and click a **'Create backup'** button.
 
@@ -123,4 +123,4 @@ To make a full store backup using the Backup Master addon go to the **System too
   <div class="column" markdown="span">![backup-3.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup-3.png)</div>
 </div>
 
-The addon will create a full cart backup and will list it in a history of backups where you can see a path to the backup file to use it further, the file size and date of creation. To delete a backup click the _Trash_ icon next to it.
+The addon will create a full cart backup and will list it in a history of backups where you can see a path to the backup file to use it further, the file size and date of creation. To delete a backup click the Trash icon next to it.
