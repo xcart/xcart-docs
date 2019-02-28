@@ -11,7 +11,7 @@ What to start with to get your first sale? The checklist below outlines all of t
 
 {% toc %}
 
-## Before you start
+## Before You Start
 
 Before you start setting up your X-Cart store, it's important to find a reliable hosting for your store that whould meet the [sofware system requirements](https://kb.x-cart.com/general_setup/installation_guide.html#server-requirements "Beginners Guide") and set-up a memorable and easy to type store domain so that your customers can find your store online.
 
@@ -35,7 +35,7 @@ Before you stock your X-Cart store with products, you need to enter some busines
 - {% link "Staff your store if necessary" ref_38HKdc1f %}
 - {% link "Configure the store general settings" ref_qAZlJxZm %}
 
-## Basic Store Set-Up
+## Basic Store Setup
 
 The most important parts of your online store are the way your store looks and the kinds of products that you're going to sell. Try a few different themes to see which one looks best. If none of the default themes suits you, check for extra templates in the [Marketplace](https://market.x-cart.com/ecommerce-templates/ "Beginners Guide").
 
@@ -58,7 +58,7 @@ Test your store before launching. Place and process some test orders to see how 
 - {% link "Test e-mails transfer" ref_1QrpKuD3 %}
 - Test customer experience in the storefront
 
-## Sales channels (if applicable)
+## Sales Channels (If Applicable)
 
 After you launch your online store, your business might benefit from adding some other {% link "online sales channels" ref_ybdJste8 %} to your X-Cart store. There are several online channels that you can add to X-Cart when selling online. These channels are optional, but each can be used to maximize your store's audience.
 
@@ -71,5 +71,5 @@ After you launch your online store, your business might benefit from adding some
 
 After you launch your online store, you need to promote it. You can improve your store's visibility by thoughtfully defining your home page metadata and by promoting your store in all of the appropriate spaces.
 
-- {% link "Optimize your catalog pages for SEO" ref_OBh3V1k1 %}
-- {% link "Promote your store" ref_Ibr5EziH %}
+- {% link "Optimize Your Catalog Pages for SEO" ref_OBh3V1k1 %}
+- {% link "Promote Your Store" ref_Ibr5EziH %}
