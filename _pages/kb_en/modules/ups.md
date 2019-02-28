@@ -8,11 +8,11 @@ order: 310
 published: true
 description: UPS shipping set-up
 ---
-The [UPS module](https://market.x-cart.com/addons/ups.html "UPS") for X-Cart 5 allows you to use online shipping rate calculation via [UPS service](https://www.ups.com/us/en/global.page "UPS").
+The addon [UPS](https://market.x-cart.com/addons/ups.html "UPS") for X-Cart 5 allows you to use online shipping rate calculation via [UPS service](https://www.ups.com/us/en/global.page "UPS").
 
-This article assumes that the UPS module has already been {% link "installed and activated" ref_0fGEpvrh %} at your store.
+This article assumes that the UPS addon has already been {% link "installed and activated" ref_0fGEpvrh %} at your store.
 
-To start using the module, you need to configure it. The module configuration settings can be accessed using one of the following methods:
+To start using the addon, you need to configure it. The addon settings can be accessed using one of the following methods:
 
 1. In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**)
    *  click the **Add shipping method** button:
@@ -21,13 +21,11 @@ To start using the module, you need to configure it. The module configuration se
    *   and then choose the UPS shipping method in a pop-up:
 ![ups-method.png]({{site.baseurl}}/attachments/ref_0uCGd6Bs/ups-method.png)
 
-2. In the Installed Addons section of your X-Cart store’s Admin area (**My addons** > **Installed addons**), locate the entry for UPS module and click the **Settings** link below it:
+2. In the Installed Addons section of your X-Cart store’s Admin area (**My addons** > **Installed addons**), locate the entry for UPS addon and click the **Settings** link below it:
 ![settings.png]({{site.baseurl}}/attachments/ref_0uCGd6Bs/settings.png)
 
 
-
 The UPS settings page looks like the following:
-
 ![settings-page.png]({{site.baseurl}}/attachments/ref_0uCGd6Bs/settings-page.png)
 
 To use UPS Rating API you need to register on [UPS.com](https://www.ups.com/us/en/Home.page "UPS") with a User ID and Password. Once you have registered you would need to obtain an Access Key from UPS.com that provides access to the Rating API. To obtain an Access Key an account number needs to be added or created in your UPS.com profile.
@@ -58,7 +56,7 @@ These are advanced options for shipments.
 
 Turn them on or select the necessary values if applicable.
 
-## Cash on delivery
+## Cash on Delivery
 
 Here you can enable the cach on delivery option for your inetrnational and domestic shipments.
 
@@ -75,7 +73,7 @@ Follow the link from the _Note_ to find the payments section
 
 {% endnote %}
 
-## Currency conversion options
+## Currency Conversion Options
 
 Use this section to provide a currency convertion rate if your currency is other than the US dollar. 
 
@@ -85,7 +83,7 @@ Use this section to provide a currency convertion rate if your currency is other
 *   **Currency rate**: Set the currency conversion rate here. If your currency is the US dollar, leave this field set to 1.
 
 
-## Additional options
+## Additional Options
 
 This is an option that is helpful, but do not affect shipping rates calculation:
 
