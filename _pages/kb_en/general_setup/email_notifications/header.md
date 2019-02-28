@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-26 19:04 +0400'
 identifier: ref_2W845gkS
-title: 'Editing the header, greeting & signature of your email notifications'
+title: 'Editing the Header, Greeting & Signature of Email Notifications'
 order: 120
 published: true
 ---
@@ -25,4 +25,4 @@ After changing the settings in the **Header, greeting & signature** section, be 
 
 _Related pages:_
 
-   * {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
+   * {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}
