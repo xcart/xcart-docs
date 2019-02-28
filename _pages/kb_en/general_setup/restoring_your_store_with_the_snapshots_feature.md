@@ -10,13 +10,11 @@ categories:
 published: true
 order: 130
 ---
+A great deal of your store's functionality will depend on the addons that you will {% link "install from X-Cart Marketplace" ref_Vn1mMUw9 %} or {% link "deploy using the «Upload add-on» feature" ref_GZQ9vTq6 %}. Since addons may come from different sources and not always be tested for mutual compatibility, you should expect that at some point your store may experience problems or even stop working completely after you enable an addon that does not work well with the rest of your store's configuration. Some problems caused by adding a new addon or enabling a new feature may not manifest themselves until a bit later, so it may be difficult to say which one of the recent configuration changes prevents your store from operating correctly.
 
+To pinpoint the "bad" addon, you may try {% link "running X-Cart in safe mode" ref_3zSHgdQk#recover-your-store-using-safe-mode %} (This mode helps you to disable your store's recently installed addons using a Soft reset or Hard reset link, after which you can re-enable the addons one by one doing the necessary testing to see which of the addons is causing the problem). There is, however, a feature that can work as an ultimate time saver for you in this case. That feature is "Snapshots" introduced in X-Cart version 5.2.5.
 
-A great deal of your store's functionality will depend on add-on modules that you will {% link "install from X-Cart Marketplace" ref_Vn1mMUw9 %} or {% link "deploy using the «Upload add-on» feature" ref_GZQ9vTq6 %}. Since modules may come from different sources and not always be tested for mutual compatibility, you should expect that at some point your store may experience problems or even stop working completely after you enable a module that does not work well with the rest of your store's configuration. Some problems caused by adding a new module or enabling a new feature may not manifest themselves until a bit later, so it may be difficult to say which one of the recent configuration changes prevents your store from operating correctly.
-
-To pinpoint the "bad" module, you may try {% link "running X-Cart in safe mode" ref_3zSHgdQk#recover-your-store-using-safe-mode %} (This mode helps you to disable your store's recently installed modules using a Soft reset or Hard reset link, after which you can re-enable the modules one by one doing the necessary testing to see which of the modules is causing the problem). There is, however, a feature that can work as an ultimate time saver for you in this case. That feature is "Snapshots" introduced in X-Cart version 5.2.5.
-
-The "Snapshots" feature allows X-Cart to automatically take a snapshot of your X-Cart system every time the list of your store's active modules changes and write this information to **files/service/.modules.migrations.php**.
+The "Snapshots" feature allows X-Cart to automatically take a snapshot of your X-Cart system every time the list of your store's active addons changes and write this information to **files/service/.modules.migrations.php**.
 
 A typical snapshot looks something like the following:
 
@@ -138,11 +136,11 @@ A separate snapshot is created for each change, so you may find that your file 
 By studying a snapshot for a specific change of your strore's configuration, you can get the following information:
 
 *   **date**: Date of snapshot creation (date when the configuration change took place);
-*   **current**: Modules that were active before the configuration change;
-*   **enabled**: Modules that became active after the configuration change;
-*   **disabled**: Modules that were deactivated after the configuration change;
-*   **deleted**: Modules that were deleted;
-*   **installed**: Modules that were installed.
+*   **current**: Addons that were active before the configuration change;
+*   **enabled**: Addons that became active after the configuration change;
+*   **disabled**: Addons that were deactivated after the configuration change;
+*   **deleted**: Addons that were deleted;
+*   **installed**: Addons that were installed.
 
 The "Snapshots" feature not only helps you to keep track of any changes to your store's configuration allowing you to look up the events that might have caused your store's malfunction; it also allows you to revert to a particular snapshot bringing your system back to a certain state in the past. 
 
@@ -152,7 +150,7 @@ To revert to a particular snapshot, enter the following link in your web browser
 
 Be sure to replace `<shop_domain>` with the actual address of your store, `<shop_key>` with your Safe Mode access key  and `<restore_date>` with the date of the snapshot you wish to restore. The Safe Mode access key can be copied from the file var/data/.safeModeAccessKey in your X-Cart installation folder or from any of the two reset links that were sent to your site administrator mailbox after X-Cart installation. The message subject reads “Soft and Hard reset links for your store!“; for X-Cart versions 5.1.8 and earlier the subject was “New safe mode access key has been generated!“.
 
-Reverting to a snapshot will cause your store to be re-deployed with a module set matching the one reflected by the snapshot. Note that your store will not remove any modules that were installed after the date of the snapshot - all it will do is disable any such modules. Neither will it re-install any modules that were active when the snapshot was taken but were removed later on.
+Reverting to a snapshot will cause your store to be re-deployed with an addon set matching the one reflected by the snapshot. Note that your store will not remove any addons that were installed after the date of the snapshot - all it will do is disable any such addons. Neither will it re-install any addons that were active when the snapshot was taken but were removed later on.
 
 After a snapshot restoration, a new snapshot will be written to the snapshots file. The format of this snapshot should be similar to the following:
 
