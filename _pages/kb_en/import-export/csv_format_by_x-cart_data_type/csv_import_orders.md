@@ -98,7 +98,7 @@ Below is a list of supported fields and their respective value types for categor
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerVatNumberBillingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer VAT number in the billing address. Requires the VAT module to be installed.</td>
+      <td colspan="1" class="confluenceTd">Customer VAT number in the billing address. Requires the VAT addon to be installed.</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
@@ -153,7 +153,7 @@ Below is a list of supported fields and their respective value types for categor
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">customerVatNumberShippingAddressField</td>
-      <td colspan="1" class="confluenceTd">Customer VAT number in the shipping address. Requires the VAT module to be installed.</td>
+      <td colspan="1" class="confluenceTd">Customer VAT number in the shipping address. Requires the VAT addon to be installed.</td>
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
@@ -412,12 +412,12 @@ Below is a list of supported fields and their respective value types for categor
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">REWARDPOINTS (surcharge)***</td>
-      <td colspan="1" class="confluenceTd">Order TOTAL discount surcharge in an absoulte value added by the Loyalty Programm module settings. Example: -3. This example value stands for a $3.00 USD discount, if the order currency is USD. </td>
+      <td colspan="1" class="confluenceTd">Order TOTAL discount surcharge in an absoulte value added by the Loyalty Programm addon settings. Example: -3. This example value stands for a $3.00 USD discount, if the order currency is USD. </td>
       <td colspan="1" class="confluenceTd">Float</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">REWARDPOINTSSUB (surcharge)***</td>
-      <td colspan="1" class="confluenceTd">Order SUBTOTAL discount surcharge in an absoulte value added by the Loyalty Programm module settings. Example: -3. This example value stands for a $3.00 USD discount, if the order currency is USD.</td>
+      <td colspan="1" class="confluenceTd">Order SUBTOTAL discount surcharge in an absoulte value added by the Loyalty Programm addon settings. Example: -3. This example value stands for a $3.00 USD discount, if the order currency is USD.</td>
       <td colspan="1" class="confluenceTd">Float</td>
     </tr>
   </tbody>
@@ -427,7 +427,7 @@ Below is a list of supported fields and their respective value types for categor
 
 <sub markdown="1">** See CSV field attributes for more info.</sub>
 
-<sub markdown="1">*** Depending on the {% link "Loyalty Program" ref_1Odyn6mT %} module settings the values can be defined either for REWARDPOINTS (surcharge) or for REWARDPOINTSSUB (surcharge). Not for both of them at the same time.
+<sub markdown="1">*** Depending on the {% link "Loyalty Program" ref_1Odyn6mT %} addon settings the values can be defined either for REWARDPOINTS (surcharge) or for REWARDPOINTSSUB (surcharge). Not for both of them at the same time.
 
 **Tips**:
 
