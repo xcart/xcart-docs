@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-14 20:02 +0400'
 identifier: ref_Vn1mMUw9
-title: Installing addons from the Marketplace
+title: Installing Addons from the Marketplace
 categories:
   - User manual
 published: true
