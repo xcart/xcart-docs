@@ -25,11 +25,11 @@ Make sure the server X-Cart is hosted at has an SSL (Secure Sockets Layer) Certi
 
 SSL certificates secure the data in transit during checkout. This keeps your company and your customers protected from having financial or important information compromised by hackers. More information on how to redirect customers from HTTP to HTTPS you can get {% link "here" ref_httpredirect %}. 
 
-## Step 3. Keep the software up-to-date
+## Step 3. Keep the Software Up-to-date
 
 Perform regular X-Cart sofware {% link "upgrades" ref_pQQ1CLe1 %}. Automatic updates should be a standard practice not only to add new features to the store and update exising ones, but also to prevent new vulnerabilities to viruses and malware.
 
-## Step 4. Limit staff access to the store back-end
+## Step 4. Limit Staff Access to the Store Back End
 
 X-Cart allows to set {% link "special user access permissions" ref_38HKdc1f %} for different staff members depending on the roles they are performing in your store. Make sure each staff member has his personal account in your store and does not not use the main root admin account. 
 
@@ -37,21 +37,21 @@ Besides that X-Cart has a special brut force protection built-in for both admin 
 
 ![contact-info.png]({{site.baseurl}}/attachments/ref_4ewdbDM8/contact-info.png)
 
-For more protection use the built-in {% link "Two Factor Authentication" ref_30a8vM7c %} module that enables a two-step verification for both admin and customer accounts.
+For more protection use the built-in addon {% link "Two Factor Authentication" ref_30a8vM7c %} that enables a two-step verification for both admin and customer accounts.
 
-## Step 5. Make sure your store has multi-layered security
+## Step 5. Make Sure Your Store Has Multi-layered Security
 
 Credit card fraud is the most common security threat that online retailers face. To avoid it and minimize the possibility of fraud orders and accounts use:
 
 1. PCI-DSS certified payment solutions
    
-   X-Cart doesn't store credit card data info to avoid an unauthorized access to customers’ payment information and is integrated with the certified payment solutions only. So just choose any online payment system that is pci-dss compliant and processes transactions securely. Altenative payment solutions can be used via a special pci-dss certified module - {% link "X-Payments" ref_8VFoqBFZ %}. 
+   X-Cart doesn't store credit card data info to avoid an unauthorized access to customers’ payment information and is integrated with the certified payment solutions only. So just choose any online payment system that is pci-dss compliant and processes transactions securely. Alternative payment solutions can be used via a special pci-dss certified addon - {% link "X-Payments" ref_8VFoqBFZ %}. 
 
 2. Anti-fraud protection
 
-   X-Cart has a built-in antifraud protection via the {% link "AntiFraud Service Connector" ref_6oaerFUv %} module. The module helps to identify online fraud using sophisticated checking algorithm and reduces chargebacks.
+   X-Cart has a built-in antifraud protection via the addon {% link "AntiFraud Service Connector" ref_6oaerFUv %}. The addon helps to identify online fraud using sophisticated checking algorithm and reduces chargebacks.
    
-   As an additional mean of protection don't allow anonimous checkout. You can engage customers in registering an account with your store using the {% link "Register On Checkout" ref_1IYxME8O %} module. 
+   As an additional mean of protection don't allow anonimous checkout. You can engage customers in registering an account with your store using the addon {% link "Register On Checkout" ref_1IYxME8O %}. 
 
 3. Address Verification System (AVS)
    
@@ -60,11 +60,11 @@ Credit card fraud is the most common security threat that online retailers face.
 
 4. Anti-bot protection
 
-   Use {% link "Google reCAPTCHA " ref_4S6YEcnH %} module to protect your shop from robots creating fake user accounts and sending SPAM through your site. The module will add a special 
+   Use the addon {% link "Google reCAPTCHA " ref_4S6YEcnH %} to protect your shop from robots creating fake user accounts and sending SPAM through your site. 
    
-   For more security use the {% link "Block Users by IP / Country / User agent" ref_3rhs1MJ8 %} module that will protect your store from bots and fraud customers, by limiting or completely restricting access to it with the help of flexible settings and filters, taking into account IP, address and user behavior.
+   For more security use the addon {% link "Block Users by IP / Country / User agent" ref_3rhs1MJ8 %} that will protect your store from bots and fraud customers, by limiting or completely restricting access to it with the help of flexible settings and filters, taking into account IP, address and user behavior.
 
-## Step 6. Protect X-Cart from XSS- and CSRF-attacks
+## Step 6. Protect X-Cart from XSS and CSRF Attacks
 
 To protect X-Cart from [XSS-](https://en.wikipedia.org/wiki/Cross-site_scripting "X-Cart Store Security") and [CSRF-attacks](https://en.wikipedia.org/wiki/Cross-site_request_forgery "X-Cart Store Security") configure the etc/config.php file to return special headers. For this purpose find the following parts of code in the  etc/config.php file and set the appropriate value depending on the case. The values definition you can find following the help links. 
 
