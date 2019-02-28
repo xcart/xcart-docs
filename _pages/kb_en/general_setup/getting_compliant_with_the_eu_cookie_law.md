@@ -25,11 +25,11 @@ Initially, the cookie legislation caused quite a lot of apprehension as site own
 
  Instructions for how to add pages to your X-Cart store - like a Cookie policy page - can be found in this article:
 
-*   {% link "Adding pages to your store" ref_Ptf5vaPn %}
+*   {% link "Adding Pages to Your Store" ref_Ptf5vaPn %}
 
 An explanation of how you can include a link to a page in your store's Footer menu is available here:
 
-*   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
+*   {% link "Adding New Items to Your Store's Menus" ref_BDykFBbw %}
 
 _Suggested reading on the EU Cookie Law compliance:_
 
