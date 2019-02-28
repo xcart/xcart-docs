@@ -22,6 +22,6 @@ _In this section:_
 *  {% link "Changing Logo Size (for Crisp White Skin)" ref_RrLo9hcw %}
 *  {% link "Changing the Checkout Logos Picture" ref_V0WJ7Tzu %}
 *  {% link "Changing a Default Store's Welcome Text and Banner on the Front Page" ref_Id69E4GT %}
-*  {% link "Managing texts labels in your store" ref_IyGxQ1DN %}
+*  {% link "Managing Texts Labels in Your Store" ref_IyGxQ1DN %}
 *  {% link "Adding Banners to Store Pages" ref_35tpPrVf %}
 *  {% link "Removing the "Powered by" Notice" ref_o5oJ0AFO %}
