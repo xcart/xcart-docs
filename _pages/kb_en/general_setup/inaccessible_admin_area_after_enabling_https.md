@@ -3,14 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-27 22:09 +0400'
 identifier: ref_q171FiKp
-title: Inaccessible Admin area after enabling HTTPS
+title: Inaccessible Admin Area after Enabling HTTPS
 categories:
   - User manual
 published: true
 order: 280
 ---
-
-
 Enabling HTTPS protocol for X-Cart when HTTPS in not properly configured on your server breaks access to X-Cart's Admin interface. To avoid this unpleasant situation, please ensure that HTTPS has been set up correctly on your server prior to enabling HTTPS support in X-Cart Admin. 
 
 Although X-Cart does have an "HTTPS status check" feature, that can help you to detect some common problems like SSL certificate missing or invalid, there is no 100% accurate method that we could use to tell whether a secure protocol is or is not working for your specific server configuration. For this reason, please, think twice when deciding whether HTTPS support may be enabled in X-Cart. Before clicking the button, you should know what you are doing, or else it may mess up your site.
