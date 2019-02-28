@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-26 19:18 +0400'
 identifier: ref_08i5p47o
-title: Adding PDF invoices to email notifications
+title: Adding PDF Invoices to Email Notifications
 order: 130
 published: true
 ---
@@ -20,4 +20,4 @@ You can extend the default PDF invoices feature with a paid {% link "PDF Invoice
 
 _Related pages:_
 
-   * {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
+   * {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}
