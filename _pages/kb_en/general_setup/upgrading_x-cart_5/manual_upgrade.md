@@ -16,7 +16,7 @@ First thing to do is to find out what step your upgrade has stopped at. Look at
 Below we have provided a description of a full manual upgrade:
 
 1.  How to get new files? First of all, check the folder `<X-Cart 5>/var/tmp`. All the new files should be there. If this folder is empty, you should install the X-Cart 5 version you are upgrading to on the same server (you can freely get it on [http://www.x-cart.com/](http://www.x-cart.com)) and activate all the paid add-ons using your license keys. After that, this installation will have all the needed files.
-2.  You need to run all the pre-upgrade hooks (core's and modules'). The code example of how to run one hook is below: 
+2.  You need to run all the pre-upgrade hooks (those of the core and the addons). Provided below is a code example of how to run a hook: 
 
     ```php
     <?php
