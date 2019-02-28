@@ -31,4 +31,4 @@ To ensure that X-Cart recognizes the data you import via each specific field in 
 _Related pages:_
 
 *   {% link "How to Import Data" ref_glDc6kA1 %}
-*   {% link "Updating Product Properties (Price, Stock Quantity, etc.) via import" ref_OEpBdtQ6 %}
+*   {% link "Updating Product Properties (Price, Stock Quantity, etc.) via Import" ref_OEpBdtQ6 %}
