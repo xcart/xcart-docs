@@ -52,4 +52,4 @@ After editing any of the email notification settings, be sure to click **Save ch
 
 _Related pages:_
 
-   * {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
+   * {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}
