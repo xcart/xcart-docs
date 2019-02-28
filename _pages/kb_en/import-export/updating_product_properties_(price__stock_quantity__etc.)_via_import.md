@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 16:05 +0400'
 identifier: ref_OEpBdtQ6
-title: 'Updating product properties (price, stock quantity, etc.) via import'
+title: 'Updating Product Properties (Price, Stock Quantity, etc.) via Import'
 version: X-Cart 5.2.13 and later
 categories:
   - User manual
