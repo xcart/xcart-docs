@@ -7,7 +7,7 @@ title: Store Upgrade Process (Automated Upgrades)
 order: 120
 published: true
 ---
-## Before you upgrade: back up your store
+## Before You Upgrade: Back up Your Store
 Installing an update/upgrade is a serious task which requires some preparation. At the very least, you should create a backup of your store 
 
 {% note warning %}
@@ -18,7 +18,7 @@ In addition, we strongly recommend that you should create a DEV copy of your sto
 
 For details on how to create a dev copy of your store and to restore the store from backup, see {% link 'Moving X-Cart to another location' ref_6oFmUXC7 %}
 
-## Store upgrade process
+## Store Upgrade Process
 Once per day, each X-Cart store checks the Marketplace for updates. The response from the Marketplace is cached for a day. If you need to delete this cache, open the link `admin.php?target=addons_list_marketplace&action=clear_cache`.
 
 If there is any kind of update/upgrade available, there will be an **Updates are available** link in the header of the Admin area:
