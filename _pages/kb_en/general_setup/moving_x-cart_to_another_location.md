@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-03-01 16:21 +0400'
 identifier: ref_6oFmUXC7
-title: Moving X-Cart to another location
+title: Moving X-Cart to Another Location
 order: 110
 published: true
 redirect_from:
@@ -15,7 +15,7 @@ Both of the tasks will consist of the 2 main steps that are described below.
 
 {% toc %}
 
-## Files transfer and configuration
+## Files Transfer and Configuration
 
 1.  Make a backup of your files and database. You do need this step in case something goes wrong. Do not neglect this step because it can cost you hours of work contacting your hosting provider and asking them to recover your store from backup.
 
@@ -69,7 +69,7 @@ Both of the tasks will consist of the 2 main steps that are described below.
 
 7.  Remove the `<X-Cart>/var/datacache/` folder.
 
-## Database transfer and configuration
+## Database Transfer and Configuration
 
 After moving all the files, you may want to transfer the data as well. You can achieve this by using the default RDBMS utilites, e.g. [MySql source](https://dev.mysql.com/doc/mysql-backup-excerpt/5.7/en/reloading-sql-format-dumps.html).
 
