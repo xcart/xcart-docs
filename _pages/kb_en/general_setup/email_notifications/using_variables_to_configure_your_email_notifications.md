@@ -40,4 +40,4 @@ Here's an overview of the variables supported in X-Cart store email notification
 
 _Related pages:_
 
-   * {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
+   * {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}
