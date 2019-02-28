@@ -11,9 +11,7 @@ order: 100
 redirect_from:
   - /look_and_feel/adding_pages_to_your_store.html
 ---
-
-
-Imagine that you want to tell your customers about your company or to explain your store's shipping and returns policy. X-Cart does not provide special pages for those needs; however, it allows you to add your own pages using the same style as the rest of your store. Before you get started with this task, make sure that you have the **Simple CMS** module installed and enabled. If not, {% link "install and activate it" ref_Vn1mMUw9 %}.
+Imagine that you want to tell your customers about your company or to explain your store's shipping and returns policy. X-Cart does not provide special pages for those needs; however, it allows you to add your own pages using the same style as the rest of your store. Before you get started with this task, make sure that you have the addon **Simple CMS** installed and enabled. If not, {% link "install and activate it" ref_Vn1mMUw9 %}.
 
 ![]({{site.baseurl}}/attachments/6389804/7602616.png)
 
@@ -41,7 +39,7 @@ If you want to include a link to this page into your store's Primary or Footer m
 
 _Related pages:_
 
-*   {% link "Changing the Terms and conditions page" ref_r5b4EKhF %}
-*   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
+*   {% link "Changing the Terms and Conditions Page" ref_r5b4EKhF %}
+*   {% link "Adding New Items to Your Store's Menus" ref_BDykFBbw %}
 
 *   {% link "Adding a New Page in X Cart 5: Tutorial by Mike White" ref_dycXnOI1 %}
