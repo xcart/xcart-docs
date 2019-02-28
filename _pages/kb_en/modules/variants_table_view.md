@@ -7,19 +7,19 @@ title: Variants Table View
 order: 323
 published: true
 ---
-The [Variants Table View](https://market.x-cart.com/addons/variants-table-view.html "Variants Table View") module allows to show all possible product variants as a table with quantity specification fields and enables bulk adding to cart of different product variations. 
+The addon [Variants Table View](https://market.x-cart.com/addons/variants-table-view.html "Variants Table View") allows to show all possible product variants as a table with quantity specification fields and enables bulk adding to cart of different product variations. 
 
 {% note warning %}
-The extension requires the {% link "Product Variants" ref_4OTLafuC %} module installed and enabled in your store. It does not imply its own functionality of creating and configuring the product variants, it just changes the visual representation of the variants in the storefront.
+The extension requires the addon {% link "Product Variants" ref_4OTLafuC %} installed and enabled in your store. It does not imply its own functionality of creating and configuring the product variants, it just changes the visual representation of the variants in the storefront.
 {% endnote %}
 
-To install the module follow the giudes from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the instructions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-When installed proceed to the module settings page for configuration:
+When installed proceed to the addon settings page for configuration:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_7FeW8hHv/installed.png)
 
-The Variants Table View module page allows you to choose whether to display _Quantity_, _SKU_, _Image_ and _Weight_ parameters of a product variant in the table:
+The Variants Table View addon page allows you to choose whether to display _Quantity_, _SKU_, _Image_ and _Weight_ parameters of a product variant in the table:
 
 ![settings-page.png]({{site.baseurl}}/attachments/ref_7FeW8hHv/settings-page.png)
 
