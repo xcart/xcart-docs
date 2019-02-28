@@ -7,9 +7,9 @@ title: Wishlist
 order: 330
 published: true
 ---
-Quite a common case in ecommerce routine is when a customer doesn’t want to buy the product of his choice right at the moment, and wants to keep the info about this product for the possible future references. He may do this to wait for the upcoming discount offer or whatever else. Such cases are covered by the wishlist functionality that in X-Cart can be added by the ["My Wishlist" module](https://market.x-cart.com/addons/my-wishlist.html) (included in X-Cart Ultimate, paid for X-Cart Business an X-Cart Multivendor).
+Quite a common case in ecommerce routine is when a customer doesn’t want to buy the product of his choice right at the moment, and wants to keep the info about this product for the possible future references. He may do this to wait for the upcoming discount offer or whatever else. Such cases are covered by the wishlist functionality that in X-Cart can be added by the addon **[My Wishlist](https://market.x-cart.com/addons/my-wishlist.html)**.
 
-With "My Wishlist" module {% link "installed and enabled" ref_Vn1mMUw9 %}, your customers can collect their favourite products into a single list. They can buy these products later, track them in the catalog and email the list to friends. Also, wishlist makes their search easier among huge amount of items. This counts for customer satisfaction and also increases the user friendliness of your website.
+With the addon "My Wishlist" {% link "installed and enabled" ref_Vn1mMUw9 %}, your customers can collect their favourite products into a single list. They can buy these products later, track them in the catalog and email the list to friends. Also, wishlist makes their search easier among huge amount of items. This counts for customer satisfaction and also increases the user friendliness of your website.
 
 The option to add a product to wishlist is available at almost every page of your site where products are displayed:
 
@@ -42,7 +42,7 @@ The store admin can also check the customer's wishlist in the _Wishlist_ tab of 
 
 Offering wishlists is an effective way to reduce shopping cart abandonment and fulfill sales from customers who showed intent but didn't end up purchasing. Wishlists are mutually beneficial: they give customers an easy way to remind themselves of a product and help merchants measure product interest beyond a clear-cut sale.
 
-Besides that wishlist introduces your site to new customers and many of them may get converted to buyers (if they are referred to) as the "My Wishlist" module also allows a customer to send an email to his/her friends or relatives with the product details and buying option. 
+Besides that wishlist introduces your site to new customers and many of them may get converted to buyers (if they are referred to) as the "My Wishlist" addon also allows a customer to send an email to his/her friends or relatives with the product details and buying option. 
 
 The "send wishlist" option is available to a customer on the Wishlist page in the customer account of your store front-end.
 
