@@ -7,23 +7,23 @@ title: SEO Health Check
 order: 233
 published: true
 ---
-The [SEO Health Check module](https://market.x-cart.com/addons/seo-check.html "SEO Health Check") is a tool for keeping track of common SEO tasks that need to be done on the site. 
+The addon [SEO Health Check](https://market.x-cart.com/addons/seo-check.html "SEO Health Check") is a tool for keeping track of common SEO tasks that need to be done on the site. 
 
-To install the module follow the general guidelines from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the instructions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 ![installed.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/installed.png)
 
-When installed and enabled the module performs a series of tests and helps a store admin find SEO issues on the website. 
+Once installed and enabled, the addon performs a series of tests and helps the store admin to find SEO issues on the store website. 
 
-To start testings proceed to the _SEO Health Check_ tab of the **SEO settings** section (**Store setup** -> **SEO settings**):
+To start testing, proceed to the _SEO Health Check_ tab of the **SEO settings** section (**Store setup** -> **SEO settings**):
 
 ![seo-settings.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/seo-settings.png)
 
-By defaut the tab contains no info and a store admin can initiate a check by clicking the **Perform SEO Health checks** button:
+By defaut the tab contains no info and the store admin can initiate a check by clicking the **Perform SEO Health checks** button:
 
 ![perform-check.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/perform-check.png)
 
-It will take a while to analyze the store data and when the check is complete the results will be displayed on the same page:
+It will take a while to analyze the store data. Once the check is complete, the results will be displayed on the same page:
 
 ![check-results.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/check-results.png)
 
@@ -38,4 +38,4 @@ The check results will provide recommendations on improving the store SEO perfor
 - Can search engines find an {% link "XML sitemap" ref_OqJ2oZTE %} and a [robots.txt file](https://kb.x-cart.com/seo_and_promotion/optimizing_your_catalog_pages_for_seo.html#robotstxt "SEO Health Check") for your site? Are these files up to date?
 - Does your site use the [secure protocol](https://kb.x-cart.com/general_setup/store_security/index.html#step-2-use-ssl-certificates "SEO Health Check")?
 
-It is recommended to run the tests from time to time in order to ensure that a website is ready for search engines.
+It is recommended to run the tests from time to time in order to ensure that your website is ready for search engines.
