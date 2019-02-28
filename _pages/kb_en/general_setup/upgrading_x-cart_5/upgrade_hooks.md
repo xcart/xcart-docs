@@ -8,7 +8,7 @@ order: 110
 published: true
 ---
 ## Upgrade hooks
-The general idea of any upgrade/update is to overwrite the existing files of the core/module. That simple. However, sometimes X-Cart needs to synchronize data or do some utility work. Such work is done by **upgrade hooks**. There are three types of upgrade hooks:
+The general idea of any upgrade/update is to overwrite the existing files of the core/addon. That simple. However, sometimes X-Cart needs to synchronize data or do some utility work. Such work is done by **upgrade hooks**. There are three types of upgrade hooks:
 
 *   **pre-upgrade hooks** are run before the files have been overwritten. These hooks work using the code of the old core.
 *   **post-upgrade hooks** are run after the files have been overwritten, but before the cache rebuild process has started. They are used for the preparation of the store for the cache rebuild process. They work using the code of the old core.
@@ -20,8 +20,8 @@ Upgrade hooks of the core are located in the folder `<X-Cart 5>/upgrade/`. For e
 *   **post_upgrade.php **contains post-upgrade hooks;
 *   **post_rebuild.php** contains post-rebuild hooks.
 
-Upgrade hooks may exist in the modules as well, if the module needs to synchronize data between its own versions. Module upgrade hooks can be found in the `<X-Cart 5>/classes/Module/<DEV-ID>/<MODULE-ID>/upgrade/` folders; for example `<X-Cart 5>/classes/XLite/Module/XC/ProductComparison/upgrade/`.
+Upgrade hooks may exist in the addons as well, if the addon needs to synchronize data between its own versions. Addon upgrade hooks can be found in the `<X-Cart 5>/classes/Module/<DEV-ID>/<MODULE-ID>/upgrade/` folders; for example `<X-Cart 5>/classes/XLite/Module/XC/ProductComparison/upgrade/`.
 
 _Related pages:_
 
-*   [Upgrade hooks](http://devs.x-cart.com/en/misc/upgrade_hooks.html) (X-Cart Devs portal article)
+*   [Upgrade Hooks](http://devs.x-cart.com/en/misc/upgrade_hooks.html) (X-Cart Devs portal article)
