@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-08-30 18:26 +0400'
 identifier: ref_r68iO5Rm
-title: Setting up Destination (Address) Zones
+title: Setting up Address Zones
 categories:
   - User manual
 published: true
