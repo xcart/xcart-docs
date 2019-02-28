@@ -4,8 +4,8 @@ layout: article_with_sidebar
 updated_at: '2017-06-13 12:03 +0400'
 identifier: ref_3zSHgdQk
 title: >-
-  What to do if your store says "We are deploying new changes and you cannot
-  access it"
+  What to Do if Your Store Says "We Are Deploying New Changes and You Cannot
+  Access It"
 categories:
   - User manual
 published: true
