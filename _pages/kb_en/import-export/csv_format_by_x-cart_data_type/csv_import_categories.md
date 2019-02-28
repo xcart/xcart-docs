@@ -134,7 +134,7 @@ Below is a list of supported fields and their respective value types for categor
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>GoSocial</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Fields added by the addon <strong>GoSocial</strong> </em>
       </td>
     </tr>
     <tr>
@@ -154,7 +154,7 @@ Below is a list of supported fields and their respective value types for categor
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Product Filter</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em>Fields added by the addon <strong>Product Filter</strong> </em>
       </td>
     </tr>
     <tr>
@@ -194,4 +194,4 @@ Below is a list of supported fields and their respective value types for categor
     *   memberships;
     *   image;
     *   banner;
-    *   productClasses (processed by the module Product Filter).
+    *   productClasses (processed by the addon Product Filter).
