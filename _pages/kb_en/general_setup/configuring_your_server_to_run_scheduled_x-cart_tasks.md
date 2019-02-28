@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-04 12:25 +0400'
 identifier: ref_lLqNzAaq
-title: Сonfiguring your server to run scheduled X-Cart tasks
+title: Сonfiguring Your Server to Run Scheduled X-Cart Tasks
 categories:
   - User manual
 published: true
@@ -13,11 +13,10 @@ redirect_from:
     /general_setup/%D1%81onfiguring_your_server_to_run_scheduled_x-cart_tasks.html
 ---
 
-
 Some X-Cart's features require periodic execution of the script **console.php** located in the X-Cart root. Running this script is used to trigger the execution of miscellaneous service and maintenance tasks, including, but not limited to:
 
 *   the periodic execution of event tasks (i.e. tasks that are launched on event; examples of such tasks are exporting and importing of data from/into X-Cart);
-*   the sending of abandoned cart reminder email messages for the Abandoned Cart Reminder module;
+*   the sending of abandoned cart reminder email messages for the addon Abandoned Cart Reminder;
 *   the automated re-generation of the sitemap and the XML sitemap; etc.
 
 Automated periodic execution of the script console.php can be implemented through the use of a scheduling service that allows users to schedule jobs (commands or shell scripts) at defined times or regular intervals. Such a service is provided by most operating systems. 
