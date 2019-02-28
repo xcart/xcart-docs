@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-26 19:02 +0400'
 identifier: ref_1qTqS245
-title: Editing email notifications
+title: Editing Email Notifications
 order: 110
 published: true
 ---
@@ -26,7 +26,7 @@ To edit a notification, locate it in the list of notifications on the Settings t
  
   ![scheme.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/scheme.png)
  
-  In the same section you can find the filename of the template used to generate the body of the notification. The name of the body template is provided in case you wish to customize the notification templates (The body template may include other templates). To customize the notification, you will need to copy the body template and the templates included by it to the "skins/theme_tweaker/mail/" folder (or "skins/custom_skin/mail/" if you are using the CustomSkin module) keeping the existing folder structure and then adjust the templates according to your needs.
+  In the same section you can find the filename of the template used to generate the body of the notification. The name of the body template is provided in case you wish to customize the notification templates (The body template may include other templates). To customize the notification, you will need to copy the body template and the templates included by it to the "skins/theme_tweaker/mail/" folder (or "skins/custom_skin/mail/" if you are using the addon [CustomSkin](https://market.x-cart.com/addons/custom-skin.html)) keeping the existing folder structure and then adjust the templates according to your needs.
  
   Note that some notifications can be edited via {% link "Webmaster mode" ref_1xoeCJwy %}. At the time of the writing of this article, this feature is supported for order status related email notifications. Such email notifications have a button **'Edit via Webmaster mode'** provided below the **Body** section. 
   ![webmaster.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/webmaster.png)
