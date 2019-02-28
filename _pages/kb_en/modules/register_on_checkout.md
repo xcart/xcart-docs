@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-09-04 10:18 +0400'
 identifier: ref_1IYxME8O
-title: Register On Checkout
+title: Register on Checkout
 order: 225
 published: true
 ---
