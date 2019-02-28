@@ -20,7 +20,7 @@ X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} can help you if you wonder how
 ## Migration Tutorials
 
 If you are considering moving to X-Cart from another platform use our {% link "migrtion tutorials" ref_7AInnCrh %}:
-* {% link "Getting started with store migration" ref_otTGssNZ %}
+* {% link "Getting Started with Store Migration" ref_otTGssNZ %}
 * {% link "Migration from X-Cart 4 to X-Cart 5" ref_EntIT03c %}
 * {% link "Migration from Litecommerce 3 to X-Cart 5" ref_icEFLRUp %}
 
@@ -31,23 +31,23 @@ You can also [contact our Team](https://www.x-cart.com/shopping-cart-migration.h
 
 *   {% link "Upgrading X-Cart 5" ref_pQQ1CLe1 %}
 *   {% link "How to Back Up and Restore the Site" ref_5cU1i33e %}
-*   {% link "Moving X-Cart to another location" ref_6oFmUXC7 %}
-*   {% link "Changing the admin panel URL (X-Cart 5.2.7+)" ref_Ta5fHl8u %}
-*   {% link "Restoring your store with the Snapshots feature" ref_h7Oh5T8T %}
+*   {% link "Moving X-Cart to Another Location" ref_6oFmUXC7 %}
+*   {% link "Changing the Admin Panel URL (X-Cart 5.2.7+)" ref_Ta5fHl8u %}
+*   {% link "Restoring Your Store with the Snapshots Feature" ref_h7Oh5T8T %}
 
 
 ## Configuration and Maintenance
 
-*   {% link "Configuring your store's General settings" ref_qAZlJxZm %}
+*   {% link "Configuring Your Store's General Settings" ref_qAZlJxZm %}
 *   {% link "X-Cart Store Security" ref_4ewdbDM8 %}
-*   {% link "Specifying your company's identity and contact information" ref_HcSs9eFL %}
-*   {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
-*   {% link "Enabling Catalog mode (no "Add to cart" buttons)" ref_CvAsFxq8 %}
-*   {% link "Сonfiguring the storefront options" ref_wGaTsp7Z %}
-*   {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
-*   {% link "Configuring background job queue" ref_raLBcOm3 %}
-*   {% link "What to do if your store says «We are deploying new changes» and you cannot access it" ref_3zSHgdQk %}
-*   {% link "Inaccessible Admin area after enabling HTTPS" ref_q171FiKp %}
-*   {% link "How to password protect access to your X-Cart" ref_68xr4sCx %}
-*   {% link "Getting compliant with the EU Cookie Law" ref_IOt4rapT %}
-*   {% link "Getting compliant with EU General Data Protection Regulation (GDPR)" ref_6VMSNqoq %}
+*   {% link "Specifying Your Company's Identity and Contact Information" ref_HcSs9eFL %}
+*   {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}
+*   {% link "Enabling Catalog Mode (No "Add to Cart" Buttons)" ref_CvAsFxq8 %}
+*   {% link "Сonfiguring the Storefront Options" ref_wGaTsp7Z %}
+*   {% link "Сonfiguring Your Server to Run Scheduled X-Cart Tasks" ref_lLqNzAaq %}
+*   {% link "Configuring Background Job Queue" ref_raLBcOm3 %}
+*   {% link "What to Do if Your Store Says «We Are Deploying New Changes» and You Cannot Access It" ref_3zSHgdQk %}
+*   {% link "Inaccessible Admin Area After Enabling HTTPS" ref_q171FiKp %}
+*   {% link "How to Password Protect Access to Your X-Cart" ref_68xr4sCx %}
+*   {% link "Getting Compliant with the EU Cookie Law" ref_IOt4rapT %}
+*   {% link "Getting Compliant with EU General Data Protection Regulation (GDPR)" ref_6VMSNqoq %}
