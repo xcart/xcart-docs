@@ -17,7 +17,7 @@ Once the addon is {% link "installed and enabled" ref_Vn1mMUw9 %} the **Banner S
 
 {% toc %}
 
-## Creating banners
+## Creating Banners
 
 To add a new banner click the **"New banner"** button in the **Content** -> **Banners** section.
 
@@ -60,7 +60,7 @@ You'll see a screen of the kind:
    
    ![banner-created.png]({{site.baseurl}}/attachments/ref_35tpPrVf/banner-created.png)
 
-## Maintaining banner content
+## Maintaining Banner Content
 
 To edit the banner further click on its name in the list of banners available in the store. You'll see a page with the basic banner settings you specified previously. Skip this tab and proceeed either to the _Banner images settings_ tab or to the _HTML banners_ tab depending on the type of banner you want to configure. 
    
