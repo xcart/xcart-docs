@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-11 11:27 +0400'
 identifier: ref_6VMSNqoq
-title: Getting compliant with EU General Data Protection Regulation (GDPR)
+title: Getting Compliant with EU General Data Protection Regulation (GDPR)
 order: 310
 published: true
 ---
@@ -13,15 +13,15 @@ Since the amended [General Data Protection Regulation](https://en.wikipedia.org/
 Before you start any changes in your online store, we advise that you should contact competent authorities. They can help with the audit and will also provide you with the list of the necessary changes that your business needs.
 {% endnote %}
 
-All X-Cart 5 editions (Business, Multivendor and Ultimate) are GDPR-friendly via a special [GDPR addon](https://market.x-cart.com/addons/gdpr.html "Getting compliant with EU General Data Protection Regulation (GDPR)").
+All X-Cart 5 editions (Business, Multivendor and Ultimate) are GDPR-friendly via a special [GDPR](https://market.x-cart.com/addons/gdpr.html "Getting compliant with EU General Data Protection Regulation (GDPR)") addon.
 
 {% toc %}
 
-## Installing and configuring GDPR module
+## Installing and Configuring the GDPR Addon
 
-To make your X-Cart 5 based website compliant with the EU legislation on GDPR, install and enable the GDPR module as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To make your X-Cart 5 based website compliant with the EU legislation on GDPR, install and enable the GDPR addon as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-Once installed proceed to the module settings page to configure it.
+Once installed proceed to the addon settings page to configure it.
 
 ![gdpr-installed.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/gdpr-installed.png)
 
@@ -30,10 +30,10 @@ You'll see a screen of the kind where it will be possible to enable displaying a
 ![settings.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/settings.png)
 
 {% note info %}
-You'll need the {% link "Geolocation Module" ref_34F5BkhW %} to be able to limit the cookie pop-up to be shown for customers from particular countries only.
+You'll need the {% link "Geolocation" ref_34F5BkhW %} addon to be able to limit the cookie pop-up to be shown for customers from particular countries only.
 {% endnote %}
 
-Also you will need to add a decent Privacy policy that will describe the policy of your store in regards to collecting customers' personal data and make sure your website visitors know where to find it. You can use a default Privacy Statement page that is added by the GDPR module or include this info as a part of the {% link "Terms and conditions page" ref_r5b4EKhF %}. It's up to you to decide what suits your business better.
+Also you will need to add a decent Privacy policy that will describe the policy of your store in regards to collecting customers' personal data and make sure your website visitors know where to find it. You can use a default Privacy Statement page that is added by the GDPR addon or include this info as a part of the {% link "Terms and conditions page" ref_r5b4EKhF %}. It's up to you to decide what suits your business better.
 
 The default Privacy statement page can be located in the **Content** -> **Pages** section of your store admin area. 
 
@@ -47,7 +47,7 @@ Locate the text in the **Content** field and edit it (replace the values in yell
 
 Don't forget to **save** the changes when you are done.
 
-## GDPR Module: Admin Experience
+## GDPR Addon: Admin Experience
 
 The addon tracks all the activities related to processing your store customersâ€™ personal data and keeps their records in the store back-end on a special **GDPR activities** page (**Store setup** -> **GDPR activities**).
 
@@ -55,9 +55,9 @@ The addon tracks all the activities related to processing your store customersâ€
 
 This page gathers info on all store accounts and 3d party services used in the store that have access to the store customers' personal data. The list of the activities contains the information about the addons, users, payment and shipping methods which have access and have used the personal data.
 
-## GDPR Module: Customer Experience
+## GDPR Addon: Customer Experience
 
-The first thing your store customers will come across with will be a cookie pop-up if it's [enabled in the GDPR module settings](https://kb.x-cart.com/general_setup/gdpr.html#installing-and-configuring-gdpr-module "Getting compliant with EU General Data Protection Regulation (GDPR)"). The addon settings allow disabling the cookie pop-up at all as well or showing it only for customers from particular countries only. 
+The first thing your store customers will come across with will be a cookie pop-up if it's [enabled in the GDPR addon settings](https://kb.x-cart.com/general_setup/gdpr.html#installing-and-configuring-gdpr-module "Getting compliant with EU General Data Protection Regulation (GDPR)"). The addon settings allow disabling the cookie pop-up at all as well or showing it only for customers from particular countries only. 
 
 ![cookie-popup.png]({{site.baseurl}}/attachments/ref_6VMSNqoq/cookie-popup.png)
 
