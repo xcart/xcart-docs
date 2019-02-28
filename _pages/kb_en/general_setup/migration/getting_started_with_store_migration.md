@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-02-28 10:16 +0400'
 identifier: ref_otTGssNZ
-title: Getting started with store migration
+title: Getting Started with Store Migration
 order: 30
 published: true
 redirect_from:
