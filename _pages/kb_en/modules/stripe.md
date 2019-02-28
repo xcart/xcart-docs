@@ -7,15 +7,15 @@ title: Stripe
 order: 270
 published: true
 ---
-The [Stripe payment module](https://market.x-cart.com/addons/stripe-payment-module.html "Stripe") provides an integration with Stripe, a PCI compliant payment service with a neat payment form on checkout that allows saving personal CC info in Stripe for future re-using (optional). Stripe is compatible with all types of devices: desktop, tablet and mobile. 
+The addon [Stripe payment](https://market.x-cart.com/addons/stripe-payment-module.html "Stripe") provides an integration with Stripe, a PCI compliant payment service with a neat payment form on checkout that allows saving personal CC info in Stripe for future re-using (optional). Stripe is compatible with all types of devices: desktop, tablet and mobile. 
 
 Stripe payment can be used in the US, UK, Canada and Ireland, Stripe is in Beta in Australia, France, Spain, Germany, Belgium, Finland, Netherlands and Luxembourg, with even more countries coming.
 
-## Installation and Set-up
+## Installation and Setup
 
-To enable Stripe payment in your store follow the regular guidelines on adding an online payment method provided in {% link "Adding payment methods" ref_36BqwVSF %}.
+To enable Stripe payment in your store follow the regular guidelines on adding an online payment method provided in {% link "Adding Payment Methods" ref_36BqwVSF %}.
 
-Once Stripe is added, you'll be redirected to the Stripe settins page:
+Once Stripe is added, you'll be redirected to the Stripe settings page:
 
 ![connect-with-stripe.png]({{site.baseurl}}/attachments/ref_1SRSOBWa/connect-with-stripe.png)
 
