@@ -7,15 +7,15 @@ title: Product Questions
 order: 222
 published: true
 ---
-The X-Cart module [Product Questions](https://market.x-cart.com/addons/product-questions.html "Product Questions") enables shoppers to ask questions about the products in your store and get answers from the store staff. The questions and answers then appear in a separate tab on the product page.
+The X-Cart addon [Product Questions](https://market.x-cart.com/addons/product-questions.html "Product Questions") enables shoppers to ask questions about the products in your store and get answers from the store staff. The questions and answers then appear in a separate tab on the product page.
 
 {% toc %}
 
 ## Installation and Setup
 
-To install the module, follow the guidelines from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the guidelines from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-After the module has been installed, proceed to the module settings page:
+After the addon has been installed, proceed to the addon settings page:
 
    ![installed.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/installed.png)
 
@@ -30,7 +30,7 @@ Be sure to save your changes.
 
 ## Customer Experience
 
-The product questions feature becomes available to customers as soon as the module is installed and enabled. By default, it is only registered customers who can ask questions. If the store administrator choses to enable the feature for guest users as well, any non signed-in visitors will also be able to ask questions. 
+The product questions feature becomes available to customers as soon as the addon is installed and enabled. By default, it is only registered customers who can ask questions. If the store administrator choses to enable the feature for guest users as well, any non signed-in visitors will also be able to ask questions. 
 
 To ask a question about a product, a visitor needs to use the _Ask a question_ link on the product details page:
 
@@ -68,7 +68,7 @@ Any questions that have not yet been answered are visible only to the people who
 ![cus-under-moderation.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/cus-under-moderation.png)
 
 {% note info %}
-To get the product page loaded faster, the **Questions** tab lists only a few recent questions along with a link to show the entire list of them. The module uses the AJAX technique to update product questions without a complete page reload.
+To get the product page loaded faster, the **Questions** tab lists only a few recent questions along with a link to show the entire list of them. The addon uses the AJAX technique to update product questions without a complete page reload.
 {% endnote %}
 
 To add a new question, the store administrator needs to click **New question** in the **Questions** section (**Catalog** -> **Questions**), complete the product question form and submit it by clicking **Create**.
@@ -84,11 +84,11 @@ The newly added question will appear in the questions list in the Admin area and
 
 ## Vendor Experience
 
-The module Product Questions can be used in X-Cart Multivendor stores. For details see the section {% link "Product Questions: Usage with Multivendor" ref_6GeYbVmv %}.
+The addon Product Questions can be used in X-Cart Multivendor stores. For details see the section {% link "Product Questions: Usage with Multivendor" ref_6GeYbVmv %}.
 
 ## Email Notifications
 
-Email notifications sent by the module can be managed by the store administrator in the **Email notifications** section of the Admin area (Store setup -> Email notifications). For more info on the management of email notifications, see {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}.
+Email notifications sent by the addon can be managed by the store administrator in the **Email notifications** section of the Admin area (Store setup -> Email notifications). For more info on the management of email notifications, see {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}.
 
    ![adm-email-notifications.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/adm-email-notifications.png)
 
