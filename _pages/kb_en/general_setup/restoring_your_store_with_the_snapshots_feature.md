@@ -171,4 +171,4 @@ Such a snapshot serves purely informational purpose and cannot be used for resto
 
 _Related pages:_
 
-*   {% link "What to do if your store says «We are deploying new changes» and you cannot access it" ref_3zSHgdQk %}
+*   {% link "What to Do if Your Store Says «We Are Deploying New Changes» and You Cannot Access It" ref_3zSHgdQk %}
