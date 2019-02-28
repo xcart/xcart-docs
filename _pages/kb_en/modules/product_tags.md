@@ -9,13 +9,13 @@ published: true
 redirect_from:
   - /products/tags.html
 ---
-The X-Cart module [Product Tags](https://market.x-cart.com/addons/product-tags.html "Product Tags") can be used to narrow down the search results either within the {% link "Product Filter Module" ref_6e82A7rL %} or independently of it and hence can improve the overall customer experience. 
+The X-Cart addon [Product Tags](https://market.x-cart.com/addons/product-tags.html "Product Tags") can be used to narrow down the search results either within the {% link "Product Filter Addon" ref_6e82A7rL %} or independently of it and hence can improve the overall customer experience. 
 
-To start using the **Product Tags** module, ensure that it is {% link "installed and enabled" ref_0fGEpvrh %} in the **Addons** section of the store's Admin area. 
+To start using the **Product Tags** addon, ensure that it is {% link "installed and enabled" ref_0fGEpvrh %} in the **My addons** section of the store's Admin area. 
 
    ![addons.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/addons.png)
 
-On the module settings page, you can adjust the setting **Show tags list in the sidebar**. This setting specifies whether the **Tags** section should be displayed on the storefront or not. If enabled, product tags will be displayed in a separate section on every page of your store.
+On the addon settings page, you can adjust the setting **Show tags list in the sidebar**. This setting specifies whether the **Tags** section should be displayed on the storefront or not. If enabled, product tags will be displayed in a separate section on every page of your store.
 
    ![settings.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/settings.png)
 
