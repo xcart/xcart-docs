@@ -9,6 +9,6 @@ published: true
 ---
 If you are already selling on another platform but would like to move your store to X-Cart use our guides to get started with your store migration.
 
-* {% link "Getting started with store migration" ref_otTGssNZ %}
+* {% link "Getting Started with Store Migration" ref_otTGssNZ %}
 * {% link "Migration from X-Cart 4 to X-Cart 5" ref_EntIT03c %}
 * {% link "Migration from Litecommerce 3 to X-Cart 5" ref_icEFLRUp %}
