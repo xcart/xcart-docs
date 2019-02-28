@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-27 19:38 +0400'
 identifier: ref_qAZlJxZm
-title: Configuring your store General settings
+title: Configuring Your Store General Settings
 categories:
   - User manual
 published: true
@@ -20,7 +20,7 @@ Below you can find some of the settings explained.
 
 {% toc %}
 
-## Checkout type
+## Checkout Type
 
 This setting is available if your store has the addon **Fast Lane Checkout** installed and enabled. It enables you to specify the type of checkout routine that should be used:
 
@@ -34,7 +34,7 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
     <div class="column" markdown="span">![fastlane-2.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/fastlane-2.png)</div>
   </div>
 
-## Customer Zone settings
+## Customer Zone Settings
 
 *   **How to show out of stock products** : This setting allows you to specify whether out-of-stock products should be visible to customers on the storefront. The following options are available:
     
@@ -138,7 +138,7 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
 
 *   **Allow customers to sign up for membership**: This setting can be enabled to add a membership signup box on the customer profile details page. If a customer wishes to join some membership group, they will be able to use that box to specify the membership group they wish to join. After the customer's profile details with the specified membership are saved, a membership signup request will be submitted to the store administrator in the form of an email notification. The administrator can then choose whether to approve or decline it.
 
-## Administrator Zone settings
+## Administrator Zone Settings
 
 *   **Products per page**: This setting allows you to specify the maximum number of products that can be displayed on a search results page in the store's back end.
 *   **Users per page**:  This setting allows you to specify the maximum number of users that can be displayed on a search results page in the store's back end.
@@ -148,4 +148,4 @@ This setting is available if your store has the addon **Fast Lane Checkout** ins
 
 _Related pages:_
 
-   * {% link "Disable drag'n'drop add to cart" ref_2NVSkzc3 %}
+   * {% link "Disable Drag'n'drop Add to Cart" ref_2NVSkzc3 %}
