@@ -9,7 +9,7 @@ published: true
 redirect_from:
   - /products/related_products.html
 ---
-You can configure your X-Cart 5 store to show a section recommending related products (alternatives or additional items) to your customers - the so-called "Related products" block. This feature is available through the use of the module **[Related Products](https://market.x-cart.com/addons/related-products.html)** by X-Cart team. To use the feature, make sure this module is {% link "installed and enabled" ref_uEnDBBA7 %}.
+You can configure your X-Cart 5 store to show a section recommending related products (alternatives or additional items) to your customers - the so-called "Related products" block. This feature is available through the use of the addon **[Related Products](https://market.x-cart.com/addons/related-products.html)** by X-Cart team. To use the feature, make sure this addon is {% link "installed and enabled" ref_uEnDBBA7 %}.
 ![xc5_rproducts_module.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_module.png)
 
 By using the related products feature you can: 
@@ -22,7 +22,7 @@ Here is an example of a "Related products" block displayed at the bottom of the 
 
 And here is an example of how related products can be used as a source for product recommendations for the Add to Cart popup. Note the items in the section "Customers who bought this also bought":
 ![xc5_products_related_products1.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_products_related_products1.png)
-(More info on how to enable this feature can be found in the section {% link "Add to Cart PopUp Module" ref_1iGC8Efj %})
+(More info on how to enable this feature can be found in the section {% link "Add to Cart PopUp Addon" ref_1iGC8Efj %})
 
 ## Adding Related Products for a Product
 Imagine that you have a product in your product catalog that you want to connect with one or more other products so that these other products will be recommended to customers when the customers show an interest in the first one. To do that you will need to edit the first product specifying the other products as related to it. Here's how it can be done: 
@@ -65,4 +65,3 @@ Note that in the case of a bidirectional relationship between the products, afte
 
 Bulk delete and bulk enable/disable action for the bidirectional connection are available via the **Edit all** button.
 ![xc5_rproducts_bulk.png]({{site.baseurl}}/attachments/ref_4a5rpsQq/xc5_rproducts_bulk.png)
-
