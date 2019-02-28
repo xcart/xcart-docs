@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-27 22:10 +0400'
 identifier: ref_Ta5fHl8u
-title: Changing the admin panel URL (X-Cart 5.2.7+)
+title: Changing the Admin Panel URL (X-Cart 5.2.7+)
 version: X-Cart 5.2.7 and later
 categories:
   - User manual
@@ -51,7 +51,7 @@ To change the admin panel URL, follow the steps below:
     }
     ```
 
-3.  Unfortunately, there are some files with hardcoded references to admin.php, so these will have to be fixed. Your store may or may not have these files - it depends on the set of modules installed. There may be some other files that we are not aware of. The known files are:
+3.  Unfortunately, there are some files with hardcoded references to admin.php, so these will have to be fixed. Your store may or may not have these files - it depends on the set of addons installed. There may be some other files that we are not aware of. The known files are:
     *   `<X-Cart>/skins/default/en/modules/XC/ThemeTweaker/template_editor/editor.js,`
     *   `<X-Cart>/classes/XLite/Module/XC/MailChimp/Main.php
         `
