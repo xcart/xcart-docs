@@ -27,13 +27,13 @@ This guide explains the main steps to set up an X-Cart store. Please refer to it
 
 ## Step 2: Data migration with a store migration app
 
-The easiest way to migrate store data is to use the service provided by X-Cart partners Cart2Cart. They guarantee the finest quality of data transfer to your new X-Cart store. With a number of ready-made migration modules that we provide, this task should be easy.
+The easiest way to migrate store data is to use the service provided by X-Cart partners Cart2Cart. They guarantee the finest quality of data transfer to your new X-Cart store. With a number of ready-made migration addons that we provide, this task should be easy.
 
-1.   Open X-Cart admin back-end –> Modules –> View more addons in Marketplace and search by the search term "migrate". 
+1.   Open X-Cart Admin back end –> My addons –> View more addons in Marketplace and search by the search term "migrate". 
 
-2.   Find the module showing the name of your current shopping cart platform. Presently, we support migration from Magento, WooCommerce, PrestaShop, Shopify, OsCommerce, BigCommerce, Interspire, ZenCart and [more](http://www.x-cart.com/extensions/addons?price=All&price=All&keys=Migrate&sort_by=created&sort_by=created&sort_order=DESC&sort_order=DESC), see the entire list in the Marketplace via the X-Cart admin area. 
+2.   Find the addon showing the name of your current shopping cart platform. Presently, we support migration from Magento, WooCommerce, PrestaShop, Shopify, OsCommerce, BigCommerce, Interspire, ZenCart and [more](http://www.x-cart.com/extensions/addons?price=All&price=All&keys=Migrate&sort_by=created&sort_by=created&sort_order=DESC&sort_order=DESC), see the entire list in the Marketplace via the X-Cart admin area. 
 
-3.   Install the module and register a Cart2Cart account, or sign in if you already have one.
+3.   Install the addon and register a Cart2Cart account, or sign in if you already have one.
 
 4.   Enter the FTP credentials of your current store to upload the Connection Bridge.
 
