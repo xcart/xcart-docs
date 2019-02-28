@@ -7,15 +7,15 @@ title: Product Stickers
 order: 223
 published: true
 ---
-The [Product Stickers module](https://market.x-cart.com/addons/product-stickers.html "Product Stickers") allows to label any products in your store with custom stickers to deliver special information to your store visitors. 
+The addon [Product Stickers](https://market.x-cart.com/addons/product-stickers.html "Product Stickers") allows to label any products in your store with custom stickers to deliver special information to your store visitors. 
 
-To start using the module install it as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To start using the addon, install it as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-When installed proceed to the module settings page to configure the options:
+Once the addon has been installed, proceed to the addon settings page to configure the options:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/installed.png)
 
-The **Product Stickers module configuration settings** are as follows:
+The Product Stickers addon configuration settings are as follows:
 ![settings-page.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/settings-page.png)
 
 * **Display product labels as stickers** : If enabled, default product labels (sale, market price, etc.) will be displayed as stickers.
