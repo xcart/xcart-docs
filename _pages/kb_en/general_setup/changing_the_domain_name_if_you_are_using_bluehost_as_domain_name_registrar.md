@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-03-01 16:20 +0400'
 identifier: ref_PVcLZCAC
-title: Changing the Domain Name If You Are Using Bluehost as Domain Name Registrar
+title: Changing the Domain Name if You Are Using Bluehost as Domain Name Registrar
 categories:
   - User manual
   - Deprecated
