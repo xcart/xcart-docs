@@ -13,7 +13,7 @@ order: 130
 
 Import is a powerful feature, and it allows you not only to create new items, but to update the existing items in your store as well. This can be used to update the properties of the items in the store's catalog, including - but not limited to - prices and product quantities. The idea is to export some existing information from your store to a CSV file, make changes to this information by editing the file in a spreadsheet editor, save the edited version of the file and re-import it into your store so the updated information from the file replaces the existing information in your store. 
 
-As some of you may already know, we have a module named {% link "Update inventory" ref_uSIvmuTh %} that can be used to update product quantities via the import process. We have been asked more than once to extend the functionality of that module so it can be used to update product prices as well. We, however, have made a conscious choice not to implement this feature in the module because, with the release of X-Cart 5.2.13, this module is no longer necessary: now you can achieve just the same (and more!) using X-Cart's core functionality. In X-Cart 5.2.13, we implemented the ability to properly update any existing items in your store, and you have two import modes to choose from:
+As some of you may already know, we have an addon named {% link "Update inventory" ref_uSIvmuTh %} that can be used to update product quantities via the import process. We have been asked more than once to extend the functionality of that addon so it can be used to update product prices as well. We, however, have made a conscious choice not to implement this feature in the addon because, with the release of X-Cart 5.2.13, this addon is no longer necessary: now you can achieve just the same (and more!) using X-Cart's core functionality. In X-Cart 5.2.13, we implemented the ability to properly update any existing items in your store, and you have two import modes to choose from:
 
 *   Create new items and update existing items;
 *   Update existing items, but skip new items.
@@ -132,7 +132,7 @@ After the import process is completed, you should be able to see the updated pri
 
 ## Updating the price of products with wholesale prices
 
-Let us imagine that you have installed the module **Wholesale** and wish to set wholesale prices for your products that will be applied depending on the membership level of the buyer and the number of product units being ordered. You can, of course, do so by editing the details of each of your products - via the Wholesale pricing section of the product details. On large product numbers, it is, however, more convenient to set wholesale prices using the import/export feature. Let us show how it can be done. For example, you have a product SKU 10001 "Planet Express Babydoll" priced at $9.99, and you want to set the following wholesale pricing tiers for it:
+Let us imagine that you have installed the addon **Wholesale** and wish to set wholesale prices for your products that will be applied depending on the membership level of the buyer and the number of product units being ordered. You can, of course, do so by editing the details of each of your products - via the Wholesale pricing section of the product details. On large product numbers, it is, however, more convenient to set wholesale prices using the import/export feature. Let us show how it can be done. For example, you have a product SKU 10001 "Planet Express Babydoll" priced at $9.99, and you want to set the following wholesale pricing tiers for it:
 
 *   1-4 units (for all customers) - $9.99
 *   5 or more units (for all customers) - $8.99
@@ -150,7 +150,7 @@ We are going to achieve the same result without editing the Wholesale pricing se
 
 2.  Download the resulting export file and import it into your favorite spreadsheet editor. 
 
-3.  Edit the file removing the columns whose contents will not need to be updated. As you can find out from the section {% link "CSV import: Products" ref_WmJBfwxA %} of this manual, the columns required for the import of products with wholesale prices are **sku** and **name** (required for products) + **wholesalePrices** and **variantWholesalePrices** (the fields added by the module Wholesale). So, keep those columns in your file. It may also be a good idea to keep the columns **price** and **stockLevel** - just so you have information about the product's base price and quantity in stock close at hand. The rest of the columns can be safely removed. Now if you look at the line of SKU 10001, you should see something like the following:
+3.  Edit the file removing the columns whose contents will not need to be updated. As you can find out from the section {% link "CSV import: Products" ref_WmJBfwxA %} of this manual, the columns required for the import of products with wholesale prices are **sku** and **name** (required for products) + **wholesalePrices** and **variantWholesalePrices** (the fields added by the addon Wholesale). So, keep those columns in your file. It may also be a good idea to keep the columns **price** and **stockLevel** - just so you have information about the product's base price and quantity in stock close at hand. The rest of the columns can be safely removed. Now if you look at the line of SKU 10001, you should see something like the following:
     ![]({{site.baseurl}}/attachments/9306814/9633886.png)
 
 4.  Now add the wholesale price tiers you require. In our example, SKU 10001 "Planet Express Babydoll" is a simple product without variants, which means we need to add our wholesale prices in the **wholesalePrices** column. The format to write out wholesale price tiers in your file is as follows:
@@ -190,6 +190,6 @@ After the import process is completed, you should be able to see that the produc
 
 _Related pages:_
 
-*   {% link "How to import data" ref_glDc6kA1 %}
-*   {% link "CSV format by X-Cart data type" ref_iy9cOdWS %}
-*   {% link "Integration with Doba (drop shipping services)" ref_HOfdxO3E %}
+*   {% link "How to Import Data" ref_glDc6kA1 %}
+*   {% link "CSV Format by X-Cart Data Type" ref_iy9cOdWS %}
+*   {% link "Integration with Doba (Drop Shipping Services)" ref_HOfdxO3E %}
