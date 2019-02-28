@@ -14,7 +14,7 @@ redirect_from:
 This guide explains the main steps to set up an X-Cart store. Please refer to it to make sure you don't forget any key tasks before the store launch. [Contact X-Cart professionals](https://www.x-cart.com/contact-us.html) if you need assistance at any step: we’re just one call or email away ;)
 
 
-## Step 1: Obtaining an X-Cart license and installing the software
+## Step 1: Obtaining an X-Cart License and Installing the Software
 
 1.  Follow the link below to compare X-Cart packages and choose the most suitable one: [http://www.x-cart.com/software_pricing.html](http://www.x-cart.com/software_pricing.html). [Download](https://www.x-cart.com/download.html) the software. If you select a commercial package, purchase a license to get a license key. 
 
@@ -25,7 +25,7 @@ This guide explains the main steps to set up an X-Cart store. Please refer to it
 4.   Once your X-Cart is installed, you will see a pop-up window suggesting that you register your free license ([see how](https://www.youtube.com/watch?v=MEncqXpJ8qc)) or activate a paid edition license (see [video instruction](https://www.youtube.com/watch?v=mmedPCQ91yA)). Follow the procedure in accordance with the X-Cart package chosen.
 
 
-## Step 2: Data migration with a store migration app
+## Step 2: Data Migration with a Store Migration App
 
 The easiest way to migrate store data is to use the service provided by X-Cart partners Cart2Cart. They guarantee the finest quality of data transfer to your new X-Cart store. With a number of ready-made migration addons that we provide, this task should be easy.
 
@@ -44,7 +44,7 @@ The easiest way to migrate store data is to use the service provided by X-Cart p
 7.   Finish a free Demo and launch the Full Migration.
 
 
-## Step 3: Check and organize your products after the migration
+## Step 3: Check and Organize Your Products after the Migration
 
 If you have added products to X-Cart via a migration app, it is important to verify the products afterwards.
 
@@ -61,7 +61,7 @@ If you have added products to X-Cart via a migration app, it is important to ver
 6.   {% link "Optimize the store catalog pages for SEO" ref_OBh3V1k1 %}: define meta elements of your product and category pages - such as the page title, meta description and meta keywords; {% link "set up seo-friendly URLs" ref_nJxrzFEZ %}.
 
 
-## Step 4: Configure the storefront
+## Step 4: Configure the Storefront
 
 We love beautiful stores as much as you do. That’s why we offer a number of tools that help you to personalize your X-Cart store easily:
 
@@ -76,7 +76,7 @@ We love beautiful stores as much as you do. That’s why we offer a number of to
 5. You may also {% link "switch the store language in Admin area" ref_x5oSN86B %} or {% link "add a custom translation to the storefront" ref_NH3w8sSS %}. 
 
 
-## Step 5: Configure your Shipping and Payment methods
+## Step 5: Configure Your Shipping and Payment Methods
 
 Intangible goods (software programs, documents, online cards and the like) do not require shipping, so if you sell such products, you need to {% link "disable shipping calculation for them" ref_z5KmbFAu %}. For the rest of your products you have a number of tools to estimate the shipping cost properly.
 
