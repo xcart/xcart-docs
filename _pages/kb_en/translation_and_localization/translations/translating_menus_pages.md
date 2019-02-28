@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-02-13 20:12 +0400'
 identifier: ref_7I70QnHa
 title: 'Translating News, Menus, Static Pages and Order Statuses'
-order: 130
+order: 150
 published: true
 redirect_from:
   - /translation_and_localization/translating_menus_pages.html
