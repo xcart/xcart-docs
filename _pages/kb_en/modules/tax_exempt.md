@@ -7,15 +7,15 @@ title: Tax Exempt
 order: 280
 published: true
 ---
-A [Tax Exempt module](https://market.x-cart.com/addons/tax-exemption.html "Tax Exempt") by X-Cart makes it possible to add tax exemptions for certain groups of customers as well as for particular products.
+The addon [Tax Exempt](https://market.x-cart.com/addons/tax-exemption.html "Tax Exempt") by X-Cart makes it possible to add tax exemptions for certain groups of customers as well as for particular products.
 
-To start using the module install it as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To start using the addon, install it as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 {% toc %}
 
 ## Tax-Exempt Customers
 
-The Tax Exempt module adds a possibility for a customer to specify tax number at checkout:
+The Tax Exempt addon adds a possibility for a customer to specify tax number at checkout:
 
 ![tax-number-checkout.png]({{site.baseurl}}/attachments/ref_6dA6W1gY/tax-number-checkout.png)
 
@@ -31,13 +31,13 @@ To add tax exemption for a customer a store admin should enable the **Tax exempt
 
 ![tax-exempt.png]({{site.baseurl}}/attachments/ref_6dA6W1gY/tax-exempt.png)
 
-If you need to prevent the tax-exempt customers from changing their tax numbers without your knowing disable the **Allow customers to modify their tax number after tax exemption is enabled** option on the Tax Exempt module settings page: 
+If you need to prevent the tax-exempt customers from changing their tax numbers without your knowing disable the **Allow customers to modify their tax number after tax exemption is enabled** option on the Tax Exempt addon settings page: 
 
 ![settings-page.png]({{site.baseurl}}/attachments/ref_6dA6W1gY/settings-page.png)
 
 {% note info %}
 
-To open the setting page, locate the Tax Exempt module in the Installed modules list as described in {% link "Managing addons" ref_gTOegEua %} and click **Settings**:
+To open the setting page, locate the Tax Exempt addon in the Installed Addons list as described in {% link "Managing Addons" ref_gTOegEua %} and click **Settings**:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_6dA6W1gY/installed.png)
 {% endnote %}
@@ -48,7 +48,7 @@ Once the **Allow customers to modify their tax number after tax exemption is ena
 
 ## Tax-Exempt Products
 
-Tax Exempt module adds a possibility for a store admin to make certain products tax-free if required. 
+The addon Tax Exempt adds a possibility for a store admin to make certain products tax-free if required. 
 
 For this purpose a store admin should:
 1. Locate the product in question on the product list page (**Catalog** -> **Products**).
