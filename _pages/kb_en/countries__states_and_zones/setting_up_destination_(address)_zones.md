@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-08-30 18:26 +0400'
 identifier: ref_r68iO5Rm
-title: Setting up destination (address) zones
+title: Setting up Destination (Address) Zones
 categories:
   - User manual
 published: true
@@ -64,4 +64,3 @@ Let's do it:
         *   in the section **Zip/postal code masks** - nothing.
 
 7.  Once you are done configuring the zone, click the **Save changes** button at the bottom of the page to save the changes. The zone details will be saved.
-
