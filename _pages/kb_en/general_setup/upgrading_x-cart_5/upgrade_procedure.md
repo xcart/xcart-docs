@@ -27,7 +27,7 @@ If there is any kind of update/upgrade available, there will be an **Updates are
 Also, there will be a notification of available updates when clicking the bell icon:
 ![updates-nots.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/updates-nots.png)
 
-Starting with X-Cart 5.3.2.4, the color of the **Updates are available** link background in the header may be either green or orange. The orange color signifies that only a feature-release is available. The green color, like in the screenshot below, signifies that a bug-fix release and/or modules updates are available (or both a bug-fix release and a feature-release are available).
+Starting with X-Cart 5.3.2.4, the color of the **Updates are available** link background in the header may be either green or orange. The orange color signifies that only a feature-release is available. The green color, like in the screenshot below, signifies that a bug-fix release and/or addons updates are available (or both a bug-fix release and a feature-release are available).
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![updates-orange.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/updates-orange.png)</div>
@@ -44,7 +44,7 @@ To check what updates are available, click on any of the "Updates are available"
 
 Note the page tabs: 
 
-   *   The **Minor update** tab (named **Bug-fixes only** in X-Cart v5.3.2.3 and earlier) shows the available bug-fix releases of the core and modules:
+   *   The **Minor update** tab (named **Bug-fixes only** in X-Cart v5.3.2.3 and earlier) shows the available bug-fix releases of the core and addons:
 
        (X-Cart v5.3.2.4 and later)
        ![minor-upgrade.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/minor-upgrade.png)
@@ -52,7 +52,7 @@ Note the page tabs:
        (X-Cart v5.3.2.3 and earlier)
        ![2_4yourversion2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion2.png)
 
-   *   The **Major upgrade** tab (named **Bug-fixes and new features** in X-Cart v5.3.2.3 and earlier) shows the available feature-releases of the core and modules:
+   *   The **Major upgrade** tab (named **Bug-fixes and new features** in X-Cart v5.3.2.3 and earlier) shows the available feature-releases of the core and addons:
        
        (X-Cart v5.3.2.4 and later)
        ![major-upgrade.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/major-upgrade.png)
@@ -93,7 +93,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
        If you see a message like that, you need to at least activate a free license, or purchase and activate a paid license. Once you do so, the problem will be resolved, and next time you attempt an update/upgrade, the **Continue** button will be available.
        {% endnote %}
     
-   6.  Clicking the **Continue** button launches the downloading of all the necessary update/upgrade packs for the core and modules. 
+   6.  Clicking the **Continue** button launches the downloading of all the necessary update/upgrade packs for the core and addons. 
         ![5_downl.png]({{site.baseurl}}/attachments/ref_9raTXZPN/5_downl.png)
        
         The downloaded updates/upgrades archives will be unpacked:
@@ -110,14 +110,14 @@ Also note the **Advanced mode** link allowing you to install just some specific 
 
        At this last step, you may receive several types of warnings:
 
-       *   If your store has any modules that have upgrade hooks, and these modules are disabled (not active), you will be prompted to either activate such modules or completely remove them. A module must be active in order to correctly run the upgrade hooks, and this is the reason why the module must be either enabled or deleted.
+       *   If your store has any addons that have upgrade hooks, and these addons are disabled (not active), you will be prompted to either activate such addons or completely remove them. An addon must be active in order to correctly run the upgrade hooks, and this is the reason why the addon must be either enabled or deleted.
            ![uninstal-modules.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/uninstal-modules.png)
            
            {% note info %}
-           Starting with X-Cart version 5.3.20, we only provide a prompt to remove such modules; however, there is a link to the list of disabled modules where you can enable them if you choose to do so. 
+           Starting with X-Cart version 5.3.20, we only provide a prompt to remove such addons; however, there is a link to the list of disabled addons where you can enable them if you choose to do so. 
            {% endnote %}
     
-       *   If your store has modules that do not exist in the marketplace (e.g. you uploaded them via **Upload add-on** button) and you are doing an upgrade/update within the 3rd or 4th digit sequence of the version number, you will be advised to disable these modules, although it is not strictly necessary. If you are doing a major upgrade affecting the 1st or 2nd digit sequence of the version number, you will be told that such modules will be disabled automatically.
+       *   If your store has addons that do not exist in the marketplace (e.g. you uploaded them via **Upload add-on** button) and you are doing an upgrade/update within the 3rd or 4th digit sequence of the version number, you will be advised to disable these addons, although it is not strictly necessary. If you are doing a major upgrade affecting the 1st or 2nd digit sequence of the version number, you will be told that such addons will be disabled automatically.
 
         *   If your store has any modified files, you will get a warning like this:
             ![files_modified.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/files_modified.png)
@@ -132,7 +132,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
         
        After the **Install updates** button has been clicked, the process continues as follows:
 
-       1.  Pre-upgrade hooks are run. If the upgrade is going from 5.0.14 to 5.1.3, then all the upgrade hooks - 5.1.0, 5.1.1, 5.1.2, 5.1.3 - will be run during this step. In addition to that, all the modules' upgrade hooks will be run at this stage;
+       1.  Pre-upgrade hooks are run. If the upgrade is going from 5.0.14 to 5.1.3, then all the upgrade hooks - 5.1.0, 5.1.1, 5.1.2, 5.1.3 - will be run during this step. In addition to that, all the addons' upgrade hooks will be run at this stage;
 
        2.  Overwriting of files happens: new files are added, existing ones are overwritten, non-existent ones in new version are deleted;
 
@@ -142,7 +142,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
 
        5.  Post-rebuild hooks are run. The same process as with pre-upgrade and post-upgrade hooks;
 
-       6.  Update of language variables happens. Script will take all install.yaml files of modules + yaml file with language variables of the core (`<X-Cart 5>/sql/install.yaml`) and put the language variables from these files to the database.
+       6.  Update of language variables happens. Script will take all install.yaml files of addons + yaml file with language variables of the core (`<X-Cart 5>/sql/install.yaml`) and put the language variables from these files to the database.
        
 
        On the screen, you may see steps like the following:
