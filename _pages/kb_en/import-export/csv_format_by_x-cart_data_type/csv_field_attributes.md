@@ -15,7 +15,7 @@ Below is an explanation of some attributes that we use to describe specific fiel
 
 *   {% link "CSV Import: Products" ref_WmJBfwxA %}
 *   {% link "CSV Import: Classes & Attributes" ref_qTbDu6Ov %}
-*   {% link "CSV Import: Product attribute values" ref_Z7XdREZl %}
+*   {% link "CSV Import: Product Attribute Values" ref_Z7XdREZl %}
 *   {% link "CSV Import: Categories" ref_ekmg5iLG %}
 *   {% link "CSV Import: Customers" ref_JobVfzZg %}
 
