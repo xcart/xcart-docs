@@ -19,7 +19,7 @@ As a result, X-Cart now uses two types of version upgrades:
 
 The type of upgrade reflects the significance of changes that the upgrade implements. A major upgrade provides both new features and bugfixes. A minor update provides only bugfixes. 
 
-The new features implemented by a major upgrade rely on major changes of the core, which means that the interfaces of classes and the signatures of methods change. It does not happen during a minor update. Consequently, a minor update does not require any change in the modules, whereas a major upgrade does require module compatibility changes.
+The new features implemented by a major upgrade rely on major changes of the core, which means that the interfaces of classes and the signatures of methods change. It does not happen during a minor update. Consequently, a minor update does not require any change in the addons, whereas a major upgrade does require addon compatibility changes.
 
 <table class="ui celled padded compact small table">
   <thead>
