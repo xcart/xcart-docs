@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-23 14:28 +0400'
 identifier: ref_5QLrLCu7
-title: 'Email notifications: setup and maintenance'
+title: 'Email Notifications: Setup and Maintenance'
 order: 220
 published: true
 redirect_from:
@@ -30,10 +30,10 @@ For email notifications that are added by an addon, the name of the addon is men
 
 
 
-*  {% link "Editing email notifications" ref_1qTqS245 %}
-*  {% link "Editing the header, greeting &amp; signature of your email notifications" ref_2W845gkS %}
-*  {% link "Using variables to configure your email notifications" ref_6fJMVyRl %}
-*  {% link "Adding PDF invoices to email notifications" ref_08i5p47o %}
-*  {% link "Specifying your 'Contacts' email addresses" ref_wKcxbiUf %}
-*  {% link "Configuring email transfer settings" ref_5PirMonD %}
-*  {% link "Testing your email transfer settings with mail-tester.com" ref_1QrpKuD3 %}
+*  {% link "Editing Email Notifications" ref_1qTqS245 %}
+*  {% link "Editing the Header, Greeting &amp; Signature of Email Notifications" ref_2W845gkS %}
+*  {% link "Using Variables to Configure Email Notifications" ref_6fJMVyRl %}
+*  {% link "Adding PDF Invoices to Email Notifications" ref_08i5p47o %}
+*  {% link "Specifying Your 'Contacts' Email Addresses" ref_wKcxbiUf %}
+*  {% link "Configuring Email Transfer Settings" ref_5PirMonD %}
+*  {% link "Testing Your Email Transfer Settings with mail-tester.com" ref_1QrpKuD3 %}
