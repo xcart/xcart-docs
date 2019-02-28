@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-26 19:07 +0400'
 identifier: ref_5PirMonD
-title: Configuring email transfer settings
+title: Configuring Email Transfer Settings
 order: 140
 published: true
 ---
@@ -11,10 +11,10 @@ Email transfer configuration is the most important part of email notifications s
 
 Read on to find out about:
 
-   * [Adjusting your store's FROM/REPLY-TO settings](#adjusting-your-stores-fromreply-to-settings)
-   * [Specifying your SMTP server connection details](#specifying-your-smtp-server-connection-details)
+   * [Adjusting Your Store's FROM/REPLY-TO Settings](#adjusting-your-stores-fromreply-to-settings)
+   * [Specifying Your SMTP Server Connection Details](#specifying-your-smtp-server-connection-details)
 
-## Adjusting your store's FROM/REPLY-TO settings
+## Adjusting Your Store's FROM/REPLY-TO Settings
 
 First of all, you will need to specify what email addresses must be used in the FROM and REPLY-TO fields of email notifications that will be sent by your store. 
 
@@ -43,7 +43,7 @@ To adjust the FROM and REPLY-TO fields of your store's email notifications, foll
 You can test the sending of email messages using the email addresses you have specified in the FROM/REPLY-TO settings section via the **Test email configuration** section at the bottom of the page. 
    ![test.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/test.png)
 
-## Specifying your SMTP server connection details
+## Specifying Your SMTP Server Connection Details
 
 If you want to send email notifications using an SMTP server different from the default one, enable the **'Use SMTP server'** option. This will allow you to specify the SMTP server connection details.
 
@@ -64,4 +64,4 @@ Note that besides SMTP you can use [Mandrill](https://market.x-cart.com/addons/m
 
 _Related pages:_
 
-   * {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
+   * {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}
