@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-08-24 13:38 +0400'
 identifier: ref_raLBcOm3
-title: Configuring background job queue
+title: Configuring Background Job Queue
 order: 260
 published: true
 version: X-Cart 5.3.3
@@ -20,7 +20,7 @@ As of now, background jobs queue speeds up the following actions:
 - Any other actions which involve an email sending;
 - Amazon S3 image transfering
 
-## Enabling the job queueing
+## Enabling the Job Queueing
 
 You can enable the job queueing by setting the following config option in the `etc/config.php` file:
 
@@ -31,11 +31,11 @@ backgroundJobsSchedulingEnabled = true
 
 After this, every job will be pushed to the message queue instead of executing on the stop. There are several ways of executing jobs placed on this queue:
 
-### Cron task
+### Cron Task
 
 If you have configured your {% link "server to run scheduled X-Cart tasks" ref_lLqNzAaq %}, job queue will be processed at the next cron run. We advise to schedule cron task for the shortest period possible, e.g. 5 - 10 minutes.
 
-### Console application
+### Console Application
 
 In case you to control the queue processing via an external script, you can start queue processing by running the following command in the X-Cart working dir:
 
@@ -43,7 +43,7 @@ In case you to control the queue processing via an external script, you can star
 php console.php --target=consumer --action=consumeAll
 ```
 
-### Browser execution
+### Browser Execution
 
 You can also control and process pending jobs via X-Cart admin zone page - `admin.php?target=jobs`. To be able to run this page, your X-Cart config should have the following option under the `[queue]` section:
 
