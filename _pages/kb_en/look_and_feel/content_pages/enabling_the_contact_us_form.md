@@ -17,11 +17,11 @@ Your store can have a "Contact us" form that your customers will be able to use 
 
 ![contact-us-storefront.png]({{site.baseurl}}/attachments/ref_hfZXkxzT/contact-us-storefront.png)
 
-The form is enabled by a free addon called **Contact us**. You can check whether this module is installed and enabled in the Addons section of your store's Admin area:
+The form is enabled by a free addon called **Contact us**. You can check whether this addon is installed and enabled in the Addons section of your store's Admin area:
 
 ![contact-us-module.png]({{site.baseurl}}/attachments/ref_hfZXkxzT/contact-us-module.png)
 
-If the addon is not installed, you can install it from X-Cart's Marketplace (See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}). 
+If the addon is not installed, you can install it from X-Cart's Marketplace (See {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}). 
 
 The addon's settings page allows you to control the settings related to the "Contact us" form:
 
@@ -36,7 +36,7 @@ The "Contact us" form can be protected by reCAPTCHA. reCAPTCHA is a free Web ser
 The reCAPTCHA option is enabled by the addon {% link "Google reCAPTCHA " ref_4S6YEcnH %}.
 If the addon Google reCAPTCHA is installed and enabled specify the **Site key** and **Secter key** values on the Contact Us addon's settings page.
 
-If your store uses the **Simple CMS** module by X-Cart team, the link to the "Contact us" form appears in your store's Primary menu: 
+If your store uses the **Simple CMS** addon by X-Cart team, the link to the "Contact us" form appears in your store's Primary menu: 
 
 ![contact-us-strorefront-menu.png]({{site.baseurl}}/attachments/ref_hfZXkxzT/contact-us-strorefront-menu.png)
 
@@ -46,4 +46,4 @@ You can control the accessibility of the "Contact us" form link via the Primary 
 
 _Related pages:_
 
-*   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
+*   {% link "Adding New Items to Your Store's Menus" ref_BDykFBbw %}
