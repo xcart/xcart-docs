@@ -20,7 +20,7 @@ For example, here's what it looks like in X-Cart's Standard skin:
 
 ![xc5_banner_welcome_text.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_text.png)
 
-## Changing the default Welcome message
+## Changing the Default Welcome Message
 
 One of the first things you might want to do while setting up your new X-Cart store is to remove or change the default Welcome message. 
 
@@ -38,7 +38,7 @@ If you do not want to use a Welcome text, simply remove the text used by default
 
 The Welcome text on the Customer area front page will be updated.
 
-## Changing the default Front page banner
+## Changing the Default Front Page Banner
 
 You might want to change the default banner image shown on the Customer area Front page. 
 
