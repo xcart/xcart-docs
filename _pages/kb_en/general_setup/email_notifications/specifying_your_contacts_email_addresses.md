@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-15 12:12 +0400'
 identifier: ref_wKcxbiUf
-title: Specifying your 'Contacts' email addresses
+title: Specifying Your 'Contacts' Email Addresses
 categories:
   - User manual
 published: true
@@ -68,10 +68,10 @@ You can set four kinds of contact email addresses:
        The email address(es) specified in this field will be used as the 'to' address for messages sent by store visitors via the _Contact us_ form. It/They will also be used in the message "No payment methods available. Please contact the `<a href=\"mailto:{{email}}\">store administrator</a>`.", which is displayed to customers when there are no payment methods available to them at checkout. 
        
        {% note info %}
-       A separate 'to' email address for the _Contact us_ form may be configured on the settings page of the [Contact Us](https://market.x-cart.com/addons/contact-us.html "Adding recipient addresses for email notifications") module.
+       A separate 'to' email address for the _Contact us_ form may be configured on the settings page of the addon [Contact Us](https://market.x-cart.com/addons/contact-us.html "Adding recipient addresses for email notifications").
        {% endnote %}
 
 
 _Related pages:_
 
-   * {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
+   * {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}
