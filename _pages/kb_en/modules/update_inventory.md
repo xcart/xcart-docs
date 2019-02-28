@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-05-24 09:46 +0400'
 identifier: ref_uSIvmuTh
-title: Update inventory
+title: Update Inventory
 version: X-Cart 5.2.13 and higher
 categories:
   - User manual
@@ -35,13 +35,13 @@ As you can see, the CSV file has just two fields:
 When using **qty** field, you can also specify changes based on the current stock. Relative change is marked with the sign character, e.g. `+5` (stock increase by 5 items) or `-10` (stock decrease by 10 items). 
 {% endnote %}
 
-In a store with the module **Update inventory** installed and enabled, the CSV file for updating product quantities can be imported via the **Update quantity** section (**Catalog** > **Update quantity**):
+In a store with the addon **Update inventory** installed and enabled, the CSV file for updating product quantities can be imported via the **Update quantity** section (**Catalog** > **Update quantity**):
 
 ![update-invebtory-catalog.png]({{site.baseurl}}/attachments/ref_uSIvmuTh/update-invebtory-catalog.png)
 
 When importing a CSV file to update product quantities, the following rules apply:
 
-*   If a SKU from the CSV file doesn't match the SKU of any existing product or (when using the module Product Variants) product variant in the store's database, the error is logged, and the respective line in the CSV file is skipped.
+*   If a SKU from the CSV file doesn't match the SKU of any existing product or (when using the addon Product Variants) product variant in the store's database, the error is logged, and the respective line in the CSV file is skipped.
 *   Product quantities must be positive numbers. If a product quantity in the qty field is specified in a wrong format, the error is logged, and the respective line in the CSV file is skipped.
 *   Any errors generated in the process of importing the CSV file with SKUs and quantities are displayed after the import process has been completed.
 
