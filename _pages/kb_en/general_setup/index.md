@@ -13,11 +13,11 @@ published: true
 ---
 This section contains tutorials on the basic store installation and configuration issues.
 
-## Beginner's guide
+## Beginner's Guide
 
 X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} can help you if you wonder how to get started and are worried about forgetting the key steps on the way to your first sale. The Beginner’s Guide covers all the necessary tutorials from choosing a proper hosting to promoting your store and adding extra sale channels.
 
-## Migration tutorials
+## Migration Tutorials
 
 If you are considering moving to X-Cart from another platform use our {% link "migrtion tutorials" ref_7AInnCrh %}:
 * {% link "Getting started with store migration" ref_otTGssNZ %}
