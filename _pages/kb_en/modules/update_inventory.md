@@ -48,5 +48,5 @@ When importing a CSV file to update product quantities, the following rules appl
 _Related pages:_
 
 *   {% link "Import-Export" ref_TANvG2De %}
-*   {% link "Product variants" ref_0uApuQfx %}
-*   {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}
+*   {% link "Product Variants" ref_0uApuQfx %}
+*   {% link "Updating Product Properties (Price, Stock Quantity, etc.) via Import" ref_OEpBdtQ6 %}
