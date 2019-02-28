@@ -75,7 +75,7 @@ After moving all the files, you may want to transfer the data as well. You can a
 
 Also, you can upload the database dump from one X-Cart installation to another. Follow these steps:
 
-1.  First of all, make sure both X-Cart installations have the same set of modules installed and activated.
+1.  First of all, make sure both X-Cart installations have the same set of addons installed and activated.
 
 2.  If the database dump file is larger than 2 MB, upload it to the `<new X-Cart>/var/backup/sqldump.sql.php` file. Alternatively, a small dump can be uploaded during the next step.
 
