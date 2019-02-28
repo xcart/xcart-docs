@@ -7,15 +7,15 @@ title: Products Carousel
 order: 216
 published: true
 ---
-The X-Cart module [Products Carousel](https://market.x-cart.com/addons/products-carousel.html "Products Carousel") can be used to enable a responsive and user-friendly product carousel for certain sections on the storefront (e.g. Bestsellers, Featured Products, New Arrivals, etc.) It is compatible with smartphones, tablets and desktop computers.
+The X-Cart addon [Products Carousel](https://market.x-cart.com/addons/products-carousel.html "Products Carousel") can be used to enable a responsive and user-friendly product carousel for certain sections on the storefront (e.g. Bestsellers, Featured Products, New Arrivals, etc.) It is compatible with smartphones, tablets and desktop computers.
 
-To install the module, follow the instructions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the instructions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-After the module has been installed, proceed to the module settings page to configure it:
+After the addon has been installed, proceed to the addon settings page to configure it:
 
    ![installed.png]({{site.baseurl}}/attachments/ref_4yBBezmL/installed.png)
 
-On the module settings page, you will find a list of sections for which the product carousel can be enabled:
+On the addon settings page, you will find a list of sections for which the product carousel can be enabled:
 
    ![settings-page.png]({{site.baseurl}}/attachments/ref_4yBBezmL/settings-page.png)
 
