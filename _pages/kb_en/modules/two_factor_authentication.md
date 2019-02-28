@@ -7,35 +7,35 @@ title: Two factor authentication
 order: 295
 published: true
 ---
-Two Factor Authentication module integrates X-Cart with Authy.com that simplifies and strengthens the security of your account. Two-Factor Authentication system can be used to protect each type of accounts: admin or customer. 
+The addon Two Factor Authentication integrates X-Cart with Authy.com that simplifies and strengthens the security of your account. Two-Factor Authentication system can be used to protect each type of accounts: admin or customer. 
 
-If the Two Factor Authentication module levels up protection to user accounts by adding a necessity to confirm the username and password with a one-time SMS code to log in. Even if Authy server is compromised, the hacker will have no usernames or passwords, as these sensitive details are NOT stored on their side.
+The addon Two Factor Authentication levels up user account protection by adding a necessity to confirm the username and password with a one-time SMS code to log in. Even if Authy server is compromised, the hacker will have no usernames or passwords, as these sensitive details are NOT stored on their end.
 
-To start using the module make sure it's {% link "installed and enabled" ref_uEnDBBA7 %}.
+To start using the addon, make sure it is {% link "installed and enabled" ref_uEnDBBA7 %}.
 
-The module requires an account with Authy. You can get one [here](https://www.authy.com/product/pricing/ "Two factor authentication") if you haven't registered with Authy yet.
+The addon requires an account with Authy. You can get one [here](https://www.authy.com/product/pricing/ "Two factor authentication") if you haven't registered with Authy yet.
 
-When enabled proceed to the module settings page to configure it:
+After the addon has been enabled, proceed to the addon settings page to configure it:
 
 ![tfa-installed.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-installed.png)
 
-You'll need to set up the following paramethers:
+You will need to set up the following paramethers:
 
 ![tfa-settings-page.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-settings-page.png)
 
 * **API key** : Specify the APY key from your [Authy.com](dashboard.authy.com  "Two factor authentication") account. 
   
-  If you don't have an account as yet follow the steps below to create an Authy API Key: 
+  If you do not have an account yet, follow the steps below to create an Authy API Key: 
   * Create a Twilio account [here](https://www.twilio.com/try-twilio "Two factor authentication")
   * Create an [Authy application in the Twilio Console](https://www.twilio.com/console/authy "Two factor authentication").
   * Once you've created a new Authy application, copy the API Key for Production available in the Settings page of your Authy application. See the image below for reference:
   ![tfa-authy-api.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-authy-api.png)
   
-* **Production mode** : Enable if you don't need to test the integration and are ready to use the module in production mode.
+* **Production mode** : Enable if you don't need to test the integration and are ready to use the addon in production mode.
 * **Use two-factor authentication for the customer interface** : Enable if you need the two-factor authentication option to be available to customer accounts.
 * **Use two-factor authentication for the administrator interface** : Enable if you need the two-factor authentication option to be available to admin and vendor accounts.
 
-When configured the module addes the _Country phone code_ and _Phone number_ fields to a user account.
+Once configured, the addon addes the _Country phone code_ and _Phone number_ fields to a user account.
 
 ![tfa-phone-fields.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-phone-fields.png)
 
