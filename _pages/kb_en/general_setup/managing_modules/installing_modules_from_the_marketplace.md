@@ -13,12 +13,12 @@ redirect_from:
 ---
 To install an addon from the X-Cart Marketplace:
 
-1.  Log in to your store's Admin area and go to the **Addons Marketplace** section.
+1.  Log in to your store's Admin area and go to the **Addons Marketplace**:
 
-    Click **My addons** in the Admin menu:
+    Click **My addons** in the Admin menu.
     ![xc5_modules_my_addons_link.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_my_addons_link.png)
     
-    Then click on the "View more addons in Marketplace" link to go to the **Addons Marketplace** section:
+    Then click on the "View more addons in Marketplace" link to go to the **Addons Marketplace**.
     ![xc5_modules_goto_addons_mktplce.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_goto_addons_mktplce.png)
 
     Your store will connect to the X-Cart Marketplace to obtain the list of addons available there. You should see a page like the following:
@@ -46,10 +46,10 @@ To install an addon from the X-Cart Marketplace:
     Now if you choose to view the list of your store's installed addons, the addon you have installed will be on the list. 
 
    {% note info %}
-   After the addon has been installed, it is already in the _Enabled_ (active) state. You can temporarily disable the addon or remove it completely using the addon deactivation instructions from the article {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
+   After the addon has been installed, it is already in the _Enabled_ (active) state. You can temporarily disable the addon or remove it completely using the addon deactivation instructions from the article {% link "Activating and Deactivating addons" ref_uEnDBBA7 %}.
    {% endnote %}
 
 _Related pages:_
 
-*   {% link "Managing addons" ref_gTOegEua %}
+*   {% link "Managing Addons" ref_gTOegEua %}
 *   Video: {% link "X-Cart 5 Module License Activation" ref_hU6Rb4tw %}
