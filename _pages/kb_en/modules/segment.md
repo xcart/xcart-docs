@@ -56,14 +56,14 @@ For this purpose:
     * Find and copy the **Write Key** value in **Settings** -> **API Keys** section:
       ![segment-backend-api-keys.png]({{site.baseurl}}/attachments/ref_2tHtk4OT/segment-backend-api-keys.png)
  
-6. Open the Segment Integration addon settings page in your **X-Cart admin area**:
+6. Open the Segment Integration addon settings page in your X-Cart Admin area:
    ![settings-page.png]({{site.baseurl}}/attachments/ref_2tHtk4OT/settings-page.png)
 
 7. Paste the Segment _Write Key_ value in the field on the addon settings page and click Submit:
    
 You are all set! Segment is now collecting your website data.
 
-Once Segment Integration is enabled and data collection starts you can add the services you need as Destinatons in the Segment back-end so that it passes the data collected from X-Cart to the respective service and process it there.
+Once Segment Integration is enabled and data collection starts you can add the services you need as Destinatons in the Segment back end so that it passes the data collected from X-Cart to the respective service and process it there.
 
 To add a Destination:
 
