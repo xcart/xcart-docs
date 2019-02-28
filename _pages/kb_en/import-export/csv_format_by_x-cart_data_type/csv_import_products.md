@@ -13,12 +13,12 @@ version: X-Cart 5.3.3 and later
 
 ## Table of Contents
 
-- [File format](#file-format)
-- [Fields reference](#file-format)
+- [File Format](#file-format)
+- [Fields Reference](#file-format)
 	* [Tips](#tips)
-- [Updating product variants](#updating-product-variants)
+- [Updating Product Variants](#updating-product-variants)
 
-## File format
+## File Format
 
 A product CSV file for import must have the name **products-xxxxxx.csv**, where the part **-xxxxxx** can be anything you want, or can be even omitted.
 
@@ -37,7 +37,7 @@ Example of the simplest product CSV file:
 
 ![Simplest products.csv file]({{site.baseurl}}/attachments/7503877/7602177.png "Simplest products.csv file")
 
-## Fields reference
+## Fields Reference
 
 There are many more fields that you can include into your product CSV file. Below we provided a list of supported fields and value types accepted by X-Cart via these fields.
 
@@ -811,7 +811,7 @@ There are many more fields that you can include into your product CSV file. Belo
     - attributeValue;
     - variantImage (Product Variants addon).
     
-## Updating product variants
+## Updating Product Variants
 
 To reference a specific product variant, you have to provide all its attribute values. Attribute value column has the format of: `<Attribute name> (field:<class or global>)`. See the example below:
 
