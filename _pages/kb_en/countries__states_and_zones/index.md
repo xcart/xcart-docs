@@ -11,7 +11,7 @@ icon: flag
 description: Set up geographic zones for your shipping and tax rules
 published: true
 ---
-## What are zones?
+## General Information on Zones
 
 In X-Cart 5, zones (also known as "destination zones" or "address zones") are a means to configure and apply tax and shipping rules based on the customer's geographic location. A zone is a subset of countries, states and zip/postal codes that make up a specific region to which certain rules must apply. 
 
@@ -23,7 +23,7 @@ Here are some examples of how zones can be used:
 
 The number of zones you will need depends on the complexity of tax and shipping configuration you want to achieve. You can create any number of zones, but, in fact, you will only need as many zones as will be enough to configure your store's shipping and tax rules. Note that your zones for taxes do not have to be the same as your zones for shipping.
 
-## How X-Cart determines a customer's address zone 
+## How X-Cart Determines a Customer's Address Zone 
 
 When X-Cart needs to determine the tax or shipping rate that needs to be applied to a customer's cart, it checks the customer's address to see which zone this address belongs to. For that, X-Cart goes consecutively through the customer's address fields - the country, the state and the zip/postal code - and matches them against the respective fields of each zone. If it finds that the customer's country is listed among the countries included into a zone, it goes on to check the customer's state. If the zone's state list is empty (i.e., the zone includes all the states in the country), the customer's address is identified as belonging to the zone. If the zone's state list is not empty, and the customer's state is not on that list, the customer's address is identified as not belonging to this zone (So, X-Cart will need to find another zone to which the address can be matched). If the zone's state list is not empty, and the customer's state is listed among the states included into the zone, the matching process continues on to the zip/postal code field. Similarly to the previous step, the zone's field for zip/postal codes may be empty, in which case the customer's address will be identified as belonging to the zone, or it may contain some zip/postal codes or zip/postal code masks, in which case X-Cart will match the customer's zip/postal code against the contents of this field and may find the customer's address to match or not to match the zone.
 
@@ -31,5 +31,5 @@ If the customer's address is found to match more than one zone, X-Cart will have
 
 _In this section:_
 
-*   {% link "The “All Addresses” (default) zone" ref_4kPvWTw2 %}
-*   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
+*   {% link "The “All Addresses” (Default) Zone" ref_4kPvWTw2 %}
+*   {% link "Setting up Address Zones" ref_r68iO5Rm %}
