@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 16:02 +0400'
 identifier: ref_glDc6kA1
-title: How to import data
+title: How to Import Data
 categories:
   - User manual
 published: true
