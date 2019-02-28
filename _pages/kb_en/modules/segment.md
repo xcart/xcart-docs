@@ -7,11 +7,11 @@ title: Segment Integration
 order: 230
 published: true
 ---
-X-Cart is integrated with Segment via a special free [Segment Integration](https://market.x-cart.com/addons/segment-integration.html "Segment Integration") module. The integration provides access to such useful tools like Goole Analytics, Mixpanel, Pinterest Tags, Google Ads, Facebook Pixel, Kissmetrics, etc.
+X-Cart is integrated with Segment via a special free addon [Segment Integration](https://market.x-cart.com/addons/segment-integration.html "Segment Integration"). The integration provides access to such useful tools like Goole Analytics, Mixpanel, Pinterest Tags, Google Ads, Facebook Pixel, Kissmetrics, etc.
 
-To start using the module install it as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To start using the addon, install it as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-When installed and enabled, create a free account with [Segment.com](https://app.segment.com/signup "Segment Integration") in a separate tab, while keeping the X-Cart Segment Integration page open.
+After the addon has been installed and enabled, create a free account with [Segment.com](https://app.segment.com/signup "Segment Integration") in a separate tab, while keeping the X-Cart Segment Integration page open.
 
 ![installed.png]({{site.baseurl}}/attachments/ref_2tHtk4OT/installed.png)
 
@@ -56,10 +56,10 @@ For this purpose:
     * Find and copy the **Write Key** value in **Settings** -> **API Keys** section:
       ![segment-backend-api-keys.png]({{site.baseurl}}/attachments/ref_2tHtk4OT/segment-backend-api-keys.png)
  
-6. Open the ‘Segment Integration’ module settings page in your **X-Cart admin area**:
+6. Open the Segment Integration addon settings page in your **X-Cart admin area**:
    ![settings-page.png]({{site.baseurl}}/attachments/ref_2tHtk4OT/settings-page.png)
 
-7. Paste the Segment _Write Key_ value in the field on the module settings page and click Submit:
+7. Paste the Segment _Write Key_ value in the field on the addon settings page and click Submit:
    
 You are all set! Segment is now collecting your website data.
 
