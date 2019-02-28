@@ -12,7 +12,7 @@ redirect_from:
   - /look_and_feel/changing_the_text_of_the_maintenance_page.html
 ---
 
-When your store is in the process of rebuilding its cache, upgrading the core or installing new modules, it is not operational, and your customers see the maintenance page instead:
+When your store is in the process of rebuilding its cache, upgrading the core or installing new addons, it is not operational, and your customers see the maintenance page instead:
 
 ![]({{site.baseurl}}/attachments/8750554/8719382.png)
 
