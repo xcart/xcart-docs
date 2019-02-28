@@ -35,6 +35,6 @@ More information on your store's email notifications is available in the section
 
 _Related pages:_
    
-   * {% link "General setup" ref_9z7v4QHi %}
-   * {% link "Email notifications: setup and maintenance" ref_5QLrLCu7 %}
-   * [Specifying your company info, changing the text on the Add to Cart button and editing the Contact Us page in X-Cart 5](http://devs.x-cart.com/en/webinars_and_video_tutorials/specifying_your_company_info__changing_the_text_on_the_add_to_cart_button_and_editing_the_contact_us_page_in_x-cart_5.html) (video)
+   * {% link "General Setup" ref_9z7v4QHi %}
+   * {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}
+   * [Specifying Your Company Info, Changing the Text on the Add to Cart Button and Editing the Contact Us Page in X-Cart 5](http://devs.x-cart.com/en/webinars_and_video_tutorials/specifying_your_company_info__changing_the_text_on_the_add_to_cart_button_and_editing_the_contact_us_page_in_x-cart_5.html) (video)
