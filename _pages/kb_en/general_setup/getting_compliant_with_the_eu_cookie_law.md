@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-28 00:29 +0400'
 identifier: ref_IOt4rapT
-title: Getting compliant with the EU Cookie Law
+title: Getting Compliant with the EU Cookie Law
 categories:
   - User manual
 published: true
