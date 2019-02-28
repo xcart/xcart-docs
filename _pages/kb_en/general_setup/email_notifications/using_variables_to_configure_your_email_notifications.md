@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-21 20:09 +0400'
 identifier: ref_6fJMVyRl
-title: Using variables to configure your email  notifications
+title: Using Variables to Configure Email  Notifications
 order: 135
 published: true
 ---
