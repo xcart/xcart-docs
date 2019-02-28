@@ -128,7 +128,7 @@ Below is a list of supported fields and their respective value types for the imp
 
 <sub>* Required field.</sub>
 
-<sub markdown="1">** See {% link "CSV field attributes" ref_2LwMTTTW %} for more info.</sub>
+<sub markdown="1">** See {% link "CSV Field Attributes" ref_2LwMTTTW %} for more info.</sub>
 
 **Tips**: 
 
