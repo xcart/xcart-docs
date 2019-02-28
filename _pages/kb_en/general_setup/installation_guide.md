@@ -17,7 +17,7 @@ This guide describes the process of installing X-Cart 5 on your server.
 
 {% toc Table of Contents %}
 
-## Server requirements
+## Server Requirements
 
 Before you get started you might want to check whether your web server spec meets system requirements. Even if you don't, the installation wizard will alert you during the process that something is not set up properly.
 
@@ -61,7 +61,7 @@ Here is the system requirements list:
     Any other cachers should not strip comments from the code too.
 *   [Suhosin](https://suhosin.org/stories/index.html "Installation Guide") PHP extension might interfere proper work of X-Cart 5, so you should disable it. 
 
-### Hardware requirements
+### Hardware Requirements
 
 {% note warning %}
 Use X-Cart on \*NIX-based servers only (Ubuntu, Debian, CentOS etc.)!
@@ -195,7 +195,7 @@ Use X-Cart on \*NIX-based servers only (Ubuntu, Debian, CentOS etc.)!
   </tbody>
 </table>
 
-## Browser compatibility
+## Browser Compatibility
 
 X-Cart 5 supports following browsers:
 
@@ -204,7 +204,7 @@ X-Cart 5 supports following browsers:
 *   Firefox (latest version)
 *   Microsoft Edge (latest version)
 
-## Installation process
+## Installation Process
 
 This article covers the process of installation for X-Cart versions 5.2.5 and later. For earlier versions the process is similar; however, the installation wizard steps are a bit different. 
 
@@ -214,7 +214,7 @@ A video guide for installing X-Cart is available:
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/N21P9jBh2sA" frameborder="0"></iframe>
 
 
-### Upload X-Cart 5 onto your server
+### Upload X-Cart 5 onto Your Server
 
 1.  Download the most recent X-Cart 5 package from this page: [http://www.x-cart.com/download.html](http://www.x-cart.com/download.html)
 2.  Upload the downloaded package onto your server.
@@ -234,25 +234,25 @@ A video guide for installing X-Cart is available:
 
     (Be sure to replace the file name with the actual name of the archive you have downloaded).
 
-### Create an empty database
+### Create an Empty Database
 
 Create an empty database in your MySQL storage.
 
-### Run the installation wizard and follow the steps
+### Run the Installation Wizard and Follow the Steps
 
-#### Step 1\. License agreement
+#### Step 1\. License Agreement
 
 Open the link: **`http://<your-domain>/<x-cart-5-directory>/install.php`** in your browser. It will start the installation wizard. Accept the license agreement and click **Next**.
 
 ![]({{site.baseurl}}/attachments/524295/8719150.png)
 
-#### Step 2\. Creating administrator account
+#### Step 2\. Creating Administrator Account
 
 At this step, you need to define the email and password for your store's administrator profile. Once you are done with that, X-Cart 5 will send a notification to the email address you have specified along with some service info.
 
  ![]({{site.baseurl}}/attachments/524295/8719151.png)
 
-#### Step 3\. Environment check
+#### Step 3\. Environment Check
 
 Now the installation wizard will check whether your server meets the system requirements for X-Cart 5\. It will report if the requirements are not met. If everything is OK, you will be automatically redirected to the next step.
 
@@ -296,19 +296,19 @@ In this section, you can adjust the following settings:
 
 Once you are done adjusting these settings, click **Next**.
 
-#### Steps 5 and 6\. Some magic
+#### Steps 5 and 6\. Some Magic
 
 These two steps are dedicated to some boring work that X-Cart 5 has to do. It creates MySQL tables, cache, development code and so on. These steps are fully automated, so you just need to wait and let X-Cart 5 do the job. Usually it takes less than a minute.
 
 ![]({{site.baseurl}}/attachments/524295/8719158.png)
 
-#### Step 7\. Installation completed
+#### Step 7\. Installation Completed
 
 Now the installation process has been completed. You can use the links provided to access your store's customer front end and admin area. 
 
 ![]({{site.baseurl}}/attachments/524295/8719159.png)
 
-## What to do next?
+## What to Do Next?
 
 X-Cart store is ready to work and the whole world is open to you. 
 
@@ -316,11 +316,11 @@ Use X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} to set up your store and s
 
 P.S. And don't forget about {% link 'security measures' ref_secureconfig %}!
 
-## Possible installation problems
+## Possible Installation Problems
 
 If you face any problem during **Environment** check, you get a general instruction about how to fix it. You can pass it to your developers or hosting team and they will be able to take care of it. This section describes typical problems you may encounter and what you can do in order to fix them.
 
-### 1\. Problems with connection to database
+### 1\. Problems with Connection to Database
 
 Such problems generally mean that MySQL credentials were specified incorrectly or MySQL server/database is incorrectly set up.
 
@@ -349,7 +349,7 @@ Examples:
 
     mean that there is something wrong with your MySQL server settings. You need to send such error message to your hosting team and ask them to fix it.
 
-### 2. Permission checking failed
+### 2. Permission Checking Failed
 
 Such error messages may look like this:
 
@@ -395,7 +395,7 @@ There are several examples of error message for better understanding of the proc
 
     this instruction means that all users must have readable and writeable permissions (`chmod 0666`) to all files `(-type f`) inside `/Applications/MAMP/htdocs/xcart/var` folder.
 
-### 3. Disabled functions
+### 3. Disabled Functions
 
 Your hosting company may disable several default PHP functions and X-Cart 5 cannot work while they are disabled. In this case, you will get the error message like this:
 
@@ -407,7 +407,7 @@ The list of disable functions can be different.
 
 In order to solve this issue, you should send the list of disabled PHP functions (`phpinfo, escapeshellcmd, escapeshellarg, openlog, syslog, exec, popen` from the example above) to your hosting team and ask to enable them in your account.
 
-### 4\. Disabled PHP extensions
+### 4\. Disabled PHP Extensions
 
 If you are getting an error message like this: 
 
@@ -426,7 +426,7 @@ it should become
 extension=pdo_mysql.so
 ```
 
-### 5\. HTTPS bouncer is not installed
+### 5\. HTTPS Bouncer is Not Installed
 
 If you are getting an error message like this:
 
