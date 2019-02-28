@@ -7,17 +7,17 @@ title: Royal Mail Service
 order: 227
 published: true
 ---
-X-Cart is integrated with the Royal Mail (the national postal service and courier company in the United Kingdom) via the [Royal Mail Service](https://market.x-cart.com/addons/royal-mail-service.html "Royal Mail Service") module.
+X-Cart is integrated with the Royal Mail (the national postal service and courier company in the United Kingdom) via the addon [Royal Mail Service](https://market.x-cart.com/addons/royal-mail-service.html "Royal Mail Service").
 
-The Royal Mail integration module for X-Cart sends the order information to Royal Mail. There it’s given a tracking ID, shipping and customs labels and RM sends them back to your store. After that, you can label the orders and print out the manifest for the courier.
+The Royal Mail integration addon for X-Cart sends the order information to Royal Mail. There it’s given a tracking ID, shipping and customs labels and RM sends them back to your store. After that, you can label the orders and print out the manifest for the courier.
 
-To start working with the module make sure the Royal Mail Service is installed and enabled as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To start working with the addon make sure the Royal Mail Service is installed and enabled as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 ![installed.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/installed.png)
 
 ## Configuring Royal Mail Services
 
-Proceed to the module settings page (**Store setup** -> **Royal Mail**) to configure it:
+Proceed to the addon settings page (**Store setup** -> **Royal Mail**) to configure it:
 
 ![settings-page.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/settings-page.png)
 
@@ -42,13 +42,13 @@ To add a new relation click the **Add relation** button and select the values fr
 **Save** the changes when you are done.
 
 {% note info %}
-Royal Mail Services doesn't have an API facilitating online shipping rates calculation. Hence the Royal Mail Services module can't be used for calculating online shipping rates at checkout, but only for shipping orders via the Royal Mail Services. 
+Royal Mail Services doesn't have an API facilitating online shipping rates calculation. Hence the Royal Mail Services addon cannot be used for calculating online shipping rates at checkout, but only for shipping orders via the Royal Mail Services. 
 
 Please make sure you have {% link "offline shipping rates" ref_3TG6AuN0 %} configured in conjunction with the Royal Mail rates and relations you set up to offer shipping calculation at checkout to your customers.
 ![checkout.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/checkout.png)
 {% endnote %}
 
-## Shipping orders via Royal Mail Services
+## Shipping Orders via Royal Mail Services
 
 RM shipment for an order is created automatically on the Royal Mail server when the order gets a {% link "PAID payment or a PROCESSING fulfilment statuses" ref_DkbTi1qJ %}. If the order status is changed back to NEW the existing RM shipment is cancelled automatically as well.
 
