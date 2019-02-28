@@ -118,7 +118,7 @@ Below is a list of supported fields and their respective value types for the imp
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
   <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Color Swatches</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Fields added by the addon <strong>Color Swatches</strong> </em>
       </td>
     </tr>
   <tr>
