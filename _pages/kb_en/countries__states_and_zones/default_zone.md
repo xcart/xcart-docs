@@ -13,4 +13,4 @@ Before you have configured any zones, your store already has one zone - the one 
 
 The first time you choose to view the details of the "All Addresses" zone, this zone will look empty, though in fact it is not: by default, this zone includes all the addresses in the world. It does not have to remain that way: the "All Addresses" zone only needs to include regions to which you will market your products; if you do not intend to sell literally to anyone from any country in the world, you should edit this zone to narrow it down just to the regions or territories corresponding to the area you will serve. For instance, if you add "Germany" to the "All Addresses" zone, this zone will be applied only to addresses in Germany.
 
-For more info on the zones set-up please refer to {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
+For more info on the zones set-up please refer to {% link "Setting up Address Zones" ref_r68iO5Rm %}
