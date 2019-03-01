@@ -11,11 +11,11 @@ A second tool of the Webmaster mode is **Custom CSS**. This tool is aimed at cha
 
 {% toc %}
 
-## Adding Custom CSS code to the site.
+## Adding Custom CSS Code to the Site
 
 All changes that are applied through the **Custom CSS** tool facilities are applied storewide (i.e. to a store as a whole, but not to a single page of a store) and are recorded in the **Look and Feel** > **Custom CSS & JS** section of your store admin area. 
 
-### Adding Custom CSS code in the Admin area
+### Adding Custom CSS Code in the Admin Area
 
 To add Custom CSS code:
 
@@ -26,7 +26,7 @@ To add Custom CSS code:
    ![code_deleted_1.png]({{site.baseurl}}/attachments/ref_10vugyja/code_deleted_1.png)
 4. **Save** the changes.
 
-### Adding Custom CSS code in the storefront
+### Adding Custom CSS Code in the Storefront
 
 If you need to see the changes while you are adding them, use the **Webmaster mode** -> **Custom CSS** tool in the store frontend. 
 
@@ -86,7 +86,7 @@ If we change #f7fcff to #F5F5DC the background will look as follows:
 
 You can use the demo css code to learn how to apply similar changes to your store skin. 
 
-## Adding JS code to the site
+## Adding JS Code to the Site
 
 It's also possible to add javascrips to your site. 
 
