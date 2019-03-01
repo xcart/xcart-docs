@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-16 14:34 +0400'
 identifier: ref_7B8smyEx
-title: Setting vendor commissions
+title: Setting Vendor Commissions
 order: 350
 published: true
 ---
