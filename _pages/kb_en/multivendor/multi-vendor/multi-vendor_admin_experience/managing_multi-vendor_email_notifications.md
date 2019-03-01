@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-30 18:40 +0400'
 identifier: ref_7DW1NMak
-title: Managing Multi-vendor email notifications
+title: Managing Multi-vendor Email Notifications
 order: 250
 published: true
 ---
@@ -52,6 +52,6 @@ The store administrator should also check the E-Mail transfer settings section (
 
 _Related pages:_
    
-   * {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-   * {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
-   * {% link "eMail Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}
+   * {% link "Multi-vendor: Admin Experience" ref_6kbIUy5R %}
+   * {% link "Multi-vendor Getting Started for Admin" ref_5saLJNod %}
+   * {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}
