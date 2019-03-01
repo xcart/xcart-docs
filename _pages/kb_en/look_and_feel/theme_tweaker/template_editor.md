@@ -21,7 +21,7 @@ If you don't feel confident to apply the changes yourself [contact us](https://w
 We are always at your disposal!
 {% endnote %}
 
-## How to change an element's position?
+## How to Change the Position of an Element
 
 We'll take an Invoice page as an example. You can use the tips from this article to make an invoice look different for a customer and an admin.
    
@@ -104,7 +104,7 @@ The changed template will be automatically renamed from _common/order/invoice/pa
      
 If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to its default look.
      
-### Sample N2: Edit e-mail notification
+### Sample N2: Edit email notification
 
 The second way to change an invoice is to edit the e-mail notification that a customer and an admin receive after an order is placed.
      
@@ -137,7 +137,7 @@ Click on it and a random invoice will be opened in a new tab.
 Once the changes are applied the invoice page looks as follows:
 ![deleted.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/deleted.png)
     
-## How to add a new element?
+## How to Add a New Element
 
 As you may have already noticed the default CrispWhite skin unlike default Standard skins doesn't show a country flag near to the country name in the store front-end. Let's check how we can change it.
 
