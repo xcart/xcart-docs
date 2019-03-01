@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 16:26 +0400'
 identifier: ref_r4mcwiho
-title: Managing the catalog as a vendor
+title: Managing the Catalog as a Vendor
 categories:
   - User manual
 published: true
@@ -24,7 +24,7 @@ then enter information about the product using the form provided:
 
 ![xc5_mv_vendor_add_product1.png]({{site.baseurl}}/attachments/ref_r4mcwiho/xc5_mv_vendor_add_product1.png)
 
-More info about the process can be found in the article {% link "Adding products" ref_fhzzxDTy %}. 
+More info about the process can be found in the article {% link "Adding Products" ref_fhzzxDTy %}. 
 
 The entered product information needs to be saved by clicking the **Add product** button at the bottom of the page.
 
@@ -43,10 +43,9 @@ Note, however, that vendor's catalog management capabilities are different from 
 
 *   Unlike administrators with the role "Administrator", vendors can view and manage only their own products: any products added by other users are not visible to them.
 *   Unlike administrators with the role "Administrator", vendors do not have access to category management. They cannot create categories by themselves and can only add their products to categories created by the store administrator. If the store's list of categories is lacking a category that a vendor requires, they need to contact the store administrator to resolve this problem.
-*   Vendors can assign product classes and attribute values added by the store administrator to their own products. Depending on the way the store is configured, vendors may also be able to add their own product classes and attribute values. More information about this is available in the section {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %} of this manual.
+*   Vendors can assign product classes and attribute values added by the store administrator to their own products. Depending on the way the store is configured, vendors may also be able to add their own product classes and attribute values. More information about this is available in the section {% link "Vendor Access to Product Classes and Attributes" ref_TvmooKW9 %} of this manual.
 
 _Related pages:_
 
-   *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
-   *   {% link "Vendor login and first steps" ref_SZycMdTx %}
-   
+   *   {% link "Multi-vendor: Vendor Experience" ref_COgF04Tz %}
+   *   {% link "Vendor Login and First Steps" ref_SZycMdTx %}
