@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-04-27 21:05 +0400'
 identifier: ref_Q16T5ZnW
-title: Vendor access to orders and statistics
+title: Vendor Access to Orders and Statistics
 categories:
   - User manual
 published: true
@@ -49,6 +49,5 @@ Vendors can also track the movement of the money from the sales of their product
 
 _Related pages:_
 
-   *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
-   *   {% link "Vendor login and first steps" ref_SZycMdTx %}
-   
+   *   {% link "Multi-vendor: Vendor Experience" ref_COgF04Tz %}
+   *   {% link "Vendor Login and First Steps" ref_SZycMdTx %}
