@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-10 00:21 +0400'
 identifier: ref_zyQIOcia
-title: 'Uploading custom images onto your store&#39;s server'
+title: 'Uploading Custom Images onto Your Store&#39;s Server'
 categories:
   - User manual
 published: false
