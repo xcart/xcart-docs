@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 16:25 +0400'
 identifier: ref_b7PTQMgf
-title: Managing vendor profile information as a vendor
+title: Managing Vendor Profile Information as a Vendor
 categories:
   - User manual
 published: true
