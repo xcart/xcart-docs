@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-04-15 09:20 +0400'
 identifier: ref_fxTL6F2z
-title: 'Multi-vendor: Customer experience'
+title: 'Multi-vendor: Customer Experience'
 categories:
   - User manual
 published: true
@@ -11,8 +11,6 @@ order: 300
 redirect_from:
   - /modules/multi-vendor/multi-vendor_customer_experience.html
 ---
-
-
 In a multi-vendor X-Cart 5 store, the storefront provides a **Vendors** menu from which store visitors can access the profile and products of specific vendors:
 
 ![xc5_mv_vendor_list_in_sidebar.png]({{site.baseurl}}/attachments/ref_fxTL6F2z/xc5_mv_vendor_list_in_sidebar.png)
@@ -44,4 +42,4 @@ In the "Warehouse" multivendor mode, the buyer gets a single order invoice. In 
 
 _Related pages:_
 
-*   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
+*   {% link "Multi-vendor: Admin Experience" ref_6kbIUy5R %}
