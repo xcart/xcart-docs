@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-15 19:42 +0400'
 identifier: ref_41fyOJ9F
-title: Managing the vendor registration page
+title: Managing the Vendor Registration Page
 order: 100
 published: true
 ---
@@ -13,5 +13,5 @@ The store administrator can change the welcome text to be displayed on the page 
 
 _Related pages:_
    
-   *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-   *  {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
+   *  {% link "Multi-vendor: Admin Experience" ref_6kbIUy5R %}
+   *  {% link "Multi-vendor Getting Started for Admin" ref_5saLJNod %}
