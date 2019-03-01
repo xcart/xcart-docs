@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 16:28 +0400'
 identifier: ref_IvXmtLKI
-title: Managing shipping methods as a vendor
+title: Managing Shipping Methods as a Vendor
 categories:
   - User manual
 published: true
@@ -23,6 +23,5 @@ Depending on the {% link "multivendor mode" ref_nFq48dhr#ConfiguringtheMulti-ven
 
 _Related pages:_
 
-   *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
-   *   {% link "Vendor login and first steps" ref_SZycMdTx %}
-   
+   *   {% link "Multi-vendor: Vendor Experience" ref_COgF04Tz %}
+   *   {% link "Vendor Login and First Steps" ref_SZycMdTx %}
