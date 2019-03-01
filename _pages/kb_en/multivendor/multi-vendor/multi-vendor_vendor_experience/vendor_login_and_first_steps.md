@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2015-11-13 00:00'
 identifier: ref_SZycMdTx
-title: Vendor login and first steps
+title: Vendor Login and First Steps
 categories:
   - User manual
 published: true
@@ -15,7 +15,7 @@ redirect_from:
 
 From the viewpoint of X-Cart 5 user access levels, a vendor user is an administrator with the role "Vendor". This means that vendors are allowed to log in to the store's back end, but have access only to a limited set of features (This is called a "Vendor area").
 
-After a vendor account has been registered (see {% link "Vendor registration" ref_SkW62BgH %}), the vendor can log in to their personal Vendor area using any user login form in the store. For example, they can use:
+After a vendor account has been registered (see {% link "Vendor Registration" ref_SkW62BgH %}), the vendor can log in to their personal Vendor area using any user login form in the store. For example, they can use:
 
    * the regular Sign in/Sign up form for customers, 
    * the URL for administrator users: `https://<your-domain>/<x-cart-5-directory>/admin.php?target=login`
@@ -56,11 +56,11 @@ Now the vendor can start selling. The steps below will get them started:
 
 _Related pages:_
 
-   * {% link "Vendor registration" ref_SkW62BgH %}
-   * {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}
-   * {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
-   * {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
-   * {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
-   * {% link "Vendor import/export" ref_pa3oqbXz %}
+   * {% link "Vendor Registration" ref_SkW62BgH %}
+   * {% link "Managing Vendor Profile Information as a Vendor" ref_b7PTQMgf %}
+   * {% link "Managing the Catalog as a Vendor" ref_r4mcwiho %}
+   * {% link "Managing Vendor Shipping Methods" ref_IvXmtLKI %}
+   * {% link "Vendor Access to Orders and Statistics" ref_Q16T5ZnW %}
+   * {% link "Vendor Import/Export" ref_pa3oqbXz %}
    * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
    * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}
