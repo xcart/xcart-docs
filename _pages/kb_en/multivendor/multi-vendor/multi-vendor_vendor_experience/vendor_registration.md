@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-04-14 15:53 +0400'
 identifier: ref_SkW62BgH
-title: Vendor registration
+title: Vendor Registration
 categories:
   - User manual
 published: true
