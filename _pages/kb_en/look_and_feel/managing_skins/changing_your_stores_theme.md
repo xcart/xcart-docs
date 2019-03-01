@@ -24,6 +24,6 @@ In the _Layout_ section of the page you can see the skin that is currently insta
 To change the store skin choose the one you like better in the _Choose a new template_ section (the current skin will be highlighted with an orange border, the new one with blue) and click the **Submit** button. 
 
 {% note info %}
-If the _Layout_ part of the page is inactive check that the **Color Schemes** addon is enabled in the **My Addons** section.
+If the _Layout_ part of the page is inactive check that the **Color Schemes** addon is enabled in the **My addons** section.
     ![templates-color-schemes.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/templates-color-schemes.png)
 {% endnote %}
