@@ -23,7 +23,7 @@ The Footer menu - in the bottom part of each page of the storefront:
 ![menus-footer.png]({{site.baseurl}}/attachments/ref_BDykFBbw/menus-footer.png)
 
 {% note warning %}
-Before you get started with this task, make sure that you have the **Simple CMS** module installed and enabled. If not, {% link "install and activate it" ref_Vn1mMUw9 %}.
+Before you get started with this task, make sure that you have the addon **Simple CMS** installed and enabled. If not, {% link "install and activate it" ref_Vn1mMUw9 %}.
 ![]({{site.baseurl}}/attachments/6389788/7602615.png)
 {% endnote %}
 
@@ -63,7 +63,7 @@ The menu item will be added. You should now be able to see it on the storefront:
 
 _Related pages:_
 
-*   {% link "Adding pages to your store" ref_Ptf5vaPn %}
-*   {% link "Changing the Terms and conditions page" ref_r5b4EKhF %}
+*   {% link "Adding Pages to Your Store" ref_Ptf5vaPn %}
+*   {% link "Changing the Terms and Conditions Page" ref_r5b4EKhF %}
 *   {% link "Adding a New Page in X Cart 5: Tutorial by Mike White" ref_dycXnOI1 %}
-*   {% link "Advanced menu management with Extended Simple CMS" ref_aWT2i7z1 %}
+*   {% link "Advanced Menu Management with Extended Simple CMS" ref_aWT2i7z1 %}
