@@ -7,7 +7,6 @@ title: Managing Navigation Elements
 order: 600
 published: true
 ---
-
 _In this section:_
 
 *  {% link "Adding New Items to Store Menus" ref_BDykFBbw %}
