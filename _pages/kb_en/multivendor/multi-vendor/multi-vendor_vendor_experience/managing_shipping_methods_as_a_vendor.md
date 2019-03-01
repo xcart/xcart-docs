@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 16:28 +0400'
 identifier: ref_IvXmtLKI
-title: Managing shipping methods as a vendor
+title: Managing Shipping Methods as a Vendor
 categories:
   - User manual
 published: true
