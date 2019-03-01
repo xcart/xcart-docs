@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-04-14 15:55 +0400'
 identifier: ref_nFq48dhr
-title: Configuring the Multi-vendor addon
+title: Configuring the Multi-vendor Addon
 categories:
   - User manual
 published: true
@@ -109,6 +109,6 @@ To configure the module:
 
 _Related pages:_
 
-*   {% link "Multi-vendor module: system requirements and installation" ref_MRQEvicQ %}
-*   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-*   {% link "Vendor registration" ref_SkW62BgH %}
+*   {% link "Multi-vendor: System Requirements and Installation" ref_MRQEvicQ %}
+*   {% link "Multi-vendor: Admin Experience" ref_6kbIUy5R %}
+*   {% link "Vendor Registration" ref_SkW62BgH %}
