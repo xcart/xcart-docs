@@ -14,7 +14,7 @@ redirect_from:
   - >-
     /multivendor/multi-vendor/multi-vendor_vendor_experience/managing_vendor_profile_information.html
 ---
-## Account details
+## Account Details
 A vendor user can access the general information about their account and edit their account email address and password via the Account details section. This section can be accessed using one of the following methods:
 
    * By clicking on the user icon in the header of the store's back end and selecting **My profile**:
@@ -24,13 +24,13 @@ A vendor user can access the general information about their account and edit th
      ![xc5_mv_vendor_account_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_account_details.png)
 
 
-## Address book
+## Address Book
 A vendor can specify their name and address(es) in the Address book section (**My account**>**Account details**, **Address book** tab):
      ![xc5_mv_vendor_address_book.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_address_book.png)
 
 Note that this section is intended for the personal address(es) of the seller; this information will not be shared with the buyers. The address that will be used to calculate the cost of shipping from the vendor's warehouse to the buyer in the "Vendors as separate shops" multivendor mode should be specified in the Company address section (**My account** > **Company address**). 
 
-## Company details
+## Company Details
 A vendor should provide general information about their business in the **Company details** section:
      ![xc5_mv_vendor_company_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_company_details.png)
 
@@ -40,11 +40,11 @@ A vendor should provide general information about their business in the **Compa
    * **Location**: Vendor location.
    * **Description**: Vendor description for the vendor profile page.
     
-## Company address
+## Company Address
 A vendor should specify their company address. The vendor company address may be specified during vendor registration or entered directly in the Company address section of the Vendor area (**My account** > **Company address**). In the "Vendors as separate shops" multivendor mode, this address is used to calculate the cost of shipping from the vendor's warehouse to the buyer.  
      ![xc5_mv_my_account_vendor_company_address.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_my_account_vendor_company_address.png)
 
-## Financial details
+## Financial Details
 A vendor can view and manage the financial information regarding their account via the **Financial details** section (**My account** > **Financial details**):
      ![xc5_mv_vendor_financial_details.png]({{site.baseurl}}/attachments/ref_b7PTQMgf/xc5_mv_vendor_financial_details.png)
      
@@ -54,5 +54,5 @@ Also, the vendor can use this section to specify an account that they wish to us
 
 _Related pages:_
 
-   *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
-   *   {% link "Vendor login and first steps" ref_SZycMdTx %}
+   *   {% link "Multi-vendor: Vendor Experience" ref_COgF04Tz %}
+   *   {% link "Vendor Login and First Steps" ref_SZycMdTx %}
