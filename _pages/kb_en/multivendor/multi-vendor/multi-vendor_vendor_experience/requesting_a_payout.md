@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-30 18:15 +0400'
 identifier: ref_6yngv3DQ
-title: Requesting a payout of one's earnings as a vendor
+title: Requesting a Payout of One's Earnings as a Vendor
 order: 200
 published: true
 ---
@@ -24,5 +24,5 @@ Once the store administrator approves or declines the payout request, the inform
 
 _Related pages:_
 
-   *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
-   *   {% link "Vendor login and first steps" ref_SZycMdTx %}
+   *   {% link "Multi-vendor: Vendor Experience" ref_COgF04Tz %}
+   *   {% link "Vendor Login and First Steps" ref_SZycMdTx %}
