@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-15 20:25 +0400'
 identifier: ref_4mvK1AKz
-title: Viewing vendor statistics
+title: Viewing Vendor Statistics
 order: 400
 published: true
 ---
