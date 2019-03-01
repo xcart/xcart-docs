@@ -15,7 +15,7 @@ Although each skin is different, all of them have some common features. All skin
 
 A combination of page elements and page types make up a theme's structure.
 
-## Page elements
+## Page Elements
 
 All pages of a skin include these page elements:
 
@@ -26,7 +26,7 @@ All pages of a skin include these page elements:
 |Navigation| A menu or a block of menus that provide a way for customers to explore or move around your online store. The main menu navigation is included in the header of a skin.|
 |Footer|The content area that appears at the bottom of every page of your store. The footer might include menus, social media icons, contact information, or a newsletter signup.| 
 
-## Page types
+## Page Types
 
 X-Cart uses 2 main page types - static pages and dynamic pages.
 
