@@ -23,5 +23,5 @@ To change the access permissions of a vendor, the administrator can either chang
 
 _Related pages:_
    
-   *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-   *  {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
+   *  {% link "Multi-vendor: Admin Experience" ref_6kbIUy5R %}
+   *  {% link "Multi-vendor Getting Started for Admin" ref_5saLJNod %}
