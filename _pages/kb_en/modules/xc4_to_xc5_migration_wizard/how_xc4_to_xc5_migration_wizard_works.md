@@ -21,7 +21,7 @@ published: true
           <br><span>&nbsp;</span>
           <br>*   Contact Us (If your X-Cart 4 database contains an entry for contact_us, the Migration wizard requests that the addon "Contact Us" should be enabled in X-Cart 5; your X-Cart 4 store's Contact Us form settings are not checked and not migrated to X-Cart 5);
           <br><span>&nbsp;</span>
-          <br>*   CleanURLs (If your X-Cart 4 store has the Clean URLs feature enabled, the Migration wizard automatically enables Clean URLs in X-Cart 5.)&nbsp;</p>
+          <br>*   SEO-friendly URLs (If your X-Cart 4 store has the Clean URLs feature enabled, the Migration wizard automatically enables SEO-friendly URLs in X-Cart 5.)&nbsp;</p>
       </td>
     </tr>
     <tr class="top aligned">
@@ -37,7 +37,7 @@ published: true
       <td colspan="1" class="confluenceTd"><span>Products</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>All the general info, images and Clean URLs for the following entities:
+        <p>All the general info, images and SEO-friendly URLs for the following entities:
           <br><span>&nbsp;</span>
           <br>*   Bestsellers (If the feature is used in X-Cart 4, the Migration wizard requires that the addon "Bestsellers" should be enabled in X-Cart 5; your X-Cart 4 store's Bestsellers settings are not checked and not migrated to X-Cart 5);
           <br><span>&nbsp;</span>
@@ -68,7 +68,7 @@ published: true
       <td colspan="1" class="confluenceTd"><span>Categories</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>All the general info, images and Clean URLs for the following entities:
+        <p>All the general info, images and SEO-friendly URLs for the following entities:
           <br><span>&nbsp;</span>
           <br>*   International descriptions;
           <br><span>&nbsp;</span>
