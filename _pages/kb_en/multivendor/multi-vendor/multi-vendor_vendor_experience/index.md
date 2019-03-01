@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2015-12-21 00:00'
 identifier: ref_COgF04Tz
-title: 'Multi-vendor: Vendor experience'
+title: 'Multi-vendor: Vendor Experience'
 categories:
   - User manual
 published: true
@@ -13,12 +13,12 @@ redirect_from:
 ---
 _In this section:_
 
-*   {% link "Vendor registration" ref_SkW62BgH %}
-*   {% link "Vendor login and first steps" ref_SZycMdTx %}
-*   {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}
-*   {% link "Managing the catalog as a vendor" ref_r4mcwiho %}
-*   {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %}
-*   {% link "Managing shipping methods as a vendor" ref_IvXmtLKI %}
-*   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
-*   {% link "Vendor import/export" ref_pa3oqbXz %}
-*   {% link "Requesting a payout of one's earnings as a vendor" ref_6yngv3DQ %}
+*   {% link "Vendor Registration" ref_SkW62BgH %}
+*   {% link "Vendor Login and First Steps" ref_SZycMdTx %}
+*   {% link "Managing Vendor Profile Information as a Vendor" ref_b7PTQMgf %}
+*   {% link "Managing the Catalog as a Vendor" ref_r4mcwiho %}
+*   {% link "Vendor Access to Product Classes and Attributes" ref_TvmooKW9 %}
+*   {% link "Managing Shipping Methods as a Vendor" ref_IvXmtLKI %}
+*   {% link "Vendor Access to Orders and Statistics" ref_Q16T5ZnW %}
+*   {% link "Vendor Import/Export" ref_pa3oqbXz %}
+*   {% link "Requesting a Payout of One's Earnings as a Vendor" ref_6yngv3DQ %}
