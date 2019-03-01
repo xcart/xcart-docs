@@ -10,9 +10,9 @@ redirect_from:
   - /look_and_feel/playing_with_menus/index.html
 ---
 
-Categories representation in the default X-Cart 5 layout is rather straightforward - a list of categories in the left-hand column on every page. The free {% link "Flyout Categores Menu" ref_6KutUhlR %} module that is available in all X-Cart 5 editions (Business, Multivendor and Ultimate) extends the default representation with a vertical drop-down menu for the categories list.
+Categories representation in the default X-Cart 5 layout is rather straightforward - a list of categories in the left-hand column on every page. The free addon {% link "Flyout Categores Menu" ref_6KutUhlR %} that is available in all X-Cart 5 editions (Business, Multivendor and Ultimate) extends the default representation with a vertical drop-down menu for the categories list.
 
-If necessary the default categories representation can be transformed into horizontal menus as described in {% link "Managing the Category Block Representation" ref_3aUJrW2c %}. But if you don't want to play with the default menus to configure them this way and need a more robust solution that will add extra facilities to the store or change the categories representation drastically use one of the following modules:
+If necessary the default categories representation can be transformed into horizontal menus as described in {% link "Managing the Category Block Representation" ref_3aUJrW2c %}. But if you don't want to play with the default menus to configure them this way and need a more robust solution that will add extra facilities to the store or change the categories representation drastically use one of the following addons:
 
 * {% link "Horizontal Flyout Categories Menu" ref_1mFs8c7N %}
 
@@ -24,4 +24,4 @@ If necessary the default categories representation can be transformed into horiz
   
 * {% link "Tree-like Categories Menu" ref_3DV2eqp1 %}
 
-  Transforms the default fly-out category structure into a tree structure
+  Transforms the default fly-out category structure into a tree structure.
