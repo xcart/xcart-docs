@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 16:29 +0400'
 identifier: ref_pa3oqbXz
-title: Vendor import/export
+title: Vendor Import/Export
 categories:
   - User manual
 published: true
@@ -32,6 +32,5 @@ Using the **vendor** column in the import CSV file is not mandatory: even if a 
 
 _Related pages:_
 
-   *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
-   *   {% link "Vendor login and first steps" ref_SZycMdTx %}
-   
+   *   {% link "Multi-vendor: Vendor Experience" ref_COgF04Tz %}
+   *   {% link "Vendor Login and First Steps" ref_SZycMdTx %}
