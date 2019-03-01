@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-15 10:41 +0400'
 identifier: ref_6OTbIwfd
-title: Managing vendors
+title: Managing Vendors
 order: 200
 published: true
 ---
@@ -28,7 +28,7 @@ If needed, before approving a vendor profile, the administrator may want to re-a
 
 Note that approving or rejecting a vendor application triggers an email notification to the applicant (This is enabled by the "Vendor account approved" or "Vendor account rejected" {% link "email notifications" ref_7DW1NMak %}).
 
-## Adding new vendors via the Admin area
+## Adding New Vendors via the Admin Area
 
 The store administrator can create user profiles for vendor users via the Users section of the store's Admin area.
 
@@ -44,18 +44,18 @@ With this method, a new vendor user is created right away:
 
 The new vendor can log in and start selling immediately after the creation of their profile.
 
-## Editing vendor profile information
+## Editing Vendor Profile Information
 
 If a vendor requests a change of their profile information (for example, if the vendor is selling their business, and the change of the business owner needs to be reflected in the vendor profile details), the store administrator can edit the respective vendor profile via the Users section of the store's Admin area.
 ![xc5_multi-vendor_admin_access2vendorprofile.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_admin_access2vendorprofile.png)
 
 For details on the management of vendor profile information, see {% link "Managing vendor profile information as an administrator" ref_5cbH2V3e %}
 
-## Terminating a vendor's user session
+## Terminating a Vendor's User Session
 If the store administrator needs to force a logout of a vendor, they can terminate the user session of that vendor the same way as that of any other user in the store - by chosing the "Logout this user" option from the **Profile actions** selector in the vendor's profile:
 ![xc5_mv_log_out_vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_log_out_vendor.png)
 
-## "Log in as this vendor"
+## "Log in as This Vendor"
 If the store administrator needs to access the Vendor area of a vendor (for example, to see what information is available to the vendor, to help the vendor with a certain task or to investigate some kind of problem), they can sign in to that Vendor area using the "Log in as this vendor" feature (available via the **Profile actions** selector in the vendor's profile):
 ![xc5_mv_log_in_as_vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_log_in_as_vendor.png)
 
@@ -64,20 +64,20 @@ Since vendor users are, technically, administrators with limited access, "Log in
 The user session which the administrator was using gets terminated.
 To quit using the Vendor area as a vendor, the administrator needs to sign out.
 
-## Exporting vendor profile information
+## Exporting Vendor Profile Information
 If the information from the profiles of some or all of the store's vendors needs to be used outside the X-Cart store (for example, if the store owner wants to have this information in a spreadsheet editor or wishes to use it in some kind of other external application), the store administrator should consider exporting vendor profile information from the X-Cart store to a CSV file:
 ![xc5_multi-vendor_export.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_export.png)
 
-## Removing vendors
+## Removing Vendors
 If the access of any existing vendor to the marketplace needs to be discontinued, the store administrator can remove their user profile via the Users section of the store's Admin area:
 ![xc5_multi-vendor_removal.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_removal.png)
 
-## Converting existing customers to vendors
+## Converting Existing Customers to Vendors
 If an existing registered customer user wants to become a vendor, the store administrator can convert their existing customer account to vendor. To complete the task, the administrator needs to find the customer (the one that needs to be converted) in the Admin area, open their profile for editing and use the option to convert the customer to vendor (_"Convert to vendor"_)  available via the **Profile actions** selector:
 ![xc5_mv_customer_convert2vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_customer_convert2vendor.png)
 
 
 _Related pages:_
    
-   *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-   *  {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
+   *  {% link "Multi-vendor: Admin Experience" ref_6kbIUy5R %}
+   *  {% link "Multi-vendor Getting Started for Admin" ref_5saLJNod %}
