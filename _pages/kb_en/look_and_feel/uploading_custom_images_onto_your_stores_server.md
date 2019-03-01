@@ -12,7 +12,7 @@ redirect_to: /look_and_feel/managing_images.html
 ---
 
 
-Any custom images that you want to use in your X-Cart store can be stored on the same server where your X-Cart software is installed. To upload your custom images onto this server, use the **Simple CMS** module. Before you continue, make sure the module **Simple CMS** is installed and enabled in your store.
+Any custom images that you want to use in your X-Cart store can be stored on the same server where your X-Cart software is installed. To upload your custom images onto this server, use the addon **Simple CMS**. Before you continue, make sure the addon **Simple CMS** is installed and enabled in your store.
 
 ![]({{site.baseurl}}/attachments/8749761/8717800.png)
 
@@ -30,5 +30,5 @@ To upload an image:
 
 _Related pages:_
 
-*   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
-*   {% link "Changing your store's Welcome text and banner on the Front page" ref_Id69E4GT %}
+*   {% link "Adding Images to Product/Category Descriptions" ref_VtuUJTh5 %}
+*   {% link "Changing Your Store's Welcome Text and Banner on the Front Page" ref_Id69E4GT %}
