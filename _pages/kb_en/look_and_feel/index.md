@@ -20,7 +20,7 @@ _In this section:_
 *   {% link "Skin Structure Overview" ref_2qN1oWni %}
 *   {% link "Managing Skins" ref_1yXxbHIW %}
 *   {% link "Basic Skin Changes" ref_3vgykcgf %}
-*   {% link "Managing images" ref_zyQIOcia %}
+*   {% link "Managing Images" ref_zyQIOcia %}
 *   {% link "Theme Tweaker and Webmaster Mode" ref_2L6W3YMS %}
 *   {% link "Managing Content and Service Pages" ref_27dBlUF9 %}
 *   {% link "Managing Page Navigation" ref_4wQjPcoc %}
