@@ -68,5 +68,5 @@ The image will be uploaded:
 
 _Related pages:_
 
-*   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
-*   {% link "Changing your store's Welcome text and banner on the Front page" ref_Id69E4GT %}
+*   {% link "Adding Images to Product/Category Descriptions" ref_VtuUJTh5 %}
+*   {% link "Changing Your Store's Welcome Text and Banner on the Front Page" ref_Id69E4GT %}
