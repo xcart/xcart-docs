@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-13 14:48 +0400'
 identifier: ref_3uy1YgfD
-title: Vendor payouts and tracking the flow of money to and from the vendors
+title: Vendor Payouts and Tracking the Flow of Money to and from the Vendors
 order: 380
 published: true
 ---
@@ -19,7 +19,7 @@ In the case of automated distribution, the transactions reflecting the movement 
 
 Let us take a closer look at how to work on vendor transactions using the Vendor transactions section.
 
-## Viewing vendor transactions
+## Viewing Vendor Transactions
 
 The main content of the Vendor transactions section is a table showing vendor transaction information in the following format:
 
@@ -50,7 +50,7 @@ The store administrator can filter the transaction list by:
 For example, the screenshot below shows transactions filtered by vendor profile:   
    ![xc5_mv_transactions_filtered_by_vendor.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_transactions_filtered_by_vendor.png)
 
-## Creating transactions
+## Creating Transactions
 The store admininstrator can manually create transactions in the Vendor transactions section. The transactions can be used to reflect the movement of funds both to and from the accounts of individual vendors.
 
 Typically the store admininstrator pays out money to vendors based on payout requests. However, a payout request is not a requirement: the store administrator can create any type of transaction at any time, including payout transactions. For example, the store owner and the vendor can communicate and agree on the amount to be paid out to the vendor using personal communication outside X-Cart, and the administrator will be able to register such a transaction in X-Cart by manually creating a transaction using the method described below. 
@@ -59,7 +59,7 @@ Similarly, the administrator will be able to create transactions for partial ref
 
 To manually register a transaction in the X-Cart Admin area, the store administrator needs to click the **Create transaction** button. This adds a new line in the transactions table. The administrator must select the vendor profile to which the transaction pertains, provide a description that will allow both the vendor and themselves to identify this transaction at a later time, and adjust the Income/Expense fields as needed. Once they are done, they need to click **Save changes** to save the transaction. The transaction will be saved, and both the administrator and vendor balance will be re-calculated.
 
-## Editing transactions
+## Editing Transactions
 The store administrator can edit the Description, Income and Expense fields of: 
    * manually created transactions;
    * payout request transactions.
@@ -67,7 +67,7 @@ To edit a transaction, the administrator must click within the field that needs 
 
 Note that the administrator cannot delete previously created transactions. The recommended method of correcting transactions created in error is by creating corrective transactions.
 
-## Handling payout requests
+## Handling Payout Requests
 When a new payout request from a vendor comes in, the store administrator is notified about it by email (This is enabled by the "Vendor request for payment" {% link "email notification" ref_7DW1NMak %}). The administrator can see the request in the Vendor transactions section. A request is a pending transaction; it looks like a regular transaction, but its description says "Request for payout" and it has two buttons - Accept and Decline:
 ![xc5_mv_payout_request_in_admin.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_payout_request_in_admin.png)
 If the administrator wants to make a payout based on a request, they need to use the Accept button. 
@@ -79,5 +79,5 @@ If necessary, the administrator can do a partial payout. This can be done by cre
 
 _Related pages:_
    
-   *  {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-   *  {% link "Multi-vendor getting started for admin" ref_5saLJNod %}
+   *  {% link "Multi-vendor: Admin Experience" ref_6kbIUy5R %}
+   *  {% link "Multi-vendor Getting Started for Admin" ref_5saLJNod %}
