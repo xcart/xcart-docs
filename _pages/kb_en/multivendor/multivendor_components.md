@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 15:49 +0400'
 identifier: ref_MRQEvicQ
-title: Multivendor components
+title: Multivendor Components
 categories:
   - User manual
 published: true
