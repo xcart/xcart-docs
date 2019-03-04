@@ -12,7 +12,7 @@ In a multivendor X-Cart store with the addon **Multiple profiles for vendors** i
 Read on to find out how a vendor can:
 
    * Create a new vendor staff profile.
-      See {% link "Multiple profiles for vendors: Creating new vendor staff profiles" ref_61myPZQD %}
+      See {% link "Multiple Profiles for Vendors: Creating New Vendor Staff Profiles" ref_61myPZQD %}
       
    * Invite a new vendor staff member to log in.
-      See {% link "Multiple profiles for vendors: Inviting new vendor staff members to log in" ref_0wN2KuZB %}
+      See {% link "Multiple Profiles for Vendors: Inviting New Vendor Staff Members to Log in" ref_0wN2KuZB %}
