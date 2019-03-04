@@ -29,5 +29,5 @@ Once a user profile for a new vendor staff member has been created, the vendor n
 
 _Related pages:_
    
-   * {% link "Multiple profiles for vendors: Vendor experience" ref_6X7UpEq6 %}
-   * {% link "Multiple profiles for vendors: Inviting new vendor staff members to log in" ref_0wN2KuZB %}
+   * {% link "Multiple Profiles for Vendors: Vendor Experience" ref_6X7UpEq6 %}
+   * {% link "Multiple Profiles for Vendors: Inviting New Vendor Staff Members to Log in" ref_0wN2KuZB %}
