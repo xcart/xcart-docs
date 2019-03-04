@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-10 22:56 +0400'
 identifier: ref_6jpz9PXe
-title: Activating the Trusted/Non-trusted vendors addon
+title: Activating the Trusted/Non-trusted Vendors Addon
 order: 100
 published: true
 ---
@@ -14,4 +14,4 @@ The administrator of a multivendor X-Cart store can activate the addon **Trusted
 
 _Related pages:_
    
-   * {% link "Trusted/Non-trusted vendors: Admin experience" ref_21Q6x8t3 %}
+   * {% link "Trusted/Non-trusted Vendors: Admin Experience" ref_21Q6x8t3 %}
