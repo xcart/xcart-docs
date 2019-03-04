@@ -47,7 +47,7 @@ For example, here's what the My Addons page in the Admin area looks like after s
 
 Despite the page is opened in German it still contains English words. This happens because in X-Cart 5 pieces of text like names of sections of the user interface, various notes, comments and error messages are all stored as text labels. A text label has a name by which it can be referenced from the template or program code and one or more “translations”. A translation is a value of the label defined for a specific language. When a piece of text needs to be displayed on a page, X-Cart selects the respective text label from the database and determines which of its translations needs to be displayed - according to the language that is currently selected for viewing the page. If, for some reason, the value of the label for the selected language is missing, the label value for the default language is displayed. If the label value for the default language is missing as well, the label name is displayed.
 
-Hence if any translation you installed in the store is not full you can finalize it by editing a respective text label or by changing the text of the chosen page directly in the store interface.
+Hence if any translation you installed in the store is not full you can {% link "finalize it" ref_2CQ8HuY4 %} by editing a respective text label or by changing the text of the chosen page directly in the store interface.
 
 _Related pages:_
 
