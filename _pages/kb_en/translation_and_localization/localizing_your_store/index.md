@@ -29,5 +29,5 @@ The aim of localization is to give a site the look and feel of having been creat
 _In this section:_
 *  {% link "Configuring Units of Measure and Date Formats" ref_25Pj9ESi %}
 *  {% link "Configuring Currency" ref_2dx6iFtL %}
-*  {% link "Getting compliant with EU General Data Protection Regulation (GDPR)" ref_6VMSNqoq %}
-*  {% link "Getting compliant with the EU Cookie Law" ref_IOt4rapT %}
+*  {% link "Getting Compliant with EU General Data Protection Regulation (GDPR)" ref_6VMSNqoq %}
+*  {% link "Getting Compliant with the EU Cookie Law" ref_IOt4rapT %}
