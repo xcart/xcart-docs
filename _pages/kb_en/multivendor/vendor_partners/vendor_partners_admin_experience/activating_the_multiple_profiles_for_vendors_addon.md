@@ -14,4 +14,4 @@ The administrator of a multivendor X-Cart store can activate the addon **Multipl
 
 _Related pages:_
    
-   * {% link "Multiple profiles for vendors: Admin experience" ref_7EtCK0bR %}
+   * {% link "Multiple Profiles for Vendors: Admin Experience" ref_7EtCK0bR %}
