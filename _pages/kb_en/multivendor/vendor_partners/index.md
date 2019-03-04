@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-19 17:37 +0400'
 identifier: ref_3le6s8jL
-title: Multiple profiles for vendors
+title: Multiple Profiles for Vendors
 order: 400
 published: true
 ---
@@ -11,6 +11,6 @@ published: true
 
 _In this section:_
    
-   * {% link "Multiple profiles for vendors: Admin experience" ref_7EtCK0bR %}
-   * {% link "Multiple profiles for vendors: Vendor experience" ref_6X7UpEq6 %}
-   * {% link "Multiple profiles for vendors: Vendor staff experience" ref_6cuZfAKJ %}
+   * {% link "Multiple Profiles for Vendors: Admin Experience" ref_7EtCK0bR %}
+   * {% link "Multiple Profiles for Vendors: Vendor Experience" ref_6X7UpEq6 %}
+   * {% link "Multiple Profiles for Vendors: Vendor Staff Experience" ref_6cuZfAKJ %}
