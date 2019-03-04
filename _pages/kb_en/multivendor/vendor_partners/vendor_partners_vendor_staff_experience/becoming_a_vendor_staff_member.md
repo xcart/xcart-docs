@@ -19,9 +19,9 @@ After submitting a password and a password confirmation, the user is thanked for
 
 To accept the invitation, the new staff member needs to clicks the **Confirm** button. When this happens, the store administrator can see that the invitation was accepted.
 
-Now the new vendor staff member can log in to the working area of the vendor who invited them and begin their work. The scope of resources available to the new vendor staff member will depend on whether the vendor has given them full or limited access. More information on vendor staff access levels is available in the section {% link "Multiple profiles for vendors: Staff member access levels" ref_2RWVrO1D %} of this manual.
+Now the new vendor staff member can log in to the working area of the vendor who invited them and begin their work. The scope of resources available to the new vendor staff member will depend on whether the vendor has given them full or limited access. More information on vendor staff access levels is available in the section {% link "Multiple Profiles for Vendors: Staff Member Access Levels" ref_2RWVrO1D %} of this manual.
 
 _Related pages:_
    
-   * {% link "Multiple profiles for vendors: Vendor staff experience" ref_6cuZfAKJ %}
-   * {% link "Multiple profiles for vendors: Staff member access levels" ref_2RWVrO1D %}
+   * {% link "Multiple Profiles for Vendors: Vendor Staff Experience" ref_6cuZfAKJ %}
+   * {% link "Multiple Profiles for Vendors: Staff Member Access Levels" ref_2RWVrO1D %}
