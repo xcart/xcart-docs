@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-27 19:35 +0400'
 identifier: ref_5gAf2h1i
-title: Activating the Multiple profiles for vendors addon
+title: Activating the Multiple Profiles for Vendors Addon
 order: 150
 published: true
 ---
