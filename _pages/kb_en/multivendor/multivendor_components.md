@@ -21,10 +21,10 @@ There are also a few other addons recommended for use with X-Cart Multivendor. S
 
 Here's a brief overview of the addons typically used to build a Multivendor store (in addition to the addon **Multi-vendor**):
 
-   * **[Trusted/Non-trusted vendors](https://market.x-cart.com/addons/trusted-vendors.html)**: This addon enables the store administrator to mark vendors as trusted and non-trusted. Any products added by vendors with the status "Trusted vendor" will be visible to your store visitors right away, whereas the products of non-trusted vendors will appear on the storefront only after they have been approved by the administrator. For more information on this addon, see {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}.
+   * **[Trusted/Non-trusted vendors](https://market.x-cart.com/addons/trusted-vendors.html)**: This addon enables the store administrator to mark vendors as trusted and non-trusted. Any products added by vendors with the status "Trusted vendor" will be visible to your store visitors right away, whereas the products of non-trusted vendors will appear on the storefront only after they have been approved by the administrator. For more information on this addon, see {% link "Trusted/Non-trusted Vendors" ref_5c7BY9Rn %}.
      ![tntv_module_installed.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/tntv_module_installed.png)
    
-   * **[Multiple Profiles for Vendors](https://market.x-cart.com/addons/multiple-profiles-for-vendors.html)**: The addon enables existing vendors to create additional user profiles for the staff who help them work on their product catalog, promotions and orders. For more information on this addon, see {% link "Multiple profiles for vendors" ref_3le6s8jL %}.
+   * **[Multiple Profiles for Vendors](https://market.x-cart.com/addons/multiple-profiles-for-vendors.html)**: The addon enables existing vendors to create additional user profiles for the staff who help them work on their product catalog, promotions and orders. For more information on this addon, see {% link "Multiple Profiles for Vendors" ref_3le6s8jL %}.
      ![mvp_module.png]({{site.baseurl}}/attachments/ref_MRQEvicQ/mvp_module.png)
 
    * **[Messages](https://market.x-cart.com/addons/order-messages.html)**: This addon is not just for Multivendor; it can be used on single-seller X-Cart editions just as well. We are listing it here because it provides some Multivendor-specific features when used with the X-Cart Multivendor edition. This addon enhances the communication system in your store by providing an opportunity for the customers, the store administrator and the vendors to start a conversation or dispute about an order right from the Order details page. A well-thought-out notification system ensures that no message will be left unread. In Multivendor, the addon also allows store visitors to start messaging with the sellers before they make a purchase; they can initiate a conversation right on the sellers' pages on the storefront. 
@@ -58,16 +58,16 @@ Here's a brief overview of the addons typically used to build a Multivendor stor
    
 If an addon you are looking to use is not installed in your store, check the X-Cart’s Marketplace.
 
-For general addon installation instructions, see {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+For general addon installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 
 _Related pages:_
    
    * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
    * {% link "Multi-vendor" ref_cvwmAuRi %} (X-Cart addon)
-   * {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %} 
-   * {% link "Multiple profiles for vendors" ref_3le6s8jL %}
-   * {% link "Messages addon: Usage with Multivendor" ref_4Ox4FPDB %}
+   * {% link "Trusted/Non-trusted Vendors" ref_5c7BY9Rn %} 
+   * {% link "Multiple Profiles for Vendors" ref_3le6s8jL %}
+   * {% link "Messages Addon: Usage with Multivendor" ref_4Ox4FPDB %}
    * {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %}
    * {% link "Product Tags: Usage with Multivendor" ref_5zZ0ep58 %} 
    * {% link "Product Filter: Usage with Multivendor" ref_5YMhId62 %} 
