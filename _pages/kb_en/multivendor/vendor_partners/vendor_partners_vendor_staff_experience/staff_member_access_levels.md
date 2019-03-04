@@ -26,4 +26,4 @@ And here is the user interface view of a vendor staff member with limited access
 
 _Related pages:_
    
-   * {% link "Multiple profiles for vendors: Vendor staff experience" ref_6cuZfAKJ %}
+   * {% link "Multiple Profiles for Vendors: Vendor Staff Experience" ref_6cuZfAKJ %}
