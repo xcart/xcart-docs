@@ -27,7 +27,7 @@ To translate menus:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![menus.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus.png)
-)</div>
+</div>
   <div class="column" markdown="span">![menus-german.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus-german.png)
 </div>
 </div>
