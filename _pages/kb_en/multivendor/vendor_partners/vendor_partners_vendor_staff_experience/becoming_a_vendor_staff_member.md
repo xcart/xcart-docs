@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-21 20:35 +0400'
 identifier: ref_06GsE5l1
-title: 'Multiple profiles for vendors: Becoming a vendor staff member'
+title: 'Multiple Profiles for Vendors: Becoming a Vendor Staff Member'
 order: 100
 published: true
 ---
