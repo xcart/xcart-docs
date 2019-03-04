@@ -20,16 +20,16 @@ X-Cart's **Multivendor** edition is an Online Marketplace solution that enables 
 
 _In this section:_
 
-   * {% link "Multivendor components" ref_MRQEvicQ %}
+   * {% link "Multivendor Components" ref_MRQEvicQ %}
    * {% link "Multi-vendor" ref_cvwmAuRi %} (Core component)
-   * {% link "Trusted/Non-trusted vendors" ref_5c7BY9Rn %}
-   * {% link "Multiple profiles for vendors" ref_3le6s8jL %}
+   * {% link "Trusted/Non-trusted Vendors" ref_5c7BY9Rn %}
+   * {% link "Multiple Profiles for Vendors" ref_3le6s8jL %}
    * {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %}
    * {% link "Product Tags: Usage with Multivendor" ref_5zZ0ep58 %} 
    * {% link "Product Filter: Usage with Multivendor" ref_5YMhId62 %}
    * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
    * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}  
-   * {% link "Messages addon: Usage with Multivendor" ref_4Ox4FPDB %} 
+   * {% link "Messages Addon: Usage with Multivendor" ref_4Ox4FPDB %} 
    * {% link "Product Questions: Usage with Multivendor" ref_6GeYbVmv %}
    * {% link "Product Reviews: Usage with Multivendor" ref_7neRIOVI %}  
    * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}
