@@ -12,7 +12,7 @@ In a multivendor X-Cart store with the addon **Multiple profiles for vendors** i
 This section discusses the user experience of vendor staff members:
    
    * How a new user becomes a registered vendor staff member.
-      See {% link "Multiple profiles for vendors: Becoming a vendor staff member" ref_06GsE5l1 %}
+      See {% link "Multiple Profiles for Vendors: Becoming a Vendor Staff Member" ref_06GsE5l1 %}
   
    * What resources will be available to a vendor staff member after registration.
-      See {% link "Multiple profiles for vendors: Staff member access levels" ref_2RWVrO1D %}
+      See {% link "Multiple Profiles for Vendors: Staff Member Access Levels" ref_2RWVrO1D %}
