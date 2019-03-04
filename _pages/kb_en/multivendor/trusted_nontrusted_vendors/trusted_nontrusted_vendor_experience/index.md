@@ -11,6 +11,6 @@ In a multivendor X-Cart store where the storefront operator/store administrator 
 
 Find out how a vendor without the "Trusted vendor" status can:
 
-   * Submit their new products for approval by the storefron operator/store administrator. See {% link "Getting new products approved for publishing" ref_4NXPSgua %}
+   * Submit their new products for approval by the storefron operator/store administrator. See {% link "Getting New Products Approved for Publishing" ref_4NXPSgua %}
      
-   * Find out the publication status of a product. See {% link "Finding out the publication status of a product" ref_34yMnzpr %}
+   * Find out the publication status of a product. See {% link "Finding out the Publication Status of a Product" ref_34yMnzpr %}
