@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-21 20:37 +0400'
 identifier: ref_2RWVrO1D
-title: 'Multiple profiles for vendors: Staff member access levels'
+title: 'Multiple Profiles for Vendors: Staff Member Access Levels'
 order: 100
 published: true
 ---
