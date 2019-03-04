@@ -31,9 +31,9 @@ Further below you will find more information on the use of "Product reviews" wit
 
 More info on using the addon "Product reviews" is available in the {% link "Product Reviews" ref_XBriIS6B %} section of this manual.
 
-## Product reviews: Multivendor-specific configuration 
+## Product Reviews: Multivendor-specific Configuration 
 
-If enabled in a Multivendor X-Cart store, the addon "Product reviews" adds a couple of settings on the Multi-vendor module {% link "settings page" ref_nFq48dhr %}. 
+If enabled in a Multivendor X-Cart store, the addon "Product reviews" adds a couple of settings on the Multi-vendor {% link "settings page" ref_nFq48dhr %}. 
 
 In the section **Appearance**, the settings that require the attention of the store administrator are as follows:
 
@@ -58,7 +58,7 @@ In the section **Privacy and access**, the settings that need to be adjusted by 
    
 These settings enable the store administrator to adjust the permissions that vendor users should have with regard to the ratings and reviews given by customers to their products. (These settings do not, however, provide vendors with a permission to edit or delete their vendor rating). If the store administrator wishes to allow vendors to handle their own ratings and reviews by themselves, they need to make sure the respective options are enabled.
 
-## Product reviews: Customer experience
+## Product Reviews: Customer Experience
 
 With the addon "Product reviews" enabled in the store, customers can leave feedback about their experience purchasing items from a vendor by rating their order. 
 
@@ -74,7 +74,7 @@ The Rate order page looks similar to the following:
    ![xc5_mv_rate_order_page.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_rate_order_page.png)
 Note that if the order contains items sourced from more than one vendor, the customer can rate each of the vendors separately.
 
-## Product reviews: Multivendor store administrator experience
+## Product Reviews: Multivendor Store Administrator Experience
 
 The store administrator has full control over the "Product reviews" addon as a component of their Multivendor store. They can enable/disable this component via the **Installed Addons** section and adjust the addon settings via the settings pages for both the "Product reviews" and "Multi-vendor" addons. See:
    
@@ -83,15 +83,15 @@ The store administrator has full control over the "Product reviews" addon as a c
 
 The administrator also has control over the email notifications pertaining to vendor ratings and product reviews and can manage them via the Email notifications section (**Store setup** > **Email notifications**). At present, there are three notifications for vendor ratings and product reviews:
 
-   * Request to review purchased products - (Product Reviews module)
-   * New product review submitted - (Product Reviews module)
+   * Request to review purchased products - (Product Reviews addon)
+   * New product review submitted - (Product Reviews addon)
    * Customer has rated the order (for vendor)
    
 The store administrator can view and manage (edit or delete) vendor ratings via the Vendor ratings section (**Users** > **Vendor ratings**): 
    ![xc5_vendor_ratings_in_admin.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_vendor_ratings_in_admin.png)
 The filter at the top of the section can be used to filter/search for reviews by vendor profile, customer name or date range.
 
-## Product reviews: Vendor experience
+## Product Reviews: Vendor Experience
 Vendors with appropriate permissions can view their own rating information in the section Order ratings (**Orders** > **Order ratings**):
    ![xc5_mv_order_ratings_in_vendor.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_order_ratings_in_vendor.png)
 If necessary, they can filter/search for specific ratings by customer name or date range.
