@@ -9,7 +9,7 @@ published: true
 ---
 In a Multivendor X-Cart store with the addon {% link "Volume Discounts" ref_3JbpQrPF %} installed and enabled, both the store administrator and vendors can create and manage volume discounts.
 
-## Volume discounts: Vendor experience
+## Volume Discounts: Vendor Experience
 Vendors can create and manage volume discounts via the  section Volume discounts (**Discounts** > **Volume discounts**) of the Vendor area:
 ![mv_volumediscounts_in_vendor.png]({{site.baseurl}}/attachments/ref_117NpIm9/mv_volumediscounts_in_vendor.png)
 
@@ -17,7 +17,7 @@ Volume discounts created by a vendor are applied only to the products of that pa
 
 Vendors can view and manage only the volume discounts that they own. In their personal Vendor area, they do not have access to volume discounts owned by other vendors. As of the time of writing this article, vendors also do not have the ability to see in their Vendor area volume discounts created by the store administrator for the store in general (the discounts configured to apply to "Any profile"; if configured, such discounts will be applied to the products of any vendor in the store, but the vendors will not see them as discounts in the Volume discounts section).
 
-## Volume discounts: Multivendor store administrator experience
+## Volume Discounts: Multivendor Store Administrator Experience
 The store administrator can view and manage coupons via the Volume discounts section (**Discounts** > **Volume discounts**) of the Admin area.
 ![mv_volumediscounts_in_admin.png]({{site.baseurl}}/attachments/ref_117NpIm9/mv_volumediscounts_in_admin.png)
 
