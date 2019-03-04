@@ -25,10 +25,10 @@ There are 3 possible ways to translate product catalog:
 If you need to translate (or to edit the existing translation) of one or several products and/or categories you can do this directly in the store admin area.
 
 For this purpose:
-1. Locate a product or category you need to translate and open the product/category details page.
+1. Locate a product or category you need to translate and open the product/category details page:
    ![category-page-en.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/category-page-en.png)
 2. Switch the language of the admin area to the target language of your translation:
-3. Edit the required product/category info
+3. Edit the required product/category info:
    ![category-page-de.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/category-page-de.png)
 4. Save the changes.
 
@@ -45,12 +45,12 @@ Make sure the {% link "Theme Tweaker" ref_2L6W3YMS %} addon is installed and ena
 If you need to translate (or to edit the existing translation) of one or several products' and/or categories' descriptions you can do this directly in the customer storefront using the {% link "Description Editor" ref_0KCLczz4 %} in Webmater mode.
 
 For this purpose:
-1. Locate a product or category you need to translate and open the product/category details page in the storefront.
+1. Locate a product or category you need to translate and open the product/category details page in the storefront:
    ![product-description-en.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/product-description-en.png)
 2. Switch the storefront language to the target language of your translation:
    ![product-description-switch.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/product-description-switch.png)
-3. Enable Webmaster mode as described {% link "Description Editor" ref_0KCLczz4 %}
-4. Edit the required product/category description
+3. Enable Webmaster mode guided by {% link "Description Editor" ref_0KCLczz4 %}.
+4. Edit the required product/category description:
    ![product-descripto-de.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/product-descripto-de.png)
 5. Save the changes.
 
@@ -66,7 +66,7 @@ To translate a product catalog:
 
 1. Export the current catalog data:
    * Go to the **Catalog** > **Export** section of your store admin area.
-   * Choose the data to be exported (e.g. products, categories, attributes, etc.) and click **Start Export**.
+   * Choose the data to be exported (e.g. products, categories, attributes, etc.) and click **Start Export**:
      ![]({{site.baseurl}}/attachments/ref_5MQvg8Mm/export.png)
    
       As a result you'll get a .csv file with the default label names and their values.
@@ -77,7 +77,7 @@ To translate a product catalog:
    You should get a file content similar to:
    ![export-products-en.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/export-products-en.png)
 4. Rename the EN tables to match the target language (e.g. name_en to name_de if your target language is German).
-5. Fill in the DE tables with the German translation. 
+5. Fill in the new tables with the translation (e.g. the name_de table should contain the name of a product/category in German). 
    
    As a result, you'll get a file content similar to the one shown on an image below:
 
