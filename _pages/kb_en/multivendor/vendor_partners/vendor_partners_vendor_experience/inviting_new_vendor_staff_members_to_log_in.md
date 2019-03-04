@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-27 20:19 +0400'
 identifier: ref_0wN2KuZB
-title: 'Multiple profiles for vendors: Inviting new vendor staff members to log in'
+title: 'Multiple Profiles for Vendors: Inviting New Vendor Staff Members to Log in'
 order: 200
 published: true
 ---
