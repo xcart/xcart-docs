@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-21 20:27 +0400'
 identifier: ref_7EtCK0bR
-title: 'Multiple profiles for vendors: Admin experience'
+title: 'Multiple Profiles for Vendors: Admin Experience'
 order: 100
 published: true
 ---
@@ -18,13 +18,13 @@ The invitation email message used to invite new vendor staff members to the stor
 Read on to find out how a store administrator can:
 
    * Activate the addon "Multiple profiles for vendors" to enable the creation of additional (vendor staff) profiles by vendors.
-        See {% link "Activating the Multiple profiles for vendors addon" ref_5gAf2h1i %}
+        See {% link "Activating the Multiple Profiles for Vendors Addon" ref_5gAf2h1i %}
         
    * Edit the user role "Vendor staff", if necessary. 
-        See {% link "Multiple profiles for vendors: Understanding the changes to the store's roles" ref_2ds6Cj75 %}
+        See {% link "Multiple Profiles for Vendors: Understanding the Changes to the Store's Roles" ref_2ds6Cj75 %}
         
    * Find out if a certain user is a vendor staff member.
-        See {% link "Multiple profiles for vendors: Identifying vendor staff users" ref_386bKin8 %}
+        See {% link "Multiple Profiles for Vendors: Identifying Vendor Staff Users" ref_386bKin8 %}
         
    * Adjust the email message that will be sent to the new staff member users when a vendor invites them to work on the store.
-        See {% link "Multiple profiles for vendors: Adjusting the vendor staff invitation message" ref_1dzvWFFB %}
+        See {% link "Multiple Profiles for Vendors: Adjusting the Vendor Staff Invitation Message" ref_1dzvWFFB %}
