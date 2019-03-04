@@ -11,5 +11,5 @@ published: true
 
 _In this section:_
    
-   * {% link "Trusted/Non-trusted vendors: Admin experience" ref_21Q6x8t3 %}
-   * {% link "Trusted/Non-trusted vendors: Vendor experience" ref_4yJqycO6 %}
+   * {% link "Trusted/Non-trusted Vendors: Admin Experience" ref_21Q6x8t3 %}
+   * {% link "Trusted/Non-trusted Vendors: Vendor Experience" ref_4yJqycO6 %}
