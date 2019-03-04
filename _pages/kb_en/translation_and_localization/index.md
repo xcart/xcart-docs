@@ -11,7 +11,7 @@ icon: translate
 categories:
   - home
 ---
-A default X-Cart software package provides a user interface (both customer storefron and the admin area) in Englih and uses a US measurement system after the software has been installed. In adition to it there are also UK and Chinese packs that differ in language of the user interface and default custoer and admin address configuration. 
+A default X-Cart software package provides a user interface (both customer storefron and the admin area) in Englih and uses a US measurement system after the software has been installed. In adition to it there are also UK and Chinese packs that differ in language of the user interface and default customer and admin address configuration. 
 
 Any merchant located outside the given countries can adapt the default X-Cart software to a specific locale or market by installing a required language package to translate both the store admin area and the customer storefront and configuring the localization settings appropriately. 
 
