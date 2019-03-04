@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-27 19:38 +0400'
 identifier: ref_2ds6Cj75
-title: 'Multiple profiles for vendors: Understanding the changes to the store''s roles'
+title: 'Multiple Profiles for Vendors: Understanding the Changes to the Store''s Roles'
 order: 200
 published: true
 ---
@@ -17,4 +17,4 @@ Note that being the primary feature of the addon the role "Vendor staff" may not
 
 _Related pages:_
    
-   * {% link "Multiple profiles for vendors: Admin experience" ref_7EtCK0bR %}
+   * {% link "Multiple Profiles for Vendors: Admin Experience" ref_7EtCK0bR %}
