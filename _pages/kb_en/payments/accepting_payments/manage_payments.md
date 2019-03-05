@@ -7,7 +7,7 @@ title: Managing exiting payment methods
 order: 120
 published: true
 ---
-After a payment method is added to the list of available, a store admin can edit it if it's necessary to e.g. change the payment configuration settings, disable or completely delete this payment from the list.
+After a payment method is added to the list of available, a store admin can edit it if it is necessary to e.g. change the payment configuration settings, disable or completely delete this payment from the list.
 
 {% note info %}
 If you need to change the order the payments are displayed in the storefront, see {% link "Sorting payments on the storefront" ref_1WSCwpNh %}.
@@ -15,7 +15,7 @@ If you need to change the order the payments are displayed in the storefront, se
 
 {% toc %}
 
-## Editing existing payment methods
+## Editing Existing Payment Methods
 
 It is possible to edit previously added payment methods.
 
@@ -35,10 +35,10 @@ To edit an existing method:
 
 The payment method settings will be updated.
 
-## Enabling / Disabling payment methods
+## Enabling / Disabling Payment Methods
 
 You can change the availability of a payment method by switching the **INACTIVE/ACTIVE** control to the right of its name.
 
-## Deleting payment methods
+## Deleting Payment Methods
 
 To remove a payment method from your store's payment methods list, click on the Trash icon icon below the method name.
