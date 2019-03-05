@@ -3,12 +3,20 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-10-31 00:09 +0400'
 identifier: ref_aJPK4DHN
-title: Setting up sales tax
+title: Manual Tax Setup
 order: 200
 categories:
   - User manual
 published: true
 ---
+
+Sales tax calculation in X-Cart 5 can be enabled using the **Sales Tax** addon. Typically you will find this addon already installed and enabled in your store. (If this is not the case, you can install it any time from X-Cart's Marketplace following the {% link "addon installation procedure" ref_Vn1mMUw9 %}.) 
+
+If the Sales Tax addon is installed but not enabled, you will need to {% link "activate" ref_uEnDBBA7 %} it. 
+
+![]({{site.baseurl}}/attachments/8225533/8356388.png)
+
+Setting up sales tax in X-Cart 5 is not difficult, whereas the system provides enough flexibility to configure even the most intricate tax calculation rules: if necessary, it is possible to configure your sales tax so it is calculated differently depending on the tax class of the products in the order, the customer's address zone and the customer's membership level.
 
 This article explains how to set up and enable sales tax calculation using the Sales Tax module for X-Cart 5. 
 
