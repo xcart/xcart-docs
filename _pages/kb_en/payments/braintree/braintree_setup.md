@@ -24,11 +24,11 @@ To enable Braintree as a payment method in your X-Cart store, add it to the list
       ![xc5_braintree_payment_method_added_successfully.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method_added_successfully.png)
 
       {% note info %}
-      If the PayPal Powered by Braintree module is not installed in your X-Cart store at the time of adding the method, there will be an **Install** button instead of **Add**: 
+      If the addon PayPal Powered by Braintree is not installed in your X-Cart store at the time of adding the method, there will be an **Install** button instead of **Add**: 
         
       ![xc5_braintree_payment_method.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method.png)
         
-      Use this button to install the module and add the method.
+      Use this button to install the addon and add the method.
       {% endnote %}
         
    3. Once the method is added, you will need to connect your X-Cart PayPal Powered by Braintree integration with your Braintree or PayPal account. A page with the **Connect with Braintree** button will be displayed:
