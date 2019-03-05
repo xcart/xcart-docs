@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-11 12:42 +0400'
 identifier: ref_0wA82ctg
-title: "Viewing\_your store's payment methods list"
+title: "Viewing\_Your Store's Payment Methods List"
 order: 100
 published: true
 ---
@@ -26,4 +26,3 @@ INACTIVE (gray icon) = the method is not available (not visible to customers).
 The **Configure** button below each payment method name allows you to access the payment method settings:
 
 ![configure-payment.png]({{site.baseurl}}/attachments/ref_0wA82ctg/configure-payment.png)
-
