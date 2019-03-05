@@ -18,11 +18,11 @@ To enable Authorize.NET Accept.js as a payment method in your X-Cart store, {% l
       ![js-add.png]({{site.baseurl}}/attachments/ref_7fLCkUYr/js-add.png)
 
       {% note info %}
-      If the Authorize.NET Accept.js module is not installed in your X-Cart store at the time of adding the method, there will be an **Install** button instead of **Add**: 
+      If the Authorize.NET Accept.js addon is not installed in your X-Cart store at the time of adding the method, there will be an **Install** button instead of **Add**: 
         
       ![js-install.png]({{site.baseurl}}/attachments/ref_7fLCkUYr/js-install.png)
         
-      Use this button to install the module and add the method.
+      Use this button to install the addon and add the method.
       {% endnote %}
       
    3. Configure the Authorize.NET Accept.js payment on the payment settings page as follows:
