@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-06-27 14:24 +0400'
 identifier: ref_CT7rXfVw
-title: Choosing a payment gateway
+title: Choosing a Payment Gateway
 order: 100
 published: true
 ---
@@ -50,7 +50,7 @@ On our website, you can find a list of popular payment gateway integrations for 
    * [List of payment gateways integrated with X-Cart](https://www.x-cart.com/ecommerce-solutions.html#section_payment)
    
 Or you can search for some ready-to-use X-Cart 5 payment processing integrations in our Marketplace:
-   * [List of X-Cart 5 payment processing modules](https://market.x-cart.com/addons/payment-processing/?filter[edition]=all&filter[priceType]=all&filter[sortBy]=p.arrivalDate)
+   * [List of X-Cart 5 payment integration addons](https://market.x-cart.com/addons/payment-processing/?filter[edition]=all&filter[priceType]=all&filter[sortBy]=p.arrivalDate)
    
 Choose the integration that looks good for your needs and contact the payment gateway reps directly to create a merchant account. Can’t find your payment gateway in this list? Email us at support@x-cart.com.
 
@@ -124,6 +124,6 @@ If your store is already established, with a clear projection of sales levels, y
 
 ## See also
 *   [List of payment gateways integrated with X-Cart](https://www.x-cart.com/ecommerce-solutions.html#section_payment)
-*   [List of X-Cart 5 payment processing modules](https://market.x-cart.com/addons/payment-processing/?filter[edition]=all&filter[priceType]=all&filter[sortBy]=p.arrivalDate)
+*   [List of X-Cart 5 payment integration addons](https://market.x-cart.com/addons/payment-processing/?filter[edition]=all&filter[priceType]=all&filter[sortBy]=p.arrivalDate)
 *   {% link "Accepting payments" ref_Jq6Bsdrt %}
 *   {% link "PayPal" ref_g8OosGK4 %}
