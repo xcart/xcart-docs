@@ -9,10 +9,9 @@ categories:
 published: true
 order: 350
 ---
+Steps to complete:
 
-## Steps to complete
-
-1. Login to your PayPal account.
+1. Log in to your PayPal account.
 2. Click "Profile >> My Selling Tools" on the "My Account" tab.
 3. Find "Instant payment notifications" option in the list of tools and click "Update".
 4. To start receiving IPN messages and to decide where to send them, click the "Choose IPN Settings" button.
