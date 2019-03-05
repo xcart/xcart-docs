@@ -9,16 +9,14 @@ categories:
   - User manual
 published: true
 ---
-
 According to your country's laws, you may need to charge different taxes for different types of products. For instance, you may need to calculate sales tax differently for alcohol and non-alcohol products.
 
-X-Cart 5 allows you to have **tax classes**. By using this feature you can organize your products into groups according to what sales tax rate calculation rules need to be used for them.
+Using the **tax class** functionality in X-Cart 5 you can organize your products into groups according to what sales tax rate calculation rules need to be used for them.
 
 For example, if you have a food store selling both alcohol and non-alcohol products, and you need to calculate sales tax differently for those two groups of products, you will need two tax classes - one for alcohol products and one for non-alcohol products. To make it work, you will need to specify how tax rates should be calculated for each of these tax classes. You will also need to assign a tax class to every product in your store. This way all the products will have appropriate tax rates applied to them. 
 
 In X-Cart 5, every product needs to have a tax class assigned to it. By default, new products are created with the **Default tax class** assigned. If you expect all of your store's products to use the same tax rates, you do not need to create any additional tax classes - just use the **Default tax class** for all rates. However, if you are going to have different tax rates for different types of products - like in the example with alcohol and non-alcohol products - then you will need additional tax classes.
 
-This article covers:
 {% toc %}
 
 ## Creating tax classes
@@ -41,28 +39,6 @@ That's all, the tax class has been created:
 
 Now you can assign it to products and configure tax rates for it. 
 
-## Configuring rates for tax classes
-
-To configure rates for tax classes:
-
-1. Open the **Sales tax** tab in the **Taxes** section (**Store setup** -> **Taxes**) of your X-Cart admin area and click the **New rate** button in the _General tax rates_ section:
-   ![new-rate.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate.png)
-
-2. Fill in the fields in the new rate line that will appear:
-   ![new-rate-1.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate-1.png)
-
-   * **Zone** : Select the zone from a drop-down the tax is applicable to.
-   * **Tax class** : Select the tax class applicable.
-   * **Rate** : Set the tax rate in %.
-   
-3. Click **Save changes**.
-
-That's it, a tax rate for a tax class is created.
-
-![tax-class-1.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/tax-class-1.png)
-
-
-
 ## Assigning tax classes to products
 
 Once you have created the tax classes you require, be sure to assign them to products.
@@ -81,6 +57,27 @@ Once the tax class has been assigned to a product, this product will use the tax
 {% note info %}
 If you need to assign a tax class to more than one product at a time use the ["Products Bulk Edit"](https://kb.x-cart.com/products/bulk_edit.html#bulk-edit-price-and-membership "Setting up tax classes") feature.
 {% endnote %}
+
+## Configuring rates for tax classes
+
+To configure rates for tax classes:
+
+1. Depending on the tax system you are using open either the **Sales tax** or the **VAT/GST** tab in the **Taxes** section (**Store setup** -> **Taxes**) of your X-Cart admin area and click the **New rate** button in the _General tax rates_ section:
+   ![new-rate.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate.png)
+
+2. Fill in the fields in the new rate line that will appear:
+   ![new-rate-1.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate-1.png)
+
+   * **Zone** : Select the zone from a drop-down the tax is applicable to.
+   * **Tax class** : Select the tax class applicable.
+   * **Rate** : Set the tax rate in %.
+   
+3. Click **Save changes**.
+
+That's it, a tax rate for a tax class is created.
+
+![tax-class-1.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/tax-class-1.png)
+
 
 _Related pages:_
 
