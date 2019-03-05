@@ -10,24 +10,22 @@ categories:
 published: true
 order: 40
 ---
-
-
-In X-Cart versions 5.2.7 and later, order statuses can be managed using the module **Custom Order Statuses**.
+In X-Cart versions 5.2.7 and later, order statuses can be managed using the addon **Custom Order Statuses**.
 
 ![]({{site.baseurl}}/attachments/8750763/8719499.png)
 
-With this module you can:
+With this addon you can:
 
 *   [view and manage the list of order statuses](#viewing-order-statuses) supported by your X-Cart store;
 *   [add your own custom order statuses](#adding-custom-order-statuses);
 *   [rename existing order statuses](#renaming-order-statuses) (both {% link "system" ref_DkbTi1qJ#system-order-statuses %} and custom ones);
 *   [delete custom order statuses](#deleting-order-statuses) (NB: {% link "system" ref_DkbTi1qJ#system-order-statuses %} order statuses cannot be deleted). 
 
-The module Custom Order Statuses is not compatible with X-Cart versions prior to X-Cart 5.2.7\. For these older X-Cart versions, custom order statuses can be added using the method described in the article {% link "Adding new fulfilment/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}.
+The addon Custom Order Statuses is not compatible with X-Cart versions prior to X-Cart 5.2.7\. For these older X-Cart versions, custom order statuses can be added using the method described in the article {% link "Adding new fulfilment/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}.
 
-## Viewing order statuses
+## Viewing Order Statuses
 
-With the module **Custom Order Statuses** installed and enabled, the complete list of order statuses used by your X-Cart store can be found in the section Order statuses (**Orders** > **Order statuses**):
+With the addon **Custom Order Statuses** installed and enabled, the complete list of order statuses used by your X-Cart store can be found in the section Order statuses (**Orders** > **Order statuses**):
 
 ![xc5_cos_order_statuses_section.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_order_statuses_section.png)
 
@@ -64,7 +62,7 @@ You can rearrange this order by dragging and dropping specific statuses in the l
 
 ![xc5_cos_order_status_sort.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_order_status_sort.png)
 
-## Adding custom order statuses
+## Adding Custom Order Statuses
 
 If X-Cart's {% link "system order statuses" ref_DkbTi1qJ#system-order-statuses %} do not meet the needs of your business, you can create your own statuses. It is possible to create both payment order statuses and fulfilment order statuses. 
 
@@ -89,7 +87,7 @@ To add a new order status:
     ![xc5_cos_add_new_status3.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/xc5_cos_add_new_status3.png)
 
 
-## Renaming order statuses
+## Renaming Order Statuses
 
 It is possible to rename existing order statuses, both system and custom ones.
 
@@ -103,7 +101,7 @@ To rename an order status:
 6.  Click the **Save changes** button at the bottom of the list.
     The new status name will be saved.
 
-## Deleting order statuses
+## Deleting Order Statuses
 
 It is possible to delete custom order statuses. 
 
@@ -121,5 +119,5 @@ To delete an order status:
 
 _Related pages:_
 
-*   {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}
-*   {% link "Adding new fulfilment/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}
+*   {% link "Understanding X-Cart Order Statuses" ref_DkbTi1qJ %}
+*   {% link "Adding New Fulfilment/Payment Statuses (X-Cart 5.2.6 and Earlier)" ref_NzhAvNte %}
