@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-11 12:44 +0400'
 identifier: ref_36BqwVSF
-title: Adding payment methods
+title: Adding Payment Methods
 order: 110
 published: true
 ---
