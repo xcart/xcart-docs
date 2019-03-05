@@ -26,7 +26,7 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
       ![xc5_pp_pro_payflowapi_add.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_payflowapi_add.png)
       (If the method has already been added previously, choose **Settings**). 
        
-      You will be redirected to the "X-Payments connector" module settings page. If you haven't connected your X-Cart store to X-Payments previously, you will see a page like the following:
+      You will be redirected to the "X-Payments connector" addon settings page. If you haven't connected your X-Cart store to X-Payments previously, you will see a page like the following:
       ![xc5_pp_pro_xpconnect.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_xpconnect.png)
       
       If you have already connected your X-Cart store to X-Payments, the page will look similar to this:
@@ -66,13 +66,13 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
       1. In X-Payments, on the page with your X-Cart store details (**Settings** -> **Online store**), obtain your X-Payments configuration bundle. It can be found in the Connection section on the right-hand side of the page. Click to copy this bundle to clipboard.
         ![xc5_pp_pro_bundle.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_bundle.png)
 
-      2. In X-Cart (back on the "X-Payments connector" module settings page - in the browser tab or window where you left off), go to the Connection tab.
+      2. In X-Cart (back on the "X-Payments connector" addon settings page - in the browser tab or window where you left off), go to the Connection tab.
         ![xc5_pp_pro_connection.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_connection.png)
 
       3. Paste the configuration bundle from clipboard into the appropriate field on the connection settings and click **Deploy**.
         ![xc5_pp_pro_deploy.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_deploy.png)
         
-        The module will take a few moments to deploy the configuration. Once the process is complete, you will see a success message at the top of the page. You will also notice that the PayPal Payments Pro method (renamed in our case to "Debit or Credit card") has been imported into the X-Cart store from X-Payments:
+        The addon will take a few moments to deploy the configuration. Once the process is complete, you will see a success message at the top of the page. You will also notice that the PayPal Payments Pro method (renamed in our case to "Debit or Credit card") has been imported into the X-Cart store from X-Payments:
         ![xc5_pp_pro_deployed0.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_deployed0.png)
         
         Note that this method is already active:
@@ -82,7 +82,7 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
         
         Note that should you need to change any settings for your PayPal Payments Pro method, you will need to do that on the X-Payments end (not in your X-Cart store) and then re-import the method into X-Cart.
         
-        You can control the status (active/inactive) of your PayPal Payments Pro method right on the "X-Payments connector" module settings page (shown on the screenshot above) or via the Payment methods page (**Store setup > Payment methods**):
+        You can control the status (active/inactive) of your PayPal Payments Pro method right on the "X-Payments connector" addon settings page (shown on the screenshot above) or via the Payment methods page (**Store setup > Payment methods**):
         ![xc5_pp_pro_promethod_active.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_promethod_active.png)
         
         If you wish to use this method for PCI compliant payments with saved credit cards, enable the "Save cards" feature for this method:
@@ -94,4 +94,3 @@ To start accepting payments with PayPal Payments Pro in your X-Cart store (via X
         
         You will be able to control the status of your method for payments with saved credit cards (active/inactive) via the  Payment methods page (**Store setup > Payment methods**); see the **Use a saved credit card** method:
         ![xc5_pp_pro_savedcard_methodactive.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_savedcard_methodactive.png)
-
