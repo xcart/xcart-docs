@@ -27,6 +27,6 @@ If you are unsure on any of the points above, please [contact Secure Trading](ht
 
 Please read on:
 
-* {% link "Secure Trading: Installation and Set-Up" ref_76tvX6bZ %}
+* {% link "Secure Trading: Installation and Setup" ref_76tvX6bZ %}
 * {% link "Secure Trading: Admin Experience" ref_4dfJvyCl %}
 * {% link "Secure Trading: Customer Experience" ref_3dsCaddY %}
