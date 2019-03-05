@@ -7,7 +7,7 @@ title: Customer Experience
 order: 120
 published: true
 ---
-To claim for return of an existing order a customer should open the **Orders** section in his account in your X-Cart store front-end, find the order in question and hit the '**Claim for return**' button on the _Order Details_ page if the order is permitted for returns.
+To claim for return of an existing order a customer should open the **Orders** section in his account in your X-Cart store front end, find the order in question and hit the '**Claim for return**' button on the _Order Details_ page if the order is permitted for returns.
 
 ![delivered.png]({{site.baseurl}}/attachments/ref_0DnA7pBo/delivered.png)
 
