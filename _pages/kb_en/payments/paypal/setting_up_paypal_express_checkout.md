@@ -12,7 +12,7 @@ order: 100
 
 {% toc %}
 
-## Setting up Express Checkout with email
+## Setting up Express Checkout with Email
 
 For a quick start, Paypal Express Checkout requires you to specify your email only:
 
@@ -21,7 +21,7 @@ For a quick start, Paypal Express Checkout requires you to specify your email on
 *   If you already have a Paypal account, then you should specify the email you created your Paypal account with.
 *   If you do not yet have a Paypal account, then you can specify the email you are going to create your Paypal account with and create the account itself later on.
 
-## Setting up Express Checkout with API credentials
+## Setting up Express Checkout with API Credentials
 For a full-fledged Express Checkout implementation allowing payments and post-checkout operations, you will need to use the API option:
 
 ![xc5_pp_express_api_credentials_section.png]({{site.baseurl}}/attachments/ref_vHffMFLk/xc5_pp_express_api_credentials_section.png)
@@ -54,7 +54,7 @@ For Payflow API, you will need the following set of credentials:
 
 These are the same credentials that are used as your manager.paypal.com login information.
     
-## Enabling the Secure Token setting
+## Enabling the Secure Token Setting
 
 You may need to include this option if you want to capture payments authorized by Paypal via the admin interface of your X-Cart store. Using this option requires you to have a Paypal Advanced Payments or a Paypal Payflow Pro account.
 
@@ -71,7 +71,7 @@ How to enable the Secure Token setting:
 
 6.  Fill in the API credentials into the PayPal Express Checkout settings form in X-Cart.
 
-## Creating your custom PayPal payment page
+## Creating Your Custom PayPal Payment Page
 
 Creating a custom payment page allows you to co-brand the PayPal checkout pages with your logo and colors.
 
