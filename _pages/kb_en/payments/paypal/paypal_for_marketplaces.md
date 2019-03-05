@@ -27,7 +27,7 @@ As a partner, PayPal must vet and approve you before you can use PayPal for Mark
 
 ## PayPal for Marketplaces installation and set-up
 
-Like all PayPal payment methods, the method "PayPal for Marketplaces" is enabled by the module "PayPal". So please make sure the PayPal module is {% link "installed and enabled" ref_0fGEpvrh %}:
+Like all PayPal payment methods, the method "PayPal for Marketplaces" is enabled by the addon "PayPal". So please make sure the PayPal addon is {% link "installed and enabled" ref_0fGEpvrh %}:
 
 ![paypal-installed.png]({{site.baseurl}}/attachments/ref_6iphJijP/paypal-installed.png)
 
