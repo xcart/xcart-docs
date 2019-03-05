@@ -8,13 +8,13 @@ order: 100
 published: true
 ---
 
-To enable the Order Returns module follow the instructions from the guide {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To enable the addon Order Returns follow the instructions from the guide {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-Once installed proceed to the module Settings page for the basic module configuration:
+Once the addon has been installed, proceed to the addon settings page:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_5JucPxO8/settings.png)
 
-You'll see a screen of the kind:
+You will see a screen of the kind:
 
 ![settings-1.png]({{site.baseurl}}/attachments/ref_5JucPxO8/settings-1.png)
 
