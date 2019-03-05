@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-08-30 18:35 +0400'
 identifier: ref_pAWOdG8N
-title: Setting up tax classes
+title: Tax Classes
 order: 110
 categories:
   - User manual
