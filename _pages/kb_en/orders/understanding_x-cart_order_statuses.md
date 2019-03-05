@@ -9,11 +9,9 @@ categories:
 published: true
 order: 10
 ---
+## System Order Statuses
 
-
-## System order statuses
-
-Every order in your X-Cart store has a payment status and a fulfilment status. These two statuses provide information as to the current state of the order in the [order processing workflow](https://kb.x-cart.com/orders/understanding_x-cart_order_statuses.html#order-processing-workflow "Understanding X-Cart order statuses"). 
+Every order in your X-Cart store has a payment status and a fulfilment status. These two statuses provide information as to the current state of the order in the [order processing workflow](https://kb.x-cart.com/orders/understanding_x-cart_order_statuses.html#order-processing-workflow). 
 
 By default, X-Cart uses the following order statuses:
 
@@ -39,15 +37,15 @@ The statuses _Awaiting payment_, _Paid_ and _Authorized_ cause the inventory l
 | D | Delivered | The buyer has received the package. |
 | WND | Will not deliver | The order will not be shipped to the buyer for some reason. |
 | R | Returned | The buyer is returning the ordered items; the items have been sent back to the merchant. |
-| NF | Not Finished | (Enabled by the module {% link "Not Finished Orders" ref_5TMbPwNQ %}). After the buyer's attempt to pay for the order, the payment system has returned the "cancelled" or "failed" callback, so the order payment status has been set to "Declined". |
+| NF | Not Finished | (Enabled by the addon {% link "Not Finished Orders" ref_5TMbPwNQ %}). After the buyer's attempt to pay for the order, the payment system has returned the "cancelled" or "failed" callback, so the order payment status has been set to "Declined". |
 
 {% note info %}
 What you see in the first columns of the above tables is letter codes by which X-Cart's system order statuses are represented in the software code; these codes are used only internally.
 {% endnote %}
 
-For information on _custom order statuses_, see the {% link "Managing X-Cart order statuses (X-Cart 5.2.7 and later)" ref_7FIU2sxJ %} section of this manual.
+For information on _custom order statuses_, see the {% link "Managing X-Cart Order Statuses (X-Cart 5.2.7 and Later)" ref_7FIU2sxJ %} section of this manual.
 
-## Order processing workflow
+## Order Processing Workflow
 
 For orders paid using {% link "offline payment methods" ref_Jq6Bsdrt %}, the order processing workflow is as follows:
 
@@ -67,4 +65,4 @@ For orders paid using {% link "online payment processors" ref_Jq6Bsdrt %}, the 
 
 _Related pages:_
 
-*   {% link "Managing X-Cart order statuses (X-Cart 5.2.7 and later)" ref_7FIU2sxJ %}
+*   {% link "Managing X-Cart Order Statuses (X-Cart 5.2.7 and Later)" ref_7FIU2sxJ %}
