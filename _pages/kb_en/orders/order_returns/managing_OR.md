@@ -13,11 +13,11 @@ Proceed to the _Fulfilment statuses_ tab of the **Orders** -> **Order Statuses**
 
 ![allow-returns.png]({{site.baseurl}}/attachments/ref_2yZxorwM/allow-returns.png)
 
-If you don't have the {% link "Custom Order Statuses" ref_7FIU2sxJ %} module installed and enabled, you'll have only the orders with 2 fulfilment statuses permitted for return by default:
+If you don't have the {% link "Custom Order Statuses" ref_7FIU2sxJ %} addon installed and enabled, you'll have only the orders with 2 fulfilment statuses permitted for return by default:
 * _Shipped_
 * _Delivered_
 
-If the Custom Order Statuses module is enabled you can allow orders with any existing statuses for return as well as create new fulfilment statuses, if necessary.
+If the Custom Order Statuses addon is enabled you can allow orders with any existing statuses for return as well as create new fulfilment statuses, if necessary.
 
 {% note info %}
 Don't forget to add your returns policy to the _Return Policy_ page in the **Catalog** -> **Product Tabs** section.
