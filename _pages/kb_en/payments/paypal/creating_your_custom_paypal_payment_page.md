@@ -3,14 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-30 12:35 +0400'
 identifier: ref_PA8He4Vs
-title: Creating your custom PayPal payment page
+title: Creating Your Custom PayPal Payment Page
 categories:
   - User manual
 published: true
 order: 450
 ---
-
-
 Creating a custom payment page allows you to co-brand the PayPal checkout pages with your logo and colors. For that:
 
 1.  Log in to your [PayPal account](https://www.paypal.com/).
