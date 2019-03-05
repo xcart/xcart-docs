@@ -32,7 +32,7 @@ For a partial refund an admin should specify the required sum in a field near th
   <div class="column" markdown="span"><i>Residual amount</i>![residual-amount.png]({{site.baseurl}}/attachments/ref_4dfJvyCl/residual-amount.png)</div>
 </div>
 
-## Callback details
+## Callback Details
 
 Secure Trading payment solution also makes it possible to check the callback details on the order processing in the order history. 
 
