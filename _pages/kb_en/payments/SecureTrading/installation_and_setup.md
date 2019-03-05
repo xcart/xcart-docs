@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-08-01 14:55 +0400'
 identifier: ref_76tvX6bZ
-title: 'Secure Trading: Installation and Set-Up'
+title: 'Secure Trading: Installation and Setup'
 order: 100
 published: true
 ---
