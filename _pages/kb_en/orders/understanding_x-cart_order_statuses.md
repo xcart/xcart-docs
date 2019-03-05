@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-08 13:31 +0400'
 identifier: ref_DkbTi1qJ
-title: Understanding X-Cart order statuses
+title: Understanding X-Cart Order Statuses
 categories:
   - User manual
 published: true
