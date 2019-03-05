@@ -15,7 +15,7 @@ order: 270
 
 
 
-In X-Cart 5.2.7 we implemented an integration of **[Adaptive Payments by PayPal](https://developer.paypal.com/docs/classic/products/adaptive-payments/)**. This integration allows you to automate the payment transaction flow for X-Cart's {% link "Multi-vendor module" ref_cvwmAuRi %}. The integration enables the payment method "PayPal Adaptive payments" which allows customers' payments for orders in a multi-vendor store to be split automatically between the storefront operator (represented by the account of the store administrator) and the vendors whose products were purchased. The earnings from the sale of the products are automatically sent to the PayPal accounts of the respective vendors; the commission amount that is due to the storefront operator from the sale goes to the PayPal account of the store administrator - also automatically.
+In X-Cart 5.2.7 we implemented an integration of **[Adaptive Payments by PayPal](https://developer.paypal.com/docs/classic/products/adaptive-payments/)**. This integration allows you to automate the payment transaction flow for X-Cart {% link "Multivendor" ref_cvwmAuRi %}. The integration enables the payment method "PayPal Adaptive payments" which allows customers' payments for orders in a multi-vendor store to be split automatically between the storefront operator (represented by the account of the store administrator) and the vendors whose products were purchased. The earnings from the sale of the products are automatically sent to the PayPal accounts of the respective vendors; the commission amount that is due to the storefront operator from the sale goes to the PayPal account of the store administrator - also automatically.
 
 When a buyer pays for their order using the "PayPal Adaptive payments" method, the amount they send to the store is split based on the Chained Payments scenario: the store administrator - who in this case is the primary receiver of the payment - receives the entire payment and passes part of the payment to the vendors, who in this case are considered secondary receivers. How a payment is split among the receivers is transparent to the buyer: the buyer pays the money to the store and does not know that the amount they paid is then split to be sent to multiple receivers.
 
@@ -23,7 +23,7 @@ Adaptive Payments can be used in any country where [PayPal is accepted](http://
 
 Note that in the current implementation of PayPal Adaptive Payments for X-Cart, fees for using the service are charged by PayPal based on the "Primary Receiver Pays the Fee in a Chained Payment" model. This means that only the administrator, who is the primary receiver, pays the fee in a chained payment, whereas any other receivers - vendors - pay no fees. The fees paid by the administrator, however, are based upon the total fees assigned to all the receivers.
 
-Like all PayPal payment methods, the method "PayPal Adaptive payments" is enabled by the module "PayPal":
+Like all PayPal payment methods, the method "PayPal Adaptive payments" is enabled by the addon "PayPal":
 
 ![]({{site.baseurl}}/attachments/8751079/8719798.png)
 
