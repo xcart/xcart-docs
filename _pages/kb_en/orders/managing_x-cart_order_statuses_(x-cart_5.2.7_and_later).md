@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-08 14:30 +0400'
 identifier: ref_7FIU2sxJ
-title: Managing X-Cart order statuses (X-Cart 5.2.7 and later)
+title: Managing X-Cart Order Statuses (X-Cart 5.2.7 and Later)
 version: X-Cart 5.2.7 and later
 categories:
   - User manual
