@@ -16,4 +16,4 @@ By default you can see a list of all the products. If necessary, you can filter 
 Note that this form contains more fields than are immediately visible. You can easily expand the form by clicking on the "pull down" arrow in its lower part for access to all the fields.
    ![xc5_products_filter1.png]({{site.baseurl}}/attachments/ref_5znzAqDd/xc5_products_filter1.png)
 
-The set of filtering fields available to you in the search/filter form may be different from what you see in the screenshot above as it depends on the set of modules/features enabled in your store.
+The set of filtering fields available to you in the search/filter form may be different from what you see in the screenshot above as it depends on the set of addons/features enabled in your store.
