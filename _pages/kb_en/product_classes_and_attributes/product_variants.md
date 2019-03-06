@@ -23,11 +23,11 @@ For information on how to configure product variants in your store, see:
 *   {% link "Color Swatches for Product Variants" ref_4bXaF5qJ %}
 *   {% link "Variants Table View" ref_7FeW8hHv %}
 
-## Video tutorial
+## Video Tutorial
 
-{% link "Product variants in X-Cart 5" ref_PCmycghn %}
+{% link "Product Variants in X-Cart 5" ref_PCmycghn %}
 
-## What are product variants and why you may need them
+## What Are Product Variants and Why You May Need Them
 
 Let us use a simple example to show what product variants are and why you may need to use them.
 
@@ -72,7 +72,7 @@ If we configure the above option combinations as product variants for the produ
 
 ![]({{site.baseurl}}/attachments/7504786/7602670.png)
 
-## Managing product variants
+## Managing Product Variants
 
 To use product variants in your store, you will need to install the addon **Product variants** by X-Cart team. For installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
@@ -137,7 +137,7 @@ To configure product variants for a product:
 You can use the Create all possible variants (N) link at any time to generate the missing product variants. Don't worry, this will not ruin the variants you have already configured.
 {% endnote %}
 
-## Wholesale prices for product variants
+## Wholesale Prices for Product Variants
 
 There are 2 ways to configure wholesale prices for product variants:
 
