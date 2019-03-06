@@ -9,13 +9,11 @@ categories:
 published: true
 order: 300
 ---
-
-
 This page provides information on the following actions with product-specific attributes:
 
 {% toc %}
 
-## Adding product-specific attributes 
+## Adding Product-specific Attributes 
 
 To add a new attribute at the level of a specific product, follow the instructions below:
 
@@ -42,7 +40,7 @@ To add a new attribute at the level of a specific product, follow the instructio
     Now if you check the **Specification** tab on the product details page, you will be able to see the attribute you have added:
     ![]({{site.baseurl}}/attachments/7504853/7602459.png)
     
-## Importing product specific attributes
+## Importing Product-specific Attributes
 
 Product specific attributes can be imported in 2 different ways:
 
@@ -68,13 +66,13 @@ Product specific attributes can be imported in 2 different ways:
    If you want to import the product specific attributes only the required fields for the import file will be **productSKU**, **type**, **name**, **owner** and **value**. 
 
 
-## Viewing a product's list of product-specific attributes
+## Viewing a Product's List of Product-specific Attributes
 
 If a product has any product-specific attributes assigned, you can view their list in the **Product-Specific** section of the **Attributes** tab of the product's details:
 
 ![]({{site.baseurl}}/attachments/7504853/8719256.png)
 
-## Editing product-specific attributes
+## Editing Product-specific Attributes
 
 Sometimes you may need to edit the name and/or value(s) of an attribute created at the level of a specific product.
 
@@ -88,7 +86,7 @@ You can do it like so:
     *   To edit the attribute values, edit the **Attribute value** field(s).
 4.  Click **Save changes**.
 
-## Deleting product-specific attributes
+## Deleting Product-specific Attributes
 
 Sometimes you may need to delete an attribute created at the level of a specific product.
 
@@ -99,7 +97,7 @@ You can do it like so:
 3.  In the list of product-specific attributes, locate the attribute you need to delete and click on the **Trash** icon opposite its name. The attribute will be marked for deletion.
 4.  Click **Save changes**.
 
-## Sorting product-specific attributes
+## Sorting Product-specific Attributes
 
 Sometimes you may need to change the order of apprearance of the attributes on the product details page. 
 
@@ -113,5 +111,5 @@ You can do it like so:
 
 _Related pages:_
 
-*   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
+*   {% link "Product Classes and Attributes" ref_T90ZcEpP %}
+*   {% link "Types of Product Attributes - by Scope" ref_uaJk8ete %}
