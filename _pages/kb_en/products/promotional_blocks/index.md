@@ -11,16 +11,16 @@ Promotional blocks enable you to enhance the default presentation of your produc
 
 The blocks _New Arrivals_, _Comming Soon_, _Bestsellers_ or _Recently Viewed_ can be used to help your customers to navigate through your catalog better. Stickers displayed on the products in such blocks - with messages like "10% off","30% less" (than the market price) or any custom text - are sure to gain additional customers' attention. For more info on this, see the following sections:
    
-  * {% link "Enabling the «New arrivals» block" ref_2A50nkO9 %}
-  * {% link "Enabling the «Coming soon» block" ref_hQnN8cAT %}
-  * {% link "Enabling the «Recently viewed» block" ref_9aKsqqeK %}
-  * {% link "Enabling the Bestsellers block" ref_p1CIVmy6 %}
+  * {% link "Enabling the 'New Arrivals' Block" ref_2A50nkO9 %}
+  * {% link "Enabling the 'Coming Soon' Block" ref_hQnN8cAT %}
+  * {% link "Enabling the 'Recently Viewed» Block" ref_9aKsqqeK %}
+  * {% link "Enabling the Bestsellers Block" ref_p1CIVmy6 %}
   * {% link "Product Stickers" ref_2O2hXMhF %}
 
 _Featured products_ and _Related products_ can be used to attract your customers to alternatives or additional items that may supplement the product being viewed or have been added to the shopping cart previously. For information on these, see: 
 
-   * {% link "Adding featured products" ref_4iFdpTdv %}
-   * {% link "Adding related products" ref_4a5rpsQq %}
+   * {% link "Adding Featured Products" ref_4iFdpTdv %}
+   * {% link "Adding Related Products" ref_4a5rpsQq %}
 
 The _Product Tags_ block can help your store visitors to search for products quicker and easier, whereas _Product Reviews_ and _Questions_ enable your store users to share their experience and give more product insight to build a strong customer community. See the following sections:
 
@@ -31,8 +31,3 @@ The _Product Tags_ block can help your store visitors to search for products qui
 For an alternative layout and convenient accessiblity of the above named promotional blocks, it is possible to enable a product carousel. For details see:
    
    * {% link "Products Carousel" ref_4yBBezmL %}
-
-
-
-
-
