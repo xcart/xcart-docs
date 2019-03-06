@@ -11,6 +11,6 @@ X-Cart allows you to sell regular goods and e-goods, services, pins and subscrip
 
 _In this section:_
 
-*   {% link "Product types" ref_67tFd2bl %}
-*   {% link "Managing products" ref_5nD0rz0a %}
+*   {% link "Product Types" ref_67tFd2bl %}
+*   {% link "Managing Products" ref_5nD0rz0a %}
 *   {% link "Product Reviews" ref_5Cs8QXil %}
