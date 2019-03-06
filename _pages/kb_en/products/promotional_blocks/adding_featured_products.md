@@ -15,13 +15,13 @@ redirect_from:
 
 You can give certain products in your store more prominent placement by showcasing them as featured on the store's Home page or on the page of the product category to which it belongs. 
 
-This feature is made available by the module ["Featured Products"](https://market.x-cart.com/addons/featured-products.html "Adding featured products") by X-Cart team. 
+This feature is made available by the addon ["Featured Products"](https://market.x-cart.com/addons/featured-products.html "Adding featured products") by X-Cart team. 
 
-Before you continue, make sure this module is {% link "installed and enabled" ref_0fGEpvrh %}:
+Before you continue, make sure this addon is {% link "installed and enabled" ref_0fGEpvrh %}:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/installed.png)
 
-You can adjust the look of your featured products section on the module's settings page:
+You can adjust the look of your featured products section on the addon settings page:
 
 ![settings-page.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/settings-page.png)
 
