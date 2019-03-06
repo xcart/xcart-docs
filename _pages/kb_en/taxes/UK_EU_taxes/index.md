@@ -12,7 +12,5 @@ Both the UK and the EU use value-added tax system (VAT). Each EU country and the
 VAT rates and VAT exemptions in X-Cart can be set-up manually using the {% link "VAT/GST addon" ref_0GjdgNJx %}.
 
 _In this section:_
-*  VAT Basics
-*  
-
-
+*  {% link "VAT Basics" ref_1hm03ERt %}
+*  VAT Prices
