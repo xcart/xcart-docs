@@ -20,7 +20,7 @@ This page provides information on the following actions with product class attri
 *   [Editing product class attributes](#editing-product-class-attributes)
 *   [Deleting product class attributes](#deleting-product-class-attributes)
 
-## Adding product class attributes
+## Adding Product Class Attributes
 
 X-Cart supports two methods of adding attributes at the level of a product class. Below, we will show how to add an attribute "Print color.......Orange" for the product class "Plates".
 
@@ -94,7 +94,7 @@ The process is as follows:
         ![]({{site.baseurl}}/attachments/7504855/8719276.png)
         Now if you view the product on the storefront,  the Specification tab on its details page will show the attribute "Print color..........Orange". If at step 4c you chose to apply the attribute value "Orange" globally, all the products of the product class "Plates" will show the same attribute as well. If you kept the option "Apply value changes locally", the attribute value "Orange" will be applied only for the product you edited (However, you will be able to find "Orange" in the list of attribute values for the attribute "Print color" and apply it to other products of the product class "Plates" manually).
 
-## Viewing the list of attributes configured for a product class
+## Viewing the List of Attributes Configured for a Product Class
 
  The attributes that have been added for a product class can be viewed as follows:
 
@@ -113,13 +113,13 @@ To view the values for a specific attribute:
 2.  Click on the **Edit** button. This will display the attribute's details, including the list of its values:
     ![]({{site.baseurl}}/attachments/7504855/8719280.png)
 
-## Viewing a product's "product class"-level attributes
+## Viewing a Product's "Product Class"-level Attributes
 
 If a product has any "product class"-level attributes assigned, you can view their list in the "`<Product class name>` attributes" section of the product's details (**Attributes** tab > **Global** subsection):
 
 ![]({{site.baseurl}}/attachments/7504855/8719281.png)
 
-## Assigning "product class"-level attributes to products
+## Assigning "Product Class"-level Attributes to Products
 
 After adding attributes for a product class via the Classes & attributes section (**Catalog > Classes & attributes**), you need to assign these attributes to specific products.
 
@@ -154,7 +154,7 @@ In the following example, we will assign the attribute "Print color.....Orange" 
 
     The attribute(s) and their selected value(s) will be assigned to the product, after which you will be able to see them on the storefront.
 
-## Editing product class attributes
+## Editing Product Class Attributes
 
 Sometimes you may need to change the name and/or values of an attribute created at the level of a product class. You can do so using one of the following methods:
 
@@ -187,7 +187,7 @@ Sometimes you may need to change the name and/or values of an attribute created 
     *   Apply value changes locally => Changes of attribute values will affect only this product. Changes of attribute names and of the attributes list (for example, changes of the order of attributes in the list, or removal of attributes) will affect all the products of the corresponding class.
 6.  Click **Save changes**.
 
-## Deleting product class attributes
+## Deleting Product Class Attributes
 
 Sometimes you may need to delete an attribute created at the level of a product class. You can do so using one of the following methods:
 
@@ -212,6 +212,6 @@ Sometimes you may need to delete an attribute created at the level of a product 
 
 _Related pages:_
 
-*   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Managing product classes" ref_EVqNSaZy %}
-*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
+*   {% link "Product Classes and Attributes" ref_T90ZcEpP %}
+*   {% link "Managing Product Classes" ref_EVqNSaZy %}
+*   {% link "Types of Product Attributes - by Scope" ref_uaJk8ete %}
