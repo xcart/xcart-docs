@@ -10,7 +10,7 @@ published: true
 When creating a new product, you need to specify product details via the form fields of the Add product page. 
 
 {% note info %}
-The actual set of fields available to you on this page depends on the X-Cart edition you are using and the set of addons (modules) enabled. 
+The actual set of fields available to you on this page depends on the X-Cart edition you are using and the set of addons enabled. 
 
 If you do not see any of the fields described below in your X-Cart store back end, it means that the addon that enables this field is not installed or is not active. To see what addons are active in your store and, if necessary, to install/activate more addons, check the **My addons** section in your X-Cart store Admin area. 
 
@@ -46,9 +46,9 @@ The following list of fields corresponds to the set of product fields available 
     <a id="available-for-sale"></a>
     
     {% note info %}    
-    If you disable the **Available for sale** option, the product will become inactive, and store visitors who will attempt to access the page of this product via a direct link will see the 404 "Page not found" error. If necessary, you can set redirects for the pages of disabled products using .htacces or the [Redirects Module](https://market.x-cart.com/addons/redirects-by-Nova-Horizons.html "Adding products"). 
+    If you disable the **Available for sale** option, the product will become inactive, and store visitors who will attempt to access the page of this product via a direct link will see the 404 "Page not found" error. If necessary, you can set redirects for the pages of disabled products using .htacces or the [Redirects](https://market.x-cart.com/addons/redirects-by-Nova-Horizons.html "Adding products") addon. 
   
-    If you don't want to sell a product any longer but want a product page be still accessible on the storefront, set the product's stock to zero and add "Not available for sale" to the product name, rather than making it inactive. Make sure the _How to show out of stock products_ option is set to "Show in all the sections" in the **Store setup** -> **Cart & checkout** section of the admin area. 
+    If you do not want to sell a product any longer but want a product page be still accessible on the storefront, set the product's stock to zero and add "Not available for sale" to the product name, rather than making it inactive. Make sure the _How to show out of stock products_ option is set to "Show in all the sections" in the **Store setup** -> **Cart & checkout** section of the admin area. 
     {% endnote %}
     
 *   **Call for price**: This field is only available if X-Cart's {% link "Call For Price" ref_3K1pJExV %} addon is active; it enables you to specify that the price and Add to cart button must not be provided for the current product; instead, a message inviting store visitors to call for price should be displayed.
@@ -65,7 +65,7 @@ The following list of fields corresponds to the set of product fields available 
 
 *   **Sale**: This field is enabled by the {% link "Sale" ref_7tBJ8Yqo %} addon. Use it to put the product on sale. After enabling the "Sale" option you will be able to specify either a sale price for the product (expressed in the store currency) or a discount (expressed as a percentage off the product base price).
 
-*   **Arrival date**: This field allows you to specify the date since when the product is or will be available in your store. On its own, the information entered in this field serves purely informational purposes, but it may be employed by X-Cart modules. For example, it is used by the module "Product Advisor" which enables you to mark specific products in your catalog as "Coming soon" publishing their expected arrival date for the store visitors to see and automatically switches the status of such products to "New arrival" on the date of arrival.
+*   **Arrival date**: This field allows you to specify the date since when the product is or will be available in your store. On its own, the information entered in this field serves purely informational purposes, but it may be employed by X-Cart addons. For example, it is used by the addon "Product Advisor" which enables you to mark specific products in your catalog as "Coming soon" publishing their expected arrival date for the store visitors to see and automatically switches the status of such products to "New arrival" on the date of arrival.
 
 *   **Automatic reward points**: This field is only available if X-Cart's [Loyalty Program](https://market.x-cart.com/addons/loyalty-program.html?sl=en&utm_source=XC5admin&utm_medium=addons_list_installed&utm_campaign=XC5admin "Adding products") addon is active; it enables you to specify whether reward points for buying the current product should be calculated from the product price automatically or adjusted manually. With the "Automatic reward points" option disabled you will be able to set the number of points that a customer will earn by buying the current product via the **Reward points** field (appears when the "Automatic reward points" option is enabled).
 
@@ -85,11 +85,11 @@ The following list of fields corresponds to the set of product fields available 
 
 *   **Requires shipping**: Whether this product requires shipping. This setting affects the calculation of order shipping cost. (If the product does not require shipping, the shipping cost for it will not be calculated).
 
-*   **Freight**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}. More info on using this setting is available in the section {% link "Shipping freight" ref_kioKBJIM %}.
+*   **Freight**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}. More info on using this setting is available in the section {% link "Shipping Freight" ref_kioKBJIM %}.
 
-*   **Free shipping**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}. More info on using this setting is available in the section {% link "Free shipping on specific products" ref_IU9J0uuT %}.
+*   **Free shipping**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}. More info on using this setting is available in the section {% link "Free shipping on Specific Products" ref_IU9J0uuT %}.
 
-*   **Exclude from shipping cost calculation**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}. More info on using this setting is available in the section {% link "Free shipping on specific products" ref_IU9J0uuT %}.
+*   **Exclude from shipping cost calculation**: This field is enabled by the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %}. More info on using this setting is available in the section {% link "Free Shipping on Specific Products" ref_IU9J0uuT %}.
 
 *   **Separate box**: Whether the product needs to be shipped separately from other products. If it needs to be shipped in a separate box, you can define the box dimensions and the maximum number of product units that fit in this box. This setting affects the calculation of order shipping cost.
     
@@ -103,4 +103,4 @@ The following list of fields corresponds to the set of product fields available 
 
 *   **Product page title**: The title to be used in the title bar of this product details page (for SEO purposes). 
 
-*   **Clean URL**: The product page Clean URL (human-readable SEO-friendly URL, typically based on the product name). The URL can be configured manually (by editing of the field contents directly) or generated automatically (by enabling the "Autogenerate Clean URL" option below before saving the product). Note that if the Clean URLs feature is disabled, you will need to activate it for the SEO-friendly page URLs to become available to store visitors. More info on Clean URLs is available via the {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %} section of this manual.
+*   **Clean URL**: The product page Clean URL (human-readable SEO-friendly URL, typically based on the product name). The URL can be configured manually (by editing of the field contents directly) or generated automatically (by enabling the "Autogenerate Clean URL" option below before saving the product). Note that if the Clean URLs feature is disabled, you will need to activate it for the SEO-friendly page URLs to become available to store visitors. More info on Clean URLs is available via the {% link "Setting up SEO-friendly URLs" ref_nJxrzFEZ %} section of this manual.
