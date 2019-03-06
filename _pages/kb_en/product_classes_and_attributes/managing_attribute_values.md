@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-29 01:27 +0400'
 identifier: ref_bTfJ9bTS
-title: Managing attribute values
+title: Managing Attribute Values
 categories:
   - User manual
 published: true
@@ -18,7 +18,7 @@ This page covers the following topics:
 *   how to set up product options as [price and weight modifiers](#price-and-weight-modifiers) so that the price and/or weight of the product will change depending on the product options selected by the buyer;
 *   how to [set one of the defined attribute values as default](#setting-the-default-attribute-value).
 
-## Attribute value field types
+## Attribute Value Field Types
 
 X-Cart supports three field types for attribute values:
 
@@ -97,7 +97,7 @@ Hidden field attibutes unlike global attributes of any other type can be created
 
 A store admin can use the {% link "Bulk Editing" ref_1kSYmXQn %} tool to configure hidden attributes for multiple products at once.
 
-## Multi-value attributes (product options)
+## Multi-Value Attributes (Product Options)
 
 The _Plain text_ and _Yes/No_ attribute value field types allow you to use the **_multi-value_** feature, i.e. to specify multiple values for one attribute. In X-Cart 5 this feature is used to specify the product options that customers will be able to choose. For example, you can use _Plain field_ attribute values to provide information about the available sizes of a garment. Specific sizes like XS, S, M and L can be made into product options if you add them as values for the attribute "Size" like so:
 
@@ -132,7 +132,7 @@ On the storefront, customers can choose the option they require by adjusting the
 
 It should be noted that the method for specifying product options described above does not provide a way to track how many product units with a specific option you have sold and how many you still have on hand. Also, if the product has more than one multi-valued attribute, there is no way to specify, which option combinations (product variants) are actually available. If you need these features, consider installing X-Cart's [Product Variants](http://www.x-cart.com/extensions/addons/product-variants.html) module. This module allows you to create product variants from options and make them have their own prices, SKUs and stock levels.
 
-## Personilization options (editable Textarea)
+## Personilization Options (Editable Textarea)
 
 Starting with X-Cart 5.1, it is possible to add _**editable**_ _Textarea_ attribute values. Adding an editable attribute value  for some product attribute creates an empty editable text area field on the product page where buyers can enter their own custom text before adding the product to their shopping cart. This feature may be used if you are going to provide personalization options for products, like monogramming, embroidery, etc.
 
@@ -146,7 +146,7 @@ On the storefront, it looks like this:
 
 ![]({{site.baseurl}}/attachments/7504859/7602536.png)
 
-## Price and weight modifiers
+## Price and Weight Modifiers
 
 Attribute values for multi-value product attributes can be configured as _price and/or weight modifier_ options that will increase or decrease the price and/or weight of the product (the product's weight affects the shipping cost). 
 
@@ -175,7 +175,7 @@ To configure attribute values as price/weight modifiers:
     ![]({{site.baseurl}}/attachments/7504859/8719340.png)
     The settings will be saved.
 
-## Setting the default attribute value
+## Setting the Default Attribute Value
 
 When configuring multi-value attributes, you can control which of the attribute values should be shown to customers by default.
 
@@ -194,5 +194,5 @@ To set the default attribute value:
 
 _Related pages:_
 
-*   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
+*   {% link "Product Classes and Attributes" ref_T90ZcEpP %}
+*   {% link "Types of Product Attributes - by Scope" ref_uaJk8ete %}
