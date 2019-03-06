@@ -28,13 +28,13 @@ To create a product it's enough to spesify its name only. The rest of the produc
 *  {% link "Product Details" ref_2D8wAeXP %}
 *  {% link "Advanced Product Details" ref_2kV8GKN7 %}
 
-## Video guide
+## Video Guide
 
 This video captures the process of adding a new product in X-Cart 5.3.x. 
 
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/yJAaZIXOWLo" frameborder="0"></iframe>
 
-## Adding a new product
+## Adding a New Product
 
 To add a new product:
 
