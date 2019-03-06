@@ -3,14 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-29 01:27 +0400'
 identifier: ref_HzMkgc0q
-title: Managing global attributes
+title: Managing Global Attributes
 categories:
   - User manual
 published: true
 order: 500
 ---
-
-
 This page provides information on the following actions with global attributes:
 
 *   [Adding global attributes](#adding-global-attributes);
@@ -20,7 +18,7 @@ This page provides information on the following actions with global attributes:
 *   [Editing global attributes](#editing-global-attributes);
 *   [Deleting global attributes](#deleting-global-attributes).
 
-## Adding global attributes
+## Adding Global Attributes
 
 X-Cart supports two methods of adding global attributes. Below, we will show how to add a global attribute "Color".
 
@@ -97,7 +95,7 @@ The process is as follows:
         ![]({{site.baseurl}}/attachments/7504857/8719311.png)
         Now if you view the product on the storefront,  the Specification tab on its details page will show the attribute "Color..........Orange". If at step 4c you chose to apply the attribute value "Orange" globally, all the products in your store will show the same attribute as well. If you kept the option "Apply value changes locally", the attribute value "Orange" will be applied only for the product you edited (However, you will be able to find "Orange" in the list of attribute values for the attribute "Color" and apply it to other products in your store manually).
 
-## Viewing your store's list of global attributes
+## Viewing Your Store's List of Global Attributes
 
 To view your store's global attributes:
 
@@ -116,7 +114,7 @@ To view the values for a specific attribute:
 2.  Click the **Edit** button. This will display the attribute's details, including the list of its values:
     ![]({{site.baseurl}}/attachments/7504857/8719316.png) 
 
-## Assigning global attributes to products
+## Assigning Global Attributes to Products
 
 After adding global attributes via the Classes & attributes section (**Catalog > Classes & attributes**), you need to assign these attributes to specific products.
 
@@ -146,13 +144,13 @@ In the following example, we will assign the global attribute "Color.....Orange"
     ![]({{site.baseurl}}/attachments/7504857/8719310.png)
     The attribute(s) and their selected value(s) will be assigned to the product, after which you will be able to see them on the storefront.
 
-## Viewing a product's global attributes
+## Viewing a Product's Global Attributes
 
 If a product has any global attributes assigned, you can view their list in the "Global attributes" section of the product's details (**Attributes** tab** >** **Global **subsection):
 
 ![]({{site.baseurl}}/attachments/7504857/8719308.png)
 
-## Editing global attributes
+## Editing Global Attributes
 
 Sometimes you may need to change the name and/or values of a global attribute. You can do so using one of the following methods:
 
@@ -184,7 +182,7 @@ Sometimes you may need to change the name and/or values of a global attribute. Y
     *   Apply value changes locally => Changes of attribute values will affect only this product. Changes of attribute names and of the attribute list (for example, changes of the order of attributes in the list, or removal of attributes) will affect all the products in your store.
 6.  Click **Save changes**.
 
-## Deleting global attributes
+## Deleting Global Attributes
 
 Sometimes you may need to delete a global attribute. You can do so using one of the following methods:
 
@@ -208,5 +206,5 @@ Sometimes you may need to delete a global attribute. You can do so using one of 
 
 _Related pages:_
 
-*   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
+*   {% link "Product Classes and Attributes" ref_T90ZcEpP %}
+*   {% link "Types of Product Attributes - by Scope" ref_uaJk8ete %}
