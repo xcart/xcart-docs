@@ -3,14 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-29 01:28 +0400'
 identifier: ref_otIvC7NR
-title: Managing attribute groups
+title: Managing Attribute Groups
 categories:
   - User manual
 published: true
 order: 700
 ---
-
-
 If you have many different global or product class attributes, you can make them more manageable by dividing them into groups. Names of attribute groups will appear as headings in the list of attributes both on the storefront:
 
 ![]({{site.baseurl}}/attachments/7504788/7602420.png)
@@ -26,7 +24,7 @@ This page provides information on the following actions with attribute groups:
 *   [Editing attribute groups](#editing-attribute-groups);
 *   [Deleting attribute groups](#deleting-attribute-groups).
 
-## Adding attribute groups
+## Adding Attribute Groups
 
 To add a new attribute group:
 
@@ -53,7 +51,7 @@ To add a new attribute group:
 
 After a new attribute group has been added, it does not yet have any attributes in it. To add attributes to the group, follow the guidelines in the section [Assigning attributes to an attribute group](#assigning-attributes-to-an-attribute-group).
 
-## Assigning attributes to an attribute group
+## Assigning Attributes to an Attribute Group
 
 After creating an attribute group, you need to populate it with attributes. Attributes can be added to an attribute group when creating or editing attributes in the **Classes & attributes** section (**Catalog > Classes & attributes**):
 
@@ -62,7 +60,7 @@ After creating an attribute group, you need to populate it with attributes. Attr
 *   While editing an existing attribute, you can assign it to one of the existing attribute groups:
     ![]({{site.baseurl}}/attachments/7504788/8719354.png)
 
-## Editing attribute groups
+## Editing Attribute Groups
 
 It is possible to rename any existing attribute group and change the order in which attribute groups appear on the page.
 
@@ -87,7 +85,7 @@ Here's how this can be done:
         ![]({{site.baseurl}}/attachments/7504788/8719360.png)
         After rearranging the attribute groups as you require, be sure to click **Save changes**. The changes will be applied.
 
-## Deleting attribute groups
+## Deleting Attribute Groups
 
 When you no longer need a certain attribute group, you can delete it. Note that deleting a group does not delete the attributes that were assigned to it: after a group has been deleted, the attributes from the group will appear among other attributes having no associated groups.
 
@@ -110,5 +108,5 @@ To delete an attribute group:
 
 _Related pages:_
 
-*   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
+*   {% link "Product Classes and Attributes" ref_T90ZcEpP %}
+*   {% link "Types of Product Attributes - by Scope" ref_uaJk8ete %}
