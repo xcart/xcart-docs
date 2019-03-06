@@ -5,7 +5,7 @@ updated_at: '2019-03-06 13:30 +0400'
 identifier: ref_1hm03ERt
 title: VAT Basics
 order: 110
-published: false
+published: true
 ---
 Unlike sales tax, VAT is collected by all sellers of goods and services at each stage of the supply chain. That means that suppliers, manufacturers, distributors, retailers and end consumers all pay the VAT on their purchases. Hence if your business is based in the EU or the UK, you have different VAT obligations depending on where you sell to, and if you are trading in goods or services. 
 
@@ -24,4 +24,4 @@ All EU and UK VAT registered businesses must produce VAT invoices for the supply
 - Rate of VAT charged (If items are charged at different VAT rates, then show this for each item.)
 - Total amount including VAT (If items are charged at different VAT rates, then show this for each item.)
 
-X-Cart uses a [simplified type of invoice](https://www.gov.uk/vat-record-keeping/vat-invoices "UK and EU Taxes") that includes the abovementioned data. 
+X-Cart uses a [simplified type of invoice](https://www.gov.uk/vat-record-keeping/vat-invoices "UK and EU Taxes") that includes the abovementioned data.
