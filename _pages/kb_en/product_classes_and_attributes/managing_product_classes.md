@@ -1,12 +1,13 @@
 ---
-identifier: ref_EVqNSaZy
-updated_at: 2015-08-27 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Managing product classes'
+layout: article_with_sidebar
+updated_at: '2015-08-27 00:00'
+identifier: ref_EVqNSaZy
+title: Managing product classes
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 When some products in your catalog have certain characteristics in common and need to be handled together as a group, it may be a good idea to configure a product class for them. The process is as follows:
@@ -26,7 +27,7 @@ For more information on managing product classes, see:
 
 *   [Deleting product classes](#deleting-product-classes).
 
-## Creating product classes
+## Creating Product Classes
 
 When you decide you need to group certain products into a product class, you begin by creating this product class.
 
@@ -48,7 +49,7 @@ After a product class has been created, you can [assign it to products](#assigni
 
 If necessary, you can [edit the product class name](#editing-product-class-names) or [delete the product class](#deleting-product-classes) altogether.
 
-## Viewing your store's product class list
+## Viewing Your Store's Product Class List
 
  If you have any product classes configured in your store, you can view their list in the Classes & attributes section (**Catalog > Classes & attributes**) of your store's Admin area:
 
@@ -58,7 +59,7 @@ For each product class, you can see the number of products to which it has been 
 
 The list of attributes for each specific product class can be viewed by clicking the Edit attributes (N) link opposite the product class name.
 
-## Assigning product classes to products
+## Assigning Product Classes to Products
 
 To show that a certain product belongs to a certain product class, you need to go to the product's details and assign the product class to it. 
 
@@ -79,7 +80,7 @@ To assign a product class to a product:
     The product class will be assigned to the product:
     ![]({{site.baseurl}}/attachments/7504877/8719248.png)
 
-## Editing product class names
+## Editing Product Class Names
 
 It is possible to change the name of a product class.
 
@@ -92,7 +93,7 @@ To rename a product class:
 4.  Once you're done editing, click **Save changes**.
     The product class name will be updated. 
 
-## Deleting product classes
+## Deleting Product Classes
 
 It is possible to delete a previously created product class. Deleting a product class removes it from the product class list; any products to which the product class used to be assigned lose the product class and any attributes that were assigned to it via this product class.
 
@@ -105,6 +106,6 @@ To delete a product class:
 
 _Related pages:_
 
-*   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
-*   {% link "Managing product class attributes" ref_kEKoAxJB %}
+*   {% link "Product Classes and Attributes" ref_T90ZcEpP %}
+*   {% link "Types of Product Attributes - by Scope" ref_uaJk8ete %}
+*   {% link "Managing Product Class Attributes" ref_kEKoAxJB %}
