@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-28 17:58 +0400'
 identifier: ref_4iFdpTdv
-title: Adding featured products
+title: Adding Featured Products
 categories:
   - User manual
 published: true
@@ -11,8 +11,6 @@ order: 140
 redirect_from:
   - /products/adding_featured_products.html
 ---
-
-
 You can give certain products in your store more prominent placement by showcasing them as featured on the store's Home page or on the page of the product category to which it belongs. 
 
 This feature is made available by the addon ["Featured Products"](https://market.x-cart.com/addons/featured-products.html "Adding featured products") by X-Cart team. 
