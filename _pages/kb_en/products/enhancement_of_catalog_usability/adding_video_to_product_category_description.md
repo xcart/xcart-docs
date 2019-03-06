@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-02-08 14:32 +0400'
 identifier: ref_7zAsoYst
-title: Adding a video to product or category description
+title: Adding a Video to Product or Category Description
 order: 165
 published: true
 redirect_from:
