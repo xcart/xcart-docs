@@ -11,8 +11,6 @@ icon: table
 description: Manage the range of products with ease
 published: true
 ---
-
-
 You may find that the standard X-Cart's Product info page does not have enough fields for you to specify all the product parameters that you would like to include. For example, X-Cart does not provide fields for such product parameters as color, size, material, country of origin, ISBN, technical specifications, etc. out of the box. However, you can add any fields you think necessary using X-Cart's _attributes_ feature. 
 
 Product information that you add in the form of product attributes is displayed in the store's front end in the **Specification** tab of the product details page:
