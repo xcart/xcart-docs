@@ -11,4 +11,4 @@ order: 280
 redirect_from:
   - /products/adding_digital_goods.html
 ---
-X-Cart 5 can be used to sell downloadable products (aka digital goods / e-goods / digital distribution products). The feature is available through the use of X-Cart addons {% link "File attachments" ref_0ZWKcob4 %} and {% link "E-goods" ref_ZszpDfxQ %}.
+X-Cart 5 can be used to sell downloadable products (aka digital goods / e-goods / digital distribution products). The feature is available through the use of X-Cart addons {% link "File Attachments" ref_0ZWKcob4 %} and {% link "E-goods" ref_ZszpDfxQ %}.
