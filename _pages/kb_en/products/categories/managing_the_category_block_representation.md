@@ -21,7 +21,7 @@ In case you need to get a horizontal representation of categories, hide the regu
 
 To add categories to the top menu:
 
-1. Add your categories as menus on the Menus page (**Content** > **Menus**) in the store admin area as described in {% link "Adding new items to your store's menus" ref_BDykFBbw %}.
+1. Add your categories as menus on the Menus page (**Content** > **Menus**) in the store admin area as described in {% link "Adding New Items to Your Store's Menus" ref_BDykFBbw %}.
 
    ![menus.png]({{site.baseurl}}/attachments/ref_6rpDdput/menus.png)
 
