@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-28 18:08 +0400'
 identifier: ref_xWLlmcLL
-title: Enabling product comparison
+title: Enabling Product Comparison
 categories:
   - User manual
 published: true
@@ -13,11 +13,11 @@ redirect_from:
 ---
 
 
-The **Product comparison** module allows shoppers to compare different products in your store's catalog. You can install the module from the** Marketplace**:
+The addon **Product comparison** allows shoppers to compare different products in your store's catalog. You can install it from the Marketplace:
 
 ![]({{site.baseurl}}/attachments/6389834/8719217.png)
 
-Once the **Product comparison** module has been enabled, shoppers will see the **Compare** option when they hover over any product in the store's front end.
+Once the **Product comparison** addon has been enabled, shoppers will see the **Compare** option when they hover over any product in the store's front end.
 
 ![]({{site.baseurl}}/attachments/6389834/8719218.png)
 
