@@ -3,16 +3,14 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-29 01:30 +0400'
 identifier: ref_0uApuQfx
-title: Product variants
+title: Product Variants
 version: X-Cart with Product variants module
 categories:
   - User manual
 published: true
 order: 800
 ---
-
-
-The _attributes_ feature of X-Cart 5 is extended by the **Product variants** module allowing you to create _product variants_ with individual SKUs, prices and stock levels.
+The _attributes_ feature of X-Cart 5 is extended by the **Product variants** addon allowing you to create _product variants_ with individual SKUs, prices and stock levels.
 
 For a detailed explanation of what product variants are, see: 
 
@@ -76,14 +74,14 @@ If we configure the above option combinations as product variants for the produ
 
 ## Managing product variants
 
-To use product variants in your store, you will need to install the module **Product variants** by X-Cart team. For installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+To use product variants in your store, you will need to install the addon **Product variants** by X-Cart team. For installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-As a result, you should have the module **Product variants** listed in your store's Enabled modules section (**Addons** > **Enabled modules**). Make sure it is enabled:
+As a result, you should have the addon **Product variants** listed in your store's Installed Addons section (**My addons**). Make sure it is enabled:
 
 ![]({{site.baseurl}}/attachments/7504786/8719378.png)
 
 {% note info %}
-Please do mind that product variant will override the [price and weight modifiers](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#price-and-weight-modifiers "Product variants") if they are set up. So you can't have both used at the same time.
+Please be aware that product variants will override [price and weight modifiers](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#price-and-weight-modifiers "Product variants") if they have been set up. You cannot use both at the same time.
 {% endnote %}
 
 To configure product variants for a product:
@@ -173,7 +171,7 @@ If product variants are configured depending on the main product price, the pric
 
 _Related pages:_
 
-*   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Managing attribute values" ref_bTfJ9bTS %}
+*   {% link "Product Classes and Attributes" ref_T90ZcEpP %}
+*   {% link "Managing Attribute Values" ref_bTfJ9bTS %}
 *   {% link "Color Swatches" ref_4bXaF5qJ %}
 *   {% link "Variants Table View" ref_7FeW8hHv %}
