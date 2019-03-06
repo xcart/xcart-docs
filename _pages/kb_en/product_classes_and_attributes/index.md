@@ -23,35 +23,35 @@ Attributes can also be used:
 
 *   to set up product options/product variants that buyers will be able to choose:
     ![]({{site.baseurl}}/attachments/7504847/7602468.png)
-    (The product variants feature is enabled by the [Product Variants](http://www.x-cart.com/extensions/addons/product-variants.html) module).
+    (The product variants feature is enabled by the addon [Product Variants](http://www.x-cart.com/extensions/addons/product-variants.html)).
 
-*   to set up product filters based on attributes (the feature enabled by the [Product Filter](http://www.x-cart.com/extensions/addons/product-filter.html) module).
+*   to set up product filters based on attributes (the feature enabled by the addon [Product Filter](http://www.x-cart.com/extensions/addons/product-filter.html)).
 
 Product attributes in X-Cart are closely connected with another feature: _product classes._ The product classes feature is a way to group products with smiliar or the same attributes together. For information on managing product classes, see:
 
-*   {% link "Managing product classes" ref_EVqNSaZy %}
+*   {% link "Managing Product Classes" ref_EVqNSaZy %}
 
 Before you proceed to configuring attributes for your products, please read the following article:
 
-*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
+*   {% link "Types of Product Attributes - by Scope" ref_uaJk8ete %}
 
 For information on configuring and managing different types of product attributes, see:
 
-*   {% link "Managing product-specific attributes" ref_d4ktum3z %}
-*   {% link "Managing product class attributes" ref_kEKoAxJB %}
-*   {% link "Managing global attributes" ref_HzMkgc0q %}
+*   {% link "Managing Product-specific Attributes" ref_d4ktum3z %}
+*   {% link "Managing Product Class Attributes" ref_kEKoAxJB %}
+*   {% link "Managing Global Attributes" ref_HzMkgc0q %}
 
 For information on managing attribute values, see:
 
-*   {% link "Managing attribute values" ref_bTfJ9bTS %}
+*   {% link "Managing Attribute Values" ref_bTfJ9bTS %}
 
 For guidelines on organizing your global and product class attributes into groups, see:
 
-*   {% link "Managing attribute groups" ref_otIvC7NR %}
+*   {% link "Managing Attribute Groups" ref_otIvC7NR %}
 
 For information on managing product variants, see:
 
-*   {% link "Product variants" ref_0uApuQfx %}
+*   {% link "Product Variants" ref_0uApuQfx %}
 
 ## Video tutorial
 
