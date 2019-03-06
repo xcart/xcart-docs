@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-29 01:26 +0400'
 identifier: ref_d4ktum3z
-title: Managing product-specific attributes
+title: Managing Product-specific Attributes
 categories:
   - User manual
 published: true
