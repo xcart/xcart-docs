@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-28 18:02 +0400'
 identifier: ref_VtuUJTh5
-title: Adding images to product/category descriptions
+title: Adding Images to Product/Category Descriptions
 categories:
   - User manual
 published: true
@@ -11,8 +11,6 @@ order: 160
 redirect_from:
   - /products/adding_images_to_productcategory_descriptions.html
 ---
-
-
 You can easily add images to category/product descriptions.To add an image to the description of a category or a product, follow the steps below:
 
 1.  In your store's back end, open the details of the product or category to which you want to add an image. 
