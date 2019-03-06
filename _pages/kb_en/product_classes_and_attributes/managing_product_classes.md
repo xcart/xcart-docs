@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2015-08-27 00:00'
 identifier: ref_EVqNSaZy
-title: Managing product classes
+title: Managing Product Classes
 categories:
   - User manual
 published: true
