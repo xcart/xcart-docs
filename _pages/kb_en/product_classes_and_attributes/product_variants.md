@@ -14,12 +14,12 @@ The _attributes_ feature of X-Cart 5 is extended by the **Product variants**
 
 For a detailed explanation of what product variants are, see: 
 
-*   [What are product variants and why you may need them](#what-are-product-variants-and-why-you-may-need-them)
+*   [What Are Product Variants and Why You May Need Them](#what-are-product-variants-and-why-you-may-need-them)
 
 For information on how to configure product variants in your store, see:
 
-*   [Managing product variants](#managing-product-variants)
-*   [Wholesale prices for product variants](#wholesale-prices-for-product-variants)
+*   [Managing Product Variants](#managing-product-variants)
+*   [Wholesale Prices for Product Variants](#wholesale-prices-for-product-variants)
 *   {% link "Color Swatches for Product Variants" ref_4bXaF5qJ %}
 *   {% link "Variants Table View" ref_7FeW8hHv %}
 
