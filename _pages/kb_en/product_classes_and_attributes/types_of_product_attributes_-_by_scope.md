@@ -3,14 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-29 01:25 +0400'
 identifier: ref_uaJk8ete
-title: Types of product attributes - by scope
+title: Types of Product Attributes - by Scope
 categories:
   - User manual
 published: true
 order: 200
 ---
-
-
 Based on the scope at which they are applied, product attributes can be classified into three types: product-specific attributes, product class attributes and global attributes.
 
 Product-specific attributes are attributes that are configured on the level of specific products, like attributes for the product "Womens' Tailored Dot Shirt". 
@@ -27,7 +25,7 @@ Then, if one of your products has a property not found in any other products in 
 
 _Related pages:_
 
-*   {% link "Managing product classes" ref_EVqNSaZy %}
-*   {% link "Managing product-specific attributes" ref_d4ktum3z %}
-*   {% link "Managing product class attributes" ref_kEKoAxJB %}
-*   {% link "Managing global attributes" ref_HzMkgc0q %}
+*   {% link "Managing Product Classes" ref_EVqNSaZy %}
+*   {% link "Managing Product-specific Attributes" ref_d4ktum3z %}
+*   {% link "Managing Product Class Attributes" ref_kEKoAxJB %}
+*   {% link "Managing Global Attributes" ref_HzMkgc0q %}
