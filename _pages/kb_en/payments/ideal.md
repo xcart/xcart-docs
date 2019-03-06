@@ -8,6 +8,3 @@ order: 570
 published: true
 redirect_to: 'https://kb.x-cart.com/modules/ideal_payments/index.html'
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
