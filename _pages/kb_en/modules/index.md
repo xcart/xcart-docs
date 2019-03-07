@@ -26,6 +26,7 @@ _In this section:_
 *   {% link "Back in Stock Notifications" ref_1oUpzwSS %}
 *   {% link "Backorder / Preorder" ref_3XIgbfev %}
 *   {% link "Backup Master" ref_60LdO1tN %}
+*   {% link "Banner System" ref_1pqX9Yg7 %}
 *   {% link "Bestsellers" ref_5wAOub4C %}
 *   {% link "Blog System in X-Cart 5" ref_T5FrnC4x %}
 *   {% link "Block Users by IP / Country / User agent" ref_3rhs1MJ8 %}
