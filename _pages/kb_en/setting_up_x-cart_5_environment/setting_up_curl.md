@@ -9,11 +9,9 @@ categories:
 published: true
 order: 600
 ---
-
-
 ## Introduction
 
-[cURL](http://www.php.net/manual/en/intro.curl.php) is a PHP extension that is used for creating connections to different types of servers. In particular, we are using cURL to connect to our marketplace and install modules from there. Usually hosting teams compile PHP with cURL enabled and everything works fine. If this is not your case, this article is for you.
+[cURL](http://www.php.net/manual/en/intro.curl.php) is a PHP extension that is used for creating connections to different types of servers. In particular, we are using cURL to connect to our marketplace and install addons from there. Usually hosting teams compile PHP with cURL enabled and everything works fine. If this is not your case, this article is for you.
 
 There are several possible cases when cURL is not configured properly with your PHP and we will explain how to deal with these situations.
 
@@ -21,16 +19,16 @@ There are several possible cases when cURL is not configured properly with your 
 
 *   [Introduction](#introduction)
 *   [Table of contents](#table-of-contents)
-*   [cURL does not work on your web-server](#curl-does-not-work-on-your-web-server)
-*   [cURL does not work on your local machine](#curl-does-not-work-on-your-local-machine)
+*   [cURL Does Not Work on Your Web Server](#curl-does-not-work-on-your-web-server)
+*   [cURL Does Not Work on Your Local Machine](#curl-does-not-work-on-your-local-machine)
     *   [Windows + XAMPP](#windows-+-xampp)
     *   [Ubuntu/Debian + Apache](#ubuntu/debian-+-apache)
 
-## cURL does not work on your web-server
+## cURL Does Not Work on Your Web Server
 
 Usually this case can be solved if you contact your hosting team and ask them to [compile PHP with cURL](http://www.php.net/manual/en/curl.installation.php). Some hosting providers allow to enable cURL via Control Panel, so you may want to check this option before contacting hosting team. If you have dedicated server and manage extensions yourself, learn the section below for more instructions.
 
-## cURL does not work on your local machine
+## cURL Does Not Work on Your Local Machine
 
 In this case, the solution will be different depending on the type of your web-server and operation system.
 
