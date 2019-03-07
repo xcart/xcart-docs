@@ -6,6 +6,6 @@ identifier: ref_UFLdTRDQ
 title: Connecting X-Cart 5 and X-Payments
 categories:
   - User manual
-published: true
+published: false
 order: 110
 ---
