@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-03-06 13:48 +0400'
 identifier: ref_4tqYojGn
-title: VAT Prices
+title: VAT-Inclusive Prices
 order: 120
 published: true
 ---
