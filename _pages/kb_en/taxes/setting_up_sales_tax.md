@@ -18,16 +18,16 @@ If the Sales Tax addon is installed but not enabled, you will need to {% link "a
 
 Setting up sales tax in X-Cart 5 is not difficult, whereas the system provides enough flexibility to configure even the most intricate tax calculation rules: if necessary, it is possible to configure your sales tax so it is calculated differently depending on the tax class of the products in the order, the customer's address zone and the customer's membership level.
 
-This article explains how to set up and enable sales tax calculation using the Sales Tax module for X-Cart 5. 
+This article explains how to set up and enable sales tax calculation using the addon Sales Tax for X-Cart 5. 
 
 {% toc %}
 
-## Video tutorial
+## Video Tutorial
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/neu9h6xjJe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-## Before you configure sales tax
+## Before You Configure Sales Tax
 
 1.  Ensure that each of the products in your store that needs the sales tax to be applied to has a tax class assigned to it. You can create your custom tax classes or use the "Default tax class" that is assigned to all products by default. 
 
@@ -47,7 +47,7 @@ This article explains how to set up and enable sales tax calculation using the S
     *   {% link "Adding user membership levels" ref_9ITFspcC %}
 
 
-## Configuring sales tax
+## Configuring Sales Tax
 
 1.  Open the **Sales tax** tab of the **Taxes** section (**Store setup** > **Taxes**) in the X-Cart admin area.
     ![tax-sales.png]({{site.baseurl}}/attachments/ref_aJPK4DHN/tax-sales.png)
@@ -92,7 +92,7 @@ This article explains how to set up and enable sales tax calculation using the S
     
 6.  Click the **Save changes** button at the bottom of the page to save the changes.
 
-## Setting up sales tax rates
+## Setting up Sales Tax Rates
 
 You need to set up sales tax rates to configure your sales tax. Depending on whether you need to set up general tax rates or tax rates that apply to shipping charges, use the appropriate section: **General tax rates** or **Tax rates on shipping cost**. The procedure for setting up general tax rates and tax rates on shipping cost is essentially the same:
 
@@ -123,7 +123,7 @@ You need to set up sales tax rates to configure your sales tax. Depending on whe
 4.  Click the **Save changes** button at the bottom of the page to save the changes.
     
 
-## Enabling/Disabling sales tax calculation
+## Enabling/Disabling Sales Tax Calculation
 
 Once configured and enabled, sales tax calculation can be disabled/re-enabled using the **On**/**Off** button to the right of the **Tax title** field on the **Sales tax** panel in the Taxes section (**Store setup** > **Taxes**). When sales tax calculation is enabled, the **On/Off** icon on the button is green. When it is disabled, the icon is grey.
 
@@ -132,9 +132,9 @@ Once configured and enabled, sales tax calculation can be disabled/re-enabled us
 
 _Related pages:_
 
-*   {% link "Setting up tax classes" ref_pAWOdG8N %}
-*   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}
-*   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
-*   {% link "Adding user membership levels" ref_9ITFspcC %}
-*   {% link "Setting up VAT / GST (for the UK, EU, Australia, etc)" ref_Rzp45QlN %}
-*   {% link "Setting up Canadian taxes" ref_hxmof6xX %}
+*   {% link "Setting up Tax Classes" ref_pAWOdG8N %}
+*   {% link "Assigning Tax Classes to Products" ref_pAWOdG8N#assigning-tax-classes-to-products %}
+*   {% link "Setting up Address Zones" ref_r68iO5Rm %}
+*   {% link "Adding User Membership Levels" ref_9ITFspcC %}
+*   {% link "Setting up VAT / GST (for the UK, EU, Australia, etc.)" ref_Rzp45QlN %}
+*   {% link "Setting up Canadian Taxes" ref_hxmof6xX %}
