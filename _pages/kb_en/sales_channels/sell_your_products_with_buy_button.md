@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-06-08 16:29 +0400'
 identifier: ref_TEiIdZZc
-title: Sell your products with Buy Button
+title: Sell Your Products with Buy Button
 order: 120
 published: true
 version: X-Cart 5.3.3 and later
