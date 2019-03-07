@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-09 16:50 +0400'
 identifier: ref_38zRtgUZ
-title: Ecommerce dashboards
+title: Ecommerce Dashboards
 order: 300
 published: true
 ---
