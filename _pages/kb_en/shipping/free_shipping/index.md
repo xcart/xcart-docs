@@ -11,5 +11,5 @@ redirect_from:
 ---
 _In this section:_
 
-   * {% link "Free shipping on orders that meet certain conditions" ref_T9GhEfev %}
-   * {% link "Free shipping on specific products" ref_IU9J0uuT %}
+   * {% link "Free Shipping on Orders That Meet Certain Conditions" ref_T9GhEfev %}
+   * {% link "Free Shipping on Specific Products" ref_IU9J0uuT %}
