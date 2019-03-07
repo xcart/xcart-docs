@@ -27,6 +27,6 @@ EXPERTISE
 
 A newsletter should showcase what your expertise is and how you can help customers and prospects. The newsletter content should typically provide valuable information to customers and prospects that helped you establish the company as a leader in your industry. When developing leadership, make sure to include articles covering important issues in your market sector and share information on your industry and how you are adapting.
 
-To create a business newsletter, you can use the default X-Cart 5 {% link "Newsletter Subscriptions" ref_2WzsM3Pg %} module or you can join an autoresponder business - {% link "Mailchimp" ref_Rox8AcJp %}.
+To create a business newsletter, you can use the default X-Cart 5 addon {% link "Newsletter Subscriptions" ref_2WzsM3Pg %}, or you can join an autoresponder business - {% link "Mailchimp" ref_Rox8AcJp %}.
 
-The Newsletters Subscriptions module can be used for newsletters as an e-mail base only, as it collects the subscibers list that you can then export and use for mailing. Mailchimp integration allows both to automate the emails collection and the newsletters sending facilities, but a full access to services may require a paid subscription.
+The Newsletters Subscriptions addon can be used for newsletters as an e-mail base only, as it collects the subscibers list that you can then export and use for mailing. Mailchimp integration allows both to automate the emails collection and the newsletters sending facilities, but a full access to services may require a paid subscription.
