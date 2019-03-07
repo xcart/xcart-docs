@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-25 14:25 +0400'
 identifier: ref_1uXE2bZt
-title: Setting up your VAT / GST tax rates
+title: Setting up Your VAT / GST Tax Rates
 order: 120
 published: true
 ---
