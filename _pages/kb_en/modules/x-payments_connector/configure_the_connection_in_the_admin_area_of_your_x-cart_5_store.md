@@ -7,12 +7,16 @@ title: Configure the Connection in the Admin Area of Your X-Cart 5 store
 order: 130
 published: true
 ---
-The following procedure assumes that your X-Cart 5 store has the X-Payments connector addon installed and enabled.
+The following procedure assumes that: 
+   * Your X-Cart 5 store has the X-Payments connector addon installed and enabled.
+   * You have {% link "configured the connection between X-Payments and your X-Cart store in the X-Payments back end" ref_q4dUBnZT %}.
 
-Complete the following steps:
+To configure the connection between X-Payments and your X-Cart store on the X-Cart end, complete the steps below:
 
 1.  Log in to the Admin panel of your X-Cart 5 store.
+
 2.  Go to the Installed Addons section and, in the list of your store's installed addons, locate the entry for X-Payments connector. 
+
 3.  Click the **Settings** button next to the addon name:
     ![settings.png]({{site.baseurl}}/attachments/ref_TIExeDzi/settings.png)
     
@@ -20,6 +24,7 @@ Complete the following steps:
 
 4.  On the "X-Payments connector" addon settings page, select the **Connection** tab to access your store's connection settings:
     ![settings-connection.png]({{site.baseurl}}/attachments/ref_TIExeDzi/settings-connection.png)
+    
 5.  Now it is time to use the configuration bundle you have copied from your X-Cart 5 store's details page in the X-Payments admin back end. Paste the configuration bundle into the appropriate field on the "X-Payments connector" addon settings page in X-Cart and click **Deploy**:
     ![settings-connection-deploy.png]({{site.baseurl}}/attachments/ref_TIExeDzi/settings-connection-deploy.png)
     The addon will take a few moments to deploy the configuration. Once the process is complete, you will see a success message at the top of the screen saying "Test transaction has been completed successfully for API version X. Payment methods have been imported successfully. Configuration has been successfully deployed."
