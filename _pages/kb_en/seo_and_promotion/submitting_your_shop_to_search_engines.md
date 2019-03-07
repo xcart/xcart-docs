@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-03-13 15:04 +0400'
 identifier: ref_OqJ2oZTE
-title: Submitting your shop to search engines
+title: Submitting Your Shop to Search Engines
 categories:
   - User manual
 published: true
