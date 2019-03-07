@@ -16,7 +16,7 @@ On a shipping label, you’ll see barcodes, numbers and letters. Each area is be
 X-Cart is integrated with the following carrier providers that support shipping labes generation:
 
 * {% link "Canada Post" ref_ifwLo5ks %}
-* {% link "U.S.P.S." ref_158tuAaD %} (via Pitney Bowes set-up)
+* {% link "U.S.P.S." ref_158tuAaD %} (via Pitney Bowes setup)
 * {% link "ShippingEasy" ref_HTml5LyW %}
 * {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 * {% link "Royal Mail Service" ref_2gtSkN9y %}
