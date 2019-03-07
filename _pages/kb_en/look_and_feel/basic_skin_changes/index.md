@@ -13,7 +13,7 @@ The basic skin customizations include changing the default store logo and favico
 
 Sometimes it may also be necessary to change the default text on the store pages, as different people may prefer different words for the same meaning. This is also possible to help your store look unique. 
 
-To make your store pages more attractive for customers you can add banners to your store pages.  Removing the "Powered by" notice may be usefull if you want to hide the information about the software platform you use from your competitors.
+To make your store pages more attractive for customers you can add banners to your store pages. Removing the "Powered by" notice may be usefull if you want to hide the information about the software platform you use from your competitors.
 
 
 _In this section:_
