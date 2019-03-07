@@ -7,9 +7,9 @@ title: Configuring the Connection in the X-Payments Back End
 order: 120
 published: true
 ---
-This section provides a brief overview of how to configure the connection between X-Payments and an X-Cart 5 based online store on the X-Payments end. For more information on [configuring X-Payments](https://www.x-payments.com/help/X-Payments:Configuring_X-Payments), see the [X-Payments user manual](https://www.x-payments.com/help/X-Payments:User_manual).
+This section provides an overview of how to configure the connection between X-Payments and an X-Cart 5 based online store on the X-Payments end. 
 
-To configure the connection with your X-Cart 5 store in the X-Payments back end, follow the steps below:
+Follow the steps below:
 
 1.  Log in to X-Payments as administrator.
 
@@ -46,3 +46,7 @@ Before you proceed, please pay attention to the Connection section on the right-
 ![]({{site.baseurl}}/attachments/8750414/8719172.png)
 
 The configuration bundle provides a quick method to deploy X-Payments connection settings in your X-Cart 5 store. You will need this bundle when you will be configuring the connection in your X-Cart 5 Admin area. For now, simply click the Copy button to copy the bundle to clipboard so you have it at the ready when it is time to paste it on the X-Cart 5 end.
+
+_See also:_
+
+   * [Configuring X-Payments](https://www.x-payments.com/help/X-Payments:Configuring_X-Payments)
