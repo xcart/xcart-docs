@@ -11,13 +11,13 @@ In some situations, you may need to offer tax exemption to a portion of customer
 
 The process for making specific customers tax-exempt will differ depending on whether you have set taxes up manually or automatically.
 
-Automatical tax-exempt feature is supported in {% link "Avalara AvaTax " ref_27HUrpf1 %} and {% link "VAT/ GST module " ref_0OMhh0n0 %}. It also can be added by a special {% link "Tax Exempt module" ref_6dA6W1gY %} that expands the tax-exempt feature with a possiblity to add a tax-free option to some products or groups of products (nessecity goods, digital goods, services, etc.).
+Automatical tax-exempt feature is supported in {% link "Avalara AvaTax " ref_27HUrpf1 %} and {% link "VAT/ GST Addon" ref_0OMhh0n0 %}. It also can be added by a special {% link "Tax Exempt Addon" ref_6dA6W1gY %} that expands the tax-exempt feature with a possiblity to add a tax-free option to some products or groups of products (nessecity goods, digital goods, services, etc.).
 
 To set up a tax-exempt option manually you'll need to:
 
 1. Create a special tax-exempt membership and assign it the customers that can order goods tax free - See more info on memberships creation in {% link "Managing User Membership Levels" ref_RXsgxNSm %}
    {% note info %}
-   You'll need to devide all your customers into groups and assign a special membership level to each of the groups depending on whether the customer is tax-exempt or not.
+   You will need to divide all your customers into groups and assign a special membership level to each of the groups depending on whether the customer is tax-exempt or not.
    {% endnote %}
 
 2. Create the store tax system based on the memberships - See more info on taxes set-up in {% link "Setting up sales tax" ref_aJPK4DHN %}
