@@ -7,7 +7,7 @@ title: Installing and Configuring  Google Analytics Module
 order: 100
 published: true
 ---
-First of all you'll need to enable the Google Analytics module as described in the {% link "Managing addons" ref_gTOegEua %} guide.
+First of all you will need to enable the Google Analytics module as described in the {% link "Managing Addons" ref_gTOegEua %} guide.
 
 When the module is enabled, open the Settings page to configure it.
 
