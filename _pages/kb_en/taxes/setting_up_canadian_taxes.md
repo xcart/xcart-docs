@@ -8,13 +8,13 @@ order: 400
 published: true
 version: X-Cart 5.3.2 and later
 ---
-If your business is based in Canada, and you need to configure taxes like GST, PST, QST or HST, we recommend using the module **Canadian Taxes** for tax setup. 
+If your business is based in Canada, and you need to configure taxes like GST, PST, QST or HST, we recommend using the addon **Canadian Taxes** for tax setup. 
     ![taxes-can-installed.png]({{site.baseurl}}/attachments/ref_hxmof6xX/taxes-can-installed.png)
-This module is similar to the "Sales tax" module, but you can set up taxes only for Canadian provinces, and the tax names are GST/PST/HST/QST (The correct tax name to be shown to a customer is chosen automatically based on the customer's province).
+This addon is similar to the "Sales tax" addon, but you can set up taxes only for Canadian provinces, and the tax names are GST/PST/HST/QST (The correct tax name to be shown to a customer is chosen automatically based on the customer's province).
 
-To start using the module "Canadian Taxes", ensure that it is {% link "installed and enabled" ref_Vn1mMUw9 %} in your store.
+To start using the addon "Canadian Taxes", ensure that it is {% link "installed and enabled" ref_Vn1mMUw9 %} in your store.
 
-This article explains how to set up and enable the calculation of Canadian taxes using the module "Canadian Taxes" for X-Cart 5. 
+This article explains how to set up and enable the calculation of Canadian taxes using the addon "Canadian Taxes" for X-Cart 5. 
 
 {% toc %}
 
@@ -69,7 +69,7 @@ To configure Canadian taxes, complete the following steps:
 
 ## Setting up provincial tax rates
 
-**Canadian taxes** module comes with the predefined privincial tax rates. The number of fields to configure depends on the common tax settings. 
+The **Canadian taxes** addon comes with the predefined privincial tax rates. The number of fields to configure depends on the common tax settings. 
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![taxes-can-rate-fields.png]({{site.baseurl}}/attachments/ref_hxmof6xX/taxes-can-rate-fields.png)</div>
@@ -111,9 +111,9 @@ When tax calculation is enabled, the button shows as **Tax enabled**, and the On
 
 _Related pages:_
 
-*   {% link "Setting up tax classes" ref_pAWOdG8N %}
-*   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}
-*   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
-*   {% link "Adding user membership levels" ref_9ITFspcC %}
-*   {% link "Setting up sales tax" ref_aJPK4DHN %}
-*   {% link "Setting up VAT with the module "EU and UK VAT / GST"" ref_wcorpZyz %}
+*   {% link "Setting up Tax Classes" ref_pAWOdG8N %}
+*   {% link "Assigning Tax Classes to Products" ref_pAWOdG8N#assigning-tax-classes-to-products %}
+*   {% link "Setting up Address Zones" ref_r68iO5Rm %}
+*   {% link "Adding User Membership Levels" ref_9ITFspcC %}
+*   {% link "Setting up Sales Tax" ref_aJPK4DHN %}
+*   {% link "Setting up VAT with the Addon "EU and UK VAT / GST"" ref_wcorpZyz %}
