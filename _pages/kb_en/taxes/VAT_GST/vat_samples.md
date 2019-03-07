@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-25 14:30 +0400'
 identifier: ref_0i5znUi1
-title: Examples of VAT setup
+title: Examples of VAT Setup
 order: 150
 published: true
 ---
