@@ -13,4 +13,4 @@ VAT rates and VAT exemptions in X-Cart can be set-up manually using the {% link 
 
 _In this section:_
 *  {% link "VAT Basics" ref_1hm03ERt %}
-*  VAT Prices
+*  {% link "VAT-Inclusive Prices" ref_4tqYojGn %}
