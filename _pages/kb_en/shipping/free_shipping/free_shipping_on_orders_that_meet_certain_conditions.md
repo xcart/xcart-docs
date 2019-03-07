@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-09-13 13:16 +0400'
 identifier: ref_T9GhEfev
-title: Free shipping on orders that meet certain conditions
+title: Free Shipping on Orders That Meet Certain Conditions
 order: 140
 published: true
 redirect_from:
@@ -20,13 +20,13 @@ If necessary, it is possible to set up complex conditions based on a combination
 
 Let's take a closer look at how to configure free shipping for various types of conditions.
 
-   *  [Example 1. Free shipping on orders over $50](#example-1-free-shipping-on-orders-over-50);
-   *  [Example 2. Free shipping within Germany](#example-2-free-shipping-within-germany);
-   *  [Example 3. Free shipping on orders of 3 or more items](#example-3-free-shipping-on-orders-of-3-or-more-items)
-   *  [Example 4. Free shipping on orders of up to 200 g weight](#example-4-free-shipping-on-orders-of-up-to-200-g-weight)
-   * [Example 5. Free shipping on orders over $50 shipped within Germany](#example-5-free-shipping-on-orders-over-50-shipped-within-Germany) (Combined condition)
+   *  [Example 1. Free Shipping on Orders over $50](#example-1-free-shipping-on-orders-over-50);
+   *  [Example 2. Free Shipping within Germany](#example-2-free-shipping-within-germany);
+   *  [Example 3. Free Shipping on Orders of 3 or More Items](#example-3-free-shipping-on-orders-of-3-or-more-items)
+   *  [Example 4. Free Shipping on Orders of up to 200 g Weight](#example-4-free-shipping-on-orders-of-up-to-200-g-weight)
+   * [Example 5. Free Shipping on Orders over $50 Shipped within Germany](#example-5-free-shipping-on-orders-over-50-shipped-within-Germany) (Combined condition)
 
-## Example 1. Free shipping on orders over $50
+## Example 1. Free Shipping on Orders over $50
 
 1.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders with a subtotal over $50:
 
@@ -55,7 +55,7 @@ That is all. You should now have a free shipping method that will be displayed a
     ![xc5_freeshipping_method_over50_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_checkout.png)
 
     
-## Example 2. Free shipping within Germany
+## Example 2. Free Shipping within Germany
 
 1.  In your store's Admin area, go to **Store setup** > **Countries, states and zones** and configure a destination zone corresponding to Germany (for example, name it "Germany").
        ![xc5_freeshipping_germany_zone.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_germany_zone.png)
@@ -87,7 +87,7 @@ That is all. You should now have a free shipping method that will be displayed a
      ![xc5_freeshipping_method_germany_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_germany_checkout.png)
      
     
-## Example 3. Free shipping on orders of 3 or more items
+## Example 3. Free Shipping on Orders of 3 or More Items
 
 1.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders with 3 or more items:
 
@@ -116,7 +116,7 @@ That is all. You should now have a free shipping method that will be displayed a
     ![xc5_freeshipping_method_3items_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items_checkout.png)
 
 
-## Example 4. Free shipping on orders of up to 200 g weight
+## Example 4. Free Shipping on Orders of up to 200 g Weight
 
 1.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders with an unpackaged weight of no more than:
 
@@ -144,7 +144,7 @@ That is all. You should now have a free shipping method that will be displayed a
 That is all. You should now have a free shipping method that will be displayed at checkout only if the weight of all the items in the customer's order taken together does not exceed 200 g.
     ![xc5_freeshipping_method_weight200_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200_checkout.png)
 
-## Example 5. Free shipping on orders over $50 shipped within Germany
+## Example 5. Free Shipping on Orders over $50 Shipped within Germany
 
 1.  In your store's Admin area, go to **Store setup** > **Countries, states and zones** and configure a destination zone corresponding to Germany (for example, name it "Germany").
        ![xc5_freeshipping_germany_zone.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_germany_zone.png)
@@ -177,4 +177,4 @@ That is all. You should now have a free shipping method that will be displayed a
 
 _Related pages:_
 
-   * {% link "Free shipping on specific products" ref_IU9J0uuT %}
+   * {% link "Free Shipping on Specific Products" ref_IU9J0uuT %}
