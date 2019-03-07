@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-22 15:54 +0400'
 identifier: ref_xqnpttd4
-title: Setting the time limit of your server
+title: Setting the Time Limit of Your Server
 categories:
   - Developer docs
 published: true
@@ -41,7 +41,7 @@ Try adding the **proxy_read_timeout** option into your virtual host configurati
 
 proxy_read_timeout 300;
 
-## Nginx as standalone server + php-fpm
+## Nginx as Standalone Server + php-fpm
 
 Try adding the **fastcgi_read_timeout** option into your **php-fpm** configuration, for example:
 
