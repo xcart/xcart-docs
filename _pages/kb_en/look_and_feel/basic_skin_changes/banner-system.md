@@ -11,4 +11,4 @@ redirect_from:
 ---
 The default X-Cart 5 software allows adding banners to the store front-page (home-page) and category pages that is described in {% link "Changing the Default Welcome Text and Banner on the Front Page" ref_Id69E4GT %}. 
 
-If you want more banners that can be added to any page of the store and placed in different locations, you can extend the default functionality with the addon [Banners System](https://market.x-cart.com/addons/banner-system.html "Adding Banners to Store Pages"). For more info on this addon, see the section {% link "Banner System" ref_1pqX9Yg7 %} of this manual.
+If you want more banners that can be added to any page of the store and placed in different locations, you can extend the default functionality with the addon [Banners System](https://market.x-cart.com/addons/banner-system.html). For more info on this addon, see the section {% link "Banner System" ref_1pqX9Yg7 %} of this manual.
