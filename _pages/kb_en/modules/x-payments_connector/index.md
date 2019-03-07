@@ -24,8 +24,8 @@ If not, you can install it from the X-Cart 5 Marketplace. To intall the addon, f
 
 To start using X-Payments with your X-Cart store, you will need to complete the following connection steps:
 
-1.  {% link "Configure the connection in the X-Payments back end" ref_q4dUBnZT %}. to enable your X-Payments installation to connect to your X-Cart 5 store and to the payment gateway through which your customers' payments will be processed. More information on configuring X-Payments is available in the section "[Configuring X-Payments](https://www.x-payments.com/help/X-Payments:Configuring_X-Payments "X-Payments:User manual")" of the [X-Payments user manual](https://www.x-payments.com/help/X-Payments:User_manual "X-Payments:User manual").
-2.   {% link "Configure the connection in the Admin area of your X-Cart 5 store" ref_TIExeDzi %}.
+   1. {% link "Configure the connection in the X-Payments back end" ref_q4dUBnZT %}.
+   2. {% link "Configure the connection in the Admin area of your X-Cart 5 store" ref_TIExeDzi %}.
 
 A video guide for connecting X-Cart and X-Payments 3.x is available:
 
