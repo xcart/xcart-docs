@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-04-26 21:08 +0400'
 identifier: ref_SGI1FqdC
-title: Setting up discount coupons
+title: Setting up Discount Coupons
 categories:
   - User manual
 published: true
