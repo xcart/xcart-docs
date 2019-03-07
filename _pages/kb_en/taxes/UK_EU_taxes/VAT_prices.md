@@ -5,7 +5,7 @@ updated_at: '2019-03-06 13:48 +0400'
 identifier: ref_4tqYojGn
 title: VAT Prices
 order: 120
-published: false
+published: true
 ---
 X-Cart allows to set either VAT-inclusive or VAT-exclusive price representation if you use the {% link "VAT/GST addon" ref_0GjdgNJx %}.
 
@@ -33,11 +33,4 @@ This happens because X-Cart decreases the original product price by the percent 
 
 To avoid the mess as described above and set all prices predefined in the admin area as VAT-exclusive, a store admin should set the “The VAT/GST inclusive prices as defined in the product details are intended for” option value to “All addresses (default zone)” or any tax zone with a 0% tax rate. Then set the VAT tax rates for the locations it's applied for.
 
-If configured this way the product price defined in the store admin area as £100 will be displayed in the storefront for a UK-based customer as "£120 inc. VAT" (£100 + VAT 20%), for a customer from Hungary - "£127 inc. VAT" (£100 + VAT %27) and for a customer from a location without a VAT rate defined - "£100". 
-
-
-
-
-
-
-
+If configured this way the product price defined in the store admin area as £100 will be displayed in the storefront for a UK-based customer as "£120 inc. VAT" (£100 + VAT 20%), for a customer from Hungary - "£127 inc. VAT" (£100 + VAT %27) and for a customer from a location without a VAT rate defined - "£100".
