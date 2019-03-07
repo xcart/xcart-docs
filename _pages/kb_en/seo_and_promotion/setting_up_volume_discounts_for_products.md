@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-30 13:20 +0400'
 identifier: ref_xEadpu9F
-title: Setting up volume discounts for products
+title: Setting up Volume Discounts for Products
 categories:
   - User manual
 published: true
@@ -18,10 +18,10 @@ When a volume discount is applied, the cart and checkout pages will show the dis
 For purchases with a subtotal amount below the level needed to get a discount, a message like the following will be displayed:
 ![xc5_volumedisounts_get_discount_msg.png]({{site.baseurl}}/attachments/ref_xEadpu9F/xc5_volumedisounts_get_discount_msg.png)
 
-The volume discounts feature in X-Cart 5 is enabled by the module **Volume Discounts**:
+The volume discounts feature in X-Cart 5 is enabled by the addon **Volume Discounts**:
 ![mv_volumediscounts_addon.png]({{site.baseurl}}/attachments/ref_xEadpu9F/mv_volumediscounts_addon.png)
 
-To use the volume discounts feature, make sure the module is installed and enabled at your store. If the module is not installed, you can install it from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+To use the volume discounts feature, make sure the addon is installed and enabled at your store. If the addon is not installed, you can install it from the X-Cart Marketplace. For general addon installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 To configure a volume discount:
 
@@ -58,4 +58,4 @@ Note that volume discounts do not sum up: if a customer's order meets more than 
 _Related pages:_
 
    * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
-   * {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %} (video)
+   * {% link "Configuring Volume Discounts and Coupons in X-Cart 5" ref_6xFWK5tC %} (video)
