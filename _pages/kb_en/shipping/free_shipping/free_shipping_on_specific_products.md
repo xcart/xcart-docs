@@ -53,7 +53,7 @@ Example 5.
 A customer adds Product 2 and Product 3 to cart and proceeds to checkout. In addition to Standard ($5) and Express ($10) shipping, the cart will now show a special Free ($0) shipping method. The customer will be able to choose either free shipping (and pay nothing) or any of the paid shipping methods and pay only for the shipping of Product 2.
 
 ## The "Free Shipping" Method
-For the case when a customer's shopping cart contains only products with free shipping or products with free shipping and products excluded from shipping cost calculation the module provides a special method "Free shipping" 
+For the case when a customer's shopping cart contains only products with free shipping or products with free shipping and products excluded from shipping cost calculation, the addon provides a special method "Free shipping".
 ![xc5_freeshipping_specialfreeshipmethod.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/xc5_freeshipping_specialfreeshipmethod.png)
 
 If necessary, you can edit the name and description of this method. To do so, click on the method name and adjust the information you require.
