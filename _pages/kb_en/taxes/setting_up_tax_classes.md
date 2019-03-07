@@ -19,7 +19,7 @@ In X-Cart 5, every product needs to have a tax class assigned to it. By default,
 
 {% toc %}
 
-## Creating tax classes
+## Creating Tax Classes
 
 To create a new tax class:
 
@@ -39,7 +39,7 @@ That's all, the tax class has been created:
 
 Now you can assign it to products and configure tax rates for it. 
 
-## Assigning tax classes to products
+## Assigning Tax Classes to Products
 
 Once you have created the tax classes you require, be sure to assign them to products.
 
@@ -58,7 +58,7 @@ Once the tax class has been assigned to a product, this product will use the tax
 If you need to assign a tax class to more than one product at a time use the ["Products Bulk Edit"](https://kb.x-cart.com/products/bulk_edit.html#bulk-edit-price-and-membership "Setting up tax classes") feature.
 {% endnote %}
 
-## Configuring rates for tax classes
+## Configuring Rates for Tax Classes
 
 To configure rates for tax classes:
 
@@ -81,4 +81,4 @@ That's it, a tax rate for a tax class is created.
 
 _Related pages:_
 
-*   {% link "Specifying sales tax for your products" ref_aJPK4DHN %}
+*   {% link "Specifying Sales Tax for Your Products" ref_aJPK4DHN %}
