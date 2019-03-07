@@ -20,7 +20,7 @@ To set up a tax-exempt option manually you'll need to:
    You will need to divide all your customers into groups and assign a special membership level to each of the groups depending on whether the customer is tax-exempt or not.
    {% endnote %}
 
-2. Create the store tax system based on the memberships - See more info on taxes set-up in {% link "Setting up sales tax" ref_aJPK4DHN %}
+2. Create the store tax system based on the memberships - See more info on the setup of taxes in {% link "Setting up Sales Tax" ref_aJPK4DHN %}
   
    {% note info %}
    When setting up taxes disable the **Use the same tax rates for all user membership levels** option and create tax rates based on the memberships used in the store. The tax-exempt membership should have a 0% tax rate applied.
