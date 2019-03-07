@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-30 13:05 +0400'
 identifier: ref_ybdiN8r0
-title: Carrier-calculated shipping rates
+title: Carrier-calculated Shipping Rates
 categories:
   - User manual
 published: true
