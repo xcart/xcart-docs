@@ -3,9 +3,9 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-03-07 14:13 +0400'
 identifier: ref_1pqX9Yg7
-title: Banner System
+title: ''
 order: 100
-published: false
+published: true
 ---
 The addon **[Banners System](https://market.x-cart.com/addons/banner-system.html)** provides a tool that enables you to add banners to your store pages. It is possible to use both images and HTML code based banners. Banners can help you to promote products, events or offers using a wide range of effects. The module is fully responsive and compatible with all built-in color schemes (themes) of X-Cart 5.
 
@@ -103,4 +103,3 @@ To edit the banner further click on its name in the list of banners available in
    An HTML banner will look as follows in the customer storefront:
    
    ![html-banner-cus.png]({{site.baseurl}}/attachments/ref_35tpPrVf/html-banner-cus.png)
-
