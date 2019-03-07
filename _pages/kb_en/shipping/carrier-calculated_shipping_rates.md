@@ -9,8 +9,6 @@ categories:
 published: true
 order: 100
 ---
-
-
 Some carrier companies provide web services that allow shopping carts to access information about the shipping options and rates provided by these companies in real time. Shopping carts integrated with such services can provide real-time carrier-calculated shipping quotes to their users. 
 
 X-Cart 5 provides integrations with a few of the most popular real-time shipping rate calculation services, including:
@@ -45,10 +43,10 @@ To use carrier-calculated shipping rates, configure shipping as outlined below:
     ![]({{site.baseurl}}/attachments/9306236/9437260.png)
 3.  On the **Carrier-calculated rates** tab within the popup window, locate the carrier whose real-time rate calculation service you would like to use. Click on the respective icon:
     ![]({{site.baseurl}}/attachments/9306236/9437261.png)
-    If the selected shipping integration module is {% link "installed and enabled" ref_uEnDBBA7 %} at your store, you will be redirected to its settings page. If not, you will be redirected to {% link "X-Cart's Modules Marketplace" ref_Vn1mMUw9 %} where you will need to install the respective module from. 
+    If the selected shipping integration addon is {% link "installed and enabled" ref_uEnDBBA7 %} at your store, you will be redirected to its settings page. If not, you will be redirected to X-Cart's {% link "Marketplace" ref_Vn1mMUw9 %} from which you will need to install the respective addon. 
 
-4.  Configure the settings of the selected shipping integration module and save the changes. 
-    We have instructions for some popular shipping modules:
+4.  Configure the settings of the selected shipping integration addon and save the changes. 
+    We have instructions for some popular shipping addons:
     *   {% link "Canada Post" ref_XsHLxUwv %}
     *   {% link "DHL" ref_3dwzJG71 %}
     *   {% link "FedEx" ref_58tOKWMt %}
