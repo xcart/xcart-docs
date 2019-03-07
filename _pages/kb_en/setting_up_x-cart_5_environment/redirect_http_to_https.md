@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-12 17:21 +0400'
 identifier: ref_httpredirect
-title: HTTP to HTTPS redirect configuration
+title: HTTP to HTTPS Redirect Configuration
 published: true
 order: 300
 ---
@@ -12,11 +12,11 @@ If you have a secure certificate (SSL) on your website, you can automatically re
 
 How you redirect traffic depends on the type of hosting you have.
 
-## Linux hosting with Apache
+## Linux Hosting with Apache
 
 To configure redirect on Apache server, you should have **.htaccess** file in your website root catalog and have to append some rules to this file. Here are some variants of the rules based on different use cases:
 
-### Redirect all http:// pages to https:// ones
+### Redirect All http:// Pages to https:// Ones
 
 ```
 RewriteEngine On
@@ -47,7 +47,7 @@ Also, there is the third variant, recommended by Apache documentation. It is mor
 </VirtualHost>
 ```
 
-### Redirect a specific http:// page to https://
+### Redirect a Specific http:// Page to https://
 
 Use this code in the **.htaccess** file:
 
@@ -60,7 +60,7 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
 
 where `/login.php` should be substituted with the path of the page.
 
-### Redirect all http:// pages to https:// except one
+### Redirect All http:// Pages to https:// Except One
 
 ```
 RewriteEngine On
@@ -71,11 +71,11 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
 
 Here `/test.php` should be substituted with the path of the page.
 
-## Windows hosting with IIS
+## Windows Hosting with IIS
 
 To configure redirect on IIS server, you should have **web.config** file in your website root catalog and have to append some rules to this file. Here are some variants of the rules based on different use cases:
 
-### Redirect the main domain and its subdomains
+### Redirect the Main Domain and Its Subdomains
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -96,7 +96,7 @@ To configure redirect on IIS server, you should have **web.config** file in your
 </configuration>
 ```
 
-### Redirect only the main domain
+### Redirect Only the Main Domain
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
