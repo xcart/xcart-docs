@@ -9,20 +9,18 @@ categories:
 published: true
 order: 120
 ---
+The addon **XML Sitemap** for X-Cart 5 serves SEO purposes. It generates an XML sitemap that can help popular search engines to crawl your store website better. You can submit the XML sitemap generated using the addon to the search engines of your choice. The addon also provides automated submission of the generated XML sitemap to Google and Bing.
 
+## Installing the XML Sitemap Addon
 
-The module **XML Sitemap** for X-Cart 5 serves SEO purposes. It generates an XML sitemap that can help popular search engines to crawl your store website better. You can submit the XML sitemap generated using the module to the search engines of your choice. The module also provides automated submission of the generated XML sitemap to Google and Bing.
-
-## Installing the XML Sitemap module
-
-The module can be installed from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+The addon can be installed from the X-Cart Marketplace. For general addon installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
 ![xml-1.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xml-1.png)
 
 
-## Configuring your XML sitemap
+## Configuring Your XML Sitemap
 
-Once the module XML Sitemap has been installed, you will be able to access the XML sitemap settings (**Store setup** > **SEO Settings**) in your store's Admin area.
+Once the addon XML Sitemap has been installed, you will be able to access the XML sitemap settings (**Store setup** > **SEO Settings**) in your store's Admin area.
 
 ![xml-2.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xml-2.png)
 
@@ -40,7 +38,7 @@ The button **Generate XML Sitemap** at the top of the page allows you to re-gene
 ![xml-3.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xml-3.png)
 
 
-## Submitting your XML sitemap to search engines
+## Submitting Your XML Sitemap to Search Engines
 
 You can find your XML sitemap URL at the top of the XML sitemap tab in your store's Admin area (**Store setup** > **SEO Settings**):
 
@@ -74,5 +72,5 @@ You can submit your store's XML sitemap to search engines using one of the follo
 
 For more info on sitemaps, see [http://www.sitemaps.org](http://www.sitemaps.org).
 
-# Automated re-generation of XML sitemap
+# Automated Re-generation of XML Sitemap
 Your store's generated XML sitemap will be re-generated automatically every 24 hours if you have properly configured your server to periodically run X-Cart's script for periodic tasks **console.php** (for example, by cron). For more info on that, see {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
