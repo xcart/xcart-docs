@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-08-02 11:49 +0400'
 identifier: ref_J70IfNxL
-title: Choosing the data cache driver
+title: Choosing the Data Cache Driver
 order: 550
 published: true
 categories:
@@ -85,7 +85,7 @@ More info about setting up the cron tasks can be found [here](https://www.cyberc
 
 Memcached is the free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
 
-Memcached have to be installed as the PHP module, you can find more info [here](http://php.net/manual/en/memcached.installation.php).
+Memcached has to be installed as a PHP module. You can find more info [here](http://php.net/manual/en/memcached.installation.php).
 
 Also, you'll have to specify `type=memcached` and list your memcached servers at the `[cache]` section in the `<X-Cart dir>/etc/config.php` file like this:
 
