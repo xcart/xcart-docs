@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-02-27 10:48 +0400'
 identifier: ref_Id69E4GT
-title: Changing a Default Store's Welcome Text and Banner on the Front Page
+title: Changing the Default Welcome Text and Banner on the Front Page
 categories:
   - User manual
 published: true
@@ -12,8 +12,6 @@ redirect_from:
   - >-
     /look_and_feel/changing_your_stores_welcome_text_and_banner_on_the_front_page.html
 ---
-
-
 By default, the Front page of your X-Cart store contains a dummy Welcome message and a dummy banner. Depending on your store's skin and layout, the placement of the banner and welcome message may be somewhat different. 
 
 For example, here's what it looks like in X-Cart's Standard skin:
