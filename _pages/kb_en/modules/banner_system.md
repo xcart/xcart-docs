@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-03-07 14:13 +0400'
 identifier: ref_1pqX9Yg7
-title: ''
+title: Banner System
 order: 100
 published: false
 ---
