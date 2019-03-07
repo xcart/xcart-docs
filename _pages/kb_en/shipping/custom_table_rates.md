@@ -3,14 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-08 14:08 +0400'
 identifier: ref_3TG6AuN0
-title: Custom table rates
+title: Custom Table Rates
 categories:
   - User manual
 published: true
 order: 120
 ---
-
-
 When you decide what to charge your customers for shipping, the best approach is to use shipping rates based on what shipping actually costs your business. The most accurate estimation of shipping costs can be provided by using {% link "carrier-calculated shipping rates" ref_ybdiN8r0 %}, or, as an alternative, you may decide you want to configure your own custom rate table. 
 
 {% note info %}
