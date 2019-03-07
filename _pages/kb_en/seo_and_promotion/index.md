@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-06-01 17:30 +0400'
 identifier: ref_Ibr5EziH
-title: SEO and promotion
+title: SEO and Promotion
 categories:
   - home
 order: 70
@@ -21,9 +21,9 @@ Improving SEO will help customers find your online store in search engines and h
 
 Using SEO analytics and reports will give you insight into your sales and customers in great detail and help to improve your business. The types of analytics and reports that you can view depend on the tool you use.
 
-*   {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %}
-*   {% link "Optimizing your catalog pages for SEO" ref_OBh3V1k1 %}
-*   {% link "Submitting your shop to search engines" ref_OqJ2oZTE %}
+*   {% link "Setting up SEO-friendly URLs" ref_nJxrzFEZ %}
+*   {% link "Optimizing Your Catalog Pages for SEO" ref_OBh3V1k1 %}
+*   {% link "Submitting Your Shop to Search Engines" ref_OqJ2oZTE %}
 *   {% link "SEO Health Check" ref_2RwDb3OY %}
 *   {% link "Google Analytics" ref_6NqAify2 %}
 *   {% link "Segment Integration" ref_1L33zOCa %}
@@ -36,9 +36,9 @@ Offering discounts can be a powerful marketing strategy for your X-Cart store, a
 
 Use newsletters to reach your customers and share news about your store and sale campaigns with them. 
 
-*   {% link "Putting products on sale" ref_6EE1gdnh %}
-*   {% link "Setting up discount coupons" ref_SGI1FqdC %}
-*   {% link "Setting up volume discounts for products" ref_xEadpu9F %}
+*   {% link "Putting Products on Sale" ref_6EE1gdnh %}
+*   {% link "Setting up Discount Coupons" ref_SGI1FqdC %}
+*   {% link "Setting up Volume Discounts for Products" ref_xEadpu9F %}
 *   {% link "Promote Sales with User Memberships" ref_memberships_ext %}
 *   {% link "Promoting Sales with Newsletters" ref_1YvPiQr5 %}
 *   {% link "Special Offers" ref_special_offers %}
