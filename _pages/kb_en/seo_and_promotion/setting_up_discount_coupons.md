@@ -11,12 +11,12 @@ order: 130
 ---
 X-Cart 5 allows you to create coupons for your customers. A coupon is a secret code which a customer can use to get a discount on their order (typically, a fixed amount or a percentage off, or free shipping). It is possible to limit the use of a coupon to a specific order subtotal amount, time period, product category, product class or user membership level. If necessary, it is also possible to set the number of times that a coupon can be used.
 
-The coupons feature in X-Cart 5 is enabled by the module **Coupons**:
+The coupons feature in X-Cart 5 is enabled by the addon **Coupons**:
 ![mvcoupons_addon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/mvcoupons_addon.png)
 
-To use the coupons feature, make sure the module is installed and enabled at your store. If the module is not installed, you can install it from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+To use the coupons feature, make sure the addon is installed and enabled at your store. If the addon is not installed, you can install it from the X-Cart Marketplace. For general addon installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-When the **Coupons** module is enabled, a link **Have a discount coupon?** is provided at checkout. 
+When the **Coupons** addon is enabled, a link **Have a discount coupon?** is provided at checkout. 
 ![xc5_coupons_haveacoupon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_haveacoupon.png)
 
 Buyers can use this link to expand a section where they can enter their coupon code:
@@ -73,4 +73,4 @@ Now your customer should be able to enter the code **HAPPY10** at checkout and g
 _Related pages:_
 
    * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}  
-   * {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %} (video)
+   * {% link "Configuring Volume Discounts and Coupons in X-Cart 5" ref_6xFWK5tC %} (video)
