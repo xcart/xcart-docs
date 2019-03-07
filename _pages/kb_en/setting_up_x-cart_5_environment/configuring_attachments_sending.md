@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-08-15 15:26 +0400'
 identifier: ref_yCxquUhl
-title: Configuring your X-Cart server for better large file download performance
+title: Configuring Your X-Cart Server for Better Large File Download Performance
 order: 500
 published: true
 version: X-Cart 5.3.3.2 and later
@@ -20,7 +20,7 @@ use_sendfile = On
 
 After that you will also need to perform some server-specific configuration as provided below.
 
-## Apache-specific configuration
+## Apache-specific Configuration
 
 Apache server requires `mod_xsendfile` to enable the XSendFile option and the corresponding headers. So you will need to make sure it is available.
 
@@ -32,7 +32,7 @@ XSendFile On
 
 On X-Cart 5.3.3.2 or later installations this option is included by default.
 
-## nginx-specific configuration
+## Nginx-specific Configuration
 
 You'll need to add the following `location` directive into the `server` section of the server configuration file and replace the `<STORE ROOT>` part with the path to the X-Cart folder:
 
