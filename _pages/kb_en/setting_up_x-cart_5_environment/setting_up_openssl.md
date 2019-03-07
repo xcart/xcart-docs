@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-27 23:24 +0400'
 identifier: ref_GuFOdboA
-title: Setting up openSSL
+title: Setting up OpenSSL
 categories:
   - Developer docs
 published: true
@@ -21,10 +21,10 @@ If you face this problem on your local machine, check the tips below. The soluti
 
 *   [Introduction](#introduction)
 *   [Table of Contents](#table-of-contents)
-*   [Configuring openSSL](#configuring-openssl)
+*   [Configuring OpenSSL](#configuring-openssl)
     *   [Windows + XAMPP](#windows-+-xampp)
 
-## Configuring openSSL
+## Configuring OpenSSL
 
 ### Windows + XAMPP
 
