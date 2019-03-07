@@ -12,15 +12,15 @@ redirect_from:
     /integrating_your_store_with_other_web-sites/sell_your_products_with_buy_button.html
 ---
 
-The Buy Button module lets you easily add ecommerce to your blog, website, or email campaign using Buy Buttons that connect with a X-Cart store. You can use Buy Buttons to sell your products on WordPress, Tilda, and Wix, on your own website, or wherever you've already built an audience online. Product cards with the Buy Buttons always show the actual product name and price, even if you modify them on your storefront.
+The addon Buy Button lets you easily add ecommerce to your blog, website, or email campaign using Buy Buttons that connect with a X-Cart store. You can use Buy Buttons to sell your products on WordPress, Tilda, and Wix, on your own website, or wherever you've already built an audience online. Product cards with the Buy Buttons always show the actual product name and price, even if you modify them on your storefront.
 
-After you've installed the Buy Button module in your X-Cart admin, you can create a new Buy Button for a product. This generates either a snippet of embed code for you to embed in the source HTML of your webpage, or a URL for you to add to your email campaign. After you embed it, the code displays a Buy Button.
+After the Buy Button addon has been installed in your X-Cart store, you can create a new Buy Button for a product. This generates either a code snippet for you to embed in the source HTML of your webpage, or a URL for you to add to your email campaign. After you embed it, the code displays a Buy Button.
 
-## Creating Buy Button
+## Create a Buy Button
 
 To create a Buy Button:
 
-1.	From your X-Cart admin menu, open **Promotions** section and click **Buy Button**.
+1.	From your X-Cart admin menu, open the **Promotions** section and click **Buy Button**.
 
 2.	On the Buy Button page, choose either **Generate product card** or **Embed product to email** and click the corresponding **Select product** button:
 
@@ -28,7 +28,7 @@ To create a Buy Button:
 
 4.	From the **Configure Buy Button** page, you can customize the product's attributes and the button's click action:
 
-5.	If your product has multiple variants (like size or color), then you can select a specific attributes combination to associate with the Buy Button. Please note that the variant stock status is not taken into consideration.
+5.	If your product has multiple variants (like size or color), then you can select a specific combination of attributes to associate with the Buy Button. Please note that the variant stock status is not taken into consideration.
 
 6.	In the Action on click section, use the drop-down menu to select what will happen when a customer clicks the buy button:
 
@@ -40,15 +40,15 @@ To create a Buy Button:
 
 8.	The embed code is ready for pasting!
 
-## Embedding code
+## Embed the Code
 
-After you create a Buy Button in your X-Cart admin, you're ready to add it to your own website or blog. The process of adding embed code to your website's source HTML is a bit different depending on how and where you want your Buy Buttons and cart to appear, on your website platform.
+After a Buy Button has been created in your X-Cart admin, you're ready to add it to your own website or blog. The process of adding the embed code to your website's source HTML is a bit different depending on how and where you want your Buy Buttons and cart to appear on your website platform.
 
-In general, any website or platform, which allows to paste plain HTML code with script tags, can embed Buy Button card. Look for **HTML code** widget or **Code** text editor mode. Here are some tutorials for the most popular platforms:
+In general, any website or platform that allows you to paste plain HTML code with script tags can embed the Buy Button cart. Look for an **HTML code** widget or **Code** text editor mode. Here are some tutorials for the most popular platforms:
 
-### Adding Buy Button to Wordpress blog
+### Add a Buy Button to a Wordpress Blog
 
-You can add embed code to individual posts and to the menu on the homepage of your WordPress blog.
+You can add your embed code to individual posts and to the menu on the homepage of your WordPress blog.
 
 You can also use embedded collections with custom themes to create an entire ecommerce site in WordPress.
 
@@ -56,9 +56,9 @@ You can also use embedded collections with custom themes to create an entire eco
 Embedded Buy Buttons are compatible with the **WordPress.org platform** — but **not** with WordPress.com, because it strips custom script tags embeds. This documentation describes WordPress 4.2.2. Your version might be different.
 {% endnote %}
 
-#### Add embed code to a post
+#### Add the Embed Code to a Post
 
-To add embed code to an individual post:
+To add your embed code to an individual post:
 
 1.	In your X-Cart admin, create a Buy Button and copy its embed code from the **Embed Code** dialog (or click **Copy embed code to clipboard**):
 
@@ -68,20 +68,20 @@ To add embed code to an individual post:
 
 	![wordpress_start.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_start.png)
 
-3.  From the **Add New Post** or **Edit Post** page, change the text editor from Visual to Text mode and paste the embed code into the editor's main text field in the place where you want the Buy Button or collection to appear:
+3.  From the **Add New Post** or **Edit Post** page, change the text editor from Visual to Text mode and paste the embed code into the editor main text field in the place where you want the Buy Button or collection to appear:
 	
 	![wordpress_publish.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_publish.png)
     
-5.	When you're done, click **Save Draft**, **Preview**, or **Publish**. After publish is done, Buy button can be visible in the post.
+5.	When you are done, click **Save Draft**, **Preview**, or **Publish**. Once published, the Buy button will be visible in the post.
 
 	![wordpress_finish.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_finish.png)
 
 
-#### Add embed code to a menu
+#### Add the Embed Code to a Menu
 
-To add embed code to a menu on the homepage:
+To add your embed code to a menu on the homepage:
 
-1.	From your WordPress dashboard, find __Appearance__, and open __Customize__ page to enable the theme editor, and then click __Widgets__:
+1.	From your WordPress dashboard, find __Appearance__, and open the __Customize__ page to enable the theme editor, and then click __Widgets__:
 
 	![wordpress_menu_1.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_1.png)
     
@@ -97,15 +97,15 @@ To add embed code to a menu on the homepage:
 
 	![wordpress_menu_4.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_4.png)
 
-5.  Buy button is now visible as a widget:
+5.  The Buy button is now visible as a widget:
 
 	![wordpress_menu_5.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_5.png)
 
-### Adding Buy Button to Wix
+### Add a Buy Button to Wix
 
-After you've created a Buy Button in your X-Cart admin, you can add it to your Wix website using the Wix Website Editor.
+After a Buy Button has been created in your X-Cart admin, you can add it to your Wix website using the Wix Website Editor.
 
-If you want to display more than one product on your Wix website, simply copy-paste several embed codes one after another. They will be displayed on the same line, as long as there is enough horizontal space.
+If you want to display more than one product on your Wix website, simply copy and paste several embed codes one after another. They will be displayed on the same line, as long as there is enough horizontal space.
 
 1.	Start by creating a Buy Button and then copy its embed code.
 
