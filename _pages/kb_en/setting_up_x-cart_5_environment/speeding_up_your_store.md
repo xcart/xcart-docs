@@ -18,7 +18,7 @@ During our tests we measure the _Time to Last Byte_ parameter, the time between 
 *   Category page: faster than 1.5 sec;
 *   Product page: faster than 2 sec.
 
-Also it's possible to use [https://www.webpagetest.org]( https://www.webpagetest.org "Speeding up your store") to test a site performance. 
+Also it is possible to use [https://www.webpagetest.org]( https://www.webpagetest.org "Speeding up your store") to test a site performance. 
 
 {% toc **How can I speed up my store?** %}
 
