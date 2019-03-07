@@ -12,7 +12,7 @@ Let us consider a few typical cases of tax setup that can be implemented using t
 {% toc %}
 
 
-### **I. Set VAT-inclusive prices for the country where you do business**
+### **I. Set VAT-inclusive Prices for the Country Where You Do Business**
 
 For example, you are doing business in Germany. In Germany, prices are usually set including VAT, so we need to set VAT-inclusive prices. Most types of goods in Germany require a VAT rate of 19%.
 
@@ -32,7 +32,7 @@ To set up VAT-inclusive prices for sales in Germany, follow these steps:
 
 4. Set the VAT rate for Germany to 19%
 
-### **II. Set prices and VAT for different countries in Europe (VAT included)**
+### **II. Set Prices and VAT for Different Countries in Europe (VAT Included)**
 
 For example, your business is based in Germany, and you sell products to buyers from Germany and other European countries (Spain, Russia, etc.)
 
@@ -55,7 +55,7 @@ With prices and VAT configured as described above, a buyer from Germany will see
 
 This way the product from our example - the one for which we set the price at 119 euro - will cost 119 euro (including 19% VAT) for Germany, 121 euro (including 21% VAT) for Spain, and 100 euro (including 0% VAT) for Russia.
 
-### **III. Set prices without VAT and configure taxes in such a way that VAT would be applied for specific zones**
+### **III. Set Prices without VAT and Configure Taxes in Such a Way that VAT Would Be Applied for Specific Zones**
 
 In this case, we want to be able to set product prices without VAT, but still want VAT to be applied if the buyer comes from a zone that requires the use of VAT - or not to be applied if the buyer comes from a zone that does not use VAT.
 
@@ -75,7 +75,7 @@ In this case, we want to be able to set product prices without VAT, but still wa
 VAT rate for [zone that must use VAT] = 20%
 VAT rate for [zone without VAT] = 0%
 
-### **IV. Set up prices and VAT in such a way that the prices in the Admin area would not include VAT, the prices in the Customer area would be shown without VAT (with the "excluding VAT" label shown next to them), but VAT would be added at checkout.**
+### **IV. Set up Prices and VAT in Such a Way That the Prices in the Admin Area Would Not Include VAT, the Prices in the Customer Area Would be Shown without VAT (with the "Excluding VAT" Label Shown Next to Them), but VAT Would Be Added at Checkout.**
 
 1. When adding products to your catalog via your store back end, enter product prices without VAT.
 
