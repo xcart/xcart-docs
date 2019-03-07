@@ -35,12 +35,11 @@ There are some basics that set a foundation for the rest of your shipping. While
 
 _In this section:_
 
-*   {% link "Carrier-calculated shipping rates" ref_ybdiN8r0 %}
-*   {% link "Custom table rates" ref_3TG6AuN0 %}
-*   {% link "Free shipping" ref_BCq5l4MP %}
-*   {% link "Shipping freight" ref_kioKBJIM %}
-*   {% link "Handling fee" ref_nFJTxPMR %}
-*   {% link "Shipping setup for downloadable products" ref_z5KmbFAu %}
+*   {% link "Carrier-calculated Shipping Rates" ref_ybdiN8r0 %}
+*   {% link "Custom Table Rates" ref_3TG6AuN0 %}
+*   {% link "Free Shipping" ref_BCq5l4MP %}
+*   {% link "Shipping Freight" ref_kioKBJIM %}
+*   {% link "Handling Fee" ref_nFJTxPMR %}
+*   {% link "Shipping Setup for Downloadable Products" ref_z5KmbFAu %}
 *   {% link "Shipping Tax" ref_4nZM0iOX %}
 *   {% link "Shipping Labels " ref_7p59HzrS %}
-
