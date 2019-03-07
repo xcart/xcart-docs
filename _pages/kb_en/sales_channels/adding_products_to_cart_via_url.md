@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2015-03-27 00:00'
 identifier: ref_lG8NdRzr
-title: Adding products to cart via URL
+title: Adding Products to Cart via URL
 categories:
   - User manual
 published: true
