@@ -12,7 +12,7 @@ redirect_from:
 ---
 User membership levels can be set up and managed using the Membership levels section of your store's Admin area (**Users > Membership levels**). 
 
-## Adding membership levels
+## Add Membership Levels
 To create a new membership level:
 1.  In your store's Admin area, go to **Users > Membership levels** and click the **New membership** button. This adds a new blank field in the membership levels table.
     ![xc5_memberships_add_button.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_add_button.png)
@@ -47,7 +47,7 @@ To get a list of users with a certain membership, click on the number link in th
     
 Alternatively, you can use the 'Search for users' feature. In the **Users** > **Users** section, set a filter specifying the membership(s) you are interested in, and do a search to find users. Note that you can search by both assigned and pending memberships.
 
-## User membership signup and management
+## User Membership Signup and Management
 As a store administrator, you may choose to enable membership signup for users (See the setting "Allow customers to sign up for membership" in the section **Store setup > Cart & checkout**):
     ![xc5_memberships_allow_signup.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_allow_signup.png)
 
