@@ -23,7 +23,7 @@ To install a language package from the X-Cart Marketplace:
 2.  Locate the translation you require. For example, enter "translation" in the search bar to find all addons of translations in the Marketplace:
     ![xc5_translations_search4translations.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_search4translations.png)
 
-3.  Install and activate the translations you require like you do with any other addons from the Marketplace. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+3.  Install and activate the translations you require like you do with any other addons from the Marketplace. See {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
     ![xc5_translations_install_german.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_install_german.png)
 
 As a result, the translation addons you have installed should be added to the Installed Addons section in your store's Admin area:
@@ -55,4 +55,3 @@ _Related pages:_
 *  {% link "Translating Product Catalog" ref_5MQvg8Mm %}
 *  {% link "Translating Labels" ref_2CQ8HuY4 %}
 *  {% link "Translating News, Menus, Static Pages and Order Statuses" ref_7I70QnHa %}
-
