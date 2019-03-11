@@ -68,9 +68,9 @@ The translated 'Terms and conditions' page will look as follows in the store fro
 
 ![menus-de-home.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus-de-home.png)
 
-## Translating NEWs
+## Translating News
 
-To translate NEWS:
+To translate news:
 1. Go to the **Content** > **News messages** section of your store admin area.
 2. Switch the language of the admin area to the target language of your translation (it will be German in our sample). Use the language select box in the right upper corner for the purpose. 
 3. Click on the news entry you want to edit to open the mews page.
