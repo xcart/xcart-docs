@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-25 14:08 +0400'
 identifier: ref_0GjdgNJx
-title: 'VAT/GST  (for the UK, EU, Australia, etc)'
+title: 'Value Added Tax / Goods and Services Tax '
 order: 324
 published: true
 redirect_from:
