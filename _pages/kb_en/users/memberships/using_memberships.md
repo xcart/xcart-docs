@@ -10,7 +10,6 @@ description: memberships and products/categories/discounts/taxes/etc.
 redirect_from:
   - /users/memberships_ext.html
 ---
-
 {% toc %}
 
 ## Membership-specific Access to Products and Categories
@@ -75,7 +74,7 @@ The detailed description of the tax configuration process is available in the se
 
 By using memberships you can vary the discount level between different groups of customers, provide coupons of limited edition that will be valid only for a specific membership level, and extend membership sales with special offers.
 
-Membership-specific discounts can be set up using the module **[Volume Discounts](https://market.x-cart.com/addons/volume-discounts.html)** via the section 'Discounts: Volume Discounts' of the Admin back end. More info on volume discounts is provided in the section {% link "Setting up volume discounts for products" ref_xEadpu9F %}. 
+Membership-specific discounts can be set up using the addon **[Volume Discounts](https://market.x-cart.com/addons/volume-discounts.html)** via the section 'Discounts: Volume Discounts' of the Admin back end. More info on volume discounts is provided in the section {% link "Setting up volume discounts for products" ref_xEadpu9F %}. 
 
 The process of setting up a membership-specific volume discount is rather straightforward:
 
@@ -88,7 +87,7 @@ The process of setting up a membership-specific volume discount is rather straig
       ![Figure 7]({{site.baseurl}}/attachments/Screen Shot 2018-01-12 at 21.27.47.png)
 
 
-Membership-specific coupons can be configured using the module **[Coupons](https://market.x-cart.com/addons/discount-coupons.html)** via the Coupons section of the store back end (**Discounts** > **Coupons**). More info on coupons is available in the section {% link "Setting up discount coupons" ref_SGI1FqdC %}. 
+Membership-specific coupons can be configured using the addon **[Coupons](https://market.x-cart.com/addons/discount-coupons.html)** via the Coupons section of the store back end (**Discounts** > **Coupons**). More info on coupons is available in the section {% link "Setting up discount coupons" ref_SGI1FqdC %}. 
 
 To configure a coupon that only members will be able to use, you will need to specify the membership(s) you require in the 'Membership' field (Figure 8). 
 
@@ -96,11 +95,11 @@ To configure a coupon that only members will be able to use, you will need to sp
 
 If a non-member uses a members-only coupon at checkout, they will get an error message like the following: "Sorry, the coupon you entered is not valid for your membership level. Contact the administrator."
 
-Special offers for members can be set up using the modules [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Promote Sales with User Memberships") and [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Promote Sales with User Memberships"). By using these modules, you will be able to provide such special offers to your member users as the following:
+Special offers for members can be set up using the addons [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Promote Sales with User Memberships") and [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Promote Sales with User Memberships"). By using these addons, you will be able to provide such special offers to your member users as the following:
 - Buy N items from specified categories to get a discount on M of them (the cheapest ones). If the discount is set to 100%, your customers will get the items for free. 
 - Spend a certain amount in specified categories to get a discount on M of the items bought from these categories (the cheapest ones).
 
-To configure the offers, you will need to have the modules installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once the modules are installed, the features will become available in the 'Discounts: Special Offers' section of your store's Admin back end (Figure 9).
+To configure the offers, you will need to have the addons installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once the addons are installed, the features will become available in the 'Discounts: Special Offers' section of your store's Admin back end (Figure 9).
    ![Fig 9]({{site.baseurl}}/attachments/so.png)
 
 To create an offer that will be available only to members:
@@ -114,9 +113,9 @@ For detailed information on the setup of special offers, refer to the section {%
 
 ## Membership-specific Payment Methods
 
-With the module [Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html) you will be able to give additional payment options to certain groups of customers in your store; for example, to enable PayPal Express Checkout for wholesale buyers only. 
+With the addon [Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html) you will be able to give additional payment options to certain groups of customers in your store; for example, to enable PayPal Express Checkout for wholesale buyers only. 
 
-To enable the feature, install the module 'Memberships for payment methods' module first as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once the module is installed, a special 'Memberships' field will appear under each payment method in the 'Store Setup: Payment Methods' section of your store's Admin area (Figure 11).
+To enable the feature, install the addon 'Memberships for payment methods' first as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}. Once the addon has been installed, a special 'Memberships' field will appear under each payment method in the 'Store Setup: Payment Methods' section of your store's Admin area (Figure 11).
    ![Fig 11]({{site.baseurl}}/attachments/payment.png)
 
 You'll need to use this field to specify the membership to which the payment method should be available (Figure 12). At checkout your customers will be able to see only the payment methods available to their membership group.
@@ -125,9 +124,9 @@ You'll need to use this field to specify the membership to which the payment met
 
 ## Paid Memberships
 
-The standard membership feature can be extended using the module [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html). This module enables you to sell paid memberships as regular products. If your customers may be willing to pay for member access to advanced buying options - like closed sales, vip prices and exclusive discounts - this module may be just the thing for you.
+The standard membership feature can be extended using the addon [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html). This addon enables you to sell paid memberships as regular products. If your customers may be willing to pay for member access to advanced buying options - like closed sales, vip prices and exclusive discounts - this addon may be just the thing for you.
 
-To enable paid memberships, make sure the module is installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once the module is installed, you will be able to create memberships as products and sell them to your customers. 
+To enable paid memberships, make sure the addon is installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once the addon is installed, you will be able to create memberships as products and sell them to your customers. 
 
 To create a paid membership:
 
