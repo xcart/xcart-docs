@@ -5,7 +5,7 @@ updated_at: '2019-03-06 11:05 +0400'
 identifier: ref_7835nGix
 title: UK and EU Taxes
 order: 130
-published: false
+published: true
 ---
 Both the UK and the EU use value-added tax system (VAT). Each EU country and the UK has a different VAT rate that can be charged by a merchant only if the business is registered for VAT. A registered business must provide a VAT invoice in case there is no VAT exemption for the goods.
 
