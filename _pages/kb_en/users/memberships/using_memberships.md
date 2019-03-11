@@ -87,7 +87,7 @@ The process of setting up a membership-specific volume discount is rather straig
       ![Figure 7]({{site.baseurl}}/attachments/Screen Shot 2018-01-12 at 21.27.47.png)
 
 
-Membership-specific coupons can be configured using the addon **[Coupons](https://market.x-cart.com/addons/discount-coupons.html)** via the Coupons section of the store back end (**Discounts** > **Coupons**). More info on coupons is available in the section {% link "Setting up discount coupons" ref_SGI1FqdC %}. 
+Membership-specific coupons can be configured using the addon **[Coupons](https://market.x-cart.com/addons/discount-coupons.html)** via the Coupons section of the store back end (**Discounts** > **Coupons**). More info on coupons is available in the section {% link "Setting up Discount Coupons" ref_SGI1FqdC %}. 
 
 To configure a coupon that only members will be able to use, you will need to specify the membership(s) you require in the 'Membership' field (Figure 8). 
 
