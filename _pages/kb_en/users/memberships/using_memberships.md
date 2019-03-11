@@ -67,7 +67,7 @@ To set membership-specific tax rates:
    4. Be sure to save your changes. 
    ![Fig 6]({{site.baseurl}}/attachments/tax.png)
 
-The detailed description of the tax configuration process is available in the section {% link "Setting up sales tax" ref_aJPK4DHN %} of this manual.
+The detailed description of the tax configuration process is available in the section {% link "Setting up Sales Tax" ref_aJPK4DHN %} of this manual.
 
 
 ## Membership-specific Discounts, Coupons and Special Offers
@@ -99,7 +99,7 @@ Special offers for members can be set up using the addons [Special Offers: Buy X
 - Buy N items from specified categories to get a discount on M of them (the cheapest ones). If the discount is set to 100%, your customers will get the items for free. 
 - Spend a certain amount in specified categories to get a discount on M of the items bought from these categories (the cheapest ones).
 
-To configure the offers, you will need to have the addons installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once the addons are installed, the features will become available in the 'Discounts: Special Offers' section of your store's Admin back end (Figure 9).
+To configure the offers, you will need to have the addons installed as described in  {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}. Once the addons are installed, the features will become available in the 'Discounts: Special Offers' section of your store's Admin back end (Figure 9).
    ![Fig 9]({{site.baseurl}}/attachments/so.png)
 
 To create an offer that will be available only to members:
@@ -126,7 +126,7 @@ You'll need to use this field to specify the membership to which the payment met
 
 The standard membership feature can be extended using the addon [Paid Memberships](https://market.x-cart.com/addons/paid-memberships.html). This addon enables you to sell paid memberships as regular products. If your customers may be willing to pay for member access to advanced buying options - like closed sales, vip prices and exclusive discounts - this addon may be just the thing for you.
 
-To enable paid memberships, make sure the addon is installed as described in {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}. Once the addon is installed, you will be able to create memberships as products and sell them to your customers. 
+To enable paid memberships, make sure the addon is installed as described in  {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}. Once the addon is installed, you will be able to create memberships as products and sell them to your customers. 
 
 To create a paid membership:
 
@@ -155,5 +155,5 @@ After the order gets the status 'Paid', the customer will get the membership the
 
 When the membership expires the customer will get an email notification. 
 
-Email notifications for the **Paid Membership** module can be managed via the Email notifications section of the Admin area (**Store setup** > **Email notifications**).
+Email notifications for the addon **Paid Membership** can be managed via the Email notifications section of the Admin area (**Store setup** > **Email notifications**).
    ![notifications.png]({{site.baseurl}}/attachments/ref_memberships_ext/notifications.png)
