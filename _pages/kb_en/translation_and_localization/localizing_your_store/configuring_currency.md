@@ -20,5 +20,5 @@ To configure currency:
 3. **Save changes** to submit the currency settings.
 
 {% note info %}
-If you want the prices to be displayed in a currency matching a customer's location use the {% link "Multicurrency Module" ref_2tPJubPU %}
+If you want the prices to be displayed in a currency matching a customer's location use the {% link "Multicurrency Addon" ref_2tPJubPU %}
 {% endnote %}
