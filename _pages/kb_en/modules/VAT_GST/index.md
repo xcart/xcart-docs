@@ -9,7 +9,7 @@ published: true
 redirect_from:
   - /taxes/VAT_GST/index.html
 ---
-If you are required to charge buyers a value added tax (VAT) or a goods and services tax (GST), we recommend using the addon [**Value Added Tax / Goods and Services Tax**](https://market.x-cart.com/addons/uk-vat.html) for tax setup. 
+The addon [**Value Added Tax / Goods and Services Tax**](https://market.x-cart.com/addons/uk-vat.html) should be used for tax setup when it's necessary to charge customers a value added tax (VAT) or a goods and services tax (GST). 
     ![VAT-install.png]({{site.baseurl}}/attachments/ref_0GjdgNJx/VAT-install.png)
 
 
