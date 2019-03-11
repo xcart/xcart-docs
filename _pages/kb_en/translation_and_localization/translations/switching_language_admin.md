@@ -24,4 +24,4 @@ Go to the **Store setup** -> **Translations** section and check if any languages
 
 ![lang-enabled.png]({{site.baseurl}}/attachments/ref_x5oSN86B/lang-enabled.png)
 
-If the necessary translation is missing install the related transaltion module as described in {% link "Installing language packages" ref_NH3w8sSS %}.
+If the necessary translation is missing install the related transaltion addon as described in {% link "Installing Language Packages" ref_NH3w8sSS %}.
