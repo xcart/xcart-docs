@@ -9,8 +9,6 @@ categories:
 published: true
 order: 100
 ---
-
-
 ## Introduction
 
 This is an X-Сart 5 tutorial by Mike White aka totaltec from [http://babymonkeystudios.com](http://babymonkeystudios.com/ "http://babymonkeystudios.com"). It explains how to import and export categories and products in X-Cart 5. 
@@ -22,4 +20,4 @@ This is an X-Сart 5 tutorial by Mike White aka totaltec from [http://babymonke
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
