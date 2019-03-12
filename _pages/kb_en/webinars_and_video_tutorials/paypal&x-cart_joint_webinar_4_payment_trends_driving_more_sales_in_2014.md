@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-22 14:28 +0400'
 identifier: ref_9pm20krn
-title: 'PayPal&amp;X-Cart joint webinar: 4 payment trends driving more sales in 2014'
+title: 'PayPal&X-Cart Joint Webinar: 4 Payment Trends Driving More Sales in 2014'
 categories:
   - Webinars and video tutorials
 published: true
