@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-23 10:32 +0400'
 identifier: ref_PCmycghn
-title: Product variants in X-Cart 5
+title: Product Variants in X-Cart 5
 categories:
   - Webinars and video tutorials
 published: true
@@ -30,4 +30,4 @@ This video provides an overview of the Product Variants addon for X-Cart 5. The 
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
