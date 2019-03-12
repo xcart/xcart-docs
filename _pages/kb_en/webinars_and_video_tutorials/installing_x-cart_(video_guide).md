@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:14 +0400'
 identifier: ref_OgodT8pE
-title: Installing X-Cart (video guide)
+title: Installing X-Cart (Video Guide)
 categories:
   - Webinars and video tutorials
 published: true
@@ -19,4 +19,4 @@ Questions? Visit X-Cart.com or email to [sales@x-cart.com](mailto:sales@x-cart.c
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
