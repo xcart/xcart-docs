@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:15 +0400'
 identifier: ref_lzAhqZpB
-title: Kount in X-Cart 5 integrated with X-Payments
+title: Kount in X-Cart 5 Integrated with X-Payments
 categories:
   - Webinars and video tutorials
 published: true
@@ -24,4 +24,4 @@ The video below demonstrates how to configure Kount and how to use it to prote
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
