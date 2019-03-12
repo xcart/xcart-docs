@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:14 +0400'
 identifier: ref_XFOnM7r6
-title: Infinite Scroll module (video)
+title: Infinite Scroll Addon (Video)
 categories:
   - Webinars and video tutorials
 published: true
@@ -13,7 +13,7 @@ order: 100
 
 ## Introduction
 
-In this video we provide an overview of the functionality of X-Cart 5 Infinite Scroll module.  
+In this video we provide an overview of the functionality of X-Cart 5 Infinite Scroll addon.  
 
 More info: [http://www.x-cart.com/extensions/addons/infinite-scroll.html](http://www.x-cart.com/extensions/addons/infinite-scroll.html)
 
@@ -24,4 +24,4 @@ More info: [http://www.x-cart.com/extensions/addons/infinite-scroll.html](http:
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
