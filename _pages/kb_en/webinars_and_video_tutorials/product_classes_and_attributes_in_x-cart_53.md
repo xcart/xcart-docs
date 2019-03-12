@@ -17,4 +17,4 @@ This video explains the use of product classes and attributes in X-Cart 5.3.
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
