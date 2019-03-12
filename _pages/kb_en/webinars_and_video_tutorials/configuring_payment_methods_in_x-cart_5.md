@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-23 10:26 +0400'
 identifier: ref_kJD5AyoM
-title: Configuring payment methods in X-Cart 5
+title: Configuring Payment Methods in X-Cart 5
 categories:
   - Webinars and video tutorials
 published: true
@@ -22,4 +22,4 @@ This video shows how you can add online and offline payment methods in X-Cart, c
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
