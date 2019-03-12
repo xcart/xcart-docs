@@ -3,16 +3,16 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-05-15 13:16 +0400'
 identifier: ref_38HKdc1f
-title: User roles
+title: User Roles
 order: 100
 published: true
 ---
 X-Cart roles enable you to configure different levels of access to the store's back end for different administrator users. A role is a set of permissions providing access to certain features and areas of the back end. This feature may be useful if you have staff who you want to give the permissions to do some of the store management jobs but not others.
 
-Roles are made available in X-Cart via the module **User permissions**. This module comes for free with X-Cart Business, Multivendor and Ultimate editions.
+Roles are made available in X-Cart via the addon **User permissions**. This module comes for free with X-Cart Business, Multivendor and Ultimate editions.
     ![xc5_roles_user_permissions_module.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_user_permissions_module.png)
 
-Typically, if you are using X-Cart Business, Multivendor or Ultimate, this module is already enabled, and your X-Cart store already has some roles configured - you can view them in the Roles section of the Admin area (**Users** > **Roles**).
+Typically, if you are using X-Cart Business, Multivendor or Ultimate, this addon is already enabled, and your X-Cart store already has some roles configured - you can view them in the Roles section of the Admin area (**Users** > **Roles**).
     ![xc5_roles_table.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_table.png)
 
 _Administrator_ is the role providing Root access to the store's back end, which means that an administrator with this role has full access to all the features (no restrictions at all).
@@ -24,7 +24,7 @@ Other roles provide limited access to just some of the features. This may be des
    * Manage administrators – gives users the permissions to view, edit and delete administrator profiles;
    * Manage orders – enables users to view orders and perform actions on them.
 
-This list may be further extended by custom modules or other X-Cart add-ons from the Module Marketplace. For example, the module Simple CMS adds two more permissions to the list:
+This list may be further extended by addons from the X-Cart Marketplace or custom modules. For example, the addon Simple CMS adds two more permissions to the list:
 
    * Manage custom pages – enables users to create and edit custom website pages;
    * Manage menus – enables users to edit the primary menu and footer links.
