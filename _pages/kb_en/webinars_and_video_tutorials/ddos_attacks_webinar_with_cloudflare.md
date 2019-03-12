@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-01-30 21:11 +0400'
 identifier: ref_fJ7OXVPZ
 title: >-
-  DDoS attacks: what are they and how to protect your site. Webinar with
+  DDoS Attacks: What Are They and How to Protect Your Site. Webinar with
   CloudFlare
 order: 100
 published: true
@@ -29,4 +29,4 @@ We'll be speaking about:
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
