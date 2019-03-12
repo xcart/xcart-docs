@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:12 +0400'
 identifier: ref_t0I33FIZ
-title: 'Easy Way to sell to China: webinar recording with KK Chen from Pilibaba'
+title: 'Easy Way to Sell to China: Webinar Recording with KK Chen from Pilibaba'
 order: 100
 published: true
 ---
@@ -18,4 +18,4 @@ The video below provides some useful clues as to how you can extend your online 
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
