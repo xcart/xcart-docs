@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-23 10:28 +0400'
 identifier: ref_yLiuFJ66
-title: eBay Integration module (video)
+title: eBay Integration Addon (Video)
 order: 100
 published: true
 ---
@@ -13,7 +13,7 @@ Start selling on eBay: import your products (images, options, variants, descript
 
 ## Video
 
-**Important:** The module has been updated since the release of the product video and now supports more features. For information on the new features, see {% link "eBay Integration module manual" ref_0SnFdXk1 %}.
+**Important:** The addon has been updated since the release of the product video and now supports more features. For information on the new features, see {% link "eBay Integration addon manual" ref_0SnFdXk1 %}.
 
 **Published on Feb 09, 2015**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/yT5uUF7qs4o" frameborder="0"></iframe>
