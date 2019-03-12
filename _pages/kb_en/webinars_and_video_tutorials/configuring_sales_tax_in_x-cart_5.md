@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:08 +0400'
 identifier: ref_GVD0wcyZ
-title: Configuring sales tax in X-Cart 5
+title: Configuring Sales Tax in X-Cart 5
 categories:
   - Webinars and video tutorials
 published: true
@@ -22,4 +22,4 @@ This video shows how to configure sales tax in X-Cart 5.
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
