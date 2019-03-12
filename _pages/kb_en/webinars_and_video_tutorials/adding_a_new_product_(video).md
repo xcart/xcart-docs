@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:04 +0400'
 identifier: ref_6sRB7rnW
-title: Adding a new product (video)
+title: Adding a New Product (Video)
 categories:
   - Webinars and video tutorials
 published: true
