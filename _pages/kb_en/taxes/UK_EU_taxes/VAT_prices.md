@@ -23,7 +23,7 @@ Enabling this option automatically decreases all product prices defined earlier 
 Moreover, whether a customer sees prices including or excluding VAT will also depend on the location defined for the "The VAT/GST inclusive prices as defined in the product details are intended for" setting.
   ![VAT-incl-zone-setting.png]({{site.baseurl}}/attachments/ref_4tqYojGn/VAT-incl-zone-setting.png)
 
-Let's say that a product had a price set to £100. 
+Let's say that a product has a price set to £100. 
   ![product-100-admin.png]({{site.baseurl}}/attachments/ref_4tqYojGn/product-100-admin.png)
 
 A store admin proceeds to taxes configuration and enables the "Display prices in catalog including VAT/GST" option, and sets the "The VAT/GST inclusive prices as defined in the product details are intended for" to UK. Also the store admin sets several tax rates and defines VAT for UK as 20% and VAT for Hungary as 27%. 
