@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-23 10:25 +0400'
 identifier: ref_TquQiTqG
-title: Booking module (video)
+title: Booking Addon (Video)
 categories:
   - Webinars and video tutorials
 published: true
@@ -13,7 +13,7 @@ order: 100
 
 ## Introduction
 
-This video provides a demonstration of the features of the X-Cart 5 Booking module. 
+This video provides a demonstration of the features of the X-Cart 5 Booking addon. 
 
 ## Video
 **Published on Jul 17, 2015**
@@ -22,4 +22,4 @@ This video provides a demonstration of the features of the X-Cart 5 Booking modu
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
