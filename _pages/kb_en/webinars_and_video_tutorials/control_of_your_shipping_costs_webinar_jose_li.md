@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:10 +0400'
 identifier: ref_idfvFS3J
-title: 'Control of Your Shipping Costs: webinar with 71lbs CEO Jose Li'
+title: 'Control of Your Shipping Costs: Webinar with 71lbs CEO Jose Li'
 order: 100
 published: true
 ---
@@ -22,4 +22,4 @@ During this webinar you will learn:
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
