@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:12 +0400'
 identifier: ref_fTUahl4n
-title: How to Install Modules in X-Cart 5
+title: How to Install Addons in X-Cart 5
 order: 100
 published: true
 ---
@@ -16,4 +16,4 @@ See more at http://kb.x-cart.com/en/modules/
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
