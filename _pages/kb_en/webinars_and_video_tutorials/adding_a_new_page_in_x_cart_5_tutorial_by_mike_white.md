@@ -21,4 +21,4 @@ Just a quick tutorial on creating a custom page in X-Cart 5 and linking to it wi
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
