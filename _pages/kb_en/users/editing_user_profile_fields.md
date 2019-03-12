@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-05-01 18:38 +0400'
 identifier: ref_gg1fQDgB
-title: User profile fields
+title: User Profile Fields
 categories:
   - User manual
 published: true
