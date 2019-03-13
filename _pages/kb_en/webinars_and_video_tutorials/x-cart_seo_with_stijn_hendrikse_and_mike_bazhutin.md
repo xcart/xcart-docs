@@ -18,4 +18,4 @@ SEO Webinar with 2 experts! See how Stijn increased the organic traffic by 500% 
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
