@@ -3,14 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:28 +0400'
 identifier: ref_2QCdPxZH
-title: X-Cart 5 getting started guide
+title: X-Cart 5 Getting Started Guide
 categories:
   - Webinars and video tutorials
 published: true
 order: 100
 ---
-
-
 ## Introduction
 
 A few tips on the first steps after X-Cart 5.2.x installation: configure the company info, setup payment methods, shipping and tax, add a new product.
@@ -22,4 +20,4 @@ A few tips on the first steps after X-Cart 5.2.x installation: configure the com
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
