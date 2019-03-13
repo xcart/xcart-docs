@@ -10,9 +10,9 @@ published: true
 The settings and preferences for the addon "Mailchimp Integration with Ecommerce support" can be adjusted on the addon settings page in your X-Cart store’s Admin area.
 
 ## Mailchimp settings
-![xc5_mailchimp_settings.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_settings.png)
 
 In the **Mailchimp settings** section of the page, the following settings can be adjusted:
+![xc5_mailchimp_settings.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_settings.png)
    
    * **Mailchimp API key**: The API key that was used to connect your X-Cart store to your Mailchimp account. If, for some reason, you need to use a different Mailchimp account or a different key, use the "Reset Mailchimp connection" link.
    
@@ -20,6 +20,8 @@ In the **Mailchimp settings** section of the page, the following settings can be
    **Important:** Be sure also to enable [E-Commerce Link Tracking](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use MailChimp for E-Commerce") for your campaigns and automations in your Mailchimp account back end.
    
    * **Enable Abandoned Carts**:  This option enables the Abandoned Carts feature. For more info on this feature, see the [Mailchimp site](https://mailchimp.com/features/abandoned-cart/ "Abandoned Cart")
+   
+   * **Default list for automatic campaigns**: Specify the default list for automatic campaigns. This is needed so abandoned carts and order notifications function properly for all your customers. (Failure to specify a list in this field will result in that Mailchimp abandoned carts and order notifications will work only for those customers that are already Mailchimp subscribers for this store). To adjust this setting: 1) Go to the section **E-Commerce features setup** of the addon settings page, select the lists you require and upload store data for the selected lists to Mailchimp. 2) Go back to the **Mailchimp settings** section; in the "Default list for automatic campaigns" field, select the list for which abandoned carts and/or order notifications have been configured in Mailchimp. 
    
    * **Enable single opt-in for customers**: This setting defines whether customers who opt in to subscribe to your news lists should be asked to confirm the subscription via email, or not. When this option is disabled, new subscribers get an email with a subscription confirmation link that they need to click to be added to your list (Double opt-in). When this option is enabled, new subscribers are added to your list as soon as they opt in, without having to confirm the subscription by email (Single opt-in). Remember that abusing the single opt-in option may get your account banned by MailChimp.
    
