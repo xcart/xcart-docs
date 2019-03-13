@@ -3,14 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:27 +0400'
 identifier: ref_DqRLwgcu
-title: X-Cart 5 and X-Payments - PCI compliant credit card processing and storing
+title: X-Cart 5 and X-Payments - PCI Compliant Credit Card Processing and Storing
 categories:
   - Webinars and video tutorials
 published: true
 order: 100
 ---
-
-
 ## Introduction
 
 This video demonstrates how PCI compliant credit card processing and storing works for your customers in X-Cart 5.
@@ -22,4 +20,4 @@ This video demonstrates how PCI compliant credit card processing and storing wo
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
