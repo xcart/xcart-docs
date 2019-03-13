@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:22 +0400'
 identifier: ref_yF8UPdBN
-title: US Sales Tax webinar with Avalara - July 23rd 2013
+title: US Sales Tax Webinar with Avalara - July 23rd 2013
 order: 100
 published: true
 ---
@@ -17,4 +17,4 @@ Clete Werts from Avalara and Ksenia Emelyanova from X-Cart speak about managing 
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
