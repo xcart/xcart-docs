@@ -3,17 +3,15 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-23 10:38 +0400'
 identifier: ref_hU6Rb4tw
-title: X-Cart 5 Module License Activation
+title: X-Cart 5 Addon License Activation
 categories:
   - Webinars and video tutorials
 published: true
 order: 100
 ---
-
-
 ## Introduction
 
-This video shows how to activate a license for an X-Cart 5 commercial module.
+This video shows how to activate a license for an X-Cart 5 paid addon.
 
 ## Video
 **Published on Oct 28, 2014**
@@ -22,4 +20,4 @@ This video shows how to activate a license for an X-Cart 5 commercial module.
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
