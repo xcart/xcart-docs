@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:19 +0400'
 identifier: ref_CqSUSq61
-title: Setting up shipping calculation in X-Cart 5
+title: Setting up Shipping Calculation in X-Cart 5
 categories:
   - Webinars and video tutorials
 published: true
@@ -22,4 +22,4 @@ This video shows how to set shipping rates so your customers can get a shipping 
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
