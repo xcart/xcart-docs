@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-23 10:33 +0400'
 identifier: ref_wcorpZyz
-title: Setting up VAT with the addon "EU and UK VAT / GST"
+title: Setting up VAT with the Addon "EU and UK VAT / GST"
 order: 100
 categories:
   - User manual
@@ -14,9 +14,9 @@ redirect_from:
 
 ## Introduction
 
-The video below demonstrates the process of setting up [VAT (Value added tax)](http://en.wikipedia.org/wiki/Value_added_tax#With_a_value_added_tax) in X-Cart 5.2.x using the module **EU and UK VAT / GST**. 
+The video below demonstrates the process of setting up [VAT (Value added tax)](http://en.wikipedia.org/wiki/Value_added_tax#With_a_value_added_tax) in X-Cart 5.2.x using the addon **EU and UK VAT / GST**. 
 
-Note that this module has been updated and renamed since the video shoot, so if you are using the updated version of this module - **Value Added Tax / Goods and Services Tax** - please be prepared to find that the user interface for configuring VAT / GST has been changed quite a bit. To find the updated instructions for VAT / GST setup, see the section {% link "Setting up VAT / GST (for the UK, EU, Australia, etc)" ref_Rzp45QlN %} of this manual.
+Note that this addon has been updated and renamed since the video shoot, so if you are using the updated version of this addon - **Value Added Tax / Goods and Services Tax** - please be prepared to find that the user interface for configuring VAT / GST has been changed quite a bit. To find the updated instructions for VAT / GST setup, see the section {% link "Setting up VAT / GST (for the UK, EU, Australia, etc)" ref_Rzp45QlN %} of this manual.
 
 ## Video
 **Published on Mar 11, 2015**
@@ -25,4 +25,4 @@ Note that this module has been updated and renamed since the video shoot, so if 
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
