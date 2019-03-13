@@ -3,14 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:20 +0400'
 identifier: ref_g2dhS8uC
-title: Setting up sale and wholesale pricing in X-Cart 5
+title: Setting up Sale and Wholesale Pricing in X-Cart 5
 categories:
   - Webinars and video tutorials
 published: true
 order: 100
 ---
-
-
 ## Introduction
 
 This video shows how to set sale and wholesale prices on products in X-Cart 5.
@@ -22,4 +20,4 @@ This video shows how to set sale and wholesale prices on products in X-Cart 5.
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
