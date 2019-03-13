@@ -3,14 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-23 10:34 +0400'
 identifier: ref_ATBkizcn
-title: Static pages and menus in X-Cart 5
+title: Static Pages and Menus in X-Cart 5
 categories:
   - Webinars and video tutorials
 published: true
 order: 100
 ---
-
-
 ## Introduction
 
 The video in this section demonstrates how to add new and edit existing static pages in X-Cart 5 as well as configure shop menus.
@@ -22,4 +20,4 @@ The video in this section demonstrates how to add new and edit existing static p
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
