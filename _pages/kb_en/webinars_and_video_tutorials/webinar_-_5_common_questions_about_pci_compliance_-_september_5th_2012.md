@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:24 +0400'
 identifier: ref_PahGlhQ3
-title: Webinar "5 Common questions about PCI compliance" - September 5th 2012
+title: Webinar "5 Common Questions about PCI Compliance" - September 5th 2012
 order: 100
 published: true
 ---
@@ -43,4 +43,4 @@ Various International, Federal, and Local Legislation (FACTA, etc.)
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
