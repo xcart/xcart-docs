@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-23 10:32 +0400'
 identifier: ref_Ev0rZhsL
-title: Saving credit cards in X-Cart 5 integrated with X-Payments 2.x
+title: Saving Credit Cards in X-Cart 5 Integrated with X-Payments 2.x
 categories:
   - Webinars and video tutorials
 published: true
@@ -22,4 +22,4 @@ This video demonstrates how a customer can save their credit card for future use
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
