@@ -7,7 +7,7 @@ title: VAT-Inclusive Prices
 order: 120
 published: true
 ---
-X-Cart allows to set either VAT-inclusive or VAT-exclusive price representation if you use the {% link "VAT/GST addon" ref_0GjdgNJx %}.
+X-Cart allows to set either VAT-inclusive or VAT-exclusive prices' representation if you use the {% link "VAT/GST addon" ref_0GjdgNJx %}.
 
 Setting up VAT-inclusive prices has some peculiarities that a store admin should keep in mind when configuring taxes and prices.
 
@@ -15,15 +15,17 @@ Setting up VAT-inclusive prices has some peculiarities that a store admin should
 The guides below presumes that the {% link "VAT/GST addon" ref_0GjdgNJx %} is installed and enabled.
 {% endnote %}
 
-VAT inclusive prices representation can be enabled by the "Display prices in catalog including VAT/GST" option in the VAT/GST section of the admin area (**Store setup** -> **Taxes**). See more info on the VAT/GST addon set-up in {% link "Setting up VAT/GST " ref_0GjdgNJx %}.
+A price of a product in X-Cart is defined in the 'Prices & Inventory' section of the {% link "product details" ref_2D8wAeXP %} page and is the very price that is stored in the database. By default, the product price displayed on the storefront equals the price stored in the database.   
+
+A store admin might want to display prices on the storefront including VAT. VAT inclusive prices representation can be enabled by the "Display prices in catalog including VAT/GST" option in the VAT/GST section of the admin area (**Store setup** -> **Taxes**), for more details see {% link "Configuring VAT/GST" ref_Rzp45QlN %}.
   ![VAT-incl-price-setting.png]({{site.baseurl}}/attachments/ref_4tqYojGn/VAT-incl-price-setting.png)
 
-Enabling this option automatically decreases all product prices defined earlier and displayed in the storefront by the % of VAT rate defined in the tax settings. The prices on the product details page in the admin area stay as they were previously defined. 
+Enabling this option automatically decreases all predefined product prices displayed in the storefront by the % of VAT rate configured in the tax settings. The actual prices in the database stay as originally defined. 
 
 Moreover, whether a customer sees prices including or excluding VAT will also depend on the location defined for the "The VAT/GST inclusive prices as defined in the product details are intended for" setting.
   ![VAT-incl-zone-setting.png]({{site.baseurl}}/attachments/ref_4tqYojGn/VAT-incl-zone-setting.png)
 
-Let's say that a product has a price set to £100. 
+Let's say that a product has a price set to £100 in the database. 
   ![product-100-admin.png]({{site.baseurl}}/attachments/ref_4tqYojGn/product-100-admin.png)
 
 A store admin proceeds to taxes configuration and enables the "Display prices in catalog including VAT/GST" option, and sets the "The VAT/GST inclusive prices as defined in the product details are intended for" to UK. Also the store admin sets several tax rates and defines VAT for UK as 20% and VAT for Hungary as 27%. 
