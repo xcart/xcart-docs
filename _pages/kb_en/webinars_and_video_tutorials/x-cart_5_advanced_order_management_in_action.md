@@ -3,14 +3,12 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-23 10:36 +0400'
 identifier: ref_7hG6Mxrq
-title: X-Cart 5 Advanced Order Management in action
+title: X-Cart 5 Advanced Order Management in Action
 categories:
   - Webinars and video tutorials
 published: true
 order: 100
 ---
-
-
 ## Introduction
 
 This video demonstrates how to edit an order using the AOM feature of X-Cart 5.
@@ -22,4 +20,4 @@ This video demonstrates how to edit an order using the AOM feature of X-Cart 5.
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
