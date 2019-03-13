@@ -20,18 +20,18 @@ To be able to use the addon Amazon Feeds, a merchant should be signed up with th
 
 ## Amazon Feeds Addon Configuration and Setup
 
-Once installed and enabled proceed to the addon settings page for configuration purposes:
+Once the addon has been installed and enabled, proceed to the addon settings page to configure the settings:
 
 ![module-installed.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/module-installed.png)
 
-You will be automatically redirected to the **Sales Channels** -> **Amazon** section of the admin area where you can proceed with the marketplaces' configuration:
+You will be automatically redirected to the **Sales Channels** -> **Amazon** section of your store's Admin area where you will be able to proceed with the marketplaces' configuration:
 
 ![settings-page.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/settings-page.png)
 
 To add a new marketplace:
 
 1. Click the **Configure new marketplace** button. 
-2. You'll see a screen **New marketplace** where you'll need to specify your AWS account details:
+2. You will see a screen titled **New marketplace** where you will need to specify your AWS account details:
    ![new-marketplace-1.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/new-marketplace-1.png)
    
    To get the AWS account details:
