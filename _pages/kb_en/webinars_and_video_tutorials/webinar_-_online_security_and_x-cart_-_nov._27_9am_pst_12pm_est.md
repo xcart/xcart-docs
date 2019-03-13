@@ -23,4 +23,4 @@ The webinar was on Tuesday, November 27 at 9am PST/12pm EST.
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
