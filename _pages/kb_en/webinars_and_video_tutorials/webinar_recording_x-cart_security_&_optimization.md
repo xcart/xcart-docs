@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:25 +0400'
 identifier: ref_1IPZZPbN
-title: 'Webinar recording: X-Cart Security & Optimization'
+title: 'Webinar Recording: X-Cart Security & Optimization'
 order: 100
 published: true
 ---
@@ -23,4 +23,4 @@ More info: https://blog.x-cart.com/x-cart-security-speed-webinar-recording-php-7
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
