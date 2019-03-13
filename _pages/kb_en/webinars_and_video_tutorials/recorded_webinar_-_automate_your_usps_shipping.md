@@ -17,4 +17,4 @@ Need to speed up your order fulfillment and lower your shipping costs? Eric Nash
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
