@@ -28,4 +28,4 @@ Mobile point-of-sale is becoming one of the most rapidly adopted technologies am
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
