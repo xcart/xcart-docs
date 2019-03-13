@@ -3,20 +3,18 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-30 21:22 +0400'
 identifier: ref_Ae8Qd8lq
-title: Subscriptions in X-Cart 5 powered by X-Payments
+title: Subscriptions in X-Cart 5 Powered by X-Payments
 categories:
   - Webinars and video tutorials
 published: true
 order: 100
 ---
-
-
 ## Introduction
 
-With X-Payments subscriptions module you can sell subscription based products and automate recurring billing in your X-Cart 5 store.
+With the addon X-Payments subscriptions you can sell subscription based products and automate recurring billing in your X-Cart 5 store.
 
  The video below covers:
-- general module settings (rebill attempts, customer notifications);
+- general addon settings (rebill attempts, customer notifications);
 - adding a subscription based product (setup fee, subscription fee, rebill periods);
 - managing subscriptions and related orders;
 - customer experience.
@@ -28,4 +26,4 @@ With X-Payments subscriptions module you can sell subscription based products an
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
