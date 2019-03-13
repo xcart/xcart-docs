@@ -9,8 +9,6 @@ categories:
 published: true
 order: 100
 ---
-
-
 ## Introduction
 
 This video shows how to activate your X-Cart 5 Business license.
@@ -22,4 +20,4 @@ This video shows how to activate your X-Cart 5 Business license.
 
 _Related pages:_
 
-*   {% link "Webinars and video tutorials" ref_STELArig %}
+*   {% link "Webinars and Video Tutorials" ref_STELArig %}
