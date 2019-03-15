@@ -13,6 +13,26 @@ Once the "VAT/GST" addon is installed and enabled it adds a possibility to assig
 
 In case you need to apply VAT/GST to shipping complete the following steps:
 
+{% note warning %}
+PREREQUISITES:
+
+Make sure the VAT/GST addon {% link "is installed and configured" ref_Rzp45QlN %} and the VAT rates are {% link "set" ref_1uXE2bZt %}.
+{% endnote %}
+
 1. Configure delivery options as described in the {% link "Shipping" ref_7tvT7GEK %} section of this manual.
 
-2. 
+2. Once the shipping methods are created, add a special shipping tax class to them:
+   * Locate the **Tax class** column on the Shipping methods settings page (**Store setup** -> **Shipping**):
+     ![vat-shipping-tax-classes.png]({{site.baseurl}}/attachments/ref_168jPT7A/vat-shipping-tax-classes.png)
+
+   * Click on a tax class opposite the shipping method name to change the settings:
+     * **Low VAT rate** : Choose this tax class if you don't want to add VAT to delivery costs.
+     * **Items Max VAT rate** (default value) : Choose this tax class if you need to add a VAT rate to the delivery costs. The VAT rate added to the delivery costs will be calculated as 
+       
+       {% note info %}
+       The options you'll see in the **Tax class** dropdown on the shipping settings page will vary depending on the {% link "Tax Classes" ref_pAWOdG8N %} you've set up in your store. 
+       
+       Only two abovementioned tax classes can be applied to shipping methods. The rest of the tax classes you see in the list should not be used with shipping methods.
+       {% endnote %}
+ 
+ 3. Click **Save changes** to activate the settings. 
