@@ -7,7 +7,7 @@ title: Setting VAT on Shipping Charges
 order: 150
 published: true
 ---
-VAT/GST taxation may include the shipping costs as well as it is part of the service you are providing. The "Value Added Tax / Goods and Services Tax" addon makes it possible to add special VAT rates on delivery options available for customers and display this information at checkout.
+VAT/GST taxation may include the shipping costs as well as it is part of the service you are providing. The {% link "Value Added Tax / Goods and Services Tax  addon" ref_0GjdgNJx %} makes it possible to add special VAT rates on delivery options available for customers and display this information at checkout.
 
 Once the "VAT/GST" addon is installed and enabled it adds a possibility to assign special tax classes to shipping methods enabled in the store to add VAT to the delivery costs. By default, all delivery costs are VAT-exclusive.
 
