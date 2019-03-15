@@ -20,7 +20,7 @@ After the Buy Button addon has been installed in your X-Cart store, you can crea
 
 To create a Buy Button:
 
-1.	From your X-Cart admin menu, open the **Promotions** section and click **Buy Button**.
+1.	From your X-Cart admin menu, open the **Sales channels** section and click **Buy Button**.
 
 2.	On the Buy Button page, choose either **Generate product card** or **Embed product to email** and click the corresponding **Select product** button:
 
