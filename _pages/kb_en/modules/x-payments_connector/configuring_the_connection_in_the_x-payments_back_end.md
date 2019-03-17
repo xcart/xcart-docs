@@ -7,7 +7,11 @@ title: Configuring the Connection in the X-Payments Back End
 order: 120
 published: true
 ---
-This section provides an overview of how to configure the connection between X-Payments and an X-Cart 5 based online store on the X-Payments end. 
+This section provides an overview of how to configure the connection between X-Payments and an X-Cart 5 based online store on the X-Payments end.
+
+Prerequisites:
+
+* You must have an X-Payments account created using https://www.x-payments.com/trial-demo.html
 
 Follow the steps below:
 
