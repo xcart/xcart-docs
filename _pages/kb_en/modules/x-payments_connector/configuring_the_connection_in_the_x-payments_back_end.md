@@ -11,7 +11,7 @@ This section provides an overview of how to configure the connection between X-P
 
 Prerequisites:
 
-* You must have an X-Payments account created using https://www.x-payments.com/trial-demo.html
+* You must have an X-Payments account created using [https://www.x-payments.com/trial-demo.html](https://www.x-payments.com/trial-demo.html).
 
 Follow the steps below:
 
