@@ -33,8 +33,8 @@ Make sure the VAT/GST addon {% link "is installed and configured" ref_Rzp45QlN %
      ![vat-shipping-tax-classes.png]({{site.baseurl}}/attachments/ref_168jPT7A/vat-shipping-tax-classes.png)
 
    * Click on a tax class opposite the shipping method name to change the settings:
-     * **Low VAT rate** : Choose this tax class if you don't want to add VAT to delivery costs.
-     * **Items Max VAT rate** (default value) : Choose this tax class if you need to add a VAT rate to the delivery costs. The VAT rate added to the delivery costs will equal the maximun VAT rate set on the products being added to cart. 
+     * **Zero VAT rate** : Choose this tax class if you don't want to charge VAT on delivery costs.
+     * **Items Max VAT rate** (default value) : Choose this tax class if you need to charge VAT on delivery costs. A VAT rate added to the delivery costs will equal the maximun VAT rate set on the products being added to cart. 
        
        {% note info %}
        The options you'll see in the **Tax class** dropdown on the shipping settings page will vary depending on the {% link "Tax Classes" ref_pAWOdG8N %} you've set up in your store. 
