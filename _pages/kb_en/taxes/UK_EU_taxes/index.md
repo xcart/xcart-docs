@@ -16,5 +16,6 @@ _In this section:_
 *  {% link "VAT-Inclusive Prices" ref_4tqYojGn %}
 *  {% link "VAT/GST Addon Installation and Configuration" ref_Rzp45QlN %}
 *  {% link "VAT Rates" ref_1uXE2bZt %}
+*  {% link "VAT on Delivery" ref_168jPT7A %}
 *  {% link "VAT Exemptions" ref_0OMhh0n0 %}
 *  {% link "Examples of VAT Setup" ref_0i5znUi1 %}
