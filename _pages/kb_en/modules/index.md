@@ -113,6 +113,7 @@ _In this section:_
 *   {% link "Update Inventory" ref_uSIvmuTh %}
 *   {% link "UPS" ref_0uCGd6Bs %}
 *   {% link "U.S.P.S." ref_158tuAaD %}
+*   {% link "Value Added Tax / Goods and Services Tax " ref_0GjdgNJx %}
 *   {% link "Variants Table View" ref_7FeW8hHv %}
 *   {% link "Volume Discounts" ref_3JbpQrPF %}
 *   {% link "Wholesale" ref_ttZa4qgu %}
