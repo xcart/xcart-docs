@@ -5,7 +5,7 @@ updated_at: '2019-03-19 13:25 +0400'
 identifier: ref_4oLvbanr
 title: Setitng up Sales Tax Rates
 order: 110
-published: false
+published: true
 ---
 You need to set up sales tax rates to configure your sales tax. Depending on whether you need to set up general tax rates or tax rates that apply to shipping charges, use the appropriate section: **General tax rates** or **Tax rates on shipping cost**. 
 
