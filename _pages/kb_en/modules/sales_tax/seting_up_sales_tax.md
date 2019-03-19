@@ -5,7 +5,7 @@ updated_at: '2019-03-19 13:18 +0400'
 identifier: ref_1QWLEsXG
 title: Configuring Sales Tax
 order: 100
-published: false
+published: true
 redirect_from:
   - /taxes/setting_up_sales_tax.html
 ---
