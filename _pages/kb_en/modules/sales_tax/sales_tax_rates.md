@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-03-19 13:25 +0400'
 identifier: ref_4oLvbanr
-title: Setitng up Sales Tax Rates
+title: Setting up Sales Tax Rates
 order: 110
 published: true
 ---
