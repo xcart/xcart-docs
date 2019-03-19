@@ -94,6 +94,7 @@ _In this section:_
 *   {% link "Related Products" ref_4a5rpsQq %}
 *   {% link "RTL Languages Support" ref_3vEHzhPP %}
 *   {% link "Sale" ref_7tBJ8Yqo %}
+*   {% link "Segment Integration" ref_2tHtk4OT %}
 *   {% link "SEO Health Check" ref_2RwDb3OY %}
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 *   {% link "ShippingEasy" ref_HTml5LyW %}
