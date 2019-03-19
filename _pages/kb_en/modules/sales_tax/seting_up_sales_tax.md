@@ -6,8 +6,6 @@ identifier: ref_1QWLEsXG
 title: Configuring Sales Tax
 order: 100
 published: true
-redirect_from:
-  - /taxes/setting_up_sales_tax.html
 ---
 {% note warning %}
 
