@@ -78,3 +78,10 @@ To configure a Sales tax taxation in your store, complete the following steps:
     ![tax-sales-enabled.png]({{site.baseurl}}/attachments/ref_aJPK4DHN/tax-sales-enabled.png)
     
 6.  Click the **Save changes** button at the bottom of the page to save the changes.
+
+_Related pages_:
+
+*   {% link "Setting up Tax Classes" ref_pAWOdG8N %}
+*   {% link "Assigning Tax Classes to Products" ref_pAWOdG8N#assigning-tax-classes-to-products %}
+*   {% link "Setting up Address Zones" ref_r68iO5Rm %}
+*   {% link "Adding User Membership Levels" ref_9ITFspcC %}
