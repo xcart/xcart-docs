@@ -18,16 +18,12 @@ If the Sales Tax addon is installed but not enabled, you will need to {% link "a
 Please find below some guidance on how to set up and enable Sales tax calculation using the addon “Sales Tax” for X-Cart 5. 
 
 *  {% link "Configuring Sales Tax" ref_1QWLEsXG %}
-*  
+*  {% link "Setting up Sales Tax Rates" ref_4oLvbanr %}
 
 
 
 
 _Related pages:_
 
-*   {% link "Setting up Tax Classes" ref_pAWOdG8N %}
-*   {% link "Assigning Tax Classes to Products" ref_pAWOdG8N#assigning-tax-classes-to-products %}
-*   {% link "Setting up Address Zones" ref_r68iO5Rm %}
-*   {% link "Adding User Membership Levels" ref_9ITFspcC %}
 *   {% link "Setting up VAT / GST (for the UK, EU, Australia, etc.)" ref_Rzp45QlN %}
 *   {% link "Setting up Canadian Taxes" ref_hxmof6xX %}
