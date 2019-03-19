@@ -5,7 +5,7 @@ updated_at: '2019-03-19 12:53 +0400'
 identifier: ref_7fGmqgPE
 title: Sales Tax
 order: 230
-published: false
+published: true
 redirect_from:
   - /taxes/setting_up_sales_tax.html
 ---
