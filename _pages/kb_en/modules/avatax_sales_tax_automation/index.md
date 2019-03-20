@@ -8,6 +8,8 @@ categories:
   - User manual
 published: true
 order: 30
+redirect_from:
+  - /taxes/avalara.html
 ---
 
 
