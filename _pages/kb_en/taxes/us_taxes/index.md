@@ -20,4 +20,6 @@ Whether you choose a manual sales tax confiuration or an automated one, first co
 _In this section_:
 
 *  Sales Tax Nexus
-*  
+*  {% link "Configuring Sales Tax" ref_1QWLEsXG %}
+*  {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
+*  {% link "TaxJar Sales Tax Automation" ref_0wHdWryq %}
