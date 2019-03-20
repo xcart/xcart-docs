@@ -6,6 +6,8 @@ identifier: ref_0wHdWryq
 title: TaxJar Sales Tax Automation
 order: 290
 published: true
+redirect_from:
+  - /taxes/taxjar.html
 ---
 X-Cart’s TaxJar Sales Tax Automation addon allows you to integrate your X-Cart based store with [TaxJar](https://www.taxjar.com/ "TaxJar Sales Tax Automation"), one of the market leading sales tax automation service in the US. 
 
