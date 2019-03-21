@@ -8,3 +8,4 @@ order: 160
 published: true
 redirect_to: 'https://kb.x-cart.com/modules/taxjar/index.html'
 ---
+   
