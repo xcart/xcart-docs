@@ -9,7 +9,7 @@ categories:
   - User manual
 published: true
 ---
-Taxes placed on the sale or lease of goods and services in the United States are called sales taxes. Sales taxes are only charged at the final point of sale, so resellers and wholesalers are exempt from paying tax. Any merchant in the US needs to be sales tax compliant. This means that a retailer has to charge sales tax to buyers in states where he has sales tax nexus or phisical and econimical presence in other words.
+Taxes placed on the sale or lease of goods and services in the United States are called sales taxes. Sales taxes are only charged at the final point of sale, so resellers and wholesalers are exempt from paying tax. Any merchant in the US needs to be sales tax compliant. This means that a retailer has to charge sales tax to buyers in states where he has sales tax nexus or phisical or econimical presence in other words.
 
 Setting up sales tax in X-Cart 5 is not difficult, whereas the system provides enough flexibility to configure even the most intricate tax calculation rules: if necessary, it is possible to configure your sales tax so it is calculated differently depending on the tax class of the products in the order, the customer's address zone and the customer's membership level.
 
@@ -19,6 +19,7 @@ Whether you choose a manual sales tax set-up or an automated one, first consult 
 
 _In this section_:
 
+*  {% link "Sales Tax Basics" ref_689k7NR8 %}
 *  {% link "Sales Tax Nexus" ref_23WeJDxE %}
 *  {% link "Sales Tax Addon Installation and Configuration" ref_1QWLEsXG %}
 *  {% link "Manual Sales Tax Rates Setup" ref_4oLvbanr %}
