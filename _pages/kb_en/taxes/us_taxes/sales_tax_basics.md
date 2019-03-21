@@ -7,7 +7,7 @@ title: Sales Tax Basics
 order: 100
 published: true
 ---
-Sales tax in the US is charged on end-buyers by retailers only. The retailers file returns and remit the tax to the state. There is no national general sales tax in the US, each state governes sales tax at the state level and collects it from the merchants who have {% link "nexus" ref_23WeJDxE %} (phisical or economical presence) there. As of Janyary 2019, 45 states plus the District of Columbia impose a general sales tax, 5 states (Alaska, Delaware, Montana, New Hamphire, Oregon) has no general sales tax though some local areas within these states may be able to charge a sales tax. Sales tax rates vary by state, and by locality within a state (a county, city, or any special taxing district). 
+Sales tax in the US is charged to end-buyers by retailers only. The retailers file returns and remit the tax to the state. There is no national general sales tax in the US, each state governes sales tax at the state level and collects it from the merchants who have {% link "nexus" ref_23WeJDxE %} (phisical or economical presence) there. As of Janyary 2019, 45 states plus the District of Columbia impose a general sales tax, 5 states (Alaska, Delaware, Montana, New Hamphire, Oregon) has no general sales tax though some local areas within these states may be able to charge a sales tax. Sales tax rates vary by state, and by locality within a state (a county, city, or any special taxing district). 
 
 There are different types of sales taxes imposed by the states. Some states collect taxes on an origin basis while the others on a destination basis.
 
