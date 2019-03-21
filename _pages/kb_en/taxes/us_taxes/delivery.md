@@ -1,0 +1,10 @@
+---
+lang: en
+layout: article_with_sidebar
+updated_at: '2019-03-21 15:54 +0400'
+identifier: ref_69WqytK2
+title: Sales Tax on Delivery
+order: 135
+published: false
+redirect_to: 'https://kb.x-cart.com/modules/sales_tax/sales_tax_rates.html'
+---
