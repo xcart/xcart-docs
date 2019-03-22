@@ -5,7 +5,7 @@ updated_at: '2019-03-22 10:32 +0400'
 identifier: ref_0nYt3JKG
 title: Setting up Sales Tax on Shipping Charges
 order: 140
-published: false
+published: true
 redirect_from:
   - /shipping/shipping_tax.html
 ---
