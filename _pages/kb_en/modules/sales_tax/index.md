@@ -19,11 +19,9 @@ Please find below some guidance on how to set up and enable Sales tax calculatio
 
 *  {% link "Configuring Sales Tax" ref_1QWLEsXG %}
 *  {% link "Setting up Sales Tax Rates" ref_4oLvbanr %}
-
-
+*  {% link "Setting up Sales Tax on Shipping Charges" ref_0nYt3JKG %}
 
 
 _Related pages:_
 
-*   {% link "Setting up VAT / GST (for the UK, EU, Australia, etc.)" ref_Rzp45QlN %}
-*   {% link "Setting up Canadian Taxes" ref_hxmof6xX %}
+*   {% link "Taxes" ref_kJmd7K27 %}
