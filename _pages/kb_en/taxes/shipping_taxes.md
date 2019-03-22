@@ -17,7 +17,7 @@ Anyway in case it's necessaty to charge taxes on goods delivery, X-Cart allows m
 
 _In this section_:
 
-*   {% link "Setting VAT on Shipping Charges" ref_168jPT7A %}
+*   {% link "Setting up VAT on Shipping Charges" ref_168jPT7A %}
 *   {% link "Setting up Sales Tax on Shipping Charges" ref_0nYt3JKG %}
 
 
