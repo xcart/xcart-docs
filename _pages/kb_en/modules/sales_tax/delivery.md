@@ -6,6 +6,8 @@ identifier: ref_0nYt3JKG
 title: Setting up Sales Tax on Shipping Charges
 order: 140
 published: false
+redirect_from:
+  - /shipping/shipping_tax.html
 ---
 Some states consider shipping charges to be a necessary part of a taxable eCommerce transaction, and require online sellers to charge sales tax on delivery charges.
 
