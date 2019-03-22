@@ -22,10 +22,8 @@ You can also set up tax overrides to address unique tax laws and situations usin
 _In this section:_
 
 *   {% link "Tax Classes" ref_pAWOdG8N %}
-*   {% link "Setting up Sales Tax" ref_aJPK4DHN %}
-*   {% link "Setting up VAT / GST (for the UK, EU, Australia, etc.)" ref_Rzp45QlN %}
-*   {% link "Setting up Canadian Taxes" ref_hxmof6xX %}
-*   {% link "Setting up Shipping Taxes" ref_7vViyKfY %}
-*   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
-*   {% link "TaxJar Sales Tax Automation" ref_0wHdWryq %}
+*   {% link "European and UK Taxes" ref_Rzp45QlN %}
+*   {% link "US Taxes" ref_aJPK4DHN %}
+*   {% link "Canadian Taxes" ref_hxmof6xX %}
+*   {% link "Shipping Taxes" ref_7vViyKfY %}
 *   {% link "Tax Exemptions" ref_5ffIgmxG %}
