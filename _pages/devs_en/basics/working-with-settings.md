@@ -40,15 +40,15 @@ For the sake of example, we will create a module that has textarea setting where
     ```php
 	XLite\Model\Config:
 	  - name: html_code
-	    category: XCExample\SettingsDemo
-	    type: textarea
-	    orderby: 100
-	    value: ''
-	    widgetParameters: { trusted: 1 }
-	    translations:
+		category: XCExample\SettingsDemo
+		type: textarea
+		orderby: 100
+		value: ''
+		widgetParameters: { trusted: 1 }
+		translations:
 	      - code: en
-	        option_name: Put your HTML code here
-	        option_comment: I am comment to the option and I am here just for show that you can put some text into me
+			option_name: Put your HTML code here
+			option_comment: I am comment to the option and I am here just for show that you can put some text into me
     ```
     
 	`widgetParameters: { trusted: 1 }` line defines that this textarea can accept any value, even JS code. If we do not specify this parameter, <script> tags would be stripped out.
