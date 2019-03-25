@@ -6,6 +6,9 @@ identifier: ref_08gXAvpC
 title: Canadian Taxes
 order: 156
 published: false
+redirect_from:
+  - /taxes/setting_up_canadian_taxes.html
+version: X-Cart 5.3.2 and later
 ---
 [Canadian Taxes](https://market.x-cart.com/addons/canadian-taxes.html "Canadian Taxes") addon is targeted for business based in Canada, and is aimed at configuring taxes like GST, PST, QST or HST. 
     ![taxes-can-installed.png]({{site.baseurl}}/attachments/ref_hxmof6xX/taxes-can-installed.png)
