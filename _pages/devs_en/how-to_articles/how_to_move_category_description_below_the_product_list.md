@@ -27,8 +27,8 @@ To implement the necessary changes, you will need to modify X-Cart templates as 
        Here is the content of the new template:
        ```
        {** 
-       * @ListChild (list="center.bottom", weight="300") 
-       *}
+        * @ListChild (list="center.bottom", weight="300") 
+        *}
        {if:getTarget()=#category#}
        <div class="category-description"{getDescription():h}</div
        {end:}
@@ -38,23 +38,24 @@ To implement the necessary changes, you will need to modify X-Cart templates as 
 
     1.2\. Run the following SQL query on your X-Cart database:
               
-        ```
-        INSERT INTO xc_theme_tweaker_template (template, date) VALUES       ("theme_tweaker/default/en/center/bottom/category_description.tpl", UNIX_TIMESTAMP());
-         ```
-       After doing so you will be able to edit the new template directly in the Admin area of your X-Cart store, on the "Look & Feel" page in the "Webmaster mode" section, or while using the "Webmaster mode" tool.  
+	```
+	INSERT INTO xc_theme_tweaker_template (template, date) VALUES       ("theme_tweaker/default/en/center/bottom/category_description.tpl", UNIX_TIMESTAMP());
+	```
+	After doing so you will be able to edit the new template directly in the Admin area of your X-Cart store, on the "Look & Feel" page in the "Webmaster mode" section, or while using the "Webmaster mode" tool.  
        
     1.3\. Re-generate X-Cart cache.  
        
     1.4\. Modify the code of the template _skins/default/en/category_description.tpl_  using the "Webmaster mode" tool:  
        
-       Comment out the code responsible for the output of category description by placing it inside the special tags {* *}; for example:
+	Comment out the code responsible for the output of category description by placing it inside the special tags {* *}; for example:
        
-        ```
-        {*
-        <div class="category-description"{getDescription():h}</div
-        *}
-        ```
-       This will remove category description from the center top part of the page.  
+	```
+	{*
+		<div class="category-description"{getDescription():h}</div
+	*}
+	```
+
+	This will remove category description from the center top part of the page.  
        
 2.  Set up a banner for the category.  
 
