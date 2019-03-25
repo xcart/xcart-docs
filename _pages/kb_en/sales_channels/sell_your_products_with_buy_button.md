@@ -48,7 +48,7 @@ In general, any website or platform that allows you to paste plain HTML code wit
 
 ### Add a Buy Button to a Wordpress Blog
 
-You can add your embed code to individual posts and to the menu on the homepage of your WordPress blog.
+You can add your embed code to individual posts and to the menu on the homepage of your [WordPress blog](https://www.x-cart.com/wordpress-ecommerce.html).
 
 You can also use embedded collections with custom themes to create an entire ecommerce site in WordPress.
 
