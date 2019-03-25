@@ -3,11 +3,11 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-09-30 13:20 +0400'
 identifier: ref_xEadpu9F
-title: Setting up Volume Discounts for Products
+title: 'Volume Discounts '
 categories:
   - User manual
 published: true
-order: 140
+order: 200
 redirect_from:
   - /seo_and_promotion/setting_up_volume_discounts_for_products.html
 ---
