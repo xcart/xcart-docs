@@ -13,7 +13,7 @@ In order for businesses to win market share and stay relevant they need to consi
 
 Marketing campaigns are defined sets of activities that promote a product or sale over a specific time through marketing channels like paid advertising, social media, and {% link "email campaigns" ref_1YvPiQr5 %}. 
 
-One of the most common types of online marketing campaign uses advertising through the popular social platfroms:
+One of the most common types of online marketing campaign uses advertising through the popular social platforms:
 * {% link "Google AdWords (via Segment Integration)" ref_0XLukKQy %}
 * {% link "Facebook Ads and Instagram Ads" ref_LA0TBHEA %}
 * {% link "Pinterest Tag (via Segment Integration)" ref_7efT5dbq %}
