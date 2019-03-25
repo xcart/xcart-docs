@@ -5,7 +5,7 @@ updated_at: '2019-03-25 14:48 +0400'
 identifier: ref_0XrpRRgO
 title: SEO and Analytics
 order: 100
-published: false
+published: true
 ---
 Improving SEO will help customers to find your online store in search engines and help you in sharing your products on social media.
 
