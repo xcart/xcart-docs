@@ -12,7 +12,7 @@ Improving SEO will help customers to find your online store in search engines an
 Using SEO analytics and reports will give you insight into your sales and customers in great detail and help to improve your business. The types of analytics and reports that you can view depend on the tool you use.
 
 *   {% link "SEO-friendly URLs" ref_nJxrzFEZ %}
-*   {% link "Optimizing Your Catalog Pages for SEO" ref_OBh3V1k1 %}
+*   {% link "Optimization of Catalog Content for SEO" ref_OBh3V1k1 %}
 *   {% link "Submitting Your Shop to Search Engines" ref_OqJ2oZTE %}
 *   {% link "SEO Health Check" ref_2RwDb3OY %}
 *   {% link "Google Analytics" ref_6NqAify2 %}
