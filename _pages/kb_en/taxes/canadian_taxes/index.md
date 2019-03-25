@@ -23,5 +23,5 @@ The three territories of Canada (Yukon, Northwest Territories and Nunavut) do no
 X-Cart Canadian taxes addon comes with the predefined privincial tax rates and automatically displays the correct tax name to a customer at checkout based on the customer’s province. A store admin can edit tax rates for each province if necessary and also set several taxes for a province based on customers memberships.
 
 _In this section_:
-*  {% link "Configuring Canadian Taxes Addon" ref_01HpRkKG %}
-*  {% link "Setting up Provincial Tax Rates" ref_0ODNArlF %}
+*  {% link "Canadian Taxes Addon Installation and Configuration" ref_01HpRkKG %}
+*  {% link "Provincial Tax Rates Setup" ref_0ODNArlF %}
