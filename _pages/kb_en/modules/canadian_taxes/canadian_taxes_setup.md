@@ -12,17 +12,19 @@ PREREQUISITES:
 
 Before you configure the Canadian Taxes addon:
 
-1.  Ensure that each of the products in your store to which a tax needs to be applied has a tax class assigned to it. You can create your custom tax classes or use the "Default tax class" that is assigned to all your products by default. 
+1. Ensure the [Canadian Taxes](https://market.x-cart.com/addons/canadian-taxes.html "Configuring Canadian Taxes") addon is {% link "installed and enabled" ref_0fGEpvrh %}.
+
+2.  Ensure that each of the products in your store to which a tax needs to be applied has a tax class assigned to it. You can create your custom tax classes or use the "Default tax class" that is assigned to all your products by default. 
     See: 
     *   {% link "Creating tax classes" ref_pAWOdG8N#creating-tax-classes %};
     *   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}.
-2.  Ensure that your store has all the necessary address zones configured. You will need these zones to use different provincial tax rates based on the customer address.
+3.  Ensure that your store has all the necessary address zones configured. You will need these zones to use different provincial tax rates based on the customer address.
     See:
     *   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
-3.  If you are going to need different provincial tax rates for different customer membership levels, ensure that the necessary user membership levels have been set up. 
+4.  If you are going to need different provincial tax rates for different customer membership levels, ensure that the necessary user membership levels have been set up. 
     See:
     *   {% link "Adding user membership levels" ref_9ITFspcC %}
-4. Make sure the Canadian Taxes addon is {% link "installed and enabled" ref_0fGEpvrh %}.
+
 {% endnote %}
 
 To configure Canadian taxes, complete the following steps:
