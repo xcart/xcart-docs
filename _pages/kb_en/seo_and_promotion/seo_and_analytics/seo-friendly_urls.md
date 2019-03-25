@@ -10,7 +10,7 @@ published: true
 order: 100
 redirect_from:
   - /general_setup/setting_up_seo-friendly_urls.html
-  - /seo_and_promotion/setting_up_seo-friendly_urls.md
+  - /seo_and_promotion/setting_up_seo-friendly_urls.html
 ---
 ## Introduction
 
