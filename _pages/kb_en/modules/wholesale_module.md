@@ -12,7 +12,7 @@ redirect_from:
   - >-
     /products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html
 ---
-Wholesale prices and minimum purchase quantities for products can be configured in X-Cart 5 using the addon **Wholesale**:
+Wholesale prices and minimum purchase quantities for products can be configured in X-Cart 5 using the addon **[Wholesale](https://market.x-cart.com/addons/wholesale.html)**:
 
 ![]({{site.baseurl}}/attachments/6389808/8719226.png)
 
