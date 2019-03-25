@@ -21,3 +21,7 @@ Please find below some guidance on how to set up and enable Canadina taxes calcu
 
 *  {% link "Configuring Canadian Taxes" ref_01HpRkKG %}
 *  {% link "Setting up Provincial Tax Rates" ref_0ODNArlF %}
+
+_Related pages:_
+
+*   {% link "Taxes" ref_kJmd7K27 %}
