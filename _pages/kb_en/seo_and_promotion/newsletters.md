@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-08-06 14:09 +0400'
 identifier: ref_1YvPiQr5
-title: Promoting Sales with Newsletters
+title: Promote Sales with Newsletters
 order: 200
 published: true
 ---
