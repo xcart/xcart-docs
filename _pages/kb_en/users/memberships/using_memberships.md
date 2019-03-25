@@ -13,8 +13,7 @@ redirect_from:
 {% toc %}
 
 ## Membership-specific Access to Products and Categories
-
-In the section [Setting up wholesale prices and minimum purchase quantites for different membership levels](https://kb.x-cart.com/products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html) of this manual you can find out how to set special prices for the customers who buy items in bulk. Allowing access to a certain product, group of products or product category based on membership level works a bit differently. Using this function you can grant access to specific products or categories only to certain members of your site and hide them from the rest of your site visitors. The hidden products and categories will still be indexed by Google, so this won't affect the ranks.
+Sometimes you may need to grant access to a specific product, group of products or product category only to certain members of your site and hide them from the rest of your site visitors. This can be done using X-Cart's user memberhsips feature. Note that the hidden products and/or categories will still be indexed by Google, so hiding them from certain types of customers will not affect the ranks.
 
 To hide a category and grant access to it only to certain store members:
     
@@ -52,26 +51,10 @@ If a non-member tries to open a members-only category page using a direct link, 
 
 Note that a store administrator can give membership to registered customers only (Access Level - Customer), but not to anonymous visitors. 
 
-## Membership-specific Taxes
-
-If some of your clients need to be given lower tax rates or have an exemption from paying the sales tax, you can adjust your store to meet this need by setting up tax rates specifically for different membership levels. 
-
-To set membership-specific tax rates:
-   
-   1. Go to the 'Store Setup: Taxes' section of your store's Admin area to set up your tax.
-   
-   2. When adjusting the details of your tax, make sure the option 'Use the same tax rates for all user membership levels' is disabled.
-   
-   3. Create a new tax rate or edit an existing one specifying the required membership (Figure 6). 
-   
-   4. Be sure to save your changes. 
-   ![Fig 6]({{site.baseurl}}/attachments/tax.png)
-
-The detailed description of the tax configuration process is available in the section {% link "Setting up Sales Tax" ref_aJPK4DHN %} of this manual.
-
+## Membership-specific Product Pricing and Minimum Purchase Quantities
+It is possible to offer multiple levels of pricing for the same product according to the membership level of the buyer and the quantity of product units being ordered. It is also possible to limit the minimum quantity of a product that can be ordered, and make this quantity membership dependent as well. For more info on this, see the section {% link "Wholesale" ref_ttZa4qgu %} of this manual. 
 
 ## Membership-specific Discounts, Coupons and Special Offers
-
 By using memberships you can vary the discount level between different groups of customers, provide coupons of limited edition that will be valid only for a specific membership level, and extend membership sales with special offers.
 
 Membership-specific discounts can be set up using the addon **[Volume Discounts](https://market.x-cart.com/addons/volume-discounts.html)** via the section 'Discounts: Volume Discounts' of the Admin back end. More info on volume discounts is provided in the section {% link "Setting up volume discounts for products" ref_xEadpu9F %}. 
@@ -110,6 +93,22 @@ To create an offer that will be available only to members:
    
 For detailed information on the setup of special offers, refer to the section {% link "Special Offers" ref_special_offers %} in this manual.
 
+## Membership-specific Taxes
+
+If some of your clients need to be given lower tax rates or have an exemption from paying the sales tax, you can adjust your store to meet this need by setting up tax rates specifically for different membership levels. 
+
+To set membership-specific tax rates:
+   
+   1. Go to the 'Store Setup: Taxes' section of your store's Admin area to set up your tax.
+   
+   2. When adjusting the details of your tax, make sure the option 'Use the same tax rates for all user membership levels' is disabled.
+   
+   3. Create a new tax rate or edit an existing one specifying the required membership (Figure 6). 
+   
+   4. Be sure to save your changes. 
+   ![Fig 6]({{site.baseurl}}/attachments/tax.png)
+
+The detailed description of the tax configuration process is available in the section {% link "Setting up Sales Tax" ref_aJPK4DHN %} of this manual.
 
 ## Membership-specific Payment Methods
 
