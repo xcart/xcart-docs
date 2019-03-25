@@ -27,3 +27,7 @@ Use a newsletter to reach out to your customers and try advertising via social p
 Market your goods and deals to the right categories of customers by using customer memberships: 
 
 *   {% link "User Memberships" ref_memberships_ext %}
+
+_Related pages:_
+
+* 
