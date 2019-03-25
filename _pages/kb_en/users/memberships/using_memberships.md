@@ -52,7 +52,7 @@ If a non-member tries to open a members-only category page using a direct link, 
 Note that a store administrator can give membership to registered customers only (Access Level - Customer), but not to anonymous visitors. 
 
 ## Membership-specific Product Pricing and Minimum Purchase Quantities
-It is possible to offer multiple levels of pricing for the same product according to the membership level of the buyer and the quantity of product units being ordered. It is also possible to limit the minimum quantity of a product that can be ordered, and make this quantity membership dependent as well. For more info on this, see the section {% link "Wholesale" ref_ttZa4qgu %} of this manual. 
+It is possible to offer multiple levels of pricing for the same product according to the membership level of the buyer and the quantity of product units being ordered. It is also possible to limit the minimum quantity of a product that can be ordered, and make this quantity membership dependent as well. For this you will need the addon **[Wholesale](https://market.x-cart.com/addons/wholesale.html)**. Detailed information on using this addon is available in the section {% link "Wholesale" ref_ttZa4qgu %} of this manual. 
 
 ## Membership-specific Discounts, Coupons and Special Offers
 By using memberships you can vary the discount level between different groups of customers, provide coupons of limited edition that will be valid only for a specific membership level, and extend membership sales with special offers.
