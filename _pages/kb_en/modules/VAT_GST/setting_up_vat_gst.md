@@ -27,7 +27,6 @@ Before you configure your VAT / GST tax:
     
 4.  If you are going to need different tax rates for different customer membership levels, ensure that the necessary user membership levels have been set up. 
     *   {% link "Adding user membership levels" ref_9ITFspcC %}
-
 {% endnote %}
 
 To configure a VAT / GST taxation in your store, complete the following steps:
@@ -80,7 +79,7 @@ To configure a VAT / GST taxation in your store, complete the following steps:
     
     *   **Merchant Tax Number** : Specify your tax identification number in this field. This value will be shown on the invoices of orders with VAT applied. If you need to change the wording of this phrase (for example, to "VAT ID" or "ABN") follow the "Rename label" link below the field name to do it.
     
-4.  Set up the VAT/GST tax rates you require as described in {% link "Setting up your VAT / GST tax rates" ref_1uXE2bZt %}
+4.  Set up the VAT/GST tax rates you require as described in {% link "Setting up VAT / GST Tax Rates" ref_1uXE2bZt %}.
 
 5.  Make sure the VAT/GST tax calculation is enabled in your store. This is controlled by the **Tax enabled**/**Tax disabled** button to the right of the "Tax title" field. 
     ![VAT-enabled.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/VAT-enabled.png)
