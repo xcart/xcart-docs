@@ -19,5 +19,5 @@ To start using the addon "Canadian Taxes", ensure that it is {% link "installed 
 
 Please find below some guidance on how to set up and enable Canadina taxes calculation using the addon “Canadina Taxes” for X-Cart 5.
 
-*  {% link "Configuring Canadian Taxes Addon" ref_01HpRkKG %}
+*  {% link "Configuring Canadian Taxes" ref_01HpRkKG %}
 *  {% link "Setting up Provincial Tax Rates" ref_0ODNArlF %}
