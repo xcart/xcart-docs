@@ -20,3 +20,9 @@ The PST is collected in the provinces of British Columbia, Saskatchewan, Manitob
 The HST is collected in five of the ten Canadian provinces: New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario and Prince Edward Island. In HST provinces, the HST includes the GST and a provincial portion of tax. This tax is charged as one tax, and isn't broken into federal and provincial portions.
 
 The three territories of Canada (Yukon, Northwest Territories and Nunavut) do not have territorial sales taxes and collect the GST only.
+
+X-Cart Canadian taxes addon comes with the predefined privincial tax rates and automatically displays the correct tax name a customer at checkout based on the customer’s province.
+
+_In this section_:
+*  {% link "Configuring Canadian Taxes Addon" ref_01HpRkKG %}
+*  {% link "Setting up Provincial Tax Rates" ref_0ODNArlF %}
