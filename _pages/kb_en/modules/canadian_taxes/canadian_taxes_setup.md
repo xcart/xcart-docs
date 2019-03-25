@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-03-25 11:50 +0400'
 identifier: ref_01HpRkKG
-title: Setting up Canadian Taxes Addon
+title: Configuring Canadian Taxes
 order: 100
 published: true
 ---
