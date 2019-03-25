@@ -7,7 +7,7 @@ title: Optimization of Catalog Content for SEO
 categories:
   - User manual
 published: true
-order: 110
+order: 200
 redirect_from:
   - /seo_and_promotion/optimizing_your_catalog_pages_for_seo.html
 ---
