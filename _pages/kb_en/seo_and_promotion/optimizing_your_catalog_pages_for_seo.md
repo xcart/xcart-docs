@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-06-21 11:27 +0400'
 identifier: ref_OBh3V1k1
-title: Optimizing Your Catalog Pages for SEO
+title: Optimization of Catalog Content for SEO
 categories:
   - User manual
 published: true
