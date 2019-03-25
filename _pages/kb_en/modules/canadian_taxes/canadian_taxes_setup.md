@@ -58,7 +58,7 @@ To configure Canadian taxes, complete the following steps:
 
 4. Make sure the Canadian taxes calculation is enabled in your store. This is controlled by the **Tax enabled/Tax disabled** button to the right of the “Tax title” field.
 
-![taxes-can-enabled.png]({{site.baseurl}}/attachments/ref_hxmof6xX/taxes-can-enabled.png)
+   ![taxes-can-enabled.png]({{site.baseurl}}/attachments/ref_hxmof6xX/taxes-can-enabled.png)
 
 5. Click the **Save changes** button at the bottom of the page to save the changes.
 
