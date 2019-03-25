@@ -7,7 +7,7 @@ title: Make/Model/Year
 order: 165
 published: true
 ---
-The [Make/Model/Year](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year") addon allows to set up up to 4 levels of filter for inventory, as well as to remember the filters for the non-registered visitors and to remember the vehicle for the registered customers. Although the addon is mainly aimed at the sellers of auto parts or/and moto parts, it can also be used by any seller who differentiates the products by levels like computers, copiers, smartphones, etc. 
+The [Make/Model/Year](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year") addon allows to set up up to 4 levels of filter for inventory, as well as to remember the filters for the non-registered visitors and to remember the vehicle for the registered customers. Although the addon is mainly aimed at the [sellers of auto parts or/and moto parts](https://www.x-cart.com/sell-car-parts-online.html), it can also be used by any seller who differentiates the products by levels like computers, copiers, smartphones, etc. 
 
 The **Make/Model/Year** filters show up on all pages in your online store. A customer selects a make of a product, a model, a year and an engine using convenient modern selectors and gets a list of products with the set characteristics.
 
