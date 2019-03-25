@@ -5,7 +5,7 @@ updated_at: '2019-03-25 12:06 +0400'
 identifier: ref_0ODNArlF
 title: Setting up Provincial Tax Rates
 order: 110
-published: false
+published: true
 ---
 The **Canadian taxes** addon comes with the predefined privincial tax rates. The number of fields to configure depends on the common tax settings. 
 
