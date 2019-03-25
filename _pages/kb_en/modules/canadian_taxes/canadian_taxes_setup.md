@@ -3,9 +3,9 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-03-25 11:50 +0400'
 identifier: ref_01HpRkKG
-title: Configuring Canadian Taxes Addon
+title: Setting up Canadian Taxes Addon
 order: 100
-published: false
+published: true
 ---
 {% note warning %}
 PREREQUISITES:
@@ -55,9 +55,3 @@ To configure Canadian taxes, complete the following steps:
     *  **Merchant Tax Number** : Use this field to specify your tax identification number. This value will be shown on the invoices of orders with GST/PST applied. If you need to change the wording of this phrase, follow the "Rename label" link below the field name to do it.
 
 3. Proceed to provincial tax rates set up
-
-Once configured and enabled, the calculation of Canadian taxes can be disabled/re-enabled using the  **Tax enabled**/**Tax disabled** button at the top of the _Canadian taxes_ tab in the **Taxes** section (**Store setup** > **Taxes**). 
-
-![taxes-can-enabled.png]({{site.baseurl}}/attachments/ref_hxmof6xX/taxes-can-enabled.png)
-
-When tax calculation is enabled, the button shows as **Tax enabled**, and the On/Off icon on the button is green. When it is disabled, the button shows as **Tax disabled**, and the icon is grey.
