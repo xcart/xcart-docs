@@ -6,7 +6,6 @@ identifier: ref_hxmof6xX
 title: Canadian Taxes
 order: 400
 published: true
-version: X-Cart 5.3.2 and later
 ---
 Canada has [three types of sales tax](https://en.wikipedia.org/wiki/Sales_taxes_in_Canada "Canadian Taxes"):
 1. Goods and Services Tax (GST) 
