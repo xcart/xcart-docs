@@ -36,10 +36,10 @@ Discounts and special offers can be a powerful marketing strategy for your X-Car
 
 Use newsletters to reach your customers and share news about your store and sale campaigns with them. 
 
-*   {% link "Putting Products on Sale" ref_6EE1gdnh %}
+*   {% link "Put Products on Sale" ref_6EE1gdnh %}
 *   {% link "Setting up Discount Coupons" ref_SGI1FqdC %}
 *   {% link "Setting up Volume Discounts for Products" ref_xEadpu9F %}
 *   {% link "Promote Sales with User Memberships" ref_memberships_ext %}
-*   {% link "Promoting Sales with Newsletters" ref_1YvPiQr5 %}
+*   {% link "Promote Sales with Newsletters" ref_1YvPiQr5 %}
 *   {% link "Special Offers" ref_special_offers %}
 *   {% link "Marketing Campaigns" ref_2fLbUtdZ %}
