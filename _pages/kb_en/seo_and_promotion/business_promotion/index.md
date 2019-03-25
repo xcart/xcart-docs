@@ -5,7 +5,7 @@ updated_at: '2019-03-25 14:51 +0400'
 identifier: ref_3S9KvLey
 title: Business Promotion
 order: 100
-published: false
+published: true
 ---
 After you launch your online store, you need to promote it to get more sales and to turn visitors into repeat customers. Develop a marketing campaign and adhere to it to achieve your goals. 
 
