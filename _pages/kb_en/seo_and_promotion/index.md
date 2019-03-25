@@ -30,9 +30,9 @@ Using SEO analytics and reports will give you insight into your sales and custom
 
 ## Business Promotion
 
-After you launch your online store, you need to promote it to get more sales and to turn visitors to repeat customers. Develop a marketing campaign and adhere to it to achieve your goals. 
+After you launch your online store, you need to promote it to get more sales and to turn visitors into repeat customers. Develop a marketing campaign and adhere to it to achieve your goals. 
 
-Offering discounts can be a powerful marketing strategy for your X-Cart store, and there is no limit to the amount you can create. You can also manually set sale prices on individual products, and display the sale price as compared to the regular price.
+Discounts and special offers can be a powerful marketing strategy for your X-Cart store, and there is no limit to the number of discounts and offers you can create. You can also manually set sale prices on individual products, and display the sale price as compared to the regular price.
 
 Use newsletters to reach your customers and share news about your store and sale campaigns with them. 
 
