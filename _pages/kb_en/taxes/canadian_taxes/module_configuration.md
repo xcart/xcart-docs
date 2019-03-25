@@ -8,6 +8,3 @@ order: 100
 published: false
 redirect_to: 'https://kb.x-cart.com/modules/canadian_taxes/canadian_taxes_setup.html'
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
