@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-08-06 14:09 +0400'
 identifier: ref_1YvPiQr5
 title: Newsletter
-order: 200
+order: 500
 published: true
 redirect_from:
   - /seo_and_promotion/newsletters.html
