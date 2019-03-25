@@ -24,6 +24,7 @@ Before you configure Sales tax:
 4.  If you need different tax rates for different customer membership levels, ensure that the necessary user membership levels are set up.
     See:
     *   {% link "Adding user membership levels" ref_9ITFspcC %}
+5. Ensure that the Sales Tax addon is {% link "installed and enabled" ref_0fGEpvrh %}
 {% endnote %}
 
 
