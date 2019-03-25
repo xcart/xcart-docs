@@ -13,7 +13,7 @@ PREREQUISITES:
 
 Before you configure Sales tax:
 
-1. Ensure that the addon Sales Tax is installed and enabled.
+1.  Ensure that the [Sales Tax](https://market.x-cart.com/addons/sales-tax.html "Configuring Sales Tax") addon is {% link "installed and enabled" ref_0fGEpvrh %}.
 2.  Ensure that each of the products in your store that needs the sales tax to be applied to has a tax class assigned to it. You can create your custom tax classes or use the "Default tax class" that is assigned to all products by default. 
     See:
     *   {% link "Creating tax classes" ref_pAWOdG8N#creating-tax-classes %};
@@ -24,7 +24,7 @@ Before you configure Sales tax:
 4.  If you need different tax rates for different customer membership levels, ensure that the necessary user membership levels are set up.
     See:
     *   {% link "Adding user membership levels" ref_9ITFspcC %}
-5. Ensure that the Sales Tax addon is {% link "installed and enabled" ref_0fGEpvrh %}
+
 {% endnote %}
 
 
