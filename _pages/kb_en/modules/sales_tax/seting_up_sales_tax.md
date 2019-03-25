@@ -36,13 +36,9 @@ To configure a Sales tax taxation in your store, complete the following steps:
 2.  Configure the tax options in the **Common tax settings** section:
     ![tax-sales-common-settings.png]({{site.baseurl}}/attachments/ref_aJPK4DHN/tax-sales-common-settings.png)
 
-    *   Use the **Tax title** field to enter a general name describing the type of tax applied to orders in your store. This name will show on your store's checkout and on your customers' invoices. Suggested values for this field include _Tax_, _Sales Tax_, _GST_ and the like.
-    *   Specify whether tax calculation rules for the tax you are configuring (we'll come to configuring these rules a bit later) should be the same for all customers, irrespective of their membership, or should they be different depending on the users' membership. If the rules need to be the same for all buyers, enable the option **Use the same tax rates for all user membership levels** by selecting the respective check box. If the tax rate calculation will depend on the  membership levels, leave this check box unselected.
-    *   Use the selectbox titled **Address for sales tax calculation** to specify the address type your sales tax calculation will be based on. The available options here are _Shipping address_ and _Billing address._ The address type you select here will be used to determine the customer's zone, which in its turn will be used to determine the tax rate that needs to be applied. 
-    
-        {% note info %}
-        In the United States, ecommerce businesses are supposed to charge sales tax based on where the product is being shipped to, and not where it was purchased; so, a store shipping within the United States would need to choose the _Shipping address_ option in this field.
-        {% endnote %}
+    *   **Tax title** : Use this field to enter a general name describing the type of tax applied to orders in your store. This name will show on your store's checkout and on your customers' invoices. Suggested values for this field include _Tax_, _Sales Tax_, _GST_ and the like.
+    *  **Use the same tax rates for all user membership levels** : Use this check-box to specify whether tax calculation rules for the tax you are configuring should be the same for all customers, irrespective of their membership, or should they be different depending on the users' membership. If the rules need to be the same for all buyers, enable the option by selecting the respective check box. If the tax rate calculation will depend on the  membership levels, leave this check box unselected.
+    *  **Address for sales tax calculation** : Use this selectbox to specify the address type your sales tax calculation will be based on. The available options here are _Shipping address_ and _Billing address._ The address type you select here will be used to determine the customer's zone, which in its turn will be used to determine the tax rate that needs to be applied. 
     
 4.  Set up one or more tax calculation rules:
 
@@ -64,9 +60,9 @@ To configure a Sales tax taxation in your store, complete the following steps:
 
         2.  In the **General tax rates** section below, add the tax rates you require. 
             ![tax-sales-general-rates.png]({{site.baseurl}}/attachments/ref_aJPK4DHN/tax-sales-general-rates.png)
-            For more info, see the section ["Setting up your sales tax rates"](https://kb.x-cart.com/taxes/setting_up_sales_tax.html#setting-up-sales-tax-rates "Setting up sales tax") further in this article.
+            For more info, see {% link "Setting up Sales Tax Rates" ref_4oLvbanr %}.
 
-    *   If you need tax rates to be applied to shipping charges follow the steps described in {% link "Shipping Tax" ref_4nZM0iOX %}.
+    *   If you need tax rates to be applied to shipping charges follow the steps described in {% link "Sales Tax on Delivery" ref_69WqytK2 %}.
 
 5.  Make sure sales tax calculation is enabled in your store. This is controlled by the **On**/**Off** button to the right of the **Tax title** field. When the sales tax calculation is enabled, the **On/Off** icon on the button is green.
     ![tax-sales-enabled.png]({{site.baseurl}}/attachments/ref_aJPK4DHN/tax-sales-enabled.png)
