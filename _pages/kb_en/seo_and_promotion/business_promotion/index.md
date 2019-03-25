@@ -28,6 +28,7 @@ Market your goods and deals to the right categories of customers by using custom
 
 *   {% link "User Memberships" ref_memberships_ext %}
 
+
 _Related pages:_
 
-* 
+* {% link "SEO and Promotion" ref_Ibr5EziH %}
