@@ -7,7 +7,7 @@ title: Canadian Taxes
 order: 400
 published: true
 ---
-Canada has [three types of sales tax](https://en.wikipedia.org/wiki/Sales_taxes_in_Canada "Canadian Taxes"):
+Canada has [three types of sales tax](https://canadabusiness.ca/government/taxes-gst-hst/federal-tax-information/overview-of-charging-and-collecting-sales-tax/ "Canadian Taxes"):
 1. Goods and Services Tax (GST) 
 2. Provincial sales taxes (PST)
 3. Harmonized Sales Tax (HST)
@@ -18,7 +18,7 @@ The PST is collected in the provinces of British Columbia, Saskatchewan, Manitob
 
 The HST is collected in five of the ten Canadian provinces: New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario and Prince Edward Island. In HST provinces, the HST includes the GST and a provincial portion of tax. This tax is charged as one tax, and isn't broken into federal and provincial portions.
 
-The three territories of Canada (Yukon, Northwest Territories and Nunavut) do not have territorial sales taxes and collect the GST only.
+The three territories of Canada (Yukon, Northwest Territories and Nunavut) and province of Alberta do not have territorial sales taxes and collect the GST only.
 
 Taxes for Canada can be set up manually in X-Cart using the {% link "Canadian Taxes" ref_hxmof6xX %} addon. X-Cart Canadian taxes addon comes with the predefined privincial tax rates and automatically displays the correct tax name to a customer at checkout based on the customer’s province. A store admin can edit tax rates for each province if necessary and also set several taxes for a province based on customers memberships.
 
