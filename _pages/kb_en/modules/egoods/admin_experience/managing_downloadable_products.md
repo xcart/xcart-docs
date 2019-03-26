@@ -60,6 +60,9 @@ Attachments associated with a downloadable product can be managed via the Attach
    
    * Be sure to click **Save changes** to save any changes of the attachment details you have made.
 
+If, according to the E-goods addon settings, you have chosen to keep a history of attachment downloads, you can view the download history for your attachments via the History of downloads tab of the product details:
+![xc5_egoods_history1.png]({{site.baseurl}}/attachments/ref_6l9etSb8/xc5_egoods_history1.png)
+   
 ## Cloning Downloadable Products
 When you clone a downloadable product, the contents of the Attachments tab of the product from which a clone is created is copied to the clone product. As a result, you get two products using the same file attachment(s). If necessary, you can then edit the file attachments for the clone product (replace the files, adjust the _Free_ / _Paid_ access settings, adjust the availability of the files to different membership levels, and the like), or just keep the original files and their settings if you wish to re-use them. For information on product cloning, see the section {% link "Cloning Products" ref_5gTzBmtP %}.
    
