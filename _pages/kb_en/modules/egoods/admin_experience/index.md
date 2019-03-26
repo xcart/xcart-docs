@@ -13,7 +13,7 @@ To use the addon E-goods, the store administrator must enable and configure it. 
    * {% link "Configuring the E-goods Addon" ref_1dsuHf3i %}
    
 Once the addon has been configured, it is time to configure some downloadable products. See:   
-   * {% link "Configuring Downloadable Products" ref_6l9etSb8 %}
+   * {% link "Managing Downloadable Products" ref_6l9etSb8 %}
 
 The processing of e-goods orders has some specifics. For information on this, see: 
    * {% link "Processing Orders for Downloadable Products" ref_0ctZibff %}
