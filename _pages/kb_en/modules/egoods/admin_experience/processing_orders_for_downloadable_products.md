@@ -7,6 +7,7 @@ title: Processing Orders for Downloadable Products
 order: 140
 published: true
 ---
+## E-good Order Processing Routine
 The store administrator can adjust the steps of the order processing routine for e-goods orders using the settings on the {% link "E-goods addon settings" ref_1dsuHf3i %} page:
 
    * The setting "Show only ESD related fulfilment statuses" can be used to limit the set of fulfilment statuses that should be used by the store. Due to the specifics of the electronic method of delivery of such goods to the buyer, any statuses pertaining to the packaging, handling and shipping of an order will not be applicable for e-goods. If all the products in the store catalog are e-goods (no tangible goods that require shipping), the store administrator may consider switching to the E-goods order fulfilment model with just three statuses (_New_, _Delivered_ and _Will not deliver_). More info on X-Cart order statuses can be found in {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}.
@@ -24,18 +25,13 @@ The store administrator can adjust the steps of the order processing routine for
      
    If the administrator chooses not to approve the order, they will need to switch the fulfilment status of the order to _Will not deliver_. In this case the buyer will not get access to the download link. 
 
+## Adjustment of E-good Availability to the Purchaser 
 <a id="renew-egoods-access"></a>
-In the store's Admin area, the order details page for e-goods has a special tab - _E-goods_. The controls available via this tab enable the administrator to check and, if necessary, update the status of the e-good dowloadable link. For example, the administrator can check whether the file is currently available for download by the buyer, or check the number of file download attempts left to the buyer or the amount of time left till the link expiration. The administrator can also use the buttons provided on the tab:
+In the store's Admin area, the order details page for e-goods has a special tab - _E-goods_. 
+   ![order-details.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/order-details.png)
+
+The controls available via this tab enable the administrator to check and, if necessary, update the status of the e-good dowloadable link. For example, the administrator can check whether the file is currently available for download by the buyer, or check the number of file download attempts left to the buyer or the amount of time left till the link expiration. The administrator can also use the buttons provided on the tab:
    * The button **Block** discontinues access to the file for the buyer.
-   * The button **Renew** resets the e-good link TTL/available downloads number for the buyer. Once this button has been clicked, the TTL and the downloads count for the link are re-adjusted automatically to the default values as specified on the {% link "E-goods addon settings" ref_1dsuHf3i %} page.
+   * The button **Renew** resets the e-good link TTL/available downloads number for the buyer. (The TTL and the downloads count for the link are re-adjusted automatically to the default values as specified on the {% link "E-goods addon settings" ref_1dsuHf3i %} page.)
 
-![order-details.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/order-details.png)
 
-Due to the specifics of how digital products are delivered, the E-goods addon enables you to have more control of how orders with downloadable products are processed:
-- You can disable all online payment methods, which mostly work for automatic order processing.
-- You can choose to enable only those payment methods that require manual processing.
-- You can choose the payments that allow using the "auth only" mode. 
-
-The "auth only" option means that a payment gateway does not really withdraw the order total from a customer's credit card, but it only checks whether the sum is available and temporarily freezes this money until a later time, which is limited by the terms and conditions of the payment gateway. The store administrator can then either capture the authorized amount or void it. As soon as the reserved money is captured, the order gets processed and a download link becomes available in the customer's account.
-
-Processing orders that contain downloadable products using payments with "auth only" mode as well as using other methods that require manual order processing allows you to filter suspicious and potentially fraudulent orders and approve only trustworthy purchases.
