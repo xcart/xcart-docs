@@ -25,11 +25,11 @@ The store administrator can adjust the steps of the order processing routine for
    If the administrator chooses not to approve the order, they will need to switch the fulfilment status of the order to _Will not deliver_. In this case the buyer will not get access to the download link. 
 
 <a id="renew-egoods-access"></a>
-Once an order has been processed, the store administrator can update the e-goods status in the _E-goods_ tab of the Order details page:
+In the store's Admin area, the order details page for e-goods has a special tab - _E-goods_. The controls available via this tab enable the administrator to check and, if necessary, update the status of the e-good dowloadable link. For example, the administrator can check whether the file is currently available for download by the buyer, or check the number of file download attempts left to the buyer or the amount of time left till the link expiration. The administrator can also use the buttons provided on the tab:
+   * The button **Block** discontinues access to the file for the buyer.
+   * The button **Renew** resets the e-good link TTL/available downloads number for the buyer. Once this button has been clicked, the TTL and the downloads count for the link are re-adjusted automatically to the default values as specified on the {% link "E-goods addon settings" ref_1dsuHf3i %} page.
 
 ![order-details.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/order-details.png)
-
-Here you can see the amount of downloads left, TTL and also can block or renew access to the file.
 
 Due to the specifics of how digital products are delivered, the E-goods addon enables you to have more control of how orders with downloadable products are processed:
 - You can disable all online payment methods, which mostly work for automatic order processing.
