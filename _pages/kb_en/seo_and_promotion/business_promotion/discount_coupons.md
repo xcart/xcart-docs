@@ -50,7 +50,7 @@ To create a coupon:
     * **Code** - Code that a buyer will need to enter at checkout to get the discount.
     * **Comment** - Comment to help you identify this coupon.
     * **Enabled** - Whether the coupon is active and can be used by customers. Disable the option to deactivate the coupon.
-    * **Discount type** - Type of discount provided by the coupon. Can be expressed as a fixed amount in the store currency ("$ off"), a percentage ("Percent") or a discount for the amount of the order shipping cost ("Free shipping").
+    * **Discount type** - Type of discount provided by the coupon. Can be expressed as a fixed amount in the store currency ("$ off"), a percentage ("Percent") or a discount for the amount of the order shipping cost ("Free shipping"). Note that the "Free shipping" type is only available if you are using the addon "Free Shipping and Shipping freights" in your store - alongside the addon "Coupons".
     * **Discount amount** - The amount a buyer can get off their order. This field is only available with **Discount type** set to "$ off" or "Percent". 
     * **Active from** - Coupon validity period start date.
     * **Active till** - Coupon expiration date.
