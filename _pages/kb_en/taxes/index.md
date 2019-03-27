@@ -21,9 +21,11 @@ You can also set up tax overrides to address unique tax laws and situations usin
 
 _In this section:_
 
+*   {% link "Tax Setup Checklist" ref_6EL2DAuC %}
 *   {% link "Tax Classes" ref_pAWOdG8N %}
 *   {% link "European and UK Taxes" ref_Rzp45QlN %}
 *   {% link "US Taxes" ref_aJPK4DHN %}
 *   {% link "Canadian Taxes" ref_hxmof6xX %}
 *   {% link "Shipping Taxes" ref_7vViyKfY %}
+*   {% link "Taxes on Digital Products" ref_6mtLDaTB %}
 *   {% link "Tax Exemptions" ref_5ffIgmxG %}
