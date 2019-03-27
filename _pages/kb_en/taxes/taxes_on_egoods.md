@@ -28,7 +28,7 @@ Since sales tax in the US can be charged by a merchant only in states where the 
 
 ## Digital goods in Canada
 
-As of January 2019, only the province of Quebec levies tax on digital goods. Any digital service suppliers located outside of Québec (either elsewhere in Canada or abroad) must register, collect, and remit Québec Sales Tax (QST), if their annual sales exceed the CAD $30,000 threshold. The QST rate is 9.975%.
+As of January 2019, only the province of Quebec levies tax on digital goods. Any digital service suppliers located outside of Quebec (either elsewhere in Canada or abroad) must register, collect, and remit Quebec Sales Tax (QST), if their annual sales exceed the CAD $30,000 threshold. The QST rate is 9.975%.
 
 ## Digital goods in Australia
 
