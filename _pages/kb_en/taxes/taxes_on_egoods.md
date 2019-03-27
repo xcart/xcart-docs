@@ -11,6 +11,7 @@ published: true
 Digital products, or digital goods, are intangible (or non-physical) goods that exist in electronic or digital format (e.g. digital media, downloadable music, webinars and online courses, fonts and graphics, digital subscriptions, online ads, internet coupons, electronic tickets, downloadable software and mobile applications and online games, etc.). Digital goods are delivered to the end customer electronically, such as through email or online download. In X-Cart digital goods can be configured via the {% link "Downloadable Products" ref_lxNH6TFr %} facilities.
 
 In many countries digital goods are taxed separately from tangible goods and at a different tax rate.
+{% toc %}
 
 ## Digital goods in the EU
 
