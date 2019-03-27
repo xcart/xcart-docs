@@ -17,7 +17,7 @@ In many countries digital goods may be taxed separately from tangible goods and 
 
 In the EU the [List of electronically supplied goods and services ](https://ec.europa.eu/taxation_customs/sites/taxation/files/resources/documents/common/buying_online/electronically_supplied_services.pdf "e-Goods Taxes") is uniform for all EU members.
 
-In case a merchant is selling digital goods for personal use to the residents of the European countries it's necessary to charge {% link "VAT" ref_7835nGix %} (Value Added Tax) on such products regardless of whether the merchant is based in EU or outside it. The merchant must charge the VAT rate applicable in the country where a buyer is established, has a permanent address or usually reside.
+In case a merchant is selling digital goods for personal use to the residents of the European countries it's necessary to charge {% link "VAT" ref_7835nGix %} (Value Added Tax) on such products regardless of whether the merchant is based in the EU or outside it. The merchant must charge the VAT rate applicable in the country where a buyer is established, has a permanent address or usually reside.
 
 
 ## Digital goods in the US
