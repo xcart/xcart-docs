@@ -12,7 +12,7 @@ In some situations, you may need to offer tax exemption to a portion of customer
 This article describes how to create tax exemptions for both products and customers manually irrespectively of a tax addon you use.
 
 {% note info %}
-Automated tax exemption can be enabled the following addons:
+Automated tax exemption can be enabled in the following addons:
 * For both customers and products: {% link "Tax Exempt Addon" ref_6dA6W1gY %}
 * For customers only: {% link "Avalara Sales Tax Automation" ref_6880bVvi %} and {% link "VAT/GST Addon" ref_320Ik5z9 %}
 {% endnote %}
