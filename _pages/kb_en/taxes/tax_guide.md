@@ -5,7 +5,7 @@ updated_at: '2019-03-27 11:08 +0400'
 identifier: ref_6EL2DAuC
 title: Tax Setup Checklist
 order: 10
-published: false
+published: true
 ---
 
 Configuring taxes is a tricky but vital part of an e-commerce business, as you can't start selling online if taxes are not configured properly in your store.
