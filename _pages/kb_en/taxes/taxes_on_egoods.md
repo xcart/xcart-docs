@@ -19,6 +19,8 @@ In the EU the [List of electronically supplied goods and services ](https://ec.e
 
 In case a merchant is selling digital goods for personal use to the residents of the European countries it's necessary to charge {% link "VAT" ref_7835nGix %} (Value Added Tax) on such products regardless of whether the merchant is based in the EU or outside it. The merchant must charge the VAT rate applicable in the country where a buyer is established, has a permanent address or usually reside.
 
+Some European tax authorities require that a merchant collects and records two pieces of evidence of a buyer's location. This can be e.g. a customer's billing address and IP. If an IP address appears to come from a different country, then a merchant should get another piece of evidence, e.g. the address of the customer's credit card provider. 
+
 
 ## Digital goods in the US
 
