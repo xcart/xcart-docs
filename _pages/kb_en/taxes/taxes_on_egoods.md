@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2019-03-26 13:15 +0400'
 identifier: ref_6mtLDaTB
 title: Taxes on Digital Products
-order: 160
+order: 600
 published: true
 ---
 
