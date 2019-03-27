@@ -33,14 +33,14 @@ To add tax exemption for a customer a store admin should enable the **Tax exempt
 
 If you need to prevent the tax-exempt customers from changing their tax numbers without your knowing disable the **Allow customers to modify their tax number after tax exemption is enabled** option on the Tax Exempt addon settings page: 
 
-![settings-page.png]({{site.baseurl}}/attachments/ref_6dA6W1gY/settings-page.png)
-
 {% note info %}
 
 To open the setting page, locate the Tax Exempt addon in the Installed Addons list as described in {% link "Managing Addons" ref_gTOegEua %} and click **Settings**:
 
 ![installed.png]({{site.baseurl}}/attachments/ref_6dA6W1gY/installed.png)
 {% endnote %}
+
+![settings-page.png]({{site.baseurl}}/attachments/ref_6dA6W1gY/settings-page.png)
 
 Once the **Allow customers to modify their tax number after tax exemption is enabled** option is disabled any tax-exempt customers won't be able to change their tax number at checkout. The **Tax number** field will be disbaled for them and can be changed in the **Address book** on the customer profile page (**Users** -> **Users list**) by a store admin only. 
 
@@ -53,7 +53,7 @@ The addon Tax Exempt adds a possibility for a store admin to make certain produc
 For this purpose a store admin should:
 1. Locate the product in question on the product list page (**Catalog** -> **Products**).
 2. Open the product details page.
-3. Enable the **Tax Exempt** option to the **Prices & Inventory** section:
+3. Enable the **Tax Exempt** option in the **Prices & Inventory** section:
    ![tax-exempt-product.png]({{site.baseurl}}/attachments/ref_6dA6W1gY/tax-exempt-product.png)
 
 4. Click **Update product**.
