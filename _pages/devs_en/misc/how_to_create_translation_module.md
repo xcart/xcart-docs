@@ -14,10 +14,7 @@ Translation module is an add-on that translates X-Cart store to another language
 
 This article describes the whole process of creating translation module.
 
-*   [Getting CSV file](#getting-csv-file)
-*   [Working with CSV](#working-with-csv)
-    *   [Example](#example)
-*   [Wrapping up the translation module](#wrapping-up-the-translation-module)
+{% toc Table of Contents %}
 
 ## Getting CSV file
 
@@ -69,3 +66,9 @@ Once you are done, click **Create** button and the script will create a module f
 
 ![language-module.png]({{site.baseurl}}/attachments/ref_haeJE8rQ/language-module.png)
 
+## Possible problems
+
+### Fatal error during module installation
+If you forget to remove the first column with language code (e.g. en) from the CSV file, you will see the error message on the 7th step of the module installation.
+
+To fix this problem, remove the first column, so your CSV file would have only two columns remaining and pack the module again.
