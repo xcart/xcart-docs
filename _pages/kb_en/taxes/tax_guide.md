@@ -14,8 +14,7 @@ Configuring taxes is a tricky but vital part of an e-commerce business, as you c
 Please rememeber that you should consult your local tax authority on the correct tax rates you should charge and on the legal procedures that are involved before configuring any tax rates in your store!
 {% endnote %}
 
-This guide is aimed at making the tax set-up process straightforward for a store admin or vendor (for a {% link "Multivendor" ref_4ahg5FLK %} software edition). 
-
+This guide is aimed at making the tax set-up process straightforward.
 
 The checklist below outlines all of the steps that you need to take to configure taxes in an X-Cart based store properly. It may be helpful to print this checklist to easily reference it throughout the taxes setup process.
 
