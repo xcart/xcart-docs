@@ -19,3 +19,4 @@ _In this section:_
 *  {% link "VAT on Delivery" ref_168jPT7A %}
 *  {% link "VAT Exemptions" ref_0OMhh0n0 %}
 *  {% link "Examples of VAT Setup" ref_0i5znUi1 %}
+*  {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
