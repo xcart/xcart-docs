@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-03-29 09:57 +0400'
 identifier: ref_5Xj7bOA6
-title: Updating Modules
+title: Updating Addons
 order: 400
 published: true
 ---
