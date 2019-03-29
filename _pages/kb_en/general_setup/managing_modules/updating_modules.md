@@ -54,7 +54,7 @@ To update an addon:
    ```
    Error: Can't connect to the marketplace server: Curl Operation timed out after 74801 milliseconds with 251606 out of 500482 bytes received (28)
    ```
-    Errors of the kind can be caused by a slow or unstable Internet connection. Contact your hosting provider to ensure there are no Internet connection issues or ask the hosting support to increase the timeout set. 
+    Contact your hosting provider to ensure there are no Internet connection issues or ask the hosting support to increase the timeout set. Errors of the kind can be caused by a slow or unstable Internet connection. 
    {% endnote %}
 
 7.  Once all the upgrade packs have been downloaded, you will be provided with a list of all the downloaded updates and prompted to confirm that you have created a backup.
