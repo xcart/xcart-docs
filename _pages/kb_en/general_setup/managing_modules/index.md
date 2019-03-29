@@ -20,3 +20,4 @@ It is possible to obtain and install more addons. A great selection of addons fo
 
 *   {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %} (Use for addons obtained via X-Cart's Marketplace);
 *   {% link "Uploading Addons" ref_GZQ9vTq6 %} (Use for addons obtained elsewhere).
+*   {% link "Updating Addons" ref_5Xj7bOA6 %}
