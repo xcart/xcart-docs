@@ -17,7 +17,12 @@ In X-Cart notifications on the available module updates are automatically upload
 
 To check what updates are available, click on any of the “Updates are available” links. You will see the “Updates for your version” page showing the available updates:
 
-![module-update-page.png]({{site.baseurl}}/attachments/ref_5Xj7bOA6/module-update-page.png)
+![install-updates.png]({{site.baseurl}}/attachments/ref_5Xj7bOA6/install-updates.png)
+
+
+
+
+
 
 If you want to check what changes and fixes in particular are included into the coming update click the "Changelog" link opposite a module in the list of available for update:
 
