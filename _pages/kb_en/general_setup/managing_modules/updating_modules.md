@@ -7,7 +7,7 @@ title: Updating Addons
 order: 400
 published: true
 ---
-In X-Cart notifications on the available module updates are automatically uploaded to the store admin area and are displayed as follows:
+In X-Cart notifications on the available addon updates are automatically uploaded to the store admin area and are displayed as follows:
 
 * as a banner in the header:
   ![top-banner.png]({{site.baseurl}}/attachments/ref_5Xj7bOA6/top-banner.png)
@@ -20,14 +20,14 @@ To check what updates are available, click on any of the “Updates are availabl
 ![install-updates.png]({{site.baseurl}}/attachments/ref_5Xj7bOA6/install-updates.png)
 
 {% note info %}
-In addition to the minor module updates there can also be major software upgrades. See more info on the regular software upgrades in {% link "Upgrading X-Cart 5" ref_pQQ1CLe1 %}.
+In addition to the minor addon updates there can also be major software upgrades. See more info on the regular software upgrades in {% link "Upgrading X-Cart 5" ref_pQQ1CLe1 %}.
 {% endnote %}
 
-To update a module:
+To update an addon:
 
 1. Back up your store (both the files and the database). You do need this step in case something goes wrong. Please do not neglect this step because it can cost you hours of work contacting your hosting provider and asking them to recover your store from their server backups.
 
-2. In your store’s Admin area, click Updates are available to go to the “Updates for your version” page.
+2. In your store’s Admin area, click **Updates are available** to go to the “Updates for your version” page.
 
 3. Review the available updates and choose the updates you need to apply. 
 
@@ -60,7 +60,7 @@ To update a module:
 7.  Once all the upgrade packs have been downloaded, you will be provided with a list of all the downloaded updates and prompted to confirm that you have created a backup.
     ![module-update-page.png]({{site.baseurl}}/attachments/ref_5Xj7bOA6/module-update-page.png)
 
-8. If you want to check what changes and fixes in particular are included into the coming update click the "Changelog" link opposite a module in the list of available for update:
+8. If you want to check what changes and fixes in particular are included into the coming update click the "Changelog" link opposite an addon in the list of available for update:
    ![changelog.png]({{site.baseurl}}/attachments/ref_5Xj7bOA6/changelog.png)
 
 9. Click the **Install updates** button to run the installation of the update/upgrade. Note that the button becomes active only after you have confirmed the creation of a backup.
