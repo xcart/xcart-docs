@@ -5,7 +5,7 @@ updated_at: '2019-03-29 09:57 +0400'
 identifier: ref_5Xj7bOA6
 title: Updating Modules
 order: 400
-published: false
+published: true
 ---
 In X-Cart notifications on the available module updates are automatically uploaded to the store admin area and are displayed as follows:
 
@@ -92,5 +92,3 @@ To update a module:
     On this screen, you get a list of all the updated components and a link to view the update log.
        
 10.  Check that your store looks and functions correctly after the update. In case of problems, use the hard/soft reset links to try and find out what is wrong, or recover your store from backup.
-
-  
