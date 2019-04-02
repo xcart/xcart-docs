@@ -13,6 +13,6 @@ Consider integrating your store with [Shopper Approved](https://www.shopperappro
 
 Additionally, Shopper Approved enables businesses to send review invitations via email to existing customers. This allows you to gain insight from repeat and loyal clients’ reviews so you can further enhance the services. 
 
-X-Cart is integrated with Shopper Approved via a [addon of the same name](https://market.x-cart.com/addons/shopper-approved-reviews.html).  Since Shopper Approved uses a Google data feed, you'll also need the [Google Product Feed](https://market.x-cart.com/addons/google-product-feed.html) addon to be installed and enabled. 
+X-Cart is integrated with Shopper Approved via an [addon of the same name](https://market.x-cart.com/addons/shopper-approved-reviews.html).  Since Shopper Approved uses a Google data feed, you will also need the addon [Google Product Feed](https://market.x-cart.com/addons/google-product-feed.html) to be installed and enabled. 
 
 {% link "Configure" ref_3otm3RBq %} the Shopper Approved addon and start growing.
