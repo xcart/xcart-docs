@@ -93,6 +93,7 @@ Here's how you can start using this addon with X-Cart:
    To change the status, you will need to go to the Payment settings section of your X-Cart store back end. To do that, you will need to either follow the link in the help note:
    ![note.png]({{site.baseurl}}/attachments/ref_58tOKWMt/note.png)
    or simply go to **Store setup** > **Payment methods** via the Admin menu.
+   **Important**: Cash on delivery method of payment is not available for all FedEx services. Before enabling FedEx COD for your customers, you should contact FedEx to find out which services support COD. 
    
    In the Payment settings section, you will find the setting to toggle the cash on delivery option for FedEx next to the name of your FedEx method in the Offline methods list:
    ![cash-on-del.png]({{site.baseurl}}/attachments/ref_58tOKWMt/cash-on-del.png)
