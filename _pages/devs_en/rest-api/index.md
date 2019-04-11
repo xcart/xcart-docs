@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: wide_article_with_sidebar
+updated_at: '2018-07-27 15:00 +0400'
 title: REST API Documentation
 identifier: ref_rest_api_doc
-updated_at: 2018-07-27 15:00 +0400
 rest_api: docs
 order: 100
 icon: plug
@@ -25,7 +25,7 @@ If you want to exchange data with X-Cart through an external script, [REST API]
 {% note warning %}
 Please note that X-Cart models and their API change over time, so some example requests might not be compatible with your X-Cart store. 
 
-Current latest version is [{{site.swagger_pages.latest_api}}]({{ '/api/v' | append: site.swagger_pages.latest_api | prepend: site.baseurl }}).
+Current latest version is [{{site.swagger_pages.latest_api}}]({{ '/rest-api/v' | append: site.swagger_pages.latest_api | prepend: site.baseurl }}).
 {% endnote %}
 
 {% toc Table of Contents %}
