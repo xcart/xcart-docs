@@ -71,6 +71,7 @@ _In this section:_
 *   {% link "Market Price" ref_66scBj0f %}
 *   {% link "Multicurrency" ref_2tPJubPU %}
 *   {% link "Multilevel Primary Menu" ref_3yEqhwsC %}
+*   {% link "Multisite" ref_6Hts2zUf %} by [MercuryMinds](https://market.x-cart.com/mercuryminds-technologies.html)
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
 *   {% link "News" ref_0UBPXGXi %}
 *   {% link "Newsletter Subscriptions" ref_2WzsM3Pg %}
