@@ -32,16 +32,16 @@ The migration of data is done via our [Data Migration Wizard module](https://mar
       </td>
       <td colspan="1" class="confluenceTd">
           * Company information;
-          * General settings (
-          * Default customer address; 
-          * Weight and Length symbols; 
-          * Purchase limits; 
-          * Defaut admin/customer language; 
-          * Ship-from address;          
-          * Contact Us information. If your X-Cart 4 database contains an entry for contact_us, the Migration wizard requests that the addon "Contact Us" should be enabled in X-Cart 5; your X-Cart 4 store's Contact Us form settings are not checked and not migrated to X-Cart 5);
-          * SEO-friendly URLs. If your X-Cart 4 store has the Clean URLs feature enabled, the Migration wizard automatically enables SEO-friendly URLs in X-Cart 5.
-        
-          * The currency is not copied from X-Cart 4 automatically in the process of migration but needs to be specified manually before the migration start. Before the migration of orders, an alert will be provided showing the currency selected in the store and warning the user that the orders will be migrated using that currrency;      
+          <br />* General settings (
+          <br />* Default customer address; 
+          <br />* Weight and Length symbols; 
+          <br />* Purchase limits; 
+          <br />* Defaut admin/customer language; 
+          <br />* Ship-from address;          
+          <br />* Contact Us information. If your X-Cart 4 database contains an entry for contact_us, the Migration wizard requests that the addon "Contact Us" should be enabled in X-Cart 5; your X-Cart 4 store's Contact Us form settings are not checked and not migrated to X-Cart 5);
+          <br />* SEO-friendly URLs. If your X-Cart 4 store has the Clean URLs feature enabled, the Migration wizard automatically enables SEO-friendly URLs in X-Cart 5.
+          <br />
+          <br />* The currency is not copied from X-Cart 4 automatically in the process of migration but needs to be specified manually before the migration start. Before the migration of orders, an alert will be provided showing the currency selected in the store and warning the user that the orders will be migrated using that currrency;      
       </td>
     </tr>
     <tr class="top aligned">
