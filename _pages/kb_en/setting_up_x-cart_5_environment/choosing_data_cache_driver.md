@@ -17,7 +17,7 @@ X-Cart application gives you the following options for the data caching mechanis
 -	[Memcached \ Memcache](http://php.net/manual/en/book.memcached.php) driver
 -   File system caching
 
-By default, X-Cart tries to detect and automatically select the caching driver for you in the aforementioned order, eventually falling back to the file system caching (using it doesn't require any configuration).
+File system caching should be good for most stores. The most advanced of the above options is Redis. 
 
 {% note info %}
 This article discusses only the caching of dynamic content like product selections, filters, calculation results etc. The caching of static content which does not change during store deployments, like CSS, Images and Javascript files, is not covered here.
