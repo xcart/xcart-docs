@@ -47,26 +47,26 @@ The migration of data is done via our [Data Migration Wizard module](https://mar
       <td colspan="1" class="confluenceTd"><span>Сontent</span>
       </td>
       <td colspan="1" class="confluenceTd">
-Static pages (Only embedded ones);
-<br />Menu items from Speed bar section;
+- Static pages (Only embedded ones);
+<br />- Menu items from Speed bar section;
       </td>
     </tr>
     <tr class="top aligned">
       <td colspan="1" class="confluenceTd"><span>Products</span>
       </td>
       <td colspan="1" class="confluenceTd">
-General info (name, price, sku, etc);
-<br />Images and Detailed images;
-<br />Clean URLs;
-<br />Product options (including product variants and variant images);
-<br />International descriptions;
-<br />Product reviews and votes;
-<br />Related products;
-<br />Wholesale prices (for product variants as well);
-<br />Feature comparison;
-<br />Extra fields. They will be converted to Attributes in X-Cart 5;
-<br />Bestsellers. Bestsellers settings are not migrated to X-Cart 5;
-<br />E-Goods. Only the filepaths are migrated. The files themselves are not transitioned.
+- General info (name, price, sku, etc);
+<br />- Images and Detailed images;
+<br />- Clean URLs;
+<br />- Product options (including product variants and variant images);
+<br />- International descriptions;
+<br />- Product reviews and votes;
+<br />- Related products;
+<br />- Wholesale prices (for product variants as well);
+<br />- Feature comparison;
+<br />- Extra fields. They will be converted to Attributes in X-Cart 5;
+<br />- Bestsellers. Bestsellers settings are not migrated to X-Cart 5;
+<br />- E-Goods. Only the filepaths are migrated. The files themselves are not transitioned.
       </td>
     </tr>  
     <tr class="top aligned">
