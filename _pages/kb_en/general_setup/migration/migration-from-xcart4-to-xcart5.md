@@ -31,10 +31,10 @@ The migration of data is done via our [Data Migration Wizard module](https://mar
       <td colspan="1" class="confluenceTd"><span>Сonfiguration settings</span>
       </td>
       <td colspan="1" class="confluenceTd">
-          * Company information;
-          <br />* General settings (
-          <br />* Default customer address; 
-          <br />* Weight and Length symbols; 
+          - Company information;
+          	- General settings;
+        	- Default customer address; 
+			- Weight and Length symbols; 
           <br />* Purchase limits; 
           <br />* Defaut admin/customer language; 
           <br />* Ship-from address;          
