@@ -9,22 +9,21 @@ published: true
 categories:
   - Environment configuration
 ---
-Caching one of the most effective way of improving performance of web applications of all kinds. X-Cart 5 employs various types of caching the data at many levels within the system. However, you have to choose the most appropriate cache driver to get the maximum performance gain. 
+Caching is one of the most effective ways of improving the performance of web applications of all kinds. X-Cart 5 employs various types of data caching at many levels within the system. However, you have to choose the most appropriate cache driver to get the maximum performance gain. 
 
 X-Cart application gives you the following options for the data caching mechanism:
 
--	[APC](http://php.net/manual/en/book.apc.php) cache
+-	[Redis](https://redis.io/)
 -	[Memcached \ Memcache](http://php.net/manual/en/book.memcached.php) driver
--	[XCache](https://xcache.lighttpd.net/) driver
--	File system caching
+-   File system caching
 
-By default, X-Cart tries to detect and automatically select the caching driver for you in the aforemented order, eventually falling back to the file system caching (using it doesn't require any configuration).
+By default, X-Cart tries to detect and automatically select the caching driver for you in the aforementioned order, eventually falling back to the file system caching (using it doesn't require any configuration).
 
 {% note info %}
-This article is discussing only the caching of dynamic content like product selections, filters, calculation results etc. Caching of the static content that does not change during store deployments, like CSS, Images and Javascript files, is the matter of another subject.
+This article discusses only the caching of dynamic content like product selections, filters, calculation results etc. The caching of static content which does not change during store deployments, like CSS, Images and Javascript files, is not covered here.
 {% endnote %}
 
-## Configuring the X-Cart cache driver
+## Configuring the X-Cart Cache Driver
 
 You can select the cache driver manually by setting the `type` option in `[cache]` section inside `<X-Cart dir>/etc/config.php`
 
@@ -38,7 +37,7 @@ You can select the cache driver manually by setting the `type` option in `[cache
 type=file
 ```
 
-## Cache specifics
+## Cache Specifics
 
 When it comes to choosing the cache options, generally you have to consider the amount of the data in your store and the overall customer traffic. The cached content can be divided into public and personal parts:
 
@@ -49,7 +48,7 @@ If your store contains lots of products and categories (we're talking about hund
 
 Another problem is the speed of the cache lookup - caching mechanism got to be fast enough to make a performance difference. If it is very intellegent to perform optimal eviction of the unused cached content, it will be slower than more simple mechanisms. So, the matter of things is such that you can't have simultaneously small and quick cache; you have to choose one single aspect.
 
-## Overview of the cache driver options
+## Overview of the Cache Driver Options
 
 In case you server has large disk space and SSD drives, and your store is having less than 100000 products, we recommend using file system cache, because it is the quickest option. You'll only have to configure a periodic cleanup of the cache folder at the moment of the lowest customer traffic (for example, at midnights).
 
@@ -57,7 +56,7 @@ When you have a relatively small store or the big amount of RAM available on ser
 
 If your store has millions of the products, the solution has to be custom tailored for your needs. [Contact the X-Cart representatives](https://www.x-cart.com/contact-us.html) and we'll defintely find the most efficient solution. 
 
-### File system cache
+### File System Cache
 
 File system caching is the most simple solution; it stores the serialized, cached objects in the filesystem inside X-Cart application directory (`<X-Cart>/var/datacache` to be particular).
 
@@ -81,11 +80,32 @@ minutes.
 
 More info about setting up the cron tasks can be found [here](https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/).
 
+### Redis
+
+Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker.
+
+Redis needs to be installed on the server and requires some configuration in etc/config.php:
+
+```
+[cache]
+; default cache ttl in seconds, 604800 - 1 week
+default_cache_ttl = 604800
+; Type of cache used. Can take auto, redis, memcache, memcached, apc, xcache, file values.
+type=redis
+; Cache namespace
+namespace=XLite
+; List of memcache\redis servers. Semicolon is used as a delimiter.
+; Each server is specified with a host name and port number, divided
+; by a colon. If the port is not specified, the default
+; port 11211 is used for memcache(d), or 6379 for redis.
+servers=127.0.0.1
+```
+
 ### Memcached
 
 Memcached is the free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
 
-Memcached has to be installed as a PHP module. You can find more info [here](http://php.net/manual/en/memcached.installation.php).
+Memcached has to be installed as a PHP extension. You can find more info [here](http://php.net/manual/en/memcached.installation.php).
 
 Also, you'll have to specify `type=memcached` and list your memcached servers at the `[cache]` section in the `<X-Cart dir>/etc/config.php` file like this:
 
@@ -101,3 +121,4 @@ namespace=XLite
 ; port 11211 is used.
 servers=127.0.0.1
 ```
+
