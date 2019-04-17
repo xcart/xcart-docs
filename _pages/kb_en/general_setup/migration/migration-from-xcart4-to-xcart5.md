@@ -40,7 +40,7 @@ The migration of data is done via our [Data Migration Wizard module](https://mar
 <br />- Contact Us information. Contact Us form settings are not migrated to X-Cart 5;
 <br />- SEO-friendly URLs. Clean URLs are enabled in X-Cart 5 automatically;
 <br />
-<br />- The currency is not transferred and you need to define the currency in X-Cart 5 before the migration;
+<br />- The currency is NOT transferred and you need to define the currency in X-Cart 5 before the migration;
       </td>
     </tr>
     <tr class="top aligned">
