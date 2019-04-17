@@ -47,40 +47,26 @@ The migration of data is done via our [Data Migration Wizard module](https://mar
       <td colspan="1" class="confluenceTd"><span>Сontent</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>*   Static pages (Only embedded ones; if such pages are present in X-Cart 4, the Migration wizard requires that the addon "SimpleCMS" should be enabled in X-Cart 5);
-          <br><span>&nbsp;</span>
-          <br>*   Speed bar (In X-Cart 5, similar functionality is available through the addon "SimpleCMS", so if the feature is used in X-Cart 4, the Migration wizard requires that the addon "SimpleCMS" should be enabled in X-Cart 5).&nbsp;</p>
+Static pages (Only embedded ones);
+<br />Menu items from Speed bar section;
       </td>
     </tr>
     <tr class="top aligned">
       <td colspan="1" class="confluenceTd"><span>Products</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>All the general info, images and SEO-friendly URLs for the following entities:
-          <br><span>&nbsp;</span>
-          <br>*   Bestsellers (If the feature is used in X-Cart 4, the Migration wizard requires that the addon "Bestsellers" should be enabled in X-Cart 5; your X-Cart 4 store's Bestsellers settings are not checked and not migrated to X-Cart 5);
-          <br><span>&nbsp;</span>
-          <br>*   Detailed product images;
-          <br><span>&nbsp;</span>
-          <br>*   EGoods (Only the original filepaths; the files themselves are not copied);
-          <br><span>&nbsp;</span>
-          <br>*   Extra fields;
-          <br><span>&nbsp;</span>
-          <br>*   Feature comparison;
-          <br><span>&nbsp;</span>
-          <br>*   International descriptions;
-          <br><span>&nbsp;</span>
-          <br>*   Market price;
-          <br><span>&nbsp;</span>
-          <br>*   Product options (including variants and variant images);
-          <br><span>&nbsp;</span>
-          <br>*   Product reviews;
-          <br><span>&nbsp;</span>
-          <br>*   Product votes;
-          <br><span>&nbsp;</span>
-          <br>*   Related products;
-          <br><span>&nbsp;</span>
-          <br>*   Wholesale prices (including product variants).&nbsp;</p>
+General info (name, price, sku, etc);
+<br />Images and Detailed images;
+<br />Clean URLs;
+<br />Product options (including product variants and variant images);
+<br />International descriptions;
+<br />Product reviews and votes;
+<br />Related products;
+<br />Wholesale prices (for product variants as well);
+<br />Feature comparison;
+<br />Extra fields. They will be converted to Attributes in X-Cart 5;
+<br />Bestsellers. Bestsellers settings are not migrated to X-Cart 5;
+<br />E-Goods. Only the filepaths are migrated. The files themselves are not transitioned.
       </td>
     </tr>  
     <tr class="top aligned">
