@@ -109,7 +109,7 @@ All info.
       <td colspan="1" class="confluenceTd"><span>Payment settings</span>
       </td>
       <td colspan="1" class="confluenceTd">  
-<br />Settings of the following methods are transferred:
+Settings of the following methods are transferred:
 <br />- AuthorizeNet;
 <br />- EWay;
 <br />- Moneybookers;
