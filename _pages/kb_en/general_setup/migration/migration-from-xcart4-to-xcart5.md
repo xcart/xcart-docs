@@ -73,51 +73,49 @@ The migration of data is done via our [Data Migration Wizard module](https://mar
       <td colspan="1" class="confluenceTd"><span>Categories</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>All the general info, images and SEO-friendly URLs for the following entities:
-          <br><span>&nbsp;</span>
-          <br>*   International descriptions;
-          <br><span>&nbsp;</span>
-          <br>*   Featured products.&nbsp;</p>
+- General info (name, description, etc);
+<br />- Images;
+<br />- Clean URLs;
+<br />- International descriptions;
+<br />- Featured products.
       </td>
     </tr>
     <tr class="top aligned">   
       <td colspan="1" class="confluenceTd"><span>Users</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>As is. </p>
-        <p>In X-Cart Classic 4.0.x-4.4.x user passwords are stored in the database in encrypted form. Hence all user passwords are migrated safely providing that a valid Blowfish key is specified at the <a href="https://kb.x-cart.com/modules/xc4_to_xc5_migration_wizard/using_the_xc4_to_xc5_migration_wizard.html#step-2---connect" target="_blank">"Step 2 - Connect"</a> of the migration wizard.</p>
-        <p> Starting from X-Cart Classic 4.5.x password hashing is used. Since hashed passwords cannot be decrypted, there is no way for passwords to be migrated from an X-Cart 4.5.x+ store to X-Cart 5. After the migration, the users will have to use the "Forgot password?" feature in the X-Cart 5 store to regain access to their accounts.</p>
+- All info;
+
+- How to transfer:
+    - If you are migrating from X-Cart 4.1.x-4.4.x, you need to specify blowfish key on Hence all user passwords are migrated safely providing that a valid Blowfish key is specified at the <a href="https://kb.x-cart.com/modules/xc4_to_xc5_migration_wizard/using_the_xc4_to_xc5_migration_wizard.html#step-2---connect" target="_blank">Step 2 - Connect</a> of the migration wizard and passwords will be transferred properly;
+    - If you are migrating from X-Cart 4.5.x and later, passwords will not work after the migration. In order to allow customers log in using old passwords, you need to install [Migration: Restore logins of X-Cart 4 users module](https://market.x-cart.com/addons/xcart-4-login.html) from the marketplace and specify X-Cart 4 blowfish key inside its settings.
       </td>
     </tr>
     <tr class="top aligned">   
       <td colspan="1" class="confluenceTd"><span>Memberships</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>As is (Including multilingual data).&nbsp;</p>
+All info including multilanguage data.
       </td>
     </tr>
     <tr class="top aligned">   
       <td colspan="1" class="confluenceTd"><span>Zones</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>As is.&nbsp;</p>
+All info.
       </td>
     </tr>
     <tr class="top aligned">
       <td colspan="1" class="confluenceTd"><span>Payment settings</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>Only for the following payment methods:
-          <br><span>&nbsp;</span>
-          <br>*   AuthorizeNet;
-          <br><span>&nbsp;</span>
-          <br>*   EWay;
-          <br><span>&nbsp;</span>
-          <br>*   Moneybookers;
-          <br><span>&nbsp;</span>
-          <br>*   PayPal (Standard, ExpressCheckout, PayflowLink, PayflowTransparentRedirect, PaypalAdvanced, PaypalWPS);
-          <br><span>&nbsp;</span>
-          <br>*   2Checkout.&nbsp;</p>
+  
+- Settings of the following methods are transferred:
+    - AuthorizeNet;
+    - EWay;
+    - Moneybookers;
+    - PayPal (Standard, Express Checkout, Payflow Link, Payflow Transparent Redirect, Paypal Advanced, Paypal WPS);
+    - 2Checkout.
       </td>
     </tr>
     <tr class="top aligned">
