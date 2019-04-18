@@ -135,7 +135,7 @@ Settings of UPS are not migrated.
       <td colspan="1" class="confluenceTd"><span>Orders</span>
       </td>
       <td colspan="1" class="confluenceTd">
-All info. Order number is inherited from X-Cart 4.
+All info.
       </td>
      </tr> 
   </tbody>
