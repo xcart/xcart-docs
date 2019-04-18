@@ -87,8 +87,8 @@ The migration of data is done via our [Data Migration Wizard module](https://mar
 All info;
 <br />
 <br />How to transfer user passwords:
-<br />    - If you are migrating from X-Cart 4.1.x-4.4.x, you need to specify blowfish key on Hence all user passwords are migrated safely providing that a valid Blowfish key is specified at the <a href="https://kb.x-cart.com/modules/xc4_to_xc5_migration_wizard/using_the_xc4_to_xc5_migration_wizard.html#step-2---connect" target="_blank">Step 2 - Connect</a> of the migration wizard and passwords will be transferred properly;
-<br />    - If you are migrating from X-Cart 4.5.x and later, passwords will not work after the migration. In order to allow customers log in using old passwords, you need to install [Migration: Restore logins of X-Cart 4 users module](https://market.x-cart.com/addons/xcart-4-login.html) from the marketplace and specify X-Cart 4 blowfish key inside its settings.
+<br />- If you are migrating from X-Cart 4.1.x-4.4.x, you need to specify blowfish key on Hence all user passwords are migrated safely providing that a valid Blowfish key is specified at the <a href="https://kb.x-cart.com/modules/xc4_to_xc5_migration_wizard/using_the_xc4_to_xc5_migration_wizard.html#step-2---connect" target="_blank">Step 2 - Connect</a> of the migration wizard and passwords will be transferred properly;
+<br />- If you are migrating from X-Cart 4.5.x and later, passwords will not work after the migration. In order to allow customers log in using old passwords, you need to install [Migration: Restore logins of X-Cart 4 users module](https://market.x-cart.com/addons/xcart-4-login.html) from the marketplace and specify X-Cart 4 blowfish key inside its settings.
       </td>
     </tr>
     <tr class="top aligned">   
@@ -110,39 +110,32 @@ All info.
       </td>
       <td colspan="1" class="confluenceTd">  
 <br />Settings of the following methods are transferred:
-<br />    - AuthorizeNet;
-<br />    - EWay;
-<br />    - Moneybookers;
-<br />    - PayPal (Standard, Express Checkout, Payflow Link, Payflow Transparent Redirect, Paypal Advanced, Paypal WPS);
-<br />    - 2Checkout.
+<br />- AuthorizeNet;
+<br />- EWay;
+<br />- Moneybookers;
+<br />- PayPal (Standard, Express Checkout, Payflow Link, Payflow Transparent Redirect, Paypal Advanced, Paypal WPS);
+<br />- 2Checkout.
       </td>
     </tr>
     <tr class="top aligned">
       <td colspan="1" class="confluenceTd"><span>Shipping settings</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>*   User defined methods and rates
-          <br><span>&nbsp;</span>
-          <br>Real-time:
-          <br><span>&nbsp;</span>
-          <br>*   Australia Post;
-          <br><span>&nbsp;</span>
-          <br>*   Canada Post;
-          <br><span>&nbsp;</span>
-          <br>*   DHL;
-          <br><span>&nbsp;</span>
-          <br>*   FedEx;
-          <br><span>&nbsp;</span>
-          <br>*   USPS;
-          <br><span>&nbsp;</span>
-          <br>*   UPS (If the method is used in X-Cart 4, the Migration wizard requires that the addon "UPS" should be enabled in X-Cart 5; your X-Cart 4 store's UPS settings are not checked and not migrated to X-Cart 5)&nbsp;</p>
+<br />User defined methods and rates;
+<br />Settings of the following real-time shipping processors:
+<br />- Australia Post;
+<br />- Canada Post;
+<br />- DHL;
+<br />- FedEx;
+<br />- USPS;
+Settings of UPS are not migrated.        
       </td>
     </tr>
     <tr class="top aligned">
       <td colspan="1" class="confluenceTd"><span>Orders</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>As is. Order number is copied from the X-Cart 4 store.&nbsp;</p>
+All info. Order number is inherited from X-Cart 4.
       </td>
      </tr> 
   </tbody>
