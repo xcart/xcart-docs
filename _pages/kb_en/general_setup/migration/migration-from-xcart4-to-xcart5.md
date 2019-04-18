@@ -84,11 +84,11 @@ The migration of data is done via our [Data Migration Wizard module](https://mar
       <td colspan="1" class="confluenceTd"><span>Users</span>
       </td>
       <td colspan="1" class="confluenceTd">
-- All info;
-
-- How to transfer:
-    - If you are migrating from X-Cart 4.1.x-4.4.x, you need to specify blowfish key on Hence all user passwords are migrated safely providing that a valid Blowfish key is specified at the <a href="https://kb.x-cart.com/modules/xc4_to_xc5_migration_wizard/using_the_xc4_to_xc5_migration_wizard.html#step-2---connect" target="_blank">Step 2 - Connect</a> of the migration wizard and passwords will be transferred properly;
-    - If you are migrating from X-Cart 4.5.x and later, passwords will not work after the migration. In order to allow customers log in using old passwords, you need to install [Migration: Restore logins of X-Cart 4 users module](https://market.x-cart.com/addons/xcart-4-login.html) from the marketplace and specify X-Cart 4 blowfish key inside its settings.
+All info;
+<br />
+<br />How to transfer user passwords:
+<br />    - If you are migrating from X-Cart 4.1.x-4.4.x, you need to specify blowfish key on Hence all user passwords are migrated safely providing that a valid Blowfish key is specified at the <a href="https://kb.x-cart.com/modules/xc4_to_xc5_migration_wizard/using_the_xc4_to_xc5_migration_wizard.html#step-2---connect" target="_blank">Step 2 - Connect</a> of the migration wizard and passwords will be transferred properly;
+<br />    - If you are migrating from X-Cart 4.5.x and later, passwords will not work after the migration. In order to allow customers log in using old passwords, you need to install [Migration: Restore logins of X-Cart 4 users module](https://market.x-cart.com/addons/xcart-4-login.html) from the marketplace and specify X-Cart 4 blowfish key inside its settings.
       </td>
     </tr>
     <tr class="top aligned">   
@@ -108,14 +108,13 @@ All info.
     <tr class="top aligned">
       <td colspan="1" class="confluenceTd"><span>Payment settings</span>
       </td>
-      <td colspan="1" class="confluenceTd">
-  
-- Settings of the following methods are transferred:
-    - AuthorizeNet;
-    - EWay;
-    - Moneybookers;
-    - PayPal (Standard, Express Checkout, Payflow Link, Payflow Transparent Redirect, Paypal Advanced, Paypal WPS);
-    - 2Checkout.
+      <td colspan="1" class="confluenceTd">  
+<br />Settings of the following methods are transferred:
+<br />    - AuthorizeNet;
+<br />    - EWay;
+<br />    - Moneybookers;
+<br />    - PayPal (Standard, Express Checkout, Payflow Link, Payflow Transparent Redirect, Paypal Advanced, Paypal WPS);
+<br />    - 2Checkout.
       </td>
     </tr>
     <tr class="top aligned">
