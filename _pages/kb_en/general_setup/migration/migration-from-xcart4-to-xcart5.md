@@ -121,7 +121,7 @@ Settings of the following methods are transferred:
       <td colspan="1" class="confluenceTd"><span>Shipping settings</span>
       </td>
       <td colspan="1" class="confluenceTd">
-<br />User defined methods and rates;
+User defined shipping methods and rates;
 <br />Settings of the following real-time shipping processors:
 <br />- Australia Post;
 <br />- Canada Post;
