@@ -128,7 +128,7 @@ User defined shipping methods and rates;
 <br />- DHL;
 <br />- FedEx;
 <br />- USPS;
-Settings of UPS are not migrated.        
+Settings of UPS are NOT migrated.        
       </td>
     </tr>
     <tr class="top aligned">
