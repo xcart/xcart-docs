@@ -15,9 +15,9 @@ This article describes how you can upgrade your existing X-Cart 4 store to X-Car
 Basically, you have three routes:
 1. You can perform the upgrade yourself (DIY option);
 2. You can hire X-Cart team to perform the upgrade for you (Professional and Custom options);
-3. You can hire 3rd party to perform the upgrade for you.
+3. You can hire 3rd party to perform the upgrade for you (DIY option + whatever conditions you settle with 3rd party).
 
-This article assumes you are going for the first option and guides you through the whole process.
+This article describes how to perform the whole process
 
 {% toc Table Of Contents %}
 
@@ -140,3 +140,40 @@ All info.
      </tr> 
   </tbody>
 </table>
+
+## Technical side of how the module transfers the data
+
+The migration of data from X-Cart 4 to X-Cart 5 is based on the model importing. The data is processed in chunks, and the process may take a while depending on the volume of data that needs to be transitioned.
+
+The following settings are available via the file `<X-Cart>/etc/config.local.php` in your X-Cart 5 installation:
+
+- **migration_chunk_length** defines the number of records to be processed during one iteration. The greater the value the faster the process will go, but more likely that the process will be timed out by the server;
+- **disable_secret_check** disables secret key check while connecting to DB;
+- **disable_ssl_check** disables SSL check for URL-related operations; 
+- **disable_follow_redirects** disables following HTTP redirects when processing URLs;
+- **disable_images_import** disables import of all images;
+- **enable_copy_ext_images** enables copying of external images to XC5 location. In other words, if your X-Cart 5 is on one server and X-Cart 4 is on another, X-Cart 5 will copy images by downloading it.
+
+{% note info %}
+If the file `<X-Cart>/etc/config.local.php` does not exist in your X-Cart 5 store, to use any of the above-named settings, you will need to create the file following the example below. Uncomment the settings that you want to set by removing the ';' symbol at the front.
+{% endnote %}
+
+```php
+; <?php /*
+; WARNING: Do not change the line above
+;
+;  --------------------------------- 
+; |   X-Cart 5 configuration file   |
+;  --------------------------------- 
+
+[migration_wizard]
+;migration_chunk_length = 20
+;disable_secret_check = true
+;disable_ssl_check = true
+;disable_follow_redirects = true
+;disable_images_import = true
+;enable_copy_ext_images = true
+
+; WARNING: Do not change the line below
+; */ ?>
+```
