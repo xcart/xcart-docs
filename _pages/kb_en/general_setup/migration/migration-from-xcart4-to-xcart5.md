@@ -176,3 +176,26 @@ If the `<X-Cart>/etc/config.local.php` file does not exist in your X-Cart 5 stor
 ; */ ?>
 ```
 {% endnote %}
+
+## Demo migration 
+You may choose to run a migration in the Demo mode. Only a limited range of data is transferred during the demo migration. If you have really big store (say, 100 000 products), you can quickly see how your products, categories, orders, etc will look like on X-Cart 5 and after that make a decision about whether to proceed with the complete transfer of your store or not.
+
+To run demo migration, select the 'Demo migration' option at the 'Select' step of the migration wizard, and only the following data will be migrated:
+
+- 10 latest orders;
+- Products from those orders; 
+- Users for those orders;
+- All the categories; 
+- 10 products from one of the categories.
+
+After demo migration is been completed, a link to the category with the migrated products will be provided, so the user can review these products. The rest of the X-Cart 4 store data (settings, destination zones, static pages, etc) will be migrated in full.
+
+## Syncing the data
+
+If you performed the data migration and want to transfer only new entities or those that were changed since the initial migration, you can use the 'Skip previously migrated data' option at the 'Transfer' step of the migration wizard.
+
+This option is particularly handy if you ran the initial data migration, then spent some time tweaking X-Cart 5 store and now decide to go live. In this case, the majority of data is already on X-Cart 5 and you only need to sync the latest one.
+
+{% note info %}
+If you migrated some entity and then changed it on X-Cart 5 side, while X-Cart 4's version is still the same, this entity will still be skipped with the 'Skip previously migrated data' option enabled.
+{% endnote %}
