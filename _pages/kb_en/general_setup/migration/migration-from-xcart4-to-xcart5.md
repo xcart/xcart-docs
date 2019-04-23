@@ -145,9 +145,9 @@ All info.
 
 The migration of data from X-Cart 4 to X-Cart 5 is based on the model importing. The data is processed in chunks, and the process may take a while depending on the volume of data that needs to be transitioned.
 
-The following settings are available via the file `<X-Cart>/etc/config.local.php` in your X-Cart 5 installation:
+The following settings are available via the `<X-Cart>/etc/config.local.php` file in your X-Cart 5 installation:
 
-- **migration_chunk_length** defines the number of records to be processed during one iteration. The greater the value the faster the process will go, but more likely that the process will be timed out by the server;
+- **migration_chunk_length** defines the number of records to be processed during one iteration. The greater the value the faster the process will go, but it will be more likely that the process will be timed out by the server;
 - **disable_secret_check** disables secret key check while connecting to DB;
 - **disable_ssl_check** disables SSL check for URL-related operations; 
 - **disable_follow_redirects** disables following HTTP redirects when processing URLs;
@@ -155,9 +155,7 @@ The following settings are available via the file `<X-Cart>/etc/config.local.php
 - **enable_copy_ext_images** enables copying of external images to XC5 location. In other words, if your X-Cart 5 is on one server and X-Cart 4 is on another, X-Cart 5 will copy images by downloading it.
 
 {% note info %}
-If the file `<X-Cart>/etc/config.local.php` does not exist in your X-Cart 5 store, to use any of the above-named settings, you will need to create the file following the example below. Uncomment the settings that you want to set by removing the ';' symbol at the front.
-{% endnote %}
-
+If the `<X-Cart>/etc/config.local.php` file does not exist in your X-Cart 5 store, to use any of the above-named settings, you will need to create the file following the example below. Uncomment the settings that you want to set by removing the ';' symbol at the front.
 ```php
 ; <?php /*
 ; WARNING: Do not change the line above
@@ -177,3 +175,4 @@ If the file `<X-Cart>/etc/config.local.php` does not exist in your X-Cart 5 stor
 ; WARNING: Do not change the line below
 ; */ ?>
 ```
+{% endnote %}
