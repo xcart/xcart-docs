@@ -5,7 +5,7 @@ updated_at: '2019-04-24 10:29 +0400'
 identifier: ref_6RGhfg0l
 title: General Information on Zones
 order: 10
-published: false
+published: true
 ---
 In X-Cart 5, zones (also known as "destination zones" or "address zones") are a means to configure and apply tax and shipping rules based on the customer's geographic location. A zone is a subset of countries, states and zip/postal codes that make up a specific region to which certain rules must apply. 
 
