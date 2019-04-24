@@ -1,21 +1,18 @@
 ---
-title: Basics of working with product attributes
 lang: en
 layout: article_with_sidebar
-updated_at: 2017-08-22 15:57 +0400
+updated_at: '2017-08-22 15:57 +0400'
+title: Basics of working with product attributes
 identifier: ref_681m1O5Q
 order: 100
+published: true
 ---
 
 ## Introduction
 
 In this article we will show how you can pull product attributes for given product. For that we will create a simple module that will list all product attributes on product details page in customer area.
 
-## Table of Contents
-* [Introduction](#introduction)
-* [Creating a module](creating-a-module)
-* [Pulling product attributes and its values](pulling-product-attributes-and-its-values)
-* [Module pack](#module-pack)
+{% toc Table of Contents %}
 
 ## Creating a module
 
