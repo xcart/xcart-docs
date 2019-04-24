@@ -11,9 +11,9 @@ icon: flag
 description: Set up geographic zones for your shipping and tax rules
 published: true
 ---
-Customer location in X-Cart is used when setting up {% link "taxes" ref_kJmd7K27 %} and {% link "shipping" ref_7tvT7GEK %}. Hence a proper determination of a customer location plays a great role for the whole store set-up and maintenance.
+A customer address in X-Cart is used when setting up {% link "taxes" ref_kJmd7K27 %} and {% link "shipping" ref_7tvT7GEK %}. Hence a proper determination of a customer location plays a great role for the whole store set-up and maintenance.
 
-Customer locations available for shipping and taxation in X-Cart can be configured using the **Countries, states and zones** section in the admin area (**Store setup** -> **Countries, states and zones**).
+Customer addresses available for shipping and taxation in X-Cart can be configured using the **Countries, states and zones** section in the admin area (**Store setup** -> **Countries, states and zones**).
 
 By default, X-Cart has a biult-in information on 249 countries of the world with states configured for 11 of them (Argentina, Brazil, Canada, China, India, Indonesia, Japan, Mexico, Thailand, United Kingdom and United States). 
 
