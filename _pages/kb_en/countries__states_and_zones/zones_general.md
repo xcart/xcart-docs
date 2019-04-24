@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-04-24 10:29 +0400'
 identifier: ref_6RGhfg0l
-title: '## General Information on Zones'
+title: General Information on Zones
 order: 10
 published: false
 ---
