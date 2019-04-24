@@ -17,11 +17,15 @@ Basically, you have three routes:
 2. You can hire X-Cart team to perform the upgrade for you (Professional and Custom options);
 3. You can hire 3rd party to perform the upgrade for you (DIY option + whatever conditions you settle with 3rd party).
 
-This article describes how to perform the whole process
+This article describes how to perform the data migration process yourself.
+
+If you also need to transfer custom data and custom functionality, there is no guide for that.
+Custom functionality has to be re-implemented to X-Cart 5 and you can either do that yourself, hire 3rd party for that or [contact our development team](https://www.x-cart.com/contact-us.html).
+The same applies to the custom data.
 
 {% toc Table Of Contents %}
 
-## What data will be migrated via module
+## What data will be migrated
 
 The migration of data is done via our [Data Migration Wizard module](https://market.x-cart.com/addons/migration-wizard.html). Here is what data will be transferred by this module:
 
@@ -199,3 +203,4 @@ This option is particularly handy if you ran the initial data migration, then sp
 {% note info %}
 If you migrated some entity and then changed it on X-Cart 5 side, while X-Cart 4's version is still the same, this entity will still be skipped with the 'Skip previously migrated data' option enabled.
 {% endnote %}
+
