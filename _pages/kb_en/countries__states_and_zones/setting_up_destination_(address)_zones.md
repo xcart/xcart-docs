@@ -9,10 +9,11 @@ categories:
 published: true
 order: 120
 ---
+{% note warning %}
+When creating address zones that will be used for taxes configuration make sure the zones DO NOT overlap as this may affect the correct tax rates calculation at checkout.
+{% endnote %}
 
-For example, we need to create a zone "Atlantic Canada" that would include four territories: New Brunswick, Prince Edward Island, Nova Scotia and Newfoundland and Labrador. 
-
-Let's do it:
+To create an address zone:
 
 1.  In your store's Admin area, go to **Store setup > Countries, states and zones** and proceed to the **Zones** tab.
     This opens the **Zones** section where you can create and manage your address zones:
@@ -24,7 +25,7 @@ Let's do it:
     In the list of your store's zones, a new blank line will be added:
     ![zones-blank.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/zones-blank.png)
 
-4.  Use the new blank line in the list of zones to specify the name of the destination zone you will be creating (For the sake of example, we will use the name "Atlantic Canada"); then click the **Save changes** button at the bottom of the page:
+4.  Use the new blank line in the list of zones to specify the name of the destination zone you will be creating; then click the **Save changes** button at the bottom of the page:
 
     ![zones-atlantic-canada.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/zones-atlantic-canada.png)
     The new zone will be added to the list.
@@ -54,8 +55,7 @@ Let's do it:
         
         102%
         
-        
-        To configure the zone "Atlantic Canada", we would need to select the following territories:
+        For example, we need to create a zone "Atlantic Canada" that would include four territories: New Brunswick, Prince Edward Island, Nova Scotia and Newfoundland and Labrador. We would need to select the following territories:
 
         *   in the section **Countries** - Canada;
 
