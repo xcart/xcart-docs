@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2019-04-24 11:44 +0400'
 identifier: ref_2DygX0xM
 title: Managing Countries and States
-order: 100
+order: 110
 published: false
 ---
 X-Cart has a biult-in list of 249 countries of the world with states configured for 11 of them (Argentina, Brazil, Canada, China, India, Indonesia, Japan, Mexico, Thailand, United Kingdom and United States). All information on countries and states in X-Cart is based on Wikipedia.
