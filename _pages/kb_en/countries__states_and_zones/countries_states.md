@@ -9,7 +9,7 @@ published: false
 ---
 X-Cart has a biult-in list of 249 countries of the world with states configured for 11 of them (Argentina, Brazil, Canada, China, India, Indonesia, Japan, Mexico, Thailand, United Kingdom and United States). All information on countries and states in X-Cart is based on Wikipedia.
 
-A store admin can enable/disbable the countries used in the store and add/change states for countries if necessary.
+A store admin can enable/disable the countries used in the store and add/change states for countries if necessary.
 
 {% toc %}
 
