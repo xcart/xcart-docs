@@ -19,15 +19,16 @@ Basically, you have three routes:
 
 This article describes how to perform the data migration process yourself.
 
-If you also need to transfer custom data and custom functionality, there is no guide for that.
-Custom functionality has to be re-implemented to X-Cart 5 and you can either do that yourself, hire 3rd party for that or [contact our development team](https://www.x-cart.com/contact-us.html).
+If you also need to transfer custom data and custom functionality, there is no guide for that. 
+Custom functionality has to be re-implemented to X-Cart 5 and you can either do that yourself, hire 3rd party or [hire our development team](https://www.x-cart.com/contact-us.html).
+
 The same applies to the custom data.
 
 {% toc Table Of Contents %}
 
 ## What data will be migrated
 
-The migration of data is done via our [Data Migration Wizard module](https://market.x-cart.com/addons/migration-wizard.html). Here is what data will be transferred by this module:
+The data migration is done via our [Data Migration Wizard module](https://market.x-cart.com/addons/migration-wizard.html). Below is what data will be transferred by this module:
 
 <table class="ui compact padded celled small table">
   <tbody>
@@ -145,10 +146,6 @@ All info.
   </tbody>
 </table>
 
-## Prerequisites
-
-If you decide to migrate data from X-Cart 4 to X-Cart 5
-
 ## System requirements
 
 Migration Wizard module has the same system requirements as X-Cart 5, but since the module runs resource-heavy processes, you need to make sure that the server will not be timed out.
@@ -181,7 +178,27 @@ If `php.ini` has `safe_mode = on`, ensure that the `max_execution_time` setting 
      
 ```max_execution_time = 600```
 
-If safe_mode = off, no additional setting up is needed. 
+If safe_mode = off, no additional setting up is needed.
+
+### Does X-Cart 5 have to be on the same server as X-Cart 4?
+
+The short answer is no, but there are subtle details. There are three possible situations, where your X-Cart 4 and X-Cart 5 stores can be installed.
+
+1. You install X-Cart 5 on the same server as X-Cart 4. In this case, everything will just work.
+
+2. You want to install X-Cart 5 on another server (some test server, local machine, etc). If you transfer the entire X-Cart 4 store there, everything will work just fine as well. 
+
+However, you can only transfer X-Cart 4's database and the following directories to save you some time:
+- `<X-Cart>/images`;
+- `<X-Cart>/skin/common_files/pages`;
+- `<X-Cart>/files`, if you have e-goods.
+
+Put the database to MySQL server and place these directories inside some folder that would 'pretend' being X-Cart 4 for our migration task.
+
+3. If you want to install X-Cart 5 on a new server, but keep X-Cart 4 on the new one, it can still work.
+- You need to make sure that the MySQL on X-Cart 4 server allows remote connections. Contact your hosting team about that, if you face any troubles;
+- You need to set the 'enable_copy_ext_images' option in [Migration Wizard's setting](#technical-side-of-how-the-module-transfers-the-data) to 'true'.
+
 
 ## Technical side of how the module transfers the data
 
@@ -217,6 +234,17 @@ If the `<X-Cart>/etc/config.local.php` file does not exist in your X-Cart 5 stor
 ; WARNING: Do not change the line below
 ; */ ?>
 ```
+{% endnote %}
+
+{% note info %}
+Do not apply any customizations before running the migration task and also make sure to remove all demo data from the installation. You can remove existing data from X-Cart via 'System tools > Remove data' section in your admin area.
+{% endnote %}
+
+{% note info %}
+If you are not able to install Data Migration Wizard module from the marketplace and see the following warning message:
+![xc5_mw_module.png]({{site.baseurl}}/attachments/ref_KqsCJNRG/xc5_mw_module.png)
+
+Please make sure to install [Order import module](https://market.x-cart.com/addons/orders-import.html) first and then try to install Migration Wizard again.
 {% endnote %}
 
 ## Demo migration 
