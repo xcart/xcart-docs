@@ -83,19 +83,19 @@ Once you have created an eBay user token to connect your X-Cart store to your eB
 
 1.  If you haven't yet done so, configure your business policies in your eBay account (More information is available [here](http://pages.ebay.com/help/sell/business-policies.html)). 
 2.  In X-Cart Admin, after creating an eBay token for your eBay configuration, click **Next** at the bottom of the **Get User Token** section to go to the **Business policies** section:
-    ![xc5_ebay_token_created_next.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_token_created_next.png)
+    ![xc5_ebay_token_crtd_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_token_crtd_next.png)
 
     If you have configured the business policies of your eBay configuration earlier, it is possible to simply click the **Business policies** tab:
-    ![xc5_ebay_business_policies_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_business_policies_tab.png)
+    ![xc5_ebay_business_policies_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_business_policies_tab.png) 
 
-3.  Use the drop-down policy selectors to set the business policies you would like to use for your eBay listings:
+3. Use the drop-down policy selectors to set the business policies you would like to use for your eBay listings:
     *   **Return Policy**;
     *   **Payment Policy**; 
     *   **Shipping Policy**. 
     ![xc5_ebay_policies.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_policies.png)
 
     The names of business policies displayed to you on this page are pulled from your eBay account to which you have linked your application at the [previous step](#obtaining-your-ebay-user-token). If you do not see the policy you require in any of the selectors, it may be due to the fact that the policy was added after the information on the policies had been pulled into X-Cart. To resolve the problem, click the **Refresh Business Policies** button - the list of policies will be updated.
-    ![xc5_ebay_refresh_policies.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_refresh_policies.png)
+    ![xc5_ebay_policies_refresh.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_policies_refresh.png)
 
 4.  Use the **PayPal email address** field to enter your valid PayPal email address. eBay will use this address to identify the correct PayPal account when the buyer pays you via PayPal.
 
