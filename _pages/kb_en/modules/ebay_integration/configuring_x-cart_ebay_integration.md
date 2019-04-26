@@ -104,7 +104,7 @@ To specify which business policies are going to be used for your listings, you w
 4.  Use the **PayPal email address** field to enter your valid PayPal email address. eBay will use this address to identify the correct PayPal account when the buyer pays you via PayPal.
 
 5.  Click **Next** to save your changes and head over to the next step of configuring your eBay Integration: [Choose your default eBay categories](#choosing-your-default-ebay-categories).
-    ![xc5_ebay_business_policies_next.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_business_policies_next.png)
+    ![xc5_ebay_policies_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_policies_next.png)
 
 ## Choosing your default eBay categories
 
