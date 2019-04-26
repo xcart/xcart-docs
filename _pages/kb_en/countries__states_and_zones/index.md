@@ -23,5 +23,6 @@ _In this section:_
 
 *   {% link "General Information on Zones" ref_6RGhfg0l %}
 *   {% link "How X-Cart Determines a Customer's Address Zone " ref_2w699Rnz %}
+*   {% link "Managing Countries and States" ref_2DygX0xM %}
 *   {% link "The “All Addresses” (Default) Zone" ref_4kPvWTw2 %}
 *   {% link "Setting up Address Zones" ref_r68iO5Rm %}
