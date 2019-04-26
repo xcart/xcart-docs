@@ -116,7 +116,7 @@ To set the default eBay categories:
     ![xc5_ebay_policies_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_policies_next.png)
 
     If you have configured your default eBay categories for the eBay configuration previously, you can simply click the **Categories** tab:
-    ![xc5_ebay_categories_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_categories_tab.png)
+    ![xc5_ebay_categories.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_categories.png)
 
 2.  Set the default _main_ category for your products:
     Use the **Main eBay Category** selector to select the eBay category that best describes the products you are going to sell on eBay. If not all your products are going to be in the same category, just select the category you intend to use for the majority of your eBay listings; for the products that do not fit well into the eBay category selected here, you will be able to choose an eBay category [at the product or category level](#configuring-ebay-options-for-products-and-categories).
@@ -143,7 +143,7 @@ To adjust the General settings:
     ![xc5_ebay_cat_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_cat_next.png)
 
     If you have already configured the General Settings for your eBay configuration previously, you can simply click the **General Settings** tab:
-    ![xc5_ebay_general_settings_tab.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_tab.png)
+    ![xc5_ebay_generalsettings.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_generalsettings.png)
 
 2.  Adjust the settings in the **Product options** section:
     ![xc5_ebay_prod_options.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_prod_options.png)
