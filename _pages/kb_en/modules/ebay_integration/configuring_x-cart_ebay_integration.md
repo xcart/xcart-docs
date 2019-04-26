@@ -53,14 +53,15 @@ The following instructions specify how to create a new token for a new eBay conf
 To create a new user token for an eBay configuration:
 
 1.  If you haven't yet done so, add a new eBay configuration via the eBay configurations section of your X-Cart store's Admin area (**Sales channels**>**eBay configurations**) as described above (See [Add the eBay configuration you require](#add_the_eBay_configuration_you_require)): 
-    ![xc5_ebay_configurations_tab1.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_configurations_tab1.png)
+    ![xc5_ebay_confs_tab1.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_confs_tab1.png)
     If you are changing the token for a previously added eBay configuration, open the details of the respective configuraion for editing (You should be viewing the **Get User Token** tab of the configuration details):
     ![xc5_ebay_get_token_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_get_token_tab.png)
 
 2.  Use the **Select mode** setting to specify the mode in which your store will be interacting with the selected eBay marketplace: select _Test_ to use the eBay Sandbox or _Live_ to use the production environment.
 
 3.  Click the **Create new token** button.
-    
+    ![xc5_ebay_token_create.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_token_create.png)
+
     This launches the user sign-in and consent process: you will be redirected to the eBay site where you will need to log in to the eBay account for which you need the token and grant the application the permission to access your account on your behalf:
     ![xc5_ebay_signin_page.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_signin_page.png)
 
@@ -69,12 +70,12 @@ To create a new user token for an eBay configuration:
 
     **Important**: If you are creating a Sandbox user token, enter the credentials for a [Sandbox User](https://developer.ebay.com/DevZone/sandboxuser/default.aspx). If it is a token for Production, use the credentials for a user created on the [Production eBay site](http://www.ebay.com/) (the one you will use to sell items on eBay). Remember that User IDs for Sandbox users begin with "`TESTUSER_`".
     Once application access has been granted, eBay will generate a new token, and you will be automatically redirected back to X-Cart. Now in the **Get User Token** section of the eBay configuration details you should be able to see the **User Token** field populated with your token value. Below this field you should be able to see information about the current status of your token (**Token Status**) and token expiration date (**Token Expiration**).
-    ![xc5_ebay_token_created.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_token_created.png)
+    ![xc5_ebay_token_crtd.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_token_crtd.png)
 
     When your token is about to expire, you will be notified and provided with a button to create a new one.
     
 4.  Now that your token has been generated, click **Next** to save your changes and head over to the next step of configuring your eBay Integration: [Setting your business policies](#setting-your-business-policies).
-    ![xc5_ebay_token_created_next.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_token_created_next.png)
+    ![xc5_ebay_token_crtd_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_token_crtd_next.png)
 
 ## Setting your business policies
 
