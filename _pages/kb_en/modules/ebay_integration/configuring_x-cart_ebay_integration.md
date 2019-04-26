@@ -170,6 +170,11 @@ To adjust the General settings:
     
     *   **Product code type**: Specify the type of global product code (EAN / USBN / UPC) to be used for the export of products to eBay. If no code is specified for a product, "Does not apply" will be sent to eBay.
     
+    *   **End eBay items for disabled products:** Enable this option if you want an eBay listing to be ended automatically if you disable the respective product in your X-Cart store.
+    *   **End eBay items for out of stock products:** Enable this option if you want an eBay listing to be ended automatically if the respective product in your X-Cart store goes out of stock.
+    *   **Use global attributes to synchronize eBay item specifics:**
+    *   **Export direct product image links to eBay:**
+    
 3.  Adjust the settings in the **System options** section:
     ![xc5_ebay_general_settings_sys_options.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_sys_options.png)
 
