@@ -113,23 +113,23 @@ Every product you export to eBay has to be placed in at least one of eBay catego
 To set the default eBay categories:
 
 1.  In X-Cart Admin, after setting the business policies for a new eBay configuration in the **Business Policies **section, click **Next** to go to the **Categories** section:
-    ![xc5_ebay_business_policies_next.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_business_policies_next.png)
+    ![xc5_ebay_policies_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_policies_next.png)
 
     If you have configured your default eBay categories for the eBay configuration previously, you can simply click the **Categories** tab:
     ![xc5_ebay_categories_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_categories_tab.png)
 
 2.  Set the default _main_ category for your products:
     Use the **Main eBay Category** selector to select the eBay category that best describes the products you are going to sell on eBay. If not all your products are going to be in the same category, just select the category you intend to use for the majority of your eBay listings; for the products that do not fit well into the eBay category selected here, you will be able to choose an eBay category [at the product or category level](#configuring-ebay-options-for-products-and-categories).
-    ![xc5_ebay_main_category_selector.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_main_category_selector.png)
+    ![xc5_ebay_category_main.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_category_main.png)
 
     Note that category selection is likely to be a multi-step process: at first, the selector will show only top level eBay categories; once you select one of them, another selector will be displayed right below the first one so you can continue to select a nested category. You must continue selecting categories until you reach the lowest level of the eBay category hierarchy where you will be able to select the category that provides the most precise description of your products. At this point you should see a note "Selection complete" (in earlier versions of the addon - "Allowed to select"), which means the category selection process has been completed.
-    ![xc5_ebay_categories_selected.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_categories_selected.png)
+    ![xc5_ebay_category_main1.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_category_main1.png)
 
 3.  (Optional step) In a similar way, use the **Additional eBay Category** selector to set a default _additional_ category for your products.
-    ![xc5_ebay_additional_category_selector.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_additional_category_selector.png)
+    ![xc5_ebay_category_additional.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_category_additional.png)
 
 4.  Once you are happy with your default category settings, click **Next** to save your changes and head over to the next step of configuring your eBay Integration: [Configure the General settings for the X-Cart eBay Integration addon](#configuring-the-general-settings-for-the-x-cart-ebay-integration-addon).
-    ![xc5_ebay_categories_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_categories_next.png)
+    ![xc5_ebay_cat_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_cat_next.png)
 
 ## Configuring the General settings
 
@@ -140,7 +140,7 @@ Please note that despite the name "*General* settings" these settings do not app
 To adjust the General settings:
 
 1.  In X-Cart Admin, after setting the default categories for a new eBay configuration in the **Categories** section, click **Next** to go to the **General Settings** section:
-    ![xc5_ebay_categories_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_categories_next.png)
+    ![xc5_ebay_cat_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_cat_next.png)
 
     If you have already configured the General Settings for your eBay configuration previously, you can simply click the **General Settings** tab:
     ![xc5_ebay_general_settings_tab.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_tab.png)
