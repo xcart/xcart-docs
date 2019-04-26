@@ -145,6 +145,44 @@ All info.
   </tbody>
 </table>
 
+## Prerequisites
+
+If you decide to migrate data from X-Cart 4 to X-Cart 5
+
+## System requirements
+
+Migration Wizard module has the same system requirements as X-Cart 5, but since the module runs resource-heavy processes, you need to make sure that the server will not be timed out.
+
+The way to set it up will vary depending on the server's engine.
+
+### Apache
+
+The `TimeOut` value must be set to 600 or higher in the Apache config file, e.g.:
+     
+```TimeOut 600```
+
+If `php.ini` has `safe_mode = on`, ensure that the `max_execution_time` setting is adjusted to 600 or higher, e.g: 
+     
+```max_execution_time = 600```
+
+If safe_mode = off, no additional setting up is needed. 
+
+### nginx configuration
+
+The `fastcgi_read_timeout` setting must be set to 600 or higher in the nginx config file, e.g.: 
+     
+```fastcgi_read_timeout 600;```
+
+The `request_terminate_timeout` parameter must be set to 600 or higher in the php-fpm config file, e.g.:
+     
+```request_terminate_timeout = 600```
+
+If `php.ini` has `safe_mode = on`, ensure that the `max_execution_time` setting is adjusted to 600 or higher, e.g: 
+     
+```max_execution_time = 600```
+
+If safe_mode = off, no additional setting up is needed. 
+
 ## Technical side of how the module transfers the data
 
 The migration of data from X-Cart 4 to X-Cart 5 is based on the model importing. The data is processed in chunks, and the process may take a while depending on the volume of data that needs to be transitioned.
