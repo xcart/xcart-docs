@@ -212,7 +212,7 @@ To adjust the General settings:
     ![xc5_ebay_settings_save.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_settings_save.png)
 
     You should see a success message like the following:
-    ![xc5_ebay_general_settings_success.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_success.png)
+    ![xc5_ebay_conf_success.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_conf_success.png)
 
 That is all; you have completed the basic configuration of your eBay Integration and can now start selling on eBay. However, if you require a more nuanced approach to publishing your products on eBay (for example, if you need to map your products to eBay categories more accurately than simply by setting one common default category for all your products), we recommend you take a couple more steps to complete your store's eBay related configuration. For more info, see the sections on configuring [eBay options for categories and products](#configuring-ebay-options-for-products-and-categories).
 
