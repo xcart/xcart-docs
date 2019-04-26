@@ -88,14 +88,17 @@ Once you have created an eBay user token to connect your X-Cart store to your eB
     If you have configured the business policies of your eBay configuration earlier, it is possible to simply click the **Business policies** tab:
     ![xc5_ebay_business_policies_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_business_policies_tab.png) 
 
-3. Use the drop-down policy selectors to set the business policies you would like to use for your eBay listings:
-    *   **Return Policy**;
-    *   **Payment Policy**; 
-    *   **Shipping Policy**. 
+3. Specify the business policies you would like to use for your eBay listings. The available business policies are pulled into your X-Cart store from the eBay account to which you have linked your application at the [previous step](#obtaining-your-ebay-user-token). If you do not see any drop-down policy selectors on the page, you may want to refresh the business policies information by clicking the **Refresh Business Policies** button. 
+    ![xc5_ebay_policies_refresh.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_policies_refresh.png)
+This will get the policies from your eBay account.
+
+To specify which business policies are going to be used for your listings, you will need to choose them from the drop-down selectors. You will need to set your:
+   *   **Return Policy**;
+   *   **Payment Policy**; 
+   *   **Shipping Policy**. 
     ![xc5_ebay_policies.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_policies.png)
 
-    The names of business policies displayed to you on this page are pulled from your eBay account to which you have linked your application at the [previous step](#obtaining-your-ebay-user-token). If you do not see the policy you require in any of the selectors, it may be due to the fact that the policy was added after the information on the policies had been pulled into X-Cart. To resolve the problem, click the **Refresh Business Policies** button - the list of policies will be updated.
-    ![xc5_ebay_policies_refresh.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_policies_refresh.png)
+    If you do not see the policy you require in any of the selectors, it may be due to the fact that the policy was added *after* the information on the policies had been pulled into your X-Cart store. To resolve the problem, click the **Refresh Business Policies** button. As a result, the policy name lists in the selectors will be updated, and you will be able to select the policy you require.
 
 4.  Use the **PayPal email address** field to enter your valid PayPal email address. eBay will use this address to identify the correct PayPal account when the buyer pays you via PayPal.
 
