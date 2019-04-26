@@ -209,7 +209,7 @@ To adjust the General settings:
     *   **Allow update eBay order status**: This option is disabled by default. 
     
 4.  Click **Save** to save your changes.
-    ![xc5_ebay_general_settings_save.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_save.png)
+    ![xc5_ebay_settings_save.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_settings_save.png)
 
     You should see a success message like the following:
     ![xc5_ebay_general_settings_success.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_success.png)
