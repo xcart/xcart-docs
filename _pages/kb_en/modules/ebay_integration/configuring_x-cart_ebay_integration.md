@@ -96,7 +96,8 @@ To specify which business policies are going to be used for your listings, you w
    *   **Return Policy**;
    *   **Payment Policy**; 
    *   **Shipping Policy**. 
-    ![xc5_ebay_policies.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_policies.png)
+    
+    ![xc5_ebay_policy_selection.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_policy_selection.png)
 
     If you do not see the policy you require in any of the selectors, it may be due to the fact that the policy was added *after* the information on the policies had been pulled into your X-Cart store. To resolve the problem, click the **Refresh Business Policies** button. As a result, the policy name lists in the selectors will be updated, and you will be able to select the policy you require.
 
