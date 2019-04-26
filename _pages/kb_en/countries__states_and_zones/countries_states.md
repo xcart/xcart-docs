@@ -7,7 +7,7 @@ title: Managing Countries and States
 order: 110
 published: false
 ---
-X-Cart has a biult-in list of 249 countries of the world with states configured for 11 of them (Argentina, Brazil, Canada, China, India, Indonesia, Japan, Mexico, Thailand, United Kingdom and United States). All information on countries and states in X-Cart is based on Wikipedia.
+X-Cart has a biult-in list of 249 countries of the world with states configured for 11 of them (Argentina, Brazil, Canada, China, India, Indonesia, Japan, Mexico, Thailand, United Kingdom and United States). All information on countries and states in X-Cart is based on [ISO_3166-2](https://en.wikipedia.org/wiki/ISO_3166-2 "Managing Countries and States").
 
 A store admin can enable/disable the countries used in the store and add/edit states for countries if necessary.
 
@@ -21,30 +21,53 @@ The countries list in X-Cart can be checked on the **Countries** page in the adm
 
 On this page a store admin can enable/disable countries and add states to countries if necessary.
 
-To change a country status a store admin should:
+1. To change a country status a store admin should:
 
-1. Locate the country the changes are to be applied to.
-   For this purpose the store admin can either check the list of the countries one by one or use the Search bar available on the page:
-   ![countries-search.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-search.png)
+   * locate a country the changes are to be applied to.
+     
+     For this purpose the store admin can either check the list of the countries one by one or use the **Search bar** available on the page:
+     ![countries-search.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-search.png)
 
-2. Change the status using one of the following ways: 
-   * Switch the **ON/OFF** button opposite the country in question from green to grey:
-     ![countries-disabled.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-disabled.png)
+   * change the status using one of the following ways: 
+     * Switch the **ON/OFF** button opposite the country in question from green to grey:
+       ![countries-disabled.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-disabled.png)
    
-   * Check the countries that need to be enabled/disabled, click the **Status** button that will appear at the bottom of the page and change the countries' statuses in bulk:
-     ![countries-bulk.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-bulk.png)
+     * Check the countries that need to be enabled/disabled, click the **Status** button that will appear at the bottom of the page and change the countries' statuses in bulk:
+       ![countries-bulk.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-bulk.png)
 
-3. Click the **Save changes** button to submit the changes.
+   * click the **Save changes** button to submit the changes.
 
-To add states to a country a store admin should:
+2. To add/edit states to a country a store admin should:
 
-1. Locate the country the states are to be added to.
-   For this purpose the store admin can either check the list of the countries one by one or use the Search bar available on the page:
-   ![countries-search.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-search.png)
+   * locate the country the states are to be added to;
+     
+     For this purpose the store admin can either check the list of the countries one by one or use the **Search bar** available on the page:
+     ! [countries-search.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-search.png)
+     
+     {% note info %}
+     The countries with states will have the **Edit states** link instead of **Add states**:
+     ![countries-edit-states.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-edit-states.png)
+     {% endnote %}
 
-2. Click the **Add states** link opposite the country in question.
-   The admin will be redirected to the **States** page of the **Store setup** -> **Countries, states and zones** section where it's necessary to click the **Add state** button and follow the procedure:
-   ![states-add.png]({{site.baseurl}}/attachments/ref_2DygX0xM/states-add.png)
+   * click the **Add states** link opposite the country in question;
+     
+     The admin will be redirected to the **States** page of the **Store setup** -> **Countries, states and zones** section where it's necessary to: 
+     * click the **Add state** button:
+       ![states-add.png]({{site.baseurl}}/attachments/ref_2DygX0xM/states-add.png)
+     * fill in the required state info in the blank line that will appear:
+       ![countries-add-state.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-add-state.png)
+     * add as many states this way as required;
+     * click **Save changes**.
+       ![countries-save-state.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-save-state.png)
+
+     
+     The country with the newly created state(s) will be added to the list of countries with states:
+     ![countries-state-added.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-state-added.png)
+
+     
+     {% note info %}
+     To add states to the countries with states click **Edit states** and follow the procedure described in 
+     {% endnote %}
 
 ## Managing States
 
