@@ -310,6 +310,6 @@ return function()
 
 ## How to test hooks without uploading module to the marketplace
 
-You can test how your upgrade hooks work without uploading module to the marketplace. For the sake of the example let us pretend that you have your new version of the module 5.3.5 that contains upgrade hooks, which need to be tested. 
+You can test how your upgrade hooks work without uploading module to the marketplace. For the sake of the example let us pretend that you have new 5.3.5 version of the module that contains upgrade hooks, which need to be tested. 
 
 In order to perform such a test, you need to have X-Cart with 5.3.4 (or earlier) version of this module installed. Then, upload 5.3.5 version of the module through [the 'Upload add-on' button](https://kb.x-cart.com/general_setup/managing_modules/uploading_modules.html "Upgrade hooks") and upgrade hooks will run automatically.
