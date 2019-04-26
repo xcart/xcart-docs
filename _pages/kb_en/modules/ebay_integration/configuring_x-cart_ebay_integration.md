@@ -13,11 +13,10 @@ order: 120
 To connect your X-Cart store to eBay, you need to set up one or more eBay configurations via the eBay configurations section in your X-Cart store's Admin area. You can access this section one of the following methods:
    
    * by clicking the **eBay configurations** menu item under **Sales channels** in the Admin menu:
-     ![xc5_ebay_ebay_confs_link.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_ebay_confs_link.png)
+     ![xc5_ebay_confs.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_confs.png)
      
    * by going to the eBay Integration addon setting from the **Installed Addons** section:
-     ![xc5_ebay_settings_link.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_settings_link.png)
-
+     ![xc5_link2ebay_settings_.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_link2ebay_settings_.png)
 
 You will need to add and set up a separate eBay configuration for each eBay marketplace site to which you would like to connect. This includes the following steps:
 
