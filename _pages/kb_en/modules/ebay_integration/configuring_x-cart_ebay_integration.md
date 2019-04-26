@@ -20,12 +20,13 @@ To connect your X-Cart store to eBay, you need to set up one or more eBay config
 
 You will need to add and set up a separate eBay configuration for each eBay marketplace site to which you would like to connect. This includes the following steps:
 
-1.  [Add the eBay configuration you require](#add_the_eBay_configuration_you_require);
-2.  [Obtain your eBay user token](#obtaining-your-ebay-user-token);
-3.  [Set your business policies](#setting-your-business-policies);
-4.  [Choose your default eBay categories](#choosing-your-default-ebay-categories);
-5.  [Configure the General settings](#configuring-the-general-settings);
+1.  [Add the eBay configuration you require](#add_the_eBay_configuration_you_require).
+2.  [Obtain your eBay user token](#obtaining-your-ebay-user-token).
+3.  [Set your business policies](#setting-your-business-policies).
+4.  [Choose your default eBay categories](#choosing-your-default-ebay-categories).
+5.  [Configure the General settings](#configuring-the-general-settings).
 6.  (Optional) [Configure eBay options for products and categories](#configuring-ebay-options-for-products-and-categories).
+7.  (Optional) Configure mapping rules to sync your X-Cart store's global attributes with eBay item specifics.
 
 Let's look at each of the steps more closely.
 
@@ -172,7 +173,8 @@ To adjust the General settings:
     
     *   **End eBay items for disabled products:** Enable this option if you want an eBay listing to be ended automatically if you disable the respective product in your X-Cart store.
     *   **End eBay items for out of stock products:** Enable this option if you want an eBay listing to be ended automatically if the respective product in your X-Cart store goes out of stock.
-    *   **Use global attributes to synchronize eBay item specifics:**
+    *   **Use global attributes to synchronize eBay item specifics:** When you list an item on eBay, you can provide item specifics (like brand, size type, size, color, and style) for this item that will appear at the top of your listing description, in a consistent format, making it easy for buyers to get the facts about the item. (For more info on eBay item specifics, see https://www.ebay.com/pages/br/help/sell/item_specifics.html). X-Cart eBay integration enables you to synchronize the information available about the item in your X-Cart store in the form of global attributes with the item specifics on eBay. To enable the synchronization, you need to enable this setting ("Use global attributes to synchronize eBay item specifics"). Note, however, that if you want to be able to export your products' global attributes from X-Cart to eBay as item specifics, or import the item specifics from your eBay listings into X-Cart as global attributes, you will need to ensure that the names of the global attributes in your X-Cart store match the names of item specifics on eBay; otherwise, the synchronization will not be carried out. 
+ 
     *   **Export direct product image links to eBay:**
     
 3.  Adjust the settings in the **Import item options** section:
