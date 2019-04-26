@@ -185,8 +185,11 @@ To adjust the General settings:
 4.  Adjust the settings in the **Upload eBay orders** section:
     ![xc5_ebay_upload_ebay_orders.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_upload_ebay_orders.png)
     *   **Use store taxes for uploadable eBay orders:**
-    *   **Allow upload eBay orders automatically:**
+    
+    *   **Allow upload eBay orders automatically:** This option is enabled by default. It allows automated import of eBay orders into your X-Cart store by cron. See {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %} for more info.
+    
     *   **Allow upload shipped orders from eBay:**
+    
     *   **Allow update eBay orders status:**
     
 5.  Adjust the settings in the **System options** section:
@@ -196,17 +199,13 @@ To adjust the General settings:
     
     *   **Save eBay API requests/responses in the log file**: If you need eBay API requests/responses to be written to log file (for example, if you need this information for debugging purposes), enable this option.
     
-    *   **Allow upload eBay orders automatically**: This option is enabled by default. It allows automated import of eBay orders into your X-Cart store by cron. See {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %} for more info.
-    
     *   **Allow update products on eBay automatically**: This option is enabled by default. It allows automated updating of eBay items by cron via the export of product information from your X-Cart store to eBay. See {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %} for more info.
     
     *   **Allow update inventory of products on eBay automatically**: This option is enabled by default. It allows automated updating of the inventory information (quantity in stock) of eBay items by cron via the export of inventory information from your X-Cart store to eBay. See {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %} for more info.
     
     *   **Allow update inventory of products from eBay automatically**: This option is disabled by default.  It allows automated updating of the inventory information (amount/quantity in stock) of the products in your X-Cart store via the import of inventory information from eBay to your X-Cart store. See {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %} for more info.
     
-    *   **Allow end items on eBay**: This option is enabled by default. It enables you to end items on eBay manually with a click of a button; it also allows a special cron script in X-Cart to automatically end eBay items if they run out of stock. If you choose to disable this option, the buttons to end items on eBay will not be provided; any items that run out of stock before the period for which they have been listed on eBay expires will also not be ended automatically.
-    
-    *   **Allow update eBay order status**: This option is disabled by default. 
+    *   **Allow end items on eBay**: This option is enabled by default. It enables you to end items on eBay manually with a click of a button; it also allows a special cron script in X-Cart to automatically end eBay items if they run out of stock. If you choose to disable this option, the buttons to end items on eBay will not be provided; any items that run out of stock before the period for which they have been listed on eBay expires will also not be ended automatically. 
     
 4.  Click **Save** to save your changes.
     ![xc5_ebay_settings_save.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_settings_save.png)
