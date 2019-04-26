@@ -34,16 +34,15 @@ Let's look at each of the steps more closely.
 To connect your X-Cart store to a specific eBay marketplace site, you will need to add a new eBay configuration:
 
 1. In your X-Cart store's Admin area, go to the eBay configurations section (**Sales channels**>**eBay configurations**).
-   ![xc5_ebay_configurations_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_configurations_tab.png)
+   ![xc5_ebay_confs_tab.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_confs_tab.png)
 
 2. From the **eBay Site** box, select the eBay marketplace site to which you need to connect. The products and orders in your X-Cart store will be synchronized with this eBay site. 
    
 3. Click the **Create configuration** button.
-   ![xc5_ebay_create_configuration.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_create_configuration.png)
+   ![xc5_ebay_conf_create.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_conf_create.png)
 
 The eBay configuration will be created. On the page that opens, the configuration name and a link to the respective eBay marketplace site will be displayed. You will also be provided with some tools to set the operation mode (Test/Live) and to get the Auth Token for this eBay configuration:
-   ![xc5_ebay_configurations_tab1.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_configurations_tab1.png)
-
+   ![xc5_ebay_confs_tab1.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_confs_tab1.png)
 
 ## Obtaining an eBay user token
 
