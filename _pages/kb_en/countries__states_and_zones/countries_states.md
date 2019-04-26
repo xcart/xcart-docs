@@ -42,7 +42,7 @@ On this page a store admin can enable/disable countries and add states to countr
    * locate the country the states are to be added to;
      
      For this purpose the store admin can either check the list of the countries one by one or use the **Search bar** available on the page:
-     ! [countries-search.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-search.png)
+     ![countries-search.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-search.png)
      
      {% note info %}
      The countries with states will have the **Edit states** link instead of **Add states**:
@@ -50,7 +50,8 @@ On this page a store admin can enable/disable countries and add states to countr
      {% endnote %}
 
    * click the **Add states** link opposite the country in question;
-     
+     ![countries-add-button.png]({{site.baseurl}}/attachments/ref_2DygX0xM/countries-add-button.png)
+
      The admin will be redirected to the **States** page of the **Store setup** -> **Countries, states and zones** section where it's necessary to: 
      * click the **Add state** button:
        ![states-add.png]({{site.baseurl}}/attachments/ref_2DygX0xM/states-add.png)
@@ -66,7 +67,7 @@ On this page a store admin can enable/disable countries and add states to countr
 
      
      {% note info %}
-     To add states to the countries with states click **Edit states** and follow the procedure described in 
+     To add states to the countries with states click **Edit states** and follow the procedure described in [Managing States](https://kb.x-cart.com/countries__states_and_zones/countries_states.html#managing-states "Managing Countries and States").
      {% endnote %}
 
 ## Managing States
