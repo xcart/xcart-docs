@@ -175,8 +175,22 @@ To adjust the General settings:
     *   **Use global attributes to synchronize eBay item specifics:**
     *   **Export direct product image links to eBay:**
     
-3.  Adjust the settings in the **System options** section:
-    ![xc5_ebay_general_settings_sys_options.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_sys_options.png)
+3.  Adjust the settings in the **Import item options** section:
+    ![xc5_ebay_import_item_options.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_import_item_options.png)
+
+    *   **Import eBay items into structure of eBay categories:**
+    *   **Import eBay categories for product:**
+    *   **Import eBay Item descriptions to product descriptions:**
+    
+4.  Adjust the settings in the **Upload eBay orders** section:
+    ![xc5_ebay_upload_ebay_orders.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_upload_ebay_orders.png)
+    *   **Use store taxes for uploadable eBay orders:**
+    *   **Allow upload eBay orders automatically:**
+    *   **Allow upload shipped orders from eBay:**
+    *   **Allow update eBay orders status:**
+    
+5.  Adjust the settings in the **System options** section:
+    ![xc5_ebay_system_options.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_system_options.png)
 
     *   **Show eBay warning messages in admin area**: When exporting products to eBay or importing orders from eBay, you may get eBay warnings. Unlike errors, warnings are conditions that are not fatal to the addon operation, but they alert you to some minor problems that you may want to fix. Any warnings your store gets from eBay are written to log files in your X-Cart store. If, in addition to that, you also wish to have eBay warning messages displayed in your store's Admin area, enable this option. 
     
