@@ -218,17 +218,16 @@ To adjust the General settings:
     You should see a success message like the following:
     ![xc5_ebay_conf_success.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_conf_success.png)
 
-That is all; you have completed the basic configuration of your eBay Integration and can now start selling on eBay. However, if you require a more nuanced approach to publishing your products on eBay (for example, if you need to map your products to eBay categories more accurately than simply by setting one common default category for all your products), we recommend you take a couple more steps to complete your store's eBay related configuration:
+That is all; you have completed the basic configuration of your eBay Integration and can now start selling on eBay. However, if you require a more nuanced approach to publishing your products on eBay, we recommend you take a couple more steps to complete your store's eBay related configuration:
    
-   *  [Configure eBay options for products and categories](#configure-ebay-options-for-products-and-categories).
-   *  [Configure mapping rules to sync your X-Cart store's global attributes with eBay item specifics](#map-global-attributes-to-ebay-item-specifics).
+   *  If you need to map your products to eBay categories more accurately than simply by setting one common default category for all your products, you can {% link "configure eBay options for specific products and categories" ref_0VFzZggb %}. 
+   *  If you want to use your X-Cart store's global attributes for eBay item specifics, {% link "configure the mapping rules to sync your X-Cart store's global attributes with eBay item specifics" ref_0X2MIatv %}
    
-   * {% link "Configuring eBay Options for Specific Products and Categories" ref_0VFzZggb %}
-   * {% link "Mapping Global Attributes to eBay Item Specifics" ref_0X2MIatv %}
-  
-
+   
 _Related pages:_
 
 *   {% link "X-Cart eBay Integration System Requirements and Installation" ref_RgzAH0hf %}
+*   {% link "Configuring eBay Options for Specific Products and Categories" ref_0VFzZggb %}
+*   {% link "Mapping Global Attributes to eBay Item Specifics" ref_0X2MIatv %}
 *   {% link "Exporting Products to eBay" ref_40Al0Nky %}
 *   {% link "Automating Import and Export Tasks for eBay Integration" ref_qPIZcwNs %}
