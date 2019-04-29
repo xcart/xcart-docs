@@ -5,7 +5,7 @@ updated_at: '2019-04-29 09:51 +0400'
 identifier: ref_14DjvTwR
 title: Editing the "Store Is CLosed" Page
 order: 145
-published: false
+published: true
 ---
 When you close the storefront for some e.g. maintetance purpose the customers of your store see the default "Storefront is closed" page instead:
 
