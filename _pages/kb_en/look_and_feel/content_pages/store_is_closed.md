@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-04-29 09:51 +0400'
 identifier: ref_14DjvTwR
-title: Editing the "Store Is CLosed" Page
+title: Editing the "Store Is Closed" Page
 order: 145
 published: true
 ---
