@@ -182,7 +182,7 @@ To adjust the General settings:
 
     *   **Import eBay items into structure of eBay categories:** If you have an eBay store with your own configured categories, you can use this option to specify whether you want the structures of your eBay store and your X-Cart store to be synchronized when you import items from eBay to X-Cart based off of your eBay store structure. Enable this option if you want to transfer the structure of your eBay store to your X-Cart store. (In this case, during an import, the store categories in which the items reside on eBay will be imported into X-Cart along with the items and will become the categories of your X-Cart catalog). Disable this option if you do not want to copy the structure of your eBay store onto your X-Cart store. (In this case, any items that you will import from eBay will be placed in the category "eBay Items"; if your store does not have such a category, it will be created.) 
     
-    *   **Import eBay categories for product:**
+    *   **Import eBay categories for product:** 
     
     *   **Import eBay Item descriptions to product descriptions:**
     
