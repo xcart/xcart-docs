@@ -24,4 +24,5 @@ _In this section:_
 *  {% link "Enabling the 'Contact Us' Form" ref_hfZXkxzT %}
 *  {% link "Editing Text on the 'Contact Us' Page" ref_CsqC5DNX %}
 *  {% link "Editing the Maintenance Page" ref_GX9sbLzF %}
+*  {% link "Editing the "Storefront Is Closed" Page" ref_14DjvTwR %}
 *  {% link "Changing 404 "Page Not Found"" ref_1vY1kBkj %}
