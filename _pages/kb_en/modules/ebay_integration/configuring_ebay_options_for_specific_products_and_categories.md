@@ -57,3 +57,8 @@ To set eBay options for a product:
 4.  Once you are done configuring the eBay options for the selected product, click **Save options** to save your changes. 
     ![]({{site.baseurl}}/attachments/9306381/9439155.png)
     The eBay options for the product will be saved.
+
+_Related pages:_
+
+*   {% link "Configuring X-Cart eBay Integration" ref_SCbAqGqX %}
+*   {% link "Mapping Global Attributes to eBay Item Specifics" ref_0X2MIatv %}
