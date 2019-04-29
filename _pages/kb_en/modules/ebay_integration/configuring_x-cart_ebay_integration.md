@@ -191,11 +191,11 @@ To adjust the General settings:
     
     *   **Use store taxes for uploadable eBay orders:** If this option is enabled, any taxes configured in your X-Cart store are applied to orders that you upload from eBay. (**Important**: If a tax is configured as not included into the product price, the order total is increased by the tax amount as a result of import.) If this option is disabled, any taxes configured in X-Cart are not applied to orders uploaded from eBay. 
     
-    *   **Allow upload eBay orders automatically:** If this option is enabled, eBay orders are allowed to be imported into your X-Cart store by cron. See {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %} for more info. If it is disabled, you have to import eBay orders manually.
+    *   **Allow upload eBay orders automatically:** If this option is enabled, eBay orders are allowed to be imported into your X-Cart store by cron. See {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %} for more info. If it is disabled, eBay orders are not imported automatically.
     
-    *   **Allow upload shipped orders from eBay:**
+    *   **Allow upload shipped orders from eBay:** If this option is enabled, when you choose to upload orders from eBay, X-Cart uploads all the orders that have been paid for - including the ones that have already been shipped. If it is disabled, X-Cart uploads only paid orders that have not been shipped yet.
     
-    *   **Allow update eBay orders status:**
+    *   **Allow update eBay orders status:** If this option is enabled, updating an order status to "Shipped" in your X-Cart store results in the status of the same order on eBay getting updated automatically as well. If it is disabled, updating an order status in X-Cart does not affect the order status on eBay.
     
 5.  Adjust the settings in the **System options** section:
     ![xc5_ebay_system_options.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_system_options.png)
