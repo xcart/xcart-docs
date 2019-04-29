@@ -18,7 +18,9 @@ To close the storefront use the ON/OFF trigger at the top of any page in the sto
 
 If you want to provide additional information to help your customers contact you while the store is closed, you should change the file **`<X-Cart folder>/public/closed.html`**. 
 
-For instance, we will show how to add a phone number below the existing text. The mentioned file has the following HTML tags with text:
+For instance, we will show how to add a phone number below the existing text. 
+
+The mentioned file has the following HTML tags with text:
 
 **public/maintenance.html**
 
