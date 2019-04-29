@@ -20,15 +20,13 @@ To connect your X-Cart store to eBay, you need to set up one or more eBay config
 
 You will need to add and set up a separate eBay configuration for each eBay marketplace site to which you would like to connect. This includes the following steps:
 
-1.  [Add the eBay configuration you require](#add_the_eBay_configuration_you_require).
-2.  [Obtain your eBay user token](#obtaining-your-ebay-user-token).
-3.  [Set your business policies](#setting-your-business-policies).
-4.  [Choose your default eBay categories](#choosing-your-default-ebay-categories).
-5.  [Configure the General settings](#configuring-the-general-settings).
-6.  (Optional) [Configure eBay options for products and categories](#configuring-ebay-options-for-products-and-categories).
-7.  (Optional) Configure mapping rules to sync your X-Cart store's global attributes with eBay item specifics.
+   1.  [Add the eBay configuration you require](#add_the_eBay_configuration_you_require).
+   2.  [Obtain your eBay user token](#obtain-your-ebay-user-token).
+   3.  [Set your business policies](#set-your-business-policies).
+   4.  [Choose your default eBay categories](#choose-your-default-ebay-categories).
+   5.  [Configure the General settings](#configure-the-general-settings).
 
-Let's look at each of the steps more closely.
+Let us take a closer look at the process of setting up an eBay configuration.
 
 ## Add the eBay configuration you require
 
@@ -45,7 +43,7 @@ To connect your X-Cart store to a specific eBay marketplace site, you will need 
 The eBay configuration will be created. On the page that opens, the configuration name and a link to the respective eBay marketplace site will be displayed. You will also be provided with some tools to set the operation mode (Test/Live) and to get the Auth Token for this eBay configuration:
    ![xc5_ebay_confs_tab1.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_confs_tab1.png)
 
-## Obtaining an eBay user token
+## Obtain an eBay user token
 
 Once a new eBay configuration has been added via the eBay configurations section of your X-Cart store's Admin area, you need to create a new user [token](http://developer.ebay.com/devzone/guides/ebayfeatures/Basics/Tokens-About.html) for it (also known as "Auth Token). The token is needed so the eBay Integration in your X-Cart store can connect to your eBay account. 
 
@@ -78,7 +76,7 @@ To create a new user token for an eBay configuration:
 4.  Now that your token has been generated, click **Next** to save your changes and head over to the next step of configuring your eBay Integration: [Setting your business policies](#setting-your-business-policies).
     ![xc5_ebay_token_crtd_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_token_crtd_next.png)
 
-## Setting your business policies
+## Set your business policies
 
 Once you have created an eBay user token to connect your X-Cart store to your eBay seller account, you can set business policies for your eBay listings. Business policies typically include information on how buyers can pay you; the shipping services you offer, and shipping costs; whether you accept returns, any return conditions, etc. All eBay listings must include this information. To provide information on your business policies for the listings that will be created from the products you sell via your X-Cart store, follow the steps below:
 
@@ -107,7 +105,7 @@ To specify which business policies are going to be used for your listings, you w
 5.  Click **Next** to save your changes and head over to the next step of configuring your eBay Integration: [Choose your default eBay categories](#choosing-your-default-ebay-categories).
     ![xc5_ebay_policies_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_policies_next.png)
 
-## Choosing your default eBay categories
+## Choose your default eBay categories
 
 Every product you export to eBay has to be placed in at least one of eBay categories. When using eBay Integration, the eBay categories to which your products will be exported need to be set before the export actually takes place. When configuring an eBay configuration in your X-Cart store, the **Categories** section allows you to set the default eBay categories for your listings: one main and one additional category. The main category is required, the additional one is optional. The categories you specify here will be your store's default eBay categories for the selected eBay marketplace site - the ones that will be used for any products for which eBay categories are not set at the product or category level. 
 
@@ -132,7 +130,7 @@ To set the default eBay categories:
 4.  Once you are happy with your default category settings, click **Next** to save your changes and head over to the next step of configuring your eBay Integration: [Configure the General settings for the X-Cart eBay Integration addon](#configuring-the-general-settings-for-the-x-cart-ebay-integration-addon).
     ![xc5_ebay_cat_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_cat_next.png)
 
-## Configuring the General settings
+## Configure the General settings
 
 Before you start exporting products to eBay, you need to adjust the General settings for the respective eBay configuration. 
 
@@ -220,9 +218,15 @@ To adjust the General settings:
     You should see a success message like the following:
     ![xc5_ebay_conf_success.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_conf_success.png)
 
-That is all; you have completed the basic configuration of your eBay Integration and can now start selling on eBay. However, if you require a more nuanced approach to publishing your products on eBay (for example, if you need to map your products to eBay categories more accurately than simply by setting one common default category for all your products), we recommend you take a couple more steps to complete your store's eBay related configuration. For more info, see the sections on configuring [eBay options for categories and products](#configuring-ebay-options-for-products-and-categories).
-
-## Configuring eBay options for products and categories
+That is all; you have completed the basic configuration of your eBay Integration and can now start selling on eBay. However, if you require a more nuanced approach to publishing your products on eBay (for example, if you need to map your products to eBay categories more accurately than simply by setting one common default category for all your products), we recommend you take a couple more steps to complete your store's eBay related configuration:
+   
+   *  [Configure eBay options for products and categories](#configure-ebay-options-for-products-and-categories).
+   *  [Configure mapping rules to sync your X-Cart store's global attributes with eBay item specifics](#map-global-attributes-to-ebay-item-specifics).
+   
+   * {% link "Configuring eBay Options for Specific Products and Categories" ref_0VFzZggb %}
+   * {% link "Mapping Global Attributes to eBay Item Specifics" ref_0X2MIatv %}
+   
+## Configure eBay options for products and categories
 
 The sections **Categories** and **General Settings** of the eBay Configuration page allow you to set the most basic rules for how your product information should be exported to the eBay site for which the eBay configuration has been created. This includes which eBay category your products should be exported to, whether a price modifier should be used to increase or decrease the product price on eBay, and so on.
 
@@ -274,6 +278,7 @@ To set eBay options for a product:
 4.  Once you are done configuring the eBay options for the selected product, click **Save options** to save your changes. 
     ![]({{site.baseurl}}/attachments/9306381/9439155.png)
     The eBay options for the product will be saved.
+
 
 _Related pages:_
 
