@@ -5,7 +5,7 @@ updated_at: '2019-04-29 14:32 +0400'
 identifier: ref_0VFzZggb
 title: "Configuring eBay Options for Specific Products and\_Categories"
 order: 126
-published: false
+published: true
 ---
 The sections **Categories** and **General Settings** of the {% link "eBay Configuration page" ref_SCbAqGqX %} allow you to set the most basic rules for how your product information should be exported to the eBay site for which the eBay configuration has been created. This includes which eBay category your products should be exported to, whether a price modifier should be used to increase or decrease the product price on eBay, and so on.
 
