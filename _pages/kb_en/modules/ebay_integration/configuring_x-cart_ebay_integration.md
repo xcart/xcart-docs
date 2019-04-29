@@ -169,13 +169,13 @@ To adjust the General settings:
     
     *   **Product code type**: Specify the type of global product code (EAN / USBN / UPC) to be used for the export of products to eBay. If no code is specified for a product, "Does not apply" will be sent to eBay.
     
-    *   **End eBay items for disabled products:** Enable this option if you want an eBay listing to be ended automatically if you disable the respective product in your X-Cart store.
+    *   **End eBay items for disabled products:** If this option is enabled, an eBay listing is ended automatically after you disable the respective product in your X-Cart store. If it is disabled, disabling a product in your X-Cart store does not affect the respective listing on eBay.
     
-    *   **End eBay items for out of stock products:** Enable this option if you want an eBay listing to be ended automatically if the respective product in your X-Cart store goes out of stock.
+    *   **End eBay items for out of stock products:** If this option is enabled, an eBay listing is ended automatically when the respective product in your X-Cart store goes out of stock. If it is disabled, the listing on eBay remains unaffected.
     
     *   **Use global attributes to synchronize eBay item specifics:** When you list an item on eBay, you can provide item specifics (like brand, size type, size, color, and style) for this item. The item specifics will appear at the top of your listing description, in a consistent format, making it easy for buyers to get the facts about the item. For more info on eBay item specifics, see https://www.ebay.com/pages/br/help/sell/item_specifics.html. X-Cart eBay integration enables you to synchronize the information available about the item in your X-Cart store in the form of global attributes with the item specifics on eBay. To enable the synchronization, you need to enable this option ("Use global attributes to synchronize eBay item specifics" = On). Note, however, that if you want to be able to export your products' global attributes from X-Cart to eBay as item specifics, or to import the item specifics from your eBay listings into X-Cart as global attributes, you will need to ensure that the names of the global attributes in your X-Cart store match the names of the item specifics defined on eBay. During a synchronization, the X-Cart eBay integration will determine which global attribute should be matched to which item specifics based on the names. Alternatively, you can map the global attributes in your X-Cart store to eBay item specifics via the **eBay Item Specifics** section (**Catalog** > **eBay item specifics**) of your X-Cart store Admin area.
  
-    *   **Export direct product image links to eBay:** Enable this option if you want images to be exported to eBay as image links. Disable the option for images to be exported to eBay physically.
+    *   **Export direct product image links to eBay:** If this option is enabled, images are exported to eBay as image links. If it is disabled, images are exported to eBay physically.
     
 3.  Adjust the settings in the **Import item options** section:
     ![xc5_ebay_import_item_options.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_import_item_options.png)
@@ -189,9 +189,9 @@ To adjust the General settings:
 4.  Adjust the settings in the **Upload eBay orders** section:
     ![xc5_ebay_upload_ebay_orders.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_upload_ebay_orders.png)
     
-    *   **Use store taxes for uploadable eBay orders:**
+    *   **Use store taxes for uploadable eBay orders:** If this option is enabled, 
     
-    *   **Allow upload eBay orders automatically:** This option is enabled by default. It allows automated import of eBay orders into your X-Cart store by cron. See {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %} for more info.
+    *   **Allow upload eBay orders automatically:** If this option is enabled, eBay orders are allowed to be imported into your X-Cart store by cron. See {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %} for more info. If it is disabled, you have to import eBay orders manually.
     
     *   **Allow upload shipped orders from eBay:**
     
