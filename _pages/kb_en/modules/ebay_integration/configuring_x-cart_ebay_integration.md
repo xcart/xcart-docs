@@ -189,7 +189,7 @@ To adjust the General settings:
 4.  Adjust the settings in the **Upload eBay orders** section:
     ![xc5_ebay_upload_ebay_orders.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_upload_ebay_orders.png)
     
-    *   **Use store taxes for uploadable eBay orders:** If this option is enabled, 
+    *   **Use store taxes for uploadable eBay orders:** If this option is enabled, any taxes configured in your X-Cart store are applied to orders that you upload from eBay. (**Important**: If a tax is configured as not included into the product price, the order total is increased by the tax amount as a result of import.) If this option is disabled, any taxes configured in X-Cart are not applied to orders uploaded from eBay. 
     
     *   **Allow upload eBay orders automatically:** If this option is enabled, eBay orders are allowed to be imported into your X-Cart store by cron. See {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %} for more info. If it is disabled, you have to import eBay orders manually.
     
