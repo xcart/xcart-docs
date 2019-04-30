@@ -52,9 +52,12 @@ The sections are as follows:
        ![standard-pop-up-2.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/standard-pop-up-2.png)
      * **Custom popup template** : The pop-up will use the colors and styles of a custom template and will be displayed on the storefront according to the rules specified in the **Popup behaviour** and **Popup appearance** sections.
        ![standard-popup.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/standard-popup.png)
+       
        {% note info %}
        All custom templates must be uploaded to the folder **`<X-Cart folder>/skin/customer/modules/QSL/PopupAnywhere/popup_templates/`** on the server where your X-Cart software is hosted. 
+       
        Get more info on how to create a custom template in the following articles:
+         * {% link "Custom CSS" ref_10vugyja %}
          * [Templates and Interfaces](https://devs.x-cart.com/basics/templates_and_interfaces.html) of X-Cart Developer Documentation. 
          * [Custom features with Twig template engine](https://devs.x-cart.com/basics/twig_guide.html "Pop-up Anywhere")
        {% endnote %}
