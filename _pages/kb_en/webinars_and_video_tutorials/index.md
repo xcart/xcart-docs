@@ -21,19 +21,19 @@ In this section you will find links to video tutorials and webinar recordings fo
 *   {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %} (published Nov 21, 2016; based on X-Cart 5.3.1.5)
 *   {% link "X-Cart 5 Free License Activation" ref_X5ZLmSJV %} (published Oct 08, 2014; based on X-Cart 5.1.5)
 *   {% link "X-Cart 5 Business License Activation" ref_UUrbypsh %} (published Oct 28, 2014; based on X-Cart 5.1.6)
-*   {% link "X-Cart 5 Module License Activation" ref_hU6Rb4tw %}
-*   {% link "X-Cart 5 Upgrading Easy" ref_ewS4hGwa %}
-*   {% link "Prolongation of Access to Updates (video)" ref_pIvO4FGU %}
-*   {% link "Configuring Email Notifications in X-Cart 5.2" ref_PswmUSQt %}
+*   {% link "X-Cart 5 Module License Activation" ref_hU6Rb4tw %} (published Oct 28, 2014; based on X-Cart 5.1.7)
+*   {% link "X-Cart 5 Upgrading Easy" ref_ewS4hGwa %} (published Mar 06, 2013; based on X-Cart Next core 1.2.x)
+*   {% link "Prolongation of Access to Updates (video)" ref_pIvO4FGU %} (published Nov 16, 2015; based on X-Cart 5.2.6)
+*   {% link "Configuring Email Notifications in X-Cart 5.2" ref_PswmUSQt %} (published May 08, 2015; based on X-Cart 5.2.4)
 
 ## Catalog management
 
-*   {% link "Adding a New Product (video)" ref_6sRB7rnW %}
-*   {% link "Setting up Sale and Wholesale Pricing in X-Cart 5" ref_g2dhS8uC %}
-*   {% link "Import and Export of Categories: Tutorial by Mike White" ref_VXdfNsVw %}
-*   {% link "Product Classes and Attributes in X-Cart 5.3" ref_TFScbVdf %}
-*   {% link "Attributes and Product Filters in X-Cart 5.1" ref_tkXafgoK %}
-*   {% link "Product Variants in X-Cart 5" ref_PCmycghn %}
+*   {% link "Adding a New Product (video)" ref_6sRB7rnW %} (published Jan 18, 2017; based on X-Cart 5.3.1.4)
+*   {% link "Setting up Sale and Wholesale Pricing in X-Cart 5" ref_g2dhS8uC %} (published Dec 16, 2014; based on X-Cart 5.1.9)
+*   {% link "Import and Export of Categories: Tutorial by Mike White" ref_VXdfNsVw %} (published Aug 13, 2014; based on X-Cart 5.1.4)
+*   {% link "Product Classes and Attributes in X-Cart 5.3" ref_TFScbVdf %} (published Nov 10, 2017; based on X-Cart 5.3.3.4)
+*   {% link "Attributes and Product Filters in X-Cart 5.1" ref_tkXafgoK %} (published Jan 06, 2015; based on X-Cart 5.1.9)
+*   {% link "Product Variants in X-Cart 5" ref_PCmycghn %} (First video published Jan 22, 2018; based on X-Cart 5.3.4.4. Second video published Jan 06, 2015; based on X-Cart 5.1.9)
 *   {% link "Configuring Volume Discounts and Coupons in X-Cart 5" ref_6xFWK5tC %}
 
 ## Taxes
