@@ -54,8 +54,8 @@ In this section you will find links to video tutorials and webinar recordings fo
 *   {% link "X-Cart 5 and X-Payments - PCI Compliant Credit Card Processing and Storing" ref_DqRLwgcu %} (published Jan 24, 2014) 
 *   {% link "Saving Credit Cards in X-Cart 5 Integrated with X-Payments 2.x" ref_Ev0rZhsL %} (published Oct 29, 2014; based on X-Payments 2.x with X-Cart 5.х) 
 *   {% link "Using X-Cart 5 AOM and X-Payments Together" ref_OQH7JtZw %} (published Oct 22, 2014; based on X-Payments 2.x with X-Cart 5.1.7) 
-*   {% link "Subscriptions in X-Cart 5 Powered by X-Payments" ref_Ae8Qd8lq %}
-*   {% link "Kount in X-Cart 5 Integrated with X-Payments" ref_lzAhqZpB %}
+*   {% link "Subscriptions in X-Cart 5 Powered by X-Payments" ref_Ae8Qd8lq %} (published Apr 01, 2015; based on X-Cart 5.2.3) 
+*   {% link "Kount in X-Cart 5 Integrated with X-Payments" ref_lzAhqZpB %} (published Jun 22, 2015; based on X-Cart 5.1.10) 
 
 ## Content and Layout Management
 
