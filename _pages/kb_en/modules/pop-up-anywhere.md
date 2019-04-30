@@ -29,9 +29,11 @@ Some of the samples are enabled, some are not. You can disable all the samples o
 
 To create a new pop-up, click the **New popup** button at the top of the page. 
 
-You will be redirected to the **New popup** page where you will need to configure the settings in four sections to create a pop-up. The sections are as follows:
+You will be redirected to the **New popup** page where you will need to configure the settings in four sections to create a pop-up. 
 
-## General Popup Settings
+The sections are as follows:
+
+### General Popup Settings
    
    The settings in this section can be used to specify the most general information about each pop-up. This information will appear in the pop-up list in the Admin area.  
    ![general-popup-settings.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/general-popup-settings.png)
@@ -41,7 +43,7 @@ You will be redirected to the **New popup** page where you will need to configur
      ![from-till.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/from-till.png)
    * **Active till** : The pop-up end date (optional).
 
-## Popup Content
+### Popup Content
    
    This section defines the style and content of the pop-up as it should be displayed to the customers in the store front end.
    ![popup-content.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/popup-content.png)
@@ -51,7 +53,10 @@ You will be redirected to the **New popup** page where you will need to configur
      * **Custom popup template** : The pop-up will use the colors and styles of a custom template and will be displayed on the storefront according to the rules specified in the **Popup behaviour** and **Popup appearance** sections.
        ![standard-popup.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/standard-popup.png)
        {% note info %}
-       All custom templates must be uploaded to the folder /skin/customer/modules/QSL/PopupAnywhere/popup_templates/ on the server where your X-Cart software is hosted. More info on how to create a custom template is available in the article [Templates and Interfaces](https://devs.x-cart.com/basics/templates_and_interfaces.html) of X-Cart Developer Documentation. 
+       All custom templates must be uploaded to the folder /skin/customer/modules/QSL/PopupAnywhere/popup_templates/ on the server where your X-Cart software is hosted. 
+       Get more info on how to create a custom template in the following articles:
+       * [Templates and Interfaces](https://devs.x-cart.com/basics/templates_and_interfaces.html) of X-Cart Developer Documentation. 
+       * [Custom features with Twig template engine](https://devs.x-cart.com/basics/twig_guide.html "Pop-up Anywhere")
        {% endnote %}
      * **Notification bar** : The pop-up will use the colors of the main store skin and will be displayed on the storefront according to the rules specified in the **Popup behaviour** and **Popup appearance** sections.
        ![notification-bar-popup.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/notification-bar-popup.png)
@@ -60,7 +65,7 @@ You will be redirected to the **New popup** page where you will need to configur
    * **Title** : Name your pop-up the way you want your customers to see it in the storefront.
    * **Content** : Add the pop-up content here. Use the built-in WISIWIG editor to insert images, videos or links (if required), or choose a custom .twig file for a custom popup template. 
 
-## Popup Behaviour
+### Popup Behaviour
 
    This section sets the rules to control the display of the pop-up on the storefront.
    ![popup-behaviour.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/popup-behaviour.png)
@@ -69,7 +74,7 @@ You will be redirected to the **New popup** page where you will need to configur
    * **Show if URL contains** : Specify the store pages on which the pop-up should be displayed (based on part of the page URL; for example: target=cart, target=checkout, .html, etc.). If you choose to specify more than one page types, separate them with a comma.
    * **Do not show if URL contains** : Specify the store pages on which the pop-up should NOT be displayed (based on part of the page URL; for example: target=cart, target=checkout, .html, etc.). If you choose to specify more than one page types, separate them with a comma.
    
-## Popup Appearance
+### Popup Appearance
    
    This section defines the visual parameters of the pop-up.
    ![popup-appearance.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/popup-appearance.png)
