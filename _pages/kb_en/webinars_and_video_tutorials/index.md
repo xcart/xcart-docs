@@ -8,7 +8,7 @@ categories:
   - home
 order: 200
 icon: youtube play
-description: Videos for some popular X-Cart features
+description: See popular X-Cart features in action
 published: true
 ---
 
