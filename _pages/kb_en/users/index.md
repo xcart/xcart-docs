@@ -8,7 +8,7 @@ categories:
   - home
 order: 20
 icon: user
-description: 'Adjust users profile fields, provide different memberships for your customers'
+description: 'Manage user profiles, roles and memberships'
 published: true
 ---
 An online store is no store without users. In this section you will find information on the management of users in X-Cart.
