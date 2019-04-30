@@ -75,18 +75,18 @@ In this section you will find links to video tutorials and webinar recordings fo
 
 ## Webinars
 
-*   {% link "Webinar recording: X-Cart Security & Optimization" ref_1IPZZPbN %}
-*   {% link "PayPal & X-Cart Joint Webinar: 4 Payment Trends Driving More Sales in 2014" ref_9pm20krn %}
-*   {% link "Easy Way to Sell to China: Webinar Recording with KK Chen from Pilibaba" ref_t0I33FIZ %}
-*   {% link "Control of Your Shipping Costs: Webinar with 71lbs CEO Jose Li" ref_idfvFS3J %}
-*   {% link "X-Cart and Avalara Webinar: When Do it Yourself Doesn’t Do it Best" ref_tmAt0uVV %}
-*   {% link "X Cart SEO with Stijn Hendrikse and Mike Bazhutin" ref_DzQM3Vs4 %}
-*   {% link "DDoS Attacks: What Are They and How to Protect Your Site. Webinar with CloudFlare" ref_fJ7OXVPZ %}
-*   {% link "Webinar Recording: Increase Your In Store Conversions with Mobile Point of Sale" ref_WgvUfVEs %}
-*   {% link "Common Fraud Techniques and How to Avoid Them: Joint Webinar of X-Cart and Kount" ref_d4I7MVKu %}
-*   {% link "Joint Webinar with PayPal and X-Cart: Lower Credit Card Processing Fees" ref_h1T9xMRl %}
-*   {% link "Recorded Webinar - Automate Your USPS Shipping" ref_sg50B20v %}
-*   {% link "Webinar: What You Need to Know about Accepting Payments Online" ref_cen1642b %}
-*   {% link "US Sales Tax Webinar with Avalara - July 23rd 2013" ref_yF8UPdBN %}
-*   {% link "Webinar 'Online Security and X-Cart' Nov. 27 9am PST/12pm EST" ref_Hdkys8ir %}
-*   {% link "Webinar '5 Common Questions about PCI Compliance' - September 5th 2012" ref_PahGlhQ3 %}
+*   {% link "Webinar recording: X-Cart Security & Optimization" ref_1IPZZPbN %} (published on Nov 3, 2016)
+*   {% link "PayPal & X-Cart Joint Webinar: 4 Payment Trends Driving More Sales in 2014" ref_9pm20krn %} (published on Apr 01, 2014)
+*   {% link "Easy Way to Sell to China: Webinar Recording with KK Chen from Pilibaba" ref_t0I33FIZ %} (published on Jul 01, 2016)
+*   {% link "Control of Your Shipping Costs: Webinar with 71lbs CEO Jose Li" ref_idfvFS3J %} (published on Sep 21, 2015)
+*   {% link "X-Cart and Avalara Webinar: When Do it Yourself Doesn’t Do it Best" ref_tmAt0uVV %} (published on Jun 18, 2015)
+*   {% link "X Cart SEO with Stijn Hendrikse and Mike Bazhutin" ref_DzQM3Vs4 %} (published on May 25, 2015)
+*   {% link "DDoS Attacks: What Are They and How to Protect Your Site. Webinar with CloudFlare" ref_fJ7OXVPZ %} (published on Apr 09, 2015)
+*   {% link "Webinar Recording: Increase Your In Store Conversions with Mobile Point of Sale" ref_WgvUfVEs %} (published on Oct 02, 2014)
+*   {% link "Common Fraud Techniques and How to Avoid Them: Joint Webinar of X-Cart and Kount" ref_d4I7MVKu %} (published on Aug 29, 2014)
+*   {% link "Joint Webinar with PayPal and X-Cart: Lower Credit Card Processing Fees" ref_h1T9xMRl %} (published on Jul 28, 2014)
+*   {% link "Recorded Webinar - Automate Your USPS Shipping" ref_sg50B20v %} (published on
+*   {% link "Webinar: What You Need to Know about Accepting Payments Online" ref_cen1642b %} (published on
+*   {% link "US Sales Tax Webinar with Avalara - July 23rd 2013" ref_yF8UPdBN %} (published on
+*   {% link "Webinar 'Online Security and X-Cart' Nov. 27 9am PST/12pm EST" ref_Hdkys8ir %} (published on
+*   {% link "Webinar '5 Common Questions about PCI Compliance' - September 5th 2012" ref_PahGlhQ3 %} (published on
