@@ -58,7 +58,7 @@ The sections are as follows:
        
        Get more info on how to create a custom template in the following articles:
          * {% link "Custom CSS" ref_10vugyja %}
-         * [Templates and Interfaces](https://devs.x-cart.com/basics/templates_and_interfaces.html) of X-Cart Developer Documentation. 
+         * [Templates and Interfaces](https://devs.x-cart.com/basics/templates_and_interfaces.html) 
          * [Custom features with Twig template engine](https://devs.x-cart.com/basics/twig_guide.html "Pop-up Anywhere")
        {% endnote %}
      * **Notification bar** : The pop-up will use the colors of the main store skin and will be displayed on the storefront according to the rules specified in the **Popup behaviour** and **Popup appearance** sections.
