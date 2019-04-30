@@ -8,7 +8,7 @@ categories:
   - home
 order: 200
 icon: youtube play
-description: Live video from our developers and associates
+description: Videos for some popular X-Cart features
 published: true
 ---
 
