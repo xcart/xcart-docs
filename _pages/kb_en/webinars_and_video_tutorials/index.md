@@ -59,11 +59,11 @@ In this section you will find links to video tutorials and webinar recordings fo
 
 ## Content and Layout Management
 
-*   {% link "Static Pages and Menus in X-Cart 5" ref_ATBkizcn %}
-*   {% link "Advanced Menu Management with Extended Simple CMS" ref_aWT2i7z1 %}
-*   {% link "Basic Design Changes in X Cart 5.3" ref_KpqQsVGf %}
-*   [Specifying Your Company Info, Changing the Text on the Add to Cart Button and Editing the Contact Us Page in X-Cart 5](http://devs.x-cart.com/en/webinars_and_video_tutorials/specifying_your_company_info__changing_the_text_on_the_add_to_cart_button_and_editing_the_contact_us_page_in_x-cart_5.html)
-*   [Basic Front End Changes in X-Cart 5.2 - Theme, Logo, Favicon, Home Page Banner](http://devs.x-cart.com/en/webinars_and_video_tutorials/basic_front-end_changes_in_x-cart_5.2_-_theme__logo__favicon__home_page_banner.html)
+*   {% link "Static Pages and Menus in X-Cart 5" ref_ATBkizcn %} (published May 08, 2015; based on X-Cart 5.2.4) 
+*   {% link "Advanced Menu Management with Extended Simple CMS" ref_aWT2i7z1 %} (published Sep 15, 2015; based on X-Cart 5.2.4) 
+*   {% link "Basic Design Changes in X Cart 5.3" ref_KpqQsVGf %} (published Oct 04, 2017; based on X-Cart 5.3.3.4) 
+*   [Specifying Your Company Info, Changing the Text on the Add to Cart Button and Editing the Contact Us Page in X-Cart 5](http://devs.x-cart.com/en/webinars_and_video_tutorials/specifying_your_company_info__changing_the_text_on_the_add_to_cart_button_and_editing_the_contact_us_page_in_x-cart_5.html) (published May 22, 2015; based on X-Cart 5.2.4) 
+*   [Basic Front End Changes in X-Cart 5.2 - Theme, Logo, Favicon, Home Page Banner](http://devs.x-cart.com/en/webinars_and_video_tutorials/basic_front-end_changes_in_x-cart_5.2_-_theme__logo__favicon__home_page_banner.html) (published Apr 21, 2015; based on X-Cart 5.2.3) 
 
 ## Popular modules
 
