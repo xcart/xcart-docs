@@ -1,14 +1,15 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2016-08-31 00:00'
 title: Custom features with Twig template engine
 identifier: ref_twigguide
-updated_at: 2016-08-31 00:00
-layout: article_with_sidebar
-lang: en
 version: X-Cart 5.3.0 and later
 order: 55
 categories:
-- Developer docs
-- Demo module
+  - Developer docs
+  - Demo module
+published: true
 ---
 
 ## Introduction
@@ -17,8 +18,6 @@ This article is a guide to custom extensions and features of the [Twig](http://t
 
 ## Table of Contents
 
-*   [Introduction](#introduction)
-*   [Table of Contents](#table-of-contents)
 *   [Migration from Flexy](#migration-from-flexy)
 *   [Overview](#overview)
     -   [widget()](#widget)
