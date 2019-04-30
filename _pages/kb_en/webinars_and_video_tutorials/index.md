@@ -47,9 +47,9 @@ In this section you will find links to video tutorials and webinar recordings fo
 
 ## Payment Methods and Order Management
 
-*   {% link "Configuring Payment Methods in X-Cart 5" ref_kJD5AyoM %}
-*   {% link "Connecting X-Payments 3.x with X-Cart 5" ref_ZM8ZDeD9 %}
-*   {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %}
+*   {% link "Configuring Payment Methods in X-Cart 5" ref_kJD5AyoM %} (published Apr 13, 2015; based on X-Cart 5.2.3)
+*   {% link "Connecting X-Payments 3.x with X-Cart 5" ref_ZM8ZDeD9 %} (published Sep 21, 2016; based on X-Payments 3.x with X-Cart 5.3.1.3)
+*   {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %} (published Nov 14, 2014; based on X-Payments 2.1 with X-Cart 5.1.8) 
 *   {% link "X-Cart 5 Advanced Order Management in action" ref_7hG6Mxrq %}
 *   {% link "X-Cart 5 and X-Payments - PCI Compliant Credit Card Processing and Storing" ref_DqRLwgcu %}
 *   {% link "Saving Credit Cards in X-Cart 5 Integrated with X-Payments 2.x" ref_Ev0rZhsL %}
