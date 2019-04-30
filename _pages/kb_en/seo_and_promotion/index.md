@@ -9,7 +9,7 @@ categories:
 order: 70
 icon: flag
 description: >-
-  Optimize your catalog for search engine and setup up special offers and
+  Optimize your catalog for search engines and set up special offers and
   promotions
 published: true
 ---
@@ -17,5 +17,3 @@ This section contains tutorials on SEO maintenance and analytics as well as guid
 
 * {% link "SEO and Analytics" ref_0XrpRRgO %}
 * {% link "Business Promotion" ref_3S9KvLey %}
-
-
