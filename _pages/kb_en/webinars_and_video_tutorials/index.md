@@ -33,17 +33,17 @@ In this section you will find links to video tutorials and webinar recordings fo
 *   {% link "Import and Export of Categories: Tutorial by Mike White" ref_VXdfNsVw %} (published Aug 13, 2014; based on X-Cart 5.1.4)
 *   {% link "Product Classes and Attributes in X-Cart 5.3" ref_TFScbVdf %} (published Nov 10, 2017; based on X-Cart 5.3.3.4)
 *   {% link "Attributes and Product Filters in X-Cart 5.1" ref_tkXafgoK %} (published Jan 06, 2015; based on X-Cart 5.1.9)
-*   {% link "Product Variants in X-Cart 5" ref_PCmycghn %} (First video published Jan 22, 2018; based on X-Cart 5.3.4.4. Second video published Jan 06, 2015; based on X-Cart 5.1.9)
-*   {% link "Configuring Volume Discounts and Coupons in X-Cart 5" ref_6xFWK5tC %}
+*   {% link "Product Variants in X-Cart 5" ref_PCmycghn %} (published Jan 22, 2018; based on X-Cart 5.3.4.4; also, earlier video available published Jan 06, 2015; based on X-Cart 5.1.9)
+*   {% link "Configuring Volume Discounts and Coupons in X-Cart 5" ref_6xFWK5tC %} (published Sep 17, 2015; based on X-Cart 5.1.9)
 
 ## Taxes
 
-*   {% link "Configuring Sales Tax in X-Cart 5" ref_GVD0wcyZ %}
-*   {% link "Setting up VAT with the Module "EU and UK VAT / GST"" ref_wcorpZyz %}
+*   {% link "Configuring Sales Tax in X-Cart 5" ref_GVD0wcyZ %} (published Mar 11, 2015; based on X-Cart 5.1.10)
+*   {% link "Setting up VAT with the Module "EU and UK VAT / GST"" ref_wcorpZyz %} (published Mar 11, 2015; based on X-Cart 5.2.1)
 
 ## Shipping
 
-*   {% link "Setting up Shipping Calculation in X-Cart 5" ref_CqSUSq61 %}
+*   {% link "Setting up Shipping Calculation in X-Cart 5" ref_CqSUSq61 %} (published Jan 27, 2015; based on X-Cart 5.1.9)
 
 ## Payment Methods and Order Management
 
