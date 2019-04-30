@@ -8,7 +8,7 @@ categories:
   - home
 order: 80
 icon: puzzle
-description: Discover the world of different building blocks for your shop
+description: Discover the world of extensions to enhance or extend the core functionality
 published: true
 ---
 Please find below a list of manuals for some popular X-Cart addons.
