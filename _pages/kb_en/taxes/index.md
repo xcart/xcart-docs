@@ -8,7 +8,7 @@ categories:
   - home
 order: 45
 icon: calculator
-description: Define the rules for correct charge of various tax types
+description: Configure tax collection rules
 published: true
 ---
 As a merchant, you might need to charge taxes on your sales, and then report and remit those taxes to your government. X-Cart allows to configure taxes both manually and automatically and charge your customers the tax but it doesn’t file or remit your taxes for you. You might need to register your business with your local or federal tax authority to handle your taxes. You should always check with a local tax authority or a tax accountant to make sure that you charge your customers the correct tax rates, and to make sure you file and remit the taxes correctly.
