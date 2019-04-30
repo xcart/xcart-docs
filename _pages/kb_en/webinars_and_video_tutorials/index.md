@@ -70,7 +70,7 @@ In this section you will find links to video tutorials and webinar recordings fo
 *   {% link "Booking Module (video)" ref_TquQiTqG %} (published Jul 17, 2015; based on X-Cart 5.2.5) 
 *   {% link "Infinite Scroll Module (video)" ref_XFOnM7r6 %} (published Jun 29, 2015; based on X-Cart 5.2.3) 
 *   {% link "Multi-vendor Module (videos)" ref_5C7PSWVy %} (published Nov 10, 2015; based on X-Cart 5.2.9) 
-*   {% link "eBay Integration Module (video)" ref_yLiuFJ66 %}
+*   {% link "eBay Integration Module (video)" ref_yLiuFJ66 %} (published Feb 09, 2015; based on X-Cart 5.1.10) 
 *   {% link "MailChimp Integration with Ecommerce-360 Support in an X-Cart 5 Store" ref_XO8v2bJX %}
 
 ## Webinars
