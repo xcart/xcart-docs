@@ -14,14 +14,12 @@ Templates are the part of X-Cart view layer. They define exactly how the content
 
 Templates in X-Cart are rendered with *built-in rendering engine*. Rendering engine allows to combine static HTML code with dynamic data, provided by View class. Also, the engine helps to automate code generation with the most basic conditional and loop operators. Data preprocessing should still be handled by the View class to separate two different concerns and allow a more maintainable software.
 
-Flexy template engine was used in X-Cart 5.0 - 5.2 versions. You can read more about it at the {% link "Flexy template engine guide" ref_VcuME8xW %}.
+Flexy template engine was used in X-Cart 5.0 - 5.2 versions. You can read more about it in {% link "Flexy template engine guide" ref_VcuME8xW %}.
 
-Starting with X-Cart 5.3, default rendering system is [Twig](http://twig.sensiolabs.org). It has been extended with some X-Cart specific features, which are described at {% link "Custom features with Twig template engine" ref_twigguide %} guide.
+Starting with X-Cart 5.3, default rendering system is [Twig](http://twig.sensiolabs.org). It has been extended with some X-Cart specific features, which are described in {% link "Custom features with Twig template engine" ref_twigguide %} guide.
 
 ## Table of contents
 
-*   [Introduction](#introduction)
-*   [Table of contents](#table-of-contents)
 *   [How to include template](#how-to-include-template)
 *   [Template locations](#template-locations)
 *   [View interfaces](#view-interface)
