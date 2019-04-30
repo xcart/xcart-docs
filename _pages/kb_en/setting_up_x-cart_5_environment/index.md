@@ -8,7 +8,7 @@ categories:
   - home
 order: 10
 icon: server
-description: Discover how to setup an environment for your X-Cart store
+description: Discover how to set up an environment for your X-Cart store
 published: true
 ---
 
