@@ -8,7 +8,7 @@ categories:
   - home
 order: 50
 icon: shipping
-description: Configure either carrier-calculated (online) or table-based shipping methods
+description: Learn about shipping calculation and configure shipping methods for your store
 published: true
 ---
 Once an order is paid, a merchant needs to deliever it to the end-user, that includes packaging and the rest of the order fulfillment. Choose whether to ship goods on your own or to rely on a shipping company that will deliver goods to customers on your behalf. Remember that logistics are a vital part of any e-commerce business’s operations. 
