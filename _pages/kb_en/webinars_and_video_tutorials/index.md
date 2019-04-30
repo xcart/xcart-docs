@@ -85,8 +85,8 @@ In this section you will find links to video tutorials and webinar recordings fo
 *   {% link "Webinar Recording: Increase Your In Store Conversions with Mobile Point of Sale" ref_WgvUfVEs %} (published on Oct 02, 2014)
 *   {% link "Common Fraud Techniques and How to Avoid Them: Joint Webinar of X-Cart and Kount" ref_d4I7MVKu %} (published on Aug 29, 2014)
 *   {% link "Joint Webinar with PayPal and X-Cart: Lower Credit Card Processing Fees" ref_h1T9xMRl %} (published on Jul 28, 2014)
-*   {% link "Recorded Webinar - Automate Your USPS Shipping" ref_sg50B20v %} (published on
-*   {% link "Webinar: What You Need to Know about Accepting Payments Online" ref_cen1642b %} (published on
-*   {% link "US Sales Tax Webinar with Avalara - July 23rd 2013" ref_yF8UPdBN %} (published on
-*   {% link "Webinar 'Online Security and X-Cart' Nov. 27 9am PST/12pm EST" ref_Hdkys8ir %} (published on
-*   {% link "Webinar '5 Common Questions about PCI Compliance' - September 5th 2012" ref_PahGlhQ3 %} (published on
+*   {% link "Recorded Webinar - Automate Your USPS Shipping" ref_sg50B20v %} (published on May 01, 2014)
+*   {% link "Webinar: What You Need to Know about Accepting Payments Online" ref_cen1642b %} (published on Oct 15, 2013)
+*   {% link "US Sales Tax Webinar with Avalara - July 23rd 2013" ref_yF8UPdBN %} (published on Jul 23, 2013)
+*   {% link "Webinar 'Online Security and X-Cart' Nov. 27 9am PST/12pm EST" ref_Hdkys8ir %} (published on Nov 27, 2012)
+*   {% link "Webinar '5 Common Questions about PCI Compliance' - September 5th 2012" ref_PahGlhQ3 %} (published on Sep 05, 2012)
