@@ -8,7 +8,7 @@ categories:
   - home
 order: 70
 icon: paint brush
-description: 'Control your store''s layout, color and content'
+description: 'Control your store''s color scheme, layout and content'
 published: true
 ---
 They said "Good clothes open all doors" hence choosing a store theme is a serious task for an ecommerce business owner. A theme should not only be attractive but also appropriate and meet particular business needs. So don't hurry up and take your time to make a right decision.
