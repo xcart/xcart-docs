@@ -11,12 +11,6 @@ order: 120
 ---
 When you decide what to charge your customers for shipping, the best approach is to use shipping rates based on what shipping actually costs your business. The most accurate estimation of shipping costs can be provided by using {% link "carrier-calculated shipping rates" ref_ybdiN8r0 %}, or, as an alternative, you may decide you want to configure your own custom rate table. 
 
-{% note info %}
-For unregistered customers shipping rates are displayed at checkout in the very same order they are set in the admin area (first comes the first active shipping method from the shipping settings page (**Store setup** -> **Shiping**)). 
-
-For registered customers the first shipping method displayed at checkout will be the one they used for the previous order. The rest of the shipping methods will come in the order of active shipping methods defined in the admin area.
-{% endnote %}
-
 In X-Cart, a custom table can be configured to provide rates for:
 
 *   subtotal ranges (The shipping cost will depend on the order subtotal amount);
@@ -111,3 +105,5 @@ To configure a shipping method with the custom table based rates, follow the ste
 8.  Make sure that all the products that will be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
 
 That is all. Now the shipping rates for orders shipped using this method will be calculated based on the table of the custom rates you created.
+
+If necessary, the above described method can also be used to set up free shipping for certain types of orders. More information on setting up free shipping with custom table rates can be found in the section {% link "Free Shipping on Orders That Meet Certain Conditions" ref_T9GhEfev %} of this manual.
