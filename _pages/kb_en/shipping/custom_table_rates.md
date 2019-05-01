@@ -106,4 +106,11 @@ To configure a shipping method with the custom table based rates, follow the ste
 
 That is all. Now the shipping rates for orders shipped using this method will be calculated based on the table of the custom rates you created.
 
-If necessary, the above described method can also be used to set up free shipping for certain types of orders. More information on setting up free shipping with custom table rates can be found in the section {% link "Free Shipping on Orders That Meet Certain Conditions" ref_T9GhEfev %} of this manual.
+If necessary, the above described method can be used to set up free shipping for certain types of orders. More information on setting up free shipping with custom table rates can be found in the section {% link "Free Shipping on Orders That Meet Certain Conditions" ref_T9GhEfev %} of this manual.
+
+
+_Related pages:_
+
+* {% link "Shipping" ref_7tvT7GEK  %}
+* {% link "Free Shipping on Orders That Meet Certain Conditions" ref_T9GhEfev %}
+* {% link "Shipping Freight" ref_kioKBJIM %}
