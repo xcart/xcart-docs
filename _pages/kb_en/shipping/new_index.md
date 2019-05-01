@@ -19,12 +19,19 @@ Some key decisions will have to be made regarding your pricing strategy for ship
 
 ## Offer Free Shipping
 *   {% link "Free Shipping" ref_BCq5l4MP %}
-## Charge Real-Time Carrier Rates
-*   {% link "Carrier-calculated Shipping Rates" ref_ybdiN8r0 %}
-*   {% link "Custom Table Rates" ref_3TG6AuN0 %}
-## Charge a Flat Rate
 
-X-Cart is integrated with the real-time shipping carriers and supports custom shipping rates as well that you can set up and control yourself. Moreover you can combine both ways for more profit if necessary. Below you will find a guide on the basic shipping configuration and setup as well as some use cases that may be helpful to understand the overall shipping opportunities.
+## Charge Actual Carrier Rates
+If you ship products using a third-party postal or delivery service, you can charge your customers the exact rates you pay to ship their order. X-Cart is integrated with a number of real-time shipping carriers - like UPS, USPS, FedEx, Royal Mail or Canada Post - which can calculate the shipping rates in real time based on the order weight, parcel dimensions, and delivery address. The available shipping options and live pricing provided by such carriers are shown at checkout so your customers can choose and pay for the exact service they want.
+
+If you are a small company that does its own delivery, or if your shipping carrier is not integrated with X-Cart to provide real-time shipping rate estimation, you may want to consider providing your own custom rate table with shipping rates based on the order weight, subtotal, number of items in the order, or any combination thereof.
+
+You can even combine the two approaches, if required, by providing a shipping method with real-time calculated rates and a shipping method with table-based non real-time rates at the same time. 
+
+For more information, see:
+   *   {% link "Carrier-calculated Shipping Rates" ref_ybdiN8r0 %}
+   *   {% link "Custom Table Rates" ref_3TG6AuN0 %}
+   
+## Charge a Flat Rate
 
 Note that your strategy might change as your business grows. It is never a bad idea to reevaluate your original decisions to ensure that you are delivering the absolute best possible service and experience for the best possible price to your customers. X-Cart offers flexible shipping settings, so should you decide to change your shipping strategy, you will be able to adjust your store's shipping configuration at any time to meet your business needs.
 
