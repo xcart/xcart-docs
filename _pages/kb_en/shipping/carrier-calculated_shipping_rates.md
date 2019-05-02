@@ -13,15 +13,16 @@ Some carrier companies provide web services that allow shopping carts to access 
 
 X-Cart 5 provides integrations with a few of the most popular real-time shipping rate calculation services, including:
 
-*   FedEx;
-*   U.S.P.S.
-*   UPS
-*   Canada Post
-*   AustraliaPost;
-*   DHL;
-*   Pitney Bowes;
-*   EMS;
-*   ShippingCalc.
+*   [FedEx](https://market.x-cart.com/addons/fedex.html);
+*   [U.S.P.S.](https://market.x-cart.com/addons/usps.html);
+*   [UPS](https://market.x-cart.com/addons/ups.html);
+*   [Canada Post](https://market.x-cart.com/addons/canadapost.html);
+*   [AustraliaPost](https://market.x-cart.com/addons/australia-post.html);
+*   [DHL](https://market.x-cart.com/addons/DHL-shipping.html);
+*   [Royal Mail Service](https://market.x-cart.com/addons/royal-mail-service.html);
+*   [EMS Russian Post](https://market.x-cart.com/addons/ems-russian-post.html);
+*   [Bongo International](https://market.x-cart.com/addons/bongo-international.html);
+*   [ShippingEasy](https://market.x-cart.com/addons/shippingeasy-shipping-automation.html).
 
 During checkout, after a customer has submitted the shipping address, X-Cart sends the order information to the API of the carrier (for example, FedEx). The carrier then uses the information submitted by X-Cart  - including the information about the origin and destination addresses, the weight of the products in the order and, if specified, the expected parcel dimensions (length, width, height) - to calculate the shipping rates. The customer is then provided with information about the shipping options and rates applicable to the order.
 
