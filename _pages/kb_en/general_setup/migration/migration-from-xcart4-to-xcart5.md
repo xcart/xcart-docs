@@ -422,7 +422,7 @@ The stages above will be completed in any migration process, regardless of wheth
 
 {% note info %}
 Migration Wizard does not do the resizing of images due to the fact that you may want to install another template with different image sizes, so this process will be run just in vain. Once you decide what template to use, do the resizing using the **Generate resized images** button in the **Look & Feel** > **Images** section.
-   {% endnote %}
+{% endnote %}
 
 ### Step 7 - Complete
    
