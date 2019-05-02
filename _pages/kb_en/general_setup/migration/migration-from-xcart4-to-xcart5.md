@@ -392,7 +392,7 @@ You need to make sure that your X-Cart 5 is using the same currency as X-Cart 4.
 {% note info %}
 If you want to migrate X-Cart 4 orders starting from particular date, it is possible to specify that date using the **Migrate orders from date** field:
 ![mw_11.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_11.png)
-{% endnote %
+{% endnote %}
 
 {% note info %}   
 It is possible to skip X-Cart 4's data that has already been migrated previously by ticking on the **Skip previously migrated data** option:
