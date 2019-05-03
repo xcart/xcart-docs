@@ -22,6 +22,8 @@ X-Cart 5 provides integrations with a few of the most popular real-time shipping
 *   [Royal Mail Service](https://market.x-cart.com/addons/royal-mail-service.html);
 *   [EMS Russian Post](https://market.x-cart.com/addons/ems-russian-post.html);
 *   [Bongo International](https://market.x-cart.com/addons/bongo-international.html);
+*   [Pilibaba Chinese Checkout](https://market.x-cart.com/addons/pilibaba.html);
+*   [ShipStation](https://market.x-cart.com/addons/ShipStation-app-for-xcart.html);
 *   [ShippingEasy](https://market.x-cart.com/addons/shippingeasy-shipping-automation.html).
 
 During checkout, after a customer has submitted the shipping address, X-Cart sends the order information to the API of the carrier (for example, FedEx). The carrier then uses the information submitted by X-Cart  - including the information about the origin and destination addresses, the weight of the products in the order and, if specified, the expected parcel dimensions (length, width, height) - to calculate the shipping rates. The customer is then provided with information about the shipping options and rates applicable to the order.
