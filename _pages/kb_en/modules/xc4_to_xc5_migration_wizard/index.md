@@ -7,7 +7,7 @@ order: 360
 published: true
 identifier: ref_enOvcLbO
 ---
-The **X-Cart v4 to v5 Data Migration Wizard** addon migrates data from X-Cart 4 based store to X#8209;Cart&nbsp;5. 
+The **X-Cart v4 to v5 Data Migration Wizard** addon migrates data from X-Cart 4 based store to X&#8209;Cart&nbsp;5. 
 
 It migrates almost all X-Cart 4 data to X-Cart 5.
 [The complete list of data being transferred.](https://kb.x-cart.com/general_setup/migration/migration-from-xcart4-to-xcart5.html#what-data-is-migrated "XC4 to XC5 Migration Wizard")
