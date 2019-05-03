@@ -22,7 +22,7 @@ Some key decisions will have to be made regarding your pricing strategy for ship
      
      For details, see:
      * {% link "Free Shipping" ref_BCq5l4MP %}
-
+     
    * **Charge Actual Carrier Rates**
      If you ship products using a third-party postal or delivery service, you can charge your customers the exact rates you pay to ship their order. X-Cart is integrated with a number of real-time shipping carriers - like UPS, USPS, FedEx, Royal Mail or Canada Post - which can calculate the shipping rates in real time based on the order weight, parcel dimensions, and delivery address. The available shipping options and live pricing provided by such carriers are shown at checkout so your customers can choose and pay for the exact service they want.
 
@@ -35,17 +35,20 @@ Some key decisions will have to be made regarding your pricing strategy for ship
      * {% link "Custom Table Rates" ref_3TG6AuN0 %}
    
    * **Charge a Flat Rate**
-
+     Another polular option is to charge buyers a fixed (flat) rate. X-Cart can be configured to use a flat rate per order or a flat rate per item.
+     
+     For more information, see:
      * {% link "Custom Table Rates" ref_3TG6AuN0 %}
+     * {% link "Shipping Freight" ref_kioKBJIM %}
+
+If, on top of regular shipping cost, you need to cover some additional expenses, like the cost of handling of a particularly heavy item, you can add a handling fee. For more information on this, see:
+     *   {% link "Handling Fee" ref_nFJTxPMR %}
 
 Note that your strategy might change as your business grows. It is never a bad idea to reevaluate your original decisions to ensure that you are delivering the absolute best possible service and experience for the best possible price to your customers. X-Cart offers flexible shipping settings, so should you decide to change your shipping strategy, you will be able to adjust your store's shipping configuration at any time to meet your business needs.
+
 
 _In this section:_
 
 
-*   {% link "Shipping Freight" ref_kioKBJIM %}
-*   {% link "Handling Fee" ref_nFJTxPMR %}
 *   {% link "Shipping Tax" ref_4nZM0iOX %}
 *   {% link "Shipping Labels " ref_7p59HzrS %}
-
-*   {% link "Shipping Setup for Downloadable Products" ref_z5KmbFAu %}
