@@ -5,7 +5,7 @@ updated_at: '2016-10-04 17:28 +0400'
 identifier: ref_KqsCJNRG
 title: XC4 to XC5 Migration Wizard System Requirements and Installation
 order: 100
-published: true
+published: false
 ---
 At the moment of the writing of this article, the addon "XC4 to XC5 Migration wizard" is recommended for use on X-Cart versions 5.3.0.x and later. It provides a tool for the migration of data and settings from X-Cart 4 based online stores (versions 4.1.0 or later) to the X-Cart 5 platform. For the most up-to-date information on the addon compatibility, please see the [addon page](https://market.x-cart.com/addons/migration-wizard.html).
 
