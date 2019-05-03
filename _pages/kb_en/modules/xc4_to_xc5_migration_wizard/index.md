@@ -7,15 +7,15 @@ order: 360
 published: true
 identifier: ref_enOvcLbO
 ---
+The **X-Cart v4 to v5 Data Migration Wizard** addon migrates data from X-Cart 4 based store to X-Cart 5. 
 
-The addon **XC4 to XC5 Migration wizard** provides an easy method for migrating your X-Cart 4 based store to X-Cart 5. It allows for the automated transfer of both the data and the settings, which gets your old store up and running on the new platform in as little as a few minutes. The wizard supports the migration of products, categories, users, memberships and orders - all you need to do is specify what exactly needs to be moved. It also moves your address zones, payment methods and shipping methods helping you to avoid the time-consuming store setup after you switch to X-Cart 5. Another important thing the wizard can do for you is to perform an overall check of the feature set provided by your new X-Cart 5 store matching it against the feature set of your X-Cart 4 store; if it finds any missing tools or integrations, it will provide you with a list of X-Cart 5 addons that can be enabled or purchased to replace them on the new platform. This way, after completing the transfer of your data and settings in a few easy wizard steps, the only things left for you to complete on the new store will be to adjust your store's look and feel, enable or install the missing addons and configure the settings that are not present in X-Cart 4.
+It migrates almost all X-Cart 4 data to X-Cart 5.
+[The complete list of data being transferred.](https://kb.x-cart.com/general_setup/migration/migration-from-xcart4-to-xcart5.html#what-data-is-migrated "XC4 to XC5 Migration Wizard")
 
-_In this section:_
+It also performs the overall check of feature set in your X-Cart 4 and suggests what modules must be enabled in X-Cart 5 in order to match the functionality.
 
-   *   {% link "How XC4 to XC5 Migration Wizard Works" ref_37NAeGlf %}
-   *   {% link "XC4 to XC5 Migration Wizard System Requirements and Installation" ref_KqsCJNRG %}
-   *   {% link "Using the Addon 'XC4 to XC5 Migration Wizard'" ref_Ah935naM %}
+This way, after data transfer, you only need to adjust your store's look and feel, install missing addons and configure the settings that are not present in X-Cart 4.
 
-_Related pages:_
-
-*   {% link "Migration from X-Cart 4 to X-Cart 5" ref_EntIT03c %}
+## Helpful links
+*  {% link "Migration Wizard's system requirements" ref_2h75KMlS#system-requirements %}
+*   {% link "How to perform the migration" ref_2h75KMlS#migration-process %}
