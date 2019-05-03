@@ -6,6 +6,8 @@ identifier: ref_37NAeGlf
 title: How XC4 to XC5 Migration Wizard Works
 order: 110
 published: true
+redirect_to: >-
+  https://kb.x-cart.com/general_setup/migration/migration-from-xcart4-to-xcart5.html#what-data-is-migrated
 ---
 ## Data types migratable by XC4 to XC5 Migration wizard
 
