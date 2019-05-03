@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-04-12 16:26 +0400'
 identifier: ref_2h75KMlS
-title: Migration from X-Cart 4 to X-Cart 5
+title: 'Migration from X-Cart 4 to X&#8209;Cart&nbsp;5'
 order: 20
 published: true
 redirect_from:
