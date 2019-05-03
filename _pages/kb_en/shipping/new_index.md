@@ -54,7 +54,7 @@ It is also a good idea to consider the question of **labelling** your packaged o
 
 Note that your strategy might change as your business grows. It is never a bad idea to reevaluate your original decisions to ensure that you are delivering the absolute best possible service and experience for the best possible price to your customers. X-Cart offers flexible shipping settings, so should you decide to change your shipping strategy, you will be able to adjust your store's shipping configuration at any time to meet your business needs.
 
-Do not forget about taxes. Tax regulations vary for different countries and states, so you will need to check with your local authorities whether you need to charge tax on shipping. If you do, you will need to configure your X-Cart store to charge tax on delivery costs. 
+Do not forget about taxes. Tax regulations vary for different countries and states, so you will need to check with your local authorities whether you need to charge **tax on shipping**. If you do, you will need to configure your X-Cart store to charge tax on delivery costs. 
 For more info on this, see:
      * {% link "Shipping Tax" ref_4nZM0iOX %}
 
