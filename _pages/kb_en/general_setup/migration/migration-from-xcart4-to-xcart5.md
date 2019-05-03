@@ -8,6 +8,12 @@ order: 20
 published: true
 redirect_from:
   - general_setup/migration/migration_from_x-cart_4_to_x-cart_5.html
+  - >-
+    modules/xc4_to_xc5_migration_wizard/how_xc4_to_xc5_migration_wizard_works.html
+  - >-
+    modules/xc4_to_xc5_migration_wizard/xc4_to_xc5_migration_wizard_system_requirements_and_installation.html
+  - >-
+    modules/xc4_to_xc5_migration_wizard/using_the_xc4_to_xc5_migration_wizard.html
 ---
 ## Introduction
 
