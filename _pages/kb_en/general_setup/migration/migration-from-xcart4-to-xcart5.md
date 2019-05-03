@@ -3,9 +3,11 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-04-12 16:26 +0400'
 identifier: ref_2h75KMlS
-title: ''
+title: Migration from X-Cart 4 to X-Cart 5
 order: 100
 published: true
+redirect_from:
+  - general_setup/migration/migration_from_x-cart_4_to_x-cart_5.html
 ---
 ## Introduction
 This article describes how you can upgrade your existing X-Cart 4 store to X-Cart 5.
