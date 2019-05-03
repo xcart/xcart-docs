@@ -17,28 +17,31 @@ Depending on your business scope and the distance between your warehouse and the
 
 Some key decisions will have to be made regarding your pricing strategy for shipping. Some popular options here are as follows:
 
-## Offer Free Shipping
-*   {% link "Free Shipping" ref_BCq5l4MP %}
+   * **Offer Free Shipping**
+     Free shipping is a feature appreciated by most shoppers. It not only helps reduct shopping cart abandonment, but also encourages your customers to spend more. You can offer free shipping on specific products, free shipping on all orders, or free shipping on orders that meet certain conditions (for example, "free shipping on oders over $50"). You can also give specific customers a free shipping coupon. 
+     
+     For details, see:
+     * {% link "Free Shipping" ref_BCq5l4MP %}
 
-## Charge Actual Carrier Rates
-If you ship products using a third-party postal or delivery service, you can charge your customers the exact rates you pay to ship their order. X-Cart is integrated with a number of real-time shipping carriers - like UPS, USPS, FedEx, Royal Mail or Canada Post - which can calculate the shipping rates in real time based on the order weight, parcel dimensions, and delivery address. The available shipping options and live pricing provided by such carriers are shown at checkout so your customers can choose and pay for the exact service they want.
+   * **Charge Actual Carrier Rates**
+     If you ship products using a third-party postal or delivery service, you can charge your customers the exact rates you pay to ship their order. X-Cart is integrated with a number of real-time shipping carriers - like UPS, USPS, FedEx, Royal Mail or Canada Post - which can calculate the shipping rates in real time based on the order weight, parcel dimensions, and delivery address. The available shipping options and live pricing provided by such carriers are shown at checkout so your customers can choose and pay for the exact service they want.
 
-If you are a small company that does its own delivery, or if your shipping carrier is not integrated with X-Cart to provide real-time shipping rate estimation, you may want to consider providing your own custom rate table with shipping rates based on the order weight, subtotal, number of items in the order, or any combination thereof.
+     If you are a small company that does its own delivery, or if your shipping carrier is not integrated with X-Cart to provide real-time shipping rate estimation, you may want to consider providing your own custom rate table with shipping rates based on the order weight, subtotal, number of items in the order, or any combination thereof.
 
-You can even combine the two approaches, if required, by providing a shipping method with real-time calculated rates and a shipping method with table-based non real-time rates at the same time. 
+     You can even combine the two approaches, if required, by providing some shipping methods with real-time calculated rates and shipping methods with table-based non real-time rates at the same time. 
 
-For more information, see:
-   *   {% link "Carrier-calculated Shipping Rates" ref_ybdiN8r0 %}
-   *   {% link "Custom Table Rates" ref_3TG6AuN0 %}
+     For more information, see:
+     * {% link "Carrier-calculated Shipping Rates" ref_ybdiN8r0 %}
+     * {% link "Custom Table Rates" ref_3TG6AuN0 %}
    
-## Charge a Flat Rate
+   * **Charge a Flat Rate**
+
+     * {% link "Custom Table Rates" ref_3TG6AuN0 %}
 
 Note that your strategy might change as your business grows. It is never a bad idea to reevaluate your original decisions to ensure that you are delivering the absolute best possible service and experience for the best possible price to your customers. X-Cart offers flexible shipping settings, so should you decide to change your shipping strategy, you will be able to adjust your store's shipping configuration at any time to meet your business needs.
 
 _In this section:_
 
-*   {% link "Carrier-calculated Shipping Rates" ref_ybdiN8r0 %}
-*   {% link "Custom Table Rates" ref_3TG6AuN0 %}
 
 *   {% link "Shipping Freight" ref_kioKBJIM %}
 *   {% link "Handling Fee" ref_nFJTxPMR %}
