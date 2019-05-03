@@ -157,7 +157,32 @@ That is it with the form widget. Now, we should add it to the page, so we edit t
 {{ widget('\\XLite\\Module\\XCExample\\FormDemo\\View\\Model\\FormDemo') }}
 ```
 
-If you open `admin.php?target=example_form_demo` page, you will see the form that can be submitted, but X-Cart does not handle such request at all.
+If you open `admin.php?target=example_form_demo` page, you will see the form that can be submitted, but X-Cart will not handle such request at all. The next step is to add a handler of such request.
+
+{% note info %}
+If you create a form in the customer area, you will not have Submit button beneath the fields.
+In order to add one, you need to add the following method to the form's class:
+
+```php
+    protected function getFormButtons()
+    {
+        $result = parent::getFormButtons();
+
+        $result['submit'] = new \XLite\View\Button\Submit(
+            [
+                \XLite\View\Button\AButton::PARAM_LABEL    => 'Submit',
+                \XLite\View\Button\AButton::PARAM_BTN_TYPE => 'btn  regular-main-button  submit',
+            ]
+        );
+
+        return $result;
+    }
+```
+
+Here are few details:
+- `\XLite\View\Button\AButton::PARAM_LABEL    => 'Submit',`. This piece of code defines the wording on the button. Put your own phrase instead of 'Submit', if you want to change it;
+- `\XLite\View\Button\AButton::PARAM_BTN_TYPE => 'btn  regular-main-button  submit',`. This piece of code defines CSS classes assigned to the button.
+{% endnote %}
 
 ## Adjusting controller
 
