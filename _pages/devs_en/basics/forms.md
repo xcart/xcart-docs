@@ -180,8 +180,8 @@ In order to add one, you need to add the following method to the form's class:
 ```
 
 Here are few details:
-- `\XLite\View\Button\AButton::PARAM_LABEL    => 'Submit',`. This piece of code defines the wording on the button. Put your own phrase instead of 'Submit', if you want to change it;
-- `\XLite\View\Button\AButton::PARAM_BTN_TYPE => 'btn  regular-main-button  submit',`. This piece of code defines CSS classes assigned to the button.
+- `\XLite\View\Button\AButton::PARAM_LABEL    => 'Submit'`. This piece of code defines the wording on the button. Put your own phrase instead of 'Submit', if you want to change it;
+- `\XLite\View\Button\AButton::PARAM_BTN_TYPE => 'btn  regular-main-button  submit'`. This piece of code defines CSS classes assigned to the button.
 {% endnote %}
 
 ## Adjusting controller
