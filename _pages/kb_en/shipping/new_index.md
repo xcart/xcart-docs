@@ -10,7 +10,7 @@ published: false
 Once an order has been paid for, you will need to deliver the ordered goods to the buyer. Unless those are products that do not require shipping (like {% link "digital goods" ref_lxNH6TFr %}, {% link "bookable products" ref_4IYL2Shf %} or {% link "PIN codes" ref_4JeE99n8 %}), you will have to arrange the packaging, pickup and delivery. 
 
 {% note info %}
-If you sell products that do not require shipping, see the section {% link "Shipping Setup for Products That Do Not Require Shipping" ref_z5KmbFAu %}.
+The topic of shipping configuration for products that do not require shipping is covered in the section {% link "Shipping Setup for Products That Do Not Require Shipping" ref_z5KmbFAu %}.
 {% endnote %}
 
 Depending on your business scope and the distance between your warehouse and the buyer's location, you will either have to deliver the goods to the buyer on your own or will have to use the services of a shipping company that will deliver the goods on your behalf. Considering all the costs associated with getting an order to the buyer - including the cost of packaging, shipping, tracking, insurance and customs/duties (if you cover them) - you may find shipping to be a major expense in your business. To keep things profitable, you will need to come up with an effective shipping strategy for your business. 
