@@ -6,7 +6,6 @@ identifier: ref_37NAeGlf
 title: How XC4 to XC5 Migration Wizard Works
 order: 110
 published: false
-redirect_to: 'ref_2h75KMlS#what-data-is-migrated'
 ---
 ## Data types migratable by XC4 to XC5 Migration wizard
 
