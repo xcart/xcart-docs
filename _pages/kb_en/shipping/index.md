@@ -65,7 +65,7 @@ Note that your strategy might change as your business grows. It is never a bad i
 Do not forget about taxes. Tax regulations vary for different countries and states, so you will need to check with your local authorities whether you need to charge **tax on shipping**. If you do, you will need to configure your X-Cart store to charge tax on delivery costs. 
 
    For more info on this, see:
-   * {% link "Shipping Tax" ref_4nZM0iOX %}
+   * {% link "Shipping Taxes" ref_7vViyKfY %}
      
      
 _In this section:_
