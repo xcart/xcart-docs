@@ -36,36 +36,29 @@ To configure a shipping method with the custom table based rates, follow the ste
     *   **Method name**: Enter a name for this shipping method. This name will be shown to buyers.
     *   **Delivery time**: Provide information about the estimated delivery time.
     *   **Table based on**:  Use this field to specify the parameter (or parameters) based on which the rates will be calculated. (You will configure a custom table of rates for this shipping method a bit later.)
-        *   _Subtotal_ - Choose this parameter if you want to set shipping rates based on a specific order subtotal 
+        *   _Subtotal_ - Choose this parameter if you want to set shipping rates based on a specific order subtotal (for example, $7 flat rate shipping for orders with a subtotal of up to $50 and free shipping for orders over that amount.)
             
-            e.g. $7 flat rate shipping for orders with a subtotal of up to $50 and free shipping for orders over that amount.
-        *   _Weight_ - Choose this parameter if you want to set shipping rates based on the weight of items in the order 
-            
-            e.g. £28.13 flat rate shipping for the orders with the overall weigh of up to 5 kg and £9.99 shipping per kg for the orders with the overall weigh of over 5 kg. If you use this type of rates, make sure that all your products that require shipping have a correct weight specified in the product details.
-        *   _Items_ - Choose this parameter if you want to set shipping rates based on the number of items in the order 
-            
-            e.g. $2.60 flat rate shipping if the number of items in the order is 5 or less, and $0.40 per item if the number of items in the order is 6 or more.
-        *   _Subtotal, weight, items_ - Choose this option to set shipping rates based on a combination of the above parameters
-            
-            e.g. $7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb, free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb, and $10 flat rate shipping for orders weighing over 10 lb. 
-            
-            Again, if you are going to define rates based on weight, be sure to specify correct weights for all your products.
+        *   _Weight_ - Choose this parameter if you want to set shipping rates based on the weight of items in the order (for example, £28.13 flat rate shipping for orders with the overall weigh of up to 5 kg and £9.99 shipping per kg for orders with the overall weigh of over 5 kg.) If you use this type of rates, make sure that all your products that require shipping have a correct weight specified in the product details.
+        
+        *   _Items_ - Choose this parameter if you want to set shipping rates based on the number of items in the order (for example, $2.60 flat rate shipping if the number of items in the order is 5 or less, and $0.40 per item if the number of items in the order is 6 or more.)
+        
+        *   _Subtotal, weight, items_ - Choose this option to set shipping rates based on a combination of the above parameters (for example, $7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb, free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb, and $10 flat rate shipping for orders weighing over 10 lb.) Again, if you are going to define rates based on weight, be sure to specify correct weights for all your products.
+        
     *   **Address zone**: Select the Address zone the shipping method will be available for. If you haven't configured the zone you require yet, use the _Manage zones_ link to access the **Zones** section and configure it.
 
 5.  Configure your custom shipping rates table for the defined shipping method. 
 
-    Use the form below the shipping general info to create a table of custom rates for the method you've just created. What you see here is, in fact, the first row of your table - with the default zero values. 
+    Use the form below the shipping general info to create a table of custom rates for the method you have just created. What you see here is, in fact, the first row of your table - with the default zero values. 
     ![]({{site.baseurl}}/attachments/9306242/9437471.png)
-    The set of fields that you see in this table may be different depending on the value of the "Table based on" setting specified above. 
     
-    e.g. if you choose to base your table on "_Subtotal, weight, items_", there will be more fields; for the lack of space, they will be displayed in two rows one below the other (as shown in the screen below):
+    The set of fields that you see in this table may be different depending on the value of the "Table based on" setting specified above. (For example, if you choose to base your table on "_Subtotal, weight, items_", there will be more fields; for the lack of space, they will be displayed in two rows one below the other, as shown in the screen below):
     ![]({{site.baseurl}}/attachments/9306242/9437472.png)
     
     But in any case you should remember that all these fields pertain to the first row of your custom rates table, and all of them are intended for your first shipping rate.
     To create a shipping rate, you will need to adjust the values in the fields of this table so that they form a rule according to which the shipping rate will be calculated. 
     If necessary, you can add more table rows for more rates. In the end, be sure to save your changes.
 
-    Let's configure a custom rates table that will allow us to offer our customers:
+    Let us configure a custom rates table that will allow us to offer our customers:
     
     *   $7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb;
     *   free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb;
@@ -79,7 +72,7 @@ To configure a shipping method with the custom table based rates, follow the ste
     *   Weight range: 0 - 10 lb 
     *   flat rate: $7
     
-    Once we're done with the first rate, let's add two more rows for the rates "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb" and "$10 flat rate shipping for orders weighing over 10 lb" . To add a new row, we will use the [+] button:
+    Once we are done with the first rate, let's add two more rows for the rates "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb" and "$10 flat rate shipping for orders weighing over 10 lb" . To add a new row, we will use the [+] button:
     
     ![]({{site.baseurl}}/attachments/9306242/9437474.png)
     
