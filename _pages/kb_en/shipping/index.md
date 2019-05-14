@@ -50,13 +50,15 @@ Some key decisions will have to be made regarding your pricing strategy for ship
    * **Enable Local Pickup**
       If you wish to enable your local customers to pick up the order themselves, you can do so by enabling the Local pickup shipping method.
 
-If, on top of regular shipping cost, you need to cover some additional expenses, like the cost of handling of a particularly heavy item, you can add a **handling fee**. For more information on this, see:
-
-     * {% link "Handling Fee" ref_nFJTxPMR %}
+If, on top of regular shipping cost, you need to cover some additional expenses, like the cost of handling of a particularly heavy item, you can add a **handling fee**. 
+   
+   For more information on this, see:
+   * {% link "Handling Fee" ref_nFJTxPMR %}
 
 It is also a good idea to consider the question of **labelling** your packaged orderes.
-
-     * {% link "Shipping Labels " ref_7p59HzrS %}     
+   
+   See:
+   * {% link "Shipping Labels " ref_7p59HzrS %}     
 
 Note that your strategy might change as your business grows. It is never a bad idea to reevaluate your original decisions to ensure that you are delivering the absolute best possible service and experience for the best possible price to your customers. X-Cart offers flexible shipping settings, so should you decide to change your shipping strategy, you will be able to adjust your store's shipping configuration at any time to meet your business needs.
 
