@@ -13,7 +13,7 @@ Some states consider shipping charges to be a necessary part of a taxable eComme
 
 To configure a shipping tax:
 
-1. Locate the **Click here to specify tax rates that will apply only to shipping charges** link on the Sales tax configuration page (**Store setup** > **Taxes**) and click on it to specify tax rates that will apply only to shipping charges:
+1. Locate the link **Click here to specify tax rates that will apply only to shipping charges** on the Sales tax configuration page (**Store setup** > **Taxes**) and click on it to specify tax rates that will apply only to shipping charges:
    ![shipping-tax.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/shipping-tax.png)
 
 2. Click the the **New Rate** button
