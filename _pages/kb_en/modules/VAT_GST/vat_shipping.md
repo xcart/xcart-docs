@@ -28,17 +28,13 @@ PREREQUISITES:
 Make sure the VAT/GST addon {% link "is installed and configured" ref_Rzp45QlN %} and the VAT rates are {% link "set" ref_1uXE2bZt %}.
 {% endnote %}
 
-1. Configure your delivery options as described in the {% link "Shipping" ref_7tvT7GEK %} section of this manual.
+1. Configure your delivery options via **Store setup** > **Shipping**.
 
-2. Once the shipping methods have been configured, add a special shipping tax class to them:
-   * Locate the **Tax class** column on the Shipping methods settings page (**Store setup** -> **Shipping**):
-     ![vat-shipping-tax-classes.png]({{site.baseurl}}/attachments/ref_168jPT7A/vat-shipping-tax-classes.png)
+2. Specify the tax classes that should be used for them:
+   On the Shipping methods settings page, locate the **Tax class** column:
+   ![vat-shipping-tax-classes.png]({{site.baseurl}}/attachments/ref_168jPT7A/vat-shipping-tax-classes.png)
 
-   * Click on the tax class name opposite the shipping method name to change the settings:
-     {% note info %}
-     The options you will see in the **Tax class** dropdown on the shipping settings page will vary depending on what {% link "tax classes" ref_pAWOdG8N %} have been configured in your store. 
-     You can choose any tax class with the configured VAT rate and apply it to shipping.
-     {% endnote %}
+   To change the tax class for a specific shipping option, click on the tax class name displayed opposite the name of the respective shipping method. This will reveal a dropdown box allowing you to change the tax class. The options available for selection from the **Tax class** dropdown on the shipping settings page will vary depending on what {% link "tax classes" ref_pAWOdG8N %} have been configured in your store. You can choose any tax class with the configured VAT rate and apply it to shipping.
        
      * **Zero VAT rate** : Choose this tax class if you do not need to charge VAT on delivery costs.
      * **Items Max VAT rate** (default value) : Choose this tax class if you need to charge VAT on delivery costs. The VAT rate added to the delivery costs will equal the maximum VAT rate set on the products being added to the shopping cart. 
