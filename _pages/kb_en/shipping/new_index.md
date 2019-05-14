@@ -52,7 +52,7 @@ If, on top of regular shipping cost, you need to cover some additional expenses
 
 It is also a good idea to consider the question of **labelling** your packaged orderes. 
 
-   * {% link "Shipping Labels " ref_7p59HzrS %}     
+   * {% link "Shipping Labels" ref_7p59HzrS %}     
 
 Note that your strategy might change as your business grows. It is never a bad idea to reevaluate your original decisions to ensure that you are delivering the absolute best possible service and experience for the best possible price to your customers. X-Cart offers flexible shipping settings, so should you decide to change your shipping strategy, you will be able to adjust your store's shipping configuration at any time to meet your business needs.
 
