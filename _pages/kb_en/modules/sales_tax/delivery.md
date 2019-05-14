@@ -27,8 +27,8 @@ To configure a shipping tax:
 
 5. Click **Save changes** to make the settings active.
       
-If you have {% link "Tax Classes" ref_pAWOdG8N %} defined, the shipping tax set up will look as follows:
+If you have {% link "Tax Classes" ref_pAWOdG8N %} defined, you will also be able to specify the tax classes to which the rates should apply:
 
 ![tax-class.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/tax-class.png)
 
-So you'll also need to define a tax class applicable to the shipping tax you are setting.
+
