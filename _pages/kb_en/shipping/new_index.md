@@ -13,9 +13,9 @@ Once an order has been paid for, you will need to deliver the ordered goods to t
 The topic of shipping configuration for products that do not require shipping is covered in the section {% link "Shipping Setup for Products That Do Not Require Shipping" ref_z5KmbFAu %}.
 {% endnote %}
 
-Depending on your business scope and the distance between your warehouse and the buyer's location, you will either have to deliver the goods to the buyer on your own or will have to use the services of a shipping company that will deliver the goods on your behalf. Considering all the costs associated with getting an order to the buyer - including the cost of packaging, shipping, tracking, insurance and customs/duties (if you cover them) - you may find shipping to be a major expense in your business. To keep things profitable, you will need to come up with an effective shipping strategy for your business. 
+Depending on your business scope and the distance between your warehouse and the buyer's location, you will either have to deliver the goods to the buyer on your own or will have to use the services of a shipping company that will deliver the goods on your behalf. Considering all the costs associated with getting an order to the buyer - including the cost of packaging, shipping, tracking, insurance and customs/duties (if you cover them) - you may find shipping to be a major expense in your business. To keep things profitable, you will need to come up with an effective shipping strategy. 
 
-First of all, it is a good idea to know the weight and size of every product you sell. This will give you an idea of what shipping methods and what type of packaging will have to be used for them as well as give you a good sense of your total costs. You will be able to specify product dimensions for every product in your X-Cart store catalog for accurate shipping cost estimation. For products that need to be shipped separately from others, you will be able to set this option and specify the package dimensions required. 
+First of all, it is a good idea to know the weight and size of every product you sell. This will give you an idea of what shipping methods and what type of packaging will have to be used for them as well as give you a good sense of your total costs. You will be able to specify the weight and dimensions for every product in your X-Cart store catalog for accurate shipping cost estimation. For products that need to be shipped separately from others, you will be able to set this option and specify the package dimensions required. 
 
 Some key decisions will have to be made regarding your pricing strategy for shipping. Some popular options here are as follows:
      
@@ -57,8 +57,3 @@ Note that your strategy might change as your business grows. It is never a bad i
 Do not forget about taxes. Tax regulations vary for different countries and states, so you will need to check with your local authorities whether you need to charge **tax on shipping**. If you do, you will need to configure your X-Cart store to charge tax on delivery costs. 
 For more info on this, see:
      * {% link "Shipping Tax" ref_4nZM0iOX %}
-
-
-
-
-
