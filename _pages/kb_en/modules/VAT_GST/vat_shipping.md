@@ -30,8 +30,9 @@ Make sure the VAT/GST addon {% link "is installed and configured" ref_Rzp45QlN %
 
 1. Configure your delivery options via **Store setup** > **Shipping**.
 
-2. Specify the tax classes that should be used for them:
-   On the Shipping methods settings page, locate the **Tax class** column:
+2. Specify the tax classes that should be used for them.
+
+   In the list of shipping methods, locate the **Tax class** column:
    ![vat-shipping-tax-classes.png]({{site.baseurl}}/attachments/ref_168jPT7A/vat-shipping-tax-classes.png)
 
    To change the tax class for a specific shipping option, click on the tax class name displayed opposite the name of the respective shipping method. This will reveal a dropdown box allowing you to change the tax class. The options available for selection from the **Tax class** dropdown on the shipping settings page will vary depending on what {% link "tax classes" ref_pAWOdG8N %} have been configured in your store. You can choose any tax class with the configured VAT rate and apply it to shipping.
