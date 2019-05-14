@@ -19,7 +19,7 @@ To configure a shipping tax:
 2. Click the the **New Rate** button
    ![new-rate.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/new-rate.png)
       
-3. Define a zone the tax will be applied to:
+3. Specify the zone to which the tax rate should be applied:
     ![zone]({{site.baseurl}}/attachments/ref_4nZM0iOX/zone.png)
 
 4. Set a tax rate in %:
