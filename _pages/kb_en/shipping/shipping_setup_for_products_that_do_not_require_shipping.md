@@ -7,7 +7,7 @@ title: Shipping Setup for Products That Do Not Require Shipping
 categories:
   - User manual
 published: true
-order: 200
+order: 300
 redirect_from:
   - /shipping/shipping_setup_for_downloadable_products.html
 ---
