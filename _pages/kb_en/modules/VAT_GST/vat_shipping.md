@@ -11,7 +11,7 @@ As shipping may be treated as part of the service you are providing, VAT/GST tax
 
 The addon "VAT/GST" enables you to assign special tax classes to the shipping methods used in the store so VAT is added to the cost of delivery. By default, all delivery costs are VAT-exclusive.
 
-There are two defaut shipping tax classes that can be used to add VAT to shipping rates - **Zero VAT rate** and **Items Max VAT rate**. The difference between these two tax classes is that the tax class **Zero VAT rate** does not add VAT to delivery costs whereas the class **Items Max VAT rate** does. The VAT rate added to the delivery costs by the tax class **Items Max VAT rate** equals the maximum VAT rate that is applied to the products in the shopping cart. 
+There are two default shipping tax classes that can be used to add VAT to delivery costs - **Zero VAT rate** and **Items Max VAT rate**. The difference between these two tax classes is that the tax class **Zero VAT rate** does not add VAT to delivery costs whereas the class **Items Max VAT rate** does. The VAT rate added to the delivery costs by the tax class **Items Max VAT rate** equals the maximum VAT rate that is applied to the products in the shopping cart. 
 
 For example, there are 2 products in the cart:
    * Product 1 at the cost of £100 (VAT 20% included, i.e. price £83.33 + VAT £16,67); 
