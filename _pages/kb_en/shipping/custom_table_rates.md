@@ -18,6 +18,8 @@ In X-Cart, a custom table can be configured to provide rates for:
 *   item ranges (The shipping cost will depend on the number of items in the order);
 *   any combination of subtotal, weight and item ranges (The shipping cost will depend on more than one parameter).
 
+**Important**: A custom table is a good way to configure flat rate shipping and free shipping. Read on to see some  examples.
+
 To configure a shipping method with the custom table based rates, follow the steps below:
 
 1.  In your store's Admin area, go to the Shipping methods section (**Store setup** -> **Shipping**):
@@ -60,13 +62,13 @@ To configure a shipping method with the custom table based rates, follow the ste
     ![]({{site.baseurl}}/attachments/9306242/9437472.png)
     
     But in any case you should remember that all these fields pertain to the first row of your custom rates table, and all of them are intended for your first shipping rate.
-    To create a shipping rate, you will need to adjust the values in the fields of this table so that they form a rule according to which the shipping rate is calculated. 
-    If necessary, you can to add more table rows for more rates. In the end, be sure to save your changes.
+    To create a shipping rate, you will need to adjust the values in the fields of this table so that they form a rule according to which the shipping rate will be calculated. 
+    If necessary, you can add more table rows for more rates. In the end, be sure to save your changes.
 
-    Let's configure a following custom rates table as a sample that will allow us to offer our customers:
+    Let's configure a custom rates table that will allow us to offer our customers:
     
-    *   $7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb, 
-    *   free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb,
+    *   $7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb;
+    *   free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb;
     *   $10 flat rate shipping for orders weighing over 10 lb.
 
     Our first rate needs to be "$7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb". To get this rate, we need to configure the first row in the table as follows:
@@ -77,15 +79,16 @@ To configure a shipping method with the custom table based rates, follow the ste
     *   Weight range: 0 - 10 lb 
     *   flat rate: $7
     
-    Once we're done with the first rate, let's add two more rows for the rates "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb" and "$10 flat rate shipping for orders weighing over 10 lb" . To add a new row, we'll use the [+] button:
+    Once we're done with the first rate, let's add two more rows for the rates "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb" and "$10 flat rate shipping for orders weighing over 10 lb" . To add a new row, we will use the [+] button:
     
     ![]({{site.baseurl}}/attachments/9306242/9437474.png)
     
-    We'll configure the two new rows as follows:
+    We will configure the two new rows as follows:
     
     ![]({{site.baseurl}}/attachments/9306242/9437475.png)
     
     "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb":
+   
     *   Subtotal range: $50 - $  ∞
     *   Weight range: 0 - 10 lb
     *   flat rate: $0
@@ -106,7 +109,7 @@ To configure a shipping method with the custom table based rates, follow the ste
 
 That is all. Now the shipping rates for orders shipped using this method will be calculated based on the table of the custom rates you created.
 
-If necessary, the above described method can be used to set up free shipping for certain types of orders. More information on setting up free shipping with custom table rates can be found in the section {% link "Free Shipping on Orders That Meet Certain Conditions" ref_T9GhEfev %} of this manual.
+More information on setting up free shipping with custom table rates can be found in the section {% link "Free Shipping on Orders That Meet Certain Conditions" ref_T9GhEfev %} of this manual.
 
 
 _Related pages:_
