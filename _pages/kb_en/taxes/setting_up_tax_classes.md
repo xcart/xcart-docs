@@ -9,6 +9,9 @@ categories:
   - User manual
 published: true
 ---
+{% toc %}
+
+## Product Tax Classes
 According to your country's laws, you may need to charge different taxes for different types of products. For instance, you may need to calculate sales tax differently for alcohol and non-alcohol products.
 
 Using the **tax class** functionality in X-Cart 5 you can organize your products into groups according to what sales tax rate calculation rules need to be used for them.
@@ -17,7 +20,8 @@ For example, if you have a food store selling both alcohol and non-alcohol prod
 
 In X-Cart 5, every product needs to have a tax class assigned to it. By default, new products are created with the **Default tax class** assigned. If you expect all of your store's products to use the same tax rates, you do not need to create any additional tax classes - just use the **Default tax class** for all rates. However, if you are going to have different tax rates for different types of products - like in the example with alcohol and non-alcohol products - then you will need additional tax classes.
 
-{% toc %}
+## Tax Classes for Shipping
+The tax classes feature can be used for shipping as well. Tax classes intended for shipping do not have to be assigned to products. Typically you just create a tax class, set appropriate tax rates for it and assign the tax class to a shipping method via the **Shipping methods** section. 
 
 ## Creating Tax Classes
 
@@ -37,13 +41,34 @@ To create a new tax class:
 That's all, the tax class has been created:
     ![tax-class-created.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/tax-class-created.png)
 
-Now you can assign it to products and configure tax rates for it. 
+Now you can configure tax rates for it. 
+
+## Configuring Rates for Tax Classes
+
+To configure a tax rate specifying a tax class:
+
+1. Go to the **Taxes** section (**Store setup** -> **Taxes**) of your X-Cart Admin area and, depending on the tax system you are using, open the appropriate tax configuration tab (**Sales tax** or **VAT/GST**).
+
+2. Click the **New rate** button. 
+   ![new-rate.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate.png)
+
+3. Provide the tax rate information you require. To set up a tax rate that will be used for products (or for both products and shipping), use the section _General tax rates_. To set up a tax rate that will be used exclusively for shipping, use the section _Tax rates on shipping cost_. 
+   ![new-rate-1.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate-1.png)
+
+   * **Zone** : Select the address zone to which the tax rate should apply.
+   * **Tax class** : Select the tax class to which the tax rate should apply.
+   * **Rate** : Specify the tax rate (in %).
+   
+3. Click **Save changes**.
+   ![tax-class-1.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/tax-class-1.png)
+
+That's it. Now you can assign the created tax rate to a product or to a shipping method by assigning the tax class with this rate to them.
 
 ## Assigning Tax Classes to Products
 
-Once you have created the tax classes you require, be sure to assign them to products.
+Once a tax class has been created, it can be assigned to products.
 
-To assign a tax class to a product follow instructions below:
+To assign a tax class to a product:
 
 1.  Choose a product you need to assign a tax class to in the **Catalog** -> **Products** section of your X-Cart admin and open this product's details page for editing.
 
@@ -58,25 +83,22 @@ Once the tax class has been assigned to a product, this product will use the tax
 If you need to assign a tax class to more than one product at a time use the ["Products Bulk Edit"](https://kb.x-cart.com/products/bulk_edit.html#bulk-edit-price-and-membership "Setting up tax classes") feature.
 {% endnote %}
 
-## Configuring Rates for Tax Classes
+## Assigning Tax Classes to Shipping Methods
 
-To configure rates for tax classes:
+Once a tax class has been created, it can be assigned to shipping methods.
 
-1. Depending on the tax system you are using open either the **Sales tax** or the **VAT/GST** tab in the **Taxes** section (**Store setup** -> **Taxes**) of your X-Cart admin area and click the **New rate** button in the _General tax rates_ section:
-   ![new-rate.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate.png)
+To assign a tax class to a shipping method:
 
-2. Fill in the fields in the new rate line that will appear:
-   ![new-rate-1.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate-1.png)
+1. In your store's Admin area, go to the Shipping methods section (**Store setup** > **Shipping**).
 
-   * **Zone** : Select the zone from a drop-down the tax is applicable to.
-   * **Tax class** : Select the tax class applicable.
-   * **Rate** : Set the tax rate in %.
+2. In the list of shipping methods, locate the column **Tax class**. 
+   ![shipping_tax_classes.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/shipping_tax_classes.png)
    
-3. Click **Save changes**.
+   This column shows the tax classes currently assigned to your store's shipping methods. Shipping methods for which no tax class has been assigned manually will be shown as assigned to the default tax class.
 
-That's it, a tax rate for a tax class is created.
+3. To change the tax class for a shipping method, click on the name of the tax class currently assigned to it.  This will reveal a drop-down box with a list of available tax classes. Select the tax class you require.
 
-![tax-class-1.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/tax-class-1.png)
+4. Save the changes.
 
 
 _Related pages:_
