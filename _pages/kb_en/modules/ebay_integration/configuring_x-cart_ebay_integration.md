@@ -92,13 +92,13 @@ Once you have created an eBay user token to connect your X-Cart store to your eB
 This will get the policies from your eBay account.
 
 To specify which business policies are going to be used for your listings, you will need to choose them from the drop-down selectors. You will need to set your:
-   *   **Return Policy**;
-   *   **Payment Policy**; 
-   *   **Shipping Policy**. 
+   * **Return Policy**;
+   * **Payment Policy**; 
+   * **Shipping Policy**. 
     
-    ![xc5_ebay_policy_selection.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_policy_selection.png)
+   ![xc5_ebay_policy_selection.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_policy_selection.png)
 
-    If you do not see the policy you require in any of the selectors, it may be due to the fact that the policy was added *after* the information on the policies had been pulled into your X-Cart store. To resolve the problem, click the **Refresh Business Policies** button. As a result, the policy name lists in the selectors will be updated, and you will be able to select the policy you require.
+   If you do not see the policy you require in any of the selectors, it may be due to the fact that the policy was added *after* the information on the policies had been pulled into your X-Cart store. To resolve the problem, click the **Refresh Business Policies** button. As a result, the policy name lists in the selectors will be updated, and you will be able to select the policy you require.
 
 4.  Use the **PayPal email address** field to enter your valid PayPal email address. eBay will use this address to identify the correct PayPal account when the buyer pays you via PayPal.
 
