@@ -26,10 +26,19 @@ To configure a shipping tax:
 
    * **Rate, (%)**: Specify the tax rate you require.
    ![rate.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/rate.png) 
-   
-   * **Tax class**: (This field is only available if you have {% link "tax classes" ref_pAWOdG8N %} defined.) If necessary, specify the tax class to which the tax rate should apply. 
+    
+4. Click **Save changes** to make the settings active.
+      
+If you need to use different tax rates depending on the shipping method, you can use the {% link "tax classes" ref_pAWOdG8N %} feature. This feature allows you to configure different tax classes for use with different tax rates and specify which tax rate should be used for which shipping method by assigning appropriate tax classes to shipping methods. 
+
+Provided that you have tax classes defined, the tax rate configuration form will also have the **Tax class** field: 
    ![tax-class.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/tax-class.png)  
 
-5. Click **Save changes** to make the settings active.
-      
+Use this field to specify the tax class to which the tax rate should apply. 
+
+After configuring the necessary tax rates for your shipping tax classes, go to the Shipping methods section (**Store setup** > **Shipping**) and assign the tax classes to your active shipping methods as you require.
+![shipping_tax_classes.png]({{site.baseurl}}/attachments/ref_0nYt3JKG/shipping_tax_classes.png)
+
+
+
 
