@@ -27,7 +27,7 @@ The tax classes feature can be used for shipping as well. Typically you create a
 
 To create a new tax class:
 
-1.  Open the **Tax classes** tab in the **Taxes** section (**Store setup** > **Taxes**) of your X-Cart admin area: 
+1.  Open the **Tax classes** tab in the **Taxes** section (**Store setup** > **Taxes**) of your X-Cart Admin area: 
     ![tax-class-new.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/tax-class-new.png)
 
 2.  Click the **New tax class** button. This adds a new blank field below. 
