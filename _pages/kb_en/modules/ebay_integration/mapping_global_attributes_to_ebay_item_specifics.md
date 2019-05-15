@@ -15,7 +15,9 @@ If you want to use the synchronization of your store's global attributes with eB
    * Synchronization based on the names of global attributes defined in your X-Cart store;
    * Synchronization based on the mapping rules defined in the eBay item specifics section of your X-Cart store.
    
-   The former of the two methods depends fully on the names of global attributes. To enable this type of synchronization, you need to enable the option “Use global attributes to synchronize eBay item specifics” in your eBay configuration general settings.
+   The former of the two methods depends fully on the names of global attributes: your store will match the names of global attributes in your store to the names of item specifics on eBay; the ones whose names are found to be a match will be synchronized. To enable this type of synchronization, you need to enable the option “Use global attributes to synchronize eBay item specifics” in your eBay configuration general settings.
+   
+   The latter of the two methods suggests that you configure your own mapping rules defining how your store's global attributes should translate to eBay item specifics, and vice versa. It also suggests that the option “Use global attributes to synchronize eBay item specifics” in your eBay configuration general settings should be disabled to prevent the name-based synchronization. The mapping rules can be configured via the **eBay Item Specifics** section (**Catalog** > **eBay item specifics**) of your X-Cart store Admin area.
 
 ![xc5_ebay_mapping1.png]({{site.baseurl}}/attachments/ref_0X2MIatv/xc5_ebay_mapping1.png)
 ![xc5_ebay_mapping2.png]({{site.baseurl}}/attachments/ref_0X2MIatv/xc5_ebay_mapping2.png)
