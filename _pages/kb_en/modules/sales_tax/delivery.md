@@ -21,13 +21,13 @@ To configure a shipping tax:
       
 3. Specify the tax rate information you require:
    
-   **Zone**: Specify the zone to which the tax rate should be applied.
+   * **Zone**: Specify the zone to which the tax rate should be applied.
    ![zone]({{site.baseurl}}/attachments/ref_4nZM0iOX/zone.png)
 
-   **Rate, (%)**: Specify the tax rate you require.
+   * **Rate, (%)**: Specify the tax rate you require.
    ![rate.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/rate.png) 
    
-   **Tax class**: (This field is only available if you have {% link "tax classes" ref_pAWOdG8N %} defined.) If necessary, specify the tax class to which the tax rate should apply.
+   * **Tax class**: (This field is only available if you have {% link "tax classes" ref_pAWOdG8N %} defined.) If necessary, specify the tax class to which the tax rate should apply.
    ![tax-class.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/tax-class.png)  
 
 5. Click **Save changes** to make the settings active.
