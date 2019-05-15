@@ -13,20 +13,23 @@ Some states consider shipping charges to be a necessary part of a taxable eComme
 
 To configure a shipping tax:
 
-1. Locate the link **Click here to specify tax rates that will apply only to shipping charges** on the Sales tax configuration page (**Store setup** > **Taxes**) and click on it to specify tax rates that will apply only to shipping charges:
+1. On the Sales tax configuration page (**Store setup** > **Taxes**, **Sales tax** tab), locate the section **Tax rates on shipping cost**. This section is used to specify tax rates that will apply only to shipping charges. Depending on the version of X-Cart software you are using, you may need to click on the link **Click here to specify tax rates that will apply only to shipping charges** to access this section. 
    ![shipping-tax.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/shipping-tax.png)
 
-2. Click the the **New Rate** button
+2. In this section, click the **New Rate** button.
    ![new-rate.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/new-rate.png)
       
-3. Specify the zone to which the tax rate should be applied:
-    ![zone]({{site.baseurl}}/attachments/ref_4nZM0iOX/zone.png)
+3. Specify the tax rate information you require:
+   
+   **Zone**: Specify the zone to which the tax rate should be applied.
+   ![zone]({{site.baseurl}}/attachments/ref_4nZM0iOX/zone.png)
 
-4. Specify the tax rate you require (%):
-   ![rate.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/rate.png)
+   **Rate, (%)**: Specify the tax rate you require.
+   ![rate.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/rate.png) 
+   
+   **Tax class**: (This field is only available if you have {% link "tax classes" ref_pAWOdG8N %} defined.) If necessary, specify the tax class to which the tax rate should apply.
+   ![tax-class.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/tax-class.png)  
 
 5. Click **Save changes** to make the settings active.
       
-If you have {% link "Tax Classes" ref_pAWOdG8N %} defined, you will also be able to specify the tax classes to which your tax rates should apply:
 
-![tax-class.png]({{site.baseurl}}/attachments/ref_4nZM0iOX/tax-class.png)
