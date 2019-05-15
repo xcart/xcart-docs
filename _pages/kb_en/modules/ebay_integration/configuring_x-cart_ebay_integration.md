@@ -88,7 +88,7 @@ Once you have created an eBay user token to connect your X-Cart store to your eB
     ![xc5_ebay_policies.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_policies.png)
 
 3. Specify the business policies you would like to use for your eBay listings. The available business policies are pulled into your X-Cart store from the eBay account to which you have linked your application at the [previous step](#obtaining-your-ebay-user-token). If you do not see any drop-down policy selectors on the page, you may want to refresh the business policies information by clicking the **Refresh Business Policies** button. 
-    ![xc5_ebay_policies_refresh.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_policies_refresh.png)
+   ![xc5_ebay_policies_refresh.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_policies_refresh.png)
 This will get the policies from your eBay account.
 
 To specify which business policies are going to be used for your listings, you will need to choose them from the drop-down selectors. You will need to set your:
