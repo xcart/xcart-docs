@@ -5,7 +5,7 @@ updated_at: '2019-05-20 16:45 +0400'
 identifier: ref_19hsx4O9
 title: ''
 order: 100
-published: false
+published: true
 ---
 Migration Wizard module has the same system requirements as X-Cart 5, but since the module runs resource-heavy processes, you need to make sure that the server will not time out these processes.
 
