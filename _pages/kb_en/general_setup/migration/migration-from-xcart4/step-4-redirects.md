@@ -5,7 +5,7 @@ updated_at: '2019-05-21 17:03 +0400'
 identifier: ref_60UcGBrK
 title: ''
 order: 100
-published: false
+published: true
 ---
 After you complete the migration and switched X-Cart 4 store with new X-Cart 5 one, you need to put the following code into X-Cart 5's `.htaccess` file.
 
