@@ -74,9 +74,9 @@ To set up your IIS, use the [Import of Apache rules](http://www.iis.net/learn/ex
 
 To set up nginx, you will need to add a few lines (as provided below) into the [server {} section](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) of your nginx configuration file (nginx.conf):
 
-### Configuration for X-Cart 5.4.0.0 and later
+### Configuration for X-Cart 5.4.0 and later
 
-Statring from X-Cart v5.4.0.0 the software package contains a ```nginx.conf.sample``` file that provides the code samples of nginx configuration for both possible X-Cart locations (web-root and subfolder).
+Starting from X-Cart v5.4.0.0 the software package contains a ```nginx.conf.sample``` file that provides the code samples of nginx configuration for both possible X-Cart locations (a web-root folder or a subfolder of the web-root).
 
 ### Configuration for X-Cart 5.3.2 and later
 
