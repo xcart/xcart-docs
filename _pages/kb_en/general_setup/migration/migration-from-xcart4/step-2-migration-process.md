@@ -5,7 +5,7 @@ updated_at: '2019-05-21 16:35 +0400'
 identifier: ref_2nzbe2Ce
 title: ''
 order: 100
-published: false
+published: true
 ---
 Once the addon "XC4 to XC5 Migration wizard" is installed on your X-Cart 5, you will see a new 'Migration wizard' item at the top of the Admin area menu:
 ![mw_link.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_link.png)
