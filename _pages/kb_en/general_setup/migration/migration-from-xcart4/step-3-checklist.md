@@ -5,7 +5,7 @@ updated_at: '2019-05-21 16:43 +0400'
 identifier: ref_00LtsZrX
 title: ''
 order: 100
-published: false
+published: true
 ---
 This is a basic checklist to make sure everything is migrated correctly and your store is ready to go live.
 
