@@ -7,7 +7,7 @@ title: ''
 order: 100
 published: true
 ---
-Migration Wizard module has the same system requirements as X-Cart 5, but since the module runs resource-heavy processes, you need to make sure that the server will not time out these processes.
+['X-Cart v4 to v5 Data Migration Wizard' module](https://market.x-cart.com/addons/migration-wizard.html) has the same {% link "system requirements as X-Cart 5" ref_VG5mIoLT#server-requirements %}, but since the module runs resource-heavy processes, you need to make sure that the server will not time out these processes.
 
 The way to set it up will depend on the server's engine.
 
