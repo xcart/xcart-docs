@@ -33,9 +33,31 @@ The first step is essentially a preparation.
 
 You need to make sure if your current server is {% link "compatible with X-Cart 5" ref_19hsx4O9 %} and if not, set up a new server for it or perform the upgrade locally.
 
-Besides, you may want to check {% link "what data is migrated" ref_32GoV7A0 %} by the 'X-Cart v4 to v5 Data Migration Wizard' module.
+Besides, you may want to check {% link "what data is migrated" ref_32GoV7A0 %} by the 'X-Cart v4 to v5 Data Migration Wizard' module and {% link "advanced settings" ref_1IAKq4cq %} of the migration wizard.
 
 ## Step 2: Perform the initial data migration
+
+Once everything is prepared, run the initial {% link "migration process" ref_2nzbe2Ce %}.
+
+If you have a large database and just want to quickly see how your data would fit X-Cart 5, you can run {% link "the demo migration" ref_1tEH4GGT %}.
+
 ## Step 3: Check if data was migrated properly
-## Step 4: Switch your production store with X-Cart 5
+
+After the initial migration is over, {% link "check that all the data was migrated properly" ref_00LtsZrX %}.
+At this point, you should also do an extensive test of whether X-Cart 5 implements all business processes essential for your business. You may want to decide using some paid modules in order to add needed functionality.
+
+## Step 4: Replace your production store with X-Cart 5
+
+Once your test store is perfectly set up, all functionality is matched, data is transferred, it is time to plan switching your production store to X-Cart 5.
+
+You should [close](https://help.x-cart.com/X-Cart:General_Options#Common_store_options) your X-Cart 4 store, [move it to the sub-directory](https://help.x-cart.com/X-Cart:Moving_store_to_web-root_directory) on your server, put X-Cart 5 {% link "in place of X-Cart 4" ref_6oFmUXC7 %} and {% link "sync the latest data" ref_7bQ5uFuH %}.
+
+After it is done, you need to {% link "set up redirects" ref_60UcGBrK %} so Google could find your pages at new locations.
+
 ## Step 5: Monitor performance of your store after the migration
+
+After you put X-Cart 5 as your production store, please make sure to monitor its performance via [Google Analytics](https://analytics.google.com/analytics/web/) and [Google Search Console](https://search.google.com/search-console).
+
+Google Analytics will show you whether you have the more, less or the same amount of traffic to your store. Google Search Console will report you about possible crawling errors that must be addressed.
+
+If you want our SEO specialist to make sure that everything is alright with your store after the migration, please [contact us](https://www.x-cart.com/contact-us.html).
