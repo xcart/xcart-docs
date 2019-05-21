@@ -102,7 +102,7 @@ location ~ \.php$ {
 }
 ```
 
-You should set the location to the corresponding directory if your X-Cart installation is placed in a subdirectory of your web root.
+You should set the location to the corresponding folder if your X-Cart installation is placed in a subfolder of your web root.
 
 ### Configuration for X-Cart 5.3.1 and earlier
 
