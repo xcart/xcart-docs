@@ -74,19 +74,15 @@ To set up your IIS, use the [Import of Apache rules](http://www.iis.net/learn/ex
 
 To set up nginx, you will need to add a few lines (as provided below) into the [server {} section](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) of your nginx configuration file (nginx.conf):
 
-### Configuration for X-Cart 5.3.1 and earlier
+### Configuration for X-Cart 5.4.0.0 and later
 
-```php
-## Example nginx configuration
-location / {
-  index cart.php;
-
-  if (!-e $request_filename){
-     rewrite ^/sitemap.xml(\?.+)?$ /cart.php?target=sitemap;
-     rewrite ^/((([/_A-Za-z0-9-]+)/)?([_A-Za-z0-9-]+)/)?([_A-Za-z0-9-]+)(/?)(\.([_A-Za-z0-9-]+))?$ /cart.php?url=$5&last=$4&rest=$3&ext=$7 last;
-  }
-}
+Statring from X-Cart v5.4.0.0 the software package contains a 
 ```
+nginx.conf.sample
+```
+ file that provides the code samples of nginx configuration for both possible X-Cart locations (web-root and subfolder).
+
+начиная с 5.4.0.0 в дистрибутиве лежит файл nginx.conf.sample в котором представлены два варианта настройки для nginx (если хкарт находится в поддиректории или в руте)
 
 ### Configuration for X-Cart 5.3.2 and later
 
@@ -113,6 +109,21 @@ location ~ \.php$ {
 ```
 
 You should set the location to the corresponding directory if your X-Cart installation is placed in a subdirectory of your web root.
+
+### Configuration for X-Cart 5.3.1 and earlier
+
+```php
+## Example nginx configuration
+location / {
+  index cart.php;
+
+  if (!-e $request_filename){
+     rewrite ^/sitemap.xml(\?.+)?$ /cart.php?target=sitemap;
+     rewrite ^/((([/_A-Za-z0-9-]+)/)?([_A-Za-z0-9-]+)/)?([_A-Za-z0-9-]+)(/?)(\.([_A-Za-z0-9-]+))?$ /cart.php?url=$5&last=$4&rest=$3&ext=$7 last;
+  }
+}
+```
+
 
 ## Tweaking CleanURLs
 
