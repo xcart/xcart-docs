@@ -34,6 +34,7 @@ To add a new marketplace:
 2. You will see a screen titled **New marketplace** where you will need to specify your AWS account details:
    ![new-marketplace-1.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/new-marketplace-1.png)
    
+   <a name="account"></a>
    To get the AWS account details:
    * Open your Amazon Professional Seller account at [https://sellercentral.amazon.com/](https://sellercentral.amazon.com/ "Amazon Feeds").
    * [Add a developer](https://docs.developer.amazonservices.com/en_US/dev_guide/DG_Registering.html "Amazon Feeds") to your seller account then authorise this developer.
