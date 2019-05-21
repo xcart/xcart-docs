@@ -37,6 +37,16 @@ To add a new marketplace:
    To get the AWS account details:
    * Open your Amazon Professional Seller account at [https://sellercentral.amazon.com/](https://sellercentral.amazon.com/ "Amazon Feeds").
    * [Add a developer](https://docs.developer.amazonservices.com/en_US/dev_guide/DG_Registering.html "Amazon Feeds") to your seller account then authorise this developer.
+     {% note warning %}
+     If you don't have a developer registration, register yourself as a developer at Amazon following the instructions on the Amazon MWS Developer Registration and Assessment form. 
+     <div class="ui stackable four column grid">
+        <div class="column" markdown="span">![11.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/11.png)</div>
+        <div class="column" markdown="span">![22.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/22.png)</div>
+        <div class="column" markdown="span">![33.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/33.png)</div>
+        <div class="column" markdown="span">![34.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/34.png)</div>
+     </div>
+     When registering as a developer you should specify YOUR business data, not the X-Cart business data.
+     {% endnote %}
    * Copy and past your AWS Merchant ID, AWS Access Key ID and AWS Secret Key from this authorisation to the fields in the form in the X-Cart admin:
      ![account-data.png]({{site.baseurl}}/attachments/ref_4UNr3oKZ/account-data.png)
    * Choose the country that corresponds with your Amazon account data.
