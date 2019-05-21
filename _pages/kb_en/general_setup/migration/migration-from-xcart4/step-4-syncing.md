@@ -5,7 +5,7 @@ updated_at: '2019-05-21 16:48 +0400'
 identifier: ref_7bQ5uFuH
 title: ''
 order: 100
-published: false
+published: true
 ---
 If you performed the data migration and want to transfer only new entities or those that were changed since the initial migration, you can use the 'Skip previously migrated data' option at the 'Transfer' step of the migration wizard.
 
