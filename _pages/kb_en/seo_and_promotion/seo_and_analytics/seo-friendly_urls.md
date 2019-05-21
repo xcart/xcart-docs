@@ -76,13 +76,7 @@ To set up nginx, you will need to add a few lines (as provided below) into the [
 
 ### Configuration for X-Cart 5.4.0.0 and later
 
-Statring from X-Cart v5.4.0.0 the software package contains a 
-```
-nginx.conf.sample
-```
- file that provides the code samples of nginx configuration for both possible X-Cart locations (web-root and subfolder).
-
-начиная с 5.4.0.0 в дистрибутиве лежит файл nginx.conf.sample в котором представлены два варианта настройки для nginx (если хкарт находится в поддиректории или в руте)
+Statring from X-Cart v5.4.0.0 the software package contains a ```nginx.conf.sample``` file that provides the code samples of nginx configuration for both possible X-Cart locations (web-root and subfolder).
 
 ### Configuration for X-Cart 5.3.2 and later
 
