@@ -18,7 +18,7 @@ Basically, you have three routes:
 2. You can hire X-Cart team to perform the upgrade for you (Professional and Custom options);
 3. You can hire 3rd party to perform the upgrade for you (DIY option + whatever agreement you come up with 3rd party).
 
-This article describes how one can perform the data migration process themselves using 'X-Cart v4 to v5 Data Migration Wizard' module.
+This article describes how one can perform the data migration process themselves using ['X-Cart v4 to v5 Data Migration Wizard' module](https://market.x-cart.com/addons/migration-wizard.html).
 
 If you also need to transfer custom data and custom functionality, there is no guide for that. 
 Custom functionality has to be re-implemented to X-Cart 5 and you can either do that yourself, hire 3rd party or [hire our development team](https://www.x-cart.com/contact-us.html) for this task.
