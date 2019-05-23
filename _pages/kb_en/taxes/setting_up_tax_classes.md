@@ -52,35 +52,37 @@ To configure a tax rate specifying a tax class:
 2. Click the **New rate** button. 
    ![new-rate.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate.png)
 
-3. Provide the tax rate information you require. (Note for Sales Tax addon users: To set up a tax rate that will be used exclusively for shipping, use the section _Tax rates on shipping cost_). 
+3. Provide the tax rate information you require.
    ![new-rate-1.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate-1.png)
-
+   
    * **Zone** : Select the address zone to which the tax rate should apply.
    * **Tax class** : Select the tax class to which the tax rate should apply.
    * **Rate** : Specify the tax rate (in %).
    
-3. Click **Save changes**.
+   **Note for Sales Tax addon users**: To set up a tax rate that will be used exclusively for shipping, use the section _Tax rates on shipping cost_. Tax rates configured via this section are not applied to products. 
+   
+4. Click **Save changes**.
    ![tax-class-1.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/tax-class-1.png)
 
 That's it. Now you can assign the created tax rate to a product or to a shipping method by assigning the tax class with this rate to them.
 
 ## Assigning Tax Classes to Products
 
-Once a tax class has been created, it can be assigned to products.
+Once a tax class has been created, it can be assigned to products. Any products to which this tax class is assigned will use the tax rates defined for this product class.
 
 To assign a tax class to a product:
 
-1.  Choose a product you need to assign a tax class to in the **Catalog** -> **Products** section of your X-Cart admin and open this product's details page for editing.
+1.  In the **Catalog** -> **Products** section of your X-Cart Admin area, choose a product to which you need to assign a tax class and open this product's details page for editing.
 
-2.  Locate the the **Tax class** field in the **Prices & Inventory** section of product details and select the tax class you want to assign to this product.
+2.  In the **Prices & Inventory** section of product details, locate the field **Tax class** and select the tax class you want to assign to this product.
     ![xc5_taxclass_tax_class_assign.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/xc5_taxclass_tax_class_assign.png)
 
-3.  Click **Update product**.
+3.  Click **Update product** to save the changes.
 
-Once the tax class has been assigned to a product, this product will use the tax rates defined for this product class.
+The tax class will be assigned.
 
 {% note info %}
-If you need to assign a tax class to more than one product at a time use the ["Products Bulk Edit"](https://kb.x-cart.com/products/bulk_edit.html#bulk-edit-price-and-membership "Setting up tax classes") feature.
+If you need to assign a tax class to more than one product, you may find it convenient to use the ["Bulk Product Edit"](https://kb.x-cart.com/products/bulk_edit.html#bulk-edit-price-and-membership) feature.
 {% endnote %}
 
 ## Assigning Tax Classes to Shipping Methods
@@ -94,7 +96,7 @@ To assign a tax class to a shipping method:
 2. In the list of shipping methods, locate the column **Tax class**. 
    ![shipping_tax_classes.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/shipping_tax_classes.png)
    
-   This column shows the tax classes currently assigned to your store's shipping methods. Shipping methods for which no tax class has been assigned manually will be shown as assigned to the default tax class.
+   This column shows the tax classes currently assigned to your store's shipping methods. Shipping methods for which no tax class has been assigned manually will have the Default tax class assigned.
 
 3. To change the tax class for a shipping method, click on the name of the tax class currently assigned to it.  This will reveal a drop-down box with a list of available tax classes. Select the tax class you require.
 
