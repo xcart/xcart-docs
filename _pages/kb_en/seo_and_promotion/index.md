@@ -25,5 +25,9 @@ Keep in mind that optimizing and promoting your site will be a continuous proces
 
 _Related pages:_
 
+*  [eCommerce Tips](https://www.x-cart.com/blog/category/ecommerce-tips "SEO and Promotion")
 *  [SEO for Beginners](https://www.x-cart.com/blog/seo-for-beginners-first-steps-in-making-your-store-visible-to-search-engines.html "SEO and Promotion")
 *  [Best SEO Tools to Instantly Improve Your Marketing in 2019](https://www.x-cart.com/blog/best-seo-tools.html "SEO and Promotion")
+*  [10 Product Marketing Tactics for eCommerce ](https://www.x-cart.com/blog/10-ecommerce-product-marketing-tactics.html "SEO and Promotion")
+*  [Instagram Marketing For Ecommerce: The Complete Guide](https://www.x-cart.com/instagram/marketing.html "SEO and Promotion")
+*  [A Beginner’s Guide to Influencer Marketing ](https://www.x-cart.com/blog/influencer-marketing.html "SEO and Promotion")
