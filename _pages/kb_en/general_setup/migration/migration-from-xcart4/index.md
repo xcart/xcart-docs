@@ -31,9 +31,9 @@ The same applies to the custom data.
 
 The first step is essentially a preparation.
 
-You need to make sure if your current server is {% link "compatible with X-Cart 5" ref_19hsx4O9 %} and if not, set up a new server for it or perform the upgrade locally.
+You need to make sure if your current server is {% link "compatible with X-Cart 5" ref_19hsx4O9 %} and if not, set up a new server for it or perform the upgrade on your local machine.
 
-Besides, you may want to check {% link "what data is migrated" ref_32GoV7A0 %} by the X-Cart v4 to v5 Data Migration Wizard module and {% link "advanced settings" ref_1IAKq4cq %} of the migration wizard.
+Besides, you may want to check {% link "what data is going to be migrated" ref_32GoV7A0 %} by the _X-Cart v4 to v5 Data Migration Wizard_ module and {% link "advanced settings" ref_1IAKq4cq %} of the migration wizard.
 
 ## Step 2: Perform the initial data migration
 
