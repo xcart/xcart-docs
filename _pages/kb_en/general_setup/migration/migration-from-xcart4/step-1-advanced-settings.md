@@ -3,8 +3,8 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-21 16:30 +0400'
 identifier: ref_1IAKq4cq
-title: ''
-order: 100
+title: 'Step 1: Advanced settings'
+order: 40
 published: true
 ---
 The migration of data from X-Cart 4 to X-Cart 5 is based on model importing. The data is processed in chunks, and the process may take a while depending on the volume of data that needs to be transferred.
