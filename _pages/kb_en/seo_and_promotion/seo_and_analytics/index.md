@@ -21,4 +21,4 @@ Using SEO analytics and reports will give you insight into your sales and custom
 
 _Related pages:_
 
-* {% link "SEO and Promotion" ref_Ibr5EziH %}
+* {% link "Sales Channels" ref_ybdJste8 %}
