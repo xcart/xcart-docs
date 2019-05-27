@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-27 13:45 +0400'
 identifier: ref_1i0r1QYO
-title: 'Step 1: Does X-Cart 5 have to be on the same server as X-Cart 4?'
+title: 'Step 1: Does X-Cart 5 have to be on the same server?'
 order: 30
 published: true
 ---
