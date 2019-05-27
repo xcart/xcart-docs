@@ -3,8 +3,8 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-21 16:38 +0400'
 identifier: ref_1tEH4GGT
-title: ''
-order: 100
+title: 'Step 2: Demo Migration'
+order: 50
 published: true
 ---
 You may choose to run a migration in the Demo mode. Only a limited number of categories, products, users and orders will be transferred in this case. 
