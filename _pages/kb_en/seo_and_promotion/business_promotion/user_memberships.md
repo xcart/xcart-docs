@@ -6,5 +6,5 @@ identifier: ref_27X0ARHz
 title: User Memberships
 order: 800
 published: true
-redirect_to: /users/memberships/using_memberships.html
+redirect_to: /users/memberships/index.html
 ---
