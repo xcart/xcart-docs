@@ -7,7 +7,7 @@ title: ''
 order: 100
 published: true
 ---
-After you complete the migration and switched X-Cart 4 store with new X-Cart 5 one, you need to put the following code into X-Cart 5's `.htaccess` file.
+After you complete the migration and replaced X-Cart 4 store with new X-Cart 5 one, you need to put the following code into X-Cart 5's `.htaccess` file.
 
 ```
   RewriteCond %{QUERY_STRING} cat=([0-9]+)
