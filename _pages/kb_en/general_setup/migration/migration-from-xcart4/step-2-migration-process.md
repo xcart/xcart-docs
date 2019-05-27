@@ -3,8 +3,8 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-21 16:35 +0400'
 identifier: ref_2nzbe2Ce
-title: ''
-order: 100
+title: 'Step 2: Data migration process'
+order: 50
 published: true
 ---
 Once the _X-Cart v4 to v5 Data Migration Wizard_ addon is installed to your X-Cart 5, you will see a new 'Migration wizard' item at the top of the Admin area menu:
