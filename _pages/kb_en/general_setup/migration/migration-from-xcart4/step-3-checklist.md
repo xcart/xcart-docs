@@ -3,8 +3,8 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-21 16:43 +0400'
 identifier: ref_00LtsZrX
-title: ''
-order: 100
+title: 'Step 3: Migration checklist '
+order: 70
 published: true
 ---
 This is a basic checklist to make sure everything is migrated correctly and your store is ready to go live. Go through it and make sure that each functionality works properly.
