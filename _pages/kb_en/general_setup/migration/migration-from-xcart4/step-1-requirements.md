@@ -3,8 +3,8 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-20 16:45 +0400'
 identifier: ref_19hsx4O9
-title: ''
-order: 100
+title: 'Step 1: System requirements'
+order: 20
 published: true
 ---
 [_X-Cart v4 to v5 Data Migration Wizard_ module](https://market.x-cart.com/addons/migration-wizard.html) has the same {% link "system requirements as X-Cart 5" ref_VG5mIoLT#server-requirements %}, but since the module runs resource-heavy processes, you need to make sure that the server will not time out them.
