@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-12-19 11:32 +0400'
 identifier: ref_2fLbUtdZ
 title: Marketing Campaigns
-order: 800
+order: 90
 published: true
 redirect_from:
   - /seo_and_promotion/marketing_campaigns.html
