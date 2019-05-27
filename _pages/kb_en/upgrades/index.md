@@ -5,7 +5,7 @@ updated_at: '2019-05-27 11:50 +0400'
 identifier: ref_6IWA65tz
 title: Upgrades
 order: 5
-published: false
+published: true
 redirect_from:
   - /general_setup/upgrading_x-cart_5/
 description: Learn about X-Cart 5 updates and upgrades
