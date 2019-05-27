@@ -7,7 +7,7 @@ title: ''
 order: 100
 published: true
 ---
-Below is the data that can be transferred by the ['X-Cart v4 to v5 Data Migration Wizard' module](https://market.x-cart.com/addons/migration-wizard.html):
+Below is the data that can be transferred by the [_X-Cart v4 to v5 Data Migration Wizard_ module](https://market.x-cart.com/addons/migration-wizard.html):
 
 <table class="ui compact padded celled small table">
   <tbody>
