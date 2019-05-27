@@ -5,7 +5,7 @@ updated_at: '2019-05-27 13:45 +0400'
 identifier: ref_1i0r1QYO
 title: ''
 order: 100
-published: false
+published: true
 ---
 The short answer is no, but there are subtle details. There are three possible situations, how your X-Cart 4 and X-Cart 5 stores can be installed.
 
