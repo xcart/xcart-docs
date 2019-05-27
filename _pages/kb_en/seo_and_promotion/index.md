@@ -7,7 +7,7 @@ title: SEO and Promotion
 categories:
   - home
 order: 70
-icon: sync
+icon: chart line
 description: >-
   Optimize your catalog for search engines and set up special offers and
   promotions
