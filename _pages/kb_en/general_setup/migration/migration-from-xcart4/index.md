@@ -3,9 +3,18 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-20 16:26 +0400'
 identifier: ref_5dhQpiRl
-title: ''
+title: 'Migration from X-Cart 4 to X&#8209;Cart&nbsp;5'
 order: 100
 published: true
+redirect_from:
+  - general_setup/migration/migration_from_x-cart_4_to_x-cart_5.html
+  - >-
+    modules/xc4_to_xc5_migration_wizard/how_xc4_to_xc5_migration_wizard_works.html
+  - >-
+    modules/xc4_to_xc5_migration_wizard/xc4_to_xc5_migration_wizard_system_requirements_and_installation.html
+  - >-
+    modules/xc4_to_xc5_migration_wizard/using_the_xc4_to_xc5_migration_wizard.html
+  - general_setup/migration/migration-from-xcart4-to-xcart5.html
 ---
 ## Introduction
 
