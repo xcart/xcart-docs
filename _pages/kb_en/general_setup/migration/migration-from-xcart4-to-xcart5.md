@@ -5,7 +5,7 @@ updated_at: '2019-04-12 16:26 +0400'
 identifier: ref_2h75KMlS
 title: 'Migration from X-Cart 4 to X&#8209;Cart&nbsp;5'
 order: 20
-published: true
+published: false
 redirect_from:
   - general_setup/migration/migration_from_x-cart_4_to_x-cart_5.html
   - >-
@@ -507,4 +507,3 @@ location = /home.php {
     rewrite ^ /cart.php?target=category&category_id=$arg_cat;
 }
 ```
-
