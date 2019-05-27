@@ -3,8 +3,8 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-27 13:45 +0400'
 identifier: ref_1i0r1QYO
-title: ''
-order: 100
+title: 'Step 1: Does X-Cart 5 have to be on the same server as X-Cart 4?'
+order: 30
 published: true
 ---
 The short answer is no, but there are subtle details. There are three possible situations, how your X-Cart 4 and X-Cart 5 stores can be installed.
