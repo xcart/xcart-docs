@@ -6,8 +6,6 @@ identifier: ref_6IWA65tz
 title: Upgrades
 order: 15
 published: true
-redirect_from:
-  - /general_setup/upgrading_x-cart_5/
 description: Learn about X-Cart 5 updates and upgrades
 icon: history
 ---
