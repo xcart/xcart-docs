@@ -5,7 +5,7 @@ updated_at: '2017-02-07 01:54 +0400'
 identifier: ref_EntIT03c
 title: Migration from X-Cart 4 to X-Cart 5
 order: 40
-published: true
+published: false
 redirect_from:
   - /general_setup/migration_from_x-cart_4_to_x-cart_5.html
 ---
