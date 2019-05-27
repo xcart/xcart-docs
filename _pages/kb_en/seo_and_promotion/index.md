@@ -19,6 +19,7 @@ X-Cart provides a variety of promotion and SEO tools that can help you to boost 
 
 Keep in mind that optimizing and promoting your site will be a continuous process, as search engines are constantly surveying the internet to index and rank pages and your competitors will never stop the rival.
 
+_In this section:_
 
 * {% link "SEO and Analytics" ref_0XrpRRgO %}
 * {% link "Business Promotion" ref_3S9KvLey %}
