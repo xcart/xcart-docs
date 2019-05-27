@@ -21,4 +21,4 @@ The short answer is no, but there are subtle details. There are three possible s
 
 3. If you want to install X-Cart 5 on a new server, but keep X-Cart 4 on the old one, it can still work. In this case, you need to:
 	- make sure that the MySQL on X-Cart 4 server allows remote connections. Contact your hosting team about that, if you face any troubles;
-	- set the _enable_copy_ext_images_ option in {% link "Migration Wizard's settings" ref_1IAKq4cq} to 'true'.
+	- set the _enable_copy_ext_images_ option in {% link "Migration Wizard's settings" ref_1IAKq4cq %} to 'true'.
