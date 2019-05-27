@@ -20,4 +20,4 @@ To run a demo migration, select the 'Demo migration' option at the 'Select' step
 - 10 products from one of the categories;
 - the rest of the X-Cart 4 store data (settings, destination zones, static pages, etc) will be migrated in full.
 
-After demo migration is completed, a link to the category with the migrated products will be provided, so the client can review these products.
+After demo migration is completed, a link to the category with the migrated products will be provided, so you can review these products.
