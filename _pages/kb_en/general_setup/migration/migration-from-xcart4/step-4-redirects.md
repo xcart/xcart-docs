@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-21 17:03 +0400'
 identifier: ref_60UcGBrK
-title: 'Step 4: Redirects after migration'
+title: 'Step 4: Redirects'
 order: 90
 published: true
 ---
