@@ -56,6 +56,7 @@ _In this section:_
 *   {% link "Geolocation" ref_34F5BkhW %}
 *   {% link "Gift Wrapping" ref_3eTR6n0m %}
 *   {% link "Google AdWords (via Segment Integration)" ref_0XLukKQy %}
+*   {% link "Google Analytics" ref_6NqAify2 %}
 *   {% link "Google Product Feed" ref_2gQBB6qM %}
 *   {% link "Google reCAPTCHA " ref_4S6YEcnH %}
 *   {% link "Go Social" ref_4YoBovhW %}
@@ -71,7 +72,7 @@ _In this section:_
 *   {% link "Market Price" ref_66scBj0f %}
 *   {% link "Multicurrency" ref_2tPJubPU %}
 *   {% link "Multilevel Primary Menu" ref_3yEqhwsC %}
-*   {% link "Multisite" ref_6Hts2zUf %} by [MercuryMinds](https://market.x-cart.com/mercuryminds-technologies.html)
+*   {% link "Multisite" ref_6Hts2zUf %} [by MercuryMinds](https://market.x-cart.com/mercuryminds-technologies.html)
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
 *   {% link "News" ref_0UBPXGXi %}
 *   {% link "Newsletter Subscriptions" ref_2WzsM3Pg %}
