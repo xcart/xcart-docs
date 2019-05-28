@@ -20,32 +20,28 @@ The addon settings are as follows:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_6e82A7rL/settings.png)
 
-   * **Enable "In stock only" filter**: If enabled, the 'In stock' selector will be added to the filter block. 
+   * **Enable "In stock only" filter**: If this setting is enabled, the filter block includes an 'In stock' selector allowing shoppers to specify whether they want to find only the products that are in stock or the products that are out of stock as well. If it disabled, no such selector is provided. 
 
-   * **Enable "Price range" filter**: If enabled, the filter will allow users to specify the desired price range.
+   * **Enable "Price range" filter**: If this setting is enabled, the filter block provides a range slider allowing users to specify the desired price range. If it disabled, no such slider is provided. 
 
-   * **Enable "Attributes" filter**: If enabled, the filter block will display the choice of attributes available for the products. 
-
-     {% note info %}
-     For the "Attributes" filter to be displayed, you need to have attributes set up in your store. For more info on the configuration of attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}. 
-     {% endnote %}
-
-   * **Enable "Tags" filter**: If enabled, the filter will show the tags available for search.
+   * **Enable "Attributes" filter**: If this setting is enabled, the filter block allows users to choose product attributes. If it disabled, filtering by attributes is not provided.
 
      {% note info %}
-     For the "Tags" filter to be displayed, you need to have product tags set up in your store. For more info, see {% link "Product Tags" ref_6nFoxYf1 %}.
+     For the "Attributes" filter to be displayed, you need to have attributes configured in your store. For more info on the configuration of attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}. 
      {% endnote %}
 
-   * **Show only available attributes and tags for products in category**: If enabled, X-Cart generates a data cache that is used to display in the filter only the attribute values and tags that are actually used for the products in the category being viewed. 
+   * **Enable "Tags" filter**: If this setting is enabled, the filter block allows users to choose product tags. If it disabled, filtering by product tags is not provided.
 
-     {% note info %} 
-     Enabling this option will make a page load faster since only a set of particular attributes and tags will be counted, but not all the attributes and tags available in your store. It is essential for stores with a high inventory turnover ratio.
+     {% note info %}
+     For the "Tags" filter to be displayed, you need to have product tags configured in your store. For more info, see {% link "Product Tags" ref_6nFoxYf1 %}.
      {% endnote %}
+
+   * **Show only available attributes and tags for products in category**: If this setting is enabled, X-Cart generates a data cache that is used to display in the filter block only the attribute values and tags that are actually used for the products in the category being viewed. Enabling this option will make a page load faster since only a set of attributes and tags will be counted (as opposed to _all_ the attributes and tags available in the store). Enabling this setting may be especially useful for stores with a high inventory turnover ratio.
 
    * **Cache reset mode**: This setting can be used to specify whether you want cache to be generated on the fly or to be removed when attribute, tag or product data is changed. The first option will allow working with the actual inventory but will slow down the page loading as it will be necessary to cache the filters each time. If you do not update your inventory too often, using the second option is recommended. 
 
      {% note info%}
-     If the "Remove cache when ..." option is selected, a category page cache will be removed and generated anew the first time this page is opened after you change products, categories or attributes data. The first page loading may last more than usual as time will be spent on cache regeneration.
+     If the option "Remove cache when ..." is selected, a category page cache will be removed and generated anew the first time this page is opened after you change products, categories or attributes data. The first page loading may last more than usual as time will be spent on cache regeneration.
      {% endnote %}
 
    * **Sort order for class attributes** (available only if the "Attributes" filter is enabled): Here you can specify whether the attributes should be sorted alphabetically or manually.
@@ -58,27 +54,32 @@ The addon settings are as follows:
 
 After adjusting the settings, be sure to click **Submit** to save the changes.
 
-To specify the attributes that should be included into the product filter block on a specific category page in the store front end, you will need to do some configuration on the details page of that category. In your store's Admin area, go to **Catalog** > **Categories** > **_Category_Name_**.
+To specify the attributes that should be included into the product filter block on a specific category page in the store front end, you will need to do some configuration on the details page of that category: 
 
-![category.png]({{site.baseurl}}/attachments/ref_6e82A7rL/category.png)
+   1. In your store's Admin area, go to **Catalog** > **Categories** > **_Category_Name_**.
 
-On the **Category Info** tab, find the setting **Classes for product filter**.
+      ![category.png]({{site.baseurl}}/attachments/ref_6e82A7rL/category.png)
 
-![Screen Shot 2018-01-31 at 13.25.42.png]({{site.baseurl}}/attachments/ref_6e82A7rL/Screen Shot 2018-01-31 at 13.25.42.png)
+   2. On the **Category Info** tab, find the setting **Classes for product filter**.
 
-This setting enables you to specify what classes of attributes should be used to filter the products in the current category. The available options are as follows:
-   * _All classes from this category_ - If you use this option, the filter will include the classes of all the products from this category. Note that the more classes and products a category has, the more time it will take to load the category page.
-   * _Do not show the filter_ - If you use this option, this type of filter will not be displayed on the category page.
-   * _Choose classes_ - If you use this option, you will be able to specify the exact class(es) on which the filter will be based. By using this option you can limit the number of classes applied. You can choose any classes available in your store.
+      ![Screen Shot 2018-01-31 at 13.25.42.png]({{site.baseurl}}/attachments/ref_6e82A7rL/Screen Shot 2018-01-31 at 13.25.42.png)
 
-   ![]({{site.baseurl}}/attachments/ref_6e82A7rL/Screen%20Shot%202018-01-31%20at%2013.26.33.png)
+      Use this setting to specify what classes of attributes should be used to filter the products in the current category. The available options are as follows:
+      
+      * _All classes from this category_ - The filter will include the classes of all the products from this category. Note that the more classes and products a category has, the more time it will take to load the category page.
+      
+      * _Do not show the filter_ - This type of filter will not be displayed on the category page.
+      
+      * _Choose classes_ - You will be able to specify the exact class(es) on which the filter will be based. By using this option you can limit the number of classes applied. You can choose any classes available in your store.
 
-Note that the product filter block wil not be displayed on the page of a category on the storefront if the category itself does not contain products. If the category has subcategories containing products, but does not have any products outside the subcategories, the **Classes for product filter** setting will need to be configured on the pages of the respective subcategories.
+      ![]({{site.baseurl}}/attachments/ref_6e82A7rL/Screen%20Shot%202018-01-31%20at%2013.26.33.png)
+
+Note that the product filter block wil not be displayed on the page of a category in the store front end if the category itself does not contain products. If the category has subcategories containing products, but does not have any products outside the subcategories, the **Classes for product filter** setting will need to be configured on the pages of the respective subcategories.
 
 Once enabled and configured, the product filter will become available on the page of the category in the store front end.
 ![]({{site.baseurl}}/attachments/ref_6e82A7rL/store-front.png)
 
-You can change the location of the Product Filter block on the page in [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Product Filter").
+You can change the location of the product filter block on the page using [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Product Filter").
 
 
 _Related pages:_
