@@ -8,7 +8,9 @@ order: 221
 published: true
 description: 'product filters, easy search'
 ---
-Let us imagine that you run an online store selling tons of different products. Each product has its own set of attributes like size, color, material, technical characteristics, and many others that make it distinct from other products. A shopper's decision to buy depends on these product attributes, and you as a seller can make a shopper's choice easier by using the **Product Filter** addon. The addon enables you to add a product filter block that will be displayed on category pages (all of them, or just certain category pages chosen by you); your store visitors will be able to adjust the options in this block to narrow down their search results based on product attributes and find the product they require more easily. Optionally, the filter block can be adjusted to also include product tags, a price range, and in-stock availability. 
+Let us imagine that you run an online store selling tons of different products. Each product has its own set of attributes like size, color, material, technical characteristics, and many others that make it distinct from other products. A shopper's decision to buy depends on these product attributes, and you as a seller can make a shopper's choice easier by using the addon **[Product Filter](https://market.x-cart.com/addons/product-filter.html)**. The addon enables you to add a product filter block that will be displayed on category pages (all of them, or just certain category pages chosen by you); your store visitors will be able to adjust the options in this block to narrow down their search results based on product attributes and find the product they require more easily. Optionally, the filter block can be adjusted to also include product tags, a price range, and in-stock availability. 
+
+![]({{site.baseurl}}/attachments/ref_6e82A7rL/store-front.png)
 
 If the addon **Product Filter** is not installed in your X-Cart store, you can install it from the X-Cart Marketplace. Follow the general instructions for {% link "installing and activating addons" ref_0fGEpvrh %}.
 
@@ -77,7 +79,6 @@ To specify the attributes that should be included into the product filter block 
 Note that the product filter block wil not be displayed on the page of a category in the store front end if the category itself does not contain products. If the category has subcategories containing products, but does not have any products outside the subcategories, the **Classes for product filter** setting will need to be configured on the pages of the respective subcategories.
 
 Once enabled and configured, the product filter will become available on the page of the category in the store front end.
-![]({{site.baseurl}}/attachments/ref_6e82A7rL/store-front.png)
 
 You can change the location of the product filter block on the page using Layout Editor in Webmaster mode. For more info on that, see {% link "Layout Editor" ref_1xoeCJwy %}.
 
