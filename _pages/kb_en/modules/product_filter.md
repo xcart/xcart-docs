@@ -8,7 +8,7 @@ order: 221
 published: true
 description: 'product filters, easy search'
 ---
-Let us imagine that you run an online store that has tons of different products. Each product has its own set of attributes like size, color, material, technical characteristics, and many others that make it distinct from other products. A shopper's decision to buy depends on these product attributes, and you as a seller can make a shopper's choice easier by using the Product filters addon. The addon enables your store visitors to use a filter based on product attributes that will help them to narrow down the search results and find the very product they need. Filter-based search can also include tags, a price range, and in-stock availability. You can add a filter-based search block on a category page in the store front end using the **Product Filter** addon.
+Let us imagine that you run an online store selling tons of different products. Each product has its own set of attributes like size, color, material, technical characteristics, and many others that make it distinct from other products. A shopper's decision to buy depends on these product attributes, and you as a seller can make a shopper's choice easier by using the **Product Filter** addon. The addon enables you to add a product filter block that will be displayed on category pages (all of them, or just certain category pages chosen by you); your store visitors will be able to adjust the options in this block to narrow down their search results based on product attributes and find the product they require more easily. Optionally, the filter block can be adjusted to also include product tags, a price range, and in-stock availability. 
 
 If the addon **Product Filter** is not installed in your X-Cart store, you can install it from the X-Cart Marketplace. Follow the general instructions for {% link "installing and activating addons" ref_0fGEpvrh %}.
 
@@ -45,7 +45,7 @@ The addon settings are as follows:
    * **Cache reset mode**: This setting can be used to specify whether you want cache to be generated on the fly or to be removed when attribute, tag or product data is changed. The first option will allow working with the actual inventory but will slow down the page loading as it will be necessary to cache the filters each time. If you do not update your inventory too often, using the second option is recommended. 
 
      {% note info%}
-     If the "Remove cache when ..." option is chosen a category page cache will be removed and generated anew the first time this page is opened after you change products, categories or attributes data. The first page loading may last more than usual as time will be spent on cache regeneration.
+     If the "Remove cache when ..." option is selected, a category page cache will be removed and generated anew the first time this page is opened after you change products, categories or attributes data. The first page loading may last more than usual as time will be spent on cache regeneration.
      {% endnote %}
 
    * **Sort order for class attributes** (available only if the "Attributes" filter is enabled): Here you can specify whether the attributes should be sorted alphabetically or manually.
