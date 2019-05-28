@@ -27,13 +27,13 @@ The addon settings are as follows:
    * **Enable "Attributes" filter**: If enabled, the filter block will display the choice of attributes available for the products. 
 
      {% note info %}
-     For the "Attributes" filter to be displayed, you need to have attributes set up in your store. For more info on the configuration of attributes, refer to the section {% link "Product classes and attributes" ref_T90ZcEpP %}. 
+     For the "Attributes" filter to be displayed, you need to have attributes set up in your store. For more info on the configuration of attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}. 
      {% endnote %}
 
    * **Enable "Tags" filter**: If enabled, the filter will show the tags available for search.
 
      {% note info %}
-     For the "Tags" filter to be displayed, you need to have {% link "tags set up" ref_6nFoxYf1 %} in your store. 
+     For the "Tags" filter to be displayed, you need to have product tags set up in your store. For more info, see {% link "Product Tags" ref_6nFoxYf1 %}.
      {% endnote %}
 
    * **Show only available attributes and tags for products in category**: If enabled, X-Cart generates a data cache that is used to display in the filter only the attribute values and tags that are actually used for the products in the category being viewed. 
