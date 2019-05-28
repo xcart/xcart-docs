@@ -79,7 +79,7 @@ Note that the product filter block wil not be displayed on the page of a categor
 Once enabled and configured, the product filter will become available on the page of the category in the store front end.
 ![]({{site.baseurl}}/attachments/ref_6e82A7rL/store-front.png)
 
-You can change the location of the product filter block on the page using [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Product Filter").
+You can change the location of the product filter block on the page using Layout Editor in Webmaster mode. For more info on that, see {% link "Layout Editor" ref_1xoeCJwy %}.
 
 
 _Related pages:_
