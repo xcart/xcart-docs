@@ -49,3 +49,9 @@ Click **Save** when the goal set-up is complete.
 Within 24 hours, GA will start tracking data based on the goals you set up and you can generate relevant reports to help you optimize your business. 
 
 You can check the reports in the **Conversions** -> **Goals** -> **Funnel Visualization** section.
+
+Moreover, you can configure scheduled email reports to your inbox based in the goals you set, so that you won't even need to open GA to check them. Just click **Share** on the top and set up the frequency (daily, weekly, monthly, or only once) and type in your email address.
+
+  ![scheduled-emails.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/scheduled-emails.png)
+
+Using advanced options, you can also limit the time during which you’ll get the reports — from one to 12 months.
