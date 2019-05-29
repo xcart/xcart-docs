@@ -33,7 +33,7 @@ The addon settings are as follows:
      {% note info %}
      For the "Attributes" filter to be displayed, you need to have attributes configured in your store, and those need to be global or class-level attributes of the _Plain field_ and/or _Yes/No_ type. (Attributes of the_Textarea_ type are never used for the product filter.) 
      For information on the configuration of attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}.
-     Note that you can control which attributes should be visible in the product filter, and which ones not. For details, see the sections [Set Classes for Product Filter] and [Control the Visibility of Specific Attributes for Product Filter] further below.
+     Note that you can control which attributes should be visible in the product filter, and which ones not. For details, see the sections [Set Classes for Product Filter](#set-classes-for-product-filter) and [Control the Visibility of Specific Attributes for Product Filter](#control-the-visibility-of-specific-attributes-for-product-filter) further below.
      {% endnote %}
 
    * **Enable "Tags" filter**: If this setting is enabled, the filter block allows users to choose product tags. If it disabled, filtering by product tags is not provided.
@@ -85,6 +85,8 @@ Note that the product filter block wil not be displayed on the page of a categor
 
 ## Control the Visibility of Specific Attributes for Product Filter
 You can fine-tune the visibility of specific attributes for the product filter via the Classes & attributes section of the Admin area (**Catalog** > **Classes & attributes**).
+      
+   ![pf_attr_visibility.png]({{site.baseurl}}/attachments/ref_6e82A7rL/pf_attr_visibility.png)
 
 ## Change Product Filter Block Location
 You can change the location of the product filter block on the page using Layout Editor in Webmaster mode. For more info on that, see {% link "Layout Editor" ref_1xoeCJwy %}.
