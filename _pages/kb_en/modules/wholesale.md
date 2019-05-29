@@ -91,10 +91,10 @@ In this case, we need to create and set up pricing tiers as follows:
 If you want to set minimum product purchase quantities for specific membership levels in your store, you can do so via the Inventory tracking section of the chosen product's details:
 
 1.  Select the **Inventory tracking** tab.
-    ![]({{site.baseurl}}/attachments/6389808/8719233.png)
+    ![inventory_tracking_tab.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/inventory_tracking_tab.png)
 
 2.  On the page that opens, use the **Minimum purchase quantity** section to specify a minimum purchase quantity for every membership level and for "all customers" (users without a membership):
-    ![]({{site.baseurl}}/attachments/6389808/8719234.png)
+    ![minimum_purchase_qty.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/minimum_purchase_qty.png)
 
 3.  Click **Update** to save the changes.
 
