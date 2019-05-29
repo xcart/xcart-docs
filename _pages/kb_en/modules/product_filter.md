@@ -81,6 +81,8 @@ To specify the attributes that should be included into the product filter block 
 
       ![]({{site.baseurl}}/attachments/ref_6e82A7rL/Screen%20Shot%202018-01-31%20at%2013.26.33.png)
 
+   3. Save the changes.
+   
 Note that the product filter block wil not be displayed on the page of a category in the store front end if the category itself does not contain products. If the category has subcategories containing products, but does not have any products outside the subcategories, the **Classes for product filter** setting will need to be configured on the pages of the respective subcategories.
 
 ## Control the Visibility of Specific Attributes for Product Filter
