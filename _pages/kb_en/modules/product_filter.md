@@ -29,7 +29,9 @@ The addon settings are as follows:
    * **Enable "Attributes" filter**: If this setting is enabled, the filter block allows users to choose product attributes. If it disabled, filtering by attributes is not provided.
 
      {% note info %}
-     For the "Attributes" filter to be displayed, you need to have attributes configured in your store. For more info on the configuration of attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}. 
+     For the "Attributes" filter to be displayed, you need to have attributes configured in your store, and those need to be global or class-level attributes of the _Plain field_ and/or _Yes/No_ type. Attributes of the_Textarea_ type are never used for the product filter. 
+     Note that you can control which attributes should be visible in the product filter, and which ones not. The visibility of a specific attribute for product filter can be adjusted in the Classes & attributes section of the Admin area (**Catalog** > **Classes & attributes**).
+     For more info on the configuration of attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}. 
      {% endnote %}
 
    * **Enable "Tags" filter**: If this setting is enabled, the filter block allows users to choose product tags. If it disabled, filtering by product tags is not provided.
