@@ -46,7 +46,7 @@ For the information to be automatically submitted from X-Cart to GA make sure th
 
 ![reporting-on.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/reporting-on.png)
 
-By default X-Cart submits 2 categories of events to GA:
+Starting from v5.4.0.0 X-Cart submits 2 categories of events to GA by default:
 - products
 - checkout
 
