@@ -26,26 +26,32 @@ A minimum purchase quantity is a minimum number of product units that can be pur
 To configure wholesale prices:
 
 1.  In your store's Admin area, find the product for which you want to set or modify wholesale prices and open its details.
+
 2.  Switch to the **Wholesale pricing** tab of the product details page. 
-    ![]({{site.baseurl}}/attachments/6389808/8719228.png)
+    ![wholesale_pricing_tab.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_pricing_tab.png)
 
 3.  Add the wholesale pricing tiers you require. For each new tier complete the following steps:
+
     1.  Click the **New tier** button:
-        ![]({{site.baseurl}}/attachments/6389808/8719229.png)
+        ![wholesale_new_tier.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_new_tier.png)
+
         This adds a new blank line to the wholesale pricing table:
-        ![]({{site.baseurl}}/attachments/6389808/8719230.png)
+        ![wholesale_new_line.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_new_line.png)
 
     2.  On the line that has appeared, provide information about the new wholesale pricing tier:
-        ![]({{site.baseurl}}/attachments/6389808/8719231.png)
+        ![wholesale_line_adjust.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_line_adjust.png)
+        
     3.  Click **Save changes**. 
-        The new tier will be added to the table:
-        ![]({{site.baseurl}}/attachments/6389808/8719232.png)
+        ![wholesale_line_save.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_line_save.png)
 
-Now let's take a closer look at how you configure specific pricing tiers. Consider the following example:
+        The new tier will be added to the table:
+        ![wholesale_line_added.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_line_added.png)
+
+Now let us take a closer look at how you configure specific pricing tiers. Consider the following example:
 
 We have a product that we want to sell, and we want to define pricing tiers for it so that customers without a membership would be able to purchase the product at the following prices:
 
-*   *   1-9 units - $50
+    *   1-9 units - $50
     *   10-99 units - $45
     *   100+ units - $40
 
@@ -53,14 +59,14 @@ We have a product that we want to sell, and we want to define pricing tiers for 
 
 We also have a privileged ‘Wholesaler’ membership level to which we want to give even lower prices:
 
-*   *   1-1000 units - $45
+    *   1-1000 units - $45
     *   1001+ units - $35
 
 How do we configure pricing tiers?
 
 In this case, we need to create and set up pricing tiers as follows:
 
-*   *   Quantity range: from 1
+    *   Quantity range: from 1
         Price: $50
         Membership: All customers
     *   Quantity range: from 10
