@@ -98,6 +98,4 @@ If you want to set minimum product purchase quantities for specific membership l
 
 3.  Click **Update** to save the changes.
 
-_Related pages:_
 
-*   {% link "Setting up Sale and Wholesale Pricing in X-Cart 5" ref_g2dhS8uC %} (video)
