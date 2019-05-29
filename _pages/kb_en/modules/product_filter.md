@@ -12,8 +12,10 @@ Let us imagine that you run an online store selling tons of different products. 
 
 ![]({{site.baseurl}}/attachments/ref_6e82A7rL/store-front.png)
 
+## Install Product Filter
 If the addon **Product Filter** is not installed in your X-Cart store, you can install it from the X-Cart Marketplace. Follow the general instructions for {% link "installing and activating addons" ref_0fGEpvrh %}.
 
+## Configure the Product Filter Addon Settings
 Before using the addon, you will need to cofigure it. Open the _Settings_ page and configure the addon according to your business needs.
 
 ![addons.png]({{site.baseurl}}/attachments/ref_6e82A7rL/addons.png)
@@ -29,9 +31,9 @@ The addon settings are as follows:
    * **Enable "Attributes" filter**: If this setting is enabled, the filter block allows users to choose product attributes. If it disabled, filtering by attributes is not provided.
 
      {% note info %}
-     For the "Attributes" filter to be displayed, you need to have attributes configured in your store, and those need to be global or class-level attributes of the _Plain field_ and/or _Yes/No_ type. Attributes of the_Textarea_ type are never used for the product filter. 
-     Note that you can control which attributes should be visible in the product filter, and which ones not. The visibility of a specific attribute for product filter can be adjusted in the Classes & attributes section of the Admin area (**Catalog** > **Classes & attributes**).
-     For more info on the configuration of attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}. 
+     For the "Attributes" filter to be displayed, you need to have attributes configured in your store, and those need to be global or class-level attributes of the _Plain field_ and/or _Yes/No_ type. (Attributes of the_Textarea_ type are never used for the product filter.) 
+     For information on the configuration of attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}.
+     Note that you can control which attributes should be visible in the product filter, and which ones not. For details, see the sections [Set Classes for Product Filter] and [Control the Visibility of Specific Attributes for Product Filter] further below.
      {% endnote %}
 
    * **Enable "Tags" filter**: If this setting is enabled, the filter block allows users to choose product tags. If it disabled, filtering by product tags is not provided.
@@ -58,6 +60,7 @@ The addon settings are as follows:
 
 After adjusting the settings, be sure to click **Submit** to save the changes.
 
+## Set Classes for Product Filter
 To specify the attributes that should be included into the product filter block on a specific category page in the store front end, you will need to do some configuration on the details page of that category: 
 
    1. In your store's Admin area, go to **Catalog** > **Categories** > **_Category_Name_**.
@@ -80,8 +83,10 @@ To specify the attributes that should be included into the product filter block 
 
 Note that the product filter block wil not be displayed on the page of a category in the store front end if the category itself does not contain products. If the category has subcategories containing products, but does not have any products outside the subcategories, the **Classes for product filter** setting will need to be configured on the pages of the respective subcategories.
 
-Once enabled and configured, the product filter will become available on the page of the category in the store front end.
+## Control the Visibility of Specific Attributes for Product Filter
+You can fine-tune the visibility of specific attributes for the product filter via the Classes & attributes section of the Admin area (**Catalog** > **Classes & attributes**).
 
+## Change Product Filter Block Location
 You can change the location of the product filter block on the page using Layout Editor in Webmaster mode. For more info on that, see {% link "Layout Editor" ref_1xoeCJwy %}.
 
 
