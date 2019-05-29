@@ -15,7 +15,7 @@ redirect_from:
 ---
 Wholesale prices and minimum purchase quantities for products can be configured in X-Cart 5 using the addon **[Wholesale](https://market.x-cart.com/addons/wholesale.html)**:
 
-![]({{site.baseurl}}/attachments/6389808/8719226.png)
+![wholesale_addon.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_addon.png)
 
 Wholesale prices are a way to offer multiple levels of pricing for the same product depending on the membership level of the buyer and the quantity of product units ordered.
 
