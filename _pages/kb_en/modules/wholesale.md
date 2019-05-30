@@ -40,7 +40,7 @@ To configure wholesale prices:
 
     2.  On the line that has appeared, provide information about the new wholesale pricing tier:
         * Specify the number of product units starting from which the price of this tier should become available.
-        * Specify the tier price - as a fixed value or as a percentage of Tier-1 price (Quantity range = "from 1").
+        * Specify the tier price - as a fixed value or as a percentage of the unprivileged Tier-1 price (Quantity range = "from 1", Membership = "All customers").
         * Specify the membership level that should provide customers access to the tier price.
         ![wholesale_line_adjust.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_line_adjust.png)
         
@@ -55,15 +55,15 @@ Now let us take a closer look at how you configure specific pricing tiers. Consi
 We have a product that we want to sell, and we want to define pricing tiers for it so that customers without a membership would be able to purchase the product at the following prices:
 
    * 1-9 units - $50
-   * 10-99 units - $45
-   * 100+ units - $40
+   * 10-99 units - $49
+   * 100+ units - $47
 
 (As you can see, the more units of the product is purchased, the lower the price).
 
 We also have a privileged ‘Wholesaler’ membership level to which we want to give even lower prices:
 
-   * 1-1000 units - $45
-   * 1001+ units - $35
+   * 1-1000 units - $45 (a 10% discount off the unprivileged Tier-1 price, $50)
+   * 1001+ units - $42.5 (a 15% discount off the unprivileged Tier-1 price, $50)
 
 How do we configure pricing tiers?
 
@@ -74,19 +74,19 @@ In this case, we need to create and set up pricing tiers as follows:
        Membership: All customers
        
    *   Quantity range: from 10
-       Price: $45
+       Price: $49
        Membership: All customers
        
    *   Quantity range: from 100
-       Price: $40
+       Price: $47
        Membership: All customers
        
    *   Quantity range: from 1
-       Price: $45
+       Price: $45 or 90%
        Membership: Wholesaler
        
    *   Quantity range: from 1000
-       Price: $35
+       Price: $42.5 or 85%
        Membership: Wholesaler
 
 ## Set up Minimum Purchase Quantities per Membership Level
