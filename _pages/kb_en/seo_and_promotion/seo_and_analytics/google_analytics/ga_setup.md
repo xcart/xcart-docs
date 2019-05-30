@@ -37,7 +37,7 @@ Prior to configuring the GA integration module in X-Cart you need to get a Web P
       4. Your Web Property ID is in the **Property** -> **Tracking info** -> **Tracking code** section
          ![property-id.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/property-id.png)
 
-2. Copy the Web Property ID value. You'll need it for the X-Cart Google Analytics module configuration a bit later.
+2. Copy the Web Property ID value. You'll need it for the [X-Cart Google Analytics module configuration](https://kb.x-cart.com/seo_and_promotion/seo_and_analytics/google_analytics/ga_setup.html#x-cart-google-analytics-module-set-up "Installing and Configuring  Google Analytics Module") a bit later.
 
 3. Proceed to **E-Commerce Settings** section of the GA admin  
    ![checkout-GA-admin.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/checkout-GA-admin.png)
@@ -80,7 +80,7 @@ The module configuration settings are as follows:
 
   ![settings.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/settings.png)
 
-* **Web Property ID** : Specify your Google Analytics Web Property ID here.
+* **Web Property ID** : Specify your [Google Analytics Web Property ID](https://kb.x-cart.com/seo_and_promotion/seo_and_analytics/google_analytics/ga_setup.html#google-analytics-account-set-up "Installing and Configuring  Google Analytics Module") here.
 * **What are you tracking** : Choose between _single domain_ / _one domain with multiple subdomains_ / _multiple top level domains_ depending on your preferences. 
 * **Google Analytics code version** : Choose between _Universal Analytics_ and _Traditional Analytics_.
   
