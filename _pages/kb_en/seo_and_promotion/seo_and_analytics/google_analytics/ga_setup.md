@@ -93,3 +93,8 @@ The module configuration settings are as follows:
 **Submit** changes when the module configuration is complete. 
 
 Google Analytics will collect statistics based on the settings you specified.
+
+_Related pages_:
+
+*  {% link "Ecommerce Tracking with Google Analytics" ref_3B4yRZ99 %}
+*  {% link "Ecommerce Dashboards" ref_38zRtgUZ %}
