@@ -17,12 +17,12 @@ An X-Cart store uses images for store categories, products and brands. It also a
 
 The performance of your X-Cart store - specifically, how fast a store page loads for store visitors - depends largely on the use of images. Large hi-res images slow down your store's web pages which creates a less than optimal user experience. To ensure a positive experience for your customers, we recommend you invest some time into optimizing your images. For example, you know your customers will want a highly detailed image on a product page, but are unlikely to need such a "heavy" image on a page where the product is listed along with other products (a product list page). X-Cart can help you to optimize your image use in this case by providing a hi-res image only for the detailed page of a product and generating smaller resized images of the same product for pages requiring less detail. As a result, you will have different size versions of the same product image for every type of page with product information (a detailed image for the detailed product page, and two smaller images for the product list: one for list view, and another one for grid view). 
 
-To create the resized versions of images for your X-Cart store, adjust your image display preferences or upload custom images, visit the Images section of your store's Admin area (**Look&Feel** -> **Images**):
+To adjust your image optimization preferences, create resized versions of images for your X-Cart store or upload custom images, visit the Images section of your store's Admin area (**Look&Feel** -> **Images**).
 ![images.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images.png)
 
 {% toc %}
 
-## Default Image Settings
+## Adjust Image Optimization Preferences
 Any images used in your X-Cart store will be displayed in accordance with the configuration settings defined in the **Default image settings** part of the **Images** section (**Look&Feel** -> **Images**).
 
 ![images-3.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images-3.png)
@@ -42,9 +42,10 @@ Any images used in your X-Cart store will be displayed in accordance with the co
 
 The chart in the lower part of the Default image settings section provides information on the dimension limits  (width(px) and height(px)) for different types of images. (Note that these will be different depending on the {% link "skin installed" ref_GLqVdpgd %}.). All the images in your store will be resized to fit these dimension limits taking into account the image settings above. You can change the default image dimension limits if required; however, please keep in mind that the original image should be at least twice as big as the size to which it will be resized.
 
-Clicking the **Generate resized images** button (next to the **Save** button) launches an image resizing routine to generate copies of existing images in all the sizes needed to display these images in your store's front end. Having a separate image file in each of the sizes provides a way to speed up your site's performance by reducing page load times for pages containing graphics.
+## Generate Resized Images
+Clicking the **Generate resized images** button (at the bottom of the **Default image settings** section, next to the **Save** button) launches an image resizing routine to generate copies of existing images in all the sizes needed to display these images in your store's front end. Having a separate image file in each of the sizes provides a way to speed up your site's performance by reducing page load times for pages containing graphics.
 
-## Custom Images 
+## Upload Custom Images 
 Any custom images that you want to use in your X-Cart store can be stored on the same server where your X-Cart software is installed. 
 
 Before you continue, make sure the module **Simple CMS** is {% link "installed and enabled" ref_0fGEpvrh %} in your store.
