@@ -11,8 +11,13 @@ order: 300
 redirect_from:
   - /look_and_feel/uploading_custom_images_onto_your_stores_server.html
 ---
+Images make a tremendous difference in the success of your online store; they play an important part in providing customers with the necessary information to find the product they require and make a buying decision. 
+ 
+An X-Cart store uses images for store categories, products and brands. It also allows you to upload your own images for custom use (for example, images that you include in product or category descriptions). 
 
-X-Cart resizes original images to display them on a page. All images in X-Cart can be managed in the **Look&Feel** -> **Images** section of the admin backend where you can configure the default image settings and upload custom images if required.
+Product images have different size versions for the different types of pages on which the product information needs to be displayed. For example, different versions of an image are used to display a product on a product list page and on a detailed product page. For product list pages, there are, actually, two different size versions of a product image: one for list view, and another one for grid view. All the required size variations of product images are generated automatically when you upload an image for a product. This leaves you with quite a number of images created by automatically resizing the original images that you upload. You need to ensure that the resized images have a good enough quality for your customers to have a great shopping experience.
+
+The general management of images in your X-Cart store can be done via the Images section of your store's Admin area (**Look&Feel** -> **Images**). Here you can configure the default image settings and upload custom images, if required.
 
 ![images.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images.png)
 
@@ -20,7 +25,7 @@ X-Cart resizes original images to display them on a page. All images in X-Cart c
 
 ## Default Image Settings
 
-Any images used in the store will be displayed in accordance with the configuration settings defined in the **Default image settings** part of the **Images** section (**Look&Feel** -> **Images**).
+X-Cart resizes original images to display them on a page. Any images used in the store will be displayed in accordance with the configuration settings defined in the **Default image settings** part of the **Images** section (**Look&Feel** -> **Images**).
 
 ![images-3.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images-3.png)
 
