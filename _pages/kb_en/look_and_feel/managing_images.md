@@ -40,9 +40,9 @@ Any images used in your X-Cart store will be displayed in accordance with the co
   If you do not see the setting **Use blurred image placeholders for smart image loading** on the page, it is not supported by the skin installed in your X-Cart store at the moment.
   {% endnote %}
 
-The images size chart presents the actual space (width(px) and height(px)) available for an image on a page and differs depending on the {% link "skin installed" ref_GLqVdpgd %}. All images used in the store are resized to fit the image space taking into account the settings configured above. You can change the default sizes if required. However, please keep in mind that the original image should be at least 2 times bigger than the size of an image space it will be resized to.
+The chart in the lower part of the Default image settings section provides information on the dimension limits  (width(px) and height(px)) for different types of images. (Note that these will be different depending on the {% link "skin installed" ref_GLqVdpgd %}.). All the images in your store will be resized to fit these dimension limits taking into account the image settings above. You can change the default image dimension limits if required; however, please keep in mind that the original image should be at least twice as big as the size to which it will be resized.
 
-Clicking the **Generate resized images** button (next to the **Save** button) launches the actual image resizing routine to generate copies of existing images in all the sizes needed to display the images in your store's front end. Having a separate image file in each of the sizes provides a way to speed up your site's performance by reducing page load times for pages containing graphics.
+Clicking the **Generate resized images** button (next to the **Save** button) launches an image resizing routine to generate copies of existing images in all the sizes needed to display these images in your store's front end. Having a separate image file in each of the sizes provides a way to speed up your site's performance by reducing page load times for pages containing graphics.
 
 ## Custom Images 
 Any custom images that you want to use in your X-Cart store can be stored on the same server where your X-Cart software is installed. 
