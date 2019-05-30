@@ -45,15 +45,11 @@ The images size chart presents the actual space (width(px) and height(px)) avail
 Clicking the **Generate resized images** button (next to the **Save** button) launches the actual image resizing routine to generate copies of existing images in all the sizes needed to display the images in your store's front end. Having a separate image file in each of the sizes provides a way to speed up your site's performance by reducing page load times for pages containing graphics.
 
 ## Custom Images 
-
 Any custom images that you want to use in your X-Cart store can be stored on the same server where your X-Cart software is installed. 
 
-{% note info %}
 Before you continue, make sure the module **Simple CMS** is {% link "installed and enabled" ref_0fGEpvrh %} in your store.
 
 ![simple-cms.png]({{site.baseurl}}/attachments/ref_zyQIOcia/simple-cms.png)
-
-{% endnote %}
 
 To upload an image:
 
