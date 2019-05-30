@@ -73,17 +73,21 @@ In this case, we need to create and set up pricing tiers as follows:
     *   Price: $50
     *   Membership: All customers
        
+       
 *   *   Quantity range: from 10
     *  Price: $49
     *  Membership: All customers
+       
        
 *   *  Quantity range: from 100
     *  Price: $47
     *  Membership: All customers
        
+       
 *   *  Quantity range: from 1
     *  Price: $45 or 90%
     *  Membership: Wholesaler
+       
        
 *   *  Quantity range: from 1000
     *  Price: $42.5 or 85%
