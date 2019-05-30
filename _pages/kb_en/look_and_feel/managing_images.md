@@ -23,16 +23,13 @@ To create the resized versions of images for your X-Cart store, adjust your imag
 {% toc %}
 
 ## Default Image Settings
-
-X-Cart resizes original images to display them on a page. Any images used in the store will be displayed in accordance with the configuration settings defined in the **Default image settings** part of the **Images** section (**Look&Feel** -> **Images**).
+Any images used in your X-Cart store will be displayed in accordance with the configuration settings defined in the **Default image settings** part of the **Images** section (**Look&Feel** -> **Images**).
 
 ![images-3.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images-3.png)
 
-The default image settings are as follows:
-
-* **Use dynamic image resizing** : This setting determines what happens if X-Cart cannot find a previously generated resized version of an image that it needs to display. If this setting is enabled, an appropriately sized version of the image is generated on the fly. If this setting is disabled, the original (non-resized) image is used.
+* **Use dynamic image resizing** : X-Cart can resize the original images to display them on a page. Typically you use the **Generate resized images** feature (see the button of the same name in the lower part of the page) to generate smaller resized versions for your images. The setting "Use dynamic image resizing" can help with situations when X-Cart cannot find a previously generated resized version of an image it needs to display. If this setting is enabled, an appropriately sized version of the image is generated on the fly. If this setting is disabled, the original (non-resized) image is used.
 * **Image quality after resize** : Set the desired image quality in %.
-* **Apply unsharp mask filter on resize** : This setting allows to increase the sharpness of the resized images in the most highly detailed areas of the image. (_becomes available only if GDLib is installed on the server_)
+* **Apply unsharp mask filter on resize** : This setting enables you to increase the sharpness of the resized images in the most highly detailed areas of the image.
   {% note info %}
   The **Apply unsharp mask filter on resize** setting is available only if the server on which X-Cart is hosted is configured to use **gdlib**. If the server is configured to use **imagmagic**, the setting is not available.
   {% endnote %}
