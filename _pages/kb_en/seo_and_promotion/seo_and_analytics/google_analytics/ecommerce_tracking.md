@@ -36,25 +36,28 @@ All reports are joined into groups that are listed in the left column to your co
 3. **Acquisition** section shows you how and where did you get your customers (through search, social, referrals, advertising, or direct visits).
 4. **Behavior** section contains reports on the visitors' interaction with your site. You can learn what pages are most popular with your customers, get stats on the site events, etc.
 5. **Conversions** section is useful for tracking conversion rates for your stated goals. 
-
-
-The **Conversions** -> **E-commerce** tab is where you can see the basic sales funnel reports sent by your X-Cart store to GA. These reports are based on a linear path to purchase logic. Here you can trace the standard % Completion and % Abandonment rates.
   
-![default-ecommerce-tracking.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/default-ecommerce-tracking.png)
+  The **Conversions** -> **E-commerce** tab is where you can see the basic sales funnel reports sent by your X-Cart store to GA. These reports are based on a linear path to purchase logic. Here you can trace the standard % Completion and % Abandonment rates.
+  
+  ![default-ecommerce-tracking.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/default-ecommerce-tracking.png)
+   
+   {% note info %}
+   For the information to be automatically submitted from X-Cart to GA make sure the **Enable Enhanced Ecommerce Reporting** option is enabled in the **Ecommerce Settings** -> **Enhanced Ecommerce Settings** section:
+   ![GA-ecommerce-enabled.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/GA-ecommerce-enabled.png)
+   {% endnote %}
 
-For the information to be automatically submitted from X-Cart to GA make sure the **Enable Enhanced Ecommerce Reporting** option is enabled in the **Ecommerce Settings** -> **Enhanced Ecommerce Settings** section:
+   
+Starting from v5.4.0.0 X-Cart submits PRODUCTS and CHECKOUT categories of events to GA by default that be checked in GA on the **Behaviour** -> **Events** -> **Overview** page: 
+![GA-events.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/GA-events.png)
 
-![reporting-on.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/reporting-on.png)
+The PRODUCTS events include the 'search', 'add to cart' and 'remove from cart' actions. Also GA counts impressions on product clicks when a product detail page is viewed from any listing page (category page, related products page, etc.) except for the recently viewed page and the search results page is displayed.
 
-Starting from v5.4.0.0 X-Cart submits 2 categories of events to GA by default:
-- products
-- checkout
+The PRODUCTS impressions can be viewed in GA on the **Conversions** -> **E-Commerce** -> **Product Performance** page:
+![GA-impressions.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/GA-impressions.png)
 
-The products' events include the 'search', 'add to cart' and 'remove from cart' actions. Also GA counts impressions on product clicks when a product detail page is viewed from any listing page (category page, related products page, etc.) except for the recently viewed page and the search results page is displayed.
+The CHECKOUT events include the 'add personal info', 'choose shipping method', 'choose payment method', 'confirm order' and 'invoice/receipt' actions. In case checkout is traced for an existing customer who doesn't need to fill in the personal info, the 'open checkout' action is traced. 
 
-The products impressions can be viewed in GA on the **Product Performance** page (**Conversions** -> **E-Commerce**)
+The CHECKOUT events can be viewed in GA on the **Conversions** -> **E-Commerce** -> **Checkout** page:
+![GA-checkout.png]({{site.baseurl}}/attachments/ref_3B4yRZ99/GA-checkout.png)
 
-The checkout events include the 'add personal info', 'choose shipping method', 'choose payment method', 'confirm order' and 'invoice/receipt' actions. In case checkout is traced for an existing customer who doesn't need to fill in the personal info, the 'open checkout' action is traced. 
-
-The checkout events can be viewed in GA on the **Sales Performance** page (**Conversions** -> **E-Commerce**).
-
+To learn more about how to use Google Analytics for your prosperity and understand GA reports beter turn to [free Google Analytics courses](https://analytics.google.com/analytics/academy/ "Ecommerce Tracking with Google Analytics"). 
