@@ -39,6 +39,9 @@ To configure wholesale prices:
         ![wholesale_new_line.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_new_line.png)
 
     2.  On the line that has appeared, provide information about the new wholesale pricing tier:
+        * Specify the number of product units starting from which the price of this tier should become available.
+        * Specify the tier price - as a fixed value or as a percentage of Tier-1 price (Quantity range = "from 1").
+        * Specify the membership level that should provide customers access to the tier price.
         ![wholesale_line_adjust.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_line_adjust.png)
         
     3.  Click **Save changes**. 
