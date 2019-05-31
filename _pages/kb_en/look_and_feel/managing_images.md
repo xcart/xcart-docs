@@ -62,6 +62,8 @@ To upload an image:
 The image will be uploaded:
 ![images-2.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images-2.png)
 
+## Use Amazon S3 for Images
+X-Cart provides an addon that can be used to move all your category and product images over to the "cloud" storage services offered by Amazon. See the addon **[Amazon S3 Images](https://market.x-cart.com/addons/amazon-s3-images.html)** in X-Cart's Marketplace.
 
 _Related pages:_
 
