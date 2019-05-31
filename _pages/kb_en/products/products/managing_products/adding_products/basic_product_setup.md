@@ -23,6 +23,8 @@ The following list of fields corresponds to the set of product fields available 
 
 ## General Info
 
+![product_info.png]({{site.baseurl}}/attachments/ref_2D8wAeXP/product_info.png)
+
 *   **Vendor**: Company name and email of the vendor who owns the product. This field is only available if X-Cart's {% link "Multi-vendor" ref_cvwmAuRi %} addon is active. Since an administrator can create products not only for themselves, but also for other users (vendors), this field needs to be adjusted to specify the owner of the product.
 
 *   **Product name**: The name by which you and your customers will identify this product.
@@ -55,6 +57,8 @@ The following list of fields corresponds to the set of product fields available 
 
 ## Prices & Inventory
 
+![prices_inventory.png]({{site.baseurl}}/attachments/ref_2D8wAeXP/prices_inventory.png)
+
 *   **Memberships**: Membership levels to which this product should be available. Non-members and users belonging to other membership levels will not be able to see the product on the storefront. For more info on memberships in X-Cart, see the section {% link "User membership levels" ref_RXsgxNSm %} of this manual.
 
 *   **Tax class**: The tax class to which the product belongs (Defines what taxes should be applied to the product). For more info on tax classes, see: {% link "Setting up tax classes" ref_pAWOdG8N %}.
@@ -81,6 +85,8 @@ The following list of fields corresponds to the set of product fields available 
 
 ## Shipping
 
+![product_shipping.png]({{site.baseurl}}/attachments/ref_2D8wAeXP/product_shipping.png)
+
 *   **Weight**: Product weight. If the product requires shipping, this setting may affect the calculation of order shipping cost.
 
 *   **Requires shipping**: Whether this product requires shipping. This setting affects the calculation of order shipping cost. (If the product does not require shipping, the shipping cost for it will not be calculated).
@@ -94,6 +100,8 @@ The following list of fields corresponds to the set of product fields available 
 *   **Separate box**: Whether the product needs to be shipped separately from other products. If it needs to be shipped in a separate box, you can define the box dimensions and the maximum number of product units that fit in this box. This setting affects the calculation of order shipping cost.
     
 ## Marketing
+
+![product_marketing.png]({{site.baseurl}}/attachments/ref_2D8wAeXP/product_marketing.png)
 
 *   **Open Graph meta tags**: The custom META tags for sharing the product page on Facebook.
 
