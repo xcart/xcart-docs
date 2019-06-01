@@ -48,9 +48,9 @@ To adjust the way new arrivals should be displayed to your store's visitors, you
 
     *   **Display "New arrivals" block on sidebar (otherwise in center area)**: This setting defines the location of the "New arrivals" block. Enable if you want the "New arrivals" block to appear in the sidebar. Disable if you want this block to be displayed in the central area of your store site. 
     
-    {% note yellow %}
-    __X-Cart 5.1.x__: Drupal block settings can override this option (when the DrupalConnector addon is enabled).
-    {% endnote %}
+        {% note yellow %}
+        __X-Cart 5.1.x__: Drupal block settings can override this option (when the DrupalConnector addon is enabled).
+        {% endnote %}
     
         {% note info %}
         The setting "Display "New arrivals" block on sidebar (otherwise in center area)" is not available in newer X-Cart versions (X-Cart 5.3.1.4 and later). To change the position of the "New arrivals" block, use the {% link "Layout Editor" ref_1xoeCJwy %} in Webmaster mode.
@@ -58,9 +58,9 @@ To adjust the way new arrivals should be displayed to your store's visitors, you
     
     *   **Maximum number of products to display in "New arrivals" block**: This setting defines the maximum number of products that can be displayed in the "New arrivals" block. Specify a non-zero value; otherwise, 3 products will be displayed by default. If the specified value is less than the total amount of products on the complete new arrivals list, that value will be used instead. 
 
-    {% note yellow %}
-    __X-Cart 5.1.x__: Drupal block settings can override this option (when the DrupalConnector addon is enabled).
-    {% endnote %}
+        {% note yellow %}
+        __X-Cart 5.1.x__: Drupal block settings can override this option (when the DrupalConnector addon is enabled).
+        {% endnote %}
 
     *   **Show new products only from category being viewed by customer**: Disable this setting to show new arrivals from the entire store. Enable to show only the new arrivals from the category the customer is currently viewing.
 
