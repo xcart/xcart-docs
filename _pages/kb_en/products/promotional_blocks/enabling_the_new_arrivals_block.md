@@ -46,6 +46,12 @@ To adjust the way new arrivals should be displayed to your store's visitors, you
         * _On catalog and product pages_ - "New" labels will be used on catalog pages (like on the screenshot above) AND on product pages (like on the screenshot below):
           ![xc5_productadvisor_new_label_on_productpage.png]({{site.baseurl}}/attachments/ref_2A50nkO9/xc5_productadvisor_new_label_on_productpage.png)
 
+    *   **Display "New arrivals" block on sidebar (otherwise in center area)**: This setting defines the location of the "New arrivals" block. Enable if you want the "New arrivals" block to appear in the sidebar. Disable if you want this block to be displayed in the central area of your store site. Drupal block settings can override this option (when the DrupalConnector addon is enabled).
+        
+        {% note info %}
+        The setting "Display "New arrivals" block on sidebar (otherwise in center area)" is not available in newer X-Cart versions (X-Cart 5.3.1.4 and later). To change the position of the "New arrivals" block, use the {% link "Layout Editor" ref_1xoeCJwy %} in Webmaster mode.
+        {% endnote %}
+    
     *   **Maximum number of products to display in "New arrivals" block**: This setting defines the maximum number of products that can be displayed in the "New arrivals" block. Specify a non-zero value; otherwise, 3 products will be displayed by default. If the specified value is less than the total amount of products on the complete new arrivals list, that value will be used instead. 
 
     {% note yellow %}
