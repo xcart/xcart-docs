@@ -29,7 +29,7 @@ After the store administrator chooses to update the order fulfilment status to a
 The buyer will also recieve the PIN code in an e-mail notification message. More info on email notificatons is available in the section {% link "Email Notifications: Set Up and Maintenance" ref_5QLrLCu7 %}.
 
 {% note info %}
-In case a customer pays with a subscription for a product with PIN codes s/he receives all {% link "X-Payments" ref_8VFoqBFZ %} related e-mail notifications as well as regular PIN Codes related notifications on the order status updates. Depending on whether the _Approve before providing access to download_ option is enabled or not the customer will receive a PIN code either right after the subscription is paid or after the subscription is paid and the _Waiting for approve_ fulfilment status is changed to any other, except for _Will not deliver_.
-
-Such customer will receive an updated PIN code each time a subscription is paid.
+If the store uses {% link "X-Payments subscriptions" ref_8VFoqBFZ %}, a customer who has purchased a PIN code product on subscription will get all {% link "X-Payments" ref_8VFoqBFZ %} related email notifications as well as the regular PIN code related notifications. An updated PIN code will be mailed to them every time they pay a subscription fee. Note that if the store administrator has enabled manual reviews for PIN code product orders, the customer will also have to wait for the order status to be updated appropriately to any status other than _Will not deliver_ before they can access the code.
 {% endnote %}
+
+ 
