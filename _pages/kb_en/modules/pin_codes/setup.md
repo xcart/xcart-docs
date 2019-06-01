@@ -17,6 +17,8 @@ You will see a screen like the following:
 
 The following settings can be adjusted:
 
-* **Show only ESD related fulfilment statuses**: If enabled, there will be only 3 order fulfilment statuses available: _New_, _Delivered_ and _Will Not Deliver_. You can rename them using the addon {% link "Custom Order Statuses" ref_7FIU2sxJ %}, if necessary.
+* **Show only ESD related fulfilment statuses**: If you sell only PIN codes or downloadable products and want to get rid of any fulfilment statuses that are used for tangible goods, but not for PIN codes/e-goods, enable this option. It will disable all the standard X-Cart order fulfilment statuses except for the following three: _New_, _Delivered_ and _Will Not Deliver_. If you wish you can rename the statuses as you require using the addon {% link "Custom order statuses" ref_7FIU2sxJ %}.
 
-* **Approve before providing access**: If enabled, the initial fulfilment status for each new order with a PIN code will be set automatically to _Waiting for approve_, and the buyer will get the code only after the fulfilment status for the order has been changed to anything other than _Will Not Deliver_. If disabled, the buyer will get the code right after the order has been paid for.
+* **Approve before providing access**: Disable this option if you want the buyer of a PIN code to automatically get the code they have purchased as soon as they have paid for the order. Enable this option if you want all orders for PIN codes to be submitted to you for manual review first so you can approve or forbid access to the codes. (In the manual review mode, all PIN code orders will be created with the fulfilment status _Waiting for approve_; for the buyer to get the code, you will need to reset the order fulfilment status from _Waiting for approve_ to any other status, except for _Will not deliver_).
+
+
