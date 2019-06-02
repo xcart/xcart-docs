@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-06-02 18:25 +0400'
 identifier: ref_6uKhrmMh
-title: ''
+title: 'PIN Codes Addon: Admin Experience'
 order: 100
 published: true
 redirect_from:
