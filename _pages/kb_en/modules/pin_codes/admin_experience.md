@@ -12,13 +12,16 @@ published: true
 Adding a product with PIN codes is similar to adding an ordinary product described in {% link "Adding Products" ref_fhzzxDTy %}. The only difference is that you must also generate PIN codes for the product using the _PIN Codes_ tab on the Product details page in the store back end.
 
 To add a PIN code to a product:
+
 1. Create, import or clone a product as described in {% link "Adding Products" ref_fhzzxDTy %}.
+
 2. On the _Info_ tab of the Product details page, locate the **Shipping** section and disable shipping for the product.
   ![shipping.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/shipping.png)
-3. On the Product details page, locate the _PIN Codes_ tab and enable PIN codes for the product.
+  
+3. Switch to the _PIN Codes_ tab and enable the setting **PIN codes enabled**. This enables the PIN codes feature for the product.
   ![pin_tab-2.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/pin_tab-2.png)
 
-4. Once enabled, you can add PIN codes to the product:
+4. Now you can add PIN codes for the product. 
     
    * **AUTOMATICALLY**
      ![automatically.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/automatically.png)
@@ -44,7 +47,7 @@ To add a PIN code to a product:
         Manual PIN codes are limited to 64-digit alphanumeric code.
         {% endnote %}
         
-5. After adding PIN codes to the product, be sure to save your changes.
+5. After adding PIN codes for the product, be sure to save your changes.
 
 Afterwards you will be able to trace used PINs and delete unused ones (for manually-generated PINs only) if required:
 <div class="ui stackable two column grid">
