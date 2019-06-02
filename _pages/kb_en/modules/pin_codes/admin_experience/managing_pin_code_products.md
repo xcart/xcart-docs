@@ -13,15 +13,16 @@ Adding a product with PIN codes is similar to adding an ordinary product describ
 
 To add a PIN code to a product:
 
-1. Create, import or clone a product as described in {% link "Adding Products" ref_fhzzxDTy %}.
+1. Create a new product as described in {% link "Adding Products" ref_fhzzxDTy %} or use an existing one. Open the details of this product for viewing/modification.
+   For the sake of example, we are going to use a product "License PIN". It is going to be our PIN code product.
 
 2. On the _Info_ tab of the Product details page, locate the **Shipping** section and disable shipping for the product.
-  ![shipping.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/shipping.png)
+   ![shipping.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/shipping.png)
   
 3. Switch to the _PIN Codes_ tab and enable the setting **PIN codes enabled**. This enables the PIN codes feature for the product.
-  ![pin_tab-2.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/pin_tab-2.png)
+   ![pin_codes_enable.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/pin_codes_enable.png)
 
-4. Now you can add PIN codes for the product. 
+4. Now you can add PIN codes for the product. PIN codes can be added either manually or automatically. You can choose one of the options.
     
    * **AUTOMATICALLY**
      ![automatically.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/automatically.png)
@@ -54,4 +55,3 @@ Afterwards you will be able to trace used PINs and delete unused ones (for manua
   <div class="column" markdown="span">![sold-auto.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/sold-auto.png)</div>
   <div class="column" markdown="span">![sold-manual.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/sold-manual.png)</div>
 </div>
-
