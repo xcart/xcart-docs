@@ -16,4 +16,4 @@ Once the addon has been configured, it is time to configure some PIN code produc
    * {% link "Managing PIN Code Products" ref_5kUqjYZ7 %}
 
 The processing of orders for PIN code products has some specifics. For information on this, see: 
-   * {% link "Processing Orders for PIN Code Products"  %}
+   * {% link "Processing Orders for PIN Code Products" ref_51VMMYKj %}
