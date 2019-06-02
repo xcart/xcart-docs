@@ -5,7 +5,7 @@ updated_at: '2019-06-02 18:36 +0400'
 identifier: ref_51VMMYKj
 title: Processing Orders for PIN Code Products
 order: 100
-published: false
+published: true
 ---
 Your store customers can pay for products with PIN codes using any of the available payment options, including both online and offline methods. 
 
