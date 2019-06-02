@@ -13,7 +13,7 @@ To use the addon **PIN codes**, the store administrator must enable and configur
    * {% link "PIN Codes Addon: Installation and Setup" ref_1dsuHf3i %}
    
 Once the addon has been configured, it is time to configure some PIN code products. See:   
-   * {% link "Managing PIN Code Products"  %}
+   * {% link "Managing PIN Code Products" ref_5kUqjYZ7 %}
 
 The processing of orders for PIN code products has some specifics. For information on this, see: 
    * {% link "Processing Orders for PIN Code Products"  %}
