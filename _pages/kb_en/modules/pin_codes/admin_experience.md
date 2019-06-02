@@ -17,27 +17,34 @@ To add a PIN code to a product:
   ![shipping.png]({{site.baseurl}}/attachments/ref_3sGGx0lV/shipping.png)
 3. On the Product details page, locate the _PIN Codes_ tab and enable PIN codes for the product.
   ![pin_tab-2.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/pin_tab-2.png)
+
 4. Once enabled, you can add PIN codes to the product:
-    * **AUTOMATICALLY**
-    ![automatically.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/automatically.png)
-    If you choose automatic PIN codes generation, X-Cart will automatically generate a 16-digit numeric code that will be sent to the customer after the order is paid for.
-    * **MANUALLY**
-    ![manual.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/manual.png)
-    If you choose manual PIN codes generation, you will have two options:
-      * Add codes manually
-        * Click the **'Add pin codes'** button
-        * Type the PIN codes you need in a pop-up
+    
+   * **AUTOMATICALLY**
+     ![automatically.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/automatically.png)
+     If you choose to use automatic PIN code generation, X-Cart will automatically generate a 16-digit numeric code.
+    
+   * **MANUALLY**
+     ![manual.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/manual.png)
+     If you choose manual PIN code generation, you will be able to either add the codes manually typing them by hand or to import the codes from a CSV file.
+      
+     To add codes manually:
+     1. Click the button **Add pin codes**.
+     2. In the popup that appears, type the PIN codes you require.
         ![add-pin.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/add-pin.png)
-        * Click **'Add pin codes'**
-      * Import codes via CSV
-        * Click the **'Import from CSV file'** button
-        * Choose the file to import in a pop-up
+     3. Click **Add pin codes**.
+       
+     To import codes via CSV:
+     1. Click the button **Import from CSV file**.
+     2. In the popup that appears, choose the CSV file for import.
         ![csv.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/csv.png)
-        * Click **'Upload'**
+     3. Click **Upload**.
+        
         {% note info %}
-        Manual PIN codes are limited to 64-digit alphanumeric code
+        Manual PIN codes are limited to 64-digit alphanumeric code.
         {% endnote %}
-5. Save the changes.
+        
+5. After adding PIN codes to the product, be sure to save your changes.
 
 Afterwards you will be able to trace used PINs and delete unused ones (for manually-generated PINs only) if required:
 <div class="ui stackable two column grid">
