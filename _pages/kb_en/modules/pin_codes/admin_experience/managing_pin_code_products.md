@@ -33,15 +33,23 @@ To add a PIN code to a product:
      With this option enabled, you will be able to either add PIN codes manually typing them by hand or to import the codes from a CSV file.
       
      To add PIN codes manually:
+     
      1. Click the button **Add pin codes**.
+        ![pin_codes_add_manually0.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/pin_codes_add_manually0.png)
+
      2. In the popup that appears, type the PIN codes you require.
-        ![add-pin.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/add-pin.png)
+        ![pin_codes_add_manually.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/pin_codes_add_manually.png)
+     
      3. Click **Add pin codes**.
        
      To import PIN codes via CSV:
+     
      1. Click the button **Import from CSV file**.
+        ![pin_codes_import0.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/pin_codes_import0.png)
+
      2. In the popup that appears, choose the CSV file for import.
-        ![csv.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/csv.png)
+        ![pin_codes_import.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/pin_codes_import.png)
+     
      3. Click **Upload**.
         
         {% note info %}
