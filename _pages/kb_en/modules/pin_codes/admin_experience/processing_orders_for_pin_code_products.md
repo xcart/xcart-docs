@@ -33,19 +33,4 @@ Once an order is processed, a store admin can check the PINs sold via the _PIN c
 
 ![order.png]({{site.baseurl}}/attachments/ref_5kUqjYZ7/order.png)
 
-Due to the specificity of how digital products are delivered, the addon PIN Codes enables you to have more control of how orders with PIN codes are processed: 
-- you can disable all online payment methods, which mostly work for automatic order processing;
-- you can choose to enable only those payment methods that require manual processing; 
-- you can choose the payments that allow using the "auth only" mode. 
 
-{% note info %}
-
-The "auth only" option means that a payment gateway does not really withdraw the order total from a customer's credit card, but it only checks whether the sum is available and temporarily freezes this money until a later time, which is limited by the terms and conditions of the payment gateway. The store administrator can then either capture the authorized amount or void it. As soon as the reserved money is captured, the order gets processed and a download link becomes available in X-Cart customer account.
-
-{% endnote %}
-
-Processing orders that contain products with PIN codes using payments with "auth only" mode as well as using other methods that require manual order processing allows you to filter suspicious and potentially fraudulent orders and approve only trustworthy purchases.
-
-{% note info %}
-If you are using the addon PIN Codes along with {% link "X-Payments subscriptions" ref_8VFoqBFZ %}, a customer will get an updated PIN code for the product each time a subscription fee is paid.
-{% endnote %}
