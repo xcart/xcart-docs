@@ -11,5 +11,5 @@ The addon [PIN Codes](https://market.x-cart.com/addons/pin-codes.html "PIN Codes
 
 _In this section_:
 * {% link "PIN Codes Addon: Installation and Setup" ref_5uEPaGnt %}
-* {% link "PIN Codes Addon: Admin Experience" ref_5kUqjYZ7 %}
+* {% link "PIN Codes Addon: Admin Experience" ref_6uKhrmMh %}
 * {% link "PIN Codes: Customer Experience" ref_6zxUp9Kr %}
