@@ -6,6 +6,8 @@ identifier: ref_6uKhrmMh
 title: ''
 order: 100
 published: false
+redirect_from:
+  - /modules/pin_codes/admin_experience.html
 ---
 To use the addon **PIN codes**, the store administrator must enable and configure it. For instructions, see:
    * {% link "PIN Codes Addon: Installation and Setup" ref_1dsuHf3i %}
