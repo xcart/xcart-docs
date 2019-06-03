@@ -9,6 +9,9 @@ published: true
 description: Take data from other e-commerce platforms and set up X-Cart store with it
 redirect_from:
   - /general_setup/migration/
+categories:
+  - home
+icon: trophy
 ---
 If you are already selling on another platform but would like to move your store to X-Cart use our guides to get started with your store migration.
 
