@@ -223,13 +223,13 @@ A video guide for installing X-Cart is available:
     for zip archive: 
 
     ```php
-    unzip x-cart-5.3.6.0-en.zip
+    unzip x-cart-5.3.6.1-en.zip
     ```
 
     for tgz archive: 
 
     ```php
-    tar -xzpf x-cart-5.3.6.0-en.tgz
+    tar -xzpf x-cart-5.3.6.1-en.tgz
     ```
 
     (Be sure to replace the file name with the actual name of the archive you have downloaded).
