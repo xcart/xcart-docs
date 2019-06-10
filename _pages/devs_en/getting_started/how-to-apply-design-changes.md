@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-11-28 00:01 +0400'
 title: How to apply design changes
 identifier: ref_E88KCMDD
-order: 200
+order: 130
 categories:
   - Developer docs
   - Demo module
