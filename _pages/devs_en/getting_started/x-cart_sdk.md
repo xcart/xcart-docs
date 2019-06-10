@@ -1,13 +1,14 @@
 ---
-title: X-Cart SDK
 lang: en
 layout: article_with_sidebar
-updated_at: 2017-09-05 11:46 +0400
+updated_at: '2017-09-05 11:46 +0400'
+title: X-Cart SDK
 identifier: ref_HvrXVNvJ
-order: 500
+order: 150
 categories:
-- Developer docs
+  - Developer docs
 version: X-Cart 5.0 - 5.2
+published: true
 ---
 
 ## Introduction
