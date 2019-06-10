@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-11-27 23:00 +0400'
 identifier: ref_fU9Us5VE
 title: X-Cart file structure
-order: 100
+order: 120
 published: true
 ---
 ## Introduction
