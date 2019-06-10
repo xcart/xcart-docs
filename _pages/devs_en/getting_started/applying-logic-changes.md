@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-11-28 00:01 +0400'
 title: Applying changes to business logic
 identifier: ref_AF6bmvL6
-order: 300
+order: 130
 categories:
   - Developer docs
   - Demo module
