@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2019-05-27 11:50 +0400'
 identifier: ref_6IWA65tz
 title: Upgrades
-order: 15
+order: 51
 published: true
 description: Learn about X-Cart 5 updates and upgrades
 icon: history
