@@ -5,7 +5,7 @@ updated_at: '2017-05-18 20:53 +0400'
 identifier: ref_pQQ1CLe1
 title: Upgrading X-Cart 5
 order: 60
-published: true
+published: false
 redirect_from:
   - /general_setup/upgrading_x-cart_5.html
 ---
