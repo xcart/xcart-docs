@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2019-05-20 16:26 +0400'
 identifier: ref_5dhQpiRl
 title: "Migration from X-Cart 4 to X‑Cart\_5"
-order: 20
+order: 35
 published: true
 redirect_from:
   - general_setup/migration/migration_from_x-cart_4_to_x-cart_5.html
