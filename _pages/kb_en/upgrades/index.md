@@ -10,6 +10,8 @@ description: Learn about X-Cart 5 updates and upgrades
 icon: history
 redirect_from:
   - /general_setup/upgrading_x-cart_5/index.html
+categories:
+  - home
 ---
 Software upgrades are important as they allow your store to stay secure and up-to-date with the latest features released. Hence make sure you upgrade your X-Cart store regularly.
 
@@ -17,5 +19,3 @@ X-Cart software code and modules are upgraded independently from each other to e
 
 
 _In this section_ :
-
-
