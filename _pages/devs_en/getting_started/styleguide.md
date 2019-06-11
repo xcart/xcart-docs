@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2019-06-10 13:18 +0400'
 identifier: ref_7qNZXQh8
 title: Admin Style Guide
-order: 100
+order: 110
 published: true
 categories:
   - Developer docs
