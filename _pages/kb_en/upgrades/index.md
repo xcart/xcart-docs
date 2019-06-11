@@ -19,3 +19,9 @@ X-Cart software code and modules are upgraded independently from each other to e
 
 
 _In this section_ :
+
+*   {% link "X-Cart Upgrades: General Info" ref_2x1plcU0 %}
+*   {% link "Upgrade Waves and Upgrade Availability" ref_040K9jOe %}
+*   {% link "Upgrade Hooks" ref_2xlJ5Tka %}
+*   {% link "Store Upgrade Process (Automated Upgrades)" ref_2eoOYsqJ %}
+*   {% link "Manual Store Upgrade" ref_2QKUHnQv %}
