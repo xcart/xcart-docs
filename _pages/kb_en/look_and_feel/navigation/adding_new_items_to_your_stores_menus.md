@@ -53,7 +53,7 @@ To add a new item to one of your store's menus:
         For example, to add a link to google.com, you will need to enter the link as [http://google.com/](http://google.com/).
         {% endnote %}
     
-4.  Click** Save changes**.
+4.  Click **Save changes**.
     ![save-new-manu.png]({{site.baseurl}}/attachments/ref_BDykFBbw/save-new-manu.png)
 
 The menu item will be added. You should now be able to see it on the storefront:
