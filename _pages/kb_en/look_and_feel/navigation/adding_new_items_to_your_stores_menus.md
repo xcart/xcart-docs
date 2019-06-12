@@ -44,7 +44,7 @@ To add a new item to one of your store's menus:
     *   **Link**: Specify the address of the page the menu item redirects the users to. 
         Use one of the following shortcut codes to specify the link address within your store:
            * Relative path (e.g. cart.php?target=checkout)
-           * Absolute path (e.g. https://<your_store_domain>/cart.php?target=checkout).
+           * Absolute path (e.g. https:/<your_store_domain>/cart.php?target=checkout).
            * Page name values (available options are  {home}, {new arrivals}, {coming soon}, {sale}, {bestsellers}, {my account}, {contact us}, {auction}, {loyalty program})
 
         {% note info %}
