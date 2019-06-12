@@ -7,16 +7,19 @@ title: Braintree
 order: 400
 published: true
 ---
-An X-Cart store can be integrated with [Braintree, A PayPal Service](https://www.braintreepayments.com/). Currently, there are two Braintree integration modules available in the X-Cart Marketplace:
+An X-Cart store can be integrated with [Braintree, A PayPal Service](https://www.braintreepayments.com/). Currently, there are two Braintree integration addons available in the X-Cart Marketplace:
    
    * **[PayPal powered by Braintree](https://market.x-cart.com/addons/paypal-powered-by-braintree.html)** 
    * **[Braintree payment gateway](https://market.x-cart.com/addons/braintree-for-xcart5.html)**
 
-The module "PayPal powered by Braintree" is the newer of the two. It is the most advanced payment solution from PayPal to date, and it is based on the latest Braintree API. 
-The module "Braintree payment gateway" is an older version of the integration based on an earlier version of Braintree API. 
-Because the new API (the one used by "PayPal powered by Braintree") is currently available only to users in the USA, UK, France, Italy and Spain we are keeping the module "Braintree payment gateway" available to X-Cart customers through the Marketplace as it uses an API available in many more countries. 
+The addons use different APIs and different accounts, and provide different sets of features. The two addons may not be used simultaneously, so you will need to choose one solution.
 
-Depending on the X-Cart version you are using, a Braintree integration module may already be installed in your X-Cart store:
+The addon "Braintree payment gateway" was historically our first Braintree integration based on an earlier version of the API. 
+The addon "PayPal powered by Braintree" is the newer of the two. It is the most advanced payment solution from PayPal to date, and it is based on the latest Braintree API. 
+
+Both the APIs are available to users in the USA, UK, France, Italy and Spain. The API used by the addon "Braintree payment gateway" is also available in some other countries. 
+
+Depending on the X-Cart version you are using, a Braintree integration addon may already be installed in your X-Cart store:
 ![xc5_braintree_module_installed.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_module_installed.png)
 
 If not, you can obtain it from the X-Cart Marketplace at any time:
