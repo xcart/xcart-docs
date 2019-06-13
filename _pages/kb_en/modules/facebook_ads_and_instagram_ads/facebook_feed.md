@@ -7,6 +7,14 @@ title: Product Feed Generation and Upload to Facebook
 order: 120
 published: true
 ---
+{% note warning %}
+PREREQUISITES:
+1. Make sure the Facebook Ads & Instagram Ads addon is {% link "installed and enabled" ref_7fTH58sR %}.
+2. If you do not have a Facebook account yet, you can create it at [https://www.facebook.com/business](https://www.facebook.com/business).
+{% endnote %}
+
+{% toc %}
+
 ## Product Feed Generation
 
 Once the addon is {% link "set up" ref_7fTH58sR %} you can proceed to the product feed generation.
