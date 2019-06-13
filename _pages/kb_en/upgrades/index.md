@@ -10,6 +10,7 @@ description: Learn about X-Cart 5 updates and upgrades
 icon: history
 redirect_from:
   - /general_setup/upgrading_x-cart_5/index.html
+  - /general_setup/upgradeing_x-cart_5.html
 categories:
   - home
 ---
