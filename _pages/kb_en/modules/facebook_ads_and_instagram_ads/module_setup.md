@@ -5,7 +5,7 @@ updated_at: '2019-06-13 12:35 +0400'
 identifier: ref_7fTH58sR
 title: Facebook Ads & Instagram Ads Addon Installation and Setup
 order: 110
-published: false
+published: true
 ---
 {% toc %}
 
@@ -43,8 +43,4 @@ This section can also be accessed via the **Settings** link in the **My addons**
   
   Be sure to save your settings by clicking **Save changes**.
   
-  Now you can proceed to the product feed generation and upload to Facebook. 
-  
-  
-  
- 
+  Now you can proceed to the product feed generation and upload to Facebook.
