@@ -18,8 +18,9 @@ If you do not have a Facebook account yet, you can create it at [https://www.fac
 
 The addon Facebook Ads and Instagram Ads uploads your products to Facebook Catalog automatically and syncs the product data always keeping the catalog up-to-date. 
 
-To make use of Facebook and Instagram ads, you will need to:
-
+The Facebook and Instagram ads addon configuration consists of the following steps: 
+*  {% link "Facebook Ads &amp; Instagram Ads Addon Installation and Setup" ref_7fTH58sR %}
+*  {% link "Product Feed Generation and Upload to Facebook" ref_1LQyHRCO %}
 
 _Related pages:_
 
