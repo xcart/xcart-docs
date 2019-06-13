@@ -9,7 +9,7 @@ published: true
 ---
 ## Product Feed Generation
 
-Once the addon is set up you can proceed to the product feed generation.
+Once the addon is {% link "set up" ref_7fTH58sR %} you can proceed to the product feed generation.
   
 For this purpose:
 
