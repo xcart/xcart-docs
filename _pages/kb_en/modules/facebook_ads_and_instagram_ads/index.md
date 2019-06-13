@@ -10,17 +10,16 @@ redirect_from:
   - /modules/facebook_ecommerce/index.html
 ---
 
-Social feeds are a good point to attract new visitors and boost sales, Facebook Marketing being one of the most popular and efficient. If you have a Facebook account, you can start using X-Cart's free [Facebook Ads and Instagram Ads](https://market.x-cart.com/addons/facebook-e-commerce.html) addon (formerly known as "Facebook eCommerce") right away. This addon enables you to upload your products to Facebook Catalog and to create personalized ads that will allow reaching the right audience in the right place at the right time. Facebook ads are synchronized with Instagram and are shown there as well even if you don't have an Instagram account.
+Social feeds are a good point to attract new visitors and boost sales, Facebook Marketing being one of the most popular and efficient. If you have a Facebook account, you can start using X-Cart's free [Facebook Ads and Instagram Ads](https://market.x-cart.com/addons/facebook-e-commerce.html) addon (formerly known as "Facebook eCommerce") right away. 
 
-You can learn more about Instagram ads [here](https://www.facebook.com/business/help/1634705703469129?helpref=faq_content) and [here](https://www.facebook.com/business/help/1513393428972189?helpref=faq_content). 
+This addon enables you to upload your products to Facebook Catalog and to create personalized ads in both Facebook and Instgram that will allow reaching the right audience in the right place at the right time. Facebook ads are synchronized with Instagram and are shown there even if you don't have an Instagram account.
 
-If you do not have a Facebook account yet, you can create it at [https://www.facebook.com/business](https://www.facebook.com/business).
-
-The addon Facebook Ads and Instagram Ads uploads your products to Facebook Catalog automatically and syncs the product data always keeping the catalog up-to-date. 
+The addon Facebook Ads and Instagram Ads uploads your products to Facebook Catalog automatically and syncs the product data always keeping the catalog up-to-date. Once the products are added to the Facebook Catalog you can bind your Instagram business account to it and start selling goods in Instagram.
 
 The Facebook and Instagram ads addon configuration consists of the following steps: 
 *  {% link "Facebook Ads &amp; Instagram Ads Addon Installation and Setup" ref_7fTH58sR %}
 *  {% link "Product Feed Generation and Upload to Facebook" ref_1LQyHRCO %}
+*  Instagram Shopping (under construction)
 
 _Related pages:_
 
