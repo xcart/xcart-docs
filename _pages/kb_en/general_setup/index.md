@@ -17,19 +17,9 @@ This section contains tutorials on the basic store installation and configuratio
 
 X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} can help you if you wonder how to get started and are worried about forgetting the key steps on the way to your first sale. The Beginner’s Guide covers all the necessary tutorials from choosing a proper hosting to promoting your store and adding extra sale channels.
 
-## Migration Tutorials
 
-If you are considering moving to X-Cart from another platform use our {% link "migrtion tutorials" ref_7AInnCrh %}:
-* {% link "Getting Started with Store Migration" ref_otTGssNZ %}
-* {% link "Migration from X-Cart 4 to X-Cart 5" ref_EntIT03c %}
-* {% link "Migration from Litecommerce 3 to X-Cart 5" ref_icEFLRUp %}
+## Backup, Restore, Relocate
 
-You can also [contact our Team](https://www.x-cart.com/shopping-cart-migration.htm "General setup") for help.
-
-
-## Upgrade, Backup, Restore, Relocate
-
-*   {% link "Upgrading X-Cart 5" ref_pQQ1CLe1 %}
 *   {% link "How to Back Up and Restore the Site" ref_5cU1i33e %}
 *   {% link "Moving X-Cart to Another Location" ref_6oFmUXC7 %}
 *   {% link "Changing the Admin Panel URL (X-Cart 5.2.7+)" ref_Ta5fHl8u %}
