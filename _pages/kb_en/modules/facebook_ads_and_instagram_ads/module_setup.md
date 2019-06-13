@@ -43,4 +43,4 @@ This section can also be accessed via the **Settings** link in the **My addons**
   
   Be sure to save your settings by clicking **Save changes**.
   
-  Now you can proceed to the product feed generation and upload to Facebook.
+  Now you can proceed to {% link "the product feed generation and upload to Facebook" ref_1LQyHRCO %}.
