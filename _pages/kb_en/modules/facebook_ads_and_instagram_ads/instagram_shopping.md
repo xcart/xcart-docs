@@ -73,7 +73,8 @@ When someone taps a product tag on your post or a product sticker in your story,
 * A product price.
 * A link **View on website** that takes them directly to your X-Cart store, where they can purchase the product. 
         
-        
+When you tag products on your posts and add product stickers on your stories, you'll be able to view insights on how people interact with your shopping content. This set of insights measures how often people view and interact with products tagged in a post or with a product sticker in a story.
+
 
  
 
