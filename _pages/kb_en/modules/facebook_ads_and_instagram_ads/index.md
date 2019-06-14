@@ -19,7 +19,7 @@ The addon Facebook Ads and Instagram Ads uploads your products to Facebook Catal
 The Facebook and Instagram ads addon configuration consists of the following steps: 
 *  {% link "Facebook Ads &amp; Instagram Ads Addon Installation and Setup" ref_7fTH58sR %}
 *  {% link "Product Feed Generation and Upload to Facebook" ref_1LQyHRCO %}
-*  Instagram Shopping (under construction)
+*  {% link "Instagram Shopping" ref_3yj6gT1G %}
 
 _Related pages:_
 
