@@ -5,7 +5,7 @@ updated_at: '2019-06-13 14:13 +0400'
 identifier: ref_3yj6gT1G
 title: Instagram Shopping
 order: 140
-published: false
+published: true
 ---
 Instagram is now turning into a popular platform for online shopping by integration with the Facebook Catalog feature. With shopping on Instagram, you can share featured products through your posts and Stories, or have people discover your products in Search & Explore.
 
@@ -74,7 +74,3 @@ When someone taps a product tag on your post or a product sticker in your story,
 * A link **View on website** that takes them directly to your X-Cart store, where they can purchase the product. 
         
 When you tag products on your posts and add product stickers on your stories, you'll be able to view insights on how people interact with your shopping content. This set of insights measures how often people view and interact with products tagged in a post or with a product sticker in a story.
-
-
- 
-
