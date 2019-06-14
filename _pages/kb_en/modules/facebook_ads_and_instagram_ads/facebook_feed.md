@@ -30,7 +30,7 @@ For this purpose:
    
    The system will take some time to generate a Product Feed URL depending on the overall store inventory. 
 
-2. Once the process is completed, copy the _Product Feed URL_ that has been generated and paste it into the appropriate field when specifying a source of products for your catalog (https://www.facebook.com/products/catalogs/new).
+2. Once the process is completed, copy the _Product Feed URL_ that has been generated and paste it into the appropriate field when specifying a source of products for your [catalog](https://www.facebook.com/products/catalogs/new "Product Feed Generation and Upload to Facebook").
   
    ![copy-feed-new.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/copy-feed-new.png)
   
@@ -42,7 +42,7 @@ For this purpose:
   
   To upload your product feed to Facebook:
   
-   1. Go to the [Catalog Manager](https://www.facebook.com/business/help/1659534074121655) of your [Facebook Business account](https://business.facebook.com/overview/) at https://www.facebook.com/products/.
+   1. Go to the [Catalog Manager](https://www.facebook.com/business/help/1659534074121655) of your [Facebook Business account](https://business.facebook.com/overview/) at [https://www.facebook.com/products/](https://www.facebook.com/products/ "Product Feed Generation and Upload to Facebook").
    
       Click to create a new catalog or choose to edit an exisitng one. 
       ![facebook-catalog.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/facebook-catalog.png)
@@ -50,7 +50,7 @@ For this purpose:
    2. At the step _Add Products to Your Catalog_, specify that you want to _Use Data Feeds_. 
       ![xc5_fb_use_feeds.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_use_feeds.png)
 
-   3. In the section  **How do you want to upload your data feed?**, choose 'Set a schedule' and paste the Product Feed URL generated for you by X-Cart in the **Data Feed URL** field:
+   3. In the section  **How do you want to upload your data feed?**, choose 'Set a schedule' and paste the Product Feed URL [generated](https://kb.x-cart.com/modules/facebook_ads_and_instagram_ads/facebook_feed.html#product-feed-generation "Product Feed Generation and Upload to Facebook") for you by X-Cart in the **Data Feed URL** field:
       ![paste-product-feed.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/paste-product-feed.png)
   
    4. Schedule the automatic uploads and name the feed the way you like it better. 
