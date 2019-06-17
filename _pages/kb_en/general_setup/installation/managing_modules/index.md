@@ -24,3 +24,4 @@ _In this section_:
 *  {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}
 *  {% link "Uploading Addons" ref_GZQ9vTq6 %} (for the addons from any other sources)
 *  {% link "Updating Addons" ref_5Xj7bOA6 %}
+*  {% link "Server Related Issues" ref_1laAFgsD %}
