@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2019-03-29 09:57 +0400'
 identifier: ref_5Xj7bOA6
 title: Updating Addons
-order: 400
+order: 150
 published: true
 redirect_from:
   - /general_setup/managing_modules/updating_modules.html
