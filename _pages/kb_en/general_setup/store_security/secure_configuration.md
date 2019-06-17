@@ -5,7 +5,7 @@ updated_at: '2017-09-22 11:44 +0400'
 identifier: ref_secureconfig
 title: Secure Configuration of the Server
 published: true
-order: 400
+order: 20
 redirect_from:
   - /setting_up_x-cart_5_environment/secure_configuration.html
 ---
