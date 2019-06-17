@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-06-17 11:20 +0400'
 identifier: ref_29ulRFCf
-title: X-Cart Installation & Maintenance
+title: X-Cart Software and Modules Installation
 order: 110
 published: true
 ---
