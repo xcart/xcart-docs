@@ -14,4 +14,5 @@ X-Cart installation is an easygoing and straightforward process that won’t tak
 Once X-Cart is installed you need to activate the software license to make your store active and eligible for modules installation. All possible extentions to the X-cart core functionality are done through the special modules' installation. Separating the software core from the modules guarantee easy and secure store upgrades and overall software stability.
 
 _In this section_:
-
+*  {% link "Installation Guide" ref_VG5mIoLT %}
+*  {% link "Activating Your License" ref_qwhmJtqW %}
