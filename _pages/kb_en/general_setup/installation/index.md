@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-06-17 11:20 +0400'
 identifier: ref_29ulRFCf
-title: X-Cart Software and Modules Installation
+title: X-Cart Software and Addons Installation
 order: 110
 published: true
 ---
