@@ -23,8 +23,8 @@ Make sure the server X-Cart is hosted at has an SSL (Secure Sockets Layer) Certi
 
 SSL certificates secure the data in transit during checkout. This keeps your company and your customers protected from having financial or important information compromised by hackers. More information on how to redirect customers from HTTP to HTTPS you can get {% link "here" ref_httpredirect %}. 
 
-{% note info %}
-Enabling HTTPS protocol for X-Cart in case HTTPS is not properly configured on your server may break access to X-Cart's Admin interface. If this is your case, see 
+{% note warning %}
+Enabling HTTPS protocol for X-Cart in case HTTPS is not properly configured on your server may break access to X-Cart's Admin interface. If this is your case, see {% link "Inaccessible Admin Area after Enabling HTTPS" ref_q171FiKp %}.
 {% endnote %}
 
 ## Step 3. Keep the Software Up-to-date
