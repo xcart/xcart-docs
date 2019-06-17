@@ -5,7 +5,7 @@ updated_at: '2019-06-17 12:38 +0400'
 identifier: ref_1w4jshzv
 title: Security Guide
 order: 110
-published: false
+published: true
 ---
 Proper X-Cart store security set-up will minimize the threat of fraud and instill trust within your customer base.
 
