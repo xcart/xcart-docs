@@ -5,7 +5,7 @@ updated_at: '2017-01-12 17:21 +0400'
 identifier: ref_httpredirect
 title: HTTP to HTTPS Redirect Configuration
 published: true
-order: 300
+order: 50
 redirect_from:
   - /setting_up_x-cart_5_environment/redirect_http_to_https.html
 ---
