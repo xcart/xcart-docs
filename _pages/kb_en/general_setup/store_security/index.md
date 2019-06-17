@@ -13,6 +13,7 @@ Overall online store security depends both on the software and it's configuratio
 
 _In this section_:
 *  {% link "Security Guide" ref_1w4jshzv %}
+*  {% link "Secure Configuration of the Server" ref_secureconfig %}
 *  {% link "How to Password Protect Access to Your X-Cart" ref_68xr4sCx %}
 *  {% link "Changing the Admin Panel URL (X-Cart 5.2.7+)" ref_Ta5fHl8u %}
 *  {% link "HTTP to HTTPS Redirect Configuration" ref_httpredirect %}
