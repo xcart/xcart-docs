@@ -13,6 +13,7 @@ redirect_from:
 If you have a secure certificate (SSL) on your website, you can automatically redirect visitors to the secured (HTTPS) version of your website to make sure their information is protected.
 
 How you redirect traffic depends on the type of hosting you have.
+{% toc %}
 
 ## Linux Hosting with Apache
 
