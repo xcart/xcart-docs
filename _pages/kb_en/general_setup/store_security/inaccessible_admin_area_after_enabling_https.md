@@ -7,7 +7,7 @@ title: Inaccessible Admin Area after Enabling HTTPS
 categories:
   - User manual
 published: true
-order: 280
+order: 60
 redirect_from:
   - /general_setup/inaccessible_admin_area_after_enabling_https.html
 ---
