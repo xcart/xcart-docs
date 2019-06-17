@@ -11,4 +11,5 @@ What an online store should begin with? Right you are, with the software install
 
 Once X-Cart is installed you need to activate the software license to make your store active and eligible for modules installation. All possible extentions to the X-cart core functionality are done through the special modules' installation. Separating the software core from the modules guarantee easy and secure store upgrades and overall software stability.
 
+_In this section_:
 
