@@ -8,7 +8,7 @@ categories:
   - User manual
 published: true
 hide_from_navigation: true
-redirect_to: /general_setup/managing_modules/
+redirect_to: 'https://kb.x-cart.com/general_setup/installation/managing_modules/index.html'
 order: 100
 ---
 
