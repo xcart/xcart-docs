@@ -8,7 +8,7 @@ version: X-Cart 5.2.7 and later
 categories:
   - User manual
 published: true
-order: 120
+order: 40
 redirect_from:
   - /general_setup/changing_the_admin_panel_url_(x-cart_5.2.7+).html
 ---
