@@ -19,3 +19,4 @@ _In this section_:
 *  {% link "Installation Guide" ref_VG5mIoLT %}
 *  {% link "Activating Your License" ref_qwhmJtqW %}
 *  {% link "Managing Addons" ref_gTOegEua %}
+*  {% link "Server Requirements and Setup" ref_3olOLKdu %}
