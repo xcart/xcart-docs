@@ -5,7 +5,7 @@ updated_at: '2019-06-19 14:24 +0400'
 identifier: ref_0aebLCRA
 title: Server Requirements
 order: 100
-published: false
+published: true
 ---
 Before you get started with the {% link "software installation" ref_VG5mIoLT %} you should check whether your web server spec meets the X-Cart system requirements. 
 
