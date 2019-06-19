@@ -12,3 +12,10 @@ X-Cart software performance vitally depends on the server it’s installed at, a
 After a hosting company has been chosen, a store owner should make sure the server is properly configured for the best X-Cart software performance. Besides that some X-Cart features may require a special server set-up for proper functioning.
 
 _In this section_:
+
+*   {% link "Server Requirements" ref_0aebLCRA %}
+*   {% link "Setting the Time Limit of Your Server" ref_xqnpttd4 %}
+*   {% link "Choosing the Data Cache Driver" ref_J70IfNxL %}
+*   {% link "Configuring Your X-Cart Server for Better Large File Download Performance" ref_yCxquUhl %}
+*   {% link "Configuring Background Job Queue" ref_raLBcOm3 %}
+*   
