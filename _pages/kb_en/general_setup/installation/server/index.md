@@ -18,4 +18,4 @@ _In this section_:
 *   {% link "Choosing the Data Cache Driver" ref_J70IfNxL %}
 *   {% link "Configuring Your X-Cart Server for Better Large File Download Performance" ref_yCxquUhl %}
 *   {% link "Configuring Background Job Queue" ref_raLBcOm3 %}
-*   
+*   {% link "Сonfiguring Your Server to Run Scheduled X-Cart Tasks" ref_lLqNzAaq %}
