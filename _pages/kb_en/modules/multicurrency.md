@@ -22,12 +22,15 @@ To enable the Multicurrency addon, follow the instructions from {% link "Install
 
 Once the addon has been installed, the Multicurrency addon will become available in the **Store setup** -> **Localization** section of your store admin area.
 
-![currencies.png]({{site.baseurl}}/attachments/ref_2tPJubPU/currencies.png)
+![settings-536.png]({{site.baseurl}}/attachments/ref_2tPJubPU/settings-536.png)
 
 Please refer to the **Currencies** tab to configure the addon settings:
 
 * **Hide trailing zeros in fractional part** : If enabled a price will be displayed without decimals.
 * **Online currency rates service** : Choose a currency converter or set to NONE to define the conversion rates manually.
+* **Currency converter API key** : This field becomes avaiable if _The Currency Converter API_ or _The Free Currency Converter API_ options are chosen as **Online currency rates service**. Specify your currency converter API key here. 
+  To get an API key please refer to [https://www.currencyconverterapi.com/](https://www.currencyconverterapi.com/ "Multicurrency Addon") and [https://free.currencyconverterapi.com/](https://free.currencyconverterapi.com/ "Multicurrency Addon") respectively.
+  
 * **Update online rates every** : Set a periodicity of the rates revision.
 * **Add currency** (button and drop-down): Choose a currency you want to add in a drop-down and click the 'Add currency' button
 
