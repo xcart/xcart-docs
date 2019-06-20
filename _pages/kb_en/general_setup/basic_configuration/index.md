@@ -7,6 +7,9 @@ title: Basic Configuration Settings
 order: 150
 published: true
 ---
+Once X-Cart software is installed start with the basic store configuration. Name your store and add some essential business information like company name and address. Set the default store timezone, currency and weight unit. Configure your store contact emails and email notifications that will be sent to the store staff and customers.
+
+
 _In this section_ :
 
 *   {% link "General Settings" ref_qAZlJxZm %}
