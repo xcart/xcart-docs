@@ -30,7 +30,6 @@ For email notifications that are added by an addon, the name of the addon is men
 ![module.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/module.png)
 
 
-
 *  {% link "Editing Email Notifications" ref_1qTqS245 %}
 *  {% link "Editing the Header, Greeting &amp; Signature of Email Notifications" ref_2W845gkS %}
 *  {% link "Using Variables to Configure Email Notifications" ref_6fJMVyRl %}
