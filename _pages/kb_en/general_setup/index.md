@@ -17,7 +17,7 @@ Whether you are starting with a free software trial or purchased a paid X-Cart l
 
 X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} can help you if you wonder how to get started and are worried about forgetting the key steps on the way to your first sale. It's worth for both those who use a hosted trial and those who intend to install the software locally. The Beginner’s Guide covers all the necessary tutorials from choosing a proper hosting to promoting your store and adding extra sale channels.
 
-Other topics in this section provide an introduction to your store's Admin, and walk you through the basic configuration settings. Along the way, you will learn how to maintain the software files should such a necessity occur in the future.
+Other topics in this section provide an introduction to your store's Admin, and walk you through the basic configuration settings. Along the way, you will learn how to secure the store and maintain the software files should such a necessity occur in the future.
 
 _In this section_:
 *   {% link "Beginner's Guide" ref_22Mt5dpo %}
