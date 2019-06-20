@@ -24,4 +24,5 @@ _In this section_:
 *   {% link "X-Cart Software and Addons Installation" ref_29ulRFCf %}
 *   {% link "Basic Configuration Settings" ref_0trrARqV %}
 *   {% link "Backup. Restore. Relocate." ref_7gh2WAG9 %}
+*   {% link "X-Cart Store Security" ref_4ewdbDM8 %}
 
