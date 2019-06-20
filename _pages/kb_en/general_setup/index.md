@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-09-11 16:43 +0400'
 identifier: ref_9z7v4QHi
-title: General Setup
+title: Get Started
 categories:
   - home
 order: 15
@@ -11,33 +11,17 @@ icon: configure
 description: Install and configure your X-Cart 5 store
 published: true
 ---
-This section contains tutorials on the basic store installation and configuration issues.
+Welcome to the X-Cart Knowledge Base - a collection of guides with the most up-to-date documentation, written with merchants in mind!
 
-## Beginner's Guide
+Whether you are starting with a free software trial or purchased a paid X-Cart license and are impatient to install the software and make it work for you, use the guides from this section to learn how to use the X-Cart software for your prosperity.
 
-X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} can help you if you wonder how to get started and are worried about forgetting the key steps on the way to your first sale. The Beginner’s Guide covers all the necessary tutorials from choosing a proper hosting to promoting your store and adding extra sale channels.
+X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} can help you if you wonder how to get started and are worried about forgetting the key steps on the way to your first sale. It's worth for both those who use a hosted trial and those who intend to install the software locally. The Beginner’s Guide covers all the necessary tutorials from choosing a proper hosting to promoting your store and adding extra sale channels.
 
+Other topics in this section provide an introduction to your store's Admin, and walk you through the basic configuration settings. Along the way, you will learn how to maintain the software files should such a necessity occur in the future.
 
-## Backup, Restore, Relocate
+_In this section_:
+*   {% link "Beginner's Guide" ref_22Mt5dpo %}
+*   {% link "X-Cart Software and Addons Installation" ref_29ulRFCf %}
+*   {% link "Basic Configuration Settings" ref_0trrARqV %}
+*   {% link "Backup. Restore. Relocate." ref_7gh2WAG9 %}
 
-*   {% link "How to Back Up and Restore the Site" ref_5cU1i33e %}
-*   {% link "Moving X-Cart to Another Location" ref_6oFmUXC7 %}
-*   {% link "Changing the Admin Panel URL (X-Cart 5.2.7+)" ref_Ta5fHl8u %}
-*   {% link "Restoring Your Store with the Snapshots Feature" ref_h7Oh5T8T %}
-
-
-## Configuration and Maintenance
-
-*   {% link "Configuring Your Store's General Settings" ref_qAZlJxZm %}
-*   {% link "X-Cart Store Security" ref_4ewdbDM8 %}
-*   {% link "Specifying Your Company's Identity and Contact Information" ref_HcSs9eFL %}
-*   {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}
-*   {% link "Enabling Catalog Mode (No "Add to Cart" Buttons)" ref_CvAsFxq8 %}
-*   {% link "Сonfiguring the Storefront Options" ref_wGaTsp7Z %}
-*   {% link "Сonfiguring Your Server to Run Scheduled X-Cart Tasks" ref_lLqNzAaq %}
-*   {% link "Configuring Background Job Queue" ref_raLBcOm3 %}
-*   {% link "What to Do if Your Store Says «We Are Deploying New Changes» and You Cannot Access It" ref_3zSHgdQk %}
-*   {% link "Inaccessible Admin Area After Enabling HTTPS" ref_q171FiKp %}
-*   {% link "How to Password Protect Access to Your X-Cart" ref_68xr4sCx %}
-*   {% link "Getting Compliant with the EU Cookie Law" ref_IOt4rapT %}
-*   {% link "Getting Compliant with EU General Data Protection Regulation (GDPR)" ref_6VMSNqoq %}
