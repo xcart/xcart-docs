@@ -13,7 +13,7 @@ published: true
 ---
 Welcome to the X-Cart Knowledge Base - a collection of guides with the most up-to-date documentation, written with merchants in mind!
 
-Whether you are starting with a free software trial or purchased a paid X-Cart license and are impatient to install the software and make it work for you, use the guides from this section to learn how to use the X-Cart software for your prosperity.
+Whether you are starting with a free software trial or purchased a paid X-Cart license and are impatient to install the software and make it work for you, use the guides from this section to learn how to make the X-Cart software work for your prosperity.
 
 X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} can help you if you wonder how to get started and are worried about forgetting the key steps on the way to your first sale. It's worth for both those who use a hosted trial and those who intend to install the software locally. The Beginner’s Guide covers all the necessary tutorials from choosing a proper hosting to promoting your store and adding extra sale channels.
 
