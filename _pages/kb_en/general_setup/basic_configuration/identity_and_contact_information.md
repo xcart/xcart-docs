@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-10 00:21 +0400'
 identifier: ref_HcSs9eFL
-title: 'Specifying Your Company&#39;s Identity and Contact Information'
+title: Company's Identity and Contact Information
 categories:
   - User manual
 published: true
