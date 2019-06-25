@@ -9,7 +9,7 @@ title: >-
 categories:
   - User manual
 published: true
-order: 270
+order: 100
 redirect_from:
   - >-
     /general_setup/what_to_do_if_your_store_says_we_are_deploying_new_changes_and_you_cannot_access_it.html
