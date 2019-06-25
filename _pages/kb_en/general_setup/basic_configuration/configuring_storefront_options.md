@@ -10,11 +10,16 @@ version: X-Cart 5.3.3 and later
 redirect_from:
   - /general_setup/configuring_storefront_options.html
 ---
-Your X-Cart storefront can be finetuned for your needs by changing options in the `etc/config.php` file at the `[storefront_options] `section. Here is the reference for the available option values:
+Your X-Cart storefront can be finetuned for your needs by changing options in the `etc/config.php` file at the `[storefront_options]` section. 
+
+Here is the reference for the available option values:
+{% toc %}
 
 ### Don't Close Callback Endpoint When the Storefront is Closed for Maintenance
 
-If the `callback_opened` option is set to `On`, `target=callback` will be available for payment processing and IPN (Webhook) notifications, even when the storefront is closed.
+This cutom setting may be usefull if you want to allow completeing a payment processing even if a customer closed the storefront at checkout for some reason. 
+
+If the `callback_opened` option is set to `On`, the `target=callback` function will be available for payment processing and IPN (Webhook) notifications, even when the storefront is closed.
 
 ### Optimize Visible CSS Loading
 
@@ -22,6 +27,6 @@ When the `optimize_css` option is set to `On`, X-Cart will inline all CSS styles
 
 ### Force Custom State with Autocompletion
 
-This option will allow the customer to set a custom state for the countries with defined states (defined states will be available as the autocompletion for the 'State' field). 
+This option will hide the states drop-down for the countries with the defined states at checkout and show a text field with autocompletion instead, allowing a customer to type the state name (defined states will be available as the autocompletion for the 'State' field). 
 
-Set the `autocomplete_states_for_countries` option to the comma-separated string of the country codes like this: `GB,US,DE`, `All` or leave empty to disable this option.
+To make it work set the `autocomplete_states_for_countries` option to the comma-separated string of the country codes like this: `GB,US,DE`, `All` or leave it empty to disable this option.
