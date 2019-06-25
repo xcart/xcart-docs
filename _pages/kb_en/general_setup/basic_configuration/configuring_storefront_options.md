@@ -17,7 +17,7 @@ Here is the reference for the available option values:
 
 ### Don't Close Callback Endpoint When the Storefront is Closed for Maintenance
 
-This cutom setting may be usefull if you want to allow completeing a payment processing even if a customer closed the storefront at checkout for some reason. 
+This cutom setting should be enabled when you need to complete orders processing even if the storefront was closed at the moment of the payment authorization.
 
 If the `callback_opened` option is set to `On`, the `target=callback` function will be available for payment processing and IPN (Webhook) notifications, even when the storefront is closed.
 
