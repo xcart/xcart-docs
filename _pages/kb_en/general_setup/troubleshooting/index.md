@@ -7,6 +7,11 @@ title: Troubleshooting
 order: 600
 published: false
 ---
-## A New Post
+This section lists some common issues related to your store's set-up and maintenance and provides links to troubleshooting steps.
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+*  {% link "What to Do if Your Store Says "We Are Deploying New Changes and You Cannot Access It"" ref_3zSHgdQk %}
+
+_Related pages_:
+
+*  {% link "DDoS Attacks: What Are They and How to Protect Your Site. Webinar with CloudFlare" ref_fJ7OXVPZ %}
+*  {% link "Webinar: What You Need to Know about Accepting Payments Online" ref_cen1642b %}
