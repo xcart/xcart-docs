@@ -11,7 +11,7 @@ icon: history
 redirect_from:
   - /general_setup/upgrading_x-cart_5/index.html
   - /general_setup/upgradeing_x-cart_5.html
-  - /en/general_setup/upgrading_x-cart_5.html
+  - /general_setup/upgrading_x-cart_5.html
 categories:
   - home
 ---
