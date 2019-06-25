@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-04 12:30 +0400'
 identifier: ref_WqHzxAmJ
-title: Speeding up Your Store
+title: Store Speed Up
 categories:
   - Developer docs
 published: true
