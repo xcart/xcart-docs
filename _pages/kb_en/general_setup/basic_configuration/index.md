@@ -16,3 +16,5 @@ _In this section_ :
 *   {% link "Company Identity and Contact Information" ref_HcSs9eFL %}
 *   {% link "Catalog Mode (No 'Add to Cart' Buttons)" ref_CvAsFxq8 %}
 *   {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}
+*   {% link "Custom Storefront Options" ref_wGaTsp7Z %}
+*   {% link "Store Speed Up" ref_WqHzxAmJ %}
