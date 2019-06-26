@@ -11,7 +11,7 @@ Security is the main concern when it comes to e-commerce. Since financial transa
 
 Overall online store security depends both on the software and it's configuration and on the server the store is installed at, as even a perfect e-commerce solution can be ruined by a poor and improper server environment. Hence a store owner should pay special attention to a secure server environment when choosing a hosting for the store.
 
-This section will guide you through the necessary configuration steps to secure your store. Use the {% link "Security Guide" ref_1w4jshzv %} as a check list to starts with.
+This section will guide you through the necessary configuration steps to secure your store. Use the {% link "Security Guide" ref_1w4jshzv %} as a check list to start with.
 
 _In this section_:
 *  {% link "Security Guide" ref_1w4jshzv %}
