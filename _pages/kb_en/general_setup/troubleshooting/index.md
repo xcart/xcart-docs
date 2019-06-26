@@ -11,6 +11,7 @@ This section lists some common issues related to your store's set-up and mainten
 
 *  {% link "What to Do if Your Store Says "We Are Deploying New Changes and You Cannot Access It"" ref_3zSHgdQk %}
 *  {% link "Restoring Your Store with the Snapshots Feature" ref_h7Oh5T8T %}
+*  {% link "Inaccessible Admin Area after Enabling HTTPS" ref_q171FiKp %}
 
 _Related pages_:
 
