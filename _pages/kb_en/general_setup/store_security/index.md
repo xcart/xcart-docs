@@ -17,4 +17,9 @@ _In this section_:
 *  {% link "How to Password Protect Access to Your X-Cart" ref_68xr4sCx %}
 *  {% link "Changing the Admin Panel URL (X-Cart 5.2.7+)" ref_Ta5fHl8u %}
 *  {% link "HTTP to HTTPS Redirect Configuration" ref_httpredirect %}
-*  {% link "Inaccessible Admin Area after Enabling HTTPS" ref_q171FiKp %}
+*  {% link "Getting Compliant with the EU Cookie Law" ref_IOt4rapT %}
+*  {% link "Getting Compliant with EU General Data Protection Regulation (GDPR)" ref_6VMSNqoq %}
+
+_Related pages_:
+
+*   
