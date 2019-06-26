@@ -27,3 +27,7 @@ _In this section_ :
 *   {% link "Upgrade Hooks" ref_2xlJ5Tka %}
 *   {% link "Store Upgrade Process (Automated Upgrades)" ref_2eoOYsqJ %}
 *   {% link "Manual Store Upgrade" ref_2QKUHnQv %}
+
+_Related pages_ :
+
+*  [Changelog](https://devs.x-cart.com/changelog/ "Upgrades")
