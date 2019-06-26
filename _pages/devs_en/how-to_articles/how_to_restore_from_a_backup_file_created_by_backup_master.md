@@ -25,19 +25,15 @@ You can set up a test copy of your X-Cart store (using one of the backup files c
 
    5. Adjust the database host settings in the configuration file (`/public_html/xcart5220/etc/config.php`) accordingly, for example:
 
-      database = "xcart5220"
-      
-      username = "shop"
-      
-      password = "passwordgoeshere"
+      * database = "xcart5220"
+      * username = "shop"
+      * password = "passwordgoeshere"
 
       [host_details]
       
-      http_host = "www.example.com"
-      
-      https_host = "www.example.com"
-      
-      web_dir = "/xcart5220"
+      * http_host = "www.example.com"
+      * https_host = "www.example.com"
+      * web_dir = "/xcart5220"
 
    6. Finally, follow the below link to open the store admin back end and initiate the cache regeneration process:
 
