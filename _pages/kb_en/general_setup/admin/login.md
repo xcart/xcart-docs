@@ -5,9 +5,9 @@ updated_at: '2019-06-27 13:10 +0400'
 identifier: ref_00nAL9h3
 title: Admin Area Login and Password Recovery
 order: 100
-published: false
+published: true
 ---
-Once the X-Cart software instalation is [completed](https://kb.x-cart.com/general_setup/installation/installation_guide.html#step-7-installation-completed "Admin Area Login and Password Recovery") you can open the X-Cart store Admin area and start managing products, orders, customers, and most other features of your store. But first, you need to log in into your X-Cart Admin area. If you forget the admin password, you can always recover it using the email address that is associated with the account.
+Once the X-Cart software instalation is [completed](https://kb.x-cart.com/general_setup/installation/installation_guide.html#step-7-installation-completed "Admin Area Login and Password Recovery") you can start managing products, orders, customers, and most other features of your store. But first, you need to log in into your X-Cart Admin area. If you forget the admin password, you can always recover it using the email address that is associated with the account.
 
 {% toc %}
 
