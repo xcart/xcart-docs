@@ -33,7 +33,7 @@ To install an addon from the X-Cart App Store:
     Any addons that are already installed and enabled in your store will be marked as "**Enabled**".  
     ![mktplce_enabled.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_enabled.png)
    
-4.  Depending on whether your chosen addon is free or commercial, use one of the following methods:
+4.  Depending on whether your chosen addon is free or paid, use one of the following methods:
 
     _Free modules_: 
     Select the addon for installation by clicking **Install** below to the addon name (It is possible to select more than one module on the page).
