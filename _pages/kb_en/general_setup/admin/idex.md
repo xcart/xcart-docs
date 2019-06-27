@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-06-27 12:56 +0400'
 identifier: ref_3CgULE9D
-title: X-Cart Store Admin
+title: X-Cart Store Admin Area
 order: 145
 published: true
 ---
