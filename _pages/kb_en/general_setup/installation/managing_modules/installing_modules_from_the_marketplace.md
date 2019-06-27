@@ -15,7 +15,7 @@ redirect_from:
 To install an addon from the X-Cart App Store:
 
 1.  Log in to your store's Admin area and click **My addons** in the Admin menu.
-    ![xc5_modules_my_addons_link.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_my_addons_link.png)
+    ![mktplce_myaddons_link.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_myaddons_link.png)
     
     You will see a page with a list of addons installed in your X-Cart store.
     ![mktplce_myaddons_.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_myaddons_.png)
