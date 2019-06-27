@@ -10,5 +10,5 @@ published: true
 X-Cart Admin area is the password-protected backoffice where you can populate your store with products, configure promotions, manage orders and customers, and perform other administrative tasks. This section will guide you though the login and password recovery processes and give an overview of management tasks and tools that you might use on a daily basis. 
 
 _In this section_:
-*  Admin Area Login and Password Recovery (under construction)
+*  {% link "Admin Area Login and Password Recovery" ref_00nAL9h3 %}
 *  Admin Area Overview (under construction)
