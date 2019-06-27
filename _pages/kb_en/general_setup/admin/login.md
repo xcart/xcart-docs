@@ -36,18 +36,18 @@ Once the X-Cart software instalation is [completed](https://kb.x-cart.com/genera
 
 1. If you forget your password, click the **Forgot password?** link at `http://<your-domain>/<x-cart-5-directory>/admin/admin.php?target=login`.
    
-   You'll you'll be redurected to the **Forgot your password?** page:
+   You'll you'll be redirected to the **Forgot your password?** page:
    ![password-recovery.png]({{site.baseurl}}/attachments/ref_00nAL9h3/password-recovery.png)
 
-2. Enter the email address associated with your administrator user account.
+2. Enter the email address associated with your administrator user account and click **Submit**.
    
    The confirmation URL link will be emailed to you shortly.
    
 3. Check your email inbox. 
    
-   You should get an email titled ***Your_company_name*: Confirm password reset request**. Use the link from this email to initiate the password recovery process.
+   You should get an email titled ***Your_company_name*: Confirm password reset request**. 
 
-4. Following the link from the email will redirect you to the **Change password** page:
+4. Use the link from this email to initiate the password recovery process. The link from the email will redirect you to the **Change password** page:
    ![password-recovery-2.png]({{site.baseurl}}/attachments/ref_00nAL9h3/password-recovery-2.png)
    
 5. Enter a new password for your admin account, confirm the new password and click **Update**.
