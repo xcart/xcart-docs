@@ -18,10 +18,10 @@ To install an addon from the X-Cart App Store:
     ![xc5_modules_my_addons_link.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_my_addons_link.png)
     
     You will see a page with a list of addons installed in your X-Cart store.
-    ![mktplce_myaddons.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_myaddons.png)
+    ![mktplce_myaddons_.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_myaddons_.png)
 
 2. Use the Search box at the top of the page to search the X-Cart App Store for the addon you require. 
-    ![mktplce_search.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_search.png)
+    ![mktplce_search_.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_search_.png)
 
     Alternatively, click on the All Addons link to be able to browse the App Store categories.
     ![mktplce_alladdons.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_alladdons.png)
