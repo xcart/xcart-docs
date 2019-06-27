@@ -30,16 +30,22 @@ To install an addon from the X-Cart App Store:
     ![mktplce_filter_sort.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_filter_sort.png)
     For example, you can select just the addons that are available for free, or just the paid addons that require purchasing a license, or both.
     
-    Any addons that are already installed and enabled in your store will be marked as "**Enabled**".  
+    Any addons that are already installed in your store will have their status noted as either  "**Enabled**" or "**Disabled**".  
     ![mktplce_enabled.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_enabled.png)
+    
+    Addons available for free will be marked as "**Free**". 
+    ![mktplce_free.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_free.png)
+
+    Paid addons will have a price displayed.
+    ![mktplce_price.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_price.png)
    
 4.  Depending on whether your chosen addon is free or paid, use one of the following methods:
 
-    _Free modules_: 
-    Select the addon for installation by clicking **Install** below to the addon name (It is possible to select more than one module on the page).
+    _Free addons_: 
+    Select the addon for installation by clicking **Install** below to the addon name (It is possible to select more than one addon on the page).
     Click the **Install addons** button at the bottom of the screen. This starts the installation process. 
 
-    _Commercial modules_: 
+    _Paid addons_: 
     Click the** Purchase** button next to the addon name to purchase the addon license. 
     After the license has been paid for, you will get an email message with your license key. The subject of this message is '**Your** "**Addon name**" **addon key**'. (The part "Addon name" should be replaced with the actual name of the addon). 
     Use this key to {% link "activate your addon license" ref_qwhmJtqW#activating-an-x-cart-5-addon-license %}. As soon as the license has been activated, the addon will be automatically installed at your store.
