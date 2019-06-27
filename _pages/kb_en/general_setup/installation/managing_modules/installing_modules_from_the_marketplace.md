@@ -12,23 +12,22 @@ redirect_from:
   - /modules/managing_modules/installing_modules_from_the_marketplace.html
   - /general_setup/managing_modules/installing_modules_from_the_marketplace.html
 ---
-To install an addon from the X-Cart Marketplace:
+To install an addon from the X-Cart App Store:
 
-1.  Log in to your store's Admin area and go to the **Addons Marketplace**:
+1.  Log in to your store's Admin area and go to the X-Cart App Store:
 
     Click **My addons** in the Admin menu.
     ![xc5_modules_my_addons_link.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_my_addons_link.png)
     
-    Then click on the "View more addons in Marketplace" link to go to the **Addons Marketplace**.
+    Then click on the "View more addons in Marketplace" link to go to the X-Cart App Store.
     ![xc5_modules_goto_addons_mktplce.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_goto_addons_mktplce.png)
 
-    Your store will connect to the X-Cart Marketplace to obtain the list of addons available there. You should see a page like the following:
-    ![xc5_modules_addons_mktplce.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_addons_mktplce.png)
+    Your store will connect to the X-Cart App Store to obtain the list of addons available there. 
 
 2.  In the list of addons, locate the addon you require (The filters at the top of the addon list can help you do it faster):
     ![xc5_modules_mktplce_filtering.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_mktplce_filtering.png)
      
-    Any addons that are already installed in your store will be marked "**Installed**" in the Marketplace. Other addons will have either the **Install** or **Purchase** button next to their name. The addons with the **Install** button are the ones that can be installed for free. The addons with the **Purchase** button are commercial modules that require purchasing a license. 
+    Any addons that are already installed in your store will be marked "**Installed**" in the App Store. Other addons will have either the **Install** or **Purchase** button next to their name. The addons with the **Install** button are the ones that can be installed for free. The addons with the **Purchase** button are commercial modules that require purchasing a license. 
     ![xc5_modules_purchase_install_installed.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_purchase_install_installed.png)
     
 3.  Depending on whether your chosen addon is free or commercial, use one of the following methods:
