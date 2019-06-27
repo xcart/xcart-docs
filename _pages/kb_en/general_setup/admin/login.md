@@ -45,7 +45,7 @@ Once the X-Cart software instalation is [completed](https://kb.x-cart.com/genera
    
 3. Check your email inbox. 
    
-   You should get an email titled ***Your_company_name*: Confirm password reset request**. 
+   You should get an email titled **\*\Your_company_name\*\: Confirm password reset request**. 
 
 4. Use the link from this email to initiate the password recovery process. The link from the email will redirect you to the **Change password** page:
    ![password-recovery-2.png]({{site.baseurl}}/attachments/ref_00nAL9h3/password-recovery-2.png)
