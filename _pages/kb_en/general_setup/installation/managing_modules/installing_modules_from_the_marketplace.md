@@ -14,23 +14,26 @@ redirect_from:
 ---
 To install an addon from the X-Cart App Store:
 
-1.  Log in to your store's Admin area and go to the X-Cart App Store:
-
-    Click **My addons** in the Admin menu.
+1.  Log in to your store's Admin area and click **My addons** in the Admin menu.
     ![xc5_modules_my_addons_link.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_my_addons_link.png)
     
-    Then click on the "View more addons in Marketplace" link to go to the X-Cart App Store.
-    ![xc5_modules_goto_addons_mktplce.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_goto_addons_mktplce.png)
+    You will see a page with a list of addons installed in your X-Cart store.
+    ![mktplce_myaddons.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_myaddons.png)
 
-    Your store will connect to the X-Cart App Store to obtain the list of addons available there. 
+2. Use the Search box at the top of the page to search the X-Cart App Store for the addon you require. 
+    ![mktplce_search.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_search.png)
 
-2.  In the list of addons, locate the addon you require (The filters at the top of the addon list can help you do it faster):
-    ![xc5_modules_mktplce_filtering.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_mktplce_filtering.png)
-     
-    Any addons that are already installed in your store will be marked "**Installed**" in the App Store. Other addons will have either the **Install** or **Purchase** button next to their name. The addons with the **Install** button are the ones that can be installed for free. The addons with the **Purchase** button are commercial modules that require purchasing a license. 
-    ![xc5_modules_purchase_install_installed.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/xc5_modules_purchase_install_installed.png)
+    Alternatively, click on the All Addons link to be able to browse the App Store categories.
+    ![mktplce_alladdons.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_alladdons.png)
+
+3. Locate the addon you require. The filter and sort controls at the top of the addon list can help you do it faster.
+    ![mktplce_filter_sort.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_filter_sort.png)
+    For example, you can select just the addons that are available for free, or just the paid addons that require purchasing a license, or both.
     
-3.  Depending on whether your chosen addon is free or commercial, use one of the following methods:
+    Any addons that are already installed and enabled in your store will be marked as "**Enabled**".  
+    ![mktplce_enabled.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_enabled.png)
+   
+4.  Depending on whether your chosen addon is free or commercial, use one of the following methods:
 
     _Free modules_: 
     Select the addon for installation by clicking **Install** below to the addon name (It is possible to select more than one module on the page).
