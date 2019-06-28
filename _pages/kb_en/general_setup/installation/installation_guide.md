@@ -306,7 +306,7 @@ These two steps are dedicated to some boring work that X-Cart 5 has to do. It cr
 
 #### Step 7\. Installation Completed
 
-Now the installation process has been completed. You can use the links provided to access your store's customer front end and admin area. 
+Now the installation process has been completed. You can use the links provided to access your store's customer front end and {% link "admin area" ref_3CgULE9D %}. 
 
 ![]({{site.baseurl}}/attachments/524295/8719159.png)
 
