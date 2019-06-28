@@ -46,7 +46,7 @@ To start the activation process for a Free X-Cart 5 license, you will need to cl
         Click on this link. The box will be expanded to display more options. Choose to activate a free license:
         ![xc5_licenses_activate_first_opts.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_first_opts.png)
 
-   *   _Method 4:_ In the Addons Marketplace, click the **Activate license key** button:
+   *   _Method 4:_ In the X-Cart App Store, click the **Activate license key** button:
         ![xc5_licenses_activate_button_inmktplce.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_button_inmktplce.png)
         This will cause the following box to appear, where you will find the **activate your X-Cart license** link:
         ![xc5_licenses_activate_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_first.png)
@@ -93,7 +93,7 @@ Other methods to access the **Purchase a premium license key** button are:
         and then to click the **activate your X-Cart license** link:
         ![xc5_licenses_activate_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_first.png)
         
-   *   _Method 3:_ Click the **Activate license key** button in the Addons Marketplace:
+   *   _Method 3:_ Click the **Activate license key** button in the X-Cart App Store:
        ![xc5_licenses_activate_button_inmktplce.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_button_inmktplce.png)
        and then to click the **activate your X-Cart license** link:
        ![xc5_licenses_activate_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_first.png)
@@ -107,7 +107,7 @@ Be sure to have this key at the ready when you are going to activate your licens
 
 If you lost the email message with your license key and experience problems logging in to your HelpDesk account, please contact X-Cart's Customer Service at **[support@x-cart.com](mailto:support@x-cart.com)**.
 
-To activate your license, log in to the Admin area of your X-Cart 5 installation and submit your license key via the form for license activation (In X-Cart trial version, the form is available via all the same methods used to access the **Purchase a premium license key** button described above. If you have activated an X-Cart license previously, the license activation form is available only via the **Activate license key** button in the Installed Addons section or the **Activate license key** button in the Addons Marketplace). 
+To activate your license, log in to the Admin area of your X-Cart 5 installation and submit your license key via the form for license activation (In X-Cart trial version, the form is available via all the same methods used to access the **Purchase a premium license key** button described above. If you have activated an X-Cart license previously, the license activation form is available only via the **Activate license key** button in the Installed Addons section or the **Activate license key** button in the X-Cart App Store). 
       ![xc5_licenses_enter_premium.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_enter_premium.png)
 
 The license activation process will begin. As soon as it completed, a success message will be displayed at the top of the screen.
@@ -127,7 +127,7 @@ When you purchase an X-Cart 5 addon license, you need to activate it. Within min
 
 To activate an addon license, do the following:
 
-1.  Log in to the Admin area of your X-Cart 5 installation and go to the Addons Marketplace (Select** My addons** in the main menu, then click the "View more addons in Marketplace" link).
+1.  Log in to the Admin area of your X-Cart 5 installation and go to the X-Cart App Store (via the ** My addons** item in the main menu).
 
 2.  Access the license activation form by clicking either the **Activate license key** button above the addon list or the **Activate key **link next to the name of the addon for which you are activating a license:
     ![xc5_licenses_addon_activate_via_mktplce.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_addon_activate_via_mktplce.png)
@@ -156,4 +156,4 @@ _Related pages:_
 *   Video: {% link "X-Cart 5 Free License Activation" ref_X5ZLmSJV %}
 *   Video: {% link "X-Cart 5 Business License Activation" ref_UUrbypsh %}
 *   Video: {% link "X-Cart 5 Addon License Activation" ref_hU6Rb4tw %}
-*   {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}
+*   {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}
