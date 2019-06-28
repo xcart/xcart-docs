@@ -21,9 +21,11 @@ First of all, the Quickstart Onboarding Wizard will welcome you and show all the
 
 ![quickstart-1.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-1.png)
 
+These are the very basic steps required. 
+
 You'll also have an option to skip the store configuration this time and postpone it for a later date, as well as to close the wizard so that it is no longer displayed on the Admin Home page.
 
-If you decide to move on, click the "Let's set up your store!" button and proceed to the first step.
+If you decide to move on, click the **Let's set up your store!** button and proceed to the first step.
  
 ## Step 1 - Add Your First Product
 
@@ -31,9 +33,11 @@ The wizard suggest that you should start the store configuration with adding you
 
 ![quickstart-2.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-2.png)
 
-If you are not ready to add a product right now, skip this step and go further. You can add products later on and not necessarily manually one-by-one. Use the built-in {% link "Import-Export" ref_TANvG2De %} tool to add the whole product catalog at once.
+If you are not ready to add a product right now, skip this step and go further. Your newly installed X-Cart store has a pack of demo products that you can use to test the basic store functionality.
 
-If you decide to move on with adding a first product, you'll need to name it, set the product's price and upload a product image either from your local computer or via URL, just tap on the image area to see your options. 
+You can add products later on and not necessarily manually one-by-one. Use the built-in {% link "Import-Export" ref_TANvG2De %} tool to add the whole product catalog at once.
+
+If you decide to move on with adding your first product, you'll need to name it, set the product's price and upload a product image either from your local computer or via URL, just tap on the image area to see your options. 
 
 This is how this step may look when all required product fields are filled in:
 
@@ -65,15 +69,15 @@ Your store logo will be a part of your company style and will visualize your bra
 
 ## Step 3 - Set Up Your Store Locale and Company Info
 
-On Step 3 you can configure geographical settings to connect your store with local customers and set your company info that will be used to form invoices, send email notifications and calculate shipping rates for your store.
+On Step 3 you can configure geographic settings to connect your store with local customers and set your company info that will be used to form invoices, send email notifications and calculate shipping rates for your store.
 
-Start with the store locale. It's has the predefined country, currency and weight values based on the info the system get during the software installation. However, these values may not always be correct. So you need to verify and change the data if required.
+Start with the store locale. It has the predefined country, currency and weight values based on the info the wizard get during the software installation. However, these values may not always be correct. So you need to verify and change the data if required.
 
 ![quickstart-5.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-5.png)
 
 If everything is correct click **Proceed to the next step** to move on with the company details info. 
 
-If you need to deep in into the store localization click **More localization settings** and the system will open the Store setup -> Localization page in a new tab where {% link "more options" ref_cc4sCpa5 %} area available.
+If you need to go deep into the store localization click **More localization settings** and the wizard will open the Store setup -> Localization page in a new tab where {% link "more options" ref_cc4sCpa5 %} area available.
 
 On the Company info page you'll need to fill in the company name and business address. This address will be used as an origin destination address for the store shipping setup.
 
@@ -89,7 +93,7 @@ First of all here you'll need to choose whether you'll sell tangible goods that 
 
 ![quickstart-7.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-7.png)
 
-If you are selling e-good and services everything is prity simple. Click **Mark all products and non-shippable** and that's it! The system will set the [Requires shipping product option](https://kb.x-cart.com/products/products/managing_products/adding_products/basic_product_setup.html#shipping "X-Cart Quickstart Onboarding Wizard") for all products in your store to NO and all shipping methods will automatically be disabled.
+If you are selling e-good and services everything is prity simple. Click **Mark all products and non-shippable** and that's it! The wizard will set the [Requires shipping product option](https://kb.x-cart.com/products/products/managing_products/adding_products/basic_product_setup.html#shipping "X-Cart Quickstart Onboarding Wizard") for all products in your store to NO and all shipping methods will automatically be disabled.
 
 If you sell tangible goods, the process is a bit more complicated. You need to set up shipping options for them. For this purpose click the **Set up shipping** button.
 
@@ -97,13 +101,13 @@ You'll see a page where you can configure shipping rates for your store:
 
 ![quickstart-7-1.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-7-1.png)
 
-On this page you can choose between shipping carriers with real-time shipping quotes and your own flat shipping pate that you can create directly on this page. Just choose the destination country and set the rate, then click the **Create shipping rate** button. This shipping method will become available at checkout. 
+On this page you can choose between shipping carriers with real-time shipping quotes and your own flat shipping rate that you can create directly on this page. Just choose the destination country and set the rate, then click the **Create shipping rate** button. This shipping method will become available at checkout. 
 
-For a more detailed shipping setup click the **Advanced shipping options** button and the system will open the Store setup -> Shipping page of the Admin area in the new tab where you can {% link "move on further" ref_3TG6AuN0 %}. 
+For a more detailed shipping setup click the **Advanced shipping options** button and the wizard will open the Store setup -> Shipping page of the Admin area in the new tab where you can {% link "move on further" ref_3TG6AuN0 %}. 
 
 If you choose real-time shipping carriers, click on the carrier logo and you'll be redirected to the carrier service page to set up an account with them. 
 
-Now you can proceed to the last step of this wizard - payments setup.
+When the shipping setup is over you can proceed to the last step of this wizard - payments setup.
 
 ## Step 5 - Set Up Payment Methods
 
@@ -114,10 +118,10 @@ X-Cart allows to choose whether you'll use one or more of over 120 integrated on
 
 By default, off-line demo payment methods are pre-configured and enabled. They are quite enough to test your new X-Cart store functioning. So if that's the purpose, leave the present configuration settings as is and **Proceed to the next step** (complete the store setup with the wizard).
 
-However, if you want to process real orders, you need to configure real payment methods that will work for your customers. Click the **Set up offline & online payments** button for the system to open the Store setup -> Payments page in a new tab. Configure payment methods for your store {% link "following the guides of this manual" ref_Jq6Bsdrt %}. 
+However, if you want to process real orders, you need to configure real payment methods that will work for your customers. Click the **Set up offline & online payments** button for the wizard to open the Store setup -> Payments page in a new tab. Configure payment methods for your store {% link "following the guides of this manual" ref_Jq6Bsdrt %}. 
 
 Once the payments setup is complete, you are finished and can close the wizard.
 
 ![quickstart-9.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-9.png)
 
-Please do mind that the Quickstart Onboarding Wizard allows setting up the very basic store configuration. For a more robust store set-up read on the guides from this manual that are aimed to help you to configure your online store to meet your business requirements and make your dreams of selling online come true!
+Please do mind that the Quickstart Onboarding Wizard allows setting up the very basic store configuration. For a more robust store setup read on the guides from this manual that are aimed to help you to configure your online store to meet your business requirements and make your dreams of selling online come true!
