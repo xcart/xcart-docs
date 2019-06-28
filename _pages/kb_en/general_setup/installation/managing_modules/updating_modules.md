@@ -9,7 +9,7 @@ published: true
 redirect_from:
   - /general_setup/managing_modules/updating_modules.html
 ---
-In X-Cart notifications on the available addon updates are automatically uploaded to the store admin area and are displayed as follows:
+In X-Cart, notifications about any addon updates available to you automatically appear in your store Admin area:
 
 * as a banner in the header:
   ![top-banner.png]({{site.baseurl}}/attachments/ref_5Xj7bOA6/top-banner.png)
@@ -22,7 +22,7 @@ To check what updates are available, click on any of the “Updates are availabl
 ![install-updates.png]({{site.baseurl}}/attachments/ref_5Xj7bOA6/install-updates.png)
 
 {% note info %}
-In addition to the minor addon updates there can also be major software upgrades. See more info on the regular software upgrades in {% link "Upgrading X-Cart 5" ref_pQQ1CLe1 %}.
+In addition to the minor addon updates, there can also be major software upgrades. See more info on the regular software upgrades in {% link "Upgrading X-Cart 5" ref_pQQ1CLe1 %}.
 {% endnote %}
 
 To update an addon:
