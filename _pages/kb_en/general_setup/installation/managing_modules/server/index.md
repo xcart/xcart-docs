@@ -7,7 +7,7 @@ title: Server Related Issues
 order: 300
 published: true
 ---
-It’s important to set up the server environment for proper communication with the [Marketplace](https://market.x-cart.com/addons/ "Server Related Issues"), as you’ll need it for the X-Cart addon installation process.
+It’s important to set up the server environment for proper communication with the [X-Cart App Store](https://market.x-cart.com/addons/), as you’ll need it for the X-Cart addon installation process.
 
 _In this section_:
 *  {% link "Setting up cURL" ref_sshnMtN7 %}
