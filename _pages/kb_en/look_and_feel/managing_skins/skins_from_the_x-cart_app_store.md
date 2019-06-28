@@ -11,7 +11,7 @@ redirect_from:
 ---
 The [X-Cart App Store](https://market.x-cart.com/ecommerce-templates/) offers over 70 skin to your choice that you can obtain and use for your site.
 
-The steps involved in installling a skin from the X-Cart App Store are similar to the ones described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
+The steps involved in installing a skin from the X-Cart App Store are similar to the ones described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
 
 To install a skin from the X-Cart App Store, you will need to:
 
