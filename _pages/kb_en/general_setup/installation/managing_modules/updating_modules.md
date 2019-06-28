@@ -54,7 +54,7 @@ To update an addon:
    If you get an error like:
    
    ```
-   Error: Can't connect to the marketplace server: Curl Operation timed out after 74801 milliseconds with 251606 out of 500482 bytes received (28)
+   Error: Can't connect to the App Store server: Curl Operation timed out after 74801 milliseconds with 251606 out of 500482 bytes received (28)
    ```
     Contact your hosting provider to ensure there are no Internet connection issues or ask the hosting support to increase the timeout set. Errors of the kind can be caused by a slow or unstable Internet connection. 
    {% endnote %}
