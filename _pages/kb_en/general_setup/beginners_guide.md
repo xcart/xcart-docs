@@ -37,7 +37,7 @@ Before you stock your X-Cart store with products, you need to enter some busines
 
 ## Basic Store Setup
 
-The most important parts of your online store are the way your store looks and the kinds of products that you're going to sell. Try a few different themes to see which one looks best. If none of the default themes suits you, check for extra templates in the [Marketplace](https://market.x-cart.com/ecommerce-templates/ "Beginners Guide").
+The most important parts of your online store are the way your store looks and the kinds of products that you're going to sell. Try a few different themes to see which one looks best. If none of the default themes suits you, check for extra templates in the [X-Cart App Store](https://market.x-cart.com/ecommerce-templates/).
 
 Add some products to sell. Depending on how many products you plan to offer, adding and organizing your product listings can be the most time-consuming step of setting up an X-Cart store. Be sure to give yourself plenty of time to add your products, to organize them, to configure payments and to set the necessary tax and shipping options.
 
