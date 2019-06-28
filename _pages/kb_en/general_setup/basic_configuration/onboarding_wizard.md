@@ -7,7 +7,7 @@ title: X-Cart Quickstart Onboarding Wizard
 order: 100
 published: true
 ---
-When you first enter your X-Cart Admin Home page after the software installation you can see a green area that says "Let's set up your store!". This is X-Cart Quickstart Onboarding Wizard that is aimed to help a store admin with the initial store configuration and setup.
+When you enter your X-Cart Admin Home page for the first time after the software installation you could not miss the green area that says "Let's set up your store!" for sure. This is X-Cart Quickstart Onboarding Wizard that is aimed to help a store admin with the initial store configuration and setup.
 
 ![onboarding-wizard.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/onboarding-wizard.png)
 
