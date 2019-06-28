@@ -13,17 +13,17 @@ redirect_from:
     /look_and_feel/translating_your_stores_user_interface_to_other_languages.html
   - /translation_and_localization/installing_language_packages.html
 ---
-A language package or translation as it is referred to on the [Marketplace](https://market.x-cart.com/addons/translation/ "Installing Language Packages") is a .csv file that contains the values of the text labels defined for a specific language.
+A language package or translation as it is referred to on the [X-Cart App Store](https://market.x-cart.com/addons/translation/ "Installing Language Packages") is a .csv file that contains the values of the text labels defined for a specific language.
 
-To install a language package from the X-Cart Marketplace:
+To install a language package from the X-Cart App Store:
 
-1.  In your store's Admin area, select **My addons**, then click __View more addons in Marketplace__ to go to the X-Cart Marketplace.
+1.  In your store's Admin area, select **My addons**, then go to the X-Cart App Store.
     ![xc5_translations_goto_marketplace.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_goto_marketplace.png)
 
-2.  Locate the translation you require. For example, enter "translation" in the search bar to find all addons of translations in the Marketplace:
+2.  Locate the translation you require. For example, enter "translation" in the search bar to find all addons of translations in the X-Cart App Store:
     ![xc5_translations_search4translations.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_search4translations.png)
 
-3.  Install and activate the translations you require like you do with any other addons from the Marketplace. See {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+3.  Install and activate the translations you require like you do with any other addons from the X-Cart App Store. See {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
     ![xc5_translations_install_german.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_install_german.png)
 
 As a result, the translation addons you have installed should be added to the Installed Addons section in your store's Admin area:
