@@ -5,7 +5,7 @@ updated_at: '2019-06-28 12:29 +0400'
 identifier: ref_5xTo5Gmg
 title: X-Cart Quickstart Onboarding Wizard
 order: 100
-published: false
+published: true
 ---
 When you first enter your X-Cart Admin Home page after the software installation you can see a green area that says "Let's set up your store!". This is X-Cart Quickstart Onboarding Wizard that is aimed to help a store admin with the initial store configuration and setup.
 
@@ -121,13 +121,3 @@ Once the payments setup is complete, you are finished and can close the wizard.
 ![quickstart-9.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-9.png)
 
 Please do mind that the Quickstart Onboarding Wizard allows setting up the very basic store configuration. For a more robust store set-up read on the guides from this manual that are aimed to help you to configure your online store to meet your business requirements and make your dreams of selling online come true!
-
-
-
-
-
-
-
-
-
-
