@@ -30,12 +30,17 @@ You can always refer to the {% link "Server Requirements and Setup" ref_3olOLKdu
 
 Here is the system requirements list:
 
-*   PHP __5.4__ - __7.2__
-	_(X-Cart 5.3.4.5+)_
+*   **X-Cart v5.3.4.5 and later** : PHP __5.4__ - __7.2__  / MySQL __5.1.31__ or higher
+    
+    **X-Cart v5.4.0.x and later** : PHP __7.2__ or higher / MySQL __5.7.7__ or higher
+    
+    {% note info %}
+    You can also use MySQL-compatible database engine MariaDB.
+    {% endnote %}
+	
 *   __PDO__ extension with MySQL driver
 *   __Phar__ extension
 *   __mbstring__ extension is highly recommended (though X-Cart has a polyfill for it, native extension will speed up string processing)
-*   MySQL 5.1.31 or higher. You can also use MySQL-compatible database engine MariaDB.
 *   200-300Mb of disk space
 *   libCURL module support (minimum required CURL version is 7.39.0; version 7.43.0 is recommended)
 *   `ini_set` enabled
