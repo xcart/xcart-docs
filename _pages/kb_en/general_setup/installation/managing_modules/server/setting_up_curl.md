@@ -13,7 +13,7 @@ redirect_from:
 ---
 ## Introduction
 
-[cURL](http://www.php.net/manual/en/intro.curl.php) is a PHP extension that is used for creating connections to different types of servers. In particular, we are using cURL to connect to our marketplace and install addons from there. Usually hosting teams compile PHP with cURL enabled and everything works fine. If this is not your case, this article is for you.
+[cURL](http://www.php.net/manual/en/intro.curl.php) is a PHP extension that is used for creating connections to different types of servers. In particular, we are using cURL to connect to the X-Cart App Store and install addons from there. Usually hosting teams compile PHP with cURL enabled and everything works fine. If this is not your case, this article is for you.
 
 There are several possible cases when cURL is not configured properly with your PHP and we will explain how to deal with these situations.
 
