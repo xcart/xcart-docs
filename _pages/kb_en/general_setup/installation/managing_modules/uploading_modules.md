@@ -13,7 +13,7 @@ redirect_from:
   - /general_setup/managing_modules/uploading_modules.html
 ---
 
-If an addon is obtained from a source other than the Marketplace, you can upload and install it as follows:
+If an addon is obtained from a source other than the X-Cart App Store, you can upload and install it as follows:
 
 1.  In your store's Admin area, go to the ** My addons** section and click the **Upload add-on** button:
     ![upload-addon.png]({{site.baseurl}}/attachments/ref_GZQ9vTq6/upload-addon.png)
