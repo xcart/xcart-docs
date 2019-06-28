@@ -54,6 +54,8 @@ To install an addon from the X-Cart App Store:
 
     _Paid addons_: 
     
+    _Text below this line has not been checked and may be outdated._ 
+    
     Click the** Purchase** button next to the addon name to purchase the addon license. 
     After the license has been paid for, you will get an email message with your license key. The subject of this message is '**Your** "**Addon name**" **addon key**'. (The part "Addon name" should be replaced with the actual name of the addon). 
     Use this key to {% link "activate your addon license" ref_qwhmJtqW#activating-an-x-cart-5-addon-license %}. As soon as the license has been activated, the addon will be automatically installed at your store.
@@ -63,10 +65,10 @@ To install an addon from the X-Cart App Store:
     Now if you choose to view the list of your store's installed addons, the addon you have installed will be on the list. 
 
    {% note info %}
-   After the addon has been installed, it is already in the _Enabled_ (active) state. You can temporarily disable the addon or remove it completely using the addon deactivation instructions from the article {% link "Activating and Deactivating addons" ref_uEnDBBA7 %}.
+   After the addon has been installed, it is already in the _Enabled_ (active) state. You can temporarily disable the addon or remove it completely using the addon deactivation instructions from the article {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}.
    {% endnote %}
 
 _Related pages:_
 
 *   {% link "Managing Addons" ref_gTOegEua %}
-*   Video: {% link "X-Cart 5 Module License Activation" ref_hU6Rb4tw %}
+*   Video: {% link "X-Cart 5 Addon License Activation" ref_hU6Rb4tw %}
