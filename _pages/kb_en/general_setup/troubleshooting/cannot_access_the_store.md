@@ -77,7 +77,7 @@ Clicking on a reset link disables some or all of the addons installed at your st
       <td  class="confluenceTd">
         <p>Disables all the custom addons uploaded to the store directly <span>via the "Upload addon" feature </span>
         </p>
-        <p><span>&nbsp;</span>(NOT via the X-Cart Marketplace)</p>
+        <p><span>&nbsp;</span>(NOT via the X-Cart App Store)</p>
       </td>
       <td colspan="1"  class="confluenceTd"><span>Disables all the addons except for the ones developed by X-Cart 5 team and Qualiteam </span>
       </td>
