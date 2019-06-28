@@ -9,15 +9,17 @@ published: true
 redirect_from:
   - /look_and_feel/managing_skins/skins_from_marketplace.html
 ---
-[X-Cart Marketplace](https://market.x-cart.com/ecommerce-templates/ "Uploading Skins from Marketplace") offers over 70 skin to your choice that you can obtain and use for your site.
+The [X-Cart App Store](https://market.x-cart.com/ecommerce-templates/) offers over 70 skin to your choice that you can obtain and use for your site.
 
-The steps involved in installling a skin from the Marketplace are similar to the ones described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}. 
+The steps involved in installling a skin from the X-Cart App Store are similar to the ones described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
 
-So to install a skin from the Marketplace you'll need to:
+To install a skin from the X-Cart App Store, you will need to:
 
-1. Open the **Layout** section of the admin area (**Look & Feel** -> **Layout**)
+1. Open the **Layout** section of the Admin area (**Look & Feel** -> **Layout**).
+
 2. Click the **Activate purchased skin** button (if the skin is already paid):
    ![activate-license.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/activate-license.png)
+
 3. Enter your license key into the appropriate field and click **Activate**: 
    ![enter-license-key.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/enter-license-key.png)
    
@@ -40,4 +42,4 @@ So to install a skin from the Marketplace you'll need to:
 In case you haven't purchased a skin as yet and need to choose one, use the Visit the template store link in the **Choose a new template** section of the **Layout** page (**Look & Feel** -> **Layout**):
 ![visit-template-store.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/visit-template-store.png)
 
-You'll be redirected to X-Cart Marketplace where you can find and purchase a skin you like.
+You will be redirected to the X-Cart App Store where you can find and purchase a skin you like.
