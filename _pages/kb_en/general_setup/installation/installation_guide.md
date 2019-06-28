@@ -316,7 +316,7 @@ X-Cart store is ready to work and the whole world is open to you.
 
 Use X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} to set up your store and start selling.
 
-P.S. And don't forget about {% link 'security measures' ref_secureconfig %}!
+P.S. And don't forget about {% link "security measures" ref_4ewdbDM8 %}!
 
 ## Possible Installation Problems
 
