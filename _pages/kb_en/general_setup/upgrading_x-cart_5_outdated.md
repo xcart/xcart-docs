@@ -25,7 +25,7 @@ The purpose of this article is to describe how X-Cart 5 performs upgrades and gi
 
 ## General information
 
-There are two types of upgrades in X-Cart: **major upgrade** when the second or the third number in version is changed (e.g. upgrade from 5.1.3 to 5.1.4 or from 5.1.4 to 5.2.0) and **minor upgrade** when the fourth number in version is changed (e.g. upgrade from 5.3.2.2 to 5.3.2.5). Major upgrade includes big changes of the core so that interfaces of classes and signatures of methods change. It does not happen during minor upgrade. Consequently, minor upgrade does not require any change in modules, but major one requires compatibility changes.
+There are two types of upgrades in X-Cart: **major upgrade** when the second or the third number in version is changed (e.g. upgrade from 5.1.3 to 5.1.4 or from 5.1.4 to 5.2.0) and **minor upgrade** when the fourth number in version is changed (e.g. upgrade from 5.3.2.2 to 5.3.2.5). Major upgrade includes big changes of the core so that interfaces of classes and signatures of methods change. It does not happen during minor upgrade. Consequently, minor upgrade does not require any change in addons, but major one requires compatibility changes.
 
 <table class="ui celled padded compact small table">
   <thead>
@@ -51,9 +51,9 @@ There are two types of upgrades in X-Cart: **major upgrade** when the second or 
 
 Also, the second number major upgrade can be done only from the latest version of the branch. In other words, if 5.0.x branch has versions 5.0.10, 5.0.11, 5.0.12, 5.0.13, 5.0.14, then you can upgrade to 5.1 from 5.0.14 version only. The third number major upgrade does not follow this requirement, so you can upgrade a 5.0.10 store to 5.0.14 in one run. It means that if you want to upgrade your store from 5.0.10 to 5.1.0, then you will have two do this in two runs: upgrade from 5.0.10 to 5.0.14 and then from 5.0.14 to 5.1.0.
 
-In addition to core upgrades, there are also **module updates**. For instance, there is a bug in the 3rd party module Wishlist; the module developers fix the bug and re-upload the module to the Marketplace. In this case all the owners of the Wishlist module will be prompted to update this module even though the core version has remained the same.
+In addition to core upgrades, there are also **addon updates**. For instance, there is a bug in the 3rd party addon Wishlist; the addon developers fix the bug and re-upload the addon to the X-Cart App Store. In this case all Wishlist addon users will be prompted to update this addon even though the core version has remained the same.
 
-The general idea of any upgrade/update is to overwrite the existing files of the core/module. That simple. However, sometimes X-Cart needs to synchronize data or do some utility work. Such work is done by **upgrade hooks**. There are three types of upgrade hooks:
+The general idea of any upgrade/update is to overwrite the existing files of the core/addon. That simple. However, sometimes X-Cart needs to synchronize data or do some utility work. Such work is done by **upgrade hooks**. There are three types of upgrade hooks:
 
 *   **pre-upgrade hooks** are run before the files have been overwritten. These hooks work using the code of the old core.
 *   **post-upgrade hooks** are run after the files have been overwritten, but before the cache rebuild process has started. They are used for the preparation of the store for the cache rebuild process. They work using the code of the old core.
@@ -65,11 +65,11 @@ Upgrade hooks of the core are located in the `<X-Cart 5>/upgrade/` folder. If yo
 *   **post_upgrade.php **contains post-upgrade hooks;
 *   **post_rebuild.php** contains post-rebuild hooks.
 
-Upgrade hooks may exist in the modules as well, if the module needs to synchronize data between its own versions. Module upgrade hooks can be found in the `<X-Cart 5>/classes/Module/<DEV-ID>/<MODULE-ID>/upgrade/` folders; for example `<X-Cart 5>/classes/XLite/Module/XC/ProductComparison/upgrade/`.
+Upgrade hooks may exist in the addons as well, if the addon needs to synchronize data between its own versions. Addon upgrade hooks can be found in the `<X-Cart 5>/classes/Module/<DEV-ID>/<MODULE-ID>/upgrade/` folders; for example `<X-Cart 5>/classes/XLite/Module/XC/ProductComparison/upgrade/`.
 
 ## Process of store upgrade
 
-Once per day, each store checks the marketplace for updates. The response from marketplace is cached for a day. If you need to delete this cache, you should open the `admin.php?target=addons_list_marketplace&action=clear_cache` link.
+Once per day, each store checks the X-Cart App Store for updates. The response from the X-Cart App Store is cached for a day. If you need to delete this cache, you should open the `admin.php?target=addons_list_marketplace&action=clear_cache` link.
 
 If there is any kind of update available, the merchant will see the **Updates are available** link in the header of admin area.
 ![]({{site.baseurl}}/attachments/7505469/7602688.png)
@@ -80,10 +80,10 @@ Click this link and proceed to upgrade. You can see possible warnings before upg
 
 ![]({{site.baseurl}}/attachments/7505469/7602689.png)
 
-*   If your store has modules that do not exist in the marketplace (e.g. you uploaded them via **Upload add-on** button) and you are doing a **minor upgrade, **you will be suggested to disable them, although it is not necessarily![]({{site.baseurl}}/attachments/7505469/7602690.png)
-*   If your store has modules that do not exist in the marketplace (e.g. you uploaded them via **Upload add-on** button) and you are doing a **major upgrade,** you will be told that **they ****will be disabled automatically**![]({{site.baseurl}}/attachments/7505469/7602691.png)
+*   If your store has addons that do not exist in the X-Cart App Store (e.g. you uploaded them via the **Upload add-on** button), and you are doing a **minor upgrade**, you will be prompted to disable them, although it is not necessary![]({{site.baseurl}}/attachments/7505469/7602690.png)
+*   If your store has addons that do not exist in the X-Cart App Store (e.g. you uploaded them via the **Upload add-on** button), and you are doing a **major upgrade,** you will be told that **they** **will be disabled automatically**![]({{site.baseurl}}/attachments/7505469/7602691.png)
 
-After clicking **Continue **button, X-Cart will start downloading upgrade packs for core and modules.
+After clicking the **Continue** button, X-Cart will start downloading upgrade packs for the core and addons.
 
 NOTE: if this step times out because of bad connection, you can try to adjust the REQUEST_LONG_TTL constant in the `<X-Cart 5>/var/run/classes/XLite/Core/Marketplace.php` script, so that X-Cart would be able to download all files in time.
 
@@ -97,17 +97,17 @@ At this last step, you can also receive several types of warnings:
 
 ![]({{site.baseurl}}/attachments/7505469/7602770.png)
 
-*   If your store has any modules that have upgrade hooks and these modules are disabled (not active), you will be prompted to either activate such modules or completely remove them. Module must be active in order to correctly run upgrade hooks and this is the reason why the module must be either enabled or deleted
+*   If your store has any addons that have upgrade hooks, and these addons are disabled (not active), you will be prompted to either activate those addons or completely remove them. An addon must be active for upgrade hooks to run correctly, and this is the reason why disabled addons with hooks must be either enabled or deleted.
     ![]({{site.baseurl}}/attachments/7505469/7602769.png)
 
 After clicking **Install updates** button, there will be the process as follows:
 
-1.  Pre-upgrade hooks are run. If there is upgrade from 5.0.14 to 5.1.3, then all upgrade hooks - 5.1.0, 5.1.1, 5.1.2, 5.1.3 - will be run during this step. In addition to that all modules' upgrade hooks will be run at this stage;
+1.  Pre-upgrade hooks are run. If there is upgrade from 5.0.14 to 5.1.3, then all upgrade hooks - 5.1.0, 5.1.1, 5.1.2, 5.1.3 - will be run during this step. In addition to that, all addon upgrade hooks will be run at this stage;
 2.  Overwriting of files happens: new files are added, existing ones are overwritten, non-existent ones in new version are deleted;
 3.  Post-upgrade hooks are run. The same process as with pre-upgrade hooks;
 4.  Cache rebuild process;
 5.  Post-rebuild hooks are run. The same process as with pre-upgrade and post-upgrade hooks;
-6.  Update of language variables happens. Script will take all install.yaml files of modules + yaml file with language variables of the core (`<X-Cart 5>/sql/install.yaml`) and put language variables from these files to the database;
+6.  Update of language variables happens. Script will take all install.yaml files of addons + yaml file with language variables of the core (`<X-Cart 5>/sql/install.yaml`) and put language variables from these files to the database;
 7.  Upgrade is finished.
 
 ## Manual upgrade
@@ -119,7 +119,7 @@ First thing to do is to find out what step your upgrade stopped at. Look at the
 Below the description of full manual upgrade:
 
 1.  How to get new files? First of all, you should check `<X-Cart 5>/var/tmp` folder and all new files should be there. If this folder is empty, you should install the X-Cart 5 version you are upgrading to on the same server (you can freely get it on [http://www.x-cart.com)](http://www.x-cart.com)) and activate all paid add-ons using your license keys. After that, this installation will have all needed files.
-2.  You need to run all pre-upgrade hooks (core's and modules'). The code example of how to run one hook is below: 
+2.  You need to run all pre-upgrade hooks (the ones of the core and the addons). The code example of how to run one hook is below: 
 
     ```php
     <?php
