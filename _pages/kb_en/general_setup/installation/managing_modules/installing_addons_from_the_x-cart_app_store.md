@@ -45,7 +45,7 @@ To install an addon from the X-Cart App Store:
 
     _Free addons_: 
     
-    Select the addon for installation by clicking **Install addon** below the addon name. (It is possible to select more than one addon on the page.)
+    Select the addon for installation by clicking **Install addon** below the addon name. (It is possible to select more than one addon.)
     
     Click the **Apply changes** button at the bottom of the screen.
     ![mktplce_installfree.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_installfree.png)
