@@ -21,7 +21,7 @@ All X-Cart 5 editions (Business, Multivendor and Ultimate) are GDPR-friendly via
 
 ## Installing and Configuring the GDPR Addon
 
-To make your X-Cart 5 based website compliant with the EU legislation on GDPR, install and enable the GDPR addon as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+To make your X-Cart 5 based website compliant with the EU legislation on GDPR, install and enable the GDPR addon as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 Once installed proceed to the addon settings page to configure it.
 
