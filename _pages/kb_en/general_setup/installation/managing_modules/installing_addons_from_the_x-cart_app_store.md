@@ -54,8 +54,6 @@ To install an addon from the X-Cart App Store:
 
     _Paid addons_: 
     
-    _Text below this line has not been checked and may be outdated._ 
-    
     Click the** Purchase** button next to the addon name to purchase the addon license. 
     ![mktplce_purchase_addon.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_purchase_addon.png)
     
