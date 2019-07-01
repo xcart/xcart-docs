@@ -58,17 +58,16 @@ Since the X-Cart 5 Business package on which the trial version is based includes
 Review the "to be removed" list and confirm your intention to continue with the activation of the Free license. If at a later time you need any of the addons that were removed as a result of the activation of the Free license, you will be able to upgrade your license to Premium and install the addons from the Premium package.
 
 Scroll down to the bottom of the page and enter the email address to which you want X-Cart to register your Free license. Then click **Activate**.
-          ![xc5_licenses_email.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_email.png)
+          ![free_license_activation.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/free_license_activation.png)
 
-The license activation process will begin:
-          ![]({{site.baseurl}}/attachments/8225232/8356127.png)
-    
-The license activation process may take a few minutes. Take care not to close the page before the process has been fully completed.
+X-Cart will activate your license, and the store will be re-deployed. The process may take as long as a few minutes. Take care not to close the page before the process has been fully completed.
 
-Once the license activation has been completed, you should see a confirmation message at the top of the screen.
-          ![xc5_licenses_free_activation_success.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_free_activation_success.png)
+Once your store has been re-deployed, you should see a success message.
+          ![all_done.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/all_done.png)
 
-Now your Admin area header should be showing the license type you have activated:
+Now you should check that you can open your X-Cart store Admin area and storefront, and navigate a few pages to make sure everything looks good (no error messages or obvious page display problems). 
+
+You will notice that the Admin area header now shows the license type you have activated:
           ![xc5_licenses_free.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_free.png)
 
 ## Activating a Premium X-Cart 5 license (Business / Multivendor / Ultimate)
