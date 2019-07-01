@@ -83,10 +83,10 @@ If you do not yet have a premium license but want to purchase one, you can do so
 
 Other methods to access the **Purchase a premium license key** button are:
 
-   *   _Method 1:_ Click the **Activate key** button in the Admin area site header:
+   *   _Method 1:_ Click **Activate key** in the Admin area site header:
        ![xc5_licenses_activate_button_inheader.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_button_inheader.png)
     
-   *   _Method 2:_ Click the **Activate license key** button in the My Addons section:
+   *   _Method 2:_ Click **Activate license key** in the My Addons section (accessible via the **My addons** item):
        ![xc5_licenses_activate_button_ininstalledaddons.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_button_ininstalledaddons.png)
         and then to click the **activate your X-Cart license** link:
         ![xc5_licenses_activate_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_first.png)
