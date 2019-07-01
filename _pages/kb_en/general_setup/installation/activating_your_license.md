@@ -14,7 +14,7 @@ redirect_from:
 
 The X-Cart 5 package available for download from the [www.x-cart.com](http://www.x-cart.com/) website is a 30-day feature-complete trial of the X-Cart 5 Business edition. This trial package is licensed for evaluation purposes only. To use your X-Cart 5 installation for purposes other than evaluation, you need a Full X-Cart 5 license (like Free, Business, Multivendor or Ultimate) which must be activated for your store. The feature comparison guide for the different types of Full X-Cart license is [available on our website](https://www.x-cart.com/software-pricing.html).
 
-A Free license can be obtained and activated by anyone through the use of the Activate free license feature of the X-Cart 5 trial. The rest of the license types (Business, Multivendor and Ultimate) are non-free and must be purchased; for each X-Cart 5 license you purchase you get a license activation key which you must use to activate your license. Paid (non-free) addons for X-Cart 5 are also provided with licenses that require activation.
+A Free license can be obtained and activated by anyone through the use of the Activate free license feature of the X-Cart 5 trial. Premium license types (Business, Multivendor and Ultimate) are non-free and must be purchased; for each X-Cart 5 license you purchase you get a license activation key which you must use to activate your license. Paid (non-free) addons for X-Cart 5 are also provided with licenses that require activation.
 
 {% toc %}
 
@@ -86,7 +86,7 @@ Other methods to access the **Purchase a premium license key** button are:
    *   _Method 1:_ Click the **Activate key** button in the Admin area site header:
        ![xc5_licenses_activate_button_inheader.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_button_inheader.png)
     
-   *   _Method 2:_ Click the **Activate license key** button in the Installed Addons section:
+   *   _Method 2:_ Click the **Activate license key** button in the My Addons section:
        ![xc5_licenses_activate_button_ininstalledaddons.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_button_ininstalledaddons.png)
         and then to click the **activate your X-Cart license** link:
         ![xc5_licenses_activate_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_first.png)
