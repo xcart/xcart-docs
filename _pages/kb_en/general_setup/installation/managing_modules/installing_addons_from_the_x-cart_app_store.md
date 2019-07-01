@@ -57,8 +57,10 @@ To install an addon from the X-Cart App Store:
     _Text below this line has not been checked and may be outdated._ 
     
     Click the** Purchase** button next to the addon name to purchase the addon license. 
+    ![mktplce_purchase_addon.png]({{site.baseurl}}/attachments/ref_Vn1mMUw9/mktplce_purchase_addon.png)
+    
     After the license has been paid for, you will get an email message with your license key. The subject of this message is '**Your** "**Addon name**" **addon key**'. (The part "Addon name" should be replaced with the actual name of the addon). 
-    Use this key to {% link "activate your addon license" ref_qwhmJtqW#activating-an-x-cart-5-addon-license %}. As soon as the license has been activated, the addon will be automatically installed at your store.
+    Use this key to {% link "activate your addon license" ref_qwhmJtqW#activating-an-x-cart-5-addon-license %}. Note that if you are using an X-Cart trial you will need to activate an X-Cart license before you can activate your addon license. As soon as the addon license has been activated, the addon will be automatically installed at your store.
 
 5.  Once the addon has been installed, you will be redirected to the **Recently istalled addons** page where a success message will be displayed at the top of the screen. You will find the newly installed addon listed on the page.
 
