@@ -12,9 +12,9 @@ redirect_from:
   - /general_setup/activating_your_license.html
 ---
 
-The X-Cart 5 package available for download from the [www.x-cart.com](http://www.x-cart.com/) website is a 30-day feature-complete trial of the X-Cart 5 Business edition. This trial package is licensed for evaluation purposes only. To use your X-Cart 5 installation for purposes other than evaluation, you need a Full X-Cart 5 license (Free, Business, Multivendor or Ultimate) which must be activated for your store. 
+The X-Cart 5 package available for download from the [www.x-cart.com](http://www.x-cart.com/) website is a 30-day feature-complete trial of the X-Cart 5 Business edition. This trial package is licensed for evaluation purposes only. To use your X-Cart 5 installation for purposes other than evaluation, you need a Full X-Cart 5 license (like Free, Business, Multivendor or Ultimate) which must be activated for your store. The feature comparison guide for the different types of Full X-Cart license is [available on our website](https://www.x-cart.com/software-pricing.html).
 
-A Free license can be obtained and activated by anyone through the use of the Activate free license feature of the X-Cart 5 trial. The rest of the license types (Business, Multivendor and Ultimate) are non-free and must be purchased; for each X-Cart 5 license you purchase you get a license activation key which you must use to activate your license. Commercial (non-free) addons for X-Cart 5 are also provided with licenses that require activation. If you purchased a addon license and need to activate it.
+A Free license can be obtained and activated by anyone through the use of the Activate free license feature of the X-Cart 5 trial. The rest of the license types (Business, Multivendor and Ultimate) are non-free and must be purchased; for each X-Cart 5 license you purchase you get a license activation key which you must use to activate your license. Paid (non-free) addons for X-Cart 5 are also provided with licenses that require activation.
 
 {% toc %}
 
