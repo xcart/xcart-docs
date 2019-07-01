@@ -95,7 +95,7 @@ Be sure to have this key at the ready when you are going to activate your licens
 If you lost the email message with your license key and experience problems logging in to your HelpDesk account, please contact X-Cart's Customer Service at **[support@x-cart.com](mailto:support@x-cart.com)**.
 
 To activate your license, log in to the Admin area of your X-Cart 5 installation and submit your license key via the form for license activation. In X-Cart trial version, the form for license activation can be accessed using the methods described above. If you have activated an X-Cart license previously, the license activation form is available only via the **Activate license key** button in the My Addons section. 
-      ![xc5_licenses_enter_premium.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_enter_premium.png)
+      ![register_premium.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/register_premium.png)
 
 X-Cart will activate your license, and the store will be re-deployed. The process may take as long as a few minutes. Take care not to close the page before the process has been fully completed.
 
