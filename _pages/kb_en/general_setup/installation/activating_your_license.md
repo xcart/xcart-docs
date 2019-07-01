@@ -22,9 +22,9 @@ A Free license can be obtained and activated by anyone through the use of the Ac
 
 This section explains how to activate a Free X-Cart 5 license to turn your X-Cart trial installation into a real X-Cart 5 Free edition store.
 
-A {% link "video instruction on X-Cart 5 Free license activation" ref_X5ZLmSJV %}  is available in the Webinars and video tutorials section of the X-Cart 5 Knowledge Base.
+A {% link "video instruction on X-Cart 5 Free license activation" ref_X5ZLmSJV %} is available.
 
-To start the activation process for a Free X-Cart 5 license, you will need to click on the **Activate free license** in the Admin area of your X-Cart 5 trial installation. For your convenience, this link can be accessed using any of the methods below:  
+To start the activation process for a Free X-Cart 5 license, choose to **Activate free license** in the Admin area of your X-Cart 5 trial installation. For your convenience, this activate license link can be accessed using any of the methods below:  
 
    *   _Method 1:_
        In the popup box with the X-Cart trial expiration notice (you can see it every time you sign in to the Admin area), click on the "I have a license key" link:
