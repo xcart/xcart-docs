@@ -27,7 +27,7 @@ A {% link "video instruction on X-Cart 5 Free license activation" ref_X5ZLmSJV 
 To start the activation process for a Free X-Cart 5 license, choose to **Activate free license** in the Admin area of your X-Cart 5 trial installation. For your convenience, this activate license link can be accessed using any of the methods below:  
 
    *   _Method 1:_
-       In the popup box with the X-Cart trial expiration notice (this box appears every time you sign in to the Admin area), click on the "I have a license key" link:
+       In the popup box with the X-Cart Business trial expiration notice (this box appears every time you sign in to the Admin area), click on the "I have a license key" link:
        ![activate_in_trial_warning.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/activate_in_trial_warning.png)
 
        This will expand the popup box further down, an a link to activate a free X-Cart license will be revealed:
@@ -46,11 +46,13 @@ To start the activation process for a Free X-Cart 5 license, choose to **Activat
    *    _Method 3:_ In the Admin menu, select **My addons** to go to the My Addons section. In this section, click the **Activate license key** button:
         ![activate_in_myaddons.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/activate_in_myaddons.png)
 
-        A popup box titled **Activate your X-Cart installation first** will be displayed. Click on the activate free X-Cart license link inside the box to activate a free license:
+        A popup box titled **Activate your X-Cart installation first** will be displayed with a link to activate a free X-Cart license. 
+
+        Click on the link to activate a free license:
         ![activate_in_myaddons1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/activate_in_myaddons1.png)
 
 
-Once the button to activate a free X-Cart license has been clicked, the popup box will be closed, and you will see a page with a warning about the consequences of free license activation:
+Once you have selected to activate a free X-Cart license, the popup box will be closed, and you will see a page with a warning about the consequences of free license activation:
          ![free_license_activation_warning.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/free_license_activation_warning.png)
 
 Since the X-Cart 5 Business package on which the trial version is based includes more addons than the X-Cart 5 Free edition, activation of the Free license will cause some of the addons on your X-Cart installation to be removed. So basically what you see on this page is a list of addons that will be removed from your X-Cart installation.
