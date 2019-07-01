@@ -49,15 +49,9 @@ To start the activation process for a Free X-Cart 5 license, choose to **Activat
         A popup box titled **Activate your X-Cart installation first** will be displayed. Click on the activate free X-Cart license link inside the box to activate a free license:
         ![activate_in_myaddons1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/activate_in_myaddons1.png)
 
-   *   _Method 4:_ In the X-Cart App Store, click the **Activate license key** button:
-        ![xc5_licenses_activate_button_inmktplce.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_button_inmktplce.png)
-        This will cause the following box to appear, where you will find the **activate your X-Cart license** link:
-        ![xc5_licenses_activate_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_first.png)
-         Click on this link. The box will be expanded to display more options. Choose to activate a free license:
-        ![xc5_licenses_activate_first_opts.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_first_opts.png)
 
-Once the **Activate free license** button has been clicked, the popup box will be closed, and you will see a page with a warning about the consequences of free license activation:
-         ![xc5_licenses_free_license_consequences.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_free_license_consequences.png)
+Once the button to activate a free X-Cart license has been clicked, the popup box will be closed, and you will see a page with a warning about the consequences of free license activation:
+         ![free_license_activation_warning.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/free_license_activation_warning.png)
 
 Since the X-Cart 5 Business package on which the trial version is based includes more addons than the X-Cart 5 Free edition, activation of the Free license will cause some of the addons on your X-Cart installation to be removed. So basically what you see on this page is a list of addons that will be removed from your X-Cart installation.
 
