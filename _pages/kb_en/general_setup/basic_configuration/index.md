@@ -12,6 +12,7 @@ Once X-Cart software is installed start with the basic store configuration. Name
 
 _In this section_ :
 
+*   {% link "X-Cart Quickstart Onboarding Wizard" ref_5xTo5Gmg %}
 *   {% link "General Settings" ref_qAZlJxZm %}
 *   {% link "Company Identity and Contact Information" ref_HcSs9eFL %}
 *   {% link "Catalog Mode (No 'Add to Cart' Buttons)" ref_CvAsFxq8 %}
