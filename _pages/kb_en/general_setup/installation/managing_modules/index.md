@@ -11,6 +11,7 @@ order: 30
 redirect_from:
   - /modules/managing_modules/index.html
   - /general_setup/managing_modules/index.html
+  - /general_setup/installing_and_activating_modules.html
 ---
 
 The functionality of your X-Cart 5 based store can be extended by installing addons (modules). 
