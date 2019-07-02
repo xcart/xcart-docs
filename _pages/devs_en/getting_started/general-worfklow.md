@@ -5,7 +5,7 @@ updated_at: '2019-07-01 16:21 +0400'
 identifier: ref_3PbebC0P
 title: General X-Cart workflow
 order: 200
-published: false
+published: true
 ---
 ## Introduction
 
