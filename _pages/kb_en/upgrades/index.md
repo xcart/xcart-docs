@@ -15,9 +15,9 @@ redirect_from:
 categories:
   - home
 ---
-Software upgrades are important as they allow your store to stay secure and up-to-date with the latest features released. Hence make sure you upgrade your X-Cart store regularly.
+Software upgrades are important as they allow your store to stay secure and up-to-date with the latest features released. For this reason you should make sure you upgrade your X-Cart store regularly.
 
-X-Cart software code and modules are upgraded independently from each other to ensure data safety and overall software stability. If anything goes wrong with the modules' upgrade, you can simply disable the modules in question not affecting the main store functioning.
+X-Cart software code and addons are upgraded independently from each other to ensure data safety and overall software stability. If anything goes wrong with an addon upgrade, you can simply disable the addon that may have caused the problem without affecting the main store functioning.
 
 
 _In this section_ :
