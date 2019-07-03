@@ -99,13 +99,13 @@ The sections of the X-Cart admin menu can be accessed from any page of the Admin
   * {% link "Payments" ref_gm10twDM %}
 * **System tools** : This menu section provides tools for advanced Admin area management. Use it when you need to make a store backup, check the system logs and current environment description, clear the data cache, configure HTTPS settings or perfrom consistency and integrity checks.
 
-## Info Panel
+## Info Dashboard
 
-The Info Panel on the Home page of the Admin area provides information about orders awaiting processing, low in stock products and bestsellers. 
+The Info Dashboard on the Home page of the Admin area provides information about orders awaiting processing, low in stock products and bestsellers. 
 
 ![info-panel.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/info-panel.png)
 
-The 'Orders awaiting processing' board shows the info on the last 5 orders placed in your store. The same does the 'Low inventory products' board below it, it shows the latest 5 products with least inventory. 
+The 'Orders awaiting processing' board shows the info on the last 5 orders placed in your store. The same does the 'Low inventory products' board below it, it shows the latest 5 products with least inventory. A store admin can proceed to processing any of the orders or changing the product properties by clicking the target order number or product name directly on the dashboard and will be automatically redirected to the required page of the Admin area.
 
 As for the 'Bestsellers' tab as store admin can set it up to display either all products or the only available products and choose the period (from 24 hours to lifetime) the stats data should be counted for:
 
