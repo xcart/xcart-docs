@@ -13,6 +13,8 @@ When you log in to your X-Cart Admin area, the first thing that you see is the A
 
 X-Cart Admin Home page shows information about orders awaiting processing, bestseller products and products low in stock, as well as your store’s recent sales stats and X-Cart community news. Right after the software installation the Admin Home page also shows a special {% link "X-Cart Quickstart Onboarding Wizard" ref_5xTo5Gmg %} that is aimed to help a store admin with the initial store setup.
 
+To return to Homepage from any other page of the Admin Area click on the store logo icon in the left of the store header.
+
 {% toc %}
 
 ## Admin Area Header
@@ -69,18 +71,33 @@ Also using this dropdown a store admin can access the X-Cart Knowledge Base and 
 
 All of the tools you need to manage the operation and maintenance of your store are available in the sidebar Admin menu.
 
-The sections of the X-Cart admin menu include:
+The sections of the X-Cart admin menu can be accessed from any page of the Admin area. They include:
 
-* Orders : 
-* Catalog : 
-* Users :
-* Discounts :
-* Content : 
-* Sales Channels (Marketing in X-Cart 5.4.x and later):
-* My addons :
-* Look & Feel :
-* Store setup : 
-* System tools :
+* **Orders** : This menu section provides all the necessary tools required for orders management and processing. 
+  To learn how to use this section properly read the guides from the {% link "Orders" ref_r4PbRx4Z %} section of X-Cart Knowledge Base.
+* **Catalog** : This menu section provides all required tools for the catalog management as well as the tools for the data import/export. 
+   To learn how to use this section propery read the guides from the {% link "Products" ref_5vJ9gwBl %}, {% link "Product Classes and Attributes" ref_T90ZcEpP %} and {% link "Import-Export" ref_TANvG2De %} sections of X-Cart Knowledge Base.
+* **Users** : This menu section providers all the necessary tools for user accounts' management, both admins and customers. 
+   To learn how to use this section propery read the guides from the {% link "Users" ref_QdN8kJnH %} section of X-Cart Knowledge Base.
+* **Discounts** : This menu section provides all necessary tools to promote the goods you are selling including volume discounts, coupons and related.
+   To learn how to use this section propery read the guides from the {% link "Business Promotion" ref_3S9KvLey %} section of X-Cart Knowledge Base.
+* **Content** : This menu section provides all required tools to manage the storefront navigation and content.
+  To learn how to use this section propery read the guides from the {% link "Look and Feel" ref_bzUBJufx %} section of X-Cart Knowledge Base, pay special attention to {% link "Managing Content and Service Pages" ref_27dBlUF9 %} and {% link "Managing Navigation Elements" ref_4wQjPcoc %}.
+* **Sales Channels** (**Marketing** in X-Cart 5.4.x and later): This menu section provides access to different software integrations like MailChimp, eBay, Facebook Ads & Instagram Ads, Google product feed and many others that can help you with the store promotion in different sales channels.
+  To learn how to use this section propery read the guides from the {% link "Sales Channels" ref_ybdJste8 %} section of X-Cart Knowledge Base.
+* **My addons** : This menu section provides access to the X-Cart App Store and the list of addons installed in your store. 
+  To check the list of addons that you can use to extend the default software functionality please refer to the {% link "Addons" ref_mCs9Q9Uy %} section of X-Cart Knowledge Base. You can also need the guides from the {% link "Managing Addons" ref_gTOegEua %} section to learn how to install and activate the addon you need.
+* **Look & Feel** : This menu section provides the tools required to set up and maintain the storefront. 
+  To learn how to use this section propery read the guides from the {% link "Look and Feel" ref_bzUBJufx %} section of X-Cart Knowledge Base.
+* **Store setup** : This menu section provides tools to configure and maintain every aspect of your store. In this section you can specify the store locale and business info, configure checkout options, set up zones, taxes, payments and shipping, manage email notifications and the store SEO settings, as well as add translations to your store.
+  To learn how to set up and maintain the store propery read the guides from the following sections of X-Cart Knowledge Base:
+  * {% link "Basic Configuration Settings" ref_0trrARqV %}
+  * {% link "Translation and Localization" ref_1frAlu26 %}
+  * {% link "Countries, States and Zones" ref_DmCBnKwz %}
+  * {% link "Taxes" ref_kJmd7K27 %}
+  * {% link "Shipping" ref_7tvT7GEK %}
+  * {% link "Payments" ref_gm10twDM %}
+* **System tools** : This menu section provides tools 
 
 ## Admin Area Info Panel
 
