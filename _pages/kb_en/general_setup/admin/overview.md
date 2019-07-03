@@ -13,7 +13,7 @@ When you log in to your X-Cart Admin area, the first thing that you see is the A
 
 X-Cart Admin Home page shows information about orders awaiting processing, bestseller products and products low in stock, as well as your store’s recent sales stats and X-Cart community news. Right after the software installation the Admin Home page also shows a special {% link "X-Cart Quickstart Onboarding Wizard" ref_5xTo5Gmg %} that is aimed to help a store admin with the initial store setup.
 
-To return to Homepage from any other page of the Admin Area click on the store logo icon in the left of the store header.
+To return to Home page from any other page of the Admin area click on the store logo icon in the left of the store header.
 
 {% toc %}
 
