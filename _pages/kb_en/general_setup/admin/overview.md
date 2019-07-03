@@ -17,7 +17,7 @@ X-Cart Admin Home page shows information about orders awaiting processing, bests
 
 ## Admin Area Header
 
-The Admin Area Header shows the software version in use and includes tools for a quick navigation and search through the store as well as a tool to open or close the storefront for customers. It also shows the store low-stock and updates alerts, App Store notifications and gives access to the admin profile and X-Cart user docs that can be of a great help in the store setup and management.
+The Admin area header shows the software version in use and includes tools for a quick navigation and search through the store as well as a tool to open or close the storefront for customers that are accessible from any page of the store Admin area. It also shows the store low-stock and updates' alerts, App Store notifications and gives access to the admin profile and X-Cart user docs that can be of a great help in the store setup and management.
 
 ![header-panel.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/header-panel.png)
 
@@ -25,7 +25,7 @@ The Admin Area Header shows the software version in use and includes tools for a
 
 All notifications on the products low in stock and the store updates available are shown in the header of the Admin area as well as the notifications about new addons available in the App Store updates.
 
-When a new alert comes up the respected notification's icon in the header is highlighed with an orange circle at the top. To see the notifications it's ncessary to click on the icon and expand the menu.
+When a new alert comes up the corresponding notification's icon in the header is highlighed with an orange circle at the top. To see the notifications it's ncessary to click on the icon and expand the menu.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Store Alerts</i>![admin-alerts.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/admin-alerts.png)</div>
@@ -34,9 +34,9 @@ When a new alert comes up the respected notification's icon in the header is hig
 
 ### Navigation and Search Tools
 
-The Admin Area Header can also be used for a quick navigation and serach throughout the store.
+The Admin area header can also be used for a quick navigation and search throughout the store.
 
-A navigation menu in the header allows a store admin to add a new product, category, user or discount coupon in about one click from any page of the Admin area. It's just necessary to expand the quick navigation menu and click on the respected icon.
+A navigation menu in the header allows a store admin to add a new product, category, user or discount coupon in about one click from any page of the Admin area. It's just necessary to expand the quick navigation menu and click on the corresponding icon.
 
 ![quick-menu.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/quick-menu.png)
 
@@ -44,6 +44,26 @@ The search bar in the header allows to quick-search through products, usera and 
 
 ![quicksearch.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/quicksearch.png)
 
+### Storefront Accessibility
+
+A store admin can view the customer storefront and open/close it in one click directly from the header of the Admin area. 
+
+To make the storefront open or closed for customers it's just necessary to switch the "View storefront" toggle ON/OFF.
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><i>Storefront is open</i>![storefront-on.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/storefront-on.png)</div>
+  <div class="column" markdown="span"><i>Storefront is closed</i>![stofront-off.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/stofront-off.png)</div>
+</div>
+
+To access the customer storefront a store admin should only click the link next to the toggle and it will be opened in a new browser tab. A tore admin will be able to view the storefront working even if it is closed, as it will be opened with a special activation ShopKey. To see the storefront just as it looks for customers a store admin will need to log out or open the customer storefront in an incognito mode. 
+
+### Admin Account and Help Docs
+
+To edit your personal admin account open the dropdown menu under the Admin icon in the right of the header and click 'My profile'.
+
+![my-profile.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/my-profile.png)
+
+Also using this dropdown a store admin can access the X-Cart Knowledge Base and Dev Docs, suggest an idea on the software inprovement or report a software bug and also contact X-Cart using the 'Contact Us' at [www.x-cart.com](https://www.x-cart.com/contact-us.html "Admin Area Overview").
 
 ## Admin Area Menu
 
