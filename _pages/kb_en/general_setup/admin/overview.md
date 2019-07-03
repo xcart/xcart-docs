@@ -17,7 +17,7 @@ To return to Homepage from any other page of the Admin Area click on the store l
 
 {% toc %}
 
-## Admin Area Header
+## Admin Header
 
 The Admin area header shows the software version in use and includes tools for a quick navigation and search through the store as well as a tool to open or close the storefront for customers that are accessible from any page of the store Admin area. It also shows the store low-stock and updates' alerts, App Store notifications and gives access to the admin profile and X-Cart user docs that can be of a great help in the store setup and management.
 
@@ -67,7 +67,7 @@ To edit your personal admin account open the dropdown menu under the Admin icon 
 
 Also using this dropdown a store admin can access the X-Cart Knowledge Base and Dev Docs, suggest an idea on the software inprovement or report a software bug and also contact X-Cart using the 'Contact Us' at [www.x-cart.com](https://www.x-cart.com/contact-us.html "Admin Area Overview").
 
-## Admin Area Menu
+## Sidebar Menu
 
 All of the tools you need to manage the operation and maintenance of your store are available in the sidebar Admin menu.
 
@@ -99,8 +99,8 @@ The sections of the X-Cart admin menu can be accessed from any page of the Admin
   * {% link "Payments" ref_gm10twDM %}
 * **System tools** : This menu section provides tools 
 
-## Admin Area Info Panel
+## Info Panel
 
-## Admin Area Stats and News Block
+## Stats and News Block
 
-## Admin Area Concierge
+## Concierge
