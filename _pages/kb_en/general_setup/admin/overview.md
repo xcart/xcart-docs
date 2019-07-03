@@ -5,7 +5,7 @@ updated_at: '2019-06-27 15:06 +0400'
 identifier: ref_2DXFvdbo
 title: Admin Area Overview
 order: 110
-published: false
+published: true
 ---
 When you log in to your X-Cart Admin area, the first thing that you see is the Admin area Home page:
 
