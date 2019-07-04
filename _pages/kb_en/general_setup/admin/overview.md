@@ -42,7 +42,7 @@ A navigation menu in the header allows a store admin to add a new product, categ
 
 ![quick-menu.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/quick-menu.png)
 
-The search bar in the header allows to quick-search through products, usera and orders from any page of the Admin area. Just choose what you'll be searching through in the dropdown and type a request in the search bar.
+The search bar in the header allows to quick-search through products, users and orders from any page of the Admin area. Just choose what you'll be searching through in the dropdown and type a request in the search bar.
 
 ![quicksearch.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/quicksearch.png)
 
@@ -57,7 +57,7 @@ To make the storefront open or closed for customers it's just necessary to switc
   <div class="column" markdown="span"><i>Storefront is closed</i>![stofront-off.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/stofront-off.png)</div>
 </div>
 
-To access the customer storefront a store admin should only click the link next to the toggle and it will be opened in a new browser tab. A tore admin will be able to view the storefront working even if it is closed, as it will be opened with a special activation ShopKey. To see the storefront just as it looks for customers a store admin will need to log out or open the customer storefront in an incognito mode. 
+To access the customer storefront a store admin should only click the link next to the toggle and it will be opened in a new browser tab. The store admin will be able to view the storefront working even if it is closed, as it will be opened with a special activation ShopKey. To see the storefront just as it looks for customers a store admin will need to log out or open the customer storefront in an incognito mode. 
 
 ### Admin Account and Help Docs
 
@@ -65,55 +65,75 @@ To edit your personal admin account open the dropdown menu under the Admin icon 
 
 ![my-profile.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/my-profile.png)
 
-Also using this dropdown a store admin can access the X-Cart Knowledge Base and Dev Docs, suggest an idea on the software inprovement or report a software bug and also contact X-Cart using the 'Contact Us' at [www.x-cart.com](https://www.x-cart.com/contact-us.html "Admin Area Overview").
+Also using this dropdown a store admin can access the X-Cart Knowledge Base and Dev Docs, suggest an idea on the software improvement or report a software bug as well as contact X-Cart using the 'Contact Us' at [www.x-cart.com](https://www.x-cart.com/contact-us.html "Admin Area Overview").
 
 ## Sidebar Menu
 
 All of the tools you need to manage the operation and maintenance of your store are available in the sidebar Admin menu.
 
+![sidebar-menu.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/sidebar-menu.png)
+
 The sections of the X-Cart admin menu can be accessed from any page of the Admin area. They include:
 
 * **Orders** : This menu section provides all the necessary tools required for orders management and processing. 
+  
   To learn how to use this section properly read the guides from the {% link "Orders" ref_r4PbRx4Z %} section of X-Cart Knowledge Base.
+  
 * **Catalog** : This menu section provides all required tools for the catalog management as well as the tools for the data import/export. 
-   To learn how to use this section propery read the guides from the {% link "Products" ref_5vJ9gwBl %}, {% link "Product Classes and Attributes" ref_T90ZcEpP %} and {% link "Import-Export" ref_TANvG2De %} sections of X-Cart Knowledge Base.
+   
+   To learn how to use this section properly read the guides from the {% link "Products" ref_5vJ9gwBl %}, {% link "Product Classes and Attributes" ref_T90ZcEpP %} and {% link "Import-Export" ref_TANvG2De %} sections of X-Cart Knowledge Base.
+   
 * **Users** : This menu section providers all the necessary tools for user accounts' management, both admins and customers. 
-   To learn how to use this section propery read the guides from the {% link "Users" ref_QdN8kJnH %} section of X-Cart Knowledge Base.
+   
+   To learn how to use this section properly read the guides from the {% link "Users" ref_QdN8kJnH %} section of X-Cart Knowledge Base.
+   
 * **Discounts** : This menu section provides all necessary tools to promote the goods you are selling including volume discounts, coupons and related.
-   To learn how to use this section propery read the guides from the {% link "Business Promotion" ref_3S9KvLey %} section of X-Cart Knowledge Base.
+   
+   To learn how to use this section properly read the guides from the {% link "Business Promotion" ref_3S9KvLey %} section of X-Cart Knowledge Base.
+   
 * **Content** : This menu section provides all required tools to manage the storefront navigation and content.
-  To learn how to use this section propery read the guides from the {% link "Look and Feel" ref_bzUBJufx %} section of X-Cart Knowledge Base, pay special attention to {% link "Managing Content and Service Pages" ref_27dBlUF9 %} and {% link "Managing Navigation Elements" ref_4wQjPcoc %}.
+
+  To learn how to use this section properly read the guides from the {% link "Look and Feel" ref_bzUBJufx %} section of X-Cart Knowledge Base, pay special attention to {% link "Managing Content and Service Pages" ref_27dBlUF9 %} and {% link "Managing Navigation Elements" ref_4wQjPcoc %}.
+  
 * **Sales Channels** (**Marketing** in X-Cart 5.4.x and later): This menu section provides access to different software integrations like MailChimp, eBay, Facebook Ads & Instagram Ads, Google product feed and many others that can help you with the store promotion in different sales channels.
-  To learn how to use this section propery read the guides from the {% link "Sales Channels" ref_ybdJste8 %} section of X-Cart Knowledge Base.
+  
+  To learn how to use this section properly read the guides from the {% link "Sales Channels" ref_ybdJste8 %} section of X-Cart Knowledge Base.
+  
 * **My addons** : This menu section provides access to the X-Cart App Store and the list of addons installed in your store. 
+  
   To check the list of addons that you can use to extend the default software functionality please refer to the {% link "Addons" ref_mCs9Q9Uy %} section of X-Cart Knowledge Base. You can also need the guides from the {% link "Managing Addons" ref_gTOegEua %} section to learn how to install and activate the addon you need.
-* **Look & Feel** : This menu section provides the tools required to set up and maintain the storefront. 
-  To learn how to use this section propery read the guides from the {% link "Look and Feel" ref_bzUBJufx %} section of X-Cart Knowledge Base.
+  
+* **Look & Feel** : This menu section provides the tools required to set up and maintain the storefront.
+  
+  To learn how to use this section properly read the guides from the {% link "Look and Feel" ref_bzUBJufx %} section of X-Cart Knowledge Base.
+  
 * **Store setup** : This menu section provides tools to configure and maintain every aspect of your store. In this section you can specify the store locale and business info, configure checkout options, set up zones, taxes, payments and shipping, manage email notifications and the store SEO settings, as well as add translations to your store.
-  To learn how to set up and maintain the store propery read the guides from the following sections of X-Cart Knowledge Base:
+  
+  To learn how to set up and maintain the store properly read the guides from the following sections of X-Cart Knowledge Base:
   * {% link "Basic Configuration Settings" ref_0trrARqV %}
   * {% link "Translation and Localization" ref_1frAlu26 %}
   * {% link "Countries, States and Zones" ref_DmCBnKwz %}
   * {% link "Taxes" ref_kJmd7K27 %}
   * {% link "Shipping" ref_7tvT7GEK %}
   * {% link "Payments" ref_gm10twDM %}
+  
 * **System tools** : This menu section provides tools for advanced Admin area management. Use it when you need to make a store backup, check the system logs and current environment description, clear the data cache, configure HTTPS settings or perfrom consistency and integrity checks.
 
 ## Info Dashboard
 
-The Info Dashboard on the Home page of the Admin area provides information about orders awaiting processing, low in stock products and bestsellers. 
+The Info Dashboard on the Admin Home page provides information about orders awaiting processing, low in stock products and bestsellers. 
 
 ![info-panel.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/info-panel.png)
 
 The 'Orders awaiting processing' board shows the info on the last 5 orders placed in your store. The same does the 'Low inventory products' board below it, it shows the latest 5 products with least inventory. A store admin can proceed to processing any of the orders or changing the product properties by clicking the target order number or product name directly on the dashboard and will be automatically redirected to the required page of the Admin area.
 
-As for the 'Bestsellers' tab as store admin can set it up to display either all products or the only available products and choose the period (from 24 hours to lifetime) the stats data should be counted for:
+As for the 'Bestsellers' tab the store admin can set it up to display either all products or the only available products and choose the period (from 24 hours to lifetime) the stats data should be counted for:
 
 ![bestsellers.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/bestsellers.png)
 
 ## Stats and News Block
 
-The Stats and News block of the Admin area Home page displays the store sale stats for the last 48 hours and the recent news from the X-Cart community you may be interested in.
+The Stats and News block of the Admin Home page displays the store sale stats for the last 48 hours and the recent news from the X-Cart community you may be interested in.
 
 ![stats-news.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/stats-news.png)
 
