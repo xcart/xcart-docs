@@ -67,6 +67,7 @@ Here is the system requirements list:
     
     Any other cachers should not strip comments from the code too.
 *   [Suhosin](https://suhosin.org/stories/index.html "Installation Guide") PHP extension might interfere proper work of X-Cart 5, so you should disable it. 
+*   Phar extension v.2.0.1 or later (required to get upgrades and install modules, otherwise these features may not work properly).
 
 ### Hardware Requirements
 
