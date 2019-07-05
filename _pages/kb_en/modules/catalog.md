@@ -5,7 +5,7 @@ updated_at: '2019-07-05 14:03 +0400'
 identifier: ref_3eMIyNpG
 title: Catalog
 order: 56
-published: false
+published: true
 ---
 [Catalog](https://market.x-cart.com/addons/catalog.html "Catalog") addon turns your online store into a catalog of your goods and services. It disables checkout, the cart icon and removes the "Add to cart" and "Buy" buttons. Customers can browse your products and see their prices, but the checkout is not available for them.
 
