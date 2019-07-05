@@ -3,11 +3,11 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-12-15 12:12 +0400'
 identifier: ref_wKcxbiUf
-title: Specifying Your 'Contacts' Email Addresses
+title: Specifying Your Contact Email Addresses
 categories:
   - User manual
 published: true
-order: 150
+order: 10
 redirect_from:
   - >-
     /general_setup/email_notifications/adding_recipient_addresses_for_email_notifications.html
