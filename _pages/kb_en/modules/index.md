@@ -35,6 +35,7 @@ _In this section:_
 *   {% link "Bundle Products" ref_1nuTw4Kc %}
 *   {% link "Call for Price" ref_3K1pJExV %}
 *   {% link "Canada Post" ref_ifwLo5ks %}
+*   {% link "Catalog" ref_3eMIyNpG %}
 *   {% link "CloudSearch and CloudFilters" ref_3MF4RL7z %}
 *   {% link "Color Swatches" ref_4bXaF5qJ %}
 *   {% link "Coupons" ref_3iTVKlYe %}
