@@ -11,44 +11,44 @@ When you log in to your X-Cart Admin area, the first thing that you see is the A
 
 ![first-stats-page.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/first-stats-page.png)
 
-X-Cart Admin Home page shows information about orders awaiting processing, bestseller products and products low in stock, as well as your store’s recent sales stats and X-Cart community news. Right after the software installation the Admin Home page also shows a special {% link "X-Cart Quickstart Onboarding Wizard" ref_5xTo5Gmg %} that is aimed to help a store admin with the initial store setup.
+X-Cart Admin Home page shows information about orders awaiting processing, bestseller products and products low in stock, as well as your store’s recent sales stats and X-Cart community news. Right after the software installation, the Admin Home page also provides the {% link "X-Cart Quickstart Onboarding Wizard" ref_5xTo5Gmg %} that is aimed to help a store admin with the initial store setup.
 
-To return to Home page from any other page of the Admin area click on the store logo icon in the left of the header panel.
+To return to the Home page from any other page of the Admin area, click on the store logo icon in the left of the header panel.
 
 {% toc %}
 
 ## Admin Header
 
-The Admin area header shows the software version in use and includes tools for a quick navigation and search through the store as well as a tool to open or close the storefront for customers that are accessible from any page of the store Admin area. It also shows the store low-stock and updates' alerts, App Store notifications and gives access to the admin profile and X-Cart user docs that can be of a great help in the store setup and management.
+The Admin area header shows the version of the X-Cart software being used and includes some tools for quick navigation and search through the store, as well as a tool to open or close the storefront for customers. These are accessible from any page of the store Admin area. In addition to that, the header shows the store's low-stock alerts, software update alerts and App Store notifications. It also gives access to the admin profile and X-Cart user docs which can be of help in the store setup and management.
 
 ![header-panel.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/header-panel.png)
 
 ### Notifications
 
-All notifications on the products low in stock and the store updates available are shown in the header of the Admin area as well as the notifications about new addons available in the App Store updates.
+Notifications of products running out of stock, as well as notifications of available X-Cart software updates and new addons available in the App Store can all be seen in the Admin area header. 
 
-When a new alert comes up the corresponding notification's icon in the header is highlighed with an orange circle at the top. To see the notifications it's ncessary to click on the icon and expand the menu.
+When a new alert comes up, the corresponding icon in the header is highlighed with an orange circle at the top. To see the notification, one needs to click on the icon and expand the menu.
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span"><i>Store Alerts</i>![admin-alerts.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/admin-alerts.png)</div>
+  <div class="column" markdown="span"><i>X-Cart Store Alerts</i>![admin-alerts.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/admin-alerts.png)</div>
   <div class="column" markdown="span"><i>App Store Alerts</i>![marketplace-alerts.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/marketplace-alerts.png)</div>
 </div>
 
 ### Navigation and Search Tools
 
-The Admin area header can also be used for a quick navigation and search throughout the store.
+The Admin area header can also be used for quick navigation and search throughout the store.
 
-A navigation menu in the header allows a store admin to add a new product, category, user or discount coupon in about one click from any page of the Admin area. It's just necessary to expand the quick navigation menu and click on the corresponding icon.
+The navigation menu in the header allows a store admin to add a new product, category, user or discount coupon in about one click from any page of the Admin area. All they need to do is expand the quick navigation menu and click on the respective icon.
 
 ![quick-menu.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/quick-menu.png)
 
-The search bar in the header allows to quick-search through products, users and orders from any page of the Admin area. Just choose what you'll be searching through in the dropdown and type a request in the search bar.
+The search bar in the header allows to quick-search through products, users and orders from any page of the Admin area. Just choose what you will be searching through in the dropdown and type a request in the search bar.
 
 ![quicksearch.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/quicksearch.png)
 
 ### Storefront Accessibility
 
-A store admin can view the customer storefront and open/close it in one click directly from the header of the Admin area. 
+A store admin can access the customer storefront and open/close it in one click directly from the header of the Admin area. 
 
 To make the storefront open or closed for customers it's just necessary to switch the "View storefront" toggle ON/OFF.
 
