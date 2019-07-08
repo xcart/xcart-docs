@@ -37,7 +37,7 @@ This is how the FLC type of checkout will look for an unregistered and not logge
   <div class="column" markdown="span">![gs-flc-3.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/gs-flc-3.png)</div>
 </div>
 
-For a logged in customer the procees becomes a bit shorter, since all personal data (shipping and billing addresses) will be predefined already based on the customer account info. Hence the logged in customer will need only to choose the preferred delivery method and then pay the order.
+For a logged in customer the procees becomes a bit shorter, since all personal data (shipping and billing addresses) will be predefined already based on the customer account info. The preferred delivery and payment methods will also be pre-chosen based on the previous order of this customer. Hence the logged in customer will need only to check the fields and then pay the order.
 
 ### One Page Checkout
 
