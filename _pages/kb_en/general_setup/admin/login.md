@@ -27,7 +27,7 @@ Once the X-Cart software instalation is [completed](https://kb.x-cart.com/genera
 2. Enter your email and password for the Admin area.
 
    {% note info %}
-   The initial Admin area login credentials were set up during the [Step 2 of the X-Cart software installation](https://kb.x-cart.com/general_setup/installation/installation_guide.html#step-2-creating-administrator-account "Admin Area Login and Password Recovery").
+   The initial Admin area login credentials were set up during [Step 2 of the X-Cart software installation](https://kb.x-cart.com/general_setup/installation/installation_guide.html#step-2-creating-administrator-account "Admin Area Login and Password Recovery").
    {% endnote %}
    
 3. Click the **Log in** button.
@@ -36,7 +36,7 @@ Once the X-Cart software instalation is [completed](https://kb.x-cart.com/genera
 
 1. If you forget your password, click the **Forgot password?** link at `http://<your-domain>/<x-cart-5-directory>/admin/admin.php?target=login`.
    
-   You'll you'll be redirected to the **Forgot your password?** page:
+   You will be redirected to the **Forgot your password?** page:
    ![password-recovery.png]({{site.baseurl}}/attachments/ref_00nAL9h3/password-recovery.png)
 
 2. Enter the email address associated with your administrator user account and click **Submit**.
@@ -51,5 +51,3 @@ Once the X-Cart software instalation is [completed](https://kb.x-cart.com/genera
    ![password-recovery-2.png]({{site.baseurl}}/attachments/ref_00nAL9h3/password-recovery-2.png)
    
 5. Enter a new password for your admin account, confirm the new password and click **Update**.
-
-
