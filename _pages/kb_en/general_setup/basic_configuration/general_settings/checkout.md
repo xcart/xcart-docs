@@ -7,7 +7,7 @@ title: Checkout Setup
 order: 100
 published: true
 ---
-Checkout is one of the most important processes in any store as business revenues depend directly on whether customers are able to complete the checkout process successfully. Your customers use checkout pages to enter shipping and payment information for their orders, and nothing should distract them or make the information on the page hard to read. Hence it's best to keep the checkout page design simple. 
+Checkout is one of the most important processes in any store as business revenues depend directly on whether customers are able to complete the checkout process successfully. The goal of checkout is to gather the information necessary to complete the transaction. Hence your customers will use checkout pages to enter shipping and payment information for their orders. Nothing should distract them or make the information on the page hard to read, so it's best to keep the checkout page design simple. 
 
 X-Cart offers a variety of ways to set up your store's checkout to best suit your business needs and even allows to disable checkout in the store if required. 
 
@@ -61,23 +61,32 @@ Once the addon has been installed, checkout is disabled, and store visitors are 
 
 ## Customer Checkout Options
 
-X-Cart allows both registered and anonymous checkout for customers, also customers can use their Google and Facebook account for checkout if the {% link "Social Login" ref_IapN8lJ8 %} addon is installed and configured.
+X-Cart allows both registered and anonymous checkout for customers.
 
-The goal of checkout is to gather the information necessary to complete the transaction. The checkout page(s) leads the customer through each step of the process. 
+The checkout process for an unregistered customer and for a registered but not logged in customer will start with a page that suggests that they should either sign in with an existing X-Cart account or proceed with an email without an account creation or use their Google and Facebook account for checkout if the {% link "Social Login" ref_IapN8lJ8 %} addon is installed and configured.
 
-### Registered Checkout
+![gs-checkout.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/gs-checkout.png) 
 
-Registered customers who are logged into their accounts can complete checkout quickly because much of the information is already in their accounts. Personal data, like shipping and billing address, are filled in based on the address book data saved for each user account. Shipping and payment method will also be predefined. The choice of the selected shipping and/or payment methods will depend on the data from the previous order of this customer.
 
 ### Anonymous Checkout
 
-X-Cart allows anonymous or guest checkout for your customers. This means that if customer is not registered in your store they don't need to create an account and can proceed to checkout specifying an email only. 
+X-Cart allows anonymous or guest checkout for your customers. This means that if a customer is not registered in your store they don't need to create an account and can proceed to checkout specifying an email only. During checkout unregistered customers will need to specify shipping and billing address, choose the preferred devilery and payment method. X-Cart allows to place an order only when all the fields are filled in properly.
 
-![gs-checkout.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/gs-checkout.png)
+Unregistered customers can choose to create an account using the data specified during the checkout or they can proceed as guest. The account creation option will look differently depending on [the type of checkout](https://kb.x-cart.com/general_setup/basic_configuration/general_settings/checkout.html#checkout-type "Checkout Setup") enabled in the store:
 
-However, the fact that a customer doesn't create an account during guest checkout doesn't mean that no account is created for this customer at all. Being it guest checkout or not X-Cart creates a customer account for the e-mail used to place an order and registeres it in the **Users** section on the Admin area. All following orders placed using this email are assigned to the same customer account. If later this customer decides to register an account with the email that was used for placing order(s) previously a store admin has an opportunity to join these 2 customer accounts (one created by X-Cart and one created by the customer) together keeping the info on the previously placed orders safe.
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><i>Fast Lane Checkout</i>![create-account-flc.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/create-account-flc.png)</div>
+  <div class="column" markdown="span"><i>One Page Checkout</i>![create-account-ops.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/create-account-ops.png)</div>
+</div>
+
+The fact that a customer doesn't create an account during guest checkout doesn't mean that no account is created for this customer at all. Being it guest checkout or not X-Cart creates a customer account for the e-mail used to place an order and registeres it in the **Users** section on the Admin area. All following orders placed using this email are assigned to the same customer account. If later this customer decides to register an account with the email that was used for placing order(s) previously a store admin has an opportunity to join these 2 customer accounts (one created by X-Cart and one created by the customer) together keeping the info on the previously placed orders safe.
 
 If you wish to disable anonymous checkout, it's necessary to enable the **Ask anonymous users to create an account or sign in before checkout:** option on the **Store setup** -> **Cart&Checkout** -> **General** page of X-Cart Admin area.
+
+
+### Registered Checkout
+
+Registered customers who are logged into their accounts can complete checkout quickly because much of the information is already stored in their accounts. Personal data, like shipping and billing address, are filled in based on the address book data saved for each user account. Shipping and payment method are also be predefined. The choice of the selected shipping and/or payment methods will depend on the related data from the previous order of this customer.
 
 ## Security Settings
 
