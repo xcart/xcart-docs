@@ -23,9 +23,11 @@ X-Cart offers 2 possible chechout types by default:
 * Fast Lane Checkout
 * One Page Checkout 
 
+Choose the checkout type you prefer and click **Submit** to activate it in the storefront.
+
 ### Fast Lane Checkout
 
-Fast Lane Checkout (FLC) is a type of checkout when all steps of data submission are divided into pages, i.e. a customer submits the personal data, chooses the preferred delivery and payment methods in series, each next step becoming available only if all the required fields of the previous step are filled in properly. FLC is considered more straightforward as a customer will potentially make fewer errors during the data submission for the transaction because all necessary info is filled in portions of 2-3 forms of small scape.
+Fast Lane Checkout (FLC) is a type of checkout when all steps of data submission are divided into pages, i.e. a customer submits the personal data, chooses the preferred delivery and payment methods in series, each next step becoming available only if all the required fields of the previous step are filled in properly. FLC is considered more straightforward for a new custome as it potentially leads to fewer errors during the data submission for the transaction because all necessary info is filled in portions of 2-3 forms of small scape.
 
 This is how the FLC type of checkout will look for an unregistered and not logged in customer:
 
@@ -35,9 +37,17 @@ This is how the FLC type of checkout will look for an unregistered and not logge
   <div class="column" markdown="span">![gs-flc-3.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/gs-flc-3.png)</div>
 </div>
 
-For a logged in customer the procees becomes a bit shorter, since all personal data will be predefined already based on the customer account info. Hence the logged in customer will need only to choose the preferred delivery method and then pay the order.
+For a logged in customer the procees becomes a bit shorter, since all personal data (shipping and billing addresses) will be predefined already based on the customer account info. Hence the logged in customer will need only to choose the preferred delivery method and then pay the order.
 
 ### One Page Checkout
+
+One Page Checkout (OPC) is a type of checkout when all the infromation required to perform a transaction is displayed on one and the same page being divided into logical blocks of personal data, delivery and payment info.  OPC is considered a more quick and robust option of checkout, but it may lead to errors during the data submission and new customers may be confused by the amount of fields to be filled in at once.
+
+This is how the OPC type of checkout will look for an unregistered customer:
+
+![opc.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/opc.png)
+
+For a logged in customer the personal data (shipping and billing addresses) will be predefined, hence it will be necessary to choose the preferred shipping and payment methods only.
 
 ### Catalog Mode (Disabled Checkout)
 
@@ -47,6 +57,8 @@ Such an option in X-Cart can be enabled by installing the {% link "Catalog" ref_
 
 ![catalog.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/catalog.png)
 
+Once the addon has been installed, checkout is disabled, and store visitors are not allowed to buy any products.
+
 ## Customer Checkout Options
 
 X-Cart allows both registered and anonymous checkout for customers, also customers can use their Google and Facebook account for checkout if the {% link "Social Login" ref_IapN8lJ8 %} addon is installed and configured.
@@ -55,9 +67,7 @@ The goal of checkout is to gather the information necessary to complete the tran
 
 ### Registered Checkout
 
-Registered customers who are logged into their accounts can complete checkout quickly, because much of the information is already in their accounts.
-
-
+Registered customers who are logged into their accounts can complete checkout quickly because much of the information is already in their accounts. Personal data, like shipping and billing address, are filled in based on the address book data saved for each user account. Shipping and payment method will also be predefined. The choice of the selected shipping and/or payment methods will depend on the data from the previous order of this customer.
 
 ### Anonymous Checkout
 
@@ -71,4 +81,6 @@ If you wish to disable anonymous checkout, it's necessary to enable the **Ask an
 
 ## Security Settings
 
+Submitting and processing data for transactions require a secure checkout run in the HTTPS mode. Hence for your customers data to be processed safely you must enable HTTPS in the **System tools** -> **HTTPS settings** sections of the Admin area as described in [our security guide.](https://kb.x-cart.com/general_setup/store_security/security_guide.html#step-2-use-ssl-certificates "Checkout Setup")
 
+For more info on how to secure your store please refer to the guides from the {% link "X-Cart Store Security" ref_4ewdbDM8 %} section of our Knowledge Base.
