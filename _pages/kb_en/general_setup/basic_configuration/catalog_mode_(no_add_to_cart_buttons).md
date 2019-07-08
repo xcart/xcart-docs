@@ -6,7 +6,7 @@ identifier: ref_CvAsFxq8
 title: Catalog Mode (No 'Add to Cart' Buttons)
 categories:
   - User manual
-published: true
+published: false
 order: 130
 redirect_from:
   - /look_and_feel/enabling_catalog_mode_(no_add_to_cart_buttons).html
