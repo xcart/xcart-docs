@@ -5,7 +5,7 @@ updated_at: '2019-07-05 13:17 +0400'
 identifier: ref_0I0Cpjkh
 title: Checkout Setup
 order: 100
-published: false
+published: true
 ---
 Checkout is one of the most important processes in any store as business revenues depend directly on whether customers are able to complete the checkout process successfully. Your customers use checkout pages to enter shipping and payment information for their orders, and nothing should distract them or make the information on the page hard to read. Hence it's best to keep the checkout page design simple. 
 
