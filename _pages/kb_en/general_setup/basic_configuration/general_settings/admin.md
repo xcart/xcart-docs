@@ -5,7 +5,7 @@ updated_at: '2019-07-08 13:20 +0400'
 identifier: ref_5kwrqDZh
 title: Admin Configuration
 order: 120
-published: false
+published: true
 ---
 Most of the general settings that define the way your store looks and functions can be found in the section **Store setup > Cart & checkout** (the tab **General**):
 
