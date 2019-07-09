@@ -131,7 +131,7 @@ Similarly, the 'Low inventory products' board shows the latest 5 products with t
 
 ![info-panel.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/info-panel.png)
 
-The 'Bestsellers' board shows the products that have been sold the most. A store admin can use this board to get a list of all-time bestsellers, as well as limit the range to a certain time period or just the products currently in stock. 
+The 'Bestsellers' board shows the products that have been sold the most. A store admin can use this board to get a list of all-time bestsellers or limit the range to a certain time period. Also, it is possible to get bestseller statistics on either all the products (both in stock and sold out) or just the products currently in stock. 
 
 ![bestsellers.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/bestsellers.png)
 
