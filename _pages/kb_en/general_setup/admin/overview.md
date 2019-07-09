@@ -13,13 +13,13 @@ When you log in to your X-Cart Admin area, the first thing that you see is the A
 
 X-Cart Admin Home page shows information about orders awaiting processing, bestseller products and products low in stock, as well as your store’s recent sales stats and X-Cart community news. Right after the software installation, the Admin Home page also provides the {% link "X-Cart Quickstart Onboarding Wizard" ref_5xTo5Gmg %} that is aimed to help a store admin with the initial store setup.
 
-To return to the Home page from any other page of the Admin area, click on the store logo icon in the left of the header panel.
+To return to the Home page from any other page of the Admin area, click on the store logo icon in the left-hand side of the header panel.
 
 {% toc %}
 
 ## Admin Header
 
-The Admin area header shows the version of the X-Cart software being used and includes some tools for quick navigation and search through the store, as well as a tool to open or close the storefront for customers. These are accessible from any page of the store Admin area. In addition to that, the header shows the store's low-stock alerts, software update alerts and App Store notifications. It also gives access to the admin profile and X-Cart user docs which can be of help in the store setup and management.
+The Admin area header shows the version of the X-Cart software being used and includes some tools for quick navigation and search through the store, as well as a tool to open or close the storefront for customers. These are accessible from any page of the store Admin area. In addition to that, the header shows the store's low-stock alerts, software update alerts and App Store notifications. It also gives access to the admin profile and the X-Cart Knowledge Base (also known as the X-Cart manual, or X-Cart user docs) which can be of help for store setup and management.
 
 ![header-panel.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/header-panel.png)
 
@@ -48,20 +48,20 @@ The search bar in the header allows to quick-search through products, users and 
 
 ### Storefront Accessibility
 
-A store admin can access the customer storefront and open/close it in one click directly from the header of the Admin area. 
+A store admin can access the storefront and open/close it for customers in one click directly from the header of the Admin area. 
 
-To make the storefront open or closed for customers it's just necessary to switch the "View storefront" toggle ON/OFF.
+The toggle switch to open or close the storefront for customers can be found in the right-hand side of the Admin header. Next to the switch, an admin link for access to the storefront is provided. While the storefront is open for customers, the link says "View storefront" and is green in color. While the storefront is closed, it says "Storefront is closed" and appears red. 
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Storefront is open</i>![storefront-on.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/storefront-on.png)</div>
   <div class="column" markdown="span"><i>Storefront is closed</i>![stofront-off.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/stofront-off.png)</div>
 </div>
-
-To access the customer storefront, a store admin should only click the link next to the toggle and it will be opened in a new browser tab. The store admin will be able to view the storefront working even if it is closed, as it will be opened with a special activation ShopKey. To see the storefront just as it looks for customers, a store admin will need to log out or open the customer storefront in an incognito mode. 
+ 
+Note that an admin can use the link to access the storefront regardless of whether its current state is open or closed. The storefront will be opened in a new browser tab, and for the admin it will appear as open/working in any case, even after it has been set to the closed state with the toggle switch in the Admin area header. That is due to the fact that for an admin accessing the storefront via the admin link a special storefront activation ShopKey is used. The ShopKey enables the store's admin users to check the storefront operation while the store is closed for customers. To be able see the storefront in exactly the way it looks to customers, a store admin will need to log out of their account or open the storefront in an incognito window of the web browser.  
 
 ### Admin Account and Help Docs
 
-To edit your personal admin account open the dropdown menu under the Admin icon in the right of the header and click 'My profile'.
+To edit your personal admin account information, open the dropdown menu under the Admin icon in the right-hand side of the header and select 'My profile'.
 
 ![my-profile.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/my-profile.png)
 
