@@ -137,20 +137,20 @@ The 'Bestsellers' board shows the products that have been sold the most. A store
 
 ## Stats and News Block
 
-The Stats and News block of the Admin Home page displays the store sale stats for the last 48 hours and the recent news from the X-Cart community you may be interested in.
+The Stats and News block of the Admin Home page displays the store sale stats for the last 48 hours and the recent news from the X-Cart community.
 
 ![stats-news.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/stats-news.png)
 
 ## Concierge
 
-Concierge is last but not the least tool of your store Admin area and it is aimed to help you to reach out the X-Cart Customer Care any time you need help with your store setup and maintenance.
+Concierge is the last but not least of the tools in your store Admin area, and it is aimed to help you to reach out to the X-Cart Customer Care any time you need help with your store setup and maintenance.
 
 ![concierge-home.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/concierge-home.png)
 
-The tool is available on every page of your store Admin area. To use it, just click on the 'Concierge' icon, fill in the fields and send your question to a Customer Care agent. The help chat is available 24/7.
+The tool is available on every page of your store Admin area. To use it, simply click on the 'Concierge' icon, complete the fields and submit your question to a Customer Care agent. Our help chat is available 24/7.
 
 ![concierge-full.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/concierge-full.png)
 
-If you don't need this tool in your store Admin area you can always remove it, by disabling the "Concierge" addon in the **My Addons** section:
+If you do not need this tool in your store Admin area, you can remove it at any time by disabling the "Concierge" addon in the **My Addons** section:
 
 ![concierge-on.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/concierge-on.png)
