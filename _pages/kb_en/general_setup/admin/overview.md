@@ -125,11 +125,13 @@ This menu includes the following sections:
 
 The Info Dashboard on the Admin Home page provides information about orders awaiting processing, low in stock products and bestsellers. 
 
+The 'Orders awaiting processing' board provides information on the last 5 orders placed in the store. A store admin can proceed to the details of any of these orders by clicking on its order number.
+
+Similarly, the 'Low inventory products' board shows the latest 5 products with the lowest inventory level. A store admin can proceed to the details of any of these products by clicking on the product name.
+
 ![info-panel.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/info-panel.png)
 
-The 'Orders awaiting processing' board shows the info on the last 5 orders placed in your store. The same does the 'Low inventory products' board below it, it shows the latest 5 products with least inventory. A store admin can proceed to processing any of the orders or changing the product properties by clicking the target order number or product name directly on the dashboard and will be automatically redirected to the required page of the Admin area.
-
-As for the 'Bestsellers' tab the store admin can set it up to display either all products or the only available products and choose the period (from 24 hours to lifetime) the stats data should be counted for:
+The 'Bestsellers' board shows the products that have been sold the most. A store admin can use this board to get a list of all-time bestsellers, as well as limit the range to a certain time period (from 24 hours to lifetime) or just the products currently in stock. 
 
 ![bestsellers.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/bestsellers.png)
 
