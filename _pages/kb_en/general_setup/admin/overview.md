@@ -65,51 +65,53 @@ To edit your personal admin account information, open the dropdown menu under th
 
 ![my-profile.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/my-profile.png)
 
-Also using this dropdown a store admin can access the X-Cart Knowledge Base and Dev Docs, suggest an idea on the software improvement or report a software bug as well as contact X-Cart using the 'Contact Us' at [www.x-cart.com](https://www.x-cart.com/contact-us.html "Admin Area Overview").
+From the same dropdown menu, a store admin can access the X-Cart Knowledge Base and Dev Docs, suggest an idea on the software improvement, report a software bug or contact X-Cart using the 'Contact Us' form at [www.x-cart.com](https://www.x-cart.com/contact-us.html "Admin Area Overview").
 
 ## Sidebar Menu
 
-All of the tools you need to manage the operation and maintenance of your store are available in the sidebar Admin menu.
+All the tools you need to manage your store can be accessed via the main Admin menu available in the sidebar.
 
 ![sidebar-menu.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/sidebar-menu.png)
 
-The sections of the X-Cart admin menu can be accessed from any page of the Admin area. They include:
+This menu includes the following sections:
 
-* **Orders** : This menu section provides all the necessary tools required for orders management and processing. 
+* **Orders** : This section provides all the necessary tools required for order management and processing. 
   
-  To learn how to use this section properly read the guides from the {% link "Orders" ref_r4PbRx4Z %} section of X-Cart Knowledge Base.
+  For more info, see the section {% link "Orders" ref_r4PbRx4Z %} of the X-Cart Knowledge Base.
   
-* **Catalog** : This menu section provides all required tools for the catalog management as well as the tools for the data import/export. 
+* **Catalog** : This section provides all required tools for the catalog management as well as the tools for the data import/export. 
    
-   To learn how to use this section properly read the guides from the {% link "Products" ref_5vJ9gwBl %}, {% link "Product Classes and Attributes" ref_T90ZcEpP %} and {% link "Import-Export" ref_TANvG2De %} sections of X-Cart Knowledge Base.
+  For more info, see the sections {% link "Products" ref_5vJ9gwBl %}, {% link "Product Classes and Attributes" ref_T90ZcEpP %} and {% link "Import-Export" ref_TANvG2De %} of the X-Cart Knowledge Base.
    
-* **Users** : This menu section providers all the necessary tools for user accounts' management, both admins and customers. 
+* **Users** : This section providers all the necessary tools for user accounts' management, both admins and customers. 
    
-   To learn how to use this section properly read the guides from the {% link "Users" ref_QdN8kJnH %} section of X-Cart Knowledge Base.
+   For more info, see the section {% link "Users" ref_QdN8kJnH %} of the X-Cart Knowledge Base.
    
-* **Discounts** : This menu section provides all necessary tools to promote the goods you are selling including volume discounts, coupons and related.
+* **Discounts** : This section provides all the necessary tools to promote the goods you are selling including volume discounts, coupons and related.
    
-   To learn how to use this section properly read the guides from the {% link "Business Promotion" ref_3S9KvLey %} section of X-Cart Knowledge Base.
+  For more info, see the section {% link "Business Promotion" ref_3S9KvLey %} of the X-Cart Knowledge Base.
    
-* **Content** : This menu section provides all required tools to manage the storefront navigation and content.
+* **Content** : This section provides all required tools to manage the storefront navigation and content.
 
-  To learn how to use this section properly read the guides from the {% link "Look and Feel" ref_bzUBJufx %} section of X-Cart Knowledge Base, pay special attention to {% link "Managing Content and Service Pages" ref_27dBlUF9 %} and {% link "Managing Navigation Elements" ref_4wQjPcoc %}.
+  For more info, see the section {% link "Look and Feel" ref_bzUBJufx %} of the X-Cart Knowledge Base. Be sure to read {% link "Managing Content and Service Pages" ref_27dBlUF9 %} and {% link "Managing Navigation Elements" ref_4wQjPcoc %}.
   
-* **Sales Channels** (**Marketing** in X-Cart 5.4.x and later): This menu section provides access to different software integrations like MailChimp, eBay, Facebook Ads & Instagram Ads, Google product feed and many others that can help you with the store promotion in different sales channels.
+* **Sales Channels** (**Marketing** in X-Cart 5.4.x and later): This section provides access to different software integrations like MailChimp, eBay, Facebook Ads & Instagram Ads, Google product feed and many others that can help you with the store promotion in different sales channels.
   
-  To learn how to use this section properly read the guides from the {% link "Sales Channels" ref_ybdJste8 %} section of X-Cart Knowledge Base.
+   For more info, see the section {% link "Sales Channels" ref_ybdJste8 %} of the X-Cart Knowledge Base.
   
-* **My addons** : This menu section provides access to the X-Cart App Store and the list of addons installed in your store. 
+* **My addons** : This section provides access to the X-Cart App Store and the list of addons installed in your store. 
   
-  To check the list of addons that you can use to extend the default software functionality please refer to the {% link "Addons" ref_mCs9Q9Uy %} section of X-Cart Knowledge Base. You can also need the guides from the {% link "Managing Addons" ref_gTOegEua %} section to learn how to install and activate the addon you need.
+  Instructions for addon installation and activation can be found in the section {% link "Managing Addons" ref_gTOegEua %} of the X-Cart Knowledge Base.
   
-* **Look & Feel** : This menu section provides the tools required to set up and maintain the storefront.
+  We also have user manuals for some of the most popular X-Cart addons; they can be found in the section {% link "Addons" ref_mCs9Q9Uy %}.
   
-  To learn how to use this section properly read the guides from the {% link "Look and Feel" ref_bzUBJufx %} section of X-Cart Knowledge Base.
+* **Look & Feel** : This section provides tools required to set up and maintain the storefront.
   
-* **Store setup** : This menu section provides tools to configure and maintain every aspect of your store. In this section you can specify the store locale and business info, configure checkout options, set up zones, taxes, payments and shipping, manage email notifications and the store SEO settings, as well as add translations to your store.
+  For more info, see the section {% link "Look and Feel" ref_bzUBJufx %} of the X-Cart Knowledge Base.
   
-  To learn how to set up and maintain the store properly read the guides from the following sections of X-Cart Knowledge Base:
+* **Store setup** : This section provides tools to configure and maintain every aspect of your store. In this section you can specify the store locale and business info, configure checkout options, set up zones, taxes, payments and shipping, manage email notifications and the store SEO settings, as well as add translations to your store.
+  
+  For more info, see the following sections of the X-Cart Knowledge Base:
   * {% link "Basic Configuration Settings" ref_0trrARqV %}
   * {% link "Translation and Localization" ref_1frAlu26 %}
   * {% link "Countries, States and Zones" ref_DmCBnKwz %}
@@ -117,7 +119,7 @@ The sections of the X-Cart admin menu can be accessed from any page of the Admin
   * {% link "Shipping" ref_7tvT7GEK %}
   * {% link "Payments" ref_gm10twDM %}
   
-* **System tools** : This menu section provides tools for advanced Admin area management. Use it when you need to make a store backup, check the system logs and current environment description, clear the data cache, configure HTTPS settings or perfrom consistency and integrity checks.
+* **System tools** : This section provides tools for advanced Admin area management. Use it when you need to back up your store, check the system logs and current environment description, clear the data cache, configure HTTPS settings or perfrom consistency and integrity checks.
 
 ## Info Dashboard
 
