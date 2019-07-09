@@ -57,7 +57,7 @@ To make the storefront open or closed for customers it's just necessary to switc
   <div class="column" markdown="span"><i>Storefront is closed</i>![stofront-off.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/stofront-off.png)</div>
 </div>
 
-To access the customer storefront a store admin should only click the link next to the toggle and it will be opened in a new browser tab. The store admin will be able to view the storefront working even if it is closed, as it will be opened with a special activation ShopKey. To see the storefront just as it looks for customers a store admin will need to log out or open the customer storefront in an incognito mode. 
+To access the customer storefront, a store admin should only click the link next to the toggle and it will be opened in a new browser tab. The store admin will be able to view the storefront working even if it is closed, as it will be opened with a special activation ShopKey. To see the storefront just as it looks for customers, a store admin will need to log out or open the customer storefront in an incognito mode. 
 
 ### Admin Account and Help Docs
 
