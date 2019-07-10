@@ -23,6 +23,4 @@ _In this section_ :
 *   {% link "Taxes" ref_kJmd7K27 %}
 *   {% link "Shipping" ref_7tvT7GEK %}
 *   {% link "Payments" ref_gm10twDM %}
-*   {% link "Catalog Mode (No 'Add to Cart' Buttons)" ref_CvAsFxq8 %}   
-*   {% link "Custom Storefront Options" ref_wGaTsp7Z %}
 *   {% link "Store Speed Up" ref_WqHzxAmJ %}
