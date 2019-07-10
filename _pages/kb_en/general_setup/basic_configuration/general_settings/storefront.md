@@ -7,11 +7,11 @@ title: Storefront Setup
 order: 110
 published: true
 ---
-Most of the general settings that define the way your store looks and functions can be found in the section **Store setup > Cart & checkout** (the tab **General**):
+The way your customers will see products and add them to cart in the storefront will depend on the settings specified in the Customer Zone settings section of the **Store setup > Cart & checkout**  (the tab **General**) page in the Admin area:
 
 ![general_settings.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/general_settings.png)
 
-Below you can find some of the settings explained.
+The settings that you can configure here are as follows:
 
 *   **How to show out of stock products** : This setting allows you to specify whether out-of-stock products should be visible to customers on the storefront. The following options are available:
     
@@ -19,7 +19,7 @@ Below you can find some of the settings explained.
     * _Show only in categories and search listings_ 
     * _Hide and make them available only via a direct link_ 
     
-*   **Display check number for eCheck payment method**: This setting is used for stores using the Check payment method. It defines whether the payment information form provided to the customer who has chosen to pay by check should include a field for check number, or not.
+*   **Display check number for eCheck payment method**: This setting is used for stores with the Check payment method set up. It defines whether the payment information form provided to the customer who has chosen to pay by check should include a field for check number, or not.
     ![xc5_check_number_field.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_check_number_field.png)
 
 *   **Subcategory listings format**: This setting defines how subcategories should be displayed on category pages. 
@@ -114,3 +114,9 @@ Below you can find some of the settings explained.
 *   **Enable internal cron service**: This setting allows you to enable/disable the use of your store's internal cron service. This service schedules the run of certain maintenance tasks required to keep your store running smoothly and problem-free (like removing the expired shopping carts of visitors who do not have an account with your store or performing other tasks implemented via X-Cart modules) at the periodicity of once per 100 user sessions (i.e. every time after your store gets 100 unique visitors). Your store's internal cron service is not related to {% link "console.php" ref_lLqNzAaq %} and does not require any external setup of the crontab on your system. If using the internal cron service causes performance problems for your store, we recommend disabling this option and using an external cron setup to run console.php. 
 
 *   **Allow customers to sign up for membership**: This setting can be enabled to add a membership signup box on the customer profile details page. If a customer wishes to join some membership group, they will be able to use that box to specify the membership group they wish to join. After the customer's profile details with the specified membership are saved, a membership signup request will be submitted to the store administrator in the form of an email notification. The administrator can then choose whether to approve or decline it.
+
+Starting from X-Cart 5.4.0.x the following settings are also available in this section:
+
+*   **Users per page**:  This setting allows you to specify the maximum number of users that can be displayed on a search results page in the Admin area.
+
+*  **Number of days to store the last login data**: This setting defines the lifespan of the “recent_login” cookie that is set by the store on a customer’s computer when they log in. While being stored, the cookie allows the customer to return to the store without having to re-enter their user authentication details (username and password).
