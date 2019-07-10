@@ -15,7 +15,7 @@ When installed and enabled proceed to the addon settings page to configure it.
 
 ![hfcm-installed.png]({{site.baseurl}}/attachments/ref_1mFs8c7N/hfcm-installed.png)
 
-The addon settings page is devided into three sections:
+The addon settings page is divided into three sections:
 
 * **"Single-column" layout settings section**
   
