@@ -9,6 +9,7 @@ published: true
 version: X-Cart 5.3.3 and later
 redirect_from:
   - /general_setup/configuring_storefront_options.html
+  - /general_setup/basic_configuration/configuring_storefront_options.html
 ---
 Your X-Cart storefront can be finetuned for your needs by changing options in the `etc/config.php` file at the `[storefront_options]` section. 
 
