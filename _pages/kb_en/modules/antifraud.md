@@ -37,7 +37,7 @@ Once the addon has been installed, proceed to the addon settings page to configu
 
 ![af-installed.png]({{site.baseurl}}/attachments/ref_6oaerFUv/af-installed.png)
 
-The addon settings are devided into 3 tabs. You need to set up all of them:
+The addon settings are divided into 3 tabs. You need to set up all of them:
 
 1. Settings
    ![af-settings-1.png]({{site.baseurl}}/attachments/ref_6oaerFUv/af-settings-1.png)
