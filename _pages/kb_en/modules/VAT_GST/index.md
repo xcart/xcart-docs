@@ -21,6 +21,8 @@ Note that we have a special addon for {% link "Canadian taxes" ref_hxmof6xX %}.
 
 To start using the addon "Value Added Tax / Goods and Services Tax", ensure that it is {% link "installed and enabled" ref_Vn1mMUw9 %} in your store.
 
+Once installed the "Value Added Tax / Goods and Services Tax" addon adds the "VAT number" filed to the list of default customer {% link "profile fields" ref_gg1fQDgB %} that can be maintained and edited the same way all other fields are. 
+
 Please find below some guidance on how to set up and enable VAT / GST calculation using the addon "Value Added Tax / Goods and Services Tax" for X-Cart 5. 
 
 *  {% link "Configuring VAT / GST (for the UK, EU, Australia, etc.)" ref_Rzp45QlN %}
