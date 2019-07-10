@@ -6,12 +6,11 @@ identifier: ref_5kwrqDZh
 title: Admin Configuration
 order: 120
 published: true
+version: X-Cart 5.3.x and earlier
 ---
-Most of the general settings that define the way your store looks and functions can be found in the section **Store setup > Cart & checkout** (the tab **General**):
+The settings that affect the users, products and orders display in X-Cart Admin area can be configured in the **Admin Zone settings** section of the **Store setup > Cart & checkout** page (**General** tab):
 
-![general_settings.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/general_settings.png)
-
-Below you can find some of the settings explained.
+![adm-zone-settings.png]({{site.baseurl}}/attachments/ref_5kwrqDZh/adm-zone-settings.png)
 
 
 *   **Products per page**: This setting allows you to specify the maximum number of products that can be displayed on a search results page in the Admin area.
