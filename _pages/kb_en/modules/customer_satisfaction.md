@@ -19,7 +19,7 @@ Once the addon has been installed, proceed to the addon settings page to adjust 
 
 ![istalled.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/istalled.png)
 
-The Customer Satisfaction addon settings page is devided into 2 subsections:
+The Customer Satisfaction addon settings page is divided into 2 subsections:
 1. **General options** - where you can set up the general addon behaviour:
    ![settings-1.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/settings-1.png)
    * **Action to send email** : Select if you want the request for feedback to be sent right after an order is paid or whether you want to wait some time and send it later on. If you choose to wait, you can define the time period in days (**Delay in days**) the request for feedback should be delayed for.
