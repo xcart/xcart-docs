@@ -18,7 +18,7 @@ To install the Loyalty Program addon, please follow the steps described in {% li
 
 ![]({{site.baseurl}}/attachments/ref_1Odyn6mT/install.png)
 
-The addon settings are devided into three main blocks - EARN, REDEEM and INFORMATION. 
+The addon settings are divided into three main blocks - EARN, REDEEM and INFORMATION. 
 
  <div class="ui stackable two column grid">
    <div class="column" markdown="span">![settings-earn.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/settings-earn.png)
