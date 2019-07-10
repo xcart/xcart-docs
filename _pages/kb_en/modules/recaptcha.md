@@ -19,7 +19,7 @@ To configure the addon, open the addon settings page:
 
 ![gre-installed.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-installed.png)
 
-The settings page is devided into 3 subsections:
+The settings page is divided into 3 subsections:
 
 1. Google reCAPTCHA account
    ![gre-settings-1.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-settings-1.png)
