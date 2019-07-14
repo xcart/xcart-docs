@@ -6,6 +6,8 @@ identifier: ref_7bb4uhwg
 title: Product Classes
 order: 200
 published: false
+redirect_from:
+  - /product_classes_and_attributes/managing_product_classes.html
 ---
 When some products in your catalog have certain characteristics in common and need to be handled together as a group, it may be a good idea to configure a product class for them. 
 
