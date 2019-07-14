@@ -21,7 +21,6 @@ The list of attributes for each specific product class can be viewed by clicking
 
 _In this section:_
 
-*  Creating product classes
-*  Assigning product classes to products
-*  Editing product class names
-*  
+*  {% link "Creating Product Classes" ref_6ieZHjOV %}
+*  {% link "Assigning Product Classes to Products" ref_4PN1b5la %}
+*  {% link "Managing Product Classes" ref_EVqNSaZy %}
