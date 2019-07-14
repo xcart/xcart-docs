@@ -5,7 +5,7 @@ updated_at: '2019-07-14 13:16 +0400'
 identifier: ref_4PN1b5la
 title: "Assigning\_Product Classes to Products"
 order: 120
-published: false
+published: true
 ---
 To show that a certain product belongs to a certain product class, you need to go to the product's details and assign the product class to it. 
 
