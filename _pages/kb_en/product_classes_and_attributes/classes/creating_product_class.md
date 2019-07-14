@@ -5,7 +5,7 @@ updated_at: '2019-07-14 13:12 +0400'
 identifier: ref_6ieZHjOV
 title: Creating Product Classes
 order: 110
-published: false
+published: true
 ---
 When you decide you need to group certain products into a product class, you begin by creating this product class.
 
