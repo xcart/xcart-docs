@@ -5,7 +5,7 @@ updated_at: '2019-07-14 13:18 +0400'
 identifier: ref_5hLBsBtC
 title: Managing Product Classes
 order: 130
-published: false
+published: true
 ---
 If required a store admin can edit product class names and delete product classes altogether. 
 
@@ -32,4 +32,3 @@ To delete a product class:
 2.  In the list of product classes, locate the name of the product class that needs to be deleted and click on the **Trash **icon opposite it. The product class will be marked for deletion.
 3.  Click **Save changes**.
     The product class name will be deleted.
-    
