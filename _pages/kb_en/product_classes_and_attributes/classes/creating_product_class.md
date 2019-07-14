@@ -23,4 +23,4 @@ To create a new product class:
 
 After a product class has been created, you can {% link "assign it to products" ref_4PN1b5la %} and, if necessary, {% link "add attributes" ref_kEKoAxJB#adding-product-class-attributes %} for it.
 
-If necessary, you can edit the product class name or delete the product class altogether.
+If necessary, you can {% link "edit the product class name or delete the product class" ref_5hLBsBtC %} altogether.
