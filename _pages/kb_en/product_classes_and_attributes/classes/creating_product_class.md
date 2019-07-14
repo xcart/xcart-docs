@@ -21,6 +21,6 @@ To create a new product class:
 4.  Click **Save changes**. The newly created product class will be saved and added to the product class list:
     ![create-class-4.png]({{site.baseurl}}/attachments/ref_6ieZHjOV/create-class-4.png)
 
-After a product class has been created, you can assign it to products and, if necessary, {% link "add attributes" ref_kEKoAxJB#adding-product-class-attributes %} for it.
+After a product class has been created, you can {% link "assign it to products" ref_4PN1b5la %} and, if necessary, {% link "add attributes" ref_kEKoAxJB#adding-product-class-attributes %} for it.
 
 If necessary, you can edit the product class name or delete the product class altogether.
