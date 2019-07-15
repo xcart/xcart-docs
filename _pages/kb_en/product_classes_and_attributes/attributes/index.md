@@ -7,7 +7,7 @@ title: Product Attributes
 order: 100
 published: true
 ---
-Product attributes is a special tool that allows a store admin to enhance a basic product description and show a customer more information about a product on the products page. Product attributes can be product-specific, i.e. applied to a single product or group of products, and global, i,e, appled to all products in the store, and can be used in a variaty of ways starting with a simple specification of the product properties and up to multi-value and personalized product options with price and weight modifiers. Product attributes themselves can be enhanced with the {% link "Product Classes" ref_7bb4uhwg %} feature to allow more options for product grouping.
+Product attributes is a special tool that allows a store admin to enhance a basic product description and show a customer more information about a product on the products page. Product attributes can be product-specific, i.e. applied to a single product or group of products, and global, i.e. appled to all products in the store, and can be used in a variaty of ways starting with a simple specification of the product properties and up to multi-value and personalized product options with price and weight modifiers. Product attributes themselves can be enhanced with the {% link "Product Classes" ref_7bb4uhwg %} feature to allow more options for product grouping.
 
 _In this section_:
 
@@ -18,3 +18,8 @@ _In this section_:
 *  {% link "Global Attributes" ref_HzMkgc0q %}
 *  {% link "Attribute Groups" ref_otIvC7NR %}
 
+_Related pages_ :
+
+*  {% link "CSV Import: Product Attribute Values" ref_Z7XdREZl %}
+*  {% link "CSV Import: Classes & Attributes" ref_qTbDu6Ov %}
+ 
