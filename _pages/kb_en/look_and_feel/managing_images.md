@@ -27,14 +27,21 @@ Any images used in your X-Cart store will be displayed in accordance with the co
 
 ![images-3.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images-3.png)
 
-* **Use dynamic image resizing** : X-Cart can resize the original images to display them on a page. Typically you use the **Generate resized images** feature (see the button of the same name in the lower part of the page) to generate smaller resized versions for your images. The setting "Use dynamic image resizing" can help with situations when X-Cart cannot find a previously generated resized version of an image it needs to display. If this setting is enabled, an appropriately sized version of the image is generated on the fly. If this setting is disabled, the original (non-resized) image is used.
+The settings are as follows:
+
+* **Use dynamic image resizing** : X-Cart can resize the original images to display them on a page. Typically you use the **Generate resized images** feature (see the button of the same name in the lower part of the page) to generate smaller resized versions for your images. The setting "Use dynamic image resizing" can help with situations where X-Cart cannot find a previously generated resized version of an image it needs to display. If this setting is enabled, an appropriately sized version of the image is generated on the fly. If this setting is disabled, the original (non-resized) image is used.
+
 * **Image quality after resize** : Set the desired image quality in %.
+
 * **Apply unsharp mask filter on resize** : This setting enables you to increase the sharpness of the resized images in the most highly detailed areas of the image.
   {% note info %}
   The **Apply unsharp mask filter on resize** setting is available only if the server on which X-Cart is hosted is configured to use **gdlib**. If the server is configured to use **imagmagic**, the setting is not available.
   {% endnote %}
+
 * **Cloud Zoom** : Enable this setting if you want to give your customers an opportunity to view an image in its original size and quality.
+
 *  **Cloud Zoom Mode** : Choose whether you want the zoomed image to be displayed inside the general image area or outside of it. (_becomes available only if Cloud Zoom is ON_)
+
 * **Use blurred image placeholders for smart image loading** : When enabled, pre-loaded low resolution images or single color background image placeholders are used to replace the actual full resolution images on the storefront before they are fully loaded.
   {% note info %}
   If you do not see the setting **Use blurred image placeholders for smart image loading** on the page, it is not supported by the skin installed in your X-Cart store at the moment.
