@@ -5,7 +5,7 @@ updated_at: '2019-07-15 14:48 +0400'
 identifier: ref_1t4DxHbf
 title: Price and Weight Modifiers
 order: 250
-published: false
+published: true
 ---
 Attribute values for multi-value product attributes can be configured as _price and/or weight modifier_ options that will increase or decrease the price and/or weight of the product (the product's weight affects the shipping cost). 
 
