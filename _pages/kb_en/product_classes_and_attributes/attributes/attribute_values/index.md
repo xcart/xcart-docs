@@ -20,7 +20,7 @@ Attribute values can be configured using one of the 4 value types available by d
 
 The Plain field and Yes/No types support the multi-value feature, i.e. they can be configured to have multiple values.
 
-A type of an attribute field value should be chosen depending on how you want to use this attribute in the storefront. By deafult X-Cart product attributes can be used to configure personalisation product options, product options with multiple values and price-weight modifiers. 
+A type of an attribute field value should be chosen depending on how you want to use this attribute in the storefront. By default X-Cart product attributes can be used to configure personalisation product options, product options with multiple values and price-weight modifiers. 
 
 _In this section_ :
 *   {% link "Attribute Value Field Types" ref_5qw116xV %}
