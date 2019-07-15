@@ -14,7 +14,7 @@ With this addon finding products of specific brands/manufacturers becomes much e
 
 To install the addon  please follow the steps described in {% link "Installing and Activating addons" ref_0fGEpvrh %}.
 
-Once installed, find the addon in the list of your store's installed addons (**My addons** section) in the Admin back end, open the addon settings page and configure the addon according to your business needs.
+Once installed, find the addon in the list of your store's installed addons (**My addons** section) in the Admin area, open the addon settings page and configure the addon according to your business needs.
 
 ![addon.png]({{site.baseurl}}/attachments/ref_2LetICls/addon.png)
 
@@ -34,11 +34,11 @@ The addon settings are as follows:
 
 Do not forget to **Submit** changes when done.
 
-When the addon is enabled and configured, existing brands are collected through the store automatically based on the global attribute you specified and are displayed in the _Brands_ section (**Catalog** > **Brands**) in the Admin back end. 
+When the addon is enabled and configured, existing brands are collected through the store automatically based on the global attribute you specified and are displayed in the _Brands_ section (**Catalog** > **Brands**) in the Admin area. 
 
 ![brands.png]({{site.baseurl}}/attachments/ref_2LetICls/brands.png)
 
-Here the cart admin can change the order of appearance of the brands the way he needs. By default, the brands are sorted alphabetically. Also, it's possible to edit the existing brands and add new ones if required. 
+Here the store administrator can change the order of appearance of the brands the way he needs. By default, the brands are sorted alphabetically. Also, it's possible to edit the existing brands and add new ones if required. 
 
 To create a new brand click the **New brand** button, to edit an existing brand click the brand name in the list. The procedure is similar, in both cases you'll need to feel in the fields with the info and save the changes.
 
@@ -50,14 +50,14 @@ You can specify the following info for your brands, the only required filed bein
 * **Meta description** : The description to be used in the description META tag on the category page (for SEO purposes).
 * **Clean URL** : The product page Clean URL (for SEO purposes).
 
-The buyers will see the Brands block on the home page and on any category page on the store front end. You can change the Brands block location using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Shop by Brand"). The brands are also added to the store main {% link "menu" ref_BDykFBbw %}. If you want to disable the brands menu you can do it in the **Content** > **Menus** section of the store admin back-end.
+The buyers will see the Brands block on the home page and on any category page on the store front end. You can change the Brands block location using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Shop by Brand"). The brands are also added to the store main {% link "menu" ref_BDykFBbw %}. If you want to disable the brands menu you can do it in the **Content** > **Menus** section of the store Admin area.
 
 ![home.png]({{site.baseurl}}/attachments/ref_2LetICls/home.png)
 
-The Brands block on the store front-end displays only the brands that have products that are in stock. If you want to show the brands with the out-of-stock products, please, enable the "Show all" option for the '_How to show out of stock products_' field in the {% link "Customer Zone settings" ref_qAZlJxZm %} (**Store setup** > **Cart & Checkout**). The brands that have no products assigned to them won't be displayed ever.
+The Brands block on the store front-end displays only the brands that have products that are in stock. If you want to show the brands with out-of-stock products, enable the option "Show all" for the setting '_How to show out of stock products_' in the {% link "Customer Zone settings" ref_qAZlJxZm %} (**Store setup** > **Cart & Checkout**). The brands that do not have any products assigned to them will not be displayed.
 
 ![general.png]({{site.baseurl}}/attachments/ref_2LetICls/general.png)
 
 {% note warning %}
-Enabling the "Show all" option for the '_How to show out of stock products_' field in the {% link "Customer Zone settings" ref_qAZlJxZm %} (**Store setup** > **Cart & Checkout**) will display the out-of-stock products throughout the whole store.
+Enabling the option "Show all" for the setting '_How to show out of stock products_' in the {% link "Customer Zone settings" ref_qAZlJxZm %} (**Store setup** > **Cart & Checkout**) will display out-of-stock products throughout the whole store.
 {% endnote %}
