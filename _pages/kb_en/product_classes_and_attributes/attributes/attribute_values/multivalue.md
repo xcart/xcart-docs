@@ -11,7 +11,7 @@ The _Plain text_ and _Yes/No_ attribute value field types allow you to use the 
 
 {% toc %}
 
-## Configuring Multi-Valued Attributes
+## Configuring Multi-Value Attributes
 
 Let's say that you need to add a possibility to choose a size of a garmet for a buyer.
 
