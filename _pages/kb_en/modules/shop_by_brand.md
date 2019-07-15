@@ -66,14 +66,14 @@ To edit an existing brand:
 
    3. Save the changes.
 
-The buyers will see the Brands block on the home page and on any category page on the store front end. You can change the Brands block location using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Shop by Brand"). The brands are also added to the store main {% link "menu" ref_BDykFBbw %}. If you want to disable the brands menu you can do it in the **Content** > **Menus** section of the store Admin area.
+The buyers will see the Brands block on the home page and on any category page on the store front end. You can change the Brands block location using [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Shop by Brand"). The brands are also added to the store main {% link "menu" ref_BDykFBbw %}. If you want to disable the brands menu you can do it in the **Content** > **Menus** section of the store Admin area.
 
 ![home.png]({{site.baseurl}}/attachments/ref_2LetICls/home.png)
 
-The Brands block on the store front-end displays only the brands that have products that are in stock. If you want to show the brands with out-of-stock products, enable the option "Show all" for the setting '_How to show out of stock products_' in the {% link "Customer Zone settings" ref_qAZlJxZm %} (**Store setup** > **Cart & Checkout**). The brands that do not have any products assigned to them will not be displayed.
+The Brands block in the storefront displays only the brands that have products with a greater than zero inventory. If you want brands with products that are out of stock to also be included, enable the option "Show all" for the setting **How to show out of stock products** in the {% link "Customer Zone settings" ref_qAZlJxZm %} (**Store setup** > **Cart & Checkout**). The brands that do not have any products assigned to them will not be displayed.
 
 ![general.png]({{site.baseurl}}/attachments/ref_2LetICls/general.png)
 
 {% note warning %}
-Enabling the option "Show all" for the setting '_How to show out of stock products_' in the {% link "Customer Zone settings" ref_qAZlJxZm %} (**Store setup** > **Cart & Checkout**) will display out-of-stock products throughout the whole store.
+Enabling the option "Show all" for the setting **How to show out of stock products** in the {% link "Customer Zone settings" ref_qAZlJxZm %} (**Store setup** > **Cart & Checkout**) will display out-of-stock products throughout the whole store.
 {% endnote %}
