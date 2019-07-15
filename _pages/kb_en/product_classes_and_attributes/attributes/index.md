@@ -12,7 +12,7 @@ Product attributes is a special tool that allows a store admin to enhance a basi
 _In this section_:
 
 *  {% link "Types of Product Attributes - by Scope" ref_uaJk8ete %}
-*  {% link "Attribute Values" ref_bTfJ9bTS %}
+*  {% link "Types of Product Attributes - by Value" ref_bTfJ9bTS %}
 *  {% link "Product-Specific Attributes" ref_d4ktum3z %}
 *  {% link "Product Class Attributes" ref_kEKoAxJB %}
 *  {% link "Global Attributes" ref_HzMkgc0q %}
