@@ -16,7 +16,7 @@ X-Cart supports four field types for attribute values:
 
 When configuring an attribute, select the field type that best suits your needs. Below we provide detailed explanation of each type.
 
-### **Plain field**
+## **Plain field**
 
 Choose this field type if you need the attribute value to be a word/phrase of your choice. 
 
@@ -34,7 +34,7 @@ Plain field type can be used to specify multiple values for one attribute.
 For details, see [Multi-value attributes (product options)](#multi-value-attributes-product-options).
 {% endnote %}
 
-### **Textarea**
+## **Textarea**
 
 This field type allows for a longer text length than _Plain field_ and can be used to provide lengthier descriptions. 
 
@@ -50,7 +50,7 @@ Starting with X-Cart 5.1, the _Textarea_ attribute value field type can be used
 
 For details, see [Personalization options](#personilization-options-editable-textarea).
 
-### **Yes/No**
+## **Yes/No**
 
 This field type is intended for attribute values that emphasize the presence or absence of some property or feature. For example, we used it to emphasize the wirelessness of the headphones:
 
@@ -66,7 +66,7 @@ The _Yes/No_ field type can also be used to specify "Yes or No" options for prod
 For details, see [Multi-value attributes (product options)](#multi-value-attributes-product-options).
 {% endnote %}
 
-### **Hidden field**
+## **Hidden field**
 
 This field type allows to add a hidden global attribute to a product that can be seen and used by a store administrator only (e.g. to add some product info that should not be displayed to customers in the storefront but can be used for admin purposes like {% link "Google Product Feed" ref_7aXFWHEN %} module configuration). 
 
