@@ -22,7 +22,7 @@ To edit a category:
    * **Category name**: The name by which you and your customers will identify this category.
    * **Parent category**: The category to which this category belongs (if it's a subcategory). If this is a main category let it belong to the root category (i.e. to be displayed on the home page). 
    * **Show category title**: Choose if you want the category to be visible or hidden from customers.
-   * **Category image**: Use this section to add an image of the category. 
+   * **Category image**: Use this section to add an image for the category. Note that X-Cart does not impose strict limitations regarding the size of category images that can be uploaded because it can resize and crop images automatically for best appearance. The dimensions to which the original image will be resized and cropped are set in the Images section of your store's Admin area (**Look&Feel** -> **Images**); these dimensions may be different depending on the skin used by your store and can be changed manually, if required. For more info on the management of images, including category images, see the section {% link "Managing Images" ref_zyQIOcia %}.
    * **Top banner**: Use this section to add a banner of the category. 
      If you need to edit the banner representation, see [How to change the height of the top category banner](https://devs.x-cart.com/how-to_articles/how_to_change_the_height_of_the_top_category_banner.html "Editing Category Details").
    * **Description**: A category description that will be displayed on the category details page.
