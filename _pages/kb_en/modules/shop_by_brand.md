@@ -45,17 +45,26 @@ Here the store administrator can change the order of appearance of the brands th
 
 To create a new brand:
 
-1. Click **New brand**. 
+   1. Click **New brand**. 
 
-2. Specify the brand info:
-* **Brand name**: This is the only field that is required. Use it to specify the name of the brand.
-* **Brand logo** : Use this field to upload a brand logo. 
-* **Description** : Provide brand description (will be displayed on the brand page).
-* **Meta keywords** : Specify one or more brand related keywords (will be used in the keywords META tag on the category page (for SEO purposes).
-* **Meta description** : Specify a description (will be used in the description META tag on the category page - for SEO purposes).
-* **Clean URL** : Set the brand page Clean URL (will be used for SEO purposes).
+   2. Specify the brand info:
+      
+      * **Brand name**: This is the only field that is required. Use it to specify the name of the brand.
+      * **Brand logo** : Use this field to upload a brand logo. 
+      * **Description** : Provide brand description (will be displayed on the brand page).
+      * **Meta keywords** : Specify one or more brand related keywords (will be used in the keywords META tag on the category page (for SEO purposes).
+      * **Meta description** : Specify a description (will be used in the description META tag on the category page - for SEO purposes).
+      * **Clean URL** : Set the brand page Clean URL (will be used for SEO purposes).
 
-To edit an existing brand, click the brand name in the list. The procedure is similar, in both cases you'll need to feel in the fields with the info and save the changes.
+   3. Save the changes.
+
+To edit an existing brand:
+
+   1. Click on the brand name in the list. 
+
+   2. Edit the brand info.
+
+   3. Save the changes.
 
 The buyers will see the Brands block on the home page and on any category page on the store front end. You can change the Brands block location using the [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Shop by Brand"). The brands are also added to the store main {% link "menu" ref_BDykFBbw %}. If you want to disable the brands menu you can do it in the **Content** > **Menus** section of the store Admin area.
 
