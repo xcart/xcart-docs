@@ -12,9 +12,9 @@ redirect_from:
   - /product_classes_and_attributes/types_of_product_attributes_-_by_scope.html
 ---
 Based on the scope at which they are applied, product attributes can be classified into three types: 
-* product-specific attributes, i.e. the attributes that are configured on the level of specific products, like attributes for the product "Womens' Tailored Dot Shirt". 
-* product class attributes, i.e. attributes that are configured on the level of a specific {% link "product class" ref_7bb4uhwg %} or group of products, like attributes for the product class "Apparel".
-* global attributes, i.e. attributes that can be assigned to any or all the products in your store.
+* {% link "product-specific attributes" ref_d4ktum3z %}, i.e. the attributes that are configured on the level of specific products, like attributes for the product "Womens' Tailored Dot Shirt". 
+* {% link "product class attributes" ref_kEKoAxJB %}, i.e. attributes that are configured on the level of a specific {% link "product class" ref_7bb4uhwg %} or group of products, like attributes for the product class "Apparel".
+* {% link "global attributes" ref_HzMkgc0q %}, i.e. attributes that can be assigned to any or all the products in your store.
 
 When you decide to set up some attributes for a product, you need to consider what product properties may be important to buyers and to decide whether these properties are specific only to this particular product or of some other products in your store as well. This will help you to decide which type of attribute you will need to configure.
 
@@ -26,7 +26,6 @@ Then, if one of your products has a property not found in any other product in y
 
 _Related pages:_
 
-*   {% link "Managing Product Classes" ref_EVqNSaZy %}
-*   {% link "Managing Product-specific Attributes" ref_d4ktum3z %}
-*   {% link "Managing Product Class Attributes" ref_kEKoAxJB %}
-*   {% link "Managing Global Attributes" ref_HzMkgc0q %}
+*  {% link "Product-Specific Attributes" ref_d4ktum3z %}
+*  {% link "Product Class Attributes" ref_kEKoAxJB %}
+*  {% link "Global Attributes" ref_HzMkgc0q %}
