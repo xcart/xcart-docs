@@ -299,7 +299,7 @@ $products = \XLite\Core\Database::getRepo('XLite\Model\Product')->createQueryBui
 
 There is better approach.
 
-To illustrate this approach, let us {% link "create a module" ref_G2mlgckf %} with developer ID **XCExample** and module ID **SearchRepoDemo**. Inside this module let us {% link "decorate" ref_AF6bmvL6 %} `\XLite\Model\Repo\ARepo` class. We create `classes/XLite/Module/XCExample/SearchRepoDemo/Model/Repo/ARepo.php` file with the following content:
+To illustrate this approach, let us {% link "create a module" ref_G2mlgckf %} with developer ID **XCExample** and module ID **SearchRepoDemo**. Inside this module let us {% link "decorate" ref_AF6bmvL6 %} `\XLite\Model\Repo\Product` class. We create `classes/XLite/Module/XCExample/SearchRepoDemo/Model/Repo/Product.php` file with the following content:
 
 ```php
 <?php
@@ -335,7 +335,7 @@ So, we create such empty object and define its property `moreExpensiveThan20` as
 
 X-Cart will take this common cell object, cycle through its properties and apply handlers of those properties (X-Cart treats them as flags) to the routine of pulling products. 
 
-However, we need a handler of the `moreExpensiveThan20` flag to make our code working. For that we edit the created earlier `classes/XLite/Module/XCExample/SearchRepoDemo/Model/Repo/ARepo.php` file and add the following method there:
+However, we need a handler of the `moreExpensiveThan20` flag to make our code working. For that we edit the created earlier `classes/XLite/Module/XCExample/SearchRepoDemo/Model/Repo/Product.php` file and add the following method there:
 
 ```php
     protected function prepareCndMoreExpensiveThan20(\Doctrine\ORM\QueryBuilder $queryBuilder, $value)
