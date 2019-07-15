@@ -13,9 +13,6 @@ _In this section_:
 
 *  {% link "Types of Product Attributes - by Scope" ref_uaJk8ete %}
 *  {% link "Types of Product Attributes - by Value" ref_bTfJ9bTS %}
-*  {% link "Product-Specific Attributes" ref_d4ktum3z %}
-*  {% link "Product Class Attributes" ref_kEKoAxJB %}
-*  {% link "Global Attributes" ref_HzMkgc0q %}
 *  {% link "Attribute Groups" ref_otIvC7NR %}
 
 _Related pages_ :
