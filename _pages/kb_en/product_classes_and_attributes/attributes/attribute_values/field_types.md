@@ -5,7 +5,7 @@ updated_at: '2019-07-15 14:14 +0400'
 identifier: ref_5qw116xV
 title: Attribute Value Field Types
 order: 100
-published: false
+published: true
 ---
 X-Cart supports four field types for attribute values:
 
