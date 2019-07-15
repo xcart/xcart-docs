@@ -25,8 +25,12 @@ If, besides t-shirts, you sell other types of products (for example, bags), the 
 
 Then, if one of your products has a property not found in any other product in your store, you should add the respective attribute on the level of this specific product. For example, if you have a single t-shirt style with embroidery, whereas all the rest of the t-shirts you sell are not embroidered, you can specify what types of embroidery motives are available for this t-shirt by configuring a product-specific attribute just for this very t-shirt style; for example, "Embroidery" ("Butterfly", "Flower", etc).
 
-_Related pages:_
+_In this section:_
 
 *  {% link "Product-Specific Attributes" ref_d4ktum3z %}
 *  {% link "Product Class Attributes" ref_kEKoAxJB %}
 *  {% link "Global Attributes" ref_HzMkgc0q %}
+
+_Related pages_ :
+
+*  {% link "Product Classes" ref_7bb4uhwg %}
