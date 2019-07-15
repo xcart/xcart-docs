@@ -44,7 +44,7 @@ To create a new brand click the **New brand** button, to edit an existing brand 
 
 You can specify the following info for your brands, the only required filed being the brand name:
 * **Brand name**: Use this field to specify or edit the brand name here.
-* **Brand logo** : Use this field to upload a brand logo here (you can do it either via a URL or directly from your computer).
+* **Brand logo** : Use this field to upload a brand logo here. 
 * **Description** : A brand description that will be displayed on the brand's page.
 * **Meta keywords** : The keywords to be used in the keywords META tag on the category page (for SEO purposes).
 * **Meta description** : The description to be used in the description META tag on the category page (for SEO purposes).
