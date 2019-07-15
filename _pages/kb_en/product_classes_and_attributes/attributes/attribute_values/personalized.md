@@ -5,7 +5,7 @@ updated_at: '2019-07-15 14:41 +0400'
 identifier: ref_1WveyowU
 title: Personilization Options (Editable Textarea)
 order: 300
-published: false
+published: true
 ---
 Starting with X-Cart 5.1, it is possible to add _**editable**_ _Textarea_ attribute values. Adding an editable attribute value  for some product attribute creates an empty editable text area field on the product page where buyers can enter their own custom text before adding the product to their shopping cart. This feature may be used if you are going to provide personalization options for products, like monogramming, embroidery, etc.
 
