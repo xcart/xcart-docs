@@ -31,7 +31,7 @@ The following list of fields corresponds to the set of product fields available 
 
 *   **SKU**: The product SKU (A code that will serve as a unique identifier for this product). If you leave this field blank, a SKU will be generated automatically when the product is saved.
 
-*   **Images**: Use this section to add images of the product.
+*   **Images**: Use this section to add images for the product. Note that X-Cart does not impose strict limitations regarding the size of product images that can be uploaded because it can resize and crop images automatically for best appearance on various types of store pages. For example, X-Cart will use the original image uploaded by you via this section to create different sized images for the product details page, the product list page in list view and the product list page in grid view. The dimensions to which the original image will be resized and cropped are set in the Images section of your store's Admin area (**Look&Feel** -> **Images**); these dimensions may be different depending on the skin used by your store and can be changed manually, if required. For more info on the management of images, including product images, see the section {% link "Managing Images" ref_zyQIOcia %}.
 
 *   **Category**: The category (or categories) to which this product belongs. 
 
