@@ -13,46 +13,22 @@ description: >-
   group products with similar properties together
 published: true
 ---
-You may find that the standard X-Cart's Product info page does not have enough fields for you to specify all the product parameters that you would like to include. For example, X-Cart does not provide fields for such product parameters as color, size, material, country of origin, ISBN, technical specifications, etc. out of the box. However, you can add any fields you think necessary using X-Cart's _attributes_ feature. 
+X-Cart {% link "product details" ref_2D8wAeXP %} provide fields for a basic product configuration like product description, price, weight and related that are vital to selling a product online. However, a store admin may find basic product configuration insufficient as sometimes it may be necessary to group products based on some common features other than categories and subcategories or to specify extra product parameters like brand, color, size, technical details, etc. to give customers insight into a product they want to buy or even give customers more product variants to choose from. 
 
-Product information that you add in the form of product attributes is displayed in the store's front end in the **Specification** tab of the product details page:
+X-Cart has a special Classes and Attributes built-in feature that allows enhancing product properties and gives a store admin more tools to manage products in the store. 
 
-![]({{site.baseurl}}/attachments/7504847/7602452.png)
+The Products Attributes feature gives a store admin a possibility to add more details to a product description starting from a simple product specification that is displayed in a separate **Product Specification** tab beneath the main product description on the product details page in the storefront and up to various types of product options that enhance the basic product representation.
 
-Attributes can also be used:
+The Product Classes feature is an extention to product attributes that gives a store admin a possibility to join products in groups other than product categories and subcategories. Product classes can be used along with product attributes only and can help filtering products in the storefront based on particular properties.
 
-*   to set up product options/product variants that buyers will be able to choose:
-    ![]({{site.baseurl}}/attachments/7504847/7602468.png)
-    (The product variants feature is enabled by the addon [Product Variants](http://www.x-cart.com/extensions/addons/product-variants.html)).
+The Product Variants feature gives a store admin a possibility to add special product characteristics (like size, color, etc.) to the product description that will give a customer an option to choose a particular variant of one and the same product. Product variants feature is enabled by installing and configuring the [Product Variants](https://market.x-cart.com/addons/product-variants.html "Product Classes and Attributes") addon.
 
-*   to set up product filters based on attributes (the feature enabled by the addon [Product Filter](http://www.x-cart.com/extensions/addons/product-filter.html)).
+_In this section_:
+*   
 
-Product attributes in X-Cart are closely connected with another feature: _product classes._ The product classes feature is a way to group products with smiliar or the same attributes together. For information on managing product classes, see:
+_Related pages_ :  
 
-*   {% link "Managing Product Classes" ref_EVqNSaZy %}
+*  {% link "Product Filter" ref_6e82A7rL %}
+*  Video tutorial
 
-Before you proceed to configuring attributes for your products, please read the following article:
-
-*   {% link "Types of Product Attributes - by Scope" ref_uaJk8ete %}
-
-For information on configuring and managing different types of product attributes, see:
-
-*   {% link "Managing Product-specific Attributes" ref_d4ktum3z %}
-*   {% link "Managing Product Class Attributes" ref_kEKoAxJB %}
-*   {% link "Managing Global Attributes" ref_HzMkgc0q %}
-
-For information on managing attribute values, see:
-
-*   {% link "Managing Attribute Values" ref_bTfJ9bTS %}
-
-For guidelines on organizing your global and product class attributes into groups, see:
-
-*   {% link "Managing Attribute Groups" ref_otIvC7NR %}
-
-For information on managing product variants, see:
-
-*   {% link "Product Variants" ref_0uApuQfx %}
-
-## Video tutorial
-
-<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/WjvaZ9ExGmE" frameborder="0"></iframe>
+   <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/WjvaZ9ExGmE" frameborder="0"></iframe>
