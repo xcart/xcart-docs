@@ -29,7 +29,7 @@ Once you have a global attribute field for brands, you need to tell the Shop by 
 To access the addon settings page, find the addon Shop by Brand on the list of your store's installed addons (**My addons** section) in the Admin area and click on the link to configure the addon settings (can be found next to the addon name and description). 
 ![sbb_addon_settings_link.png]({{site.baseurl}}/attachments/ref_2LetICls/sbb_addon_settings_link.png)
 
-Detailed information on the Shop by Brand addon settings is available at the end of this article.
+Detailed information on the Shop by Brand addon settings is available [at the end of this article](#shop-by-brand-settings).
 
 After specifying one of your global attribute fields as the field for brands, you are all set to work on specific brands (brand names). For that you will need the section Brands available via the menu **Catalog** > **Brands** in your store's Admin area.
 ![admin_brands_section_link.png]({{site.baseurl}}/attachments/ref_2LetICls/admin_brands_section_link.png)
@@ -100,6 +100,7 @@ Any brands that do not have products assigned to them will not be displayed in a
 Enabling the option _Show all_ for the setting **How to show out of stock products** in the {% link "Customer Zone settings" ref_qAZlJxZm %} will affect not just the display of brands, but will enable the display of out-of-stock products throughout the store.
 {% endnote %}
 
+<a id="shop-by-brand-settings"></a>
 Here's an overview of the Shop by Brand addon settings:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_2LetICls/settings.png)
