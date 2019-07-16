@@ -112,11 +112,11 @@ Here's an overview of the Shop by Brand addon settings:
 
 * **Order brands on the Brands page by**: This settings determines the order in which brand names are listed on the Brands page. The available options are "Brand names" (alphabetically), "Admin-defined order" and "Number of products". 
 
-* **Enable pagination on the Brands page**: Should be enabled only if the store has a lot of brands. 
+* **Enable pagination on the Brands page**: This should be enabled only if the store has a lot of brands. 
 
-* **Default number of brands per page**: The number of brands to be displayed on the Brands page on the store front-end. 
+* **Default number of brands per page**: The number of brands to be displayed per page by default when a user views the store's brands on the Brands page. (The user may choose to reset this number). 
 
-* **Show the Brands block on the home page**: If enabled, the Brands block is displayed on the store's home page. 
+* **Show the Brands block on the home page**: If enabled, the Brands block is displayed on the store's Home page. If disabled, the Brands block is not displayed on the Home page.
 
 * **Order brands in the Brands block by**: This settings determines the order in which brand names are listed in the Brands block. The available options are "Brand names" (alphabetically), "Admin-defined order" and "Number of products". 
 
