@@ -12,9 +12,10 @@ The addon [Shop by Brand](https://market.x-cart.com/addons/shop-by-brand.html "S
 
 With this addon finding products of specific brands/manufacturers becomes much easier for customers, especially first-time visitors who may not know what exactly they are looking for.
 
-Depending on the X-Cart edition, your store may already have the addon Shop by Brand installed and enabled. If not, it can be obtained via the X-Cart App Store. 
-![addon.png]({{site.baseurl}}/attachments/ref_2LetICls/addon.png)
-To install the addon, follow the steps described in {% link "Installing and Activating Addons" ref_0fGEpvrh %}.
+Depending on the X-Cart edition, your store may already have the addon Shop by Brand installed and enabled.  
+![sbb_addon.png]({{site.baseurl}}/attachments/ref_2LetICls/sbb_addon.png)
+
+If not, it can be obtained via the X-Cart App Store. To install the addon, follow the steps described in {% link "Installing and Activating Addons" ref_0fGEpvrh %}.
 
 Brands are based on the {% link "Product attributes" ref_T90ZcEpP %} feature, so to configure brands you will first have to deal with attributes. Namely, you will need to create a global attribute field that you will use for brands, or choose an already existing one - like "Brand" or "Manufacturer". For example, here we already have a global attribute field "Manufacturer":
 ![manufacturer_attribute.png]({{site.baseurl}}/attachments/ref_2LetICls/manufacturer_attribute.png)
