@@ -77,17 +77,18 @@ The Brands block is visible on category pages of the store catalog. If the store
 
 If required, the administrator can change the Brands block location using [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html). 
 
-By default, the brands in the Brands block and on the Brands page are sorted alphabetically. The store administrator can change the order in which brands appear on the list of store brands. 
+By default, the brands in the Brands block and on the Brands page are sorted alphabetically. The store administrator can change the order in which brands are displayed via the addon settings. 
 
-The Brands block on the storefront displays only the brands that have products with a greater than zero inventory. If you want brands with products that are out of stock to also be shown, enable the option "Show all" for the setting **How to show out of stock products** in the {% link "Customer Zone settings" ref_qAZlJxZm %} section (**Store setup** > **Cart & Checkout**). Any brands that do not have products assigned to them will not be displayed.
-
+The Brands block and the Brands page on the storefront display only the brands that have products with a greater than zero inventory. If you want brands with products that are out of stock to also be displayed, enable the option _Show all_ for the setting **How to show out of stock products** in the {% link "Customer Zone settings" ref_qAZlJxZm %} section (**Store setup** > **Cart & Checkout**). 
 ![general.png]({{site.baseurl}}/attachments/ref_2LetICls/general.png)
 
+Any brands that do not have products assigned to them will not be displayed.
+
 {% note warning %}
-Enabling the option "Show all" for the setting **How to show out of stock products** in the {% link "Customer Zone settings" ref_qAZlJxZm %} (**Store setup** > **Cart & Checkout**) will display out-of-stock products throughout the whole store.
+Enabling the option _Show all_ for the setting **How to show out of stock products** in the {% link "Customer Zone settings" ref_qAZlJxZm %} will affect not just the display of brands, but will enable the display of out-of-stock products throughout the store.
 {% endnote %}
 
-The store administrator can the addon settings:
+The store administrator can adjust the addon settings:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_2LetICls/settings.png)
 
