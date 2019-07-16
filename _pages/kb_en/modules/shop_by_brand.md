@@ -57,9 +57,9 @@ To create a new brand:
       
       * **Description** : Provide brand description (will be displayed on the page of the respective brand).
       
-      * **Meta keywords** : Specify one or more brand related keywords (will be used in the keywords META tag on the category page (for SEO purposes).
+      * **Meta keywords** : Specify one or more brand related keywords (will be used in the keywords META tag on the brand page (for SEO purposes).
       
-      * **Meta description** : Specify a description (will be used in the description META tag on the category page - for SEO purposes).
+      * **Meta description** : Specify a description (will be used in the description META tag on the brand page - for SEO purposes).
       
       * **Clean URL** : Set the brand page Clean URL (will be used for SEO purposes).
 
