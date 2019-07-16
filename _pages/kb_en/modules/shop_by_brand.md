@@ -77,7 +77,10 @@ After creating the brands you require, you need to specify what products in your
 Your store visitors will be able to see your store's brands on a dedicated Brands page (https://your_store_address/?target=brands):
 ![all_brands_page.png]({{site.baseurl}}/attachments/ref_2LetICls/all_brands_page.png)
 
-A link to the Brands page is not included in the store's {% link "menus" ref_BDykFBbw %} by default. If you want to include a link to the Brands page in your store's Primary menu, you will want to go to the Menus section of your store's Admin area (**Content** > **Menus**), locate the "Brands" menu item on the Primary menu tab and enable it:
+A link to the Brands page is not included in the store's {% link "menus" ref_BDykFBbw %} by default. However, you may decide you want the link to be included. For example, here's the link to the Brands page included in the store's Primary menu:
+![brands_link_primary.png]({{site.baseurl}}/attachments/ref_2LetICls/brands_link_primary.png)
+
+To include the link in your store's Primary menu, you will want to go to the Menus section of your store's Admin area (**Content** > **Menus**), locate the "Brands" menu item on the Primary menu tab and enable it:
 ![enable_brands_menu.png]({{site.baseurl}}/attachments/ref_2LetICls/enable_brands_menu.png)
 If for some reason the Brands menu item is missing from the Primary menu tab page, you will want to add it manually. 
 Should you require to add the Brands link to your store's Footer menu, you will be able to do so using the same method, but you will need to use the Footer menu tab instead of the Primary menu tab.
