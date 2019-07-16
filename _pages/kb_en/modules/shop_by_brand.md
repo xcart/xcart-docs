@@ -71,15 +71,13 @@ If for some reason the Brands menu item is missing from the Primary menu tab pag
 Should you require to add the Brands link to your store's Footer menu, you will be able to do so using the same method, but you will need to use the Footer menu tab instead of the Primary menu tab.
 
 Besides the Brands page, your store will also have a dedicated menu block from which store visitors will be able to access products by the brand:
-
+![brands_block_category.png]({{site.baseurl}}/attachments/ref_2LetICls/brands_block_category.png)
 
 The Brands block is visible on category pages of the store catalog. If the store administrator chooses to enable its display on the Home page, it will be displayed on the store's Home page as well. 
 
 If required, the administrator can change the Brands block location using [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html). 
 
-![home.png]({{site.baseurl}}/attachments/ref_2LetICls/home.png)
-
-By default, the brands are sorted alphabetically. The store administrator can change the order in which brands appear on the list of store brands. 
+By default, the brands in the Brands block and on the Brands page are sorted alphabetically. The store administrator can change the order in which brands appear on the list of store brands. 
 
 The Brands block on the storefront displays only the brands that have products with a greater than zero inventory. If you want brands with products that are out of stock to also be shown, enable the option "Show all" for the setting **How to show out of stock products** in the {% link "Customer Zone settings" ref_qAZlJxZm %} section (**Store setup** > **Cart & Checkout**). Any brands that do not have products assigned to them will not be displayed.
 
@@ -95,7 +93,7 @@ The store administrator can the addon settings:
 
 * **Which global attribute field is the product brand?** The global attribute field that should be used for brands. Before any global attribute fields become available for selection here, they need to be {% link "configured" ref_HzMkgc0q %}. 
 
-* **Order brands on the Brands page by**: The available options are "Brand names", "Admin-defined order" and "Number of products". 
+* **Order brands on the Brands page by**: The available options are "Brand names" (alphabetically), "Admin-defined order" and "Number of products". 
 
 * **Enable pagination on the Brands page**: Should be enabled only if the store has a lot of brands. 
 
@@ -103,9 +101,9 @@ The store administrator can the addon settings:
 
 * **Show the Brands block on the home page**: If enabled, the Brands block is displayed on the store's home page. 
 
-* **Order brands in the Brands block by**: Choose between "Brand names", "Admin-defined order" and "Number of products". 
+* **Order brands in the Brands block by**: The available options are "Brand names" (alphabetically), "Admin-defined order" and "Number of products". 
 
-* **Number of items in the Brands block**: Set the number of brands to be displayed in the Brands block on the store front end. 
+* **Number of items in the Brands block**: Set the maximum number of brands to be displayed in the Brands block on the store front end. Brands over this number will be visible on the Brands page, to which a link will be provided at the bottom of the block.
 
 
 
