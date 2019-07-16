@@ -23,14 +23,15 @@ Brands are based on the {% link "Product attributes" ref_T90ZcEpP %} feature, so
 We can use that one or choose to add a new field named "Brand" (or anything we want) using the **New attribute** button: 
 ![newattribute.png]({{site.baseurl}}/attachments/ref_2LetICls/newattribute.png)
 
-Once you have a global attribute field for brands, you need to tell the Shop by Brand addon that you are going to use this field for brands. This can be done using the setting **Which global attribute field is the product brand?** on the Shop by Brand addon settings page. To access the addon settings page, find the addon Shop by Brand on the list of your store's installed addons (**My addons** section) in the Admin area and click on the link to configure the addon settings (can be found next to the addon name and description). Detailed information on the Shop by Brand addon settings is available further below.
+Once you have a global attribute field for brands, you need to tell the Shop by Brand addon that you are going to use this field for brands. This can be done using the setting **Which global attribute field is the product brand?** on the Shop by Brand addon settings page. To access the addon settings page, find the addon Shop by Brand on the list of your store's installed addons (**My addons** section) in the Admin area and click on the link to configure the addon settings (can be found next to the addon name and description). Detailed information on the Shop by Brand addon settings is available at the end of this article.
 
 After specifying one of your global attribute fields as the field for brands, you are all set to work on specific brands (brand names). For that you will need the section Brands available via the menu **Catalog** > **Brands** in your store's Admin area.
 ![admin_brands_section_link.png]({{site.baseurl}}/attachments/ref_2LetICls/admin_brands_section_link.png)
 This section is where you add new brands and manage your existing brands.
 
-Note that if your store already has product attributes for the global attribute field designated for brands, the Shop by Brand addon will treat them as previously created brand names. The addon will collect such attributes throughout your catalog and have them listed in the Brands section (**Catalog** > **Brands**).   
+Note that if your store already has product attributes configured for the global attribute field you have designated for brands, the Shop by Brand addon will treat them as previously created brand names. The addon will collect such attributes throughout your catalog and have them listed in the Brands section (**Catalog** > **Brands**) where you will be able to manage them.   
 
+Of course, you can create brands manually.
 To create a new brand:
 
    1. Click **New brand**. 
@@ -70,7 +71,7 @@ After creating the brands you require, you need to specify what products in your
 Your store visitors will be able to see your store's brands on a dedicated Brands page (https://your_store_address/?target=brands):
 ![all_brands_page.png]({{site.baseurl}}/attachments/ref_2LetICls/all_brands_page.png)
 
-A link to the Brands page is not included into the store's {% link "menus" ref_BDykFBbw %} by default. If you want to include a link to the Brands page in your store's Primary menu, you will want to go to the Menus section of your store's Admin area (**Content** > **Menus**), locate the "Brands" menu item on the Primary menu tab and enable it:
+A link to the Brands page is not included in the store's {% link "menus" ref_BDykFBbw %} by default. If you want to include a link to the Brands page in your store's Primary menu, you will want to go to the Menus section of your store's Admin area (**Content** > **Menus**), locate the "Brands" menu item on the Primary menu tab and enable it:
 ![enable_brands_menu.png]({{site.baseurl}}/attachments/ref_2LetICls/enable_brands_menu.png)
 If for some reason the Brands menu item is missing from the Primary menu tab page, you will want to add it manually. 
 Should you require to add the Brands link to your store's Footer menu, you will be able to do so using the same method, but you will need to use the Footer menu tab instead of the Primary menu tab.
@@ -82,24 +83,24 @@ The Brands block is visible on category pages of the store catalog. If the store
 
 If required, the administrator can change the Brands block location using [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html). 
 
-By default, the brands in the Brands block and on the Brands page are sorted alphabetically. The store administrator can change the order in which brands are displayed via the addon settings. 
+By default, the brands in the Brands block and on the Brands page are sorted alphabetically. The store administrator can change the order in which brands are displayed there via the Shop by Brand addon settings. 
 
-The Brands block and the Brands page on the storefront display only the brands that have products with a greater than zero inventory. If you want brands with products that are out of stock to also be displayed, enable the option _Show all_ for the setting **How to show out of stock products** in the {% link "Customer Zone settings" ref_qAZlJxZm %} section (**Store setup** > **Cart & Checkout**). 
+The Brands block and the Brands page on the storefront only display brands that have products with a greater than zero inventory. If you want brands with products that are out of stock to also be displayed, enable the option _Show all_ for the setting **How to show out of stock products** in the {% link "Customer Zone settings" ref_qAZlJxZm %} section (**Store setup** > **Cart & Checkout**). 
 ![general.png]({{site.baseurl}}/attachments/ref_2LetICls/general.png)
 
-Any brands that do not have products assigned to them will not be displayed.
+Any brands that do not have products assigned to them will not be displayed in any case.
 
 {% note warning %}
 Enabling the option _Show all_ for the setting **How to show out of stock products** in the {% link "Customer Zone settings" ref_qAZlJxZm %} will affect not just the display of brands, but will enable the display of out-of-stock products throughout the store.
 {% endnote %}
 
-The store administrator can adjust the addon settings:
+The Shop by Brand addon settings are as follows:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_2LetICls/settings.png)
 
-* **Which global attribute field is the product brand?** The global attribute field that should be used for brands. Before any global attribute fields become available for selection here, they need to be {% link "configured" ref_HzMkgc0q %}. 
+* **Which global attribute field is the product brand?** This setting is for you to specify the global attribute field that should be used for brands. If you have any global attribute fields configured in your store, their names will be provided in the drop-down box as a list so you can select one of them. If you do not have any global attribute fields, you will need to {% link "create" ref_HzMkgc0q %} at least one so it will become available for selection here. 
 
-* **Order brands on the Brands page by**: The available options are "Brand names" (alphabetically), "Admin-defined order" and "Number of products". 
+* **Order brands on the Brands page by**: This settings determines the order in which brand names are listed on the Brands page. The available options are "Brand names" (alphabetically), "Admin-defined order" and "Number of products". 
 
 * **Enable pagination on the Brands page**: Should be enabled only if the store has a lot of brands. 
 
@@ -107,7 +108,7 @@ The store administrator can adjust the addon settings:
 
 * **Show the Brands block on the home page**: If enabled, the Brands block is displayed on the store's home page. 
 
-* **Order brands in the Brands block by**: The available options are "Brand names" (alphabetically), "Admin-defined order" and "Number of products". 
+* **Order brands in the Brands block by**: This settings determines the order in which brand names are listed in the Brands block. The available options are "Brand names" (alphabetically), "Admin-defined order" and "Number of products". 
 
 * **Number of items in the Brands block**: Set the maximum number of brands to be displayed in the Brands block on the store front end. Brands over this number will be visible on the Brands page, to which a link will be provided at the bottom of the block.
 
