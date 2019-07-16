@@ -23,7 +23,6 @@ We can use that or choose to add a new field named "Brand" (or anything we want)
 Once you have a global attribute field for brands, you need to tell the Shop by Brand addon that you are going to use this field for brands. This can be done using the setting **Which global attribute field is the product brand?** on the Shop by Brand addon settings page. To access the addon settings page, find the addon Shop by Brand on the list of your store's installed addons (**My addons** section) in the Admin area and click the link to configure the settings (can be found next to the addon name and description).
 
 Now you can add and manage brands for your products via the Brands section (**Catalog** > **Brands**) of the store back end. 
-![brands.png]({{site.baseurl}}/attachments/ref_2LetICls/brands.png)
 
 If your store already has product attributes assigned to products via the global attribute field designated for brands, the Shop by Brand addon will treat them as previously created brand names. The addon will collect such attributes throughout your catalog and have them listed in the Brands section (**Catalog** > **Brands**).   
 
@@ -53,18 +52,30 @@ To create a new brand:
       * **Clean URL** : Set the brand page Clean URL (will be used for SEO purposes).
 
    3. Save the changes.
-   
-It is possible to edit the information of any existing brands, or delete the brands you no longer require.  
+      ![create_newbrand.png]({{site.baseurl}}/attachments/ref_2LetICls/create_newbrand.png)
 
-After creating the brands you require you need to specify what products in your store belong to which brands. That is done by assigning the brand names to specific products as attribute values.
+      The brand will be added to the list of your store's brands. 
+      
+It is possible to edit the information of any existing brands, rearrange the order in which brands are displayed in lists or delete the brands you no longer require. 
+![manage_brands.png]({{site.baseurl}}/attachments/ref_2LetICls/manage_brands.png)
+
+After creating the brands you require, you need to specify what products in your store belong to which brands. That is done by assigning the brand names to specific products as attribute values.
+![asssign_brand.png]({{site.baseurl}}/attachments/ref_2LetICls/asssign_brand.png)
 
 Your store visitors will be able to see your store's brands on a dedicated Brands page (https://your_store_address/?target=brands):
+![all_brands_page.png]({{site.baseurl}}/attachments/ref_2LetICls/all_brands_page.png)
 
-and in the Brands block:
+A link to the Brands page is not included into the store's {% link "menus" ref_BDykFBbw %} by default. If you want to include a link to the Brands page in your store's Primary menu, you will want to go to the Menus section of your store's Admin area (**Content** > **Menus**), locate the "Brands" menu item on the Primary menu tab and enable it:
+![enable_brands_menu.png]({{site.baseurl}}/attachments/ref_2LetICls/enable_brands_menu.png)
+If for some reason the Brands menu item is missing from the Primary menu tab page, you will want to add it manually. 
+Should you require to add the Brands link to your store's Footer menu, you will be able to do so using the same method, but you will need to use the Footer menu tab instead of the Primary menu tab.
 
-The brands are also added to the store main {% link "menu" ref_BDykFBbw %}. If you want to disable the brands menu you can do it in the **Content** > **Menus** section of the store Admin area.
+Besides the Brands page, your store will also have a dedicated menu block from which store visitors will be able to access products by the brand:
 
-The Brands block will be visible on all the category pages of the store catalog and, if the store administrator chooses to enable its display on the Home page, on the store's Home page as well. If required, the administrator can change the Brands block location using [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html). 
+
+The Brands block is visible on category pages of the store catalog. If the store administrator chooses to enable its display on the Home page, it will be displayed on the store's Home page as well. 
+
+If required, the administrator can change the Brands block location using [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html). 
 
 ![home.png]({{site.baseurl}}/attachments/ref_2LetICls/home.png)
 
