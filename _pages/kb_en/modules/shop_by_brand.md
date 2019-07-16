@@ -83,7 +83,7 @@ A link to the Brands page is not included in the store's {% link "menus" ref_BDy
 To include the link in your store's Primary menu, you will want to go to the Menus section of your store's Admin area (**Content** > **Menus**), locate the "Brands" menu item on the Primary menu tab and enable it:
 ![enable_brands_menu.png]({{site.baseurl}}/attachments/ref_2LetICls/enable_brands_menu.png)
 If for some reason the Brands menu item is missing from the Primary menu tab page, you will want to add it manually as provided on the screenshot above. 
-Should you require to add the Brands link to your store's Footer menu, you will be able to do so using the same method, but you will need to use the Footer menu tab instead of the Primary menu tab.
+Should you require to add the Brands link to your store's Footer menu, you will be able to do so using the same method, but will need to use the Footer menu tab instead of the Primary menu tab.
 
 Besides the Brands page, your store will also have a dedicated menu block from which store visitors will be able to access products by the brand:
 ![brands_block_category.png]({{site.baseurl}}/attachments/ref_2LetICls/brands_block_category.png)
