@@ -18,7 +18,9 @@ To install the addon, follow the steps described in {% link "Installing and Acti
 
 Brands are based on the {% link "Product attributes" ref_T90ZcEpP %} feature, so to configure brands you will first have to deal with attributes. Namely, you will need to create a global attribute field that you will use for brands, or choose an already existing one - like "Brand" or "Manufacturer". For example, here we already have a global attribute field "Manufacturer":
 ![manufacturer_attribute.png]({{site.baseurl}}/attachments/ref_2LetICls/manufacturer_attribute.png)
-We can use that or choose to add a new field named "Brand" (or anything we want) using the **New attribute** button. 
+
+We can use that one or choose to add a new field named "Brand" (or anything we want) using the **New attribute** button: 
+![newattribute.png]({{site.baseurl}}/attachments/ref_2LetICls/newattribute.png)
 
 Once you have a global attribute field for brands, you need to tell the Shop by Brand addon that you are going to use this field for brands. This can be done using the setting **Which global attribute field is the product brand?** on the Shop by Brand addon settings page. To access the addon settings page, find the addon Shop by Brand on the list of your store's installed addons (**My addons** section) in the Admin area and click the link to configure the settings (can be found next to the addon name and description).
 
