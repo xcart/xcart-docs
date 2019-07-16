@@ -23,11 +23,13 @@ Brands are based on the {% link "Product attributes" ref_T90ZcEpP %} feature, so
 We can use that one or choose to add a new field named "Brand" (or anything we want) using the **New attribute** button: 
 ![newattribute.png]({{site.baseurl}}/attachments/ref_2LetICls/newattribute.png)
 
-Once you have a global attribute field for brands, you need to tell the Shop by Brand addon that you are going to use this field for brands. This can be done using the setting **Which global attribute field is the product brand?** on the Shop by Brand addon settings page. To access the addon settings page, find the addon Shop by Brand on the list of your store's installed addons (**My addons** section) in the Admin area and click the link to configure the settings (can be found next to the addon name and description).
+Once you have a global attribute field for brands, you need to tell the Shop by Brand addon that you are going to use this field for brands. This can be done using the setting **Which global attribute field is the product brand?** on the Shop by Brand addon settings page. To access the addon settings page, find the addon Shop by Brand on the list of your store's installed addons (**My addons** section) in the Admin area and click the link to configure the settings (can be found next to the addon name and description). Detailed information on the Shop by Brand addon settings is available further below.
 
-Now you can add and manage brands for your products via the Brands section (**Catalog** > **Brands**) of the store back end. 
+After specifying the global attribute field that will be used for brands, you are all set to work on specific brands (brand names). For that you will need the section Brands available via the menu **Catalog** > **Brands** in your store's Admin area.
+![admin_brands_section_link.png]({{site.baseurl}}/attachments/ref_2LetICls/admin_brands_section_link.png)
+The Brands section is where you add new brands and manage your existing brands.
 
-If your store already has product attributes assigned to products via the global attribute field designated for brands, the Shop by Brand addon will treat them as previously created brand names. The addon will collect such attributes throughout your catalog and have them listed in the Brands section (**Catalog** > **Brands**).   
+Note that if your store already has product attributes for the global attribute field designated for brands, the Shop by Brand addon will treat them as previously created brand names. The addon will collect such attributes throughout your catalog and have them listed in the Brands section (**Catalog** > **Brands**).   
 
 To create a new brand:
 
