@@ -40,3 +40,13 @@ If `php.ini` has `safe_mode = on`, ensure that the `max_execution_time` setting 
 ```max_execution_time = 600```
 
 If `safe_mode = off`, no additional setup is needed.
+
+## Suhosin
+
+If you are using [Suhosin PHP add-on](https://suhosin.org/stories/index.html "Step 1: System requirements") on your server, you need to specify the following settings in your `php.ini`:
+
+```
+[Suhosin]
+suhosin.post.max_name_length = 512
+suhosin.request.max_varname_length = 512
+```
