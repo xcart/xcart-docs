@@ -17,7 +17,7 @@ Based on the scope at which they are applied, product attributes can be classifi
 * {% link "product class attributes" ref_kEKoAxJB %}, i.e. attributes that are configured on the level of a specific {% link "product class" ref_7bb4uhwg %} or group of products, like attributes for the product class "Apparel".
 * {% link "global attributes" ref_HzMkgc0q %}, i.e. attributes that can be assigned to any or all the products in your store.
 
-When you decide to set up some attributes for a product, you need to consider what product properties may be important to buyers and to decide whether these properties are specific only to this particular product or of some other products in your store as well. This will help you to decide which type of attribute you will need to configure.
+When you decide to set up some attributes for a product, you need to consider what product properties may be important to buyers and to decide whether these properties are specific only to this particular product or to some other products in your store as well. This will help you to decide which type of attribute you will need to configure.
 
 For example, if you sell t-shirts, you may benefit from setting up such attributes as "Size" (S, M, L, XL), "Color" (black, white, red, etc), "Fabric" ("100% cotton", "57% Cotton, 43% Tencel®", "rayon", etc) and the like. If t-shirts are the only type of products you sell, you should consider setting up the aforementioned attributes as global; this way you will be able to use them for any SKU in your store. 
 
