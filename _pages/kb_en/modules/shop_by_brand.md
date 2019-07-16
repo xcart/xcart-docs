@@ -92,7 +92,7 @@ The Brands block is visible on category pages of the store catalog. If the store
 
 If required, the administrator can change the Brands block location using [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html). 
 
-By default, the brands in the Brands block and on the Brands page are sorted alphabetically. The store administrator can change the order in which brands are displayed there via the Shop by Brand addon settings. 
+By default, the brands in the Brands block and on the Brands page are sorted alphabetically. The store administrator can change the order in which brands are displayed there via the [Shop by Brand addon settings](#shop-by-brand-settings). 
 
 The Brands block and the Brands page on the storefront only display brands that have products with a greater than zero inventory. If you want brands with products that are out of stock to also be displayed, enable the option _Show all_ for the setting **How to show out of stock products** in the {% link "Customer Zone settings" ref_qAZlJxZm %} section (**Store setup** > **Cart & Checkout**). 
 ![general.png]({{site.baseurl}}/attachments/ref_2LetICls/general.png)
