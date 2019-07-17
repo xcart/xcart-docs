@@ -23,22 +23,22 @@ Product-specific attributes can either be added manually on a per product basis 
 
 ## Adding Product-Specific Attributes 
 
-A store admin can choose whether to add product-specific attributes manually one-by-one for each product or to import them for product in bulk via a .csv file.
+A store admin can choose whether to add product-specific attributes manually one-by-one for each product or to import them for several products at once via a .csv file.
 
 ### Adding Product-Specific Attibutes Manually
 
 To add a new attribute at the level of a specific product manually, follow the instructions below:
 
-1.  In your store's Admin area, find the product for which you want to add a new attribute, open its details and click on the **Attributes** tab. 
+1.  In your store's Admin area, find the product you want to add a new attribute for, open its details and click on the **Attributes** tab. 
     
     {% note info %}
-    We will do this to a product named "Square Glasses in Black with Clear Lens" (In this example we will add the attribute "Rim color....Black" to this product to specify the color of the glasses rim):
+    We will do this to a product named "Square Glasses in Black with Clear Lens". In our example we will add the attribute "Rim color....Black" to this product to specify the color of the glasses rim:
     ![ps-attr-1.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-1.png)
     {% endnote %}
     
     This will open a page where you can manage attributes for this product. Here you can see three subsections: **Product-Specific**, **Global** and **Hidden attributes**. Make sure you are viewing the **Product-Specific** section:
     ![ps-attr-2.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-2.png)
-    If you haven't yet added any product-specific attributes for this product, the Product-Specific attributes list will be empty:
+    If you haven't added any product-specific attributes for this product yet, the Product-Specific attributes list will be empty:
     ![ps-attr-3.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-3.png)
 
 2.  Use the **Add attribute** button to add a field for the new attribute. This is where you will specify your attribute name and value(s). 
@@ -52,7 +52,7 @@ To add a new attribute at the level of a specific product manually, follow the i
     You must select the type that best suits your needs (For an explanation of the different attribute value field types, see {% link "Attribute Value Field Types" ref_5qw116xV %}). By default, clicking **Add attribute** creates a Plain field. To select a different field type, click on the "down arrow" expandable part of the **Add attribute** button and select the type you require from the drop-down button menu:
     ![ps-attr-5.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-5.png)
 
-3.  The new attribute field will appear on a new line in the Product-Specific attributes list. 
+3.  A new attribute field will appear on a new line in the Product-Specific attributes list. 
     
     For the sake of example, the snapshot below demonstrates a newly added Plain field:
     ![ps-attr-6.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-6.png)
