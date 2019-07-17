@@ -66,3 +66,15 @@ To set the default attribute value:
     ![]({{site.baseurl}}/attachments/7504859/8719345.png)
 5.  Click **Save changes**.
     The settings will be saved.
+    
+### Sorting Multi-Value Attributes
+
+If a product has more a multi-value attribute you may need to change the order of apprearance of the values on the product details page in the storefront. 
+
+You can do it like so:
+
+1.  In your store's Admin area, find the product whose attribute you need to delete, open its details and click on the** Attributes** tab. 
+2.  Make sure you are viewing the **Sort Settings** section.
+3.  Drag-n-drop the attributes and their values to arrange them in the order to be displayed on the products details page.
+![sort-settings.png]({{site.baseurl}}/attachments/ref_d4ktum3z/sort-settings.png)
+4.  Click **Save changes**.
