@@ -15,6 +15,8 @@ redirect_from:
 ---
 Product-specific attributes are properties that distinguish some particular product from the rest of the products in your store and are hence configured on the level of this particular product. A store admin can view the list and manage product-specific attributes in the **Product-Specific** section of the **Attributes** tab of the product's details page in the Admin area:
 
+![ps-attr-listing.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-listing.png)
+
 Product-specific attributes can either be added manually on a per product basis or imported for multiple products at once.
 
 {% toc %}
