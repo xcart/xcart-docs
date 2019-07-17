@@ -13,13 +13,13 @@ redirect_from:
   - >-
     /product_classes_and_attributes/attributes/managing_product-specific_attributes.html
 ---
-Product-specific attributes are properties that distinguish some particular product from the rest of the products in your store and are hence configured on the level of this particular product. A store admin can view the list and manage product-cpecific attributes in the **Product-Specific** section of the **Attributes** tab of the product's details:
+Product-specific attributes are properties that distinguish some particular product from the rest of the products in your store and are hence configured on the level of this particular product. A store admin can view the list and manage product-specific attributes in the **Product-Specific** section of the **Attributes** tab of the product's details page in the Admin area:
 
 Product-specific attributes can either be added manually on a per product basis or imported for multiple products at once.
 
 {% toc %}
 
-## Adding Product-specific Attributes 
+## Adding Product-Specific Attributes 
 
 To add a new attribute at the level of a specific product, follow the instructions below:
 
@@ -55,11 +55,54 @@ To add a new attribute at the level of a specific product, follow the instructio
     ![ps-attr-7.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-7.png)
 
 5.  Click **Save changes**. The attribute will be assigned to the product.
-    Now if you check the **Specification** tab on the product details page, you will be able to see the attribute you have added:
+    Now if you check the **Specification** tab on the product details page, you will be able to see the attribute you have added there along with the product SKU and weight that are present there by default:
     ![ps-attr-8.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-8.png)
+    
+## Managing Product-Specific Attributes
+
+A store admin can sort product-specific attributes to set the preferred attributes' order of appiearance in the storefront. Also it's possible to edit product-specific attribute name and values and delete unnecessary attributes if required. The product-specific attribute management is performed in the **Attributes** tab of the respective product details page:
+
+![ps-attr-listing.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-listing.png)
+
+### Sorting Product-Specific Attributes
+
+If a product has more than one product-specific attribute you may need to change the order of apprearance of the attributes on the product details page in the storefront. 
+
+You can do it like so:
+
+1.  In your store's Admin area, find the product whose attribute you need to delete, open its details and click on the** Attributes** tab. 
+2.  Make sure you are viewing the **Sort Settings** section.
+3.  Drag-n-drop the attributes and their values to arrange them in the order to be displayed on the products details page.
+![sort-settings.png]({{site.baseurl}}/attachments/ref_d4ktum3z/sort-settings.png)
+4.  Click **Save changes**.
+
+### Editing Product-Specific Attributes
+
+Sometimes you may need to edit the name and/or value(s) of an attribute created at the level of a specific product.
+
+You can do it like so:
+
+1.  In your store's Admin area, find the product whose attribute you need to edit, open product details and click on the **Attributes** tab. 
+2.  Make sure you are viewing the **Product-Specific** section.
+3.  In the list of product-specific attributes, locate the attribute you need to edit and make any changes you require:
+
+    *   To edit the attribute name, hover your cursor over it (the **Attribute name** field will become visible), click inside the **Attribute name** field and edit the attribute name as you require. 
+    *   To edit the attribute values, edit the **Attribute value** field(s).
+4.  Click **Save changes**.
+
+### Deleting Product-Specific Attributes
+
+Sometimes you may need to delete an attribute created at the level of a specific product.
+
+You can do it like so:
+
+1.  In your store's Admin area, find the product whose attribute you need to delete, open its details and click on the** Attributes** tab. 
+2.  Make sure you are viewing the **Product-Specific** section.
+3.  In the list of product-specific attributes, locate the attribute you need to delete and click on the **Trash** icon opposite its name. The attribute will be marked for deletion.
+4.  Click **Save changes**.
 
     
-## Importing Product-specific Attributes
+## Importing Product-Specific Attributes
 
 Product specific attributes can be imported in 2 different ways:
 
@@ -85,42 +128,6 @@ Product specific attributes can be imported in 2 different ways:
    If you want to import the product specific attributes only the required fields for the import file will be **productSKU**, **type**, **name**, **owner** and **value**. 
 
 
-## Editing Product-specific Attributes
-
-Sometimes you may need to edit the name and/or value(s) of an attribute created at the level of a specific product.
-
-You can do it like so:
-
-1.  In your store's Admin area, find the product whose attribute you need to edit, open its details and click on the** Attributes** tab. 
-2.  Make sure you are viewing the **Product-Specific **section.
-3.  In the list of product-specific attributes, locate the attribute you need to edit and make any changes you require:
-
-    *   To edit the attribute name, hover your cursor over it (the **Attribute name** field will become visible), click inside the **Attribute name** field and edit the attribute name as you require. 
-    *   To edit the attribute values, edit the **Attribute value** field(s).
-4.  Click **Save changes**.
-
-## Deleting Product-specific Attributes
-
-Sometimes you may need to delete an attribute created at the level of a specific product.
-
-You can do it like so:
-
-1.  In your store's Admin area, find the product whose attribute you need to delete, open its details and click on the** Attributes** tab. 
-2.  Make sure you are viewing the **Product-Specific** section.
-3.  In the list of product-specific attributes, locate the attribute you need to delete and click on the **Trash** icon opposite its name. The attribute will be marked for deletion.
-4.  Click **Save changes**.
-
-## Sorting Product-specific Attributes
-
-Sometimes you may need to change the order of apprearance of the attributes on the product details page. 
-
-You can do it like so:
-
-1.  In your store's Admin area, find the product whose attribute you need to delete, open its details and click on the** Attributes** tab. 
-2.  Make sure you are viewing the **Sort Settings** section.
-3.  Drag-n-drop the attributes and their values to arrange them in the order to be displayed on the products details page.
-![sort-settings.png]({{site.baseurl}}/attachments/ref_d4ktum3z/sort-settings.png)
-4.  Click **Save changes**.
 
 _Related pages:_
 
