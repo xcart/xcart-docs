@@ -21,7 +21,11 @@ Product-specific attributes can either be added manually on a per product basis 
 
 ## Adding Product-Specific Attributes 
 
-To add a new attribute at the level of a specific product, follow the instructions below:
+A store admin can choose whether to add product-specific attributes manually one-by-one for each product or to import them for product in bulk via a .csv file.
+
+### Adding Product-Specific Attibutes Manually
+
+To add a new attribute at the level of a specific product manually, follow the instructions below:
 
 1.  In your store's Admin area, find the product for which you want to add a new attribute, open its details and click on the **Attributes** tab. 
     
@@ -57,6 +61,32 @@ To add a new attribute at the level of a specific product, follow the instructio
 5.  Click **Save changes**. The attribute will be assigned to the product.
     Now if you check the **Specification** tab on the product details page, you will be able to see the attribute you have added there along with the product SKU and weight that are present there by default:
     ![ps-attr-8.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-8.png)
+    
+### Importing Product-Specific Attributes
+
+Product specific attributes can be imported in 2 different ways:
+
+1. Via {% link "CSV import: Products" ref_WmJBfwxA %}
+   
+   Using a products.csv file you'll import products along with the products specific attributes, if they have them. Product specific attribute value column has the format of: `[attribute_name](field:product)`. 
+   See the example below:
+
+   ![products-csv.png]({{site.baseurl}}/attachments/ref_d4ktum3z/products-csv.png)
+   
+   If you want to update a product with product specific attributes only skipping the rest of the product related info (like memberships, productClass, taxClass, enabled, shippable, categories, inventoryTracking, etc.) you'll need to include the sku, name and `[attribute_name](field:product)` fields into your import file only.
+
+2. Via {% link "CSV import: Product attribute values" ref_Z7XdREZl %}
+   
+   It's also possible to import product specific attributes for products separately. You'll need to use a product-attributes.csv file for the purpose.
+   
+   See the example below:
+   
+   ![product-attributes-csv.png]({{site.baseurl}}/attachments/ref_d4ktum3z/product-attributes-csv.png)
+   
+   The **'owner'** field in a product-attributes.csv file defines whether an attribute is product specific or not. All attributes that have "YES" set in the **'owner'** field are product specific. The actual value of a product specific attribute is defined in the **'value'** field and can vary depending on the **'name'** (the field that is responsibe for a text representation of the attribute). Each actual value of a product specific attribute should be defined in a separate row.
+   
+   If you want to import the product specific attributes only the required fields for the import file will be **productSKU**, **type**, **name**, **owner** and **value**. 
+
     
 ## Managing Product-Specific Attributes
 
@@ -100,33 +130,6 @@ You can do it like so:
 2.  Make sure you are viewing the **Product-Specific** section.
 3.  In the list of product-specific attributes, locate the attribute you need to delete and click on the **Trash** icon opposite its name. The attribute will be marked for deletion.
 4.  Click **Save changes**.
-
-    
-## Importing Product-Specific Attributes
-
-Product specific attributes can be imported in 2 different ways:
-
-1. Via {% link "CSV import: Products" ref_WmJBfwxA %}
-   
-   Using a products.csv file you'll import products along with the products specific attributes, if they have them. Product specific attribute value column has the format of: `[attribute_name](field:product)`. 
-   See the example below:
-
-   ![products-csv.png]({{site.baseurl}}/attachments/ref_d4ktum3z/products-csv.png)
-   
-   If you want to update a product with product specific attributes only skipping the rest of the product related info (like memberships, productClass, taxClass, enabled, shippable, categories, inventoryTracking, etc.) you'll need to include the sku, name and `[attribute_name](field:product)` fields into your import file only.
-
-2. Via {% link "CSV import: Product attribute values" ref_Z7XdREZl %}
-   
-   It's also possible to import product specific attributes for products separately. You'll need to use a product-attributes.csv file for the purpose.
-   
-   See the example below:
-   
-   ![product-attributes-csv.png]({{site.baseurl}}/attachments/ref_d4ktum3z/product-attributes-csv.png)
-   
-   The **'owner'** field in a product-attributes.csv file defines whether an attribute is product specific or not. All attributes that have "YES" set in the **'owner'** field are product specific. The actual value of a product specific attribute is defined in the **'value'** field and can vary depending on the **'name'** (the field that is responsibe for a text representation of the attribute). Each actual value of a product specific attribute should be defined in a separate row.
-   
-   If you want to import the product specific attributes only the required fields for the import file will be **productSKU**, **type**, **name**, **owner** and **value**. 
-
 
 
 _Related pages:_
