@@ -13,7 +13,9 @@ redirect_from:
   - >-
     /product_classes_and_attributes/attributes/managing_product-specific_attributes.html
 ---
-This page provides information on the following actions with product-specific attributes:
+Product-specific attributes are properties that distinguish some particular product from the rest of the products in your store and are hence configured on the level of this particular product. A store admin can view the list and manage product-cpecific attributes in the **Product-Specific** section of the **Attributes** tab of the product's details:
+
+Product-specific attributes can either be added manually on a per product basis or imported for multiple products at once.
 
 {% toc %}
 
@@ -21,28 +23,41 @@ This page provides information on the following actions with product-specific at
 
 To add a new attribute at the level of a specific product, follow the instructions below:
 
-1.  In your store's Admin area, find the product for which you want to add a new attribute, open its details and click on the** Attributes** tab. We will do this to a product named "Critter Print Melamine Plate 10 inch Set of 4, Orange Cat" (In this example we will add the attribute "Critter print color....Orange" to this product to specify the color of the cat on the plate):
-    ![]({{site.baseurl}}/attachments/7504853/8719250.png)
-    This will open a page where you can manage attributes for this product. Here you can see two subsections: **Product-Specific** and **Global**. Make sure you are viewing the **Product-Specific **section:
-    ![]({{site.baseurl}}/attachments/7504853/8719251.png)
+1.  In your store's Admin area, find the product for which you want to add a new attribute, open its details and click on the **Attributes** tab. 
+    
+    {% note info %}
+    We will do this to a product named "Square Glasses in Black with Clear Lens" (In this example we will add the attribute "Rim color....Black" to this product to specify the color of the glasses rim):
+    ![ps-attr-1.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-1.png)
+    {% endnote %}
+    
+    This will open a page where you can manage attributes for this product. Here you can see three subsections: **Product-Specific**, **Global** and **Hidden attributes**. Make sure you are viewing the **Product-Specific** section:
+    ![ps-attr-2.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-2.png)
     If you haven't yet added any product-specific attributes for this product, the Product-Specific attributes list will be empty:
-    ![]({{site.baseurl}}/attachments/7504853/8719252.png)
+    ![ps-attr-3.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-3.png)
+
 2.  Use the **Add attribute** button to add a field for the new attribute. This is where you will specify your attribute name and value(s). 
-    X-Cart supports three types of attribute value fields:
+    ![ps-attr-4.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-4.png)
+    The **Add attribute** drop-down will give you a choice of three types of attribute value fields:
 
     *   Plain field
     *   Textarea
     *   Yes/No
 
-    You must select the type that best suits your needs (For an explanation of the different attribute value field types, see {% link "Managing attribute values" ref_bTfJ9bTS %}). By default, clicking **Add attribute** creates a Plain field. To select a different field type, click on the "down arrow" expandable part of the **Add attribute **button and select the type you require from the drop-down button menu:
-    ![]({{site.baseurl}}/attachments/7504853/8719253.png)
-3.  The new attribute field will appear on a new line in the Product-Specific attributes list. For the sake of example, the snapshot below demonstrates a newly added Plain field:
-    ![]({{site.baseurl}}/attachments/7504853/8719254.png)
-4.  Use the field that has been added to specify your attribute's name and value (or, if necessary, multiple values). For the sake of example, we will add the attribute "Critter print color" with the value "Orange":
-    ![]({{site.baseurl}}/attachments/7504853/8719255.png)
+    You must select the type that best suits your needs (For an explanation of the different attribute value field types, see {% link "Attribute Value Field Types" ref_5qw116xV %}). By default, clicking **Add attribute** creates a Plain field. To select a different field type, click on the "down arrow" expandable part of the **Add attribute** button and select the type you require from the drop-down button menu:
+    ![ps-attr-5.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-5.png)
+
+3.  The new attribute field will appear on a new line in the Product-Specific attributes list. 
+    
+    For the sake of example, the snapshot below demonstrates a newly added Plain field:
+    ![ps-attr-6.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-6.png)
+
+4.  Use the field that has been added to specify your attribute's name and value (or, if necessary, multiple values). For the sake of example, we will add the attribute "Rim color" with the value "Black":
+    ![ps-attr-7.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-7.png)
+
 5.  Click **Save changes**. The attribute will be assigned to the product.
     Now if you check the **Specification** tab on the product details page, you will be able to see the attribute you have added:
-    ![]({{site.baseurl}}/attachments/7504853/7602459.png)
+    ![ps-attr-8.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-8.png)
+
     
 ## Importing Product-specific Attributes
 
@@ -69,12 +84,6 @@ Product specific attributes can be imported in 2 different ways:
    
    If you want to import the product specific attributes only the required fields for the import file will be **productSKU**, **type**, **name**, **owner** and **value**. 
 
-
-## Viewing a Product's List of Product-specific Attributes
-
-If a product has any product-specific attributes assigned, you can view their list in the **Product-Specific** section of the **Attributes** tab of the product's details:
-
-![]({{site.baseurl}}/attachments/7504853/8719256.png)
 
 ## Editing Product-specific Attributes
 
