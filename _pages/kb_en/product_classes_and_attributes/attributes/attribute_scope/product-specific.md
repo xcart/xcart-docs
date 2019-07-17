@@ -90,21 +90,9 @@ Product specific attributes can be imported in 2 different ways:
     
 ## Managing Product-Specific Attributes
 
-A store admin can sort product-specific attributes to set the preferred attributes' order of appiearance in the storefront. Also it's possible to edit product-specific attribute name and values and delete unnecessary attributes if required. The product-specific attribute management is performed in the **Attributes** tab of the respective product details page:
+A store admin can edit product-specific attribute name and values and delete unnecessary attributes if required. The product-specific attribute management is performed in the **Attributes** tab of the respective product details page:
 
 ![ps-attr-listing.png]({{site.baseurl}}/attachments/ref_d4ktum3z/ps-attr-listing.png)
-
-### Sorting Product-Specific Attributes
-
-If a product has more than one product-specific attribute you may need to change the order of apprearance of the attributes on the product details page in the storefront. 
-
-You can do it like so:
-
-1.  In your store's Admin area, find the product whose attribute you need to delete, open its details and click on the** Attributes** tab. 
-2.  Make sure you are viewing the **Sort Settings** section.
-3.  Drag-n-drop the attributes and their values to arrange them in the order to be displayed on the products details page.
-![sort-settings.png]({{site.baseurl}}/attachments/ref_d4ktum3z/sort-settings.png)
-4.  Click **Save changes**.
 
 ### Editing Product-Specific Attributes
 
