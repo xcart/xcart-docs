@@ -9,29 +9,28 @@ published: true
 redirect_from:
   - /modules/ShopperApproved/configuration.html
 ---
-First of all, make sure the Shopper Approved Reviews addon is {% link "installed and enabled" ref_uEnDBBA7 %} in the **Addons** section of your store Admin area. If enabled proceed to the addon _Settings_ page.
+You can find out whether your X-Cart store has the addon Shopper Approved Reviews installed and enabled by checking the **My addons** section of your store Admin area. If not, the addon can be obtained via the X-Cart App Store. To install the addon, follow the steps described in {% link "Installing and Activating Addons" ref_0fGEpvrh %}.
 
+Before you start using the addon, you need to adjust the addon settings. Proceed to the Shopper Approved Reviews addon settings page: 
 ![settings.png]({{site.baseurl}}/attachments/ref_3otm3RBq/settings.png)
 
-There you will be given an option either to sign up for Shopper Approved or to connect manually with an existing account.
- 
+There you will be prompted to either sign up for Shopper Approved or to connect manually with your existing Shopper Approved account.
 ![settings-page.png]({{site.baseurl}}/attachments/ref_3otm3RBq/settings-page.png)
 
-If you do not have an account yet, hit **Sign Up**, and the system will automatically create a Shopper Approved account for you and link your X-Cart store with it. 
+If you do not have a Shopper Approved account yet, hit **Sign Up**, and the system will automatically create a Shopper Approved account for you and link your X-Cart store to it. 
 
 {% note info %}
 Please make sure the _Site administrator e-mails_ {% link "have been set correctly" ref_wKcxbiUf %} in the **Store setup** -> **Contact information** section of the Admin area. Otherwise you will not get your credentials for access to the Shopper Approved dashboard.
 {% endnote %}
 
 If you have a Shopper Approved account, hit the button **'Connect with existing account'** and complete the required fields manually.
-
 ![settings-filled.png]({{site.baseurl}}/attachments/ref_3otm3RBq/settings-filled.png)
 
 You will need to specify the following details:
 
-* **ShopperApproved Site ID**: Get this info in the Dashboard -> User Info section at [ShopperApproved](https://www.shopperapproved.com/account/dashboard/userinfo/account-settings "Configuring the Shopper Approved") 
-* **ShopperApproved API Token**: Get this info in the Dashboard -> User Info section at [ShopperApproved](https://www.shopperapproved.com/account/dashboard/userinfo/account-settings "Configuring the Shopper Approved") 
-* **ShopperApproved Site Domain**: Your X-Cart store URL e.g. myxcartstore.com
+   * **ShopperApproved Site ID**: Get this info in the Dashboard -> User Info section at [ShopperApproved](https://www.shopperapproved.com/account/dashboard/userinfo/account-settings "Configuring the Shopper Approved") 
+   * **ShopperApproved API Token**: Get this info in the Dashboard -> User Info section at [ShopperApproved](https://www.shopperapproved.com/account/dashboard/userinfo/account-settings "Configuring the Shopper Approved") 
+   * **ShopperApproved Site Domain**: Your X-Cart store URL e.g. myxcartstore.com
 
 Once enabled, the Shopper Approved Reviews addon creates a static page titled _Read our reviews_; that page is aimed at promoting verified reviews you gain through the Shopper Approved addon. You can customize it to your liking in the **Content** -> **Pages** section of the Admin area or add the merchant reviews widget to any other static page. The _Read our reviews_ static page may appear empty until you receive your first reviews and approve them via the Shopper Approved dashboard.
 
