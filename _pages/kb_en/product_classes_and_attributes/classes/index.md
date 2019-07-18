@@ -24,3 +24,7 @@ _In this section:_
 *  {% link "Creating Product Classes" ref_6ieZHjOV %}
 *  {% link "Assigning Product Classes to Products" ref_4PN1b5la %}
 *  {% link "Managing Product Classes" ref_5hLBsBtC %}
+
+_Related pages:_
+
+*  {% link "Product Class Attributes" ref_kEKoAxJB %}
