@@ -9,7 +9,10 @@ published: true
 redirect_from:
   - /modules/ShopperApproved/configuration.html
 ---
-You can find out whether your X-Cart store has the addon Shopper Approved Reviews installed and enabled by checking the **My addons** section of your store Admin area. If not, the addon can be obtained via the X-Cart App Store. To install the addon, follow the steps described in {% link "Installing and Activating Addons" ref_0fGEpvrh %}.
+You can find out whether your X-Cart store has the addon Shopper Approved Reviews installed and enabled by checking the **My addons** section of your store Admin area. If not, the addon can be obtained via the X-Cart App Store.
+![shopperapproved_addon.png]({{site.baseurl}}/attachments/ref_3otm3RBq/shopperapproved_addon.png)
+
+To install the addon, follow the steps described in {% link "Installing and Activating Addons" ref_0fGEpvrh %}.
 
 Before you start using the addon, you need to adjust the addon settings. Proceed to the Shopper Approved Reviews addon settings page: 
 ![settings.png]({{site.baseurl}}/attachments/ref_3otm3RBq/settings.png)
