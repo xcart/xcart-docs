@@ -25,11 +25,11 @@ If you do not have a Shopper Approved account yet, you can hit **Sign Up**, and 
 If you have an existing Shopper Approved account, you can connect it to your X-Cart store by hitting the button **'Connect with existing account'** and providing the required connection information manually.
 ![settings-filled.png]({{site.baseurl}}/attachments/ref_3otm3RBq/settings-filled.png)
 
-You will need to specify the following details:
+You will need to specify the following information:
 
-   * **ShopperApproved Site ID**: Get this info in the Dashboard -> User Info section at [ShopperApproved](https://www.shopperapproved.com/account/dashboard/userinfo/account-settings "Configuring the Shopper Approved") 
-   * **ShopperApproved API Token**: Get this info in the Dashboard -> User Info section at [ShopperApproved](https://www.shopperapproved.com/account/dashboard/userinfo/account-settings "Configuring the Shopper Approved") 
-   * **ShopperApproved Site Domain**: Your X-Cart store URL e.g. myxcartstore.com
+   * **ShopperApproved Site ID**: Get this info in the ShopperApproved Dashboard -> [User Info section](https://www.shopperapproved.com/account/dashboard/userinfo/account-settings "Configuring the Shopper Approved") 
+   * **ShopperApproved API Token**: Get this info in the ShopperApproved Dashboard -> [User Info section](https://www.shopperapproved.com/account/dashboard/userinfo/account-settings "Configuring the Shopper Approved") 
+   * **ShopperApproved Site Domain**: Enter your X-Cart store URL; for example, myxcartstore.com
 
 Once enabled, the Shopper Approved Reviews addon creates a static page titled _Read our reviews_; that page is aimed at promoting verified reviews you gain through the Shopper Approved addon. You can customize it to your liking in the **Content** -> **Pages** section of the Admin area or add the merchant reviews widget to any other static page. The _Read our reviews_ static page may appear empty until you receive your first reviews and approve them via the Shopper Approved dashboard.
 
