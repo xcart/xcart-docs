@@ -20,13 +20,9 @@ Before you start using the addon, you need to adjust the addon settings. Proceed
 There you will be prompted to either sign up for Shopper Approved or to connect manually with your existing Shopper Approved account.
 ![settings-page.png]({{site.baseurl}}/attachments/ref_3otm3RBq/settings-page.png)
 
-If you do not have a Shopper Approved account yet, hit **Sign Up**, and the system will automatically create a Shopper Approved account for you and link your X-Cart store to it. 
+If you do not have a Shopper Approved account yet, you can hit **Sign Up**, and the system will automatically create a Shopper Approved account for you and link your X-Cart store to it. Please note, however, that in this case your credentials for access to the Shopper Approved dashboard will be sent to your main Site administrator email address as configured via the **Site administrator e-mails** setting in the Contact information section (**Store setup** -> **Contact information**) of your X-Cart store Admin area. Make sure this setting {% link "has been adjusted properly" ref_wKcxbiUf %}; otherwise you will not be able to get your Shopper Approved dashboard credentials.
 
-{% note info %}
-Please make sure the _Site administrator e-mails_ {% link "have been set correctly" ref_wKcxbiUf %} in the **Store setup** -> **Contact information** section of the Admin area. Otherwise you will not get your credentials for access to the Shopper Approved dashboard.
-{% endnote %}
-
-If you have a Shopper Approved account, hit the button **'Connect with existing account'** and complete the required fields manually.
+If you have an existing Shopper Approved account, you can connect it to your X-Cart store by hitting the button **'Connect with existing account'** and providing the required connection information manually.
 ![settings-filled.png]({{site.baseurl}}/attachments/ref_3otm3RBq/settings-filled.png)
 
 You will need to specify the following details:
