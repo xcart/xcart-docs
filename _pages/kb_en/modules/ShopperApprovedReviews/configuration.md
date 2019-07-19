@@ -33,14 +33,14 @@ You will need to specify the following information:
 
 Once enabled, the Shopper Approved Reviews addon creates a static page titled _Read our reviews_; that page is aimed at promoting verified reviews you gain through the Shopper Approved addon. You can customize it to your liking in the **Content** -> **Pages** section of the Admin area or add the merchant reviews widget to any other static page. The _Read our reviews_ static page may appear empty until you receive your first reviews and approve them via the Shopper Approved dashboard.
 
-Further addon setup can be done in the **Content** -> **Shopper Approved** section of the store Admin area.
+Further addon setup can be done in the **Content** -> **Shopper Approved** section of your X-Cart store Admin area.
 ![product_category_pages.png]({{site.baseurl}}/attachments/ref_3otm3RBq/product_category_pages.png)
 
 The settings that you can configure in the Product and Category pages tab are as follows:
-* _Use Shopper Approved widget instead of the default one_ : YES/NO (The widget will display the reviews submitted via the Shopper Approved addon only, all reviews submitted earlier will not be available to customers)
-* _Star size_ : Regular/Big
-* _Maximum number of reviews to display_ : from 3 to 20
-* _Date format_ : choose the one you like better 
+* **Use Shopper Approved widget instead of the default one**: If this option is enabled, the widget will display the reviews submitted via the Shopper Approved addon only; any reviews submitted earlier will not be available to customers.
+* **Star size**: Regular/Big
+* **Maximum number of reviews to display**: Specify the number of reviews you require (from 3 to 20).
+* **Date format**: Select the date format you require. 
 
 Once you are done configuring the settings, be sure to save your changes. 
 
