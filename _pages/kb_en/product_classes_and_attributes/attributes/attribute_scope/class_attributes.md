@@ -19,7 +19,10 @@ Prior to assigning product class attribute(s) to a product a store admin must cr
 
 X-Cart has 2 possible ways of creating and managing product classes and product class attributes that differ in means and actions that can be applied:
 - via the **Classes & Attributes** section of the admin area, that allows to create, edit and delete product classes and add attributes to them. The changes done in this section will be applied store-wide.
+  ![classes-attr.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/classes-attr.png)
+
 - via the **Attributes** -> **Global** tab of any product details page, that allows to create product classes and assign them to products, as well as to add attributes to existing and newly created product classes and apply these attributes either store-wide or on a per-product basis, also it's possible to edit product-class attribute names store-wide and delete product-class attributes on a per-product basis here.
+  ![classes-attr-product.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/classes-attr-product.png)
 
 Read on the guides from this section to learn how to create and manage product class attributes in X-Cart.
 {% toc %}
