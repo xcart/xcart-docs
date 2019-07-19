@@ -38,7 +38,9 @@ Product classes creation and management via the **Classes & Attributes** section
 
 ### Adding Product Class Attributes to Product Classes
 
+{% note warning %}
 Adding product class attributes via the **Classes & Attributes** section of the Admin area (**Catalog > Classes & attributes**) implies that a related product class has been created beforehand as described in the {% link "Creating Product Classes" ref_6ieZHjOV %} guide of our Knowledge Base.
+{% endnote %}
 
 To add attribute(s) to an existing product class via the **Classes & Attributes** section follow the steps below:
 
@@ -53,10 +55,10 @@ To add attribute(s) to an existing product class via the **Classes & Attributes*
     ![pc-attr-add-attribute-3.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-attribute-3.png)
 4.  Use the fields of the **New attribute** popup to provide information about the new attribute. Specify the following information:
 
-    *   **Attribute**: Attribute name (in our case, "Print color").
-    *   **Attribute group**: (Specify this if you want to assign the new attribute to some attribute group) Name of the attribute group.
+    *   **Attribute**: Attribute name.
+    *   **Attribute group**: Select a group name from the drop-down if this is applicable.
         {% note info%}
-        Use the {% link "Attribute Groups" ref_otIvC7NR %} guide to learn how to join attributes into groups.
+        Use the [Adding Groups to Product Class Attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#adding-groups-to-product-class-attributes "Product Class Attributes") part of this guide to learn how to join attributes into groups.
         {% endnote%}
     *   **Type**: Attribute value type (_Plain field_, _Textarea_, _Yes/No_).
         {% note info %}
@@ -103,7 +105,7 @@ To add a group of attributes to a product class:
 5. The newly created groups will be added to the product class details page:
    ![pc-attr-groups-5.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-groups-5.png)
 
-Now you can use these goups when creating attributes for this product class.
+Now you can use these goups when [creating attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#adding-product-class-attributes-to-product-classes "Product Class Attributes") for this product class.
 
 ### Viewing the List of Attributes Configured for a Product Class
 
