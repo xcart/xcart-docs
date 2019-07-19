@@ -33,10 +33,14 @@ You will need to specify the following information:
 
 Once enabled, the Shopper Approved Reviews addon creates a static page titled _Read our reviews_; that page is aimed at promoting verified reviews you gain through the Shopper Approved addon. You can customize it to your liking in the **Content** -> **Pages** section of the Admin area or add the merchant reviews widget to any other static page. The _Read our reviews_ static page may appear empty until you receive your first reviews and approve them via the Shopper Approved dashboard.
 
-Further addon setup can be done in the **Content** -> **Shopper Approved** section of your X-Cart store Admin area.
+Further addon setup can be done in the Shopper Approved section (**Content** -> **Shopper Approved**) of your X-Cart store Admin area.
 ![product_category_pages.png]({{site.baseurl}}/attachments/ref_3otm3RBq/product_category_pages.png)
 
-The settings that you can configure in the Product and Category pages tab are as follows:
+This section provides two tabs:
+   * Product and Category pages;
+   * Merchant Review Survey.
+
+On the Product and Category pages tab, you can configure the following settings:
 * **Use Shopper Approved widget instead of the default one**: If this option is enabled, the widget will display the reviews submitted via the Shopper Approved addon only; any reviews submitted earlier will not be available to customers.
 * **Star size**: Regular/Big
 * **Maximum number of reviews to display**: Specify the number of reviews you require (from 3 to 20).
@@ -44,13 +48,11 @@ The settings that you can configure in the Product and Category pages tab are as
 
 Once you are done configuring the settings, be sure to save your changes. 
 
-More settings are available under the **Product** -> **Code** section of your [ShopperApproved](https://www.shopperapproved.com/account/product/page-code "Configuring the Shopper Approved") dashboard at “Step 2. Select Your Options”.
+More settings can be found under the **Product** -> **Code** section of your [ShopperApproved dashboard](https://www.shopperapproved.com/account/product/page-code) at “Step 2. Select Your Options”.
 ![code-step2.png]({{site.baseurl}}/attachments/ref_3otm3RBq/code-step2.png)
 
-The _Merchant Review Survey_ tab allows you to enable/disable a brief survey on the thank you page and a necessity of mandatory comments. More settings are available under the **Merchant** -> **Surveys** section of your [ShopperApproved](https://www.shopperapproved.com/account/merchant/surveys/options "Configuring the Shopper Approved") dashboard where you can set up follow-up emails survey to all customers who check out.
-
+The Merchant Review Survey tab of the Shopper Approved section of your X-Cart store Admin area enables you to control the options pertaining to a brief survey which can be added onto the thank you page for your customers. Depending on your business needs, the survey can be enabled or disabled. It is also possible to specify whether comments should be mandatory. More survey related settings can be found under the **Merchant** -> **Surveys** section of your [ShopperApproved dashboard](https://www.shopperapproved.com/account/merchant/surveys/options) (For example, you can specify in how many days after a customer completed checkout at your store a followup email with a link to the survey should be sent to them).
 ![survey.png]({{site.baseurl}}/attachments/ref_3otm3RBq/survey.png)
-
 
 Since ShopperApproved uses the {% link "Google feed" ref_2gQBB6qM %} data format, you will need to install and enable the Google Product Feed addon and generate a data feed using it. The data feed will be automatically imported to ShopperApproved, and you can find a link to it in the **Dashboard** -> **Product** -> **Integration** section at [ShopperApproved](https://www.shopperapproved.com/account/product/integration "Configuring the Shopper Approved"). 
 
