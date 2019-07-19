@@ -27,7 +27,7 @@ X-Cart has 2 possible ways of creating and managing product classes and product 
 Read on the guides from this section to learn how to create and manage product class attributes in X-Cart.
 {% toc %}
 
-## Product Classes and Class-Attributes Management via **Classes & Attributes**
+## Product Classes and Class-Attributes Management via the **Classes & Attributes** section
 
 When you open the **Classes & Attributes** section (**Catalog** -> **Classes & Attributes**) in the store Admin area for the first time after the software installation, you are most likely to see a screen of the kind:
 
