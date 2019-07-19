@@ -64,9 +64,11 @@ To add attribute(s) to an existing product class via the **Classes & Attributes*
         {% note info %}
         To choose a proper attribute value type for your attribute refer to the guides from {% link "Attribute Value Field Types" ref_5qw116xV %}.
         {% endnote %}
-5.  Click **Next**. The attribute should be saved. Now the popup is expanded so you can add/edit the values for this attribute:
+5.  Click **Next**. The attribute should be saved. 
+    
+    Now the popup is expanded so you can add/edit the values for this attribute:
     ![pc-attr-add-attribute-4.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-attribute-4.png)
-6.  Click **Add value** to configure the attribute values depending on the chosen {% link "attribute value field type" ref_5qw116xV %}. Add as many attribute values as you need.
+6.  Click **New value** to configure the attribute values depending on the chosen {% link "attribute value field type" ref_5qw116xV %}. Add as many attribute values as you need.
     
     The screen below demonstrates adding a plain field value: 
     ![pc-attr-add-attribute-5.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-attribute-5.png)
@@ -74,11 +76,11 @@ To add attribute(s) to an existing product class via the **Classes & Attributes*
     ![pc-attr-add-attribute-6.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-attribute-6.png)
 8.  Once you're done with editing the attribute values, save the changes using the **Save changes** button:
    
-    The attribute will be added to the list of attributes of this product class.
+    The attribute(s) will be added to the list of attributes of the related product class.
     ![pc-attr-add-attribute-7.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-attribute-7.png)
 
 
-You can add as many attributes to one product class as you need. Once all required attributes have been created you can start assigning this product class to products in your store.
+You can add as many attributes to one product class as you need. Once all required attributes have been created you can start [assigning this product class to products](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#assigning-product-class-level-attributes-to-products "Product Class Attributes") in your store.
 
 ### Adding Groups to Product Class Attributes
 
