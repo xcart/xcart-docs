@@ -112,46 +112,49 @@ To add a group of attributes to a product class:
 
 Now you can use these goups when [creating attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#adding-product-class-attributes-to-product-classes "Product Class Attributes") for this product class.
 
-### Viewing the List of Attributes Configured for a Product Class
+### Managing Product Class Attributes 
 
- The attributes that have been added for a product class can be viewed as follows:
+A store admin can check the list of attributes added to a product class and manage these attributes on a respective product class details page in the **Classes & attributes** section of the Admin area (**Catalog > Classes & attributes**).
 
-1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  In the list of product classes, locate the the product class that you want to check and click on the _Edit attributes (N)_ link opposite it:
-    ![]({{site.baseurl}}/attachments/7504855/8719257.png)
-    This opens a page with the list of attributes for the selected product class:
-    ![]({{site.baseurl}}/attachments/7504855/8719278.png)
+To view the list of attributes a product class has a store admin should locate the respective product class in the **Classes & attributes** section of the Admin area  and click on _Edit attributes (N)_ link opposite it (where N stands for the numner of attribues a product class has).
 
-In the list of attributes, for each attribute you can see the attribute name and the field type that was used to add the attribute's values. 
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![pc-attr-management-1.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-1.png)</div>
+  <div class="column" markdown="span">![pc-attr-management-2.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-2.png)</div>
+</div>
 
-To view the values for a specific attribute:
+On a product class details page a store admin will sea a list of all attributes assigned to this product class with the respective attribute types by value.
 
-1.  Hover your cursor over the line with the attribute's name. This will display an **Edit** button opposite the attribute's name:
-    ![]({{site.baseurl}}/attachments/7504855/8719279.png)
-2.  Click on the **Edit** button. This will display the attribute's details, including the list of its values:
-    ![]({{site.baseurl}}/attachments/7504855/8719280.png)
-    
-### Editing Product Class Attributes
+Using the respective links(buttons) on the product class details page a store admin can:
 
-1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  In the list of product classes, locate the name of the product class to which the attribute you need to edit belongs and click on the Edit attributes (N) link opposite it:
-    ![]({{site.baseurl}}/attachments/7504855/8719257.png)
-    This opens a page where you will be able to manage attributes for this product class:
-    ![]({{site.baseurl}}/attachments/7504855/8719278.png)
-3.  In the list of product class attributes, locate the attribute you need to edit and hover your cursor over its name. The **Attribute name** field will become visible and an **Edit** button will be displayed next to it:
-    ![]({{site.baseurl}}/attachments/7504855/8719279.png)
-4.  If you just need to change the attribute name, click inside the **Attribute name** field and edit the attribute name as you require. If you need to change the attribute values (or both the attribute name and values), click the **Edit** button; this will open a popup titled **Edit attribute values** where you will be able make the necessary changes.
-5.  If you want some or all of the attribute value(s) to be applied automatically to all the products to which this product class will be assigned in future, be sure to "enable" the Check mark icon(s) opposite the names of these attribute values (the Check mark icons should turn green).
-6.  Once you're done editing, click **Save changes**.
+1. [Add new attribute(s) to a product class](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#adding-product-class-attributes-to-product-classes "Product Class Attributes")
 
-### Deleting Product Class Attributes
+2.[Create group(s) of attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#adding-groups-to-product-class-attributes "Product Class Attributes")
 
-1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  In the list of product classes, locate the name of the product class for which you need to delete an attribute and click on the Edit attributes (N) link opposite it.
-    This opens a page where you will be able to manage attributes for this product class.
-3.  In the list of product class attributes, locate the attribute you need to delete and click on the **Trash **icon opposite its name. The attribute will be marked for deletion.
-4.  Click **Save changes**.
-    The attribute will be deleted from the list of attributes for this product class and will be removed from the details of all the products that belong to this product class.
+3. Edit attribute values and configuration
+   
+   To edit a product class attribute:
+   *  In the list of product class attributes, locate the attribute you need to edit and click on the **Edit** button opposite it:
+      ![pc-attr-management-3.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-3.png)
+   *  If you just need to change the attribute name, click inside the **Attribute name** field and edit the attribute name as you require. 
+   *  If you need to change the attribute values (or both the attribute name and values), click the **Edit** button; this will open a popup titled **Edit attribute values** where you will be able make the necessary changes.
+      ![pc-attr-management-4.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-4.png)
+   *  If you want some or all of the attribute value(s) to be applied automatically to all the products that will be assinged to this product class in future, be sure to "enable" the check-mark icon opposite the names of the related attribute values (the check-mark icons should turn green).
+   * Once you're done editing, click **Save changes**.
+
+4. Make attribute(s) visible for product filter
+   
+   Use the **Funnel with eye** icon opposite the product class attribute name to make this attribute visible in the product filters in the storefront.
+   
+5. Change attribute(s) order of apprearance
+   
+   Change the attributes order of appearance by drag-n-dropping the attributes with the help of a **Cross** icon.
+   
+6. Delete attribute(s)
+
+   Use the **Trash** icon opposite a product class attribute name to marked the respective attribute for deletion.
+
+Don't forget to **Save changes** when you are done with the attributes management.
 
 ## Product Classes and Class-Attributes Management via the **Attributes** -> **Global** tab of product details page
 
