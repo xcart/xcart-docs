@@ -128,9 +128,7 @@ On a product class details page a store admin will sea a list of all attributes 
 Using the respective links(buttons) on the product class details page a store admin can:
 
 1. [Add new attribute(s) to a product class](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#adding-product-class-attributes-to-product-classes "Product Class Attributes")
-
-2.[Create group(s) of attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#adding-groups-to-product-class-attributes "Product Class Attributes")
-
+2. [Create group(s) of attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#adding-groups-to-product-class-attributes "Product Class Attributes")
 3. Edit attribute values and configuration
    
    To edit a product class attribute:
