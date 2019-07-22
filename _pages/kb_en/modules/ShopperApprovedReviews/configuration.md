@@ -46,24 +46,22 @@ On the Product and Category pages tab, you can configure the following settings:
 * **Maximum number of reviews to display**: Specify the number of reviews you require (from 3 to 20).
 * **Date format**: Select the date format you require. 
 
-Once you are done configuring the settings, be sure to save your changes. 
-
-More settings can be found under the **Product** -> **Code** section of your [ShopperApproved dashboard](https://www.shopperapproved.com/account/product/page-code) at “Step 2. Select Your Options”.
+More settings affecting the reviews on your store's product and category pages can be found in the **Product** -> **Code** section of your [ShopperApproved dashboard](https://www.shopperapproved.com/account/product/page-code) at “Step 2. Select Your Options”.
 ![code-step2.png]({{site.baseurl}}/attachments/ref_3otm3RBq/code-step2.png)
 
-The Merchant Review Survey tab of the Shopper Approved section of your X-Cart store Admin area enables you to control the options pertaining to a brief survey which can be added onto the thank you page for your customers. Depending on your business needs, the survey can be enabled or disabled. It is also possible to specify whether comments should be mandatory. More survey related settings can be found under the **Merchant** -> **Surveys** section of your [ShopperApproved dashboard](https://www.shopperapproved.com/account/merchant/surveys/options) (For example, you can specify in how many days after a customer completed checkout at your store a followup email with a link to the survey should be sent to them).
+The Merchant Review Survey tab of the Shopper Approved section of your X-Cart store Admin area enables you to control the options pertaining to a brief survey which can be added onto the thank you page for your customers. Depending on your business needs, the survey can be enabled or disabled. It is also possible to specify whether comments should be mandatory. 
+
+More survey related settings can be found in the **Merchant** -> **Surveys** section of your [ShopperApproved dashboard](https://www.shopperapproved.com/account/merchant/surveys/options) (For example, you can specify in how many days after a customer completed checkout at your store a followup email with a link to the survey should be sent to them).
 ![survey.png]({{site.baseurl}}/attachments/ref_3otm3RBq/survey.png)
 
-Since ShopperApproved uses the {% link "Google feed" ref_2gQBB6qM %} data format, you will need to install and enable the Google Product Feed addon and generate a data feed using it. The data feed will be automatically imported to ShopperApproved, and you can find a link to it in the **Dashboard** -> **Product** -> **Integration** section at [ShopperApproved](https://www.shopperapproved.com/account/product/integration "Configuring the Shopper Approved"). 
+Since ShopperApproved uses the {% link "Google feed" ref_2gQBB6qM %} data format, you will need to install and enable the Google Product Feed addon and generate a data feed using it. The data feed will be automatically imported to ShopperApproved, and you will be able to find a link to it in the **Dashboard** -> **Product** -> **Integration** section at [ShopperApproved](https://www.shopperapproved.com/account/product/integration "Configuring the Shopper Approved"). 
 
 ![sa-data-feed.png]({{site.baseurl}}/attachments/ref_3otm3RBq/sa-data-feed.png)
 
-Once the Google data feed is submitted to ShopperApproved, your product reviews become available in the [dashboard](https://www.shopperapproved.com/account/dashboard "Configuring the Shopper Approved") where you can manage them further.
-
+Once the Google data feed has been submitted to ShopperApproved, your product reviews should become available in the [ShopperApproved dashboard](https://www.shopperapproved.com/account/dashboard) where you will be able manage them further.
 ![Dashboard.png]({{site.baseurl}}/attachments/ref_3otm3RBq/Dashboard.png)
 
-Afterwards the reviews will be updated automatically every time you re-generate the Google feed in X-Cart.
+The reviews will be updated automatically every time you re-generate the Google feed in X-Cart.
 
-After placing an order at your X-Cart store, customers will be prompted to provide feedback. They will see a pop-up screen where they will be able to rate their customer experience and answer the survey questions:
-
+Provided that a customer survey has been enabled via the addon settings, after placing an order at your X-Cart store, your customers will be prompted to provide feedback. They will see a pop-up screen where they will be able to rate their customer experience and answer the survey questions:
 ![checkout-popup.png]({{site.baseurl}}/attachments/ref_3otm3RBq/checkout-popup.png)
