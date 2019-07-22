@@ -15,7 +15,7 @@ After the addon "Auction in X-Cart 5" has been installed and enabled, it needs t
 
 To configure the addon:
 
-1.  In the Installed Addons section of your X-Cart store’s Admin area (**My addons**), locate the entry for "Auction in X-Cart 5" and click the **Settings **link below it:
+1.  In the Installed Addons section of your X-Cart store’s Admin area (**My addons**), locate the entry for "Auction in X-Cart 5" and click the **Settings** link below it:
     ![]({{site.baseurl}}/attachments/8225032/8356073.png)
     This opens the '"Auction in X-Crat 5" addon settings' page:
     ![]({{site.baseurl}}/attachments/8225032/8356011.png)
