@@ -3,31 +3,29 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-06 15:59 +0400'
 identifier: ref_7mZJltoM
-title: 'Back in Stock Notifications: Installation and Set-Up'
+title: 'Back in Stock Notifications: Installation and Setup'
 order: 100
 published: true
 ---
-To install the **Back in Stock Notifications** addon follow instructions from {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon **Back in Stock Notifications**, follow the instructions from {% link "Installing addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 {% note info %}
-Make sure that the out-of-stock items are visible in the store, otherwise the customers won't be able make a subscription. For this purpose check that the **How to show out of stock products** option on the **Store setup** -> **Cart & Checkout** page is set to either _Show in all the sections_ or _Show only in categories and search listings_.
+Make sure that out-of-stock items are visible on the storefront, otherwise your customers will not be able to set up back in stock notification subscriptions for them. To enable the display of out-of-stock items, ensure that the setting **How to show out of stock products** on the **Store setup** -> **Cart & Checkout** page is set to either _Show in all the sections_ or _Show only in categories and search listings_.
 {% endnote %}
 
-Once installed proceed to the addon settings page to configure it.
-
+Once the addon has been installed, proceed to the addon settings page to configure the addon.
 ![installed.png]({{site.baseurl}}/attachments/ref_7mZJltoM/installed.png)
 
-The addon settings page will look as follows:
-
+The addon settings page looks as follows:
 ![settings-page.png]({{site.baseurl}}/attachments/ref_7mZJltoM/settings-page.png)
 
-Here you can define the following options:
+Here you can adjust the following settings:
 
-* **Send Back in stock notifications every** : Use this field to specify the frequency of notifications that your store will send to customers.
-* **Allow customers to subscribe to back in stock notifications** : When enabled the customers are able to subscribe to notifications of the products that are back in stock.
-* **Allow customer to specify the product quantity they want to buy** : When enabled the customers are able to specify the quantity of product they what to buy. They will receive a notification only if the stock is enough to cover the request.
-* **Allow customers to subscribe to price drop notifications** : When enabled the customes are able to subscribe to notifications of the price drop down for a product.
-* **Allow customer to specify the price they want to pay** : When enabled the customers are able to specify the price they are ready to pay for a product. They will receive a notification only if the price changes to meet the request.
+* **Send Back in stock notifications every** : Use this field to specify the frequency with which your store should send notifications to customers.
+* **Allow customers to subscribe to back in stock notifications** : If this setting is enabled, your customers will be able to subscribe to back in stock notifications for products that have gone out of stock.
+* **Allow customer to specify the product quantity they want to buy** : If this setting is enabled, your customers will be able to specify the quantity of product units they wish to buy. They will receive a notification only if the product inventory level is enough to cover the request.
+* **Allow customers to subscribe to price drop notifications** : If this setting is enabled, your customes will be able to subscribe to notifications of the price drop down for a product.
+* **Allow customer to specify the price they want to pay** : If this setting is enabled, your customers will be able to specify the price they are ready to pay for the product. They will receive a notification only if the price changes to meet the request.
 
 Don't forget to **Submit** the changes to make them active.
 
