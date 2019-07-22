@@ -13,9 +13,9 @@ order: 300
 
 To be able to successfully install and use the AvaTax Sales Tax Automation addon, you need a working copy of X-Cart 5 installed on your server.
 
-The addon can be obtained via X-Cart’s Marketplace.
+The addon can be obtained from the X-Cart App Store.
 
- For general addon installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+ For general addon installation instructions, see {% link "Installing Addons from the the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 As a result, you should have the addon "AvaTax Sales Tax Automation" listed in your store's Installed Addons section:
 
