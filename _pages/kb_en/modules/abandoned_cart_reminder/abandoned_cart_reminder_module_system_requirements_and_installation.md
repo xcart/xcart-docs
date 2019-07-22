@@ -21,9 +21,9 @@ Following are the system requirements for the Abandoned Cart Reminder addon:
 
 ## Installation
 
-The addon Abandoned Cart Reminder can be obtained via X-Cart’s Marketplace. 
+The addon Abandoned Cart Reminder can be obtained from the X-Cart App Store. 
 
-To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 As a result, you should have the addon Abandoned Cart Reminder installed in the **My addons** section of your store:
 
