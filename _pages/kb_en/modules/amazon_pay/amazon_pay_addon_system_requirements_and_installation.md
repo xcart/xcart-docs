@@ -16,7 +16,7 @@ redirect_from:
 
 To be able to successfully install and use the Amazon Pay addon, you need a working copy of X-Cart 5 installed on your server.
 
-The addon can be obtained via X-Cart’s Marketplace. To install and enable the addon on your system, follow the general payment installation instructions. See {% link "Adding payment methods" ref_36BqwVSF %}
+The addon can be obtained from the X-Cart App Store. To install and enable the addon on your system, follow the general payment installation instructions. See {% link "Adding payment methods" ref_36BqwVSF %}
 
 {% note info %}
 Make sure your store is [configured to use HTTPS](https://kb.x-cart.com/general_setup/store_security/#step-2-use-ssl-certificates "Amazon Pay addon system requirements and installation") in both storefront and admin area. This is required for the proper functioning of the Amazon Pay addon.
