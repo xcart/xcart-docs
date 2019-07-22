@@ -12,7 +12,6 @@ redirect_from:
 The addon [**Value Added Tax / Goods and Services Tax**](https://market.x-cart.com/addons/uk-vat.html) should be used for tax setup when it's necessary to charge customers a value added tax (VAT) or a goods and services tax (GST). 
     ![VAT-install.png]({{site.baseurl}}/attachments/ref_0GjdgNJx/VAT-install.png)
 
-
 This addon is designed specially for businesses in the UK, EU, Australia and other countries where an ability to charge VAT / GST is a must. The addon allows you to use different tax rates based on the membership level and address of the customer. It also supports tax exemption based on customer's VAT ID.
 
 {% note info %}
