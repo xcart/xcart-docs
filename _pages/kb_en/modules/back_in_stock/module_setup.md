@@ -23,13 +23,13 @@ Here you can adjust the following settings:
 
 * **Send Back in stock notifications every** : Use this field to specify the frequency with which your store should send notifications to customers.
 * **Allow customers to subscribe to back in stock notifications** : If this setting is enabled, your customers will be able to subscribe to back in stock notifications for products that have gone out of stock.
-* **Allow customer to specify the product quantity they want to buy** : If this setting is enabled, your customers will be able to specify the quantity of product units they wish to buy. They will receive a notification only if the product inventory level is enough to cover the request.
-* **Allow customers to subscribe to price drop notifications** : If this setting is enabled, your customes will be able to subscribe to notifications of the price drop down for a product.
+* **Allow customer to specify the product quantity they want to buy** : If this setting is enabled, your customers will be able to specify the quantity of product units they wish to buy. They will receive a notification only if the product inventory level is enough to cover their request.
+* **Allow customers to subscribe to price drop notifications** : If this setting is enabled, your customers will be able to subscribe to price drop notifications for products.
 * **Allow customer to specify the price they want to pay** : If this setting is enabled, your customers will be able to specify the price they are ready to pay for the product. They will receive a notification only if the price changes to meet the request.
 
-Don't forget to **Submit** the changes to make them active.
+After adjusting the settings, be sure to save the changes to make them active.
 
-Also a cart admin can edit the back-in-stock and price-drop-down notifications using the corresponding links at the bottom of the page. 
+Also a cart admin can edit the back-in-stock and price drop notifications using the corresponding links at the bottom of the page. 
 
 ![edit-notifications.png]({{site.baseurl}}/attachments/ref_7mZJltoM/edit-notifications.png)
 
