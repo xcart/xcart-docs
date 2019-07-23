@@ -13,7 +13,7 @@ order: 300
 
 After installing a WordPress blog in your store, you should check and adjust the addon configuration:
 
-*   In the Installed Addons section of your X-Cart store’s Admin area, locate the entry for the addon "Blog system in X-Cart 5" and click the **Settings **link below it:
+*   In the **My addons** section of your X-Cart store’s Admin area, locate the entry for the addon "Blog system in X-Cart 5" and click the **Settings **link below it:
 
     ![]({{site.baseurl}}/attachments/7505612/8719389.png)
     The "Blog System in X-Cart 5" addon settings page opens:
