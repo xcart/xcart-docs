@@ -658,7 +658,7 @@ There are many more fields that you can include into your product CSV file. Belo
       </td>
     </tr>
     <tr>
-      <td class="confluenceTd">tag</td>
+      <td class="confluenceTd">tags</td>
       <td class="confluenceTd">
         <p>Product tags values</p>
         <p>Multiple values must be separated by &amp;&amp; construction.</p>
