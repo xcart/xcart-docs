@@ -9,14 +9,12 @@ categories:
 published: true
 order: 110
 ---
-
-
 To start shipping with Canada Post:
 
 1.  In your store's Admin area, enable the **Canada Post** addon in the **Ma addons** section:
     ![module-off.png]({{site.baseurl}}/attachments/ref_zfNLsPus/module-off.png)
 
-    (General addon installation instructions are available here: {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.)
+    (General addon installation instructions are available here: {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.)
 
 2.  Click the _Settings_ link for **Canada Post** to access the addon settings page:
     ![module-settings.png]({{site.baseurl}}/attachments/ref_zfNLsPus/module-settings.png)
