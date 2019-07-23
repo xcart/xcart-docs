@@ -12,11 +12,11 @@ order: 135
 
 To be able to successfully install and use the addon "Booking", you need a working copy of X-Cart 5 installed on your server.
 
-The addon can be obtained via X-Cart’s Marketplace.
+The addon can be obtained from the X-Cart App Store.
 
-To install and enable the addon on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+To install and enable the addon on your system, follow the general module installation instructions. See {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
-As a result, you should have the addon "Booking" listed in your store's Installed Modules section:
+As a result, you should have the addon "Booking" listed in your store's **My addons** section:
 
 ![]({{site.baseurl}}/attachments/8749988/8718713.png)
 
