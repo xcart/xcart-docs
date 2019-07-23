@@ -10,14 +10,12 @@ published: true
 order: 100
 ---
 
-The addon Blog System in X-Cart 5 can be obtained via X-Cart’s Marketplace. 
-
+The addon Blog System in X-Cart 5 can be obtained from the X-Cart App Store. 
 ![]({{site.baseurl}}/attachments/7505491/8719386.png)
 
-To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}. 
+To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
 
-After installation the addon will be automatically activated:
-
+After installation the addon will be activated automatically:
 ![]({{site.baseurl}}/attachments/7505491/8719387.png)
 
 
