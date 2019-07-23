@@ -7,7 +7,7 @@ title: 'Back in Stock Notifications: Admin Experience'
 order: 110
 published: true
 ---
-Once the **Back in Stock Notifications** addon is {% link "installed and configured" ref_7mZJltoM %} a store admin can check for notification subscriptions and for the products in demand in the **Catalog** -> **Product notification subscriptions** and **Catalog** -> **Watched products** sections respectively. 
+Once the **Back in Stock Notifications** addon is {% link "installed and configured" ref_7mZJltoM %}, the store administrator can check for notification subscriptions and for the products in demand in the **Catalog** -> **Product notification subscriptions** and **Catalog** -> **Watched products** sections respectively. 
 
 The **Catalog** -> **Product notification subscriptions** section shows both the back-in-stock and price drop subscriptions:
 
@@ -20,13 +20,13 @@ Whereas back-in-stock subscriptions require that out-of-stock items be visible i
 
 The _Back in stock subscriptions tab_ of the **Product notification subscriptions** section shows a list of products in demand, customers who subscribed for notifications, the desired product quantity (if the **Allow customer to specify the product quantity they want to buy** option is {% link "enabled" ref_7mZJltoM %} and a customer specified the quantity he wants to buy), the date of subscription and date of product inventory change and whether the back-in-stock notification is sent or not and if yes, the date it was sent.
 
-If a product from the list is back in stock, the notification **State** gets the _Ready to send_ status and the store admin can send the back-in-stock notifications to the customers using the **Send notifications** button at the bottom of the page. 
+If a product from the list is back in stock, the notification **State** gets the _Ready to send_ status and the store administrator can send the back-in-stock notifications to the customers using the **Send notifications** button at the bottom of the page. 
 
 ![adm-bins-rfs.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/adm-bins-rfs.png)
 
 The _Price drop subscriptions_ tab of the **Product notification subscriptions** section shows a similar info except for **Desired price** and **Price drop date** are in the list instead of **Desired quantity** and related.
 
-If the price of a product from the list changes to meet the price requested by a customer the notification **State** gets the _Ready to send_ status and the store admin can send the price drop notifications to the customers using the **Send notifications** button at the bottom of the page. 
+If the price of a product from the list changes to meet the price requested by a customer the notification **State** gets the _Ready to send_ status and the store administrator can send the price drop notifications to the customers using the **Send notifications** button at the bottom of the page. 
 
 ![adm-pdd-rfs.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/adm-pdd-rfs.png)
 
@@ -48,4 +48,4 @@ The **Catalog** -> **Watched products** section displays a list of products in d
   <div class="column" markdown="span"><i>Price drop watchlist </i>![adm-pdd-watchlist.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/adm-pdd-watchlist.png)</div>
 </div>
 
-Using these lists the cart admin can plan futher store inventory supplies and possible sales or other related marketing campains.
+Using these lists the store administrator can plan futher store inventory supplies and possible sales or other related marketing campains.
