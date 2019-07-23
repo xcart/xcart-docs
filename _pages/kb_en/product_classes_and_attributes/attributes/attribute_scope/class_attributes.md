@@ -221,7 +221,7 @@ That's it! You've created a new product class and assigned it to a product in on
 
 ![pc-attr-create-5.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-create-5.png)
 
-Be warned that the newly created product class does NOT have any product class attributes configured for it. So you must proceed with adding attributes to this product class to make it working. Product class attributes can be added on the very same page the product class was created at. See the guide on adding product class attributes via the the **Attributes** -> **Global** tab of a product details page here.
+Be warned that the newly created product class does NOT have any product class attributes configured for it. So you must proceed with adding attributes to this product class to make it working. Product class attributes can be added on the very same page the product class was created at. 
 
 ### Managing Product Class Attributes	
 
@@ -283,9 +283,6 @@ When you are done with the product class attributes management specify whether t
 *   If the **Apply attribute value changes for all the products** setting is turned OFF the changes you made will be applied to this particular product only.
  
 *   If the **Apply attribute value changes for all the products** setting is turned ON the changes you made will affect all products with the same product class assigned, i.e. the changes will be applied on a product-class level.
-
-
-only this product. Changes of attribute names and of the attributes list (for example, changes of the order of attributes in the list, or removal of attributes) will affect all the products of the corresponding class.
     
    Note that when you apply attribute values globally, they are applied only to products that have the same product class assigned at the time you save the changes. Any products to which the product class in question will be assigned at a later time will _not_ get these values automatically.
 
@@ -297,3 +294,5 @@ _Related pages:_
 *   {% link "Product Classes and Attributes" ref_T90ZcEpP %}
 *   {% link "Product Classes" ref_7bb4uhwg %}
 *   {% link "Types of Product Attributes - by Scope" ref_uaJk8ete %}
+*   {% link "Multi-Value Attributes (Product Options)" ref_465IZQg9 %}
+*   {% link "Price and Weight Modifiers" ref_1t4DxHbf %}
