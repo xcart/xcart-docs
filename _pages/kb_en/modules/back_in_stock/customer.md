@@ -35,13 +35,12 @@ For the price drop notifications customers will also be able to specify the pric
   <div class="column" markdown="span"><i>Subscription confirmation on the product details page</i>![cus-pdd-notify-2.png]({{site.baseurl}}/attachments/ref_4aP2C30g/cus-pdd-notify-2.png)</div>
 </div>
 
-When the requested product is back in stock or the price of the requested product drops down a customer will receive a corresponding email notification and can proceed to purchase right from it:
+When the requested product is back in stock, or the price of the requested product drops, the customer will receive the respective type of email notification and will be able to go to the store and purchase the product using a link contained in the message:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Back-in-stock notification</i>![cus-bins-notification.png]({{site.baseurl}}/attachments/ref_4aP2C30g/cus-bins-notification.png)</div>
   <div class="column" markdown="span"><i>Price drop notification</i>![cus-pdd-notification.png]({{site.baseurl}}/attachments/ref_4aP2C30g/cus-pdd-notification.png)</div>
 </div>
 
-{% note info %}
-The above notifications use the default text. If you want to change it you are welcome to modify the notification text in the **Store setup** -> **Email notifications** section of the Admin area as described in {% link "Email notifications: Setup and Maintenance" ref_5QLrLCu7 %}.
-{% endnote %}
+The above notifications use the default text. You can edit the notification text in the **Store setup** -> **Email notifications** section of the Admin area as described in {% link "Email notifications: Setup and Maintenance" ref_5QLrLCu7 %}.
+
