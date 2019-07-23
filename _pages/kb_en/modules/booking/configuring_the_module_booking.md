@@ -11,7 +11,7 @@ order: 140
 ---
 Once you have configured the attributes that will represent the room type and number of guests per room for your bookable product variants, you may want to incorporate these attributes into the booking table that will be displayed on the pages of your bookable products. For that purpose you will need to tell the addon which of the attributes in your store needs to be treated as the "Room type" attribute, and which one - as the "Number of guests" attribute. This can be done via the addon settings page:
 
-1.  In the Installed Addons section of your X-Cart store’s Admin area, locate the entry for "Booking" and click the **Settings **link below it:![]({{site.baseurl}}/attachments/8749990/8718721.png)
+1.  In the **My addons** section of your X-Cart store’s Admin area, locate the entry for "Booking" and click the **Settings** link below it:![]({{site.baseurl}}/attachments/8749990/8718721.png)
     The "Booking" addon settings page opens:
     ![]({{site.baseurl}}/attachments/8749990/8718714.png)
 2.  Adjust the addon settings:
