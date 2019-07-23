@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2019-03-25 11:45 +0400'
 identifier: ref_08gXAvpC
 title: Canadian Taxes
-order: 156
+order: 55
 published: true
 redirect_from:
   - /taxes/setting_up_canadian_taxes.html
