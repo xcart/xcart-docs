@@ -13,7 +13,7 @@ categories:
 published: true
 order: 115
 ---
-{% note warning %} The addon "Fractional and Fixed quantities" is deprecated and not supported. {% endnote %}
+**Important:** The addon "Fractional and Fixed quantities" is deprecated and not supported.
 
 The addon "Fractional and Fixed quantities" provides a number of product quantity related features for your X-Cart 5 online store.
 
