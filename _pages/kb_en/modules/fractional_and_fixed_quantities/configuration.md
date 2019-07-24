@@ -13,9 +13,7 @@ categories:
   - Module
 published: true
 ---
-{% note warning %} 
-The addon "Fractional and Fixed quantities" is deprecated and not supported. 
-{% endnote %}
+**Important:** The addon "Fractional and Fixed quantities" is deprecated and not supported. 
 
 After the addon has been installed and enabled, it needs to be configured. The addon configuration settings can be accessed via the Settings link below the product name on the Installed Addons list:
 
