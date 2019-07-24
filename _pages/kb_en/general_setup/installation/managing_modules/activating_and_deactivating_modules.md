@@ -41,7 +41,7 @@ Deactivation stops the addon from operation, but it does not remove the settings
 
 To deactivate an installed addon:
 
-1.  In the **Installed Addons** section of your store's Admin area, find the addon that needs to be deactivated.
+1.  In the **My Addons** section of your store's Admin area, find the addon that needs to be deactivated.
 2.  Switch the On/Off trigger below the addon name to the "Off" state:.
 3.  Click **Save changes**. This starts the addon deactivation process. After it is finished, the addon will be disabled.
 
