@@ -9,15 +9,19 @@ published: true
 redirect_from:
   - /product_classes_and_attributes/managing_product_classes.html
 ---
+Product classes is an extention to the {% link "Product Attributes" ref_4Bx31Gpv %} feature that gives a . store admin the tools to join products in groups other than product categories and subcategories and use these groups for {% link "filtering products" ref_6e82A7rL %} in the storefront.
+
 When some products in your catalog have certain characteristics in common and need to be handled together as a group, it may be a good idea to configure a product class for them. 
 
 Product classes are listed and managed in the **Classes & attributes** section (**Catalog** > **Classes & attributes**) of your store’s Admin area:
 
 ![classes-listing.png]({{site.baseurl}}/attachments/ref_7bb4uhwg/classes-listing.png)
 
-For each product class, you can see the number of products to which it has been assigned.
+This page allows a store admin to check the number of products with a certain product class assigned as well as to check the list of attributes for each specific product class by clicking the _Edit attributes (N) link opposite_the product class name.
 
-The list of attributes for each specific product class can be viewed by clicking the Edit attributes (N) link opposite the product class name.
+{% note warning %}
+Product classes must have {% link "product class attributes" ref_kEKoAxJB %} configured for them.
+{% endnote %}
 
 _In this section:_
 
