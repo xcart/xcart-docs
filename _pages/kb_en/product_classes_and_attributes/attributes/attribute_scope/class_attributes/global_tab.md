@@ -68,7 +68,7 @@ That's it! You've created a new product class and assigned it to a product in on
 
 ![pc-attr-create-5.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-create-5.png)
 
-Be warned that the newly created product class does NOT have any product class attributes configured for it. So you must proceed with adding attributes to this product class to make it working. Product class attributes can be added on the very same page the product class was created at. 
+Be warned that the newly created product class does NOT have any product class attributes configured for it. So you must proceed with [adding attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes/global_tab.html#adding-new-product-class-attributes "Product Classes and Class-Attributes Management via Product Details Page") to this product class to make it working. Product class attributes can be added on the very same page the product class was created at and can be [applied both globally and on a per-product basis](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes/global_tab.html#applying-changes-globally-or-per-product "Product Classes and Class-Attributes Management via Product Details Page"). 
 
 ## Managing Product Class Attributes	
 
@@ -79,6 +79,8 @@ The **Attributes** -> **Global** tab of a product details page gives a store ad
 Any changes to the product class attributes via the  **Attributes** -> **Global** tab of a product details page start with locating the required product in the **Products** seciton of the Admin area. Then it's necessary to open the **Attributes** -> **Global** tab of this product details page and check whether the product has the required product class assigned to it. If the product does not have a product class assigned, or needs to be assigned a different product class, take a moment to [assign an appropriate product class to it](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes/global_tab.html#assigning-product-class-attributes-to-products "Product Classes and Class-Attributes Management via Product Details Page").
 
 The page section intended for managing the product class attributes is titled based on the name of the product class according to the pattern "`<Product class name>` attributes" and gives a store admin the tools for adding new attributes to a product class, editing and deleting existing product class attributes.
+
+All changes to the product class attributes can be applied both globally (i.e. affecting all products with the same product class assigned) or on a per-product basis.
 
 ### Adding New Product Class Attributes
 
