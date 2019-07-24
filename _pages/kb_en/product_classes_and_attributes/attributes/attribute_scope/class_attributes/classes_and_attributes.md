@@ -99,6 +99,10 @@ Now you can use these goups when [creating attributes](https://kb.x-cart.com/pro
 
 A store admin can check the list of attributes added to a product class and manage these attributes on a respective product class details page in the **Classes & attributes** section of the Admin area (**Catalog > Classes & attributes**).
 
+{% note info %}
+All changes applied to product class attributes via the **Classes & attributes** section of the Admin area are applied store-wide and will affect all products with the related product class assigned by far.
+{% endnote %}
+
 To view the list of attributes a product class has a store admin should locate the respective product class in the **Classes & attributes** section of the Admin area and click on _Edit attributes (N)_ link opposite it (where N stands for the numner of attribues a product class has).
 
 <div class="ui stackable two column grid">
@@ -107,8 +111,6 @@ To view the list of attributes a product class has a store admin should locate t
 </div>
 
 On a product class details page a store admin will see a list of all attributes assigned to this product class with the respective attribute types by value.
-
-All changes applied to product class attributes via the **Classes & attributes** section of the Admin area are applied store-wide and will affect all products with the related product class assigned by far.
 
 ### Editing Product Class Attribute Configuration and Values
    
@@ -138,7 +140,7 @@ To edit a product class attribute:
 The feature works only with the {% link "Product Filter" ref_6e82A7rL %} addon enabled and configured.
 {% endnote %}
    
-Use the **Funnel with eye** icon opposite the product class attribute name to make this attribute visible in the product filters in the storefront. 
+Use the **Funnel with eye** icon opposite the product class attribute name on the product class details page to make this attribute visible in the product filters in the storefront. 
 
 ![pc-attr-funnel-yey.png]({{site.baseurl}}/attachments/ref_2ydGVBck/pc-attr-funnel-yey.png)
 
@@ -148,7 +150,7 @@ By default all available product class attributes are visible in filters. To rem
    
 ### Re-Arranging Product Class Attribute(s)
    
-Change the attributes order of appearance by drag-n-dropping the attributes with the help of a **Cross** icon.
+Change the attributes order of appearance by drag-n-dropping the attributes with the help of a **Cross** icon on the product class details page.
 
 ![pc-attr-drag-n-drop.png]({{site.baseurl}}/attachments/ref_2ydGVBck/pc-attr-drag-n-drop.png)
 
@@ -156,7 +158,7 @@ Change the attributes order of appearance by drag-n-dropping the attributes with
    
 ### Deleting Product Class Attribute(s)
 
-Use the **Trash** icon opposite a product class attribute name to marked the respective attribute for deletion.
+Use the **Trash** icon opposite a product class attribute name to marked the respective attribute for deletion on the product class details page.
 
 ![pc-attr-trash.png]({{site.baseurl}}/attachments/ref_2ydGVBck/pc-attr-trash.png)
 
