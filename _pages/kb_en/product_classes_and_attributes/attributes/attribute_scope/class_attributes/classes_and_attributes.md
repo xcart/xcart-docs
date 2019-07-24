@@ -66,7 +66,7 @@ To add attribute(s) to an existing product class via the **Classes & Attributes*
     The attribute(s) will be added to the list of attributes of the related product class.
     ![pc-attr-add-attribute-7.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-attribute-7.png)
 
-You can add as many attributes to one product class as you need. Once all required attributes have been created you can start [assigning this product class to products](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#assigning-product-class-level-attributes-to-products "Product Class Attributes") in your store.
+You can add as many attributes to one product class as you need. Once all required attributes have been created you can start [assigning this product class to products](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes/global_tab.html#assigning-product-class-attributes-to-products "Product Class Attributes") in your store.
 
 ## Adding Groups to Product Class Attributes
 
