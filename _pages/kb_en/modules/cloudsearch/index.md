@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-04-13 13:25 +0400'
 identifier: ref_3MF4RL7z
-title: CloudSearch and CloudFilters
+title: CloudSearch - Robust eCommerce Search & Filtering Engine
 order: 60
 published: true
 ---
