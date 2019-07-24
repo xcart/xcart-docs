@@ -18,7 +18,7 @@ Sometimes the addon you want to use is installed, but not active. To be able to 
 
 To activate an installed addon:
 
-1.  In your store's Admin area, click **My addons** to go to the **Installed Addons** section:
+1.  In your store's Admin area, click **My addons** to go to the **My Addons** section:
     ![xc5_modules_my_addons_link.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/xc5_modules_my_addons_link.png)
 
 2.  In this section, find the addon that needs to be activated (for example, **Add to Cart Popup**):
