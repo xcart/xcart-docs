@@ -9,12 +9,15 @@ published: true
 ---
 Getting started with Mailсhimp Integration:
 
-   * Make sure integration is {% link "installed and active" ref_0fGEpvrh %} in your X-Cart store. If not, install the Mailchimp addon as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+   * Make sure the integration is {% link "installed and active" ref_0fGEpvrh %} in your X-Cart store. 
+     ![mailchimp_addon.png]({{site.baseurl}}/attachments/ref_w5MRyybe/mailchimp_addon.png)
+
+     If not, install the addon Mailchimp Integration with E-commerce support as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
    
    {% note info %}
-   The Mailchimp addon requires the basic Newsletter subscriptions addon to be {% link "installed and enabled" ref_uEnDBBA7 %}. If both addons are used at the same time, the “Newsletter subscriptions” addon will be linked to Mailсhimp and the subscriber email addresses submitted via the subscription form will no longer be stored to a list within X-Cart, but will be handled via Mailсhimp, provided that your X-Cart store is connected to your Mailсhimp account via the addon settings, and the Mailсhimp Integration is configured properly.
+   The addon "Mailchimp Integration with E-commerce support" requires the basic "Newsletter subscriptions" addon to be {% link "installed and enabled" ref_uEnDBBA7 %}. If both the addons are used at the same time, the "Newsletter subscriptions" addon will be linked to Mailсhimp and the subscriber email addresses submitted via the subscription form will no longer be stored to a list within X-Cart, but will be handled via Mailсhimp, provided that your X-Cart store is connected to your Mailсhimp account via the addon settings, and the Mailсhimp Integration is configured properly.
    
-   If your store has a list of subscribers formed by the addon “Newsletter subscriptions” when you switch to Mailсhimp, you should not expect these subscribers to be imported into Mailсhimp automatically. To use your existing subscribers with Mailсhimp, you will need to export them from your X-Cart store and import them into your Mailсhimp account. See [https://kb.mailchimp.com/lists/growth/import-subscribers-to-a-list](https://kb.mailchimp.com/lists/growth/import-subscribers-to-a-list "Getting started with Mailсhimp Integration with E-commerce support") for information on how to import subscribers into Mailсhimp.
+   If at the moment of switching to Mailchimp your store has a list of subscribers formed by the addon "Newsletter subscriptions", you should not expect these subscribers to be imported into Mailсhimp automatically. To use your existing subscribers with Mailсhimp, you will need to export them from your X-Cart store and import them into your Mailсhimp account. See [https://kb.mailchimp.com/lists/growth/import-subscribers-to-a-list](https://kb.mailchimp.com/lists/growth/import-subscribers-to-a-list "Getting started with Mailсhimp Integration with E-commerce support") for information on how to import subscribers into Mailсhimp.
    {% endnote%}
    
    * [Connect integration to your Mailсhimp account](#connect-integration-to-your-mailchimp-account).
@@ -32,7 +35,7 @@ The connection is done using an API key, so you will need one. Instructions for 
 
 Once an API key has been set up for your X-Cart store in your Mailсhimp account, connect your integration to Mailсhimp:
 
-Step 1. Go to the “Mailсhimp Integration with Ecommerce support” addon settings page in your X-Cart store’s Admin area. You can do so by selecting the Settings link for the addon “Mailсhimp Integration with Ecommerce support” in your store’s Installed Addons section.
+Step 1. Go to the "Mailсhimp Integration with Ecommerce support" addon settings page in your X-Cart store’s Admin area. You can do so by selecting the Settings link for the addon "Mailсhimp Integration with Ecommerce support" in your store’s Installed Addons section.
 ![mailchimp-installed.png]({{site.baseurl}}/attachments/ref_w5MRyybe/mailchimp-installed.png)
 
 Before you have connected the integration to your Mailсhimp account, the addon settings page allows you to select a connection method:
@@ -41,7 +44,7 @@ Before you have connected the integration to your Mailсhimp account, the addon 
 Step 2. Use one of the following methods to connect to Mailсhimp:
 
    * Method 1: Sign up for a new Mailchimp account and have it connected to your integration automatically
-      * Step 1. Click on the “Sign Up” button. 
+      * Step 1. Click on the **Sign Up** button. 
         ![xc5_mailchimp_signup.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_signup.png)
       
       * Step 2. On the page that opens, provide the information required by Mailсhimp to create a new account.
@@ -50,7 +53,7 @@ Step 2. Use one of the following methods to connect to Mailсhimp:
         Once your new Mailchimp account has been created, follow the instructions for connecting your existing Mailchimp account to your integration (See Method 2 below).
          
    * Method 2: Log in to your existing Mailchimp account and have it connected to your integration automatically
-      * Step 1. Click on the link “Connect with your Mailсhimp account”. 
+      * Step 1. Click on the link "Connect with your Mailсhimp account". 
        ![xc5_mailchimp_connecting1.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connecting1.png)
        
        * Step 2. On the Mailсhimp authorization page, enter your Mailсhimp login and password and click **Log In**.
@@ -59,15 +62,15 @@ Step 2. Use one of the following methods to connect to Mailсhimp:
             
    * Method 3: Enter your Mailchimp API key manually and have your Mailchimp account connected to your integration
        * Step 1. In your Mailсhimp account, copy the API key you have set up for your X-Cart store.
-       * Step 2. On the Mailсhimp Integration addon settings page in your X-Cart store, paste the API key into the field that says “Enter your Mailсhimp API key manually” and press Enter.
+       * Step 2. On the Mailсhimp Integration addon settings page in your X-Cart store, paste the API key into the field that says "Enter your Mailсhimp API key manually" and press Enter.
          ![xc5_mailchimp_connecting2.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connecting2.png)
          
          Provided that a valid API key has been used, your X-Cart Mailсhimp integration will be connected to your Mailсhimp account.
 
-Regardless of the connection method that has been used, after a successful connection you will be able to see the “Mailсhimp Integration with E-commerce support” addon settings page with your Mailсhimp API key showing in the field of the same name:
+Regardless of the connection method that has been used, after a successful connection you will be able to see the "Mailсhimp Integration with E-commerce support" addon settings page with your Mailсhimp API key showing in the field of the same name:
 ![xc5_mailchimp_successfully_authenticated.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_successfully_authenticated.png)
 
-Should you need to change the Mailсhimp account or the API key used for the connection, you will be able to do so at any time using the “Reset Mailсhimp connection” link provided next to the Mailсhimp API key field (See [Disconnect Integration](#disconnect-integration) for more info).
+Should you need to change the Mailсhimp account or the API key used for the connection, you will be able to do so at any time using the "Reset Mailсhimp connection" link provided next to the Mailсhimp API key field (See [Disconnect Integration](#disconnect-integration) for more info).
 
 Once your integration has been connected to your Mailсhimp account, you should configure it. For example, you will be able to toggle the E-commerce analytics and Abandoned carts features, choose how your customers should be able to subscribe to your Mailсhimp lists (whether a customer should be able to choose more than one list when subscribing, whether an additional confirmation should be required after a customer opts in to subscribe, etc.) For more info, see {% link "Configuring the addon 'Mailсhimp Integration with E-commerce support'" ref_ST1QnErC %}
 
@@ -92,7 +95,7 @@ Mailсhimp mailing lists support segmentation based on your subscribers' purchas
 With the advanced Email Automation capabilities of Mailсhimp, you will be able to set emails or series of emails to be sent to your customers right away as soon as they take particular actions in your store, i.e. just subscribed, abandoned cart, made a first purchase, bought any/specific product, bought product from some category.
 
 ## Disconnect Integration
-Should you need to disconnect your X-Cart Mailchimp integration from the currently used Mailchimp account and to connect it to some other Mailchimp account, or to connect it to the same Mailchimp account using a different API key, use the “Reset Mailchimp connection” feature:
+Should you need to disconnect your X-Cart Mailchimp integration from the currently used Mailchimp account and to connect it to some other Mailchimp account, or to connect it to the same Mailchimp account using a different API key, use the "Reset Mailchimp connection" feature:
 
    Step 1. You will need the username and password for the Mailchimp account to which you will be connecting your Mailchimp integration, so make sure you have them at the ready. You will also require an API key that your Mailchimp integration will use to access that account on your behalf, so make sure an API key has been generated as per the instructions in the Mailchimp knowledge base article [About API keys](http://kb.mailchimp.com/integrations/api-integrations/about-api-keys).
 
@@ -112,7 +115,7 @@ To deactivate or uninstall the Mailchimp integration addon:
    
    Step 2. Click the **My addons** menu item on the Admin menu to access your store’s Installed Addons section. 
 
-   Step 3. In the list of your installed addons, find the one named  “Mailchimp Integration with Ecommerce support” and choose the desired action:
+   Step 3. In the list of your installed addons, find the one named  "Mailchimp Integration with Ecommerce support" and choose the desired action:
 To deactivate the addon, set the ON/OFF switch to the “OFF” position.
 To uninstall the addon, click on the Trash icon.
 
