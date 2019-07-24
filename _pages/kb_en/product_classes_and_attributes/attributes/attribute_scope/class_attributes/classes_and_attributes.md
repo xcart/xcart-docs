@@ -93,7 +93,7 @@ To add a group of attributes to a product class:
 5. The newly created groups will be added to the product class details page:
    ![pc-attr-groups-5.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-groups-5.png)
 
-Now you can use these goups when [creating attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#adding-product-class-attributes-to-product-classes "Product Class Attributes") for this product class.
+Now you can use these goups when [creating attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes/classes_and_attributes.html#adding-product-class-attributes-to-product-classes "Product Class Attributes") for this product class.
 
 ## Managing Product Class Attributes 
 
