@@ -9,6 +9,8 @@ published: true
 ---
 Product classes and product class attributes can be created and managed via the **Attributes** -> **Global** tab of a {% link "product details" ref_2D8wAeXP %} page.
 
+![classes-attr-product.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/classes-attr-product.png)
+
 If speaking about product classes and product class attributes, the main purpose of the **Attributes** -> **Global** tab of a product details page is to give a store admin the tool to assign a product class to this particular product and to add it this way to a group of products that distinguish by properties.
 
 It's generally accepted that the respective product classes and their attributes are created beforehand via the **Classes & attributes** section (**Catalog > Classes & attributes**) as described in the {% link "Product Classes and Class-Attributes Management via the "Classes & Attributes" section" ref_2ydGVBck %} guide because this is the most common way of product classes and product class attributes management.
