@@ -97,30 +97,27 @@ Now you can use these goups when [creating attributes](https://kb.x-cart.com/pro
 
 A store admin can check the list of attributes added to a product class and manage these attributes on a respective product class details page in the **Classes & attributes** section of the Admin area (**Catalog > Classes & attributes**).
 
-To view the list of attributes a product class has a store admin should locate the respective product class in the **Classes & attributes** section of the Admin area  and click on _Edit attributes (N)_ link opposite it (where N stands for the numner of attribues a product class has).
+To view the list of attributes a product class has a store admin should locate the respective product class in the **Classes & attributes** section of the Admin area and click on _Edit attributes (N)_ link opposite it (where N stands for the numner of attribues a product class has).
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![pc-attr-management-1.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-1.png)</div>
   <div class="column" markdown="span">![pc-attr-management-2.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-2.png)</div>
 </div>
 
-On a product class details page a store admin will sea a list of all attributes assigned to this product class with the respective attribute types by value.
+On a product class details page a store admin will see a list of all attributes assigned to this product class with the respective attribute types by value.
 
-Using the respective links(buttons) on the product class details page a store admin can:
-
-1. [Add new attribute(s) to a product class](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#adding-product-class-attributes-to-product-classes "Product Class Attributes")
-2. [Create group(s) of attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#adding-groups-to-product-class-attributes "Product Class Attributes")
-3. Edit attribute values and configuration
+### Editing Product Class Attribute Configuration and Values
    
-   To edit a product class attribute:
-   *  In the list of product class attributes, locate the attribute you need to edit. 
-   *  If you just need to change the attribute name, click inside the **Attribute name** field and edit the attribute name as you require. 
-      ![pc-attr-management.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management.png)
-   *  If you need to change the attribute values (or both the attribute name and values), click the **Edit** button:
-      ![pc-attr-management-3.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-3.png)
+To edit a product class attribute:
+
+1. In the list of product class attributes, locate the attribute you need to edit. 
+2. If you just need to change the attribute name, click inside the **Attribute name** field and edit the attribute name as you require. 
+   ![pc-attr-management.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management.png)
+3. If you need to change the attribute values (or both the attribute name and values), click the **Edit** button:
+   ![pc-attr-management-3.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-3.png)
       
-      This will open a popup titled **Edit attribute values** where you will be able make the necessary changes.
-      ![pc-attr-management-4.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-4.png)
+   This will open a popup titled **Edit attribute values** where you will be able make the necessary changes.
+   ![pc-attr-management-4.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-4.png)
       *  If you want some or all of the attribute value(s) to be applied automatically to all the products that will have this product class assigned in future, be sure to "enable" the check-mark icon opposite the names of the related attribute values (the check-mark icons should turn green):
          ![pc-attr-management-6.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-6.png)
       *  If you want to change the attribute values sorting use the **Cross** icons to re-arrange the values by grag-n-groping them:
@@ -129,18 +126,34 @@ Using the respective links(buttons) on the product class details page a store ad
         ![pc-attr-management-7.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-7.png)
         The **Apply sorting globally** setting affect the "active" attribute values only, i.e. the values that are marked with a green check-box and are automatically assigned to all products within this product class.
 
-   *  Once you're done editing, click **Save changes**.
+4. Once you're done editing, click **Save changes**.
 
-4. Make attribute(s) visible for product filter (works with {% link "Product Filter" ref_6e82A7rL %} addon only)
-   
-   Use the **Funnel with eye** icon opposite the product class attribute name to make this attribute visible in the product filters in the storefront.
-   
-5. Change attribute(s) order of apprearance
-   
-   Change the attributes order of appearance by drag-n-dropping the attributes with the help of a **Cross** icon.
-   
-6. Delete attribute(s)
+### Adding Product Class Attirbute(s) to Filters
 
-   Use the **Trash** icon opposite a product class attribute name to marked the respective attribute for deletion.
+{% note info%}
+The feature works only with the {% link "Product Filter" ref_6e82A7rL %} addon enabled and configured.
+{% endnote %}
+   
+Use the **Funnel with eye** icon opposite the product class attribute name to make this attribute visible in the product filters in the storefront. 
+
+![pc-attr-funnel-yey.png]({{site.baseurl}}/attachments/ref_2ydGVBck/pc-attr-funnel-yey.png)
+
+By default all available product class attributes are visible in filters. To remove an attribute from filters click on the **Funnel with eye** icon opposite the product class attribute name(s). The icon will turn grey.
+
+**Save changes** when you are done.
+   
+### Re-Arranging Product Class Attribute(s)
+   
+Change the attributes order of appearance by drag-n-dropping the attributes with the help of a **Cross** icon.
+
+![pc-attr-drag-n-drop.png]({{site.baseurl}}/attachments/ref_2ydGVBck/pc-attr-drag-n-drop.png)
+
+**Save changes** when you are done.
+   
+### Deleting Product Class Attribute(s)
+
+Use the **Trash** icon opposite a product class attribute name to marked the respective attribute for deletion.
+
+![pc-attr-trash.png]({{site.baseurl}}/attachments/ref_2ydGVBck/pc-attr-trash.png)
 
 Don't forget to **Save changes** when you are done with the attributes management.
