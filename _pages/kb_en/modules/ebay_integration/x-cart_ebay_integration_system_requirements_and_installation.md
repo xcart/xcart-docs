@@ -15,10 +15,7 @@ To be able to successfully install and use the addon "X-Cart eBay Integration",
 The addon can be obtained via the X-Cart App Store.
 ![xc5_ebay_addon_install.png]({{site.baseurl}}/attachments/ref_RgzAH0hf/xc5_ebay_addon_install.png)
 
-To install and enable the addon on your system, follow the general module installation instructions. See {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
-
-As a result, you should have the addon "X-Cart eBay Integration" listed in your store's Installed Addons section:
-![xc5_ebay_module_installed.png]({{site.baseurl}}/attachments/ref_RgzAH0hf/xc5_ebay_module_installed.png)
+To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 
 _Related pages:_
