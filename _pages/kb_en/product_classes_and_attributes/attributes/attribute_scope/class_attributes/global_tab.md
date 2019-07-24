@@ -5,7 +5,7 @@ updated_at: '2019-07-24 11:40 +0400'
 identifier: ref_5wGCmfPI
 title: Product Classes and Class-Attributes Management via Product Details Page
 order: 110
-published: false
+published: true
 ---
 Product classes and product class attributes can be created and managed via the **Attributes** -> **Global** tab of a {% link "product details" ref_2D8wAeXP %} page.
 
