@@ -14,15 +14,10 @@ categories:
 published: true
 ---
 
-To be able to successfully install and use the addon "Fractional and Fixed quantities", you need a working copy of X-Cart 5 installed on your server.
+To start using the addon "Fractional and Fixed quantities", you need to make sure it is installed and enabled. If it is not installed, you can obtain it via the X-Cart App Store.
 
-The addon can be obtained via X-Cart’s Marketplace.
+The general addon installation instructions can be found in the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %} of this manual.
 
-To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
-
-As a result, you should have the addon "Fractional and Fixed quantities" listed in your store's Installed Addons section:
-
-![]({{site.baseurl}}/attachments/9666735/9634070.png)
 
 _Related pages:_
 
