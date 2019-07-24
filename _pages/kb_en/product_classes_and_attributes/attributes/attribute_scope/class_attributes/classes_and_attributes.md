@@ -7,7 +7,7 @@ title: >-
   Product Classes and Class-Attributes Management via the "Classes & Attributes"
   section
 order: 100
-published: false
+published: true
 ---
 When you open the **Classes & Attributes** section (**Catalog** -> **Classes & Attributes**) in the store Admin area for the first time after the software installation, you are most likely to see a screen of the kind:
 
