@@ -11,7 +11,7 @@ published: true
 
 ## Facebook Ads & Instagram Ads addon Installation
    
-To install the **Facebook Ads & Instagram Ads** addon follow the general guides on installing or activating the addon, see the section {% link "Managing addons" ref_gTOegEua %} of this manual.
+To start using the addon **Facebook Ads & Instagram Ads**, you need to make sure it is installed and enabled. General addon installation and activation instructions can be found in the section {% link "Managing addons" ref_gTOegEua %} of this manual.
 
 Once the addon has been activated, a new section will become available in your store's Admin area: **Sales Channels** > **Facebook Ads & Instagram Ads**. 
 
