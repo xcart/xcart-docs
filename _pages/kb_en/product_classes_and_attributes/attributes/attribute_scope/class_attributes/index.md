@@ -12,6 +12,8 @@ redirect_from:
   - /product_classes_and_attributes/managing_product_class_attributes.html
   - >-
     /product_classes_and_attributes/attributes/managing_product_class_attributes.html
+  - >-
+    /product_classes_and_attributes/attributes/attribute_scope/class_attributes.html
 ---
 Product class attributes can be used to set up properties common for a group/class of products.  A store admin can add product classes and product class attributes either manually on a per-product basis or import them in bulk via a .csv file. 
 
