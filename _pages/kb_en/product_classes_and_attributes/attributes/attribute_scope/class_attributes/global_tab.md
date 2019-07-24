@@ -76,43 +76,45 @@ The **Attributes** -> **Global** tab of a product details page gives a store ad
 
 ![pc-attr-product-management.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-product-management.png)
 
-Any changes to the product class attributes via the  **Attributes** -> **Global** tab of a product details page start with locating the required product in the **Products** seciton of the Admin area. Then it's necessary to open the **Attributes** -> **Global** tab of this product details page and check whether the product has the required product class assigned to it. If the product does not have a product class assigned, or needs to be assigned a different product class, take a moment to {% link "assign an appropriate product class to it" ref_EVqNSaZy#assigning-product-classes %}).
+Any changes to the product class attributes via the  **Attributes** -> **Global** tab of a product details page start with locating the required product in the **Products** seciton of the Admin area. Then it's necessary to open the **Attributes** -> **Global** tab of this product details page and check whether the product has the required product class assigned to it. If the product does not have a product class assigned, or needs to be assigned a different product class, take a moment to [assign an appropriate product class to it](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes/global_tab.html#assigning-product-class-attributes-to-products "Product Classes and Class-Attributes Management via Product Details Page").
 
 The page section intended for managing the product class attributes is titled based on the name of the product class according to the pattern "`<Product class name>` attributes" and gives a store admin the tools for adding new attributes to a product class, editing and deleting existing product class attributes.
 
-### Adding New Attributes
+### Adding New Product Class Attributes
 
 To add a new product class attribute: 
-    * make sure a product is assigned with the relevant product class
+    * make sure a product is [assigned to the relevant product class](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes/global_tab.html#assigning-product-class-attributes-to-products "Product Classes and Class-Attributes Management via Product Details Page")
     * click the **Add attribute** button opposite "`<Product class name>` attributes":
       ![pc-attr-add-1.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-1.png)
-    * choose the attribute type in the drop-down:
+    * choose the {% link "attribute value type" ref_5qw116xV %} in the drop-down:
       ![pc-attr-add-2.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-2.png)
     * name the attribute and add attribute options. If necessary you can make {% link "multi-value attribute options " ref_465IZQg9 %} and add {% link "price and weight modifiers" ref_1t4DxHbf %} to them:
       ![pc-attr-add-4.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-4.png)
+
+Click **Save changes** to make the changes active.
         
 ### Editing Product Class Attributes
 
 Editing product class attributes include changing attribute name and options as well as adding new options to existing product class attributes.
 
-   1. To edit the attribute name, hover your cursor over the attribute you want to change (the **Attribute name** field will become visible), click inside the **Attribute name** field and edit the attribute name as you require:
-      ![pc-attr-edit-1.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-edit-1.png)
-   2. To edit the values of product class attribute options (the options that have been added automatically along with the product class assignment):
+1. To edit the attribute name, hover your cursor over the attribute you want to change (the **Attribute name** field will become visible), click inside the **Attribute name** field and edit the attribute name as you require:
+   ![pc-attr-edit-1.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-edit-1.png)
+2. To edit the values of product class attribute options (the options that have been added automatically along with the product class assignment):
       * click on the attribute option name to change it;
         ![pc-attr-edit-2.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-edit-2.png)
       * click on the drop-down errow next to the attribute option name to choose another option from the list of suggested;
         ![pc-attr-edit-3.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-edit-3.png)
       * click on the _Modifiers_ link next to the attribute option name to add {% link "Price and Weight Modifiers" ref_1t4DxHbf %};
         ![pc-attr-edit-4.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-edit-4.png)
-        
         {% note info %}
         In case _Modifiers_ are added to the existing product class attribute option(s) and are applied globally (with the **Apply attribute value changes for all the products** setting enabled) the changes will affect only the products with the corresponding attribute option(s) enabled. All products that has the corresponding attribute option(s) disabled will stay as is.
-        {% endnote %}
-        
+        {% endnote %}  
       * click on the _Trash_ icon opposite the attribute option to delete it.
         ![pc-attr-edit-5.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-edit-5.png)
-    3. To add a new attribute option, locate the unconfigured attribute option line for this attribute (usually the very last empty line in the attribute values list) and either enter the preferred option value directly in the attribute option field or choose a value from the list of suggested using the drop-down errow.
-       ![pc-attr-edit-6.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-edit-6.png)
+3. To add a new attribute option, locate the unconfigured attribute option line for this attribute (usually the very last empty line in the attribute values list) and either enter the preferred option value directly in the attribute option field or choose a value from the list of suggested using the drop-down errow.
+   ![pc-attr-edit-6.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-edit-6.png)
+   
+Click **Save changes** to make the changes active.
         
 ### Deleting Product Class Attributes for a Product
    
@@ -125,7 +127,11 @@ Editing product class attributes include changing attribute name and options as 
    
    To remove the attribute as a whole for all the products within this product class, use the ["Classes  & Attrubutes" page](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes.html#managing-product-class-attributes "Product Class Attributes").
    {% endnote %}
+
+Click **Save changes** to make the changes active.
    
+### Applying Changes Globally or Per-Product
+
 When you are done with the product class attributes management specify whether the changes should be applied to this particular product only or to the product class as a whole (affects all products with this product class assigned):
 
 ![apply-changes-globally.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/apply-changes-globally.png)
