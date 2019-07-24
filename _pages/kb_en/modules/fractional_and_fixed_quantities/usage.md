@@ -13,6 +13,7 @@ categories:
   - Module
 published: true
 ---
+**Important:** The addon “Fractional and Fixed quantities” is deprecated and not supported.
 
 This section explains how to:
 
