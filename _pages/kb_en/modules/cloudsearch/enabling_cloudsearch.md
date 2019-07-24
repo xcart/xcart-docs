@@ -7,10 +7,11 @@ title: Enabling CloudSearch and CloudFilters
 order: 200
 published: true
 ---
-To start using the addon CloudSearch & CloudFilters, enable it in the section **My addons** of your store's Admin area. 
-![cloud_module.png]({{site.baseurl}}/attachments/ref_7qk2On7k/cloud_module.png)
+To enable CloudSearch & CloudFilters in your X-Cart store, you need the addon [CloudSearch - Robust eCommerce Search & Filtering Engine](https://market.x-cart.com/addons/cloudsearch.html). If this addon is installed in your store, you will find it via the **My addons** section of the store's Admin area.
+![cloudsearch_addon.png]({{site.baseurl}}/attachments/ref_7qk2On7k/cloudsearch_addon.png)
+Make sure this addon is {% link "enabled" ref_uEnDBBA7 %}. 
 
-To enable the addon, follow the instructions from the section {% link "Installing and activating addons" ref_0fGEpvrh %} of this manual.
+If the CloudSearch addon is not installed in your store for some reason, you can obtain it from the X-Cart App Store. General instructions for addon installation can be found in the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 After the addon has been enabled, your 30-day free trial of CloudSearch is started automatically. You can view your current CloudSearch trial status or upgrade to paid service via the [CloudSearch Dashboard](https://kb.x-cart.com/modules/cloudsearch/understanding_cloudsearch.html#cloudsearch-dashboard).
 
