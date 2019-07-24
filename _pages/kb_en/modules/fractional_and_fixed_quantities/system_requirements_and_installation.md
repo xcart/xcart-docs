@@ -13,8 +13,9 @@ categories:
   - Module
 published: true
 ---
+{% note warning %} The addon "Fractional and Fixed quantities" is deprecated and not supported. {% endnote %}
 
-To start using the addon "Fractional and Fixed quantities", you need to make sure it is installed and enabled. If it is not installed, you can obtain it via the X-Cart App Store.
+To start using the addon "Fractional and Fixed quantities", you need to make sure it is installed and enabled. 
 
 The general addon installation instructions can be found in the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %} of this manual.
 
