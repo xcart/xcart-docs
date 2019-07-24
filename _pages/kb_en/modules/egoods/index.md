@@ -7,7 +7,7 @@ title: E-goods
 order: 90
 published: true
 ---
-The addon E-goods modifies your X-Cart 5 store so it can be used to sell digitally distributed content (also known as digital goods / e-goods / digital distribution products). Installing this addon does not prevent you from selling tangible products in the same online store.
+The addon [**E-goods**](https://market.x-cart.com/addons/e-goods.html) modifies your X-Cart 5 store so it can be used to sell digitally distributed content (also known as digital goods / e-goods / digital distribution products). Installing this addon does not prevent you from selling tangible products in the same online store.
 
 The addon E-goods extends the functionality of the addon [**File Attachments**](https://market.x-cart.com/addons/file-attachments.html "E-goods") allowing you to specify whether a file uploaded for a product can be accessed from the product page at any time freely, or can be downloaded only after the product has been purchased. 
 
