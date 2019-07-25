@@ -134,7 +134,7 @@ There are many more fields that you can include into your product CSV file. Belo
             <li>images/test.jpg</li>
             <li>images/test/test.jpg</li> 
           </ul>
-        <p>Also note that import of images takes considerably less time if the images to be imported are stored locally on the server. It does not matter if the image path is specified as a URL or as a filepath — X-Cart will try to detect if the URL is local to the server. So, if you need to import a considerable number of images from URLs, you can speed up the process quite a bit simply by saving those images locally on the server inside the folder <code>&lt;XCART-DIRECTORY&gt;/images/product</code>.</p>
+        <p>Also note that import of images takes considerably less time if the images to be imported are stored locally on the server. It does not matter if the image path is specified as a URL or as a filepath — X-Cart will try to detect if the URL is local to the server. So, if you need to import a considerable number of images stored elsewhere, you can speed up the process quite a bit simply by saving those images locally on the server inside the folder <code>&lt;XCART-DIRECTORY&gt;/images/product</code>.</p>
         <br/>
         <p>It is possible to specify more than one images for import by separating the image paths with the '&amp;&amp;' symbols; for example, images/product/image1.png&amp;&amp;images/product/images2.png.</p>
       </td>
@@ -366,7 +366,7 @@ There are many more fields that you can include into your product CSV file. Belo
           <li>path/to/my/files/user-manual.pdf (1 file)</li>
           <li>path/to/my/files/user-manual.pdf&amp;&amp;path/to/my/files/spec.pdf (2 files)</li>
         </ul>
-        <p>Note that import of attachments takes considerably less time if the files to be imported are stored locally on the server with their location specified as a relative path rather than if they are stored somewhere else with their location specified as a URL. If you need to import a considerable number of attachment files from URLs, it may be possible to speed up the process quite a bit simply by saving those files locally on the server and changing the location of those files in the import CSV file from URL to relative paths.</p>
+        <p>Note that import of attachments takes considerably less time if the files to be imported are stored locally on the store server rather than stored elsewhere. If you need to import a considerable number of attachment files stored away from the store server, it may be possible to speed up the process quite a bit simply by saving those files locally on the server and changing the location of those files in the import CSV file accordingly.</p>
       </td>
       <td colspan="1" class="confluenceTd">
         <p>String,
