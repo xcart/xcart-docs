@@ -136,7 +136,7 @@ There are many more fields that you can include into your product CSV file. Belo
           </ul>
         <p>Also note that import of images takes considerably less time if the images to be imported are stored locally on the server. It does not matter if the image path is specified as a URL or as a filepath — X-Cart will try to detect if the URL is local to the server. So, if you need to import a considerable number of images from URLs, you can speed up the process quite a bit simply by saving those images locally on the server inside the folder <code>&lt;XCART-DIRECTORY&gt;/images/product</code>.</p>
         <br/>
-        <p>Also, it is possible to specify more than one images for import by separating the image paths with the '&amp;&amp;' symbols; for example, images/product/image1.png&amp;&amp;images/product/images2.png.</p>
+        <p>It is possible to specify more than one images for import by separating the image paths with the '&amp;&amp;' symbols; for example, images/product/image1.png&amp;&amp;images/product/images2.png.</p>
       </td>
       <td colspan="1" class="confluenceTd">String,
         <br>Multiple&nbsp;</td>
