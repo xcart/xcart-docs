@@ -35,6 +35,7 @@ _In this section:_
 *   {% link "Bundle Products" ref_1nuTw4Kc %}
 *   {% link "Call for Price" ref_3K1pJExV %}
 *   {% link "Canada Post" ref_ifwLo5ks %}
+*   {% link "Canadian Taxes" ref_08gXAvpC %}
 *   {% link "Catalog" ref_3eMIyNpG %}
 *   {% link "CloudSearch and CloudFilters" ref_3MF4RL7z %}
 *   {% link "Color Swatches" ref_4bXaF5qJ %}
@@ -52,7 +53,7 @@ _In this section:_
 *   {% link "FedEx" ref_58tOKWMt %}
 *   {% link "File Attachments" ref_0ZWKcob4 %}
 *   {% link "Flyout Categores Menu" ref_6KutUhlR %}
-*   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
+*   {% link "Fractional and Fixed quantities" ref_FnFqIndex %} (Deprecated)
 *   {% link "Free Shipping and Shipping freights" ref_4Bfeegp9 %}
 *   {% link "Geolocation" ref_34F5BkhW %}
 *   {% link "Gift Wrapping" ref_3eTR6n0m %}
@@ -71,6 +72,7 @@ _In this section:_
 *   {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
 *   {% link "Make/Model/Year" ref_0Esu2RNW %}
 *   {% link "Market Price" ref_66scBj0f %}
+*   {% link "Messages" ref_0pnZpHq3 %}
 *   {% link "Multicurrency" ref_2tPJubPU %}
 *   {% link "Multilevel Primary Menu" ref_3yEqhwsC %}
 *   {% link "Multisite" ref_6Hts2zUf %} [by MercuryMinds](https://market.x-cart.com/mercuryminds-technologies.html)
@@ -95,6 +97,7 @@ _In this section:_
 *   {% link "Product Tags" ref_6nFoxYf1 %}
 *   {% link "Product Variants" ref_4OTLafuC %}
 *   {% link "Related Products" ref_4a5rpsQq %}
+*   {% link "Register on Checkout" ref_1IYxME8O %}
 *   {% link "RTL Languages Support" ref_3vEHzhPP %}
 *   {% link "Sale" ref_7tBJ8Yqo %}
 *   {% link "Sales Tax" ref_7fGmqgPE %}
@@ -119,6 +122,7 @@ _In this section:_
 *   {% link "U.S.P.S." ref_158tuAaD %}
 *   {% link "Value Added Tax / Goods and Services Tax " ref_0GjdgNJx %}
 *   {% link "Variants Table View" ref_7FeW8hHv %}
+*   {% link "Value Added Tax / Goods and Services Tax" ref_0GjdgNJx %}
 *   {% link "Volume Discounts" ref_3JbpQrPF %}
 *   {% link "Wholesale" ref_ttZa4qgu %}
 *   {% link "Wishlist" ref_60uS71VK %}
