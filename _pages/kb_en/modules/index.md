@@ -96,8 +96,9 @@ _In this section:_
 *   {% link "Product Stickers" ref_2O2hXMhF %}
 *   {% link "Product Tags" ref_6nFoxYf1 %}
 *   {% link "Product Variants" ref_4OTLafuC %}
-*   {% link "Related Products" ref_4a5rpsQq %}
 *   {% link "Register on Checkout" ref_1IYxME8O %}
+*   {% link "Related Products" ref_4a5rpsQq %}
+*   {% link "Royal Mail Service" ref_2gtSkN9y %}
 *   {% link "RTL Languages Support" ref_3vEHzhPP %}
 *   {% link "Sale" ref_7tBJ8Yqo %}
 *   {% link "Sales Tax" ref_7fGmqgPE %}
