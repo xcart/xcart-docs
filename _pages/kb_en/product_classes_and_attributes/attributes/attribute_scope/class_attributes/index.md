@@ -32,7 +32,7 @@ _In this section:_
 
 *   {% link "Product Classes and Class-Attributes Management via the "Classes &amp; Attributes" section" ref_2ydGVBck %}
 *   {% link "Product Classes and Class-Attributes Management via Product Details Page" ref_5wGCmfPI %}
-*  Import of Product Class Attibutes (under construction)
+*  {% link "Import of Product Class Attributes" ref_1Vcnpxb1 %}
 
 
 _Related pages:_
