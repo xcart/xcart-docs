@@ -10,6 +10,7 @@ published: true
 order: 110
 ---
 The addon Product Feeds can be obtained from the X-Cart App Store. To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![product_feeds_addon.png]({{site.baseurl}}/attachments/ref_UEb13T0k/product_feeds_addon.png)
 
 Once the addon has been installed and enabled, you can adjust the addon settings:
 ![settings-2.png]({{site.baseurl}}/attachments/ref_UEb13T0k/settings-2.png)
