@@ -9,12 +9,12 @@ published: true
 redirect_from:
   - /modules/pin_codes/setup.html
 ---
-To install the addon PIN Codes, follow the instructions from {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}.
+Before you start using PIN codes, you need to make sure the addon **PIN codes** is installed and {% link "enabled" ref_uEnDBBA7 %}.
+![pin_codes_addon.png]({{site.baseurl}}/attachments/ref_5uEPaGnt/pin_codes_addon.png)
 
-Once the addon has been enabled, proceed to the addon settings page:
-![settings-1.png]({{site.baseurl}}/attachments/ref_5uEPaGnt/settings-1.png)
-
-You will see a screen like the following:
+If the addon is not installed in your store, you can obtain it from the X-Cart App Store. See {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+ 
+Once the addon has been installed and enabled, you need to configure the addon settings.
 ![settings-2.png]({{site.baseurl}}/attachments/ref_5uEPaGnt/settings-2.png)
 
 The following settings can be adjusted:
