@@ -7,11 +7,8 @@ title: '"Messages" Addon: System Requirements and Installation'
 order: 200
 published: true
 ---
+To enable the messaging functionality in your store, you need to enable the addon **Messages**. If this addon is not installed on your system, it can be obtained from the X-Cart App Store. To install and enable the addon on your system, follow the general addon installation instructions in the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
-The addon **Messages** can be obtained via X-Cart’s Marketplace. To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
-
-As a result, you should have the addon "Messages" listed in your store's Installed Addons section:
-![msgs_module_installed.png]({{site.baseurl}}/attachments/ref_4tbCTp5V/msgs_module_installed.png)
 
 
 _Related pages:_
