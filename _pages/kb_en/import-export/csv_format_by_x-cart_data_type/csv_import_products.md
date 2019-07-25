@@ -119,10 +119,20 @@ There are many more fields that you can include into your product CSV file. Belo
       <td colspan="1" class="confluenceTd">
         <p>For any image that needs to be imported, you need to specify the image location. This can be one of the following:</p>
         <ul>
-          <li>Image URL (can be local to the X-Cart server)</li>
-          <li>Path to the image on the server relative to the <code>&lt;XCART-DIRECTORY&gt;</code> folder; for example, <code>images/product/image1.png</code></li>
+          <li>Image URL (can be local to the X-Cart server);</li>
+          <li>Path to the image on the server relative to the <code>&lt;XCART-DIRECTORY&gt;</code> folder; for example, <code>images/product/image1.png</code>.</li>
         </ul>
-        <p>Note that import of images takes considerably less time if the images to be imported are stored locally on the server. It doesn't matter if image path is specified as URL or filepath — X-Cart will try to detect if the URL is local to the server. So, if you need to import a considerable number of images from URLs, you can speed up the process quite a bit simply by saving those images locally on the server inside <code>&lt;XCART-DIRECTORY&gt;/images</code> folder.</p>
+        <p>Note that if you require to store images for import inside the "images" folder of your X-Cart store installation, they must be placed inside the folder "images/product" or a subfolder of "images/product"; X-Cart will not be able to import images stored in the folder "images" outside the subfolder "images/product". It will be able, however, to import images stored in other locations within your <code>&lt;XCART-DIRECTORY&gt;</code> folder, outside of the folder "images".</p>
+        <ul>
+          <li>Correct:</li>
+          <li>images/product/test.jpg
+          <li>images/product/test/test.jpg
+          <li>images1/test.jpg
+          <li>Incorrect:
+          <li>images/test.jpg
+          <li>images/test/test.jpg 
+         </ul>
+        <p>Also note that import of images takes considerably less time if the images to be imported are stored locally on the server. It does not matter if the image path is specified as a URL or as a filepath — X-Cart will try to detect if the URL is local to the server. So, if you need to import a considerable number of images from URLs, you can speed up the process quite a bit simply by saving those images locally on the server inside the folder <code>&lt;XCART-DIRECTORY&gt;/images/product</code>.</p>
         <br/>
         <p>Also, it is possible to specify more than one images for import by separating the image paths with the '&amp;&amp;' symbols; for example, images/product/image1.png&amp;&amp;images/product/images2.png.</p>
       </td>
