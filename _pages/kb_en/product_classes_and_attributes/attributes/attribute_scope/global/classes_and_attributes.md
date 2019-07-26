@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-07-26 13:55 +0400'
 identifier: ref_4ARLM9v7
-title: Managing Global Attributes via the "Classes and Attributes" Section
+title: Global Attributes Management via the "Classes and Attributes" Section
 order: 100
 published: true
 ---
