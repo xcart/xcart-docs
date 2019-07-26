@@ -1,12 +1,13 @@
 ---
-identifier: ref_9v2iKQ2a
-updated_at: 2014-08-07 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Establishing connections between the plugin and Shopgate'
+layout: article_with_sidebar
+updated_at: '2014-08-07 00:00'
+identifier: ref_9v2iKQ2a
+title: Establishing connections between the plugin and Shopgate
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -15,12 +16,20 @@ After the Shopgate plugin has been installed successfully, two simple tasks ne
 ## Getting API credentials
 
 1.  Log in to your [Shopgate Admin](https://admin.shopgate.com/) page.
-2.  Click on ![](attachments/7505735/7602831.png)Integration from the menu bar, then select ![](attachments/7505735/7602832.png) Install Interface. ![]({{site.baseurl}}/attachments/7505735/7602833.png)
 
-3.  In the drop-down box labeled **Select a system**, type _X-Cart_ and select it.![]({{site.baseurl}}/attachments/7505735/7602834.png)
+2.  Click on Integration from the menu bar, then select Install Interface. 
+    ![]({{site.baseurl}}/attachments/7505735/7602833.png)
 
-4.  A popup opens. Look for **Customer number**, **Shop number**, **API** **key**, and** Alias **under **2\. Configure_. _**These are the API credentials the plugin needs to authenticate at the Shopgate backend. Leave this page open - we will come back to enter the URL (explained in the {% link "Connecting your store to Shopgate" ref_9v2iKQ2a %} section below).![]({{site.baseurl}}/attachments/7505735/7602835.png)
-5.  Copy **Customer number**, **Shop number**, **API** **key**, and** Alias,**and paste them individually onto the "Shopgate - Mobile Commerce" module configuration page you left open from the last chapter. Copy the URL at the bottom of the page to a text editing file - you will need this in the next step. The rest of the options can be configured later (This is explained in the {% link "Configuring the «Shopgate - Mobile Commerce» module" ref_LPT5lDvl %} section). Click **Submit**. ![]({{site.baseurl}}/attachments/7505735/7602836.png)
+3.  In the drop-down box labeled **Select a system**, type _X-Cart_ and select it.
+    ![]({{site.baseurl}}/attachments/7505735/7602834.png)
+
+4.  A popup opens. Look for **Customer number**, **Shop number**, **API** **key**, and **Alias** under **2\. Configure_.** These are the API credentials the plugin needs to authenticate at the Shopgate backend. Leave this page open - we will come back to enter the URL (explained in the {% link "Connecting your store to Shopgate" ref_9v2iKQ2a %} section below).
+    ![]({{site.baseurl}}/attachments/7505735/7602835.png)
+
+5.  Copy **Customer number**, **Shop number**, **API** **key**, and **Alias**, and paste them individually onto the "Shopgate - Mobile Commerce" addon configuration page you left open from the last chapter. Copy the URL at the bottom of the page to a text editing file - you will need this in the next step. The rest of the options can be configured later (This is explained in the section {% link "Configuring the «Shopgate - Mobile Commerce» Addon" ref_LPT5lDvl %}). 
+
+6. Click **Submit**. 
+   ![]({{site.baseurl}}/attachments/7505735/7602836.png)
 
 ## Connecting your store to Shopgate
 
@@ -38,4 +47,4 @@ After the Shopgate plugin has been installed successfully, two simple tasks ne
 _Related pages:_
 
 *   {% link "Getting started with «Shopgate - Mobile Commerce»" ref_ifsTnMAq %}
-*   {% link "Configuring the «Shopgate - Mobile Commerce» module" ref_LPT5lDvl %}
+*   {% link "Configuring the «Shopgate - Mobile Commerce» Addon" ref_LPT5lDvl %}
