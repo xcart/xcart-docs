@@ -84,31 +84,71 @@ To add a group to global attributes:
 
 Now you can use these goups when [creating global attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes/classes_and_attributes.html#adding-product-class-attributes-to-product-classes "Product Class Attributes").
 
-## Editing Global Attributes
+## Managing Global Attributes 
 
-Sometimes you may need to change the name and/or values of a global attribute. You can do so using one of the following methods:
+A store admin can check the list of global attributes and manage them on a global attributes listing page in the **Classes & attributes** section of the Admin area (**Catalog > Classes & attributes**).
 
-**Method 1:**
+{% note info %}
+All changes applied to global attributes via the **Classes & attributes** section of the Admin area are applied store-wide and will affect all products with the related global attribute enabled.
+{% endnote %}
 
-1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  Click on the Edit attributes (N) link opposite the **Global attributes** title:
-    ![]({{site.baseurl}}/attachments/7504857/8719313.png)
-    This opens a page where you will be able to manage your store's global attributes.
-3.  In the list of global attributes, locate the attribute you need to edit and hover your cursor over its name. The **Attribute name** field will become visible and an **Edit** button will be displayed next to it:
-    ![]({{site.baseurl}}/attachments/7504857/8719315.png)
-4.  If you just need to change the attribute name, click inside the **Attribute name** field and edit the attribute name as you require. If you need to change the attribute values (or both the attribute name and values), click the **Edit** button; this will open a popup titled **Edit attribute values** where you will be able make the necessary changes.
-5.  If you want some or all of the attribute value(s) to be applied automatically to all the products that will be created in your store in future, be sure to "enable" the Check mark icon(s) opposite the names of these attribute values (the Check mark icons should turn green).
-6.  Once you're done editing, click **Save changes**.
+To view the list of global attributes configured in the store it's necessary to open the **Classes & Attributes** section and click on the link _Edit attributes (N)_ opposite the Global attributes line (here **N** stands for a number of global attributes configured in the store).
 
-## Deleting Global Attributes
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![ga-listing.png]({{site.baseurl}}/attachments/ref_HzMkgc0q/ga-listing.png)</div>
+  <div class="column" markdown="span">![ga-listing-1.png]({{site.baseurl}}/attachments/ref_HzMkgc0q/ga-listing-1.png)</div>
+</div>
 
-Sometimes you may need to delete a global attribute. You can do so using one of the following methods:
+On the global attributes listing page gives a store admin the tools to edit global attribute name and configuration, add global attributes to filters in the storefront, re-arrange and delete global attributes. 
 
-**Method 1:**
+### Editing Global Attributes
 
-1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  Click on the Edit attributes (N) link opposite the **Global attributes** title.
-    This opens a page where you will be able to manage your store's global attributes.
-3.  In the list of global attributes, locate the attribute you need to delete and click on the **Trash **icon opposite its name. The attribute will be marked for deletion.
-4.  Click **Save changes**.
-    The attribute will be deleted from the list of your store's global attributes and will be removed from the details of all products.
+Sometimes you may need to change the name and/or values of a global attribute. 
+
+1.  On the global attributes listing page, locate the attribute you need to edit and hover your cursor over its name. 
+2.  If you just need to change the attribute name, click inside the **Attribute name** field and edit the attribute name as you require. 
+    ![ga-edit-2.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-edit-2.png)
+3. If you need to change the attribute values (or both the attribute name and values), click the **Edit** button:
+   ![ga-edit-1.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-edit-1.png)
+   This will open a popup titled **Edit attribute values** where you will be able make the necessary changes:
+   ![ga-edit-3.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-edit-3.png)
+   * If you want some or all of the attribute options(s) to be applied automatically to all the products in your store, be sure to "enable" the check-mark icon opposite the names of the related attribute options (the check-mark icons should turn green):
+     ![ga-edit-4.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-edit-4.png)
+   * If you want to change the attribute options sorting use the **Cross** icons to re-arrange the values by grag-n-groping them:
+      ![ga-edit-5.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-edit-5.png)
+   * If you want to apply the new sorting to all products that has this global attribute assigned, enable the **Apply sorting globally** checkbox:
+     ![ga-edit-6.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-edit-6.png)
+     The **Apply sorting globally** setting affects the "active" attribute options only, i.e. the options that are marked with a green check-box and are automatically assigned to all products.
+4.  Once you're done editing, click **Save changes**.
+
+### Adding Global Attirbute(s) to Filters
+
+{% note info%}
+The feature works only with the {% link "Product Filter" ref_6e82A7rL %} addon enabled and configured.
+{% endnote %}
+   
+Use the **Funnel with eye** icon opposite the global attribute name on the global attributes listing page to make this attribute visible in the product filters in the storefront. 
+
+![ga-filters-1.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-filters-1.png)
+
+By default all available global attributes are visible in filters. To remove an attribute from filters click on the **Funnel with eye** icon opposite the global attribute name(s). The icon will turn grey.
+
+**Save changes** when you are done.
+   
+### Re-Arranging Global Attribute(s)
+   
+Change the attributes order of appearance by drag-n-dropping the attributes with the help of a **Cross** icon on the global attributes listing page.
+
+![ga-rearrange-1.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-rearrange-1.png)
+
+**Save changes** when you are done.
+
+### Deleting Global Attributes
+
+Use the **Trash** icon opposite a global attribute name to mark the respective attribute for deletion on the global attributes listing page.
+
+![ga-delete-1.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-delete-1.png)
+
+Don't forget to **Save changes** when you are done with the attributes management.
+
+The attribute will be deleted from the list of your store's global attributes and will be removed from the details of all products.
