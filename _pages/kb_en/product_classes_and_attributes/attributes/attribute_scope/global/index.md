@@ -27,7 +27,11 @@ However, if necessary it's also possible to create and manage global attributes 
 
 ![ga-product-details.png]({{site.baseurl}}/attachments/ref_HzMkgc0q/ga-product-details.png)
 
+_In this section:_
 
+*  {% link "Global Attributes Management via the "Classes and Attributes" Section" ref_4ARLM9v7 %}
+*  Global Attributes Management via Product Details Page (under construction)
+*  Import of Global Attributes (under construction)
 
 
 _Related pages:_
