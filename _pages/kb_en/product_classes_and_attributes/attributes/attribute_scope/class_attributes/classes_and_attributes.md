@@ -130,7 +130,7 @@ To edit a product class attribute:
          ![pc-attr-management-5.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-5.png)
       * If you want to apply the new sorting to all products that has this product class assigned by far, enable the **Apply sorting globally** checkbox:
         ![pc-attr-management-7.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-7.png)
-        The **Apply sorting globally** setting affect the "active" attribute values only, i.e. the values that are marked with a green check-box and are automatically assigned to all products within this product class.
+        The **Apply sorting globally** setting affects the "active" attribute values only, i.e. the values that are marked with a green check-box and are automatically assigned to all products within this product class.
 
 4. Once you're done editing, click **Save changes**.
 
@@ -158,7 +158,7 @@ Change the attributes order of appearance by drag-n-dropping the attributes with
    
 ### Deleting Product Class Attribute(s)
 
-Use the **Trash** icon opposite a product class attribute name to marked the respective attribute for deletion on the product class details page.
+Use the **Trash** icon opposite a product class attribute name to mark the respective attribute for deletion on the product class details page.
 
 ![pc-attr-trash.png]({{site.baseurl}}/attachments/ref_2ydGVBck/pc-attr-trash.png)
 
