@@ -5,7 +5,7 @@ updated_at: '2019-07-24 11:36 +0400'
 identifier: ref_2ydGVBck
 title: >-
   Product Classes and Class-Attributes Management via the "Classes & Attributes"
-  section
+  Section
 order: 100
 published: true
 ---
@@ -15,7 +15,7 @@ When you open the **Classes & Attributes** section (**Catalog** -> **Classes & A
 
 Here you see 1 sample {% link "global attribute" ref_HzMkgc0q %} and 3 sample product classes with attributes configured for them. 
 
-The **Classes & Attributes** section (**Catalog** -> **Classes & Attributes**) section of the Admin area gives a store admin the tools to create a product class, add attribute(s) or attribute groups to it, configure product class attributes, edit product class and product class attribute names and delete both product classes and product class attributes. 
+The **Classes & Attributes** section (**Catalog** -> **Classes & Attributes**) of the Admin area gives a store admin the tools to create a product class, add attribute(s) or attribute groups to it, configure product class attributes, edit product class and product class attribute names and delete both product classes and product class attributes. 
 
 {% note warning %}
 Product classes creation and management via the **Classes & Attributes** section (**Catalog** -> **Classes & Attributes**) of the store Admin area is described in the {% link "Product Classes" ref_7bb4uhwg %} section of our Knowledge Base. 
