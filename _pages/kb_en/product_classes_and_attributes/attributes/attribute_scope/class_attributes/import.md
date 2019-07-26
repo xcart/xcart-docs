@@ -66,13 +66,13 @@ The rest of the fields are optional. More info on the fields and field values th
 A products.csv file is a general file for importing all product related info and contains all possible info about a product that may be imported into a store. Using products.csv it's possible to create product classes and product class attributes and assign them to products, but the file itself so big that it's easier and less confusing to use the other 2 ways of importing product classes and product class attributes instead. The products.csv file is good when you need to import product classes and product class attributes along with the rest of the product info.
 
 Let's consider the sample below:
-![products-csv.png]({{site.baseurl}}/attachments/ref_1Vcnpxb1/products-csv.png)
+![products-csv-1.png]({{site.baseurl}}/attachments/ref_1Vcnpxb1/products-csv-1.png)
 
 A field that defines whether a product has a product class assigned to it is the `productClass` field. The product class attribute options are defined by the fields of the `[attribute_name]: (field:class)` format, where `[attribute_name]` stands for a name of a product class attribute. The `[attribute_name]: (field:class)` field can be multivalue, the options being devided with **&&** from each other, and have price modifiers applied. If a product class attribute belongs to a group of attributes the field format will be `[attribute_name]: (field:class)>>>[group_name]`.
 
 The minimum required fields to import product classes and product class attributes via a products.csv file are **sku**, **name**, **productClass**, **[attribute_name]: (field:class)**. 
 
 A products.csv file to import product classes and product class attrinutes may look as a screen below:
-![product-csv-1.png]({{site.baseurl}}/attachments/ref_1Vcnpxb1/product-csv-1.png)
+![products-csv.png]({{site.baseurl}}/attachments/ref_1Vcnpxb1/products-csv.png)
 
 More info on the fields and field values that can be used in the products.csv file you can fild in the {% link "CSV Import: Products" ref_WmJBfwxA %} guide.
