@@ -53,15 +53,15 @@ To add attribute(s) to an existing product class via the **Classes & Attributes*
         {% endnote %}
 5.  Click **Next**. The attribute should be saved. 
     
-    Now the popup is expanded so you can add/edit the values for this attribute:
+    Now the popup is expanded so you can add/edit the options for this attribute:
     ![pc-attr-add-attribute-4.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-attribute-4.png)
-6.  Click **New value** to configure the attribute values depending on the chosen {% link "attribute value field type" ref_5qw116xV %}. Add as many attribute values as you need.
+6.  Click **New value** to configure the attribute options depending on the chosen {% link "attribute value field type" ref_5qw116xV %}. Add as many attribute options as you need.
     
     The screen below demonstrates adding a plain field value: 
     ![pc-attr-add-attribute-5.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-attribute-5.png)
-7.  If you want some or all of the attribute value(s) you added for this product class to be applied automatically to all the products this product class will be assigned to in future, click the check-mark icon opposite the names of the related attribute values (the check-mark icon should turn green): 
+7.  If you want some or all of the attribute option(s) you added for this product class to be applied automatically to all the products this product class will be assigned to in future, click the check-mark icon opposite the names of the related attribute options (the check-mark icon should turn green): 
     ![pc-attr-add-attribute-6.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-attribute-6.png)
-8.  Once you're done with editing the attribute values, save the changes using the **Save changes** button:
+8.  Once you're done with editing the attribute options, save the changes using the **Save changes** button.
    
     The attribute(s) will be added to the list of attributes of the related product class.
     ![pc-attr-add-attribute-7.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-attribute-7.png)
