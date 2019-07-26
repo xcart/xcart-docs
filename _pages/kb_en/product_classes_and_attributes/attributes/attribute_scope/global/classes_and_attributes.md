@@ -16,45 +16,47 @@ To view the list of global attributes configured in the store it's necessary to 
   <div class="column" markdown="span">![ga-listing-1.png]({{site.baseurl}}/attachments/ref_HzMkgc0q/ga-listing-1.png)</div>
 </div>
 
-The global attributes listing page allows to add new, edit and delete existing global attributes.
+The global attributes listing page allows to add new and manage existing global attributes as well as to group global attributes if required.
 
 {% toc %}
 
 ## Adding Global Attributes
 
-When using this method, you configure global attributes via the Classes & attributes section (**Catalog > Classes & attributes**) of the Admin area.
+To add a new global attribute:
 
-The process is as follows:
-
-1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  Click on the Edit attributes (N) link opposite the **Global attributes** title:
-    ![]({{site.baseurl}}/attachments/7504857/8719294.png)
+1.  In your store's Admin area, go to the **Classes & attributes** section (**Catalog > Classes & attributes**).
+2.  Click on the _Edit attributes (N)_ link opposite the **Global attributes** title:
+    ![ga-listing.png]({{site.baseurl}}/attachments/ref_HzMkgc0q/ga-listing.png)
     This opens a page where you will be able to manage global attributes:
-    ![]({{site.baseurl}}/attachments/7504857/8719295.png)
+    ![ga-listing-1.png]({{site.baseurl}}/attachments/ref_HzMkgc0q/ga-listing-1.png)
 3.  On this page, click **New attribute**:
-    ![]({{site.baseurl}}/attachments/7504857/8719296.png)
+    ![ga-add-attribute-1.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-add-attribute-1.png)
     A popup titled **New attribute** appears:
-    ![]({{site.baseurl}}/attachments/7504857/8719297.png)
+    ![ga-add-attribute-2.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-add-attribute-2.png)
 4.  Use the fields of the **New attribute** popup to provide information about the new attribute. Specify the following information:
 
     *   **Attribute**: Attribute name.
-    *   **Attribute group**: (Specify this if you want to assign the new attribute to some attribute group) Name of the attribute group.
+    *   **Attribute group**: Select a group name from the drop-down if this is applicable.
+        {% note info %}
+        Use the Adding Groups to Global Attributes part of this guide to learn how to join attributes into groups.
+        {% endnote %}
     *   **Type**: Attribute value type (_Plain field_, _Textarea_, _Yes/No_, _Hidden field_).
-        ![attribute-type.png]({{site.baseurl}}/attachments/ref_HzMkgc0q/attribute-type.png)
-5.  Click **Next**. The attribute should be saved. Now the popup is expanded so you can edit attribute values:
-    ![]({{site.baseurl}}/attachments/7504857/8719299.png)
-6.  Configure the attribute values you require (See {% link "Managing attribute values" ref_bTfJ9bTS %} for more info). 
+        {% note info %}
+        To choose a proper attribute value type for your attribute refer to the guides from {% link "Attribute Value Field Types" ref_5qw116xV %}.
+        {% endnote %}
+5.  Click **Next**. The attribute should be saved. Now the popup is expanded so you can edit attribute options:
+    ![ga-add-attribute-3.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-add-attribute-3.png)
+6.  Configure the attribute options depending on {% link "the chosen attribute value field type" ref_5qw116xV %}. Add as many attribute options as you need.
+    ![ga-add-attribute-4.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-add-attribute-4.png)
     
-    In our example, we need to add values for the attribute "Color"; these will be "Orange", "Blue", etc - we simply need to name all the colors for all the products that will use this global attribute. The snapshot below demonstrates adding the value "Orange": 
-    ![]({{site.baseurl}}/attachments/7504857/8719300.png)
+7.  If you want some or all of the option(s) you added for this global attribute to be assigned automatically to all the products in your store's catalog, click the check-mark icon opposite the names of the related attribute options (the check-mark icons should turn green): 
+    ![ga-add-attribute-4-1.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-add-attribute-4-1.png)
+8.  Once you're done editing the attribute options, save the changes using the **Save changes** button.
     
-7.  If you want some or all of the value(s) you added for this global attribute to be applied automatically to all the products that will be added to your store's catalog in future, click the Check mark icon(s) opposite the names of these attribute values (the Check mark icons should turn green): 
-    ![]({{site.baseurl}}/attachments/7504857/8719301.png)
-8.  Once you're done editing the attribute values, save the changes using the **Save changes** button:
-    ![]({{site.baseurl}}/attachments/7504857/8719302.png)
-    The attribute value(s) should be saved. 
+    The attribute options(s) should be saved and added to the global attributes list:
+    ![ga-add-attribute-5.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-add-attribute-5.png)
 
-    You have added a global attribute "Color". If at step 7 you chose to enable the Check mark icon for any attribute values, these values will be assigned automatically to all new products that will be created in your store. Any products that already existed before you saved the new attribute values will not get these values automatically; if you need the new attribute values to be assigned to existing products as well, you can visit the **Attributes** tab of such products and assign the attribute values you require manually (You can also use the "Apply value changes globally" feature to assign attribute values globally to all the existing products) .
+If at step 7 you chose to enable the check-mark icon for any attribute option, the related options will be assigned automatically to all existing products in your store. 
 
 ## Editing Global Attributes
 
