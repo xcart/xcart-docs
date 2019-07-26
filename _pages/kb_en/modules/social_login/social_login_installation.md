@@ -9,9 +9,9 @@ categories:
 published: true
 order: 100
 ---
-The addon Social Login is included in X-Cart 5 Business edition. 
+To start using Social Login on your system, you need to make sure the addon Social Login is installed and enabled. 
 
-To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+The general addon installation instructions are available in the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 _Related pages:_
 
