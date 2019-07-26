@@ -10,7 +10,7 @@ redirect_from:
   - /products/product_reviews.html
 ---
 The addon **Product reviews** (included in X-Cart business) enables the product ratings and reviews feature for your X-Cart store.
-    ![xc5_productreviews_module.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_module.png)
+   ![product_reviews_addon.png]({{site.baseurl}}/attachments/ref_XBriIS6B/product_reviews_addon.png)
 
 With this addon, customers can leave feedback for the products they purchased and see what other buyers think about the products and the store. 
 
