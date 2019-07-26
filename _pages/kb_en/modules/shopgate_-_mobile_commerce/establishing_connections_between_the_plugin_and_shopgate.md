@@ -9,8 +9,6 @@ categories:
 published: true
 order: 100
 ---
-
-
 After the Shopgate plugin has been installed successfully, two simple tasks need to be done to connect your mobile shop at Shopgate to your X-Cart store's backend: to enter API credentials in your X-Cart store's backend, and to enter your X-Cart store's URL in your Shopgate's admin page.
 
 ## Getting API credentials
