@@ -9,9 +9,7 @@ categories:
 published: true
 order: 100
 ---
-
-
-Here you can find detailed explanations to all configuration fields provided on the configuration page of the plugin. 
+Here you can find a detailed explanation to all the settings provided on the plugin configuration page. 
 
 ![]({{site.baseurl}}/attachments/7505737/7602830.png)
 
