@@ -14,11 +14,9 @@ X-Cart's addon ShippingEasy requires the SEO-friendly URLs feature for correct
 
 To integrate your X-Cart store with ShippingEasy, complete the following steps:
 
-1.  {% link "Install the ShippingEasy Addon" ref_KF7JDnSv %} in your X-Cart store. As a result, you should have the module ShippingEasy listed in your store's Installed Modules section (**Extensions** > **Installed modules**). 
-2.  Сlick the _Settings_ link for 'ShippingEasy':
-    ![shippingeasy-settings.png]({{site.baseurl}}/attachments/ref_KhhQlZLM/shippingeasy-settings.png)
+1.  Go to the **My addons** section of your X-Cart store Admin area and make sure the addon ShippingEasy is {% link "installed and enabled" ref_KF7JDnSv %}.
 
-    You should now see the ShippingEasy addon settings page:
+2.  Сlick the _Settings_ link for 'ShippingEasy'. You should now see the ShippingEasy addon settings page:
     ![shippingeasy-module-settings.png]({{site.baseurl}}/attachments/ref_KhhQlZLM/shippingeasy-module-settings.png)
 
 3.  At the top of the ShippingEasy addon settings page you should be able to see a link that says **View details and get your API credentials here**. If you do not yet have an account with [ShippingEasy](http://shippingeasy.com/integrate-your-shipping-for-xcart-with-the-shippingeasy-app/?se-ref=96), you can follow this link to sign up. For detailed information on creating a ShippingEasy account, see the [How to create a ShippingEasy account](https://support.shippingeasy.com/entries/23453187-How-to-Create-a-ShippingEasy-account "https://support.shippingeasy.com/entries/23453187-How-to-Create-a-ShippingEasy-account") guide on the ShippingEasy website.
