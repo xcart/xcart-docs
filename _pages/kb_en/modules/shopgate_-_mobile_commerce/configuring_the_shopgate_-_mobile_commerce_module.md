@@ -9,6 +9,9 @@ categories:
 published: true
 order: 100
 ---
+**Important:** The addon "Shopgate - Mobile Commerce" is currently deprecated and not supported.
+
+
 Here you can find a detailed explanation to all the settings provided on the plugin configuration page. 
 
 ![]({{site.baseurl}}/attachments/7505737/7602830.png)
