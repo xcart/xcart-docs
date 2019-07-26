@@ -9,15 +9,11 @@ categories:
 published: true
 order: 110
 ---
-To be able to successfully install and use the ShippingEasy addon, you need a working copy of X-Cart 5 installed on your server.
+The addon ShippingEasy can be obtained via the X-Cart App Store.
 
-For correct operation, the addon requires the {% link "SEO-friendly URLs" ref_nJxrzFEZ %} feature to be enabled at your store. 
+To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
-The addon can be obtained via X-Cart’s Marketplace.
-
-To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
-
-As a result, you should have the module ShippingEasy listed in your store's Installed Addons section (**Extensions > Installed modules**). 
+For correct operation, the addon ShippingEasy requires the {% link "SEO-friendly URLs" ref_nJxrzFEZ %} feature to be enabled at your store. 
 
 _Related pages:_
 
