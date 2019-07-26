@@ -7,18 +7,18 @@ title: 'Special Offer: Buy X Get Y'
 order: 100
 published: true
 ---
-The addon 'Buy X Get Y' works with the products added to cart and gives a customer a discount if certain items are bought. The addon encourages customers to buy from a certain category/subcategory to win a price. The Buy X Get Y offer is especially good when you need to force sales of particular SKUs in your store. 
+The addon [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Buy X Get Y") works with the products added to cart and gives a customer a discount if certain items are bought. The addon encourages customers to buy from a certain category/subcategory to win a price. The Buy X Get Y offer is especially good when you need to increase sales of particular SKUs in your store. 
 
-The addon is included into the Ultimate software package. If you run Business, you can buy the [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Buy X Get Y") addon and install it as described in {% link "How to Install Addons in X-Cart 5" ref_fTUahl4n %}. 
+Depending on the X-Cart edition you are using, the addon 'Buy X Get Y' may already be installed in your store. If not, you can obtain it from the X-Cart App Store. To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
 
-Once installed the addon functionality will become available in the 'Discounts: Special Offers' section of the cart admin area (Figure 1). Along with the addon itself you'll see 2 samples 'Sample: Get 1 of every 3 items with 50% discount' and 'Sample: Get every second item for free' that illustrate the basic configuration principles.
+Once installed the addon functionality will become available in the 'Discounts: Special Offers' section of your X-Cart store Admin area (Figure 1). Along with the addon itself you'll see 2 samples 'Sample: Get 1 of every 3 items with 50% discount' and 'Sample: Get every second item for free' that illustrate the basic configuration principles.
 
 ![Fig 1]({{site.baseurl}}/attachments/buy_listing.png)
 
 
-Let's consider the samples to understand how the **Buy X Get Y offer** works. 
+Let us consider the samples to understand how the **Buy X Get Y offer** works. 
 
-First comes the **'General Options'** section (Figure 2) where you can define the administrative name, i.e. the name of the offer how the cart admin sees it in the list of offers (https://www.yourstore.com/admin.php?target=special_offers). The offer type 'Buy X Get M of them discounted/free' is preset as it was defined when an offer was created (refer to _**Create**_ on Figure 1).
+First comes the **'General Options'** section (Figure 2) where you can define the administrative name, i.e. the name of the offer how the store administrator sees it in the list of offers (https://www.yourstore.com/admin.php?target=special_offers). The offer type 'Buy X Get M of them discounted/free' is preset as it was defined when an offer was created (refer to _**Create**_ on Figure 1).
 
 ![Fig 2]({{site.baseurl}}/attachments/buy-general.png)
 
@@ -39,9 +39,9 @@ After **General Options** comes the **'Dates'** section (Figure 4).
 
 ![Fig 4]({{site.baseurl}}/attachments/dates.png)
 
-In this section the cart admin can define the dates the offer will start and end at. If the dates are not defined the offer will be open-ended. 
+In this section the store administrator can define the dates the offer will start and end at. If the dates are not defined the offer will be open-ended. 
 
-When the dates are defined you can proceed to **Conditions and Reward**, the sections that are literary a heart of the offer as here the cart admin defines the categories and subcategories the offer will be applied to, a number of items to be ordered and a reward a customer will get (Figure 5).
+When the dates are defined you can proceed to **Conditions and Reward**, the sections that are literary a heart of the offer as here the store administrator defines the categories and subcategories the offer will be applied to, a number of items to be ordered and a reward a customer will get (Figure 5).
 
 ![Fig 5]({{site.baseurl}}/attachments/buy-conditions-reward.png)
 
@@ -60,7 +60,7 @@ In 'Sample: Get 1 of every 3 items with 50% discount' the offer will check if an
 In 'Sample: Get every second item for free' the offer will check if an order has 2 items from a defined category and will give a customer a 100% discount on the cheapest.
 {% endnote %}
 
-If it's necessary to limit the offer for particular groups of customers the cart admin can choose them in the 'Eligible membership levels' field of the 'Conditions' section. 
+If it's necessary to limit the offer for particular groups of customers the store administrator can choose them in the 'Eligible membership levels' field of the 'Conditions' section. 
 
 The profit is counted in a number of products a customer will get at a discount. The discount can be set in percent (%) and fixed sum (%). If you set the discount to 100% the customer will get the item(s) for free as in _Sample: Get every second item for free_.
 
@@ -107,7 +107,7 @@ Now that you know how the **Buy X Get Y offer** works you can try it on your own
 
 ![create]({{site.baseurl}}/attachments/buy_create.png)
 
-Once created you'll need to enable the Special Offers panel in the 'Hot Deals' section on the home page (Figure 11). For this purpose go to the 'Content: Menus' section in the cart admin area and choose the hot deals available.
+Once created you'll need to enable the Special Offers panel in the 'Hot Deals' section on the home page (Figure 11). For this purpose go to the 'Content: Menus' section in the store administrator area and choose the hot deals available.
 
 ![fig 11]({{site.baseurl}}/attachments/menus.png)
 
