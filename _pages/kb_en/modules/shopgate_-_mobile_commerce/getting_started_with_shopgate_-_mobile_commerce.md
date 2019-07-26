@@ -11,6 +11,7 @@ order: 100
 ---
 **Important:** The addon "Shopgate - Mobile Commerce" is currently deprecated and not supported.
 
+
 To start using Shopgate with your X-Cart store, follow the steps below:
 
 1.  In your X-Cart store's Admin area, go to the section **My addons** and make sure the addon **Shopgate - Mobile Commerce** is installed and enabled. General addon installation instructions are available here: {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
