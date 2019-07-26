@@ -58,6 +58,32 @@ To add a new global attribute:
 
 If at step 7 you chose to enable the check-mark icon for any attribute option, the related options will be assigned automatically to all existing products in your store. 
 
+## Adding Groups to Global Attributes
+
+In case a product class should have a considerable amount of attributes it makes sense to devide the attributes into groups to make the attributes representation to a customer structured and easy to persive.
+
+To add a group to global attributes:
+
+1.  In your store's Admin area, go to the **Classes & attributes** section (**Catalog > Classes & attributes**).
+2.  Click on the _Edit attributes (N)_ link opposite the **Global attributes** title:
+    ![ga-listing.png]({{site.baseurl}}/attachments/ref_HzMkgc0q/ga-listing.png)
+    This opens a page where you will be able to manage global attributes:
+    ![ga-listing-1.png]({{site.baseurl}}/attachments/ref_HzMkgc0q/ga-listing-1.png)
+3. On this page, click **Manage Groups**:
+   ![ga-groups-1.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-groups-1.png)
+   A popup titled **Manage attribute groups** appears.
+   
+3. Use the **New group** button to add as many attribute groups as you need:
+   ![pc-attr-groups-2.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-groups-2.png)
+   
+4. Click **Save changes** when you are done:
+   ![pc-attr-groups-4.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-groups-4.png)
+   
+5. The newly created groups will be added to the product class details page:
+   ![ga-group-2.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-group-2.png)
+
+Now you can use these goups when [creating global attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes/classes_and_attributes.html#adding-product-class-attributes-to-product-classes "Product Class Attributes").
+
 ## Editing Global Attributes
 
 Sometimes you may need to change the name and/or values of a global attribute. You can do so using one of the following methods:
