@@ -9,16 +9,9 @@ categories:
 published: true
 order: 100
 ---
-To start using Shopgate with your X-Cart store, please follow the steps below:
+To start using Shopgate with your X-Cart store, follow the steps below:
 
-1.  In your X-Cart store's Admin area, go to the X-Cart Marketplace and install the addon **Shopgate - Mobile Commerce**:
-    ![]({{site.baseurl}}/attachments/7505733/7602826.png)
-    ![]({{site.baseurl}}/attachments/7505733/7602827.png)
-    (General addon installation instructions are available here: {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.)
-
-    As a result, you should have the addon **Shopgate - Mobile Commerce** listed in your store's Installed Addons section (**My addons**). 
-    Make sure it is enabled:
-    ![]({{site.baseurl}}/attachments/7505733/7602828.png)
+1.  In your X-Cart store's Admin area, go to the section **My addons** and make sure the addon **Shopgate - Mobile Commerce** is installed and enabled. The addon can be obtained from the X-Cart App Store. General addon installation instructions are available here: {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 2.  Click the Settings link next to the addon name to access the "Shopgate - Mobile Commerce" addon settings page.
 
