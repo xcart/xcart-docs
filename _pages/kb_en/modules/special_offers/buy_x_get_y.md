@@ -9,12 +9,19 @@ published: true
 ---
 The addon [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Buy X Get Y") works with the products added to cart and gives a customer a discount if certain items are bought. The addon encourages customers to buy from a certain category/subcategory to win a price. The Buy X Get Y offer is especially good when you need to increase sales of particular SKUs in your store. 
 
-Depending on the X-Cart edition you are using, the addon 'Buy X Get Y' may already be installed in your store. If not, you can obtain it from the X-Cart App Store. To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
+Depending on the X-Cart edition you are using, the addon 'Buy X Get Y' may already be installed in your store. If not, you can obtain it from the X-Cart App Store. 
+![so_buyX_getY_addon.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_buyX_getY_addon.png)
+To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
 
-Once installed the addon functionality will become available in the 'Discounts: Special Offers' section of your X-Cart store Admin area (Figure 1). Along with the addon itself you'll see 2 samples 'Sample: Get 1 of every 3 items with 50% discount' and 'Sample: Get every second item for free' that illustrate the basic configuration principles.
+Once the addon has been installed and enabled, a new section will become available in the store back end: 'Discounts: Special Offers'. 
+
+In this section you will find a couple of pre-configured special offer samples:
+   * Sample: Get 1 of every 3 items with 50% discount
+   * Sample: Get every second item for free
 
 ![Fig 1]({{site.baseurl}}/attachments/buy_listing.png)
 
+You can remove or modify these samples as you require to meet your business needs. 
 
 Let us consider the samples to understand how the **Buy X Get Y offer** works. 
 
