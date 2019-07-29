@@ -20,16 +20,11 @@ The install and use the addon X-Cart 5 to WordPress Integration, you need:
     The plugin can be obtained here: [https://wordpress.org/plugins/x-cart-integration/](https://wordpress.org/plugins/x-cart-integration/)
     For instructions on configuring the plugin, see {% link "Configuring the X-Cart Intergration plugin in WordPress" ref_wacvoZl5 %}.
 
-*   X-Cart v5.2 or higher with the addon **REST API** installed:
+*   X-Cart v5.2 or higher with the addons **REST API** and **Wordpress Integration** installed:
     ![]({{site.baseurl}}/attachments/8750578/8719391.png)
+    ![]({{site.baseurl}}/attachments/8750578/8719393.png)
 
-Both the addons - **X-Cart 5 to WordPress Integration** and **REST API** - can be obtained via X-Cart’s Marketplace:
-
-![]({{site.baseurl}}/attachments/8750578/8719393.png)
-
-(The addon REST API is already installed.)
-
-For general addon installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+For general addon installation instructions, see {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 After installing the addons, you should be able to see them as enabled in the **My addons** section of your X-Cart store Admin area:
 
