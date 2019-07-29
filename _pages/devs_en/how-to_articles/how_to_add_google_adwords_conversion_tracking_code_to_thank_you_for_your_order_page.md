@@ -16,9 +16,6 @@ published: true
 
 This article describes how to add Google Adwords Conversion Tracking code to X-Cart's order confirmation page ("Thank you for your order" page).
 
-{% note info %}
-Please be aware that you can set up Facebook Pixel without custom programming by using the addon [Facebook Ads and Instagram Ads](https://market.x-cart.com/addons/facebook-e-commerce.html)
-{% endnote%}
 
 ## Step-by-step guide
 
