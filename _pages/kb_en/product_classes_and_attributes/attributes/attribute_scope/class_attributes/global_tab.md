@@ -33,13 +33,13 @@ To assign a product class to a product:
     ![pc-attr-assign-1-1.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-assign-1-1.png)
     This will open a page where you can manage product class attributes for this product. 
 
-2.  Chose __Global__ in the drop-down to access the subsection where you can add and assign {% link "global" ref_HzMkgc0q %} and product class attributes to this product.
+2.  Choose __Global__ in the drop-down to access the subsection where you can add and assign {% link "global" ref_HzMkgc0q %} and product class attributes to this product.
     ![pc-attr-assign-2-1.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-assign-2-1.png)
 3.  On the page that opens, click **Change** to assign a product class to this product:
     ![pc-attr-assign-1.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-assign-1.png)
 4.  Chose the required product class from the drop-down:
     ![pc-attr-assign-2.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-assign-2.png)
-5.  Click **Save changes** to assihn the chosen product class to the product
+5.  Click **Save changes** to assign the chosen product class to the product
     ![pc-attr-assign-3.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-assign-3.png)
 6.  The product class has been assigned to the product along with all product class attributes that are configured for it.
     ![pc-attr-assign-4.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-assign-4.png)
@@ -48,7 +48,7 @@ To assign a product class to a product:
     {% note warning %}
     Product class attributes must have at least one attribute option enabled to be considered configured and working. Once the related product class attributes are assigned to a product make sure they have options enabled and configured properly.
     
-    More info on the options configuration see in the [Editing Product Class Attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes/global_tab.html#editing-product-class-attributes "Product Classes and Class-Attributes Management via Product Details Page") part of this guide.
+    More info on the attribute options configuration see in the [Editing Product Class Attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes/global_tab.html#editing-product-class-attributes "Product Classes and Class-Attributes Management via Product Details Page") part of this guide.
     {% endnote %}
 
 If required a store admin can add new, edit and delete existing product class attributes directly on the product details page after a product class has been assigned to the product.
