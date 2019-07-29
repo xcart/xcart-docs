@@ -45,6 +45,12 @@ To assign a product class to a product:
     ![pc-attr-assign-4.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-assign-4.png)
     The product class attributes that are available for this product class are listed below the product class name. 
     
+    {% note warning %}
+    Product class attributes must have at least one attribute option enabled to be considered configured and working. Once the related product class attributes are assigned to a product make sure they have options enabled and configured properly.
+    
+    More info on the options configuration see in the [Editing Product Class Attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/class_attributes/global_tab.html#editing-product-class-attributes "Product Classes and Class-Attributes Management via Product Details Page") part of this guide.
+    {% endnote %}
+
 If required a store admin can add new, edit and delete existing product class attributes directly on the product details page after a product class has been assigned to the product.
 
 If any product attribute of the assigned product class comes with an undefined attribute value option, a store admin must assign an option to the respective attribute value for it to become available in product details in the storefront.
