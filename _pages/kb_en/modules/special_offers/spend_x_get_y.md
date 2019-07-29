@@ -20,13 +20,15 @@ In this section you will find a pre-configured special offer sample: 'Sample: Sp
 
 ![Fig 1]({{site.baseurl}}/attachments/spendxgety.png)
 
+This sample provides an example of how special offers may work for you. After studying the sample you can remove or modify it converting it to a valid offer as you require. 
+
 Let us consider the sample to understand how the Spend X Get Y offer works. 
 
-First comes the **'General Settings'** section where you can set the name of the offer as you want to see it in the list of offers (https://www.yourstore.com/admin.php?target=special_offers). The offer type 'Spend X Get M of items discounted/free' is preset as it was defined at the time of offer creation.
+First comes the **General Settings** section where you can set the name of the offer as you want to see it in the list of offers (https://www.yourstore.com/admin.php?target=special_offers). The offer type 'Spend X Get M of items discounted/free' is preset as it was defined at the time of offer creation.
 
 ![Fig 2]({{site.baseurl}}/attachments/general.png)
 
-Also, in the 'General Settings' section you can enable or disable the offer. 
+Also, in the **General Settings** section, you can enable or disable the offer. 
 
 {% note info %}
 It is also possible to enable/disable an offer directly on the listing page via a special 'Enable/Disable' button. When the offer is enabled the button is green, when disabled - grey. Make sure you save the changes after enabling/disabling an offer.
@@ -39,7 +41,7 @@ When enabled the offer becomes available to the customers on the home page in th
 
 {% endnote %}
 
-After **General Settings** comes the 'Dates' section:
+After **General Settings** comes the **Dates** section:
 
 ![Fig 4]({{site.baseurl}}/attachments/dates.png)
 
