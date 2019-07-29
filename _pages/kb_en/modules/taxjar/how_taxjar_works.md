@@ -13,9 +13,9 @@ When sales tax calculation needs to be performed, the addon passes on to TaxJar 
 
 ![checkout.png]({{site.baseurl}}/attachments/ref_19ny5CB7/checkout.png)
 
-To increase the accuracy of tax calculations TaxJar performs an address validation while a customer updates the Shipping info of the order. 
+To increase the accuracy of tax calculations, TaxJar performs an address validation while a customer updates the Shipping info of the order. 
 
-For address validation, an address validation call is made to TaxJar. TaxJar performs validation of the address and returns results to the X-Cart store. If the input address data can not be resolved successfully, an error message is displayed so that the customer can correct the address info.
+For address validation, an address validation call is made to TaxJar. TaxJar performs validation of the address and returns the results to the X-Cart store. If the input address data cannot be resolved successfully, an error message is displayed so the customer can correct the address info.
 
 ![invalid-zip-2.png]({{site.baseurl}}/attachments/ref_19ny5CB7/invalid-zip-2.png)
 
