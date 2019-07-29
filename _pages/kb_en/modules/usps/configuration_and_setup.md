@@ -18,10 +18,10 @@ To start using the addon, you need to configure it. The addon configuration sett
 Method 1:
 
    1. In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), click the **Add shipping method** button:
-      ![shipping.png]({{site.baseurl}}/attachments/ref_whrpZnV3/shipping.png)
+      ![usps_add_shipping_method.png]({{site.baseurl}}/attachments/ref_whrpZnV3/usps_add_shipping_method.png)
 
    2. In the popup that appears, choose the U.S.P.S shipping method:
-      ![pop-up.png]({{site.baseurl}}/attachments/ref_whrpZnV3/pop-up.png)
+      ![usps_add_shipping_method1.png]({{site.baseurl}}/attachments/ref_whrpZnV3/usps_add_shipping_method1.png)
 
 Method 2:
 
