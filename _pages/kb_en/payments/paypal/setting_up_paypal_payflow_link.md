@@ -11,7 +11,7 @@ order: 160
 ---
 To enable Paypal Payflow Link as a payment method in your X-Cart store:
 
-1.  If you haven't yet done so, [sign up](https://www.paypal.com/webapps/mpp/referral/paypal-payflow-link?partner_id=XCART5_Cart "Sign up for PayPal Payflow Link") for PayPal Payflow Link. 
+1.  If you haven't yet done so, [sign up](https://www.paypal.com/us/webapps/mpp/payflow-payment-gateway# "Sign up for PayPal Payflow Link") for PayPal Payflow Link. 
      
     To use PayPal Payflow Link, you will need to set up your credentials to access Payflow API (The same credentials will be used as your manager.paypal.com login information):
 
