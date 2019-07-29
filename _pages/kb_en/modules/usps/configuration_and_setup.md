@@ -90,16 +90,16 @@ Next, you can adjust the settings in the Additional options section:
 
    * **Auto enable new USPS shipping methods**: This option will automatically add all new USPS shipping methods to your system. They will not be enabled for customers automatically though.
 
-Don't forget to save the changes when the USPS shipping configuration is complete.
+Be sure to save the changes when your USPS shipping configuration is complete.
 
 ## Data Provider = USPS
 If you want to use plain U.S.P.S. as your U.S.P.S. data provider, you need to specify _USPS_
 in the **Data provider** field.
 ![usps.png]({{site.baseurl}}/attachments/ref_whrpZnV3/usps.png)
 
-You simply need to specify your **User ID** provided by USPS as well as **USPS API server URL**. 
+In the **User ID**, you need to specify the User ID provided to you by USPS.
 
-Enter the URL provided to you by U.S.P.S. in the notification about your successful registration for the U.S. Postal Service's Web Tools Application Program Interfaces. For example:
+In the **USPS API server URL** field, you need to specify the URL provided to you by U.S.P.S. in the notification about your successful registration for the U.S. Postal Service's Web Tools Application Program Interfaces. For example:
 http://stg-production.shippingapis.com/ShippingApi.dll
 http://production.shippingapis.com/ShippingAPI.dll
 
@@ -149,4 +149,4 @@ Next, you can adjust the settings in the Additional options section:
 
    * **Auto enable new USPS shipping methods**: This option will automatically add all new USPS shipping methods to your system. They will not be enabled for customers automatically though.
 
-Don't forget to save the changes when the USPS shipping configuration is complete.
+Be sure to save the changes when your USPS shipping configuration is complete.
