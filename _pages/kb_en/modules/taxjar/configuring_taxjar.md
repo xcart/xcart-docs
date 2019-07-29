@@ -8,6 +8,7 @@ order: 130
 published: true
 ---
 To install the addon TaxJar, follow the general addon installation instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![taxjar_addon.png]({{site.baseurl}}/attachments/ref_3aEqWYoS/taxjar_addon.png)
 
 Once the addon has been installed and enabled, proceed to configure the addon settings:
 ![]({{site.baseurl}}/attachments/ref_3aEqWYoS/installed.png)
