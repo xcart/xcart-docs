@@ -25,8 +25,10 @@ Method 1:
 
 Method 2:
 
-   * In the **My addons** section of your X-Cart store’s Admin area, locate the entry for the U.S.P.S. addon and click the **Settings** link below it:
-     ![modules.png]({{site.baseurl}}/attachments/ref_whrpZnV3/modules.png)
+   1. In the **My addons** section of your X-Cart store’s Admin area, find the U.S.P.S. addon and click on its name to access the addon detailed information.
+   
+   2. On the addon information page, click on the **Settings** link:
+      ![usps_settings_link.png]({{site.baseurl}}/attachments/ref_whrpZnV3/usps_settings_link.png)
 
 
 The U.S.P.S. settings page looks like the following:
