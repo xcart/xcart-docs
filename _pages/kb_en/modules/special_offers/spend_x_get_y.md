@@ -14,7 +14,7 @@ Depending on the X-Cart edition you are using, the addon 'Special Offers: Spend 
 
 To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
 
-Once the addon has been installed and enabled, a new section will become available in the store back end: 'Discounts: Special Offers'.
+Once the addon has been installed and enabled, you will be able create and manage special offers via the 'Discounts: Special Offers' section of your X-Cart store back end.
 
 In this section you will find a pre-configured special offer sample: 'Sample: Spend $100 and get 50% off the cheapest'.
 
