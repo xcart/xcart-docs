@@ -21,15 +21,15 @@ In this section you will find two pre-configured special offer samples:
 
 ![Fig 1]({{site.baseurl}}/attachments/buy_listing.png)
 
-You can remove or modify these samples as you require to meet your business needs. 
+These samples provide an example of how special offers may work for you. After studying the samples you can remove or modify them converting them to valid offers as you require.
 
 Let us consider the samples to understand how the **Buy X Get Y offer** works. 
 
-First comes the **'General Settings'** section where you can set the name of the offer as you want to see it in the list of offers (https://www.yourstore.com/admin.php?target=special_offers). The offer type 'Buy X Get M of them discounted/free' is preset as it was defined at the time of offer creation.
+First comes the **General Settings** section where you can set the name of the offer as you want to see it in the list of offers (https://www.yourstore.com/admin.php?target=special_offers). The offer type 'Buy X Get M of them discounted/free' is preset as it was defined at the time of offer creation.
 
 ![Fig 2]({{site.baseurl}}/attachments/buy-general.png)
 
-Also, in the 'General Settings' section you can enable or disable the offer. 
+Also, in the **General Settings** section you can enable or disable the offer. 
 
 {% note info %}
 It is also possible to enable/disable an offer directly on the listing page via a special 'Enable/Disable' button. When the offer is enabled the button is green, when disabled - grey. Make sure you save the changes after enabling/disabling an offer.
@@ -42,7 +42,7 @@ When enabled the offer becomes available to the customers on the home page in th
 
 {% endnote %}
 
-After **General Settings** comes the **'Dates'** section:
+After **General Settings** comes the **Dates** section:
 
 ![Fig 4]({{site.baseurl}}/attachments/dates.png)
 
