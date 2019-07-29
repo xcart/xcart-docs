@@ -14,12 +14,13 @@ redirect_from:
 
 This article describes how to add Facebook Pixel code to X-Cart pages. 
 
-Before we get started, be aware that you can set up Facebook Pixel without custom programming by using this module:
-- Facebook Ads and Instagram Ads module: <https://market.x-cart.com/addons/facebook-e-commerce.html>
+{% note info %}
+Please be aware that you can set up Facebook Pixel without custom programming by using the addon [Facebook Ads and Instagram Ads](https://market.x-cart.com/addons/facebook-e-commerce.html)
+{% endnote%}
 
 ## Step-by-step guide
 
-1.  Activate [Custom Skin](https://market.x-cart.com/addons/custom-skin.html "How to add Facebook Pixel Сode to X-Cart pages") module in your X-Cart and create a new custom template file:
+1.  Activate the addon [Custom Skin](https://market.x-cart.com/addons/custom-skin.html "How to add Facebook Pixel Сode to X-Cart pages") in your X-Cart and create a new custom template file:
 
     `skins/custom_skin/customer/fb_pixel.twig`
 
