@@ -13,9 +13,9 @@ Depending on the X-Cart edition you are using, the addon 'Buy X Get Y' may alrea
 ![so_buyX_getY_addon.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_buyX_getY_addon.png)
 To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
 
-Once the addon has been installed and enabled, a new section will become available in the store back end: 'Discounts: Special Offers'. 
+Once the addon has been installed and enabled, you will be able create and manage special offers via the 'Discounts: Special Offers' section of your X-Cart store back end.
 
-In this section you will find a couple of pre-configured special offer samples:
+In this section you will find two pre-configured special offer samples:
    * Sample: Get 1 of every 3 items with 50% discount
    * Sample: Get every second item for free
 
