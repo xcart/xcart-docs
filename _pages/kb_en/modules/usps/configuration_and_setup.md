@@ -83,7 +83,7 @@ On Payment methods page, there will be a Cash on delivery option for USPS in the
 
 Note, however, that that option is not present on the Payment methods page before you finish configuring the U.S.P.S. addon. If you need to enable Cash on delivery for U.S.P.S., you will have to save your U.S.P.S. addon settings leaving the Cash on delivery setting as is (= inactive) and then visit the Payment methods page to activate the Cash on delivery option for U.S.P.S. separately.
 
-Next, you can adjust the settings in the Additional options section:
+You can also adjust some Additional options for the U.S.P.S. addon:
 ![]({{site.baseurl}}/attachments/8225090/8356034.png)
 
    * **Log all communication between shopping cart and USPS server**: This option enables logging of requests to the USPS server and responses from it. The logs are saved to **USPS.log** files in the `<X-Cart>/var/log/` folder.
@@ -142,7 +142,7 @@ On Payment methods page, there will be a Cash on delivery option for USPS in the
 
 Note, however, that that option is not present on the Payment methods page before you finish configuring the U.S.P.S. addon. If you need to enable Cash on delivery for U.S.P.S., you will have to save your U.S.P.S. addon settings leaving the Cash on delivery setting as is (= inactive) and then visit the Payment methods page to activate the Cash on delivery option for U.S.P.S. separately.
 
-Next, you can adjust the settings in the Additional options section:
+You can also adjust some Additional options for the U.S.P.S. addon:
 ![]({{site.baseurl}}/attachments/8225090/8356034.png)
 
    * **Log all communication between shopping cart and USPS server**: This option enables logging of requests to the USPS server and responses from it. The logs are saved to **USPS.log** files in the `<X-Cart>/var/log/` folder.
