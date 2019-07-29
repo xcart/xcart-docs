@@ -9,29 +9,28 @@ categories:
 published: true
 order: 100
 ---
-
-
 The [U.S.P.S. addon](http://www.x-cart.com/extensions/addons/usps.html) for X-Cart 5 allows you to use online shipping rate calculation via [USPS Web Tools Ecommerce API](http://www.usps.com/webtools).
 
 This article assumes that the U.S.P.S addon has already been {% link "installed and activated" ref_0fGEpvrh %} at your store.
 
-To start using the addon, you need to configure it. The adddon configuration settings can be accessed using one of the following methods:
+To start using the addon, you need to configure it. The addon configuration settings can be accessed using one of the following methods:
 
-1. In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**)
-   * click the **Add shipping method** button:
-![shipping.png]({{site.baseurl}}/attachments/ref_whrpZnV3/shipping.png)
+Method 1:
 
-   * and then choose the U.S.P.S shipping method in a pop-up:
-![pop-up.png]({{site.baseurl}}/attachments/ref_whrpZnV3/pop-up.png)
+   1. In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), click the **Add shipping method** button:
+      ![shipping.png]({{site.baseurl}}/attachments/ref_whrpZnV3/shipping.png)
 
-2. In the Installed Addons section of your X-Cart store’s Admin area (**My addons** > **Installed addons**), locate the entry for U.S.P.S. addon and click the **Settings** link below it:
-![modules.png]({{site.baseurl}}/attachments/ref_whrpZnV3/modules.png)
+   2. In the popup that appears, choose the U.S.P.S shipping method:
+      ![pop-up.png]({{site.baseurl}}/attachments/ref_whrpZnV3/pop-up.png)
+
+Method 2:
+
+   * In the **My addons** section of your X-Cart store’s Admin area, locate the entry for the U.S.P.S. addon and click the **Settings** link below it:
+     ![modules.png]({{site.baseurl}}/attachments/ref_whrpZnV3/modules.png)
 
 
 The U.S.P.S. settings page looks like the following:
-
 ![settings.png]({{site.baseurl}}/attachments/ref_whrpZnV3/settings.png)
-
 
 Below is an explanation of the settings that can be found on the U.S.P.S. settings page.
 
@@ -120,7 +119,7 @@ These are the options that will be applied to your international shipping rates.
 
 ## Cash on delivery
 
-Here you can enable the cach on delivery option for your inetrnational and domestic shipments.
+Here you can enable the cash on delivery option for your inetrnational and domestic shipments.
 
 ![cash-on-delivery.png]({{site.baseurl}}/attachments/ref_whrpZnV3/cash-on-delivery.png)
 
