@@ -7,6 +7,20 @@ title: Global Attributes Management via Product Details Page
 order: 110
 published: false
 ---
+Global attributes can be created and managed via the **Attributes** -> **Global** tab of a {% link "product details" ref_2D8wAeXP %} page.
+
+![ga-product-details.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-product-details.png)
+
+If speaking about global attributes, the main purpose of the **Attributes** -> **Global** tab of a product details page is to give a store admin the tool to assign and configure a global attribute for this particular product.
+
+It's generally accepted that the respective global attributes are created beforehand via the **Classes & attributes** section (**Catalog > Classes & attributes**) as described in the  guide because this is the most common way of product classes and product class attributes management.
+
+However, if there is a need it's also possible to create a product class, assign it to a product and then add the necessary product class attributes to it directly in the **Attributes** -> **Global** tab of a product details page.
+
+So all-in-all the **Attributes** -> **Global** tab of a product details page gives a store admin the tools for creating, assigning and managing product class attributes directly on a product page. The changes applied to product class attributes via the product details page can be applied both store-wide and at the product level only.
+
+
+
 ## Adding Global Attributes
 
 X-Cart supports two methods of adding global attributes. Below, we will show how to add a global attribute "Color".
