@@ -20,7 +20,7 @@ For address validation, an address validation call is made to TaxJar. TaxJar per
 ![invalid-zip-2.png]({{site.baseurl}}/attachments/ref_19ny5CB7/invalid-zip-2.png)
 
 {% note info %}
-A customer won't be able to place an order with an incorrectly defined address if the **Do not create order in case of tax calculation error** option is {% link "enabled" ref_3aEqWYoS %}
+A customer will not be able to place an order with an address defined incorrectly if the **Do not create order in case of tax calculation error** option is {% link "enabled" ref_3aEqWYoS %}
 {% endnote %}
 
-All order and refund transactions are then imported into TaxJar automatically and registered in the [Transactions](https://app.taxjar.com/transactions "How TaxJar Sales Tax Automation works") section. Orders are imported immediately after they’re paid and delivered in a complete status, i.e. the orders are in a “Paid” payment status and “Shipped” or “Delivered” fulfillment status. Pending orders that might be canceled aren’t imported into TaxJar. TaxJar forms periodical tax [reports in the Dashboard](https://app.taxjar.com/dashboard "How TaxJar Sales Tax Automation works") based on the imported order info.
+All order and refund transactions are then imported into TaxJar automatically and registered in the [Transactions](https://app.taxjar.com/transactions "How TaxJar Sales Tax Automation works") section. Orders are imported immediately after they have been paid for and delivered in a complete status (the payment status is _Paid_ and the fulfillment status is _Shipped_ or _Delivered_). Pending orders that may still be canceled are not imported into TaxJar. TaxJar forms periodic tax [reports in the Dashboard](https://app.taxjar.com/dashboard "How TaxJar Sales Tax Automation works") based on the order info that has been imported.
