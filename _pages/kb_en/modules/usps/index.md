@@ -29,7 +29,10 @@ X-Cart is integrated with U.S.P.S. carrier services via the [U.S.P.S. addon](htt
    - a possibility to manage refunds and cancellations.
    
 
-To start using the U.S.P.S. addon, you need to make sure it is installed and enabled. General addon installation instructions are available in the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
+To start using the U.S.P.S. addon, you need to make sure it is installed and enabled. 
+![usps_addon.png]({{site.baseurl}}/attachments/ref_158tuAaD/usps_addon.png)
+
+General addon installation instructions are available in the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
    
    *  {% link "U.S.P.S. General Configuration" ref_whrpZnV3 %}
    *  {% link "U.S.P.S. Shipments via Pitney Bowes" ref_0TwynAXE %}
