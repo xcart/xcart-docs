@@ -13,12 +13,12 @@ The following procedure assumes that:
 
 To configure the connection between X-Payments and your X-Cart store on the X-Cart end, complete the steps below:
 
-1.  Log in to the Admin panel of your X-Cart 5 store.
+1.  Log in to the Admin area of your X-Cart 5 store.
 
-2.  Go to the Installed Addons section and, in the list of your store's installed addons, locate the entry for X-Payments connector. 
+2.  In the **My addons** section, find the addon X-Payments connector and click on its name to access the addon detailed information. 
 
-3.  Click the **Settings** button next to the addon name:
-    ![settings.png]({{site.baseurl}}/attachments/ref_TIExeDzi/settings.png)
+3.  On the addon information page, click on the **Settings** link:
+    ![xp_connector_settings_link.png]({{site.baseurl}}/attachments/ref_TIExeDzi/xp_connector_settings_link.png)
     
     The addon settings page opens.
 
