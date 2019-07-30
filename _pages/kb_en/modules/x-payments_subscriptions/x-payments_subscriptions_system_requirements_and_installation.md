@@ -13,13 +13,9 @@ To install and use the addon X-Payments subscriptions, you need a working copy 
 
 Note that to be able to charge customers for subscriptions periodically you will need to use a payment method with tokenization support. 
 
-The addon X-Payments subscriptions can be obtained via X-Cart’s Marketplace.
+The addon X-Payments subscriptions can be obtained from the X-Cart App Store.
 
-To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
-
-As a result, you should have the addon "X-Payments subscriptions" listed in your store's Installed Addons section:
-
-![]({{site.baseurl}}/attachments/8750957/8719603.png)
+To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 _Related pages:_
 
