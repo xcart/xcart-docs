@@ -11,17 +11,18 @@ order: 100
 redirect_from:
   - /modules/multi-vendor/configuring_the_multi-vendor_module.html
 ---
-After the Multi-vendor module has been installed and enabled, it needs to be configured.
+After the Multi-vendor addon has been installed and enabled, it needs to be configured.
 
-To configure the module:
+To configure the addon:
 
-1.  In the Installed Modules section of your X-Cart store’s Admin area, locate the entry for "Multi-vendor" and click the **Settings **link below it:
-    ![xc5_multi-vendor_settings_link.png]({{site.baseurl}}/attachments/ref_nFq48dhr/xc5_multi-vendor_settings_link.png)
+1.  In the **My addons** section of your X-Cart store’s Admin area, find the addon "Multi-vendor" and click on its name to access the addon detailed information. 
 
-    This opens the '"Multi-vendor" module settings' page:
+2.  On the addon information page, click on the **Settings** link.    
+
+    This opens the Multi-vendor addon settings page:
     ![mv_settings.png]({{site.baseurl}}/attachments/ref_nFq48dhr/mv_settings.png)
 
-2.  Adjust the module settings.
+3.  Adjust the addon settings.
 
     First, you should set the most important setting:
     
@@ -107,11 +108,11 @@ To configure the module:
     
     *   **Vendor application form**: This is actually not a setting, but a way to quickly access your vendor application form management page. To adjust the form, click *Manage*. More info on this is available in the section {% link "Managing the vendor registration page" ref_41fyOJ9F %}. 
     
-    *   **Role to assign to new vendor users**: Specify the role you want to be assigned to new vendor users after the creation of their profile/approval of their vendor application by admin. (Note: Besides the default "Vendor" role that is present in your store from the moment you install and activate the Multi-vendor module, you can set up more roles for users that will be acting as vendors in your store. The setting "Role to assign to new vendor users" allows you to specify the role that should be assigned to users with access level "Vendor" when such users are created.)
+    *   **Role to assign to new vendor users**: Specify the role you want to be assigned to new vendor users after the creation of their profile/approval of their vendor application by admin. (Note: Besides the default "Vendor" role that is present in your store from the moment you install and activate the Multi-vendor addon, you can set up more roles for users that will be acting as vendors in your store. The setting "Role to assign to new vendor users" allows you to specify the role that should be assigned to users with access level "Vendor" when such users are created.)
     
     *   **Vendor onboarding welcome message**: Use this field to adjust the onboarding message for your vendors. The message will be displayed on the vendor's dashboard after they log in to their account.
 
-3.  Click **Submit** to save the changes.
+4.  Click **Submit** to save the changes.
 
 _Related pages:_
 
