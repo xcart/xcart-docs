@@ -15,8 +15,8 @@ To configure the addon:
 
 1.  In the **My addons** section of your X-Cart store Admin area, find the addon "X-Payments subscriptions" and click on its name to access the addon detailed information. 
 
-2.  On the addon information page, click on the **Settings** link: 
-    ![xp-installed.png]({{site.baseurl}}/attachments/ref_RLhkriEJ/xp-installed.png)
+2.  On the addon information page, click on the **Settings** link. 
+    
     The "X-Payments subscriptions" addon settings page opens:
     ![xp-settings.png]({{site.baseurl}}/attachments/ref_RLhkriEJ/xp-settings.png)
 
