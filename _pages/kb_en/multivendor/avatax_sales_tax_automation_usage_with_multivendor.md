@@ -18,7 +18,9 @@ To use AvaTax Sales Tax Automation, the store administrator will have to get an 
 
 The vendors will not need a separate AvaTax account; however, to ensure correct tax calculation in a Multivendor store via a single AvaTax account, the store administrator will need to properly configure the nexus jurisdictions for the store's AvaTax account in the AvaTax Admin Console specifying all the states where the store/marketplace has nexus; they will also need to make sure all the nexus states are specified properly in the X-Cart store's settings:
 
-   * In the case of a store/marketplace where sales tax collection has been configured as the responsibility of the site owner (**Sales tax is the responsibility of**=_Site owner_), this means that the administrator will have to find out in which states the store/marketplace has nexus and 1) include these states in the nexus jurisdictions for the store's AvaTax account via the AvaTax Admin Console; 2) make sure these states are specified in the "Tax Calculation settings" section of the AvaTax Sales Tax Automation addon settings page. The latter can be accomplished as follows:
+   * In the case of a store/marketplace where sales tax collection has been configured as the responsibility of the site owner (**Sales tax is the responsibility of**=_Site owner_), this means that the administrator will have to find out in which states the store/marketplace has nexus and 1) include these states in the nexus jurisdictions for the store's AvaTax account via the AvaTax Admin Console; 2) make sure these states are specified in the "Tax Calculation settings" section of the AvaTax Sales Tax Automation addon settings page. 
+   
+     If the store is based in the United States, this has some specifics:
    
       *  If the store has nexus in all the U.S. states, the administrator should adjust the setting **Automatically calculate taxes for** to "_All US States_".
          ![auto_calc_taxes.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/auto_calc_taxes.png)
@@ -27,7 +29,9 @@ The vendors will not need a separate AvaTax account; however, to ensure correct 
          ![us_tax_calculation1.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/us_tax_calculation1.png)
 
  
-   * In the case of a store/marketplace where sales tax collection is the responsibility of the vendors ("Vendors as separate shops" mode + **Sales tax is the responsibility of**=_Vendor_), this means that the administrator will have to check in which states each of the vendors has nexus and 1) include these states in the nexus jurisdictions for the store's AvaTax account via the AvaTax Admin Console; 2) make sure each of the vendors has their nexus states specified in the "US tax calculation" section of their vendor profile Financial details. The latter can be accomplished as follows: 
+   * In the case of a store/marketplace where sales tax collection is the responsibility of the vendors ("Vendors as separate shops" mode + **Sales tax is the responsibility of**=_Vendor_), this means that the administrator will have to check in which states each of the vendors has nexus and 1) include these states in the nexus jurisdictions for the store's AvaTax account via the AvaTax Admin Console; 2) make sure each of the vendors has their nexus states specified in the "US tax calculation" section of their vendor profile Financial details. 
+   
+     If the store is based in the United States, this has some specifics:
    
       *  If the vendor company has nexus in all the U.S. states, the administrator should make sure the setting **Automatically calculate taxes for** is set to "_All US States_".
          ![us_tax_calculation.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/us_tax_calculation.png)
