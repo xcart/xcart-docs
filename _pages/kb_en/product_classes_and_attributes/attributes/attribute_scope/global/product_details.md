@@ -94,33 +94,38 @@ To add a new global attribute:
 
 ## Editing Global Attributes
 
+To edit global attribute(s) via the **Attributes** -> **Global** tab of a product cdetails page:
 
-
-**Method 2:**
-
-1.  In your store's Admin area, find the product for which you want to edit a global attribute (This can be any product that has this attribute: you will be able to extend the changes to the other products in your store), open its details and click on the** Attributes** tab.
-2.  On the **Attributes** tab, click Global.
+1.  In your store's Admin area, find the product you want to edit a global attribute for (This can be any product that has this attribute: you will be able to extend the changes store-wide), open the product details page and click on the **Attributes** tab:
+    ![ga-assign-1.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-assign-1.png)
+2.  In the **Attributes** drop-down choose **Global**:
+    ![ga-assign-2.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-assign-2.png)
 3.  On the page that opens, locate the **Global attributes** page section.
-4.  Find the attribute you want to edit and make any changes you require:
-
-    *   To edit the attribute name, hover your cursor over it (the **Attribute name** field will become visible), click inside the **Attribute name** field and edit the attribute name as you require. 
-    *   To edit the attribute values, edit the **Attribute value** field(s).
-
-5.  Specify whether you want to apply the changes globally or locally:
-
-    *   Apply value changes globally => Changes of attribute values will apply for all the products in your store.
-    *   Apply value changes locally => Changes of attribute values will affect only this product. Changes of attribute names and of the attribute list (for example, changes of the order of attributes in the list, or removal of attributes) will affect all the products in your store.
+    ![ga-create-1.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-create-1.png)
+4.  To edit the values of global attribute options (the options that have been added automatically along with the global attribute assignment):
+      * click on the attribute option name to change it or click on the drop-down errow next to the attribute option name to choose an option from the list of suggested;
+        ![ga-pd-edit-2.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-pd-edit-2.png)
+      * for multivalue global attributes click on the _Modifiers_ link next to the attribute option name to add {% link "Price and Weight Modifiers" ref_1t4DxHbf %};
+        ![ga-pd-edit-3.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-pd-edit-3.png)
+        {% note info %}
+        In case _Modifiers_ are added to the existing global attribute option(s) and are applied globally (with the **Apply attribute value changes for all the products** setting enabled) the changes will affect only the products with the corresponding attribute option(s) enabled. All products that has the corresponding attribute option(s) disabled will stay as is.
+        {% endnote %}  
+        
+5.  Specify whether you want to apply the changes globally by enabling the Apply attribute value changes for all the products setting: 
+    ![ga-pd-edit-4.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-pd-edit-4.png)
 6.  Click **Save changes**.
 
 ## Deleting Global Attributes
 
+To delete a global attribute via the Attributes -> Global tab of a product details page:
 
-
-**Method 2:**
-
-1.  In your store's Admin area, find any product that has the global attribute you want to delete, open its details and click on the** Attributes** tab.
-2.  On the **Attributes** tab, click Global.
+1.  In your store's Admin area, find any product that has the global attribute you want to delete, open the product details page and check the **Attributes** tab.
+    ![ga-assign-1.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-assign-1.png)
+2.  In the **Attributes** drop-down click **Global**.
+    ![ga-assign-2.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-assign-2.png)
 3.  On the page that opens, scroll down to the **Global attributes** section.
+    ![ga-create-1.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-create-1.png)
 4.  Find the attribute you want to delete and click on the **Trash** icon opposite its name. The attribute will be marked for deletion.
-5.  It does not matter whether the option "Apply value changes globally" is selected or not: deleting a global attribute here will be applied globally in any case (The attribute will be deleted from the list of your store's global attributes and will be removed from the details of all products).
+    ![ga-pd-delete.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-pd-delete.png)
+5.  It does not matter whether the setting "Apply attribute value changes for all the products" is enabled or not: deleting global attribute on a product details page hides the option for this product only. To remove the attribute for all the products, use [the Classes & Attributes page](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/global/classes_and_attributes.html#deleting-global-attributes "Global Attributes Management via Product Details Page").
 6.  Click **Save changes**.
