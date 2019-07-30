@@ -98,10 +98,6 @@ The store administrator representing the store owner/storefront operator will ne
    or 
    * Using an integration of an online tax calculation service like {% link "AvaTax" ref_6880bVvi %} or {% link "TaxJar" ref_0wHdWryq %} (This method involves getting an account with one of the online tax calculation services and configuring the store to connect to the respective service to get tax rates for each order).
 
-{% note info %}
-For stores/marketplaces where the collection of sales tax has been configured to be the _responsibility of vendors_, using an AvaTax/TaxJar integration for tax calculation is for now the only option. X-Cart's Sales tax, VAT/GST or Canadian tax addons do not cover this case and should only be used if the collection of sales tax is done by the store owner/storefront operator.
-{% endnote %}
-
 More information on the use of TaxJar and AvaTax integrations with X-Cart Multivendor is available here:
    * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %};
    * {% link "TaxJar Sales Tax Automation: Usage with Multivendor" ref_4ne38ZTm %}.
