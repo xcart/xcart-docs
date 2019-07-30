@@ -67,12 +67,12 @@ To configure the addon:
         **Important:** If you wish to use different commission rates for different vendors, you will have to set vendor-specific commission rates via the Financial details section of individual vendor profiless. 
         See {% link "Setting vendor commissions" ref_7B8smyEx %} for more information.
 
-    *   **Sales tax is the responsibility of** (Site owner / Vendor): Use it to specify who should be responsible for collection of sales tax and payment of the tax that has been collected to the government: the store owner/storefront operator or the vendors. The setting affects tax rates configured using the {% link "Sales Tax" ref_7fGmqgPE %} and {% link "Canadian Taxes" ref_08gXAvpC %} addons. If your store uses automated tax calculation with {% link "AvaTax " ref_6880bVvi %} or {% link "TaxJar" ref_0wHdWryq %} addons, the value in this field is also used to determine the nexus. 
+    *   **Sales tax is the responsibility of** (Site owner / Vendor): Use it to specify who should be responsible for the collection of sales tax and the payment of the tax that has been collected to the government: the store owner/storefront operator or the vendors. The setting affects tax rates configured using the {% link "Sales Tax" ref_7fGmqgPE %} and {% link "Canadian Taxes" ref_08gXAvpC %} addons. If your store uses automated tax calculation with {% link "AvaTax " ref_6880bVvi %} or {% link "TaxJar" ref_0wHdWryq %} addons, the value in this field is also used to determine the nexus. 
        
         {% note info %}
-        The **Sales tax is the responsibility of** setting is adjustable only in the "Vendors as separate shops" Multivendor mode. In the "Warehouse" Multivendor mode, taxes are always the responsibility of the store owner/storefront operator. 
+        The **Sales tax is the responsibility of** setting is adjustable only in the "Vendors as separate shops" Multivendor mode. In the "Warehouse" Multivendor mode, tax collection is always the responsibility of the store owner/storefront operator. 
         
-        The **Sales tax is the responsibility of** setting determines only the sales tax collection. **Taxes configuration is ALWAYS a responsibility of a store admin.**
+        The setting **Sales tax is the responsibility of** determines only who collects sales tax. **The configuration of taxes and tax rates is always the responsibility of the store administrator.**
         {% endnote %}
     
     *   **Minimal vendor balance to request a payout**: Use this field to set a minimum amount of money that a vendor must have on their account balance to be able to request a payout of their earnings.
