@@ -7,9 +7,9 @@ title: 'Step 1: System requirements'
 order: 20
 published: true
 ---
-[_X-Cart v4 to v5 Data Migration Wizard_ module](https://market.x-cart.com/addons/migration-wizard.html) has the same {% link "system requirements as X-Cart 5" ref_VG5mIoLT#server-requirements %}, but since the module runs resource-heavy processes, you need to make sure that the server will not time out them.
+The addon [X-Cart v4 to v5 Data Migration Wizard](https://market.x-cart.com/addons/migration-wizard.html) has the same {% link "system requirements as X-Cart 5" ref_VG5mIoLT#server-requirements %}, but since the addon runs resource-heavy processes, you need to make sure that the server will not time out them.
 
-The way to set the server up will depend on the server's engine.
+The way to set the server up will depend on the server engine.
 
 {% toc Table of Contents %}
 
@@ -31,11 +31,11 @@ The `fastcgi_read_timeout` setting must be set to 600 or higher in the `nginx` c
      
 ```fastcgi_read_timeout 600;```
 
-The `request_terminate_timeout` parameter must be set to 600 or higher value in the `php-fpm` config file, e.g.:
+The `request_terminate_timeout` parameter must be set to 600 or higher in the `php-fpm` config file, e.g.:
      
 ```request_terminate_timeout = 600```
 
-If `php.ini` has `safe_mode = on`, ensure that the `max_execution_time` setting is defined as 600 or higher, e.g: 
+If `php.ini` has `safe_mode = on`, ensure that the `max_execution_time` setting is set to 600 or higher, e.g: 
      
 ```max_execution_time = 600```
 
