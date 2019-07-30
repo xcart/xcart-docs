@@ -16,9 +16,9 @@ redirect_from:
 The **X-Payments connector** addon for X-Cart 5 connects your X-Cart 5 based online store to [X-Payments](https://www.x-payments.com/help/Main_Page) for PCI compliant credit card processing. 
 
 Typically, your X-Cart 5 store will have the X-Payments connector addon installed and enabled:
-![installed.png]({{site.baseurl}}/attachments/ref_025khQBN/installed.png)
+![xp_connector_addon.png]({{site.baseurl}}/attachments/ref_NaZh0d1b/xp_connector_addon.png)
 
-If not, you can install it from the X-Cart 5 Marketplace. To intall the addon, follow the directions from the section {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+If not, you can install it from the X-Cart App Store. To intall the addon, follow the directions from the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
  
 **Important**: Please be aware that the X-Payments connector for X-Cart 5 has no support for the addon {% link "Not Finished Orders" ref_7dKyzAJ4 %}; for this reason, regardless of the addon settings, not finished orders will not be created when payment is made via X-Payments.
 
@@ -33,8 +33,3 @@ A video guide for connecting X-Cart and X-Payments 3.x is available:
 (Published on Sep 21, 2016)
 
 For earlier X-Payments versions the process is similar; however, the steps included can be different - {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %} (video)
-
-
-
-
-
