@@ -88,13 +88,19 @@ In the "Warehouse" multivendor mode, the products of different vendors are all s
 In the "Vendors as separate shops" multivendor mode, each vendor has to ship their own products from their own business location. For this reason, each vendor has to add and configure their own shipping methods. The process is the same as when completed by the store administrator, with the only difference - that the vendors have to configure their shipping methods in their own Vendor area. The store administrator must ensure that each of the selling vendors has at least one shipping method configured and enabled.
 
 ## Step 11: Configure the taxes
-Depending on the business model employed by the store, the taxes will have to be collected on the sales and paid to a government organization by either the vendors themselves or by the store owner/storefront operator. To ensure proper calculation of taxes, the store administrator must specify in the Finance section of the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}, who is going to be responsible for the collection of taxes on the sales through the store/marketplace: the site owner or the vendor. Regardless of who is going to collect taxes (the store owner/storefront operator or the vendors), the setup of taxes and tax rates for the entire store/marketplace is the responsibility of the store owner/storefront operator. 
+Depending on the business model employed by the store, the taxes will have to be collected on the sales and paid to a government organization by either the vendors themselves or by the store owner/storefront operator. To ensure proper calculation of taxes, the store administrator must specify in the Finance section of the {% link "Multi-vendor addon settings page" ref_nFq48dhr %}, who is going to be responsible for the collection of taxes on the sales through the store/marketplace: the site owner or the vendor. 
+
+Regardless of who is going to collect taxes (the store owner/storefront operator or the vendors), the setup of taxes and tax rates for the entire store/marketplace is the responsibility of the store owner/storefront operator. 
 
 The store administrator representing the store owner/storefront operator will need to configure tax calculation with one of the following methods:
 
    * Using an X-Cart tax configuration addon like {% link "Sales tax" ref_aJPK4DHN %}, {% link "VAT/GST" ref_Rzp45QlN %} or {% link "Canadian taxes" ref_hxmof6xX %} (This method involves extensive configuration of zones, taxes and tax rates).
    or 
    * Using an integration of an online tax calculation service like {% link "AvaTax" ref_6880bVvi %} or {% link "TaxJar" ref_0wHdWryq %} (This method involves getting an account with one of the online tax calculation services and configuring the store to connect to the respective service to get tax rates for each order).
+
+{% note info %}
+For stores/marketplaces where the collection of sales tax has been configured to be the _responsibility of vendors_, using an AvaTax/TaxJar integration for tax calculation is for now the only option. X-Cart's Sales tax, VAT/GST or Canadian tax addons do not cover this case and should only be used if the collection of sales tax is done by the store owner/storefront operator.
+{% endnote %}
 
 More information on the use of TaxJar and AvaTax integrations with X-Cart Multivendor is available here:
    * {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %};
