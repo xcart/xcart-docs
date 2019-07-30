@@ -5,7 +5,7 @@ updated_at: '2019-07-26 14:10 +0400'
 identifier: ref_5ciIjyUn
 title: Global Attributes Management via Product Details Page
 order: 110
-published: false
+published: true
 ---
 Global attributes can be created and managed via the **Attributes** -> **Global** tab of a {% link "product details" ref_2D8wAeXP %} page.
 
