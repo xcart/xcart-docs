@@ -89,7 +89,7 @@ To configure the filters:
 Starting from Level 2 (**Model**), each sublevel has a special **Level info** page, that if configured will be displayed on the storefront depending on the selected filters. It is especially useful if you want to provide your customers with additional information on the Make, Model or particular vehicle when they select it. Due to flexible settings, you can set the same page, for example, for all models and years or a separate page for each model (and even year). Using a simple interface you can set the page Title, Image and Description. 
 ![level_info.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/level_info.png)
 
-When a customer clicks to filter the parts, he will be redirected to the corresponding landing page (**Level info** page) with its own name, image and information. This page will also contain the list of spare parts for the vehicle specified by the customer. 
+When a customer clicks to filter the parts, they will be redirected to the corresponding landing page (**Level info** page) with its own name, image and information. This page will also contain the list of spare parts for the vehicle specified by the customer. 
 
 <div class="ui stackable two column grid">
    <div class="column" markdown="span">![landing_admin.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/landing_admin.png)</div>
