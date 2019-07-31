@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-07-15 14:41 +0400'
 identifier: ref_1WveyowU
-title: Personilization Options (Editable Textarea)
+title: Personalization Options (Editable Textarea)
 order: 150
 published: true
 ---
