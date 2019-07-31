@@ -15,7 +15,7 @@ The filters configured using the Make/Model/Year addon will show up on all the p
 
 ![filters-fontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/filters-fontend.png)
 
-Note that "Make", "Model", "Year" and "Engine" are just the names used by default; you can change them as you require, as well as change the number of filtering levels that should be used. 
+Note that "Make", "Model", "Year" and "Engine" are just the names used by default; you can change them as you require, as well as change the number of filtering levels that should be used (like use only three levels instead of four). 
 
 The store will be able to "remember" the filter selections for non-registered/non logged in visitors.
 
