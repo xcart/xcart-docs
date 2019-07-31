@@ -54,18 +54,20 @@ With the option **Use separate tab for the fitment on the product page** enabled
 
 ## Filter Levels Setup
 
-Once the Make/Model/Year addon settings have been configured, you can proceed with setting up the filter levels and populating the addon with products. 
+Once the Make/Model/Year addon settings have been configured, you can proceed to configuring the filters you require and specifying which products should match these filters. 
 
 To configure the filters:
 
-1. Go to the **Catalog** -> **Make/Model/Year/Engine** page of the store back end and start adding the filters of Level 1. If you have chosen to use the name "Make" for Level 1 filters, these will be the different "Makes" that you have in your catalog. 
+1. In your X-Cart store back end, go to the section **Catalog** -> **Make/Model/Year/Engine**.
+
+2. Add the filters of Level 1. If you have chosen to use the name "Make" for Level 1 filters, these will be the different "Makes" that you have in your catalog. 
    ![make.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/make.png)
    
    If you are using a different name for the filters of Level 1, you will see that name used instead of "Make".
    
    To add a filter at this level, click on the **New Make** button; on the new line that appears, specify the name of the Make (or whatever other filter you are configuring). Save the changes.  
 
-2. After adding the filters you require at Level 1, you can proceed to configuring the following level of filters (Level 2). For example, after adding a Make, you need to add Models for that make. To do so, click on the **Manage Model** link opposite the Make name and add the positions you require at this level.
+3. After adding the filters you require at Level 1, you can proceed to configuring the following level of filters (Level 2). For example, after adding a Make, you need to add Models for that make. To do so, click on the **Manage Model** link opposite the Make name and add the positions you require at this level.
    
    Configuring the filters for Level 3 and Level 4 ("Year", "Engine" or whatever other names you are using for them) needs be done using the same method. 
     
@@ -75,7 +77,7 @@ To configure the filters:
         <div class="column" markdown="span">![engine.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/engine.png)</div>
      </div>
 
-3. After the filter levels you require have been configured, at the very last step you will get the link **Manage Products** that will allow you to add the products that should be found when a shopper uses the respective filters. 
+4. After all the filter levels you require have been configured, specify the products that should match the filters when a shopper uses them to search for products. At the very last step you will get the link **Manage Products**. Use this link to go to the section where you will be able to add products.
 
    * If the products are already in your store, you will be able to specify which products need to go here. Start by clicking the **'Add product'** button. A list of your products will be displayed in a popup. Select the products that match the filters you have configured.
      ![select_products.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/select_products.png)
@@ -138,7 +140,7 @@ A data import for the Make/Model/Year addon can also be done in two different wa
    
    You CAN'T upload products to the addon without configuring the addon levels beforehand.
    
-## Make/Model/ Year Selection Statistics
+## Make/Model/Year Selection Statistics
 
 The visitors' selection statistics can be tracked in a special section of the store Admin area (**Catalog** -> **M/M/Y/E selection statistics**):
 ![mmye-selection-stats.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/mmye-selection-stats.png)
