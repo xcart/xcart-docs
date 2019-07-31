@@ -13,7 +13,7 @@ The **Make/Model/Year** filters show up on all the pages of your online store. A
 
 ![filters-fontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/filters-fontend.png)
 
-Registered customers can save their vehicles in their account profile using the **'Remember my vehicle'** checkbox. Next time they come to your store, they will see the parts for their vehicles right away without the need to use any filters.
+Registered customers can save their vehicles in their account profile using the **'Remember my vehicle'** checkbox. Next time they come to your store they will see the parts for their vehicles right away without the need to use any filters.
 
 {% toc %}
 
@@ -51,22 +51,29 @@ Once the Make/Model/Year addon settings have been configured, you can proceed wi
 
 To configure the filters:
 
-1. Go to the **Catalog** -> **Make/Model/Year/Engine** page of the store back end and start adding the filters of Level 1 (**Makes**). 
+1. Go to the **Catalog** -> **Make/Model/Year/Engine** page of the store back end and start adding the filters of Level 1. If you have chosen to use the name "Make" for Level 1 filters, these will be the different "Makes" that you have in your catalog. 
    ![make.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/make.png)
-   To add a Make, click on the **'New Make'** button; on the new line that appears, specify the name of the Make. Save the changes.  
+   
+   If you are using a different name for the filters of Level 1, you will see that name used instead of "Make".
+   
+   To add a filter at this level, click on the **New Make** button; on the new line that appears, specify the name of the Make (or whatever other filter you are configuring). Save the changes.  
 
-2. Proceed with the next levels configuration (Model/Year/Engine) likewise. 
-   * Click the **Manage Model** link opposite to the **Make** (**Manage Year** link opposite to the **Model** and so on) and add the positions for the next levels. 
+2. After adding the filters you require at Level 1, you can proceed to configuring the following level of filters (Level 2). For example, after adding a Make, you need to add Models for that make. To do so, click on the **Manage Model** link opposite the Make name and add the positions you require at this level.
+   
+   Configuring the filters for Level 3 and Level 4 ("Year", "Engine" or whatever other names you are using for them) needs be done using the same method. 
+    
      <div class="ui stackable three column grid">
         <div class="column" markdown="span">![model.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/model.png)</div>
         <div class="column" markdown="span">![year.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/year.png)</div>
         <div class="column" markdown="span">![engine.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/engine.png)</div>
      </div>
 
-3. When the levels are configured, you can add products on the very last step by clicking the **Manage Products** link in the end. 
-   * If the products are already added/uploaded to the store, click the **'Add product'** button and choose the products that meet the filters you configured from a list in a pop-up.
+3. After the filter levels you require have been configured, at the very last step you will get the link **Manage Products** that will allow you to add the products that should be found when a shopper uses the respective filters. 
+
+   * If the products are already in your store, you will be able to specify which products need to go here. Start by clicking the **'Add product'** button. A list of your products will be displayed in a popup. Select the products that match the filters you have configured.
      ![select_products.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/select_products.png)
-   * If the products are not uploaded to the store as yet, you can import them with a .csv file using the guides [here](https://kb.x-cart.com/modules/MMY.html#makemodelyear-addon-data-importexport "Make/Model/Year").
+     
+   * If the products have not been added to your store catalog yet, you can add them by CSV import. For details, see the section [Make/Model/Year Addon Data Import/Export](https://kb.x-cart.com/modules/MMY.html#makemodelyear-addon-data-importexport) further below.
    
 ## **Level info** Page Setup
 
