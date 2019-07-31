@@ -112,7 +112,7 @@ Editing product class attributes include changing attribute name and options as 
         ![pc-attr-edit-2.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-edit-2.png)
       * click on the drop-down errow next to the attribute option name to choose another option from the list of suggested;
         ![pc-attr-edit-3.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-edit-3.png)
-      * click on the _Modifiers_ link next to the attribute option name to add {% link "Price and Weight Modifiers" ref_1t4DxHbf %};
+      * for multivalue attributes click on the _Modifiers_ link next to the attribute option name to add {% link "Price and Weight Modifiers" ref_1t4DxHbf %};
         ![pc-attr-edit-4.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-edit-4.png)
         {% note info %}
         In case _Modifiers_ are added to the existing product class attribute option(s) and are applied globally (with the **Apply attribute value changes for all the products** setting enabled) the changes will affect only the products with the corresponding attribute option(s) enabled. All products that has the corresponding attribute option(s) disabled will stay as is.
