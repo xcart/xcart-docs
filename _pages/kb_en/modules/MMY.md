@@ -7,13 +7,20 @@ title: Make/Model/Year
 order: 165
 published: true
 ---
-The addon [Make/Model/Year](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year") is intended primarily for [sellers of auto parts and/or moto parts](https://www.x-cart.com/sell-car-parts-online.html), but can be used by any seller who can differentiate their products by levels. For example, this approach may be useful if selling things like computers, copiers, smartphones and so on. The addon can be used to configure up to four levels of filtering for the inventory. With this addon, the store can remember the filter settings for non-registered/non logged in visitors, as well as remember the vehicle for registered customers.  
+The addon [Make/Model/Year](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year") is intended primarily for [sellers of auto parts and/or moto parts](https://www.x-cart.com/sell-car-parts-online.html), but can be used by any seller who can benefit from allowing shoppers to find products in their store catalog by Year, Make, Model or any additional fields configured with the help of this addon. For example, this approach may be handy if selling things like computers, copiers, smartphones and so on. 
 
-The Make/Model/Year filters show up on all the pages of your online store. A customer selects the make, model, year and engine they require using the convenient selectors and gets search results in the form of a list of products with the characteristics that have been specified. Note that "Make", "Model", "Year" and "Engine" are just the names used by default; you can change them as you require, as well as change the number of filtering levels that should be used.
+The addon can be used to configure up to four levels of filtering for the inventory. 
+
+The filters configured using the Make/Model/Year addon will show up on all the pages of your online store. A shopper searching for parts for their vehicle will be able to select the make, model, year and engine they require using the convenient selectors. The search results will be provided to them as a list of products with the characteristics that have been specified. 
 
 ![filters-fontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/filters-fontend.png)
 
-Registered customers can save information about their vehicle in their account profile using the **Remember my vehicle** checkbox. Next time they shop at your store they will be able to see the parts for their specific vehicle right away without the need to adjust the filters.
+Note that "Make", "Model", "Year" and "Engine" are just the names used by default; you can change them as you require, as well as change the number of filtering levels that should be used. 
+
+The store will be able to "remember" the filter selections for non-registered/non logged in visitors.
+
+Registered customers will also be able to save the information about their vehicle in their account profile using the **Remember my vehicle** checkbox. Next time they shop at your store they will be able to see the parts for their specific vehicle right away without the need to adjust the filters.
+
 
 {% toc %}
 
