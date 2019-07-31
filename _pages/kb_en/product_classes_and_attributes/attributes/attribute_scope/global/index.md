@@ -30,7 +30,7 @@ However, if necessary it's also possible to create and manage global attributes 
 _In this section:_
 
 *  {% link "Global Attributes Management via the "Classes and Attributes" Section" ref_4ARLM9v7 %}
-*  Global Attributes Management via Product Details Page (under construction)
+*  {% link "Global Attributes Management via Product Details Page" ref_5ciIjyUn %}
 *  Import of Global Attributes (under construction)
 
 
