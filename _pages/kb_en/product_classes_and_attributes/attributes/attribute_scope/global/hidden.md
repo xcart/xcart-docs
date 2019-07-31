@@ -36,16 +36,52 @@ To create a hidden attribute:
     ![ga-hidden-1.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-1.png)
 6.  Click the **New value** button to configure the hidden attribute options. Add as many attribute options as you need.
     ![ga-hidden-2.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-2.png)
-7.  If you want some or all of the option(s) you added for this hidden global attribute to be assigned automatically to all the products in your store's catalog, click the check-mark icon opposite the names of the related attribute options (the check-mark icons should turn green): 
+7.  If you want some or all of the option(s) you added for this hidden global attribute to be assigned automatically to all NEW products in your store's catalog, click the check-mark icon opposite the names of the related attribute options (the check-mark icons should turn green): 
     ![ga-hidden-3.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-3.png)
+    {% note info %}
+    Enabling check-mark for a hidden attribute option will not affect the products that are present in the store by far. All exisiting products will preserve their current global attributes' configuration.
+    {% endnote %}
 8.  Once you're done editing the attribute options, save the changes using the **Save changes** button.
     
     The attribute options(s) should be saved and added to the global attributes list:
     ![ga-hidden-4.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-4.png)
-
-If at step 7 you didn't enable the hidden attribute options to be assigned automatically to all existing products in your store, you need to assign and configure hidden attributes to the products in your store.
+    
+Hidden attributes like any other global attributes are assigned to products automatically right after they were created. However, for the hidden attributes to become available for internal products management a store admin must configure hidden attribute options for existing products in the store.
 
 ## Assigning Hidden Attributes to Products
 
-If you haven't enabled any of the hidden attribute options 
+Once hidden attributes have been created via the **Classes & Attributes** section of the store Admin area it's necessary to assing the hidden attribute options for existing products in the store. 
+
+Unlike other product attributes hidden attribute options can be assigned either on a per-product basis using a product details page or for a group of products or all products in the store using the {% link "Bulk Editing" ref_1kSYmXQn %} feature. 
+
+### Assigning Hidden Attribute Options via Bulk Editing
+
+To assign hidden attribute options to products via the Bulk Editing feature:
+
+1. Open the product listing page of the store Admin area (**Catalog** -> **Products**):
+   ![ga-hidden-be-1.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-1.png)
+2. In the products list locate the products you want to assign the hidden attribute option to.
+   
+   You can either use the search bar to select a certain category of products or use the checkboxes opposite the products you want to edit direatly on the product listing page:
+   <div class="ui stackable two column grid">
+     <div class="column" markdown="span">![ga-hidden-be-2.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-2.png)</div>
+     <div class="column" markdown="span">![ga-hidden-be-2-1.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-2-1.png)</div>
+   </div>
+3. Click **Bulk edit all/selected** -> **Hidden attributes** icon:
+   ![ga-hidden-be-3.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-3.png)
+   You'll be redirected to a page with the chosen products list and a lits of hidden atributes configured in your store via the **Classes & Attributes** section:
+   ![ga-hidden-be-4.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-4.png)
+
+4. On the page that opens choose the hidden attribute option you want to assign to products:
+   ![ga-hidden-be-5.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-5.png)
+
+5. Click **Save changes** to apply the chosen hidden attribute option to the products in the list.
+   ![ga-hidden-be-6.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-6.png)
+   
+   That's it! The required hidden attribute option has been assigned:
+   ![ga-hidden-be-7.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-7.png)
+
+
+
+### Assigning Hidden Attribute Options via Product Details
 
