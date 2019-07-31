@@ -7,21 +7,22 @@ title: Make/Model/Year
 order: 165
 published: true
 ---
-The [Make/Model/Year](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year") addon allows to set up up to 4 levels of filter for inventory, as well as to remember the filters for the non-registered visitors and to remember the vehicle for the registered customers. Although the addon is mainly aimed at the [sellers of auto parts or/and moto parts](https://www.x-cart.com/sell-car-parts-online.html), it can also be used by any seller who differentiates the products by levels like computers, copiers, smartphones, etc. 
+The addon [Make/Model/Year](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year") is intended primarily for [sellers of auto parts or/and moto parts](https://www.x-cart.com/sell-car-parts-online.html), but can be used by any seller who differentiates the products by levels - like computers, copiers, smartphones, etc. The addon can be used to configure up to 4 levels of filtering for the inventory. With this addon, the store can remember the filter settings for non-registered/non logged in visitors, as well as remember the vehicle for registered customers.  
 
-The **Make/Model/Year** filters show up on all pages in your online store. A customer selects a make of a product, a model, a year and an engine using convenient modern selectors and gets a list of products with the set characteristics.
+The **Make/Model/Year** filters show up on all the pages of your online store. A customer selects a product's make, model, year and engine using the convenient selectors and gets a list of products with the characteristics that have been specified.
 
 ![filters-fontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/filters-fontend.png)
 
-Registered customers can save their vehicles in the account with the **'Remember my vehicle'** checkbox. Next time they come to your store, they will see the parts for their vehicles right away without the need to use filters.
+Registered customers can save their vehicles in their account profile using the **'Remember my vehicle'** checkbox. Next time they come to your store, they will see the parts for their vehicles right away without the need to use any filters.
 
 {% toc %}
 
-## Make/Model/Year Addon Installation and Set-Up
+## Make/Model/Year Addon Installation and Setup
 
-To install the addon follow the steps described in {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. Once the addon has been installed and enabled, go to the addon settings page to configure it.
+To start using the addon, make sure it is installed and enabled. The addon can be btained from the X-Cart App Store. General addon installaton instructions can be found in the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![mmy_addon.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/mmy_addon.png)
 
-![installed.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/installed.png)
+Once the addon has been installed and enabled, go to the addon settings page to configure it.
 
 The addon configuration settings are as follows:
 
