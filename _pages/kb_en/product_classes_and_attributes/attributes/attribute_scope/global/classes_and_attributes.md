@@ -49,14 +49,16 @@ To add a new global attribute:
 6.  Configure the attribute options depending on {% link "the chosen attribute value field type" ref_5qw116xV %}. Add as many attribute options as you need.
     ![ga-add-attribute-4.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-add-attribute-4.png)
     
-7.  If you want some or all of the option(s) you added for this global attribute to be assigned automatically to all the products in your store's catalog, click the check-mark icon opposite the names of the related attribute options (the check-mark icons should turn green): 
+7.  If you want some or all of the option(s) you added for this hidden global attribute to be assigned automatically to all NEW products in your store's catalog, click the check-mark icon opposite the names of the related attribute options (the check-mark icons should turn green):
     ![ga-add-attribute-4-1.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-add-attribute-4-1.png)
+    {% note info %}
+    Enabling check-mark for a hidden attribute option will not affect the products that are present in the store by far. All exisiting products will preserve their current global attributes' configuration.
+    {% endnote %}
 8.  Once you're done editing the attribute options, save the changes using the **Save changes** button.
     
     The attribute options(s) should be saved and added to the global attributes list:
     ![ga-add-attribute-5.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-add-attribute-5.png)
 
-If at step 7 you chose to enable the check-mark icon for any attribute option, the related options will be assigned automatically to all existing products in your store. 
 
 ## Adding Groups to Global Attributes
 
