@@ -58,11 +58,13 @@ To add a new global attribute:
     
     The attribute options(s) should be saved and added to the global attributes list:
     ![ga-add-attribute-5.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/ga-add-attribute-5.png)
+    
+All global attributes are assigned automatically to all existing products in the store. However, for them to be displayed properly in the storefront a store admin must configure global attribute options for existing products.
 
 
 ## Adding Groups to Global Attributes
 
-In case a product class should have a considerable amount of attributes it makes sense to devide the attributes into groups to make the attributes representation to a customer structured and easy to persive.
+If required it's possible to devide the global attributes into groups to make the attributes representation to a customer structured and easy to persive.
 
 To add a group to global attributes:
 
