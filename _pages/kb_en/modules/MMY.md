@@ -19,12 +19,12 @@ Registered customers can save their vehicles in their account profile using the 
 
 ## Make/Model/Year Addon Installation and Setup
 
-To start using the addon, make sure it is installed and enabled. The addon can be btained from the X-Cart App Store. General addon installaton instructions can be found in the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+To start using the addon, make sure it is installed and enabled. The addon can be obtained from the X-Cart App Store. General addon installaton instructions can be found in the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 ![mmy_addon.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/mmy_addon.png)
 
 Once the addon has been installed and enabled, go to the addon settings page to configure it.
 
-The addon configuration settings are as follows:
+The addon settings are as follows:
 
 ![settings.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/settings.png)
 
