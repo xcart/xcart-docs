@@ -11,9 +11,9 @@ Global attributes can be created and managed via the **Attributes** -> **Global*
 
 ![ga-product-details.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-product-details.png)
 
-If speaking about global attributes, the main purpose of the **Attributes** -> **Global** tab of a product details page is to give a store admin the tool to assign and configure a global attribute for this particular product.
+If speaking about global attributes, the main purpose of the **Attributes** -> **Global** tab of a product details page is to give a store admin the tool to assign and configure global attributes for this particular product.
 
-It's generally accepted that the respective global attributes are created beforehand via the **Classes & attributes** section (**Catalog > Classes & attributes**) as described in the {% link "Global Attributes Management via the "Classes and Attributes" Section" ref_4ARLM9v7 %} guide because this is the most common way of product classes and product class attributes management.
+It's generally accepted that the respective global attributes are created beforehand via the **Classes & attributes** section (**Catalog > Classes & attributes**) as described in the {% link "Global Attributes Management via the "Classes and Attributes" Section" ref_4ARLM9v7 %} guide because this is the most common way of global attributes management.
 
 However, if there is a need it's also possible to create a global attribute and assign it to a product directly in the **Attributes** -> **Global** tab of a product details page.
 
@@ -23,11 +23,11 @@ So all-in-all the **Attributes** -> **Global** tab of a product details page giv
 
 ## Assigning Global Attributes to Products
 
-After [adding global attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/global/classes_and_attributes.html#adding-global-attributes "Global Attributes Management via Product Details Page") via the **Classes & attributes** section (**Catalog > Classes & attributes**), you need to assign these attributes to specific products. 
+After [creating global attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/global/classes_and_attributes.html#adding-global-attributes "Global Attributes Management via Product Details Page") via the **Classes & attributes** section (**Catalog > Classes & attributes**), you need to assign these attributes to specific products. 
 
 Usually all global attributes are automatically assigned to all products in your store (both existing and future ones) right after they are created. However, it's necessary to make sure the assigned global attributes are configured properly to be displayed in the storefront.
 
-To assign and configure a global attribute follow the steps below:
+To assign and configure a global attribute for a product follow the steps below:
 
 1.  In your store's Admin area, locate the product you need to assign a global attribute to, open the product details and click on the **Attributes** tab:
     ![ga-assign-1.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-assign-1.png)
@@ -58,7 +58,7 @@ To assign and configure a global attribute follow the steps below:
 
 ## Adding Global Attributes
 
-It may turn that there is no required global attribute in the list of global atttibutes assigned to a product or you may want to add another global attribute to the list. This is possible to do directly from the Attributes -> Global tab of any product details page.
+It may turn that there is no required global attribute in the list of global attributes assigned to a product or you may want to add another global attribute to the list. This is possible to do directly from the **Attributes** -> **Global** tab of any product details page.
 
 To add a new global attribute:
 
@@ -101,7 +101,7 @@ To edit global attribute(s) via the **Attributes** -> **Global** tab of a produc
 2.  In the **Attributes** drop-down choose **Global**:
     ![ga-assign-2.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-assign-2.png)
 3.  On the page that opens, locate the **Global attributes** page section.
-    ![ga-create-1.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-create-1.png)
+    ![ga-assign-3.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-assign-3.png)
 4.  To edit the values of global attribute options (the options that have been added automatically along with the global attribute assignment):
       * click on the attribute option name to change it or click on the drop-down errow next to the attribute option name to choose an option from the list of suggested;
         ![ga-pd-edit-2.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-pd-edit-2.png)
@@ -111,21 +111,21 @@ To edit global attribute(s) via the **Attributes** -> **Global** tab of a produc
         In case _Modifiers_ are added to the existing global attribute option(s) and are applied globally (with the **Apply attribute value changes for all the products** setting enabled) the changes will affect only the products with the corresponding attribute option(s) enabled. All products that has the corresponding attribute option(s) disabled will stay as is.
         {% endnote %}  
         
-5.  Specify whether you want to apply the changes globally by enabling the Apply attribute value changes for all the products setting: 
+5.  Specify whether you want to apply the changes globally by enabling the **Apply attribute value changes for all the products** setting: 
     ![ga-pd-edit-4.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-pd-edit-4.png)
 6.  Click **Save changes**.
 
 ## Deleting Global Attributes
 
-To delete a global attribute via the Attributes -> Global tab of a product details page:
+To delete a global attribute via the **Attributes** -> **Global** tab of a product details page:
 
 1.  In your store's Admin area, find any product that has the global attribute you want to delete, open the product details page and check the **Attributes** tab.
     ![ga-assign-1.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-assign-1.png)
 2.  In the **Attributes** drop-down click **Global**.
     ![ga-assign-2.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-assign-2.png)
 3.  On the page that opens, scroll down to the **Global attributes** section.
-    ![ga-create-1.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-create-1.png)
+    ![ga-assign-3.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-assign-3.png)
 4.  Find the attribute you want to delete and click on the **Trash** icon opposite its name. The attribute will be marked for deletion.
     ![ga-pd-delete.png]({{site.baseurl}}/attachments/ref_5ciIjyUn/ga-pd-delete.png)
-5.  It does not matter whether the setting "Apply attribute value changes for all the products" is enabled or not: deleting global attribute on a product details page hides the option for this product only. To remove the attribute for all the products, use [the Classes & Attributes page](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/global/classes_and_attributes.html#deleting-global-attributes "Global Attributes Management via Product Details Page").
+5.  It does not matter whether the setting **Apply attribute value changes for all the products** is enabled or not: deleting global attribute on a product details page hides the option for this product only. To remove the attribute for all the products, use [the Classes & Attributes page](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/global/classes_and_attributes.html#deleting-global-attributes "Global Attributes Management via Product Details Page").
 6.  Click **Save changes**.
