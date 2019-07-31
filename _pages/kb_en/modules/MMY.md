@@ -7,13 +7,13 @@ title: Make/Model/Year
 order: 165
 published: true
 ---
-The addon [Make/Model/Year](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year") is intended primarily for [sellers of auto parts and/or moto parts](https://www.x-cart.com/sell-car-parts-online.html), but can be used by any seller who differentiates the products by levels - like computers, copiers, smartphones, etc. The addon can be used to configure up to 4 levels of filtering for the inventory. With this addon, the store can remember the filter settings for non-registered/non logged in visitors, as well as remember the vehicle for registered customers.  
+The addon [Make/Model/Year](https://market.x-cart.com/addons/make-model-year.html "Make/Model/Year") is intended primarily for [sellers of auto parts and/or moto parts](https://www.x-cart.com/sell-car-parts-online.html), but can be used by any seller who can differentiate their products by levels. For example, this approach may be useful if selling things like computers, copiers, smartphones and so on. The addon can be used to configure up to 4 levels of filtering for the inventory. With this addon, the store can remember the filter settings for non-registered/non logged in visitors, as well as remember the vehicle for registered customers.  
 
-The **Make/Model/Year** filters show up on all the pages of your online store. A customer selects the make, model, year and engine they require using the convenient selectors and gets a list of products with the characteristics that have been specified.
+The Make/Model/Year filters show up on all the pages of your online store. A customer selects the make, model, year and engine they require using the convenient selectors and gets search results in the form of a list of products with the characteristics that have been specified.
 
 ![filters-fontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/filters-fontend.png)
 
-Registered customers can save their vehicles in their account profile using the **'Remember my vehicle'** checkbox. Next time they come to your store they will see the parts for their vehicles right away without the need to use any filters.
+Registered customers can save their vehicles in their account profile using the **'Remember my vehicle'** checkbox. Next time they shop at your store they will be able to see the parts for their vehicles right away without the need to adjust the filters.
 
 {% toc %}
 
