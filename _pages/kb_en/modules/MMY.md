@@ -34,11 +34,11 @@ The addon settings are as follows:
 | **Name of level X**| The default filter names are preset to Make/Model/Year/Engine, but you can set any filter name you like better instead. |
 | **Maximum banner width** | Set the width of a banner that will be displayed on the _Level Info_ page. The preset value is 500. |
 | **Maximum banner height** | Set the height of a banner that will be displayed on the _Level Info_ page. The preset value is 200. |
-| **Use separate tab for the fitment on the product page** | If enabled the information on all the vehicles the part can be used for will be displayed in a separate _Fitment_ tab on the product details page in the storefront. If disabled the info will be displayed in the main _Description_ tab. | 
+| **Use separate tab for the fitment on the product page** | If this is enabled, the information on all the vehicles for which the part can be used will be displayed in a separate _Fitment_ tab on the product details page on the storefront. If this is disabled, the info will be displayed in the main _Description_ tab. | 
 | **Level X sorting** | Choose the order of the search results representation for the level. |
 
 {% note info %}
-With the **Use separate tab for the fitment on the product page** option enabled each product will gain a separate **Fitment** tab that will be displayed on the product details page both in the store back end and on the storefront.
+With the option **Use separate tab for the fitment on the product page** enabled, each product will have a separate **Fitment** tab that will be displayed on the product details page both in the store back end and on the storefront.
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![fitment-admin.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-admin.png)</div>
   <div class="column" markdown="span">![fitment-frontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-frontend.png)</div>
@@ -47,14 +47,13 @@ With the **Use separate tab for the fitment on the product page** option enabled
 
 ## Filter Levels Setup
 
-When the **Make/Model/Year** addon settings are configured you can proceed with setting up the filter levels and populating the addon with products. 
+Once the Make/Model/Year addon settings have been configured, you can proceed with setting up the filter levels and populating the addon with products. 
 
 To configure the filters:
 
-1. Go to the **Catalog** -> **Make/Model/Year/Engine** page of the store back end and start adding the filters of Level 1 (**Makes**):
+1. Go to the **Catalog** -> **Make/Model/Year/Engine** page of the store back end and start adding the filters of Level 1 (**Makes**). 
    ![make.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/make.png)
-   * Click on the **'New Make'** button and name the Make in a new line. 
-   * When all the makes are added, click **Save changes**.  
+   To add a Make, click on the **'New Make'** button; on the new line that appears, specify the name of the Make. Save the changes.  
 
 2. Proceed with the next levels configuration (Model/Year/Engine) likewise. 
    * Click the **Manage Model** link opposite to the **Make** (**Manage Year** link opposite to the **Model** and so on) and add the positions for the next levels. 
@@ -65,13 +64,13 @@ To configure the filters:
      </div>
 
 3. When the levels are configured, you can add products on the very last step by clicking the **Manage Products** link in the end. 
-   * If the products are already added/uploaded to the store click the **'Add product'** button and choose the products that meet the filters you configured from a list in a pop-up.
+   * If the products are already added/uploaded to the store, click the **'Add product'** button and choose the products that meet the filters you configured from a list in a pop-up.
      ![select_products.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/select_products.png)
    * If the products are not uploaded to the store as yet, you can import them with a .csv file using the guides [here](https://kb.x-cart.com/modules/MMY.html#makemodelyear-addon-data-importexport "Make/Model/Year").
    
 ## **Level info** Page Setup
 
-Starting from Level 2 (**Model**), each sublevel has a special **Level info** page, that if configured will be displayed in the storefront depending on the selected filters. It’s especially useful if you want to provide your customers with additional information on Make, Model or particular vehicle when they select it. Due to flexible settings, you can set the same page, for example, for all models and years or a separate page for each model (and even year). Using a simple interface you can set the page Title, Image and Description. 
+Starting from Level 2 (**Model**), each sublevel has a special **Level info** page, that if configured will be displayed on the storefront depending on the selected filters. It is especially useful if you want to provide your customers with additional information on the Make, Model or particular vehicle when they select it. Due to flexible settings, you can set the same page, for example, for all models and years or a separate page for each model (and even year). Using a simple interface you can set the page Title, Image and Description. 
 ![level_info.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/level_info.png)
 
 When a customer clicks to filter the parts, he will be redirected to the corresponding landing page (**Level info** page) with its own name, image and information. This page will also contain the list of spare parts for the vehicle specified by the customer. 
@@ -81,20 +80,20 @@ When a customer clicks to filter the parts, he will be redirected to the corresp
    <div class="column" markdown="span">![landing-customer.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/landing-customer.png)</div>
 </div>
 
-If the **Level page** is not configured for a sublevel, the addon will display the search results depending on the filters set by a customer.
+If the **Level page** is not configured for a sublevel, the addon will display search results based on the filters specified by the customer.
 
 ![customer_filters.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/customer_filters.png)
 
 
 ## Make/Model/Year Addon Data Import/Export 
 
-The Make/Model/Year addon data can be exported in the **Catalog** -> **Export** section:
+The Make/Model/Year addon data can be exported via the **Catalog** -> **Export** section:
 
 ![export.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/export.png)
 
-If you need to include product SKU data into the export file use the **Products with Make/Model/Year/Engine** export option (products-mmy-YYYY-MM-DD.csv file format). The **Make/Model/Year/Engine listing** export option gives all the same export data except for the product SKU (mmy-YYYY-MM-DD.csv).
+If you need to include product SKU data into the export file, use the export option **Products with Make/Model/Year/Engine** (products-mmy-YYYY-MM-DD.csv file format). The export option **Make/Model/Year/Engine listing** gives all the same export data except for the product SKU (mmy-YYYY-MM-DD.csv).
 
-A data import for the Make/Model/Year addon can also be done in two different ways:
+A data import for the Make/Model/Year addon can also be done in two different ways: with or without SKU.
 
 1. **With SKU**
    
