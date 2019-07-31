@@ -38,20 +38,20 @@ The addon configuration settings are as follows:
 | **Level X sorting** | Choose the order of the search results representation for the level. |
 
 {% note info %}
-With the **Use separate tab for the fitment on the product page** option enabled each product will gain a separate **Fitment** tab that will be displayed on the product details page both in the admin back-end and customer frontend.
+With the **Use separate tab for the fitment on the product page** option enabled each product will gain a separate **Fitment** tab that will be displayed on the product details page both in the store back end and on the storefront.
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![fitment-admin.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-admin.png)</div>
   <div class="column" markdown="span">![fitment-frontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-frontend.png)</div>
 </div>
 {% endnote %}
 
-## Filter Levels Set-Up
+## Filter Levels Setup
 
 When the **Make/Model/Year** addon settings are configured you can proceed with setting up the filter levels and populating the addon with products. 
 
 To configure the filters:
 
-1. Go to the **Catalog** -> **Make/Model/Year/Engine** page of the admin back-end and start adding the filters of Level 1 (**Makes**):
+1. Go to the **Catalog** -> **Make/Model/Year/Engine** page of the store back end and start adding the filters of Level 1 (**Makes**):
    ![make.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/make.png)
    * Click on the **'New Make'** button and name the Make in a new line. 
    * When all the makes are added, click **Save changes**.  
@@ -69,7 +69,7 @@ To configure the filters:
      ![select_products.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/select_products.png)
    * If the products are not uploaded to the store as yet, you can import them with a .csv file using the guides [here](https://kb.x-cart.com/modules/MMY.html#makemodelyear-addon-data-importexport "Make/Model/Year").
    
-## **Level info** Page Set-Up
+## **Level info** Page Setup
 
 Starting from Level 2 (**Model**), each sublevel has a special **Level info** page, that if configured will be displayed in the storefront depending on the selected filters. It’s especially useful if you want to provide your customers with additional information on Make, Model or particular vehicle when they select it. Due to flexible settings, you can set the same page, for example, for all models and years or a separate page for each model (and even year). Using a simple interface you can set the page Title, Image and Description. 
 ![level_info.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/level_info.png)
@@ -127,7 +127,7 @@ A data import for the Make/Model/Year addon can also be done in two different wa
    
 ## Make/Model/ Year Selection Statistics
 
-The addon allows a store admin to track visitors' selection statistics in a special section in the admin area (**Catalog** -> **M/M/Y/E selection statistics**):
+The visitors' selection statistics can be tracked in a special section of the store Admin area (**Catalog** -> **M/M/Y/E selection statistics**):
 ![mmye-selection-stats.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/mmye-selection-stats.png)
 
-A store admin can trace visitors' preferences for the last day/week/month period and maintain the store inventory accordingly.
+There the store administrator can review the visitors' preferences for a certain period (last day/week/month) and maintain the store inventory accordingly.
