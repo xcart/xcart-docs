@@ -2,11 +2,12 @@
 title: X-Cart versioning
 lang: en
 layout: article_with_sidebar
-updated_at: 2016-12-14 16:24 +0400
+updated_at: '2016-12-14 16:24 +0400'
 identifier: ref_wUXMKpNm
 categories:
-- Developer docs
+  - Developer docs
 order: 100
+published: true
 ---
 
 ## Introduction
@@ -19,6 +20,7 @@ This article explains a rule of building X-Cart core and module versions. It sta
 *   [Table of Contents](#table-of-contents)
 *   [X-Cart 5.2.x and earlier versioning](#x-cart-52x-and-earlier-versioning)
 *   [X-Cart 5.3.x versioning](#x-cart-53x-versioning)
+*   [X-Cart 5.4.x versioning](#x-cart-54x-versioning)
 
 ## X-Cart 5.2.x and earlier versioning
 
@@ -49,6 +51,13 @@ When submitting an update, increment the build version when you make _backwards-
 Build version is also specified in the {% link "Main.php file" ref_G2mlgckf %} using `getBuildVersion()` method.
 
 Also, when you release new bugfix version, you must include all changes to a new minor version, making it a cumulative upgrade. Thus you will allow the store administrator to choose either a bugfix update or a features upgrade.
+
+## X-Cart 5.4.x versioning
+
+In the 5.4.x.x version we replaced some of the methods with corresponding field options in the **main.yaml** file.
+
+`getMajorVersion`, `getMinorVersion` and `getBuildVersion` methods were replaced with version field.
+It should contain four numbers with the point delimiters between them (e.g. _5.4.0.0_). You may include two or three first numbers (_5.4_ or _5.4.0_) but four is preferable to avoid confusion.
 
 ## Related articles
 
