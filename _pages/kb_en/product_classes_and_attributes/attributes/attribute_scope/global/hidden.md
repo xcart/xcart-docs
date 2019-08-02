@@ -5,7 +5,7 @@ updated_at: '2019-07-31 11:32 +0400'
 identifier: ref_4bmoAAzp
 title: Hidden Global Attributes
 order: 130
-published: false
+published: true
 ---
 Global attributes are the only product attributes that support the values of a [hidden field type](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_values/field_types.html#hidden-field "Hidden Global Attributes"). Global attributes with a hidden field type of value are called hidden attributes. Such attributes are not displayed in the storefront and can hence be used for internal product management purposes, like creating product feeds for the {% link "Google Product Feed" ref_7aXFWHEN %} addon. 
 
