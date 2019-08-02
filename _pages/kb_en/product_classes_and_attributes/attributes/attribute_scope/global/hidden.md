@@ -46,11 +46,11 @@ To create a hidden attribute:
     The attribute options(s) should be saved and added to the global attributes list:
     ![ga-hidden-4.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-4.png)
     
-Hidden attributes like any other global attributes are assigned to products automatically right after they were created. However, for the hidden attributes to become available for internal products management a store admin must configure hidden attribute options for existing products in the store.
+Hidden attributes like any other global attributes are assigned to products automatically right after they have been created. However, for the hidden attributes to become available for internal products management a store admin must assign and configure hidden attribute options for existing products in the store.
 
 ## Assigning Hidden Attributes to Products
 
-Once hidden attributes have been created via the **Classes & Attributes** section of the store Admin area it's necessary to assing the hidden attribute options for existing products in the store. 
+Once hidden attributes have been created via the **Classes & Attributes** section of the store Admin area it's necessary to assing the hidden attribute options to existing products in the store. 
 
 Unlike other product attributes hidden attribute options can be assigned either on a per-product basis using a product details page or for a group of products or all products in the store using the {% link "Bulk Editing" ref_1kSYmXQn %} feature. 
 
@@ -82,6 +82,43 @@ To assign hidden attribute options to products via the Bulk Editing feature:
    ![ga-hidden-be-7.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-7.png)
 
 
-
 ### Assigning Hidden Attribute Options via Product Details
 
+If required a hidden attribute can be assigned on a per-product basis on a related product details page:
+
+1. In your store’s Admin area, locate the product you need to assign a hidden attribute to, open the product details page and hover the cursor on the **Attributes** tab:
+   ![ga-hidden-pd-1.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-pd-1.png)
+
+2. Choose **Hidden attributes** in the drop-down to access the subsection where you can assign hidden global attributes to this product:
+   ![ga-hidden-pd-2.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-pd-2.png)
+
+3. On the page that opens, you can see the full list of your store’s hidden global attributes. The attributes for which the **Attribute option** field is empty are assigned but not configured for the product.
+   
+4. For the attribute that needs to be configured:
+   * click inside the **Attribute option** field and type in the value you require, or:
+     ![ga-hidden-pd-3-2.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-pd-3-2.png)
+   * click on the down arrow button at the right of the **Attribute option** field and select one of previously configured attribute options from the drop-down list: 
+     ![ga-hidden-pd-4.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-pd-4.png)
+
+5. Click **Save changes**.
+
+## Managing Hidden Attributes
+
+Hidden attributes like any other global attributes are [managed](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/global/classes_and_attributes.html#managing-global-attributes "Hidden Global Attributes") on the global attributes listing page in the **Classes & Attributes** section of the Admin area (**Catalog** -> **Classes & Attributes**). Here a store admin can create new hidden atributes, add existing hidden attributes to {% link "attribute groups" ref_otIvC7NR %}, edit existing hidden attribute names and options and delete them if required. All changes applied to hidden attributes via the **Classes & Attributes** section are applied store-wide and affect all products with the corresponding hidden attributes assigned and configured.
+
+To open global attributes listing it’s necessary to open the **Classes & Attributes** section of the Admin area (**Catalog** -> **Classes & Attributes**)and click on the link _Edit attributes (N)_ opposite the **Global attributes** line (here N stands for a number of global attributes configured in the store):
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![ga-listing.png]({{site.baseurl}}/attachments/ref_HzMkgc0q/ga-listing.png)</div>
+  <div class="column" markdown="span">![ga-hidden-listing.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-listing.png)</div>
+</div>
+
+Hidden attributes will have the _Hidden field_ {% link "type" ref_5qw116xV %} in the global attributes list.
+
+To learn how to manage hidden attributes please refer to the [Managing Global Attributes via the "Classes & Attributes" section](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/global/classes_and_attributes.html#managing-global-attributes "Hidden Global Attributes") guide of our Knowledge Base.
+
+_Related pages:_
+*   {% link "Global Attributes" ref_HzMkgc0q %}
+*   {% link "Global Attributes Management via the "Classes and Attributes" Section" ref_4ARLM9v7 %}
+*   {% link "Attribute Value Field Types" ref_5qw116xV %}
+*   {% link "Google Product Feed" ref_7aXFWHEN %}
