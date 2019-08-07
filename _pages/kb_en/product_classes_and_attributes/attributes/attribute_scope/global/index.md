@@ -32,7 +32,7 @@ _In this section:_
 *  {% link "Global Attributes Management via the "Classes and Attributes" Section" ref_4ARLM9v7 %}
 *  {% link "Global Attributes Management via Product Details Page" ref_5ciIjyUn %}
 *  {% link "Hidden Global Attributes" ref_4bmoAAzp %}
-*  Import of Global Attributes (under construction)
+*  {% link "Import of Global Attributes" ref_0ikVaxWb %}
 
 
 _Related pages:_
