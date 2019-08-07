@@ -61,7 +61,7 @@ The rest of the fields are optional. More info on the fields and field values th
 
 ## Importing Global Attributes via Products.csv
 
-A products.csv file is a general file for importing all product-related info and contains all possible info about a product that may be imported into a store. Using products.csv it's possible to create global attributes and assign them to products, but the file itself is so big that it's easier and less confusing to use other 2 ways of importing global attributes instead. The products.csv file is good when you need to import global attributes along with the rest of the product info.
+A products.csv file is a general file for importing all product-related info and contains all possible info about a product that may be imported into a store. Using products.csv it's possible to create global attributes and assign them to products, but the file itself is so big that it's easier and less confusing to use other 2 ways of importing global attributes instead. The products.csv file is good when you need to import global attributes along with the rest of the product info. However, do mind that the products.csv file doesn't allow to define the attribute {% link "field types" ref_5qw116xV %}.
 
 Let's consider the sample below:
 ![ga-import-pr.png]({{site.baseurl}}/attachments/ref_0ikVaxWb/ga-import-pr.png)
