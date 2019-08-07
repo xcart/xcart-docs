@@ -5,7 +5,7 @@ updated_at: '2019-08-07 12:24 +0400'
 identifier: ref_0ikVaxWb
 title: Import of Global Attributes
 order: 150
-published: false
+published: true
 ---
 There are 3 possible ways to import global attributes to your store:
 
