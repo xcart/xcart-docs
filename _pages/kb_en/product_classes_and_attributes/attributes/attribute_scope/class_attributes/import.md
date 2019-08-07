@@ -76,3 +76,8 @@ A products.csv file to import product classes and product class attrinutes may l
 ![products-csv.png]({{site.baseurl}}/attachments/ref_1Vcnpxb1/products-csv.png)
 
 More info on the fields and field values that can be used in the products.csv file you can fild in the {% link "CSV Import: Products" ref_WmJBfwxA %} guide.
+
+_Related pages:_
+*  {% link "CSV Import: Products" ref_WmJBfwxA %}
+*  {% link "CSV Import: Product Attribute Values" ref_Z7XdREZl %}
+*  {% link "CSV Import: Classes & Attributes" ref_qTbDu6Ov %}
