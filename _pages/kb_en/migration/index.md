@@ -3,10 +3,10 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-10-30 16:39 +0400'
 identifier: ref_7AInnCrh
-title: Migration guides
+title: Migration Guides
 order: 17
 published: true
-description: Take data from other e-commerce platforms and set up X-Cart store with it
+description: Take data from other e-commerce platforms and set up an X-Cart store with it
 redirect_from:
   - /general_setup/migration/
 categories:
