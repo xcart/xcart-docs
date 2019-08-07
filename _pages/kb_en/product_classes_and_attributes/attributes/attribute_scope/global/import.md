@@ -71,3 +71,8 @@ A field that defines whether a product has a global attribute assigned to it is 
 The minimum required fields to import global attributes via a products.csv file are **sku**, **name** and **[attribute_name]: (field:global)**. 
 
 More info on the fields and field values that can be used in the products.csv file you can fild in the {% link "CSV Import: Products" ref_WmJBfwxA %} guide.
+
+_Related pages:_
+*  {% link "CSV Import: Products" ref_WmJBfwxA %}
+*  {% link "CSV Import: Product Attribute Values" ref_Z7XdREZl %}
+*  {% link "CSV Import: Classes & Attributes" ref_qTbDu6Ov %}
