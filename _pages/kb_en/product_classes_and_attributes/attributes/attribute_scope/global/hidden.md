@@ -50,7 +50,7 @@ Hidden attributes like any other global attributes are assigned to products auto
 
 ## Assigning Hidden Attributes to Products
 
-Once hidden attributes have been created via the **Classes & Attributes** section of the store Admin area it's necessary to assing the hidden attribute options to existing products in the store. 
+Once hidden attributes have been [created via the **Classes & Attributes** section](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/global/hidden.html#creating-hidden-attributes "Hidden Global Attributes") of the store Admin area it's necessary to assing the hidden attribute options to existing products in the store. 
 
 Unlike other product attributes hidden attribute options can be assigned either on a per-product basis using a product details page or for a group of products or all products in the store using the {% link "Bulk Editing" ref_1kSYmXQn %} feature. 
 
@@ -60,16 +60,16 @@ To assign hidden attribute options to products via the Bulk Editing feature:
 
 1. Open the product listing page of the store Admin area (**Catalog** -> **Products**):
    ![ga-hidden-be-1.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-1.png)
-2. In the products list locate the products you want to assign the hidden attribute option to.
+2. In the products list locate the products you want to assign a hidden attribute option to.
    
-   You can either use the search bar to select a certain category of products or use the checkboxes opposite the products you want to edit direatly on the product listing page:
+   You can either use the search bar to select a certain category of products or use the checkboxes opposite the products you want to edit directly on the product listing page:
    <div class="ui stackable two column grid">
      <div class="column" markdown="span">![ga-hidden-be-2.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-2.png)</div>
      <div class="column" markdown="span">![ga-hidden-be-2-1.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-2-1.png)</div>
    </div>
 3. Click **Bulk edit all/selected** -> **Hidden attributes** icon:
    ![ga-hidden-be-3.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-3.png)
-   You'll be redirected to a page with the chosen products list and a lits of hidden atributes configured in your store via the **Classes & Attributes** section:
+   You'll be redirected to a page with the chosen products list and a list of hidden atributes configured in your store via the **Classes & Attributes** section:
    ![ga-hidden-be-4.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-be-4.png)
 
 4. On the page that opens choose the hidden attribute option you want to assign to products:
@@ -84,7 +84,7 @@ To assign hidden attribute options to products via the Bulk Editing feature:
 
 ### Assigning Hidden Attribute Options via Product Details
 
-If required a hidden attribute can be assigned on a per-product basis on a related product details page:
+If required a hidden attribute can be assigned on a per-product basis via a related product details page:
 
 1. In your store’s Admin area, locate the product you need to assign a hidden attribute to, open the product details page and hover the cursor on the **Attributes** tab:
    ![ga-hidden-pd-1.png]({{site.baseurl}}/attachments/ref_4bmoAAzp/ga-hidden-pd-1.png)
