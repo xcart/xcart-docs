@@ -20,7 +20,7 @@ There are 3 possible ways to import product classes and product class attributes
 A store admin can get each of the above mentioned files by exporting them via the Export section of the Admin area:
 ![export-classes.png]({{site.baseurl}}/attachments/ref_1Vcnpxb1/export-classes.png)
 
-Here the **Products** checkbox stays for  a products.csv file, **Classes & Attributes** - for attributes.csv and **Product attribute values** - for product-attributes.csv. 
+Here the **Products** checkbox stands for  a products.csv file, **Classes & Attributes** - for attributes.csv and **Product attribute values** - for product-attributes.csv. 
 
 {% toc %}
 
