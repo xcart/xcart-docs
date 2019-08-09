@@ -68,11 +68,21 @@ To get info about field definitions and value types see {% link "CSV Import: Pro
 
 ## Importing Attributes via the Products.CSV File
 
-The products.csv file is a general file for importing all products related info. This file can be used to add new and edit existing attributes as well as to assign attributes to products. Hence products.csv contains all products related data the file structure is rather complex. 
+The products.csv file is a general file for importing all products related info. This file can be used to add new and edit existing attributes as well as to assign attributes to products. Since products.csv contains all products related data the file structure is rather complex. 
 
 Let's consider a sample products.csv below (the file contains only the attribute-related fields for convinience):
 ![import-products-csv.png]({{site.baseurl}}/attachments/ref_1eBZ128n/import-products-csv.png)
 
 The file contains data on all possible types of attributes  {% link "by scope" ref_uaJk8ete %}: global, product-class and product-specific attributes with the configured attribute options, values, modifiers and product SKUs they are assigned to.
 
-The attribute related fields in a products.csv file can be recognized by a special column mask `[attribute_name]: (field:[attribute_type])`, where `[attribute_type]` stands for a {% link "type of attribute scope" ref_uaJk8ete %} and can be `global` for global attributes, `class` for product-class attributes or `product` for product-specific attributes. Product-class attributes must also have the `productClass` field defined, as product-class attributes can not be added without a related product class having been created first. 
+The attribute related fields in a products.csv file can be recognized by a special column mask `[attribute_name]: (field:[attribute_type])`, where `[attribute name]`stands for a name of a particularattribute and `[attribute_type]` stands for a {% link "type of attribute by scope" ref_uaJk8ete %} and can be `global` for global attributes, `class` for product-class attributes or `product` for product-specific attributes. Product-class attributes must also have the `productClass` field defined, as product-class attributes can not be added without a related product class having been created first. 
+
+A products.csv file doesn't allow to specify the value type of an attribute field. Hence when you create an attribute via a products.csv file you'll get either a plain field or a Yes/No value type of an {% link "attribute field" ref_5qw116xV %} by default.
+
+To get more info about field definitions and value types see {% link "CSV Import: Products" ref_WmJBfwxA %}.
+
+_Related pages:_
+
+*   {% link "Import of Global Attributes" ref_0ikVaxWb %}
+*   {% link "Import of Product Class Attributes" ref_1Vcnpxb1 %}
+*   [Import of Product-Specific Attributes](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_scope/product-specific.html#importing-product-specific-attributes "Import of Attributes")
