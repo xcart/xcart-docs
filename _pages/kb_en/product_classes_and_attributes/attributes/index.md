@@ -22,6 +22,7 @@ _In this section_:
 *  {% link "Types of Product Attributes - by Scope" ref_uaJk8ete %}
 *  {% link "Types of Product Attributes - by Value" ref_bTfJ9bTS %}
 *  {% link "Attribute Groups" ref_otIvC7NR %}
+*  {% link "Import of Attributes" ref_1eBZ128n %}
 
 _Related pages_ :
 
