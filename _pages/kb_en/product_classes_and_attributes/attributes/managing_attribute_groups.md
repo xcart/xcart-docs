@@ -7,7 +7,7 @@ title: Attribute Groups
 categories:
   - User manual
 published: true
-order: 700
+order: 300
 redirect_from:
   - /product_classes_and_attributes/managing_attribute_groups.html
 ---
