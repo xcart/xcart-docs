@@ -5,7 +5,7 @@ updated_at: '2019-08-07 13:40 +0400'
 identifier: ref_1eBZ128n
 title: Import of Attributes
 order: 400
-published: false
+published: true
 ---
 Attributes import can be of great help when a store admin needs to create and assign multiple attributes of different types and values to several or all products in the store. 
 
