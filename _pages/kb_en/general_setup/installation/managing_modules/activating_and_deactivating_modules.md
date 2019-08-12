@@ -22,13 +22,10 @@ To activate an installed addon:
     ![my_addons_link.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/my_addons_link.png)
 
 2.  In this section, find the addon that needs to be activated (for example, **Add to Cart Popup**):
-    ![xc5_modules_add2cart_addon_in_mktplce.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/xc5_modules_add2cart_addon_in_mktplce.png)
+    ![addon2enable.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/addon2enable.png)
 
-3.  Switch the On/Off trigger below the addon name to the "On" state:
-    ![xc5_modules_add2cart_is_on.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/xc5_modules_add2cart_is_on.png)
-
-4.  Click the **Apply changes** button at the bottom of the screen. 
-    ![xc5_modules_savechanges_4_add2cart.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/xc5_modules_savechanges_4_add2cart.png)
+3.  Switch the On/Off trigger below the addon name to the "On" state and click the **Apply changes** button at the bottom of the screen. 
+    ![addon_enable.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/addon_enable.png)
 
 This starts the addon activation process which may take a while to complete. Once your store has been redeployed, you will find the addon active and ready to use:
     ![addon_enabled.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/addon_enabled.png)
