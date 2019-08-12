@@ -9,7 +9,9 @@ published: true
 ---
 X-Cart's addon [Amazon Feeds](https://market.x-cart.com/addons/amazon-feeds.html "Amazon Feeds") allows merchants to export products and related data to Amazon to start selling there in order to gain new sales and extend customer pull.
 
-To start using the addon, install it as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+To start using the addon, you need to make sure it is installed and enabled.
+
+To install the addon, follow the instructions in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 {% note warning %}
 Prerequisites:
