@@ -20,13 +20,14 @@ When configuring an attribute, select the field type that best suits your needs.
 
 Choose this field type if you need the attribute value to be a word/phrase of your choice. 
 
-You can use _Plain field_ to specify such properties of a product as color, size, ISBN (for books), etc.: it is good foor almost anything, provided you can describe it in a couple of words. For example, we used it to specify the dimensions of a bag:
+You can use _Plain field_ to specify such properties of a product as color, size, ISBN (for books), etc.: it is good for almost anything, provided you can describe it in a couple of words. 
 
-![]({{site.baseurl}}/attachments/7504859/8719327.png)
+For example, we used it to specify the dimensions of a bag:
 
-On the storefront, it shows as follows:
-
-![]({{site.baseurl}}/attachments/7504859/7602527.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><i>X-Cart Admin Area</i>![type-plain-field.png]({{site.baseurl}}/attachments/ref_5qw116xV/type-plain-field.png)</div>
+  <div class="column" markdown="span"><i>X-Cart Storefront</i>![type-plain-field-c.png]({{site.baseurl}}/attachments/ref_5qw116xV/type-plain-field-c.png)</div>
+</div>
 
 {% note info %}
 Plain field type can be used to specify multiple values for one attribute. 
@@ -38,32 +39,34 @@ For details, see [Multi-value attributes (product options)](#multi-value-attribu
 
 This field type allows for a longer text length than _Plain field_ and can be used to provide lengthier descriptions. 
 
-For example, we used it to add detailed information about the fabric and cut of a women's top:
+For example, we used it to add detailed information about the fabricof t-shirt:
 
-![]({{site.baseurl}}/attachments/7504859/8719328.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><i>X-Cart Admin Area</i>![type-textarea.png]({{site.baseurl}}/attachments/ref_5qw116xV/type-textarea.png)</div>
+  <div class="column" markdown="span"><i>X-Cart Storefront</i>![type-textarea-c.png]({{site.baseurl}}/attachments/ref_5qw116xV/type-textarea-c.png)</div>
+</div>
 
-On the storefront, it shows as follows:
-
-![]({{site.baseurl}}/attachments/7504859/7602525.png)
-
+{% note info %}
 Starting with X-Cart 5.1, the _Textarea_ attribute value field type can be used to add personalization options for products (i.e. provide an editable text area on the product page on the storefront so buyers can use it to enter their own custom text). 
 
-For details, see [Personalization options](#personilization-options-editable-textarea).
+For details, see {% link "Personalization Options (Editable Textarea)" ref_1WveyowU %}.
+{% endnote%}
 
 ## **Yes/No**
 
-This field type is intended for attribute values that emphasize the presence or absence of some property or feature. For example, we used it to emphasize the wirelessness of the headphones:
+This field type is intended for attribute values that emphasize the presence or absence of some property or feature. 
 
-![]({{site.baseurl}}/attachments/7504859/8719329.png)
+For example, we used it to emphasize the wirelessness of the headphones:
 
-On the storefront, it looks like this:
-
-![]({{site.baseurl}}/attachments/7504859/7602541.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><i>X-Cart Admin Area</i>![type-yes-no.png]({{site.baseurl}}/attachments/ref_5qw116xV/type-yes-no.png)</div>
+  <div class="column" markdown="span"><i>X-Cart Storefront</i>![type-yes-no-c.png]({{site.baseurl}}/attachments/ref_5qw116xV/type-yes-no-c.png)</div>
+</div>
 
 {% note info %}
 The _Yes/No_ field type can also be used to specify "Yes or No" options for products. 
 
-For details, see [Multi-value attributes (product options)](#multi-value-attributes-product-options).
+For details, see {% link "Multi-Value Attributes (Product Options)" ref_465IZQg9 %}.
 {% endnote %}
 
 ## **Hidden field**
