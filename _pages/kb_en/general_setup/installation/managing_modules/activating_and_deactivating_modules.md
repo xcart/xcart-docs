@@ -27,10 +27,10 @@ To activate an installed addon:
 3.  Switch the On/Off trigger below the addon name to the "On" state:
     ![xc5_modules_add2cart_is_on.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/xc5_modules_add2cart_is_on.png)
 
-4.  Click the **Save changes** button at the bottom of the screen. 
+4.  Click the **Apply changes** button at the bottom of the screen. 
     ![xc5_modules_savechanges_4_add2cart.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/xc5_modules_savechanges_4_add2cart.png)
 
-This starts the activation process which may take a while to complete. After it is finished, the addon will be activated in your store and ready to use:
+This starts the addon activation process which may take a while to complete. Once your store has been redeployed, you will find the addon active and ready to use:
     ![addon_enabled.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/addon_enabled.png)
     
 
@@ -48,15 +48,17 @@ To deactivate an installed addon:
 2.  Switch the On/Off trigger below the addon name to the "Off" state.
     ![addon_deactivate.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/addon_deactivate.png)
 
-3.  Click **Save changes**. This starts the addon deactivation process. After it is finished, the addon will be disabled.
+3.  Click **Apply changes**. This starts the addon deactivation process. Once your store has been redeployed, you will find the addon disabled.
 
 ## Uninstalling Addons
 
-To uninstall (delete) addon you are not planning to use further use the **'Trash'** icon bellow the addon name and click **Save changes**. 
+To uninstall (delete) addon you are not planning to use further use the **'Trash'** icon bellow the addon name and click **Apply changes**. 
 ![addon_delete.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/addon_delete.png)
 
+This starts the addon deinstallation process. Once your store has been redeployed, the addon will be removed from your store.
+
 {% note info %}
-It's recommended to uninstall addons that are out of use to facilitate the overall store performance.
+It is recommended to uninstall any addons that you do not use to facilitate the overall store performance.
 {% endnote %}
 
 _Related pages:_
