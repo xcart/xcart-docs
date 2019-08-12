@@ -13,13 +13,14 @@ The addon [Add to Cart Popup](https://market.x-cart.com/addons/add-to-cart-popup
 
 The popup is triggered by a shopper clicking the "Buy now"/ "Add to cart" button or using the drag'n'drop feature to add an item to the cart. The popup provides an instant confirmation of the shopper's add-to-cart action giving the shopper an assurance that the product has been added to their shopping cart successfully. In addition to that, the popup functions as an upselling / cross-selling tool that can provide the shopper with further recommendations as to what other products they may choose to buy. The popup provides convenient site navigation options allowing the shopper to proceed directly to checkout, to go to the shopping cart page or to continue shopping. If product recommendations via the popup are enabled, the shopper can choose to view detailed product information of any of the recommended products by going to the product page or add the product to their shopping cart directly from the Add to Cart popup.
 
-To use the Add to Cart Popup addon, you need to make sure it is installed and enabled. For the addon installation instructions, see {% link "Activating and deactivating addons" ref_uEnDBBA7 %}. The addon also needs to be configured. The addon configuration settings can be found on the addon _Settings_ page. You can access this page using the Settings link next to the addon name in your list of installed addons:
+To use the Add to Cart Popup addon, you need to make sure it is installed and enabled. See {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}.
+![add2cart_addon.png]({{site.baseurl}}/attachments/ref_1iGC8Efj/add2cart_addon.png)
 
-![settings.png]({{site.baseurl}}/attachments/ref_1iGC8Efj/settings.png)
+The addon also needs to be configured. The addon configuration settings can be found on the addon _Settings_ page. You can access this page using the Settings link next to the addon name in your store's list of installed addons:
+![add2cart_settings.png]({{site.baseurl}}/attachments/ref_1iGC8Efj/add2cart_settings.png)
 
 To configure the addon, you need to adjust the following settings:
-
-![settings-1.png]({{site.baseurl}}/attachments/ref_1iGC8Efj/settings-1.png)
+![add2cart_settings_page.png]({{site.baseurl}}/attachments/ref_1iGC8Efj/add2cart_settings_page.png)
 
 The setting at the top of the page - **Enable a popup after a product is added to cart via drag-n-drop** - enables you to adjust the addon behavior as to whether the Add to Cart popup should be displayed after a product has been added to the shopping cart using the drag'n'drop feature. By default, this setting is enabled, which means the Add to Cart popup will be shown to customers who have just added something to their cart via drag'n'drop. If, however, you feel that your customers might be vexed with the popup showing up in this context, you may prefer to disable the use of the popup with drag'n'drop by disabling the setting.
    
