@@ -89,24 +89,28 @@ Here's how this can be done:
 
 ## Deleting Attribute Groups
 
-When you no longer need a certain attribute group, you can delete it. Note that deleting a group does not delete the attributes that were assigned to it: after a group has been deleted, the attributes from the group will appear among other attributes having no associated groups.
+When you no longer need a certain attribute group, you can delete it. 
+
+{% note info %}
+Deleting a group does not delete the attributes that were assigned to it: after a group has been deleted, the attributes from the group will appear among other attributes having no associated groups.
+{% endnote %}
 
 To delete an attribute group:
 
-1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
+1.  In your store's Admin area, go to the **Classes & attributes** section (**Catalog > Classes & attributes**).
 
-2.  Go to the appropriate list of attributes and attribute groups by clicking on the Edit attributes (N) link. For example, if we want to delete a group of global attributes, we should use the link opposite the _Global attributes_ title:
-    ![]({{site.baseurl}}/attachments/7504788/8719356.png)
+2.   Locate a product class you need to delete the groups for and click the _Edit attributes (N)_ link opposite it, if you need to delete global attributes' groups click the same link in the **Global attributes** line.
+    ![group-3.png]({{site.baseurl}}/attachments/ref_otIvC7NR/group-3.png)
     
 3.  On the page that opens, click the **Manage groups** button:
-    ![]({{site.baseurl}}/attachments/7504788/8719357.png)
+    ![group-edit-1.png]({{site.baseurl}}/attachments/ref_otIvC7NR/group-edit-1.png)
     A popup titled **Manage attribute groups** will appear.
     
 4.  In the **Manage attribute groups** popup, locate the group that needs to be deleted and click on the Trash icon opposite its name:
-    ![]({{site.baseurl}}/attachments/7504788/8719359.png)
+    ![group-edit-5.png]({{site.baseurl}}/attachments/ref_otIvC7NR/group-edit-5.png)
     The group will be marked for deletion.
     
-5.  Click **Save changes**. The group will be deleted. Any attributes assigned to this group will become unassigned.
+5.  Click **Save changes**. The group will be deleted. Any attributes assigned to this group will become unassigned and will be added to the _No group_ attributes section.
 
 _Related pages:_
 
