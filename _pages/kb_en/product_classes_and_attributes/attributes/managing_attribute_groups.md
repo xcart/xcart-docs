@@ -83,7 +83,7 @@ Here's how this can be done:
         ![group-edit-3.png]({{site.baseurl}}/attachments/ref_otIvC7NR/group-edit-3.png)
         Make the changes you require and click **Save changes**. The name of the attribute group will be updated.
     *   To change the order of attribute groups on the list, simply drag and drop the items to their new positions. To drag an item, place your mouse cursor over the cross icon to the left of the attribute's name (the cursor will change to a four headed arrow), hold down the mouse button and drag the item to a new position in the list.
-        ![]({{site.baseurl}}/attachments/ref_otIvC7NR/group-edit-4.png)![group-edit-4.png]({{site.baseurl}}/attachments/ref_otIvC7NR/group-edit-4.png)
+        ![group-edit-4.png]({{site.baseurl}}/attachments/ref_otIvC7NR/group-edit-4.png)
 
         After rearranging the attribute groups as you require, be sure to click **Save changes**. The changes will be applied.
 
