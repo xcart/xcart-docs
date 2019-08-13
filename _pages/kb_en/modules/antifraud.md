@@ -7,7 +7,7 @@ title: AntiFraud Service Connector
 order: 21
 published: true
 ---
-The addon [AntiFraud Service Connector](https://market.x-cart.com/addons/antifraud.html#product-details-tab-description "AntiFraud Service Connector") integrates X-Cart with AntiFraud services that allows to identify online fraud using sophisticated checking algorithm and reduce chargebacks.
+The addon [AntiFraud Service Connector](https://market.x-cart.com/addons/antifraud.html#product-details-tab-description "AntiFraud Service Connector") integrates X-Cart with AntiFraud services that allow to identify online fraud using sophisticated checking algorithm and reduce chargebacks.
 
 When AntiFraud screening is enabled, X-Cart submits non-personal data about a new order to AntiFraud service server to calculate the risk factor. The following customer information is sent to our screening servers during antifraud checks:
 
@@ -25,17 +25,16 @@ If the risk factor exceeds the threshold you specified, the order is delayed for
 
 Antifraud service assesses the fraud risk factor by processing MaxMind's GeoIP/minFraud service data via our unique algorithms. The algorithms are based on our substantial experience in online credit card processing and are specially adapted to be used in X-Cart shopping cart system. Rolled out long ago, the service proved to be extremely helpful and effective for thousands of X-Cart merchants.
 
-To start using the addon, [subscribe](https://market.x-cart.com/addons/antifraud.html#product-details-tab-Plans_and_Pricing "AntiFraud Service Connector") to one of available plans depending on the amount of requests you need to procees per.
+To start using the addon, [subscribe](https://market.x-cart.com/addons/antifraud.html#product-details-tab-Plans_and_Pricing "AntiFraud Service Connector") to one of the available plans. The plans differ based on the number of service requests.
 
 {% toc %}
 
 ## AntiFraud Addon Installation and Setup
 
-To install the addon, follow the instructions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![antifraud_addon.png]({{site.baseurl}}/attachments/ref_6oaerFUv/antifraud_addon.png)
 
-Once the addon has been installed, proceed to the addon settings page to configure it:
-
-![af-installed.png]({{site.baseurl}}/attachments/ref_6oaerFUv/af-installed.png)
+Once the addon has been installed, proceed to the addon settings page to configure it.
 
 The addon settings are divided into 3 tabs. You need to set up all of them:
 
