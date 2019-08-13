@@ -13,11 +13,10 @@ The X-Cart addon [Block Users by IP/Country/User Agent](https://market.x-cart.co
 
 ## Addon Installation and Setup
 
-To install the addon, follow the guidelines from the section {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the guidelines from the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![block_user_addon.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/block_user_addon.png)
 
-After the addon has been installed, proceed to the addon settings page to configure it:
-
-![buip-installed.png]({{site.baseurl}}/attachments/ref_3rhs1MJ8/buip-installed.png)
+After the addon has been installed, proceed to the addon settings page to configure it.
 
 The Block Users by IP/Country/User Agent addon settings page includes 3 subsections: **IP based access control**, **Bot protection** and **Address based protection**. Adjust the settings in these subsections according to your needs:
 
