@@ -33,7 +33,7 @@ To configure multiple values for an attribute:
 3.  Select this check box to enable multiple values for the attribute you are editing. A new empty line is added to the attribute values list:
     ![multivalue-4.png]({{site.baseurl}}/attachments/ref_465IZQg9/multivalue-4.png)
 4.  Use the **Attribute option** field on the new line to type in the next attribute value name. As soon as you start typing, another empty line will be added to the list.
-5.  Added as many attribute options as you require.
+5.  Add as many attribute options as you require.
 6.  If you are editing a products class or global attribute choose whether you want to apply the changes locally or globally.
 7.  Click **Save changes**.
 
@@ -74,6 +74,6 @@ You can do it like so:
 
 1.  In your store's Admin area, find the product you need to edit, open the product details page and click on the **Attributes** tab. 
 2.  Make sure you are viewing the **Sort Settings** section.
-3.  Drag-n-drop the attributes and their values to arrange them in the order to be displayed in the storefront.
-![sort-settings.png]({{site.baseurl}}/attachments/ref_d4ktum3z/sort-settings.png)
+3.  Drag-n-drop the attributes and their options to arrange them in the right order to be displayed in the storefront.
+    ![sorting.png]({{site.baseurl}}/attachments/ref_465IZQg9/sorting.png)
 4.  Click **Save changes**.
