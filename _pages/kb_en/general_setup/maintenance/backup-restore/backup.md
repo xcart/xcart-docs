@@ -97,11 +97,12 @@ After you have run the command, TAR will pack all the files in the X-Cart root d
 
 ## Backup Master Addon
 
-To make the process of creating a full store backup more convenient and straighforward you can use a special [Backup Master](https://market.x-cart.com/addons/backup-master.html "Files and Database Backup") addon that facilitates both a database and a full store files backup in one click. 
+To make the process of creating a full store backup more convenient and straighforward, you can use the [Backup Master](https://market.x-cart.com/addons/backup-master.html "Files and Database Backup") addon for X-Cart. Using this addon facilitates the creation of both database and full store files backups. 
 
-To install the addon, go to the **My addons** section of the Admin area and follow the procedure described in {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}. Once the addon has been installed, open the addon settings page to configure the backup method.
+To install the addon, go to the **My addons** section of the Admin area and follow the procedure described in {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}. 
+![backup_master_addon.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup_master_addon.png)
 
-![backup-module.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup-module.png)
+Once the addon has been installed, open the addon settings page to configure the backup method.
 
 You can choose one of the following methods:
 * ZipArchive class biult into PHP
