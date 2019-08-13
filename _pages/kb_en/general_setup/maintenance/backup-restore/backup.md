@@ -9,17 +9,15 @@ published: true
 redirect_from:
   - /general_setup/backup-restore/backup.html
 ---
-With X-Cart the store administrator can back up the store database in a few easy steps directly from the Admin area. 
+The administrator of an X-Cart based store can back up the store database in a few easy steps directly from the Admin area. 
 
-{% note warning %}
-In case any 3rd party or custom add-ons data is stored elsewhere but not in the X-Cart database the corresponding data won't be included into the database backup done with the standard X-Cart utilities.
-{% endnote %}
+If your X-Cart store uses any 3rd party or custom addons, and the data of these addons is stored _not_ in the X-Cart database but elsewhere, this data will not be included into the database backup created with the X-Cart's standard backup utilities.
 
-Hence there can be cases that you have to back up the database manually so that the dump includes all possible store data. For this purpose you can use any adequate facility, including different client implementations of the SSH protocol like OpenSSH or PuTTY, Telnet, phpMyAdmin, MySQL console, control panel of your hosting account, Remote Desktop client and other. 
+Hence there can be cases when you have to back up the database manually so the dump includes all the store data. For this purpose you can use any adequate facility, including different client implementations of the SSH protocol like OpenSSH or PuTTY, Telnet, phpMyAdmin, MySQL console, control panel of your hosting account, Remote Desktop client and other. 
 
 {% toc %}
 
-## Backing up the database through X-Cart Admin area
+## Database Backup through the X-Cart Admin Area
 
 To back up the database through the X-Cart Admin area:
 
@@ -32,7 +30,7 @@ To back up the database through the X-Cart Admin area:
 If you do not have access to your server/hosting account through FTP, SSH or other suitable facility, do not select the check box and save the SQL file directly to your local computer.
 {% endnote %}
 
-## Backing up the database using terminal access
+## Database Backup with Terminal Access
 
 To back up the database using terminal access to the server:
 
@@ -61,7 +59,7 @@ After you have run the command, the system will generate an SQL file and save it
 
 If necessary, you can use a different path, but it is yet recommended that it be a location within the X-Cart root directory.
 
-## Backing up Store Files
+## Backup of the Store Files
 
 Creating a backup copy of the store files presumes that you pack all the files in the X-Cart root directory into an archive and then copy or move the archive to a new location on the remote server or your local computer.
 
@@ -73,7 +71,7 @@ To create an archive you need to use a file archive manager. The exact choice of
 
 Alternatively, if it is not possible to pack the X-Cart files into an archive directly on your server, you can copy the X-Cart root directory to your local computer or another remote server using FTP or other suitable facility. Before that, make sure the new location, to which you are planning to copy the X-Cart root directory, has enough free disk space. Besides, the control panel of your hosting provider may offer its own facilities for backing up your account data.
 
-### Backing up store files with the TAR archive manager (UNIX-based servers only)
+### Files Backup with the TAR Archive Manager (UNIX-based servers only)
 
 In UNIX-based systems, TAR is known to be one of the most reliable and trustworthy utilities for creating and manipulating file archives. It is now commonly used in tandem with external compression utilities like GZIP, BZIP2 or LZMA, which enables you not only to create an archive, but also compress the data in the archive. As a result, with TAR you can create a lightweight archive of your store and then restore it using the same utility. To find out whether TAR is installed on your server, run the following shell command.
 
