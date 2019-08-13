@@ -11,7 +11,8 @@ order: 220
 redirect_from:
   - /products/enabling_the_bestsellers_block.html
 ---
-You can configure your X-Cart 5 store to showcase the most popular products (the ones that have been purchased at your store the most often) in a separate section where your store visitors will be more likely to see them. This feature is available through the use of the **Bestsellers** addon by X-Cart team. To use the feature, make sure this addon {% link "installed and enabled" ref_0fGEpvrh %} in your store.
+You can configure your X-Cart 5 store to showcase the most popular products (the ones that have been purchased at your store the most often) in a separate section where your store visitors will be more likely to see them. This feature is available through the use of the **Bestsellers** addon by X-Cart team. To use the feature, make sure this addon is {% link "installed and enabled" ref_0fGEpvrh %} in your store.
+![bestsellers_addon.png]({{site.baseurl}}/attachments/ref_p1CIVmy6/bestsellers_addon.png)
 
 Your best selling products are displayed on a separate store page available via the **Hot deals** menu:
 ![bestsellers_page.png]({{site.baseurl}}/attachments/ref_p1CIVmy6/bestsellers_page.png)
