@@ -9,12 +9,12 @@ published: true
 ---
 The addon [Backorder/Preorder](https://market.x-cart.com/addons/backorder-preorder.html "Backorder / Preorder") enables you to allow your customers to order products that are not in stock at the moment.
 
-To install the addon, follow the steps described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
-
-![installed.png]({{site.baseurl}}/attachments/ref_3XIgbfev/installed.png)
+To install the addon, follow the steps described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![backorder_preorder_addon.png]({{site.baseurl}}/attachments/ref_3XIgbfev/backorder_preorder_addon.png)
 
 Once the addon has been installed, you will find a new option in the **Prices & Inventory** section of the product details page - the option to enable backordering for products:
 ![prices-inventory.png]({{site.baseurl}}/attachments/ref_3XIgbfev/prices-inventory.png)
+
 More info on the editing of product details is available [here](https://kb.x-cart.com/products/products/managing_products/adding_products.html#basic-product-setup "Backorder / Preorder").
 
 If the **Available for backorder** option is enabled, the store admin can specify the backorder promo that the customers will see for this product and, if applicable, can set the maximun number of items for backorder:
