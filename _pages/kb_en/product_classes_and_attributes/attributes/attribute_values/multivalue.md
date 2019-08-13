@@ -7,7 +7,7 @@ title: Multi-Value Attributes (Product Options)
 order: 200
 published: true
 ---
-The _Plain text_ and _Yes/No_ attribute value field types allow using the **_multi-value_** feature, i.e. to specify multiple options for one attribute. In X-Cart 5 this feature is used to specify product options that customers will be able to choose from. 
+The _Plain text_ and _Yes/No_ {% link "attribute value field types" ref_5qw116xV %} allow using the **_multi-value_** feature, i.e. to specify multiple options for one attribute. In X-Cart 5 this feature is used to specify product options that customers will be able to choose from. 
 
 {% toc %}
 
