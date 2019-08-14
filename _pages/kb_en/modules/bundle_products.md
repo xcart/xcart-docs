@@ -9,15 +9,15 @@ published: true
 ---
 The addon [Bundle Products](https://market.x-cart.com/addons/bundle-products.html "Bundle Products") enables you to combine products into a bundle and market them as a set (at a special price - provided that the products are purchased together). 
 
-Let's say that there is a couple of products that can be sold cheaper if bought together. To make this possible it's necessary to create a product bundle that will include all the required products as bundle components and set a price that will be cheaper than the sum price of it components. This is what the **Bundle Products** addon can do.
+Let us say that there is a couple of products that can be sold cheaper if bought together. To make this possible it is necessary to create a product bundle that will include all the required products as bundle components and set a price that will be cheaper than the sum price of it components. This is what the **Bundle Products** addon can do.
 
-To start using the addon, install it as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+To start using the addon, install it as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![bundle_products_addon.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/bundle_products_addon.png)
 
-![installed.png]({{site.baseurl}}/attachments/ref_1nuTw4Kc/installed.png)
+Once the addon has been installed, you will find a new tab - _Bundle_ - on the product details page where a store admin/vendor can add bundle components to the product. 
 
-Once the addon has been installed, you will find a _Bundle_ tab on the product details page where a store admin/vendor can add bundle components to the product. 
+To create a bundle, a store admin/vendor should follow the steps below:
 
-To create a bundle a store admin/vendor should:
 1. Create a new product as described in {% link "Adding Products" ref_fhzzxDTy %}. This product will be the main product for a bundle.
 
 2. Locate the **Price & Inventory** section of the _Info_ tab on the product details page
