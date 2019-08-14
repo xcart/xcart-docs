@@ -14,11 +14,12 @@ redirect_from:
 X-Cart 5 allows you to create coupons for your customers. A coupon is a secret code which a customer can use to get a discount on their order - typically, a fixed amount or a percentage off, or free shipping. It is possible to limit the use of a coupon to a specific order subtotal amount, time period, product category, product class or user membership level. If necessary, it is also possible to set the number of times that a coupon can be used.
 
 The coupons feature in X-Cart 5 is enabled by the addon **[Coupons](https://market.x-cart.com/addons/discount-coupons.html)**:
-![mvcoupons_addon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/mvcoupons_addon.png)
+![coupons_addon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/coupons_addon.png)
 
 To be able to use free shipping coupons, you also require the addon **[Free Shipping and Shipping freights](https://market.x-cart.com/addons/free-shipping.html)**. 
+![free_ship_addon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/free_ship_addon.png)
 
-To start creating coupons for your customers, make sure the above said addons are installed and enabled at your store. If not, you can install them from the X-Cart Marketplace. For general addon installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+To start creating coupons for your customers, make sure the above said addons are installed and enabled at your store. If not, you can install them from the X-Cart App Store. For general addon installation instructions, see {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 When the **Coupons** addon is enabled, a link **Have a discount coupon?** is provided at checkout. 
 ![xc5_coupons_haveacoupon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_haveacoupon.png)
