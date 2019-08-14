@@ -46,9 +46,9 @@ To use this method, you will need to have an account with both Kissmetrics and S
 
 To connect your store to Kissmetrics using the addon Segment Integration, follow the steps below:
 
-   1. In your X-Cart store's Admin area, go to the **My addons** section and install the addon Segment Integration from the X-Cart Marketplace. 
-      ![xc5_kissmetrics_segment_integration_module.png]({{site.baseurl}}/attachments/ref_C3AVd3Zp/xc5_kissmetrics_segment_integration_module.png)
-
+   1. In your X-Cart store's Admin area, go to the **My addons** section and install the addon Segment Integration from the X-Cart App Store. 
+      ![segment_integration_addon.png]({{site.baseurl}}/attachments/ref_C3AVd3Zp/segment_integration_addon.png)
+      
    2. After installing the addon, open its Settings page.
    
    3. Keeping the Segment Integration addon settings page open in your web browser, open a new tab or window to go to Kissmetrics website. 
