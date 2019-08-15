@@ -8,21 +8,24 @@ order: 74
 published: true
 ---
 The addon [DHL](https://market.x-cart.com/addons/DHL-shipping.html "DHL") integrates X-Cart with DHL Express, a global shipping company providing international express mail services with a network in over 220 countries and territories across the globe.
+![dhl_addon.png]({{site.baseurl}}/attachments/ref_3dwzJG71/dhl_addon.png)
 
 This article assumes that the DHL addon has already been {% link "installed and activated" ref_0fGEpvrh %} at your store.
 
 To start using the addon, you need to configure it. The addon configuration settings can be accessed using one of the following methods:
 
-1. In the **Shipping** section of your X-Cart store’s Admin area (**Store setup** > **Shipping**)
-   *  click the **Add shipping method** button:
-![shipping.png]({{site.baseurl}}/attachments/ref_whrpZnV3/shipping.png)
+Method 1:
 
-   *   and then choose the DHL shipping method in a pop-up:
-![add-shipping-popup.png]({{site.baseurl}}/attachments/ref_3dwzJG71/add-shipping-popup.png)
+   1. In the **Shipping** section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), click the **Add shipping method** button:
+      ![shipping.png]({{site.baseurl}}/attachments/ref_whrpZnV3/shipping.png)
 
-2. In the **Installed Addons** section of your X-Cart store’s Admin area (**My addons** > **Installed addons**), locate the entry for DHL addon and click the **Settings** link below it:
-![module-installed.png]({{site.baseurl}}/attachments/ref_3dwzJG71/module-installed.png)
+   2. In the popup that appears, choose the DHL shipping method:
+      ![add-shipping-popup.png]({{site.baseurl}}/attachments/ref_3dwzJG71/add-shipping-popup.png)
 
+Method 2:
+   1. In the **My addons** section of your X-Cart store’s Admin area, find the addon **DHL Shipping** and click on its name to access the addon detailed information.
+   
+   2. On the addon information page, click on the **Settings** link.
 
 The DHL settings page looks like the following:
 
