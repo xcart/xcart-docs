@@ -38,6 +38,7 @@ Here's how you can start using this addon with X-Cart:
    1. In the **My addons** section of your store's Admin area, find the addon **Fedex** and click on its name to access the addon detailed information.
    
    2. On the addon information page, click on the **Settings** link.
+      ![fedex_settings_link.png]({{site.baseurl}}/attachments/ref_58tOKWMt/fedex_settings_link.png)
 
      The settings page for the addon FedEx opens.
 
