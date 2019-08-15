@@ -21,7 +21,7 @@ To enjoy product variants it's necessary to install and activate the [Product Va
 Product variants feature can in its turn be enhanced with color swatches functionality that allows 
 to display variant images and switch between them while viewing a product on the storefront. 
 
-Also if using variants table view addon it's possible to display all available product variants with images and prices in a on a product details page on the storefront.
+Also if using Variants Table View addon it's possible to display all available product variants with images and prices in a table instead of select drop-down on a product details page on the storefront.
 
 {% note info %}
 Product variants will override [price and weight modifiers](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#price-and-weight-modifiers "Product variants") if they have been set up. You cannot use both at the same time.
