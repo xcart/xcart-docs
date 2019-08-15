@@ -12,7 +12,6 @@ redirect_from:
 Sometimes it may be necessary to enhance the regular product description with a file attachment to provide your customers with a manual (that is, for example, if you are selling household appliances) or with a detailed program description (for example, if you are selling educational courses, etc.)
 
 You can do that using the addon [File attachments](https://market.x-cart.com/addons/file-attachments.html). 
-![xc5_fa_addon.png]({{site.baseurl}}/attachments/ref_0ZWKcob4/xc5_fa_addon.png)
 
 The addon provides a special tab on the product page in the store back end -  "Attachments" - which enables you to attach files to the product. You can upload files from your local computer, from your local server or from a URL. The maximum file size is limited by the server settings.
 
