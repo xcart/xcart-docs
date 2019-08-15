@@ -5,7 +5,7 @@ updated_at: '2019-08-15 15:37 +0300'
 identifier: ref_2H1DBViw
 title: What Are Product Variants and Why You May Need Them
 order: 100
-published: false
+published: true
 ---
 Let us use a simple example to show what product variants are and why you may need to use them.
 
