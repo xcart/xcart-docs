@@ -21,7 +21,7 @@ The Product Attributes feature gives a store admin a possibility to add more det
 
 The Product Classes feature is an extention to product attributes that gives a store admin a possibility to join products in groups other than product categories and subcategories. Product classes can be used along with product attributes only and can help to set unique properties not to a single product but rather to a group of products at once.
 
-The Product Variants feature gives a store admin a possibility to add special product characteristics (like size, color, etc.) to the product description that will give a customer an option to choose a particular variant of one and the same product. Product variants feature is enabled by installing and configuring the [Product Variants](https://market.x-cart.com/addons/product-variants.html "Product Classes and Attributes") addon.
+The Product Variants feature gives a store admin a possibility to create different product options based on the special product characteristics (like size, color, etc.) and display them on the product details page on the storefront. Each variant will have different pricing, product SKUs, and stock level added to the product description that will give a customer an option to choose a particular variant of one and the same product. Product variants feature is enabled by installing and configuring the [Product Variants](https://market.x-cart.com/addons/product-variants.html "Product Classes and Attributes") addon.
 
 _In this section_:
 *  {% link "Product Attributes" ref_4Bx31Gpv %}
