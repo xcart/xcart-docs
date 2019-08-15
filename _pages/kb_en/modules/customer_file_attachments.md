@@ -8,6 +8,7 @@ order: 71
 published: true
 ---
 The addon [Customer Files Uploads & Product Attachments](https://market.x-cart.com/addons/files-uploads-product-attachments.html "Customer Files Uploads & Product Attachments") can be used to enable customers to attach files to a product before purchasing it so the store administrator can download those files when processing the order. 
+![customer_file_attach_addon.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/customer_file_attach_addon.png)
 
 To make use of customer file attachments, you will need to:
 {% toc %}
@@ -15,7 +16,7 @@ To make use of customer file attachments, you will need to:
 {% note warning %}
 PREREQUISITES: Make sure the addon Customer Files Uploads & Product Attachments is installed and active.
 
-For help with installing or activating the addon, see the section {% link "Managing addons" ref_gTOegEua %} of this manual.
+For help with installing or activating the addon, see the section {% link "Managing Addons" ref_gTOegEua %} of this manual.
 {% endnote %}
 
 ## Configure the Addon
