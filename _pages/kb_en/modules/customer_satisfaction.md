@@ -13,11 +13,10 @@ The addon [Customer Satisfaction](https://market.x-cart.com/addons/customer-sati
 
 ## Customer Satisfaction Addon Installation and Setup
 
-To install the addon, follow the guidelines from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the guidelines from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![customer_satisfaction_addon.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/customer_satisfaction_addon.png)
 
 Once the addon has been installed, proceed to the addon settings page to adjust the addon configuration:
-
-![istalled.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/istalled.png)
 
 The Customer Satisfaction addon settings page is divided into 2 subsections:
 1. **General options** - where you can set up the general addon behaviour:
