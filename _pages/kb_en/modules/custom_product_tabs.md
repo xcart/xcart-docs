@@ -8,8 +8,7 @@ order: 70
 published: true
 ---
 If the [standard set of product page tabs](https://kb.x-cart.com/products/products/managing_products/adding_products.html#change-the-set-of-tabs-displayed-on-the-product-page-in-the-customer-area) used in your store by default does not meet your needs, you can use the addon [Custom product tabs](https://market.x-cart.com/addons/custom-product-tabs.html) to change it. 
-
-![module-enabled.png]({{site.baseurl}}/attachments/ref_2JzbMU2q/module-enabled.png)
+![cpt_addon.png]({{site.baseurl}}/attachments/ref_2JzbMU2q/cpt_addon.png)
 
 With this addon {% link "enabled" ref_uEnDBBA7 %}, you will be able to specify which of the standard X-Cart store tabs should be displayed on the product page and in what order; if you need more tabs, you will also be able to add custom tabs of your own.
 ![tabs-cus.png]({{site.baseurl}}/attachments/ref_2JzbMU2q/tabs-cus.png)
