@@ -22,9 +22,11 @@ Product variants will override [price and weight modifiers](https://kb.x-cart.co
 
 _In this section:_
 
-*   
+*   {% link "What Are Product Variants and Why You May Need Them" ref_2H1DBViw %}
+*   {% link "Product Variants Setup and Management" ref_2Tg4d2Tx %}
+*   {% link "Wholesale Prices for Product Variants" ref_1wyZZ2Nf %}
 *   {% link "Color Swatches for Product Variants" ref_4bXaF5qJ %}
-*   {% link "Variants Table View" ref_7FeW8hHv %}
+*   {% link "Table View of Product Variants" ref_7FeW8hHv %}
 
 ## Video Tutorial
 
