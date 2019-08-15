@@ -7,7 +7,7 @@ title: Price and Weight Modifiers
 order: 250
 published: true
 ---
-Attribute values for {% link "multi-value product attributes" ref_465IZQg9 %} can be configured as _price and/or weight modifier_ options that will increase or decrease the price and/or weight of the product (the product's weight affects the shipping cost). 
+Attribute options for {% link "multi-value product attributes" ref_465IZQg9 %} can be configured as _price and/or weight modifier_ options that will increase or decrease the price and/or weight of the product (the product's weight affects the shipping cost). 
 
 Here's an example of a price modifier option that allows customers purchasing a denim jacket to add an embroidery for an additional $10 per unit:
 ![modifier-1.png]({{site.baseurl}}/attachments/ref_1t4DxHbf/modifier-1.png)
