@@ -21,11 +21,10 @@ For help with installing or activating the addon, see the section {% link "Manag
 
 ## Configure the Addon
 After making sure the addon is installed and active, proceed to adjust the addon settings:
-
-![installed.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/installed.png)
+![customer_file_attach_settings_link.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/customer_file_attach_settings_link.png)
 
 You can adjust the following settings:
-![settings-page.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/settings-page.png)
+![customer_file_attach_settings.png]({{site.baseurl}}/attachments/ref_1tk0fbqz/customer_file_attach_settings.png)
 
 * **Max number of files that can be attached** : Specify the maximum number of files that can be attached to a product.
 * **Allowed file extensions** : Provide a comma separated list of file extensions that should be allowed for upload; for example, "jpg,txt,svg".
