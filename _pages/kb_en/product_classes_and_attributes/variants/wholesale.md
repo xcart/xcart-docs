@@ -5,7 +5,7 @@ updated_at: '2019-08-15 15:43 +0300'
 identifier: ref_1wyZZ2Nf
 title: Wholesale Prices for Product Variants
 order: 130
-published: false
+published: true
 ---
 There are 2 ways to configure wholesale prices for product variants:
 
