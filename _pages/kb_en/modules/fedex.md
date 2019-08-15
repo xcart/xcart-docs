@@ -12,6 +12,7 @@ The addon [FedEx](https://market.x-cart.com/addons/fedex.html "FedEx") for X-Car
 Here's how you can start using this addon with X-Cart:
 
 1. Make sure the addon FedEx has been {% link "installed and activated" ref_0fGEpvrh %} at your store.
+   ![fedex_addon.png]({{site.baseurl}}/attachments/ref_58tOKWMt/fedex_addon.png)
 
 2. Make sure your store company address has been {% link "configured" ref_HcSs9eFL %} on the **Contact information** page (**Store setup** > **Contact information**). This address will be used as your store’s "Ship from" address when calculating shipping rates.  
 
