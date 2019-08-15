@@ -12,9 +12,11 @@ order: 300
 redirect_from:
   - /product_classes_and_attributes/product_variants.html
 ---
-Comparing to {% link "price and weight modifiers" ref_1t4DxHbf %} of product attributes, product variants is a more robust admin solution as it allows not only creating several product options of one and the same product and selling each product option at a different price (including wholesale pricing), but also to assign a different SKU to each option and to control the product options stock level as well as display all product options available for a product on the same product details page in the storefront. 
+Product variants feature is an enhancement of the default product attributes functionality and can hence be used to add variants for a product and configure each variant to have a different SKU, price and stock level.
 
-To enjoy product variants features it's necessary to install and activate the [Product Variants](https://market.x-cart.com/addons/product-variants.html "Product Variants") addon. You can add variants one by one, or generate them all automatically and remove the ones which you don't sell in your shop.
+Comparing to {% link "price and weight modifiers" ref_1t4DxHbf %} of product attributes, product variants is a more robust admin solution as it allows not only creating several product options of one and the same product and selling each product option at a different price (including wholesale pricing), but also to assign a different SKU to each option and to control the product options stock level as well as display all product options available for a product on the same product details page in the storefront. You can add variants one by one, or generate them all automatically and remove the ones which you don't sell in your shop.
+
+To enjoy product variants it's necessary to install and activate the [Product Variants](https://market.x-cart.com/addons/product-variants.html "Product Variants") addon. 
 
 {% note info %}
 Product variants will override [price and weight modifiers](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#price-and-weight-modifiers "Product variants") if they have been set up. You cannot use both at the same time.
