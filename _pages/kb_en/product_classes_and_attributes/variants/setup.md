@@ -5,7 +5,7 @@ updated_at: '2019-08-15 15:41 +0300'
 identifier: ref_2Tg4d2Tx
 title: Product Variants Setup and Management
 order: 120
-published: false
+published: true
 ---
 To use product variants in your store, you will need to install the addon **Product variants** by X-Cart team. For installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
