@@ -7,14 +7,12 @@ title: Exit Offers
 order: 91
 published: true
 ---
-The addon [Exit Offers](https://market.x-cart.com/addons/exit-offers.html "Exit Offers") allows to display an exit popup when a visitor moves the mouse up to the close button and is about to leave the site. This way it's possible to grab visitors back right when they are about to leave the store and recover sales.
+The addon [Exit Offers](https://market.x-cart.com/addons/exit-offers.html "Exit Offers") allows to display an exit popup when a visitor moves the mouse up to the close button and is about to leave the site. This way it is possible to grab visitors back right when they are about to leave the store and recover sales.
 
-To intall the addon, follow the directions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![exit_offers_addon.png]({{site.baseurl}}/attachments/ref_1T0EXlkr/exit_offers_addon.png)
 
-![installed.png]({{site.baseurl}}/attachments/ref_1T0EXlkr/installed.png)
-
-When installed and enabled, the addon adds a special **Exit Offers** section in the store Admin area (**Discounts** -> **Exit Offers**) where it's possible to create new and manage existing offers. 
-
+When installed and enabled, the addon adds a special **Exit Offers** section in the store Admin area (**Discounts** -> **Exit Offers**) where it is possible to create new offers as well as manage the existing ones. 
 ![exit-offers-list.png]({{site.baseurl}}/attachments/ref_1T0EXlkr/exit-offers-list.png)
 
 To create a new exit offer, click the **New exit offer** button at the top. 
