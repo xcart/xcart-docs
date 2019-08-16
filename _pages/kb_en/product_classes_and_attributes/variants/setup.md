@@ -24,8 +24,9 @@ To configure product variants for a product:
     ![product-details.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/product-details.png)
     
     {% note info %}
-    If you are going to set the **Price** and **Quantity in stock** fields as separate values for each of product variants check that the contents of the respective fields in the **Product info** tab of the product details page is empty. 
-    If you are planning that some of the **Price** and **Quantity in stock** field values will be the same for more than one product variant, you can specify them in the **Product info** tab of the product details page, and they will be used as default values for any product variants that do not have their own variant-specific **SKU**, **Price** or **Quantity in stock** values defined.
+    If you are going to set the **Price** and **Quantity in stock** fields as separate values for each of product variants check that the content of the respective fields in the **Product info** tab of the product details page is empty. 
+    
+    If you are planning that some of the **Price** and **Quantity in stock** field values will be the same for more than one product variant, you can specify them in the **Product info** tab of the product details page, and these values will be used as default values for any product variants that do not have their own variant-specific **SKU**, **Price** or **Quantity in stock** values defined.
     {% endnote %}
 
 2.  Click on the **Attributes** tab to access the section where you will be able to check the product's attributes: 
@@ -44,7 +45,8 @@ To configure product variants for a product:
     We recommend using the manual method if you need to create just a couple of variants. If you need to create a larger number of variants, it will be easier to use the automated generation method; in this case, your X-Cart store will create all possible combinations of the product options, and you will need to disable any combinations that you do not stock.
     {% endnote %}
 
-    * For manual setup of product variants, click **Create variants one by one**. 
+    * For manual setup of product variants, click **Create variants one by one**.
+      ![manual-button.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/manual-button.png)
       You'll see a screen as follows:
       ![variants-manual.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/variants-manual.png)
       * Click **Add variant** to create a new product variant. A section for configuring your first product variant will be expanded below:
@@ -54,6 +56,7 @@ To configure product variants for a product:
          You can use the **Create all possible variants (N)** link at any time to generate the missing product variants. Don't worry, this will not ruin the variants you have already configured.
          {% endnote %}
     * To let X-Cart generate product variants for you automatically, click **Create all possible variants (N)**, where **N** stands for the number of all possible product variants that X-Cart will create.
+      ![auto-button.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/auto-button.png)
       You'll see a screen with a list of all possible product variants that X-Cart was able to create by combining all available options. Each line is a separate product variant that can have its own price, SKU and quantity in stock. :
       ![auto-variants.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/auto-variants.png)
       
