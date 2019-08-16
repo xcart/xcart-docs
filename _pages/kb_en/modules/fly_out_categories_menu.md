@@ -11,13 +11,14 @@ The addon [Flyout Categories Menu](https://market.x-cart.com/addons/flyout-categ
 
 ![flyout-cus.png]({{site.baseurl}}/attachments/ref_6KutUhlR/flyout-cus.png)
 
-To enable the addon follow the instructions from {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}. Once enabled proceed to the addon settings page to configure it:
+To enable the addon follow the instructions from {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}. 
+![flyout_categories_addon.png]({{site.baseurl}}/attachments/ref_6KutUhlR/flyout_categories_addon.png)
 
-![fly-out-enabled.png]({{site.baseurl}}/attachments/ref_6KutUhlR/fly-out-enabled.png)
+Once enabled proceed to the addon settings page to configure it.
+
 
 The addon has three options that you can enable/disable at your choice:
-
-![fly-out-settings.png]({{site.baseurl}}/attachments/ref_6KutUhlR/fly-out-settings.png)
+![flyout_categories_settings.png]({{site.baseurl}}/attachments/ref_6KutUhlR/flyout_categories_settings.png)
 
 * **Show number of products in category** : Enable if you need to show the number of products in a category next to the category's name.
 * **Wrap long category names** : Enable if you need word wrapping for long category names.
