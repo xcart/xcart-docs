@@ -7,65 +7,63 @@ title: Product Variants Setup and Management
 order: 120
 published: true
 ---
-To use product variants in your store, you will need to install the addon **Product variants** by X-Cart team. For installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+{% note warning %}
+PREREQUISITES:
+1. Make sure the [Product variants](https://market.x-cart.com/addons/product-variants.html "Product Variants Setup and Management") addon by X-Cart team is installed and enabled in your store. 
 
-As a result, you should have the addon **Product variants** listed in your store's Installed Addons section (**My addons**). Make sure it is enabled:
+   For installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
 
-![]({{site.baseurl}}/attachments/7504786/8719378.png)
+2. Make sure you have {% link "multi-value attributes " ref_465IZQg9 %} configured for the product(s) you are going to create variants for. These can be either product-specific or product-class attributes.
 
-{% note info %}
-Please be aware that product variants will override [price and weight modifiers](https://kb.x-cart.com/product_classes_and_attributes/managing_attribute_values.html#price-and-weight-modifiers "Product variants") if they have been set up. You cannot use both at the same time.
+3. If you have {% link "price and/or weight modifiers" ref_1t4DxHbf %} set up in your store be aware that product variants will override the modifiers fuctionaity. You cannot use both at the same time.
 {% endnote %}
 
 To configure product variants for a product:
 
-1.  In your store's Admin area, go to the details of the product for which you want to add product variants:
-    ![]({{site.baseurl}}/attachments/7504786/8719362.png)
+1.  In your store's Admin area, locate a product you need to configure product variants for and open the product details page:
+    ![product-details.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/product-details.png)
+    
+    {% note info %}
+    If you are going to set the **Price** and **Quantity in stock** fields as separate values for each of product variants check that the contents of the respective fields in the **Product info** tab of the product details page is empty. 
+    If you are planning that some of the **Price** and **Quantity in stock** field values will be the same for more than one product variant, you can specify them in the **Product info** tab of the product details page, and they will be used as default values for any product variants that do not have their own variant-specific **SKU**, **Price** or **Quantity in stock** values defined.
+    {% endnote %}
 
-2.  Check the contents of the **SKU** and **Price** fields on the **Product info** tab and of the **Quantity in stock** field on the **Inventory tracking** tab. These fields do not have to be completed, especially if you are going to set these values differently for each of the specific product variants you will create (You will have an opportunity to do it later on). However, if you are planning that some of these values will be the same for more than one product variant, you can specify them here, and they will be used as default values for any product variants that do not have their own variant-specific SKU, Price or Quantity in stock values defined.
-
-3.  Click on the **Attributes** tab to access the section where you will be able to edit the product's attributes: 
-    ![]({{site.baseurl}}/attachments/7504786/8719363.png)
-
-4.  On the page that opens, add the {% link "multi-value product attributes" ref_bTfJ9bTS#multi-value-attributes-product-options %} whose values will be combined to create specific product variants. For the sake of example, we added two attributes - "Kitty print color" and "Kitty print pattern" - with their respective values "Blue", "Mint", "Orange", "Dotted" and "Plain":
-    ![]({{site.baseurl}}/attachments/7504786/8719364.png)
-    (We configured our attribute values using the _Plain field_ option; to emphasize the presence or absence of some property or feature, use the _Yes/No_ field type).
-    Do not worry about setting any price modifiers - you will not need them as prices will be set individually for each product variant.
+2.  Click on the **Attributes** tab to access the section where you will be able to check the product's attributes: 
+    ![attributes-tab.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/attributes-tab.png)
+    The product must have either product-specific or product-class product options configured for it. If it does not, configure multi-value attributes as described in {% link "Multi-Value Attributes (Product Options)" ref_465IZQg9 %}. There is no need to set any price/weight modifiers as prices will be set individually for each product variant.
 
 5.  Click on the **Variants** tab to access the section where you will be able to manage the product's variants:
-    ![]({{site.baseurl}}/attachments/7504786/8719365.png)
+    ![variants-tab.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/variants-tab.png)
+     On the page that opens, you will see the list of all multi-value attributes - and their respective values - that have been configured for the product.
+    
+6. Choose the attributes your variants will be based on by selecting the check boxes to the left of the attribute names. 
+    ![variant-options.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/variant-options.png)
 
-6.  On the page that opens, you will see the list of all multi-value attributes - and their respective values - that have been configured for the product.
-    ![]({{site.baseurl}}/attachments/7504786/8719367.png) 
-    Specify the attributes whose values will be used to form product variants by selecting the check boxes to the left of the attribute names. For our example, we selected both the "Kitty print color" and "Kitty print pattern" attributes:
-
-    ![]({{site.baseurl}}/attachments/7504786/8719368.png)
-
-7.  Choose how you want to create variants: manually or automatially. For manual setup of product variants, click **Add variants manually**. To let X-Cart generate product variants for you automatically, click Create all possible variants (N) (The number in brackets shows the number of product variants that X-Cart will create).
+7.  Choose how you want to create variants: manually or automatially. 
+    {% note info %}
     We recommend using the manual method if you need to create just a couple of variants. If you need to create a larger number of variants, it will be easier to use the automated generation method; in this case, your X-Cart store will create all possible combinations of the product options, and you will need to disable any combinations that you do not stock.
+    {% endnote %}
 
-8.  If you have chosen to let X-Cart to generate variants for you, the next page will look similar to the following:
-    ![]({{site.baseurl}}/attachments/7504786/8719369.png)
-    Here you can see a list of six product variants that X-Cart was able to create by combining the options for the "Kitty print color" and "Kitty print pattern" attributes. Each line is a separate product variant for which we can set its own price, SKU and quantity in stock.
+    * For manual setup of product variants, click **Create variants one by one**. 
+      You'll see a screen as follows:
+      ![variants-manual.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/variants-manual.png)
+      * Click **Add variant** to create a new product variant. A section for configuring your first product variant will be expanded below:
+        ![add-variant.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/add-variant.png)
+      * Adjust all the fields in this section as you require and click **Save changes**. Add the rest of the variants you require using the same method.
+         {% note info %}
+         You can use the **Create all possible variants (N)** link at any time to generate the missing product variants. Don't worry, this will not ruin the variants you have already configured.
+         {% endnote %}
+    * To let X-Cart generate product variants for you automatically, click **Create all possible variants (N)**, where **N** stands for the number of all possible product variants that X-Cart will create.
+      You'll see a screen with a list of all possible product variants that X-Cart was able to create by combining all available options. Each line is a separate product variant that can have its own price, SKU and quantity in stock. :
+      ![auto-variants.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/auto-variants.png)
+      
+      If some of the product variants that were generated automatically do not exist in real life, remove them using one of the following methods:
 
-    If some of the product variants that were generated automatically do not exist in real life, remove them using one of the following methods:
-
-    *   Click the **Trash** icon next to the product variant that needs to be removed and click **Save changes**:
-        ![]({{site.baseurl}}/attachments/7504786/8719370.png)
-    *   Select the variants that need to be removed, choose the _Delete selected_ action from from the **More actions for selected** menu, then confirm the action:
-        ![]({{site.baseurl}}/attachments/7504786/8719371.png)You can upload an image for each of  the variants. To set the prices, SKUs and quantities, simply specify them in the respective fields. You only need to specify values that do not equal the default ones. 
-    To specify the default variant, select the radio button for this variant in the second column.
-    ![]({{site.baseurl}}/attachments/7504786/8719374.png)
-    Be sure to save your changes by clicking **Save changes**.
-
-9.  If you have chosen to create product variants manually, the next page will look similar to the following:
-    ![]({{site.baseurl}}/attachments/7504786/8719375.png)
-    Here you can add variants one by one using the **Add variant** button. Click **Add variant**. A section for configuring your first product variant will be expanded below:
-    ![]({{site.baseurl}}/attachments/7504786/8719376.png)
-    Adjust all the fields in this section as you require and click **Save changes**:
-    ![]({{site.baseurl}}/attachments/7504786/8719377.png)
-    The variant will be added. Add the rest of the variants you require using the same method.
-
-{% note info %}
-You can use the Create all possible variants (N) link at any time to generate the missing product variants. Don't worry, this will not ruin the variants you have already configured.
-{% endnote %}
+      *   Click the **Trash** icon next to the product variant that needs to be removed and click **Save changes**:
+          ![delete-option.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/delete-option.png)
+      *   Select the variants that need to be removed, choose the _Delete selected_ action from from the **More actions for selected** menu, then confirm the action:
+          ![bulk-delete.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/bulk-delete.png)
+          You can upload an image for each of  the variants. To set the prices, SKUs and quantities, simply specify them in the respective fields. You only need to specify values that do not equal the default ones. 
+      * To specify the default variant, select the radio button for this variant in the second column.
+        ![default-button.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/default-button.png)
+       * Be sure to save your changes by clicking **Save changes**.
