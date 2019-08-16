@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-27 15:09 +0400'
 identifier: ref_6KutUhlR
-title: Flyout Categores Menu
+title: Flyout Categories Menu
 order: 110
 published: true
 ---
