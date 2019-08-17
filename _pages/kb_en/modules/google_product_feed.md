@@ -9,9 +9,8 @@ published: true
 ---
 [Google Product Feed](https://market.x-cart.com/addons/google-product-feed.html "Google Product Feed") addon allows a store admin to generate a feed file in order to upload the store product data to Google Merchant Center (and not only to it) in the correct format ([Google Content API for Shopping ads](http://code.google.com/apis/shopping/content/ "Google Product Feed")). The uploaded data can be used for promoting goods in [Google Shopping Ads](https://support.google.com/merchants/answer/188493?hl=en&ref_topic=3163841 "Google Product Feed") and other Google services.
 
-To generate feeds make sure the Google Product Feed addon is installed and enabled as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
-
-![installed.png]({{site.baseurl}}/attachments/ref_2gQBB6qM/installed.png)
+To generate feeds, make sure the Google Product Feed addon is installed and enabled as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![]({{site.baseurl}}/)
 
 **PREREQUISITES:**
 
