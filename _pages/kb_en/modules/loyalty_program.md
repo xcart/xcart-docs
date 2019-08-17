@@ -14,9 +14,10 @@ Do you want to stimulate guest customers to register, or encourage product revie
 
 ## Installation and Setup
 
-To install the Loyalty Program addon, please follow the steps described in {% link "Installing and Activating Addons" ref_0fGEpvrh %}. Once the addon has been installed, proceed to configuring your Loyalty Program via the addon settings page.
+To install the Loyalty Program addon, please follow the steps described in {% link "Installing and Activating Addons" ref_0fGEpvrh %}. 
+![loyalty_program_addon.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/loyalty_program_addon.png)
 
-![]({{site.baseurl}}/attachments/ref_1Odyn6mT/install.png)
+Once the addon has been installed, proceed to configuring your Loyalty Program via the addon settings page.
 
 The addon settings are divided into three main blocks - EARN, REDEEM and INFORMATION. 
 
