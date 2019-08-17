@@ -12,6 +12,7 @@ The addon [Multilevel Primary Menu](https://market.x-cart.com/addons/multilevel-
 ![mpm-storefront.png]({{site.baseurl}}/attachments/ref_3yEqhwsC/mpm-storefront.png)
 
 The Multilevel Primary Menu addon is included into the X-Cart Ultimate edition and can be added as a paid add-on to X-Cart Business and Multivendor.
+![multilevel_primary_menu_addon.png]({{site.baseurl}}/attachments/ref_3yEqhwsC/multilevel_primary_menu_addon.png)
 
 Once the addon has been installed and enabled, it adds the following extra facilities to the regular menus feature (**Content** -> **Menus**):
 
