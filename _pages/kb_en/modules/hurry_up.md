@@ -12,7 +12,7 @@ The addon [Hurry Up](https://market.x-cart.com/addons/hurry-up.html "Hurry Up!")
 ![cus-alerts.png]({{site.baseurl}}/attachments/ref_4XQjes9g/cus-alerts.png)
 
 To install the addon, follow the guidelines from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
-![]({{site.baseurl}}/)
+![hurry_up_addon.png]({{site.baseurl}}/attachments/ref_4XQjes9g/hurry_up_addon.png)
 
 After the addon has been installed and enabled, proceed to the settings page to configure it.
 
