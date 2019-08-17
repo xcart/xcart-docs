@@ -10,10 +10,10 @@ published: true
 The addon [News](https://market.x-cart.com/addons/news-module.html "News") enables you to share the company and products news and updates with your community.
 
 To install the addon, follow the directions from {% link "Installing and Activating Addons" ref_0fGEpvrh %}.
+![news_addon.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/news_addon.png)
 
-After the addon has been installed, proceed to the addon settings page to configure it:
-
-![installed.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/installed.png)
+After the addon has been installed, proceed to the addon settings page to configure it.
+![news_settings_link.png]({{site.baseurl}}/attachments/ref_0UBPXGXi/news_settings_link.png)
 
 The "News" addon settings page allow you to define the number of news messages in the **Top news** block on a storefont page and the number of news messages per page on the **News page** in the storefront:
 
