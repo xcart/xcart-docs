@@ -74,6 +74,7 @@ Make sure the Google Analytics addon is installed and enabled as described in th
 ![ga_addon.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/ga_addon.png)
 
 Once the addon has been enabled, open the **Settings** page to configure it.
+![ga_addon_settings_link.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/ga_addon_settings_link.png)
 
 The addon configuration settings are as follows:
 ![settings.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/settings.png)
