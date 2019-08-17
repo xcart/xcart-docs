@@ -9,17 +9,17 @@ published: true
 redirect_from:
   - /seo_and_promotion/google_analytics/ga_setup.html
 ---
-To bind your X-Cart store to your Google Anaytics account you'll need to complete the following major steps:
+To bind your X-Cart store to your Google Anaytics account, you will need to complete the following major steps:
 {% toc %}
   
-## Google Analytics Account Set-up
+## Google Analytics Account Setup
 
-Prior to configuring the GA integration module in X-Cart you need to get a Web Property ID from the Google Analytics account you'll bind your X-Cart store to and to configure some GA account settings.
+Prior to configuring the GA integration addon in X-Cart you need to get a Web Property ID from the Google Analytics account you will bind your X-Cart store to and to configure some GA account settings.
 
 1. Open the Google Analitycs account you want to use for the purpose and find the Web Property ID value there: 
 
    *  If you already have the Web Property ID, find it following the steps below:
-      1. Log in to [Google Analytics](https://www.google.com/analytics "Installing and Configuring Google Analytics Module"), using the Google account that owns the Analytics profile that you want to get the ID for.
+      1. Log in to [Google Analytics](https://www.google.com/analytics), using the Google account that owns the Analytics profile that you want to get the ID for.
       2. Choose the Analytics **Settings** tab
       3. Find the entry in the list for the Analytics profile that you need the profile for.
        
@@ -37,7 +37,7 @@ Prior to configuring the GA integration module in X-Cart you need to get a Web P
       4. Your Web Property ID is in the **Property** -> **Tracking info** -> **Tracking code** section
          ![property-id.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/property-id.png)
 
-2. Copy the Web Property ID value. You'll need it for the [X-Cart Google Analytics module configuration](https://kb.x-cart.com/seo_and_promotion/seo_and_analytics/google_analytics/ga_setup.html#x-cart-google-analytics-module-set-up "Installing and Configuring  Google Analytics Module") a bit later.
+2. Copy the Web Property ID value. You will need it for the [X-Cart Google Analytics addon configuration](https://kb.x-cart.com/seo_and_promotion/seo_and_analytics/google_analytics/ga_setup.html#x-cart-google-analytics-addon-setup) a bit later.
 
 3. Proceed to **E-Commerce Settings** section of the GA admin  
    ![checkout-GA-admin.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/checkout-GA-admin.png)
@@ -68,29 +68,27 @@ Prior to configuring the GA integration module in X-Cart you need to get a Web P
    In case the funnel steps are not created, the stats data will still be submitted, but it won't have an visual representation that you can get easily.
    {% endnote %}
 
-## X-Cart Google Analytics Module Set-up
+## X-Cart Google Analytics Addon Setup
 
-Make sure the Google Analytics module is installed and enabled as described in the {% link "Managing Addons" ref_gTOegEua %} guide.
+Make sure the Google Analytics addon is installed and enabled as described in the {% link "Managing Addons" ref_gTOegEua %} guide.
+![ga_addon.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/ga_addon.png)
 
-When the module is enabled, open the **Settings** page to configure it.
+Once the addon has been enabled, open the **Settings** page to configure it.
 
-  ![installed.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/installed.png)
+The addon configuration settings are as follows:
+![settings.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/settings.png)
 
-The module configuration settings are as follows:
-
-  ![settings.png]({{site.baseurl}}/attachments/ref_7aqHV7fa/settings.png)
-
-* **Web Property ID** : Specify your [Google Analytics Web Property ID](https://kb.x-cart.com/seo_and_promotion/seo_and_analytics/google_analytics/ga_setup.html#google-analytics-account-set-up "Installing and Configuring  Google Analytics Module") here.
+* **Web Property ID** : Specify your [Google Analytics Web Property ID](https://kb.x-cart.com/seo_and_promotion/seo_and_analytics/google_analytics/ga_setup.html#google-analytics-account-set-up) here.
 * **What are you tracking** : Choose between _single domain_ / _one domain with multiple subdomains_ / _multiple top level domains_ depending on your preferences. 
 * **Google Analytics code version** : Choose between _Universal Analytics_ and _Traditional Analytics_.
   
-  A preset value is [Universal Analytics](https://support.google.com/analytics/answer/3450662?hl=en "Installing and Configuring  Google Analytics Module"), it refers to the current Google Analytics version. If you prefer using an old version of Google Analytics switch to Traditional instead.
+  A preset value is [Universal Analytics](https://support.google.com/analytics/answer/3450662?hl=en), it refers to the current Google Analytics version. If you prefer using an old version of Google Analytics switch to Traditional instead.
   
 * **Enable eCommerce Google Analytics** : Enable/Disable submitting ecommerce data to Google Analytics
 * **Register purchase only on Paid status change** : When enabled, order data is sent to Google Analytics when an order gets the ‘Paid’ status. When disabled, X-Cart sends order data when an invoice page shows up to a customer regardless of the order status.
 * **Debug mode** : Enable to check all actions submitted to Google Analytics in a browser JS console.
 
-**Submit** changes when the module configuration is complete. 
+Clich **Submit** to save the changes after the addon configuration has been completed. 
 
 Google Analytics will collect statistics based on the settings you specified.
 
