@@ -8,15 +8,13 @@ order: 170
 published: true
 ---
 If you sale worldwide it makes sense to use the addon [Multicurrency](https://market.x-cart.com/addons/multicurrency-for-xcart5.html "Multicurrency") to make purchases easier for your international customers.
+![multicurrency_addon.png]({{site.baseurl}}/attachments/ref_2tPJubPU/multicurrency_addon.png)
 
-{% note info %}
-The Multicurrency addon works in a bundle with the addon {% link "Geolocation" ref_34F5BkhW %} that uses a free "GeoLite2 Country" database by MaxMind.  So please ensure that the addon Geolocation is enabled. The "GeoLite2 Country" database allows to define a customer's location accurate to a country. If you need higher accuracy, you can upload other databases on the Geolocation addon settings page.
+The Multicurrency addon works in a bundle with the addon {% link "Geolocation" ref_34F5BkhW %} that uses a free "GeoLite2 Country" database by MaxMind. 
+![geolocation_addon.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation_addon.png)
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![geolocation.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation.png)</div>
-  <div class="column" markdown="span">![geolocation-settings.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation-settings.png)</div>
-</div>
-{% endnote %}
+So please ensure that the addon Geolocation is enabled. The "GeoLite2 Country" database allows to define a customer's location accurate to a country. If you need higher accuracy, you can upload other databases on the Geolocation addon settings page.
+![geolocation-settings.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation-settings.png)
 
 To enable the Multicurrency addon, follow the instructions from {% link "Installing and Activating Addons" ref_0fGEpvrh %}.
 
