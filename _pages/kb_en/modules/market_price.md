@@ -10,8 +10,7 @@ published: true
 The [Market Price](https://market.x-cart.com/addons/market-price.html "Market Price") addon allows setting a market product price, which shows the difference between the price offered in your store and the average price of the same product on the market. 
 
 The addon is free and comes enabled with the default software installation:
-
-![installed.png]({{site.baseurl}}/attachments/ref_66scBj0f/installed.png)
+![market_price_addon.png]({{site.baseurl}}/attachments/ref_66scBj0f/market_price_addon.png)
 
 If it is not, you can always enable it in the **My addons** section of the admin area as described in {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}.
 
