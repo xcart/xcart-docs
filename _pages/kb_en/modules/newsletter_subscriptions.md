@@ -8,6 +8,7 @@ order: 185
 published: true
 ---
 The addon **Newsletter subscriptions** enables a sign-up form in the footer of your site inviting your store visitors to subscribe to your newsletters. The addon is included in all X-Cart editions (Business, Multivendor and Ultimate) and comes preinstalled. If it is not, follow the instructions from {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %} to enable it. 
+![newsletter_subscr_addon.png]({{site.baseurl}}/attachments/ref_2WzsM3Pg/newsletter_subscr_addon.png)
 
 The “Newsletter subscriptions” addon enables a subscription form in the site footer where your site visitors can submit their email addresses to subscribe to your store newsletter. 
 
