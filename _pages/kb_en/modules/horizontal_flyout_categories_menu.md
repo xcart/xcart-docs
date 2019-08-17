@@ -9,11 +9,9 @@ published: true
 ---
 The addon [Horizontal Flyout Categories Menu](https://market.x-cart.com/addons/horizontal-flyout-categories-menu.html "Horizontal Flyout Categories Menu") moves the categories list to the horizontal bar with a drop-down menu. 
 
-To install the addon, follow the instructions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 When installed and enabled proceed to the addon settings page to configure it.
-
-![hfcm-installed.png]({{site.baseurl}}/attachments/ref_1mFs8c7N/hfcm-installed.png)
 
 The addon settings page is divided into three sections:
 
