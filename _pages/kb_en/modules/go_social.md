@@ -11,9 +11,11 @@ The addon [Go Social](https://market.x-cart.com/addons/go-social.html "Go Social
 
 ![storefront.png]({{site.baseurl}}/attachments/ref_4YoBovhW/storefront.png)
 
-To use the addon, make sure it is {% link "installed and enabled" ref_uEnDBBA7 %}. Then proceed to the addon setting page to configure it.
+To use the addon, make sure it is {% link "installed and enabled" ref_uEnDBBA7 %}. 
+![go_social_addon.png]({{site.baseurl}}/attachments/ref_4YoBovhW/go_social_addon.png)
 
-![installed.png]({{site.baseurl}}/attachments/ref_4YoBovhW/installed.png)
+Then proceed to the addon setting page to configure it.
+![go_social_settings_link.png]({{site.baseurl}}/attachments/ref_4YoBovhW/go_social_settings_link.png)
 
 You can enable/disable the following options:
 * Facebook ShareButton settings: 
