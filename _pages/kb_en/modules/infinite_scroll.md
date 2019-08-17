@@ -11,11 +11,10 @@ The addon [Infinite Scroll](https://market.x-cart.com/addons/infinite-scroll.htm
 
 The addon Infinite Scroll is SEO friendly. Though pager does not appear on the page, it exists in the HTML code. This allows search engines to follow pager links and index the entire list of products.
 
-To install the addon, follow the deneral guidelines from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the deneral guidelines from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![infinite_scroll_addon.png]({{site.baseurl}}/attachments/ref_1WLu7suL/infinite_scroll_addon.png)
 
-After the addon has been installed and enabled, proceed to the addon settings page to configure the options:
-
-![installed.png]({{site.baseurl}}/attachments/ref_1WLu7suL/installed.png)
+After the addon has been installed and enabled, proceed to the addon settings page to configure the options.
 
 The Infinite Scroll settings page allows to configure the following options:
 
