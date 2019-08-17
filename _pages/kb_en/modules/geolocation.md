@@ -12,7 +12,7 @@ To improve the user experience of non-logged-in store visitors, IP geolocation c
 The addon provides a way for X-Cart to use a downloadable database of IP addresses by MaxMind, an industry-leading provider of IP intelligence. By default, MaxMind's GeoLite database (GeoLite2-Country.mmdb) is used which enables the store to identify a customer's location to a country level. If necessary, a more advanced MaxMind database (free or paid) may be installed via the addon settings.   
 
 To start using geolocation in your X-Cart store, ensure that the addon Geolocation by X-Cart team is {% link "installed and enabled" ref_0fGEpvrh %}. 
-![geolocation.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation.png)
+![geolocation_addon.png]({{site.baseurl}}/attachments/ref_34F5BkhW/geolocation_addon.png)
 
 We also recommend you check the PHP configuration on your store server, or have your hosting provider support team check it for you. The addon Geolocation requires PHP OPcache extension for its operation, and it is essential that the following PHP OPcache configuration parameters should be adjusted as follows:
 
