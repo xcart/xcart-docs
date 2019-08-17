@@ -9,10 +9,10 @@ published: true
 ---
 Use the addon [Hide Prices](https://market.x-cart.com/addons/hide-prices.html "Hide Prices") if you need to hide prices and disable the shop functionality for non-registered users or any other group of users. Such visitors will be able to browse your online catalog (without the prices), but will not be able to add anything to cart or proceed to checkout.
 
-To install the addon follow the instructions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}
+To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}
+![hide_prices_addon.png]({{site.baseurl}}/attachments/ref_46jNUlWG/hide_prices_addon.png)
 
-Atfer the addon has been installed, open the addon _Settings page_:
-![hide-price-settings.png]({{site.baseurl}}/attachments/ref_46jNUlWG/hide-price-settings.png)
+Atfer the addon has been installed, open the addon _Settings page_.
 
 You will see a screen like this:
 ![hide-prices-settings-2.png]({{site.baseurl}}/attachments/ref_46jNUlWG/hide-prices-settings-2.png)
