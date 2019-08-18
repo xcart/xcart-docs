@@ -16,7 +16,10 @@ The addon [Product Advisor](https://market.x-cart.com/addons/product-advisor.htm
 
 You can choose which blocks to display in the store front, specify the maximum number of products to show in the blocks and configure how long products are considered new (in days). Also, the addon marks “New” and “Coming Soon” products on the storefront with corresponding labels.
 
-To start using the Product Advisor addon make sure it's {% link "installed and enabled" ref_uEnDBBA7 %}
+To start using the Product Advisor addon make sure it is {% link "installed and enabled" ref_uEnDBBA7 %}
+![product_advisor_addon.png]({{site.baseurl}}/attachments/ref_72asis58/product_advisor_addon.png)
+
+For more info, see:
 
    * {% link "Enabling the 'Coming Soon' Block" ref_hQnN8cAT %}
    * {% link "Enabling the 'New Arrivals' Block" ref_2A50nkO9 %}
