@@ -7,15 +7,16 @@ title: Pinterest Tag (via Segment Integration)
 order: 208
 published: true
 ---
-[Pinterest Tag](https://market.x-cart.com/addons/pinterest-tag.html "Pinterest Tag (via Segment Integration)") integration allows you to track actions people take on your website after viewing your Promoted Pin. You can use this information to measure campaign performance, optimize spend, and create audiences to target on Pinterest. 
+X-Cart's [Pinterest Tag](https://market.x-cart.com/addons/pinterest-tag.html "Pinterest Tag (via Segment Integration)") integration allows you to track actions people take on your website after viewing your Promoted Pin. You can use this information to measure campaign performance, optimize spend, and create audiences to target on Pinterest. 
 
-X-Cart allows to submit data to Pinterest and get access to all the advantages it gives via the Segment Integration addon facilities. 
+With this integration, X-Cart can submit data to Pinterest and get access to all the advantages it gives.
 
-{% note warning %} 
+The Pinterest Tag integration is available via the Segment Integration addon facilities. 
+![segment_integration_addon.png]({{site.baseurl}}/attachments/ref_7efT5dbq/segment_integration_addon.png)
+
 To be able to submit data to Pinterest, you need the addon {% link "Segment Integration" ref_2tHtk4OT %} installed, enabled and configured to collect data from your X-Cart store.
 
 Also you need a Pinterest business account. If you do not yet have one, you can sign up [here](https://ads.pinterest.com/ "Pinterest Tag (via Segment Integration)").
-{% endnote %}
 
 To configure Pinterest via Segment:
 
