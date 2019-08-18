@@ -13,12 +13,11 @@ Let us imagine that you run an online store selling tons of different products. 
 ![]({{site.baseurl}}/attachments/ref_6e82A7rL/store-front.png)
 
 ## Install Product Filter
-If the addon **Product Filter** is not installed in your X-Cart store, you can install it from the X-Cart Marketplace. Follow the general instructions for {% link "installing and activating addons" ref_0fGEpvrh %}.
+If the addon **Product Filter** is not installed in your X-Cart store, you can install it from the X-Cart App Store. Follow the general instructions for {% link "installing and activating addons" ref_0fGEpvrh %}.
+![product_filter_addon.png]({{site.baseurl}}/attachments/ref_6e82A7rL/product_filter_addon.png)
 
 ## Configure the Product Filter Addon Settings
 Before using the addon, you will need to cofigure it. Open the _Settings_ page and configure the addon according to your business needs.
-
-![addons.png]({{site.baseurl}}/attachments/ref_6e82A7rL/addons.png)
 
 The addon settings are as follows:
 
