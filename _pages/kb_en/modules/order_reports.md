@@ -8,6 +8,7 @@ order: 195
 published: true
 ---
 The addon [Order Reports](https://market.x-cart.com/addons/order-reports.html "Order Reports Addon") helps merchants to analyze the sales return-on-investment by segmenting orders by products, categories, shipping country, etc. Hence it's possible to track where the most sales come from and get ideas about how to increase the revenue. 
+![order_reports_addon.png]({{site.baseurl}}/attachments/ref_52nVzkWs/order_reports_addon.png)
 
 Once the addon has been {% link "installed and enabled" ref_Vn1mMUw9 %}, it adds the **Order returns** section to the **Orders** parts of the Admin area (**Orders** -> **Order returns**):
 
