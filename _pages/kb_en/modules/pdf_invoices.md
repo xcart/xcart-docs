@@ -9,11 +9,10 @@ published: true
 ---
 The addon [PDF Invoices](https://market.x-cart.com/addons/PDF-Invoice.html "PDF Invoices") allows you to issue invoices in .pdf format and attach such invoices to messages.
 
-To install the addon, follow the instructions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![pdf_invoice_addon.png]({{site.baseurl}}/attachments/ref_4pIx0x0g/pdf_invoice_addon.png)
 
-Once the addon has been installed, proceed to the addon settings page to configure it:
-
-![installed.png]({{site.baseurl}}/attachments/ref_4pIx0x0g/installed.png)
+Once the addon has been installed, proceed to the addon settings page to configure it.
 
 The PDF Invoices addon settings are as follows:
 ![settings-page.png]({{site.baseurl}}/attachments/ref_4pIx0x0g/settings-page.png)
