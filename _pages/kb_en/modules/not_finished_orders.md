@@ -13,7 +13,8 @@ When a buyer completes a payment process with a payment gateway and clicks _**Pl
 
 Sometimes it can be that a buyer proceeds to pay for the contents of their shopping cart but does not complete checkout due to many reasons (changes their mind, something distracts them from completing the payment, a computer crash occurs, etc.). In this case the store Admin back end does not register the order by default. If you want to have such "not finished" purchases registered, it is necessary to use the addon [Not Finished Orders](https://market.x-cart.com/addons/not-finished-orders.html "Not Finished Orders"). 
 
-To install the addon, follow the regular guidelines provided in the article {% link "Activating and deactivating addons" ref_uEnDBBA7 %}.
+To install the addon, follow the regular guidelines provided in the article {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}.
+![nfo_addon.png]({{site.baseurl}}/attachments/ref_7dKyzAJ4/nfo_addon.png)
 
 {% note info %}
 The addon **Not Finished Orders** works with the orders created with online payment processors. For the offline payment methods an order is created at the moment a buyer clicks the **Place order** button in the X-Cart front end, and the order gets the "Awaiting payment" status by default. 
