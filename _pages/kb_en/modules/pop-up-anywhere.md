@@ -9,9 +9,8 @@ published: true
 ---
 The addon [Pop-Up Anywhere](https://market.x-cart.com/addons/popup-anywhere.html "Pop-up Anywhere") enables you to create an unlimited number of pop-ups/pop-overs and display them on the storefront instantly or on schedule, for all visitors or for certain groups of customers only. 
 
-To install the addon, follow the instructions from the section {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
-
-![installed.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/installed.png)
+To install the addon, follow the instructions from the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![pop-up_anywhere_addon.png]({{site.baseurl}}/attachments/ref_5KvYsWjw/pop-up_anywhere_addon.png)
 
 Once the addon has been installed, a new section - **Popups** - is added in the Admin area (**Discounts** -> **Popups**). This section can be used to create new and manage the existing pop-ups. The store administrator can enable/disable, edit or delete pop-ups. The page also enables the administrator to filter pop-ups by the name, as well as change the pop-up order by rearranging the list of pop-ups using the drag-n-drop feature. 
 
