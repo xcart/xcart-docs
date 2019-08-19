@@ -22,5 +22,5 @@ In addition, different states may have different rules for out-of-state merchant
 A state where a merchant collects sales tax also determines whether they should charge sales tax on shipping charges. Some states consider shipping charges to be a necessary part of a taxable eCommerce transaction, and require online sellers to charge sales tax on any delivery charges. Other states do not require online sellers to charge sales tax on shipping charges if the charge is clearly separated from the price of the taxable products.
 
 {% note info %}
-It's strongly recommended to consult an accountant or a local tax authority on the sales tax rates to ensure your store is configured properly and collects the correct sales tax rate.
+It is strongly recommended to consult an accountant or a local tax authority on the sales tax rates to ensure your store is configured properly and collects the correct sales tax rate.
 {% endnote %}
