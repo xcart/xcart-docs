@@ -13,11 +13,10 @@ The X-Cart addon [Product Questions](https://market.x-cart.com/addons/product-qu
 
 ## Installation and Setup
 
-To install the addon, follow the guidelines from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the guidelines from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![product_questions_addon.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/product_questions_addon.png)
 
-After the addon has been installed, proceed to the addon settings page:
-
-   ![installed.png]({{site.baseurl}}/attachments/ref_2FZ36bkz/installed.png)
+After the addon has been installed, proceed to the addon settings page.
 
 There you can adjust the following settings:
 
