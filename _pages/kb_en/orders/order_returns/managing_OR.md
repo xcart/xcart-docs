@@ -33,10 +33,10 @@ New orders claimed for return will have an 'Issued' status. The rest will have e
 
 To edit a claim for return click on the order number on the **Orders** -> **Returns** page.
 
-You'll be forwarded to the _Order return_ tab where you'll see a sceen of the kind:
+You'll be forwarded to the _Order return_ tab where you'll see a screen of the kind:
 ![manage-return.png]({{site.baseurl}}/attachments/ref_2yZxorwM/manage-return.png)
 
-Your options are either to **Autorize** or **Decline** the claim for return. 
+Your options are either to **Authorize** or **Decline** the claim for return. 
 
 If you authorize the claim for return the order status will be changed to REFUNDED [payment status] and RETURNED [fulfilment status] automatically. The claim for return will get a COMPLETED status respectively.
 
