@@ -71,18 +71,10 @@ For details, see {% link "Multi-Value Attributes (Product Options)" ref_465IZQg
 
 ## **Hidden field**
 
-This field type allows to add a hidden global attribute to a product that can be seen and used by a store administrator only (e.g. to add some product info that should not be displayed to customers in the storefront but can be used for admin purposes like {% link "Google Product Feed" ref_7aXFWHEN %} module configuration). 
+This field type allows to add {% link "hidden global attributes" ref_4bmoAAzp %} to a product that can be seen and used by a store administrator only (e.g. to add some product info that should not be displayed to customers in the storefront but can be used for maintenance purposes like {% link "Google Product Feed" ref_7aXFWHEN %} module configuration). 
 
-Hidden field attribute is displayed as a separate tab of the **Attributes** section on the product details page (**Attributes** -> **Hidden attributes**):
+Hidden field attribute unlike any other type of global attributes is displayed in a store Admin area only. If a hidden attribute is assigned to a product it can be checked in a special tab of the **Attributes** section on the product details page (**Attributes** -> **Hidden attributes**):
 
 ![hidden-tab.png]({{site.baseurl}}/attachments/ref_bTfJ9bTS/hidden-tab.png)
 
-The Hidden field attribute is configured the same way as the [Plain field](#plain-field) attribute, however unlike Plain field it doesn't allow to add multiple values to a product. A store admin can set only one value per a hidden field attribute for a product from the list of available.
-
-![attributes-tab.png]({{site.baseurl}}/attachments/ref_bTfJ9bTS/attributes-tab.png)
-
-{% note info %}
-Hidden field attibutes unlike global attributes of any other type can be created in the **Classes & Attributes** section only. See {% link "Managing global attributes" ref_HzMkgc0q %} for more info.  
-{% endnote %}
-
-A store admin can use the {% link "Bulk Editing" ref_1kSYmXQn %} tool to configure hidden attributes for multiple products at once.
+For details on the hidden field attribute configuration, see the guide {% link "Hidden Global Attributes" ref_4bmoAAzp %}.
