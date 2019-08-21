@@ -29,7 +29,7 @@ An X-Cart 5 online store can be configured to accept payments with PayPal. Depen
    *   {% link "PayPal Payments Pro" ref_6k1NvzJp %} (Payflow API / PayPal API)
    *   PayPal Payflow Pro
 
-* **[PayPal Here](https://market.x-cart.com/addons/PayPal-Here-payment-module.html "PayPal")** addon for X-Cart by Qualiteam. This addon and a mobile device with the PayPal Here application installed are required to use the PayPal Here solution by PayPal. For better interaction we also recommend to install the [Mobile Admin](https://www.x-cart.com/extensions/addons/mobile-admin.html "PayPal") extension.
+* **[PayPal Here](https://market.x-cart.com/addons/PayPal-Here-payment-module.html "PayPal")** addon for X-Cart by Qualiteam. This addon and a mobile device with the PayPal Here application installed are required to use the PayPal Here solution by PayPal. 
 
 
 _See also:_
