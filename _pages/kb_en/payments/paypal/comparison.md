@@ -5,7 +5,7 @@ updated_at: '2019-08-21 15:55 +0400'
 identifier: ref_3CGeXccD
 title: PayPal Solutions Overview
 order: 100
-published: false
+published: true
 ---
 PayPal is one of the largest payment processors in the world and offers many different payment solutions. In case a merchant considers accepting payments on site via PayPal it's vitally important to choose a proper PayPal solution that will meet the business needs best of all, as offering PayPal can make a store accessible to different types of shoppers which is critical to the store's conversion rate. In X-Cart, a merchant has quite a big list of integrated PayPal solutions to choose from. 
 
@@ -33,4 +33,4 @@ The only differences known between PayPal Express Checkout & PayPal Payments Sta
 Paypal Express Checkout requires more details to be added in store than PayPal Payments Standard which requires only email. 
 2) After the payment: 
 Paypal Express Checkout are sending the customers back on your store automatically, on finishorder.php 
-PayPal Payments Standard are sending the customers back only if you have the auto-return option set it up in your Paypal account. 
+PayPal Payments Standard are sending the customers back only if you have the auto-return option set it up in your Paypal account.
