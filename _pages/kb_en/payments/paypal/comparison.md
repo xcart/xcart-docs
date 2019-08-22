@@ -18,13 +18,13 @@ Customers don’t even need a PayPal account to pay via PayPal – they can use 
 
 PayPal Standard is one of the most popular gateways for merchants, as there are no setup fees, termination fees, or merchant accounts needed to get set up – all you need is a [PayPal Business account](https://www.paypal.com/us/webapps/mpp/merchant "PayPal Solutions Overview"). PayPal Standard is available in [200+ countries](https://www.paypal.com/us/webapps/mpp/country-worldwide "PayPal Solutions Overview"), so almost any merchant can use it.
 
-Transactions via PayPal Standard are processed on PayPal’s site (not your own), and will allow customers to pay with a PayPal balance or credit card. They’ll be sent to PayPal from your checkout screen, and you will be charged the standard PayPal transaction fee for these payments. Customers are then directed back to your site after completing the PayPal checkout. PayPal also offers volume discounts if you process over $3000 in transactions with PayPal monthly.
+Transactions via PayPal Standard are processed on PayPal’s site (not your own), and will allow customers to pay with a PayPal balance or credit card. Your customers will be sent to PayPal from your store checkout, and you will be charged the standard PayPal transaction fee for these payments. Customers are then directed back to your site after completing the PayPal checkout. PayPal also offers volume discounts if you process over $3000 in transactions with PayPal monthly.
 
-Since checkout is completed on PayPal’s site, you have to rely on PayPal send payment success and failure notifications back to your store for completed orders using something called an Instant Payment Notification (IPN). Using the PayPal IPN can occasionally be unreliable, which can sometimes result in the orders not being completed correctly on your store, which is one of the downsides to PayPal Standard.
+Since checkout is completed on PayPal’s site, you have to rely on PayPal send payment success and failure notifications back to your store for completed orders using Instant Payment Notifications (IPN). Using the PayPal IPN can occasionally be unreliable, which can sometimes result in the orders not being completed correctly on your store, which is one of the downsides to PayPal Standard.
 
 ## PayPal Express Checkout
 
-PayPal Express Checkout is available in the same countries as PayPal Standard, and you will be charged the same PayPal transaction fee with no setup or termination fees. PayPal Express Checkout is very similar to PayPal Standard with one major difference: the checkout flow.
+PayPal Express Checkout is available in the same countries as PayPal Standard, and you will be charged the same PayPal transaction fees with no setup or termination fees. PayPal Express Checkout is very similar to PayPal Standard with one major difference: the checkout flow.
 
 PayPal Express Checkout avoids the IPN issues that arise with PayPal Standard. Customers will be directed to PayPal from your site, but they don’t complete checkout at PayPal. Instead, customers approve a purchase at PayPal, then they are directed back to your site with a token (this token is passed to your site behind-the-scenes).
 
@@ -50,9 +50,27 @@ PayPal Pro is available to merchants in the UK, US, and Canada.
 
 ## PayPal Payflow Link
 
-PayPal Payflow Link - NOTES: 
-1. If your Web site processes more than 500 transactions per month, you should consider using Payflow Pro, PayPal’s high performance Internet payment solution
-2. Includes PayPal Express Checkout
+There are no startup or termination fees with PayPal Payflow Link, only the regular PayPal transaction fees. This integration combines credit card processing with PayPal Express Checkout functionality. Do not turn PayPal Express Checkout on, or the two versions will conflict with one another.
+
+With Payflow Link, your customers are linked to _Order_ forms on PayPal’s secure Web server where
+transactions are processed in real time.
+
+Customizable to your Web site. You can customize the look and feel of the PayPalhosted Order forms to reflect your Web site design.
+ Responsive and reliable. Payflow Link immediately advises customers whether their
+transaction was successful.
+ Email receipt notification. With approved transactions, Payflow Link can send an email
+confirmation receipt to you and to your customers.
+ High security. All transactions processed on PayPal-hosted forms occur over secure SSL
+connections. All certificates required to ensure both authentication and security are hosted
+by PayPal. You can specify that only certain Web pages (for example, your e-commerce
+site) are valid entry points for the transaction processing pages.
+ Fraud protection. Payflow Link supports a large set of automated fraud protection tools,
+including Card Security Code (CSC).
+
+{% note info %}
+If your Web site processes more than 500 transactions per month, you should consider using Payflow Pro, PayPal’s high performance Internet payment solution.
+{% endnote %}
+
 
 ## PayPal powered by Braintree
 
@@ -77,7 +95,7 @@ In addition to processing credit cards on your checkout page, PayPal powered by 
 |PayPal Express Checkout|Optional|Depends on settings|Depends on settings|no, only transaction fees|[200+ countries around the globe](https://www.paypal.com/us/webapps/mpp/country-worldwide "PayPal Solutions Overview")|
 |PayPal Standard|No|No|No|no, only transaction fees|[200+ countries around the globe](https://www.paypal.com/us/webapps/mpp/country-worldwide "PayPal Solutions Overview")|
 |PayPal Advanced|No|Depends on settings|Depends on settings|Yes|US and Canada|
-|PayPal Payflow Link|No|No|No|Yes|US and Canada|
+|PayPal Payflow Link|No|No|No|No, only transaction fees|US and Canada|
 |PayPal Payments Pro|No|Yes|Yes|Yes|UK, US, Canada, Australia (requires PayPal Pro Payflow account)|
 |PayPal powered by Braintree|No|Yes|Yes|No, only transaction fees|[70+ countries around the globe](https://www.braintreepayments.com/country-selection "PayPal Solutions Overview")|
 |PayPal Here|No|Yes|No|No, only transaction fees|US only|
