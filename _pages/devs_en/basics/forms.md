@@ -161,7 +161,7 @@ If you open `admin.php?target=example_form_demo` page, you will see the form tha
 
 {% note info %}
 If you create a form in the customer area, you will not have Submit button beneath the fields.
-In order to add one, you need to add the following method to the form's class:
+In order to add one, you need to add the following method to the form's class XLite\Module\XCExample\FormDemo\View\Model\FormDemo:
 
 ```php
     protected function getFormButtons()
