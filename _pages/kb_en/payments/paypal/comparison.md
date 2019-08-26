@@ -103,5 +103,5 @@ PayPal Payflow Link|Yes|Yes|Yes|Only transaction fees|US, Canada|
 PayPal Payments Pro|Yes|Yes|Yes|Yes|UK, US, Canada, Australia (requires PayPal Pro Payflow account)|
 PayPal Payflow Pro|Yes|Yes|Yes|Yes|UK, US, Canada, Australia|
 PayPal powered by Braintree|Yes|Yes|Yes|Only transaction fees|US, UK, France, Italy & Spain|
-PayPal for Marketplaces|Yes|Yes|Yes|?|[200+ countries around the globe](https://www.paypal.com/us/webapps/mpp/country-worldwide "PayPal Solutions Overview")|
-PayPal Partner Hosted with PCI Compliance|Yes|Yes|Yes|?|United States, Canada|
+PayPal for Marketplaces|Yes|Yes|Yes|Only transaction fees|[200+ countries around the globe](https://www.paypal.com/us/webapps/mpp/country-worldwide "PayPal Solutions Overview")|
+PayPal Partner Hosted with PCI Compliance|Yes|Yes|Yes|Only transaction fees|United States, Canada|
