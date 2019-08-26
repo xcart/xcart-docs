@@ -35,16 +35,20 @@ To create a new product sticker:
 1. Open the **Product stickers** section in the Admin/Vendor area (**Catalog** -> **Product stickers**) and click **Create**:
    ![create.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/create.png)
 
-2. On the blank new line that will be provided, enter a name for your sticker and choose the text and background colors:
+2. On the blank new line that will be provided, enter a name for your sticker and select the text and background colors:
    ![create-new.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/create-new.png)
 
-3. To choose a color:
-   ![choose-color.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/choose-color.png)
-   * Click in the color field 
-   * Choose the desired color on the color palette
-   * Click the multicolored round button in the bottom right corner to add the chosen color
-
-4. Save the sticker using the **Save changes** button.
+   To choose a color:
+   
+   1. Click within the color field you want to edit. This will display the color select panel. 
+   
+   2. Use the color palette to pick the color you require.
+   
+   3. Click the multicolored round button in the bottom right-hand corner of the panel to select the color.
+      ![choose-color.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/choose-color.png)
+   The code of the chosen color will be displayed in the color field.
+   
+3. Save the sticker using the **Save changes** button.
    
 
 After creating the stickers they require, the store admin/vendor can assign the stickers to products.
@@ -56,10 +60,10 @@ To assign a sticker to a product:
 2. On the **Info** tab of the product details page, locate the **Product stickers** field:
    ![product-details-1.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/product-details-1.png)
 
-3. Choose the stickers you want to apply to the product from the drop-down:
+   The field is a drop-down box; use it to select the stickers you want to apply to the product.
    ![products-details-2.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/products-details-2.png)
 
-4. **Update product**.
+4. Update the product details to save your changes.
 
 That's it! The product sticker has been assighed to the product and can now be seen in the storefront.
 
