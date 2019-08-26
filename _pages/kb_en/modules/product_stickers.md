@@ -10,6 +10,7 @@ published: true
 The addon [Product Stickers](https://market.x-cart.com/addons/product-stickers.html "Product Stickers") enables you to label any products in your store with custom stickers to deliver additional information to your store visitors. 
 
 To start using the addon, install it as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![product_stickers_addon.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/product_stickers_addon.png)
 
 Once the addon has been installed, proceed to the addon settings page to configure the options.
 
