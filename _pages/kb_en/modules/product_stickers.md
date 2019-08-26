@@ -7,18 +7,16 @@ title: Product Stickers
 order: 223
 published: true
 ---
-The addon [Product Stickers](https://market.x-cart.com/addons/product-stickers.html "Product Stickers") allows to label any products in your store with custom stickers to deliver special information to your store visitors. 
+The addon [Product Stickers](https://market.x-cart.com/addons/product-stickers.html "Product Stickers") enables you to label any products in your store with custom stickers to deliver additional information to your store visitors. 
 
-To start using the addon, install it as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To start using the addon, install it as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
-Once the addon has been installed, proceed to the addon settings page to configure the options:
-
-![installed.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/installed.png)
+Once the addon has been installed, proceed to the addon settings page to configure the options.
 
 The Product Stickers addon configuration settings are as follows:
 ![settings-page.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/settings-page.png)
 
-* **Display product labels as stickers** : If enabled, default product labels (sale, market price, etc.) will be displayed as stickers.
+* **Display product labels as stickers** : If enabled, the default product labels (sale, market price, etc.) are displayed as stickers.
   {% note info %}
   <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Sale</i>![adm-sale.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/adm-sale.png)</div>
@@ -34,10 +32,10 @@ The Product Stickers addon configuration settings are as follows:
 **Submit** the settings to make them active.
 
 To create a new product sticker:
-1. Open the **Product stickers** section in the admin/vendor area (**Catalog** -> **Product stickers**) and click Create:
+1. Open the **Product stickers** section in the Admin/Vendor area (**Catalog** -> **Product stickers**) and click **Create**:
    ![create.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/create.png)
 
-2. In the new blank line enter the sticker name and choose the text and background colors:
+2. On the blank new line that will be provided, enter a name for your sticker and choose the text and background colors:
    ![create-new.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/create-new.png)
 
 3. To choose a color:
@@ -49,17 +47,21 @@ To create a new product sticker:
 4. Save the sticker using the **Save changes** button.
    
 
-When all required stickers are created a store admin/vendor can assign them to products.
+After creating the stickers they require, the store admin/vendor can assign the stickers to products.
 
-For this purpose:
-1. Find the product you want to edit in the product list (**Catalog** -> **Products**) and open the product details
-2. Locate the **Product stickers** option in the **Info** tab of the product details page:
+To assign a sticker to a product:
+
+1. In the product list (**Catalog** -> **Products**), find the product to which you want to add a sticker and open the product details for viewing/editing.
+
+2. On the **Info** tab of the product details page, locate the **Product stickers** field:
    ![product-details-1.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/product-details-1.png)
+
 3. Choose the stickers you want to apply to the product from the drop-down:
    ![products-details-2.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/products-details-2.png)
+
 4. **Update product**.
 
-That's it! A product sticker is assighed to the product and will be displayed in the storefront.
+That's it! The product sticker has been assighed to the product and can now be seen in the storefront.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![product-details-3.png]({{site.baseurl}}/attachments/ref_2O2hXMhF/product-details-3.png)</div>
