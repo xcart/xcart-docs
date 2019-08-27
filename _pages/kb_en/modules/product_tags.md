@@ -77,9 +77,9 @@ To search for products by a tag in the Admin area, use one of the following meth
    
    * In the Tags section (**Catalog** > **Tags**), find the tag you require and click on the number link displayed in the Products column of the tag list.
    
-On the storefront, to find all the products with a certain tag, you will want to click on the tag in the **Tags** section. 
-   ![front-end.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/front-end.png)
+On the storefront, to find all the products with a certain tag, you will want to click on the tag in the **Tags** section. (Remember, this section is displayed in the sidebar only if the store administrator has enabled it via the addon settings). 
+   ![product_tags_search_customer.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/product_tags_search_customer.png)
 
-If, according to the store settings, product tags are not shown as a separate section in the Admin area, they are included into the block of {% link "Product Filters " ref_6e82A7rL %}, so you can use them there. The **Product Filters** section will display only the tags that are relevant for the category being viewed.
+If, according to the store settings, product tags are not shown as a separate section in the sidebar, they are included into the block of {% link "Product Filters " ref_6e82A7rL %}, so you can use them there. The **Product Filters** section will display only the tags that are relevant for the category being viewed.
    ![product_tags_filter.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/product_tags_filter.png)
 
