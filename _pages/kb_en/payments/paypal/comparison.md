@@ -18,13 +18,11 @@ PayPal Standard is one of the most popular gateways for merchants, as there are 
 
 Transactions via PayPal Standard are processed on PayPal’s site (not your own), and will allow customers to pay with a PayPal balance or credit card. Your customers will be redirected to PayPal from your store checkout, and you will be charged the standard PayPal transaction fee for these payments. Customers are then directed back to your site after completing the PayPal checkout. 
 
-Since checkout is completed on PayPal’s site, you have to rely on PayPal send payment success and failure notifications back to your store for completed orders using Instant Payment Notifications (IPN). Using the PayPal IPN can occasionally be unreliable, which can sometimes result in the orders not being completed correctly on your store, which is one of the downsides to PayPal Standard.
+Since checkout is completed on PayPal’s site, you have to rely on PayPal send payment success and failure notifications back to your store for completed orders using Instant Payment Notifications (IPN). 
 
 ## PayPal Express Checkout
 
-PayPal Express Checkout is available in the same countries as PayPal Standard, and you will be charged the same PayPal transaction fees with no setup or termination fees. PayPal Express Checkout is very similar to PayPal Standard with one major difference: the checkout flow.
-
-PayPal Express Checkout avoids the IPN issues that arise with PayPal Standard. 
+PayPal Express Checkout is available in the same countries as PayPal Standard, and you will be charged the same PayPal transaction fees with no setup or termination fees. PayPal Express Checkout is very similar to PayPal Standard with one major difference: the checkout flow. 
 
 Customers are charged immediately as they fill in the PayPal pop-up with their credit card details on your store checkout page. Express Checkout is also available to customers on the product details page, cart and minicart pages, and in the add to cart popup.
 
@@ -87,9 +85,9 @@ There are no setup or termination fees, only the regular PayPal transaction fees
 
 ## PayPal Partner Hosted with PCI Compliance
 
-PayPal Partner Hosted with PCI Compliance payment solution is available to merchants in the US and Canada only. There are no setup or termination fees, only the regular PayPal transaction fees.
+PayPal Partner Hosted with PCI Compliance payment solution (named by PayPal as Payflow Integration Using Transparent Redirect) is available to merchants in the US and Canada only. There are no setup or termination fees, only the regular PayPal transaction fees.
 
-With PayPal Partner Hosted with PCI Compliance payment customers can pay directly on your site using their credit or debit card, without being redirected to PayPal. The payment pages they enter their credit card details on are hosted by PayPal behind the scenes.
+With PayPal Partner Hosted with PCI Compliance payment customers can pay directly on your site using their credit or debit card, without being redirected to PayPal. The credit card details your customers enter on checkout pages of your store are passed securely to PayPal behind the scenes.
 
 ## PayPal Solutions' Comparison Chart
 
