@@ -73,7 +73,7 @@ You can manage your product tags via the Tags section of your store's Admin area
 To search for products by a tag in the Admin area, use one of the following methods:
    
    * In the Products section (**Catalog** > **Products**), expand the filter/search form above the product list, select the **Tag** checkbox in the search settings and enter the tag name.
-   ![tag-search.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/tag-search.png)
+   ![product_tags_search_admin.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/product_tags_search_admin.png)
    
    * In the Tags section (**Catalog** > **Tags**), find the tag you require and click on the number link displayed in the Products column of the tag list.
    
@@ -81,3 +81,5 @@ On the storefront, to find all the products with a certain tag, you will want to
    ![front-end.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/front-end.png)
 
 If, according to the store settings, product tags are not shown as a separate section in the Admin area, they are included into the block of {% link "Product Filters " ref_6e82A7rL %}, so you can use them there. The **Product Filters** section will display only the tags that are relevant for the category being viewed.
+   ![product_tags_filter.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/product_tags_filter.png)
+
