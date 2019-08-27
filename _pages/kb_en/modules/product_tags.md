@@ -13,11 +13,15 @@ The X-Cart addon [Product Tags](https://market.x-cart.com/addons/product-tags.ht
 
 To start using the **Product Tags** addon, ensure that it is {% link "installed and enabled" ref_0fGEpvrh %} in the **My addons** section of the store's Admin area. 
 
-   ![addons.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/addons.png)
+   ![product_tags_addon.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/product_tags_addon.png)
 
-On the addon settings page, you can adjust the setting **Show tags list in the sidebar**. This setting specifies whether the **Tags** section should be displayed on the storefront or not. If enabled, product tags will be displayed in a separate section on every page of your store.
+It is a good idea to start by adjusting the addon settings:
+   ![product_tags_settings_link.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/product_tags_settings_link.png)
 
-   ![settings.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/settings.png)
+The addon settings page is as follows:
+   ![product_tags_settings.png]({{site.baseurl}}/attachments/ref_6nFoxYf1/product_tags_settings.png)
+
+Here you can adjust the setting **Show tags list in the sidebar**. This setting specifies whether the **Tags** section should be displayed on the storefront or not. If the **Show tags list in the sidebar** option is enabled, product tags will be displayed in a separate section on every page of your store.
 
 To add and manage product tags, go to the Tags section of your store's Admin area (**Catalog** -> **Tags**).
 
@@ -28,7 +32,7 @@ To add a product tag:
    2. In the blank field that appears, enter the tag name you require.
    3. Click **Save changes**. 
 
-Once a tag is created, you can assign it to products. One product can have an unlimited number of tags assigned to it. 
+Once a tag has been created, you can assign it to products. One product can have an unlimited number of tags assigned to it. 
 
 To assign a tag to a product:
 
