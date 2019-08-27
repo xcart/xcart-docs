@@ -35,3 +35,4 @@ An X-Cart 5 online store can be configured to accept payments with PayPal. Depen
 _See also:_
 
 *   {% link "Braintree" ref_3U96LOWn %}
+*   {% link "PayPal Solutions Overview" ref_3CGeXccD %}
