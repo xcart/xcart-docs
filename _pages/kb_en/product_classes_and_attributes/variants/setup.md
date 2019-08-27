@@ -10,8 +10,9 @@ published: true
 {% note warning %}
 PREREQUISITES:
 1. Make sure the [Product variants](https://market.x-cart.com/addons/product-variants.html "Product Variants Setup and Management") addon by X-Cart team is installed and enabled in your store. 
-
-   For installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+   ![product_variants_addon.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/product_variants_addon.png)
+   
+   For installation instructions, see {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 2. Make sure you have {% link "multi-value attributes " ref_465IZQg9 %} configured for the product(s) you are going to create variants for. These can be either product-specific or product-class attributes.
 
