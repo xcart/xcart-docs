@@ -7,17 +7,15 @@ title: 'Google reCAPTCHA '
 order: 131
 published: true
 ---
-The addon [Google reCAPTCHA](https://market.x-cart.com/addons/google-recaptcha.html "Google reCAPTCHA ") for X-Cart 5 uses the free Google reCAPTCHA service to protect your shop from robots creating fake user accounts and sending SPAM through your site.
+The addon [Google reCAPTCHA](https://market.x-cart.com/addons/google-recaptcha.html "Google reCAPTCHA ") for X-Cart 5 uses the free Google reCAPTCHA service to protect your shop from robots creating fake user accounts and sending spam through your site.
 
 The addon integrates with the advanced version of the API that displays a simple "I'm not a robot" checkbox instead of asking users to enter a complex mix of digits and letters.
 
-To start using the addon, make sure it's installed and enabled as described in {% link "Installing addons from the Marketplace" ref_Vn1mMUw9 %}.
+To start using the addon, make sure it is installed and enabled as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 Then sign up for a [free Google reCAPTCHA account](https://www.google.com/recaptcha/admin#list "Google reCAPTCHA "), to get your site key and secure key that you will need to specify during the addon configuration.
 
-To configure the addon, open the addon settings page:
-
-![gre-installed.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-installed.png)
+To configure the addon, open the addon settings page.
 
 The settings page is divided into 3 subsections:
 
