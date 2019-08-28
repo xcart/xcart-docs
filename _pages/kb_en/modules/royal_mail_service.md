@@ -11,9 +11,7 @@ X-Cart is integrated with the Royal Mail (the national postal service and courie
 
 The Royal Mail integration addon for X-Cart sends the order information to Royal Mail. There it’s given a tracking ID, shipping and customs labels and RM sends them back to your store. After that, you can label the orders and print out the manifest for the courier.
 
-To start working with the addon make sure the Royal Mail Service is installed and enabled as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
-
-![installed.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/installed.png)
+To start working with the addon make sure the Royal Mail Service is installed and enabled as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 ## Configuring Royal Mail Services
 
