@@ -13,9 +13,9 @@ Stripe payment can be used in the US, UK, Canada and Ireland, Stripe is in Beta 
 
 ## Installation and Setup
 
-To enable Stripe payment in your store follow the regular guidelines on adding an online payment method provided in {% link "Adding Payment Methods" ref_36BqwVSF %}.
+To enable Stripe payment in your store, follow the regular guidelines on adding an online payment method provided in {% link "Adding Payment Methods" ref_36BqwVSF %}.
 
-Once Stripe is added, you'll be redirected to the Stripe settings page:
+Once Stripe is added, you will be redirected to the Stripe settings page:
 
 ![connect-with-stripe.png]({{site.baseurl}}/attachments/ref_1SRSOBWa/connect-with-stripe.png)
 
@@ -23,11 +23,11 @@ Here you should click the blue **Connect with Stripe** button to be redireted to
 
 ![stripe-sign-in.png]({{site.baseurl}}/attachments/ref_1SRSOBWa/stripe-sign-in.png)
 
-Once signed in you'll be redirected back to X-Cart Stripe settings page:
+Once signed in you will be redirected back to X-Cart Stripe settings page:
 
 ![stripe-settings.png]({{site.baseurl}}/attachments/ref_1SRSOBWa/stripe-settings.png)
 
-Here you'll need to copy "Webhook URL" and place it into your Stripe Account settings. For this purpose: 
+Here you will need to copy "Webhook URL" and place it into your Stripe Account settings. For this purpose: 
 1. open the page "Webhooks" in the "Developers" section of [dashboard.stripe.com](https://dashboard.stripe.com/account/webhooks "Stripe")
 2. in the section _Endpoints receiving events from your account_, click **+ Add endpoint**.
    ![add-endpoint.png]({{site.baseurl}}/attachments/ref_1SRSOBWa/add-endpoint.png)
