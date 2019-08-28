@@ -8,6 +8,7 @@ order: 270
 published: true
 ---
 The addon [Stripe payment](https://market.x-cart.com/addons/stripe-payment-module.html "Stripe") provides an integration with Stripe, a PCI compliant payment service with a neat payment form on checkout that allows saving personal CC info in Stripe for future re-using (optional). Stripe is compatible with all types of devices: desktop, tablet and mobile. 
+![stripe_addon.png]({{site.baseurl}}/attachments/ref_1SRSOBWa/stripe_addon.png)
 
 Stripe payment can be used in the US, UK, Canada and Ireland, Stripe is in Beta in Australia, France, Spain, Germany, Belgium, Finland, Netherlands and Luxembourg, with even more countries coming.
 
