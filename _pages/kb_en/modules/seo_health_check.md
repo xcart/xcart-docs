@@ -9,9 +9,8 @@ published: true
 ---
 The addon [SEO Health Check](https://market.x-cart.com/addons/seo-check.html "SEO Health Check") is a tool for keeping track of common SEO tasks that need to be done on the site. 
 
-To install the addon, follow the instructions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
-
-![installed.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/installed.png)
+To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![seo_health_check_addon.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/seo_health_check_addon.png)
 
 Once installed and enabled, the addon performs a series of tests and helps the store admin to find SEO issues on the store website. 
 
