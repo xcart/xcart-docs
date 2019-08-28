@@ -14,9 +14,9 @@ The addon **Shiplark: Ship Faster** for X-Cart 5 allows you to connect your X-Ca
 To start using Webgility's Shiplark solution with X-Cart 5:
 
 1.  Download and install Shiplark software. You will need to go to [shiplark.com](http://kb.x-cart.com/www.shiplark.com/?utm_source=X-Cart%205%20Help%20Desk&utm_medium=Shiplark%20Help%20Article&utm_campaign=Partnership%3A%20X-Cart) and sign up for a Webgility account or use your existing account. 
-2.  In your X-Cart store's Admin area, go to the **My addons** section, search for the addon **Shiplark: Ship Faster** in the X-Cart Marketplace and install it in your store:
+2.  In your X-Cart store's Admin area, go to the **My addons** section, search for the addon **Shiplark: Ship Faster** in the X-Cart App Store and install it in your store:
     ![]({{site.baseurl}}/attachments/7505368/7602644.png)
-    Once the installation process is completed, the addon will be added to the list of your store's installed addons in the Installed addons section (**Extensions > Installed addons**).
+    Once the installation process is completed, the addon will be added to the list of your store's installed addons in the My Addons section.
     ![]({{site.baseurl}}/attachments/7505368/7602645.png)
 3.  Use the Settings link to go to the addon setting page:
     ![]({{site.baseurl}}/attachments/7505368/7602643.png)
