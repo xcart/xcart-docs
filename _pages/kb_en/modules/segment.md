@@ -7,13 +7,12 @@ title: Segment Integration
 order: 232
 published: true
 ---
-X-Cart is integrated with Segment via a special free addon [Segment Integration](https://market.x-cart.com/addons/segment-integration.html "Segment Integration"). The integration provides access to such useful tools like Goole Analytics, Mixpanel, Pinterest Tags, Google Ads, Facebook Pixel, Kissmetrics, etc.
+X-Cart is integrated with Segment via a special free addon [Segment Integration](https://market.x-cart.com/addons/segment-integration.html "Segment Integration"). The integration provides access to such useful tools as Goole Analytics, Mixpanel, Pinterest Tags, Google Ads, Facebook Pixel, Kissmetrics, etc.
 
-To start using the addon, install it as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+To start using the addon, install it as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![segment_integration_addon.png]({{site.baseurl}}/attachments/ref_2tHtk4OT/segment_integration_addon.png)
 
-After the addon has been installed and enabled, create a free account with [Segment.com](https://app.segment.com/signup "Segment Integration") in a separate tab, while keeping the X-Cart Segment Integration page open.
-
-![installed.png]({{site.baseurl}}/attachments/ref_2tHtk4OT/installed.png)
+After the addon has been installed and enabled, create a free account with [Segment.com](https://app.segment.com/signup "Segment Integration"). It is best to do it in a separate tab of your browser while keeping the X-Cart Segment Integration page open.
 
 To create an account with Segment.com:
 
@@ -24,7 +23,7 @@ To create an account with Segment.com:
    If you already have an account with Segment.com, sign in and add your X-Cart site as a source to Segment.
    {% endnote %}
    
-2. On the next page specify your business details and click **Create A Free Account**.
+2. On the next page, specify your business details and click **Create A Free Account**.
    ![Segment-create-account.png]({{site.baseurl}}/attachments/ref_2tHtk4OT/Segment-create-account.png)
    
 That's it! You've created a free Segment account for your business. Don't clise the Segment tab as you'll need to proceed further from where you stopped.
