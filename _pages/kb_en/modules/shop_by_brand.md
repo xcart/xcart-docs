@@ -13,7 +13,7 @@ The addon [Shop by Brand](https://market.x-cart.com/addons/shop-by-brand.html "S
 With this addon finding products of specific brands/manufacturers becomes much easier for customers, especially first-time visitors who may not know what exactly they are looking for.
 
 Depending on the X-Cart edition, your store may already have the addon Shop by Brand installed and enabled.  
-![sbb_addon.png]({{site.baseurl}}/attachments/ref_2LetICls/sbb_addon.png)
+![shop_by_brand_addon.png]({{site.baseurl}}/attachments/ref_2LetICls/shop_by_brand_addon.png)
 
 If not, it can be obtained via the X-Cart App Store. To install the addon, follow the steps described in {% link "Installing and Activating Addons" ref_0fGEpvrh %}.
 
@@ -121,7 +121,3 @@ Here's an overview of the Shop by Brand addon settings:
 * **Order brands in the Brands block by**: This settings determines the order in which brand names are listed in the Brands block. The available options are "Brand names" (alphabetically), "Admin-defined order" and "Number of products". 
 
 * **Number of items in the Brands block**: Set the maximum number of brands to be displayed in the Brands block on the store front end. Brands over this number will be visible on the Brands page, to which a link will be provided at the bottom of the block.
-
-
-
-
