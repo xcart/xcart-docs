@@ -12,6 +12,7 @@ The addon [Google reCAPTCHA](https://market.x-cart.com/addons/google-recaptcha.h
 The addon integrates with the advanced version of the API that displays a simple "I'm not a robot" checkbox instead of asking users to enter a complex mix of digits and letters.
 
 To start using the addon, make sure it is installed and enabled as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![google_recaptcha_addon.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/google_recaptcha_addon.png)
 
 Then sign up for a [free Google reCAPTCHA account](https://www.google.com/recaptcha/admin#list "Google reCAPTCHA "), to get your site key and secure key that you will need to specify during the addon configuration.
 
