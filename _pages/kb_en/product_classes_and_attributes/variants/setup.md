@@ -41,7 +41,7 @@ To configure product variants for a product:
 6. Choose the attributes your variants will be based on by selecting the check boxes to the left of the attribute names. 
     ![variant-options.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/variant-options.png)
 
-7.  Choose how you want to create variants: manually or automatially. 
+7.  Choose how you want to create variants: manually or automatically. 
     {% note info %}
     We recommend using the manual method if you need to create just a couple of variants. If you need to create a larger number of variants, it will be easier to use the automated generation method; in this case, your X-Cart store will create all possible combinations of the product options, and you will need to disable any combinations that you do not stock.
     {% endnote %}
