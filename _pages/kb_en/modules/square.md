@@ -5,7 +5,7 @@ updated_at: '2019-08-29 11:17 +0400'
 identifier: ref_5kZcVsK7
 title: Square
 order: 269
-published: false
+published: true
 ---
 The addon [Square Payments](https://market.x-cart.com/addons/square.html "Square") provides an integration with Square, a PCI compliant payment solution. Square is compatible with all types of devices: desktop, tablet and mobile and also supports offline in-person payments. Square payment is integrated with X-Cart via Square API that keep customers on your site during checkout and credit card data submission.
 
@@ -103,7 +103,3 @@ To configure Square payments addon in your store Admin area:
        <div class="column" markdown="span"><b>Square Settings Page</b>![paymont-on-1.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/paymont-on-1.png)</div>
        <div class="column" markdown="span"><b>Payment Methods Page</b>![payment-on-2.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/payment-on-2.png)</div>
      </div>
-
-
-     
-
