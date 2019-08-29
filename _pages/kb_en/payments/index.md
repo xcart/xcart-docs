@@ -31,6 +31,7 @@ You can enable different payment methods in X-Cart so that your customers have a
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
 *   {% link "Stripe" ref_1SRSOBWa %}
+*   {% link "Square" ref_5kZcVsK7 %}
 
 You can get even [more payment options](https://www.x-payments.com/help/X-Payments:Payment_gateways_supported_by_X-Payments_3.1 "Payments") for checkout if using X-Payments, a platform by a PCI DSS Level 1 certified service provider that is intended for merchants who need to accept credit card payments online and who require compliance with the PCI DSS standard. 
 
