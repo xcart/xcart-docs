@@ -69,7 +69,7 @@ To configure Square payments addon in your store Admin area:
 1. Open the Square settings page:
    * Via the **Settings** link on the Square addon page in the **My Addons** section of your store Admin area:
      ![settings-link.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/settings-link.png)
-   * Via the **Add payment method** button in the **Store setup** -> **Payment methods** section of your store Admin area:
+   * Via the {% link "**Add payment**" ref_36BqwVSF %} button in the **Store setup** -> **Payment methods** section of your store Admin area:
      ![add-payment.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/add-payment.png)
 2. On the Square payment settings page choose the required application mode and fill in the related fields:
    ![settings-page.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/settings-page.png)
