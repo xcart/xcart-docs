@@ -111,6 +111,7 @@ _In this section:_
 *   {% link "Shopper Approved" ref_1leKQurL %}
 *   {% link "Social Login" ref_IapN8lJ8 %}
 *   {% link "Special Offers" ref_special_offers %}
+*   {% link "Square" ref_5kZcVsK7 %}
 *   {% link "Stripe" ref_1SRSOBWa %}
 *   {% link "Tax Exempt" ref_6dA6W1gY %}
 *   {% link "TaxJar Sales Tax Automation" ref_0wHdWryq %}
