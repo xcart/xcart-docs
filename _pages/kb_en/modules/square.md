@@ -7,13 +7,9 @@ title: Square
 order: 269
 published: true
 ---
-The addon [Square Payments](https://market.x-cart.com/addons/square.html "Square") provides an integration with Square, a PCI compliant payment solution. Square is compatible with all types of devices: desktop, tablet and mobile and also supports offline in-person payments. Square payment is integrated with X-Cart via Square API that keep customers on your site during checkout and credit card data submission.
+The addon [Square Payments](https://market.x-cart.com/addons/square.html "Square") provides an integration with Square, a PCI compliant payment solution. Square is compatible with all types of devices: desktop, tablet and mobile and also supports offline in-person payments. Square payment is integrated with X-Cart via Square API that keeps customers on your site during checkout and credit card data submission.
 
-The inntegration is available for the US, Canada, Japan, Australia and the UK.
-
-{% note warning %} 
-To start accepting payments with Square make sure the Square Payments addon is installed and enabled as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.{% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
-{% endnote %}
+The integration is available for the US, Canada, Japan, Australia and the UK.
 
 {% toc %}
 
@@ -22,7 +18,7 @@ To start accepting payments with Square make sure the Square Payments addon is i
 Prior to configuring the Square Payments addon in the Admin area of your X-Cart based store, you'll need to sign up for Square to get and account that provides access to Square Developer Dashboard where you'll find all the necessary data for the addon configuration in your store admin.
 
 1. To create an account with Square start with a regular [Square sign up](https://squareup.com/t/f_partnerships/d_partnerships/p_xcart/c_general/o_none/u_partnersite?route=signup "Square") link or use the **Start a Square account button** at [https://squareup.com/us/en](https://squareup.com/us/en "Square").
-   * You'll need specify your e-mail (will be used an an account ID), set a password and choose your business locale. Also it will be necessary to agree to to Square’s terms, privacy policy, and e-sign Consent:
+   * You'll need specify your e-mail (will be used an an account ID), set a password and choose your business locale. Also it will be necessary to agree to to Square’s terms, privacy policy, and e-sign consent:
      ![square-sign-up.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square-sign-up.png)
      Click **Continue** to do further.
    * Then you'll need to fill in the form with your business details (the form and fields to fill in differ depending on a particular country requirements).
