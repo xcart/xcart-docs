@@ -125,3 +125,38 @@ To configure Square payments addon in your store Admin area:
        <div class="column" markdown="span"><b>Square Settings Page</b>![paymont-on-1.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/paymont-on-1.png)</div>
        <div class="column" markdown="span"><b>Payment Methods Page</b>![payment-on-2.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/payment-on-2.png)</div>
      </div>
+  
+  Once enabled the Square payment method will become available to customers at checkout. With Sqaure payment customers can specify their credit card info directly on your X-Cart checkout page. This data will be securely transmitted to Square via token.
+  ![cus-checkout.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/cus-checkout.png)
+
+## Order Processing Workflow
+
+Square payment integration allows a store admin to choose whether a payment should be captured automatically or should be authorized first. By default all payments are set to pre-authorization by a store admin.
+
+The payment auto capture can be enabled in the **Payment configuration** tab of the Square payment settings page in the store Admin area:
+![payment-configuration.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/payment-configuration.png)
+
+Set the **Auto capture** setting value to **Yes** and click **Submit** to save the changes. 
+
+The **Payment configuration** tab of the Square payment settings page also allows to enable logs recording for all Square related operation. Set the **Enable debug** setting to Yes for this ourpose and click **Submit** to save the changes. All logs will be stored to the **System tools** -> **System logs** section of your store Admin area. Square logs will have the square-debug.log.YYYY-MM-DD.php or square-error.log.YYYY-MM-DD.php format.
+
+When an order is paid with Square payment it is registered in the **Orders** -> **Orders list** section of your store Admin area. 
+
+If Square payment is configured to payment authorization the orders will have the 'Authorized' payment status and 'New' fulfilment status by default.
+
+![order-auth.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/order-auth.png)
+
+To process an order it will be necessary to click either the **Capture** button to accept the payment (the order status will be changed to **Paid**) or the **Void** button to reject the payment (the order status will be changed to **Cancelled**).
+
+If Square payment is configured to capture payments automatically the orders will have the 'Paid' payment status and 'New' fulfilment status by default.
+
+![order-paid.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/order-paid.png)
+
+A store admin can refund or partically refund a paid order by specifying the amount for refund in a special field on the order details page and clicking the **Refund**  button. The order will get the **Refunded** status in case of a full refund and **Partially paid** status in case of a partial refund. 
+
+{% note info %}
+More info about order payment and fulfilment statuses you can find in {% link "Understanding X-Cart Order Statuses" ref_DkbTi1qJ %}.
+{% endnote %}
+
+
+
