@@ -15,9 +15,9 @@ Before you get started with the {% link "software installation" ref_VG5mIoLT %} 
 
 Here is the system requirements list:
 
-*   **X-Cart v5.3.4.5 and later** : PHP __5.4__ - __7.2__  / MySQL __5.1.31__ or higher
-    
-    **X-Cart v5.4.0.x and later** : PHP __7.2__ or higher / MySQL __5.7.7__ or higher
+*   **X-Cart v5.4.0.x and later** : PHP __7.2__ or higher / MySQL __5.7.7__ or higher
+
+    **X-Cart v5.3.4.5 and later** : PHP __5.4__ - __7.2__  / MySQL __5.1.31__ or higher
     
     {% note info %}
     You can also use MySQL-compatible database engine MariaDB.
