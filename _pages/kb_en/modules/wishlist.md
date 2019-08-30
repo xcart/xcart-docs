@@ -7,7 +7,8 @@ title: Wishlist
 order: 330
 published: true
 ---
-Quite a common case in ecommerce routine is when a customer doesn’t want to buy the product of his choice right at the moment, and wants to keep the info about this product for the possible future references. He may do this to wait for the upcoming discount offer or whatever else. Such cases are covered by the wishlist functionality that in X-Cart can be added by the addon **[My Wishlist](https://market.x-cart.com/addons/my-wishlist.html)**.
+Quite a common case in ecommerce routine is when a customer does not want to buy the product of his choice right at the moment, and wants to keep the info about this product for the possible future references. He may do this to wait for the upcoming discount offer or whatever else. Such cases are covered by the wishlist functionality that in X-Cart can be added by the addon **[My Wishlist](https://market.x-cart.com/addons/my-wishlist.html)**.
+![my_wishlist_addon.png]({{site.baseurl}}/attachments/ref_60uS71VK/my_wishlist_addon.png)
 
 With the addon "My Wishlist" {% link "installed and enabled" ref_Vn1mMUw9 %}, your customers can collect their favourite products into a single list. They can buy these products later, track them in the catalog and email the list to friends. Also, a wishlist makes their search through the huge amount of items easier. This counts for customer satisfaction and also increases the user friendliness of your website.
 
