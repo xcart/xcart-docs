@@ -3,28 +3,31 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 11:34 +0400'
 identifier: ref_XsHLxUwv
-title: Configuring the Canada Post module
+title: Configuring the Canada Post Addon
 categories:
   - User manual
 published: true
 order: 120
 ---
-
-
-Canada Post addon configuration settings are ported into X-Cart automatically after hitting the **'Register'** button on the addon settings page. 
+The addon **Canada Post** configuration settings are ported into X-Cart automatically after hitting the **'Register'** button on the addon settings page. 
 
 ![module-settings.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/module-settings.png)
 
 However, it may still be necessary to adjust some parcel characteristics afterwards or you may prefer to configure the addon manually. To do so hit the **'Configure manually'** button on the addon settings page. You can access this page using one of the following methods:
 
-*   In the **Addons** section of your X-Cart store’s Admin area locate the entry for the addon "Canada Post" and click the **Settings** link below it:
-    ![addon.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/addon.png)
+Method 1:
 
-    OR:
-
-*   In the **Store setup** -> **Shipping** section of your X-Cart store’s Admin area select the Canada Post shipping method in the _Settings_ tab:
-    ![shipping-canada-post.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/shipping-canada-post.png)
+  1. In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), click the **Add shipping method** button.
+     ![usps_add_shipping_method.png]({{site.baseurl}}/attachments/ref_whrpZnV3/usps_add_shipping_method.png)
+  
+ 2. In the popup that appears, choose the Canada Post shipping method.
+     ![shipping-canada-post.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/shipping-canada-post.png)
  
+Method 2:
+
+  1. In the **My addons** section of your X-Cart store’s Admin area, find the Canada Post addon and click on its name to access the addon detailed information.  
+
+ 2.  2. On the addon information page, click on the **Settings** link.
 
 Below is an explanation of the settings that can be found on the Canada Post settings page.
 
