@@ -14,15 +14,19 @@ This article assumes that the UPS addon has already been {% link "installed and
 
 To start using the addon, you need to configure it. The addon settings can be accessed using one of the following methods:
 
-1. In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**)
-   *  click the **Add shipping method** button:
-![shipping.png]({{site.baseurl}}/attachments/ref_whrpZnV3/shipping.png)
+Method 1:
 
-   *   and then choose the UPS shipping method in a pop-up:
-![ups-method.png]({{site.baseurl}}/attachments/ref_0uCGd6Bs/ups-method.png)
+  1. In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), click the **Add shipping method** button.
+     ![usps_add_shipping_method.png]({{site.baseurl}}/attachments/ref_whrpZnV3/usps_add_shipping_method.png)
+  
+  2. In the popup that appears, choose the UPS shipping method.
+     ![ups-method.png]({{site.baseurl}}/attachments/ref_0uCGd6Bs/ups-method.png)
 
-2. In the Installed Addons section of your X-Cart store’s Admin area (**My addons** > **Installed addons**), locate the entry for UPS addon and click the **Settings** link below it:
-![settings.png]({{site.baseurl}}/attachments/ref_0uCGd6Bs/settings.png)
+Method 2:
+
+  1. In the **My addons** section of your X-Cart store’s Admin area, find the UPS addon and click on its name to access the addon detailed information.  
+
+  2.  On the addon information page, click on the **Settings** link.
 
 
 The UPS settings page looks like the following:
