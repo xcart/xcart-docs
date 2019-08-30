@@ -17,7 +17,6 @@ The addon Variants Table View does not imply its own functionality of creating a
 The addon Variants Table View can be obtained from the X-Cart App Store. 
 ![variants_table_view_addon.png]({{site.baseurl}}/attachments/ref_7FeW8hHv/variants_table_view_addon.png)
 
-
 To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 Once the addon has been installed, proceed to the addon settings page to configure it.
