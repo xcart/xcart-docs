@@ -18,14 +18,14 @@ The integration is available for the US, Canada, Japan, Australia and the UK.
 Prior to configuring the Square Payments addon in the Admin area of your X-Cart based store, you'll need to sign up for Square to get and account that provides access to Square Developer Dashboard where you'll find all the necessary data for the addon configuration in your store admin.
 
 1. To create an account with Square start with a regular [Square sign up](https://squareup.com/t/f_partnerships/d_partnerships/p_xcart/c_general/o_none/u_partnersite?route=signup "Square") link or use the **Start a Square account button** at [https://squareup.com/us/en](https://squareup.com/us/en "Square").
-   * You'll need specify your e-mail (will be used an an account ID), set a password and choose your business locale. Also it will be necessary to agree to to Square’s terms, privacy policy, and e-sign consent:
+   * You'll need specify your e-mail (will be used as an account ID), set a password and choose your business locale. Also it will be necessary to agree to to Square’s terms, privacy policy, and e-sign consent:
      ![square-sign-up.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square-sign-up.png)
      Click **Continue** to do further.
    * Then you'll need to fill in the form with your business details (the form and fields to fill in differ depending on a particular country requirements).
      Click **Continue** to create an account with Square. 
      
      {% note info %}
-     If you already have an account with Square sign in to access your Square Client Dashboard.
+     If you already have an account with Square sign in to access your Square Seller Dashboard.
      {% endnote %}
 
 2. When the account creation is completed or when signed in you'll see your Square Seller Dashboard. Here you need to go to the **Apps** -> **My Apps** section to get access to your Developer Dashboard.
@@ -57,7 +57,7 @@ Prior to configuring the Square Payments addon in the Admin area of your X-Cart 
        <div class="column" markdown="span"><b>Production Mode On</b>![production.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/production.png)</div>
      </div>
      
-6. Do not close the Sqaure Developer Dashboard as you'll need to copy the application details to assign it to your X-Cart store. 
+6. Do not close the Square Developer Dashboard as you'll need to copy the application details to assign it to your X-Cart store. 
 
 ## Square Payments Addon Configuration
 
@@ -74,11 +74,11 @@ To configure Square payments addon in your store Admin area:
 2. On the Square payment settings page choose the required application mode and fill in the related fields:
    ![settings-page.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/settings-page.png)
    
-   **Sandbox Application Mode**
+   **SANDBOX APPLICATION MODE**
    
-   Sandbox application mode is used to test the Square payment configuration. 
+    Sandbox application mode is used to test the Square payment configuration. 
      
-     * Set the **Application mode** setting value to **Sandbox**.
+    * Set the **Application mode** setting value to **Sandbox**.
        {% note info %}
        Make sure your Square Developer Dashboard is set to **Sandbox mode**.
        ![sandbox.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/sandbox.png)
@@ -92,7 +92,8 @@ To configure Square payments addon in your store Admin area:
          ![location-id.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/location-id.png)
       * **Submit** the configuration settings.
    
-   **Production Application mode**
+   
+   **PRODUCTION APPLICATION MODE**
    
    Production application mode is used to accept real payments in a live store. 
      
@@ -126,7 +127,7 @@ To configure Square payments addon in your store Admin area:
        <div class="column" markdown="span"><b>Payment Methods Page</b>![payment-on-2.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/payment-on-2.png)</div>
      </div>
   
-  Once enabled the Square payment method will become available to customers at checkout. With Sqaure payment customers can specify their credit card info directly on your X-Cart checkout page. This data will be securely transmitted to Square via token.
+  Once enabled the Square payment method will become available to customers at checkout. With Square payment customers can specify their credit card info directly on your X-Cart checkout page. This data will be securely transmitted to Square via token.
   ![cus-checkout.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/cus-checkout.png)
 
 ## Order Processing Workflow
