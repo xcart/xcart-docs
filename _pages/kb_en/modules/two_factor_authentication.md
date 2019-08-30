@@ -7,7 +7,7 @@ title: Two Factor Authentication
 order: 295
 published: true
 ---
-The addon Two Factor Authentication integrates X-Cart with Authy.com that simplifies and strengthens the security of your account. Two-Factor Authentication system can be used to protect each type of accounts: admin or customer. 
+The addon Two Factor Authentication strengthens the security of your X-Cart store's user accounts by integrating your store with Authy (Authy.com). The result is a two-factor authentication system that can be used to protect any type of X-Cart user account (admin or customer). 
 
 The addon Two Factor Authentication levels up user account protection by adding a necessity to confirm the username and password with a one-time SMS code to log in. Even if Authy server is compromised, the hacker will have no usernames or passwords, as these sensitive details are NOT stored on their end.
 
