@@ -11,6 +11,7 @@ description: UPS shipping set-up
 The addon [UPS](https://market.x-cart.com/addons/ups.html "UPS") for X-Cart 5 allows you to use online shipping rate calculation via [UPS service](https://www.ups.com/us/en/global.page "UPS").
 
 This article assumes that the UPS addon has already been {% link "installed and activated" ref_0fGEpvrh %} at your store.
+![ups_addon.png]({{site.baseurl}}/attachments/ref_0uCGd6Bs/ups_addon.png)
 
 To start using the addon, you need to configure it. The addon settings can be accessed using one of the following methods:
 
