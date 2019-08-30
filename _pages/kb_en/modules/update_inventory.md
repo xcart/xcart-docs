@@ -12,14 +12,13 @@ order: 300
 ---
 
 The addon **Update inventory** by X-Cart team provides a quick and easy way to update product quantities by importing a simple [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file. This addon works for both regular products and {% link "product variants" ref_0uApuQfx %}.
-
-   ![update-inventory-on.png]({{site.baseurl}}/attachments/ref_uSIvmuTh/update-inventory-on.png)
+![update_inventory_addon.png]({{site.baseurl}}/attachments/ref_uSIvmuTh/update_inventory_addon.png)
  
 {% note info %}
 Starting from X-Cart version 5.2.13, X-Cart has a full-featured import mode aimed at updating the existing items, which allows you to modify your product information (including the stock quantity, price and other product properties) using the standard X-Cart's "Import" feature that can be used instead of the addon "Update inventory". For more info, see {% link "Updating Product Properties (Price, Stock Quantity, etc.) via Import" ref_OEpBdtQ6 %}.
 {% endnote %}
 
- The required CSV file format for importing product quantity information using the addon **Update inventory** is as follows:
+The required CSV file format for importing product quantity information using the addon **Update inventory** is as follows:
 
 ![]({{site.baseurl}}/attachments/9306477/9438201.png)
 
