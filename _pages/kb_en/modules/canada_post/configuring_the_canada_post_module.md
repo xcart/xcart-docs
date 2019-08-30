@@ -27,7 +27,7 @@ Method 2:
 
   1. In the **My addons** section of your X-Cart store’s Admin area, find the Canada Post addon and click on its name to access the addon detailed information.  
 
- 2.  2. On the addon information page, click on the **Settings** link.
+ 2.  On the addon information page, click on the **Settings** link.
 
 Below is an explanation of the settings that can be found on the Canada Post settings page.
 
