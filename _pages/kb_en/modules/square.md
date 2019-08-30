@@ -78,33 +78,35 @@ To configure Square payments addon in your store Admin area:
    
    Sandbox application mode is used to test the Square payment configuration. 
      
-     * Set the **Application mode** setting value to **Sandbox** and fill in the following fields with the data from your Square Developer Dashboard:
+     * Set the **Application mode** setting value to **Sandbox**.
        {% note info %}
        Make sure your Square Developer Dashboard is set to **Sandbox mode**.
        ![sandbox.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/sandbox.png)
        {% endnote %}
+     * Fill in the following fields with the data from your Square Developer Dashboard:
        * **Sandbox Application ID** : Locate the Sandbox Application ID value on the **Square Developer** -> **Credentials** page, copy and paste it here.
          ![sandbox-application-id.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/sandbox-application-id.png)
        * **Sandbox Access Token** : Locate the Sandbox Access Token value on the **Square Developer** -> **Credentials** page, copy and paste it here.
          ![sandbox-access-token.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/sandbox-access-token.png)
        * **Sandbox Location ID** : Locate the Sandbox Location ID value on the **Square Developer** -> **Locations** page, copy and paste it here.
          ![location-id.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/location-id.png)
-       **Submit** the configuration settings.
+      * **Submit** the configuration settings.
    
    **Production Application mode**
    
    Production application mode is used to accept real payments in a live store. 
      
-     * Set the **Application mode** setting value to  **Sandbox** and fill in the following fields with the data from your Square Developer Dashboard:
+     * Set the **Application mode** setting value to **Sandbox**.
        {% note info %}
        Make sure your Square Developer Dashboard is set to the **Production mode**.
        ![production.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/production.png)
        {% endnote %}
+     * Fill in the following fields with the data from your Square Developer Dashboard:
        * **Application ID** : Locate the Application ID value on the **Square Developer** -> **Credentials** page, copy and paste it here.
          ![application-id.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/application-id.png)
        * **Application Secret** : Locate the Application Secret value on the **Square Developer** -> **OAuth** page, copy and paste it here.
          ![application-secret.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/application-secret.png)
-       **Submit** the configuration settings.
+     * **Submit** the configuration settings.
      * Once the settings have been submitted, 2 (two) new tabs become available on the Square payment settings page of your store Admin area - **OAuth configuration** and **Locations configuration**. You need to configure settings in both of them.
        ![oauth+locations-tabs.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/oauth+locations-tabs.png)
        * **OAuth configuration** 
