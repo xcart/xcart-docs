@@ -20,14 +20,14 @@ Method 1:
   1. In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), click the **Add shipping method** button.
      ![usps_add_shipping_method.png]({{site.baseurl}}/attachments/ref_whrpZnV3/usps_add_shipping_method.png)
   
- 2. In the popup that appears, choose the Canada Post shipping method.
+  2. In the popup that appears, choose the Canada Post shipping method.
      ![shipping-canada-post.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/shipping-canada-post.png)
  
 Method 2:
 
   1. In the **My addons** section of your X-Cart store’s Admin area, find the Canada Post addon and click on its name to access the addon detailed information.  
 
- 2.  On the addon information page, click on the **Settings** link.
+  2.  On the addon information page, click on the **Settings** link.
 
 Below is an explanation of the settings that can be found on the Canada Post settings page.
 
