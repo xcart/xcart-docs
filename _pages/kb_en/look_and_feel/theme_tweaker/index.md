@@ -13,6 +13,7 @@ Sometimes it may be necessary to change the default page layout in your X-Cart s
 **Theme Tweaker** will create a new addon with a copy of the store's default template modified by your changes. In addition to the unbeatable convenience of making changes on the fly, every tweak you implement with this tool will be saved correctly in accordance with the OOP paradigm. 
 
 Please make sure the addon is {% link "installed and enabled" ref_0fGEpvrh %} before you proceed.
+![theme_tweaker_addon.png]({{site.baseurl}}/attachments/ref_2L6W3YMS/theme_tweaker_addon.png)
 
 While the addon is enabled, you can {% link "change skins" ref_GLqVdpgd %} with one click in the **Look and feel** > **Layout** section of your store Admin area and apply changes to the existing store layout directly on the storefront using [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Using Theme Tweaker for Layout Changes"). 
 
