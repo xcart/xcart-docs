@@ -75,9 +75,14 @@ To configure Square payments addon in your store Admin area:
    ![settings-page.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/settings-page.png)
    
    **Sandbox Application Mode**
+   
    Sandbox application mode is used to test the Square payment configuration. 
      
-     * To enable the Sandbox application mode set the **Application mode** setting value to  **Sandbox** and fill in the following fields with the data from your Square Developer Dashboard (make sure it's set to the **Sandbox mode** too):
+     * Set the **Application mode** setting value to **Sandbox** and fill in the following fields with the data from your Square Developer Dashboard:
+       {% note info %}
+       Make sure your Square Developer Dashboard is set to **Sandbox mode**.
+       ![sandbox.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/sandbox.png)
+       {% endnote %}
        * **Sandbox Application ID** : Locate the Sandbox Application ID value on the **Square Developer** -> **Credentials** page, copy and paste it here.
          ![sandbox-application-id.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/sandbox-application-id.png)
        * **Sandbox Access Token** : Locate the Sandbox Access Token value on the **Square Developer** -> **Credentials** page, copy and paste it here.
@@ -87,9 +92,14 @@ To configure Square payments addon in your store Admin area:
        **Submit** the configuration settings.
    
    **Production Application mode**
+   
    Production application mode is used to accept real payments in a live store. 
      
-     * To enable Production application mode set the **Application mode** setting value to  **Sandbox** and fill in the following fields with the data from your Square Developer Dashboard (make sure it's set to the **Production mode** too):
+     * Set the **Application mode** setting value to  **Sandbox** and fill in the following fields with the data from your Square Developer Dashboard:
+       {% note info %}
+       Make sure your Square Developer Dashboard is set to the **Production mode**.
+       ![production.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/production.png)
+       {% endnote %}
        * **Application ID** : Locate the Application ID value on the **Square Developer** -> **Credentials** page, copy and paste it here.
          ![application-id.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/application-id.png)
        * **Application Secret** : Locate the Application Secret value on the **Square Developer** -> **OAuth** page, copy and paste it here.
