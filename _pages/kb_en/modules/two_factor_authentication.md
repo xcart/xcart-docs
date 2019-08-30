@@ -7,14 +7,14 @@ title: Two Factor Authentication
 order: 295
 published: true
 ---
-The addon Two Factor Authentication strengthens the security of your X-Cart store's user accounts by integrating your store with Authy (Authy.com). The result is a two-factor authentication system that can be used to protect any type of X-Cart user account (admin or customer). 
+The addon Two Factor Authentication strengthens the security of your X-Cart store's user accounts by integrating your store with Authy (Authy.com). The result is a two-factor authentication system that can be enabled for any type of X-Cart user accounts (admin / customer / vendor). 
 
-The addon Two Factor Authentication levels up user account protection by adding a necessity to confirm the username and password with a one-time SMS code to log in. Even if Authy server is compromised, the hacker will have no usernames or passwords, as these sensitive details are NOT stored on their end.
+The addon Two Factor Authentication levels up the protection of your store's user accounts by requesting a user trying to log in to confirm their identity by providing a one-time code sent to their phone via SMS in addition to providing the regular username and password. The generation and sending of the SMS code is performed via Authy service. This method of user authentication is very secure: even if Authy server is compromised, the hacker will not have the usernames and passwords needed for account access as these sensitive details are NOT stored on the Authy end.
 
 To start using the addon, make sure it is {% link "installed and enabled" ref_uEnDBBA7 %}.
 ![two_factor_auth_addon.png]({{site.baseurl}}/attachments/ref_30a8vM7c/two_factor_auth_addon.png)
 
-The addon requires an account with Authy. You can get one [here](https://www.authy.com/product/pricing/ "Two factor authentication") if you haven't registered with Authy yet.
+Using the addon requires that you have an account with Authy. You can get one [here](https://www.authy.com/product/pricing/ "Two factor authentication").
 
 After the addon has been enabled, proceed to the addon settings page to configure it.
 
@@ -30,19 +30,19 @@ You will need to adjust the following paramethers:
   * Once you've created a new Authy application, copy the API Key for Production available in the Settings page of your Authy application. See the image below for reference:
   ![tfa-authy-api.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-authy-api.png)
   
-* **Production mode** : Enable if you don't need to test the integration and are ready to use the addon in production mode.
+* **Production mode** : Enable this setting if you do not need to test the integration and are ready to use the addon in production mode.
 
-* **Use two-factor authentication for the customer interface** : Enable if you need the two-factor authentication option to be available to customer accounts.
+* **Use two-factor authentication for the customer interface** : Enable this setting if you need the two-factor authentication option to be available to customer accounts.
 
-* **Use two-factor authentication for the administrator interface** : Enable if you need the two-factor authentication option to be available to admin and vendor accounts.
+* **Use two-factor authentication for the administrator interface** : Enable this setting if you need the two-factor authentication option to be available to admin and vendor accounts.
 
-Once configured, the addon extends the regular user profile field set with the fields _Country phone code_ and _Phone number_.
+Once configured, the addon extends the regular user profile field set with the fields **Country phone code** and **Phone number**.
 ![tfa-phone-fields.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-phone-fields.png)
 
 The values for these fields need to be specified by the user at the time of account creation.
 ![tfa-new-account.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-new-account.png)
 
-Alternatively, the values can be specified by the store admin in the respective user profile (**Users** -> **User list** -> **User profile**). Also the store admin can enable the **Require to change password on next log in** option for a user profile, so that a user is forced to renew the account password and specify the phone to enable the two-factor authentication for their account.
+Alternatively, the values can be specified by the store admin in the respective user profile (**Users** -> **User list** -> **User profile**). Also the store admin can enable the option **Require to change password on next log in** for a user profile so the user is forced to renew their account password and specify the phone to enable the two-factor authentication for their account.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Admin verificaton</i>![tfa-admin-verification.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-admin-verification.png)</div>
