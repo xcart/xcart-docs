@@ -13,9 +13,9 @@ The addon [Tree-like Categories Menu](https://market.x-cart.com/addons/tree-like
 The addon Tree-like Categories Menu requires the addon Flyout Categories Menu to be installed and enabled.
 {% endnote %}
 
-To install the addon, follow the instructions from {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
-Once installed, the module converts the category menu representation into a tree-like type automatically.
+Once installed, the addon converts the category menu representation into a tree-like type automatically.
 
 ![tlcm-customer.png]({{site.baseurl}}/attachments/ref_3DV2eqp1/tlcm-customer.png)
 
