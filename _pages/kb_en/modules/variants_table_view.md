@@ -15,12 +15,12 @@ The addon Variants Table View does not imply its own functionality of creating a
 {% endnote %}
 
 The addon Variants Table View can be obtained from the X-Cart App Store. 
-![vtv_addon.png]({{site.baseurl}}/attachments/ref_7FeW8hHv/vtv_addon.png)
+![variants_table_view_addon.png]({{site.baseurl}}/attachments/ref_7FeW8hHv/variants_table_view_addon.png)
+
 
 To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 Once the addon has been installed, proceed to the addon settings page to configure it.
-![installed.png]({{site.baseurl}}/attachments/ref_7FeW8hHv/installed.png)
 
 The addon settings page provides settings that allow you to specify which parameters (quantity, SKU, image, weight) need to be shown in the variants table.
 ![settings-page.png]({{site.baseurl}}/attachments/ref_7FeW8hHv/settings-page.png)
@@ -44,5 +44,3 @@ Variants table view can be used for all products with variants or just some of t
 That's it! The product's variants will now be displayed in table mode.
 
 If you have a large number of products with variants, editing them one by one to enable variants table view may not be as convenient. In this case you may want to consider using X-Cart's {% link "product import" ref_WmJBfwxA %} feature. It can help you to enable variants table view for multiple products in bulk. To enable variants table view for some or all of your products via product import, you will need to import the products whose variants need to be shown in table view with the 'variantsAsTable' field value set to 'Yes'.
-
-
