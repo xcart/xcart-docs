@@ -15,9 +15,9 @@ The addon **XML Sitemap** for X-Cart 5 serves SEO purposes. It generates an XM
 
 ## Installing the XML Sitemap Addon
 
-The addon can be installed from the X-Cart Marketplace. For general addon installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+The addon can be installed from the X-Cart App Store. For general addon installation instructions, see {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![xml_sitemap_addon.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xml_sitemap_addon.png)
 
-![xml-1.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xml-1.png)
 
 
 ## Configuring Your XML Sitemap
