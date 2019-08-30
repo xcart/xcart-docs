@@ -9,9 +9,9 @@ published: true
 ---
 Quite a common case in ecommerce routine is when a customer doesn’t want to buy the product of his choice right at the moment, and wants to keep the info about this product for the possible future references. He may do this to wait for the upcoming discount offer or whatever else. Such cases are covered by the wishlist functionality that in X-Cart can be added by the addon **[My Wishlist](https://market.x-cart.com/addons/my-wishlist.html)**.
 
-With the addon "My Wishlist" {% link "installed and enabled" ref_Vn1mMUw9 %}, your customers can collect their favourite products into a single list. They can buy these products later, track them in the catalog and email the list to friends. Also, wishlist makes their search easier among huge amount of items. This counts for customer satisfaction and also increases the user friendliness of your website.
+With the addon "My Wishlist" {% link "installed and enabled" ref_Vn1mMUw9 %}, your customers can collect their favourite products into a single list. They can buy these products later, track them in the catalog and email the list to friends. Also, a wishlist makes their search through the huge amount of items easier. This counts for customer satisfaction and also increases the user friendliness of your website.
 
-The option to add a product to wishlist is available at almost every page of your site where products are displayed:
+The option to add a product to wishlist is available on almost every page of your site where products are displayed:
 
   <div class="ui stackable three column grid">
     <div class="column" markdown="span"><i>product listing page</i>![add-to.png]({{site.baseurl}}/attachments/ref_60uS71VK/add-to.png)</div>
@@ -26,13 +26,13 @@ Once a customer adds a product to his wishlist this product is marked with a _re
      <div class="column" markdown="span"><i>product details page</i>![already-in.png]({{site.baseurl}}/attachments/ref_60uS71VK/already-in.png)</div>
    </div>
 
-                                                           
+                                                        
                                                            
 The wishlist page in the store frontend can be reached from:
 
 * the site header 
   ![header.png]({{site.baseurl}}/attachments/ref_60uS71VK/header.png)
-* the quick menu in the up right corner
+* the quick menu in the upper right-hand corner
   ![account-popup.png]({{site.baseurl}}/attachments/ref_60uS71VK/account-popup.png)
 
 The store admin can also check the customer's wishlist in the _Wishlist_ tab of a user profile (**Users** -> **Users list**) in the Admin area:
