@@ -19,7 +19,6 @@ The addon can be installed from the X-Cart App Store. For general addon instal
 ![xml_sitemap_addon.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xml_sitemap_addon.png)
 
 
-
 ## Configuring Your XML Sitemap
 
 Once the addon XML Sitemap has been installed, you will be able to access the XML sitemap settings (**Store setup** > **SEO Settings**) in your store's Admin area.
