@@ -32,4 +32,5 @@ In the store's Admin area, the order details page for orders containing e-goods 
 
 The controls available via this tab enable the administrator to check and, if necessary, update the status of the e-good dowloadable link. For example, the administrator can check whether the file is currently available for download by the buyer, or check the number of file download attempts left to the buyer or the amount of time left till the link expiration. The administrator can also use the buttons provided on the tab:
    * The button **Block** discontinues access to the file for the buyer.
-   * The button **Renew** resets the e-good link TTL/available downloads number for the buyer. (The TTL and the downloads count for the link are re-adjusted automatically to the default values as specified on the {% link "E-goods addon settings" ref_1dsuHf3i %} page.)
+   * The button **Renew** resets the e-good link TTL/available downloads number for the buyer. (The TTL and the downloads count for the link are re-adjusted automatically to the default values as specified on the {% link "E-goods addon settings" ref_1dsuHf3i %} page; the link is automatically re-sent to the buyer.)
+
