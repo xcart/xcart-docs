@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-07-07 12:24 +0400'
 identifier: ref_h7Oh5T8T
 title: Restoring Your Store with the Snapshots Feature
-version: X-Cart 5.2.5 and later
+version: X-Cart 5.2.5 and later (below 5.4.0.0)
 categories:
   - User manual
 published: true
