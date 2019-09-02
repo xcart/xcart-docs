@@ -13,6 +13,7 @@ order: 100
 redirect_from:
   - >-
     /general_setup/what_to_do_if_your_store_says_we_are_deploying_new_changes_and_you_cannot_access_it.html
+version: X-Cart 5 versions below 5.4.0.0
 ---
 
 Sometimes site changes like installing a new addon, upgrading your X-Cart core or rebuilding your store site's cache may not go as smoothly as planned. A syntax error in the code of a new addon, a addon's incompatibility with the new X-Cart core after an upgrade or a cache rebuild failure may crash your store's website, so when you attempt to access it you will continuously see a page saying "The site is temporarily closed for maintenance":
