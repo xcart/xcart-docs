@@ -16,7 +16,7 @@ redirect_from:
 ---
 {% note info %}
 This article applies to X-Cart 5 versions below 5.4.0.0.
-{% endnote%}
+{% endnote %}
 
 A great deal of your store's functionality will depend on the addons that you will {% link "install from the X-Cart App Store" ref_Vn1mMUw9 %} or {% link "deploy using the «Upload add-on» feature" ref_GZQ9vTq6 %}. Since addons may come from different sources and not always be tested for mutual compatibility, you should expect that at some point your store may experience problems or even stop working completely after you enable an addon that does not work well with the rest of your store's configuration. Some problems caused by adding a new addon or enabling a new feature may not manifest themselves until a bit later, so it may be difficult to say which one of the recent configuration changes prevents your store from operating correctly.
 
