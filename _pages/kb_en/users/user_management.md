@@ -7,19 +7,25 @@ title: User Management
 order: 95
 published: true
 ---
+User management as the whole store management in X-Cart is a prerogative of a store admin. To manage customers, a store admin must either be an X-Cart administrator with root access or an administrator with the permission to manage users; to manage administrators, a user must be a root administrator or an administrator with the permission to manage administrators (specific permissions can be set via the **Roles** section of the Admin area (**Users** > **Roles**, see more info in {% link "User Roles" ref_38HKdc1f %}).
 
-The management of users in an X-Cart based store takes place in the Users section of the Admin area (**Users** > **Users**). To manage customers, a user must either be an X-Cart administrator with root access or an administrator with the permission to manage users; to manage administrators, a user must be a root administrator or an administrator with the permission to manage administrators (specific permissions can be set via the Roles section of the Admin area (**Users** > **Roles**).
+The management of users in an X-Cart based store takes place in the **Users** section of the Admin area (**Users** > **Users list**). 
 
-In the Users section of the Admin area, the store users can be seen as a list presented in the form of a table. For each user, the table provides the following information:
+![users-section.png]({{site.baseurl}}/attachments/ref_3JDroIa2/users-section.png)
+
+The **Users** section of the Admin area lists all users available in this store in a table mentioning the type of user account (or access level) they have. For each user, the table provides the following information:
      
-   *   Login/Email;
-   *   Name;
-   *   Access level (_Administrator_, _Customer_ or _Anonymous_ + information about the user's membership level, if any; for example, "Customer (VIP customers)" means that the user is a registered customer with the membership level "VIP customers", whereas "Customer (requested for VIP customers)" means that the user is a registered customer and they have submitted a request for "VIP customers" membership which has yet to be approved by the store admin. Note that in X-Cart Multivendor there are users with an access level named _Vendor_; for more info on this, see the {% link "Multi-vendor manual" ref_cvwmAuRi %});
-   *   Orders (Number of orders placed by the user; the number link can be clicked upon for access to the list of all the orders by this user);
-   *   Created (Account creation date);
-   *   Last login (Date of the user's latest login to their user account). 
+   *   **Login/Email** : An e-mail used for sign-up
+   *   **Name** : A user name as it was specified during the registration.
+   *   **Access level**: A type of user account assigned (_Administrator_, _Customer_ or _Anonymous_ + information about the user's membership level, if any; for example, "Customer (VIP customers)" means that the user is a registered customer with the membership level "VIP customers", whereas "Customer (requested for VIP customers)" means that the user is a registered customer and they have submitted a request for "VIP customers" membership which has yet to be approved by the store admin.  
+       {% note info %}
+       In X-Cart Multivendor there are users with an access level named _Vendor_; for more info on this, see the {% link "Multi-vendor manual" ref_cvwmAuRi %}).
+       {% endnote %}
+   *   **Orders** : Number of orders placed by the user; the number link can be clicked upon for access to the list of all the orders by this user.
+   *   **Created** : Account creation date.
+   *   **Last login** : Date of the user's latest login to their user account. 
    
-The filter above the table can be used to filter the table contents and find specific users.
+The searchbar above the table can be used to filter the table contents and find specific users.
 
 The administrator with user management permissions can access the profile of any user in the table for viewing/editing. To access the profile of a user, click on the user login/email link in the Login/Email column or the user name link in the Name column. 
 
