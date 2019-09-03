@@ -5,7 +5,7 @@ updated_at: '2019-09-03 10:42 +0400'
 identifier: ref_3JDroIa2
 title: User Management
 order: 95
-published: false
+published: true
 ---
 
 The management of users in an X-Cart based store takes place in the Users section of the Admin area (**Users** > **Users**). To manage customers, a user must either be an X-Cart administrator with root access or an administrator with the permission to manage users; to manage administrators, a user must be a root administrator or an administrator with the permission to manage administrators (specific permissions can be set via the Roles section of the Admin area (**Users** > **Roles**).
