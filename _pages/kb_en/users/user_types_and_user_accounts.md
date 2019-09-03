@@ -7,10 +7,11 @@ title: User Types in X-Cart
 order: 90
 published: true
 ---
-X-Cart has two major types of users depending on the mail role they play in your X-Cart based store:
+X-Cart has two major types of users available in all X-Cart editions and one extended type of user that is available starting from X-Cart Multivendor:
 
    *   Administrators (aka admins);
-   *   Customers.
+   *   Customers;
+   *   Vendors (available in X-Cart Multivendor and higher).
    
 X-Cart administrators are users who configure maintain and run the store through the store Admin area - the back end of an X-Cart store that provides various tools for the store configuration, as well as the management of products, orders and users. Every X-Cart store has at least one store admin, but may have multiple admins if the store owner chooses to create additional administrator accounts. Additional administrator accounts may be set up with full or limited access to the stores's back end with the help of {% link "Roles" ref_38HKdc1f %} .
 
