@@ -29,7 +29,10 @@ The **Users list** section of the Admin area lists all users available in this s
    *   **Created** : Account creation date.
    *   **Last login** : Date of the user's latest login to their user account. 
    
-The searchbar above the table can be used to filter the table contents and find specific users. Also each table name can be clicked to re-arrange the user data sorting in the table:
+The searchbar above the table can be used to filter the table contents and find specific users. 
+![search-bar.png]({{site.baseurl}}/attachments/ref_3JDroIa2/search-bar.png)
+
+Also each table name can be clicked to re-arrange the user data sorting in the table:
 ![user-table-sorting.png]({{site.baseurl}}/attachments/ref_3JDroIa2/user-table-sorting.png)
 
 Managing users in X-Cart covers:
@@ -49,7 +52,8 @@ Managing users in X-Cart covers:
       * select the option _Logout this user_ from the Profile actions drop-down.
   
    * operate as this user.
-      Sometimes a store admin may need to check how the store looks and functions for another user (both admin and customer), or to do some task for them (for example, create an order on behalf of a customer). In this case, the administrator can use the {% link "Operate as a user" feature" ref_26UftgNS %}.
+     
+     Sometimes a store admin may need to check how the store looks and functions for another user (both admin and customer), or to do some task for them (for example, create an order on behalf of a customer). In this case, the administrator can use the {% link "Operate as a user" feature" ref_26UftgNS %}.
    
    {% note info %}
    A more detailed info on the user account management you can find in {% link "User Profile Management" ref_gg1fQDgB %}
@@ -57,7 +61,7 @@ Managing users in X-Cart covers:
 
 2. Deleting user accounts 
 
-   A store admin can delete user accounts (a store admin with the "Manage users" access permission can access customer accounts only).
+   A store admin can delete user accounts (a store admin with the "Manage users" access permission can delete customer accounts only).
    
    To delete a user account:
    * click on the Trash icon opposite the user name in the table column at the far right (this marks the user account for removal);
