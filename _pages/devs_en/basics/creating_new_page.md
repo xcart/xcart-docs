@@ -135,7 +135,7 @@ For the sake of example, our task is to create the page which will be available 
         }
     ```
 
-    The `getAllowedTargets()` method defines which targets will trigger this viewer class. The current implementation means that, if **target=tony_custom**, then this viewer class will display its content in the central area. If there is any other target, than this viewer class will not be even run. 
+    The `getAllowedTargets()` method defines which targets will trigger this viewer class. The current implementation means that, if **target=tony_custom**, then this viewer class will display its content in the central area. If there is any other target, then this viewer class will not be even run. 
 
     ```php
         protected function getDefaultTemplate()
