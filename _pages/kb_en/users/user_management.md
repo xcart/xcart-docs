@@ -42,13 +42,13 @@ Managing users in X-Cart covers:
      To access the profile of a user:
      * click on the user login/email link in the **Login/Email** column (it redirectes to the user account details);
      * or click on the user name link in the **Name** column (it redirects to the user address book). 
-    * force a user to log out. 
+   * force a user to log out. 
       
       To do so:
       * open the user's profile
       * select the option _Logout this user_ from the Profile actions drop-down.
-    
-    * operate as a user.
+  
+   * operate as a user.
       Sometimes a store admin may need to check how the store looks and functions for another user, or to do some task for them (for example, create an order on behalf of a customer). In this case, the administrator can use the {% link "Operate as a user" feature" ref_26UftgNS %}.
    
    {% note info %}
@@ -56,7 +56,7 @@ Managing users in X-Cart covers:
 
 2. Deleting user accounts 
 
-   A store admin can delete user accounts(a store admin with the "Manage users" access permission can access customer accounts only).
+   A store admin can delete user accounts (a store admin with the "Manage users" access permission can access customer accounts only).
    
    To delete a user account:
    * click on the Trash icon opposite the user name in the table column at the far right (this marks the user account for removal);
