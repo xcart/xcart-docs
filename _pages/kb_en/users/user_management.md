@@ -36,7 +36,7 @@ Managing users in X-Cart covers:
 
 1. Managing user accounts 
 
-   To manage a user profile a store admin can: 
+   When managing user accounts a store admin can: 
    * access the profile of any user in the table for viewing/editing (a store admin with the "Manage users" access permission can access customer accounts only). 
      
      To access the profile of a user:
@@ -48,11 +48,12 @@ Managing users in X-Cart covers:
       * open the user's profile
       * select the option _Logout this user_ from the Profile actions drop-down.
   
-   * operate as a user.
-      Sometimes a store admin may need to check how the store looks and functions for another user, or to do some task for them (for example, create an order on behalf of a customer). In this case, the administrator can use the {% link "Operate as a user" feature" ref_26UftgNS %}.
+   * operate as this user.
+      Sometimes a store admin may need to check how the store looks and functions for another user (both admin and customer), or to do some task for them (for example, create an order on behalf of a customer). In this case, the administrator can use the {% link "Operate as a user" feature" ref_26UftgNS %}.
    
    {% note info %}
    A more detailed info on the user account management you can find in {% link "User Account Management" ref_gg1fQDgB %}
+   {% endnote %}
 
 2. Deleting user accounts 
 
