@@ -20,8 +20,8 @@ Customers are the regular store visitors or buyers. Customers can be registered 
 X-Cart also allows to create separate accounts for sellers (aka vendors) in case you are running an e-mall or a marketplace based on {% link "X-Cart Multivendor edition" ref_4ahg5FLK %}. Vendors are less privileged than the store admins and have a limited access to the store (they mainly manage the products they own). 
 
 _In this section:_
-   *   {% link "User Types and User Accounts" ref_PWr4CNvW %} 
-   *   {% link "User Roles" ref_38HKdc1f %} 
-   *   {% link "User Profile Fields" ref_gg1fQDgB %} 
-   *   {% link ""Operate as a User" Feature" ref_26UftgNS %}
-   *   {% link "Memberships" ref_5JXPTA0A %}
+*   {% link "User Types and User Accounts" ref_PWr4CNvW %} 
+*   {% link "User Roles" ref_38HKdc1f %} 
+*   {% link "User Profile Fields" ref_gg1fQDgB %} 
+*   {% link ""Operate as a User" Feature" ref_26UftgNS %}
+*   {% link "Memberships" ref_5JXPTA0A %}
