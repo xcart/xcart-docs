@@ -72,7 +72,7 @@ Managing users in X-Cart covers:
 
 4. Creating new user accounts
 
-   A store admin can create new user accounts directly from **Users** section in the Admin area.
+   A store admin can create new user accounts directly from the **Users** section of the Admin area.
    
    To create a new user account:
    * click the **Add user** button above the users table;
