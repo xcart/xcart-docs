@@ -7,7 +7,7 @@ title: User Roles
 order: 100
 published: true
 ---
-X-Cart roles enable you to configure different levels of access to the store's back end for different administrator users. A role is a set of permissions providing access to certain features and areas of the back end. This feature may be useful if you have staff who you want to give the permissions to do some of the store management jobs but not others.
+X-Cart roles enable you to configure different levels of access to the store's back end for different administrator users. A role is a set of permissions providing access to certain features and areas of the Admin back end. This feature may be useful if you have staff who you want to give the permissions to do some of the store management jobs but not others.
 
 Roles are made available in X-Cart via the addon **User permissions**. This module comes for free with X-Cart Business, Multivendor and Ultimate editions.
     ![xc5_roles_user_permissions_module.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_user_permissions_module.png)
