@@ -57,10 +57,10 @@ To edit a role, click on its name in the Roles table, then edit the role details
 
 To delete a role, click on the **Trash** icon opposite the role name at the far right and save the changes.
 
-It is possible to deactivate a roledirectly on a role listing page to disable the permissions granted by this role to the admins who hold it. To do so, click on the green **On/Off** icon in front of the role name and save the changes:
-    ![xc5_roles_disable.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_disable.png)
+It is possible to deactivate a role directly on a role listing page to disable the permissions granted by this role to the admins who hold it. To do so, click on the green **On/Off** icon in front of the role name and save the changes.
     
-To assign a role to a user, you need to specify it in the user's account:
-    ![xc5_roles_assign_role.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_assign_role.png)
+To assign a role to a user, you need to specify it in the Access information section of a {% link "user profile" ref_gg1fQDgB %}:
+    ![roles-account-setup.png]({{site.baseurl}}/attachments/ref_38HKdc1f/roles-account-setup.png)
+
 Note that a user may have more than one role assigned to them.
 
