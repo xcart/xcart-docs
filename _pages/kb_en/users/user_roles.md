@@ -23,22 +23,22 @@ Roles are totally configurable. Each role consists of a set of access permission
 
 A full list of access permissions available in a default X-Cart store is as follows:
 
-   * **Root access** : Gives a user a full access to the store Admin area (with no limitations at all).
-   * **Manage catalog** : Gives a user an access to several pages of the **Catalog** section of the strore Admin area, where this user can manage all products including product categories, tags, classes and attributes. Also this user get access to the **Content** -> **Featured products** section of the Admin area to manage featured products. 
-   * **Manage reviews** : Gives a user an access to the **Catalog** -> **Reviews** page of the store Admin area where this user can manage existing and create new product reviews.
-   * **Manage users** : Gives a user an access to the **Users** -> **User list** page of the Admin area, where this user can manage existing and create new customer accounts. 
+   * **Root access** : Gives a full access to the store Admin area (with no limitations at all).
+   * **Manage catalog** : Gives access to several pages of the **Catalog** section of the strore Admin area, where this user can manage all products including product categories, tags, classes and attributes. Also this user get access to the **Content** -> **Featured products** section of the Admin area to manage featured products. 
+   * **Manage reviews** : Gives access to the **Catalog** -> **Reviews** page of the store Admin area where this user can manage existing and create new product reviews.
+   * **Manage users** : Gives access to the **Users** -> **User list** page of the Admin area, where this user can manage existing and create new customer accounts. 
    * **Manage administrators** : Extends the **Manage users** access permission with a possibility to manage existing and create new admin and vendor accounts. The **Manage administrators** access permission doesn't allow to assign new or change existing roles assigned to different admin accounts.
-   * **Manage orders** : Gives a user an access to several pages of the **Orders** section of the store Admin area, where this user can process orders in full, including working with order statuses, payment transactions, order stats and messages. 
-   * **Manage import** : Gives a user an access to several pages of the **Catalog** section of the store Admin area, where this user can import data and update products quantity. 
-   * **Manage export** : Gives a user an access to the **Catalog** -> **Export** page of the store Admin area, where this user can export all product related info, including categories, classes and attributes and their values and product tabs, as well as product reviews, customers and orders data.
-   * **Manage banners** : Gives a user an access to the **Сontent** -> **Front page** -> **Banner rotation** page of the store Admin area, where this user can manage the (sub)categories' banners and the way they are displayed in the storefront.
+   * **Manage orders** : Gives access to several pages of the **Orders** section of the store Admin area, where this user can process orders in full, including working with order statuses, payment transactions, order stats and messages. 
+   * **Manage import** : Gives access to several pages of the **Catalog** section of the store Admin area, where this user can import data and update products quantity. 
+   * **Manage export** : Gives access to the **Catalog** -> **Export** page of the store Admin area, where this user can export all product related info, including categories, classes and attributes and their values and product tabs, as well as product reviews, customers and orders data.
+   * **Manage banners** : Gives access to the **Сontent** -> **Front page** -> **Banner rotation** page of the store Admin area, where this user can manage the (sub)categories' banners and the way they are displayed in the storefront.
    * **Allow unfiltered HTML** : Gives a user a possibility to add [unfiltered HTML code](https://devs.x-cart.com/design_changes/adding_custom_javascript_code_to_the_page.html#script-tag-in-content-fields-or-static-pages "User Roles") to any text area (e.g. product description, category description, news, static page content, etc.) in the store Admin area. This access permission can be used only in bundle with other access permissions that give access to different text areas of the store Admin area (e.g. **Manage catalog**, **Manage reviews**, etc.). 
-   * **Manage custom pages** :  Gives a user an access to the **Сontent** -> **Pages** page of the Admin area, where this user can create new and manage existing store HTML pages.
-   * **Manage menus** :  Gives a user an access to the **Сontent** -> **Menus** page of the Admin area, where this user can create new and manage existing store header and footer menus.
-   * **Manage news** : Gives a user an access to the **Сontent** -> **News messages** page of the Admin area, where this user can create new and manage existing news messages.
-   * **Manage coupons** : Gives a user an access to the **Discounts** -> **Coupons** page of the Admin area, where this user can create new and manage existing discount coupons.
-   * **Manage volume discounts** : Gives a user an access to the **Discounts** -> **Volume discounts** page of the Admin area, where this user can create new and manage existing volume discounts.
-   * **Manage conversations** : Gives a user an access to the **Orders** -> **Messages** page of the store Admin area, where this user can work with customers' messages on their orders. 
+   * **Manage custom pages** :  Gives access to the **Сontent** -> **Pages** page of the Admin area, where this user can create new and manage existing store HTML pages.
+   * **Manage menus** :  Gives access to the **Сontent** -> **Menus** page of the Admin area, where this user can create new and manage existing store header and footer menus.
+   * **Manage news** : Gives access to the **Сontent** -> **News messages** page of the Admin area, where this user can create new and manage existing news messages.
+   * **Manage coupons** : Gives access to the **Discounts** -> **Coupons** page of the Admin area, where this user can create new and manage existing discount coupons.
+   * **Manage volume discounts** : Gives access to the **Discounts** -> **Volume discounts** page of the Admin area, where this user can create new and manage existing volume discounts.
+   * **Manage conversations** : Gives access to the **Orders** -> **Messages** page of the store Admin area, where this user can work with customers' messages on their orders. 
 
 To add a new role:
 1.  Click the **New role** button.
