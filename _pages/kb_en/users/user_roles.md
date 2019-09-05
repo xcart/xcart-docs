@@ -24,7 +24,7 @@ Roles are totally configurable. Each role consists of a set of access permission
 A full list of access permissions available in a default X-Cart store is as follows:
 
    * **Root access** : Gives a user a full access to the store Admin area (with no limitations at all).
-   * **Manage catalog** : Gives a user an access to several pages of the **Catalog** section of the strore Admin area, where this user can manage all products including product categories, tags, classes and attributes. Also this user get access to the **Content** -> **Features products** section of the Admin area to manage featured products. 
+   * **Manage catalog** : Gives a user an access to several pages of the **Catalog** section of the strore Admin area, where this user can manage all products including product categories, tags, classes and attributes. Also this user get access to the **Content** -> **Featured products** section of the Admin area to manage featured products. 
    * **Manage reviews** : Gives a user an access to the **Catalog** -> **Reviews** page of the store Admin area where this user can manage existing and create new product reviews.
    * **Manage users** : Gives a user an access to the **Users** -> **User list** page of the Admin area, where this user can manage existing and create new customer accounts. 
    * **Manage administrators** : Extends the **Manage users** access permission with a possibility to manage existing and create new admin and vendor accounts. The **Manage administrators** access permission doesn't allow to assign new or change existing roles assigned to different admin accounts.
