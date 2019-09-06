@@ -11,6 +11,11 @@ A role in X-Cart is a set of permissions providing access to certain features an
 
 Roles are added to the core X-Cart via the addon **User permissions**. This module comes for free with X-Cart Business, Multivendor and Ultimate editions.
     ![module-enabled.png]({{site.baseurl}}/attachments/ref_38HKdc1f/module-enabled.png)
+    
+{% toc %}
+
+
+## Roles Listing Page
 
 Typically, if you are using X-Cart Business, Multivendor or Ultimate, this addon is already enabled, and your X-Cart store already has some roles configured - you can view them in the **Roles** section of the Admin area (**Users** > **Roles**).
     ![roles-section.png]({{site.baseurl}}/attachments/ref_38HKdc1f/roles-section.png)
@@ -19,7 +24,11 @@ _Administrator_ is the role with the **root access** permissions to the store Ad
 
 The rest of the configured roles provide limited access to a store Admin area so that a person could work with just some of the features (sections). 
 
+## Roles Configuration
+
 Roles are totally configurable. Each role consists of a set of access permissions. You can create new roles or edit existing ones and assign as many access permissions to one role as you find necessary. You can also delete the roles you do not need.
+
+### Access Permissions
 
 A full list of access permissions available in a default X-Cart store is as follows:
 
@@ -40,6 +49,8 @@ A full list of access permissions available in a default X-Cart store is as foll
    * **Manage volume discounts** : Gives access to the **Discounts** -> **Volume discounts** page of the Admin area, where this user can create new and manage existing volume discounts.
    * **Manage conversations** : Gives access to the **Orders** -> **Messages** page of the store Admin area, where this user can work with customers' messages on their orders. 
 
+### Adding New Roles
+
 To add a new role:
 1.  Click the **New role** button.
     ![new-role.png]({{site.baseurl}}/attachments/ref_38HKdc1f/new-role.png)
@@ -53,14 +64,32 @@ To add a new role:
 
 3.  Click **Create**.
 
-To edit a role, click on its name in the Roles table, then edit the role details and click **Update** to save the changes. The changes applied to the role will affect all the admins with this role assigned.
+### Managing Roles
 
-To delete a role, click on the **Trash** icon opposite the role name at the far right and save the changes.
+To manage roles open the **Roles** page of the store Admin area (**Users** -> **Roles**) and use the tools on the page to apply the necessary changes.
 
-It is possible to deactivate a role directly on a role listing page to disable the permissions granted by this role to the admins who hold it. To do so, click on the green **On/Off** icon in front of the role name and save the changes.
+![editing-roles.png]({{site.baseurl}}/attachments/ref_38HKdc1f/editing-roles.png)
+
+1. Role Changes
+
+   To edit a role, click on its name in the Roles table, then edit the role details and click **Update** to save the changes. The changes applied to the role will affect all the admins with this role assigned.
+
+2. Role Deactivation
+   
+   It is possible to deactivate a role directly on the role listing page to disable the permissions granted by this role to the admins who hold it. To do so, click on the green **On/Off** icon in front of the role name and save the changes.
+
+3. Role Deletion
+   
+   To delete a role, click on the **Trash** icon opposite the role name at the far right and save the changes.
+   
+## Assigning Roles to Admin Accounts
     
-To assign a role to a user, you need to specify it in the Access information section of a {% link "user profile" ref_gg1fQDgB %}:
-    ![roles-account-setup.png]({{site.baseurl}}/attachments/ref_38HKdc1f/roles-account-setup.png)
+To assign a role to an admin account:
 
-Note that a user may have more than one role assigned to them.
+1. Locate the required admin account on the **Users list** page and click on the email to open the **Account details** page. 
+2. On the **Account details** page locate the **Access information** section:
+    ![roles-account-setup.png]({{site.baseurl}}/attachments/ref_38HKdc1f/roles-account-setup.png)
+3. Click on the **Roles** field and choose the necessary role from the drop-down. You can add more than one role to each user.
+4. Click **Update** to save the changes.
+
 
