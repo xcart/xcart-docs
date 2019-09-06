@@ -17,7 +17,7 @@ Roles are added to the core X-Cart via the addon **User permissions**. This modu
 
 ## Roles Listing Page
 
-Typically, if you are using X-Cart Business, Multivendor or Ultimate, this addon is already enabled, and your X-Cart store already has some roles configured - you can view them in the **Roles** section of the Admin area (**Users** > **Roles**).
+Typically, if you are using X-Cart Business, Multivendor or Ultimate, the addon **User permissions** is already enabled, and your X-Cart store already has some roles configured - you can view them in the **Roles** section of the Admin area (**Users** > **Roles**).
     ![roles-section.png]({{site.baseurl}}/attachments/ref_38HKdc1f/roles-section.png)
 
 _Administrator_ is the role with the **root access** permissions to the store Admin area, which means that an administrator with this role has full access to all the features (no restrictions at all). This is the only role in X-Cart that can't be edited or deleted.
