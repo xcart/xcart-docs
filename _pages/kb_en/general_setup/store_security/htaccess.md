@@ -46,3 +46,11 @@ Require valid-user
 
 For X-Cart versions 5.4.0.0 and later it is necessary to allow callbacks from the same domain without authentication.  Here is an example for how that can be done:
 
+```
+Require valid-user
+Order allow,deny
+Allow from <your external IP>
+Allow from 127.0.0.1
+Satisfy any
+```
+  
