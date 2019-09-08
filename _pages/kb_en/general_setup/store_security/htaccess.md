@@ -12,7 +12,7 @@ redirect_from:
 ---
 Sometimes it may be necessary to close/limit access to your store website or your store Admin area for security or development purposes. This can be done using htaccess password protection; more info on this is available in the article [Password Protection with htaccess](http://www.htaccesstools.com/articles/password-protection/).
 
-If you have read the article, you should already know that the main point here is to create two files called .htaccess and .htpasswd in the directory you want to password protect. The file .htaccess actually closes access to the directory with a form where you need to submit a login/password combination to be authorized, whereas the file .htpasswd contains the login/password info that needs to be submitted for authorization.  
+If you have read the article, you should already know that the main point here is to create two files called .htaccess and .htpasswd in the directory you want to password protect. The file .htaccess actually closes access to the directory with a form where you need to submit a login/password combination for authentication, whereas the file .htpasswd contains the login/password info that needs to be submitted for authentication.  
 
 First, you need to create a .htpasswd file with your login and password; the file content should be like the following:
 
@@ -43,3 +43,6 @@ AuthUserFile /path/to/.htpasswd
 Require valid-user
 </Files>
 ```
+
+For X-Cart versions 5.4.0.0 and later it is necessary to allow callbacks from the same domain without authentication.  Here is an example for how that can be done:
+
