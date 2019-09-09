@@ -124,7 +124,7 @@ To activate an addon license, do the following:
 1.  Log in to the Admin area of your X-Cart 5 installation and go to the X-Cart App Store (via the **My addons** item in the main menu).
 
 2.  Access the license activation form by clicking **Activate license key** above the list of addons:
-    ![xc5_licenses_addon_activate_via_mktplce.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_addon_activate_via_mktplce.png)
+    ![activate_in_myaddons.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/activate_in_myaddons.png)
     The form for license activation looks as follows:
     ![xc5_licenses_addon_enter_license_key.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_addon_enter_license_key.png)
     If you are using the trial version, you will be requested to activate your X-Cart 5 license before you can activate the addon license.
@@ -134,7 +134,6 @@ To activate an addon license, do the following:
 
 Provided that the submitted license key is valid, X-Cart will install and activate the addon. 
 This involves automatic re-deployment of your store. The process may take as long as a few minutes. Take care not to close the page before the process has been fully completed.
-    ![]({{site.baseurl}}/attachments/8225232/8356158.png)
 
 Once the addon installation and store re-deployment has been completed, you should see a success message.
 
