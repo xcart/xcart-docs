@@ -109,7 +109,7 @@ In the end, you should see a success message.
 Now you should check that you can open your X-Cart store Admin area and storefront, and navigate a few pages to make sure everything looks good (no error messages or obvious page display problems). 
 
 You will notice that the Admin area header now shows the license type you have activated:
-          ![xc5_licenses_ultimate.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_ultimate.png)
+          ![ultimate_license_activated.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/ultimate_license_activated.png)
 
 (The screenshot above demonstrates the result of activating an Ultimate license; for Multivendor license this would be "Multivendor", and for Business license this would be "Business").
 
