@@ -68,7 +68,8 @@ Once your store has been re-deployed, you should see a success message.
 Now you should check that you can open your X-Cart store Admin area and storefront, and navigate a few pages to make sure everything looks good (no error messages or obvious page display problems). 
 
 You will notice that the Admin area header now shows the license type you have activated:
-          ![xc5_licenses_free.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_free.png)
+          ![free_license_activated.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/free_license_activated.png)
+
 
 ## Activate a Premium X-Cart 5 License (Business / Multivendor / Ultimate)
 
