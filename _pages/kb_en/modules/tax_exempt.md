@@ -15,9 +15,11 @@ To start using the addon, install it as described in {% link "Installing Addons 
 
 ## Tax-Exempt Customers
 
-The Tax Exempt addon enables a customer to specify a tax number at checkout:
+The Tax Exempt addon adds a special field at checkout where a buyer can specify a tax number to be release from tax paying:
 
 ![tax-number-checkout.png]({{site.baseurl}}/attachments/ref_6dA6W1gY/tax-number-checkout.png)
+
+By default, the field name is "Tax Number". However, a store admin can change the field name if required using {% link "Labels Editor" ref_4xrvhBHU %}.
 
 Once a tax number has been added, it is stored in the **Tax number** field in the customer's profile and can be viewed both by the customer (**My Account** -> **Address book**) and a store admin (**Users** -> **Users list** -> **Profile** -> **Address book**):
 
