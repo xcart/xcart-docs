@@ -31,26 +31,34 @@ To start using the addon, make sure it is installed and enabled. The addon can b
 
 Once the addon has been installed and enabled, go to the addon settings page to configure it.
 
-The addon settings are as follows:
-
 ![settings.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/settings.png)
 
-{:.ui.compact.celled.small.padded.table}
+The addon settings are as follows:
 
-| **Number of levels to be used in the filter (2,3,4)** | Here you can choose from 2 to 4 filter levels that you'll set up for your products. |
-| **Name of level X**| The default filter names are preset to Make/Model/Year/Engine, but you can set any filter name you like better instead. |
-| **Maximum banner width** | Set the width of a banner that will be displayed on the _Level Info_ page. The preset value is 500. |
-| **Maximum banner height** | Set the height of a banner that will be displayed on the _Level Info_ page. The preset value is 200. |
-| **Use separate tab for the fitment on the product page** | If this is enabled, the information on all the vehicles for which the part can be used will be displayed in a separate _Fitment_ tab on the product details page on the storefront. If this is disabled, the info will be displayed in the main _Description_ tab. | 
-| **Level X sorting** | Choose the order of the search results representation for the level. |
+* **Number of levels to be used in the filter (2,3,4)** : Here you can choose from 2 to 4 filter levels that you'll set up for your products. 
+* **Name of level X** : The default filter names are preset to Make/Model/Year/Engine, but you can set any filter name you like better instead. 
+* **Maximum banner width (in case of one image)** : Set the width of a banner that will be displayed on the _Level Info_ page. The preset value is 500. 
+* **Maximum banner height (in case of one image)** : Set the height of a banner that will be displayed on the _Level Info_ page. The preset value is 200. 
+* **Use separate tab for the fitment on the product page** : If this is enabled, the information on all the vehicles for which the part can be used will be displayed in a separate _Fitment_ tab on the product details page on the storefront. If this is disabled, the info will be displayed in the main _Description_ tab.  
+  {% note info %}
+  With the option **Use separate tab for the fitment on the product page** enabled, each product will have a separate **Fitment** tab that will be displayed on the product details page both in the store back end and on the storefront.
+  <div class="ui stackable two column grid">
+    <div class="column" markdown="span">![fitment-admin.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-admin.png)</div>
+    <div class="column" markdown="span">![fitment-frontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-frontend.png)</div>
+   </div>
+  {% endnote %}
+* * **Use "Product is available for every vehicle" feature** : If this feature is enabled 
+**Reset filter behaviour** :
+* **Level X sorting** : Choose the order of the search results representation for the level. 
+* **Redirect to the search page if the landing page is not ready (description is empty)** :
+* **Add selected level URLs to the categories Clean URLs** :
 
-{% note info %}
-With the option **Use separate tab for the fitment on the product page** enabled, each product will have a separate **Fitment** tab that will be displayed on the product details page both in the store back end and on the storefront.
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![fitment-admin.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-admin.png)</div>
-  <div class="column" markdown="span">![fitment-frontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-frontend.png)</div>
-</div>
-{% endnote %}
+The Make/Model/Year addon settings page also allows to configure the level info page view. 
+
+Enable the info blocks that you want to be displayed on each level info page in the **Level info page view** section of the module settings page:
+![level-info-view.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/level-info-view.png)
+
+**Submit** the settings to make them active.
 
 ## Filter Levels Setup
 
