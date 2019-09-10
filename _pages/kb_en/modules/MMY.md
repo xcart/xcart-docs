@@ -47,7 +47,7 @@ The addon settings are as follows:
     <div class="column" markdown="span">![fitment-frontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-frontend.png)</div>
    </div>
   {% endnote %}
-* **Use "Product is available for every vehicle" feature** : If this feature is enabled
+* **Use "Product is available for every vehicle" feature** : If this feature is enabled, all products with the option "Product is available for every vehicle" enabled on the product details page will be included into all configured filters.
 * **Reset filter behaviour** : Choose the preferred cart behaviour (reload page or redirect to homepage) when a customer clicks "Reset filter" in the storefront. The default setting is page reloading.
 * **Level X sorting** : Choose the order of the search results representation for the level. 
 * **Redirect to the search page if the landing page is not ready (description is empty)** : If this feature is enabled a customer will be redirected to the regular store search page in case there is no description for the landing page (see [Level Info Page Setup](https://kb.x-cart.com/modules/MMY.html#level-info-page-setup "Make/Model/Year") for more info) that matches the customer filter choice.
