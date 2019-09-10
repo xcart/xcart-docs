@@ -49,8 +49,12 @@ For X-Cart versions 5.4.0.0 and later it is necessary to allow callbacks from th
 ```
 Require valid-user
 Order allow,deny
-Allow from <your external IP>
+Allow from <your server's external IP>
 Allow from 127.0.0.1
 Satisfy any
 ```
-  
+To find out your server's external IP, contact your hosting provider support team or run something like the following in the Terminal:
+
+```
+curl ipv4bot.whatismyipaddress.com
+```
