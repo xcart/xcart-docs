@@ -48,10 +48,10 @@ The addon settings are as follows:
    </div>
   {% endnote %}
 * **Use "Product is available for every vehicle" feature** : If this feature is enabled, all products with the option "Product is available for every vehicle" enabled on the product details page will be included into all configured filters.
-* **Reset filter behaviour** : Choose the preferred cart behaviour (reload page or redirect to homepage) when a customer clicks "Reset filter" in the storefront. The default setting is page reloading.
+* **Reset filter behaviour** : Choose the preferred site behaviour (reload page or redirect to homepage) when a customer clicks "Reset filter" in the storefront. The default setting is page reloading.
 * **Level X sorting** : Choose the order of the search results representation for the level. 
-* **Redirect to the search page if the landing page is not ready (description is empty)** : If this feature is enabled a customer will be redirected to the regular store search page in case there is no description for the landing page (see [Level Info Page Setup](https://kb.x-cart.com/modules/MMY.html#level-info-page-setup "Make/Model/Year") for more info) that matches the customer filter choice.
-* **Add selected level URLs to the categories Clean URLs** : If this feature is enabled product filter data will be added to the categories URLs in Clean URLs feature is enabled.
+* **Redirect to the search page if the landing page is not ready (description is empty)** : If this feature is enabled a customer will be redirected to the regular store search page in case there is no description for the landing page that matches the customer filter choice (see [Level Info Page Setup](https://kb.x-cart.com/modules/MMY.html#level-info-page-setup "Make/Model/Year") for more info).
+* **Add selected level URLs to the categories Clean URLs** : If this feature is enabled product filter data will be added to the categories URLs if the Clean URLs feature is enabled.
   {% note info %}
   In case a store category Clean URLs has the format of `https://www.your_store.com/category_1/` and the filter Clean URLs has the format of `https://www.your_store.com/Audi_A4-B6_02-04_1-8_T_quattro` the category Clean URLs format with the enabled **Add selected level URLs to the categories Clean URLs** feature will become `https://www.your_store.com/Audi_A4-B6_02-04_1-8_T_quattro/category_1/`
   {% endnote %}
