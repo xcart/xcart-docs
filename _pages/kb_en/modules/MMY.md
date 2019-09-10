@@ -47,15 +47,18 @@ The addon settings are as follows:
     <div class="column" markdown="span">![fitment-frontend.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/fitment-frontend.png)</div>
    </div>
   {% endnote %}
-* * **Use "Product is available for every vehicle" feature** : If this feature is enabled 
-**Reset filter behaviour** :
+* **Use "Product is available for every vehicle" feature** : If this feature is enabled
+* **Reset filter behaviour** : Choose the preferred cart behaviour (reload page or redirect to homepage) when a customer clicks "Reset filter" in the storefront. The default setting is page reloading.
 * **Level X sorting** : Choose the order of the search results representation for the level. 
-* **Redirect to the search page if the landing page is not ready (description is empty)** :
-* **Add selected level URLs to the categories Clean URLs** :
+* **Redirect to the search page if the landing page is not ready (description is empty)** : If this feature is enabled a customer will be redirected to the regular store search page in case there is no description for the landing page (see [Level Info Page Setup](https://kb.x-cart.com/modules/MMY.html#level-info-page-setup "Make/Model/Year") for more info) that matches the customer filter choice.
+* **Add selected level URLs to the categories Clean URLs** : If this feature is enabled product filter data will be added to the categories URLs in Clean URLs feature is enabled.
+  {% note info %}
+  In case a store category Clean URLs has the format of `https://www.your_store.com/category_1/` and the filter Clean URLs has the format of `https://www.your_store.com/Audi_A4-B6_02-04_1-8_T_quattro` the category Clean URLs format with the enabled **Add selected level URLs to the categories Clean URLs** feature will become `https://www.your_store.com/Audi_A4-B6_02-04_1-8_T_quattro/category_1/`
+  {% endnote %}
 
 The Make/Model/Year addon settings page also allows to configure the level info page view. 
 
-Enable the info blocks that you want to be displayed on each level info page in the **Level info page view** section of the module settings page:
+Use the **Level info page view** section of the module settings page to enable the info blocks that you want to be displayed on each level info page in the customer storefront:
 ![level-info-view.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/level-info-view.png)
 
 **Submit** the settings to make them active.
