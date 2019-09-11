@@ -53,7 +53,7 @@ Allow from <your server's external IP>
 Allow from 127.0.0.1
 Satisfy any
 ```
-To find out your server's external IP, contact your hosting provider support team or run something like the following in the Terminal:
+To find out your server's external IP, contact your hosting provider support team. As an alternative option, you can obtain the IP by executing the following command on the server (for example, via SSH):
 
 ```
 curl ipv4bot.whatismyipaddress.com
