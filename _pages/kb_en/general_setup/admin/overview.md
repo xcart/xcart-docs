@@ -11,7 +11,7 @@ When you log in to your X-Cart store Admin area, the first thing that you see is
 
 ![first-stats-page.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/first-stats-page.png)
 
-X-Cart Admin Home page shows information about orders awaiting processing, bestseller products and products low in stock, as well as your store’s recent sales stats and X-Cart community news. Right after the software installation, the Admin Home page also provides the {% link "X-Cart Quickstart Onboarding Wizard" ref_5xTo5Gmg %} that is aimed to help a store admin with the initial store setup.
+X-Cart Admin Home page shows information about orders awaiting processing, bestseller products and products with low stock, as well as your store’s recent sales stats and X-Cart community news. Right after the software installation, the Admin Home page also provides the {% link "X-Cart Quickstart Onboarding Wizard" ref_5xTo5Gmg %} that is aimed to help a store admin with the initial store setup.
 
 To return to the Home page from any other page of the Admin area, click on the store logo icon in the left-hand side of the header panel.
 
@@ -123,15 +123,15 @@ This menu includes the following sections:
 
 ## Info Dashboard
 
-The Info Dashboard on the Admin Home page provides information about orders awaiting processing, low in stock products and bestsellers. 
+The Info Dashboard on the Admin Home page provides information about your customers' orders awaiting processing, products with low stock and products that sell best (bestsellers). 
 
-The 'Orders awaiting processing' board provides information on the last 5 orders placed in the store. A store admin can proceed to the details of any of these orders by clicking on its order number.
+The 'Orders awaiting processing' board provides information on the latest five orders placed in the store. You can proceed to the details of any of these orders by clicking on its order number.
 
-Similarly, the 'Low inventory products' board shows the latest 5 products with the lowest inventory level. A store admin can proceed to the details of any of these products by clicking on the product name.
+Similarly, the 'Low inventory products' board shows the latest five products with the lowest inventory level. You can proceed to the details of any of these products by clicking on the product name.
 
 ![info-panel.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/info-panel.png)
 
-The 'Bestsellers' board shows the products that have been sold the most. A store admin can use this board to get a list of all-time bestsellers or limit the range to a certain time period. Also, it is possible to get bestseller statistics on either all the products (both in stock and sold out) or just the products currently in stock. 
+The 'Bestsellers' board shows the products that have been sold the most. You can use this board to get a list of all-time bestsellers, or limit the range to a certain time period. Also, it is possible to get bestseller statistics on either all the products (both in stock and sold out) or just the products currently in stock. 
 
 ![bestsellers.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/bestsellers.png)
 
