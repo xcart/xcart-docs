@@ -7,7 +7,7 @@ title: Admin Area Login and Password Recovery
 order: 100
 published: true
 ---
-Once the X-Cart software instalation is [completed](https://kb.x-cart.com/general_setup/installation/installation_guide.html#step-7-installation-completed "Admin Area Login and Password Recovery") you can start managing products, orders, customers, and most other features of your store. But first, you need to log in into your X-Cart Admin area. If you forget the admin password, you can always recover it using the email address that is associated with the account.
+Once the X-Cart software installation process has been [completed](https://kb.x-cart.com/general_setup/installation/installation_guide.html#step-7-installation-completed "Admin Area Login and Password Recovery"), you can get to managing products, orders, customers, and most other features of your store. But first you need to log in to your X-Cart store Admin area. If you forget the admin password, you can recover it at any time using the email address that is associated with the account.
 
 {% toc %}
 
@@ -15,7 +15,7 @@ Once the X-Cart software instalation is [completed](https://kb.x-cart.com/genera
 
 1. In the address bar of your browser, enter the URL that was specified during the X-Cart software installation, followed by the base URL of your store’s Admin area. 
    
-   The default Admin URL looks like this: `http://<your-domain>/<x-cart-5-directory>/admin/admin.php?target=login`
+   The default Admin URL looks like this: `http://<your-domain>/<x-cart-5-directory>/admin.php?target=login`
    
    You should see a page like this:
    ![login-page.png]({{site.baseurl}}/attachments/ref_00nAL9h3/login-page.png)
@@ -34,7 +34,7 @@ Once the X-Cart software instalation is [completed](https://kb.x-cart.com/genera
 
 ## Admin Area Password Recovery
 
-1. If you forget your password, click the **Forgot password?** link at `http://<your-domain>/<x-cart-5-directory>/admin/admin.php?target=login`.
+1. If you ever forget your password, click the **Forgot password?** link at `http://<your-domain>/<x-cart-5-directory>/admin.php?target=login`.
    
    You will be redirected to the **Forgot your password?** page:
    ![password-recovery.png]({{site.baseurl}}/attachments/ref_00nAL9h3/password-recovery.png)
