@@ -29,7 +29,7 @@ If you decide to move on, click the **Let's set up your store!** button and proc
  
 ## Step 1 - Add Your First Product
 
-The wizard suggest that you should start the store configuration with adding your first product. 
+The wizard will suggest that you should start the store configuration with adding your first product. 
 
 ![quickstart-2.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-2.png)
 
