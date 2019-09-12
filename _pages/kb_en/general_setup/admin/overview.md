@@ -79,11 +79,11 @@ This menu includes the following sections:
   
   For more info, see the section {% link "Orders" ref_r4PbRx4Z %} of the X-Cart Knowledge Base.
   
-* **Catalog** : This section provides all required tools for the catalog management as well as the tools for the data import/export. 
+* **Catalog** : This section provides all the required tools for the catalog management as well as the tools for data import and export. 
    
   For more info, see the sections {% link "Products" ref_5vJ9gwBl %}, {% link "Product Classes and Attributes" ref_T90ZcEpP %} and {% link "Import-Export" ref_TANvG2De %} of the X-Cart Knowledge Base.
    
-* **Users** : This section providers all the necessary tools for user accounts' management, both admins and customers. 
+* **Users** : This section provides all the necessary tools for the management of user accounts. 
    
    For more info, see the section {% link "Users" ref_QdN8kJnH %} of the X-Cart Knowledge Base.
    
