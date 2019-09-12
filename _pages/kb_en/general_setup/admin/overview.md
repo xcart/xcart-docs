@@ -7,7 +7,7 @@ title: Admin Area Overview
 order: 110
 published: true
 ---
-When you log in to your X-Cart Admin area, the first thing that you see is the Admin area Home page:
+When you log in to your X-Cart store Admin area, the first thing that you see is the Admin area Home page:
 
 ![first-stats-page.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/first-stats-page.png)
 
@@ -19,7 +19,7 @@ To return to the Home page from any other page of the Admin area, click on the s
 
 ## Admin Header
 
-The Admin area header shows the version of the X-Cart software being used and includes some tools for quick navigation and search through the store, as well as a tool to open or close the storefront for customers. These are accessible from any page of the store Admin area. In addition to that, the header shows the store's low-stock alerts, software update alerts and App Store notifications. It also gives access to the admin profile and the X-Cart Knowledge Base (also known as the X-Cart manual, or X-Cart user docs) which can be of help for store setup and management.
+The Admin area header shows the version of the X-Cart software being used and includes some tools for quick navigation and search through the store, as well as a tool to open or close the storefront for customers. These are accessible from any page of the store Admin area. In addition to that, the header shows the store's low-stock alerts, software update alerts and App Store notifications. It also gives access to the admin user profile and the X-Cart Knowledge Base (also known as the X-Cart manual, or X-Cart user docs) which can be of help for store setup and management.
 
 ![header-panel.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/header-panel.png)
 
@@ -42,7 +42,7 @@ The navigation menu in the header allows a store admin to add a new product, cat
 
 ![quick-menu.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/quick-menu.png)
 
-The search bar in the header allows to quick-search through products, users and orders from any page of the Admin area. Just choose what you will be searching through in the dropdown and type a request in the search bar.
+The search bar in the header allows you to quick-search through the products, users and orders from any page of the Admin area. Just choose from the dropdown box the type of data through which you would like to search and type your search request in the search bar.
 
 ![quicksearch.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/quicksearch.png)
 
