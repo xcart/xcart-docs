@@ -87,15 +87,15 @@ This menu includes the following sections:
    
    For more info, see the section {% link "Users" ref_QdN8kJnH %} of the X-Cart Knowledge Base.
    
-* **Discounts** : This section provides all the necessary tools to promote the goods you are selling including volume discounts, coupons and related.
+* **Discounts** : This section provides all the necessary tools to promote the goods you are selling, including volume discounts and coupons.
    
   For more info, see the section {% link "Business Promotion" ref_3S9KvLey %} of the X-Cart Knowledge Base.
    
-* **Content** : This section provides all required tools to manage the storefront navigation and content.
+* **Content** : This section provides all the required tools to manage the storefront navigation and content.
 
   For more info, see the section {% link "Look and Feel" ref_bzUBJufx %} of the X-Cart Knowledge Base. Be sure to read {% link "Managing Content and Service Pages" ref_27dBlUF9 %} and {% link "Managing Navigation Elements" ref_4wQjPcoc %}.
   
-* **Sales Channels** (**Marketing** in X-Cart 5.4.x and later): This section provides access to different software integrations like MailChimp, eBay, Facebook Ads & Instagram Ads, Google product feed and many others that can help you with the store promotion in different sales channels.
+* **Sales Channels** (**Marketing** in X-Cart 5.4.x and later): This section provides access to software integrations like MailChimp, eBay, Facebook Ads & Instagram Ads, Google product feed and many others that can help you with the store promotion in different sales channels.
   
    For more info, see the section {% link "Sales Channels" ref_ybdJste8 %} of the X-Cart Knowledge Base.
   
@@ -109,7 +109,7 @@ This menu includes the following sections:
   
   For more info, see the section {% link "Look and Feel" ref_bzUBJufx %} of the X-Cart Knowledge Base.
   
-* **Store setup** : This section provides tools to configure and maintain every aspect of your store. In this section you can specify the store locale and business info, configure checkout options, set up zones, taxes, payments and shipping, manage email notifications and the store SEO settings, as well as add translations to your store.
+* **Store setup** : This section provides tools to configure every aspect of your store. In this section you can specify the store locale and business info, configure checkout options, set up zones, taxes, payments and shipping, manage email notifications and the store SEO settings, as well as add translations to your store.
   
   For more info, see the following sections of the X-Cart Knowledge Base:
   * {% link "Basic Configuration Settings" ref_0trrARqV %}
