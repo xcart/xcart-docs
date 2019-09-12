@@ -109,7 +109,7 @@ This menu includes the following sections:
   
   For more info, see the section {% link "Look and Feel" ref_bzUBJufx %} of the X-Cart Knowledge Base.
   
-* **Store setup** : This section provides tools to configure every aspect of your store. In this section you can specify the store locale and business info, configure checkout options, set up zones, taxes, payments and shipping, manage email notifications and the store SEO settings, as well as add translations to your store.
+* **Store setup** : This section provides tools to adjust every aspect of your store configuration. Here you can specify the store locale and business info, specify the type of checkout you would like to enable for shoppers, set up the address zones, taxes, payment and shipping methods, manage the email notifications that may be sent to users, adjust the store SEO settings, translate your store into other languages and so on.
   
   For more info, see the following sections of the X-Cart Knowledge Base:
   * {% link "Basic Configuration Settings" ref_0trrARqV %}
@@ -119,7 +119,7 @@ This menu includes the following sections:
   * {% link "Shipping" ref_7tvT7GEK %}
   * {% link "Payments" ref_gm10twDM %}
   
-* **System tools** : This section provides tools for advanced Admin area management. Use it when you need to back up your store, check the system logs and current environment description, clear the data cache, configure HTTPS settings or perfrom consistency and integrity checks.
+* **System tools** : This section provides some tools for the advanced Admin area management. Use it when you need to back up your store, check the system logs and current environment description, clear the data cache, configure HTTPS settings or perfrom consistency and integrity checks.
 
 ## Info Dashboard
 
