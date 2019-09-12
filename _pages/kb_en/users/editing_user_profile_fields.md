@@ -9,7 +9,7 @@ categories:
 published: true
 order: 300
 ---
-Managing customer accounts is a part of the overall {% link "user management" ref_3JDroIa2 %} performed by a store admin. A store admin in X-Cart can define what fields should be included into a customer profile, create new and manage existing customer accounts, as well as join the registered and anonymous accounts for the same customer if required.
+Managing customer accounts is a part of the overall {% link "user management" ref_3JDroIa2 %} performed by a store admin. A store admin in X-Cart can define what fields should be included into a customer profile, create new and manage existing customer accounts, as well as merge the registered and anonymous accounts for the same customer if required.
 
 {% toc %}
 
@@ -51,7 +51,7 @@ The **Address fields** page allows a store admin to:
 Customers in X-Cart can perform both registered and anonymous purchases. Though a buyer may choose not to sign up with your store, X-Cart nevertheless creates a customer account for this buyer and registers it as anonymous. All customer accounts are {% link "listed" ref_3JDroIa2 %} on the **Users list** page of your store Admin area along with existing admin and vendor accounts (**Users** -> **Users list**) and can be identified by the **Customer** or **Anonymous** value in the **Access level** column.
   ![user-list-p1.png]({{site.baseurl}}/attachments/ref_gg1fQDgB/user-list-p1.png)
 
-1. Customer profile
+### Customer profile
 
    To access a customer profile a store admin should click on the customer's email in the users list. This opens the **Account details** tab of the customer account. 
    
@@ -71,7 +71,7 @@ Customers in X-Cart can perform both registered and anonymous purchases. Though 
 
    If required a store admin can change customer email and password as well as force customer to change password on next log in, enable/disable account with a comment on the reason and assign/change membership of this customer.
 
-2. Customer address book
+### Customer address book
 
    To access customer address book a store admin should either click on the customer's name in the {% link "users list" ref_3JDroIa2 %} or open the **Address book** tab in the customer account. 
    ![address-book.png]({{site.baseurl}}/attachments/ref_gg1fQDgB/address-book.png)
