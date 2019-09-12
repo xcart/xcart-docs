@@ -93,7 +93,7 @@ First of all here you'll need to choose whether you'll sell tangible goods that 
 
 ![quickstart-7.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-7.png)
 
-If you are selling e-goods and services everything is prity simple. Click **Mark all products and non-shippable** and that's it! The wizard will set the [Requires shipping product option](https://kb.x-cart.com/products/products/managing_products/adding_products/basic_product_setup.html#shipping "X-Cart Quickstart Onboarding Wizard") for all products in your store to NO and all shipping methods will automatically be disabled.
+If you are selling e-goods and services everything is pretty simple. Click **Mark all products and non-shippable** and that's it! The wizard will set the [Requires shipping product option](https://kb.x-cart.com/products/products/managing_products/adding_products/basic_product_setup.html#shipping "X-Cart Quickstart Onboarding Wizard") for all products in your store to NO and all shipping methods will automatically be disabled.
 
 If you sell tangible goods, the process is a bit more complicated. You need to set up shipping options for them. For this purpose click the **Set up shipping** button.
 
