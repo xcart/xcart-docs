@@ -45,8 +45,6 @@ _In this section:_
 *   {% link "Customer Satisfaction" ref_5EkhZ4uD %}
 *   {% link "DHL" ref_3dwzJG71 %}
 *   {% link "Disable drag'n'drop add to cart" ref_2NVSkzc3 %}
-*   {% link "eCC Desktop: Quickbooks integration" ref_0HbWTUok %}
-*   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
 *   {% link "E-goods" ref_ZszpDfxQ %}
 *   {% link "Exit Offers" ref_1T0EXlkr %}
 *   {% link "Facebook Ads and Instagram Ads" ref_LA0TBHEA %} (Formerly known as Facebook eCommerce)
@@ -104,7 +102,6 @@ _In this section:_
 *   {% link "Sales Tax" ref_7fGmqgPE %}
 *   {% link "Segment Integration" ref_2tHtk4OT %}
 *   {% link "SEO Health Check" ref_2RwDb3OY %}
-*   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 *   {% link "ShippingEasy" ref_HTml5LyW %}
 *   {% link "Shop by Brand" ref_2LetICls %}
 *   {% link "Shopgate - Mobile Commerce" ref_tHlhZwW1 %}
