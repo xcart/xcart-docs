@@ -47,6 +47,6 @@ Hence if the translation you installed is not a complete one (which is the case 
 _Related pages:_
 
 *  {% link "Switching Languages in the Admin Area" ref_x5oSN86B %}
-*  {% link "Translating Product Catalog" ref_5MQvg8Mm %}
+*  {% link "Translating the Product Catalog" ref_5MQvg8Mm %}
 *  {% link "Translating Labels" ref_2CQ8HuY4 %}
 *  {% link "Translating News, Menus, Static Pages and Order Statuses" ref_7I70QnHa %}
