@@ -42,7 +42,7 @@ For example, here's what the Admin area home page looks like after switching the
 
 Despite that the page is displayed using the German translation, it still contains a lot of English words. This happens because in X-Cart 5 pieces of text like names of sections of the user interface, various notes, comments and error messages are all stored as text labels. A text label has a name by which it can be referenced from the template or program code and one or more “translations”. A translation is a value of the label defined for a specific language. When a piece of text needs to be displayed on a page, X-Cart selects the respective text label from the database and determines which of its translations needs to be displayed - according to the language that is currently selected for viewing the page. If, for some reason, the value of the label for the selected language is missing, the label value for the default language is displayed. If the label value for the default language is missing as well, the label name is displayed.
 
-Hence if the translation you installed is not a complete one (which is the case with all community translations), you can {% link "complete it" ref_2CQ8HuY4 %} by editing the respective text labels or by changing the text of the chosen page directly in the store interface.
+Hence if the translation you installed is not a complete one (which is the case with all community translations), you can complete it by  {% link "editing the respective text labels" ref_2CQ8HuY4 %} or by  {% link "changing the text of the chosen page directly" ref_7I70QnHa %} in the store interface.
 
 _Related pages:_
 
