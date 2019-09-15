@@ -67,7 +67,7 @@ To change the banner contents:
     To create a simple static banner, you will need to upload just one image. To create a rotating banner, you will need to upload multiple images. 
     
     {% note info %}
-    Recommended banner paramethers for Retina and 4k displays:
+    Recommended banner parameters for Retina and 4k displays:
     - image size 3840х880 px
     - JPG format with a 50%-80% compression
     - file size 100-300 kb
