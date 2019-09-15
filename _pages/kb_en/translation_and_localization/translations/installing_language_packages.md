@@ -26,18 +26,14 @@ To install a language package from the X-Cart App Store:
 3.  Install and activate the language package the same way as any other addon from the X-Cart App Store. See {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
     ![translation_install.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/translation_install.png)
 
-The store will be redeployed, and the translation addon will be installed.
+The store will be redeployed:
     ![translation_deploy.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/translation_deploy.png)
 
+The translation addon will be installed:
+    ![translation_installed.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/translation_installed.png)
+
 Once you have more than one language installed and enabled, language selectors will be provided both in the Admin and Customer areas of your X-Cart store.
-
-Admin area:
-
-   ![xc5_translations_lng_selector_admin.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_lng_selector_admin.png)
-
-Customer area:
-
-   ![xc5_translations_lng_selector_customer.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_lng_selector_customer.png)
+    ![translation_lng_selector.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/translation_lng_selector.png)
 
 Try switching the language in any location, and you should see at least some of the words and phrases on the page you are viewing translated to the selected language. 
 
