@@ -14,7 +14,7 @@ redirect_from:
 ---
 By default, the Front page of your X-Cart store contains a dummy Welcome message and a dummy banner. Depending on your store's skin and layout, the placement of the banner and welcome message may be somewhat different. 
 
-For example, here's what it looks like in X-Cart's Standard skin:
+For example, here is what it looks like in X-Cart's Standard skin:
 
 ![xc5_banner_welcome_text.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_text.png)
 
@@ -58,7 +58,7 @@ To change the banner contents:
 
 2.  Use the **Enabled** switch to specify whether the banner should be displayed (If you prefer not to show the banner just yet, set this switch to "Off". You will be able to publish the banner later on by setting the switch back to "On" and updating the banner settings).
 
-3.  Set the **Banner inverval (in seconds)**. 
+3.  Set the **Banner interval (in seconds)**. 
     
     This setting is intended for a rotating banner - in which more than one images (banner frames) will be switched periodically. The setting specifies the frequency with which individual banner frames should be switched. If you create your banner using just one image, it will not rotate, so this setting will be ignored.
 
