@@ -65,7 +65,7 @@ Customers in X-Cart can perform both registered and anonymous purchases. Though 
    * the date of account creation and last login date;
    * the language used by this customer when viewing the site (important for multilanguage stores);
    * customer email and password (the password is not displayed, but a store admin can change it here if required);
-   * user access level (Registered Customer or Anonymous Customer), this field may also contain a mention of a related account in case this customer used one and the same email as both a guest and a registered buyer with a possibilty for a store admin to merge the related accounts;
+   * user access level (Registered Customer or Anonymous Customer), this field may also contain a mention of a related account in case this customer used one and the same email as both a guest and a registered buyer with a possibilty for a store admin to [merge the related accounts](https://kb.x-cart.com/users/editing_user_profile_fields.html#merging-related-accounts "Customer Account Management");
    * account status (enabled or disabled) and admin comments on the reasons of account disabling;
    * customer's {% link "membership level" ref_5JXPTA0A %} and applications for membership (if any).
 
