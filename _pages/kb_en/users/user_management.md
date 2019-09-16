@@ -56,7 +56,7 @@ Managing users in X-Cart covers:
      Sometimes a store admin may need to check how the store looks and functions for another user (both admin and customer), or to do some task for them (for example, create an order on behalf of a customer). In this case, the administrator can use the {% link "Operate as a user" feature" ref_26UftgNS %}.
    
    {% note info %}
-   A more detailed info on the user account management you can find in {% link "User Profile Management" ref_gg1fQDgB %}
+   A more detailed info on customer profiles you can find in {% link "Customer Account Management" ref_gg1fQDgB %}
    {% endnote %}
 
 2. Deleting user accounts 
