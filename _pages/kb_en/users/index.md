@@ -21,6 +21,7 @@ X-Cart also allows to create separate accounts for sellers (aka vendors) in case
 
 _In this section:_
 *   {% link "User Types in X-Cart" ref_PWr4CNvW %} 
+*   {% link "User Management" ref_3JDroIa2 %}
 *   {% link "User Roles" ref_38HKdc1f %} 
 *   {% link "User Profile Fields" ref_gg1fQDgB %} 
 *   {% link ""Operate as a User" Feature" ref_26UftgNS %}
