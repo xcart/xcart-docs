@@ -86,7 +86,7 @@ Since X-Cart creates a customer account even if a buyer preferred not to sign up
   ![anonym-customer-acocunts.png]({{site.baseurl}}/attachments/ref_gg1fQDgB/anonym-customer-acocunts.png)
 
 Hence if you see the same email address in the {% link "users list" ref_3JDroIa2 %} of your store Admin area one with the **Customer** access level and another with **Anonymous** access level, do as follows to merge these accounts:
-1. Open the **Account details** page of an account with **Anonymous** access level:
+1. Open the [**Account details**](https://kb.x-cart.com/users/editing_user_profile_fields.html#customer-profile "Customer Account Management") page of an account with **Anonymous** access level:
    ![anonymous-account.png]({{site.baseurl}}/attachments/ref_gg1fQDgB/anonymous-account.png)
 2. Scroll down to the **Access information** section and click the **Merge with Registered** button:
    ![merge-accounts-button.png]({{site.baseurl}}/attachments/ref_gg1fQDgB/merge-accounts-button.png)
