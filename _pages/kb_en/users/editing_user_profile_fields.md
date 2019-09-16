@@ -93,7 +93,7 @@ Hence if you see the same email address in the {% link "users list" ref_3JDroIa2
 3. That's it! The profiles have been merged into one registered account:
    ![profiles-merged.png]({{site.baseurl}}/attachments/ref_gg1fQDgB/profiles-merged.png)
 
-Now if you check the user list there will be only one customer account registered for this email, this account will contain the order history and the address book changes from both registered and anonymous accounts:
+Now if you check the user list there will be only one customer account registered for this email. This account will contain the order history and the address book changes from both registered and anonymous accounts:
   ![merge-user-list.png]({{site.baseurl}}/attachments/ref_gg1fQDgB/merge-user-list.png)
 
 
