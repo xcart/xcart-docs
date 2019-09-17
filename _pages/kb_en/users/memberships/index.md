@@ -21,6 +21,6 @@ This section provides information on the management of user memberships in X-Car
 
 _In this section:_
 
-   * {% link "Using Memberships" ref_memberships_ext %}
-   * {% link "Managing User Membership Levels" ref_RXsgxNSm %}
+  * {% link "Managing User Membership Levels" ref_RXsgxNSm %}
+  * {% link "Using Memberships" ref_memberships_ext %}
    
