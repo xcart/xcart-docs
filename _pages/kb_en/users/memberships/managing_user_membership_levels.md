@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-05-01 18:39 +0400'
 identifier: ref_RXsgxNSm
 title: Managing User Membership Levels
-order: 200
+order: 90
 published: true
 redirect_from:
   - /users/adding_user_membership_levels.html
