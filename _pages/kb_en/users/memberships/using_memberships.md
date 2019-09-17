@@ -130,7 +130,7 @@ If some of your clients need to be given lower tax rates or have an exemption fr
 
 To set membership-specific tax rates:
    
-   1. Go to the 'Store Setup: Taxes' section of your store's Admin area to set up your tax.
+   1. Go to the **Store Setup** -> **Taxes** section of your store's Admin area to set up your tax.
    
    2. When adjusting the details of your tax, make sure the option 'Use the same tax rates for all user membership levels' is disabled.
    
