@@ -34,31 +34,35 @@ To hide a category and grant access to it only to certain store members:
    4 Click **Update** to save the changes.
 
 
-The same needs to be done about the products in this category:
+The same steps need to be applied to the products in this category:
  
-   1. Open the **Catalog** -> **Products** section in the Admin area.
-      
-   2. Filter the product list so it shows only the products from the category you require (the one you worked on at the previous step). This can be done by specifying the category name in the category selector (where it says 'Any Category') and clicking **Search**: 
-      ![Figure 2]({{site.baseurl}}/attachments/Products.png)
+   1. Open the **Catalog** -> **Products** section in the Admin area and the product list so it shows only the products from the category you require (the one you worked on at the previous step). 
+   
+      This can be done by specifying the category name in the category selector (where it says 'Any Category') and clicking **Search**: 
+      ![memb-prod-list.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-prod-list.png)
 
-   3. Scroll down the product list and select **Bulk Edit** -> **Price and Membership**:
-      ![Figure 3]({{site.baseurl}}/attachments/bulk edit.png)
+   2. In the **Bulk Edit** drop-down at the bottom of the page select **Price and Membership**:
+      ![memb-prod-list-1.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-prod-list-1.png)
       
       You will be redirected to a new page where you will be able to bulk edit product options. 
     
    4. Choose the 'Membersips' option and click to specify the membership(s) you need.
-      
+      ![memb-prod-list-2.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-prod-list-2.png)
+
    5. Save your changes. 
       
 
-That's all. The category and all the products in it are now hidden from any unregistered users. To be able to see this category or a product in it, a customer will need to be logged in and have a membership that we have specified as allowed to access this category/product.
+That's all. The category and all products in it are now available for viewing and ordering only to the customers of a certain membership level. A customer with this membership level needs to be logged in to get access to this category/product.
 
-If a non-member tries to open a members-only category page using a direct link, the store will show a `page not found` error. With a members-only product, the store will show an `access denied` error with a link to the 'Contact Us' page so the user can contact the store administrator and request the required membership. (Figure 5)
+If a non-member tries to open a members-only category page using a direct link, the store will show a `page not found` error. With a members-only product, the store will show an `access denied` error with a link to the 'Contact Us' page so the user can contact the store administrator and request the required membership. 
       ![Figure 5]({{site.baseurl}}/attachments/access.png)
 
-Note that a store administrator can give membership to registered customers only (Access Level - Customer), but not to anonymous visitors. 
+{% note info %}
+A store administrator can give membership to registered customers only (Access Level - Customer), but not to anonymous visitors. 
+{% endnote %}
 
 ## Membership-specific Product Pricing and Minimum Purchase Quantities
+
 It is possible to offer multiple levels of pricing for the same product according to the membership level of the buyer and the quantity of product units being ordered. It is also possible to limit the minimum quantity of a product that can be ordered, and make this quantity membership dependent as well. For this you will need the addon **[Wholesale](https://market.x-cart.com/addons/wholesale.html)**. Detailed information on using this addon is available in the section {% link "Wholesale" ref_ttZa4qgu %} of this manual. 
 
 ## Membership-specific Discounts, Coupons and Special Offers
