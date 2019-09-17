@@ -117,8 +117,8 @@ To configure the offers, you will need to have the corresponding addons installe
    ![Fig 9]({{site.baseurl}}/attachments/so.png)
 
 To create an offer that will be available only to members:
-   1. Start creating a special offer specifying all the necessary offer details. 
-   2. In the 'Conditions' section of the special offer details, specify the membership level(s) to which the offer should be available. This can be done via the 'Eligible membership levels' field (Figure 10).
+   1. Start creating a special offer specifying all the necessary offer details as described in the section {% link "Special Offers" ref_special_offers %} in this manual. 
+   2. In the 'Conditions' section of the special offer details, specify the membership level(s) the offer should be available to. This can be done via the 'Eligible membership levels' field (Figure 10).
    ![Fig 10]({{site.baseurl}}/attachments/conditions.png)
    3. Save your changes.
    
