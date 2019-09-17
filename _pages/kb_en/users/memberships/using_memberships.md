@@ -63,37 +63,57 @@ A store administrator can give membership to registered customers only (Access L
 
 ## Membership-specific Product Pricing and Minimum Purchase Quantities
 
-It is possible to offer multiple levels of pricing for the same product according to the membership level of the buyer and the quantity of product units being ordered. It is also possible to limit the minimum quantity of a product that can be ordered, and make this quantity membership dependent as well. For this you will need the addon **[Wholesale](https://market.x-cart.com/addons/wholesale.html)**. Detailed information on using this addon is available in the section {% link "Wholesale" ref_ttZa4qgu %} of this manual. 
+It is possible to offer multiple levels of pricing for the same product according to the membership level of a buyer and the quantity of product units being ordered. It is also possible to limit the minimum quantity of a product that can be ordered, and make this quantity membership dependent as well. For this you will need the addon **[Wholesale](https://market.x-cart.com/addons/wholesale.html)**. 
+
+Detailed information on using this addon is available in the section {% link "Wholesale" ref_ttZa4qgu %} of this manual. 
 
 ## Membership-specific Discounts, Coupons and Special Offers
+
 By using memberships you can vary the discount level between different groups of customers, provide coupons of limited edition that will be valid only for a specific membership level, and extend membership sales with special offers.
 
-Membership-specific discounts can be set up using the addon **[Volume Discounts](https://market.x-cart.com/addons/volume-discounts.html)** via the section 'Discounts: Volume Discounts' of the Admin back end. More info on volume discounts is provided in the section {% link "Setting up volume discounts for products" ref_xEadpu9F %}. 
+### Membership-specific Discounts
+
+Membership-specific discounts can be set up using the addon **[Volume Discounts](https://market.x-cart.com/addons/volume-discounts.html)** via the section **Discounts** -> **Volume Discounts** of your store Admin area. 
 
 The process of setting up a membership-specific volume discount is rather straightforward:
 
-   1. In the Volume discounts section of the store back end (**Discounts** > **Volume discounts**), choose to add a new discount.
-   2. Specify the subtotal amount starting from which the discount will be available. 
-   3. Set the discount amount (may be set as an absolute value or as a percentage)
-   4. Choose the membership level that a customer must have to be able to use the discount (Figure 7). 
-   5. Save your changes.
+   1. In the **Volume discounts** section of the store back end (**Discounts** > **Volume discounts**), choose to add a new discount.
+      ![memb-disc-1.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-disc-1.png)
+   2. Specify the subtotal amount starting from which the discount will be available, set the discount amount (may be set as an absolute value or as a percentage) and select the membership level that a customer must have to be able to use the discount. 
+      ![memb-disc-2.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-disc-2.png)
+   3. Save your changes.
+   
+{% note info %}
+More info on volume discounts is provided in the section {% link "Setting up volume discounts for products" ref_xEadpu9F %}. 
+{% endnote %}
     
-      ![Figure 7]({{site.baseurl}}/attachments/Screen Shot 2018-01-12 at 21.27.47.png)
+### Membership-specific Coupons
 
+Membership-specific coupons can be configured using the addon **[Coupons](https://market.x-cart.com/addons/discount-coupons.html)** via the **Coupons** section of your store Admin area (**Discounts** > **Coupons**).
 
-Membership-specific coupons can be configured using the addon **[Coupons](https://market.x-cart.com/addons/discount-coupons.html)** via the Coupons section of the store back end (**Discounts** > **Coupons**). More info on coupons is available in the section {% link "Setting up Discount Coupons" ref_SGI1FqdC %}. 
-
-To configure a coupon that only members will be able to use, you will need to specify the membership(s) you require in the 'Membership' field (Figure 8). 
-
-![Fig 8]({{site.baseurl}}/attachments/coupons.png)
+To configure a coupon that only members will be able to use:
+1. Open the the **Coupons** section of your store Admin area (**Discounts** > **Coupons**) and click the **New discount coupon** button: 
+   ![memb-disc-coupon-1.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-disc-coupon-1.png)
+2. Scroll-down the coupon details page and locate the **Membership** field.
+   ![memb-disc-coupon-2.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-disc-coupon-2.png)
+3. Click on the field and select the applicabel membership value from the drop-down.
+4. Save your changes.
 
 If a non-member uses a members-only coupon at checkout, they will get an error message like the following: "Sorry, the coupon you entered is not valid for your membership level. Contact the administrator."
 
-Special offers for members can be set up using the addons [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Promote Sales with User Memberships") and [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Promote Sales with User Memberships"). By using these addons, you will be able to provide such special offers to your member users as the following:
+{% note info %}
+More info on coupons is available in the section {% link "Setting up Discount Coupons" ref_SGI1FqdC %}. 
+{% endnote %}
+
+### Membership-specific Special Offers
+
+Special offers for members can be set up using the addons **[Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Promote Sales with User Memberships")** and **[Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html "Promote Sales with User Memberships")**. 
+
+By using these addons, you will be able to provide the following special offers to your member users:
 - Buy N items from specified categories to get a discount on M of them (the cheapest ones). If the discount is set to 100%, your customers will get the items for free. 
 - Spend a certain amount in specified categories to get a discount on M of the items bought from these categories (the cheapest ones).
 
-To configure the offers, you will need to have the addons installed as described in  {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}. Once the addons are installed, the features will become available in the 'Discounts: Special Offers' section of your store's Admin back end (Figure 9).
+To configure the offers, you will need to have the corresponding addons installed as described in  {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}. Once the addons are installed, the features will become available in the **Discounts** -> **Special Offers** section of your store Admin area.
    ![Fig 9]({{site.baseurl}}/attachments/so.png)
 
 To create an offer that will be available only to members:
