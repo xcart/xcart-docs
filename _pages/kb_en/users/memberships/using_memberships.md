@@ -10,39 +10,46 @@ description: memberships and products/categories/discounts/taxes/etc.
 redirect_from:
   - /users/memberships_ext.html
 ---
+With user memberships a store admin can limit access to certain products or product categories, offer special prices, discounts and tax rates, as well as give more payment options for certain groups of customers. With the Paid Memberships addon a store admin can even sell memberships to customers.
+
 {% toc %}
 
 ## Membership-specific Access to Products and Categories
-Sometimes you may need to grant access to a specific product, group of products or product category only to certain members of your site and hide them from the rest of your site visitors. This can be done using X-Cart's user memberhsips feature. Note that the hidden products and/or categories will still be indexed by Google, so hiding them from certain types of customers will not affect the ranks.
+
+Sometimes you may need to grant access to a specific product, group of products or product category only to certain members of your site and hide them from the rest of your site visitors. This can be done using X-Cart's user memberhships feature.
+{% note info %}
+Hidden products and/or categories will still be indexed by Google, so hiding them from certain types of customers will not affect the ranks.
+{% endnote %}
 
 To hide a category and grant access to it only to certain store members:
     
-   1. Go the the 'Catalog: Categories' section in the your store's Amin area.
-   
-   2. Choose the category you require and open it.
-   
-   3. Specify the membership(s) that should be able to access this category in the 'Memberships' field (Figure 1). Hold down the _**Shift**_ key to select multiple memberships. 
-   
-   4 Save your changes.
+   1. Locate the category you want to edit in the categories list in the **Catalog** -> **Categories** section in the your store's Admin area.
+      ![memb-cat-list.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-cat-list.png)
 
-![Figure 1]({{site.baseurl}}/attachments/X Cart online store builder    Your company name    Manage category  Apparel.png)
+   2. Open the category by clicking on its name and scroll down the **Category info** page to find the 'Memberships' field. 
+   
+   3. Click on the 'Memberships' field and select the membership value from the drop-down:
+      ![memb-cat-list-1.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-cat-list-1.png)
+
+   4 Click **Update** to save the changes.
+
 
 The same needs to be done about the products in this category:
  
-   1. Open the 'Catalog: Products' section in the Admin area.
-   
-   2. Filter the product list so it shows only the products from the category you require (the one you worked on at the previous step). This can be done by specifying the category name in the category selector (where it says 'Any Category') and clicking _**Search**_. (Figire 2)
+   1. Open the **Catalog** -> **Products** section in the Admin area.
+      
+   2. Filter the product list so it shows only the products from the category you require (the one you worked on at the previous step). This can be done by specifying the category name in the category selector (where it says 'Any Category') and clicking **Search**: 
       ![Figure 2]({{site.baseurl}}/attachments/Products.png)
 
-   3. Scroll down the product list and select 'Bulk Edit' > 'Price and Membership' (Figure 3)
+   3. Scroll down the product list and select **Bulk Edit** -> **Price and Membership**:
       ![Figure 3]({{site.baseurl}}/attachments/bulk edit.png)
       
       You will be redirected to a new page where you will be able to bulk edit product options. 
     
    4. Choose the 'Membersips' option and click to specify the membership(s) you need.
-   
-   5. Save your changes. (Figure 4)
-      ![Figure 4]({{site.baseurl}}/attachments/membership.png)
+      
+   5. Save your changes. 
+      
 
 That's all. The category and all the products in it are now hidden from any unregistered users. To be able to see this category or a product in it, a customer will need to be logged in and have a membership that we have specified as allowed to access this category/product.
 
