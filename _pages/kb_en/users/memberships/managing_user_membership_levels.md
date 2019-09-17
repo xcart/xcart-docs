@@ -37,7 +37,7 @@ For each membership level, you can see the name and the number of store users wh
     ![membership-name-user.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/membership-name-user.png)
     * If necessary, you can change the name of any membership level. To do so, click on the level name; once the level name field becomes active, make your changes and save.
     * To get a list of users with a certain membership, click on the number link in the **Users** column opposite the membership name.
-      Alternatively, you can use the 'Search for users' feature. In the **Users** > **Users** section, set a filter specifying the membership(s) you are interested in, and do a search to find users. Note that you can search by both assigned and pending memberships.
+      Alternatively, you can use the 'Search for users' feature. In the **Users** > **Users list** section, set a filter specifying the membership(s) you are interested in, and do a search to find users. Note that you can search by both assigned and pending memberships.
 
 The state of the ON/OFF button icon tells you if the membership level is currently active or disabled (Only active membership levels can be assigned to users).
     ![membership-on-off.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/membership-on-off.png)
