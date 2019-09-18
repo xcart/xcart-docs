@@ -9,6 +9,7 @@ published: true
 redirect_from:
   - >-
     /general_setup/migration/migration-from-xcart4/step-1-what-data-migrated.html
+  - /migration/migration-from-xcart4/step-1-what-data-migrated.html
 ---
 Below is the data that can be transferred by the [_X-Cart v4 to v5 Data Migration Wizard_ module](https://market.x-cart.com/addons/migration-wizard.html):
 
