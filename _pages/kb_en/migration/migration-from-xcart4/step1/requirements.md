@@ -6,6 +6,8 @@ identifier: ref_19hsx4O9
 title: 'Step 1: System Requirements for X-Cart 4 to X-Cart 5 Migration'
 order: 20
 published: true
+redirect_from:
+  - /migration/migration-from-xcart4/step-1-requirements.html
 ---
 The addon [X-Cart v4 to v5 Data Migration Wizard](https://market.x-cart.com/addons/migration-wizard.html) has the same {% link "system requirements as X-Cart 5" ref_VG5mIoLT#server-requirements %}, but since the addon runs resource-heavy processes, you need to make sure that the server will not time out them.
 
