@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-21 16:06 +0400'
 identifier: ref_32GoV7A0
-title: 'Step 1: What data is migrated?'
+title: What data is migrated?
 order: 10
 published: true
 redirect_from:
