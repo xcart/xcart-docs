@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2019-09-18 13:17 +0400'
 identifier: ref_1C23rFdB
 title: 'Step 1: Find the right environment for the migration'
-order: 100
+order: 10
 published: true
 ---
 The first step is preparation.
