@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-21 16:30 +0400'
 identifier: ref_1IAKq4cq
-title: 'Step 1: Advanced settings'
+title: Advanced settings
 order: 40
 published: true
 redirect_from:
