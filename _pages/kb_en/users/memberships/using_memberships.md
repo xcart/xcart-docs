@@ -126,29 +126,32 @@ For detailed information on the setup of special offers, refer to the section {%
 
 ## Membership-specific Taxes
 
-If some of your clients need to be given lower tax rates or have an exemption from paying the sales tax, you can adjust your store to meet this need by setting up tax rates specifically for different membership levels. 
+If some of your clients need to be given special tax rates or have an exemption from paying the sales tax, you can adjust your store to meet this need by setting up tax rates specifically for different membership levels. 
 
 To set membership-specific tax rates:
    
-   1. Go to the **Store Setup** -> **Taxes** section of your store's Admin area to set up your tax.
+   1. Go to the **Store Setup** -> **Taxes** section of your store's Admin area to set up taxes.
    
-   2. When adjusting the details of your tax, make sure the option 'Use the same tax rates for all user membership levels' is disabled.
-   
-   3. Create a new tax rate or edit an existing one specifying the required membership (Figure 6). 
+   2. When configuring taxes, make sure the option 'Use the same tax rates for all user membership levels' is disabled.
+      ![memb-taxes.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-taxes.png)
+
+   3. Create a new tax rate or edit an existing one specifying the required membership. 
    
    4. Be sure to save your changes. 
-   ![Fig 6]({{site.baseurl}}/attachments/tax.png)
+   
 
-The detailed description of the tax configuration process is available in the section {% link "Setting up Sales Tax" ref_aJPK4DHN %} of this manual.
+The detailed description of the tax configuration process is available in the section {% link "Taxes" ref_210i08zr %} of this manual.
 
 ## Membership-specific Payment Methods
 
 With the addon [Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html) you will be able to give additional payment options to certain groups of customers in your store; for example, to enable PayPal Express Checkout for wholesale buyers only. 
 
-To enable the feature, install the addon 'Memberships for payment methods' first as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}. Once the addon has been installed, a special 'Memberships' field will appear under each payment method in the 'Store Setup: Payment Methods' section of your store's Admin area (Figure 11).
+To enable the feature, install the addon 'Memberships for payment methods' first as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}. 
+
+Once the addon has been installed, a special 'Memberships' field will appear under each payment method in the 'Store Setup: Payment Methods' section of your store's Admin area.
    ![Fig 11]({{site.baseurl}}/attachments/payment.png)
 
-You'll need to use this field to specify the membership to which the payment method should be available (Figure 12). At checkout your customers will be able to see only the payment methods available to their membership group.
+You'll need to use this field to specify the membership the payment method should be available to. At checkout your customers will be able to see only the payment methods available to their membership group.
    ![Fig 12]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 16.16.45.png)
 
 
@@ -162,21 +165,21 @@ To create a paid membership:
 
    1. If you haven't yet done so, add the membership that you wish to offer to your customers as a paid one.
    
-   2. Go to the '**Catalog** > **Products**' section of your store's Admin area and choose to add a new product (Figure 12).
+   2. Go to the '**Catalog** > **Products**' section of your store's Admin area and choose to add a new product.
       ![Fig 12]({{site.baseurl}}/attachments/add_product.png)
       
    3. On the page that opens, specify the product details as you require; for example, name, SKU, description, etc. - just like any regular product in your store. 
    
-   4. To turn the product into a paid membership, use the setting **Membership to assign to product purchaser** to specify the membership that your customers will be able to get by purchasing the current product (Figure 13) and set the period for which the membership will be granted by adjusting the setting **Membership duration** (Figure 14).
+   4. To turn the product into a paid membership, use the setting **Membership to assign to product purchaser** to specify the membership that your customers will be able to get by purchasing the current product and set the period for which the membership will be granted by adjusting the setting **Membership duration**.
       ![Fig 13]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.27.png)
       ![Fig 14]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.51.png)
       
-   5. If necessary you can enable your existing members to purchase this membership at a special price and get a level up. The membership price for existing members can be adjusted via the **Prices & Inventory** section (Figure 15). 
+   5. If necessary you can enable your existing members to purchase this membership at a special price and get a level up. The membership price for existing members can be adjusted via the **Prices & Inventory** section. 
       ![Fig 15]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.37.44.png)
 
    6. Save the changes.
 
-Once created, the paid membership will become available for sale and your customers will be able to purchase it (Figure 16).
+Once created, the paid membership will become available for sale and your customers will be able to purchase it.
    ![Fig 16]({{site.baseurl}}/attachments/product.png)
 
 If anonymous checkout is enabled in the store, and a buyer of premium membership access chooses to check out without creating an account, the membership will not be assigned to that buyer automatically until an account  is created for them. The store administrator will be notified of such orders with an "action required" warning. 
