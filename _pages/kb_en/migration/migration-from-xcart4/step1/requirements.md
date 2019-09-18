@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-20 16:45 +0400'
 identifier: ref_19hsx4O9
-title: 'Step 1: System Requirements for X-Cart 4 to X-Cart 5 Migration'
+title: System Requirements for X-Cart 4 to X-Cart 5 Migration
 order: 20
 published: true
 redirect_from:
