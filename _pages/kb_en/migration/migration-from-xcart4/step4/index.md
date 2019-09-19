@@ -5,7 +5,7 @@ updated_at: '2019-09-19 11:27 +0400'
 identifier: ref_2c9QNlDx
 title: 'Step 4: Replace your production store with X-Cart 5'
 order: 40
-published: false
+published: true
 ---
 Once your test store has been perfectly set up, all the functionality matched and the data transferred, it is time to plan switching your production store to X-Cart 5.
 
