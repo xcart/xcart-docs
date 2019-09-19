@@ -14,3 +14,9 @@ You need to make sure that your current server is {% link "compatible with X-Car
 Once you decide what server to use for the migration, {% link "install X-Cart 5" ref_VG5mIoLT %} there.
 
 Besides, you may want to check {% link "what data can be migrated" ref_32GoV7A0 %} by the _X-Cart v4 to v5 Data Migration Wizard_ addon and learn about the {% link "advanced settings" ref_1IAKq4cq %} of this addon.
+
+_In this section:_
+*   {% link "What data is migrated?" ref_32GoV7A0 %}
+*   {% link "System Requirements for X-Cart 4 to X-Cart 5 Migration" ref_19hsx4O9 %}
+*   {% link "Does X-Cart 5 have to be on the same server?" ref_1i0r1QYO %}
+*   {% link "Advanced settings" ref_1IAKq4cq %}
