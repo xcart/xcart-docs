@@ -5,7 +5,7 @@ updated_at: '2019-09-20 11:42 +0400'
 identifier: ref_56ZrgCGO
 title: 'Step 5: Monitor your store performance after the migration'
 order: 50
-published: false
+published: true
 ---
 After putting X-Cart 5 as your production store, be sure to monitor its performance via [Google Analytics](https://analytics.google.com/analytics/web/) and [Google Search Console](https://search.google.com/search-console).
 
