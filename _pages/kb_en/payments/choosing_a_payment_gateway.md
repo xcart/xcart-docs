@@ -8,13 +8,13 @@ order: 100
 published: true
 ---
 ## Overview
-A payment gateway is an essential part of your online strategy. Popular shopping carts are compatible with a great variety of payment systems widely known as payment gateways. But how can you choose the one that is right for you? You do not have the luxury of rectifying a wrong decision. Apart from the cost of the service, you stand to lose out much more - customers, orders, fraud related losses, integration time, time to market etc.
+A payment gateway is an essential part of your online strategy. X-Cart is compatible with a great variety of payment gateways. But how can you choose the one that is right for you? You do not have the luxury of rectifying a wrong decision. Apart from the cost of the service, you stand to lose out much more - customers, orders, fraud related losses, integration time, time to market etc.
 On the stage of getting your online store live, you will likely face the problem of accepting credit card payments from your customers. It is the most common and convenient payment method available over the Internet. To be able to accept credit card payments at your X-Cart based online store, you will need to subscribe to the service of a payment gateway which will process credit cards for you. Payment gateway service is available from such companies as Authorize.NET, PayPal, WorldPay, 2CheckOut and some others.
 There are several significant benefits when using this type of service:
 
 *   Most payment gateways have a sophisticated fraud protection mechanism that helps to avoid most chargebacks from the customers whose credit card might have been stolen by hackers.
 *   The process is fully automated so you can save a vast amount of time if you have many orders.
-*   Some payment gateways like 2CheckOut enable you to accept credit cards even if you do not have an internet merchant account (It may be difficult to obtain a merchant account if you have just started a business and haven't got a positive credit history yet).
+*   Some payment gateways like 2CheckOut enable you to accept credit cards even if you do not have an internet merchant account (It may be difficult to obtain a merchant account if you have just started a business and have not got a positive credit history yet).
 
 ## Choice Criteria
 
@@ -23,7 +23,7 @@ Some important initial questions you should ask of any potential vendor of billi
 
 *   How long has the company been in business?
 *   What is the history of the company?
-*   How long has the particular features package you're interested in been on the market?
+*   How long has the particular features package you are interested in been on the market?
 *   How many and what types of Web services use their software?
 *   Are client references available for you to call?
 *   Is a demo version of the software available?
@@ -124,6 +124,6 @@ If your store is already established, with a clear projection of sales levels, y
 _See also:_
 
 *   [List of payment gateways integrated with X-Cart](https://www.x-cart.com/ecommerce-solutions.html#section_payment)
-*   [List of X-Cart 5 payment integration addons](https://market.x-cart.com/addons/payment-processing/?filter[edition]=all&filter[priceType]=all&filter[sortBy]=p.arrivalDate)
+*   [X-Cart App Store](https://market.x-cart.com/addons/)
 *   {% link "Accepting payments" ref_Jq6Bsdrt %}
-*   {% link "PayPal" ref_g8OosGK4 %}
+
