@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2019-05-21 16:43 +0400'
 identifier: ref_00LtsZrX
 title: 'Step 3: Migration checklist '
-order: 70
+order: 30
 published: true
 redirect_from:
   - /general_setup/migration/migration-from-xcart4/step-3-checklist.html
