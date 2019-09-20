@@ -33,6 +33,12 @@ Here's an overview of the variables supported in X-Cart store email notification
    * ```%order_link%```	- Link to the order details
    * ```%order_messages_link%``` - Link to the conversation between the customer and the vendor/administrator regarding a specific order. (Communication between customer and vendor/administrator users is enabled by the Messages addon.) 		
    * ```%message%``` - Message (enabled by the Messages addon.) 
+   
+Variables added starting from X-Cart 5.4.x
+   * `%customer_name%` - A name of a customer.
+   * `%shipping_method_name%` - A name of the shipping method used to place an order.
+   * `%payment_method_name%` - A name of the payment method used to place an order.
+   * `%notification_body%` - A placeholder for notification content, if not used the content is added to the end.
 
  
 
