@@ -17,7 +17,6 @@ redirect_from:
   - general_setup/migration/migration-from-xcart4-to-xcart5.html
   - /general_setup/migration/migration-from-xcart4/
 ---
-## Introduction
 
 This article describes how you can upgrade your existing X-Cart 4 store to X-Cart 5.
 
@@ -40,4 +39,4 @@ _In this section:_
 *   {% link "Step 2: Perform the initial data migration" ref_5IyEU6KK %}
 *   {% link "Step 3: Migration checklist " ref_00LtsZrX %}
 *   {% link "Step 4: Replace your production store with X-Cart 5" ref_2c9QNlDx %}
-*   
+*   {% link "Step 5: Monitor your store performance after the migration" ref_56ZrgCGO %}
