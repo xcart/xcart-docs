@@ -6,6 +6,8 @@ identifier: ref_1qTqS245
 title: Editing Email Notifications
 order: 110
 published: true
+redirect_from:
+  - /general_setup/email_notifications/edit_text.html
 ---
 Email notifications can be edited via the **Store setup** -> **Email notifications** section of the Admin area.
 
