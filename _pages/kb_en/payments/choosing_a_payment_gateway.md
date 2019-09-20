@@ -49,9 +49,8 @@ Of course, the disadvantage is a less attractive commission rate, usually betwee
 On our website, you can find a list of popular payment gateway integrations for X-Cart 5:
    * [List of payment gateways integrated with X-Cart](https://www.x-cart.com/ecommerce-solutions.html#section_payment)
    
-Or you can search for some ready-to-use X-Cart 5 payment processing integrations in our Marketplace:
-   * [List of X-Cart 5 payment integration addons](https://market.x-cart.com/addons/payment-processing/?filter[edition]=all&filter[priceType]=all&filter[sortBy]=p.arrivalDate)
-   
+Or you can search for some ready-to-use X-Cart 5 payment processing integrations in the [X-Cart App Store](https://market.x-cart.com/addons/).
+
 Choose the integration that looks good for your needs and contact the payment gateway reps directly to create a merchant account. Can’t find your payment gateway in this list? Email us at support@x-cart.com.
 
 ### Integration, Customization and Branding
