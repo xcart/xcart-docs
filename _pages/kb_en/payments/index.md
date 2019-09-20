@@ -11,17 +11,21 @@ icon: payment
 description: Enable payment methods to accept payments from buyers
 published: true
 ---
-Getting paid is one of the most important functions of any business. Understanding the payment process is an important step towards getting paid by your customers. All of X-Cart supported payment methods rely on third-party providers to process your transactions. These providers may charge extra fees, as well as enforce rules about what products you can sell using their service. Each merchant should consider these factors as well as the countries where the business is located and where customers live and many other criteria when choosing a payment gateway. 
+Getting paid is one of the most important functions of any business. Before you can get paid by your customers, you need to understand how payments are made in X-Cart. All of X-Cart supported payment methods rely on third-party providers to process your transactions. These providers may charge extra fees, as well as enforce rules about what products you can sell using their service. Each merchant should consider these factors as well as the countries where the business is located and where customers live and many other criteria when choosing a payment gateway. 
 
 *   {% link "Choosing a Payment Gateway" ref_CT7rXfVw %}
 
-After deciding what payment processor(s) you are going to use, you can proceed to configuring the respective payment methods in your X-Cart store. General information on how to configure and manage your payment methods can be found here:
+On our website, you can find a list of popular payment gateway integrations for X-Cart 5:
+
+* [List of payment gateways integrated with X-Cart](https://www.x-cart.com/ecommerce-solutions.html#section_payment)
+
+It is possible to use more than one payment integrations so your customers have a choice of payment options at checkout. 
+
+After deciding what payment processors you are going to use, you can proceed to configuring the respective payment methods in your X-Cart store. General information on how to configure and manage your payment methods can be found here:
 
 *   {% link "Accepting Payments" ref_Jq6Bsdrt %}
 
-It is possible to enable more than one payment methods in X-Cart so your customers have a choice of payment options at checkout. 
-
-Below are the most popular payment processors supported by X-Cart:
+Listed below are links to our help articles for some of the most popular payment solutions supported by X-Cart:
 
 *   {% link "PayPal" ref_g8OosGK4 %}
 *   {% link "Braintree" ref_3U96LOWn %}
