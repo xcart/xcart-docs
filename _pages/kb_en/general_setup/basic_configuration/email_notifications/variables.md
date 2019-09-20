@@ -38,7 +38,7 @@ Variables added starting from X-Cart 5.4.x
    * `%customer_name%` - A name of a customer.
    * `%shipping_method_name%` - A name of the shipping method used to place an order.
    * `%payment_method_name%` - A name of the payment method used to place an order.
-   * `%notification_body%` - A placeholder for notification content, if not used the content is added to the end.
+   * `%notification_body%` - Зlaceholder for notification content, if not used the content is added to the end.
 
  
 
