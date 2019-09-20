@@ -17,11 +17,11 @@ Understanding the payment process is an important step toward getting paid by yo
 
 *   {% link "Choosing a Payment Gateway" ref_CT7rXfVw %}
 
-When a choice of a payment processor is made it's time to proceed to the payment gateway configuration in your X-Cart admin backend. 
+After a choice of a payment processor has been made, it is time to proceed to the payment gateway configuration in your X-Cart store Admin backend. 
 
 *   {% link "Accepting Payments" ref_Jq6Bsdrt %}
 
-You can enable different payment methods in X-Cart so that your customers have a choice of payment options at checkout. Below are the most popular payment processors supported by X-Cart:
+You can enable different payment methods in X-Cart so your customers have a choice of payment options at checkout. Below are the most popular payment processors supported by X-Cart:
 
 *   {% link "PayPal" ref_g8OosGK4 %}
 *   {% link "Braintree" ref_3U96LOWn %}
@@ -33,7 +33,17 @@ You can enable different payment methods in X-Cart so that your customers have a
 *   {% link "Stripe" ref_1SRSOBWa %}
 *   {% link "Square" ref_5kZcVsK7 %}
 
-You can get even [more payment options](https://www.x-payments.com/help/X-Payments:Payment_gateways_supported_by_X-Payments_3.1 "Payments") for checkout if using X-Payments, a platform by a PCI DSS Level 1 certified service provider that is intended for merchants who need to accept credit card payments online and who require compliance with the PCI DSS standard. 
+You can get even more payment options for checkout by using X-Payments. X-Payments is a platform by a PCI DSS Level 1 certified service provider that is intended for merchants who need to accept credit card payments online and who require compliance with the PCI DSS standard. A full list of payment methods supported by X-Payments can be found here:
 
-*   {% link "X-Payments Connector" ref_NaZh0d1b %}
-*   {% link "X-Payments Subscriptions" ref_8VFoqBFZ %}
+*   [Payment gateways supported by X-Payments](https://www.x-payments.com/help/X-Payments:Payment_gateways_supported_by_X-Payments_3.1)
+
+To use X-Payments with your X-Cart store, you will need the following addons:
+
+* X-Payments v1.x-3.x:
+
+  * {% link "X-Payments v1.x-3.x connector" ref_NaZh0d1b %}
+  * {% link "X-Payments Subscriptions" ref_8VFoqBFZ %}
+  
+* X-Payments Cloud:
+ 
+  * [X-Payments Cloud connector](https://market.x-cart.com/addons/x-payments-cloud.html)
