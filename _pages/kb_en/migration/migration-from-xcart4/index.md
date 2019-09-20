@@ -18,21 +18,16 @@ redirect_from:
   - /general_setup/migration/migration-from-xcart4/
 ---
 
-This article describes how you can upgrade your existing X-Cart 4 store to X-Cart 5.
+In case you are an existing X-Cart 4 store based owner and want to upgrade it to X-Cart 5 you can do it using a special [X-Cart v4 to v5 Data Migration Wizard](https://market.x-cart.com/addons/migration-wizard.html). This wizard is aimed at helping a store owner to migrate data from an X-Cart 4 based store to X-Cart 5. Besides that it will be necessary to {% link "install a fresh X-Cart 5 store" ref_VG5mIoLT %} beforhand and re-implement any possible custom features manually afterwards. 
 
-[General overview of upgrade options on x-cart.com](https://www.x-cart.com/x-cart-migration.html).
+Basically, a store owner has three possible routes to do the upgrade:
+1. Do the upgrade on their own (DIY option);
+2. Hire X-Cart Team to perform the upgrade (Professional and Custom options);
+3. Hire a 3rd party company to perform the upgrade (DIY option + whatever agreement a store owner comes up with 3rd party).
 
-Basically, you have three routes:
-1. You can perform the upgrade yourself (DIY option);
-2. You can hire X-Cart team to perform the upgrade for you (Professional and Custom options);
-3. You can hire 3rd party to perform the upgrade for you (DIY option + whatever agreement you come up with 3rd party).
+You can check the detailed description of each option on our web-site [x-cart.com](https://www.x-cart.com/x-cart-migration.html).
 
-This article describes how one can perform the data migration process themselves using [X-Cart v4 to v5 Data Migration Wizard module](https://market.x-cart.com/addons/migration-wizard.html).
-
-If you also need to transfer custom data and custom functionality, there is no guide for that. 
-Custom functionality has to be re-implemented to X-Cart 5 and you can either do that yourself, hire 3rd party or [hire our development team](https://www.x-cart.com/contact-us.html) for this task.
-
-The same applies to the custom data.
+If you have decided to do the upgrade on your own, follow the steps below:
 
 _In this section:_
 *   {% link "Step 1: Find the right environment for the migration" ref_1C23rFdB %}
