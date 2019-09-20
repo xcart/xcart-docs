@@ -41,8 +41,8 @@ To use X-Payments with your X-Cart store, you will need the following addons:
 
 * X-Payments v1.x-3.x:
 
-  * {% link "X-Payments v1.x-3.x connector" ref_NaZh0d1b %}
-  * {% link "X-Payments Subscriptions" ref_8VFoqBFZ %}
+  * [X-Payments v1.x-3.x connector](https://market.x-cart.com/addons/xpayments-connector.html) (See {% link "manual" ref_NaZh0d1b %})
+  * [X-Payments Subscriptions](https://market.x-cart.com/addons/x-payments-subscriptions-and-installements.html) (See {% link "manual" ref_8VFoqBFZ %})
   
 * X-Payments Cloud:
  
