@@ -18,7 +18,7 @@ redirect_from:
   - /general_setup/migration/migration-from-xcart4/
 ---
 
-In case you are an existing X-Cart 4 store based owner and want to upgrade it to X-Cart 5 you can do it using a special [X-Cart v4 to v5 Data Migration Wizard](https://market.x-cart.com/addons/migration-wizard.html). This wizard is aimed at helping a store owner to migrate data from an X-Cart 4 based store to X-Cart 5. Besides that it will be necessary to {% link "install a fresh X-Cart 5 store" ref_VG5mIoLT %} beforhand and re-implement any possible custom features manually afterwards. 
+In case you are an existing X-Cart v4 (aka XC4) store based owner and want to upgrade it to X-Cart v5 (aka XC5) you can do it using a special [X-Cart v4 to v5 Data Migration Wizard](https://market.x-cart.com/addons/migration-wizard.html). This wizard is aimed at helping a store owner to migrate data from an XC4 based store to XC5. Besides that it will be necessary to {% link "install a fresh X-Cart 5 store" ref_VG5mIoLT %} beforhand and re-implement any possible custom features manually afterwards. 
 
 Basically, a store owner has three possible routes to do the upgrade:
 1. Do the upgrade on their own (DIY option);
@@ -27,7 +27,7 @@ Basically, a store owner has three possible routes to do the upgrade:
 
 You can check the detailed description of each option on our web-site [x-cart.com](https://www.x-cart.com/x-cart-migration.html).
 
-If you have decided to do the upgrade on your own, follow the steps below:
+If you have decided to do the XC4 -> XC5 upgrade on your own, follow the steps below:
 
 _In this section:_
 *   {% link "Step 1: Find the right environment for the migration" ref_1C23rFdB %}
