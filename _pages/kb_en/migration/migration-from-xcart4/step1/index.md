@@ -19,14 +19,17 @@ The preparation step includes:
   
   In case your current server needs enhancements either in properties or disk space or even both make sure you upgrade the current server or find a new better one or perform the upgrade on your local machine if it suits the requirements.
 
-* installing a fresh X-Cart 5 based store.
+* installing a fresh X-Cart 5 based store as described in the {% link "Installation Guide" ref_VG5mIoLT %}.
 
 * fine-tuning X-Cart 5 advanced settings for a smooth migration process.
+
+All the preparation steps are described in details in the guides of this section.
 
 _In this section:_
 *   {% link "What data is migrated?" ref_32GoV7A0 %}
 *   {% link "System Requirements for X-Cart 4 to X-Cart 5 Migration" ref_19hsx4O9 %}
 *   {% link "Does X-Cart 5 have to be on the same server?" ref_1i0r1QYO %}
+*   {% link "Installation Guide" ref_VG5mIoLT %}
 *   {% link "Advanced settings" ref_1IAKq4cq %}
 
 _Read on:_
