@@ -9,37 +9,41 @@ published: true
 redirect_from:
   - /look_and_feel/managing_skins/skins_from_marketplace.html
 ---
-The [X-Cart App Store](https://market.x-cart.com/ecommerce-templates/) offers over 70 skin to your choice that you can obtain and use for your site.
+The [X-Cart App Store](https://market.x-cart.com/ecommerce-templates/) offers over 70 design templates (skins) that you can obtain and use for your X-Cart store site.
+
+You can access X-Cart's template store at any time by clicking on the <u>Visit the template store</u> link in the **Layout** section of your store's Admin area (**Look & Feel** -> **Layout**).
+![visit-template-store.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/visit-template-store.png)
+
+You will be redirected to the X-Cart App Store where you can find and purchase a skin you like.
 
 The steps involved in installing a skin from the X-Cart App Store are similar to the ones described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
 
-To install a skin from the X-Cart App Store, you will need to:
+Before you start, you need to purchase the skin you require and make sure you have a license key code for it. Have this key code at the ready so you can copy and paste it when required.
 
-1. Open the **Layout** section of the Admin area (**Look & Feel** -> **Layout**).
+To install the skin:
 
-2. Click the **Activate purchased skin** button (if the skin is already paid):
-   ![activate-license.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/activate-license.png)
+1. In your X-Cart store Admin area, go to the section **Layout** (**Look & Feel** -> **Layout**).
 
-3. Enter your license key into the appropriate field and click **Activate**: 
+2. Click the **Activate purchased skin** button:
+   ![activate_purchased_skin.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/activate_purchased_skin.png)
+
+3. Enter your license key code into the appropriate field and click **Activate**: 
    ![enter-license-key.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/enter-license-key.png)
    
-   * Provided that the submitted license key is valid, X-Cart will start downloading the skin:
-     ![installing-updates.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/installing-updates.png)
+   Provided that the submitted license key code is valid, X-Cart will start downloading the skin:
+   ![installing-updates.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/installing-updates.png)
      
-     Once the new skin has been downloaded, it's added to the list of the skins available for installation in the **Choose a new template** section of the page.
+   Once the download process has been completed, the new skin will be added to the list of skins available for installation in your store. (You will see it in the section **Choose a new template**).
    
-4. Choose the skin from the list of available (the new skin is marked with blue, while the current one is marked with ogange) and click **Submit** to apply it to the storefront:
+4. Select the skin that you need to install and click **Submit**:
    ![submit-new-skin.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/submit-new-skin.png)
    
-   * The process is likely to take a few minutes. Take care not to close the page before the process has been fully completed.
-     ![skin-is-installing.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/skin-is-installing.png)
+   The process is likely to take a few minutes. Take care not to close the page before the process has been fully completed.
+   ![skin-is-installing.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/skin-is-installing.png)
      
-     Once the skin installation has been completed, a confirmation message will be displayed at the top of the screen.
+   Once the skin installation has been completed, a confirmation message will be displayed at the top of the screen.
 
 5. That is all. Your new skin has been installed.
    ![current-skin.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/current-skin.png)
 
-In case you haven't purchased a skin as yet and need to choose one, use the Visit the template store link in the **Choose a new template** section of the **Layout** page (**Look & Feel** -> **Layout**):
-![visit-template-store.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/visit-template-store.png)
 
-You will be redirected to the X-Cart App Store where you can find and purchase a skin you like.
