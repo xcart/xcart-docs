@@ -13,7 +13,7 @@ Before you start making a back up copy of your store, make sure of the following
 
 * You have enough free disk space on your server or hosting account where your store is installed.
   {% note info %}
-  If you do not have enough free disk space, try to remove the files that you do not longer use or move them to another location.
+  If you do not have enough free disk space, try to remove the files that you no longer use or move them to another location.
   {% endnote %}
 
 * You can access your server or hosting account using one of these options: terminal SSH or Telnet access, FTP, remote desktop (available for Windows-based servers only), your hosting control panel.
