@@ -41,3 +41,7 @@ ADDITIONAL CONFIGURATION:
 - Make sure you filled in your store SEO information in the **Store setup** -> **SEO settings** section in the Admin area of your X-Cart 5 based store (see {% link "SEO Health Check" ref_0caJtxHh %} for details).
 
 A thorough check-up of a newly installed XC5 store with the data migrated to if from your old XC4 store is required but not limited to the points mentioned above. You may need to review the rest of your new XC5 store before making the final switch depending on what functionality is heavily used by your clients.
+
+_Read on:_
+*   {% link "Step 4: X-Cart 5 Goes Live" ref_2c9QNlDx %}
+*   {% link "Step 5: Performance Check-up" ref_56ZrgCGO %}
