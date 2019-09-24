@@ -17,7 +17,7 @@ The preparation step includes:
 
 * checking the current server for compatibility with {% link "XC5 system requirements" ref_3olOLKdu %} and for enough disk space to run 2 X-Cart stores at a time. 
   
-  In case your current server needs enhancements either in properties or disk space or even both make sure you upgrade the current server or find a new better one or perform the upgrade on your local machine if it suits the requirements.
+  In case your current server needs enhancements either in properties or in disk space or even in both make sure to upgrade the current server or find a new better one or perform the upgrade on your local machine if it suits the requirements.
 
 * installing a fresh X-Cart 5 based store as described in the {% link "Installation Guide" ref_VG5mIoLT %}.
 
