@@ -9,7 +9,7 @@ published: true
 redirect_from:
   - /general_setup/migration/migration-from-xcart4/step-3-checklist.html
 ---
-The thrid step of your X-Cart v4 based store upgrade to v5 is the new X-Cart 5 store check-up.
+The third step of your X-Cart v4 based store upgrade to v5 is the new X-Cart 5 store check-up.
 
 Below is a basic checklist to make sure everything has been migrated correctly from your old XC4 store and your new XC5 store is ready to go live. 
 
