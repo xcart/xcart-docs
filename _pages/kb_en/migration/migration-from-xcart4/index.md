@@ -30,8 +30,8 @@ You can check the detailed description of each option on our web-site [x-cart.co
 If you have decided to do the XC4 -> XC5 upgrade on your own, follow the steps below:
 
 _In this section:_
-*   {% link "Step 1: Find the right environment for the migration" ref_1C23rFdB %}
-*   {% link "Step 2: Perform the initial data migration" ref_5IyEU6KK %}
+*   {% link "Step 1: Migration Environment" ref_1C23rFdB %}
+*   {% link "Step 2: Initial Data Migration" ref_5IyEU6KK %}
 *   {% link "Step 3: Migration checklist " ref_00LtsZrX %}
-*   {% link "Step 4: Replace your production store with X-Cart 5" ref_2c9QNlDx %}
-*   {% link "Step 5: Monitor your store performance after the migration" ref_56ZrgCGO %}
+*   {% link "Step 4: X-Cart 5 Goes Live" ref_2c9QNlDx %}
+*   {% link "Step 5: Performance Check-up" ref_56ZrgCGO %}
