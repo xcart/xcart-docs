@@ -114,12 +114,12 @@ By using these addons, you will be able to provide the following special offers 
 - Spend a certain amount in specified categories to get a discount on M of the items bought from these categories (the cheapest ones).
 
 To configure the offers, you will need to have the corresponding addons installed as described in  {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}. Once the addons are installed, the features will become available in the **Discounts** -> **Special Offers** section of your store Admin area.
-   ![Fig 9]({{site.baseurl}}/attachments/so.png)
+   ![memb-offers.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-offers.png)
 
-To create an offer that will be available only to members:
+To create an offer that will be available only to site-members:
    1. Start creating a special offer specifying all the necessary offer details as described in the section {% link "Special Offers" ref_special_offers %} in this manual. 
-   2. In the 'Conditions' section of the special offer details, specify the membership level(s) the offer should be available to. This can be done via the 'Eligible membership levels' field (Figure 10).
-   ![Fig 10]({{site.baseurl}}/attachments/conditions.png)
+   2. In the 'Conditions' section of the special offer details, specify the membership level(s) the offer should be available to. This can be done via the 'Eligible membership levels' field.
+      ![memb-offers-conditions.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-offers-conditions.png)
    3. Save your changes.
    
 For detailed information on the setup of special offers, refer to the section {% link "Special Offers" ref_special_offers %} in this manual.
