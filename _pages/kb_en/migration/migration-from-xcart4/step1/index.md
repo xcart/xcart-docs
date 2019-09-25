@@ -20,6 +20,10 @@ The preparation step includes:
   In case your current server needs enhancements either in properties or in disk space or even in both make sure to upgrade the current server or find a new better one or perform the upgrade on your local machine if it suits the requirements.
 
 * installing a fresh X-Cart 5 based store as described in the {% link "Installation Guide" ref_VG5mIoLT %}.
+  
+  {% note info %}
+  Do not apply any customizations to X-Cart 5 before running the migration process and also make sure to remove all demo data from the installation. You can remove existing data from X-Cart via **System tools** -> **Remove data** section of your X-Cart 5 Admin area.
+  {% endnote %}
 
 * fine-tuning X-Cart 5 advanced settings for a smooth migration process.
 
