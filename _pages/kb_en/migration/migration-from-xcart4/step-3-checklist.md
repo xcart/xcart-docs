@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-21 16:43 +0400'
 identifier: ref_00LtsZrX
-title: 'Step 3: Migration checklist '
+title: 'Step 3: Migration Checklist '
 order: 30
 published: true
 redirect_from:
