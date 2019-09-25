@@ -30,14 +30,14 @@ The preparation step includes:
 All the preparation steps are described in details in the guides of this section.
 
 _In this section:_
-*   {% link "What data is migrated?" ref_32GoV7A0 %}
+*   {% link "What Data Is Migrated?" ref_32GoV7A0 %}
 *   {% link "System Requirements for X-Cart 4 to X-Cart 5 Migration" ref_19hsx4O9 %}
-*   {% link "Does X-Cart 5 have to be on the same server?" ref_1i0r1QYO %}
+*   {% link "Does X-Cart 5 Have to Be On the Same Server?" ref_1i0r1QYO %}
 *   {% link "Installation Guide" ref_VG5mIoLT %}
-*   {% link "Advanced settings" ref_1IAKq4cq %}
+*   {% link "Advanced Settings" ref_1IAKq4cq %}
 
 _Read on:_
 *   {% link "Step 2: Initial Data Migration" ref_5IyEU6KK %}
 *   {% link "Step 3: Migration Checklist " ref_00LtsZrX %}
 *   {% link "Step 4: X-Cart 5 Goes Live" ref_2c9QNlDx %}
-*   {% link "Step 5: Performance Check-up" ref_56ZrgCGO %}
+*   {% link "Step 5: Performance Check-Up" ref_56ZrgCGO %}
