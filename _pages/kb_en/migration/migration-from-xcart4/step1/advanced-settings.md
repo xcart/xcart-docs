@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-05-21 16:30 +0400'
 identifier: ref_1IAKq4cq
-title: Advanced settings
+title: Advanced Settings
 order: 40
 published: true
 redirect_from:
@@ -42,15 +42,4 @@ If the `<X-Cart>/etc/config.local.php` file does not exist in your X-Cart 5 stor
 ; WARNING: Do not change the line below
 ; */ ?>
 ```
-{% endnote %}
-
-{% note info %}
-Do not apply any customizations to X-Cart 5 before running the migration process and also make sure to remove all demo data from the installation. You can remove existing data from X-Cart via _System tools > Remove data_ section in your admin area.
-{% endnote %}
-
-{% note info %}
-If you are not able to install _X-Cart v4 to v5 Data Migration Wizard_ module from the marketplace and see the following warning message:
-![xc5_mw_module.png]({{site.baseurl}}/attachments/ref_KqsCJNRG/xc5_mw_module.png)
-
-Please make sure to install [Order import module](https://market.x-cart.com/addons/orders-import.html) first and then try to install _X-Cart v4 to v5 Data Migration Wizard_ module again.
 {% endnote %}
