@@ -15,6 +15,13 @@ PREREQUISITES:
 1. Make sure the migration environment is prepared as described in {% link "Step 1: Migration environment" ref_1C23rFdB %}.
 2. Make sure a fresh X-Cart 5 software is installed as described in the {% link "Installation Guide" ref_VG5mIoLT %}.
 3. Make sure the addon {% link "XC4 to XC5 Migration Wizard" ref_enOvcLbO %} is installed and enabled.
+   {% note info %}
+   If you are not able to install _X-Cart v4 to v5 Data Migration Wizard_ module from the marketplace and see the following warning message:
+   ![xc5_mw_module.png]({{site.baseurl}}/attachments/ref_KqsCJNRG/xc5_mw_module.png)
+   
+   Please make sure to install [Order import module](https://market.x-cart.com/addons/orders-import.html) first and then try to install _X-Cart v4 to v5 Data Migration Wizard_ module again.
+   {% endnote %}
+
 {% endnote %}
 
 Initial data migration is performed with the help of the  {% link "XC4 to XC5 Migration Wizard" ref_enOvcLbO %} that is installed on a fresh X-Cart 5 store. The data migration will cover all the data specified in the {% link "What data is migrated?" ref_32GoV7A0 %} guide of this manual.
