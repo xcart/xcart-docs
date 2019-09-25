@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-09-19 11:27 +0400'
 identifier: ref_2c9QNlDx
-title: 'Step 4: Replace your production store with X-Cart 5'
+title: 'Step 4: X-Cart 5 Goes Live'
 order: 40
 published: true
 ---
