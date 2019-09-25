@@ -24,7 +24,7 @@ If you have a large database and want to get an idea of how your data will fit i
 All the data migration steps are described in details in the guides of this section.
 
 _In this section:_
-*   {% link "Data migration process" ref_2nzbe2Ce %}
+*   {% link "Data Migration Process" ref_2nzbe2Ce %}
 *   {% link "Demo Migration" ref_1tEH4GGT %}
 
 _Read on:_
