@@ -11,6 +11,12 @@ redirect_from:
 ---
 The third step of your X-Cart v4 based store upgrade to v5 is the new X-Cart 5 store check-up.
 
+{% note warning %}
+PREREQUISITES:
+1. Make sure the data migration has been completed successfully (see {% link "Data Migration Process" ref_2nzbe2Ce %} for more details).
+2. Make sure any data and configuration settings not included into automatical data migration via {% link "XC4 to XC5 Migration Wizard" ref_enOvcLbO %} has been transferred manually (see {% link "What data is migrated?" ref_32GoV7A0 %} for details).
+{% endnote %}
+
 Below is a basic checklist to make sure everything has been migrated correctly from your old XC4 store and your new XC5 store is ready to go live. 
 
 Go through it and make sure that each functionality works properly.
