@@ -5,7 +5,7 @@ updated_at: '2019-09-26 11:26 +0400'
 identifier: ref_3gBwZ1JH
 title: Updating the price of products with options configured using price modifiers
 order: 110
-published: false
+published: true
 ---
 Now let us consider another case - when you use {% link "multi-value attributes" ref_bTfJ9bTS#multi-value-attributes-product-options %} for some of your products, and set the price on the specific product options by adjusting the base product price with {% link "price modifiers" ref_bTfJ9bTS#price-and-weight-modifiers %}. Let us imagine that you have a product SKU 10001 "Planet Express Babydoll", which is a t-shirt. The t-shirt is available in the sizes S-M-L-XL. The base price of the product is set at $9.99, and this price applies to the sizing options S, M and L, whereas the price on the XL option equals "base price + $2":
 
