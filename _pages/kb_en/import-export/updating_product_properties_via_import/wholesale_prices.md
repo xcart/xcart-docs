@@ -5,7 +5,7 @@ updated_at: '2019-09-26 11:30 +0400'
 identifier: ref_0cjIw7VB
 title: Updating the price of products with wholesale prices
 order: 130
-published: false
+published: true
 ---
 Let us imagine that you have installed the addon **Wholesale** and wish to set wholesale prices for your products that will be applied depending on the membership level of the buyer and the number of product units being ordered. You can, of course, do so by editing the details of each of your products - via the Wholesale pricing section of the product details. On large product numbers, it is, however, more convenient to set wholesale prices using the import/export feature. Let us show how it can be done. For example, you have a product SKU 10001 "Planet Express Babydoll" priced at $9.99, and you want to set the following wholesale pricing tiers for it:
 
