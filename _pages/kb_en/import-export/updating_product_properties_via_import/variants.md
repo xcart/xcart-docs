@@ -5,7 +5,7 @@ updated_at: '2019-09-26 11:28 +0400'
 identifier: ref_7rsa9nAo
 title: Updating the price and quantity of product variants
 order: 120
-published: false
+published: true
 ---
 Now let's see how to update the prices and stock quantities of product variants. Let us imagine that you have a product SKU 10000 "Binary Mom", which is a t-shirt, and this product has some variants:
 
