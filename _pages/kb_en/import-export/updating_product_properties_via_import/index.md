@@ -43,7 +43,12 @@ In both import modes any missing items that are dependent on the existing items 
 Let's take a closer look at how you can update the properties of your existing products. 
 
 _In this section:_
-*   
+
+*   {% link "Updating the price and quantity of simple products" ref_6C0biYtV %}
+*   {% link "Updating the price of products with options configured using price modifiers" ref_3gBwZ1JH %}
+*   {% link "Updating the price and quantity of product variants" ref_7rsa9nAo %}
+*   {% link "Updating the price of products with wholesale prices" ref_0cjIw7VB %}
+*   {% link "Removing the existing images of a product" ref_3cGKQWTL %}
 
 
 
