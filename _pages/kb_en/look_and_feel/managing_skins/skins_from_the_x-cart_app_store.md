@@ -25,8 +25,8 @@ To install the skin:
 2. Click the **Activate purchased skin** button:
    ![activate_purchased_skin.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/activate_purchased_skin.png)
 
-3. Enter your skin license key code into the appropriate field and click **Activate**: 
-   ![enter-license-key.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/enter-license-key.png)
+3. In the popup that appears, enter your skin license key code and click **Activate**: 
+   ![skin_license_popup.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/skin_license_popup.png)
    
    Provided that the submitted license key code is valid, X-Cart will start downloading the skin:
    ![installing-updates.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/installing-updates.png)
@@ -43,5 +43,3 @@ To install the skin:
 
 5. That is all. Your new skin has been installed.
    ![current-skin.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/current-skin.png)
-
-
