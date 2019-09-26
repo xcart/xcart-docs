@@ -166,15 +166,14 @@ To create a paid membership:
    1. If you haven't yet done so, add the membership that you wish to offer to your customers as a paid one.
    
    2. Go to the '**Catalog** > **Products**' section of your store's Admin area and choose to add a new product.
-      ![Fig 12]({{site.baseurl}}/attachments/add_product.png)
+      ![memb-add-product.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-add-product.png)
       
    3. On the page that opens, specify the product details as you require; for example, name, SKU, description, etc. - just like any regular product in your store. 
    
-   4. To turn the product into a paid membership, use the setting **Membership to assign to product purchaser** to specify the membership that your customers will be able to get by purchasing the current product and set the period for which the membership will be granted by adjusting the setting **Membership duration**.
-      ![Fig 13]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.27.png)
-      ![Fig 14]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.31.51.png)
+   4. To turn the product into a paid membership, use the setting **Membership to assign to product purchaser** in the main section of the product details page. Specify the membership that your customers will be able to get by purchasing this product and set the period the membership will be granted for by adjusting the setting **Membership duration**.
+      ![memb-paid-membership.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-paid-membership.png)
       
-   5. If necessary you can enable your existing members to purchase this membership at a special price and get a level up. The membership price for existing members can be adjusted via the **Prices & Inventory** section. 
+   5. If necessary you can make the new membership visible only to the existing members of your site. Use the **Membership** field in the **Prices & Inventory** section of the product details page to specify the membership the new level-up should be available to. 
       ![Fig 15]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 19.37.44.png)
 
    6. Save the changes.
@@ -188,5 +187,6 @@ After the order gets the status 'Paid', the customer will get the membership the
 
 When the membership expires the customer will get an email notification. 
 
-Email notifications for the addon **Paid Membership** can be managed via the Email notifications section of the Admin area (**Store setup** > **Email notifications**).
-   ![notifications.png]({{site.baseurl}}/attachments/ref_memberships_ext/notifications.png)
+{% link "Email notifications" ref_5QLrLCu7 %} for the addon **Paid Membership** can be managed via the **Email notifications** section of your store Admin area (**Store setup** > **Email notifications**).
+   ![memb-paid-notifications.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-paid-notifications.png)
+
