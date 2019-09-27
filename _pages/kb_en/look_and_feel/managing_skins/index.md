@@ -7,13 +7,15 @@ title: Managing Skins
 order: 200
 published: true
 ---
+Each X-Cart package comes with two pre-installed design templates that the store administrator can choose from: Crisp White skin and Standard. If none of them suits your business, it is possible to purchase and install a different skin from the [X-Cart App Store](https://market.x-cart.com/ecommerce-templates/). 
+Instructions for that are available in the section {% link "Installing Skins from the X-Cart App Store" ref_2lgAqF3p %}.
 
-Each X-Cart package (Business, Multivendor and Ultimate) comes with 5 pre-installed themes that a user can choose from. In case none of the default themes suits the business it's possible to purchase and download a paid skin from the [X-Cart App Store](https://market.x-cart.com/ecommerce-templates/ "Managing Skins"). 
+When you have more than one design theme installed at your store, you can change it following the instructions from the section {% link "Changing Your Store Skin" ref_GLqVdpgd %}
 
-All skins, both default and paid ones, has a standard left-to-right representation. If necessary it's possible to convert a skin into a right-to-left one using a special {% link "RTL Languages Support" ref_3vEHzhPP %} addon.
+All X-Cart skins, both the pre-installed ones and the ones you can purchase via the X-Cart App Store, use the standard left-to-right representation. If necessary you can convert a skin into a right-to-left one using the addon [RTL Languages Support](https://market.x-cart.com/addons/standard-rtl-skin.html). For more info on this addon, see the section {% link "RTL Languages Support" ref_3vEHzhPP %} of this manual.
 
 _In this section:_
 
-*  {% link "Changing a Store Skin" ref_GLqVdpgd %}
 *  {% link "Installing Skins from the X-Cart App Store" ref_2lgAqF3p %}
+*  {% link "Changing Your Store Skin" ref_GLqVdpgd %}
 *  {% link "RTL Languages Support" ref_3vEHzhPP %}
