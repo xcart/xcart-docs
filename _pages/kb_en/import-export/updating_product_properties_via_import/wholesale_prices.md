@@ -20,8 +20,8 @@ In the Wholesale pricing section, this setup would look as follows:
 
 We are going to achieve the same result without editing the Wholesale pricing section directly. Let's do it:
 
-1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
-    ![xc5_import_exportproducts.png]({{site.baseurl}}/attachments/ref_OEpBdtQ6/xc5_import_exportproducts.png)
+1.  Use the "Export" section of your store's Admin area (**Catalog** > **Export**) to export your existing products:
+    ![export-products.png]({{site.baseurl}}/attachments/ref_0cjIw7VB/export-products.png)
 
 2.  Download the resulting export file and import it into your favorite spreadsheet editor. 
 
