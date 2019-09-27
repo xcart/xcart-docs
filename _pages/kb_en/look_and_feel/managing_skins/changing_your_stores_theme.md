@@ -11,19 +11,18 @@ order: 100
 redirect_from:
   - /look_and_feel/changing_your_stores_theme.html
 ---
-X-Cart 5 has five skins (Standard, Fashion, Noblesse, Digital and Crisp White) that are included into all default software packages.
+You can find out what design templates (skins) are installed and available in your X-Cart store by using the **Layout** section (**Look & Feel** > **Layout**) of the store Admin area.
+![layout_section.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/layout_section.png)
 
-   ![templates.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/templates.png)
+If you visit this section, you will see that the upper part of the page shows the design template that is installed and active in the store currently. 
+![current_template.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/current_template.png)
 
-You can choose any of them for your store in the **Layout** section (**Look & Feel** > **Layout**) of the store admin area.
+You can use the **Customize storefront** button to access some storefront customization settings.
+![customize_storefront_button.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/customize_storefront_button.png)
 
-   ![templates-layout.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/templates-layout.png)
+For some skins you may also be able to edit custom options:
+![edit_skin_custom_options.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/edit_skin_custom_options.png)
 
-In the _Layout_ section of the page you can see the skin that is currently installed in the store and change the default and home-page layout if necessary. You can choose between one-column, two-column (left or right) and three column layout schemes. The home page layout changes the representation of the home page and the default layout changes the representation of the rest of your store pages.
+The current skin can be changed. All the skins available to you are shown in the **Choose a new template** section (the current skin is highlighted with a green frame). To change the skin, select a different skin (by clicking on it) and click the **Submit** button. 
 
-To change the store skin choose the one you like better in the _Choose a new template_ section (the current skin will be highlighted with an orange border, the new one with blue) and click the **Submit** button. 
 
-{% note info %}
-If the _Layout_ part of the page is inactive check that the **Color Schemes** addon is enabled in the **My addons** section.
-    ![templates-color-schemes.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/templates-color-schemes.png)
-{% endnote %}
