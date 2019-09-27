@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-09-26 11:25 +0400'
 identifier: ref_6C0biYtV
-title: Updating the price and quantity of simple products
+title: Updating Price and Quantity of Simple Products
 order: 100
 published: true
 ---
