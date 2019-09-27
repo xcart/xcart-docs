@@ -45,10 +45,10 @@ To install a skin:
    
    You can use the *Manage layout* link below the skin description to go back to the section **Layout** (**Look & Feel** -> **Layout**). 
    
-   Actually, you do not have to go look at the installed skin in the **My addons** section. Instead, after installing the skin, you can go straight to the section **Layout** (**Look & Feel** -> **Layout**), and there you will find the new skin listed in the section **Choose a new template**. For the sake of example, we installed the skin "Fashion House", which turned out to be a collection of three different designs, and now we can see them in the **Choose a new template** section:
+   Actually, you do not have to go look at the installed skin in the **My addons** section. Instead, after installing the skin, you can go straight to the section **Layout** (**Look & Feel** -> **Layout**), and there you will find the new skin listed in the section **Choose a new template**. For the sake of example, we installed the skin "Fashion House", which turned out to be a collection of three different color schemes, and now we can see them in the **Choose a new template** section:
    ![fashionhouse_installed.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/fashionhouse_installed.png)
 
-4. The skin has been installed, but it is not yet active in your store. So let us activate it. For skin activation, select the skin that you require by clicking on the respective icon the **Choose a new template** section (the skin icon will be marked with a frame) and click **Submit**:
+4. The skin has been installed, but it is not yet active in your store. So let us activate it. For skin activation, select the skin (color scheme) that you require by clicking on the respective icon the **Choose a new template** section (the icon will be marked with a frame to show that is has been selected) and click **Submit**:
    ![activate_skin.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/activate_skin.png)
    
    After that you will see a server message "To make your changes visible in the customer area, cache rebuild is required. It will take several seconds. You don’t need to close the storefront, the operation is executed in the background." Click OK to start the skin activation process.
@@ -56,7 +56,7 @@ To install a skin:
 X-Cart will redeploy your store to activate the skin. 
    ![deploy_skin2.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/deploy_skin2.png)
 
-The process is likely to take a few minutes. After the process completion, scroll down to the **Choose a new template** section. There you should be able to see the icon of the new skin marked with a green frame: 
+After the process completion, scroll down to the **Choose a new template** section. There you should be able to see the icon of the new skin (color scheme) marked with a green frame: 
 ![skin_active.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/skin_active.png)
 
-It means that this skin is currently active. If you go to view the storefront, you should see the new design.
+It means that this skin (color scheme) is currently active. If you go to view the storefront, you should see the new design.
