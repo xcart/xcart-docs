@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-09-26 11:26 +0400'
 identifier: ref_3gBwZ1JH
-title: Updating the price of products with options configured using price modifiers
+title: Updating Price of Products with Price Modifiers Options
 order: 110
 published: true
 ---
