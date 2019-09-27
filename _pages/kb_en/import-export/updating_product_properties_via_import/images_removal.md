@@ -7,8 +7,8 @@ title: Removing Existing Product Images
 order: 140
 published: true
 ---
-1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products.
-    ![xc5_import_exportproducts.png]({{site.baseurl}}/attachments/ref_OEpBdtQ6/xc5_import_exportproducts.png)
+1.  Use the "Export" section of your store's Admin area (**Catalog** > **Export**) to export your existing products.
+    ![export-products.png]({{site.baseurl}}/attachments/ref_3cGKQWTL/export-products.png)
     
 2.  Download the resulting export file and import it into your favorite spreadsheet editor.
 
