@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-09-26 11:31 +0400'
 identifier: ref_3cGKQWTL
-title: Removing the existing images of a product
+title: Removing Existing Product Images
 order: 140
 published: true
 ---
