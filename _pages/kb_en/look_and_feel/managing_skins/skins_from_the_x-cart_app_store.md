@@ -45,4 +45,7 @@ To install a skin:
 
 X-Cart will redeploy your store to activate the skin. The process is likely to take a few minutes. Take care not to close the page before the process has been fully completed.
        
-Once the skin has been activated, you should be able to see the icon of the new skin marked with a green frame in the **Choose a new template** section. It means that this skin is currently active. If you go to view the storefront, you should see the new design.
+Once the skin has been activated, you should be able to see the icon of the new skin marked with a green frame in the **Choose a new template** section. 
+![skin_active.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/skin_active.png)
+
+It means that this skin is currently active. If you go to view the storefront, you should see the new design.
