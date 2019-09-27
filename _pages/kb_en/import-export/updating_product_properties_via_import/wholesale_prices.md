@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-09-26 11:30 +0400'
 identifier: ref_0cjIw7VB
-title: Updating the price of products with wholesale prices
+title: Updating Wholesale Prices
 order: 130
 published: true
 ---
