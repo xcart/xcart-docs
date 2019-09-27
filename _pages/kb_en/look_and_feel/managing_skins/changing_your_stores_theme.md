@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-10 00:19 +0400'
 identifier: ref_GLqVdpgd
-title: Changing a Store Skin
+title: Changing Your Store Skin
 categories:
   - User manual
 published: true
