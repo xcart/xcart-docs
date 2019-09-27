@@ -33,18 +33,28 @@ To install a skin:
    ![skin_license_popup.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/skin_license_popup.png)
    
    Provided that the submitted license key code is valid, X-Cart will download the skin and install it. Your store will be redeployed.
+   ![deploy_skin1.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/deploy_skin1.png)
      
-   Once the skin installation process has been completed, you should be able to see the new skin listed in the section **Choose a new template**. For the sake of example, we have installed the template "Fashion House", which turned out to be a collection of three different designs, and now we can see them in the **Choose a new template** section:
-   ![fashionhouse_installed.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/fashionhouse_installed.png)
-   
-   If now we go to the section **My addons**, we will be able to find the template "Fashion House" installed there like a regular X-Cart addon:
-   ![skin_in_my_addons.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/skin_in_my_addons.png)
+   In the end you should see a success screen like the following:
+   ![deploy_skin1_1.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/deploy_skin1_1.png)
 
-4. The skin has been installed, but it is not yet active in your store. So let us activate it. For skin activation, select the skin that you need to install by clicking on the respective icon the **Choose a new template** section and click **Submit**:
+   It means that the skin installation process has been completed successfully, and you can go back to the Admin area.
+
+   If now you go to the section **My addons**, you will be able to find the skin you have installed listed there like a regular X-Cart addon:
+   ![skin_in_my_addons.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/skin_in_my_addons.png)
+   
+   You can use the *Manage layout* link below the skin description to go back to the section **Layout** (**Look & Feel** -> **Layout**). 
+   
+   Actually, you do not have to go look at the installed skin in the **My addons** section. Instead, after installing the skin, you can go straight to the section **Layout** (**Look & Feel** -> **Layout**), and there you will find the new skin listed in the section **Choose a new template**. For the sake of example, we installed the skin "Fashion House", which turned out to be a collection of three different designs, and now we can see them in the **Choose a new template** section:
+   ![fashionhouse_installed.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/fashionhouse_installed.png)
+
+4. The skin has been installed, but it is not yet active in your store. So let us activate it. For skin activation, select the skin that you require by clicking on the respective icon the **Choose a new template** section and click **Submit**:
    ![activate_skin.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/activate_skin.png)
 
-X-Cart will redeploy your store to activate the skin. The process is likely to take a few minutes. Take care not to close the page before the process has been fully completed.
-       
+X-Cart will redeploy your store to activate the skin. 
+   ![deploy_skin2.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/deploy_skin2.png)
+
+The process is likely to take a few minutes. 
 Once the skin has been activated, you should be able to see the icon of the new skin marked with a green frame in the **Choose a new template** section. 
 ![skin_active.png]({{site.baseurl}}/attachments/ref_2lgAqF3p/skin_active.png)
 
