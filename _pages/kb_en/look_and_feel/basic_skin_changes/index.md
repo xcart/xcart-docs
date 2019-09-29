@@ -18,7 +18,7 @@ To make your store pages more attractive for customers, you can add banners to y
 
 _In this section:_
 
-*  {% link "Changing a Store Logo and Favicon" ref_2VXSZhKE %}
+*  {% link "Changing the Store Logo and Favicon" ref_2VXSZhKE %}
 *  {% link "Changing Logo Size (for Crisp White Skin)" ref_RrLo9hcw %}
 *  {% link "Changing the Checkout Logos Picture" ref_V0WJ7Tzu %}
 *  {% link "Changing the Default Welcome Text and Banner on the Front Page" ref_Id69E4GT %}
