@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-02-27 10:17 +0400'
 identifier: ref_2VXSZhKE
-title: Changing a Store Logo and Favicon
+title: Changing the Store Logo and Favicon
 categories:
   - User manual
 published: true
