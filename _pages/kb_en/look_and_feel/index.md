@@ -11,9 +11,9 @@ icon: paint brush
 description: 'Control your store''s color scheme, layout and content'
 published: true
 ---
-They said "Good clothes open all doors" hence choosing a store theme is a serious task for an ecommerce business owner. A theme should not only be attractive but also appropriate and meet particular business needs. So don't hurry up and take your time to make a right decision.
+Choosing a design theme for your store is a serious task. The theme has to be attractive and appropriate, and it has to meet the needs of your business. 
 
-X-Cart offers 5 free color schemes for your store out of the box and over [70 template add-ons](https://market.x-cart.com/ecommerce-templates/ "Look and feel") that you can use if none of the free five suits you. With any theme you choose you'll get a stylish, responsive, fully customizable and well-suited solution. 
+X-Cart offers two free color schemes for your store out of the box and over [80 design templates (skins)](https://market.x-cart.com/ecommerce-templates/ "Look and feel") that you can obtain via the X-Cart App Store. With any theme you will get a stylish, responsive, fully customizable and well-suited solution. 
 
 _In this section:_
 
