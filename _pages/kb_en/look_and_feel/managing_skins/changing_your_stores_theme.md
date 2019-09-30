@@ -23,6 +23,6 @@ You can use the **Customize storefront** button to access some storefront custom
 For some skins you may also be able to edit custom options:
 ![edit_skin_custom_options.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/edit_skin_custom_options.png)
 
-If you wish you can switch to using a different skin. All the skins available to you are shown in the **Choose a new template** section. The skin that is currently active in your store is highlighted with a green frame. To switch to a different skin, select the skin you require in the **Choose a new template** section (by clicking on the skin icon) and click the **Submit** button. You can purchase and download more skins from the X-Cart App Store. More info on this is available in the section {% link "Installing Skins from the X-Cart App Store" ref_2lgAqF3p %}. 
+If you wish you can switch to using a different skin. All the skins available to you are shown in the **Choose a new template** section. The skin that is currently active in your store is highlighted with a green frame. To switch to a different skin, select the skin you require in the **Choose a new template** section (by clicking on the skin icon) and click the **Submit** button. You can purchase and download more skins from the X-Cart App Store. More info on this is available in the section {% link "Installing Skins from the X-Cart App Store" ref_2lgAqF3p %}.
 
-
+You can disable or remove a previously installed skin by deactivating or uninstalling the respective addon via the **My addons** section.
