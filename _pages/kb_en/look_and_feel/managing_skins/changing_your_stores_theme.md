@@ -28,3 +28,5 @@ If you wish you can switch to using a different skin. All the skins available to
 You can purchase and download more skins from the X-Cart App Store. More info on this is available in the section {% link "Installing Skins from the X-Cart App Store" ref_2lgAqF3p %}.
 
 You can disable or remove a previously installed skin by deactivating or uninstalling the respective addon via the **My addons** section.
+![uninstall_deactivate_skin.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/uninstall_deactivate_skin.png)
+
