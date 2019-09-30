@@ -15,7 +15,18 @@ To start working with the addon make sure the Royal Mail Service is installed an
 
 ## Configuring Royal Mail Services
 
-Proceed to the addon settings page (**Store setup** -> **Royal Mail**) to configure it:
+{% note info %}
+PREREQUISITES:
+Make sure you're signed up with Royal Mail. For this purpose:
+1. Create your free API account [here](https://developer.royalmail.net/user/register "Royal Mail Service"). 
+2. Register your application in the 'My Apps' section of your Royal Mail account. 
+   
+   When you register, your application is assigned a unique client ID and client secret. You'll need these data to configure the Royal Mail addon in your X-cart based store.
+
+3. Subscribe to a Royal Mail API in your Royal Mail account as it needs an approval by Royal Mail; this usually takes less than a week.
+{% endnote %}
+
+Open the Royal Mail addon settings page (**Store setup** -> **Royal Mail**) to configure it:
 
 ![settings-page.png]({{site.baseurl}}/attachments/ref_2gtSkN9y/settings-page.png)
 
