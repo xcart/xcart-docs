@@ -11,11 +11,11 @@ The first step of your X-Cart v4 based store upgrade to v5 is environment prepar
 
 The preparation step includes:
 
-* checking what data can be migrated from your current XC4 based store to a new XC5 store automatically using the {% link "XC4 to XC5 Migration Wizard" ref_enOvcLbO %}.
+* checking what data can be migrated from your current XC4 based store to a new XC5 store automatically using the {% link "XC4 to XC5 Migration Wizard" ref_enOvcLbO %}. For details see {% link "What Data Is Migrated?" ref_32GoV7A0 %}.
   
   In case any data can't be migrated from XC4 automatically and you want to have them in your new XC5 based store, you'll need to transfer such data manually after the main data migration is complete. If you need help, [contact X-Cart Team](https://www.x-cart.com/contact-us.html "Step 1: Migration environment").
 
-* checking the current server for compatibility with {% link "XC5 system requirements" ref_3olOLKdu %} and for enough disk space to run 2 X-Cart stores at a time. 
+* checking the current server for compatibility with {% link "XC5 system requirements" ref_3olOLKdu %} and for enough disk space to run 2 X-Cart stores at a time. For details see {% link "System Requirements for X-Cart 4 to X-Cart 5 Migration" ref_19hsx4O9 %}.
   
   In case your current server needs enhancements either in properties or in disk space or even in both make sure to upgrade the current server or find a new better one or perform the upgrade on your local machine if it suits the requirements.
 
@@ -25,7 +25,7 @@ The preparation step includes:
   Do not apply any customizations to X-Cart 5 before running the migration process and also make sure to remove all demo data from the installation. You can remove existing data from X-Cart via **System tools** -> **Remove data** section of your X-Cart 5 Admin area.
   {% endnote %}
 
-* fine-tuning X-Cart 5 advanced settings for a smooth migration process.
+* fine-tuning X-Cart 5 advanced settings for a smooth migration process. For details see {% link "Advanced Settings" ref_1IAKq4cq %}.
 
 All the preparation steps are described in details in the guides of this section.
 
