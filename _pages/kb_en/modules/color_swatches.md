@@ -19,6 +19,7 @@ The addon [Color Swatches](https://market.x-cart.com/addons/color-swatches.html#
 ## Installing and Configuring the Addon 
 
 To install the addon, follow the guidelines from the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![color_swatches_addon.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/color_swatches_addon.png)
 
 After the addon has been installed, proceed to the addon settings page to configure it.
 
