@@ -18,6 +18,7 @@ Before you configure the Canadian Taxes addon:
     See: 
     *   {% link "Creating tax classes" ref_pAWOdG8N#creating-tax-classes %};
     *   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}.
+    
 3.  Ensure that your store has all the necessary address zones configured. You will need these zones to use different provincial tax rates based on the customer address.
     See:
     *   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
