@@ -42,6 +42,7 @@ The changes will be saved and the selected custom image will be uploaded and dis
     ![logo_favicon_setup4.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/logo_favicon_setup4.png)
     
 Now your store visitors should be able to see the new image on the storefront. 
+    ![logo_changed.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/logo_changed.png)
 
 If necessary, after replacing the default images with your own ones, you can revert to the defaults again. To do so, select the *Delete* option and click **Submit** to save the changes.
 ![logo_favicon_setup5.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/logo_favicon_setup5.png)
