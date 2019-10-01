@@ -10,6 +10,7 @@ published: true
 order: 110
 ---
 The addon ShippingEasy can be obtained via the X-Cart App Store.
+![shippingeasy_addon.png]({{site.baseurl}}/attachments/ref_KF7JDnSv/shippingeasy_addon.png)
 
 To install and enable the addon on your system, follow the general addon installation instructions. See {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
