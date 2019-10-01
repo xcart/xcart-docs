@@ -12,6 +12,7 @@ redirect_from:
 The addon [Gift Wrapping](https://market.x-cart.com/addons/gift-wrapping.html "Gift Wrapping") allows you to offer a gift wrapping option to your customers. 
 
 To start using the addon, make sure it is installed and enabled as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+![gift_wrapping_addon.png]({{site.baseurl}}/attachments/ref_3eTR6n0m/gift_wrapping_addon.png)
 
 After the addon has been installed, proceed to the addon settings page to configure the options.
 
@@ -30,7 +31,6 @@ When enabled and configured, the addon adds an "Add gift wrapping" checkbox to t
 ![cus-cart.png]({{site.baseurl}}/attachments/ref_3eTR6n0m/cus-cart.png)
 
 If the **Allow adding a greeting message to orders** option is enabled, the customer can also add a greeting message or a comment there.
-
 ![cus-greeting-message.png]({{site.baseurl}}/attachments/ref_3eTR6n0m/cus-greeting-message.png)
 
 Both the gift wrapping option and the greeting messag are then added to cart and displayed at checkout in the storefront and in the order details in the Admin area:
