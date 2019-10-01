@@ -11,6 +11,7 @@ redirect_from:
 version: X-Cart 5.3.2 and later
 ---
 The addon [Canadian Taxes](https://market.x-cart.com/addons/canadian-taxes.html "Canadian Taxes") is intended for businesses based in Canada, and is aimed at configuring taxes like GST, PST, QST or HST. 
+![canadian_taxes_addon.png]({{site.baseurl}}/attachments/ref_08gXAvpC/canadian_taxes_addon.png)
 
 This addon is similar to the addon {% link "Sales Tax" ref_7fGmqgPE %}, but it enables you to set up taxes only for Canadian provinces, and the tax names are GST/PST/HST/QST. The tax name to be shown to a customer is chosen automatically based on the customer's province.
 
