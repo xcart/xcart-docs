@@ -56,9 +56,9 @@ Here's a brief overview of the addons typically used to build a Multivendor stor
      
    * **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal addon")**: An addon package that includes all X-Cart's PayPal payment method integrations, with **PayPal for Marketplaces** among them. In the context of X-Cart Multivendor, this addon will be of great help for stores in need of a solution to automatically distribute the incoming payments from the buyers between the store owner and the vendors.
    
-If an addon you are looking to use is not installed in your store, check the X-Cart’s Marketplace.
+If an addon you are looking to use is not installed in your store, check the X-Cart App Store.
 
-For general addon installation instructions, see {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}.
+For general addon installation instructions, see {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 
 _Related pages:_
