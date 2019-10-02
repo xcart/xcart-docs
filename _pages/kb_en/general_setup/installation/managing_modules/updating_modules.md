@@ -62,7 +62,7 @@ To update an addon:
 7.  Once all the upgrade packs have been downloaded, you will be provided with a list of all the downloaded updates and prompted to confirm that you have created a backup.
     ![module-update-page.png]({{site.baseurl}}/attachments/ref_5Xj7bOA6/module-update-page.png)
 
-8. If you want to check what changes and fixes in particular are included into the coming update click the "Changelog" link opposite an addon in the list of available for update:
+8. If you want to check what changes and fixes are included into the coming update, click on the "Changelog" link opposite the addon name in the list of downloaded components:
    ![changelog.png]({{site.baseurl}}/attachments/ref_5Xj7bOA6/changelog.png)
 
 9. Click the **Install updates** button to run the installation of the update/upgrade. Note that the button becomes active only after you have confirmed the creation of a backup.
