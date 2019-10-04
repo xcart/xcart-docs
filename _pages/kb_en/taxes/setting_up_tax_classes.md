@@ -12,13 +12,13 @@ published: true
 {% toc %}
 
 ## Product Tax Classes
-According to your country's laws, you may need to charge different taxes for different types of products. For instance, you may need to calculate sales tax differently for alcohol and non-alcohol products.
+According to your country's laws, you may need to charge different taxes for different types of products. For instance, you may need to calculate sales tax differently for alcohol and no-alcohol products.
 
-Using the **tax class** functionality in X-Cart 5 you can organize your products into groups according to what sales tax rate calculation rules need to be used for them.
+Using the **tax class** feature in X-Cart 5 you can organize your products into groups according to what sales tax rate calculation rules need to be used for them.
 
-For example, if you have a food store selling both alcohol and non-alcohol products, and you need to calculate sales tax differently for those two groups of products, you will need two tax classes - one for alcohol products and one for non-alcohol products. To make it work, you will need to specify how tax rates should be calculated for each of these tax classes. You will also need to assign a tax class to every product in your store. This way all the products will have appropriate tax rates applied to them. 
+For example, if you have a food store selling both alcohol and no-alcohol products, and you need to calculate sales tax differently for those two groups of products, you will need two tax classes - one for alcohol products and one for no-alcohol products. To make it work, you will need to specify how tax rates should be calculated for each of these tax classes. You will also need to assign a tax class to every product in your store. This way all the products will have appropriate tax rates applied to them. 
 
-In X-Cart 5, every product needs to have a tax class assigned to it. By default, new products are created with the **Default tax class** assigned. If you expect all of your store's products to use the same tax rates, you do not need to create any additional tax classes - just use the **Default tax class** for all rates. However, if you are going to have different tax rates for different types of products - like in the example with alcohol and non-alcohol products - then you will need additional tax classes.
+In X-Cart 5, every product needs to have a tax class assigned to it. By default, new products are created with the **Default tax class** assigned. If you expect all of your store's products to use the same tax rates, you do not need to create any additional tax classes - just use the **Default tax class** for all rates. However, if you are going to have different tax rates for different types of products - like in the example with alcohol and no-alcohol products - then you will need additional tax classes.
 
 ## Tax Classes for Shipping
 The tax classes feature can be used for shipping as well. Typically you create a tax class, set appropriate tax rates for it and assign the tax class to a shipping method via the **Shipping methods** section. 
@@ -47,7 +47,7 @@ Now you can configure tax rates for it. 
 
 To configure a tax rate specifying a tax class:
 
-1. Go to the **Taxes** section (**Store setup** -> **Taxes**) of your X-Cart Admin area and, depending on the tax system you are using, open the appropriate tax configuration tab (**Sales tax** / **VAT/GST** / **Canadian taxes**).
+1. Go to the **Taxes** section (**Store setup** -> **Taxes**) of your X-Cart Admin area and, depending on the tax system you are using, open the appropriate tax configuration tab (Depending on the tax addon you are using, this may be **Sales tax** / **VAT/GST** / **Canadian taxes**).
 
 2. Click the **New rate** button. 
    ![new-rate.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/new-rate.png)
