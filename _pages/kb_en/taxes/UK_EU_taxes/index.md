@@ -9,9 +9,9 @@ published: true
 ---
 Both the UK and the EU use value-added tax system (VAT). Each European country and the UK has a different VAT rate that can be charged by a merchant only if the business is registered for VAT. A registered business must provide a VAT invoice in case there is no VAT exemption for the goods.
 
-VAT rates and VAT exemptions in X-Cart can be set-up manually using the {% link "Value Added Tax/Goods Service Tax addon" ref_0GjdgNJx %}. The addon allows configuring different tax rates based on the membership level and address of the customer. It also supports tax exemption based on customer’s VAT ID.
+VAT rates and VAT exemptions in X-Cart can be set up manually using the {% link "Value Added Tax/Goods Service Tax addon" ref_0GjdgNJx %}. The addon allows configuring different tax rates based on the membership level and address of the customer. It also supports tax exemption based on customer’s VAT ID.
 
-To automate tax calculation and setup European and EU based businesses can use the {% link "AvaTax Sales Tax Automation" ref_6880bVvi %} addon.
+To automate tax calculation and setup, European and EU based businesses can use the {% link "AvaTax Sales Tax Automation" ref_6880bVvi %} addon.
 
 _In this section:_
 *  {% link "VAT Basics" ref_1hm03ERt %}
