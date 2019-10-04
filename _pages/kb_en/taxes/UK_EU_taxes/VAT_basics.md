@@ -15,13 +15,13 @@ For EU-based companies, VAT is chargeable on most sales and purchases within the
 
 Online traders based in the EU and selling goods online to European consumers must consider distance selling rules. Distance sales are goods dispatched to a private consumer in another EU member state where the supplier is responsible for delivery. Distance selling rules enable you to sell cross-border to customers within the EU up until set thresholds are met. Before the thresholds are met, you will apply the outbound country’s VAT rate on your sales. Once you exceed the threshold for the buyer’s country you must then switch to the domestic tax rate of that country and ensure you are VAT registered in that member state. Please pay attention to this when setting up taxes in X-Cart.
 
-VAT isn't charged on exports to countries outside the EU. In this case the VAT is paid in the country of import. 
+VAT is not charged on exports to countries outside the EU. In this case the VAT is paid in the country of import. 
 
-For the UK-based companies there are 3 different rates of VAT and you must make sure you charge the right amount. Most goods and services are standard rate. You should charge this rate unless the goods or services are classed as reduced, zero-rated or tax-exempt.
+For the UK-based companies, there are three different rates of VAT, and you must make sure you charge the right amount. Most goods and services are standard rate. You should charge this rate unless the goods or services are classed as reduced, zero-rated or tax-exempt.
 
-All EU and UK VAT registered businesses must produce VAT invoices for the supply of goods or services, that include at least the following data:
-- VAT number of the supplier
-- Rate of VAT charged (If items are charged at different VAT rates, then show this for each item.)
+All EU and UK VAT registered businesses must produce VAT invoices for the supply of goods or services that include at least the following data:
+- VAT number of the supplier;
+- Rate of VAT charged (If items are charged at different VAT rates, then show this for each item.);
 - Total amount including VAT (If items are charged at different VAT rates, then show this for each item.)
 
-X-Cart uses a [simplified type of invoice](https://www.gov.uk/vat-record-keeping/vat-invoices "UK and EU Taxes") that includes the abovementioned data.
+X-Cart uses a [simplified type of invoice](https://www.gov.uk/vat-record-keeping/vat-invoices "UK and EU Taxes") that includes the above-mentioned data.
