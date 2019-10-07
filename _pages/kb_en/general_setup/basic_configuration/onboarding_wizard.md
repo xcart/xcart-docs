@@ -65,14 +65,12 @@ In Step 2 you can upload your company logo. By a company logo we mean an image r
 
 Similarly to a product image, your store logo can be uploaded from your local computer or via URL. Tap on the logo area to see the options. 
 
-As to the recommended size of the company logo image for upload, the Onboarding Wizard recommends 400x150 px. The recommended formats for the company logo image are PNG, JPG and GIF.
-
 Your store logo will be a part of your company style and will visualize your brand to the site visitors. If you do not have a good selling logo, feel free to [ask](https://www.x-cart.com/contact-us.html#design), and we will be happy to help you with it. 
 
 
 ## Step 3 - Set Up Your Store Locale and Company Info
 
-In Step 3 you can configure geographic settings to connect your store with local customers and set your company info that will be used to form invoices, send email notifications and calculate shipping rates for your store.
+In Step 3 you can configure the geographic settings to connect your store with local customers and set your company info that will be used to form invoices, send email notifications and calculate shipping rates for your store.
 
 Start with the store locale. It has the predefined country, currency and weight values based on the info the wizard get during the software installation. However, these values may not always be correct. So you need to verify and change the data if required.
 
