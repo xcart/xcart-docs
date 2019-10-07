@@ -23,7 +23,7 @@ To adjust your image optimization preferences, manage image resizing or upload c
 {% toc %}
 
 ## Adjust Image Optimization Preferences
-Any images used in your X-Cart store will be displayed in accordance with the configuration settings defined in the **Default image settings** part of the **Images** section (**Look&Feel** -> **Images**).
+The configuration settings in the **Default image settings** part of the **Images** section (**Look&Feel** -> **Images**) affect the display of any images used in your X-Cart store.
 
 ![images-3.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images-3.png)
 
@@ -47,7 +47,7 @@ The settings are as follows:
   If you do not see the setting **Use blurred image placeholders for smart image loading** on the page, it is not supported by the skin installed in your X-Cart store at the moment.
   {% endnote %}
 
-The chart in the lower part of the Default image settings section provides information on the dimension limits  (width(px) and height(px)) for different types of images. (Note that these may be different depending on the {% link "skin installed" ref_GLqVdpgd %}). All the images in your store will be resized to fit these dimension limits taking into account the image settings above. For Retina displays, image dimensions twice as big as the ones specified in the chart will be used. In any case, you can change the default image dimension limits if required; however, please keep in mind that the original image should be at least twice as big as the size to which it will be resized. 
+The chart in the lower part of the Default image settings section provides information on the dimension limits  (width(px) and height(px)) for different types of images. (Note that these may be different depending on the {% link "skin installed" ref_GLqVdpgd %}). All the images in your store will be resized to fit these dimension limits taking into account the image settings above. For Retina displays, image dimensions twice as big as the ones specified in the chart will be used. In any case, you can change the default image dimension limits if required; however, please keep in mind that the original image should be at least twice as big as the size to which it will be resized (i.e. the dimensions specified in the chart). 
 
 ## Generate Resized Images
 Clicking the **Generate resized images** button (at the bottom of the **Default image settings** section, next to the **Save** button) launches an image resizing routine to generate copies of existing images in all the sizes needed to display these images in your store's front end. Having a separate image file in each of the sizes provides a way to speed up your site's performance by reducing page load times for pages containing graphics.
