@@ -48,7 +48,7 @@ This is what this step may look like after all the required product fields have 
 
 If you wish to set more product details (like product weight, description, sale price, etc.), use the "Add other options" link. As a result, the full version of the {% link "product details page" ref_2D8wAeXP %} for the product you are configuring will be opened in a new browser tab. There you will be able to finish configuring the product details and save your changes. Again, you do not have to complete all the product fields right now - you can go back to editing any of the products in your store catalog at any time later. Detailed information on how to create and manage products in your X-Cart store without using the Onboarding Wizard and how to configure all the product fields is available in the section {% link "Products and Catalog" ref_uymkBt6a %} of this manual. 
 
-Let's suppose you have configured all the required product fields at the first step of the Onboarding Wizard to create your first product. Now you can click the button **Save and go to the next step**.
+Let us suppose you have configured all the required product fields at the first step of the Onboarding Wizard to create your first product. Now you can click the button **Save and go to the next step**.
 
 The wizard will suggest that you take a look at your new product on the storefront. 
 
@@ -60,10 +60,10 @@ Click **Proceed to the next step** to go further.
 
 ## Step 2 - Upload Your Company Logo
 
-In Step 2 you can upload your company logo that will be displayed on the top on all pages of the store. The store logo serves not only as branding for your site, but links back to your homepage.
+In Step 2 you can upload your company logo. By a company logo we mean an image representing your business name that is displayed at the top of all the store pages. The store logo serves not only as branding for your site, but it also links back to your store's home page.
 ![quickstart-4.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-4.png)
 
-The store logo can also be uploaded from your local computer or via URL. Tap on the logo area to see the options. 
+Similarly to a product image, your store logo can be uploaded from your local computer or via URL. Tap on the logo area to see the options. 
 
 The recommended logo size is 400x150 px, the recommended file formats are PNG. JPG and GIF.
 
