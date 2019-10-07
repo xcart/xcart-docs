@@ -65,9 +65,9 @@ In Step 2 you can upload your company logo. By a company logo we mean an image r
 
 Similarly to a product image, your store logo can be uploaded from your local computer or via URL. Tap on the logo area to see the options. 
 
-The recommended logo size is 400x150 px, the recommended file formats are PNG. JPG and GIF.
+As to the size of your company logo image, for X-Cart versions 5.4 and later, you can find out the recommended image dimensions (or adjust the company logo image dimensions, if you are going to edit your store's design) via the Images section (**Look & Feel** > **Images**) of your X-Cart store Admin area. The recommended formats for the company logo image are PNG, JPG and GIF.
 
-Your store logo will be a part of your company style and will visualize your brand to the site visitors. So take this step seriously. If you do not have a good selling logo, just [ask](https://www.x-cart.com/contact-us.html#design) and we will help you with it. 
+Your store logo will be a part of your company style and will visualize your brand to the site visitors. If you do not have a good selling logo, feel free to [ask](https://www.x-cart.com/contact-us.html#design), and we will be happy to help you with it. 
 
 
 ## Step 3 - Set Up Your Store Locale and Company Info
