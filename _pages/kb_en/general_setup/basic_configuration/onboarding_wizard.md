@@ -60,19 +60,19 @@ Click **Proceed to the next step** to go further.
 
 ## Step 2 - Upload Your Company Logo
 
-On Step 2 you can upload your company logo that will be displayed on the top on all pages of the store. The store logo serves not only as branding for your site, but links back to your homepage.
+In Step 2 you can upload your company logo that will be displayed on the top on all pages of the store. The store logo serves not only as branding for your site, but links back to your homepage.
 ![quickstart-4.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-4.png)
 
 The store logo can also be uploaded from your local computer or via URL. Tap on the logo area to see the options. 
 
 The recommended logo size is 400x150 px, the recommended file formats are PNG. JPG and GIF.
 
-Your store logo will be a part of your company style and will visualize your brand to the site visitors. So take this step seriously. If you don't have a good selling logo, just [ask](https://www.x-cart.com/contact-us.html#design "X-Cart Quickstart Onboarding Wizard") and we'll help you with it. 
+Your store logo will be a part of your company style and will visualize your brand to the site visitors. So take this step seriously. If you do not have a good selling logo, just [ask](https://www.x-cart.com/contact-us.html#design) and we will help you with it. 
 
 
 ## Step 3 - Set Up Your Store Locale and Company Info
 
-On Step 3 you can configure geographic settings to connect your store with local customers and set your company info that will be used to form invoices, send email notifications and calculate shipping rates for your store.
+In Step 3 you can configure geographic settings to connect your store with local customers and set your company info that will be used to form invoices, send email notifications and calculate shipping rates for your store.
 
 Start with the store locale. It has the predefined country, currency and weight values based on the info the wizard get during the software installation. However, these values may not always be correct. So you need to verify and change the data if required.
 
@@ -96,7 +96,7 @@ First of all here you'll need to choose whether you'll sell tangible goods that 
 
 ![quickstart-7.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-7.png)
 
-If you are selling e-goods and services everything is pretty simple. Click **Mark all products as non-shippable** and that's it! The wizard will set the [Requires shipping product option](https://kb.x-cart.com/products/products/managing_products/adding_products/basic_product_setup.html#shipping "X-Cart Quickstart Onboarding Wizard") for all products in your store to NO and all shipping methods will be disabled automatically.
+If you are selling e-goods and services everything is pretty simple. Click **Mark all products as non-shippable** and that's it! The wizard will set the [Requires shipping product option](https://kb.x-cart.com/products/products/managing_products/adding_products/basic_product_setup.html#shipping) for all products in your store to NO and all shipping methods will be disabled automatically.
 
 If you sell tangible goods, the process is a bit more complicated. You need to set up shipping options for them. For this purpose click the **Set up shipping** button.
 
@@ -114,7 +114,7 @@ When the shipping setup is over you can proceed to the last step of this wizard 
 
 ## Step 5 - Set Up Payment Methods
 
-Payment methods setup is the last but not the least step of the Quickstart Onboarding Wizard. 
+Payment methods setup is the last but not the least step of the Onboarding Wizard. 
 ![quickstart-8.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-8.png)
 
 X-Cart allows to choose whether you'll use one or more of over 120 integrated online payment systems or whether you will process payments offline by your own means. 
@@ -127,4 +127,4 @@ Once the payments setup is complete, you are finished and can close the wizard.
 
 ![quickstart-9.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-9.png)
 
-Please do mind that the Quickstart Onboarding Wizard allows setting up the very basic store configuration. For a more robust store setup read on the guides from this manual that are aimed to help you to configure your online store to meet your business requirements and make your dreams of selling online come true!
+Please do mind that the Onboarding Wizard allows setting up the very basic store configuration. For a more robust store setup read on the guides from this manual that are aimed to help you to configure your online store to meet your business requirements and make your dreams of selling online come true!
