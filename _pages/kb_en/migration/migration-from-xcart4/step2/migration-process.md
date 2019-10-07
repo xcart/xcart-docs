@@ -26,14 +26,14 @@ Click it to launch the migration process.
 
 ## Step 1 - Start
     
-At the first step of the wizard, select the checkbox to confirm that you understand the consequences of using the wizard. Namely, all existing data in your X-Cart 5 store will be overwritten.
+In the first step of the wizard, select the checkbox to confirm that you understand the consequences of using the wizard. Namely, all the existing data in your X-Cart 5 store will be overwritten.
 
 Click **Start migration** to proceed:
 ![mw_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_1.png)
 
 ## Step 2 - Connect
     
-At the second step of the wizard, specify your X-Cart 4 store MySQL connection details.
+In the second step of the wizard, specify your X-Cart 4 store MySQL connection details.
 ![mw_2.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_2.png)
 
 Start by completing the following fields:
@@ -61,7 +61,7 @@ Click **Save and continue**.
 
 ## Step 3 - Check
     
-At the third step of the wizard, your X-Cart 5 store tries to connect to the specified X-Cart 4 database using the connection details provided earlier. 
+In the third step of the wizard, your X-Cart 5 store tries to connect to the specified X-Cart 4 database using the connection details provided earlier. 
    
 If connection details are specified correctly, you will see a summary of information that is going to be migrated from X-Cart 4 to X-Cart 5:
 ![mw_5.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_5.png)
@@ -72,7 +72,7 @@ Click **Continue** to proceed.
     
 ## Step 4 - Select
     
-At the fourth step of the wizard, you will see a list of data types that can be migrated from your X-Cart 4 store to X-Cart 5.
+In the fourth step of the wizard, you will see a list of data types that can be migrated from your X-Cart 4 store to X-Cart 5.
    
 Select the data types that need to be migrated to X-Cart 5, then click **Save and continue**:
 ![mw_6.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_6.png)
@@ -84,7 +84,7 @@ Click **Save and continue**.
        
 ## Step 5 - Enable
     
-At the fifth step, the wizard will provide you with a list of X-Cart 5 addons that have to be enabled in order to match X-Cart 4 functionality:
+In the fifth step, the wizard will provide you with a list of X-Cart 5 addons that have to be enabled in order to match X-Cart 4 functionality:
 ![mw_8.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_8.png)
 
 Click **Enable and continue**.
