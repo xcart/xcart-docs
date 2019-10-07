@@ -49,6 +49,10 @@ The settings are as follows:
 
 The chart in the lower part of the Default image settings section provides information on the dimension limits  (width(px) and height(px)) for different types of images. (Note that these may be different depending on the {% link "skin installed" ref_GLqVdpgd %}). All the images in your store will be resized to fit these dimension limits taking into account the image settings above. For Retina displays, image dimensions twice as big as the ones specified in the chart will be used. In any case, you can change the default image dimension limits if required; however, please keep in mind that the original image should be at least twice as big as the size to which it will be resized (i.e. the dimensions specified in the chart). 
 
+{% note info %}
+Note that the display size of a specific type of images on your store pages may not match the dimensions specified in the chart in the Images section; that is due to the fact that the image display size may be modified by the CSS of a specific design skin. 
+{% endnote %}
+
 ## Generate Resized Images
 Clicking the **Generate resized images** button (at the bottom of the **Default image settings** section, next to the **Save** button) launches an image resizing routine to generate copies of existing images in all the sizes needed to display these images in your store's front end. Having a separate image file in each of the sizes provides a way to speed up your site's performance by reducing page load times for pages containing graphics.
 
