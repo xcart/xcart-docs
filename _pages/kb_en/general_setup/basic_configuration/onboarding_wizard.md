@@ -65,7 +65,7 @@ In Step 2 you can upload your company logo. By a company logo we mean an image r
 
 Similarly to a product image, your store logo can be uploaded from your local computer or via URL. Tap on the logo area to see the options. 
 
-As to the recommended size of your company logo image, you do not have to worry too much about resizing the image to a specific size before upload. With X-Cart, you can upload images larger than needed for display; X-Cart will automatically resize them for optimal user experience. In X-Cart versions 5.4 and later, the size to which your company logo image will be resized can be found (and, if necessary, adjusted) via the image size chart provided in the Images section of your X-Cart store Admin area (**Look & Feel** > **Images**). If your store is configured to provide x2 size images for Retina displays (i.e. the setting **generate_retina_images** in the file etc/config.php of your X-Cart installation is set to "On"), the minimum size of an image you should upload for use as your company logo needs to be twice as large as the size specified in the image size chart. For example, in Crisp White skin, according to the image size chart in the Images section, the size to which your uploaded company logo image will be resized is 221х40 px. This means that to ensure optimal image viewing experience for both your regular screen users and Retina screen users, the recommended size of your company logo image for upload should be 442x80 px. 
+As to the recommended size of your company logo image, you do not have to worry too much about resizing the image to a specific size before upload. With X-Cart, you can upload images larger than needed for display; X-Cart will automatically resize them for optimal user experience. In X-Cart versions 5.4 and later, the size to which your company logo image will be resized can be found (and, if necessary, adjusted) via the image size chart provided in the Images section of your X-Cart store Admin area (**Look & Feel** > **Images**). If your store is configured to provide x2 size images for Retina displays (i.e. the setting **generate_retina_images** in the file etc/config.php of your X-Cart installation is set to "On"), the minimum size of an image you should upload for use as your company logo needs to be twice as large as the size specified in the image size chart. For example, in Crisp White skin, according to the image size chart in the Images section, the size to which your uploaded company logo image will be resized is 221х40 px. This means that to ensure optimal image viewing experience for both your regular screen users and Retina screen users, the recommended size of your company logo image for upload should be at least 442x80 px. 
 
 Your store logo will be a part of your company style and will visualize your brand to the site visitors. If you do not have a good selling logo, feel free to [ask](https://www.x-cart.com/contact-us.html#design), and we will be happy to help you with it. 
 
@@ -74,11 +74,11 @@ Your store logo will be a part of your company style and will visualize your bra
 
 In Step 3 you can configure the geographic settings to connect your store with local customers and set your company info that will be used to form invoices, send email notifications and calculate shipping rates for your store.
 
-Start with the store locale. It has the predefined country, currency and weight values based on the info the wizard get during the software installation. However, these values may not always be correct. So you need to verify and change the data if required.
+Start with the store locale. The wizard will try to guess your country, currency and weight values based on the info that could be derived during the software installation. However, these values may not be correct. You need to verify the information on the screen and make changes, if required.
 
 ![quickstart-5.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-5.png)
 
-If everything is correct click **Proceed to the next step** to move on with the company details info. 
+If everything is correct, click **Proceed to the next step** to move on with the company details info. 
 
 If you need to go deep into the store localization click **More localization settings** and the wizard will open the Store setup -> Localization page in a new tab where {% link "more options" ref_cc4sCpa5 %} area available.
 
