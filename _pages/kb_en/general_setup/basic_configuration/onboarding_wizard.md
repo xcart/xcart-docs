@@ -78,39 +78,39 @@ Start with the store locale. The wizard will attempt to name your country, curre
 
 ![quickstart-5.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-5.png)
 
-Should you want to go deeper into the store localization settings, click **More localization settings**. The wizard will open the Localization page of your X-Cart store Admin area (**Store setup** > **Localization**) in a new tab, and you will be able to adjust the {% link "localization settings and preferences" ref_cc4sCpa5 %} in more detail.
+Should you want to go deeper into configuring the store localization settings, click **More localization settings**. The wizard will open the Localization page of your X-Cart store Admin area (**Store setup** > **Localization**) in a new tab, and you will be able to adjust the {% link "localization settings and preferences" ref_cc4sCpa5 %} in more detail.
 
 Once you are happy with your store's localization settings, click **Proceed to the next step** so you can move on to adjusting your company information.
 
-On the Company info page, you will need to enter your company name and business address. This address will be used as the "from" address for shipping.
+On the Company info page, you will need to enter your company name and business address. This information will be included into your customer invoice, and the address will be used as the "from" address for shipping.
 
 ![quickstart-6.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-6.png)
 
-Click **Save and go to the next step** when you are ready.
+After adjusting your company info, click **Save and go to the next step** to proceed.
 
 ## Step 4 - Set Up Delivery Options
 
 Step 4 of your store configuration is devoted to shipping. 
 
-First of all here you'll need to choose whether you'll sell tangible goods that need shipping or whether these will be e-goods and services that are non-shippable. 
+Here you will need to choose whether you are going to sell tangible goods that need to be shipped to the buyer or e-goods/services that are non-shippable. 
 
 ![quickstart-7.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-7.png)
 
-If you are selling e-goods and services everything is pretty simple. Click **Mark all products as non-shippable** and that's it! The wizard will set the [Requires shipping product option](https://kb.x-cart.com/products/products/managing_products/adding_products/basic_product_setup.html#shipping) for all products in your store to NO and all shipping methods will be disabled automatically.
+If you are selling e-goods and services, everything is pretty simple. Click **Mark all products as non-shippable**, and that's it! The wizard will set the [Requires shipping](https://kb.x-cart.com/products/products/managing_products/adding_products/basic_product_setup.html#shipping) product setting for all the products in your store to "NO", and shipping methods will be disabled automatically.
 
-If you sell tangible goods, the process is a bit more complicated. You need to set up shipping options for them. For this purpose click the **Set up shipping** button.
+If you are going to sell tangible goods, the process is going to be a bit more complicated. You need to set up shipping options for them. For this purpose, click the **Set up shipping** button.
 
-You'll see a page where you can configure shipping rates for your store:
+You will see a page where you can configure shipping rates for your store:
 
 ![quickstart-7-1.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-7-1.png)
 
-On this page you can choose between shipping carriers with real-time shipping quotes and your own flat shipping rate that you can create directly on this page. Just choose the destination country and set the rate, then click the **Create shipping rate** button. This shipping method will become available at checkout. 
+On this page you can choose between shipping carriers with real-time shipping quotes and your own flat shipping rate that you can create directly on this page (just choose a destination country and set the rate you require, then click the **Create shipping rate** button). This shipping method will be available at checkout. 
 
-For a more detailed shipping setup click the **Advanced shipping options** button and the wizard will open the Store setup -> Shipping page of the Admin area in the new tab where you can {% link "move on further" ref_3TG6AuN0 %}. 
+For a more detailed shipping setup, click the **Advanced shipping options** button. The wizard will open the Shipping methods page of your X-Cart store Admin area  (**Store setup** > **Shipping**) in a new tab where you will be able to {% link "configure your shipping methods" ref_3TG6AuN0 %} as you require. 
 
-If you choose real-time shipping carriers, click on the carrier logo and you'll be redirected to the carrier service page to set up an account with them. 
+If you choose real-time shipping carriers, click on the carrier logo, and you will be redirected to the carrier service page to set up an account with them. 
 
-When the shipping setup is over you can proceed to the last step of this wizard - payments setup.
+After configuring your shipping methods, proceed to the last step of this wizard - payments setup.
 
 ## Step 5 - Set Up Payment Methods
 
