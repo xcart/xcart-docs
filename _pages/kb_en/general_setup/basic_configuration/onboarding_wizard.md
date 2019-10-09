@@ -117,14 +117,14 @@ After configuring your shipping methods, proceed to the last step of this wizard
 Payment methods setup is the last but not the least step of the Onboarding Wizard. 
 ![quickstart-8.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-8.png)
 
-X-Cart allows to choose whether you'll use one or more of over 120 integrated online payment systems or whether you will process payments offline by your own means. 
+X-Cart allows you to choose whether you are going to use an integrated online payment system or process payments offline using your own means. 
 
-By default, off-line demo payment methods are pre-configured and enabled. They are quite enough to test your new X-Cart store functioning. So if that's the purpose, leave the present configuration settings as is and **Proceed to the next step** (complete the store setup with the wizard).
+By default, offline demo payment methods are pre-configured and enabled. They are quite enough to test your new X-Cart store functioning. So if that's the purpose, leave the present configuration settings as is and **Proceed to the next step** (complete the store setup with the wizard).
 
 However, if you want to process real orders, you need to configure real payment methods that will work for your customers. Click the **Set up offline & online payments** button for the wizard to open the Store setup -> Payments page in a new tab. Configure payment methods for your store {% link "following the guides of this manual" ref_Jq6Bsdrt %}. 
 
-Once the payments setup is complete, you are finished and can close the wizard.
+Once the payment methods configuration has been completed, you can close the wizard.
 
 ![quickstart-9.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-9.png)
 
-Please do mind that the Onboarding Wizard allows setting up the very basic store configuration. For a more robust store setup read on the guides from this manual that are aimed to help you to configure your online store to meet your business requirements and make your dreams of selling online come true!
+Please be aware that the Onboarding Wizard allows you to set up just the very basics of your store configuration. For a more robust store setup, refer to the relevant sections of this manual. 
