@@ -72,17 +72,17 @@ Your store logo will be a part of your company style and will visualize your bra
 
 ## Step 3 - Set Up Your Store Locale and Company Info
 
-In Step 3 you can configure the geographic settings to connect your store with local customers and set your company info that will be used to form invoices, send email notifications and calculate shipping rates for your store.
+In Step 3 you can configure the regional settings to connect your store with local customers and set your company info that will be used to form invoices, send email notifications and calculate shipping rates for your store.
 
-Start with the store locale. The wizard will try to guess your country, currency and weight values based on the info that could be derived during the software installation. However, these values may not be correct. You need to verify the information on the screen and make changes, if required.
+Start with the store locale. The wizard will attempt to name your country, currency and weight unit based on the info that could be derived during the software installation. However, these values may not be correct. You need to verify the information on the screen and make changes, if required.
 
 ![quickstart-5.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-5.png)
 
-If everything is correct, click **Proceed to the next step** to move on with the company details info. 
+Should you want to go deeper into the store localization settings, click **More localization settings**. The wizard will open the Localization page of your X-Cart store Admin area (**Store setup** > **Localization**) in a new tab, and you will be able to adjust the {% link "localization settings and preferences" ref_cc4sCpa5 %} in more detail.
 
-If you need to go deep into the store localization click **More localization settings** and the wizard will open the Store setup -> Localization page in a new tab where {% link "more options" ref_cc4sCpa5 %} area available.
+Once you are happy with your store's localization settings, click **Proceed to the next step** so you can move on to adjusting your company information.
 
-On the Company info page you'll need to fill in the company name and business address. This address will be used as a "from" address for the store shipping setup.
+On the Company info page, you will need to enter your company name and business address. This address will be used as the "from" address for shipping.
 
 ![quickstart-6.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-6.png)
 
