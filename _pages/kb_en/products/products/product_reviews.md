@@ -27,7 +27,7 @@ Another way to engage customers in writing a review is giving them a kind of bon
 
 _Repated pages:_
 
-* {% link "Product Reviews Addob" ref_XBriIS6B %}
+* {% link "Product Reviews Addon" ref_XBriIS6B %}
 * {% link "Shopper Approved Addon" ref_1leKQurL %}
 * {% link "Loyalty Program" ref_1Odyn6mT %}
 * {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
