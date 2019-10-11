@@ -88,7 +88,7 @@ On the Company info page, you will need to enter your company name and business 
 
 After adjusting your company info, click **Save and go to the next step** to proceed.
 
-## Step 4 - Set Up Delivery Options
+## Step 4 - Set Up Your Delivery Options
 
 Step 4 of your store configuration is devoted to shipping. 
 
@@ -112,7 +112,7 @@ If you choose real-time shipping carriers, click on the carrier logo, and you wi
 
 After configuring your shipping methods, proceed to the last step of this wizard - payments setup.
 
-## Step 5 - Set Up Payment Methods
+## Step 5 - Set Up Your Payment Methods
 
 Payment methods setup is the last but not the least step of the Onboarding Wizard. 
 ![quickstart-8.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-8.png)
@@ -127,4 +127,4 @@ Once the payment methods configuration has been completed, you can close the wiz
 
 ![quickstart-9.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/quickstart-9.png)
 
-Please be aware that the Onboarding Wizard allows you to set up just the very basics of your store configuration. For a more robust store setup, refer to the relevant sections of this manual. 
+Please be aware that the Onboarding Wizard allows you to set up just the very basics of your store configuration. For a more robust store setup, refer to the relevant sections of this manual.
