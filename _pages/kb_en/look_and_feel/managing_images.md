@@ -55,7 +55,10 @@ Note that the display size of a specific type of images on your store pages may 
 {% endnote %}
 
 ## Generate Resized Images
-Clicking the **Generate resized images** button at the bottom of the screen launches an image resizing routine to generate copies of existing images in all the sizes needed to display these images in your store's front end. Having a separate image file in each of the sizes provides a way to speed up your site's performance by reducing page load times for pages containing graphics.
+Clicking the **Generate resized images** button at the bottom of the screen launches an image resizing routine to generate copies of existing images in all the sizes needed to display these images in your store's front end. 
+![generate_resized_imgs.png]({{site.baseurl}}/attachments/ref_zyQIOcia/generate_resized_imgs.png)
+
+Having a separate image file in each of the sizes provides a way to speed up your site's performance by reducing page load times for pages containing graphics.
 
 ## Upload Custom Images 
 Any custom images that you want to use in your X-Cart store can be stored on the same server where your X-Cart software is installed. 
