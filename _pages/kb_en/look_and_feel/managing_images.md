@@ -65,8 +65,6 @@ Any custom images that you want to use in your X-Cart store can be stored on the
 
 Before you continue, make sure the module **Simple CMS** is {% link "installed and enabled" ref_0fGEpvrh %} in your store.
 
-![simple-cms.png]({{site.baseurl}}/attachments/ref_zyQIOcia/simple-cms.png)
-
 To upload an image:
 
 1.  Go to the **Custom images** part of the **Defauld image settings** page (**Look & Feel** -> **Images**).
