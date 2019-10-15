@@ -70,12 +70,18 @@ Before you continue, make sure the module **Simple CMS** is {% link "installe
 To upload an image:
 
 1.  Go to the **Custom images** part of the **Defauld image settings** page (**Look & Feel** -> **Images**).
-2.  Select the image that needs to be uploaded onto the X-Cart 5 server:
-    ![images-1.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images-1.png)
-3.  Click the **Save changes** button.
+
+2.  Click **Upload** and specify the image that needs to be uploaded onto the X-Cart 5 server:
+    ![upload_custom_img.png]({{site.baseurl}}/attachments/ref_zyQIOcia/upload_custom_img.png)
     
-The image will be uploaded:
-![images-2.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images-2.png)
+    The image will be selected for upload.
+
+3.  Click the **Save changes** button.
+    ![upload_custom_img1.png]({{site.baseurl}}/attachments/ref_zyQIOcia/upload_custom_img1.png)
+    
+    The image will be uploaded. You will be able to see it in the Custom images section at once:
+    ![upload_custom_img2.png]({{site.baseurl}}/attachments/ref_zyQIOcia/upload_custom_img2.png)
+
 
 ## Use Amazon S3 for Images
 X-Cart provides an addon that can be used to move all your category and product images over to the "cloud" storage services offered by Amazon. See the addon **[Amazon S3 Images](https://market.x-cart.com/addons/amazon-s3-images.html)** in the X-Cart App Store.
