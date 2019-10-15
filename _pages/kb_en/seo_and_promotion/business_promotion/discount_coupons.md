@@ -33,7 +33,7 @@ Provided that a valid coupon code is being used, the coupon will be applied to t
 The result will be reflected at checkout:
 ![xc5_coupons_couponapplied1.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_couponapplied1.png)
 
-If an invalid coupon code is entered (for example, if the coupon code is misspelled, expired or otherwise does not meet the coupon application conditions), the user will be informed of the problem: For example, here's the result of using an expired coupon code: 
+If an invalid coupon code is entered (for example, if the coupon code is misspelled, expired or otherwise does not meet the coupon application conditions), the user will be informed of the problem. For example, here is the result of using an expired coupon code: 
 ![xc5_coupons_invalidcoupon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_invalidcoupon.png)
 
 
@@ -61,7 +61,7 @@ To create a coupon:
     * **Coupon cannot be combined with other coupons** - Whether the coupon can be combined with other coupons.
     * **Categories** - Category/-ies to which the coupon should be applied.
     * **Product classes** - Product class(es) to which the coupon should be applied. 
-    * **Memberships** - Membership level(s) allowed to use the coupon.
+    * **Memberships** - Membership level(s) allowed to use the coupon. Note that if no membership level is specified in this field, any store user with or without a membershp will be able to use the coupon.
     
     ![xc5_coupons_addcoupon3.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_addcoupon3.png)
 
