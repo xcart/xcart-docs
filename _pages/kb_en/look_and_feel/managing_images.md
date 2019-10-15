@@ -17,15 +17,13 @@ An X-Cart store uses images for store categories, products and brands (Brands ar
 
 The performance of your X-Cart store - specifically, how fast a store page loads for store visitors - depends largely on the use of images. Large hi-res images slow down your store's web pages which creates a less than optimal user experience. To ensure a positive experience for your customers, X-Cart enables you to optimize your images. For example, you know your customers will want to be able to access a highly detailed product image via a product page, but are unlikely to need such a "heavy" image on a page where the product is listed along with other products (a product list page). X-Cart can help you to optimize your image use in this case by generating a larger image for the detailed page of a product and smaller images of the same product for pages requiring less detail. As a result, you will have different size versions of the same product image for every type of page with product information (a detailed image for the detailed product page, and two smaller images for the product list: one for list view, and another one for grid view). 
 
-To adjust your image optimization preferences, manage image resizing or upload custom images, visit the Images section of your store's Admin area (**Look & Feel** -> **Images**).
-![images.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images.png)
+To adjust your image optimization preferences, manage image resizing or upload custom images, visit the **Default image settings** page of your store's Admin area (**Look & Feel** -> **Images**).
 
 {% toc %}
 
-## Adjust Image Optimization Preferences
-The configuration settings in the **Default image settings** part of the **Images** section (**Look&Feel** -> **Images**) affect the display of any images used in your X-Cart store.
-
-![images-3.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images-3.png)
+## Adjust Default Image Settings
+The settings listed in the upper section of the **Default image settings** page (**Look & Feel** -> **Images**) affect the display of any images used in your X-Cart store.
+![default_image_settings.png]({{site.baseurl}}/attachments/ref_zyQIOcia/default_image_settings.png)
 
 The settings are as follows:
 
@@ -47,14 +45,17 @@ The settings are as follows:
   If you do not see the setting **Use blurred image placeholders for smart image loading** on the page, it is not supported by the skin installed in your X-Cart store at the moment.
   {% endnote %}
 
-The chart in the lower part of the Default image settings section provides information on the dimension limits  (width(px) and height(px)) for different types of images. (Note that these may be different depending on the {% link "skin installed" ref_GLqVdpgd %}). All the images in your store will be resized to fit these dimension limits taking into account the image settings above. For Retina displays, image dimensions twice as big as the ones specified in the chart will be used. In any case, you can change the default image dimension limits if required; however, please keep in mind that the original image should be at least twice as big as the size to which it will be resized (i.e. the dimensions specified in the chart). 
+After the above listed image settings comes a chart that provides information on the dimension limits  (width(px) and height(px)) for different types of images. (Note that these may be different depending on the {% link "skin installed" ref_GLqVdpgd %}). 
+![img_dimension_chart.png]({{site.baseurl}}/attachments/ref_zyQIOcia/img_dimension_chart.png)
+
+All the images in your store will be resized to fit these dimension limits taking into account the image settings above. For Retina displays, image dimensions twice as big as the ones specified in the chart will be used. In any case, you can change the default image dimension limits if required; however, please keep in mind that the original image should be at least twice as big as the size to which it will be resized (i.e. the dimensions specified in the chart). 
 
 {% note info %}
 Note that the display size of a specific type of images on your store pages may not match the dimensions specified in the chart in the Images section; that is due to the fact that the image display size may be modified by the CSS of a specific design skin. 
 {% endnote %}
 
 ## Generate Resized Images
-Clicking the **Generate resized images** button (at the bottom of the **Default image settings** section, next to the **Save** button) launches an image resizing routine to generate copies of existing images in all the sizes needed to display these images in your store's front end. Having a separate image file in each of the sizes provides a way to speed up your site's performance by reducing page load times for pages containing graphics.
+Clicking the **Generate resized images** button at the bottom of the screen launches an image resizing routine to generate copies of existing images in all the sizes needed to display these images in your store's front end. Having a separate image file in each of the sizes provides a way to speed up your site's performance by reducing page load times for pages containing graphics.
 
 ## Upload Custom Images 
 Any custom images that you want to use in your X-Cart store can be stored on the same server where your X-Cart software is installed. 
@@ -65,7 +66,7 @@ Before you continue, make sure the module **Simple CMS** is {% link "installe
 
 To upload an image:
 
-1.  Go to the **Custom images** part of the **Images** page (**Look&Feel** -> **Images**).
+1.  Go to the **Custom images** part of the **Defauld image settings** page (**Look & Feel** -> **Images**).
 2.  Select the image that needs to be uploaded onto the X-Cart 5 server:
     ![images-1.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images-1.png)
 3.  Click the **Save changes** button.
@@ -74,7 +75,7 @@ The image will be uploaded:
 ![images-2.png]({{site.baseurl}}/attachments/ref_zyQIOcia/images-2.png)
 
 ## Use Amazon S3 for Images
-X-Cart provides an addon that can be used to move all your category and product images over to the "cloud" storage services offered by Amazon. See the addon **[Amazon S3 Images](https://market.x-cart.com/addons/amazon-s3-images.html)** in X-Cart's Marketplace.
+X-Cart provides an addon that can be used to move all your category and product images over to the "cloud" storage services offered by Amazon. See the addon **[Amazon S3 Images](https://market.x-cart.com/addons/amazon-s3-images.html)** in the X-Cart App Store.
 
 _Related pages:_
 
