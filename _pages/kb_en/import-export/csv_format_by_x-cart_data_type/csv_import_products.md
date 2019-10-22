@@ -816,12 +816,12 @@ There are many more fields that you can include into your product CSV file. Belo
 
     This feature is supported by the following product fields:
     
-    - **memberships**;
-    - **categories**;
-    - **images**;
-    - **imagesAlt**;
-    - **attributeValue**;
-    - **variantImage** (Product Variants addon).
+    - memberships;
+    - categories;
+    - images;
+    - imagesAlt;
+    - attributeValue;
+    - variantImage (Product Variants addon).
     
     **Important**: importing "NULL" in the field **images** will not only clear the association of the image with the product, but will result in the physical removal of the image from the server.
     
