@@ -26,7 +26,7 @@ If this setting is set to `On`, the `target=callback` function will be available
 
 When the setting `optimize_css` is set to `On`, X-Cart will inline all CSS styles (used on the current page) in the `<head>` tag, complementing them with the `<link>` tags for the first load only. This will allow to show the styled page as soon as possible, and then the browser cache kicks in on each consecutive load.
 
-### Force Custom State with Autocompletion
+### Force State Field Autocomplete 
 
 The setting `autocomplete_states_for_countries` affects the way in which shoppers will provide information about the "state" part of their address at checkout. By default, for countries with defined states there is a drop-down box from which shoppers can select a state. 
 ![state_dropdown1.png]({{site.baseurl}}/attachments/ref_wGaTsp7Z/state_dropdown1.png)
