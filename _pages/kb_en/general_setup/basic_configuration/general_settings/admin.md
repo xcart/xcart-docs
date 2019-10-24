@@ -18,5 +18,5 @@ In X-Cart 5.3.x and earlier, the settings that affect the display of users, prod
 *   **Number of days to store the last login data**: This setting defines the lifespan of the "recent_login" cookie that is set by the store on a customer's computer when they log in. While being stored, the cookie allows the customer to return to the store without having to re-enter their user authentication details (username and password).
 
 {% note info %}
-Please note that the section **Admin Zone settings** was removed from X-Cart in X-Cart version 5.4.0.0, and the settings "Products per page", "Users per page" and "Orders per page" for the Admin area are no longer supported. Information on similar settings for the storefront part of an X-Cart store can be found in the section {% link "Storefront Setup" ref_5eR4FK3h %} of this manual. 
+Please note that the section **Admin Zone settings** was removed from X-Cart in X-Cart version 5.4.0.0, and the settings "Products per page" and "Orders per page" for the Admin area are no longer supported. The settings "Users per page" and "Number of days to store the last login data" are now available in the section **Store setup > Cart & checkout**  (the tab **General**). For more info, see the article {% link "Storefront Setup" ref_5eR4FK3h %}. 
 {% endnote%}
