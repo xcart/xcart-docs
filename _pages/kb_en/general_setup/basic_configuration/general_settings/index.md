@@ -20,7 +20,7 @@ _In this section:_
 
 *  {% link "Checkout Setup" ref_0I0Cpjkh %}
 *  {% link "Storefront Setup" ref_5eR4FK3h %}
-*  {% link "Admin Configuration" ref_5kwrqDZh %} (For X-Cart 5.3.x and earlier)
+*  {% link "Admin Configuration" ref_5kwrqDZh %} (features available in X-Cart 5.3.x and earlier; removed in X-Cart 5.4.0.0)
 *  {% link "Custom Storefront Options" ref_wGaTsp7Z %}
 
 _Related pages:_
