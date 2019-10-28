@@ -55,6 +55,7 @@ If your website crashed for any reason, contact your hosting team and ask them t
 It might happen that your hosting provider does not respond to you in time and you have to deal with the situation by yourself. Another possibility is that you are working in development environment and need to find out what exactly crashed your store so you would be able to fix it. In this case you may want to try using safe mode. Safe mode allows you to re-deploy your store with a limited set of addons, which can help you to identify the source of the problem more easily.
 
 To run your store in safe mode, you need to access your store website using a Hard or Soft reset link. The links can be found in your store's Admin area on the Safe mode page (**System tools** > **Safe mode**):
+
 ![safe_mode.png]({{site.baseurl}}/attachments/ref_3zSHgdQk/safe_mode.png)
 
 They can also be found in an email message that was sent to the administrator mailbox after X-Cart installation (For X-Cart versions 5.1.9 and later, the message subject reads "**Soft and Hard reset links for your store!**", for earlier versions - "**New safe mode access key has been generated!**"). 
