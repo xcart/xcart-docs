@@ -30,19 +30,22 @@ If you suspect the problem is caused by that your site's cache rebuild process w
 
     * **X-Cart versions 5.3.6.x-5.4.0.0:** Use the following URL format:
        `https://www.example.com/x-cart/admin.php?drop_cache&access_key=XXXXXXXXXXXXXX`
+      
+      The part "https://www.example.com/x-cart/" in the URL needs to be replaced with the actual address of your store website, and the part "XXXXXXXXXXXXXX" needs to be replaced with your actual Safe Mode access key. The Safe Mode access key can be found in the file `var/data/.safeModeAccessKey` in your X-Cart installation folder or - if you are using an X-Cart version below 5.4.0.0 - can be copied from any of the two reset links that were sent to your site administrator mailbox after X-Cart installation (For X-Cart 5.1.9-5.3.x, the message subject reads "**Soft and Hard reset links for your store!**"; for X-Cart versions 5.1.8 and earlier the subject is "**New safe mode access key has been generated!**").
        
-    * **X-Cart versions below 5.4.0.0-5.4.0.5:** Feature not supported.   
+    * **X-Cart versions below 5.4.0.0-5.4.0.5:** The feature not supported.   
     
     * **X-Cart versions below 5.4.0.5 and later:** Use the following URL format:
        `https://www.example.com/x-cart/service.php?/rebuild&auth_code=XXXXXXXXXXXXXX`
-       
-    The part "https://www.example.com/x-cart/" in the URL needs to be replaced with the actual address of your store website, and the part "XXXXXXXXXXXXXX" needs to be replaced with your actual Safe Mode access key. The Safe Mode access key can be found in the file `var/data/.safeModeAccessKey` in your X-Cart installation folder or - if you are using an X-Cart version below 5.4.0.0 - can be copied from any of the two reset links that were sent to your site administrator mailbox after X-Cart installation (For X-Cart 5.1.9-5.3.x, the message subject reads "**Soft and Hard reset links for your store!**"; for X-Cart versions 5.1.8 and earlier the subject is "**New safe mode access key has been generated!**"). Note that for X-Cart versions 5.4.0.0 and later the Safe Mode links are no longer sent to the administrator mailbox, so the administrator needs to get the Safe Mode access key from the file `var/data/.safeModeAccessKey`.
+      
+      The part "https://www.example.com/x-cart/" in the URL needs to be replaced with the actual address of your store website, and the part "XXXXXXXXXXXXXX" needs to be replaced with your actual Auth code (See the auth_code value in the file `etc/config.php`).
+    
     
 2.  Alternative method:
     
     * **X-Cart versions below 5.4.0.0:** Delete the folder **var/run** and the file `var/.rebuildStarted` in your X-Cart installation folder, then go to your store's Admin area. X-Cart will detect the absence of cache and will automatically launch the cache rebuild process.
     
-    * **X-Cart versions 5.4.0.0 and later:** Go to `https://www.example.com/x-cart/service.php#/login` (Be sure to replace the part "https://www.example.com/x-cart/" with your actual site address). Enter the auth_code from the file `etc/config.php` into the Auth code field. Go to `https://www.example.com/x-cart/service.php?/rebuild" (Again, be sure to use your own site address).
+    * **X-Cart versions 5.4.0.0 and later:** Go to `https://www.example.com/x-cart/service.php#/login` (Be sure to replace the part "https://www.example.com/x-cart/" with your actual site address). Enter the auth_code from the file `etc/config.php` into the Auth code field. Go to `https://www.example.com/x-cart/service.php?/rebuild` (Again, be sure to use your own site address).
 
 ## Contact your hosting team
 
@@ -50,35 +53,18 @@ Good hosting companies back up your entire website (databases and files) every d
 
 If your website crashed for any reason, contact your hosting team and ask them to recover your store from backup.
 
-## Recover your store using safe mode
+## Recover your store using Safe Mode
 
-It might happen that your hosting provider does not respond to you in time and you have to deal with the situation by yourself. Another possibility is that you are working in development environment and need to find out what exactly crashed your store so you would be able to fix it. In this case you may want to try using safe mode. Safe mode allows you to re-deploy your store with a limited set of addons, which can help you to identify the source of the problem more easily.
+It might happen that your hosting provider does not respond to you in time and you have to deal with the situation by yourself. Another possibility is that you are working in a development environment and need to find out what exactly crashed your store so you would be able to fix it. In this case you may want to try using Safe Mode. Safe Mode enables you to re-deploy your store with a limited set of addons (or without addons), which can help you to identify the source of your problem more easily.
 
-To run your store in safe mode, you need to access your store website using a Hard or Soft reset link. The links can be found in your store's Admin area on the Safe mode page (**System tools** > **Safe mode**):
-
-![safe_mode.png]({{site.baseurl}}/attachments/ref_3zSHgdQk/safe_mode.png)
-
-They can also be found in an email message that was sent to the administrator mailbox after X-Cart installation (For X-Cart versions 5.1.9 and later, the message subject reads "**Soft and Hard reset links for your store!**", for earlier versions - "**New safe mode access key has been generated!**"). 
-
-The format of the reset links is as follows:
-
-*   Core-only reset (X-Cart 5.4+):
-    `http://<shop_domain>/admin.php?target=main&safe_mode=1&access_key=<shop_key>&mode=core`
-*   Hard reset:
-    `http://<shop_domain>/admin.php?target=main&safe_mode=1&access_key=<shop_key>`
-*   Soft reset: 
-    `http://<shop_domain>/admin.php?target=main&safe_mode=1&access_key=<shop_key>&mode=soft`
-
-(If you cannot access your reset links, you can re-create them manually by replacing the part __`<shop_domain>`__ with the actual domain of your store and the part __`<shop_key>`__ with your actual Safe Mode access key from the file **var/data/.safeModeAccessKey**).
-
-Clicking on a reset link disables some or all of the addons installed at your store (Detailed information on the action of each link is available in the table below). Then X-Cart 5 tries to recover itself.  Once your store is back online, you can try enabling the addons again one by one in order to identify the one causing your site to crash. As soon as you know which addon is causing it, you can contact its developer to get it fixed. 
+To run your store in Safe Mode, you need to access your store website using a reset link. X-Cart has several types of reset links; detailed information on the action of each type of link is available in the table below. 
 
 <table class="ui celled padded compact small table">
   <thead>
   <tr >
       <th class="confluenceTh">&nbsp;</th>
       <th  class="confluenceTh">X-Cart versions 5.x-5.2.6</th>
-      <th colspan="1"  class="confluenceTh">X-Cart versions 5.2.7</th>
+      <th colspan="1"  class="confluenceTh">X-Cart versions 5.2.7 and later</th>
     </tr>
   </thead>
   <tbody >
@@ -118,11 +104,33 @@ Clicking on a reset link disables some or all of the addons installed at your st
   </tbody>
 </table>
 
-Starting with X-Cart version 5.2.7, the Safe mode section of your store's Admin area also provides the so-called "Current state" link. This link corresponds to your store's latest {% link "snapshot" ref_h7Oh5T8T %}. It may be useful if you want to capture the current state of your store and bring your store back to this state later. For example, you can copy this link and store it in a separate file before you try to install a new addon. If the installation goes wrong, you will be able to restore your site by visiting this link: your store will be re-deployed with only the addons that were active at the time you copied the link. The format of the Current state link is as follows:
+After a reset link is used, X-Cart disables the addons that need to be disabled according to the type of the link. Then it tries to recover itself.  Once the store is back online, it is possible to try enabling the addons again one by one in order to identify the one causing the site to crash. As soon as you know which addon is causing the problem, you can contact the addon developer to get it fixed. 
 
-`http://<shop_domain>/admin.php?target=main&safe_mode=1&access_key=<shop_key>&date=<restore_date>`
 
-(The link can be easily re-created manually by replacing the part "__`<shop_domain>`__" with the actual domain of your store, the part "__`<shop_key>`__" with your actual Safe Mode access key from the file __`var/data/.safeModeAccessKey`__ and __`<restore_date>`__ with the date of the snapshot that needs to be restored).
+In **X-Cart versions below 5.4.0.0**, you can find your Hard and Soft reset links in your store's Admin area on the Safe mode page (**System tools** > **Safe mode**).
+
+You can also find the same links in an email message that was sent to the administrator mailbox after X-Cart installation. For X-Cart versions 5.1.9 and later, the message subject reads "**Soft and Hard reset links for your store!**", for earlier versions - "**New safe mode access key has been generated!**". 
+
+The format of the reset links is as follows:
+
+*   Hard reset:
+    `https://www.example.com/x-cart/admin.php?target=main&safe_mode=1&access_key=XXXXXXXXXXXXXX`
+*   Soft reset: 
+    `https://www.example.com/x-cart/admin.php?target=main&safe_mode=1&access_key=XXXXXXXXXXXXXX&mode=soft`
+
+(If you cannot access your reset links, you can re-create them manually by replacing the part "https://www.example.com/x-cart/" with the actual address of your store and the part "XXXXXXXXXXXXXX" with your actual Safe Mode access key from the file `var/data/.safeModeAccessKey`).
+
+In X-Cart versions 5.2.7-5.3.x, the Safe mode section of your store's Admin area also provides the so-called "Current state" link. This link corresponds to your store's latest {% link "snapshot" ref_h7Oh5T8T %}. It may be useful if you want to capture the current state of your store and bring your store back to this state later. For example, you can copy this link and store it in a separate file before you try to install a new addon. If the installation goes wrong, you will be able to restore your site by visiting this link: your store will be re-deployed with only the addons that were active at the time you copied the link. The format of the Current state link is as follows:
+
+`https://www.example.com/x-cart/admin.php?target=main&safe_mode=1&access_key=XXXXXXXXXXXXXX&date=<restore_date>`
+
+(The link can be easily re-created manually by replacing the part "https://www.example.com/x-cart/" with the actual address of your store, the part "XXXXXXXXXXXXXX" with your actual Safe Mode access key from the file `var/data/.safeModeAccessKey` and `<restore_date>` with the date of the snapshot that needs to be restored).
+
+**X-Cart versions 5.4.0.0 and later** can use the so-called core reset. The link for core reset disables all the addons leaving just the X-Cart core. The format of the core reset link is as follows:
+
+*   Core-only reset (X-Cart 5.4+):
+    `https://www.example.com/x-cart/admin.php?target=main&safe_mode=1&access_key=XXXXXXXXXXXXXX&mode=core`
+
 
 _See also:_
 
