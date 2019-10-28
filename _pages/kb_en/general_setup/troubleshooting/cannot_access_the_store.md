@@ -109,7 +109,7 @@ After a reset link is used, X-Cart disables the addons that need to be disabled 
 
 In **X-Cart versions below 5.4.0.0**, you can find your Hard and Soft reset links in your store's Admin area on the Safe mode page (**System tools** > **Safe mode**).
 
-You can also find the same links in an email message that was sent to the administrator mailbox after X-Cart installation. For X-Cart versions 5.1.9 and later, the message subject reads "**Soft and Hard reset links for your store!**", for earlier versions - "**New safe mode access key has been generated!**". 
+You can also find the same links in an email message that was sent to the administrator mailbox after X-Cart installation. For X-Cart versions 5.1.9 and later, the message subject reads "Soft and Hard reset links for your store!", for earlier versions - "New safe mode access key has been generated!". 
 
 The format of the reset links is as follows:
 
@@ -122,7 +122,8 @@ The format of the reset links is as follows:
 
 In X-Cart versions 5.2.7-5.3.x, the Safe mode section of your store's Admin area also provides the so-called "Current state" link. This link corresponds to your store's latest {% link "snapshot" ref_h7Oh5T8T %}. It may be useful if you want to capture the current state of your store and bring your store back to this state later. For example, you can copy this link and store it in a separate file before you try to install a new addon. If the installation goes wrong, you will be able to restore your site by visiting this link: your store will be re-deployed with only the addons that were active at the time you copied the link. The format of the Current state link is as follows:
 
-`https://www.example.com/x-cart/admin.php?target=main&safe_mode=1&access_key=XXXXXXXXXXXXXX&date=<restore_date>`
+*   Current state: 
+    `https://www.example.com/x-cart/admin.php?target=main&safe_mode=1&access_key=XXXXXXXXXXXXXX&date=<restore_date>`
 
 (The link can be easily re-created manually by replacing the part "https://www.example.com/x-cart/" with the actual address of your store, the part "XXXXXXXXXXXXXX" with your actual Safe Mode access key from the file `var/data/.safeModeAccessKey` and `<restore_date>` with the date of the snapshot that needs to be restored).
 
