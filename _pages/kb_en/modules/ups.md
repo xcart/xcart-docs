@@ -39,7 +39,7 @@ So first of all you'll need to fill in the following fields in accordance with y
 
 *   **User ID**: Specify your UserID.
 *   **Password** Specify your password.
-*   **Access key**: Specify the access key you obtained from UPS.
+*   **Access key**: Specify your [UPS Access key](https://www.ups.com/us/en/help-center/sri/apiaccesskey.page). An Access key can be requested after registration. To request an Access key, go to https://www.ups.com/upsdeveloperkit?loc=en_US and click "Request an access key". On the page that opens, provide your contact and account information and select "Request Access Key" to continue. Once you have your Access key, copy and paste it into this field in X-Cart.
 *   **UPS Account number**: Specify the UPS account nember. A shipper's UPS account number is required when requesting to receive the negotiated rates.
 *   **Test mode**: Turn the test mode on if you want to check the UPS shipping processing before making it live.
  
