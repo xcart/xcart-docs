@@ -5,7 +5,7 @@ updated_at: '2019-10-29 12:53 +0400'
 identifier: ref_7b9XLDHj
 title: Amazon S3 Images
 order: 21
-published: false
+published: true
 ---
 Amazon S3 Images addon allows a store admin to move all the category and product images over to the "cloud" storage services offered by Amazon that will reduce the overall website’s bandwidth and allow to not exceed the limit set by a hosting provider. The addon also allows using an [Amazon CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html "Amazon S3 Images") CDN account to get the site images loaded by customers' browsers really fast.
 
@@ -75,11 +75,3 @@ Click this button to start the images migration. The process may take a while.
 
 When a migration is complete, a notification on a successfull images migration will be displayed:
 ![migration-completed.png]({{site.baseurl}}/attachments/ref_7b9XLDHj/migration-completed.png)
-
-
-
-
-
-
-
-
