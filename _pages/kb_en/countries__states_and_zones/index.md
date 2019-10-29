@@ -11,13 +11,13 @@ icon: flag
 description: Set up geographic zones for your shipping and tax rules
 published: true
 ---
-A customer address in X-Cart is used when setting up {% link "taxes" ref_kJmd7K27 %} and {% link "shipping" ref_7tvT7GEK %}. Hence a proper determination of a customer location plays a great role for the whole store set-up and maintenance.
+A customer's address is typically one of the main factors that determine what tax and shipping rates should be applied to an order. For this reason addresses need to be taken into account when setting up your store's {% link "taxes" ref_kJmd7K27 %} and {% link "shipping rules" ref_7tvT7GEK %}. 
 
-Customer addresses available for shipping and taxation in X-Cart can be configured using the **Countries, states and zones** section in the admin area (**Store setup** -> **Countries, states and zones**).
+Customer addresses available for shipping and taxation in X-Cart can be configured using the **Countries, states and zones** section in the Admin area (**Store setup** -> **Countries, states and zones**).
 
-By default, X-Cart has a biult-in information on 249 countries of the world with states configured for 11 of them (Argentina, Brazil, Canada, China, India, Indonesia, Japan, Mexico, Thailand, United Kingdom and United States). 
+By default, X-Cart has a built-in information on 249 countries of the world with states configured for 11 of them (Argentina, Brazil, Canada, China, India, Indonesia, Japan, Mexico, Thailand, United Kingdom and United States). 
 
-A store admin can enable/disable countries that are used in the store, change/delete states for the preconfigured countries and add states for the countries which don't have them in the default configuration. The countries and/or states can then be used to set up customer address zones that will be a base for the taxes and shipping configuration.
+A store admin can enable/disable countries that are used in the store, change/delete states for the preconfigured countries and add states for the countries which do not have them in the default configuration. The countries and/or states can then be used to set up customer address zones that will serve for the store's tax and shipping configuration.
 
 _In this section:_
 
