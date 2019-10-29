@@ -7,12 +7,9 @@ title: Amazon S3 Images
 order: 21
 published: true
 ---
-Amazon S3 Images addon allows a store admin to move all the category and product images over to the "cloud" storage services offered by Amazon that will reduce the overall website’s bandwidth and allow to not exceed the limit set by a hosting provider. The addon also allows using an [Amazon CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html "Amazon S3 Images") CDN account to get the site images loaded by customers' browsers really fast.
+[Amazon S3 Images addon](https://market.x-cart.com/addons/amazon-s3-images.html "Amazon S3 Images") allows a store admin to move all the category and product images over to the "cloud" storage services offered by Amazon that will reduce the overall website’s bandwidth and allow to not exceed the limit set by a hosting provider. The addon also allows using an [Amazon CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html "Amazon S3 Images") CDN account to get the site images loaded by customers' browsers really fast.
 
 To start using the Amazon S3 Images addon, you need to make sure it is installed and enabled as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
-
-Once the Amazon S3 Images addon has been installed and enabled, you will see an active **Settings** link in the **My addons** section of your store Admin area, that you should use to access the settings page to configure the addon:
-![module-enabled.png]({{site.baseurl}}/attachments/ref_7b9XLDHj/module-enabled.png)
 
 {% note warning %}
 
@@ -22,7 +19,7 @@ To be able to use the Amazon S3 Images addon you need to have an active Amazon A
 
 {% toc %}
 
-## Creating Bucket with Amazon AWS Account
+## Creating Bucket in Amazon AWS Account
 
 Start with creating a new bucket and getting the AWS access key and AWS secret key in your Amazon AWS account as you will need this data to configure the Amazon S3 Images addon in your store Admin area.
 
@@ -55,7 +52,10 @@ The Amazon Cloudfront domain mane you will find by clicking the distribution ID.
 
 ## Configuring Amazon S3 Images addon
 
-Locate the Amazon S3 Images addon in the **My addons** section of your store Admin area and click on the **Settings** link. You will be redirected to the Amazon S3 images settings page where it will be necessary to specify your Amazon AWS account data to configure the addon:
+Once the Amazon S3 Images addon has been installed and enabled, you will see an active **Settings** link in the **My addons** section of your store Admin area, that you should use to access the settings page to configure the addon:
+![module-enabled.png]({{site.baseurl}}/attachments/ref_7b9XLDHj/module-enabled.png)
+
+Click on the **Settings** link to be redirected to the Amazon S3 images settings page where it will be necessary to specify your Amazon AWS account data to configure the addon:
 ![settings-page.png]({{site.baseurl}}/attachments/ref_7b9XLDHj/settings-page.png)
 
 The settings that you need to define are as follows:
