@@ -82,7 +82,9 @@ To upload an image:
 
 
 ## Use Amazon S3 for Images
-X-Cart provides an addon that can be used to move all your category and product images over to the "cloud" storage services offered by Amazon. See the addon **[Amazon S3 Images](https://market.x-cart.com/addons/amazon-s3-images.html)** in the X-Cart App Store.
+X-Cart provides an [addon]((https://market.x-cart.com/addons/amazon-s3-images.html) "Managing Images") that can be used to move all your category and product images over to the "cloud" storage services offered by Amazon called **Amazon S3 Images** in the X-Cart App Store. 
+
+For the guides on the addon installation and configuration please see {% link "Amazon S3 Images" ref_7b9XLDHj %}.
 
 _Related pages:_
 
