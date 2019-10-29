@@ -20,6 +20,7 @@ _In this section:_
 *   {% link "Add to Cart PopUp" ref_1iGC8Efj %}
 *   {% link "Amazon Feeds" ref_4UNr3oKZ %}
 *   {% link "Amazon Pay" ref_mri0tPhM %} (former "Pay with Amazon")
+*   {% link "Amazon S3 Images" ref_7b9XLDHj %}
 *   {% link "AntiFraud Service Connector" ref_6oaerFUv %}
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
 *   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
