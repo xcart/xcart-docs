@@ -31,7 +31,7 @@ If you suspect the problem is caused by that your site's cache rebuild process w
     * **X-Cart versions 5.3.6.x-5.4.0.0:** Use the following URL format:
        `https://www.example.com/x-cart/admin.php?drop_cache&access_key=XXXXXXXXXXXXXX`
       
-      The part "https://www.example.com/x-cart/" in the URL needs to be replaced with the actual address of your store website, and the part "XXXXXXXXXXXXXX" needs to be replaced with your actual Safe Mode access key. The Safe Mode access key can be found in the file `var/data/.safeModeAccessKey` in your X-Cart installation folder or - if you are using an X-Cart version below 5.4.0.0 - can be copied from any of the two reset links that were sent to your site administrator mailbox after X-Cart installation (For X-Cart 5.1.9-5.3.x, the message subject reads "**Soft and Hard reset links for your store!**"; for X-Cart versions 5.1.8 and earlier the subject is "**New safe mode access key has been generated!**").
+      The part "https://www.example.com/x-cart/" in the URL needs to be replaced with the actual address of your store website, and the part "XXXXXXXXXXXXXX" needs to be replaced with your actual Safe Mode access key. The Safe Mode access key can be found in the file `var/data/.safeModeAccessKey` in your X-Cart installation folder or - if you are using an X-Cart version below 5.4.0.0 - can be copied from any of the two reset links that were sent to your site administrator mailbox after X-Cart installation (For X-Cart 5.1.9-5.3.x, the message subject reads "Soft and Hard reset links for your store!"; for X-Cart versions 5.1.8 and earlier the subject is "New safe mode access key has been generated!").
        
     * **X-Cart versions below 5.4.0.0-5.4.0.5:** The feature not supported.   
     
@@ -43,7 +43,7 @@ If you suspect the problem is caused by that your site's cache rebuild process w
     
 2.  Alternative method:
     
-    * **X-Cart versions below 5.4.0.0:** Delete the folder **var/run** and the file `var/.rebuildStarted` in your X-Cart installation folder, then go to your store's Admin area. X-Cart will detect the absence of cache and will automatically launch the cache rebuild process.
+    * **X-Cart versions below 5.4.0.0:** Delete the folder `var/run` and the file `var/.rebuildStarted` in your X-Cart installation folder, then go to your store's Admin area. X-Cart will detect the absence of cache and will automatically launch the cache rebuild process.
     
     * **X-Cart versions 5.4.0.0 and later:** Go to `https://www.example.com/x-cart/service.php#/login` (Be sure to replace the part "https://www.example.com/x-cart/" with your actual site address). Enter the auth_code from the file `etc/config.php` into the Auth code field. Go to `https://www.example.com/x-cart/service.php?/rebuild` (Again, be sure to use your own site address).
 
