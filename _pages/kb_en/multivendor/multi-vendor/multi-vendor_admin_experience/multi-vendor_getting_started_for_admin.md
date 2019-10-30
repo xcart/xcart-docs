@@ -94,7 +94,7 @@ Regardless of who is going to collect taxes (the store owner/storefront operator
 
 The store administrator representing the store owner/storefront operator will need to configure tax calculation with one of the following methods:
 
-   * Using an X-Cart tax configuration addon like {% link "Sales tax" ref_aJPK4DHN %}, {% link "VAT/GST" ref_Rzp45QlN %} or {% link "Canadian taxes" ref_hxmof6xX %} (This method involves extensive configuration of zones, taxes and tax rates).
+   * Using an X-Cart tax configuration addon like {% link "Sales tax" ref_7fGmqgPE %}, {% link "VAT/GST" ref_0GjdgNJx %} or {% link "Canadian taxes" ref_08gXAvpC %} (This method involves extensive configuration of zones, taxes and tax rates).
    or 
    * Using an integration of an online tax calculation service like {% link "AvaTax" ref_6880bVvi %} or {% link "TaxJar" ref_0wHdWryq %} (This method involves getting an account with one of the online tax calculation services and configuring the store to connect to the respective service to get tax rates for each order).
 
