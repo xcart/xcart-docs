@@ -5,7 +5,7 @@ updated_at: '2019-10-31 19:11 +0400'
 identifier: ref_1ZawgIg9
 title: Configuring Taxes for a Store in the U.S.
 order: 600
-published: false
+published: true
 ---
 To configure taxes for an X-Cart store based in the United States, use one of the following options:
     * [Sales Tax](https://market.x-cart.com/addons/sales-tax.html) - an addon for manual configuration of sales tax. See {% link "Sales Tax addon manual" ref_7fGmqgPE %}.
