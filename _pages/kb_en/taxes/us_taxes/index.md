@@ -21,4 +21,4 @@ _In this section_:
 
 *  {% link "Sales Tax Basics" ref_689k7NR8 %}
 *  {% link "Sales Tax Nexus" ref_23WeJDxE %}
-*  {% link "Configuring Taxes for a Store in the U.S." ref_1ZawgIg9 %}
+*  {% link "Configuring Taxes for an X-Cart Store in the U.S." ref_1ZawgIg9 %}
