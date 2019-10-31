@@ -9,16 +9,16 @@ published: true
 ---
 Both the UK and the EU use value-added tax system (VAT). Each European country and the UK has a different VAT rate that can be charged by a merchant only if the business is registered for VAT. A registered business must provide a VAT invoice in case there is no VAT exemption for the goods.
 
-VAT rates and VAT exemptions in X-Cart can be set up manually using the {% link "Value Added Tax/Goods Service Tax addon" ref_0GjdgNJx %}. The addon allows configuring different tax rates based on the membership level and address of the customer. It also supports tax exemption based on customer’s VAT ID.
+VAT rates and VAT exemptions in X-Cart can be set up using one of the following addons:
 
-To automate tax calculation and setup, European and EU based businesses can use the {% link "AvaTax Sales Tax Automation" ref_6880bVvi %} addon.
-
+* **[Value Added Tax / Goods and Services Tax](https://market.x-cart.com/addons/uk-vat.html)** - an addon for for manual configuration of VAT/GST. Can be used for any country with VAT/GST taxation.  The addon allows configuring different tax rates based on the membership level and address of the customer. It also supports tax exemption based on the customer’s VAT ID. See the {% link "Value Added Tax / Goods and Services Tax addon manual" ref_0GjdgNJx %}.
+ 
+* **[AvaTax Sales Tax Automation](https://market.x-cart.com/addons/avatax-sales-tax-automation.html)** - an addon for integration with AvaTax, a sales tax automation service by Avalara. See the {% link "AvaTax Sales Tax Automation addon manual" ref_6880bVvi %}. 
+   
 _In this section:_
 *  {% link "VAT Basics" ref_1hm03ERt %}
 *  {% link "VAT-Inclusive Prices" ref_4tqYojGn %}
-*  {% link "VAT/GST Addon Installation and Configuration" ref_Rzp45QlN %}
-*  {% link "VAT Rates" ref_1uXE2bZt %}
-*  {% link "VAT on Delivery" ref_168jPT7A %}
-*  {% link "VAT Exemptions" ref_0OMhh0n0 %}
-*  {% link "Examples of VAT Setup" ref_0i5znUi1 %}
-*  {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
+
+_Related pages:_
+*  {% link "Value Added Tax / Goods and Services Tax Addon" ref_0GjdgNJx %}
+*  {% link "AvaTax Sales Tax Automation Addon" ref_6880bVvi %}
