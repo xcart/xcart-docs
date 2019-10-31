@@ -16,9 +16,9 @@ US sales tax in X-Cart can be configured using one of the following addons:
    * **[Sales Tax](https://market.x-cart.com/addons/sales-tax.html)** - an addon for manual configuration of sales tax. Setting up sales tax in X-Cart 5 using this addon takes time and effort, but the system provides enough flexibility to configure even the most intricate tax calculation rules. If necessary, you can set tax rates dependent on the tax class of the products in the order, the customer's address zone and the customer's membership level.
 See the {% link "Sales Tax addon manual" ref_7fGmqgPE %}.
    
-   * **[AvaTax Sales Tax Automation](https://market.x-cart.com/addons/avatax-sales-tax-automation.html)** - an addon for integration with AvaTax, a sales tax automation service by Avalara. See {% link "AvaTax Sales Tax Automation addon manual" ref_6880bVvi %}. 
+   * **[AvaTax Sales Tax Automation](https://market.x-cart.com/addons/avatax-sales-tax-automation.html)** - an addon for integration with AvaTax, a sales tax automation service by Avalara. See the {% link "AvaTax Sales Tax Automation addon manual" ref_6880bVvi %}. 
    
-   * **[TaxJar Sales Tax Automation](https://market.x-cart.com/addons/taxjar-sales-tax-automation.html)** - an addon for integration with TaxJar, a popular sales tax automation service in the US. See {% link "TaxJar Sales Tax Automation addon manual" ref_0pVRmMbF %}.
+   * **[TaxJar Sales Tax Automation](https://market.x-cart.com/addons/taxjar-sales-tax-automation.html)** - an addon for integration with TaxJar, a popular sales tax automation service in the US. See the {% link "TaxJar Sales Tax Automation addon manual" ref_0pVRmMbF %}.
 
 No matter whether you choose to configure your sales tax manually or use an automated solution, be sure to first consult your accountant or local tax authority on the tax requirements that apply to your online business. This is highly recommended to ensure you are charging tax properly for your store.
 
