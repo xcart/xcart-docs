@@ -27,3 +27,8 @@ _In this section_:
 *  {% link "Sales Tax Basics" ref_689k7NR8 %}
 *  {% link "Sales Tax Nexus" ref_23WeJDxE %}
 
+_Related pages:_
+
+*  {% link "Sales Tax Addon" ref_7fGmqgPE %}
+*  {% link "AvaTax Sales Tax Automation Addon" ref_6880bVvi %}
+*  {% link "TaxJar Sales Tax Automation Addon" ref_0pVRmMbF %}
