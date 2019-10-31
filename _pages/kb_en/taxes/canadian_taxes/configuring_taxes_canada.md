@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-10-31 20:02 +0400'
 identifier: ref_5kka3e2k
-title: Configuring Taxes for a X-Cart Store in Canada
+title: Configuring Taxes for an X-Cart Store in Canada
 order: 600
 published: true
 ---
