@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-10-31 19:11 +0400'
 identifier: ref_1ZawgIg9
-title: Configuring Taxes for a X-Cart Store in the U.S.
+title: Configuring Taxes for an X-Cart Store in the U.S.
 order: 600
 published: true
 ---
