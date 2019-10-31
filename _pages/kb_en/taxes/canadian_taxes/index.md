@@ -25,6 +25,6 @@ Taxes for Canada can be set up manually in X-Cart using the {% link "Canadian Ta
 To automate tax calculation and setup Canada based businesses can use the {% link "AvaTax Sales Tax Automation" ref_6880bVvi %} addon.
 
 _In this section_:
-*  {% link "Canadian Taxes Addon Installation and Configuration" ref_01HpRkKG %}
-*  {% link "Provincial Tax Rates Setup" ref_0ODNArlF %}
-*  {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
+
+*  {% link "Configuring Taxes for a X-Cart Store in Canada" ref_5kka3e2k %}
+
