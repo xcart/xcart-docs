@@ -127,10 +127,6 @@ In X-Cart versions 5.2.7-5.3.x, the Safe mode section of your store's Admin area
 
 (The link can be easily re-created manually by replacing the part "https://www.example.com/x-cart/" with the actual address of your store, the part "XXXXXXXXXXXXXX" with your actual Safe Mode access key from the file `var/data/.safeModeAccessKey` and `<restore_date>` with the date of the snapshot that needs to be restored).
 
-**X-Cart versions 5.4.0.0 and later** can use the so-called core reset. The link for core reset disables all the addons leaving just the X-Cart core. The format of the core reset link is as follows:
-
-*   Core-only reset (X-Cart 5.4+):
-    `https://www.example.com/x-cart/admin.php?target=main&safe_mode=1&access_key=XXXXXXXXXXXXXX&mode=core`
 
 
 _See also:_
