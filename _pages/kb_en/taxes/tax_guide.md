@@ -30,13 +30,11 @@ The checklist below outlines the steps you need to take to configure taxes in an
    *   [AvaTax Sales Tax Automation](https://market.x-cart.com/addons/avatax-sales-tax-automation.html) - for the US, Canada and the EU; see {% link "AvaTax Sales Tax Automation addon manual" ref_6880bVvi %}. 
    *   [TaxJar Sales Tax Automation](https://market.x-cart.com/addons/taxjar-sales-tax-automation.html) - for the US only; see {% link "TaxJar Sales Tax Automation addon manual" ref_0pVRmMbF %}.
 
-2. Assign the required {% link "Tax Classes" ref_pAWOdG8N %} to every product in your store.
-
-   You can create your custom tax classes or use the "Default tax class" which is assigned to all your products by default. 
-    *   {% link "Creating Tax Classes" ref_pAWOdG8N#creating-tax-classes %};
-    *   {% link "Assigning Tax Classes to Products" ref_pAWOdG8N#assigning-tax-classes-to-products %}.
-
-3.  Configure the address zones for which the taxes will be set up. You will need these zones to use different tax rates based on the customer address. 
+2. Make sure that every product and shipping method in your store has an appropriate tax class assigned. 
+   You can create your custom tax classes or use the "Default tax class". (The "Default tax class" will be assigned to all the products and shipping methods for which no other tax class will be configured.
+   See {% link "Tax Classes" ref_pAWOdG8N %} for more info.
+    
+3. Configure the address zones for which the taxes will be set up. You will need these zones to use different tax rates based on the customer address. 
     *   {% link "Setting up Address Zones" ref_r68iO5Rm %}
     
     {% note warning %}
