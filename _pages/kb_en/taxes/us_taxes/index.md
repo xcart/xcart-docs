@@ -21,7 +21,4 @@ _In this section_:
 
 *  {% link "Sales Tax Basics" ref_689k7NR8 %}
 *  {% link "Sales Tax Nexus" ref_23WeJDxE %}
-*  {% link "Sales Tax Addon Installation and Configuration" ref_1QWLEsXG %}
-*  {% link "Manual Sales Tax Rates Setup" ref_4oLvbanr %}
-*  {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
-*  {% link "TaxJar Sales Tax Automation" ref_0wHdWryq %}
+*  {% link "Configuring Taxes for a Store in the U.S." ref_1ZawgIg9 %}
