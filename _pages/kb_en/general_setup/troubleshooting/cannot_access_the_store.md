@@ -53,7 +53,7 @@ Good hosting companies back up your entire website (databases and files) every d
 
 If your website crashed for any reason, contact your hosting team and ask them to recover your store from backup.
 
-## Recover your store using Safe Mode
+## Recover your store using Safe Mode (X-Cart versions below 5.4.x)
 
 It might happen that your hosting provider does not respond to you in time and you have to deal with the situation by yourself. Another possibility is that you are working in a development environment and need to find out what exactly crashed your store so you would be able to fix it. In this case you may want to try using Safe Mode. Safe Mode enables you to re-deploy your store with a limited set of addons (or without addons), which can help you to identify the source of your problem more easily.
 
@@ -64,7 +64,7 @@ To run your store in Safe Mode, you need to access your store website using a re
   <tr >
       <th class="confluenceTh">&nbsp;</th>
       <th  class="confluenceTh">X-Cart versions 5.x-5.2.6</th>
-      <th colspan="1"  class="confluenceTh">X-Cart versions 5.2.7 and later</th>
+      <th colspan="1"  class="confluenceTh">X-Cart versions 5.2.7-5.3.x (below 5.4.x)</th>
     </tr>
   </thead>
   <tbody >
