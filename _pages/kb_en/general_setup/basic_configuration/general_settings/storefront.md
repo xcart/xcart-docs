@@ -115,8 +115,6 @@ The settings that you can configure here are as follows:
 
 *   **Allow customers to sign up for membership**: This setting can be enabled to add a membership signup box on the customer profile details page. If a customer wishes to join some membership group, they will be able to use that box to specify the membership group they wish to join. After the customer's profile details with the specified membership are saved, a membership signup request will be submitted to the store administrator in the form of an email notification. The administrator can then choose whether to approve or decline it.
 
-Starting from X-Cart 5.4.0.x the following settings are also available in this section:
-
-*   **Users per page**:  This setting allows you to specify the maximum number of users that can be displayed on a search results page in the Admin area.
+Starting from X-Cart 5.4.0.x the following setting is also available in this section:
 
 *  **Number of days to store the last login data**: This setting defines the lifespan of the “recent_login” cookie that is set by the store on a customer’s computer when they log in. While being stored, the cookie allows the customer to return to the store without having to re-enter their user authentication details (username and password).
