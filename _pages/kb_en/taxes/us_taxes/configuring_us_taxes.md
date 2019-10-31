@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2019-10-31 19:11 +0400'
 identifier: ref_1ZawgIg9
 title: Configuring Taxes for a Store in the U.S.
-order: 100
+order: 600
 published: false
 ---
 To configure taxes for an X-Cart store based in the United States, use one of the following options:
