@@ -20,11 +20,15 @@ The HST is collected in five of the ten Canadian provinces: New Brunswick, Newfo
 
 The three territories of Canada (Yukon, Northwest Territories and Nunavut) and province of Alberta do not have territorial sales taxes and collect the GST only.
 
-Taxes for Canada can be set up manually in X-Cart using the {% link "Canadian Taxes" ref_hxmof6xX %} addon. X-Cart Canadian taxes addon comes with the predefined privincial tax rates and automatically displays the correct tax name to a customer at checkout based on the customer’s province. A store admin can edit tax rates for each province if necessary and also set several taxes for a province based on customers memberships.
+In an X-Cart based store, Canadian taxes can be configured using one of the following X-Cart addons:
 
-To automate tax calculation and setup Canada based businesses can use the {% link "AvaTax Sales Tax Automation" ref_6880bVvi %} addon.
+   * **[Canadian Taxes](https://market.x-cart.com/addons/canadian-taxes.html)** - an addon for manual configuration of Canadian taxes (GST, PST, QST or HST). The addon comes with the privincial tax rates pre-configured and automatically displays the correct tax name to a customer at checkout based on the customer’s province. If required, a store administrator can edit the tax rates for each province, as well as set several taxes for a province based on customer memberships. See the {% link "Canadian Taxes addon manual" ref_08gXAvpC %}.
+   
+   * **[AvaTax Sales Tax Automation](https://market.x-cart.com/addons/avatax-sales-tax-automation.html)** - an addon for integration with AvaTax, a sales tax automation service by Avalara.  See {% link "AvaTax Sales Tax Automation addon manual" ref_6880bVvi %}.
+   
+_Related pages:_
 
-_In this section_:
+* {% link "Canadian Taxes Addon" ref_08gXAvpC %}.
+* {% link "AvaTax Sales Tax Automation Addon" ref_6880bVvi %}
 
-*  {% link "Configuring Taxes for a X-Cart Store in Canada" ref_5kka3e2k %}
 
