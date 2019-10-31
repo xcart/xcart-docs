@@ -89,13 +89,6 @@ To run your store in Safe Mode, you need to access your store website using a re
       <td colspan="1"  class="confluenceTd"><span>Disables all the addons except for the ones developed by X-Cart 5 team</span>
       </td>
     </tr>
-    <tr>
-      <td  class="confluenceTd"><strong>Core-only reset (X-Cart 5.4+)</strong>
-      </td>
-      <td colspan="2" class="confluenceTd">
-        <span>Disables absolutely all the addons and custom mods, leaving only the core</span>
-      </td>
-    </tr>
     <tr >
       <td colspan="3"  class="confluenceTd">
         <p><strong>Note</strong>: Any custom modifications uploaded to your store in the form of addons via the "Upload addon" feature are disabled regardless of the reset link type - no matter who the author of the modification is, whether it be X-Cart service departments, X-Cart partners or 3rd party developers.</p>
