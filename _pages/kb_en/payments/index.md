@@ -41,13 +41,6 @@ You can get even more payment options for checkout by using [X-Payments](https:/
 
 *   [Payment gateways supported by X-Payments](https://www.x-payments.com/help/X-Payments:Payment_gateways_supported_by_X-Payments_3.1)
 
-To use X-Payments with your X-Cart store, you require an X-Payments account and the following X-Cart addons:
+More info on the use of X-Payments with X-Cart is available here:
 
-* If using X-Payments v1.x-3.x:
-
-  * [X-Payments v1.x-3.x connector](https://market.x-cart.com/addons/xpayments-connector.html) (See {% link "manual" ref_NaZh0d1b %})
-  * [X-Payments Subscriptions](https://market.x-cart.com/addons/x-payments-subscriptions-and-installements.html) (See {% link "manual" ref_8VFoqBFZ %})
-  
-* If using X-Payments Cloud:
- 
-  * [X-Payments Cloud connector](https://market.x-cart.com/addons/x-payments-cloud.html)
+*   {% link "X-Payments Integrations" ref_2c7t7YRG %}
