@@ -7,15 +7,14 @@ title: Theme Tweaker and Webmaster Mode
 order: 400
 published: true
 description: Learn how to use Webmaster mode to apply changes to the default store layout
-version: X-Cart 5.4.x
 ---
 
 Sometimes it may be necessary to change the default page layout in your X-Cart store to make your store unique or to adapt the default layout to meet your business requirements. You can do this easily using a built-in addon [Theme Tweaker](https://market.x-cart.com/addons/theme-tweaker.html "Using Theme Tweaker for Layout Changes"). This addon allows adding your own CSS styles and JavaScript codes to the existing X-Cart ones, adding custom images or even editing text labels and rearranging the info blocks on the page. 
 
 {% note info %}
-X-Cart v5.3.x and earlier used the Custom Skin addon instead of Template Editor. 
+For earlier X-Cart versions that used the Custom Skin addon instead of Theme Tweaker. 
 
-To switch from Custom Skin to Theme Editor without losing your files, you should copy them from XC5_DIR/skins/custom_skin to XC5_DIR/skins/theme_tweaker (XC5_DIR is the directory where your X-Cart 5 instance is installed).
+To switch from Custom Skin to Theme Tweaker without losing your files, you should copy them from XC5_DIR/skins/custom_skin to XC5_DIR/skins/theme_tweaker (XC5_DIR is the directory where your X-Cart 5 instance is installed).
 
 NB: If there are custom changes in the PHP files, they will have to be manually transferred to a separate custom addon and updated to be compatible with X-Cart 5.4.0.x.
 {% endnote %}
@@ -30,7 +29,7 @@ While the addon is enabled, you can {% link "change skins" ref_GLqVdpgd %} with 
 For this purpose log in as an admin and open the storefront using the "View storefront" button on any page of your store Admin area. 
 ![view-storefront.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/view-storefront.png)
 
-The storefront will be opened in a new tab. Find the 'Gear' icon in the bottom left corner and click on it to start editing pages using **Webmaster mode**.
+The storefront will be opened in a new tab. Find the 'Gear' icon in the bottom left corner and click on it to start editing pages using **Webmaster mode**. (For X-Cart 5.4.0.x and later the **Webmaster Mode** panel is always visible at the bottom of the storefront when opened by a logged in administrator).
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![gear-icon.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/gear-icon.png)</div>
