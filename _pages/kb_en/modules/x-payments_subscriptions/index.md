@@ -8,6 +8,8 @@ categories:
   - User manual
 published: true
 order: 410
+redirect_from:
+  - /payments/xp_subscriptions.html
 ---
 The addon **X-Payments subscriptions** is a recurring billing solution for stores based on X-Cart 5 that allows you to create product subscriptions and process them via [X-Payments](http://www.x-payments.com/help/Main_Page), a PCI DSS Level 1 service provider. 
 
