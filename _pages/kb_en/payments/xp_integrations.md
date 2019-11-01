@@ -13,11 +13,12 @@ X-Cart can be integrated with [X-Payments](https://www.x-payments.com/), a PSD2/
 
 To use X-Cart with X-Payments, you require an X-Payments account and the following X-Cart addons:
 
+* If using X-Payments Cloud:
+ 
+  * [X-Payments Cloud connector](https://market.x-cart.com/addons/x-payments-cloud.html)
+
 * If using X-Payments v1.x-3.x:
 
   * [X-Payments v1.x-3.x connector](https://market.x-cart.com/addons/xpayments-connector.html) (See {% link "manual" ref_NaZh0d1b %})
   * [X-Payments Subscriptions](https://market.x-cart.com/addons/x-payments-subscriptions-and-installements.html) (See {% link "manual" ref_8VFoqBFZ %})
   
-* If using X-Payments Cloud:
- 
-  * [X-Payments Cloud connector](https://market.x-cart.com/addons/x-payments-cloud.html)
