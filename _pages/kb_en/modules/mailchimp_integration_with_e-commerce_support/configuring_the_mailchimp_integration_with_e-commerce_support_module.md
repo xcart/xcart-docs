@@ -9,9 +9,12 @@ published: true
 ---
 The settings and preferences for the addon "Mailchimp Integration with Ecommerce support" can be adjusted on the addon settings page in your X-Cart store’s Admin area.
 
-## Mailchimp settings
+The "Mailchimp Integration with Ecommerce support" addon configuration consists of 2 main steps:
+{% toc %}
 
-In the **Mailchimp settings** section of the page, the following settings can be adjusted:
+## Mailchimp Settings Configuration
+
+The basic addon configuration settings are adjusted in the **Mailchimp settings** tab of the settings page:
 ![xc5_mailchimp_settings.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_settings.png)
    
    * **Mailchimp API key**: The API key that was used to connect your X-Cart store to your Mailchimp account. If, for some reason, you need to use a different Mailchimp account or a different key, use the "Reset Mailchimp connection" link.
@@ -32,11 +35,12 @@ In the **Mailchimp settings** section of the page, the following settings can be
 * **Type of discount coupons that should be uploaded to Mailchimp**: This setting is available only if the addon [Coupons](https://market.x-cart.com/addons/discount-coupons.html) is installed and active. Adjust this setting to specify the type of coupons that Mailchimp should be able to pull from your store for use in your campaigns via [promo code content blocks](https://mailchimp.com/help/use-promo-code-content-blocks/). The available options are:
    * _All discount coupons:_ Select this option if you would like to be able to use with Mailchimp any coupons created in your X-Cart store.
    * _Only the discount coupons that match the Mailchimp promo rules:_ Select this option if you need Mailchimp to be able to import only the coupons that have been configured with the following fields defined (all the four of them, or just some of them): 
-    - Code;
-    - Discount amount;
-    - Active from;
-    - Active till.
-    Discount coupons configured using any fields on top of this set (for example, a coupon for which a product category or a product class has been specified) will not be imported into Mailchimp.
+     - Code;
+     - Discount amount;
+     - Active from;
+     - Active till.
+       
+       Discount coupons configured using any fields on top of this set (for example, a coupon for which a product category or a product class has been specified) will not be imported into Mailchimp.
   
 * **Site connection code**: This field is where your mc.js connection code snippet needs to be added. Once added via this field, the snippet is installed on your store website so that MailChimp can insert javascript for features. Namely, mc.js is needed so your store website can display this block: https://mailchimp.com/features/custom-forms/. In most cases, you will not have to add the mc.js code snippet via this field manually: the snippet will appear in this field automatically as soon as your store has been fully connected to Mailchimp. The connection process is considered fully completed after your store data has been [uploaded to Mailchimp](#e-commerce-features-setup). After the completion of the connection process, you see your connected store in your Mailchimp account and can access the respective settings:
    ![xc5_mailchimp_store_connected.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_store_connected.png)
@@ -46,9 +50,9 @@ Attention users upgrading from an older Mailchimp integration version _without_ 
    ![xc5_mailchimp_code.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_code.png)
 
 
-## E-Commerce features setup
+## E-Commerce Features Setup
 
-The **E-Commerce features setup** section of the addon settings page enables you to control the upload of store data (products, orders, carts and customers) to Mailchimp. 
+The **E-Commerce features setup** tab of the addon settings page enables you to control the upload of store data (products, orders, carts and customers) to Mailchimp. 
 ![xc5_mailchimp_ecommerce_features.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_ecommerce_features.png)
 
 This section does not appear on the page until Mailchimp lists are updated.
