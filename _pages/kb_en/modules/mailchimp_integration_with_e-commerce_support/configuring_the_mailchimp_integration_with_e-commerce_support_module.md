@@ -72,7 +72,7 @@ The basic addon configuration settings are adjusted in the **Mailchimp settings*
 The **E-Commerce features setup** tab of the addon settings page enables you to control the upload of store data (products, orders, carts and customers) to Mailchimp. 
 ![xc5_mailchimp_ecommerce_features.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_ecommerce_features.png)
 
-This section does not appear on the page until Mailchimp lists are updated.
+This section does not appear on the page until Mailchimp lists are updated in the [Mailchimp setttings tab](https://kb.x-cart.com/modules/mailchimp_integration_with_e-commerce_support/configuring_the_mailchimp_integration_with_e-commerce_support_module.html#mailchimp-settings-configuration "Configuring the Addon 'Mailchimp Integration with E-commerce Support'").
 ![xc5_update_mailchimp_lists.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_update_mailchimp_lists.png)
 
 Once the lists have been updated, you need to go to the **E-Commerce features setup** section and upload your store data to Mailchimp. Uploading your store data to Mailchimp enables you to take full advantage of Mailchimp Product Recommendations and Abandoned Carts. For the best performance of these features, the products, orders, carts and customers from your ecommerce store need to be uploaded to Mailchimp and organized as a [Store](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/). On the Mailchimp end, a Store is the top-level e-commerce resource. Carts, Customers, Orders, and Products all exist inside of the scope of a Store. 
