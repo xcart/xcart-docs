@@ -20,11 +20,17 @@ The basic addon configuration settings are adjusted in the **Mailchimp settings*
    * **Mailchimp API key**: The API key that was used to connect your X-Cart store to your Mailchimp account. If, for some reason, you need to use a different Mailchimp account or a different key, use the "Reset Mailchimp connection" link.
    
    * **Enable E-commerce analytics**: This option enables E-commerce analytics by Mailchimp for your X-Cart store. For details, see the article [Use Mailchimp for E-Commerce](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use Mailchimp for E-Commerce") in Mailchimp Knowledge Base. E-commerce analytics is the core component of the integration functionality; the setting is enabled by default, and we recommend keeping it that way. For E-commerce analytics related features to function properly, you will need to upload your store data (your store catalog and orders) to Mailchimp via the **E-Commerce features setup** section of the addon settings page. (This section appears on the page after you update Mailchimp lists). Be sure to visit the E-Commerce features setup section and specify the lists for which [Ecommerce Stores](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) need to be created on the Mailchimp end. See the instructions for [E-Commerce features setup](#E-Commerce_features_setup) further below. 
-   **Important:** Be sure also to enable [E-Commerce Link Tracking](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use MailChimp for E-Commerce") for your campaigns and automations in your Mailchimp account back end.
+    {% note info %}
+    Be sure also to enable [E-Commerce Link Tracking](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use MailChimp for E-Commerce") for your campaigns and automations in your Mailchimp account back end.
+    {% endnote %}
    
    * **Enable Abandoned Carts**:  This option enables the Abandoned Carts feature. For more info on this feature, see the [Mailchimp site](https://mailchimp.com/features/abandoned-cart/ "Abandoned Cart")
    
-   * **Default list for automatic campaigns**: Specify the default list for automatic campaigns. This is needed so abandoned carts and order notifications function properly for all your customers. (Failure to specify a list in this field will result in that Mailchimp abandoned carts and order notifications will work only for those customers that are already Mailchimp subscribers for this store). To adjust this setting: 1) Go to the section **E-Commerce features setup** of the addon settings page, select the lists you require and upload store data for the selected lists to Mailchimp. 2) Go back to the **Mailchimp settings** section; in the "Default list for automatic campaigns" field, select the list for which abandoned carts and/or order notifications have been configured in Mailchimp. 
+   * **Default list for automatic campaigns**: Specify the default list for automatic campaigns. This is needed for the abandoned carts and order notifications features to function properly for all your customers. (Failure to specify a list in this field will result in that Mailchimp abandoned carts and order notifications will work only for those customers who are already Mailchimp subscribers for this store). 
+     
+     To adjust this setting: 
+     1) Go to the section **E-Commerce features setup** of the addon settings page, select the lists you require and upload store data for the selected lists to Mailchimp. 
+     2) Go back to the **Mailchimp settings** section; in the "Default list for automatic campaigns" field, select the list for which abandoned carts and/or order notifications have been configured in Mailchimp. 
    
    * **Enable single opt-in for customers**: This setting defines whether customers who opt in to subscribe to your news lists should be asked to confirm the subscription via email, or not. When this option is disabled, new subscribers get an email with a subscription confirmation link that they need to click to be added to your list (Double opt-in). When this option is enabled, new subscribers are added to your list as soon as they opt in, without having to confirm the subscription by email (Single opt-in). Remember that abusing the single opt-in option may get your account banned by MailChimp.
    
@@ -32,7 +38,11 @@ The basic addon configuration settings are adjusted in the **Mailchimp settings*
 
 * **Update Mailchimp lists every** (_Never, 1 minute, 10 minutes, etc._): Select the time interval for the periodical list updates.
 
-* **Type of discount coupons that should be uploaded to Mailchimp**: This setting is available only if the addon [Coupons](https://market.x-cart.com/addons/discount-coupons.html) is installed and active. Adjust this setting to specify the type of coupons that Mailchimp should be able to pull from your store for use in your campaigns via [promo code content blocks](https://mailchimp.com/help/use-promo-code-content-blocks/). The available options are:
+* **Type of discount coupons that should be uploaded to Mailchimp**: Adjust this setting to specify the type of coupons that Mailchimp should be able to pull from your store for use in your campaigns via [promo code content blocks](https://mailchimp.com/help/use-promo-code-content-blocks/). 
+   {% note info %}
+   This setting is available only if the addon [Coupons](https://market.x-cart.com/addons/discount-coupons.html) is installed and active.
+   {% endnote %}
+   The available options are:
    * _All discount coupons:_ Select this option if you would like to be able to use with Mailchimp any coupons created in your X-Cart store.
    * _Only the discount coupons that match the Mailchimp promo rules:_ Select this option if you need Mailchimp to be able to import only the coupons that have been configured with the following fields defined (all the four of them, or just some of them): 
      - Code;
