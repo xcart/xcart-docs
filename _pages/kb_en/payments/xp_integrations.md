@@ -15,7 +15,7 @@ To use X-Cart with X-Payments, you require an X-Payments account and the followi
 
 * If using X-Payments Cloud:
  
-  * [X-Payments Cloud connector](https://market.x-cart.com/addons/x-payments-cloud.html)
+  * [X-Payments Cloud connector](https://market.x-cart.com/addons/x-payments-cloud.html) (Manual is being developed. Please check back soon.)
 
 * If using X-Payments v1.x-3.x:
 
