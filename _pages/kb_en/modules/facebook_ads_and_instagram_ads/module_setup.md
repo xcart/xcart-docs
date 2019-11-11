@@ -28,13 +28,16 @@ Note that this setting is enabled by default. All the products with the setting 
 
 You can configure the addon settings in the **Facebook Ads & Instagram Ads** section of the store's Admin area (**Marketing** > **Facebook Ads & Instagram Ads**). 
   ![540-settings-page.png]({{site.baseurl}}/attachments/ref_7fTH58sR/540-settings-page.png)
+  
+  {% note info %}
+  For X-Cart 5.3.x and earlier the addon settings page is located in the **Sales Channels** > **Facebook Ads & Instagram Ads** section of the store Admin area.
+  {% endnote %}
 
 This section can also be accessed via the **Settings** link in the **My addons** section:
   <div class="ui stackable two column grid">
   <div class="column" markdown="span"><b>X-Cart 5.3.x and earlier</b>![xc5_fb_module_settings_link.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_module_settings_link.png)</div>
   <div class="column" markdown="span"><b>X-Cart 5.4.x</b>![540-settings.png]({{site.baseurl}}/attachments/ref_7fTH58sR/540-settings.png)</div>
 </div>
-  
  
  To configure the addon, adjust the following settings:
   
