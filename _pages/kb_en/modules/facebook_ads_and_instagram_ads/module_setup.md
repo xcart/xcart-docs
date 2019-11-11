@@ -16,18 +16,25 @@ To start using the addon **Facebook Ads & Instagram Ads**, you need to make sure
 
 General addon installation and activation instructions can be found in the section {% link "Managing addons" ref_gTOegEua %} of this manual.
 
-Once the addon has been activated, a new section will become available in your store's Admin area: **Sales Channels** > **Facebook Ads & Instagram Ads**. 
+Once the addon has been activated, a new section will become available in your store's Admin area: **Marketing** > **Facebook Ads & Instagram Ads** (in X-Cart 5.3.x and earlier the section name is **Sales Channels**). 
 
-Also, a new setting - **Add to Facebook product feed** - will be added for each of the products in your store's catalog. You will find it in the **Marketing** section of the product details page. Note that this setting is enabled by default. All the products with the setting **Add to Facebook product feed** enabled will be added automatically to the product feed and uploaded to your Facebook Catalog.
+Also, a new setting - **Add to Facebook product feed** - will be added for each of the products in your store's catalog. You will find it in the **Marketing** section of the product details page. 
+![540-add-product-feed.png]({{site.baseurl}}/attachments/ref_7fTH58sR/540-add-product-feed.png)
+
+Note that this setting is enabled by default. All the products with the setting **Add to Facebook product feed** enabled will be added to the product feed and uploaded to your Facebook Catalog automatically.
 
   
 ##  Facebook Ads & Instagram Ads addon Setup
 
-You can configure the addon settings in the **Facebook Ads & Instagram Ads** section of the store's Admin area (**Sales Channels** > **Facebook Ads & Instagram Ads**). 
-  ![settings-page-new.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/settings-page-new.png)
+You can configure the addon settings in the **Facebook Ads & Instagram Ads** section of the store's Admin area (**Marketing** > **Facebook Ads & Instagram Ads**). 
+  ![540-settings-page.png]({{site.baseurl}}/attachments/ref_7fTH58sR/540-settings-page.png)
 
 This section can also be accessed via the **Settings** link in the **My addons** section:
-  ![xc5_fb_module_settings_link.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_module_settings_link.png)
+  <div class="ui stackable two column grid">
+  <div class="column" markdown="span"><b>X-Cart 5.3.x and earlier</b>![xc5_fb_module_settings_link.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_module_settings_link.png)</div>
+  <div class="column" markdown="span"><b>X-Cart 5.4.x</b>![540-settings.png]({{site.baseurl}}/attachments/ref_7fTH58sR/540-settings.png)</div>
+</div>
+  
  
  To configure the addon, adjust the following settings:
   
@@ -35,7 +42,10 @@ This section can also be accessed via the **Settings** link in the **My addons**
   PREREQUISITES: 
   1. Make sure the addon Facebook Ads and Instagram Ads is installed and enabled.
      For the guides on installing or activating the addon, see the section {% link "Managing addons" ref_gTOegEua %} of this manual.
-     ![xc5_fb_module.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_module.png)
+     <div class="ui stackable two column grid">
+  <div class="column" markdown="span"><b>X-Cart 5.3.x and earlier</b>![xc5_fb_module.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_module.png)</div>
+  <div class="column" markdown="span"><b>X-Cart 5.4.x</b>![540-module-enabled.png]({{site.baseurl}}/attachments/ref_7fTH58sR/540-module-enabled.png)</div>
+</div>
   2. Make sure you have a Facebook Business account.
      If you do not have a Facebook account yet, you can create it at [https://www.facebook.com/business](https://www.facebook.com/business).
   {% endnote %}
