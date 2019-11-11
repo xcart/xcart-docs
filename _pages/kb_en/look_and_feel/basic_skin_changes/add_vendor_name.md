@@ -35,9 +35,9 @@ If you are not using language labels, you can use the following code in your tem
 ```
 {% note info %}
 
-The method `getVendorCompanyName()` is defined in the following file:
+The method `getVendorCompanyName()` is defined in the following file at approx. line 355:
 
 ```
-classes/XLite/Module/XC/MultiVendor/Model/Profile.php, around line 355
+classes/XLite/Module/XC/MultiVendor/Model/Profile.php
 ```
 {% endnote %}
