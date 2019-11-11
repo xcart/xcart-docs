@@ -10,20 +10,19 @@ version: X-Cart Multivendor
 ---
 Sometimes it may be necessary to display a Vendor's Company Name on some page of your store where it is not listed. 
 
-The value of a vendor company name is stored as a 'Vendor Company Name' language variable in your store database and can be changed in the store Admin area (**Company name** field in the **Company details** tab of a vendor profile in the **Users** -> **User list** section):
+The value of a vendor company name is stored as a 'Vendor Company Name' language variable in your store database:
+* Language label name: Vendor Company Name
+* Language label text: Vendor's Company Name - {{vendorCompanyName}}
+  ![vendor-company-name-label.png]({{site.baseurl}}/attachments/ref_0tpuzI7Z/vendor-company-name-label.png)
+
+Generally the 'Vendor Company Name' value can be changed in the store Admin area (**Company name** field in the **Company details** tab of a vendor profile in the **Users** -> **User list** section):
 ![vendor-profile.png]({{site.baseurl}}/attachments/ref_0tpuzI7Z/vendor-profile.png)
 
-To display a respective vendor name on a page you'll need to edit the respective page template via the {% link "Template Editor" ref_1gdpZJ44 %}.
+To display a respective vendor name on any storefront page you'll need to edit the respective storefront page via the {% link "Template Editor" ref_1gdpZJ44 %}.
 
-If you use language labels in yuor code, you can use special variables in the text of your language label.
+If you use language labels in your code, you can use special variables in the text of your language label (in our case `vendorCompanyName`).
 
-e.g.
-
-Language label name: Vendor Company Name
-Language label text: Vendor's Company Name - {{vendorCompanyName}}
-![vendor-company-name-label.png]({{site.baseurl}}/attachments/ref_0tpuzI7Z/vendor-company-name-label.png)
-
-In this case, the code that should be used in your templates is:
+The code that should be used to add Vendor Company Name in your templates is as follows:
 
 ```
 {{ t('Vendor Company Name', {'vendorCompanyName': this.vendor.getVendorCompanyName()}) }}
