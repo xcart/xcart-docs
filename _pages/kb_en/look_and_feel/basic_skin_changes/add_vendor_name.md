@@ -12,7 +12,7 @@ Sometimes it may be necessary to display a Vendor's Company Name on some page of
 
 The value of a vendor company name is stored as a 'Vendor Company Name' language variable in your store database:
 * Language label name: Vendor Company Name
-* Language label text: Vendor's Company Name - {{vendorCompanyName}}
+* Language label text: Vendor's Company Name - \{{\vendorCompanyName\}}\
   ![vendor-company-name-label.png]({{site.baseurl}}/attachments/ref_0tpuzI7Z/vendor-company-name-label.png)
 
 Generally the 'Vendor Company Name' value can be changed in the store Admin area (**Company name** field in the **Company details** tab of a vendor profile in the **Users** -> **User list** section):
