@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2019-11-11 12:12 +0400'
 identifier: ref_0tpuzI7Z
 title: Adding Vendor Name to Store Pages
-order: 170
+order: 800
 published: true
 version: X-Cart Multivendor
 ---
