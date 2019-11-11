@@ -44,7 +44,7 @@ This section can also be accessed via the **Settings** link in the **My addons**
      For the guides on installing or activating the addon, see the section {% link "Managing addons" ref_gTOegEua %} of this manual.
      <div class="ui stackable two column grid">
   <div class="column" markdown="span"><b>X-Cart 5.3.x and earlier</b>![xc5_fb_module.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_module.png)</div>
-  <div class="column" markdown="span"><b>X-Cart 5.4.x</b>![540-module-enabled.png]({{site.baseurl}}/attachments/ref_7fTH58sR/540-module-enabled.png)</div>
+  <div class="column" markdown="span"><b>X-Cart 5.4.x</b>![fb_insta_adds_addon.png]({{site.baseurl}}/attachments/ref_7fTH58sR/fb_insta_adds_addon.png)</div>
 </div>
   2. Make sure you have a Facebook Business account.
      If you do not have a Facebook account yet, you can create it at [https://www.facebook.com/business](https://www.facebook.com/business).
