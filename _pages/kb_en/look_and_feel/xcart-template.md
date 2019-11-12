@@ -9,11 +9,18 @@ published: true
 ---
 X-Cart skin is a template that determines the way your online store looks and feels. Different skins have different styles and layouts, and offer a different experience for your customers. 
 
-X-Cart offers one skin out-of-the-box and [70 template add-ons](https://market.x-cart.com/ecommerce-templates/) that can be downloaded and installed from the Marketplace. The store admin area uses a default skin that can't be changed by the default means. As for the customer storefront you can change the skin used there depending on the impression you want your store to have on your customers.
+X-Cart offers one skin out-of-the-box and [70 template add-ons](https://market.x-cart.com/ecommerce-templates/) that can be downloaded and installed from the Marketplace. The store admin area uses a default skin that can not be changed by the default means. As for the customer storefront you can change the skin used there depending on the impression you want your store to have on your customers.
+
+{% note info %}
+X-Cart 5.3.x and earlier offered more than one skin out of the box (Crisp White skin and Standard skin of 4 different color schemes). Starting from X-Cart 5.4.0.x the Standard skin is deprecated in all the color schemes and can be used further by early adopters only.
+
+In case a Standard skin is switched for any other skin in X-Cart 5.4.x it will not be possible to revert the changes.
+{% endnote %}
 
 Although each skin is different, all of them have some common features. All skins let you use the same types of pages, and all pages include some standard elements. 
 
 A combination of page elements and page types make up a theme's structure.
+{% toc %}
 
 ## Page Elements
 
