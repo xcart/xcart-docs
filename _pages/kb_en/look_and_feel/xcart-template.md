@@ -14,7 +14,7 @@ X-Cart offers one skin out-of-the-box and [70 template add-ons](https://market.x
 {% note info %}
 X-Cart 5.3.x and earlier offered more than one skin out of the box (Crisp White skin and Standard skin of 4 different color schemes). Starting from X-Cart 5.4.0.x Standard skin is deprecated in all the color schemes and can be used further by early adopters only.
 
-In case a Standard skin is switched for any other skin in X-Cart 5.4.x it will not be possible to revert the changes.
+In case a Standard skin is switched to any other skin in X-Cart 5.4.x it will not be possible to revert the changes.
 {% endnote %}
 
 Although each skin is different, all of them have some common features. All skins let you use the same types of pages, and all pages include some standard elements. 
