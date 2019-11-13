@@ -39,10 +39,10 @@ To configure the connection, complete the steps below:
 
 7.  Enable the payment methods you are going to use by clicking the **On**/**Off** control to the left of the respective method names (green icon = enabled). For payment methods that support tokenization in X-Payments, you can also enable PCI compliant credit card saving in your X-Cart store by selecting the **Save cards** option (the check box in the far right column).
     
-    As you can see, we have quite a number of methods that have been imported, but we are not going to use all of them in one store; we'll just enable the First Data Payeezy Gateway method:
+    As you can see, we have quite a number of methods that have been imported, but we are not going to use all of them in one store; we will just enable the First Data Payeezy Gateway method:
     ![pay-easy.png]({{site.baseurl}}/attachments/ref_TIExeDzi/pay-easy.png)
 
-    Once you're done, be sure to save your changes using the **Save changes** button.
+    Once you are done, be sure to save your changes using the **Save changes** button.
 
 8.  Use the **Save credit card setup** section to set the payment method that you want your customers to use when they choose to save their credit card in their front end accounts.
     ![save-credit-card.png]({{site.baseurl}}/attachments/ref_TIExeDzi/save-credit-card.png)
