@@ -60,4 +60,4 @@ To configure the connection, complete the steps below:
     ![iframe.png]({{site.baseurl}}/attachments/ref_TIExeDzi/iframe.png)
     Please note that if you enable this option in X-Cart, you must also select an iframe based template for your X-Cart 5 store in the X-Payments admin back end.
 
-That's it. Now you are all set and ready to process payments in your X-Cart 5 store using X-Payments.
+That's it. Now you are all set and ready to process payments in your X-Cart 5 store using X-Payments v1.x-3.x.
