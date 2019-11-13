@@ -7,15 +7,17 @@ title: Configure the Connection in the Admin Area of Your X-Cart 5 store
 order: 130
 published: true
 ---
-The following procedure assumes that: 
-   * Your X-Cart 5 store has the X-Payments connector addon installed and enabled.
-   * You have {% link "configured the connection between X-Payments and your X-Cart store in the X-Payments back end" ref_q4dUBnZT %}.
+This section provides an overview of the steps that need to be performed in the Admin area of an X-Cart 5 store to configure the connection of that store to X-Payments v1.x-3.x.
 
-To configure the connection between X-Payments and your X-Cart store on the X-Cart end, complete the steps below:
+The following procedure assumes that: 
+   * Your X-Cart 5 store has the X-Payments v1.x-3.x connector addon installed and enabled.
+   * You have {% link "configured the connection between X-Payments v1.x-3.x and your X-Cart 5 store in the X-Payments back end" ref_q4dUBnZT %}.
+
+To configure the connection, complete the steps below:
 
 1.  Log in to the Admin area of your X-Cart 5 store.
 
-2.  In the **My addons** section, find the addon X-Payments connector and click on its name to access the addon detailed information. 
+2.  In the **My addons** section, find the addon X-Payments v1.x-3.x connector and click on its name to access the addon detailed information. 
 
 3.  On the addon information page, click on the **Settings** link:
     ![xp_connector_settings_link.png]({{site.baseurl}}/attachments/ref_TIExeDzi/xp_connector_settings_link.png)
