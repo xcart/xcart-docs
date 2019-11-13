@@ -13,7 +13,7 @@ published: true
 ---
 Choosing a design theme for your store is a serious task. The theme has to be attractive and appropriate, and it has to meet the needs of your business. 
 
-X-Cart offers one skin for your store out of the box and over [80 design templates (skins)](https://market.x-cart.com/ecommerce-templates/ "Look and feel") that you can obtain via the X-Cart App Store. With any theme you will get a stylish, responsive, fully customizable and well-suited solution. 
+X-Cart offers two skins - CrispWhite and Standard (deprecated in X-Cart 5.4.x) - for your store out of the box and over [80 design templates (skins)](https://market.x-cart.com/ecommerce-templates/ "Look and feel") that you can obtain via the X-Cart App Store. With any skin you will get a stylish, responsive, fully customizable and well-suited solution. 
 
 _In this section:_
 
