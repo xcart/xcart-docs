@@ -139,7 +139,9 @@ Once the changes are applied the invoice page looks as follows:
     
 ## How to Add a New Element
 
-As you may have already noticed the default CrispWhite skin unlike default Standard skins doesn't show a country flag near to the country name in the store front-end. Let's check how we can change it.
+As you may have already noticed the default CrispWhite skin unlike the Standard skins (deprecated in X-Cart 5.4.x) doesn't show a country flag near the country name in the store front-end. 
+
+Let's check how we can change it.
 
 To start, you'll need to: 
 
