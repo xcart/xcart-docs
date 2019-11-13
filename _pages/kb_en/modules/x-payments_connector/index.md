@@ -13,7 +13,7 @@ redirect_from:
   - >-
     /modules/x-payments_connector/x-payments_connector_system_requirements_and_installation.html
 ---
-The **X-Payments v1.x-3.x connector** addon for X-Cart 5 connects your X-Cart 5 based online store to [X-Payments](https://www.x-payments.com/help/Main_Page) for PCI compliant credit card processing. 
+The **X-Payments v1.x-3.x connector** addon for X-Cart 5 connects your X-Cart 5 based online store to [X-Payments](https://www.x-payments.com/help/Main_Page) for PCI compliant credit card processing. It is intended for use with X-Payments versions v1.x-3.x (_not_ compatible with X-Payments Cloud).
 
 You can find out whether the X-Payments v1.x-3.x connector addon is installed and enabled in your X-Cart 5 store by checking the section **My addons** of your X-Cart store Admin area:
 ![xp_connector_addon.png]({{site.baseurl}}/attachments/ref_NaZh0d1b/xp_connector_addon.png)
@@ -22,7 +22,7 @@ If the addon is not installed, you can obtain it from the X-Cart App Store. To i
  
 **Important**: Please be aware that the X-Payments v1.x-3.x connector for X-Cart 5 has no support for the addon {% link "Not Finished Orders" ref_7dKyzAJ4 %}; for this reason, regardless of the addon settings, not finished orders will not be created when payment is made via X-Payments.
 
-To start using X-Payments with your X-Cart store, you will need to complete the following connection steps:
+To connect your X-Cart 5 store to X-Payments v1.x-3.x using the connector addon, you will need to complete the following steps:
 
    1. {% link "Configure the connection in the X-Payments back end" ref_q4dUBnZT %}.
    2. {% link "Configure the connection in the Admin area of your X-Cart 5 store" ref_TIExeDzi %}.
@@ -32,4 +32,4 @@ A video guide for connecting X-Cart and X-Payments 3.x is available:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/h2F-nFRi_Fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 (Published on Sep 21, 2016)
 
-For earlier X-Payments versions the process is similar; however, the steps included can be different - {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %} (video)
+For earlier X-Payments versions, the process is similar; however, the steps included can be different. For more info, see {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %} (video)
