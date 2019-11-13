@@ -14,9 +14,11 @@ redirect_from:
 ---
 By default, the Front page of your X-Cart store contains a dummy Welcome message and a dummy banner. Depending on your store's skin and layout, the placement of the banner and welcome message may be somewhat different. 
 
-For example, here is what it looks like in X-Cart's Standard skin:
+{% toc %}
 
-![xc5_banner_welcome_text.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_text.png)
+For example, here is what it looks like in X-Cart's CrispWhite skin:
+
+![xc5-banner-welcome-text.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5-banner-welcome-text.png)
 
 ## Changing the Default Welcome Message
 
