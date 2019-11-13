@@ -16,7 +16,7 @@ X-Cart 5.3.x and earlier supported the Standard skin in 4 different color scheme
 
 X-Cart 5.4.x supports the CrispWhite skin that is a main skin and the Standard skin in Standard color scheme (deprecated) that will be completely removed from the software with time. 
 
-For early adopters of the Standard skin in colour schemes other than Standard, the colour scheme used in the store before v5.4.0.x will be preserved as-is during the upgrade. Beware that in case a deprecated colour scheme is changed to any new skin in 5.4.x the changes can not be reverted. 
+For early adopters of the Standard skin in color schemes other than Standard, the color scheme used in the store before v5.4.0.x will be preserved as-is during the upgrade. Beware that in case a deprecated color scheme is changed to any new skin in 5.4.x the changes can not be reverted. 
 {% endnote %}
 
 Although each skin is different, all of them have some common features. All skins let you use the same types of pages, and all pages include some standard elements. 
