@@ -9,12 +9,14 @@ published: true
 ---
 X-Cart skin is a template that determines the way your online store looks and feels. Different skins have different styles and layouts, and offer a different experience for your customers. 
 
-X-Cart offers one skin out-of-the-box and [70 template add-ons](https://market.x-cart.com/ecommerce-templates/) that can be downloaded and installed from the Marketplace. The store admin area uses a default skin that can not be changed by the default means. As for the customer storefront you can change the skin used there depending on the impression you want your store to have on your customers.
+X-Cart offers two default skins - CrispWhite and Standard (deprecated in X-Cart 5.4.x) - and over [80 template add-ons](https://market.x-cart.com/ecommerce-templates/) that can be downloaded and installed from the Marketplace. The store admin area uses a default skin that can not be changed by the default means. As for the customer storefront you can change the skin used there depending on the impression you want your store to have on your customers.
 
 {% note info %}
-X-Cart 5.3.x and earlier offered more than one skin out of the box (Crisp White skin and Standard skin of 4 different color schemes). Starting from X-Cart 5.4.0.x Standard skin is deprecated in all the color schemes and can be used further by early adopters only.
+X-Cart 5.3.x and earlier supported the Standard skin in 4 different color schemes (Standard, Digital, Fashion and Noblesse) that are deprecated starting from X-Cart 5.4.0.x. 
 
-In case a Standard skin is switched to any other skin in X-Cart 5.4.x it will not be possible to revert the changes.
+X-Cart 5.4.x supports the CrispWhite skin that is a main skin and the Standard skin in Standard color scheme (deprecated) that will be completely removed from the software with time. 
+
+For early adopters of the Standard skin in colour schemes other than Standard, the colour scheme used in the store before v5.4.0.x will be preserved as-is during the upgrade. Beware that in case a deprecated colour scheme is changed to any new skin in 5.4.x the changes can not be reverted. 
 {% endnote %}
 
 Although each skin is different, all of them have some common features. All skins let you use the same types of pages, and all pages include some standard elements. 
