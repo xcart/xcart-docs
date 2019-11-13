@@ -11,16 +11,18 @@ order: 800
 redirect_from:
   - /look_and_feel/removing_the_powered_by_notice.html
 ---
-In case a store owner doesn't want to reveal that the site is powered by the X-Cart software, it's possible to remove the "Powered by" notice.
-
-![powered-by-cus.png]({{site.baseurl}}/attachments/ref_o5oJ0AFO/powered-by-cus.png)
-
 {% note warning %}
 According to the license agreement the "Powered by" notice can be removed on the paid X-Cart installations only. Users of X-Cart Free edition are not allowed to hide the "Powered by" notice.
 {% endnote %}
 
+In case a store owner doesn't want to reveal that the site is powered by the X-Cart software, it's possible to remove the "Powered by" notice.
+
+![powered-by-cus.png]({{site.baseurl}}/attachments/ref_o5oJ0AFO/powered-by-cus.png)
+
+{% note info %}
 PREREQUISITES: Make sure the module **Theme Tweaker** is installed and enabled at your store. If not, {% link "install and activate it" ref_0fGEpvrh %}.
     ![]({{site.baseurl}}/attachments/6389847/8716763.png)
+{% endnote %}
 
 There are 2 possible ways to remove the notice:
 
