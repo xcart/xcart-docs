@@ -13,7 +13,7 @@ redirect_from:
   - >-
     /modules/x-payments_connector/x-payments_connector_system_requirements_and_installation.html
 ---
-The **X-Payments v1.x-3.x connector** addon for X-Cart 5 connects your X-Cart 5 based online store to [X-Payments](http://www.x-payments.com/) for PCI compliant credit card processing. It is intended for use with X-Payments versions v1.x-3.x (_not_ compatible with X-Payments Cloud). More information on X-Payments v1.x-3.x is available in the [X-Payments user documentation](https://www.x-payments.com/help/Main_Page). 
+The **[X-Payments v1.x-3.x connector](https://market.x-cart.com/addons/xpayments-connector.html)** addon for X-Cart 5 connects your X-Cart 5 based online store to [X-Payments](http://www.x-payments.com/) for PCI compliant credit card processing. It is intended for use with X-Payments versions v1.x-3.x (_not_ compatible with X-Payments Cloud). More information on X-Payments v1.x-3.x is available in the [X-Payments user documentation](https://www.x-payments.com/help/Main_Page). 
 
 You can find out whether the X-Payments v1.x-3.x connector addon is installed and enabled in your X-Cart 5 store by checking the section **My addons** of your X-Cart store Admin area:
 ![xp_connector_addon.png]({{site.baseurl}}/attachments/ref_NaZh0d1b/xp_connector_addon.png)
