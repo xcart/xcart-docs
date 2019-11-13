@@ -7,15 +7,15 @@ title: Configuring the Connection in the X-Payments Back End
 order: 120
 published: true
 ---
-This section provides an overview of how to configure the connection between X-Payments and an X-Cart 5 based online store on the X-Payments end.
+This section covers what needs to happen on the X-Payments end when you configure the connection between X-Payments v1.x-3.x and an X-Cart 5 based online store. 
 
-Prerequisites:
+Note that after completing the steps in this section you will also need to {% link "configure the connection in the Admin area of your X-Cart 5 store" ref_TIExeDzi %}.
 
-* You must have an X-Payments account created using [https://www.x-payments.com/trial-demo.html](https://www.x-payments.com/trial-demo.html).
+Please be aware that to be able to use X-Payments with your X-Cart store you will need an X-Payments account. Such an account can be created using the link [https://www.x-payments.com/trial-demo.html](https://www.x-payments.com/trial-demo.html). Note that this type of account is different from X-Payments Cloud account and cannot be used for X-Payments Cloud.
 
-Follow the steps below:
+To configure the connection, follow the steps below:
 
-1.  Log in to X-Payments as administrator.
+1.  Log in to your X-Payments as administrator.
 
 2.  Provide X-Payments with data required to connect to your chosen payment gateway:
     1.  In the X-Payments back end, go to the 'Payment Configurations' page (**Settings** -> **Payment configurations**):
