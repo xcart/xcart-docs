@@ -15,7 +15,14 @@ You can find out whether the X-Payments Cloud connector addon is installed and e
 If the addon is not installed, you can obtain it from the X-Cart App Store. 
 ![xp_cloud_connector_addon.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xp_cloud_connector_addon.png)
 
-To intall the addon, follow the directions from the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+To intall the addon, follow the instructions from the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
+Once the X-Payments Cloud connector addon has been installed and enabled, you can connect your store to X-Payments Cloud with it.
 
-X-Payments Cloud account (not an X-Payments account for use with X-Payments 3.x)
+Please be aware that to be able to use X-Payments Cloud with your X-Cart store you will need an X-Payments Cloud account. (That is different from an X-Payments account for use with X-Payments v1.x-3.x). If you do not yet have an X-Payments Cloud account, you will be able to create one right from the connection page in your X-Cart store Admin area.
+
+To configure the connection, follow the steps below:
+
+1. In your X-Cart 5 store Admin area, go to the X-Payments Cloud connection settings page. This can be done using one of the following methods:
+    
+   *  
