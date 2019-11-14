@@ -31,7 +31,7 @@ The statuses _Awaiting payment_, _Paid_ and _Authorized_ cause the inventory l
 
 {:.ui.compact.celled.small.padded.table}
 | N | New | The initial status assigned by default to any new order once it has been created. |
-| NB | New/Backorder* | The initial status assigned by default to any new order containing product(s) that obtained an out-of-stock status during the order placement.|
+| NB | New/Backorder* | The initial status assigned by default to any new order containing product(s) that obtained an out-of-stock status during the order placement. Can be assigned by the X-Cart system only.|
 | P | Processing | The merchant is working on the order. |
 | S | Shipped | The merchant has shipped the order. |
 | D | Delivered | The buyer has received the package. |
@@ -39,7 +39,7 @@ The statuses _Awaiting payment_, _Paid_ and _Authorized_ cause the inventory l
 | R | Returned | The buyer is returning the ordered items; the items have been sent back to the merchant. |
 | NF | Not Finished | (Enabled by the addon {% link "Not Finished Orders" ref_5TMbPwNQ %}). After the buyer's attempt to pay for the order, the payment system has returned the "cancelled" or "failed" callback, so the order payment status has been set to "Declined". |
 
-<sub>* The case occurs when a last item of a product is ordered by 2 customers simulteneously. The order placed first according to the X-Cart order counting system is assigned the existing last item of the product. The order placed second - is assigned a backordered status for the product(s) that went out of stock during the order placement, a special notification on an order with a new/backourder status placed in the store being sent to the store admin. The "New/Backorder" fulfilment status is not displayed in a customer invoice. The "New/Backorder" fulfillment status can not be assigned to an order manually. </sub>
+<sub>* The case occurs when a last item of a product (including products with {% link "PIN Codes" ref_4JeE99n8 %}) is ordered by 2 customers simulteneously. The order placed first according to the X-Cart order counting system is assigned the existing last item of the product. The order placed second - is assigned a backordered status for the product(s) that went out of stock during the order placement, a special notification on an order with a new/backourder status placed in the store being sent to the store admin. The "New/Backorder" fulfilment status is not displayed in a customer invoice. A store admin can either send a customer a notification that the "out-of-stock" product will be delivered a bit later, or make a partial refund for the out-of-stock items. </sub>
 
 {% note info %}
 What you see in the first columns of the above tables is letter codes by which X-Cart's system order statuses are represented in the software code; these codes are used internally only.
