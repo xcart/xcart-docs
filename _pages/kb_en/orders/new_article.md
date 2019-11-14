@@ -5,7 +5,7 @@ updated_at: '2019-11-14 18:38 +0400'
 identifier: ref_4vJYjalp
 title: Order Processing Workflow
 order: 25
-published: false
+published: true
 ---
 X-Cart allows paying orders using both offline and online payment methods depending on the store owner preferences. 
 
