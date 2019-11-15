@@ -28,6 +28,8 @@ To configure the connection, follow the steps below:
    * Go to the section **My Addons**, find the installed addon X-Payments Cloud connector and click on the **Settings** link pertaining to it.
      ![xp_cloud_connector_settings_link.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xp_cloud_connector_settings_link.png)
 
+   Or:
+   
    * Go to the Payment settings page (**Store setup** > **Payment methods**) and choose to configure the payment method "X-Payments Cloud":
      ![xp_cloud_method_configure_button.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xp_cloud_method_configure_button.png)
 
