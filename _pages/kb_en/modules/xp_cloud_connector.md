@@ -31,7 +31,7 @@ To access the connection page, use one of the following methods:
    * Go to the Payment settings page (**Store setup** > **Payment methods**), locate the payment method "X-Payments Cloud" and choose to configure it:
      ![xp_cloud_method_configure_button.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xp_cloud_method_configure_button.png)
      
-The connection page looks like the following:
+The connection page is titled "X-Payments Cloud settings" and looks like the following:
      ![xp_cloud_connector_settings1.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xp_cloud_connector_settings1.png)
 
 Once you are ready to proceed with the connection, you will need to either create a new X-Payments Cloud account or to provide the connection details for your existing X-Payments Cloud account.
@@ -56,6 +56,12 @@ Once you are ready to proceed with the connection, you will need to either creat
 
      3. When prompted to specify your connection credentials, provide your X-Payments Cloud account registration email address and password:
         ![connect_registered1.png]({{site.baseurl}}/attachments/ref_729XUzDQ/connect_registered1.png)
+     
+     This will connect your X-Cart store to your existings X-Payments Cloud account.
+
+Once your X-Cart 5 store has been connected to X-Payments Cloud, configure X-Payments Cloud as you require. You will be able to access your X-Payments Cloud admin panel right from within your X-Cart store (via the same section you used to complete the connection - the one titled "X-Payments Cloud settings").
+     
+After completing the X-Payments Cloud configuration, be sure to enable the X-Payments Cloud method in your X-Cart store.     
 
 
 
