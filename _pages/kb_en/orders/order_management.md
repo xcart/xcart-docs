@@ -32,7 +32,7 @@ The order listing page allows the store admin to view the following order detail
 * **Date** : Date and time of the order.
 * **Customer** : Name and email address of the customer (by clicking on the customer name you will be redirected to the {% link "user profile" ref_gg1fQDgB %} page).
 * **Payment status** : Awaiting payment / Partially paid / Paid / Cancelled / Refunded.
-* **Fulfillment status** : New / Processing / Shipped / Delivered / Will not deliver / Returned.
+* **Fulfillment status** : New / New/Backordered / Processing / Shipped / Delivered / Will not deliver / Returned.
 * **Amount** : Order total and amount of items ordered.
 
 The payment and fulfillment statuses of an order can be changed by the store admin directly on the order listing page. The admin should **save changes** to make them active. 
