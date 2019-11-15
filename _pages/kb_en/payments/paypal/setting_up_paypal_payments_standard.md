@@ -12,7 +12,7 @@ order: 120
 
 To enable PayPal Payments Standard as a payment method in your X-Cart store:
 
-1.  If you haven't yet done so, [sign up](https://www.paypal.com/webapps/mpp/referral/paypal-payments-standard?partner_id=XCART5_Cart "Sign up for PayPal Payments Standard") for PayPal Payments Standard. Note that to complete the signup process for PayPal Payments Standard you will need a verified PayPal Business account. This means that you will need to either create a new Business account or to log in to your existing account and upgrade it to Business.
+1.  If you haven't yet done so, [sign up](https://www.paypal.com/us/webapps/mpp/paypal-payments-standard "Sign up for PayPal Payments Standard") for PayPal Payments Standard. Note that to complete the signup process for PayPal Payments Standard you will need a verified PayPal Business account. This means that you will need to either create a new Business account or to log in to your existing account and upgrade it to Business.
 
 2.  In X-Cart, add PayPal Payments Standard to the list of your store's active payment methods and configure it.
 
