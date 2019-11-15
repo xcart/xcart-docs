@@ -53,4 +53,4 @@ The configuration bundle provides a quick method to deploy X-Payments connection
 
 _See also:_
 
-   * [Configuring X-Payments](https://www.x-payments.com/help/X-Payments:Configuring_X-Payments)
+   * [Configuring X-Payments v1.x-3.x](https://www.x-payments.com/help/X-Payments:Configuring_X-Payments)
