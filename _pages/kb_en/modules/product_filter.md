@@ -8,12 +8,16 @@ order: 221
 published: true
 description: 'product filters, easy search'
 ---
-Let us imagine that you run an online store selling tons of different products. Each product has its own set of attributes like size, color, material, technical characteristics, and many others that make it distinct from other products. A shopper's decision to buy depends on these product attributes, and you as a seller can make a shopper's choice easier by using the addon **[Product Filter](https://market.x-cart.com/addons/product-filter.html)**. The addon enables you to add a product filter block that will be displayed on category pages (all of them, or just certain category pages chosen by you); your store visitors will be able to adjust the options in this block to narrow down their search results based on product attributes and find the product they require more easily. Optionally, the filter block can be adjusted to also include product tags, a price range, and in-stock availability. 
+Let us imagine that you run an online store selling tons of different products. Each product has its own set of attributes like size, color, material, technical characteristics, and many others that make it distinct from other products. A shopper's decision to buy depends on these product attributes, and you as a seller can make a shopper's choice easier by using the addon **[Product Filter](https://market.x-cart.com/addons/product-filter.html)**. 
+
+The addon enables you to add a product filter block that will be displayed on category pages (all of them, or just certain category pages chosen by you); your store visitors will be able to adjust the options in this block to narrow down their search results based on product attributes and find the product they require more easily. Optionally, the filter block can be adjusted to also include product tags, a price range, and in-stock availability. 
 
 ![]({{site.baseurl}}/attachments/ref_6e82A7rL/store-front.png)
 
+{% toc %}
+
 ## Install Product Filter
-If the addon **Product Filter** is not installed in your X-Cart store, you can install it from the X-Cart App Store. Follow the general instructions for {% link "installing and activating addons" ref_0fGEpvrh %}.
+If the addon **Product Filter** is not installed in your X-Cart store, you can do it from the X-Cart App Store. Follow the general instructions for {% link "installing and activating addons" ref_0fGEpvrh %}.
 ![product_filter_addon.png]({{site.baseurl}}/attachments/ref_6e82A7rL/product_filter_addon.png)
 
 ## Configure the Product Filter Addon Settings
@@ -26,6 +30,10 @@ The addon settings are as follows:
    * **Enable "In stock only" filter**: If this setting is enabled, the filter block includes an 'In stock' selector allowing shoppers to specify whether they want to find only the products that are in stock or the products that are out of stock as well. If it disabled, no such selector is provided. 
 
    * **Enable "Price range" filter**: If this setting is enabled, the filter block provides a range slider allowing users to specify the desired price range. If it disabled, no such slider is provided. 
+     {% note info %}
+     For the attention of users of the {% link "Value Added Tax / Goods and Services Tax " ref_0GjdgNJx %} addon:
+     In X-Cart 5.3.x and earlier the "Price range" filter works with VAT-exclussive prices only, even if your store is set up to display prices {% link "with VAT included" ref_4tqYojGn %}.
+     {% endnote %}
 
    * **Enable "Attributes" filter**: If this setting is enabled, the filter block allows users to choose product attributes. If it disabled, filtering by attributes is not provided.
 
