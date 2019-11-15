@@ -36,5 +36,20 @@ To configure the connection, follow the steps below:
    The X-Payments Cloud settings page looks like the following:
      ![xp_cloud_connector_settings.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xp_cloud_connector_settings.png)
 
+2. If you do not have an existing X-Payments Cloud account, choose to create one:
+
+   1. In the field **Your email**, specify the email address that you are going to use for the X-Payments Cloud account administrator. 
+   2. In the field **Account name**, specify your desired account name.
+   3. After completing the above fields, click **Cteate account**.
+   
+   This will create an X-Payments Cloud account for you and start your trial period. No commitment and no credit card are required during the trial period.
+
+   If you already have an existing X-Payments Cloud account, use the link "If you already have an X-Payments account, please click here" to access the account sign-in page:
+   ![access_signin_4registered.png]({{site.baseurl}}/attachments/ref_729XUzDQ/access_signin_4registered.png)
+   
+   On the page that opens, enter your account name and click **Connect**:
+   ![connect_registered.png]({{site.baseurl}}/attachments/ref_729XUzDQ/connect_registered.png)
+
+
 
    
