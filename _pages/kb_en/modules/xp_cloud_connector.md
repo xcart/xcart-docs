@@ -36,7 +36,7 @@ The connection page is titled "X-Payments Cloud settings" and looks like the fol
 
 Once you are ready to proceed with the connection, you will need to either create a new X-Payments Cloud account or to provide the connection details for your existing X-Payments Cloud account.
 
-   * If you do not have an existing X-Payments Cloud account, choose to create one:
+   * **If you do not have an existing X-Payments Cloud account**, choose to create one:
 
      1. In the field **Your email**, specify the email address that you are going to use for the X-Payments Cloud account administrator. 
      
@@ -44,9 +44,21 @@ Once you are ready to proceed with the connection, you will need to either creat
      
      3. After completing the above fields, click **Create account**.
    
-     This will create an X-Payments Cloud account for you and start your trial period. No commitment and no credit card are required during the trial period.
+     This will initiate the creation of an X-Payments Cloud account for you and start your trial period. No commitment and no credit card are required during the trial period.
+     
+     The creation of your X-Payments account is likely to take a few seconds. During this time you will see a screen like the following:
+     ![tuned.png]({{site.baseurl}}/attachments/ref_729XUzDQ/tuned.png)
 
-   * If you already have an existing X-Payments Cloud account:
+     In the end you will be prompted to set a password for your X-Payments Cloud account: 
+     ![set_passwd_4cloud.png]({{site.baseurl}}/attachments/ref_729XUzDQ/set_passwd_4cloud.png)
+
+     Enter your desired password and type it once again for confirmation. Be sure to click Submit. For your convenience, a link to [Strong password generator](https://strongpasswordgenerator.com/) is provided. 
+     
+     After setting the password, complete 2-step user authentication setup for your account:
+     ![2step_user_auth_setup.png]({{site.baseurl}}/attachments/ref_729XUzDQ/2step_user_auth_setup.png)
+     
+
+   * **If you already have an existing X-Payments Cloud account**:
      
      1. Use the link "If you already have an X-Payments account, please click here" in the lower part of the X-Payments Cloud connection page to access the page for X-Payments Cloud account sign-in:
         ![access_signin_4registered.png]({{site.baseurl}}/attachments/ref_729XUzDQ/access_signin_4registered.png)
