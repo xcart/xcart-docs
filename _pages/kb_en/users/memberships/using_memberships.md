@@ -146,13 +146,13 @@ The detailed description of the tax configuration process is available in the se
 
 With the addon [Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html) you will be able to give additional payment options to certain groups of customers in your store; for example, to enable PayPal Express Checkout for wholesale buyers only. 
 
-To enable the feature, install the addon 'Memberships for payment methods' first as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}. 
+To enable the feature, install the addon [Memberships for payment methods](https://market.x-cart.com/addons/memberships-for-payment-methods.html "Using Memberships") first as described in {% link "Installing Addons from the Marketplace" ref_Vn1mMUw9 %}. 
 
-Once the addon has been installed, a special 'Memberships' field will appear under each payment method in the 'Store Setup: Payment Methods' section of your store's Admin area.
-   ![Fig 11]({{site.baseurl}}/attachments/payment.png)
+Once the addon has been installed, a special 'Memberships' field will appear under each payment method in the **Store Setup** -> **Payment Method**s section of your store's Admin area.
+   ![540-payment-memberships.png]({{site.baseurl}}/attachments/ref_memberships_ext/540-payment-memberships.png)
 
 You'll need to use this field to specify the membership the payment method should be available to. At checkout your customers will be able to see only the payment methods available to their membership group.
-   ![Fig 12]({{site.baseurl}}/attachments/Screen Shot 2018-01-15 at 16.16.45.png)
+   ![540-apply-membership-payment.png]({{site.baseurl}}/attachments/ref_memberships_ext/540-apply-membership-payment.png)
 
 
 ## Paid Memberships
@@ -189,4 +189,3 @@ When the membership expires the customer will get an email notification.
 
 {% link "Email notifications" ref_5QLrLCu7 %} for the addon **Paid Membership** can be managed via the **Email notifications** section of your store Admin area (**Store setup** > **Email notifications**).
    ![memb-paid-notifications.png]({{site.baseurl}}/attachments/ref_memberships_ext/memb-paid-notifications.png)
-
