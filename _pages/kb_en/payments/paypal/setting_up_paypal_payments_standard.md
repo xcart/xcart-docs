@@ -17,13 +17,13 @@ To enable PayPal Payments Standard as a payment method in your X-Cart store:
 2.  In X-Cart, add PayPal Payments Standard to the list of your store's active payment methods and configure it.
 
     1.  In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
-    ![xc5_pp_add_payment_method.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_add_payment_method.png)
+        ![540-add-payment-button.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/540-add-payment-button.png)
 
     2.  In the popup box that appears, find the method **PayPal Payments Standard** and select to **Add** this method:
-![xc5_pp_standard_add.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_add.png)
+        ![540-add-pp-standard.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/540-add-pp-standard.png)
     
     3.  Once the method has been added, you will be redirected to the settings page for PayPal Payments Standard. Сonfigure PayPal Payments Standard settings:
-![xc5_pp_standard_settings.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_settings.png)
+         ![pp-standard-settings.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/pp-standard-settings.png)
 
         'Your account settings' section:
 
@@ -37,13 +37,13 @@ To enable PayPal Payments Standard as a payment method in your X-Cart store:
 
          *   **Order id prefix**: Specify your trading name or any other prefix that will help you to identify a payment transaction as originating from this store. This field is required if using the same PayPal account for more than one online stores.
 
-    4.   Click **Save changes**:
-         ![xc5_pp_standard_settings_save.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_settings_save.png)
-
-         The method settings will be saved.
+    4.   Click **Save changes**. The method configuration settings will be saved.
          
     5.   Make sure the method is active:
-         ![xc5_pp_standard_activate.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_activate.png)
+         <div class="ui stackable two column grid">
+           <div class="column" markdown="span"><b>PayPal Standard settings page</b>![540-pp-standsad-on-settings.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/540-pp-standsad-on-settings.png)</div>
+           <div class="column" markdown="span"><b>Payments page</b>![540-pp-standard-on-payments.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/540-pp-standard-on-payments.png)</div>
+         </div>
 
 4.  Enable Instant Payment Notification (IPN) in your PayPal account settings. This will enable PayPal to notify your X-Сart store of events related to PayPal transactions. For instructions, see {% link "Setting up PayPal IPN URL" ref_2rlawgsT %}.
 
