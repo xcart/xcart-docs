@@ -32,6 +32,7 @@ The addon settings are as follows:
    * **Enable "Price range" filter**: If this setting is enabled, the filter block provides a range slider allowing users to specify the desired price range. If it disabled, no such slider is provided. 
      {% note info %}
      For the attention of users of the {% link "Value Added Tax / Goods and Services Tax " ref_0GjdgNJx %} addon:
+     
      In X-Cart 5.3.x and earlier the "Price range" filter works with VAT-exclussive prices only, even if your store is set up to display prices {% link "with VAT included" ref_4tqYojGn %}.
      {% endnote %}
 
