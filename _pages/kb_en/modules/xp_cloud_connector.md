@@ -48,11 +48,14 @@ Once you are ready to proceed with the connection, you will need to either creat
 
    * If you already have an existing X-Payments Cloud account:
      
-     1. Use the link "If you already have an X-Payments account, please click here" in the lower part of the page to access the X-Payments Cloud account sign-in page:
+     1. Use the link "If you already have an X-Payments account, please click here" in the lower part of the X-Payments Cloud connection page to access the page for X-Payments Cloud account sign-in:
         ![access_signin_4registered.png]({{site.baseurl}}/attachments/ref_729XUzDQ/access_signin_4registered.png)
    
-     2. On the page that opens, enter your account name and click **Connect**:
+     2. On the sign-in page, enter your account name and click **Connect**:
         ![connect_registered.png]({{site.baseurl}}/attachments/ref_729XUzDQ/connect_registered.png)
+
+     3. When prompted to specify your connection credentials, provide your X-Payments Cloud account registration email address and password:
+        ![connect_registered1.png]({{site.baseurl}}/attachments/ref_729XUzDQ/connect_registered1.png)
 
 
 
