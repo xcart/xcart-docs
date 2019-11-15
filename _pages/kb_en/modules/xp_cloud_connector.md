@@ -32,7 +32,6 @@ To access the connection page, use one of the following methods:
      ![xp_cloud_method_configure_button.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xp_cloud_method_configure_button.png)
      
 The connection page looks like the following:
-
      ![xp_cloud_connector_settings1.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xp_cloud_connector_settings1.png)
 
 Once you are ready to proceed with the connection, you will need to either create a new X-Payments Cloud account or to provide the connection details for your existing X-Payments Cloud account.
@@ -43,7 +42,7 @@ Once you are ready to proceed with the connection, you will need to either creat
      
      2. In the field **Account name**, specify your desired account name.
      
-     3. After completing the above fields, click **Cteate account**.
+     3. After completing the above fields, click **Create account**.
    
      This will create an X-Payments Cloud account for you and start your trial period. No commitment and no credit card are required during the trial period.
 
