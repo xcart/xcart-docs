@@ -5,7 +5,7 @@ updated_at: '2019-11-01 17:08 +0400'
 identifier: ref_729XUzDQ
 title: X-Payments Cloud Connector
 order: 370
-published: false
+published: true
 ---
 The **[X-Payments Cloud connector](https://market.x-cart.com/addons/x-payments-cloud.html)** addon for X-Cart 5 connects your X-Cart 5 based online store to [X-Payments Cloud](http://www.x-payments.com/), a PSD2/SCA ready & PCI Level 1 certified payment service for secure credit card processing & storage in online shops. Note that the addon is intended specifically for X-Payments Cloud and is _not_ compatible with X-Payments v1.x-3.x.
 
