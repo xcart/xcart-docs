@@ -14,7 +14,7 @@ Here's how to start accepting payments with PayPal Partner Hosted with PCI Compl
    1. Make sure the addon PayPal is installed and enabled in your X-Cart store. 
    
    2. In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
-      ![xc5_pp_pro_addpayment.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_addpayment.png)
+      ![540-add-payment-button.png]({{site.baseurl}}/attachments/ref_0gaUolue/540-add-payment-button.png)
          
    3. In the popup box that appears, find the method **PayPal Partner Hosted with PCI Compliance** and click **Add** opposite this item.
       ![xc5_ph_add.png]({{site.baseurl}}/attachments/ref_0gaUolue/xc5_ph_add.png)
@@ -43,5 +43,3 @@ Here's how to start accepting payments with PayPal Partner Hosted with PCI Compl
    
    6. You can control the status of your **PayPal Partner Hosted with PCI Compliance** method via the Payment methods page (**Store setup > Payment methods**). Make sure the payment method is active:
    ![xc5_ph_active.png]({{site.baseurl}}/attachments/ref_0gaUolue/xc5_ph_active.png)
-      
-   
