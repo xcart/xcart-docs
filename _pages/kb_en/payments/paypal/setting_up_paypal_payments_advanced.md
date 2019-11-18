@@ -13,7 +13,7 @@ PayPal Payments Advanced is currently available in the US and Canada only. For g
 
 To enable PayPal Payments Advanced as a payment method in your X-Cart store:
 
-1.  If you haven't yet done so, [sign up](https://www.paypal.com/webapps/mpp/referral/paypal-payments-advanced?partner_id=XCART5_Cart "Sign up for PayPal Payments Advanced") for PayPal Payments Advanced. Note that to complete the signup process for PayPal Payments Advanced you will need a verified PayPal Business account. This means that you will need to either create a new Business account or to log in to your existing account and upgrade it to Business.
+1.  If you haven't yet done so, [sign up](https://www.paypal.com/us/brc/article/paypal-payments-advanced "Sign up for PayPal Payments Advanced") for PayPal Payments Advanced. Note that to complete the signup process for PayPal Payments Advanced you will need a verified PayPal Business account. This means that you will need to either create a new Business account or to log in to your existing account and upgrade it to Business.
      
     To use PayPal Payments Advanced, you will need to set up your credentials for access to Payflow API (The same credentials will be used as your manager.paypal.com login information):
 
@@ -33,13 +33,13 @@ To enable PayPal Payments Advanced as a payment method in your X-Cart store:
 3.  In X-Cart, add PayPal Payments Advanced to the list of your store's active payment methods and configure it.
 
     1.  In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
-        ![xc5_pp_add_payment_method.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_add_payment_method.png)
+        ![540-add-payment-button.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/540-add-payment-button.png)
 
     2.  In the popup box that appears, find the method **PayPal Payments Advanced** and select to **Add** this method:
-        ![xc5_pp_advanced_add.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/xc5_pp_advanced_add.png)
+        ![540-advanced-add.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/540-advanced-add.png)
 
     3.  Once the method has been added, you will be redirected to the settings page for PayPal Payments Advanced. Сonfigure PayPal Payments Advanced settings:
-        ![xc5_pp_advanced_settings.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/xc5_pp_advanced_settings.png)
+        ![540-advanced-settings-page.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/540-advanced-settings-page.png)
 
         'Your account settings' section:
 
@@ -61,11 +61,10 @@ To enable PayPal Payments Advanced as a payment method in your X-Cart store:
 
         *   **Display the "Buy Now with PayPal" button**: This setting determines whether or not the "Buy Now with PayPal" button should be displayed on product list pages (in list view) and product details pages.
 
-    4.   Click **Save changes**:
-         ![xc5_pp_advanced_save.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/xc5_pp_advanced_save.png)
-
-         The method settings will be saved:
-         ![xc5_pp_advanced_settings_saved.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/xc5_pp_advanced_settings_saved.png)
-
+    4.   Click **Save changes** to submit the payment configuration.
+         
     5.   Make sure the method is active:
-         ![xc5_pp_advanced_activate.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/xc5_pp_advanced_activate.png)
+         <div class="ui stackable two column grid">
+           <div class="column" markdown="span"><b>PayPal Advanced settings page</b>![540-advanced-on-settings.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/540-advanced-on-settings.png)</div>
+           <div class="column" markdown="span"><b>Payments page</b>![540-advanced-on-payments.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/540-advanced-on-payments.png)</div>
+         </div>
