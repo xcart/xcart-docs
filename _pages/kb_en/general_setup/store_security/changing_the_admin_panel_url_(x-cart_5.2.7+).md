@@ -64,4 +64,10 @@ To change the admin panel URL, follow the steps below:
     Disallow: /new_admin.php
     ```
 
-That is it, no other steps are needed. Now do not forget to access your admin panel using the new URL, because the default one is now unavailable.
+That is it, no other steps are needed.
+
+{% note info %}
+Sometimes chnages need time to propagate in the web. If the new admin URL is not displayed properly in your browser, try cleaning the browser cache.
+{% endnote %}
+
+From now on do not forget to access your admin panel using the new URL, because the default one is becomes unavailable.
