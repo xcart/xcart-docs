@@ -26,4 +26,4 @@ To achieve such flexibility there are certain approaches to X-Cart customization
 5. {% link "How to apply changes to X-Cart business logic" ref_AF6bmvL6 %}.
 6. [Working with database](https://devs.x-cart.com/getting_started/working-with-database.html).
 
-There is also [the exercise book](https://www.dropbox.com/s/0zb1w5ydqwchgna/en-developer-exercises-x-cart-5.pdf "Getting started") that gives you real-world tasks, so you could practice your X-Cart 5 programming skills.
+There is also [the exercise book](https://drive.google.com/file/d/1qOJcHfCdlFxTpRnOMdGvcYetv2GQoBRC/view?usp=sharing "Getting started") that gives you real-world tasks, so you could practice your X-Cart 5 programming skills.
