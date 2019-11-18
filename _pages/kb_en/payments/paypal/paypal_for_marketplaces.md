@@ -86,20 +86,6 @@ If necessary, you can adjust the display name of this payment method (the one th
 
 ![sorting-description.png]({{site.baseurl}}/attachments/ref_6iphJijP/sorting-description.png)
 
-## Vendor Experience
-
-To be able to receive payments through the PayPal for Marketplaces payment automatically, vendors need to specify their PayPal Business account in the **Financial info** section of their profile (See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}). 
-
-![vendor-connect-paypal.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-connect-paypal.png)
-
-For this purpose they should use the _Connect to PayPal_ link and specify their PayPal Business Merchant ID to get connected. 
-
-If a vendor fails to specify the appropriate PayPal Business account, the money due to them will simply not be transferred to the vendor's account, but will remain in the account of the store administrator. 
-
-All auto-generated PayPal for Marketplaces payments transactions showing the receipt of funds by the store vendors are recorded in the **Vendor transactions** section of the admin area (**Orders** > **Vendor transactions**) and in the **My transactions** section of the vendor area (**My account** -> **My transactions**):
-
-![vendor-transactions.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-transactions.png)
-
 ## Admin Experience
 
 All the information about the flow of payments from buyers to the store administrator through PayPal for Marketplaces payments is available for review in the **Payment transactions** section (**Orders** -> **Payment transactions**) of the admin area:
@@ -147,3 +133,17 @@ So, everything is fine: the vendor has received their earnings, and the store ad
 In case a vendor doesn't have a PayPal Business account registered in the **Financial info** section the store admin will have to find a way to pay out the money they owe to such vendors (with methods outside X-Cart), after which the information about the respective payout transactions will have to be added in X-Cart manually using the **Create transaction** button in the **Vendor transactions** section (**Orders** > **Vendor transactions**):
 
 ![create-transaction.png]({{site.baseurl}}/attachments/ref_6iphJijP/create-transaction.png)
+
+## Vendor Experience
+
+To be able to receive payments through the PayPal for Marketplaces payment automatically, vendors need to specify their PayPal Business account in the **Financial info** section of their profile (See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}). 
+
+![vendor-connect-paypal.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-connect-paypal.png)
+
+For this purpose they should use the _Connect to PayPal_ link and specify their PayPal Business Merchant ID to get connected. 
+
+If a vendor fails to specify the appropriate PayPal Business account, the money due to them will simply not be transferred to the vendor's account, but will remain in the account of the store administrator. 
+
+All auto-generated PayPal for Marketplaces payments transactions showing the receipt of funds by the store vendors are recorded in the **Vendor transactions** section of the admin area (**Orders** > **Vendor transactions**) and in the **My transactions** section of the vendor area (**My account** -> **My transactions**):
+
+![vendor-transactions.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-transactions.png)
