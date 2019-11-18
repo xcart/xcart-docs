@@ -41,7 +41,7 @@ To enable PayPal Payments Standard as a payment method in your X-Cart store:
          
     5.   Make sure the method is active:
          <div class="ui stackable two column grid">
-           <div class="column" markdown="span"><b>PayPal Standard settings page</b>![540-pp-standsad-on-settings.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/540-pp-standsad-on-settings.png)</div>
+           <div class="column" markdown="span"><b>PayPal Standard settings page</b>![540-pp-standard-on-settings.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/540-pp-standard-on-settings.png)</div>
            <div class="column" markdown="span"><b>Payments page</b>![540-pp-standard-on-payments.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/540-pp-standard-on-payments.png)</div>
          </div>
 
