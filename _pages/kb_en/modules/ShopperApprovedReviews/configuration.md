@@ -33,8 +33,9 @@ The Shopper Approved settings page offers a store admin to either sign up for Sh
    * Click **Sign Up**. 
    
      The system will automatically create a Shopper Approved account for you, email you the Shopper Approved account credentials and link your X-Cart store to Shopper Approved by submiting your Shopper Approved Site ID, API Token and domain to X-Cart. 
-   
-   Please note, however, that in this case your credentials for access to the Shopper Approved dashboard will be sent to your main Site administrator email address as configured via the **Site administrator e-mails** setting in the Contact information section (**Store setup** -> **Contact information**) of your X-Cart store Admin area. Make sure this setting {% link "has been adjusted properly" ref_wKcxbiUf %}; otherwise you will not be able to get your Shopper Approved dashboard credentials.
+     {% note info %}
+     The credentials to access the Shopper Approved dashboard will be sent to the main store administrator email address as configured via the **Site administrator e-mails** setting in the Contact information section (**Store setup** -> **Contact information**) of your X-Cart store Admin area. Make sure this setting {% link "has been adjusted properly" ref_wKcxbiUf %}; otherwise you will not be able to get your Shopper Approved dashboard credentials.
+     {% endnote %}
 
 2. If you have an existing Shopper Approved account:
    * Click the button **'Connect with existing account'**;
