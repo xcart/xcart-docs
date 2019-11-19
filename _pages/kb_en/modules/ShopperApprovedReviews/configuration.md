@@ -48,7 +48,7 @@ The Shopper Approved settings page offers a store admin to either sign up for Sh
 
 Once enabled, the Shopper Approved Reviews addon creates a static page titled _Read our reviews_; that page is aimed at promoting verified reviews you gain through the Shopper Approved addon. 
 
-You can edit it to your liking in the **Content** -> **Pages** section of the Admin area () add the merchant reviews widget to any other static page. 
+You can edit it to your liking in the **Content** -> **Pages** section of the Admin area (see more info in {% link "Managing Content and Service Pages" ref_27dBlUF9 %}). It is also possible to add the merchant reviews widget to any other static page. 
 ![540-read-our-reviews-page.png]({{site.baseurl}}/attachments/ref_3otm3RBq/540-read-our-reviews-page.png)
 
 The _Read our reviews_ static page may appear empty until you receive your first reviews and approve them via the Shopper Approved dashboard.
