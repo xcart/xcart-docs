@@ -80,8 +80,8 @@ This section provides two tabs:
    {% note info %}
    More survey related settings can be found in the **Merchant** -> **Surveys** section of your [ShopperApproved dashboard](https://www.shopperapproved.com/account/merchant/surveys/options).
    For example, you can specify a period in days for a follow-up email with a link to the survey to be sent to customers who completed checkout at your store.
-  ![survey.png]({{site.baseurl}}/attachments/ref_3otm3RBq/survey.png)
-  {% endnote %}
+   ![survey.png]({{site.baseurl}}/attachments/ref_3otm3RBq/survey.png)
+   {% endnote %}
 
 ## Submiting Datafeed to Shopper Approved
 
