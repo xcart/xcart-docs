@@ -249,7 +249,7 @@ Create an empty database in your MySQL storage.
 ### Run the Installation Wizard and Follow the Steps
 
 {% note info %}
-The installation wizard may ask you for an “Auth code” in case it is run not for the first time. The “Auth code” is located in the etc/config.php file in the X-Cart software folder on the server the package was downloaded to. Please check it there.
+The installation wizard may ask you for an “Auth code” in case it is run not for the first time. Look for the `auth_code` in the etc/config.php file in the X-Cart software folder on the server the package was downloaded to and use the value specified there to proceed with the installation process.
 {% endnote %}
 
 #### Step 1\. License Agreement
