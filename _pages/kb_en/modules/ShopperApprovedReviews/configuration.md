@@ -107,13 +107,13 @@ The reviews will be updated automatically every time you re-generate the Google 
 Provided a customer survey has been enabled via the addon settings, your customers will be prompted to provide feedback after placing an order in your X-Cart store. They will see a pop-up screen on the invoice page in the storefront where they will be able to rate their customer experience and answer the survey questions. 
 ![checkout-popup.png]({{site.baseurl}}/attachments/ref_3otm3RBq/checkout-popup.png)
 
-It is also possible to leave a feadback directly on the  product details page in the storefront. A buyer can use the **Reviews** tab of a product details page for the purpose:
+It is also possible to leave a feadback on a product directly on the product details page in the storefront. A buyer can use the **Reviews** tab of a product details page for the purpose:
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![sha-5.png]({{site.baseurl}}/attachments/ref_3otm3RBq/sha-5.png)</div>
   <div class="column" markdown="span">![sha-6.png]({{site.baseurl}}/attachments/ref_3otm3RBq/sha-6.png)</div>
 </div>
 
-All approved reviews will be published in the **Reviews** tab of a related product details page.
+All approved reviews are published in the **Reviews** tab of a related product details page.
 
 
 
