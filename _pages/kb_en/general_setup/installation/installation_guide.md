@@ -332,7 +332,14 @@ P.S. And don't forget about {% link "security measures" ref_4ewdbDM8 %}!
 
 If you face any problem during **Environment** check, you get a general instruction about how to fix it. You can pass it to your developers or hosting team and they will be able to take care of it. This section describes typical problems you may encounter and what you can do in order to fix them.
 
-### 1\. Problems with Connection to Database
+### 1\. Auth Code Requested at Step 1: License Agreement
+
+In case the installation wizard is run not for the first time the system will request an Auth Code on the step of accepting the Lisence Agreement:
+![auth-code.png]({{site.baseurl}}/attachments/ref_VG5mIoLT/auth-code.png)
+
+The Auth Code is stored in the etc/config.php file of an X-Cart package that has been downloaded to the server. Check for the `auth_code` line there and copy the value to paste it on the License Agreement page.
+
+### 2\. Problems with Connection to Database
 
 Such problems generally mean that MySQL credentials were specified incorrectly or MySQL server/database is incorrectly set up.
 
@@ -361,7 +368,7 @@ Examples:
 
     mean that there is something wrong with your MySQL server settings. You need to send such error message to your hosting team and ask them to fix it.
 
-### 2. Permission Checking Failed
+### 3. Permission Checking Failed
 
 Such error messages may look like this:
 
@@ -407,7 +414,7 @@ There are several examples of error message for better understanding of the proc
 
     this instruction means that all users must have readable and writeable permissions (`chmod 0666`) to all files `(-type f`) inside `/Applications/MAMP/htdocs/xcart/var` folder.
 
-### 3. Disabled Functions
+### 4. Disabled Functions
 
 Your hosting company may disable several default PHP functions and X-Cart 5 cannot work while they are disabled. In this case, you will get the error message like this:
 
@@ -419,7 +426,7 @@ The list of disable functions can be different.
 
 In order to solve this issue, you should send the list of disabled PHP functions (`phpinfo, escapeshellcmd, escapeshellarg, openlog, syslog, exec, popen` from the example above) to your hosting team and ask to enable them in your account.
 
-### 4\. Disabled PHP Extensions
+### 5\. Disabled PHP Extensions
 
 If you are getting an error message like this: 
 
@@ -438,7 +445,7 @@ it should become
 extension=pdo_mysql.so
 ```
 
-### 5\. HTTPS Bouncer is Not Installed
+### 6\. HTTPS Bouncer is Not Installed
 
 If you are getting an error message like this:
 
