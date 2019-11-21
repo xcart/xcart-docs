@@ -27,7 +27,7 @@ Once the addon has been installed, open the addon settings page to adjust the ad
 The Customer Satisfaction addon settings page is divided into 2 subsections:
 1. **General options** - where you can set up the general addon behaviour:
    ![540-settings-page-1.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/540-settings-page-1.png)
-   * **Action to send email** : An email with a request for feedback will be sent automatically by the system when an order receives a defined payment or shipping status. Choose between **by payment status** and **by shipping status**. Depending on the trigger chosen the 
+   * **Action to send email** : An email with a request for feedback will be sent automatically by the system when an order receives a defined payment or shipping status. Choose between _by payment status_ and _by shipping status_. 
    * **Choose payment/shipping status triggering feedback request** : The name of the setting will depend on the trigger you've chosen for the **Action to send email** setting. Select either payment or shipping status that will imply sending an email with a feedback request.
    * **Delay in days** : Define the time period in days the request for feedback should be delayed for. If you want the survey to be emailed the same day the order obtained the specified payment or shipping status set the setting value to 0 (zero).
    * **Excellent/no-questions-asked rating** : Specify the rating (from 1 to 5, where 5 is an excellent rate) that should not be followed by a survey.
