@@ -16,10 +16,10 @@ The addon [Customer Satisfaction](https://market.x-cart.com/addons/customer-sati
 To install the addon, follow the guidelines from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 ![customer_satisfaction_addon.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/customer_satisfaction_addon.png)
 
-Once the addon has been installed, open the addon settings page to adjust the addon configuration. You can either use the **Go to addon settings page** button on the screen you see when the addon installation has been completed or the **Settings** button in the addon details pop-up in the **My Addons** section:
+Once the addon has been installed, open the addon settings page to adjust the addon configuration. You can use either the **Go to addon settings page** button on the screen you see when the addon installation has been completed or the **Settings** button in the addon details pop-up in the **My Addons** section:
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![540-settings-button.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/540-settings-button.png)</div>
+  <div class="column" markdown="span">![540-go-addon-settings.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/540-go-addon-settings.png)</div>
   <div class="column" markdown="span">![540-settings-button.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/540-settings-button.png)</div>
 </div>
 
