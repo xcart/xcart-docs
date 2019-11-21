@@ -16,23 +16,29 @@ The addon [Customer Satisfaction](https://market.x-cart.com/addons/customer-sati
 To install the addon, follow the guidelines from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 ![customer_satisfaction_addon.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/customer_satisfaction_addon.png)
 
-Once the addon has been installed, proceed to the addon settings page to adjust the addon configuration:
+Once the addon has been installed, open the addon settings page to adjust the addon configuration. You can either use the **Go to addon settings page** button on the screen you see when the addon installation has been completed or the **Settings** button in the addon details pop-up in the **My Addons** section:
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![540-settings-button.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/540-settings-button.png)</div>
+  <div class="column" markdown="span">![540-settings-button.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/540-settings-button.png)</div>
+</div>
+
 
 The Customer Satisfaction addon settings page is divided into 2 subsections:
 1. **General options** - where you can set up the general addon behaviour:
-   ![settings-1.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/settings-1.png)
-   * **Action to send email** : Select if you want the request for feedback to be sent right after an order is paid or whether you want to wait some time and send it later on. If you choose to wait, you can define the time period in days (**Delay in days**) the request for feedback should be delayed for.
-   * **Choose payment status triggering feedback request** : Select the payment status that an order should get for a feedback request to be sent to a customer.
+   ![540-settings-page-1.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/540-settings-page-1.png)
+   * **Action to send email** : An email with a request for feedback will be sent automatically by the system when an order receives a defined payment or shipping status. Choose between **by payment status** and **by shipping status**. Depending on the trigger chosen the 
+   * **Choose payment/shipping status triggering feedback request** : The name of the setting will depend on the trigger you've chosen for the **Action to send email** setting. Select either payment or shipping status that will imply sending an email with a feedback request.
+   * **Delay in days** : Define the time period in days the request for feedback should be delayed for. If you want the survey to be emailed the same day the order obtained the specified payment or shipping status set the setting value to 0 (zero).
    * **Excellent/no-questions-asked rating** : Specify the rating (from 1 to 5, where 5 is an excellent rate) that should not be followed by a survey.
-   * **Facebook fanpage URL** : Specify your store FAcebook fanpage URL if applicable.
+   * **Facebook fanpage URL** : Specify your store Facebook fanpage URL if applicable.
 2. **Feedback survey top text** - where you can define the text welcoming a customer to answer a feedback survey:
-   ![settings-2.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/settings-2.png)
+   ![540-settings-page-2.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/540-settings-page-2.png)
    Decide whether you need to change the landing page text suggested by default for "Auful/Bad/Fair/Good/Excellent" rates. This text welcomes customers on a post-feedback survey page.
    ![landing-page-text.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/landing-page-text.png)
 
 Once the basic addon setup has been completed, proceed to the **Feedback questions** section (**Orders** -> **Feedback questions**) to configure the questions that will be presented to a customer as a follow-up survey.
-
-![feddback-questions.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/feddback-questions.png)
+![540-feedback-questions.png]({{site.baseurl}}/attachments/ref_5EkhZ4uD/540-feedback-questions.png)
 
 Here you can reorder the existing questions by drag-n-dropping them or delete them completely. Also you can add new questions if necessary. Use the **New question** button for the purpose:
 
