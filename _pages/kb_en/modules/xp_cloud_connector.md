@@ -57,6 +57,8 @@ Once you are ready to proceed with the connection, you will need to either creat
      After setting the password, complete 2-step user authentication setup for your account:
      ![2step_user_auth_setup.png]({{site.baseurl}}/attachments/ref_729XUzDQ/2step_user_auth_setup.png)
      
+     More info on setting up 2-step user authentication methods in X-Payments Cloud is available in the X-Payments Cloud manual.
+     
 <a id="xpc-registered-account"></a>
    * **If you already have an existing X-Payments Cloud account**:
      
