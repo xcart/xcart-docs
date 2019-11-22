@@ -34,7 +34,7 @@ To access the connection page, use one of the following methods:
 The connection page is titled "X-Payments Cloud settings" and looks like the following:
      ![xp_cloud_connector_settings1.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xp_cloud_connector_settings1.png)
 
-Once you are ready to proceed with the connection, you will need to either create a new X-Payments Cloud account or to provide the connection details for your existing X-Payments Cloud account.
+Once you are ready to proceed with the connection, you will need to either create a {% link "new X-Payments Cloud account" ref_729XUzDQ#xpc-new-account %} or to provide the connection details for your {% link "existing X-Payments Cloud account" ref_729XUzDQ#xpc-registered-account %}.
 <a id="xpc_new_account"></a>
    * **If you do not have an existing X-Payments Cloud account**, choose to create one:
 
