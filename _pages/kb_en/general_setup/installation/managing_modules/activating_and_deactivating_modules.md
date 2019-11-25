@@ -12,6 +12,14 @@ redirect_from:
   - /modules/managing_modules/activating_and_deactivating_modules.html
   - /general_setup/managing_modules/activating_and_deactivating_modules.html
 ---
+In X-Cart 5.3.x and earlier all manipulations with the software addons are performed directly in the store Admin area (**My Addons** section).
+
+Starting from X-Cart 5.4.x the **My Addons** menu section in the store Admin area opens a special **Upgrade System** environment separate from the rest of the store. This was done to ensure that any changes applied to a store via new addons' installation or present addons' upgrade or deletion can be safely and easily rolled back in case of any malfunction.
+
+Basically, since all X-Cart software functionality is added via the separate addons installation, the addons management consists of the addons activation and deactivation, and deletion. 
+
+{% toc %}
+
 ## Activating Addons
 
 Sometimes the addon you want to use is installed, but not active. To be able to use such an addon, you need to activate it. 
