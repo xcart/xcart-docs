@@ -15,7 +15,7 @@ redirect_from:
 ---
 The functionality of your X-Cart 5 based store can be extended by installing addons (modules). 
 
-After installing X-Cart 5 you will find that your store already has some installed addons. You can view their list in the Installed Addons section (available via the **My addons** menu item in the Admin menu). You can enable/disable specific addons according to your needs.
+After installing X-Cart 5 you will find that your store has some addons installed already. You can view their list in the Installed Addons section (available via the **My addons** menu item in the Admin menu). You can enable/disable and even delete addons according to your needs.
 
 It is possible to obtain and install more addons. A great selection of addons for X-Cart 5 is available via the X-Cart App Store; however, addons can also be obtained from other sources. 
 
