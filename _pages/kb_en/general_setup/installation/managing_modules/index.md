@@ -13,12 +13,17 @@ redirect_from:
   - /general_setup/managing_modules/index.html
   - /general_setup/installing_and_activating_modules.html
 ---
-
 The functionality of your X-Cart 5 based store can be extended by installing addons (modules). 
 
 After installing X-Cart 5 you will find that your store already has some installed addons. You can view their list in the Installed Addons section (available via the **My addons** menu item in the Admin menu). You can enable/disable specific addons according to your needs.
 
 It is possible to obtain and install more addons. A great selection of addons for X-Cart 5 is available via the X-Cart App Store; however, addons can also be obtained from other sources. 
+
+{% note info %}
+Starting from X-Cart 5.4.x all manipulations with the software addons are perfromed in a special environment (**Upgrade System** screen) separate from the rest of the store. This was done to ensure that any changes applied to a store via new addons' installation or present addons' upgrade or deletion can be safely rolled back in case of any malfunction.
+
+The Upgrade System environment is opened from the **My Addons** menu section in the store Admin area.
+{% endnote %}
 
 _In this section_:
 *  {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}
