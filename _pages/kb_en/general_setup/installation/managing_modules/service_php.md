@@ -3,19 +3,18 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-11-25 12:27 +0400'
 identifier: ref_5Br376jE
-title: Upgrade System Screen
+title: X-Cart Service Screen
 order: 90
 published: true
 version: X-Cart 5.4.x
 ---
-One of the improvements of the Admin area tools introduced in X-Cart 5.4.x is a separate environment for the management of the software core's and addons' updates and upgrades. Such an environment was created to ensure the overall store security and stability especially during the 
-core and/or addon updates installation. Provided the software upgrades and addons' installations, deletions, and updates are separated from the rest of the store functionality, a store admin can check the Admin area and storefront functioning in a new window right after the changes have been applied, and can roll back the updates safely and easily in case of any malfunction. 
+One of the improvements of the Admin area tools introduced in X-Cart 5.4.x is a separate environment (Service Screen) for the management of the software core's and addons' updates and upgrades. Such an environment was created to ensure the overall store security and stability especially during the core and/or addon updates installation. Provided the software upgrades and addons' installations, deletions, and updates are separated from the rest of the store functionality, a store admin can check the Admin area and storefront functioning in a new window right after the changes have been applied, and can roll back the updates safely and easily in case of any malfunction. 
 
-To access the **Upgrade System** environment a store admin should click on the **My addons** link in the main menu of the Admin area. This opens a screen different from the Admin area where it is possible to install new and manage existing addons, as well as apply minor amd major software upgrades. By default, the new screen is displayed in the same tab your store Admin area was opened in.
+To access the **Service Screen** environment a store admin should click on the **My addons** link in the main menu of the Admin area. This opens a special environment out of the Admin area where it is possible to install new and manage existing addons, as well as apply minor amd major software upgrades. By default, the new screen is displayed in the same tab your store Admin area was opened in.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><b>X-Cart Admin area</b>![my-addons-admin.png]({{site.baseurl}}/attachments/ref_5Br376jE/my-addons-admin.png)</div>
-  <div class="column" markdown="span"><b>X-Cart Upgrade System</b>![my-addons-service.png]({{site.baseurl}}/attachments/ref_5Br376jE/my-addons-service.png)</div>
+  <div class="column" markdown="span"><b>X-Cart Service Screen</b>![my-addons-service.png]({{site.baseurl}}/attachments/ref_5Br376jE/my-addons-service.png)</div>
 </div>
 
 To return to the Admin area or open the storefront use the corresponding links at the top of the page. The Admin area will be opened in the same tab, while the storefront - in a new one.
