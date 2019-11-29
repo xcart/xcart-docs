@@ -3,14 +3,14 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2019-03-29 09:57 +0400'
 identifier: ref_5Xj7bOA6
-title: Updating Addons
+title: Updating Addons in X-Cart 5.3.x
 order: 150
 published: true
 redirect_from:
   - /general_setup/managing_modules/updating_modules.html
 version: X-Cart 5.3.x and earlier
 ---
-In X-Cart, notifications about any addon updates available to you automatically appear in your store Admin area:
+In X-Cart, notifications about any updates for an addon or a group of addons are displayed in your store Admin area automatically as soon as they become available:
 
 * as a banner in the header:
   ![top-banner.png]({{site.baseurl}}/attachments/ref_5Xj7bOA6/top-banner.png)
