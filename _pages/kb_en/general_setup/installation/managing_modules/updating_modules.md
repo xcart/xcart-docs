@@ -8,6 +8,7 @@ order: 150
 published: true
 redirect_from:
   - /general_setup/managing_modules/updating_modules.html
+version: X-Cart 5.3.x and earlier
 ---
 In X-Cart, notifications about any addon updates available to you automatically appear in your store Admin area:
 
