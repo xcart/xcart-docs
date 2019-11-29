@@ -28,7 +28,7 @@ The main menu of the Upgrade System screen consists of a search bar and 5 sectio
   ![templates.png]({{site.baseurl}}/attachments/ref_5Br376jE/templates.png)
 * **My Addons** (opened by default by a click from the Admin area) : This section displays all addons installed in your store, both enabled and disbled, including any custom addons ordered with [X-Cart WebDev](https://www.x-cart.com/ecommerce-development-services.html "Upgrade System Screen"). 
   ![my-addons.png]({{site.baseurl}}/attachments/ref_5Br376jE/my-addons.png)
-* **Purchases** : This section contains a list of purchased addons with a possibility to install or activate them.
+* **Purchases** : This section contains a list of purchased addons with a possibility to install them.
   ![purchases.png]({{site.baseurl}}/attachments/ref_5Br376jE/purchases.png)
 * **Updates & Upgrades** : This section displays the minor and major upgrades available for the software core and addons.
   ![updates-available.png]({{site.baseurl}}/attachments/ref_5Br376jE/updates-available.png)
@@ -36,3 +36,10 @@ The main menu of the Upgrade System screen consists of a search bar and 5 sectio
 The 2 sections that you will most frequently use when working with your store are **My Addons** and **Updates & Upgrades**.
 
 The search bar allows finding a necessary addon by name through all the sections. Some of the addons require an exact matching to be found, so if no results are diplayed check for any typos in the addon name.
+
+_Related pages:_
+
+*  {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}
+*  {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}
+*  {% link "Uploading Addons" ref_GZQ9vTq6 %}
+*  {% link "Updating Addons" ref_5Xj7bOA6 %}
