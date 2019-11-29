@@ -15,10 +15,15 @@ redirect_from:
 
 If an addon is obtained from a source other than the X-Cart App Store, you can upload and install it as follows:
 
-1.  In your store's Admin area, go to the ** My addons** section and click the **Upload add-on** button:
+1.  In your store's Admin area, click **My addons** to go to the **My Addons** section of the {% link "X-Cart Service Screen" ref_5Br376jE %}:
+    ![my_addons_link.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/my_addons_link.png)
+
+1.  In this section click the **Upload add-on** button:
     ![upload-addon.png]({{site.baseurl}}/attachments/ref_GZQ9vTq6/upload-addon.png)
+
     A popup titled **Upload add-on** appears:
     ![upload-addon-popup.png]({{site.baseurl}}/attachments/ref_GZQ9vTq6/upload-addon-popup.png)
+
 2.  Select the file of the addon to be uploaded and click **Install add-on**. This starts the installation process. Once it is completed, the addon will be added to the list of installed addons.
 
    {% note info %}
