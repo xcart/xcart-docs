@@ -7,7 +7,7 @@ title: Activating and Deactivating Addons
 categories:
   - User manual
 published: true
-order: 100
+order: 110
 redirect_from:
   - /modules/managing_modules/activating_and_deactivating_modules.html
   - /general_setup/managing_modules/activating_and_deactivating_modules.html
