@@ -7,7 +7,7 @@ title: Installing Addons from the X-Cart App Store
 categories:
   - User manual
 published: true
-order: 110
+order: 100
 redirect_from:
   - /modules/managing_modules/installing_modules_from_the_marketplace.html
   - /general_setup/managing_modules/installing_modules_from_the_marketplace.html
