@@ -26,18 +26,28 @@ Sometimes the addon you want to use is installed, but not active. To be able to 
 
 To activate an installed addon:
 
-1.  In your store's Admin area, click **My addons** to go to the **My Addons** section:
+1.  In your store's Admin area, click **My addons** to go to the **My Addons** section of the {% link "X-Cart Service Screen" ref_5Br376jE %}:
     ![my_addons_link.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/my_addons_link.png)
 
 2.  In this section, find the addon that needs to be activated (for example, **Add to Cart Popup**):
-    ![addon2enable.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/addon2enable.png)
+    ![activate-addon.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/activate-addon.png)
 
 3.  Switch the On/Off trigger below the addon name to the "On" state and click the **Apply changes** button at the bottom of the screen. 
-    ![addon_enable.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/addon_enable.png)
+    ![selected-addons.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/selected-addons.png)
+    {% note info %}
+    You can activate more that one addon at once. Just set the trigger for all addons you want to enable to ON and then click **Apply changes**. The changes will be applied to all selected addons. 
+    {% endnote %}
 
-This starts the addon activation process which may take a while to complete. Once your store has been redeployed, you will find the addon active and ready to use:
-    ![addon_enabled.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/addon_enabled.png)
-    
+    This starts the addon activation process which may take a while to complete. 
+
+Once your store has been redeployed, you will find the addon active and ready to use:
+![activation-completed.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/activation-completed.png)
+
+In case more than one addon were activated, the screen will be different:
+![changes-screen.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/changes-screen.png)
+The recently installed addons will be displayed at the top of the screen in the **My Addons** section:
+![recently-added.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/recently-added.png)
+        
 
 ## Deactivating Addons
 
@@ -49,23 +59,30 @@ Deactivation stops the addon from operation, but it does not remove the settings
 
 To deactivate an installed addon:
 
-1.  In the **My Addons** section of your store's Admin area, find the addon that needs to be deactivated.
+1.  In your store's Admin area, click **My addons** to go to the **My Addons** section of the {% link "X-Cart Service Screen" ref_5Br376jE %}:
+    ![my_addons_link.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/my_addons_link.png)
 
-2.  Switch the On/Off trigger below the addon name to the "Off" state.
+2.  In the **My Addons** section of your store's Admin area, find the addon that needs to be deactivated.
+    ![disabled-addons.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/disabled-addons.png)
+
+3.  Switch the On/Off trigger below the addon name to the "Off" state.
     ![addon_deactivate.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/addon_deactivate.png)
 
-3.  Click **Apply changes**. This starts the addon deactivation process. Once your store has been redeployed, you will find the addon disabled.
+4.  Click **Apply changes**. This starts the addon deactivation process. Once your store has been redeployed, you will find the addon disabled.
 
 ## Uninstalling Addons
 
 To uninstall (delete) addon you are not planning to use further:
 
-1.  In the **My Addons** section of your store's Admin area, find the addon that needs to be uninstalled.
+1.  In your store's Admin area, click **My addons** to go to the **My Addons** section of the {% link "X-Cart Service Screen" ref_5Br376jE %}:
+    ![my_addons_link.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/my_addons_link.png)
 
-2.  Click on the **'Trash'** icon bellow the addon name.
+2.  In the **My Addons** section of your store's Admin area, find the addon that needs to be uninstalled.
+
+3.  Click on the **'Trash'** icon bellow the addon name.
     ![addon_delete.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/addon_delete.png)
 
-3.  Click **Apply changes**. 
+4.  Click **Apply changes**. 
     ![addon_delete1.png]({{site.baseurl}}/attachments/ref_uEnDBBA7/addon_delete1.png)
 
 This starts the addon deinstallation process. Once your store has been redeployed, the addon will be removed from your store.
