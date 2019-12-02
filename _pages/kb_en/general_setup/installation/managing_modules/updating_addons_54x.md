@@ -5,7 +5,7 @@ updated_at: '2019-11-29 12:06 +0400'
 identifier: ref_3sJdcWPV
 title: Updating Addons in X-Cart 5.4.x
 order: 140
-published: false
+published: true
 version: X-Cart 5.4.x
 ---
 In X-Cart 5.4.x, notifications about any updates for an addon or a group of addons are automatically displayed in your store Admin area as soon as they become available:
@@ -70,9 +70,4 @@ To apply an update:
    
    A store admin can open a customer storefront or go directly to the store Admin area by clicking the respective orange buttons to check the updates in work. Both the store Admin area and the Customer storefront will be opened in new tabs for the sake of the possibility to roll back the changes.
    
-   The changes can be reverted safely by clicking the **rollback** link at the bottom of the screen. 
-
-
-
-
-
+   The changes can be reverted safely by clicking the **rollback** link at the bottom of the screen.
