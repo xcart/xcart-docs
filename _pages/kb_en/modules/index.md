@@ -130,5 +130,6 @@ _In this section:_
 *   {% link "X-Cart 5 to WordPress Integration" ref_rJ8hCpkQ %}
 *   {% link "X-Cart eBay Integration" ref_0SnFdXk1 %}
 *   {% link "XML Sitemap" ref_21dOPnWz %}
-*   {% link "X-Payments Connector" ref_NaZh0d1b %}
+*   {% link "X-Payments Cloud Connector" ref_729XUzDQ %}
+*   {% link "X-Payments v1.x-3.x Connector" ref_NaZh0d1b %}
 *   {% link "X-Payments Subscriptions" ref_8VFoqBFZ %}
