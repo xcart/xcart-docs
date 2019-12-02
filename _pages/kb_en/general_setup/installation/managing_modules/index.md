@@ -26,6 +26,8 @@ The Upgrade System environment is opened from the **My Addons** menu section in 
 {% endnote %}
 
 _In this section_:
+
+*  {% link "X-Cart Service Screen" ref_5Br376jE %}
 *  {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}
 *  {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}
 *  {% link "Uploading Addons" ref_GZQ9vTq6 %} (for the addons from any other sources)
