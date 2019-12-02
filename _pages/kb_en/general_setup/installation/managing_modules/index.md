@@ -29,5 +29,6 @@ _In this section_:
 *  {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}
 *  {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}
 *  {% link "Uploading Addons" ref_GZQ9vTq6 %} (for the addons from any other sources)
-*  {% link "Updating Addons" ref_5Xj7bOA6 %}
+*  {% link "Updating Addons in X-Cart 5.4.x" ref_3sJdcWPV %}
+*  {% link "Updating Addons in X-Cart 5.3.x" ref_5Xj7bOA6 %}
 *  {% link "Server Related Issues" ref_1laAFgsD %}
