@@ -20,7 +20,7 @@ Software upgrades are important as they allow your store to stay secure and up-t
 X-Cart software code and addons are upgraded independently from each other to ensure data safety and overall software stability. If anything goes wrong with an addon upgrade, you can simply disable the addon that may have caused the problem without affecting the main store functioning.
 
 {% note info %}
-Starting from X-Cart 5.4.x all software and addons upgrades are perfromed in a special environment (**Upgrade System** screen) separate from the rest of the store. This was done to ensure that any changes applied to a store via new core updates or present addons' upgrade or deletion can be safely rolled back in case of any malfunction.
+Starting from X-Cart 5.4.x all software and addons upgrades are perfromed in a special environment ({% link "X-Cart Service Screen" ref_5Br376jE %}) separate from the rest of the store. This was done to ensure that any changes applied to a store via new core updates or present addons' upgrade or deletion can be safely rolled back in case of any malfunction.
 {% endnote %}
 
 
