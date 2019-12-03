@@ -20,7 +20,7 @@ After installing X-Cart 5 you will find that your store has some addons installe
 It is possible to obtain and install more addons. A great selection of addons for X-Cart 5 is available via the X-Cart App Store; however, addons can also be obtained from other sources. 
 
 {% note info %}
-Starting from X-Cart 5.4.x all manipulations with the software addons are perfromed in a special environment (**Upgrade System** screen) separate from the rest of the store. This was done to ensure that any changes applied to a store via new addons' installation or present addons' upgrade or deletion can be safely rolled back in case of any malfunction.
+Starting from X-Cart 5.4.x all manipulations with the software addons are perfromed in a special environment (X-Cart Service Screen) separate from the rest of the store. This was done to ensure that any changes applied to a store via new addons' installation or present addons' upgrade or deletion can be safely rolled back in case of any malfunction.
 
 The Upgrade System environment is opened from the **My Addons** menu section in the store Admin area.
 {% endnote %}
@@ -29,7 +29,7 @@ _In this section_:
 
 *  {% link "X-Cart Service Screen" ref_5Br376jE %}
 *  {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}
-* {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %} 
+*  {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %} 
 *  {% link "Uploading Addons" ref_GZQ9vTq6 %} (for the addons from any other sources)
 *  {% link "Updating Addons in X-Cart 5.4.x" ref_3sJdcWPV %}
 *  {% link "Updating Addons in X-Cart 5.3.x" ref_5Xj7bOA6 %}
