@@ -179,7 +179,7 @@ For the detailed guides on how to use packing slips in X-Cart see {% link "Packi
 
 Order returns become an available feature for a store admin in case the Order Returns addon is installed and enabled. 
 
-A store admin can create a return or work with a return request from a customer in the **Create return** tab of the order details page (the tab name may differ depending on the action to be perfromed):
+A store admin can create a return or work with a return request from a customer in the **Create return** or **Order return** tab of the order details page (the tab name will differ depending on the action to be perfromed):
 ![540-create-return.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-create-return.png)
 
 For the detailed guides on how to process returns in X-Cart see {% link "Order Returns" ref_30bVFfXt %}.
