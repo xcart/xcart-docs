@@ -14,7 +14,7 @@ Order management refers to the process of receiving, tracking, and fulfilling cu
 X-Cart allows to trace all orders placed in your store in one single place - the order listing page (**Orders** -> **Order List** section) where a store admin can manage them accordingly. The order processing workflow for a store admin will differ depending on the payment method used by a customer to pay for the order.
 
 {% note info %}
-X-Cart order listing page is not an order management system in its full meaning as it does not allow to complete a full chain of steps included into the [order fulfillment process](https://en.wikipedia.org/wiki/Order_fulfillment "Managing Orders in X-Cart").
+X-Cart order listing page as a basic order management system can be a good option for a small business, provided all orders are placed on the same website, and your site is closely tied with your fulfillment and inventory (allowing customers to review their order history).
 {% endnote %}
 
 {% toc %}
@@ -43,19 +43,20 @@ An order fulfillment status must be manually updated by a store admin each time 
 
 ### Advanced Orders Search 
 
-The orders listing page has an advanced search panel where a store admin can filter orders to work with according to several paramethers. 
+The orders listing page has an advanced search panel where a store admin can filter orders to work with according to several paramethers (order ID range, date, payment and fulfillment statuses, customer name, etc.). 
 ![advanced-search.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/advanced-search.png)
 
-The chosen filters can then be saved and will be displayed as preset filters on the top of the page.
-![listing.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/listing.png)
+The chosen search parameters can then be saved and displayed along with the preset filters on the top of the page.
+![540-saved-filters.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-saved-filters.png)
+
 
 ### Bulk-Editing Orders
 
 The order listing page provides a store admin with the means of bulk-editing orders. 
 
-First of all, a store admin can change the payment and/or fulfillment statuses on a per order basis directly on the order listing page. To do so the store admin should select the appropriate payment and/or fulfilment statuses in the related drop-down and click **Save changes** to submit the changes. 
+First of all, a store admin can change the payment and/or fulfillment statuses on a per order basis. To do so the store admin should select the appropriate payment and/or fulfillment statuses in the related drop-down and click **Save changes** to submit the changes. 
 
-In case changes are to be applied to more than one order at a time a store admin can select the orders to be updated by enabling a select-box opposite the order in question and use the bulk-editing panel on the bottom of the page for alterations.
+In case changes are to be applied to more than one order at a time a store admin can select the orders to be updated by enabling a check-box opposite the order in question and use the bulk-editing panel on the bottom of the page for alterations.
 
 ![bulk-edit.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/bulk-edit.png)
 
@@ -96,45 +97,86 @@ For orders paid using {% link "online payment processors" ref_Jq6Bsdrt %}, the 
 
 ## Advanded Order Management
 
-For advanced order management, a store admin should open the order details page by clicking on the order number (e.g. #00020).
+For advanced order management, a store admin should open the order details page by clicking on the order number (e.g. #0009).
+![540-order-number.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-order-number.png)
 
+### Order Details
+
+The **General info** tab of the order details page provides the tools for a store admin to adjust all or some order details:
 <div class="ui stackable three column grid">
-  <div class="column" markdown="span">![general-1.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/general-1.png)</div>
-  <div class="column" markdown="span">![general-2.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/general-2.png)</div>
+  <div class="column" markdown="span">![540-order-details-1.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-order-details-1.png)</div>
+  <div class="column" markdown="span">![540-order-details-2.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-order-details-2.png)</div>
 </div>
 
-Advanced order management allows a store admin to change the following order details:
-
-* **Customer e-mail address** : Info will be changed for this order only.
-* **Staff note** : Notes can be added in the field for comments.
-* **Payment method** : For [offline payment methods](https://kb.x-cart.com/payments/accepting_payments.html#offline-payment-methods "Managing Orders in X-Cart") only.
-* **Shipping method** : For any shipping method.
-* **Billing address** : Info will be changed for this order only.
-* **Shipping address** : Info will be changed for this order only.
-* **Fulfillment status** : Choose one of the available values.
-* **Payment status** : Choose one of the available values.
-* **Tracking number** : To add a tracking number click on the **'Add tracking number'** button. A tracking number can have up to 32 symbols.
-* **Order items** : An admin can change the price and quantity of the ordered products and add new products to the order.
-* **Discount** : An admin can add a discount coupon by clicking the _Add coupon_ link or a cash discount.
-* **Shipping cost** : Change the shipping cost applied to the order.
-* **Gift wrapping** : If the Gift wrapping option is turned ON admin will be able to specify the gift wrapping cost.
+* **Customer e-mail address** : A store admin can change the customer email. The info will be changed for this order only.
+* **Staff note** : Notes can be added in the field for comments. The notes will be visible for the store staff only.
+* **Payment method** : Payment method can be changed for [offline payment methods](https://kb.x-cart.com/payments/accepting_payments.html#offline-payment-methods "Managing Orders in X-Cart") only.
+* **Shipping method** : Shippping method can be changed for any shipping method.
+* **Billing address** : A store admin can change the customer's billing address. The info will be changed for this order only.
+* **Shipping address** : A store admin can change the customer's shipping address. The info will be changed for this order only.
+* **Fulfillment status** : A store admin can change the order filfillment status to any available from the frop-down. 
+* **Payment status** : A store admin can change the order filfillment status to any available from the frop-down. 
+* **Tracking number** : If applicable a store admin can add a tracking number to the order. 
+  To add a tracking number:
+  * click on the **'Add tracking number'** button; 
+  * add the required tracking number in the new line (a tracking number can have up to 32 symbols);
+  * click **Save changes** (or it is possible to save changes when all required order details have been adjusted).
+* **Order items** : A store admin can change the price and the quantity of the ordered items and add new products to the order.
+* **Discount** : A store admin can add a {% link "discount coupon" ref_SGI1FqdC %} by clicking the _Add coupon_ link or a cash discount.
+* **Shipping cost** : A store admin can change the shipping cost applied to the order.
+* **Gift wrapping** : If the {% link "Gift Wrapping" ref_3eTR6n0m %} option is turned ON a store admin can add a gift wrapping cost to the order.
 
 If changes are applied to the order items and associated costs, the admin must first click the **'Recalculate totals'** button and **save changes** after that. 
 
 If no changes to the costs are applied, the admin can **save changes** right away. 
 
-With the **Notify customer** checkbox enabled a customer will get notifications on all the changes apllied to the order. 
+### Notifications
 
-All order changes are recorded in the order history that can be checked on top of the page. Click the **View order history** link to display the info. 
+A store admin can choose whether to inform a customer on the changes applied to the order or not. By default, customers recieve notifications on all changes applied to their orders in accordance with the general notifications set-up. For more info on the email notifications see {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}.
 
-![order-history.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/order-history.png)
+In case a store admin does not want to inform a customer about the changes applied to the order, it will be necessary to enable the **Don’t notify customer** check-box BEFORE saving changes.  
+![540-do-not-notify.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-do-not-notify.png)
 
-Any changes made to the order will automatically result in the order invoice alteration, that can be checked in the **Invoice** tab of the order details page.
+### Order History
 
-![invoice.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/invoice.png)
+All changes applied to an order are recorded in the order history that can be viewed on top of the order details page. 
 
-The **Messages** tab can be used if it is necessary to send notes about an order to a customer. 
+Click the **View order history** link to display the info. 
+<div class="ui stackable three column grid">
+  <div class="column" markdown="span">![540-order-history-1.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-order-history-1.png)</div>
+  <div class="column" markdown="span">![540-order-history-2.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-order-history-2.png)</div>
+</div>
+
+The order history includes the info on all notifications sent to both a store admin and a customer with a possibility to check the text of the notification. To see the text it is necessary to click on the **+** icon opposite a notification.
+
+### Order Invoice
+
+The invoice for an order can be viewed in the **Invoice** tab of the order details page:
+![540-order-invoice.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-order-invoice.png)
+
+Any changes applied to an order will automatically result in the order invoice alteration.
+
+To print an invoice it is necessary to click the **Print invoice** button at the top of the order details page.
+![540-print-invoice.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-print-invoice.png)
+
+### Order messages
+
+The **Messages** tab of the order details page can be used if it is necessary to send notes about an order to a customer. 
 
 ![messages.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/messages.png)
 
-It's also possible to print {% link "packing slips" ref_2mocNY5w %} directly from the order details page. Packing slips provide important details about the order contents and are a great way to communicate what has been sent to the customer.
+For the detailed guides on how to communicate with customers via the order messages see {% link "Order Messages" ref_5lxsFz5L %}.
+
+### Packing Slips
+
+Packing slips provide important details about the order contents and are a great way to communicate what has been sent to the customer.
+
+To print packing slips it is necessary to click the **Print packing slip** button at the top of the order details page. 
+![540-print-slip.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-print-slip.png)
+
+For the detailed guides on how to use packing slips in X-Cart see {% link "Packing Slips" ref_2mocNY5w %}.
+
+### Order Returns
+
+Order returns become an available feature for a store admin in case the {% link "Order Returns" ref_30bVFfXt %} addon is installed and enabled. 
+
