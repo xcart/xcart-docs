@@ -162,8 +162,7 @@ To print an invoice it is necessary to click the **Print invoice** button at the
 ### Order messages
 
 The **Messages** tab of the order details page can be used if it is necessary to send notes about an order to a customer. 
-
-![messages.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/messages.png)
+![540-order-messages.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-order-messages.png)
 
 For the detailed guides on how to communicate with customers via the order messages see {% link "Order Messages" ref_5lxsFz5L %}.
 
@@ -178,5 +177,10 @@ For the detailed guides on how to use packing slips in X-Cart see {% link "Packi
 
 ### Order Returns
 
-Order returns become an available feature for a store admin in case the {% link "Order Returns" ref_30bVFfXt %} addon is installed and enabled. 
+Order returns become an available feature for a store admin in case the Order Returns addon is installed and enabled. 
+
+A store admin can create a return or work with a return request from a customer in the **Create return** tab of the order details page (the tab name may differ depending on the action to be perfromed):
+![540-create-return.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-create-return.png)
+
+For the detailed guides on how to process returns in X-Cart see {% link "Order Returns" ref_30bVFfXt %}.
 
