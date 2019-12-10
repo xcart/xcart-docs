@@ -11,7 +11,7 @@ When you are fulfilling orders, you might want to include a packing slip in the 
 
 ## Print Packing Slips
 
-You can print packing slips after you have begun the fulfillment process. Packing slips can be printed from the order details page (**Orders** -> **Orders list**) and include all the items being sent in a specific shipment. 
+You can print packing slips after you have begun the fulfilment process. Packing slips can be printed from the order details page (**Orders** -> **Orders list**) and include all the items being sent in a specific shipment. 
 
 To print a packing slip:
 1. Find the order in question in the order list (**Orders** -> **Orders list**):
