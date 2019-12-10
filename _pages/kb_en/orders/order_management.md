@@ -159,7 +159,7 @@ Any changes applied to an order will automatically result in the order invoice a
 To print an invoice it is necessary to click the **Print invoice** button at the top of the order details page.
 ![540-print-invoice.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-print-invoice.png)
 
-### Order messages
+### Order Messages
 
 The **Messages** tab of the order details page can be used if it is necessary to send notes about an order to a customer. 
 ![540-order-messages.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-order-messages.png)
