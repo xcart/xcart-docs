@@ -14,7 +14,7 @@ Order management refers to the process of receiving, tracking, and fulfilling cu
 X-Cart allows to trace all orders placed in your store in one single place - the order listing page (**Orders** -> **Order List** section) where a store admin can manage them accordingly. The order processing workflow for a store admin will differ depending on the payment method used by a customer to pay for the order.
 
 {% note info %}
-X-Cart order listing page as a basic order management system can be a good option for a small business, provided all orders are placed on the same website, and your site is closely tied with your fulfillment and inventory (allowing customers to review their order history).
+X-Cart order listing page as a basic order management system can be a good option for a small business, provided all orders are placed on the same website, and your site is closely tied with your fulfilment and inventory (allowing customers to review their order history).
 {% endnote %}
 
 {% toc %}
@@ -32,18 +32,18 @@ The order listing page allows a store admin to view the following order details:
 * **Date** : The date and the time the order was placed at.
 * **Customer** : The name and the email address of a customer (by clicking on the customer name a store admin will be redirected to the {% link "user profile" ref_gg1fQDgB %} page).
 * **Payment status** : The current payment status of an order. See more info in {% link "Understanding X-Cart Order Statuses" ref_DkbTi1qJ %}.
-* **Fulfillment status** : The current fulfillment status of an order. See more info in {% link "Understanding X-Cart Order Statuses" ref_DkbTi1qJ %}.
+* **Fulfilment status** : The current fulfilment status of an order. See more info in {% link "Understanding X-Cart Order Statuses" ref_DkbTi1qJ %}.
 * **Amount** : The order total and the amount of items ordered.
 
 In case an order was paid via an online payment processor the order payment status is updated automatically at the time X-Cart receives the order related info from the payment processor. 
 
 In case an order was paid via an offlne mayment method a store admin will have to manually update the order payment status each time it changes. 
 
-An order fulfillment status must be manually updated by a store admin each time the order progresses in the fulfillment chain. 
+An order fulfilment status must be manually updated by a store admin each time the order progresses in the fulfilment chain. 
 
 ### Advanced Orders Search 
 
-The orders listing page has an advanced search panel where a store admin can filter orders to work with according to several paramethers (order ID range, date, payment and fulfillment statuses, customer name, etc.). 
+The orders listing page has an advanced search panel where a store admin can filter orders to work with according to several paramethers (order ID range, date, payment and fulfilment statuses, customer name, etc.). 
 ![advanced-search.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/advanced-search.png)
 
 The chosen search parameters can then be saved and displayed along with the preset filters on the top of the page.
@@ -54,7 +54,7 @@ The chosen search parameters can then be saved and displayed along with the pres
 
 The order listing page provides a store admin with the means of bulk-editing orders. 
 
-First of all, a store admin can change the payment and/or fulfillment statuses on a per order basis. To do so the store admin should select the appropriate payment and/or fulfillment statuses in the related drop-down and click **Save changes** to submit the changes. 
+First of all, a store admin can change the payment and/or fulfilment statuses on a per order basis. To do so the store admin should select the appropriate payment and/or fulfilment statuses in the related drop-down and click **Save changes** to submit the changes. 
 
 In case changes are to be applied to more than one order at a time a store admin can select the orders to be updated by enabling a check-box opposite the order in question and use the bulk-editing panel on the bottom of the page for alterations.
 
@@ -63,7 +63,7 @@ In case changes are to be applied to more than one order at a time a store admin
 The options for bulk edit are:
 * **Print selected** : A store admin can either print an invoice or a packing slip on their choice. 
 * **Change payment status for selected** : The payment status should be changed only for the orders placed using offline payment methods. The payment status for the orders paid via online payment processors is updated automatically. 
-* **Change fulfillment status for selected** : The fulfillment status should be updated respectively each time an order progresses in the fulfillment chain regardless of the payment method used.
+* **Change fulfilment status for selected** : The fulfilment status should be updated respectively each time an order progresses in the fulfilment chain regardless of the payment method used.
 * **Delete selected**
 
 Each time an order is updated a customer receives a special email notification. More info on the email notifications you can find in {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}.
@@ -80,7 +80,7 @@ X-Cart allows paying orders using both offline and online payment methods depend
 For orders paid using {% link "offline payment methods" ref_Jq6Bsdrt %}, the order processing workflow is as follows:
 
 *   A new order is created with the status _Awaiting payment_.
-*   As the order progresses through the various stages of the order processing and fulfillment process, the store administrator manually updates the order status. The current status of the order can be changed manually to any other status at any time. Typically, after the order payment has been received, the status _Awaiting payment_ will be changed to _Paid_; if the order is cancelled - to _Cancelled_. After a refund, the status _Paid_ will have to be changed to _Refunded_. The status _Partially Paid_ is possible in case of a partial payment for the order or a partial refund.
+*   As the order progresses through the various stages of the order processing and fulfilment process, the store administrator manually updates the order status. The current status of the order can be changed manually to any other status at any time. Typically, after the order payment has been received, the status _Awaiting payment_ will be changed to _Paid_; if the order is cancelled - to _Cancelled_. After a refund, the status _Paid_ will have to be changed to _Refunded_. The status _Partially Paid_ is possible in case of a partial payment for the order or a partial refund.
 
 {% note info %}
 We strongly recommend using the _Refunded_ status (not _Cancelled_) when updating the order status from _Paid_, and _Cancelled_ (not _Refunded_) when updating the order status from _Authorized_ or _Awaiting payment_.
@@ -114,7 +114,7 @@ The **General info** tab of the order details page provides the tools for a stor
 * **Shipping method** : Shippping method can be changed for any shipping method.
 * **Billing address** : A store admin can change the customer's billing address. The info will be changed for this order only.
 * **Shipping address** : A store admin can change the customer's shipping address. The info will be changed for this order only.
-* **Fulfillment status** : A store admin can change the order filfillment status to any available from the frop-down. 
+* **Fulfilment status** : A store admin can change the order filfillment status to any available from the frop-down. 
 * **Payment status** : A store admin can change the order filfillment status to any available from the frop-down. 
 * **Tracking number** : If applicable a store admin can add a tracking number to the order. 
   To add a tracking number:
