@@ -61,4 +61,4 @@ For this purpose:
 * Choose items, specify the reason and add comments if required;
 * Click **Submit return**.
 
-The claim for return will ne submitted transforming the page into a regular _Order return_  page where a store admin can either authorize or decline the claim for return as described in [Processing Customer Requests for Return](https://kb.x-cart.com/orders/order_returns/managing_OR.html#processing-customer-requests-for-return "Managing Order Returns").
+The claim for return will be submitted transforming the page into a regular _Order return_  page where a store admin can either authorize or decline the claim for return as described in [Processing Customer Requests for Return](https://kb.x-cart.com/orders/order_returns/managing_OR.html#processing-customer-requests-for-return "Managing Order Returns").
