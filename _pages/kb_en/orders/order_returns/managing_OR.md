@@ -7,6 +7,12 @@ title: Managing Order Returns
 order: 110
 published: true
 ---
+A possibility to submit an order return is added to X-Cart core by the {% link "Order Returns" ref_30bVFfXt %}. So if you need to process order returns make sure the relevant addon is {% link "installed and enabled" ref_5JucPxO8 %}. 
+
+{% toc %}
+
+## Order Return Policy
+
 First of all you'll need to configure the returns policy of your store. 
 
 Proceed to the _Fulfilment statuses_ tab of the **Orders** -> **Order Statuses** page of the Admin area and set the order statuses permitted for return:
@@ -23,9 +29,7 @@ If the Custom Order Statuses addon is enabled you can allow orders with any exis
 Don't forget to add your returns policy to the _Return Policy_ page in the **Catalog** -> **Product Tabs** section.
 {% endnote %}
 
-{% toc %}
-
-## Processing Customer Requests for Return
+## Customer Requests for Return
 
 All requests for order returns submitted by customers with the help of a special **Claim return** button in their customer account are recorded in the **Orders** -> **Returns** section of the store Admin area. The page displayes a list of all orders for that a return has been claimed.
 
