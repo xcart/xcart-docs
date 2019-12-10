@@ -23,9 +23,11 @@ If the Custom Order Statuses addon is enabled you can allow orders with any exis
 Don't forget to add your returns policy to the _Return Policy_ page in the **Catalog** -> **Product Tabs** section.
 {% endnote %}
 
-To manage order returns open the **Orders** -> **Returns** section of the Admin area. 
+{% toc %}
 
-You'll see a list of all orders for that a return has been claimed.
+## Processing Customer Requests for Return
+
+All requests for order returns submitted by customers with the help of a special **Claim return** button in their customer account are recorded in the **Orders** -> **Returns** section of the store Admin area. The page displayes a list of all orders for that a return has been claimed.
 
 ![returns-page.png]({{site.baseurl}}/attachments/ref_2yZxorwM/returns-page.png)
 
@@ -33,7 +35,7 @@ New orders claimed for return will have an 'Issued' status. The rest will have e
 
 To edit a claim for return click on the order number on the **Orders** -> **Returns** page.
 
-You'll be forwarded to the _Order return_ tab where you'll see a screen of the kind:
+You'll be forwarded to the _Order return_ tab of the order details page where you'll see a screen of the kind:
 ![manage-return.png]({{site.baseurl}}/attachments/ref_2yZxorwM/manage-return.png)
 
 Your options are either to **Authorize** or **Decline** the claim for return. 
@@ -45,3 +47,18 @@ If you decline the claim for return the order payment and fulfilment statuses wi
 To modify a return request, add the necessary changes to it and then hit the '**Modify**' button that becomes visible. 
 
 A customer will get an {% link "e-mail notification" ref_5QLrLCu7 %} on any change you apply to the order, including the changes to the claim for return and its resolution status.
+
+## Creating a Return
+
+It could be that a request for return was submitted not via a special **Claim return** button in customer account but via some other sources of communication (regular email, phone call, etc.) and hence was not recorded in the **Orders** -> **Returns** section of the store Admin area. It could also be that a store admin needs to issue a return for an order for some other reason. 
+
+If this is the case a store admin will have an opportunity to claim a return for an order either on behalf of a customer of for another reaosn using the _Create return_ tab of the order details page:
+![540-create-return.png]({{site.baseurl}}/attachments/ref_2yZxorwM/540-create-return.png)
+
+For this purpose:
+* Locate an order you need to return on the order listing page (Orders -> Orders list) and open the order details page;
+* Open the _Create return_ tab of the order details page;
+* Choose items, specify the reason and add comments if required;
+* Click **Submit return**.
+
+The claim for return will ne submitted transforming the page into a regular _Order return_  page where a store admin can either authorize or decline the claim for return as described in Processing Customer Requests for Return.
