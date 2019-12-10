@@ -7,7 +7,7 @@ title: Managing Order Returns
 order: 110
 published: true
 ---
-A possibility to submit an order return is added to X-Cart core by the {% link "Order Returns" ref_30bVFfXt %}. So if you need to process order returns make sure the relevant addon is {% link "installed and enabled" ref_5JucPxO8 %}. 
+A possibility to submit an order return is added to X-Cart core by the {% link "Order Returns" ref_30bVFfXt %} addon. So if you need to process order returns make sure the relevant addon is {% link "installed and enabled" ref_5JucPxO8 %}. 
 
 {% toc %}
 
