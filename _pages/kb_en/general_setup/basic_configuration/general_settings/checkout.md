@@ -86,7 +86,12 @@ If you wish to disable anonymous checkout, it's necessary to enable the **Ask an
 
 ### Registered Checkout
 
-Registered customers who are logged into their accounts can complete checkout quickly because much of the information is already stored in their accounts. Personal data, like shipping and billing address, are filled in based on the address book data saved for each user account. Shipping and payment method are also be predefined. The choice of the selected shipping and/or payment methods will depend on the related data from the previous order of this customer.
+Registered customers who are logged into their accounts can complete checkout easier because much of the information is already stored in their accounts. Personal data, like shipping and billing address, are filled in based on the address book data saved for each user account. Shipping and payment method are also predefined. The choice of the selected shipping and/or payment methods will depend on the related data from the previous order of this customer.
+
+Registered customers also have an option to re-order items after a successful checkout, as the data about all orders placed in the store is recorded in the **Orders** section of a customer account in the storefront.
+![540-reorder-button.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/540-reorder-button.png)
+
+Once a customer clicks the **Re-order** button they are redirected to the cart page in the storefront that will contain exactly the same items and in the same amount as in the related order. All they need to do will be to complete the checkout process and pay for the goods.
 
 ## Security Settings
 
