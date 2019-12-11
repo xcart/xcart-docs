@@ -5,7 +5,7 @@ updated_at: '2019-12-11 12:31 +0400'
 identifier: ref_7hDIkvmk
 title: Managing Vendor Ratings
 order: 300
-published: false
+published: true
 ---
 In a Multivendor X-Cart store, customers can give detailed categorized ratings of their orders to let other customers know about their experience. Because orders are tied to specific vendors, the order ratings provided by the customers are used to calculate vendor ratings. Basically, by rating their order, a customer rates the vendor from which the products in the order were sourced. The rating is done in the following categories:
    
@@ -78,4 +78,4 @@ Vendors with appropriate permissions can view their own rating information in th
    ![xc5_mv_order_ratings_in_vendor.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_order_ratings_in_vendor.png)
 
 If necessary, they can filter/search for specific ratings by customer name or date range.
-They cannot, however, edit or delete any ratings that have been provided by customers with regard to their orders. 
+They cannot, however, edit or delete any ratings that have been provided by customers with regard to their orders.
