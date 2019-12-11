@@ -13,10 +13,6 @@ Order management refers to the process of receiving, tracking, and fulfilling cu
 
 X-Cart allows to trace all orders placed in your store in one single place - the order listing page (**Orders** -> **Order List** section) where a store admin can manage them accordingly. The order processing workflow for a store admin will differ depending on the payment method used by a customer to pay for the order.
 
-{% note info %}
-X-Cart order listing page as a basic order management system can be a good option for a small business, provided all orders are placed on the same website, and your site is closely tied with your fulfilment and inventory (allowing customers to review their order history).
-{% endnote %}
-
 {% toc %}
 
 ## Order Listing Page
