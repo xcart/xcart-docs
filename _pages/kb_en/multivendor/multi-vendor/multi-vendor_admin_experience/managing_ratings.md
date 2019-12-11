@@ -70,7 +70,7 @@ The filter at the top of the section can be used to filter/search for reviews by
 
 Also the store administrator can manage the email notification "Customer has rated the order" that is sent to a vendor. 
 
-More info on managing email notifications  is available in the {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %} section of this manual.
+More info on managing email notifications  is available in the {% link "Managing Multi-vendor Email Notifications" ref_7DW1NMak %} section of this manual.
 
 ## Vendor Reviews: Vendor Experience
 
