@@ -24,6 +24,7 @@ _In this section:_
    *   {% link "Setting Vendor Commissions" ref_7B8smyEx %}
    *   {% link "Vendor Payouts and Tracking the Flow of Money to and from the Vendors" ref_3uy1YgfD %}
    *   {% link "Viewing Vendor Statistics" ref_4mvK1AKz %}
+   *   {% link "Managing Vendor Ratings" ref_7hDIkvmk %}
 
 _Related pages:_
 
