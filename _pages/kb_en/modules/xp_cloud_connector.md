@@ -59,6 +59,8 @@ Once you are ready to proceed with the connection, you will need to either creat
      
      More info on setting up 2-step user authentication methods in X-Payments Cloud is available in the X-Payments Cloud manual.
      
+     Note that after your X-Payments Cloud account has been created, you will receive a confirmation email message at the email address specified during your registration. Please refer to this email message for your getting started instructions.
+     
 <a id="xpc-registered-account"></a>
    * **If you already have an existing X-Payments Cloud account**:
      
@@ -73,6 +75,12 @@ Once you are ready to proceed with the connection, you will need to either creat
      
      This will connect your X-Cart store to your existings X-Payments Cloud account.
 
-Once your X-Cart 5 store has been connected to X-Payments Cloud, configure X-Payments Cloud as you require. You will be able to access your X-Payments Cloud admin panel right from within your X-Cart store (via the same section you used to complete the connection - the one titled "X-Payments Cloud settings").
-     
+Once your X-Cart 5 store has been connected to X-Payments Cloud, configure X-Payments Cloud as you require. You will be able to access your X-Payments Cloud admin panel right from within your X-Cart store (via the same section you used to complete the connection - the one titled "X-Payments Cloud settings"). 
+
+Should you require to access your X-Payments Cloud admin panel directly (not from within your X-Cart store, but as a standalone website), you will be able to do so using a URL similar to the following:
+`https://your_xpc_account.xpayments.com/admin.php`
+(Just be sure to  replace the part 'your_xpc_account' with your actual X-Payments Cloud account name). 
+
+Should you forget your X-Payments Cloud account name, you can look up the URL for access to your X-Payments Cloud admin panel in the email message sent to your X-Payments Cloud account registration email box. The email subject line reads "Welcome to X-Payments!"
+
 After completing the X-Payments Cloud configuration, make sure your X-Payments Cloud payment method is enabled in your X-Cart store.
