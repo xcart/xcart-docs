@@ -119,7 +119,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
            Starting with X-Cart version 5.3.20, we only provide a prompt to remove such addons; however, there is a link to the list of disabled addons where you can enable them if you choose to do so. 
            {% endnote %}
     
-       *   If your store has addons that do not exist in the marketplace (e.g. you uploaded them via **Upload add-on** button) and you are doing an upgrade/update within the 3rd or 4th digit sequence of the version number, you will be advised to disable these addons, although it is not strictly necessary. If you are doing a major upgrade affecting the 1st or 2nd digit sequence of the version number, you will be told that such addons will be disabled automatically.
+       *   If your store has addons that do not exist in the App Store (e.g. you uploaded them via **Upload add-on** button) and you are doing an upgrade/update within the 3rd or 4th digit sequence of the version number, you will be advised to disable these addons, although it is not strictly necessary. If you are doing a major upgrade affecting the 1st or 2nd digit sequence of the version number, you will be told that such addons will be disabled automatically.
 
         *   If your store has any modified files, you will get a warning like this:
             ![files_modified.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/files_modified.png)
