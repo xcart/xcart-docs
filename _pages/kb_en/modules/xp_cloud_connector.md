@@ -83,4 +83,9 @@ Should you require to access your X-Payments Cloud admin panel directly (not fro
 
 Should you forget your X-Payments Cloud account name, you can look up the URL for access to your X-Payments Cloud admin panel in the email message sent to your X-Payments Cloud account registration email box. The email subject line reads "Welcome to X-Payments!"
 
+Note that for security reasons the length of an edit session in X-Payments Cloud is limited to 15 minutes. 30 seconds before your edit session expires, a warning message will pop up on the page being edited to notify you that your current edit session is about to expire. To continue editing, be sure to reload the page before the expiration of your 15-minute edit session; in this case, the edit session will be renewed. If the page does not get reloaded before the edit session expiration time, you will have to re-enter your X-Payments Cloud sign-in credentials to resume editing. If viewing the X-Payments Cloud admin panel from within your X-Cart store, after the expiration of your edit session, you will continue seeing the last page you were editing, but the system will switch to the *Quick access* mode: any sensitive content in the input boxes configured in X-Payments Cloud will be hidden behind asterisks:
+![xpc_quick_access_mode.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xpc_quick_access_mode.png)
+
+To view this content and/or to resume editing, you will need to unlock editing by clicking on the padlock icon displayed next to the title of the page being viewed or the **Unlock editing** link at the top right-hand side of the page.  
+
 After completing the X-Payments Cloud configuration, make sure your X-Payments Cloud payment method is enabled in your X-Cart store.
