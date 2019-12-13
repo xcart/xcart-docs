@@ -21,7 +21,7 @@ In addition, we strongly recommend that you should create a DEV copy of your sto
 For details on how to create a dev copy of your store and to restore the store from backup, see {% link 'Moving X-Cart to another location' ref_6oFmUXC7 %}
 
 ## Store Upgrade Process
-Once per day, each X-Cart store checks the Marketplace for updates. The response from the Marketplace is cached for a day. If you need to delete this cache, open the link `admin.php?target=addons_list_marketplace&action=clear_cache`.
+Once per day, each X-Cart store checks the X-Cart App Store for updates. The response from the App Store is cached for a day. If you need to delete this cache, open the link `admin.php?target=addons_list_marketplace&action=clear_cache`.
 
 If there is any kind of update/upgrade available, there will be an **Updates are available** link in the header of the Admin area:
 ![updates-green.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/updates-green.png)
