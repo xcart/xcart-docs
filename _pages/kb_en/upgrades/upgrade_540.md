@@ -24,24 +24,32 @@ To check what updates are available for your store, click on any of the "Updates
 
 You will be redirected to the **Updates & Upgrades** section of the {% link "X-Cart Service Screen" ref_5Br376jE %} where you'll see a full info on all the updates available for you store at the moment.
 
-Basically, there can be 3 types of the updates in your X-Cart based store - Updates for Marketplace, Minor Updates and Major Upgrades.
-
-![updates-marketplace.png]({{site.baseurl}}/attachments/ref_331t0CWx/updates-marketplace.png)
-
-More info on the differences between minor and major upgrades you can find in the {% link "X-Cart Upgrades: General Info" ref_2x1plcU0 %} section of this manual.
-
 {% note info %}
 Starting from X-Cart 5.4.0.x all software and addons upgrades are perfromed in a special environment (X-Cart Service Screen) separate from the rest of the store. This was done to ensure that any changes applied to a store via new core updates or present addons’ upgrade or deletion can be safely rolled back in case of any malfunction.
 {% endnote %}
 
+Basically, there can be 3 types of the updates in your X-Cart based store - Updates for App Store, Minor Updates and Major Upgrades. More info on the differences between minor and major upgrades you can find in the {% link "X-Cart Upgrades: General Info" ref_2x1plcU0 %} section of this manual.
+
+![updates-marketplace.png]({{site.baseurl}}/attachments/ref_331t0CWx/updates-marketplace.png)
+
 The regular upgrade workflow is the same for any type of update you need to apply:
 {% toc %}
+
+## Choosing the Update to Apply
+
+Review the updates listed in the **Updates & Upgrade** section of the {% link "X-Cart Service Screen" ref_5Br376jE %} and choose the update you need to apply. 
+![updates-upgrades.png]({{site.baseurl}}/attachments/ref_331t0CWx/updates-upgrades.png)
+
+If there are several upgrades available for your store at the same time, you will need to select the upgrade you require:
+*   To get updates from the App Store to make the process of upgrading your store more secure and stable, click on the **Install Updates** button in the **Updates for App Store** section. Unlike minor and major upgrades, updates for App Store are run right away as you click the **Install Updates** button without
+*   To get bugfixes for your current version, click on the **View & Update** button in the  **Minor update** section. 
+*   To get both the bug-fixes and the new features, click on the **View & Upgrade** button in the **Major upgrade** section. 
 
 ## Checking the Update Changelog
 
 Changelogs are special files that contain a list of changes included into an update. It is recommended to check changelogs before proceeding with an update to be aware of the forthcoming changes.
 
-The **Updates & Upgrades** section of the X-Cart Service Screen allows to check both a joined changelog for all updates includedin to an upgrade and a separate changelog for each addon that can be updated. A changelog is opened in a pop-up.
+After you have selected to proceed with either minor or major software upgrades, you can view both a joined changelog for all updates included in to an upgrade and a separate changelog for each addon that can be updated. A changelog is opened in a pop-up.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![540-major-upgrade-general-changelog.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-major-upgrade-general-changelog.png)</div>
@@ -50,7 +58,7 @@ The **Updates & Upgrades** section of the X-Cart Service Screen allows to check 
 
 ## Making a Full Backup
 
-Having a full store backup that includes all store files and the database provides you can restore your site to the original state in case anything goes wrong. That is why 
+Having a full store backup that includes all store files and the database provides you can restore your site to the original state in case anything goes wrong.
 
 Backups in X-Cart 5.4.x are done with a built-in {% link "Backup Master Addon" ref_60LdO1tN %}. The **Updates & Upgrades** section of the {% link "X-Cart Service Screen" ref_5Br376jE %} highlights the necessity of making a full store backup before proceeding with updates and provides an opportunity to go directly to the Backup Master addon page and make a fresh back-up there.
 
@@ -71,40 +79,51 @@ For details on how to create a dev copy of your store and to restore the store f
 
 {% note warning %}
 PREREQUISITES:
-1. Read the changelogs to be aware of the modifications to be added to the store functionality.
-2. Do a full store backup including all store files and the database before launching a store upgrade.
+1. Select the upgrade you want to install.
+2. Read the changelogs to be aware of the modifications to be added to the store functionality.
+3. Do a full store backup including all store files and the database before launching a store upgrade.
 {% endnote %}
 
 Provided you have read the changelogs and done the required store backups you can proceed to the upgrade installation itself. X-Cart allows to install updates and upgrades in bulk (the regular full upgrade) and choose the components to be upgraded and leave the rest as is (partial upgrade). 
 
 **To update/upgrade your X-Cart store**, follow the steps below:
 
-1.  Review the available updates in the **Updates & Upgrade** section of the {% link "X-Cart Service Screen" ref_5Br376jE %} and choose the updates you need to apply. 
-    ![updates-upgrades.png]({{site.baseurl}}/attachments/ref_331t0CWx/updates-upgrades.png)
+1. Check if thereare any warnings from the {% link "X-Cart Service Screen" ref_5Br376jE %} on any addons not used at the moment:
+   ![540-major-upgrade-remove-addons-warning.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-major-upgrade-remove-addons-warning.png)
+   
+   *   If your store has any addons that have upgrade hooks, and these addons are disabled (not active), you will be prompted to activate such addons. An addon must be active in order to correctly run the upgrade hooks, and this is the reason why the addon must be either enabled or deleted.
+    *   If your store has addons that do not exist in the App Store (e.g. you {% link "uploaded" ref_GZQ9vTq6 %} them via **Upload add-on** button) and you are doing an upgrade/update within the 3rd or 4th digit sequence of the version number, you will be advised to disable these addons, although it is not strictly necessary. If you are doing a major upgrade affecting the 1st or 2nd digit sequence of the version number, you will be told that such addons will be disabled automatically.
+     *   If your store has any modified files, you will get a warning like this:
+         ![files_modified.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/files_modified.png)
+            
+         You will be able to choose whether you want the modified files to be replaced in the process of upgrade with their non-modified versions, or to keep the modified files (The latter option may cause your site to crash, so clearly you must understand what you are doing.)
 
-    If there are both a minor update and a major upgrade available for your store at the same time, you will need to select the upgrade you require:
-       *   To get bugfixes for your current version, click on the **View & Update** button in the  **Minor update** section. 
-       *   To get both the bug-fixes and the new features, click on the **View & Upgrade** button in the **Major upgrade** section. 
-       
-2. You'll 
-       
-    If you do not want to do the full update/upgrade on your store including all the updates/upgrades you see in the joined changelog, you should:
+2. If you want to install a regular full update/upgrade skip this step and move on to step 3. 
+   
+   If you do not want to do the full update/upgrade on your store that includes all the updates/upgrades listed in the joined changelog, you should:
        * click on the **Lock** icon in the top right corner of the screen to unlock the possibility of selecting the specific update/upgrade components that you want to be installed: 
        ![540-upgrade-unlocked.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-upgrade-unlocked.png)
        * select the addons you want to be updated;
        * proceed further as with the regular full store upgrade/update.
       
-       {% note warning %}
-       Proper operation of the store site after a partial update/upgrade is not guaranteed if you choose to install not the full update/upgrade, but only some of the components. Use the selective upgrade feature at your own risk and only if you know exactly what you are doing.
-       {% endnote %}
+      {% note warning %}
+      Proper operation of the store site after a partial update/upgrade is not guaranteed if you choose to install not the full update/upgrade, but only some of the components. Use the selective upgrade feature at your own risk and only if you know exactly what you are doing.
+      {% endnote %}
        
 3.  Scroll down the page to the bottom of the list of updates. There you will see the **Continue** button that becomes active as soon as you confirm that you have made a full store backup and agree for deletion of unused addons (if applicable). 
     
     Click on the **Continue** button to proceed with installing the selected update/upgrade components.
     ![540-minor-upgrade-continue.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-minor-upgrade-continue.png)
 
+4.  Clicking the **Continue** button launches the downloading and installing of all the necessary update/upgrade packs for the core and addons. 
+    ![540-minor-upgrade-permissions.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-minor-upgrade-permissions.png)
 
-   5.  After the **Install updates** button has been clicked, the page will be reloaded prompting you to confirm your selection of upgrade/update components. There will be a title "These components will be updated" and a list of components; for each component, you will be able to see the current version and the version to which it will be updated. Scroll down the page to the bottom of the list and click the **Continue** button:
+      
+      
+      
+      
+      
+5.  After the **Install updates** button has been clicked, the page will be reloaded prompting you to confirm your selection of upgrade/update components. There will be a title "These components will be updated" and a list of components; for each component, you will be able to see the current version and the version to which it will be updated. Scroll down the page to the bottom of the list and click the **Continue** button:
        ![update-components.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/update-components.png)
 
        {% note info %}
@@ -113,11 +132,8 @@ Provided you have read the changelogs and done the required store backups you ca
        
        If you see a message like that, you need to at least activate a free license, or purchase and activate a paid license. Once you do so, the problem will be resolved, and next time you attempt an update/upgrade, the **Continue** button will be available.
        {% endnote %}
-    
-   6.  Clicking the **Continue** button launches the downloading of all the necessary update/upgrade packs for the core and addons. 
-        ![5_downl.png]({{site.baseurl}}/attachments/ref_9raTXZPN/5_downl.png)
-       
-        The downloaded updates/upgrades archives will be unpacked:
+      
+6.        The downloaded updates/upgrades archives will be unpacked:
         ![6_unpacking.png]({{site.baseurl}}/attachments/ref_9raTXZPN/6_unpacking.png)
        
         ...and checked for integrity:
