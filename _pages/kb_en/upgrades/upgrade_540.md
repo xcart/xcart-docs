@@ -28,22 +28,20 @@ You will be redirected to the **Updates & Upgrades** section of the {% link "X-C
 Starting from X-Cart 5.4.0.x all software and addons upgrades are perfromed in a special environment (X-Cart Service Screen) separate from the rest of the store. This was done to ensure that any changes applied to a store via new core updates or present addons’ upgrade or deletion can be safely rolled back in case of any malfunction.
 {% endnote %}
 
-Basically, there can be 3 types of the updates in your X-Cart based store - Updates for App Store, Minor Updates and Major Upgrades. More info on the differences between minor and major upgrades you can find in the {% link "X-Cart Upgrades: General Info" ref_2x1plcU0 %} section of this manual.
-
+Basically, there can be 3 types of the updates in your X-Cart based store - Updates for App Store, Minor Updates and Major Upgrades. 
 ![updates-marketplace.png]({{site.baseurl}}/attachments/ref_331t0CWx/updates-marketplace.png)
+
+If there are several upgrades available for your store at the same time, you will need to select the upgrade you require:
+*   To get updates from the App Store to make the process of upgrading your store more secure and stable, click on the **Install Updates** button in the **Updates for App Store** section. 
+    
+    Unlike minor and major upgrades, updates for App Store are run right away as you click the **Install Updates** button without
+    
+*   To get bugfixes for your current version, click on the **View & Update** button in the  **Minor update** section. 
+
+*   To get both the bug-fixes and the new features, click on the **View & Upgrade** button in the **Major upgrade** section. 
 
 The regular upgrade workflow is the same for any type of update you need to apply:
 {% toc %}
-
-## Choose the Update to Apply
-
-Review the updates listed in the **Updates & Upgrade** section of the {% link "X-Cart Service Screen" ref_5Br376jE %} and choose the update you need to apply. 
-![updates-upgrades.png]({{site.baseurl}}/attachments/ref_331t0CWx/updates-upgrades.png)
-
-If there are several upgrades available for your store at the same time, you will need to select the upgrade you require:
-*   To get updates from the App Store to make the process of upgrading your store more secure and stable, click on the **Install Updates** button in the **Updates for App Store** section. Unlike minor and major upgrades, updates for App Store are run right away as you click the **Install Updates** button without
-*   To get bugfixes for your current version, click on the **View & Update** button in the  **Minor update** section. 
-*   To get both the bug-fixes and the new features, click on the **View & Upgrade** button in the **Major upgrade** section. 
 
 ## Check for Warnings
 
@@ -51,9 +49,9 @@ Check if there are any warnings from the {% link "X-Cart Service Screen" ref_5Br
    ![540-major-upgrade-remove-addons-warning.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-major-upgrade-remove-addons-warning.png)
    
    *   If your store has any addons that have upgrade hooks, and these addons are disabled (not active), you will be prompted to activate such addons. An addon must be active in order to correctly run the upgrade hooks, and this is the reason why the addon must be either enabled or deleted.
-    *   If your store has addons that do not exist in the App Store (e.g. you {% link "uploaded" ref_GZQ9vTq6 %} them via **Upload add-on** button) and you are doing an upgrade/update within the 3rd or 4th digit sequence of the version number, you will be advised to disable these addons, although it is not strictly necessary. If you are doing a major upgrade affecting the 1st or 2nd digit sequence of the version number, you will be told that such addons will be disabled automatically.
-     *   If your store has any modified files, you will be prompted to contact the addon developers for the help with the files adaptaion for the upcoming upgrade.
-     *   If you are using an X-Cart trial copy without any license key activated (free or paid) or your access to upgrades has expired, you will not be able to continue any furter than this step. If you see a warning like that, you need to at least activate a free license, or purchase and activate a paid license. Once you do so, the problem will be resolved.
+   *   If your store has addons that do not exist in the App Store (e.g. you {% link "uploaded" ref_GZQ9vTq6 %} them via **Upload add-on** button) and you are doing an upgrade/update within the 3rd or 4th digit sequence of the version number, you will be advised to disable these addons, although it is not strictly necessary. If you are doing a major upgrade affecting the 1st or 2nd digit sequence of the version number, you will be told that such addons will be disabled automatically.
+   *   If your store has any modified files, you will be prompted to contact the addon developers for the help with the files adaptaion for the upcoming upgrade.
+   *   If you are using an X-Cart trial copy without any license key activated (free or paid) or your access to upgrades has expired, you will not be able to continue any furter than this step. If you see a warning like that, you need to at least activate a free license, or purchase and activate a paid license. Once you do so, the problem will be resolved.
 
 ## Check the Update Changelog
 
