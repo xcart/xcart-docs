@@ -77,26 +77,32 @@ PREREQUISITES:
 
 Provided you have read the changelogs and done the required store backups you can proceed to the upgrade installation itself. X-Cart allows to install updates and upgrades in bulk (the regular full upgrade) and choose the components to be upgraded and leave the rest as is (partial upgrade). 
 
-### Installing Full Upgrades
-
-Installing a full upgrade package as provided by the App Store is considered the regular way of the upgrades application. A full upgrade package counts all possible interconnections between the addons included into the upgrade and ensures no dependencies are lost during the update. 
-
 **To update/upgrade your X-Cart store**, follow the steps below:
 
-1.  Review the available updates in the Updates & Upgrade section of the {% link "X-Cart Service Screen" ref_5Br376jE %} and choose the updates you need to apply. 
-    
+1.  Review the available updates in the **Updates & Upgrade** section of the {% link "X-Cart Service Screen" ref_5Br376jE %} and choose the updates you need to apply. 
+    ![updates-upgrades.png]({{site.baseurl}}/attachments/ref_331t0CWx/updates-upgrades.png)
+
     If there are both a minor update and a major upgrade available for your store at the same time, you will need to select the upgrade you require:
-       *   To get bugfixes for your current version, use **Minor update** . 
-       *   To get both the bug-fixes and the new features, use **Major upgrade**. 
+       *   To get bugfixes for your current version, click on the **View & Update** button in the  **Minor update** section. 
+       *   To get both the bug-fixes and the new features, click on the **View & Upgrade** button in the **Major upgrade** section. 
        
-       If you do not want to do the global update/upgrade on your store including all the updates/upgrades you see listed on the tab you have opened, follow the **Advanced mode** link to choose the specific update/upgrade components that you want to be installed. 
+2. You'll 
        
+    If you do not want to do the full update/upgrade on your store including all the updates/upgrades you see in the joined changelog, you should:
+       * click on the **Lock** icon in the top right corner of the screen to unlock the possibility of selecting the specific update/upgrade components that you want to be installed: 
+       ![540-upgrade-unlocked.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-upgrade-unlocked.png)
+       * select the addons you want to be updated;
+       * proceed further as with the regular full store upgrade/update.
+      
        {% note warning %}
-       Proper operation of the store site after an update/upgrade is not guaranteed if you choose to install not the entire update/upgrade, but only some of the components. Use the selective upgrade feature (Advanced mode) at your own risk and only if you know exactly what you are doing.
+       Proper operation of the store site after a partial update/upgrade is not guaranteed if you choose to install not the full update/upgrade, but only some of the components. Use the selective upgrade feature at your own risk and only if you know exactly what you are doing.
        {% endnote %}
        
-   4.  Scroll down the page to the bottom of the list of updates. There you will see the **Install updates** button. Click on this button to proceed with installing the selected update/upgrade components.
-       ![instal-updates.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/instal-updates.png)
+3.  Scroll down the page to the bottom of the list of updates. There you will see the **Continue** button that becomes active as soon as you confirm that you have made a full store backup and agree for deletion of unused addons (if applicable). 
+    
+    Click on the **Continue** button to proceed with installing the selected update/upgrade components.
+    ![540-minor-upgrade-continue.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-minor-upgrade-continue.png)
+
 
    5.  After the **Install updates** button has been clicked, the page will be reloaded prompting you to confirm your selection of upgrade/update components. There will be a title "These components will be updated" and a list of components; for each component, you will be able to see the current version and the version to which it will be updated. Scroll down the page to the bottom of the list and click the **Continue** button:
        ![update-components.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/update-components.png)
