@@ -8,14 +8,14 @@ order: 135
 published: true
 version: X-Cart 5.4.x
 ---
-Once per day, each X-Cart store checks the X-Cart App Store for updates. 
-
-{% note info %}
-The response from the Marketplace is cached for 24 hours. If you need to delete this cache, open the link `admin.php?target=addons_list_marketplace&action=clear_cache`.
-{% endnote %}
+Once per day, each X-Cart store checks the X-Cart App Store for updates. The response from the Marketplace is cached for 24 hours. If you need to delete this cache, open the link `admin.php?target=addons_list_marketplace&action=clear_cache`.
 
 If there is any kind of update/upgrade available, an **Updates are available** link will be displayed in the header of the Admin area:
 ![540-orange-upgrade-notification-header.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-orange-upgrade-notification-header.png)
+
+{% note info %}
+The color of the **Updates are available** link background in the header may be either green or orange. The orange color signifies that only a feature-release is available. The green color, like in the screenshot below, signifies that a bug-fix release and/or addons updates are available (or both a bug-fix release and a feature-release are available).
+{% endnote %}
 
 Also, a notification about updates available will be displayed when clicking on the bell icon:
 ![540-orange-upgrade-bell-notification.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-orange-upgrade-bell-notification.png)
