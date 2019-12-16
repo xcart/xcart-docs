@@ -86,7 +86,7 @@ For details on how to create a dev copy of your store and to restore the store f
 ## Choose Full or Partial Upgrade
 
 {% note info %}
-If you want to install a regular full update/upgrade skip this step and move on to step . 
+If you want to install a regular full update/upgrade skip this step and move on to step [Install Upgrades](https://kb.x-cart.com/upgrades/upgrade_540.html#install-upgrades "Store Upgrade Process in X-Cart 5.4.x"). 
 {% endnote %}
    
 If you do not want to do the full update/upgrade on your store that includes all the updates/upgrades listed in the joined changelog, you should:
