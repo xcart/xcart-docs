@@ -110,8 +110,9 @@ Provided you have read the changelogs and done the required store backups you ca
 
 To install upgrades:
 
-1. Scroll down the page to the bottom of the list of updates. There you will see the **Continue** button that becomes active as soon as you confirm that you have made a full store backup and agree for deletion of unused addons (if applicable). 
+1. Scroll down the page to the bottom of the list of updates. There you will see the checkboxes for you to confirm that you have made a full store backup and agree for deletion of unused addons (if applicable).  
    ![540-minor-upgrade-agree-checkboxes.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-minor-upgrade-agree-checkboxes.png)
+   Once the checkboxes are enabled the **Continue** button becomes active.
     
 2. Click the **Continue** button to proceed with installing the selected update/upgrade components.
    ![540-minor-upgrade-continue.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-minor-upgrade-continue.png)
