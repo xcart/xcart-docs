@@ -8,6 +8,7 @@ order: 140
 published: true
 redirect_from:
   - /general_setup/upgrading_x-cart_5/upgrade_procedure.html
+version: X-Cart 5.3.x and earlier
 ---
 ## Before You Upgrade: Back up Your Store
 Installing an update/upgrade is a serious task which requires some preparation. At the very least, you should create a backup of your store 
