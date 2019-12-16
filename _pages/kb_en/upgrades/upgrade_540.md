@@ -5,7 +5,7 @@ updated_at: '2019-12-13 12:11 +0400'
 identifier: ref_331t0CWx
 title: Store Upgrade Process in X-Cart 5.4.x
 order: 135
-published: false
+published: true
 version: X-Cart 5.4.x
 ---
 Once per day, each X-Cart store checks the X-Cart App Store for updates. 
