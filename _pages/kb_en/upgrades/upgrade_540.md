@@ -45,7 +45,7 @@ The regular upgrade workflow is the same for any type of update you need to appl
 
 ## Check for Warnings
 
-When you have opened the updates you need to apply, check if there are any warnings from the {% link "X-Cart Service Screen" ref_5Br376jE %}, like:
+After you have selected to proceed with either minor or major software upgrades, check if there are any warnings from the {% link "X-Cart Service Screen" ref_5Br376jE %}, like on the screen below:
    ![540-major-upgrade-remove-addons-warning.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-major-upgrade-remove-addons-warning.png)
    
    *   If your store has any addons that have upgrade hooks, and these addons are disabled (not active), you will be prompted to activate such addons. An addon must be active in order for the upgrade hooks to be run correctly, and this is the reason why the addon must be either enabled or deleted.
@@ -57,7 +57,7 @@ When you have opened the updates you need to apply, check if there are any warni
 
 Changelogs are special files that contain a list of changes included into an update. It is recommended to check changelogs before proceeding with an update to be aware of the forthcoming changes.
 
-After you have selected to proceed with either minor or major software upgrades, you can view both a joined changelog for all updates included in to an upgrade and a separate changelog for each addon that can be updated. A changelog is opened in a pop-up.
+After you have selected to proceed with either minor or major software upgrades, you can view both a joined changelog for all updates included into an upgrade and a separate changelog for each addon that can be updated. A changelog is opened in a pop-up.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![540-major-upgrade-general-changelog.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-major-upgrade-general-changelog.png)</div>
@@ -78,7 +78,7 @@ Backups in X-Cart 5.4.x are done with a built-in {% link "Backup Master Addon" r
 Use the 'Backup your store with Backup Master' button to be redirected to the Backup section of your store Admin area (**System tools** -> **Backup**) and to create a full store backup as described {% link "here" ref_60LdO1tN %}. The Backup page is opened in a new tab. 
 
 {% note info %}
-In addition, we recommend that you can create a DEV copy of your store BEFORE installing an update or an upgrade on your LIVE store and try installing the update/upgrade on that DEV copy. Provided the update/upgrade installation goes smoothly, and after you have made sure the store's DEV copy continues working as expected, you can upgrade your LIVE store with no doubts.
+In addition, you can create a DEV copy of your store BEFORE installing an update or an upgrade on your LIVE store and try installing the update/upgrade on that DEV copy. Provided the update/upgrade installation goes smoothly, and after you have made sure the store's DEV copy continues working as expected, you can upgrade your LIVE store with no doubts.
 
 For details on how to create a dev copy of your store and to restore the store from backup, see {% link 'Moving X-Cart to another location' ref_6oFmUXC7 %}
 {% endnote %}
@@ -89,7 +89,7 @@ For details on how to create a dev copy of your store and to restore the store f
 If you want to install a regular full update/upgrade skip this step and move on to step [Install Upgrades](https://kb.x-cart.com/upgrades/upgrade_540.html#install-upgrades "Store Upgrade Process in X-Cart 5.4.x"). 
 {% endnote %}
    
-If you do not want to do the full update/upgrade on your store that includes all the updates/upgrades listed in the joined changelog, you should:
+If you do not want to do the full update/upgrade of your store that includes all the updates/upgrades listed in the joined changelog, you should:
 * click on the **Lock** icon in the top right corner of the screen to unlock the possibility of selecting the specific update/upgrade components that you want to be installed: 
   ![540-upgrade-unlocked.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-upgrade-unlocked.png)
 * select the addons you want to be updated;
@@ -117,7 +117,7 @@ To install upgrades:
 2. Click the **Continue** button to proceed with installing the selected update/upgrade components.
    ![540-minor-upgrade-continue.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-minor-upgrade-continue.png)
 
-3. Clicking the **Continue** button locks both the store Admin area and the Customer storefront from any actions and launches the downloading and installing of all the necessary update/upgrade packs for the core and addons. 
+3. Clicking the **Continue** button locks both the store Admin area and the Customer storefront from any actions and launches the download and installation of all the necessary update/upgrade packs for the core and addons. 
    ![540-minor-upgrade-permissions.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-minor-upgrade-permissions.png)
     
     The process continues as follows:
