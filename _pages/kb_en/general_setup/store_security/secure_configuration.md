@@ -30,73 +30,57 @@ You should lock some directories from web-access using these directives in the [
 
 ```
 location ^~ /classes {
-    return 403;
-}
-
-location ^~ /etc {
-    return 403;
-}
-
-location ^~ /files {
-    location ^~ /files/attachments {
-        try_files $uri =404;
-    }
-    location ^~ /files/vendor {
-        try_files $uri =404;
-    }
-    return 403;
-}
-
-
-location ^~ /images {
-    location ~* \.(jpg|jpeg|gif|png|bmp|ico|tiff|flv|swf|svg|pdf) {
-        try_files $uri =404;
-    }
-    return 403;
-}
-
-location ^~ /Includes {
-    return 403;
-}
-
-location ^~ /lib {
-    return 403;
-}
-
-location ^~ /skins {
-    location ~* \.(tpl|twig|php|pl|conf) {
+        location ~* \.(png|svg) {
+            try_files $uri =404;
+        }
         return 403;
     }
-    try_files $uri =404;
-}
 
-location ^~ /sql {
-    return 403;
-}
+    location ^~ /files {
+        location ^~ /files/attachments {
+            try_files $uri =404;
+        }
+        location ^~ /files/vendor {
+            try_files $uri =404;
+        }
+        return 403;
+    }
 
-location ^~ /var {
-    location ~* \.(gif|jpe?g|png|bmp|css|js) {
+    location ^~ /images {
+        location ~* \.(jpg|jpeg|gif|png|bmp|ico|tiff|flv|swf|svg|pdf) {
+            try_files $uri =404;
+        }
+        return 403;
+    }
+
+    location ^~ /skins {
+        location ~* \.(tpl|twig|php|pl|conf) {
+          deny all;
+        }
         try_files $uri =404;
     }
-    return 403;
-}
 
-location ^~ /var/resources {
-    try_files $uri =404;
-}
+    location ^~ /var {
+        location ~* \.(gif|jpe?g|png|bmp|css|js) {
+            try_files $uri =404;
+        }
+        return 403;
+    }
 
-location ^~ /var/export {
-    return 403;
-}
+    location ~ /(vendor|sql|lib|etc|Includes)/ {
+        deny all;
+    }
 
-location ^~ /var/import {
-    return 403;
-}
+    location ~ /var/(export|import)/ {
+        deny all;
+    }
 
-location ^~ /vendor {
-    return 403;
-}
-
+    location ^~ /service/ {
+        location ^~ /service/static/ {
+            try_files $uri =404;
+        }
+        return 403;
+    }
 ```
 
 {% note warning %}
