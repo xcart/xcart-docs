@@ -7,7 +7,7 @@ title: Default Customer Address
 order: 150
 published: true
 ---
-When calculating delivery costs and adding tax fees to an order of a registered customer X-Cart uses the shipping address recorded in the customer account. But what if a customer is not logged in or is just an anonymous buyer, how the would-be tax fees and delivery costs are calculated in this case? X-Cart uses either the settings defined by a store admin as a default customer address or the data from the Geolocation addon integration to calculate the average additional fees involved in the purchase and displays these extra charges to a visitor until they specify the real shipping address at checkout. 
+When calculating delivery costs and adding tax fees to an order of a registered customer X‑Cart uses the shipping address recorded in the customer account. But what if a customer is not logged in or is just an anonymous buyer, how the would-be tax fees and delivery costs are calculated in this case? X‑Cart uses either the settings defined by a store admin as a default customer address or the data from the Geolocation addon integration to calculate the average additional fees involved in the purchase and displays these extra charges to a visitor until they specify the real shipping address at checkout. 
 
 {% toc %}
 
