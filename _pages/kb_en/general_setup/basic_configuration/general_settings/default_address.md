@@ -35,3 +35,4 @@ Provided {% link "shipping" ref_4noivtKM %} and {% link "taxes" ref_kJmd7K27 %} 
 
 ## Default Customer Address: Geolocation addon
 
+If you need the default customer address to be more flexible and match the exact customer' location, it is possible to use the facilities of the {% link "Geolocation addon" ref_34F5BkhW %} istead of a manually predefined customer address. 
