@@ -5,7 +5,7 @@ updated_at: '2019-12-19 13:21 +0400'
 identifier: ref_4ZFrXPGo
 title: How to modify a Vendor Area UI?
 order: 100
-published: false
+published: true
 version: Multi-vendor Edition
 ---
 To modify the user interface of the Vedor area in X-Cart, you need to perfrom the following steps:
