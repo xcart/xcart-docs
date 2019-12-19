@@ -16,6 +16,7 @@ These articles will guide you to achieve some typical tasks and answer the most 
 
 *   {% link "How to remove Transaction ID info from order notification emails" ref_H86AxdTJ %}
 *   {% link "How to modify «Print Invoice» page" ref_qhLz2Kb9 %}
+*   {% link "How to modify a Vendor Area UI?" ref_4ZFrXPGo %}
 *   {% link "How to move category description below products list" ref_k2TqHwih %}
 *   {% link "How to add Google Adwords Conversion Tracking Code to «Thank you for your order» page" ref_g8xO0UNP %}
 *   {% link "How to add Facebook Pixel Сode to X-Cart pages" ref_dENrdWxT %}
