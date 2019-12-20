@@ -5,7 +5,7 @@ updated_at: '2019-12-20 11:58 +0400'
 identifier: ref_65m4K4la
 title: 'PayPal Powered by Braintree : Customer Experience'
 order: 110
-published: false
+published: true
 redirect_from:
   - /payments/braintree/customer.html
 ---
