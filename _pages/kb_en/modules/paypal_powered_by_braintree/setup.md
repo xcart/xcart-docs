@@ -5,7 +5,7 @@ updated_at: '2019-12-20 11:53 +0400'
 identifier: ref_77cnCrDw
 title: Enabling and Configuring PayPal Powered by Braintree Payment
 order: 100
-published: false
+published: true
 redirect_from:
   - /payments/braintree/braintree_setup.html
 ---
