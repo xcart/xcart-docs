@@ -14,7 +14,7 @@ In X-Cart 5.4.x, notifications about any updates for an addon or a group of addo
   ![updates-available-admin.png]({{site.baseurl}}/attachments/ref_3sJdcWPV/updates-available-admin.png)
 
 * in the top info menu (except for X-Cart vv5.4.0.0-5.4.0.6): 
-  ![top-menu.png]({{site.baseurl}}/attachments/ref_5Xj7bOA6/top-menu.png)
+  ![540-bell-notification.png]({{site.baseurl}}/attachments/ref_3sJdcWPV/540-bell-notification.png)
 
 To check what updates are available, click on the “Updates are available” links. You will be redirected to the **Updates & Upgrades** section of the {% link "X-Cart Service Screen" ref_5Br376jE %}:
 
