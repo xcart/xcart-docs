@@ -12,3 +12,6 @@ The addon "PayPal powered by Braintree" is the most advanced payment solution fr
 PayPal powered by Braintree payment gateway is available to users in the USA, the UK, France, Italy and Spain. 
 
 _In this section:_
+
+*  {% link "Enabling and Configuring PayPal Powered by Braintree Payment" ref_77cnCrDw %}
+*  {% link "PayPal Powered by Braintree : Customer Experience" ref_65m4K4la %}
