@@ -63,12 +63,12 @@ To configure the Braintree payment gateway addon open the addon settings page as
      * **Merchant ID** : Specify your Braintree account merchant ID in this field. The field is required.
      * **Public key** : Specify your Braintree account public key in this field. The field is required.
      * **Private key** : Specify your Braintree account public key in this field. The field is required.
-     * **Use Vault**
-     * **Kount merchant ID**
-     * **Google Pay merchant ID**
-     * **Test/Live mode**
-     * **Auto settle**
-     * **Braintree invoice number prefix**
-     * **Ask customer to save card in vault**
-     * **Use 3-D Secure**
+     * **Use Vault** : The setting determines whether to save the credit cart data or not. If set to "YES", customers will see the “Save card for future orders in this shop” check-box at checkout and will be able to use it to save the CC info. 
+     * **Kount merchant ID** : Specify your Kount merchant ID in case you want the orders to be chaked with the Kount antifroud services.
+     * **Google Pay merchant ID** : Specify your Google Pay merchant ID if you want to give your customers an option to pay with Google Pay.
+     * **Test/Live mode** : Use this setting to select the operation mode for your Braintree integration. Before you can offer Braintree payment gateway on your website, you will first need to successfully carry out some required test transactions. To do the testing, you will need to set the operation mode of your integration to Test. When the payment is ready for production use, you can switch the Test/Live mode setting to Live.
+     * **Auto settle** :  If this option is set to "YES", transactions will be captured automatically at the moment a customer places an order. Otherwise, you only get an authorization on the payment method a customer selected at checkout, but not charge them until you fulfill the order. To actually charge the funds you have authorized, you need to manually capture the payment amount by clicking the **Capture** button on the details page of the respective order in your X-Cart store.
+     * **Braintree invoice number prefix** : If you use the same account to accept payments from more than one X-Cart stores, use this field to set an invoice number prefix for this store. The prefix will serve as an identifier of the store and will help you to avoid errors of the “duplicate invoice number” type. It’s recommended to limit the length of invoice prefix to 9 characters. Larger prefixes will be cut prior to transaction initialization.
+     * **Ask customer to save card in vault** : 
+     * **Use 3-D Secure** : If this option is set to "YES", aditional customer identity checks will be conducted within the [Braintree 3D Secure integration](https://developers.braintreepayments.com/guides/3d-secure/overview "Braintree Payment Gateway").
 
