@@ -7,7 +7,7 @@ title: Booking
 categories:
   - User manual
 published: true
-order: 44
+order: 42
 ---
 The addon **Booking** for X-Cart 5 is an extension allowing you to set up a booking or rental website and handle online reservations for your customers. 
 
