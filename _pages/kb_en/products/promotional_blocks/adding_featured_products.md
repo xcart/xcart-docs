@@ -16,41 +16,58 @@ You can give certain products in your store more prominent placement by showcasi
 This feature is made available by the addon ["Featured Products"](https://market.x-cart.com/addons/featured-products.html "Adding featured products") by X-Cart team. 
 
 Before you continue, make sure this addon is {% link "installed and enabled" ref_0fGEpvrh %}:
+![540-addon-installed.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-addon-installed.png)
 
-![installed.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/installed.png)
+{% toc %}
+
+## Configuring the Look of the Featured Products Section in the Storefront
 
 You can adjust the look of your featured products section on the addon settings page:
-
-![settings-page.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/settings-page.png)
+![540-settings-page.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-settings-page.png)
 
 The available options are as follows:
 
 *   Grid:
-    ![]({{site.baseurl}}/attachments/6389852/8717749.png)
+    ![540-grid-look.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-grid-look.png)
 
 *   List:
-    ![]({{site.baseurl}}/attachments/6389852/8717750.png)
+    ![540-list-view.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-list-view.png)
 
 *   Table:
-    ![]({{site.baseurl}}/attachments/6389852/8717751.png)
+    ![540-table-view.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-table-view.png)
+
+## Creating Featured Products
 
 To make a product "featured", follow the steps below:
 
 1.  Decide on the location where you want the product to be showcased as featured (on a category page or on the Home page). 
     If you want the product to be showcased on the Home page, go to **Content > Front page**, then select the **Featured products** tab:
-    ![content-frontpage.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/content-frontpage.png)
-    If you want the product to be showcased on the page of a category it belongs to, go to **Catalog > Categories**, then locate the category you require and click on the category name:
-    ![catalog-categories.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/catalog-categories.png)
-    On the page with the category information, select the **Featured products** tab:
-    ![categories-featured.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/categories-featured.png)
+    ![540-front-featured.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-front-featured.png)
+    If you want the product to be showcased on the page of a category it belongs to, go to **Catalog > Categories**, locate the category or subcategory you require and open the **Featured products** tab of the category in question:
+    ![540-category-featured.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-category-featured.png)
 
-2.  In the **Featured products** section, click the **Add featured products** button.
-    ![add-featured.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/add-featured.png)
+2.  In the **Featured products** tab, click the **Add featured products** button.
+    ![540-add-featured-products.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-add-featured-products.png)
     A popup will be displayed allowing you to select the products that you want to be listed as featured at the selected location. 
     
 3.  Select the products that you want to be "featured" and click the **Add products** button:
-    ![featured-popup.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/featured-popup.png)
-    The selected products will be added to the featured products list:
-    ![featured-list.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/featured-list.png)
+    ![540-featured-products-popup.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-featured-products-popup.png)
+    The selected products will be added to the featured products list.
+   
 
-    Now if you check the result on the storefront you should be able to see the products you added as featured in the respective area of your chosen location (category page or Home page).
+    Now if you check the result on the storefront you should be able to see the products you added as featured in the respective area of your chosen location (category page or Home (front) page).
+
+## Sorting Featured Products
+
+If you want to ochange the featured products order of appearance:
+
+1. Open the featured products list either on the store Home page (**Content** -> **Front page**) or on the related category or subcategory page (**Products** -> **Category**):
+   <div class="ui stackable two column grid">
+  <div class="column" markdown="span">![540-front-featured.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-front-featured.png)</div>
+  <div class="column" markdown="span">![540-category-featured-ex.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-category-featured-ex.png)</div>
+</div>
+
+2. Use the **Cross** icons next to the products to drag-n-drop them to rearrange them in the order you need:
+   ![540-sorting.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-sorting.png)
+
+3. Click **Save changes**.
