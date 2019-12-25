@@ -86,6 +86,19 @@ Such payment options like PayPal and PayPal Credit, Venmo and Apple Pay are enab
    
 2. To add PayPal payments you should register your PayPal email, Client Id and Client Secret or use the **Login with PayPal** button instead in your Braintree account:
    ![paypal.png]({{site.baseurl}}/attachments/ref_1YqYT6Ja/paypal.png)
+   
+   More guides on the PayPal payments set-up ypu can find [here](https://articles.braintreepayments.com/guides/payment-methods/paypal/overview "Braintree Payment Gateway"). 
  
-3. To add Venmo payment you should contact Braintree support for assistance. 
- 
+3. To add Venmo payment in your Braintree account you should follow the steps described [here](https://articles.braintreepayments.com/guides/payment-methods/venmo#go-live "Braintree Payment Gateway"). In general, you should:
+   * Log into the production Braintree Control Panel;
+   * Click on the **Gear** icon in the top right corner;
+   * Click **Processing** from the drop-down menu;
+   * Scroll to the **Payment Methods** section;
+   * Next to Venmo, click the **Enable** button;
+   * Complete the application form, including:
+     * A display name for your business (120 character limit)
+     * An image for your business, preferably your app's icon (1024x1024 PNG)
+     * Your company's phone, email, or URL to be included in customer purchase receipts; you can choose to provide one or all of these items
+   * Click the **Start Approval Process** button.
+   
+   Once submitted, your application status – including final approval status – will be displayed on the Processing page. Depending on your business type, the approval process could take several business days.
