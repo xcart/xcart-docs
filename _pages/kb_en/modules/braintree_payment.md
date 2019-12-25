@@ -5,7 +5,7 @@ updated_at: '2019-12-23 13:52 +0400'
 identifier: ref_1YqYT6Ja
 title: Braintree Payment Gateway
 order: 43
-published: false
+published: true
 ---
 Braintree Payment Gateway addon integrates X-Cart with the Braintree Payments solutions and supports the such payment methods as Credit & Debit cards, PayPal & PayPal Credit, Venmo, Apple  and Google Pay.
 
