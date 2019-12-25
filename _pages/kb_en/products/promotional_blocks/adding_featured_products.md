@@ -63,9 +63,9 @@ If you want to ochange the featured products order of appearance:
 
 1. Open the featured products list either on the store Home page (**Content** -> **Front page**) or on the related category or subcategory page (**Products** -> **Category**):
    <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![540-front-featured.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-front-featured.png)</div>
-  <div class="column" markdown="span">![540-category-featured-ex.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-category-featured-ex.png)</div>
-</div>
+      <div class="column" markdown="span">![540-front-featured.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-front-featured.png)</div>
+      <div class="column" markdown="span">![540-category-featured-ex.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-category-featured-ex.png)</div>
+   </div>
 
 2. Use the **Cross** icons next to the products to drag-n-drop them to rearrange them in the order you need:
    ![540-sorting.png]({{site.baseurl}}/attachments/ref_4iFdpTdv/540-sorting.png)
