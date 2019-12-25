@@ -20,16 +20,10 @@ The addon "PayPal powered by Braintree" is the newer of the two. It is the most 
 
 Both the APIs are available to users in the USA, UK, France, Italy and Spain. The API used by the addon "Braintree payment gateway" is also available in some other countries. 
 
-Depending on the X-Cart version you are using, a Braintree integration addon may already be installed in your X-Cart store:
-![xc5_braintree_module_installed.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_module_installed.png)
-
-If not, you can obtain it from the X-Cart Marketplace at any time:
-![xc5_braintree_module.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_module.png)
-
-To accept payments with Braintree, you will need a Braintree or PayPal account. If you do not yet have one, you will be able to sign up in the process of setting up the Braintree integration for your store.
+Depending on the X-Cart version you are using, a Braintree integration addon may already be installed in your X-Cart store or require an installation from an X-Cart App Store.
 
 Please read on:
 
 *  {% link "PayPal Powered by Braintree" ref_3KUvRKEv %}
-*  Braintree Payment Gateway (under construction)
+*  {% link "Braintree Payment Gateway" ref_1YqYT6Ja %}
 
