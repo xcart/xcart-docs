@@ -58,12 +58,12 @@ To configure the Braintree payment gateway addon open the addon settings page as
        
        A [Braintree sign-up page](https://signups.braintreepayments.com/ "Braintree Payment Gateway") will be opened in a new tab, where you can register with Braintree and create an account. Use your new Braintree account data for the further payment set-up.
      
-   * if you already have a Braintree account, feel in the settings page fields with your Braintree account data:
+   * if you already have a Braintree account, fill in the settings page fields with your Braintree account data:
      * **Merchant ID** : Specify your Braintree account merchant ID in this field. The field is required.
      * **Public key** : Specify your Braintree account public key in this field. The field is required.
      * **Private key** : Specify your Braintree account public key in this field. The field is required.
      * **Use Vault** : The setting determines whether to save the credit cart data or not. If set to "YES", the CC data will be automatically saved for all customers. 
-     * **Kount merchant ID** : Specify your Kount merchant ID in case you want the orders to be chaked with the Kount antifroud services.
+     * **Kount merchant ID** : Specify your Kount merchant ID in case you want the orders to be cheked with the Kount antifroud services.
      * **Google Pay merchant ID** : Specify your Google Pay merchant ID if you want to give your customers an option to pay with Google Pay.
      * **Test/Live mode** : Use this setting to select the operation mode for your Braintree integration. Before you can offer Braintree payment gateway on your website, you will first need to successfully carry out some required test transactions. To do the testing, you will need to set the operation mode of your integration to Test. When the payment is ready for production use, you can switch the Test/Live mode setting to Live.
      * **Auto settle** :  If this option is set to "YES", transactions will be captured automatically at the moment a customer places an order. Otherwise, you only get an authorization on the payment method a customer selected at checkout, but not charge them until you fulfill the order. To actually charge the funds you have authorized, you need to manually capture the payment amount by clicking the **Capture** button on the details page of the respective order in your X-Cart store.
