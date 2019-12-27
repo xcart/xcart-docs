@@ -15,12 +15,6 @@ In a Multivendor X-Cart store, customers can give detailed categorized ratings o
    
 In each of the above named categories, the customer's experience is specified as a rating of one to five stars. The rating info provided by different cutomers for a vendor is summed up, and the resulting rating summary is shown in the Customer area (provided that the store administrator has enabled the display of this kind of data to customers).
 
-Specifically, vendor rating information can be found on the vendor page:
-![xc5_mv_vendor_page.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_vendor_page.png)
-
-and in the vendor information block on the pages of specific products:
-![xc5_mv_vendor_block.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_vendor_block.png)
-
 {% toc %}
 
 ## Vendor Reviews: Multivendor-specific Configuration
@@ -37,7 +31,11 @@ In the section **Appearance** of the Multi-vendor {% link "settings page" ref_nF
          In case Multivendor addon is {% link "configured" ref_nFq48dhr %} to use "Warehouse" mode, a vendor's shipping speed may not be rated because in this mode the vendor is not responsible for the shipping of items to the buyer.
          {% endnote %}
      
-       If the setting "Base vendor rating on" is adjusted to "_product rating_", a vendor rating is formed as a result of aggregation of ratings given by customers to the products of this vendor. 
+       If the setting "Base vendor rating on" is adjusted to "_product rating_", a vendor rating is formed as a result of aggregation of ratings given by customers to the products of this vendor.
+       
+       {% note info %}
+       The "Base vendor rating on" can be adjusted to "_product rating_" only if the {% link "Product Reviews" ref_7neRIOVI %} addons is installed and enabled.
+       {% endnote %}
        
        We recommend using the "_detailed categorized rating_" option for tangible goods and the "_product rating_" option - for {% link "digital goods" ref_lxNH6TFr %}.
 
