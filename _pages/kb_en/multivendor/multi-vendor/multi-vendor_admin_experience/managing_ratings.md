@@ -63,7 +63,8 @@ If an order contains items sourced from more than one vendor, the customer can r
 ## Vendor Ratings: Multivendor Store Administrator Experience
    
 The store administrator can view and manage (edit or delete) vendor ratings via the Vendor ratings section (**Users** > **Vendor ratings**): 
-   ![xc5_vendor_ratings_in_admin.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_vendor_ratings_in_admin.png)
+   ![540-admin-vendor-ratings.png]({{site.baseurl}}/attachments/ref_7hDIkvmk/540-admin-vendor-ratings.png)
+
 The filter at the top of the section can be used to filter/search for reviews by vendor profile, customer name or date range.
 
 Also the store administrator can manage the email notification "Customer has rated the order" that is sent to a vendor. 
@@ -73,7 +74,7 @@ More info on managing email notifications  is available in the {% link "Managing
 ## Vendor Reviews: Vendor Experience
 
 Vendors with appropriate permissions can view their own rating information in the section Order ratings (**Orders** > **Order ratings**):
-   ![xc5_mv_order_ratings_in_vendor.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_order_ratings_in_vendor.png)
+   ![540-vendor-order-ratings.png]({{site.baseurl}}/attachments/ref_7hDIkvmk/540-vendor-order-ratings.png)
 
 If necessary, they can filter/search for specific ratings by customer name or date range.
 They cannot, however, edit or delete any ratings that have been provided by customers with regard to their orders.
