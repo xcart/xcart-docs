@@ -13,7 +13,7 @@ redirect_from:
     /look_and_feel/translating_your_stores_user_interface_to_other_languages.html
   - /translation_and_localization/installing_language_packages.html
 ---
-You can add more languages to your store by installing one or more language packages. A language package (also sometimes called a "translation addon", "translation pack" or simply a "translation") is a .csv file that contains text label values defined for a specific language. Some language packages are available via the X-Cart App Store.
+You can add more languages to your store by installing one or more language packages. A language package (also called a "translation addon", a "translation package" or simply a "translation") is a .csv file that contains text label values defined for a specific language. Some language packages are available via the X-Cart App Store.
 
 To install a language package from the X-Cart App Store:
 
