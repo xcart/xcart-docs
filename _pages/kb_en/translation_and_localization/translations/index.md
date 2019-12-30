@@ -7,7 +7,9 @@ title: Translating your Store
 order: 110
 published: true
 ---
-X-Cart software can be downloaded and installed in two different packs, US and UK, which determines the language of the user interface (both the storefront and the Admin area). If you need a store in a language not available as a default pack, you should install the default X-Cart software US pack and translate it to the language you need. For your convenience, we provide a few translation packages which can be downloaded from the [X-Cart App Store](https://market.x-cart.com/addons/translation/?filter[edition]=all&filter[priceType]=all&filter[sortBy]=p.arrivalDate "Translation and Localization"). The translation packages available via the X-Cart App Store include but are not limited to:
+When downloading and installing your X-Cart software pack, you can choose from several packs, including a US pack and a UK pack. Your choice will affect the language of your store's user interface (both the storefront and the Admin area). 
+
+If you need a store in a language not available as a default pack, you can install a default X-Cart pack and translate it to the language you require. For your convenience, we provide a few translation packages which can be downloaded from the [X-Cart App Store](https://market.x-cart.com/addons/translation/?filter[edition]=all&filter[priceType]=all&filter[sortBy]=p.arrivalDate "Translation and Localization") and installed in your X-Cart store as addons. The translation packages available via the X-Cart App Store include but are not limited to:
 
 *   [French](https://market.x-cart.com/addons/french-translation.html "Translation and Localization")
 *   [German](https://market.x-cart.com/addons/german-translation.html "Translation and Localization")
@@ -15,7 +17,7 @@ X-Cart software can be downloaded and installed in two different packs, US and U
 *   [Swedish](https://market.x-cart.com/addons/swedish-translation.html "Translating your Store")
 *   [Arabic](https://market.x-cart.com/addons/human-made-translation-arabic.html "Translation and Localization")
 
-If you want to translate your X-Cart store into a language with no translation package available for it via the X-Cart App Store, please contact us at {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. We will explain how this can be done and how you can get money out of it.
+If you want to translate your X-Cart store into a language with no translation package available for it in the X-Cart App Store, please contact us at {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. We will explain how this can be done and how you can get money out of it.
 
 A translation package is a .csv file that contains a list of X-Cart text labels and their values defined for a specific language. For more info on this, see {% link "Managing Text Labels" ref_IyGxQ1DN %}.
 
