@@ -7,7 +7,7 @@ title: Configuring Units of Measure and Date Formats
 order: 100
 published: true
 ---
-To configure units of measure and date formats: 
+To configure the units of measure and date formats for your store: 
 
 1.  Go to the **Units and Formats** section of your store's Admin area (**Store setup** > **Localization**):
     ![localization.png]({{site.baseurl}}/attachments/ref_cc4sCpa5/localization.png)
