@@ -13,16 +13,16 @@ redirect_from:
   - >-
     https://kb.x-cart.com/translation_and_localization/localizing_your_store.html
 ---
-X-Cart software can be downloaded in 3 different packs (US, UK and Chinese) that determines not only the language of the user interface after the software is installed, but the default country settings as well (default customer and admin address). Translation and different customer and admin addresses are not the only parameters that should be configured to adapt your X-Cart software installation to your specific locale or market. 
+X-Cart software can be downloaded in one of the different packs (US, UK) that determines not only the language of the user interface after the software is installed, but the default country settings as well (default customer and admin address). Translation and different customer and admin addresses are not the only parameters that should be configured to adapt your X-Cart software installation to your specific locale or market. 
 
 In addition, the localization process may also include:
 
-- Adapting graphics to target markets
-- Modifying content to suit the tastes and consumption habits of other markets
-- Adapting design and layout to properly display translated text
-- Converting to local requirements (such as currencies and units of measure)
-- Using proper local formats for dates, addresses, and phone numbers
-- Addressing local regulations and legal requirements
+- Adapting graphics to target markets;
+- Modifying the content to suit the tastes and consumption habits of other markets;
+- Adapting the design and layout to properly display the translated text;
+- Converting to local requirements (such as currencies and units of measure);
+- Using proper local formats for dates, addresses, and phone numbers;
+- Addressing local regulations and legal requirements.
 
 The aim of localization is to give a site the look and feel of having been created specifically for a target market, no matter their language, culture, or location.
 
