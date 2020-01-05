@@ -120,14 +120,16 @@ The Make/Model/Year addon data can be exported via the **Catalog** -> **Export**
 
 If you need to include product SKU data into the export file, use the export option **Products with Make/Model/Year/Engine** (products-mmy-YYYY-MM-DD.csv file format). The export option **Make/Model/Year/Engine listing** gives all the same export data except for the product SKU (mmy-YYYY-MM-DD.csv).
 
-A data import for the Make/Model/Year addon can also be done in two different ways: with or without SKU.
+Data import for the Make/Model/Year addon can also be done in two different ways: with or without product SKU.
 
-1. **With SKU**
+1. **With product SKU**
    
-   The fields that should be added to a products-mmy-YYYY-MM-DD.csv file to populate the addon with products should be as follows:
+   Data import that includes product SKU does not require a preliminary **Make/Model/Year/Engine** addon set-up (i.e. the addon levels may not be configured) and can be done using the products-mmy-YYYY-MM-DD.csv file format. The level names and their respective values will be added to the **Catalog** -> **Make/Model/Year/Engine** section of your store Admin area automatically from the file you imported. 
+   
+   The fields that should be added to a products-mmy-YYYY-MM-DD.csv file should be as follows:
    ![csv.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/csv.png)
    
-   The fields' names in the products-mmy-YYYY-MM-DD.csv file should correspond with the level names you set on the **Make/Model/Year addon** settings page.
+   If you already have the addon level structure configured, the fields' names in the products-mmy-YYYY-MM-DD.csv file should correspond with the level names you set on the **Make/Model/Year addon** settings page.
    
    {% note info %}
      
@@ -140,16 +142,15 @@ A data import for the Make/Model/Year addon can also be done in two different wa
      
    {% endnote %}
      
-   You CAN upload products to the addon even without configuring the addon levels beforehand. The levels and their values will be added to the **Catalog** -> **Make/Model/Year/Engine** section automatically from the products-mmy-YYYY-MM-DD.csv file you imported. 
 
-2. **Without SKU**
+2. **Without product SKU**
    
-   The fields that should be added to a mmy-YYYY-MM-DD.csv file to populate the addon with products should be as follows:
+   Data import that does not include product SKU do require a preliminary **Make/Model/Year/Engine** addon set-up (i.e. the addon levels must be pre-configured) and can be done using the mmy-YYYY-MM-DD.csv file format.
+   
+   The fields that should be added to a mmy-YYYY-MM-DD.csv file should be as follows:
    ![mmy-listing-csv.png]({{site.baseurl}}/attachments/ref_0Esu2RNW/mmy-listing-csv.png)
    
-   The fields' names in the mmy-YYYY-MM-DD.csv file should correspond with the level names you set on the **Make/Model/Year** addon settings page and should have the REAL level values (the value **ALL** can't be used here).
-   
-   You CAN'T upload products to the addon without configuring the addon levels beforehand.
+   The fields' names in the mmy-YYYY-MM-DD.csv file should correspond with the level names you set on the **Make/Model/Year** addon settings page and should have the ACTUAL level values (the value **ALL** can't be used here).
    
 ## Make/Model/Year Selection Statistics
 
