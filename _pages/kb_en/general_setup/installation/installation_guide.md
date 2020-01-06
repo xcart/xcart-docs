@@ -214,9 +214,9 @@ X-Cart 5 supports following browsers:
 
 ## Installation Process
 
-This article covers the process of installation for X-Cart versions 5.2.5 and later. For earlier versions the process is similar; however, the installation wizard steps are a bit different. 
+The steps of the installation process may be slightly different depending on the X-Cart version. 
 
-A video guide for installing X-Cart is available:
+A video guide for installing X-Cart (filmed using X-Cart 5.3.1.4) is available:
 
 **Published on Jan 18, 2017**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/N21P9jBh2sA" frameborder="0"></iframe>
@@ -224,7 +224,7 @@ A video guide for installing X-Cart is available:
 
 ### Upload X-Cart 5 onto Your Server
 
-1.  Download the most recent X-Cart 5 package from this page: [http://www.x-cart.com/download.html](http://www.x-cart.com/download.html)
+1.  Download an X-Cart 5 package from this page: [http://www.x-cart.com/download.html](http://www.x-cart.com/download.html)
 2.  Upload the downloaded package onto your server.
 3.  Unpack the X-Cart 5 archive to the web-root directory of your server. You can do it using the archive tools of your Control panel or using the following command via SSH: 
 
@@ -244,7 +244,7 @@ A video guide for installing X-Cart is available:
 
 ### Create an Empty Database
 
-Create an empty database in your MySQL storage.
+Create an empty database for your store in your MySQL storage. You may also skip this step and let the installation wizard automatically create the database for you at a later time. 
 
 ### Run the Installation Wizard and Follow the Steps
 
@@ -279,13 +279,13 @@ At this step you need to define the basic settings of your X-Cart 5 installation
 Let's walk through the settings you need to adjust. The first group of settings on this page is as follows:
 
 *   **MySQL server name**: The name of your MySQL server. In most cases, it is **localhost**. If it is different, your host has likely notified you about it.
-*   **MySQL database name**: The name of the database that will be used by your X-Cart 5 store (You have created this database earlier at the step "**Create an empty database**").
-*   **MySQL username** and **MySQL****password**: The credentials needed to access the X-Cart 5 database on your MySQL server.
-*   **Install a sample catalog**:Whether you want to have sample data in your X-Cart installation for you to experiment with. If this is your first experience with X-Cart 5, we strongly recommend enabling this check box.
+*   **MySQL database name**: The name of the database that will be used by your X-Cart 5 store (If you have created a database earlier at the step "**Create an empty database**", specify its name here. If you have not created a database yet, simply enter a name for the new database in this field, and it will be created automatically when X-Cart connects to your MySQL server.)
+*   **MySQL username** and **MySQL** **password**: Specify your MySQL username and password; these are needed by X-Cart to access the database on your MySQL server.
+*   **Install a sample catalog**: Whether you want to have sample data in your X-Cart installation for you to experiment with. If this is your first experience with X-Cart 5, we strongly recommend enabling this check box.
 
 Below you will find links to some advanced configuration settings. Click on a link to access the respective settings section.
 
-Here's the **Advanced MySQL settings** section:
+Here is the **Advanced MySQL settings** section:
 
 ![]({{site.baseurl}}/attachments/524295/8719156.png)
 
