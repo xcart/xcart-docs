@@ -24,7 +24,7 @@ This guide describes the process of installing X-Cart 5 on your server.
 Before you get started you might want to check whether your web server spec meets system requirements. Even if you don't, the installation wizard will alert you during the process that something is not set up properly.
 
 {% note info %}
-You can always refer to the {% link "Server Requirements and Setup" ref_3olOLKdu %} section for the tips on a proper server set-up.
+You can always refer to the section {% link "Server Requirements and Setup" ref_3olOLKdu %} for tips on a proper server setup.
 {% endnote %}
 
 
@@ -35,7 +35,7 @@ Here is the system requirements list:
     **X-Cart v5.4.0.x and later** : PHP __7.2__ or higher / MySQL __5.7.7__ or higher
     
     {% note info %}
-    You can also use MySQL-compatible database engine MariaDB.
+    You can also use the MySQL-compatible database engine MariaDB.
     {% endnote %}
 	
 *   __PDO__ extension with MySQL driver
