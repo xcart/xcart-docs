@@ -8,7 +8,7 @@ version: X-Cart 5.2.5 and later (below 5.4.0.0)
 categories:
   - User manual
 published: true
-order: 130
+order: 500
 redirect_from:
   - /general_setup/restoring_your_store_with_the_snapshots_feature.html
   - >-
