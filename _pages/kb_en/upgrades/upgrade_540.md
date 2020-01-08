@@ -13,12 +13,13 @@ Once per day, each X-Cart store checks the X-Cart App Store for updates. The res
 If there is any kind of update/upgrade available, an **Updates are available** link will be displayed in the header of the Admin area:
 ![540-orange-upgrade-notification-header.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-orange-upgrade-notification-header.png)
 
-{% note info %}
-The color of the **Updates are available** link background in the header may be either green or orange. The orange color signifies that only a feature-release is available. The green color signifies that a bug-fix release and/or addons updates are available (or both a bug-fix release and a feature-release are available).
-{% endnote %}
-
 Also, a notification about updates available will be displayed when clicking on the bell icon:
 ![540-orange-upgrade-bell-notification.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-orange-upgrade-bell-notification.png)
+
+{% note info %}
+The color of the **Updates are available** link background in the header may be either green or orange. The orange color signifies that only a feature-release is available. The green color signifies that a bug-fix release and/or addons updates are available (or both a bug-fix release and a feature-release are available).
+![header-notification-green.png]({{site.baseurl}}/attachments/ref_331t0CWx/header-notification-green.png)
+{% endnote %}
 
 To check what updates are available for your store, click on any of the "Updates are available" links. 
 
@@ -152,5 +153,4 @@ To install upgrades:
    
 5.  Check that your store looks and functions correctly after the upgrade. Use the **Open storefront** and **Go to the Admin area** buttons to open your store Admin area and Customer storefront in the new browser tabs. 
 
-    In case of any problems, use the **Rollback** link on the "All done!" screen to cancel the changes and reverse the store to the original state. 
-
+    In case of any problems, use the **Rollback** link on the "All done!" screen to cancel the changes and reverse the store to the original state.
