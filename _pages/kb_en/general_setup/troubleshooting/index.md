@@ -7,11 +7,12 @@ title: Troubleshooting
 order: 600
 published: true
 ---
-This section lists some common issues related to your store's set-up and maintenance and provides links to troubleshooting steps.
+This section lists some common (or not-so-common) issues related to your store's setup and maintenance and provides links to troubleshooting steps.
 
 *  {% link "What to Do if You Cannot Access Your Store" ref_3zSHgdQk %}
-*  {% link "Restoring Your Store with the Snapshots Feature" ref_h7Oh5T8T %} (X-Cart versions below 5.4.x)
 *  {% link "Inaccessible Admin Area after Enabling HTTPS" ref_q171FiKp %}
+*  {% link "Incorrect Response from service.php on LiteSpeed Server (Known Issue)" ref_5eL4g6JS %}
+*  {% link "Restoring Your Store with the Snapshots Feature" ref_h7Oh5T8T %} (X-Cart versions below 5.4.x)
 
 _Related pages_:
 
