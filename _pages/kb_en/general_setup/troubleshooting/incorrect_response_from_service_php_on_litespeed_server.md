@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2020-01-08 16:58 +0400'
 identifier: ref_5eL4g6JS
-title: ''
+title: Incorrect Response from service.php on LiteSpeed Server (Known Issue)
 order: 100
 published: false
 ---
