@@ -17,10 +17,34 @@ Wholesale prices and minimum purchase quantities for products can be configured 
 
 Wholesale prices are a way to offer multiple levels of pricing for the same product depending on the membership level of the buyer and the quantity of product units ordered.
 
-A minimum purchase quantity is a minimum number of product units that can be purchased by a customer at a time. If a customer's cart contains a lesser quantity of product units than is specified by the minimum purchase limit, checkout for the cart is not allowed.
+In case wholesale pricing is not meant for a specific membership and is offered to all cutomer levels it is required to specify a minimum perchase quantity for a product at which wholesale prices become available. A minimum purchase quantity is a minimum number of product units that can be bought by a customer at a time. If a customer's cart contains less items than the set minimum purchase limit, checkout for the cart is not allowed.
 
 Before you proceed, make sure the addon **Wholesale** is installed and enabled.
-![wholesale_addon.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_addon.png)
+![540-wholesale-on.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/540-wholesale-on.png)
+
+{% toc %}
+
+## Set up Minimum Purchase Quantities
+
+Minimum purchase quantity defines the minimum number of product units that are to be added to cart in order for the checkout option to become available. Minimum purchase quantity is set on a per product basis and is displayed on the related product details page in the storefront provided the Wholesale addon is installed and enabled. 
+
+The minimum product purchase quantities can be set via the **Inventory tracking** tab of the chosen product's details:
+
+1.  Select a product to edit on the product listing page (**Catalog** -> **Products**) of your store Admin area.
+
+2.  Open the **Inventory tracking** tab of the product details page.
+    ![inventory-tracking.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/inventory-tracking.png)
+
+3.  On the page that opens, use the **Minimum purchase quantity** section to specify a minimum purchase quantity for every available membership level and for "all customers" (users without a membership):
+    ![minimum-purchase-quantity.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/minimum-purchase-quantity.png)
+    
+3.  Click **Update** to save the changes.
+
+By default, the minimum purchase quantity value is set to 1 for all customers, either with or without a specific membership. When a store admin changes this value to any different from 1, this info is displayed on the product details page in the storefront for the customers with the respective membership level (or for all customers, if the minimum purchase quantity value is changed for the users without a membership):
+
+![cus-minimum-purchase-quantity.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/cus-minimum-purchase-quantity.png)
+
+If a product with the changed minimum purchase quantity value is added to cart directly from any product listing page (home page, category page, etc.) it is added to cart in the amount specified as minimum purchase quantity value for this product in the Admin area. 
 
 ## Set up Wholesale Prices
 
@@ -50,6 +74,8 @@ To configure wholesale prices:
 
         The new tier will be added to the table:
         ![wholesale_line_added.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_line_added.png)
+        
+## Sample Wholesale Prices Configuration
 
 Now let us take a closer look at how you configure specific pricing tiers. Consider the following example:
 
@@ -93,15 +119,3 @@ In this case, we need to create and set up pricing tiers as follows:
 *   *  Quantity range: from 1000
     *  Price: $42.5 or 85%
     *  Membership: Wholesaler
-
-## Set up Minimum Purchase Quantities per Membership Level
-
-If you want to set minimum product purchase quantities for specific membership levels in your store, you can do so via the Inventory tracking section of the chosen product's details:
-
-1.  Select the **Inventory tracking** tab.
-    ![inventory_tracking_tab.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/inventory_tracking_tab.png)
-
-2.  On the page that opens, use the **Minimum purchase quantity** section to specify a minimum purchase quantity for every membership level and for "all customers" (users without a membership):
-    ![minimum_purchase_qty.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/minimum_purchase_qty.png)
-
-3.  Click **Update** to save the changes.
