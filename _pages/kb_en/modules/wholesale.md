@@ -75,7 +75,7 @@ To configure wholesale prices:
         The new tier will be added to the table:
         ![wholesale_line_added.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_line_added.png)
         
-## Sample Wholesale Prices Configuration
+## Configuration Samples 
 
 Now let us take a closer look at how you configure specific pricing tiers. Consider the following example:
 
