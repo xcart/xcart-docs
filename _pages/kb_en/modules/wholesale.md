@@ -24,7 +24,7 @@ Before you proceed, make sure the addon **Wholesale** is installed and enabled.
 
 {% toc %}
 
-## Set up Minimum Purchase Quantities
+## Minimum Purchase Quantities Setup
 
 Minimum purchase quantity defines the minimum number of product units that are to be added to cart in order for the checkout option to become available. Minimum purchase quantity is set on a per product basis and is displayed on the related product details page in the storefront provided the Wholesale addon is installed and enabled. 
 
@@ -46,34 +46,44 @@ By default, the minimum purchase quantity value is set to 1 for all customers, e
 
 If a product with the changed minimum purchase quantity value is added to cart directly from any product listing page (home page, category page, etc.) it is added to cart in the amount specified as minimum purchase quantity value for this product in the Admin area. 
 
-## Set up Wholesale Prices
+## Wholesale Prices Setup
+
+Wholesale prices can be configured for the store as a whole (the "all customers" level) and for a particular customer membership level. When assiging wholesale prices for memberships make sure the relative memberships are {% link "configured" ref_5JXPTA0A %} accordingly. 
 
 To configure wholesale prices:
 
 1.  In your store's Admin area, find the product for which you want to set or modify wholesale prices and open its details.
 
 2.  Switch to the **Wholesale pricing** tab of the product details page. 
-    ![wholesale_pricing_tab.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_pricing_tab.png)
+    ![540-wholesale-prices-tab.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/540-wholesale-prices-tab.png)
 
-3.  Add the wholesale pricing tiers you require. For each new tier complete the following steps:
-
+3.  Add the wholesale pricing tiers you require. 
+    
+    For each new tier complete the following steps:
     1.  Click the **New tier** button:
-        ![wholesale_new_tier.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_new_tier.png)
+        ![540-new-tier.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/540-new-tier.png)
 
         This adds a new blank line to the wholesale pricing table:
-        ![wholesale_new_line.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_new_line.png)
+        ![540-tier-setup.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/540-tier-setup.png)
+        
+        {% note info %}
+        The Tier-1 line is generated automatically based on the product details info and can not be edited. The changes of the [Minimum purchase quantity value](https://kb.x-cart.com/modules/wholesale.html#set-up-minimum-purchase-quantities "Wholesale") are not reflected in the Tier-1 line in your store Admin Area. However, they are displayed in the wholesale prices table on the product details page in the storefront provided wholesale prices are configured for this product.
+        {% endnote %}
 
     2.  On the line that has appeared, provide information about the new wholesale pricing tier:
         * Specify the number of product units starting from which the price of this tier should become available.
         * Specify the tier price - as a fixed value or as a percentage of the unprivileged Tier-1 price (Quantity range = "from 1", Membership = "All customers").
         * Specify the membership level that should provide customers access to the tier price.
-        ![wholesale_line_adjust.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_line_adjust.png)
-        
     3.  Click **Save changes**. 
-        ![wholesale_line_save.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_line_save.png)
 
         The new tier will be added to the table:
-        ![wholesale_line_added.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/wholesale_line_added.png)
+        ![540-tier-added.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/540-tier-added.png)
+
+The product details page in the storefront with the configured wholesale prices for a product will look as follows:
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><b>Default minimum product quantity</b>![540-cus-details-page-2.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/540-cus-details-page-2.png)</div>
+  <div class="column" markdown="span"><b>Altered minimum product quantity</b>![540-cus-details-page-1.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/540-cus-details-page-1.png)</div>
+</div>
         
 ## Configuration Samples 
 
