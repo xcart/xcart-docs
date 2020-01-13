@@ -17,7 +17,7 @@ Wholesale prices and minimum purchase quantities for products can be configured 
 
 Wholesale prices are a way to offer multiple levels of pricing for the same product depending on the membership level of the buyer and the quantity of product units ordered.
 
-In case wholesale pricing is not meant for a specific membership and is offered to all cutomer levels it is required to specify a minimum perchase quantity for a product at which wholesale prices become available. A minimum purchase quantity is a minimum number of product units that can be bought by a customer at a time. If a customer's cart contains less items than the set minimum purchase limit, checkout for the cart is not allowed.
+In case wholesale pricing can be tired to a specific minimum purchase quantity for a product and can be offered to the customers with a particular membership level as well as to every customer in a store. A minimum purchase quantity is a minimum number of product units that can be bought by a customer at a time. If a customer's cart contains less items than the set minimum purchase limit, checkout for the cart is not allowed.
 
 Before you proceed, make sure the addon **Wholesale** is installed and enabled.
 ![540-wholesale-on.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/540-wholesale-on.png)
@@ -26,7 +26,7 @@ Before you proceed, make sure the addon **Wholesale** is installed and enabled.
 
 ## Minimum Purchase Quantities Setup
 
-Minimum purchase quantity defines the minimum number of product units that are to be added to cart in order for the checkout option to become available. Minimum purchase quantity is set on a per product basis and is displayed on the related product details page in the storefront provided the Wholesale addon is installed and enabled. 
+Minimum purchase quantity defines the minimum number of product units that are to be added to cart in order for the checkout option to become available. Minimum purchase quantity is set on a per product basis and is displayed on the related product details page in the storefront provided the "Wholesale" addon is installed and enabled. 
 
 The minimum product purchase quantities can be set via the **Inventory tracking** tab of the chosen product's details:
 
