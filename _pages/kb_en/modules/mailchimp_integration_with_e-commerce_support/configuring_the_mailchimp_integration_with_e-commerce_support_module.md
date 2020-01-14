@@ -19,10 +19,13 @@ The basic addon configuration settings are adjusted in the **Mailchimp settings*
    
    * **Mailchimp API key**: The API key that was used to connect your X-Cart store to your Mailchimp account. If, for some reason, you need to use a different Mailchimp account or a different key, use the "Reset Mailchimp connection" link.
    
-   * **Enable E-commerce analytics**: This option enables E-commerce analytics by Mailchimp for your X-Cart store. For details, see the article [Use Mailchimp for E-Commerce](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use Mailchimp for E-Commerce") in Mailchimp Knowledge Base. E-commerce analytics is the core component of the integration functionality; the setting is enabled by default, and we recommend keeping it that way. For E-commerce analytics related features to function properly, you will need to upload your store data (your store catalog and orders) to Mailchimp via the **E-Commerce features setup** section of the addon settings page. (This section appears on the page after you update Mailchimp lists). Be sure to visit the E-Commerce features setup section and specify the lists for which [Ecommerce Stores](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) need to be created on the Mailchimp end. See the instructions for [E-Commerce features setup](#E-Commerce_features_setup) further below. 
-    {% note info %}
-    Be sure also to enable [E-Commerce Link Tracking](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use MailChimp for E-Commerce") for your campaigns and automations in your Mailchimp account back end.
-    {% endnote %}
+   * **Enable E-commerce analytics**: This option enables E-commerce analytics by Mailchimp for your X-Cart store. For details, see the article [Use Mailchimp for E-Commerce](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use Mailchimp for E-Commerce") in Mailchimp Knowledge Base.
+     
+     E-commerce analytics is the core component of the integration functionality; the setting is enabled by default, and we recommend keeping it that way. For E-commerce analytics related features to function properly, you will need to upload your store data (your store catalog and orders) to Mailchimp via the **E-Commerce features setup** section of the addon settings page. (This section appears on the page after you update Mailchimp lists). Be sure to visit the E-Commerce features setup section and specify the lists for which [Ecommerce Stores](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) need to be created on the Mailchimp end. See the instructions for [E-Commerce features setup](https://kb.x-cart.com/modules/mailchimp_integration_with_e-commerce_support/configuring_the_mailchimp_integration_with_e-commerce_support_module.html#e-commerce-features-setup "Configuring the Addon 'Mailchimp Integration with E-commerce Support'") further below. 
+     
+     {% note info %}
+     Be sure also to enable [E-Commerce Link Tracking](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use MailChimp for E-Commerce") for your campaigns and automations in your Mailchimp account back end.
+     {% endnote %}
    
    * **Enable Abandoned Carts**:  This option enables the Abandoned Carts feature. For more info on this feature, see the [Mailchimp site](https://mailchimp.com/features/abandoned-cart/ "Abandoned Cart")
    
