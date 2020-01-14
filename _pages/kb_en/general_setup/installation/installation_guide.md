@@ -303,7 +303,7 @@ In this section, you can adjust the following settings:
 
 *   **Web server name**: The domain name at which your store will be accessible from the Internet. The installation script defines it automatically, so you can just keep what you see in this field.
 *   **Secure web server name**: The domain name for secure connections (HTTPS). Usually, it copies the main domain name; however, in some cases your hosting may provide a different domain name for your secure web server.
-*   **X-Cart 5 web directory**:The web-accessible directory of your server or hosting account where X-Cart will be installed. The installation script defines it automatically.
+*   **X-Cart web directory**:The web-accessible directory of your server or hosting account where X-Cart will be installed. The installation script defines it automatically.
 *   **Default time zone**: Your store's time zone. This needs to be defined to correctly set up the time, dates, number formats, etc.
 
 Once you are done adjusting these settings, click **Next**.
