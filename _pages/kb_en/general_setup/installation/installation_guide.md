@@ -226,7 +226,7 @@ A video guide for installing X-Cart (filmed using X-Cart 5.3.1.4) is available:
 
 1.  Download an X-Cart 5 package from this page: [http://www.x-cart.com/download.html](http://www.x-cart.com/download.html)
 2.  Upload the downloaded package onto your server.
-3.  Unpack the X-Cart 5 archive to the web-root directory of your server. You can do it using the archive tools of your Control panel or using the following command via SSH: 
+3.  The package is an archive, so unpack it to the web-root directory of your server. You can do it using the archive tools of your Control panel or using the following command via SSH: 
 
     for zip archive: 
 
@@ -256,25 +256,25 @@ The installation wizard may ask you for an “Auth code” in case it is run not
 
 Open the link: **`http://<your-domain>/<x-cart-5-directory>/install.php`** in your browser. It will start the installation wizard. Accept the license agreement and click **Next**.
 
-![]({{site.baseurl}}/attachments/524295/8719150.png)
+![xc_install_1.png]({{site.baseurl}}/attachments/ref_VG5mIoLT/xc_install_1.png)
 
 #### Step 2\. Creating Administrator Account
 
 At this step, you need to define the email and password for your store's administrator profile. Once you are done with that, X-Cart 5 will send a notification to the email address you have specified along with some service info.
 
- ![]({{site.baseurl}}/attachments/524295/8719151.png)
+![xc_install_2.png]({{site.baseurl}}/attachments/ref_VG5mIoLT/xc_install_2.png)
 
 #### Step 3\. Environment Check
 
 Now the installation wizard will check whether your server meets the system requirements for X-Cart 5\. It will report if the requirements are not met. If everything is OK, you will be automatically redirected to the next step.
 
-![]({{site.baseurl}}/attachments/524295/8719154.png)
+![xc_install_3.png]({{site.baseurl}}/attachments/ref_VG5mIoLT/xc_install_3.png)
 
 #### Step 4\. Configuring X-Cart 5
 
 At this step you need to define the basic settings of your X-Cart 5 installation. Typically the page looks like the snapshot below:
 
-![]({{site.baseurl}}/attachments/524295/8719155.png)
+![xc_install_4.png]({{site.baseurl}}/attachments/ref_VG5mIoLT/xc_install_4.png)
 
 Let's walk through the settings you need to adjust. The first group of settings on this page is as follows:
 
@@ -287,7 +287,7 @@ Below you will find links to some advanced configuration settings. Click on a li
 
 Here is the **Advanced MySQL settings** section:
 
-![]({{site.baseurl}}/attachments/524295/8719156.png)
+![xc_install_4_1.png]({{site.baseurl}}/attachments/ref_VG5mIoLT/xc_install_4_1.png)
 
 In this section, you can adjust the following settings:
 
@@ -297,7 +297,7 @@ In this section, you can adjust the following settings:
 
 And here is the **Advanced server settings** section:
 
-![]({{site.baseurl}}/attachments/524295/8719157.png)
+![xc_install_4_2.png]({{site.baseurl}}/attachments/ref_VG5mIoLT/xc_install_4_2.png)
 
 In this section, you can adjust the following settings:
 
@@ -308,17 +308,18 @@ In this section, you can adjust the following settings:
 
 Once you are done adjusting these settings, click **Next**.
 
-#### Steps 5 and 6\. Some Magic
+#### Step 5\. Setting up Directories + Step 6\. Building Cache
 
-These two steps are dedicated to some boring work that X-Cart 5 has to do. It creates MySQL tables, cache, development code and so on. These steps are fully automated, so you just need to wait and let X-Cart 5 do the job. Usually it takes less than a minute.
+These two steps are dedicated to some boring work that X-Cart 5 has to do. It creates MySQL tables, cache, development code and so on. All the tasks at these steps are fully automated, so you just need to wait and let X-Cart 5 do the job. Usually it takes less than a minute.
 
-![]({{site.baseurl}}/attachments/524295/8719158.png)
+![xc_install_5.png]({{site.baseurl}}/attachments/ref_VG5mIoLT/xc_install_5.png)
+![xc_install_6.png]({{site.baseurl}}/attachments/ref_VG5mIoLT/xc_install_6.png)
 
 #### Step 7\. Installation Completed
 
-Now the installation process has been completed. You can use the links provided to access your store's customer front end and {% link "admin area" ref_3CgULE9D %}. 
+Now the installation process has been completed. You can use the links provided to access your store's Customer front end and {% link "Admin area" ref_3CgULE9D %}. 
 
-![]({{site.baseurl}}/attachments/524295/8719159.png)
+![xc_install_7.png]({{site.baseurl}}/attachments/ref_VG5mIoLT/xc_install_7.png)
 
 ## What to Do Next?
 
