@@ -336,7 +336,8 @@ If you face any problem during **Environment** check, you get a general instruct
 ### 1\. Auth Code Requested at Step 1: License Agreement
 
 In case the installation wizard is run not for the first time the system will request an Auth Code on the step of accepting the Lisence Agreement:
-![auth-code.png]({{site.baseurl}}/attachments/ref_VG5mIoLT/auth-code.png)
+
+![xc_install_auth.png]({{site.baseurl}}/attachments/ref_VG5mIoLT/xc_install_auth.png)
 
 The Auth Code is stored in the etc/config.php file of an X-Cart package that has been downloaded to the server. Check for the `auth_code` line there and copy the value to paste it on the License Agreement page.
 
