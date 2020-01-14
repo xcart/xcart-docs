@@ -18,13 +18,17 @@ The basic addon configuration settings are adjusted in the **Mailchimp settings*
 ![settings-tab.png]({{site.baseurl}}/attachments/ref_ST1QnErC/settings-tab.png)
    
    * **Mailchimp API key**: The API key that was used to connect your X-Cart store to your Mailchimp account. If, for some reason, you need to use a different Mailchimp account or a different key, use the "Reset Mailchimp connection" link.
+     
+     {% note info %}
+     The newsletters sign-up form becomes available in the storefront only if the API used for connection is active. In case the API is inactive for some reason, a store admin can generate a new API on the Mailchimp side and update it manually on the "Mailchimp integration" addon settings page in the X-Cart Admin area.
+     {% endnote %}
    
    * **Enable E-commerce analytics**: This option enables E-commerce analytics by Mailchimp for your X-Cart store. For details, see the article [Use Mailchimp for E-Commerce](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use Mailchimp for E-Commerce") in Mailchimp Knowledge Base.
      
      E-commerce analytics is the core component of the integration functionality; the setting is enabled by default, and we recommend keeping it that way. For E-commerce analytics related features to function properly, you will need to upload your store data (your store catalog and orders) to Mailchimp via the **E-Commerce features setup** section of the addon settings page. (This section appears on the page after you update Mailchimp lists). Be sure to visit the E-Commerce features setup section and specify the lists for which [Ecommerce Stores](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) need to be created on the Mailchimp end. See the instructions for [E-Commerce features setup](https://kb.x-cart.com/modules/mailchimp_integration_with_e-commerce_support/configuring_the_mailchimp_integration_with_e-commerce_support_module.html#e-commerce-features-setup "Configuring the Addon 'Mailchimp Integration with E-commerce Support'") further below. 
      
      {% note info %}
-     Be sure also to enable [E-Commerce Link Tracking](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use MailChimp for E-Commerce") for your campaigns and automations in your Mailchimp account back end.
+     Be sure also to enable [E-Commerce Link Tracking](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use Mailchimp for E-Commerce") for your campaigns and automations in your Mailchimp account back end.
      {% endnote %}
    
    * **Enable Abandoned Carts**:  This option enables the Abandoned Carts feature. For more info on this feature, see the [Mailchimp site](https://mailchimp.com/features/abandoned-cart/ "Abandoned Cart")
@@ -35,7 +39,7 @@ The basic addon configuration settings are adjusted in the **Mailchimp settings*
      1) Go to the section **E-Commerce features setup** of the addon settings page, select the lists you require and upload store data for the selected lists to Mailchimp. 
      2) Go back to the **Mailchimp settings** section; in the "Default list for automatic campaigns" field, select the list for which abandoned carts and/or order notifications have been configured in Mailchimp. 
    
-   * **Enable single opt-in for customers**: This setting defines whether customers who opt in to subscribe to your news lists should be asked to confirm the subscription via email, or not. When this option is disabled, new subscribers get an email with a subscription confirmation link that they need to click to be added to your list (Double opt-in). When this option is enabled, new subscribers are added to your list as soon as they opt in, without having to confirm the subscription by email (Single opt-in). Remember that abusing the single opt-in option may get your account banned by MailChimp.
+   * **Enable single opt-in for customers**: This setting defines whether customers who opt in to subscribe to your news lists should be asked to confirm the subscription via email, or not. When this option is disabled, new subscribers get an email with a subscription confirmation link that they need to click to be added to your list (Double opt-in). When this option is enabled, new subscribers are added to your list as soon as they opt in, without having to confirm the subscription by email (Single opt-in). Remember that abusing the single opt-in option may get your account banned by Mailchimp.
    
 * **Subscription select element type** (_Type:checkbox_ or _Type:select box_): This setting defines the way your customers select a subscription. If the select box option is enabled here, your customers can subscribe to only one mail list; if the checkbox option is enabled, your customers can subscribe to multiple lists.
 
@@ -55,13 +59,13 @@ The basic addon configuration settings are adjusted in the **Mailchimp settings*
        
        Discount coupons configured using any fields on top of this set (for example, a coupon for which a product category or a product class has been specified) will not be imported into Mailchimp.
   
-* **Site connection code**: This is the field where your mc.js connection code snippet needs to be added. Once added via this field, the snippet is installed on your store website so that MailChimp can insert javascript for features. Namely, mc.js is needed so your store website can display this block: https://mailchimp.com/features/custom-forms/. In most cases, you will not have to add the mc.js code snippet via this field manually: the snippet will appear in this field automatically as soon as your store has been fully connected to Mailchimp. The connection process is considered fully completed after your store data has been [uploaded to Mailchimp](#e-commerce-features-setup). After the completion of the connection process, you see your connected store in your Mailchimp account and can access the respective settings:
+* **Site connection code**: This is the field where your mc.js connection code snippet needs to be added. Once added via this field, the snippet is installed on your store website so that Mailchimp can insert javascript for features. Namely, mc.js is needed so your store website can display this block: https://mailchimp.com/features/custom-forms/. In most cases, you will not have to add the mc.js code snippet via this field manually: the snippet will appear in this field automatically as soon as your store has been fully connected to Mailchimp. The connection process is considered fully completed after your store data has been [uploaded to Mailchimp](#e-commerce-features-setup). After the completion of the connection process, you see your connected store in your Mailchimp account and can access the respective settings:
    ![xc5_mailchimp_store_connected.png]({{site.baseurl}}/attachments/ref_ST1QnErC/xc5_mailchimp_store_connected.png)
    
    By this point, the field "Site connection code" on the Mailchimp addon settings page in your X-Cart store should already contain the mc.js code snippet you require. All you need to do is just to make sure it is there.
 
    {% note warning %}
-   Attention users upgrading from an older Mailchimp integration version _without_ the "Site connection code" field to a newer version _with_ this field: 
+   Attention the users upgrading from an older Mailchimp integration version _without_ the "Site connection code" field to a newer version _with_ this field: 
 
    After the upgrade, the Mailchimp addon settings page in your X-Cart store Admin area will have the new field, but the snippet will not be there as you have already completed the store connection process before the upgrade. To get the snippet in place, you will need to update your store data using the button **Update store data** in the **E-Commerce features setup** section; after that the mc.js code snippet should appear in the "Site connection code" field automatically. 
    
@@ -78,16 +82,20 @@ This is required to make the **E-Commerce features setup** tab visible.
 
 ## E-Commerce Features Setup
 
-Once the lists have been updated, you need to go to the **E-Commerce features setup** section and upload your store data to Mailchimp. 
+Once the lists have been updated, you need to go to the **E-Commerce features setup** tab of the "Mailchimp Integration with E-commerce support" module settings page and upload your store data to Mailchimp. 
 ![ecommerce-features.png]({{site.baseurl}}/attachments/ref_ST1QnErC/ecommerce-features.png)
 
 Uploading your store data to Mailchimp enables you to take full advantage of Mailchimp Product Recommendations and Abandoned Carts. For the best performance of these features, the products, orders, carts and customers from your ecommerce store need to be uploaded to Mailchimp and organized as a [Store](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/). On the Mailchimp end, a Store is the top-level e-commerce resource. Carts, Customers, Orders, and Products all exist inside of the scope of a Store. 
 
 Each Store in Mailchimp needs to be tied to a Mailchimp list. 
 
-In the **E-Commerce features setup** section of the addon settings page in X-Cart, you specify the lists for which Mailchimp Stores need to be created and initiate the upload/syncing of store data. 
+In the **E-Commerce features setup** tab of the addon settings page in X-Cart, you specify the lists for which Mailchimp Stores need to be created and initiate the upload/syncing of store data. 
 
-First, you need to select the check boxes for the lists you require and click **Update**. This saves the set of MailChimp lists for which Stores should be created. 
+{% note info %}
+When updating Mailchimp lists X-Cart submits only the products and orders data to Mailchimp automatically. The rest of the data, like user emails, etc., should be exported from X-Cart and then imported to Mailchimp manually.
+{% endnote %}
+
+First, you need to select the check boxes for the lists you require and click **Update**. This saves the set of Mailсhimp lists for which Stores should be created. 
 
 To initiate the upload of store data for the selected lists, click **Upload store data to Mailchimp**. Mailchimp will create the Stores and will connect them to the Mailchimp lists you have specified. Store data from X-Cart will be uploaded to these specific Stores. After the initial synchronization, further synchronization of store data will be done on the go automatically, without the need to click the **Upload store data to Mailchimp** button; for example, when a new cart or a new order are created in your X-Cart store, the respective information will be automatically submitted to Mailchimp. 
 
