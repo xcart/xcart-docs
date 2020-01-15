@@ -8,6 +8,7 @@ order: 150
 published: true
 redirect_from:
   - /general_setup/upgrading_x-cart_5/manual_upgrade.html
+version: X-Cart 5.3.x and earlier
 ---
 ## Manual upgrade
 
