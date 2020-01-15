@@ -41,23 +41,33 @@ In case the subscriptions form does not appear in the storefront for some reason
 
 The "Mailchimp Integration with Ecommerce support" addon also adds an option for all unregistered customers to subscribe to news when creating a new account or during checkout. 
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![new_account_subscribe.png]({{site.baseurl}}/attachments/ref_dHGZpSCX/new_account_subscribe.png)</div>
-  <div class="column" markdown="span">![subscribe-checkout.png]({{site.baseurl}}/attachments/ref_dHGZpSCX/subscribe-checkout.png)</div>
-</div>
+
+The registered customers can subscribe to the Mailchimp lists in the **News Lists Subscription** tab of the **My account** section in the storefront.
  
 The mechanizm of newsletters subscriptions is as follows:
-1. A customer subscribes to newsletters either when creating an account or during the checkout;
-2. This information is recorded in the customer profile (**MailChimp news lists** tab) in the X-Cart store Admin area and at the same time is added to the active audience lists on the Mailchimp side.
+1. An customer subscribes to newsletters in one of the following ways:
+   * unregistered customers do this either when creating an account or during the checkout:
+     <div class="ui stackable two column grid">
+        <div class="column" markdown="span">![new_account_subscribe.png]({{site.baseurl}}/attachments/ref_dHGZpSCX/new_account_subscribe.png)</div>
+        <div class="column" markdown="span">![subscribe-checkout.png]({{site.baseurl}}/attachments/ref_dHGZpSCX/subscribe-checkout.png)</div>
+     </div>
+
+   * registered customers use the **News Lists Subscription** section of their customer account in the storefront:
+     ![cus-registered-subscription.png]({{site.baseurl}}/attachments/ref_dHGZpSCX/cus-registered-subscription.png)
+
+2. The information about new subscriptions is recorded in the customer profile (**MailChimp news lists** tab) in the X-Cart store Admin area and at the same time is added to the active audience lists on the Mailchimp side.
    ![subscribed-customer.png]({{site.baseurl}}/attachments/ref_dHGZpSCX/subscribed-customer.png)
 
 All further subscriptions management is performed via the Mailchimp back end, where you can create campaigns, send newsletters, etc.
 
-Any customers that were registered in your X-Cart store before the Mailchimp integration addon installation will not have an active subscription to Mailchimp newsletters and you'll need to both import the related customers' emails to Mailchimp manually and at the same time activate subscription(s) to Mailchimp lists in customers' profiles. 
+Any customers that were registered in your X-Cart store before the Mailchimp integration addon installation will not have an active subscription for Mailchimp newsletters. If you need them to be subscribed to the newslists you'll need to both export the related customers' emails from your X-Cart Admin area and import this info to Mailchimp manually and, at the same time, activate subscription(s) for Mailchimp lists in the related customers' profiles. 
 
 For this purpose you'll need to:
-1. Open the **MailChimp news lists** tab in the profile of a customer you want to add to Mailchimp lists;
+1. Locate a customer profile in the **Users** -> **Users list** section of your X-Cart store Admin area as described in [Customer Account Management](https://kb.x-cart.com/users/editing_user_profile_fields.html#customer-accounts-management "‘Mailchimp Integration with E-commerce Support’ Addon Facilities").
+2. Open the **MailChimp news lists** tab in the profile of a customer you want to add to Mailchimp lists;
+   ![customer-profile-lists-tab.png]({{site.baseurl}}/attachments/ref_dHGZpSCX/customer-profile-lists-tab.png)
 2. Select applicable subscription(s) using a select-box opposite it;
+   ![select-list.png]({{site.baseurl}}/attachments/ref_dHGZpSCX/select-list.png)
 3. Click **Update** to save the changes.
 
-In case any changes are applied to an audience on the Mailchimp side (e.g. the audience name is changed or new contacts are added to the audience through a Mailchimp import) these changes are not refleced in your X-Cart store and will not affect the current store set-up, i.e. if an audience name is changed all previous subscriptons for this audience in X-Cart will be annuled and the respective subscription will become disabled in a customer profile. If you import any customers directly to Mailchimp (even if they are registered customers in you store), these customers will not get a subscription mark in their profiles in your X-Cart store automatically.
+In case any changes are applied to an audience on the Mailchimp side (e.g. the audience name is changed or new contacts are added to the audience through a Mailchimp import) these changes are not reflected in your X-Cart store and will not affect the current store set-up, i.e. if an audience name is changed all previous subscriptons for this audience in X-Cart will be annulled and the respective subscription will become disabled in a customer profile. If you import any customers directly to Mailchimp (even if they are registered customers in you store), these customers will not get an active subscription in their profiles in your X-Cart store automatically and you need to activate is manually for them.
