@@ -35,12 +35,11 @@ In any case, you need to make sure that the audiences and groups you have config
 
 Once the "Mailchimp Integration with Ecommerce support" addon has been {% link "installed" ref_w5MRyybe %} and {% link "configured" ref_ST1QnErC %} the customers of your X-Cart based store can subscribe to Mailchimp newsletters using the regular newsletter subscription form on your site (i.e. your store will no longer record customers subscriptions to newsletters in the **Marketing** -> **Newsletters** section, but add them directly to your Mailchimp audiences). 
 
+All unregistered customers can subscribe to news when creating a new account or during checkout. 
+
 {% note info %}
 In case the subscriptions form does not appear in the storefront for some reason, check if the API used to connect your store to MailChimp is active. If not, try to apdate it as described in [Mailchimp Settings Configuration](https://kb.x-cart.com/modules/mailchimp_integration_with_e-commerce_support/configuring_the_mailchimp_integration_with_e-commerce_support_module.html#mailchimp-settings-configuration "‘Mailchimp Integration with E-commerce Support’ Addon Facilities").
 {% endnote %}
-
-The "Mailchimp Integration with Ecommerce support" addon also adds an option for all unregistered customers to subscribe to news when creating a new account or during checkout. 
-
 
 The registered customers can subscribe to the Mailchimp lists in the **News Lists Subscription** tab of the **My account** section in the storefront.
  
