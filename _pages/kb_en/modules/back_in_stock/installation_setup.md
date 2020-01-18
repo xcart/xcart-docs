@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-06 15:59 +0400'
 identifier: ref_7mZJltoM
-title: 'Back in Stock Notifications: Installation and Setup'
+title: Addon Installation and Setup
 order: 100
 published: true
 redirect_from:
@@ -33,7 +33,7 @@ Here you can adjust the following settings:
 After adjusting the settings, be sure to save the changes to make them active.
 
 {% note info %}
-Make sure that out-of-stock items are visible in the storefront, otherwise your customers will not be able to set up back in stock notification subscriptions for them. To enable the display of out-of-stock items, ensure that the setting **How to show out of stock products** on the **Store setup** -> **Cart & Checkout** page is set to either _Show in all the sections_ or _Show only in categories and search listings_.
+Make sure that out-of-stock items are visible in the storefront, otherwise your customers will not be able to sing up to back in stock notification subscriptions for them. To enable the display of out-of-stock items, ensure that the setting **How to show out of stock products** on the **Store setup** -> **Cart & Checkout** page is set to either _Show in all the sections_ or _Show only in categories and search listings_.
 {% endnote %}
 
 ## Configuring the Related Email Notifications
