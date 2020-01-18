@@ -42,7 +42,7 @@ The addon settings page allows a store admin to proceed to editing the back-in-s
 ![540-edit-notifications-buttons.png]({{site.baseurl}}/attachments/ref_7mZJltoM/540-edit-notifications-buttons.png)
 
 {% note info %}
-Email notifications can also be {% link "managed" ref_1qTqS245 %} in the **Store setup** -> **Email notifications** section of the admin area. 
+Email notifications can also be {% link "edited" ref_1qTqS245 %} in the **Store setup** -> **Email notifications** section of the admin area. 
 {% endnote %}
 
 To edit the notifications a cart admin should click either the _Edit back in stock notification_ or _Edit price drop notification_ link to be redirected to the notifications maintenance page. 
