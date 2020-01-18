@@ -48,8 +48,10 @@ Email notifications can also be {% link "managed" ref_1qTqS245 %} in the **Store
 To edit the notifications a cart admin should click either the _Edit back in stock notification_ or _Edit price drop notification_ link to be redirected to the notifications maintenance page. 
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![bins-notification.png]({{site.baseurl}}/attachments/ref_7mZJltoM/bins-notification.png)</div>
-  <div class="column" markdown="span">![pdd-notification.png]({{site.baseurl}}/attachments/ref_7mZJltoM/pdd-notification.png)</div>
+  <div class="column" markdown="span">![540-notification-1.png]({{site.baseurl}}/attachments/ref_7mZJltoM/540-notification-1.png)</div>
+  <div class="column" markdown="span">![540-notification-2.png]({{site.baseurl}}/attachments/ref_7mZJltoM/540-notification-2.png)</div>
 </div>
 
 Here the admin can enable/disable the notifications using the **State** ON/OFF trigger and change the message that is sent to the customers in the **Text** field if required. When the work is done it will be necessary to **Save changes**.
+
+For more info on editing the email notifications, see {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}.
