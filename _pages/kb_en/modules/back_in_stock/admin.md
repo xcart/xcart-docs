@@ -26,7 +26,9 @@ Whereas price drop subscriptions work for both in-stock and out-of-stock product
 
 ### Managing Back-in-stock Subscriptions
 
-The _Back in stock subscriptions_ tab of the **Product notification subscriptions** section shows a list of products in demand, customers who subscribed for notifications, the desired product quantity (if the **Allow customer to specify the product quantity they want to buy** option is {% link "enabled" ref_7mZJltoM %} and a customer specified the quantity he wants to buy), the date of subscription and the date of product inventory change and whether the back-in-stock notification is sent or not and if yes, the date it was sent.
+The _Back in stock subscriptions_ tab of the **Product notification subscriptions** section displays a list of products in demand, customers who subscribed for notifications, the desired product quantity (if the **Allow customer to specify the product quantity they want to buy** option is {% link "enabled" ref_7mZJltoM %} and a customer specified the quantity he wants to buy), the date of request and the date of product inventory change and whether the back-in-stock notification is sent or not and if yes, the date it was sent.
+
+![540-bsn-page.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/540-bsn-page.png)
 
 
 
@@ -34,7 +36,11 @@ If a product from the list is back in stock, the notification **State** gets the
 
 ![adm-bins-rfs.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/adm-bins-rfs.png)
 
+### Managing Price Drop Requests
+
 The _Price drop subscriptions_ tab of the **Product notification subscriptions** section shows a similar info except for **Desired price** and **Price drop date** are in the list instead of **Desired quantity** and related.
+
+![540-pds-page.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/540-pds-page.png)
 
 If the price of a product from the list changes to meet the price requested by a customer the notification **State** gets the _Ready to send_ status and the store administrator can send the price drop notifications to the customers using the **Send notifications** button at the bottom of the page. 
 
