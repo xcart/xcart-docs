@@ -18,8 +18,8 @@ The product notifications management consists of working with the back-in-stock 
 All requests for product notifications collected via the **Back in Stock Notifications** addon are displayed in the **Catalog** -> **Product notification subscriptions** section of the store Admin area. This page can show both the back-in-stock and price drop subscriptions in the respective tabs:
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![adm-bins-subscriptions.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/adm-bins-subscriptions.png)</div>
-  <div class="column" markdown="span">![adm-pdd-subscriptions.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/adm-pdd-subscriptions.png)</div>
+  <div class="column" markdown="span"><b>Back in stock subscriptions</b>![540-bsn-page.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/540-bsn-page.png)</div>
+  <div class="column" markdown="span"><b>Price drop subscriptions</b>![540-pds-page.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/540-pds-page.png)</div>
 </div>
 
 Whereas price drop subscriptions work for both in-stock and out-of-stock products, back-in-stock subscriptions require that the out-of-stock items are visible in the storefront. So, please, for the later case check that the **How to show out of stock products** option on the **Store setup** -> **Cart & Checkout** page is set to either "_Show in all the sections_" or "_Show only in categories and search listings_". If you need only the price drop subscriptions, the **How to show out of stock products** option can be set to any value, including "_Hide and make them available only via a direct link_".
@@ -27,6 +27,8 @@ Whereas price drop subscriptions work for both in-stock and out-of-stock product
 ### Managing Back-in-stock Subscriptions
 
 The _Back in stock subscriptions_ tab of the **Product notification subscriptions** section shows a list of products in demand, customers who subscribed for notifications, the desired product quantity (if the **Allow customer to specify the product quantity they want to buy** option is {% link "enabled" ref_7mZJltoM %} and a customer specified the quantity he wants to buy), the date of subscription and the date of product inventory change and whether the back-in-stock notification is sent or not and if yes, the date it was sent.
+
+
 
 If a product from the list is back in stock, the notification **State** gets the _Ready to send_ status and the store administrator can send the back-in-stock notifications to the customers using the **Send notifications** button at the bottom of the page. 
 
