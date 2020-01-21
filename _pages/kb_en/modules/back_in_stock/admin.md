@@ -102,7 +102,7 @@ Using these lists the store administrator can plan futher store inventory suppli
 
 ## Exporting Product Notification Subscriptions
 
-The Back in Stock addon facilities allow a store admin to export product notification subscriptions in a .csv file to get a more detailed information on the timing and to use this information for the possible future references.
+The "Back in Stock Notifications" addon facilities allow a store admin to export product notification subscriptions in a .csv file to get a more detailed information on the timing and to use this information for the possible future references.
 
 In order to export subscriptions for product notifications do as follows:
 1. Open the **Export to CSV / spreadsheets** page of your store Admin area (**Catalog** -> **Export**). Make sure you are viewling the _New export_ tab:
