@@ -19,7 +19,7 @@ An X-Cart store can be integrated with Authorize.NET payment system. Currently, 
 
 To accept payments with Authorize.NET, you will need an Authorize.NET account. If you do not yet have one, you will be able to sign up in the process of setting up the Authorize.NET payment for your store.
 
-There is also an additional [Authorize.NET payment integration via X-Payments](https://market.x-cart.com/addons/x-payments-cloud.html "Authorize.NET") that allows using such payment methods like Authorize.Net AIM, CIM and AIM XML. You can also obtain these payments in X-Cart Marketplace.
+There is also an additional [Authorize.NET payment integration via X-Payments](https://market.x-cart.com/addons/x-payments-cloud.html "Authorize.NET") that allows using such payment methods like Authorize.Net AIM, CIM and AIM XML and saving credit card data for recurring orders securely. You can also obtain these payments in X-Cart Marketplace.
 
 Please read on:
 
