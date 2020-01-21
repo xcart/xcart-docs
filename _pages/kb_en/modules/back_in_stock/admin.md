@@ -11,9 +11,9 @@ Once the **Back in Stock Notifications** addon has been {% link "installed and c
 
 {% toc %}
 
-## Back in Stock and Price Drop Notifications
+## Managing Product Notification Subscriptions
 
-The product notifications management consists of working with the back-in-stock and price-drop requests. A store admin can view the list of notification requests, send notifications manually when the request paramethers are met, or {% link "configure a cron task" ref_lLqNzAaq %} on the server for the notifications to be sent automaticallly. 
+The product notifications management consists of working with the back in stock and price drop requests submitted by customers via the storefront. A store admin can view the list of notification requests, send notifications manually when the request paramethers are met, or {% link "configure a cron task" ref_lLqNzAaq %} on the server for the notifications to be sent automaticallly. 
 
 All requests for product notifications collected via the **Back in Stock Notifications** addon are displayed in the **Catalog** -> **Product notification subscriptions** section of the store Admin area. This page can show both the back-in-stock and price drop subscriptions in the respective tabs:
 
@@ -24,7 +24,7 @@ All requests for product notifications collected via the **Back in Stock Notific
 
 Whereas price drop subscriptions work for both in stock and out of stock products, back in stock subscriptions require that the out of stock items are visible in the storefront. So, please, for the later case check that the **How to show out of stock products** option on the **Store setup** -> **Cart & Checkout** page is set to either "_Show in all the sections_" or "_Show only in categories and search listings_". If you need only the price drop subscriptions, the **How to show out of stock products** option can be set to any value, including "_Hide and make them available only via a direct link_".
 
-### Managing Back in Stock Subscriptions
+### Sending Back in Stock Notifications
 
 The _Back in stock subscriptions_ tab of the **Product notification subscriptions** page displays a list of the out of stock products requested for the would-be purchases.
 ![540-bsn-page.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/540-bsn-page.png)
@@ -57,7 +57,7 @@ In case automatic notifications mailing is not set up, a store admin can check f
    
    This initiates the notifications mailing and changes the state of the respective requests to **Sent**. 
 
-### Managing Price Drop Requests
+### Sending Price Drop Alerts
 
 The _Price drop subscriptions_ tab of the **Product notification subscriptions** section displays a list of products that have been requested for a price drop.
 ![540-pds-page.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/540-pds-page.png)
@@ -89,7 +89,7 @@ In case automatic notifications mailing is not set up, a store admin can check f
    
    This initiates the notifications mailing and changes the state of the respective requests to **Sent**. 
 
-## Products in Demand
+## Checking Products in Demand
 
 The **Catalog** -> **Watched products** section displays a list of products in demand (_Back in stock watchlist_ tab) and a list of products with a price drop-down request (_Price drop watchlist_ tab)
 
@@ -99,3 +99,18 @@ The **Catalog** -> **Watched products** section displays a list of products in d
 </div>
 
 Using these lists the store administrator can plan futher store inventory supplies and possible sales or other related marketing campains.
+
+## Exporting Product Notification Subscriptions
+
+The Back in Stock addon facilities allow a store admin to export product notification subscriptions in a .csv file to get a more detailed information on the timing and to use this information for the possible future references.
+
+In order to export subscriptions for product notifications do as follows:
+1. Open the **Export to CSV / spreadsheets** page of your store Admin area (**Catalog** -> **Export**). Make sure you are viewling the _New export_ tab:
+   ![540-export-page.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/540-export-page.png)
+2. Select either the "Back-in-stock records" option if you need to export the back in stock requests or the "Price-drop records" option if you need the price-drop request list or even both options at once if required:
+   ![540-export-select.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/540-export-select.png)
+3. Adjust export settings if required.
+4. Click the **Start export** button at the bottom of the page.
+
+It will take some time to prepare the requested files. When the export process is completed, the files will become available for download in the _Last export_ tab of the **Export to CSV / spreadsheets** page:
+![540-export-results.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/540-export-results.png)
