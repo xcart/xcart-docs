@@ -33,7 +33,7 @@ We start off with {% link "creating a module" ref_G2mlgckf %} with developer ID 
 	}
     ```
     
-2. Page viewer class `\XLite\Module\XCExample\FormDemo\View\Page\ExampleFormDemo` with the following content:
+2. Page viewer class `\XLite\Module\XCExample\FormDemo\View\Page\Admin\ExampleFormDemo` with the following content:
 	```php
 	<?php
 
