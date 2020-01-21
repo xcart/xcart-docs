@@ -95,7 +95,7 @@ The **Catalog** -> **Watched products** section displays a list of products in d
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Back in stock watchlist </i>![540-back-in-stock-watchlist.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/540-back-in-stock-watchlist.png)</div>
-  <div class="column" markdown="span"><i>Price drop watchlist </i>![540-back-in-stock-watchlist.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/540-back-in-stock-watchlist.png)</div>
+  <div class="column" markdown="span"><i>Price drop watchlist </i>![540-price-watch-droplist.png]({{site.baseurl}}/attachments/ref_3ZfsAR9B/540-price-watch-droplist.png)</div>
 </div>
 
 Using these lists the store administrator can plan futher store inventory supplies and possible sales or other related marketing campains.
