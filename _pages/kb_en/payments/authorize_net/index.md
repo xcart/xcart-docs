@@ -25,4 +25,7 @@ Please read on:
 
 * {% link "Authorize.NET SIM Payment Configuration" ref_6Ah9C8EW %}
 * {% link "Authorize.NET Accept.js Payment Configuration" ref_7fLCkUYr %}
+
+_Related pages:_
+
 * {% link "X-Payments Cloud Connector" ref_729XUzDQ %}
