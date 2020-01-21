@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-07-09 13:52 +0400'
 identifier: ref_3ZfsAR9B
-title: Product Subscriptions Management
+title: 'Back in Stock Notifications: Admin Experience'
 order: 110
 published: true
 ---
