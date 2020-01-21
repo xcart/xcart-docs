@@ -3,7 +3,7 @@
     "info": {
         "title": "X-Cart REST API",
         "description": "",
-        "version": "5.3.5.5"
+        "version": "5.4.0.8"
     },
     "host": "demostore.x-cart.com",
     "basePath": "/admin.php?target=RESTAPI&",
