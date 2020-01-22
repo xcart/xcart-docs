@@ -6,6 +6,7 @@ identifier: ref_46jNUlWG
 title: Hide Prices
 order: 140
 published: true
+version: X-Cart 5.4.0.6 and earlier
 ---
 Use the addon [Hide Prices](https://market.x-cart.com/addons/hide-prices.html "Hide Prices") if you need to hide prices and disable the shop functionality for non-registered users or any other group of users. Such visitors will be able to browse your online catalog (without the prices), but will not be able to add anything to cart or proceed to checkout.
 
