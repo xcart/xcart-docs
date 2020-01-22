@@ -38,16 +38,16 @@ If you want to adjust the "height" parameter for the banner block, please follow
 2. Install the Custom Skin addon via the [Upload Addons](https://kb.x-cart.com/general_setup/installation/managing_modules/uploading_modules.html "How to change rotation banner sizes") tool of your X-Cart store, that supports .tgz archives.
 3. Once the addon has been installed and enabled, adjust the "height" parameter in the following files:
 
-```
-skins/custom_skin/customer/css/custom_style.css
-skins/custom_skin/customer/css/custom_style.less
-```
+   ```
+   skins/custom_skin/customer/css/custom_style.css
+   skins/custom_skin/customer/css/custom_style.less
+   ```
 
-For example, you can add the following code to your "custom_style.less" file:
+   For example, you can add the following code to your "custom_style.less" file:
 
-```
-.carousel-inner {
-width: auto;
-height: 330px;
-}
-```
+   ```
+   .carousel-inner {
+   width: auto;
+   height: 330px;
+   }
+   ```
