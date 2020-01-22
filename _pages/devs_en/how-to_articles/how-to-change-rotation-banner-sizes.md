@@ -44,7 +44,7 @@ If you want to adjust the "height" parameter for the banner block, please follow
    skins/custom_skin/customer/css/custom_style.less
    ```
 
-   For example, you can add the following code to your "custom_style.less" file:
+   For example, you can add the following code to your `custom_style.less` file:
 
    ```
    .carousel-inner {
