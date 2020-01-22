@@ -10,10 +10,6 @@ version: X-Cart 5.4.0.x and later
 ---
 X-Cart 5 is configured so that the height of the banner block is proportionally adapted to the size of the browser window.
 For example, you can see this happening on our [demo X-Cart website](https://demostore.x-cart.com/ "How to change rotation banner sizes"):
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![Screenshot 2020-01-21 at 15.03.43.png]({{site.baseurl}}/attachments/ref_23DfkKLx/Screenshot 2020-01-21 at 15.03.43.png)</div>
-  <div class="column" markdown="span">![Screenshot 2020-01-21 at 15.13.57.png]({{site.baseurl}}/attachments/ref_23DfkKLx/Screenshot 2020-01-21 at 15.13.57.png)</div>
-</div>
 
 The X-Cart demo store has the following defaut size parameters:
 
@@ -30,7 +26,11 @@ height: 440px;
 ```
 
 The "height" parameter of the banner block is defined in the `skins/crisp_white/customer/css/less/carousel.less` file.
-![Screenshot 2020-01-21 at 15.23.44.png]({{site.baseurl}}/attachments/ref_23DfkKLx/Screenshot 2020-01-21 at 15.23.44.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![Screenshot 2020-01-21 at 15.03.43.png]({{site.baseurl}}/attachments/ref_23DfkKLx/Screenshot 2020-01-21 at 15.03.43.png)</div>
+  <div class="column" markdown="span">![Screenshot 2020-01-21 at 15.13.57.png]({{site.baseurl}}/attachments/ref_23DfkKLx/Screenshot 2020-01-21 at 15.13.57.png)</div>
+  <div class="column" markdown="span">![Screenshot 2020-01-21 at 15.23.44.png]({{site.baseurl}}/attachments/ref_23DfkKLx/Screenshot 2020-01-21 at 15.23.44.png)</div>
+</div>
 
 If you want to adjust the "height" parameter for the banner block, please follow the steps below:
 
