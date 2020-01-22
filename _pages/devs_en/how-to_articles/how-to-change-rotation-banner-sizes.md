@@ -26,6 +26,7 @@ height: 440px;
 ```
 
 The "height" parameter of the banner block is defined in the `skins/crisp_white/customer/css/less/carousel.less` file.
+
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![Screenshot 2020-01-21 at 15.03.43.png]({{site.baseurl}}/attachments/ref_23DfkKLx/Screenshot 2020-01-21 at 15.03.43.png)</div>
   <div class="column" markdown="span">![Screenshot 2020-01-21 at 15.13.57.png]({{site.baseurl}}/attachments/ref_23DfkKLx/Screenshot 2020-01-21 at 15.13.57.png)</div>
@@ -51,3 +52,4 @@ If you want to adjust the "height" parameter for the banner block, please follow
    height: 330px;
    }
    ```
+   ![Screenshot 2020-01-22 at 14.27.16.png]({{site.baseurl}}/attachments/ref_23DfkKLx/Screenshot 2020-01-22 at 14.27.16.png)
