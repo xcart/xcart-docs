@@ -1,10 +1,12 @@
 ---
-title: Importing / Exporting your entities
 lang: en
 layout: article_with_sidebar
-updated_at: 2017-09-21 16:30 +0400
+updated_at: '2017-09-21 16:30 +0400'
+title: Importing / Exporting your entities
 identifier: ref_O91LH8wn
 order: 100
+published: true
+version: X-Cart 5.3.x and earlier
 ---
 
 ## Introduction
