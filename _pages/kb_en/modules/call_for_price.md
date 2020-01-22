@@ -3,9 +3,10 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-08 16:57 +0400'
 identifier: ref_3K1pJExV
-title: 'Call for Price '
+title: Call for Price & Hide Price
 order: 50
 published: true
+version: X-Cart 5.4.0.6 and earlier - Call for Price functionality only
 ---
 The [Call for Price](https://market.x-cart.com/addons/call-for-price.html "Call for Price") addon allows you to hide the price and "Add to cart" button for particular products and show a message instead. 
 
