@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-05-08 16:57 +0400'
 identifier: ref_3K1pJExV
 title: Request a Price & Hide Prices (former Call for Price)
-order: 50
+order: 227
 published: true
 version: X-Cart 5.4.0.x and later
 ---
