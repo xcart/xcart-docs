@@ -35,7 +35,6 @@ _In this section:_
 *   {% link "Braintree Payment Gateway" ref_1YqYT6Ja %}
 *   {% link "Bulk Editing" ref_1kSYmXQn %}
 *   {% link "Bundle Products" ref_1nuTw4Kc %}
-*   {% link "Call for Price" ref_3K1pJExV %}
 *   {% link "Canada Post" ref_ifwLo5ks %}
 *   {% link "Canadian Taxes" ref_08gXAvpC %}
 *   {% link "Catalog" ref_3eMIyNpG %}
@@ -99,6 +98,7 @@ _In this section:_
 *   {% link "Product Variants" ref_4OTLafuC %}
 *   {% link "Register on Checkout" ref_1IYxME8O %}
 *   {% link "Related Products" ref_4a5rpsQq %}
+*   {% link "Request a Price & Hide Prices" ref_3K1pJExV %}
 *   {% link "Royal Mail Service" ref_2gtSkN9y %}
 *   {% link "RTL Languages Support" ref_3vEHzhPP %}
 *   {% link "Sale" ref_7tBJ8Yqo %}
