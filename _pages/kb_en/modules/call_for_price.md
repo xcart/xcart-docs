@@ -3,32 +3,56 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-05-08 16:57 +0400'
 identifier: ref_3K1pJExV
-title: Call for Price & Hide Price
+title: Request a Price & Hide Prices
 order: 50
 published: true
-version: X-Cart 5.4.0.6 and earlier - Call for Price functionality only
+version: X-Cart 5.4.0.x and later
 ---
-The [Call for Price](https://market.x-cart.com/addons/call-for-price.html "Call for Price") addon allows you to hide the price and "Add to cart" button for particular products and show a message instead. 
+The [Request a Price & Hide Prices](https://market.x-cart.com/addons/call-for-price.html "Call for Price") addon allows you to hide prices and the "Add to cart" button for particular products as well as for certains customer groups in your store and show an info message instead. 
 
-To install the addon, follow instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}
-![call4price_addon.png]({{site.baseurl}}/attachments/ref_3K1pJExV/call4price_addon.png)
+{% note warning %}
+In X-Cart 5.3.x and earlier the addon is named "Call for Price". 
 
-Once the addon has been enabled, you can change the default 'Call for price' message. 
+Starting from X-Cart v5.4.0.8 the addon is renamed to "Request a Price and Hide Prices" and combines both the "Call for Price" and "Hide Prices" addons functionalities.
+{% endnote %}
 
-To do so, open the addon _Settings page_:
-![settings-1.png]({{site.baseurl}}/attachments/ref_3K1pJExV/settings-1.png)
+{% toc %}
 
-You will see a screen like this:
-![settings-2.png]({{site.baseurl}}/attachments/ref_3K1pJExV/settings-2.png)
+## Installating and Configuring the Addon
 
-Here you can adjust the text that is displayed to your customers in your store frontend. 
+To start using the addon make sure it is installed and enabled as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}
+![540-addon-enabled.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-addon-enabled.png)
 
-The default text will look as follows:
+Once the addon has been enabled, open the addon settings page to adjust the messages that will be displayed to customers in the storefront and hide prices and checkout from a certain group of users if required:
+![540-settings-link.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-settings-link.png)
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![cus-1.png]({{site.baseurl}}/attachments/ref_3K1pJExV/cus-1.png)</div>
-  <div class="column" markdown="span">![cus-2.png]({{site.baseurl}}/attachments/ref_3K1pJExV/cus-2.png)</div>
-</div>
+The addon settings page allow to configure the following options:
+* **Call For Price tooltip** : This setting defines the text that is displayed on the tooltip. The message can include a company phone number and email.
+* **Call For Price text (catalog)** : This setting defines the text that is displayed on the product listing pages. The message can include a company phone number and email.
+* **Call For Price text (table view)** : This setting defines the text that is displayed on the {% link "product comparison" ref_xWLlmcLL %} page. The message can include a company phone number and email.
+* **Call For Price text (product)** : This setting defines the text that is displayed on the product details page in the storefront. The message can include a company phone number and email.
+  
+  {% note info %}
+  To include a company phone number in a "request a price" message use the `[COMPANY_PHONE]`system field. This adds a clickable phone number into the form and allows to call for price directly from that very page. The phone number will be displayed as defined in {% link "general settings" ref_HcSs9eFL %}.
+  
+  To include a company email in a "request a price" message use the `[EMAIL_FORM]` system field. This adds a clickable "Contact Us" link to the page and integrates it this way with the {% link "Advanced 'Contact Us' Form" ref_hfZXkxzT %}. An email can also be added using the following code:
+  
+   ```
+   <a href=“mailto:****@gmail.com”>Contact via e-mail</a>
+   ```
+   {% endnote %}
+   
+   The default text will look as follows in the storefront:
+
+   <div class="ui stackable two column grid">
+     <div class="column" markdown="span"><b>Product Listing Page</b>![540-default-text-category.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-default-text-category.png)</div>
+     <div class="column" markdown="span"><b>Product Details Page</b>![540-default-text-product.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-default-text-product.png)</div>
+   </div>
+
+* **Disable checkout and hide prices from these customers** : This setting allows to hide prices not on a per product basis, but for all products in a store at once and close checkout facilities for a group of users. When selecting from a drop-down with the predefined values, uou can choose between "unregistered", "registered, no membership" and "NAME membership" groups and enable the feature for as many user groups as you need. The total amount groups will depend on how memberships are {% link "configured" ref_5JXPTA0A %} in your store.
+   ![540-hide-prices-cus.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-hide-prices-cus.png)
+
+Once the messages are configured you can proceed to enabling the "request a price" option for products and product variants to make it visible in the storefront. 
 
 ## Enabling the 'Call for Price' Option for Products
 
