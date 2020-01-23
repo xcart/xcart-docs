@@ -79,7 +79,7 @@ The 'Request a Price' option can be enabled:
      {% note info %}
      In case the 'Call for price' option is enabled not for all the variants available a customer will see it like this:
      <div class="ui stackable two column grid">
-       <div class="column" markdown="span"><b>The "Call for price" option disabled</b>![540-variant-with-price.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-variant-with-price.png</div>
+       <div class="column" markdown="span"><b>The "Call for price" option disabled</b>![540-variant-with-price.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-variant-with-price.png)</div>
        <div class="column" markdown="span"><b>The "Call for price" option enabled</b>![540-variant-wo-price.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-variant-wo-price.png)</div>
       </div>
      {% endnote %}
