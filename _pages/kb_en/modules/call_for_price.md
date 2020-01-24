@@ -8,7 +8,7 @@ order: 227
 published: true
 version: X-Cart 5.4.0.x and later
 ---
-The [Request a Price & Hide Prices](https://market.x-cart.com/addons/request-a-price.html) addon allows you to hide prices and the "Add to cart" button for particular products as well as for certains customer groups in your store and show an info message instead. 
+The [Request a Price & Hide Prices](https://market.x-cart.com/addons/request-a-price.html) addon allows you to hide prices and the "Add to cart" button for particular products as well as for certain customer groups in your store and show an info message instead. 
 
 {% note warning %}
 In X-Cart 5.3.x and earlier the addon is named "Call for Price". 
@@ -20,13 +20,13 @@ Starting from X-Cart v5.4.0.8 the addon is renamed to "Request a Price and Hide 
 
 ## Installing and Configuring the Addon
 
-To start using the addon make sure it is installed and enabled as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}
+To start using the addon make sure it is installed as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}
 ![540-addon-enabled.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-addon-enabled.png)
 
 Once the addon has been enabled, open the addon settings page to adjust the messages that will be displayed to customers in the storefront and hide prices and checkout from a certain group of users if required:
 ![540-settings-link.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-settings-link.png)
 
-The addon settings page allow to configure the following options:
+The addon settings page allows to configure the following options:
 * **Call For Price tooltip** : This setting defines the text that is displayed on the tooltip. The message can include a company phone number and email.
 * **Call For Price text (catalog)** : This setting defines the text that is displayed on the product listing pages. The message can include a company phone number and email.
 * **Call For Price text (table view)** : This setting defines the text that is displayed on the {% link "product comparison" ref_xWLlmcLL %} page. The message can include a company phone number and email.
@@ -49,7 +49,7 @@ The addon settings page allow to configure the following options:
      <div class="column" markdown="span"><b>Product Details Page</b>![540-default-text-product.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-default-text-product.png)</div>
    </div>
 
-* **Disable checkout and hide prices from these customers** : This setting allows to hide prices not on a per product basis, but for all products in a store at once and close checkout facilities for a group of users. When selecting from a drop-down with the predefined values, uou can choose between "unregistered", "registered, no membership" and "NAME membership" groups and enable the feature for as many user groups as you need. The total amount groups will depend on how memberships are {% link "configured" ref_5JXPTA0A %} in your store.
+* **Disable checkout and hide prices from these customers** : This setting allows to hide prices not on a per product basis, but for all products in a store at once and close checkout facilities for a group of users. When selecting from a drop-down with the predefined values, you can choose between "unregistered", "registered, no membership" and "NAME_membership" groups and enable the feature for as many user groups as you need. The total amount of groups will depend on how memberships are {% link "configured" ref_5JXPTA0A %} in your store.
    ![540-hide-prices-cus.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-hide-prices-cus.png)
 
 Once the messages are configured you can proceed to enabling the "request a price" option for products and product variants to make it visible in the storefront. 
@@ -66,7 +66,7 @@ The 'Request a Price' option can be enabled:
    * **Save** the changes.
    
 2. Per product variant
-   * Enable the 'Call for price' option for the product as described above;
+   * Enable the 'Call for price' option for a product as described above;
    * Open the _Variants_ tab of the Product details page;
    * Locate the _Cart_ icon opposite the product variant:
      <div class="ui stackable two column grid">
@@ -77,7 +77,7 @@ The 'Request a Price' option can be enabled:
    * **Save** the changes.
       
      {% note info %}
-     In case the 'Call for price' option is enabled not for all the variants available a customer will see it like this:
+     In case the 'Call for price' option is enabled not for all variants available a customer will see it like this:
      <div class="ui stackable two column grid">
        <div class="column" markdown="span"><b>The "Call for price" option disabled</b>![540-variant-with-price.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-variant-with-price.png)</div>
        <div class="column" markdown="span"><b>The "Call for price" option enabled</b>![540-variant-wo-price.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-variant-wo-price.png)</div>
