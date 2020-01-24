@@ -5,7 +5,7 @@ updated_at: '2020-01-22 13:50 +0400'
 identifier: ref_23DfkKLx
 title: How to change rotation banner sizes
 order: 100
-published: true
+published: false
 version: X-Cart 5.3.x and earlier
 ---
 X-Cart 5 is configured so that the height of the banner block is proportionally adapted to the size of the browser window.
