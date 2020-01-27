@@ -39,7 +39,7 @@ The footer menu is usually displayed as links across the width of the footer. A 
 The default Footer menu looks as follows:
 ![540-footer-menu.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-footer-menu.png)
 
-## Primary and Footer Menus Maintenance
+## Primary and Footer Menu Maintenance
 
 Both primary and footer menu is maitained in the **Content** -> **Menus** section of your store Admin area. This section allows to edit and/or delete the existing menu items as well as to add new items instead. 
 
@@ -51,9 +51,6 @@ Each menu consists of a list of the predefined menu items:
 
 {% note warning %}
 In order to be able to edit existing or add new items to the primary and footer menu, make sure that the addon **Simple CMS** is installed and enabled. If not, {% link "install and activate it" ref_Vn1mMUw9 %}.
-
-![540-simple-cms.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-simple-cms.png)
-
 {% endnote %}
 
 ### Adding New Menu Items
@@ -98,15 +95,7 @@ To add a new item to one of your store's menus:
 
 The menu item will be added. You should now be able to see it on the storefront.
 
-Once a new menu item has been added you can move on and add drop-down submenu to it by clicking the **Add** link in the **Submenu** column. 
-![540-submenu-add-link.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-submenu-add-link.png)
-
-This will open a new menu page where you can add as menu new drop-down menu items as you need. Each new menu item is created absolutely the same way as the main menu item. The levels of the drop-down menus are not limited.
-
-<div class="ui stackable two column grid">
-      <div class="column" markdown="span">![540-submenu-new-item.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-submenu-new-item.png)</div>
-      <div class="column" markdown="span"><b>Footer menu page</b>![540-submenu-new-item-line.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-submenu-new-item-line.png)</div>
-    </div>
+Once a new menu item has been added you can move on and add drop-down submenu as described [below](https://kb.x-cart.com/look_and_feel/navigation/adding_new_items_to_your_stores_menus.html#editing-submenus "Default Menus").
 
 ### Editing Existing Menu Items
 
@@ -146,7 +135,7 @@ The **Submenu** column can contain 2 possible values:
    1. Click on the **N items** link;
       ![540-submenu-n-items-link.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-submenu-n-items-link.png)
       This opens a submenu listing page one level down.
-   2. Edit the submenu items the same way as described in Editing Menu Properties;
+   2. Edit the submenu items the same way as described in [Editing Menu Properties](https://kb.x-cart.com/look_and_feel/navigation/adding_new_items_to_your_stores_menus.html#editing-menu-properties "Default Menus");
    3. Click **Save changes**.
 
 #### Deleting Menus
