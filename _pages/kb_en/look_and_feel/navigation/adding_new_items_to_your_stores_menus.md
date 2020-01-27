@@ -56,11 +56,6 @@ In order to be able to edit existing or add new items to the primary and footer 
 
 {% endnote %}
 
-### Editing Existing Menu Items
-
-
-
-
 ### Adding New Menu Items
 
 To add a new item to one of your store's menus:
@@ -93,7 +88,7 @@ To add a new item to one of your store's menus:
         
              For example, to add a link to google.com, you will need to enter the link as `http://google.com/`).
              {% endnote %}
-     * Specify user level the menu item should be visible for. Select from the options available in drop-down:
+     * **Visible for** : Specify the user level the menu item should be visible for. Select from the options available in the drop-down:
        * Any visitors
        * Anonymous users only
        * Logged in users only
@@ -112,6 +107,53 @@ This will open a new menu page where you can add as menu new drop-down menu item
       <div class="column" markdown="span">![540-submenu-new-item.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-submenu-new-item.png)</div>
       <div class="column" markdown="span"><b>Footer menu page</b>![540-submenu-new-item-line.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-submenu-new-item-line.png)</div>
     </div>
+
+### Editing Existing Menu Items
+
+A store admin can edit each property of an existing menu including submenus and their properties as well as delete menu and submenu items.
+
+#### Editing Menu Properties
+
+When hoving a coursor over a line in the list of menus, a store admin can see highlighted the menu properties that can be edited. 
+![540-edit-menu.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-edit-menu.png)
+
+To adjust a property value it is necessary to:
+1. Click on the field the needs to be edited;
+2. Substitute the existing value with any new one valid for this field;
+3. Click **Save changes**.
+
+#### Editing Submenus
+
+Submenus are the menus of a drop-down level from a main menu item. Submenus are maintained absolutely the same way the main menu items are. To check whether a main menu item has any subnemu items a store admin should refer to the **Submenu** column of a menu listing page:
+![540-submenu-column.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-submenu-column.png)
+
+The **Submenu** column can contain 2 possible values:
+
+* **Add** : The value means that there are no menus of a dropw-down level for the menu. A store admin can add a new level of drop-down level by clicking the **Add** link.
+  
+  To add a new drop-down level for a menu:
+  * Click on the **Add** link in the Submenu column of the main menu:
+    ![540-submenu-add-link.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-submenu-add-link.png)
+    This opens a new menu listing page one level down.
+  * Click the **New item** buttom:
+    ![540-submenu-new-item.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-submenu-new-item.png)
+  * Specify the menu item properties the same way as described in [Adding New Menu Items](https://kb.x-cart.com/look_and_feel/navigation/adding_new_items_to_your_stores_menus.html#adding-new-menu-items "Default Menus");
+  * Click **Save changes**.
+  
+* **N items** : The value means that a menu has "N" menu items of a drop-down level, where N refers to the actual number of items. A store admin can click the N items link to view and edit the submenu items. 
+
+   To edit an existing submenu:
+   1. Click on the **N items** link;
+      ![540-submenu-n-items-link.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-submenu-n-items-link.png)
+      This opens a submenu listing page one level down.
+   2. Edit the submenu items the same way as described in Editing Menu Properties;
+   3. Click **Save changes**.
+
+#### Deleting Menus
+
+If it is necessary to delete a menu item a store admin should click a **Trash** icon opposite the icone in question and then click **Save changes**. A store admin can delete several or all menu items at once. 
+
+![540-delete-menu.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-delete-menu.png)
 
 
 _Related pages:_
