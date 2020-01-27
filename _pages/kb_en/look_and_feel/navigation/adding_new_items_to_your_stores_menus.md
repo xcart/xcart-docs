@@ -103,6 +103,16 @@ To add a new item to one of your store's menus:
 
 The menu item will be added. You should now be able to see it on the storefront.
 
+Once a new menu item has been added you can move on and add drop-down submenu to it by clicking the **Add** link in the **Submenu** column. 
+![540-submenu-add-link.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-submenu-add-link.png)
+
+This will open a new menu page where you can add as menu new drop-down menu items as you need. Each new menu item is created absolutely the same way as the main menu item. The levels of the drop-down menus are not limited.
+
+<div class="ui stackable two column grid">
+      <div class="column" markdown="span">![540-submenu-new-item.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-submenu-new-item.png)</div>
+      <div class="column" markdown="span"><b>Footer menu page</b>![540-submenu-new-item-line.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-submenu-new-item-line.png)</div>
+    </div>
+
 
 _Related pages:_
 
