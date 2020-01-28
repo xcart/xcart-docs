@@ -103,7 +103,7 @@ A store admin can edit each property of an existing menu including submenus and 
 
 #### Editing Menu Properties
 
-When hoving a coursor over a line in the list of menus, a store admin can see highlighted the menu properties that can be edited. 
+When hoving a cursor over a line in the list of menus, a store admin can see highlighted the menu properties that can be edited. 
 ![540-edit-menu.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-edit-menu.png)
 
 To adjust a property value it is necessary to:
