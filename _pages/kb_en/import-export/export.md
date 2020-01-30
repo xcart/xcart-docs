@@ -5,7 +5,7 @@ updated_at: '2020-01-28 10:58 +0400'
 identifier: ref_57zqrlPA
 title: How to Export Data
 order: 105
-published: false
+published: true
 ---
 ## Why You May Need Export
 
