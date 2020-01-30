@@ -38,10 +38,15 @@ To export data from X-Cart a store admin should:
    
    {% note info %}
    Certaing X-Cart addons installed in a store can extend the default export data type list. 
+   
    e.g.
+   
    The {% link "Back in Stock Notifications" ref_1oUpzwSS %} addon extends the list with the "Back-in-stock records" and "Price-drop records" data types.
+   
    The {% link "Newsletter Subscriptions" ref_2WzsM3Pg %} addon - the "Subscribers" data type.
+   
    The {% link "Make/Model/Year" ref_0Esu2RNW %} addon - the "Products with Make/Model/Year/Engine" and "Make/Model/Year/Engine" listing data types.
+   
    etc.
    
    In case a data type is in fade grey, there are no data in the store of this specific type that could be exported.
