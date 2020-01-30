@@ -65,3 +65,19 @@ To export data from X-Cart a store admin should:
      
    * **Charset** (applicable to the CSV export file type only) : Choose a character encoding scheme for a CSV export file. 
    * **CSV delimiter** (applicable to the CSV export file type only) : Choose a delimeter to be used in a CSV file.
+
+4. Click the **Start export** button.
+   
+   The store will start the process of preparing export files accodring to the settings specified above.
+   ![540-export-in-progress.png]({{site.baseurl}}/attachments/ref_57zqrlPA/540-export-in-progress.png)
+
+5. When the process is complete, you will be redirected to the **Last exported** tab of the **Catalog** -> **Export** section with a list of files available for download:
+   ![540-last-exported.png]({{site.baseurl}}/attachments/ref_57zqrlPA/540-last-exported.png)
+   
+   Here a store admin can: 
+   * download files one by one by clicking on a partickular file name;
+   * download a files archive by clicking the**Download all files** button to choose an appropriate archive format (.tgz or .zip);
+   * proceed with another export by clicking the **New export** button;
+   * delete all export files from the list by clicking the **Delete all files** button.
+   
+   
