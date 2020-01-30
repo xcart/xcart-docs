@@ -30,6 +30,7 @@ Data export is a convenient way to get structured information out of your X-Cart
 _In this section:_
 
 *   {% link "How to Import data" ref_glDc6kA1 %}
+*   {% link "How to Export Data" ref_57zqrlPA %}
 *   {% link "CSV Format by X-Cart Data Type" ref_iy9cOdWS %} 
 *   {% link "Updating Product Properties (Price, Stock Quantity, etc.) via import" ref_OEpBdtQ6 %}
 *   {% link "Integration with Doba (Drop Shipping Services)" ref_HOfdxO3E %}
