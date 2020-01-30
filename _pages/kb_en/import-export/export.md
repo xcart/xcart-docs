@@ -51,10 +51,9 @@ To export data from X-Cart a store admin should:
      * CSV;
      * Excel 2007;
      * Open Document.
-   * **Export public files as** : 
-     Choosing "URLs" will link the exported data to your public files (product and category images, downloadable files shown on product pages, and so on) through direct URLs. Public files won't be included into the archive with exported files; however, private files (for example, digitally distributed products) will go into the archive anyway.
-
-     Choosing "local files" will provide file paths to your files, relative to your X-Cart installation.
+   * **Export public files as** : Choose the format of the public files export. Available options are: 
+       * URLs : This format will link the exported data to your public files (product and category images, downloadable files shown on product pages, and so on) through direct URLs. Public files won't be included into the archive with exported files; however, private files (for example, digitally distributed products) will go into the archive anyway.
+       * local files (default option) : This format will provide file paths to your files, relative to your X-Cart installation.
    * **Export product data with** : This setting is applicable to the **Products** data type only. By default, products are exported with global attributes. Using this setting a store admin can define what product-related data should be included into a "products" export file. Available options are:
      * Global attributes (default option);
      * Global & Class attributes;
