@@ -76,7 +76,7 @@ To export data from X-Cart a store admin should:
    
    Here a store admin can: 
    * download files one by one by clicking on a partickular file name;
-   * download a files archive by clicking the**Download all files** button to choose an appropriate archive format (.tgz or .zip);
+   * download a files' archive by clicking the **Download all files** button to choose an appropriate archive format (.tgz or .zip);
    * proceed with another export by clicking the **New export** button;
    * delete all export files from the list by clicking the **Delete all files** button.
    
