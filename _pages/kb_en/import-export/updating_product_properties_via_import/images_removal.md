@@ -19,6 +19,6 @@ published: true
 5.  Save the file and re-import it into your store via the "Import by CSV" section in your store's back end  (**Catalog** > **Import**). 
 
 After the import process is completed, you should be able to see that the product or variant images for which you have specified the path as "NULL" have been removed.
-## A New Post
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+
+
