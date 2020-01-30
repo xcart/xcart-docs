@@ -27,6 +27,8 @@ Once the addon has been enabled, open the addon settings page to adjust the mess
 ![540-settings-link.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-settings-link.png)
 
 The addon settings page allows to configure the following options:
+![540-settings-page.png]({{site.baseurl}}/attachments/ref_3K1pJExV/540-settings-page.png)
+
 * **Call For Price tooltip** : This setting defines the text that is displayed on the tooltip. The message can include a company phone number and email.
 * **Call For Price text (catalog)** : This setting defines the text that is displayed on the product listing pages. The message can include a company phone number and email.
 * **Call For Price text (table view)** : This setting defines the text that is displayed on the {% link "product comparison" ref_xWLlmcLL %} page. The message can include a company phone number and email.
