@@ -20,7 +20,8 @@ Data export tool is available in all X-Cart editions including personal demo sto
 To export data from X-Cart a store admin should:
 
 1. Open the "Export to CSV/spreadsheets" page in the store Admin area (**Catalog** -> **Export**):
-   ![export-page.png]({{site.baseurl}}/attachments/ref_57zqrlPA/export-page.png)
+   ![540-export-page.png]({{site.baseurl}}/attachments/ref_57zqrlPA/540-export-page.png)
+
 2. Select the data to be exported using the related check-boxes.
    
    By default, the following data can be exported from X-Cart:
@@ -37,7 +38,7 @@ To export data from X-Cart a store admin should:
    Each chosen data type will result in a separate export file of a special format. 
    
    {% note info %}
-   Certaing X-Cart addons installed in a store can extend the default export data type list. 
+   Certain X-Cart addons installed in a store can extend the default export data type list. 
    
    e.g.
    
