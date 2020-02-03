@@ -9,11 +9,11 @@ published: true
 ---
 By default X-Cart supports two types of currencies - transactional currency and display currency.
 
-Transactional (or default) currency is the currency in which the prices and all product-related costs in the store are set and kept in the database and in which all customer transactions are processed in X-Cart.  
+Transactional (or default) currency is the currency in which the prices and all product-related costs in the store are set and kept in the database and in which all transactions are processed in X-Cart.  
 
-Display currency is the currency in which prices are displayed to customers in the storefront. X-Cart can have different display currencies set up provided the {% link "Multicurrency" ref_2tPJubPU %} addon is installed and enabled. Otherwise, all prices and product related costs are displayed in the default currency configured in a store.
+Display currency is the currency in which prices are displayed to customers in the storefront. X-Cart can have different display currencies set up, provided the {% link "Multicurrency" ref_2tPJubPU %} addon is installed and enabled. Otherwise, all prices and product related costs are displayed in the default currency configured in the store.
 
-To configure your store's deafult currency settings:
+To configure your store's default currency settings:
 
 1.  Go to the **Currency** section of your store's Admin area (**Store setup** > **Localization**).
     ![540-default-currency.png]({{site.baseurl}}/attachments/ref_2dx6iFtL/540-default-currency.png)
