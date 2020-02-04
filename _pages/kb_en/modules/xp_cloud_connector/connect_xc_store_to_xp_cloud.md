@@ -63,4 +63,7 @@ Once you are ready to proceed with the connection, you will need to either creat
      
      This will connect your X-Cart store to your existings X-Payments Cloud account.
 
-Once your X-Cart 5 store has been connected to X-Payments Cloud, configure X-Payments Cloud as you require.
+Once your X-Cart 5 store has been connected to X-Payments Cloud, you need to go to X-Payments Cloud and configure it as you require. For more information on this, see {% link "Getting Started with X-Payments Cloud" ref_497aaUTF %}
+
+_Related pages:_
+* {% link "X-Payments Cloud Connector" ref_729XUzDQ %}
