@@ -24,3 +24,6 @@ To view this content and/or to resume editing, you will need to unlock editing b
 ![xpc_quick_access_mode1.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xpc_quick_access_mode1.png)
 
 After completing the X-Payments Cloud configuration, make sure your X-Payments Cloud payment method is enabled in your X-Cart store.
+
+_Related pages:_
+* {% link "X-Payments Cloud Connector" ref_729XUzDQ %}
