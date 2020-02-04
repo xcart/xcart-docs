@@ -5,7 +5,7 @@ updated_at: '2020-02-04 15:24 +0400'
 identifier: ref_497aaUTF
 title: Getting Started with X-Payments Cloud
 order: 600
-published: false
+published: true
 ---
 Once your X-Cart 5 store has been {% link "connected to X-Payments Cloud" ref_4kjOv7Ne %}, configure X-Payments Cloud as you require. You will be able to access your X-Payments Cloud admin panel right from within your X-Cart store (via the same section you used to complete the connection - the one titled "X-Payments Cloud settings"). 
 
@@ -24,4 +24,3 @@ To view this content and/or to resume editing, you will need to unlock editing b
 ![xpc_quick_access_mode1.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xpc_quick_access_mode1.png)
 
 After completing the X-Payments Cloud configuration, make sure your X-Payments Cloud payment method is enabled in your X-Cart store.
-
