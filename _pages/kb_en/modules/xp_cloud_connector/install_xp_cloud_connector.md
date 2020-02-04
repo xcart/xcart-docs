@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2020-02-04 15:03 +0400'
 identifier: ref_2BXoj25Y
 title: Installing the X-Payments Cloud Connector Addon
-order: 100
+order: 200
 published: true
 ---
 You can find out whether the X-Payments Cloud connector addon is installed and enabled in your X-Cart 5 store by checking the section **My addons** of your X-Cart store Admin area:
