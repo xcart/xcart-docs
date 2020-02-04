@@ -15,7 +15,7 @@ If the addon is not installed, you can obtain it from the X-Cart App Store.
 
 To install the addon, follow the instructions from the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
-Once the X-Payments Cloud connector addon has been installed and enabled, you can {% link "connect your store to X-Payments Cloud" %} with it.
+Once the X-Payments Cloud connector addon has been installed and enabled, you can {% link "connect your store to X-Payments Cloud" ref_4kjOv7Ne %} with it.
 
 _Related pages:_
 * {% link "X-Payments Cloud Connector" ref_729XUzDQ %}
