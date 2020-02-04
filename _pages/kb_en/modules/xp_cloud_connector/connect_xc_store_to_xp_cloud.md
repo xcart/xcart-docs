@@ -5,7 +5,7 @@ updated_at: '2020-02-04 15:12 +0400'
 identifier: ref_4kjOv7Ne
 title: Connecting Your X-Cart Store to X-Payments Cloud
 order: 100
-published: false
+published: true
 ---
 Once the X-Payments Cloud connector addon has been {% link "installed and enabled" ref_2BXoj25Y %}, you can connect your store to X-Payments Cloud with it.
 
@@ -63,5 +63,4 @@ Once you are ready to proceed with the connection, you will need to either creat
      
      This will connect your X-Cart store to your existings X-Payments Cloud account.
 
-Once your X-Cart 5 store has been connected to X-Payments Cloud, configure X-Payments Cloud as you require.  
-
+Once your X-Cart 5 store has been connected to X-Payments Cloud, configure X-Payments Cloud as you require.
