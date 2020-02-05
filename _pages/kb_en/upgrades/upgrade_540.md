@@ -8,7 +8,13 @@ order: 135
 published: true
 version: X-Cart 5.4.x
 ---
-Once per day, each X-Cart store checks the X-Cart App Store for updates, the response being cached for 24 hours. If you need to delete this cache, open the link `<YOUR_STORE_URL>/service.php?/clear-cache` or use the **Check for updates** button in the **Upgrade options** section of the **System tools** -> **Environment** page in your store Admin area.
+Once per day, each X-Cart store checks the X-Cart App Store for updates, the response being cached for 24 hours. If you need to delete this cache:
+
+* use the **Check for updates** button in the **Upgrade options** section of the **System tools** -> **Environment** page in your store Admin area
+
+OR
+
+* use the link `<YOUR_STORE_URL>/service.php?/clear-cache` instead.
 
 If there is any kind of update/upgrade available, an **Updates are available** link will be displayed in the header of the Admin area:
 ![540-orange-upgrade-notification-header.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-orange-upgrade-notification-header.png)
