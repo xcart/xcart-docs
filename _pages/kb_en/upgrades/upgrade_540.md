@@ -10,7 +10,7 @@ version: X-Cart 5.4.x
 ---
 Once per day, each X-Cart store checks the X-Cart App Store for updates, the response being cached for 24 hours. If you need to delete this cache:
 
-* use the **Check for updates** button in the **Upgrade options** section of the **System tools** -> **Environment** page in your store Admin area
+* use the **Check for updates** button in the **Upgrade options** section of the **System tools** -> **Environment** page in your store Admin area;
 
 OR
 
