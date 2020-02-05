@@ -8,7 +8,7 @@ order: 170
 published: true
 ---
 If you sale worldwide it makes sense to use the addon [Multicurrency](https://market.x-cart.com/addons/multicurrency-for-xcart5.html "Multicurrency") to make purchases for your international customers easier. Allowing customers to shop in their native currency provides a more consistent and positive shopping experience and can encourage the overall store conversion.
-![multicurrency_addon.png]({{site.baseurl}}/attachments/ref_2tPJubPU/multicurrency_addon.png)
+![540-addon-enabled.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-addon-enabled.png)
 
 {% toc %}
 
@@ -17,7 +17,7 @@ If you sale worldwide it makes sense to use the addon [Multicurrency](https://ma
 When considering using the addon, keep in mind that the Multicurrency addon supports the display-only type of currencies. This means that it allows to convert prices and all product-related costs from a {% link "default currency" ref_2dx6iFtL %} into a customer native currency and display it in the storefront and at checkout. All transactions in X-Cart, however, will be processed in a default store currency regardless of the currency used by a customer to place an order.
 
 The Multicurrency addon works in a bundle with the addon {% link "Geolocation" ref_34F5BkhW %} that uses a free "GeoLite2 Country" database by MaxMind. 
-![geolocation_addon.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation_addon.png)
+![540-geolocation-enabled.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-geolocation-enabled.png)
 
 The "GeoLite2 Country" database allows to define a customer's location accurate to a country. If you need higher accuracy, you can upload other databases on the Geolocation addon settings page.
 ![geolocation-settings.png]({{site.baseurl}}/attachments/ref_2tPJubPU/geolocation-settings.png)
