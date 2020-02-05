@@ -35,6 +35,8 @@ To enable the Multicurrency addon, follow the instructions from {% link "Install
 
 Once the Multicurrency addon has been installed, it adds a possibility to enable several currencies on the **Currincies** page of **Store setup** -> **Localization** section of your store Admin area.
 
+### Configuring the Addon General Settings
+
 The addon extends the {% link "default currency settings" ref_2dx6iFtL %} with the following options:
 ![540-multicurrencies-settings.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-multicurrencies-settings.png)
 
@@ -49,38 +51,52 @@ When the main settings are configured click **Save changes** and proceed to addi
 
 ### Configuring Multiple Currencies
 
-To complete the Multicurrency addon set-up use the **Add currency** drop-down and button to enable as many display-only currenclies in the storefront as you may need. 
+To complete the Multicurrency addon set-up use the **Add currency** drop-down and button to enable as many display-only currencies in the storefront as you may need. 
 
 To add a new currency to the list:
 1. Open the **Currencies** page in the **Store setup** -> **Localization** section of your store Admin area
 2. Choose a currency code you want to add in a drop-down;
    ![540-add-currency.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-add-currency.png)
-
 3. Click the **Add currency** button.
    
-   A new currency will be added with a pre-set list of countries it's applicable to. If you want you can add or remove the countries from the list of assigned to a currency by clicking the 'Countries' field. Each country can be assigned to one currency only.
+### Editing Currency Properties
 
-A list of currencies may look as follows:
+Each new currency is added to the list of currencies available for display in the storefront with a number of properties reset. A list of currencies may look as follows:
 ![540-currencies-list.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-currencies-list.png)
 
-The default store currency configured originally is present in the currencies list and is specially marked. 
+A store admin can edit the following properties:
+* **Format** : A format of the currency representation in the storefront. To change the format a store admin should use the options from the related drop-down.
+* **Prefix** : A currency prefix. The value is defined automatically for each currency. If it is necessary to change the value, click inside the field and type the required value instead of a predefined one.
+* **Suffix** : A currency suffix. The value is defined automatically for each currency. If it is necessary to change the value, click inside the field and type the required value instead of a predefined one.
+* **Rate** : A currency exchange rate. The value can be either preset provided the **Online currency rates service** and **Currency converter API key** general addons settings are configured accordingly, or set up manually by a store admin. To change the exchnage rate click inside the field and enter the value required. 
+* **Countries** : Each new currency is added with a pre-set list of countries it's applicable to. A store admin can add or remove the countries from the list of assigned to a currency by clicking into the 'Countries' field and choosing the necessary countries from the drop-down. Each country can be assigned to one currency only.
 
+A store admin can also: 
+1. Re-order currencies in the list using the **Cross** icon to drag-n-drop (this will affect the order of currencies display in the currency drop-down in the storefront): 
+   ![540-currencies-list-reorder.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-currencies-list-reorder.png)
+2. Delete currencies from the list using the **Trash** icon opposite a currency in question:
+   ![540-currencies-list-delete.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-currencies-list-delete.png)
+3. Change the default currency for the store using a special selector:
+   ![540-currencies-list-default-currency.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-currencies-list-default-currency.png)
 
-
+   {% note info %}
+   If you change the default store currency don't forget to update the rates using the 'Update Rates' button for the prices to be displayed correctly.
+   {% endnote %}
    
+Use the **Save changes** button to make the new settings active.
+
+## Customer Experience
+
+When installed and configured, the addon in action will look as follows in the storefront:
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![540-storefront-1.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-storefront-1.png)</div>
+  <div class="column" markdown="span">![540-storefront-2.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-storefront-2.png)</div>
+</div>
 
 
-
-{% note info %}
-If you change the default store currency don't forget to update the rates using the 'Update Rates' button for the prices to be displayed correctly.
-{% endnote %}
-
-When installed and configured, the addon in action will look as follows in the store front end:
-
-![customer.png]({{site.baseurl}}/attachments/ref_2tPJubPU/customer.png)
-
-A customer will see the currency and the language of the country his IP belongs to. A language switch will be available only if {% link "translations" ref_1frAlu26 %} are enabled in the store. If there are no particular currency and translation defined for the customers location the store content will be displayed in the default currency and language.
+A customer will see the currency and the language of the country his IP belongs to. If there are no particular currency and translation defined for the customers location the store content will be displayed in the default currency and language.
 
 {% note warning %}
-The currency that will be used for orders processing will depend on the payment gateway you are using. Some payments allow orders processing only in the default store currency. Others allow to accept payments in more than one currency. Please, check with your payment processing company for details.
+The currency that will be used for orders processing will depend on the payment gateway configured in the store. Some payments allow orders processing only in the default store currency. Others allow to accept payments in more than one currency. Please, check with your payment processing company for details.
 {% endnote %}
