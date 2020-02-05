@@ -72,16 +72,20 @@ A store admin can edit the following properties:
 * **Countries** : Each new currency is added with a pre-set list of countries it's applicable to. A store admin can add or remove the countries from the list of assigned to a currency by clicking into the 'Countries' field and choosing the necessary countries from the drop-down. Each country can be assigned to one currency only.
 
 A store admin can also: 
+
 1. Re-order currencies in the list using the **Cross** icon to drag-n-drop (this will affect the order of currencies display in the currency drop-down in the storefront): 
    ![540-currencies-list-reorder.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-currencies-list-reorder.png)
-2. Delete currencies from the list using the **Trash** icon opposite a currency in question:
-   ![540-currencies-list-delete.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-currencies-list-delete.png)
+2. Enable/Disable currencies in the list using the **ON/OFF** icon opposite a currency in question:
+   ![540-currencies-list-enable.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-currencies-list-enable.png)
 3. Change the default currency for the store using a special selector:
    ![540-currencies-list-default-currency.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-currencies-list-default-currency.png)
 
    {% note info %}
    If you change the default store currency don't forget to update the rates using the 'Update Rates' button for the prices to be displayed correctly.
    {% endnote %}
+
+4. Delete currencies from the list using the **Trash** icon opposite a currency in question:
+   ![540-currencies-list-delete.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-currencies-list-delete.png)
    
 Use the **Save changes** button to make the new settings active.
 
