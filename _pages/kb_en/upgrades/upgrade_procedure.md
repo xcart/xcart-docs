@@ -24,7 +24,7 @@ For details on how to create a dev copy of your store and to restore the store f
 ## Store Upgrade Process
 Once per day, each X-Cart store checks the X-Cart App Store for updates. The response from the App Store is cached for a day. If you need to delete this cache:
 
-* use the **Check for updates** button in the **Upgrade options** section of the **System tools** -> **Environment** page in your store Admin area
+* use the **Check for updates** button in the **Upgrade options** section of the **System tools** -> **Environment** page in your store Admin area;
 
 OR
 
