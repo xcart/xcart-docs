@@ -33,9 +33,9 @@ Before configuring the Multicurrency addon, please ensure that the addon {% link
 
 To enable the Multicurrency addon, follow the instructions from {% link "Installing and Activating Addons" ref_0fGEpvrh %}.
 
-Once the Multicurrency addon has been installed, it adds a possibility to enable several currencies on the **Currincies** page of **Store setup** -> **Localization** section of your store Admin area.
-
 ### Configuring the Addon General Settings
+
+Once the Multicurrency addon has been installed, it adds a possibility to enable several currencies on the **Currincies** page of **Store setup** -> **Localization** section of your store Admin area.
 
 The addon extends the {% link "default currency settings" ref_2dx6iFtL %} with the following options:
 ![540-multicurrencies-settings.png]({{site.baseurl}}/attachments/ref_2tPJubPU/540-multicurrencies-settings.png)
