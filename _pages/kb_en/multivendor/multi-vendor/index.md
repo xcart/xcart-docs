@@ -15,7 +15,7 @@ The Multi-vendor addon set-up is split between a store admin and the vendors (a 
 
 Regardless of the mode the addon is configured in, a store admin is responsible for managing vendors' profiles, defining the commissions size for vendors, supervising all products created either by him or by any vendor and well as configuring payment methods and taxes available for vendors.
 
-Vendors in their turn can maintain their personal profile, creating and managing their own products as well as managing the product attributes created by them, creating coupons and discounts that will be applied to the products of this very vendor, exporting and importing vedor-related products in a CSV file, accepting payments and setting up shipping (if the store is configured to run in a "Vendors as separate shops" mode).
+Vendors in their turn can maintain their personal profile, create and manage their own products and product attributes, create coupons and discounts that will be applied to the products of this very vendor, export and import vedor-related products in a CSV file, accept payments and set up shipping (if the store is configured to run in a "Vendors as separate shops" mode).
 
 _In this section:_
 
