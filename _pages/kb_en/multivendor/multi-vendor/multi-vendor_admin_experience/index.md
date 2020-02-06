@@ -11,6 +11,10 @@ order: 100
 redirect_from:
   - /modules/multi-vendor/multi-vendor_admin_experience.html
 ---
+A store admin in a Multivendor based store is responsible for the initial marketplace configuration and general maintenance depending on the mode the "Multi-vendor" addon is configured to work in. The mode for the addon to function in varies between "Warehouse" and "Separate shops for vendors" and is set on the admin's choice. The mode defines the way the delivery options are configured and maintained in the store. It also affects the way the orders are placed and processed further. 
+
+Regardless of the mode, the store admin in a Multivendor based store is responsible for managing vendors’ profiles, defining the commissions size for vendors, supervising all products created either by him or by any vendor and well as configuring payment methods and taxes available for vendors.
+
 _In this section:_
 
    *   {% link "Multi-vendor Getting Started for Admin" ref_5saLJNod %}
