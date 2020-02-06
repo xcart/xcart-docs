@@ -9,7 +9,13 @@ categories:
 published: true
 order: 200
 ---
-The **Multi-vendor** addon for X-Cart 5 is the core component of X-Cart Multivendor edition: it modifies a regular single seller X-Cart store transforming it into a marketplace that can be used simultaneously by multiple sellers (vendors). In X-Cart Multivendor edition, this addon is enabled out of the box. Due to the limitations of its architecture, this addon may not be disabled.
+The [**Multi-vendor** addon](https://market.x-cart.com/addons/suppliers-multivendors.html "Multi-Vendor") for X-Cart 5 is the core component of X-Cart Multivendor edition: it modifies a regular single seller X-Cart store transforming it into a marketplace that can be used simultaneously by multiple sellers (vendors). In X-Cart Multivendor edition, this addon is enabled out of the box. Due to the limitations of its architecture, this addon may not be disabled.
+
+The Multi-vendor addon set-up is split between a store admin and the vendors (a sub-type of administrator account with specific permissions) depending on the mode the addon is configured in. The addon can work in two different modes: "Warehouse" and "Vendors as separate shops". This setting defines, what ship-from address will be used, who configures shipping and how the shopping cart looks on checkout. It also affects the way the orders are processed in the store. In a "Warehouse" mode vendors havea read-only access to a part of the order, containing their products only. In the "Vendors as separate shops" mode orders are separated by vendors and vendors have full access to edit orders contaiting their orders, change their statuses and add tracking numbers.
+
+Regardless of the mode the addon is configured in, a store admin is responsible for managing vendors' profiles, defining the commissions size for vendors, supervising all products created either by him or by any vendor and well as configuring payment methods and taxes available for vendors.
+
+Vendors in their turn can maintain their personal profile, creating and managing their own products as well as managing the product attributes created by them, creating coupons and discounts that will be applied to the products of this very vendor, exporting and importing vedor-related products in a CSV file, accepting payments and setting up shipping (if the store is configured to run in a "Vendors as separate shops" mode)
 
 _In this section:_
 
