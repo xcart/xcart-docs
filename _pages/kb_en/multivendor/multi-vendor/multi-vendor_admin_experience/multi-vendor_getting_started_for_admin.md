@@ -16,7 +16,7 @@ The Multivendor Edition guide for X-Cart admin covers:
 In this manual, by "administrator" we mean the store owner/storefront operator or an agent acting on their behalf and represented by an X-Cart store user with the access level "Administrator" and the role "Administrator".
 {% endnote %}
 
-{% toc %}
+{% toc CONTENTS %}
 
 # Steps to Launch a Multivendor X-Cart-based Marketplace
 
