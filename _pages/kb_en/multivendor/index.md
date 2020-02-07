@@ -18,7 +18,7 @@ redirect_from:
 ---
 X-Cart's **Multivendor** edition is an Online Marketplace solution that enables multiple sellers ("vendors") to sell their products and manage their orders through a single marketplace. 
 
-In fact, X-Cart Multivendor is X-Cart Business extended with a bunch of vendor-specific addons such as "Multi-vendor" addon, "Trusted/Non-trusted Vendors" addon, "Multiple Profiles for Vendors" addon, etc. that add new features and transform the core. A regular store set-up and maintenance in a Multivendor edition is split between the store administrator and store vendors depending on the mode the "Multi-vendor" addon is configured in.
+X-Cart Multivendor extends X-Cart Business  with a bunch of vendor-specific addons such as "Multi-vendor" addon, "Trusted/Non-trusted Vendors" addon, "Multiple Profiles for Vendors" addon, etc. that add new features and transform the core. A regular store set-up and maintenance in a Multivendor edition is split between the store administrator and store vendors depending on the mode the "Multi-vendor" addon is configured in.
 
 _In this section:_
 
