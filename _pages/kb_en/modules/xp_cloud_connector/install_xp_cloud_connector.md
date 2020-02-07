@@ -8,10 +8,10 @@ order: 200
 published: true
 ---
 You can find out whether the X-Payments Cloud connector addon is installed and enabled in your X-Cart 5 store by checking the section **My addons** of your X-Cart store Admin area:
-![xp_connector_myaddons.png]({{site.baseurl}}/attachments/ref_2BXoj25Y/xp_connector_myaddons.png)
+![xpc_connector_myaddons.png]({{site.baseurl}}/attachments/ref_2BXoj25Y/xpc_connector_myaddons.png)
 
 In that section, type "cloud" or "x-payments" in the search box, and the Service Screen will show you the card of the X-Payments Cloud connector addon with information regarding its current status. On a new X-Cart trial, you will typically find this addon already installed and enabled:
-![xp_connector_enabled.png]({{site.baseurl}}/attachments/ref_2BXoj25Y/xp_connector_enabled.png)
+![xpc_connector_enabled.png]({{site.baseurl}}/attachments/ref_2BXoj25Y/xpc_connector_enabled.png)
 
 If, however, the addon is not installed in your store for some reason, you can install it from the X-Cart App Store. To install the addon, follow the instructions from the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
