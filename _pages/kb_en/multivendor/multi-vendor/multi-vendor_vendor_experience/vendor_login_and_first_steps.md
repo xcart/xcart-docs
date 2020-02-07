@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2015-11-13 00:00'
 identifier: ref_SZycMdTx
-title: Multivendor Edition Guide for Vendors
+title: Multi-vendor Beginner's Guide for Vendors
 categories:
   - User manual
 published: true
