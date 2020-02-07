@@ -11,7 +11,7 @@ order: 200
 redirect_from:
   - /modules/multi-vendor/multi-vendor_vendor_experience/index.html
 ---
-A marketplace vendor in a Multivendor based store is responsible for the Vendor Area configuration and maintenance depending on the mode the “Multi-vendor” addon is configured to work in. The mode for the addon to function in varies between “Warehouse” and “Separate shops for vendors” and is set on the choice of a store administrator. The mode defines the way the shipping methods are configured and maintained in the store. It also affects the way the orders are placed and processed further.
+A marketplace vendor in a Multivendor based store is responsible for the Vendor Area configuration and maintenance depending on the mode the “Multi-vendor” addon is configured to work in. The multivendor mode can be set either to "Warehouse" or "Separate shops for vendors" depending on the choice of a store administrator. The mode defines the way the delivery options are configured and maintained in the store. It also affects the way the orders are placed and processed further. 
 
 Regardless of the mode, a marketplace vendor in a Multivendor based store is responsible for managing their profile, populating the marketplace with products and assigning tax classes to them, configuring shippings and coupons and discounts.
 
