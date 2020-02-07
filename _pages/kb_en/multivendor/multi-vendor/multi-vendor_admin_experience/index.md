@@ -17,7 +17,7 @@ Regardless of the mode, the store admin in a Multivendor based store is responsi
 
 _In this section:_
 
-   *   {% link "Multi-vendor Getting Started for Admin" ref_5saLJNod %}
+   *   {% link "Multivendor Edition Guide for Admin" ref_5saLJNod %}
    *   {% link "Configuring the Multi-vendor Addon" ref_nFq48dhr %}
    *   {% link "Managing Vendor Access Permissions" ref_0GOeWpB2 %}
    *   {% link "Managing the Vendor Registration Page" ref_41fyOJ9F %}
