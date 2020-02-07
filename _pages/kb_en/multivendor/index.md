@@ -23,7 +23,7 @@ X-Cart Multivendor extends X-Cart Business  with a bunch of vendor-specific addo
 _In this section:_
 
    * {% link "Multivendor Edition Components Overview" ref_MRQEvicQ %}
-   * {% link "Multi-vendor" ref_cvwmAuRi %} (Core component)
+   * {% link "Multi-vendor Setup and Maintenance" ref_cvwmAuRi %} (Core component)
    * {% link "Trusted/Non-trusted Vendors" ref_5c7BY9Rn %}
    * {% link "Multiple Profiles for Vendors" ref_3le6s8jL %}
    * {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %}
