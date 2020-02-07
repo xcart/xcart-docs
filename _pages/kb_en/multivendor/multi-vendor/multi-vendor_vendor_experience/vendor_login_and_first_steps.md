@@ -67,7 +67,7 @@ If the store is set to work in the "_Vendors as separate shops_" {% link "multiv
 *  The vendor must specify the shipping methods they are going to use. See {% link "Managing shipping methods as a vendor" ref_IvXmtLKI %}.
 
     {% note info %}
-    (In "_Warehouse_" mode, the products of different vendors are shipped from the same warehouse, so the "ship-from" address and shipping methods are the same for all the vendors; the configuration of the "ship-from" address and shipping methods in this case is done by the store administrator.)
+    In "_Warehouse_" mode, the products of different vendors are shipped from the same warehouse, so the "ship-from" address and shipping methods are the same for all the vendors; the configuration of the "ship-from" address and shipping methods in this case is done by the store administrator.
     {% endnote %}
     
 ## Step 6: Check the Financial Details
@@ -76,7 +76,9 @@ If the store is set to work in the "_Vendors as separate shops_" {% link "multiv
 Please note that vendor users do not set tax rates. Setting tax rates is the responsibility of the store administrator. 
 {% endnote %}
       
-If, according to the store's Multi-vendor configuration settings, vendors have been given the responsibility to collect sales tax on their own sales, and an automated sales tax calculation solution like {% link "AvaTax" ref_6880bVvi %} or {% link "TaxJar" ref_0wHdWryq %} is used by the store, the vendor must check the Financial details section in their profile (**My account** > **Financial details**) and see if there is any tax related configuration to be done there. For example, vendors in the U.S. need to ensure that all the US states in which they are going to do business and which pertain to their nexus (and only those states) are listed in the "US tax calculation" settings section. This is needed to ensure that tax calculation requests to AvaTax/TaxJar are sent properly for the vendor. 
+If, according to the store's Multi-vendor configuration settings, vendors have been given the responsibility to collect sales tax on their own sales, and an automated sales tax calculation solution like {% link "AvaTax" ref_6880bVvi %} or {% link "TaxJar" ref_0wHdWryq %} is used by the store, the vendor must check the Financial details section in their profile (**My account** > **Financial details**) and see if there is any tax related configuration to be done there. 
+
+For example, vendors in the U.S. need to ensure that all the US states in which they are going to do business and which pertain to their nexus (and only those states) are listed in the "US tax calculation" settings section. This is needed to ensure that tax calculation requests to AvaTax/TaxJar are sent properly for the vendor. 
 
 For more information on the usage of AvaTax Sale Tax Automation with X-Cart Multivendor, see {% link "AvaTax Sales Tax Automation: Usage with Multivendor" ref_3MSUEwVA %}.
 
