@@ -21,7 +21,7 @@ In this manual, by “vendor” we mean a marketplace vedor/seller/merchant or a
 
 _In this section:_
 
-*   {% link "Multivendor Edition Guide for Vendors" ref_SZycMdTx %}
+*   {% link "Multi-vendor Beginner's Guide for Vendors" ref_SZycMdTx %}
 *   {% link "Vendor Registration" ref_SkW62BgH %}
 *   {% link "Managing Vendor Profile Information as a Vendor" ref_b7PTQMgf %}
 *   {% link "Managing the Catalog as a Vendor" ref_r4mcwiho %}
