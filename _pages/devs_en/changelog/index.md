@@ -20,7 +20,7 @@ published: true
       </div>
       <div class="statistic">
         <div class="label">Current stable 5.3.x version</div>
-        <div class="value" markdown="span">{% link "5.3.6.5" ref_5365changelog %}</div>
+        <div class="value" markdown="span">{% link "5.3.6.6" ref_5366changelog %}</div>
       </div>
       <div class="statistic">
         <div class="label"></div>
