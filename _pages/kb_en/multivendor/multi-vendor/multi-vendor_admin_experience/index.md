@@ -15,6 +15,10 @@ A store admin in a Multivendor based store is responsible for the initial market
 
 Regardless of the mode, the store admin in a Multivendor based store is responsible for managing vendors’ profiles, defining the commissions size for vendors, supervising all products created either by him or by any vendor and well as configuring payment methods and taxes available for vendors.
 
+{% note info %}
+In this manual, by "administrator" we mean the store owner/storefront operator or an agent acting on their behalf and represented by an X-Cart store user with the access level "Administrator" and the role "Administrator".
+{% endnote %}
+
 _In this section:_
 
    *   {% link "Multivendor Edition Guide for Admin" ref_5saLJNod %}
