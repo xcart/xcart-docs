@@ -13,12 +13,12 @@ To access the X-Payments Cloud connection page in your X-Cart store Admin area, 
 
 * *Method 1:*
 
-     Select **My Addons** in the sidebar menu of your X-Cart Admin area, find the installed addon "X-Payments Cloud connector" and click on the **Settings** link pertaining to it. The addon can be found by paging through the list of your store's installed addons or by doing a search via the search box in the upper left-hand corner of the screen. Depending on the method you use, the addon information may be presented on the page a bit differently; for example, you may see it like so:
+     Select **My Addons** in the sidebar menu of your X-Cart Admin area, find the installed addon "X-Payments Cloud connector" and click on the Settings link pertaining to it. The addon can be found by paging through the list of your store's installed addons or by doing a search via the search box in the upper left-hand corner of the screen. Depending on the method you use, the addon information may be presented on the page a bit differently; so the Settings link will be here:
      ![xp_cloud_connector_settings_link.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xp_cloud_connector_settings_link.png)
-     or so:
+     or here:
      ![xpc_connector_settingslink.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xpc_connector_settingslink.png)
 
-     In any case, the **Settings** link is exactly the same and will get you to the same page.
+     In any case, the Settings link is exactly the same and will get you to the same page.
    
 * *Method 2:*
    
