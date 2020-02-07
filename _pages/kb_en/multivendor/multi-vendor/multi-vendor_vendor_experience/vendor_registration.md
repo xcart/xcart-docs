@@ -12,7 +12,7 @@ redirect_from:
   - /modules/multi-vendor/vendor_registration.html
 ---
 
-A person who wants to become a vendor in a multivendor X-Cart 5 based store can contact the store owner/storefront operator/administrator directly asking them to set up a vendor profile for them, or they can apply for a vendor account via the vendor registration page in the Customer area (The store administrator will review the application and will be able to either approve or reject it.)
+A person who wants to become a vendor in a multivendor X-Cart 5 based store can contact the store owner/storefront operator/administrator directly asking them to set up a vendor profile for them, or they can apply for a vendor account via the vendor registration page in the storefront (The store administrator will review the application and will be able to either approve or reject it.)
 
 In X-Cart versions prior to 5.3.3.0, the page for vendor registration can be found here:
 `http://_<your-domain>_/_<x-cart-5-directory>_/admin.php?target=register_vendor`
@@ -32,7 +32,7 @@ The contents of the vendor registration page and the set of fields required for 
 
 To apply for a vendor profile, a prospective vendor must complete and submit the registration form.
 
-Once the form has been submitted, a new (unapproved) vendor user will be created in the store and a Thank you page will be displayed:
+Once the form has been submitted, a new (unapproved) vendor user will be created in the store and a "Thank you" page will be displayed:
 ![xc5_mv_thankyou_page.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_thankyou_page.png)
 
 The store administrator will be able to see the registered vendor profile in the store's Admin area. The administrator will be able to view the profile details of the prospective vendor and will have to approve or reject their application. 
