@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2015-11-13 00:00'
 identifier: ref_SZycMdTx
-title: Vendor Login and First Steps
+title: Multivendor Edition Guide for Vendors
 categories:
   - User manual
 published: true
