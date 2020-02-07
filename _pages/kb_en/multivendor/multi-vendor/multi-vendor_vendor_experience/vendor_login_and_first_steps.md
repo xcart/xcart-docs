@@ -7,7 +7,7 @@ title: Multivendor Edition Guide for Vendors
 categories:
   - User manual
 published: true
-order: 100
+order: 50
 redirect_from:
   - >-
     /modules/multi-vendor/multi-vendor_vendor_experience/vendor_login_and_first_steps.html
