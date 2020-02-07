@@ -12,8 +12,8 @@ redirect_from:
   - >-
     /modules/multi-vendor/multi-vendor_vendor_experience/vendor_login_and_first_steps.html
 ---
-The Multivendor Edition guide for X-Cart vendors covers:
-* the steps that a vendor should make to configure a multivendor store/online marketplace;
+The Multi-vendor Beginner's guide for X-Cart vendors covers:
+* the steps that a vendor should make to configure vendor-dependent part of the marketplace;
 * the tasks that need to be performed by the vendor a day-to-day basis.
 
 {% note info %}
@@ -22,7 +22,7 @@ In this manual, by “vendor” we mean a marketplace vedor/seller/merchant or a
 
 {% toc CONTENTS %}
 
-# Steps to Configure a Multivendor X-Cart-based Marketplace
+# Steps to Configure a Vendor Area in X-Cart-based Marketplace
 
 ## Step 1: Access the Vendor Area of X-Cart-based Marketplace
 
@@ -42,35 +42,11 @@ After logging in, the vendor will see a page similar to the following:
 
 If a vendor onboarding welcome message has been provided by the storefront operator (similar to the one in the screenshot above, titled "Welcome to our marketplace"), the vendor should read the message and follow the instructions provided therein. 
 
-## Step 3: Check and Adjust the Profile
+## Step 3: Check and Adjust the Vendor Profile
 
 The vendor should check the information in their user profile and see if anything needs to be added or corrected. See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf %}.
 
-## Step 3: Populate Catalog with Products
-
-The vendor should populate the catalog with the products they are going to sell. See {% link "Managing the catalog as a vendor" ref_r4mcwiho %} for information on how vendors can add products to the catalog manually. See {% link "Vendor import/export" ref_pa3oqbXz %} for information on how vendors can add products using CSV import.
-    
-Information on the use of product classes and attributes by vendors can be found in the section {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %}.
-
-## Step 4: Assign Tax Classes to Products
-
-The vendor does not take part in the configuration of taxes, tax rates or tax classes; it is the responsibility of the store administrator. 
-
-However, to ensure that the store's tax configuration works for them, the vendor needs to assign the tax classes created by the store administrator to their products and (if the store is set to work in the "_Vendors as separate shops_" {% link "multivendor mode" ref_nFq48dhr %}, and the vendor has their own shipping methods to which tax rates need to be applied) shipping methods. The store administrator can check whether the tax classes configured by them have been assigned to the vendor products and shipping methods as expected and, if required, can correct the classes assigned. In the event that a proper tax class is not assigned to the vendor's products or shipping methods by the vendor or by the store administrator, the default tax class will be used for them. For more info on tax classes, see {% link "Tax Classes" ref_pAWOdG8N %}.
-
-## Step 5: Configure Shipping
-
-If the store is set to work in the "_Vendors as separate shops_" {% link "multivendor mode" ref_nFq48dhr %}:
-
-*  The vendor must specify the address from which their products will be shipped. This address will be used to calculate the cost of delivery of an order from the vendor's warehouse to the buyer. See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf#company-details %}
-
-*  The vendor must specify the shipping methods they are going to use. See {% link "Managing shipping methods as a vendor" ref_IvXmtLKI %}.
-
-    {% note info %}
-    In "_Warehouse_" mode, the products of different vendors are shipped from the same warehouse, so the "ship-from" address and shipping methods are the same for all the vendors; the configuration of the "ship-from" address and shipping methods in this case is done by the store administrator.
-    {% endnote %}
-    
-## Step 6: Check the Financial Details
+## Step 4: Check the Profile Financial Details
 
 {% note info %}
 Please note that vendor users do not set tax rates. Setting tax rates is the responsibility of the store administrator. 
@@ -85,8 +61,32 @@ For more information on the usage of AvaTax Sale Tax Automation with X-Cart Mult
 {% note warning%}
 Failure to specify the states in the **Financial details** section properly may result in the store's failure to send tax calculation requests to AvaTax/TaxJar for the vendor's products. 
 {% endnote %}
+
+## Step 5: Populate Catalog with Products
+
+The vendor should populate the catalog with the products they are going to sell. See {% link "Managing the catalog as a vendor" ref_r4mcwiho %} for information on how vendors can add products to the catalog manually. See {% link "Vendor import/export" ref_pa3oqbXz %} for information on how vendors can add products using CSV import.
+    
+Information on the use of product classes and attributes by vendors can be found in the section {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %}.
+
+## Step 6: Assign Tax Classes to Products
+
+The vendor does not take part in the configuration of taxes, tax rates or tax classes; it is the responsibility of the store administrator. 
+
+However, to ensure that the store's tax configuration works for them, the vendor needs to assign the tax classes created by the store administrator to their products and (if the store is set to work in the "_Vendors as separate shops_" {% link "multivendor mode" ref_nFq48dhr %}, and the vendor has their own shipping methods to which tax rates need to be applied) shipping methods. The store administrator can check whether the tax classes configured by them have been assigned to the vendor products and shipping methods as expected and, if required, can correct the classes assigned. In the event that a proper tax class is not assigned to the vendor's products or shipping methods by the vendor or by the store administrator, the default tax class will be used for them. For more info on tax classes, see {% link "Tax Classes" ref_pAWOdG8N %}.
+
+## Step 7: Configure Shipping
+
+If the store is set to work in the "_Vendors as separate shops_" {% link "multivendor mode" ref_nFq48dhr %}:
+
+*  The vendor must specify the address from which their products will be shipped. This address will be used to calculate the cost of delivery of an order from the vendor's warehouse to the buyer. See {% link "Managing vendor profile information as a vendor" ref_b7PTQMgf#company-details %}
+
+*  The vendor must specify the shipping methods they are going to use. See {% link "Managing shipping methods as a vendor" ref_IvXmtLKI %}.
+
+    {% note info %}
+    In "_Warehouse_" mode, the products of different vendors are shipped from the same warehouse, so the "ship-from" address and shipping methods are the same for all the vendors; the configuration of the "ship-from" address and shipping methods in this case is done by the store administrator.
+    {% endnote %}
       
-## Step 7: Configure Coupons and Discounts
+## Step 8: Configure Coupons and Discounts
 
 If the option to create coupons and discounts has been enabled for the vendor by the store administrator, the vendor can create coupons and discounts for their products. See {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %} and {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}.
 
