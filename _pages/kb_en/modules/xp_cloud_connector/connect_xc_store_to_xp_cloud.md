@@ -54,7 +54,10 @@ Once you are ready to proceed with the connection, you will need to either creat
      
      More info on setting up 2-step user authentication methods in X-Payments Cloud is available in the X-Payments Cloud manual.
      
-     Note that after your X-Payments Cloud account has been created, you will receive a confirmation email message at the email address specified during your registration. Please refer to this email message for your getting started instructions.
+     Note that after your X-Payments Cloud account has been created you will receive a confirmation email message at the email address specified during your registration. The subject of this message reads "Ex-x-cellent! Your 30-day trial is on". Please refer to this email message for your getting started instructions.
+     
+     Within 15 minutes you will also receive another message, this one with the subject "Welcome to X-Payments!". In this message you will find a link to confirm your X-Payments Cloud registration email address. You have 24 hours to confirm your email address using that link. If we do not get a confirmation until that time, your account will be locked. **Important:** The email confirmation link expires in 24 hours. If you use the link after it has expired, you will get an error message.
+In this case, sign in to the X-Payments Cloud admin panel in your online store to generate a new link.
      
 <a id="xpc-registered-account"></a>
    * **If you already have an existing X-Payments Cloud account**:
