@@ -34,7 +34,7 @@ The store administrator can use the **Vendor statistics** section (**Orders** >
 For each vendor, the following information is provided:
      
    *   **Vendor**: Vendor to whom the statistics pertains.
-   *   **Transaction history**: The link to view all the transactions for the vendor in the Transactions history.
+   *   **Transaction history**: The link to view all the transactions for the vendor in the transactions history.
    *   **Income**: How much money has been earned by the vendor on sales via the store.
    *   **Expence**: What part of the vendor's earnings has been paid out to them by the storefront operator. 
    *   **Request for payment**: How much money has been requested for payout by the vendor.
