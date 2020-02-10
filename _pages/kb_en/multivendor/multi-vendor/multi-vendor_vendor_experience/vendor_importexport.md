@@ -14,11 +14,11 @@ redirect_from:
 ---
 Vendors can use the Import by CSV section of the store's back end  (**Catalog** > **Import**) to add their new products and update their existing products.
 
-![]({{site.baseurl}}/attachments/8749505/8717240.png)
+![540-vendor-import.png]({{site.baseurl}}/attachments/ref_pa3oqbXz/540-vendor-import.png)
 
 They can also export their existing products to CSV via the Export in CSV section (**Catalog** > **Export**).
 
-![]({{site.baseurl}}/attachments/8749505/8717242.png)
+![540-vendor-export.png]({{site.baseurl}}/attachments/ref_pa3oqbXz/540-vendor-export.png)
 
 The process of product import and export for vendors is exactly the same as for the store administrator.
 
@@ -34,3 +34,4 @@ _Related pages:_
 
    *   {% link "Multi-vendor: Vendor Experience" ref_COgF04Tz %}
    *   {% link "Vendor Login and First Steps" ref_SZycMdTx %}
+   *   {% link "Import-Export" ref_TANvG2De %}
