@@ -23,8 +23,6 @@ In X-Cart versions 5.3.3.0 and later, the vendor registration page can be access
   <div class="column" markdown="span"><b>X-Cart 5.4.x</b>![540-become-seller.png]({{site.baseurl}}/attachments/ref_SkW62BgH/540-become-seller.png)</div>
 </div>
 
-![xc5_mv_become_seller.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_become_seller.png)
-
 or via the URL: 
 `http://_<your-domain>_/_<x-cart-5-directory>_/cart.php?target=register_vendor`
 
