@@ -64,7 +64,7 @@ There are two ways to create a CSV file for import:
 2.  Create a CSV file from scratch. This method can be useful, for example, if you need to add some new data to your store.
 
     To create a new CSV file from scratch:
-    1.  Create a new table in your favourite spreadsheet editor (_MS Excel_, _LibreOffice Calc_, etc) or use any text editor with proper data formating. 
+    1.  Create a new table in your favourite spreadsheet editor (_MS Excel_, _LibreOffice Calc_, etc). 
     2.  Define what parameters you want to import. To do so, specify these parameters in the cells of the first line in your spreadsheet file. 
         
         Links to articles with detailed information on the supported parameters can be found in the section {% link "CSV format by X-Cart data type" ref_iy9cOdWS %} of this manual.
