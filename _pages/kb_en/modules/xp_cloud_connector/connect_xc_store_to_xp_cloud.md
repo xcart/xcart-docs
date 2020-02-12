@@ -39,7 +39,7 @@ Once you are ready to proceed with the connection, you will need to either creat
      
      3. After completing the above fields, click **Create account**.
    
-     This will initiate the creation of an X-Payments Cloud account for you and start your trial period. No commitment and no credit card are required during the trial period.
+     This will initiate the creation of an X-Payments Cloud account for you and start your 14 day trial period. No commitment and no credit card are required during the trial period.
      
      The creation of your X-Payments account is likely to take a few seconds. During this time you will see a screen like the following:
      ![tuned.png]({{site.baseurl}}/attachments/ref_729XUzDQ/tuned.png)
@@ -57,6 +57,10 @@ Once you are ready to proceed with the connection, you will need to either creat
      Note that after your X-Payments Cloud account has been created you will receive a confirmation email message at the email address specified during your registration. The subject of this message reads "Ex-x-cellent! Your 30-day trial is on". Please refer to this email message for your getting started instructions.
      
      Within 15 minutes you will also receive another message, this one with the subject "Welcome to X-Payments!". In this message you will find a link to confirm your X-Payments Cloud registration email address. You have 24 hours to confirm your email address using that link. If the email address is not confirmed until that time, your X-Payments Cloud account will be locked. ("Locked" means that you will be able to sign in but will not have access to any sensitive information or settings). **Important:** The email confirmation link expires in 24 hours. If you use the link after it has expired, you will get an error message. In this case, you will still be able to confirm your email address and unlock your account: sign in to the X-Payments Cloud admin panel, use the button to request a new email confirmation link, wait for the email message with the confirmation link to be sent to your inbox, then use the link to confirm your email address.
+     
+     Your X-Payments Cloud trial will be available to you for 14 days. After this time your account will be deactivated, but not yet deleted. If you purchase an X-Payments subscription within the 30 days following your trial expiration, you will regain access to your X-Payments Cloud account and all the settings you have configured in it. After the 30 day period, your account with be deleted permanently, and all the information associated with it will be lost.
+
+     Information on the available X-Payments subscription plans can be found [here](https://www.x-payments.com/pricing "Connecting Your X-Cart Store to X-Payments Cloud").
      
 <a id="xpc-registered-account"></a>
    * **If you already have an existing X-Payments Cloud account**:
