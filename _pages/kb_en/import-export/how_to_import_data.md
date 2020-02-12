@@ -60,11 +60,11 @@ In order to import data a store admin should:
 
 There are two ways to create a CSV file for import:
 
-1.  {% link "Export" ref_57zqrlPA %} all the products via the **Catalog > Export** section in the Admin area. In this case, the CSV file will contain information about all the products in your store. This method is useful when you want to update the details of your existing products.
-2.  Create a CSV file from scratch. This method can be useful, for example, if you need to add new products to your store.
+1.  {% link "Export" ref_57zqrlPA %} the required data via the **Catalog > Export** section in the Admin area. In this case, a CSV file will contain the required information formatted according to the chosen data type. This method is useful when you want to update the existing data.
+2.  Create a CSV file from scratch. This method can be useful, for example, if you need to add some new data to your store.
 
     To create a new CSV file from scratch:
-    1.  Create a new table in your favourite spreadsheet editor (_MS Excel_, _LibreOffice Calc_, etc).
+    1.  Create a new table in your favourite spreadsheet editor (_MS Excel_, _LibreOffice Calc_, etc) or use any text editor with proper data formating. 
     2.  Define what parameters you want to import. To do so, specify these parameters in the cells of the first line in your spreadsheet file. 
         
         Links to articles with detailed information on the supported parameters can be found in the section {% link "CSV format by X-Cart data type" ref_iy9cOdWS %} of this manual.
