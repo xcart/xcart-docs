@@ -24,13 +24,25 @@ By default, X-Cart allows to import the following data:
 * Categories;
 * Classes & Attributes;
 * Product attribute values;
-* Product tabs;
-* Global product tabs;
-* Customers;
-* Customer reviews;
-* Orders.
+* Customers.
 
 Each data type will require a separate import file of a special format. Certain X-Cart addons installed in a store can extend the default import data type list.
+
+{% note info %}
+Certain X-Cart addons installed in a store can extend the default list of data that can be imported. 
+   
+e.g.
+   
+The [Orders Import](https://market.x-cart.com/addons/orders-import.html "Import-Export") addon allows to import the "Orders" data type.
+
+The {% link "Product Reviews" ref_XBriIS6B %} addon - the "Reviews" data type.
+   
+The {% link "Newsletter Subscriptions" ref_2WzsM3Pg %} addon - the "Subscribers" data type.
+   
+The {% link "Make/Model/Year" ref_0Esu2RNW %} addon - the "Products with Make/Model/Year/Engine" and "Make/Model/Year/Engine" listing data types.
+   
+etc.
+{% endnote %}
 
 
 ## How to Import Data into Store?
