@@ -29,11 +29,7 @@ To export data from X-Cart a store admin should:
    * Categories;
    * Classes & Attributes;
    * Product attribute values;
-   * Product tabs; 
-   * Global product tabs; 
-   * Reviews;
-   * Customers;
-   * Orders.
+   * Customers.
    
    Each chosen data type will result in a separate export file of a special format. 
    
@@ -42,7 +38,9 @@ To export data from X-Cart a store admin should:
    
    e.g.
    
-   The {% link "Back in Stock Notifications" ref_1oUpzwSS %} addon extends the list with the "Back-in-stock records" and "Price-drop records" data types.
+   The [Orders Import](https://market.x-cart.com/addons/orders-import.html "Import-Export") addon extends the list with the "Orders" data type.
+   
+   The {% link "Product Reviews" ref_XBriIS6B %} addon - the "Reviews" data type.
    
    The {% link "Newsletter Subscriptions" ref_2WzsM3Pg %} addon - the "Subscribers" data type.
    
@@ -80,5 +78,3 @@ To export data from X-Cart a store admin should:
    * download a files' archive by clicking the **Download all files** button to choose an appropriate archive format (.tgz or .zip);
    * proceed with another export by clicking the **New export** button;
    * delete all export files from the list by clicking the **Delete all files** button.
-   
-   
