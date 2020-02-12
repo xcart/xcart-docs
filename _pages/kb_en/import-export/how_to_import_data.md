@@ -22,7 +22,7 @@ If you run a big store with hundreds of products and decide to update your produ
 
 There are two ways to create a CSV file for import:
 
-1.  Export all the products via the **Catalog > Export** section in the Admin area. In this case, the CSV file will contain information about all the products in your store. This method is useful when you want to update the details of your existing products.
+1.  {% link "Export" ref_57zqrlPA %} all the products via the **Catalog > Export** section in the Admin area. In this case, the CSV file will contain information about all the products in your store. This method is useful when you want to update the details of your existing products.
 2.  Create a CSV file from scratch. This method can be useful, for example, if you need to add new products to your store.
 
 ## Creating a CSV File from Scratch
