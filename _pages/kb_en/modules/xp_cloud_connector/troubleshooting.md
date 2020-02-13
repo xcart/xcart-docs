@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2020-02-13 14:56 +0400'
 identifier: ref_4WvLUEnp
 title: X-Payments Cloud Connector Troubleshooting
-order: 100
+order: 1000
 published: true
 ---
 This section provides info on a known issue in the X-Payment Cloud connector addon.
