@@ -7,6 +7,8 @@ title: X-Payments Cloud Connector Troubleshooting
 order: 100
 published: true
 ---
+This section provides info on a known issue in the X-Payment Cloud connector addon.
+
 **Issue**
 You are unable to sign in to your X-Payments Cloud account. The X-Payments Cloud settings page in your store's Admin area shows the message "Access from unauthorized domain":
 ![xpc_connector_signin_after_pwd_creation.png]({{site.baseurl}}/attachments/ref_4WvLUEnp/xpc_connector_signin_after_pwd_creation.png)
