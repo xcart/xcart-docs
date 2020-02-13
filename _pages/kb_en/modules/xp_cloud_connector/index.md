@@ -18,10 +18,4 @@ _In this section:_
    * {% link "Installing the X-Payments Cloud Connector Addon" ref_2BXoj25Y %}
    * {% link "Connecting Your X-Cart Store to X-Payments Cloud" ref_4kjOv7Ne %}
    * {% link "Getting Started with X-Payments Cloud" ref_497aaUTF %}
-
-
-
-
-
-
-
+   * {% link "X-Payments Cloud Connector Troubleshooting" ref_4WvLUEnp %}
