@@ -10,13 +10,14 @@ description: sale
 version: X-Cart 5.4.1 and higher
 ---
 It's not a secret that discounting is a good way to generate sales. But customers would scarcely notice a discount available if it is not promoted well. The addon [**Sale**](https://market.x-cart.com/addons/sale.html) for X-Cart is a giant piece of help to bring discounts to the fore. 
-  ![541-addon-enabled.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-addon-enabled.png)
 
 {% toc %}
 
 ## Installing and Enabling the "Sale" Addon
 
 Generally, the "Sale" addon comes preinstalled and enabled out-of-the-box. 
+
+![541-addon-enabled.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-addon-enabled.png)
 
 However, if the addon is not installed or has been disabled in your store for some reason follow the guides from the article {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %} to install and activate it.
 
