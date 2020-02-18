@@ -33,7 +33,7 @@ The easiest way to migrate store data is to use the service provided by X-Cart p
 
 1.   Open X-Cart Admin back end –> My addons –> View more addons in Marketplace and search by the search term "migrate". 
 
-2.   Find the addon showing the name of your current shopping cart platform. Presently, we support migration from Magento, WooCommerce, PrestaShop, Shopify, OsCommerce, BigCommerce, Interspire, ZenCart and [more](http://www.x-cart.com/extensions/addons?price=All&price=All&keys=Migrate&sort_by=created&sort_by=created&sort_order=DESC&sort_order=DESC), see the entire list in the Marketplace via the X-Cart admin area. 
+2.   Find the addon showing the name of your current shopping cart platform. Presently, we support migration from Magento, WooCommerce, PrestaShop, Shopify, OsCommerce, BigCommerce, Interspire, ZenCart and [more](https://market.x-cart.com/search/?substring=cart2cart), see the entire list in the Marketplace via the X-Cart admin area. 
 
 3.   Install the addon and register a Cart2Cart account, or sign in if you already have one.
 
