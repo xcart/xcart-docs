@@ -2,7 +2,7 @@
 lang: en
 layout: article_with_sidebar
 updated_at: '2017-11-28 00:01 +0400'
-title: Creating module
+title: Creating a Module
 identifier: ref_G2mlgckf
 order: 100
 categories:
@@ -13,13 +13,13 @@ redirect_from:
 ---
 ## Introduction
 
-This chapter describes the process of creating module for X-Cart 5.
+This chapter describes the process of creating a module for X-Cart 5.
 
 {% toc Table of Contents %}
 
 ## Choosing identifiers
 
-Before you get started, you need to choose two identifiers:
+Before you get started, you will need to choose two identifiers:
 *   developer ID 
 *   module ID
 
@@ -31,8 +31,8 @@ The identifiers must begin with an uppercase letter and may consist of a maximum
 
 ## Manual module creation
 
-1.  Create `classes/XLite/Module/<YOUR-DEVELOPER-ID>/<YOUR-MODULE-ID>/` directory inside your installation. Of course, you should use your own developer and module IDs instead of `<YOUR-DEVELOPER-ID>` and `<YOUR-MODULE-ID>` parts of the path.
-2.  Create `Main.php` file inside `classes/XLite/Module/<YOUR-DEVELOPER-ID>/<YOUR-MODULE-ID>/` folder with the following content: 
+1.  Create a directory `classes/XLite/Module/<YOUR-DEVELOPER-ID>/<YOUR-MODULE-ID>/` inside your installation using your own developer and module IDs instead of the `<YOUR-DEVELOPER-ID>` and `<YOUR-MODULE-ID>` parts of the path.
+2.  Create `Main.php` file inside the folder `classes/XLite/Module/<YOUR-DEVELOPER-ID>/<YOUR-MODULE-ID>/` with the following content: 
 
     ```php
     <?php
@@ -92,19 +92,20 @@ The identifiers must begin with an uppercase letter and may consist of a maximum
     }
     ```
 
-    Change `namespace` section in this file and replace `<YOUR-DEVELOPER-ID>` and `<YOUR-MODULE-ID>` placeholders with your actual developer and module IDs.
-3.  Define the `getDescription()`, `getModuleName()`, `getAuthorName()` methods so they would return your own module description, module name and module author.
-4.  Re-deploy your store via the admin area of your X-Cart:
+    Edit the `namespace` section in this file replacing the `<YOUR-DEVELOPER-ID>` and `<YOUR-MODULE-ID>` placeholders with your actual developer and module IDs.
+3.  Define the `getDescription()`, `getModuleName()`, `getAuthorName()` methods so they will return your own module description, module name and module author.
+4.  Re-deploy your store via the Admin area of your X-Cart:
 ![re-deploy-store.png]({{site.baseurl}}/attachments/ref_TBDhOF2h/re-deploy-store.png)
-Or just remove `<X-Cart>/var/run` directory and refresh any page.
-5.  After the re-deployment process is over, your module will show up among the installed modules in your store's admin area.
+Or just remove the `<X-Cart>/var/run` directory and refresh any page.
+5.  After the re-deployment process is over, your module will show up among the installed modules in your store's Admin area.
 
 ![module-demo.png]({{site.baseurl}}/attachments/ref_TBDhOF2h/module-demo.png)
 
 
-However, this module is not activated yet and you need to enable it, so it would start working.
+However, this module is not activated yet, and you need to enable it before it starts working.
 
-You can download the example of the simplest X-Cart module here:
+You can download an example of the simplest X-Cart module here:
+[https://github.com/xcart/xcart-docs/blob/master/attachments/XCExample-ModuleDemo.5.4.0.1.tgz](https://github.com/xcart/xcart-docs/blob/master/attachments/XCExample-ModuleDemo.5.4.0.1.tgz)
 [https://www.dropbox.com/s/lb9l409kxufp31q/XCExample-ModuleDemo-v5_3_0.tar](https://www.dropbox.com/s/lb9l409kxufp31q/XCExample-ModuleDemo-v5_3_0.tar)
 
 ## Module creation via SDK
