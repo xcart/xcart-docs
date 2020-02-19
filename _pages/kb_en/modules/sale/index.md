@@ -15,7 +15,7 @@ It's not a secret that discounting is a good way to generate sales. But customer
 
 ## Installing and Enabling the "Sale" Addon
 
-Generally, the "Sale" addon comes preinstalled and enabled out-of-the-box. 
+Generally, the "Sale" addon comes preinstalled and enabled out-of-the-box in all editions of X-Cart 5 software. 
 
 ![541-addon-enabled.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-addon-enabled.png)
 
@@ -42,7 +42,8 @@ Here you can define the following settings:
   ![541-cus-sale-block-category-page.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-sale-block-category-page.png)
 
 * **The maximum number of products to be displayed in the "Products on sale" block** : Set the number of products to be displayed in a line in the "Sale" block in the storefront.
-* **How to handle multiple sale discounts** : Choose the mode to calculate and display discounts in your store. The available options are:
+
+* **How to handle multiple sale discounts** : Choose the mode to calculate and display discounts in your store. The available options are as follows:
   * Apply maximum discount (default value) : The maximum available discount rate will be applied to and displayed for a product in the storefront.
   * Apply minimum discount : The minimum available discount rate will be applied to and displayed for a product in the storefront.
   * Combine discounts : All available discounts will apply to a product with the total discount rate displayed in the storefront. 
@@ -51,7 +52,15 @@ Here you can define the following settings:
       <div class="column" markdown="span">![541-cus-apply-min-discount-on.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-apply-min-discount-on.png)</div>
       <div class="column" markdown="span">![541-cus-combine-discounts-on.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-combine-discounts-on.png)</div>
     </div>
-* **How to display links to sale offers in the category menu** : Choose the mode to display the links to sale offers available in your store. This mode is applicable only to the sale offers created with the "List sale products in a separate section" option enabled (see "Setting Sale Price for Products in Bulk").
+
+* **How to display links to sale offers in the category menu** : Choose the mode to display the links to sale offers available in your store in the customer storefront. This mode is applicable only to the sale offers created with the "List sale products in a separate section" option enabled (see "Setting Sale Price for Products in Bulk"). The available options are as follows:
+  * Do not diplay
+  * Display under categories list (default value)
+    ![541-cus-display-under-categories-list.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-display-under-categories-list.png)
+
+  * Display above categories list
+    ![541-cus-display-above-categories-list.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-display-above-categories-list.png)
+
 * **Allow vendors to manage sale discounts for their own products** (Multivendor edition only) : The setting defines if the vendors are permitted to create new sale offers for their own products and edit existing sale offers created by a store admin. 
 
 ## Configuring Sale Prices
