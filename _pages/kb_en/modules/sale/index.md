@@ -74,7 +74,35 @@ The "Sale" addon allows to set sale prices for single products, including produc
 
 ## Setting Sale Price for a Single Product
 
+{% note warning %}
 A sale price set for a single product overweights all other possible discounts that may be applicable. 
+{% endnote %}
+
+To set a sale price for a single product:
+
+1. Select a product in a product listing page (**Catalog** -> **Products**) in your store Admin area and open the product detais page for editing.
+2. Scroll down the page and locate the 'Prices & Inventory' section.
+   
+   Here you need to enable the "Sale" checkbox for the sale price setting fields to become visible:
+   ![541-product-details-sale-checkbox.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-details-sale-checkbox.png)
+3. Set a sale price either in absolute value or percentagewise:
+   ![541-product-details-sale-selector.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-details-sale-selector.png)
+4. Click **Update product** to save changes.
+
+Products with a sale price enabled will be marked with 'Sale' tag on the product listing pages in the store Admin area.
+
+![541-product-list-sale.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-list-sale.png)
+
+{% note info %}
+Please do mind that the product listing pages display the default product price. The discount values applied to a product can be checked on the product detail pages only.
+{% endnote %}
+
+As for the storefront, all discounted products are marked with a special '% OFF' discount label on the listing and a product details page. The product details page also shows the original (default) product price.
+
+<div class="ui stackable two column grid">
+   <div class="column" markdown="span"><b>Product listing page</b>![541-cus-single-product-sale-price-listing.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-single-product-sale-price-listing.png)</div>
+   <div class="column" markdown="span"><b>Product details page</b>![541-cus-single-product-sale-price-details.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-single-product-sale-price-details.png)</div>
+</div>
 
 ### Setting Sale Price for Products with Variants
 
