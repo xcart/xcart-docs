@@ -5,7 +5,7 @@ updated_at: '2018-01-23 17:37 +0400'
 identifier: ref_7tBJ8Yqo
 title: Sale Addon (under construction)
 order: 229
-published: true
+published: false
 description: sale
 version: X-Cart 5.4.1 and higher
 ---
@@ -89,7 +89,7 @@ To set a sale price for a single product:
    ![541-product-details-sale-selector.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-details-sale-selector.png)
 4. Click **Update product** to save changes.
 
-Products with a sale price enabled will be marked with 'Sale' tag on the product listing pages in the store Admin area.
+Products with a sale price enabled are marked with a 'Sale' tag on the product listing pages in the store Admin area.
 
 ![541-product-list-sale.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-list-sale.png)
 
