@@ -52,7 +52,7 @@ Here you can define the following settings:
       <div class="column" markdown="span">![541-cus-combine-discounts-on.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-combine-discounts-on.png)</div>
     </div>
 
-* **How to display links to sale offers in the category menu** : Choose the mode to display the links to sale offers available in your store in the customer storefront. This mode is applicable only to the sale offers created with the "List sale products in a separate section" option enabled (see "Setting Sale Price for Products in Bulk"). The available options are as follows:
+* **How to display links to sale offers in the category menu** : Choose the mode to display the links to sale offers available in your store in the customer storefront. The available options are as follows:
   * Do not diplay;
   * Display under categories list (default value);
   * Display above categories list.
@@ -61,16 +61,20 @@ Here you can define the following settings:
       <div class="column" markdown="span"><b>Display under categories list</b>![541-cus-display-under-categories-list.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-display-under-categories-list.png)</div>
       <div class="column" markdown="span"><b>Display above categories list</b>![541-cus-display-above-categories-list.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-display-above-categories-list.png)</div>
     </div>
+   
+  {% note info %}
+  This mode is applicable only to the sale offers created with the "List sale products in a separate section" option enabled (see "Setting Sale Price for Products in Bulk").
+  {% endnote %}
 
 * **Allow vendors to manage sale discounts for their own products** (Multivendor edition only) : The setting defines if the vendors are permitted to create new sale offers for their own products and edit existing sale offers created by a store admin. 
 
 # Configuring Sale Prices
 
-The "Sale" addon allows to configure special sale prices for single products, for products with product variants, for random products in bulk and even for entire categories and subcategories including all products that belong to them.
-
-The tools used to configure sale prices for single products and groups of products
+The "Sale" addon allows to set sale prices for single products, including products with product variants, and configure discounts for the groups of products, including random products in bulk and entire categories and subcategories with all products that belong to them.
 
 ## Setting Sale Price for a Single Product
+
+A sale price set for a single product overweights all other possible discounts that may be applicable. 
 
 ### Setting Sale Price for Products with Variants
 
