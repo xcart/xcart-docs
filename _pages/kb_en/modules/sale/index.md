@@ -13,7 +13,7 @@ It's not a secret that discounting is a good way to generate sales. But customer
 
 {% toc %}
 
-## Installing and Enabling the "Sale" Addon
+# Installing and Enabling the "Sale" Addon
 
 Generally, the "Sale" addon comes preinstalled and enabled out-of-the-box in all editions of X-Cart 5 software. 
 
@@ -23,8 +23,7 @@ However, if the addon is not installed or has been disabled in your store for so
 
 Once the addon has been installed and enabled it adds a possibility for a store admin to enable sale prices for:
 * single products, including products with variants;
-* random products in bulk; 
-* products from certain categories and subcategories.
+* product groups, including random products in bulk and products from certain categories and subcategories.
 
 ## Configuring the "Sale" Addon
 
@@ -65,13 +64,18 @@ Here you can define the following settings:
 
 ## Configuring Sale Prices
 
-### Setting Sale Price for a Single Product
+The "Sale" addon allows to configure special sale prices for single products, for products with product variants, for random products in bulk and even for entire categories and subcategories including all products that belong to them.
 
-### Setting Sale Price for Products in Bulk
+The tools used to configure sale prices for single products and groups of products
+
+### Setting Sale Price for a Single Product
 
 ### Setting Sale Price for Products with Variants
 
+### Setting Sale Price for Groups of Products
 
+
+## Bulk Editing Sale Prices
 
 Note that if the addon "Sale" is used alongside the addon "Wholesale", sale prices overrride the wholesale prices and make the later disabled.
 
