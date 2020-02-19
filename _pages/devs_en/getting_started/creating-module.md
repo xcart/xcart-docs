@@ -105,8 +105,9 @@ Or just remove the `<X-Cart>/var/run` directory and refresh any page.
 However, this module is not activated yet, and you need to enable it before it starts working.
 
 You can download an example of the simplest X-Cart module here:
-[https://github.com/xcart/xcart-docs/blob/master/attachments/XCExample-ModuleDemo.5.4.0.1.tgz](https://github.com/xcart/xcart-docs/blob/master/attachments/XCExample-ModuleDemo.5.4.0.1.tgz)
-[https://www.dropbox.com/s/lb9l409kxufp31q/XCExample-ModuleDemo-v5_3_0.tar](https://www.dropbox.com/s/lb9l409kxufp31q/XCExample-ModuleDemo-v5_3_0.tar)
+
+* [https://github.com/xcart/xcart-docs/blob/master/attachments/XCExample-ModuleDemo.5.4.0.1.tgz](https://github.com/xcart/xcart-docs/blob/master/attachments/XCExample-ModuleDemo.5.4.0.1.tgz)
+* [https://www.dropbox.com/s/lb9l409kxufp31q/XCExample-ModuleDemo-v5_3_0.tar](https://www.dropbox.com/s/lb9l409kxufp31q/XCExample-ModuleDemo-v5_3_0.tar)
 
 ## Module creation via SDK
 
