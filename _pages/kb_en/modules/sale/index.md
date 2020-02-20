@@ -80,16 +80,16 @@ A sale price set for a single product overrides all other possible group discoun
 
 To set a sale price for a single product:
 
-1. Select a product in a product listing page (**Catalog** -> **Products**) in your store Admin area and open the product detais page for editing.
+1. Select a product on a product listing page (**Catalog** -> **Products**) in your store Admin area and open the product detais page for editing.
 2. Scroll down the page and locate the 'Prices & Inventory' section.
    
    Here you need to enable the "Sale" checkbox for the sale price setting fields to become visible:
    ![541-product-details-sale-checkbox.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-details-sale-checkbox.png)
 3. Set a sale price either in absolute value or percentagewise:
    ![541-product-details-sale-selector.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-details-sale-selector.png)
-   
+   {% note info %}
    The sale price defined for a product will also apply to all product variants (if any) in case no special sale price is configured for them.
-   
+   {% endnote %}
 4. Click **Update product** to save changes.
 
 Products with a sale price enabled are marked with a 'Sale' tag on the product listing pages in the store Admin area.
@@ -113,10 +113,10 @@ As for the storefront, all discounted products are marked with a special '% OFF'
 A sale price set for a product variant overrides all other possible group and single product discounts that may be applicable to the parent-product. 
 {% endnote %}
 
-The below instructions presume that you have product variants created in the store as described in {% link "Product Variants" ref_4OTLafuC %}
+The below instructions presume that you have product variants created in the store as described in {% link "Product Variants" ref_4OTLafuC %}.
 
 To set a sale price for a product variant:
-1. Select a product in a product listing page (**Catalog** -> **Products**) in your store Admin area and open the product detais page for editing.
+1. Select a product on a product listing page (**Catalog** -> **Products**) in your store Admin area and open the product detais page for editing.
 2. Open the 'Variants' tab for editing.
     
     Here you need to refer to the "Sale" column to add possible sale prices to product variants:
