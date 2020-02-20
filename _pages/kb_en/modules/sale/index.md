@@ -5,7 +5,7 @@ updated_at: '2018-01-23 17:37 +0400'
 identifier: ref_7tBJ8Yqo
 title: Sale Addon (under construction)
 order: 229
-published: false
+published: true
 description: sale
 version: X-Cart 5.4.1 and higher
 ---
@@ -75,7 +75,7 @@ The "Sale" addon allows to set sale prices for single products, including produc
 ## Setting Sale Price for a Single Product
 
 {% note warning %}
-A sale price set for a single product overweights all other possible discounts that may be applicable. 
+A sale price set for a single product overrides all other possible group discounts that may be applicable to this product. 
 {% endnote %}
 
 To set a sale price for a single product:
@@ -87,6 +87,9 @@ To set a sale price for a single product:
    ![541-product-details-sale-checkbox.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-details-sale-checkbox.png)
 3. Set a sale price either in absolute value or percentagewise:
    ![541-product-details-sale-selector.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-details-sale-selector.png)
+   
+   The sale price defined for a product will also apply to all product variants (if any) in case no special sale price is configured for them.
+   
 4. Click **Update product** to save changes.
 
 Products with a sale price enabled are marked with a 'Sale' tag on the product listing pages in the store Admin area.
@@ -94,7 +97,7 @@ Products with a sale price enabled are marked with a 'Sale' tag on the product l
 ![541-product-list-sale.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-list-sale.png)
 
 {% note info %}
-Please do mind that the product listing pages display the default product price. The discount values applied to a product can be checked on the product detail pages only.
+Please do mind that the product listing pages in the store Admin area display the default product price. The discount values applied to a product can be checked on the product detail pages only.
 {% endnote %}
 
 As for the storefront, all discounted products are marked with a special '% OFF' discount label on the listing and a product details page. The product details page also shows the original (default) product price.
@@ -106,7 +109,26 @@ As for the storefront, all discounted products are marked with a special '% OFF'
 
 ### Setting Sale Price for Products with Variants
 
+{% note warning %}
+A sale price set for a product variant overrides all other possible group and single product discounts that may be applicable to the parent-product. 
+{% endnote %}
+
+The below instructions presume that you have product variants created in the store as described in {% link "Product Variants" ref_4OTLafuC %}
+
+To set a sale price for a product variant:
+1. Select a product in a product listing page (**Catalog** -> **Products**) in your store Admin area and open the product detais page for editing.
+2. Open the 'Variants' tab for editing.
+    
+    Here you need to refer to the "Sale" column to add possible sale prices to product variants:
+    ![541-product-variant-sale.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-variant-sale.png)
+3. Set a sale price either in absolute value or percentagewise. 
+4. Click **Save changes** to submit the new configuration.
+
+For products with product variants, the product listing and product details pages in the storefront will display a discount set on the default product variant. The rest of the discounts (if any) will be displayed when viewing the available product variants on a product details page.
+
 ## Setting Sale Price for Groups of Products
+
+
 
 ### Random Product Groups
 ### Product Categories ans Subcategories
