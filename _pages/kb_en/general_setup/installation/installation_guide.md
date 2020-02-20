@@ -370,6 +370,7 @@ Examples:
 
     mean that there is something wrong with your MySQL server settings. You need to send such error message to your hosting team and ask them to fix it.
 
+<a id="permissionchecking-failed"></a>
 ### 3. Permission Checking Failed
 
 Such error messages may look like this:
