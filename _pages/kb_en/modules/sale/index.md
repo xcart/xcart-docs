@@ -5,7 +5,7 @@ updated_at: '2018-01-23 17:37 +0400'
 identifier: ref_7tBJ8Yqo
 title: Sale Addon (under construction)
 order: 229
-published: true
+published: false
 description: sale
 version: X-Cart 5.4.1 and higher
 ---
