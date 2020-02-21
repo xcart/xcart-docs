@@ -126,6 +126,12 @@ To set a sale price for a product variant:
 
 For products with product variants, the product listing and product details pages in the storefront will display a discount set on the default product variant. The rest of the discounts (if any) will be displayed when viewing the available product variants on a product details page.
 
+<div class="ui stackable three column grid">
+      <div class="column" markdown="span"><b>Storefront product listing page</b>![541-cus-listing-page-variant-discount.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-listing-page-variant-discount.png)</div>
+      <div class="column" markdown="span"><b>Storefront product details page. Default variant.</b>![541-cus-details-page-default-variant.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-details-page-default-variant.png)</div>
+      <div class="column" markdown="span"><b>Storefront product details page. Other variant.</b>![541-cus-details-page-variant.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-details-page-variant.png)</div>
+</div>
+
 ## Setting Sale Price for Groups of Products
 
 
