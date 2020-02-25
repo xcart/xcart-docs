@@ -21,7 +21,7 @@ Generally, the "Sale" addon comes preinstalled and enabled out-of-the-box in all
 
 However, if the addon is not installed or has been disabled in your store for some reason follow the guides from the article {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %} to install and activate it.
 
-Once the addon has been installed and enabled it adds a possibility for a store admin to enable sale prices for:
+Once the addon has been installed and enabled it adds a possibility for a store admin to configure sale prices for:
 * single products, including products with variants;
 * product groups, including random products in bulk and products from certain categories and subcategories.
 
@@ -138,9 +138,7 @@ The "Sale" addon allows to configure discounts for the groups of products (or gr
 
 Group discounts can have an expiration period and can be displayed in the storefront on the pages specially created for them.  
 
-### Random Product Groups
-
-Random product group discounts can be used when you need to put on sale products from different categories of your store. 
+### Creating a Sale Offer
 
 To create a sale offer:
 
@@ -170,14 +168,65 @@ To create a sale offer:
      * **Meta description** : Use this field to specify the description to be used in the description META tag on the sale offer page (for SEO purposes).
      * **Open Graph meta tags** : The custom META tags for sharing the sale offer page on Facebook.
    * **Discount amount** : Set a discount either in absolute value or percentagewise.
+   * **Apply sale discount to wholesale prices** (only if the {% link "Wholesale" ref_ttZa4qgu %} addon is enabled): This trigger allows to include products with wholesale prices into an offer. The offer will be valid for wholesale prices only if the discount amount is set percentagewise. 
    * **Active from** / **Active till** : Set the sale offer validity period start and expiration dates. 
    * **Valid only for specific products** : This trigger allows to enable the sale offer for a group of random products. The default value is "NO".
      
-      Set the trigger to "YES" to ebale the offer for a group of random products (this hides the following setting options related to categories and product classes). 
-   * **Memberships** : Use this field to limited the sale offer to the customers with membership levels specified here.
+      If set to "YES" the trigger hides the following "Categories" and "Product classes" settings.
+   * **Categories** : Use this field to specify the name(s) of the categories and subcategories the discount is applicable to.
+   * **Product classes** : Use this field to specify the product class(es) the discount is applicable to. 
+   * **Memberships** : Use this field to limit the sale offer to the customers with membership levels specified here.
+
+4. Click the **Create** button to add an offer to the list.
      
 
-### Product Categories ans Subcategories
+### Sale Offer for Random Product Groups
+
+Random product group discounts can be used when you need to put on sale products from different categories of your store. Special discount on a group of ramdom products may be the very case when a store admin may need to create a unique page in the storefront where the discounted products will be promoted.
+
+Hence, when creating a sale offer for a group of random sproduct pay special attention to the following settings described in ### Creating a Sale Offer: 
+* **List sale products in a separate section** : Enable the option by setting the trigger to "YES". Fill in the fields it expands:
+  ![541-sale-products-in-separate-section-yes.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-in-separate-section-yes.png)
+* **Valid only for specific products** : Enable the option by setting the trigger to "YES".
+
+After an offer with the settings specified above has been created, it adds a **Products** tab to the sale offer page where a store admin can select products the discount will apply to. 
+
+To apply an offer to products:
+1. Open the **Products** tab of a sale offer page:
+   ![541-sale-products-tab.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-tab.png)
+2. Click **Add products** to see the list of products:
+   ![541-sale-products-add.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-add.png)
+3. Select the products from the pop-up:
+   ![541-add-products-popup-1.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-add-products-popup-1.png)
+4. Click **Add products** to apply a discount to the products selected.
+
+
+### Sale Offer for Product Categories, Subcategories and Product Classes
+
+The **Sale** section of your store Admin area (**Discounts** -> **Sale**) can also be used to put on sale the entire categories and/or subcategories including all products that belong to them and even product classes and the products assigned to them.
+
+To put caregories and product classes on sale:
+1. Open the **Sale** section of the store Addmin Area (**Discounts** -> **Sale**).
+   ![541-sale-page-admin.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-page-admin.png)
+
+2. Use the **New sale** button to create a sale offer.
+   
+3. A page called "New sale" will be opened for you to create an offer.
+   ![541-new-sale-page.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-new-sale-page.png)
+   
+   Here you will need to fill in the following fields:
+   * **Vendor** (for Multivendor edition only) : List the vendors that will have a permission to apply this sale offer to their products. If a sale offer should not be available to vendors leave this field empty. 
+   * **Name** : Specify the name of a sales offer here. 
+   * **Enabled** : Use this trigger to activate/disactivate a sales offer. The default value is "YES".
+   * **List sale products in a separate section** : This trigger allows to create a special page for a sale offer that will be displayed in the categories list in the storefront. The default value is "NO".
+     {% note info %}
+     Usually there is no need to create a special page in the storefront if a whole category or subcategory is out on sale. 
+   * **Discount amount** : Set a discount either in absolute value or percentagewise.
+   * **Active from** / **Active till** : Set the sale offer validity period start and expiration dates. 
+   * **Valid only for specific products** : This trigger allows to enable the sale offer for a group of random products. The default value is "NO" (the very value that we need for the case).
+   
+      
+   * **Memberships** : Use this field to limit the sale offer to the customers with membership levels specified here.
 
 
 ## Bulk Editing Sale Prices
