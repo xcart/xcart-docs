@@ -5,7 +5,7 @@ updated_at: '2018-01-23 17:37 +0400'
 identifier: ref_7tBJ8Yqo
 title: Sale Addon
 order: 229
-published: false
+published: true
 description: sale
 ---
 It's not a secret that discounting is a good way to generate sales. But customers would scarcely notice a discount available if it is not promoted well. The addon [**Sale**](https://market.x-cart.com/addons/sale.html) for X-Cart is a giant piece of help to bring discounts to the fore. 
