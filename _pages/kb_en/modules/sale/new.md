@@ -228,6 +228,7 @@ To put caregories and product classes on sale:
    * **List sale products in a separate section** : This trigger allows to create a special page for a sale offer that will be displayed in the categories list in the storefront. The default value is "NO".
      {% note info %}
      Usually there is no need to create a special page in the storefront if a whole category or subcategory is out on sale. 
+     {% endnote %}
    * **Discount amount** : Set a discount either in absolute value or percentagewise.
    * **Active from** / **Active till** : Set the sale offer validity period start and expiration dates. 
    * **Valid only for specific products** : This trigger allows to enable the sale offer for a group of random products. The default value is "NO" (the very value that we need for the case).
