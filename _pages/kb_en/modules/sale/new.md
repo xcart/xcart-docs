@@ -3,9 +3,10 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2020-02-25 14:41 +0400'
 identifier: ref_5A6RUbG6
-title: Sale for X-Cart 5.4.1.x
+title: Sale (NEW. UNDER CONSTRUCTION)
 order: 110
-published: false
+published: true
+version: 'X-Cart 5.4.1.x '
 ---
 It's not a secret that discounting is a good way to generate sales. But customers would scarcely notice a discount available if it is not promoted well. The addon [**Sale**](https://market.x-cart.com/addons/sale.html) for X-Cart is a giant piece of help to bring discounts to the fore. 
 
@@ -243,4 +244,3 @@ _Related pages_:
 
 *   {% link "Setting up sale and wholesale pricing in X-Cart 5" ref_g2dhS8uC %} (X-Cart 5.1.x)
 *   {% link "Setting up Wholesale Prices and Minimum Purchase Quantites for Different Membership Levels" ref_ttZa4qgu %}
-
