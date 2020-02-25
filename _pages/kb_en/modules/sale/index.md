@@ -184,7 +184,7 @@ To create a sale offer:
 
 Random product group discounts can be used when you need to put on sale products from different categories of your store. Special discount on a group of ramdom products may be the very case when a store admin may need to create a unique page in the storefront where the discounted products will be promoted.
 
-Hence, when creating a sale offer for a group of random sproduct pay special attention to the following settings described in ### Creating a Sale Offer: 
+Hence, when creating a sale offer for a group of random products pay special attention to the following settings described in ### Creating a Sale Offer: 
 * **List sale products in a separate section** : Enable the option by setting the trigger to "YES". Fill in the fields it expands:
   ![541-sale-products-in-separate-section-yes.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-in-separate-section-yes.png)
 * **Valid only for specific products** : Enable the option by setting the trigger to "YES".
@@ -199,6 +199,14 @@ To apply an offer to products:
 3. Select the products from the pop-up:
    ![541-add-products-popup-1.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-add-products-popup-1.png)
 4. Click **Add products** to apply a discount to the products selected.
+
+All products with the sale offer enabled will have it marked on the products details page and will be recorded on the sale offers listing page.
+<div class="ui stackable three column grid">
+  <div class="column" markdown="span"><b>Product details page</b>![541-products-details-prices-inventory.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-products-details-prices-inventory.png)</div>
+  <div class="column" markdown="span"><b>Sale offers listing page</b>![541-sales-list-products.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sales-list-products.png)</div>
+</div>
+
+
 
 
 ### Sale Offer for Product Categories, Subcategories and Product Classes
