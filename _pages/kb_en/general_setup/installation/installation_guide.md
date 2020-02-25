@@ -341,6 +341,7 @@ In case the installation wizard is run not for the first time the system will re
 
 The Auth Code is stored in the etc/config.php file of an X-Cart package that has been downloaded to the server. Check for the `auth_code` line there and copy the value to paste it on the License Agreement page.
 
+<a id="problems-with-connection-to-database"></a>
 ### 2\. Problems with Connection to Database
 
 Such problems generally mean that MySQL credentials were specified incorrectly or MySQL server/database is incorrectly set up.
@@ -417,6 +418,7 @@ There are several examples of error message for better understanding of the proc
 
     this instruction means that all users must have readable and writeable permissions (`chmod 0666`) to all files `(-type f`) inside `/Applications/MAMP/htdocs/xcart/var` folder.
 
+<a id="disabled-functions"></a>
 ### 4. Disabled Functions
 
 Your hosting company may disable several default PHP functions and X-Cart 5 cannot work while they are disabled. In this case, you will get the error message like this:
@@ -429,6 +431,7 @@ The list of disable functions can be different.
 
 In order to solve this issue, you should send the list of disabled PHP functions (`phpinfo, escapeshellcmd, escapeshellarg, openlog, syslog, exec, popen` from the example above) to your hosting team and ask to enable them in your account.
 
+<a id="disabled-php-extensions"></a>
 ### 5\. Disabled PHP Extensions
 
 If you are getting an error message like this: 
@@ -447,7 +450,7 @@ If you are on local machine, you need to edit your php.ini file, uncomment the f
 it should become
 extension=pdo_mysql.so
 ```
-
+<a id="https-bouncer-is-not-installed"></a>
 ### 6\. HTTPS Bouncer is Not Installed
 
 If you are getting an error message like this:
