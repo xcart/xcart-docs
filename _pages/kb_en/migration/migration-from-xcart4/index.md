@@ -12,8 +12,6 @@ redirect_from:
     modules/xc4_to_xc5_migration_wizard/how_xc4_to_xc5_migration_wizard_works.html
   - >-
     modules/xc4_to_xc5_migration_wizard/xc4_to_xc5_migration_wizard_system_requirements_and_installation.html
-  - >-
-    modules/xc4_to_xc5_migration_wizard/using_the_xc4_to_xc5_migration_wizard.html
   - general_setup/migration/migration-from-xcart4-to-xcart5.html
   - /general_setup/migration/migration-from-xcart4/
 ---
