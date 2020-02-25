@@ -174,7 +174,15 @@ Migration Wizard does not do the resizing of images due to the fact that you may
 This is the final step of the process, when your data has been successfully migrated.
 ![mw_14.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_14.png)
 
-If you experience problems that the process freezes in the middle of migration, {% link "increase your server time limit" ref_19hsx4O9 %} or decrease {% link "**migration_chunk_length** setting" ref_1IAKq4cq %} in `etc/config.local.php`.
+<a id="add-label-to-signin-form"></a>
+   
+   {% note info %}
+   Please keep in mind that user passwords are not stored in the database. Hence the passwords cannot be transferred safely during the migration process, and all the users will have to reset their passwords using the **Forgot password?** option on their next login to the X-Cart 5 store. 
+   
+   We recommend adding a special banner to the X-Cart 5 **Sign in** popup prompting the users to restore their password after the store migration. A sample custom addon that will add a label to the sign-in form can be downloaded [here](https://www.dropbox.com/s/pydh4uv15x7m783/XCMod-RestorePasswordAfterMigration-v5_3_0.tar?dl=0 "Using the Addon "XC4 to XC5 Migration wizard"").
+   {% endnote %}
+   
+In some cases things may not go as smoothly as one would hope during the data migration process. If you experience problems like the process freezing in the middle of migration, {% link "increase your server time limit" ref_19hsx4O9 %} or decrease the {% link "**migration_chunk_length** setting" ref_1IAKq4cq %} in `etc/config.local.php`.
 
 If you want to do another migration (e.g. to finish the migration after testing it in the Demo mode), you can restart the migration wizard using the **Restart wizard** button:
 ![mw_15.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_15.png)
