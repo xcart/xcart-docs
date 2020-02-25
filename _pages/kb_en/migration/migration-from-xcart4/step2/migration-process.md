@@ -9,6 +9,8 @@ published: true
 redirect_from:
   - /general_setup/migration/migration-from-xcart4/step-2-migration-process.html
   - /migration/migration-from-xcart4/step-2-migration-process.html
+  - >-
+    /modules/xc4_to_xc5_migration_wizard/using_the_xc4_to_xc5_migration_wizard.html
 ---
 Once the _X-Cart v4 to v5 Data Migration Wizard_ addon has been installed, you will see a new 'Migration wizard' section at the top of the X-Cart 5 Admin area menu:
 ![mw_link.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_link.png)
