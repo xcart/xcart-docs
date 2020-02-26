@@ -285,10 +285,10 @@ Sale offers can be editied, enabled/disabled and deleted on the sales listing pa
    * click on a **Trash** icon opposite the offer;
    * click **Save changes**.
    
-For easy accessing a sale offer editing page, it is possible to click the respective sale offer link in the lable displayed for applicable products or categories on both products and categories listing pages.
+For easy accessing a sale offer editing page, it is possible to click the respective sale offer link in the label displayed for applicable products or categories on both products and categories listing pages.
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span"><b>Product listing page</b>![541-product-listing-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-product-listing-page.png)</div>
+  <div class="column" markdown="span"><b>Product listing page</b>![541-products-listing-links.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-products-listing-links.png)</div>
  <div class="column" markdown="span"><b>Category listing page</b>![541-categories-listing-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-categories-listing-page.png)</div>
 </div>
 
