@@ -216,36 +216,29 @@ All products that have a sale offer enabled for them will will be recorded on th
   <div class="column" markdown="span"><b>Product details page</b>![541-products-details-prices-inventory.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-products-details-prices-inventory.png)</div>
 </div>
 
-
-
-
 ### Sale Offer for Product Categories, Subcategories and Product Classes
 
-The **Sale** section of your store Admin area (**Discounts** -> **Sale**) can also be used to put on sale the entire categories and/or subcategories including all products that belong to them and even product classes and the products assigned to them.
+The Sale addon makes it possible to differentiate sale offers by specific product categories and/or subcategories as well as by product classes. 
 
-To put caregories and product classes on sale:
-1. Open the **Sale** section of the store Addmin Area (**Discounts** -> **Sale**).
-   ![541-sale-page-admin.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-page-admin.png)
+When creating a sale offer for a product (sub)category and/or product class a store admin will need to pay special attention to the following settings described in [above](https://kb.x-cart.com/modules/sale/new.html#creating-a-sale-offer "Sale (NEW. UNDER CONSTRUCTION)"):
 
-2. Use the **New sale** button to create a sale offer.
-   
-3. A page called "New sale" will be opened for you to create an offer.
-   ![541-new-sale-page.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-new-sale-page.png)
-   
-   Here you will need to fill in the following fields:
-   * **Vendor** (for Multivendor edition only) : List the vendors that will have a permission to apply this sale offer to their products. If a sale offer should not be available to vendors leave this field empty. 
-   * **Name** : Specify the name of a sales offer here. 
-   * **Enabled** : Use this trigger to activate/disactivate a sales offer. The default value is "YES".
-   * **List sale products in a separate section** : This trigger allows to create a special page for a sale offer that will be displayed in the categories list in the storefront. The default value is "NO".
-     {% note info %}
-     Usually there is no need to create a special page in the storefront if a whole category or subcategory is out on sale. 
-     {% endnote %}
-   * **Discount amount** : Set a discount either in absolute value or percentagewise.
-   * **Active from** / **Active till** : Set the sale offer validity period start and expiration dates. 
-   * **Valid only for specific products** : This trigger allows to enable the sale offer for a group of random products. The default value is "NO" (the very value that we need for the case).
-   
-      
-   * **Memberships** : Use this field to limit the sale offer to the customers with membership levels specified here.
+* **List sale products in a separate section** : This option should be set to "NO" if a sale offer is created for a category or subcategory, as it already has a separate page in the storefront, and may be set to "YES" is a sale offer is created for a product class.
+  
+  If this option is set to "YES", it is necessary to fill in all the fields it expands:
+  ![541-sale-products-in-separate-section-yes.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-in-separate-section-yes.png)
+* **Valid only for specific products** : This option should be set to "NO" to make the **Categories** and **Product classes** properties visible.
+* **Categories** : Use this field to define the categories and/or subcategories the offer is applicable to.
+* **Product classes** : Use this field to define the product classes the offer is applicable to.
+
+A sale offer active for specific categories and/or subcategories will be displayed for applicable (sub)categories on the category listing page. The discount will also be displayed for products from the categories and subcategories applicable on the product details page and product listing page in the store Admin area. 
+
+A sale offer created for product classes will be displayed for the products of the applicable product class on the product details page and product listing page in the store Admin area. 
+
+<div class="ui stackable three column grid">
+  <div class="column" markdown="span"><b>Category listing page</b></div>
+  <div class="column" markdown="span"><b>Product listing page</b></div>
+  <div class="column" markdown="span"><b>Product details page</b></div>
+</div>
 
 
 ## Bulk Editing Sale Prices
