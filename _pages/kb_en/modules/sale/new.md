@@ -205,7 +205,7 @@ If you add several sale offers, it makes sense to re-calculate quick data for al
 
 Random product group discounts can be used when you need to put on sale products from different categories of your store. Special discount on a group of ramdom products may be the very case when a store admin may need to create a unique page in the storefront where the discounted products will be promoted.
 
-If this is the case, pay special attention to the following settings described in [above](https://kb.x-cart.com/modules/sale/new.html#creating-a-sale-offer "Sale (NEW. UNDER CONSTRUCTION)") when creating a sale offer for a group of random products: 
+If this is the case, pay special attention to the following settings described [above](https://kb.x-cart.com/modules/sale/new.html#creating-a-sale-offer "Sale (NEW. UNDER CONSTRUCTION)") when creating a sale offer for a group of random products: 
 
 * **List sale products in a separate section** : Enable the option by setting the trigger to "YES". Fill in the fields it expands:
   ![541-sale-products-in-separate-section-yes.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-in-separate-section-yes.png)
@@ -233,7 +233,7 @@ All products that have a sale offer enabled for them will will be recorded on th
 
 The Sale addon makes it possible to differentiate sale offers by specific product categories and/or subcategories as well as by product classes. 
 
-When creating a sale offer for a product (sub)category and/or product class a store admin will need to pay special attention to the following settings described in [above](https://kb.x-cart.com/modules/sale/new.html#creating-a-sale-offer "Sale (NEW. UNDER CONSTRUCTION)"):
+When creating a sale offer for a product (sub)category and/or product class a store admin will need to pay special attention to the following settings described [above](https://kb.x-cart.com/modules/sale/new.html#creating-a-sale-offer "Sale (NEW. UNDER CONSTRUCTION)"):
 
 * **List sale products in a separate section** : This option should be set to "NO" if a sale offer is created for a category or subcategory, as it already has a separate page in the storefront, and may be set to "YES" is a sale offer is created for a product class.
   
@@ -259,16 +259,35 @@ After sale prices have been configured for single products and/or product varian
 
 ## Bulk Editing Sale Prices 
 
-Alongside the product details page, sale prices configured for single products can be re-configured or disabled using the bulk editing tool on the product listing page in the store Admin area. This tool also allows to assign sale prices to single products in bulk.
+Alongside the product details page, sale prices configured for single products can be re-configured or disabled using the bulk editing tool on the product listing page in the store Admin area. This tool also allows assigning sale prices to single products in bulk.
 
-in order to use the bulk edit tool:
-
-1. Open the product listing page in your store Admin area.
-2. Select products that need to be editied.
-3. Click the 
-
+More details on using the bulk editing tool see in {% link "Bulk Editing" ref_1kSYmXQn %}.
 
 ## Managing Sale Offers
+
+Sale offers can be editied, enabled/disabled and deleted on the sales listing page in the store Admin area (**Discounts** -> **Sale**).
+
+1. To edit the offer properties:
+   * click on the offer name to open the offer details page:
+   * add the necessary changes;
+   * click **Update**.
+2. To enable/disable an offer:
+   * switch the ON/OFF icon opposite the offer on the listing page;
+     OR
+   * open the offer details page and edit the value of the **Enabled** property;
+   * click **Save changes**.
+3. To delete an offer:
+   * click on a **Trash** icon opposite the offer;
+   * click **Save changes**.
+   
+For easy accessing a sale offer editing page, it is possible to click the respective sale offer link in the lable displayed for applicable products or categories on both products and categories listing pages.
+
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><b>Product listing page</b>![541-product-listing-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-product-listing-page.png)</div>
+ <div class="column" markdown="span"><b>Category listing page</b>![541-categories-listing-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-categories-listing-page.png)</div>
+</div>
+
+
 
 _Related pages_:
 
