@@ -189,7 +189,7 @@ To create a sale offer:
   
 After a sale offer has been created it is necessary to re-calculate the store quick data to ensure the offer becomes visible in product filters and the prices are displayed correctly. 
 
-For this purpose, use either the **Re-calculate quick data** button at the bottom or the prompt link at the top on the sale listing page or the sale offer page.
+For this purpose, use either the **Re-calculate quick data** button at the bottom of the page or the prompt link at the top on the sale listing or the sale offer details pages.
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><b>Sale listing page</b>![541-recalculate-quick-data-lisitng.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-recalculate-quick-data-lisitng.png)</div>
   <div class="column" markdown="span"><b>Sale offer page</b>![541-recalculate-quick-data-details.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-recalculate-quick-data-details.png)</div>
@@ -197,6 +197,8 @@ For this purpose, use either the **Re-calculate quick data** button at the botto
 
 Both the button and the link will forward you to the **Cache management** page of your store Admin area (**System tools** -> **Cache management**), where it is necessary to click **Start** opposite the **Calculate quick data** option. 
 ![541-cache-management.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-cache-management.png)
+
+If you add several sale offers, it makes sense to re-calculate quick data for all of them at once.
 
 
 ### Sale Offer for Random Product Groups
