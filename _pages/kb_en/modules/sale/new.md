@@ -270,14 +270,12 @@ Sale offers can be editied, enabled/disabled and deleted on the sales listing pa
 
 1. To edit the offer properties:
    * click on the offer name to open the offer details page;
-     
      OR
    * click on the products link opposite an offer to edit the applicable products;
    * add the necessary changes;
    * click **Update**.
 2. To enable/disable an offer:
    * switch the ON/OFF icon opposite the offer on the listing page;
-     
      OR
    * open the offer details page and edit the value of the **Enabled** property;
    * click **Save changes**.
