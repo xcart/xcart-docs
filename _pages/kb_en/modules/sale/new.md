@@ -184,7 +184,7 @@ To create a sale offer:
 
 4. Click the **Create** button to add an offer to the list.
    
-   A new sale offer will be added to the sale offers list in the **Sale** section in your store Admin Area (**Discounts** -> **Sale**).
+   A new sale offer will be added to the sale offers list on the **Sale** page in your store Admin Area (**Discounts** -> **Sale**).
    ![541-sales-list.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-sales-list.png)
      
 
