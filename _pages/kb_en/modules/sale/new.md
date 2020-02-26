@@ -266,13 +266,18 @@ More details on using the bulk editing tool see in {% link "Bulk Editing" ref_1k
 ## Managing Sale Offers
 
 Sale offers can be editied, enabled/disabled and deleted on the sales listing page in the store Admin area (**Discounts** -> **Sale**).
+![541-sale-edit-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-sale-edit-page.png)
 
 1. To edit the offer properties:
-   * click on the offer name to open the offer details page:
+   * click on the offer name to open the offer details page;
+     
+     OR
+   * click on the products link opposite an offer to edit the applicable products;
    * add the necessary changes;
    * click **Update**.
 2. To enable/disable an offer:
    * switch the ON/OFF icon opposite the offer on the listing page;
+     
      OR
    * open the offer details page and edit the value of the **Enabled** property;
    * click **Save changes**.
