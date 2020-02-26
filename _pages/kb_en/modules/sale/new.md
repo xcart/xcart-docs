@@ -209,11 +209,11 @@ To apply an offer to products:
    ![541-add-products-popup-1.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-add-products-popup-1.png)
 4. Click **Add products** to apply a discount to the products selected.
 
-All products that have a sale offer enabled for them will have it marked on the products details page, will have a special label with the name of a sale offer on the product listing lages and will be recorded on the sale offers listing page in the store Admin area.
+All products that have a sale offer enabled for them will will be recorded on the sale offers listing page and will have a special label with the name of a sale offer on the product listing lages and on the products details page in the store Admin area.
 <div class="ui stackable three column grid">
-  <div class="column" markdown="span"><b>Product details page</b>![541-products-details-prices-inventory.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-products-details-prices-inventory.png)</div>
-  <div class="column" markdown="span"><b>Product listing page</b>![541-product-listing-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-product-listing-page.png)</div>
   <div class="column" markdown="span"><b>Sale offers listing page</b>![541-sales-list-products.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sales-list-products.png)</div>
+  <div class="column" markdown="span"><b>Product listing page</b>![541-product-listing-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-product-listing-page.png)</div>
+  <div class="column" markdown="span"><b>Product details page</b>![541-products-details-prices-inventory.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-products-details-prices-inventory.png)</div>
 </div>
 
 
