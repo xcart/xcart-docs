@@ -12,7 +12,7 @@ It's not a secret that discounting is a good way to generate sales. But customer
 
 {% toc %}
 
-# Installing and Enabling the "Sale" Addon
+# Installing and Enabling the Sale Addon
 
 Generally, the "Sale" addon comes preinstalled and enabled out-of-the-box in all editions of X-Cart 5 software. 
 
@@ -24,16 +24,16 @@ Once the addon has been installed and enabled it adds a possibility for a store 
 * single products, including products with variants;
 * product groups, including random products in bulk and products from certain categories and subcategories.
 
-# Configuring the "Sale" Addon
+# Configuring the Sale Addon
 
-The basic "Sale" addon configuration determines the rules to calculate and display sale prices applied to products and categories in the store Admin area and in the storefront. 
+The basic Sale addon configuration determines the rules to calculate and display sale prices applied to products and categories in the store Admin area and in the storefront. 
 
-To configure the basic rules of the sale prices representation open the "Sale" addon settings page in your store Admin area:
+To configure the basic rules of the sale prices representation open the Sale addon settings page in your store Admin area:
 ![541-settings-page.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-settings-page.png)
 
 Here you can define the following settings:
 
-* **Display the "Products on sale" block in the storefront** : If this option is on, a "Sale" block is displayed on the store homepage. The "Sale" block contains the products with a sale price enabled for single products only.
+* **Display the "Products on sale" block in the storefront** : If this option is on, a "Sale" block is displayed on the store homepage. The "Sale" block contains only the products that have sale price enabled for them.
   ![541-products-on-sale-block.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-products-on-sale-block.png)
 
 * **Display only the products on sale which are in the category being viewed (or its subcategories)** : This option determines what products are displayed in the "Sale" block on the category pages in the storefront. If the setting is turned "ON", the "Sale" block displays the discounted products only from the viewed category.
@@ -51,7 +51,7 @@ Here you can define the following settings:
       <div class="column" markdown="span">![541-cus-combine-discounts-on.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-combine-discounts-on.png)</div>
     </div>
 
-* **How to display links to sale offers in the category menu** : Choose the mode to display the links to sale offers available in your store in the customer storefront. The available options are as follows:
+* **How to display links to sale offers in the category menu** : Choose the mode to display the links to sale offers in the customer storefront. The available options are as follows:
   * Do not diplay;
   * Display under categories list (default value);
   * Display above categories list.
@@ -62,14 +62,18 @@ Here you can define the following settings:
     </div>
    
   {% note info %}
-  This mode is applicable only to the sale offers created with the "List sale products in a separate section" option enabled (see "Setting Sale Price for Products in Bulk").
+  This mode is applicable only to the sale offers created with the "List sale products in a separate section" option enabled (see [Creating a Sale Offer](https://kb.x-cart.com/modules/sale/new.html#creating-a-sale-offer "Sale (NEW. UNDER CONSTRUCTION)")).
   {% endnote %}
 
 * **Allow vendors to manage sale discounts for their own products** (Multivendor edition only) : The setting defines if the vendors are permitted to create new sale offers for their own products and edit existing sale offers created by a store admin. 
 
 # Configuring Sale Prices
 
-The "Sale" addon allows to set sale prices for single products, including products with product variants. Sale prices for single products also called single product discounts are managed by a product owner and can be configured on a product details page in the store Admin area.
+The Sale addon allows to set sale prices for single products, including products with product variants, and for groups of products, including random products, products from a certain category and/or subcategory or of a certain product class. 
+
+Sale prices for single products also called single product discounts are managed by a product owner and can be configured on a product details page in the store Admin area. 
+
+Group discounts are configured and maintained in the **Sale** section of your store Admin area (**Discounts** -> **Sale**). 
 
 ## Setting Sale Price for a Single Product
 
@@ -96,7 +100,7 @@ Products with a sale price enabled are marked with a 'Sale' tag on the product l
 ![541-product-list-sale.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-list-sale.png)
 
 {% note info %}
-Please do mind that the product listing pages in the store Admin area display the default product price. The discount values applied to a product can be checked on the product detail pages only.
+Please do mind that the product listing pages in the store Admin area display the default product price. The discount values applied to a product can be checked on the product details pages only.
 {% endnote %}
 
 As for the storefront, all discounted products are marked with a special '% OFF' discount label on the listing and a product details page. The product details page also shows the original (default) product price.
@@ -118,12 +122,12 @@ To set a sale price for a product variant:
 1. Select a product on a product listing page (**Catalog** -> **Products**) in your store Admin area and open the product detais page for editing.
 2. Open the 'Variants' tab for editing.
     
-    Here you need to refer to the "Sale" column to add possible sale prices to product variants:
+    Here you need to refer to the "Sale" column to add sale prices to product variants:
     ![541-product-variant-sale.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-variant-sale.png)
 3. Set a sale price either in absolute value or percentagewise. 
 4. Click **Save changes** to submit the new configuration.
 
-For products with product variants, the product listing and product details pages in the storefront will display a discount set on the default product variant. The rest of the discounts (if any) will be displayed when viewing the available product variants on a product details page.
+For products with product variants, the product listing and product details pages in the storefront will display a discount set on the default product variant. The rest of the discounts (if any) will be displayed when viewing the available product variants on the product details page.
 
 <div class="ui stackable three column grid">
       <div class="column" markdown="span"><b>Storefront product listing page</b>![541-cus-listing-page-variant-discount.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-listing-page-variant-discount.png)</div>
@@ -133,7 +137,9 @@ For products with product variants, the product listing and product details page
 
 ## Setting Sale Price for Groups of Products
 
-The "Sale" addon allows to configure discounts for the groups of products (or group discounts), including random products in bulk and entire categories and subcategories with all products that belong to them. Group discounts are managed by a store administrator in the **Sale** section of the store Admin Area (**Discounts** -> **Sale**).
+The Sale addon allows to configure discounts also called sale offers for the groups of products (or group discounts), including random products in bulk and entire categories and subcategories with all products that belong to them. Besides that it is also possible to create group discounts for product classes. 
+
+Group discounts are managed by a store administrator in the **Sale** section of the store Admin Area (**Discounts** -> **Sale**).
 
 Group discounts can have an expiration period and can be displayed in the storefront on the pages specially created for them.  
 
@@ -149,9 +155,9 @@ To create a sale offer:
 3. A page called "New sale" will be opened for you to create an offer.
    ![541-new-sale-page.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-new-sale-page.png)
    
-   Here you will need to fill in the following fields:
+   A store admin can configure the in the following properties for an offer:
    * **Vendor** (for Multivendor edition only) : List the vendors that will have a permission to apply this sale offer to their products. If a sale offer should not be available to vendors leave this field empty. 
-   * **Name** : Specify the name of a sales offer here. 
+   * **Name** : Specify the name of a sales offer here. This name will be used to label products the offer is enabled for in the store Admin area.
    * **Enabled** : Use this trigger to activate/disactivate a sales offer. The default value is "YES".
    * **List sale products in a separate section** : This trigger allows to create a special page for a sale offer that will be displayed in the categories list in the storefront. The default value is "NO".
      
@@ -171,24 +177,28 @@ To create a sale offer:
    * **Active from** / **Active till** : Set the sale offer validity period start and expiration dates. 
    * **Valid only for specific products** : This trigger allows to enable the sale offer for a group of random products. The default value is "NO".
      
-      If set to "YES" the trigger hides the following "Categories" and "Product classes" settings.
-   * **Categories** : Use this field to specify the name(s) of the categories and subcategories the discount is applicable to.
+      If set to "YES" the trigger hides the "Categories" and "Product classes" properties.
+   * **Categories** : Use this field to specify the name(s) of the category(ies) and/or subcategory(ies) the discount is applicable to.
    * **Product classes** : Use this field to specify the product class(es) the discount is applicable to. 
    * **Memberships** : Use this field to limit the sale offer to the customers with membership levels specified here.
 
 4. Click the **Create** button to add an offer to the list.
+   
+   A new sale offer will be added to the sale offers list in the **Sale** section in your store Admin Area (**Discounts** -> **Sale**).
+   ![541-sales-list.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-sales-list.png)
      
 
 ### Sale Offer for Random Product Groups
 
 Random product group discounts can be used when you need to put on sale products from different categories of your store. Special discount on a group of ramdom products may be the very case when a store admin may need to create a unique page in the storefront where the discounted products will be promoted.
 
-Hence, when creating a sale offer for a group of random products pay special attention to the following settings described in ### Creating a Sale Offer: 
+If this is the case, pay special attention to the following settings described in [above](https://kb.x-cart.com/modules/sale/new.html#creating-a-sale-offer "Sale (NEW. UNDER CONSTRUCTION)") when creating a sale offer for a group of random products: 
+
 * **List sale products in a separate section** : Enable the option by setting the trigger to "YES". Fill in the fields it expands:
   ![541-sale-products-in-separate-section-yes.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-in-separate-section-yes.png)
 * **Valid only for specific products** : Enable the option by setting the trigger to "YES".
 
-After an offer with the settings specified above has been created, it adds a **Products** tab to the sale offer page where a store admin can select products the discount will apply to. 
+After an offer with the **Valid only for specific products** property set to "YES" is created, it adds a **Products** tab to the sale offer page where a store admin can select products the discount will apply to. 
 
 To apply an offer to products:
 1. Open the **Products** tab of a sale offer page:
@@ -199,9 +209,10 @@ To apply an offer to products:
    ![541-add-products-popup-1.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-add-products-popup-1.png)
 4. Click **Add products** to apply a discount to the products selected.
 
-All products with the sale offer enabled will have it marked on the products details page and will be recorded on the sale offers listing page.
+All products that have a sale offer enabled for them will have it marked on the products details page, will have a special label with the name of a sale offer on the product listing lages and will be recorded on the sale offers listing page in the store Admin area.
 <div class="ui stackable three column grid">
   <div class="column" markdown="span"><b>Product details page</b>![541-products-details-prices-inventory.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-products-details-prices-inventory.png)</div>
+  <div class="column" markdown="span"><b>Product listing page</b>![541-product-listing-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-product-listing-page.png)</div>
   <div class="column" markdown="span"><b>Sale offers listing page</b>![541-sales-list-products.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sales-list-products.png)</div>
 </div>
 
