@@ -186,7 +186,18 @@ To create a sale offer:
    
    A new sale offer will be added to the sale offers list on the **Sale** page in your store Admin Area (**Discounts** -> **Sale**).
    ![541-sales-list.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-sales-list.png)
-     
+  
+After a sale offer has been created it is necessary to re-calculate the store quick data to ensure the offer becomes visible in product filters and the prices are displayed correctly. 
+
+For this purpose, use either the **Re-calculate quick data** button at the bottom or the prompt link at the top on the sale listing page or the sale offer page.
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><b>Sale listing page</b>![541-recalculate-quick-data-lisitng.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-recalculate-quick-data-lisitng.png)</div>
+  <div class="column" markdown="span"><b>Sale offer page</b>![541-recalculate-quick-data-details.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-recalculate-quick-data-details.png)</div>
+</div>
+
+Both the button and the link will forward you to the **Cache management** page of your store Admin area (**System tools** -> **Cache management**), where it is necessary to click **Start** opposite the **Calculate quick data** option. 
+![541-cache-management.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-cache-management.png)
+
 
 ### Sale Offer for Random Product Groups
 
@@ -242,8 +253,17 @@ A sale offer created for product classes will be displayed for the products of t
 
 # Maintaining Sale Prices
 
+After sale prices have been configured for single products and/or product variants or group discounts have been set up a store admin can edit their properties or activate/deactivate them for products. There are several tools in X-Cart Admin area that facilitate the process.
+
 ## Bulk Editing Sale Prices 
 
+Alongside the product details page, sale prices configured for single products can be re-configured or disabled using the bulk editing tool on the product listing page in the store Admin area. This tool also allows to assign sale prices to single products in bulk.
+
+in order to use the bulk edit tool:
+
+1. Open the product listing page in your store Admin area.
+2. Select products that need to be editied.
+3. Click the 
 
 
 ## Managing Sale Offers
