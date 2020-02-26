@@ -75,7 +75,7 @@ Sale prices for single products also called single product discounts are managed
 
 Group discounts are configured and maintained in the **Sale** section of your store Admin area (**Discounts** -> **Sale**). 
 
-## Setting Sale Price for a Single Product
+## Setting Sale Price for Single Products
 
 {% note warning %}
 A sale price set for a single product overrides all other possible group discounts that may be applicable to this product. 
@@ -110,7 +110,7 @@ As for the storefront, all discounted products are marked with a special '% OFF'
    <div class="column" markdown="span"><b>Product details page</b>![541-cus-single-product-sale-price-details.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-single-product-sale-price-details.png)</div>
 </div>
 
-### Setting Sale Price for Products with Variants
+### Setting Sale Price for Product Variants
 
 {% note warning %}
 A sale price set for a product variant overrides all other possible group and single product discounts that may be applicable to the parent-product. 
@@ -240,10 +240,13 @@ A sale offer created for product classes will be displayed for the products of t
   <div class="column" markdown="span"><b>Product details page</b></div>
 </div>
 
+# Maintaining Sale Prices
 
-## Bulk Editing Sale Prices
+## Bulk Editing Sale Prices 
 
-Note that if the addon "Sale" is used alongside the addon "Wholesale", sale prices overrride the wholesale prices and make the later disabled.
+
+
+## Managing Sale Offers
 
 _Related pages_:
 
