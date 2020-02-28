@@ -62,7 +62,7 @@ Here you can define the following settings:
     </div>
    
   {% note info %}
-  This mode is applicable only to the sale offers created with the "List sale products in a separate section" option enabled (see [Creating a Sale Offer](https://kb.x-cart.com/modules/sale/new.html#creating-a-sale-offer "Sale (NEW. UNDER CONSTRUCTION)")).
+  This mode is applicable only to a sale offer is created with the "List sale products in a separate section" option enabled (see more info on the properties set-up in [Creating a Sale Offer](https://kb.x-cart.com/modules/sale/new.html#creating-a-sale-offer "Sale (NEW. UNDER CONSTRUCTION)")).
   {% endnote %}
 
 * **Allow vendors to manage sale discounts for their own products** (Multivendor edition only) : The setting defines if the vendors are permitted to create new sale offers for their own products and edit existing sale offers created by a store admin. 
