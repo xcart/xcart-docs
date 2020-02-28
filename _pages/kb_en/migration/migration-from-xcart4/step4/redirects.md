@@ -10,7 +10,13 @@ redirect_from:
   - /general_setup/migration/migration-from-xcart4/step-4-redirects.html
   - /migration/migration-from-xcart4/step-4-redirects.html
 ---
-After you have completed the migration and replaced X-Cart 4 store with new X-Cart 5 one, you need to put the following code into X-Cart 5's `.htaccess` file.
+After you have completed the migration and replaced X-Cart 4 store with new X-Cart 5 one, you need to find the following piece of code in your `.htaccess` file:
+
+```
+  RewriteRule (^|/)\. - [F]
+```  
+
+and put the next piece of code BEFORE that:
 
 ```
   RewriteCond %{QUERY_STRING} cat=([0-9]+)
@@ -18,6 +24,9 @@ After you have completed the migration and replaced X-Cart 4 store with new X-Ca
 
   RewriteCond %{QUERY_STRING} productid=([0-9]+)
   RewriteRule ^product\.php$ cart.php?target=product&product_id=%1 [L,R=301]
+
+  RewriteCond %{QUERY_STRING} productid=([0-9]+)
+  RewriteRule ^add_review\.php$ cart.php?target=product&product_id=%1#product-details-tab-reviews [L,R=301]
 
   RewriteCond %{QUERY_STRING} pageid=([0-9]+)
   RewriteRule ^pages\.php$ cart.php?target=page&id=%1 [L,R=301]
@@ -31,10 +40,16 @@ After you have completed the migration and replaced X-Cart 4 store with new X-Ca
   # If you have Gift Certificates module in X-Cart 5
   RewriteRule ^giftcert.php cart.php?target=gift_certs [NC,L]
   
+  # If you have Shop By Brand module in X-Cart 5
+  RewriteCond %{QUERY_STRING} manufacturerid=([0-9]+)
+  RewriteRule ^manufacturers\.php$ cart.php?target=brand&brand_id=%1 [L,R=301]
+  
   RewriteRule ^help.php cart.php?target=contact_us [NC,L]
+  
+  RewriteRule ^
 ```
 
-This code makes sure that the product, category and static pages which were properly indexed in your X-Cart 4, can now redirect to their successors in X-Cart 5 store.
+This code makes sure that the product, category and static pages which were properly indexed in X-Cart 4 will redirect to their successors in X-Cart 5 store.
 
 If you use `nginx` web-server instead of `Apache` and `.htaccess` rules do not work for you, here is the equivalent of the same rules in `nginx` syntax:
 
@@ -43,6 +58,13 @@ If you use `nginx` web-server instead of `Apache` and `.htaccess` rules do not w
 # RewriteRule ^product\.php$ cart.php?target=product&product_id=%1 [L,R=301]
 location = /product.php {
     rewrite ^ /cart.php?target=product&product_id=$arg_productid;
+}
+
+#  RewriteCond %{QUERY_STRING} productid=([0-9]+)
+#  RewriteRule ^add_review\.php$ cart.php?target=product&product_id=%1#product-details-tab-reviews [L,R=301]
+
+location = /add_review.php {
+	rewrite ^ /cart.php?target=product&product_id=$arg_productid#product-details-tab-reviews;
 }
 
 # RewriteCond %{QUERY_STRING} pageid=([0-9]+)
@@ -72,6 +94,14 @@ location = /search.php {
 location = /giftcert.php {
     rewrite ^ /cart.php?target=gift_certs;
 }
+
+# If you have Shop By Brand module in X-Cart 5
+#  RewriteCond %{QUERY_STRING} manufacturerid=([0-9]+)
+#  RewriteRule ^manufacturers\.php$ cart.php?target=brand&brand_id=%1 [L,R=301]
+location = /manufacturers.php {
+	rewrite ^ /cart.php?target=brand&brand_id=$arg_manufacturerid;
+}
+
 
 # RewriteRule ^help.php cart.php?target=contact_us [NC,L]
 location = /help.php {
