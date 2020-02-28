@@ -156,7 +156,7 @@ To create a sale offer:
    ![541-new-sale-page.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-new-sale-page.png)
    
    A store admin can configure the in the following properties for an offer:
-   * **Vendor** (for Multivendor edition only) : This field permits a product owner to edit the sale offer and to apply it to their products. Specify the product owner name (either a vendor name or administrator) if you want to limit a sale offer to this particular product owner. Leave the field empty if an offer should apply to any products in the store regardless of a product owner.
+   * **Vendor** (for Multivendor edition only) : This field permits a product owner to edit the sale offer and to apply it to his products. Specify a product owner name (either a vendor name or administrator) if you want to limit a sale offer to this particular product owner. Leave the field empty if an offer can be applied to every product in the store regardless of a product owner.
    * **Name** : Specify the name of a sales offer here. This name will be used to label products the offer is enabled for in the store Admin area.
    * **Enabled** : Use this trigger to activate/disactivate a sales offer. The default value is "YES".
    * **List sale products in a separate section** : This trigger allows to create a special page for a sale offer that will be displayed in the categories list in the storefront. The default value is "NO".
