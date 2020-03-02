@@ -172,7 +172,7 @@ To create a sale offer:
      * **Meta keywords** : Use this field to specify the keywords to be used in the keywords META tag on the sale offer page (for SEO purposes).
      * **Meta description** : Use this field to specify the description to be used in the description META tag on the sale offer page (for SEO purposes).
      * **Open Graph meta tags** : The custom META tags for sharing the sale offer page on Facebook.
-   * **Discount amount** : Set a discount either in absolute value or percentagewise.
+   * **Discount amount** : Set a discount percentagewise. A group discount can not be configured in an absolute value as it may exceed the default product price of some product included into the group. 
    * **Apply sale discount to wholesale prices** (only if the {% link "Wholesale" ref_ttZa4qgu %} addon is enabled): This trigger allows to include products with wholesale prices into an offer. The offer will be valid for wholesale prices only if the discount amount is set percentagewise. 
    * **Active from** / **Active till** : Set the sale offer validity period start and expiration dates. 
    * **Valid only for specific products** : This trigger allows to enable the sale offer for a group of random products. The default value is "NO".
@@ -203,7 +203,7 @@ If you add several sale offers, it makes sense to re-calculate quick data for al
 
 ### Sale Offer for Random Product Groups
 
-Random product group discounts can be used when you need to put on sale products from different categories of your store. Special discount on a group of ramdom products may be the very case when a store admin may need to create a unique page in the storefront where the discounted products will be promoted.
+Random product group discounts can be used when you need to put on sale products from different categories of your store. Special discount on a group of random products may be the very case when a store admin may need to create a unique page in the storefront where the discounted products will be promoted.
 
 If this is the case, pay special attention to the following settings described [above](https://kb.x-cart.com/modules/sale/new.html#creating-a-sale-offer "Sale (NEW. UNDER CONSTRUCTION)") when creating a sale offer for a group of random products: 
 
@@ -222,7 +222,7 @@ To apply an offer to products:
    ![541-add-products-popup-1.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-add-products-popup-1.png)
 4. Click **Add products** to apply a discount to the products selected.
 
-All products that have a sale offer enabled for them will will be recorded on the sale offers listing page and will have a special label with the name of a sale offer on the product listing lages and on the products details page in the store Admin area.
+All products that have a sale offer enabled for them will will be recorded on the sale offers listing page and will have a special label with the name of a sale offer on the product listing pages and on the products details page in the store Admin area.
 <div class="ui stackable three column grid">
   <div class="column" markdown="span"><b>Sale offers listing page</b>![541-sales-list-products.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sales-list-products.png)</div>
   <div class="column" markdown="span"><b>Product listing page</b>![541-product-listing-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-product-listing-page.png)</div>
