@@ -92,6 +92,8 @@ To set a sale price for a single product:
    ![541-product-details-sale-selector.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-product-details-sale-selector.png)
    {% note info %}
    The sale price defined for a product will also apply to all product variants (if any) in case no special sale price is configured for them.
+   
+   A sale price can also be applied to wholesale prices if discount is set percentagewise. More details on applying discounts on wholesale prices see in {% link "Wholesale" ref_ttZa4qgu %}.
    {% endnote %}
 4. Click **Update product** to save changes.
 
