@@ -46,7 +46,6 @@ and put the next piece of code BEFORE that:
   
   RewriteRule ^help.php cart.php?target=contact_us [NC,L]
   
-  RewriteRule ^
 ```
 
 This code makes sure that the product, category and static pages which were properly indexed in X-Cart 4 will redirect to their successors in X-Cart 5 store.
