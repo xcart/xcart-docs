@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2020-02-28 12:11 +0400'
 identifier: ref_6BpfsOWG
 title: 'Sale: Usage with Multivendor'
-order: 100
+order: 899
 published: false
 version: X-Cart 5.4.1.x
 ---
