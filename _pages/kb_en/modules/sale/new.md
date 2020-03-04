@@ -213,12 +213,12 @@ If this is the case, pay special attention to the following settings described [
   ![541-sale-products-in-separate-section-yes.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-in-separate-section-yes.png)
 * **Valid only for specific products** : Enable the option by setting the trigger to "YES".
 
-After an offer with the **Valid only for specific products** property set to "YES" is created, it requires to be assigned to products in the store. 
+After an offer with the **Valid only for specific products** property set to "YES" is created, you need to apply it to the products in your store. 
 
 This can be done in two possible ways:
 1. Using the **Products** tab of the current sale offer (regular way).
    
-   The **Products** tab is automatically added to a sale offer with the **Valid only for specific products** property enabled and asslows to apply the offer to products in bulk.
+   The **Products** tab is automatically added to a sale offer with the **Valid only for specific products** property enabled and allows applying the offer to products in bulk.
    
    To apply an offer to products via the **Products** tab of the sale offer: 
    * Open the **Products** tab of a sale offer page:
@@ -231,13 +231,20 @@ This can be done in two possible ways:
    
 2. Using the **Global discounts** field in the "Price & Inventory" section of a product details page (alternative way).
    
-   The **Global discounts** field is added to the "Price & Inventory" section of a product details page when at list one sale offer with the **Valid only for specific products** property enabled is created in a store. The **Global discounts** field allows to apply a sale offer on a per product basis (can be used e.g. to add a new product to a group of products put on sale or to delete a product from sucn a group).
+   The **Global discounts** field is added to the "Price & Inventory" section of a product details page when at list one sale offer with the **Valid only for specific products** property enabled is created in a store. The **Global discounts** field allows to apply a sale offer on a per product basis (can be used e.g. to add a new product to a group of products put on sale or to delete a product from such a group).
    
    To apply a discount to a product via the **Global discounts** field:
    * Locate a product on the product listing page and open the product details page for editing.
+     ![541-locate-product-list.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-locate-product-list.png)
+     
    * Scroll down the page to see the "Price & Inventory" section.
+     ![541-product-details.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-product-details.png)
+
    * Click inside the **Global discounts** field to see the sale offers available for the product.
+     ![541-global-discounts.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-global-discounts.png)
    * Click on the sale offer name to apply it to the product.
+     ![541-add-global-discount.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-add-global-discount.png)
+
      {% note info %}
      You may apply as many group discounts as you like to one product. The final discount calculatio will be perfromed according to the **How to handle multiple sale discounts** setting configuration.
      {% endnote %}
