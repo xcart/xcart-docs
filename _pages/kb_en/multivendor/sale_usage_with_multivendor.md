@@ -19,7 +19,7 @@ The Sale addon allows vendors to configure and maintain sale prices for the prod
 If permitted by a store administirator, a vendor in a Multivendor store can create sale offers for groups of products they own in the **Sale** section of the Vendor area (**Discounts** -> **Sale**). For more details on group dicounts creation see [Setting Sale Prices for Groups of Products](https://kb.x-cart.com/modules/sale/new.html#setting-sale-price-for-groups-of-products "Sale: Usage with Multivendor").
 ![541-vendor-sale.png]({{site.baseurl}}/attachments/ref_6BpfsOWG/541-vendor-sale.png)
 
-The **Sale** section of the Vendor area also allows a vendor to view and manage special vendor-specific group discounts created by a store administrator. Vendors can view and manage only the sale offers that they own. In their personal Vendor area, they do not have access to the sale offers owned by other vendors or the store administrator. 
+The **Sale** section of the Vendor area also allows a vendor to view and manage special vendor-specific group discounts created by a store administrator on their behalf. Vendors can view and manage only the sale offers that they own. In their personal Vendor area, they do not have access to the sale offers owned by other vendors or the store administrator. 
 
 A vendor can view the active sale offers applied to their products (both vendor-specific, global (created by a store administrator and applied to products in the store globally) and single product sale offers) on the product listing page in the Vendor area:
 ![541-vedor-products.png]({{site.baseurl}}/attachments/ref_6BpfsOWG/541-vedor-products.png)
