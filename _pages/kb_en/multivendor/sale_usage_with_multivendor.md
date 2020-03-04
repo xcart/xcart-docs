@@ -39,8 +39,12 @@ The administrator can view, edit and delete sale offers created by the vendors.
 If the administrator themselves is also a vendor, they can create and manage group discounts for their own products. Group discounts created by the administrator for their own (Administrator) profile are not visible to vendors and can be applied only to the products owned by the administrator. To create a group discount for their own profile, the administrator must specify that they themselves are the owner of the discount. This can be done using the **Vendor** field in the sale offer details.
 ![541-sale-details-vendor-admin.png]({{site.baseurl}}/attachments/ref_6BpfsOWG/541-sale-details-vendor-admin.png)
 
-If necessary, the administrator can create group discounts on behalf of vendors. To create a group discount for a vendor, the administrator needs to specify this vendor as the owner of the discount using the **Vendor** field in the sale offer details:
+If necessary, the administrator can create group discounts on behalf of vendors. To create a group discount for a vendor, the administrator needs to specify this vendor as the owner of the discount using the **Vendor** field in the sale offer details.
 ![541-sale-offer-vendor-name.png]({{site.baseurl}}/attachments/ref_6BpfsOWG/541-sale-offer-vendor-name.png)
 
-If the administrator wants to set a group discount not just for a single vendor, but for the entire store (global discount) - so the discount will apply to all the products regardless of the vendor, they must leave the **Vendor** field blank.
+If the administrator wants to set a group discount not just for a single vendor, but for the entire store (global discount) - so the discount will apply to all the products regardless of the product owner, they must leave the **Vendor** field blank when creating a sale offer.
 ![541-sale-details-vendor-empty.png]({{site.baseurl}}/attachments/ref_6BpfsOWG/541-sale-details-vendor-empty.png)
+
+_Related pages:_
+
+*   {% link "Sale Addon" ref_7tBJ8Yqo %}
