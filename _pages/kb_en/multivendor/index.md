@@ -29,6 +29,7 @@ _In this section:_
    * {% link "Custom Product Tabs: Usage with Multivendor" ref_13ILtNnj %}
    * {% link "Product Tags: Usage with Multivendor" ref_5zZ0ep58 %} 
    * {% link "Product Filter: Usage with Multivendor" ref_5YMhId62 %}
+   * {% link "Sale: Usage with Multivendor" ref_6BpfsOWG %}
    * {% link "Volume Discounts: Usage with Multivendor" ref_117NpIm9 %}
    * {% link "Coupons: Usage with Multivendor" ref_2HGKKzgD %}  
    * {% link "Messages Addon: Usage with Multivendor" ref_4Ox4FPDB %} 
