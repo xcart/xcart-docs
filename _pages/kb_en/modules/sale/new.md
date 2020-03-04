@@ -213,25 +213,45 @@ If this is the case, pay special attention to the following settings described [
   ![541-sale-products-in-separate-section-yes.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-in-separate-section-yes.png)
 * **Valid only for specific products** : Enable the option by setting the trigger to "YES".
 
-After an offer with the **Valid only for specific products** property set to "YES" is created, it adds a **Products** tab to the sale offer page where a store admin can select products the discount will apply to. 
+After an offer with the **Valid only for specific products** property set to "YES" is created, it requires to be assigned to products in the store. 
 
-To apply an offer to products:
-1. Open the **Products** tab of a sale offer page:
-   ![541-sale-products-tab.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-tab.png)
-2. Click **Add products** to see the list of products:
-   ![541-sale-products-add.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-add.png)
-3. Select the products from the pop-up:
-   ![541-add-products-popup-1.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-add-products-popup-1.png)
-4. Click **Add products** to apply a discount to the products selected.
+This can be done in two possible ways:
+1. Using the **Products** tab of the current sale offer (regular way).
+   
+   The **Products** tab is automatically added to a sale offer with the **Valid only for specific products** property enabled and asslows to apply the offer to products in bulk.
+   
+   To apply an offer to products via the **Products** tab of the sale offer: 
+   * Open the **Products** tab of a sale offer page:
+     ![541-sale-products-tab.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-tab.png)
+   * Click **Add products** to see the list of products:
+     ![541-sale-products-add.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-add.png)
+   * Select the products from the pop-up:
+     ![541-add-products-popup-1.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-add-products-popup-1.png)
+   * Click **Add products** to apply a discount to the products selected.
+   
+2. Using the **Global discounts** field in the "Price & Inventory" section of a product details page (alternative way).
+   
+   The **Global discounts** field is added to the "Price & Inventory" section of a product details page when at list one sale offer with the **Valid only for specific products** property enabled is created in a store. The **Global discounts** field allows to apply a sale offer on a per product basis (can be used e.g. to add a new product to a group of products put on sale or to delete a product from sucn a group).
+   
+   To apply a discount to a product via the **Global discounts** field:
+   * Locate a product on the product listing page and open the product details page for editing.
+   * Scroll down the page to see the "Price & Inventory" section.
+   * Click inside the **Global discounts** field to see the sale offers available for the product.
+   * Click on the sale offer name to apply it to the product.
+     {% note info %}
+     You may apply as many group discounts as you like to one product. The final discount calculatio will be perfromed according to the **How to handle multiple sale discounts** setting configuration.
+     {% endnote %}
+   * Click **Update product** to sale the changes.
 
-All products that have a sale offer enabled for them will will be recorded on the sale offers listing page and will have a special label with the name of a sale offer on the product listing pages and on the products details page in the store Admin area.
+
+All products that have a group sale offer enabled for them will will be recorded on the sale offers listing page and will have a special label with the name of a sale offer on the product listing page and on the product details page in the store Admin area.
 <div class="ui stackable three column grid">
   <div class="column" markdown="span"><b>Sale offers listing page</b>![541-sales-list-products.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sales-list-products.png)</div>
   <div class="column" markdown="span"><b>Product listing page</b>![541-product-listing-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-product-listing-page.png)</div>
   <div class="column" markdown="span"><b>Product details page</b>![541-products-details-prices-inventory.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-products-details-prices-inventory.png)</div>
 </div>
 
-If a sale offer has expired or is disabled, it is not displayed on the product listing page, but still resists in the **Global discount** field of the "Prices & Inventory" section on the product details page. 
+If a sale offer has expired or is disabled on the **Sale** page of the store Admin area, its label is not displayed on the product listing page, but still resists in the **Global discount** field of the "Prices & Inventory" section on the product details page. 
 
 ### Sale Offer for Product Categories, Subcategories and Product Classes
 
@@ -247,15 +267,16 @@ When creating a sale offer for a product (sub)category and/or product class a st
 * **Categories** : Use this field to define the categories and/or subcategories the offer is applicable to.
 * **Product classes** : Use this field to define the product classes the offer is applicable to.
 
-A sale offer active for specific categories and/or subcategories will be displayed for applicable (sub)categories on the category listing page. The discount will also be displayed for products from the categories and subcategories applicable on the product details page and product listing page in the store Admin area. 
+A sale offer active for specific categories and/or subcategories will be displayed for applicable (sub)categories on the category listing page. The discount will also be displayed for products from the categories and subcategories applicable on the product listing page in the store Admin area. 
 
-A sale offer created for product classes will be displayed for the products of the applicable product class on the product details page and product listing page in the store Admin area. 
+A sale offer created for product classes will be displayed for the products of the applicable product class on the product listing page in the store Admin area only. 
 
-<div class="ui stackable three column grid">
-  <div class="column" markdown="span"><b>Category listing page</b></div>
-  <div class="column" markdown="span"><b>Product listing page</b></div>
-  <div class="column" markdown="span"><b>Product details page</b></div>
+<div class="ui stackable trwo column grid">
+  <div class="column" markdown="span"><b>Category listing page</b>![541-category-listing-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-category-listing-page.png)</div>
+  <div class="column" markdown="span"><b>Product listing page</b>![541-product-listing-classes-categories.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-product-listing-classes-categories.png)</div>
 </div>
+
+Links on the sale offers on the listing pages are clickable and forward to the sale offer details page for editing. 
 
 # Maintaining Sale Prices
 
