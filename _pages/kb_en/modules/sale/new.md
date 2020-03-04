@@ -246,7 +246,7 @@ This can be done in two possible ways:
      ![541-add-global-discount.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-add-global-discount.png)
 
      {% note info %}
-     You may apply as many group discounts as you like to one product. The final discount calculatio will be perfromed according to the **How to handle multiple sale discounts** setting configuration.
+     You may apply as many group discounts to one product as necessary. The final discount calculation will be perfromed according to the **How to handle multiple sale discounts** setting configuration.
      {% endnote %}
    * Click **Update product** to sale the changes.
 
