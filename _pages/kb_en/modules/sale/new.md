@@ -231,6 +231,8 @@ All products that have a sale offer enabled for them will will be recorded on th
   <div class="column" markdown="span"><b>Product details page</b>![541-products-details-prices-inventory.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-products-details-prices-inventory.png)</div>
 </div>
 
+If a sale offer has expired or is disabled, it is not displayed on the product listing page, but still resists in the **Global discount** field of the "Prices & Inventory" section on the product details page. 
+
 ### Sale Offer for Product Categories, Subcategories and Product Classes
 
 The Sale addon makes it possible to differentiate sale offers by specific product categories and/or subcategories as well as by product classes. 
