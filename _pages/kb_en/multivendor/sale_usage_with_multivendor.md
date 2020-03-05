@@ -8,7 +8,7 @@ order: 899
 published: true
 version: X-Cart 5.4.1.x
 ---
-In a Multivendor X-Cart store with the addon [Sale](https://market.x-cart.com/addons/sale.html "Sale: Usage with Multivendor") installed and enabled, a vendor can manage a sale offer and assign it to their products if a special permission is set for the offer by a store administrator.
+In a Multivendor X-Cart store with the addon [Sale](https://market.x-cart.com/addons/sale.html "Sale: Usage with Multivendor") installed and enabled, a vendor can сreate, manage and assign a sale offer to their products if a special permission is set by a store administrator.
 
 Basic usage of the Sale addon is described in the main {% link "Sale Addon" ref_7tBJ8Yqo %} manual, so here we will just go over the multivendor-related specifics.
 
@@ -42,7 +42,7 @@ If the administrator themselves is also a vendor, they can create and manage gro
 If necessary, the administrator can create group discounts on behalf of vendors. To create a group discount for a vendor, the administrator needs to specify this vendor as the owner of the discount using the **Vendor** field in the sale offer details.
 ![541-sale-offer-vendor-name.png]({{site.baseurl}}/attachments/ref_6BpfsOWG/541-sale-offer-vendor-name.png)
 
-If the administrator wants to set a group discount not just for a single vendor, but for the entire store (global discount) - so the discount will apply to all the products regardless of the product owner, they must leave the **Vendor** field blank when creating a sale offer.
+If the administrator wants to set a group discount not just for a single vendor, but for the entire store - so the discount will apply to all the products regardless of the product owner, they must leave the **Vendor** field blank when creating a sale offer.
 ![541-sale-details-vendor-empty.png]({{site.baseurl}}/attachments/ref_6BpfsOWG/541-sale-details-vendor-empty.png)
 
 _Related pages:_
