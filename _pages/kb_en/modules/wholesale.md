@@ -67,7 +67,7 @@ To configure wholesale prices:
         ![540-tier-setup.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/540-tier-setup.png)
         
         {% note info %}
-        The Tier-1 line is generated automatically based on the product details info and can not be edited. The changes of the [Minimum purchase quantity value](https://kb.x-cart.com/modules/wholesale.html#set-up-minimum-purchase-quantities "Wholesale") are not reflected in the Tier-1 line in your store Admin Area. However, they are displayed in the wholesale prices table on the product details page in the storefront provided wholesale prices are configured for this product.
+        The Tier-1 line generates automatically based on the product details info and is uneditable. The changes in the Minimum purchase quantity value does not reflect in the Tier-1 line in your store Admin Area. However, they display in the wholesale prices table on the product details page in the storefront, provided wholesale prices configured for this product.
         {% endnote %}
 
     2.  On the line that has appeared, provide information about the new wholesale pricing tier:
