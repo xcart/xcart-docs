@@ -13,11 +13,13 @@ redirect_from:
     /products/setting_up_wholesale_prices_and_minimum_purchase_quantites_for_different_membership_levels.html
   - /modules/wholesale_module.html
 ---
-Wholesale prices and minimum purchase quantities for products can be configured in X-Cart 5 using the addon **[Wholesale](https://market.x-cart.com/addons/wholesale.html)**.
+Wholesale pricing and minimum purchase quantities for products can be configured in X-Cart 5 using the addon **[Wholesale](https://market.x-cart.com/addons/wholesale.html)**.
 
-Wholesale prices are a way to offer multiple levels of pricing for the same product depending on the membership level of the buyer and the quantity of product units ordered.
+Wholesale pricing is a way to offer multiple levels of pricing for the same product depending on the membership level of the buyer and/or the number of product units ordered.
 
-In case wholesale pricing can be tired to a specific minimum purchase quantity for a product and can be offered to the customers with a particular membership level as well as to every customer in a store. A minimum purchase quantity is a minimum number of product units that can be bought by a customer at a time. If a customer's cart contains less items than the set minimum purchase limit, checkout for the cart is not allowed.
+A store admin can add a dependency for a wholesale pricing for a product either on a specific minimum purchase quantity or a particular customer membership.
+
+A store admin can add a dependency for wholesale pricing for a product either on a specific minimum purchase quantity or a particular customer membership. A minimum purchase quantity is the least possible number of product units that can be bought by a customer at a time. If a cart contains fewer items than the minimum purchase limit set for the product, checkout is not allowed.
 
 Before you proceed, make sure the addon **Wholesale** is installed and enabled.
 ![540-wholesale-on.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/540-wholesale-on.png)
