@@ -99,7 +99,9 @@ Reward points are credited to a customer's account when an order gets a 'Paid' {
 
 The customer can also check the transaction history of reward points on this page.
 
-To use the available reward points a customer will need to click the **Redeem** button at checkout. 
+At checkout stage, the maximum amount reward points is applied to the order automatically. A shopper will simply see the discount.
+
+However, if a customer wants to change how many reward points must be applied, they should click the **Redeem your award points** link, specify needed number of points to be applied and confirm the choice by clicking **Redeem** button.
 
 ![checkout-redeem.png]({{site.baseurl}}/attachments/ref_1Odyn6mT/checkout-redeem.png)
 
