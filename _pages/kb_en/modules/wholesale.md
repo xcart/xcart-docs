@@ -95,7 +95,7 @@ Wholesale addon adds the following wholesale pricing related settings to single 
 * **Apply product-specific discount to wholesale price** : This toggler is added to the "Prices & Inventory" section of product details and allows applying a [single product discount](https://kb.x-cart.com/modules/sale/new.html#setting-sale-price-for-single-products "Wholesale") to wholesale pricing if the former set percentagewise.
 * **Apply sale discount to wholesale prices** : This toggler is added to [sale offer properties](https://kb.x-cart.com/modules/sale/new.html#creating-a-sale-offer "Wholesale") (**Discounts** -> **Sale** -> **New sale**) and allows including products with wholesale prices into a sale offer. The offer is valid for wholesale pricing only if the discount amount set percentagewise. 
 
-In case a product with wholesale pricing is included into a sale offer, or a product-specific discount applies, a related record displays in the **Wholesale pricing** tab of product details informing a store admin of the limitation set. 
+In case a product with wholesale pricing is included into a sale offer, a related record displays in the **Wholesale pricing** tab of product details informing a store admin of the limitation set. 
         
 ## Configuration Samples 
 
