@@ -28,7 +28,7 @@ Before you proceed, make sure the addon **Wholesale** is installed and enabled.
 
 ## Minimum Purchase Quantities Setup
 
-Minimum purchase quantity defines the minimum number of product units that are to be added to cart in order for the checkout option to become available. Minimum purchase quantity is set on a per product basis and is displayed on the related product details page in the storefront provided the "Wholesale" addon is installed and enabled. 
+Minimum purchase quantity defines the minimum number of product units that must add to cart for the checkout option to become available. A minimum purchase quantity is set on a per-product basis, and displays on the related product details page in the storefront provided the "Wholesale" addon is installed and enabled. 
 
 The minimum product purchase quantities can be set via the **Inventory tracking** tab of the chosen product's details:
 
@@ -42,11 +42,11 @@ The minimum product purchase quantities can be set via the **Inventory tracking*
     
 3.  Click **Update** to save the changes.
 
-By default, the minimum purchase quantity value is set to 1 for all customers, either with or without a specific membership. When a store admin changes this value to any different from 1, this info is displayed on the product details page in the storefront for the customers with the respective membership level (or for all customers, if the minimum purchase quantity value is changed for the users without a membership):
+By default, the minimum purchase quantity value is 1 for every customer regardless of the membership. When a store admin changes this value to any different from 1, this info displays on the product details page in the storefront. If a store admin changes the minimum purchase limit for a particular customer membership, only the users with this membership will see the changes:
 
 ![cus-minimum-purchase-quantity.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/cus-minimum-purchase-quantity.png)
 
-If a product with the changed minimum purchase quantity value is added to cart directly from any product listing page (home page, category page, etc.) it is added to cart in the amount specified as minimum purchase quantity value for this product in the Admin area. 
+If a product with the changed minimum purchase quantity value adds to cart directly from any product listing page (home page, category page, etc.), it adds to cart in the amount specified as minimum purchase quantity value for this product in the Admin area. 
 
 ## Wholesale Prices Setup
 
@@ -86,6 +86,16 @@ The product details page in the storefront with the configured wholesale prices 
   <div class="column" markdown="span"><b>Default minimum product quantity</b>![540-cus-details-page-2.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/540-cus-details-page-2.png)</div>
   <div class="column" markdown="span"><b>Altered minimum product quantity</b>![540-cus-details-page-1.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/540-cus-details-page-1.png)</div>
 </div>
+
+## Adding Wholesale Pricing to Sale Offers 
+
+Starting from X-Cart 5.4.1.x it is possible to apply discounts to wholesale pricing and include them in sale offers if set percentagewise. This becomes possible if the Wholesale addon is used alongside the {% link "Sale Addon" ref_7tBJ8Yqo %}.
+
+Wholesale addon adds the following wholesale pricing related settings to single products and group discounts:
+* **Apply product-specific discount to wholesale price** : This toggler is added to the "Prices & Inventory" section of product details and allows applying a [single product discount](https://kb.x-cart.com/modules/sale/new.html#setting-sale-price-for-single-products "Wholesale") to wholesale pricing if the former set percentagewise.
+* **Apply sale discount to wholesale prices** : This toggler is added to [sale offer properties](https://kb.x-cart.com/modules/sale/new.html#creating-a-sale-offer "Wholesale") (**Discounts** -> **Sale** -> **New sale**) and allows including products with wholesale prices into a sale offer. The offer is valid for wholesale pricing only if the discount amount set percentagewise. 
+
+In case a product with wholesale pricing is included into a sale offer or a product-specific discount is set on such a product, a related record displays in the **Wholesale pricing** tab of product details. 
         
 ## Configuration Samples 
 
