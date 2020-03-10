@@ -174,7 +174,7 @@ To create a sale offer:
      * **Meta keywords** : Use this field to specify the keywords to be used in the keywords META tag on the sale offer page (for SEO purposes).
      * **Meta description** : Use this field to specify the description to be used in the description META tag on the sale offer page (for SEO purposes).
      * **Open Graph meta tags** : The custom META tags for sharing the sale offer page on Facebook.
-   * **Discount amount** : Set a discount percentagewise. A group discount can not be configured in an absolute value as it may exceed the default product price of some product included into the group. 
+   * **Discount amount** : Set a discount percentage. A group discount can not be configured in absolute value as it may exceed the default product price of some product included in the group. 
    * **Apply sale discount to wholesale prices** (only if the {% link "Wholesale" ref_ttZa4qgu %} addon is enabled): This toggle allows to include products with wholesale prices into an offer. The offer will be valid for wholesale prices only if the discount amount is set percentagewise. 
    * **Active from** / **Active till** : Set the sale offer validity period start and expiration dates. 
    * **Valid only for specific products** : This toggle allows to enable the sale offer for a group of random products. The default value is "NO".
@@ -271,19 +271,19 @@ When creating a sale offer for a product (sub)category and/or product class a st
   If this option is set to "YES", it is necessary to fill in all the fields it expands:
   ![541-sale-products-in-separate-section-yes.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-sale-products-in-separate-section-yes.png)
 * **Valid only for specific products** : This option should be set to "NO" to make the **Categories** and **Product classes** properties visible.
-* **Categories** : Use this field to define the categories and/or subcategories the offer is applicable to.
-* **Product classes** : Use this field to define the product classes the offer is applicable to.
+* **Categories** : Use this field to define the categories and/or subcategories the offer is applicable to. The offer will apply to all and every product within this category.
+* **Product classes** : Use this field to define the product classes the offer is applicable to. The offer will apply to all and every product with a certain product class specified.
 
-A sale offer active for specific categories and/or subcategories will be displayed for applicable (sub)categories on the category listing page. The discount will also be displayed for products from the categories and subcategories applicable on the product listing page in the store Admin area. 
+A sale offer active for specific categories and/or subcategories displays for applicable (sub)categories on the category listing page in your store Admin area. The discount also displays for products from the categories and subcategories applicable on the product listing page in the store Admin area. 
 
-A sale offer created for product classes will be displayed for the products of the applicable product class on the product listing page in the store Admin area only. 
+A sale offer created for product classes displays for the products of the applicable product class on the product listing page in the store Admin area only. 
 
 <div class="ui stackable trwo column grid">
   <div class="column" markdown="span"><b>Category listing page</b>![541-category-listing-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-category-listing-page.png)</div>
   <div class="column" markdown="span"><b>Product listing page</b>![541-product-listing-classes-categories.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-product-listing-classes-categories.png)</div>
 </div>
 
-Links on the sale offers on the listing pages are clickable and forward to the sale offer details page for editing. 
+Links on the sale offers on the listing pages are clickable and forward to a respective sale offer details page for editing. 
 
 # Maintaining Sale Prices
 
