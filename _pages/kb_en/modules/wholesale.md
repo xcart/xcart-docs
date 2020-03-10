@@ -91,11 +91,11 @@ The product details page in the storefront with the configured wholesale prices 
 
 Starting from X-Cart 5.4.1.x it is possible to apply discounts to wholesale pricing and include them in sale offers if set percentagewise. This becomes possible if the Wholesale addon is used alongside the {% link "Sale Addon" ref_7tBJ8Yqo %}.
 
-Wholesale addon adds the following wholesale pricing related settings to single products and group discounts:
+Wholesale addon adds the following wholesale pricing related settings to single product and group discounts:
 * **Apply product-specific discount to wholesale price** : This toggler is added to the "Prices & Inventory" section of product details and allows applying a [single product discount](https://kb.x-cart.com/modules/sale/new.html#setting-sale-price-for-single-products "Wholesale") to wholesale pricing if the former set percentagewise.
 * **Apply sale discount to wholesale prices** : This toggler is added to [sale offer properties](https://kb.x-cart.com/modules/sale/new.html#creating-a-sale-offer "Wholesale") (**Discounts** -> **Sale** -> **New sale**) and allows including products with wholesale prices into a sale offer. The offer is valid for wholesale pricing only if the discount amount set percentagewise. 
 
-In case a product with wholesale pricing is included into a sale offer or a product-specific discount is set on such a product, a related record displays in the **Wholesale pricing** tab of product details. 
+In case a product with wholesale pricing is included into a sale offer, or a product-specific discount applies, a related record displays in the **Wholesale pricing** tab of product details informing a store admin of the limitation set. 
         
 ## Configuration Samples 
 
