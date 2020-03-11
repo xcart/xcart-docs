@@ -19,6 +19,8 @@ PREREQUISITES:
 3. If you have {% link "price and/or weight modifiers" ref_1t4DxHbf %} set up in your store be aware that product variants will override the modifiers fuctionaity. You cannot use both at the same time.
 {% endnote %}
 
+{% toc %}
+
 ## Configuring the Variants Price Representation in the Storefront
 
 A price for a product with variants can either be displayed as a price range or as a single value based on the default variant price.
