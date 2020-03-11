@@ -56,7 +56,7 @@ To configure product variants for a product:
     {% note info %}
     If you are going to set the **Price** and **Quantity in stock** fields as separate values for each of product variants check that the content of the respective fields in the **Product info** tab of the product details page is empty. 
     
-    If you are planning that some of the **Price** and **Quantity in stock** field values will be the same for more than one product variant, you can specify them in the **Product info** tab of the product details page, and these values will be used as default values for any product variants that do not have their own variant-specific **SKU**, **Price** or **Quantity in stock** values defined.
+    If you are planning that some of the **Price** and **Quantity in stock** field values are the same for more than one product variant, you can specify them in the **Product info** tab of the product details page, and these values will be used as default values for any product variants that do not have their own variant-specific **SKU**, **Price** or **Quantity in stock** values defined.
     {% endnote %}
 
 2.  Click on the **Attributes** tab to access the section where you will be able to check the product's attributes: 
