@@ -19,6 +19,33 @@ PREREQUISITES:
 3. If you have {% link "price and/or weight modifiers" ref_1t4DxHbf %} set up in your store be aware that product variants will override the modifiers fuctionaity. You cannot use both at the same time.
 {% endnote %}
 
+## Configuring the Variants Price Representation in the Storefront
+
+A price for a product with variants can either be displayed as a price range or as a single value based on the default variant price.
+
+To configure the way a product price displays in the storefront:
+
+1. Go to the **My addons** section of your store Admin area, locate the "Product variants" addon and open the addon settings page.
+   ![540-settings.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/540-settings.png)
+
+2. Set the preferred value for the "How to show variant prices in product lists" option. 
+   ![540-settings-page.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/540-settings-page.png)
+
+   Available values are as follows:
+   * **Default variant price (default value)** : If you choose this option, the price for products with variants will display based on the default variant price.
+     ![540-storefront-default-variant.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/540-storefront-default-variant.png)
+
+   * **Price range** : If you choose this value, the price for products with variants will display as a price range from min to max variant price. 
+     ![540-storefront-price-range.png]({{site.baseurl}}/attachments/ref_2Tg4d2Tx/540-storefront-price-range.png)
+
+     {% note info %}
+     If you choose to switch to the "Price range" option, the first time you do so be sure to run a recalculation of quick data (**System tools** -> **Cache management** -> **Calculate quick data**). This has to be done either before or after the switch. Without the recalculation some features may not work correctly.
+     {% endnote %}
+   
+3. Click **Submit** to make the settings active.
+
+## Configuring Variants for Products
+
 To configure product variants for a product:
 
 1.  In your store's Admin area, locate a product you need to configure product variants for and open the product details page:
