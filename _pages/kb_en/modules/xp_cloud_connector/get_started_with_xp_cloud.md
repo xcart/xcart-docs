@@ -26,7 +26,11 @@ Note that for security reasons the length of an edit session in X-Payments Cloud
 To view the hidden content and/or to resume editing the X-Payments Cloud settings, you will need to unlock editing by clicking on the padlock icon displayed next to the title of the page being viewed or the **Unlock editing** link at the top right-hand side of the page:
 ![xpc_quick_access_mode1.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xpc_quick_access_mode1.png)
 
+Detailed information on configuring all the settings in your X-Payments Cloud account is available in the [X-Payments Cloud User manual](https://www.x-payments.com/help/XP_Cloud:User_manual "Getting Started with X-Payments Cloud").
+
 After completing the X-Payments Cloud configuration, make sure your X-Payments Cloud payment method is enabled in your X-Cart store.
+![xpc_cloud_payment_method_enabled.png]({{site.baseurl}}/attachments/ref_497aaUTF/xpc_cloud_payment_method_enabled.png)
+
 
 _Related pages:_
 * {% link "X-Payments Cloud Connector" ref_729XUzDQ %}
