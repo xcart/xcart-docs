@@ -110,7 +110,7 @@ published: true
       ![22.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/22.jpg)
 
 Как только активация лицензии завершится, сверху на странице появится системное подтверждение:
-      ![23.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/23.jpg)
+![23.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/23.jpg)
 
 Теперь в верхнем меню указан тип активированной лицензии:
       ![24.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/24.jpg)
