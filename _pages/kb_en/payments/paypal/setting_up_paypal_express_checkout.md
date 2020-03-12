@@ -32,20 +32,26 @@ After choosing this option, you will need to specify a set of credentials for ac
 To get a set of credentials please contact the PayPal support.
 {% endnote %}
 
-Two API options are supported: PayPal API and Payflow API. PayPal API (Merchant API) will work for most merchants. If you can, use PayPal API. If you only have access to Payflow API, then use Payflow API. 
+Two API options are supported: **PayPal API** and **Payflow API**. PayPal API (Merchant API) will work for most merchants. If you can, use PayPal API. If you only have access to Payflow API, then use Payflow API. 
 
-Your choice of an API solution will determine the type of API credentials that you will need to enter.
+Your choice of an API solution will determine the type of API credentials that you will need to enter. API credentials identify you as a PayPal Business account holder authorised to perform API operations.
 
-For PayPal API, you will need the following set of credentials: 
+**For PayPal API**, you will need the following set of credentials: 
     
    *  Partner name (should always be "PayPal"),
    *  API access username,
    *  API access password,
    *  API signature or API certificate (The *Use PayPal authentication method* box allows you to choose, which one you want to use).
 
-The above named credentials can be retrieved in your PayPal account profile.
+The above named credentials can be retrieved via your PayPal account profile.
 
-For Payflow API, you will need the following set of credentials: 
+An API signature is a unique string of numbers and letters. An API certificate is a file that you need to place on your X-Cart store server. Both serve the purpose of identifying your account.
+An API signature does not expire, is easier to implement and more commonly used. An API certificate is valid for three years, and you will need to renew it before it expires. The API certificate method is recommended for optimal security.
+
+If using an API signature, you simply need to copy and paste the string of numbers and letters provided to you by PayPal into the API signature box.
+If using an API certificate, you need to place the certificate file on your X-Cart server and specify the full absolute filepath in the API certificate box. The file can be stored inside or outside of your X-Cart store installation folder, but in any case you must ensure that it is stored securely in a location accessible to Curl but _**not accessible from the Web**_. For example, a good location to place your certificate will be the `files` folder of your X-Cart installation; that folder has an .htaccess file by which any files within the folder are protected from external access.
+
+**For Payflow API**, you will need the following set of credentials: 
 
    *  Partner name,
    *  Merchant login,
