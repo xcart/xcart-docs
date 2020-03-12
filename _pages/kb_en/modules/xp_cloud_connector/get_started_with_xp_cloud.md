@@ -11,11 +11,9 @@ Once your X-Cart 5 store has been {% link "connected to X-Payments Cloud" ref_4k
 
 The most evident method to access your X-Payments Cloud admin panel is by signing in to your X-Payments Cloud account right from within your X-Cart store (via the same section you used to complete the connection - the one titled "X-Payments Cloud settings"). In this case the X-Payments Cloud admin panel opens within your X-Cart store Admin area and looks as if it were just another X-Cart settings page.
 
-There is also a way to access your X-Payments Cloud admin panel directly (not from within your X-Cart store, but as a standalone website). For direct access to the standalone version of your X-Payments Cloud admin panel, use the URL provided to you in the email message sent to your X-Payments Cloud account registration email box. (The email subject line reads "Welcome to X-Payments!")
-
-If you do not feel like searching for your registration email but remember your X-Payments Cloud account name, you can easily re-create the admin panel URL using the following format:
+There is also a way to access your X-Payments Cloud admin panel directly (not from within your X-Cart store, but as a standalone website). For direct access to the standalone version of your X-Payments Cloud admin panel, use the URL 
 `https://your_xpc_account.xpayments.com/admin.php`
-(Simply replace the part 'your_xpc_account' with your actual X-Payments Cloud account name). 
+replacing the part 'your_xpc_account' with your actual X-Payments Cloud account name. 
 
 When you use the X-Payments Cloud admin panel from within your X-Cart store Admin area, you get access to all the features that you need to get X-Payments Cloud minimally configured and running to accept payments. For access to the extended set of features (like customization of the look and feel of your X-Payments Cloud payment form, management of X-Payments Cloud admin users, etc.) you need to go to the standalone version.
 
