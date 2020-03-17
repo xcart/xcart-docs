@@ -31,7 +31,7 @@ PREREQUISITES:
 Before configuring the Multicurrency addon, please ensure that the addon {% link "Geolocation" ref_34F5BkhW %} is installed and enabled. 
 {% endnote %}
 
-To enable the Multicurrency addon, follow the instructions from {% link "Installing and Activating Addons" ref_0fGEpvrh %}.
+To enable the Multicurrency addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
 ### Configuring the Addon General Settings
 
