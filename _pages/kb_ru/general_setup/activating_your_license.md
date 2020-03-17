@@ -65,7 +65,7 @@ published: true
           ![13.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/13.jpg)
     
 Пожалуйста, не закрывайте страницу до полного завершения активации лицензии.
-
+   
 По завершении активации сверху на странице появится системное подтверждение:
           ![14.jpg]({{site.baseurl}}/attachments/ref_eqZRcCns/14.jpg)
 
