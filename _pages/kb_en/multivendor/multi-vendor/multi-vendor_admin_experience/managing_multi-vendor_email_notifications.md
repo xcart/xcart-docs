@@ -35,7 +35,9 @@ The notifications pertaining to **Multi-vendor** include the following:
    
     * **Order processed (for vendor)**: This notification is sent to the vendor when an order gets the status Paid.
    
-    * **Customer has rated the order (for vendor)**: This notification is sent to the vendor when a customer rates the order of this vendor
+    * **Customer has rated the order (for vendor)**: This notification is sent to the vendor when a customer rates the order of this vendor.
+    
+    * **Backordered item in the orders** (for vendors): This notification is sent to a vendor if one or more products of this vendor in a customer's order are out of stock at the time of order placement (available starting from X-cart 5.4.1.x).
 
 
 * _Payout request related notifications:_
