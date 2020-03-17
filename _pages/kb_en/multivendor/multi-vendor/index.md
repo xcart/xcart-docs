@@ -20,7 +20,7 @@ Vendors in their turn can maintain their personal profile, create and manage the
 _In this section:_
 
 *   {% link "Multi-vendor: Admin Experience" ref_6kbIUy5R %}
-    *   {% link "Multi-vendor Getting Started for Admin" ref_5saLJNod %}
+    *   {% link "Multi-vendor Beginner's Guide for Admin" ref_5saLJNod %}
     *   {% link "Configuring the Multi-vendor Addon" ref_nFq48dhr %}
     *   {% link "Managing Vendor Access Permissions" ref_0GOeWpB2 %}
     *   {% link "Managing the Vendor Registration Page" ref_41fyOJ9F %}
@@ -33,8 +33,8 @@ _In this section:_
     *   {% link "Viewing Vendor Statistics" ref_4mvK1AKz %}
 
 *   {% link "Multi-vendor: Vendor Experience" ref_COgF04Tz %}
+    *   {% link "Multi-vendor Beginner's Guide for Vendors" ref_SZycMdTx %}
     *   {% link "Vendor Registration" ref_SkW62BgH %}
-    *   {% link "Vendor Login and First Steps" ref_SZycMdTx %}
     *   {% link "Managing Vendor Profile Information as a Vendor" ref_b7PTQMgf %}
     *   {% link "Managing the Catalog as a Vendor" ref_r4mcwiho %}
     *   {% link "Vendor Access to Product Classes and Attributes" ref_TvmooKW9 %}
