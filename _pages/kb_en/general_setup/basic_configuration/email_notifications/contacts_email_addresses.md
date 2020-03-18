@@ -15,7 +15,7 @@ redirect_from:
     /general_setup/email_notifications/specifying_your_contacts_email_addresses.html
 ---
 
-By default, all notifications in your store - except for the ones sent to customers - are sent to the administrator email address that was specified during X-Cart installation. If your store staff consists of more than just one person, or you want to use different email addresses for different types of notifications, you can add more recepient addresses for email notifications. This can be done via the _Contacts_ section of the Contact information page in your store's back end (**Store setup > Contact information**):
+By default, all notifications in your store - except for the ones sent to customers - are sent to the administrator email address specified during X-Cart installation. If your store staff consists of more than just one person, or you want to use different email addresses for different types of notifications, you can add more recipient addresses for email notifications. This can be done via the Contacts section of the Contact information page in your store’s back end (**Store setup > Contact information**):
 
 ![contacts.png]({{site.baseurl}}/attachments/ref_wKcxbiUf/contacts.png)
 
