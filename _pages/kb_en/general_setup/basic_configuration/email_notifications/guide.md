@@ -11,6 +11,9 @@ A full list of email notifications available in your store can be found in the *
 
 ![540-notifications-listing.png]({{site.baseurl}}/attachments/ref_18xvYU6L/540-notifications-listing.png)
 
+{% toc %}
+
+## Types of Email Notifications
 
 There are different types of notifications that can be conveniently classified as follows:
 
@@ -44,17 +47,16 @@ There are different types of notifications that can be conveniently classified a
 * Addon notifications.
   
   The notifications added by addons installed in the store have the addon name in the notification title and can vary. Such notifications are added and removed automatically when the addon to which they pertain is installed or deleted/disabled.
-  ![module.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/module.png)
+
+## Managing Email Notifications
+
+A store administrator can enable and disable email notifications directly on the listing page (**Store setup** -> **Email notifications**) in the store Admin area.
+
+To enable/disable a notification for a user type (Administrator or Customer) it is necessary to set the ON/OFF toggle for this user type to the corresponding value opposite a notification. In case the ON/OFF toggle is in faded-green a notification can not be disabled.
+![540-enable-disable.png]({{site.baseurl}}/attachments/ref_18xvYU6L/540-enable-disable.png)
 
 
-A store administrator can enable, disable and edit the notifications' content if required. 
 
-
-Admin notifications have an ON/OFF switch in the 'Administrator' column, customer notifications - an ON/OFF switch in the 'Customer' column, respectively. 
-
-Each email notification is identified by a title and has a mention that describes the purpose of the notification. 
-
-![notification_types.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/notification_types.png)
 
 
 
