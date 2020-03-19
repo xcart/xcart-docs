@@ -9,7 +9,8 @@ published: true
 ---
 A full list of email notifications available in your store can be found in the **Store setup** -> **Email notifications** section of the store Admin area.  
 
-![settings.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/settings.png?t=1522141442)
+![540-notifications-listing.png]({{site.baseurl}}/attachments/ref_18xvYU6L/540-notifications-listing.png)
+
 
 There are different types of notifications that can be conveniently classified as follows:
 
