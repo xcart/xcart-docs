@@ -5,7 +5,7 @@ updated_at: '2020-03-18 11:31 +0400'
 identifier: ref_18xvYU6L
 title: 'Quick Guide on Email Notifications '
 order: 100
-published: false
+published: true
 ---
 A full list of email notifications available in your store can be found in the **Store setup** -> **Email notifications** section of the store Admin area.  
 
