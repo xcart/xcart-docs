@@ -27,8 +27,8 @@ USER ACCOUNT NOTIFICATIONS
 
 STOCK NOTIFICATIONS
   
-  * **Low limit warning** : This message is used to notify the administrator when the stock level of a product reaches the low stock limit as specified in the product details.
-  * **Variant low limit warning** : This message is used to notify the administrator when the stock level of a product variant reaches the low stock limit as specified in the product details.
+  * **Low limit warning** : This message is used to notify a product owner when the stock level of a product reaches the low stock limit as specified in the product details.
+  * **Variant low limit warning** : This message is used to notify a product owner when the stock level of a product variant reaches the low stock limit as specified in the product details.
   * **Backordered item in the orders** : This notification is sent to the administrator if one or more products in a customer's order are out of stock at the time of order placement.
 
 PAYMENT NOTIFICATIONS  
