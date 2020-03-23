@@ -54,13 +54,41 @@ ADDON NOTIFICATIONS
 
 ## Managing Email Notifications
 
+For the notifications to send, it is not enough to activate them in the notifications list. A store admin must also configure the store email addresses properly and test the email transfer settings to ensure email notifications delivered to the end-user.
+
+### Enabling Email Notifications
+
 A store administrator can enable and disable email notifications directly on the listing page (**Store setup** -> **Email notifications**) in the store Admin area.
 
-To enable/disable a notification for a user type (Administrator or Customer) it is necessary to set the ON/OFF toggle for this user type to the corresponding value opposite a notification. In case the ON/OFF toggle is in faded-green a notification can not be disabled.
+To enable/disable a notification for a user type (Administrator or Customer) it is necessary to set the ON/OFF toggle for this user type to the corresponding value opposite a notification. 
 ![540-enable-disable.png]({{site.baseurl}}/attachments/ref_18xvYU6L/540-enable-disable.png)
 
+In case the ON/OFF toggle is in faded-green a notification can not be disabled.
 
+### Editing Email Notifications
 
+If necessary a store admin can edit each notificaton content (a message sent to the end-user via email to notify about an event) as well as the header, greeting and signature for all store notifications at once. 
 
+More information on managing notifications content is available in the following articles:
+*  {% link "Editing the Header, Greeting & Signature of Email Notifications" ref_2W845gkS %}
+*  {% link "Editing Email Notifications" ref_1qTqS245 %}
+*  {% link "Adding PDF Invoices to Email Notifications" ref_08i5p47o %}
+*  {% link "Using Variables to Configure Email  Notifications" ref_6fJMVyRl %}
 
+### Configuring Store Email Addresses
+
+Along with enabling email notifications in a store a store admin must check that the store contact email addresses are configured properly. If necessary a store admin can add more than one contact email to separate incoming notifications between staff.
+
+More information on configuring store email addresses see in:
+*  {% link "Specifying Your Contact Email Addresses" ref_wKcxbiUf %}
+
+### Configuring and Testing Email Transfer Settings
+
+When the notifications content and email adderesses are configured for the store, it is necessary to check that all notifications are delivered to the end-user without issues.
+
+For this purpose it will be necessary to set up email transfer settings in the **Store setup** -> **Email notifications** sections of your store Admin area and check the deliverability there. 
+
+More information on email transfer settings see in:
+*  {% link "Configuring Email Transfer Settings" ref_5PirMonD %}
+*  {% link "Testing Your Email Transfer Settings with mail-tester.com" ref_1QrpKuD3 %}
 
