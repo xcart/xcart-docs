@@ -7,7 +7,7 @@ title: Email Notifications Content
 order: 100
 published: true
 ---
-Investing some time in the design and content of your store email notifications can help you to level up communication with the customers. X-Cart provides a store admin with all means required to edit and maintain the content of the notifications and match it to particular business needs. A store administrator can change the default notificaiotns header and greating, update the notifications body to match compaty style, add extra information into notifications via email attachments and use preset variables to configure the content.
+Investing some time in the design and content of your store email notifications can help you to level up communication with the customers. X-Cart provides a store admin with all means required to edit and maintain the content of the emails and match it to particular business needs. A store administrator can change the default notifications header and greetings, modify the body of the notification to match company style, add extra information into notifications via email attachments and use preset variables to configure the content.
 
 In this section:
 *  {% link "Editing Email Notifications" ref_1qTqS245 %}
