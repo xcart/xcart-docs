@@ -8,6 +8,7 @@ order: 130
 published: true
 redirect_from:
   - /general_setup/email_notifications/pdf.html
+  - /general_setup/basic_configuration/email_notifications/pdf.html
 ---
 If necessary you can add a PDF version of invoices to the email notifications by enabling the setting **Send the PDF version of invoices in the attachments** on the **Attachments** tab of the **Store setup** -> **Email notifications** page. 
 
