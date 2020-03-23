@@ -8,7 +8,7 @@ order: 100
 published: true
 version: X-Cart 5.4.0.9. and earlier
 ---
-## Introduction
+
 
 This article explains how you can increase sku's length for your products. X-Cart limits sku to 32 characters and if you want to increase this value, you need to write a small mod.
 
