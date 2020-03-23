@@ -17,6 +17,7 @@ All email notifications are sent automatically. A store administrator can allow 
 
 _In this section:_
 
+*  {% link "Quick Guide on Email Notifications " ref_18xvYU6L %}
 *  {% link "Specifying Your Contact Email Addresses" ref_wKcxbiUf %}
 *  {% link "Editing Email Notifications" ref_1qTqS245 %}
 *  {% link "Editing the Header, Greeting &amp; Signature of Email Notifications" ref_2W845gkS %}
