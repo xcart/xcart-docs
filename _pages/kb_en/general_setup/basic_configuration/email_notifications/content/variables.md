@@ -6,6 +6,8 @@ identifier: ref_6fJMVyRl
 title: Using Variables to Configure Email  Notifications
 order: 135
 published: true
+redirect_from:
+  - /general_setup/basic_configuration/email_notifications/variables.html
 ---
 When adjusting the header, greeting, text and signature for your store's email notifications, it is possible to use variables. 
 
