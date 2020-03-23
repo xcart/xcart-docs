@@ -19,3 +19,4 @@ _In this section:_
 
 *  {% link "Quick Guide on Email Notifications " ref_18xvYU6L %}
 *  {% link "Email Notifications Transfer Setup" ref_0FmBzvsI %}
+*  {% link "Email Notifications Content" ref_0TNegvAb %}
