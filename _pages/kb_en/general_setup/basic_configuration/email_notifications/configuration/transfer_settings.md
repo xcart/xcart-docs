@@ -9,7 +9,7 @@ published: true
 redirect_from:
   - /general_setup/email_notifications/transfer_settings.html
   - >-
-    /general_setup/basic_configuration/email_notifications/testing_email_transfer_settings.html
+    /general_setup/basic_configuration/email_notifications/transfer_settings.html
 ---
 Email transfer configuration is the most important part of email notifications setup as the deliverability of email messages from your store to end users will depend on it.
 
