@@ -8,6 +8,7 @@ order: 120
 published: true
 redirect_from:
   - /general_setup/email_notifications/header.html
+  - /general_setup/basic_configuration/email_notifications/header.html
 ---
 In an X-Cart store, all email notifications have a header, a greeting and a signature. These are the same for all the notifications that are used in your store, and they can be edited via the **Header, greeting & signature** section of the **Store setup** -> **Email notifications** page. 
 
