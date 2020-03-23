@@ -6,7 +6,7 @@ identifier: ref_74D8LsxZ
 title: Increasing sku's length
 order: 100
 published: true
-version: X-Cart 5.4.0.9. and earlier
+version: X-Cart 5.3.x and earlier
 ---
 
 
