@@ -7,7 +7,7 @@ title: Specifying Your Contact Email Addresses
 categories:
   - User manual
 published: true
-order: 10
+order: 101
 redirect_from:
   - >-
     /general_setup/email_notifications/adding_recipient_addresses_for_email_notifications.html
