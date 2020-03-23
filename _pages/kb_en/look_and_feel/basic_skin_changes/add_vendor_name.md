@@ -6,7 +6,7 @@ identifier: ref_0tpuzI7Z
 title: Adding Vendor Name to Store Pages
 order: 800
 published: true
-version: X-Cart Multivendor
+version: X-Cart Multivendor v5.4.0.5 and earlier
 ---
 Sometimes it may be necessary to display a Vendor's Company Name on some page of your store where it is not listed. 
 
