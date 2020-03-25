@@ -18,5 +18,5 @@ XC5 Public Styleguide helps a software developer to spend less time on coding th
 In case a software developer needs to add new elements to the Admin area interface that are not yet present in the X-Cart core, the general rules of the XC5 Public Styleguide should be taken as a basis for the elements creation including but not limited to complying with the marked indents inside and outside elements, the sizes and the colors of fonts, buttons and icons, etc.
 
 {% note info %}
-If you need an advanced access to [Zeplin](https://zeplin.io/ "Admin Style Guide") request it using the [Contact Us](https://www.x-cart.com/contact-us.html "Admin Style Guide") form on the site. Send us your e-mail and we'll invite you to the project.
+If you need advanced access to [Zeplin](https://zeplin.io/ "Admin Style Guide"), you can request it using the [Contact Us](https://www.x-cart.com/contact-us.html "Admin Style Guide") form on the site. Send us your email, and we will invite you to the project.
 {% endnote %}
