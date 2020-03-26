@@ -10,7 +10,7 @@ redirect_from:
   - /general_setup/email_notifications/edit_text.html
   - /general_setup/basic_configuration/email_notifications/edit_text.html
 ---
-Each email notification consists of a header, greeting and signature that are the same for a user type storewide and of a message that differs for each notification and type of user receiving it. It also can include dynamic data from the store, like order notifications that display information on a particular order. A store admin can change any part of a default email to meet particular business needs and can also restructure it by excluding information partially. 
+Each email notification consists of a header, a greeting and a signature that are the same for a user type storewide and of a message that differs for each notification and type of user receiving it. It also can include dynamic data from the store, like order notifications that display information on a particular order. A store admin can change any part of a default email to meet particular business needs and can also restructure it by excluding information partially. 
 
 The structure of an email notification and the message it embodies can be edited via the **Store setup** -> **Email notifications** section of the Admin area.
 ![540-notifications-listing.png]({{site.baseurl}}/attachments/ref_1qTqS245/540-notifications-listing.png)
@@ -33,7 +33,7 @@ To edit a notification:
      ![540-settings-general.png]({{site.baseurl}}/attachments/ref_1qTqS245/540-settings-general.png)
      
      Here a store admin can view and adjust the following information:
-     * **Notification description** : The information about an event and the type of users that are notified about this events by email. This field is representative. The information it contains can be edited in the **Description** field of the **System settings** section.
+     * **Notification description** : The information about an event and the type of users that are notified about this event by email. This field is representative. The information it contains can be edited in the **Description** field of the **System settings** section.
      * **State** : An ON/OFF toggle that enables or disables a notification for a user type. 
        {% note info %}
        This toggle works the same way as the ON/OFF toggle on the notifications listing page (**Store setup** -> **Email notifications** -> **Settings**) in your store Admin area.
