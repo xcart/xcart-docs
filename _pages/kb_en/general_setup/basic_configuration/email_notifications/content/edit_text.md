@@ -66,7 +66,7 @@ To edit a notification:
           This opens a dynamic message editor in a new tab. 
           ![540-dymamic-content.png]({{site.baseurl}}/attachments/ref_1qTqS245/540-dymamic-content.png)
           In case there is no dynamic content embedded, you will see the following message: 
-          > The dynamic message is empty for this notification. If you need to use specific TWIG code, use the template tree on the left-hand side of the screen to choose the TWIG file you require. For plain text we recommend using the WYSIWYG editor on the Edit notification page.
+          > _The dynamic message is empty for this notification. If you need to use specific TWIG code, use the template tree on the left-hand side of the screen to choose the TWIG file you require. For plain text we recommend using the WYSIWYG editor on the Edit notification page._
           
         *  Click either on a file path to the left or double-click on a highlighted content to the right.
            ![540-dynamic-click-to-edit.png]({{site.baseurl}}/attachments/ref_1qTqS245/540-dynamic-click-to-edit.png)
