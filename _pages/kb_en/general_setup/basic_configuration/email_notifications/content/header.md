@@ -32,6 +32,10 @@ When adjusting the header, greeting and signature for your store's email notific
 
 After changing the settings in the **Header, greeting & signature** section, be sure to click the **Save changes** button at the bottom of the page to make changes active.
 
+Below is the text of a sample email notification, that contains a default header, greeting and signature.
+![540-sample-notification.png]({{site.baseurl}}/attachments/ref_2W845gkS/540-sample-notification.png)
+
+
 
 _Related pages:_
 
