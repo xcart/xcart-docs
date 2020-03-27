@@ -10,20 +10,27 @@ redirect_from:
   - /general_setup/email_notifications/header.html
   - /general_setup/basic_configuration/email_notifications/header.html
 ---
-In an X-Cart store, all email notifications have a header, a greeting and a signature. These are the same for all the notifications that are used in your store, and they can be edited via the **Header, greeting & signature** section of the **Store setup** -> **Email notifications** page. 
+In an X-Cart store, all email notifications have a header, a greeting and a signature that differ depending on the user type a message is sent to. These settings are configured storewide and can be edited via the **Header, greeting & signature** section of the **Store setup** -> **Email notifications** page. 
+  ![541-header-greeting-signature.png]({{site.baseurl}}/attachments/ref_2W845gkS/541-header-greeting-signature.png)
 
-![header.png]({{site.baseurl}}/attachments/ref_2W845gkS/header.png)
+The **Header, greeting & signature** page is devided into sections depending on the user type:
+* Customer email notification
+  ![540-customer-set.png]({{site.baseurl}}/attachments/ref_2W845gkS/540-customer-set.png)
 
-The format of the greeting is the same for both the admin and customer notifications, whereas the format of the header and the signature can be set separately for notifications intended for admin and customer users. 
+* Admin email notification
+  ![540-admin-set.png]({{site.baseurl}}/attachments/ref_2W845gkS/540-admin-set.png)
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![customer.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/customer.png)</div>
-  <div class="column" markdown="span">![admin.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/admin.png)</div>
-</div> 
+* Vendor email notification (added by a Multi-vendor addon)
+  ![540-vebdor-set.png]({{site.baseurl}}/attachments/ref_2W845gkS/540-vebdor-set.png)
 
-When adjusting the header, greeting and signature for your store's email notifications, it is possible to use variables. See {% link "Using variables to configure your email  notifications" ref_6fJMVyRl %}
+Each section contains the same set of properties that can be configured for all notifications received by a certain type of users:
+* **Header** : Use this field to add information that should display at the top of the email message. 
+* **Greeting** : Use this field to define a standard greeting for a user type every email will start. 
+* **Signature** : Use this field to define the ending phrase for every email for a user type. 
 
-After changing the settings in the **Header, greeting & signature** section, be sure to click the **Save changes** button at the bottom of the page to save your changes.
+When adjusting the header, greeting and signature for your store's email notifications, it is possible to use variables. See more info in {% link "Using variables to configure your email notifications" ref_6fJMVyRl %}.
+
+After changing the settings in the **Header, greeting & signature** section, be sure to click the **Save changes** button at the bottom of the page to make changes active.
 
 
 _Related pages:_
