@@ -20,7 +20,7 @@ For example, if you want the greeting of an email notification to mention the us
 
 Similarly, if you need your store's name in the email notification signature, you should first specify it on the contact information page (**Store setup** > **Contact information**) and then add it to your email notification signature by using the variable %company_name% in the text. This way, the company name will appear in the email notification that will come to your customer's inbox. 
 
-Here's an overview of the variables supported in X-Cart store email notifications:
+Here's a general overview of the variables supported in X-Cart store email notifications:
 
    * ```%company_address%```- Your company street address as specified on your store’s Contact information page.
    * ```%company_city%```- The city of your company address as specified on your store’s Contact information page.
