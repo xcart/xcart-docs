@@ -41,6 +41,11 @@ With the _Yes/No_ field type, it is quite similar; the only difference is that t
 
 ![multivalue-6.png]({{site.baseurl}}/attachments/ref_465IZQg9/multivalue-6.png)
 
+{% note info %}
+The Yes/No type of attribute requires the "Buyers can select an option" toggle set to YES for the multivalue feature to become available. The toggle can be switched on when configuring attribute properties.
+![yes-no-select-option.png]({{site.baseurl}}/attachments/ref_465IZQg9/yes-no-select-option.png)
+{% endnote %}
+
 On the storefront, customers can choose the option they require by adjusting the respective check box:
 
 ![multivallue-7.png]({{site.baseurl}}/attachments/ref_465IZQg9/multivallue-7.png)
