@@ -20,7 +20,7 @@ For example, if you want the greeting of an email notification to mention the us
 
 Similarly, if you need your store's name in the email notification signature, you should first specify it on the contact information page (**Store setup** > **Contact information**) and then add it to your email notification signature by using the variable %company_name% in the text. This way, the company name will appear in the email notification that will come to your customer's inbox. 
 
-Here's a general overview of the variables supported in X-Cart store email notifications:
+Below is the list of the variables supported in X-Cart store in all email notifications:
 
    * ```%company_address%```- Your company street address as specified on your store’s Contact information page.
    * ```%company_city%```- The city of your company address as specified on your store’s Contact information page.
@@ -32,28 +32,14 @@ Here's a general overview of the variables supported in X-Cart store email notif
    * ```%company_state%```- The state of your company address as specified on your store’s Contact information page.
    * ```%company_website%```- Link to your company website as specified on your store’s Contact information page.
    * ```%company_zipcode%```- The zip code of your company address as specified on your store’s Contact information page.
-   * ```%conversation_link%``` - Link to the conversation between the customer and the vendor, without relation to a specific order. (Communication between customer and vendor users is enabled by the Messages addon.)
    * ```%logo%``` - Your company logo.
-   * ```%message%``` - Message (enabled by the Messages addon.) 
-   * ```%order_link%```	- Link to the order details
-   * ```%order_messages_link%``` - Link to the conversation between the customer and the vendor/administrator regarding a specific order. (Communication between customer and vendor/administrator users is enabled by the Messages addon.) 
-   * ```%order_number%``` - Order number.
    * ```%recipient_name%``` - The first and last name of a user as defined in a user profile.
    
 Variables added starting from X-Cart 5.4.0.x
    * ```%dynamic_message%``` - Content of a notification based on the body.twig template.
-   * ```%ip%``` - Website IP.
-   * ```%login%``` - User login email.
-   * ```%notification_body%``` - Зlaceholder for notification content, if not used the content is added to the end.
-   * ```%payment_method_name%``` - A name of the payment method used to place an order.
-   * ```%reset_link%``` - Your store website address.
-   * ```%shipping_method_name%``` - A name of the shipping method used to place an order.
    
- 
-
-   
-   
-
+   Besides listed above each notification can have a unique set of variables used to form its content. To see all the variables supported, refer to a help icon opposite any field on the notification settings page.
+  
 
 _Related pages:_
 
