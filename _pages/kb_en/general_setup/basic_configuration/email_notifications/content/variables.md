@@ -11,7 +11,7 @@ redirect_from:
 ---
 When adjusting the header, greeting, text and signature for your store's email notifications, it is possible to use variables. 
 
-A list of supported variables and their respective values can be found by clicking on the help icon displayed next to the field you wish to edit.
+A list of variables supported in an email notification and their respective values can be found by clicking on the help icon displayed next to the field you wish to edit.
 ![xc5_notif_variables.png]({{site.baseurl}}/attachments/ref_2W845gkS/xc5_notif_variables.png)
 
 The variables enable you to provide a placeholder for information that changes from one email message to another or is not known to you (like the name of the intended recipient of the email notification, an order ID, or a link to the details of the order in question). They also enable you to re-use the information that has already been provided by you somewhere else in the Admin area without having to write it again in the notification fields. 
