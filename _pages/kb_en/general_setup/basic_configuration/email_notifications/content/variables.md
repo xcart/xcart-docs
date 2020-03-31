@@ -38,6 +38,9 @@ Below is the list of variables supported in X-Cart store in all email notificati
 Variables added starting from X-Cart 5.4.0.x
    * ```%dynamic_message%``` - Content of a notification based on the body.twig template.
    
+Variables added starting from X-Cart 5.4.1.x
+   * ```%first_name%```- The first name of a user as defined in a user profile.
+   
    Besides listed above each notification can have a unique set of variables used to form its content. To see all the variables supported, refer to a help icon opposite any field on the notification settings page.
   
 
