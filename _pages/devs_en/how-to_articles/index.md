@@ -14,6 +14,7 @@ published: true
 
 These articles will guide you to achieve some typical tasks and answer the most basic 'how-to' questions:
 
+*   {% link "How to Add Your Company Name to the Address Section of the Contact Us Page" ref_5P4chyvs %}
 *   {% link "How to add Facebook Pixel Сode to X-Cart pages" ref_dENrdWxT %}
 *   {% link "How to add Google Adwords Conversion Tracking Code to «Thank you for your order» page" ref_g8xO0UNP %}
 *   {% link "How to add Google Tag Manager code snippets to the store pages" ref_eHPw9R4e %}
