@@ -12,7 +12,7 @@ redirect_from:
 When adjusting the header, greeting, text and signature for your store's email notifications, it is possible to use variables. 
 
 A list of variables supported in an email notification and their respective values can be found by clicking on the help icon (tooltip) displayed next to the field you wish to edit.
-![xc5_notif_variables.png]({{site.baseurl}}/attachments/ref_2W845gkS/xc5_notif_variables.png)
+![540-tooltip-1.png]({{site.baseurl}}/attachments/ref_6fJMVyRl/540-tooltip-1.png)
 
 The variables enable you to provide a placeholder for information that changes from one email message to another or is not known to you (like the name of the intended recipient of the email notification, an order ID, or a link to the details of the order in question). They also enable you to re-use the information that has already been provided by you somewhere else in the Admin area without having to write it again in the notification fields. 
 
@@ -42,8 +42,11 @@ Variables added starting from X-Cart 5.4.1.x
    * ```%first_name%```- The first name of a user as defined in a user profile.
    
    Besides listed above each notification can have a unique set of variables used to form its content. To see all the variables supported, refer to a help icon (tooltip) opposite any field on the notification settings page.
+   ![540-tooltip-2.png]({{site.baseurl}}/attachments/ref_6fJMVyRl/540-tooltip-2.png)
   
 
 _Related pages:_
 
    * {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}
+   * {% link "Editing Email Notifications" ref_1qTqS245 %}
+   * {% link "Editing the Header, Greeting &amp; Signature of Email Notifications" ref_2W845gkS %}
