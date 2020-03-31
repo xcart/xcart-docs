@@ -327,6 +327,10 @@ X-Cart store is ready to work and the whole world is open to you.
 
 Use X-Cart {% link "Beginner's Guide" ref_22Mt5dpo %} to set up your store and start selling.
 
+Execution of miscellaneous service and maintenance tasks in X-Cart require a special cron job set up on the server. Hence, it may be usefull to configure the server your X-Cart is installed at to run scheduled tasks as described {% link "here" ref_lLqNzAaq %}. 
+
+Also, if you change the cache driver setting on the server don't forget to add a cron task described [here](https://kb.x-cart.com/general_setup/installation/server/choosing_data_cache_driver.html#file-system-cache "Installation Guide").
+
 P.S. And don't forget about {% link "security measures" ref_4ewdbDM8 %}!
 
 ## Possible Installation Problems
