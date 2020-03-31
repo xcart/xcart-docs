@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-26 19:18 +0400'
 identifier: ref_08i5p47o
 title: Adding PDF Invoices to Email Notifications
-order: 130
+order: 150
 published: true
 redirect_from:
   - /general_setup/email_notifications/pdf.html
