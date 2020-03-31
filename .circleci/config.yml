@@ -13,8 +13,8 @@ jobs:
           CI_WORKSPACE: _workspace
           SSH_STRING: ssh -o StrictHostKeyChecking=no -p1002
           SSH_HOST: kbsync@kb5.x-cart.com
-          # SSH_HOST_RU: kbsync@kb5.x-cart.com
-          SSH_HOST_RU: kbsync@95.181.198.245
+          SSH_HOST_RU: kbsync@kb5.x-cart.com
+          # SSH_HOST_RU: kbsync@95.181.198.245
     steps:
       - checkout
 
