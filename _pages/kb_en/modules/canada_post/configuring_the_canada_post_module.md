@@ -42,11 +42,15 @@ Below is an explanation of the settings that can be found on the Canada Post set
 
 * **Quote type**: Choose _Commercial_ to get contracted rates (as contracted between you and Canada Post); choose _Counter_ to get rates you'd get over the counter (without a customer or contract number).
 
-* **Customer number**: This field is intended for your Canada Post commercial customer number, if you have one. See the Canada Post website for more info:
-    *   [Why do I need a Canada Post customer number?](https://www.canadapost.ca/web/en/kb/details.page?article=get_a_commercial_cus&cattype=kb&cat=accountinformation&subcat=generalinformation "Configuring the Canada Post Addon") 
-    *   [How can I get a commercial customer number?](https://www.canadapost.ca/web/en/kb/details.page?article=get_a_commercial_cus&cattype=kb&cat=accountinformation&subcat=generalinformation "Configuring the Canada Post Addon")
-
-After you have completed the Canada Post registration via the Merchant registration wizard, this field will be completed automatically.
+* **Customer number**: This field is intended for your Canada Post commercial customer number, if you have one. 
+  
+  {% note info %}
+  This field fills in automatically if you have completed the Canada Post registration via the Merchant registration wizard.
+  {% endnote %}
+    
+  See the Canada Post website for more info:
+  *   [Why do I need a Canada Post customer number?](https://www.canadapost.ca/web/en/kb/details.page?article=get_a_commercial_cus&cattype=kb&cat=accountinformation&subcat=generalinformation "Configuring the Canada Post Addon") 
+  *   [How can I get a commercial customer number?](https://www.canadapost.ca/web/en/kb/details.page?article=get_a_commercial_cus&cattype=kb&cat=accountinformation&subcat=generalinformation "Configuring the Canada Post Addon")
 
 * **Currency rate**: This setting is needed for stores whose primary currency is other than the Canadian Dollar. Here you must specify a conversion rate for the currency used by your store (Specify rate X, where 1 CAD = X in shop currency).
 
