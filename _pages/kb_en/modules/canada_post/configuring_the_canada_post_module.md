@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 11:34 +0400'
 identifier: ref_XsHLxUwv
-title: Configuring the Canada Post Addon
+title: Configuring the Canada Post Addon Manually
 categories:
   - User manual
 published: true
