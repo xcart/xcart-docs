@@ -12,14 +12,19 @@ order: 110
 To start shipping with Canada Post:
 
 1.  In your store's Admin area, go to the **My addons** section and make sure the addon **Canada Post** is installed and enabled.
-    ![canada_post_addon.png]({{site.baseurl}}/attachments/ref_zfNLsPus/canada_post_addon.png)
+    ![540-addon-enabled.png]({{site.baseurl}}/attachments/ref_zfNLsPus/540-addon-enabled.png)
 
     (General addon installation instructions are available here: {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.)
 
-2.  Click the _Settings_ link for **Canada Post** to access the addon settings page:
-    ![module-settings.png]({{site.baseurl}}/attachments/ref_zfNLsPus/module-settings.png)
-    On this page, a Merchant registration wizard is provided that allows you to start registration for the Canada Post services.
-    To start, simply click **Register**. You will be redirected to the Canada Post website where you will be able to sign up for a Canada Post account  or sign in using your existing account:
+2.  Click the _Settings_ link for **Canada Post**:
+    ![540-settings-link.png]({{site.baseurl}}/attachments/ref_zfNLsPus/540-settings-link.png)
+    
+    This opens the Canada Post settings page:
+    ![540-settings-page.png]({{site.baseurl}}/attachments/ref_zfNLsPus/540-settings-page.png)
+
+    On this page, a store admin can either register for the Canada Post services if there is no registered account as yet or configure the addon manually with the Canada Post profile data in case a registered account already exists.
+    
+    To start, simply click **Register**. You will be redirected to the Canada Post website where you will be able to sign up for a Canada Post account or sign in using your existing account:
     ![]({{site.baseurl}}/attachments/7505231/7602671.png)
     
     {% note  info %}
