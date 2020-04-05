@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-12-28 10:23 +0400'
 identifier: ref_zfNLsPus
-title: Getting Started with Canada Post
+title: Getting Started with Canada Post (Automated Setup)
 categories:
   - User manual
 published: true
