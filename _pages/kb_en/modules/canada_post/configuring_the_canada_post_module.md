@@ -9,11 +9,18 @@ categories:
 published: true
 order: 120
 ---
-The addon **Canada Post** configuration settings are ported into X-Cart automatically after hitting the **'Register'** button on the addon settings page. 
+The regular way to configure the addon **Canada Post** is to port the settings into X-Cart automatically by hitting the **'Register'** button on the addon settings page. The procedure is described in details {% link "here" ref_zfNLsPus %}.
+![540-settings-page.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/540-settings-page.png)
 
-![module-settings.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/module-settings.png)
+However, it may still be necessary to adjust some parcel characteristics afterwards or you may prefer to configure the addon manually. 
 
-However, it may still be necessary to adjust some parcel characteristics afterwards or you may prefer to configure the addon manually. To do so hit the **'Configure manually'** button on the addon settings page. You can access this page using one of the following methods:
+{% toc %}
+
+## Accessing the Settings Page to Configure the Addon Manually
+
+To access the addon configuration parameters click the **'Configure manually'** button on the addon settings page. 
+
+You can access the addon settings page using one of the following methods:
 
 Method 1:
 
@@ -26,19 +33,47 @@ Method 1:
 Method 2:
 
   1. In the **My addons** section of your X-Cart store’s Admin area, find the Canada Post addon and click on its name to access the addon detailed information.  
+     ![540-addon-enabled.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/540-addon-enabled.png)
 
   2.  On the addon information page, click on the **Settings** link.
+      ![540-settings-link.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/540-settings-link.png)
 
-Below is an explanation of the settings that can be found on the Canada Post settings page.
+This opens the Canada Post settings page where you need to click the **Configure manually** button to open the list of setting parameters available for configuration.
 
-## Canada Post Settings
+![540-configure-manually-button.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/540-configure-manually-button.png)
 
-* **User** and **Password**: These fields store your Canada Post merchant API key. They are completed automatically as a result of Canada Post registration via the Merchant registration wizard.
+
+## Canada Post Manual Configuration Page
+
+Below is an explanation of the settings that can be found on the Canada Post manual configuration page.
+![540-manual-settings-page.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/540-manual-settings-page.png)
+
+The page itself includes all possible parameters that can be set up for the Canada Post addon devided into several sections.
+
+The page also provides a possibility to return to the main addon settings page via the **Enable merchant wizard** link to set up the addon {% link "automatically" ref_zfNLsPus %}.
+![540-automated-setup-link.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/540-automated-setup-link.png)
+
+
+### Canada Post Settings
+
+This section consists of the general parameters that define the related Canada Post account data (usually pre-defined if {% link "the automated addon set-up" ref_zfNLsPus %} was used), the mode the addon is used in and the ability to store logs on the server. 
+
+![settings-11.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-11.png)
+
+* **User** and **Password**: These fields store your Canada Post merchant API key (username and password). 
+  
+  The fields are filled in automatically in case the addon configuration has been completed using the **Register** button on the addon settings page. See more details on the automated addon set-up {% link "here" ref_zfNLsPus %}.
+  
+  It is also possible to define the fields' values manually, if required. 
 * **Developer mode**: Enable it if you want to test the shipping method before making it live.
 * **Log all comunications between shopping cart and UPS server**: Enable if you want to have logs saved for future references.
-   ![settings-11.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-11.png)
+   
 
-## Additional Settings
+### Additional Settings
+
+This section consists of the additional parameters that you can set up for your Canada post account.
+
+![settings-2.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-2.png)
 
 * **Quote type**: Choose _Commercial_ to get contracted rates (as contracted between you and Canada Post); choose _Counter_ to get rates you'd get over the counter (without a customer or contract number).
 
@@ -54,12 +89,13 @@ Below is an explanation of the settings that can be found on the Canada Post set
 
 * **Currency rate**: This setting is needed for stores whose primary currency is other than the Canadian Dollar. Here you must specify a conversion rate for the currency used by your store (Specify rate X, where 1 CAD = X in shop currency).
 
-![settings-2.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-2.png)
 
+### Contract Shipping Options
 
-## Contract Shipping Options
+This section provides settings that define the contract shipping options.
+![settings-3.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-3.png)
 
-* **Contract ID**: Your Canada Post contract number. This must be provided for commercial (contracted) rates, if exists. For non-contract rates, this will be empty. This field is completed automatically as a result of registration via the Merchant registration wizard.
+* **Contract ID**: Your Canada Post contract number. This must be provided for commercial (contracted) rates, if exists. For non-contract rates, this will be empty. This field is pre-defined in case of {% link "automated" ref_zfNLsPus %} registration. 
 
 * **Shipments pick up type**: Specify whether you want Canada Post to pick up shipments at your business location (_shipments are picked up by Canada Post_) or whether you want to deliver your items to a post office from where they will be shipped further (_deposit your items at a Post Office_).
 
@@ -69,9 +105,11 @@ Below is an explanation of the settings that can be found on the Canada Post set
 
 * **Contact name for the manifest address**: Specify the name that should be used for your manifest address (Character string up to 44 characters; will be printed on the manifest document).
 
-![settings-3.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-3.png)
 
-## Deliver to Post Office Options
+### Deliver to Post Office Options
+
+This section provides settings that define delivery options to post offices.
+![settings-5.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-5.png)
 
 * **Enable "Deliver to Post Office" feature**: Enable this to allow your buyers to get their purchases at a nearby post office location of their choice.
 
@@ -81,11 +119,11 @@ Below is an explanation of the settings that can be found on the Canada Post set
 
 * **Maximum Post Offices that Will Be Displayed**: Specify the maximum number of post offices that should be displayed for selection to a buyer who chose to use the "Deliver to Post Office" option.
 
-![settings-5.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-5.png)
-
-## Parcel Characteristics
+### Parcel Characteristics
 
 The settings in this section allow you to specify the typical characteristics of a parcel that will be sent from your store via Canada Post. The characteristics specified here will be used as the default values for configuring shipments; if necessary, you will be able to edit these values for specific shipments. 
+
+![settings-6.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-6.png)
 
 * **Package length (cm)**: Longest dimension of the parcel in cm (Numeric field, 999.9 pattern).
 
@@ -103,15 +141,17 @@ The settings in this section allow you to specify the typical characteristics of
 
 * **Oversized**: - Indicates whether the parcel is oversized or not. If parcel dimensions have been provided, then this element will be automatically determined (as either true or false) based on the parcel dimensions (regardless of whether you include a value for the "oversized" element field). However, if no dimensions are provided, then you can specify that a parcel is oversized (or not) using this element.
 
-![settings-6.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-6.png)
+x
 
 {% note info %}
 Please note that currently X-Cart's Canada Post addon does not support the use of package dimensions (**Package length**, **Package width** and **Package height**) for rate calculation and for splitting a single order into multiple packages; only the **Pakage maximum weight** value and the weight of the products in the order are taken into account.
 {% endnote %}
 
-## Parcel options
+### Parcel options
 
 The settings in this section allow you to specify the default option values for your Canada Post shipments.
+
+![settings-7.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-7.png)
 
 *   **Way to deliver**: Use this to provide special instructons as to how the parcel should be delivered. You can choose one of the following options:
 
@@ -135,8 +175,6 @@ The settings in this section allow you to specify the default option values for 
     *   _Return at Sender's Expense_, 
     *   _Return to Sender,_
     *   _Abandon_ (The parcel will not be returned but will be disposed of by Canada Post).
-
-![settings-7.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/settings-7.png)
 
 For detailed information on Canada Post rules and practices, please refer to the [Canada Postal Guide](http://www.canadapost.ca/postalguide).
 
