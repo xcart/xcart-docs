@@ -45,36 +45,36 @@ To configure the addon:
      
      This section allows a store admin to configure the design settings of the form. 
 
-     Options available for reCAPTCHA v2 are as follows:
-     ![settings-2.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2.png)
-     * **Theme** : Select the theme of the form. 
-     * **Size** : Select the size of the form.
+     * Options available for reCAPTCHA v2 are as follows:
+       ![settings-2.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2.png)
+       * **Theme** : Select the theme of the form. 
+       * **Size** : Select the size of the form.
      
-     Options available for reCAPTCHA v3(beta) are as follows:
-     ![settings-2-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2-v3.png)
-     * **Minimal score required to pass verification** : Define a score from 0 (definitely bot) to 1 (definitely human) a user should gain to pass verification. 
-     * **Throttling period (seconds)** : Set the period in seconds to limit the number of requests a user can submit in a given amount of time.
+     * Options available for reCAPTCHA v3(beta) are as follows:
+       ![settings-2-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2-v3.png)
+       * **Minimal score required to pass verification** : Define a score from 0 (definitely bot) to 1 (definitely human) a user should gain to pass verification. 
+       * **Throttling period (seconds)** : Set the period in seconds to limit the number of requests a user can submit in a given amount of time.
    
    * Forms protected with Google reCAPTCHA
    
      This section allows a store admin to choose the actions that will be protected with Google ReCAPTCHA.
 
-     API v2 allows to toggle on the reCAPTCHA protection for the folowing forms:
-     ![setings-3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/setings-3.png)
-     * Sign-in form (storefront)
-     * Password recovery form
-     * Customer sign-up form
-     * Contact form
-     * Vendor sign-up form (if the Multi-vendor addon is enabled)
+     * API v2 allows to toggle on the reCAPTCHA protection for the folowing forms:
+       ![setings-3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/setings-3.png)
+       * Sign-in form (storefront)
+       * Password recovery form
+       * Customer sign-up form
+       * Contact form
+       * Vendor sign-up form (if the Multi-vendor addon is enabled)
      
-     API v3(beta) allows to toggle on the reCAPTCHA protection for the following forms:
-     ![settings-3-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-3-v3.png)
-     * Sign-in form (storefront)
-     * Password recovery form
-     * Customer sign-up form
-     * Contact form
-     * Vendor sign-up form (if the {% link "Multivendor" ref_4ahg5FLK %} addon is enabled)
-     * Newsletter subscription form (if the {% link "Newsletter" ref_1YvPiQr5 %} addon is enabled)
+     * API v3(beta) allows to toggle on the reCAPTCHA protection for the following forms:
+       ![settings-3-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-3-v3.png)
+       * Sign-in form (storefront)
+       * Password recovery form
+       * Customer sign-up form
+       * Contact form
+       * Vendor sign-up form (if the {% link "Multivendor" ref_4ahg5FLK %} addon is enabled)
+       * Newsletter subscription form (if the {% link "Newsletter" ref_1YvPiQr5 %} addon is enabled)
      
        A store admin can configure the following parameters for each enabled form:
        ![setting-3-v3-on.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/setting-3-v3-on.png)
