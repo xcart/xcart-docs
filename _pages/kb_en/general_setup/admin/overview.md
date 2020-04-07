@@ -125,7 +125,7 @@ This menu includes the following sections:
 
 The Info Dashboard on the Admin Home page provides information about your customers' orders awaiting processing, products with low stock and products that sell best (bestsellers). 
 
-The 'Orders awaiting processing' board provides information on the latest five orders placed in the store. You can proceed to the details of any of these orders by clicking on its order number.
+The 'Orders awaiting processing' board provides information on the latest five orders placed in the store (see more info on the orders awaiting processing [here](https://kb.x-cart.com/orders/order_management.html#advanced-orders-search "Admin Area Overview")). You can proceed to the details of any of these orders by clicking on its order number.
 
 Similarly, the 'Low inventory products' board shows the latest five products with the lowest inventory level. You can proceed to the details of any of these products by clicking on the product name.
 
