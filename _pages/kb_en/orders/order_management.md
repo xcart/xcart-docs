@@ -9,7 +9,7 @@ published: true
 redirect_from:
   - /orders/order_processing_workflow.html
 ---
-Order management refers to the process of receiving, tracking, and fulfilling customer orders. The order management process begins when an order is placed, and ends when the customer receives their package. 
+Order management refers to the process of receiving, tracking and fulfilling customer orders. The order management process begins when an order is placed and ends when a customer receives their package. 
 
 X-Cart allows to trace all orders placed in your store in one single place - the order listing page (**Orders** -> **Order List** section) where a store admin can manage them accordingly. The order processing workflow for a store admin will differ depending on the payment method used by a customer to pay for the order.
 
@@ -45,6 +45,11 @@ The orders listing page has an advanced search panel where a store admin can fil
 The chosen search parameters can then be saved and displayed along with the preset filters on the top of the page.
 ![540-saved-filters.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-saved-filters.png)
 
+There are 2 preset filters by default:
+* **All orders** : This filter allows to see all orders available in a store.
+* **Awaiting processing** : This filter displays the recently placed orders that have both the payment and fulfilment statuses unchanged from the moment of placement. At the moment any order status changes, the order is removed from the list of awaiting processing. 
+   
+   The filter displays both on the order listing page and on the [Dashboard](https://kb.x-cart.com/general_setup/admin/overview.html#info-dashboard "Managing Orders in X-Cart") on the Admon area homepage.
 
 ### Bulk-Editing Orders
 
@@ -179,4 +184,3 @@ A store admin can create a return or work with a return request from a customer 
 ![540-create-return.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-create-return.png)
 
 For the detailed guides on how to process returns in X-Cart see {% link "Order Returns" ref_30bVFfXt %}.
-
