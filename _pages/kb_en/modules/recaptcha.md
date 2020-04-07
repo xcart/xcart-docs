@@ -44,24 +44,48 @@ To configure the addon:
    * Google reCAPTCHA settings
      
      This section allows a store admin to configure the design settings of the form. 
-     ![settings-2.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2.png)
 
-     Select the values for the following fields here:
+     Options available for reCAPTCHA v2 are as follows:
+     ![settings-2.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2.png)
      * **Theme** : Select the theme of the form. 
      * **Size** : Select the size of the form.
+     
+     Options available for reCAPTCHA v3(beta) are as follows:
+     ![settings-2-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2-v3.png)
+     * **Minimal score required to pass verification** : Define a score from 0 (definitely bot) to 1 (definitely human) a user should gain to pass verification. 
+     * **Throttling period (seconds)** : Set the period in seconds to limit the number of requests a user can submit in a given amount of time.
    
    * Forms protected with Google reCAPTCHA
    
      This section allows a store admin to choose the actions that will be protected with Google ReCAPTCHA.
-     ![setings-3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/setings-3.png)
 
-     Toggle on the reCAPTCHA protection for the forms you need. Possible options are:
+     API v2 allows to toggle on the reCAPTCHA protection for the folowing forms:
+     ![setings-3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/setings-3.png)
      * Sign-in form (storefront)
      * Password recovery form
      * Customer sign-up form
      * Contact form
-     * Vendor sign-up form
-  
+     * Vendor sign-up form (if the Multi-vendor addon is enabled)
+     
+     API v3(beta) allows to toggle on the reCAPTCHA protection for the following forms:
+     ![settings-3-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-3-v3.png)
+     * Sign-in form (storefront)
+     * Password recovery form
+     * Customer sign-up form
+     * Contact form
+     * Vendor sign-up form (if the {% link "Multivendor" ref_4ahg5FLK %} addon is enabled)
+     * Newsletter subscription form (if the {% link "Newsletter" ref_1YvPiQr5 %} addon is enabled)
+     
+       A store admin can configure the following parameters for each enabled form:
+       ![setting-3-v3-on.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/setting-3-v3-on.png)
+       * **<FORM_NAME> minimal score** : Define a score from 0 (definitely bot) to 1 (definitely human) a user should gain to pass verification. The value set for the field overrides the "Minimal score" option from "Google reCAPTCHA settings". 
+       * **Fallback action (challenge)** : An action (challenge) that should be taken if a user is scored less than allowed in "minimal score" for the form.
+         Available options are:
+         * Do nothing 
+         * Deny using the form 
+         * Email confirmation link 
+       
+
 3. Click **Submit** to make the settings active.
 
 The enabled Google reCAPTCHA protection for the chosen forms will look as follows:
