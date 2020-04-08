@@ -43,14 +43,14 @@ To configure the addon:
    
    * Google reCAPTCHA settings
      
-     This section allows a store admin to configure the design settings of the form. 
+     This section allows a store admin to configure the settings of a reCAPTCHA form. 
 
      * Options available for reCAPTCHA v2 are as follows:
        ![settings-2.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2.png)
        * **Theme** : Select the theme of the form. 
        * **Size** : Select the size of the form.
      
-     * Options available for reCAPTCHA v3(beta) are as follows:
+     * Options available for reCAPTCHA v3 (Beta version) are as follows:
        ![settings-2-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2-v3.png)
        * **Minimal score required to pass verification** : Define a score from 0 (definitely bot) to 1 (definitely human) a user should gain to pass verification. 
        * **Throttling period (seconds)** : Set the period in seconds to limit the number of requests a user can submit in a given amount of time.
@@ -67,7 +67,7 @@ To configure the addon:
        * Contact form
        * Vendor sign-up form (if the Multi-vendor addon is enabled)
      
-     * API v3(beta) allows to toggle on the reCAPTCHA protection for the following forms:
+     * API v3 (Beta version) allows to toggle on the reCAPTCHA protection for the following forms:
        ![settings-3-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-3-v3.png)
        * Sign-in form (storefront)
        * Password recovery form
@@ -78,7 +78,7 @@ To configure the addon:
      
        A store admin can configure the following parameters for each enabled form:
        ![setting-3-v3-on.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/setting-3-v3-on.png)
-       * **<FORM_NAME> minimal score** : Define a score from 0 (definitely bot) to 1 (definitely human) a user should gain to pass verification. The value set for the field overrides the "Minimal score" option from "Google reCAPTCHA settings". 
+       * **FORM_NAME minimal score** : Define a score from 0 (definitely bot) to 1 (definitely human) a user should gain to pass verification. The value set for the field overrides the "Minimal score" option from "Google reCAPTCHA settings". 
        * **Fallback action (challenge)** : An action (challenge) that should be taken if a user is scored less than allowed in "minimal score" for the form.
          Available options are:
          * Do nothing 
@@ -90,6 +90,7 @@ To configure the addon:
 
 The enabled Google reCAPTCHA protection for the chosen forms will look as follows:
 
+Google reCAPTCHA v2
 <div class="ui stackable four column grid">
   <div class="column" markdown="span"><i>Forgot password form</i>![gre-forgot-password.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-forgot-password.png)</div>
   <div class="column" markdown="span"><i>Sign-in form</i>![gre-sign-in.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-sign-in.png)</div>
