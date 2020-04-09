@@ -66,21 +66,24 @@ To create OAuth2 client ID for your store:
     The Client ID will be created. 
     ![google-oauth-client-created.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/google-oauth-client-created.png)
     
-9.	You need to copy-paste ID and Secret values to the Social Login addon configuration screen.
+9.	You need to copy-paste the Client ID and Secret values to the Social Login addon configuration screen.
 
 ## Configuring the Social Login Addon: Google
 
-1.  On the Credentials page of your project in the [Google Developers Console](https://console.developers.google.com/), locate the needed credentails and click on the pencil icon to open the screen with the **Client ID** and **Client Secret** values:
-	![credentials2.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/credentials2.png)
+1.  On the **Credentials** page of your project in the [Google Developers Console](https://console.developers.google.com/), locate the needed credentails and click on the pencil icon to open the screen with the **Client ID** and **Client Secret** values:
+	![google-credentials.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/google-credentials.png)
 
 2.  Open a separate browser tab or window for the X-Cart Admin interface so you can copy and paste the Client ID and Client secret values.
 
-3.  In the Installed Addons section of your X-Cart store’s Admin area (**Extensions** >** Installed modules**), locate the entry for the Social Login module and click the **Settings **link below it:
-    ![modules.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/modules.png)
+3.  In the **My Addons** section of your {% link "X-Cart Service Screen" ref_5Br376jE %}, locate the entry for the Social Login module and click the **Settings** link below it:
+    ![540-settings-link.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/540-settings-link.png)
+
 
     This opens the "Social Login" addon settings page.
+    ![540-settings-page.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/540-settings-page.png)
+
 4.  Scroll down to the Google section of the page and enter your Client ID and Client secret values:
-    ![module_settings.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/module_settings.png)
+    ![540-settings-page-google.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/540-settings-page-google.png)
 
 5.  Click the **Submit** button near the bottom of the page to save the changes.
     The Google Login feature should now be enabled.
