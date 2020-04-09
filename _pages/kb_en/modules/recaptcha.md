@@ -9,8 +9,6 @@ published: true
 ---
 The addon [Google reCAPTCHA](https://market.x-cart.com/addons/google-recaptcha.html "Google reCAPTCHA ") for X-Cart 5 uses the free Google reCAPTCHA service to protect your shop from robots creating fake user accounts and sending spam through your site.
 
-The addon integrates with the advanced version of the API that displays a simple "I'm not a robot" checkbox instead of asking users to enter a complex mix of digits and letters.
-
 {% toc %}
 
 ## Enabling Google ReCAPTCHA Addon
@@ -88,12 +86,14 @@ To configure the addon:
 
 3. Click **Submit** to make the settings active.
 
-The enabled Google reCAPTCHA protection for the chosen forms will look as follows:
+The enabled Google reCAPTCHA v2 protection for the chosen forms will look as follows:
 
-Google reCAPTCHA v2
 <div class="ui stackable four column grid">
   <div class="column" markdown="span"><i>Forgot password form</i>![gre-forgot-password.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-forgot-password.png)</div>
   <div class="column" markdown="span"><i>Sign-in form</i>![gre-sign-in.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-sign-in.png)</div>
   <div class="column" markdown="span"><i>Sign-up form</i>![gre-create-new-account.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-create-new-account.png)</div>
   <div class="column" markdown="span"><i>Contact form</i>![gre-contact_us.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-contact_us.png)</div>
 </div>
+
+The enabled Google reCAPTCHA v3 protection works for the site as a whole and may not be even seen by the customers.
+![recaptcha-v3-cus.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/recaptcha-v3-cus.png)
