@@ -18,46 +18,55 @@ The Google Login feature set-up in an X-Cart store consists of the following ste
 
 To create OAuth2 client ID for your store:
 
-1.  Go to the [Google Developers Console](https://console.developers.google.com). The starting screen should be **Dashboard**:
-	![dashboard.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/dashboard.png)
+1.  Go to the [Google Developers Console](https://console.developers.google.com) and create a new project there.
+    * either use the **CREATE PROJECT** button on the Dashboard (if there are no other projects):
+      ![google-create-project-button.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/google-create-project-button.png)
+    * or open the current projects list and use the **NEW PROJECT** button there:
+      ![gooole-new-project-button.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/gooole-new-project-button.png)
 
-2.  In the center of the screen you'll see the dialog. Click **Create** to create a new API project:
-	![dashboard_create.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/dashboard_create.png)
-
-3.  On the "New Project" screen, enter a project name and a project id or accept the default one, and select **Create**. The project ID is an identifier that you select when you create the project, and it is used only within the Developers Console. A project ID is unique and cannot be changed, so choose an ID that you'll be comfortable using for the lifetime of the project.
+2.  On the "New Project" screen that opens, enter a project name and a project id or accept the default one, and select **Create**. The project ID is an identifier that you select when you create a project, and it is used only within the Developers Console. A project ID is unique and cannot be changed, so choose an ID that you'll be comfortable using for the lifetime of the project.
 
     For example, we chose to create a project "X-Cart Login" and kept the default Project ID:
-   	![app_name.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/app_name.png)
+   	![google-new-project-page.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/google-new-project-page.png)
 
-    After you have clicked **Create**, Developer Console will create the new project. 
+    After you have clicked **Create**, Developer Console will create the new project. Make sure to select the newly created project in the project list dop-down at the top of the page:
+    ![google-project-selected.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/google-project-selected.png)
     
-4.  In the sidebar on the left, select **Credentials**:
-    ![credentials.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/credentials.png)
+3.  In the sidebar on the left, locate **OAuth Consent Screen**:
+    ![google-external-user-type.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/google-external-user-type.png)
+    Select **External** user type and click **Create**.
     
-5.	To create OAuth Client ID/Secret pair, you have to submit the consent form. Click on the **OAuth consent screen** to open the form:
-	![consent.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/consent.png)
-    
-6.	Use the settings on this page to configure the consent screen for your project (That is what users will see when they click a Google Login widget on your store site for the first time and are asked to allow your store to access their information on Google). For the **Product name** field, use your store's name so users can easily identify your application:
-	![filled_consent.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/filled_consent.png)
+5.	Fill in the form that opens on the **OAuth consent screen**:
+	![google-auth-consent-screen.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/google-auth-consent-screen.png)
 
-7.  After filling the app name and the other details, return to the first tab (**Credentials**) and select OAuth client Id from the **Create credentials** dropdown:
-    ![dropdown.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/dropdown.png)
-
-    This will display a screen titled "Create Client ID":
-    ![type.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/type.png)
+    Use the settings on this page to configure the consent screen for your project (That is what users see when they click a Google Login widget on your store site for the first time and are asked to allow your store to access their information on Google). 
     
-8.  On the "Create Client ID" screen:
+    * **Application name** : Specify your company name here.
+    * **Application logo** (Optional): Add a company logo, if applicable.
+    * **Support email** : Choose an email from the list. This email address will be shown to users on the authorization screen. You can use your email address or a Google Group email address that you manage.
+    * **Authorised domains** : Specify your store domain here.
+    * **Application Homepage link** (Optional): Specify your store homepage here.
+    * **Application Privacy Policy link** (Optional): Specify a link to your store's privacy policy page, if applicable.
+    * **Application Terms of Service link** (Optional) : Specify a link to your store's Terms and Conditions page, if applicable.
+    
+6. Click **Save** to submit the form.
+
+7.  In the sidebar on the left, locate **Credentials** and select OAuth client Id in the **Create credentials** dropdown:
+    ![google-create-oauth-client-id.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/google-create-oauth-client-id.png)
+
+    This will display a screen titled "Create OAuth Client ID":
+    ![google-create-client-id-page.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/google-create-client-id-page.png)
+
+8.  On the "Create OAuth Client ID" screen:
 
     1) Select _Web application_ for the **Application type**.
     2) In the **Authorized redirect URI** box, enter the redirect URI for your store site (Simply copy and paste the URI from the Google Login setup instructions on your store's "Social Login" addon settings page).
     3) Click **Create Client ID**.
-    
-    ![filled_type.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/filled_type.png)
 
     The Client ID will be created. 
+    ![google-oauth-client-created.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/google-oauth-client-created.png)
     
-9.	The **OAuth Client** will be opened. You'll need to copy-paste ID and Secret values to the Social Login addon configuration screen:
-	![secret.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/secret.png)
+9.	You need to copy-paste ID and Secret values to the Social Login addon configuration screen.
 
 ## Configuring the Social Login Addon: Google
 
