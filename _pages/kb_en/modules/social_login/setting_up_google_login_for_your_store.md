@@ -59,9 +59,9 @@ To create OAuth2 client ID for your store:
 
 8.  On the "Create OAuth Client ID" screen:
 
-    1) Select _Web application_ for the **Application type**.
-    2) In the **Authorized redirect URI** box, enter the redirect URI for your store site (Simply copy and paste the URI from the Google Login setup instructions on your store's "Social Login" addon settings page).
-    3) Click **Create Client ID**.
+    * Select _Web application_ for the **Application type**.
+    * In the **Authorized redirect URI** box, enter the redirect URI for your store site (Simply copy and paste the URI from the Google Login setup instructions on your store's "Social Login" addon settings page).
+    * Click **Create Client ID**.
 
     The Client ID will be created. 
     ![google-oauth-client-created.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/google-oauth-client-created.png)
