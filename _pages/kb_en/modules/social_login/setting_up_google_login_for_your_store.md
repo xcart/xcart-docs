@@ -24,7 +24,7 @@ To create OAuth2 client ID for your store:
     * or open the current projects list and use the **NEW PROJECT** button there:
       ![gooole-new-project-button.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/gooole-new-project-button.png)
 
-2.  On the "New Project" screen that opens, enter a project name and a project id or accept the default one, and select **Create**. The project ID is an identifier that you select when you create a project, and it is used only within the Developers Console. A project ID is unique and cannot be changed, so choose an ID that you'll be comfortable using for the lifetime of the project.
+2.  On the "New Project" screen that opens, enter a project name or accept the default one, and select **Create**. The project ID is an identifier that assigns automatically when you create a project, and it is used only within the Developers Console. A project ID is unique and can be changed only at the moment of a project creation, so choose an ID that you'll be comfortable using for the lifetime of the project.
 
     For example, we chose to create a project "X-Cart Login" and kept the default Project ID:
    	![google-new-project-page.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/google-new-project-page.png)
