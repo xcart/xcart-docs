@@ -87,6 +87,8 @@ To create OAuth2 client ID for your store:
 
 5.  Click the **Submit** button near the bottom of the page to save the changes.
     The Google Login feature should now be enabled.
+    ![google-sign-in-cus.png]({{site.baseurl}}/attachments/ref_LMCQeIrv/google-sign-in-cus.png)
+
 
 _Related pages:_
 
