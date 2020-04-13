@@ -74,4 +74,4 @@ _Related pages_:
 *   {% link "Setting up Tax Classes" ref_pAWOdG8N %}
 *   {% link "Assigning Tax Classes to Products" ref_pAWOdG8N#assigning-tax-classes-to-products %}
 *   {% link "Setting up Address Zones" ref_r68iO5Rm %}
-*   {% link "Using Memberships" ref_memberships_ext %}
+*   {% link "Using Memberships" ref_memberships_ext#membership-specific-taxes %}
