@@ -23,7 +23,7 @@ Before you configure Sales tax:
     *   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}  
 4.  If you need different tax rates for different customer membership levels, ensure that the necessary user membership levels are set up.
     See:
-    *   {% link "Memberships" ref_5JXPTA0A %}
+    *   {% link "Using Memberships" ref_memberships_ext#membership-specific-taxes %}
 
 {% endnote %}
 
@@ -74,4 +74,4 @@ _Related pages_:
 *   {% link "Setting up Tax Classes" ref_pAWOdG8N %}
 *   {% link "Assigning Tax Classes to Products" ref_pAWOdG8N#assigning-tax-classes-to-products %}
 *   {% link "Setting up Address Zones" ref_r68iO5Rm %}
-*   {% link "Memberships" ref_5JXPTA0A %}
+*   {% link "Using Memberships" ref_memberships_ext %}
