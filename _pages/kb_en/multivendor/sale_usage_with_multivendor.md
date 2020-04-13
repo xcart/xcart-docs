@@ -26,7 +26,7 @@ A vendor can view the active sale offers applied to their products (both vendor-
 
 Links on the vendor-specific sale offers are clickable and forward to the sale offer details page for editing. 
 
-## Sale : Multivendor Store Adminnistrator Experience
+## Sale : Multivendor Store Administrator Experience
 
 The store administrator can view and manage all sale offers via the **Sale** section (**Discounts** > **Sale**) of the Admin area:
 ![541-adm-sale-page.png]({{site.baseurl}}/attachments/ref_6BpfsOWG/541-adm-sale-page.png)
