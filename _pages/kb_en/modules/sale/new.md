@@ -278,7 +278,7 @@ A sale offer active for specific categories and/or subcategories displays for ap
 
 A sale offer created for product classes displays for the products of the applicable product class on the product listing page in the store Admin area only. 
 
-<div class="ui stackable trwo column grid">
+<div class="ui stackable two column grid">
   <div class="column" markdown="span"><b>Category listing page</b>![541-category-listing-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-category-listing-page.png)</div>
   <div class="column" markdown="span"><b>Product listing page</b>![541-product-listing-classes-categories.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-product-listing-classes-categories.png)</div>
 </div>
