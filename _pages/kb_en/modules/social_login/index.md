@@ -25,5 +25,7 @@ If both Google and Facebook accounts use the same email, and a customer uses one
 _In this section:_
 
 *   {% link "Social Login: Installation" ref_0QnPKc94 %}
-*   {% link "Setting up Facebook Login for Your Store" ref_vpEKPoyM %}
-*   {% link "Setting up Google Login for Your Store" ref_LMCQeIrv %}
+*   {% link "Setting Up Facebook Sign In for Your Store" ref_vpEKPoyM %}
+*   {% link "Setting up Google Sign In for Your Store" ref_LMCQeIrv %}
+*   Settin Up Apple Sign In for your Store (under construction)
+*   {% link "Converting Social Login Accounts into Regular Accounts" ref_2uwHISu8 %}
