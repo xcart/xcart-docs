@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-05-03 12:18 +0400'
 identifier: ref_LMCQeIrv
-title: Configuring Google Sign In
+title: Configuring Sign In with Google
 categories:
   - User manual
 published: true
