@@ -20,7 +20,7 @@ The screenshots below show the social login widgets that are added to your store
 
 When a user clicks on any of the above for the first time, they will need to grant your store permission to access their basic Facebook, Google or Apple account info and email address. Once this has been done, the user will be able to sign in with a single click. Your X-Cart store creates an account for the email used to sign in.
 
-If both Google and Facebook accounts use the same email, and a customer uses one of the networks to sign in, X-Cart registers it and will allow access from the same system only. The customer will not be able to sign in with the other network from now on.
+If any social accounts use the same email, and a customer uses one of the networks to sign in, X-Cart registers it and will allow access from this very system only. The customer will not be able to sign in with another social account with the same email from now on.
 
 _In this section:_
 
