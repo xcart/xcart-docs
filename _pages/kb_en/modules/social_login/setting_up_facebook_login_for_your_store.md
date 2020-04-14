@@ -3,13 +3,13 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-05-03 11:13 +0400'
 identifier: ref_vpEKPoyM
-title: Setting Up Facebook Login for Your Store
+title: Configuring Sign In with Facebook
 categories:
   - User manual
 published: true
 order: 200
 ---
-The "Login with Facebook" feature set-up in an X-Cart store consists of the following steps:
+The "Sign in with Facebook" feature set-up in an X-Cart store consists of the following steps:
 
 {% toc %}
 
