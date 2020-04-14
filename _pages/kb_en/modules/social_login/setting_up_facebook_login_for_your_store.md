@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-05-03 11:13 +0400'
 identifier: ref_vpEKPoyM
-title: Setting up Facebook Login for Your Store
+title: Setting Up Facebook Login for Your Store
 categories:
   - User manual
 published: true
