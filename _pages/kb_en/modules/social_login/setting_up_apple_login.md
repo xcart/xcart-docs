@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2020-04-14 12:05 +0400'
 identifier: ref_5XNl15JW
-title: Setting Up Apple Login for Your Store
+title: Configuring Sign in with Apple
 order: 350
 published: true
 ---
