@@ -35,7 +35,8 @@ To create an Apple Services ID:
    ![apple-6.png]({{site.baseurl}}/attachments/ref_5XNl15JW/apple-6.png)
    * select your app from the list of primary App IDs that is related to your website;
    * under **Website URLs**, provide your domains or subdomains as a comma-delimited list. You must provide at least one domain or subdomain.
-   * under Return URLs, enter a URL of the type - https://YOUR_STORE_DOMAIN/?target=social_login&action=login&auth_provider=google
+   * under Return URLs, enter a URL of the type: 
+     ```https://YOUR_STORE_DOMAIN/?target=social_login&action=login&auth_provider=google```
    * click **Done** to store your configuration.
 
 10. Click **Next**.
@@ -46,7 +47,7 @@ To create an Apple Services ID:
 
 ## Configuring the Social Login Addon: Apple
 
-Once you have created and configured your Apple Services ID, you will need to obtain one pieces of information: your Website Signin ID (Identifier). These will need to be entered in X-Cart so the addon can connect to the App you created on Apple and generate the Sign in with Apple widget code correctly.
+Once you have created and configured your Apple Services ID, you will need to obtain one pieces of information: your Website Signin ID (Identifier). This will need to be entered in X-Cart so the addon can connect to the App you created on Apple and generate the Sign in with Apple widget code correctly.
 
 The Website Signin ID can be found in the **Identifiers** list in the **Certificates, Identifiers & Profiles** section in your [Apple Developer account](https://developer.apple.com/ "Setting Up Apple Login for Your Store"):
 ![apple-8.png]({{site.baseurl}}/attachments/ref_5XNl15JW/apple-8.png)
