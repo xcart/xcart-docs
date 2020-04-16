@@ -20,7 +20,9 @@ The screenshots below show the social login widgets that are added to your store
 
 When a user clicks on any of the above for the first time, they will need to grant your store permission to access their basic Facebook, Google or Apple account info and email address. Once this has been done, the user will be able to sign in with a single click. Your X-Cart store creates an account for the email used to sign in.
 
-If any social accounts use the same email, and a customer uses one of the networks to sign in, X-Cart registers it and will allow access from this very system only. The customer will not be able to sign in with another social account with the same email from now on.
+If any social accounts use the same email, and a customer uses one of the networks to sign in, X-Cart registers it and will allow access from this very system only. The customer will not be able to sign in with another social account with the same email from now on. 
+
+Customer accounts created through the Social Login addon does not have an option for changing the account password and all related features. Password management is done in the social network account used to sign up with a store. 
 
 _In this section:_
 
@@ -28,4 +30,3 @@ _In this section:_
 *   {% link "Configuring Sign In with Facebook" ref_vpEKPoyM %}
 *   {% link "Configuring Sign In with Google" ref_LMCQeIrv %}
 *   Configuring Sign In with Apple (under construction)
-*   {% link "Converting Social Login Accounts into Regular Accounts" ref_2uwHISu8 %}
