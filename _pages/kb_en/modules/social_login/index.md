@@ -29,4 +29,4 @@ _In this section:_
 *   {% link "Instaling Social Login Addon" ref_0QnPKc94 %}
 *   {% link "Configuring Sign In with Facebook" ref_vpEKPoyM %}
 *   {% link "Configuring Sign In with Google" ref_LMCQeIrv %}
-*   Configuring Sign In with Apple (under construction)
+*   {% link "Configuring Sign in with Apple" ref_5XNl15JW %}
