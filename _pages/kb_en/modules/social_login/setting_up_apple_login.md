@@ -36,7 +36,7 @@ To create an Apple Services ID:
    * select your app from the list of primary App IDs that is related to your website;
    * under **Website URLs**, provide your domains or subdomains as a comma-delimited list. You must provide at least one domain or subdomain.
    * under Return URLs, enter a URL of the type: 
-     ```https://YOUR_STORE_DOMAIN/?target=social_login&action=login&auth_provider=google```
+     ```https://YOUR_STORE_DOMAIN/?target=social_login&action=login&auth_provider=apple```
    * click **Done** to store your configuration.
 
 10. Click **Next**.
