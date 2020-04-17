@@ -18,8 +18,9 @@ To set up the Connect with PayPal feature in your store you need to complete the
 
 {% note warning %}
 PREREQUISITES:
-    1. To access PayPal Developer site, you must have a PayPal business account.  If you don’t have an account then [create one](https://www.paypal.com/in/webapps/mpp/account-selection?pros=2 "Connect  with PayPal") first. After you create a PayPal account, you can use this account to login to the PayPal Developer site.
-    2. If you don't have one, you will need to [create a PayPal sandbox account](https://www.angelleye.com/create-paypal-sandbox-account/ "Connect  with PayPal") so that you can link it to your PayPal app.
+   1. To access PayPal Developer site, you must have a PayPal business account.  If you don’t have an account then [create one](https://www.paypal.com/in/webapps/mpp/account-selection?pros=2 "Connect  with PayPal") first. After you create a PayPal account, you can use this account to login to the PayPal Developer site.
+    
+   2. If you don't have one, you will need to [create a PayPal sandbox account](https://www.angelleye.com/create-paypal-sandbox-account/ "Connect  with PayPal") so that you can link it to your PayPal app.
 {% endnote %}
 
 To create the OAuth 2.0 credentials:
