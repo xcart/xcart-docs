@@ -86,7 +86,10 @@ To configure the Connect with PayPal feature:
    * **Client Id** : Paste here the ID value you obtained when created a PayPal app.
    * **Client Secret** : Paste here the password value you obtained when created a PayPal app.
    * **Test/Live mode** : Set the operating mode for Connect with PayPal (‘Live’ should be selected for live stores, ‘Test’ - for testing). Note that for testing you will need to use test PayPal accounts; i.e. you will need at least one test seller account and one test buyer account. 
-   * **Login scopes** : 
+   * **Login scopes** : The data that is requested from customers when they log in to your store.
+     {% note warning %}
+     Do not adjust the setiings here!
+     {% endnote %}
 
 3. After you’ve configured the settings, click the **Submit** button near the bottom of the page to save the changes.
 
