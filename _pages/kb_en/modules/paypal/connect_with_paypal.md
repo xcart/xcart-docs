@@ -63,3 +63,37 @@ To create the OAuth 2.0 credentials:
 Now that you have created your PayPal app with REST API credentials and necessary features enabled, you are ready to move on with the Connect with PayPal feature set-up in the X-Cart Admin area.
 
 ## Configuring Connect with PayPal in X-Cart
+
+{% note warning %}
+PREREQUISITES:
+   You need to have the {% link "PayPal Addon" ref_0mnK3aMh %} installed and enabled in your X-Cart store Admin area.
+   
+   For the guidelines on the addons installation see {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+{% endnote %}
+
+Once you have created and configured your PayPal OAuth 2.0 Credentials, you will need to obtain two pieces of information: your Client ID and Secret. These will need to be entered on the PayPal addon setting page in the X-Cart Admin area so the addon can connect to the App you created on PayPal and generate the PayPal login widget code correctly.
+
+See how to obtain PayPal OAuth 2.0 credentials here.
+
+To configure the Connect with PayPal feature:
+1. In the **My Addons** section of your X-Cart Service Screen, locate the entry for the Social Login module and click the **Settings** link below it:
+   ![541-addon-settings.png]({{site.baseurl}}/attachments/ref_1iufT1pq/541-addon-settings.png)
+
+   This opens the PayPal addon settings page.
+   ![541-paypal-settings-page.png]({{site.baseurl}}/attachments/ref_1iufT1pq/541-paypal-settings-page.png)
+
+2. On the PayPal addon settings page configure the settings as follows:
+   * **Client Id** : Paste here the ID value you obtained when created a PayPal app.
+   * **Client Secret** : Paste here the password value you obtained when created a PayPal app.
+   * **Test/Live mode** : Set the operating mode for Connect with PayPal (‘Live’ should be selected for live stores, ‘Test’ - for testing). Note that for testing you will need to use test PayPal accounts; i.e. you will need at least one test seller account and one test buyer account. 
+   * **Login scopes** : 
+
+3. After you’ve configured the settings, click the **Submit** button near the bottom of the page to save the changes.
+
+The Connect with PayPal feature should now be enabled.
+<div class="ui stackable three column grid">
+  <div class="column" markdown="span"><b>Customer registration page</b>![541-cus-sign-up.png]({{site.baseurl}}/attachments/ref_1iufT1pq/541-cus-sign-up.png)
+</div>
+  <div class="column" markdown="span"><b>Customer sign-in page</b>![541-cus-sign-in.png]({{site.baseurl}}/attachments/ref_1iufT1pq/541-cus-sign-in.png)</div>
+  <div class="column" markdown="span"><b>Checkout login page</b>![541-checkout-login.png]({{site.baseurl}}/attachments/ref_1iufT1pq/541-checkout-login.png)</div>
+</div>
