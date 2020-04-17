@@ -21,7 +21,9 @@ This addon can be used to enable payments via:
    *   {% link "PayPal Partner Hosted with PCI Compliance" ref_0gaUolue %}
    *   {% link "PayPal Credit" ref_46r2geWj %}
    
-This addon can also be used to enable the **Log In with PayPal** feature for your X-Cart store.   
+This addon can also be used to enable the **Connect with PayPal** feature for your X-Cart store.  
+   
+   *   {% link "Connect  with PayPal" ref_1iufT1pq %}
     
     
 _See also:_
