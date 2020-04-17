@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2020-04-17 14:00 +0400'
 identifier: ref_1iufT1pq
 title: Connect  with PayPal
-order: 100
+order: 900
 published: true
 ---
 Connect with PayPal (formerly Log In with PayPal) enables a customer to log into your X-Cart based store using their PayPal credentials or they can link their PayPal account to your website so that basic information can be shared.
