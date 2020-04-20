@@ -101,7 +101,7 @@ _In this section:_
 *   {% link "Request a Price & Hide Prices" ref_3K1pJExV %}
 *   {% link "Royal Mail Service" ref_2gtSkN9y %}
 *   {% link "RTL Languages Support" ref_3vEHzhPP %}
-*   {% link "Sale Addon" ref_7tBJ8Yqo %}
+*   {% link "Sale " ref_5A6RUbG6 %}
 *   {% link "Sales Tax" ref_7fGmqgPE %}
 *   {% link "Segment Integration" ref_2tHtk4OT %}
 *   {% link "SEO Health Check" ref_2RwDb3OY %}
