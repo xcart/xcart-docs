@@ -89,10 +89,10 @@ To configure the Connect with PayPal feature:
    * **Test/Live mode** : Set the operating mode for Connect with PayPal (‘Live’ should be selected for live stores, ‘Test’ - for testing). Note that for testing you will need to use test PayPal accounts; i.e. you will need at least one test seller account and one test buyer account. 
    * **Login scopes** : The data that is requested from customers when they log in to your store.
      {% note warning %}
-     Do not adjust the setiings here!
+     Do not adjust the settings here!
      {% endnote %}
 
-3. After you’ve configured the settings, click the **Submit** button near the bottom of the page to save the changes.
+3. After you’ve configured the settings, click the **Submit** button at the bottom of the page to save the changes.
 
 The Connect with PayPal feature should now be enabled.
 <div class="ui stackable three column grid">
