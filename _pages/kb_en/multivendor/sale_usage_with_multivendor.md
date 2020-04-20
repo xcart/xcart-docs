@@ -10,7 +10,7 @@ version: X-Cart 5.4.1.x
 ---
 In a Multivendor X-Cart store with the addon [Sale](https://market.x-cart.com/addons/sale.html "Sale: Usage with Multivendor") installed and enabled, a vendor can сreate, manage and assign a sale offer to their products if a special permission is set by a store administrator.
 
-Basic usage of the Sale addon is described in the main {% link "Sale Addon" ref_7tBJ8Yqo %} manual, so here we will just go over the multivendor-related specifics.
+Basic usage of the Sale addon is described in the main {% link "Sale Addon" ref_5A6RUbG6 %} manual, so here we will just go over the multivendor-related specifics.
 
 ## Sale : Vendor Experience
 
