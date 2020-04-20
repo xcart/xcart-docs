@@ -10,7 +10,7 @@ published: true
 order: 120
 ---
 The regular way to configure the addon **Canada Post** is to port the settings into X-Cart automatically by hitting the **'Register'** button on the addon settings page. The procedure is described in details {% link "here" ref_zfNLsPus %}.
-![540-settings-page.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/540-settings-page.png)
+![541-settings-page.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/541-settings-page.png)
 
 However, it may still be necessary to adjust some parcel characteristics afterwards or you may prefer to configure the addon manually. 
 
@@ -39,19 +39,18 @@ Method 2:
       ![540-settings-link.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/540-settings-link.png)
 
 This opens the Canada Post settings page where you need to click the **Configure manually** button to open the list of setting parameters available for configuration.
-
-![540-configure-manually-button.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/540-configure-manually-button.png)
+![541-configure-manually-button.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/541-configure-manually-button.png)
 
 
 ## Canada Post Manual Configuration Page
 
 Below is an explanation of the settings that can be found on the Canada Post manual configuration page.
-![540-manual-settings-page.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/540-manual-settings-page.png)
+![541-manual-settings-page.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/541-manual-settings-page.png)
 
 The page itself includes all possible parameters that can be set up for the Canada Post addon devided into several sections.
 
 The page also provides a possibility to return to the main addon settings page via the **Enable merchant wizard** link to set up the addon {% link "automatically" ref_zfNLsPus %}.
-![540-automated-setup-link.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/540-automated-setup-link.png)
+![541-enable-merchant-wizard-link.png]({{site.baseurl}}/attachments/ref_XsHLxUwv/541-enable-merchant-wizard-link.png)
 
 
 ### Canada Post Settings
