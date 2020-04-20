@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2020-02-25 14:41 +0400'
 identifier: ref_5A6RUbG6
-title: 'Sale '
+title: Sale
 order: 229
 published: true
 version: 'X-Cart 5.4.1.x '
