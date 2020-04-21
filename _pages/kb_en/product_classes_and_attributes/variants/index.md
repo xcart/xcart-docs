@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-01-29 01:30 +0400'
 identifier: ref_0uApuQfx
 title: Product Variants
-version: X-Cart with Product variants module
+version: X-Cart with Product Variants Addon
 categories:
   - User manual
 published: true
@@ -31,6 +31,7 @@ _In this section:_
 
 *   {% link "What Are Product Variants and Why You May Need Them" ref_2H1DBViw %}
 *   {% link "Product Variants Setup and Management" ref_2Tg4d2Tx %}
+*   
 *   {% link "Wholesale Prices for Product Variants" ref_1wyZZ2Nf %}
 *   {% link "Color Swatches for Product Variants" ref_4bXaF5qJ %}
 *   {% link "Table View of Product Variants" ref_7FeW8hHv %}
