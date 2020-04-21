@@ -31,7 +31,7 @@ _In this section:_
 
 *   {% link "What Are Product Variants and Why You May Need Them" ref_2H1DBViw %}
 *   {% link "Product Variants Setup and Management" ref_2Tg4d2Tx %}
-*   
+*   {% link "Sale Price for Product Variants" ref_7ibnw4cP %}
 *   {% link "Wholesale Prices for Product Variants" ref_1wyZZ2Nf %}
 *   {% link "Color Swatches for Product Variants" ref_4bXaF5qJ %}
 *   {% link "Table View of Product Variants" ref_7FeW8hHv %}
