@@ -26,11 +26,11 @@ The most evident solution for us in this case would be to set up a separate pro
 
 Luckily, X-Cart provides a solution that allows us to add the plates to the catalog as a single product and allow our customers to select the color and pattern of the kitty print as product options. This is possible by using the_ attributes_ feature. So, we create a product "Kitty Print Melamine Plate, 12 inch", set its price at $12 and configure the attributes for this product as follows:
 
-![]({{site.baseurl}}/attachments/7504786/8719361.png)
+![541-price-modifier.png]({{site.baseurl}}/attachments/ref_2H1DBViw/541-price-modifier.png)
 
 Now we have the Blue, Mint and Orange options for the attribute "Kitty print color" and the Dotted and Plain options for the attribute "Kitty print pattern". The price difference between the dotted and plain kitty plates is achieved by using the "+0.5" price modifier for the dotted pattern. On the storefront, the product appears like so:
 
-![]({{site.baseurl}}/attachments/7504786/7602630.png)
+![541-price-modifier-cus.png]({{site.baseurl}}/attachments/ref_2H1DBViw/541-price-modifier-cus.png)
 
 At a first glance, this approach seems better because now customers can see all the plate styles on one page, and we still have the different prices for the dotted and plain patterns ($12.50 and $12.00, respectively - exactly as we wanted). However, if we consider this setup more closely, we'll notice some major flaws:
 
@@ -48,4 +48,4 @@ This is exactly the situaion where X-Cart's _product variants_ feature may come 
 
 If we configure the above option combinations as product variants for the product  "Kitty Print Melamine Plate, 12 inch", our buyers will still be able to select the color and pattern of the kitty print as product options, but this time we won't need to worry about them selecting an unavailable option combination: first, you will be able to remove the variant "Orange + Dotted" as unavailable from the beginning; second, if any of the other variants goes out of stock, the store will automatically disable the respective option combination so that buyers will not be able to select it. 
 
-![]({{site.baseurl}}/attachments/7504786/7602670.png)
+![541-variant-out-of-stock.png]({{site.baseurl}}/attachments/ref_2H1DBViw/541-variant-out-of-stock.png)
