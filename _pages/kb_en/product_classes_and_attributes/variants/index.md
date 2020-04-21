@@ -47,5 +47,7 @@ _Related pages:_
 
 *   {% link "Product Classes and Attributes" ref_T90ZcEpP %}
 *   {% link "Managing Attribute Values" ref_bTfJ9bTS %}
+*   {% link "Sale" ref_5A6RUbG6 %}
+*   {% link "Wholesale" ref_ttZa4qgu %}
 *   {% link "Color Swatches" ref_4bXaF5qJ %}
 *   {% link "Variants Table View" ref_7FeW8hHv %}
