@@ -6,6 +6,7 @@ identifier: ref_1wyZZ2Nf
 title: Wholesale Prices for Product Variants
 order: 130
 published: true
+version: X-Cart with Wholesale Addon
 ---
 There are 2 ways to configure wholesale prices for product variants:
 
