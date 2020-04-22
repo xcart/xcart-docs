@@ -25,7 +25,6 @@ When a piece of text needs to be displayed on a page, X-Cart selects the respect
 
 _In this section:_
 *  {% link "Installing Language Packages" ref_NH3w8sSS %}
-*  {% link "RTL Languages Support" ref_3vEHzhPP %}
 *  {% link "Switching Languages in the Admin Area" ref_x5oSN86B %}
 *  {% link "Translating the Product Catalog" ref_5MQvg8Mm %}
 *  {% link "Translating Labels" ref_2CQ8HuY4 %}
