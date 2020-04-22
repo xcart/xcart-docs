@@ -8,9 +8,7 @@ categories:
   - home
 order: 1
 icon: rocket
-description: >-
-  Start developing for X-Cart without any hassle. Speed up your work process
-  with X-Cart SDK
+description: Start developing for X-Cart without any hassle.
 published: true
 ---
 Welcome to X-Cart 5 developer documentation.
