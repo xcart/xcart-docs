@@ -13,17 +13,21 @@ Depending on the X-Cart edition you are using, the addon 'Buy X Get Y' may alrea
 ![so_buyX_getY_addon.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_buyX_getY_addon.png)
 To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
 
-Once the addon has been installed and enabled, you will be able create and manage special offers via the 'Discounts: Special Offers' section of your X-Cart store back end.
+Note that the addon 'Buy X Get Y' requires another addon for its operation - the addon [Special Offers (base)](https://market.x-cart.com/addons/special-offers-base.html):
+![so_base_addon.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_base_addon.png)
+This addon does not offer any ready-made functions that you can use, but it provides the basic logic and UI which other addons, including the addon 'Buy X Get Y', can use to add different types of special offers.
 
-In this section you will find two pre-configured special offer samples:
+An X-Cart store with the addon 'Buy X Get Y' installed and enabled provides a special section of the store back end where you can create and manage special offers: 'Discounts: Special Offers'.
+
+Visit this section, and you will find two pre-configured special offers:
    * Sample: Get 1 of every 3 items with 50% discount
    * Sample: Get every second item for free
 
 ![Fig 1]({{site.baseurl}}/attachments/buy_listing.png)
 
-These samples provide an example of how special offers may work for you. After studying the samples you can remove or modify them converting them to valid offers as you require.
+These offers provide examples of how special offers may work for you. You can remove them or adjust their configuration to convert them to valid offers as you require.
 
-Let us consider the samples to understand how the **Buy X Get Y offer** works. 
+Let us consider the samples to understand how the addon **Buy X Get Y offer** works. 
 
 First comes the **General Settings** section where you can set the name of the offer as you want to see it in the list of offers (https://www.yourstore.com/admin.php?target=special_offers). The offer type 'Buy X Get M of them discounted/free' is preset as it was defined at the time of offer creation.
 
