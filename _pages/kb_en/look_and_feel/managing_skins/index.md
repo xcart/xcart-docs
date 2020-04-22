@@ -22,7 +22,7 @@ Instructions for that are available in the section {% link "Installing Skins fro
 
 In case you have more than one design theme installed at your store, you can change the theme your store is using by following the instructions from the section {% link "Changing Your Store Skin" ref_GLqVdpgd %}
 
-All X-Cart skins, both the default ones and those you can purchase via the X-Cart App Store, use the standard left-to-right representation. If necessary you can convert a skin into a right-to-left one using the addon [RTL Languages Support](https://market.x-cart.com/addons/standard-rtl-skin.html). For more info on this addon, see the section {% link "RTL Languages Support" ref_3vEHzhPP %} of this manual.
+All X-Cart skins, both the default ones and those you can purchase via the X-Cart App Store, use the standard left-to-right representation. If necessary, we can help you customize your store to enable right-to-left representation. For more info, see the page [RTL Languages Support](https://market.x-cart.com/addons/standard-rtl-skin.html).
 
 _In this section:_
 
