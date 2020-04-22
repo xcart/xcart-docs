@@ -8,7 +8,7 @@ order: 150
 categories:
   - Developer docs
 version: X-Cart 5.0 - 5.2
-published: true
+published: false
 ---
 
 ## Introduction
