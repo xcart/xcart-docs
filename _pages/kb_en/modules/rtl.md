@@ -18,9 +18,7 @@ The addon **RTL Languages Support** adds a possibility for the whole site to be 
 
 You can use this addon to create your own RTL skin based on default X-Cart template.
 
-{% note info %}
-The addon **RTL Languages Support** is fully compatible with the {% link "default X-Cart color schemes" ref_GLqVdpgd %}: Fashion, Digital, Noblesse, Standard, Crisp White and [F2 skin](https://market.x-cart.com/ecommerce-templates/f2.html#product-details-tab-description "RTL languages support"). And it is easy to fine-tune to work with custom skins. 
-{% endnote %}
+The addon **RTL Languages Support** is fully compatible with the {% link "default X-Cart color schemes" ref_GLqVdpgd %}: Fashion, Digital, Noblesse, Standard, Crisp White and [F2 skin](https://market.x-cart.com/ecommerce-templates/f2.html#product-details-tab-description "RTL languages support"). And it is easy to fine-tune to work with custom skins.
 
 The addon adds a special **RTL** checkbox to the **Languages** page in the Admin area (**Store setup** -> **Translations**):
 
