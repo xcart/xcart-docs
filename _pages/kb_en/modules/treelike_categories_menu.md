@@ -7,7 +7,8 @@ title: Tree-like Categories Menu
 order: 293
 published: true
 ---
-The addon [Tree-like Categories Menu](https://market.x-cart.com/addons/tree-like-categories-menu.html "Tree-like Categories Menu") for X-Cart 5 extends the functionality of {% link "Flyout Categories Menu" ref_6KutUhlR %} and changes the menu into a tree-like type. 
+The addon [Tree-like Categories Menu](https://market.x-cart.com/addons/tree-like-categories-menu.html "Tree-like Categories Menu") for X-Cart 5 extends the functionality of {% link "Flyout Categories Menu" ref_6KutUhlR %} and changes the menu into a tree-like type.
+![tree_like_categories_menu_addon.png]({{site.baseurl}}/attachments/ref_3DV2eqp1/tree_like_categories_menu_addon.png)
 
 {% note info %}
 The addon Tree-like Categories Menu requires the addon Flyout Categories Menu to be installed and enabled.
