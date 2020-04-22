@@ -8,6 +8,7 @@ order: 280
 published: true
 ---
 The addon [Tax Exempt](https://market.x-cart.com/addons/tax-exemption.html "Tax Exempt") by X-Cart makes it possible to add tax exemptions for certain groups of customers as well as for particular products.
+![tax_exempt_addon.png]({{site.baseurl}}/attachments/ref_6dA6W1gY/tax_exempt_addon.png)
 
 To start using the addon, install it as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
