@@ -1,13 +1,14 @@
 ---
 title: Webinar 1 - 18 Mar 2014 - Developing modules for X-Cart 5
 identifier: ref_6TTqRmzh
-updated_at: 2014-08-19 00:00
+updated_at: '2014-08-19 00:00'
 layout: article_with_sidebar
 lang: en
 version: X-Cart 5.2.x
 categories:
-- Webinars and video tutorials
-- Outdated
+  - Webinars and video tutorials
+  - Outdated
+published: false
 ---
 
 ## Introduction
