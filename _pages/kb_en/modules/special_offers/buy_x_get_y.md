@@ -7,7 +7,7 @@ title: 'Special Offer: Buy X Get Y'
 order: 100
 published: true
 ---
-The addon [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Buy X Get Y") works with the products added to cart and gives a customer a discount if certain items are bought. The addon encourages customers to buy from a certain category/subcategory to win a price. The Buy X Get Y offer is especially good when you need to increase sales of particular SKUs in your store. 
+The addon [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Buy X Get Y") gives your customer a discount if their shopping cart contains certain items. The addon encourages customers to buy from a certain category/subcategory to win a better price. The Buy X Get Y offer is especially good when you need to increase sales of particular SKUs in your store. 
 
 Depending on the X-Cart edition you are using, the addon 'Buy X Get Y' may already be installed in your store. If not, you can obtain it from the X-Cart App Store. 
 ![so_buyX_getY_addon.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_buyX_getY_addon.png)
