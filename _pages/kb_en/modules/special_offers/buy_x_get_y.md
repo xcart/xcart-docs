@@ -25,7 +25,7 @@ Visit this section, and you will find two pre-configured special offers:
 
 ![Fig 1]({{site.baseurl}}/attachments/buy_listing.png)
 
-These offers provide examples of how special offers may work for you. You can remove them or adjust their configuration to convert them to valid offers.
+These offers provide examples of how special offers may work for you. You can remove them or adjust their configuration as you require.
 
 Let us consider the samples to understand how the addon **Buy X Get Y offer** works. 
 
