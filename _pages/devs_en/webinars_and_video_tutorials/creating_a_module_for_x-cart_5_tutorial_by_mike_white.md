@@ -6,7 +6,7 @@ title: 'Creating a module for X-Cart 5: Tutorial by Mike White'
 identifier: ref_R6BFTJd0
 categories:
   - Webinars and video tutorials
-published: true
+published: false
 order: 100
 ---
 
