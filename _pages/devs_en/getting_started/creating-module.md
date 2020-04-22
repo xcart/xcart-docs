@@ -109,11 +109,6 @@ You can download an example of the simplest X-Cart module here:
 * [https://github.com/xcart/xcart-docs/blob/master/attachments/XCExample-ModuleDemo.5.4.0.1.tgz](https://github.com/xcart/xcart-docs/blob/master/attachments/XCExample-ModuleDemo.5.4.0.1.tgz)
 * [https://www.dropbox.com/s/lb9l409kxufp31q/XCExample-ModuleDemo-v5_3_0.tar](https://www.dropbox.com/s/lb9l409kxufp31q/XCExample-ModuleDemo-v5_3_0.tar)
 
-## Module creation via SDK
-
-1.  {% link "Obtain X-Cart SDK" ref_HvrXVNvJ#obtaining-x-cart-sdk %}
-2.  Call {% link "create module macro" ref_HvrXVNvJ#creating-module %} with your developer and module IDs
-
 ## Packing up your module
 
 If you want to create the module's distributive pack, you need to:
