@@ -39,7 +39,7 @@ To add attribute(s) to an existing product class via the **Classes & Attributes*
 3.  On this page, click **New attribute**:
     ![pc-attr-add-attribute-2.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-attribute-2.png)
     A popup titled **New attribute** appears:
-    ![pc-attr-add-attribute-3.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-add-attribute-3.png)
+    ![new-attribute-popup.png]({{site.baseurl}}/attachments/ref_2ydGVBck/new-attribute-popup.png)
 4.  Use the fields of the **New attribute** popup to provide information about the new attribute. Specify the following information:
 
     *   **Attribute**: Attribute name.
@@ -51,6 +51,10 @@ To add attribute(s) to an existing product class via the **Classes & Attributes*
         {% note info %}
         To choose a proper attribute value type for your attribute refer to the guides from {% link "Attribute Value Field Types" ref_5qw116xV %}.
         {% endnote %}
+    * **Display as** : A display mode for multi-value attributes in the storefront. The property is available for a plain type of attrubute only starting with X-Cart 5.4.1.x.
+      ![541-new-attribute-popup.png]({{site.baseurl}}/attachments/ref_2ydGVBck/541-new-attribute-popup.png)
+      
+
 5.  Click **Next**. The attribute should be saved. 
     
     Now the popup is expanded so you can add/edit the options for this attribute:
