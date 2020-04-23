@@ -99,7 +99,7 @@ x_xss_protection = ‘1; mode=block’
 ; For possible values see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
 ; Examples:
 ; content_security_policy = ‘disabled’ # prevent Content-Security-Policy header sending
-ameorigin content_security_policy = “default-src ‘self’”
+; content_security_policy = “default-src ‘self’”
 ; content_security_policy = “default-src ‘self’; img-src *;”
 content_security_policy = ‘disabled’
 ```
