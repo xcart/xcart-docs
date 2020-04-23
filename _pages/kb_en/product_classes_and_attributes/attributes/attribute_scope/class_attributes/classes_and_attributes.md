@@ -111,7 +111,7 @@ To view the list of attributes a product class has a store admin should locate t
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![pc-attr-management-1.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-1.png)</div>
-  <div class="column" markdown="span">![pc-attr-management-2.png]({{site.baseurl}}/attachments/ref_kEKoAxJB/pc-attr-management-2.png)</div>
+  <div class="column" markdown="span">![541-pc-attr-management.png]({{site.baseurl}}/attachments/ref_2ydGVBck/541-pc-attr-management.png)</div>
 </div>
 
 On a product class details page a store admin will see a list of all attributes assigned to this product class with the respective attribute types by value.
