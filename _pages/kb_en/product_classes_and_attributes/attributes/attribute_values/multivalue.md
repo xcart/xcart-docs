@@ -69,8 +69,47 @@ To set the default attribute value:
 5.  Click **Save changes**.
     The settings will be saved.
     ![default-2.png]({{site.baseurl}}/attachments/ref_465IZQg9/default-2.png)
-
     
+## Configuring Multi-Value Attributes Display Mode
+
+Starting with X-Cart v5.4.1.x, a store administrator can choose how multi-value attributes will display in the storefront - as select-box or as blocks. This option is available for all {% link "scopes" ref_uaJk8ete %} and applies only to the [plain field type](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_values/field_types.html#plain-field "Multi-Value Attributes (Product Options)") of attributes.
+
+<div class="ui stackable three column grid">
+  <div class="column" markdown="span"><b>Display as select box</b>![541-selectbox-representation-cus.png]({{site.baseurl}}/attachments/ref_7b4wR1ex/541-selectbox-representation-cus.png)</div>
+  <div class="column" markdown="span"><b>Display as blocks</b>![541-block-representation-cus.png]({{site.baseurl}}/attachments/ref_7b4wR1ex/541-block-representation-cus.png)</div>
+  <div class="column" markdown="span"><b>Mixed display</b>![541-mixed-representation-cus.png]({{site.baseurl}}/attachments/ref_7b4wR1ex/541-mixed-representation-cus.png)</div>
+</div>
+
+Display mode can be set up on a per-product basis or storewide. 
+
+To configure plain field attribute display mode for a product:
+
+1. Open the product details page of a product you chose to edit and proceed to the **Attributes** tab. 
+   ![541-attributes-tab.png]({{site.baseurl}}/attachments/ref_465IZQg9/541-attributes-tab.png)
+2. Locate a multi-value attribute you need to edit either in the product-specific or global section.
+   ![541-product-details-multivalue-attr.png]({{site.baseurl}}/attachments/ref_465IZQg9/541-product-details-multivalue-attr.png)
+3. Hover the cursor on the attribute name and click the link that opens beneath it.
+   ![541-display-mode-link.png]({{site.baseurl}}/attachments/ref_465IZQg9/541-display-mode-link.png)
+   You'll see an option to set a preferable display mode for this attribute.
+4. Set the display mode value either to selectbox or blocks.
+   ![541-display-mode-link-values.png]({{site.baseurl}}/attachments/ref_465IZQg9/541-display-mode-link-values.png)
+5. Click **Save changes** at the bottom of the page.
+   {% note info %}
+   If you are editing a global attribute and want the changes to apply storewide, set the "Apply attribute value changes for all the products" toggle on bofore saving changes.
+   {% endnote %}
+    
+To configure plain field attribute display mode storewide:
+
+1. Locate the attribute you need to edit in the **Classes and attributes** section of your store Admin area.
+   ![541-classes-and-attributes.png]({{site.baseurl}}/attachments/ref_465IZQg9/541-classes-and-attributes.png)
+2. Check the value of the **Display as** column and click on the value to change it. 
+   ![541-display-as-column.png]({{site.baseurl}}/attachments/ref_465IZQg9/541-display-as-column.png)
+   Your options are as follows:
+   * **Selectbox**;
+   * **Blocks**.
+3. Click **Save changes**.
+
+
 ## Sorting Multi-Value Attributes
 
 If a product has a multi-value attribute you may need to change the order of apprearance of the options on the product details page in the storefront. 
