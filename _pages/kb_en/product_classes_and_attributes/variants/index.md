@@ -14,7 +14,7 @@ redirect_from:
 ---
 Product variants feature is an enhancement of the default product attributes functionality and can hence be used to add variants for a product and configure each variant to have a different SKU, price and stock level.
 
-Comparing to {% link "price and weight modifiers" ref_1t4DxHbf %} of product attributes, product variants is a more robust admin solution as it allows not only creating several product options of one and the same product and selling each product option at a different price (including wholesale pricing), but also to assign a different SKU to each option and to control the product options stock level as well as display all product options available for a product on the same product details page in the storefront. You can add variants one by one, or generate them all automatically and remove the ones which you don't sell in your shop.
+If comparing to {% link "price and weight modifiers" ref_1t4DxHbf %} of product attributes, product variants is a more robust admin solution that allows not only creating variants of a product but also selling each variant at a different price (including wholesale pricing) and assigning a unique SKU to each option. The feature also controls the stock level as well as displays all product options available on the same product details page in the storefront. You can add variants one by one, or generate them all automatically and remove the ones which you don’t sell in your shop.
 
 To enjoy product variants it's necessary to install and activate the [Product Variants](https://market.x-cart.com/addons/product-variants.html "Product Variants") addon. 
 
