@@ -30,9 +30,9 @@ For example, we used it to specify the dimensions of a bag:
 </div>
 
 {% note info %}
-Plain field type can be used to specify multiple values for one attribute. 
+Plain field type can be used to specify {% link "multiple values" ref_465IZQg9 %} for one attribute. 
 
-For details, see [Multi-value attributes (product options)](#multi-value-attributes-product-options).
+These attributes can also [display differently](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_values/multivalue.html#configuring-multi-value-attributes-display-mode "Attribute Value Field Types") in the storefront. 
 {% endnote %}
 
 ## **Textarea**
