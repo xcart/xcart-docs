@@ -150,8 +150,11 @@ If necessary, a store administrator can change the display mode of an attribute 
 
 For this purpose a store admin should:
 1. Locate the attribute to be edited in the list of product class attributes.
+   ![541-edit-display-mode-1.png]({{site.baseurl}}/attachments/ref_2ydGVBck/541-edit-display-mode-1.png)
 2. Check the value of the **Display as** column for this attribute.
+   ![541-edit-display-mode-2.png]({{site.baseurl}}/attachments/ref_2ydGVBck/541-edit-display-mode-2.png)
 3. Click on the value and select an alternative in the drop-down. There are only two options - selectbox and blocks.
+   ![541-edit-display-mode-3.png]({{site.baseurl}}/attachments/ref_2ydGVBck/541-edit-display-mode-3.png)
 4. Click **Save changes** at the bottom of the listing page.
 
 ### Adding Product Class Attirbute(s) to Filters
