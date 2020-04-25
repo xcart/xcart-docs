@@ -157,6 +157,10 @@ For this purpose a store admin should:
    ![541-edit-display-mode-3.png]({{site.baseurl}}/attachments/ref_2ydGVBck/541-edit-display-mode-3.png)
 4. Click **Save changes** at the bottom of the listing page.
 
+{% note info %}
+For details, see [Configuring Multi-Value Attributes Display Mode](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_values/multivalue.html#configuring-multi-value-attributes-display-mode "Product Classes and Class-Attributes Management via the "Classes & Attributes" Section").
+{% endnote %}
+
 ### Adding Product Class Attirbute(s) to Filters
 
 {% note info%}
