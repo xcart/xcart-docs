@@ -7,7 +7,7 @@ title: Attribute Value Field Types
 order: 100
 published: true
 ---
-X-Cart supports four field types for attribute values:
+X-Cart supports four field types of attribute values:
 
 *   [Plain field](#plain-field)
 *   [Textarea](#textarea)
