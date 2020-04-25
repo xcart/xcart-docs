@@ -39,7 +39,7 @@ These attributes can also [display differently](https://kb.x-cart.com/product_cl
 
 This field type allows for a longer text length than _Plain field_ and can be used to provide lengthier descriptions. 
 
-For example, we used it to add detailed information about the fabricof t-shirt:
+For example, we used it to add detailed information about the fabric of t-shirt:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>X-Cart Admin Area</i>![type-textarea.png]({{site.baseurl}}/attachments/ref_5qw116xV/type-textarea.png)</div>
