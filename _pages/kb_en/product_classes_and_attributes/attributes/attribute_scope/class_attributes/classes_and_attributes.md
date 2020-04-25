@@ -146,12 +146,12 @@ Starting with X-Cart 5.4.1 X-Cart allows swithcing the display mode of the plain
   <div class="column" markdown="span"><b>Display as blocks</b>![541-block-representation-cus.png]({{site.baseurl}}/attachments/ref_7b4wR1ex/541-block-representation-cus.png)</div>
 </div>
 
-If necessary, a store administrator can change the display mode of an attribute directly on the attributes listing page in the **Classes & attributes** section of the store Admin area.
+If necessary, a store administrator can change the display mode of an attribute directly on a product class attributes listing page in the **Classes & attributes** section of the store Admin area.
 
 For this purpose a store admin should:
-1. Locate the attribute to be edited in the list of product class attributes
+1. Locate the attribute to be edited in the list of product class attributes.
 2. Check the value of the **Display as** column for this attribute.
-3. Click on the value and choose the correct one in the drop-down.
+3. Click on the value and select an alternative in the drop-down. There are only two options - selectbox and blocks.
 4. Click **Save changes** at the bottom of the listing page.
 
 ### Adding Product Class Attirbute(s) to Filters
