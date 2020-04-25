@@ -125,6 +125,28 @@ Sometimes you may need to change the name and/or values of a global attribute.
      The **Apply sorting globally** setting affects the "active" attribute options only, i.e. the options that are marked with a green check-box and are automatically assigned to all products.
 4.  Once you're done editing, click **Save changes**.
 
+### Editing the Display Mode
+
+Starting with X-Cart 5.4.1 X-Cart allows swithcing the display mode of the plain field attributes from selectbox to blocks in the storefront.
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span"><b>Display as select box</b>![541-selectbox-representation-cus.png]({{site.baseurl}}/attachments/ref_7b4wR1ex/541-selectbox-representation-cus.png)</div>
+  <div class="column" markdown="span"><b>Display as blocks</b>![541-block-representation-cus.png]({{site.baseurl}}/attachments/ref_7b4wR1ex/541-block-representation-cus.png)</div>
+</div>
+
+If necessary, a store administrator can change the display mode of an attribute directly on a global attributes listing page in the **Classes & attributes** section of the store Admin area.
+
+For this purpose a store admin should:
+1. Locate the attribute to be edited in the list of product class attributes.
+   ![541-ga-display-mode.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/541-ga-display-mode.png)
+2. Check the value of the **Display as** column for this attribute.
+3. Click on the value and select an alternative in the drop-down. There are only two options - selectbox and blocks.
+   ![541-ga-display-mode-dropdown.png]({{site.baseurl}}/attachments/ref_4ARLM9v7/541-ga-display-mode-dropdown.png)
+4. Click **Save changes** at the bottom of the listing page.
+
+{% note info %}
+For details, see [Configuring Multi-Value Attributes Display Mode](https://kb.x-cart.com/product_classes_and_attributes/attributes/attribute_values/multivalue.html#configuring-multi-value-attributes-display-mode "Product Classes and Class-Attributes Management via the "Classes & Attributes" Section").
+{% endnote %}
+
 ### Adding Global Attirbute(s) to Filters
 
 {% note info%}
