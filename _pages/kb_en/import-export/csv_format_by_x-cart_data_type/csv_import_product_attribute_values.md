@@ -9,13 +9,13 @@ categories:
 published: true
 order: 100
 ---
-A product attributes CSV file for import must have the name attributes-xxxxxx.csv, where the part -xxxxxx can be anything you want, or can be even omitted.
+A product attributes CSV file for import must have the name product-attributes-xxxxxx.csv, where the part -xxxxxx can be anything you want, or can be even omitted.
 
 Examples of correct product CSV file names:
 
-attributes.csv;
-attributes-13-01-01.csv;
-attributes-from-my-provider.csv
+product-attributes.csv;
+product-attributes-13-01-01.csv;
+product-attributes-from-my-provider.csv
 
 A product attributes CSV file must contain at least two fields:
 
