@@ -17,10 +17,10 @@ Here is how you can get started using the addon 'Special Offers: Buy X Get Y':
 2. In your X-Cart store Admin area, visit the section 'Discounts: Special Offers' where you will create and manage your special offers. Find out how to create a new 'Buy X Get Y' special offer by studying the following section:
    * {% link "Add a New 'Buy X Get Y' Offer" ref_5KycxjBU %}
 
-  Also be sure to have a look at the two pre-configured special offer samples that come with the addon:
+3. Be sure to have a look at the two pre-configured special offer samples that come with the addon:
    * {% link "'Buy X Get Y' Offer Samples" ref_62RPDXCH %}
    
-3. Disable or remove the above-mentioned special offer samples or edit their configuration to use them as your own offers. Add more offers as you require.
+4. Disable or remove the above-mentioned special offer samples or edit their configuration to use them as your own offers. Add more offers as you require.
 
 
 
