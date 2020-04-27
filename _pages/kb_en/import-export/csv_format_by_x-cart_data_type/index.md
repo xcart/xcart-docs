@@ -26,7 +26,7 @@ Follow the links above for information on the allowed CSV format for each of the
 
 To ensure that X-Cart recognizes the data you import via each specific field in a CSV file, we have set some attributes for CSV fields; these attributes can help you to define your CSV values for import correctly. For more info, see:
 
-*   {% link "CSV Field Attributes" ref_2LwMTTTW %}
+*   {% link "CSV Field Notices" ref_2LwMTTTW %}
 
 _Related pages:_
 
