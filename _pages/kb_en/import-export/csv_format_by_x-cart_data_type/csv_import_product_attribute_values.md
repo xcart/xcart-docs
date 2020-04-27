@@ -13,7 +13,7 @@ A product attributes CSV file for import must have the name product-attributes-x
 
 Examples of correct product CSV file names:
 
-* product-attributes.csv;
+* product-attributes.csv; 
 * product-attributes-13-01-01.csv;
 * product-attributes-from-my-provider.csv
 
