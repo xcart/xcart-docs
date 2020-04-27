@@ -16,6 +16,7 @@ To install the addon, follow the instructions from {% link "Installing Addons fr
 Note that the addon 'Buy X Get Y' requires another addon for its operation - the addon [Special Offers (base)](https://market.x-cart.com/addons/special-offers-base.html):
 ![so_base_addon.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_base_addon.png)
 This addon does not offer any ready-made functions that you can use, but it provides the basic logic and UI which other addons, including the addon 'Buy X Get Y', can use to add different types of special offers.
+You do not need to worry about installing the addon 'Special Offers (base)' separately; simply install the addon 'Buy X Get Y', and the addon 'Special Offers (base)' will be installed automatically along with it.
 
 An X-Cart store with the addon 'Buy X Get Y' installed and enabled provides a special section of the store back end where you can create and manage special offers: 'Discounts: Special Offers'.
 
