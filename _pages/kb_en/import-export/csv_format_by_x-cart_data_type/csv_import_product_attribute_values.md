@@ -9,6 +9,21 @@ categories:
 published: true
 order: 100
 ---
+A product attributes CSV file for import must have the name attributes-xxxxxx.csv, where the part -xxxxxx can be anything you want, or can be even omitted.
+
+Examples of correct product CSV file names:
+
+attributes.csv;
+attributes-13-01-01.csv;
+attributes-from-my-provider.csv
+
+A product attributes CSV file must contain at least two fields:
+
+`productSKU` - unique identifier of the product;
+`type` - type of an attribute;
+`name` - attribute name;
+`value` - attribute value.
+
 
 Below is a list of supported fields and their respective value types for the import of product attribute values:
 
@@ -116,6 +131,14 @@ Below is a list of supported fields and their respective value types for the imp
       <td colspan="1" class="confluenceTd">editable</td>
       <td colspan="1" class="confluenceTd">Applied only if type is Text. Indicates that this value is editable by customer on the product page.</td>
       <td colspan="1" class="confluenceTd">String</td>
+    </tr>
+  <tr>
+      <td colspan="1" class="confluenceTd">displayMode</td>
+      <td colspan="1" class="confluenceTd">Applied only if type is Plain Field. Indicates the attribute display mode in the storefront. Available values are as follows:
+        <p>S - selectbox</p>
+        <p>B - blocks</p>
+    </td>
+      <td colspan="1" class="confluenceTd">S/B</td>
     </tr>
   <tr>
       <td colspan="3" class="confluenceTd"><em> Fields added by the addon <strong>Color Swatches</strong> </em>
