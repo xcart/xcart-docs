@@ -9,6 +9,18 @@ categories:
 published: true
 order: 100
 ---
+A classes and attributes CSV file for import must have the name attributes-xxxxxx.csv, where the part -xxxxxx can be anything you want, or can be even omitted.
+
+Examples of correct product CSV file names:
+
+attributes.csv;
+attributes-13-01-01.csv;
+attributes-from-my-provider.csv
+
+A product attributes CSV file must contain at least two fields:
+
+* `name` - attribute name;
+* `type` - type of an attribute.
 
 Below is a list of supported fields and their respective value types for the import of product classes and attributes.
 
@@ -87,6 +99,14 @@ Below is a list of supported fields and their respective value types for the imp
         <p>&nbsp;</p>
       </td>
       <td colspan="1" class="confluenceTd">Enum</td>
+    </tr>
+  <tr>
+      <td colspan="1" class="confluenceTd">displayMode</td>
+      <td colspan="1" class="confluenceTd">Applied only if type is Plain Field. <br>Indicates the attribute display mode in the storefront. Available values are as follows:
+        <p>S - selectbox
+        <br>B - blocks</p>
+    </td>
+      <td colspan="1" class="confluenceTd">S/B</td>
     </tr>
   <tr>
       <td colspan="3" class="confluenceTd"><em> Fields added by the addon <strong>Color Swatches</strong> </em>
