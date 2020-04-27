@@ -5,7 +5,7 @@ updated_at: '2020-04-27 15:24 +0400'
 identifier: ref_00ZPcaXf
 title: '''Buy X Get Y'' Addon Installation'
 order: 100
-published: false
+published: true
 ---
 To start using the X-Cart special offers addon 'Buy X Get Y', you need to make sure it is installed and enabled in your X-Cart store.
 
