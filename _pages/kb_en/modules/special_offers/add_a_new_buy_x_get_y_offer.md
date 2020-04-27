@@ -5,7 +5,7 @@ updated_at: '2020-04-27 16:01 +0400'
 identifier: ref_5KycxjBU
 title: Add a New 'Buy X Get Y' Offer
 order: 100
-published: false
+published: true
 ---
 Now that you know how the addon **Buy X Get Y offer** works you can try and configure your own offer. To create an offer:
 
@@ -30,5 +30,3 @@ Enable the special offers panel as shown below:
 Special offers will be added to _Home page: Hot Deals_
 
 ![so_home.png]({{site.baseurl}}/attachments/so_home.png)
-
-
