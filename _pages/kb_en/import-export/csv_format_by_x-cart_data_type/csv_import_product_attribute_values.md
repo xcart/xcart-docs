@@ -134,7 +134,7 @@ Below is a list of supported fields and their respective value types for the imp
     </tr>
   <tr>
       <td colspan="1" class="confluenceTd">displayMode</td>
-      <td colspan="1" class="confluenceTd">Applied only if type is Plain Field. Indicates the attribute display mode in the storefront. Available values are as follows:
+      <td colspan="1" class="confluenceTd">Applied only if type is Plain Field. <br>Indicates the attribute display mode in the storefront. Available values are as follows:
         <p>S - selectbox
         <br>B - blocks</p>
     </td>
