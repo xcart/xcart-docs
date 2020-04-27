@@ -5,7 +5,7 @@ updated_at: '2020-04-27 15:55 +0400'
 identifier: ref_62RPDXCH
 title: '''Buy X Get Y'' Offer Samples'
 order: 100
-published: false
+published: true
 ---
 An X-Cart store with the addon 'Buy X Get Y' installed and enabled provides a special section of the store back end where you can create and manage special offers: 'Discounts: Special Offers'.
 ![so_discounts_special_offers.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_discounts_special_offers.png)
@@ -102,5 +102,3 @@ As a source for an image you can use either .jpg, .png, .gif or .bmp files from 
 The full offer description is displayed on the Special Offers page which can be accessed by clicking on the offer title on the home page and on the category page.
 
 ![fig 10]({{site.baseurl}}/attachments/buy_sopage.png)
-
-
