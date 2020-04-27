@@ -13,9 +13,9 @@ A classes and attributes CSV file for import must have the name attributes-xxxxx
 
 Examples of correct product CSV file names:
 
-attributes.csv;
-attributes-13-01-01.csv;
-attributes-from-my-provider.csv
+* attributes.csv;
+* attributes-13-01-01.csv;
+* attributes-from-my-provider.csv
 
 A product attributes CSV file must contain at least two fields:
 
