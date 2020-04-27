@@ -19,19 +19,6 @@ To create a new special offer using the addon **Buy X Get Y offer**, follow the 
  
 4. Click **Update** to save your changes. 
 
-5. Do not forget to enable the offer for your customers. 
+5. Make sure the offer is active and available to your customers. 
 
-![create]({{site.baseurl}}/attachments/buy_create.png)
-
-You will need to enable the Special Offers panel in the 'Hot Deals' section on the home page. For this purpose go to the 'Content: Menus' section in the store Admin area and choose the hot deals available.
-
-![fig 11]({{site.baseurl}}/attachments/menus.png)
-
-Enable the special offers panel as shown below:
-
-![fig 12]({{site.baseurl}}/attachments/enable_so.png)
-
-Special offers will be added to _Home page: Hot Deals_
-
-![so_hot_deals_special_offers.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_hot_deals_special_offers.png)
 
