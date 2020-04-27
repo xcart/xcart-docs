@@ -23,6 +23,3 @@ Here is how you can get started using the addon 'Special Offers: Buy X Get Y':
    * {% link "'Buy X Get Y' Offer Samples" ref_62RPDXCH %}
    
 4. Disable or remove the above-mentioned special offer samples or edit their configuration to use them as your own offers. Add more offers as you require.
-
-
-
