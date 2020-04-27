@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2020-04-27 16:01 +0400'
 identifier: ref_5KycxjBU
 title: Add a New 'Buy X Get Y' Offer
-order: 100
+order: 200
 published: true
 ---
 Now that you know how the addon **Buy X Get Y offer** works you can try and configure your own offer. To create an offer:
