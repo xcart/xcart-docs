@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-01-26 00:00'
 identifier: ref_2LwMTTTW
-title: CSV Field Attributes
+title: CSV Field Notices
 categories:
   - User manual
 published: true
