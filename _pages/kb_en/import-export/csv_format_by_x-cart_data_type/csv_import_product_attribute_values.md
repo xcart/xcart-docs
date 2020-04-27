@@ -19,10 +19,10 @@ attributes-from-my-provider.csv
 
 A product attributes CSV file must contain at least two fields:
 
-`productSKU` - unique identifier of the product;
-`type` - type of an attribute;
-`name` - attribute name;
-`value` - attribute value.
+* `productSKU` - unique identifier of the product;
+* `type` - type of an attribute;
+* `name` - attribute name;
+* `value` - attribute value.
 
 
 Below is a list of supported fields and their respective value types for the import of product attribute values:
