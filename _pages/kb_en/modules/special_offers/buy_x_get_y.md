@@ -19,12 +19,13 @@ This addon does not offer any ready-made functions that you can use, but it prov
 You do not need to worry about installing the addon 'Special Offers (base)' separately; simply install the addon 'Buy X Get Y', and the addon 'Special Offers (base)' will be installed automatically along with it.
 
 An X-Cart store with the addon 'Buy X Get Y' installed and enabled provides a special section of the store back end where you can create and manage special offers: 'Discounts: Special Offers'.
+![so_discounts_special_offers.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_discounts_special_offers.png)
 
 Visit this section, and you will find two pre-configured special offers:
    * Sample: Get 1 of every 3 items with 50% discount
    * Sample: Get every second item for free
 
-![Fig 1]({{site.baseurl}}/attachments/buy_listing.png)
+![so_samples.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_samples.png)
 
 These offers provide examples of how special offers may work for you. You can remove them or adjust their configuration as you require.
 
