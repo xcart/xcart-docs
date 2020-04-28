@@ -27,7 +27,7 @@ Here is the system requirements list:
 *   __Phar__ extension
 *   __mbstring__ extension is highly recommended (though X-Cart has a polyfill for it, native extension will speed up string processing)
 *   200-300Mb of disk space
-*   libCURL module support (minimum required CURL version is 7.39.0; version 7.43.0 is recommended)
+*   libCURL module support (The minimum required CURL version is 7.39.0; version 7.43.0 is recommended.)
 *   `ini_set` enabled
 *   `safe_mode` disabled
 *   `file_uploads`  enabled
@@ -50,7 +50,7 @@ Here is the system requirements list:
     opcache.load_comments=1
     ```
     
-    Any other cachers should not strip comments from the code too.
+    Any other cachers should not strip comments from the code, too.
 *   [Suhosin](https://suhosin.org/stories/index.html "Installation Guide") PHP extension might interfere proper work of X-Cart 5, so you should disable it. 
 *   Phar extension v.2.0.1 or later (required to get upgrades and install modules, otherwise these features may not work properly).
 
@@ -187,3 +187,7 @@ Use X-Cart on \*NIX-based servers only (Ubuntu, Debian, CentOS etc.)!
     </tr>
   </tbody>
 </table>
+
+## Not Supported
+
+* LiteSpeed
