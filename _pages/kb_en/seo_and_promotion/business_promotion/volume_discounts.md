@@ -34,7 +34,7 @@ To configure a volume discount:
     ![541-discount-details-page.png]({{site.baseurl}}/attachments/ref_xEadpu9F/541-discount-details-page.png)
     
     * **Discount type** : Select between fixed amount and percentage.
-    * * **Discount amount** : Set the discount amount accordingly.
+    * **Discount amount** : Set the discount amount accordingly.
     * **Active from** : Set the discount validity period start date. (Optional)
     * **Active till** : Set the discount expiration date. (Optional)
     * **Subtotal** : An order subtotal amount starting from which the discount should apply. For example, if you set this to "100" (USD), the discount will be available for orders with a subtotal amount equal to or more than $100.
