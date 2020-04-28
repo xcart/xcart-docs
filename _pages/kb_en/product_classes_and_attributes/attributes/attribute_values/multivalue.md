@@ -109,7 +109,6 @@ To configure plain field attribute display mode storewide:
    * **Blocks**.
 3. Click **Save changes**.
 
-
 ## Sorting Multi-Value Attributes
 
 If a product has a multi-value attribute you may need to change the order of apprearance of the options on the product details page in the storefront. 
