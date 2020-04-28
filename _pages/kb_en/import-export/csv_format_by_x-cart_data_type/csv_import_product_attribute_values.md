@@ -17,7 +17,7 @@ Examples of correct product CSV file names:
 * product-attributes-13-01-01.csv;
 * product-attributes-from-my-provider.csv
 
-A product attributes CSV file must contain at least two fields:
+A product attributes CSV file must contain at least four fields:
 
 * `productSKU` - unique identifier of the product;
 * `type` - type of an attribute;
