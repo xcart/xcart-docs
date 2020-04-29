@@ -46,4 +46,15 @@ The settings in this section allow you to specify the offer start and end times 
 * **From these categories**: The categories from which the buyer needs to get the number of items specified above. Subcategories are marked with '---'. Hold Shift to select more than one category. 
 For a store-wide special offer, no category selection needs to be made; in this case the offer will be applied to all your store's SKUs including any products on sale, products with volume discounts and so on. If a specific category is selected, the offer will count only the SKUs from the root of this category. To include SKUs from the subcategories as well, you will need to select the subcategories along with the main category.
 
+**Eligible membership levels**: The user memberships to which the offer is available. If not set, the offer is available to all buyers.
+
+**Reward**
+
+**Number of items to discount**: The number of products that a customer can get at a discounted price by using the current offer. 
+
+**Discount**
+**Discount type**
+The discount can be set as a fixed sum discount (as specified in the store currency) or as a percentage (%). If you set the discount to 100%, the customer will get the item(s) for free as in _Sample: Get every second item for free_.
+
+
 
