@@ -76,10 +76,18 @@ This section defines how your customers will see the offer in the store.
 
 * **Short promo text**: The short offer description (can be shown on the home page, matching category pages and Special Offers page).
 
-   The latter three settings are optional. 
+The latter three settings are optional. 
+![description]({{site.baseurl}}/attachments/buy_description.png)
 
 Further settings in this section allow you to specify the locations in which the offer image and short description will be shown (home page, matching category pages and Special offers page):
 ![locations]({{site.baseurl}}/attachments/display.png)
 If you want to exclude any of the locations, turn them off.
+
+![Fig 9]({{site.baseurl}}/attachments/home.png)
+
+The full offer description is displayed on the Special Offers page which can be accessed by clicking on the offer title on the home page and on the category page.
+
+![fig 10]({{site.baseurl}}/attachments/buy_sopage.png)
+
 
 
