@@ -100,10 +100,10 @@ To limit coupons availability to a group of ramdom products a store admin should
    * Through the **Bulk edit** tool on the product listing page (**Catalog** -> **Products**):
      ![541-product-list-bulk-edit.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-product-list-bulk-edit.png)
      
-     * Select products from the list the coupon will apply to.
+     * Open the product listing page and select products from the list the coupon will apply to.
      * Click **Coupons** in the **Bulk edit** selector:
        ![541-bulk-edit-coupons.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-coupons.png)
-     * On the page that opens, use the **Click to specify** button to select the coupon that will appply to the products:
+     * On the page that opens, use the **Click to specify** button to select the coupon that will apply to the products:
        ![541-bulk-edit-details.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-details.png)
        Click inside the **Coupons** field to see the list of coupons available:
        ![541-bilk-edit-select-coupon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bilk-edit-select-coupon.png)
@@ -111,10 +111,30 @@ To limit coupons availability to a group of ramdom products a store admin should
         ![541-bulk-edit-add-action.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-add-action.png)
       * Click **Save changes**. The coupon is assigned to selected products.
 
-       
+{% note info %}
+There are no limitations on a number of coupons that can be assigned to one product. 
+{% endnote %}
 
+### Managing Coupons Assigned to Random Products
 
-Now your customer should be able to enter the code **HAPPY10** at checkout and get a 10% discount on an eligible order. 
+The **Bulk edit** tool of the product listing page (**Catalog** -> **Products**) allows changing a coupon assigned to a product for an alternative one and unassigning coupons from products completely. 
+
+To edit coupon assignments:
+1. Open the product listing page and select products you need to edit:
+   ![541-product-list-bulk-edit.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-product-list-bulk-edit.png)
+2. Click **Coupons** in the **Bulk edit** selector:
+   ![541-bulk-edit-coupons.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-coupons.png)
+3. On the page that opens, choose an action you want to perform:
+   * **Remove** : This action will to delete a coupon assigned to products.
+     ![541-bulk-edit-remove.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-remove.png)
+   * **Replace with** : This action unassigns the current coupon from products and assigns a new one instead.
+     ![541-bulk-edit-replace-with.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-replace-with.png)
+4. Use the **Click to specify** button to select the required coupon from the list:
+   ![541-bulk-edit-details.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-details.png)
+     * Click inside the **Coupons** field to see the list of coupons available.
+       ![541-coupons-field-value.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupons-field-value.png)
+     * Select a coupon you need.
+5. Click **Save changes**. 
 
 ## Using Coupons in the Storefront
 
