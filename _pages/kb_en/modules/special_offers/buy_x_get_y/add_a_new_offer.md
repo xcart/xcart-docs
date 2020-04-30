@@ -67,5 +67,18 @@ Offers are applied in order of appearance on the offers listing page.
 
 **Description and Promotions**
 
-This section defines how your customers will see the offer in the store.
+This section defines how your customers will see the offer in the store. 
+
+* **Title**: The offer title as it will appear to your customers.
+
+* **Description**: The detailed desription of the offer.
+
+* **Image**: The image associated with the offer.
+
+* **Short promo text**: The short offer description.
+
+The latter three settings are optional. 
+
+Also, in this section you can specify the locations in which the offer image and short description will be shown (home page, category pages and Special Offers page). If you want to exclude any of the locations, turn them off.
+
 
