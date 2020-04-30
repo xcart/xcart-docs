@@ -16,3 +16,9 @@ After enabling the addon 'Buy X Get Y', in the 'Discounts: Special Offers' secti
 These offers provide examples of how special offers may work for you. You can remove them or adjust their configuration as you require. Detailed information on the management of special offers is available in the {% link "Managing Special Offers" ref_1eX1GC1r %} section of this manual.
 
 To study the configuration of a sample offer, simply click on its title.
+
+_Related pages:_
+   
+   * {% link "Special Offers: Buy X Get Y" ref_buy_x_get_y %}
+  
+   
