@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2020-04-30 13:58 +0400'
 identifier: ref_1eX1GC1r
 title: Managing Special Offers
-order: 100
+order: 600
 published: true
 ---
 An X-Cart store with one of the special offer addons installed and enabled provides a special section of the store back end where you can create and manage special offers: 'Discounts: Special Offers'.
