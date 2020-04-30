@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2020-04-27 16:01 +0400'
 identifier: ref_5KycxjBU
-title: Add a New 'Buy X Get Y' Offer
+title: Adding a New 'Buy X Get Y' Offer
 order: 200
 published: true
 ---
