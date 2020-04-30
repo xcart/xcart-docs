@@ -7,10 +7,7 @@ title: '''Buy X Get Y'' Offer Samples'
 order: 300
 published: true
 ---
-An X-Cart store with the addon 'Buy X Get Y' installed and enabled provides a special section of the store back end where you can create and manage special offers: 'Discounts: Special Offers'.
-![so_discounts_special_offers.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_discounts_special_offers.png)
-
-Visit this section, and you will find two pre-configured special offers:
+After enabling the addon 'Buy X Get Y', in the 'Discounts: Special Offers' section of your X-Cart store Admin area you will find two pre-configured special offers:
    * Sample: Get 1 of every 3 items with 50% discount
    * Sample: Get every second item for free
 
