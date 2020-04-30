@@ -24,7 +24,6 @@ To create a new special offer using the addon **Buy X Get Y offer**, follow the 
 
 5. Make sure the offer is active and available to your customers. 
 
-
 The settings that need to be configured for each offer are as follows:
 
 **General settings**
@@ -43,7 +42,7 @@ The settings in this section allow you to specify the offer start and end times 
 
 * **Number of items to buy**: The number of items or product units that a buyer needs to add to their shopping cart to become eligible for the current offer.
 
-* **From these categories**: The categories from which the buyer needs to get the number of items specified above. Subcategories are marked with '---'. Hold Shift to select more than one category. 
+* **From these categories**: The categories from which the buyer needs to get the number of items specified above. Subcategories are marked with '---'. It is possible to select more than one category (Hold down the Ctrl/Shift key.)
 For a store-wide special offer, no category selection needs to be made; in this case the offer will be applied to all your store's SKUs including any products on sale, products with volume discounts and so on. If a specific category is selected, the offer will count only the SKUs from the root of this category. To include SKUs from the subcategories as well, you will need to select the subcategories along with the main category.
 
 **Eligible membership levels**: The user memberships to which the offer is available. If not set, the offer is available to all buyers.
@@ -56,5 +55,17 @@ For a store-wide special offer, no category selection needs to be made; in this 
 
 **Discount type**: The discount type (can be set as a fixed sum discount - specified in the store currency - or as a percentage (%)). If the discount is set at 100%, the buyer will get the item(s) for free.
 
+**Exclusions**
 
+If the current special offer needs to be incompatible with some other existing offers, you can specify it in this section. It is possible to select more than one offers. (Hold down the Ctrl/Shift key.) The offers marked as selected in this section will prevent the current offer from being applied.
+
+{% note info %}
+If you have, for example, Offer A and Offer B, and define Offer B as an exclusion for Offer A, Offer A and Offer B will not be applied to the same products in an order. This means that the cart will first check the order to meet the conditions of Offer A and apply the discounts set for Offer A if the conditions are met. Then the cart will check the same order to meet the conditions of Offer B excluding the products that were counted for Offer A. If the Offer B conditions are met, the Offer B discounts will be applied to the order as well but to the different items from the order. If no exclusions are set, the discounts of both Offer A and Offer B can be applied to one and the same product from the order. 
+
+Offers are applied in order of appearance on the offers listing page.
+{% endnote %}
+
+**Description and Promotions**
+
+This section defines how your customers will see the offer in the store.
 
