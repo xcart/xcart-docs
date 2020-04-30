@@ -78,6 +78,6 @@ This section defines how your customers will see the offer in the store.
 
    The latter three settings are optional. 
 
-Also, in this section you can specify the locations in which the offer image and short description will be shown (home page, category pages and Special Offers page). If you want to exclude any of the locations, turn them off.
+Also, in this section you can specify the locations in which the offer image and short description will be shown (**home page**, **category pages** and **Special Offers page**). If you want to exclude any of the locations, turn them off.
 
 
