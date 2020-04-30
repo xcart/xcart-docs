@@ -119,3 +119,8 @@ Enable the special offers panel as shown on Figure 12
 and special offers will be added to _Home page: Hot Deals_
 
 ![so_home.png]({{site.baseurl}}/attachments/so_home.png)
+
+
+_Related pages:_
+   
+   * {% link "Special Offers" ref_special_offers %} 
