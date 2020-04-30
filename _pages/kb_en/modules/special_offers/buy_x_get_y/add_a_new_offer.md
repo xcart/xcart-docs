@@ -50,10 +50,11 @@ For a store-wide special offer, no category selection needs to be made; in this 
 
 **Reward**
 
-**Number of items to discount**: The number of products that a customer can get at a discounted price by using the current offer. 
+**Number of items to discount**: The number of items that your buyer can get at a discounted price by using the current offer. The discount can be as big as 100%, if required. 
 
-**Discount**
-**Discount type**: The discount can be set as a fixed sum discount (as specified in the store currency) or as a percentage (%). If you set the discount to 100%, the customer will get the item(s) for free as in _Sample: Get every second item for free_.
+**Discount**: The discount amount your buyer will get.
+
+**Discount type**: The discount type (can be set as a fixed sum discount - specified in the store currency - or as a percentage (%)). If the discount is set at 100%, the buyer will get the item(s) for free.
 
 
 
