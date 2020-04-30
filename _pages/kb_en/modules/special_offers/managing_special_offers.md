@@ -39,3 +39,7 @@ The order of special offers in the list on the 'Discounts: Special Offers' page 
 You can rearrange the order of your special offers using the drag-n-drop feature:
 ![so_rearrange_order.png]({{site.baseurl}}/attachments/ref_1eX1GC1r/so_rearrange_order.png)
 Be sure to click **Save changes** to save any changes you have made.
+
+_Related pages:_
+   
+   * {% link "Special Offers" ref_special_offers %}
