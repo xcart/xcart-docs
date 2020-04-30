@@ -64,21 +64,22 @@ To create a coupon:
     * **Valid only for specific products** : Use the toggle to assign a coupon to a list of random products. If enabled, this toggle hides the **Categories** and **Product classes** properties for the coupon.
     * **Categories** : Select the category/-ies the coupon applies to.
     * **Product classes** : Select product class(es) the coupon applies to. 
-    * **Memberships** : Sepect the membership level(s) allowed to use the coupon. If no membership level is specified in this field, any store user with or without a membershp will be able to use the coupon.
+    * **Memberships** : Select the membership level(s) allowed to use the coupon. If no membership level is specified in this field, any store user with or without a membershp will be able to use the coupon.
     * **Address zones** : Specify the delivery areas the coupon is valid for.
 
 3.  Click the **Create** button at the bottom of the page. 
     The coupon will be created and added to the list in the **Coupons** section.
+    ![541-coupons-list.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupons-list.png)
     
     
 ### Assigning Coupons to Random Products
 
 To limit coupons availability to a group of ramdom products a store admin should:
 
-1. Create a coupon as described above paying special attention to the following setting:
+1. Create a coupon as described [above](https://kb.x-cart.com/seo_and_promotion/business_promotion/discount_coupons.html#creating-a-coupon "Discount Coupons") paying special attention to the following setting:
    * **Valid only for specific products** : Enable the option by setting the toggle to “YES”.
    
-2. Assign this coupon to products using one of the following ways:
+2. Assign the newly created coupon to products using one of the following ways:
    * Through the **Products** tab of the coupon details page (**Discounts** -> **Coupons**)
      ![541-coupon-details-product-tab.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupon-details-product-tab.png)
      This tab becomes available as soon as a coupon with the **Valid only for specific products** property enable is created.
@@ -96,7 +97,21 @@ To limit coupons availability to a group of ramdom products a store admin should
        The number of products the coupon is applied to also displays as a clickable link on the coupons listing page. A store admin can edit the product list following this link directly.
        ![541-coupons-listing-products-link.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupons-listing-products-link.png)
        
-   * Through the Bulk edit tool on the product listing page (**Catalog** -> **Products**)
+   * Through the **Bulk edit** tool on the product listing page (**Catalog** -> **Products**):
+     ![541-product-list-bulk-edit.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-product-list-bulk-edit.png)
+     
+     * Select products from the list the coupon will apply to.
+     * Click **Coupons** in the **Bulk edit** selector:
+       ![541-bulk-edit-coupons.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-coupons.png)
+     * On the page that opens, use the **Click to specify** button to select the coupon that will appply to the products:
+       ![541-bulk-edit-details.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-details.png)
+       Click inside the **Coupons** field to see the list of coupons available:
+       ![541-bilk-edit-select-coupon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bilk-edit-select-coupon.png)
+      * Check that the action is set to **Add**:
+        ![541-bulk-edit-add-action.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-add-action.png)
+      * Click **Save changes**. The coupon is assigned to selected products.
+
+       
 
 
 Now your customer should be able to enter the code **HAPPY10** at checkout and get a 10% discount on an eligible order. 
