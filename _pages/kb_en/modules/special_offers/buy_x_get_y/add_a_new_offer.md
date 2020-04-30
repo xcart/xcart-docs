@@ -45,15 +45,15 @@ The settings in this section allow you to specify the offer start and end times 
 * **From these categories**: The categories from which the buyer needs to get the number of items specified above. Subcategories are marked with '---'. It is possible to select more than one category (Hold down the Ctrl/Shift key.)
 For a store-wide special offer, no category selection needs to be made; in this case the offer will be applied to all your store's SKUs including any products on sale, products with volume discounts and so on. If a specific category is selected, the offer will count only the SKUs from the root of this category. To include SKUs from the subcategories as well, you will need to select the subcategories along with the main category.
 
-**Eligible membership levels**: The user memberships to which the offer is available. If not set, the offer is available to all buyers.
+* **Eligible membership levels**: The user memberships to which the offer is available. If not set, the offer is available to all buyers.
 
 **Reward**
 
-**Number of items to discount**: The number of items that your buyer can get at a discounted price by using the current offer. The discount can be as big as 100%, if required. 
+* **Number of items to discount**: The number of items that your buyer can get at a discounted price by using the current offer. The discount can be as big as 100%, if required. 
 
-**Discount**: The discount amount your buyer will get.
+* **Discount**: The discount amount your buyer will get.
 
-**Discount type**: The discount type (can be set as a fixed sum discount - specified in the store currency - or as a percentage (%)). If the discount is set at 100%, the buyer will get the item(s) for free.
+* **Discount type**: The discount type (can be set as a fixed sum discount - specified in the store currency - or as a percentage (%)). If the discount is set at 100%, the buyer will get the item(s) for free.
 
 **Exclusions**
 
@@ -77,7 +77,7 @@ This section defines how your customers will see the offer in the store.
 
 * **Short promo text**: The short offer description.
 
-The latter three settings are optional. 
+   The latter three settings are optional. 
 
 Also, in this section you can specify the locations in which the offer image and short description will be shown (home page, category pages and Special Offers page). If you want to exclude any of the locations, turn them off.
 
