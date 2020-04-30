@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2020-04-27 19:40 +0400'
 identifier: ref_3L7Dk8VR
 title: Managing the Special Offers Page
-order: 100
+order: 700
 published: true
 ---
 You will need to enable the Special Offers panel in the 'Hot Deals' section on the home page. For this purpose go to the 'Content: Menus' section in the store Admin area and choose the hot deals available.
