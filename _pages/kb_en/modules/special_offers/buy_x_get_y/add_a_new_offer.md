@@ -59,11 +59,10 @@ For a store-wide special offer, no category selection needs to be made; in this 
 
 If the current special offer needs to be incompatible with some other existing offers, you can specify it in this section. It is possible to select more than one offers. (Hold down the Ctrl/Shift key.) The offers marked as selected in this section will prevent the current offer from being applied.
 
-{% note info %}
 If you have, for example, Offer A and Offer B, and define Offer B as an exclusion for Offer A, Offer A and Offer B will not be applied to the same products in an order. This means that the cart will first check the order to meet the conditions of Offer A and apply the discounts set for Offer A if the conditions are met. Then the cart will check the same order to meet the conditions of Offer B excluding the products that were counted for Offer A. If the Offer B conditions are met, the Offer B discounts will be applied to the order as well but to the different items from the order. If no exclusions are set, the discounts of both Offer A and Offer B can be applied to one and the same product from the order. 
 
-Offers are applied in order of appearance on the offers listing page.
-{% endnote %}
+Offers are applied in the order of appearance on the offers listing page.
+
 
 **Description and Promotions**
 
