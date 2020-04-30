@@ -91,5 +91,6 @@ The full offer description is displayed on the Special Offers page which can be 
 
 _Related pages:_
    
-   * {% link "Special Offers" ref_special_offers %}
-
+  * {% link "Special Offers: Buy X Get Y" ref_buy_x_get_y %}
+  
+   
