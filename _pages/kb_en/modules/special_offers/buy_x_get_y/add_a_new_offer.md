@@ -89,5 +89,7 @@ The full offer description is displayed on the Special Offers page which can be 
 
 ![fig 10]({{site.baseurl}}/attachments/buy_sopage.png)
 
-
+_Related pages:_
+   
+   * {% link "Special Offers" ref_special_offers %}
 
