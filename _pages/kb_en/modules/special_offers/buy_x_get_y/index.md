@@ -24,6 +24,7 @@ Here is how you can get started using the addon 'Special Offers: Buy X Get Y':
 
 4. To get a better idea of how special offers work, be sure to have a look at the two pre-configured special offer samples that come with the addon:
    * {% link "'Buy X Get Y' Offer Samples" ref_62RPDXCH %}
+   
    Disable or remove the above-mentioned special offer samples or edit their configuration to use them as your own offers. 
    
 5. Decide whether you want to advertise your special offers via a dedicated section in the storefront area of your store. 
