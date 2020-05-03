@@ -85,12 +85,10 @@ If you want to exclude any of the locations, turn them off.
 
 ![Fig 9]({{site.baseurl}}/attachments/home.png)
 
-The full offer description is displayed on the Special Offers page which can be accessed by clicking on the offer title on the home page and on the category page.
+The full offer description is displayed on the {% link "Special Offers page" ref_3L7Dk8VR %}.
 
 ![fig 10]({{site.baseurl}}/attachments/buy_sopage.png)
 
 _Related pages:_
    
   * {% link "Special Offers: Buy X Get Y" ref_buy_x_get_y %}
-  
-   
