@@ -27,7 +27,7 @@ Here is how you can get started using the addon 'Special Offers: Buy X Get Y':
    
    Disable or remove the above-mentioned special offer samples or edit their configuration to use them as your own offers. 
    
-5. Decide whether you want to advertise your special offers via a dedicated page in the storefront area of your store - the Special offers page. 
+5. Decide whether you want to advertise your special offers via a dedicated page in the storefront area of your store - the Special offers page. If you do, make sure your store visitors are provided with a link to this page.
    * {% link "Managing the Special Offers Page" ref_3L7Dk8VR %}
 
 6. Add more offers and manage the existing offers as you require via the 'Discounts: Special Offers' section of the Admin area.
