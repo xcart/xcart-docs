@@ -18,6 +18,7 @@ Note that the addon 'Buy X Get Y' requires another addon for its operation - the
 This addon does not offer any ready-made functions that you can use, but it provides the basic logic and UI which other addons, including the addon 'Buy X Get Y', can use to add different types of special offers.
 You do not need to worry about installing the addon 'Special Offers (base)' separately; simply install the addon 'Buy X Get Y', and the addon 'Special Offers (base)' will be installed automatically along with it.
 
+
 _Related pages:_
 
   * {% link "Special Offers: Buy X Get Y" ref_buy_x_get_y %}
