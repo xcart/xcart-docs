@@ -18,7 +18,7 @@ To add a special offer:
 2. On the page that opens, adjust the special offer configuration settings to provide the offer details.
 3. Save your changes.
 
-The order will be created.
+The order will be added.
 
 For more info on the special offer configuration settings, see:
 * {% link "Adding a New 'Buy X Get Y' Offer" ref_5KycxjBU %}
