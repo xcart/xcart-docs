@@ -70,7 +70,7 @@ This section defines how your customers will see the offer in the store.
 
 * **Title**: The offer title as it will appear to your customers.
 
-* **Description**: The detailed desription of the offer. This will be shown on the page with the full details of the special offer which can be accessed by clicking on the offer title.
+* **Description**: The detailed desription of the offer. This will be shown on the {% link "Special Offers page" ref_3L7Dk8VR %}.
 
 * **Image**: The image associated with the offer (can be shown on the home page, matching category pages and Special offers page). You can use .jpg, .png, .gif or .bmp files from your computer or an image URL from the web. The image will be resized to 160x230 pixels when displayed on the storefront. 
 
@@ -85,7 +85,6 @@ If you want to exclude any of the locations, turn them off.
 
 ![Fig 9]({{site.baseurl}}/attachments/home.png)
 
-The full offer description is displayed on the {% link "Special Offers page" ref_3L7Dk8VR %}.
 
 ![fig 10]({{site.baseurl}}/attachments/buy_sopage.png)
 
