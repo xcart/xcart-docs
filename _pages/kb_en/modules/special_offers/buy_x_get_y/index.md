@@ -16,7 +16,7 @@ Here is how you can get started using the addon 'Special Offers: Buy X Get Y':
 1. Make sure the addon 'Special Offers: Buy X Get Y' is installed and enabled at your store. 
    * {% link "'Buy X Get Y' Addon Installation" ref_00ZPcaXf %}
    
-2. In your X-Cart store Admin area, visit the section 'Discounts: Special Offers' where you will create and manage your special offers. Find out how to create a new 'Buy X Get Y' special offer by studying the following section:
+2. In your X-Cart store Admin area, visit the page 'Special Offers' where you will create and manage your special offers. Find out how to create a new 'Buy X Get Y' special offer by studying the following section:
    * {% link "Add a New 'Buy X Get Y' Offer" ref_5KycxjBU %}
 
 3. If you are going to create special offers that will be available not to everyone, but just to certain groups of customers ("membership levels"), be sure to configure the respective membership levels.  
@@ -30,7 +30,7 @@ Here is how you can get started using the addon 'Special Offers: Buy X Get Y':
 5. Decide whether you want to advertise your special offers via a dedicated page in the storefront area of your store - the Special offers page. If you do, make sure your store visitors are provided with a link to this page.
    * {% link "Managing the Special Offers Page" ref_3L7Dk8VR %}
 
-6. Add more offers and manage the existing offers as you require via the 'Discounts: Special Offers' section of the Admin area.
+6. Add more offers and manage the existing offers as you require via the Special Offers page in the Admin area.
    * {% link "Managing Special Offers" ref_1eX1GC1r %}
    
 _Related pages:_
