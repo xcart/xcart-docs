@@ -7,15 +7,15 @@ title: Managing the Special Offers Page
 order: 700
 published: true
 ---
-Your X-Cart store provides a dedicated page for information about special offers - the so-called Special offers page. Your store visitors can access this page directly via a link crafted using the following format:
+Your X-Cart storefront provides a dedicated page for information about special offers - the so-called Special offers page. Your store visitors can access this page directly via a link crafted using the following format:
 ```
 https://<your-store-domain>/<xcart-folder>/?target=special_offers
 ```
-You can place this link on any page in your store or other website to drive people's attention to your collection of special offers. 
+You can place this link on any page in your store or other website to drive people's attention to your store's special offers. 
 
-For easier access to this page, your store's {% link "Primary menu" ref_4wQjPcoc %} has been pre-configured to include a submenu item in the 'Hot deals' section with a link to the Special offers page.
+For easier access to this page, your store's {% link "Primary menu" ref_4wQjPcoc %} has been pre-configured to include a submenu item in the 'Hot deals' section with a link to it.
 
-If you do not see the link to the Special offers page in the 'Hot deals' section, or the 'Hot deals' section itself, you will need to adjust your primary menu configuration via the Menus section of your store's Admin area (**Content** > **Menus**). 
+If you do not see the link to the Special offers page in the 'Hot deals' section, or the 'Hot deals' section itself, but want to use this feature, you will need to adjust your primary menu configuration via the Menus section of your store's Admin area (**Content** > **Menus**). 
 
 To do so, follow the steps below:
 
