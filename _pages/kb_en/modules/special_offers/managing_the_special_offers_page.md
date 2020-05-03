@@ -7,6 +7,10 @@ title: Managing the Special Offers Page
 order: 700
 published: true
 ---
+Your X-Cart store provides a special page for information about special offers:
+```
+https://<your-store-domain>/<xcart-folder>/?target=special_offers
+```
 You will need to enable the Special Offers panel in the 'Hot Deals' section on the home page. For this purpose go to the 'Content: Menus' section in the store Admin area and choose the hot deals available.
 
 ![fig 11]({{site.baseurl}}/attachments/menus.png)
@@ -21,4 +25,4 @@ Special offers will be added to _Home page: Hot Deals_
 
 _Related pages:_
    
-   * {% link "Special Offers" ref_special_offers %}   
+   * {% link "Special Offers" ref_special_offers %}
