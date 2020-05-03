@@ -22,16 +22,17 @@ To do so, follow the steps below:
 1. In the Admin area, go to **Content** > **Menus**.
 
 2. Find the 'Hot dealts' menu item and make sure it is enabled.
+   ![so_hot_deals_enabled.png]({{site.baseurl}}/attachments/ref_3L7Dk8VR/so_hot_deals_enabled.png)
 
 3. Click on the 'N items' link in the Submenus column opposite the 'Hot dealts' menu item.
-   ![fig 11]({{site.baseurl}}/attachments/menus.png)
+   ![so_click3items.png]({{site.baseurl}}/attachments/ref_3L7Dk8VR/so_click3items.png)
 
-4. Enable the special offers link as shown below:
-   ![fig 12]({{site.baseurl}}/attachments/enable_so.png)
+4. Change the status for the item 'Special offers' to *active/enabled*.
+   ![so_enable_special_offers.png]({{site.baseurl}}/attachments/ref_3L7Dk8VR/so_enable_special_offers.png)
 
-5. Save your changes.
+5. Save your changes by clicking **Save changes**.
 
-The link to the Special offers page will be added to the Hot deals menu section.
+A link to the Special offers page will be added to the Hot deals menu section.
 ![so_hot_deals_special_offers.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_hot_deals_special_offers.png)
 
 
