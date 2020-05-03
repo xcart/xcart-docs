@@ -7,21 +7,33 @@ title: Managing the Special Offers Page
 order: 700
 published: true
 ---
-Your X-Cart store provides a special page for information about special offers:
+Your X-Cart store provides a dedicated page for information about special offers - the so-called Special offers page. Your store visitors can access this page directly via a link crafted using the following format:
 ```
 https://<your-store-domain>/<xcart-folder>/?target=special_offers
 ```
-You will need to enable the Special Offers panel in the 'Hot Deals' section on the home page. For this purpose go to the 'Content: Menus' section in the store Admin area and choose the hot deals available.
+You can place this link on any page in your store or other website to drive people's attention to your collection of special offers. 
 
-![fig 11]({{site.baseurl}}/attachments/menus.png)
+For easier access to this page, your store's {% link "Primary menu" ref_4wQjPcoc %} has been pre-configured to include a submenu item in the 'Hot deals' section with a link to the Special offers page.
 
-Enable the special offers panel as shown below:
+If you do not see the link to the Special offers page in the 'Hot deals' section, or the 'Hot deals' section itself, you will need to adjust your primary menu configuration via the Menus section of your store's Admin area (**Content** > **Menus**). 
 
-![fig 12]({{site.baseurl}}/attachments/enable_so.png)
+To do so, follow the steps below:
 
-Special offers will be added to _Home page: Hot Deals_
+1. In the Admin area, go to **Content** > **Menus**.
 
+2. Find the 'Hot dealts' menu item and make sure it is enabled.
+
+3. Click on the 'N items' link in the Submenus column opposite the 'Hot dealts' menu item.
+   ![fig 11]({{site.baseurl}}/attachments/menus.png)
+
+4. Enable the special offers link as shown below:
+   ![fig 12]({{site.baseurl}}/attachments/enable_so.png)
+
+5. Save your changes.
+
+The link to the Special offers page will be added to the Hot deals menu section.
 ![so_hot_deals_special_offers.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_hot_deals_special_offers.png)
+
 
 _Related pages:_
    
