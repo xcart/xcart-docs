@@ -15,7 +15,7 @@ X-Cart 5 allows you to create coupons for your customers. A coupon is a secret c
 
 {% toc %}
 
-# Enabling Coupons
+## Enabling Coupons
 
 The coupons feature in X-Cart 5 is enabled by the addon **[Coupons](https://market.x-cart.com/addons/discount-coupons.html)**:
 ![coupons_addon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/coupons_addon.png)
@@ -25,11 +25,11 @@ To be able to use free shipping coupons, you also require the addon **[Free Ship
 
 To start creating coupons for your customers, make sure the above said addons are installed and enabled at your store. If not, you can install them from the X-Cart App Store. For general addon installation instructions, see {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
-# Configuring Coupons
+## Configuring Coupons
 
 When creating a coupon, a store administrator can limit its application to product categories and classes, as well as to customer memberships or address. The availability can also narrow to a group of random products. 
 
-## Creating a Coupon
+### Creating a Coupon
 
 To create a coupon:
 
@@ -72,14 +72,14 @@ To create a coupon:
     ![541-coupons-list.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupons-list.png)
     
     
-## Assigning Coupons to Random Products
+### Assigning Coupons to Random Products
 
 To limit coupons availability to a group of ramdom products a store admin should first create a coupon as described [above](https://kb.x-cart.com/seo_and_promotion/business_promotion/discount_coupons.html#creating-a-coupon "Discount Coupons") paying special attention to the following setting:
    * **Valid only for specific products** : Enable the option by setting the toggle to “YES”.
    
 Then it is necessary to assign the newly created coupon to products using one of the following ways:
 
-### Through the "Products" Tab of a Coupon Details Page 
+**THROUGH THE "PRODUCTS" TAB OF A COUPON DETAILS PAGE**
 
 This is the most common way of assiging coupons to products as it does not require leaving the coupon set up page. 
 
@@ -101,7 +101,7 @@ To assign a coupon to a group of random products a store admin should:
    The number of products the coupon is applied also displays as a clickable link on the coupons listing page. A store admin can edit the product list following this link directly.
    ![541-coupons-listing-products-link.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupons-listing-products-link.png)
        
-### Through the "Bulk Edit" Tool 
+**THROUGH THE "BULK EDIT" TOOL**
 
 The **Bulk edit** tools is mostly used to [manage existing coupon assignments](https://kb.x-cart.com/seo_and_promotion/business_promotion/discount_coupons.html#managing-coupons-assigned-to-random-products "Discount Coupons"). However, it can still be used to assign coupons to to a group of random products at a time is required.
 
@@ -125,7 +125,7 @@ To assign a coupon to a group of random products a store admin should:
 There are no limitations on a number of coupons that can be assigned to one product. 
 {% endnote %}
 
-### Through Product Details Page
+**THROUGH PRODUCT DETAILS PAGES**
 
 Product details page is the least practical but still useful way to assign coupons to a product. Using this way a store admin can assign or delete previously assigned coupons on a per-product basis.
 
