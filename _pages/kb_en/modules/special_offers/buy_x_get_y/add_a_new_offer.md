@@ -120,7 +120,8 @@ The result will look as follows:
   ![so_special_offers_page.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_special_offers_page.png)
 
 * On a category page:
-
+  ![so_category_page.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_category_page.png)
+  
 * On the page with the full details of the offer (This page can be accessed by clicking on the special offer image or short promo text on any of the pages named above):
   ![so_offer_title_description.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_offer_title_description.png)
 
