@@ -28,6 +28,8 @@ To create a new special offer using the addon **Buy X Get Y offer**, follow the 
 
 6. Make sure the offer actually shows on the storefront in the intended locations and is available to the intended groups (membership levels) of your customers. 
 
+
+
 The settings that need to be configured for each offer are as follows:
 
 **General settings**
