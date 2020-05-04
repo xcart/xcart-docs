@@ -20,7 +20,7 @@ To create a new special offer using the addon **Buy X Get Y offer**, follow the 
       
 3. Go through all the settings on the page and configure the offer as you require. See further below for a detailed explanation of all the settings.
  
-4. Click **Update** to save your changes. 
+4. Click **Create** to save your changes. 
 
 5. Make sure the offer is active and available to your customers. 
 
@@ -89,29 +89,41 @@ Offers are applied in the order of appearance on the offers listing page.
 **Description and Promotions**
 
 This section defines how your customers will see the offer in the store. 
-
- 
+  
+  ![so_descr_promo1.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_descr_promo1.png)
 
 * **Title**: The offer title as it will appear to your customers.
 
 * **Description**: The detailed desription of the offer. This will be shown on the page with the full details of the offer.
 
+  ![so_descr_promo2.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_descr_promo2.png)
+  
 * **Image**: The image associated with the offer (can be shown on the home page, matching category pages and Special offers page). You can use .jpg, .png, .gif or .bmp files from your computer or an image URL from the web. The image will be resized to 160x230 pixels when displayed on the storefront. 
 
 * **Short promo text**: The short offer description (can be shown on the home page, matching category pages and {% link "Special Offers page" ref_3L7Dk8VR %}).
 
-The latter three settings are optional. 
+The latter three settings (Description, Image and Short promo text) are optional. 
  
-Further settings in this section allow you to specify the locations in which the offer image and short description will be shown (home page, matching category pages and Special offers page).
-  
+Further settings in this section allow you to specify the locations in which the offer image and short description will be shown (home page, matching category pages and Special offers page):
+
+  ![so_descr_promo3.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_descr_promo3.png)
+
 If you want to exclude any of the locations, turn them off.
 
  
+The result will look as follows:
 
-![Fig 9]({{site.baseurl}}/attachments/home.png)
+* On the Home page
+  ![so_home_page.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_home_page.png)
 
+* On the Special offers page
+  ![so_special_offers_page.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_special_offers_page.png)
 
-![fig 10]({{site.baseurl}}/attachments/buy_sopage.png)
+* On a category page:
+
+* On the page with the full details of the offer (This page can be accessed by clicking on the special offer image or short promo text on any of the pages named above):
+  ![so_offer_title_description.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_offer_title_description.png)
+
 
 _Related pages:_
    
