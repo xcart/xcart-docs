@@ -74,17 +74,19 @@ To create a coupon:
     
 ## Assigning Coupons to Random Products
 
-To limit coupons availability to a group of ramdom products a store admin should firt create a coupon as described [above](https://kb.x-cart.com/seo_and_promotion/business_promotion/discount_coupons.html#creating-a-coupon "Discount Coupons") paying special attention to the following setting:
+To limit coupons availability to a group of ramdom products a store admin should first create a coupon as described [above](https://kb.x-cart.com/seo_and_promotion/business_promotion/discount_coupons.html#creating-a-coupon "Discount Coupons") paying special attention to the following setting:
    * **Valid only for specific products** : Enable the option by setting the toggle to “YES”.
    
 Then it is necessary to assign the newly created coupon to products using one of the following ways:
 
 ### Through the "Products" Tab of a Coupon Details Page 
 
-The **Products** tab of the coupon details page (**Discounts** -> **Coupons**) becomes available as soon as a coupon with the **Valid only for specific products** property enable is created.
+This is the most common way of assiging coupons to products as it does not require leaving the coupon set up page. 
+
+The **Products** tab of the coupon details page (**Discounts** -> **Coupons**) becomes available as soon as a coupon with the **Valid only for specific products** property enable is created and allows assiging as many products to a coupon as a store admin may need.
 ![541-coupon-details-product-tab.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupon-details-product-tab.png)
 
-To assign a coupon to a goup of random products a store admin should:
+To assign a coupon to a group of random products a store admin should:
      
 1. Open the Products tab of the coupon details page
    ![541-coupon-details-add-products.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupon-details-add-products.png)
@@ -93,23 +95,25 @@ To assign a coupon to a goup of random products a store admin should:
    ![541-add-products-popup.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-add-products-popup.png)
 4. Click the **Add product** button at the bottom of the pop-up.
        
-   The selected products display list of products the coupon applies to:
+   The list displays the clickable links to the products the coupon is applied:
    ![541-coupon-details-products-added.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupon-details-products-added.png)
        
-   The number of products the coupon is applied to also displays as a clickable link on the coupons listing page. A store admin can edit the product list following this link directly.
+   The number of products the coupon is applied also displays as a clickable link on the coupons listing page. A store admin can edit the product list following this link directly.
    ![541-coupons-listing-products-link.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupons-listing-products-link.png)
        
-### Through the "Bulk edit" Tool 
+### Through the "Bulk Edit" Tool 
 
-The  **Bulk edit** tool is available on the product listing page (**Catalog** -> **Products**):
+The **Bulk edit** tools is mostly used to [manage existing coupon assignments](https://kb.x-cart.com/seo_and_promotion/business_promotion/discount_coupons.html#managing-coupons-assigned-to-random-products "Discount Coupons"). However, it can still be used to assign coupons to to a group of random products at a time is required.
+
+The **Bulk edit** tool is available on the product listing page (**Catalog** -> **Products**):
 ![541-product-list-bulk-edit.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-product-list-bulk-edit.png)
 
-To assign a coupon to a goup of random products a store admin should:
+To assign a coupon to a group of random products a store admin should:
      
 1. Open the product listing page and select products from the list the coupon will apply to.
 2. Click **Coupons** in the **Bulk edit** selector:
    ![541-bulk-edit-coupons.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-coupons.png)
-3. On the page that opens, use the **Click to specify** button to select the coupon that will apply to the products:
+3. On the page that opens, use the **Click to specify** button to select a coupon that will apply to the products:
    ![541-bulk-edit-details.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-details.png)
     Click inside the **Coupons** field to see the list of coupons available:
     ![541-bilk-edit-select-coupon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bilk-edit-select-coupon.png)
@@ -122,6 +126,26 @@ There are no limitations on a number of coupons that can be assigned to one prod
 {% endnote %}
 
 ### Through Product Details Page
+
+Product details page is the least practical but still useful way to assign coupons to a product. Using this way a store admin can assign or delete previously assigned coupons on a per-product basis.
+
+To assign a coupon to a product a store admin should:
+1. Locate a product on the product listing page (**Catalog** -> **Products**) and open the product details page for editing:
+   ![541-product-listing.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-product-listing.png)
+
+2. On the product details page scroll down to the **Prices & Inventory** section in the **Info** tab:
+   ![541-product-details.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-product-details.png)
+
+3. In the **Prices & Inventory** section locate the Coupons field and click inside to check for the coupons available:
+   ![541-products-details-coupons-empty.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-products-details-coupons-empty.png)
+
+4. Select the applicable coupons from the list:
+   ![541-products-details-coupons-dropdown.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-products-details-coupons-dropdown.png)
+
+5. Click the **Update product** button at the bottom of the page to save the changes:
+   ![541-products-details-update-product.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-products-details-update-product.png)
+
+Using the algorithm described above a store admin can delete a coupon assigned previously to products through any of the available methods of coupon assignment.
 
 # Managing Coupons Assigned to Random Products
 
