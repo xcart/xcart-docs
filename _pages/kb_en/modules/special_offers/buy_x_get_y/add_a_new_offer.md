@@ -28,12 +28,13 @@ The settings that need to be configured for each offer are as follows:
 
 **General settings**
    
-* **Offer type**: The type of your offer as specified at the time of offer creation (cannot be changed).
+The settings in this section define the most general information regarding your special offer.
+
+* **Offer type**: The type of your offer as specified at the previous step (cannot be changed).
 
 * **Administrative name**: The name by which you will be able to identify this offer; the name specified here only appears in your store's Admin area (in the 'Discounts: Special Offers' section). 
 
 * **Enabled**: Whether the offer is active and can be used by your customers. Unselect the check box if you do not want the offer to be activated immediately after saving.  
-
 
 
 **Dates**
