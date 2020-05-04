@@ -21,8 +21,12 @@ To create a new special offer using the addon **Buy X Get Y offer**, follow the 
 3. Go through all the settings on the page and configure the offer as you require. See further below for a detailed explanation of all the settings.
  
 4. Click **Create** to save your changes. 
+   ![so_create_button.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_create_button.png)
 
-5. Make sure the offer is active and available to your customers. 
+5. Make sure the status of the offer is *enabled/active* in the Admin area:
+   ![so_my_1st_offer_enabled.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_my_1st_offer_enabled.png)
+
+6. Make sure the offer actually shows on the storefront in the intended locations and is available to the intended groups (membership levels) of your customers. 
 
 The settings that need to be configured for each offer are as follows:
 
