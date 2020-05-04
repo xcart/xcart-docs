@@ -30,6 +30,8 @@ The settings that need to be configured for each offer are as follows:
    
 The settings in this section define the most general information regarding your special offer.
 
+  ![so_my_1st_offer.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_my_1st_offer.png)
+
 * **Offer type**: The type of your offer as specified at the previous step (cannot be changed).
 
 * **Administrative name**: The name by which you will be able to identify this offer; the name specified here only appears in your store's Admin area (in the 'Discounts: Special Offers' section). 
@@ -41,14 +43,14 @@ The settings in this section define the most general information regarding your 
 
 The settings in this section allow you to specify the offer start and end times and dates. If the dates are not set, the offer is treated as open-ended. 
 
-  ![1of3_50off_sample2.png]({{site.baseurl}}/attachments/ref_5KycxjBU/1of3_50off_sample2.png)
+  ![so_dates.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_dates.png)
 
 
 **Conditions**
 
 This section allows you to set the conditions that need to be met for your offer to be applied.
 
-  ![1of3_50off_sample3.png]({{site.baseurl}}/attachments/ref_5KycxjBU/1of3_50off_sample3.png)
+  ![so_conditions.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_conditions.png)
 
 * **Number of items to buy**: The number of items or product units that a buyer needs to add to their shopping cart to become eligible for the current offer.
 
@@ -56,28 +58,26 @@ This section allows you to set the conditions that need to be met for your offer
 For a store-wide special offer, no category selection needs to be made; in this case the offer will be applied to all your store's SKUs including any products on sale, products with volume discounts and so on. If a specific category is selected, the offer will count only the SKUs from the root of this category. To include SKUs from the subcategories as well, you will need to select the subcategories along with the main category.
 
 * **Eligible membership levels**: The user memberships to which the offer is available. If not set, the offer is available to all buyers.
-
   
 
 **Reward**
 
 This section allows you to specify the reward that a buyer will get if the special offer is applied to their order.
 
-  ![1of3_50off_sample4.png]({{site.baseurl}}/attachments/ref_5KycxjBU/1of3_50off_sample4.png)
+  ![so_reward.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_reward.png)
 
 * **Number of items to discount**: The number of items that your buyer can get at a discounted price by using the current offer. The discount can be as big as 100%, if required. 
 
 * **Discount**: The discount amount your buyer will get.
 
 * **Discount type**: The discount type (can be set as a fixed sum discount - specified in the store currency - or as a percentage (%)). If the discount is set at 100%, the buyer will get the item(s) for free.
-
   
 
 **Exclusions**
 
 This section allows you to specify excluding conditions for the application of the special offer.
 
-  ![1of3_50off_sample5.png]({{site.baseurl}}/attachments/ref_5KycxjBU/1of3_50off_sample5.png)
+  ![so_exclusions.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_exclusions.png)
 
 If the current special offer needs to be incompatible with some other existing offers, you can specify it in this section. It is possible to select more than one offers. (Hold down the Ctrl/Shift key.) The offers marked as selected in this section will prevent the current offer from being applied.
   
@@ -90,7 +90,7 @@ Offers are applied in the order of appearance on the offers listing page.
 
 This section defines how your customers will see the offer in the store. 
 
- ![1of3_50off_sample6.png]({{site.baseurl}}/attachments/ref_5KycxjBU/1of3_50off_sample6.png)
+ 
 
 * **Title**: The offer title as it will appear to your customers.
 
