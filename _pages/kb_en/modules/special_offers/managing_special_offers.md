@@ -8,7 +8,7 @@ order: 600
 published: true
 ---
 An X-Cart store with one of the special offer addons installed and enabled provides a special section of the store back end where you can create and manage special offers: 'Special Offers' (**Discounts** > **Special offers**).
-![so_discounts_special_offers.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_discounts_special_offers.png)
+  ![so_discounts_special_offers.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_discounts_special_offers.png)
 
 ## Add a Special Offer
 
@@ -36,7 +36,7 @@ The offer will be saved with the updated details.
 Information about a special offer is visible on the storefront if the offer is active (enabled) and not visible if it is inactive (disabled). 
 
 You can view the status of all your special offers on the Special Offers page (**Discounts** > **Special offers**). Every offer has a status button that shows its current status:
-![so_enable_disable.png]({{site.baseurl}}/attachments/ref_1eX1GC1r/so_enable_disable.png)
+  ![so_enable_disable.png]({{site.baseurl}}/attachments/ref_1eX1GC1r/so_enable_disable.png)
 
 If an offer is enabled, the button is green. If it is disabled, the button is grey. 
 
@@ -51,13 +51,18 @@ The status will be changed.
 The order of special offers in the list on the Special Offers page (**Discounts** > **Special offers**) affects the order in which these orders are sorted on the storefront and the order in which they are applied to orders if more than one offer can be applied to the same order.
 
 You can rearrange the order of your special offers using the drag-n-drop feature:
-![so_rearrange_order.png]({{site.baseurl}}/attachments/ref_1eX1GC1r/so_rearrange_order.png)
+  ![so_rearrange_order.png]({{site.baseurl}}/attachments/ref_1eX1GC1r/so_rearrange_order.png)
 Be sure to click **Save changes** to save any changes you have made. The new order will be applied.
 
 ## Delete a Special Offer
 You can permanently remove any existing special offers that you no longer need. To do so:
 
-1. On the Special Offers page (**Discounts** > **Special offers**), click the Trash button on the line of the offer you want to remove. The offer will be marked for deletion.
+1. On the Special Offers page (**Discounts** > **Special offers**), click the Trash button on the line of the offer you want to remove. 
+  ![so_delete_offer.png]({{site.baseurl}}/attachments/ref_1eX1GC1r/so_delete_offer.png)
+
+  The offer will be marked for deletion.
+  ![so_delete_offer1.png]({{site.baseurl}}/attachments/ref_1eX1GC1r/so_delete_offer1.png)
+
 2. Click **Save changes**.
 
 The offer will be removed.
