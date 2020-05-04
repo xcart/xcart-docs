@@ -59,7 +59,6 @@ You can permanently remove any existing special offers that you no longer need. 
 
 1. On the Special Offers page (**Discounts** > **Special offers**), click the Trash button on the line of the offer you want to remove. 
   ![so_delete_offer.png]({{site.baseurl}}/attachments/ref_1eX1GC1r/so_delete_offer.png)
-
   The offer will be marked for deletion.
   ![so_delete_offer1.png]({{site.baseurl}}/attachments/ref_1eX1GC1r/so_delete_offer1.png)
 
