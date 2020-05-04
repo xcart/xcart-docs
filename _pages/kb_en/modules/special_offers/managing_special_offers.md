@@ -16,12 +16,21 @@ To add a special offer:
 
 1. On the Special Offers page (**Discounts** > **Special offers**), select from the **New offer** drop-down box the type of offer you would like to add and click **Create**.
 2. On the page that opens, adjust the special offer configuration settings to provide the offer details.
-3. Save your changes.
+3. Click **Create**.
 
 The order will be added.
 
 For more info on the special offer configuration settings, see:
 * {% link "Adding a New 'Buy X Get Y' Offer" ref_5KycxjBU %}
+
+## Edit a Special Offer
+
+To edit an existing special offer:
+1. On the Special Offers page (**Discounts** > **Special offers**), click on the name of the offer you want to edit. 
+2. On the page that opens, adjust the offer details.
+3. Click **Update** to save your changes.
+
+The offer will be saved with the updated details. 
 
 ## Enable/Disable a Special Offer
 Information about a special offer is visible on the storefront if the offer is active (enabled) and not visible if it is inactive (disabled). 
