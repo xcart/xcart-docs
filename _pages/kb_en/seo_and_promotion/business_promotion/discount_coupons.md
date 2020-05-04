@@ -15,7 +15,7 @@ X-Cart 5 allows you to create coupons for your customers. A coupon is a secret c
 
 {% toc %}
 
-## Enabling Coupons
+# Enabling Coupons
 
 The coupons feature in X-Cart 5 is enabled by the addon **[Coupons](https://market.x-cart.com/addons/discount-coupons.html)**:
 ![coupons_addon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/coupons_addon.png)
@@ -25,11 +25,11 @@ To be able to use free shipping coupons, you also require the addon **[Free Ship
 
 To start creating coupons for your customers, make sure the above said addons are installed and enabled at your store. If not, you can install them from the X-Cart App Store. For general addon installation instructions, see {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 
-## Configuring Coupons
+# Configuring Coupons
 
 When creating a coupon, a store administrator can limit its application to product categories and classes, as well as to customer memberships or address. The availability can also narrow to a group of random products. 
 
-### Creating a Coupon
+## Creating a Coupon
 
 To create a coupon:
 
@@ -72,50 +72,58 @@ To create a coupon:
     ![541-coupons-list.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupons-list.png)
     
     
-### Assigning Coupons to Random Products
+## Assigning Coupons to Random Products
 
-To limit coupons availability to a group of ramdom products a store admin should:
-
-1. Create a coupon as described [above](https://kb.x-cart.com/seo_and_promotion/business_promotion/discount_coupons.html#creating-a-coupon "Discount Coupons") paying special attention to the following setting:
+To limit coupons availability to a group of ramdom products a store admin should firt create a coupon as described [above](https://kb.x-cart.com/seo_and_promotion/business_promotion/discount_coupons.html#creating-a-coupon "Discount Coupons") paying special attention to the following setting:
    * **Valid only for specific products** : Enable the option by setting the toggle to “YES”.
    
-2. Assign the newly created coupon to products using one of the following ways:
-   * Through the **Products** tab of the coupon details page (**Discounts** -> **Coupons**)
-     ![541-coupon-details-product-tab.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupon-details-product-tab.png)
-     This tab becomes available as soon as a coupon with the **Valid only for specific products** property enable is created.
+Then it is necessary to assign the newly created coupon to products using one of the following ways:
+
+### Through the "Products" Tab of a Coupon Details Page 
+
+The **Products** tab of the coupon details page (**Discounts** -> **Coupons**) becomes available as soon as a coupon with the **Valid only for specific products** property enable is created.
+![541-coupon-details-product-tab.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupon-details-product-tab.png)
+
+To assign a coupon to a goup of random products a store admin should:
      
-     * Open the Products tab of the coupon details page
-       ![541-coupon-details-add-products.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupon-details-add-products.png)
-     * Click **Add products**.
-     * Select products from the list in the pop-up.
-       ![541-add-products-popup.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-add-products-popup.png)
-     * Click the **Add product** button at the bottom of the pop-up.
+1. Open the Products tab of the coupon details page
+   ![541-coupon-details-add-products.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupon-details-add-products.png)
+2. Click **Add products**.
+3. Select products from the list in the pop-up.
+   ![541-add-products-popup.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-add-products-popup.png)
+4. Click the **Add product** button at the bottom of the pop-up.
        
-       The selected products display list of products the coupon applies to:
-       ![541-coupon-details-products-added.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupon-details-products-added.png)
+   The selected products display list of products the coupon applies to:
+   ![541-coupon-details-products-added.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupon-details-products-added.png)
        
-       The number of products the coupon is applied to also displays as a clickable link on the coupons listing page. A store admin can edit the product list following this link directly.
-       ![541-coupons-listing-products-link.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupons-listing-products-link.png)
+   The number of products the coupon is applied to also displays as a clickable link on the coupons listing page. A store admin can edit the product list following this link directly.
+   ![541-coupons-listing-products-link.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-coupons-listing-products-link.png)
        
-   * Through the **Bulk edit** tool on the product listing page (**Catalog** -> **Products**):
-     ![541-product-list-bulk-edit.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-product-list-bulk-edit.png)
+### Through the "Bulk edit" Tool 
+
+The  **Bulk edit** tool is available on the product listing page (**Catalog** -> **Products**):
+![541-product-list-bulk-edit.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-product-list-bulk-edit.png)
+
+To assign a coupon to a goup of random products a store admin should:
      
-     * Open the product listing page and select products from the list the coupon will apply to.
-     * Click **Coupons** in the **Bulk edit** selector:
-       ![541-bulk-edit-coupons.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-coupons.png)
-     * On the page that opens, use the **Click to specify** button to select the coupon that will apply to the products:
-       ![541-bulk-edit-details.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-details.png)
-       Click inside the **Coupons** field to see the list of coupons available:
-       ![541-bilk-edit-select-coupon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bilk-edit-select-coupon.png)
-      * Check that the action is set to **Add**:
-        ![541-bulk-edit-add-action.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-add-action.png)
-      * Click **Save changes**. The coupon is assigned to selected products.
+1. Open the product listing page and select products from the list the coupon will apply to.
+2. Click **Coupons** in the **Bulk edit** selector:
+   ![541-bulk-edit-coupons.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-coupons.png)
+3. On the page that opens, use the **Click to specify** button to select the coupon that will apply to the products:
+   ![541-bulk-edit-details.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-details.png)
+    Click inside the **Coupons** field to see the list of coupons available:
+    ![541-bilk-edit-select-coupon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bilk-edit-select-coupon.png)
+4. Check that the action is set to **Add**:
+   ![541-bulk-edit-add-action.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/541-bulk-edit-add-action.png)
+5. Click **Save changes**. The coupon is assigned to selected products.
 
 {% note info %}
 There are no limitations on a number of coupons that can be assigned to one product. 
 {% endnote %}
 
-### Managing Coupons Assigned to Random Products
+### Through Product Details Page
+
+# Managing Coupons Assigned to Random Products
 
 The **Bulk edit** tool of the product listing page (**Catalog** -> **Products**) allows changing a coupon assigned to a product for an alternative one and unassigning coupons from products completely. 
 
@@ -136,7 +144,7 @@ To edit coupon assignments:
      * Select a coupon you need.
 5. Click **Save changes**. 
 
-## Using Coupons in the Storefront
+# Using Coupons in the Storefront
 
 When the **Coupons** addon is enabled, a link **Have a discount coupon?** is provided at checkout. 
 ![xc5_coupons_haveacoupon.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_haveacoupon.png)
