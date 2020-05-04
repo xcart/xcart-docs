@@ -128,7 +128,10 @@ The result will look as follows:
 * On a category page:
   ![so_category_page.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_category_page.png)
   
-* On the page with the full details of the offer (This page can be accessed by clicking on the special offer image or short promo text on any of the pages named above):
+On all the above named pages, the information about the offer can include the offer image and the short promo text:
+  ![so_image_shortpromo.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_image_shortpromo.png)
+   
+By clicking on either the image or the short promo text, your store visitors will be able to access the page with the full details of the offer. This page will include the offer title and, if available, the offer detailed description:
   ![so_offer_title_description.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_offer_title_description.png)
 
 
