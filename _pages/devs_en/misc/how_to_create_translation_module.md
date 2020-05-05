@@ -56,18 +56,18 @@ Once you are done translating the second column of your CSV file, go to the pag
 
 You will need to complete the form provided on the page. We will require that you provide the following information:
 
-*   **Developer ID**: Your developer ID (without spaces). See more about developer ID here: {% link "Step 1 - creating simplest module" ref_G2mlgckf#choosing-identifiers %};
+*   **Developer ID**: Your developer ID (without spaces). See more about developer ID here: {% link "Step 1 - creating simplest module" ref_G2mlgckf#choosing-identifiers %}.
+*   **Module service name**: The ID of your module in X-Cart. See more here: {% link "Step 1 - creating simplest module" ref_G2mlgckf#choosing-identifiers %}.
 *   **Module author**: The name of the translation author as it needs to be displayed to merchants.
-*   **Module service name**: The ID of your module in X-Cart. See more here: {% link "Step 1 - creating simplest module" ref_G2mlgckf#choosing-identifiers %};
 *   **Module name**: The name of your module as it is going to be displayed to merchants.
 *   **Module description**: The description of the module that will be displayed to merchants.
 *   **Core version**: The X-Cart version for which your module is intended. 
-*   **Module minor version**: The minor version of your module. If you are just about to create the very first version of your module, leave this set to **0** by default. If you are updating your existing module, then increase this value by **1**. So, for the second version of your module, this setting needs to be **1**, for the third version it needs to be **2**, and so on.
-*   **Language code**: The code of the language to which your module provides a translation.
+*   **Language code**: The language into which your module provides a translation.
 *   **Choose a .csv-file**: The CSV file that needs to be uploaded and converted into a translation module.
 *   **CSV delimiter**: The type of delimiter used in your CSV file: comma, semicolon or tab.
 *   **CSV charset**: The character encoding used in your CSV file. If you did not change it, keep the default setting "UTF-8".
 *   **Choose a .png-file**: The image that you want to use as your module logo.
+*   **Version changelog**: A changelog is required for every new version of an already published translation module. You can leave this field blank if you are preparing the very 1st version of your translation module.
 
 Once you are done, click the **Create** button. This will launch the script to create a module for you.
 
