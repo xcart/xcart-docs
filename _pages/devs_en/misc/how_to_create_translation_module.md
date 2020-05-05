@@ -52,30 +52,30 @@ For example, you want to add a Spanish language translation for your X-Cart stor
 
 ## Wrapping up the translation module
 
-Once you are done with the CSV file, you should go to the <https://market.x-cart.com/create-translation-module-by-using-csv-file/> page and this script will allow you to wrap up this CSV file into the module.
+Once you are done translating the second column of your CSV file, go to the page <https://market.x-cart.com/create-translation-module-by-using-csv-file/>. This page provides access to a script that will help you to wrap up your CSV file into a translation module.
 
-Fill in the form of this script as:
+You will need to complete the form provided on the page. We will require that you provide the following information:
 
-*   **Developer ID** should be filled in as your developer ID (without spaces). See more about developer ID here: {% link "Step 1 - creating simplest module" ref_G2mlgckf#choosing-identifiers %};
-*   **Module author** should contain the name of the translation author in a way it should be displayed to merchants;
-*   **Module service name** should contain the ID of your module in X-Cart. See more here: {% link "Step 1 - creating simplest module" ref_G2mlgckf#choosing-identifiers %};
-*   **Module name** should contain the name of your module how it is going to be displayed to merchants;
-*   **Module description** defines the description of the module that will be displayed to merchants;
-*   **Core version** field defines what X-Cart version is your module for. If you are creating the module for the latest X-Cart version, leave this field as 5.3;
-*   **Module minor version** defines the minor version of your module. If you are just about to create the very first version of your module, leave it **0** by default. If you are updating your existing module, then increase this value by **1**. So, the second version of your module will have this field as **1**, the next one as **2** and so on;
-*   **Language code** is what language your module for;
-*   **Choose a .csv-file** is an input box to attach your CSV file;
-*   **CSV delimiter** defines what delimiter is used in your CSV file: comma, semicolon or tab;
-*   **CSV charset** defines the character encoding used in your CSV file. If you did not change it, leave it as UTF-8;
-*   **Choose a .png-file** is an input box to define module logo.
+*   **Developer ID**: Your developer ID (without spaces). See more about developer ID here: {% link "Step 1 - creating simplest module" ref_G2mlgckf#choosing-identifiers %};
+*   **Module author**: The name of the translation author as it needs to be displayed to merchants.
+*   **Module service name**: The ID of your module in X-Cart. See more here: {% link "Step 1 - creating simplest module" ref_G2mlgckf#choosing-identifiers %};
+*   **Module name**: The name of your module as it is going to be displayed to merchants.
+*   **Module description**: The description of the module that will be displayed to merchants.
+*   **Core version**: The X-Cart version for which your module is intended. 
+*   **Module minor version**: The minor version of your module. If you are just about to create the very first version of your module, leave this set to **0** by default. If you are updating your existing module, then increase this value by **1**. So, for the second version of your module, this setting needs to be **1**, for the third version it needs to be **2**, and so on.
+*   **Language code**: The code of the language to which your module provides a translation.
+*   **Choose a .csv-file**: The CSV file that needs to be uploaded and converted into a translation module.
+*   **CSV delimiter**: The type of delimiter used in your CSV file: comma, semicolon or tab.
+*   **CSV charset**: The character encoding used in your CSV file. If you did not change it, keep the default setting "UTF-8".
+*   **Choose a .png-file**: The image that you want to use as your module logo.
 
-Once you are done, click **Create** button and the script will create a module for you.
+Once you are done, click the **Create** button. This will launch the script to create a module for you.
 
 ![language-module.png]({{site.baseurl}}/attachments/ref_haeJE8rQ/language-module.png)
 
 ## Possible problems
 
 ### Fatal error during module installation
-If you forget to remove the first column with language code (e.g. en) from the CSV file, you will see the error message on the 7th step of the module installation.
+If you forget to remove the first column with the language code (e.g. en) from the CSV file, you will see the error message on the 7th step of the module installation.
 
-To fix this problem, remove the first column, so your CSV file would have only two columns remaining and pack the module again.
+To fix this problem, remove the first column, so your CSV file will have only two columns remaining and pack the module again.
