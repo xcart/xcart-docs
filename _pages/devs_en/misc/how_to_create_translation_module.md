@@ -24,30 +24,30 @@ This article describes the whole process of creating a translation module.
 
 ## Getting a CSV file
 
-We assume that you already have an X-Cart 5 installation. You can get the complete list of labels for translation by clicking the **CSV icon** in the **Store setup** > **Translations** section in your X-Cart store Admin area.
-
-![languages-in-admin.png]({{site.baseurl}}/attachments/ref_haeJE8rQ/languages-in-admin.png)
+We assume that you already have an X-Cart 5 installation. You can get the complete list of labels for translation by clicking on the Download CSV icon in the **Store setup** > **Translations** section in your X-Cart store Admin area.
+![download_language_csv.png]({{site.baseurl}}/attachments/ref_haeJE8rQ/download_language_csv.png)
 
 
 ## Working with CSV
 
-Open this CSV file in your favourite spreadsheet editor (MS Excel, OpenOffice Calc, etc). You will see three columns there.
+Open this CSV file in your favorite spreadsheet editor (MS Excel, OpenOffice Calc, etc). You will see three columns there.
 
 ![]({{site.baseurl}}/attachments/7504191/7602236.png)
 
-*   The first column contains the code of the English language. Remove this column entirely;
-*   The second column contains the key of the label. Our translation engine will use this key to identify what label should be pulled from the translation module. Do not change this column;
-*   The third column contains the translation of the label. You should translate the phrase in the third column and then put the translated value back into the third column.
+*   The first column contains the code of the English language. Remove this column completely.
+*   The second column contains the key of the label. Our translation engine will use this key to identify what label should be pulled from the translation module. Do not change the contents of this column.
+*   The third column contains the translation of the label. You will need to replace the contents of this column with your translation. 
 
 ### Example
 
-You want to add a Spanish language translation for your X-Cart store.
+For example, you want to add a Spanish language translation for your X-Cart store. Follow the steps below:
 
-1.  Open the CSV file in the spreadsheet editor.
-2.  Delete the first column. As a result, you have two columns (the 1st one that used to be the 2nd one and the 2nd one that used to be the 3rd one);
-3.  In the first row second column (that used to be 3rd one) you add Spanish translation of word _Weight_;
-4.  In the second row second column you add Spanish translation of phrase _Add to Cart_. Not _Add to cart_ (with small c in cart), because you are translating the phrase that is in the second column, not the key that is in the first column. Quite often the key of a label is the same as its translation, but that is not always.
-5.  Keep translating the labels until the end of file.
+1.  Open the CSV file you have downloaded from your X-Cart store in the spreadsheet editor.
+2.  Delete the first column. As a result, you will have two columns (the 1st one that used to be the 2nd one and the 2nd one that used to be the 3rd one).
+3.  Translate the values in the 2nd column. Be sure to work on the 2nd column only!
+    On the first row, remove the word _Weight_ and add a Spanish translation of the word _Weight_ in its place.
+    On the second row, remove the phrase _Add to Cart_ and replace it with a Spanish translation. Note that you are still supposed to be working on the 2nd column, so make sure you are adding your translation in the place of the phrase _Add to Cart_ in the second column, NOT the phrase _Add to cart_ (with the small letter "c" in "cart") in the first column, which is the _key_ for this label and is not supposed to be changed. Note that quite often the key of a label is the same as its translation, but that is not always.
+    Keep translating the labels until the end of your file.
 6.  Save the file with the CSV extension.
 
 ## Wrapping up the translation module
