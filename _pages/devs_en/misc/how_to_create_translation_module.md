@@ -10,9 +10,15 @@ order: 100
 published: true
 ---
 
-Translation module is an add-on that translates an X-Cart store to another language. The most part of such a module is not code, but the list of translated labels, so we tried to ease the process for translators and all they need to do is to perform their translating job. After that you can run a special script that will wrap up their translation into the module.
+Translation module is an addon that translates an X-Cart store to another language. It is the same thing that we call a language package, a translation package or, sometimes, simply a translation. 
 
-This article describes the whole process of creating translation module.
+{% note info %} 
+Information on language packages / translation packages is available in the section [Translating Your Store](https://kb.x-cart.com/translation_and_localization/translations/index.html "How to create a translation module") of our Knowledge Base.
+{% endnote %}
+
+The better part of a translation module is not code, but a list of translated text labels. We tried to ease things for translators as much as possible, so all they need to do is to perform their translating job. After that you can run a special script that will wrap up their translation into a translation module.
+
+This article describes the whole process of creating a translation module.
 
 {% toc Table of Contents %}
 
