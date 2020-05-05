@@ -42,7 +42,7 @@ The checklist below outlines the steps you need to take to configure taxes in an
     {% endnote %}
     
 4.  If you are going to need different tax rates for different customer membership levels, ensure that the necessary user membership levels have been set up. 
-    *   {% link "Adding user membership levels" ref_9ITFspcC %}
+    *  {% link "Managing User Membership Levels" ref_RXsgxNSm %}
     
 5. If you are going to need tax exemptions for different groups of products and/or customers, check if tax exemptions are supported by the addon you have chosen for taxes configuration. 
    
