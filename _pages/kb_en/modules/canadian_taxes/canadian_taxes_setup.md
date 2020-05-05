@@ -24,7 +24,7 @@ Before you configure the Canadian Taxes addon:
     *   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
 4.  If you are going to need different provincial tax rates for different customer membership levels, ensure that the necessary user membership levels have been set up. 
     See:
-    *   {% link "Adding user membership levels" ref_9ITFspcC %}
+    *   {% link "Managing User Membership Levels" ref_RXsgxNSm %}
 
 {% endnote %}
 
