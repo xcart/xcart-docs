@@ -43,7 +43,7 @@ You will see a screen like the following:
    * **Enabled** : If enabled the banner is displayed in the storefront.
    
      {% note info %}    
-     Recommended banner paramethers for Retina and 4k displays:
+     Recommended banner parameters for Retina and 4k displays:
      
      * image size 3840х880 px
      * JPG format with a 50%-80% compression
