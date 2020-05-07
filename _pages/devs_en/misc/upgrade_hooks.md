@@ -63,7 +63,7 @@ Here are some examples of directory placement for different types of hooks:
 *   post_rebuild hook  intended to be used when upgrading a module to version 5.3.1.2: `<xcart-dir>/classes/XLite/Module/<DeveloperID>/<ModuleName>/upgrade/5.3/1.2/post_rebuild.php`
 
 {% note info %}
-Starting with X-Cart 5.4.0.x upgrade hooks are stored in the /hooks/upgrade folder, not in the /upgrade folder as they used to in X-Cart 5.3.x.
+Starting with X-Cart 5.4.0.x the module upgrade hooks are stored in the /hooks/upgrade folder, not in the /upgrade folder as they used to in X-Cart 5.3.x.
 
 Hence the directory placement will be something like `<xcart-dir>/classes/XLite/Module/DeveloperID/ModuleName/hooks/upgrade/5.4/1.2/post_rebuild.php`
 {% endnote %}
