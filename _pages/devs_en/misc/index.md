@@ -1,19 +1,21 @@
 ---
-title: Misc
 lang: en
 layout: article_with_sidebar
-updated_at: 2017-09-05 15:39 +0400
+updated_at: '2017-09-05 15:39 +0400'
+title: Misc
 identifier: ref_S6VQco37
 order: 10
 icon: help circle
 description: Useful guides that could not be categorized to previous sections
 categories:
-- home
-- Developer docs
+  - home
+  - Developer docs
+published: true
 ---
 
 This section contains useful guides that could not be categorized to previous sections:
 
+*   {% link "Addon Hooks" ref_1QVXYYLq %}
 *   {% link "Coding guidelines and standards" ref_2RV1BTPq %}
 *   {% link "Contents of X-Cart /var directory" ref_GW35wpNW %}
 *   {% link "Dealing with X-Cart fatal errors" ref_nI5Nu52p %};
