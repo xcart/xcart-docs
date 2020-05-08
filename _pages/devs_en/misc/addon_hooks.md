@@ -5,14 +5,14 @@ updated_at: '2020-05-08 10:54 +0400'
 identifier: ref_1QVXYYLq
 title: Addon Hooks
 order: 100
-published: false
+published: true
 keywords:
   - hook messages
   - module hooks
   - addon hooks
 version: X-Cart 5.4.0.x and later
 ---
-Upgrade hooks are programming code used to perform certain operations with data in the process of X-Cart core or X-Cart addon upgrades. This includes such operations as the addition of new data to the database, updating of existing data, removal of outdated data, conversion of the data storage format and the like.
+Addon hooks are programming code used to perform certain operations with data in the process of executing the events like addon installation, removal, activation, deactivation and rebuild.
 
 {# toc #}
 
