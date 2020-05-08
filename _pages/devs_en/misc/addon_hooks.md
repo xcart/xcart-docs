@@ -40,9 +40,10 @@ Hook code uses the following format:
 
 ```
 <?php
+
 return new \XLite\Rebuild\Hook(
-function () {
-//your code here
-}
+    function () {
+        //your code here
+    }
 );
 ```
