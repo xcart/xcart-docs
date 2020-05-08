@@ -14,7 +14,7 @@ version: X-Cart 5.4.0.x and later
 ---
 Addon hooks are programming code used to perform certain operations with data in the process of executing the events like addon installation, removal, activation, deactivation and rebuild.
 
-{# toc #}
+{% toc %}
 
 ## Addon Hooks Overview
 
