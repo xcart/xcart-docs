@@ -6,7 +6,7 @@ identifier: ref_o5oJ0AFO
 title: Removing the "Powered by" Notice
 categories:
   - User manual
-published: true
+published: false
 order: 800
 redirect_from:
   - /look_and_feel/removing_the_powered_by_notice.html
