@@ -25,4 +25,3 @@ _In this section:_
 *  {% link "Managing Texts Labels in Your Store" ref_IyGxQ1DN %}
 *  {% link "Adding Banners to Store Pages" ref_35tpPrVf %}
 *  {% link "Adding Vendor Name to Store Pages" ref_0tpuzI7Z %}
-*  {% link "Removing the "Powered by" Notice" ref_o5oJ0AFO %}
