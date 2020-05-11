@@ -91,7 +91,7 @@ In the fifth step, the wizard will provide you with a list of X-Cart 5 addons th
 
 Click **Enable and continue**.
 
-What happens next depends on whether your X-Cart 5 store is a trial installation or using some kind of license (free or non-free).
+What happens next depends on whether your X-Cart 5 store is a trial installation or using some kind of license.
 
 ### Trial installation (NO license is activated)
     
