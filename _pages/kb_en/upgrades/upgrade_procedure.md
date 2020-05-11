@@ -96,10 +96,10 @@ Also note the **Advanced mode** link allowing you to install just some specific 
        ![update-components.png]({{site.baseurl}}/attachments/ref_2eoOYsqJ/update-components.png)
 
        {% note info %}
-       Updates/upgrades are available only to X-Cart stores with an activated license key. If you are using an X-Cart trial copy without any license key activated (free or paid), you will not be able to continue any furter than this step. There will be a message stating the problem with your license:
+       Updates/upgrades are available only to X-Cart stores with an activated license key. If you are using an X-Cart trial copy without any license key activated, you will not be able to continue any further than this step. There will be a message stating the problem with your license:
        ![4_licensekey.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_licensekey.png)
        
-       If you see a message like that, you need to at least activate a free license, or purchase and activate a paid license. Once you do so, the problem will be resolved, and next time you attempt an update/upgrade, the **Continue** button will be available.
+       If you see a message like that, you need to purchase and activate a paid license. Once you do so, the problem will be resolved, and next time you attempt an update/upgrade, the **Continue** button will be available.
        {% endnote %}
     
    6.  Clicking the **Continue** button launches the downloading of all the necessary update/upgrade packs for the core and addons. 
