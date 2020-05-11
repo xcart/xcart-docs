@@ -15,7 +15,7 @@ User membership levels can be set up and managed using the **Membership levels**
 
 {% toc %}
 
-## Add Membership Levels
+## Creating Membership Levels
 
 To create a new membership level:
 1.  In your store's Admin area, go to **Users** -> **Membership levels** and click the **New membership** button. This adds a new blank field in the membership levels table.
@@ -28,7 +28,7 @@ To create a new membership level:
     
 The new membership level will be saved and added to the list of your store's membership levels.
 
-## Viewing and managing membership levels
+## Viewing and Managing Membership Levels
 
 The **Membership levels** section (**Users > Membership levels**) provides a table with a list of membership levels available to your store's users (if any such levels have been added):
     ![membership-levels-listing.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/membership-levels-listing.png)
