@@ -24,7 +24,7 @@ This guide explains the main steps to set up an X-Cart store. Please refer to it
 
 3.   Once the hosting is ready, proceed to X-Cart installation. See a detailed Installation guide [here](http://kb.x-cart.com/en/general_setup/installation_guide.html#installation-process).
 
-4.   Once your X-Cart is installed, you will see a pop-up window suggesting that you register your free license ([see how](https://www.youtube.com/watch?v=MEncqXpJ8qc)) or activate a paid edition license (see [video instruction](https://www.youtube.com/watch?v=mmedPCQ91yA)). Follow the procedure in accordance with the X-Cart package chosen.
+4.   Once your X-Cart is installed, you will see a pop-up window suggesting that you register your license ([see how](https://www.youtube.com/watch?v=MEncqXpJ8qc)) or activate a paid edition license (see [video instruction](https://www.youtube.com/watch?v=mmedPCQ91yA)). Follow the procedure in accordance with the X-Cart package chosen.
 
 
 ## Step 2: Data Migration with a Store Migration App
