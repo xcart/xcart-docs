@@ -58,7 +58,7 @@ After you have selected to proceed with either minor or major software upgrades,
    *   If your store has any addons that have upgrade hooks, and these addons are disabled (not active), you will be prompted to activate such addons. An addon must be active in order for the upgrade hooks to be run correctly, and this is the reason why the addon must be either enabled or deleted.
    *   If your store has addons that do not exist in the App Store (e.g. you {% link "uploaded" ref_GZQ9vTq6 %} them via **Upload add-on** button) and you are doing an upgrade/update within the 3rd or 4th digit sequence of the version number, you will be advised to disable these addons, although it is not strictly necessary. If you are doing a major upgrade affecting the 1st or 2nd digit sequence of the version number, you will be told that such addons will be disabled automatically.
    *   If your store has any modified files, you will be prompted to contact the addon developers for help with the files adaptaion for the upcoming upgrade.
-   *   If you are using an X-Cart trial copy without any license key activated (free or paid) or your access to upgrades has expired, you will not be able to continue any furter than this step. If you see a warning like that, you need to at least activate a free license, or purchase and activate a paid license. Once you do so, the problem will be resolved.
+   *   If you are using an X-Cart trial copy without any license key activated or your access to upgrades has expired, you will not be able to continue any furter than this step. If you see a warning like that, you need to purchase and activate a paid license. Once you do so, the problem will be resolved.
 
 ## Check the Update Changelog
 
