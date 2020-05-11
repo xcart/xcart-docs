@@ -19,7 +19,6 @@ In this section you will find links to video tutorials and webinar recordings fo
 *   {% link "Installing X-Cart (video guide)" ref_OgodT8pE %} (published Jan 18, 2017; based on X-Cart 5.3.1.4)
 *   {% link "X-Cart 5 Getting Started Guide" ref_2QCdPxZH %} (published Apr 20, 2015; based on X-Cart 5.2.3)
 *   {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %} (published Nov 21, 2016; based on X-Cart 5.3.1.5)
-*   {% link "X-Cart 5 Free License Activation" ref_X5ZLmSJV %} (published Oct 08, 2014; based on X-Cart 5.1.5)
 *   {% link "X-Cart 5 Business License Activation" ref_UUrbypsh %} (published Oct 28, 2014; based on X-Cart 5.1.6)
 *   {% link "X-Cart 5 Module License Activation" ref_hU6Rb4tw %} (published Oct 28, 2014; based on X-Cart 5.1.7)
 *   {% link "X-Cart 5 Upgrading Easy" ref_ewS4hGwa %} (published Mar 06, 2013; based on X-Cart Next core 1.2.x)
