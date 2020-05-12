@@ -10,6 +10,7 @@ published: true
 To start using the X-Cart special offers addon 'Spend X Get Y', you need to make sure it is installed and enabled in your X-Cart store.
 
 Depending on the X-Cart edition you are using, you may find that the addon 'Spend X Get Y' is already installed. If not, you can obtain it from the X-Cart App Store. 
+![so_spendX_getY_addon.png]({{site.baseurl}}/attachments/ref_spend_x_get_y/so_spendX_getY_addon.png)
 
 To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
 
