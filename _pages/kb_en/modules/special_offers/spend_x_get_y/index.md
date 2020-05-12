@@ -11,10 +11,6 @@ redirect_from:
 ---
 The addon [Special Offers: Spend X Get Y](https://market.x-cart.com/addons/spend-x-get-y.html) works with a cart subtotal and gives a customer a discount if a certain subtotal is met. Unlike regular discounts or sales the addon encourages customers to spend from a certain sum to win a price. The Spend X Get Y offer is especially good when you need to force sales regardless of particular SKUs. 
 
-Depending on the X-Cart edition you are using, the addon 'Special Offers: Spend X Get Y' may already be installed in your store. If not, you can obtain it from the X-Cart App Store. 
-![so_spendX_getY_addon.png]({{site.baseurl}}/attachments/ref_spend_x_get_y/so_spendX_getY_addon.png)
-
-To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}. 
 
 Once the addon has been installed and enabled, you will be able create and manage special offers via the 'Discounts: Special Offers' section of your X-Cart store back end.
 
