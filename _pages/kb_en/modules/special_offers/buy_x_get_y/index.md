@@ -9,7 +9,7 @@ published: true
 redirect_from:
   - /modules/special_offers/buy_x_get_y.html
 ---
-The addon [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Buy X Get Y") gives your customer a discount if their shopping cart contains certain items. The addon encourages customers to buy from a certain category/subcategory to win a better price. The 'Buy X Get Y' type of special offers is especially helpful when you need to increase the sales of specific SKUs in your store. 
+The addon [Special Offers: Buy X Get Y](https://market.x-cart.com/addons/buy-x-get-y.html "Special Offers: Buy X Get Y") gives your customer a discount if their shopping cart contains a certain number of items. These can be any items from your store or just items from a specific category/subcategory. The customer does not need any type of promo code to get the discount. You simply create a special offer in your X-Cart store's Admin area defining what kind of items (and how many of them) a customer needs to buy to get the discount, and what kind of discount they will get. As soon as a customer adds the required number of said items to their shopping cart, the special offer is applied to their cart automatically, and they can see the order totals with the discount applied. If necessary, you can set additional conditions for the offer; for example, you can configure your offer in such a way that only certain groups of custmers (membership levels) will have access to it. 
 
 Here is how you can get started using the addon 'Special Offers: Buy X Get Y':
 
@@ -35,4 +35,4 @@ Here is how you can get started using the addon 'Special Offers: Buy X Get Y':
    
 _Related pages:_
    
-   * {% link "Special Offers" ref_special_offers %}   
+   * {% link "Special Offers" ref_special_offers %}
