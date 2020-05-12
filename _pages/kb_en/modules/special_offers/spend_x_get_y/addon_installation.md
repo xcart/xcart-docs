@@ -5,7 +5,7 @@ updated_at: '2020-05-12 19:07 +0400'
 identifier: ref_0nzgDH1z
 title: '''Spend X Get Y'' Addon Installation'
 order: 100
-published: false
+published: true
 ---
 To start using the X-Cart special offers addon 'Spend X Get Y', you need to make sure it is installed and enabled in your X-Cart store.
 
