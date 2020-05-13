@@ -19,9 +19,17 @@ To integrate your X-Cart store with ShippingEasy, complete the following steps:
 2.  Сlick the _Settings_ link for 'ShippingEasy'. You should now see the ShippingEasy addon settings page:
     ![shippingeasy-module-settings.png]({{site.baseurl}}/attachments/ref_KhhQlZLM/shippingeasy-module-settings.png)
 
-3.  At the top of the ShippingEasy addon settings page you should be able to see a link that says **View details and get your API credentials here**. If you do not yet have an account with [ShippingEasy](http://shippingeasy.com/integrate-your-shipping-for-xcart-with-the-shippingeasy-app/?se-ref=96), you can follow this link to sign up. For detailed information on creating a ShippingEasy account, see the [How to create a ShippingEasy account](https://support.shippingeasy.com/entries/23453187-How-to-Create-a-ShippingEasy-account "https://support.shippingeasy.com/entries/23453187-How-to-Create-a-ShippingEasy-account") guide on the ShippingEasy website.
-4.  To complete the integration of your X-Cart store with ShippingEasy, you will need access to both your X-Cart store's Admin area and your ShippingEasy account settings, so be sure to keep both the sites open in your web browser tabs. For a production ShippingEasy account, to access your account settings, use the URL [https://app.shippingeasy.com/settings](https://app.shippingeasy.com/settings "https://app.shippingeasy.com/settings"), for a staging account -[https://staging.shippingeasy.com/settings](https://staging.shippingeasy.com/settings "https://staging.shippingeasy.com/settings"). 
-5.  (_Skip this step if you have already configured your X-Cart store's settings in ShippingEasy during registration_): Add your X-Cart store to the list of stores in your ShippingEasy account:
+3.  At the top of the ShippingEasy addon settings page you should be able to see a link that says **View details and get your API credentials here**. 
+
+   If you do not yet have an account with ShippingEasy, you can follow [this link](https://shippingeasy.com/ "Integrating Your Store with ShippingEasy") to sign up. 
+   {% note info %}
+   For detailed information on creating a ShippingEasy account, see the [How to create a ShippingEasy account](https://support.shippingeasy.com/entries/23453187-How-to-Create-a-ShippingEasy-account "https://support.shippingeasy.com/entries/23453187-How-to-Create-a-ShippingEasy-account") guide on the ShippingEasy website.
+   {% endnote %}
+4.  To complete the integration of your X-Cart store with ShippingEasy, you will need access to both your X-Cart store's Admin area and your ShippingEasy account settings, so be sure to keep both sites open in your web browser tabs. 
+    
+    * For a production ShippingEasy account, to access your account settings, use the URL [https://app.shippingeasy.com/settings](https://app.shippingeasy.com/settings "https://app.shippingeasy.com/settings").
+    * For a staging account -[https://staging.shippingeasy.com/settings](https://staging.shippingeasy.com/settings "https://staging.shippingeasy.com/settings"). 
+5.  (_Skip this step if you have already configured your X-Cart store's settings in ShippingEasy during registration_) Add your X-Cart store to the list of stores in your ShippingEasy account:
     1.  In the **Settings** section of your ShippingEasy account, click on the **Stores** link under **Integrations**:
         ![]({{site.baseurl}}/attachments/8224894/8355897.png)
 
@@ -58,3 +66,4 @@ _Related pages:_
 *   {% link "ShippingEasy Addon: system requirements and installation" ref_KF7JDnSv %}
 *   {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}
 *   {% link "Order Status Mapping" ref_o506IWMl %}
+*   [ShippingEasy E-commerce Seller’s Guide to Flat-Rate Shipping](https://shippingeasy.com/flat-rate-shipping-guide/?se-ref=96 "Integrating Your Store with ShippingEasy")
