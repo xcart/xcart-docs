@@ -44,7 +44,7 @@ By default, the minimum purchase quantity value is 1 for every customer regardle
 
 ![cus-minimum-purchase-quantity.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/cus-minimum-purchase-quantity.png)
 
-If a product with the changed minimum purchase quantity value adds to cart directly from any product listing page (home page, category page, etc.), it adds to cart in the amount specified as minimum purchase quantity value for this product in the Admin area. 
+If a product with the changed minimum purchase quantity value is added to cart directly from any product listing page (home page, category page, etc.), it adds to cart in the amount specified as minimum purchase quantity value for this product in the Admin area. 
 
 ## Wholesale Prices Setup
 
