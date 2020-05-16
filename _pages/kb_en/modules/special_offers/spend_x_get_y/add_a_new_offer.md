@@ -97,7 +97,7 @@ Offers are applied in the order of appearance on the offers listing page.
 
 This section defines how your customers will see the offer in the store. 
   
-  ![so_descr_promo1.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_descr_promo1.png)
+  ![so_spendX_getY_create_6.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendX_getY_create_6.png)
 
 * **Title**: The offer title as it will appear to your customers.
 
