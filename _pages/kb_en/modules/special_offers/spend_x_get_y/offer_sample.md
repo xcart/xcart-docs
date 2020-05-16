@@ -9,7 +9,7 @@ published: true
 ---
 After enabling the addon 'Buy X Get Y', in the 'Discounts: Special Offers' section of your X-Cart store Admin area you will find a pre-configured special offer:
 
-   * **Sample: Spend $100 and get 50% off the cheapest** - an offer that makes X-Cart automatically check if the subtotal amount of a buyer's shopping cart is equal to or more than $100 and give the buyer a 50% discount off the cheapest item.
+   * **Sample: Spend $100 and get 50% off the cheapest** - an offer that checks if the subtotal amount of a buyer's shopping cart is equal to or more than $100 and gives the buyer a 50% discount off the cheapest item. This applies to every $100 of the cart subtotal amount.
    
 This offer provides an example of how special offers may work for you. You can remove it or adjust its configuration as you require. Detailed information on the management of special offers is available in the {% link "Managing Special Offers" ref_1eX1GC1r %} section of this manual.
 
