@@ -10,6 +10,8 @@ published: true
 An X-Cart store with one of the special offer addons installed and enabled provides a special section of the store back end where you can create and manage special offers: 'Special Offers' (**Discounts** > **Special offers**).
   ![so_discounts_special_offers.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_discounts_special_offers.png)
 
+See below for instructions on how to create and manage special offers.
+
 ## Add a Special Offer
 
 To add a special offer:
