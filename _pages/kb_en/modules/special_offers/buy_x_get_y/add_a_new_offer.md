@@ -49,7 +49,8 @@ The settings in this section define the most general information regarding your 
 
 The settings in this section allow you to specify the offer start and end times and dates. If the dates are not set, the offer is treated as open-ended. 
 
-  ![so_dates.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_dates.png)
+  ![so_spendX_getY_create_2.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_spendX_getY_create_2.png)
+
 
 
 **Conditions**
