@@ -132,7 +132,8 @@ On all the above named pages, the information about the offer can include the of
   ![so_image_shortpromo.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_image_shortpromo.png)
    
 By clicking on either the image or the short promo text, your store visitors will be able to access the page with the full details of the offer. This page will include the offer title and, if available, the offer detailed description:
-  ![so_offer_title_description.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_offer_title_description.png)
+  ![so_spendoffer_title_description.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendoffer_title_description.png)
+
 
 
 _Related pages:_
