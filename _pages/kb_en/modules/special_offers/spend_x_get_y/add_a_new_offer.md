@@ -5,7 +5,7 @@ updated_at: '2020-05-16 18:42 +0400'
 identifier: ref_4dh6ViV0
 title: ''
 order: 100
-published: false
+published: true
 ---
 To create a new special offer using the addon **Spend X Get Y offer**, follow the steps below:
 
