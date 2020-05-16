@@ -13,10 +13,10 @@ To create a new special offer using the addon **Spend X Get Y offer**, follow th
    ![so_spendX_getY_page_admin.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendX_getY_page_admin.png)
 
 2. From the **New offer** drop-down box, select the type of offer you would like to create: _'Spend X Get M of items discounted/free'_ (Note that if you are using only the 'Spend X get Y' special offers addon, this will be the only option; any other options that you may find in this box pertain to special offers addons other than 'Spend X Get Y' and are outside the scope of the current article.)  Click the **Create** button.  
-   ![so_buyX_getY_create_offer.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_buyX_getY_create_offer.png)
+   ![so_spendX_getY_create_offer.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendX_getY_create_offer.png)
    
    A new page will appear where you will be able to configure the settings of your special offer.
-   ![so_buyX_getY_create_offer1.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_buyX_getY_create_offer1.png)
+   ![so_spendX_getY_create_offer1.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendX_getY_create_offer1.png)
       
 3. Go through all the settings on the page and configure the offer as you require. See further below for a detailed explanation of all the settings.
  
@@ -36,7 +36,8 @@ The settings that need to be configured for each offer are as follows:
    
 The settings in this section define the most general information regarding your special offer.
 
-  ![so_my_1st_offer.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_my_1st_offer.png)
+  ![so_spendX_getY_create_1.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendX_getY_create_1.png)
+
 
 * **Offer type**: The type of your offer as specified at the previous step (cannot be changed).
 
@@ -49,14 +50,14 @@ The settings in this section define the most general information regarding your 
 
 The settings in this section allow you to specify the offer start and end times and dates. If the dates are not set, the offer is treated as open-ended. 
 
-  ![so_dates.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_dates.png)
+  ![so_spendX_getY_create_2.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendX_getY_create_2.png)
 
 
 **Conditions**
 
 This section allows you to set the conditions that need to be met for your offer to be applied.
 
-  ![so_conditions.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_conditions.png)
+  ![so_spendX_getY_create_3.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendX_getY_create_3.png)
 
 * **Number of items to buy**: The number of items or product units that a buyer needs to add to their shopping cart to become eligible for the current offer.
 
@@ -70,7 +71,7 @@ For a store-wide special offer, no category selection needs to be made; in this 
 
 This section allows you to specify the reward that a buyer will get if the special offer is applied to their order.
 
-  ![so_reward.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_reward.png)
+  ![so_spendX_getY_create_4.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendX_getY_create_4.png)
 
 * **Number of items to discount**: The number of items that your buyer can get at a discounted price by using the current offer. The discount can be as big as 100%, if required. 
 
@@ -83,7 +84,7 @@ This section allows you to specify the reward that a buyer will get if the speci
 
 This section allows you to specify excluding conditions for the application of the special offer.
 
-  ![so_exclusions.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_exclusions.png)
+  ![so_spendX_getY_create_5.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendX_getY_create_5.png)
 
 If the current special offer needs to be incompatible with some other existing offers, you can specify it in this section. It is possible to select more than one offers. (Hold down the Ctrl/Shift key.) The offers marked as selected in this section will prevent the current offer from being applied.
   
