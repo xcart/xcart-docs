@@ -23,7 +23,7 @@ Here is how you can get started using the addon 'Special Offers: Buy X Get Y':
    * {% link "Memberships" ref_5JXPTA0A %}
 
 4. To get a better idea of how special offers work, be sure to have a look at the two pre-configured special offer sample that comes with the addon:
-   * {% link "'Spend X Get Y' Offer Sample"  %}
+   * {% link "'Spend X Get Y' Offer Sample" ref_2GYd878Q %}
    
    Disable or remove the above-mentioned special offer sample or edit its configuration to use it as your own offer. 
    
