@@ -64,7 +64,10 @@ This section allows you to set the conditions that need to be met for your offer
 For a store-wide special offer, no category selection needs to be made; in this case any items added to the shopping cart (including any products on sale, products with volume discounts and so on) will be counted towards the subtotal amount required to get this offer. If a specific category is selected, only the SKUs from the root of this category will be counted. To include SKUs from the subcategories as well, you will need to select the subcategories along with the main category.
 
 * **Eligible membership levels**: The user memberships to which the offer is available. If not set, the offer is available to all buyers.
-  
+
+Let us see what you need to do if you want to exclude the SKUs with volume discounts from the offer. 
+* If all such products are joined under one category (Category A), in the 'From these categories' box, you will need to select all the categories from the list *but for* Category A. 
+* If the SKUs with volume discounts are *not* joined under a particular category but rather are available to customers with a particular *membership* (like 'Wholesaler'), you will need to select 'No membership' in the 'Eligible membership levels' box. If there are other memberships in the store in addition to Wholesaler, you will need to select 'No membership' *and* all the memberships that need to be eligible for the offer.
 
 **Reward**
 
