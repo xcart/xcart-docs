@@ -58,7 +58,7 @@ This section allows you to set the conditions that need to be met for your offer
 
   ![so_spendX_getY_create_3.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendX_getY_create_3.png)
 
-* **Number of items to buy**: The number of items or product units that a buyer needs to add to their shopping cart to become eligible for the current offer.
+* **Subtotal (amount to spend)**: The number of items or product units that a buyer needs to add to their shopping cart to become eligible for the current offer.
 
 * **From these categories**: The categories from which the buyer needs to get the number of items specified above. Subcategories are marked with '---'. It is possible to select more than one category (Hold down the Ctrl/Shift key.)
 For a store-wide special offer, no category selection needs to be made; in this case the offer will be applied to all your store's SKUs including any products on sale, products with volume discounts and so on. If a specific category is selected, the offer will count only the SKUs from the root of this category. To include SKUs from the subcategories as well, you will need to select the subcategories along with the main category.
