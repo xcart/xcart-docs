@@ -5,7 +5,7 @@ updated_at: '2020-05-16 20:56 +0400'
 identifier: ref_2GYd878Q
 title: '''Spend X Get Y'' Offer Sample'
 order: 300
-published: false
+published: true
 ---
 After enabling the addon 'Buy X Get Y', in the 'Discounts: Special Offers' section of your X-Cart store Admin area you will find a pre-configured special offer:
 
