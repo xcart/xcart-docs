@@ -22,6 +22,7 @@ The order will be added.
 
 For more info on the special offer configuration settings, see:
 * {% link "Adding a New 'Buy X Get Y' Offer" ref_5KycxjBU %}
+* {% link "Add a New 'Spend X Get Y' Offer" ref_4dh6ViV0 %}
 
 ## Edit a Special Offer
 
