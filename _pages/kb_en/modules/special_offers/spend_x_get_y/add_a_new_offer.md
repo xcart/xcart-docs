@@ -38,7 +38,6 @@ The settings in this section define the most general information regarding your 
 
   ![so_spendX_getY_create_1.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendX_getY_create_1.png)
 
-
 * **Offer type**: The type of your offer as specified at the previous step (cannot be changed).
 
 * **Administrative name**: The name by which you will be able to identify this offer; the name specified here only appears in your store's Admin area (in the 'Discounts: Special Offers' section). 
