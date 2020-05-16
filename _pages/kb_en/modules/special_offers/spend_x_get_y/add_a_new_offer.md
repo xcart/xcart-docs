@@ -10,9 +10,9 @@ published: false
 To create a new special offer using the addon **Spend X Get Y offer**, follow the steps below:
 
 1. In your X-Cart store Admin area, go to the Special Offers section (**Discounts** > **Special offers**)
-   ![so_discounts_special_offers.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_discounts_special_offers.png)
+   ![so_spendX_getY_page_admin.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendX_getY_page_admin.png)
 
-2. From the **New offer** drop-down box, select the type of offer you would like to create: _'Buy N items Get M of them discounted/free'_ (Note that if you are using only the 'Buy X get Y' special offers addon, this will be the only option; any other options that you may find in this box pertain to special offers addons other than 'Buy X Get Y' and are outside the scope of the current article.)  Click the **Create** button.  
+2. From the **New offer** drop-down box, select the type of offer you would like to create: _'Spend X Get M of items discounted/free'_ (Note that if you are using only the 'Spend X get Y' special offers addon, this will be the only option; any other options that you may find in this box pertain to special offers addons other than 'Spend X Get Y' and are outside the scope of the current article.)  Click the **Create** button.  
    ![so_buyX_getY_create_offer.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_buyX_getY_create_offer.png)
    
    A new page will appear where you will be able to configure the settings of your special offer.
