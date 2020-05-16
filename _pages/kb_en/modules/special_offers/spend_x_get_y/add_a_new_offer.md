@@ -142,4 +142,3 @@ By clicking on either the image or the short promo text, your store visitors wil
 _Related pages:_
    
   * {% link "Special Offers: Spend X Get Y" ref_spend_x_get_y %}
-
