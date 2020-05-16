@@ -24,7 +24,7 @@ To create a new special offer using the addon **Spend X Get Y offer**, follow th
    ![so_create_button.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_create_button.png)
 
 5. Make sure the status of the offer is *enabled/active* in the Admin area:
-   ![so_my_1st_offer_enabled.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_my_1st_offer_enabled.png)
+   ![so_spendX_getY_offer_enabled.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_spendX_getY_offer_enabled.png)
 
 6. Make sure the offer actually shows on the storefront in the intended locations and is available to the intended groups (membership levels) of your customers. 
 
