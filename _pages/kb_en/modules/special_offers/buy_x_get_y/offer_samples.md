@@ -8,8 +8,8 @@ order: 300
 published: true
 ---
 After enabling the addon 'Buy X Get Y', in the 'Discounts: Special Offers' section of your X-Cart store Admin area you will find two pre-configured special offers:
-   * **Sample: Get 1 of every 3 items with 50% discount** - an offer that checks if an order contains 3 items and gives the buyer a 50% discount off the cheapest item.
-   * **Sample: Get every second item for free** - an offer that checks if an order contains 2 items and give the buyer a 100% discount off the cheapest item.
+   * **Sample: Get 1 of every 3 items with 50% discount** - an offer that checks if an order contains 3 or more items and gives the buyer a 50% discount off the cheapest item. (This applies to every 3 items in the cart.)
+   * **Sample: Get every second item for free** - an offer that checks if an order contains 2 items and give the buyer a 100% discount off the cheapest item. (This applies to every 2 items in the cart.)
 
 ![so_samples.png]({{site.baseurl}}/attachments/ref_buy_x_get_y/so_samples.png)
 
