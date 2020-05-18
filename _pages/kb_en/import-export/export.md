@@ -17,7 +17,7 @@ Another possible use for export is to get a sample file for importing data into 
 
 The data export tool is available in all X-Cart editions including personal demo stores. 
 
-To export data from X-Cart a store admin should:
+To export data from an X-Cart store, follow the steps below:
 
 1. Open the "Export to CSV/spreadsheets" page in the store Admin area (**Catalog** -> **Export**):
    ![540-export-page.png]({{site.baseurl}}/attachments/ref_57zqrlPA/540-export-page.png)
