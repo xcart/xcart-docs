@@ -72,8 +72,8 @@ To export data from an X-Cart store, follow the steps below:
 5. When the process is complete, you will be redirected to the **Last exported** tab of the **Catalog** -> **Export** section with a list of files available for download:
    ![540-last-exported.png]({{site.baseurl}}/attachments/ref_57zqrlPA/540-last-exported.png)
    
-   Here a store admin can: 
-   * download files one by one by clicking on a partickular file name;
-   * download a files' archive by clicking the **Download all files** button to choose an appropriate archive format (.tgz or .zip);
+   Here you can: 
+   * download the files one by one by clicking on the name of a specific file;
+   * download an archive with all the files by clicking the **Download all files** button and choosing the archive format you require (.tgz or .zip);
    * proceed with another export by clicking the **New export** button;
-   * delete all export files from the list by clicking the **Delete all files** button.
+   * delete all the export files from the list by clicking the **Delete all files** button.
