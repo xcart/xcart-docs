@@ -44,7 +44,7 @@ And so on.
 
 ## How to Import Data into Store?
 
-To import data into the store, a store admin needs to follow the steps below:
+To import data into an X-Cart store, follow the steps below:
 
 1.  Prepare a CSV file of a certain format matching the type of data to be imported. This can be done in any spreadsheet editor (_MS Excel_, _LibreOffice Calc_, etc.). 
     
