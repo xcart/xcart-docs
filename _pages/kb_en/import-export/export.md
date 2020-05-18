@@ -25,7 +25,7 @@ To export data from an X-Cart store, follow the steps below:
 2. Select the data to be exported using the related check-boxes.
    
    By default, the following data can be exported from X-Cart:
-   * Products (including or exclusing product attributes and classes);
+   * Products (with or without the information on product attributes and classes);
    * Categories;
    * Classes & Attributes;
    * Product attribute values;
@@ -33,10 +33,9 @@ To export data from an X-Cart store, follow the steps below:
    
    Each chosen data type will result in a separate export file of a special format. 
    
-   {% note info %}
    Certain X-Cart addons installed in a store can extend the default export data type list. 
    
-   e.g.
+   Examples:
    
    The [Orders Import](https://market.x-cart.com/addons/orders-import.html "Import-Export") addon extends the list with the "Orders" data type.
    
@@ -46,24 +45,24 @@ To export data from an X-Cart store, follow the steps below:
    
    The {% link "Make/Model/Year" ref_0Esu2RNW %} addon - the "Products with Make/Model/Year/Engine" and "Make/Model/Year/Engine" listing data types.
    
-   etc.
+   And so on.
    
-   In case a data type is in fade grey, there are no data in the store of this specific type that could be exported.
-   {% endnote %}
+   If a data type is greyed out, it means that currently there is no data in the store of this specific type that can be exported.
+   
    
 3. Specify the required export settings:
 
-   * **Export public files as** : Choose the format of the public files export. Available options are: 
-       * URLs : This format will link the exported data to your public files (product and category images, downloadable files shown on product pages, and so on) through direct URLs. Public files won't be included into the archive with exported files; however, private files (for example, digitally distributed products) will go into the archive anyway.
+   * **Export public files as** : Choose the format of the public files export. The available options are as follows: 
+       * URLs : This format will link the exported data to your public files (product and category images, downloadable files shown on product pages, and so on) through direct URLs. Public files will not be included into the archive with your exported files; however, private files (for example, digitally distributed products) will be added to the archive anyway.
        * local files (default option) : This format will provide file paths to your files, relative to your X-Cart installation.
-   * **Export product data with** : This setting is applicable to the **Products** data type only. By default, products are exported with global attributes. Using this setting a store admin can define what product-related data should be included into a "products" export file. Available options are:
+   * **Export product data with** : This setting applies only to the **Products** data type. By default products are exported with global attributes. By using this setting, a store admin can define what product-related data needs to be included into a "products" export file. The available options are as follows:
      * Global attributes (default option);
      * Global & Class attributes;
      * All attributes;
      * No attributes.
      
-   * **Charset** (applicable to the CSV export file type only) : Choose a character encoding scheme for a CSV export file. 
-   * **CSV delimiter** (applicable to the CSV export file type only) : Choose a delimeter to be used in a CSV file.
+   * **Charset** (applicable to the CSV export file type only) : Choose a character encoding scheme for your CSV export file. 
+   * **CSV delimiter** (applicable to the CSV export file type only) : Choose a delimeter to be used in your CSV export file.
 
 4. Click the **Start export** button.
    
