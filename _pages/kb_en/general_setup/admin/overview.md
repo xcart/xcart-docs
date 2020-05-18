@@ -69,17 +69,20 @@ From the same dropdown menu, a store admin can access the X-Cart Knowledge Base 
 
 ## Sidebar Menu
 
-All the tools you need to manage your store can be accessed via the main Admin menu available in the sidebar.
-
+All the tools you need to manage your store are available in the main Admin menu in the sidebar to the left.
 ![sidebar-menu.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/sidebar-menu.png)
+
+{% note info %}
+Attention the users of X-Cart Cloud, some features are inaccessible in the sidebar menu of your store Admin area due to the version limitations.
+{% endnote%}
 
 This menu includes the following sections:
 
-* **Orders** : This section provides all the necessary tools required for order management and processing. 
+* **Orders** (_Has limited access in X-cart Cloud_): This section provides all the necessary tools required for order management and processing. 
   
   For more info, see the section {% link "Orders" ref_r4PbRx4Z %} of the X-Cart Knowledge Base.
   
-* **Catalog** : This section provides all the required tools for the catalog management as well as the tools for data import and export. 
+* **Catalog** (_Has limited access in X-cart Cloud_): This section provides all the required tools for the catalog management as well as the tools for data import and export.
    
   For more info, see the sections {% link "Products" ref_5vJ9gwBl %}, {% link "Product Classes and Attributes" ref_T90ZcEpP %} and {% link "Import-Export" ref_TANvG2De %} of the X-Cart Knowledge Base.
    
@@ -105,7 +108,7 @@ This menu includes the following sections:
   
   We also have user manuals for some of the most popular X-Cart addons; they can be found in the section {% link "Addons" ref_mCs9Q9Uy %}.
   
-* **Look & Feel** : This section provides tools required to set up and maintain the storefront.
+* **Look & Feel** (_Has limited access in X-cart Cloud_): This section provides tools required to set up and maintain the storefront. 
   
   For more info, see the section {% link "Look and Feel" ref_bzUBJufx %} of the X-Cart Knowledge Base.
   
@@ -119,7 +122,7 @@ This menu includes the following sections:
   * {% link "Shipping" ref_7tvT7GEK %}
   * {% link "Payments" ref_gm10twDM %}
   
-* **System tools** : This section provides some tools for the advanced Admin area management. Use it when you need to back up your store, check the system logs and current environment description, clear the data cache, configure HTTPS settings or perfrom consistency and integrity checks.
+* **System tools** (_Has limited access in X-cart Cloud_): This section provides some tools for the advanced Admin area management. Use it when you need to back up your store, check the system logs and current environment description, clear the data cache, configure HTTPS settings or perfrom consistency and integrity checks.
 
 ## Info Dashboard
 
