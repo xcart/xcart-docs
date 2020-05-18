@@ -9,13 +9,13 @@ published: true
 ---
 ## Why You May Need Export
 
-Data export is a convenient way to get structured information out of your X-Cart store. Most commonly, data export can be used when you need to provide anybody with some information about your store but you do not want to give this person access to your store Admin area. Export will also help if you need to transfer some data from your store to a CMS or a Mailing system not integrated with X-Cart directly. 
+Data export is a convenient way to get structured information out of your X-Cart store. Most commonly, data export can be used when you need to provide someone with information from your store but you do not want to give this person access to your store Admin area. Export will also help if you need to transfer some data from your store to a CMS or a mailing system not integrated with X-Cart directly. 
 
-Another alternative of using export is to get a sample file for importing data to X-Cart. For example, if you want to import data of a specific type, but do not know what fields correspond with this data type and how the data in those fields have to be formatted for a file to be imported erroneously, you can add just a couple of items of that type via your X-Cart store Admn area manually (or use the existing demo data) and then export it to CSV. This way you will have a pattern to follow when formatting the rest of the data to be imported into the store via CSV.
+Another possible use for export is to get a sample file for importing data into X-Cart - that is, for example, if you want to import data of a specific type, but do not know what fields correspond to this data type and how the data in those fields needs to be formatted for the CSV file to be imported error-free. In this case you can add just a couple of items of the type you require via your X-Cart store Admin area manually (or use the existing demo data) and then export the data type you require to CSV. This way you will have a pattern to follow when formatting your data for import into the store via CSV.
 
 ## How to Export Data from X-Cart
 
-Data export tool is available in all X-Cart editions including personal demo stores. 
+The data export tool is available in all X-Cart editions including personal demo stores. 
 
 To export data from X-Cart a store admin should:
 
