@@ -47,3 +47,5 @@ The information that displayes for a transaction on the transaction listing page
 * **Value** : The amount of money involved in a transaction. 
 
 If necessary a cart admin can search orders based on a particular payment transaction status using this page.
+
+Transactions can be sorted for display in the table by "Public ID", "Order", "Date", "Type", "Status" and "Value". Click the column heading to change the order hierarchically.
