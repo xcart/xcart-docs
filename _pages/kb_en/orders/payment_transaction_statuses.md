@@ -34,8 +34,7 @@ Each failed transaction has a 'Details' note that clarifies the cause of the fai
 A cart admin can find the info on the payment transaction statuses in the _**'Payment transaction'**_ section of the admin back-end (**Orders** > **Payment transactions**).
 
 The page supports orders search based on a payment transaction status as well as order number, date and public id.
-
-![payment-transactions.png]({{site.baseurl}}/attachments/ref_7pBlny0J/payment-transactions.png)
+![541-transaction-listing.png]({{site.baseurl}}/attachments/ref_7pBlny0J/541-transaction-listing.png)
 
 The information that displays for a transaction on the transaction listing page is as follows:
 
