@@ -9,7 +9,7 @@ published: true
 ---
 Promotional blocks enable you to enhance the default presentation of your products on the storefront and engage customers in viewing more products than they initially intended. 
 
-The blocks _New Arrivals_, _Comming Soon_, _Bestsellers_ or _Recently Viewed_ can be used to help your customers to navigate through your catalog better. Stickers displayed on the products in such blocks - with messages like "10% off","30% less" (than the market price) or any custom text - are sure to gain additional customers' attention. For more info on this, see the following sections:
+The blocks _New Arrivals_, _Coming Soon_, _Bestsellers_ or _Recently Viewed_ can be used to help your customers to navigate through your catalog better. Stickers displayed on the products in such blocks - with messages like "10% off","30% less" (than the market price) or any custom text - are sure to gain additional customers' attention. For more info on this, see the following sections:
    
   * {% link "Enabling the 'New Arrivals' Block" ref_2A50nkO9 %}
   * {% link "Enabling the 'Coming Soon' Block" ref_hQnN8cAT %}
