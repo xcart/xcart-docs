@@ -112,7 +112,7 @@ As for the storefront, all discounted products are marked with a special '% OFF'
    <div class="column" markdown="span"><b>Product details page</b>![541-cus-single-product-sale-price-details.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-single-product-sale-price-details.png)</div>
 </div>
 
-#### Setting Sale Price for Product Variants
+### Setting Sale Price for Product Variants
 
 {% note warning %}
 A sale price set for a product variant overrides all other possible group and single product discounts that may be applicable to the parent-product. 
