@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-10 00:21 +0400'
 identifier: ref_HcSs9eFL
-title: Company's Identity and Contact Information
+title: Store Profile
 categories:
   - User manual
 published: true
@@ -14,15 +14,16 @@ redirect_from:
   - >-
     /general_setup/specifying_your_companys_identity_and_contact_information.html
 ---
-It is possible to specify your company's identity and contact information so your customers know who to contact if they need more information about your products or services or need help with their order. This can be done via the _Identity_ and _Company address_ sections of your store's Contact information page (**Store setup > Contact information**):
+When creating an online store it is necessary to specify your company's identity and contact information so your customers know who to contact if they need more information about your products or services or need help with their order. This can be done via the _Identity_ and _Company address_ sections in your store profile (**Store setup > Store profile (ex. Contact information)**):
+![5415-store-profile-page.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/5415-store-profile-page.png)
 
-![contact-info.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/contact-info.png)
+You can specify a company's name, website and incorporation date, as well as the full company address there. 
 
-Your full contact information (company name, website address, street address, phone and fax numbers) will be included into your customers' invoices like so:  
+Your full contact information (company name, website address, street address, phone and fax numbers) will be included into your customers' invoices like the one below:  
 
 ![xc5_company_identity_contact_info_on_invoice.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/xc5_company_identity_contact_info_on_invoice.png)
 
-If you configure your store to provide shipping cost calculation for buyers, the address you enter in the _Company address_ section of the Contact information page will be used as the location from which your goods are shipped.
+If you configure your store to provide shipping cost calculation for buyers, the address you enter in the _Company address_ section of your store profile will be used as the location from which your goods are shipped.
 
 Such details as your company name, phone number, fax number and website address will be included into email notifications sent to customers.
 
@@ -30,10 +31,10 @@ Company name and year in which the store opened will be used in the copyright no
 
 ![xc5_company_name_in_footer1.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/xc5_company_name_in_footer1.png)
 
-The _Contacts_ sections of the Contact information page can be used to set the email addresses for the email notifications your store is going to send to users. 
-![xc5_notif_contacts_section.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/xc5_notif_contacts_section.png)
+The _Contacts_ sections of your store profile can be used to set the email addresses for the email notifications your store is going to send to users. 
+![5415-store-profile-contacts.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/5415-store-profile-contacts.png)
 
-More information on your store's email notifications is available in the section {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %} of this manual. Instructions for using the _Contacts_ sections of the Contact information page can be found in the section {% link "Specifying Your 'Contacts' Email Addresses" ref_wKcxbiUf %}.
+More information on your store's email notifications is available in the section {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %} of this manual. Instructions for using the _Contacts_ sections of your store profile can be found in the section {% link "Specifying Your 'Contacts' Email Addresses" ref_wKcxbiUf %}.
 
 _Related pages:_
    
