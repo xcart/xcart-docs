@@ -12,7 +12,7 @@ It's not a secret that discounting is a good way to generate sales. But customer
 
 {% toc %}
 
-# Installing and Enabling the Sale Addon
+## Installing and Enabling the Sale Addon
 
 Generally, the "Sale" addon comes preinstalled and enabled out-of-the-box in all editions of X-Cart 5 software. 
 
@@ -24,7 +24,7 @@ Once the addon has been installed and enabled it adds a possibility for a store 
 * single products, including products with variants;
 * product groups, including random products in bulk and products from certain categories and subcategories.
 
-# Configuring the Sale Addon
+## Configuring the Sale Addon
 
 The basic Sale addon configuration determines the rules to calculate and display sale prices applied to products and categories in the store Admin area and in the storefront. 
 
@@ -67,7 +67,7 @@ Here you can define the following settings:
 
 * **Allow vendors to manage sale discounts for their own products** (Multivendor edition only) : The setting defines if vendors are permitted to edit existing sale offers created by a store admin and to apply the sale offers to their products. 
 
-# Configuring Sale Prices
+## Configuring Sale Prices
 
 The Sale addon allows to set sale prices for single products, including products with product variants, and for groups of products, including random products, products from a certain category and/or subcategory or of a certain product class. 
 
@@ -75,7 +75,7 @@ Sale prices for single products also called single product discounts are managed
 
 Group discounts are configured and maintained in the **Sale** section of your store Admin area (**Discounts** -> **Sale**). 
 
-## Setting Sale Price for Single Products
+### Setting Sale Price for Single Products
 
 {% note warning %}
 A sale price set for a single product overrides all other possible group discounts that may be applicable to this product. 
@@ -112,7 +112,7 @@ As for the storefront, all discounted products are marked with a special '% OFF'
    <div class="column" markdown="span"><b>Product details page</b>![541-cus-single-product-sale-price-details.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-single-product-sale-price-details.png)</div>
 </div>
 
-### Setting Sale Price for Product Variants
+#### Setting Sale Price for Product Variants
 
 {% note warning %}
 A sale price set for a product variant overrides all other possible group and single product discounts that may be applicable to the parent-product. 
@@ -137,7 +137,7 @@ For products with product variants, the product listing and product details page
       <div class="column" markdown="span"><b>Storefront product details page. Other variant.</b>![541-cus-details-page-variant.png]({{site.baseurl}}/attachments/ref_7tBJ8Yqo/541-cus-details-page-variant.png)</div>
 </div>
 
-## Setting Sale Price for Groups of Products
+### Setting Sale Price for Groups of Products
 
 The Sale addon allows to configure discounts also called sale offers for the groups of products (or group discounts), including random products in bulk and entire categories and subcategories with all products that belong to them. Besides that it is also possible to create group discounts for product classes. 
 
@@ -145,7 +145,7 @@ Group discounts are managed by a store administrator in the **Sale** section of 
 
 Group discounts can have an expiration period and can be displayed in the storefront on the pages specially created for them.  
 
-### Creating a Sale Offer
+#### Creating a Sale Offer
 
 To create a sale offer:
 
@@ -203,7 +203,7 @@ Both the button and the link will forward you to the **Cache management** page o
 If you add several sale offers, it makes sense to re-calculate quick data for all of them at once.
 
 
-### Sale Offer for Random Product Groups
+#### Sale Offer for Random Product Groups
 
 Random product group discounts can be used when you need to put on sale products from different categories of your store. Special discount on a group of random products may be the very case when a store admin may need to create a unique page in the storefront where the discounted products will be promoted.
 
@@ -260,7 +260,7 @@ All products that have a group sale offer enabled for them will will be recorded
 
 If a sale offer has expired or is disabled on the **Sale** page of the store Admin area, its label is not displayed on the product listing page, but still resists in the **Global discount** field of the "Prices & Inventory" section on the product details page. 
 
-### Sale Offer for Product Categories, Subcategories and Product Classes
+#### Sale Offer for Product Categories, Subcategories and Product Classes
 
 The Sale addon makes it possible to differentiate sale offers by specific product categories and/or subcategories as well as by product classes. 
 
@@ -285,17 +285,17 @@ A sale offer created for product classes displays for the products of the applic
 
 Links on the sale offers on the listing pages are clickable and forward to a respective sale offer details page for editing. 
 
-# Maintaining Sale Prices
+## Maintaining Sale Prices
 
 After sale prices have been configured for single products and/or product variants or group discounts have been set up a store admin can edit their properties or activate/deactivate them for products. There are several tools in X-Cart Admin area that facilitate the process.
 
-## Bulk Editing Sale Prices 
+### Bulk Editing Sale Prices 
 
 Alongside the product details page, sale prices configured for single products can be re-configured or disabled using the bulk editing tool on the product listing page in the store Admin area. This tool also allows assigning sale prices to single products in bulk.
 
 More details on using the bulk editing tool see in {% link "Bulk Editing" ref_1kSYmXQn %}.
 
-## Managing Sale Offers
+### Managing Sale Offers
 
 Sale offers can be editied, enabled/disabled and deleted on the sales listing page in the store Admin area (**Discounts** -> **Sale**).
 ![541-sale-edit-page.png]({{site.baseurl}}/attachments/ref_5A6RUbG6/541-sale-edit-page.png)
