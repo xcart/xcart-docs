@@ -13,6 +13,8 @@ redirect_from:
 ---
 The addon **XML Sitemap** for X-Cart 5 serves SEO purposes. It generates an XML sitemap that can help popular search engines to crawl your store website better. You can submit the XML sitemap generated using the addon to the search engines of your choice. The addon also provides automated submission of the generated XML sitemap to Google and Bing.
 
+{% toc %}
+
 ## Installing the XML Sitemap Addon
 
 The addon can be installed from the X-Cart App Store. For general addon installation instructions, see {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
@@ -73,5 +75,5 @@ You can submit your store's XML sitemap to search engines using one of the follo
 
 For more info on sitemaps, see [http://www.sitemaps.org](http://www.sitemaps.org).
 
-# Automated Re-generation of XML Sitemap
+## Automated Re-generation of XML Sitemap
 Your store's generated XML sitemap will be re-generated automatically every 24 hours if you have properly configured your server to periodically run X-Cart's script for periodic tasks **console.php** (for example, by cron). For more info on that, see {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
