@@ -34,7 +34,9 @@ Company name and year in which the store opened will be used in the copyright no
 The _Contacts_ sections of your store profile can be used to set the email addresses for the email notifications your store is going to send to users. 
 ![5415-store-profile-contacts.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/5415-store-profile-contacts.png)
 
-More information on your store's email notifications is available in the section {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %} of this manual. Instructions for using the _Contacts_ sections of your store profile can be found in the section {% link "Specifying Your 'Contacts' Email Addresses" ref_wKcxbiUf %}.
+More information on your store's email notifications is available in the section {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %} of this manual. 
+
+Instructions for using the _Contacts_ sections of your store profile can be found in the section {% link "Specifying Your 'Contacts' Email Addresses" ref_wKcxbiUf %}.
 
 _Related pages:_
    
