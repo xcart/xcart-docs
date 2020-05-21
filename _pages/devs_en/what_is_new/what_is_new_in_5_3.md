@@ -1,17 +1,19 @@
 ---
-title: What is new in 5.3
 lang: en
 layout: blogpost
-updated_at: 2016-11-25 15:35 +0400
+updated_at: '2016-11-25 15:35 +0400'
+title: What is new in 5.3
 identifier: ref_MJEGoA0S
 order: 999
 author: Max Vydrin
-description: X-Cart 5.3 comes with significant performance and usability improvements,
-  such as new built-in Crisp White skin, development mode decorator, improved widget
-  caching and developer DebugBar. It also utilizes the power of PHP 7 while PHP 5.4
-  becomes minimum version. Finally, it comes upgraded with Twig template engine so
-  you'll need to convert old Flexy templates to new Twig ones. This article overviews
-  the major changes in the software and required adaptations.
+description: >-
+  X-Cart 5.3 comes with significant performance and usability improvements, such
+  as new built-in Crisp White skin, development mode decorator, improved widget
+  caching and developer DebugBar. It also utilizes the power of PHP 7 while PHP
+  5.4 becomes minimum version. Finally, it comes upgraded with Twig template
+  engine so you'll need to convert old Flexy templates to new Twig ones. This
+  article overviews the major changes in the software and required adaptations.
+published: true
 ---
 
 X-Cart 5.3 comes with significant performance and usability improvements, such as new built-in Crisp White skin, development mode decorator, improved widget caching and developer DebugBar. It also utilizes the power of PHP 7 while PHP 5.4 becomes minimum version. Finally, it comes upgraded with Twig template engine so you'll need to convert old Flexy templates to new Twig ones. This article overviews the major changes in the software and required adaptations.
@@ -24,7 +26,7 @@ Our new skin uses [12-column Bootstrap grid](http://www.w3schools.com/bootstrap/
 
 It has a 40px gutter (gap between column content) and a baseline grid with the line-height value of 20px. See the screenshot below.
 
-![Example of baseline grid]({{site.baseurl}}/attachments/vertical-rhythm.png)
+![vertical-rhythm.jpg]({{site.baseurl}}/attachments/ref_MJEGoA0S/vertical-rhythm.jpg)
 
 - The margin between the main banner and the title is 3 rhythms (60px);
 - The margin between the title and the description is 2 rhythms (40px).
