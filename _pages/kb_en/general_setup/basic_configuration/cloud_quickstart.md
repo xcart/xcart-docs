@@ -7,10 +7,13 @@ title: X-Cart Cloud Quickstart
 order: 11
 published: true
 ---
-When you enter the Admin Home page of your X-Cart Cloud store for the first time, you will see the Onboarding Wizard welcoming you in the store. The wizard aims to guide you through the initial store set-up. If you wish, you can skip the store set-up or even close the wizard and it will not bother you any longer.
+When you enter the Admin Home page of your X-Cart Cloud store for the first time, you will see the Onboarding Wizard welcoming you in the store. The wizard aims to guide you through the initial store set-up. 
 ![cloud-wizard-1.png]({{site.baseurl}}/attachments/ref_0UvAdIRA/cloud-wizard-1.png)
 
-However, if you decide to proceed click the **Let's set up your store** button and the magic will begin.
+If you wish, you can skip the store set-up or even close the wizard and it will not bother you any longer. If you skip, the wizard will display as a green box to the left on the Admin area Home page:
+![cloud_home_wizard.png]({{site.baseurl}}/attachments/ref_0UvAdIRA/cloud_home_wizard.png)
+
+However, if you decide to proceed, click the **Let's set up your store** button, and the magic will begin.
 
 {% toc %}
 
