@@ -74,7 +74,7 @@ If your store is configured to provide x2 size images for Retina displays (i.e. 
 
 Your store logo will be a part of your company style and will visualize your brand to the site visitors. If you do not have a good selling logo, feel free to [ask](https://www.x-cart.com/contact-us.html#design "X-Cart Cloud Quickstart"), and we will be happy to help you with it.
 
-That's it! The basic set-up is complete and you can close the wizard now.
+That's it! Initial set-up is complete and you can close the wizard now.
 
 ## Step 5 - "Ready for Sales" Quickstart 
 
