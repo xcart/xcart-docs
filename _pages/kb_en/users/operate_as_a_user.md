@@ -23,14 +23,16 @@ To use the feature:
    2. From the **Profile actions** drop-down, choose the option _Operate as this customer_:
       ![operate-as-customer.png]({{site.baseurl}}/attachments/ref_26UftgNS/operate-as-customer.png)
       As a result, the store's Customer area will be opened in a new browser tab; on that tab the message "You are operating as *customer_email_address*" will be displayed at the top of the screen. You will also be able to see an overlay with the words "You are operating as *customer*, *customer_email_address*" and the **Quit** button:
-      ![operate-as-customer-2.png]({{site.baseurl}}/attachments/ref_26UftgNS/operate-as-customer-2.png)
+      ![operate-as-customer-2.jpg]({{site.baseurl}}/attachments/ref_26UftgNS/operate-as-customer-2.jpg)
+
    3. Work in the browser tab where the storefront has been opened as if you were this customer.
       {% note info %}
       Since the "Operate as this customer" mode is typically used by X-Cart store administrators to create orders on behalf of customers, it is essential that the administrator should have an offline payment method they can use for creating an order when operating as a customer. For this reason we made the payment method "Phone Ordering" available in the storefront to administrators working in the "Operate as this customer" mode - even if this method was disabled in the Admin area. The presence of the method "Phone Ordering" in the storefront when the administrator is operating as a customer is normal and is a feature of the "Operate as this customer" mode. The method is visible only to the administrator working as a customer; customers working under their own accounts will not be able to see or use this method.
       {% endnote %}
       
    4. To quit using the "Operate as this customer" mode, either click the **Quit** button in the overlay:
-      ![operate-as-customer-quit.png]({{site.baseurl}}/attachments/ref_26UftgNS/operate-as-customer-quit.png)
+      ![operate-as-customer-quit.jpg]({{site.baseurl}}/attachments/ref_26UftgNS/operate-as-customer-quit.jpg)
+
 or switch back to the tab with your Admin area and do any action requiring the page to be reloaded (for example, go to a different page within the Admin area). You will be notified that you have finished operating as the customer:
       ![operate-as-customer-finished.png]({{site.baseurl}}/attachments/ref_26UftgNS/operate-as-customer-finished.png)
 
