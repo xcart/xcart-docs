@@ -42,7 +42,7 @@ If you need the default customer address to be more flexible and match the actua
 With the "Geolocation" addon enabled the default address customer will be defined by a customer IP:
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![540-cus-geolocation.png]({{site.baseurl}}/attachments/ref_3MxAUhHQ/540-cus-geolocation.png)</div>
+  <div class="column" markdown="span">![540-cus-geolocation.jpg]({{site.baseurl}}/attachments/ref_3MxAUhHQ/540-cus-geolocation.jpg)</div>
   <div class="column" markdown="span">![540-cus-cart-geolocation.png]({{site.baseurl}}/attachments/ref_3MxAUhHQ/540-cus-cart-geolocation.png)</div>
 </div>
 
