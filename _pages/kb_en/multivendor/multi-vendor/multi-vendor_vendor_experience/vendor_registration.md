@@ -20,7 +20,7 @@ In X-Cart versions prior to 5.3.3.0, the page for vendor registration can be fou
 In X-Cart versions 5.3.3.0 and later, the vendor registration page can be accessed by clicking the **Become a seller** item in the Primary site menu:
 <div class="ui stackable three column grid">
   <div class="column" markdown="span"><b>X-Cart 5.3.x</b>![xc5_mv_become_seller.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_become_seller.png)</div>
-  <div class="column" markdown="span"><b>X-Cart 5.4.x</b>![540-become-seller.png]({{site.baseurl}}/attachments/ref_SkW62BgH/540-become-seller.png)</div>
+  <div class="column" markdown="span"><b>X-Cart 5.4.x</b>![540-become-seller.jpg]({{site.baseurl}}/attachments/ref_SkW62BgH/540-become-seller.jpg)</div>
 </div>
 
 or via the URL: 
