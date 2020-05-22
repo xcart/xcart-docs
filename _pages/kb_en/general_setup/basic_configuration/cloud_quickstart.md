@@ -80,26 +80,33 @@ That's it! Initial set-up is complete and you can close the wizard now.
 
 Step five is not included in the wizard itself but is a logical continuation of it.
 
-When you close the wizard, you will see the "Ready for Sales" quickstart in the middle of the Admin area Home page. This section aims to help a store admin to configure shipping and payments in the store to be ready to sell online. Also, it provides quick access to the X-Cart App Store, where it is possible to check for the templates available.
-![cloud-wizard-ready-for-sales.png]({{site.baseurl}}/attachments/ref_0UvAdIRA/cloud-wizard-ready-for-sales.png)
+When you close the wizard, you will see the "Ready for Sales" quickstart blocks in the middle of the Admin area Home page. These blocks aim to help a store admin to configure shipping and payments in the store to be ready to sell online. Also, it provides quick access to the Domain name page, where it is possible to change the default store domain to the one that meets your business needs.
+![cready-for-sales-domain.png]({{site.baseurl}}/attachments/ref_0UvAdIRA/cready-for-sales-domain.png)
+
 After activation, each block closes and is no longer shown. You can also hide each block using the corresponding icon to the right.
 
 The quickstart includes the following blocks:
 
 1. Payment Processing Setup
    
-   Clicking the **Set it up** button of the "Payment Processing" quickstart section will forward you to the **Add payment** popup of the payments listing page of your store Admin area (**Store setup** -> **Payment methods**). There you can choose a payment method from the list, add and configure it to use in your store. 
+   Clicking the **Set it up** button of the "Payment Processing" quickstart block will forward you to the **Add payment** popup of the payments listing page of your store Admin area (**Store setup** -> **Payment methods**). There you can choose a payment method from the list, add and configure it to use in your store. 
    
    A detailed guidance on the payments set-up you can get from the {% link "Adding Payment Methods" ref_36BqwVSF %} article of the Knowledge Base.
    
 2. Shipping Setup
 
-   Clicking the **Set it up** button of the "Shipping" quickstart section will forward you to the **Add shipping method** popup of the shipping listing page of your store Admin area (**Store setup** -> **Shipping methods**). There you can choose a shipping method from the list, add and configure it to use in your store. 
+   Clicking the **Set it up** button of the "Shipping" quickstart block will forward you to the **Add shipping method** popup of the shipping listing page of your store Admin area (**Store setup** -> **Shipping methods**). There you can choose a shipping method from the list, add and configure it to use in your store. 
     
    A detailed guidance on the shipping set-up you can get from the {% link "Shipping" ref_4noivtKM %} section of the Knowledge Base.
    
-3. "Marketing Magic"
+3. Domain Name
+
+   Clicking the **Change** button of the "Domain name" quickstart block will redirect you to the Domain name page of your store Admin area.
+   ![domain-name-page.png]({{site.baseurl}}/attachments/ref_0UvAdIRA/domain-name-page.png)
    
-   This section of the quickstart helps a store admin to access the X-Cart App Store, where they can choose extra addons from the list of available to install and use in the store to enhance the basic software fucntionality. These can be not only marketing related addons like {% link "Discount Coupons" ref_SGI1FqdC %} or {% link "Volume Discounts " ref_xEadpu9F %}, but any other addons that will help you to sell online.
-   
-   For detailed quidance, see {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+   Uding this page a store admin can change the defaulf `localhost` domain name to the one that meets their business needs.
+
+   {% note info %}
+   Domain name changing is possible on paid XC Cloud accounts only. If you are using XC Cloud trial the 3rd block will provide quick access to the X-Cart App Store, where it is possible to check for the templates available.
+   ![cloud-wizard-ready-for-sales.png]({{site.baseurl}}/attachments/ref_0UvAdIRA/cloud-wizard-ready-for-sales.png)
+   {% endnote %}
