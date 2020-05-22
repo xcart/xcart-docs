@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2020-05-18 11:56 +0400'
 identifier: ref_0UvAdIRA
-title: X-Cart Cloud Quickstart
+title: 'X-Cart Cloud Onboarding Wizard '
 order: 11
 published: true
 ---
