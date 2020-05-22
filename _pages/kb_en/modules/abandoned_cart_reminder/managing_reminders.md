@@ -84,7 +84,7 @@ To view the list of abandoned cart reminders:
 
 For each reminder on the list the following information is provided:
 
-*   Clock icon in the first column, green or gray: This reflects your choice of sending method for the reminder. Reminders selected to be sent automatically have a green icon -![](attachments/7503950/8718929.png), reminders that are to be sent manually - a gray icon,![]({{site.baseurl}}/attachments/7503950/8718931.png).
+*   Clock icon in the first column, green or gray: This reflects your choice of sending method for the reminder. Reminders selected to be sent automatically have a green icon - ![]({{site.baseurl}}/attachments/7503950/8718929.png), reminders that are to be sent manually - a gray icon,![]({{site.baseurl}}/attachments/7503950/8718931.png).
 *   **Name**: The name of the reminder. This name allows you to identify the reminder in the store's Admin area; your customers never see it.
 *   **Delay**** (hours)**: The minimum number of hours that X-Cart will wait before sending this reminder for an abandoned cart - if the reminder is configured to be sent automatically.
 *   **Coupon discount**: The discount amount that will be offered to the customer. "0" or empty value means that sending the reminder will not create coupons.
