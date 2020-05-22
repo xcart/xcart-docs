@@ -16,7 +16,7 @@ A list of variables supported in an email notification and their respective valu
 
 The variables enable you to provide a placeholder for information that changes from one email message to another or is not known to you (like the name of the intended recipient of the email notification, an order ID, or a link to the details of the order in question). They also enable you to re-use the information that has already been provided by you somewhere else in the Admin area without having to write it again in the notification fields. 
 
-For example, if you want the greeting of an email notification to mention the user it is sent to, you can specify it as "Dear %recipient_name%!". As a result, the email will address the user "Dear First_name Last_name!" based on the user profile data.  
+For example, if you want the greeting of an email notification to mention the user it is sent to, you can specify it as "Dear `%recipient_name%`!". As a result, the email will address the user "Dear First_name Last_name!" based on the user profile data.  
 
 Similarly, if you need your store's name in the email notification signature, you should first specify it in your {% link "Store Profile" ref_HcSs9eFL %} (**Store setup** > **Store profile**) and then add it to your email notification signature by using the variable `%company_name%` in the text. This way, the company name will appear in the email notification that will come to your customer's inbox. 
 
