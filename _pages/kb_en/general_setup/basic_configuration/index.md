@@ -13,7 +13,7 @@ Once X-Cart software is installed start with the basic store configuration. Name
 _In this section_ :
 
 *   {% link "X-Cart Quickstart Onboarding Wizard" ref_5xTo5Gmg %}
-*   {% link "X-Cart Cloud Quickstart" ref_0UvAdIRA %}
+*   {% link "X-Cart Cloud Onboarding Wizard" ref_0UvAdIRA %}
 *   {% link "Company Identity and Contact Information" ref_HcSs9eFL %}
 *   {% link "Logo and Favicon" ref_2VXSZhKE %}  
 *   {% link "Admin and Storefront General Settings" ref_qAZlJxZm %}
