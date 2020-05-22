@@ -18,7 +18,7 @@ The variables enable you to provide a placeholder for information that changes f
 
 For example, if you want the greeting of an email notification to mention the user it is sent to, you can specify it as "Dear %recipient_name%!". As a result, the email will address the user "Dear First_name Last_name!" based on the user profile data.  
 
-Similarly, if you need your store's name in the email notification signature, you should first specify it in your {% link "Store Profile" ref_HcSs9eFL %}(**Store setup** > **Store profile**) and then add it to your email notification signature by using the variable `%company_name%` in the text. This way, the company name will appear in the email notification that will come to your customer's inbox. 
+Similarly, if you need your store's name in the email notification signature, you should first specify it in your {% link "Store Profile" ref_HcSs9eFL %} (**Store setup** > **Store profile**) and then add it to your email notification signature by using the variable `%company_name%` in the text. This way, the company name will appear in the email notification that will come to your customer's inbox. 
 
 Below is the list of variables supported in X-Cart store in all email notifications:
 
