@@ -176,7 +176,7 @@ There can be more settings except of three basic ones above. Let us have a look 
 ```
 
 We can see here following settings we have not met before:
-- 'help' setting in 'generate_sku' field. This setting defines a text for question mark icon near the field: ![help-setting-example.png]({{site.baseurl}}/attachments/ref_SlIeQwQo/help-setting-example.png is_border=)
+- 'help' setting in 'generate_sku' field. This setting defines a text for question mark icon near the field: ![help-setting-example.png]({{site.baseurl}}/attachments/ref_SlIeQwQo/help-setting-example.png)
 - 'constraints' setting defines certain restrictions for the field's value. There are different constraints in `defineFields()` method shown above:
 	- max length constraint `XLite\Core\Validator\Constraints\MaxLength`;
     - non-blank value constraint `Symfony\Component\Validator\Constraints\NotBlank`;
