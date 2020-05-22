@@ -23,9 +23,9 @@ X-Cart version 5.4.0. comes with a bunch of developer-related goodies, so you ma
 * cache rebuild
 * self-upgrade / rollback
 
-# --- [Download 5.4.0](https://www.x-cart.com/download.html) ---
+## --- [Download 5.4.0](https://www.x-cart.com/download.html) ---
 
-## Main.php -> main.yaml
+### Main.php -> main.yaml
 In the new version we replaced some of the methods with corresponding field options in the main.yaml file. For instance, `getSkins` method was replaced by skins field in the **main.yaml** file. 
 
 In the previous X-Cart versions, the following code was used to describe the `getSkins` method for the **Crisp White** skin: 
@@ -141,7 +141,7 @@ Shows if the addon’s settings can be changed.
 Shows if the addon can be disabled. If set to ‘false’, the addon can only be removed/uninstalled.
 
 
-## Generate main.yaml from Main.php
+### Generate main.yaml from Main.php
 The **main.yaml** file is generated automatically in the process of cache rebuild. However, you can manually generate the file with the following command:
 
 `php xc5 utils:generateMainYaml [-f] [moduleId]`
@@ -154,7 +154,7 @@ A valid moduleId should look as follows:
 
 For example, moduleId of the **Crisp White** skin is either **XC\CrispWhite** or **XC-CrispWhite**. 
 
-## Addon’s state check (enabled/disabled)
+### Addon’s state check (enabled/disabled)
 You can check if an addon is enabled with the following queries:
 
 `Includes\Utils\Module\Manager::getRegistry()->isModuleEnabled($author, $name);`
@@ -163,11 +163,11 @@ or
 
 `Includes\Utils\Module\Manager::getRegistry()->isModuleEnabled($moduleId);`
 
-## Upgrade hooks
+### Upgrade hooks
 Upgrade hook files are now available in **[addon folder]/hooks/upgrade** (previous directory: _[addon folder]/upgrade_). 
 The hook file can be still used in the regular form of a function callback or in the new form of the object class callback `\XLite\Rebuild\Hook`. 
 
-## Events
+### Events
 We stopped using the following methods in **Main.php**:
 - callInstallEvent
 - callUninstallEvent
@@ -185,7 +185,7 @@ You can create a corresponding event file in the **/hooks** folder:
 
 The files format is the same as used in upgrade hooks. 
 
-## Changes in skin files
+### Changes in skin files
 To make one skin dependable on another, you should make a corresponding note in the **main.yaml** file. For example, for a plugin dependable on the **Crisp White** skin, this note looks as follows:
 ```twig
 dependsOn:
@@ -210,11 +210,11 @@ For example, this way you can change some of the variables from variables.less. 
 
 If you don’t use this line, the LESS-file will substitute that of the parent skin. This way you can replace all the font files if the plugin file contains many changes. 
 
-## Other
+### Other
 - updated JS libs
 - updated PHP libs
 - PHP 7.2 is minimal required version
 - PHP 7.3 support
 - MySQL 5.7.7 is minimal required version
 
-# --- [Download 5.4.0](https://www.x-cart.com/download.html) ---
+## --- [Download 5.4.0](https://www.x-cart.com/download.html) ---
