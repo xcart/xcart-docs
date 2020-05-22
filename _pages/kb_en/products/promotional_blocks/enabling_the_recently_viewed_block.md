@@ -13,7 +13,9 @@ redirect_from:
 ---
 
 
-You can configure your X-Cart 5 store so that it shows a "Recently viewed" block where store visitors can view the products they viewed recently: ![](attachments/6389772/6586379.png)The "Recently viewed" block in X-Cart 5 is available through the use of **Product Advisor** module by X-Cart team. If you want to use this feature, make sure that this module is installed and enabled at your store:![]({{site.baseurl}}/attachments/6389778/8717811.png)To adjust the way recently viewed products should be displayed to your store's visitors, you will need to adjust some module settings:
+You can configure your X-Cart 5 store so that it shows a "Recently viewed" block where store visitors can view the products they viewed recently. 
+
+The "Recently viewed" block in X-Cart 5 is available through the use of **Product Advisor** module by X-Cart team. If you want to use this feature, make sure that this module is installed and enabled at your store:![]({{site.baseurl}}/attachments/6389778/8717811.png)To adjust the way recently viewed products should be displayed to your store's visitors, you will need to adjust some module settings:
 
 1.  Click the **Settings** link near the module icon in the list of your store's installed modules to go to the  "Product Advisor" module settings page.
 2.  On the "Product Advisor" module settings page, adjust the settings in the **"Recently viewed" block settings** section:
