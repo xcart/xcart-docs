@@ -69,7 +69,7 @@ You can set four kinds of contact email addresses:
 
    *   **HelpDesk/Support service e-mail**: 
    
-       The email address(es) specified in this field will be used as the 'to' address for messages sent by store visitors via the _Contact us_ form. It/They will also be used in the message "No payment methods available. Please contact the `<a href=\"mailto:{{email}}\">store administrator</a>`.", which is displayed to customers when there are no payment methods available to them at checkout. 
+       The email address(es) specified in this field will be used as the 'to' address for messages sent by store visitors via the _Contact us_ form. It/They will also be used in the message "No payment methods available. Please contact the store administrator.", which is displayed to customers when there are no payment methods available to them at checkout. 
        
        {% note info %}
        A separate 'to' email address for the _Contact us_ form may be configured on the settings page of the addon [Contact Us](https://market.x-cart.com/addons/contact-us.html "Adding recipient addresses for email notifications").
