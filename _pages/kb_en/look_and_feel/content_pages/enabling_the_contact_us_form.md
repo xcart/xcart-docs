@@ -27,7 +27,7 @@ The addon's settings page allows you to control the settings related to the "Con
 
 ![contact-us-settings.png]({{site.baseurl}}/attachments/ref_hfZXkxzT/contact-us-settings.png)
 
-*   **Enable form**: Select this check box to allow your store's users to access the form. When enabled, the "Contact us" form is available via the link "/?target=contact_us"; for example, if your store's address is http://www.example.com/, your customers can access the form at http://www.example.com/?target=contact_us. When the form is disabled, users attempting to access the form get the "Access denied" page.
+*   **Enable form**: Select this check box to allow your store's users to access the form. When enabled, the "Contact us" form is available via the link `/?target=contact_us`; for example, if your store's address is `http://www.example.com/`, your customers can access the form at `http://www.example.com/?target=contact_us`. When the form is disabled, users attempting to access the form get the "Access denied" page.
 *   **Email address of the message recipient**: Use this field to specify the email address the messages submitted via the "Contact us" form should be sent to. If this field is left empty, the HelpDesk/Support service e-mails will be used.
 *   **Show email as text**: Enable this option if you need the email address of the message recipient to be displayed to customers on the Contact Us page in the storefront. In case the "Email address of the message recipient" field value is empty, the page will display the email defined for **HelpDesk/Support service e-mails** in your store profile in the store Admin area (**Store setup** -> **Store profile** **(ex. Contact information)**).
 
