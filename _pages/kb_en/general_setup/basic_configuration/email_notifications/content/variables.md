@@ -24,7 +24,7 @@ Below is the list of variables supported in X-Cart store in all email notificati
 
    * ```%company_address%```- Your company street address as specified in your store profile.
    * ```%company_city%```- The city of your company address as specified in your store profile.
-   * ```%company_country%```- The country of your company address as specified on your store’s Contact information page.
+   * ```%company_country%```- The country of your company address as specified in your store profile.
    * ```%company_fax%```- Your company fax number as specified in your store profile.
    * ```%company_link%```- Link to the home page of your X-Cart store - with your Company name used as link text.
    * ```%company_name%```- Your company name as specified in your store profile.
