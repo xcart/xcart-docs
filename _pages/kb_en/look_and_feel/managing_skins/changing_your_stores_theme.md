@@ -23,7 +23,7 @@ You can manange your store's design templates (skins) using the **Layout** secti
 If you visit this section, you will see that the upper part of the page shows the design template that is installed and active in the store currently. 
 ![current-skin.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/current-skin.png)
 
-You can use the **Customize storefront** button to access some storefront customization settings.
+You can use the **Customize storefront** button to access {% link "the storefront customization settings" ref_2Kfe2OX6 %}.
 ![customize-storefront.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/customize-storefront.png)
 
 For some skins you may also be able to edit custom options:
