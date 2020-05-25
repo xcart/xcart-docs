@@ -7,7 +7,7 @@ title: Managing Skins
 order: 200
 published: true
 ---
-X-Cart offers two default skins - CrispWhite and Standard (deprecated in X-Cart 5.4.x) - and over [80 template add-ons](https://market.x-cart.com/ecommerce-templates/) that can be downloaded and installed from the Marketplace. The store admin area uses a default skin that can not be changed by the default means. As for the customer storefront you can change the skin used there depending on the impression you want your store to have on your customers.
+X-Cart offers two default skins - CrispWhite and Standard (deprecated in X-Cart 5.4.x) - and over [80 template add-ons](https://market.x-cart.com/ecommerce-templates/) that can be downloaded and installed from the Marketplace. The default skin of the store Admin can not be changed. As for the customer storefront, you can change the skin used there for the one that meets your business needs better.
 
 {% note info %}
 X-Cart 5.3.x and earlier supported the Standard skin in 4 different color schemes (Standard, Digital, Fashion and Noblesse) that are deprecated starting from X-Cart 5.4.0.x. 
