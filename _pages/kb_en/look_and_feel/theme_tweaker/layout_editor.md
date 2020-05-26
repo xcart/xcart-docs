@@ -11,9 +11,30 @@ Layout Editor is a tool of the Theme Tweaker addon that aims at editing a page l
 
 {% toc %}
 
+## Editing Storefront Layout Format
+
+Layout Editor allows changing the default storefront layout from 1 up to 3 column format and back splitting the changes between the store homepage and other site pages.
+
+To change the page layout format:
+1. When logged in as a store administrator, click on the **Layout Editor** tab at the bottom of any storefront page: 
+   ![541-layout-editor-tab.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-layout-editor-tab.png)
+   This opens the Layout Editor tool.
+
+2. Refer to the **Storefront Layout** part of the tool to change the page format.
+   * To change the homepage format, click the **Home page** dropdown and select the layout you need:
+     ![541-home-page-layout.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-home-page-layout.png)
+   
+   * To change other pages format, click the **Other pages** dropdown and select the layout you need:
+     ![541-other-pages-layout.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-other-pages-layout.png)
+
+3. Click **Save**, to make the changes active.
+   ![541-save-changes.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-save-changes.png)
+
 ## Changing Logo, Favicon and Apple Icon
 
-## Editing Layout
+
+
+## Repositioning Layout Elements
 
 To edit a page layout:
 
