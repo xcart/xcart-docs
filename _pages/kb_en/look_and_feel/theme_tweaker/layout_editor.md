@@ -28,9 +28,12 @@ To edit a page layout:
    ![541-highlighted-block.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-highlighted-block.png)
 
 4. Apply the required changes:
-   * To change a block's position, pick it with a mouse and start dragging. 
-   
-     The system will highlight a place on the page where the block can be dropped.
+   * To change a block's position, pick it with a mouse and start dragging. The system will highlight a place on the page where the block can be dropped.
+     
+     <div class="ui stackable two column grid">
+        <div class="column" markdown="span">![541-default-block-plave.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-default-block-plave.png)</div>
+        <div class="column" markdown="span">![541-new-block-place.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-new-block-place.png)</div>
+    </div>
 
     * To disable a block, click on the EYE icon within it.
       ![541-eye-icon-disable-block.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-eye-icon-disable-block.png)
@@ -38,7 +41,7 @@ To edit a page layout:
       The block will be removed from the page and will be listed as disabled.
       ![541-disabled-block-list.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-disabled-block-list.png)
 
-   * To enable a block back, click on the **Enable** button under the block name. 
+   * To enable a block back, click the **Enable** button that appears instead of the block name in the disabled blocks list. 
      ![541-enable-block.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-enable-block.png)
      
    * To reset the page layout to the default state, click **Reset layout**.
