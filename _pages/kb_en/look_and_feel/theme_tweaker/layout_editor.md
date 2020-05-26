@@ -7,7 +7,7 @@ title: Layout Editor
 order: 100
 published: true
 ---
-Layout Editor is a tool of the Theme Tweaker addon that aims at editing a page layout. You can drag-n-drop the info blocks using this tool to change the position. It can also help to change the store logo, favicon and Apple icon if necessary.
+Layout Editor is a tool of the Theme Tweaker addon that aims at editing a page layout. You can drag‑n‑drop the info blocks using this tool to change the position. It can also help to change the store logo, favicon and Apple icon if necessary.
 
 {% toc %}
 
