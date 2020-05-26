@@ -11,7 +11,9 @@ order: 150
 redirect_from:
   - /look_and_feel/changing_your_stores_logo_and_favicon.html
 ---
-It is possible to add your own images for the store's logo and favicon:
+Every X-Cart based store has a logo, a favicon and an Apple icon that serve as branding for your store site.
+
+A store admin can change the default store's logo and favicon to a store brand image:
 ![logo_favicon1.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/logo_favicon1.png)
  
 It is also possible to change the store's "Apple icon". The icon is intended for mobile devices: it will appear on the home screen of a smartphone or tablet if a user pins your store to the home screen as their favorite site creating a shortcut (See [How to Add Websites to the Home Screen on Any Smartphone or Tablet](https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/ "Changing a Store Logo and Favicon") for more info.)
@@ -47,4 +49,4 @@ Now your store visitors should be able to see the new image on the storefront.
 If necessary, after replacing the default images with your own ones, you can revert to the defaults again. To do so, select the *Delete* option and click **Submit** to save the changes.
 ![logo_favicon_setup5.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/logo_favicon_setup5.png)
 
-    
+It is also possible to change the store logo, favicon ans Apple icon directly in the storefront using {% link "Layout Editor" ref_1xoeCJwy %} of the Theme Tweaker addon.
