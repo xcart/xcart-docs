@@ -32,7 +32,26 @@ To change the page layout format:
 
 ## Changing Logo, Favicon and Apple Icon
 
+The Layout Editor tool allows changing the default X-Cart logo, favicon and Apple icon directly on the storefront.
 
+For this purpose:
+
+1. When logged in as a store administrator, click on the **Layout Editor** tab at the bottom of any storefront page: 
+   ![541-layout-editor-tab.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-layout-editor-tab.png)
+   This opens the Layout Editor tool.
+
+2. Refer to the **Logo & Favicon** part of the tool to change the page format.
+   ![541-logo-favicon-editor.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-logo-favicon-editor.png)
+
+3. Click the image icon (logo, favicon or app icon), to see a dropdown with options.
+   ![541-logo-icon-options-dropdown.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-logo-icon-options-dropdown.png)
+
+4. The actions to apply changes are straightforward:
+   * choose the change you need;
+   * click on the option name and follow the regular procedure.
+  
+5. Click **Save**, to make the changes active.
+   ![541-save-changes.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-save-changes.png)
 
 ## Repositioning Layout Elements
 
