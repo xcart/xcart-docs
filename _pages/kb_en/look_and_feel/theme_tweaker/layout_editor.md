@@ -44,4 +44,6 @@ To edit a page layout:
    * To reset the page layout to the default state, click **Reset layout**.
      ![541-reset-layout.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-reset-layout.png)
 
-5. Save the changes when done.
+5. Click **Save** to activate the changes.
+   ![541-save-changes.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-save-changes.png)
+
