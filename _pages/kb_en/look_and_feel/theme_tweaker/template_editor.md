@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-03-05 16:13 +0400'
 identifier: ref_1gdpZJ44
 title: Template Editor
-order: 110
+order: 140
 published: true
 ---
 **Template Editor** is the first tool of the [Webmaster Mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "How to Use Template Editor") that is aimed at editing the code of the template files (.twig and .html). Use it when you need to change the template (layout) elements (not a text description or a css code). 
