@@ -24,10 +24,10 @@ To edit a page layout:
    
 3. Enable the _Drag-n-drop blocks_ option within the Layout Editor tool.
    ![541-drag-n-drop-on.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-drag-n-drop-on.png)
-   Hover a mouse to see the blocks that you can work with on the chosen page.
+4. Hover a mouse to see the blocks that you can work with on the chosen page.
    ![541-highlighted-block.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-highlighted-block.png)
 
-4. Apply the required changes:
+5. Apply the required changes:
    * To change a block's position, pick it with a mouse and start dragging. The system will highlight a place on the page where the block can be dropped.
      
      <div class="ui stackable two column grid">
@@ -47,6 +47,6 @@ To edit a page layout:
    * To reset the page layout to the default state, click **Reset layout**.
      ![541-reset-layout.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-reset-layout.png)
 
-5. Click **Save** to activate the changes.
+6. Click **Save** to activate the changes.
    ![541-save-changes.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-save-changes.png)
 
