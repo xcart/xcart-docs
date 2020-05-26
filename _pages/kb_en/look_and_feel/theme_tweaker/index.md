@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-03-06 13:30 +0400'
 identifier: ref_2L6W3YMS
-title: Theme Tweaker and Webmaster Mode
+title: Theme Tweaker
 order: 400
 published: true
 description: Learn how to use Webmaster mode to apply changes to the default store layout
@@ -19,30 +19,22 @@ To switch from Custom Skin to Theme Tweaker without losing your files, you shoul
 NB: If there are custom changes in the PHP files, they will have to be manually transferred to a separate custom addon and updated to be compatible with X-Cart 5.4.0.x.
 {% endnote %}
 
-**Theme Tweaker** will create a new addon with a copy of the store's default template modified by your changes. In addition to the unbeatable convenience of making changes on the fly, every tweak you implement with this tool will be saved correctly in accordance with the OOP paradigm. 
+Theme Tweaker will create a new addon with a copy of the store's default template modified by your changes. In addition to the unbeatable convenience of making changes on the fly, every tweak you implement with this tool will be saved correctly in accordance with the OOP paradigm. 
 
 Please make sure the addon is {% link "installed and enabled" ref_0fGEpvrh %} before you proceed.
 ![theme_tweaker_addon.png]({{site.baseurl}}/attachments/ref_2L6W3YMS/theme_tweaker_addon.png)
 
-While the addon is enabled, you can {% link "change skins" ref_GLqVdpgd %} with one click in the **Look and feel** > **Layout** section of your store Admin area and apply changes to the existing store layout directly on the storefront using [Webmaster mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "Using Theme Tweaker for Layout Changes"). 
+When enabled the Theme Tweaker panel is always visible at the bottom of the customer storefront when opened by a logged in administrator.
+![541-theme-tweaker-panel-storefront.png]({{site.baseurl}}/attachments/ref_2L6W3YMS/541-theme-tweaker-panel-storefront.png)
 
-For this purpose log in as an admin and open the storefront using the "View storefront" button on any page of your store Admin area. 
-![view-storefront.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/view-storefront.png)
 
-The storefront will be opened in a new tab. Find the 'Gear' icon in the bottom left corner and click on it to start editing pages using **Webmaster mode**. (For X-Cart 5.4.0.x and later the **Webmaster Mode** panel is always visible at the bottom of the storefront when opened by a logged in administrator).
+_In this section:_
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![gear-icon.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/gear-icon.png)</div>
-  <div class="column" markdown="span">![modes.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/modes.png)</div>
-</div>
-
-**Webmaster mode** provides five convenient tools that you can use to apply changes to the different parts of your site. More info on these tools is available in the sections below:
-1. {% link "Template Editor" ref_1gdpZJ44 %}
-2. {% link "Custom CSS" ref_10vugyja %}
-3. {% link "Layout Editor" ref_1xoeCJwy %}
-4. [Labels Editor](https://kb.x-cart.com/look_and_feel/text_labels/labels_in_webmaster_mode.html "Using Theme Tweaker for Layout Changes")
-5. {% link "Description Editor" ref_0KCLczz4 %}
-
+*  {% link "Layout Editor" ref_1xoeCJwy %}
+*  [Labels Editor](https://kb.x-cart.com/look_and_feel/text_labels/labels_in_webmaster_mode.html "Using Theme Tweaker for Layout Changes")
+*  {% link "Description Editor" ref_0KCLczz4 %}
+*  {% link "Custom CSS" ref_10vugyja %}
+*  {% link "Template Editor" ref_1gdpZJ44 %}
 
 
 _Related pages:_
