@@ -33,14 +33,14 @@ To edit a page layout:
      <div class="ui stackable two column grid">
         <div class="column" markdown="span">![541-default-block-plave.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-default-block-plave.png)</div>
         <div class="column" markdown="span">![541-new-block-place.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-new-block-place.png)</div>
-    </div>
-
+     </div>
+     
     * To disable a block, click on the EYE icon within it.
       ![541-eye-icon-disable-block.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-eye-icon-disable-block.png)
    
       The block will be removed from the page and will be listed as disabled.
       ![541-disabled-block-list.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-disabled-block-list.png)
-
+      
    * To enable a block back, click the **Enable** button that appears instead of the block name in the disabled blocks list. 
      ![541-enable-block.png]({{site.baseurl}}/attachments/ref_1xoeCJwy/541-enable-block.png)
      
