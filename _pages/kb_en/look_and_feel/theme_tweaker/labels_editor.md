@@ -6,6 +6,8 @@ identifier: ref_4xrvhBHU
 title: Labels Editor
 order: 110
 published: true
+redirect_from:
+  - look_and_feel/text_labels/labels_in_webmaster_mode.html
 ---
 You may find it easier to edit a label directly in the store frontend where you see the text you need to edit and you don't need to know the label name or whatsever else. 
 
