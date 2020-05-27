@@ -5,7 +5,7 @@ updated_at: '2018-05-17 10:03 +0400'
 identifier: ref_14EyD6iT
 title: Editing Labels in Webmaster Mode
 order: 110
-published: true
+published: false
 redirect_to: 'https://kb.x-cart.com/look_and_feel/theme_tweaker/labels_editor.html'
 ---
 You may find it easier to edit a label directly in the store frontend where you see the text you need to edit and you don't need to know the label name or whatsever else. 
