@@ -7,13 +7,9 @@ title: Description Editor
 order: 120
 published: true
 ---
-**Description Editor** is the fith tool of the **Webmaster mode** that will help you to change product and categories descriptions on the fly. 
+**Description Editor** is a tool of the {% link "Theme Tweaker" ref_2Kfe2OX6 %} addon that aims at changing product and categories descriptions on the fly. 
 
-To enable **Description Editor** log in as a store admin and open the store front-end. Find the 'Gear' icon in the bottom left corner, click on it and choose the **Description Editor** tool.
-
-![welcome.png]({{site.baseurl}}/attachments/ref_0KCLczz4/welcome.png)
-
-The system will highlight the area where you can add text changes. These are the products and categories descriptions (both brief and full ones). You can edit the text of a description the very same way as you do it in the admin, i.e. you can choose the font family, size and style, add images and video, lists, tables and many others. 
+When enabled the Description Editor tool will highlight the area where you can add text changes. These are the products and categories descriptions (both brief and full ones). You can edit the text of a description the very same way as you do it in the admin, i.e. you can choose the font family, size and style, add images and video, lists, tables and many others. 
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![short_descr.png]({{site.baseurl}}/attachments/ref_0KCLczz4/short_descr.png)</div>
