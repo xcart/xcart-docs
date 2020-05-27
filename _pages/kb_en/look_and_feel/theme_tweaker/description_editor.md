@@ -12,10 +12,6 @@ published: true
 When enabled the Description Editor tool will highlight the area where you can add new text or change the exisitng one. These are the product's and category's descriptions (both brief and full ones).
 ![541-description-editor-enabled.png]({{site.baseurl}}/attachments/ref_0KCLczz4/541-description-editor-enabled.png)
 
-{% note info %}
-The Description Editor tool works with descriptions only. If you need to change or edit any product or category name use the {% link "Labels Editor" ref_4xrvhBHU %} tool.
-{% endnote %}
-
 You can edit the text of a description the very same way as you do it in the admin, i.e. you can choose the font family, size and style, add images and video, lists, tables and other things. 
 ![541-description-editor-edit-text.png]({{site.baseurl}}/attachments/ref_0KCLczz4/541-description-editor-edit-text.png)
 
@@ -24,4 +20,3 @@ If you need to edit a text description on any {% link "other language" ref_1frAl
 
 Don't forget to save changes when complete.
 ![541-description-editor-save.png]({{site.baseurl}}/attachments/ref_0KCLczz4/541-description-editor-save.png)
-
