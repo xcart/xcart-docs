@@ -7,7 +7,7 @@ title: Custom CSS
 order: 130
 published: true
 ---
-A second tool of the Webmaster mode is **Custom CSS**. This tool is aimed at changing the design elements of the skin and adding a custom CSS code to the existing X-Cart pages so that a modified code is aggregated with the other software files automatically. Using **Custom CSS** you can change the skin colors, fonts, background, etc.
+**Custom CSS** is a tool of the {% link "Theme Tweaker" ref_2Kfe2OX6 %} addon that aims at changing the design elements of the skin and adding a custom CSS code to the existing X-Cart pages so that a modified code is aggregated with the other software files automatically. Using **Custom CSS** you can change the skin colors, fonts, background, etc.
 
 {% toc %}
 
