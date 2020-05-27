@@ -7,7 +7,7 @@ title: Template Editor
 order: 140
 published: true
 ---
-**Template Editor** is the first tool of the [Webmaster Mode](https://devs.x-cart.com/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.html "How to Use Template Editor") that is aimed at editing the code of the template files (.twig and .html). Use it when you need to change the template (layout) elements (not a text description or a css code). 
+**Template Editor** is a tool of the {% link "Theme Tweaker" ref_2Kfe2OX6 %} addon that aims at editing the code of the template files (.twig and .html). Use it when you need to change the template (layout) elements (not a text description or a css code). 
 
 Let's consider some usecases that describe the **Template Editor** facilities.
 
@@ -32,13 +32,12 @@ The first way to change an invoice is to edit the invoice page after an order is
 To do this, you'll need to:
 
 1. Place an order as an admin and stop on the invoice page. 
-2. Enable the **Webmaster mode** by clicking the 'Gear' icon in the bottom left corner. 
-3. Choose the **Template Editor** tool and turn ON the _Pick templates from page_ option. 
+2. Open the **Template Editor** tool and turn ON the _Pick templates from page_ option. 
    
    You'll see a main list of templates used on this page.
    ![invoice_page.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice_page.png)
      
-4. Pick a page element with a mouse (the element will be highlighted) and see the .twig file that corresponds with this element. 
+3. Pick a page element with a mouse (the element will be highlighted) and see the .twig file that corresponds with this element. 
    
    _It will be the 'Shipping Address' info block in our case and the template that corresponds with it is _common/order/invoice/parts/bottom.address.shipping.twig_.
   ![highlighted_element.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/highlighted_element.png)
@@ -49,7 +48,7 @@ To do this, you'll need to:
    ![address-fields.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/address-fields.png)
    {% endnote %}
      
-5. Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block next to it. 
+4. Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block next to it. 
    
    For this purpose:
    * find the _common/order/invoice/parts/bottom.address.shipping.twig_ template 
