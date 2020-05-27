@@ -9,15 +9,14 @@ published: true
 ---
 **Description Editor** is a tool of the {% link "Theme Tweaker" ref_2Kfe2OX6 %} addon that aims at changing product and categories descriptions on the fly. 
 
-When enabled the Description Editor tool will highlight the area where you can add text changes. These are the products and categories descriptions (both brief and full ones). You can edit the text of a description the very same way as you do it in the admin, i.e. you can choose the font family, size and style, add images and video, lists, tables and many others. 
+When enabled the Description Editor tool will highlight the area where you can add text changes. 
+![541-description-editor-enabled.png]({{site.baseurl}}/attachments/ref_0KCLczz4/541-description-editor-enabled.png)
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![short_descr.png]({{site.baseurl}}/attachments/ref_0KCLczz4/short_descr.png)</div>
-  <div class="column" markdown="span">![full-descr.png]({{site.baseurl}}/attachments/ref_0KCLczz4/full-descr.png)</div>
-</div>
+These are the products and categories descriptions (both brief and full ones). You can edit the text of a description the very same way as you do it in the admin, i.e. you can choose the font family, size and style, add images and video, lists, tables and many others. 
+![541-description-editor-edit-text.png]({{site.baseurl}}/attachments/ref_0KCLczz4/541-description-editor-edit-text.png)
 
 If you need to edit a text description on any {% link "other language installed" ref_1frAlu26 %} in your store just switch the store front-end to the target language and translate the description. 
 
 Don't forget to save changes when complete.
+![541-description-editor-save.png]({{site.baseurl}}/attachments/ref_0KCLczz4/541-description-editor-save.png)
 
-![descr_de.png]({{site.baseurl}}/attachments/ref_0KCLczz4/descr_de.png)
