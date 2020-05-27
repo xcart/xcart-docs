@@ -43,9 +43,9 @@ To do this, you'll need to:
   ![highlighted_element.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/highlighted_element.png)
      
    {% note info %}
-   The address fields that you see in the 'Shipping address' block are defined in the **Store setup** -> **Cart & Checkout** section in the admin back-end. So if you want to сhange them, do it there.
-        
-   ![address-fields.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/address-fields.png)
+   The address fields that you see in the 'Shipping address' block are defined on the Address fields page of your store Admin area (**Store setup** -> **Cart & Checkout**). 
+   
+   For more info on managing address fields, see {% link "Customer Account Management" ref_gg1fQDgB %}.
    {% endnote %}
      
 4. Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block next to it. 
