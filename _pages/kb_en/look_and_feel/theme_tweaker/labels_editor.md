@@ -9,24 +9,31 @@ published: true
 redirect_from:
   - look_and_feel/text_labels/labels_in_webmaster_mode.html
 ---
-You may find it easier to edit a label directly in the store frontend where you see the text you need to edit and you don't need to know the label name or whatsever else. 
+Labels Editor is a tool of the {% link "Theme Tweaker" ref_2Kfe2OX6 %} addon that aims at editing labels directly in the storefront where a store admin can see the text that needs to be changed. Using Labels Editor in the storefront makes labels editing easier as it does not require knowing the label name or whatever else. 
 
-{% note info %}
-The option is available if the addon {% link "Theme Tweaker" ref_2L6W3YMS %} is installed and enabled.
-{% endnote %}
+To use Labels Editor:
 
-To enable the {% link "Webmaster Mode" ref_2L6W3YMS %} you should be logged in as an admin in the store frontend. When logged in as an admin you'll see a 'Gear' icon in the bottom left corner.
+1. When logged in as a store administrator, choose a page in the storefront that you want to edit.
 
-![webmaster.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/webmaster.png)
+2. Click on the Labels Editor tab at the bottom of the page:
+   ![541-labels-editor-enabled.png]({{site.baseurl}}/attachments/ref_4xrvhBHU/541-labels-editor-enabled.png)
 
-Click on it and you'll see the Webmaster mode tools. You'll need the **Labels Editor** one. 
+3. Make sure the _Highlight labels_ option is turned ON.
+   ![541-highlight-labels-on.png]({{site.baseurl}}/attachments/ref_4xrvhBHU/541-highlight-labels-on.png)
+   
+   This highlights all the labels that you can edit directly on this page.
+4. Click on the label you want to edit.  
+   ![541-edit-label.png]({{site.baseurl}}/attachments/ref_4xrvhBHU/541-edit-label.png)
+   
+   In the pop-up that appears:
+   * change the label name;
+   * click **Save** to make the changes active.
 
-![labels-editor.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/labels-editor.png)
-
-Make sure the _Highlight labels_ option is turned ON, then you'll see all the labels that you can edit directly on this page highlighted. Click on the label you want to edit, change its name in a pop-up and _Save_ the changes. That's it, the label will be changed thoughout the whole store. 
-
-![edit-label.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/edit-label.png)
+   That's it, the label will be changed thoughout the whole store. 
 
 If you need to edit the page labels in any other language enabled in your store, turn off the _Highlight labels_ option, change the store-front language, turn the the _Highlight labels_ option on again and edit the labels you need.
 
-![deutch.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/deutch.png)
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![541-change-language-dropdown.png]({{site.baseurl}}/attachments/ref_4xrvhBHU/541-change-language-dropdown.png)</div>
+  <div class="column" markdown="span">![541-highlight-labels-on-de.png]({{site.baseurl}}/attachments/ref_4xrvhBHU/541-highlight-labels-on-de.png)</div>
+</div>
