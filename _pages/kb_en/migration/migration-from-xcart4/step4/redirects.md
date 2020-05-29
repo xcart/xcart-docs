@@ -10,7 +10,7 @@ redirect_from:
   - /general_setup/migration/migration-from-xcart4/step-4-redirects.html
   - /migration/migration-from-xcart4/step-4-redirects.html
 ---
-After you have completed the migration and replaced X-Cart 4 store with new X-Cart 5 one, you need to find the following piece of code in your `.htaccess` file:
+After you have completed the migration and replaced the X-Cart 4 store with the new X-Cart 5 one, you need to find the following piece of code in your `.htaccess` file:
 
 ```
   RewriteRule (^|/)\. - [F]
@@ -48,7 +48,7 @@ and put the next piece of code BEFORE that:
   
 ```
 
-This code makes sure that the product, category and static pages which were properly indexed in X-Cart 4 will redirect to their successors in X-Cart 5 store.
+This code makes sure that the product, category and static pages that were properly indexed in X-Cart 4 will redirect to their successors in the X-Cart 5 store.
 
 If you use `nginx` web-server instead of `Apache` and `.htaccess` rules do not work for you, here is the equivalent of the same rules in `nginx` syntax:
 
