@@ -105,6 +105,8 @@ namespace=XLite
 servers=127.0.0.1
 ```
 
+Redis PHP extension is required.
+
 ### Memcached
 
 Memcached is the free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
