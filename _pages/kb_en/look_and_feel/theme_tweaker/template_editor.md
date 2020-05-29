@@ -39,7 +39,7 @@ To do this, you'll need to:
      
 3. Pick a page element with a mouse (the element will be highlighted) and see the .twig file that corresponds with this element. 
    
-   _It will be the 'Shipping Address' info block in our case and the template that corresponds with it is `common/order/invoice/parts/bottom.address.shipping.twig`._
+   It will be the 'Shipping Address' info block in our case and the template that corresponds with it is `common/order/invoice/parts/bottom.address.shipping.twig`.
   ![highlighted_element.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/highlighted_element.png)
      
    {% note info %}
@@ -125,7 +125,7 @@ For this purpose:
 5. Click on the highlighted .twig file to open and edit it the way you need. 
    ![541-template-editor-twig-content.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-twig-content.png)
 
-   _In our case it's the `mail/common/order/invoice/parts/bottom.methods.shipping.twig` file and we'll delete the highlighted code from it to remove the **Shipping method** section from the invoice e-mail notification._
+   In our case it's the `mail/common/order/invoice/parts/bottom.methods.shipping.twig` file and we'll delete the highlighted code from it to remove the **Shipping method** section from the invoice e-mail notification.
 
 6. Save the changes when you are done.
 
