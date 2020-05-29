@@ -22,7 +22,7 @@ To change the store's logo, favicon or Apple icon images, you will need the addo
 
 To change the default logo, favicon or Apple icon images for your store website:
 
-1.  Prepare the custom image you want to use. If replacing the main store logo image, check the **Images** section (**Look & Feel** > **Images**) to find out the recommended store logo dimensions
+1.  Prepare the custom image you want to use. You can use jpeg, jpg, gif, bmp or png images for logo, and ico images for icon. If replacing the main store logo image, check the **Images** section (**Look & Feel** > **Images**) to find out the recommended store logo dimensions
 for your store's skin/design theme. You will be able to upload a larger size image, but X-Cart will resize it to the specified dimensions.
 
 2.  In your store's Admin area, go to the Logo & Favicon section (**Look & Feel** > **Logo & Favicon**).
