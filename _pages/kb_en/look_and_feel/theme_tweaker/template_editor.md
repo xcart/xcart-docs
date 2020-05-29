@@ -39,7 +39,7 @@ To do this, you'll need to:
      
 3. Pick a page element with a mouse (the element will be highlighted) and see the .twig file that corresponds with this element. 
    
-   _It will be the 'Shipping Address' info block in our case and the template that corresponds with it is _common/order/invoice/parts/bottom.address.shipping.twig_.
+   _It will be the 'Shipping Address' info block in our case and the template that corresponds with it is `common/order/invoice/parts/bottom.address.shipping.twig`._
   ![highlighted_element.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/highlighted_element.png)
      
    {% note info %}
@@ -51,12 +51,12 @@ To do this, you'll need to:
 4. Let's say that we need e.g. to place the 'Billing address' block first and the 'Shipping address' block next to it. 
    
    For this purpose:
-   * find the _common/order/invoice/parts/bottom.address.shipping.twig_ template 
-   * go one level up to the template that embeds both the shipping and billing address elements. This is the _common/order/invoice/parts/bottom.twig_ template.
+   * find the `common/order/invoice/parts/bottom.address.shipping.twig` template 
+   * go one level up to the template that embeds both the shipping and billing address elements. This is the `common/order/invoice/parts/bottom.twig` template.
      ![code-switch.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/code-switch.png)
      
     * To switch the 'Shipping address' and 'Billing address' blocks: 
-      * find the following line in the _common/order/invoice/parts/bottom.twig_ template
+      * find the following line in the `common/order/invoice/parts/bottom.twig` template
      
         ```twig
         <table cellspacing="0" class="addresses{% if this.order.isShippingSectionVisible() %} S{% endif %}{% if this.order.isPaymentSectionVisible() %} B{% endif %}">
@@ -97,9 +97,8 @@ As a result the invoice page will look as follows:
      
 ![changed.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/changed.png)
      
-The changed template will be automatically renamed from _common/order/invoice/parts/bottom.twig_ to _theme_tweaker/customer/order/invoice/parts/bottom.twig_ and will be listed in the **Look an feel** -> **Edited templates** section of the admin back-end.
-     
-![edited_templates.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/edited_templates.png)
+The changed template will be automatically renamed from `common/order/invoice/parts/bottom.twig` to `theme_tweaker/customer/order/invoice/parts/bottom.twig` and will be listed in the **Look an feel** -> **Edited templates** section of the admin back-end.
+![541-edited-templates-list.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-edited-templates-list.png)
      
 If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to its default look.
      
@@ -110,32 +109,34 @@ The second way to change an invoice is to edit the e-mail notification that a cu
 For this purpose:
 
 1. Open the **Store setup** -> **Email notifications** section of your admin back-end.
-   ![notifications.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/notifications.png)
+   ![541-template-editor-email-listing.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-email-listing.png)
      
-2. Find e.g. the 'Order Created' notification there (the one that corresponds with the e-mail that both a customer and an admin receive after a new order is placed).
-  ![order_created.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/order_created.png)
+2. Find e.g. the 'Order Created' notification there (the one that corresponds with the e-mail that both a customer and an admin receive after a new order is placed) and open the notification details page.
+   ![541-template-editor-notification-details.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-notification-details.png)
      
-3. Scroll down the page and find the 'Edit via Webmaster mode' button in the **Scheme** section.
-Click on it and a random invoice will be opened in a new tab.
-   ![scheme.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/scheme.png)
+3. Scroll down the details page and find the 'Dynamic message' button in the **Scheme** section. 
+   ![541-scheme-dynamic-message.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-scheme-dynamic-message.png)
+   Click on it and a random invoice will be opened in a new tab.
      
 4. Click on the section in the invoice that you want to edit to see the .twig file that corresponds with this section. 
-     
+    ![541-template-editor-invoice.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-invoice.png)
    _We'll remove the **Shipping method** section from the invoice in our sample._
-     
-   ![invoice.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice.png)
-     
+   
 5. Click on the highlighted .twig file to open and edit it the way you need. 
-  
-   _In our case it's the common/order/invoice/parts/bottom.methods.shipping.twig file and we'll delete the highlighted code from it to remove the **Shipping method** section from the invoice e-mail notification._
-     
-   ![invoice_changes.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice_changes.png)
+   ![541-template-editor-twig-content.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-twig-content.png)
+
+   _In our case it's the `mail/common/order/invoice/parts/bottom.methods.shipping.twig` file and we'll delete the highlighted code from it to remove the **Shipping method** section from the invoice e-mail notification._
 
 6. Save the changes when you are done.
 
-Once the changes are applied the invoice page looks as follows:
-![deleted.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/deleted.png)
-    
+   Once the changes are applied the invoice page looks as follows:
+   ![541-dynamic-message-editor.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-dynamic-message-editor.png)
+
+The changed template will be automatically renamed from `mail/common/order/invoice/parts/bottom.methods.shipping.twig` to `theme_tweaker/mail/admin/order/invoice/parts/bottom.methods.shipping.twig` and will be listed in the **Look an feel** -> **Edited templates** section of the admin back-end.
+![541-edited-templates-list.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-edited-templates-list.png)
+     
+If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to its default look.
+
 ## How to Add a New Element
 
 As you may have already noticed the default CrispWhite skin unlike the Standard skins (deprecated in X-Cart 5.4.x) doesn't show a country flag near the country name in the store front-end. 
