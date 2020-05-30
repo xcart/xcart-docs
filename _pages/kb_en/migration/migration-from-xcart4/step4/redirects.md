@@ -41,10 +41,15 @@ and put the next piece of code BEFORE that:
   RewriteRule ^giftcert.php cart.php?target=gift_certs [NC,L]
   
   # If you have Shop By Brand module in X-Cart 5
+  <If "-f '%{REQUEST_FILENAME}.manufacturers.php' && ! %{QUERY_STRING} manufacturerid=([0-9]+)">
+        RewriteRule ^manufacturers\.php$ cart.php?target=brands [L,R=301]
+  </If>
   RewriteCond %{QUERY_STRING} manufacturerid=([0-9]+)
   RewriteRule ^manufacturers\.php$ cart.php?target=brand&brand_id=%1 [L,R=301]
   
   RewriteRule ^help.php cart.php?target=contact_us [NC,L]
+  
+  RewriteRule ^login.php cart.php?target=login [NC,L]
   
 ```
 
@@ -98,12 +103,19 @@ location = /giftcert.php {
 #  RewriteCond %{QUERY_STRING} manufacturerid=([0-9]+)
 #  RewriteRule ^manufacturers\.php$ cart.php?target=brand&brand_id=%1 [L,R=301]
 location = /manufacturers.php {
-	rewrite ^ /cart.php?target=brand&brand_id=$arg_manufacturerid;
+    if ($arg_manufacturerid){
+        rewrite ^ /cart.php?target=brand&brand_id=$arg_manufacturerid;
+    }
+    rewrite ^ /cart.php?target=brands;
 }
 
 
 # RewriteRule ^help.php cart.php?target=contact_us [NC,L]
 location = /help.php {
     rewrite ^ /cart.php?target=contact_us;
+}
+
+location = /login.php {
+    rewrite ^ /cart.php?target=login;
 }
 ```
