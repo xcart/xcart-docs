@@ -9,7 +9,7 @@ categories:
 published: true
 order: 300
 ---
-Managing customer accounts is a part of the overall {% link "user management" ref_3JDroIa2 %} performed by a store admin. A store admin in X-Cart can define what fields should be included into a customer profile, create new and manage existing customer accounts, as well as merge the registered and anonymous accounts for the same customer if required.
+The management of customer accounts is a {% link "user management" ref_3JDroIa2 %} task performed by a store administrator with user management privileges. Such an administrator can define what information needs to be stored in a customer profile (specifically, what fields need to be included into the customer address form used to specify the customer's billing and shipping address at checkout), add new customer accounts and manage the existing customer accounts, including the ability to merge information from orders placed anonymously with registered user accounts (that is, if the system can identify a registered customer as a buyer who has placed at least one order at the store previously without creating an account, the administrator can merge the information from this past order placed anonymously with the information in the registered user profile so the user's purchase history can be accessed all in one place).
 
 {% toc %}
 
