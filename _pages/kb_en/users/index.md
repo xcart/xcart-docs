@@ -17,6 +17,7 @@ In the store, each user is represented by a user account linked to all the user 
 
 A user's level of access to the system is defined by their role. More information on user roles and their management is available in the section {% link "User Roles" ref_38HKdc1f %}. 
 
+The types of customer information that can be collected and stored by your X-Cart store depend on your customer profile form settings (which form fields you require that your customers complete). You can learn about this from the section {% link "User Profile Fields" ref_gg1fQDgB %}.  
 
 
 _In this section:_
