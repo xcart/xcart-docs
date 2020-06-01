@@ -13,13 +13,13 @@ published: true
 
 ## Adding Custom CSS Code to the Site
 
-All changes that are applied through the **Custom CSS** tool facilities are applied storewide (i.e. to a store as a whole, but not to a single page of a store) and are recorded in the **Look and Feel** > **Custom CSS & JS** section of your store admin area. 
+All changes that are applied through the **Custom CSS** tool facilities are applied storewide (i.e. to a store as a whole, but not to a single page of a store) and are recorded in the **Look and Feel** > **Custom CSS & JS** section of your store Admin area. 
 
 ### Adding Custom CSS Code in the Admin Area
 
 To add Custom CSS code:
 
-1. Open the **Custom CSS** section of the admin area (**Look & Feel** -> **Custom CSS & JS**)
+1. Open the **Custom CSS** section of the Admin area (**Look & Feel** -> **Custom CSS & JS**)
    ![custom_css.png]({{site.baseurl}}/attachments/ref_10vugyja/custom_css.png)
 2. Turn on the **Use custom css** toggle
 3. Clean the text area beneath the toggle and paste your custom CSS code there
@@ -91,7 +91,7 @@ You can use the demo css code to learn how to apply similar changes to your stor
 It's also possible to add javascrips to your site. 
 
 For this purpose:
-1. Open **Custom JavaScript** section of the admin area (**Look and feel** -> **Custom CSS & JS**).
+1. Open **Custom JavaScript** section of the Admin area (**Look and feel** -> **Custom CSS & JS**).
    ![custom_JS.png]({{site.baseurl}}/attachments/ref_10vugyja/custom_JS.png)
 2. Turn the **Use custom js** toggle on
 3. Paste your custom JS code to the text area.
