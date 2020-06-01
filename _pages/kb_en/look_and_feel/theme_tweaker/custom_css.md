@@ -21,42 +21,36 @@ To add Custom CSS code:
 
 1. Open the **Custom CSS** section of the Admin area (**Look & Feel** -> **Custom CSS & JS**)
    ![custom_css.png]({{site.baseurl}}/attachments/ref_10vugyja/custom_css.png)
-2. Turn on the **Use custom css** toggle
-3. Clean the text area beneath the toggle and paste your custom CSS code there
+2. Turn on the **Use custom css** toggle.
+3. Clean the text area beneath the toggle and add your custom CSS code there.
    ![code_deleted_1.png]({{site.baseurl}}/attachments/ref_10vugyja/code_deleted_1.png)
 4. **Save** the changes.
 
 ### Adding Custom CSS Code in the Storefront
 
-If you need to see the changes while you are adding them, use the **Webmaster mode** -> **Custom CSS** tool in the store frontend. 
+If you need to see the changes while you are adding them, use the **Custom CSS** tool in the storefront. 
 
 {% note info %}
-Please don't forget to be logged in as an admin.
+You should be logged in as a store administrator to see the tools bar.
 {% endnote %}
 
 For this purpose: 
-1. Enable the Webmaster mode by clicking the ‘Gear’ icon in the bottom left corner.
-2. Choose the **Custom CSS** tool and turn ON the _Use Custom CSS_ option.
-   ![custom_css_customer.png]({{site.baseurl}}/attachments/ref_10vugyja/custom_css_customer.png)
+1. Open the **Custom CSS** tool on any page of your site storefront and turn ON the _Use Custom CSS_ option.
+   ![541-custom-css-on.png]({{site.baseurl}}/attachments/ref_10vugyja/541-custom-css-on.png)
    
-   {% note info %}
-   The custom css code that you see when opening the tool for the first time is a demo one that represents the basic page layout structure. You can edit the code or delete it completely. The code deletion will not affect the skin anyhow.
-   
-   ![code_deleted_2.png]({{site.baseurl}}/attachments/ref_10vugyja/code_deleted_2.png)
-   {% endnote %}
-3. Paste your custom CSS code to the text area.
-4. Save the changes.
+3. Enter your custom CSS code to the text area.
+4. **Save** the changes.
 
 Let's check how the skin changes are applied based on the demo css code provided. 
 
-The figures below show one and the same page with the custom css code enabled and disabled.
+The figures below show one and the same page with a custom css code applied and without it.
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![css_off.png]({{site.baseurl}}/attachments/ref_10vugyja/css_off.png)</div>
-  <div class="column" markdown="span">![css_on.png]({{site.baseurl}}/attachments/ref_10vugyja/css_on.png)</div>
+  <div class="column" markdown="span"><b>Default page layout</b>![541-custom-css-default-background.png]({{site.baseurl}}/attachments/ref_10vugyja/541-custom-css-default-background.png)</div>
+  <div class="column" markdown="span"><b>Customized page layout</b>![541-custom-css-blue-background.png]({{site.baseurl}}/attachments/ref_10vugyja/541-custom-css-blue-background.png)</div>
 </div>
 
-As you see the custom css code changes the background and positioning of the main blocks of the sidebar (Categories, Sale, New arrivals Recently viewed and so on). 
+As you see the custom css code changes the background of the "Categories" block. 
 
 The blue background and the font color is set by the following piece of code:
 
@@ -79,10 +73,7 @@ The blue background and the font color is set by the following piece of code:
 
 If we change #f7fcff to #F5F5DC the background will look as follows:
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![css_blue.png]({{site.baseurl}}/attachments/ref_10vugyja/css_blue.png)</div>
-  <div class="column" markdown="span">![css_beige.png]({{site.baseurl}}/attachments/ref_10vugyja/css_beige.png)</div>
-</div>
+![541-custom-css-fade-background.png]({{site.baseurl}}/attachments/ref_10vugyja/541-custom-css-fade-background.png)
 
 You can use the demo css code to learn how to apply similar changes to your store skin. 
 
