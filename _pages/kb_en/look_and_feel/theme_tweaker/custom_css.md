@@ -88,4 +88,4 @@ For this purpose:
 3. Paste your custom JS code to the text area.
 4. Save the changes.
 
-Javascripts are stored in one file and both custom CSS and JS are added to the <HEAD> tag after all style files applied.
+Javascripts are stored in one file and both custom CSS and JS are added to the `<HEAD>` tag after all style files applied.
