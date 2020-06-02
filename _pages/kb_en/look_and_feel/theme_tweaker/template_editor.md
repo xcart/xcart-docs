@@ -97,7 +97,7 @@ As a result the invoice page will look as follows:
      
 ![changed.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/changed.png)
      
-The changed template will be automatically renamed from `common/order/invoice/parts/bottom.twig` to `theme_tweaker/customer/order/invoice/parts/bottom.twig` and will be listed in the **Look an feel** -> **Edited templates** section of the admin back-end.
+The changed template will be automatically renamed from `common/order/invoice/parts/bottom.twig` to `theme_tweaker/customer/order/invoice/parts/bottom.twig` and will be listed in the **Look & Feel** -> **Edited templates** section of the admin back-end.
      
 If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to its default look.
      
@@ -170,7 +170,7 @@ Let's check how we can use it.
 5. Save the changes.
    ![541-template-editor-save.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-save.png)
    
-   The changed template will be automatically renamed from `crisp_white/customer/layout/header/header.bar.twig` to `theme_tweaker/customer/layout/header/header.bar.twig` and will be listed in the **Look an feel** -> **Edited templates** section of the admin back-end.
+   The changed template will be automatically renamed from `crisp_white/customer/layout/header/header.bar.twig` to `theme_tweaker/customer/layout/header/header.bar.twig` and will be listed in the **Look & Feel** -> **Edited templates** section of the admin back-end.
      
     If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to its default look.
 
