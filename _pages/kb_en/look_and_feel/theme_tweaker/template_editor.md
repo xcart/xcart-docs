@@ -32,12 +32,12 @@ The first way to change an invoice is to edit the invoice page after an order is
 To do this, you'll need to:
 
 1. Place an order as an admin and stop on the invoice page. 
-2. Open the **Template Editor** tool and turn ON the _Pick templates from page_ option. 
+2. Open the **Template Editor** tool and turn on the "Pick templates from page" toggle. 
    
    You'll see a main list of templates used on this page.
    ![invoice_page.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/invoice_page.png)
      
-3. Pick a page element with a mouse (the element will be highlighted) and see the .twig file that corresponds with this element. 
+3. Pick a page element with a mouse (the element will be highlighted) and check the .twig file that corresponds with this element. 
    
    It will be the 'Shipping Address' info block in our case and the template that corresponds with it is `common/order/invoice/parts/bottom.address.shipping.twig`.
   ![highlighted_element.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/highlighted_element.png)
@@ -98,7 +98,6 @@ As a result the invoice page will look as follows:
 ![changed.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/changed.png)
      
 The changed template will be automatically renamed from `common/order/invoice/parts/bottom.twig` to `theme_tweaker/customer/order/invoice/parts/bottom.twig` and will be listed in the **Look an feel** -> **Edited templates** section of the admin back-end.
-![541-edited-templates-list.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-edited-templates-list.png)
      
 If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to its default look.
      
@@ -148,7 +147,7 @@ The code responsibe for adding a country flag is as follows:
 
 Let's check how we can use it.
 
-1. Open the Template Editor tool in the tools bar at the bottom of any storefront page.
+1. Open the **Template Editor** tool in the tools bar at the bottom of any storefront page.
    ![541-template-editor-on.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-on.png)
 
 2. Make sure the "Pick templates from page" toggle is turned on.
@@ -170,6 +169,9 @@ Let's check how we can use it.
 
 5. Save the changes.
    ![541-template-editor-save.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-save.png)
-
+   
+   The changed template will be automatically renamed from `crisp_white/customer/layout/header/header.bar.twig` to `theme_tweaker/customer/layout/header/header.bar.twig` and will be listed in the **Look an feel** -> **Edited templates** section of the admin back-end.
+     
+    If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to its default look.
 
 That's it! You've added a country flag to the CrispWhite skin.
