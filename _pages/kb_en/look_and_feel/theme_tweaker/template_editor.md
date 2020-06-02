@@ -139,34 +139,37 @@ If a custom template is disabled the changes it applies will be cancelled and th
 
 ## How to Add a New Element
 
-As you may have already noticed the default CrispWhite skin unlike the Standard skins (deprecated in X-Cart 5.4.x) doesn't show a country flag near the country name in the store front-end. 
+As you may have already noticed the default CrispWhite skin unlike the Standard skins (deprecated in X-Cart 5.4.x) doesn't show a country flag in the store front-end. 
 
-Let's check how we can change it.
-
-To start, you'll need to: 
-
-1. {% link "Apply" ref_GLqVdpgd %} one of the standard skins to your store (if possible).
-2. Open the store home page in a Standard skin when logged in as an admin. 
-3. Enable the **Webmaster mode** by clicking the 'Gear' icon in the bottom left corner.
-4. Choose the **Template Editor** tool and turn ON the _Pick templates from page_ option.
-5. Click on the 'Language selector' element to find the .twig file that corresponds with it.
-   ![standsrd-skin.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/standsrd-skin.png)
-
-6. Find the code that is responsible for a country flag representation and copy it.
-    
+The code responsibe for adding a country flag is as follows:
    ```
    <img src="{{ this.currentLanguage.flagURL }}" alt="" />
    ```
 
-7. Switch the store skin to CrispWhite in the **Look and Feel**-> **Layout** section of the admin area. 
-8. Open the storefront and log in as an admin there. Click on the 'Gear' iсon in the bottom left corner to enable the **Webmaster mode** -> **Template editor** tool. 
+Let's check how we can use it.
 
-9. Click on the 'Language selector' to see the .twig file you need to edit (_crisp_white/customer/layout/header/locale/country.twig_) 
-10. Paste the code in this template so that it looks as in the figure below:
-    ![crisp_flag.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/crisp_flag.png)
+1. Open the Template Editor tool in the tools bar at the bottom of any storefront page.
+   ![541-template-editor-on.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-on.png)
 
-11. Save the changes.
+2. Make sure the "Pick templates from page" toggle is turned on.
+   ![541-pick-templates-from-page-on.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-pick-templates-from-page-on.png)
+   
+   This displays the file name and code responsible for a page element when this element is picked on the screen. 
+
+3. Choose the appropriate template by navigating through the page elements. 
+   
+   When you find the place you want a country flag to display at, click there and the Template Editor tool will show you the related code. 
+    
+    In our sample we will add a country flag to the header bar (`crisp_white/customer/layout/header/header.bar.twig`):
+    ![541-template-editor-header-bar-twig.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-header-bar-twig.png)
+
+4. Add the country flag code to the chosen template.
+   
+   In our sample it will look as follows:
+   ![541-header-bar-twig-custom.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-header-bar-twig-custom.png)
+
+5. Save the changes.
+   ![541-template-editor-save.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-save.png)
+
 
 That's it! You've added a country flag to the CrispWhite skin.
-
-![flag_changed.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/flag_changed.png)
