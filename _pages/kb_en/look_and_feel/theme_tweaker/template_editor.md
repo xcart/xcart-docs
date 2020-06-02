@@ -9,6 +9,10 @@ published: true
 ---
 **Template Editor** is a tool of the {% link "Theme Tweaker" ref_2Kfe2OX6 %} addon that aims at editing the code of the template files (.twig and .html). Use it when you need to change the template (layout) elements (not a text description or a css code). 
 
+{% note info %}
+As of the time of writing this article, the Template Editor tool is not available in X-Cart Cloud.
+{% endnote %}
+
 Let's consider some usecases that describe the **Template Editor** facilities.
 
 {% toc %}
@@ -21,7 +25,7 @@ If you don't feel confident to apply the changes yourself [contact us](https://w
 We are always at your disposal!
 {% endnote %}
 
-## How to Change the Position of an Element
+## Changing the Position of an Element
 
 We'll take an Invoice page as an example. You can use the tips from this article to make an invoice look different for a customer and an admin.
    
@@ -136,7 +140,7 @@ The changed template will be automatically renamed from `mail/common/order/invoi
      
 If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to its default look.
 
-## How to Add a New Element
+## Adding a New Element
 
 As you may have already noticed the default CrispWhite skin unlike the Standard skins (deprecated in X-Cart 5.4.x) doesn't show a country flag in the store front-end. 
 
@@ -157,7 +161,7 @@ Let's check how we can use it.
 
 3. Choose the appropriate template by navigating through the page elements. 
    
-   When you find the place you want a country flag to display at, click there and the Template Editor tool will show you the related code. 
+   When you find the place you want a country flag to display at, click there and the **Template Editor** tool will show you the related code. 
     
     In our sample we will add a country flag to the header bar (`crisp_white/customer/layout/header/header.bar.twig`):
     ![541-template-editor-header-bar-twig.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-header-bar-twig.png)
@@ -170,8 +174,42 @@ Let's check how we can use it.
 5. Save the changes.
    ![541-template-editor-save.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-save.png)
    
-   The changed template will be automatically renamed from `crisp_white/customer/layout/header/header.bar.twig` to `theme_tweaker/customer/layout/header/header.bar.twig` and will be listed in the **Look & Feel** -> **Edited templates** section of the admin back-end.
+   The changed template will be automatically renamed from `crisp_white/customer/layout/header/header.bar.twig` to `theme_tweaker/customer/layout/header/header.bar.twig` and will be listed in the **Look & Feel** -> **Edited templates** section of your store Admin area.
      
-    If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to its default look.
-
+    If a custom template is disabled in the edited templates list, the changes it applies will be cancelled and the page will be reverted to its default look.
+    
 That's it! You've added a country flag to the CrispWhite skin.
+
+## Cancelling Changes and Restoring Default Templates
+
+All templates edited via the **Template Editor** tool are listed in the **Look & Feel** -> **Edited templates** section of your store Admin area.
+![541-edited-templates-list.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-edited-templates-list.png)
+
+A store admin can enable/disable or delete the edited templates completely. If a customized template is disabled or deleted the changes applied by it are cancelled, and X-Cart starts using the default template instead automatically.
+
+A store admin can restore the default template and cancel any changes applied to it directly in the storefront via the **Template Editor** tool. 
+
+To restore a changed template to its default state:
+1. Open the **Template Editor** tool in the storefront.
+   ![541-template-editor-on.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-on.png)
+2. Locate a template you need to restore to the original state.
+   
+   This can be done using one of the following ways:
+   * navigating through the templates tree to the left;
+     ![541-template-editor-tree.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-tree.png)
+   * enabling the "Pick templates from page" toggle and clicking on the page element that needs to be edited.
+     ![541-pick-templates-from-page-on.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-pick-templates-from-page-on.png)
+   
+   Every modified template will have a special "Reset" icon in front of it.
+
+3. Click the "Reset" icon in front of the template you want to restore to the default state.
+   ![541-template-editor-tree-reset.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-tree-reset.png)
+
+4. Click **Save**.
+   ![541-template-editor-reset-save.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-reset-save.png)
+
+5. Confirm restoring the template to the default state in the pop-up.
+   ![541-template-editor-reset-confirmation.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-reset-confirmation.png)
+
+
+     
