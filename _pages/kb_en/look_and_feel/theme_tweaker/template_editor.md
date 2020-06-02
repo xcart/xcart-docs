@@ -101,7 +101,7 @@ As a result the invoice page will look as follows:
      
 ![changed.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/changed.png)
      
-The changed template will be automatically renamed from `common/order/invoice/parts/bottom.twig` to `theme_tweaker/customer/order/invoice/parts/bottom.twig` and will be listed in the **Look & Feel** -> **Edited templates** section of the admin back-end.
+The changed template will be automatically renamed from `common/order/invoice/parts/bottom.twig` to `theme_tweaker/customer/order/invoice/parts/bottom.twig` and will be listed in the **Look & Feel** -> **Edited templates** section of the store Admin area.
      
 If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to its default look.
      
