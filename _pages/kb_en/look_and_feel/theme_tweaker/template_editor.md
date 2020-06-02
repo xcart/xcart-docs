@@ -182,10 +182,7 @@ That's it! You've added a country flag to the CrispWhite skin.
 
 ## Cancelling Changes and Restoring Default Templates
 
-All templates edited via the **Template Editor** tool are listed in the **Look & Feel** -> **Edited templates** section of your store Admin area.
-![541-edited-templates-list.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-edited-templates-list.png)
-
-A store admin can enable/disable or delete the edited templates completely. If a customized template is disabled or deleted the changes applied by it are cancelled, and X-Cart starts using the default template instead automatically.
+### Restoring Default Templates via Template Editor
 
 A store admin can restore the default template and cancel any changes applied to it directly in the storefront via the **Template Editor** tool. 
 
@@ -208,8 +205,15 @@ To restore a changed template to its default state:
 4. Click **Save**.
    ![541-template-editor-reset-save.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-reset-save.png)
 
-5. Confirm restoring the template to the default state in the pop-up.
+5. Confirm the changes in the pop-up.
    ![541-template-editor-reset-confirmation.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-reset-confirmation.png)
+   
+   This confirmation will cancel any modifications applied to a template previously and a default template will be used instead. However, the modified template will not be deleted completely and can be enabled if required in the templates list in the store Admin area (**Look & Feel** -> **Edited templates** section).
+   
+### Managing Templates in the Admin Area
 
+All templates edited via the **Template Editor** tool are listed in the **Look & Feel** -> **Edited templates** section of your store Admin area.
+![541-edited-templates-list.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-edited-templates-list.png)
 
+A store admin can enable/disable or delete the edited templates completely. If a customized template is disabled or deleted the changes applied by it are cancelled, and X-Cart starts using the default template instead automatically.
      
