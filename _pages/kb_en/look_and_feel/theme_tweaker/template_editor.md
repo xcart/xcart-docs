@@ -25,11 +25,11 @@ If you don't feel confident to apply the changes yourself [contact us](https://w
 We are always at your disposal!
 {% endnote %}
 
-## Changing the Position of an Element
+## Customizing Default Templates
 
 We'll take an Invoice page as an example. You can use the tips from this article to make an invoice look different for a customer and an admin.
    
-### Sample N1: Edit invoice page 
+### Sample N1: Edit Invoice Page 
   
 The first way to change an invoice is to edit the invoice page after an order is placed. 
   
@@ -117,7 +117,7 @@ The changed template will be automatically renamed from `common/order/invoice/pa
      
 If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to its default look.
      
-### Sample N2: Edit email notification
+### Sample N2: Edit Email Notification
 
 The second way to change an invoice is to edit the e-mail notification that a customer and an admin receive after an order is placed.
      
@@ -152,7 +152,7 @@ The changed template will be automatically renamed from `mail/common/order/invoi
      
 If a custom template is disabled the changes it applies will be cancelled and the page will be reverted to its default look.
 
-## Adding a New Element
+### Sample N3: Add Elements to a Template
 
 In addition to changing the existing layout elements, the **Template Editor** tool allows adding completely new elements. We'll take a country flag unit as a sample.
 
@@ -194,9 +194,9 @@ Let's check how we can use it.
     
 That's it! You've added a country flag to the CrispWhite skin.
 
-## Restoring Default Templates via Template Editor
+## Restoring Templates via Template Editor
 
-A store admin can restore the default template and cancel any changes applied to it directly in the storefront via the **Template Editor** tool. 
+A store admin can restore default templates and cancel any changes applied to them directly in the storefront via the **Template Editor** tool. 
 
 To restore a changed template to its default state:
 1. Open the **Template Editor** tool in the storefront.
