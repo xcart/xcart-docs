@@ -65,7 +65,19 @@ To do this, you'll need to:
         ```twig
         <table cellspacing="0" class="addresses{% if this.order.isShippingSectionVisible() %} S{% endif %}{% if this.order.isPaymentSectionVisible() %} B{% endif %}">
         ```
-      * change the order of the code units (1) `{% if this.order.isPaymentSectionVisible() %} B{% endif %}` and (2) `{% if this.order.isShippingSectionVisible() %} S{% endif %}` so that the line becomes:
+      * change the order of the code units 
+        
+        (1) 
+        
+        `{% if this.order.isPaymentSectionVisible() %} B{% endif %}` 
+        
+        and 
+        
+        (2) 
+        
+        `{% if this.order.isShippingSectionVisible() %} S{% endif %}` 
+        
+        so that the line becomes:
      
         ```twig
         <table cellspacing="0" class="addresses{% if this.order.isPaymentSectionVisible() %} B{% endif %}{% if this.order.isShippingSectionVisible() %} S{% endif %}">
@@ -216,4 +228,3 @@ All templates edited via the **Template Editor** tool are listed in the **Look &
 ![541-edited-templates-list.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-edited-templates-list.png)
 
 A store admin can enable/disable or delete the edited templates completely. If a customized template is disabled or deleted the changes applied by it are cancelled, and X-Cart starts using the default template instead automatically.
-     
