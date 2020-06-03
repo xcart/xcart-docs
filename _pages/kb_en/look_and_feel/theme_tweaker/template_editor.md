@@ -154,6 +154,8 @@ If a custom template is disabled the changes it applies will be cancelled and th
 
 ## Adding a New Element
 
+In addition to changing the existing layout elements, the **Template Editor** tool allows adding completely new elements. We'll take a country flag unit as a sample.
+
 As you may have already noticed the default CrispWhite skin unlike the Standard skins (deprecated in X-Cart 5.4.x) doesn't show a country flag in the store front-end. 
 
 The code responsibe for adding a country flag is as follows:
@@ -192,9 +194,7 @@ Let's check how we can use it.
     
 That's it! You've added a country flag to the CrispWhite skin.
 
-## Cancelling Changes and Restoring Default Templates
-
-### Restoring Default Templates via Template Editor
+## Restoring Default Templates via Template Editor
 
 A store admin can restore the default template and cancel any changes applied to it directly in the storefront via the **Template Editor** tool. 
 
@@ -222,9 +222,53 @@ To restore a changed template to its default state:
    
    This confirmation will cancel any modifications applied to a template previously and a default template will be used instead. However, the modified template will not be deleted completely and can be enabled if required in the templates list in the store Admin area (**Look & Feel** -> **Edited templates** section).
    
-### Managing Templates in the Admin Area
+## Adding New Templates via Template Editor
 
-All templates edited via the **Template Editor** tool are listed in the **Look & Feel** -> **Edited templates** section of your store Admin area.
+Using the **Template Editor** facilities it is possible to add new templates directly in the storefront.
+
+For this purpose:
+1. Open the **Template Editor** tool in the storefront.
+   ![541-template-editor-on.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-on.png)
+2. Navigating through the templates tree to the left to find the loation you need to add a new template to:
+   ![541-template-editor-tree.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-tree.png)
+3. Click the **+** icon within the necessary directory:
+   ![541-template-editor-add-new.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-add-new.png)
+   
+4. Specify the position and the name of a custom template in the blank line that opens.
+   ![541-template-editor-add-new-blank.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-add-new-blank.png)
+   
+   The file position is a numeric value that defines the order of the templates' representation. The greater the number is the lower the position will be.
+
+5. Click "Enter" to create a template. 
+
+6. Add your custom code in the file content field that opens to the right:
+   ![541-template-editor-test-add-code.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-test-add-code.png)
+
+7. Click **Save**.
+   
+   The custom file will be added to the templates' tree to the left.
+   ![541-template-editor-test-created.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-test-created.png)
+   
+   It will also record to the edited templates list in your store Admin area (**Look & Feel** -> **Edited templates** section).
+   ![541-tempalte-editor-test-admin.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-tempalte-editor-test-admin.png)
+
+Now you can maintain this custom template the same way as any template in your store.
+
+If you need to cancel the changes introduced by a custom template use the **Trash** icon in front of it in the **Template Editor** tool, then click **Save**. This removes the template from the storefront.
+
+To delete a template completely use the facilities of the edited templates list in your store Admin area (**Look & Feel** -> **Edited templates** section).
+   
+## Managing Custom Templates in the Admin Area
+
+All templates edited or created via the **Template Editor** tool are listed in the **Look & Feel** -> **Edited templates** section of your store Admin area.
 ![541-edited-templates-list.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-edited-templates-list.png)
 
-A store admin can enable/disable or delete the edited templates completely. If a customized template is disabled or deleted the changes applied by it are cancelled, and X-Cart starts using the default template instead automatically.
+A store admin can enable/disable, change and delete the edited templates completely. The changes can be applied to an enabled template only. If a customized template is disabled or deleted the changes applied by it are cancelled, and X-Cart starts using a default template instead automatically.
+
+To enable/disable a template use an "On/Off" icon in front of it. 
+
+To delete a template use a Trash icon opposite it. 
+
+To edit a template, click on the template name and add your changes on the page with the template code.
+
+Click **Save changes** to make your changes active.
