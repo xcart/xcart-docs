@@ -7,15 +7,17 @@ title: Template Editor
 order: 140
 published: true
 ---
-**Template Editor** is a tool of the {% link "Theme Tweaker" ref_2Kfe2OX6 %} addon that aims at editing the code of the template files (.twig and .html). Use it when you need to change the template (layout) elements (not a text description or a css code). 
+**Template Editor** is a tool of the {% link "Theme Tweaker" ref_2Kfe2OX6 %} addon that aims at editing the code of the template files (.twig and .html). Use it when you need to change the default template (layout) elements (not a text description or a css code) or to create a new custom template. 
 
 {% note info %}
-As of the time of writing this article, the Template Editor tool is not available in X-Cart Cloud.
+As of the time of writing this article, the **Template Editor** tool is not available in X-Cart Cloud.
 {% endnote %}
 
-Let's consider some usecases that describe the **Template Editor** facilities.
-
 {% toc %}
+
+## Customizing Default Templates
+
+Let's consider some usecases that describe the **Template Editor** facilities.
 
 {% note info %}
 The main purpose of the samples below is to show you a way to find the template files that should be edited to get the required changes but not to describe all possible changes themselves. You should be skilled in .html to customize the templates' code. 
@@ -24,8 +26,6 @@ If you don't feel confident to apply the changes yourself [contact us](https://w
 
 We are always at your disposal!
 {% endnote %}
-
-## Customizing Default Templates
 
 We'll take an Invoice page as an example. You can use the tips from this article to make an invoice look different for a customer and an admin.
    
