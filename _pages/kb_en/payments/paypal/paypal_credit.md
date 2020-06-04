@@ -14,6 +14,8 @@ More information on PayPal Credit is available on [PayPal's website](https://www
 
 PayPal offers free banner ads that promote PayPal Credit financing as a PayPal payment option. A study has shown that implementing these banner ads can drive an 18% increase in online sales. You can specify whether you want to use these banners on your store website via the addon settings.
 
+Note that PayPal Credit is currently available only to shoppers based in the United States. 
+
 ## Enable PayPal Credit
 To get the ability to enable the PayPal Credit payment option for your customers, you need to configure one of PayPal payment methods for your store.
 
@@ -41,16 +43,16 @@ That's it. Your customers should now be able to use PayPal Credit as a payment m
    ![xc5_pp_credit_method.png]({{site.baseurl}}/attachments/ref_46r2geWj/xc5_pp_credit_method.png)
 
    ![xc5_pp_credit_button.png]({{site.baseurl}}/attachments/ref_46r2geWj/xc5_pp_credit_button.png)
-
+   
 If you have chosen to enable PayPal Credit banners, they should also be able to see the banners in the locations specified in the PayPal Credit settings:
    ![xc5_pp_credit_banner.png]({{site.baseurl}}/attachments/ref_46r2geWj/xc5_pp_credit_banner.png)
 
    ![xc5_pp_credit_banner_cart.png]({{site.baseurl}}/attachments/ref_46r2geWj/xc5_pp_credit_banner_cart.png)
+
+Note that PayPal Credit may not be offered as a funding source for every purchase. Even if you have enabled PayPal Credit as a way to pay for purchases at your X-Cart store, PayPal reserves the right to restrict your customer's ability to use their credit line depending on the circumstances of each purchase. If PayPal Credit does not appear as a payment option at checkout, you customer will not be able to use PayPal Credit for that particular transaction.
 
 ## Disable PayPal Credit
 To remove the PayPal Credit payment method and banners from your store website, you need to disable the PayPal Credit feature on the PayPal Credit tab of your PayPal payment method settings:
 
 1. Select **PayPal Credit is** _Disabled_.
 2. Click **Save changes**.
-
-
