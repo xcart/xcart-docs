@@ -19,5 +19,8 @@ Just a few words on how it works. In X-Cart 5 pieces of text like names of sect
 _In this section_:
 
 * {% link "Editing Text Labels" ref_2GDSR1ID %}
-* {% link "Editing Labels in Webmaster Mode" ref_14EyD6iT %}
 * {% link "Adding New Text Labels" ref_2YYP07T3 %}
+
+_Related pages_:
+
+* {% link "Labels Editor" ref_4xrvhBHU %}
