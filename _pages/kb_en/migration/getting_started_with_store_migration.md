@@ -18,22 +18,26 @@ This guide explains the main steps to set up an X-Cart store. Please refer to it
 
 ## Step 1: Obtaining an X-Cart License and Installing the Software
 
-1.  Follow the link below to compare X-Cart packages and choose the most suitable one: [http://www.x-cart.com/software_pricing.html](http://www.x-cart.com/software_pricing.html). [Download](https://www.x-cart.com/download.html) the software. If you select a commercial package, purchase a license to get a license key. 
+1.  Follow the link below to compare X-Cart packages and choose the most suitable one: [http://www.x-cart.com/software_pricing.html](http://www.x-cart.com/software_pricing.html). 
 
-2.  If you have a web server, check if it meets [X-Cart system requirements](http://kb.x-cart.com/en/general_setup/installation_guide.html#server-requirements) and make the necessary adjustments. If you have no web server, or it doesn’t qualify, consider [X-Cart Hosting](http://www.x-cart.com/hosting.html), which is fine-tuned for optimal X-Cart performance, or select one of our [trusted partners](http://partners.x-cart.com/hosting-companies).
+    [Download](https://www.x-cart.com/download.html) the software. If you select a commercial package, purchase a license to get a license key. 
+
+2.  If you have a web server, check if it meets [X-Cart system requirements](http://kb.x-cart.com/en/general_setup/installation_guide.html#server-requirements) and make the necessary adjustments. 
+
+    If you have no web server, or it doesn’t qualify, consider [X-Cart Hosting](http://www.x-cart.com/hosting.html), which is fine-tuned for optimal X-Cart performance, or select one of our [trusted partners](http://partners.x-cart.com/hosting-companies).
 
 3.   Once the hosting is ready, proceed to X-Cart installation. See a detailed Installation guide [here](http://kb.x-cart.com/en/general_setup/installation_guide.html#installation-process).
 
-4.   Once your X-Cart is installed, you will see a pop-up window suggesting that you register your license ([see how](https://www.youtube.com/watch?v=MEncqXpJ8qc)) or activate a paid edition license (see [video instruction](https://www.youtube.com/watch?v=mmedPCQ91yA)). Follow the procedure in accordance with the X-Cart package chosen.
+4.   Once your X-Cart is installed, you will see a pop-up window suggesting that you register your license. Follow the {% link "procedure" ref_qwhmJtqW %} in accordance with the X-Cart package chosen.
 
 
 ## Step 2: Data Migration with a Store Migration App
 
 The easiest way to migrate store data is to use the service provided by X-Cart partners Cart2Cart. They guarantee the finest quality of data transfer to your new X-Cart store. With a number of ready-made migration addons that we provide, this task should be easy.
 
-1.   Open X-Cart Admin back end –> My addons –> View more addons in Marketplace and search by the search term "migrate". 
+1.   Open X-Cart Admin back end –> My addons –> View more addons in Marketplace and search by the term "migrate". 
 
-2.   Find the addon showing the name of your current shopping cart platform. Presently, we support migration from Magento, WooCommerce, PrestaShop, Shopify, OsCommerce, BigCommerce, Interspire, ZenCart and [more](https://market.x-cart.com/search/?substring=cart2cart), see the entire list in the Marketplace via the X-Cart admin area. 
+2.   Find the addon showing the name of your current shopping cart platform. Presently, we support migration from Magento, WooCommerce, PrestaShop, Shopify, OsCommerce, BigCommerce, Interspire, ZenCart and [more](https://market.x-cart.com/search/?substring=cart2cart), see the entire list in the Marketplace via the X-Cart Admin area. 
 
 3.   Install the addon and register a Cart2Cart account, or sign in if you already have one.
 
