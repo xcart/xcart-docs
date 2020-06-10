@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-11-26 15:26 +0400'
 identifier: ref_1YmizVdi
 title: 'CSV Import: Reviews'
-order: 200
+order: 170
 published: true
 ---
 A CSV file for importing reviews must have the name **reviews-yyyy-mm-dd.csv**, where the part **-yyyy-mm-dd** can be any date you want, or can be omitted.
