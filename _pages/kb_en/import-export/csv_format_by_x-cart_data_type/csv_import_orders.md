@@ -7,7 +7,7 @@ title: 'CSV Import: Orders'
 categories:
   - CSV import
 published: true
-order: 100
+order: 160
 ---
 
 {% note info %}
