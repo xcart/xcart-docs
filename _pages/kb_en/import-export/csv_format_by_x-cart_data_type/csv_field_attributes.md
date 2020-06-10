@@ -7,11 +7,11 @@ title: CSV Field Notices
 categories:
   - User manual
 published: true
-order: 1900
+order: 10
 ---
 
 
-Below is an explanation of some attributes that we use to describe specific fields in an import CSV file from the viewpoint of value type that can be imported through them. Use this information to read the CSV format tables in the following sections:
+Below is an explanation of some attributes that we use to describe specific fields of an import CSV file from the viewpoint of a value type that can import through them. Use this information to read the tables in the following sections:
 
 *   {% link "CSV Import: Products" ref_WmJBfwxA %}
 *   {% link "CSV Import: Classes & Attributes" ref_qTbDu6Ov %}
@@ -63,7 +63,7 @@ Below is an explanation of some attributes that we use to describe specific fiel
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">HTML allowed</td>
-      <td colspan="1" class="confluenceTd">The field may contain HTML tags for layouting. Most typically, there is a WYSIWYG editor in the Admin back end for this field.</td>
+      <td colspan="1" class="confluenceTd">The field may contain HTML tags for layouting. Most typically, there is a WYSIWYG editor for this field in the store Admin area.</td>
       <td colspan="1" class="confluenceTd">&lt;h5&gt;It's HTML TEXT!&lt;/h5&gt;</td>
     </tr>
     <tr>
