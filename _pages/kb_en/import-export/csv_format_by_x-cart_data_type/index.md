@@ -11,22 +11,22 @@ order: 120
 ---
 
 
-There are several types of data which you can import into your X-Cart store via CSV files:
+There are several types of data that you can import into your X-Cart store via CSV files. Each type of data requires a specific type of CSV file with a proper file format.
 
-*   {% link "Categories" ref_ekmg5iLG %};
-*   {% link "Classes & Attributes" ref_qTbDu6Ov %};
-*   {% link "Customers" ref_JobVfzZg %};
-*   {% link "Orders" ref_import_orders_csv %} (added by the **Orders Import** addon);
-*   {% link "Product Attribute Values" ref_Z7XdREZl %};
-*   {% link "Products" ref_WmJBfwxA %};
-*   {% link "Reviews" ref_1YmizVdi %} (added by the **Reviews** addon)
-*   {% link "Color Swatches" ref_0adU3A0n %} (added by the **Color Swatches** addon)
+To ensure that X-Cart recognizes the data you import via each specific field in a CSV file, we have set notices for CSV fields; they can help you to define the CSV values for import correctly. 
 
-Follow the links above for information on the allowed CSV file format for each of the data types. 
-
-To ensure that X-Cart recognizes the data you import via each specific field in a CSV file, we have set some attributes for CSV fields; these attributes can help you to define your CSV values for import correctly. For more info, see:
+_In this section:_
 
 *   {% link "CSV Field Notices" ref_2LwMTTTW %}
+*   {% link "CSV Import: Categories" ref_ekmg5iLG %}
+*   {% link "CSV Import: Products" ref_WmJBfwxA %}
+*   {% link "CSV Import: Product Classes & Attributes" ref_qTbDu6Ov %}
+*   {% link "CSV Import: Product Attribute Values" ref_Z7XdREZl %}
+*   {% link "CSV Import: Color Swatches" ref_0adU3A0n %}
+*   {% link "CSV Import: Customers" ref_JobVfzZg %}
+*   {% link "CSV Import: Orders" ref_import_orders_csv %}
+*   {% link "CSV Import: Reviews" ref_1YmizVdi %}
+
 
 _Related pages:_
 
