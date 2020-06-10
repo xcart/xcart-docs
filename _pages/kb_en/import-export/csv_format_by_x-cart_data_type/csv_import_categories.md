@@ -209,13 +209,13 @@ There are many more fields that you can include into your product CSV file. Belo
 
 **Tips**:
 
-*   If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields into your CSV file for import. Simply remove the respective column(s) from the file.
+*   If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields in your CSV file for import. Simply remove the respective column(s) from the file.
 
-*   If necessary, import can be used to clear previously set field values from non-numeric fields. To clear a field value via import, in your CSV file to be imported specify the value of the field as "NULL". After the import process is completed, the fields in which the value "NULL" has been imported will be cleared. 
+*   If necessary, import can be used to clear previously set field values for non-numeric fields. To clear a field value, in a CSV file to be imported specify the value of the field as "NULL". After the import process is completed, the fields for which the value "NULL" has been imported will be cleared. 
 
     This feature is supported by the following fields pertaining to categories:
 
     *   memberships;
     *   image;
     *   banner;
-    *   productClasses (processed by the addon Product Filter).
+    *   productClasses (processed by the addon {% link "Product Filter" ref_6e82A7rL %}).
