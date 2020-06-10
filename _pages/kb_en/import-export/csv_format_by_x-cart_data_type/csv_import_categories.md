@@ -20,8 +20,8 @@ Examples of correct product CSV file names:
 
 A categories CSV file must contain at least two fields:
 
-* name - a category name;
-* path - a path to the category.
+* **name** - a category name;
+* **path** - a path to the category.
 
 Example of the simplest categories CSV file:
 ![category-sample-import-file.png]({{site.baseurl}}/attachments/ref_ekmg5iLG/category-sample-import-file.png)
