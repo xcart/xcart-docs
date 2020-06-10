@@ -9,11 +9,9 @@ categories:
 published: true
 order: 120
 ---
-
-
 There are several types of data that you can import into your X-Cart store via CSV files. Each type of data requires a specific type of CSV file with a proper file format.
 
-To ensure that X-Cart recognizes the data you import via each specific field in a CSV file, we have set notices for CSV fields; they can help you to define the CSV values for import correctly. 
+To ensure that X-Cart recognizes the data you import via each specific field in a CSV file, we prepared notices for CSV fields; they can help you to define the CSV values for import correctly.
 
 _In this section:_
 
