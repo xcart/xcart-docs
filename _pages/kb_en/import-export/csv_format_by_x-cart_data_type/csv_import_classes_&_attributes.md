@@ -7,7 +7,7 @@ title: 'CSV Import: Classes &amp; Attributes'
 categories:
   - User manual
 published: true
-order: 100
+order: 120
 ---
 A classes and attributes CSV file for import must have the name attributes-xxxxxx.csv, where the part -xxxxxx can be anything you want, or can be even omitted.
 
