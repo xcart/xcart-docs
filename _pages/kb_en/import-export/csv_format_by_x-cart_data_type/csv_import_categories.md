@@ -42,7 +42,7 @@ There are many more fields that you can include into your product CSV file. Belo
       </td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd"><strong>categoryId</strong>
+      <td colspan="1" class="confluenceTd">categoryId
       </td>
       <td colspan="1" class="confluenceTd">Unique identifier of a category.</td>
       <td colspan="1" class="confluenceTd">
