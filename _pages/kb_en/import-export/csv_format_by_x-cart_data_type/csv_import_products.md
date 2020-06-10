@@ -7,7 +7,7 @@ title: 'CSV Import: Products'
 categories:
   - User manual
 published: true
-order: 100
+order: 110
 version: X-Cart 5.3.3 and later
 ---
 
