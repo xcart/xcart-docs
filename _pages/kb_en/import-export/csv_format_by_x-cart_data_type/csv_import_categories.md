@@ -10,7 +10,7 @@ published: true
 order: 100
 ---
 
-A categories CSV file for import must have the name categories-xxxxxx.csv, where the part -xxxxxx can be anything you want, or can be omitted.
+A categories CSV file for import must have a name categories-xxxxxx.csv, where the part -xxxxxx can be anything you want, or can be omitted.
 
 Examples of correct product CSV file names:
 
