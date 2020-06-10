@@ -7,7 +7,7 @@ title: 'CSV Import: Product Attribute Values'
 categories:
   - User manual
 published: true
-order: 100
+order: 130
 ---
 A product attributes CSV file for import must have the name product-attributes-xxxxxx.csv, where the part -xxxxxx can be anything you want, or can be even omitted.
 
