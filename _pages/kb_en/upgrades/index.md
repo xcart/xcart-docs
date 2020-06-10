@@ -29,6 +29,7 @@ _In this section_ :
 *   {% link "X-Cart Upgrades: General Info" ref_2x1plcU0 %}
 *   {% link "Upgrade Waves and Upgrade Availability" ref_040K9jOe %}
 *   {% link "Upgrade Hooks" ref_2xlJ5Tka %}
+*   {% link "Store Upgrade Process in X-Cart 5.4.x" ref_331t0CWx %}
 *   {% link "Store Upgrade Process (Automated Upgrades)" ref_2eoOYsqJ %}
 *   {% link "Manual Store Upgrade" ref_2QKUHnQv %}
 
