@@ -10,7 +10,23 @@ published: true
 order: 100
 ---
 
-Below is a list of supported fields and their respective value types for category import.
+A categories CSV file for import must have the name categories-xxxxxx.csv, where the part -xxxxxx can be anything you want, or can be even omitted.
+
+Examples of correct product CSV file names:
+
+categories.csv;
+catergories-13-01-01.csv;
+categories-from-my-provider.csv
+
+A categories CSV file must contain at least two fields:
+
+name - a category name;
+path - a path to the category.
+
+Example of the simplest categories CSV file:
+![category-sample-import-file.png]({{site.baseurl}}/attachments/ref_ekmg5iLG/category-sample-import-file.png)
+
+There are many more fields that you can include into your product CSV file. Below is a list of supported fields and their respective value types for category import.
 
 <table class="ui celled padded compact small table">
   <thead>
