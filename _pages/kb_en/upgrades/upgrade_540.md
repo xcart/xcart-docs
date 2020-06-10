@@ -75,7 +75,7 @@ After you have selected to proceed with either minor or major software upgrades,
 
 Having a full store backup that includes all store files and the database provides you can restore your site to the original state in case anything goes wrong.
 
-Backups in X-Cart 5.4.x are done with a built-in {% link "Backup Master Addon" ref_60LdO1tN %}. The **Updates & Upgrades** section of the {% link "X-Cart Service Screen" ref_5Br376jE %} highlights the necessity of making a full store backup before proceeding with updates and provides an opportunity to go directly to the Backup Master addon page and make a fresh back-up there.
+Backups in X-Cart 5.4.x can be done with a {% link "Backup Master Addon" ref_60LdO1tN %}. The **Updates & Upgrades** section of the {% link "X-Cart Service Screen" ref_5Br376jE %} highlights the necessity of making a full store backup before proceeding with updates and provides an opportunity to go directly to the Backup Master addon page and make a fresh back-up there provided the addon is installed and enabled.
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![540-major-upgrade-backup.png]({{site.baseurl}}/attachments/ref_331t0CWx/540-major-upgrade-backup.png)</div>
