@@ -7,7 +7,7 @@ title: 'CSV Import: Customers'
 categories:
   - User manual
 published: true
-order: 100
+order: 150
 ---
 
 Below is a list of supported fields and their respective value types for the import of customers:
