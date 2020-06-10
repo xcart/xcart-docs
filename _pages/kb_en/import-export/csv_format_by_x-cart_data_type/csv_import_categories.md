@@ -14,9 +14,9 @@ A categories CSV file for import must have the name categories-xxxxxx.csv, where
 
 Examples of correct product CSV file names:
 
-categories.csv;
-catergories-13-01-01.csv;
-categories-from-my-provider.csv
+* categories.csv;
+* catergories-13-01-01.csv;
+* categories-from-my-provider.csv
 
 A categories CSV file must contain at least two fields:
 
