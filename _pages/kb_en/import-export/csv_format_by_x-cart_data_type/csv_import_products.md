@@ -211,7 +211,7 @@ There are many more fields that you can include into your product CSV file. Belo
       <td colspan="1" class="confluenceTd">String,
         <br>Multiple&nbsp;</td>
     </tr>
-      <tr>
+    <tr>
       <td class="confluenceTd">inCategoriesPosition</td>
       <td colspan="1" class="confluenceTd">
         <p>Defines the order of the products representation within a category</p>
@@ -307,7 +307,7 @@ There are many more fields that you can include into your product CSV file. Belo
       </td>
       <td class="confluenceTd">String</td>
     </tr>
-  <tr>
+    <tr>
       <td colspan="1" class="confluenceTd">[attribute_name](field:product)</td>
       <td colspan="1" class="confluenceTd">
         <p>Defines a product specific attribute for a product, where [attribute_name] stands for the name of a product specific attribute of the product</p>
@@ -524,17 +524,17 @@ There are many more fields that you can include into your product CSV file. Belo
         <br>Multirow&nbsp;
       </td>
     </tr>
-      <tr>
+    <tr>
       <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Variants Table View</strong> addon</em>
       </td>
-      </tr>
-      <tr>
+    </tr>
+    <tr>
       <td colspan="1" class="confluenceTd">variantsAsTable</td>
       <td colspan="1" class="confluenceTd">Display product variants in a <strong>Table</strong> mode.</td>
       <td colspan="1" class="confluenceTd">Yes/No
       </td>
     </tr>
-      <tr>
+    <tr>
       <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Wholesale</strong> addon</em>
       </td>
     </tr>
@@ -713,21 +713,21 @@ There are many more fields that you can include into your product CSV file. Belo
         <p>Adds a NexTag feed category to a product</p>
       </td>
       <td class="confluenceTd">NexTag Category ID</td>
-    </tr>
+  </tr>
   <tr>
       <td class="confluenceTd">shopzillaId</td>
       <td class="confluenceTd">
         <p>Adds a Shopzilla feed category to a product</p>
       </td>
       <td class="confluenceTd">Shopzilla Category ID</td>
-    </tr>
+  </tr>
   <tr>
       <td class="confluenceTd">pricegrabberId</td>
       <td class="confluenceTd">
         <p>Adds a Pricegrabber feed category to a product</p>
       </td>
       <td class="confluenceTd">Pricegrabber Category ID</td>
-    </tr>
+  </tr>
   <tr>
       <td class="confluenceTd">ebayCommerceId</td>
       <td class="confluenceTd">
@@ -741,25 +741,25 @@ There are many more fields that you can include into your product CSV file. Belo
         <p>Adds a Google Shopping feed category to a product</p>
       </td>
       <td class="confluenceTd">Google Shopping Category ID</td>
-    </tr>
+  </tr>
   <tr>
       <td colspan="3" class="confluenceTd"><em>Fields added by the <strong>Call for Price</strong> addon</em>
       </td>
-    </tr>
-    <tr>
+  </tr>
+  <tr>
       <td class="confluenceTd">callForPrice</td>
       <td class="confluenceTd">
         <p>Enables the 'Call for price' option for a product</p>
       </td>
       <td class="confluenceTd">Yes/No</td>
-    </tr>
+  </tr>
   <tr>
       <td class="confluenceTd">variantCallForPrice</td>
       <td class="confluenceTd">
         <p>Enables the 'Call for price' option for a product variant</p>
       </td>
       <td class="confluenceTd">Yes/No</td>
-    </tr>
+  </tr>
   <tr>
       <td colspan="3" class="confluenceTd"><em> Fields added by the <strong>Backorder / Preorder</strong> addon</em>
       </td>
@@ -769,7 +769,7 @@ There are many more fields that you can include into your product CSV file. Belo
       </td>
       <td colspan="1" class="confluenceTd">Enables the 'Available for backorder' option for the product</td>
       <td colspan="1" class="confluenceTd">Yes/No</td>
-    </tr>
+  </tr>
   <tr>
       <td colspan="1" class="confluenceTd">backorderQtyLabel
       </td>
@@ -783,7 +783,7 @@ There are many more fields that you can include into your product CSV file. Belo
         <p>Multilingual</p> 
         <p>HTML allowed</p>
     </td>
-    </tr>
+  </tr>
   <tr>
       <td colspan="1" class="confluenceTd">isBackorderLimited
       </td>
@@ -791,7 +791,6 @@ There are many more fields that you can include into your product CSV file. Belo
 </td>
       <td colspan="1" class="confluenceTd">Yes/No</td>
     </tr>
-  </tr>
   <tr>
       <td colspan="1" class="confluenceTd">backorderLimit
       </td>
