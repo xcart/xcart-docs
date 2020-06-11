@@ -135,3 +135,9 @@ Below is a list of supported fields and their respective value types for the imp
 *   If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields into your CSV file for import. Simply remove the respective column(s) from the file.
 
 *   If necessary, import can be used to clear previously set field values from non-numeric fields. To clear a field value via import, in your CSV file to be imported specify the value of the field as "NULL". After the import process is completed, the fields in which the value "NULL" has been imported will be cleared. This feature is supported by the attribute options field.
+
+_Related pages:_
+
+*  {% link "Import of Attributes" ref_1eBZ128n %}
+*  {% link "Import of Global Attributes" ref_0ikVaxWb %}
+*  {% link "Import of Product Class Attributes" ref_1Vcnpxb1 %}
