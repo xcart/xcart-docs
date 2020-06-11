@@ -19,8 +19,8 @@ Examples of correct product CSV file names:
 
 A product attributes CSV file must contain at least two fields:
 
-* **name** - attribute name;
-* **type** - type of an attribute.
+1. **name** - attribute name;
+2. **type** - type of an attribute.
 
 Below is a list of supported fields and their respective value types for the import of product classes and attributes.
 
