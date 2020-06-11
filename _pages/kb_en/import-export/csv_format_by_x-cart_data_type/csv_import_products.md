@@ -850,3 +850,11 @@ will rename the product SKU 10000 from "Binary Mom" to "BinaryMom" (so you will 
 {% note warning %}
 Please note that the given table image is not complete. Provide all attribute values which specify the variant if you are using X-Cart 5.3.2 and earlier. X-Cart 5.3.3 and later versions can use `variantID` field to reference the specific product variant.
 {% endnote %}
+
+_Related pages:_
+
+*  {% link "Import of Attributes" ref_1eBZ128n %}
+*  {% link "Import of Global Attributes" ref_0ikVaxWb %}
+*  {% link "Import of Product Class Attributes" ref_1Vcnpxb1 %}
+
+
