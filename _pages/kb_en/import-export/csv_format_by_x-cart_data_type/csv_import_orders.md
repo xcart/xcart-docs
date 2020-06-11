@@ -10,9 +10,19 @@ published: true
 order: 160
 ---
 
-{% note info %}
+{% note warning %}
 Orders import feature is the part of the free [Orders Import addon](https://market.x-cart.com/addons/orders-import.html). It is not included in the X-Cart core
 {% endnote %}
+
+An orders CSV file for import must have a name orders-xxxxxx.csv, where the part -xxxxxx can be anything you want, or can be omitted.
+
+Examples of correct product CSV file names:
+
+* orders.csv;
+* orders-13-01-01.csv;
+* orders-from-my-provider.csv
+
+There are many more fields that you can include into your product CSV file.
 
 Below is a list of supported fields and their respective value types for category import.
 
@@ -182,7 +192,7 @@ Below is a list of supported fields and their respective value types for categor
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><strong>itemQuantity*</strong></td>
-      <td colspan="1" class="confluenceTd">Order item name.</td>
+      <td colspan="1" class="confluenceTd">The quantity of items included in the order</td>
       <td colspan="1" class="confluenceTd">Integer,<br>Multirow</td>
     </tr>
     <tr>
