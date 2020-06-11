@@ -12,7 +12,7 @@ order: 150
 
 Below is a list of supported fields and their respective value types for the import of customers:
 
-<div class="responsive-table">
+
 <table class="ui celled padded compact small table">
   <thead>
     <tr>
