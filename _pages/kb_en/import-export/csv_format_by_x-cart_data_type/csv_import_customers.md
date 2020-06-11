@@ -9,8 +9,24 @@ categories:
 published: true
 order: 150
 ---
+A customers CSV file for import must have a name customers-xxxxxx.csv, where the part -xxxxxx can be anything you want, or can be omitted.
 
-Below is a list of supported fields and their respective value types for the import of customers:
+Examples of correct product CSV file names:
+
+* customers.csv;
+* customers-13-01-01.csv;
+* customers-from-my-provider.csv
+
+A customers CSV file must contain at least two fields:
+
+1. **login** - unique identifier of a user (user email);
+2. **status** - the status of a user (either **E** (_enabled_) or **D** (_disabled_)).
+
+A sample of the simpliest customers CSV file is as follows:
+![sample-customers.png]({{site.baseurl}}/attachments/ref_JobVfzZg/sample-customers.png)
+
+
+There are many more fields that you can include into your product CSV file. Below is a list of supported fields and their respective value types for the import of customers:
 
 
 <table class="ui celled padded compact small table">
@@ -87,7 +103,7 @@ Below is a list of supported fields and their respective value types for the imp
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">forceChangePassword</td>
-      <td colspan="1" class="confluenceTd">Should be Yes if user is required to change his password on next logon and No otherwise.</td>
+      <td colspan="1" class="confluenceTd">Should be Yes if user is required to change his password on next login and No otherwise.</td>
       <td colspan="1" class="confluenceTd">Yes/No</td>
     </tr>
     <tr>
