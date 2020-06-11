@@ -22,8 +22,6 @@ Examples of correct product CSV file names:
 * orders-13-01-01.csv;
 * orders-from-my-provider.csv
 
-There are many more fields that you can include into your product CSV file.
-
 Below is a list of supported fields and their respective value types for category import.
 
 <table class="ui celled padded compact small table">
