@@ -120,7 +120,7 @@ There are many more fields that you can include into your product CSV file. Belo
                 <td class="confluenceTd">countryCodeAddressField</td>
               </tr>
               <tr>
-                <td colspan="1" class="confluenceTd">greg.bowes@gmail.com</td>
+                <td colspan="1" class="confluenceTd">customer@example.com</td>
                 <td class="confluenceTd">Edmond</td>
                 <td class="confluenceTd">US</td>
               </tr>
