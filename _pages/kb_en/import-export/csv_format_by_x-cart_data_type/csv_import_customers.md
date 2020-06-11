@@ -124,7 +124,6 @@ Below is a list of supported fields and their respective value types for the imp
     </tr>
   </tbody>
 </table>
-</div>
 
 <sub>* Required field.</sub>
 
