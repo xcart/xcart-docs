@@ -32,9 +32,9 @@ Below is a sample file for importing global attributes with color swatches:
  
 To import color swatches using existing product-specific attributes, you will need to use the basic CSV file format described in {% link "CSV import: Product attribute values" ref_Z7XdREZl %} with the field **swatch** added to the file. 
   
-Below is a sample import file for importing a product-specific attribute with a color swatch option:
+Below is a sample file for importing a product-specific attribute with a color swatch option:
    ![import-2.png]({{site.baseurl}}/attachments/ref_4bXaF5qJ/import-2.png) 
   
 {% note warning %}
-Please note that the images of sample import files use a minimum of required fields and are shown for demostration only. 
+Please note that the images of sample import files use a minimum of required fields and suit for demonstration purposes only.
 {% endnote %}
