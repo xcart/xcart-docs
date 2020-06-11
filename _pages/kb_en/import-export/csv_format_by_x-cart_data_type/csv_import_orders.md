@@ -11,7 +11,7 @@ order: 160
 ---
 
 {% note warning %}
-Orders import feature is the part of the free [Orders Import addon](https://market.x-cart.com/addons/orders-import.html). It is not included in the X&#8209Cart core.
+Orders import feature is the part of the free [Orders Import addon](https://market.x-cart.com/addons/orders-import.html). It is not included in the X&#x2011;Cart core.
 {% endnote %}
 
 An orders CSV file for import must have a name orders-xxxxxx.csv, where the part -xxxxxx can be anything you want, or can be omitted.
