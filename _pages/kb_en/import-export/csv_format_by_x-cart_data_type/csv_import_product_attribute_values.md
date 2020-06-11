@@ -19,10 +19,10 @@ Examples of correct product CSV file names:
 
 A product attributes CSV file must contain at least four fields:
 
-* `productSKU` - unique identifier of the product;
-* `type` - type of an attribute;
-* `name` - attribute name;
-* `value` - attribute value.
+1. **productSKU** - unique identifier of the product;
+2. **type** - type of an attribute;
+3. **name** - attribute name;
+4. **value** - attribute value.
 
 
 Below is a list of supported fields and their respective value types for the import of product attribute values:
@@ -163,3 +163,9 @@ Below is a list of supported fields and their respective value types for the imp
 
 *   If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields into your CSV file for import. Simply remove the respective column(s) from the file.
 *   To check for the correct CSV file format export products with all attributes from the actual database. You'll see what fields are currently in use.
+
+_Related pages:_
+
+*  {% link "Import of Attributes" ref_1eBZ128n %}
+*  {% link "Import of Global Attributes" ref_0ikVaxWb %}
+*  {% link "Import of Product Class Attributes" ref_1Vcnpxb1 %}
