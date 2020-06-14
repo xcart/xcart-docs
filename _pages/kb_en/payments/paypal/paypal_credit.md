@@ -14,16 +14,16 @@ More information on PayPal Credit is available on [PayPal's website](https://www
 
 PayPal offers free banner ads that promote PayPal Credit financing as a PayPal payment option. A study has shown that implementing these banner ads can drive an 18% increase in online sales. You can specify whether you want to use these banners on your store website via the addon settings.
 
-Note that PayPal Credit is currently available only to shoppers based in the United States. 
+PayPal Credit is currently available only to shoppers based in the United States. 
 
 ## Enable PayPal Credit
-To get the ability to enable the PayPal Credit payment option for your customers, you need to configure one of PayPal payment methods for your store.
+Since PayPal Credit is available only in the U.S., to get the ability to enable it as a payment option for your customers you will need to make sure that the country in your company profile is specified as the United States. 
 
-For example, we chose to enable PayPal Express Checkout. After submitting the required credentials for access to the API and saving the settings on the PayPal Express Checkout settings page, we get a new tab on the page - the one for PayPal Credit:
+Then, you will need to configure one of PayPal payment methods for your store. For example, we've chosen to enable PayPal Express Checkout. After submitting the required credentials for access to the API and saving the settings on the PayPal Express Checkout settings page, we get a new tab on the page - the one for PayPal Credit:
      ![xc5_pp_credit_tab.png]({{site.baseurl}}/attachments/ref_46r2geWj/xc5_pp_credit_tab.png)
-     (This will be the same for all PayPal methods: as soon as you configure a PayPal method, you will get this PayPal Credit tab on the method configuration page.)
+This works the same for all PayPal methods: as soon as you configure a PayPal method, you will get this PayPal Credit tab on the method configuration page.
 
-To enable PayPal Credit, you will need to click this new tab to go to the respective section and adjust a few settings.
+Click on this new tab to go to the respective section and adjust a few settings there.
      ![xc5_pp_credit_setup.png]({{site.baseurl}}/attachments/ref_46r2geWj/xc5_pp_credit_setup.png)
 
   1. Specify that PayPal Credit should be enabled on your store site (**PayPal Credit is** _Enabled_) and select the check box for the option **I agree with PayPal terms & conditions**. 
