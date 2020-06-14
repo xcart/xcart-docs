@@ -37,9 +37,7 @@ Listed below are links to our help articles for some of the most popular payment
 *   {% link "Stripe" ref_1SRSOBWa %}
 *   {% link "Square" ref_5kZcVsK7 %}
 
-You can get even more payment options for checkout by using [X-Payments](https://www.x-payments.com/). X-Payments is a platform by a PCI DSS Level 1 certified service provider that is intended for merchants who need to accept credit card payments online and who require compliance with the PCI DSS standard. A full list of payment methods that can be enabled in your X-Cart store via X-Payments can be found here:
-
-*   [Payment gateways supported by X-Payments](https://www.x-payments.com/help/X-Payments:Payment_gateways_supported_by_X-Payments_3.1)
+You can get even more payment options for checkout by using [X-Payments](https://www.x-payments.com/). X-Payments is a platform by a PCI DSS Level 1 certified service provider that is intended for merchants who need to accept credit card payments online and who require compliance with the PCI DSS standard. 
 
 More info on the use of X-Payments with X-Cart is available here:
 
