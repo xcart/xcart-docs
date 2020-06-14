@@ -9,7 +9,12 @@ published: true
 redirect_from:
   - /payments/xp_connector.html
 ---
-X-Cart can be integrated with [X-Payments](https://www.x-payments.com/), a PSD2/SCA ready all-in-one secure credit card processing solution for web shops. Using X-Cart with X-Payments will enable you to process and store credit cards right on your website, as well as accept recurring payments and reorders. X-Payments will take the PCI DSS burden off your shoulders.
+X-Cart can be integrated with [X-Payments](https://www.x-payments.com/), a PSD2/SCA ready all-in-one secure credit card processing solution for web shops. Using X-Cart with X-Payments will enable you to process and store credit cards right on your website, as well as accept recurring payments and reorders. X-Payments takes the PCI DSS burden off your shoulders.
+
+For the list of payment methods that can be added to your X-Cart store with X-Payments, see here:
+
+*   [Payment gateways supported by X-Payments Cloud](https://www.x-payments.com/help/XP_Cloud:Supported_payment_gateways)
+*   [Payment gateways supported by X-Payments v3.x](https://www.x-payments.com/help/X-Payments:Payment_gateways_supported_by_X-Payments_3.1)
 
 To use X-Cart with X-Payments, you require an X-Payments account and the following X-Cart addons:
 
