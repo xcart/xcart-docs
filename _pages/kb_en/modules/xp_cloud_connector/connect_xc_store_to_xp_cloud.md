@@ -61,7 +61,7 @@ Once you are ready to proceed with the connection, you will need to either creat
 
 If you purchase an X-Payments subscription within the 30 days following your trial expiration, you will regain access to your X-Payments Cloud account and all the settings you have configured in it. After the 30 day period, your account will be deleted permanently, and all the information associated with it will be lost.
 
-     Information on the available X-Payments subscription plans can be found [here](https://www.x-payments.com/pricing "Connecting Your X-Cart Store to X-Payments Cloud").
+Information on the available X-Payments subscription plans can be found [here](https://www.x-payments.com/pricing).
      
 <a id="xpc-registered-account"></a>
    * **If you already have an existing X-Payments Cloud account**:
