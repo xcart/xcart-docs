@@ -59,7 +59,7 @@ Once you are ready to proceed with the connection, you will need to either creat
      Your X-Payments Cloud trial will be available to you for 14 days. After this time your account will be deactivated, but not yet deleted. You will know your X-Payments Cloud trial period has expired if the X-Payments Cloud settings page in your X-Cart store Admin area looks like this:
 ![xpc_trial_expired.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xpc_trial_expired.png)
 
-If you purchase an X-Payments subscription within the 30 days following your trial expiration, you will regain access to your X-Payments Cloud account and all the settings you have configured in it. After the 30 day period, your account with be deleted permanently, and all the information associated with it will be lost.
+If you purchase an X-Payments subscription within the 30 days following your trial expiration, you will regain access to your X-Payments Cloud account and all the settings you have configured in it. After the 30 day period, your account will be deleted permanently, and all the information associated with it will be lost.
 
      Information on the available X-Payments subscription plans can be found [here](https://www.x-payments.com/pricing "Connecting Your X-Cart Store to X-Payments Cloud").
      
