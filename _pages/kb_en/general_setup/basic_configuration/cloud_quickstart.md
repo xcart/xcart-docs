@@ -22,7 +22,7 @@ However, if you decide to proceed, click the **Let's set up your store** button,
 Your first step will be adding some company data to fill in your store profile:
 ![cloud-wizard-2.png]({{site.baseurl}}/attachments/ref_0UvAdIRA/cloud-wizard-2.png)
 
-On this page, you will need to enter your company name, share your sell experiance and the business industry. Also you can define phone number that will display to your custoers in the storefront.
+On this page, you will need to enter your company name, share your sell experience and the business industry. Also, you can define phone number that will display to your customers in the storefront.
 
 When you are ready, click **Proceed to the next step**.
 
@@ -91,20 +91,20 @@ The quickstart includes the following blocks:
    
    Clicking the **Set it up** button of the "Payment Processing" quickstart block will forward you to the **Add payment** popup of the payments listing page of your store Admin area (**Store setup** -> **Payment methods**). There you can choose a payment method from the list, add and configure it to use in your store. 
    
-   A detailed guidance on the payments set-up you can get from the {% link "Adding Payment Methods" ref_36BqwVSF %} article of the Knowledge Base.
+   Detailed guidance on the payments set-up you can get from the {% link "Adding Payment Methods" ref_36BqwVSF %} article of the Knowledge Base.
    
 2. Shipping Setup
 
    Clicking the **Set it up** button of the "Shipping" quickstart block will forward you to the **Add shipping method** popup of the shipping listing page of your store Admin area (**Store setup** -> **Shipping methods**). There you can choose a shipping method from the list, add and configure it to use in your store. 
     
-   A detailed guidance on the shipping set-up you can get from the {% link "Shipping" ref_4noivtKM %} section of the Knowledge Base.
+   Detailed guidance on the shipping set-up you can get from the {% link "Shipping" ref_4noivtKM %} section of the Knowledge Base.
    
 3. Domain Name
 
    Clicking the **Change** button of the "Domain name" quickstart block will redirect you to the Domain name page of your store Admin area.
    ![domain-name-page.png]({{site.baseurl}}/attachments/ref_0UvAdIRA/domain-name-page.png)
    
-   Uding this page a store admin can change the defaulf `localhost` domain name to the one that meets their business needs.
+   Using this page a store admin can change the defaulf `localhost` domain name to the one that meets their business needs.
 
    {% note info %}
    Domain name changing is possible on paid XC Cloud accounts only. If you are using XC Cloud trial the 3rd block will provide quick access to the X-Cart App Store, where it is possible to check for the templates available.
