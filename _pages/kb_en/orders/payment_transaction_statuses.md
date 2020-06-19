@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-01-26 12:50 +0400'
 identifier: ref_7pBlny0J
-title: X-Cart Payment Transaction Statuses
+title: Payment Transaction Statuses
 order: 20
 published: true
 ---
