@@ -7,7 +7,17 @@ title: 'CSV Import: Reviews'
 order: 170
 published: true
 ---
+{% note warning %}
+Product reviews import feature is added by the free {% link "Product Reviews" ref_XBriIS6B %} addon. It is not included in the X‑Cart core.
+{% endnote %}
+
 A CSV file for importing reviews must have the name **reviews-yyyy-mm-dd.csv**, where the part **-yyyy-mm-dd** can be any date you want, or can be omitted.
+
+Examples of correct product CSV file names:
+
+* reviews.csv;
+* reviews-13-01-01.csv;
+* reviews-from-my-provider.csv
 
 Below is a list of supported fields and their respective value types for the import of reviews:
 
