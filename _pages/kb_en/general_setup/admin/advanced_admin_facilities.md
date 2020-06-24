@@ -7,4 +7,17 @@ title: Advanced Admin Facilities
 order: 300
 published: false
 ---
-There is a special section in your store Admin area that aggregates information about your store environment and allows you to perform advanced maintenance tasks. A store admin can also check system logs for all actions perfromed in the store in this section.
+There is a special section in your store Admin area that aggregates information about your store environment and allows you to perform advanced maintenance tasks, including checking system logs of all executed actions.
+
+{% toc %}
+
+Environment
+Cache management
+Database
+Integrity check
+Consistency check
+System logs
+Remove data
+HTTPs settings
+
+
