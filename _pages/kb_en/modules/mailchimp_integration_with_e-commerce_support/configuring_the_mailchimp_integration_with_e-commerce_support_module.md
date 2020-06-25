@@ -103,7 +103,7 @@ Mailchimp will create the Stores and will connect them to the Mailchimp lists yo
 When uploading store data to Mailchimp X-Cart submits only the products and orders data to Mailchimp automatically. The rest of the data, like user emails, etc., should be exported from X-Cart and then imported to Mailchimp manually.
 {% endnote %}
 
-The button **Upload store data to Mailchimp** remains in the **E-Commerce features setup** section just in case you need to redo the synchronizion; for example, you may need to use the button again if things get desynchronized between your store and your Mailchimp account after you disable the addon in X-Cart temporarily. 
+The button **Upload store data to Mailchimp** remains in the **E-Commerce features setup** section just in case you need to redo the synchronization; for example, you may need to use the button again if things get desynchronized between your store and your Mailchimp account after you disable the addon in X-Cart temporarily. 
 
 Another button - **Update store data** - will help you to update your company information on the Mailchimp end (for example, if your company name or address change).
 ![update-store-data.png]({{site.baseurl}}/attachments/ref_ST1QnErC/update-store-data.png)
