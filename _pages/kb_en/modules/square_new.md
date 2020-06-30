@@ -7,7 +7,27 @@ title: ''
 order: 100
 published: false
 ---
-2. In your Square Seller Dashboard, go to the **Apps** -> **My Apps** section to get access to your Developer Dashboard.
+2. Create your Square app.
+   In your Square Seller Dashboard, click **Apps**:
+   ![square_dashboard_apps.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dashboard_apps.png)
+   Choose to visit Square App Marketplace:
+   ![square_visit_marketplace.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_visit_marketplace.png)
+   In Square App Marketplace, choose to go to Square Developer Platform:
+   ![square_dev_platform_link.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_platform_link.png)
+   On the next page, click **Get started**:
+   ![square_dev_dashboard_get_started.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_dashboard_get_started.png)
+   Choose to create a new app:
+   ![square_dev_add_app.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_add_app.png)
+   Specify your app name and agree to Square Developer Terms of Service:
+   ![square_dev_add_app1.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_add_app1.png)
+   For the sake of example, we have completed the the app creation form as follows:
+   ![square_dev_add_app10.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_add_app10.png)
+
+   
+   
+==============
+
+section to get access to your Developer Dashboard.
    ![square-client-dashboard.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square-client-dashboard.png)
    * Click on **My Apps** in the **Apps** section:
      ![apps-my-apps.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/apps-my-apps.png)
