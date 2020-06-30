@@ -17,7 +17,7 @@ The integration is available for the U.S., Canada, Japan, Australia and the U.K.
 
 Prior to configuring the addon Square Payments in the Admin area of your X-Cart based store, you will need to get a Square account that provides access to Square Developer Dashboard. There you will find all the information you require to configure the addon in your store admin. 
 
-Here is the guide to find all the information you need:
+Here is the guide to obtain all the information you need:
 
 1. If you have an existing Square account, use it to sign in to [Square Seller Dashboard](https://squareup.com/dashboard/ "Square"). If you do not yet have an account with Square, get one. Start with the regular [Square sign up](https://squareup.com/t/f_partnerships/d_partnerships/p_xcart/c_general/o_none/u_partnersite?route=signup "Square") link or use the **Get started** button at [https://squareup.com/us/en](https://squareup.com/us/en "Square").
 
