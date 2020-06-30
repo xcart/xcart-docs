@@ -25,11 +25,32 @@ published: false
    
    Specify your app name and agree to Square Developer Terms of Service:
    ![square_dev_add_app1.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_add_app1.png)
-   
-   Then click **Save** to save your app.
-   
-   For the sake of example, we have completed the the app creation form as follows:
+      
+   For the sake of example, we have completed the app creation form as follows:
    ![square_dev_add_app10.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_add_app10.png)
+   
+   Choose to save your app by clicking **Save**. Your app will be saved and added to the list of your apps. 
+   
+   You will be able to access it from the 'Applications' page in Square Developer Dashboard:
+   ![square_dev_apps.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_apps.png)
+   
+   and from the 'My Applications' page in Square Seller Dashboard:
+   ![square_app_in_seller_dashboard.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_app_in_seller_dashboard.png)
+   
+3. Go to the details of the app you have created:
+
+   In the Developer Dashboard - Click **Open** on the panel of the respective app:
+   ![square_dev_app_open.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_app_open.png)
+   
+   In the Seller Dashboard - Click **Manage** opposite the respective app on your app list:
+   ![square_app_manage.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_app_manage.png)
+
+4. Obtain the information you require for connection:
+   
+   
+
+   
+   
 
    
    
