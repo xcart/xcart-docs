@@ -52,32 +52,11 @@ published: false
 
    Then make sure you are using the right API version. On the **Credentials** page, scroll down to locate the section **API Version**. There you will find information as to which API version is going to be used:
    ![square_api_version.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_api_version.png)
+   
    Typically, you will need the latest API version. Should you want to use an older API version, you will be able to change the version using the **Change Version** button.
 
-   
-   
-
-   
-   
-
-   
-   
-==============
-
-
-
+   Scroll up the **Credentials** page. Here you will find your Application ID and Access Token.  Do not close the page just yet, as you will need to copy these details onto the Square payment addon settings page in your X-Cart store. 
   
-   On the **Credentials** page:
-   * Scroll down the page to locate the **API Version** section:
-     ![change-api-1.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/change-api-1.png)
-   * Click on the **Change Version** button and choose v. **2019-02-13** in the drop-down:
-     ![change-api-2.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/change-api-2.png)
-   * If you want to test the payment integration first, leave the application in **Sanbox Mode**. To accept live payments you'll need to switch it to **Production**:
-     <div class="ui stackable two column grid">
-       <div class="column" markdown="span"><b>Sandbox Mode ON</b>![sandbox.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/sandbox.png)</div>
-       <div class="column" markdown="span"><b>Production Mode On</b>![production.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/production.png)</div>
-     </div>
-     
-6. Do not close the Square Developer Dashboard as you'll need to copy the application details to assign it to your X-Cart store. 
-
 ## Square Payments Addon Configuration
+1. In a new browser tab or window, go to your X-Cart store Admin area.
+   
