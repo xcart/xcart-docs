@@ -7,26 +7,30 @@ title: Square
 order: 269
 published: true
 ---
-The addon [Square Payments](https://market.x-cart.com/addons/square.html "Square") provides an integration with Square, a PCI compliant payment solution. Square is compatible with all types of devices: desktop, tablet and mobile and also supports offline in-person payments. Square payment is integrated with X-Cart via Square API that keeps customers on your site during checkout and credit card data submission.
+The addon [Square Payments](https://market.x-cart.com/addons/square.html "Square") provides an integration with Square, a PCI compliant payment solution. Square is compatible with all types of devices: desktop, tablet and mobile; it also supports offline in-person payments. Square payment is integrated with X-Cart via Square API that keeps customers on your site during checkout and credit card data submission.
 
-The integration is available for the US, Canada, Japan, Australia and the UK.
+The integration is available for the U.S., Canada, Japan, Australia and the U.K.
 
 {% toc %}
 
 ## Square Account Setup
 
-Prior to configuring the Square Payments addon in the Admin area of your X-Cart based store, you'll need to sign up for Square to get and account that provides access to Square Developer Dashboard where you'll find all the necessary data for the addon configuration in your store admin.
+Prior to configuring the addon Square Payments in the Admin area of your X-Cart based store, you will need to sign up for Square to get an account that provides access to Square Developer Dashboard. There you will find all the necessary data for the addon configuration in your store admin.
 
-1. To create an account with Square start with a regular [Square sign up](https://squareup.com/t/f_partnerships/d_partnerships/p_xcart/c_general/o_none/u_partnersite?route=signup "Square") link or use the **Start a Square account button** at [https://squareup.com/us/en](https://squareup.com/us/en "Square").
-   * You'll need specify your e-mail (will be used as an account ID), set a password and choose your business locale. Also it will be necessary to agree to to Square’s terms, privacy policy, and e-sign consent:
+1. To create an account with Square, start with the regular [Square sign up](https://squareup.com/t/f_partnerships/d_partnerships/p_xcart/c_general/o_none/u_partnersite?route=signup "Square") link or use the **Get started** button at [https://squareup.com/us/en](https://squareup.com/us/en "Square").
+
+   On the 'Let's create your account' page, you will need to specify your email address (will be used as your account ID), the password you want to use, and the country where your business is based. You will also need to agree to Square’s terms, privacy policy, and e-sign consent:
      ![square-sign-up.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square-sign-up.png)
-     Click **Continue** to do further.
-   * Then you'll need to fill in the form with your business details (the form and fields to fill in differ depending on a particular country requirements).
-     Click **Continue** to create an account with Square. 
+   After doing so, you will need to click **Continue** to proceed to the next step.
+
+   In the next step, you will need to submit your business details. (Note that the set of form fields to complete will depend on your selected country). 
+     ![square_signup2.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_signup2.png)
+
+   After you submit all the required information, your Square account will be created, and you will be automatically signed in to your Square Seller Dashboard. 
      
-     {% note info %}
-     If you already have an account with Square sign in to access your Square Seller Dashboard.
-     {% endnote %}
+   {% note info %}
+   If you already have an account with Square, sign in to access your Square Seller Dashboard.
+   {% endnote %}
 
 2. When the account creation is completed or when signed in you'll see your Square Seller Dashboard. Here you need to go to the **Apps** -> **My Apps** section to get access to your Developer Dashboard.
    ![square-client-dashboard.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square-client-dashboard.png)
@@ -158,6 +162,3 @@ A store admin can refund or partically refund a paid order by specifying the amo
 {% note info %}
 More info about order payment and fulfilment statuses you can find in {% link "Understanding X-Cart Order Statuses" ref_DkbTi1qJ %}.
 {% endnote %}
-
-
-
