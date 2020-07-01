@@ -79,21 +79,21 @@ Here is the guide to obtain all the information you need:
    
    You need to switch the API version to 2019-02-13 or prior. To switch the API version, use the button **Change Version**.
 
-   After properly setting the API version, scroll up the **Credentials** page. Here you will find your Application ID and Access Token.  Do not close the page just yet, as you will need to copy these details onto the Square Payments addon settings page in your X-Cart store.
+   After properly setting the API version, scroll up the **Credentials** page. Here you will find your Application ID and Access Token.  Do not close the page just yet, as you will need to copy these details onto the Square addon settings page in your X-Cart store.
   
 ## Square Payments Addon Configuration
 
-Before you start, make sure the addon [Square Payments](https://market.x-cart.com/addons/square.html "Square") is {% link "installed and enabled" ref_Vn1mMUw9 %} in your X-Cart store. Also make sure you have properly completed your Square account setup and created a connection app for your store as described in the section above. Keeping the app details open in one of your browser tabs, you can now log in to your X-Cart store Admin area in another browser tab and proceed to configuring Square Payments addon settings in your X-Cart store.
+Before you start, make sure the addon [Square Payments](https://market.x-cart.com/addons/square.html "Square") is {% link "installed and enabled" ref_Vn1mMUw9 %} in your X-Cart store. Also make sure you have properly completed your Square account setup and created a connection app for your store as described in the section above. Keeping the app details open in one of your browser tabs, you can now log in to your X-Cart store Admin area in another browser tab and proceed to configuring Square addon settings in your X-Cart store.
 
-To configure the Square Payments addon settings in your store, follow the steps below:
+To configure the Square addon settings in your store, follow the steps below:
 
-1. In your X-Cart store Admin area, go to the Square Payments addon settings page. Use one of the methods below:
+1. In your X-Cart store Admin area, go to the Square addon settings page. Use one of the methods below:
    * Follow the **Settings** link for the addon Square Payments in the **My Addons** section of your store Admin area:
      ![square_settings.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_settings.png)
    * In the **Store setup** -> **Payment methods** section of your store Admin area, click {% link "**Add payment method**" ref_36BqwVSF %}, use search to find the payment method "Square" and follow the Settings link opposite its name:
      ![square_settings1.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_settings1.png)
 
-2. On the Square Payments addon settings page, choose the application mode you require (must be the same as has been set for your Square application) and provide your connection credentials:
+2. On the Square addon settings page, choose the application mode you require (must be the same as has been set for your Square application) and provide your connection credentials:
    ![settings-page.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/settings-page.png)
    
    **SANDBOX APPLICATION MODE**
@@ -116,13 +116,13 @@ To configure the Square Payments addon settings in your store, follow the steps 
      
     Set the **Application Mode** setting value to **Production**.  **Important**: Make sure your Square Developer Dashboard is set to **Production mode** as well.
     
-    Complete the following fields with the data from your Square Developer Dashboard:
+    Complete the following fields with the information from your Square Developer Dashboard:
     * **Application ID** : Locate the Application ID value on the **Square Developer** -> **Credentials** page, copy and paste it here.
     * **Application Secret** : Locate the Application Secret value on the **Square Developer** -> **OAuth** page, copy and paste it here.
          
     Submit the configuration settings.
      
-    Once the settings have been submitted, two new tabs become available on the Square Payments addon settings page of your store Admin area - **OAuth configuration** and **Locations configuration**. You need to configure settings in both of them.
+    Once the settings have been submitted, two new tabs will become available on the Square addon settings page of your store Admin area: **OAuth configuration** and **Locations configuration**. Both of them will need your attention.
        ![oauth+locations-tabs.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/oauth+locations-tabs.png)
        
     * **OAuth configuration**: 
@@ -130,9 +130,9 @@ To configure the Square Payments addon settings in your store, follow the steps 
          Open the **OAuth configuration** tab of the Square payment settings page:
            ![oauth-tab.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/oauth-tab.png)
          
-         Copy the URL from the **OAuth configuration** tab of the Square payment settings page using the **Copy** button and paste it to the **Redirect URL** field on the **Square Developer** -> **OAuth** page and **Save** the changes there.
+         Copy the URL from the **OAuth configuration** tab of the Square addon settings page using the **Copy** button and paste it into the **Redirect URL** field on the **Square Developer** -> **OAuth** page and **Save** the changes there.
          
-         Click on the **Get OAuth Token** button in the **OAuth configuration** tab of the Square payment settings page in your store Admin area. You will be redirected to Square for authorization (you will need to enter/confirm your login and password) and, if passed, directed back to the **Locations configuration** tab of the Square payment settings page in your store Admin area.
+         Click on the **Get OAuth Token** button in the **OAuth configuration** tab of the Square addon settings page in your store Admin area. You will be redirected to Square for authorization (you will need to enter/confirm your login and password) and, if passed, directed back to the **Locations configuration** tab of the Square payment settings page in your store Admin area.
        
     * **Locations configuration**:
          Open the **OAuth configuration** tab of the Square payment settings page:
