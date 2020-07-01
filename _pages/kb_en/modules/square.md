@@ -132,7 +132,10 @@ To configure the Square addon settings in your store, follow the steps below:
          
       Copy the URL from this tab using the **Copy** button and paste it into the **Redirect URL** field on the **Square Developer** -> **OAuth** page; be sure to save your changes there by clicking **Save**.
          
-      Then, back on the **OAuth configuration** tab of the Square addon settings page in your X-Cart store Admin area, click on the **Get OAuth Token** button. You will be redirected to Square for authorization. You will need to enter/confirm your login and password and, provided that you have passed the authorization successfully, you will be redirected back to the **Locations configuration** tab of the Square addon settings page in your X-Cart store Admin area.
+      Then, back on the **OAuth configuration** tab of the Square addon settings page in your X-Cart store Admin area, click on the **Get OAuth Token** button. You will be redirected to Square for authorization. You will need to login to Square using your login and password and, provided that you have passed the authorization successfully, give your app the permissions it requires. 
+           ![square_app_permissions.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_app_permissions.png)
+
+      You will then be redirected back to the **Locations configuration** tab of the Square addon settings page in your X-Cart store Admin area.
        
     * **Locations configuration**:
       Open the **OAuth configuration** tab of the Square addon settings page:
