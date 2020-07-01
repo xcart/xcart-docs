@@ -90,7 +90,7 @@ To configure the Square Payments addon settings in your store, follow the steps 
 1. In your X-Cart store Admin area, go to the Square Payments addon settings page. Use one of the methods below:
    * Follow the **Settings** link for the addon Square Payments in the **My Addons** section of your store Admin area:
      ![square_settings.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_settings.png)
-   * Follow the {% link "**Add payment method**" ref_36BqwVSF %} button in the **Store setup** -> **Payment methods** section of your store Admin area:
+   * Use the {% link "**Add payment method**" ref_36BqwVSF %} button in the **Store setup** -> **Payment methods** section of your store Admin area:
      ![square_settings1.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_settings1.png)
 
 2. On the Square Payments addon settings page, choose the application mode you require (must be the same as has been set for your Square application) and provide your connection credentials:
