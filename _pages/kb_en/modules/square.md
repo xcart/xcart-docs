@@ -100,7 +100,7 @@ To configure the Square Payments addon settings in your store, follow the steps 
    
     Sandbox application mode is used to test the Square payment configuration. 
      
-    * Set the **Application mode** setting value to **Sandbox**.
+    * Set the **Application Mode** setting value to **Sandbox**.
        {% note info %}
        Make sure your Square Developer Dashboard is set to **Sandbox mode**.
        ![sandbox.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/sandbox.png)
@@ -119,7 +119,7 @@ To configure the Square Payments addon settings in your store, follow the steps 
    
    Production application mode is used to accept real payments in a live store. 
      
-     * Set the **Application mode** setting value to **Sandbox**.
+     * Set the **Application Mode** setting value to **Production**.
        {% note info %}
        Make sure your Square Developer Dashboard is set to the **Production mode**.
        ![production.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/production.png)
