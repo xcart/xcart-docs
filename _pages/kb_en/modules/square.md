@@ -31,48 +31,66 @@ Here is the guide to obtain all the information you need:
    After you submit all the required information, your Square account will be created, and you will be automatically signed in to your Square Seller Dashboard.
      ![square_dashboard.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_dashboard.png)
    
-2. In your Square Seller Dashboard, go to the **Apps** -> **My Apps** section to get access to your Developer Dashboard.
-   ![square-client-dashboard.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square-client-dashboard.png)
-   * Click on **My Apps** in the **Apps** section:
-     ![apps-my-apps.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/apps-my-apps.png)
-     You'll see a new screen with a list of apps connected. 
-   * Click the **Go to Developer Dashboard** button to be redirected to your developer dashboard. 
-     ![go-to-developer-dash.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/go-to-developer-dash.png)
-     Square Developer Dashboard is opened in a new tab. 
-
-4. Click the **Create Your First Application** button (or **New Application**, if you already have some existing apps connected):
-   ![create-app.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/create-app.png)
+2. Create your Square app.
+   In your Square Seller Dashboard, click **Apps**:
+   ![square_dashboard_apps.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dashboard_apps.png)
    
-   * Name your application and agree to the Square Developer Terms of Service:
-     ![new-application.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/new-application.png)
-   * Click **Create Application** to complete the step.
+   Choose to visit Square App Marketplace:
+   ![square_visit_marketplace.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_visit_marketplace.png)
+   
+   In Square App Marketplace, choose to go to Square Developer Platform:
+   ![square_dev_platform_link.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_platform_link.png)
+   
+   On the next page, click **Get started**:
+   ![square_dev_dashboard_get_started.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_dashboard_get_started.png)
+   
+   Choose to create a new app by clicking the **Create Your First Application** button (or **New Application**, if you already have some existing apps connected):
+   ![square_dev_add_app.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_add_app.png)
+   
+   Specify your app name and agree to Square Developer Terms of Service:
+   ![square_dev_add_app1.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_add_app1.png)
+      
+   For the sake of example, we have completed the app creation form as follows:
+   ![square_dev_add_app10.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_add_app10.png)
+   
+   Choose to save your app by clicking **Save**. Your app will be saved and added to the list of your apps. 
+   
+   You will be able to access it from the 'Applications' page in Square Developer Dashboard:
+   ![square_dev_apps.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_apps.png)
+   
+   and from the 'My Applications' page in Square Seller Dashboard:
+   ![square_app_in_seller_dashboard.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_app_in_seller_dashboard.png)
+   
+3. Now you can get access to the information required to configure Square Payment in your store. Go to the details of the app you have created:
 
-5. Now you are inside the application and can get access to the data required to configure Square Payment in your store.
+   In the Developer Dashboard - Click **Open** on the panel of the respective app:
+   ![square_dev_app_open.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_dev_app_open.png)
+   
+   In the Seller Dashboard - Click **Manage** opposite the respective app on your app list:
+   ![square_app_manage.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_app_manage.png)
+
+4. Complete your Square app setup and obtain the information you require for connection.
+
+   Start by specifying the mode in which you are going to use your Square integration with your X-Cart store. If you want to do some testing first, leave the application in **Sandbox** mode. To accept live payments, switch it to **Production**:
+   ![square_sandbox_production.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_sandbox_production.png)
+
+   Then make sure you are using the right API version. On the **Credentials** page, scroll down to locate the section **API Version**. There you will find information as to which API version is going to be used:
+   ![square_api_version.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_api_version.png)
+   
+   Typically, you will need the latest API version. Should you want to use an older API version, you will be able to change the version using the **Change Version** button.
+
+   Scroll up the **Credentials** page. Here you will find your Application ID and Access Token.  Do not close the page just yet, as you will need to copy these details onto the Square Payments addon settings page in your X-Cart store.
   
-   To make the application work with your X-Cart based store switch the application API Version to 2019-02-13 on the **Credentials** page:
-   * Scroll down the page to locate the **API Version** section:
-     ![change-api-1.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/change-api-1.png)
-   * Click on the **Change Version** button and choose v. **2019-02-13** in the drop-down:
-     ![change-api-2.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/change-api-2.png)
-   * If you want to test the payment integration first, leave the application in **Sanbox Mode**. To accept live payments you'll need to switch it to **Production**:
-     <div class="ui stackable two column grid">
-       <div class="column" markdown="span"><b>Sandbox Mode ON</b>![sandbox.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/sandbox.png)</div>
-       <div class="column" markdown="span"><b>Production Mode On</b>![production.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/production.png)</div>
-     </div>
-     
-6. Do not close the Square Developer Dashboard as you'll need to copy the application details to assign it to your X-Cart store. 
-
 ## Square Payments Addon Configuration
 
-{% note warning %}
-Make sure the [Square Payments](https://market.x-cart.com/addons/square.html "Square") addon is installed and enabled as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
-{% endnote %}
+Before you start, make sure the addon [Square Payments](https://market.x-cart.com/addons/square.html "Square") is {% link "installed and enabled" ref_Vn1mMUw9 %} in your X-Cart store. Also make sure you have properly completed your Square account setup and created a connection app for your store as described in the section above. Keeping the app details open in one of your browser tabs, you can now log in to your X-Cart store Admin area in another browser tab and proceed to configuring Square Payments addon settings in your X-Cart store.
 
-To configure Square payments addon in your store Admin area:
-1. Open the Square settings page:
-   * Via the **Settings** link on the Square addon page in the **My Addons** section of your store Admin area:
+To configure the Square Payments addon settings in your store, follow the steps below:
+
+1. In your X-Cart store Admin area, go to the Square Payments addon settings page. Use one of the methods below:
+   * Follow the **Settings** link on the Square addon page in the **My Addons** section of your store Admin area:
      ![settings-link.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/settings-link.png)
-   * Via the {% link "**Add payment method**" ref_36BqwVSF %} button in the **Store setup** -> **Payment methods** section of your store Admin area:
+   * Follow the {% link "**Add payment method**" ref_36BqwVSF %} button in the **Store setup** -> **Payment methods** section of your store Admin area:
      ![add-payment.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/add-payment.png)
 2. On the Square payment settings page choose the required application mode and fill in the related fields:
    ![settings-page.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/settings-page.png)
