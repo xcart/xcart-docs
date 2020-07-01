@@ -79,7 +79,7 @@ Here is the guide to obtain all the information you need:
    
    You need to switch this API version to the version recommended on the Square addon settings page in your X-Cart store Admin area. To switch the API version, use the button **Change Version**.
 
-   After properly setting the API version, scroll up the **Credentials** page. Here you will find your Application ID.  Do not close the page just yet as you will need to copy some information from Square to your X-Cart store and back to complete the connection.
+   After properly setting the API version, scroll up the **Credentials** page. Here you will find your Application ID and Access Token.  Do not close the page just yet as you will need to copy some information from Square to your X-Cart store and back to complete the connection.
   
 ## Square Payments Addon Configuration
 
@@ -130,7 +130,7 @@ To configure the Square addon settings in your store, follow the steps below:
       Open the **OAuth configuration** tab of the Square addon settings page:
            ![oauth-tab.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/oauth-tab.png)
          
-      Copy the URL from this tab using the **Copy** button and paste it into the **Redirect URL** field on the **Square Developer** -> **OAuth** page; be sure to save your changes there.
+      Copy the URL from this tab using the **Copy** button and paste it into the **Redirect URL** field on the **Square Developer** -> **OAuth** page; be sure to save your changes there by clicking **Save**.
          
       Then, back on the **OAuth configuration** tab of the Square addon settings page in your X-Cart store Admin area, click on the **Get OAuth Token** button. You will be redirected to Square for authorization. You will need to enter/confirm your login and password and, provided that you have passed the authorization successfully, you will be redirected back to the **Locations configuration** tab of the Square addon settings page in your X-Cart store Admin area.
        
