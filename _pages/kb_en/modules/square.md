@@ -79,7 +79,7 @@ Here is the guide to obtain all the information you need:
    
    You need to switch this API version to the version recommended on the Square addon settings page in your X-Cart store Admin area. To switch the API version, use the button **Change Version**.
 
-   After properly setting the API version, scroll up the **Credentials** page. Here you will find your Application ID and Access Token.  Do not close the page just yet, as you will need to copy these details onto the Square addon settings page in your X-Cart store.
+   After properly setting the API version, scroll up the **Credentials** page. Here you will find your Application ID.  Do not close the page just yet as you will need to copy some information from Square to your X-Cart store and back to complete the connection.
   
 ## Square Payments Addon Configuration
 
