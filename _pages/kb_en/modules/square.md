@@ -148,7 +148,7 @@ To configure the Square addon settings in your store, follow the steps below:
       ![square_location.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_location.png)
       (The location value in the drop-down box is passed to X-Cart from your Square app during the **OAuth configuration** step.)
     
-    Click **Submit** to save the settings.
+    Click **Submit** to save the settings. 
     
     Note that you can use the **Synchronize Square locations** button to synchronize the location data in your Square app and your X-Cart store.
 
