@@ -100,61 +100,61 @@ To configure the Square Payments addon settings in your store, follow the steps 
    
     Sandbox application mode is used to test the Square payment configuration. 
      
-    * Set the **Application Mode** setting value to **Sandbox**.
-       {% note info %}
-       Make sure your Square Developer Dashboard is set to **Sandbox mode**.
-       ![sandbox.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/sandbox.png)
-       {% endnote %}
-     * Fill in the following fields with the data from your Square Developer Dashboard:
+    Set the **Application Mode** setting value to **Sandbox**. Make sure your Square Developer Dashboard is set to **Sandbox mode**.
+    
+    Complete the following fields with the information from your Square Developer Dashboard:
        * **Sandbox Application ID** : Locate the Sandbox Application ID value on the **Square Developer** -> **Credentials** page, copy and paste it here.
-         ![sandbox-application-id.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/sandbox-application-id.png)
        * **Sandbox Access Token** : Locate the Sandbox Access Token value on the **Square Developer** -> **Credentials** page, copy and paste it here.
-         ![sandbox-access-token.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/sandbox-access-token.png)
        * **Sandbox Location ID** : Locate the Sandbox Location ID value on the **Square Developer** -> **Locations** page, copy and paste it here.
-         ![location-id.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/location-id.png)
-      * **Submit** the configuration settings.
+      
+     Save the configuration settings.
    
    
    **PRODUCTION APPLICATION MODE**
    
-   Production application mode is used to accept real payments in a live store. 
+    Production application mode is used to accept real payments in a live store. 
      
-     * Set the **Application Mode** setting value to **Production**.
-       {% note info %}
-       Make sure your Square Developer Dashboard is set to the **Production mode**.
-       ![production.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/production.png)
-       {% endnote %}
-     * Fill in the following fields with the data from your Square Developer Dashboard:
+    Set the **Application Mode** setting value to **Production**. Make sure your Square Developer Dashboard is set to **Production mode**.
+    
+    Complete the following fields with the data from your Square Developer Dashboard:
        * **Application ID** : Locate the Application ID value on the **Square Developer** -> **Credentials** page, copy and paste it here.
-         ![application-id.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/application-id.png)
        * **Application Secret** : Locate the Application Secret value on the **Square Developer** -> **OAuth** page, copy and paste it here.
-         ![application-secret.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/application-secret.png)
-     * **Submit** the configuration settings.
-     * Once the settings have been submitted, 2 (two) new tabs become available on the Square payment settings page of your store Admin area - **OAuth configuration** and **Locations configuration**. You need to configure settings in both of them.
+         
+    Submit the configuration settings.
+     
+    Once the settings have been submitted, two new tabs become available on the Square Payments addon settings page of your store Admin area - **OAuth configuration** and **Locations configuration**. You need to configure settings in both of them.
        ![oauth+locations-tabs.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/oauth+locations-tabs.png)
-       * **OAuth configuration** 
-         * Open the **OAuth configuration** tab of the Square payment settings page:
+       
+    * **OAuth configuration**: 
+         
+         Open the **OAuth configuration** tab of the Square payment settings page:
            ![oauth-tab.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/oauth-tab.png)
-         * Copy the URL from the **OAuth configuration** tab of the Square payment settings page using the **Copy** button and paste it to the **Redirect URL** field on the **Square Developer** -> **OAuth** page and **Save** the changes there.
-         * Click on the **Get OAuth Token** button in the **OAuth configuration** tab of the Square payment settings page in your store Admin area. You'll be redirected to Square for authorization (you'll need to enter/confirm your login and password) and if passed directed back to the **Locations configuration** tab of the Square payment settings page in your store Admin area.
-       * **Locations configuration**
-         ![locations-tab.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/locations-tab.png)
-         * On the **Locations configuration** tab of the Square payment settings page set the Square Location for Online Payments value from the select drop-down (the location value in the drop-down will be the Square application name you've set during the [Square account setup](https://kb.x-cart.com/modules/square.html#square-account-setup "Square"), that had been passed to X-Cart during the **OAuth configuration** step).
-         * Click **Submit** to save the settings.
+         
+         Copy the URL from the **OAuth configuration** tab of the Square payment settings page using the **Copy** button and paste it to the **Redirect URL** field on the **Square Developer** -> **OAuth** page and **Save** the changes there.
+         
+         Click on the **Get OAuth Token** button in the **OAuth configuration** tab of the Square payment settings page in your store Admin area. You will be redirected to Square for authorization (you will need to enter/confirm your login and password) and, if passed, directed back to the **Locations configuration** tab of the Square payment settings page in your store Admin area.
+       
+    * **Locations configuration**:
+         Open the **OAuth configuration** tab of the Square payment settings page:
+           ![locations-tab.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/locations-tab.png)
+         
+         Set the Square Location for Online Payments value from the select drop-down (the location value in the drop-down will be the Square application name you have set during [Square account setup](https://kb.x-cart.com/modules/square.html#square-account-setup "Square") that has been passed to X-Cart during the **OAuth configuration** step).
+    
+    Click **Submit** to save the settings.
 
-3. To activate the payment method switch it ON either on the Square settings page (**General configuration** tab) or in the list of online payment methods in the **Store setup** -> **Payment methods** section of your store Admin area.
+3. To activate the payment method, switch it ON either on the Square Payment addon settings page (**General configuration** tab) or in the list of online payment methods in the **Store setup** -> **Payment methods** section of your store Admin area.
    
    <div class="ui stackable two column grid">
        <div class="column" markdown="span"><b>Square Settings Page</b>![paymont-on-1.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/paymont-on-1.png)</div>
        <div class="column" markdown="span"><b>Payment Methods Page</b>![payment-on-2.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/payment-on-2.png)</div>
      </div>
   
-  Once enabled the Square payment method will become available to customers at checkout. With Square payment customers can specify their credit card info directly on your X-Cart checkout page. This data will be securely transmitted to Square via token.
+  Once enabled, the Square payment method will become available to your customers at checkout. With Square Payments, your customers will be able to specify their credit card info directly on your X-Cart checkout page. This data will be securely transmitted to Square via token.
   ![cus-checkout.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/cus-checkout.png)
 
 ## Order Processing Workflow
 
-Square payment integration allows a store admin to choose whether a payment should be captured automatically or should be authorized first. By default all payments are set to pre-authorization by a store admin.
+Square payment integration allows a store admin to choose whether a payment needs to be captured automatically or needs to be authorized first. By default all payments are set to pre-authorization by a store admin.
 
 The payment auto capture can be enabled in the **Payment configuration** tab of the Square payment settings page in the store Admin area:
 ![payment-configuration.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/payment-configuration.png)
