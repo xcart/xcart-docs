@@ -141,10 +141,12 @@ To configure the Square addon settings in your store, follow the steps below:
            ![square_redirected_from.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_redirected_from.png)
        
     * **Locations configuration**:
-      Open the **OAuth configuration** tab of the Square addon settings page:
+      The following configuration needs to be done on the **OAuth configuration** tab of the Square addon settings page:
            ![locations-tab.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/locations-tab.png)
          
-      Set the Square Location for Online Payments value from the select drop-down (the location value in the drop-down will be the Square application name you have set during [Square account setup](https://kb.x-cart.com/modules/square.html#square-account-setup "Square") that has been passed to X-Cart during the **OAuth configuration** step).
+      Adjust the **Square Location for Online Payments** setting by selecting the appropriate value from the drop-down box:
+      ![square_location.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_location.png)
+      (The location value in the drop-down box is passed to X-Cart from your Square account during the **OAuth configuration** step.)
     
     Click **Submit** to save the settings.
 
