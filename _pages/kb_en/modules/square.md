@@ -138,6 +138,7 @@ To configure the Square addon settings in your store, follow the steps below:
            ![square_app_permissions.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_app_permissions.png)
 
       You will then be redirected back to the **Locations configuration** tab of the Square addon settings page in your X-Cart store Admin area.
+           ![square_redirected_from.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_redirected_from.png)
        
     * **Locations configuration**:
       Open the **OAuth configuration** tab of the Square addon settings page:
