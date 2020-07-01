@@ -146,9 +146,11 @@ To configure the Square addon settings in your store, follow the steps below:
          
       Adjust the **Square Location for Online Payments** setting by selecting the appropriate value from the drop-down box:
       ![square_location.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_location.png)
-      (The location value in the drop-down box is passed to X-Cart from your Square app during the **OAuth configuration** step. You can use the **Synchronize Square locations** button to synchronize your location data in your Square app and your X-Cart store.)
+      (The location value in the drop-down box is passed to X-Cart from your Square app during the **OAuth configuration** step.)
     
     Click **Submit** to save the settings.
+    
+    Note that you can use the **Synchronize Square locations** button to synchronize the location data in your Square app and your X-Cart store.
 
 3. To activate the payment method, switch it ON either on the Square Payment addon settings page (**General configuration** tab) or in the list of online payment methods in the **Store setup** -> **Payment methods** section of your store Admin area.
    
