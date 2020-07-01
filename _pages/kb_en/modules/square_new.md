@@ -59,4 +59,3 @@ published: false
   
 ## Square Payments Addon Configuration
 1. In a new browser tab or window, go to your X-Cart store Admin area.
-   
