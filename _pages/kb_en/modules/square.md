@@ -103,9 +103,9 @@ To configure the Square Payments addon settings in your store, follow the steps 
     Set the **Application Mode** setting value to **Sandbox**. **Important**: Make sure your Square Developer Dashboard is set to **Sandbox mode** as well.
     
     Complete the following fields with the information from your Square Developer Dashboard:
-       * **Sandbox Application ID** : Locate the Sandbox Application ID value on the **Square Developer** -> **Credentials** page, copy and paste it here.
-       * **Sandbox Access Token** : Locate the Sandbox Access Token value on the **Square Developer** -> **Credentials** page, copy and paste it here.
-       * **Sandbox Location ID** : Locate the Sandbox Location ID value on the **Square Developer** -> **Locations** page, copy and paste it here.
+    * **Sandbox Application ID** : Locate the Sandbox Application ID value on the **Square Developer** -> **Credentials** page, copy and paste it here.
+    * **Sandbox Access Token** : Locate the Sandbox Access Token value on the **Square Developer** -> **Credentials** page, copy and paste it here.
+    * **Sandbox Location ID** : Locate the Sandbox Location ID value on the **Square Developer** -> **Locations** page, copy and paste it here.
       
      Save the configuration settings.
    
@@ -117,8 +117,8 @@ To configure the Square Payments addon settings in your store, follow the steps 
     Set the **Application Mode** setting value to **Production**.  **Important**: Make sure your Square Developer Dashboard is set to **Production mode** as well.
     
     Complete the following fields with the data from your Square Developer Dashboard:
-       * **Application ID** : Locate the Application ID value on the **Square Developer** -> **Credentials** page, copy and paste it here.
-       * **Application Secret** : Locate the Application Secret value on the **Square Developer** -> **OAuth** page, copy and paste it here.
+    * **Application ID** : Locate the Application ID value on the **Square Developer** -> **Credentials** page, copy and paste it here.
+    * **Application Secret** : Locate the Application Secret value on the **Square Developer** -> **OAuth** page, copy and paste it here.
          
     Submit the configuration settings.
      
