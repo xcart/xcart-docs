@@ -77,7 +77,7 @@ Here is the guide to obtain all the information you need:
    Then make sure you are using the right API version. On the **Credentials** page, scroll down to locate the section **API Version**. There you will find information as to which API version is going to be used:
    ![square_api_version.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_api_version.png)
    
-   You need to switch the API version to 2019-02-13 or prior. To switch the API version, use the button **Change Version**.
+   You need to switch this API version to the version recommended on the Square addon settings page in your X-Cart store Admin area. To switch the API version, use the button **Change Version**.
 
    After properly setting the API version, scroll up the **Credentials** page. Here you will find your Application ID and Access Token.  Do not close the page just yet, as you will need to copy these details onto the Square addon settings page in your X-Cart store.
   
