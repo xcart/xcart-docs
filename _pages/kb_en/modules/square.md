@@ -77,9 +77,9 @@ Here is the guide to obtain all the information you need:
    Then make sure you are using the right API version. On the **Credentials** page, scroll down to locate the section **API Version**. There you will find information as to which API version is going to be used:
    ![square_api_version.png]({{site.baseurl}}/attachments/ref_18MogJUS/square_api_version.png)
    
-   Typically, you will need the latest API version. Should you want to use an older API version, you will be able to change the version using the **Change Version** button.
+   You need to switch the API version to 2019-02-13 or prior. To switch the API version, use the button **Change Version**.
 
-   Scroll up the **Credentials** page. Here you will find your Application ID and Access Token.  Do not close the page just yet, as you will need to copy these details onto the Square Payments addon settings page in your X-Cart store.
+   After properly setting the API version, scroll up the **Credentials** page. Here you will find your Application ID and Access Token.  Do not close the page just yet, as you will need to copy these details onto the Square Payments addon settings page in your X-Cart store.
   
 ## Square Payments Addon Configuration
 
@@ -88,11 +88,12 @@ Before you start, make sure the addon [Square Payments](https://market.x-cart.co
 To configure the Square Payments addon settings in your store, follow the steps below:
 
 1. In your X-Cart store Admin area, go to the Square Payments addon settings page. Use one of the methods below:
-   * Follow the **Settings** link on the Square addon page in the **My Addons** section of your store Admin area:
-     ![settings-link.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/settings-link.png)
+   * Follow the **Settings** link for the addon Square Payments in the **My Addons** section of your store Admin area:
+     ![square_settings.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_settings.png)
    * Follow the {% link "**Add payment method**" ref_36BqwVSF %} button in the **Store setup** -> **Payment methods** section of your store Admin area:
-     ![add-payment.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/add-payment.png)
-2. On the Square payment settings page choose the required application mode and fill in the related fields:
+     ![square_settings1.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/square_settings1.png)
+
+2. On the Square Payments addon settings page, choose the application mode you require (must be the same as has been set for your Square application) and provide your connection credentials:
    ![settings-page.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/settings-page.png)
    
    **SANDBOX APPLICATION MODE**
