@@ -107,7 +107,7 @@ To configure the Square addon settings in your store, follow the steps below:
     * **Sandbox Access Token** : Locate the Sandbox Access Token value on the **Square Developer** -> **Credentials** page, copy and paste it here.
     * **Sandbox Location ID** : Locate the Sandbox Location ID value on the **Square Developer** -> **Locations** page, copy and paste it here.
       
-     Save the configuration settings.
+    Click **Submit** to save the settings.
    
    
    **PRODUCTION APPLICATION MODE**
@@ -120,25 +120,25 @@ To configure the Square addon settings in your store, follow the steps below:
     * **Application ID** : Locate the Application ID value on the **Square Developer** -> **Credentials** page, copy and paste it here.
     * **Application Secret** : Locate the Application Secret value on the **Square Developer** -> **OAuth** page, copy and paste it here.
          
-    Submit the configuration settings.
+    Click **Submit** to save the settings.
      
     Once the settings have been submitted, two new tabs will become available on the Square addon settings page of your store Admin area: **OAuth configuration** and **Locations configuration**. Both of them will need your attention.
        ![oauth+locations-tabs.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/oauth+locations-tabs.png)
        
     * **OAuth configuration**: 
          
-         Open the **OAuth configuration** tab of the Square payment settings page:
+      Open the **OAuth configuration** tab of the Square addon settings page:
            ![oauth-tab.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/oauth-tab.png)
          
-         Copy the URL from the **OAuth configuration** tab of the Square addon settings page using the **Copy** button and paste it into the **Redirect URL** field on the **Square Developer** -> **OAuth** page and **Save** the changes there.
+      Copy the URL from this tab using the **Copy** button and paste it into the **Redirect URL** field on the **Square Developer** -> **OAuth** page; be sure to save your changes there.
          
-         Click on the **Get OAuth Token** button in the **OAuth configuration** tab of the Square addon settings page in your store Admin area. You will be redirected to Square for authorization (you will need to enter/confirm your login and password) and, if passed, directed back to the **Locations configuration** tab of the Square payment settings page in your store Admin area.
+      Then, back on the **OAuth configuration** tab of the Square addon settings page in your X-Cart store Admin area, click on the **Get OAuth Token** button. You will be redirected to Square for authorization. You will need to enter/confirm your login and password and, provided that you have passed the authorization successfully, you will be redirected back to the **Locations configuration** tab of the Square addon settings page in your X-Cart store Admin area.
        
     * **Locations configuration**:
-         Open the **OAuth configuration** tab of the Square payment settings page:
+      Open the **OAuth configuration** tab of the Square addon settings page:
            ![locations-tab.png]({{site.baseurl}}/attachments/ref_5kZcVsK7/locations-tab.png)
          
-         Set the Square Location for Online Payments value from the select drop-down (the location value in the drop-down will be the Square application name you have set during [Square account setup](https://kb.x-cart.com/modules/square.html#square-account-setup "Square") that has been passed to X-Cart during the **OAuth configuration** step).
+      Set the Square Location for Online Payments value from the select drop-down (the location value in the drop-down will be the Square application name you have set during [Square account setup](https://kb.x-cart.com/modules/square.html#square-account-setup "Square") that has been passed to X-Cart during the **OAuth configuration** step).
     
     Click **Submit** to save the settings.
 
