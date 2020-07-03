@@ -85,6 +85,10 @@ The product details page in the storefront with the configured wholesale prices 
   <div class="column" markdown="span"><b>Altered minimum product quantity</b>![540-cus-details-page-1.png]({{site.baseurl}}/attachments/ref_ttZa4qgu/540-cus-details-page-1.png)</div>
 </div>
 
+{% note info %}
+If you need to assign wholesale prices to product variants follow the guidelines from {% link "Wholesale Prices for Product Variants" ref_1wyZZ2Nf %}.
+{% endnote %}
+
 ## Adding Wholesale Pricing to Sale Offers 
 
 Starting from X-Cart 5.4.1.x it is possible to apply discounts to wholesale pricing and include them in sale offers if set percentagewise. This becomes possible if the Wholesale addon is used alongside the {% link "Sale Addon" ref_7tBJ8Yqo %}.
