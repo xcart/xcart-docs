@@ -25,7 +25,7 @@ It is possible to use more than one payment integrations so your customers have 
 
 After deciding what payment processors you are going to use, you can proceed to configuring the respective payment methods in your X-Cart store. General information on how to configure and manage your payment methods can be found here:
 
-*   {% link "Accepting Payments" ref_Jq6Bsdrt %}
+*   {% link "Managing Payment Methods" ref_Jq6Bsdrt %}
 
 Listed below are links to our help articles for some of the most popular payment solutions supported by X-Cart:
 
