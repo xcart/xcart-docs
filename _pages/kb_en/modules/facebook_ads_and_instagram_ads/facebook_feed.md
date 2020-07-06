@@ -13,20 +13,23 @@ PREREQUISITES:
 2. If you do not have a Facebook account yet, you can create it at [https://www.facebook.com/business](https://www.facebook.com/business).
 {% endnote %}
 
+The Facebook Ads & Instagram Ads addon allows you to upload your product catalog to Facebook and then use this catalog to promote (NOT sell) goods via ads in both Facebook and Instagram. Catalog uploading is done with the help of a product feed generation in X-Cart.
+
 {% toc %}
 
 ## Product Feed Generation
 
-Once the addon is {% link "set up" ref_7fTH58sR %} you can proceed to the product feed generation.
+Once the Facebook Ads & Instagram Ads addon is installed and {% link "configured" ref_7fTH58sR %} you can proceed to the product feed generation.
 
-The Facebook Ads & Instagram Ads addon adds a new setting - **Add to Facebook product feed** - to each of the products in your store's catalog. You will find it in the **Marketing** section of the product details page. 
+The Facebook Ads & Instagram Ads addon activates a new setting **Add to Facebook product feed** for each of the products in your store's catalog. You will find it in the **Marketing** section of the product details page. 
 ![540-add-product-feed.png]({{site.baseurl}}/attachments/ref_7fTH58sR/540-add-product-feed.png)
 
-This setting is enabled by default, that means that all the products with the setting **Add to Facebook product feed** enabled will be added to the product feed and uploaded to your Facebook Catalog automatically. If you want to exclude any of the products from being added to your Facebook feed make sure you disable the **Add to Facebook product feed** setting for this product beforehand.
+This setting is enabled by default, that means that all the products with the setting **Add to Facebook product feed** put on will be added to the product feed and uploaded to your Facebook Catalog automatically. If you want to exclude any of the products from being added to your Facebook feed make sure you disable the **Add to Facebook product feed** setting for this product beforehand.
   
 To generate a feed:
 
-1. Open the Facebook Ads and Instagram Ads settings page in your store's Admin area: **Marketing** > **Facebook Ads & Instagram Ads** (in X-Cart 5.3.x and earlier the section name is **Sales Channels**) and click the **Generate Product Feed** button to get a link for uploading the product feed to your Facebook Catalog.
+1. On the Facebook Ads and Instagram Ads settings page in your store's Admin area (**Marketing** -> **Facebook Ads & Instagram Ads** (in X-Cart 5.3.x and earlier the section name is **Sales Channels**)), click the **Generate Product Feed** button to get a link for uploading a product feed to your Facebook Catalog.
+   
    <div class="ui stackable two column grid">
      <div class="column" markdown="span"><b>X-Cart 5.3.x and earlier</b>![generate-feed-new.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/generate-feed-new.png)</div>
      <div class="column" markdown="span"><b>X-Cart 5.4.x</b>![540-generate-feed.png]({{site.baseurl}}/attachments/ref_1LQyHRCO/540-generate-feed.png)</div>
@@ -38,12 +41,12 @@ To generate a feed:
    
    The system will take some time to generate a Product Feed URL depending on the overall store inventory. 
 
-2. Once the process is completed, copy the _Product Feed URL_ that has been generated and paste it into the appropriate field when specifying a source of products for your [catalog](https://www.facebook.com/products/catalogs/new "Product Feed Generation and Upload to Facebook").
+2. Once the process is completed, copy the _Product Feed URL_ that has been generated and paste it into a relevant field in your Facebook Business ccount when specifying a source of products for your [catalog](https://www.facebook.com/products/catalogs/new "Product Feed Generation and Upload to Facebook").
   
    ![copy-feed-new.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/copy-feed-new.png)
   
    {% note info %}
-   The _Frequency of Product Feed renewal_ setting itself will not make renewals automatical. You will need to {% link "configure your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}.
+   The _Frequency of Product Feed renewal_ setting itself will not make renewals automatical. You will need to {% link "configure your server to run scheduled X-Cart tasks" ref_lLqNzAaq %} to facilitate automatic renewals.
    {% endnote %}
   
 ## Product Feed Upload to Facebook
@@ -58,14 +61,18 @@ To generate a feed:
    2. At the step _Add Products to Your Catalog_, specify that you want to _Use Data Feeds_. 
       ![xc5_fb_use_feeds.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/xc5_fb_use_feeds.png)
 
-   3. In the section  **How do you want to upload your data feed?**, choose 'Set a schedule' and paste the Product Feed URL [generated](https://kb.x-cart.com/modules/facebook_ads_and_instagram_ads/facebook_feed.html#product-feed-generation "Product Feed Generation and Upload to Facebook") for you by X-Cart in the **Data Feed URL** field:
+   3. In the section  **How do you want to upload your data feed?**, choose 'Set a schedule' and paste the [Product Feed URL](https://kb.x-cart.com/modules/facebook_ads_and_instagram_ads/facebook_feed.html#product-feed-generation "Product Feed Generation and Upload to Facebook") generated for you by X-Cart in the **Data Feed URL** field:
       ![paste-product-feed.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/paste-product-feed.png)
+      
+      {% note info %}
+      Remember, that scheduled feed updates will be possible only if {% link "your server is configured to run scheduled X-Cart tasks" ref_lLqNzAaq %}.
+      {% endnotes %}
   
-   4. Schedule the automatic uploads and name the feed the way you like it better. 
+   4. Schedule automatic uploads and name the feed the way you like it better. 
    
-   5. Click the **Start Upload** button to upload your products from X-Cart to Facebook.
+   5. Click the **Start Upload** button to import your products from X-Cart to Facebook.
   
-After the products have been uploaded, you will see them on the **Products** tab.
+      After the products have been uploaded, you will see them on the **Products** tab in your Facebook Catalog Manager.
       ![Products.png]({{site.baseurl}}/attachments/ref_LA0TBHEA/Products.png)
   
-That's it! You can start advertising your products through Facebook.
+That's it! Now, when the products are uploaded you can start promoting your goods via ads in Facebook.
