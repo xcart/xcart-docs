@@ -11,7 +11,9 @@ icon: payment
 description: Enable payment methods to accept payments from buyers
 published: true
 ---
-Getting paid is one of the most important functions of any business. Before you can get paid by your customers, you need to understand how payments are made in X-Cart. All of X-Cart supported payment methods rely on third-party providers to process your transactions. These providers may charge extra fees, as well as enforce rules about what products you can sell using their service. Each merchant should consider these factors as well as the countries where the business is located and where customers live and many other criteria when choosing a payment gateway. 
+Getting paid is one of the most important functions of any business. Before you can get paid by your customers, you need to understand how payments are made in X-Cart. 
+
+All of X-Cart supported payment methods rely on third-party providers to process your transactions. These providers determine in what countries their services are available, set the fees, and may impose restrictions as to what products you can sell using their services. As a merchant need to take all these factors into account when choosing your payment providers and methods. 
 
 *   {% link "Choosing a Payment Gateway" ref_CT7rXfVw %}
 
