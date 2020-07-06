@@ -66,7 +66,7 @@ To generate a feed:
       
       {% note info %}
       Remember, that scheduled feed updates will be possible only if {% link "your server is configured to run scheduled X-Cart tasks" ref_lLqNzAaq %}.
-      {% endnotes %}
+      {% endnote %}
   
    4. Schedule automatic uploads and name the feed the way you like it better. 
    
