@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-06-27 15:48 +0400'
 identifier: ref_Jq6Bsdrt
-title: Accepting Payments
+title: Managing Payment Methods
 categories:
   - User manual
 published: true
