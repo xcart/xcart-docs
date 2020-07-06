@@ -84,7 +84,7 @@ The database used by your store is designed in such a way that your data is stor
 
 For example, product titles are stored in one table, product prices - in another one; as each product in the store is supposed to have a price, MySQL associates each of the product title fields in the former table with a price field in the latter. If, while making alterations to your database tables, you fail to consistently change all the related data (for example, if you add a new product, but fail to add a price for that product), MySQL will not be able to join the respective tables and perform the selection of data from them properly. Performing a database consistency check with the biult-in tool allows you to ensure that all the tables required for the store's operation are present in the MySQL database used by the store and helps you to detect any flaws and inconsistencies that may appear as a result of alterations to the database design caused by maintenance or new inclusions to the database structures performed bypassing X-Cart interface.
 
-## System Logs
+## System Logs Check
 
 The "System logs" page of your store Admin area (**System tools** -> **System logs**) aggregates records on all possible actions that might occurred in the store starting from the moment of the installation. It logs any possible errors in the store functioning, internal and external requests to the marketplace and different services, etc.
 ![541-system-logs.png]({{site.baseurl}}/attachments/ref_2qRH9roa/541-system-logs.png)
@@ -96,7 +96,7 @@ The logs records are split into month/year periods. To find a certain record:
 * check the file names to idetify the process that was logged;
 * click a file name to see the log content or use the arrow icon opposite a file to download it.
 
-## Remove Data
+## Data Removal
 
 The "Remove data" page of your store Admin area (**System tools** -> **Remove data**) provides tools that allow you to empty your store of any content data with which it might have been populated for testing purposes.
 ![541-remove-data-page.png]({{site.baseurl}}/attachments/ref_2qRH9roa/541-remove-data-page.png)
@@ -105,9 +105,9 @@ Clicking the 'Trash' button opposite a certain data category removes the informa
 
 The tool can help you bring your X-Cart installation to a state where the store will get rid of all unnecessary data, retaining the configuration settings defining how it should function.
 
-## HTTPS Settings
+## HTTPS Mode Activation
 
-The HTTPS settings page of your store Admin area (**System tools** -> **HTTPs settings**) allows you to switch your store to a secure HTTPS mode in case there is an SSL (Secure Sockets Layer) Certificate installed on your server.
+The "HTTPS settings" page of your store Admin area (**System tools** -> **HTTPs settings**) allows you to switch your store to a secure HTTPS mode in case there is an SSL (Secure Sockets Layer) Certificate installed on your server.
 ![541-https-settings-page.png]({{site.baseurl}}/attachments/ref_2qRH9roa/541-https-settings-page.png)
 
 You only need to click the **Enable HTTPs** button and X-Cart will do everything for you. As a result secure protocol will be enabled and your store will be configured to use it for both the store’s back end and customer area. You will see a secure connection lock in front of your site name in the address bar:
