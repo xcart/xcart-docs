@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-11 12:46 +0400'
 identifier: ref_25BG59R3
-title: Managing exiting payment methods
+title: Managing Your Exiting Payment Methods
 order: 120
 published: true
 ---
