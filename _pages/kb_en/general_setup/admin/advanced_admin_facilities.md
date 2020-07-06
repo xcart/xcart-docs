@@ -5,7 +5,7 @@ updated_at: '2020-06-24 12:49 +0400'
 identifier: ref_2qRH9roa
 title: Advanced Admin Facilities
 order: 300
-published: false
+published: true
 ---
 There is a special section in your store Admin area that aggregates information about your store environment and allows you to perform advanced maintenance tasks, including checking system logs of all executed actions. This section is called "System tools".
 ,
