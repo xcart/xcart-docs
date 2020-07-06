@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-11 13:38 +0400'
 identifier: ref_1WSCwpNh
-title: Sorting Payments on the Storefront
+title: Sorting Payment Methods on the Storefront
 order: 130
 published: true
 ---
