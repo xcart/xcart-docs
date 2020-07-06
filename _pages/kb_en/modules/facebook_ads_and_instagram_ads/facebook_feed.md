@@ -13,7 +13,9 @@ PREREQUISITES:
 2. If you do not have a Facebook account yet, you can create it at [https://www.facebook.com/business](https://www.facebook.com/business).
 {% endnote %}
 
-The Facebook Ads & Instagram Ads addon allows you to upload your product catalog to Facebook and then use this catalog to promote (NOT sell) goods via ads in both Facebook and Instagram. Catalog uploading is done with the help of a product feed generation in X-Cart.
+The Facebook Ads & Instagram Ads addon allows you to upload your product catalog to Facebook and then use this catalog to promote goods via ads in both Facebook and Instagram. So as a result you will have the product from your X-Cart store imported into your [Facebook Catalog](https://www.facebook.com/business/help/890714097648074?id=725943027795860 "Product Feed Generation and Upload to Facebook"). The addon does NOT facilitate the creation of a [Facebook Page Shop](https://www.facebook.com/business/help/238403573454149?id=206236483305742 "Product Feed Generation and Upload to Facebook").
+
+Catalog uploading is done with the help of a product feed generation in X-Cart.
 
 {% toc %}
 
