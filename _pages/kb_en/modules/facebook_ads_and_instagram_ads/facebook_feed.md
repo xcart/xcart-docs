@@ -21,7 +21,7 @@ The Facebook Ads & Instagram Ads addon allows you to upload your product catalog
 
 Once the Facebook Ads & Instagram Ads addon is installed and {% link "configured" ref_7fTH58sR %} you can proceed to the product feed generation.
 
-The Facebook Ads & Instagram Ads addon activates a new setting **Add to Facebook product feed** for each of the products in your store's catalog. You will find it in the **Marketing** section of the product details page. 
+The addon activates a new setting **Add to Facebook product feed** for each of the products in your store's catalog. You will find it in the **Marketing** section of the product details page. 
 ![540-add-product-feed.png]({{site.baseurl}}/attachments/ref_7fTH58sR/540-add-product-feed.png)
 
 This setting is enabled by default, that means that all the products with the setting **Add to Facebook product feed** put on will be added to the product feed and uploaded to your Facebook Catalog automatically. If you want to exclude any of the products from being added to your Facebook feed make sure you disable the **Add to Facebook product feed** setting for this product beforehand.
