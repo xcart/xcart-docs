@@ -12,9 +12,9 @@ redirect_from:
 
 Social feeds are a good point to attract new visitors and boost sales, Facebook Marketing being one of the most popular and efficient. If you have a Facebook account, you can start using X-Cart's free [Facebook Ads and Instagram Ads](https://market.x-cart.com/addons/facebook-e-commerce.html) addon (formerly known as "Facebook eCommerce") right away. 
 
-This addon enables you to upload your products to Facebook Catalog and to create personalized ads in both Facebook and Instgram that will allow reaching the right audience in the right place at the right time. Facebook ads are synchronized with Instagram and are shown there even if you don't have an Instagram account.
+This addon enables you to upload your products to Facebook and form a catalog of your products there. This catalog will be then used by Facebook to create personalized ads in both Facebook and Instgram that will allow reaching the right audience in the right place at the right time. Facebook ads are synchronized with Instagram and are shown there even if you don't have an Instagram account.
 
-The addon **Facebook Ads and Instagram Ads** uploads your products to Facebook Catalog automatically and syncs the product data always keeping the catalog up-to-date. Once the products are added to the Facebook Catalog you can bind your Instagram business account to it and start selling goods in Instagram.
+The addon **Facebook Ads and Instagram Ads** uploads your products to Facebook Catalog automatically and syncs the product data always keeping the catalog up-to-date. Once the products are added to the Facebook Catalog you can bind your Instagram business account to it and start promoting goods in both Facebook and Instagram.
 
 The **Facebook Ads and Instagram Ads** addon configuration consists of the following steps: 
 *  {% link "Facebook Ads and Instagram Ads Addon Installation and Setup" ref_7fTH58sR %}
