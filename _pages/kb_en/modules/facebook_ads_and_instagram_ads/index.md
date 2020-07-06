@@ -16,6 +16,8 @@ This addon enables you to upload your products to Facebook and form a catalog of
 
 The addon **Facebook Ads and Instagram Ads** uploads your products to Facebook Catalog automatically and syncs the product data always keeping the catalog up-to-date. Once the products are added to the Facebook Catalog you can bind your Instagram business account to it and start promoting goods in both Facebook and Instagram.
 
+The addon does not allow selling goods in Facebook Shops or Instagram.
+
 The **Facebook Ads and Instagram Ads** addon configuration consists of the following steps: 
 *  {% link "Facebook Ads and Instagram Ads Addon Installation and Setup" ref_7fTH58sR %}
 *  {% link "Product Feed Generation and Upload to Facebook" ref_1LQyHRCO %}
