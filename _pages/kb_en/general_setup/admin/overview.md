@@ -68,6 +68,26 @@ To edit your personal admin account information, open the dropdown menu under th
 
 From the same dropdown menu, a store admin can access the X-Cart Knowledge Base and Dev Docs, suggest an idea on the software improvement, report a software bug or contact X-Cart using the 'Contact Us' form at [www.x-cart.com](https://www.x-cart.com/contact-us.html "Admin Area Overview").
 
+
+
+## Info Dashboard
+
+The Info Dashboard on the Admin Home page provides information about your customers' orders awaiting processing and products that sell the best (bestsellers). 
+
+![541-info-dashboard.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/541-info-dashboard.png)
+
+The 'Orders awaiting processing' board provides information on the latest five orders placed in the store (see more info on the orders awaiting processing [here](https://kb.x-cart.com/orders/order_management.html#advanced-orders-search "Admin Area Overview")). You can proceed to the details of any of these orders by clicking on its order number.
+
+The 'Bestsellers' board shows the products that have been sold the most. You can use it to get a list of all-time bestsellers or limit the range to a certain period. Also, it is possible to get bestseller statistics on either all the products (both in stock and sold out) or just the products currently in stock. 
+
+## Sale Stats, Notifications and Alerts
+
+The block in the right-hand side of the Admin Home page provides your store's sales statistics for the last 48 hours. It also notifies you about certain types of events by displaying alerts in special blocks and provides links to useful resources you may need to run your store. 
+![541-stats-and-news.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/541-stats-and-news.png)
+
+The notification panels are visible in this block only if you have notifications. Generally, there can be up to 3 notification panels in the block:
+![541_admin_notifications.jpg]({{site.baseurl}}/attachments/ref_2DXFvdbo/541_admin_notifications.jpg)
+
 ## Sidebar Menu
 
 All tools you need to manage your store are available in the main Admin menu in the sidebar to the left.
@@ -127,24 +147,6 @@ Attention the users of X-Cart Cloud, some features are inaccessible in the sideb
   * {% link "Payments" ref_gm10twDM %}
   
 * **System tools** (_Has limited access in X-Cart Cloud_): This section provides some tools for the advanced Admin area management. Use it when you need to back up your store, check the system logs and current environment description, clear the data cache, configure HTTPS settings or perfrom consistency and integrity checks.
-
-## Info Dashboard
-
-The Info Dashboard on the Admin Home page provides information about your customers' orders awaiting processing and products that sell the best (bestsellers). 
-
-![541-info-dashboard.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/541-info-dashboard.png)
-
-The 'Orders awaiting processing' board provides information on the latest five orders placed in the store (see more info on the orders awaiting processing [here](https://kb.x-cart.com/orders/order_management.html#advanced-orders-search "Admin Area Overview")). You can proceed to the details of any of these orders by clicking on its order number.
-
-The 'Bestsellers' board shows the products that have been sold the most. You can use it to get a list of all-time bestsellers or limit the range to a certain period. Also, it is possible to get bestseller statistics on either all the products (both in stock and sold out) or just the products currently in stock. 
-
-## Sale Stats, Notifications and Alerts
-
-The block in the right-hand side of the Admin Home page provides your store's sales statistics for the last 48 hours. It also notifies you about certain types of events by displaying alerts in special blocks and provides links to useful resources you may need to run your store. 
-![541-stats-and-news.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/541-stats-and-news.png)
-
-The notification panels are visible in this block only if you have notifications. Generally, there can be up to 3 notification panels in the block:
-![541_admin_notifications.jpg]({{site.baseurl}}/attachments/ref_2DXFvdbo/541_admin_notifications.jpg)
 
 
 ## Concierge
