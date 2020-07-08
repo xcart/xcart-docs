@@ -8,8 +8,7 @@ order: 10
 published: true
 ---
 When you enter your X-Cart store Admin Home page for the first time after the installation of X-Cart software, you cannot miss the green box that says "Let's set up your store! - **Proceed**". That is the place to start X-Cart's Quickstart Onboarding Wizard. The Onboarding Wizard is an addon that is aimed to help the store administrator with the initial store configuration and setup.
-
-![onboarding-wizard.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/onboarding-wizard.png)
+![541-home-onboarding-wizard.png]({{site.baseurl}}/attachments/ref_5xTo5Gmg/541-home-onboarding-wizard.png)
 
 To start the store configuration process using the Onboarding Wizard, click **Proceed**.
 
