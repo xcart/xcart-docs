@@ -22,7 +22,7 @@ To return to the Home page from any other page of the Admin area, click on the s
 
 ## Admin Header
 
-The Admin area header shows the version of the X-Cart software being used and includes some tools for quick navigation and search through the store, as well as a tool to open or close the storefront for customers. These are accessible from any page of the store Admin area. In addition to that, the header shows the store's low-stock alerts, software update alerts and App Store notifications. It also gives access to the admin user profile and the X-Cart Knowledge Base (also known as the X-Cart manual, or X-Cart user docs) which can be of help for store setup and management.
+The Admin area header shows the version of the X-Cart software being used and includes some tools for quick navigation and search through the store, as well as a tool to open or close the storefront for customers. These are accessible from any page of the store Admin area. In addition to that, the header shows software update alerts and App Store notifications. It also gives access to the admin user profile and the X-Cart Knowledge Base (also known as the X-Cart manual, or X-Cart user docs) which can be of help for store setup and management.
 ![541-header-expanded.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/541-header-expanded.png)
 
 ### Software Version
@@ -37,13 +37,12 @@ This block is visible only if the [Sidebar Menu](https://kb.x-cart.com/general_s
 ### Quick Menu
 
 The navigation menu in the header allows a store admin to add a new product, category, user or discount coupon in about one click from any page of the Admin area. All they need to do is expand the quick navigation menu and click on the respective icon.
-
-![quick-menu.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/quick-menu.png)
+![541-quick-menu.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/541-quick-menu.png)
 
 ## Search Bar
 
 The search bar in the header allows you to quick-search through the products, users and orders from any page of the Admin area. 
-![quicksearch.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/quicksearch.png)
+![541-quick-search.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/541-quick-search.png)
 
 To use the tool, select the type of data through which you would like to search in the dropdown and type your search request in the search bar.
 
@@ -65,7 +64,6 @@ Note that an admin can use the link to access the storefront regardless of wheth
 ### Admin Account and Help Docs
 
 To edit your personal admin account information, open the dropdown menu under the Admin icon in the right-hand side of the header and select 'My profile'.
-
 ![my-profile.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/my-profile.png)
 
 From the same dropdown menu, a store admin can access the X-Cart Knowledge Base and Dev Docs, suggest an idea on the software improvement, report a software bug or contact X-Cart using the 'Contact Us' form at [www.x-cart.com](https://www.x-cart.com/contact-us.html "Admin Area Overview").
