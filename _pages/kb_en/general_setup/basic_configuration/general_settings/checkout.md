@@ -16,8 +16,7 @@ X-Cart offers a variety of ways to set up your store's checkout to best suit you
 ## Checkout Type
 
 A type of checkout that will be used in your store can be configured using the **Checkout type** setting on the **Store setup** -> **Cart&Checkout** -> **General** page of X-Cart Admin area.
-
-![checkout-type.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/checkout-type.png)
+![541-cart-and-checkout-page.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/541-cart-and-checkout-page.png)
 
 X-Cart offers 2 possible chechout types by default:
 * Fast Lane Checkout
