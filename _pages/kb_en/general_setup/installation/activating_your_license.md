@@ -89,7 +89,6 @@ That is all. Your addon license has been activated, and the addon has been insta
 
 _Related pages:_
 
-*   Video: {% link "X-Cart 5 Free License Activation" ref_X5ZLmSJV %}
 *   Video: {% link "X-Cart 5 Business License Activation" ref_UUrbypsh %}
 *   Video: {% link "X-Cart 5 Addon License Activation" ref_hU6Rb4tw %}
 *   {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}
