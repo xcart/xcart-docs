@@ -39,7 +39,7 @@ This block is visible only if the [Sidebar Menu](https://kb.x-cart.com/general_s
 The navigation menu in the header allows a store admin to add a new product, category, user or discount coupon in about one click from any page of the Admin area. All they need to do is expand the quick navigation menu and click on the respective icon.
 ![541-quick-menu.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/541-quick-menu.png)
 
-## Search Bar
+### Search Bar
 
 The search bar in the header allows you to quick-search through the products, users and orders from any page of the Admin area. 
 ![541-quick-search.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/541-quick-search.png)
