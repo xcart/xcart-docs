@@ -12,3 +12,4 @@ X-Cart Admin area is the password-protected backoffice where you can populate yo
 _In this section_:
 *  {% link "Admin Area Login and Password Recovery" ref_00nAL9h3 %}
 *  {% link "Admin Area Overview" ref_2DXFvdbo %}
+*  {% link "Advanced Admin Facilities" ref_2qRH9roa %}
