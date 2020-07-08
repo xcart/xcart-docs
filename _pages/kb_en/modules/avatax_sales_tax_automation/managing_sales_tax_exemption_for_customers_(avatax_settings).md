@@ -26,7 +26,7 @@ For this purpose:
    ![ava-exemptions-page.png]({{site.baseurl}}/attachments/ref_9WS5DtDB/ava-exemptions-page.png)
 3. Complete a customer profile creation following the guides [here](https://help.avalara.com/Avalara_AvaTax_Update/Add_a_customer_to_AvaTax "Managing Sales Tax Exemption for Customers (AvaTax Settings)").
 
-   When filling in a customer profile, enter X-Cart's customer profile ID as a value of the Avalara Customer Code field.
+   When filling in a customer profile, enter X-Cart's customer profile ID (number only) as a value of the Avalara Customer Code field.
     
     <div class="ui stackable two column grid">
       <div class="column" markdown="span"><b>Customer Profile ID in X-Cart</b>![541-profile-id.png]({{site.baseurl}}/attachments/ref_9WS5DtDB/541-profile-id.png)</div>
