@@ -38,7 +38,7 @@ The settings that you can configure here are as follows:
 *   **Default order to sort products within a category**: This setting allows you to control the default display order for products within a category. 
     The following options are available:
 
-    *   _Recommended_ - Product sort order defined by the store owner via the category settings on the category details page in the store Admin area (**Catalog** -> **Categories** -> **<CATEGORY_NAME>** -> **Products**):
+    *   _Recommended_ - Product sort order defined by the store owner via the category settings on the category details page in the store Admin area (**Catalog** -> **Categories** -> **CATEGORY_NAME** -> **Products**):
         ![541-category-page-reorder.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-category-page-reorder.png)
  
     *   _Newest first_ - Products sorted by arrival date.
@@ -74,10 +74,11 @@ The settings that you can configure here are as follows:
     For example, if we set this to "3", by default there will be only three products displayed per page. For the rest of the product list pagination will be provided:
     ![541-products-per-category-listing-page.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-products-per-category-listing-page.png)
     
-*  **Maximum products per category listing page**: This setting allows you to set a limit on the maximum number of products that can be displayed on a category page. 
+*  **Maximum products per category listing page**: This setting allows you to set a limit on the maximum number of products that can display on a category page. For the grid view, the value should exceed the exponential growth of the **Products per category listing page** at least by one. If the value is less than multiple, a user will not be able to change the limit.
    
-   For example, if we set this to "5", a user will not be able to change the number of products displayed per page to a number larger than 4 (See the screenshot below: The number of products currently displayed on a category page is 2. A user can switch this to 4, which is less than 5, but they cannot switch it to 5 or more). 
-    ![xc5_general_settings_max_prod_number.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_max_prod_number.png)
+   For example, if we set this to "7", a user will not be able to change the number of products displayed per page to a number larger than 6 (See the screenshot below: The number of products currently displayed on a category page is 3. A user can switch this to 6, which is less than 7, but they cannot switch it to 7 or more). 
+    ![541-max-allowed-products-per-page.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-max-allowed-products-per-page.png)
+
 
 *   **Minimum allowed order subtotal**: This setting allows you to set the minimum order amount a shopper must reach before being allowed to check out.
     ![541-min-allowed-order-value.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-min-allowed-order-value.png)
