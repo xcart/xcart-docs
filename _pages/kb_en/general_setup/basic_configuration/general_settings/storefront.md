@@ -8,36 +8,38 @@ order: 110
 published: true
 ---
 The way your customers will see products and add them to cart in the storefront will depend on the settings specified in the Customer Zone settings section of the **Store setup > Cart & checkout**  (the tab **General**) page in the Admin area:
-
-![general_settings.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/general_settings.png)
+![541-customer-zone-settings.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-customer-zone-settings.png)
 
 The settings that you can configure here are as follows:
 
-*   **How to show out of stock products** : This setting allows you to specify whether out-of-stock products should be visible to customers on the storefront. The following options are available:
+*   **How to show out of stock products** : This setting allows you to specify whether out-of-stock products should be visible to customers on the storefront. 
+    
+    The following options are available:
     
     * _Show in all the sections_  
     * _Show only in categories and search listings_ 
-    * _Hide and make them available only via a direct link_ 
+    * _Show only in search listings_
+    * _Hide and make them available only via a direct link_ (default value)
     
 *   **Display check number for eCheck payment method**: This setting is used for stores with the Check payment method set up. It defines whether the payment information form provided to the customer who has chosen to pay by check should include a field for check number, or not.
     ![xc5_check_number_field.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_check_number_field.png)
 
 *   **Subcategory listings format**: This setting defines how subcategories should be displayed on category pages. 
     Setting the subcategory listings format to "_Icons_" allows you to have icons displayed for your subcategories:
-    ![xc5_subcategory_listings_icons.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_subcategory_listings_icons.png)
+    ![541-subcategories-icons.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-subcategories-icons.png)
 
     Setting the format to "_List_" produces a simple list of subcategory names, without icons:
-    ![xc5_subcategory_listings_list.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_subcategory_listings_list.png)
+    ![541-subcategories-list.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-subcategories-list.png)
     
     {% note info %}
-    This setting does not apply to root (top level) categories. The appearance of root categories on the store's Front page can be adjusted with the setting _'Root category listings format'_ in the **Content > Front page** section.
+    This setting does not apply to root (top level) categories. The appearance of root categories on the store's Home page can be adjusted with the setting _'Root category listings format'_ on the **Content > Front page** page of your store Admin area.
     {% endnote %}
 
 *   **Default order to sort products within a category**: This setting allows you to control the default display order for products within a category. 
     The following options are available:
 
-    *   _Recommended_ - Product sort order defined by the store owner via the category settings:
-        ![products-order.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/products-order.png)
+    *   _Recommended_ - Product sort order defined by the store owner via the category settings on the category details page in the store Admin area (**Catalog** -> **Categories** -> **<CATEGORY_NAME>** -> **Products**):
+        ![541-category-page-reorder.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-category-page-reorder.png)
  
     *   _Newest first_ - Products sorted by arrival date.
     
@@ -53,34 +55,37 @@ The settings that you can configure here are as follows:
     
     *   _Rate_ - (Enabled by the addon **Product reviews**) Products sorted by their rating (Products rated highest by the buyers are displayed first).
 
-*   **Default order to sort products within a search result**: This setting specifies the default sort order for products that may be displayed in a list of search results after someone searches for a product in the Customer area. If your store uses the default X-Cart's product search feature, the list of available options here is the same as for the setting 'Default order to sort products within a category' above. If your store's search is powered by CloudSearch, you do not need to adjust this option, because CloudSearch automatically sets the default sort order for search results to Relevance.
+*   **Default order to sort products within a search result**: This setting specifies the default sort order for products that may be displayed in a list of search results after someone searches for a product in the Customer area. If your store uses the default X-Cart's product search feature, the list of available options here is the same as for the setting 'Default order to sort products within a category' above. If your store's search is powered by {% link "CloudSearch" ref_5IHjr19k %}, you do not need to adjust this option, because CloudSearch automatically sets the default sort order for search results to relevance.
 
-*   **Default display mode for products list**: This setting allows you to set the default display mode for products on the storefront:
+*   **Default display mode for products list**: This setting allows you to set the default display mode for category products listing on a related category page in the storefront (does NOT affect bestsellers, featured products, etc.):
     
     *   _Grid_:
-        ![]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_grid_view.png)
+        ![541-product-listing-grid.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-product-listing-grid.png)
     
     *   _List_:
-        ![xc5_general_settings_list_view.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_list_view.png)
+        ![541-product-listing-list.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-product-listing-list.png)
 
     *   _Table_:
-        ![xc5_general_settings_table_view.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_table_view.png)
+        ![541-product-listing-table.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-product-listing-table.png)
 
 
-*   **Products per category listing page**: This setting allows you to specify the number of products that should be displayed on a category page by default (Users will be able to change the number of products displayed per page if they wish; here you set the number of products they see initially, before making any changes). For example, if we set this to "2", by default there will be only two products displayed per page. For the rest of the product list pagination will be provided:
-    ![xc5_general_settings_default_prod_number.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_default_prod_number.png)
+*   **Products per category listing page**: This setting allows you to specify the number of products that should be displayed on a category page by default (Users will be able to change the number of products displayed per page if they wish; here you set the number of products they see initially, before making any changes). 
+
+    For example, if we set this to "3", by default there will be only three products displayed per page. For the rest of the product list pagination will be provided:
+    ![541-products-per-category-listing-page.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-products-per-category-listing-page.png)
     
-*  **Maximum products per category listing page**: This setting allows you to set a limit on the maximum number of products that can be displayed on a category page. For example, if we set this to "5", a user will not be able to change the number of products displayed per page to a number larger than 4 (See the screenshot below: The number of products currently displayed on a category page is 2. A user can switch this to 4, which is less than 5, but they cannot switch it to 5 or more). 
+*  **Maximum products per category listing page**: This setting allows you to set a limit on the maximum number of products that can be displayed on a category page. 
+   
+   For example, if we set this to "5", a user will not be able to change the number of products displayed per page to a number larger than 4 (See the screenshot below: The number of products currently displayed on a category page is 2. A user can switch this to 4, which is less than 5, but they cannot switch it to 5 or more). 
     ![xc5_general_settings_max_prod_number.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_max_prod_number.png)
 
 *   **Minimum allowed order subtotal**: This setting allows you to set the minimum order amount a shopper must reach before being allowed to check out.
-    ![xc5_general_settings_min_subtotal.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_min_subtotal.png)
+    ![541-min-allowed-order-value.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-min-allowed-order-value.png)
 
 *   **Maximum allowed order subtotal**: This setting allows you to set the maximum order amount. A shopper will be allowed to check out only if their order subtotal amount is less than this value.
-    ![xc5_general_settings_max_subtotal.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_max_subtotal.png)
+    ![541-max-allowed-order-value.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-max-allowed-order-value.png)
     
-*   **Maximum order quantity (per product)**: This setting allows you to limit the number of product units that a buyer can order at a time. If a buyer attempts to add to cart more product units than specified here, only the allowed quantity will be added; the buyer will be notified of the quantity adjustment with an appropriate message:
-    ![xc5_general_settings_max_prod_units.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_max_prod_units.png)
+*   **Maximum order quantity (per product)**: This setting allows you to limit the number of product units that a buyer can order at a time. If a buyer attempts to add to cart more product units than specified here, only the allowed quantity will be added. The buyer will NOT be notified of the quantity adjustment.
 
 *   **Force customer to choose product options before adding a product to cart**: This setting affects the add to cart behavior for products with product options or variants. 
     
@@ -90,19 +95,24 @@ The settings that you can configure here are as follows:
     
     * _On Category and Product Details Page_ : With this option selected, the add to cart behavior on a category listing will be the same as desribed above (See the _On Category Listing_ option). In addition to that, if a shopper chooses to add a product to the shopping cart from the product details page, they will also have to select product options.    
 
-*   **Redirect customer to the cart page after a product is added to cart**: When this option is enabled, after adding a product to cart a shopper is redirected to the cart page where they can see the item they just added. When the option is disabled, the shopper remains on the same page. Please note that this setting is not compatible with X-Cart's addon Add to Cart: when the module Add to Cart is enabled, adding a product to cart results in a popup being displayed.
+*   **Redirect customer to the cart page after a product is added to cart**: When this option is enabled, after adding a product to cart a shopper is redirected to the cart page where they can see the item they just added. When the option is disabled, the shopper remains on the same page. 
+    {% note info %}
+    This setting is not compatible with X-Cart's addon {% link "Add to Cart PopUp" ref_1iGC8Efj %}. When the addon "Add to Cart PopUp" is enabled, adding a product to cart results in a popup being displayed.
+    {% endnote %}
 
 *   **Display "Add to cart" buttons for products in grid view**: This setting defines whether "Add to cart" buttons should be displayed for products in grid view, or not. The screenshot below demonstrates products in grid view with the "Add to cart" buttons enabled: 
-    ![xc5_general_settings_add2cart_button.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_add2cart_button.png)
+    ![541-add-to-cart-grid-view.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-add-to-cart-grid-view.png)
+    
+    {% note info %}
+    The setting affects only the grid view and has no impact on the list and table modes. For the latter, the "Add to cart" button displays for all products regardless of the value of this setting.
+    {% endnote %}
 
-    Note that this setting affects only grid view (does not affect list view and table view; in list view and table view "Add to cart" buttons are displayed at all times - regardless of the value of this setting).
-
-*   **Ask anonymous users to create an account or sign in before checkout**: If this option is enabled, a shopper who is not signed in at the time of clicking the Checkout button will be provided with a page where they can sign in to their account or create a new account:
+*   **Ask anonymous users to create an account or sign in before checkout**: If this option is enabled, a shopper who is not signed in at the time of clicking the "Checkout" button will be provided with a page where they can sign in to their account or create a new one:
     ![xc5_general_settings_login_b4_checkout.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_login_b4_checkout.png)
 
     When this option is disabled, such a page is not provided, and the shopper goes straight to the store's checkout page. 
     
-    A user who attempts to check out with an email address already existing in the database will be recognized by the system based on their email address and prompted to sign in if they wish to:
+    A user who attempts to check out with an email address already existing in the database is recognized by the system based on their email address and prompted to sign in if they wish to:
     ![xc5_general_settings_email_in_use.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_email_in_use.png)
 
 *   **Terms and conditions relative URL**: Relative URL of the static page with your store's Terms and conditions (enabled by the Simple CMS module). If the field is empty (for example, Simple CMS is not installed), a language variable from ?target=terms (Terms and conditions text) will be used (the Terms and conditions text will be displayed in a popup at checkout); this is part of core fuctionality, the module Simple CMS is not necessary.
