@@ -67,6 +67,12 @@ The settings that you can configure here are as follows:
 
     *   _Table_:
         ![541-product-listing-table.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-product-listing-table.png)
+        
+    {% note info %}
+    Be warned that the new value will automatically display for the new customers only (both registered and anonymous). In case a customer has already visited a category listing page, the original display mode is saved in session data and will remain unchanged.
+    
+    If you want to check the changes you have made, open the storefront in incognito mode of your browser.
+    {% endnote %}
 
 
 *   **Products per category listing page**: This setting allows you to specify the number of products that should be displayed on a category page by default (Users will be able to change the number of products displayed per page if they wish; here you set the number of products they see initially, before making any changes). 
