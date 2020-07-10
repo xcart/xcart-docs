@@ -23,18 +23,7 @@ Before you start making a back up copy of your store, make sure of the following
 
 * The directory to which you are going to save the backup copy has writable permissions.
 
-* The Customer area of your store is temporarily closed for maintenance.
+* The Customer area of your store is temporarily [closed for maintenance](https://kb.x-cart.com/general_setup/admin/overview.html#storefront-accessibility "Store BackUp Prerequisites").
   {% note info %}
   Having the Customer area closed ensures that none of your website visitors will be able to shop through your store and place orders while you are backing up your store, and the backup will include all the info that is available by the moment you start this task.
   {% endnote %}
-  
-  To close the store for maintenance:
-  1. Log in to the Admin area.
-  2. Find the 'View Storefront' option and turn it OFF
-  3. From here on, all your store visitors will be automatically redirected to a special page saying that the store is temporarily inaccessible and can be visited later. To open the store back, log in to the Admin area and turn ON the 'View Storefront' option.
-  
-  <div class="ui stackable three column grid">
-  <div class="column" markdown="span">![off-1.png]({{site.baseurl}}/attachments/ref_4X9iIR6L/off-1.png)</div>
-  <div class="column" markdown="span">![off-2.png]({{site.baseurl}}/attachments/ref_4X9iIR6L/off-2.png)</div>
-  <div class="column" markdown="span">![off-3.png]({{site.baseurl}}/attachments/ref_4X9iIR6L/off-3.png)</div>
-  </div>
