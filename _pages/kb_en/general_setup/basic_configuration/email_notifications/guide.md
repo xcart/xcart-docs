@@ -8,8 +8,7 @@ order: 100
 published: true
 ---
 A full list of email notifications available in your store can be found in the **Store setup** -> **Email notifications** section of the store Admin area.  
-
-![540-notifications-listing.png]({{site.baseurl}}/attachments/ref_18xvYU6L/540-notifications-listing.png)
+![541-email-notifications-page.png]({{site.baseurl}}/attachments/ref_18xvYU6L/541-email-notifications-page.png)
 
 {% toc %}
 
@@ -61,7 +60,7 @@ For the notifications to send, it is not enough to activate them in the notifica
 A store administrator can enable and disable email notifications directly on the listing page (**Store setup** -> **Email notifications**) in the store Admin area.
 
 To enable/disable a notification for a user type (Administrator or Customer) it is necessary to set the ON/OFF toggle for this user type to the corresponding value opposite a notification. 
-![540-enable-disable.png]({{site.baseurl}}/attachments/ref_18xvYU6L/540-enable-disable.png)
+![541-email-notifications-settings.png]({{site.baseurl}}/attachments/ref_18xvYU6L/541-email-notifications-settings.png)
 
 In case the ON/OFF toggle is in faded-green a notification can not be disabled.
 
@@ -91,4 +90,3 @@ For this purpose it will be necessary to set up email transfer settings in the *
 More information on email transfer settings see in:
 *  {% link "Configuring Email Transfer Settings" ref_5PirMonD %}
 *  {% link "Testing Your Email Transfer Settings with mail-tester.com" ref_1QrpKuD3 %}
-
