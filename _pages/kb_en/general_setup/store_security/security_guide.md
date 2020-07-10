@@ -18,8 +18,7 @@ First of all, ensure the server X-cart is installed at is {% link "configured se
 ## Step 2. Use SSL Certificates
 
 Make sure the server X-Cart is hosted at has an SSL (Secure Sockets Layer) Certificate installed. This will allow you to run you store in a secure HTTPS mode (can be enabled in the **System tools** -> **HTTPS settings** section). 
-
-![https-enabled.png]({{site.baseurl}}/attachments/ref_4ewdbDM8/https-enabled.png)
+![541-https-settings.png]({{site.baseurl}}/attachments/ref_1w4jshzv/541-https-settings.png)
 
 SSL certificates secure the data in transit during checkout. This keeps your company and your customers protected from having financial or important information compromised by hackers. More information on how to redirect customers from HTTP to HTTPS you can get {% link "here" ref_httpredirect %}. 
 
@@ -35,11 +34,10 @@ Perform regular X-Cart sofware {% link "upgrades" ref_pQQ1CLe1 %}. Automatic upd
 
 X-Cart allows to set {% link "special user access permissions" ref_38HKdc1f %} for different staff members depending on the roles they are performing in your store. Make sure each staff member has his personal account in your store and does not not use the main root admin account. 
 
-Besides that X-Cart has a special brut force protection built-in for both admin and customer login. In case of 6 failed login attempts (wrong password for a username) the login form is automatically blocked for 2 minutes. Each failed attempt to log in with an admin e-mail is registered and a special notification about it is sent to the administrator email specified in the  store **Contacts** (**Store setup** -> **Contact information**):
+Besides that X-Cart has a special brut force protection built-in for both admin and customer login. In case of 6 failed login attempts (wrong password for a username) the login form is automatically blocked for 2 minutes. Each failed attempt to log in with an admin e-mail is registered and a special notification about it is sent to the administrator email specified in the  store **Contacts** (**Store setup** -> **Store profile**):
+![541-store-profile-contacts.png]({{site.baseurl}}/attachments/ref_1w4jshzv/541-store-profile-contacts.png)
 
-![contact-info.png]({{site.baseurl}}/attachments/ref_4ewdbDM8/contact-info.png)
-
-For more protection use the built-in addon {% link "Two Factor Authentication" ref_30a8vM7c %} that enables a two-step verification for both admin and customer accounts.
+For more protection use the built-in addon {% link "Two Factor Authentication" ref_30a8vM7c %} that enables a double-step verification for both admin and customer accounts.
 
 ## Step 5. Make Sure Your Store Has Multi-layered Security
 
