@@ -13,18 +13,19 @@ redirect_from:
 Each email notification consists of a header, a greeting and a signature that are the same for a user type storewide and of a message that differs for each notification and type of user receiving it. It also can include dynamic data from the store, like order notifications that display information on a particular order. A store admin can change any part of a default email to meet particular business needs and can also restructure it by excluding information partially. 
 
 The structure of an email notification and the message it embodies can be edited via the **Store setup** -> **Email notifications** section of the Admin area.
-![540-notifications-listing.png]({{site.baseurl}}/attachments/ref_1qTqS245/540-notifications-listing.png)
+![541-email-notifications-page.png]({{site.baseurl}}/attachments/ref_1qTqS245/541-email-notifications-page.png)
 
 To edit a notification:
 
 1. Locate a notification on the listing page (**Store setup** -> **Email notifications** -> **Settings**) and click on its title. 
-   ![540-edit-notification-1.png]({{site.baseurl}}/attachments/ref_1qTqS245/540-edit-notification-1.png)
+   ![541-email-notifications-select.png]({{site.baseurl}}/attachments/ref_1qTqS245/541-email-notifications-select.png)
+
    A page with the email notification settings opens. Use this page to modify the notification structure and the message it embodies.
-   ![540-edit-notification-2.png]({{site.baseurl}}/attachments/ref_1qTqS245/540-edit-notification-2.png)
+   ![541-email-notification-details.png]({{site.baseurl}}/attachments/ref_1qTqS245/541-email-notification-details.png)
    
    {% note info %}
    In case a notification can be sent to more than one type of user, you will see a special tab in the header for each of the user types. To change the notification for a particular user type open the respective tab for editing:
-   ![540-edit-notification-3.png]({{site.baseurl}}/attachments/ref_1qTqS245/540-edit-notification-3.png)
+   ![541-email-notification-details-user.png]({{site.baseurl}}/attachments/ref_1qTqS245/541-email-notification-details-user.png)
    {% endnote %}
 
 2. Edit the body of a notification that consists of the following 3 parts:
@@ -56,8 +57,8 @@ To edit a notification:
         {% endnote %}
      * **Dynamic message** : This field is optional and exists not in every notification. This field forms a dynamic content that (if exists) is added to an email below the notification text (default location); alternatively, it may be inserted in another location within the notification via the variable %dynamic_message%. 
          <div class="ui stackable two column grid">
-           <div class="column" markdown="span"><b>Default location</b>![540-dymanic-message-default.png]({{site.baseurl}}/attachments/ref_1qTqS245/540-dymanic-message-default.png)</div>
-           <div class="column" markdown="span"><b>Custom location</b>![540-dynamic-message.png]({{site.baseurl}}/attachments/ref_1qTqS245/540-dynamic-message.png)</div>
+           <div class="column" markdown="span"><b>Default location</b>![541-dynamic-content-default.png]({{site.baseurl}}/attachments/ref_1qTqS245/541-dynamic-content-default.png)</div>
+           <div class="column" markdown="span"><b>Custom location</b>![541-dynamic-content-on.png]({{site.baseurl}}/attachments/ref_1qTqS245/541-dynamic-content-on.png)</div>
          </div>
        
        To change the dynamic content of a notification:
@@ -87,7 +88,7 @@ To edit a notification:
 3. Click **Save changes** to submit the new settings.
 
    A store admin can preview a full email and send a test notification to the admin email using the respective buttons in the bottom of each notification settings page:
-   ![541-bottom-buttons.png]({{site.baseurl}}/attachments/ref_1qTqS245/541-bottom-buttons.png)
+   ![541-email-notification-details-bottom.png]({{site.baseurl}}/attachments/ref_1qTqS245/541-email-notification-details-bottom.png)
    
    Below is a sample default email notification "Low limit warning":
    ![540-email.png]({{site.baseurl}}/attachments/ref_1qTqS245/540-email.png)
