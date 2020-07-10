@@ -114,7 +114,7 @@ Once the addon has been installed, open the addon settings page to configure the
   
   Available options are: 
   * ZipArchive class biult into PHP
-  * Linux Shell commands (enabled by default)
+  * Linux Shell commands [enabled by default]
   * Linux Shell commands (without compression)
   
   {% note info %}
