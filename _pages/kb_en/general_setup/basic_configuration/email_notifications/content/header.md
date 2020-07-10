@@ -11,7 +11,7 @@ redirect_from:
   - /general_setup/basic_configuration/email_notifications/header.html
 ---
 In an X-Cart store, all email notifications have a header, a greeting and a signature that differ depending on the user type a message is sent to. These settings are configured storewide and can be edited via the **Header, greeting & signature** section of the **Store setup** -> **Email notifications** page. 
-  ![541-header-greeting-signature.png]({{site.baseurl}}/attachments/ref_2W845gkS/541-header-greeting-signature.png)
+  ![541-email-header-greetings-signature.png]({{site.baseurl}}/attachments/ref_2W845gkS/541-email-header-greetings-signature.png)
 
 The **Header, greeting & signature** page is devided into sections depending on the user type:
 * Customer email notification
@@ -20,7 +20,7 @@ The **Header, greeting & signature** page is devided into sections depending on 
 * Admin email notification
   ![540-admin-set.png]({{site.baseurl}}/attachments/ref_2W845gkS/540-admin-set.png)
 
-* Vendor email notification (added by a Multi-vendor addon)
+* Vendor email notification (added by a {% link "Multivendor" ref_4ahg5FLK %} addon)
   ![540-vebdor-set.png]({{site.baseurl}}/attachments/ref_2W845gkS/540-vebdor-set.png)
 
 Each section contains the same set of properties that can be configured for all notifications received by a certain type of users:
