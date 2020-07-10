@@ -44,9 +44,9 @@ To test your email transfer configuration:
 
       * Create a new store user with the email address you have copied from Mail Tester. This will trigger the sending of an email notification to that email address.
       Or:
-      * Go to **Store setup** > **Email notifications** and select the **Email transfer settings** tab. 
-        On the page that opens, scroll down to the section "Test email configuration":
-        ![test.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/test.png)
+      * Go to **Store setup** > **Email notifications** and select the **Test email configuration** tab:
+        ![541-test-email-configuration.png]({{site.baseurl}}/attachments/ref_1QrpKuD3/541-test-email-configuration.png)
+
         Paste the email address you have copied into the "TO:" field. 
         Use the form to send a test email.
    
