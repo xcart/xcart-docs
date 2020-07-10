@@ -28,7 +28,7 @@ The FROM address is the address of the email sender. This address is really impo
 To adjust the FROM and REPLY-TO fields of your store's email notifications, follow the steps below: 
 
 1. In the **Store setup** -> **Email notifications** section, select the **E-Mail transfer settings** tab:
-   ![xc5_notif_emai_transfer_settings.png]({{site.baseurl}}/attachments/ref_5PirMonD/xc5_notif_emai_transfer_settings.png)
+   ![541-email-transfer-settings.png]({{site.baseurl}}/attachments/ref_5PirMonD/541-email-transfer-settings.png)
 
 2. On the page that opens, adjust your store's FROM/REPLY-TO settings:
    
@@ -44,18 +44,20 @@ To adjust the FROM and REPLY-TO fields of your store's email notifications, foll
 
 3. Click **Submit** to save the changes. 
 
-You can test the sending of email messages using the email addresses you have specified in the FROM/REPLY-TO settings section via the **Test email configuration** section at the bottom of the page. 
-   ![test.png]({{site.baseurl}}/attachments/ref_5QLrLCu7/test.png)
+You can test the sending of email messages using the email addresses you have specified in the FROM/REPLY-TO settings section via the **Test email configuration** tab of the **Store setup** -> **Email notifications** section. 
+   ![541-test-email-configuration.png]({{site.baseurl}}/attachments/ref_5PirMonD/541-test-email-configuration.png)
 
 ## Specifying Your SMTP Server Connection Details
 
-If you want to send email notifications using an SMTP server different from the default one, enable the **'Use SMTP server'** option. This will allow you to specify the SMTP server connection details.
+If you want to send email notifications using an SMTP server different from the default one, enable the **'Use SMTP server'** option on the "E-Mail transfer settings" page of your store Admin area (**Store setup** -> **Email notifications** -> **E-Mail transfer settings** tab):
+![541-smtp-off.png]({{site.baseurl}}/attachments/ref_5PirMonD/541-smtp-off.png)
 
-![smtp.png]({{site.baseurl}}/attachments/ref_5PirMonD/smtp.png)
+This will allow you to specify the SMTP server connection details.
+![541-smtp.png]({{site.baseurl}}/attachments/ref_5PirMonD/541-smtp.png)
 
 * **SMTP server**: Specify your SMTP server hostname.  
 * **SMTP port**: Specify your SMTP port. By default, SMTP uses TCP port 25. However, if you are going to use secure SSL/TLS encrypted SMTP, you need to specify the correct TCP port number for your system here. Typically, the port number for secure SMTP is 465.
-* **Use authentication'**: Specify whether SMTP authentication is going to be used.
+* **Use authentication'**: Switch on the toggel if you want to use SMTP authentication.
 * **Username**: Specify your username.
 * **Password**: Specify your password.
 * **Secure connection**: In itself, SMTP email transfer doesn't provide an encryption, so you may want to use an SSL/TLS extension that employs a separate port for encrypted communication. Use this field to specify whether such an extension is going to be used.
