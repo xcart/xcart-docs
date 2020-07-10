@@ -110,7 +110,7 @@ To install the addon, go to the **My addons** section of the Admin area and foll
 Once the addon has been installed, open the addon settings page to configure the backup method.
 ![541-backup-master-settings-page.png]({{site.baseurl}}/attachments/ref_1kRBEegE/541-backup-master-settings-page.png)
 
-* **Backup mode** : Select a backup mode from the list
+* **Backup mode** : Select a backup mode from the list.
   
   Available options are: 
   * ZipArchive class biult into PHP
