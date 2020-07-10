@@ -22,7 +22,7 @@ You will need to adjust the following paramethers:
 
 ![tfa-settings-page.png]({{site.baseurl}}/attachments/ref_30a8vM7c/tfa-settings-page.png)
 
-* **API key** : Specify the APY key from your [Authy.com](dashboard.authy.com  "Two factor authentication") account. 
+* **API key** : Specify the API key from your [Authy.com](https://dashboard.authy.com/signin "Two Factor Authentication") account. 
   
   If you do not have an account yet, follow the steps below to create an Authy API Key: 
   * Create a Twilio account [here](https://www.twilio.com/try-twilio "Two factor authentication")
