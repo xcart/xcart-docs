@@ -9,7 +9,7 @@ published: true
 redirect_from:
   - /general_setup/backup-restore/restore.html
 ---
-Generally speaking, restoring a store from a backup copy is an inverse procedure to creating the backup copy. When restoring the store, you are expected to use the same tools that you used to create the backup copy. Similar to creating the backup, restoring does not cause any serious difficulties, but it yet requires the standard sequence of operations: restore the store files and then restore the database. One of the major rules to be observed is to restore data from the backup to a newly created directory within the WWW part of your hosting account. You must keep with this rule no matter whether you simply copy/move the store to a new location or replace an existing installation with the backup copy. After you have restored your store from the backup, you may need to adjust some configuration settings, including the values of the variables in the main configuration file config.php, paths to images, file permissions, etc.
+Generally speaking, restoring a store from a backup copy is an inverse procedure to creating a backup copy. When restoring the store, you are expected to use the same tools that you used to create the backup copy. Similar to creating the backup, restoring does not cause any serious difficulties, but it yet requires the standard sequence of operations: restore the store files and then restore the database. One of the major rules to be observed is to restore data from the backup to a newly created directory within the WWW part of your hosting account. You must keep with this rule no matter whether you simply copy/move the store to a new location or replace an existing installation with the backup copy. After you have restored your store from the backup, you may need to adjust some configuration settings, including the values of the variables in the main configuration file config.php, paths to images, file permissions, etc.
 
 The instructions below generally describe how to restore X-Cart files from a backup copy. Examples and notes are provided for UNIX- and Windows-based servers. Many of the listed operations can be carried out through your server/hosting control panel (if any).
 
@@ -81,14 +81,15 @@ The store administrator can restore the database either through the X-Cart Admin
 
 To restore the database through the X-Cart Admin area:
 
-1. Log in to the Admin area.
+1. Open the "Restore database" page in your store Admin area (**System Tools** -> **Database** -> **Restore database**)
+   ![541-restore-database-page.png]({{site.baseurl}}/attachments/ref_080K3Qe7/541-restore-database-page.png)
 
-2. Go to the **Restore Database** tab in the **System Tools** -> **Database** section;
-  ![restore.png]({{site.baseurl}}/attachments/ref_080K3Qe7/restore.png)
+2. Make sure the storefront is closed as described [here](https://kb.x-cart.com/general_setup/admin/overview.html#storefront-accessibility "Files and Database Restoration"):
+   ![541-database-page-closed.png]({{site.baseurl}}/attachments/ref_080K3Qe7/541-database-page-closed.png)
 
-3. Restore the database from the SQL dump using the instructions below.
+3. Restore the database from an SQL dump using the instructions below.
    
-   If the SQL dump was saved using the Create SQL file option, i.e. was saved as a file on the web server ('var/backup/sqldump.sql.php'):
+   If the SQL dump was done using the **Create SQL** file option, i.e. was saved as a file on the web server ('var/backup/sqldump.sql.php'):
     * Click the 'Restore from server' button.
     * Wait until the system displays a message saying that the database has been restored successfully.
     {% note info %}
