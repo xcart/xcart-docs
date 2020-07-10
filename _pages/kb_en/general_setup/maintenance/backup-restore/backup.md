@@ -9,11 +9,11 @@ published: true
 redirect_from:
   - /general_setup/backup-restore/backup.html
 ---
-The administrator of an X-Cart based store can back up the store database in a few easy steps directly from the Admin area. 
+The administrator of an X-Cart based store can back up the database in a few easy steps directly from the Admin area. 
 
-If your X-Cart store uses any 3rd party or custom addons, and the data of these addons is stored _not_ in the X-Cart database but elsewhere, this data will not be included into the database backup created with the X-Cart's standard backup utilities.
+If your X-Cart store uses any 3rd party or custom add-ons, and the data of these addons locate _not_ in the X-Cart database but elsewhere, these data will not include into the database backup created with the X-Cart's standard backup utilities.
 
-Hence there can be cases when you have to back up the database manually so the dump includes all the store data. For this purpose you can use any adequate facility, including different client implementations of the SSH protocol like OpenSSH or PuTTY, Telnet, phpMyAdmin, MySQL console, control panel of your hosting account, Remote Desktop client and other. 
+Hence there can be cases when you have to back up the database manually, so the dump includes all the store data. For this purpose, you can use any adequate facility, including different client implementations of the SSH protocol like OpenSSH or PuTTY, Telnet, phpMyAdmin, MySQL console, a control panel of your hosting account, Remote Desktop client and other. 
 
 {% toc %}
 
@@ -21,14 +21,19 @@ Hence there can be cases when you have to back up the database manually so the d
 
 To back up the database through the X-Cart Admin area:
 
- 1. Log in to the Admin area.
- 2. Open the 'Database Backup' tab in the **System tools** -> **Database** section.
- ![backup.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup.png)
- 3. In the 'Database backup' tab choose the option that suits you better and click on it. 
+ 1. Open the "Backup database" page in your store Admin area (**System tools** -> **Database**).
+    ![541-database-page.png]({{site.baseurl}}/attachments/ref_1kRBEegE/541-database-page.png)
+ 
+ 2. Make sure customer storefront is closed as described [here](https://kb.x-cart.com/general_setup/admin/overview.html#storefront-accessibility "Files and Database Backup"):
+    ![541-database-page-closed.png]({{site.baseurl}}/attachments/ref_1kRBEegE/541-database-page-closed.png)
 
-{% note info %}
-If you do not have access to your server/hosting account through FTP, SSH or other suitable facility, do not select the check box and save the SQL file directly to your local computer.
-{% endnote %}
+ 3. Create a database backup using one of the following ways: 
+    * Download SQL file : An .sql file will be downloaded to your local computer.
+    * Create SQL file : An .sql file will be saved on the server your store is hosted at. You will be able to download the file from the server later and, after that, delete it from the server using the "Delete SQL file" button.
+
+      {% note info %}
+      If you do not have access to your server/hosting account through FTP, SSH or other suitable facility, use the "Download SQL file" variant and save the SQL file directly to your local computer.
+      {% endnote %}
 
 ## Database Backup with Terminal Access
 
@@ -100,28 +105,34 @@ After you have run the command, TAR will pack all the files in the X-Cart root d
 To make the process of creating a full store backup more convenient and straighforward, you can use the [Backup Master](https://market.x-cart.com/addons/backup-master.html "Files and Database Backup") addon for X-Cart. Using this addon facilitates the creation of both database and full store files backups. 
 
 To install the addon, go to the **My addons** section of the Admin area and follow the procedure described in {% link "Activating and Deactivating Addons" ref_uEnDBBA7 %}. 
-![backup_master_addon.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup_master_addon.png)
+![541-backup-master-addon-instaled.png]({{site.baseurl}}/attachments/ref_1kRBEegE/541-backup-master-addon-instaled.png)
 
 Once the addon has been installed, open the addon settings page to configure the backup method.
+![541-backup-master-settings-page.png]({{site.baseurl}}/attachments/ref_1kRBEegE/541-backup-master-settings-page.png)
 
-You can choose one of the following methods:
-* ZipArchive class biult into PHP
-* Linux Shell commands
-* Linux Shell commands (without compression)
-
-{% note info %}
-Using Linux Shell commands is much faster, so it is the recommended option for Linux servers.
+* **Backup mode** : Select a backup mode from the list
+  
+  Available options are: 
+  * ZipArchive class biult into PHP
+  * Linux Shell commands (enabled by default)
+  * Linux Shell commands (without compression)
+  
+  {% note info %}
+  Using Linux Shell commands is much faster, so it is the recommended option for Linux servers.
 ZipArchive class may fail when working with large backup files, but it is the only option available on Windows servers, unfortunately.
-{% endnote %}
+  {% endnote %}
 
-A predefined backup method is Linux Shell commands. If you change it, do not forget to **Submit** the changes. 
+* **Include images into backup** : Turn the toggle on if you want to included images in a backup.
+* **Include attachments into backup** : Turn the toggle on if you want to included images in a backup. 
 
 To make a full store backup using the Backup Master addon go to the **System tool** -> **Backup** section and click a **'Create backup'** button.
 
 <div class="ui stackable three column grid">
-  <div class="column" markdown="span">![backup-1.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup-1.png)</div>
-  <div class="column" markdown="span">![backup2.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup2.png)</div>
-  <div class="column" markdown="span">![backup-3.png]({{site.baseurl}}/attachments/ref_1kRBEegE/backup-3.png)</div>
+  <div class="column" markdown="span">![541-backup-master-page-1.png]({{site.baseurl}}/attachments/ref_1kRBEegE/541-backup-master-page-1.png)</div>
+  <div class="column" markdown="span">![541-backup-master-page-2.png]({{site.baseurl}}/attachments/ref_1kRBEegE/541-backup-master-page-2.png)</div>
+  <div class="column" markdown="span">![541-backup-master-page-3.png]({{site.baseurl}}/attachments/ref_1kRBEegE/541-backup-master-page-3.png)</div>
 </div>
 
-The addon will create a full cart backup and will list it in a history of backups where you can see a path to the backup file to use it further, the file size and date of creation. To delete a backup click the Trash icon next to it.
+The addon will create a full cart backup and will list it in a history of backups where you can see a path to a backup file, a file size and date of creation. 
+
+To delete a backup click the "Trash" icon next to it.
