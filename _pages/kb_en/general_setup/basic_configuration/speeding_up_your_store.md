@@ -45,9 +45,7 @@ When X-Cart uses widgets cache, the static content of product lists is stored in
 {% endnote %}
 
 If you have custom mods, you may consider [making some of their widgets cached](http://devs.x-cart.com/en/design_changes/making_your_custom_widget_cached.html) as well.
-
-![performance.png]({{site.baseurl}}/attachments/ref_WqHzxAmJ/performance.png)
-
+![541-performance-page.png]({{site.baseurl}}/attachments/ref_WqHzxAmJ/541-performance-page.png)
 
 ## Step 2\. Disable Any Unused Addons
 
