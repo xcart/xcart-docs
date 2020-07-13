@@ -51,7 +51,7 @@ To create the OAuth 2.0 credentials:
    * **Return URL** : The URL to which you redirect buyers from the PayPal website. 
      ![cwpp-5.png]({{site.baseurl}}/attachments/ref_1iufT1pq/cwpp-5.png)
     
-     You can copy and paste the return URL from the PayPal addon settings page of your X-Cart Admin Area:
+     You can copy and paste the return URL from the PayPal Checkout addon settings page of your X-Cart Admin Area:
      ![541-redirect-url.png]({{site.baseurl}}/attachments/ref_1iufT1pq/541-redirect-url.png)
     * **Connect with PayPal** : Enable the option for your customers can to use their PayPal login for account management on your website or application.
       ![cwpp-6.png]({{site.baseurl}}/attachments/ref_1iufT1pq/cwpp-6.png)
@@ -67,7 +67,7 @@ Now that you have created your PayPal app with REST API credentials and necessar
 
 {% note warning %}
 PREREQUISITES:
-   You need to have the {% link "PayPal Addon" ref_0mnK3aMh %} installed and enabled in your X-Cart store Admin area.
+   You need to have the {% link "PayPal Checkout" ref_159XHNAD %} addon installed and enabled in your X-Cart store Admin area. For X-Cart 5.4.0.x and earlier, use {% link "PayPal Addon" ref_0mnK3aMh %} integration.
    
    For the guidelines on the addons installation see {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 {% endnote %}
@@ -77,13 +77,13 @@ Once you have created and configured your PayPal OAuth 2.0 Credentials, you will
 See how to obtain PayPal OAuth 2.0 credentials here.
 
 To configure the Connect with PayPal feature:
-1. In the **My Addons** section of your X-Cart Service Screen, locate the entry for the Social Login module and click the **Settings** link below it:
-   ![541-addon-settings.png]({{site.baseurl}}/attachments/ref_1iufT1pq/541-addon-settings.png)
+1. In the **My Addons** section of your X-Cart Service Screen, locate the entry for the PayPal Checkout addon and click the **Settings** link below it:
+   ![541-ppcp-settings-link.png]({{site.baseurl}}/attachments/ref_1iufT1pq/541-ppcp-settings-link.png)
 
-   This opens the PayPal addon settings page.
+   This opens the addon settings page.
    ![541-paypal-settings-page.png]({{site.baseurl}}/attachments/ref_1iufT1pq/541-paypal-settings-page.png)
 
-2. On the PayPal addon settings page configure the settings as follows:
+2. On the addon settings page configure the settings as follows:
    * **Client Id** : Paste here the ID value you obtained when created a PayPal app.
    * **Client Secret** : Paste here the password value you obtained when created a PayPal app.
    * **Test/Live mode** : Set the operating mode for Connect with PayPal (‘Live’ should be selected for live stores, ‘Test’ - for testing). Note that for testing you will need to use test PayPal accounts; i.e. you will need at least one test seller account and one test buyer account. 
