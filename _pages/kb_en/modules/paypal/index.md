@@ -6,9 +6,10 @@ identifier: ref_0mnK3aMh
 title: PayPal Addon
 order: 194
 published: true
+version: X-Cart 5.4.0 and earlier
 ---
-PayPal payments can be enabled in X-Cart using the addon **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal addon")** by X-Cart team:
-   ![paypal_addon.png]({{site.baseurl}}/attachments/ref_0mnK3aMh/paypal_addon.png)
+The **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal addon")** addon by X-Cart team provides integration with PayPal payment methods based on PayPal API v1:
+![paypal_addon.png]({{site.baseurl}}/attachments/ref_0mnK3aMh/paypal_addon.png)
 
 This addon can be used to enable payments via:
 
