@@ -15,3 +15,7 @@ The new integration allows merchants to accept dozens of payment methods, includ
 To use the new PPCP integration a merchant must have a PayPal Business Account. It is also possible to use existing PayPal accounts in case they have first party credentials (API username, password, signature). All the existing merchants need to do for migration is click the same connect button as new merchants in PPCP payment method.
 
 The old (API v1 based) integration is available for the users of X-Cart 5.4.0.x and earlier via the {% link "PayPal Addon" ref_0mnK3aMh %}.
+
+The PayPal Checkout addon can also be used to enable the Connect with PayPal feature for your X-Cart store.
+
+* {% link "PayPal Checkout" ref_159XHNAD %}
