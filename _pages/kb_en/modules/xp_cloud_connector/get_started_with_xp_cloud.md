@@ -28,8 +28,12 @@ For navigation around the different sections of X-Payments Cloud, use the Settin
 Note that for security reasons the length of an edit session in X-Payments Cloud is limited to 15 minutes. 30 seconds before your edit session expires, a warning message will pop up on the page being edited to notify you that your current edit session is about to expire. To continue editing, be sure to reload the page before the expiration of your 15-minute edit session; in this case, the edit session will be renewed. If the page does not get reloaded before the edit session expiration time, you will have to re-enter your X-Payments Cloud sign-in credentials to resume editing. If viewing the X-Payments Cloud admin panel from within your X-Cart store, after the expiration of your edit session, you will continue seeing the last page you were editing, but the system will switch to *Quick access* mode. In this mode, you will be able to quickly enable/disable your X-Payments Cloud payment methods without having to sign in to your X-Payments Cloud user account, but you will not be able to adjust any general settings or configure more payment methods. Any sensitive content already entered in X-Payments Cloud will be hidden behind asterisks (Note the contents of the fields API login ID, Transaction key, etc.):
 ![xpc_quick_access_mode.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xpc_quick_access_mode.png)
 
-To view the hidden content and/or to resume editing the X-Payments Cloud settings, you will need to unlock editing by clicking on the padlock icon displayed next to the title of the page being viewed or the **Unlock editing** link at the top right-hand side of the page:
+To view the hidden content and/or to resume editing the X-Payments Cloud settings, you will need to unlock editing. To do so:
+1. Click on the padlock icon displayed next to the title of the page being viewed or the **Unlock editing** link at the top right-hand side of the page:
 ![xpc_quick_access_mode1.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xpc_quick_access_mode1.png)
+2. Enter your X-Payments Cloud account password and click Log in.
+3. Complete 2nd step of user authentication by providing an appropriate code (SMS, Google Auth or backup code).
+After that, you will have full access to view and edit the details pertaining to your X-Payments Cloud account connection in your X-Cart store Admin area. 
 
 Detailed information on configuring all the settings in your X-Payments Cloud account is available in the [X-Payments Cloud User manual](https://www.x-payments.com/help/XP_Cloud:User_manual "Getting Started with X-Payments Cloud").
 
