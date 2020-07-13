@@ -80,7 +80,7 @@ _In this section:_
 *   {% link "Newsletter Subscriptions" ref_2WzsM3Pg %}
 *   {% link "Not Finished Orders" ref_5TMbPwNQ %}
 *   {% link "Order Reports" ref_52nVzkWs %}
-*   {% link "PayPal Addon" ref_0mnK3aMh %}
+*   {% link "PayPal Checkout" ref_159XHNAD %}
 *   {% link "PayPal Powered by Braintree" ref_3KUvRKEv %}
 *   {% link "PDF Invoices" ref_4pIx0x0g %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
