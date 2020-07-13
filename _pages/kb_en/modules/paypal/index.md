@@ -5,7 +5,7 @@ updated_at: '2020-07-13 14:43 +0400'
 identifier: ref_159XHNAD
 title: PayPal Checkout
 order: 194
-published: false
+published: true
 version: X-Cart 5.4.1.x and higher
 ---
 The PayPal Checkout addon integrates a new [PayPal Commerce Platform (PPCP)](https://www.paypal.com/us/business "PayPal Commerce Platform") into X-Cart based on first party type of PayPal API v2.
