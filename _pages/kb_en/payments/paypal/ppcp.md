@@ -17,4 +17,4 @@ The new integration is called PayPal Checkout in X-Cart Admin area and supports 
 * No matter which payment method the buyer selects, all payments are received into one source, allowing for easy withdrawal and consolidated reporting.
 * PayPal badge in the storefront header (can be turned off).
 
-To use the new PPCP inetgration a merchant must have a PayPal Business Account. It is also possible to use existing PayPal accounts in case they have first party credentials (API username, password, signature). All the existing merchants need to do for migration is click the same connect button as new merchants in PPCP payment method.
+To use the new PPCP integration a merchant must have a PayPal Business Account. It is also possible to use existing PayPal accounts in case they have first party credentials (API username, password, signature). All the existing merchants need to do for migration is click the same connect button as new merchants in PPCP payment method.
