@@ -28,10 +28,13 @@ An X-Cart store can be configured to accept payments with PayPal. Depending on t
       - {% link "Paypal Payflow Link" ref_5tBeUaTL %}
       - {% link "Paypal Payments Advanced" ref_sO5X6iBT %}
       - {% link "Paypal Payments Standard" ref_6fTEi1Bv %}
-      
+   
+   {% note info %}
    The new and old integrations can NOT be used at the same time.
    
    More information is available in the section {% link "PayPal Checkout" ref_159XHNAD %} of this manual.
+   {% endnote %}
+   
 
 * **[X-Payments](https://www.x-payments.com/ "PayPal")** (a payments platform by a PCI Level 1 certified service provider; X-Cart addon **X-Payments connector** is required to connect). This solution can be used to enable payments via:
 
