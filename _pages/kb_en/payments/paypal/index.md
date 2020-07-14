@@ -9,20 +9,29 @@ categories:
 published: true
 order: 300
 ---
-An X-Cart 5 online store can be configured to accept payments with PayPal. Depending on the type of PayPal solution you require, you will need to use one of the following solutions: 
+An X-Cart store can be configured to accept payments with PayPal. Depending on the type of PayPal platform you require, you will need to use one of the following integration solutions: 
 
-* **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal")** addon for X-Cart by X-Cart team. This solution can be used to enable payments via:
+* **[PayPal Checkout](https://market.x-cart.com/addons/paypal.html "PayPal")** addon for X-Cart by X-Cart team. 
 
-   *   {% link "PayPal Express Checkout" ref_vHffMFLk %}
-   *   {% link "PayPal Payments Standard" ref_DT2EX6fz %}
-   *   {% link "PayPal Payments Advanced" ref_sO5X6iBT %}
-   *   {% link "PayPal Payflow Link" ref_mTCkpViN %}
-   *   {% link "PayPal for Marketplaces" ref_6iphJijP %} (supports multiple payment recipients; is recommended for X-Cart Multivendor PayPal Adaptive Payments)
-   *   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %} (legacy)
-   *   {% link "PayPal Partner Hosted with PCI Compliance" ref_0gaUolue %}
-   *   {% link "PayPal Credit" ref_46r2geWj %}
+   This addon can be used to enable payments via:
    
-   More information is available in the section {% link "PayPal addon" ref_0mnK3aMh %} of this manual.
+   * PayPal Commerce Platfrom (PayPal Checkout in X-Cart) - The new first party type of integration of the PayPal API v2 that merges the functionality of the following old PayPal payment solutions:
+     - PayPal Payments Standard
+     - PayPal Payments Advanced
+     - PayPal Payflow Link
+     - PayPal Express Checkout
+     - PayPal Credit
+     - PayPal Partner Hosted with PCI Compliance
+     
+    * A number of PayPal API v1 based integrations like:
+      - {% link "PayPal Partner Hosted with PCI Compliance" ref_0gaUolue %}
+      - {% link "Paypal Payflow Link" ref_5tBeUaTL %}
+      - {% link "Paypal Payments Advanced" ref_sO5X6iBT %}
+      - {% link "Paypal Payments Standard" ref_6fTEi1Bv %}
+      
+   The new and old integrations can NOT be used at the same time.
+   
+   More information is available in the section {% link "PayPal Checkout" ref_159XHNAD %} of this manual.
 
 * **[X-Payments](https://www.x-payments.com/ "PayPal")** (a payments platform by a PCI Level 1 certified service provider; X-Cart addon **X-Payments connector** is required to connect). This solution can be used to enable payments via:
 
