@@ -43,8 +43,13 @@ An X-Cart store can be configured to accept payments with PayPal. Depending on t
 
 * **[PayPal Here](https://market.x-cart.com/addons/PayPal-Here-payment-module.html "PayPal")** addon for X-Cart by Qualiteam. This addon and a mobile device with the PayPal Here application installed are required to use the PayPal Here solution by PayPal. 
 
+_In this section:_
+
+*   {% link "PayPal Commerce Platform Overview" ref_77eLHGNI %}
+*   {% link "PayPal Solutions Overview (API v1)" ref_3CGeXccD %}
+*   {% link "PayPal Payments Pro " ref_6k1NvzJp %}
+
 
 _See also:_
 
 *   {% link "Braintree" ref_3U96LOWn %}
-*   {% link "PayPal Solutions Overview" ref_3CGeXccD %}
