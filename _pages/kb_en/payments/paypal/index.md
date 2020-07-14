@@ -22,7 +22,7 @@ An X-Cart store can be configured to accept payments with PayPal. Depending on t
      - PayPal Express Checkout
      - PayPal Credit
      - PayPal Partner Hosted with PCI Compliance
-     
+         
     * A number of PayPal API v1 based integrations like:
       - {% link "PayPal Partner Hosted with PCI Compliance" ref_0gaUolue %}
       - {% link "Paypal Payflow Link" ref_5tBeUaTL %}
