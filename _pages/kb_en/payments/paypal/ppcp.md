@@ -3,9 +3,9 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2020-07-13 12:43 +0400'
 identifier: ref_77eLHGNI
-title: PayPal Commerce Platform
+title: PayPal Commerce Platform Overview
 order: 100
-published: false
+published: true
 version: X-Cart 5.4.1.x and higher
 ---
 Starting with v5.4.1.x, X-Cart introduces a new PayPal integration called [PayPal Commerce Platform (PPCP)](https://www.paypal.com/us/business "PayPal Commerce Platform"). This is a first party type of integration of the PayPal API v2.
