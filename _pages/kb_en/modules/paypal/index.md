@@ -18,11 +18,9 @@ The new PPCP integration merges the functionality of the following former PayPal
 - PayPal Credit
 - PayPal Partner Hosted with PCI Compliance
 
-The new PPCP inetgration allows merchants to accept dozens of payment methods, including PayPal, PayPal Credit, major Debit and Credit cards, and local payment methods such as iDEAL. Credit cards are accepted through hosted fields on X-Cart checkout, allowing merchants to be PSD2 compliant and reduce their PCI compliance burden. A best suitable payment method for each buyer is selected dynamically by a special payment button tech. No matter which payment method the buyer selects, all payments are received into one source, allowing for easy withdrawal and consolidated reporting.
+The new PPCP inetgration allows merchants to accept dozens of payment methods, including PayPal, PayPal Credit, major Debit and Credit cards, and local payment methods. Credit cards are accepted through hosted fields on X-Cart checkout, allowing merchants to be PSD2 compliant and reduce their PCI compliance burden. A best suitable payment method for each buyer is selected dynamically by a special payment button tech. No matter which payment method the buyer selects, all payments are received into one source, allowing for easy withdrawal and consolidated reporting.
 
 To use the new PPCP integration a merchant must have a PayPal Business Account. It is also possible to use existing PayPal accounts in case they have first party credentials (API username, password, signature). All the existing merchants need to do for migration is click the same connect button as new merchants in PPCP payment method.
-
-The old API v1 PayPal integration is available for the users of X-Cart 5.4.0.x and earlier via the {% link "PayPal Addon" ref_0mnK3aMh %}.
 
 The PayPal Checkout addon also allows separate usage of the old API v1 PayPal integrations like:
 - {% link "PayPal Partner Hosted with PCI Compliance" ref_0gaUolue %}
@@ -31,6 +29,8 @@ The PayPal Checkout addon also allows separate usage of the old API v1 PayPal in
 - {% link "Paypal Payments Standard" ref_6fTEi1Bv %}
 
 These old PayPal solutions can NOT be used simultaneously with PayPal Commerce Platform (PayPal Checkout payment method) in X-Cart.
+
+The old API v1 PayPal integration is available for the users of X-Cart 5.4.0.x and earlier via the {% link "PayPal Addon" ref_0mnK3aMh %}.
 
 The PayPal Checkout addon can also be used to enable the Connect with PayPal feature for your X-Cart store.
 
