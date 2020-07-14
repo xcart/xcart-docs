@@ -12,7 +12,7 @@ Starting with v5.4.1.x, X-Cart introduces a new PayPal integration called [PayPa
 
 The new integration is called {% link "PayPal Checkout" ref_159XHNAD %} in X-Cart Admin area and supports the following features: 
 
-* With one integration, merchants can accept dozens of payment methods, including PayPal, PayPal Credit, major Debit and Credit cards, and local payment methods such as iDEAL.
+* With one integration, merchants can accept dozens of payment methods, including PayPal, PayPal Credit, major Debit and Credit cards, and local payment methods.
 * Credit cards are accepted through hosted fields on X-Cart checkout, allowing merchants to be PSD2 compliant and reduce their PCI compliance burden.
 * Payment button tech dynamically selects the best payment methods for each buyer.
 * No matter which payment method the buyer selects, all payments are received into one source, allowing for easy withdrawal and consolidated reporting.
