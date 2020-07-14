@@ -15,7 +15,7 @@ An X-Cart store can be configured to accept payments with PayPal. Depending on t
 
    This addon can be used to enable payments via:
    
-   * PayPal Commerce Platfrom (PayPal Checkout in X-Cart) - The new first party type of integration of the PayPal API v2 that merges the functionality of the following old PayPal payment solutions:
+   * {% link "PayPal Commerce Platform" ref_77eLHGNI %} (PayPal Checkout in X-Cart) - The new first party type of integration of the PayPal API v2 that merges the functionality of the following old PayPal payment solutions:
      - PayPal Payments Standard
      - PayPal Payments Advanced
      - PayPal Payflow Link
