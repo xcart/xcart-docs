@@ -22,6 +22,8 @@ The new PPCP inetgration allows merchants to accept dozens of payment methods, i
 
 To use the new PPCP integration a merchant must have a PayPal Business Account. It is also possible to use existing PayPal accounts in case they have first party credentials (API username, password, signature). All the existing merchants need to do for migration is click the same connect button as new merchants in PPCP payment method.
 
+*  {% link "Setting Up PayPal Checkout" ref_3V7VJOs2 %}
+
 The PayPal Checkout addon also allows separate usage of the old API v1 PayPal integrations like:
 - {% link "PayPal Partner Hosted with PCI Compliance" ref_0gaUolue %}
 - {% link "Paypal Payflow Link" ref_5tBeUaTL %}
