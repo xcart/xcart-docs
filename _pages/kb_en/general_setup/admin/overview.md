@@ -152,13 +152,11 @@ Attention the users of X-Cart Cloud, some features are inaccessible in the sideb
 ## Concierge
 
 Concierge is the last but not least of the tools in your store Admin area, and it is aimed to help you to reach out to the X-Cart Customer Care any time you need help with your store setup and maintenance.
+![541-concierge-home.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/541-concierge-home.png)
 
-![concierge-home.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/concierge-home.png)
-
-The tool is available on every page of your store Admin area. To use it, simply click on the 'Concierge' icon, complete the fields and submit your question to a Customer Care agent. Our help chat is available 24/7.
-
-![concierge-full.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/concierge-full.png)
+The tool is available on every page of your store Admin area. To use it, simply click on the 'Concierge' icon and send your question to a Customer Care agent. Our help chat is available 24/7.
+![541-concierge-expanded.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/541-concierge-expanded.png)
 
 If you do not need this tool in your store Admin area, you can remove it at any time by disabling the "Concierge" addon in the **My Addons** section:
+![541-concierge-storeapp.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/541-concierge-storeapp.png)
 
-![concierge-on.png]({{site.baseurl}}/attachments/ref_2DXFvdbo/concierge-on.png)
