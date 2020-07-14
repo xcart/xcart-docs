@@ -6,7 +6,7 @@ identifier: ref_2rlawgsT
 title: Setting up PayPal IPN URL
 categories:
   - User manual
-published: true
+published: false
 order: 350
 ---
 Steps to complete:
