@@ -16,41 +16,37 @@ The "Coming soon" feature in X-Cart 5 is available through the use of the addo
 *   in a separate block titled "Coming soon";
 *   on a separate page (`http://<your-domain>/<x-cart-5-directory>/?target=coming_soon`) available by default through the "Coming soon" item in your store's Primary menu.
 
-In addition to that, products with an arrival date in the future can be marked with "Coming soon" labels in all product lists in the Customer front end.
+In addition to that, products with an arrival date in the future can be marked with labels saying "Expected on..." and stating the date on which customers should expect them to arrive.
 
 To use the "Coming soon" feature, make sure that the addon **Product Advisor** is installed and enabled at your store.
 ![product_advisor_enabled.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/product_advisor_enabled.png)
 
-To configure how the products that are about to appear in your store's catalog should be displayed to your store's visitors, you will need to adjust some addon settings:
+To configure how the products that are about to appear in your store's catalog should be displayed to your store's visitors, you will need to adjust the addon settings:
 
 1.  Go to the **Settings** page for the addon "Product Advisor".
     ![product_advisor_settings.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/product_advisor_settings.png)
 
 2.  Scroll down to the section **"Coming soon" block settings** and adjust the settings in this section.
-    ![xc5_comingsoon_settings.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/xc5_comingsoon_settings.png)
+    ![comingsoon_settings.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_settings.png)
 
-    The settings are as follows:
+    Adjust the following settings:
     
     *   **Enable "Coming soon" feature in catalog**: Enable this option to use the "Coming soon" feature. With this option enabled, products with an arrival date set in the future will be visible to store visitors before the arrival date. With this option disabled, products with an arrival date set in the future will not appear on the storefront before their arrival date.
     
-    *   **Label upcoming products**: Specify whether "Coming soon" labels should be used on the products with an arrival date set in the future (and if so, on what pages). The available options are _Don't label_, _In catalog only_ and _On catalog and product pages_. For example, here you can see a "Coming soon" label shown on a product on a catalog page:
-        ![]({{site.baseurl}}/attachments/6389776/8717926.png)
-        
-    *   **Show arrival date on product details pages**: This setting defines whether the arrival date for products that are "coming soon" should be displayed on the product details pages of the respective products. Enable the option to show the arrival date; disable to hide the arrival date.
-        ![]({{site.baseurl}}/attachments/6389776/8717927.png)
+    *   **Label upcoming products**: Specify whether you want the labels "Expected on <date>" to be used on products with an arrival date set in the future (and if so, on what pages). The available options are _Don't label_, _In catalog only_ and _On catalog and product pages_. For example, here you can see such labels on two products displayed on a catalog page:
+        ![comingsoon_labels.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_labels.png)
         
     *   **Show "coming soon" products only from category being viewed by customer**: This setting defines whether you want to show "coming soon" products from the entire store or just from the category the customer is currently viewing. Drupal block settings can override this option (when the DrupalConnector addon is enabled).
-    
-    *   **Display "Coming soon" block on sidebar (otherwise in center area)**: This setting defines the location of the "Coming soon" block. Enable if you want the "Coming soon" block to appear in the sidebar:
-        ![]({{site.baseurl}}/attachments/6389776/8717924.png)
-        Disable if you want this block to be displayed in the central area of your store site:
-        ![]({{site.baseurl}}/attachments/6389776/8717925.png)
-        Drupal block settings can override this option (when the DrupalConnector addon is enabled).
         
-        {% note info %}
-        The setting "Display "Coming soon" block on sidebar (otherwise in center area)" is not available in newer X-Cart versions (X-Cart 5.3.1.4 and later). To change the position of the "Coming soon" block, use the {% link "Layout Editor" ref_1xoeCJwy %} in Webmaster mode.
-        {% endnote %}
-        
-    *   **Maximum number of products to display in "Coming soon" block**: Specify the maximum number of products to be shown in the "Coming soon" block. Specify a non-zero value; otherwise, 3 products will be displayed by default. If the number of "coming soon" products is more than the number specified by this setting, any products above the specified number will be available for viewing via the "All upcoming products" link. Drupal block settings can override this option (when the DrupalConnector addon is enabled).
+    *   **Maximum number of products to display in "Coming soon" block**: Specify the maximum number of products to be shown in the "Coming soon" block. Specify a non-zero value. By default, this value is set to 4 (four), so only four products can be displayed in this block: 
+        ![comingsoon_section_home.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_section_home.png)
+
+        If the store has more "coming soon" products than what is displayed in this block, your customers will be able to access them on the "Coming soon" page (available via your store's Primary menu).
 
 3.  Once you are done configuring the settings, click the **Submit** button at the bottom of the page to save the changes.
+
+
+To change the position of the "Coming soon" block:
+    
+   * X-Cart versions 5.3.1.4 and later: Use our {% link "Layout Editor" ref_1xoeCJwy %} in Webmaster mode.
+   * X-Cart versions prior to 5.3.1.4: Use the setting "Display "Coming soon" block on sidebar (otherwise in center area)".
