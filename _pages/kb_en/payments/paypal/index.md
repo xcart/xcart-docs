@@ -11,11 +11,11 @@ order: 300
 ---
 An X-Cart store can be configured to accept payments with PayPal. Depending on the type of PayPal platform you require, you will need to use one of the following integration solutions: 
 
-* **[PayPal Checkout](https://market.x-cart.com/addons/paypal.html "PayPal")** addon for X-Cart by X-Cart team. 
+* **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal")** addon for X-Cart by X-Cart team. 
 
    This addon can be used to enable payments via:
    
-   * {% link "PayPal Commerce Platform" ref_77eLHGNI %} (PayPal Checkout in X-Cart) - The new first party type of integration of the PayPal API v2 that merges the functionality of the following old PayPal payment solutions:
+   * {% link "PayPal Commerce Platform" ref_77eLHGNI %} (PayPal Checkout in X-Cart) - The PayPal API v2 integration of a first party type that merges the functionality of the following old PayPal payment solutions:
      - PayPal Payments Standard
      - PayPal Payments Advanced
      - PayPal Payflow Link
@@ -28,11 +28,12 @@ An X-Cart store can be configured to accept payments with PayPal. Depending on t
       - {% link "Paypal Payflow Link" ref_5tBeUaTL %}
       - {% link "Paypal Payments Advanced" ref_sO5X6iBT %}
       - {% link "Paypal Payments Standard" ref_6fTEi1Bv %}
+      - {% link "PayPal for Marketplaces" ref_5E37F92M %}
    
    {% note info %}
    The new and old integrations can NOT be used at the same time.
    
-   More information is available in the section {% link "PayPal Checkout" ref_159XHNAD %} of this manual.
+   More information is available in the section {% link "PayPal addon" ref_159XHNAD %} of this manual.
    {% endnote %}
    
 
@@ -46,7 +47,7 @@ An X-Cart store can be configured to accept payments with PayPal. Depending on t
 _In this section:_
 
 *   {% link "PayPal Commerce Platform Overview" ref_77eLHGNI %}
-*   {% link "PayPal Solutions Overview (API v1)" ref_3CGeXccD %}
+*   {% link "PayPal Solutions Overview (Integrations based on API v1)" ref_3CGeXccD %}
 *   {% link "PayPal Payments Pro " ref_6k1NvzJp %}
 
 
