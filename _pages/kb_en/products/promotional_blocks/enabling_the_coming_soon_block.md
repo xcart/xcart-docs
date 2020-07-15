@@ -36,7 +36,7 @@ To configure how the products that are about to appear in your store's catalog s
     *   **Label upcoming products**: Specify whether you want the labels "Expected on <date>" to be used on products with an arrival date set in the future (and if so, on what pages). The available options are _Don't label_, _In catalog only_ and _On catalog and product pages_. For example, here you can see such labels on two products displayed on a catalog page:
         ![comingsoon_labels.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_labels.png)
         
-    *   **Show "coming soon" products only from category being viewed by customer**: This setting defines whether you want to show "coming soon" products from the entire store or just from the category the customer is currently viewing. Drupal block settings can override this option (when the DrupalConnector addon is enabled).
+    *   **Show "coming soon" products only from category being viewed by customer**: This setting defines whether you want to show "coming soon" products from the entire store or just from the category the customer is currently viewing. Drupal block settings can override this setting (when the DrupalConnector addon is enabled).
         
     *   **Maximum number of products to display in "Coming soon" block**: Specify the maximum number of products to be shown in the "Coming soon" block. Specify a non-zero value. By default, this value is set to 4 (four), so only four products can be displayed in this block: 
         ![comingsoon_section_home.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_section_home.png)
@@ -49,4 +49,4 @@ To configure how the products that are about to appear in your store's catalog s
 To change the position of the "Coming soon" block:
     
    * X-Cart versions 5.3.1.4 and later: Use our {% link "Layout Editor" ref_1xoeCJwy %} in Webmaster mode.
-   * X-Cart versions prior to 5.3.1.4: Use the setting "Display "Coming soon" block on sidebar (otherwise in center area)".
+   * X-Cart versions prior to 5.3.1.4: Use the setting "Display "Coming soon" block on sidebar (otherwise in center area)". Note that Drupal block settings can override this setting (when the DrupalConnector addon is enabled).
