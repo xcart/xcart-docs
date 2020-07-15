@@ -7,7 +7,7 @@ title: Setting Up PayPal Checkout
 order: 110
 published: true
 ---
-PayPal Checkout payment method in X-cart is an integration of PayPal Commerce Platform via [PayPal Checkout](https://market.x-cart.com/addons/paypal.html "Setting Up PayPal Checkout") addon.
+PayPal Checkout payment method in X-cart is an integration of PayPal Commerce Platform via [PayPal](https://market.x-cart.com/addons/paypal.html "Setting Up PayPal Checkout") addon.
 
 The PayPal Commerce Platform (PPCP) merges the following former PayPal payment solutions:
 - PayPal Payments Standard
