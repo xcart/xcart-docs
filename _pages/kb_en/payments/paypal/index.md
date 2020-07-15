@@ -28,7 +28,7 @@ An X-Cart store can be configured to accept payments with PayPal. Depending on t
       - {% link "Paypal Payflow Link" ref_5tBeUaTL %}
       - {% link "Paypal Payments Advanced" ref_sO5X6iBT %}
       - {% link "Paypal Payments Standard" ref_6fTEi1Bv %}
-      - {% link "PayPal for Marketplaces" ref_5E37F92M %}
+      - {% link "PayPal for Marketplaces" ref_6iphJijP %}
    
    {% note info %}
    The new and old integrations can NOT be used at the same time.
@@ -48,6 +48,7 @@ _In this section:_
 
 *   {% link "PayPal Commerce Platform Overview" ref_77eLHGNI %}
 *   {% link "PayPal Solutions Overview (Integrations based on API v1)" ref_3CGeXccD %}
+*   {% link "PayPal for Marketplaces" ref_6iphJijP %}
 *   {% link "PayPal Payments Pro " ref_6k1NvzJp %}
 
 
