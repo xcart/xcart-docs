@@ -7,7 +7,7 @@ title: PayPal
 order: 194
 published: true
 ---
-The PayPal addon allows X-Cart users to accept payments via PayPal payment systems. The addon includes integrations of both API v1 and API v2 solutions, the latter being more modern and robust.
+The PayPal addon allows X-Cart users to accept payments via PayPal payment systems. The addon includes integrations of both API v1 and API v2 based solutions, the latter being more modern and robust.
 
 PayPal Checkout is the latest integratoin of [PayPal Commerce Platform (PPCP)](https://www.paypal.com/us/business "PayPal Commerce Platform") based on PayPal API v2 of a first party type.
 
