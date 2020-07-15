@@ -10,7 +10,7 @@ published: true
 The **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal addon")** addon by X-Cart team provides integration with PayPal payment methods based on PayPal API v1:
 ![paypal_addon.png]({{site.baseurl}}/attachments/ref_0mnK3aMh/paypal_addon.png)
 
-This addon can be used to enable payments via:
+The PayPal API v1 inetgration can be used to enable payments via:
 
    *   {% link "PayPal Express Checkout" ref_vHffMFLk %}
    *   {% link "PayPal Payments Standard" ref_DT2EX6fz %}
@@ -21,10 +21,6 @@ This addon can be used to enable payments via:
    *   {% link "PayPal Partner Hosted with PCI Compliance" ref_0gaUolue %}
    *   {% link "PayPal Credit" ref_46r2geWj %}
    
-This addon can also be used to enable the **Connect with PayPal** feature for your X-Cart store.  
-   
-   *   {% link "Connect  with PayPal" ref_1iufT1pq %}
-    
     
 _See also:_
 
