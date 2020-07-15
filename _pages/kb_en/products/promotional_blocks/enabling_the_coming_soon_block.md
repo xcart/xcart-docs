@@ -18,11 +18,12 @@ The "Coming soon" feature in X-Cart 5 is available through the use of the addo
 
 In addition to that, products with an arrival date in the future can be marked with "Coming soon" labels in all product lists in the Customer front end.
 
-To use the "Coming soon" feature, make sure that the addon **Product Advisor** is installed and enabled at your store:
+To use the "Coming soon" feature, make sure that the addon **Product Advisor** is installed and enabled at your store.
+![product_advisor_enabled.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/product_advisor_enabled.png)
 
-![]({{site.baseurl}}/attachments/6389778/8717811.png)To configure how the products that are about to appear in your store's catalog should be displayed to your store's visitors, you will need to adjust some addon settings:
+To configure how the products that are about to appear in your store's catalog should be displayed to your store's visitors, you will need to adjust some addon settings:
 
-1.  Click the **Settings** link near the "Product Advisor" addon icon in the list of your store's installed addons to go to the addon settings page.
+1.  Go to the **Settings** page for the addon "Product Advisor".
 
 2.  On the "Product Advisor" addon settings page, adjust the settings in the **"Coming soon" block settings** section:
     ![xc5_comingsoon_settings.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/xc5_comingsoon_settings.png)
