@@ -21,8 +21,7 @@ The "New arrivals" feature in X-Cart 5 is available through the use of the addo
 In addition to that, newly added products can be marked with "New!" labels in the Customer front end.
 
 To use the "New arrivals"  feature, make sure that the addon **Product Advisor**  is installed and enabled in your store:
-
-![xc5_productadvisor_addon_enabled.png]({{site.baseurl}}/attachments/ref_2A50nkO9/xc5_productadvisor_addon_enabled.png)
+![product_advisor_enabled.png]({{site.baseurl}}/attachments/ref_2A50nkO9/product_advisor_enabled.png)
 
 To adjust the way new arrivals should be displayed to your store's visitors, you will need to adjust some addon settings:
 
