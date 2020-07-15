@@ -45,3 +45,44 @@ To start accepting payments with PayPal Commerce Platform in your X-Cart store:
 Congrats! The payment is enabled and you can start accepting payments with PayPal.
 
 ## Advanced Configuration
+
+The settings of the PayPal Checkout payment method allow a store admin to maintain the layout of PayPal buttons and badge in the storefront, add extra security to payment processing, set a preferred transaction type in the store and enable the funding methods available for customers.
+
+### Defining Preferred Transaction Type
+
+PayPal Checkout payment method allows a merchant to check transaction requests before the actual payment is done. This is possible through the usage of the **Transaction type** option in the "Additional settings" section of the PayPal Checkout settings page. This section also allows a merchant to set the mode the payment should function in.
+![541-transaction-type.png]({{site.baseurl}}/attachments/ref_3V7VJOs2/541-transaction-type.png)
+
+If you set the value of the **Transaction type** option to **Auth only**, you’ll need to process each transaction manually. This variant is preferred if you need to have an possibility to void orders. If the value is set to **Auth and Capture** all transactions will be processed automatically.
+
+The **Test/Live mode** option sets the mode of the payment function. If you want to test payment transactions before making your store live, use the **Test** value for this option.
+
+## Adding Extra Security to Payment Transactions
+
+A store admin can add extra security to the PayPal Checkout payment transactions by enabling the **3D Secure** option in the "Additional settings" section of the PayPal Checkout settings page.
+![541-3d-secure.png]({{site.baseurl}}/attachments/ref_3V7VJOs2/541-3d-secure.png)
+
+When enabled, this allows a merchant to provide Strong Customer Authentication (SCA) required in some EU countries.
+
+It also allows to configure what should be done to transactions with undefined risk factor by 3D Secure. If a merhant wants to continue with the authorization and assume liability, the **Authentication bypassed / unavailable liability shift** option should be set to **Accept**. If assuming liability is not an option, the settings should be set to **Declined**. A buyer will be asked for another card in this case. 
+
+## Maintaining PayPal Buttons and Badge
+
+PayPal Checkout payment allows a store admin to show or hide the PayPal buy buttons and badge in the storefront and to customize the appearance of the buttons.
+
+Generally, the Buy Now with PayPal button and Now Accepting PayPal badge come enabled in the storefront right after the payment is configured and activated. 
+
+The "Buy Now with PayPal" button displays on product list pages (in list view) and product details pages.
+![541-paypal-button-product-details-cus.png]({{site.baseurl}}/attachments/ref_3V7VJOs2/541-paypal-button-product-details-cus.png)
+
+The "Now Accepting PayPal" badge displays in the header of every page in the storefront.
+![541-paypal-badge-cus.png]({{site.baseurl}}/attachments/ref_3V7VJOs2/541-paypal-badge-cus.png)
+
+To disable the features turn OFF the toggles of the like-named options in the "Additional settings" section of the PayPal Checkout settings page.
+
+![541-enable-buttons-and-badge.png]({{site.baseurl}}/attachments/ref_3V7VJOs2/541-enable-buttons-and-badge.png)
+
+To customize the appearance of the PayPal buy buttons use the buttons property chart on the "Customize the PayPal button" page of PayPal Checkout settings:
+![541-customize-buttons.png]({{site.baseurl}}/attachments/ref_3V7VJOs2/541-customize-buttons.png)
+
+## Enabling Fuding Methods for Customers
