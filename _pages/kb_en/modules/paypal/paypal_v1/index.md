@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2018-09-28 20:10 +0400'
 identifier: ref_0mnK3aMh
 title: PayPal API v1 Integrations
-order: 100
+order: 110
 published: true
 ---
 The **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal addon")** addon by X-Cart team provides integration with PayPal payment methods based on PayPal API v1:
