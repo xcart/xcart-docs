@@ -86,3 +86,10 @@ To customize the appearance of the PayPal buy buttons use the buttons property c
 ![541-customize-buttons.png]({{site.baseurl}}/attachments/ref_3V7VJOs2/541-customize-buttons.png)
 
 ## Enabling Fuding Methods for Customers
+
+A store admin can define whether multiple funding sources should be available for customers or not. By default, all available funding sources are enabled as soon as the PayPal Checkout payment is activated:
+![541-funding-methods.png]({{site.baseurl}}/attachments/ref_3V7VJOs2/541-funding-methods.png)
+
+When enabled, PayPal automatically determines which additional buttons are appropriate to display for customers at checkout. 
+
+However, you can choose to opt-in or out-of displaying specific funding sources if required. For this purpose, use the **Funding methods** settings on the "Customize the PayPal button" page of PayPal Checkout settings.
