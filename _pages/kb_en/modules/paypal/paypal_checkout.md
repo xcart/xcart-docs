@@ -57,7 +57,7 @@ If you set the value of the **Transaction type** option to **Auth only**, you’
 
 The **Test/Live mode** option sets the mode of the payment function. If you want to test payment transactions before making your store live, use the **Test** value for this option.
 
-## Adding Extra Security to Payment Transactions
+### Adding Extra Security to Payment Transactions
 
 A store admin can add extra security to the PayPal Checkout payment transactions by enabling the **3D Secure** option in the "Additional settings" section of the PayPal Checkout settings page.
 ![541-3d-secure.png]({{site.baseurl}}/attachments/ref_3V7VJOs2/541-3d-secure.png)
@@ -66,7 +66,7 @@ When enabled, this allows a merchant to provide Strong Customer Authentication (
 
 It also allows to configure what should be done to transactions with undefined risk factor by 3D Secure. If a merhant wants to continue with the authorization and assume liability, the **Authentication bypassed / unavailable liability shift** option should be set to **Accept**. If assuming liability is not an option, the settings should be set to **Declined**. A buyer will be asked for another card in this case. 
 
-## Maintaining PayPal Buttons and Badge
+### Maintaining PayPal Buttons and Badge
 
 PayPal Checkout payment allows a store admin to show or hide the PayPal buy buttons and badge in the storefront and to customize the appearance of the buttons.
 
@@ -85,7 +85,7 @@ To disable the features turn OFF the toggles of the like-named options in the "A
 To customize the appearance of the PayPal buy buttons use the buttons property chart on the "Customize the PayPal button" page of PayPal Checkout settings:
 ![541-customize-buttons.png]({{site.baseurl}}/attachments/ref_3V7VJOs2/541-customize-buttons.png)
 
-## Enabling Fuding Methods for Customers
+### Enabling Fuding Methods for Customers
 
 A store admin can define whether multiple funding sources should be available for customers or not. By default, all available funding sources are enabled as soon as the PayPal Checkout payment is activated:
 ![541-funding-methods.png]({{site.baseurl}}/attachments/ref_3V7VJOs2/541-funding-methods.png)
