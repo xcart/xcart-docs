@@ -42,6 +42,7 @@ To configure how the products that are about to appear in your store's catalog s
         ![comingsoon_section_home.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_section_home.png)
 
         If the store has more "coming soon" products than what is displayed in this block, your customers will be able to access them on the "Coming soon" page (available via your store's Primary menu).
+        ![comingsoon_menu.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_menu.png)
 
 3.  Once you are done configuring the settings, click the **Submit** button at the bottom of the page to save the changes.
 
