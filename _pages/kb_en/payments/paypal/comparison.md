@@ -21,6 +21,8 @@ Transactions via PayPal Standard are processed on PayPal’s site (not your own)
 
 Since checkout is completed on PayPal’s site, you have to rely on PayPal send payment success and failure notifications back to your store for completed orders using Instant Payment Notifications (IPN). 
 
+Configuration guides are available in {% link "Setting up Paypal Payments Standard" ref_6fTEi1Bv %}.
+
 ## PayPal Express Checkout
 
 PayPal Express Checkout is available in the same countries as PayPal Standard, and you will be charged the same PayPal transaction fees with no setup or termination fees. PayPal Express Checkout is very similar to PayPal Standard with one major difference: the checkout flow. 
@@ -29,6 +31,8 @@ Customers are charged immediately as they fill in the PayPal pop-up with their c
 
 This is a more reliable payment method than PayPal Standard, as the checkout is completed on your site, but the payment is done on PayPal’s servers.
 
+Configuration guides are available in {% link "Setting up Paypal Express Checkout" ref_7APKRZm3 %}.
+
 ## PayPal Advanced
 
 PayPal Advanced is available for merchants in the US and Canada only by far and includes online payments and invoicing for merchants along with a checkout directly on your site.
@@ -36,6 +40,8 @@ PayPal Advanced is available for merchants in the US and Canada only by far and 
 There are no setup or termination fees, but PayPal Advanced requires a $5 monthly fee along with PayPal transaction fees. The peculiarity of PayPal Advanced is that the checkout form is on your site and embedded in your checkout process, but is not something that you can customize entirely.
 
 The PayPal Advanced checkout form is an iframed form, which means that the form is actually hosted on PayPal’s servers and embedded on your checkout page. From the customers point of view, they remain on your site and in your checkout flow for purchasing, but the payment form is actually hostsed by PayPal and payment information is sent directly to their servers.
+
+Configuration guides are available in {% link "Setting up Paypal Payments Advanced" ref_1QyLzhTg %}.
 
 ## PayPal Payments Pro and PayPal Payflow Pro
 
@@ -53,6 +59,8 @@ If using PayPal Payments Pro you can choose from:
 * using the powered by Payflow gateway as mentioned above;
 * instead of the Payflow gateway, using the PayPal direct payment service to process cards.  The advantage of this is if you are already using PayPal Express Checkout APIs, it's an easy transition to use the Direct Payment of the PayPal Pro.
 
+Configuration guides are available in {% link "Settings Up PayPal Payments Pro " ref_6k1NvzJp %}.
+
 ## PayPal Payflow Link
 
 PayPal Payflow Link is a little brother of PayPal Payflow Pro as there are less checkout customization facilities and in the same time there are no startup or termination fees with PayPal Payflow Link, only the regular PayPal transaction fees. This integration combines credit card processing with PayPal Express Checkout functionality. So if necessary you can use all the Express Checkout features and configuration options along with Payflow Link options. 
@@ -63,11 +71,15 @@ With Payflow Link, your customers are directed to a special PayPal page within X
 If your Web site processes more than 500 transactions per month, you should consider using Payflow Pro, PayPal’s high performance Internet payment solution.
 {% endnote %}
 
+Configuration guides are available in {% link "Setting up Paypal Payflow Link" ref_5tBeUaTL %}.
+
 ## PayPal powered by Braintree
 
 This integration combines credit card processing with PayPal Express Checkout functionality in an interface that lets your customers pay with their credit card or PayPal account without ever leaving your storefront. PayPal powered by Braintree is available for merchants in the US, UK, France, Italy & Spain. There are no setup or termination fees, only the regular PayPal transaction fees.
 
 In addition to processing credit cards on your checkout page, PayPal powered by Braintree offers more advanced functionality than other PayPal integrations, including support for 3D Secure and PayPal One Touch.
+
+Configuration guides are available in {% link "PayPal Powered by Braintree Payment" ref_6gWLGj9K %}.
 
 ## PayPal for Marketplaces
 
@@ -83,12 +95,16 @@ The payment is compliant with global regulations, including:
 
 There are no setup or termination fees, only the regular PayPal transaction fees. The payments are processed directly on your site's checkout pages.
 
+Configuration guides are available in {% link "Settings Up PayPal for Marketplaces" ref_6iphJijP %}.
+
 
 ## PayPal Partner Hosted with PCI Compliance
 
 PayPal Partner Hosted with PCI Compliance payment solution (named by PayPal as Payflow Integration Using Transparent Redirect) is available to merchants in the US and Canada only. There are no setup or termination fees, only the regular PayPal transaction fees.
 
 With PayPal Partner Hosted with PCI Compliance payment customers can pay directly on your site using their credit or debit card, without being redirected to PayPal. The credit card details your customers enter on checkout pages of your store are passed securely to PayPal behind the scenes.
+
+Configuration guides are available in {% link "Setting up PayPal Partner Hoster with PCI Compliance" ref_7eTlEhGZ %}
 
 ## PayPal Solutions' Comparison Chart
 
