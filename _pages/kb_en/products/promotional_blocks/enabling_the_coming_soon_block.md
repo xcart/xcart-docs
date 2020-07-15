@@ -26,7 +26,7 @@ To configure how the products that are about to appear in your store's catalog s
 1.  Go to the **Settings** page for the addon "Product Advisor".
     ![product_advisor_settings.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/product_advisor_settings.png)
 
-2.  Scroll down to the section **"Coming soon" block settings** and adjust the settings in this section.
+2.  Scroll down to the section **"Coming soon" block settings**.
     ![comingsoon_settings.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_settings.png)
 
     Adjust the following settings:
