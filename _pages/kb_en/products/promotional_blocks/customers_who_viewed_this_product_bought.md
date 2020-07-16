@@ -5,7 +5,7 @@ updated_at: '2020-07-17 00:24 +0400'
 identifier: ref_0DxmAIpB
 title: Enabling the "Customers Who Viewed This Product Bought" Block
 order: 1010
-published: false
+published: true
 ---
 In an X-Cart store using the addon **Product Advisor** by X-Cart Team, you can choose to enable a special block that will be displayed on product details pages - "Customers who viewed this product bought". This block will provide links to products that other customers have bought after viewing the current product. 
 ![customers_who_viewed_block.png]({{site.baseurl}}/attachments/ref_0DxmAIpB/customers_who_viewed_block.png)
