@@ -73,7 +73,7 @@ To add a new item to one of your store's menus:
 3.  Provide information about the properties of the item that you want to add to the menu:
     ![540-new-item-line.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-new-item-line.png)
     *   **Item name**: Name of the menu item as it will be displayed to users.
-    *   **Link**: Address of the page to which the menu item will redirect the user. 
+    *   **Link**: <a id="menu-item-link"></a>Address of the page to which the menu item will redirect the user. 
            Specify the address using one of the following:
            * Relative path (e.g. cart.php?target=checkout)
            * Absolute path (e.g. https:/<your_store_domain>/cart.php?target=checkout).
