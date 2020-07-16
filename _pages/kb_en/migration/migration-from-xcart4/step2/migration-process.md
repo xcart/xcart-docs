@@ -13,14 +13,7 @@ redirect_from:
     /modules/xc4_to_xc5_migration_wizard/using_the_xc4_to_xc5_migration_wizard.html
 ---
 Once the _X-Cart v4 to v5 Data Migration Wizard_ addon has been installed, you will see a new 'Migration wizard' section at the top of the X-Cart 5 Admin area menu:
-![mw_link.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_link.png)
-
-{% note info %}
-If you are not able to install _X-Cart v4 to v5 Data Migration Wizard_ module from the marketplace and see the following warning message:
- ![xc5_mw_module.png]({{site.baseurl}}/attachments/ref_KqsCJNRG/xc5_mw_module.png)
-   
-Please make sure to install [Order import module](https://market.x-cart.com/addons/orders-import.html) first and then try to install _X-Cart v4 to v5 Data Migration Wizard_ module again.
-{% endnote %}
+![541-migration-wizard-page.png]({{site.baseurl}}/attachments/ref_2nzbe2Ce/541-migration-wizard-page.png)
 
 Click it to launch the migration process.
 
