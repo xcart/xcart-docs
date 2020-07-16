@@ -70,21 +70,29 @@ To add a new item to one of your store's menus:
     
     A new empty entry will be added to the list. 
     
-3.  Provide information about the properties that you want to add to the menu:
+3.  Provide information about the properties of the item that you want to add to the menu:
     ![540-new-item-line.png]({{site.baseurl}}/attachments/ref_BDykFBbw/540-new-item-line.png)
-    *   **Item name**: Name the menu item the way it will be displayed to users.
-    *   **Link**: Specify the address of the page the menu item will redirect the users to. 
-        
-        Use one of the following shortcut codes to specify the link address within your store:
+    *   **Item name**: Name of the menu item as it will be displayed to users.
+    *   **Link**: Address of the page to which the menu item will redirect the user. 
+           Specify the address using one of the following:
            * Relative path (e.g. cart.php?target=checkout)
            * Absolute path (e.g. https:/<your_store_domain>/cart.php?target=checkout).
-           * Page name values (available options are  {home}, {new arrivals}, {coming soon}, {sale}, {bestsellers}, {my account}, {contact us}, {auction}, {loyalty program})
+           * Page name value (a special code that represents a page name surrounded by curly brackets; can be used to link to the page without having to specify its relative or absolute path). The list of page name values currently supported by X-Cart is as follows:
+             - {home}, 
+             - {new arrivals}, 
+             - {coming soon}, 
+             - {sale}, 
+             - {bestsellers}, 
+             - {my account}, 
+             - {contact us}, 
+             - {auction}, 
+             - {loyalty program}),
+             - {special offers},
+             - {brands},
+             - {gift card}.
 
-             {% note info %}
-             If you want to specify a link to an external resource, you must use the **http://** prefix.
+             Note that if you need to specify a link to an external resource, you must use the **http://** prefix. For example, to add a link to google.com, you will need to enter the link as `http://google.com/`.
         
-             For example, to add a link to google.com, you will need to enter the link as `http://google.com/`).
-             {% endnote %}
      * **Visible for** : Specify the user level the menu item should be visible for. Select from the options available in the drop-down:
        * Any visitors
        * Anonymous users only
