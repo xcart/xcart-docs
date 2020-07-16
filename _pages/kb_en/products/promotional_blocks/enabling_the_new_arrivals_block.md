@@ -51,9 +51,9 @@ To adjust the way new arrivals should be displayed to your store's visitors, you
 
     *   **Show new products only from category being viewed by customer**: Disable this setting to show new arrivals from the entire store. Enable to show only the new arrivals from the category the customer is currently viewing.
 
-    {% note yellow %}
-    __X-Cart 5.1.x__: Drupal block settings can override this option (when the DrupalConnector addon is enabled).
-    {% endnote %}
+        {% note yellow %}
+        __X-Cart 5.1.x__: Drupal block settings can override this option (when the DrupalConnector addon is enabled).
+        {% endnote %}
 
 3.  Once you are done configuring the settings, click the **Submit** button at the bottom of the page to save the changes.
 
