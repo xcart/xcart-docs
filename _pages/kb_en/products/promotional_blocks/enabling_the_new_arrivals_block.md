@@ -11,12 +11,12 @@ order: 180
 redirect_from:
   - /products/enabling_the_new_arrivals_block.html
 ---
-The "New arrivals" feature in X-Cart 5 is available through the use of the addon **Product Advisor** by X-Cart team.  With this feature your store can showcase newly added products:
-
-*   in a separate block titled "New arrivals";
+The "New arrivals" feature in X-Cart 5 is available through the use of the addon **Product Advisor** by X-Cart team. With this feature your store can showcase new products in your catalog in a separate block titled "New arrivals". By default, the "New arrivals" block appears in the main column of your store's Home page (scroll down to see it):
     ![new_arrivals_block.png]({{site.baseurl}}/attachments/ref_2A50nkO9/new_arrivals_block.png)
+It also appears on catalog pages in the sidebar:
+    ![new_arrivals_block1.png]({{site.baseurl}}/attachments/ref_2A50nkO9/new_arrivals_block1.png)
 
-*   on a separate page (`http://<your-domain>/<x-cart-5-directory>/?target=new_arrivals`) available by default through the "New!" item in your store's Primary menu.
+Your customers can also view all your store's new products as a list on a separate page (`http://<your-domain>/<x-cart-5-directory>/?target=new_arrivals`) available by default through the "New!" item in your store's Primary menu.
     ![new_arrivals_menu.png]({{site.baseurl}}/attachments/ref_2A50nkO9/new_arrivals_menu.png)
 
 In addition to that, newly added products can be marked with "New!" labels in the Customer front end.
