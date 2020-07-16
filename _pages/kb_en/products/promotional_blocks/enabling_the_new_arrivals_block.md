@@ -36,9 +36,9 @@ To adjust the way new arrivals should be displayed to your store's visitors, you
     
     *   **Number of days to keep products marked as new arrivals**: Use this setting to specify the number of days for which a product that you have added to your store's catalog should be treated as a "new arrival". Make sure you specify a non-zero value (otherwise "30 days" will be used by default).
     
-    *   **Maximum number of products to display in complete new arrivals list**: Specify the maximum number of products to be displayed when a user clicks the "All newest products" link in the "New arrivals" block:
+    *   **Maximum number of products to display in complete new arrivals list**: Specify the maximum number of products to be displayed on the New arrivals page (available via the "New!" item in the site's Primary menu or the "All newest products" link in the "New arrivals" block):
         ![all_newest_link.png]({{site.baseurl}}/attachments/ref_2A50nkO9/all_newest_link.png)
-        Leave 0 for no limit.
+        Set to "0" (zero) for no limit.
     
     *   **Label new products**: Adjust this setting to specify whether you would like "New!" labels to be placed on products, and if so, on what pages that should happen. 
         * _Don't label_ - "New" labels will not be used anywhere on the store pages.
@@ -49,7 +49,7 @@ To adjust the way new arrivals should be displayed to your store's visitors, you
         * _On catalog and product pages_ - "New" labels will be used on catalog pages (like on the screenshot above) AND on product pages (like on the screenshot below):
           ![new_label1.png]({{site.baseurl}}/attachments/ref_2A50nkO9/new_label1.png)
     
-    *   **Maximum number of products to display in "New arrivals" block**: This setting defines the maximum number of products that can be displayed in the "New arrivals" block. Specify a non-zero value; otherwise, 3 products will be displayed by default. If the specified value is less than the total amount of products on the complete new arrivals list, that value will be used instead. 
+    *   **Maximum number of products to display in "New arrivals" block**: This setting defines the maximum number of products that can be displayed in the "New arrivals" block. Specify a non-zero value. If the specified value is less than the total amount of products on the complete new arrivals list, that value will be used instead. 
 
         {% note yellow %}
         __X-Cart 5.1.x__: Drupal block settings can override this option (when the DrupalConnector addon is enabled).
