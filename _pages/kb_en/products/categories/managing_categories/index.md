@@ -7,20 +7,20 @@ title: Managing Categories
 order: 100
 published: true
 ---
-Categories allow to group products together to make them easier to find and browse for shoppers.
+Categories allow grouping products together to make them easier to find and browse for buyers.
 
-A product can be assigned to multiple categories, and categories can be based on a set of similar type or product features that matter the most to your customers, such as:
+A product can assign to multiple categories, and categories can base on a set of similar type or product features that matter the most to your customers, like:
 
 - Men, Women, and Kids categories for clothing/apparel
 - New and Used categories for cars
 - a Sale category for discounted items
 
 Below is how the default categories are dispayed on a storefront using the X-Cart CrispWhite skin:
-![home-page-category.png]({{site.baseurl}}/attachments/ref_2JeiDy5a/home-page-category.png)
+![541-storefront-home-categories.png]({{site.baseurl}}/attachments/ref_2JeiDy5a/541-storefront-home-categories.png)
 
 The way categories appear on **your** storefront depends on your store’s theme.
 
-Go to **Catalog** > **Categories** section of the store admin area to create, organize and manage your store’s categories.
+Go to the **Catalog** > **Categories** section of the store Admin area to create, organize and manage your store’s categories.
 
 
 _In this section:_
