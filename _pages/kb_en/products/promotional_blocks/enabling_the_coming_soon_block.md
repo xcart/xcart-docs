@@ -38,7 +38,7 @@ To configure how the products that are about to appear in your store's catalog s
         
     *   **Show "coming soon" products only from category being viewed by customer**: This setting defines whether you want to show "coming soon" products from the entire store or just from the category the customer is currently viewing. Drupal block settings can override this setting (when the DrupalConnector addon is enabled).
         
-    *   **Maximum number of products to display in "Coming soon" block**: Specify the maximum number of products to be shown in the "Coming soon" block. Specify a non-zero value. By default, this value is set to 4 (four), so only four products can be displayed in this block: 
+    *   **Maximum number of products to display in "Coming soon" block**: Specify the maximum number of products to be shown in the "Coming soon" block. Specify a non-zero value. For example, in our demo store, this value is set to "4" (four), so only four products are displayed in this block: 
         ![comingsoon_section_home.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_section_home.png)
 
         If the store has more "coming soon" products than what is displayed in this block, your customers will be able to access them on the "Coming soon" page (available via your store's Primary menu).
