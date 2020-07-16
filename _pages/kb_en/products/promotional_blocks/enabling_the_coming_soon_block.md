@@ -12,6 +12,7 @@ redirect_from:
   - /kb_en/products/enabling_the_coming_soon_block.html
 ---
 The "Coming soon" feature in X-Cart 5 is available through the use of the addon **Product Advisor** by X-Cart team. With this feature your store can showcase products with an arrival date in the future so your customers can notice them better. By default, the "Coming soon" block appears in the main column of your store's Home page (scroll down to see it):
+    ![comingsoon_section_home.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_section_home.png)
 
 It also appears on catalog pages in the sidebar:
     
