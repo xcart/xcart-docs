@@ -67,7 +67,7 @@ Now that you have created your PayPal app with REST API credentials and necessar
 
 {% note warning %}
 PREREQUISITES:
-   You need to have the {% link "PayPal Checkout" ref_159XHNAD %} addon installed and enabled in your X-Cart store Admin area. For X-Cart 5.4.0.x and earlier, use {% link "PayPal Addon" ref_0mnK3aMh %} integration.
+   You need to have the {% link "PayPal" ref_159XHNAD %} addon installed and enabled in your X-Cart store Admin area. 
    
    For the guidelines on the addons installation see {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
 {% endnote %}
@@ -77,8 +77,8 @@ Once you have created and configured your PayPal OAuth 2.0 Credentials, you will
 See how to obtain PayPal OAuth 2.0 credentials here.
 
 To configure the Connect with PayPal feature:
-1. In the **My Addons** section of your X-Cart Service Screen, locate the entry for the PayPal Checkout addon and click the **Settings** link below it:
-   ![541-ppcp-settings-link.png]({{site.baseurl}}/attachments/ref_1iufT1pq/541-ppcp-settings-link.png)
+1. In the **My Addons** section of your X-Cart Service Screen, locate the entry for the PayPal addon and click the **Settings** link below it:
+   ![541-paypal-addon-appstore.png]({{site.baseurl}}/attachments/ref_1iufT1pq/541-paypal-addon-appstore.png)
 
    This opens the addon settings page.
    ![541-paypal-settings-page.png]({{site.baseurl}}/attachments/ref_1iufT1pq/541-paypal-settings-page.png)
