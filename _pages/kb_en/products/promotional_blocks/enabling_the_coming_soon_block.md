@@ -45,7 +45,8 @@ To configure how the products that are about to appear in your store's catalog s
     *   **Maximum number of products to display in "Coming soon" block**: Specify the maximum number of products to be shown in the "Coming soon" block. Specify a non-zero value. For example, in our demo store, this value is set to "4" (four), so only four products are displayed in this block: 
         ![comingsoon_section_home.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_section_home.png)
 
-        If the store has more "coming soon" products than what is displayed in this block, your customers will be able to access them on the "Coming soon" page (available via your store's Primary menu).
+        If the store has more "coming soon" products than what is displayed in this block, your customers will be able to access them on the "Coming soon" page (available via the "Coming soon" item in the site's Primary menu or the "All upcoming products" link in the "Coming soon" block).
+        ![all_upcoming_link.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/all_upcoming_link.png)
         
 3.  Once you are done configuring the settings, click the **Submit** button at the bottom of the page to save the changes.
 
