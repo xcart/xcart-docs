@@ -25,12 +25,10 @@ To use the "New arrivals"  feature, make sure that the addon **Product Advisor
 
 To adjust the way new arrivals should be displayed to your store's visitors, you will need to adjust some addon settings:
 
-1.  Click the **Settings** link near the addon icon in the list of your store's installed addons to go to the  "Product Advisor" addon settings page.
-2.  On the "Product Advisor" addon settings page, adjust the settings in the **"New arrivals" block settings** section.
-     ![xc5_productadvisor_addon_settings.png]({{site.baseurl}}/attachments/ref_2A50nkO9/xc5_productadvisor_addon_settings.png)
+1.  Go to the **Settings** page for the addon "Product Advisor".
+    ![product_advisor_settings.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/product_advisor_settings.png)
 
-    The settings are as follows:
-
+2.  In the section **"New arrivals" block settings**, adjust the following settings:
     *   **Enable "New arrivals" feature in catalog**: Enable this option to enable the "New arrivals" feature. 
     *   **Number of days to keep products marked as new arrivals**: Use this setting to specify the number of days for which a product should be treated as a "new arrival". Make sure you specify a non-zero value (otherwise "30 days" will be used by default).
     *   **Maximum number of products to display in complete new arrivals list**: Specify the maximum number of products to be displayed when a user clicks the "All newest products" link in the "New arrivals" block:
@@ -44,16 +42,6 @@ To adjust the way new arrivals should be displayed to your store's visitors, you
  
         * _On catalog and product pages_ - "New" labels will be used on catalog pages (like on the screenshot above) AND on product pages (like on the screenshot below):
           ![xc5_productadvisor_new_label_on_productpage.png]({{site.baseurl}}/attachments/ref_2A50nkO9/xc5_productadvisor_new_label_on_productpage.png)
-
-    *   **Display "New arrivals" block on sidebar (otherwise in center area)**: This setting defines the location of the "New arrivals" block. Enable if you want the "New arrivals" block to appear in the sidebar. Disable if you want this block to be displayed in the central area of your store site. 
-    
-        {% note yellow %}
-        __X-Cart 5.1.x__: Drupal block settings can override this option (when the DrupalConnector addon is enabled).
-        {% endnote %}
-    
-        {% note info %}
-        The setting "Display "New arrivals" block on sidebar (otherwise in center area)" is not available in newer X-Cart versions (X-Cart 5.3.1.4 and later). To change the position of the "New arrivals" block, use the {% link "Layout Editor" ref_1xoeCJwy %} in Webmaster mode.
-        {% endnote %}
     
     *   **Maximum number of products to display in "New arrivals" block**: This setting defines the maximum number of products that can be displayed in the "New arrivals" block. Specify a non-zero value; otherwise, 3 products will be displayed by default. If the specified value is less than the total amount of products on the complete new arrivals list, that value will be used instead. 
 
@@ -70,3 +58,8 @@ To adjust the way new arrivals should be displayed to your store's visitors, you
 3.  Once you are done configuring the settings, click the **Submit** button at the bottom of the page to save the changes.
 
 New products in your store will be treated as new arrivals and automatically included into the "New arrivals" list starting on their arrival date as specified in the {% link "product details" ref_fhzzxDTy %}. They will remain in the "New" state for the duration of the period specified by the setting "Number of days to keep products marked as new arrivals", after which they will be automatically excluded from the "New arrivals" list.
+
+To change the position of the "New arrivals" block:
+    
+   * X-Cart versions 5.3.1.4 and later: Use our {% link "Layout Editor" ref_1xoeCJwy %} in Webmaster mode.
+   * X-Cart versions prior to 5.3.1.4: Use the setting "Display "New arrivals" block on sidebar (otherwise in center area)". Note that Drupal block settings can override this setting (when the DrupalConnector addon is enabled).
