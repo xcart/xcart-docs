@@ -21,6 +21,7 @@ Your customers can also view all your store's new products as a list on a separa
     ![comingsoon_menu.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_menu.png)
 
 In addition to that, products with an arrival date in the future can be marked with labels saying "Expected on..." and stating the date on which customers should expect them to arrive.
+     ![comingsoon_label_on_productpage.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_label_on_productpage.png)
 
 To use the "Coming soon" feature, make sure that the addon **Product Advisor** is installed and enabled at your store.
 ![product_advisor_enabled.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/product_advisor_enabled.png)
