@@ -16,7 +16,6 @@ The "Coming soon" feature in X-Cart 5 is available through the use of the addo
 
 It also appears on catalog pages in the sidebar:
     
-    (Note that this block is displayed only on the pages of categories that have "coming soon" products; if there are no such products, there is nothing to display in the block, so the empty block does not appear on the page.)
 
 Your customers can also view all your store's new products as a list on a separate page (`http://<your-domain>/<x-cart-5-directory>/?target=coming_soon`) available by default through the "Coming soon" item in your store's Primary menu.
 
