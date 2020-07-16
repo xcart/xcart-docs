@@ -48,3 +48,5 @@ The listing page also displays for a category:
 - a clickable number of products in this particular category.
 
 The value in brackets shows the overall number of products in both that category and all its subcategories.
+
+A category listing page in the storefront displays only the products assigned to the category itself but not to its subcategories.
