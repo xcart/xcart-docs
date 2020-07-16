@@ -31,11 +31,15 @@ To adjust the way new arrivals should be displayed to your store's visitors, you
     ![product_advisor_settings.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/product_advisor_settings.png)
 
 2.  In the section **"New arrivals" block settings**, adjust the following settings:
+
     *   **Enable "New arrivals" feature in catalog**: Enable this option to enable the "New arrivals" feature. 
-    *   **Number of days to keep products marked as new arrivals**: Use this setting to specify the number of days for which a product should be treated as a "new arrival". Make sure you specify a non-zero value (otherwise "30 days" will be used by default).
+    
+    *   **Number of days to keep products marked as new arrivals**: Use this setting to specify the number of days for which a product that you have added to your store's catalog should be treated as a "new arrival". Make sure you specify a non-zero value (otherwise "30 days" will be used by default).
+    
     *   **Maximum number of products to display in complete new arrivals list**: Specify the maximum number of products to be displayed when a user clicks the "All newest products" link in the "New arrivals" block:
-        ![]({{site.baseurl}}/attachments/6389778/8717847.png)
+        ![all_newest_link.png]({{site.baseurl}}/attachments/ref_2A50nkO9/all_newest_link.png)
         Leave 0 for no limit.
+    
     *   **Label new products**: Adjust this setting to specify whether you would like "New!" labels to be placed on products, and if so, on what pages that should happen. 
         * _Don't label_ - "New" labels will not be used anywhere on the store pages.
         
