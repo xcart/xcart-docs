@@ -22,4 +22,7 @@ Then configure the addon settings:
     ![customers_who_bought_settings.png]({{site.baseurl}}/attachments/ref_2H8XDl5r/customers_who_bought_settings.png)
 
 3. Adjust the following settings:
-   * Display block in catalog: Enable this option to use the "Customers who bought this product also bought" block. 
+   * **Display block in catalog**: Enable this option to use the "Customers who bought this product also bought" block. 
+   * **Maximum number of products to display in block**: Specify the maximum number of products that can be shown within the block.
+   
+3.  Once you are done configuring the settings, click the **Submit** button at the bottom of the page to save the changes.
