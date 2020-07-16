@@ -31,10 +31,7 @@ If necessary, it is possible to move the block to a different location using the
 The maximum number of products that can be shown within the "Bestsellers" block on the Home page and on the category pages can be adjusted as follows:
 
    1. Use the **Settings** link to access the "Bestsellers" addon settings page.
-      ![bestsellers1.png]({{site.baseurl}}/attachments/ref_p1CIVmy6/bestsellers1.png)
-      
-      The addon settings page looks like the following:
-      ![bestsellers2.png]({{site.baseurl}}/attachments/ref_p1CIVmy6/bestsellers2.png)
+      ![bestsellers_settings.png]({{site.baseurl}}/attachments/ref_p1CIVmy6/bestsellers_settings.png)
     
    2. Adjust the number of products as you require. 
     
