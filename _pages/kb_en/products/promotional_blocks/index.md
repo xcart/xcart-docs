@@ -17,10 +17,12 @@ The blocks _New Arrivals_, _Coming Soon_, _Bestsellers_ or _Recently Viewed_ can
   * {% link "Enabling the Bestsellers Block" ref_p1CIVmy6 %}
   * {% link "Product Stickers" ref_2O2hXMhF %}
 
-_Featured products_ and _Related products_ can be used to attract your customers to alternatives or additional items that may supplement the product being viewed or have been added to the shopping cart previously. For information on these, see: 
+Such features as _Related products_, _Featured products_, _Customers who bought this product also bought_ and _Customers who viewed this product bought_ can be used to attract your customers to alternatives or additional items that may supplement the product being viewed or have been added to the shopping cart previously. For information on these, see: 
 
    * {% link "Adding Featured Products" ref_4iFdpTdv %}
    * {% link "Adding Related Products" ref_4a5rpsQq %}
+   * {% link "Enabling the "Customers Who Bought This Product Also Bought" Block" ref_2H8XDl5r %}
+   * {% link "Enabling the "Customers Who Viewed This Product Bought" Block" ref_0DxmAIpB %}
 
 The _Product Tags_ block can help your store visitors to search for products quicker and easier, whereas _Product Reviews_ and _Questions_ enable your store users to share their experience and give more product insight to build a strong customer community. See the following sections:
 
