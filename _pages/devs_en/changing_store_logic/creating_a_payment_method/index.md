@@ -1,12 +1,14 @@
 ---
+lang: en
+layout: article_with_sidebar
+updated_at: '2016-11-18 00:00'
 title: Creating a payment method
 identifier: ref_U1KitTMm
-updated_at: 2016-11-18 00:00
-layout: article_with_sidebar
-lang: en
 categories:
-- Developer docs
-- Demo module
+  - Developer docs
+  - Demo module
+published: false
+order: 100
 ---
 
 ## Introduction
