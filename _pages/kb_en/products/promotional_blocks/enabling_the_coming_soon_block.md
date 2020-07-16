@@ -15,7 +15,7 @@ The "Coming soon" feature in X-Cart 5 is available through the use of the addo
     ![comingsoon_section_home.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_section_home.png)
 
 It also appears on catalog pages in the sidebar:
-    
+    ![comingsoon_block_sidebar.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_block_sidebar.png)
 
 Your customers can also view all your store's new products as a list on a separate page (`http://<your-domain>/<x-cart-5-directory>/?target=coming_soon`) available by default through the "Coming soon" item in your store's Primary menu.
 
