@@ -15,6 +15,7 @@ The "New arrivals" feature in X-Cart 5 is available through the use of the addo
     ![new_arrivals_block.png]({{site.baseurl}}/attachments/ref_2A50nkO9/new_arrivals_block.png)
 It also appears on catalog pages in the sidebar:
     ![new_arrivals_block1.png]({{site.baseurl}}/attachments/ref_2A50nkO9/new_arrivals_block1.png)
+    (Note that this block is displayed only on the pages of categories that have new arrivals; if there are no new arrivals, there is nothing to display in the block, so the empty block does not appear on the page.)
 
 Your customers can also view all your store's new products as a list on a separate page (`http://<your-domain>/<x-cart-5-directory>/?target=new_arrivals`) available by default through the "New!" item in your store's Primary menu.
     ![new_arrivals_menu.png]({{site.baseurl}}/attachments/ref_2A50nkO9/new_arrivals_menu.png)
