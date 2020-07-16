@@ -18,6 +18,7 @@ It also appears on catalog pages in the sidebar:
     ![comingsoon_block_sidebar.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_block_sidebar.png)
 
 Your customers can also view all your store's new products as a list on a separate page (`http://<your-domain>/<x-cart-5-directory>/?target=coming_soon`) available by default through the "Coming soon" item in your store's Primary menu.
+    ![comingsoon_menu.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_menu.png)
 
 In addition to that, products with an arrival date in the future can be marked with labels saying "Expected on..." and stating the date on which customers should expect them to arrive.
 
@@ -45,8 +46,7 @@ To configure how the products that are about to appear in your store's catalog s
         ![comingsoon_section_home.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_section_home.png)
 
         If the store has more "coming soon" products than what is displayed in this block, your customers will be able to access them on the "Coming soon" page (available via your store's Primary menu).
-        ![comingsoon_menu.png]({{site.baseurl}}/attachments/ref_hQnN8cAT/comingsoon_menu.png)
-
+        
 3.  Once you are done configuring the settings, click the **Submit** button at the bottom of the page to save the changes.
 
 
