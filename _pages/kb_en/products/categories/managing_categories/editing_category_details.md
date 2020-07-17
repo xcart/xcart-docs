@@ -48,3 +48,8 @@ To edit a category properties:
 4. Click **Update** to save the changes.
 
 That's it! Your category is configured. Now you can proceed to {% link "populating it with products" ref_3RiU8luY %}.
+
+_Related pages:_
+
+*  {% link "Adding Products to a Category" ref_3RiU8luY %}
+*  {% link "Adding Featured Products" ref_4iFdpTdv %}
