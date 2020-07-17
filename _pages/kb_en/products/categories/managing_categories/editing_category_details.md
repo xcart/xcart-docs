@@ -14,6 +14,7 @@ To edit a category properties:
 1. Open the **Categories** section in the store Admin area (**Catalog** -> **Categories**)
 2. Locate a category you need to edit and click on the category name. 
 3. Use the fields in the **Category Info** tab on the category details page to provide information. 
+   
    The only required fields are _Category name_ and _Parent category_.
    ![541-category-details.png]({{site.baseurl}}/attachments/ref_02QQDneV/541-category-details.png)
 
@@ -46,4 +47,4 @@ To edit a category properties:
 
 4. Click **Update** to save the changes.
 
-That's it! Your category is configured. Now you can proceed to {% link "populating it with the products" ref_3RiU8luY %}.
+That's it! Your category is configured. Now you can proceed to {% link "populating it with products" ref_3RiU8luY %}.
