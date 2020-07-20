@@ -6,6 +6,7 @@ identifier: ref_0TwynAXE
 title: U.S.P.S. Shipments via Pitney Bowes
 order: 200
 published: true
+version: The feature is available for shipments within US only.
 ---
 If U.S.P.S. delivery is set up via Pitney Bowes services, a store admin can create shipments to get an order tracking number and shipping label to attach them to the order. 
 
