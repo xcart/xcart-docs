@@ -16,6 +16,7 @@ The rest of the pages display categories as a block to the left:
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![541-storefront-category-details-page.png]({{site.baseurl}}/attachments/ref_3aUJrW2c/541-storefront-category-details-page.png)</div>
   <div class="column" markdown="span">![541-storefront-sale-page.png]({{site.baseurl}}/attachments/ref_3aUJrW2c/541-storefront-sale-page.png)</div>
+</div>
   
 {% toc %}
 
