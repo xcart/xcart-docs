@@ -27,12 +27,11 @@ In case it's necessary to change the location of the **Categories** block on a p
 ## Adding Categories to Navigation Panel
 
 In case you need categories to display horizontally as a part of a header menu, hide the regular categories block using {% link "Layout Editor" ref_1xoeCJwy %} and add categories as menus to the navigation panel. 
-
-![home_1.png]({{site.baseurl}}/attachments/ref_6rpDdput/home_1.png)
+![541-cus-categories-in-header.png]({{site.baseurl}}/attachments/ref_3aUJrW2c/541-cus-categories-in-header.png)
 
 To add categories to the top menu:
 
-1. Add your categories as menus on the Menus page (**Content** > **Menus**) in the store Admin area as described [here](https://kb.x-cart.com/look_and_feel/navigation/adding_new_items_to_your_stores_menus.html#primary-and-footer-menu-maintenance "Categories Representation on Storefront").
+1. Add your categories as menus on the menu listing page (**Content** > **Menus**) in the store Admin area as described [here](https://kb.x-cart.com/look_and_feel/navigation/adding_new_items_to_your_stores_menus.html#primary-and-footer-menu-maintenance "Categories Representation on Storefront").
    ![541-menus-categories-added.png]({{site.baseurl}}/attachments/ref_3aUJrW2c/541-menus-categories-added.png)
 
    {% note info %}
@@ -62,7 +61,7 @@ To add categories to the top menu:
       
     You can add as many submenu levels as you need.
 
-3. Hide the "Categories" block and change the storefront page as described [here](https://kb.x-cart.com/look_and_feel/theme_tweaker/layout_editor.html#editing-storefront-layout-format "Categories Representation on Storefront").
+3. Hide the "Categories" block and change the storefront page layout as described [here](https://kb.x-cart.com/look_and_feel/theme_tweaker/layout_editor.html "Categories Representation on Storefront").
 
 4. Check your new site layout.
    
