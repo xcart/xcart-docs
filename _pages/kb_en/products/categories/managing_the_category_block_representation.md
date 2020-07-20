@@ -22,7 +22,7 @@ The rest of the pages display categories as a block to the left:
 
 ## Categories Block Relocation
 
-In case it's necessary to change the location of the **Categories** block on a page or to remove it completely it's recommended to use {% link "Layout Editor" ref_1xoeCJwy %}. 
+In case it's necessary to change the location of the **Categories** block on a storefront page or to remove it completely it's recommended to use {% link "Layout Editor" ref_1xoeCJwy %}. 
 
 ## Adding Categories to Navigation Panel
 
