@@ -83,32 +83,8 @@ In the fifth step, the wizard will provide you with a list of X-Cart 5 addons th
 ![mw_8.png]({{site.baseurl}}/attachments/ref_Ah935naM/mw_8.png)
 
 Click **Enable and continue**.
-
-What happens next depends on whether your X-Cart 5 store is a trial installation or using some kind of license.
-
-### Trial installation (NO license is activated)
-    
-On a trial installation, the process will activate all the required addons:
-![xc5_mw_step5_3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_mw_step5_3.png)
-
-If any paid addons are installed at this step, you will get a warning that licenses must be purchased:
-![xc5_migration_wizard_enable4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable4.png)
-
-In this case, you can either activate an addon license or remove it from your store.
-    
-You may choose to resolve the licensing problem right away, or you may close the popup window with the warning and continue with the migration process. However, please be aware that the license warning will continue to appear in your X-Cart 5 store (at both the back-end and the storefront) until you purchase the license or remove the addons. 
        
-{% note info %}
-On our demo, we used a trial installation, so we got the first type of warning and chose to activate a license key for X-Cart Ultimate. After activating the key, we got a message at the top of the screen showing that the key has been activated successfully:
-![xc5_migration_wizard_enable5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable5.png)
-        
-This means that our licensing problem has been resolved, and we can go back to our migration process:
-![xc5_migration_wizard_enable6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable6.png)
-{% endnote %}
-
-### Licensed installation
-       
-On a licensed installation, the scenario of the wizard "Step 5 - Enable" will be a bit different after the **Enable and continue** button is clicked. 
+For X-Cart Enterprize installation, the scenario of the wizard "Step 5 - Enable" will be as follows. 
       
 If the wizard detects that addons cannot be used with your type of X-Cart license, after these addons are downloaded, you will get a license warning as follows:
       
