@@ -7,7 +7,7 @@ title: Product Details
 order: 100
 published: true
 ---
-When creating a new product, you need to specify product details via the form fields of the Add product page. 
+When creating a new product, you need to specify product details via the form fields of the "Add product" page. 
 
 {% note info %}
 The actual set of fields available to you on this page depends on the X-Cart edition you are using and the set of addons enabled. 
@@ -23,9 +23,11 @@ The following list of fields corresponds to the set of product fields available 
 
 ## General Info
 
-![product_info.png]({{site.baseurl}}/attachments/ref_2D8wAeXP/product_info.png)
+![5410-product-details-info.png]({{site.baseurl}}/attachments/ref_2D8wAeXP/5410-product-details-info.png)
 
-*   **Vendor**: Company name and email of the vendor who owns the product. This field is only available if X-Cart's {% link "Multi-vendor" ref_cvwmAuRi %} addon is active. Since an administrator can create products not only for themselves, but also for other users (vendors), this field needs to be adjusted to specify the owner of the product.
+*   **Vendor**: Company name and email of the vendor who owns the product. 
+    
+    This field is only available if X-Cart's {% link "Multi-vendor" ref_cvwmAuRi %} addon is active. Since an administrator can create products not only for themselves, but also for other users (vendors), this field needs to be adjusted to specify the owner of the product.
 
 *   **Product name**: The name by which you and your customers will identify this product.
 
@@ -57,35 +59,55 @@ The following list of fields corresponds to the set of product fields available 
 
 ## Prices & Inventory
 
-![prices_inventory.png]({{site.baseurl}}/attachments/ref_2D8wAeXP/prices_inventory.png)
+![541-product-details-price.png]({{site.baseurl}}/attachments/ref_2D8wAeXP/541-product-details-price.png)
 
 *   **Memberships**: Membership levels to which this product should be available. Non-members and users belonging to other membership levels will not be able to see the product on the storefront. For more info on memberships in X-Cart, see the section {% link "User membership levels" ref_RXsgxNSm %} of this manual.
+
+*   **Coupons**: Coupon(s) that apply to the product.
+    
+    This field is enabled by the {% link "Coupons" ref_3iTVKlYe %} addon.
 
 *   **Tax class**: The tax class to which the product belongs (Defines what taxes should be applied to the product). For more info on tax classes, see: {% link "Setting up tax classes" ref_pAWOdG8N %}.
 
 *   **Price**: The product base price.
 
-*   **Market price**: This field is enabled by the {% link "Market Price" ref_66scBj0f %}. It can be used to set a market product price showing the difference between the product price offered in your store and the average price of this product on the market. 
+*   **Market price**: Use this field to set a market product price showing the difference between the product price offered in your store and the average price of this product on the market. 
+    
+    This field is enabled by the {% link "Market Price" ref_66scBj0f %} addon.
 
-*   **Sale**: This field is enabled by the {% link "Sale" ref_7tBJ8Yqo %} addon. Use it to put the product on sale. After enabling the "Sale" option you will be able to specify either a sale price for the product (expressed in the store currency) or a discount (expressed as a percentage off the product base price).
+*   **Sale**: Use this field to put the product on sale. After enabling the "Sale" option you will be able to specify either a sale price for the product (expressed in the store currency) or a discount (expressed as a percentage off the product base price).
+    
+    This field is enabled by the {% link "Sale" ref_7tBJ8Yqo %} addon. 
+
+*   **Apply product-specific discount to wholesale price**: This toggle allows to include products with wholesale prices into a sale offer. The offer will be valid for wholesale prices only if the discount amount is set percentagewise. 
+    
+    This field is enabled by the {% link "Wholesale" ref_ttZa4qgu %} addon.
+
+*   **Global discounts**: This field allows to apply a sale offer to product (can be used e.g. to add a new product to a group of products put on sale or to delete a product from such a group).
+    
+    This field is enabled by the {% link "Sale" ref_7tBJ8Yqo %} addon.
 
 *   **Arrival date**: This field allows you to specify the date since when the product is or will be available in your store. On its own, the information entered in this field serves purely informational purposes, but it may be employed by X-Cart addons. For example, it is used by the addon "Product Advisor" which enables you to mark specific products in your catalog as "Coming soon" publishing their expected arrival date for the store visitors to see and automatically switches the status of such products to "New arrival" on the date of arrival.
 
-*   **Automatic reward points**: This field is only available if X-Cart's [Loyalty Program](https://market.x-cart.com/addons/loyalty-program.html?sl=en&utm_source=XC5admin&utm_medium=addons_list_installed&utm_campaign=XC5admin "Adding products") addon is active; it enables you to specify whether reward points for buying the current product should be calculated from the product price automatically or adjusted manually. With the "Automatic reward points" option disabled you will be able to set the number of points that a customer will earn by buying the current product via the **Reward points** field (appears when the "Automatic reward points" option is enabled).
+*   **Automatic reward points**: Use this field to specify whether reward points for buying the current product should be calculated from the product price automatically or adjusted manually. With the "Automatic reward points" option disabled you will be able to set the number of points that a customer will earn by buying the current product via the **Reward points** field (appears when the "Automatic reward points" option is enabled).
+
+   This field is enabled by the {% link "Loyalty Program" ref_1Odyn6mT %} addon.
 
 *   **Inventory tracking**: Whether you wish to use the inventory tracking feature for this product. The inventory tracking feature enables you to specify the number of product units you have on hand initially (using the "Quantity in stock" field; see below); your X-Cart store will then track all the purchases of the product. Every time someone buys the product, the number in the "Quantity in stock" field will be reduced automatically by the number of units that have been purchased. If you have a stock refill, you edit the value in the  "Quantity in stock" field increasing the value by the number of units you require. As a result, you will be able to tell how many units of the product you have in stock at any time. If the product quantity is unlimited and does not need to be tracked, the inventory tracking feature can be disabled.
 
 *   **Quantity in stock**: The current inventory level of the product (the number of product units in stock). The value specified in this field is used for the Inventory tracking feature.
 
-*   **Available for backorder**: This field is only available if X-Cart's [Backorder / Preorder](https://market.x-cart.com/addons/backorder-preorder.html?sl=en&utm_source=XC5admin&utm_medium=addons_list_installed&utm_campaign=XC5admin "Adding products") addon is active; it enables you to specify that the current product can be purchased even when it is out of stock. After enabling the "Available for backorder" option, you will also be able to set a backorder label for the product and to limit the backorder quantity (see below).
+*   **Available for backorder**: Use this field to specify that the current product can be purchased even when it is out of stock. After enabling the "Available for backorder" option, you will also be able to set a backorder label for the product and to limit the backorder quantity (see below).
+   
+   This field is enabled by the {% link "Backorder / Preorder" ref_3XIgbfev %} addon.
 
-*   **Backorder label**: This field is only available if the previous setting ("Available for backorder") is enabled. It allows you to add a message regarding the backordering of the current product which your store visitors will see attached to this product in product lists and on the product page when the product is out of stock. You can insert the number of units available for backordering into this message by using the "%number%" placeholder; for example: "You can backorder up to %number% items."
+*   **Backorder label**: This field is only available if the setting "Available for backorder" is enabled. It allows you to add a message regarding the backordering of the current product which your store visitors will see attached to this product in product lists and on the product page when the product is out of stock. You can insert the number of units available for backordering into this message by using the "%number%" placeholder; for example: "You can backorder up to %number% items."
 
 *   **Limit the backorder quantity**: This field is only available if the setting "Available for backorder" is enabled. It allows you to specify that only a limited number of units of the current product can be purchased on backorder, and to specify the maximum limit via the **Max. backorder quantity** field (appears when the "Limit the backorder quantity" option is enabled).
 
 ## Shipping
 
-![product_shipping.png]({{site.baseurl}}/attachments/ref_2D8wAeXP/product_shipping.png)
+![541-product-details-shipping.png]({{site.baseurl}}/attachments/ref_2D8wAeXP/541-product-details-shipping.png)
 
 *   **Weight**: Product weight. If the product requires shipping, this setting may affect the calculation of order shipping cost.
 
@@ -101,7 +123,7 @@ The following list of fields corresponds to the set of product fields available 
     
 ## Marketing
 
-![product_marketing.png]({{site.baseurl}}/attachments/ref_2D8wAeXP/product_marketing.png)
+![541-product-details-marketing.png]({{site.baseurl}}/attachments/ref_2D8wAeXP/541-product-details-marketing.png)
 
 *   **Open Graph meta tags**: The custom META tags for sharing the product page on Facebook.
 
@@ -112,3 +134,11 @@ The following list of fields corresponds to the set of product fields available 
 *   **Product page title**: The title to be used in the title bar of this product details page (for SEO purposes). 
 
 *   **Clean URL**: The product page Clean URL (human-readable SEO-friendly URL, typically based on the product name). The URL can be configured manually (by editing of the field contents directly) or generated automatically (by enabling the "Autogenerate Clean URL" option below before saving the product). Note that if the Clean URLs feature is disabled, you will need to activate it for the SEO-friendly page URLs to become available to store visitors. More info on Clean URLs is available via the {% link "Setting up SEO-friendly URLs" ref_nJxrzFEZ %} section of this manual.
+
+*   **Add to Facebook product feed**: This toggle allows to include the product into a feed sent to Facebook.
+    
+    This field is enabled by the {% link "Facebook Ads & Instagram Ads" ref_1LQyHRCO %} addon.
+    
+*   **Add to Google product feed**: This toggle allows to include the product into a feed sent to Google.
+    
+    This field is enabled by the {% link "Google Product Feed" ref_2gQBB6qM %} addon.
