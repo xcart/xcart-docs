@@ -41,18 +41,22 @@ The following list of fields corresponds to the set of product fields available 
 
 *   **Full description**: A longer product description that will be displayed on the product details page.
 
-*   **Allow buyers to attach files to this product**: This field is only available if X-Cart's "[Customer Files Uploads & Product Attachments](https://market.x-cart.com/addons/files-uploads-product-attachments.html?sl=en&utm_source=XC5admin&utm_medium=addons_list_installed&utm_campaign=XC5admin "Adding products")" addon is active.
+*   **Allow buyers to attach files to this product**: Use this toggle to allow customers to attach files during shopping.
 
-*   **Tags**: This field is only available if X-Cart's {% link "Product Tags" ref_6nFoxYf1 %} addon is active; it enables you to assign tags defined via the Product tags section (**Catalog** > **Tags**) to the current product.
+    This field is enabled by the {% link "Customer Files Uploads & Product Attachments" ref_1tk0fbqz %} addon.
 
-*   **Available for sale**: Whether the product should be displayed on the storefront. Uncheck this option to temporarily remove the product from the storefront (Store visitors will not be able to see it).
+*   **Tags**: Use this field to assign tags defined via the Product tags section (**Catalog** > **Tags**) to the current product.
+    
+    This field is enabled by the {% link "Product Tags" ref_6nFoxYf1 %} addon.
+
+*   **Available for sale**: This toggle defines whether the product should be displayed on the storefront. Uncheck this option to temporarily remove the product from the storefront (Store visitors will not be able to see it).
 
     <a id="available-for-sale"></a>
     
     {% note info %}    
-    If you disable the **Available for sale** option, the product will become inactive, and store visitors who will attempt to access the page of this product via a direct link will see the 404 "Page not found" error. If necessary, you can set redirects for the pages of disabled products using .htacces or the [Redirects](https://market.x-cart.com/addons/redirects-by-Nova-Horizons.html "Adding products") addon. 
+    If you disable the **Available for sale** option, the products become inactive, and store visitors attempting to access the page of this product via a direct link will see the 404 "Page not found" error. If necessary, you can set redirects for the pages of disabled products using .htacces or the [Redirects](https://market.x-cart.com/addons/redirects-by-Nova-Horizons.html "Adding products") addon. 
   
-    If you do not want to sell a product any longer but want a product page be still accessible on the storefront, set the product's stock to zero and add "Not available for sale" to the product name, rather than making it inactive. Make sure the _How to show out of stock products_ option is set to "Show in all the sections" in the **Store setup** -> **Cart & checkout** section of the admin area. 
+    If you do not want to sell a product any longer but want a product page be still accessible on the storefront, set the product's stock to zero and add "Not available for sale" to the product name, rather than making it inactive. Make sure the _How to show out of stock products_ option is set to "Show in all the sections" in the **Store setup** -> **Cart & checkout** section of your store Admin area. 
     {% endnote %}
     
 *   **Call for price**: This field is only available if X-Cart's {% link "Call For Price" ref_3K1pJExV %} addon is active; it enables you to specify that the price and Add to cart button must not be provided for the current product; instead, a message inviting store visitors to call for price should be displayed.
