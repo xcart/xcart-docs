@@ -201,6 +201,7 @@ A store admin can restore default templates and cancel any changes applied to th
 To restore a changed template to its default state:
 1. Open the **Template Editor** tool in the storefront.
    ![541-template-editor-on.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-on.png)
+
 2. Locate a template you need to restore to the original state.
    
    This can be done using one of the following ways:
@@ -229,7 +230,7 @@ Using the **Template Editor** facilities it is possible to add new templates dir
 For this purpose:
 1. Open the **Template Editor** tool in the storefront.
    ![541-template-editor-on.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-on.png)
-2. Navigating through the templates tree to the left to find the loation you need to add a new template to:
+2. Navigating through the templates tree to the left, find the location you need to add a new template to:
    ![541-template-editor-tree.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-tree.png)
 3. Click the **+** icon within the necessary directory:
    ![541-template-editor-add-new.png]({{site.baseurl}}/attachments/ref_1gdpZJ44/541-template-editor-add-new.png)
