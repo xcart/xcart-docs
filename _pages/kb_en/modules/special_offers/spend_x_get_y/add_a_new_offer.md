@@ -123,7 +123,7 @@ If you want to exclude any of the locations, turn them off.
 The result will look as follows:
 
 * On the Home page
-  ![so_home_page.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_home_page.png)
+  ![so_home_page.png]({{site.baseurl}}/attachments/ref_4dh6ViV0/so_home_page.png)
 
 * On the Special offers page
   ![so_special_offers_page.png]({{site.baseurl}}/attachments/ref_5KycxjBU/so_special_offers_page.png)
