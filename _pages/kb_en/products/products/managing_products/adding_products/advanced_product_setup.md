@@ -115,7 +115,7 @@ For more info on using the addon, see {% link "Product File Attachments" ref_0ZW
 
 If you need to be able not just to attach files for free download by store visitors but to sell digital goods, you will also need the addon [E-goods](https://market.x-cart.com/addons/e-goods.html). For more info on using the addon, see the section {% link "E-goods" ref_ZszpDfxQ %} in this manual.
 
-## Sell Products in a Bundle
+## Sell Products in Bundle
 
 If you need to sell products in bundle to give your customers an opportunity to buy products at a special price on a set if bought together, you may want to use the addon [Bundle Products](https://market.x-cart.com/addons/bundle-products.html "Advanced Product Details"). This addon will enable you to join products in bundles via the "Bundle" tab of the product page:
 ![adm-product-details.png]({{site.baseurl}}/attachments/ref_2kV8GKN7/adm-product-details.png)
