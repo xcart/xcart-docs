@@ -88,13 +88,6 @@ If you need to give your customers an oppurtunity to rate the products you sell 
 
 For more info on the addon, see the section {% link "Product Reviews" ref_XBriIS6B %} of this manual.
 
-## Sell Products in a Bundle
-
-If you need to sell products in bundle to give your customers an opportunity to buy products at a special price on a set if bought together, you may want to use the addon [Bundle Products](https://market.x-cart.com/addons/bundle-products.html "Advanced Product Details"). This addon will enable you to join products in bundles via the "Bundle" tab of the product page:
-![adm-product-details.png]({{site.baseurl}}/attachments/ref_2kV8GKN7/adm-product-details.png)
-
-For more info on using the addon, see the section {% link "Bundle Products" ref_1nuTw4Kc %} of this manual.
-
 ## Product Tabs Displayed on the Product Page on the Storefront
 
 X-Cart uses the product tabs feature to present the detailed product information to the store visitors in the most suitable format. 
@@ -121,3 +114,10 @@ If you need to attach files to your product (like a product manual or a detailed
 For more info on using the addon, see {% link "Product File Attachments" ref_0ZWKcob4 %}.
 
 If you need to be able not just to attach files for free download by store visitors but to sell digital goods, you will also need the addon [E-goods](https://market.x-cart.com/addons/e-goods.html). For more info on using the addon, see the section {% link "E-goods" ref_ZszpDfxQ %} in this manual.
+
+## Sell Products in a Bundle
+
+If you need to sell products in bundle to give your customers an opportunity to buy products at a special price on a set if bought together, you may want to use the addon [Bundle Products](https://market.x-cart.com/addons/bundle-products.html "Advanced Product Details"). This addon will enable you to join products in bundles via the "Bundle" tab of the product page:
+![adm-product-details.png]({{site.baseurl}}/attachments/ref_2kV8GKN7/adm-product-details.png)
+
+For more info on using the addon, see the section {% link "Bundle Products" ref_1nuTw4Kc %} of this manual.
