@@ -35,4 +35,4 @@ To add an image to the description of a category or a product, follow the steps 
 
 6.  Click the **Update** button at the bottom of the page to save the details of the product or category you have been editing. The changes will be saved. 
 
-Now if you find the category or product you have edited in the storefront, you should be able to see the image you have added as part of the description.
+Now if you check the storefront for the category or product you have edited, you should be able to see the image you have added as part of the description.
