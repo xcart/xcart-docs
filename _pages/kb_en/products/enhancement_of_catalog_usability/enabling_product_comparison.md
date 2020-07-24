@@ -13,22 +13,21 @@ redirect_from:
 ---
 
 
-The addon **Product comparison** allows shoppers to compare different products in your store's catalog. You can install it from the Marketplace:
+The addon **Product comparison** allows shoppers to compare different products in your store's catalog. You can install it as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}:
+![541-product-comparison-addon-enabled.png]({{site.baseurl}}/attachments/ref_xWLlmcLL/541-product-comparison-addon-enabled.png)
 
-![]({{site.baseurl}}/attachments/6389834/8719217.png)
+Once the **Product comparison** addon has been enabled, shoppers will see the **Compare** option when they hover over any product in the storefront. They can use this option to add products to the list.
+![541-comparison-button-quick-view.png]({{site.baseurl}}/attachments/ref_xWLlmcLL/541-comparison-button-quick-view.png)
 
-Once the **Product comparison** addon has been enabled, shoppers will see the **Compare** option when they hover over any product in the store's front end.
+It is also possible to add a product to comparison list from a product details page.
+![541-comparison-button-product-details.png]({{site.baseurl}}/attachments/ref_xWLlmcLL/541-comparison-button-product-details.png)
 
-![]({{site.baseurl}}/attachments/6389834/8719218.png)
+Products added to the list of comparison can be viewed on a special store page that can be reached from the store header:
 
-They can use this option to select products for comparison. The selected products will be added to the comparison list. For example, in the screenshot below you can see two products selected for comparison:
+<div class="ui stackable two column grid">
+  <div class="column" markdown="span">![541-comparison-list-header.png]({{site.baseurl}}/attachments/ref_xWLlmcLL/541-comparison-list-header.png)</div>
+  <div class="column" markdown="span">![541-comparison-page.png]({{site.baseurl}}/attachments/ref_xWLlmcLL/541-comparison-page.png)</div>
+</div>
 
-![]({{site.baseurl}}/attachments/6389834/8719219.png)
+Customers can use the **Differences only** check box option to chose whether they want to see only the parameters that differ between the selected products or all the parameters available for comparison.
 
-To compare the selected products, a customer needs to click the **Compare** button at the bottom of the comparison list. The result will be a table comparing the selected products based on such parameters as price, weight and custom attributes of the selected products.
-
-![]({{site.baseurl}}/attachments/6389834/8719220.png)
-
-Note that customers can use the **Differences only** check box option to chose whether they want to see only the parameters that differ between the selected products or all the parameters available for comparison.
-
-![]({{site.baseurl}}/attachments/6389834/8719221.png)
