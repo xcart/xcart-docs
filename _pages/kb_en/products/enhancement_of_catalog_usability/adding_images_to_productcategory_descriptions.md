@@ -11,20 +11,28 @@ order: 160
 redirect_from:
   - /products/adding_images_to_productcategory_descriptions.html
 ---
-You can easily add images to category/product descriptions.To add an image to the description of a category or a product, follow the steps below:
+You can easily add images to category/product descriptions.
 
-1.  In your store's back end, open the details of the product or category to which you want to add an image. 
-2.  On the WYSIWYG editor panel at the top of the Description field, click the **Insert/edit image** button.
-    ![]({{site.baseurl}}/attachments/6389867/8717805.png)
-    A popup window will be displayed allowing you to specify the source of the image that needs to be inserted into the description:
-    ![]({{site.baseurl}}/attachments/6389867/8717806.png)
-3.  Specify the image URL. You can use an absolute URL to reference an image on another website or a relative URL to reference an image uploaded onto your store's server as described in the article {% link "Uploading custom images onto your store's server" ref_zyQIOcia %}. For the sake of example, we'll use the URL of an image that we previously uploaded onto the store server. Here's where we have copied it from:
-    ![]({{site.baseurl}}/attachments/6389867/8717799.png)
-    And here's where it needs to go in the Edit image popup:
-    ![]({{site.baseurl}}/attachments/6389867/8717807.png)
-4.  Click OK (or similar button) to insert the image into the description. The image will be inserted into the description:
-    ![]({{site.baseurl}}/attachments/6389867/8717808.png)
+To add an image to the description of a category or a product, follow the steps below:
 
-5.  Click the **Update** button at the bottom of the page to save the details of the product or category you have been editing. The changes will be saved. 
+1.  In your store's Admin area, open the {% link "details" ref_2D8wAeXP %} page of a product or category to which you want to add an image. 
+2.  Locate the "Description" field in the _Info_ tab of the details page and click the **Insert image** icon.
+    ![541-add-image-to-description-1.png]({{site.baseurl}}/attachments/ref_VtuUJTh5/541-add-image-to-description-1.png)
 
-Now if you find the category or product you have edited in the Customer front end, you should be able to see the image you have added as part of the description.
+    A popup window will display.
+    ![541-add-image-to-description-2.png]({{site.baseurl}}/attachments/ref_VtuUJTh5/541-add-image-to-description-2.png)
+
+3.  Select a source for your image and follow the flow. You can use one of the three ways for this purpose:
+    * Upload an image from your computer;
+    * Insert an image by URL;
+    * Browse for an existing image.
+    
+4.  Click OK (or similar button) to insert the image into the description. 
+
+
+5.  If you need to edit the new image click on it and use the tool bar above:
+    ![541-add-image-to description-3.png]({{site.baseurl}}/attachments/ref_VtuUJTh5/541-add-image-to description-3.png)
+
+6.  Click the **Update** button at the bottom of the page to save the details of the product or category you have been editing. The changes will be saved. 
+
+Now if you find the category or product you have edited in the storefront, you should be able to see the image you have added as part of the description.
