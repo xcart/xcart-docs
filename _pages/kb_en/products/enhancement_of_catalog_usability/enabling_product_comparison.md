@@ -23,11 +23,7 @@ It is also possible to add a product to comparison list from a product details p
 ![541-comparison-button-product-details.png]({{site.baseurl}}/attachments/ref_xWLlmcLL/541-comparison-button-product-details.png)
 
 Products added to the list of comparison can be viewed on a special store page that can be reached from the store header:
-
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![541-comparison-list-header.png]({{site.baseurl}}/attachments/ref_xWLlmcLL/541-comparison-list-header.png)</div>
-  <div class="column" markdown="span">![541-comparison-page.png]({{site.baseurl}}/attachments/ref_xWLlmcLL/541-comparison-page.png)</div>
-</div>
+![541-comparison-list-header.png]({{site.baseurl}}/attachments/ref_xWLlmcLL/541-comparison-list-header.png)
 
 Customers can use the **Differences only** check box option to chose whether they want to see only the parameters that differ between the selected products or all the parameters available for comparison.
-
+![541-comparison-page.png]({{site.baseurl}}/attachments/ref_xWLlmcLL/541-comparison-page.png)
