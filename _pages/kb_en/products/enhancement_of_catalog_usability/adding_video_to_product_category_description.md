@@ -9,17 +9,24 @@ published: true
 redirect_from:
   - /products/adding_video_to_product_category_description.html
 ---
-You can easily add videos to category/product descriptions. To add a video to the description of a category or a product, follow the steps below:
+You can easily add videos to category/product descriptions. 
 
-1.  In your store's back end, open the details of the product or category to which you want to add a video. 
-2.  On the WYSIWYG editor panel at the top of the Description field, find a Video icon and click on it.
+To add a video to the description of a category or a product, follow the steps below:
+
+1.  In your store’s Admin area, open the {% link "details" ref_2D8wAeXP %} page of a product or category to which you want to add an image. 
+2.  Locate the “Description” field in the _Info_ tab of the details page and click the **Insert video** icon.
     ![description.png]({{site.baseurl}}/attachments/ref_7zAsoYst/description.png)
-    A pop-up window will be displayed allowing you to specify the source of the video that needs to be inserted into the description.  
-3.  A video file can be uploaded either via a URL, or via an embeded code or uploaded from your computer/server. We've added a video via a URL in our sample:
-![Screen Shot 2018-02-08 at 14.43.03.png]({{site.baseurl}}/attachments/ref_7zAsoYst/Screen Shot 2018-02-08 at 14.43.03.png)
-4.  Click INSERT to add the video into the description. The video will be inserted into the description:
+    A pop-up window will display allowing you to specify the source of the video that needs to be added to the description.  
+3.  Select a source for your video and follow the flow. You can use one of the three ways for this purpose:
+    * Insert video by URL;
+    * Use embedded code to add video;
+    * Upload a video file from your computer.
+  
+    We've added a video by URL in our sample:
+    ![Screen Shot 2018-02-08 at 14.43.03.png]({{site.baseurl}}/attachments/ref_7zAsoYst/Screen Shot 2018-02-08 at 14.43.03.png)
+4.  Click INSERT to add the video into the description. 
     ![Screen Shot 2018-02-08 at 14.44.33.png]({{site.baseurl}}/attachments/ref_7zAsoYst/Screen Shot 2018-02-08 at 14.44.33.png)
 5.  Click on the video to edit its representation, if required. 
 6.  Click the **Update** button at the bottom of the page to save the details of the product or category you have been editing. The changes will be saved. 
 
-Now if you find the category or product you have edited in the Customer front end, you should be able to see the video you have added as part of the description.
+Now if you check the storefront for the category or product you have edited, you should be able to see the video you have added as part of the description.
