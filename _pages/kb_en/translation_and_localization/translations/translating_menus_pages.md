@@ -22,19 +22,18 @@ PREREQUISITES: Make sure a required language package is {% link "installed" ref_
 To translate menus:
 1. Open the **Content** > **Menus** section of your store admin area. 
 2. Switch the language of the admin area to the target language of your translation (it will be German in our sample). Use the language select box in the right upper corner for the purpose.
-3. Click on the menu name you need to change and enter the menu translation. 
+3. Click on the menu name you need to change and enter the translation. 
 4. Save the changes.
 
 <div class="ui stackable two column grid">
-  <div class="column" markdown="span">![menus.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus.png)
+  <div class="column" markdown="span">![541-menus-en.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-menus-en.png)
 </div>
-  <div class="column" markdown="span">![menus-german.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus-german.png)
+  <div class="column" markdown="span">![541-menus-de.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-menus-de.png)
 </div>
 </div>
 
 The translated menus will look as follows in the store front-end:
-
-![menus-de-home.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus-de-home.png)
+![541-cus-menus-de.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-cus-menus-de.png)
 
 ## Translating Static Pages
 
