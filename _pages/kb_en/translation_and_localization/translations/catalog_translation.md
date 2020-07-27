@@ -3,10 +3,9 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-02-09 13:26 +0400'
 identifier: ref_5MQvg8Mm
-title: Translating the Product Catalog
+title: Translating Product Catalog
 order: 120
 published: true
-description: translating product catalog into another language
 redirect_from:
   - /products/catalog_translation.html
   - /translation_and_localization/catalog_translation.html
@@ -25,51 +24,58 @@ There are 3 possible ways to translate a product catalog:
 If you need to translate (or to edit the existing translation) of one or several products and/or categories, you can do this directly in the store Admin area.
 
 For this purpose:
-1. Locate the product or category you need to translate and open the its details page:
-   ![category-page-en.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/category-page-en.png)
+1. Locate a product or category you need to translate and open the its details page:
+   ![541-category-details-en.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/541-category-details-en.png)
+
 2. Switch the language of the Admin area to the target language of your translation:
+   ![541-switch-language.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/541-switch-language.png)
+
 3. Edit the required product/category info:
-   ![category-page-de.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/category-page-de.png)
+   ![541-category-page-de.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/541-category-page-de.png)
+
 4. Save the changes.
 
-That's it! The product/category details will now be displayed in the required language when the language is switched. 
+That's it! The product/category details will now displayed in the required language when the language is switched. 
 
-Use this method to translate product and category descriptions, product classes and attributes, products tabs, tags and brands.
+Use this method to translate product and category details, product classes and attributes, products tabs, tags and brands.
 
-## Using Webmaster Mode in the Storefront
+## Using Description Editor Tool in the Storefront
+
+The {% link "Description Editor" ref_0KCLczz4 %} tool of the {% link "Theme Tweaker" ref_2L6W3YMS %} addon allows you to edit product and category descriptions directly in the storefront. Hence you can use it to add a description of a product or category on another language or translate an existing one if required.
 
 {% note info %}
-To use Webmaster mode in the storefront, you will need the addon {% link "Theme Tweaker" ref_2L6W3YMS %}. Make sure this addon is installed and enabled.
+The Description Editor tool can be used for editing product and category full and brief descriptions only. If you need to translate more product details into another language, use the {% link "tools" ref_2CQ8HuY4 %} of the store Admin area.
 {% endnote %}
 
-If you need to translate (or edit an existing translation of) a product/category description, you can do that directly in the storefront using the {% link "Description Editor" ref_0KCLczz4 %} in Webmater mode.
-
 For this purpose:
-1. Locate the product or category you need to translate and open the product/category details page in the storefront:
-   ![product-description-en.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/product-description-en.png)
-2. Switch the storefront language to the target language of your translation:
-   ![product-description-switch.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/product-description-switch.png)
-3. Enable Webmaster mode guided by {% link "Description Editor" ref_0KCLczz4 %}.
-4. Edit the required product/category description:
-   ![product-descripto-de.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/product-descripto-de.png)
-5. Save the changes.
+1. Locate a product or category you need to edit and open the product/category details page in the storefront:
+   ![541-cus-category-page-en.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/541-cus-category-page-en.png)
 
-That's it! The product/category description will now be displayed in the required language when the language is switched. 
+2. Switch the storefront language to the target language of your translation:
+   ![541-cus-switch-language.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/541-cus-switch-language.png)
+
+3. Edit the required product/category description using the Description Editor tool as described {% link "here" ref_0KCLczz4 %}:
+   ![541-cus-category-details-de.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/541-cus-category-details-de.png)
+
+4. Save the changes.
+
+That's it! The product/category description will now display in the required language when the language is switched. 
 
 ## Using Export/Import 
 
-Use the Export/Import feature when you need to translate your store product catalog as a whole. Export the existing categories and products into a .csv file, edit this file and then import it back into the store. 
+Use the {% link "Import-Export" ref_TANvG2De %} feature when you need to translate your store product catalog as a whole. Export the existing categories and products into a .csv file, edit this file and then import it back into the store. 
 
-Using this method you can translate product and category names, as well as brief and full descriptions.
+Using this method you can translate product and category names, as well as brief and full descriptions and the rest of details you need.
   
 To translate a product catalog:
 
 1. Export the current catalog data:
-   * Go to the **Catalog** > **Export** section of your store Admin area.
-   * Choose the data to be exported (e.g. products, categories, attributes, etc.) and click **Start Export**:
-     ![]({{site.baseurl}}/attachments/ref_5MQvg8Mm/export.png)
+   * Go to the Export page of your store Admin area (**Catalog** -> **Export**):
+     ![541-export-page.png]({{site.baseurl}}/attachments/ref_5MQvg8Mm/541-export-page.png)
+
+   * Export data as described {% link "How to Export Data" ref_57zqrlPA %}.
    
-      As a result, you will get a .csv file with the default label names and their values.
+      As a result, you will get a .csv file with the default labels' names and their values.
    
 2. Open the exported .csv file in any spreadsheet editor (MS Excel, LibreOffice Calc, etc.)
 
