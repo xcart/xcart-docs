@@ -8,7 +8,7 @@ version: X-Cart 5.4.0 and higher
 categories:
   - Developer docs
   - Demo module
-published: false
+published: true
 order: 100
 ---
 ## Introduction
