@@ -15,8 +15,8 @@ Display currency is the currency in which prices are displayed to customers in t
 
 To configure your store's default currency settings:
 
-1.  Go to the **Currency** section of your store's Admin area (**Store setup** > **Localization**).
-    ![540-default-currency.png]({{site.baseurl}}/attachments/ref_2dx6iFtL/540-default-currency.png)
+1.  Go to the **Currency** page of your store's Admin area (**Store setup** > **Localization**).
+    ![541-currency.png]({{site.baseurl}}/attachments/ref_2dx6iFtL/541-currency.png)
     
 2. Use the settings in this section to adjust the default currency parameters for your country:
    * **Hide trailing zeros in fractional part** : If this option is enabled, the zeros in the fractional part will be hidden for prices with decimals, e.g. a price of $1234.00 will be displayed as $1234; at the same time, a price of $1234.56 will be displayed as is - $1234.56.
@@ -25,4 +25,3 @@ To configure your store's default currency settings:
    * **Prefix** : The field is defined automatically based on the chosen **Store currency** field value.
    * **Suffix** : The field is defined automatically based on the chosen **Store currency** field value.
 3. Click **Save changes** to submit the currency settings.
-
