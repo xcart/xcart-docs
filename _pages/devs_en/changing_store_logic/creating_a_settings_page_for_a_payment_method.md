@@ -5,7 +5,7 @@ updated_at: '2020-07-28 17:00 +0400'
 identifier: ref_5EM9F7EQ
 title: Creating a settings page for a payment method
 order: 200
-published: false
+published: true
 redirect_from:
   - >-
     /changing_store_logic/creating_a_payment_method/creating_settings_page_for_payment_method.html
@@ -242,4 +242,3 @@ Here we see the `isTestMode()` method in action.
 
 ## Module pack
 Module example (with the settings page) for X-Cart v5.4.x: [XCExample-Payment.5.4.0.0.tgz]({{site.baseurl}}/attachments/modules/XCExample-Payment.5.4.0.0.tgz)
-
