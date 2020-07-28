@@ -19,5 +19,6 @@ This section contains guides that describe changes of X-Cart workflow:
 *   {% link "Creating global discount" ref_mFAMapCB %}, {% link "product specific discount" ref_SMsZrhAi %} or {% link "offering free product" ref_9VmCzbOW %};
 *   {% link "Creating new shipping method" ref_TVWpzWfL %};
 *   {% link "Adding and translating order statuses" http://kb.x-cart.com/en/orders/managing_x-cart_order_statuses_(x-cart_5.2.7_and_later).html %}
+*   {% link "Creating a settings page for a payment method" ref_5EM9F7EQ %}
 *   {% link "Making payment method depend on shipping method" ref_Z6mwXUDg %};
 *   {% link "Forcing customers to some product quantity" ref_a5KAeMkw %}.
