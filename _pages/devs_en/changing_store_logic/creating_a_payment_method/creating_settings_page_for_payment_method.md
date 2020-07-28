@@ -21,7 +21,7 @@ This article is a continuation of the guide about {% link "creating payment meth
 *   [Module pack](#module-pack)
 
 ## Implementation
-We start with creating an empty module with developer ID **XCExample** and module ID **Payment** and then implement a {% link "gateway described in the previous guide" ref_U1KitTMm %}.
+We start with creating an empty module with developer ID **XCExample** and module ID **Payment**.
 
 Here is the file main.yaml of the demo module at the path classes/XLite/Module/XCExample/Payment/main.yaml
 
