@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2020-07-28 17:00 +0400'
 identifier: ref_5EM9F7EQ
 title: Creating a settings page for a payment method
-order: 200
+order: 100
 published: true
 redirect_from:
   - >-
