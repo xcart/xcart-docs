@@ -144,6 +144,7 @@ After that we go to the `<X-Cart>/classes/XLite/Module/XCExample/Payment/Model/P
             && $method->getSetting('password');
     }
 ```
+
 *   `getSettingsWidget()` method defines a **template** that will display a settings for this payment method;
 *   `isTestMode()` method defines a condition that will mark this payment method as in test mode. In our case, if the **mode** setting is not live, then our payment method is in test mode;
 *   `isConfigured()` method defines a condition when X-Cart will consider this payment method ready for processing orders and will show it on checkout page. In our case, **login** and **password** settings must not be empty.
