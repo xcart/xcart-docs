@@ -87,6 +87,7 @@ class DemoPayment extends \XLite\Model\Payment\Base\WebBased
 ```
     This file represents an integration with the self-designed payment gateway described in the point 1 here.
 3.  We create the `<X-Cart>/classes/XLite/Module/XCExample/Payment/install.yaml` file with the following content: 
+
     ```yaml
     XLite\Model\Payment\Method:
       - service_name: DemoPayment
@@ -242,5 +243,3 @@ Here we see the `isTestMode()` method in action.
 
 ## Module pack
 Module example (with the settings page) for X-Cart v5.4.x: [XCExample-Payment.5.4.0.0.tgz]({{site.baseurl}}/attachments/modules/XCExample-Payment.5.4.0.0.tgz)
-
-
