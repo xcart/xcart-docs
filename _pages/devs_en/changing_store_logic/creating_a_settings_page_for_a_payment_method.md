@@ -243,4 +243,4 @@ Go to the payment method's settings page, input any values into **Login**/**Pass
 Here we see the `isTestMode()` method in action.
 
 ## Module pack
-Module example (with the settings page) for X-Cart v5.4.x: [XCExample-Payment.5.4.0.0.tgz]({{site.baseurl}}/attachments/modules/XCExample-Payment.5.4.0.0.tgz)
+Module example (with the settings page) for X-Cart v5.4.x: [XCExample-Payment.5.4.0.0.tgz]({{site.baseurl}}/attachments/XCExample-Payment.5.4.0.0.tgz)
