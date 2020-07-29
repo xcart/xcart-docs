@@ -20,8 +20,8 @@ PREREQUISITES: Make sure a required language package is {% link "installed" ref_
 ## Translating Menus
 
 To translate menus:
-1. Open the **Content** > **Menus** section of your store admin area. 
-2. Switch the language of the admin area to the target language of your translation (it will be German in our sample). Use the language select box in the right upper corner for the purpose.
+1. Open the **Content** > **Menus** section of your store Admin area. 
+2. Switch the language of the Admin area to the target language of your translation (it will be German in our sample). Use the language select box in the right upper corner for the purpose.
 3. Click on the menu name you need to change and enter the translation. 
 4. Save the changes.
 
@@ -38,70 +38,58 @@ The translated menus will look as follows in the store front-end:
 ## Translating Static Pages
 
 To translate static pages:
-1. Go to the **Content** > **Pages** section of your store admin area.
-2. Switch the language of the admin area to the target language of your translation (it will be German in our sample). Use the language select box in the right upper corner for the purpose.
-3. Click on the page you want to edit to open the page details. 
+1. In the **Content** > **Pages** section of your store Admin area, click on the name of a page you want to edit to open the page details:
+   ![541-pages.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-pages.png)
+
+2. Switch the language of the Admin area to the target language of your translation (it will be German in our sample). Use the language select box in the right upper corner for the purpose.
+   ![541-edit-page-switch-language.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-edit-page-switch-language.png)
+
 4. Translate the page name and content. 
+   ![541-edit-page-de.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-edit-page-de.png)
+
 5. Save the changes. 
 
-We'll translate the 'Terms and conditions' page in our sample:
+We used the 'Terms and conditions' page as a sample. For this page it will also be necessary to translate its name in the footer menu. For this purpose:
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![pages.png]({{site.baseurl}}/attachments/ref_7I70QnHa/pages.png)
-</div>
-  <div class="column" markdown="span">![pages-de.png]({{site.baseurl}}/attachments/ref_7I70QnHa/pages-de.png)</div>
-</div>
+1. In the **Content** > **Menus** > **Footer** menu section of yourr store Admin area, locate the 'Info Links' menu and click on the submenu items. 
+   ![431-footer-menu.png]({{site.baseurl}}/attachments/ref_7I70QnHa/431-footer-menu.png)
 
-For 'Terms and conditions' it will also be necessary to translate its value in the footer menu. So go to the **Content** > **Menus** > **Footer** menu section. Find the 'Info Links' menu and click on the submenu items. There, click on 'Terms and conditions', translate it and save the changes.
+2. Switch the language of the Admin area to the target language of your translation (it will be German in our sample). Use the language select box in the right upper corner for the purpose.
+   ![541-edit-page-switch-language.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-edit-page-switch-language.png)
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![footer.png]({{site.baseurl}}/attachments/ref_7I70QnHa/footer.png)
-</div>
-  <div class="column" markdown="span">![terms-de.png]({{site.baseurl}}/attachments/ref_7I70QnHa/terms-de.png)
-</div>
-</div>
-
-The translated 'Terms and conditions' page will look as follows in the store front-end:
-
-![footer-home.png]({{site.baseurl}}/attachments/ref_7I70QnHa/footer-home.png)
-
-![menus-de-home.png]({{site.baseurl}}/attachments/ref_7I70QnHa/menus-de-home.png)
+3. Then, click 'Terms and conditions', translate it and save the changes.
+   ![541-footer-menu-terms-and-conditions.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-footer-menu-terms-and-conditions.png)
 
 ## Translating News
 
 To translate news:
-1. Go to the **Content** > **News messages** section of your store admin area.
-2. Switch the language of the admin area to the target language of your translation (it will be German in our sample). Use the language select box in the right upper corner for the purpose. 
-3. Click on the news entry you want to edit to open the mews page.
+
+1. Go to the News Messages page of your store Admin area (**Content** > **News messages**).
+   ![541-news-messages.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-news-messages.png)
+
+2. Switch the language of the admin area to the target language of your translation (it will be German in our sample). Use the language select box in the right upper corner for the purpose.
+   ![541-news-messages-switch-languages.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-news-messages-switch-languages.png)
+
+3. Click on the "Pen" icon opposite the entry you want to edit to open the message details page.
+   ![541-new-messages-edit.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-new-messages-edit.png)
+
 4. Translate the message name and content.
 5. Save the changes. 
 
-We'll translate the 'BIG WINTER SALE' announcement in our sample:
-
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![news-en.png]({{site.baseurl}}/attachments/ref_7I70QnHa/news-en.png)
-</div>
-  <div class="column" markdown="span">![news-de.png]({{site.baseurl}}/attachments/ref_7I70QnHa/news-de.png)
-</div>
-</div>
-
-The translated news message will look as follows in the store front-end:
-
-![news-homw.png]({{site.baseurl}}/attachments/ref_7I70QnHa/news-homw.png)
 
 ## Translating Order Statuses
 
 To translate order statuses:
-1. Go to the _Payment statuses_ tab of the **Orders** -> **Order statuses** section of your store admin area.
-2. Switch the language of the admin area to the target language of your translation (it will be German in our sample). Use the language select box in the right upper corner for the purpose.
-3. Click on the order status you want to translate and enter the order status translation.
-4. Save the changes.
 
-<div class="ui stackable two column grid">
-  <div class="column" markdown="span">![os-1.png]({{site.baseurl}}/attachments/ref_7I70QnHa/os-1.png)
-</div>
-  <div class="column" markdown="span">![os-2.png]({{site.baseurl}}/attachments/ref_7I70QnHa/os-2.png)
-</div>
-</div>
+1. Go to the _Payment statuses_ tab of the **Orders** -> **Order statuses** section of your store admin area.
+   ![541-order-statuses.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-order-statuses.png)
+
+2. Switch the language of the admin area to the target language of your translation (it will be German in our sample). Use the language select box in the right upper corner for the purpose.
+   ![541-order-statuses-switch-language.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-order-statuses-switch-language.png)
+
+3. Click on the order status you want to translate and enter the order status translation.
+   ![541-edit-order-status.png]({{site.baseurl}}/attachments/ref_7I70QnHa/541-edit-order-status.png)
+
+4. Save the changes.
 
 The orders fulfilment statuses can be translated likewise.
