@@ -13,7 +13,8 @@ To create a new product class:
 
 1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
 2.  Click the **New product class** button:
-    ![create-class-1.png]({{site.baseurl}}/attachments/ref_6ieZHjOV/create-class-1.png)
+    ![541-classes-n-attributes.png]({{site.baseurl}}/attachments/ref_6ieZHjOV/541-classes-n-attributes.png)
+
     An editable field will appear on a new line in the list of product classes:
     ![create-class-2.png]({{site.baseurl}}/attachments/ref_6ieZHjOV/create-class-2.png)
 3.  Use the new field to enter a name for the new product class. 
