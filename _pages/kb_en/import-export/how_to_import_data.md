@@ -16,7 +16,7 @@ Import is a fast and convinient way to populate an online store with data it nee
 {% toc %}
 
 
-## What Data Can be Imported in X-Cart?
+## What Data Can be Imported in X-Cart
 
 By default, X-Cart allows you to import the following data:
 
@@ -41,8 +41,7 @@ The {% link "Make/Model/Year" ref_0Esu2RNW %} addon - the "Products with Make/Mo
 And so on.
 
 
-
-## How to Import Data into Store?
+## How to Import Data into the Store
 
 To import data into an X-Cart store, follow the steps below:
 
