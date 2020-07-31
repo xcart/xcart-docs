@@ -10,14 +10,7 @@ published: true
 order: 10
 ---
 
-
-Below is an explanation of some attributes that we use to describe specific fields of an import CSV file from the viewpoint of a value type that can import through them. Use this information to read the tables in the following sections:
-
-*   {% link "CSV Import: Products" ref_WmJBfwxA %}
-*   {% link "CSV Import: Classes & Attributes" ref_qTbDu6Ov %}
-*   {% link "CSV Import: Product Attribute Values" ref_Z7XdREZl %}
-*   {% link "CSV Import: Categories" ref_ekmg5iLG %}
-*   {% link "CSV Import: Customers" ref_JobVfzZg %}
+Below is an explanation of some attributes that we use to describe specific fields of an import CSV file from the viewpoint of a value type that can be imported through them. Use this information to read the tables in the section {% link "CSV Format by X-Cart Data Type" ref_iy9cOdWS %}.
 
 <table class="ui celled padded compact small table">
   <thead>
