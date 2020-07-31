@@ -55,6 +55,7 @@ To access the profile of a user:
 More information on the contents of a customer profile and ways to manage it can be found in the section {% link "Customer Account Management" ref_gg1fQDgB %}.
 
 ## Manage Customer Profile Fields 
+An administrator can adjust the set of fields that they want included into the customer address form used to specify the customer’s billing and shipping address at checkout (also known as customer profile fields).
 Detailed information on the management of customer profile fields is available in the section {% link "Customer Account Management" ref_gg1fQDgB %}.
 
 ## Force a User to Log Out 
