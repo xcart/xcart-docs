@@ -7,11 +7,7 @@ title: User Management
 order: 95
 published: true
 ---
-User management as the whole store management in X-Cart is a prerogative of a store admin. To manage customers, a store admin must either be an X-Cart administrator with root access or an administrator with the permission to manage users; to manage administrators, a user must be a root administrator or an administrator with the permission to manage administrators.
-
-{% note info %}
-Specific permissions can be set via the **Roles** section of the Admin area (**Users** > **Roles**), see more info in {% link "User Roles" ref_38HKdc1f %}.
-{% endnote %}
+User management in X-Cart is done by the user who is either an administrator with root access or an administrator with the permission to manage users; to manage administrators, the user must be a root administrator or an administrator with the permission to manage administrators. More information on setting specific permissions for users is available in the section {% link "User Roles" ref_38HKdc1f %}.
 
 The management of users in an X-Cart based store takes place in the **Users** section of the Admin area (**Users** > **Users list**). 
 
@@ -29,10 +25,10 @@ The **Users list** section of the Admin area lists all users available in this s
    *   **Created** : Account creation date.
    *   **Last login** : Date of the user's latest login to their user account. 
    
-The searchbar above the table can be used to filter the table contents and find specific users. 
+The search bar above the table can be used to filter the table contents and find specific users. 
 ![search-bar.png]({{site.baseurl}}/attachments/ref_3JDroIa2/search-bar.png)
 
-Also each table name can be clicked to re-arrange the user data sorting in the table:
+Also each table heading can be clicked to re-arrange the user data sorting in the table:
 ![user-table-sorting.png]({{site.baseurl}}/attachments/ref_3JDroIa2/user-table-sorting.png)
 
 Managing users in X-Cart covers:
@@ -56,7 +52,7 @@ Managing users in X-Cart covers:
      Sometimes a store admin may need to check how the store looks and functions for another user (both admin and customer), or to do some task for them (for example, create an order on behalf of a customer). In this case, the administrator can use the {% link "Operate as a user" feature" ref_26UftgNS %}.
    
    {% note info %}
-   A more detailed info on customer profiles you can find in {% link "Customer Account Management" ref_gg1fQDgB %}
+   A more detailed info on customer profiles is available in the section {% link "Customer Account Management" ref_gg1fQDgB %}.
    {% endnote %}
 
 2. Deleting user accounts 
