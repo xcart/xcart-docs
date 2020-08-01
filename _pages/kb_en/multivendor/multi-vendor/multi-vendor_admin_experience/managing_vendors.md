@@ -51,6 +51,13 @@ If a vendor requests a change of their profile information (for example, if the 
 
 For details on the management of vendor profile information, see {% link "Managing vendor profile information as an administrator" ref_5cbH2V3e %}
 
+## Blocking a Vendor from Using the Store
+To be able to login to the Vendor area and use its features, a vendor needs to have the status *Enabled*. This status is set in the vendor's profile. If the store administrator requires to block a vendor from using the store, they need to reset this status to *Disabled*.
+
+If a vendor with the status *Disabled* attempts to log in, they get the error "Error: Invalid login or password". If they are already logged in and using the store when the administrator disables their account, their user session is terminated, the vendor gets logged out and cannot log back in again. Any mention of their account and business is removed from the storefront, including the vendor page and any products that belong to this vendor. If anyone attempts to access a page associated with this vendor or their products via a previously bookmarked link, they get the message "Аccess denied (Unfortunately, you don't have permissions to access this page. Please contact the administrator)".
+
+After blocking a vendor, the store administrator can re-enable them to access their vendor area by changing their status to *Enabled*.
+
 ## Terminating a Vendor's User Session
 If the store administrator needs to force a logout of a vendor, they can terminate the user session of that vendor the same way as that of any other user in the store - by chosing the "Logout this user" option from the **Profile actions** selector in the vendor's profile:
 ![xc5_mv_log_out_vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_log_out_vendor.png)
