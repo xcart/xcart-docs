@@ -18,6 +18,7 @@ As an administrator with user management permissions, a user can perform the fol
    * search for specific users/filter the users list; 
    * view/edit user profiles; 
    * manage the set of fields employed in customer profiles;
+   * block a user from using the store ("disable") or allow them to use it again ("enable");
    * force a specific user to log out; 
    * operate as another user;
    * delete user accounts;
