@@ -58,21 +58,22 @@ To configure the addon:
      This section allows a store admin to choose the actions that will be protected with Google ReCAPTCHA.
 
      * API v2 allows to toggle on the reCAPTCHA protection for the folowing forms:
-       ![setings-3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/setings-3.png)
        * Sign-in form (storefront)
        * Password recovery form
        * Customer sign-up form
        * Contact form
        * Vendor sign-up form (if the Multi-vendor addon is enabled)
+       ![setings-3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/setings-3.png)
      
      * API v3 (Beta version) allows to toggle on the reCAPTCHA protection for the following forms:
-       ![settings-3-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-3-v3.png)
        * Sign-in form (storefront)
        * Password recovery form
        * Customer sign-up form
        * Contact form
        * Vendor sign-up form (if the {% link "Multivendor" ref_4ahg5FLK %} addon is enabled)
        * Newsletter subscription form (if the {% link "Newsletter" ref_1YvPiQr5 %} addon is enabled)
+       ![google_recaptcha_v3_forms.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/google_recaptcha_v3_forms.png)
+
      
        A store admin can configure the following parameters for each enabled form:
        ![setting-3-v3-on.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/setting-3-v3-on.png)
