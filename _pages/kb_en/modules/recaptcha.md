@@ -22,22 +22,23 @@ To start using the addon:
 ## Configuring Google ReCAPTCHA
 
 To configure the addon:
+
 1. Click the "Settings" link for Google ReCAPTCHA after the addon has been enabled.
    ![settings-link.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-link.png)
    
    You will be redirected to the addon settings page:
    ![540-settings-page.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/540-settings-page.png)
 
-2. Adjust the parameters on the settings page, that are divided into 3 subsections:
+2. Adjust the addon settings. These are divided into three sections:
 
    * Google reCAPTCHA account
 
-     This secton enables a store admin to provide the sign-in data of a registered free Google reCAPTCHA account. 
+     This secton enables you to specify the information your store will require for connection to your registered free Google reCAPTCHA account. 
      ![settings-1.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-1.png)
 
-     * **API version** : Choose the API version you want to use.
-     * **Site key** : Specify the site key generated for the API version selected above.
-     * **Secret key** : Specify the secret key generated for the API version selected above.
+     * **API version** : The API version you want to use.
+     * **Site key** : The site key generated for the API version selected above.
+     * **Secret key** : The secret key generated for the API version selected above.
    
    * Google reCAPTCHA settings
      
