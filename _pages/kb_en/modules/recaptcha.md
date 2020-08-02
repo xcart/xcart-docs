@@ -72,22 +72,20 @@ To configure the addon:
        * Contact form
        * Vendor sign-up form (if the {% link "Multivendor" ref_4ahg5FLK %} addon is enabled)
        * Newsletter subscription form (if the {% link "Newsletter" ref_1YvPiQr5 %} addon is enabled)
-       ![google_recaptcha_v3_forms.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/google_recaptcha_v3_forms.png)
-
+       ![settings-3-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-3-v3.png)
      
-       A store admin can configure the following parameters for each enabled form:
+       Note that the contents of the page section "Forms protected with Google reCAPTCHA" in your Admin area may not look like shown on the screenshot above. That is because for each of the forms on the list the form provides two more settings; they are hidden while the toggle switch for the form is set to "Off" and are revealed when this switch is reset to "On". Since the use of ReCAPTCHA for some of the forms is enabled by default, you may see these settings in the revealed state when you first access the addon settings page. These settings enable you to configure the following parameters for the form:
        ![setting-3-v3-on.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/setting-3-v3-on.png)
-       * **FORM_NAME minimal score** : Define a score from 0 (definitely bot) to 1 (definitely human) a user should gain to pass verification. The value set for the field overrides the "Minimal score" option from "Google reCAPTCHA settings". 
-       * **Fallback action (challenge)** : An action (challenge) that should be taken if a user is scored less than allowed in "minimal score" for the form.
-         Available options are:
-         * Do nothing 
-         * Deny using the form 
-         * Email confirmation link 
-       
+       * **FORM_NAME minimal score** : A score that the user needs to gain to pass verification. Can be set to any value from 0 (definitely bot) to 1 (definitely human). The value set for the field overrides the "Minimal score" setting from "Google reCAPTCHA settings". 
+       * **Fallback action (challenge)** : An action (challenge) that should be taken if the user's score is less than the value specified by the "minimal score" setting for the form.
+         The available options here are:
+         * Do nothing; 
+         * Deny using the form; 
+         * Email confirmation link.       
 
 3. Click **Submit** to make the settings active.
 
-The enabled Google reCAPTCHA v2 protection for the chosen forms will look as follows:
+With Google reCAPTCHA v2 protection enabled, the forms will look as follows:
 
 <div class="ui stackable four column grid">
   <div class="column" markdown="span"><i>Forgot password form</i>![gre-forgot-password.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-forgot-password.png)</div>
