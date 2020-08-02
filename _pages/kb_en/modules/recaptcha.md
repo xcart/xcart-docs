@@ -15,7 +15,7 @@ The addon [Google reCAPTCHA](https://market.x-cart.com/addons/google-recaptcha.h
 
 To start using the addon:
 1. Make sure it is installed and enabled as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
-   ![addon-enabled.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/addon-enabled.png)
+   ![google_recaptcha_addon.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/google_recaptcha_addon.png)
 
 2. Sign up for a [free Google reCAPTCHA account](https://www.google.com/recaptcha/admin#list "Google reCAPTCHA "), to get your site key and secure key that you will need to specify during the addon configuration.
 
