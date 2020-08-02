@@ -74,7 +74,10 @@ To configure the addon:
        * Newsletter subscription form (if the {% link "Newsletter" ref_1YvPiQr5 %} addon is enabled)
        ![settings-3-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-3-v3.png)
      
-       Note that the contents of the page section "Forms protected with Google reCAPTCHA" in your Admin area may not look like shown on the screenshot above. That is because for each of the forms on the list the form provides two more settings; they are hidden while the toggle switch for the form is set to "Off" and are revealed when this switch is reset to "On". Since the use of ReCAPTCHA for some of the forms is enabled by default, you may see these settings in the revealed state when you first access the addon settings page. These settings enable you to configure the following parameters for the form:
+       Note that the contents of the page section "Forms protected with Google reCAPTCHA" in your Admin area may not look like on the screenshot above. For example, you may see it like this:
+       ![google_recaptcha_v3_forms.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/google_recaptcha_v3_forms.png)
+
+       That is because for each of the forms on the list the section provides two more settings; they are hidden while the toggle switch for the form is set to "Off" and are revealed when this switch is reset to "On". Since the use of ReCAPTCHA for some of the forms is enabled by default, you may see these settings in the revealed state when you first access the addon settings page. These settings enable you to configure the following parameters for the form:
        ![setting-3-v3-on.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/setting-3-v3-on.png)
        * **FORM_NAME minimal score** : A score that the user needs to gain to pass verification. Can be set to any value from 0 (definitely bot) to 1 (definitely human). The value set for the field overrides the "Minimal score" setting from "Google reCAPTCHA settings". 
        * **Fallback action (challenge)** : An action (challenge) that should be taken if the user's score is less than the value specified by the "minimal score" setting for the form.
