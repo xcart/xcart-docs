@@ -20,9 +20,9 @@ To start using Google ReCAPTCHA:
 
 2. Sign up for a [free Google reCAPTCHA account](https://www.google.com/recaptcha/admin#list "Google reCAPTCHA ").
 
-3. From your Google reCAPTCHA account, get your site key and secure key. You will need to specify them in the Google reCAPTCHA addon settings in your X-Cart store Admin area during the addon configuration. The instructions for how to [configure the Google ReCAPTCHA addon]() in your X-Cart store can be found further below in this article.
+3. From your Google reCAPTCHA account, get your site key and secure key. You will need to specify them in the Google reCAPTCHA addon settings in your X-Cart store Admin area during the addon configuration. The instructions for how to [configure the Google ReCAPTCHA addon](#configure-the-google-recaptcha-addon) in your X-Cart store can be found further below in this article.
 
-4. Check for Google ReCAPTCHA on the storefront. See the section [Google ReCAPTCHA Protection: What to Expect] further below for more information.
+4. Check for Google ReCAPTCHA on the storefront. See the section [Google ReCAPTCHA Protection: What to Expect](#google-recaptcha-protection-what-to-expect) further below for more information.
 
 ## Configure the Google ReCAPTCHA Addon
 
