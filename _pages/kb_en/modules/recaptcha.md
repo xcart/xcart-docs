@@ -99,8 +99,6 @@ The addon settings are grouped into three sections:
          * Deny using the form; 
          * Email confirmation link.       
 
-
-
 ## Google ReCAPTCHA Protection: What to Expect
 
 With Google reCAPTCHA v2 protection enabled, the forms will look as follows:
