@@ -55,14 +55,14 @@ The addon settings are grouped into three sections:
   This section enables you to configure your general reCAPTCHA form settings. 
 
      * For reCAPTCHA v2, you will be able to adjust the following settings:
-       ![settings-2.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2.png)
        * **Theme** : Select the theme of the form. 
        * **Size** : Select the size of the form.
-     
+       ![settings-2.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2.png)
+       
      * For reCAPTCHA v3 (Beta version), you will be able to adjust the following settings:
-       ![settings-2-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2-v3.png)
        * **Minimal score required to pass verification** : Define a score from 0 (definitely bot) to 1 (definitely human) a user should gain to pass verification. 
        * **Throttling period (seconds)** : Set the period in seconds to limit the number of requests a user can submit in a given amount of time.
+       ![settings-2-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2-v3.png)
    
 * **Forms protected with Google reCAPTCHA**
    
