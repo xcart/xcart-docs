@@ -31,7 +31,7 @@ To configure the addon:
 
 2. Adjust the addon settings. These are divided into three sections:
 
-   * Google reCAPTCHA account
+   * **Google reCAPTCHA account**
 
      This secton enables you to specify the information your store will require for connection to your registered free Google reCAPTCHA account. 
      ![settings-1.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-1.png)
@@ -40,21 +40,21 @@ To configure the addon:
      * **Site key** : The site key generated for the API version selected above.
      * **Secret key** : The secret key generated for the API version selected above.
    
-   * Google reCAPTCHA settings
+   * **Google reCAPTCHA settings**
      
-     This section allows a store admin to configure the settings of a reCAPTCHA form. 
+     This section enables you to configure your general reCAPTCHA form settings. 
 
-     * Options available for reCAPTCHA v2 are as follows:
+     * For reCAPTCHA v2, you will be able to adjust the following settings:
        ![settings-2.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2.png)
        * **Theme** : Select the theme of the form. 
        * **Size** : Select the size of the form.
      
-     * Options available for reCAPTCHA v3 (Beta version) are as follows:
+     * For reCAPTCHA v3 (Beta version), you will be able to adjust the following settings:
        ![settings-2-v3.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2-v3.png)
        * **Minimal score required to pass verification** : Define a score from 0 (definitely bot) to 1 (definitely human) a user should gain to pass verification. 
        * **Throttling period (seconds)** : Set the period in seconds to limit the number of requests a user can submit in a given amount of time.
    
-   * Forms protected with Google reCAPTCHA
+   * **Forms protected with Google reCAPTCHA**
    
      This section allows a store admin to choose the actions that will be protected with Google ReCAPTCHA.
 
