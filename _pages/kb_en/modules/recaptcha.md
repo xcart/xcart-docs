@@ -11,38 +11,48 @@ The addon [Google reCAPTCHA](https://market.x-cart.com/addons/google-recaptcha.h
 
 {% toc %}
 
-## Enabling Google ReCAPTCHA Addon
+## Get Started with Google ReCAPTCHA
 
-To start using the addon:
-1. Make sure it is installed and enabled as described in {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
+To start using Google ReCAPTCHA:
+
+1. Make sure your store has the addon Google reCAPTCHA installed and enabled. General addon installation instructions are available in the section {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %} of this manual.
    ![google_recaptcha_addon.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/google_recaptcha_addon.png)
 
-2. Sign up for a [free Google reCAPTCHA account](https://www.google.com/recaptcha/admin#list "Google reCAPTCHA "), to get your site key and secure key that you will need to specify during the addon configuration.
+2. Sign up for a [free Google reCAPTCHA account](https://www.google.com/recaptcha/admin#list "Google reCAPTCHA ").
 
-## Configuring Google ReCAPTCHA
+3. From your Google reCAPTCHA account, get your site key and secure key. You will need to specify them in the Google reCAPTCHA addon settings in your X-Cart store Admin area during the addon configuration. The instructions for how to [configure the Google ReCAPTCHA addon]() in your X-Cart store can be found further below in this article.
+
+4. Check for Google ReCAPTCHA on the storefront. See the section [Google ReCAPTCHA Protection: What to Expect] further below for more information.
+
+## Configure the Google ReCAPTCHA Addon
 
 To configure the addon:
 
-1. Click the "Settings" link for Google ReCAPTCHA after the addon has been enabled.
+1. Click the "Settings" link for the Google ReCAPTCHA addon.
    ![settings-link.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-link.png)
    
    You will be redirected to the addon settings page:
    ![540-settings-page.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/540-settings-page.png)
 
-2. Adjust the addon settings. These are divided into three sections:
+2. Adjust the addon settings (See below for detailed explanation).
 
-   * **Google reCAPTCHA account**
+3. Click **Submit** to make the settings active. Once you do so, Google ReCAPTCHA protection for your store will be enabled.
 
-     This secton enables you to specify the information your store will require for connection to your registered free Google reCAPTCHA account. 
+
+The addon settings are grouped into three sections:
+   
+* **Google reCAPTCHA account**
+
+  This secton enables you to specify the information your store will require for connection to your registered free Google reCAPTCHA account. 
      ![settings-1.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-1.png)
 
      * **API version** : The API version you want to use.
      * **Site key** : The site key generated for the API version selected above.
      * **Secret key** : The secret key generated for the API version selected above.
    
-   * **Google reCAPTCHA settings**
+* **Google reCAPTCHA settings**
      
-     This section enables you to configure your general reCAPTCHA form settings. 
+  This section enables you to configure your general reCAPTCHA form settings. 
 
      * For reCAPTCHA v2, you will be able to adjust the following settings:
        ![settings-2.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2.png)
@@ -54,9 +64,9 @@ To configure the addon:
        * **Minimal score required to pass verification** : Define a score from 0 (definitely bot) to 1 (definitely human) a user should gain to pass verification. 
        * **Throttling period (seconds)** : Set the period in seconds to limit the number of requests a user can submit in a given amount of time.
    
-   * **Forms protected with Google reCAPTCHA**
+* **Forms protected with Google reCAPTCHA**
    
-     This section allows a store admin to choose the actions that will be protected with Google ReCAPTCHA.
+  This section allows a store admin to choose the actions that will be protected with Google ReCAPTCHA.
 
      * API v2 allows to toggle on the reCAPTCHA protection for the folowing forms:
        * Sign-in form (storefront)
@@ -89,7 +99,9 @@ To configure the addon:
          * Deny using the form; 
          * Email confirmation link.       
 
-3. Click **Submit** to make the settings active.
+
+
+## Google ReCAPTCHA Protection: What to Expect
 
 With Google reCAPTCHA v2 protection enabled, the forms will look as follows:
 
