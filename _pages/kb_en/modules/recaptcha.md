@@ -66,7 +66,7 @@ The addon settings are grouped into three sections:
    
 * **Forms protected with Google reCAPTCHA**
    
-  This section allows a store admin to choose the actions that will be protected with Google ReCAPTCHA.
+  This section enables you to choose the actions that will be protected with Google ReCAPTCHA.
 
      * API v2 allows to toggle on the reCAPTCHA protection for the folowing forms:
        * Sign-in form (storefront)
