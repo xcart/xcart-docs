@@ -24,7 +24,6 @@ There are 2 ways to configure wholesale prices for product variants:
 2. Depending on a product variant price
    
    In case you set up product variants to have prices different from the price of the main product, the wholesale prices are defined in the _Variants_ tab on the product details page next to the product variant price. 
-   ![541-wholesale-variants-tab.png]({{site.baseurl}}/attachments/ref_1wyZZ2Nf/541-wholesale-variants-tab.png)
    
    You'll need to configure wholesale prices for each variant with a price different from the default one. For this purpose:
    * Click a "Percent-Box" icon next to the variant price field:
