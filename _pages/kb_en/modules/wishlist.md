@@ -41,7 +41,7 @@ The store admin can also check the customer's wishlist in the _Wishlist_ tab of 
 ![wishlist-page-adm.png]({{site.baseurl}}/attachments/ref_60uS71VK/wishlist-page-adm.png)
 
 
-Offering wishlists is an effective way to reduce shopping cart abandonment and fulfill sales from customers who showed intent but didn't end up purchasing. Wishlists are mutually beneficial: they give customers an easy way to remind themselves of a product and help merchants measure product interest beyond a clear-cut sale.
+Offering wishlists is an effective way to reduce shopping cart abandonment and fulfil sales from customers who showed intent but didn't end up purchasing. Wishlists are mutually beneficial: they give customers an easy way to remind themselves of a product and help merchants measure product interest beyond a clear-cut sale.
 
 Besides that wishlist introduces your site to new customers and many of them may get converted to buyers (if they are referred to) as the "My Wishlist" addon also allows a customer to send an email to his/her friends or relatives with the product details and buying option. 
 
