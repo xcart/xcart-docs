@@ -9,45 +9,51 @@ categories:
 published: true
 order: 120
 ---
+Address zones in X-Cart serve to configure and apply tax and shipping rules based on the customer’s geographic location. 
+
 {% note warning %}
-When creating address zones that will be used for taxes configuration make sure the zones DO NOT overlap as this may affect the correct tax rates calculation at checkout.
+When creating address zones to configure taxes, make sure the zones DO NOT overlap as this may affect the correct tax rates calculation at checkout.
 {% endnote %}
 
 To create an address zone:
 
 1.  In your store's Admin area, go to **Store setup > Countries, states and zones** and proceed to the **Zones** tab.
-    This opens the **Zones** section where you can create and manage your address zones:
-    ![zones--setup.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/zones--setup.png)
+    This opens the **Zones** page where you can create and manage your address zones:
+    ![541-zones-page.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/541-zones-page.png)
 
-2.  Click the **Create zone** button.
-    ![zones-create.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/zones-create.png)
 
-    In the list of your store's zones, a new blank line will be added:
-    ![zones-blank.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/zones-blank.png)
+2.  Click the **Create zone** button. this adds a new blank line in the zone list:
+    ![541-zones-create-zone.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/541-zones-create-zone.png)
 
-3.  Use the new blank line in the list of zones to specify the name of the destination zone you will be creating; then click the **Save changes** button at the bottom of the page:
+3.  Use the blank line to specify the name of a destination zone you will be creating; then click the **Save changes** button at the bottom of the page:
+    ![541-zones-create-zone.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/541-zones-create-zone.png)
 
-    ![zones-atlantic-canada.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/zones-atlantic-canada.png)
     The new zone will be added to the list.
 
-4.  Hover your cursor over the name of the zone you have created. The field with the zone name will be displayed as editable, and an **Edit** button will be displayed next to it. 
-    ![zones-edit.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/zones-edit.png)
-    
-    If necessary, you can edit the zone name right here. 
-    To configure the zone details, click the **Edit** button. A page with the zone details will be displayed:
-    ![zones-edit-zone-page.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/zones-edit-zone-page.png)
+4.  To configure the zone details, click the **Edit** button opposite the zone name. 
+    ![541-zones-edit.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/541-zones-edit.png)
 
-5.  Adjust the zone details as needed. 
+5.  A page with the zone details will be displayed:
+    ![541-zonez-edit-details-page.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/541-zonez-edit-details-page.png)
+    Adjust the zone details as needed. 
 
     *   If necessary, edit the name of the zone in the **Zone name** field. 
 
-    *   Use the sections **Countries**, **States **and **Zip/postal code masks** to specify the regions/territories that belong to the zone being edited. 
+    *   Use the sections **Countries**, **States**, **City masks** and **Zip/postal code masks** to specify the regions/territories that belong to the zone being edited. 
         
-        * In the sections **Countries** and **States**, you need to select all the countries and states that should be part of the zone from the box(es) on the left-hand side and move them to the box(es) on the right-hand side using the "**>>**" button. 
-
-          ![zones-add-zones.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/zones-add-zones.png)
+        {% note info %}
+        It is not necessary to use all of the fields to configure a zone. You can use only one type of identifier to assign locations to the zone.
+        {% endnote %}
+        
+        * The field **Countries** allows you to narrow a zone to a specific country or a list of countries. To add a country to the list start entering its name in the respective field and you will be prompted with a list of suitable units.
+        
+        * The field **States** allows you to narrow a zone to a number of states fron a particular country. To add a state to the list start entering its name in the respective field and you will be prompted with a list of suitable units. 
+          
+          If no states are defined in the field **States** and a country is defined in the field **Countries**, X-Cart includes in the zone all the states defined for this particular country on the [states](https://kb.x-cart.com/countries__states_and_zones/countries_states.html#managing-states "Setting up Address Zones") page.
+        
+        * The field **City masks** allows you to narrow a zone to a list of particular cities and/or locations.
        
-        * In the section Zip/postal masks, you need to specify the zip/postal codes (or zip/postal code masks) that should belong to the zone.
+        * The field **Zip/postal masks** allows you to narrow a zone to a list of zip/postal codes (or zip/postal code masks).
  
           {% note info %}
           Zip/postal code masks help you specify zip/postal code ranges. You simply replace any number of digits with the "%" symbol. For example, "1001%" corresponds to all the zip/postal codes in the "10010 - 10019" range, "102%" - to all the zip/postal codes in the "10200 - 10299" range.
@@ -58,11 +64,5 @@ To create an address zone:
         
           102%
           {% endnote %}
-        
-        For example, we need to create a zone "Atlantic Canada" that would include four territories: New Brunswick, Prince Edward Island, Nova Scotia and Newfoundland and Labrador. We would need to select the following territories:
-
-        *   in the section **Countries** - Canada;
-        *   in the section **States** - Canada:New Brunswick, Canada:Newfoundland and Labrador, Canada:Nova Scotia and Canada:Prince Edward Island;
-        *   in the section **Zip/postal code masks** - nothing.
 
 7.  Once you are done configuring the zone, click the **Save changes** button at the bottom of the page to save the changes. The zone details will be saved.
