@@ -45,7 +45,7 @@ In the section **Appearance** of the Multi-vendor {% link "settings page" ref_nF
 
 Customers can leave feedback about their experience purchasing items from a vendor by rating their order. 
 
-A customer can rate an order as soon as the fulfillment status of this order is switched to "_Delivered_". If the change of order status to "_Delivered_" is done by the store staff, an email notification is sent to the customer inviting them to rate their order. 
+A customer can rate an order as soon as the fulfilment status of this order is switched to "_Delivered_". If the change of order status to "_Delivered_" is done by the store staff, an email notification is sent to the customer inviting them to rate their order. 
 
 As an alternative, the customer can set the "_Delivered_" status for their order by themselves using the **Confirm delivery** button:
    ![xc5_mv_confirm_delivery.png]({{site.baseurl}}/attachments/ref_7neRIOVI/xc5_mv_confirm_delivery.png)
