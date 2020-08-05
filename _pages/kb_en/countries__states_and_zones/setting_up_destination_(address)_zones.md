@@ -17,7 +17,7 @@ When creating address zones to configure taxes, make sure the zones DO NOT overl
 
 To create an address zone:
 
-1.  In your store's Admin area, go to **Store setup > Countries, states and zones** and proceed to the **Zones** tab.
+1.  In your store's Admin area, go to **Store setup > Countries, States and Zones** and proceed to the **Zones** tab.
     This opens the **Zones** page where you can create and manage your address zones:
     ![541-zones-page.png]({{site.baseurl}}/attachments/ref_r68iO5Rm/541-zones-page.png)
 
