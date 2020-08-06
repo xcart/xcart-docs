@@ -5,7 +5,7 @@ updated_at: '2020-08-06 12:41 +0400'
 identifier: ref_6Jm44hlJ
 title: Choosing a Shipping Strategy
 order: 90
-published: false
+published: true
 ---
 Depending on your business scope and the distance between your warehouse and the buyer's location, you will either have to deliver the goods to the buyer on your own or will have to use the services of a shipping company that will deliver the goods on your behalf. Considering all the costs associated with getting an order to the buyer - including the cost of packaging, shipping, tracking, insurance and customs/duties (if you cover them) - you may find shipping to be a major expense in your business. To keep things profitable, you will need to come up with an effective shipping strategy. 
 
@@ -58,4 +58,3 @@ Do not forget about taxes. Tax regulations vary for different countries and stat
 
    For more info on this, see:
    * {% link "Shipping Taxes" ref_7vViyKfY %}
-     
