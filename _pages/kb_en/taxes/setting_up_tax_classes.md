@@ -53,7 +53,9 @@ To configure a tax rate specifying a tax class:
 
 1. Go to the **Taxes** section (**Store setup** -> **Taxes**) of your X-Cart Admin area and, depending on the tax system you are using, open the appropriate tax configuration tab (Depending on the tax addon you are using, this may be **Sales tax** / **VAT/GST** / **Canadian taxes**).
 
-2. Locate the "General Tax Rates" section of the page and click the **New rate** button. 
+2. Locate the section of the page where tax rates are set up and click the **New rate** button. 
+   
+   In our sample it will be "General Tax Rates" section of the **Sales Tax** addon set-up page:
    ![541-general-tax-rates-full.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/541-general-tax-rates-full.png)
 
 3. Configure tax rates by specifying the parameters below. Pay special attention to the "Tax class" selector.
@@ -64,7 +66,7 @@ To configure a tax rate specifying a tax class:
    * **Rate** : Specify the tax rate (in %).
    
    {% note info %}
-   **Attention of "Sales Tax" addon users**: To set up a tax rate that will be used exclusively for shipping, use the section "Tax rates on shipping cost". Tax rates configured via the "General Tax Rates" section are not applied to products.
+   **Attention of "Sales Tax" addon users**: To set up a tax rate that will be used exclusively for shipping, use the section "Tax rates on shipping cost". Tax rates configured via the "General Tax Rates" section apply to products only.
    {% endnote %}
    
 4. Click **Save changes**.
