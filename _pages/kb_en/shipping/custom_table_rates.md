@@ -18,20 +18,24 @@ In X-Cart, a custom table can be configured to provide rates for:
 *   item ranges (The shipping cost will depend on the number of items in the order);
 *   any combination of subtotal, weight and item ranges (The shipping cost will depend on more than one parameter).
 
-**Important**: A custom table is a good way to configure flat rate shipping and free shipping. Read on to see some  examples.
+**Important**: A custom table is a good way to configure flat rate shipping and free shipping. 
+
+Read on to see some examples.
 
 To configure a shipping method with the custom table based rates, follow the steps below:
 
 1.  In your store's Admin area, go to the Shipping methods section (**Store setup** -> **Shipping**):
-    ![shipping-1.png]({{site.baseurl}}/attachments/ref_3TG6AuN0/shipping-1.png)
+    ![541-shipping-page.png]({{site.baseurl}}/attachments/ref_3TG6AuN0/541-shipping-page.png)
+
 2.  Click the **Add shipping method** button:
-    ![shipping-2.png]({{site.baseurl}}/attachments/ref_3TG6AuN0/shipping-2.png)
-    You'll see a popup window where you can choose what type of shipping rates you would like to use:
-    ![]({{site.baseurl}}/attachments/9306242/9437468.png)
+    ![541-shipping-add-method.png]({{site.baseurl}}/attachments/ref_3TG6AuN0/541-shipping-add-method.png)
+
+    You'll see a popup window where you can choose what type of shipping rates you would like to use.
+    
 3.  Select the **Custom table rates** tab in the popup:
-    ![]({{site.baseurl}}/attachments/9306242/9437469.png)
+    ![541-shipping-popup-custom-rates.png]({{site.baseurl}}/attachments/ref_3TG6AuN0/541-shipping-popup-custom-rates.png)
+
 4.  Provide general information about the shipping method:
-    ![]({{site.baseurl}}/attachments/9306242/9437470.png)
 
     *   **Method name**: Enter a name for this shipping method. This name will be shown to buyers.
     *   **Delivery time**: Provide information about the estimated delivery time.
@@ -49,13 +53,15 @@ To configure a shipping method with the custom table based rates, follow the ste
 5.  Configure your custom shipping rates table for the defined shipping method. 
 
     Use the form below the shipping general info to create a table of custom rates for the method you have just created. What you see here is, in fact, the first row of your table - with the default zero values. 
-    ![]({{site.baseurl}}/attachments/9306242/9437471.png)
+    ![541-shipping-custom-rates.png]({{site.baseurl}}/attachments/ref_3TG6AuN0/541-shipping-custom-rates.png)
     
     The set of fields that you see in this table may be different depending on the value of the "Table based on" setting specified above. (For example, if you choose to base your table on "_Subtotal, weight, items_", there will be more fields; for the lack of space, they will be displayed in two rows one below the other, as shown in the screen below):
-    ![]({{site.baseurl}}/attachments/9306242/9437472.png)
+    ![541-shipping-custom-rates-extended.png]({{site.baseurl}}/attachments/ref_3TG6AuN0/541-shipping-custom-rates-extended.png)
     
     But in any case you should remember that all these fields pertain to the first row of your custom rates table, and all of them are intended for your first shipping rate.
+    
     To create a shipping rate, you will need to adjust the values in the fields of this table so that they form a rule according to which the shipping rate will be calculated. 
+    
     If necessary, you can add more table rows for more rates. In the end, be sure to save your changes.
 
     Let us configure a custom rates table that will allow us to offer our customers:
@@ -65,20 +71,18 @@ To configure a shipping method with the custom table based rates, follow the ste
     *   $10 flat rate shipping for orders weighing over 10 lb.
 
     Our first rate needs to be "$7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb". To get this rate, we need to configure the first row in the table as follows:
-    
-    ![]({{site.baseurl}}/attachments/9306242/9437473.png)
+    ![541-shippinh-custom-rates-1.png]({{site.baseurl}}/attachments/ref_3TG6AuN0/541-shippinh-custom-rates-1.png)
     
     *   Subtotal range: $0.00 - $49.99 
     *   Weight range: 0 - 10 lb 
     *   flat rate: $7
     
     Once we are done with the first rate, let's add two more rows for the rates "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb" and "$10 flat rate shipping for orders weighing over 10 lb" . To add a new row, we will use the [+] button:
-    
-    ![]({{site.baseurl}}/attachments/9306242/9437474.png)
+    ![541-shipping-custom-rates-add.png]({{site.baseurl}}/attachments/ref_3TG6AuN0/541-shipping-custom-rates-add.png)
     
     We will configure the two new rows as follows:
-    
-    ![]({{site.baseurl}}/attachments/9306242/9437475.png)
+    ![541-shipping-custom-rates-2.png]({{site.baseurl}}/attachments/ref_3TG6AuN0/541-shipping-custom-rates-2.png)
+
     
     "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb":
    
