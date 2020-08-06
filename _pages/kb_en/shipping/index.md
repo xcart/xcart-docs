@@ -17,7 +17,7 @@ A store owner can choose between hiring a third-party postal or delivery service
      
 _In this section:_
 
-*   Shipping Strategy
+*   {% link "Choosing a Shipping Strategy" ref_6Jm44hlJ %}
 *   {% link "Carrier-calculated Shipping Rates" ref_ybdiN8r0 %}
 *   {% link "Custom Table Rates" ref_3TG6AuN0 %}
 *   {% link "Free Shipping" ref_BCq5l4MP %}
