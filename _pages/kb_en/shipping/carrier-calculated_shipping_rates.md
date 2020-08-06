@@ -39,13 +39,16 @@ Since the shipping costs are calculated automatically by the carrier at the exac
 To use carrier-calculated shipping rates, configure shipping as outlined below:
 
 1.  In your store's Admin area, go to the Shipping methods section (**Store setup** > **Shipping**):
-    ![shipping-1.png]({{site.baseurl}}/attachments/ref_ybdiN8r0/shipping-1.png)
+    ![541-shipping-page.png]({{site.baseurl}}/attachments/ref_ybdiN8r0/541-shipping-page.png)
+
 2.  Click the **Add shipping method** button:
-    ![shipping-2.png]({{site.baseurl}}/attachments/ref_ybdiN8r0/shipping-2.png)
+    ![541-shipping-add-method.png]({{site.baseurl}}/attachments/ref_ybdiN8r0/541-shipping-add-method.png)
+
     You'll see a pop-up where you can choose the type of shipping rates you would like to use:
-    ![]({{site.baseurl}}/attachments/9306236/9437260.png)
+    
 3.  On the **Carrier-calculated rates** tab within the popup window, locate the carrier whose real-time rate calculation service you would like to use. Click on the respective icon:
-    ![]({{site.baseurl}}/attachments/9306236/9437261.png)
+    ![541-shipping-popup-carrier-rates.png]({{site.baseurl}}/attachments/ref_ybdiN8r0/541-shipping-popup-carrier-rates.png)
+
     If the selected shipping integration addon is {% link "installed and enabled" ref_uEnDBBA7 %} at your store, you will be redirected to its settings page. If not, you will be redirected to X-Cart's {% link "Marketplace" ref_Vn1mMUw9 %} from which you will need to install the respective addon. 
 
 4.  Configure the settings of the selected shipping integration addon and save the changes. 
