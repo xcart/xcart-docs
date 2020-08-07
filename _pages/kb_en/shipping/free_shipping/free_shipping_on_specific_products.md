@@ -13,11 +13,11 @@ Free shipping on specific products can be configured using the addon {% link "Fr
 
 ## Setting up Free Shipping for a Product
 When this addon is active, two settings for free shipping are provided in the "Shipping" section of the Info tab of a product details page in the store back end (The product property **Requires shipping** must be set to "Yes" for the settings to be visible):
+  ![541-shipping-freight.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/541-shipping-freight.png)
 
-  * **Free shipping** : The product is shipped for free if all the products in the shopping cart are either eligible for free shipping or excluded from shipping calculation.
-  * **Exclude from shipping cost calculation** : The product shipping fee will always be excluded from the order total.  
-  ![product_shipping.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/product_shipping.png)
-
+  * **Free shipping** : A product is shipped for free if all products in the shopping cart are either eligible for free shipping or excluded from shipping calculation.
+  * **Exclude from shipping cost calculation** : A product shipping fee will always be excluded from order total.  
+  
 These settings are unconditional, which means that you cannot configure any special offers with them.
 
 To provide free shipping for a product, you will need to properly adjust these settings. Below you will find some use cases explaining how these settings will affect the calculation of shipping cost for the product and the set of shipping methods that will be offered to the buyers who choose to order this product. 
@@ -54,9 +54,9 @@ A customer adds Product 2 and Product 3 to cart and proceeds to checkout. In add
 
 ## The "Free Shipping" Method
 For the case when a customer's shopping cart contains only products with free shipping or products with free shipping and products excluded from shipping cost calculation, the addon provides a special method "Free shipping".
-![xc5_freeshipping_specialfreeshipmethod.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/xc5_freeshipping_specialfreeshipmethod.png)
+![541-shipping-page-free.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/541-shipping-page-free.png)
 
-If necessary, you can edit the name and description of this method. To do so, click on the method name and adjust the information you require.
+If necessary, you can edit the name and description of this method. To do so, open the shipping listing page in your store Admin area (**Store Setup** -> **Shipping**), click on the method name and adjust the information you require.
 
 _Related pages:_
 
