@@ -20,148 +20,141 @@ If necessary, it is possible to set up complex conditions based on a combination
 
 Let's take a closer look at how to configure free shipping for various types of conditions.
 
-   *  [Example 1. Free Shipping on Orders over $50](#example-1-free-shipping-on-orders-over-50);
-   *  [Example 2. Free Shipping within Germany](#example-2-free-shipping-within-germany);
-   *  [Example 3. Free Shipping on Orders of 3 or More Items](#example-3-free-shipping-on-orders-of-3-or-more-items)
-   *  [Example 4. Free Shipping on Orders of up to 200 g Weight](#example-4-free-shipping-on-orders-of-up-to-200-g-weight)
-   * [Example 5. Free Shipping on Orders over $50 Shipped within Germany](#example-5-free-shipping-on-orders-over-50-shipped-within-Germany) (Combined condition)
+{% toc %}
 
-## Example 1. Free Shipping on Orders over $50
+## Example 1. Free Shipping Based on Order Subtotal
 
-1.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders with a subtotal over $50:
+1.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders with a subtotal e.g. over $50:
 
     *  Click the **Add shipping method** button.
-        ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
+       ![541-shipping-add-method.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-shipping-add-method.png)
 
     *  In the popup window that appears, select the **Custom table rates** tab.
-        ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
+       ![541-shipping-popup-custom-rates.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-shipping-popup-custom-rates.png)
 
     *  Provide general information about the shipping method and configure how shipping rates should be calculated for it:
-        *   Enter a name for this shipping method (for example, "Free shipping on orders over $50").
-        *   In the **Address zone** field, specify the zone for which you are going to make this method available.
-        *   Specify that the table is based on "Subtotal" and set the **Subtotal range** to "$50.00 - $  ∞". Make sure that the fields **flat rate**, **per item**, **% and per weight unit** have zero values.
-        ![xc5_freeshipping_method_over50.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50.png)
+       ![541-free-shipping-subtotal.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-subtotal.png)
+
+       *   Enter a name for this shipping method (for example, "Free shipping on orders $50+").
+       *   In the **Address zone** field, specify the zone for which you are going to make this method available.
+       *   Specify that the table is based on "Subtotal" and set the **Subtotal range** to "$50.00 - $  ∞". Make sure that the fields **flat rate**, **per item**, **% and per weight unit** have zero values.        
         
-    *  Save your changes.
-        ![xc5_freeshipping_method_over50_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_create.png)
+    *  Click **Create** to save your changes.
 
     *  Make sure the method you have configured is active.
-        ![xc5_freeshipping_method_over50_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_active.png)
+       ![541-free-shipping-subtotal-enabled.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-subtotal-enabled.png)
 
-2.  Make sure that all the products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
-    ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
+2.  Make sure that all products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
+    ![541-product-details-requires-shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-product-details-requires-shipping.png)
 
 That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's order amount is $50 or more.
-    ![xc5_freeshipping_method_over50_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_checkout.png)
+![541-free-shipping-subtotal-checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-subtotal-checkout.png)
 
     
-## Example 2. Free Shipping within Germany
+## Example 2. Free Shipping Based on Address/Location
 
-1.  In your store's Admin area, go to **Store setup** > **Countries, states and zones** and configure a destination zone corresponding to Germany (for example, name it "Germany").
-       ![xc5_freeshipping_germany_zone.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_germany_zone.png)
-
-2.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders to Germany:
+1.  In your store's Admin area, go to **Store setup** > **Countries, states and zones** and create a destination zone where you will provide free delivery as described {% link "here" ref_r68iO5Rm %}.
+    
+2.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders to a certain location:
 
     *  Click the **Add shipping method** button.
-        ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
+       ![541-shipping-add-method.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-shipping-add-method.png)
 
     *  In the popup window that appears, select the **Custom table rates** tab.
-        ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
+       ![541-shipping-popup-custom-rates.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-shipping-popup-custom-rates.png)
 
     *  Provide general information about the shipping method and configure how shipping rates should be calculated for it:
-        *   Enter a name for this shipping method (for example, "Free shipping within Germany").
-        *   Set the **Address zone** property to whatever you named your zone for Germany (in our case, "Germany").
+       ![541-free-shipping-location.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-location.png)
+
+        *   Enter a name for this shipping method (for example, "Free shipping within UK").
+        *   Set the **Address zone** property to whatever you named your zone.
         *   Leave the rest of the form fields set to their default values (all zero).
-        ![xc5_freeshipping_method_germany.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_germany.png)
         
-    *  Save your changes.
-        ![xc5_freeshipping_method_germany_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_germany_create.png)
+    *  Click **Create** to save your changes.
 
     *  Make sure the method you have configured is active:
-        ![xc5_freeshipping_method_germany_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_germany_active.png)
-       
-3.  Make sure that all the products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
-    ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
+       ![541-free-shipping-location-enabled.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-location-enabled.png)
 
-That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's shipping address belongs to the address zone you have configured (in our case, "Germany").
-     ![xc5_freeshipping_method_germany_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_germany_checkout.png)
+3.  Make sure that all products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
+    ![541-product-details-requires-shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-product-details-requires-shipping.png)
+
+That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's shipping address belongs to the address zone you have configured (in our case, "UK").
+ ![541-free-shipping-location-checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-location-checkout.png)
      
     
-## Example 3. Free Shipping on Orders of 3 or More Items
+## Example 3. Free Shipping Based on Cart Contents
 
 1.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders with 3 or more items:
 
     *  Click the **Add shipping method** button.
-        ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
+       ![541-shipping-add-method.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-shipping-add-method.png)
 
     *  In the popup window that appears, select the **Custom table rates** tab.
-        ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
-
+       ![541-shipping-popup-custom-rates.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-shipping-popup-custom-rates.png)
+       
     *  Provide general information about the shipping method and configure how shipping rates should be calculated for it:
-        *   Enter a name for this shipping method (for example, "Free shipping on orders of 3 or more items").
-        *   In the **Address zone** field, specify the zone for which you are going to make this method available.
+       ![541-free-shipping-items.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-items.png)
+
+        *   Enter a name for this shipping method (for example, "Free shipping on 3+ items").
         *   Specify that the table is based on "Items" and set the **Items range** to "3 -  ∞". Make sure that the fields **flat rate**, **per item**, **% and per weight unit** have zero values.
-        ![xc5_freeshipping_method_3items.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items.png)
         
-    *  Save your changes.
-        ![xc5_freeshipping_method_3items_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items_create.png)
-
+    *  Click **Create** to save your changes.
+     
     *  Make sure the method you have configured is active.
-        ![xc5_freeshipping_method_3items_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items_active.png)
+       ![541-free-shipping-items-enabled.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-items-enabled.png)
 
-2.  Make sure that all the products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
-    ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
+2.  Make sure that all products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
+    ![541-product-details-requires-shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-product-details-requires-shipping.png)
 
-That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's order contains 3 or more items.
-    ![xc5_freeshipping_method_3items_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items_checkout.png)
+That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's cart contains 3 or more items.
+![541-free-shipping-items-checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-items-checkout.png)
 
 
-## Example 4. Free Shipping on Orders of up to 200 g Weight
+## Example 4. Free Shipping Based on Order Weight
 
 1.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders with an unpackaged weight of no more than:
 
     *  Click the **Add shipping method** button.
-        ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
+       ![541-shipping-add-method.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-shipping-add-method.png)
 
     *  In the popup window that appears, select the **Custom table rates** tab.
-        ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
+       ![541-shipping-popup-custom-rates.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-shipping-popup-custom-rates.png)
 
     *  Provide general information about the shipping method and configure how shipping rates should be calculated for it:
-        *   Enter a name for this shipping method (for example, "Free shipping on orders of up to 200 g weight").
-        *   In the **Address zone** field, specify the zone for which you are going to make this method available.
-        *   Specify that the table is based on "Weight" and set the **Weight range** to "0 - 0.2" (That, of course, provided you are using kilograms as your store's weight unit. You can check what weight units your store is using via the section **Store setup** > **Localization**). Make sure that the fields **flat rate**, **per item**, **% and per weight unit** have zero values.
-        ![xc5_freeshipping_method_weight200.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200.png)
+       ![541-free-shipping-weight.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-weight.png)
+
+        *   Enter a name for this shipping method (for example, "Free shipping on lightweight parcels").
+        *   Specify that the table is based on "Weight" and set the appropriate **Weight range** (You can check what weight units your store is using via the section **Store setup** > **Localization**). Make sure that the fields **flat rate**, **per item**, **% and per weight unit** have zero values.
         
-    *  Save your changes.
-        ![xc5_freeshipping_method_weight200_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200_create.png)
-
+        
+    *  Click **Create** to save your changes.
+    
     *  Make sure the method you have configured is active.
-        ![xc5_freeshipping_method_weight200_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200_active.png)
+       ![541-free-shipping-weight-enabled.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-weight-enabled.png)
 
-2.  Make sure that all the products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled and a weight specified.
-    ![xc5_freeshipping_requires_shipping1.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping1.png)
+2.  Make sure that all products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
+    ![541-product-details-requires-shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-product-details-requires-shipping.png)
 
-That is all. You should now have a free shipping method that will be displayed at checkout only if the weight of all the items in the customer's order taken together does not exceed 200 g.
-    ![xc5_freeshipping_method_weight200_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200_checkout.png)
+That is all. You should now have a free shipping method that will be displayed at checkout only if the weight of all the items in the customer's order taken together does not exceed the limitations set by you.
+![541-free-shipping-weight-checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-weight-checkout.png)
 
-## Example 5. Free Shipping on Orders over $50 Shipped within Germany
 
-1.  In your store's Admin area, go to **Store setup** > **Countries, states and zones** and configure a destination zone corresponding to Germany (for example, name it "Germany").
-       ![xc5_freeshipping_germany_zone.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_germany_zone.png)
+## Example 5. Free Shipping Based on a Combination of Conditions
 
-2.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders that meet the above stated conditions (subtotal over $50 AND shipping to Germany):
+1.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders that meet the above stated conditions (subtotal over $50 AND shipping to Germany):
 
     *  Click the **Add shipping method** button.
-        ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
+       ![541-shipping-add-method.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-shipping-add-method.png)
 
     *  In the popup window that appears, select the **Custom table rates** tab.
-        ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
+       ![541-shipping-popup-custom-rates.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-shipping-popup-custom-rates.png)
 
-    *  Provide general information about the shipping method and configure how shipping rates should be calculated for it:
-        *   Enter a name for this shipping method (for example, "Free shipping on orders over $50 within Germany").
-        *   Set the **Address zone** property to whatever you named your zone for Germany (in our case, "Germany").
+    *  Provide general information about the shipping method and configure how shipping rates should be calculated for it. It will be a combination of order subtotal and customer address in our sample:
+       ![541-free-shipping-conbination.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-conbination.png)
+        
+        *   Enter a name for this shipping method.
+        *   Set the **Address zone** property to whatever you named your zone.
         *   Specify that the table is based on "Subtotal" and set the **Subtotal range** to "$50.00 - $  ∞". Make sure that the fields **flat rate**, **per item**, **% and per weight unit** have zero values.
-        ![xc5_freeshipping_method_over50_germany.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany.png)
         
     *  Save your changes:
         ![xc5_freeshipping_method_over50_germany_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany_create.png)
@@ -169,11 +162,11 @@ That is all. You should now have a free shipping method that will be displayed a
     *  Make sure the method you have configured is active:
         ![xc5_freeshipping_method_over50_germany_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany_active.png)
 
-3.  Make sure that all the products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
-    ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
+2.  Make sure that all products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
+    ![541-product-details-requires-shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-product-details-requires-shipping.png)
 
-That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's order amount is $50 or more, and the customer's shipping address belongs to the address zone you have configured (in our case, "Germany").
-    ![xc5_freeshipping_method_over50_germany_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany_checkout.png)
+That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's order amount exceeds the limits, and the customer's shipping address belongs to the address zone you have configured.
+![541-free-shipping-combination-checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/541-free-shipping-combination-checkout.png)
 
 _Related pages:_
 
