@@ -33,8 +33,6 @@ To set up a shipping freight property for a product, follow the steps below:
 3.  On the **Info** tab of the product details, locate the **Shipping** section and set the **Freight** field value to the amount you require.
     ![541-product-details-shipping.png]({{site.baseurl}}/attachments/ref_kioKBJIM/541-product-details-shipping.png)
     
-    Pay special attention to the **Exclude from shipping cost calculation** setting. If it is enabled, the fee defined as shipping freight value for the products will always be excluded from the order total provided the **Free shipping and Shipping freights** addon is configured to add shipping freight to the regular shipping rates.
-    
     {% note info %}
     A shipping freight value can be set only for tangible goods; the **Requires shipping** option in the product details must be enabled for the **Freight** field to be visible.
     {% endnote %}
