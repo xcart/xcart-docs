@@ -10,7 +10,7 @@ published: true
 order: 160
 ---
 Individual shipping cost per product can be set using the _Shipping freight_ feature. This feature can be enabled using the addon {% link "Free Shipping and Shipping Freights" ref_4Bfeegp9 %} addon by X-Cart team (available in X-Cart Business, Multivendor, Ultimate editions).
-![541-shipping-freight-settings.png]({{site.baseurl}}/attachments/ref_kioKBJIM/541-shipping-freight-settings.png)
+![541-shipping-freight-addon.png]({{site.baseurl}}/attachments/ref_kioKBJIM/541-shipping-freight-addon.png)
 
 {% toc %}
 
