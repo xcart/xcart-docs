@@ -13,8 +13,7 @@ redirect_from:
 ---
 
 To accept payments from buyers, you need to enable one or more payment methods for your store. Payment methods are managed via the **Payment methods** section (**Store setup > Payment methods**):
-
-![store_setup_payment_settings.png]({{site.baseurl}}/attachments/ref_Jq6Bsdrt/store_setup_payment_settings.png)
+![541-payment-methods-page.png]({{site.baseurl}}/attachments/ref_Jq6Bsdrt/541-payment-methods-page.png)
 
 
 The Payments methods section allows you:
