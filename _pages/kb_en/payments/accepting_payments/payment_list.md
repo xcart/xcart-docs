@@ -15,9 +15,8 @@ X-Cart supports two types of payment methods:
 On the **Payment settings** page of your store Admin area, online payment methods can be found in the **Online methods** section. Offline payment methods can be found in the section **Offline methods** (You may need to scroll down the **Payment settings** page to be able to see it):
 ![541-payment-methods-online-offline.png]({{site.baseurl}}/attachments/ref_0wA82ctg/541-payment-methods-online-offline.png)
 
-The INACTIVE/ACTIVE toggler displayed for every item on the list of payment methods can be used to control the availability of the method to customers:
+The INACTIVE/ACTIVE toggle displayed for every item on the list of payment methods can be used to control the availability of the method to customers:
 ![541-payment-methods-active-inactive.png]({{site.baseurl}}/attachments/ref_0wA82ctg/541-payment-methods-active-inactive.png)
 
 The **Configure** button below each payment method name allows you to access the payment method settings:
 ![541-payment-methods-configure.png]({{site.baseurl}}/attachments/ref_0wA82ctg/541-payment-methods-configure.png)
-
