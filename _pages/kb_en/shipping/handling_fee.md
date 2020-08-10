@@ -14,11 +14,14 @@ If you set up carrier-calculated or table-based shipping rates for your products
 To set up a handling fee for some shipping method:
 
 1.  In your store's Admin area, go to the Shipping methods section (**Store setup** -> **Shipping**):
-    ![shipping-1.png]({{site.baseurl}}/attachments/ref_nFJTxPMR/shipping-1.png)
+    ![541-shipping-page.png]({{site.baseurl}}/attachments/ref_nFJTxPMR/541-shipping-page.png)
 2.  In the list of your store's shipping methods, find the method that you want to add a surcharge for.
-    ![shipping-method.png]({{site.baseurl}}/attachments/ref_nFJTxPMR/shipping-method.png)
-3.  Click inside the _Handling fee_ field and specify the surcharge amount you require.
-    ![handling-fee.png]({{site.baseurl}}/attachments/ref_nFJTxPMR/handling-fee.png)
+    ![541-handling-fee-method.png]({{site.baseurl}}/attachments/ref_nFJTxPMR/541-handling-fee-method.png)
+
+3.  Click inside the _Handling fee_ field for the selected shipping method and specify the surcharge amount you require either as a fixed amount or as a
+percentage off the order subtotal amount.
+    ![541-handling-fee-edit.png]({{site.baseurl}}/attachments/ref_nFJTxPMR/541-handling-fee-edit.png)
+
 4.  **Save changes** 
 
 
