@@ -82,11 +82,10 @@ Backups in X-Cart 5.4.x can be done with a {% link "Backup Master Addon" ref_60L
   <div class="column" markdown="span">![back-up-master.png]({{site.baseurl}}/attachments/ref_3sJdcWPV/back-up-master.png)</div>
 </div>
 
-Use the 'Backup your store with Backup Master' button to be redirected to the Backup section of your store Admin area (**System tools** -> **Backup**) and to create a full store backup as described {% link "here" ref_60LdO1tN %}. The Backup page is opened in a new tab. 
 
-{% note info %}
 In addition, you can create a DEV copy of your store BEFORE installing an update or an upgrade on your LIVE store and try installing the update/upgrade on that DEV copy. Provided the update/upgrade installation goes smoothly, and after you have made sure the store's DEV copy continues working as expected, you can upgrade your LIVE store with no doubts.
 
+{% note info %}
 For details on how to create a dev copy of your store and to restore the store from backup, see {% link 'Moving X-Cart to another location' ref_6oFmUXC7 %}
 {% endnote %}
 
