@@ -69,6 +69,11 @@ Click _Connect to PayPal link_ to access the PayPal sign-in page and sign in usi
 If this option in not configured and there is a vendor with a not configured PayPal Business account, a customer will not be able to pay an order via PayPal for Marketplaces payment in case a product from such vendor is added to cart.
 {% endnote %}
 
+5. Make sure the new PayPal for Marketplaces  payment method is active.
+   <div class="ui stackable two column grid">
+     <div class="column" markdown="span">![541-ppfm-on-settings-page.png]({{site.baseurl}}/attachments/ref_6iphJijP/541-ppfm-on-settings-page.png)</div>
+     <div class="column" markdown="span">![541-ppfm-on-payments-page.png]({{site.baseurl}}/attachments/ref_6iphJijP/541-ppfm-on-payments-page.png)</div>
+  </div>
 
 Once the above steps have been completed, shoppers at your store should be able to select this method at checkout and use it for payment. By default, the name of this payment method will appear to shoppers simply as “PayPal”:
 
