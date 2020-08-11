@@ -91,7 +91,7 @@ If necessary, you can adjust the display name of this payment method (the one th
 
 ## Admin Experience
 
-All the information about the flow of payments from buyers to the store administrator through PayPal for Marketplaces payments is available for review in the **Payment transactions** section (**Orders** -> **Payment transactions**) of the admin area:
+All the information about the flow of payments from buyers to the store administrator through PayPal for Marketplaces payments is available for review in the **Payment transactions** section (**Orders** -> **Payment transactions**) of the Admin area:
 
 ![transactions.png]({{site.baseurl}}/attachments/ref_6iphJijP/transactions.png)
 
@@ -134,8 +134,8 @@ We say “a little less than $1” because in reality it is going to be one doll
 So, everything is fine: the vendor has received their earnings, and the store admin has received his commission. Both transactions were completed automatically.
 
 In case a vendor doesn't have a PayPal Business account registered in the **Financial info** section the store admin will have to find a way to pay out the money they owe to such vendors (with methods outside X-Cart), after which the information about the respective payout transactions will have to be added in X-Cart manually using the **Create transaction** button in the **Vendor transactions** section (**Orders** > **Vendor transactions**):
+![create-transaction-edited.png]({{site.baseurl}}/attachments/ref_6iphJijP/create-transaction-edited.png)
 
-![create-transaction.png]({{site.baseurl}}/attachments/ref_6iphJijP/create-transaction.png)
 
 ## Vendor Experience
 
@@ -147,6 +147,6 @@ For this purpose they should use the _Connect to PayPal_ link and specify their 
 
 If a vendor fails to specify the appropriate PayPal Business account, the money due to them will simply not be transferred to the vendor's account, but will remain in the account of the store administrator. 
 
-All auto-generated PayPal for Marketplaces payments transactions showing the receipt of funds by the store vendors are recorded in the **Vendor transactions** section of the admin area (**Orders** > **Vendor transactions**) and in the **My transactions** section of the vendor area (**My account** -> **My transactions**):
+All auto-generated PayPal for Marketplaces payments transactions showing the receipt of funds by the store vendors are recorded in the **Vendor transactions** section of the Admin area (**Orders** > **Vendor transactions**) and in the **My transactions** section of the Vendor area (**My account** -> **My transactions**):
+![vendor-transactions-edited.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-transactions-edited.png)
 
-![vendor-transactions.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-transactions.png)
