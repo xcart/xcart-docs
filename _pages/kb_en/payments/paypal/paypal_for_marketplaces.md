@@ -28,19 +28,19 @@ As a partner, PayPal must vet and approve you before you can use PayPal for Mark
 ## PayPal for Marketplaces Installation and Setup
 
 Like all PayPal payment methods, the method "PayPal for Marketplaces" is enabled by the addon "PayPal". So please make sure the PayPal addon is {% link "installed and enabled" ref_0fGEpvrh %}:
-
-![paypal-installed.png]({{site.baseurl}}/attachments/ref_6iphJijP/paypal-installed.png)
+![541-paypal-addon-enabled.png]({{site.baseurl}}/attachments/ref_6iphJijP/541-paypal-addon-enabled.png)
 
 To add the payment method "PayPal for Marketplaces" for your store:
 
-1.  In your store's Admin area, go to the Payment Settings section  (**Store setup** > **Payment methods**) and click **Add payment method**:
-   ![add-payment.png]({{site.baseurl}}/attachments/ref_6iphJijP/add-payment.png)
+1.  In your store's Admin area, go to the payments listing page  (**Store setup** > **Payment methods**) and click **Add payment method**:
+   ![541-payment-methods-add-online.png]({{site.baseurl}}/attachments/ref_6iphJijP/541-payment-methods-add-online.png)
    
 2.  In the list of payment methods that opens in a popup window, locate the method "PayPal for Marketplaces" and click the **Add** button opposite its name:
    ![add.png]({{site.baseurl}}/attachments/ref_6iphJijP/add.png)
    
 3.  Once the payment method has been added, configure its settings:
-    ![settings-page.png]({{site.baseurl}}/attachments/ref_6iphJijP/settings-page.png)
+    ![541-ppfm-settings.png]({{site.baseurl}}/attachments/ref_6iphJijP/541-ppfm-settings.png)
+
     * Your account settings:
       * **PayPal For Marketplaces account email** : Specify your e-mail registered for PayPal for Marketplace account
       * **PayPal API Client ID** : Specify your login to PayPal sandbox or live account
@@ -82,9 +82,7 @@ After the payment is complete the customer will be redirected back to your X-Car
 
 ![cus-invoice.png]({{site.baseurl}}/attachments/ref_6iphJijP/cus-invoice.png)
 
-If necessary, you can adjust the display name of this payment method (the one that will be visible to customers) and the position of this payment method in your store’s list of payment methods via the _Sorting & Descriptions_ tab on the **Payment settings** page: 
-
-![sorting-description.png]({{site.baseurl}}/attachments/ref_6iphJijP/sorting-description.png)
+If necessary, you can adjust the display name of this payment method (the one that will be visible to customers) and the position of this payment method in your store’s list of payment methods as described in {% link "Sorting Payment Methods on the Storefront" ref_1WSCwpNh %}.
 
 ## Admin Experience
 
