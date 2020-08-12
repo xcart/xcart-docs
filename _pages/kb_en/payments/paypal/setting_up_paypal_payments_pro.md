@@ -12,89 +12,68 @@ PayPal Payments Pro (also known as Website Payments Pro outside the U.S.) is a f
 X-Cart 5 does not provide a direct integration for PayPal Payments Pro, but PayPal Payments Pro can be enabled in an X-Cart based online store via [X-Payments](https://www.x-payments.com/ "Setting up PayPal Payments Pro"), a platform by a PCI DSS Level 1 certified service provider. 
 
 {% note info %}
-X-Payments pricing information and a list of available plans/packages can be found on the [Pricing](https://www.x-payments.com/pricing.html "Setting up PayPal Payments Pro") page of the X-Payments website. Note that to connect your X-Cart based online store to X-Payments, you will need to use the X-Cart addon "[X-Payments connector](https://market.x-cart.com/addons/xpayments-connector.html "Setting up PayPal Payments Pro")". 
+X-Payments pricing information and a list of available plans/packages can be found on the [Pricing](https://www.x-payments.com/pricing.html "Setting up PayPal Payments Pro") page of the X-Payments website. Note that to connect your X-Cart based online store to X-Payments, you will need to use the X-Cart addon "[X-Payments Cloud connector](https://market.x-cart.com/addons/xpayments-connector.html "Setting up PayPal Payments Pro")". 
 {% endnote %}
 
 To start accepting payments with PayPal Payments Pro in your X-Cart store (via X-Payments):
 
-   1. Make sure the addon X-Payments connector is {% link "installed and enabled" ref_2BXoj25Y %} in your X-Cart store. 
+   1. Make sure the addon X-Payments Cloud connector is {% link "installed and enabled" ref_2BXoj25Y %} in your X-Cart store. 
    
    2. In your X-Cart store's Admin area, go to the Payment Methods page (**Store setup > Payment Methods**). In the section for Online methods, click **Add payment method**:
       ![541-payment-methods-add-online.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/541-payment-methods-add-online.png)
 
-   3. In the popup box that appears, find the name of the PayPal Payments Pro payment method integration you require. Depending on the type of API to which your PayPal Payments Pro account has been given access, you will be able to use either **PayPal Payments Pro (Payflow API)** or **PayPal Payments Pro (PayPal API)**. To choose the right payment method integration for you, you need to know the type of API credentials available to your PayPal account. If you have such credentials as API access username, API access password and API signature/API certificate, choose PayPal Payments Pro (PayPal API). If you have such credentials as Partner, Merchant login, User and Password (the same credentials as are used for login to manager.paypal.com), choose PayPal Payments Pro (Payflow API). 
+   3. In the popup box that appears, find the name of the PayPal Payments Pro payment method integration you require. Depending on the type of API to which your PayPal Payments Pro account has been given access, you will be able to use either **PayPal Payments Pro (Payflow API)** or **PayPal Payments Pro (PayPal API)**. 
+      ![541-paypal-pro-add-method.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/541-paypal-pro-add-method.png)
    
-      For the sake of example, we will be adding PayPal Payments Pro (Payflow API). For PayPal Payments Pro (PayPal API), the process will be essentially the same, but you will need to choose the PayPal Payments Pro (PayPal API) integration instead of PayPal Payments Pro (Payflow API); you will also have to use the API appropriate set of credentials.
+      To choose the right payment method integration for you, you need to know the type of API credentials available to your PayPal account. If you have such credentials as API access username, API access password and API signature/API certificate, choose PayPal Payments Pro (PayPal API). If you have such credentials as Partner, Merchant login, User and Password (the same credentials as are used for login to manager.paypal.com), choose PayPal Payments Pro (Payflow API). 
+   
+      For the sake of example, we will be adding PayPal Payments Pro (PayPal API). For PayPal Payments Pro (Payflow API), the process will be essentially the same, but you will need to choose the PayPal Payments Pro (Payflow API) integration instead of PayPal Payments Pro (PayPal API); you will also have to use the API appropriate set of credentials.
 
-      So, to add PayPal Payments Pro (Payflow API), click **Add** opposite this item:
-      ![xc5_pp_pro_payflowapi_add.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_payflowapi_add.png)
-      (If the method has already been added previously, choose **Settings**). 
+   4. To add PayPal Payments Pro (PayPal API), click **Add** opposite this item. If the method has already been added previously, click **Settings**. 
        
-      You will be redirected to the "X-Payments connector" addon settings page. If you haven't connected your X-Cart store to X-Payments previously, you will see a page like the following:
-      ![xc5_pp_pro_xpconnect.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_xpconnect.png)
-      
-      If you have already connected your X-Cart store to X-Payments, the page will look similar to this:
-      ![xc5_pp_pro_xpconnect0.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_xpconnect0.png)
-      
-      For now, just leave this page as is and proceed on to the next step to configure the connection on the X-Payments end.
+      You will be redirected to the "X-Payments Cloud Connector" addon settings page. 
+      * If you haven't connected your X-Cart store to X-Payments Cloud previously, you will need to do it as described in {% link "Connecting Your X-Cart Store to X-Payments Cloud" ref_4kjOv7Ne %}.
+      * If you have already connected your X-Cart store to X-Payments, proceed with the payment set-up.
 
-   4. In a new browser tab or widow, log in to X-Payments, open your X-Payments dashboard and provide X-Payments with data required to connect to your X-Cart store and to the chosen payment gateway:
-   
-      1. If using a multistore version of X-Payments, go to the 'Online Stores' page (**Settings** -> **Online stores**) and [add your X-Cart store to X-Payments](https://www.x-payments.com/help/X-Payments:Managing_store_connections "Setting up PayPal Payments Pro"); make sure the store you have added is enabled (active). If using a single store version, start with Step 2.
+   5. On the X-Payments Cloud addon settings page locate the payments drop-down:
+      ![541-select-payment-gateway.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/541-select-payment-gateway.png)
+   6. Select PayPal Pro payment (either PayPal or Payflow API depending on the account you have):
+      ![541-select-paypal-pro.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/541-select-paypal-pro.png)
+   7. Click **Add**:
+      ![541-add-payment-button.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/541-add-payment-button.png)
       
-      2. If you haven't yet done so, configure the details of your X-Cart store in X-Payments (**Settings** -> **Online store**) by specifying a store name, a store title, an order prefix and a template.
-        ![xc5_pp_pro_onlinestore.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_onlinestore.png)
+      If you you are not signed in to your X-Payments Cloud account you will be suggested to login and verify your account on this step:
+      <div class="ui stackable two column grid">
+        <div class="column" markdown="span">![541-xp-account-verification-lvl1.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/541-xp-account-verification-lvl1.png)</div>
+        <div class="column" markdown="span">![xp-account-verification-lvl2.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xp-account-verification-lvl2.png)</div>
+       </div>
+       
+       If you are signed in, you will see the PayPal Pro settings on the page:
+       ![541-paypal-pro-settings-page.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/541-paypal-pro-settings-page.png)
 
-      3. Go to the 'Payment Configurations' page (**Settings** -> **Payment configurations**) and add a new payment configuration selecting the PayPal Payments Pro integration of the same name as has been selected in X-Cart (in our case, "PayPal Payments Pro (Payflow API)").
-        ![xc5_pp_pro_payflowapi_paymentconf_inxp.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_payflowapi_paymentconf_inxp.png)
+   8. Use this page to specify the required configuration parameters as per the following instructions:
+      
+      * Instructions for [PayPal Payments Pro (Payflow API)](https://www.x-payments.com/help/X-Payments:Configuring_PayPal_payment_modules_in_X-Payments#Configuring_PayPal_Payments_Pro_.28Payflow_API.29_configuration_settings "Setting up PayPal Payments Pro") 
          
-         As a result, a page like the following opens:
-        ![paypal_pro_payflowapi_confsettings.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/paypal_pro_payflowapi_confsettings.png)
-        
-      4. Use this page to specify the required configuration parameters as per the following instructions:
+      * Instructions for [PayPal Payments Pro (PayPal API)](https://www.x-payments.com/help/X-Payments:Configuring_PayPal_payment_modules_in_X-Payments#PayPal_Payments_Pro_.28PayPal_API.29_configuration_settings "Setting up PayPal Payments Pro")
+
+   6. Save the payment configuration by clicking **Save**.
       
-         * Instructions for [PayPal Payments Pro (Payflow API)](https://www.x-payments.com/help/X-Payments:Configuring_PayPal_payment_modules_in_X-Payments#Configuring_PayPal_Payments_Pro_.28Payflow_API.29_configuration_settings "Setting up PayPal Payments Pro") 
-         
-         * Instructions for [PayPal Payments Pro (PayPal API)](https://www.x-payments.com/help/X-Payments:Configuring_PayPal_payment_modules_in_X-Payments#PayPal_Payments_Pro_.28PayPal_API.29_configuration_settings "Setting up PayPal Payments Pro") 
-         
-         It is a good idea to rename the method from the default "PayPal Payments Pro" to a name that will be better understood by your customers; for example, "Debit or Credit card". You can do that by renaming the payment configuration in X-Payments.
-
-      5. Save the payment configuration by clicking **Save**.
-         ![xc5_pp_pro_saveconf.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_saveconf.png)
+   7. Make sure the payment configuration you have created is enabled (active).
+      ![541-paypal-pro-enabled.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/541-paypal-pro-enabled.png)
       
-      6. Make sure the payment configuration you have created is enabled (active).
-         ![xc5_pp_pro_payflowapi_paymentconf_inxp0.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_payflowapi_paymentconf_inxp0.png)
-     
-   5. Connect your X-Cart store to X-Payments:
-      
-      1. In X-Payments, on the page with your X-Cart store details (**Settings** -> **Online store**), obtain your X-Payments configuration bundle. It can be found in the Connection section on the right-hand side of the page. Click to copy this bundle to clipboard.
-        ![xc5_pp_pro_bundle.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_bundle.png)
+      It is also necessary to enable the X-Payments Cloud payments for your store 
+      * on the addon settings page :
+        ![541-xp-cloud-enabled-1.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/541-xp-cloud-enabled-1.png)
+        
+      * and on the payments listing page of your store Admin area (**Store Setup** -> **Payment Methods**):
+        ![541-xp-cloud-enabled-payments-page.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/541-xp-cloud-enabled-payments-page.png)
 
-      2. In X-Cart (back on the "X-Payments connector" addon settings page - in the browser tab or window where you left off), go to the Connection tab.
-        ![xc5_pp_pro_connection.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_connection.png)
 
-      3. Paste the configuration bundle from clipboard into the appropriate field on the connection settings and click **Deploy**.
-        ![xc5_pp_pro_deploy.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_deploy.png)
-        
-        The addon will take a few moments to deploy the configuration. Once the process is complete, you will see a success message at the top of the page. You will also notice that the PayPal Payments Pro method (renamed in our case to "Debit or Credit card") has been imported into the X-Cart store from X-Payments:
-        ![xc5_pp_pro_deployed0.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_deployed0.png)
-        
-        Note that this method is already active:
-        ![xc5_pp_pro_method_active.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_method_active.png)
-        
-        That's all; now you can accept payments via PayPal Payments Pro.
-        
-        Note that should you need to change any settings for your PayPal Payments Pro method, you will need to do that on the X-Payments end (not in your X-Cart store) and then re-import the method into X-Cart.
-        
-        You can control the status (active/inactive) of your PayPal Payments Pro method right on the "X-Payments connector" addon settings page (shown on the screenshot above) or via the Payment methods page (**Store setup > Payment methods**):
-        ![xc5_pp_pro_promethod_active.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_promethod_active.png)
-        
-        If you wish to use this method for PCI compliant payments with saved credit cards, enable the "Save cards" feature for this method:
-        ![xc5_pp_pro_savecards.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_savecards.png)
+That's all; now you can accept payments via PayPal Payments Pro.
+![xp-cloud-payment-checkout.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xp-cloud-payment-checkout.png)
 
-        Also be sure to complete the _Save credit card setup_ on the X-Payments connector settings page:
-        ![xc5_pp_pro_saveccsetup.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_saveccsetup.png)
-        ![xc5_pp_pro_saveccsetup0.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_saveccsetup0.png)
-        
-        You will be able to control the status of your method for payments with saved credit cards (active/inactive) via the  Payment methods page (**Store setup > Payment methods**); see the **Use a saved credit card** method:
-        ![xc5_pp_pro_savedcard_methodactive.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xc5_pp_pro_savedcard_methodactive.png)
+If you need to change the name of a payment method displayed at checkout, use the "Names, Descriptions and Sorting" tab of the payments listing page of your store Admin area (Store Setup -> Payment Methods) and follow the guides provided {% link "here" ref_1WSCwpNh %}:
+![541-xp-cloud-payment-names-description-sorting.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/541-xp-cloud-payment-names-description-sorting.png)
+
+
