@@ -69,7 +69,7 @@ The checkout process for an unregistered customer and for a registered but not l
 
 ### Anonymous Checkout
 
-X-Cart allows anonymous or guest checkout for your customers. This means that if a customer is not registered in your store they don't need to create an account and can proceed to checkout specifying an email only. During checkout unregistered customers will need to specify shipping and billing address, choose the preferred devilery and payment method. X-Cart allows to place an order only when all the fields are filled in properly.
+X-Cart allows anonymous or guest checkout for your customers. This means that if a customer is not registered in your store they don't need to create an account and can proceed to checkout specifying an email only. During checkout unregistered customers will need to specify shipping and billing address, choose the preferred delivery and payment method. X-Cart allows to place an order only when all the fields are filled in properly.
 
 {% note info %}
 When the shipping and billing address info is not specified, X-Cart calculates taxes and delivery costs and displays this info to the buyers based on the default customer address predefined in the store.
