@@ -58,7 +58,9 @@ The addon settings are grouped into three sections:
        * **Theme** : Select the theme of the form. 
        * **Size** : Select the size of the form.
        ![settings-2.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/settings-2.png)
-       
+       Depending on the selected theme and size, your ReCaptcha form will look different:
+          ![recaptcha_themes.jpg]({{site.baseurl}}/attachments/ref_4S6YEcnH/recaptcha_themes.jpg)
+
      * For reCAPTCHA v3 (Beta version), you will be able to adjust the following settings:
        * **Minimal score required to pass verification** : Define a score from 0 (definitely bot) to 1 (definitely human) a user should gain to pass verification. 
        * **Throttling period (seconds)** : Set the period in seconds to limit the number of requests a user can submit in a given amount of time.
