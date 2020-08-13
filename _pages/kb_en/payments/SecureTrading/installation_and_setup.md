@@ -9,8 +9,8 @@ published: true
 ---
 To enable Secure Trading as a payment method in your X-Cart store, add it to the list of your store’s active payment methods:
 
-1. In your X-Cart store’s Admin area, go to the Payment methods page (**Store setup** > **Payment methods**). In the section for _Online_ methods, click **Add payment** method:
-   ![add-payment.png]({{site.baseurl}}/attachments/ref_76tvX6bZ/add-payment.png)
+1. In your X-Cart store’s Admin area, go to the Payment methods page (**Store Setup** > **Payment Methods**). In the section for _Online_ methods, click **Add payment** method:
+   ![541-payment-methods-add-online.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/541-payment-methods-add-online.png)
 
 2. In the popup box that appears, find the **Secure Trading** method and select to **Add** this method:
    ![add.png]({{site.baseurl}}/attachments/ref_76tvX6bZ/add.png)
@@ -55,7 +55,9 @@ To enable Secure Trading as a payment method in your X-Cart store, add it to the
      
      ![payment-added.png]({{site.baseurl}}/attachments/ref_76tvX6bZ/payment-added.png)
 
-4. If necessary add the payment description or change the payment name in the _Sorting&Description_ tab of the **Store setup** -> **Payment methods** section in the Admin area.
-  ![sorting-descriptions.png]({{site.baseurl}}/attachments/ref_76tvX6bZ/sorting-descriptions.png)
+4. If necessary add the payment description or change the payment name in the _Names, Descriptions & Sorting_ tab of the **Store setup** -> **Payment methods** section in the Admin area. 
+   ![541-payment-methods-names-sorting.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/541-payment-methods-names-sorting.png)
+      
+    For details, see {% link "Sorting Payment Methods on the Storefront" ref_1WSCwpNh %}.
 
-  The payment position at checkout will be the same as set on this page, i.e. if this is the first active payment method it will be shown first at checkout.
+     The payment position at checkout will be the same as set on this page, i.e. if this is the first active payment method it will be shown first at checkout.
