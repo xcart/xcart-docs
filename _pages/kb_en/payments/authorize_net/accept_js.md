@@ -10,8 +10,7 @@ published: true
 To enable Authorize.NET Accept.js as a payment method in your X-Cart store, {% link "add it to the list" ref_36BqwVSF %} of your store's active payment methods:
 
    1. In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for _Online methods_, click **Add payment method**:
-        
-      ![add-payment.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/add-payment.png)
+      ![541-payment-methods-add-online.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/541-payment-methods-add-online.png)
 
    2. In the popup box that appears, find the Authorize.NET Accept.js method and select to **Add** this method:
       
@@ -26,8 +25,7 @@ To enable Authorize.NET Accept.js as a payment method in your X-Cart store, {% l
       {% endnote %}
       
    3. Configure the Authorize.NET Accept.js payment on the payment settings page as follows:
-      
-      ![js-settings.png]({{site.baseurl}}/attachments/ref_7fLCkUYr/js-settings.png)
+      ![541-auth-net-acceptjs-settings.png]({{site.baseurl}}/attachments/ref_7fLCkUYr/541-auth-net-acceptjs-settings.png)
       
       If you don't have a registered account with Authorize.NET sign up using the _Sign up for Authorize.NET_ link at the top of the page. 
       
@@ -50,8 +48,9 @@ To enable Authorize.NET Accept.js as a payment method in your X-Cart store, {% l
       **Save** the settings.
    
    4. If necessary add the payment description or change the payment name in the _Sorting&Description_ tab of the **Store setup** -> **Payment methods** section in the Admin area. 
-     
-      ![js-sorting-description.png]({{site.baseurl}}/attachments/ref_7fLCkUYr/js-sorting-description.png)
+      ![541-payment-methods-names-sorting.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/541-payment-methods-names-sorting.png)
+      
+      For details, see {% link "Sorting Payment Methods on the Storefront" ref_1WSCwpNh %}.
 
       The payment position at checkout will be the same as set on this page, i.e. if this is the first active payment method it will be shown first at checkout.
       
