@@ -22,12 +22,11 @@ To access the X-Payments Cloud connection page in your X-Cart store Admin area, 
    
 * *Method 2:*
    
-     Go to the **Payment settings** page (**Store setup** > **Payment methods**), locate the payment method "X-Payments Cloud" and choose to configure it:
-     ![xp_cloud_method_configure_button.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xp_cloud_method_configure_button.png)
+     Go to the payments listing page (**Store setup** > **Payment methods**), locate the payment method "X-Payments Cloud" and choose to configure it:
+     ![541-configure-button-payments-page.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/541-configure-button-payments-page.png)
      
-     
-The page for connecting your X-Cart store to X-Payments Cloud is titled "X-Payments Cloud settings" and looks like the following:
-     ![xp_cloud_connector_settings1.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xp_cloud_connector_settings1.png)
+The page for connecting your X-Cart store to X-Payments Cloud is titled "X-Payments Cloud settings" and looks as follows:
+     ![xp-cloud-account-creation.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xp-cloud-account-creation.png)
 
 Once you are ready to proceed with the connection, you will need to either create a new X-Payments Cloud account or to provide the connection details for your {% link "existing X-Payments Cloud account" ref_729XUzDQ#xpc-registered-account %}.
 
@@ -41,20 +40,24 @@ Once you are ready to proceed with the connection, you will need to either creat
    
      This will initiate the creation of an X-Payments Cloud account for you and start your 14 day trial period. No commitment and no credit card are required during the trial period.
      
-     The creation of your X-Payments account is likely to take a few seconds. During this time you will see a screen like the following:
-     ![tuned.png]({{site.baseurl}}/attachments/ref_729XUzDQ/tuned.png)
+     The creation of your X-Payments account is likely to take a few seconds. During this time you will see a screen as follows:
+     ![connector-1.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/connector-1.png)
 
      In the end you will be prompted to set a password for your X-Payments Cloud account: 
-     ![set_passwd_4cloud.png]({{site.baseurl}}/attachments/ref_729XUzDQ/set_passwd_4cloud.png)
+     ![xp-cloud-account-password-setup.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xp-cloud-account-password-setup.png)
 
      Enter your desired password and type it once again for confirmation. Be sure to click Submit. For your convenience, a link to [Strong password generator](https://strongpasswordgenerator.com/) is provided. 
      
      After setting the password, complete 2-step user authentication setup for your account:
-     ![2step_user_auth_setup.png]({{site.baseurl}}/attachments/ref_729XUzDQ/2step_user_auth_setup.png)
+     ![connector-2.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/connector-2.png)
      
      Detailed info on setting up 2-step user authentication methods in X-Payments Cloud is available in the [X-Payments Cloud manual](https://www.x-payments.com/help/XP_Cloud:Two-factor_User_Authentication).
      
-     Note that after your X-Payments Cloud account has been created, within 15 minutes you will receive an email message with the subject "Welcome to X-Payments!". In this message you will find a link to confirm your X-Payments Cloud registration email address. You have 24 hours to confirm your email address using that link. If the email address is not confirmed until that time, your X-Payments Cloud account will be locked. ("Locked" means that you will be able to sign in but will not have access to any sensitive information or settings). **Important:** The email confirmation link expires in 24 hours. If you use the link after it has expired, you will get an error message. In this case, you will still be able to confirm your email address and unlock your account: sign in to the X-Payments Cloud admin panel, use the button to request a new email confirmation link, wait for the email message with the confirmation link to be sent to your inbox, then use the link to confirm your email address.
+     {% note info %}
+     After your X-Payments Cloud account has been created, within 15 minutes you will receive an email message with the subject "Welcome to X-Payments!". In this message you will find a link to confirm your X-Payments Cloud registration email address. You have 24 hours to confirm your email address using that link. If the email address is not confirmed until that time, your X-Payments Cloud account will be locked. ("Locked" means that you will be able to sign in but will not have access to any sensitive information or settings). 
+     
+     **Important:** The email confirmation link expires in 24 hours. If you use the link after it has expired, you will get an error message. In this case, you will still be able to confirm your email address and unlock your account: sign in to the X-Payments Cloud admin panel, use the button to request a new email confirmation link, wait for the email message with the confirmation link to be sent to your inbox, then use the link to confirm your email address.
+     {% endnote %}
      
      Your X-Payments Cloud trial will be available to you for 14 days. After this time your account will be deactivated, but not yet deleted. You will know your X-Payments Cloud trial period has expired if the X-Payments Cloud settings page in your X-Cart store Admin area looks like this:
 ![xpc_trial_expired.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xpc_trial_expired.png)
@@ -66,18 +69,28 @@ Information on the available X-Payments subscription plans can be found [here](h
 <a id="xpc-registered-account"></a>
    * **If you already have an existing X-Payments Cloud account**:
      
-     1. Use the link "If you already have an X-Payments account, please click here" in the lower part of the X-Payments Cloud connection page to access the page for X-Payments Cloud account sign-in:
-        ![access_signin_4registered.png]({{site.baseurl}}/attachments/ref_729XUzDQ/access_signin_4registered.png)
+     1. Use the link "If you already have an X-Payments account, please click here" in the bottom of the X-Payments Cloud connection page to access the page for X-Payments Cloud account sign-in:
+        ![xp-coud-registered-account-link.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xp-coud-registered-account-link.png)
    
      2. On the sign-in page, enter your account name and click **Connect**:
-        ![connect_registered.png]({{site.baseurl}}/attachments/ref_729XUzDQ/connect_registered.png)
+        ![xp-cloud-connect-account.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xp-cloud-connect-account.png)
+        
+         This will connect your X-Cart store to your existings X-Payments Cloud account.
+         
+         When connected, you can view the available payments list and enable/disable configured payments (if any) without extra authorization:
+         ![xp-cloud-unlocked-account.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xp-cloud-unlocked-account.png)    
 
-     3. When prompted to specify your connection credentials, provide your X-Payments Cloud account registration email address and password:
-        ![connect_registered1.png]({{site.baseurl}}/attachments/ref_729XUzDQ/connect_registered1.png)
-     
-     This will connect your X-Cart store to your existings X-Payments Cloud account.
+     3. Extra authorization is required to e.g. configure new payments. When prompted to specify your connection credentials, provide your X-Payments Cloud account registration email address and password:
+        <div class="ui stackable two column grid">
+           <div class="column" markdown="span">![541-xp-account-verification-lvl1.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/541-xp-account-verification-lvl1.png)</div>
+           <div class="column" markdown="span">![xp-account-verification-lvl2.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xp-account-verification-lvl2.png)</div>
+        </div>
+          
 
-Once your X-Cart 5 store has been connected to X-Payments Cloud, you need to go to X-Payments Cloud and configure it as you require. For more information on this, see {% link "Getting Started with X-Payments Cloud" ref_497aaUTF %}
+Once your X-Cart 5 store has been connected to X-Payments Cloud, you will see a screen as follows:
+![xp-cloud-account-set-up.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xp-cloud-account-set-up.png)
+
+Here you can continue with configuring payments via X-Payments Cloud. For more information on this, see {% link "Getting Started with X-Payments Cloud" ref_497aaUTF %}
 
 _Related pages:_
 * {% link "X-Payments Cloud Connector" ref_729XUzDQ %}
