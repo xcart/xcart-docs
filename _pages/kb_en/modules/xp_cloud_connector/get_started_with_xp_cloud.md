@@ -48,7 +48,7 @@ This is also possible from the payments listing page:
 For security reasons the length of an edit session in X-Payments Cloud is limited to 15 minutes.  A warning message pops up on the page being edited 30 seconds before your edit session expires. The message notifies you that your current edit session is about to expire. To continue editing, be sure to reload the page before the expiration of your 15-minute edit session; in this case, the edit session will be renewed. If the page does not get reloaded before the edit session expiration time, you will have to re-enter your X-Payments Cloud sign-in credentials to resume editing. 
 
 If viewing the X-Payments Cloud admin panel from within your X-Cart store, after the expiration of your edit session, you will continue seeing the last page you were editing, but the system will switch to *Quick access* mode. In this mode, you will be able to quickly enable/disable your X-Payments Cloud payment methods without having to sign in to your X-Payments Cloud user account, but you will not be able to adjust any general settings or configure more payment methods. Any sensitive content already entered in X-Payments Cloud will be hidden behind asterisks (Note the contents of the fields API login ID, Transaction key, etc.):
-![xpc_quick_access_mode.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xpc_quick_access_mode.png)
+![xp-cloud-payment-details-locked.png]({{site.baseurl}}/attachments/ref_497aaUTF/xp-cloud-payment-details-locked.png)
 
 To view the hidden content and/or to resume editing the X-Payments Cloud settings, you will need to unlock editing. 
 
