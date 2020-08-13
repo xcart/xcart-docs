@@ -78,7 +78,7 @@ Information on the available X-Payments subscription plans can be found [here](h
          This will connect your X-Cart store to your existings X-Payments Cloud account.
          
          When connected, you can view the available payments list and enable/disable configured payments (if any) without extra authorization:
-         ![xp-cloud-unlocked-account.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xp-cloud-unlocked-account.png)    
+         ![connector-4.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/connector-4.png)    
 
      3. Extra authorization is required to e.g. configure new payments. When prompted to specify your connection credentials, provide your X-Payments Cloud account registration email address and password:
         <div class="ui stackable two column grid">
