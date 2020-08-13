@@ -49,7 +49,7 @@ To enable Authorize.NET SIM as a payment method in your X-Cart store, {% link "a
    
       **Save** the settings.
    
-   4. If necessary add the payment description or change the payment name in the _Sorting&Description_ tab of the **Store Setup** -> **Payment Methods** section in the Admin area. 
+   4. If necessary add the payment description or change the payment name in the _Names, Descriptions & Sorting_ tab of the **Store Setup** -> **Payment Methods** section in the Admin area. 
       ![541-payment-methods-names-sorting.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/541-payment-methods-names-sorting.png)
       
       For details, see {% link "Sorting Payment Methods on the Storefront" ref_1WSCwpNh %}.
