@@ -9,9 +9,8 @@ published: true
 ---
 To enable Authorize.NET SIM as a payment method in your X-Cart store, {% link "add it to the list" ref_36BqwVSF %} of your store's active payment methods:
 
-   1. In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for _Online methods_, click **Add payment method**:
-        
-      ![add-payment.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/add-payment.png)
+   1. In your X-Cart store's Admin area, go to the Payment methods page (**Store Setup > Payment Methods**). In the section for _Online methods_, click **Add payment method**:
+      ![541-payment-methods-add-online.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/541-payment-methods-add-online.png)
 
    2. In the popup box that appears, find the Authorize.NET SIM method and select to **Add** this method:
       
@@ -51,9 +50,10 @@ To enable Authorize.NET SIM as a payment method in your X-Cart store, {% link "a
    
       **Save** the settings.
    
-   4. If necessary add the payment description or change the payment name in the _Sorting&Description_ tab of the **Store setup** -> **Payment methods** section in the Admin area. 
-     
-      ![sim-sorting-description.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/sim-sorting-description.png)
+   4. If necessary add the payment description or change the payment name in the _Sorting&Description_ tab of the **Store Setup** -> **Payment Methods** section in the Admin area. 
+      ![541-payment-methods-names-sorting.png]({{site.baseurl}}/attachments/ref_6Ah9C8EW/541-payment-methods-names-sorting.png)
+      
+      For details, see {% link "Sorting Payment Methods on the Storefront" ref_1WSCwpNh %}.
       
       The payment position at checkout will be the same as set on this page, i.e. if this is the first active payment method it will be shown first at checkout.
       
