@@ -105,12 +105,21 @@ The addon settings are grouped into three sections:
 
 With Google reCAPTCHA v2 protection enabled, the forms will look as follows:
 
-<div class="ui stackable four column grid">
-  <div class="column" markdown="span"><i>Forgot password form</i>![gre-forgot-password.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-forgot-password.png)</div>
-  <div class="column" markdown="span"><i>Sign-in form</i>![gre-sign-in.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-sign-in.png)</div>
-  <div class="column" markdown="span"><i>Sign-up form</i>![gre-create-new-account.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-create-new-account.png)</div>
-  <div class="column" markdown="span"><i>Contact form</i>![gre-contact_us.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/gre-contact_us.png)</div>
-</div>
+Password recovery form
+![recaptcha_password_recovery.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/recaptcha_password_recovery.png)
+
+Sign-in form (storefront)
+![recaptcha_storefront_sign_in.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/recaptcha_storefront_sign_in.png)
+
+Customer sign-up form
+![recaptcha_new_account.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/recaptcha_new_account.png)
+
+Contact form
+![recaptcha_contact_us.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/recaptcha_contact_us.png)
+
+Vendor sign-up form 
+![recaptcha_vendor.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/recaptcha_vendor.png)
+
 
 The enabled Google reCAPTCHA v3 protection works for the site as a whole and may not be even seen by the customers.
 ![recaptcha-v3-cus.png]({{site.baseurl}}/attachments/ref_4S6YEcnH/recaptcha-v3-cus.png)
