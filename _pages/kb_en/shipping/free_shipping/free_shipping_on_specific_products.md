@@ -10,6 +10,7 @@ redirect_from:
   - /shipping/free_shipping_on_specific_products.html
 ---
 Free shipping on specific products can be configured using the addon {% link "Free shipping and Shipping freights" ref_4Bfeegp9 %} by X-Cart team. 
+{% toc %}
 
 ## Setting up Free Shipping for a Product
 When this addon is active, two settings for free shipping are provided in the "Shipping" section of the Info tab of a product details page in the store back end (The product property **Requires shipping** must be set to "Yes" for the settings to be visible):
