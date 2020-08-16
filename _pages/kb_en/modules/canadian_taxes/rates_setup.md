@@ -7,6 +7,8 @@ title: Setting up Provincial Tax Rates
 order: 110
 published: true
 ---
+In the process of {% link "configuring Canadian taxes" ref_01HpRkKG %}, you will need to complete the configuration of your tax rates. 
+
 The **Canadian taxes** addon comes with the predefined privincial tax rates. The number of fields to configure depends on the common tax settings. 
 
 <div class="ui stackable two column grid">
@@ -35,10 +37,5 @@ Complete the fields in each row as you require:
     
   *   **Rate**: Specify the tax rate amount as a percentage of the selected taxable base.
 
-**Save changes** when you are done.
+Please note that your settings are not saved until you choose to save them with the **Save changes** button. After completing your tax rates setup, be sure to complete your tax setup enabling the tax for your store as described in the section {% link "Configuring Canadian Taxes" ref_01HpRkKG %}.
 
-Once configured and enabled, the calculation of Canadian taxes can be disabled/re-enabled using the  **Tax enabled**/**Tax disabled** button at the top of the _Canadian taxes_ tab in the **Taxes** section (**Store setup** > **Taxes**). 
-
-![taxes-can-enabled.png]({{site.baseurl}}/attachments/ref_hxmof6xX/taxes-can-enabled.png)
-
-When tax calculation is enabled, the button shows as **Tax enabled**, and the On/Off icon on the button is green. When it is disabled, the button shows as **Tax disabled**, and the icon is grey.
