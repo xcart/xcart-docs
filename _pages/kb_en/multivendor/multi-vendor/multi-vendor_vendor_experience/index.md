@@ -11,13 +11,13 @@ order: 200
 redirect_from:
   - /modules/multi-vendor/multi-vendor_vendor_experience/index.html
 ---
-A marketplace vendor in a Multivendor based store is responsible for the Vendor Area configuration and maintenance depending on the mode the “Multi-vendor” addon is configured to work in. The multivendor mode can be set either to "Warehouse" or "Separate shops for vendors" depending on the choice of a store administrator. The mode defines the way the delivery options are configured and maintained in the store. It also affects the way the orders are placed and processed further. 
-
-Regardless of the mode, a marketplace vendor in a Multivendor based store is responsible for managing their profile, populating the marketplace with products and assigning tax classes to them, configuring shippings and coupons and discounts.
+In this section, you will find instructions for using the features and functions of a Multivendor X-Cart store as a vendor. 
 
 {% note info %}
-In this manual, by “vendor” we mean a marketplace vedor/seller/merchant or an agent acting on their behalf and represented by an X-Cart store user with the access level “Administrator” and the role “Vendor”. Vendors are allowed to log in to the store's back end, but have access only to a limited set of features (This is called a "Vendor area").
+By “vendor” we mean a marketplace vedor/seller/merchant or an agent acting on their behalf and represented by an X-Cart store user with the access level “Administrator” and the role “Vendor”. Vendors are allowed to log in to the store's back end, but have access only to a limited set of features (This is called a "Vendor area").
 {% endnote %}
+
+A vendor is responsible for their part of store configuration and maintenance which they work on via the so-called "Vendor area". The scope of features and functions available to them depends on the Multivendor mode enabled for the store by the administrator. 
 
 _In this section:_
 
