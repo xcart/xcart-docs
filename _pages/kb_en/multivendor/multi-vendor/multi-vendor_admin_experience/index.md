@@ -11,9 +11,9 @@ order: 100
 redirect_from:
   - /modules/multi-vendor/multi-vendor_admin_experience.html
 ---
-A store administrator in a Multivendor based store is responsible for the initial marketplace configuration and general maintenance depending on the mode the "Multi-vendor" addon is configured to work in. The multivendor mode can be set either to "Warehouse" or "Separate shops for vendors" depending on the choice of a store administrator. The mode defines the way the delivery options are configured and maintained in the store. It also affects the way the orders are placed and processed further. 
+The store administrator in a Multivendor based store is responsible for the initial marketplace configuration and general maintenance depending on the mode in which the "Multi-vendor" addon is configured to work. The multivendor mode can be set either to "Warehouse" or "Separate shops for vendors" depending on the choice of the store administrator. The mode defines the way the delivery options are configured and maintained in the store. It also affects the way the orders are placed and processed. 
 
-Regardless of the mode, the store administrator in a Multivendor based store is responsible for managing vendors’ profiles, defining the commissions size for vendors, supervising all products created either by him or by any vendor and well as configuring payment methods and taxes available for vendors.
+Regardless of the mode, the store administrator in a Multivendor based store is responsible for managing vendor profiles, setting the commissions size for vendors, supervising all the products created by vendors (as well as by himself) and configuring payment methods and taxes for vendors.
 
 {% note info %}
 In this manual, by "administrator" we mean the store owner/storefront operator or an agent acting on their behalf and represented by an X-Cart store user with the access level "Administrator" and the role "Administrator".
