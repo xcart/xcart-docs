@@ -57,7 +57,7 @@ To configure Canadian taxes, complete the following steps:
     
     *  **Merchant Tax Number** : Use this field to specify your tax identification number. This value will be shown on the invoices of orders with GST/PST applied. If you need to change the wording of this phrase, follow the "Rename label" link below the field name to do it.
 
-3. Proceed to {% link "provincial tax rates set-up" ref_0ODNArlF %}.
+3. Complete {% link "provincial tax rates setup" ref_0ODNArlF %}.
 
 4. Make sure the Canadian taxes calculation is enabled in your store. This is controlled by the **Tax enabled/Tax disabled** button to the right of the “Tax title” field.
 
