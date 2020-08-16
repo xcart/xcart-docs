@@ -22,10 +22,10 @@ The vendors will not need a separate AvaTax account; however, to ensure correct 
    
      If the store is based in the United States, this has some specifics:
    
-      *  If the store has nexus in all the U.S. states, the administrator should adjust the setting **Automatically calculate taxes for** to "_All US States_".
+      *  If the store has nexus in all the U.S. states, the administrator needs to adjust the setting **Automatically calculate taxes for** to "_All US States_".
          ![auto_calc_taxes.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/auto_calc_taxes.png)
          
-      *  If the store has nexus in just some of the states, the administrator should adjust the setting **Automatically calculate taxes for** to "_Specific states_" and specify those states in the **Specify US states** field below.
+      *  If the store has nexus in just some of the states, the administrator needs to adjust the setting **Automatically calculate taxes for** to "_Specific states_" and specify those states in the **Specify US states** field below.
          ![us_tax_calculation1.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/us_tax_calculation1.png)
 
  
@@ -33,10 +33,10 @@ The vendors will not need a separate AvaTax account; however, to ensure correct 
    
      If the store is based in the United States, this has some specifics:
    
-      *  If the vendor company has nexus in all the U.S. states, the administrator should make sure the setting **Automatically calculate taxes for** is set to "_All US States_".
+      *  If the vendor company has nexus in all the U.S. states, the administrator needs to make sure the setting **Automatically calculate taxes for** is set to "_All US States_".
          ![us_tax_calculation.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/us_tax_calculation.png)
          
-      *  If the vendor company has nexus in just some of the states, the administrator should make sure the setting **Automatically calculate taxes for** is set to "_Specific states_", and those states are listed in the **Specify US states** field below.
+      *  If the vendor company has nexus in just some of the states, the administrator needs to make sure the setting **Automatically calculate taxes for** is set to "_Specific states_", and those states are listed in the **Specify US states** field below.
          ![us_tax_calculation2.png]({{site.baseurl}}/attachments/ref_3MSUEwVA/us_tax_calculation2.png)
 
 Vendors should be instructed to specify their nexus states via **My account** > **Financial details**:
