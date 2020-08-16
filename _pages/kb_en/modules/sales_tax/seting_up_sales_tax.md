@@ -62,7 +62,7 @@ To configure a Sales tax taxation in your store, complete the following steps:
             ![tax-sales-general-rates.png]({{site.baseurl}}/attachments/ref_aJPK4DHN/tax-sales-general-rates.png)
             For more info, see {% link "Setting up Sales Tax Rates" ref_4oLvbanr %}.
 
-    *   If you need tax rates to be applied to shipping charges follow the steps described in {% link "Sales Tax on Delivery" ref_69WqytK2 %}.
+    *   If you need tax rates to be applied to shipping charges follow the steps described in {% link "Sales Tax on Shipping Charges" ref_69WqytK2 %}.
 
 5.  Make sure sales tax calculation is enabled in your store. This is controlled by the **On**/**Off** button to the right of the **Tax title** field. When the sales tax calculation is enabled, the **On/Off** icon on the button is green.
     ![tax-sales-enabled.png]({{site.baseurl}}/attachments/ref_aJPK4DHN/tax-sales-enabled.png)
