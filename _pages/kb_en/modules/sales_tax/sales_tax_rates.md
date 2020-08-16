@@ -7,7 +7,7 @@ title: Setting up Sales Tax Rates
 order: 110
 published: true
 ---
-You need to set up sales tax rates to configure your sales tax. Depending on whether you need to set up general tax rates or tax rates that apply to shipping charges, use the appropriate section: **General tax rates** or **Tax rates on shipping cost**. 
+In the process of {% link "configuring sales tax" ref_1QWLEsXG %}, you will need to complete the configuration of your tax rates. Depending on whether you need to set up general tax rates or tax rates that apply to shipping charges, use the appropriate section: **General tax rates** or **Tax rates on shipping cost**. 
 
 The procedure for setting up general tax rates and tax rates on shipping cost is essentially the same:
 
@@ -35,8 +35,7 @@ The procedure for setting up general tax rates and tax rates on shipping cost is
     *   **Rate**: Specify the tax rate amount as a percentage of the selected taxable base.
     
 3.  If necessary, use the **New rate** button to add rows for more tax rates. Complete the fields in each row as you require.
-4.  Click the **Save changes** button at the bottom of the page to save the changes.
 
-Once configured and enabled, sales tax calculation can be disabled/re-enabled using the **On**/**Off** button to the right of the **Tax title** field on the **Sales tax** panel in the Taxes section (**Store setup** > **Taxes**). When sales tax calculation is enabled, the **On/Off** icon on the button is green. When it is disabled, the icon is grey.
+Please note that your settings are not saved until you choose to save them with the **Save changes** button. After completing your tax rates setup, be sure to complete your tax setup enabling the tax for your store as described in the section {% link "Configuring Sales Tax" ref_1QWLEsXG %}.
 
-![tax-sales-enabled.png]({{site.baseurl}}/attachments/ref_aJPK4DHN/tax-sales-enabled.png)
+
