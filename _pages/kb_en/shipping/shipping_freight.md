@@ -43,6 +43,12 @@ To set up a shipping freight property for a product, follow the steps below:
 
 For the cases when a customer's shopping cart contains only products with a defined shipping freight, and no other shipping methods are available, your store will need a shipping method selectable at checkout. 
 
+{% note info %}
+This method applies only if the **Shipping cost for products with a defined shipping freight value should be calculated as** setting is set to "shipping freight only".
+
+See {% link "Free Shipping and Shipping Freights" ref_4Bfeegp9 %} for details.
+{% endnote %}
+
 We provide a special shipping method for this purpose - "Fixed rate shipping". This method can be found in the "Shipping methods" section (**Store setup** > **Shipping**) of your store's Admin area:
 ![541-fixed-rate-shipping.png]({{site.baseurl}}/attachments/ref_kioKBJIM/541-fixed-rate-shipping.png)
 
