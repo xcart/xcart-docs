@@ -29,7 +29,7 @@ To set up a handling fee for some shipping method:
      ![541-one-day-shipping-handling.png]({{site.baseurl}}/attachments/ref_nFJTxPMR/541-one-day-shipping-handling.png)
      * if the handling fee is defined as as fixed amount (e.g. $5) this sum is added to the regular shipping method formula and the final delivery cost becomes `100 + SUBTOTAL*10% + 5`
      * if the handling fee is defined as a percentage (e.g. 5%) the final delivery cost is calculated as `100 + SUBTOTAL*10% + (100 + SUBTOTAL*10%)*5%`
-    * If an order subtotal is $100 the delivery cost will be $115 ($5 + $100 + $100*/10%) for the first case and $115,5 ($100 + $100*/10% + ($100 + $100*/10%)* 5%) for the second.
+    * If an order subtotal is $100 the delivery cost will be $115 (`$5 + $100 + $100 * 10%`) for the first case and $115,5 (`$100 + $100 * 10% + ($100 + $100 * 10%) * 5%`) for the second.
 
    
 4.  **Save changes** 
