@@ -7,16 +7,16 @@ title: Default Customer Address
 order: 150
 published: true
 ---
-When calculating delivery costs and adding tax fees to an order of a registered customer X‑Cart uses the shipping address recorded in the customer account. But what if a customer is not logged in or is just an anonymous buyer, how the would-be tax fees and delivery costs are calculated in this case? X‑Cart uses either the settings defined by a store admin as a default customer address or the data from the Geolocation addon integration to calculate the average additional fees involved in the purchase and displays these extra charges to a visitor until they specify the real shipping address at checkout. 
+When calculating delivery costs and adding tax fees to an order of a registered customer, X‑Cart uses the shipping address stored in the customer account. But what if a customer is not logged in or is just an anonymous buyer, how the would-be tax fees and delivery costs are calculated in this case? X‑Cart uses either the settings defined by the store admin as the default customer address or the data from the Geolocation addon to calculate the average additional fees involved in the purchase and displays these fees to the visitor until they specify the real shipping address at checkout. 
 
 {% toc %}
 
 ## Default Customer Address: Manual Setup
 
-The default customer address is specified by a store admin on the **Default Customer Address** page of the "Cart & Checkout" section of your store Admin area (**Store setup** -> **Cart & Checkout**).
+The default customer address is specified by the store admin on the **Default Customer Address** page of the "Cart & Checkout" section of your store Admin area (**Store setup** -> **Cart & Checkout**).
 ![540-default-customer-address.png]({{site.baseurl}}/attachments/ref_3MxAUhHQ/540-default-customer-address.png)
 
-The settings that a store admin needs to define on this page are as follows:
+The settings that need to be configured on this page are as follows:
 * **Address line** : Define a default customer street address if applicable. This setting is optional. 
 * **Country** : Choose a country from the drop-down that you want to be set as a default country for the taxes and shipping calculations for all unregistered customers.
 * **State** : For the countries that have states choose a state from the drop-down that you want to be set as a default state for the taxes and shipping calculations for all unregistered customers.
@@ -24,9 +24,9 @@ The settings that a store admin needs to define on this page are as follows:
 * **Zip/postal code** : Define the the customer’s postal code, also known as zip, postcode, Eircode, etc. that should be used as a default postal code for the taxes and shipping calculations for all unregistered customers.
 * **Address type** : Select the address type from a drop-down. You can choose between residential and commercial types of address. 
 
-When all the settings are defined it is nessecary to click **Submit** to make the configuration active.
+After adjusting all the settings you require, click **Submit** to make the configuration active.
 
-Provided {% link "shipping" ref_4noivtKM %} and {% link "taxes" ref_kJmd7K27 %} have been configured by a store admin for the {% link "zone" ref_4malFwSp %} set as a default customer address, any not logged in customer will see the corresponding tax and delivery rates both on the cart page and at checkout before the rela address is defined:
+Provided that {% link "shipping" ref_4noivtKM %} and {% link "taxes" ref_kJmd7K27 %} have been configured for the default customer address {% link "zone" ref_4malFwSp %}, any customer who is not logged in will see the tax and delivery rates as they have been configured for the default customer address zone both on the cart page and at checkout before the actual address is entered:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><b>Cart page</b>![540-cus-cart-page.png]({{site.baseurl}}/attachments/ref_3MxAUhHQ/540-cus-cart-page.png)</div>
