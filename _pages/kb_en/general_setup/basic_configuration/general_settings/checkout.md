@@ -18,7 +18,7 @@ X-Cart offers a variety of ways to set up your store's checkout to best suit you
 A type of checkout that will be used in your store can be configured using the **Checkout type** setting on the **Store setup** -> **Cart&Checkout** -> **General** page of X-Cart Admin area.
 ![541-cart-and-checkout-page.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/541-cart-and-checkout-page.png)
 
-X-Cart offers 2 possible chechout types by default:
+X-Cart supports two checkout types:
 * Fast Lane Checkout
 * One Page Checkout 
 
@@ -26,9 +26,9 @@ Choose the checkout type you prefer and click **Submit** to activate it in the s
 
 ### Fast Lane Checkout
 
-Fast Lane Checkout (FLC) is a type of checkout when all steps of data submission are divided into pages, i.e. a customer submits the personal data, chooses the preferred delivery and payment methods in series, each next step becoming available only if all the required fields of the previous step are filled in properly. FLC is considered more straightforward for a new custome as it potentially leads to fewer errors during the data submission for the transaction because all necessary info is filled in portions of 2-3 forms of small scape.
+Fast Lane Checkout (FLC) is a type of checkout in which all the steps of data submission are divided into pages, i.e. a customer submits the personal data, chooses the preferred delivery and payment methods in series, each next step becoming available only after all the required fields of the previous step have been completed properly. FLC is considered a more straightforward method for a new customer as it potentially leads to fewer errors during the submission of data for the transaction because all the required info is submitted in portions.
 
-This is how the FLC type of checkout will look for an unregistered and not logged in customer:
+This is how FLC checkout will look for an unregistered and not logged in customer:
 
 <div class="ui stackable three column grid">
   <div class="column" markdown="span">![gs-flc-1.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/gs-flc-1.png)</div>
@@ -36,21 +36,21 @@ This is how the FLC type of checkout will look for an unregistered and not logge
   <div class="column" markdown="span">![gs-flc-3.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/gs-flc-3.png)</div>
 </div>
 
-For a logged in customer the procees becomes a bit shorter, since all personal data (shipping and billing addresses) will be predefined already based on the customer account info. The preferred delivery and payment methods will also be pre-chosen based on the previous order of this customer. Hence the logged in customer will need only to check the fields and then pay the order.
+For a logged in customer, the procees becomes a bit shorter, since all the personal data (shipping and billing addresses) will have been predefined based on the customer account info. The preferred delivery and payment methods will also be pre-selected based on the previous order of this customer. The logged in customer will only need to check the fields and then pay for the order.
 
 ### One Page Checkout
 
-One Page Checkout (OPC) is a type of checkout when all the infromation required to perform a transaction is displayed on one and the same page being divided into logical blocks of personal data, delivery and payment info.  OPC is considered a more quick and robust option of checkout, but it may lead to errors during the data submission and new customers may be confused by the amount of fields to be filled in at once.
+One Page Checkout (OPC) is a type of checkout in which all the infromation required to perform a transaction is displayed on a single page divided into logical blocks for personal data, delivery and payment info.  OPC is considered a fatser and more robust option, but it may lead to errors during data submission, and new customers may be confused by the amount of fields to be completed all at once.
 
-This is how the OPC type of checkout will look for an unregistered customer:
+This is how OPC type will look for an unregistered customer:
 
 ![opc.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/opc.png)
 
-For a logged in customer the personal data (shipping and billing addresses) will be predefined, hence it will be necessary to choose the preferred shipping and payment methods only.
+For a logged in customer, the personal data (shipping and billing addresses) will be predefined, hence it will only be necessary to choose the preferred shipping and payment methods.
 
 ### Catalog Mode (Disabled Checkout)
 
-Sometimes an eCommerce website is needed for demostration purposes only, i.e. a store owner wants to promote products and services online rather than to sell them. 
+Sometimes an eCommerce website is needed for demostration purposes only, i.e. the store owner wants to promote products and services online rather than to sell them. 
 
 Such an option in X-Cart can be enabled by installing the {% link "Catalog" ref_3eMIyNpG %} addon.
 
@@ -62,14 +62,14 @@ Once the addon has been installed, checkout is disabled, and store visitors are 
 
 X-Cart allows both registered and anonymous checkout for customers.
 
-The checkout process for an unregistered customer and for a registered but not logged in customer will start with a page that suggests that they should either sign in with an existing X-Cart account or proceed with an email without an account creation or use their Google and Facebook account for checkout if the {% link "Social Login" ref_IapN8lJ8 %} addon is installed and configured.
+The checkout process for an unregistered customer and for a registered but not logged in customer will start with a page that suggests that they should either sign in with an existing X-Cart account or proceed with an email without creating an account, or use their Google or Facebook account for checkout - if the {% link "Social Login" ref_IapN8lJ8 %} addon is installed and configured.
 
 ![gs-checkout.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/gs-checkout.png) 
 
 
 ### Anonymous Checkout
 
-X-Cart allows anonymous or guest checkout for your customers. This means that if a customer is not registered in your store they do not need to create an account and can proceed to checkout specifying an email only. During checkout, such a customer will need to specify their shipping and billing address, and choose a delivery and payment method. X-Cart will allow them to place the order only after all the fields have been completed properly.
+X-Cart allows anonymous or guest checkout for your customers. This means that if a customer is not registered in your store they do not need to create an account and can proceed to checkout specifying an email only. During checkout, such a customer will need to specify their shipping and billing addresses, and choose a delivery and payment method. X-Cart will allow them to place the order only after all the fields have been completed properly.
 
 {% note info %}
 Before the actual shipping and billing address info is specified, X-Cart calculates taxes and shipping cost based on the default customer address predefined in the store.
@@ -77,7 +77,7 @@ Before the actual shipping and billing address info is specified, X-Cart calcula
 For more info on the default customer address setup, see {% link "Default Customer Address" ref_3MxAUhHQ %}.
 {% endnote %}
 
-Unregistered customers can choose to create an account using the data specified during the checkout or they can proceed as guest. The account creation option will look differently depending on [the type of checkout](https://kb.x-cart.com/general_setup/basic_configuration/general_settings/checkout.html#checkout-type "Checkout Setup") enabled in the store:
+Customers without an account can choose to create an account using the data that has been specified during the checkout, or they can proceed as a guest. The account creation option will look differently depending on the [type of checkout](https://kb.x-cart.com/general_setup/basic_configuration/general_settings/checkout.html#checkout-type "Checkout Setup") enabled in the store:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span"><i>Fast Lane Checkout</i>![create-account-flc.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/create-account-flc.png)</div>
@@ -86,7 +86,7 @@ Unregistered customers can choose to create an account using the data specified 
 
 The fact that a customer does not create an account during guest checkout does not mean that no account is created for this customer at all. Guest checkout or not, X-Cart creates a customer account for the email used to place an order and registeres it in the **Users** section on the Admin area. Any orders that are placed further using this email are assigned to the same customer account. If later this customer decides to create an account with the email that was used for placing orders at the store previously, the store administrator will be able to join these two customer accounts (one created by X-Cart and one created by the customer) together keeping the info on the previously placed orders safe.
 
-To disable anonymous checkout, enable the **Ask anonymous users to create an account or sign in before checkout:** option on the **Store setup** -> **Cart&Checkout** -> **General** page of X-Cart Admin area.
+It is possible to disable anonymous checkout. To do so, enable the option **Ask anonymous users to sign in before checkout** on the Cart&Checkout page of X-Cart Admin area (**Store setup** -> **Cart&Checkout**, **General** tab).
 
 
 ### Registered Checkout
