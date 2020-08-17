@@ -14,12 +14,13 @@ When you are fulfilling orders, you might want to include a packing slip in the 
 You can print packing slips after you have begun the fulfilment process. Packing slips can be printed from the order details page (**Orders** -> **Orders list**) and include all the items being sent in a specific shipment. 
 
 To print a packing slip:
-1. Find the order in question in the order list (**Orders** -> **Orders list**):
-   ![order-list.png]({{site.baseurl}}/attachments/ref_2mocNY5w/order-list.png)
+1. Locate an order on the order listing page of your store Admin area (**Orders** -> **Orders list**):
+   ![541-orrder-listing-page.png]({{site.baseurl}}/attachments/ref_2mocNY5w/541-orrder-listing-page.png)
 
-2. Open the order details page by clicking the number of the order that you want to print a packing slip for.
+2. Open the order details page by clicking on the order number.
+   
 3. Click the **Print packing slip** button in the right upper coner:
-   ![packing-slip-button.png]({{site.baseurl}}/attachments/ref_2mocNY5w/packing-slip-button.png)
+   ![541-order-details-print-slip.png]({{site.baseurl}}/attachments/ref_2mocNY5w/541-order-details-print-slip.png)
 
 4. Click **Print** in a pop-up:
    ![print-button.png]({{site.baseurl}}/attachments/ref_2mocNY5w/print-button.png)
@@ -31,13 +32,14 @@ To print a packing slip:
 You can print packing slips for more than one order at once. You can do this directly on the orders listing page (**Orders** -> **Orders list**).
 
 To bulk-print packing slips:
-1. Open the **Orders list** page (**Orders** -> **Orders list**):
-   ![order-list.png]({{site.baseurl}}/attachments/ref_2mocNY5w/order-list.png)
+1. Open the order listing page in your store Admin area (**Orders** -> **Orders list**):
+   ![541-orrder-listing-page.png]({{site.baseurl}}/attachments/ref_2mocNY5w/541-orrder-listing-page.png)
+
 2. Select the orders you need to print a packing slip for:
-   ![select-orders.png]({{site.baseurl}}/attachments/ref_2mocNY5w/select-orders.png)
+   ![541-order-listing-print.png]({{site.baseurl}}/attachments/ref_2mocNY5w/541-order-listing-print.png)
 
 3. Click the **Print selected** button and choose the **Print packing slip** option:
-   ![bulk-print-packing-slip.png]({{site.baseurl}}/attachments/ref_2mocNY5w/bulk-print-packing-slip.png)
+   ![541-print-packing-slip.png]({{site.baseurl}}/attachments/ref_2mocNY5w/541-print-packing-slip.png)
 
 4. Click **Print** in a pop-up:
    ![bulk-print.png]({{site.baseurl}}/attachments/ref_2mocNY5w/bulk-print.png)
