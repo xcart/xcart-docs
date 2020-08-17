@@ -9,7 +9,7 @@ published: true
 redirect_from:
   - /taxes/VAT_GST/setting_up_vat_rates.html
 ---
-You need to set up VAT / GST rates to configure VAT / GST tax calculation:
+In the process of {% link "configuring VAT / GST tax calculation" ref_Rzp45QlN %}, you need to set up VAT / GST rates:
 
 1.  In the section **Rates / Conditions** in the lower part of the page, click the button **New rate**.
     ![xc5_taxes_vat_rate_setup1.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_rate_setup1.png)
@@ -27,10 +27,4 @@ You need to set up VAT / GST rates to configure VAT / GST tax calculation:
 
 3.  If necessary, use the **New rate** button to add rows for more tax rates. Complete the fields in each row as you require.
 
-4.  Click the **Save changes** button at the bottom of the page to save the changes.
-
-Once configured and enabled, VAT / GST calculation can be disabled/re-enabled using the  **Tax enabled**/**Tax disabled** button to the right of the **Tax title** field on the **VAT / GST** panel in the Taxes section (**Store setup** > **Taxes**). 
-
-![VAT-enabled.png]({{site.baseurl}}/attachments/ref_1uXE2bZt/VAT-enabled.png)
-
-When VAT / GST calculation is enabled, the button shows as **Tax enabled**, and the On/Off icon on the button is green. When it is disabled, the button shows as **Tax disabled**, and the icon is grey.
+Please note that your settings are not saved until you choose to save them with the **Save changes** button. After completing your tax rates setup, be sure to complete your tax setup enabling the tax for your store as described in the section {% link "Configuring VAT / GST (for the UK, EU, Australia, etc)" ref_Rzp45QlN %}.
