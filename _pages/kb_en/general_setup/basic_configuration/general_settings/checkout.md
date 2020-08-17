@@ -91,15 +91,15 @@ It is possible to disable anonymous checkout. To do so, enable the option **Ask 
 
 ### Registered Checkout
 
-Registered customers who are logged into their accounts can complete checkout easier because much of the information is already stored in their accounts. Personal data, like shipping and billing address, are filled in based on the address book data saved for each user account. Shipping and payment method are also predefined. The choice of the selected shipping and/or payment methods will depend on the related data from the previous order of this customer.
+Registered customers who are logged into their accounts can complete checkout easier because most of the information required for checkout is already stored in their accounts and can be re-used. Personal data, like shipping and billing address, is entered at checkout based on the address book data saved in the user account. The shipping and payment methods are also pre-selected. The selection of the shipping and/or payment methods will be made based on the customer's previous order.
 
-Registered customers also have an option to re-order items after a successful checkout, as the data about all orders placed in the store is recorded in the **Orders** section of a customer account in the storefront.
+Registered customers also have an option to re-order the items they have ordered. After a successful checkout, the information about the order is stored in association with the customer's profile. The customer can view any order they have placed at the store via the **Orders** section of the Customer area.
 ![540-reorder-button.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/540-reorder-button.png)
 
-Once a customer clicks the **Re-order** button they are redirected to the cart page in the storefront that will contain exactly the same items and in the same amount as in the related order. All they need to do will be to complete the checkout process and pay for the goods.
+Once the customer clicks the **Re-order** button, they are redirected to the cart page on the storefront that will contain exactly the same items and in the same amount as in the selected order. All they will need to do is complete the checkout process and pay for the goods.
 
 ## Security Settings
 
-Submitting and processing data for transactions require a secure checkout run in the HTTPS mode. Hence for your customers data to be processed safely you must enable HTTPS in the **System tools** -> **HTTPS settings** sections of the Admin area as described in [our security guide.](https://kb.x-cart.com/general_setup/store_security/security_guide.html#step-2-use-ssl-certificates "Checkout Setup")
+Submitting and processing data for transactions require a secure checkout run in the HTTPS mode. For your customers' data to be processed safely, you must enable HTTPS in the **System tools** -> **HTTPS settings** section of the Admin area as described in [our security guide.](https://kb.x-cart.com/general_setup/store_security/security_guide.html#step-2-use-ssl-certificates "Checkout Setup")
 
-For more info on how to secure your store please refer to the guides from the {% link "X-Cart Store Security" ref_4ewdbDM8 %} section of our Knowledge Base.
+For more info on how to secure your store, refer to the guides from the {% link "X-Cart Store Security" ref_4ewdbDM8 %} section of our Knowledge Base.
