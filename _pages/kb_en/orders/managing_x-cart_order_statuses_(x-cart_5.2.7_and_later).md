@@ -62,6 +62,7 @@ To add a new order status:
     ![541-order-statuses-page.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/541-order-statuses-page.png)
 
 2.  Make sure you are viewing the correct page tab. Payment statuses are added on the tab that opens by default. To add a fulfilment status, you will need to switch to the **Fulfilment statuses** tab (In X-Cart versions prior to 5.3.3.0, this tab is titled **Shipping statuses**). 
+    ![541-order-statuses-payment-filfilment.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/541-order-statuses-payment-filfilment.png)
     
 3.  Click the **Add status** button:
     ![541-order-statuses-add-status.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/541-order-statuses-add-status.png)
