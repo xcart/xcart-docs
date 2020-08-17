@@ -58,8 +58,7 @@ The order listing page provides a store admin with the means of bulk-editing ord
 First of all, a store admin can change the payment and/or fulfilment statuses on a per order basis. To do so the store admin should select the appropriate payment and/or fulfilment statuses in the related drop-down and click **Save changes** to submit the changes. 
 
 In case changes are to be applied to more than one order at a time a store admin can select the orders to be updated by enabling a check-box opposite the order in question and use the bulk-editing panel on the bottom of the page for alterations.
-
-![bulk-edit.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/bulk-edit.png)
+![541-orders-bulk-edit.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/541-orders-bulk-edit.png)
 
 The options for bulk edit are:
 * **Print selected** : A store admin can either print an invoice or a packing slip on their choice. 
@@ -178,7 +177,7 @@ For the detailed guides on how to use packing slips in X-Cart see {% link "Packi
 
 ### Order Returns
 
-Order returns become an available feature for a store admin in case the Order Returns addon is installed and enabled. 
+Order returns become an available feature for a store admin in case the [Order Returns](https://market.x-cart.com/addons/order-returns.html "Managing Orders in X-Cart") addon is installed and enabled. 
 
 A store admin can create a return or work with a return request from a customer in the **Create return** or **Order return** tab of the order details page (the tab name will differ depending on the action to be perfromed):
 ![540-create-return.png]({{site.baseurl}}/attachments/ref_6q6Mj9CC/540-create-return.png)
