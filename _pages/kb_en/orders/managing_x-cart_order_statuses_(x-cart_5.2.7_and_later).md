@@ -11,17 +11,13 @@ published: true
 order: 40
 ---
 In X-Cart versions 5.2.7 and later, order statuses can be managed using the addon **Custom Order Statuses**.
+![541-custom-order-statuses.png]({{site.baseurl}}/attachments/ref_7FIU2sxJ/541-custom-order-statuses.png)
 
-![]({{site.baseurl}}/attachments/8750763/8719499.png)
-
-With this addon you can:
-
-*   [view and manage the list of order statuses](#viewing-order-statuses) supported by your X-Cart store;
-*   [add your own custom order statuses](#adding-custom-order-statuses);
-*   [rename existing order statuses](#renaming-order-statuses) (both {% link "system" ref_DkbTi1qJ#system-order-statuses %} and custom ones);
-*   [delete custom order statuses](#deleting-order-statuses) (NB: {% link "system" ref_DkbTi1qJ#system-order-statuses %} order statuses cannot be deleted). 
-
+{% note info %}
 The addon Custom Order Statuses is not compatible with X-Cart versions prior to X-Cart 5.2.7\. For these older X-Cart versions, custom order statuses can be added using the method described in the article {% link "Adding new fulfilment/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}.
+{% endnote %}
+
+{% toc %}
 
 ## Viewing Order Statuses
 
