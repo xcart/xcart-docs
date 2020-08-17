@@ -13,7 +13,7 @@ redirect_from:
   - /general_setup/configuring_your_stores_general_settings.html
   - /general_setup/basic_configuration/general_settings.html
 ---
-The settings that define the general rules for product info representation and common customer behaviour in X-Cart customer storefront are called "general settings" and can be configured in the **Store setup** -> **Cart & Checkout** section of the Admin area. Alongside general settings also allow choosing the preferred type of checkout for your store, configure customer profile fields and set a default customer address. 
+The settings that define the general rules for product info representation and common customer behaviour on the storefront are called "general settings" and can be configured in the **Store setup** -> **Cart & Checkout** section of the Admin area. In addition to that, general settings also allow you to choose the preferred type of checkout for your store, configure customer profile fields and set your store's default customer address. 
 
 
 _In this section:_
