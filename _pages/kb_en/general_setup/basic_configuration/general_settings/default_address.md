@@ -35,15 +35,15 @@ Provided that {% link "shipping" ref_4noivtKM %} and {% link "taxes" ref_kJmd7K2
 
 ## Default Customer Address: Geolocation addon
 
-If you need the default customer address to be more flexible and match the actual customer's location, it is possible to use the facilities of the "Geolocation addon" instead of a manually predefined customer address, that is enabled by default in X-Cart 5.4.x.
+If you need the default customer address to be more flexible and match the actual customer's location, it is possible to use the facilities of the "Geolocation addon" instead of the manually preconfigured default customer address.
 
 ![540-dca-geolocation-on.png]({{site.baseurl}}/attachments/ref_3MxAUhHQ/540-dca-geolocation-on.png)
 
-With the "Geolocation" addon enabled the default address customer will be defined by a customer IP:
+With the "Geolocation" addon enabled, the default customer address will be determined based on the customer IP:
 
 <div class="ui stackable two column grid">
   <div class="column" markdown="span">![540-cus-geolocation.jpg]({{site.baseurl}}/attachments/ref_3MxAUhHQ/540-cus-geolocation.jpg)</div>
   <div class="column" markdown="span">![540-cus-cart-geolocation.png]({{site.baseurl}}/attachments/ref_3MxAUhHQ/540-cus-cart-geolocation.png)</div>
 </div>
 
-For more info on the "Geolocation" addon setup see the {% link "Geolocation Addon" ref_34F5BkhW %} manual of our Knowledge Base.
+For more info on the "Geolocation" addon, see the section {% link "Geolocation Addon" ref_34F5BkhW %} in our Knowledge Base.
