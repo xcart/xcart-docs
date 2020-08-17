@@ -69,12 +69,12 @@ The checkout process for an unregistered customer and for a registered but not l
 
 ### Anonymous Checkout
 
-X-Cart allows anonymous or guest checkout for your customers. This means that if a customer is not registered in your store they don't need to create an account and can proceed to checkout specifying an email only. During checkout unregistered customers will need to specify shipping and billing address, choose the preferred delivery and payment method. X-Cart allows to place an order only when all the fields are filled in properly.
+X-Cart allows anonymous or guest checkout for your customers. This means that if a customer is not registered in your store they do not need to create an account and can proceed to checkout specifying an email only. During checkout, such a customer will need to specify their shipping and billing address, and choose a delivery and payment method. X-Cart will allow them to place the order only after all the fields have been completed properly.
 
 {% note info %}
-When the shipping and billing address info is not specified, X-Cart calculates taxes and delivery costs and displays this info to the buyers based on the default customer address predefined in the store.
+Before the actual shipping and billing address info is specified, X-Cart calculates taxes and shipping cost based on the default customer address predefined in the store.
 
-For more info on the default customer address setup see the {% link "Default Customer Address" ref_3MxAUhHQ %} manual of our Knowledge Base.
+For more info on the default customer address setup, see {% link "Default Customer Address" ref_3MxAUhHQ %}.
 {% endnote %}
 
 Unregistered customers can choose to create an account using the data specified during the checkout or they can proceed as guest. The account creation option will look differently depending on [the type of checkout](https://kb.x-cart.com/general_setup/basic_configuration/general_settings/checkout.html#checkout-type "Checkout Setup") enabled in the store:
@@ -84,9 +84,9 @@ Unregistered customers can choose to create an account using the data specified 
   <div class="column" markdown="span"><i>One Page Checkout</i>![create-account-ops.png]({{site.baseurl}}/attachments/ref_0I0Cpjkh/create-account-ops.png)</div>
 </div>
 
-The fact that a customer doesn't create an account during guest checkout doesn't mean that no account is created for this customer at all. Being it guest checkout or not X-Cart creates a customer account for the e-mail used to place an order and registeres it in the **Users** section on the Admin area. All following orders placed using this email are assigned to the same customer account. If later this customer decides to register an account with the email that was used for placing order(s) previously a store admin has an opportunity to join these 2 customer accounts (one created by X-Cart and one created by the customer) together keeping the info on the previously placed orders safe.
+The fact that a customer does not create an account during guest checkout does not mean that no account is created for this customer at all. Guest checkout or not, X-Cart creates a customer account for the email used to place an order and registeres it in the **Users** section on the Admin area. Any orders that are placed further using this email are assigned to the same customer account. If later this customer decides to create an account with the email that was used for placing orders at the store previously, the store administrator will be able to join these two customer accounts (one created by X-Cart and one created by the customer) together keeping the info on the previously placed orders safe.
 
-If you wish to disable anonymous checkout, it's necessary to enable the **Ask anonymous users to create an account or sign in before checkout:** option on the **Store setup** -> **Cart&Checkout** -> **General** page of X-Cart Admin area.
+To disable anonymous checkout, enable the **Ask anonymous users to create an account or sign in before checkout:** option on the **Store setup** -> **Cart&Checkout** -> **General** page of X-Cart Admin area.
 
 
 ### Registered Checkout
