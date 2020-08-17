@@ -14,12 +14,12 @@ redirect_from:
   - >-
     /general_setup/specifying_your_companys_identity_and_contact_information.html
 ---
-When creating an online store it is necessary to specify your company's identity and contact information so your customers know who to contact if they need more information about your products or services or need help with their order. This can be done via the _Identity_ and _Company address_ sections in your store profile (**Store setup > Store profile (ex. Contact information)**):
+While configuring your X-Cart based online store, it is necessary to specify your company's identity and contact information so your customers know who to contact if they need more information about your products or services or need help with their order. This can be done via the Store Profile page in your X-Cart store Admin area (**Store setup** > **Store profile**, formerly **Contact information**), specifically via the sections _Identity_ and _Company address_:
 ![5415-store-profile-page.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/5415-store-profile-page.png)
 
 You can specify a company's name, website and incorporation date, as well as the full company address there. 
 
-Your full contact information (company name, website address, street address, phone and fax numbers) will be included into your customers' invoices like the one below:  
+Your full contact information (company name, website address, street address, phone and fax numbers) will be included into your customers' invoices as shown below:  
 
 ![xc5_company_identity_contact_info_on_invoice.png]({{site.baseurl}}/attachments/ref_HcSs9eFL/xc5_company_identity_contact_info_on_invoice.png)
 
