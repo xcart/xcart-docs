@@ -7,10 +7,10 @@ title: Storefront Setup
 order: 110
 published: true
 ---
-The way your customers will see products and add them to cart in the storefront will depend on the settings specified in the Customer Zone settings section of the **Store setup > Cart & checkout**  (the tab **General**) page in the Admin area:
+The way your customers will see products and add them to the shopping cart on the storefront will depend on the settings specified in the Customer Zone settings section of the  Cart & checkout page in the Admin area (**Store setup > Cart & checkout**, **General** tab):
 ![541-customer-zone-settings.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-customer-zone-settings.png)
 
-The settings that you can configure here are as follows:
+The settings that you can configure in this section are as follows:
 
 *   **How to show out of stock products** : This setting allows you to specify whether out-of-stock products should be visible to customers on the storefront. 
     
@@ -69,7 +69,7 @@ The settings that you can configure here are as follows:
         ![541-product-listing-table.png]({{site.baseurl}}/attachments/ref_5eR4FK3h/541-product-listing-table.png)
         
     {% note info %}
-    Be warned that the new value will automatically display for the new customers only (both registered and anonymous). In case a customer has already visited a category listing page, the original display mode is saved in session data and will remain unchanged.
+    Be warned that the new value will automatically display for the new customers only (both registered and anonymous). If a customer has already visited a category listing page, the original display mode is saved in session data and will remain unchanged.
     
     If you want to check the changes you have made, open the storefront in incognito mode of your browser.
     {% endnote %}
