@@ -12,7 +12,7 @@ The addon [Order Returns](https://market.x-cart.com/addons/order-returns.html) i
 The key features of the Order Returns addon include:
 
 * Automatic generation of return slips;
-* Configurable product return reasons;
+* Configurable product return reasons and actions;
 * Email notifications about submitted return request to the store staff;
 * Email notifications about authorized and declined requests to customers.
 
