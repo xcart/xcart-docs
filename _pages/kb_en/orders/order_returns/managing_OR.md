@@ -72,7 +72,7 @@ If you decline the claim for return the order payment and fulfilment statuses wi
 
 To modify a return request, add the necessary changes to it and then hit the '**Modify**' button that becomes visible. 
 
-A customer will get an {% link "e-mail notification" ref_5QLrLCu7 %} on any change you apply to the order, including the changes to the claim for return and its resolution status.
+A customer will get an [email notification](https://kb.x-cart.com/orders/order_returns/managing_OR.html#configuring-email-notifications-for-returns "Managing Order Returns") on any change you apply to the order, including the changes to the claim for return and its resolution status.
 
 ## Creating Returns On Customer Behalf
 
