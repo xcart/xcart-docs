@@ -21,16 +21,18 @@ The administrator also gets an email notification sent to their inbox. (This is 
 The administrator needs to review this application and either approve or reject it.
 
 The administrator can quickly access the list of unapproved vendors in the Users section of the store's Admin area by clicking on the "Unapproved vendors N" link in the bell notification, or find them by their "Unapproved vendor" status using the filter at the top of the User lists. Unapproved vendors have a regular user profile record in the store's user list and are marked "Unapproved vendor":
-![xc5_mv_unapproved_vendor_list1.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_unapproved_vendor_list1.png)
+![541-user-list-unapproved-vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/541-user-list-unapproved-vendor.png)
 
 To decide whether a new vendor application should be approved, the administrator may want to review the details of the vendor profile. Note that a vendor profile is populated with the information that the user has provided at the time of submitting their vendor application; this includes the prospective vendor's email, name, company name, company description and company address and, if required, ship-from address. This information can be found on the tabs of the prospective vendor's user profile.
 
 After reviewing the user profile of the prospective vendor, the administrator needs to approve or reject the application using the buttons **Approve vendor** / **Decline vendor**. 
-![xc5_mv_approve_decline.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_mv_approve_decline.png)
+![541-approve-decline-vendor.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/541-approve-decline-vendor.png)
 
 If needed, before approving a vendor profile, the administrator may want to re-adjust the new vendor's access information (for example, to change the user's access permissions by changing the role that was assigned to them by default, to give the user a non-default membership level, or to re-adjust the account settings so the user will be requested to change their password on next login). This, of course, can also be done *after* the new vendor approval.
 
-Note that approving or rejecting a vendor application triggers an email notification to the applicant (This is enabled by the "Vendor account approved" or "Vendor account rejected" {% link "email notifications" ref_7DW1NMak %}).
+{% note info %}
+Approving or rejecting a vendor application triggers an email notification to the applicant (This is enabled by the "Vendor account approved" or "Vendor account rejected" {% link "email notifications" ref_7DW1NMak %}).
+{% endnote%}
 
 ## Adding New Vendors via the Admin Area
 
