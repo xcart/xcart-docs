@@ -68,7 +68,7 @@ For general addon installation instructions, see {% link "Installing Addons fro
 _Related pages:_
    
    * {% link "Multivendor" ref_4ahg5FLK %} (X-Cart edition)
-   * {% link "Multi-vendor" ref_cvwmAuRi %} (X-Cart addon)
+   * {% link "Multi-Vendor Setup and Maintenance" ref_cvwmAuRi %}
    * {% link "Trusted/Non-trusted Vendors" ref_5c7BY9Rn %} 
    * {% link "Multiple Profiles for Vendors" ref_3le6s8jL %}
    * {% link "Messages Addon: Usage with Multivendor" ref_4Ox4FPDB %}
