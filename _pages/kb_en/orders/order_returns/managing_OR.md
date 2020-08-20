@@ -65,17 +65,21 @@ To process a claim for return:
 
 2. Set your resolution on a claim for return. Your options are as follows:
    * **Authorize** : To authorize a claim for return click the **Authorize** button at the bottom of the page.
+     ![541-authorize-return.png]({{site.baseurl}}/attachments/ref_2yZxorwM/541-authorize-return.png)
+
      * If you authorize a claim for a full return, the order status will change to REFUNDED [payment status](https://kb.x-cart.com/orders/understanding_x-cart_order_statuses.html#payment-statuses "Managing Order Returns") and RETURNED [fulfilment status](https://kb.x-cart.com/orders/understanding_x-cart_order_statuses.html#fulfilment-statuses "Managing Order Returns") automatically. The claim for return will get a COMPLETED status respectively.
      * If you authorize a claim for a partial return, you will need to adjust the order status manually.
        ![541-partial-return-options.png]({{site.baseurl}}/attachments/ref_2yZxorwM/541-partial-return-options.png)
    
    * **Decline** : To decline a claim for return click the **Decline** button at the bottom of the page.
-   
+     ![541-decline-return.png]({{site.baseurl}}/attachments/ref_2yZxorwM/541-decline-return.png)
      If you decline a claim for return the order payment and fulfilment statuses will stay as is and the claim for return status will change to DECLINED respectively.
    
-   * **Modify** : To modify a return request, add the necessary changes to it and then hit the **Modify** button that becomes visible. 
+   * **Modify** : To modify a return request, add the necessary changes to it and then hit the **Modify** button that becomes visible.
+     ![541-modify-return.png]({{site.baseurl}}/attachments/ref_2yZxorwM/541-modify-return.png)
    
    * **Delete** : To delete a claim for return click the **Delete** button at the bottom of the page.
+     ![541-delete-return.png]({{site.baseurl}}/attachments/ref_2yZxorwM/541-delete-return.png)
    
    A customer will get an [email notification](https://kb.x-cart.com/orders/order_returns/managing_OR.html#configuring-email-notifications-for-returns "Managing Order Returns") on any change you apply to the order, including the changes to the claim for return and its resolution status.
 
