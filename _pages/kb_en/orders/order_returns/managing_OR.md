@@ -26,7 +26,7 @@ The Order Returns addon allows to configure return conditions based on {% link "
 In case you need to permit returns for any other order statuses except for _shipped_ and _delivered_, make sure the {% link "Custom Order Statuses" ref_7FIU2sxJ %} addon is installed and enabled.
 
 To enable/disable returns for an order status:
-1. Open the "Order Statuses" page of your store Admin area (Orders -> Order Statuses) and proceed to the Fulfilment Statuses tab. 
+1. Open the "Order Statuses" page of your store Admin area (**Orders** -> **Order Statuses**) and proceed to the **Fulfilment Statuses** tab. 
    ![541-fulfilment-statuses-page.png]({{site.baseurl}}/attachments/ref_2yZxorwM/541-fulfilment-statuses-page.png)
 2. Check the **Allow returns** column:
    ![541-allow-returns-column.png]({{site.baseurl}}/attachments/ref_2yZxorwM/541-allow-returns-column.png)
@@ -38,8 +38,8 @@ To enable/disable returns for an order status:
 For your customers to be aware of what your store return policies are, write a clear statement and make it accessible in the storefront.
 
 For this purpose:
-1. Open the "Pages" page of your store Admin area (Content -> Pages) and create a new page for return policies as described {% link "here" ref_Ptf5vaPn %}.
-2. Open the "Menus" page of your store Admin area (Content -> Menus) and add the newly created "Return Policy" page to your store navigation panel as described [here](https://kb.x-cart.com/look_and_feel/navigation/adding_new_items_to_your_stores_menus.html#adding-new-menu-items "Managing Order Returns").
+1. Open the "Pages" page of your store Admin area (**Content** -> **Pages**) and create a new page for return policies as described {% link "here" ref_Ptf5vaPn %}.
+2. Open the "Menus" page of your store Admin area (**Content** -> **Menus**) and add the newly created "Return Policy" page to your store navigation panel as described [here](https://kb.x-cart.com/look_and_feel/navigation/adding_new_items_to_your_stores_menus.html#adding-new-menu-items "Managing Order Returns").
 3. Check your store "Return Policy" page in the storefront.
 
 ## Configuring Email Notifications for Returns
@@ -57,22 +57,27 @@ All requests for order returns submitted by customers with the help of a special
 
 New orders claimed for return will have an 'Issued' status. The rest will have either 'Completed' or 'Declined' statuses, depending on the resolution being set.
 
-To process a claim for return click on the order number on the **Orders** -> **Returns** page.
+To process a claim for return: 
+1. Open the "Returns" page of your store Admin area (**Orders** -> **Returns**) and click on an order number.
+   ![541-returns-page-order-number.png]({{site.baseurl}}/attachments/ref_2yZxorwM/541-returns-page-order-number.png)
+   You'll be forwarded to the _Order return_ tab of the order details page where you'll see a screen of the kind:
+   ![541-order-return-page.png]({{site.baseurl}}/attachments/ref_2yZxorwM/541-order-return-page.png)
 
-You'll be forwarded to the _Order return_ tab of the order details page where you'll see a screen of the kind:
-![541-order-return-page.png]({{site.baseurl}}/attachments/ref_2yZxorwM/541-order-return-page.png)
-
-Your options are either to **Authorize** or **Decline** the claim for return. 
-
-If you authorize a claim for a full return, the order status will change to REFUNDED [payment status] and RETURNED [fulfilment status] automatically. The claim for return will get a COMPLETED status respectively.
-
-If you authorize a claim for a partial return, you will need to adjust the order status manually.
-
-If you decline the claim for return the order payment and fulfilment statuses will stay as is and  the claim for return status will change to DECLINED respectively.
-
-To modify a return request, add the necessary changes to it and then hit the '**Modify**' button that becomes visible. 
-
-A customer will get an [email notification](https://kb.x-cart.com/orders/order_returns/managing_OR.html#configuring-email-notifications-for-returns "Managing Order Returns") on any change you apply to the order, including the changes to the claim for return and its resolution status.
+2. Set your resolution on a claim for return. Your options are as follows:
+   * **Authorize** : To authorize a claim for return click the **Authorize** button at the bottom of the page.
+     * If you authorize a claim for a full return, the order status will change to REFUNDED [payment status] and RETURNED [fulfilment status] automatically. The claim for return will get a COMPLETED status respectively.
+     * If you authorize a claim for a partial return, you will need to adjust the order status manually.
+       ![541-partial-return-options.png]({{site.baseurl}}/attachments/ref_2yZxorwM/541-partial-return-options.png)
+   
+   * **Decline** : To decline a claim for return click the **Decline** button at the bottom of the page.
+   
+     If you decline a claim for return the order payment and fulfilment statuses will stay as is and the claim for return status will change to DECLINED respectively.
+   
+   * **Modify** : To modify a return request, add the necessary changes to it and then hit the **Modify** button that becomes visible. 
+   
+   * **Delete** : To delete a claim for return click the **Delete** button at the bottom of the page.
+   
+   A customer will get an [email notification](https://kb.x-cart.com/orders/order_returns/managing_OR.html#configuring-email-notifications-for-returns "Managing Order Returns") on any change you apply to the order, including the changes to the claim for return and its resolution status.
 
 ## Creating Returns On Customer Behalf
 
