@@ -65,7 +65,7 @@ To process a claim for return:
 
 2. Set your resolution on a claim for return. Your options are as follows:
    * **Authorize** : To authorize a claim for return click the **Authorize** button at the bottom of the page.
-     * If you authorize a claim for a full return, the order status will change to REFUNDED [payment status] and RETURNED [fulfilment status] automatically. The claim for return will get a COMPLETED status respectively.
+     * If you authorize a claim for a full return, the order status will change to REFUNDED [payment status](https://kb.x-cart.com/orders/understanding_x-cart_order_statuses.html#payment-statuses "Managing Order Returns") and RETURNED [fulfilment status](https://kb.x-cart.com/orders/understanding_x-cart_order_statuses.html#fulfilment-statuses "Managing Order Returns") automatically. The claim for return will get a COMPLETED status respectively.
      * If you authorize a claim for a partial return, you will need to adjust the order status manually.
        ![541-partial-return-options.png]({{site.baseurl}}/attachments/ref_2yZxorwM/541-partial-return-options.png)
    
