@@ -16,8 +16,7 @@ The Multi-vendor addon introduces a new user role: "Vendor", that enables access
 *   Manage vendor's shipping settings.
     
 If necessary, the store administrator can edit this role changing the role name or the set of access permissions which this role gives to its users. 
-    ![540-roles-vendor.png]({{site.baseurl}}/attachments/ref_0GOeWpB2/540-roles-vendor.png)
-
+    ![541-roles-vendor-page.png]({{site.baseurl}}/attachments/ref_0GOeWpB2/541-roles-vendor-page.png)
     
 Alternatively, the store administrator can create other vendor-related roles with some or all of the above-named vendor permissions.
 
