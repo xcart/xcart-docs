@@ -20,7 +20,7 @@ To configure the addon:
 2.  On the addon information page, click on the **Settings** link.    
 
     This opens the Multi-vendor addon settings page:
-    ![mv_settings.png]({{site.baseurl}}/attachments/ref_nFq48dhr/mv_settings.png)
+    ![541-mv-addon-settings.png]({{site.baseurl}}/attachments/ref_nFq48dhr/541-mv-addon-settings.png)
 
 3.  Adjust the addon settings.
 
