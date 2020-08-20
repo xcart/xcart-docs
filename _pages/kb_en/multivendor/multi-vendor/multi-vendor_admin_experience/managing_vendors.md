@@ -7,10 +7,14 @@ title: Managing Vendors
 order: 200
 published: true
 ---
+A store administrator in a Multivendor store controls vendors starting from the moment of application and has a full access to any vendor account. A store administrator can also create new accounts on behalf of vendors, maintain them and operate under any vendor account if required.
+
+{% toc %}
+
 ## Approving/rejecting vendor applications
 
 A user who wants to become a new vendor on the marketplace can submit an application via the vendor registration page available via the "Become a seller" link in the Customer area. When this happens, the store administrator is notified of the new vendor registration via a bell notification:
-![xc5_mv_unapproved_vendor_bell_notification.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/xc5_mv_unapproved_vendor_bell_notification.png)
+![541-home-unapproved-vendor-notification.png]({{site.baseurl}}/attachments/ref_6OTbIwfd/541-home-unapproved-vendor-notification.png)
 
 The administrator also gets an email notification sent to their inbox. (This is enabled by the "Vendor account created" {% link "email notification" ref_7DW1NMak %}). 
 
