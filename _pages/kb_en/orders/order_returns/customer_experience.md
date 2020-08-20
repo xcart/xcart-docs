@@ -7,12 +7,21 @@ title: Customer Experience
 order: 120
 published: true
 ---
-To claim for return of an existing order a customer should open the **Orders** section in his account in your X-Cart store front end, find the order in question and hit the '**Claim for return**' button on the _Order Details_ page if the order is permitted for returns.
+The Order Returns addon supports full and partial returns for customers.
 
-![delivered.png]({{site.baseurl}}/attachments/ref_0DnA7pBo/delivered.png)
+If an order [permits for return](https://kb.x-cart.com/orders/order_returns/managing_OR.html#specifying-return-conditions "Customer Experience"), a customer can click a **Return** button on the order details page in a customer account and claim for return:
+![541-return-button-customer-account.png]({{site.baseurl}}/attachments/ref_0DnA7pBo/541-return-button-customer-account.png)
 
-The customer will be redirected to the _Create Return_ page where he can specify the reason for return and leave a comment if necessary.
+The customer will be redirected to the _Create Return_ page where it will be possible to specify the reason for return, select a preferred solution and leave a comment if necessary depending on the {% link "return options" ref_5JucPxO8 %} configured by the administrator. 
+![541-create-order-return-page.png]({{site.baseurl}}/attachments/ref_0DnA7pBo/541-create-order-return-page.png)
 
-![create-return.png]({{site.baseurl}}/attachments/ref_0DnA7pBo/create-return.png)
+When submitted, the respective order details will gain a note on a return requested for it.
+![541-order-return-registered-cus.png]({{site.baseurl}}/attachments/ref_0DnA7pBo/541-order-return-registered-cus.png)
 
-When the claim for return is either authorized or declined a customer will get the corresonding {% link "e-mail notifications" ref_5QLrLCu7 %} on the order changes.
+The further progress of a return request processing will be tracked by [email notifications](https://kb.x-cart.com/orders/order_returns/managing_OR.html#configuring-email-notifications-for-returns "Customer Experience"). 
+
+The final resolution displays on the respective order details page and is also sent by email.
+![541-order-return-completed-cus.png]({{site.baseurl}}/attachments/ref_0DnA7pBo/541-order-return-completed-cus.png)
+
+If a return request is authorized a customer sees it as "completed". If a resuest is declined, it is also "declined" for customer.
+
