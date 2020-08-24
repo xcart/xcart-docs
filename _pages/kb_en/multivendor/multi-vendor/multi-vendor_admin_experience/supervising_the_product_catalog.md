@@ -18,9 +18,14 @@ In a multivendor X-Cart store, the store administrator exercises the function of
 
 
 ## Creating Catalog Categories
-By default, vendor users in a multivendor X-Cart store do not have the permissions to create or manage the store's product categories. It means that the categories to which the vendors will add their products must be created by store administrator. The vendors will add their products to the existing categories; if the need arises for a new category, the vendors will have to contact the store administrator to request the change. The store administrator can create and manage categories via the Manage categories section of the store's Admin area (**Catalog** > **Categories**). 
-Note that if necessary the store's primary administrator may choose to delegate the function of supervising the product catalog categories to any other administrator user (including vendor); to do so, they just need to give them an additional role for category management with the permission to manage the product catalog:
-![xc5_mv_category_management.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_category_management.png)
+By default, vendor users in a multivendor X-Cart store do not have the permissions to create or manage the store's product categories. It means that the categories to which the vendors will add their products must be created by store administrator. 
+
+The vendors will add their products to the existing categories; if the need arises for a new category, the vendors will have to contact the store administrator to request the change. The store administrator can create and manage categories via the Manage categories section of the store's Admin area (**Catalog** > **Categories**). 
+
+{% note info %}
+If necessary the store's primary administrator may choose to delegate the function of supervising the product catalog categories to any other administrator user (including vendor); to do so, they just need to give them an additional role for category management with the permission to manage the product catalog:
+![541-role-catalog-management.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/541-role-catalog-management.png)
+{% endnote %}
 
 
 ## Working on Product Classes and Attributes
@@ -39,32 +44,34 @@ When the same product catalog holds the products of more than one seller, the st
 Finding the owner of a product is easy:
 
    * When viewing the store's product list in the Admin area, the administrator can see the owner of each product in the "Vendor" column:
-![xc5_mv_product_owners.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_product_owners.png)
-(This column shows the email address of the vendor who owns the product.)
+     ![541-product-listing-vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/541-product-listing-vendor.png)
+     (This column shows the email address of the vendor who owns the product.)
 
    * When viewing the details pages of a vendor product in the Admin area, the administrator can see the name and email of the vendor who owns the product:
-![xc5_mv_product_owner.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_product_owner.png)
+     ![541-product-details-vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/541-product-details-vendor.png)
 
 ## Changing the Owner of a Product
-The store administrator can change the owner of a product. To do so, they need to go open the product details in the Admin area and hover the cursor over the name of the current product owner:
-![xc5_mv_change_vendor1.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_change_vendor1.png)
-
-The field shows as editable:
-![xc5_mv_change_vendor2.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_change_vendor2.png)
+The store administrator can change the owner of a product. To do so, they need to go open the product details in the Admin area and hover the cursor over the name of the current product owner. The field shows as editable:
+![541-product-details-vendor-highlighted.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/541-product-details-vendor-highlighted.png)
 
 Once this happens, they need to click on it. The owner field becomes a drop-down selector from which one of the existing vendors can be chosen. The administrator needs to select a new owner and save the changes by selecting **Update product**:
-![xc5_mv_change_vendor3.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_change_vendor3.png)
+![541-product-details-edit-vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/541-product-details-edit-vendor.png)
 
-After this the selected vendor will become the new owner of the product and will be able to access its details in their own Vendor area, whereas the previous owner will lose access to the product. Note that if there are any existing orders containing this product when the product owner is changed, the new owner will not be able to access these orders. A warning will be provided: 
-![xc5_mv_change_vendor4.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_change_vendor4.png)
+After this the selected vendor will become the new owner of the product and will be able to access its details in their own Vendor area, whereas the previous owner will lose access to the product. 
+
+{% note info %}
+If there are any existing orders containing this product when the product owner is changed, the new owner will not be able to access these orders. A warning will be provided: 
+![541-product-details-vendor-warning.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/541-product-details-vendor-warning.png)
+{% endnote %}
 
 ## Sorting the Products by Vendor
 The store administrator supervising the product catalog can sort the products in the product list (**Catalog** > **Products**) by vendor. To do so, they need to click on the Vendor header of the product list table:
-![xc5_mv_sort_by_vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_sort_by_vendor.png)
+![541-product-listing-sorting-by-vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/541-product-listing-sorting-by-vendor.png)
 
 ## Finding the Products of a Certain Vendor
 The store administrator supervising the product catalog can easily find the products of a specific vendor. To do so, they need to do a product search in the store's Admin area specifying the vendor in the search form. Once the initial characters of the vendor's company name or email address are entered into the Vendor field, a drop-down selector with matching vendors will be provided:
-![xc5_mv_search_by_vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/xc5_mv_search_by_vendor.png)
+![541-product-listing-search-by-vendor.png]({{site.baseurl}}/attachments/ref_0dPCIV3f/541-product-listing-search-by-vendor.png)
+
 As an alternative, the store administrator can access the products of a specific vendor via the vendor's user profile. See {% link "Managing Vendor Profile Information as an Administrator" ref_5cbH2V3e#vendor-products %} for details.
 
 _Related pages:_
