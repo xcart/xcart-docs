@@ -13,11 +13,12 @@ In an X-Cart-based multivendor store/online marketplace, the store owner/storefr
    * manually (by the store owner/storefront operator - using means outside X-Cart). 
 
 No matter which of the above methods is used to distribute the money, the store administrator acting on behalf of the store owner/storefront operator has a way to track the money flow right in the X-Cart Admin area - through the section Vendor transactions (**Orders** > **Vendor transactions**):
-   ![xc5_vendor_transactions_admin_view.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_vendor_transactions_admin_view.png)
+   ![541-vendor-transactions-page.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/541-vendor-transactions-page.png)
 
 In the case of automated distribution, the transactions reflecting the movement of the money are generated and registered in this section automatically. In the case of manual distribution, the store administrator uses this section to manually register any transactions taking place between the store owner/storefront operator and each of the vendors.
 
 Let us take a closer look at how to work on vendor transactions using the Vendor transactions section.
+{% toc %}
 
 ## Viewing Vendor Transactions
 
@@ -48,7 +49,7 @@ The store administrator can filter the transaction list by:
    * Type of transaction (_Show all_ = All available transactions regardless of the transaction type. _Only pending_ = Only payout requests.)
    
 For example, the screenshot below shows transactions filtered by vendor profile:   
-   ![xc5_mv_transactions_filtered_by_vendor.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/xc5_mv_transactions_filtered_by_vendor.png)
+   ![541-vendor-transactions-search.png]({{site.baseurl}}/attachments/ref_3uy1YgfD/541-vendor-transactions-search.png)
 
 ## Creating Transactions
 The store admininstrator can manually create transactions in the Vendor transactions section. The transactions can be used to reflect the movement of funds both to and from the accounts of individual vendors.
