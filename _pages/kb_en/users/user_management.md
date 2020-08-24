@@ -14,18 +14,10 @@ The management of users in an X-Cart based store takes place in the **Users** se
 
 As an administrator with user management permissions, a user can perform the following tasks and actions:
 
-   * view the store's users as a list;
-   * search for specific users/filter the users list; 
-   * view/edit user profiles; 
-   * manage the set of fields employed in customer profiles;
-   * block a user from using the store ("disable") or allow them to use it again ("enable");
-   * force a specific user to log out; 
-   * operate as another user;
-   * delete user accounts;
-   * add new user accounts;
-   * export user information.
+   {% toc %}
    
-## Users List
+## View Users List
+
 The **Users list** section of the Admin area enables the store administrator with user management permissions to view the store users as a list. The list is provided in the form of a table with the following information for each user:
      
    *   **Login/Email** : The user's registration email.
