@@ -14,4 +14,5 @@ The notifications pertaining to **Trusted/Non-trusted vendors** include the foll
    * **Product was approved by admin (for vendor) (Trusted/Non-trusted vendors addon)**: This notification is sent to the vendor when the store administrator approves the publication of a product they have sent for review.
    * **Product was declined by admin (for vendor) (Trusted/Non-trusted vendors addon)**: This notification is sent to the vendor when the store administrator declines the publication of a product they have sent for review.
    
-![tnt_email_notifications.png]({{site.baseurl}}/attachments/ref_2x7CPLIC/tnt_email_notifications.png)
+![541-trusted-vendors-email-notifications.png]({{site.baseurl}}/attachments/ref_2x7CPLIC/541-trusted-vendors-email-notifications.png)
+
