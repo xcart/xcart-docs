@@ -8,7 +8,8 @@ order: 100
 published: true
 ---
 The store administrator can filter/search for vendor products by their publication status. To do so, they need to do a product search in the store's Admin area specifying the product publication status they require in the **Approve status** field. 
-![53x-products.png]({{site.baseurl}}/attachments/ref_3ge43cA0/53x-products.png)
+![541-trusted-vendors-products-approve-status-selector.png]({{site.baseurl}}/attachments/ref_3ge43cA0/541-trusted-vendors-products-approve-status-selector.png)
+
    
 The **Approve status** field is a a drop-down selector with the following options:
    * _Any approve status_ (= Any matching products, regardess of their publication status)
