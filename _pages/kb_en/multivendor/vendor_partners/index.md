@@ -8,6 +8,7 @@ order: 400
 published: true
 ---
 **Multiple profiles for vendors** is an addon for use in a Multivendor X-Cart 5 store. It enables existing vendor users to create additional user profiles for their business partners or staff members.
+![541-multiple-profiles-for-vendors.png]({{site.baseurl}}/attachments/ref_3le6s8jL/541-multiple-profiles-for-vendors.png)
 
 _In this section:_
    
