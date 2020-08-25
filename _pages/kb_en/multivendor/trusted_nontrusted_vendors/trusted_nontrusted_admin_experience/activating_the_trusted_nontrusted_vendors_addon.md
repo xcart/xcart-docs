@@ -8,8 +8,7 @@ order: 100
 published: true
 ---
 The administrator of a multivendor X-Cart store can activate the addon **Trusted/Non-trusted vendors** via the **My addons** section of the X-Cart store Admin area. 
-![trusted_nontrusted_addon.png]({{site.baseurl}}/attachments/ref_6jpz9PXe/trusted_nontrusted_addon.png)
-
+![541-trusted-vendors.png]({{site.baseurl}}/attachments/ref_6jpz9PXe/541-trusted-vendors.png)
 
 
 _Related pages:_
