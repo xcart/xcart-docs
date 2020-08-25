@@ -8,8 +8,7 @@ order: 150
 published: true
 ---
 The administrator of a multivendor X-Cart store can activate the addon **Multiple profiles for vendors** via the **My addons** section of the X-Cart store Admin area. 
-![multiprofiles_addon.png]({{site.baseurl}}/attachments/ref_5gAf2h1i/multiprofiles_addon.png)
-
+![541-multiple-profiles-for-vendors.png]({{site.baseurl}}/attachments/ref_5gAf2h1i/541-multiple-profiles-for-vendors.png)
 
 
 _Related pages:_
