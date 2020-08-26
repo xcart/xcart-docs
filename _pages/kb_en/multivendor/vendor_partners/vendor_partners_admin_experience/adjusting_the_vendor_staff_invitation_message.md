@@ -8,7 +8,7 @@ order: 400
 published: true
 ---
 The store administrator can adjust the email message by which new vendor staff members are informed about the creation of their profile and invited to log in for the first time. This email message can be found in the Email notifications section of the store's Admin area (**Store setup** > **Email notifications**); it is called "Vendor staff invitation": 
-![mvp_vendor_staff_invitation.png]({{site.baseurl}}/attachments/ref_1dzvWFFB/mvp_vendor_staff_invitation.png)
+![541-mpfv-email-notifications-list.png]({{site.baseurl}}/attachments/ref_1dzvWFFB/541-mpfv-email-notifications-list.png)
 
 The content of the vendor staff invitation message can be adjusted as that of any other X-Cart notification. For more info on X-Cart store notifications, see {% link "Email Notifications: Setup and Maintenance" ref_5QLrLCu7 %}.
 
