@@ -8,7 +8,7 @@ order: 300
 published: true
 ---
 The store administrator can tell whether a user is a vendor staff member by their access level:
-![mvp_staffmembers_in_admin.png]({{site.baseurl}}/attachments/ref_7EtCK0bR/mvp_staffmembers_in_admin.png)
+![541-admin-vendor-staff-account-record.png]({{site.baseurl}}/attachments/ref_386bKin8/541-admin-vendor-staff-account-record.png)
 
 
 _Related pages:_
