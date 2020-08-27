@@ -45,7 +45,7 @@ In case any of the checks are marked as 'Failed', you need to find out the origi
 ## Cache Management
 
 The "Cache management" page of your store Admin area (**System tools** -> **Cache management**) provides tools that allow you to force clearing or (re)generation of cache files and quick tables. 
-
+![541-cache-management-page.png]({{site.baseurl}}/attachments/ref_2qRH9roa/541-cache-management-page.png)
 
 In situations where X-Cart needs the same data set to be retrieved relatively often, you can have this data set cached (saved in a cache file or a quick table) so that X-Cart can receive it from there rather than by having MySQL select the necessary data by running the same queries on the same data set each time. Use the "Calculate quick data" option for the purpose. Sparing MySQL the necessity of running through the data over and over, cache files and quick tables considerably reduce the load on your MySQL server.
 
