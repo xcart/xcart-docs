@@ -11,7 +11,8 @@ In a Multivendor X-Cart store with the addon {% link "Product Tags" ref_6nFoxYf1
 
 ## Product Tags: Multivendor Store Administrator Experience
 The store administrator configures the addon settings and determines, to which extent vendor users should be able to manage product tags. 
-   ![mv_product_tags_module_settings.png]({{site.baseurl}}/attachments/ref_5zZ0ep58/mv_product_tags_module_settings.png)
+   ![541-product-tags-settings-page.png]({{site.baseurl}}/attachments/ref_5zZ0ep58/541-product-tags-settings-page.png)
+
 The addon settings page provides the setting **Allow vendors to create new tags**. By default it is disabled, which means that product tags can be added, edited and deleted only by the store administrator, whereas vendors can only use the already existing tags created for them by the administrator. If the administrator chooses to enable the **Allow vendors to create new tags** option, vendors will have full product tag management capabilities: they will be able to add their own tags for products, as well as edit and delete any existing tags (including the ones created by the other users). 
 
 
