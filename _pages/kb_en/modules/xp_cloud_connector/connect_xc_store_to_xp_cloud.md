@@ -38,10 +38,10 @@ Once you are ready to proceed with the connection, you will need to either creat
      This will initiate the creation of an X-Payments Cloud account for you and start your 14 day trial period. No commitment and no credit card are required during the trial period.
      
      The creation of your X-Payments account is likely to take a few seconds. During this time you will see a screen as follows:
-     ![connector-1.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/connector-1.png)
+     ![xcxpc_cooking.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xcxpc_cooking.png)
 
      In the end you will be prompted to set a password for your X-Payments Cloud account: 
-     ![xp-cloud-account-password-setup.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xp-cloud-account-password-setup.png)
+     ![xcxpc_setpasswd.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xcxpc_setpasswd.png)
 
      Enter your desired password and type it once again for confirmation. Be sure to click Submit. For your convenience, a link to [Strong password generator](https://strongpasswordgenerator.com/) is provided. 
      
