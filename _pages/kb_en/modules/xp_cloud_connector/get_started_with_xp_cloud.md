@@ -12,13 +12,16 @@ Once your X-Cart 5 store has been {% link "connected to X-Payments Cloud" ref_4k
 
 ## Configuring X-Payments Cloud via X-Cart Admin
 
-To configure X-Payments Cloud itselt and the payments integrated with it, use the X-Payments Cloud admin panel. 
+To configure X-Payments Cloud itselt and the payment methods integrated with it, use the X-Payments Cloud admin panel. 
 
 The most evident method to access your X-Payments Cloud admin panel is by signing in to your X-Payments Cloud account right from within your X-Cart store (via the same section you used to complete the connection - the one titled "X-Payments Cloud settings"). In this case the X-Payments Cloud admin panel opens within your X-Cart store Admin area and looks as if it were just another X-Cart settings page.
-![541-connector-3.png]({{site.baseurl}}/attachments/ref_497aaUTF/541-connector-3.png)
+![xcxpc_connection_completed.png]({{site.baseurl}}/attachments/ref_497aaUTF/xcxpc_connection_completed.png)
 
-To access this page, go to the payments listing page (**Store setup** > **Payment methods**), locate the payment method "X-Payments Cloud" and choose to configure it:
-![541-configure-button-payments-page.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/541-configure-button-payments-page.png)
+To access this page, go to your store's payment methods page (**Store setup** > **Payment methods**), locate the payment method "X-Payments Cloud" and choose to configure it:
+![xcxpc_configure.png]({{site.baseurl}}/attachments/ref_497aaUTF/xcxpc_configure.png)
+
+Alternatively, go to **My addons**, find the installed X-Payments Cloud connector addon and choose to view its settings.
+![xcxpc_settings_link.png]({{site.baseurl}}/attachments/ref_497aaUTF/xcxpc_settings_link.png)
 
 When you use the X-Payments Cloud admin panel from within your X-Cart store Admin area, you get access to all the features that you need to get X-Payments Cloud minimally configured and running to accept payments. For access to the extended set of features (like customization of the look and feel of your X-Payments Cloud payment form, management of X-Payments Cloud admin users, etc.) you need to go to the standalone version.
 
@@ -39,7 +42,7 @@ For navigation around the different sections of X-Payments Cloud, use the **Sett
 After completing the X-Payments Cloud configuration, make sure your X-Payments Cloud payment method is enabled in your X-Cart store.
 ![541-xp-cloud-enabled-1.png]({{site.baseurl}}/attachments/ref_497aaUTF/541-xp-cloud-enabled-1.png)
 
-This is also possible from the payments listing page:
+This is also possible from your store's payment methods page:
 ![541-xp-cloud-enabled-payments-page.png]({{site.baseurl}}/attachments/ref_497aaUTF/541-xp-cloud-enabled-payments-page.png)
 
 
