@@ -45,10 +45,16 @@ Once you are ready to proceed with the connection, you will need to either creat
 
      Enter your desired password and type it once again for confirmation. Be sure to click Submit. For your convenience, a link to [Strong password generator](https://strongpasswordgenerator.com/) is provided. 
      
-     After setting the password, complete 2-step user authentication setup for your account:
-     ![connector-2.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/connector-2.png)
+     After submitting your password, the connection of your store to your X-Payments Cloud account is basically completed. Now you can access the Payment processing page of your X-Payments Cloud admin panel right from your X-Cart store on the X-Payments Cloud Settings page: 
+     ![xcxpc_connection_completed.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xcxpc_connection_completed.png)
      
-     Detailed info on setting up 2-step user authentication methods in X-Payments Cloud is available in the [X-Payments Cloud manual](https://www.x-payments.com/help/XP_Cloud:Two-factor_User_Authentication).
+     You can control the availability of your X-Payments Cloud payment method and view the list of your X-Payments Cloud payment configurations without having to further authenticate yourself to X-Payments Cloud. You can even test your store's checkout using the X-Payments Cloud payment method with X-Payments Demo Pay payment configuration.   
+     
+     For full featured access to X-Payments Cloud, however, you will need to complete 2-step user authentication setup for your account. As soon as you provide the details of your first real payment configuration and choose to save them, you will see a page like the following:
+     ![xcxpc_2stepauth.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xcxpc_2stepauth.png)
+     You will need to set up 2-step user authentication to be able to continue. 
+     
+     Detailed information on setting up 2-step user authentication methods in X-Payments Cloud is available in the [X-Payments Cloud manual](https://www.x-payments.com/help/XP_Cloud:Two-factor_User_Authentication).
      
      {% note info %}
      After your X-Payments Cloud account has been created, within 15 minutes you will receive an email message with the subject "Welcome to X-Payments!". In this message you will find a link to confirm your X-Payments Cloud registration email address. You have 24 hours to confirm your email address using that link. If the email address is not confirmed until that time, your X-Payments Cloud account will be locked. ("Locked" means that you will be able to sign in but will not have access to any sensitive information or settings). 
@@ -74,20 +80,19 @@ Information on the available X-Payments subscription plans can be found [here](h
         
          This will connect your X-Cart store to your existings X-Payments Cloud account.
          
-         When connected, you can view the available payments list and enable/disable configured payments (if any) without extra authorization:
+         When connected, you can view your X-Payments Cloud payment configurations list and enable/disable any existing payment configurations without additional authorization:
          ![connector-4.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/connector-4.png)    
 
-     3. Extra authorization is required to e.g. configure new payments. When prompted to specify your connection credentials, provide your X-Payments Cloud account registration email address and password:
+     3. For full featured access, additional authorization will be required. For example, when you choose to add a new payment configuration, you will be prompted to specify your X-Payments Cloud account registration email address and password:
         <div class="ui stackable two column grid">
            <div class="column" markdown="span">![541-xp-account-verification-lvl1.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/541-xp-account-verification-lvl1.png)</div>
            <div class="column" markdown="span">![xp-account-verification-lvl2.png]({{site.baseurl}}/attachments/ref_6k1NvzJp/xp-account-verification-lvl2.png)</div>
         </div>
           
+Once your X-Cart 5 store has been connected to X-Payments Cloud, you will see a screen like the following:
+![xcxpc_connection_completed.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xcxpc_connection_completed.png)
 
-Once your X-Cart 5 store has been connected to X-Payments Cloud, you will see a screen as follows:
-![xp-cloud-account-set-up.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xp-cloud-account-set-up.png)
-
-Here you can continue with configuring payments via X-Payments Cloud. For more information on this, see {% link "Getting Started with X-Payments Cloud" ref_497aaUTF %}
+Here you can manage your X-Payments Cloud payment configurations. For more information on this, see {% link "Getting Started with X-Payments Cloud" ref_497aaUTF %}
 
 _Related pages:_
 * {% link "X-Payments Cloud Connector" ref_729XUzDQ %}
