@@ -13,20 +13,17 @@ To access the X-Payments Cloud connection page in your X-Cart store Admin area, 
 
 * *Method 1:*
 
-     Select **My Addons** in the sidebar menu of your X-Cart Admin area, find the installed addon "X-Payments Cloud connector" and click on the Settings link pertaining to it. The addon can be found by paging through the list of your store's installed addons or by doing a search via the search box in the upper left-hand corner of the screen. Depending on the method you use, the addon information may be presented on the page a bit differently; so the Settings link will be here:
-     ![xp_cloud_connector_settings_link.png]({{site.baseurl}}/attachments/ref_729XUzDQ/xp_cloud_connector_settings_link.png)
-     or here:
-     ![xpc_connector_settingslink.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xpc_connector_settingslink.png)
+     Select **My Addons** in the sidebar menu of your X-Cart Admin area, find the installed addon "X-Payments Cloud connector" and click on the Settings link pertaining to it. The most convenient way to find the addon quickly will be to do a search via the search box using a search string like "x-payments" or "cloud". The Settings link will be here:
+     ![xcxpc_settings_link.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xcxpc_settings_link.png)
 
-     In any case, the Settings link is exactly the same and will get you to the same page.
    
 * *Method 2:*
    
      Go to the payments listing page (**Store setup** > **Payment methods**), locate the payment method "X-Payments Cloud" and choose to configure it:
-     ![541-configure-button-payments-page.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/541-configure-button-payments-page.png)
+     ![xcxpc_configure.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xcxpc_configure.png)
      
 The page for connecting your X-Cart store to X-Payments Cloud is titled "X-Payments Cloud settings" and looks as follows:
-     ![xp-cloud-account-creation.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xp-cloud-account-creation.png)
+     ![xcxpc_settings_page.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xcxpc_settings_page.png)
 
 Once you are ready to proceed with the connection, you will need to either create a new X-Payments Cloud account or to provide the connection details for your {% link "existing X-Payments Cloud account" ref_729XUzDQ#xpc-registered-account %}.
 
