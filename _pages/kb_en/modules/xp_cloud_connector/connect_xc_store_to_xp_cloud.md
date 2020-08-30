@@ -57,7 +57,9 @@ Once you are ready to proceed with the connection, you will need to either creat
      Detailed information on setting up 2-step user authentication methods in X-Payments Cloud is available in the [X-Payments Cloud manual](https://www.x-payments.com/help/XP_Cloud:Two-factor_User_Authentication).
      
      {% note info %}
-     After your X-Payments Cloud account has been created, within 15 minutes you will receive an email message with the subject "Welcome to X-Payments!". In this message you will find a link to confirm your X-Payments Cloud registration email address. You have 24 hours to confirm your email address using that link. If the email address is not confirmed until that time, your X-Payments Cloud account will be locked. ("Locked" means that you will be able to sign in but will not have access to any sensitive information or settings). 
+     After your X-Payments Cloud account has been created, within 15 minutes you will receive an email message with the subject "Welcome to X-Payments!". In this message you will find a link to confirm your X-Payments Cloud registration email address. You have 24 hours to confirm your email address using that link. If the email address is not confirmed until that time, your X-Payments Cloud account will be locked. 
+     ![xcxpc_account_locked.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xcxpc_account_locked.png)
+     ("Locked" means that you will be able to sign in but will not have access to any sensitive information or settings). 
      
      **Important:** The email confirmation link expires in 24 hours. If you use the link after it has expired, you will get an error message. In this case, you will still be able to confirm your email address and unlock your account: sign in to the X-Payments Cloud admin panel, use the button to request a new email confirmation link, wait for the email message with the confirmation link to be sent to your inbox, then use the link to confirm your email address.
      {% endnote %}
