@@ -17,13 +17,14 @@ An X-Cart store uses images for store categories, products and brands (Brands ar
 
 The performance of your X-Cart store - specifically, how fast a store page loads for store visitors - depends largely on the use of images. Large hi-res images slow down your store's web pages which creates a less than optimal user experience. To ensure a positive experience for your customers, X-Cart enables you to optimize your images. For example, you know your customers will want to be able to access a highly detailed product image via a product page, but are unlikely to need such a "heavy" image on a page where the product is listed along with other products (a product list page). X-Cart can help you to optimize your image use in this case by generating a larger image for the detailed page of a product and smaller images of the same product for pages requiring less detail. As a result, you will have different size versions of the same product image for every type of page with product information (a detailed image for the detailed product page, and two smaller images for the product list: one for list view, and another one for grid view). 
 
-To adjust your image optimization preferences, manage image resizing or upload custom images, visit the **Default image settings** page of your store's Admin area (**Look & Feel** -> **Images**).
+To adjust your image optimization preferences, manage image resizing or upload custom images, visit the **Images Settings & Uploading** page of your store's Admin area (**Look & Feel** -> **Images Settings & Uploading**).
+![manage_imgs1.png]({{site.baseurl}}/attachments/ref_zyQIOcia/manage_imgs1.png)
 
 {% toc %}
 
-## Adjust Default Image Settings
-The settings listed in the upper section of the **Default image settings** page (**Look & Feel** -> **Images**) affect the display of any images used in your X-Cart store.
-![default_image_settings.png]({{site.baseurl}}/attachments/ref_zyQIOcia/default_image_settings.png)
+## Adjust the Default Image Settings
+The settings listed in the upper section of the **Images Settings & Uploading** page (**Look & Feel** -> **Images Settings & Uploading**) affect the display of any images used in your X-Cart store.
+![manage_imgs2.png]({{site.baseurl}}/attachments/ref_zyQIOcia/manage_imgs2.png)
 
 The settings are as follows:
 
@@ -46,7 +47,7 @@ The settings are as follows:
   {% endnote %}
 
 After the above listed image settings comes a chart that provides information on the dimension limits  (width(px) and height(px)) for different types of images. (Note that these may be different depending on the {% link "skin installed" ref_GLqVdpgd %}). 
-![img_dimension_chart.png]({{site.baseurl}}/attachments/ref_zyQIOcia/img_dimension_chart.png)
+![manage_imgs3.png]({{site.baseurl}}/attachments/ref_zyQIOcia/manage_imgs3.png)
 
 All the images in your store will be resized to fit these dimension limits taking into account the image settings above. For Retina displays, image dimensions twice as big as the ones specified in the chart will be used. In any case, you can change the default image dimension limits if required; however, please keep in mind that the original image should be at least twice as big as the size to which it will be resized (i.e. the dimensions specified in the chart). 
 
@@ -56,7 +57,7 @@ Note that the display size of a specific type of images on your store pages may 
 
 ## Generate Resized Images
 Clicking the **Generate resized images** button at the bottom of the screen launches an image resizing routine to generate copies of existing images in all the sizes needed to display these images in your store's front end. 
-![generate_resized_imgs.png]({{site.baseurl}}/attachments/ref_zyQIOcia/generate_resized_imgs.png)
+![manage_imgs4.png]({{site.baseurl}}/attachments/ref_zyQIOcia/manage_imgs4.png)
 
 Having a separate image file in each of the sizes provides a way to speed up your site's performance by reducing page load times for pages containing graphics.
 
@@ -70,15 +71,15 @@ To upload an image:
 1.  Go to the **Custom images** part of the **Defauld image settings** page (**Look & Feel** -> **Images**).
 
 2.  Click **Upload** and specify the image that needs to be uploaded onto the X-Cart 5 server:
-    ![upload_custom_img.png]({{site.baseurl}}/attachments/ref_zyQIOcia/upload_custom_img.png)
+    ![manage_imgs5.png]({{site.baseurl}}/attachments/ref_zyQIOcia/manage_imgs5.png)
     
     The image will be selected for upload.
 
 3.  Click the **Save changes** button.
-    ![upload_custom_img1.png]({{site.baseurl}}/attachments/ref_zyQIOcia/upload_custom_img1.png)
+    ![manage_imgs6.png]({{site.baseurl}}/attachments/ref_zyQIOcia/manage_imgs6.png)
     
     The image will be uploaded. You will be able to see it in the Custom images section at once:
-    ![upload_custom_img2.png]({{site.baseurl}}/attachments/ref_zyQIOcia/upload_custom_img2.png)
+    ![manage_imgs7.png]({{site.baseurl}}/attachments/ref_zyQIOcia/manage_imgs7.png)
 
 
 ## Use Amazon S3 for Images
