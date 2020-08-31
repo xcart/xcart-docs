@@ -39,13 +39,13 @@ All pages of a skin include these page elements:
 
 X-Cart uses 2 main page types - static pages and dynamic pages.
 
-Static pages contain the same prebuilt content each time the page is loaded, while the content of dynamic pages is generated on-the-fly depending on the actions performed by a customer on your site. 
+Static pages contain the same prebuilt content each time the page is loaded, while the content of dynamic pages is generated on the fly depending on the actions performed by a customer on your site. 
 
-All static pages are managed through the **Content** -> **Pages** section of the store admin area where it's possible to create a new static page, enable/disable it and manage the page content. 
+All static pages are managed through the Pages section of the store's Admin area (**Content** -> **Pages**) where it is possible to create a new static page, enable/disable it and manage the page content. 
 
-Dynamic pages are more complex and can't be managed that simple as static pages because the content of dynamic pages varies depending on the elements that are displayed on the page (store catalog, customer login/details, checkout pages, etc.). So managing dynamic pages includes the changes of different store settings, the maintenance of product properties and customer accounts  and memberships, etc. performed in the store admin area. 
+Dynamic pages are more complex and cannot be managed that simple as static pages because the content of dynamic pages varies depending on the elements that are displayed on the page (store catalog, customer login/details, checkout pages, etc.). So managing dynamic pages includes the changes of different store settings, the maintenance of product properties and customer accounts and memberships, etc. performed in the store Admin area. 
 
-Dynamic page loading usually takes more time than a staic one. Hence caching is used to deliver faster page load times, reduce hosting costs, and improve overall user experience by improving the overall page speed.
+Dynamic page loading usually takes more time than a static one. Caching is used to deliver faster page load times, reduce hosting costs, and improve overall user experience by improving the overall page speed.
 
 All skins include these types of pages:
 
