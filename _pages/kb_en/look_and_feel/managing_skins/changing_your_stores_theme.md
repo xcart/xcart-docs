@@ -11,12 +11,6 @@ order: 100
 redirect_from:
   - /look_and_feel/changing_your_stores_theme.html
 ---
-{% note warning %}
-The Standard skin is deprecated starting from X-Cart 5.4.0.x, 3 color schemes (Digital, Fashion and Noblesse) being removed completely. 
-
-For early adopters of the Standard skin in color schemes other than Standard, the color scheme used in the store before v5.4.0.x will be preserved as-is during the upgrade. Beware that in case a deprecated color scheme is changed to any new skin in 5.4.x the changes can not be reverted. 
-{% endnote %}
-
 You can manange your store's design templates (skins) using the **Layout** section (**Look & Feel** > **Layout**) of the store Admin area.
 ![layout-section.png]({{site.baseurl}}/attachments/ref_GLqVdpgd/layout-section.png)
 
