@@ -9,14 +9,14 @@ published: true
 ---
 X-Cart skin is a template that determines the way your online store looks and feels. Different skins have different styles and layouts, and offer a different experience for your customers. 
 
-X-Cart offers two default skins - CrispWhite and Standard (deprecated in X-Cart 5.4.x) - and over [80 template add-ons](https://market.x-cart.com/ecommerce-templates/) that can be downloaded and installed from the Marketplace. The default skin of the store Admin can not be changed. As for the customer storefront, you can change the skin used there for the one that meets your business needs better.
+Newer versions of X-Cart come with two skins - CrispWhite and Standard (deprecated in X-Cart 5.4.x). In addition to that, there are over [80 template add-ons](https://market.x-cart.com/ecommerce-templates/) that can be downloaded and installed from the X-Cart App Store. The default skin of the store Admin area may not be changed. As for the storefront, you can replace the skin used there with any one that meets your business needs better.
 
 {% note info %}
-X-Cart 5.3.x and earlier supported the Standard skin in 4 different color schemes (Standard, Digital, Fashion and Noblesse) that are deprecated starting from X-Cart 5.4.0.x. 
+The default skin for X-Cart 5.3.x and earlier is Standard; this skin comes in four different color schemes (Standard, Digital, Fashion and Noblesse). Starting with X-Cart 5.4.0.x, Standard skin is deprecated. 
 
-X-Cart 5.4.x supports the CrispWhite skin that is a main skin and the Standard skin in Standard color scheme (deprecated) that will be completely removed from the software with time. 
+X-Cart 5.4.x comes with CrispWhite skin, which is the skin installed by default, and Standard skin in the color scheme "Standard", which is deprecated and will eventually be removed from the software. 
 
-For early adopters of the Standard skin in color schemes other than Standard, the color scheme used in the store before v5.4.0.x will be preserved as-is during the upgrade. Beware that in case a deprecated color scheme is changed to any new skin in 5.4.x the changes can not be reverted. 
+For early adopters of Standard skin in color schemes other than Standard who will choose to upgrade their store, the color scheme used in the store before v5.4.0.x will be preserved "as is" during the upgrade. Please be aware that if the store's color scheme from the set of deprecated ones is changed to any new skin in 5.4.x, we will not be able to revert the changes. 
 {% endnote %}
 
 Although each skin is different, all of them have some common features. All skins let you use the same types of pages, and all pages include some standard elements. 
