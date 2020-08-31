@@ -61,7 +61,8 @@ Once you are ready to proceed with the connection, you will need to either creat
      ![xcxpc_account_locked.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xcxpc_account_locked.png)
      ("Locked" means that you will be able to sign in but will not have access to any sensitive information or settings). 
      
-     **Important:** The email confirmation link expires in 24 hours. If you use the link after it has expired, you will get an error message. In this case, you will still be able to confirm your email address and unlock your account: sign in to the X-Payments Cloud admin panel, use the button to request a new email confirmation link, wait for the email message with the confirmation link to be sent to your inbox, then use the link to confirm your email address.
+     **Important:** The email confirmation link expires in 24 hours. If you use the link after it has expired, you will get an error message. In this case, you will still be able to confirm your email address and unlock your account: sign in to the X-Payments Cloud admin panel, use the button "Send confirmation link" to request a new email confirmation link, wait for the email message with the confirmation link to be sent to your inbox, then use the link to confirm your email address. After this your account will be unlocked:
+     ![xcxpc_account_unlocked.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/xcxpc_account_unlocked.png)
      
      Your X-Payments Cloud trial will be available to you for 14 days. After this time your account will be deactivated, but not yet deleted. You will know your X-Payments Cloud trial period has expired if the X-Payments Cloud settings page in your X-Cart store Admin area looks like this:
 ![541-xp-expired.png]({{site.baseurl}}/attachments/ref_4kjOv7Ne/541-xp-expired.png)
