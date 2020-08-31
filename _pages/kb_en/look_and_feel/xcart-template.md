@@ -21,7 +21,6 @@ For early adopters of Standard skin in color schemes other than Standard who wil
 
 Although each skin is different, all of them have some common features. All skins let you use the same types of pages, and all pages include some standard elements. 
 
-A combination of page elements and page types make up a theme's structure.
 {% toc %}
 
 ## Page Elements
