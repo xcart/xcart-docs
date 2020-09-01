@@ -7,12 +7,12 @@ title: Managing Skins
 order: 200
 published: true
 ---
-Newer versions of X-Cart come with two skins - CrispWhite and Standard (Standard is deprecated starting with X-Cart 5.4.x). 
+Newer versions of X-Cart come with two skins - CrispWhite and Standard (Standard is deprecated starting with X-Cart 5.4.x and may not be enabled in new X-Cart Cloud stores). 
 
 {% note info %}
 The default skin for X-Cart 5.3.x and earlier is Standard; this skin comes in four different color schemes (Standard, Digital, Fashion and Noblesse). Starting with X-Cart 5.4.0.x, Standard skin is deprecated. 
 
-X-Cart 5.4.x comes with CrispWhite skin, which is the skin installed by default, and Standard skin in the color scheme "Standard", which is deprecated and will eventually be removed from the software. 
+X-Cart 5.4.x comes with CrispWhite skin, which is the skin installed by default, and Standard skin in the color scheme "Standard", which is deprecated and will eventually be removed from the software altogether. 
 
 For early adopters of Standard skin in color schemes other than Standard who will choose to upgrade their store, the color scheme used in the store before v5.4.0.x will be preserved "as is" during the upgrade. Please be aware that if the store's color scheme from the set of deprecated ones is changed to any new skin in 5.4.x, we will not be able to revert the changes. 
 {% endnote %}
