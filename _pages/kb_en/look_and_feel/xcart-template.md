@@ -9,7 +9,7 @@ published: true
 ---
 X-Cart skin is a template that determines the way your online store looks and feels. Different skins have different styles and layouts, and offer a different experience for your customers. 
 
-Newer versions of X-Cart come with two skins - CrispWhite and Standard (Standard is deprecated starting with X-Cart 5.4.x). In addition to that, there are over [80 template add-ons](https://market.x-cart.com/ecommerce-templates/) that can be downloaded and installed from the X-Cart App Store. The default skin of the store Admin area may not be changed. As for the storefront, you can replace the skin used there with any one that meets your business needs better.
+Newer versions of X-Cart come with two skins - CrispWhite and Standard (Standard is deprecated starting with X-Cart 5.4.x and may not be enabled in new X-Cart Cloud stores). In addition to that, there are over [80 template add-ons](https://market.x-cart.com/ecommerce-templates/) that can be downloaded and installed from the X-Cart App Store. The default skin of the store Admin area may not be changed. As for the storefront, you can replace the skin used there with any one that meets your business needs better.
 
 Although each skin is different, all of them have some common features. All skins let you use the same types of pages, and all pages include some standard elements. 
 
