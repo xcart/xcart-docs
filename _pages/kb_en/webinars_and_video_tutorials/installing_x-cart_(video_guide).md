@@ -14,7 +14,7 @@ This short video walks you through the installation process of X-Cart 5. Mobile 
 Questions? Visit X-Cart.com or email to [sales@x-cart.com](mailto:sales@x-cart.com).
 
 **Published on Jan 18, 2017**
-<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/N21P9jBh2sA" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/N21P9jBh2sA" frameborder="0" allowfullscreen></iframe>
 
 
 _Related pages:_
