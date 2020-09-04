@@ -10,21 +10,17 @@ published: true
 The addon [SEO Health Check](https://market.x-cart.com/addons/seo-check.html "SEO Health Check") is a tool for keeping track of common SEO tasks that need to be done on the site. 
 
 To install the addon, follow the instructions from {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}.
-![seo_health_check_addon.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/seo_health_check_addon.png)
+![541-seo-health-check.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/541-seo-health-check.png)
 
 Once installed and enabled, the addon performs a series of tests and helps the store admin to find SEO issues on the store website. 
 
-To start testing, proceed to the _SEO Health Check_ tab of the **SEO settings** section (**Store setup** -> **SEO settings**):
+To start testing, open the "SEO Health Check" page of the **SEO Settings** section (**Store setup** -> **SEO settings**):
+![541-seo-health-check-page.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/541-seo-health-check-page.png)
 
-![seo-settings.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/seo-settings.png)
-
-By defaut the tab contains no info and the store admin can initiate a check by clicking the **Perform SEO Health checks** button:
-
-![perform-check.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/perform-check.png)
+By defaut the tab contains no info and the store admin can initiate a check by clicking the **Perform SEO Health checks** button.
 
 It will take a while to analyze the store data. Once the check is complete, the results will be displayed on the same page:
-
-![check-results.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/check-results.png)
+![541-seo-check-completed.png]({{site.baseurl}}/attachments/ref_2RwDb3OY/541-seo-check-completed.png)
 
 The check results will provide recommendations on improving the store SEO performance and answer the following questions:
 
