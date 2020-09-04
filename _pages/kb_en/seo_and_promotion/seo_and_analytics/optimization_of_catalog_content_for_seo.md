@@ -13,10 +13,7 @@ redirect_from:
 ---
 When working on the SEO optimization of your X-Cart store, the following things may require your attention:
 
-   *   [Clean URLs](#clean-urls)
-   *   [Title and Meta elements](#title-and-meta-elements)
-   *   [robots.txt](#robotstxt)
-   *   [XML sitemap](#xml-sitemap)
+   {% toc %}
 
 ## Clean URLs
 
@@ -28,20 +25,20 @@ To solve the problems posed by dynamic URLs, we recommend using the so-called "c
 
 Information on setting up the clean URLs feature in X-Cart 5 is available in the section {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %} of this manual.
 
-In your store, clean URLs can be defined for products (see the Marketing section of the product information page when adding a new product or editing an existing one):
-
-   ![xc5_seo_product_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_clean_url.png)
+In your store, clean URLs can be defined for products (see the **Marketing** section of a {% link "product details" ref_2D8wAeXP %} page when adding a new product or editing an existing one):
+   ![541-product-details-marketing-clean-url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-product-details-marketing-clean-url.png)
 
 categories:
+   ![541-categoru-details-clean-url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-categoru-details-clean-url.png)
 
-   ![xc5_seo_category_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_clean_url.png)
+and content pages in the "Pages" section (**Content** > **Pages**):
+   ![541-pages-details-clean-url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-pages-details-clean-url.png)
 
-and content pages in the Pages section (**Content** > **Pages**):
+{% note info %}
+By default X-Cart generates clean URLs for pages automatically, and you can have X-Cart create a clean URL for a page at any time simply by saving/updating the page with the **Autogenerate Clean URL** checkbox option enabled. 
 
-   ![xc5_seo_page_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_page_clean_url.png)
-
-Note that by default X-Cart generates clean URLs for pages automatically, and you can have X-Cart create a clean URL for a page at any time simply by saving/updating the page with the **Autogenerate Clean URL** checkbox option enabled. 
-If, however, you would like to add or edit a previously added clean URL manually, you can do so by unchecking the **Autogenerate Clean URL** option and editing the contents of the Clean URL field directly.
+If, however, you prefer to add or edit a previously added clean URL manually, you can do so by unchecking the **Autogenerate Clean URL** option and editing the contents of the Clean URL field directly.
+{% endnote %}
 
 ## Title and Meta Elements
 The HEAD section of every page in your store contains elements providing metadata about the page. Some of these elements (page title, meta description and meta keywords) may have a significant impact on how the page is ranked by search engines and how it is described in search engine results pages. In X-Cart, you have substantial control over the meta elements and can use them for SEO optimization.
