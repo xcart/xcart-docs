@@ -41,7 +41,10 @@ If, however, you prefer to add or edit a previously added clean URL manually, yo
 {% endnote %}
 
 ## Title and Meta Elements
+
 The HEAD section of every page in your store contains elements providing metadata about the page. Some of these elements (page title, meta description and meta keywords) may have a significant impact on how the page is ranked by search engines and how it is described in search engine results pages. In X-Cart, you have substantial control over the meta elements and can use them for SEO optimization.
+
+### Titles
 
 The title element contained in the `<title>` tag defines the page title, for example:
 
@@ -53,44 +56,47 @@ The title element is important for search engines. The text contained in the tit
 
 X-Cart provides some controls allowing the store administrator to adjust the title element.
 
-First, on the SEO settings page (**Store setup** > **SEO settings**), you can access the sections to set the default site title and the title for the site's home page:
+### Editing Default Site Title and Homepage Title
 
-   ![xc5_seo_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_title.png)
+First, on the "SEO Settings" page (**Store Setup** > **SEO Settings**), you can set the default site title and the title for the site's home page:
+![541-seo-settings-title-fields.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-seo-settings-title-fields.png)
 
-To edit the default site title, click on the [Edit] link for the respective field.
-![xc5_edit_default_site_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_edit_default_site_title.png)
+To edit the values, click on the **Pencil** icon for the respective fields.
+![541-seo-settings-title-fields-edit.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-seo-settings-title-fields-edit.png)
 
-This will get you to the Edit labels section where you will be able to edit the  language label _default-site-title_ in which the default site title is stored:
+* For the "Default site title" field, this will redirect you to the "Edit Labels" page (**Store Setup** -> **Translations**), where you can to edit a respective language label in which the value is stored:
+  ![541-edit-labels-default-site-title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-edit-labels-default-site-title.png)
 
-   ![xc5_seo_default_site_title_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_site_title_label.png)
+* For the Homepage title, you will be redirected to the "Front Page" details (**Content** -> **Front Page**), wherec you can edit the title for the Home page,:
+  ![541-front-page-category-page-title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-front-page-category-page-title.png)
 
-To edit the title for the Home page, click on the [Edit] link at the bottom of the 'Home page title and meta' section. 
-   ![xc5_edit_home_pg_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_edit_home_pg_title.png)
+### Editing Page Titles
 
-You will be redirected to the Front page settings page (**Content** > **Front page**), which is the place where you can adjust the Home page title.
-   ![xc5_seo_home_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_home_page_title.png)
+In the **Page Title Format** section of the "SEO Settings" page (**Store Setup** -> **SEO Settings**) there is also a set of controls that enable you to set the format of complex page titles:
+![541-seo-settings-page-title-format.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-seo-settings-page-title-format.png)
 
-In the Page title format section of the SEO settings page there is also a set of controls that enable you to set the format of complex page titles:
+On a product and category details page, as well as on the content pages in the "Pages" section (**Content** > **Pages**), you can find the fields to set a page title (or rather the object name part of the page title):
 
-   ![xc5_seo_page_title_format.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_page_title_format.png)
+   *  the "Product page title" field on a product details page:
+      ![541-product-details-marketing-product-page-title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-product-details-marketing-product-page-title.png)
 
-On the pages of products and categories, as well as on the content pages in the Pages section (**Content** > **Pages**), you can find the fields to set the page title (or rather the object name part of the page title):
+   *  the "Category page title" field on a category details page:
+      ![541-catwgory-page-title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-catwgory-page-title.png)
 
-   *  the Product page title field on the product page:
-   ![xc5_seo_product_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_page_title.png)
-
-   *  the Category page title field on the category page:
-   ![xc5_seo_category_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_page_title.png)
-
-   * the Content page title field on a content page:
-   ![xc5_seo_content_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_content_page_title.png)
+   * the "Content page title" field on a content page:
+     ![541-content-page-title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-content-page-title.png)
+     
+### Meta Descriptions
 
 The meta description tag provides a brief summary of a page's content; for example:
 
 `<meta name="description" content="Welcome to X-Cart Demo Store!It illustrates operation and features of X-Cart - all-in-one eCommerce solution for swift and easy launch of a professional online store. Orders placed here cannot be fulfilled as all the sample products listed in this store are for demonstration and testing purposes only.">`
 
 The description is the text that goes between the quotation marks after the "content=" portion of the tag.
+
 This tag comes in handy for SEO because it allows you to influence the description of your store's pages in the web crawlers that support this tag. Different crawlers use this tag differently, but you should expect that if the meta description of your page is deemed relevant by a web crawler, at least a portion of it will be displayed as the description of the page in the search results. If this description is enticing enough, you may get more targeted traffic to your site.
+
+### Meta Keywords
 
 The meta keywords tag is another meta tag that has some significance for SEO. It allows you to provide relevant keywords for your pages; for example:
 
@@ -98,37 +104,41 @@ The meta keywords tag is another meta tag that has some significance for SEO. It
 
 Today, very few search engines rely on this tag for information about a page. However, you can still try to use this tag to reinforce the terms you think a page is important for.
 
+### Editing Site Meta Tags
+
 In X-Cart, a meta description and keywords tags can be defined for every page of the store site.
 
-On the SEO settings page (**Store setup** > **SEO settings**), you can access the sections for setting the default site meta description and keywords, as well as the meta description and keywords for the site's home page:
-   ![xc5_seo_meta_seo_settings.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_meta_seo_settings.png)
+On the "SEO Settings" page (**Store setup** > **SEO settings**) of your store Admin area, you can access the sections for setting the default site meta description and keywords, as well as the meta description and keywords for the site's home page:
+![541-seo-settings-meta-tags.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-seo-settings-meta-tags.png)
 
-To edit the default site meta description, click on the [Edit] link for the respective field. 
+To edit the default values, use the **Pencil** icon opposite the respective field. 
+![541-seo-settings-meta-tags-edit.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-seo-settings-meta-tags-edit.png)
 
-This will get you to the Edit labels section where you will be able to edit the language label _default-meta-description_ in which the default meta description is stored:
+* For the "Default site meta description" tag, this will forward you to the "Edit Labels" page of your store Admin area (**Store Setup** -> **Translations**), where you will be able to edit the respective language label:
+  ![541-edit-labels-default-meta-description.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-edit-labels-default-meta-description.png)
+
+* For the "Default site meta keywords" tag, this will also forward you to the "Edit Labels" page of your store Admin area (**Store Setup** -> **Translations**), where you will be able to edit the respective language label:
+  ![541-edit-labels-default-meta-keyword.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-edit-labels-default-meta-keyword.png)
+
+* For the meta description and keywords of the Homepage, you will be redirected to the "Front page" details (**Content** > **Front page**), which is the place where you can adjust the Homepage meta description and keywords:
+  ![541-front-page-meta-tags.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-front-page-meta-tags.png)
+
+### Editing Products, Categories and Content Pages Meta Tags
+
+On the products and categories details pages, as well as on the content pages in the "Pages" section (**Content** > **Pages**), you can find the fields to set the meta description and meta keywords for the respective pages:
+
+   *  on a product details page:
+      ![541-product-details-marketing-meta-tags.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-product-details-marketing-meta-tags.png)
+      
+   *  on a category details page:
+      ![541-category-details-meta-tags.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-category-details-meta-tags.png)
+
+   *  on a content details page:
+      ![541-content-details-meta-tags.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/541-content-details-meta-tags.png)
+
    
-   ![xc5_seo_default_meta_description_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_meta_description_label.png)
-
-To edit the default site meta keywords, click on the [Edit] link for the respective field. This will get you to the Edit labels section where you will be able to edit the language label _default-meta-keywords_ in which the default site meta keywords are stored:
-   
-   ![xc5_seo_default_meta_keywords_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_meta_keywords_label.png)
-
-To edit the meta description and keywords for the Home page, click on the [Edit] link at the bottom of the 'Home page title and meta' section. You will be redirected to the Front page settings page (**Content** > **Front page**), which is the place where you can adjust the Home page meta description and keywords:
-
-   ![xc5_seo_home_page_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_home_page_meta.png)
-
-On the pages of products and categories, as well as on the content pages in the Pages section (**Content** > **Pages**), you can find the fields to set the meta description and meta keywords for the respective pages:
-
-   *  on the product page:
-   ![xc5_seo_product_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_meta.png)
-
-   *  on the category page:
-   ![xc5_seo_category_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_meta.png)
-
-   * on the content page:
-   ![xc5_seo_content_page_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_content_page_meta.png)
-
 ## robots.txt 
+
 Another thing to consider when dealing with the SEO optimization of your X-Cart store is the file robots.txt.
 
 The file robots.txt is used to give instructions about the site to web robots, and its primary function is to block web robots from accessing the pages of your site that do not need to be indexed by search engines. Your X-Cart store comes bundled with a robots.txt file that should be good for any store installed in the root (top-level directory) of your domain. If, however, your X-Cart store is installed in a subdirectory off the domain root, you will need to take a few additional steps to ensure that the robots.txt file for your store actually works (see further below for instructions). 
