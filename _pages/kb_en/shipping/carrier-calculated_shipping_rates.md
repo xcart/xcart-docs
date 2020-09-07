@@ -49,7 +49,7 @@ To use carrier-calculated shipping rates, configure shipping as outlined below:
 3.  On the **Carrier-calculated rates** tab within the popup window, locate the carrier whose real-time rate calculation service you would like to use. Click on the respective icon:
     ![541-shipping-popup-carrier-rates.png]({{site.baseurl}}/attachments/ref_ybdiN8r0/541-shipping-popup-carrier-rates.png)
 
-    If the selected shipping integration addon is {% link "installed and enabled" ref_uEnDBBA7 %} at your store, you will be redirected to its settings page. If not, you will be redirected to X-Cart's {% link "Marketplace" ref_Vn1mMUw9 %} from which you will need to install the respective addon. 
+    If the selected shipping integration addon is {% link "installed and enabled" ref_uEnDBBA7 %} at your store, you will be redirected to its settings page. If not, you will be redirected to the X-Cart {% link "App Store" ref_Vn1mMUw9 %} from which you will need to install the respective addon. 
 
 4.  Configure the settings of the selected shipping integration addon and save the changes. 
     We have instructions for some popular shipping addons:
@@ -63,8 +63,8 @@ To use carrier-calculated shipping rates, configure shipping as outlined below:
 
 6.  Make sure the shipping method you have configured is active.
 
-7.  Make sure you have specified your company address in the store's settings. 
-    When calculating shipping rates for an order, the carrier's shipping rate service will use this information as the origin address where the order will be shipped from. For more info on how to set up your company address, see the article {% link "Specifying your company's identity and contact information" ref_HcSs9eFL %}. 
+7.  Make sure you have specified your ship-from address in the store's settings. 
+    When calculating shipping rates for an order, the carrier's shipping rate service will use this information as the origin address from which the order will be shipped. For more info on how to set up your company address, see the article {% link "Specifying your company's identity and contact information" ref_HcSs9eFL %}. 
 
 8.  Make sure that all products that will be shipped using the shipping method you configured:
     *   have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled; 
