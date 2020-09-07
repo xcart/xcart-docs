@@ -26,7 +26,7 @@ X-Cart 5 provides integrations with some of the most popular real-time shipping 
 *   [ShipStation](https://market.x-cart.com/addons/ShipStation-app-for-xcart.html);
 *   [ShippingEasy](https://market.x-cart.com/addons/shippingeasy-shipping-automation.html).
 
-During checkout, after a customer has submitted the shipping address, X-Cart sends the order information to the API of the carrier (for example, FedEx). The carrier then uses the information submitted by X-Cart  - including the information about the origin and destination addresses, the weight of the products in the order and, if specified, the expected parcel dimensions (length, width, height) - to calculate the shipping rates. The customer is then provided with information about the shipping options and rates applicable to the order.
+During checkout, after a customer has submitted the shipping address, X-Cart sends the order information to the API of the carrier (for example, FedEx). The carrier then uses the information submitted by X-Cart  - including the information about the origin and destination addresses, the weight of the products in the order and, if specified, the expected parcel dimensions (length, width, height) - to calculate the shipping cost. The customer is then provided with information about the shipping options and rates applicable to the order.
 
 {% note info %}
 For unregistered customers shipping rates are displayed at checkout in the very same order they are set in the admin area (first comes the first active shipping method from the shipping settings page (**Store setup** -> **Shipping**)). 
