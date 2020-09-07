@@ -42,7 +42,7 @@ The most popular options here are as follows:
    * **Enable Local Pickup**
       If you wish to enable your local customers to pick up the order themselves, you can do so by enabling the Local pickup shipping method.
 
-If, on top of regular shipping cost, you need to cover some additional expenses, like the cost of handling of a particularly heavy item, you can add a **handling fee**. 
+If on top of regular shipping costs you need to cover some additional expenses, like the cost of handling a particularly heavy item, you can add a **handling fee**. 
    
    For more information on this, see:
    * {% link "Handling Fee" ref_nFJTxPMR %}
