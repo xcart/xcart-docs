@@ -27,7 +27,7 @@ The most popular options here are as follows:
      * {% link "Custom Table Rates" ref_3TG6AuN0 %}
    
    * **Charge a Flat Rate**
-     Another polular option is to charge buyers a fixed (flat) rate. X-Cart can be configured to use a flat rate per order or a flat rate per item.
+     Another popular option is to charge buyers a fixed (flat) rate. X-Cart can be configured to use a flat rate per order or a flat rate per item.
      
      For more information, see:
      * {% link "Custom Table Rates" ref_3TG6AuN0 %}
