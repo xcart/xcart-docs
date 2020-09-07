@@ -34,7 +34,7 @@ For unregistered customers shipping rates are displayed at checkout in the very 
 For registered customers the first shipping method displayed at checkout will be the one they used for the previous order. The rest of the shipping methods will come in the order of active shipping methods defined in the admin area.
 {% endnote %}
 
-Since the shipping costs are calculated automatically by the carrier at the exact time the order is placed at, this method allows you to get the most accurate rates.
+Since the shipping costs are calculated automatically by the carrier at the exact time when the order is created, this method allows you to get the most accurate rates.
 
 To use carrier-calculated shipping rates, configure shipping as outlined below:
 
