@@ -13,10 +13,10 @@ published: true
 ---
 Once an order has been paid for, you will need to deliver the ordered goods to the buyer. Unless those are products that do not require shipping (like {% link "digital goods" ref_lxNH6TFr %}, {% link "bookable products" ref_4IYL2Shf %} or {% link "PIN codes" ref_4JeE99n8 %}), you will have to arrange the packaging, pickup and delivery. 
 
-A store owner can choose between hiring a third-party postal or delivery service and charging actual carrier rates, charging a flat rate for shipping and arranging delivery on their own, offering free shipping or enabling local pickup. In any case, before considering the actual shipping strategy for a store, a merchant needs to configure the ship-from address that can either be a real store address or a warehouse address.
-     
-_In this section:_
+As a store owner, you will be able to choose your shipping strategy and configure your store's shipping methods and rates. If you are required to charge tax on shipping, you will be able to adjust your store's tax configuration to accommodate this need as well.
 
+For more information on shipping and shipping configuration, see: 
+     
 *   {% link "Choosing a Shipping Strategy" ref_6Jm44hlJ %}
 *   {% link "Carrier-calculated Shipping Rates" ref_ybdiN8r0 %}
 *   {% link "Custom Table Rates" ref_3TG6AuN0 %}
