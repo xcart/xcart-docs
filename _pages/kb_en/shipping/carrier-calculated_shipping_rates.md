@@ -49,7 +49,7 @@ To use carrier-calculated shipping rates, configure shipping as outlined below:
 3.  On the **Carrier-calculated rates** tab within the popup window, locate the carrier whose real-time rate calculation service you would like to use. Click on the respective icon:
     ![541-shipping-popup-carrier-rates.png]({{site.baseurl}}/attachments/ref_ybdiN8r0/541-shipping-popup-carrier-rates.png)
 
-    If the selected shipping integration addon is {% link "installed and enabled" ref_uEnDBBA7 %} at your store, you will be redirected to its settings page. If not, you will be redirected to the X-Cart {% link "App Store" ref_Vn1mMUw9 %} from which you will need to install the respective addon. 
+    If the selected shipping integration addon is {% link "installed and enabled" ref_uEnDBBA7 %} at your store, you will be redirected to its settings page. If not, you will be redirected to the X-Cart App Store from which you will need to {% link "install" ref_Vn1mMUw9 %} the respective addon. 
 
 4.  Configure the settings of the selected shipping integration addon and save the changes. 
     We have instructions for some popular shipping addons:
