@@ -47,7 +47,7 @@ If, on top of regular shipping cost, you need to cover some additional expenses
    For more information on this, see:
    * {% link "Handling Fee" ref_nFJTxPMR %}
 
-It is also a good idea to consider the question of **labelling** your packaged orders.
+It is also a good idea to consider the question of **labeling** your packaged orders.
    
    See:
    * {% link "Shipping Labels " ref_7p59HzrS %}     
