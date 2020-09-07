@@ -9,9 +9,9 @@ categories:
 published: true
 order: 100
 ---
-Some carrier companies provide web services that allow shopping carts to access information about the shipping options and rates provided by these companies in real time. Shopping carts integrated with such services can provide real-time carrier-calculated shipping quotes to their users. 
+Some carrier companies provide web services that allow online stores to access information about the shipping options and rates provided by these companies in real time. Online stores integrated with such services can provide real-time carrier-calculated shipping quotes to their users. 
 
-X-Cart 5 provides integrations with a few of the most popular real-time shipping rate calculation services, including:
+X-Cart 5 provides integrations with some of the most popular real-time shipping rate calculation services, including:
 
 *   [FedEx](https://market.x-cart.com/addons/fedex.html);
 *   [U.S.P.S.](https://market.x-cart.com/addons/usps.html);
