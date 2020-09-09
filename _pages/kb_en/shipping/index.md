@@ -25,4 +25,4 @@ For more information on shipping and shipping configuration, see:
 *   {% link "Handling Fee" ref_nFJTxPMR %}
 *   {% link "Shipping Labels " ref_7p59HzrS %}
 *   {% link "Shipping Tax" ref_4nZM0iOX %}
-*   {% link "Shipping Setup for Downloadable Products" ref_z5KmbFAu %}
+*   {% link "Shipping Setup for Products That Do Not Require Shipping" ref_z5KmbFAu %}
