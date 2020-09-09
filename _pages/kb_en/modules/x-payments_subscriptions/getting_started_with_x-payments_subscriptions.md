@@ -14,7 +14,7 @@ To begin using the X-Payments subscriptions addon on your system:
 1.  Ensure that your X-Cart store is connected to X-Payments using the addon X-Payments v1.x-3.x Connector. Make sure that you have at least one payment method with tokenization support configured for your store. (You should be able to find this method in your X-Cart store's Admin area). Also ensure that this payment method has the "Save cards" option enabled in its settings.
     *   {% link "X-Payments v1.x-3.x Connector" ref_NaZh0d1b %}
 
-2.  Ensure that your system meets the addon system requirements, then install and enable the addon.
+2.  Ensure that your system meets the system requirements for the addon  X-Payments subscriptions, then install and enable the addon.
     *   {% link "X-Payments Subscriptions: System Requirements and Installation" ref_ou6SkGQn %}
 
 3.  Configure automated execution of periodic tasks for X-Payments subscriptions (required for correct operation of the addon).
