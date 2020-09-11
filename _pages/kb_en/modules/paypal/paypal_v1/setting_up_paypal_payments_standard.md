@@ -44,7 +44,7 @@ To enable PayPal Payments Standard as a payment method in your X-Cart store:
            <div class="column" markdown="span"><b>Payments page</b>![540-pp-standard-on-payments.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/540-pp-standard-on-payments.png)</div>
          </div>
 
-4.  Enable Instant Payment Notification (IPN) in your PayPal account settings. This will enable PayPal to notify your X-Сart store of events related to PayPal transactions. For instructions, see {% link "Setting up PayPal IPN URL" ref_2rlawgsT %}.
+4.  Enable Instant Payment Notification (IPN) in your PayPal account settings. This will enable PayPal to notify your X-Сart store of events related to PayPal transactions. For instructions, see {% link "Setting up PayPal IPN URL" ref_4SIF7fab %}.
 
 5.  Enable Auto return in your PayPal account profile. With Auto return for PayPal payments, buyers will not have to click a button to return to your website upon payment completion on the PayPal end, but will be redirected back to the invoice page in your store automatically. This is not only convenient for your customers, but is essential for correct X-Cart operation: when a buyer pays for their purchase with PayPal Payments Standard, your store will only be able to correctly create an order if the buyer returns to the store site from PayPal; if the buyer chooses not to click the button to return to your site, your store will never get the order. That means you have to enable Auto return to ensure that you get _all_ the orders paid via PayPal Payments Standard.
     
