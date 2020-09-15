@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2018-06-11 12:46 +0400'
 identifier: ref_25BG59R3
-title: Managing Your Exiting Payment Methods
+title: Managing Enabled Payment Methods
 order: 120
 published: true
 ---
@@ -41,4 +41,3 @@ You can change the availability of a payment method by switching the **INACTIVE/
 
 To remove a payment method from your store's payment methods list, click on the **Trash** icon below the method name.
 ![541-payment-method-trash-icon.png]({{site.baseurl}}/attachments/ref_25BG59R3/541-payment-method-trash-icon.png)
-
