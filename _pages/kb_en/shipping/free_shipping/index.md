@@ -9,7 +9,7 @@ published: true
 redirect_from:
   - /shipping/free_shipping.html
 ---
-Free shipping is a feature appreciated by most shoppers. It not only helps reduce shopping cart abandonment, but also encourages your customers to spend more. You can offer free shipping on specific products, on all orders, or on orders that meet certain conditions (for example, "free shipping on oders over $50"). You can also give specific customers a free shipping coupon. 
+Free shipping is a feature appreciated by most shoppers. It not only helps reduce shopping cart abandonment but also encourages your customers to spend more. You can offer free shipping on specific products, on all orders, or on orders that meet certain conditions (for example, "free shipping on orders over $50"). You can also give specific customers a free shipping coupon. 
 
 _In this section:_
 
