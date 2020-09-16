@@ -18,6 +18,7 @@ _In this section:_
 
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
 *   {% link "Add to Cart PopUp" ref_1iGC8Efj %}
+*   {% link "Age Verification" ref_2WwBaO2d %}
 *   {% link "Amazon Feeds" ref_4UNr3oKZ %}
 *   {% link "Amazon Pay" ref_mri0tPhM %} (former "Pay with Amazon")
 *   {% link "Amazon S3 Images" ref_7b9XLDHj %}
