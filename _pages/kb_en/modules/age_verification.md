@@ -23,28 +23,28 @@ The settings of the Age Verification Popup addon are devided into 3 sections:
 
 The settings of this section allow a store admin to configure the texts of the buttons and descriptions in the age verification form.
 
-* Title : Use this field to specify the form title. If necessary the field allows using images and video files.
-* Description : Use this field to explain your customers why you need to collect personal data from them.
-* Deny message : Use this field to specify a message that the site visitors will see in case of a denied access to your site.
-* URL away : Specify the URL you site will redirect visitors in case of a denied access.
-* Success button text : Specify a text of the button that will allow visitors to enter the site.
-* Failure button text : Specify a text of the button that will deny visitors from access to yuor site.
-* Away button text : Specify a text of the button that will redirect visitors with denied acccess from your site to the site you specified in URL away.
+* **Title** : Use this field to specify the form title. If necessary the field allows using images and video files.
+* **Description** : Use this field to explain your customers why you need to collect personal data from them.
+* **Deny message** : Use this field to specify a message that the site visitors will see in case of a denied access to your site.
+* **URL away** : Specify the URL you site will redirect visitors in case of a denied access.
+* **Success button text** : Specify a text of the button that will allow visitors to enter the site.
+* **Failure button text** : Specify a text of the button that will deny visitors from access to yuor site.
+* **Away button text** : Specify a text of the button that will redirect visitors with denied acccess from your site to the site you specified in URL away.
 
 ### Visual Popup Settings
 
 The settings of this section allow a store admin to configure the design of the age verification form.
 
-* Width : Set the width of a pop-up window in pixels.
-* Height : Set the height of a pop-up window in pixels.
-* Backround color : Select the background color for the pop-up window using the color palette.
-* Background opacity : Set the value in percents.
-* Age is setting : If a toggle is set to YES, visitors will be allowed to specify their age in the pop-up. 
+* **Width** : Set the width of a pop-up window in pixels.
+* **Height** : Set the height of a pop-up window in pixels.
+* **Backround color** : Select the background color for the pop-up window using the color palette.
+* **Background opacity** : Set the value in percents.
+* **Age is setting** : If a toggle is set to YES, visitors can specify their age in the pop-up. Alternatively, visitors choose between the options set with the help of the **Success button text** and **Failure button text** options.
 
 
 ### Additional Settings
 
 The settings of this section allow a store admin to configure general settings.
 
-* Minimum age : Set the minimum age of visitors allowed to enter your site.
-* Popup enabled : If the toggle is set to YES, the Age Verification Pop-up displays in the storefront to the visitors.
+* **Minimum age** : Set the minimum age of visitors allowed to enter your site.
+* **Popup enabled** : If the toggle is set to YES, the Age Verification Pop-up displays in the storefront to the visitors.
