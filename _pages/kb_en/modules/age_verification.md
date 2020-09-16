@@ -5,7 +5,7 @@ updated_at: '2020-09-16 13:29 +0400'
 identifier: ref_2WwBaO2d
 title: Age Verification
 order: 16
-published: false
+published: true
 ---
 If your site has adult material such as alcohol, tobacco, etc., you need to filter visitors to allow access to the site content to users of age only. The [Age Verification Popup](https://market.x-cart.com/addons/age-verification.html "Age Verification") addon can serve you here. When enabled and set up, this addon displays an age verification pop-up in a storefront for every not logged-in customer and does not allow underaged customers to view the site content.
 
