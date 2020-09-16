@@ -39,8 +39,9 @@ The settings of this section allow a store admin to configure the design of the 
 * **Height** : Set the height of a pop-up window in pixels.
 * **Backround color** : Select the background color for the pop-up window using the color palette.
 * **Background opacity** : Set the value in percents.
-* **Age is setting** : If a toggle is set to YES, visitors can specify their age in the pop-up. Alternatively, visitors choose between the options set with the help of the **Success button text** and **Failure button text** options.
-
+* **Age is setting** : If a toggle is set to YES, visitors can specify their age in the pop-up. 
+   ![age-verification-request-cus.png]({{site.baseurl}}/attachments/ref_2WwBaO2d/age-verification-request-cus.png)
+   Alternatively, visitors choose between the options set with the help of the **Success button text** and **Failure button text** buttons.
 
 ### Additional Settings
 
