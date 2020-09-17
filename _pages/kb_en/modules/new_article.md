@@ -5,7 +5,7 @@ updated_at: '2020-09-17 10:50 +0400'
 identifier: ref_6eza8zzw
 title: Price Countdown
 order: 211
-published: false
+published: true
 ---
 The [Price Countdown](https://market.x-cart.com/addons/price-countdown.html "Price Countdown") addon allows visualising the time left till an offer expires. The addons works in bind with the {% link "Sale" ref_5A6RUbG6 %} addon.
 
