@@ -45,7 +45,7 @@ To enable the counter for a product:
 3. Set a sale price for a product as described {% link "here" ref_5A6RUbG6 %}.
 4. Set the discount date range:
    ![date-range-setting.png]({{site.baseurl}}/attachments/ref_6eza8zzw/date-range-setting.png)
-5. Enable the sale start and expriration toggles.
+5. Enable the sale start and expiration toggles.
 6. Click **Update product** at the bottom of the page.
 
 Also, you can enable the counter for multiple products at once. For this purpose:
