@@ -49,10 +49,19 @@ To enable the counter for a product:
 6. Click **Update product** at the bottom of the page.
 
 Also, you can enable the counter for multiple products at once. For this purpose:
-1. Select product for editing on the product listing page of your store Admin area (Catalog -> Products).
+
+1. Select product for editing on the product listing page of your store Admin area (**Catalog** -> **Products**).
+   ![product-listing-bulk-edit.png]({{site.baseurl}}/attachments/ref_6eza8zzw/product-listing-bulk-edit.png)
+
 2. Click **Bulk edit all** and select **Price and membership**.
-3. On the "Bulk Edit Price And Membership" page adjust the following settigns:
+   ![bulk-edit-price-membership.png]({{site.baseurl}}/attachments/ref_6eza8zzw/bulk-edit-price-membership.png)
+
+3. On the "Bulk Edit Price And Membership" page adjust the following settings:
+   ![bulk-edit-parameters-adjust.png]({{site.baseurl}}/attachments/ref_6eza8zzw/bulk-edit-parameters-adjust.png)
    * Discount date range
    * Start sale at discount start time
    * End sale when discounts expire
+   
+   In case the selected products are not on sale, adjust the related parameters as well as described [here](https://kb.x-cart.com/modules/bulk_edit.html#bulk-edit-price-and-membership "Price Countdown").
 4. Click **Save changes**.
+   ![bulk-edit-save-changes.png]({{site.baseurl}}/attachments/ref_6eza8zzw/bulk-edit-save-changes.png)
