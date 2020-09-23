@@ -163,6 +163,8 @@ If the setting **use_unicode** is set to OFF, clean URLs will be generated using
 
 Note that the setting **use_unicode** applies only to clean URLs that are generated automatically. For example, if you choose to add some clean URLs manually using unicode while the setting **use_unicode** is set to OFF, those manually added clean URLs will remain unicode. Also note that if you choose to change the value of the **use_unicode** setting, the new setting value will affect only the clean URLs that will be generated after the change (any clean URLs that have been auto-generated previously will remain unchanged). 
 
+    
+
 ## Clean URL Aliases
 
 You can also set custom Clean URLs for static targets like `target=bestsellers` or `target=contact_us` (only in the Customer area). To do so, use the [clean_urls_aliases] section and add key-value pairs to set SEO-friendly URLs:
