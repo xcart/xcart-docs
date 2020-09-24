@@ -117,7 +117,7 @@ location / {
 
 ## Tweaking CleanURLs
 
-You can configure the SEO-friendly URLs behavior via the file `XCART_DIRECTORY/etc/config.php`. The config settings you require can be found in the `[clean_urls]` section. Here is the list of all the available settings and their default values:
+You can configure the behavior of SEO-friendly URLs in your X-Cart store via the file `XCART_DIRECTORY/etc/config.php`. The config settings you require can be found in the `[clean_urls]` section. Here is the list of all the available settings and their default values:
 
 ```
 [clean_urls]
@@ -149,6 +149,13 @@ use_canonical_urls_only = On
 ; Changing of this setting will not affect existing url's and requires to re-deploy your store
 category_clean_urls_format = "domain/parent/goalcategory/"
 ```
+
+**Important**: Please use caution when switching the clean URL format for your store's category pages (the setting **category_clean_urls_format** in the file XCART_DIRECTORY/etc/config.php, see above). Namely, if you have more than one product category of the same name at different nesting levels, and the clean URLs for these categories were generated while the category clean URL format was set to "domain/parent/goalcategory" or "domain/parent/goalcategory.html", switching the format to "domain/goalcategory" or "domain/goalcategory.html" may render some of your store's category pages inaccessible. 
+*Example*:
+The category clean URL format in your store is set to "domain/parent/goalcategory".
+You have three categories named "Oils": one located at the root level of your store website (this results in the clean URL `example.com/oils`), one nested in the category "Supplements" (`example.com/supplements/oils`) and one nested in the category "Beauty" (`example.com/beauty/oils`).
+You decide to readjust the category clean URL format from "domain/parent/goalcategory" to "domain/goalcategory". 
+When you do so, the clean URLs are re-generated for all your store's categories following the format "domain/goalcategory", and you get the URL `example.com/oils` for all the three "Oils" categories mentioned above. Now, after someone visits one of the said category pages using the clean URL `example.com/oils`, they will not be able to access any of the other two category pages. Even if you change the conflicting clean URLs for these categories manually to make them accessible again, your store visitors will continue getting onto the page they have already visited until their browser cache is refreshed.
 
 It is recommended to complete the tweaking of clean URLs before your store website is indexed by search engines because if you try to tweak the URLs after your website has been indexed it may be problematic to set up the 301 redirect routing correctly. 
 
