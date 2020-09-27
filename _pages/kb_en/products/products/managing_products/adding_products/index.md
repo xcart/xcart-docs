@@ -13,7 +13,7 @@ redirect_from:
   - /products/products/adding_products.md
   - /products/products/managing_products/adding_products.html
 ---
-There are multiple ways to add products to your store. You can use the built-in add/edit tool to manually create products one by one in the store Admin area, upload products in bulk using a CSV-formatted file, or use an app or the API to [migrate](https://kb.x-cart.com/general_setup/migration/getting_started_with_store_migration.html#step-2-data-migration-with-a-store-migration-app "Adding Products") your product catalog from another platform.
+There are more than one ways to add products to your store. You can use the built-in add/edit tool to manually create products one by one in the store Admin area, or you can upload products to your store in bulk using a CSV-formatted file. For some X-Cart versions, there's also an option to [migrate](https://kb.x-cart.com/general_setup/migration/getting_started_with_store_migration.html#step-2-data-migration-with-a-store-migration-app "Adding Products") your product catalog from another platform to X-Cart using a migration app.
 
 This guide covers the basics of how to create a product in the store admin area manually. 
 
