@@ -18,12 +18,12 @@ There are multiple ways to add products to your store - you can use the built-in
 This guide covers the basics of how to create a product in the store admin area manually. 
 
 {% note info %}
-If you're interested in creating a product through an imported spreadsheet, please refer to {% link "Import-Export" ref_TANvG2De %}. 
+If you are interested in creating a product through an imported spreadsheet, see the section {% link "Import-Export" ref_TANvG2De %} for more information. 
 {% endnote %}
 
 {% toc %}
 
-To create a product it's enough to spesify its name only. The rest of the product details can be configured later on if required:
+To create a product, it is enough just to specify its name. The rest of the product details can be configured later on.
 
 *  {% link "Product Details" ref_2D8wAeXP %}
 *  {% link "Advanced Product Details" ref_2kV8GKN7 %}
