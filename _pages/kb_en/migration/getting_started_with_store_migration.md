@@ -24,7 +24,7 @@ This guide explains the main steps to set up an X-Cart store. Please refer to it
 
 2.  If you have a web server, check if it meets [X-Cart system requirements](http://kb.x-cart.com/en/general_setup/installation_guide.html#server-requirements) and make the necessary adjustments. 
 
-    If you have no web server, or it doesn’t qualify, consider [X-Cart Hosting](http://www.x-cart.com/hosting.html), which is fine-tuned for optimal X-Cart performance, or select one of our [trusted partners](http://partners.x-cart.com/hosting-companies).
+    If you have no web server, or it does not qualify, consider [X-Cart Hosting](http://www.x-cart.com/hosting.html), which is fine-tuned for optimal X-Cart performance, or select one of our [trusted partners](http://partners.x-cart.com/hosting-companies).
 
 3.   Once the hosting is ready, proceed to X-Cart installation. See a detailed Installation guide [here](http://kb.x-cart.com/en/general_setup/installation_guide.html#installation-process).
 
@@ -35,7 +35,7 @@ This guide explains the main steps to set up an X-Cart store. Please refer to it
 
 The easiest way to migrate store data is to use the service provided by X-Cart partners Cart2Cart. They guarantee the finest quality of data transfer to your new X-Cart store. With a number of ready-made migration addons that we provide, this task should be easy.
 
-1.   Open X-Cart Admin back end –> My addons –> View more addons in Marketplace and search by the term "migrate". 
+1.   Open your X-Cart store's Admin back end –> My addons and search the X-Cart App Store using the word "migrate". 
 
 2.   Find the addon showing the name of your current shopping cart platform. Presently, we support migration from Magento, WooCommerce, PrestaShop, Shopify, OsCommerce, BigCommerce, Interspire, ZenCart and [more](https://market.x-cart.com/search/?substring=cart2cart), see the entire list in the Marketplace via the X-Cart Admin area. 
 
