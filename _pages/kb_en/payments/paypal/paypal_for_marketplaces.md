@@ -60,20 +60,20 @@ To add the payment method "PayPal for Marketplaces" for your store:
     
 4. **Save** your configuration settings
 
-{% note info %}
-You can connect an additional PayPal Business Account to your X-Cart if required:
-![connect-business-account.png]({{site.baseurl}}/attachments/ref_6iphJijP/connect-business-account.png)
+   {% note info %}
+   You can connect an additional PayPal Business Account to your X-Cart if required:
+   ![connect-business-account.png]({{site.baseurl}}/attachments/ref_6iphJijP/connect-business-account.png)
 
-Click _Connect to PayPal link_ to access the PayPal sign-in page and sign in using your PayPal account different from the account specified above in your account settings. This additional account will be used to receive the shipping cost (if you are going to ship out goods on behalf of vendors), the earnings on your own products (if you are going to be one of the sellers), and the earnings on the sales of the vendors who have not set up a PayPal Business account of their own for some reason.
+    Click _Connect to PayPal link_ to access the PayPal sign-in page and sign in using your PayPal account different from the account specified above in your account settings. This additional account will be used to receive the shipping cost (if you are going to ship out goods on behalf of vendors), the earnings on your own products (if you are going to be one of the sellers), and the earnings on the sales of the vendors who have not set up a PayPal Business account of their own for some reason.
 
-If this option in not configured and there is a vendor with a not configured PayPal Business account, a customer will not be able to pay an order via PayPal for Marketplaces payment in case a product from such vendor is added to cart.
-{% endnote %}
+    If this option in not configured and there is a vendor with a not configured PayPal Business account, a customer will not be able to pay an order via PayPal for Marketplaces payment in case a product from such vendor is added to cart.
+    {% endnote %}
 
 5. Make sure the new PayPal for Marketplaces  payment method is active.
    <div class="ui stackable two column grid">
      <div class="column" markdown="span">![541-ppfm-on-settings-page.png]({{site.baseurl}}/attachments/ref_6iphJijP/541-ppfm-on-settings-page.png)</div>
      <div class="column" markdown="span">![541-ppfm-on-payments-page.png]({{site.baseurl}}/attachments/ref_6iphJijP/541-ppfm-on-payments-page.png)</div>
-  </div>
+    </div>
 
 Once the above steps have been completed, shoppers at your store should be able to select this method at checkout and use it for payment. By default, the name of this payment method will appear to shoppers simply as “PayPal”:
 
@@ -149,4 +149,3 @@ If a vendor fails to specify the appropriate PayPal Business account, the money 
 
 All auto-generated PayPal for Marketplaces payments transactions showing the receipt of funds by the store vendors are recorded in the **Vendor transactions** section of the Admin area (**Orders** > **Vendor transactions**) and in the **My transactions** section of the Vendor area (**My account** -> **My transactions**):
 ![vendor-transactions-edited.png]({{site.baseurl}}/attachments/ref_6iphJijP/vendor-transactions-edited.png)
-
