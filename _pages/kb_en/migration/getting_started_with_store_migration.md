@@ -12,7 +12,7 @@ redirect_from:
 ---
 ![migration.jpg]({{site.baseurl}}/attachments/ref_otTGssNZ/migration.jpg)
 
-This guide explains the main steps to set up an X-Cart store. Please refer to it to make sure you don't forget any key tasks before the store launch. [Contact X-Cart professionals](https://www.x-cart.com/contact-us.html) if you need assistance at any step: we’re just one call or email away ;)
+This guide explains the main steps to set up an X-Cart store. Please refer to it to make sure you will not forget any key tasks before the store launch. [Contact X-Cart professionals](https://www.x-cart.com/contact-us.html) if you need assistance at any step; we are just one call or email away ;)
 
 {% toc CONTENTS %}
 
