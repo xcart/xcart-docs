@@ -50,7 +50,7 @@ These are the options that will be applied to both domestic and international sh
 ![package-settings.png]({{site.baseurl}}/attachments/ref_0uCGd6Bs/package-settings.png)
 
 *   **Package box type**: Select the type of packaging that will be used for shipments.
-*   **Package dimensions (IN)** (Length, Width, Height): Use these fields to define the default package size for USPS shipments in inches.
+*   **Package dimensions (IN)** (Length, Width, Height): Use these fields to define the default package size for UPS shipments in inches.
 *   **Maximum package weight (lbs)**: Specify the top limit of package's weight in lbs.
 
 ## Service Options
@@ -96,4 +96,4 @@ This is an option that is helpful, but do not affect shipping rates calculation:
  
 This option enables logging of requests to the UPS server and responses from it. The logs are saved to **UPS.log** files in the `<X-Cart>/var/log/` folder.
 
-Don't forget to save the changes when the USPS shipping configuration is complete.
+Don't forget to save the changes when the UPS shipping configuration is complete.
