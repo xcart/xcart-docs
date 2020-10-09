@@ -69,7 +69,7 @@ The checkout process for an unregistered customer and for a registered but not l
 
 ### Anonymous Checkout
 
-X-Cart allows anonymous or guest checkout for your customers. This means that if a customer is not registered in your store they do not need to create an account and can proceed to checkout specifying an email only. During checkout, such a customer will need to specify their shipping and billing addresses, and choose a delivery and payment method. X-Cart will allow them to place the order only after all the fields have been completed properly.
+X-Cart allows anonymous or guest checkout for your customers. This means that if a customer is not registered in your store they do not need to create an account and can proceed to checkout specifying an email only. During checkout, such a customer will need to specify their shipping and billing addresses, and choose a delivery and payment method. X-Cart will allow them to place an order only after all the fields have been completed properly.
 
 {% note info %}
 Before the actual shipping and billing address info is specified, X-Cart calculates taxes and shipping cost based on the default customer address predefined in the store.
@@ -86,7 +86,9 @@ Customers without an account can choose to create an account using the data that
 
 The fact that a customer does not create an account during guest checkout does not mean that no account is created for this customer at all. Guest checkout or not, X-Cart creates a customer account for the email used to place an order and registeres it in the **Users** section on the Admin area. Any orders that are placed further using this email are assigned to the same customer account. If later this customer decides to create an account with the email that was used for placing orders at the store previously, the store administrator will be able to join these two customer accounts (one created by X-Cart and one created by the customer) together keeping the info on the previously placed orders safe.
 
-It is possible to disable anonymous checkout. To do so, enable the option **Ask anonymous users to sign in before checkout** on the Cart&Checkout page of X-Cart Admin area (**Store setup** -> **Cart&Checkout**, **General** tab).
+It is possible to facilitate anonymous user sign-in at checkout. To do so, enable the option **Ask anonymous users to sign in before checkout** on the Cart&Checkout page of X-Cart Admin area (**Store setup** -> **Cart&Checkout**, **General** tab). In this case anonymous users will be prompted to sign in before placing an order. 
+
+To disable anonymous checkout completely use the features of the {% link "Register on Checkout" ref_1IYxME8O %} add-on.
 
 
 ### Registered Checkout
