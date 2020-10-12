@@ -35,7 +35,7 @@ Here is the system requirements list:
     **X-Cart v5.4.0.x and later** : PHP __7.2__ or higher / MySQL __5.7.7__ or higher
     
     {% note info %}
-    You can also use the MySQL-compatible database engine MariaDB.
+    You can also use the MySQL-compatible database engine MariaDB v10.2.4 and higher.
     {% endnote %}
 	
 *   __PDO__ extension with MySQL driver
