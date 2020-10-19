@@ -7,8 +7,6 @@ title: Установка модуля Надёжные и ненадёжные 
 order: 450
 published: true
 ---
-Модуль **Надёжные и ненадёжные продавцы (Trusted/Non-trusted vendors)** входит в _X-Cart Мультивендор_ и _X-Cart Всё включено_. 
-
 {% link "Установите модуль из маркетплейса" ref_gpeZtm28 %}.
 
 ![4.jpg]({{site.baseurl}}/attachments/ref_1vEboSvs/4.jpg)
