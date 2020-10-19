@@ -12,7 +12,7 @@ order: 100
 published: true
 ---
 
-In this tutorial from [http://babymonkeystudios.com](http://babymonkeystudios.com/ "http://babymonkeystudios.com") we will investigate editing the products list that displays in feature products and category pages. This should show you how to both make such a change, and how to divine where the change is needed. You can apply the lessons learned to most any type of change you want to make in the templates. 
+In this tutorial from [http://babymonkeystudios.com](http://babymonkeystudios.com/ "http://babymonkeystudios.com") we will investigate editing the products list that displays in feature products and category pages. This should show you how to both make such a change, and how to divine where the change is needed.  You can apply the lessons learned to most any type of change you want to make in the templates. 
 
 **Tools Used**: 
 
