@@ -12,7 +12,7 @@ redirect_from:
   - /changing_store_logic/creating_a_payment_method/index.html
 ---
 ## Introduction
-This article is a continuation of the guide about {% link "creating payment method" ref_U1KitTMm %}. During this article, we will assume that you are already familiar with that guide and we will show you how to add a **settings form** for the payment method described there.
+In this article we will show you how to add a **settings form** for a payment method.
 
 ## Table of Contents
 *   [Introduction](#introduction)
