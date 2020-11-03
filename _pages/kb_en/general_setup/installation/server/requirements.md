@@ -24,7 +24,7 @@ Here is the system requirements list:
     {% endnote %}
     
 *   __PDO__ extension with MySQL driver
-*   __Phar__ extension
+*   __Phar__ extension (Required for the processes of updating/upgrading your X-Cart 5 store and addon installation. Phar version requirements may differ depending on the other components of your system. If you experience problems while trying to run an update/upgrade or to install an addon, try using Phar v.2.0.1 or later.)
 *   __mbstring__ extension is highly recommended (though X-Cart has a polyfill for it, native extension will speed up string processing)
 *   200-300Mb of disk space
 *   libCURL module support (The minimum required CURL version is 7.39.0; version 7.43.0 is recommended.)
@@ -52,7 +52,7 @@ Here is the system requirements list:
     
     Any other cachers should not strip comments from the code, too.
 *   [Suhosin](https://suhosin.org/stories/index.html "Installation Guide") PHP extension might interfere with the proper work of X-Cart 5, so you should disable it. 
-*   The processes of updating/upgrading your X-Cart 5 store and addon installation require Phar extension. Phar version requirements may differ depending on the other components of your system. If you experience problems while trying to run an update/upgrade or to install an addon, try using Phar v.2.0.1 or later.
+
 
 ## Hardware Requirements
 
