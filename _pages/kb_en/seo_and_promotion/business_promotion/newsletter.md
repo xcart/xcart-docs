@@ -31,4 +31,4 @@ A newsletter should showcase what your expertise is and how you can help custome
 
 To create a business newsletter, you can use the default X-Cart 5 addon {% link "Newsletter Subscriptions" ref_2WzsM3Pg %}, or you can join an autoresponder business - {% link "Mailchimp" ref_Rox8AcJp %}.
 
-The Newsletters Subscriptions addon can be used for newsletters as an e-mail base only, as it collects the subscibers list that you can then export and use for mailing. Mailchimp integration allows both to automate the emails collection and the newsletters sending facilities, but a full access to services may require a paid subscription.
+The Newsletters Subscriptions addon can be used for newsletters as an e-mail base only, as it collects the subscribers list that you can then export and use for mailing. Mailchimp integration allows both to automate the emails collection and the newsletters sending facilities, but a full access to services may require a paid subscription.
