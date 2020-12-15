@@ -7,31 +7,33 @@ title: ‘Mailchimp Integration with E-commerce Support’ Addon Facilities
 order: 350
 published: true
 ---
-Mainly, all work with the Mailchimp lists and newsletters is to be conducted on the Mailchimp side. X-Cart integration of the ‘Mailchimp Integration with E-commerce Support’ addon allows veiwing Mailchimp audiences that are uploaded to the X-Cart Admin area automatically and checking customers' subscriptions. The audiences creation and management as well as the subscription lists management themselves are done on the Mailchimp side. 
+Mainly, all work with the Mailchimp lists and newsletters is conducted on the Mailchimp side. The Mailchimp Integration with eCommerce Support add-on in X-Cart allows viewing Mailchimp audiences uploaded to the store Admin area automatically and checking customers’ subscriptions. The audiences creation and management and the subscription lists management themselves are done on the Mailchimp side.
 
 {% toc %}
 
 ## Viewing Mailchimp Lists
 
-Once the "Mailchimp Integration with Ecommerce support" addon has been {% link "installed" ref_w5MRyybe %} and {% link "configured" ref_ST1QnErC %} Mailchimp audiences are automatically uploaded to the **Marketing** -> **Mailchimp lists** section of your X-Cart Admin area:
+After you have connected your store to your Mailchimp account and configured the add-on Mailchimp Integration with eCommerce Support, Mailchimp audiences are automatically uploaded to the **Marketing -> Mailchimp Lists** section of your X-Cart Admin area:
+
 ![mailchimp-lists.png]({{site.baseurl}}/attachments/ref_dHGZpSCX/mailchimp-lists.png)
 
 {% note info %}
 For X-Cart 5.3.x and earlier Mailchimp audiences are displayed in the **Sales channels** -> **Mailchimp lists** section.
 {% endnote %}
 
-All the Mailchimp lists that you will see in the **Marketing** -> **Mailchimp lists** section of your store Admin area are created and managed on the Mailchimp end outside your X-Cart based store. For more info on Mailchimp lists (they are called "audience" there), see the Mailchimp Knowledge Base [article](http://kb.mailchimp.com/lists). 
+Be sure to check this page and do as follows:
 
-Any lists and list groups configured in your Mailchimp account before your X-Cart store have been connected to Mailchimp are imported into your X-Cart store automatically. However, if the actual state of your lists is not displayed correctly on the **Marketing** -> **Mailchimp lists** page of your store Admin area (e.g. after the audiences/groups have been editied recently), use the **Update Mailchimp Lists** button on the "Mailchimp Integration" addon settings page in X-Cart to synchronize the data between the systems. 
+* Use the ON/OFF button in front of the name of a specific list and group to specify the lists and groups that should be active for your store. The active lists and groups will be visible on the forms that your store users will use to select the lists/groups they want to subscribe to. Inactive lists/groups will not appear on such forms, and thus your store users will not be able to select them.
+* Use the checkboxes in the “Subscribe by default” column to specify which lists and groups a user should be subscribed to if they opted in to receive your store’s email newsletter via a single check box option (without choosing the specific lists/groups - for example, by subscribing via the “Sign up for _My_Store_ news” box in the site footer, or by choosing the option “Subscribe to our news list and be in touch with our latest offers” during checkout).
+
+All Mailchimp lists you will see on the **Marketing -> Mailchimp Lists** page of your store Admin area are created and managed on the Mailchimp dashboard outside your X-Cart based store. For more info on Mailchimp lists (called “audience” there), see the Mailchimp Knowledge Base [article](http://kb.mailchimp.com/lists). 
+
+Any lists and list groups configured in your Mailchimp account before your X-Cart store has been connected to Mailchimp are automatically imported into your store. However, if the actual state of your lists does not display correctly on the **Marketing -> Mailchimp Lists** page of your store Admin area (e.g., after the audiences/groups have been edited recently), use the **Update Mailchimp Lists** button on the add-on settings page in X-Cart to synchronize the data between the systems. 
 ![update-lists-button.png]({{site.baseurl}}/attachments/ref_dHGZpSCX/update-lists-button.png)
 
-In any case, you need to make sure that the audiences and groups you have configured on the Mailchimp end are visible on the **Marketing** > **Mailchimp lists** page in your X-Cart store's Admin area. Be sure to check this page and do as follows:
-   
-   * Use the ON/OFF buttons before a name of a specific list and group to specify the lists and groups that should be active for your store. The active lists and groups will be visible on the forms that your store users will use to select the lists/groups to which they want to subscribe. Inactive lists/groups will not appear on such forms, and thus your store users will not be able to select them.
-   
-   * Use the check boxes in the "Subscribe by default" column to specify which lists and groups a user should be subscribed to if they opt in to receive your store's email newsletter via a single check box option (without choosing the specific lists/groups - for example, by subscribing via the "Sign up for *Your company name* news" box in the site footer, or by choosing the option "Subscribe to our news list and be in touch with our latest offers" during checkout).
+In any case, you need to make sure that the audiences and groups you have configured in Mailchimp are visible on the **Marketing > Mailchimp Lists** page in your X-Cart store’s Admin area. 
 
-## Monitoring Mailchimp Subscribtions
+## Monitoring Mailchimp Subscriptions
 
 Once the "Mailchimp Integration with Ecommerce support" addon has been {% link "installed" ref_w5MRyybe %} and {% link "configured" ref_ST1QnErC %} the customers of your X-Cart based store can subscribe to Mailchimp newsletters using the regular newsletter subscription form on your site (i.e. your store will no longer record customers subscriptions to newsletters in the **Marketing** -> **Newsletters** section, but add them directly to your Mailchimp audiences). 
 
