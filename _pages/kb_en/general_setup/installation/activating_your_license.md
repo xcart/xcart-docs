@@ -6,21 +6,20 @@ identifier: ref_qwhmJtqW
 title: Activating Your License
 categories:
   - User manual
-published: true
+published: false
 order: 10
 redirect_from:
   - /general_setup/activating_your_license.html
 ---
+To use X-Cart 5, you need a license which must be activated for your store. 
 
-The X-Cart 5 package available for download from the [www.x-cart.com](https://www.x-cart.com/download.html) website is a 30-day feature-complete trial of the X-Cart 5 Business edition. This trial package is licensed for evaluation purposes only. To use your X-Cart 5 installation for purposes other than evaluation, you need an Enterprise X-Cart 5 license (like Business, Multivendor or Ultimate) which must be activated for your store. The feature comparison guide for the different types of Enterprise X-Cart license is [available on our website](https://www.x-cart.com/software-pricing.html).
+Paid (non-free) add-ons for X-Cart 5 are also provided with licenses that require activation.
 
-For each X-Cart 5 license you purchase you get a license activation key which you must use to activate your license. Paid (non-free) addons for X-Cart 5 are also provided with licenses that require activation.
+For each X-Cart 5 license you get a license activation key which you must use to activate your license. 
 
-{% toc %}
+This guide shows how to activate licenses for X-Cart core software (X-Cart Enterprise and X-Cart Enterprise Multivendor editions) and for X-Cart add-ons.
 
-## Activate an Enterprise X-Cart 5 License (Business / Multivendor / Ultimate)
-
-This section explains how to activate a license for X-Cart 5 Business, Multivendor and Ultimate editions.
+## Activate a License for X-Cart Enterprise or X-Cart Enterprise Multivendor
 
 If you do not yet have an enterprise license but want to purchase one, you can do so straight from the Admin area of an installed X-Cart trial. The most evident method is to choose the option to **Purchase a premium license key** in the popup box with the X-Cart trial expiration notice (appears every time you sign in to the Admin area):               
 ![license-expiration-popup.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/license-expiration-popup.png)
@@ -61,7 +60,7 @@ You will notice that the Admin area header now shows the license type you have a
 
 (The screenshot above demonstrates the result of activating an Ultimate license; for Multivendor license this would be "Multivendor", and for Business license this would be "Business").
 
-## Activate an X-Cart 5 Addon License
+## Activate a License for an X-Cart 5 Add-on
 
 This section covers the topic of license activation for paid (non-free) addons for X-Cart 5.
 
@@ -89,6 +88,4 @@ That is all. Your addon license has been activated, and the addon has been insta
 
 _Related pages:_
 
-*   Video: {% link "X-Cart 5 Business License Activation" ref_UUrbypsh %}
-*   Video: {% link "X-Cart 5 Addon License Activation" ref_hU6Rb4tw %}
 *   {% link "Installing Addons from the X-Cart App Store" ref_Vn1mMUw9 %}
