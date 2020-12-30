@@ -45,7 +45,7 @@ To activate your license:
    * App Store
    * Theme Store
    ![service_my_apps1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps1.png)
-   These sections provide a button for license activation (**Activate license key**). For example, here you can see in the My Apps section:
+   These sections provide a button for license activation: **Activate license key**. For example, here you can see in the My Apps section:
        ![service_my_apps2.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps2.png)
    In the other sections, the button is located similarly.
    
