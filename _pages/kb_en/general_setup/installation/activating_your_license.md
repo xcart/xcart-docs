@@ -86,7 +86,7 @@ This involves automatic re-deployment of your store.
 The process may take as long as a few minutes. Please keep the page open until the re-deployment process has been fully completed.
 
 Once the addon installation and store re-deployment have been completed, you will see a success message. 
-![all_done.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/all_done.png)
+    ![all_done.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/all_done.png)
 
 That is all. Your addon license has been activated, and the addon has been installed. 
 
