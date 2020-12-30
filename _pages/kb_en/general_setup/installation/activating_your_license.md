@@ -6,7 +6,7 @@ identifier: ref_qwhmJtqW
 title: Activating Your License
 categories:
   - User manual
-published: false
+published: true
 order: 10
 redirect_from:
   - /general_setup/activating_your_license.html
