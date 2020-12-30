@@ -34,4 +34,4 @@ If, however, HTTPS may not be enabled properly at this time, you can restore acc
     UPDATE `xc_config` SET `value`=0 WHERE `name`="admin_security" OR `name`="customer_security";
     ```
 
-2.  Remove the folder **var/datacache/** in your X-Cart insallation directory.
+2.  Remove the folder **var/datacache/** in your X-Cart installation directory.
