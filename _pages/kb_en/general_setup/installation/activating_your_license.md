@@ -21,44 +21,47 @@ This guide shows how to activate licenses for X-Cart core software (X-Cart Enter
 
 ## Activate a License for X-Cart Enterprise or X-Cart Enterprise Multivendor
 
-If you do not yet have an enterprise license but want to purchase one, you can do so straight from the Admin area of an installed X-Cart trial. The most evident method is to choose the option to **Purchase a premium license key** in the popup box with the X-Cart trial expiration notice (appears every time you sign in to the Admin area):               
-![license-expiration-popup.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/license-expiration-popup.png)
+After you have paid for your X-Cart Enterprise or X-Cart Enterprise Multivendor license, you get a message at your license registration email address with the subject "**Your X-Cart 5 license key**". This message contains a 16-letter code for license activation. This code is your license key. 
 
-Other methods to access the **Purchase a premium license key** button are:
+The same key is stored in your personal HelpDesk account in the section **My Licenses**:
+       ![mylicenses.jpg]({{site.baseurl}}/attachments/ref_qwhmJtqW/mylicenses.jpg)
 
-   *   _Method 1:_ Click **Activate license key** in the Admin area site header:
-        ![activate-license-key-button-header.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/activate-license-key-button-header.png)
+You will want to have this key at the ready when activating your license. 
 
-    
-   *   _Method 2:_ Click **Activate license key** in the My Addons section (accessible via the **My addons** section):
-        ![activate_in_myaddons.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/activate_in_myaddons.png)
+If you think something is wrong and you cannot find the email message with your license key and/or experience problems logging in to your HelpDesk account, please contact X-Cart's Customer Service at **[support@x-cart.com](mailto:support@x-cart.com)**.
+ 
+To activate your license:
+
+1. If you have not yet done so, log in to the Admin area of your X-Cart 5 store.
+
+2. Click **My addons**.
+       ![myaddons.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/myaddons.png)
        
-When you purchase an X-Cart 5 Business, Multivendor or Ultimate license, a message is sent to your license registration email address with the subject "**Your X-Cart 5 license key**". This message contains a 16-letter code that you must use to activate your license. 
+   This allows you to access the Service Tool - a screen from which you can access X-Cart App Store and X-Cart Theme Store, manage your store's apps (add-ons) and run software updates. 
+       ![service_my_apps.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps.png)
 
-The key is also stored in your personal HelpDesk account in the section **My Licenses**:
-       ![]({{site.baseurl}}/attachments/8225232/8356149.png)
+3. To proceed with license activation, you need to be in any of the following sections of the Service Tools screen:
+   * My Apps 
+   * App Store
+   * Theme Store
+       ![service_my_apps1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps1.png)
+   These sections provide a button for license activation (**Activate license key**). For example, here you can see in the My Apps section:
+       ![service_my_apps2.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps2.png)
+   In the other sections, the button is located similarly.
+   
+   To access the license activation form, click the **Activate license key** button.
 
-Be sure to have this key at the ready when you are going to activate your license.
+2. In the license activation form, enter your 16-letter license key and click **Activate**. 
+       ![enter_license_key.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/enter_license_key.png)
 
-If you lost the email message with your license key and experience problems logging in to your HelpDesk account, please contact X-Cart's Customer Service at **[support@x-cart.com](mailto:support@x-cart.com)**.
-
-To activate your license, log in to the Admin area of your X-Cart 5 installation and submit your license key via the form for license activation. 
-       ![license-key-activation-popup.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/license-key-activation-popup.png)
-
-In X-Cart trial version, the form for license activation can be accessed using the methods described above. If you have activated an X-Cart license previously, the license activation form is available only via the **Activate license key** button in the My Addons section. 
-       ![activate_in_myaddons.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/activate_in_myaddons.png)
-
-X-Cart will activate your license. The store may be re-deployed. The process may take as long as a few minutes. Take care not to close the page before the process has been fully completed.
+       
+X-Cart will activate your license. The store may be re-deployed. The process may take as long as a few minutes. Please keep the page open until the re-deployment process has been fully completed.
 
 In the end, you should see a success message.
        ![all_done.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/all_done.png)
 
 Now you should check that you can open your X-Cart store Admin area and storefront, and navigate a few pages to make sure everything looks good (no error messages or obvious page display problems). 
-
-You will notice that the Admin area header now shows the license type you have activated:
-        ![license-activated.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/license-activated.png)
-
-(The screenshot above demonstrates the result of activating an Ultimate license; for Multivendor license this would be "Multivendor", and for Business license this would be "Business").
+        
 
 ## Activate a License for an X-Cart 5 Add-on
 
