@@ -71,23 +71,20 @@ When you purchase an X-Cart 5 addon license, you need to activate it. Within min
 
 To activate an addon license, do the following:
 
-1.  Log in to the Admin area of your X-Cart 5 installation and go to the X-Cart App Store (via the **My addons** item in the main menu).
+1.  Log in to the Admin area of your X-Cart 5 store and click **My addons**.
 
-2.  Access the license activation form by clicking **Activate license key** above the list of addons:
-    ![activate_in_myaddons.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/activate_in_myaddons.png)
-    The form for license activation looks as follows:
-    ![addon-license-activation-popup.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/addon-license-activation-popup.png)
+2.  Access the license activation form by clicking the **Activate license key** button. 
+     ![service_my_apps2.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps2.png)
    
-    If you are using the trial version, you will be requested to activate your X-Cart 5 license before you can activate the addon license.
+    If you are using a trial, you will be requested to activate your X-Cart 5 license before you can activate the addon license.
 
 3.  Enter your license key into the appropriate field and click **Activate**.
+    ![enter_license_key.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/enter_license_key.png)
 
 Provided that the submitted license key is valid, X-Cart will install and activate the addon. 
-This involves automatic re-deployment of your store. The process may take as long as a few minutes. Take care not to close the page before the process has been fully completed.
+This involves automatic re-deployment of your store. The process may take as long as a few minutes. Please keep the page open until the re-deployment process has been fully completed.
 
-Once the addon installation and store re-deployment has been completed, you should see a success message.
-
-That is all. Your addon license has been activated, and the addon has been installed. 
+Once the addon installation and store re-deployment have been completed, you will see a success message. That is all. Your addon license has been activated, and the addon has been installed. 
 
 _Related pages:_
 
