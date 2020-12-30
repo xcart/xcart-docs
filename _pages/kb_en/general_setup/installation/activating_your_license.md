@@ -21,10 +21,10 @@ This guide shows how to activate licenses for X-Cart core software (X-Cart Enter
 
 ## Activate a License for X-Cart Enterprise or X-Cart Enterprise Multivendor
 
-After you have paid for your X-Cart Enterprise or X-Cart Enterprise Multivendor license, you get a message at your license registration email address with the subject "**Your X-Cart 5 license key**". This message contains a 16-letter code for license activation. This code is your license key. 
+After you have paid for your X-Cart Enterprise or X-Cart Enterprise Multivendor license, you get a message at your license registration email address with the subject "**Activate your X-Cart license with the key inside**. This message contains a 16-letter code for license activation. This code is your license key. 
 
 The same key is stored in your personal HelpDesk account in the section **My Licenses**:
-       ![mylicenses.jpg]({{site.baseurl}}/attachments/ref_qwhmJtqW/mylicenses.jpg)
+![mylicenses.jpg]({{site.baseurl}}/attachments/ref_qwhmJtqW/mylicenses.jpg)
 
 You will want to have this key at the ready when activating your license. 
 
@@ -35,16 +35,16 @@ To activate your license:
 1. If you have not yet done so, log in to the Admin area of your X-Cart 5 store.
 
 2. Click **My addons**.
-       ![myaddons.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/myaddons.png)
+   ![myaddons.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/myaddons.png)
        
    This allows you to access the Service Tool - a screen from which you can access X-Cart App Store and X-Cart Theme Store, manage your store's apps (add-ons) and run software updates. 
-       ![service_my_apps.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps.png)
+   ![service_my_apps.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps.png)
 
 3. To proceed with license activation, you need to be in any of the following sections of the Service Tools screen:
    * My Apps 
    * App Store
    * Theme Store
-       ![service_my_apps1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps1.png)
+   ![service_my_apps1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps1.png)
    These sections provide a button for license activation (**Activate license key**). For example, here you can see in the My Apps section:
        ![service_my_apps2.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps2.png)
    In the other sections, the button is located similarly.
