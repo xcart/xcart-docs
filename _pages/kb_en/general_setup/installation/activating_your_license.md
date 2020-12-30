@@ -54,14 +54,11 @@ To activate your license:
    To access the license activation form, click this button.
 
 2. In the license activation form, enter your 16-letter license key and click **Activate**. 
-   ![enter_license_key.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/enter_license_key.png)
+   ![enter_license_key1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/enter_license_key1.png)
 
-X-Cart will activate your license. The store may be re-deployed. The process may take as long as a few minutes. Please keep the page open until the re-deployment process has been fully completed.
 
-In the end, you should see a success message.
-       ![all_done.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/all_done.png)
-
-Now you should check that you can open your X-Cart store Admin area and storefront, and navigate a few pages to make sure everything looks good (no error messages or obvious page display problems). 
+X-Cart will activate your license. You should see a success message.
+   ![license_activation_success.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/license_activation_success.png)
         
 
 ## Activate a License for an X-Cart 5 Add-on
@@ -79,13 +76,19 @@ To activate an addon license, do the following:
    
     If you are using a trial, you will be requested to activate your X-Cart 5 license before you can activate the addon license.
 
-3.  Enter your license key into the appropriate field and click **Activate**.
-    ![enter_license_key.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/enter_license_key.png)
+3.  Enter your 16-letter license key into the appropriate field and click **Activate**.
+    ![enter_license_key1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/enter_license_key1.png)
 
 Provided that the submitted license key is valid, X-Cart will install and activate the addon. 
-This involves automatic re-deployment of your store. The process may take as long as a few minutes. Please keep the page open until the re-deployment process has been fully completed.
+This involves automatic re-deployment of your store. 
+![redeploy.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/redeploy.png)
 
-Once the addon installation and store re-deployment have been completed, you will see a success message. That is all. Your addon license has been activated, and the addon has been installed. 
+The process may take as long as a few minutes. Please keep the page open until the re-deployment process has been fully completed.
+
+Once the addon installation and store re-deployment have been completed, you will see a success message. 
+![all_done.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/all_done.png)
+
+That is all. Your addon license has been activated, and the addon has been installed. 
 
 _Related pages:_
 
