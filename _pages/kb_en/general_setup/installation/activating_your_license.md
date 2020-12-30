@@ -45,16 +45,17 @@ To activate your license:
    * App Store
    * Theme Store
    ![service_my_apps1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps1.png)
+   
    These sections provide a button for license activation: **Activate license key**. For example, here you can see in the My Apps section:
-       ![service_my_apps2.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps2.png)
+   ![service_my_apps2.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/service_my_apps2.png)
+   
    In the other sections, the button is located similarly.
    
-   To access the license activation form, click the **Activate license key** button.
+   To access the license activation form, click this button.
 
 2. In the license activation form, enter your 16-letter license key and click **Activate**. 
-       ![enter_license_key.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/enter_license_key.png)
+   ![enter_license_key.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/enter_license_key.png)
 
-       
 X-Cart will activate your license. The store may be re-deployed. The process may take as long as a few minutes. Please keep the page open until the re-deployment process has been fully completed.
 
 In the end, you should see a success message.
