@@ -48,9 +48,8 @@ A video guide for installing X-Cart (filmed using X-Cart 5.3.1.4) is available:
 
 ### Upload X-Cart 5 onto Your Server
 
-1.  Download an X-Cart 5 package from this page: [http://www.x-cart.com/download.html](http://www.x-cart.com/download.html)
-2.  Upload the downloaded package onto your server.
-3.  The package is an archive, so unpack it to the web-root directory of your server. You can do it using the archive tools of your Control panel or using the following command via SSH: 
+1.  Upload your X-Cart package onto your server.
+2.  The package is an archive, so unpack it to the web-root directory of your server. You can do it using the archive tools of your Control panel or using the following command via SSH: 
 
     for zip archive: 
 
@@ -64,7 +63,7 @@ A video guide for installing X-Cart (filmed using X-Cart 5.3.1.4) is available:
     tar -xzpf x-cart-5.4.1.21-en.tgz
     ```
 
-    (Be sure to replace the file name with the actual name of the archive you have downloaded).
+    (Be sure to replace the file name with the actual name of your package archive).
 
 ### Create an Empty Database
 
