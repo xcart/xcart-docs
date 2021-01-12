@@ -293,7 +293,7 @@ $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 $result = $client->delete('product')->json();
 ```
 
-## Adding attribute to the product
+## Adding attributes to the product
 
 With REST API Client:
 
@@ -369,7 +369,7 @@ $result = $client
     ->json();
 ```
 
-## Adding attribute to the product
+## Adding variants to the product
 
 With REST API Client:
 
