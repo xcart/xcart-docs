@@ -100,8 +100,8 @@ in the **Data provider** field.
 In the **User ID**, you need to specify the User ID provided to you by USPS.
 
 In the **USPS API server URL** field, you need to specify the URL provided to you by U.S.P.S. in the notification about your successful registration for the U.S. Postal Service's Web Tools Application Program Interfaces. For example:
-http://stg-production.shippingapis.com/ShippingApi.dll
-http://production.shippingapis.com/ShippingAPI.dll
+https://stg-production.shippingapis.com/ShippingApi.dll
+https://production.shippingapis.com/ShippingAPI.dll
 
 {% note info %}
 If you experience a problem that USPS worked fine in test mode, but does not work properly in live mode (usually you receive the **API Authorization failure. RateV4 is not a valid API name for this protocol** error message), you should [contact USPS support staff](https://www.usps.com/help/contact-us.htm) and ask them to transfer your account to production server.
