@@ -10,7 +10,7 @@ redirect_from:
   - /modules/pin_codes/admin_experience.html
 ---
 To use the addon **PIN codes**, the store administrator must enable and configure it. For instructions, see:
-   * {% link "PIN Codes Addon: Installation and Setup" ref_1dsuHf3i %}
+   * {% link "PIN Codes Addon: Installation and Setup" ref_5uEPaGnt %}
    
 Once the addon has been configured, it is time to configure some PIN code products. See:   
    * {% link "Managing PIN Code Products" ref_5kUqjYZ7 %}
