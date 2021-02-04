@@ -12,8 +12,8 @@ jobs:
           JEKYLL_DESTINATION: _site
           CI_WORKSPACE: _workspace
           SSH_STRING: ssh -o StrictHostKeyChecking=no -p1002
-          SSH_HOST: kbsync@kb6.xcart.net
-          SSH_HOST_RU: kbsync@kb6.xcart.net
+          SSH_HOST: kbsync@kb20.xcart.net
+          SSH_HOST_RU: kbsync@kb20.xcart.net
           # SSH_HOST_RU: kbsync@95.181.198.245
     steps:
       - checkout
