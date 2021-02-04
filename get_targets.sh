@@ -19,8 +19,6 @@ KB_EN_DIFF="$(git diff $REVISION HEAD --name-only _pages/kb_en)"
 KB_RU_DIFF="$(git diff $REVISION HEAD --name-only _pages/kb_ru)"
 MAIN_DIFF="$(git diff $REVISION HEAD --name-only !(_pages|attachments))"
 
-echo $MAIN_DIFF
-
 if [ ! -z "$MAIN_DIFF" ]
   then
     touch "$1/devs_en"
