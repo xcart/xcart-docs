@@ -41,9 +41,9 @@ The settings are as follows:
 
 *  **Cloud Zoom Mode** : Choose whether you want the zoomed image to be displayed inside the general image area or outside of it. (_becomes available only if Cloud Zoom is ON_)
 
-* **Use blurred image placeholders for smart image loading** : When enabled, pre-loaded low resolution images or single color background image placeholders are used to replace the actual full resolution images on the storefront before they are fully loaded.
+* **Use lazy loading** : If enabled, pre-loaded low resolution images or single color background image placeholders are used to replace the actual full resolution images on the storefront before they are fully loaded.
   {% note info %}
-  If you do not see the setting **Use blurred image placeholders for smart image loading** on the page, it is not supported by the skin installed in your X-Cart store at the moment.
+  If you do not see the setting **Use lazy loading** on the page, it is not supported by the skin installed in your X-Cart store at the moment.
   {% endnote %}
 
 After the above listed image settings comes a chart that provides information on the dimension limits  (width(px) and height(px)) for different types of images. (Note that these may be different depending on the {% link "skin installed" ref_GLqVdpgd %}). 
