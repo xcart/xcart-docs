@@ -2,10 +2,12 @@
 lang: en
 layout: article_with_sidebar
 updated_at: '2021-02-22 10:25 +0400'
-identifier: ref_0i1sooJi
-title: ''
-order: 100
+identifier: ref_changelog1
+title: Changelog
+order: 11
 published: false
+description: Discover new features and bugfixes
+icon: announcement
 ---
 <div class="ui vertical padded center aligned basic segment">
     <div class="ui statistics">
