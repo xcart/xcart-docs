@@ -54,13 +54,13 @@ A video guide for installing X-Cart (filmed using X-Cart 5.3.1.4) is available:
     for zip archive: 
 
     ```php
-    unzip x-cart-5.4.1.23-en.zip
+    unzip x-cart-5.4.1.24-en.zip
     ```
 
     for tgz archive: 
 
     ```php
-    tar -xzpf x-cart-5.4.1.23-en.tgz
+    tar -xzpf x-cart-5.4.1.24-en.tgz
     ```
 
     (Be sure to replace the file name with the actual name of your package archive).
