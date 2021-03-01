@@ -139,7 +139,8 @@ Data import for the Make/Model/Year addon can also be done in two different ways
    make/model/year : all/A5/2012
      
    In this case new items will be added to all existing Make levels (make1/A5/2012, … makeNN/A5/2012). You can even import values as make/model/year: all,all,all and the SKU will be added to all existing Make/Model/Year levels. 
-     
+   
+   If you need to import a product in several but not all levels, you will need to duplicate SKU for each particular make/model/year level.
    {% endnote %}
      
 
