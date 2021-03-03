@@ -51,7 +51,7 @@ Credit card fraud is the most common security threat that online retailers face.
 
    X-Cart has a built-in antifraud protection via the addon {% link "AntiFraud Service Connector" ref_6oaerFUv %}. The addon helps to identify online fraud using sophisticated checking algorithm and reduces chargebacks.
    
-   As an additional mean of protection don't allow anonimous checkout. You can engage customers in registering an account with your store using the addon {% link "Register On Checkout" ref_1IYxME8O %}. 
+   As an additional mean of protection don't allow anonymous checkout. You can engage customers in registering an account with your store using the addon {% link "Register On Checkout" ref_1IYxME8O %}. 
 
 3. Address Verification System (AVS)
    
