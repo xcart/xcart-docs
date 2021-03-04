@@ -6,6 +6,9 @@ identifier: ref_1T0EXlkr
 title: Exit Offers
 order: 91
 published: true
+version: >-
+  The add-on is deprecated. Exit offers functionality is currently available in
+  the Pop-up Anywhere add-on.
 ---
 The addon [Exit Offers](https://market.x-cart.com/addons/exit-offers.html "Exit Offers") allows to display an exit popup when a visitor moves the mouse up to the close button and is about to leave the site. This way it is possible to grab visitors back right when they are about to leave the store and recover sales.
 
