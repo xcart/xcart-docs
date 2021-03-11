@@ -429,4 +429,4 @@ Let us walk through each method in this class and see what they do:
 Try to export Import Entities and then import them back. Try to modify bodies of Import Entities and make sure that these changes are saved after import. Try to import an Import Entity without 'id' and make sure that it creates a new entity. Try to import an entity with empty 'body' and make sure you receive an error.
 
 You can download the module pack from here:
-[https://www.dropbox.com/s/unmof7i4238zh7k/XCExample-ImportExportDemo-v5_3_0.tar](https://www.dropbox.com/s/unmof7i4238zh7k/XCExample-ImportExportDemo-v5_3_0.tar?dl=0 "Importing / Exporting your entities")
+[XCExample-ImportExportDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-ImportExportDemo-v5_3_0.tar)

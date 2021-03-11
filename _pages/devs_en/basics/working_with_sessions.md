@@ -166,4 +166,4 @@ If you want to see the initial message, you will have to clean up your cookies.
 
 ## Module example
 
-This module pack can be downloaded from here: <https://www.dropbox.com/s/pia5t536s5nr7ib/XCExample-SessionDemo-v5_3_0.tar>
+This module pack can be downloaded from here: [XCExample-SessionDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-SessionDemo-v5_3_0.tar)

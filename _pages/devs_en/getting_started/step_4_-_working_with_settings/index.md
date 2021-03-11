@@ -130,7 +130,7 @@ Now we need to create a textarea option, so it could accept the user-defined HTM
 
 ## Module example
 
-The example of the module described above can be downloaded from here: [https://dl.dropboxusercontent.com/u/23858825/Tony-SettingsDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-SettingsDemo-v5_1_0.tar)
+The example of the module described above can be downloaded from here: [Tony-SettingsDemo-v5_1_0.tar]({{site.baseurl}}/attachments/modules/Tony-SettingsDemo-v5_1_0.tar)
 
 ## Different setting types
 

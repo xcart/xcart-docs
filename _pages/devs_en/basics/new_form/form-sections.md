@@ -12,7 +12,7 @@ This article is about creating sections in {% link "Model editing" ref_8MoO0Ob %
 
 The form must contain at least one section and there is always pre-defined section with name `default`. This article will explain how to create additional sections and what settings they have.
 
-During this article, we will be referring to [XCExample\ModelEditingAdvanced](https://www.dropbox.com/s/8b5mnhkp454q5gz/XCExample-ModelEditingAdvanced-v5_3_0.tar "Form sections") module as an example.
+During this article, we will be referring to [XCExample\ModelEditingAdvanced]({{site.baseurl}}/attachments/modules/XCExample-ModelEditingAdvanced-v5_3_0.tar) module as an example.
 
 This module creates a page `admin.php?target=example_product_edit_advanced`, where you can test model editing form.
 

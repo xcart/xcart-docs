@@ -189,4 +189,4 @@ In this guide we will create a page `cart.php?target=all_products` and then disp
 
 ## Module pack
 
-You can download this module from here: <https://www.dropbox.com/s/vhmeeo25vpkfkl4/XCExample-AllProductsDemo-v5_3_0.tar>
+You can download this module from here: [XCExample-AllProductsDemo-v5_3_0.tar)]({{site.baseurl}}/attachments/modules/XCExample-AllProductsDemo-v5_3_0.tar)

@@ -126,4 +126,4 @@ Our module pack contains both variants, so you will see the result like this:
 
 ## Module pack
 
-You can download pack of this module from here: <https://www.dropbox.com/s/nin8p1mj0m4apy7/XCExample-FormFieldDemo-v5_3_0.tar>
+You can download pack of this module from here: []({{site.baseurl}}/attachments/modules/XCExample-FormFieldDemo-v5_3_0.tar)

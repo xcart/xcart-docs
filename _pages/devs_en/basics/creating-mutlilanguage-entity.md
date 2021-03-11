@@ -246,4 +246,4 @@ After that we add our ItemsList to the template, so we edit `skins/admin/modules
 Now if go to the admin.php?target=quick_messages page and try to add new messages. For instance add one with the text ‘English’. After that switch a language to, say, German and you will see that the message still reads as ‘English’. Change the text to ‘German’, save and then switch back to English language. The message will still say ‘English’.
 
 ## Module pack
-You can download the module from here: [https://www.dropbox.com/s/aia820iy48s5ber/XCExample-MultilanguageEntityDemo-v5_3_0.tar](https://www.dropbox.com/s/aia820iy48s5ber/XCExample-MultilanguageEntityDemo-v5_3_0.tar?dl=0 "Creating multi-language entity")
+You can download the module from here: [XCExample-MultilanguageEntityDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-MultilanguageEntityDemo-v5_3_0.tar)

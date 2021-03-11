@@ -212,4 +212,4 @@ Here is how it is going to look like:
 
 ## Module page
 
-You can download this module example from here: <https://www.dropbox.com/s/js83vad6tblxxpn/XCExample-FormDemo-v5_3_0.tar>
+You can download this module example from here: [XCExample-FormDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-FormDemo-v5_3_0.tar)

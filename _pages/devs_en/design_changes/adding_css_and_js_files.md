@@ -135,7 +135,7 @@ There is an alternative way to add a new JS/CSS file to the layout and it requir
 ## Module example
 
 Here is a module example that adds CSS and JS files for customer and admin areas.
-<https://www.dropbox.com/s/ts1u6cdl57a0h3s/XCExample-CSSJSDemo-v5_3_0.tar>
+[XCExample-CSSJSDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-CSSJSDemo-v5_3_0.tar)
 
 - CSS for customer area: `skins/customer/modules/XCExample/CSSJSDemo/css/style.css`;
 - JS for customer area: `skins/customer/modules/XCExample/CSSJSDemo/js/script.js`;

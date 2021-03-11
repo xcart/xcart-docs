@@ -126,4 +126,4 @@ That is it. You can check the results on the details page of the test product we
 
 ## Module pack
 
-You can download this module pack from here: <https://www.dropbox.com/s/0d6104q1cnb21xq/XCExample-AjaxProductWidget-v5_3_0.tar>
+You can download this module pack from here: [XCExample-AjaxProductWidget-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-AjaxProductWidget-v5_3_0.tar>)

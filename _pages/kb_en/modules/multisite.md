@@ -7,5 +7,5 @@ title: Multisite
 order: 176
 published: true
 redirect_to: >-
-  https://www.dropbox.com/s/dsimi1bdy3na2us/X-Cart-Multisites-addon-UserManual.pdf?dl=0
+  https://kb.x-cart.com/attachments/docs/X-Cart-Multisites-addon-UserManual.pdf
 ---

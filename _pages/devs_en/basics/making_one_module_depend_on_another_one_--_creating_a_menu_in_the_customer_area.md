@@ -112,7 +112,7 @@ Examples of usage:
 
 ## Module pack
 
-You can download this sample module from here: <https://www.dropbox.com/s/c2pc4gxe908hhco/XCExample-OverridingTopMenu-v5_3_0.tar>
+You can download this sample module from here: [XCExample-OverridingTopMenu-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-OverridingTopMenu-v5_3_0.tar)
 
 ## What if one module requires another one to work properly
 
@@ -140,4 +140,4 @@ Here is how we can achieve that.
 
 ## Second module pack
 
-Еxample of the DependenciesDemo module can be downloaded from here: <https://www.dropbox.com/s/94cqbnvlsapm7nm/XCExample-DependenciesDemo-v5_3_0.tar>
+Еxample of the DependenciesDemo module can be downloaded from here: []({{site.baseurl}}/attachments/modules/XCExample-DependenciesDemo-v5_3_0.tar)

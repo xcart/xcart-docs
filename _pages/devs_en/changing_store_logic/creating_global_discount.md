@@ -119,7 +119,7 @@ Once our **install.yaml** file is ready, we need to {% link "push it to the data
 
 ## Module pack
 
-You can download this module's pack from here: <https://www.dropbox.com/s/y71rdbevguh93yx/XCExample-DiscountDemo-v5_3_0.tar>
+You can download this module's pack from here: [XCExample-DiscountDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-DiscountDemo-v5_3_0.tar)
 
 ## Attachments:
 

@@ -405,4 +405,4 @@ After we save the changes, go to this product details page in customer zone and 
 
 ## Module pack
 
-You can download the pack of this module from here: <https://www.dropbox.com/s/dq1uz4na1in4ui2/XCExample-ImageWidgetDemo-v5_3_0.tar>
+You can download the pack of this module from here: [XCExample-ImageWidgetDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-ImageWidgetDemo-v5_3_0.tar)

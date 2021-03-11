@@ -440,4 +440,4 @@ We are done with this mod and we have to re-deploy the store one more time. If y
 
 ## Module pack
 
-You can download the code of this module here: <https://www.dropbox.com/s/kohxfzb2pb3qxvk/XCExample-NewEntityDemo-v5_3_0.tar>
+You can download the code of this module here: [XCExample-NewEntityDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-NewEntityDemo-v5_3_0.tar)

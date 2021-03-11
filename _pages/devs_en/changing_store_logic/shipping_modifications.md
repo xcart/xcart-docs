@@ -441,4 +441,4 @@ Then, go to customer area, add some product to a cart and proceed to checkout. Y
 
 ## Module pack
 
-You can download this module example from here: <https://www.dropbox.com/s/tmyxx85q1e64re6/XCExample-ShippingDemo-v5_3_0.tar>
+You can download this module example from here: [XCExample-ShippingDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-ShippingDemo-v5_3_0.tar)

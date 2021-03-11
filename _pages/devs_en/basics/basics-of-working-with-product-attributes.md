@@ -222,4 +222,4 @@ Now you can refresh the page and it will displays an information about this prod
 ![]({{site.baseurl}}/attachments/ref_681m1O5Q/attribute-info.png)
 
 ## Module pack
-You can download the aforementioned module from here: [https://www.dropbox.com/s/28g7ozp0m23mf3f/XCExample-AttributesDemo-v5_3_0.tar](https://www.dropbox.com/s/28g7ozp0m23mf3f/XCExample-AttributesDemo-v5_3_0.tar?dl=0 "Basics of working with product attributes")
+You can download the aforementioned module from here: [XCExample-AttributesDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-AttributesDemo-v5_3_0.tar)

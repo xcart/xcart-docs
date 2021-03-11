@@ -117,7 +117,7 @@ For the sake of example, let us create `skins/theme_demo/customer/layout/header/
 If we refresh the page, we will see 'My logo' label instead of default X-Cart logo.
 ![my-logo.png]({{site.baseurl}}/attachments/ref_fCqWygpc/my-logo.png)
 
-Pack of this demo module can be downloaded from here: [https://www.dropbox.com/s/zduqxyx9yvlid1h/XCExample-ThemeDemo-v5_3_0.tar](https://www.dropbox.com/s/zduqxyx9yvlid1h/XCExample-ThemeDemo-v5_3_0.tar?dl=0)
+Pack of this demo module can be downloaded from here: [XCExample-ThemeDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-ThemeDemo-v5_3_0.tar)
 
 Moreover, if you want to theme your store quickly, there is already module **XC/CustomSkin** which is just a blank theme.
 
@@ -298,4 +298,4 @@ The module pack below has the `moveClassesInLists()` method commented out, in or
 
 ## Module pack
 Pack of the module can be downloaded from here:
-[https://www.dropbox.com/s/91q36dsuqb5di19/XCExample-DesignChangesDemo-v5_3_0.tar](https://www.dropbox.com/s/91q36dsuqb5di19/XCExample-DesignChangesDemo-v5_3_0.tar?dl=0)
+[XCExample-DesignChangesDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-DesignChangesDemo-v5_3_0.tar)

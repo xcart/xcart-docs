@@ -173,4 +173,4 @@ As you can see you can access this new property in template the same way as othe
 ```
 
 ## Module pack
-You can download this module pack from here: [https://www.dropbox.com/s/ny81po07zxqnvku/XCExample-ProductPropertyDemo-v5_3_0.tar](https://www.dropbox.com/s/ny81po07zxqnvku/XCExample-ProductPropertyDemo-v5_3_0.tar?dl=0)
+You can download this module pack from here: [XCExample-ProductPropertyDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-ProductPropertyDemo-v5_3_0.tar)

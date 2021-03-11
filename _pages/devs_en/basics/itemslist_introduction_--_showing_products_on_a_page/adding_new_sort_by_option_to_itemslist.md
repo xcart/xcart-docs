@@ -75,4 +75,4 @@ That is it. Now we can re-deploy the store and check the results in store-front.
 
 ## Module pack
 
-You can download this module example from here: <https://www.dropbox.com/s/0jzw1occl5qurm2/XCExample-SortingByDate-v5_3_0.tar>
+You can download this module example from here: [XCExample-SortingByDate-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-SortingByDate-v5_3_0.tar)

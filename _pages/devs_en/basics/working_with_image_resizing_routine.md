@@ -64,4 +64,4 @@ In order to disable image resizing routine in a whole store you can apply the fo
 
 ## Module pack
 
-You can download this module example here: <https://www.dropbox.com/s/if0i5bomwyvuefj/XCExample-DisableImageResize-v5_3_0.tar>
+You can download this module example here: [XCExample-DisableImageResize-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-DisableImageResize-v5_3_0.tar)

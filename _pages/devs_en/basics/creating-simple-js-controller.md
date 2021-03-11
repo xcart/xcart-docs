@@ -338,4 +338,4 @@ As you can see, we return info about a random product only if the request is mad
 
 ## Module pack
 You can download the entire module described in this article from here:
-[https://www.dropbox.com/s/u3ovulxn3rpwyrl/XCExample-JsControllerDemo-v5_3_0.tar](https://www.dropbox.com/s/u3ovulxn3rpwyrl/XCExample-JsControllerDemo-v5_3_0.tar?dl=0)
+[XCExample-JsControllerDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-JsControllerDemo-v5_3_0.tar)

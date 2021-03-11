@@ -177,4 +177,4 @@ That is it. Now we can check results in storefront. If we open the same product'
 
 ## Module pack
 
-You can download this module example from here: <https://www.dropbox.com/s/xqwxsczsi8qnxre/XCExample-HidingAttributes-v5_3_0.tar>
+You can download this module example from here: [XCExample-HidingAttributes-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-HidingAttributes-v5_3_0.tar)

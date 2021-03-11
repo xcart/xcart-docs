@@ -177,4 +177,4 @@ _Note: if you need to create search() method for your own entity, use {% link "t
 
 ## Module pack
 
-You can download this module example from here: [https://dl.dropboxusercontent.com/u/23858825/Tony-SearchRepoDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-SearchRepoDemo-v5_1_0.tar)
+You can download this module example from here: [Tony-SearchRepoDemo-v5_1_0.tar]({{site.baseurl}}/attachments/modules/Tony-SearchRepoDemo-v5_1_0.tar)

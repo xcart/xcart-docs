@@ -151,7 +151,7 @@ and in your mailbox.
 
 ## Module pack
 
-You can download this module example from here: <https://www.dropbox.com/s/xp0pyjj0mspujs1/XCExample-InvoiceChangeDemo-v5_3_0.tar>
+You can download this module example from here: [XCExample-InvoiceChangeDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-InvoiceChangeDemo-v5_3_0.tar)
 
 ## Attachments:
 

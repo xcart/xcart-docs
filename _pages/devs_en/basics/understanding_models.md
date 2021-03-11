@@ -247,4 +247,4 @@ entity text: test value
 
 ## Module pack
 
-You can download this example module from here: <https://www.dropbox.com/s/m75ajzpg3c9bbno/XCExample-RepoDemo-v5_3_0.tar>
+You can download this example module from here: [XCExample-RepoDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-RepoDemo-v5_3_0.tar)

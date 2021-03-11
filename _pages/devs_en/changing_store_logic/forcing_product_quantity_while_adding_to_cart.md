@@ -122,4 +122,4 @@ If you want to see the PHP check in action, then go the JS file, comment out its
 
 ## Module pack
 
-You can download this module example from here: <https://www.dropbox.com/s/u2fq9md0ath1w1w/XCExample-AddQuantity-v5_3_0.tar>
+You can download this module example from here: [XCExample-AddQuantity-v5_3_0.ta]({{site.baseurl}}/attachments/modules/XCExample-AddQuantity-v5_3_0.tar)

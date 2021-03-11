@@ -126,5 +126,5 @@ Now we go to the customer area of your store and check the results. Just add thr
 
 You can download this module example from here: 
 
-* (X-Cart 5.3) [XCExample-FreeItem-v5_3_0.tar](https://www.dropbox.com/s/yzpgj95yjz7zguv/XCExample-FreeItem-v5_3_0.tar)
-* (X-Cart 5.1) [https://dl.dropboxusercontent.com/u/23858825/Tony-FreeItemDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-FreeItemDemo-v5_1_0.tar)
+* (X-Cart 5.3) [XCExample-FreeItem-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-FreeItem-v5_3_0.tar)
+* (X-Cart 5.1) [Tony-FreeItemDemo-v5_1_0.tar]({{site.baseurl}}/attachments/modules/Tony-FreeItemDemo-v5_1_0.tar)

@@ -333,4 +333,4 @@ We do not need to do anything with email's body, because the text we defined in 
 
 ## Module pack
 You can download this module's pack from here:
-<https://www.dropbox.com/s/pr9wf4h80mswcp6/XCExample-EmailDemo-v5_3_0.tar>
+[XCExample-EmailDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-EmailDemo-v5_3_0.tar)

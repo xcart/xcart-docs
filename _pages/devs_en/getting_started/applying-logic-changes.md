@@ -136,4 +136,4 @@ Be aware though that other modules can also change default behavior and you migh
 
 ## Module pack
 
-You can download the module pack from here: [https://www.dropbox.com/s/wp062n38bs5t715/XCExample-DecoratorDemo-v5_3_0.tar](https://www.dropbox.com/s/wp062n38bs5t715/XCExample-DecoratorDemo-v5_3_0.tar?dl=0)
+You can download the module pack from here: [XCExample-DecoratorDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-DecoratorDemo-v5_3_0.tar)

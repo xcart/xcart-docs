@@ -109,4 +109,4 @@ Now we are done with the mod and have to re-deploy the store. Once it is done, c
 _Note: using the same approach you can create three column layout or a vertical layout without sidebars._
 
 ## Module pack
-You can download this module example from here: <https://www.dropbox.com/s/z2dctsimojrtc4o/Tony-RightColumnDemo-v5_1_0.tar>
+You can download this module example from here: [Tony-RightColumnDemo-v5_1_0.tar]({{site.baseurl}}/attachments/modules/Tony-RightColumnDemo-v5_1_0.tar)

@@ -218,4 +218,4 @@ If you want to add property to import/export of categories, users etc, then the 
 
 That is it for the module. Now you can try to go to admin area, pick a product and define its 'Test Field' property as you want. Then, export this product and make sure that the 'testField' column has the same value. After that, define a new value for this column and import the file back. 'Test Field' property should be updated accordingly.
 
-You can download the pack of this module from here: [https://www.dropbox.com/s/a8c99duar38dh17/XCExample-ProductExportDemo-v5_3_0.tar](https://www.dropbox.com/s/a8c99duar38dh17/XCExample-ProductExportDemo-v5_3_0.tar?dl=0)
+You can download the pack of this module from here: [XCExample-ProductExportDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-ProductExportDemo-v5_3_0.tar)

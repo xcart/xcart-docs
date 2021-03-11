@@ -80,4 +80,4 @@ Our mod is done. Now we need to re-deploy the store and check the results in cus
 
 ## Module pack
 
-You can download this module from here: <https://www.dropbox.com/s/qg8y6dk3n00noej/XCExample-FooterDemo-v5_3_0.tar>
+You can download this module from here: [XCExample-FooterDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-FooterDemo-v5_3_0.tar)

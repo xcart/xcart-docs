@@ -165,4 +165,4 @@ We are done with the mod. Reload the page and check the results:
 
 ## Module pack
 
-You can download this module from here: <https://www.dropbox.com/s/t69i7wkop0osdu6/XCExample-AdminMenuDemo-v5_3_0.tar>
+You can download this module from here: [XCExample-AdminMenuDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-AdminMenuDemo-v5_3_0.tar)

@@ -115,7 +115,7 @@ Now we re-deploy the store and once it is finished we go to `admin.php?target=fo
 
 ## Module pack
 
-You can download an example of this module from here: [https://dl.dropboxusercontent.com/u/23858825/Tony-FormFieldDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-FormFieldDemo-v5_1_0.tar)
+You can download an example of this module from here: [Tony-FormFieldDemo-v5_1_0.tar]({{site.baseurl}}/attachments/modules/Tony-FormFieldDemo-v5_1_0.tar)
 
 ## Attachments:
 

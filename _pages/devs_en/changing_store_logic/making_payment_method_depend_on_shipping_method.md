@@ -85,4 +85,4 @@ As you can see, the **Credit Card** payment method is hidden now.
 
 ## Module pack
 
-You can download the example module from here: <https://www.dropbox.com/s/qszz21dsofveck3/XCExample-PaymentShippingDependency-v5_3_0.tar>
+You can download the example module from here: [XCExample-PaymentShippingDependency-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-PaymentShippingDependency-v5_3_0.tar)

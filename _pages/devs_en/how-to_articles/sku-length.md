@@ -52,4 +52,4 @@ This article explains how you can increase sku's length for your products. X-Car
 That is it. Once you enable this module, your product sku's length will be increased to 255 characters.
 
 ## Module pack
-You can downlad this module pack from here: <https://www.dropbox.com/s/5ukvxs295m590rt/XCMod-SkuLength-v5_3_0.tar>
+You can downlad this module pack from here: [XCMod-SkuLength-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCMod-SkuLength-v5_3_0.tar)

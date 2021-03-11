@@ -226,4 +226,4 @@ Similarly, we would build actual MySQL code using these values in `getSql()` met
 ```
 
 ## Module example
-You can download this module example from here: <https://www.dropbox.com/s/5ws6xubhbu27i5k/XCExample-CustomDoctrineFunction-v5_3_0.tar>
+You can download this module example from here: [XCExample-CustomDoctrineFunction-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-CustomDoctrineFunction-v5_3_0.tar)

@@ -237,7 +237,7 @@ Now it is time to re-deploy the store and see our changes in action.
 
 ## Module pack
 
-The entire mod can be downloaded from here: [https://dl.dropboxusercontent.com/u/23858825/Tony-CMSIntegration-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-CMSIntegration-v5_1_0.tar)
+The entire mod can be downloaded from here: [Tony-CMSIntegration-v5_1_0.tar]({{site.baseurl}}/attachments/modules/Tony-CMSIntegration-v5_1_0.tar)
 
 ## Working with users
 

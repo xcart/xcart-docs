@@ -207,4 +207,4 @@ SELECT * FROM xc_config WHERE category = "XCExample\\ControllerDemo";
 
 ## Module pack
 
-You can download this module example from here: <https://www.dropbox.com/s/0lseyb8ishfcs52/XCExample-ControllerDemo-v5_3_0.tar>
+You can download this module example from here: [XCExample-ControllerDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-ControllerDemo-v5_3_0.tar)

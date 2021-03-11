@@ -78,4 +78,4 @@ For the sake of example, I will show how to insert <u>Hello world on {the curre
 
 ## Module example
 
-You can download the module pack here: [https://dl.dropboxusercontent.com/u/23858825/Tony-ViewerDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-ViewerDemo-v5_1_0.tar)
+You can download the module pack here: [Tony-ViewerDemo-v5_1_0.tar]({{site.baseurl}}/attachments/modules/Tony-ViewerDemo-v5_1_0.tar)

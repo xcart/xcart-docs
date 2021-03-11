@@ -568,4 +568,4 @@ Once you select any records, it will show up:
 ## Module pack
 
 All code examples described in this article are available as a module here:
-<https://www.dropbox.com/s/2fcdldyyj2gt8s9/XCExample-ItemsListStickyPanel-v5_3_0.tar>
+[XCExample-ItemsListStickyPanel-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-ItemsListStickyPanel-v5_3_0.tar)

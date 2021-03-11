@@ -341,4 +341,4 @@ If you open `admin.php?target=model_editing_demo&product_id=10` page, then you w
 
 As you can see, X-Cart picked up properties of the product and you can edit it via this form.
 
-You can download this module example from here: <https://www.dropbox.com/s/kjk313sgn6hk9ie/XCExample-ModelEditingDemo-v5_3_0.tar>
+You can download this module example from here: [XCExample-ModelEditingDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-ModelEditingDemo-v5_3_0.tar)

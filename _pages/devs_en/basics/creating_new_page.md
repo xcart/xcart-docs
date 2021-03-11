@@ -277,5 +277,5 @@ Imagine, we have a similar task of creating page (`cart.php?target=tony_custom`)
 
 ## Module pack
 
-- For X-Cart 5.2.x and earlier: <https://www.dropbox.com/s/6amqcyoz6cxaqmg/Tony-PageDemo-v5_1_0.tar>
-- For X-Cart 5.3.x and later: <https://www.dropbox.com/s/sjsfhlae3jos283/Tony-PageDemo-v5_3_0.tar>
+- For X-Cart 5.2.x and earlier: [Tony-PageDemo-v5_1_0.tar]({{site.baseurl}}/attachments/modules/Tony-PageDemo-v5_1_0.tar)
+- For X-Cart 5.3.x and later: [Tony-PageDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/Tony-PageDemo-v5_3_0.tar)

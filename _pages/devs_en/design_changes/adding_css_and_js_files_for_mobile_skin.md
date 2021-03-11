@@ -57,4 +57,4 @@ This article describes how developers can include CSS/JS files to X-Cart which h
 
 ## Module pack
 
-You can download this module example here: [https://dl.dropboxusercontent.com/u/23858825/Tony-MobileCSS-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-MobileCSS-v5_1_0.tar)
+You can download this module example here: [Tony-MobileCSS-v5_1_0.tar]({{site.baseurl}}/attachments/modules/Tony-MobileCSS-v5_1_0.tar)

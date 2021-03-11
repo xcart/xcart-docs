@@ -282,4 +282,4 @@ When you click the button on the page, you will see a pop-up widget like this:
 
 ## Module example
 
-You can download this module's pack from here: <https://www.dropbox.com/s/vc78vrh56x336im/XCExample-PopupDemo-v5_3_0.tar>
+You can download this module's pack from here: [XCExample-PopupDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-PopupDemo-v5_3_0.tar)

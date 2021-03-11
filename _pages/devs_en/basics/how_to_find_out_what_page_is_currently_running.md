@@ -144,4 +144,4 @@ Now, we need to re-deploy the store and check the results in customer store-fron
 
 ## Module pack
 
-You can download this module pack from here: <https://www.dropbox.com/s/nqi11b7eoimcn64/XCExample-ControllerDetectionDemo-v5_3_0.tar>
+You can download this module pack from here: [XCExample-ControllerDetectionDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-ControllerDetectionDemo-v5_3_0.tar)

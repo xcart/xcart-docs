@@ -438,5 +438,5 @@ Since we already invested time creating handlers for those properties, this piec
 In that sense `search()` method is pretty handy, when you have a bunch of conditions that need to be combined in different variations.
 
 {% note info %}
-The module we created can be downloaded from here: <https://www.dropbox.com/s/8bxtoclqtorkdy6/XCExample-SearchRepoDemo-v5_3_0.tar>
+The module we created can be downloaded from here: [XCExample-SearchRepoDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-SearchRepoDemo-v5_3_0.tar)
 {% endnote %}

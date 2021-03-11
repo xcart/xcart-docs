@@ -14,7 +14,7 @@ published: true
 
 This article explains how you can define fields in {% link "model editing form" ref_8MoO0Ob %}.
 
-Throughout the article we will be refering to [XCExample\ModelEditingAdvanced](https://www.dropbox.com/s/8b5mnhkp454q5gz/XCExample-ModelEditingAdvanced-v5_3_0.tar "Form sections") module as an example. It creates `target=example_product_edit_advanced` page in admin area, where you can play with form fields.
+Throughout the article we will be refering to [XCExample\ModelEditingAdvanced]({{site.baseurl}}/attachments/modules/XCExample-ModelEditingAdvanced-v5_3_0.tar) module as an example. It creates `target=example_product_edit_advanced` page in admin area, where you can play with form fields.
 
 {% toc Table of Contents %}
 

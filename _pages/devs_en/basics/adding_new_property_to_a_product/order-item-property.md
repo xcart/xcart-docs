@@ -268,4 +268,4 @@ This mod does not display the property on invoice page in admin area and in emai
 
 ## Module pack
 
-You can download the demo module from here: <https://www.dropbox.com/s/5bnng72s6r3lfn5/XCExample-PersistentProductPropertyDemo-v5_3_0.tar>
+You can download the demo module from here: [XCExample-PersistentProductPropertyDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-PersistentProductPropertyDemo-v5_3_0.tar)

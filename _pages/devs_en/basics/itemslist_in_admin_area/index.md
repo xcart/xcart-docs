@@ -311,4 +311,4 @@ That is it. Now we need to re-deploy the store and you will see our ItemsList on
 
 ## Module pack
 
-You can download this module's example from here: [https://www.dropbox.com/s/m78l2ns0pxuh8k4/XCExample-ItemsListAdminDemo-v5_3_0.tar](https://www.dropbox.com/s/m78l2ns0pxuh8k4/XCExample-ItemsListAdminDemo-v5_3_0.tar)
+You can download this module's example from here: [XCExample-ItemsListAdminDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-ItemsListAdminDemo-v5_3_0.tar)

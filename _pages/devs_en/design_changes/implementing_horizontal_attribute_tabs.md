@@ -91,4 +91,4 @@ That is it, now you should see the change applied in customer area.
 
 ## Module pack
 
-You can download this module pack from here: <https://www.dropbox.com/s/zy88lg3ci7gfovg/XCMod-ProductTabsChange-v5_3_0.tar>
+You can download this module pack from here: [XCMod-ProductTabsChange-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCMod-ProductTabsChange-v5_3_0.tar)

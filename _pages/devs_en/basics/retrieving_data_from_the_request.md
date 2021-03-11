@@ -114,4 +114,4 @@ This article teaches X-Cart developers how to retrive data from requests to X-Ca
 
 ## Module pack
 
-You can download this module sample from here: <https://www.dropbox.com/s/e123t5ijl00x4c9/XCExample-RequestDemo-v5_3_0.tar>
+You can download this module sample from here: [XCExample-RequestDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-RequestDemo-v5_3_0.tar)

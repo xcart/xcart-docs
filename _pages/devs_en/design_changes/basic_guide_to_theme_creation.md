@@ -64,7 +64,7 @@ If we want to make our module to be a skin and dramatically change the X-Cart ap
 
 ## Module example
 
-You can download this module sample here: [https://dl.dropboxusercontent.com/u/23858825/Tony-SkinDemo-v5_1_0.tar](https://dl.dropboxusercontent.com/u/23858825/Tony-SkinDemo-v5_1_0.tar)
+You can download this module sample here: [Tony-SkinDemo-v5_1_0.tar]({{site.baseurl}}/attachments/modules/Tony-SkinDemo-v5_1_0.tar)
 
 ## Using ThemeTweaker module
 

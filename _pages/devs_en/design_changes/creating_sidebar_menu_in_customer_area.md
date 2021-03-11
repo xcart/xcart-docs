@@ -68,4 +68,4 @@ If we open some category page now, we should see the following results there:
 
 ## Module pack
 
-You can download this module pack from here: <https://www.dropbox.com/s/p5f6imif2vkuvsj/XCExample-CustomerMenu-v5_3_0.tar>
+You can download this module pack from here: [XCExample-CustomerMenu-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-CustomerMenu-v5_3_0.tar)

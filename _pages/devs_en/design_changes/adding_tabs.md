@@ -69,4 +69,4 @@ That is it with this mod, let us check the results on any product details page, 
 
 ## Module pack
 
-You can download this mod from here: <https://www.dropbox.com/s/hql8e6sohjvs2e3/XCExample-ProductTabDemo-v5_3_0.tar>
+You can download this mod from here: [XCExample-ProductTabDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-ProductTabDemo-v5_3_0.tar)

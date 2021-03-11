@@ -119,7 +119,7 @@ and you cannot insert it into the web-page code using custom JS/CSS code fields 
 
 ## Module example
 
-The pack of the module described above can be downloaded from here: <https://www.dropbox.com/s/bzhelwgkow7p1s1/XCExample-SettingsDemo-v5_3_0.tar>
+The pack of the module described above can be downloaded from here: [XCExample-SettingsDemo-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-SettingsDemo-v5_3_0.tar)
 
 ## Different setting types
 

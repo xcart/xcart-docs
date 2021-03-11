@@ -286,4 +286,4 @@ while product details pages have 'Old price' section:
 
 ## Module example
 
-You can download this module pack from here: <https://www.dropbox.com/s/dk4z7vhr6sp87cp/XCExample-ProductDiscount-v5_3_0.tar>
+You can download this module pack from here: [XCExample-ProductDiscount-v5_3_0.tar]({{site.baseurl}}/attachments/modules/XCExample-ProductDiscount-v5_3_0.tar)
