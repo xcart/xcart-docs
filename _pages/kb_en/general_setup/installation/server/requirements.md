@@ -57,7 +57,9 @@ Here is the system requirements list:
 ## Hardware Requirements
 
 {% note warning %}
-Use X-Cart on \*NIX-based servers only (Ubuntu, Debian, CentOS etc.)!
+X-Cart does NOT recommend shared web hosting due to limited resources. Please consider using VPS or dedicated servers as a host for your store. 
+
+Use only \*NIX-based servers (Ubuntu, Debian, CentOS etc.)!
 {% endnote %}
 
 <table class="ui celled padded compact small table">
