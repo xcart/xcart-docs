@@ -11,7 +11,9 @@ order: 0
 redirect_from:
   - /general_setup/installation_guide.html
 ---
-
+{% note warning %}
+X-Cart does NOT recommend shared web hosting due to limited resources. Please consider using VPS or dedicated servers as a host for your store.
+{% endnote %}
 
 ## Introduction
 
