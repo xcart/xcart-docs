@@ -19,7 +19,7 @@ _In this section:_
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
 *   {% link "Add to Cart PopUp" ref_1iGC8Efj %}
 *   {% link "Age Verification" ref_2WwBaO2d %}
-*   {% link "Amazon Feeds" ref_4UNr3oKZ %}
+*   {% link "Amazon Feeds" ref_4UNr3oKZ %} (Deprecated)
 *   {% link "Amazon Pay" ref_mri0tPhM %} (former "Pay with Amazon")
 *   {% link "Amazon S3 Images" ref_7b9XLDHj %}
 *   {% link "AntiFraud Service Connector" ref_6oaerFUv %}
@@ -48,7 +48,7 @@ _In this section:_
 *   {% link "DHL" ref_3dwzJG71 %}
 *   {% link "Disable drag'n'drop add to cart" ref_2NVSkzc3 %}
 *   {% link "E-goods" ref_ZszpDfxQ %}
-*   {% link "Exit Offers" ref_1T0EXlkr %}
+*   {% link "Exit Offers" ref_1T0EXlkr %} (Deprecated)
 *   {% link "Facebook Ads and Instagram Ads" ref_LA0TBHEA %} (Formerly known as Facebook eCommerce)
 *   {% link "FedEx" ref_58tOKWMt %}
 *   {% link "File Attachments" ref_0ZWKcob4 %}
@@ -62,7 +62,7 @@ _In this section:_
 *   {% link "Google Product Feed" ref_2gQBB6qM %}
 *   {% link "Google reCAPTCHA " ref_4S6YEcnH %}
 *   {% link "Go Social" ref_4YoBovhW %}
-*   {% link "Hide Prices" ref_46jNUlWG %}
+*   {% link "Hide Prices" ref_46jNUlWG %} (Deprecated)
 *   {% link "Horizontal Flyout Categories Menu" ref_1mFs8c7N %}
 *   {% link "Hurry Up" ref_4XQjes9g %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
@@ -75,7 +75,7 @@ _In this section:_
 *   {% link "Messages" ref_0pnZpHq3 %}
 *   {% link "Multicurrency" ref_2tPJubPU %}
 *   {% link "Multilevel Primary Menu" ref_3yEqhwsC %}
-*   {% link "Multisite" ref_6Hts2zUf %} [by MercuryMinds](https://market.x-cart.com/mercuryminds-technologies.html)
+*   {% link "Multisite" ref_6Hts2zUf %} [by MercuryMinds](https://market.x-cart.com/mercuryminds-technologies.html) (Deprecated)
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
 *   {% link "News" ref_0UBPXGXi %}
 *   {% link "Newsletter Subscriptions" ref_2WzsM3Pg %}
@@ -109,7 +109,7 @@ _In this section:_
 *   {% link "SEO Health Check" ref_2RwDb3OY %}
 *   {% link "ShippingEasy" ref_HTml5LyW %}
 *   {% link "Shop by Brand" ref_2LetICls %}
-*   {% link "Shopgate - Mobile Commerce" ref_tHlhZwW1 %}
+*   {% link "Shopgate - Mobile Commerce" ref_tHlhZwW1 %} (Deprecated)
 *   {% link "Shopper Approved" ref_1leKQurL %}
 *   {% link "Social Login" ref_IapN8lJ8 %}
 *   {% link "Special Offers" ref_special_offers %}
