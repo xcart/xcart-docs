@@ -13,9 +13,9 @@ The **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal addon")** ad
 The PayPal API v1 inetgration can be used to enable payments via:
 
    *   {% link "Paypal Express Checkout" ref_7APKRZm3 %}
-   *   {% link "PayPal Payments Standard" ref_DT2EX6fz %}
-   *   {% link "PayPal Payments Advanced" ref_sO5X6iBT %}
-   *   {% link "PayPal Payflow Link" ref_mTCkpViN %}
+   *   {% link "Paypal Payments Standard" ref_6fTEi1Bv %}
+   *   {% link "Paypal Payments Advanced" ref_1QyLzhTg %}
+   *   {% link "Paypal Payflow Link" ref_5tBeUaTL %}
    *   {% link "PayPal for Marketplaces" ref_6iphJijP %} (supports multiple payment recipients; is recommended for X-Cart Multivendor PayPal Adaptive Payments)
    *   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %} (legacy)
    *   {% link "PayPal Partner Hosted with PCI Compliance" ref_0gaUolue %}
