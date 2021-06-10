@@ -28,7 +28,7 @@ To enable PayPal Payments Advanced as a payment method in your X-Cart store:
      
     Before you start accepting live transactions, you must fill out a short online credit application, which normally takes two days to process. Most applications are approved. In the event that your application is not approved, you can easily convert your account to Payflow Link and connect it with a merchant account from any major processor.
 
-2.  [Set up hosted checkout pages](https://developer.paypal.com/docs/classic/payflow/gs_ppa_hosted_pages/#set-up-hosted-checkout-pages "Set up hosted checkout pages") and [set up PayPal Manager](https://developer.paypal.com/docs/classic/payflow/test_hosted_pages/#set-up-paypal-manager "Set up PayPal Manager"). To promote security, be sure to enable the {% link "Secure Token setting" ref_rPvvhtm9 %} in your PayPal Manager account. 
+2.  [Set up hosted checkout pages](https://developer.paypal.com/docs/classic/payflow/gs_ppa_hosted_pages/#set-up-hosted-checkout-pages "Set up hosted checkout pages") and [set up PayPal Manager](https://developer.paypal.com/docs/classic/payflow/test_hosted_pages/#set-up-paypal-manager "Set up PayPal Manager"). To promote security, be sure to enable the {% link "Secure Token" ref_2RMhAWov %} in your PayPal Manager account. 
 
 3.  In X-Cart, add PayPal Payments Advanced to the list of your store's active payment methods and configure it.
 
