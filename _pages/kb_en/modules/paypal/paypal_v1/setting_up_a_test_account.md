@@ -27,18 +27,18 @@ To test Payflow Link or Paypal Advanced, you will need to set up two PayPal Sand
 
 8.  Log in to your new account at [PayPal Manager](https://manager.paypal.com/). Log in with the following credentials:
 
-*   Partner: PayPal
+	*   Partner: PayPal
 
-*   Merchant Login: The Merchant Login that you chose in step 7
+	*   Merchant Login: The Merchant Login that you chose in step 7
 
-*   User: Leave blank
+	*   User: Leave blank
 
-*   Password: The password that you chose in step 7
+	*   Password: The password that you chose in step 7
 
-1.  Click **Service Settings**.
+9.  Click **Service Settings**.
 
-2.  Under **Hosted Checkout Pages**, click **Set Up**.
+10.  Under **Hosted Checkout Pages**, click **Set Up**.
 
-3.  In the **PayPal Sandbox email address** box, enter the email address of your Sandbox merchant account (from step 5).
+11.  In the **PayPal Sandbox email address** box, enter the email address of your Sandbox merchant account (from step 5).
 
-4.  Click **Save Changes**.
+12.  Click **Save Changes**.
