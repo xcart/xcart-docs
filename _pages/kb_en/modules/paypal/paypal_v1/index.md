@@ -12,7 +12,7 @@ The **[PayPal](https://market.x-cart.com/addons/paypal.html "PayPal addon")** ad
 
 The PayPal API v1 inetgration can be used to enable payments via:
 
-   *   {% link "PayPal Express Checkout" ref_vHffMFLk %}
+   *   {% link "Paypal Express Checkout" ref_7APKRZm3 %}
    *   {% link "PayPal Payments Standard" ref_DT2EX6fz %}
    *   {% link "PayPal Payments Advanced" ref_sO5X6iBT %}
    *   {% link "PayPal Payflow Link" ref_mTCkpViN %}
