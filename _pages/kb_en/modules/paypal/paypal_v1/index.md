@@ -17,15 +17,15 @@ The PayPal API v1 inetgration can be used to enable payments via:
    *   {% link "Paypal Payments Advanced" ref_1QyLzhTg %}
    *   {% link "Paypal Payflow Link" ref_5tBeUaTL %}
    *   {% link "PayPal for Marketplaces" ref_6iphJijP %} (supports multiple payment recipients; is recommended for X-Cart Multivendor PayPal Adaptive Payments)
-   *   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %} (legacy)
-   *   {% link "PayPal Partner Hosted with PCI Compliance" ref_0gaUolue %}
-   *   {% link "PayPal Credit" ref_46r2geWj %}
+   *   {% link "PayPal Adaptive Payments (Legacy)" ref_3POUhEbN %} 
+   *   {% link "PayPal Partner Hosted with PCI Compliance" ref_7eTlEhGZ %}
+   *   {% link "PayPal Credit" ref_5V9vzVNN %}
    
     
 _See also:_
 
-*   {% link "Setting up a Test Account" ref_P9Imto9y %}
-*   {% link "Setting up PayPal IPN URL" ref_2rlawgsT %}
-*   {% link "Enabling the Secure Token Setting" ref_rPvvhtm9 %}
-*   {% link "Creating your Custom PayPal Payment Page" ref_PA8He4Vs %}
+*   {% link "Setting up a PayPal Test Account" ref_4F2CrJE8 %}
+*   {% link "Setting up PayPal IPN URL" ref_4SIF7fab %}
+*   {% link "Enabling the Secure Token Setting" ref_2RMhAWov %}
+*   {% link "Creating Your Custom PayPal Payment Page" ref_4QSNEdB3 %}
 *   {% link "Configuring PayPal Smart Payment Buttons" ref_6yI1dNPD %}
