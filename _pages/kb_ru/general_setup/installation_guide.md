@@ -212,13 +212,13 @@ X-Cart 5 работает в следующих браузерах:
     для zip-архива:
 
     ```php
-    unzip x-cart-5.4.1.30-ru.zip
+    unzip x-cart-5.4.1.31-ru.zip
     ```
 
     для tgz-архива: 
 
     ```php
-    tar -xzvf x-cart-5.4.1.30-ru.tgz  
+    tar -xzvf x-cart-5.4.1.31-ru.tgz  
     ```         
 (Не забудьте указать имя скачанного файла)
 
