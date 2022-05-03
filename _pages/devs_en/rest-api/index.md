@@ -32,7 +32,7 @@ Current latest version is [{{site.swagger_pages.latest_api}}]({{ '/rest-api/v' |
 
 ## Installing and configuring REST API
 
-In order to be able to access X-Cart's data externally, you have to [install](http://kb.x-cart.com/en/modules/managing_modules/index.html) the **REST API** module.
+In order to be able to access X-Cart's data externally, you have to [install](https://market.x-cart.com/addons/rest-api.html) the **REST API** module.
 After the module has been installed, you need to set it up.
 
 1.  Go to the **Settings** section for the REST API module: 
